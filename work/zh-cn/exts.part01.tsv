@@ -1,0 +1,247 @@
+0	描述图表的简短标题。
+1	全部接受为合并结果
+2	全部采用当前更改
+3	全部采用传入更改
+4	接受合并结果
+5	接受当前更改
+6	接受传入更改
+7	接受所选内容
+8	新增
+9	添加发行版
+10	将当前文件添加到对话
+11	允许 Cascade、Tab 和 supercomplete 查看并编辑 .gitignore 中的文件。
+12	附加到 Chrome
+13	附加到 Edge
+14	附加到集成浏览器
+15	附加到运行中的容器
+16	浏览器选项
+17	CPU Profile 表格可视化工具
+18	CUDA C++
+19	更改市场搜索结果的 base URL。[可用选项](https://github.com/VSCodium/vscodium/blob/master/docs/index.md#extensions-marketplace)。更改此值后必须重启 Devin 才能使用新市场。
+20	更改各扩展页面上的 base URL。[可用选项](https://github.com/VSCodium/vscodium/blob/master/docs/index.md#extensions-marketplace)。更改此值后必须重启 Devin 才能使用新市场。
+21	清除 Profile Code Lens
+22	关闭 SSH 进程
+23	代码片段
+24	dotfiles 仓库克隆后要运行的命令。为空时，依次运行仓库中找到的第一个 `install.sh`、`install`、`bootstrap.sh`、`bootstrap`、`script/bootstrap`、`setup.sh`、`setup` 和 `script/setup`；都不存在时，将仓库根目录的 dotfiles 以符号链接放入 home 目录。
+25	比较当前冲突
+26	在当前窗口中连接
+27	在新窗口中连接
+28	在当前窗口中连接 SSH 主机
+29	在当前窗口中连接 SSH 主机…
+30	在新窗口中连接 SSH 主机
+31	连接 SSH 主机…
+32	连接到 WSL
+33	在新窗口中连接到 WSL
+34	在新窗口中使用发行版连接 WSL…
+35	使用发行版连接 WSL…
+36	连接到开发容器
+37	通过 SSH 连接远程机器上的 agent。
+38	启动时自动连接已保存的主机。
+39	继续在 vscode.dev 中工作
+40	控制 AI 补全模式。Supercomplete 提供最强补全（含多行建议），autocomplete 提供标准补全，off 完全禁用 AI 补全。
+41	控制 Cascade 达到调用上限时是否自动继续。0 或负数表示开启自动继续（Cascade 无限继续）。正值（如 40）表示关闭自动继续（Cascade 在该次数处停止并提示你继续）。
+42	复制 API Key 到剪贴板
+43	Dark 2026
+44	Dark Modern
+45	Default High Contrast
+46	Default High Contrast Light
+47	删除发行版
+48	已弃用：请改用 `devin.acp.agentEnv`。此键将在未来版本中移除。
+49	已弃用：请改用 `devin.acp.agentPreferences`。此键将在未来版本中移除。
+50	已弃用：请改用 `devin.acp.diffZonesEnabled`。此键将在未来版本中移除。
+51	已弃用：请改用 `devin.acp.enabledAgents`。此键将在未来版本中移除。
+52	已弃用：请改用 `devin.acp.preferredAgent`。此键将在未来版本中移除。
+53	已弃用：请改用 `devin.allowCascadeAccessGitignoreFiles`。此键将在未来版本中移除。
+54	已弃用：请改用 `devin.autoContinue`。此键将在未来版本中移除。
+55	已弃用：请改用 `devin.cascade.readClaudeCodeConfig`。此键将在未来版本中移除。
+56	已弃用：请改用 `devin.completionMode`。此键将在未来版本中移除。
+57	已弃用：请改用 `devin.marketplaceExtensionGalleryServiceURL`。此键将在未来版本中移除。
+58	已弃用：请改用 `devin.marketplaceGalleryItemURL`。此键将在未来版本中移除。
+59	已弃用：请改用 `devin.portalUrl`。此键将在未来版本中移除。
+60	已弃用：请改用 `devin.useIndexingV2`。此键将在未来版本中移除。
+61	Dev Containers
+62	Dev Containers（Devin Desktop）
+63	Devin Codemap
+64	Devin Dark
+65	Devin Desktop 内置 Notebook 输出渲染器
+66	Devin Desktop Remote - Dev Containers
+67	Devin Editor
+68	Devin Light
+69	Devin Remote
+70	Devin Remote - 云端会话
+71	Devin Remote - SSH
+73	禁用 AI 补全
+74	禁用服务器校验和验证。仅建议用于开发和测试。
+75	Docker Compose 可执行文件名或路径。仅在 Docker 可执行文件没有 `compose` 子命令时使用。默认值：`docker-compose`。
+76	Dev Containers 使用的 Docker 可执行文件名或路径。此值对所有窗口和所有主机统一生效：在 Remote-SSH 或 WSL 窗口中，该主机上也使用同一名称或路径。
+77	下载 Devin 诊断信息
+78	Electron Main
+79	启用自动填充
+80	连接 devcontainer 时启用 SSH agent 转发。
+81	排除的调用方
+82	实验性：禁用服务器校验和验证。仅建议用于开发和测试。
+83	实验性：Devin 服务器的下载 URL。可替换以下变量：${os}、${arch}、${windsurfVersion}、${vscodeVersion}、${commit}、${quality}。
+84	实验性：服务器二进制文件名，**仅当**你使用的客户端没有对应的服务器发布时才使用。
+85	焦点锁定指示器已启用
+86	完整 AI 补全，含多行建议和侧边提示
+87	生成提交信息
+88	Git API
+89	Git Base API
+90	Git 提交信息
+91	Git Rebase 信息
+92	GitHub Enterprise Server
+94	堆 Profile 表格可视化工具
+95	堆快照表格可视化工具
+96	图像预览
+97	导入 Cursor 扩展
+98	导入 Cursor 设置
+99	导入 Devin Desktop 扩展
+100	导入 Devin Desktop 设置
+101	导入 VS Code 扩展
+102	导入 VS Code 最近工作区
+103	导入 VS Code 设置
+104	JSON Lines
+105	带注释的 JSON
+106	JavaScript 调试器
+107	JavaScript JSX
+108	JavaScript React
+109	Julia Markdown
+110	Jupyter Notebook
+111	让 Devin 错误通知停留在屏幕上，直到你手动关闭。
+112	Kimbie Dark
+113	启动浏览器
+114	启动 Chrome
+115	启动 Edge
+116	启动集成浏览器
+117	Lessc 编译器
+118	让 Devin 查看集成终端中的命令和输出。
+119	让 Devin 查看你在工作区中编辑和创建的文件，并允许 Devin Cloud 会话在读取本机文件时读到未保存的编辑。
+120	Light 2026
+121	Light Modern
+122	退出登录
+123	登录
+124	MS SQL
+125	ACP agent ID 到默认会话配置偏好的映射。每个键是 agent ID，值是将配置选项 ID 映射到首选默认值的对象，在新建会话时自动应用。
+126	ACP agent ID 到启用/停用状态的映射。只有在此列出且值为 true 的 agent 才会被实例化。
+127	ACP agent ID 到环境变量的映射。每个键是 agent ID，值是传给该 agent 进程的环境变量键值对对象。
+128	SSH 主机名到 Devin 远程服务器安装父目录绝对路径的映射。`.devin-server` 数据目录将在所配置路径下创建。需终止运行中的服务器（或等待其退出）此更改才生效。
+129	Markdown 编辑器
+130	Markdown Math
+131	Markdown 预览
+132	Markdown-it KaTeX 渲染器
+133	Markdown-it 渲染器
+134	Markdown-It Mermaid 渲染器
+135	媒体预览器
+136	Mermaid 渲染器
+137	Microsoft Sovereign Cloud
+138	迁移 MCP 配置（~/.codeium/ → ~/.config/devin/）
+139	迁移工作区配置（.windsurf/ → .devin/）
+140	Mocha 测试
+141	Monokai Dimmed
+142	下一个冲突
+143	Node Sass 编译器
+144	打开更新日志
+145	打开容器
+146	在容器中打开文件夹
+147	打开本地 ACP Agent 注册表
+148	打开 SSH 配置文件…
+149	在当前窗口中打开
+150	在新窗口中打开
+151	在当前窗口中的 SSH 主机上打开
+152	在新窗口中的 SSH 主机上打开
+153	可选的后端环境。`beta` 将 API server 和 Devin web URL 切换到 beta 环境（`server-beta.codeium.com`、`app.beta.devin.ai`）。更改后需要重启。
+154	覆盖用于查询云会话机器的 Devin API base URL（例如本地开发 web 服务器）。除非指向 localhost，否则必须使用 https。留空则从构建推导。
+155	容器中 dotfiles 仓库的克隆路径。
+156	本地构建的 "Devin Computer Use.app"（macOS）路径。仅用于源码构建；打包构建使用 app bundle 中的 helper。由 Cognition 签名的 CLI 会拒绝非我们签名的 helper，因此本地 helper 也需要本地构建的 CLI。
+157	请改用 type chrome
+158	请改用 type editor-browser
+159	请改用 type extensionHost
+160	请改用 type msedge
+161	请改用 type node
+162	上一个冲突
+163	提供 Devin 授权令牌（备用登录）
+164	购买附加点数
+165	Quiet Light
+166	重建容器
+167	不使用缓存重建容器
+168	重建并在容器中重新打开
+169	刷新 Dev Containers
+170	重载 ACP 连接
+171	远程仓库
+172	从历史中移除容器
+173	从最近列表中移除
+174	从列表中移除
+175	将标记文本渲染为 Mermaid.js 图表。
+176	将 Mermaid.js 标记文本渲染为 Mermaid 图表。
+177	在本地重新打开文件夹
+178	在容器中重新打开
+179	重启语言服务器
+180	Devin 编辑文件时运行保存时格式化和代码操作（如 gofmt）。停用时，agent 编辑直接保存、不运行保存操作。
+181	运行 npm start
+182	Dev Container 打开时运行 `devcontainer.json` 中的生命周期命令（`onCreateCommand`、`updateContentCommand`、`postCreateCommand`、`postStartCommand`、`postAttachCommand`）并安装 dotfiles。关闭时 Devin Desktop 不运行其中任何命令、不安装 dotfiles，与支持生命周期之前相同。
+183	SSH（Devin）
+184	SSH 连接到远程主机
+185	保存语言服务器 CPU Profile
+186	保存语言服务器内存 Profile
+187	搜索结果
+188	设置 Portal URL
+189	设为默认发行版
+190	设置 Computer Use（macOS 权限）
+191	Shell 脚本
+192	显示 Devin Desktop Dev Containers 日志
+193	显示日志
+194	显示 SSH 日志…
+195	当文件夹包含 Dev Container 配置文件时，显示一条可重新在容器中打开该文件夹的通知。
+196	后台中的 agent 会话完成或需要你输入时，显示原生通知。
+197	基于 Fig spec 提供命令、参数、标志和文件路径建议。
+198	简单浏览器
+199	Solarized Dark
+200	Solarized Light
+201	指定连接远端的 SSH 命令超时时间（秒）。
+202	标准单行 AI 补全
+203	开始新对话
+204	阻止 Devin 在创建或编辑文件时在后台打开它们。
+205	停止使用 TypeScript Go（实验性）
+206	符号图标
+207	SynthWave '84
+208	传给 Devin 服务器的 HTTP 代理。需终止运行中的服务器（或等待其退出）此更改才生效。
+209	传给 Devin 服务器的 HTTPS 代理。需终止运行中的服务器（或等待其退出）此更改才生效。
+210	Devin Desktop 服务器的下载 URL。可替换以下变量：${os}、${arch}、${windsurfVersion}、${vscodeVersion}、${commit}、${quality}。
+211	自定义 SSH 配置文件的绝对路径。
+212	SSH 可执行文件的绝对路径。为空时使用 PATH 中的 ssh。
+213	客户端断开后、终止远程服务器前等待的宽限时间（秒）。允许客户端在短暂网络中断后重连到同一服务器进程。留空使用默认值。目前仅支持 Linux 远端。
+214	尝试重连的最大次数。设为 0 禁止重连，设为 null 使用默认值 8。
+215	要渲染为 Mermaid 图表的 Mermaid 图表标记文本。只应包含图表标记本身，不要包含外层代码块。
+216	此设置已弃用，请改用 `#git.showDevinWorktrees#`。
+217	此设置已弃用，请改用 `#github.gitAuthentication#`。
+218	此设置已弃用，请改用 `#remote.devinDevContainers.enableSSHAgentForwarding#`。
+219	此设置已弃用，请改用 `#remote.devinDevContainers.experimental.disableServerChecksum#`。
+220	此设置已弃用，请改用 `#remote.devinSSH.configFile#`。
+221	此设置已弃用，请改用 `#remote.devinSSH.connectTimeout#`。
+222	此设置已弃用，请改用 `#remote.devinSSH.experimental.disableServerChecksum#`。
+223	此设置已弃用，请改用 `#remote.devinSSH.experimental.serverBinaryName#`。
+224	此设置已弃用，请改用 `#remote.devinSSH.experimental.serverDownloadUrlTemplate#`。
+225	此设置已弃用，请改用 `#remote.devinSSH.httpProxy#`。
+226	此设置已弃用，请改用 `#remote.devinSSH.httpsProxy#`。
+227	此设置已弃用，请改用 `#remote.devinSSH.maxReconnectionAttempts#`。
+228	此设置已弃用，请改用 `#remote.devinSSH.path#`。
+229	此设置已弃用，请改用 `#remote.devinSSH.reconnectionGraceTime#`。
+230	Tokyo Night
+231	Tokyo Night Light
+232	Tokyo Night Storm
+233	Tomorrow Night Blue
+234	TypeScript JSX
+235	TypeScript React
+236	dotfiles Git 仓库 URL（如 `https://github.com/owner/repository.git`），在每个 Dev Container 创建后克隆进去并安装。
+237	使用 TypeScript Go（实验性）
+238	使用索引 v2
+239	查看账户
+240	Visual Basic
+241	Visual Studio Dark
+242	Visual Studio Light
+243	WSL Targets（Devin Desktop）
+244	WebAssembly 文本格式
+245	启用时，ACP agent 的文件编辑会打开带接受/拒绝控件的交互式 diff 区域。停用时，编辑直接应用，工具栏只显示简单的关闭按钮。
+246	启用时，Cascade 会从 .claude 目录读取 skills（本地 .claude/skills/ 和全局 ~/.claude/skills/ 都读）。
+247	设置为有效的 ACP agent connector ID（如 'claude-code'、'opencode'、'gemini'、'devin-cli'）时，新建 Cascade 标签页会自动选择该 agent（若可用）。
+248	设置为有效的 ACP agent connector ID（如 'claude-code'、'opencode'、'gemini'、'devin-cli'）时，新建 Cascade 标签页会自动选择该 agent（若可用）。未设置时，新标签页默认选 Devin Local（若可用），否则选 Cascade。
