@@ -1,0 +1,500 @@
+translation.budgetAccess.inheritedFromUse	此权限继承自某个使用该预算的组织的成员资格
+translation.budgetAccess.inheritedFromManage	此权限继承自“管理 ACU 限额”权限，该权限可管理所有预算
+translation.budgetAccess.inheritedFromOwner	此权限继承自所有者角色，该角色可管理所有预算
+translation.budgetAccess.searchPlaceholder	搜索用户、角色、团队或服务用户
+translation.budgetAccess.cannotRemoveOwnAccess	不能移除你自己管理此预算的权限
+translation.omniTools.searching	正在搜索
+translation.omniTools.searched	已搜索
+translation.omniTools.inValue	在 <value>{{value}}</value> 中
+translation.omniTools.acrossValue	横跨 <value>{{value}}</value>
+translation.omniTools.atValue	在 <value>{{value}}</value>
+translation.omniTools.inRepo	<prefix>在</prefix><repo>{{repo}}</repo>
+translation.omniTools.forFile	<prefix>用于</prefix><file>{{file}}</file>
+translation.omniTools.allRepos	全部仓库
+translation.omniTools.manyRepos	多个仓库
+translation.omniTools.repoCount_one	{{count}} 个仓库
+translation.omniTools.repoCount_other	{{count}} 个仓库
+translation.omniTools.used	已使用 {{tool}}
+translation.omniTools.using	正在使用 {{tool}}
+translation.omniTools.thinking	思考中
+translation.omniTools.attributedEditsFor	<prefix>已归属</prefix><file>{{file}}</file><prefix>的编辑</prefix>
+translation.omniTools.attributingEditsFor	<prefix>正在归属</prefix><file>{{file}}</file><prefix>的编辑</prefix>
+translation.omniTools.lookedUpCommit	已查找提交
+translation.omniTools.lookingUpCommit	正在查找提交
+translation.omniTools.fetchedPrEvents	已获取 PR 事件
+translation.omniTools.fetchingPrEvents	正在获取 PR 事件
+translation.omniTools.checkedCommitHistory	已检查提交历史
+translation.omniTools.checkingCommitHistory	正在检查提交历史
+translation.omniTools.foundFiles	已找到文件
+translation.omniTools.findingFiles	正在查找文件
+translation.omniTools.grepped	已做文本搜索
+translation.omniTools.grepping	正在做文本搜索
+translation.omniTools.listed	已列出
+translation.omniTools.listing	正在列出
+translation.omniTools.read	已读取
+translation.omniTools.reading	正在读取
+translation.omniTools.readWiki	已读 wiki
+translation.omniTools.readingWiki	正在读 wiki
+translation.scheduleValidation.required	必须填写 RRULE
+translation.scheduleValidation.unsupportedDates	不支持 EXDATE 和 RDATE。
+translation.scheduleValidation.runTimeRequired	必须填写运行时间
+translation.scheduleValidation.runTimeInvalid	运行时间无效。
+translation.scheduleValidation.frequencyRequired	RRULE 必须包含 FREQ 属性。
+translation.scheduleValidation.invalidSegment	无效的 RRULE 片段：“{{value}}”。属性必须是 KEY=VALUE 形式。
+translation.scheduleValidation.unknownProperty	未知的 RRULE 属性：“{{value}}”。
+translation.scheduleValidation.emptyProperty	属性“{{value}}”没有值。
+translation.scheduleValidation.unsupportedFrequency	不支持的频率：“{{value}}”。请使用 MINUTELY、HOURLY、DAILY、WEEKLY、MONTHLY 或 YEARLY。
+translation.scheduleValidation.secondly	不允许 SECONDLY 频率。最小间隔为 1 分钟。
+translation.scheduleValidation.interval	INTERVAL 必须是正整数，得到的是“{{value}}”。
+translation.scheduleValidation.hour	BYHOUR 的值必须是 0–23 的整数，得到的是“{{value}}”。
+translation.scheduleValidation.minute	BYMINUTE 的值必须是 0–59 的整数，得到的是“{{value}}”。
+translation.scheduleValidation.day	BYDAY 中的星期缩写无效：“{{value}}”。请使用 SU、MO、TU、WE、TH、FR 或 SA。
+translation.scheduleValidation.monthDay	BYMONTHDAY 的值必须是 1–31 或 -31–-1 的整数，得到的是“{{value}}”。
+translation.scheduleValidation.month	BYMONTH 的值必须是 1–12 的整数，得到的是“{{value}}”。
+translation.scheduleValidation.setPosition	BYSETPOS 的值必须是 -366–366 的非零整数，得到的是“{{value}}”。
+translation.scheduleValidation.until	UNTIL 必须是日期（YYYYMMDD）或日期时间（YYYYMMDDTHHMMSSZ），得到的是“{{value}}”。
+translation.scheduleValidation.weekStart	WKST 必须是星期缩写（SU、MO、TU、WE、TH、FR、SA），得到的是“{{value}}”。
+translation.scheduleValidation.count	COUNT 必须是正整数，得到的是“{{value}}”。
+translation.scheduleValidation.oneTimeCount	一次性计划的 COUNT 必须恰好为 1（COUNT=1），得到的是“{{value}}”。
+translation.scheduleValidation.countUntil	COUNT 和 UNTIL 不能同时使用。
+translation.scheduleValidation.cronOccurrences	每 {{count}} 次发生：{{description}}
+translation.schedules.migrate.bannerBody	Automations 支持计划及更多功能，包括事件驱动的触发器。可一步迁移此组织的全部计划；每个计划都会变成以其所有者身份运行的 Automation。
+translation.schedules.migrate.button	全部迁移到 Automations
+translation.schedules.migrate.title	将计划迁移到 Automations
+translation.schedules.migrate.description	每个计划都会变成一个 Automation，以该计划所有者的身份、按同样的提示词和频率运行。已迁移的计划会从列表中移除；其历史会话仍可查看。
+translation.schedules.migrate.resultTitle	迁移完成
+translation.schedules.migrate.resultDescription	已迁移的计划现在是 Automations。未能迁移的计划继续按原样运行。
+translation.schedules.migrate.resultTitleNoneMigrated	没有计划被迁移
+translation.schedules.migrate.resultDescriptionNoneMigrated	未能迁移的计划继续按原样运行。请修复下方列出的问题后重新迁移。
+translation.schedules.migrate.failedStayOnLegacy	这些计划继续以计划形式运行。请修复列出的问题（例如为所有者补齐缺失的权限）后重新迁移。
+translation.schedules.migrate.nothingToMigrate	没有可迁移的计划。
+translation.schedules.migrate.previewError	无法检查哪些计划可迁移，请重试。
+translation.schedules.migrate.errorToast	迁移计划失败
+translation.schedules.migrate.confirm	迁移
+translation.schedules.migrate.cancel	取消
+translation.schedules.migrate.done	完成
+translation.schedules.migrate.outcome.willMigrate	将迁移
+translation.schedules.migrate.outcome.migrated	已迁移
+translation.schedules.migrate.outcome.willRemove	将被移除
+translation.schedules.migrate.outcome.removed	已移除
+translation.schedules.migrate.outcome.blocked	暂时无法迁移
+translation.schedules.migrate.columns.schedule	计划
+translation.schedules.migrate.columns.owner	所有者
+translation.schedules.migrate.columns.reason	缺少什么
+translation.schedules.migrate.columns.schedules	计划
+translation.schedules.migrate.columns.removalReason	原因
+translation.schedules.migrate.removal.ownerLeft	所有者已离开组织
+translation.schedules.migrate.removal.completedOneTime	一次性计划已运行
+translation.schedules.migrate.warnings.personaDropped	会话将以 Devin 身份而非 {{persona}} 人设运行（automations 不支持人设）
+translation.schedules.migrate.warnings.summaryPreview_one	{{count}} 个计划迁移后行为会变化；见下方备注
+translation.schedules.migrate.warnings.summaryPreview_other	{{count}} 个计划迁移后行为会变化；见下方备注
+translation.schedules.migrate.warnings.summaryResult_one	{{count}} 个 automation 的行为与原计划不同；见下方备注
+translation.schedules.migrate.warnings.summaryResult_other	{{count}} 个 automation 的行为与原计划不同；见下方备注
+translation.schedules.detail.loadError	无法加载此计划
+translation.schedules.detail.loadErrorDescription	请检查连接后重试。
+translation.schedules.detail.retry	重试
+translation.schedules.detail.notFound	未找到计划
+translation.schedules.detail.notFoundDescription	你要找的计划不存在，或你没有查看权限。
+translation.schedules.toast.createLoading	正在创建计划...
+translation.schedules.toast.createSuccess	计划已创建
+translation.schedules.toast.createError	创建计划失败
+translation.schedules.toast.updateLoading	正在更新计划...
+translation.schedules.toast.updateSuccess	计划已更新
+translation.schedules.toast.updateError	更新计划失败
+translation.schedules.toast.deleteLoading	正在删除计划...
+translation.schedules.toast.deleteSuccess	计划已删除
+translation.schedules.toast.deleteError	删除计划失败
+translation.introducingBotsCallout.cta	去看看
+translation.introducingBotsCallout.dismiss	忽略
+translation.introducingBotsCallout.shortlistTitle	你的 {{botNamePlural}}
+translation.introducingBotsCallout.title	隆重推出 Devin {{botNamePlural}}
+translation.introducingBotsCallout.viewAll	查看全部
+translation.securityCallout.cta	试用 Devin Security
+translation.securityCallout.description	用 Devin Security 2.0 发现漏洞并交付修复
+translation.securityCallout.descriptionMythos	用现已由 <mythos>Claude Mythos</mythos> 驱动的 Devin Security 2.0 发现漏洞并交付修复
+translation.securityCallout.title	隆重推出 Devin Security <accent>2.0</accent>
+translation.editorBreadcrumbs.empty	没有条目
+translation.editorBreadcrumbs.filterPlaceholder	跳转到文件或文件夹…
+translation.editorBreadcrumbs.loading	正在加载…
+translation.nativeEditor.binaryFile	此文件是二进制文件或使用了不支持的文本编码，无法在文本编辑器中显示。
+translation.nativeEditor.connecting	正在连接会话的文件…
+translation.nativeEditor.emptyDescription	从文件树中选择一个文件
+translation.nativeEditor.emptyTitle	打开文件
+translation.nativeEditor.fileTreeLoadFailed	无法加载文件
+translation.nativeEditor.filterFiles	筛选文件
+translation.nativeEditor.hideFileTree	隐藏文件树
+translation.nativeEditor.previewFailed	无法加载预览
+translation.nativeEditor.previewTooLarge	文件太大，无法预览
+translation.nativeEditor.saveToUpdatePreview	保存以更新预览
+translation.nativeEditor.onMachine	在 Devin 的机器上
+translation.nativeEditor.savedToMachineAt	已于 {{time}} 保存到 Devin 的机器
+translation.nativeEditor.unsavedOnMachine	有未保存的更改。保存后才能写入 Devin 的机器。
+translation.nativeEditor.saveConflictTitle	此文件在 Devin 的机器上已变更
+translation.nativeEditor.saveConflictDescription	{{name}} 在你打开后已在 Devin 的机器上被修改，因此你的编辑未保存。可用你的编辑覆盖它，或放弃你的编辑并加载新版本。
+translation.nativeEditor.saveConflictOverwrite	覆盖
+translation.nativeEditor.saveConflictDiscard	放弃我的编辑
+translation.nativeEditor.saveBeforeCloseTitle	保存对 {{name}} 的更改？
+translation.nativeEditor.saveFilesBeforeCloseTitle_one	保存对 {{count}} 个文件的更改？
+translation.nativeEditor.saveFilesBeforeCloseTitle_other	保存对 {{count}} 个文件的更改？
+translation.nativeEditor.saveBeforeCloseDescription	不保存的话，你的更改将丢失。
+translation.nativeEditor.saveBeforeCloseSave	保存
+translation.nativeEditor.saveBeforeCloseDiscard	不保存
+translation.nativeEditor.showCode	显示代码
+translation.nativeEditor.showPreview	显示预览
+translation.nativeEditor.mediaDecodeFailed	无法解码 {{name}}
+translation.nativeEditor.copyPath	复制路径
+translation.nativeEditor.copyOptions	复制选项
+translation.nativeEditor.copyRelativePath	复制相对路径
+translation.nativeEditor.pathCopied	路径已复制
+translation.nativeEditor.pathCopyFailed	复制路径失败
+translation.nativeEditor.open	打开
+translation.nativeEditor.openAnyway	仍然打开
+translation.nativeEditor.openFailed	无法打开 {{name}}：{{message}}
+translation.nativeEditor.openInFolder	在文件夹中打开
+translation.nativeEditor.openInIde	IDE
+translation.nativeEditor.openOptions	更多打开方式
+translation.nativeEditor.retry	重试
+translation.nativeEditor.saveAs	另存为…
+translation.nativeEditor.sessionFilesUnavailable	会话的文件不可用。
+translation.nativeEditor.showFileTree	显示文件树
+translation.nativeEditor.terminalAppsError	无法检测终端应用 — 重试
+translation.quoting.editorNotice	已引用的编辑器内容
+translation.embeddedSurface.back	后退
+translation.embeddedSurface.forward	前进
+translation.gitPermissions.scopeType.organization	组织
+translation.gitPermissions.scopeType.group	组
+translation.gitPermissions.scopeType.subgroup	子组
+translation.gitPermissions.scopeType.project	项目
+translation.gitPermissions.transferRepo.button	转移仓库
+translation.gitPermissions.transferRepo.title	将仓库转移到另一个连接
+translation.gitPermissions.transferRepo.description	把此连接持有的仓库移动到本账户的另一个连接。它们的权限、授权和设置会一并移动。
+translation.gitPermissions.transferRepo.searchPlaceholder	搜索此连接的仓库…
+translation.gitPermissions.transferRepo.loading	正在加载仓库…
+translation.gitPermissions.transferRepo.noRepos	此连接没有持有任何仓库。
+translation.gitPermissions.transferRepo.noResults	此连接中没有与你搜索匹配的仓库。
+translation.gitPermissions.transferRepo.searchError	加载仓库失败。
+translation.gitPermissions.transferRepo.moreResults	只显示前 50 个仓库。请搜索以找到更多。
+translation.gitPermissions.transferRepo.transferAll	转移此连接的全部仓库
+translation.gitPermissions.transferRepo.transferAllHint	此连接持有的全部仓库都会被转移。搜索结果不影响这一点。
+translation.gitPermissions.transferRepo.previewProgress	正在检查转移带来的变化… {{done}}/{{total}}
+translation.gitPermissions.transferRepo.transferProgress	正在转移… {{done}}/{{total}}
+translation.gitPermissions.transferRepo.allSummary_one	{{total}} 个仓库中有 {{count}} 个可转移。
+translation.gitPermissions.transferRepo.allSummary_other	{{total}} 个仓库中有 {{count}} 个可转移。
+translation.gitPermissions.transferRepo.allLosingAccess	将失去对一个或多个仓库访问权限的组织（因为它们只能通过此连接上的前缀权限访问）：{{orgs}}
+translation.gitPermissions.transferRepo.allMerges_one	{{count}} 个仓库在目标连接上已有条目，两条目将合并为一。
+translation.gitPermissions.transferRepo.allMerges_other	{{count}} 个仓库在目标连接上已有条目，各自的两条目将合并为一。
+translation.gitPermissions.transferRepo.previewError	无法检查转移，请返回后重试。
+translation.gitPermissions.transferRepo.allReindex_one	{{count}} 个仓库的账户 wiki 将被重建。
+translation.gitPermissions.transferRepo.allReindex_other	{{count}} 个仓库的账户 wiki 将被重建。
+translation.gitPermissions.transferRepo.allRefused_one	{{count}} 个仓库无法转移，保留在此连接上：
+translation.gitPermissions.transferRepo.allRefused_other	{{count}} 个仓库无法转移，保留在此连接上：
+translation.gitPermissions.transferRepo.selectedCount_one	已选择 {{count}} 个仓库
+translation.gitPermissions.transferRepo.selectedCount_other	已选择 {{count}} 个仓库
+translation.gitPermissions.transferRepo.selectionLimit	一次最多可转移 {{max}} 个仓库。
+translation.gitPermissions.transferRepo.targetLabel	转移到
+translation.gitPermissions.transferRepo.targetPlaceholder	选择一个连接
+translation.gitPermissions.transferRepo.noTargets	没有同主机的其他连接可用。
+translation.gitPermissions.transferRepo.unnamedConnection	未命名的连接
+translation.gitPermissions.transferRepo.review	审阅
+translation.gitPermissions.transferRepo.previewLoading	正在检查转移带来的变化…
+translation.gitPermissions.transferRepo.previewTitle	转移到 {{connection}} 将带来的变化
+translation.gitPermissions.transferRepo.cannotTransfer	无法转移：{{reason}}
+translation.gitPermissions.transferRepo.movedPermissions	将移动的权限：{{orgs}}
+translation.gitPermissions.transferRepo.noMovedPermissions	没有组织权限会移动。
+translation.gitPermissions.transferRepo.losingAccess	将失去访问权限的组织（因为它们只能通过此连接上的前缀权限访问该仓库）：{{orgs}}
+translation.gitPermissions.transferRepo.providerGrantsRemoved_one	此连接的访问镜像产生的 {{count}} 个授权将被移除。目标连接的访问镜像会添加它自己的授权。
+translation.gitPermissions.transferRepo.providerGrantsRemoved_other	此连接的访问镜像产生的 {{count}} 个授权将被移除。目标连接的访问镜像会添加它自己的授权。
+translation.gitPermissions.transferRepo.merges	目标连接已有此仓库的条目，两条目将合并为一。
+translation.gitPermissions.transferRepo.reindex	此仓库的账户 wiki 将被重建。
+translation.gitPermissions.transferRepo.back	返回
+translation.gitPermissions.transferRepo.confirm_one	转移 {{count}} 个仓库
+translation.gitPermissions.transferRepo.confirm_other	转移 {{count}} 个仓库
+translation.gitPermissions.transferRepo.confirmPending	转移
+translation.gitPermissions.transferRepo.transferring	正在转移…
+translation.gitPermissions.transferRepo.success_one	{{count}} 个仓库已转移到 {{connection}}
+translation.gitPermissions.transferRepo.success_other	{{count}} 个仓库已转移到 {{connection}}
+translation.gitPermissions.transferRepo.failure	仓库转移失败
+translation.gitPermissions.transferRepo.partialFailure_one	{{count}} 个仓库未被转移：{{reason}}
+translation.gitPermissions.transferRepo.partialFailure_other	{{count}} 个仓库未被转移：{{reason}}
+translation.gitPermissions.authTypeApp	App
+translation.gitPermissions.authTypePat	PAT
+translation.gitPermissions.authTypeOAuth	OAuth
+translation.gitPermissions.publicRepoBadge	公开
+translation.gitPermissions.filterDropdown.placeholder	筛选 Git 提供商
+translation.gitPermissions.filterDropdown.searchPlaceholder	搜索...
+translation.gitPermissions.filterDropdown.noOptions	未找到选项
+translation.gitPermissions.multiSelect.selectOnlyTitle	仅选择此项
+translation.gitPermissions.multiSelect.only	仅此
+translation.gitPermissions.permissionsTable.readOnly	只读
+translation.gitPermissions.permissionsTable.readWrite	读写
+translation.gitPermissions.manuallyAddRepo.title	手动添加仓库（高级）
+translation.gitPermissions.manuallyAddRepo.description	用于未被自动检测到的仓库
+translation.gitPermissions.manuallyAddRepo.pathRequired	必须填写仓库路径
+translation.gitPermissions.manuallyAddRepo.pathFormat	请输入完整路径，例如 {{example}}
+translation.gitPermissions.manuallyAddRepo.added	仓库添加成功
+translation.gitPermissions.manuallyAddRepo.addFailed	手动添加仓库失败
+translation.gitPermissions.manuallyAddRepo.addFailedWithReason	手动添加仓库失败：{{message}}
+translation.gitPermissions.viewAllRepos.lastFetchFailed	上次获取此 Git 提供商关联仓库列表失败。请检查你的 Git 提供商 / 集成设置后重试。
+translation.gitPermissions.viewAllRepos.updating	正在更新仓库列表…
+translation.gitPermissions.viewAllRepos.refetch	重新获取仓库列表
+translation.gitPermissions.viewAllRepos.noMatch	没有与搜索匹配的仓库。
+translation.gitPermissions.viewAllRepos.noRepos	没有可用仓库。
+translation.gitPermissions.viewAllRepos.updateFailed	更新仓库列表失败
+translation.gitPermissions.viewAllRepos.updated	仓库列表已更新
+translation.gitPermissions.viewAllRepos.lastFetched	上次获取：{{time}}
+translation.gitPermissions.viewAllRepos.justNow	刚刚
+translation.gitPermissions.viewAllRepos.minutesAgo_one	{{count}} 分钟前
+translation.gitPermissions.viewAllRepos.minutesAgo_other	{{count}} 分钟前
+translation.gitPermissions.viewAllRepos.hoursAgo_one	{{count}} 小时前
+translation.gitPermissions.viewAllRepos.hoursAgo_other	{{count}} 小时前
+translation.gitPermissions.viewAllRepos.daysAgo_one	{{count}} 天前
+translation.gitPermissions.viewAllRepos.daysAgo_other	{{count}} 天前
+translation.gitPermissions.repoSyncStartFailed	无法启动仓库同步。你可能没有管理 Git 连接的权限。
+translation.gitPermissions.connectionSyncFailingTitle	{{name}} 上的仓库同步正在失败
+translation.gitPermissions.connectionSyncFailingDescription	自 {{date}} 起没有一次成功同步。此连接的仓库可能缺失或过期，会话也无法使用 Devin 看不到的仓库。请在 设置 > 连接 中检查该连接的凭据。
+translation.gitPermissions.connectionSyncFailingRow	{{name}} 上的仓库同步自 {{date}} 起一直在失败。此连接的仓库可能缺失或过期。
+translation.gitPermissions.connectionSyncFailingRowAlsoOn	也可通过 {{name}} 访问，其最后出现于 {{date}}。
+translation.gitPermissions.notAvailable	不可用
+translation.gitPermissions.readOnly	只读
+translation.gitPermissions.readWrite	读写
+translation.gitPermissions.removeFailed	移除权限失败
+translation.gitPermissions.permissionsFor	{{org}} 的权限
+translation.gitPermissions.type	类型
+translation.gitPermissions.access	访问
+translation.gitPermissions.removePermission	移除权限
+translation.gitPermissions.searchPlaceholder	搜索权限...
+translation.gitPermissions.managePermissions	管理权限
+translation.gitPermissions.noMatch	没有权限与你的搜索匹配
+translation.gitPermissions.noneFound	未找到权限
+translation.gitPermissions.tryDifferentSearch	请尝试其他搜索词
+translation.gitPermissions.emptyCanAdd	选择组织及其仓库以添加权限
+translation.gitPermissions.emptyAskAdmin	请让管理员为你添加权限
+translation.gitPermissions.pageTitle	仓库权限
+translation.gitPermissions.enterpriseOnly	此页面仅面向企业开放。
+translation.gitPermissions.headerTitle	仓库访问权限
+translation.gitPermissions.headerDescription	管理你的组织对仓库的访问权限。Git 提供商可在连接设置中添加。
+translation.gitPermissions.organization	组织
+translation.gitPermissions.selectOrganization	选择一个组织
+translation.gitPermissions.permissionTypes	权限类型
+translation.gitPermissions.permissionTypesCount	权限类型（{{count}}）
+translation.gitPermissions.search	搜索...
+translation.gitPermissions.accessType	访问类型
+translation.gitPermissions.accessTypeCount	访问类型（{{count}}）
+translation.gitPermissions.selectOrgPrompt	选择一个组织以查看和管理权限
+translation.gitPermissions.add.granted	（已授权）
+translation.gitPermissions.add.grantedViaParent	（经父级授权）
+translation.gitPermissions.add.grantedViaPrefix	（经前缀匹配授权）
+translation.gitPermissions.add.value	值
+translation.gitPermissions.add.added	权限已添加
+translation.gitPermissions.add.addFailed	添加权限失败
+translation.gitPermissions.add.title	向 {{org}} 添加仓库权限
+translation.gitPermissions.add.subtitle	授予对仓库和组织的访问权限。
+translation.gitPermissions.add.search	搜索…
+translation.gitPermissions.add.clearSearch	清除搜索
+translation.gitPermissions.add.loadingRepositories	正在加载仓库...
+translation.gitPermissions.add.addPermissions	添加权限
+translation.gitPermissions.add.addPermissionsCount	添加权限（{{count}}）
+translation.gitPermissions.manual.selectProviderError	必须选择 Git 提供商
+translation.gitPermissions.manual.enterPathError	必须填写路径
+translation.gitPermissions.manual.fixPathError	请先修复路径校验错误
+translation.gitPermissions.manual.added	权限添加成功
+translation.gitPermissions.manual.addFailed	添加权限失败
+translation.gitPermissions.manual.organizationProject	组织/项目
+translation.gitPermissions.manual.unknown	未知
+translation.gitPermissions.manual.depotPath	Depot 路径
+translation.gitPermissions.manual.repository	仓库
+translation.gitPermissions.manual.repositoryPathPrefix	仓库路径前缀
+translation.gitPermissions.manual.title	手动配置（高级）
+translation.gitPermissions.manual.tooltip	手动添加一条权限。适用于少见场景：你已通过 Git 提供商授予了对某仓库的访问，但它未被自动检测到。
+translation.gitPermissions.manual.description	当你已通过 Git 提供商授权但仓库未被自动检测到时，手动添加一条权限
+translation.gitPermissions.manual.gitProvider	Git 提供商
+translation.gitPermissions.manual.selectGitProvider	选择 Git 提供商
+translation.gitPermissions.manual.permissionType	权限类型
+translation.gitPermissions.manual.selectType	选择类型
+translation.gitPermissions.manual.path	路径
+translation.gitPermissions.manual.enterDepotPath	输入 depot 路径
+translation.gitPermissions.manual.enterRepoPath	输入完整仓库路径
+translation.gitPermissions.manual.enterGroupPath	输入组或组织路径
+translation.gitPermissions.manual.accessLevel	访问级别
+translation.gitPermissions.manual.addPermission	添加权限
+translation.gitPermissions.validation.perforceDepot	Perforce depot 路径必须使用 depot 语法（例如 //depot/...）
+translation.gitPermissions.validation.includeOrganization	仓库路径必须包含组织部分
+translation.gitPermissions.validation.noFullUrl	仓库路径中不能包含完整 URL
+translation.gitPermissions.validation.noGitExtension	GitHub 仓库不需要 .git 后缀
+translation.gitPermissions.validation.oneSlash	仓库路径中只能有一个斜杠
+translation.gitPermissions.typeLabel.repository	仓库
+translation.gitPermissions.typeLabel.prefix_path	仓库路径前缀
+translation.gitPermissions.typeLabel.depot_path	Depot 路径
+translation.gitPermissions.typeLabel.unknown	未知
+translation.gitPermissions.typeLabel.organization	组织
+translation.gitPermissions.typeLabel.group	组
+translation.gitPermissions.typeLabel.subgroup	子组
+translation.gitPermissions.typeLabel.project	项目
+translation.gitPermissions.mirroring.sourceMirrored	访问镜像
+translation.gitPermissions.mirroring.atAccount	在账户级别
+translation.gitPermissions.mirroring.anotherOrganization	另一个组织
+translation.gitPermissions.mirroring.inOrganizations	已分配给 {{orgs, list}}
+translation.gitPermissions.mirroring.accountOption	账户（不属于任何组织）
+translation.gitPermissions.mirroring.accountDescription	访问镜像列出、但尚未分配给任何组织的仓库。把它分配给一个组织后即可在该组织中使用。
+translation.gitPermissions.mirroring.accountHeader	仓库
+translation.gitPermissions.mirroring.accountSearchPlaceholder	搜索仓库
+translation.gitPermissions.mirroring.accountTruncated	并非所有仓库都已检查。请按名称搜索未列出的仓库。
+translation.gitPermissions.mirroring.accountEmpty	账户级没有仓库
+translation.gitPermissions.mirroring.accountEmptyDescription	访问镜像列出的每个仓库都已分配给某个组织。
+translation.gitPermissions.mirroring.accountEmptyNotMirrored	访问镜像尚未在你可见的任何连接上完成一次扫描。
+translation.gitPermissions.mirroring.assign	分配到组织
+translation.gitPermissions.mirroring.assignDescription	{{repo}} 将在你选择的组织中可用。
+translation.gitPermissions.mirroring.assignConfirm	分配
+translation.gitPermissions.mirroring.cancel	取消
+translation.gitPermissions.mirroring.assigned	仓库已分配
+translation.gitPermissions.mirroring.assignFailed	无法分配该仓库。
+translation.layout.copyLink	复制 {{title}} 的链接
+translation.layout.close	关闭
+translation.layout.closeOthers	关闭其他
+translation.layout.closeRight	关闭右侧
+translation.layout.closeAll	全部关闭
+translation.layout.terminalTitle	终端 {{number}}
+translation.layout.newTerminal	新建终端
+translation.layout.hideTerminal	隐藏终端
+translation.layout.terminalTabs	终端
+translation.layout.expandTerminalFullWidth	终端展开为全宽
+translation.layout.moveTerminalToRightPane	把终端移到右侧面板
+translation.layout.sessionTerminals	会话终端
+translation.layout.remoteTerminal	远程终端
+translation.layout.moveTerminalToPanel	移到终端面板
+translation.layout.killTerminal	结束 {{title}}
+translation.layout.renameTerminal	终端名称
+translation.layout.remoteTerminalError	无法在远程机器上启动终端
+translation.layout.retry	重试
+translation.terminalSsh.connectOverSsh	通过 SSH 连接
+translation.terminalSsh.hint	在你的本地终端粘贴此命令。
+translation.terminalSsh.loading	正在加载 SSH 命令…
+translation.terminalSsh.unavailable	此会话没有可用的 SSH 连接信息。
+translation.terminalSsh.copy	复制
+translation.terminalSsh.openInDevinDesktop	在 Devin Desktop 中打开
+translation.terminalSsh.openInVsCode	在 VS Code 中打开
+translation.terminalSsh.openFailed	无法打开应用。是否已安装？
+translation.noDevinAccount.title	此登录没有对应的 Devin 账户
+translation.noDevinAccount.description	此 Windsurf 账户没有 Devin 账户，因此无法使用 Devin Cloud 会话和组织。Devin Local、Tab 和编辑器仍可在 IDE 视图中使用。
+translation.noDevinAccount.openIdeView	打开 IDE 视图
+translation.cloudUnreachable.title	无法连接 Devin Cloud
+translation.cloudUnreachable.description	Devin 无法访问 Devin API，因此 Devin Cloud 会话和你的组织不可用。Devin Local、Tab 和编辑器仍可在 IDE 视图中使用。
+translation.cloudUnreachable.retry	重试
+translation.cloudUnreachable.openIdeView	打开 IDE 视图
+translation.sessionRejected.title	你的会话已过期
+translation.sessionRejected.signIn	重新登录
+translation.windowTabs.label	窗口标签页
+translation.windowTabs.newTab	新建标签页
+translation.windowTabs.untitled	新标签页
+translation.windowTabs.duplicateTab	复制标签页
+translation.windowTabs.reopenClosedTab	重新打开已关闭的标签页
+translation.windowChrome.agentsMode	代理
+translation.windowChrome.ideMode	IDE
+translation.windowChrome.agentsView	代理视图
+translation.windowChrome.ideView	IDE 视图
+translation.windowChrome.openEditorWindow	编辑器
+translation.windowChrome.openEditorWindowTooltip	切换到编辑器窗口
+translation.windowChrome.openSessionEditorWindow	IDE
+translation.windowChrome.openSessionEditorWindowTooltip	打开此会话的 IDE 窗口
+translation.pluginMcp.title	为 {{name}} 连接 MCP
+translation.pluginMcp.description	选择要在 {{scope}} 范围连接的 MCP。每个连接有各自的设置。
+translation.pluginMcp.manageMcps	管理 MCP
+translation.pluginMcp.connect	连接
+translation.pluginMcp.signIn	登录
+translation.pluginMcp.signInOwnAccount	用你的账户登录
+translation.pluginMcp.connectOwnAccount	连接你自己的账户
+translation.pluginMcp.enterCredentials	输入凭据
+translation.pluginMcp.notSetUp	未设置
+translation.pluginMcp.installed	已安装
+translation.pluginMcp.mcpConnected	{{name}} 已连接。
+translation.pluginMcp.needsCredential	{{name}} 需要凭据才能连接 — 请在其设置中输入。
+translation.pluginMcp.connectFailed	无法连接 {{name}}。
+translation.pluginMcp.connectNeedsOAuthClient	{{name}} 需要预注册的 OAuth 客户端 ID 和密钥。
+translation.pluginMcp.connectNeedsOAuthClientInSettings	{{name}} 需要预注册的 OAuth 客户端 ID 和密钥。请在其设置的“高级”下填写，并将认证方式设为 OAuth。
+translation.pluginMcp.connectProviderUnavailable	提供商当前无响应，请几分钟后重试。
+translation.pluginMcp.waitingForEnterpriseAdmin	等待企业管理员连接
+translation.pluginMcp.waitingForOrgAdmin	等待组织管理员连接
+translation.pluginAudience.all	全部组织
+translation.pluginAudience.none	无组织
+translation.pluginAudience.noneHint	在选择之前，没有任何组织会获得此插件。
+translation.pluginAudience.rowLabel	组织
+translation.pluginAudience.selected_one	{{count}} 个组织
+translation.pluginAudience.selected_other	{{count}} 个组织
+translation.pluginAudience.allExcept_one	除 {{count}} 个组织外的全部组织
+translation.pluginAudience.allExcept_other	除 {{count}} 个组织外的全部组织
+translation.pluginAudience.selectedNames	{{names, list}}
+translation.pluginAudience.allExceptNames	除 {{names, list}} 外的全部
+translation.pluginAudience.buttonLabel	获得 {{name}} 的组织：{{summary}}
+translation.pluginAudience.dialogTitle	获得 {{name}} 的组织
+translation.pluginAudience.dialogDescription	被排除组织中的会话不会加载此插件：其技能、钩子、规则和代理都不会加载。组织仍可自行安装该插件。
+translation.pluginAudience.modeAllTitle	全部组织
+translation.pluginAudience.modeAllHint	包括以后创建的组织。
+translation.pluginAudience.modeSelectedTitle	仅所选组织
+translation.pluginAudience.modeSelectedHint	以后创建的组织不会获得此插件。
+translation.pluginAudience.modeAllExceptTitle	除所选外的全部组织
+translation.pluginAudience.modeAllExceptHint	包括以后创建的组织。
+translation.pluginAudience.organizationsError	无法加载组织。
+translation.pluginAudience.saveError	无法保存此插件的组织设置。
+translation.pluginMarketplace.indexingStarted	正在重建插件索引
+translation.pluginMarketplace.indexingFailed	无法重建插件索引
+translation.pluginMarketplace.showOfficialMarketplace	显示 Devin 市场插件
+translation.pluginMarketplace.officialMarketplaceDisabledByEnterprise	企业配置已对所有组织禁用 Devin 市场。
+translation.pluginMarketplace.browseEmpty	这里还没有内容。你的管理员可以向市场添加插件
+translation.pluginMarketplace.manifestSecretsNotice	不要包含明文密钥。请改用<docsLink>插件密钥引用</docsLink>
+translation.pluginMarketplace.bundleSecretsNotice	不要包含密钥。
+translation.pluginMarketplace.deletePluginTitle	删除 {{name}}？
+translation.pluginMarketplace.deletePluginDescription	此插件是在此处上传的，没有其他副本。其文件将被永久删除，不可撤销。
+translation.pluginMarketplace.deletePlaybooksTitle	删除 Playbooks 插件？
+translation.pluginMarketplace.deletePlaybooksWarning	删除此插件会移除其全部技能，包括从 Playbooks 迁移过来的。使用受影响 Playbook 的计划和自动化将不再运行其指令。
+translation.pluginMarketplace.deleteAnyway	仍然删除
+translation.pluginMarketplace.deletePlaybooksBlocked	在 Playbooks 迁移完成前，此插件无法删除。
+translation.pluginMarketplace.deletePlaybooksFailed	无法删除插件。请审阅其当前内容后重试。
+translation.pluginMarketplace.deletedPlugin	已删除 {{name}}
+translation.pluginMarketplace.deletePluginFilesFailed	{{name}} 已卸载，但删除其文件失败。
+translation.pluginMarketplace.mcpSheetDescription	Devin 可调用的 MCP 服务器，按名称索引。保存到此范围插件中的 {{filePath}}。密钥以 <code>${NAME}</code> 形式引用，由成员在服务器详情中提供 — 写在这里的值会被剥离。
+translation.pluginMarketplace.browse	浏览
+translation.pluginMarketplace.community	社区
+translation.pluginMarketplace.marketplace	市场
+translation.pluginMarketplace.browseDescriptionPersonal	为你自己安装插件。
+translation.pluginMarketplace.browseDescriptionOrganization	为你的组织安装插件。
+translation.pluginMarketplace.browseDescriptionEnterprise	为你的企业安装插件。
+translation.pluginMarketplace.browseDescriptionAnyScope	为你自己或你管理的范围安装插件。
+translation.pluginMarketplace.suggested	推荐
+translation.pluginMarketplace.builtIn	内置
+translation.pluginMarketplace.installedButBlocked	已安装但被阻止
+translation.pluginMarketplace.blockedDescription	被策略标记为阻止的插件，包括来自最新索引的依赖项。
+translation.pluginMarketplace.disabledByEnterpriseAdmin	已被你的企业管理员禁用
+translation.pluginMarketplace.disabledByEnterpriseAdminTooltip	你的企业管理员未在此组织中提供此插件。
+translation.pluginMarketplace.installedTitle	已安装 {{name}}
+translation.pluginMarketplace.installedAtScope	已安装到 {{scope}}
+translation.pluginMarketplace.installedForMe	已为我安装
+translation.pluginMarketplace.installedForOrg	已为 {{name}} 安装
+translation.pluginMarketplace.installedForOtherOrg	已为另一个组织安装
+translation.pluginMarketplace.installedForOtherOrgContents	此插件已为另一个组织安装。Devin 只在该组织中加载其内容。
+translation.pluginMarketplace.installedInPersonal	现在可在你的个人插件中使用
+translation.pluginMarketplace.installedInOrganization	现在可在组织插件中使用
+translation.pluginMarketplace.installedInEnterprise	现在可在企业插件中使用
+translation.pluginMarketplace.connectingMcp	正在连接…
+translation.pluginMarketplace.mcpAwaitingAuthorization	{{pluginName}} 已设置好 — 连接它即可授予访问权限。
+translation.pluginMarketplace.mcpConnectFailed	无法连接 {{pluginName}}。
+translation.pluginMarketplace.addPluginMcpDescription	把 Devin 指向你自己运行的 MCP 服务器。它会保存到你的插件并完成连接。
+translation.pluginMarketplace.mcpFileInvalid	.mcp.json 不是有效的 JSON。请先在编辑器中修复它，再添加 MCP。
+translation.pluginMarketplace.mcpOauthScopesNeedClientId	OAuth scopes 需要 OAuth 客户端 ID。
+translation.pluginMarketplace.mcpNameTaken	你的插件中已存在名为“{{name}}”的 MCP。
+translation.pluginMarketplace.mcpReady	{{pluginName}} 已就绪 — 无需连接。
+translation.pluginMarketplace.mcpNeedsCredential	{{pluginName}} 需要凭据才能连接 — 请在其 MCP 的设置中输入。
+translation.pluginMarketplace.noMatches	没有插件与你的搜索匹配。
+translation.pluginMarketplace.unavailableInCustomize	此插件在“自定义”中不可用。
+translation.pluginMarketplace.searchPlaceholder	搜索插件市场
+translation.pluginMarketplace.clearSearch	清除搜索
+translation.pluginMarketplace.viewOnGithub	在 GitHub 上查看
+translation.pluginMarketplace.requiredBy	被以下依赖
+translation.pluginMarketplace.pluginNotListed	{{name}} 未在此视图中列出。
+translation.pluginMarketplace.installFailed	安装失败
+translation.pluginMarketplace.installed	已安装
+translation.pluginMarketplace.installing	正在安装…
+translation.pluginMarketplace.retrying	正在重试…
+translation.pluginMarketplace.recommended	推荐
+translation.pluginMarketplace.notConnected	未连接
+translation.pluginMarketplace.signInRequired	需要登录
+translation.pluginMarketplace.signInOwnAccount	用你自己的账户登录
