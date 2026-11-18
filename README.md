@@ -53,6 +53,10 @@ powershell -ExecutionPolicy Bypass -File install.ps1   # Windows
 |---|---|
 | ![设置 zh-CN](assets/screenshots/settings-zh-cn.png) | ![语言选择](assets/screenshots/language-picker.png) |
 
+| VM 全屏（zh-CN） |
+|---|
+| ![全屏 zh-CN](assets/screenshots/fullscreen-zh-cn.png) |
+
 | Agent 面板 webview | 繁體中文（台灣） |
 |---|---|
 | ![Agent webview](assets/screenshots/agent-webview.png) | ![zh-TW](assets/screenshots/zh-tw.png) |

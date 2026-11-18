@@ -53,6 +53,10 @@ After two restarts: Command Palette → `Configure Display Language` → pick a 
 |---|---|
 | ![settings zh-CN](assets/screenshots/settings-zh-cn.png) | ![picker](assets/screenshots/language-picker.png) |
 
+| Full VM screen (zh-CN) |
+|---|
+| ![fullscreen zh-CN](assets/screenshots/fullscreen-zh-cn.png) |
+
 | Agent panel webview | Traditional Chinese (Taiwan) |
 |---|---|
 | ![agent webview](assets/screenshots/agent-webview.png) | ![zh-TW](assets/screenshots/zh-tw.png) |
