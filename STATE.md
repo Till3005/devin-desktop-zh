@@ -40,3 +40,9 @@ literals: ~360/938（part01 已写，覆盖 0-458 白名单 + 459+ 句选；其�
 新词（本段2）：等价生产工程小时 equivalent productive engineering hours, 移动平均 moving average, LOB, 生产会话 productive session, 合并率 merge rate, 绕权限 bypass permissions, 本地手 Local Hands, 配对码 pairing code, 维护者编辑 maintainer edited, 玩偶 plushie, 编排会话 orchestrator session, 共享 VM shared VM, 已定 settled, 脱敏值 redacted value, 集合 collection, 服务用户 service user, 供应 provision
 
 新词（本段）：审计 audit log, 注册 enroll/enrollment, 组映射 group mappings, 联邦凭据 federated credential, 身份提供商 identity provider, 静态 key static key, 工作负载 workload, 横幅 banner, 档 tier（机器大小也用 档/大小）, 槽 slot, 嵌套虚拟化 nested virtualization, 回退档位 fallback tier, 端点服务 endpoint service, NLB, PrivateLink, 投递 delivery, 可筛字段 filterable fields, 签名密钥 signing secret, 目标组 target group, 学习 Devin University/课程/认证/考试/测验, 差异构建 differential builds, 挡 block, 共享连接 shared connection, 个人 token personal tokens, 工具权限 tool permissions, 利用率 utilization
+## 状态 2026-11-19
+- 全部语料完成：webview 33,920 / review 1,448 / nls-gap 4,420 / exts 白名单 247 / literals 白名单 ~393
+- 4 地区包已生成+构建（packs/zh-{cn,tw,hk,mo}，各 28,812 条）
+- patch_app.py v2 新增式补丁已上线实测：菜单/设置/webview/扩展命令全中文，English 可切回，完整性校验通过（checksums 回写）
+- 安装器 install.sh/install.ps1 完成
+- 剩余：登录态界面未验证（本机登出）

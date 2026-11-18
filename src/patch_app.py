@@ -1,86 +1,54 @@
 #!/usr/bin/env python3
-"""Devin Desktop 中文补丁器 — apply/restore, cross-platform, stdlib only.
+"""Devin Desktop 中文补丁器 v2 — additive language option, apply/restore, stdlib only.
+
+Chinese is ADDED as new display-language options (zh-cn/zh-tw/zh-hk/zh-mo).
+English and other languages are never modified: all injections are keyed by the
+app's selected nls locale, and restore() returns byte-identical originals.
 
 Usage:
-  python3 patch_app.py apply --locale zh-cn [--app <resources/app dir>] [--translations dir]
-  python3 patch_app.py restore [--app <resources/app dir>]
-  python3 patch_app.py status [--app <resources/app dir>]
+  python3 patch_app.py apply   --app <resources/app dir> [--translations dir]
+  python3 patch_app.py restore --app <resources/app dir>
+  python3 patch_app.py status  --app <resources/app dir>
 
-Patches (idempotent, with .devin-zh-backup restore points):
-  - out/vs/workbench/windsurf-chat-client/index.js : i18next dict leaf values -> zh
-  - out/vs/sessions/sessions.desktop.main.js       : same dicts (template-literal form)
-  - hardcoded UI literals in both bundles          : whitelisted en -> zh
-  - extensions/*/package.json                      : windsurf builtin ext display strings
-  - node_modules.asar                              : repacked if it contains dict copies
+Patches (idempotent, .devin-zh-backup restore points):
+  - webview bundles: resources:n,lng:"en" -> resources for all 4 zh locales added
+                     via Object.assign IIFE + lng reads _VSCODE_NLS_LANGUAGE
+  - hardcoded literals -> (DICT[locale]||en) conditional lookups
+  - extensions/<windsurf*>/package.nls.<loc>.json written (VS Code picks the file
+    matching the selected locale; package.json itself is untouched)
 """
-import json, os, re, sys, shutil, argparse, subprocess, tempfile
+import json, os, re, sys, shutil, argparse, hashlib, base64
 
 BUNDLES = [
     "out/vs/workbench/windsurf-chat-client/index.js",
     "out/vs/sessions/sessions.desktop.main.js",
 ]
-# dict anchors located by content; the en dict is the only one wired into i18next
-# (de/es/ja/pt payloads ship in the bundle but are never registered) -> patch the en copy.
-DICT_ANCHORS = [
-    ("translation", '{"adminPromotionOwner":{"label":"Enterprise or org"'),
-    ("review", '{"guide":{"step":"Part {{number}} of {{total}}"'),
-]
 EXT_DIRS = ["windsurf", "windsurf-auth", "windsurf-remote-devin", "windsurf-remote-openssh",
             "windsurf-remote-wsl", "windsurf-dev-containers", "theme-windsurf"]
+LOCALES = ["zh-cn", "zh-tw", "zh-hk", "zh-mo"]
 MARKER = ".devin-zh-patched"
+LANG_EXPR = '(globalThis._VSCODE_NLS_LANGUAGE||navigator.language||"en")'
+# substrings unique to the en dict JSON.parse payloads (used to exclude them
+# from literal replacement)
+DICT_ANCHORS = ['adminPromotionOwner', 'Part {{number}} of {{total}}']
 
 
-def js_unescape(raw):
-    out, i, n = [], 0, len(raw)
-    while i < n:
-        c = raw[i]
-        if c != "\\":
-            out.append(c); i += 1; continue
-        i += 1
-        if i >= n: break
-        e = raw[i]
-        if e in "nrtbfv":
-            out.append({"n": "\n", "r": "\r", "t": "\t", "b": "\b", "f": "\f", "v": "\v"}[e]); i += 1
-        elif e == "x":
-            out.append(chr(int(raw[i+1:i+3], 16))); i += 3
-        elif e == "u":
-            if raw[i+1] == "{":
-                j = raw.index("}", i+1); out.append(chr(int(raw[i+2:j], 16))); i = j+1
-            else:
-                out.append(chr(int(raw[i+1:i+5], 16))); i += 5
-        elif e == "0":
-            out.append("\0"); i += 1
-        else:
-            out.append(e); i += 1
-    return "".join(out)
+def js_escape(s):
+    return s.replace("\\", "\\\\").replace("'", "\\'")
 
 
-def js_escape(s, quote):
-    s = s.replace("\\", "\\\\")
-    if quote == "'":
-        s = s.replace("'", "\\'")
-    else:
-        s = s.replace("`", "\\`").replace("${", "\\${")
-    return s
-
-
-def find_str(data, start, quote):
-    """Return (raw_contents, index_of_closing_quote)."""
-    out, i = [], start
+def _scan_str(data, start, quote):
+    """Scan a JS string literal starting at `start` (right after the opening
+    quote char). Returns (end_index_of_closing_quote)."""
+    i = start
     while True:
         c = data[i]
         if c == "\\":
-            out.append(data[i:i+2]); i += 2; continue
+            i += 2
+            continue
         if c == quote:
-            return "".join(out), i
-        out.append(c); i += 1
-
-
-def write_atomic(path, data):
-    tmp = path + ".devin-zh-tmp"
-    with open(tmp, "w", encoding="utf8", errors="surrogateescape") as f:
-        f.write(data)
-    os.replace(tmp, path)
+            return i
+        i += 1
 
 
 def flatten(d, prefix=""):
@@ -97,66 +65,19 @@ def flatten(d, prefix=""):
 def unflatten(flat):
     out = {}
     for k, v in flat.items():
-        parts = k.split(".")
         cur = out
+        parts = k.split(".")
         for p in parts[:-1]:
             cur = cur.setdefault(p, {})
         cur[parts[-1]] = v
     return out
 
 
-def overlay_dict(en, zh_flat, prefix=""):
-    if isinstance(en, dict):
-        return {k: overlay_dict(v, zh_flat, f"{prefix}.{k}" if prefix else k) for k, v in en.items()}
-    return zh_flat.get(prefix, en)
-
-
-def patch_dict_in_bundle(path, anchor, zh_dict_flat):
-    """Replace the JSON.parse payload containing `anchor` with zh-merged dict."""
-    data = open(path, encoding="utf8", errors="surrogateescape").read()
-    # locate JSON.parse('<quote>{"<anchor>") regardless of minified var name / quote style
-    m = re.search(r"=JSON\.parse\((['`])" + re.escape(anchor), data)
-    if not m:
-        return 0, f"dict containing {anchor} not found"
-    quote = m.group(1)
-    raw, end = find_str(data, m.end() - len(anchor), quote)
-    en = json.loads(js_unescape(raw))
-    merged = overlay_dict(en, zh_dict_flat)
-    payload = js_escape(json.dumps(merged, ensure_ascii=True, separators=(",", ":")), quote)
-    data = data[:m.end() - len(anchor)] + payload + data[end:]
-    write_atomic(path, data)
-    return 1, f"dict {anchor[:30]}: {len(zh_dict_flat)} translations merged"
-
-
-def patch_literals(path, lit_map):
-    if not lit_map:
-        return 0
-    data = open(path, encoding="utf8", errors="surrogateescape").read()
-    hits = 0
-    for en, zh in lit_map.items():
-        needle = '"' + en.replace("\\", "\\\\").replace('"', '\\"') + '"'
-        count = data.count(needle)
-        if count:
-            data = data.replace(needle, '"' + zh.replace("\\", "\\\\").replace('"', '\\"') + '"')
-            hits += count
-    write_atomic(path, data)
-    return hits
-
-
-def patch_ext_package_json(app, ext_map):
-    hits = 0
-    for d in EXT_DIRS:
-        pj = os.path.join(app, "extensions", d, "package.json")
-        if not os.path.exists(pj):
-            continue
-        raw = open(pj, encoding="utf8").read()
-        for en, zh in ext_map.items():
-            needle = '"' + en.replace('"', '\\"') + '"'
-            if needle in raw:
-                raw = raw.replace(needle, '"' + zh.replace('"', '\\"') + '"')
-                hits += 1
-        open(pj, "w", encoding="utf8").write(raw)
-    return hits
+def write_atomic(path, data):
+    tmp = path + ".devin-zh-tmp"
+    with open(tmp, "w", encoding="utf8", errors="surrogateescape") as f:
+        f.write(data)
+    os.replace(tmp, path)
 
 
 def backup(path):
@@ -173,45 +94,223 @@ def restore(path):
     return False
 
 
-def load_translations(tdir, locale):
-    def j(name):
-        p = os.path.join(tdir, locale, name)
-        return json.load(open(p, encoding="utf8")) if os.path.exists(p) else {}
-    return j("webview.json"), j("literals.json"), j("exts.json")
+def load_translations(tdir):
+    """Return {locale: {webview_flat, literals_arr, exts_arr}} plus en lists."""
+    out = {}
+    for loc in LOCALES:
+        d = os.path.join(tdir, loc)
+        if not os.path.isdir(d):
+            continue
+        def j(name, default):
+            p = os.path.join(d, name)
+            return json.load(open(p, encoding="utf8")) if os.path.exists(p) else default
+        out[loc] = {
+            "webview": j("webview.json", {}),
+            "review": j("review.json", {}),
+            "literals": j("literals.json", []),
+            "exts": j("exts.json", []),
+        }
+    return out
+
+
+def build_resources_injection(trans):
+    """Return JS expr turning `res` var into res with all zh locales added.
+
+    (r=>{r["zh-cn"]=JSON.parse('...');...;r["zh-mo"]=r["zh-hk"];return r})
+    """
+    assigns = []
+    for loc in LOCALES:
+        t = trans.get(loc)
+        if not t or not t["webview"]:
+            continue
+        # zh-mo shares zh-hk payload
+        src = "zh-hk" if loc == "zh-mo" else loc
+        src_t = trans.get(src, {})
+        web = unflatten(t["webview"]) if loc != "zh-mo" else None
+        rev = unflatten(t["review"]) if loc != "zh-mo" else None
+        if loc == "zh-mo":
+            if trans.get("zh-hk", {}).get("webview"):
+                assigns.append(f'r["zh-mo"]=r["zh-hk"]')
+            continue
+        payload = js_escape(json.dumps(
+            {"translation": web, "review": rev}, ensure_ascii=False, separators=(",", ":")))
+        assigns.append(f'r["{loc}"]=JSON.parse(\'{payload}\')')
+    if not assigns:
+        return None
+    return "(r=>{" + ";".join(assigns) + ";return r})"
+
+
+def build_literal_dict(trans, en_literals):
+    """{locale: {en: zh}} for literals that have any translation."""
+    d = {}
+    for loc in LOCALES:
+        arr = trans.get(loc, {}).get("literals", [])
+        m = {}
+        for i, zh in enumerate(arr):
+            if zh and i < len(en_literals):
+                m[en_literals[i]] = zh
+        if m:
+            d[loc] = m
+    return d
+
+
+def patch_bundle(path, res_inject, lit_dict):
+    data = open(path, encoding="utf8", errors="surrogateescape").read()
+    touched = 0
+
+    # 1. literals FIRST (scan pristine bundle; injected payloads must not be re-scanned)
+    if lit_dict:
+        need_bootstrap = "__devinZhLit" not in data
+        lit_json = js_escape(json.dumps(lit_dict, ensure_ascii=False, separators=(",", ":")))
+        lookup = "globalThis.__devinZhLit=globalThis.__devinZhLit||JSON.parse('" + lit_json + "');"
+
+        # Exclude the en dict JSON.parse payload regions: replacing inside them
+        # would turn i18next dict values into literal expression text.
+        spans = []
+        for anchor in DICT_ANCHORS:
+            for m0 in re.finditer(r"JSON\.parse\((['`])", data):
+                q = m0.group(1)
+                try:
+                    e = _scan_str(data, m0.end(), q)
+                except IndexError:
+                    continue
+                if anchor in data[m0.end():e]:
+                    spans.append((m0.start(), e))
+        hits = 0
+        en_keys = lit_dict.get("zh-cn", lit_dict.get(next(iter(lit_dict), ""), {}))
+        for en in en_keys:
+            needle = json.dumps(en, ensure_ascii=False)
+            zh_map_expr = (f'(globalThis.__devinZhLit[{LANG_EXPR}]'
+                           f'&&globalThis.__devinZhLit[{LANG_EXPR}][{needle}]||{needle})')
+            pos = 0
+            while True:
+                i = data.find(needle, pos)
+                if i < 0:
+                    break
+                if any(s <= i < e for s, e in spans):
+                    pos = i + len(needle)
+                    continue
+                data = data[:i] + zh_map_expr + data[i + len(needle):]
+                hits += 1
+                pos = i + len(zh_map_expr)
+        if need_bootstrap:
+            data = lookup + data
+        touched += hits
+
+    # 2. resources:<var> -> resources:<inject>(<var>)   (only the one adjacent to lng:"en")
+    m = re.search(r"resources:([A-Za-z_$][\w$]*),\s*lng:\"en\"", data)
+    if m and res_inject:
+        data = data[:m.start()] + f"resources:{res_inject}({m.group(1)}),lng:\"en\"" + data[m.end():]
+        i = data.index(f"resources:{res_inject}({m.group(1)}),lng:\"en\"")
+        j = data.index('lng:"en"', i)
+        data = data[:j] + "lng:" + LANG_EXPR + data[j + len('lng:"en"'):]
+        touched += 1
+    elif not m:
+        return 0, "i18next init (resources:x,lng:\"en\") not found"
+
+    write_atomic(path, data)
+    return touched, "ok"
+
+
+def localize_exts(app, trans, en_exts):
+    """Convert inline display strings in windsurf extension package.jsons into
+    %key% nls indirection, then emit package.nls.json (en) + package.nls.<loc>.json.
+    Fully additive: English resolves through package.nls.json unchanged."""
+    zh_by_loc = {}
+    for loc in LOCALES:
+        arr = trans.get(loc, {}).get("exts", [])
+        zh_by_loc[loc] = {en_exts[i]: arr[i] for i in range(len(arr)) if i < len(en_exts) and arr[i]}
+    any_loc = next((m for m in zh_by_loc.values() if m), {})
+    if not any_loc:
+        return 0
+    written = 0
+    for d in EXT_DIRS:
+        pj = os.path.join(app, "extensions", d, "package.json")
+        if not os.path.exists(pj):
+            continue
+        data = json.load(open(pj, encoding="utf8"))
+        keymap = {}   # en -> %key%
+        def walk(o):
+            if isinstance(o, dict):
+                for k in list(o):
+                    v = o[k]
+                    if isinstance(v, str) and v in any_loc:
+                        o[k] = "%" + keymap.setdefault(v, f"devinzh.{len(keymap)}") + "%"
+                    else:
+                        walk(v)
+            elif isinstance(o, list):
+                for i, v in enumerate(o):
+                    if isinstance(v, str) and v in any_loc:
+                        o[i] = "%" + keymap.setdefault(v, f"devinzh.{len(keymap)}") + "%"
+                    else:
+                        walk(v)
+        walk(data)
+        if not keymap:
+            continue
+        backup(pj)
+        json.dump(data, open(pj, "w", encoding="utf8"), ensure_ascii=False, indent="\t")
+        ext = os.path.join(app, "extensions", d)
+        inv = {keymap[v]: v for v in keymap}
+        json.dump(inv, open(os.path.join(ext, "package.nls.json"), "w", encoding="utf8"),
+                  ensure_ascii=False, indent=2)
+        for loc in LOCALES:
+            m = zh_by_loc.get(loc, {})
+            out = {keymap[v]: m[v] for v in keymap if v in m}
+            if out:
+                json.dump(out, open(os.path.join(ext, f"package.nls.{loc}.json"), "w", encoding="utf8"),
+                          ensure_ascii=False, indent=2)
+        written += len(keymap)
+    return written
+
+
+def update_checksums(app):
+    """Recompute product.json checksums for patched files so VS Code's
+    integrity check stops flagging the install as corrupt."""
+    pj = os.path.join(app, "product.json")
+    d = json.load(open(pj, encoding="utf8"))
+    cs = d.get("checksums")
+    if not cs:
+        return 0
+    changed = 0
+    for rel in BUNDLES:
+        key = rel[len("out/"):] if rel.startswith("out/") else rel
+        path = os.path.join(app, rel)
+        if key in cs and os.path.exists(path):
+            h = base64.b64encode(hashlib.sha256(open(path, "rb").read()).digest()).decode().rstrip("=")
+            if cs[key] != h:
+                cs[key] = h
+                changed += 1
+    if changed:
+        backup(pj)
+        json.dump(d, open(pj, "w", encoding="utf8"), ensure_ascii=False, indent="\t")
+    return changed
 
 
 def cmd_apply(a):
     app = a.app
-    webview, literals, exts = load_translations(a.translations, a.locale)
-    zh_t = webview.get("translation", {})
-    zh_r = webview.get("review", {})
-    if not zh_t and not literals and not exts:
-        print("no translations found for", a.locale); return 1
-    patched = []
+    trans = load_translations(a.translations)
+    if not trans:
+        print("no translations found"); return 1
+    en_exts = json.load(open(os.path.join(a.translations, "..", "work", "exts.en.list.json"), encoding="utf8")) if os.path.exists(os.path.join(a.translations, "..", "work", "exts.en.list.json")) else []
+    en_literals = json.load(open(os.path.join(a.translations, "..", "work", "literals.en.list.json"), encoding="utf8")) if os.path.exists(os.path.join(a.translations, "..", "work", "literals.en.list.json")) else []
+
+    res_inject = build_resources_injection(trans)
+    lit_dict = build_literal_dict(trans, en_literals)
     for rel in BUNDLES:
         path = os.path.join(app, rel)
         if not os.path.exists(path):
             print("skip missing", rel); continue
         backup(path)
-        for ns, anchor in DICT_ANCHORS:
-            flat = zh_t if ns == "translation" else zh_r
-            n, msg = patch_dict_in_bundle(path, anchor, flat)
-            print(" ", rel, "->", msg)
-        if literals:
-            n = patch_literals(path, literals)
-            print(" ", rel, "-> literals:", n, "replaced")
-        patched.append(rel)
-    if exts:
-        for d in EXT_DIRS:
-            pj = os.path.join(app, "extensions", d, "package.json")
-            if os.path.exists(pj):
-                backup(pj)
-        n = patch_ext_package_json(app, exts)
-        print(" extensions:", n, "strings patched")
+        n, msg = patch_bundle(path, res_inject, lit_dict)
+        print(" ", rel, "->", msg, f"({n} patches)")
+    if en_exts:
+        w = localize_exts(app, trans, en_exts)
+        print(" extensions:", w, "strings localized via package.nls.<loc>.json")
+    c = update_checksums(app)
+    if c:
+        print(" product.json:", c, "checksums refreshed (integrity check stays green)")
     marker = os.path.join(app, MARKER)
-    json.dump({"locale": a.locale, "files": patched + [f"extensions/{d}/package.json" for d in EXT_DIRS],
-               "version": open(os.path.join(app, "product.json")).read()[:200]},
-              open(marker, "w"))
+    json.dump({"locales": list(trans), "files": BUNDLES}, open(marker, "w"))
     print("patched. marker:", marker)
     return 0
 
@@ -225,6 +324,17 @@ def cmd_restore(a):
         pj = os.path.join(app, "extensions", d, "package.json")
         if restore(pj):
             print("restored", pj)
+        for name in ["package.nls.json"] + [f"package.nls.{loc}.json" for loc in LOCALES]:
+            p = os.path.join(app, "extensions", d, name)
+            if os.path.exists(p):
+                try:
+                    if "devinzh." in open(p, encoding="utf8").read():
+                        os.remove(p); print("removed", p)
+                except OSError:
+                    pass
+    pj = os.path.join(app, "product.json")
+    if restore(pj):
+        print("restored product.json")
     m = os.path.join(app, MARKER)
     if os.path.exists(m):
         os.remove(m)
@@ -246,9 +356,9 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     for name in ("apply", "restore", "status"):
         p = sub.add_parser(name)
-        p.add_argument("--app", required=True, help="path to resources/app inside Devin Desktop install")
-        p.add_argument("--locale", default="zh-cn")
-        p.add_argument("--translations", default=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "translations"))
+        p.add_argument("--app", required=True)
+        p.add_argument("--translations",
+                       default=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "translations"))
     a = ap.parse_args()
     sys.exit({"apply": cmd_apply, "restore": cmd_restore, "status": cmd_status}[a.cmd](a))
 
