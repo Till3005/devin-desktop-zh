@@ -1,0 +1,500 @@
+translation.pluginMarketplace.offered	已提供
+translation.pluginMarketplace.offeredToMembers	已向成员提供
+translation.pluginMarketplace.viewDetails	查看 {{name}} 详情
+translation.pluginMarketplace.folders.new	新建文件夹
+translation.pluginMarketplace.folders.newTitle	新建文件夹
+translation.pluginMarketplace.folders.newDescription	用 / 表示嵌套文件夹。技能移入后文件夹会被保留。
+translation.pluginMarketplace.folders.create	创建
+translation.pluginMarketplace.folders.rename	重命名
+translation.pluginMarketplace.folders.renameTitle	重命名文件夹
+translation.pluginMarketplace.folders.renameDescription	文件夹内的所有技能会随它移动。
+translation.pluginMarketplace.folders.mergeDescription	{{name}} 已存在，两个文件夹将被合并。
+translation.pluginMarketplace.folders.delete	删除
+translation.pluginMarketplace.folders.deleteTitle	删除 {{name}}？
+translation.pluginMarketplace.folders.deleteDescription_one	该文件夹及其 {{count}} 个技能（含所有子文件夹）将被删除，且不可撤销。
+translation.pluginMarketplace.folders.deleteDescription_other	该文件夹及其 {{count}} 个技能（含所有子文件夹）将被删除，且不可撤销。
+translation.pluginMarketplace.folders.deleteDescription_zero	该文件夹为空。
+translation.pluginMarketplace.folders.move	移动
+translation.pluginMarketplace.folders.moveAction	移动到文件夹
+translation.pluginMarketplace.folders.moveActionFor	把 {{name}} 移动到文件夹
+translation.pluginMarketplace.folders.moveTitle	移动 {{name}}
+translation.pluginMarketplace.folders.moveDescription	选择该技能归入的文件夹。
+translation.pluginMarketplace.folders.folderLabel	文件夹
+translation.pluginMarketplace.folders.pathLabel	文件夹名称
+translation.pluginMarketplace.folders.pathPlaceholder	团队/运维手册
+translation.pluginMarketplace.folders.nameRequired	必须填写文件夹名称
+translation.pluginMarketplace.folders.alreadyExists	同名文件夹已存在。
+translation.pluginMarketplace.folders.intoItself	文件夹不能移动到自身内。
+translation.pluginMarketplace.folders.actionsFor	{{name}} 的操作
+translation.pluginMarketplace.folders.empty	还没有技能
+translation.pluginMarketplace.folders.updateFailed	无法更新文件夹，请重试。
+translation.pluginMarketplace.sheet.enabled	已启用
+translation.pluginMarketplace.sheet.disabled	已禁用
+translation.pluginMarketplace.sheet.notConnected	未连接
+translation.pluginMarketplace.sheet.disabledTools	已禁用的工具：{{tools}}
+translation.pluginMarketplace.sheet.platforms	平台
+translation.pluginMarketplace.sheet.cloudOnly	仅云端
+translation.pluginMarketplace.sheet.localOnly	仅本地
+translation.pluginMarketplace.sheet.securityOnly	仅安全
+translation.pluginMarketplace.sheet.backToPluginLabel	返回 {{name}}
+translation.pluginMarketplace.sheet.viewMore	再查看 {{count}} 条
+translation.pluginMarketplace.sheet.folderItemCount_one	{{count}} 个技能
+translation.pluginMarketplace.sheet.folderItemCount_other	{{count}} 个技能
+translation.pluginMarketplace.sheet.knowledgeFoldersHint	从知识笔记迁移来的技能
+translation.pluginMarketplace.sheet.unfiledFolder	未归档
+translation.pluginMarketplace.sheet.advanced	高级
+translation.pluginMarketplace.sheet.metadata	元数据
+translation.pluginMarketplace.sheet.ref	引用
+translation.pluginMarketplace.sheet.path	路径
+translation.pluginMarketplace.sheet.installedIn	安装于
+translation.pluginMarketplace.sheet.viewingLayer	{{layer}}（查看中）
+translation.pluginMarketplace.sheet.repoCount_one	{{count}} 个仓库
+translation.pluginMarketplace.sheet.repoCount_other	{{count}} 个仓库
+translation.pluginMarketplace.sheet.pinnedSha	锁定的 SHA
+translation.pluginMarketplace.sheet.packaging	打包方式
+translation.pluginMarketplace.sheet.skillsRepo	技能仓库
+translation.pluginMarketplace.sheet.examplePrompts	示例提示词
+translation.pluginMarketplace.sheet.marketplacePlugin	市场插件
+translation.pluginMarketplace.sheet.officialPlugin	官方插件
+translation.pluginMarketplace.sheet.installFailedTitle	安装失败
+translation.pluginMarketplace.sheet.installedWithIssuesTitle	已安装，但有问题
+translation.pluginMarketplace.sheet.contentsWithheldTitle	无权查看
+translation.pluginMarketplace.sheet.reposWithheldHint	此插件来自你在此视图中无权访问的仓库。
+translation.pluginMarketplace.sheet.reposWithheldHintOrg	{{org}} 无法访问 {{layer}} 来源的仓库，因此在此隐藏。
+translation.pluginMarketplace.sheet.personalSourceRuntimeHint	此插件无法被索引，但 Devin 在会话中仍可能加载它。
+translation.pluginMarketplace.sheet.noContentsFound	此插件中未找到技能、MCP、钩子、规则或子代理配置。
+translation.pluginMarketplace.sheet.learnMore	了解更多
+translation.pluginMarketplace.sheet.permissions	权限
+translation.pluginMarketplace.sheet.uninstall	卸载
+translation.pluginMarketplace.sheet.uninstallTitle	卸载 {{name}}？
+translation.pluginMarketplace.sheet.uninstallDescription	将在此范围移除 {{name}}，其技能、规则、钩子和 MCP 服务器将不再生效。
+translation.pluginMarketplace.sheet.uninstallPersonalDescription	将移除你对 {{name}} 的个人安装，它在 {{layer}} 仍保持安装。
+translation.pluginMarketplace.sheet.uninstallFrom	从 {{layer}} 卸载
+translation.pluginMarketplace.sheet.uninstallFromDescription	将从 {{layer}} 移除 {{name}}，其技能、规则、钩子和 MCP 服务器在该处不再生效。
+translation.pluginMarketplace.sheet.removeFrom	从 {{layer}} 移除
+translation.pluginMarketplace.sheet.remove	移除
+translation.pluginMarketplace.sheet.removeTitle	移除 {{name}}？
+translation.pluginMarketplace.sheet.removeDescription	将停止在此处提供 {{name}}，已安装的人仍可继续使用。
+translation.pluginMarketplace.sheet.dependencies	依赖项
+translation.pluginMarketplace.sheet.required	必需
+translation.pluginMarketplace.sheet.optional	可选
+translation.pluginMarketplace.sheet.view	查看
+translation.pluginMarketplace.sheet.open	打开
+translation.pluginMarketplace.sheet.openLink	打开 {{label}}
+translation.pluginMarketplace.sheet.website	网站
+translation.pluginMarketplace.sheet.repository	仓库
+translation.pluginMarketplace.sheet.privacyPolicy	隐私政策
+translation.pluginMarketplace.sheet.termsOfService	服务条款
+translation.pluginMarketplace.sheet.license	许可证
+translation.pluginMarketplace.sheet.capabilities	能力
+translation.pluginMarketplace.sheet.developer	开发者
+translation.pluginMarketplace.sheet.category	分类
+translation.pluginMarketplace.sheet.version	版本
+translation.pluginMarketplace.sheet.indexedSnapshot	显示的是最近索引的版本，最新修改可能尚未出现在这里。
+translation.pluginMarketplace.sheet.notIndexedInstalled	Devin 尚未索引此插件的内容，下次索引运行后其技能、MCP 等内容才会显示在这里。
+translation.pluginMarketplace.sheet.notIndexedInstall	安装此插件，索引完成后即可在此查看其技能、MCP 等内容。
+translation.pluginMarketplace.officialMarketplaceEnabled	Devin 市场已启用
+translation.pluginMarketplace.officialMarketplaceDisabled	Devin 市场已禁用
+translation.pluginMarketplace.officialMarketplaceUpdateFailed	无法更新 Devin 市场设置
+translation.pluginMarketplace.officialMarketplaceManifestUnreadable	无法读取 manifest，请在“配置”页中修复。
+translation.pluginMarketplace.manifestDialog.userTitle	你的插件 manifest
+translation.pluginMarketplace.manifestDialog.userWho	你
+translation.pluginMarketplace.manifestDialog.orgTitle	组织插件 manifest
+translation.pluginMarketplace.manifestDialog.orgWho	本组织的所有人
+translation.pluginMarketplace.manifestDialog.accountTitle	企业插件 manifest
+translation.pluginMarketplace.manifestDialog.accountWho	本企业中的所有组织
+translation.pluginMarketplace.manifestDialog.description	三个清单决定 {{who}} 获得哪些插件。<chip>requiredPlugins</chip> 安装它们，<chip>optionalPlugins</chip> 提供但不安装，<chip>forbiddenPlugins</chip> 阻止它们——它还支持通配符，如 <chip>acme/*</chip>。<docsLink>查看 manifest 格式</docsLink>
+translation.pluginMarketplace.manifestDialog.saved	manifest 已保存
+translation.pluginMarketplace.connect	连接
+translation.pluginMarketplace.loadFailed	无法加载市场，请重试。
+translation.pluginMarketplace.notActiveSubtitle	未激活 — 在激活之前会话不会加载它。
+translation.pluginMarketplace.activating	正在激活…
+translation.pluginMarketplace.activate	激活
+translation.pluginMarketplace.deleteScopeBundleDescription	将永久删除该插件及写入其中的所有内容。
+translation.pluginMarketplace.deleteScopeBundleDescriptionScoped	将永久删除该插件及 {{scope}} 中所有人写入其中的所有内容。
+translation.pluginMarketplace.removesForEveryone	这将对所有人移除 {{name}}。
+translation.pluginMarketplace.removesForEveryoneIn	这将对 {{scope}} 中的所有人移除 {{name}}。
+translation.markdownContent.preview	预览
+translation.markdownContent.source	源码
+translation.markdownContent.noAccess	你没有查看此文件的权限
+translation.markdownContent.notFound	此仓库中找不到该文件
+translation.markdownContent.loadFailed	文件加载失败
+translation.markdownContent.frontmatter	Frontmatter
+translation.markdownContent.copy	复制内容
+translation.pluginInstallWarning.title	安装 {{name}}
+translation.pluginInstallWarning.description	将 Devin 连接到 {{name}}。你可随时在设置中卸载此插件。
+translation.pluginInstallWarning.connectTitle	连接 {{name}}
+translation.pluginInstallWarning.connectDescription	你可在设置中断开 {{name}}。
+translation.pluginInstallWarning.securityNotice	安全提示
+translation.pluginInstallWarning.body	Devin 将被允许运行此插件的规则、钩子和技能。仅在信任此插件并已核实其来源时继续。
+translation.pluginInstallWarning.bodyOfficial	Devin 将被允许运行此插件的规则、钩子和技能。仅在信任此插件时继续。
+translation.pluginInstallWarning.bodyMcp	Devin 将被允许运行此插件的规则、钩子和技能，包括通过其 MCP 服务器访问外部数据。仅在信任此插件并已核实其来源时继续。
+translation.pluginInstallWarning.bodyMcpOfficial	Devin 将被允许运行此插件的规则、钩子和技能，包括通过其 MCP 服务器访问外部数据。仅在信任此插件时继续。
+translation.pluginInstallWarning.mcp.title	启用 MCP 集成
+translation.pluginInstallWarning.mcp.description	授予 Devin 访问 {{name}} 的权限。你可随时在设置中禁用此集成。
+translation.pluginInstallWarning.mcp.body	你即将授予 Devin 对 {{name}} 的大量访问权限，允许它与外部数据交互。仅在信任此集成并已核实其来源时继续。
+translation.pluginInstallWarning.mcp.sharedOAuth	启用此集成后，组织的所有成员将使用<strong>同一个 MCP 服务器连接，所有操作共享同一个认证状态。</strong><u>强烈建议使用服务账户</u> — 当 Devin 提示你访问 URL 连接 {{name}} 账户时。
+translation.pluginInstallWarning.mcp.sharedOAuthCount	启用此集成后，组织的全部 {{count}} 名成员将使用<strong>同一个 MCP 服务器连接，所有操作共享同一个认证状态。</strong><u>强烈建议使用服务账户</u> — 当 Devin 提示你访问 URL 连接 {{name}} 账户时。
+translation.pluginInstallWarning.mcp.sharedOAuthAccount	在 Unified 模式下有权使用此 MCP 的任何人都会使用<strong>同一个服务器连接，所有操作共享同一个认证状态。</strong><u>强烈建议使用服务账户</u> — 当 Devin 提示你访问 URL 连接 {{name}} 账户时。
+translation.pluginInstallWarning.mcp.userOAuthAccount	有权使用此 MCP 的每个人都用自己的 {{name}} 个人访问令牌单独认证。其他用户仍可与你的会话交互，因此不应将此视为安全边界。
+translation.pluginInstallWarning.mcp.userOAuth	组织的每位成员将用自己的 {{name}} 个人访问令牌单独认证。请注意其他用户仍可与你的会话交互，因此不应将此视为安全边界。
+translation.pluginInstallWarning.mcp.installAndEnable	安装并启用
+translation.pluginInstallWarning.capability.skills	技能
+translation.pluginInstallWarning.capability.mcp_servers	MCP 服务器
+translation.pluginInstallWarning.capability.agents	子代理
+translation.pluginInstallWarning.capability.hooks	钩子
+translation.pluginInstallWarning.capability.rules	规则
+translation.pluginInstallWarning.acknowledge	我理解并希望继续
+translation.pluginInstallWarning.installing	正在安装...
+translation.assetEditor.description	描述
+translation.assetEditor.skillNamePlaceholder	发布检查清单
+translation.assetEditor.ruleNamePlaceholder	提交信息格式
+translation.assetEditor.skillDescriptionPlaceholder	描述代理应在何时使用此技能
+translation.assetEditor.ruleDescriptionPlaceholder	提供一段摘要
+translation.skillEditor.allowAutomaticUse	允许 Devin 自动使用此技能
+translation.skillEditor.descriptionHelp	Devin 应在何时使用此技能。
+translation.pluginVersionHistory.tab	版本历史
+translation.pluginVersionHistory.editTab	编辑
+translation.pluginVersionHistory.previewTab	预览
+translation.pluginVersionHistory.empty	还没有已保存的版本
+translation.pluginVersionHistory.emptyHint	每次保存都会在这里新增一个版本。
+translation.pluginVersionHistory.current	当前
+translation.pluginVersionHistory.noMessage	（无备注）
+translation.pluginVersionHistory.unknownAuthor	未知
+translation.pluginVersionHistory.viewModeLabel	版本视图
+translation.pluginVersionHistory.changes	变更
+translation.pluginVersionHistory.content	内容
+translation.pluginVersionHistory.filesChanged_one	{{count}} 个文件已变更
+translation.pluginVersionHistory.filesChanged_other	{{count}} 个文件已变更
+translation.pluginVersionHistory.noFileChanges	此版本没有变更任何文件。
+translation.pluginVersionHistory.noTextChanges	此版本没有文本变更。
+translation.pluginVersionHistory.deletedInVersion	此文件在此版本中已删除。
+translation.pluginVersionHistory.binaryFile	二进制文件
+translation.pluginVersionHistory.loadFailed	无法加载此版本。
+translation.pluginVersionHistory.restoreToEditor	载入编辑器
+translation.pluginVersionHistory.restoreToEditorHelp	载入版本会替换编辑器内容，保存后会成为最新版本。
+translation.pluginVersionHistory.restore	还原此版本
+translation.pluginVersionHistory.restoreTitle	还原此版本？
+translation.pluginVersionHistory.restoreDescription	插件的内容将被替换为 {{sha}} 的文件，之后的版本仍保留在历史中。
+translation.pluginVersionHistory.restoreConfirm	还原
+translation.pluginVersionHistory.restored	已还原版本 {{sha}}
+translation.pluginVersionHistory.sourceTab	源码
+translation.memoryDrive.tabLabel	记忆
+translation.memoryDrive.tabDescription	Devin 跨会话记住的关于你和你的工作的内容。属于你个人，不与你的组织共享。
+translation.memoryDrive.personalBadge	个人
+translation.memoryDrive.titleFor	<picker/> 的记忆
+translation.memoryDrive.serviceUserBadge	服务用户
+translation.memoryDrive.serviceUserDescription	Devin 从 {{name}} 的会话中记住的内容。由以它身份运行的每个会话共享；此处为只读。
+translation.memoryDrive.files	记忆文件
+translation.memoryDrive.refresh	刷新
+translation.memoryDrive.settings	记忆设置
+translation.memoryDrive.lastUsed	上次使用 {{date}}
+translation.memoryDrive.loading	正在加载记忆文件
+translation.memoryDrive.loadError	无法加载记忆文件，请刷新重试。
+translation.memoryDrive.empty	还没有记忆文件。在会话中让 Devin 记住点什么吧。
+translation.memoryDrive.binaryFile	二进制文件（{{size}}）— 无法预览。
+translation.memoryDrive.fileContents	{{path}}（只读）
+translation.memoryDrive.confidenceLow	低置信度
+translation.memoryDrive.confidenceMedium	中置信度
+translation.memoryDrive.confidenceHigh	高置信度
+translation.memoryDrive.sourceCount_one	{{count}} 个来源
+translation.memoryDrive.sourceCount_other	{{count}} 个来源
+translation.memoryDrive.sources	来源
+translation.memoryDrive.sourceAdded	添加于 {{date}}
+translation.memoryDrive.sourceUnreadableSession	会话 {{id}}
+translation.memoryDrive.disableAction	关闭个人记忆
+translation.memoryDrive.enableAction	开启个人记忆
+translation.memoryDrive.disableServiceUserAction	关闭此服务用户的记忆
+translation.memoryDrive.enableServiceUserAction	开启此服务用户的记忆
+translation.memoryDrive.disableDreamingAction	关闭 dreaming
+translation.memoryDrive.enableDreamingAction	开启 dreaming
+translation.memoryDrive.offTitle	个人记忆已关闭
+translation.memoryDrive.serviceUserOffTitle	此服务用户的记忆已关闭
+translation.memoryDrive.recentSessions	最近的 dreaming 会话
+translation.memoryDrive.recentSessionsLoading	正在加载最近的 dreaming 会话
+translation.memoryDrive.sessionFinished	已完成
+translation.memoryDrive.sessionRefinement	提炼
+translation.memoryDrive.sessionSeed	记忆种子
+translation.memoryDrive.sessionNoChanges	无需变更。
+translation.memoryDrive.sessionFilesChanged_one	{{count}} 个文件
+translation.memoryDrive.sessionFilesChanged_other	{{count}} 个文件
+translation.pluginContentsEditor.savedActivationFailed	已保存，但激活 bundle 失败。请在“配置”页把它加入 manifest。
+translation.pluginContentsEditor.tooManyFiles	Bundle 文件过多（上限 {{limit}}）
+translation.pluginContentsEditor.changedBySomeoneElse	此插件已被他人修改。放弃你的编辑以加载最新版本。
+translation.pluginContentsEditor.nameTaken	此范围已存在名为“{{name}}”的插件（可能已停用）。请换一个名称。
+translation.pluginContentsEditor.pathExists	“{{name}}”已存在
+translation.pluginManifestEditor.save	保存
+translation.pluginManifestEditor.saving	正在保存…
+translation.pluginManifestEditor.discard	放弃
+translation.pluginFilesEditor.manifestMissing	Bundle 必须包含 .devin-plugin/plugin.json。
+translation.pluginFilesEditor.manifestInvalid	.devin-plugin/plugin.json 不是有效的 JSON。
+translation.pluginFilesEditor.fixedManifestName	请将 "name" 保持为“{{name}}”。如需重命名此插件，请修改 "displayName"。
+translation.pluginFilesEditor.notSaved	你的更改未保存。
+translation.pluginFilesEditor.filePathLabel	文件路径
+translation.pluginFilesEditor.folderPathLabel	文件夹路径
+translation.pluginFilesEditor.files	文件
+translation.pluginFilesEditor.moveFile	移动文件
+translation.pluginFilesEditor.moveFolder	移动文件夹
+translation.pluginFilesEditor.moveFileDescription	相对于插件根目录
+translation.pluginFilesEditor.moveFolderDescription	相对于插件根目录，其内容随它移动
+translation.pluginFilesEditor.move	移动…
+translation.pluginFilesEditor.moveConfirm	移动
+translation.pluginFilesEditor.renameMessage	将 {{from}} 重命名为 {{to}}
+translation.pluginFilesEditor.noFiles	还没有文件，添加一个开始吧。
+translation.pluginFilesEditor.selectFile	选择一个文件进行编辑。
+translation.pluginFilesEditor.binaryFile	二进制文件（{{size}}）— 无法在此编辑。
+translation.pluginFilesEditor.delete	删除
+translation.pluginFilesEditor.deleteFileTitle	删除文件
+translation.pluginFilesEditor.deleteFolderTitle	删除文件夹
+translation.pluginFilesEditor.deleteDescription	从插件中移除 {{path}}？保存后生效。
+translation.pluginFilesEditor.cancel	取消
+translation.pluginFilesEditor.save	保存
+translation.pluginFilesEditor.saving	正在保存…
+translation.pluginFilesEditor.discard	放弃
+translation.pluginFilesEditor.updateMessage	更新文件
+translation.pluginFilesEditor.addMessage	添加 {{path}}
+translation.pluginFilesEditor.deleteMessage	删除 {{path}}
+translation.pluginFilesEditor.updateOneMessage	更新 {{path}}
+translation.pluginFilesEditor.discardTitle	放弃未保存的更改？
+translation.pluginFilesEditor.keepEditing	继续编辑
+translation.pluginContents.docsLink	插件文档
+translation.pluginContents.uploading	正在上传…
+translation.pluginContents.creating	正在创建…
+translation.pluginContents.uploadFailed	无法上传该 .zip 文件
+translation.pluginContents.createFailed	无法创建插件
+translation.pluginContents.createTitle	创建插件
+translation.pluginContents.namePlaceholder	Acme Tools
+translation.pluginContents.create	创建
+translation.pluginContents.cancelCreate	取消
+translation.pluginContents.updateDetailsMessage	更新插件详情
+translation.pluginContents.editDetails	编辑插件详情
+translation.pluginContents.nameLabel	名称
+translation.pluginContents.nameRequired	必须填写名称
+translation.pluginContents.descriptionLabel	描述
+translation.pluginContents.descriptionPlaceholder	用于发布工作的技能与规则
+translation.pluginContents.logoLabel	Logo
+translation.pluginContents.logoPlaceholder	https:// 或 assets/logo.png
+translation.pluginContents.logoInvalid	请输入以 https:// 开头的完整 URL，或此插件中图片文件的路径。
+translation.pluginContents.manifestSection	插件 manifest
+translation.pluginContents.manifestRowSubtitle	插件 id、版本及 manifest 的其余部分
+translation.pluginContents.saveDetails	保存
+translation.pluginContents.savingDetails	正在保存…
+translation.pluginMcpConnect.mcpDisabledForOrg	你的组织已禁用 MCP 服务器
+translation.pluginMcpConnect.enterpriseLevelTitle	企业级不可用
+translation.pluginMcpConnect.enterpriseLevelGuidance	你的 MCP 在组织内部连接，请切换到你的某个组织来连接 {{names, list}}。
+translation.pluginMcpConnect.enterpriseLevelAddGuidance	你的 MCP 在组织内部添加，请切换到你的某个组织来添加。
+translation.pluginMcpConnect.enterpriseLevelCliGuidance	如仅在 CLI 中使用，请在本地配置 MCP 并运行 <command>{{command}}</command>。
+translation.pluginMcpConnect.enterpriseLevelCliSetupGuidance	如仅在 CLI 中使用，请在本地配置 MCP。
+translation.pluginMcpConnect.memberConnectionsDisabled	只有管理员添加的 MCP 才能被连接
+translation.pluginMcpConnect.pendingIndexUnread	{{name}} 尚未安装完成。
+translation.pluginMcpConnect.pendingIndexRunningReason	安装完成后即可连接其 MCP。
+translation.pluginMcpConnect.pendingIndexSoonReason	安装已排期，之后即可连接其 MCP。
+translation.pluginMcpConnect.pendingIndexAtReason	安装已排期至 {{time}}，之后即可连接其 MCP。
+translation.pluginMcpConnect.pendingIndexFailedReason	上次安装尝试失败。
+translation.pluginMcpConnect.pendingIndexWaitingReason	插件安装完成后即可连接其 MCP。
+translation.customizeAsset.deleteConfirm	删除
+translation.customizeAsset.deleted	已删除 {{name}}
+translation.customizeAsset.deleteDescription	删除“{{label}}”？Devin 将不再使用它。
+translation.customizeAsset.deleteRuleTitle	删除规则
+translation.customizeAsset.deleteSkillTitle	删除技能
+translation.customizeAsset.deleteLinkedTitle	删除“{{label}}”？
+translation.customizeAsset.deletePlaybookSkillWarning	如果此技能为某个 Playbook 提供指令，删除它意味着使用该 Playbook 的计划和自动化将不再运行那些指令。
+translation.customizeAsset.editSkillTitle	编辑技能
+translation.customizeAsset.editRuleTitle	编辑规则
+translation.customizeMcp.installation	安装
+translation.customizeMcp.rowDisconnectHint	登出。其设置会保留，可再次登录。
+translation.customizeMcp.rowUninstallHint	删除此安装及其设置。
+translation.customizeMcp.editSource	编辑来源
+translation.customizeMcp.editInstallation	编辑安装
+translation.customizeMcp.accountsTitle	安装
+translation.customizeMcp.sharePrimaryAccount	共享主账户
+translation.customizeMcp.accountActions	{{name}} 的操作
+translation.customizeMcp.accountConnected	已连接
+translation.customizeMcp.accountNotSignedIn	未登录
+translation.customizeMcp.accountExpired	登录已过期
+translation.customizeMcp.firstSignInTitle	连接你的 {{name}} 账户
+translation.customizeMcp.firstSignInDescription	登录以通过你的账户授予 Devin 访问权限。连接后可添加更多安装。
+translation.customizeMcp.firstSignInAction	用 {{name}} 登录
+translation.customizeMcp.addAnotherAccount	添加安装
+translation.customizeMcp.addAccountFailed	无法添加另一个 {{name}} 安装
+translation.customizeMcp.accountReconnect	重新连接
+translation.customizeMcp.accountSignIn	登录
+translation.customizeMcp.installationUnavailable	此安装不再可用。
+translation.customizeMcp.installationsSummary_one	{{count}} 个安装 · {{connected}}
+translation.customizeMcp.installationsSummary_other	{{count}} 个安装 · {{connected}}
+translation.customizeMcp.installationsConnected_one	已连接 {{count}} 个
+translation.customizeMcp.installationsConnected_other	已连接 {{count}} 个
+translation.customizeMcp.disconnectTooltip	移除你对此 MCP 的授权。可稍后重新连接。
+translation.customizeMcp.disconnectTitle	断开 {{name}}？
+translation.customizeMcp.disconnectDescription	Devin 将无法再使用你的 {{name}} 账户。可稍后重新连接。
+translation.customizeMcp.disconnected	已断开 {{name}}。
+translation.customizeMcp.disconnectFailed	无法断开 {{name}}。
+translation.customizeMcp.disconnectAll	断开所有成员
+translation.customizeMcp.disconnectAllTooltip	移除每位成员的授权；所有人都需要重新连接。
+translation.customizeMcp.disconnectAllTitle	断开所有成员的 {{name}}？
+translation.customizeMcp.disconnectAllDescription	这将移除每位成员对 {{name}} 的授权，所有人都需要重新连接。
+translation.customizeMcp.disconnectedAll	已断开所有成员的 {{name}}。
+translation.customizeMcp.disconnectAllFailed	无法断开成员的 {{name}}。
+translation.customizeMcp.uninstall	卸载
+translation.customizeMcp.uninstallTooltip	移除该安装及其配置。
+translation.customizeMcp.uninstallPluginTooltip	再次遇到该插件的会话会重新安装它。
+translation.customizeMcp.uninstallTitle	卸载 {{name}}？
+translation.customizeMcp.uninstallDescription	这将永久移除 {{name}} 安装及其配置。
+translation.customizeMcp.uninstallOwnDescription	这将永久移除你的 {{name}} 安装及其配置，其他成员不受影响。
+translation.customizeMcp.uninstallFailed	无法卸载 {{name}}。
+translation.customizeMcp.notInUseTitle	未使用
+translation.customizeMcp.notInUseDescription	由此处未安装的插件创建，可能被仓库插件使用。在插件激活时生效。
+translation.customizeMcp.notInUseExpand	展开“未使用”
+translation.customizeMcp.notInUseCollapse	收起“未使用”
+translation.customizeMcp.enabledForYou	已为你启用
+translation.customizeMcp.disabledForYou	已为你禁用
+translation.customizeMcp.enabledForOrg	已为本组织所有人启用
+translation.customizeMcp.disabledForOrg	已为本组织所有人禁用
+translation.customizeMcp.enabledForEnterprise	已为本企业中每个有权限的组织启用
+translation.customizeMcp.disabledForEnterprise	已为本企业中每个有权限的组织禁用
+translation.customizeMcp.disabledState	已禁用
+translation.customizeMcp.statusLabel	MCP 状态
+translation.customizeMcp.authLabel	认证
+translation.customizeMcp.authNone	无 · 无需凭据即可连接
+translation.customizeMcp.authOAuthSignedInPersonal	OAuth · 已用你的账户登录
+translation.customizeMcp.authOAuthSignedInShared	OAuth · 已用共享账户登录
+translation.customizeMcp.authOAuthSignedInAs	OAuth · 已以 {{account}} 登录
+translation.customizeMcp.authOAuthNotSignedIn	OAuth · 未登录
+translation.customizeMcp.authOAuthExpired	OAuth · 登录已过期
+translation.customizeMcp.authOAuthPerMember	OAuth · 每位成员用自己的账户登录
+translation.customizeMcp.authCredential	API 密钥或请求头
+translation.customizeMcp.credentialRejectedTitle	请检查凭据
+translation.customizeMcp.credentialRejectedBody	{{name}} 拒绝了连接。请输入或更新凭据后重试。
+translation.customizeMcp.signInWithOAuthInstead	改用 OAuth 登录
+translation.customizeMcp.authClientCredentials	OAuth 客户端凭据
+translation.customizeMcp.needsOrgAdmin	你需要组织管理员权限才能更改
+translation.customizeMcp.needsEnterpriseAdmin	你需要企业管理员权限才能更改
+translation.customizeMcp.updateFailed	无法更新 {{name}}。
+translation.customizeMcp.updated	{{name}} 已更新。
+translation.customizeMcp.updating	正在更新…
+translation.customizeMcp.updateFromMarketplace	从市场更新
+translation.customizeMcp.sharedConnectionTitle	共享连接
+translation.customizeMcp.sharedConnectionCredential	有权使用此 MCP 的任何人共享这些 {{name}} 凭据。请使用服务账户签发的凭据，不要用个人凭据。
+translation.customizeMcp.outOfDateTitle	安装已过时
+translation.customizeMcp.outOfDateBody	市场定义在安装后已变化。更新会同步连接设置；已保存的凭据保留。
+translation.customizeMcp.setUpForOrg	为组织设置
+translation.customizeMcp.setUpForOrgHint	此 MCP 在 Devin 市场中。为组织安装一次并在此连接后，声明它的插件将使用该连接，而不再要求每位成员各自连接。
+translation.customizeMcp.setUpForOrgPerMemberHint	当前成员正逐个在其个人范围连接它。它也在 Devin 市场中，你可以为组织安装一次并在此连接 — 声明它的插件将使用该连接。
+translation.customizeMcp.addDescription	添加描述
+translation.customizeMcp.editDescription	编辑描述
+translation.customizeMcp.perMemberHint	按成员设置。每位成员在自己的个人范围连接此 MCP。
+translation.customizeMcp.sharedConnectOrgHint	目前此 MCP 按成员设置。连接后为组织设置一次，成员的会话将使用该连接。
+translation.customizeMcp.sharedConnectEnterpriseHint	目前此 MCP 按成员设置。连接后为企业设置一次，成员的会话将使用该连接。
+translation.customizeMcp.notConnectedTitle	尚未连接
+translation.customizeMcp.notConnectedNeedsCredentials	连接以设置此 MCP 并输入凭据。
+translation.customizeMcp.notConnectedSignsIn	连接以设置此 MCP，如需登录请按提示操作。
+translation.customizeMcp.notConnectedNoAuth	连接以设置此 MCP — 之后无需任何授权。
+translation.customizeMcp.notConnectedNeedsOrgAdmin	需要组织管理员连接此 MCP 后 Devin 才能使用它。
+translation.customizeMcp.notConnectedNeedsEnterpriseAdmin	需要企业管理员连接此 MCP 后 Devin 才能使用它。
+translation.customizeMcp.summaryTransport	传输方式
+translation.customizeMcp.summaryUrl	URL
+translation.customizeMcp.summaryCommand	命令
+translation.customizeMcp.summaryAuth	认证
+translation.customizeMcp.summaryAvailableTo	可用于
+translation.customizeMcp.summaryAvailableToYou	你
+translation.customizeMcp.summaryAvailableToOrg	本组织所有人
+translation.customizeMcp.summaryAvailableToEnterprise	本企业中每个有权限的组织
+translation.customizeMcp.summarySource	来源
+translation.customizeMcp.summarySourcePlugin	插件 · {{plugin}}
+translation.customizeMcp.summarySourceMarketplace	市场
+translation.customizeMcp.summarySourceCustom	自定义
+translation.customizeMcp.summaryIdentifier	标识符
+translation.customizeMcp.saveBeforeConnect	连接前请先保存或放弃你的更改。
+translation.customizeMcp.providedByHint	已在 {{provider}} 级别提供，此处设置会新增一个独立的 {{scope}} 安装。
+translation.customizeMcp.managedOnTitle	已在 {{scope}} 级别安装
+translation.customizeMcp.manageOn	打开 {{scope}}
+translation.customizeSync.tooltip	你的个人插件会在云端会话、Devin CLI 和 Devin Desktop 中加载。用 <code>devin plugins install</code> 安装的插件也会显示在这里。
+translation.customizeIntro.title	自定义你的 Devin
+translation.customizeIntro.subtitle	管理 Devin 可用的插件、技能、MCP 和钩子。
+translation.customizeIntro.subtitle_shared	管理 Devin 可用的插件、技能、MCP 和钩子 — 为你和你的组织。
+translation.customizeIntro.actions.continue	继续
+translation.customizeIntro.illustration.cli	CLI
+translation.customizeIntro.illustration.cloud	云端
+translation.customizeIntro.illustration.datadogDescription	监控、指标、日志和链路追踪
+translation.customizeIntro.illustration.desktop	Desktop
+translation.customizeIntro.illustration.figmaDescription	Figma 文件、组件和评论
+translation.customizeIntro.illustration.installed	已安装
+translation.customizeIntro.illustration.terminal	终端
+translation.customizeIntro.rows.marketplace.title	从市场安装
+translation.customizeIntro.rows.marketplace.body	浏览现有插件并安装到你的环境中。
+translation.customizeIntro.rows.sync.title	跨所有界面共享
+translation.customizeIntro.rows.sync.body	你的插件会在云端会话、Devin CLI 和 Devin Desktop 中加载。
+translation.customizeIntro.rows.ask.title	Devin 可为你添加插件
+translation.customizeIntro.rows.ask.body	让 Devin 制作技能、安装 MCP 服务器或设置第三方插件。
+translation.enterpriseMarketplaceAvailability.title	市场可用性
+translation.enterpriseMarketplaceAvailability.description	你企业中的组织能从市场看到并安装哪些 MCP 服务器。隐藏某个服务器会阻止新安装；已安装的组织仍保有访问权，直到在那里禁用或卸载。
+translation.enterpriseMarketplaceAvailability.loadError	无法加载市场服务器。
+translation.enterpriseMarketplaceAvailability.search	搜索市场服务器
+translation.enterpriseMarketplaceAvailability.empty	没有可用的市场服务器。
+translation.enterpriseMarketplaceAvailability.noMatches	没有与你搜索匹配的市场服务器。
+translation.enterpriseMarketplaceAvailability.hidden	已从市场隐藏
+translation.enterpriseMarketplaceAvailability.shown	已在市场显示
+translation.enterpriseMarketplaceAvailability.shownInstalled_one	已在市场显示 · 已在 {{count}} 个组织安装
+translation.enterpriseMarketplaceAvailability.shownInstalled_other	已在市场显示 · 已在 {{count}} 个组织安装
+translation.enterpriseMarketplaceAvailability.showSwitch	在市场显示 {{name}}
+translation.enterpriseMarketplaceAvailability.hideTitle	从市场隐藏 {{name}}？
+translation.enterpriseMarketplaceAvailability.hideDescription_one	{{count}} 个组织的既有安装将继续工作（包括自动化中）。要切断访问，请在每个组织中禁用或卸载此 MCP。
+translation.enterpriseMarketplaceAvailability.hideDescription_other	{{count}} 个组织的既有安装将继续工作（包括自动化中）。要切断访问，请在每个组织中禁用或卸载此 MCP。
+translation.enterpriseMarketplaceAvailability.cancel	取消
+translation.enterpriseMarketplaceAvailability.hideConfirm	从市场隐藏
+translation.enterpriseMarketplaceAvailability.hideFailed	无法从市场隐藏 {{name}}
+translation.enterpriseMarketplaceAvailability.showFailed	无法在市场显示 {{name}}
+translation.enterpriseMcpSetup.configureOnce	配置一次 — 你选定的组织中的会话会自动获得它。
+translation.enterpriseMcpSetup.notInstalled	未安装
+translation.enterpriseMcpSetup.customTitle	添加自定义 MCP
+translation.enterpriseMcpSetup.customSubtitle	把 Devin 指向你自己运行的 MCP 服务器。配置一次 — 你选定的组织中的会话会自动获得它。
+translation.enterpriseMcpEditor.saving	正在保存…
+translation.enterpriseMcpEditor.saveChanges	保存
+translation.enterpriseMcpEditor.createServer	创建服务器
+translation.enterpriseMcpEditor.configurationTitle	配置
+translation.enterpriseMcpEditor.nameLabel	名称
+translation.enterpriseMcpEditor.namePlaceholder	例如 Datadog（US）
+translation.enterpriseMcpEditor.iconLabel	图标
+translation.enterpriseMcpEditor.iconPlaceholder	粘贴 emoji 或 URL
+translation.enterpriseMcpEditor.shortDescriptionExamplePlaceholder	例如 Datadog EU 生产环境
+translation.enterpriseMcpEditor.shortDescriptionPlaceholder	一句话概述
+translation.enterpriseMcpEditor.descriptionPlaceholder	此服务器的用途
+translation.enterpriseMcpEditor.enableInSessions	在会话中启用
+translation.enterpriseMcpEditor.enableInSessionsHint	允许 Devin 在会话中使用此 MCP 服务器
+translation.enterpriseMcpEditor.availableInDesktopCli	在 Desktop + CLI 中可用
+translation.enterpriseMcpEditor.availableInDesktopCliHint	将此 MCP 服务器提供给 Devin Desktop 和 Devin CLI
+translation.enterpriseMcpEditor.commandLabel	命令
+translation.enterpriseMcpEditor.personalMcp	个人 MCP
+translation.enterpriseMcpEditor.sharedConnectionHint	管理员连接一次，选定组织中的所有会话共用该连接。
+translation.enterpriseMcpEditor.sharedConnectionExpired	共享连接已过期 — 重新连接以继续使用此服务器。
+translation.enterpriseMcpEditor.connected	已连接。
+translation.enterpriseMcpEditor.connecting	正在连接…
+translation.enterpriseMcpEditor.reconnect	重新连接
+translation.enterpriseMcpEditor.connect	连接
+translation.enterpriseMcpEditor.connectAfterSave	先保存更改，然后在此页连接。
+translation.enterpriseMcpEditor.connectRedirectHint	保存后将被带到提供商处连接。请使用提供商上的专用 bot 账户，切勿用个人账户。
+translation.enterpriseMcpEditor.headerValueConfiguredPlaceholder	已配置 — 重新输入以更改
+translation.enterpriseMcpEditor.targetingTitle	目标范围
+translation.enterpriseMcpEditor.targetingDescription	哪些组织获得此服务器。在会话启动时解析 — 无同步步骤。
+translation.enterpriseMcpEditor.targetingPluginAudienceDescription	在其插件可用的组织中，哪些组织获得此服务器。在会话启动时解析 — 无同步步骤。
+translation.enterpriseMcpEditor.targetingMode	目标模式
+translation.enterpriseMcpEditor.targetingDefaultTitle	默认启用 — 所有组织
+translation.enterpriseMcpEditor.targetingDefaultHint	企业中的每个组织都会收到此服务器，包括以后创建的组织。可排除特定组织。
+translation.enterpriseMcpEditor.targetingSpecificTitle	指定组织
+translation.enterpriseMcpEditor.targetingSpecificHint	只与你选择的组织共享此服务器。
+translation.enterpriseMcpEditor.targetingDefaultUncheckedHint	未勾选的组织不会收到此服务器。新组织会自动收到。
+translation.enterpriseMcpEditor.targetingSpecificUncheckedHint	未勾选的组织不会收到此服务器。新组织不会被自动加入。
+translation.enterpriseMcpEditor.loadingOrganizations	正在加载组织
+translation.enterpriseMcpEditor.organizationsLoadError	无法加载组织。
+translation.enterpriseMcpEditor.duplicateInstallationsTitle	Devin 将看到此服务器的多个安装
+translation.enterpriseMcpEditor.duplicateInstallationsHint	请在名称和简述中包含细节，以便 Devin 将它与以下安装区分：
+translation.enterpriseMcpEditor.couldNotSave	无法保存
+translation.enterpriseMcpEditor.dangerZone	危险区
+translation.enterpriseMcpEditor.deleteServerHint	删除此服务器会将它从所有目标组织中移除。自行安装了副本的组织保留其副本。
+translation.enterpriseMcpEditor.deleteServer	删除服务器
+translation.enterpriseMcpEditor.delete	删除
+translation.enterpriseMcpEditor.deleteSecretTitle	删除密钥
+translation.enterpriseMcpEditor.deleteSecretDescription	这将删除“{{name}}”的存储值。引用 ${{name}} 的内容将停止解析，直到保存新值。
+translation.enterpriseMcpEditor.changeAccess	更改访问
+translation.enterpriseMcpEditor.switchToPersonalTitle	切换为个人访问？
+translation.enterpriseMcpEditor.switchToOrganizationDescription	现有 OAuth 令牌将失效。管理员需要重新连接，才能为目标组织恢复共享连接。
