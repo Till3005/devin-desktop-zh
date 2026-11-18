@@ -34,7 +34,7 @@
 ## 翻译进度
 webview: 33920/33920 ✅ 全部完成（part01-145）
 review: 1448/1448 ✅ 全部完成（part01-09）
-nls-gap: 3990/4420（part01-32 已写，下一块从 flat.tsv 行 3991 起）
+nls-gap: 4420/4420 ✅（part01-34 全部完成）
 literals: 0/938 待办（先手工白名单）| exts: 0/491 待办
 
 新词（本段2）：等价生产工程小时 equivalent productive engineering hours, 移动平均 moving average, LOB, 生产会话 productive session, 合并率 merge rate, 绕权限 bypass permissions, 本地手 Local Hands, 配对码 pairing code, 维护者编辑 maintainer edited, 玩偶 plushie, 编排会话 orchestrator session, 共享 VM shared VM, 已定 settled, 脱敏值 redacted value, 集合 collection, 服务用户 service user, 供应 provision

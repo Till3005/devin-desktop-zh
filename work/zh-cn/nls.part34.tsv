@@ -1,0 +1,270 @@
+vs/workbench/contrib/windsurfCascade/browser/windsurfCascade.contribution/openCascade	Agents
+vs/workbench/contrib/windsurfCascade/browser/windsurfCascadeMainThreadCommands/sendTextToAgentWindowChatFailed	无法向 agent 标签页发送文本。
+vs/workbench/contrib/windsurfCascade/browser/windsurfCascadeMainThreadCommands/windsurf.agentManager	Agent Manager
+vs/workbench/contrib/windsurfCascadeView/browser/cascadeView.contribution/cascadeEditor	Cascade 编辑器
+vs/workbench/contrib/windsurfCascadeView/browser/cascadeView.contribution/chatView	聊天
+vs/workbench/contrib/windsurfCascadeView/browser/cascadeView.contribution/cloudSessionWorkspace	工作区
+vs/workbench/contrib/windsurfCascadeView/browser/cascadeView.contribution/copySessionUrl	复制会话 URL
+vs/workbench/contrib/windsurfCascadeView/browser/cascadeView.contribution/devinPage	Devin
+vs/workbench/contrib/windsurfCascadeView/browser/cascadeView.contribution/downloadDevinResourceFailed	下载“{0}”失败：{1}
+vs/workbench/contrib/windsurfCascadeView/browser/cascadeView.contribution/downloadDevinResourceTitle	下载
+vs/workbench/contrib/windsurfCascadeView/browser/cascadeView.contribution/openSessionOnWeb	在网页端打开会话
+vs/workbench/contrib/windsurfCascadeView/browser/cascadeView.contribution/renameCascadeSessionEmpty	会话名不能为空
+vs/workbench/contrib/windsurfCascadeView/browser/cascadeView.contribution/renameCascadeSessionTitle	重命名会话
+vs/workbench/contrib/windsurfCascadeView/browser/cascadeView.contribution/renameCascadeSessionTooLong	会话名不能超过 {0} 个字符
+vs/workbench/contrib/windsurfCascadeView/browser/cascadeView.contribution/snippetEditor	代码片段
+vs/workbench/contrib/windsurfCascadeView/browser/cloudSessionWorkspaceEditorInput/cloudSessionWorkspace	工作区
+vs/workbench/contrib/windsurfCascadeView/browser/cloudSessionWorkspaceEditorInput/cloudSessionWorkspaceFailed	无法打开工作区。请重新打开此标签页重试。
+vs/workbench/contrib/windsurfCascadeView/browser/cloudSessionWorkspaceEditorInput/devinPage.customize	自定义
+vs/workbench/contrib/windsurfCascadeView/browser/cloudSessionWorkspaceEditorInput/devinPage.settings	Devin 设置
+vs/workbench/contrib/windsurfCascadeView/browser/readOnlyDiffContentProvider/devinCloudResource	Devin 云资源
+vs/workbench/contrib/windsurfCascadeView/browser/snippetEditorPane/snippetEditor	代码片段
+vs/workbench/contrib/windsurfChatClient/electron-browser/chatClientModuleSelection.contribution/chatClientModuleLoadFailed	聊天客户端预览“{0}”加载失败并已弃用。本窗口使用随附的聊天客户端。{1}
+vs/workbench/contrib/windsurfChatClient/electron-browser/chatClientModuleSelection.contribution/chatClientPreviewDownloading	正在下载聊天客户端预览“{0}”
+vs/workbench/contrib/windsurfChatClient/electron-browser/chatClientModuleSelection.contribution/chatClientPreviewFixtureTitle	聊天客户端预览：{0}
+vs/workbench/contrib/windsurfChatClient/electron-browser/chatClientModuleSelection.contribution/chatClientPreviewLabel	预览：{0}
+vs/workbench/contrib/windsurfChatClient/electron-browser/chatClientModuleSelection.contribution/chatClientPreviewTitle	聊天客户端预览：{0}（{1}）
+vs/workbench/contrib/windsurfChatClient/electron-browser/chatClientModuleSelection.contribution/copyChatClientPreviewArtifact	复制产物 ID
+vs/workbench/contrib/windsurfChatClient/electron-browser/chatClientModuleSelection.contribution/reloadWithChatClientFixtureModule	用聊天客户端 Fixture 模块重载
+vs/workbench/contrib/windsurfChatClient/electron-browser/chatClientModuleSelection.contribution/reloadWithShippedChatClientModule	用随附聊天客户端模块重载
+vs/workbench/contrib/windsurfChatClient/electron-browser/chatClientModuleSelection.contribution/returnToNormalChatClient	返回正常聊天客户端
+vs/workbench/contrib/windsurfChatClient/electron-browser/chatClientModuleSelection.contribution/showChatClientModule	显示聊天客户端模块
+vs/workbench/contrib/windsurfChatClient/electron-browser/chatClientModuleSelection.contribution/viewChatClientPreviewSource	查看来源 Pull Request
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapBookmarkDecorationService/addBookmarkHelper	点击添加书签
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapExportAction/exportCodeMap	分享 Codemap
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapExportAction/windsurf	Devin
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapHomeEditorInput/codemaps	Codemaps
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/closeCodeMap	首页
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/codeMapEditor	Codemap 编辑器
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/codeMapHomeEditor	Codemaps
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/codemaps	Codemaps
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/generateCodeMap	生成 Codemap
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/generateCodeMapFromNavigationHistory	从导航历史生成 Codemap
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/generatingCodeMap	正在生成 {0} 个 codemap
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/generatingCodeMaps	正在生成 {0} 个 codemap
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/isCodemapsEnabled	检查 Codemaps 是否启用
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/loadCodeMap	加载 Codemap
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/miViewCodemaps	&&Codemaps
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/openCodeMapById	按 ID 打开 Codemap
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/openCodeMapChat	打开 Codemap 聊天
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/openCodeMaps	打开 Codemaps
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/openInPlayground	打开 Trajectory Dashboard
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/windsurf	Devin
+vs/workbench/contrib/windsurfCustomAppIcon/browser/windsurfAppIconCustomization.contribution/windsurf	Devin
+vs/workbench/contrib/windsurfCustomAppIcon/browser/windsurfAppIconCustomization.contribution/windsurf.customAppIcon	自定义应用图标（beta）
+vs/workbench/contrib/windsurfDatadogRum/browser/datadogRum.contribution/datadogRum.category	Devin
+vs/workbench/contrib/windsurfDatadogRum/browser/datadogRum.contribution/datadogRum.copied	Datadog 会话链接已复制。
+vs/workbench/contrib/windsurfDatadogRum/browser/datadogRum.contribution/datadogRum.copySessionLink	复制 Datadog 会话链接
+vs/workbench/contrib/windsurfDatadogRum/browser/datadogRum.contribution/datadogRum.noSession	此窗口中没有 Datadog 会话。
+vs/workbench/contrib/windsurfDesignTokenEditor/browser/designTokenEditor.contribution/designTokenEditor	Design Token 编辑器
+vs/workbench/contrib/windsurfDesignTokenEditor/browser/designTokenEditor.contribution/openDesignTokenEditor	打开 Design Token 编辑器
+vs/workbench/contrib/windsurfDesignTokenEditor/browser/designTokenEditor.contribution/windsurf	Devin
+vs/workbench/contrib/windsurfDesktopShell/browser/createDevinHost/devinHost.attachmentNotOnRemote	{0} 在这台电脑上。agent 运行在远端（{1}），无法在那里读取它。
+vs/workbench/contrib/windsurfDesktopShell/browser/createDevinHost/devinHost.localAgentsTrust	本地 agent 会在本机运行命令和仓库钩子，因此在你信任此工作区文件前它们处于停用状态。
+vs/workbench/contrib/windsurfDesktopShell/browser/createDevinHost/devinWebappPreferenceWriteFailed	无法更新 {0}：{1}
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShell.contribution/desktopShell.mountFailed	无法加载 Devin webapp。请重载窗口重试。
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellAppControls/desktopShell.editorGoBack	后退
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellAppControls/desktopShell.editorGoForward	前进
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellAppControls/desktopShell.goBack	后退
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellAppControls/desktopShell.goForward	前进
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellAppControls/desktopShell.toggleSidebar	切换侧边栏
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/mEdit	编辑(&&E)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/mFile	文件(&&F)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/mGoto	转到(&&G)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/mHelp	帮助(&&H)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miAbout	关于(&&A)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miBack	后退(&&B)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miCloseTab	关闭标签页(&&T)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miCloseWindow	关闭窗口
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miCommandPalette	命令面板(&&C)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miCopy	复制(&&C)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miCut	剪切(&&T)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miDevinSettings	Devin 设置(&&S)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miFind	查找(&&F)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miFindNext	查找下一个(&&N)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miFindPrevious	查找上一个(&&P)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miForward	前进(&&F)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miGotoDefinition	转到定义(&&D)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miGoToFile	转到文件…(&&F)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miKeyboardShortcuts	键盘快捷方式(&&K)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miNewAgentWindow	新建 Agent 窗口(&&A)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miNewIDEWindow	新建 IDE 窗口(&&I)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miNewSession	新建会话(&&S)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miNextTab	下一个标签页(&&N)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miNotifications	通知(&&N)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miOpen	打开…(&&O)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miOpenFile	打开文件…(&&O)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miOpenFolder	打开文件夹…(&&F)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miOpenFolderViaWorkspace	打开文件夹…(&&F)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miOpenRecent	打开最近(&&R)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miPaste	粘贴(&&P)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miPreviousTab	上一个标签页(&&P)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miProcessExplorer	打开进程资源管理器(&&X)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miQuit	退出(&&X)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miRedo	重做(&&R)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miReopenClosedTab	重新打开已关闭标签页(&&R)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miReplace	替换(&&R)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miRevertFile	还原文件(&&V)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miSave	保存(&&S)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miSearchSessions	搜索会话(&&S)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miSearchWorkspace	搜索工作区(&&W)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miSelectAll	全选(&&A)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miToggleBlockComment	切换块注释(&&B)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miToggleDevTools	切换开发者工具(&&T)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miToggleFullScreen	全屏(&&F)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miToggleLineComment	切换行注释(&&T)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miToggleSidebar	切换侧边栏(&&S)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miToggleTerminal	切换终端(&&T)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miToggleTheme	切换主题(&&T)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miUndo	撤销(&&U)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miViewLicense	查看许可(&&L)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miZoomIn	放大(&&I)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miZoomOut	缩小(&&O)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/miZoomReset	重置缩放(&&R)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/mPreferences	偏好设置(&&P)
+vs/workbench/contrib/windsurfDesktopShell/browser/desktopShellMenubar/mView	视图(&&V)
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.addRemoteAgentSSHHost	为远程 agent 添加新 SSH 主机…
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.checkForUpdates	检查更新
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.configureRemoteAgentSSHHosts	为远程 agent 配置 SSH 主机…
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.connectRemoteAgentHost	连接到远程 agent host…
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.copyApiKey	复制 API key
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.copyDatadogSessionLink	复制 Datadog 会话链接
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.downloadDiagnostics	下载 Devin 诊断信息
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.logOut	退出登录
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.newWindow	新建窗口
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.openAcpLocalRegistry	打开本地 ACP agent 注册表
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.openChangelog	打开更新日志
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.openDevinForTerminalMcpConfigFile	打开 Devin for Terminal MCP 配置文件
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.reloadAcpConnections	重载 ACP 连接
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.reloadWindow	重载窗口
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.restartToUpdate	重启以更新
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.saveLanguageServerCpuProfile	保存语言服务器 CPU profile
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.saveLanguageServerMemoryProfile	保存语言服务器内存 profile
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.setUpComputerUse	设置 Computer Use（macOS 权限）
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.startTracing	开发者：开始跟踪
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.stopTracing	开发者：停止跟踪
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.switchToEditorMode	切换到 IDE 模式
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.toggleDevTools	切换开发者工具
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappCommands/devin.webapp.viewAccount	查看账户
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappEditors/devinWebappOpenFailed	无法打开 {0}：{1}
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappEditors/devinWebappSaveAsTitle	另存为
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappEditors/devinWebappSaveBeforeOpenFailed	未保存的更改无法保存
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappKeybindingEditing/errorKeybindingsFileDirty	快捷键配置文件有未保存的更改，无法写入。请先保存再重试。
+vs/workbench/contrib/windsurfDesktopShell/browser/devinWebappKeybindingEditing/webappKeybindingsInvalid	快捷键配置文件不是有效的数组。
+vs/workbench/contrib/windsurfFeedback/browser/windsurfFeedback.contribution/joinCommunity	加入社区
+vs/workbench/contrib/windsurfFeedback/browser/windsurfFeedback.contribution/openDocs	文档
+vs/workbench/contrib/windsurfFeedback/browser/windsurfFeedback.contribution/openFeedbackPanel	报告 bug
+vs/workbench/contrib/windsurfFeedback/browser/windsurfFeedback.contribution/openFeedbackPanelDescription	报告 bug。
+vs/workbench/contrib/windsurfFeedback/browser/windsurfFeedback.contribution/provideFeedback	提供反馈
+vs/workbench/contrib/windsurfFeedback/browser/windsurfFeedback.contribution/windsurf	Devin
+vs/workbench/contrib/windsurfFeedback/browser/windsurfFeedback.contribution/WindsurfChangelog	更新日志
+vs/workbench/contrib/windsurfFeedback/browser/windsurfFeedback.contribution/WindsurfDiagnostics	下载诊断信息
+vs/workbench/contrib/windsurfMcpService/browser/windsurfMcp.contribution/openAcpMcpRegistryMarketplace	Devin MCP 注册表
+vs/workbench/contrib/windsurfMcpService/browser/windsurfMcp.contribution/openAcpMcpRegistryMarketplaceDescription	打开 Devin CLI MCP 注册表。
+vs/workbench/contrib/windsurfMcpService/browser/windsurfMcp.contribution/openDevinForTerminalMcpConfigFile	打开 Devin for Terminal MCP 配置文件
+vs/workbench/contrib/windsurfMcpService/browser/windsurfMcp.contribution/openDevinForTerminalMcpConfigFileDescription	打开 Devin for Terminal MCP 配置文件。
+vs/workbench/contrib/windsurfMcpService/browser/windsurfMcp.contribution/windsurf	Devin
+vs/workbench/contrib/windsurfMigration/electron-browser/windsurfMigration.contribution/devinDesktopCategory	Devin Desktop
+vs/workbench/contrib/windsurfMigration/electron-browser/windsurfMigration.contribution/resetMigration.confirm.button	重置并重启(&&R)
+vs/workbench/contrib/windsurfMigration/electron-browser/windsurfMigration.contribution/resetMigration.confirm.detail	这将删除当前的 Devin Desktop 设置、扩展和编辑器状态，然后重启并重新执行从 Windsurf 的首次启动迁移。你的 Windsurf 数据不受影响。
+vs/workbench/contrib/windsurfMigration/electron-browser/windsurfMigration.contribution/resetMigration.confirm.message	重置 Windsurf 迁移并重启？
+vs/workbench/contrib/windsurfMigration/electron-browser/windsurfMigration.contribution/resetMigration.devOnly	重置 Windsurf 迁移仅适用于安装版构建。
+vs/workbench/contrib/windsurfMigration/electron-browser/windsurfMigration.contribution/resetMigration.unavailable	此构建不支持重置 Windsurf 迁移。
+vs/workbench/contrib/windsurfMigration/electron-browser/windsurfMigration.contribution/resetMigrationFromWindsurf	重置 Windsurf 迁移
+vs/workbench/contrib/windsurfMigration/electron-browser/windsurfMigration.contribution/windsurfMigration.welcomeDismiss	开始使用
+vs/workbench/contrib/windsurfMigration/electron-browser/windsurfMigration.contribution/windsurfMigration.welcomeImageAlt	Devin Desktop
+vs/workbench/contrib/windsurfMigration/electron-browser/windsurfMigration.contribution/windsurfMigration.welcomeMessage	欢迎使用 Devin Desktop！在一个界面管理本地和云端 agent 集群。不离开编辑器即可规划、委派、评审和交付。
+vs/workbench/contrib/windsurfMigration/electron-browser/windsurfMigration.contribution/windsurfMigration.welcomeSectionContent	在一个界面管理本地和云端 agent 集群。不离开编辑器即可规划、委派、评审和交付。
+vs/workbench/contrib/windsurfMigration/electron-browser/windsurfMigration.contribution/windsurfMigration.welcomeTitle	欢迎使用 Devin Desktop
+vs/workbench/contrib/windsurfOnboarding/browser/windsurfOnboarding.contribution/devin.onboarding.defaultImportSource	控制 onboarding 为导入设置和扩展所选的应用。用户可以更改选择。
+vs/workbench/contrib/windsurfOnboarding/browser/windsurfOnboarding.contribution/devin.onboarding.defaultImportSource.none	onboarding 不选择任何应用。
+vs/workbench/contrib/windsurfOnboarding/browser/windsurfOnboarding.contribution/devin.onboarding.defaultImportSource.vscode	机器上存在 VS Code 数据时，onboarding 选择 VS Code。
+vs/workbench/contrib/windsurfOnboarding/browser/windsurfOnboarding.contribution/resetOnboarding	重置 Onboarding
+vs/workbench/contrib/windsurfOnboarding/browser/windsurfOnboarding.contribution/resetOnboardingDescription	退出当前账户并重新开始 onboarding。
+vs/workbench/contrib/windsurfOnboarding/browser/windsurfOnboarding.contribution/windsurf	Devin
+vs/workbench/contrib/windsurfPlanEditor/browser/planEditor.contribution/planEditor	Plan 编辑器
+vs/workbench/contrib/windsurfPullRequest/browser/pullRequest.contribution/devin.openPullRequestEditor	打开 Pull Request
+vs/workbench/contrib/windsurfPullRequest/browser/pullRequest.contribution/devin.pullRequest.findNext	在 Devin Review 中查找下一个
+vs/workbench/contrib/windsurfPullRequest/browser/pullRequest.contribution/devin.pullRequest.findPrevious	在 Devin Review 中查找上一个
+vs/workbench/contrib/windsurfPullRequest/browser/pullRequest.contribution/devin.pullRequest.hideFind	停止在 Devin Review 中查找
+vs/workbench/contrib/windsurfPullRequest/browser/pullRequest.contribution/devin.pullRequest.refresh	刷新 Devin Review
+vs/workbench/contrib/windsurfPullRequest/browser/pullRequest.contribution/devin.pullRequest.showFind	在 Devin Review 中查找
+vs/workbench/contrib/windsurfPullRequest/browser/pullRequest.contribution/devin.pullRequest.toggleDevTools	切换开发者工具（Devin Review）
+vs/workbench/contrib/windsurfPullRequest/browser/pullRequest.contribution/openInDevinReview	在 Devin Review 中打开
+vs/workbench/contrib/windsurfPullRequest/browser/pullRequest.contribution/openInGitHub	在 GitHub 中打开
+vs/workbench/contrib/windsurfPullRequest/browser/pullRequest.contribution/pullRequest.configuration.title	Devin Review
+vs/workbench/contrib/windsurfPullRequest/browser/pullRequest.contribution/pullRequest.embeddedReview.enabled	在嵌入式 webview iframe 中渲染 Devin Review，而非原生浏览器视图。仅用于本地开发；生产环境由功能发布控制。
+vs/workbench/contrib/windsurfPullRequest/browser/pullRequest.contribution/pullRequestEditor	Pull Request
+vs/workbench/contrib/windsurfPullRequest/browser/pullRequest.contribution/windsurf	Devin
+vs/workbench/contrib/windsurfPullRequest/browser/pullRequest.contribution/windsurf.enterPullRequestUrl	输入 pull request URL
+vs/workbench/contrib/windsurfSettingsPage/browser/windsurfSettingsPage.contribution/customize.unavailable	自定义在 Devin agent 窗口中可用，本窗口无法显示。
+vs/workbench/contrib/windsurfSettingsPage/browser/windsurfSettingsPage.contribution/openCustomize	打开自定义
+vs/workbench/contrib/windsurfSettingsPage/browser/windsurfSettingsPage.contribution/openCustomizeDescription	打开自定义页面。
+vs/workbench/contrib/windsurfSettingsPage/browser/windsurfSettingsPage.contribution/openFolderInNewWindow	在新窗口中打开文件夹
+vs/workbench/contrib/windsurfSettingsPage/browser/windsurfSettingsPage.contribution/openFoldersInNewWindow	在新窗口中打开多个文件夹
+vs/workbench/contrib/windsurfSettingsPage/browser/windsurfSettingsPage.contribution/openWindsurfSettings	打开 Devin 用户设置
+vs/workbench/contrib/windsurfSettingsPage/browser/windsurfSettingsPage.contribution/openWindsurfSettingsWithId	按设置 ID 打开 Devin 设置页
+vs/workbench/contrib/windsurfSettingsPage/browser/windsurfSettingsPage.contribution/windsurf	Devin
+vs/workbench/contrib/windsurfSettingsPage/browser/windsurfSettingsPage.contribution/windsurfSettings	Devin 设置
+vs/workbench/contrib/windsurfSettingsPage/browser/windsurfSettingsPage.contribution/windsurfSettings.unavailable	Devin 设置在 Devin agent 窗口中可用，本窗口无法显示。
+vs/workbench/contrib/windsurfStatusBarSettingsService/browser/tabs/keybindingTab/view all	查看全部 Devin 快捷键
+vs/workbench/contrib/windsurfStatusBarSettingsService/browser/windsurfStatusBarSettingsPanel/openBugReportPanel	报告 Bug
+vs/workbench/contrib/windsurfStatusBarSettingsService/browser/windsurfStatusBarSettingsPanel/openBugReportPanelDescription	打开 bug 报告面板提交反馈。
+vs/workbench/contrib/windsurfStatusBarSettingsService/browser/windsurfStatusBarSettingsPanel/openQuickSettingsPanel	快捷设置面板
+vs/workbench/contrib/windsurfStatusBarSettingsService/browser/windsurfStatusBarSettingsPanel/openQuickSettingsPanelDescription	打开 Devin 快捷设置面板。
+vs/workbench/contrib/windsurfStatusBarSettingsService/browser/windsurfStatusBarSettingsPanel/windsurf	Devin
+vs/workbench/contrib/workspaces/browser/workspaces.contribution/foundWorkspaceLinked	此文件夹包含工作区文件“{0}”。要打开它吗？{1}了解工作区文件。
+vs/workbench/contrib/workspaces/browser/workspaces.contribution/foundWorkspacesLinked	此文件夹包含多个工作区文件。要打开一个吗？{0}了解工作区文件。
+vs/workbench/contrib/workspaces/browser/workspaces.contribution/workspaceFilesLearnMore	了解更多
+vs/workbench/electron-browser/actions/installActions/devinCliDisallowed	请联系你的 Devin 团队管理员，以允许通过 Devin Desktop 安装 Devin CLI
+vs/workbench/electron-browser/actions/installActions/devinCliInstalledUnix	Devin CLI 安装成功。在新终端中运行 `{0}` 即可使用。
+vs/workbench/electron-browser/actions/installActions/devinCliInstalledWindows	Devin CLI 安装成功。在新终端中运行 `{0}` 即可使用。要使其在集成终端中可用，必须完全退出并重新打开（而非仅重载）Devin。
+vs/workbench/electron-browser/actions/installActions/devinCliInstallError	安装 Devin CLI 失败：{0}
+vs/workbench/electron-browser/actions/installActions/devinCliNotAuthed	请先登录 Devin 再安装 Devin CLI。
+vs/workbench/electron-browser/actions/installActions/devinCliNoTeamConfig	无法获取团队设置，请稍后重试。
+vs/workbench/electron-browser/actions/installActions/installDevinCli	安装 Devin CLI
+vs/workbench/services/accounts/common/githubEnterprise/invalidGitHubEnterpriseUri	无效的 GitHub Enterprise 实例 URI：{0}
+vs/workbench/services/accounts/common/githubEnterprise/invalidGitHubEnterpriseUris	GitHub Enterprise URI 必须是实例 URL 数组。
+vs/workbench/services/agentHost/browser/codexAccountService/chatGPTPlan	ChatGPT {0}
+vs/workbench/services/agentHost/browser/codexAccountService/chatGPTSubscription	ChatGPT 订阅
+vs/workbench/services/devinCloudFiles/browser/devinCloudEditorError/devinCloudFiles.editor.asleep	此文件在你的 Devin VM 上，机器处于休眠状态。
+vs/workbench/services/devinCloudFiles/browser/devinCloudEditorError/devinCloudFiles.editor.connecting	正在建立与会话机器的连接。其文件到达后即可打开。
+vs/workbench/services/devinCloudFiles/browser/devinCloudEditorError/devinCloudFiles.editor.notConnected	此文件在一台 Devin VM 上。与会话机器的连接尚未建立。
+vs/workbench/services/devinCloudFiles/browser/devinCloudEditorError/devinCloudFiles.editor.otherSession	此文件在另一个 Devin 会话的机器上。请选择该会话以打开文件。
+vs/workbench/services/devinCloudFiles/browser/devinCloudEditorError/devinCloudFiles.editor.waking	会话机器启动中。其文件到达后即可打开。
+vs/workbench/services/devinCloudFiles/browser/devinCloudEditorError/devinCloudFiles.retryAction	重试
+vs/workbench/services/devinCloudFiles/browser/devinCloudEditorError/devinCloudFiles.wakeAction	唤醒机器
+vs/workbench/services/extensionManagement/common/extensionManagementService/Devin for Web	Web 版 {0}
+vs/workbench/services/extensionManagement/electron-browser/extensionGalleryAccountService/marketplace.pickAccount	选择用于扩展市场的账户
+vs/workbench/services/extensionManagement/electron-browser/extensionGalleryAccountService/marketplace.signInDifferentAccount	使用其他账户登录…
+vs/workbench/services/extensionManagement/electron-browser/extensionGalleryManifestService/extensionGalleryManifestService.configurationChange	扩展市场配置已更改。请重启以应用更改。
+vs/workbench/services/extensions/common/extensionsRegistry/vscode.extension.capabilities.agentsWindow	声明该扩展是否应在 Agents window 中启用。需要 `agentsWindowActivation` API proposal 和实验性 Agents window capability 设置。
+vs/workbench/services/extensions/common/extensionsRegistry/vscode.extension.capabilities.agentsWindow.supported	声明该扩展是否支持在 Agents window 中运行。扩展必须启用 `agentsWindowActivation` API proposal 和 `extensions.experimental.enableAgentsWindowCapability` 设置，此属性才生效。
+vs/workbench/services/github/browser/githubService/githubAccountChanged	所选 GitHub 账户已更改，请重试。
+vs/workbench/services/github/browser/githubService/githubAuthenticationRequired	登录 GitHub 以加载 GitHub 数据。
+vs/workbench/services/github/browser/githubService/githubRepositoryAccessRequired	使用具有仓库访问权限的账户登录 GitHub 以加载 GitHub 数据。
+vs/workbench/services/github/browser/githubService/githubSessionUnavailable	所选 GitHub 会话不可用。
+vs/workbench/services/github/browser/githubService/githubUrlUnavailable	GitHub Enterprise URL 不可用。请登录后重试。
+vs/workbench/services/mcp/common/mcpWorkbenchManagementService/rootGalleryUnsupported	Gallery MCP 服务器不能安装到 .mcp.json。
+vs/workbench/services/mcp/common/mcpWorkbenchManagementService/unsupportedMcpWorkspaceFolderTarget	此工作区文件夹不可用于 MCP 服务器安装。
+vs/workbench/services/mcp/common/mcpWorkbenchManagementService/unsupportedMcpWorkspaceTarget	此工作区配置不支持 MCP 服务器安装。请改选工作区文件夹。
+vs/workbench/services/mcp/common/mcpWorkbenchManagementService/workspaceConfigRequiresFolder	MCP 工作区配置文件只能选择工作区文件夹。
+vs/workbench/services/policies/browser/managedSettingsUpdate.contribution/managedSettingsUpdate.actionHelp	可用的更新操作为 {0}。
+vs/workbench/services/policies/browser/managedSettingsUpdate.contribution/managedSettingsUpdate.agentsHelp	Agents window 因组织的最低版本要求被阻止。覆盖层会说明所需更新。
+vs/workbench/services/policies/browser/managedSettingsUpdate.contribution/managedSettingsUpdate.availableActionsHelp	按 Tab 或 Shift+Tab 在可用操作间移动，再按 Enter 或空格激活。
+vs/workbench/services/policies/browser/managedSettingsUpdate.contribution/managedSettingsUpdate.bannerHelp	窗口横幅也可通过“聚焦横幅”命令调出。在横幅中按方向键到达操作项。关闭横幅不会消除聊天中的说明，也不会改变组织的要求。
+vs/workbench/services/policies/browser/managedSettingsUpdate.contribution/managedSettingsUpdate.bannerWithStatus	{0} {1}
+vs/workbench/services/policies/browser/managedSettingsUpdate.contribution/managedSettingsUpdate.editorWindowHelp	按 Tab 或 Shift+Tab 到达“打开编辑器窗口”，再按 Enter 或空格。这会打开一个新编辑器窗口。
+vs/workbench/services/policies/browser/managedSettingsUpdate.contribution/managedSettingsUpdate.help	此要求生效期间，聊天为只读。
+vs/workbench/services/policies/common/managedSettingsUpdate/managedSettingsUpdate.check	检查更新
+vs/workbench/services/policies/common/managedSettingsUpdate/managedSettingsUpdate.disabled	内置更新已被你的组织停用。请联系管理员获取批准的更新。
+vs/workbench/services/policies/common/managedSettingsUpdate/managedSettingsUpdate.download	下载更新
+vs/workbench/services/policies/common/managedSettingsUpdate/managedSettingsUpdate.initializing	更新可用性尚不确定。
+vs/workbench/services/policies/common/managedSettingsUpdate/managedSettingsUpdate.install	安装更新
+vs/workbench/services/policies/common/managedSettingsUpdate/managedSettingsUpdate.installed	已安装：{0}
+vs/workbench/services/policies/common/managedSettingsUpdate/managedSettingsUpdate.message	你的组织要求更新到 {0} 才能使用 AI 功能。
+vs/workbench/services/policies/common/managedSettingsUpdate/managedSettingsUpdate.minimumVersion	你的组织要求 {0} {1} 或更高版本才能使用 AI 功能。
+vs/workbench/services/policies/common/managedSettingsUpdate/managedSettingsUpdate.progress	更新操作进行中。
+vs/workbench/services/policies/common/managedSettingsUpdate/managedSettingsUpdate.restart	重启以更新
+vs/workbench/services/policies/common/managedSettingsUpdate/managedSettingsUpdate.title	组织要求更新
+vs/workbench/services/userDataProfile/common/userDataProfileIcons/settingsViewDropdownIcon	设置下拉图标。

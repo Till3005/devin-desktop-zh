@@ -1,0 +1,160 @@
+vs/workbench/contrib/scm/browser/scm.contribution/quickDiffDecoration	Diff 装饰
+vs/workbench/contrib/scm/browser/scmViewPane/label.close	关闭
+vs/workbench/contrib/scm/browser/scmViewPane/scmInput.accessibilityHelp	{0}，按 {1} 打开源代码管理辅助功能帮助。
+vs/workbench/contrib/scm/browser/scmViewPane/scmInput.accessibilityHelpNoKb	{0}，运行“打开辅助功能帮助”命令了解更多信息。
+vs/workbench/contrib/scm/browser/scmViewPane/scmInputCancelAction	取消
+vs/workbench/contrib/scm/browser/scmViewPane/scmInputMoreActions	更多操作…
+vs/workbench/contrib/search/browser/search.common.contribution/exclude	配置 [glob 模式](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options)，用于在全文搜索和快速打开的文件搜索中排除文件和文件夹。要从快速打开的最近打开列表中排除文件，模式必须为绝对路径（例如 `**/node_modules`）。
+vs/workbench/contrib/search/browser/search.common.contribution/exclude.boolean	用于匹配文件路径的 glob 模式。设为 true 或 false 以启用或停用该模式。
+vs/workbench/contrib/search/browser/search.common.contribution/exclude.when	对匹配文件的同级项做额外检查。用 $(basename) 表示匹配文件名。
+vs/workbench/contrib/search/browser/search.common.contribution/search.followSymlinks	控制搜索时是否跟随符号链接。
+vs/workbench/contrib/search/browser/search.common.contribution/search.maxResults	控制搜索结果的最大数量；设为 `null`（空）表示不限。
+vs/workbench/contrib/search/browser/search.common.contribution/search.ripgrep.maxThreads	搜索使用的线程数。设为 0 时由引擎自动决定。
+vs/workbench/contrib/search/browser/search.common.contribution/search.smartCase	模式全为小写时忽略大小写搜索，否则区分大小写。
+vs/workbench/contrib/search/browser/search.common.contribution/search.sortOrder	控制搜索结果的排序方式。
+vs/workbench/contrib/search/browser/search.common.contribution/searchSortOrder.countAscending	结果按每个文件的计数升序排列。
+vs/workbench/contrib/search/browser/search.common.contribution/searchSortOrder.countDescending	结果按每个文件的计数降序排列。
+vs/workbench/contrib/search/browser/search.common.contribution/searchSortOrder.default	结果按文件夹和文件名字母顺序排列。
+vs/workbench/contrib/search/browser/search.common.contribution/searchSortOrder.filesOnly	结果忽略文件夹顺序，按文件名字母顺序排列。
+vs/workbench/contrib/search/browser/search.common.contribution/searchSortOrder.modified	结果按文件最后修改时间降序排列。
+vs/workbench/contrib/search/browser/search.common.contribution/searchSortOrder.type	结果按文件扩展名字母顺序排列。
+vs/workbench/contrib/search/browser/search.common.contribution/useGlobalIgnoreFiles	控制搜索文件时是否使用全局 gitignore 文件（如 `$HOME/.config/git/ignore`）。需要启用 {0}。
+vs/workbench/contrib/search/browser/search.common.contribution/useIgnoreFiles	控制搜索文件时是否使用 `.gitignore` 和 `.ignore` 文件。
+vs/workbench/contrib/search/browser/search.common.contribution/useParentIgnoreFiles	控制搜索文件时是否使用父目录中的 `.gitignore` 和 `.ignore` 文件。需要启用 {0}。
+vs/workbench/contrib/share/browser/share.contribution/experimental.share.enabled.desktop	控制“分享”命令和分享上下文菜单项是否可用。
+vs/workbench/contrib/snippets/browser/commands/configureSnippets/detected	此文件类型是从当前文件检测到的。
+vs/workbench/contrib/terminal/browser/terminalActions/workbench.action.terminal.maybeCopySelection	复制选中内容（不警告）
+vs/workbench/contrib/terminal/browser/terminalMenus/sendTerminalToChat	发送终端到聊天
+vs/workbench/contrib/terminal/browser/terminalTabsList/sendToChat	发送到聊天
+vs/workbench/contrib/terminal/common/terminalConfiguration/terminal.integrated.fontRendering	控制高 DPI 显示器上终端文本的抗锯齿方式。
+vs/workbench/contrib/terminal/common/terminalConfiguration/terminal.integrated.fontRendering.grayscale	使用灰度抗锯齿，文本可能更锐利。启用 GPU 加速时，可能需要**开发者：重新加载窗口**才生效。
+vs/workbench/contrib/terminal/common/terminalConfiguration/terminal.integrated.fontRendering.inherit	跟随 {0}。
+vs/workbench/contrib/terminal/common/terminalConfiguration/terminal.integrated.showCommandHint	控制是否在终端底部显示命令生成提示。
+vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/createAndRunTaskTool/invalidWorkspaceFolder	无法在当前工作区文件夹之外创建任务：{0}
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.allowDevToolAccess	授予对 PATH、工具链环境变量（CARGO_HOME、GOROOT 等）和用户配置目录下工具目录的读取权限，以及开发工具配置和缓存（含 registry token）与共享构建缓存的读写权限。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.allowLocalNetwork	允许沙箱进程访问本地网络上的主机。使用代理、主机规则或凭据掩码时 Windows 需要开启此项：它经主机环回访问本地监听器，否则沙箱命令无法启动。本地代理会检查目标地址。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.allowNetworkPolicy	已弃用。控制本地 agent 沙箱在保留文件系统限制的同时是否允许出站连接到所有网络域。使用 sandbox.userPolicy.network.allowOutbound 托管设置在 Copilot Agent Host 中强制出站网络限制。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.allowUnsandboxedCommandsPolicy	已弃用。控制本地 agent 终端命令在沙箱限制阻止命令时能否经用户确认后在沙箱外运行。使用 sandbox.allowBypass 托管设置控制 Copilot Agent Host 中的沙箱绕过。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.authenticateGh	在沙箱内使用你的 GitHub 账户执行 gh 命令。仅适用于 Copilot Agent Host harness。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.authenticateGit	在沙箱内使用你的凭据执行 HTTPS git 操作。仅适用于 Copilot Agent Host harness。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.enabledPolicy	已弃用。控制本地 agent 是否用沙箱限制工具能力。在 Copilot Agent Host 中，此旧策略提供可覆盖的沙箱默认值而非强制要求。使用 runtime-native sandbox.enabled 托管设置在 Copilot Agent Host 中强制沙箱。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.fileSystem.deprecated	此设置即将弃用。Copilot Agent Host 沙箱请改用 {0}。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.lspServers	控制启用沙箱时 LSP 服务器是否在沙箱中运行。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.mcpServers	控制启用沙箱时 MCP 服务器是否在沙箱中运行。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.retryWithAllowNetworkRequests.deprecated	此设置即将弃用，不适用于 Copilot Agent Host 沙箱。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.runtimeSetting.deprecated	此设置即将弃用，不适用于 Copilot Agent Host 沙箱。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.userConfiguredPaths	自定义沙箱中的文件路径权限。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.userConfiguredPaths.deniedPaths	拒绝：Copilot Agent Host 沙箱无法访问的路径。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.userConfiguredPaths.readonlyPaths	只读：Copilot Agent Host 沙箱可读不可写的路径。
+vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration/agentSandbox.userConfiguredPaths.readwritePaths	读写：Copilot Agent Host 沙箱可读写的路径。
+vs/workbench/contrib/terminalContrib/terminalCommandPopup/browser/terminal.terminalCommandPopupHint.contribution/dismissHint	忽略
+vs/workbench/contrib/terminalContrib/terminalCommandPopup/browser/terminal.terminalCommandPopupHint.contribution/emptyHintText	{0} 生成命令。
+vs/workbench/contrib/terminalContrib/terminalCommandPopup/browser/terminal.terminalCommandPopupHint.contribution/workbench.action.terminal.hideCommandHint	隐藏命令提示
+vs/workbench/contrib/terminalContrib/terminalCommandPopup/browser/terminal.terminalCommandPopupHint.contribution/workbench.action.terminal.showCommandHint	显示命令提示
+vs/workbench/contrib/terminalContrib/terminalCommandPopup/browser/terminal.terminalCommandPopupHint.contribution/workbench.action.terminal.toggleCommandHint	隐藏命令提示
+vs/workbench/contrib/update/browser/releaseNotesAccessibilityHelp/releaseNotes.help.close	按 Escape 关闭此帮助并将焦点返回发行说明。
+vs/workbench/contrib/update/browser/releaseNotesAccessibilityHelp/releaseNotes.help.find	按 {0} 在发行说明中查找文本。“查找”输入框有自己的辅助功能帮助。
+vs/workbench/contrib/update/browser/releaseNotesAccessibilityHelp/releaseNotes.help.navigation	按 Tab 或 Shift+Tab 在链接、设置、更新偏好复选框和可用设置操作之间移动。按 Enter 激活链接。按 Space 或 Enter 激活设置按钮。
+vs/workbench/contrib/update/browser/releaseNotesAccessibilityHelp/releaseNotes.help.overview	你正在阅读发行说明。使用屏幕阅读器的朗读和标题导航命令浏览文档及其目录。
+vs/workbench/contrib/update/browser/releaseNotesAccessibilityHelp/releaseNotes.help.tryouts	功能示例链接可能使用自定义标签并打开本地注册的示例。阅读、悬停或聚焦链接不会运行它。示例不可用时，其说明和可用的设置操作会显示在旁边。设置不会自动运行示例。
+vs/workbench/contrib/update/browser/releaseNotesAccessibilityHelp/releaseNotes.help.windows	某些操作会打开另一个编辑器或窗口，包括 Agents window。聊天示例会为你准备好输入供审阅，不会自动发送。
+vs/workbench/contrib/update/browser/releaseNotesEditor/releaseNotes.accessibilityHint	按 {0} 打开发行说明辅助功能帮助。
+vs/workbench/contrib/update/browser/releaseNotesTryouts/releaseNotes.tryout.anotherWindow	在 Agents window 中打开。
+vs/workbench/contrib/update/browser/releaseNotesTryouts/releaseNotes.tryout.contextualLabel	试一下：{0}
+vs/workbench/contrib/update/browser/releaseNotesTryouts/releaseNotes.tryout.failed	无法加载此功能示例。
+vs/workbench/contrib/update/browser/releaseNotesTryouts/releaseNotes.tryout.fallback	{0}（{1}）
+vs/workbench/contrib/update/browser/releaseNotesTryouts/releaseNotes.tryout.invalidLink	此功能示例链接无效。
+vs/workbench/contrib/update/browser/releaseNotesTryouts/releaseNotes.tryout.label	试一下
+vs/workbench/contrib/update/browser/releaseNotesTryouts/releaseNotes.tryout.noAutoSend	聊天示例会先准备好供审阅，不会自动发送。
+vs/workbench/contrib/update/browser/releaseNotesTryouts/releaseNotes.tryout.nowReady	此示例已就绪。激活示例链接继续。
+vs/workbench/contrib/update/browser/releaseNotesTryouts/releaseNotes.tryout.setupLabel	{0} 用于 {1}
+vs/workbench/contrib/update/browser/releaseNotesTryouts/releaseNotes.tryout.unknown	此示例在此版本 VS Code 中不可用。
+vs/workbench/contrib/update/browser/update/confirmRestartUpdate.cancel	取消
+vs/workbench/contrib/update/browser/update/confirmRestartUpdate.cancelRestart	取消
+vs/workbench/contrib/update/browser/update/confirmRestartUpdate.localAgentRunning	本地 agent 仍在工作。重启更新会中止它。
+vs/workbench/contrib/update/browser/update/confirmRestartUpdate.localAgentsRunning	{0} 个本地 agent 仍在工作。重启更新会中止它们。
+vs/workbench/contrib/update/browser/update/confirmRestartUpdate.restartAnyway	仍然重启(&&R)
+vs/workbench/contrib/update/browser/update/confirmRestartUpdate.untitledSession	未命名会话
+vs/workbench/contrib/update/browser/update/confirmRestartUpdate.yes	是
+vs/workbench/contrib/update/browser/update/download update	下载更新
+vs/workbench/contrib/update/browser/update/installUpdate	安装更新
+vs/workbench/contrib/update/browser/update/later	稍后
+vs/workbench/contrib/update/browser/update/learn more	了解更多
+vs/workbench/contrib/update/browser/update/retryUpdateCheck	重试
+vs/workbench/contrib/update/browser/update/thereIsUpdateAvailable	有可用更新。
+vs/workbench/contrib/update/browser/update/update service	更新服务
+vs/workbench/contrib/update/browser/update/update service disabled	以管理员身份运行 {0} 的用户级安装时，更新已停用。
+vs/workbench/contrib/update/browser/update/updateAvailable	有可用更新：{0} {1}
+vs/workbench/contrib/update/browser/update/updateAvailableAfterRestart	重启 {0} 以应用最新更新。
+vs/workbench/contrib/update/browser/update/updateCheckFailed	无法检查更新，请检查网络连接。
+vs/workbench/contrib/update/browser/update/updateNow	立即更新
+vs/workbench/contrib/update/browser/update.contribution/devApplyUpdateFromUrl	[Dev] 从 URL 应用更新…
+vs/workbench/contrib/update/browser/update.contribution/devUpdateUrlInvalid	请输入有效的 URL
+vs/workbench/contrib/update/browser/update.contribution/devUpdateUrlPrompt	输入更新包 URL（macOS 为 .zip，Windows 为 .exe，Linux 为 .tar.gz）
+vs/workbench/contrib/update/browser/update.contribution/devUpdateUrlRequired	URL 不能为空
+vs/workbench/contrib/url/browser/url.contribution/devin.links.confirmBeforeOpening	启用后，在 Devin 中点击指向受信域之外网站的链接时，会先询问确认再在浏览器中打开。
+vs/workbench/contrib/userDataSync/browser/userDataSync/accept failed linked	接受更改时出错，详情请查看 {0}。
+vs/workbench/contrib/userDataSync/browser/userDataSync/syncDocumentationLink	Settings Sync 文档
+vs/workbench/contrib/userDataSync/browser/userDataSync/syncLogLink	日志
+vs/workbench/contrib/userDataSync/browser/userDataSync/turn off failed linked	关闭 Settings Sync 时出错，详情请查看 {0}。
+vs/workbench/contrib/userDataSync/browser/userDataSync/turn on failed with user data sync error linked	开启 Settings Sync 时出错，详情请查看 {0}。
+vs/workbench/contrib/userDataSync/browser/userDataSync/using separate service linked	Settings Sync 现在使用独立服务，更多信息见 {0}。
+vs/workbench/contrib/webview/browser/webviewElement/fatalErrorMessageWithExtension	加载“{0}”提供的 webview 时出错：{1}
+vs/workbench/contrib/welcomeGettingStarted/browser/gettingStarted/windsurfStart	快捷键
+vs/workbench/contrib/welcomeGettingStarted/common/gettingStartedContent/windsurfStart.acceptCompletion.description	按 Tab 接受自动补全
+vs/workbench/contrib/welcomeGettingStarted/common/gettingStartedContent/windsurfStart.acceptCompletion.title	接受自动补全
+vs/workbench/contrib/welcomeGettingStarted/common/gettingStartedContent/windsurfStart.openDocumentation.description	打开文档
+vs/workbench/contrib/welcomeGettingStarted/common/gettingStartedContent/windsurfStart.openDocumentation.title	打开文档
+vs/workbench/contrib/welcomeGettingStarted/common/gettingStartedContent/windsurfStart.openWindsurfCommand.description	触发命令
+vs/workbench/contrib/welcomeGettingStarted/common/gettingStartedContent/windsurfStart.openWindsurfCommand.title	触发命令
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpAddNewSSHHost	添加新 SSH 主机…
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpAddNewSSHHostAction	为远程 Agent 添加新 SSH 主机…
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpConfigureSSHHosts	配置 SSH 主机…
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpConfigureSSHHostsAction	为远程 Agent 配置 SSH 主机…
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpConfigureSSHHostsTitle	打开 SSH 配置文件
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpConnectRemoteHost	连接到远程 Agent Host…
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpConnectRemoteHostPlaceholder	选择一个已配置的 SSH 主机或输入 user@host
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpConnectRemoteHostPlaceholderWsl	选择一个 SSH 主机或 WSL 发行版，或输入 user@host
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpConnectRemoteHostTitle	连接到远程 agent host
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpDisconnectRemoteHost	断开远程 Agent Host
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpRemoteHostInvalid	输入 SSH 主机别名或 user@host。
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpRemoteHostSaved	已保存
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpRemoveRemoteHost	移除远程 Agent Host
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpRemoveRemoteHostButton	移除(&&R)
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpRemoveRemoteHostConfirm	移除 {0}？
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpRemoveRemoteHostSessions	其会话保留在该 host 上，重新添加后会恢复。
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpRemoveRemoteHostTurn	{0} 上有会话正在运行；host 会继续运行至其结束。
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpSshConfigCreateFailed	创建 SSH 配置文件失败：{0}
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpSshConfigListFailed	列出 SSH 配置文件失败：{0}
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/acpWslDistroStopped	已停止
+vs/workbench/contrib/windsurfAcpService/browser/acpRemoteHostActions/devin	Devin
+vs/workbench/contrib/windsurfAcpService/browser/acpSessionsQuickAccess/acpSessionClosedPullRequest	已关闭的 pull request
+vs/workbench/contrib/windsurfAcpService/browser/acpSessionsQuickAccess/acpSessionDraftPullRequest	草稿 pull request
+vs/workbench/contrib/windsurfAcpService/browser/acpSessionsQuickAccess/acpSessionMergedPullRequest	已合并的 pull request
+vs/workbench/contrib/windsurfAcpService/browser/acpSessionsQuickAccess/acpSessionOpenPullRequest	未合并的 pull request
+vs/workbench/contrib/windsurfAcpService/browser/acpSessionsQuickAccess/acpSessionSlack	Slack
+vs/workbench/contrib/windsurfAcpService/browser/acpSessionsQuickAccess/noAcpSessionResults	无匹配会话
+vs/workbench/contrib/windsurfAcpService/browser/windsurfAcp.contribution/acpSessionsQuickAccess	搜索会话
+vs/workbench/contrib/windsurfAcpService/browser/windsurfAcp.contribution/acpSessionsQuickAccessPlaceholder	按名称搜索会话…
+vs/workbench/contrib/windsurfAcpService/browser/windsurfAcpService/acpMessageCache.shutdown	正在保存 agent 会话缓存
+vs/workbench/contrib/windsurfAcpService/browser/windsurfAcpService/acpRemoteTerminalNoProvider	{0} 未连接。
+vs/workbench/contrib/windsurfAgentWindow/browser/cloudSessionEditorWindow/cloudSessionEditorWindow.failed	无法在 Devin 会话机器上打开 IDE：{0}
+vs/workbench/contrib/windsurfAgentWindow/browser/cloudSessionEditorWindow/cloudSessionEditorWindow.notReady	会话机器未及时进入 SSH 就绪状态。
+vs/workbench/contrib/windsurfAgentWindow/browser/cloudSessionEditorWindow/cloudSessionEditorWindow.noWindow	无法打开该窗口。
+vs/workbench/contrib/windsurfAgentWindow/browser/cloudSessionEditorWindow/cloudSessionEditorWindow.opening	正在 Devin 会话机器上打开 IDE…
+vs/workbench/contrib/windsurfAgentWindow/browser/cloudSessionEditorWindow/cloudSessionEditorWindow.waking	正在唤醒 Devin 会话机器…
+vs/workbench/contrib/windsurfAgentWindow/browser/devinSessionSshWindow/devinSessionSshWindow.lost	与 Devin 会话机器的连接已丢失，机器可能已休眠。
+vs/workbench/contrib/windsurfAgentWindow/browser/devinSessionSshWindow/devinSessionSshWindow.reconnectFailed	无法重新连接 Devin 会话机器：{0}
+vs/workbench/contrib/windsurfAgentWindow/browser/devinSessionSshWindow/devinSessionSshWindow.wakeAndReconnect	唤醒并重连
+vs/workbench/contrib/windsurfAgentWindow/browser/devinSessionSshWindow/devinSessionSshWindow.waking	正在唤醒 Devin 会话机器…
+vs/workbench/contrib/windsurfAgentWindow/browser/windsurfAgentWindowActions/openDevinSessionIdeWindow	为此会话打开 IDE 窗口
+vs/workbench/contrib/windsurfAgentWindow/browser/windsurfAgentWindowActions/openDevinSessionIdeWindow.unavailable	当前没有聚焦的 Devin 云会话，因此没有可打开 IDE 的会话机器。
+vs/workbench/contrib/windsurfAgentWindow/browser/windsurfAgentWindowActions/switchFromWindsurfAgentWindowToNormalMode	切换到 IDE 模式
+vs/workbench/contrib/windsurfAgentWindow/browser/windsurfAgentWindowActions/switchToWindsurfAgentModeInPlace	将本窗口切换为 Devin Agent 模式
+vs/workbench/contrib/windsurfAgentWindow/browser/windsurfAgentWindowActions/switchToWindsurfAgentWindowMode	切换到 Devin Agent 窗口
+vs/workbench/contrib/windsurfAgentWindow/browser/windsurfAgentWindowActions/toggleWindsurfAgentWindow	切换 Agent Window
+vs/workbench/contrib/windsurfAgentWindow/browser/windsurfAgentWindowActions/windsurf.agentManager	Agent Manager
+vs/workbench/contrib/windsurfAgentWindow/electron-browser/agentWindowReveal/revealAgentWindow	显示 Agent 窗口
+vs/workbench/contrib/windsurfAgentWindow/electron-browser/agentWindowReveal/revealEditorWindow	显示编辑器窗口
+vs/workbench/contrib/windsurfAgentWindow/electron-browser/agentWorkspacePrewarm/join.agentWorkspacePrewarm	正在清理预准备的 agent 工作区
+vs/workbench/contrib/windsurfAgentWindow/electron-browser/windsurfAgentWindowActions/convertToAgentWorkspace	将窗口转换为 Agent 工作区
