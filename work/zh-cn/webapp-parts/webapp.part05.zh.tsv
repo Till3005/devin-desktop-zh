@@ -1,0 +1,500 @@
+translation.boards.plan.walkthrough.allMet_one	已达成 {{count}} 个条件
+translation.boards.plan.walkthrough.allMet_other	全部 {{count}} 个条件已达成
+translation.boards.plan.walkthrough.someMet	已达成 {{met}} / {{total}}
+translation.boards.plan.walkthrough.criteriaAllMetPhase	所有退出条件已达成，此阶段可收尾。
+translation.boards.plan.walkthrough.criteriaOpenPhase	此阶段仅在下方所有条件达成后才算完成。
+translation.boards.plan.walkthrough.criteriaAllMetStep	所有退出条件已达成，此步骤可收尾。
+translation.boards.plan.walkthrough.criteriaOpenStep	此步骤仅在下方所有条件达成后才算完成。
+translation.boards.plan.walkthrough.stepCriteriaInPhase	此阶段中的步骤条件
+translation.boards.plan.walkthrough.stepCriteriaKicker	步骤退出条件
+translation.boards.plan.walkthrough.checkpointKicker	阶段 {{n}} · 退出检查点
+translation.boards.plan.walkthrough.backToPhase	返回阶段 {{n}}
+translation.boards.plan.walkthrough.backToStep	返回步骤
+translation.boards.plan.walkthrough.phaseContext	阶段 {{n}} · {{title}}
+translation.boards.plan.walkthrough.stepContext	步骤 · {{title}}
+translation.boards.plan.walkthrough.steps_one	{{count}} 个步骤
+translation.boards.plan.walkthrough.steps_other	{{count}} 个步骤
+translation.boards.plan.walkthrough.stepsCount	步骤 · {{count}}
+translation.boards.plan.walkthrough.stepsHeading	步骤
+translation.boards.plan.walkthrough.clearedBlockers	已清除
+translation.boards.plan.walkthrough.after	之后
+translation.boards.plan.walkthrough.blocks	阻塞
+translation.boards.plan.walkthrough.tickets	工单
+translation.boards.plan.walkthrough.discussion	讨论
+translation.boards.plan.walkthrough.wrapUp	收尾
+translation.boards.plan.walkthrough.wrapUpNeedsInput	等待你的输入
+translation.boards.plan.walkthrough.wrapUpProgress	工作进行中
+translation.boards.plan.walkthrough.wrapUpApproved	已批准
+translation.boards.plan.walkthrough.wrapUpReady	待批准
+translation.boards.plan.walkthrough.wrapUpAllAnswered	所有需要输入的项都已答复。
+translation.boards.plan.walkthrough.wrapUpRemaining	{{total}} 项中仍有 {{remaining}} 项需要输入。
+translation.boards.plan.walkthrough.exitCheckpoints	退出检查点
+translation.boards.plan.walkthrough.phaseProgress	{{phase}} 进度
+translation.boards.plan.blockerClearedByCheck	因检查通过而清除
+translation.boards.plan.status.drafting	起草中
+translation.boards.plan.status.approved	已批准
+translation.boards.plan.status.inProgress	进行中
+translation.boards.plan.status.progress	已完成 {{done}}/{{total}}
+translation.boards.plan.status.done	已完成
+translation.boards.statusColorPicker.statusColor	状态颜色
+translation.boards.statusColorPicker.useDefault	使用分类默认色
+translation.boards.statusColorPicker.customHex	自定义 hex 颜色
+translation.boards.statusColorPicker.invalidHex	请输入形如 #4c9aff 的 hex 颜色。
+translation.boards.insightsRange.all	全部
+translation.boards.insightsRange.days	{{days}} 天
+translation.boards.insightsRange.day	天
+translation.boards.insightsRange.week	周
+translation.boards.insightsRange.timeRangeAria	时间范围
+translation.boards.insightsRange.bucketSizeAria	分桶大小
+translation.boards.visibility.ariaLabel	看板可见性
+translation.boards.visibility.public	公开
+translation.boards.visibility.private	私有
+translation.boards.visibility.privateBoardAria	私有看板
+translation.boards.resourceAddLink	添加链接
+translation.boards.resourceUrl	URL
+translation.boards.resourceUrlPlaceholder	https://example.com
+translation.boards.resourceTitle	标题
+translation.boards.resourceTitlePlaceholder	设计规范
+translation.boards.resourceUrlInvalid	请输入有效的 http(s) 链接
+translation.boards.resourceAdd	添加
+translation.boards.resourceRemove	移除资源
+translation.boards.devinNone	无
+translation.boards.devinSelectAriaLabel	看板 Devin
+translation.boards.devinAgentDescription	{{name}} 是此看板的 Devin。看板上的所有人共享它当前的对话。
+translation.boards.devinUpdated	看板 Devin 已更新
+translation.boards.devinUpdateFailed	更新看板 Devin 失败
+translation.boards.openDevin	打开 Devin
+translation.boards.firstMessageStartsDevinConversation	你的第一条消息将开启 {{name}} 的对话。
+translation.boards.devinResetDescription	这会把 {{name}} 从此看板对所有人解绑。Devin 本身不受影响，个人代理不受影响。
+translation.boards.sortableList.dragToReorder	拖动以重新排序
+translation.boards.sortableList.reorder	重新排序 {{label}}
+translation.boards.statusEditor.statuses	状态
+translation.boards.statusEditor.addStatus	添加状态
+translation.boards.statusEditor.adding	正在添加...
+translation.boards.statusEditor.edit	编辑 {{label}}
+translation.boards.statusEditor.default	默认
+translation.boards.statusEditor.name	名称
+translation.boards.statusEditor.namePlaceholder	评审中
+translation.boards.statusEditor.duplicateName	同名状态已存在。
+translation.boards.statusEditor.category	分类
+translation.boards.statusEditor.undeletable	这是{{reason}}。
+translation.boards.statusEditor.fixed	（固定）
+translation.boards.statusEditor.color	颜色
+translation.boards.statusEditor.defaultForNewTickets	新工单默认状态
+translation.boards.statusEditor.setDefaultForNewTickets	设为新工单默认状态
+translation.boards.statusEditor.ticketCount_one	{{count}} 张工单
+translation.boards.statusEditor.ticketCount_other	{{count}} 张工单
+translation.boards.ticketDate.created	创建于 {{date}}
+translation.boards.ticketDate.updated	更新于 {{date}}
+translation.boards.ticketDisplay.showOnTickets	在工单上显示
+translation.boards.ticketDisplay.showAll	显示全部
+translation.boards.ticketDisplay.priority	优先级
+translation.boards.ticketDisplay.key	工单 ID
+translation.boards.ticketDisplay.status	状态
+translation.boards.ticketDisplay.devinStatus	Devin 状态
+translation.boards.ticketDisplay.devinRuntime	Devin 运行状态
+translation.boards.ticketDisplay.pullRequests	PR 工件
+translation.boards.ticketDisplay.recordings	录屏工件
+translation.boards.ticketDisplay.assignee	负责人
+translation.boards.ticketDisplay.hoursSaved	节省工时
+translation.boards.ticketDisplay.timestamps	时间戳
+translation.boards.tagKeyList.label	标签键
+translation.boards.tagKeyList.addKey	添加键
+translation.boards.tagKeyList.edit	编辑 {{name}}
+translation.boards.tagKeyList.systemKeyTooltip	系统键：不可重命名或删除
+translation.boards.tagKeyList.systemKey	系统键
+translation.boards.tagKeyList.keyNameTaken	同名键已存在。
+translation.boards.tagKeyList.systemKeyRename	系统键不可重命名。
+translation.boards.tagKeyList.defaultColorHint	用于此键的新值。
+translation.boards.tagKeyList.useBoardDefault	使用看板默认色
+translation.boards.tagKeyList.defaultValueColor	默认值颜色
+translation.boards.tagKeyList.fixedForSystemKeys	系统键为固定值。
+translation.boards.tagKeyList.onePerTicketHint	每张工单此键最多一个值。
+translation.boards.tagKeyList.onePerTicketAria	每张工单一个 {{name}} 值
+translation.boards.tagKeyList.adding	正在添加...
+translation.boards.tagValueList.label	{{key}} 值
+translation.boards.tagValueList.noValues	还没有值。
+translation.boards.tagValueList.addValue	添加值
+translation.boards.tagValueList.edit	编辑 {{name}}
+translation.boards.tagValueList.system	系统
+translation.boards.tagValueList.hasLink	有链接
+translation.boards.tagValueList.valueNameTaken	{{key}} 下已存在同名值。
+translation.boards.tagValueList.useKeyDefault	使用键默认色
+translation.boards.tagValueList.linkHint	带此值的胶囊会打开该链接。
+translation.boards.tagValueList.linkInvalid	请输入 http 或 https URL。
+translation.boards.tagValueList.highlightHint	在看板上高亮带此值的工单。
+translation.boards.tagValueList.highlight	高亮
+translation.boards.tagValueList.highlightAria	高亮标记了 {{name}} 的工单
+translation.boards.tagValueList.systemValuesUndeletable	系统值不可删除。
+translation.boards.tagValueList.adding	正在添加...
+translation.boards.tagValueList.ticketCount_one	{{count}} 张工单
+translation.boards.tagValueList.ticketCount_other	{{count}} 张工单
+translation.boards.tagValueList.highlightsTickets	高亮工单
+translation.boards.labels.agentActions	代理操作
+translation.boards.labels.seePersonalAgent	查看个人代理
+translation.boards.labels.seeSharedAgent	查看共享代理
+translation.boards.labels.resetAgent	重置代理
+translation.boards.labels.openFullSession	打开完整会话
+translation.boards.labels.session	会话
+translation.boards.labels.openSession	打开会话
+translation.boards.labels.changePriority	更改优先级
+translation.boards.labels.changePriorityPlaceholder	更改优先级...
+translation.boards.labels.newTicket	新建工单
+translation.boards.labels.dropTicketsHere	把工单放到这里
+translation.boards.labels.noTickets	无工单
+translation.boards.labels.hiddenColumns	已隐藏的列
+translation.boards.labels.personalAgentReset	个人代理已重置
+translation.boards.labels.sharedAgentReset	共享代理已重置
+translation.boards.labels.resetPersonalAgent	重置个人代理？
+translation.boards.labels.resetSharedAgent	重置共享代理？
+translation.boards.labels.boardTitle	看板标题
+translation.boards.labels.untitledBoard	未命名看板
+translation.boards.labels.identifier	标识 {{identifier}}
+translation.boards.labels.setIdentifier	设置标识
+translation.boards.labels.boardDescription	看板描述
+translation.boards.labels.addADescription	添加描述
+translation.boards.labels.seeMore	查看更多
+translation.boards.labels.seeLess	收起
+translation.boards.labels.boardActions	看板操作
+translation.boards.labels.settings	设置
+translation.boards.labels.deleteBoard	删除看板
+translation.boards.labels.newBoard	新建看板
+translation.boards.labels.description	描述
+translation.boards.labels.creating	正在创建...
+translation.boards.labels.ticketTitle	工单标题
+translation.boards.labels.ticketDescription	工单描述
+translation.boards.labels.addDescription	添加描述…
+translation.boards.labels.changeStatus	更改状态
+translation.boards.labels.changeStatusPlaceholder	更改状态...
+translation.boards.labels.status	状态
+translation.boards.labels.setEstimate	设置估时
+translation.boards.labels.changeEstimate	更改估时
+translation.boards.labels.createBoard	创建看板
+translation.boards.labels.estimate	估时
+translation.boards.labels.assignee	负责人
+translation.boards.labels.changeAssignee	更改负责人
+translation.boards.labels.assignTo	指派给…
+translation.boards.labels.attachFiles	附加文件
+translation.boards.labels.createMore	继续创建
+translation.boards.labels.createTicket	创建工单
+translation.boards.labels.discardTicket	放弃工单？
+translation.boards.labels.discard	放弃
+translation.boards.labels.boardBurn	看板燃尽
+translation.boards.labels.manager	管理员
+translation.boards.labels.unattributed	未归属
+translation.boards.labels.cumulative	累计
+translation.boards.labels.estimateVsActual	估时 vs 实际
+translation.boards.labels.used	已用
+translation.boards.labels.noTicketsYet	还没有工单
+translation.boards.labels.properties	属性
+translation.boards.labels.devins	Devin
+translation.boards.labels.created	已创建
+translation.boards.labels.delete	删除
+translation.boards.labels.expandGroup	展开分组
+translation.boards.labels.collapseGroup	收起分组
+translation.boards.labels.hideEmptyGroups	隐藏空分组
+translation.boards.labels.priority	优先级
+translation.boards.labels.progress	进度
+translation.boards.labels.points	点数
+translation.boards.labels.pointsCompleted	已完成点数
+translation.boards.labels.unestimated	未估时
+translation.boards.labels.analytics	分析
+translation.boards.labels.ticketsBySeverity	按严重度的工单
+translation.boards.labels.ticketsByPriority	按优先级的工单
+translation.boards.labels.createdVsCompleted	创建 vs 完成
+translation.boards.labels.couldntLoadActivity	无法加载动态
+translation.boards.labels.pointsBurnUp	点数燃尽图
+translation.boards.labels.pointsOverTime	点数趋势
+translation.boards.labels.ticketsOverTime	工单趋势
+translation.boards.labels.groupPointsBy	点数分组方式
+translation.boards.labels.groupTicketsBy	工单分组方式
+translation.boards.labels.byCategory	按分类
+translation.boards.labels.byStatus	按状态
+translation.boards.labels.usageByTicket	按工单用量
+translation.boards.labels.ticketCount_one	{{count, number}} 张工单
+translation.boards.labels.ticketCount_other	{{count, number}} 张工单
+translation.boards.labels.est	估时
+translation.boards.labels.sessions	会话
+translation.boards.labels.aCUs	ACU
+translation.boards.labels.cost	成本
+translation.boards.labels.showTop	显示前 {{COLLAPSED_ROWS}} 个
+translation.boards.labels.visibility	可见性
+translation.boards.labels.loadingMembers	正在加载成员...
+translation.boards.labels.noMembersFound	未找到成员
+translation.boards.labels.enterANumber	输入数字…
+translation.boards.labels.noEstimate	无估时
+translation.boards.labels.recording	录屏 {{number}}
+translation.boards.labels.pullRequests_one	Pull request
+translation.boards.labels.pullRequests_other	Pull request
+translation.boards.labels.recordings_one	录屏
+translation.boards.labels.recordings_other	录屏
+translation.boards.labels.artifactsOf	{{ticket}} 的工件
+translation.boards.labels.rename	重命名
+translation.boards.labels.copyURL	复制 URL
+translation.boards.labels.copyKey	复制键
+translation.boards.labels.starting	正在启动
+translation.boards.labels.startingSession	正在启动会话…
+translation.boards.labels.prCount_one	{{count}} 个 PR
+translation.boards.labels.prCount_other	{{count}} 个 PR
+translation.boards.labels.dispatchDevin	派发 Devin
+translation.boards.labels.viewSession	查看会话
+translation.boards.labels.unclaimed	未认领
+translation.boards.labels.viewRecording	查看录屏
+translation.boards.labels.ticketNotFound	未找到工单
+translation.boards.labels.copyTicketURL	复制工单 URL
+translation.boards.labels.copyTicketKey	复制工单键
+translation.boards.labels.editTicketDescription	编辑工单描述
+translation.boards.labels.assigned	已指派
+translation.boards.labels.unassigned	未指派
+translation.boards.labels.acuUsed	已用 ACU
+translation.boards.labels.setValue	设置值
+translation.boards.labels.unknown	未知
+translation.boards.labels.updated	已更新
+translation.boards.labels.undo	撤销：{{undoneMessage}}
+translation.boards.labels.couldntUndo	无法撤销
+translation.boards.labels.manageSharing	{{label}}。管理共享
+translation.boards.labels.creator	· 创建者
+translation.boards.labels.you	（你）
+translation.boards.labels.leave	离开
+translation.boards.labels.removeFromSidebar	从侧边栏移除
+translation.boards.labels.leaveBoard	离开看板
+translation.boards.labels.remove	移除 {{name}}
+translation.boards.labels.shareWithEveryone	共享给所有人
+translation.boards.labels.addMembers	添加成员
+translation.boards.labels.addMe	加入我
+translation.boards.labels.resizePanel	调整面板大小
+translation.boards.labels.boardPanel	看板面板
+translation.boards.labels.agent	代理
+translation.boards.labels.insights	洞察
+translation.boards.labels.hidePanel	隐藏面板
+translation.boards.labels.showPanel	显示面板
+translation.boards.labels.showAgent	显示代理
+translation.boards.labels.showInsights	显示洞察
+translation.boards.labels.selected	已选中
+translation.boards.labels.notSelected	未选中
+translation.boards.labels.members	成员
+translation.boards.labels.selectEveryone	选择所有人（{{memberCount}}）
+translation.boards.labels.boardCreated	看板已创建
+translation.boards.labels.viewBoard	查看看板
+translation.boards.labels.boardUpdated	看板已更新
+translation.boards.labels.boardDeleted	看板已删除
+translation.boards.labels.goHome	返回首页
+translation.boards.labels.unsubscribedFromBoard	已退订看板
+translation.boards.labels.leavePrivateBoard	离开私有看板？
+translation.boards.labels.somethingWentWrong	出了点问题
+translation.boards.labels.ticket	工单
+translation.boards.labels.subscribed	已订阅
+translation.boards.labels.unsubscribe	取消订阅
+translation.boards.labels.subscribe	订阅
+translation.boards.labels.unknownMember	未知成员
+translation.boards.labels.board	看板
+translation.boards.labels.assignToEllipsis	指派给...
+translation.boards.labels.pointsInTotal_one	共 {{total}} 点
+translation.boards.labels.pointsInTotal_other	共 {{total}} 点
+translation.boards.labels.botBoardInbox	需要你处理
+translation.boards.labels.botBoardTask	任务
+translation.boards.labels.untitledTicket	未命名工单
+translation.boards.labels.ticketLower	工单
+translation.boards.labels.noPrioritiesFound	未找到优先级
+translation.boards.labels.noStatusesFound	未找到状态
+translation.boards.labels.recordingsCount_one	{{count}} 个录屏
+translation.boards.labels.recordingsCount_other	{{count}} 个录屏
+translation.boards.labels.addDescriptionPlaceholder	添加描述…
+translation.boards.labels.addMembersEllipsis	添加成员...
+translation.boards.labels.manageSharingPrivate	私有看板。{{label}}。管理共享
+translation.boards.labels.deleteBoardQuestion	删除看板？
+translation.boards.labels.peopleCount_one	{{formatted}} 人
+translation.boards.labels.peopleCount_other	{{formatted}} 人
+translation.boards.labels.deleteKey	删除键？
+translation.boards.labels.deleteValue	删除值？
+translation.boards.labels.deleteNamedQuestion	删除 \\
+translation.boards.agent.couldntAttachTheSessionToThisBoard	无法把会话关联到此看板
+translation.boards.agent.failedToResetYourPersonalAgent	重置你的个人代理失败
+translation.boards.agent.failedToResetTheSharedAgent	重置共享代理失败
+translation.boards.agent.askDevinAboutThisBoard	向 Devin 询问此看板
+translation.boards.agent.startingYourPersonalAgent	正在启动你的个人代理…
+translation.boards.agent.startingTheSharedAgent	正在启动共享代理…
+translation.boards.agent.summariesPrioritiesAndNextStepsFor	{{board}} 的摘要、优先级和下一步。{{detail}}
+translation.boards.agent.boardManagerAgent	看板管理代理
+translation.boards.agent.migrationAgent	迁移代理
+translation.boards.agent.sharedTooltip	共享代理：此看板上的所有人都能看到这个会话
+translation.boards.agent.sharedMigrationTooltip	共享迁移代理：此看板上的所有人都能看到这个会话
+translation.boards.agent.composerPlaceholder	向 Devin 询问此看板…
+translation.boards.agent.composerAriaLabel	就此看板给 Devin 发消息
+translation.boards.agent.childComposerPlaceholder	给 Devin 发消息…
+translation.boards.agent.childComposerAriaLabel	在此会话中给 Devin 发消息
+translation.boards.agent.resetDescriptionPersonal	这会把你的个人代理从此看板解绑。会话仍保留在你的会话列表中，你的下一条消息会开启一个新的个人代理。
+translation.boards.agent.resetDescriptionShared	这会把共享代理从此看板对所有人解绑。会话仍保留在其所有者的会话列表中，下一条消息会开启一个新的共享代理。
+translation.boards.agent.backToBoardManager	返回看板管理代理
+translation.boards.agent.backToSession	返回会话
+translation.boards.agent.thisBoard	此看板
+translation.boards.agent.firstMessagePersonal	你的第一条消息将开启一个只有你能看到的看板个人会话。
+translation.boards.agent.firstMessageShared	你的第一条消息将开启一个所有人都能看到的看板共享会话。
+translation.boards.ui.newTicketIn	在 {{label}} 中新建工单
+translation.boards.ui.showEmptyGroups	显示空分组（{{hiddenCount}}）
+translation.boards.ui.enterANumberOf0OrMore	请输入不小于 0 的数字
+translation.boards.ui.startNewSessionWithTicket	用工单开启新会话
+translation.boards.ui.manageWhoSeesThisBoardInTheirSidebar	管理谁在侧边栏看到此看板
+translation.boards.ui.nobodyHasThisBoardInTheirSidebarYet	还没有人的侧边栏里有此看板
+translation.boards.ui.priorityIsAnyOf	优先级为 {{length}} 个中的任意一个
+translation.boards.ui.statusIsAnyOf	状态为 {{length}} 个中的任意一个
+translation.boards.dialogs.fileUploadIsDisabled	文件上传已禁用
+translation.boards.dialogs.failedToUpload	上传 {{name}} 失败
+translation.boards.dialogs.dropFilesToAttach	拖放文件以附加
+translation.boards.dialogs.noMembersToAssign	没有可指派的成员
+translation.boards.dialogs.newTicketIn	在 {{boardName}} 中新建工单
+translation.boards.dialogs.clickToEditIdentifier	点击编辑标识
+translation.boards.dialogs.allTicketsOnThisBoardWillBePermanently	此看板上的所有工单将被永久删除，且不可撤销。
+translation.boards.dialogs.pleaseEnterAName	必须填写名称
+translation.boards.dialogs.couldNotCreateTheBoardTryAgain	无法创建看板，请重试。
+translation.boards.dialogs.pleaseEnterADescription	必须填写描述
+translation.boards.dialogs.whatThisBoardTracksAgentsReadThisTo	此看板跟踪什么。代理会阅读它来放置工单。
+translation.boards.dialogs.typeNameToConfirm	输入 \\
+translation.boards.ticketDetail.thisTicketCouldNotBeFound	找不到此工单。
+translation.boards.insights.noUsageInThisRange	此范围内无用量
+translation.boards.insights.noEstimatesOrUsageYet	暂无估时或用量
+translation.boards.insights.couldntLoadACUUsage	无法加载 ACU 用量
+translation.boards.insights.daysAreBillingDaysGMT8TodaysBucket	天数按计费日（GMT-8）计。今天的桶仍在累计。
+translation.boards.insights.pointsCreatedVsCompleted	点数创建 vs 完成
+translation.boards.insights.noActivityInThisRange	此范围内无活动
+translation.boards.insights.noTicketUsageInThisRange	此范围内无工单用量
+translation.boards.insights.showAllMore	显示全部（还有 {{hidden}} 个）
+translation.boards.insights.chartTickets	工单
+translation.boards.insights.chartManager	管理员
+translation.boards.insights.chartUnattributed	未归属
+translation.boards.insights.chartCumulative	累计
+translation.boards.insights.chartEstimate	估时
+translation.boards.insights.chartAcus	ACU
+translation.boards.insights.chartCreated	已创建
+translation.boards.insights.chartCompleted	已完成
+translation.boards.insights.chartScope	范围
+translation.boards.insights.chartDeletedStatus	已删除的状态
+translation.boards.insights.dateSoFar	{{date}}（至今）
+translation.boards.insights.weekOf	{{date}} 所在周
+translation.boards.toasts.failedToSaveFolderState	保存文件夹状态失败
+translation.boards.toasts.undoConflict	无法撤销 — 工单此后已有变更
+translation.boards.toasts.failedToCreateBoard	创建看板失败
+translation.boards.toasts.failedToUpdateBoard	更新看板失败
+translation.boards.toasts.failedToDeleteBoard	删除看板失败
+translation.boards.toasts.failedToSubscribe	订阅看板失败
+translation.boards.toasts.failedToUnsubscribe	退订看板失败
+translation.boards.toasts.failedToRemoveMember	移除成员失败
+translation.boards.toasts.failedToUpdateMembers	更新成员失败
+translation.boards.toasts.failedToAddMembers	添加成员失败
+translation.boards.toasts.failedToShareWithEveryone	共享看板给所有人失败
+translation.boards.toasts.failedToAddStatus	添加状态失败
+translation.boards.toasts.failedToUpdateStatus	更新状态失败
+translation.boards.toasts.failedToDeleteStatus	删除状态失败
+translation.boards.toasts.failedToReorderStatuses	重排状态失败
+translation.boards.toasts.failedToSetDefaultStatus	设置默认状态失败
+translation.boards.toasts.failedToAddTagKey	添加标签键失败
+translation.boards.toasts.failedToUpdateTagKey	更新标签键失败
+translation.boards.toasts.failedToDeleteTagKey	删除标签键失败
+translation.boards.toasts.failedToReorderTagKeys	重排标签键失败
+translation.boards.toasts.failedToAddTag	添加标签失败
+translation.boards.toasts.failedToUpdateTag	更新标签失败
+translation.boards.toasts.failedToDeleteTag	删除标签失败
+translation.boards.toasts.failedToReorderTags	重排标签失败
+translation.boards.toasts.failedToCreateTicket	创建工单失败
+translation.boards.toasts.failedToUpdateTicket	更新工单失败
+translation.boards.toasts.failedToDispatchDevin	派发 Devin 失败
+translation.boards.toasts.viewTicket	查看工单
+translation.boards.toasts.ticketCreated	工单已创建
+translation.boards.toasts.ticketUpdated	工单已更新
+translation.boards.page.failedToLoadThisBoard	加载此看板失败。
+translation.boards.page.failedToLoadBoards	加载看板失败。
+translation.boards.page.unsubscribeFrom	取消订阅 {{name}}
+translation.boards.page.subscribeTo	订阅 {{name}}
+translation.boards.page.configureHowThisBoardWorksForYourTeam	配置此看板如何为你的团队和看板代理工作。
+translation.boards.page.boardNameSettings	{{name}} 设置
+translation.boards.page.boardSettings	看板设置
+translation.boards.filters.noAssignee	无负责人
+translation.boards.filters.removeDevinFilter	移除 Devin 筛选
+translation.boards.filters.filter	筛选
+translation.boards.filters.clearAll	清除全部筛选
+translation.boards.filters.me	我
+translation.boards.filters.memberCount_one	{{count}} 名成员
+translation.boards.filters.memberCount_other	{{count}} 名成员
+translation.boards.filters.assignedToMe	指派给我
+translation.boards.filters.claimedByDevin	Devin 已认领
+translation.boards.filters.notClaimed	未认领
+translation.boards.filters.assigneeIsAnyOf	负责人为 {{count}} 个中的任意一个
+translation.boards.filters.assigneeIsNone	负责人为空
+translation.boards.filters.assigneeIs	负责人为 {{name}}
+translation.boards.filters.assigneeIsOneMember	负责人为 1 名成员
+translation.boards.filters.oneStatus	1 个状态
+translation.boards.filters.any	任意
+translation.boards.filters.selectionOnly	仅 {{label}}
+translation.boards.filters.selectionOr	{{first}} 或 {{second}}
+translation.boards.filters.selectionCount_one	已选 {{count}} 个
+translation.boards.filters.selectionCount_other	已选 {{count}} 个
+translation.boards.ticket.acuValue	{{acus}} ACU
+translation.boards.activity.hideChanges	隐藏变更
+translation.boards.activity.showChanges	显示变更
+translation.boards.activity.title	动态
+translation.boards.activity.empty	空
+translation.boards.activity.reassigned	将工单从 <from>{{from}}</from> 改派给 <to>{{to}}</to>
+translation.boards.activity.selfAssigned	认领了工单
+translation.boards.activity.assigned	将工单指派给 <to>{{to}}</to>
+translation.boards.activity.selfUnassigned	取消了认领
+translation.boards.activity.unassigned	取消了 <from>{{from}}</from> 对工单的指派
+translation.boards.activity.tagsAddedAndRemoved	添加了 <added></added> 并移除了 <removed></removed>
+translation.boards.activity.tagsAdded	添加了 <tags></tags>
+translation.boards.activity.tagsRemoved	移除了 <tags></tags>
+translation.boards.activity.previously	此前为“{{title}}”
+translation.boards.activity.previouslyUntitled	此前未命名
+translation.boards.activity.createdFinding	创建了该发现
+translation.boards.activity.createdTicket	创建了该工单
+translation.boards.activity.claimed	认领了工单
+translation.boards.activity.startedSessionLink	启动了一个 <session>Devin 会话</session>
+translation.boards.activity.startedSession	启动了一个 Devin 会话
+translation.boards.activity.released	释放了工单
+translation.boards.activity.removedDevin	将 <session>Devin</session> 从工单移除
+translation.boards.activity.changedStatus	将状态从 <from></from> 改为 <to></to>
+translation.boards.activity.setSeverity	将严重度设为 <to></to>
+translation.boards.activity.setPriority	将优先级设为 <to></to>
+translation.boards.activity.changedSeverity	将严重度从 <from></from> 改为 <to></to>
+translation.boards.activity.changedPriority	将优先级从 <from></from> 改为 <to></to>
+translation.boards.activity.changedTitle	更改了标题
+translation.boards.activity.changedTitleTo	将标题改为 <title></title>
+translation.boards.activity.editedDescription	编辑了描述
+translation.boards.activity.changedSeverityReason	更改了该发现严重度的理由
+translation.boards.activity.changedPriorityReason	更改了该工单优先级的理由
+translation.boards.activity.changedDismissalNote	更改了驳回说明
+translation.boards.activity.addedDismissalNote	添加了驳回说明
+translation.boards.activity.removedDismissalNote	移除了驳回说明
+translation.boards.activity.editedCustomFields	编辑了自定义字段
+translation.boards.activity.linkedPlanStep	将工单关联到计划步骤 <step>{{step}}</step>
+translation.boards.activity.unlinkedPlanStep	将工单从计划步骤 <step>{{step}}</step> 取消关联
+translation.boards.activity.unlinkedPlanStepGeneric	将工单从其计划步骤取消关联
+translation.boards.activity.couldntLoad	无法加载动态。
+translation.boards.activity.retry	重试
+translation.boards.activity.noActivityYet	暂无动态。
+translation.boards.undo.priorityCleared	优先级已清除
+translation.boards.undo.priorityChangedTo	优先级已改为 {{priority}}
+translation.boards.undo.movedTo	已移到 {{status}}
+translation.boards.undo.ticketMoved	工单已移动
+translation.boards.undo.ticketMovedBack	工单已移回
+translation.boards.undo.statusChangedTo	状态已改为 {{status}}
+translation.boards.undo.statusChangedBackTo	状态已改回 {{status}}
+translation.boards.undo.priorityClearedLower	优先级已清除
+translation.boards.undo.priorityChangedBackTo	优先级已改回 {{priority}}
+translation.boards.undo.assignedTo	已指派给 {{name}}
+translation.boards.undo.assignedBackTo	已重新指派给 {{name}}
+translation.boards.undo.unassignedLower	已取消指派
+translation.boards.undo.titleAndDescriptionUpdated	标题和描述已更新
+translation.boards.undo.titleUpdated	标题已更新
+translation.boards.undo.titleAndDescriptionRestored	标题和描述已还原
+translation.boards.undo.titleRestored	标题已还原
+translation.boards.undo.descriptionUpdated	描述已更新
+translation.boards.undo.descriptionRestored	描述已还原
+translation.boards.unknownStatus	未知
+translation.boards.title	看板
+translation.boards.newTicket	新建工单
+translation.boards.sharing.notShared	未共享
+translation.boards.sharing.onlyYou	仅你
+translation.boards.sharing.sharedWithCount_one	已共享给 {{count}} 人
+translation.boards.sharing.sharedWithCount_other	已共享给 {{count}} 人
+translation.boards.sharing.visibilityPrivate	仅你添加的人可以访问。
+translation.boards.sharing.visibilityOrg	组织内所有人可访问。
+translation.boards.identifier.tooShort_one	标识至少需要 {{count}} 个字符
