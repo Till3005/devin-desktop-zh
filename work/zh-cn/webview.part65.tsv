@@ -1,0 +1,313 @@
+rolePermissions.options.useDevinReviewOnPrCreation	用 Devin Review（PR 创建时）
+rolePermissions.options.useDevinReviewOnPrCreationDescription	PR 创建时手动或自动跑分析
+rolePermissions.options.useDevinSessions	用 Devin 会话
+rolePermissions.options.useDevinSessionsDescription	–
+rolePermissions.options.useLocalAnalyticsApi	用本地分析 API
+rolePermissions.options.useLocalAnalyticsApiDescription	通过 API 访问企业的本地（Devin Desktop / CLI）分析
+rolePermissions.options.useProduct	用 {{productName}}
+rolePermissions.options.useProductDescription	允许用户用 {{productName}}
+rolePermissions.options.useSecurityScans	用安全扫描
+rolePermissions.options.useSecurityScansDescription	全部「管理发现项」权限加启动安全扫描和管理扫描配置
+rolePermissions.options.viewAccountConsumption	看账户消耗
+rolePermissions.options.viewAccountConsumptionDescription	看企业消耗（只读）
+rolePermissions.options.viewAccountMembership	看账户成员
+rolePermissions.options.viewAccountMembershipDescription	看企业+组织成员（只读）
+rolePermissions.options.viewAccountMetrics	看账户指标
+rolePermissions.options.viewAccountMetricsDescription	看企业指标
+rolePermissions.options.viewAccountSessions	看账户会话
+rolePermissions.options.viewAccountSessionsDescription	看企业里其他用户的 Devin 会话
+rolePermissions.options.viewAgentReadiness	看 agent 就绪度
+rolePermissions.options.viewAgentReadinessDescription	看就绪评估和准则（只读）
+rolePermissions.options.viewAuditLogs	看审计日志
+rolePermissions.options.viewAuditLogsDescription	看企业审计日志（只读）
+rolePermissions.options.viewAutomations	看自动化
+rolePermissions.options.viewAutomationsDescription	看自动化及其调用历史（只读）
+rolePermissions.options.viewCodeScans	看代码扫描
+rolePermissions.options.viewCodeScansDescription	看代码扫描和发现项（只读）
+rolePermissions.options.viewConsumption	看消耗
+rolePermissions.options.viewConsumptionDescription	看组织消耗
+rolePermissions.options.viewDevinReview	看 Devin Review
+rolePermissions.options.viewDevinReviewDescription	允许用户看审查结果和发现项，不触发审查
+rolePermissions.options.viewEnterpriseInfraDetails	看企业基建详情
+rolePermissions.options.viewEnterpriseInfraDetailsDescription	看企业基建详情
+rolePermissions.options.viewGitIntegrations	看 Git 集成
+rolePermissions.options.viewGitIntegrationsDescription	看 Git 集成（只读）
+rolePermissions.options.viewMembership	看成员
+rolePermissions.options.viewMembershipDescription	看组织成员（只读）
+rolePermissions.options.viewMetrics	看指标
+rolePermissions.options.viewMetricsDescription	看组织指标
+rolePermissions.options.viewOrganizations	看组织
+rolePermissions.options.viewOrganizationsDescription	看企业组织（只读）
+rolePermissions.options.viewRepositoryPermissions	看仓库权限
+rolePermissions.options.viewRepositoryPermissionsDescription	看仓库权限（只读）。隐含查看 Git 集成。
+rolePermissions.options.viewReviews	看审查
+rolePermissions.options.viewReviewsDescription	授此组织只读审查访问；账户级访问自动继承
+rolePermissions.options.viewSecurityScans	看安全扫描
+rolePermissions.options.viewSecurityScansDescription	看安全扫描和发现项（只读）
+rolePermissions.options.viewSessionCategories	看会话分类
+rolePermissions.options.viewSessionCategoriesDescription	看会话分类和子分类设置（只读）
+rolePermissions.options.viewSessionCategoriesOrgDescription	看会话分类设置（只读）
+rolePermissions.options.viewSessions	看会话
+rolePermissions.options.viewSessionsDescription	看组织里其他用户的 Devin 会话。
+rolePermissions.options.viewUniversityLearning	看大学学习
+rolePermissions.options.viewUniversityLearningDescription	看企业的 Devin University 学习进度（只读）
+rolePermissions.options.windsurfDevinCliAdmin	Windsurf + Devin CLI 管理员
+rolePermissions.options.windsurfDevinCliAdminDescription	允许用户改 Windsurf + Devin CLI 用量的组织设置
+rolePermissions.orgSkills.manage	管理技能
+rolePermissions.orgSkills.manageDescription	创建/编辑/删除组织技能，含从知识迁来的笔记
+rolePermissions.playbooks.create	创建 Unified 模式 playbook
+rolePermissions.playbooks.createDescription	在 Unified 模式资源集合建 playbook
+rolePermissions.secrets.create	创建 Unified 模式机密
+rolePermissions.secrets.createDescription	在 Unified 模式建机密
+rolePermissions.unified.group	Unified 模式权限
+rolesPage.adminTooltipAccount	管理员角色对全部组织的全部功能有完全访问和可见性
+rolesPage.adminTooltipOrg	管理员角色对全部功能有完全访问
+rolesPage.builtInNotEditable	内置角色不能编辑
+rolesPage.cancel	取消
+rolesPage.createEnterpriseRole	建企业角色
+rolesPage.createForEnterprise	为企业创建
+rolesPage.createForOrganizations	为组织创建
+rolesPage.createOrganizationRole	建组织角色
+rolesPage.createRole	建角色
+rolesPage.delete	删除
+rolesPage.deleteRole	删除角色
+rolesPage.deleteRoleFailed	删除角色失败
+rolesPage.deleteWarning	这会永久删除「{{roleName}}」
+rolesPage.deletingRole	正在删除角色…
+rolesPage.descriptionColumn	描述
+rolesPage.duplicateNameAccount	另一个企业角色已叫「{{name}}」。换个名字。
+rolesPage.duplicateNameOrg	另一个组织角色已叫「{{name}}」。换个名字。
+rolesPage.editRole	编辑角色
+rolesPage.filterAllPermissions	全部权限
+rolesPage.filterPermissions	筛选权限
+rolesPage.filterRolesByScope	按作用域筛选角色
+rolesPage.filterSelectedOnly	仅已选
+rolesPage.noEditPermission	你没有编辑角色的权限
+rolesPage.noPermissionsMatch	没有权限匹配「{{query}}」
+rolesPage.noPermissionsSelected	未选权限
+rolesPage.noRolesFound	未找到角色。
+rolesPage.permissionColumn	权限
+rolesPage.permissionCount_one	{{count}} 个权限
+rolesPage.permissionCount_other	{{count}} 个权限
+rolesPage.permissionsColumn	权限
+rolesPage.roleColumn	角色
+rolesPage.roleDeleted	角色删除成功
+rolesPage.roleFallbackTitle	角色
+rolesPage.roleNameLabel	角色名
+rolesPage.roleNamePlaceholder	角色名…
+rolesPage.roleNotFound	找不到角色
+rolesPage.saveChanges	保存
+rolesPage.scopeAll	全部
+rolesPage.scopeColumn	作用域
+rolesPage.scopeDescriptionAccount	跨企业指派，应用到用户的所有组织
+rolesPage.scopeDescriptionOrg	按组织指派，仅限那个组织
+rolesPage.scopeEnterprise	企业
+rolesPage.scopeOrganization	组织
+rolesPage.searchPermissions	搜索权限
+rolesPage.searchPermissionsPlaceholder	搜索权限…
+rolesPage.searchRolesPlaceholder	搜索角色…
+rolesPage.selectAllListedPermissions	全选列出的权限
+rolesPage.typeBuiltIn	内置
+rolesPage.typeColumn	类型
+rolesPage.typeCustom	自定义
+rolesPage.typeDefault	默认
+routeCrumbs.downloads	下载
+routeCrumbs.oncall	Oncall
+routeCrumbs.plugins	插件
+routeCrumbs.repositoryPermissions	仓库权限
+routeCrumbs.serviceUsers	服务用户
+routeCrumbs.settings	设置
+routeErrors.mcpMarketplaceUnavailable	MCP 市场不可用。
+routeErrors.pageDoesNotExist	你找的页面不存在。
+scanConnections.apiKey	API key
+scanConnections.apiToken	API token
+scanConnections.apiUrl	API URL
+scanConnections.armorcode	ArmorCode
+scanConnections.armorcodeDescription	跨你工具聚合的发现项
+scanConnections.blackduck	Black Duck
+scanConnections.blackduckDescription	项目版本里的有漏洞组件
+scanConnections.blackduckProject	项目
+scanConnections.blackduckServerUrl	服务器 URL
+scanConnections.blackduckToken	API token
+scanConnections.blackduckVersion	版本
+scanConnections.blackduckVersionDescription	留空用最新版本
+scanConnections.chooseFile	选一个 CSV 文件
+scanConnections.clientId	客户端 ID
+scanConnections.clientSecret	客户端密钥
+scanConnections.connect	连接
+scanConnections.connectFailed	无法连接来源
+scanConnections.connectionAdded	连接已添加
+scanConnections.connectionName	连接名
+scanConnections.connectionNamePlaceholder	如 Semgrep
+scanConnections.csv	CSV
+scanConnections.csvDescription	上传任何工具的导出
+scanConnections.csvFile	文件
+scanConnections.csvFileDescription	Devin 映射列；至少含标题、严重度和位置
+scanConnections.custom	自定义
+scanConnections.customDescription	给 Devin 描述任何其它来源
+scanConnections.customSource	你的发现项在哪
+scanConnections.customSourceDescription	Devin 该怎么取：一个 API、仓库里的报告、共享文件
+scanConnections.customSourcePlaceholder	如：通过 REST API 从我们 Semgrep 部署取打开的告警，或读提交在 reports/semgrep.json 的报告
+scanConnections.description	把另一个工具的发现项带进 Devin 分诊和修复
+scanConnections.detailsTitle	{{source}} 详情
+scanConnections.enterpriseBeta	企业 beta
+scanConnections.enterpriseBetaTooltip	问你的账户团队要访问权
+scanConnections.errorAlertTypes	请至少选一种告警类型
+scanConnections.errorDuplicateSecretName	另一个字段用了此名。给新机密换个名。
+scanConnections.errorFile	选一个 CSV 文件以继续。
+scanConnections.errorRequired	请填此字段以继续
+scanConnections.errorSecret	机密为必填项
+scanConnections.errorSecretName	请输入如 SNYK_API_TOKEN 的名字
+scanConnections.errorSecretValue	机密值为必填项
+scanConnections.errorUrl	请输入以 https:// 开头的 URL
+scanConnections.github	GitHub
+scanConnections.githubAlertTypes	告警类型
+scanConnections.githubApiUrl	GitHub API URL
+scanConnections.githubApiUrlDescription	留空用 github.com；GitHub Enterprise Server 填 https://HOST/api/v3
+scanConnections.githubCodeScanning	Code scanning
+scanConnections.githubDependabot	Dependabot
+scanConnections.githubDescription	Code scanning、Dependabot 和 secret 告警
+scanConnections.githubRepos	仓库
+scanConnections.githubReposDescription	逗号分隔；留空用每个已连仓库
+scanConnections.githubSecretScanning	Secret scanning
+scanConnections.githubToken	GitHub token
+scanConnections.instructions	说明
+scanConnections.instructionsDescription	给 Devin 导入的可选指引，如关注的特定仓库或严重度
+scanConnections.jfrog	JFrog
+scanConnections.jfrogAccessToken	访问令牌
+scanConnections.jfrogDescription	Xray watch 的安全违规
+scanConnections.jfrogServerUrl	JFrog Platform URL
+scanConnections.jfrogWatch	Xray watch
+scanConnections.jfrogWatchDescription	留空用每个 watch
+scanConnections.jira	Jira
+scanConnections.jiraApiTokenDescription	你 Atlassian 账户里 Security → API tokens 的 API token
+scanConnections.jiraDescription	Jira 项目里跟踪的工单
+scanConnections.jiraEmail	账户邮箱
+scanConnections.jiraEmailDescription	API token 所属的 Atlassian 账户
+scanConnections.jiraProjectKey	项目 key
+scanConnections.jiraProjectKeyDescription	项目工单 key 的前缀，如 SEC-123 的 SEC
+scanConnections.jiraSiteUrl	站点 URL
+scanConnections.jiraSiteUrlDescription	你的 Jira Cloud 地址，如 https://acme.atlassian.net
+scanConnections.linear	Linear
+scanConnections.linearApiKeyDescription	Linear 里 Settings → Security & access 的个人 API key
+scanConnections.linearDescription	Linear 团队跟踪的工单
+scanConnections.linearTeamKey	团队 key
+scanConnections.linearTeamKeyDescription	团队工单 ID 的前缀，如 SEC-123 的 SEC
+scanConnections.nextIngestionDescription	Devin 将从 {{source}} 拉已有发现项
+scanConnections.nextIngestionDescriptionCustom	Devin 将从你的来源拉已有发现项
+scanConnections.nextIngestionDescriptionFile	Devin 将从你的文件拉发现项
+scanConnections.nextIngestionTitle	摄取
+scanConnections.nextInvestigationDescription	Devin 将排查每个发现项并确认其有效性
+scanConnections.nextInvestigationTitle	排查
+scanConnections.nextSyncDescription	Devin 将把结果写回 {{source}} 并保持两边同步
+scanConnections.nextSyncTitle	同步
+scanConnections.nextTitle	接下来发生什么
+scanConnections.secretCreateNew	建新的组织机密
+scanConnections.secretDescription	连接上只存机密名
+scanConnections.secretName	机密名
+scanConnections.secretNameDescription	会话开始前存为组织机密；Devin 按名读
+scanConnections.secretNamePlaceholder	SNYK_API_TOKEN
+scanConnections.secretNoMatch	没有匹配机密
+scanConnections.secretPlaceholder	选一个组织机密
+scanConnections.secretSearchPlaceholder	搜索机密…
+scanConnections.secretValue	值
+scanConnections.snyk	Snyk
+scanConnections.snykApiUrlDescription	区域或自托管 Snyk 时填
+scanConnections.snykDescription	开源、代码和容器问题
+scanConnections.snykOrgId	Snyk 组织 ID
+scanConnections.snykOrgIdDescription	Snyk 里 Settings → General
+scanConnections.socket	Socket
+scanConnections.socketDescription	你依赖的供应链告警
+scanConnections.socketOrgSlug	组织 slug
+scanConnections.socketOrgSlugDescription	你 Socket 仪表盘 URL 的组织段
+scanConnections.sonarqube	SonarQube
+scanConnections.sonarqubeDescription	问题和安全热点
+scanConnections.sonarqubeProjectKey	项目 key
+scanConnections.sonarqubeServerUrl	服务器 URL
+scanConnections.sonarqubeToken	用户 token
+scanConnections.source	来源
+scanConnections.title	新连接
+scanConnections.vanta	Vanta
+scanConnections.vantaApiUrlDescription	Vanta Gov（FedRAMP）租户填：https://api.vanta-gov.com
+scanConnections.vantaDescription	你合规程序里跟踪的漏洞
+scanConnections.veracode	Veracode
+scanConnections.veracodeApiId	API ID
+scanConnections.veracodeApiKey	API secret key
+scanConnections.veracodeApiKeyDescription	带 Results API 角色的 API 用户；要重开还需 Mitigation API
+scanConnections.veracodeApplicationGuid	应用 GUID
+scanConnections.veracodeApplicationGuidDescription	在 Veracode 应用的 profile 里
+scanConnections.veracodeDescription	Veracode 应用的静态、动态和 SCA 发现项
+scanConnections.wiz	Wiz
+scanConnections.wizApiUrl	GraphQL 端点
+scanConnections.wizApiUrlDescription	你租户的 API 端点，在 Settings → Tenant
+scanConnections.wizClientId	客户端 ID
+scanConnections.wizClientSecret	客户端密钥
+scanConnections.wizClientSecretInfo	服务账户需要的 scope
+scanConnections.wizDescription	云问题和漏洞
+scanConnections.zafran	Zafran
+scanConnections.zafranDescription	带运行时上下文的暴露发现项
+scanRuns.cancelScan	取消扫描
+scanRuns.cancelScanFailed	无法取消扫描。
+scanRuns.cancelScanNoPermission	你没有取消扫描的权限
+scanRuns.confirmCancelDescription	这会停掉当前运行。已有发现项和未来排期扫描不受影响。
+scanRuns.confirmCancelTitle	取消 {{repo}} 的扫描？
+scanRuns.cost	成本
+scanRuns.created	创建时间
+scanRuns.createdBy	创建者
+scanRuns.createdByApi	API
+scanRuns.createdByAutomation	自动化
+scanRuns.duration	耗时
+scanRuns.empty	还没有扫描跑过。
+scanRuns.freePromo	免费促销
+scanRuns.freePromoTooltip	此扫描用 Devin for Security 促销免费跑的。
+scanRuns.keepScan	保留扫描
+scanRuns.noMatches	没有运行匹配这些筛选
+scanRuns.noMatchesDescription	清掉筛选看此组织全部运行。
+scanRuns.queued	排队中
+scanRuns.scanKind	类型
+scanRuns.scopeMe	我
+scanRuns.title	扫描运行
+scanRuns.view	扫描历史
+scfViewer.downloadFile	下载 {{filename}}
+scfViewer.failedToLoadPreview	加载预览失败
+scfViewer.tooLargeToPreview	文件太大无法预览（上限 {{maxSizeMb}} MB）
+scheduleValidation.count	COUNT 必须是正整数，得到「{{value}}」。
+scheduleValidation.countUntil	COUNT 和 UNTIL 不能一起用。
+scheduleValidation.cronOccurrences	每 {{count}} 次发生：{{description}}
+scheduleValidation.day	BYDAY 中无效星期缩写：「{{value}}」。用 SU、MO、TU、WE、TH、FR 或 SA。
+scheduleValidation.emptyProperty	属性「{{value}}」没有值。
+scheduleValidation.frequencyRequired	RRULE 必须含 FREQ 属性。
+scheduleValidation.hour	BYHOUR 值必须是 0–23 整数，得到「{{value}}」。
+scheduleValidation.interval	INTERVAL 必须是正整数，得到「{{value}}」。
+scheduleValidation.invalidSegment	无效 RRULE 段：「{{value}}」。属性必须是 KEY=VALUE。
+scheduleValidation.minute	BYMINUTE 值必须是 0–59 整数，得到「{{value}}」。
+scheduleValidation.month	BYMONTH 值必须是 1–12 整数，得到「{{value}}」。
+scheduleValidation.monthDay	BYMONTHDAY 值必须是 1–31 或 -31–-1 整数，得到「{{value}}」。
+scheduleValidation.oneTimeCount	一次性排期的 COUNT 必须恰为 1（COUNT=1），得到「{{value}}」。
+scheduleValidation.required	RRULE 为必填项
+scheduleValidation.runTimeInvalid	运行时间无效。
+scheduleValidation.runTimeRequired	运行时间为必填项
+scheduleValidation.secondly	不允许 SECONDLY 频率。最小间隔 1 分钟。
+scheduleValidation.setPosition	BYSETPOS 值必须是 -366–366 非零整数，得到「{{value}}」。
+scheduleValidation.unknownProperty	未知 RRULE 属性：「{{value}}」。
+scheduleValidation.unsupportedDates	不支持 EXDATE 和 RDATE。
+scheduleValidation.unsupportedFrequency	不支持的频率：「{{value}}」。用 MINUTELY、HOURLY、DAILY、WEEKLY、MONTHLY 或 YEARLY。
+scheduleValidation.until	UNTIL 必须是日期（YYYYMMDD）或日期时间（YYYYMMDDTHHMMSSZ），得到「{{value}}」。
+scheduleValidation.weekStart	WKST 必须是星期缩写（SU、MO、TU、WE、TH、FR、SA），得到「{{value}}」。
+schedules.detail.loadError	无法加载此计划任务
+schedules.detail.loadErrorDescription	检查连接后重试。
+schedules.detail.notFound	找不到计划任务
+schedules.detail.notFoundDescription	你找的计划任务不存在，或你没有权限看它。
+schedules.detail.retry	重试
+schedules.migrate.bannerBody	自动化支持排期和更多，含事件驱动触发器。一步迁移此组织的计划任务；每个变成以计划任务所有者身份运行的自动化。
+schedules.migrate.button	全部迁移到自动化
+schedules.migrate.cancel	取消
+schedules.migrate.columns.owner	所有者
+schedules.migrate.columns.reason	缺什么
+schedules.migrate.columns.removalReason	原因
+schedules.migrate.columns.schedule	计划任务
+schedules.migrate.columns.schedules	计划任务
+schedules.migrate.confirm	迁移
+schedules.migrate.description	每个计划任务变成以计划任务所有者身份运行的自动化，提示词和节奏相同。已迁移计划任务从此列表移除；其过往会话仍可看。
+schedules.migrate.done	完成
+schedules.migrate.errorToast	迁移计划任务失败

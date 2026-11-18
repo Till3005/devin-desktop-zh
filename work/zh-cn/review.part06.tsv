@@ -1,0 +1,160 @@
+ide.workingTree	工作树
+inbox.allLoadedSnoozed	全部已载审查请求都延后了。
+inbox.allStatuses	全部状态
+inbox.authoredCiHint	审查状态和人工评论数仍可见。
+inbox.authoredEmpty	你没开放的拉取请求。
+inbox.authoredIntro	你开放的 PR，带检查、审查状态和讨论。
+inbox.authoredTitle	我写的 PR
+inbox.awaitingReview	待审
+inbox.baseFirst	基 PR 优先
+inbox.baseOutside	基 PR #{{number}} 不在此视图
+inbox.basePr	基 PR
+inbox.buildsOn	建于 #{{number}}
+inbox.changedFiles	更改文件
+inbox.changesRequested	已要更改
+inbox.changesSinceReview	Devin 分析后的更改
+inbox.ciFailuresFor	CI 失败：显 {{title}} 的失败检查
+inbox.collapseHint	收起的堆叠只显基 PR。你随时能展开或收起堆叠。
+inbox.collapsed	已收起
+inbox.commentOnLine	选行 {{line}} 评论
+inbox.defaultDuration	一键时长
+inbox.directRequestReason	@{{login}} 直接请你审查。
+inbox.directRequestSignal	直接请求审查
+inbox.discussionUnavailable	讨论加载不了。开完整 PR 读它。
+inbox.drafts	草稿
+inbox.durationChoice	时长 {{number}}
+inbox.durationHint	用 5 分钟到 12 周的不同时长。
+inbox.endLine	结束行
+inbox.expanded	已展开
+inbox.failedCheckCount_one	{{count}} 个检查要处理
+inbox.failedCheckCount_other	{{count}} 个检查要处理
+inbox.filterAndSort	筛与排
+inbox.filteredEmpty	没 PR 匹配此筛选。
+inbox.fullPr	完整 PR
+inbox.humanDiscussion	人的对话评论：{{number}}{{suffix}}
+inbox.jumpToChange	跳到更改
+inbox.latestChanges	最新 PR 更改
+inbox.leaveReview	留审查
+inbox.loadMore	载更多
+inbox.memberPosition	{{total}} 中第 {{position}}
+inbox.moreSuggestions	载更多建议
+inbox.myPrs	我的 PR
+inbox.myQueue	我的队列
+inbox.next	下一个给你
+inbox.noDecision	没审查决定
+inbox.noFailedChecks	GitHub 报无失败检查。
+inbox.noFileChanges	此 diff 没文件更改。
+inbox.noReadySuggestions	没建议可供速审。你的审查请求在下方。
+inbox.noSuggestions	现在没建议。
+inbox.notAnalyzed_one	Devin 没分析（{{count}} 个文件）。在完整 PR 查它。
+inbox.notAnalyzed_other	Devin 没分析（{{count}} 个文件）。在完整 PR 查它们。
+inbox.oldestFirst	最旧 PR 优先
+inbox.oneTap	一键
+inbox.openForDiff	这没当前 diff 可用。开完整 PR 看更改。
+inbox.openFullPr	开完整 PR。
+inbox.openPr	开 PR
+inbox.passingHint	跳过失败、待定或缺检查的 PR。
+inbox.pickCount	显 {{total}} 中 {{shown}}
+inbox.prPosition	{{total}} 个 PR 中第 {{position}}
+inbox.previouslyReviewed	我之前在 GitHub 审过的
+inbox.queueCiHint	检查从不移 PR 出你队列。
+inbox.queueEmpty	没拉取请求等你审查。
+inbox.queueIntro	你或你团队被请审查的开放 PR，包括检查失败或堆叠受阻的。
+inbox.queueTitle	待审 PR
+inbox.quickReview	速审
+inbox.quickReviewFor	速审：{{title}}
+inbox.readerMention	{{author}} 提及了你
+inbox.readerReply	{{author}} 回复了你线程
+inbox.recentlyUpdated	最近更新
+inbox.requirePassingCi	要 CI 过
+inbox.requirementsHint	这些选择只影响建议。全部未办请求仍在「我的队列」。
+inbox.rerequestReason	@{{login}} 在你交审查后又要了一次。
+inbox.rerequestSignal	请复审
+inbox.reviewRunning	Devin 正分析这些更改。
+inbox.settings	设置
+inbox.settingsIntro	选建议什么、PR 延后多久、收件箱样子。
+inbox.showCi	每个 PR 显 CI 状态
+inbox.showNewAnalysis	显新分析
+inbox.snooze	延后
+inbox.snoozeFor	延后 {{duration}}
+inbox.snoozeLimit	你有 {{count}} 个活跃延后。返请求回队列或等延后到期。
+inbox.snoozeMenu	每次选时长
+inbox.snoozeModeHint	用一个时长或每次从三个选。
+inbox.snoozeSaveFailed	存不了延后更改。重试。
+inbox.snoozedCount	已载请求中延后（{{number}}）
+inbox.sortBy	排序
+inbox.stackCount	{{total}} 个 PR 中 {{shown}}
+inbox.stackNumber	堆叠 #{{number}}
+inbox.stackPosition	{{total}} 中第 {{position}}，基 PR 优先
+inbox.stacksStart	默认堆叠视图
+inbox.statusFilter	审查状态
+inbox.submitReview	交审查
+inbox.suggestRerequests	建议有人直接请我审的 PR
+inbox.tabsLabel	审查收件箱
+inbox.unitFor	{{label}} 的时间单位
+inbox.unsnooze	返队列
+inbox.viewAllChecks	在 GitHub 看全部检查
+inbox.whenSnoozed	你延后时
+inbox.whyYourTurn	为什么轮到你
+inbox.youAreHere	你在这
+jobError.analysisFailed	分析失败
+jobError.regenerate	重生成
+jobProgress.addReviewMd	在你仓库加个 REVIEW.md，写上仓库专属代码审查指示。
+jobProgress.analysisComplete	分析完
+jobProgress.analysisInProgress	PR 分析中
+jobProgress.bugDetection	Bug 检测
+jobProgress.checkedMergeReadiness	查了可合并性
+jobProgress.checkingMergeReadiness	查可合并性中
+jobProgress.codePatternIssues	分析了代码质量
+jobProgress.codeQuality	代码质量
+jobProgress.consolidatedBugs	合并了 bug
+jobProgress.consolidatingBugs	合并 bug 中
+jobProgress.done	完
+jobProgress.failed	失败
+jobProgress.fetchedPr	取了 PR
+jobProgress.fetchingPr	取 PR 中
+jobProgress.file	文件
+jobProgress.finalizing	收尾中
+jobProgress.findingBadCodePatterns	分析代码质量中
+jobProgress.findingFiles	找文件中
+jobProgress.findingFlags	找旗标中
+jobProgress.findingSecurityIssues	找安全问题中
+jobProgress.findingsToTriage_one	{{count}} 个发现项要你分诊
+jobProgress.findingsToTriage_other	{{count}} 个发现项要你分诊
+jobProgress.foundFiles	找到文件
+jobProgress.foundFlags	找到旗标
+jobProgress.foundSecurityIssues	找到安全问题
+jobProgress.noFindingsToTriage	没要你分诊的
+jobProgress.noReviewMd	找不到 REVIEW.md
+jobProgress.ran	跑了
+jobProgress.ranCustomReviewers	跑了自定义审查者
+jobProgress.read	读了
+jobProgress.readRulesFiles	规则文件
+jobProgress.readRulesFiles_one	{{verb}} {{count}} 个规则文件
+jobProgress.readRulesFiles_other	{{verb}} {{count}} 个规则文件
+jobProgress.reading	读中
+jobProgress.reportedBugs	报了 bug
+jobProgress.reportedFlags	报了旗标
+jobProgress.reportedSecurityIssues	报了安全问题
+jobProgress.reportingBugs	报 bug 中
+jobProgress.reportingFlags	报旗标中
+jobProgress.reportingSecurityIssues	报安全问题中
+jobProgress.reviewMdFile	REVIEW.md
+jobProgress.running	跑中
+jobProgress.runningCmd	跑中
+jobProgress.runningCustomReviewers	跑自定义审查者中
+jobProgress.searchedFor	搜了
+jobProgress.searchingFor	搜中
+jobProgress.securityReview	安全审查
+jobProgress.spinningUpAgent	起 agent 中
+jobProgress.thinking	思考中…
+jobProgress.viewResults	看结果
+landing.askDevin	问 Devin 你 PR 的问题
+landing.askDevinDesc	集成 Devin 智能推理框架，答此 PR 或更大代码库的任何问题。
+landing.bugDetection	漏洞和 bug 检测
+landing.bugDetectionDesc	识出潜在 bug 并旗标值得细审的代码部份。
+landing.bugDetectionPlural	漏洞和 bug 检测
+landing.changesInPr	PR 中更改
+landing.chatAnnotation	和 Devin 聊此 PR
+landing.copyMoveDesc	自动检代码何时被移或复制，并显来源。
+landing.copyMoveDetection	复制/移动检测

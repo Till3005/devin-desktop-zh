@@ -1,0 +1,160 @@
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listSessions.completed	列了会话
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listSessions.failed	列会话失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listSessions.running	列会话中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listShell.completed	列了 shell 会话
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listShell.failed	列 shell 会话失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listShell.running	列 shell 会话中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listWorkflows.completed	列了自动化
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listWorkflows.failed	列自动化失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listWorkflows.running	列自动化中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.manageDynamic.completed	管了工作流
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.manageDynamic.failed	管工作流失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.manageDynamic.running	管工作流中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.memory.completed	存了记忆
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.memory.failed	存记忆失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.memory.running	存记忆中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.navigate.completed	已导航
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.navigate.failed	导航失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.navigate.running	导航中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.openIssue.completed	开了议题会话
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.openIssue.failed	开议题会话失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.openIssue.running	开议题会话中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.openPr.completed	开了 PR 会话
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.openPr.failed	开 PR 会话失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.openPr.running	开 PR 会话中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.patch.completed	应用了补丁
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.patch.failed	应用补丁失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.patch.running	应用补丁中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.permission.editFile	编辑 {0}
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.plan.completed	完了计划
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.plan.failed	完计划失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.plan.running	完计划中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.prComment.completed	加了 PR 审查评论
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.prComment.failed	加 PR 审查评论失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.prComment.running	加 PR 审查评论中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.priorities.completed	审了优先级
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.priorities.failed	审优先级失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.priorities.running	审优先级中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.priority.completed	读了优先级
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.priority.failed	读优先级失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.priority.running	读优先级中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.profile.completed	更了档案
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.profile.failed	更档案失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.profile.running	更档案中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.read.completed	已读
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.read.failed	读失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.read.running	读中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.readAgent.completed	读了 agent 活动
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.readAgent.failed	读 agent 活动失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.readAgent.running	读 agent 活动中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.readShell.completed	读了 shell 输出
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.readShell.failed	读 shell 输出失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.readShell.running	读 shell 输出中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.removeComment.completed	移了 PR 审查评论
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.removeComment.failed	移 PR 审查评论失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.removeComment.running	移 PR 审查评论中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renameBranch.completed	改了分支名
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renameBranch.failed	改分支名失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renameBranch.running	改分支名中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renameSession.completed	改了会话名
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renameSession.failed	改会话名失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renameSession.running	改会话名中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renameWorkspace.completed	改了会话名
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renameWorkspace.failed	改会话名失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renameWorkspace.running	改会话名中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renderInbox.completed	渲染了收件箱
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renderInbox.failed	渲染收件箱失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renderInbox.running	渲染收件箱中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renderWidget.completed	渲染了小部件
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renderWidget.failed	渲染小部件失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.renderWidget.running	渲染小部件中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.reorderPriorities.completed	重排了优先级
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.reorderPriorities.failed	重排优先级失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.reorderPriorities.running	重排优先级中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.resolveThread.completed	回复并解决了审查线程
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.resolveThread.failed	解决审查线程失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.resolveThread.running	回复并解决审查线程中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.respondPlan.completed	回了计划
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.respondPlan.failed	回计划失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.respondPlan.running	回计划中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.runDynamic.completed	跑了工作流
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.runDynamic.failed	工作流失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.runDynamic.running	跑工作流中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.runScheduled.completed	起了定时任务
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.runScheduled.failed	起定时任务失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.runScheduled.running	起定时任务中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.runWorkflow.completed	跑了自动化
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.runWorkflow.failed	跑自动化失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.runWorkflow.running	跑自动化中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.savePriority.completed	更了优先级
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.savePriority.failed	更优先级失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.savePriority.running	更优先级中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.saveSchedule.completed	存了计划
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.saveSchedule.failed	存计划失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.saveSchedule.running	存计划中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.saveScheduled.completed	更了定时任务
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.saveScheduled.failed	更定时任务失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.saveScheduled.running	更定时任务中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.saveWorkflow.completed	存了自动化
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.saveWorkflow.failed	存自动化失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.saveWorkflow.running	存自动化中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.schedules.completed	审了定时任务
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.schedules.failed	审定时任务失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.schedules.running	审定时任务中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.search.completed	搜了
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.search.failed	搜索失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.search.running	搜中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.sendSession.completed	发了会话消息
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.sendSession.failed	发会话消息失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.sendSession.running	发会话消息中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.sessionStatus.completed	查了会话状态
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.sessionStatus.failed	查会话状态失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.sessionStatus.running	查会话状态中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.shell.completed	跑了命令
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.shell.failed	命令失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.shell.running	跑命令中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.showFile.completed	显了文件
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.showFile.failed	显文件失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.showFile.running	显文件中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.skill.completed	读了技能
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.skill.failed	读技能失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.skill.running	读技能中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.sql.completed	跑了 SQL
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.sql.failed	SQL 失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.sql.running	跑 SQL 中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.stopShell.completed	停了 shell
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.stopShell.failed	停 shell 失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.stopShell.running	停 shell 中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.suggest.completed	建议了条目
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.suggest.failed	建议条目失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.suggest.running	建议条目中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.task.completed	委派了任务
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.task.failed	任务失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.task.running	委派任务中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.taskComplete.completed	任务完
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.taskComplete.failed	标任务完失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.taskComplete.running	标任务完中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.todo.completed	更了待办列表
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.todo.failed	更待办列表失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.todo.running	更待办列表中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.tool.subject	{0} {1}
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.toolSearch.completed	搜了工具
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.toolSearch.failed	搜工具失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.toolSearch.running	搜工具中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.transcript.completed	读了会话转录
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.transcript.failed	读会话转录失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.transcript.running	读会话转录中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.webFetch.completed	取了网页
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.webFetch.failed	取网页失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.webFetch.running	取网页中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.webSearch.completed	搜了网页
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.webSearch.failed	网页搜索失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.webSearch.running	搜网页中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.widgets.completed	发现了小部件
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.widgets.failed	发现小部件失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.widgets.running	发现小部件中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.write.completed	建了文件
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.write.failed	建文件失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.write.running	建文件中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.writeAgent.completed	发了消息给 agent
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.writeAgent.failed	发消息给 agent 失败

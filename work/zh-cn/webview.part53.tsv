@@ -1,0 +1,281 @@
+notificationInbox.server.sessionFinished.body	完成工作
+notificationInbox.server.sessionFinished.bodyWithPullRequest	PR 待审查。
+notificationInbox.server.sessionFinished.openSession	打开会话
+notificationInbox.server.sessionFinished.outcome.pr_merged	PR 已合并
+notificationInbox.server.sessionFinished.settings.description	你发起的一个会话完成工作。
+notificationInbox.server.sessionFinished.settings.name	会话已完成
+notificationInbox.server.sessionFinished.untitledSession	你的会话
+notificationInbox.server.sessionFinished.viewPullRequest	查看 PR
+notificationInbox.server.sessionNeedsAttention.approvalRequired	需要批准
+notificationInbox.server.sessionNeedsAttention.approveWorkflow	批准工作流
+notificationInbox.server.sessionNeedsAttention.networkAccessRequested	申请网络访问
+notificationInbox.server.sessionNeedsAttention.openSession	打开会话
+notificationInbox.server.sessionNeedsAttention.outcome.resolved	已答复
+notificationInbox.server.sessionNeedsAttention.settings.description	Devin 在等你的输入或批准。
+notificationInbox.server.sessionNeedsAttention.settings.name	会话需要你处理
+notificationInbox.server.sessionNeedsAttention.untitledSession	你的会话
+notificationInbox.server.sessionNeedsAttention.waitingForInput	Devin 在等你的输入
+notificationInbox.server.sessionNeedsAttention.waitingForResponse	等待回复
+notificationInbox.server.sessionSharedWithYou.body	{{name}} 与你分享了一个会话
+notificationInbox.server.sessionSharedWithYou.settings.description	有人与你分享了一个会话。
+notificationInbox.server.sessionSharedWithYou.settings.name	与你分享的会话
+notificationInbox.server.sessionSharedWithYou.title	与你分享的会话
+notificationInbox.server.sessionsRestartable.body	你的 {{count}} 个会话曾被用量上限停止，该上限已提高。
+notificationInbox.server.sessionsRestartable.bodyOne	你的一个会话曾被用量上限停止，该上限已提高。
+notificationInbox.server.sessionsRestartable.bodyResumed	被你用量上限停止的会话已恢复。
+notificationInbox.server.sessionsRestartable.bodyUnavailable	被你用量上限停止的会话已不能恢复。
+notificationInbox.server.sessionsRestartable.outcome.resumed	已恢复
+notificationInbox.server.sessionsRestartable.reviewAndResume	审查并恢复
+notificationInbox.server.sessionsRestartable.settings.description	被用量上限停止的会话可以恢复。
+notificationInbox.server.sessionsRestartable.settings.name	已停止会话可重启
+notificationInbox.server.sessionsRestartable.title	已停止会话可重启
+notificationInbox.server.settingsGroups.automations.description	失败的运行、断开的集成和被禁的 webhook。
+notificationInbox.server.settingsGroups.automations.name	自动化与集成
+notificationInbox.server.settingsGroups.billing.description	用量上限、预算和合同日期。
+notificationInbox.server.settingsGroups.billing.name	用量与计费
+notificationInbox.server.settingsGroups.requests.description	等你的申请，以及你自己申请的答复。
+notificationInbox.server.settingsGroups.requests.name	申请与批准
+notificationInbox.server.settingsGroups.reviews.description	审查申请、你 PR 上的活动和 Devin Review 结果。
+notificationInbox.server.settingsGroups.reviews.name	PR 与审查
+notificationInbox.server.settingsGroups.security.description	你组织安全设置的变化。
+notificationInbox.server.settingsGroups.security.name	安全
+notificationInbox.server.settingsGroups.sessions.description	需要你、已完成或可重启的会话。
+notificationInbox.server.settingsGroups.sessions.name	我的会话
+notificationInbox.server.teamsConnectionNeedsAttention.action	打开设置
+notificationInbox.server.teamsConnectionNeedsAttention.body.automation_channel_lost	一个 Microsoft Teams 自动化停止从频道收消息。Devin AI 可能已被移出团队、频道可能已删除，或 Teams 管理员吊销了 Devin 的频道权限。把 Devin AI 加回团队，或更新自动化。
+notificationInbox.server.teamsConnectionNeedsAttention.body.bot_blocked	Devin 无法在 Microsoft Teams 回复或发帖，因为 Teams 管理员封锁了 Devin AI app。请让 Teams 管理员在 Teams 管理中心（Teams apps > Manage apps）允许 Devin AI app。
+notificationInbox.server.teamsConnectionNeedsAttention.outcome.resolved	已解决
+notificationInbox.server.teamsConnectionNeedsAttention.settings.description	有什么在挡 Devin 用 Microsoft Teams。
+notificationInbox.server.teamsConnectionNeedsAttention.settings.name	Microsoft Teams 需要你处理
+notificationInbox.server.teamsConnectionNeedsAttention.title	Microsoft Teams 连接需要你处理
+notificationInbox.server.usageLimitReached.body	因达到用量上限，{{count}} 个会话已停止。
+notificationInbox.server.usageLimitReached.bodyOne	因达到用量上限，1 个会话已停止。
+notificationInbox.server.usageLimitReached.outcome.limit_raised	上限已提高
+notificationInbox.server.usageLimitReached.requestMore	申请更多
+notificationInbox.server.usageLimitReached.requestPending	申请待处理
+notificationInbox.server.usageLimitReached.settings.description	你的会话因达到用量上限而停止。
+notificationInbox.server.usageLimitReached.settings.name	已达用量上限
+notificationInbox.server.usageLimitReached.title	超出你的用量上限
+notificationInbox.server.usageRequestResolved.body.approved	你的 {{amount}} ACU 申请已批准
+notificationInbox.server.usageRequestResolved.body.approvedDollars	你的 ${{amount}} 申请已批准
+notificationInbox.server.usageRequestResolved.body.approvedReviewed	{{reviewer}} 批准了你的 {{amount}} ACU 申请
+notificationInbox.server.usageRequestResolved.body.approvedReviewedDollars	{{reviewer}} 批准了你的 ${{amount}} 申请
+notificationInbox.server.usageRequestResolved.body.denied	你的 {{amount}} ACU 申请已拒绝
+notificationInbox.server.usageRequestResolved.body.deniedDollars	你的 ${{amount}} 申请已拒绝
+notificationInbox.server.usageRequestResolved.body.deniedReviewed	{{reviewer}} 拒绝了你的 {{amount}} ACU 申请
+notificationInbox.server.usageRequestResolved.body.deniedReviewedDollars	{{reviewer}} 拒绝了你的 ${{amount}} 申请
+notificationInbox.server.usageRequestResolved.body.expired	你的 {{amount}} ACU 申请随其计费周期过期
+notificationInbox.server.usageRequestResolved.body.expiredDollars	你的 ${{amount}} 申请随其计费周期过期
+notificationInbox.server.usageRequestResolved.restartSessions	重启会话
+notificationInbox.server.usageRequestResolved.settings.description	你提高用量上限的申请已被批准或拒绝。
+notificationInbox.server.usageRequestResolved.settings.name	你的用量申请已有答复
+notificationInbox.server.usageRequestResolved.title.approved	你的用量申请已批准
+notificationInbox.server.usageRequestResolved.title.denied	你的用量申请已拒绝
+notificationInbox.server.usageRequestResolved.title.expired	你的用量申请已过期
+notificationInbox.server.usageRequestSubmitted.actions.approve	批准
+notificationInbox.server.usageRequestSubmitted.actions.deny	拒绝
+notificationInbox.server.usageRequestSubmitted.body	{{name}} 申请提高用量上限
+notificationInbox.server.usageRequestSubmitted.bodyBlockedLimit	{{name}} 已达用量上限，无法开始新工作；对方申请 {{limit}} ACU 上限
+notificationInbox.server.usageRequestSubmitted.bodyBlockedLimitDollars	{{name}} 已达用量上限，无法开始新工作；对方申请 ${{limit}} 上限
+notificationInbox.server.usageRequestSubmitted.bodyLimit	{{name}} 申请了 {{limit}} ACU 用量上限
+notificationInbox.server.usageRequestSubmitted.bodyLimitDollars	{{name}} 申请了 ${{limit}} 用量上限
+notificationInbox.server.usageRequestSubmitted.outcome.approved	已批准
+notificationInbox.server.usageRequestSubmitted.outcome.canceled	已取消
+notificationInbox.server.usageRequestSubmitted.outcome.denied	已拒绝
+notificationInbox.server.usageRequestSubmitted.outcome.expired	已过期
+notificationInbox.server.usageRequestSubmitted.settings.description	有人申请提高用量上限且你能批准。
+notificationInbox.server.usageRequestSubmitted.settings.name	待批准的用量申请
+notificationInbox.server.usageRequestSubmitted.title	 需要提高用量上限
+notificationInbox.showDetails	显示详情
+notificationInbox.showDummyData	显示示例数据
+notificationInbox.tabs.all	全部
+notificationInbox.tabs.unread	未读
+notificationInbox.title	通知
+notificationInbox.turnOffType	关闭{{type}}通知
+notificationInbox.turnedOffType	已关闭{{type}}通知
+notificationInbox.types.access	访问
+notificationInbox.types.automation	自动化
+notificationInbox.types.billing	计费
+notificationInbox.types.session	会话
+notificationInbox.types.system	系统
+notificationInbox.unpinSidebar	取消置顶
+notificationInbox.unread	未读
+notificationInbox.unreadEmpty.description	全部处理完了。
+notificationInbox.unreadEmpty.title	没有未读通知
+notificationPreferences.description	选择哪些通知进收件箱、其中哪些再推送到你的设备。
+notificationPreferences.desktop	桌面端
+notificationPreferences.desktopPushFor	把「{{name}}」推送到桌面
+notificationPreferences.empty	还没有可配置的通知。
+notificationPreferences.hideTypes	隐藏「{{name}}」中的通知
+notificationPreferences.loadError	通知设置加载失败。
+notificationPreferences.lockedOn	此通知始终开启，不能关闭。
+notificationPreferences.mobile	移动端
+notificationPreferences.mobilePushFor	把「{{name}}」推送到手机
+notificationPreferences.noMobileDevice	手机推送需要 Devin 手机应用，且登录并允许通知。
+notificationPreferences.openSystemNotifications	在偏好设置中开启
+notificationPreferences.showTypes	显示「{{name}}」中的通知
+notificationPreferences.someOn	部分开启
+notificationPreferences.systemNotificationsOff	此处系统通知已关，桌面推送到不了此设备。
+notificationPreferences.title	通知
+notifications.bitbucketConnected	Bitbucket 连接成功
+notifications.devinSharedPlan	Devin 分享了一个方案。
+notifications.githubConnected	GitHub 连接成功
+notifications.gitlabConnected	GitLab 连接成功
+notifications.openDesktopManually	手动打开 {{desktopName}}
+notifications.redirectingToDesktop	正在把你重定向到 {{desktopName}}
+oauthCallback.signInDenied	登录被拒。请重试或联系管理员。
+oauthCallback.signInFailedWithError	登录失败（{{error}}）。请重试。
+oauthCallback.tryAgain	重试
+omni.tagSelector.tagRequired	标签为必填项
+omniTools.acrossValue	覆盖 <value>{{value}}</value>
+omniTools.allRepos	全部仓库
+omniTools.atValue	在 <value>{{value}}</value>
+omniTools.attributedEditsFor	<prefix>已归因编辑</prefix><file>{{file}}</file>
+omniTools.attributingEditsFor	<prefix>正在归因编辑</prefix><file>{{file}}</file>
+omniTools.checkedCommitHistory	已查提交历史
+omniTools.checkingCommitHistory	正在查提交历史
+omniTools.fetchedPrEvents	已取 PR 事件
+omniTools.fetchingPrEvents	正在取 PR 事件
+omniTools.findingFiles	正在找文件
+omniTools.forFile	<prefix>于</prefix><file>{{file}}</file>
+omniTools.foundFiles	已找到文件
+omniTools.grepped	已 grep
+omniTools.grepping	正在 grep
+omniTools.inRepo	<prefix>在</prefix><repo>{{repo}}</repo>
+omniTools.inValue	在 <value>{{value}}</value>
+omniTools.listed	已列出
+omniTools.listing	正在列出
+omniTools.lookedUpCommit	已查提交
+omniTools.lookingUpCommit	正在查提交
+omniTools.manyRepos	多个仓库
+omniTools.read	已读
+omniTools.readWiki	已读 wiki
+omniTools.reading	正在读
+omniTools.readingWiki	正在读 wiki
+omniTools.repoCount_one	{{count}} 个仓库
+omniTools.repoCount_other	{{count}} 个仓库
+omniTools.searched	已搜索
+omniTools.searching	正在搜索
+omniTools.thinking	思考中
+omniTools.used	已用 {{tool}}
+omniTools.using	正在用 {{tool}}
+onboarding.addCustomMcpTool	把「{{name}}」加为自定义工具
+onboarding.allowDataRetention	允许模型提供商安全数据保留
+onboarding.allowDataRetentionDescription	模型提供商可能为自动危害检测存数据至多 30 天，绝不用于训练。
+onboarding.askAboutCodebase	问 Devin 你的代码库
+onboarding.assignWorkToDevinInSlack	在 Slack 中给 <devin>@Devin</devin> 派活
+onboarding.attributionCoworker	同事
+onboarding.attributionDeepWiki	DeepWiki
+onboarding.attributionFriend	朋友
+onboarding.attributionGoogle	Google
+onboarding.attributionLinkedin	LinkedIn
+onboarding.attributionOther	其他
+onboarding.attributionSweModels	SWE 模型
+onboarding.attributionTwitter	Twitter
+onboarding.attributionYoutube	YouTube
+onboarding.autoFixFindingsDescription	让处理 PR 的 Devin 会话自动修复已确认的审查发现。
+onboarding.autoFixRecommended	推荐
+onboarding.autoTriageCreateFailed	创建自动分诊自动化失败
+onboarding.autoTriageCreated	自动分诊自动化已创建
+onboarding.back	返回
+onboarding.cancel	取消
+onboarding.clearSearch	清除搜索
+onboarding.completedChecklistItem	已完成清单项
+onboarding.connect	连接
+onboarding.connectIntegration	连接一个集成
+onboarding.connectJiraDescription	连接你组织的 Jira 站点
+onboarding.connectLinearDescription	连接你组织的工作区
+onboarding.connectReturnToast	连接未完成。请重试。
+onboarding.connectSlackWorkspaceDescription	连接你团队的工作区
+onboarding.connectTeamsDescription	连接你的 Microsoft Teams 工作区
+onboarding.connectToGit	连接到 Git
+onboarding.connected	已连接
+onboarding.continue	继续
+onboarding.copy	复制
+onboarding.couldNotJoinChannel	Devin 无法加入频道。<reconnectButton>重连 Slack</reconnectButton> 授予加入频道的权限。
+onboarding.countOfTotal	{{total}} 中第 {{count}}
+onboarding.createOrgFailed	无法创建组织。请重试。
+onboarding.createOrgSetupFailed	组织已创建，但部分设置步骤失败。可在「设置」中完成。
+onboarding.createPlaybook	创建 playbook
+onboarding.createSchedule	创建计划任务
+onboarding.customMcpTool	自定义
+onboarding.deepWikiIndexFailed	开启 DeepWiki 失败。请重试。
+onboarding.defaultMode	默认模式
+onboarding.devinCapabilities	Devin 能力
+onboarding.devinCapabilitiesDescription	Fusion、Ultra、Normal、Lite 和 Fast
+onboarding.devinHelpsPickUpTasks	<devin>Devin</devin> 在 Slack 中帮你接任务
+onboarding.devinWillJoin	Devin 将加入 {{channel}}
+onboarding.dismiss	忽略
+onboarding.dismissChecklist	忽略清单
+onboarding.dismissChecklistTitle	忽略清单？
+onboarding.dismissDescription	这会隐藏引导清单。可从账户设置找回。
+onboarding.earnAcus_one	赚 {{count}} ACU
+onboarding.earnAcus_other	赚 {{count}} ACU
+onboarding.earnDollars	赚 ${{amount}}
+onboarding.earnedAcus_one	已赚 {{count}} ACU
+onboarding.earnedAcus_other	已赚 {{count}} ACU
+onboarding.earnedDollars	已赚 ${{amount}}
+onboarding.emailAddresses	邮箱地址
+onboarding.enterAtLeastOneEmail	至少输入一个邮箱地址
+onboarding.expandDevinCapabilities	显示能力
+onboarding.exploreAdvanced	探索高级能力
+onboarding.failedStartMcpSetupSession	启动 MCP 设置会话失败。
+onboarding.failedStartRepoSetupSession	启动仓库设置会话失败。
+onboarding.fetchReposFailed	从你的 git 连接取仓库失败。
+onboarding.freeCredits	免费点数
+onboarding.freeCreditsDescription	已加到你团队。可用于 PR、bug 修复、重构、迁移——交付所需一切。
+onboarding.getStarted	开始
+onboarding.goToDevin	前往 Devin
+onboarding.grantReposFailed	无法授予所选仓库。请重试。
+onboarding.inChannel	在频道
+onboarding.inDevinCredits	以 Devin 点数
+onboarding.inMatchingGrants	以配比赠金
+onboarding.inProject	在项目
+onboarding.inTeam	在团队
+onboarding.incompleteChecklistItem	未完成清单项
+onboarding.indexing	索引中
+onboarding.invalidEmail	{{email}} 不是有效邮箱地址
+onboarding.inviteAutoReload.action	保存并发出邀请
+onboarding.inviteAutoReload.capMin	每月上限至少为 {{amount}}
+onboarding.inviteAutoReload.checkFailed	无法检查你的计费设置。请重试。
+onboarding.inviteAutoReload.description	自动充值在余额低时补足点数。
+onboarding.inviteAutoReload.paymentLinkFailed	无法打开支付设置。请重试。
+onboarding.inviteAutoReload.requiresActiveSubscription	恢复你的 Teams 订阅以设置自动充值并发邀请。
+onboarding.inviteAutoReload.requiresBillingAdmin	发邀请前请让计费管理员开启自动充值。
+onboarding.inviteAutoReload.retry	重试
+onboarding.inviteAutoReload.saveFailed	无法保存自动充值设置。请重试。
+onboarding.inviteAutoReload.title	为你的团队设置自动充值
+onboarding.inviteEmailsPlaceholder	alex@example.com, sam@example.com
+onboarding.inviteTeamOverflowCount	+{{count}}
+onboarding.invitedTeamMembers_one	已邀 {{count}} 名团队成员
+onboarding.invitedTeamMembers_other	已邀 {{count}} 名团队成员
+onboarding.jiraMonitor	Jira 监听
+onboarding.joined	已加入
+onboarding.labeled	带标签
+onboarding.linearMonitor	Linear 监听
+onboarding.link	关联
+onboarding.linkJiraUserDescription	允许 Devin 在 Jira 中以你行事
+onboarding.linkLinearUserDescription	允许 Devin 在 Linear 中以你行事
+onboarding.linkSlackUserDescription	允许 Devin 在 Slack 中私信你
+onboarding.linkTeamsUserDescription	允许 Devin 在 Microsoft Teams 中私信你
+onboarding.makeFirstSession	开你的第一个会话
+onboarding.manageIndexedInWiki	已索引仓库可从其 wiki 管理。
+onboarding.matchDescription	你每充一元我们配一元——在你接下来 {{totalUsage}} 用量内最多配 {{matchCap}} 赠金。你花 {{matchCap}}，得 {{totalUsage}}。
+onboarding.mcpCategoryAll	全部
+onboarding.mcpCategoryOther	其他
+onboarding.mcpCategorySuggested	建议
+onboarding.mcpStatusAuthExpired	认证过期
+onboarding.mcpStatusDisabled	已禁用
+onboarding.mcpStatusSetupIncomplete	设置未完成
+onboarding.messageForAdmin	给管理员留言
+onboarding.monthlyAcuLimit	每月 ACU 上限
+onboarding.monthlyAcuLimitHint	此组织每月最多 ACU
+onboarding.monthlySpendLimit	每月花费上限
+onboarding.monthlySpendLimitHint	此组织每月最多花费
+onboarding.moreInvitees	+{{count}} 更多
+onboarding.noMcpServersFound	未找到 MCP 服务器。
+onboarding.noReposConnectOrg	未找到仓库。连接一个 git 组织以设置仓库。
+onboarding.noReposGrant	未找到仓库。连接一个 git 组织以授予仓库。
+onboarding.noReposGranted	还没有仓库授予此组织。企业管理员可在 <settingsLink>企业设置 > 仓库</settingsLink> 中授予。
+onboarding.noRepositoriesFound	未找到仓库
+onboarding.noTeammatesFound	未找到队友

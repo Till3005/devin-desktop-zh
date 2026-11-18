@@ -1,0 +1,323 @@
+pagerduty.appRegistrationMissing	还没有 app 注册——成员无法关联他们的 PagerDuty 账户
+pagerduty.appRegistrationRedirectUri	重定向 URI
+pagerduty.appRegistrationRemoveDescription	加新 app 注册后，成员得重新关联他们的 PagerDuty 账户
+pagerduty.appRegistrationRemoveFailed	移除 PagerDuty app 注册失败
+pagerduty.appRegistrationRemoveTitle	移除 app 注册？
+pagerduty.appRegistrationRemoved	PagerDuty app 注册已移除
+pagerduty.appRegistrationSaveFailed	保存 PagerDuty app 注册失败
+pagerduty.appRegistrationSaved	PagerDuty app 注册已保存
+pagerduty.appRegistrationScopeHelp	空格分隔的 scope；必须与 PagerDuty app 上启用的 scope 一致。留空用 app 自己的权限
+pagerduty.appRegistrationScopeLabel	scope
+pagerduty.appRegistrationSubtitle	在 PagerDuty 把 Devin 注册为 OAuth app。
+pagerduty.appRegistrationSwitchFailed	切换 PagerDuty MCP 服务器失败
+pagerduty.appRegistrationSwitched	PagerDuty MCP 服务器现在用该 app 注册
+pagerduty.appRegistrationTitle	app 注册
+pagerduty.appRegistrationUseForInstallations	用 app 注册
+pagerduty.cancel	取消
+pagerduty.connect	连接
+pagerduty.connectDialogDescription	key 需要完全访问权限；不接受用户 API token
+pagerduty.connectDialogLinkLabel	打开 PagerDuty API 访问 key
+pagerduty.connectDialogTitle	连接 PagerDuty
+pagerduty.connectDialogValidation.actorEmailInvalid	请输入有效邮箱地址
+pagerduty.connectDialogValidation.actorEmailRequired	执行者邮箱为必填项
+pagerduty.connectDialogValidation.apiKeyRequired	API key 为必填项
+pagerduty.connectedAt	连接于 {{date}}
+pagerduty.copyUrl	复制 URL
+pagerduty.copyWebhookUrl	复制 webhook URL
+pagerduty.copyWebhookUrlFailed	复制 webhook URL 失败
+pagerduty.createWebhook	创建 webhook 订阅
+pagerduty.disconnect	断开
+pagerduty.disconnectDescription	Devin 将停止收 PagerDuty 事件，并移除它创建的 webhook 订阅。市场来的 MCP 安装不受影响
+pagerduty.disconnectTitle	断开 PagerDuty？
+pagerduty.keyInvalid	存着的 API key 已失效。用新 key 重连。
+pagerduty.keyInvalidWithReason	存着的 API key 已失效（{{error}}）。用新 key 重连。
+pagerduty.linkAppRegistrationMissingToast	此组织的 PagerDuty 没设置全。请管理员在「连接」中加 PagerDuty app 注册。
+pagerduty.manualStep1	在 PagerDuty 到 Integrations > Generic webhooks (v3)，加一个指向上方 URL、account scope 的 webhook
+pagerduty.manualStep2	选你想让 Devin 收的事件类型
+pagerduty.manualStep3	复制 PagerDuty 只显示一次的签名密钥，粘到下方
+pagerduty.manualTitle	添加 webhook
+pagerduty.moreOptionsHint	显示前 {{count}} 个。输入以搜更多。
+pagerduty.options.escalationPolicy.noneFound	没有升级策略选项
+pagerduty.options.escalationPolicy.search	搜索升级策略…
+pagerduty.options.escalationPolicy.select	选择升级策略
+pagerduty.options.priority.connectToSelect	连接 PagerDuty 以选择优先级
+pagerduty.options.priority.loading	正在加载优先级选项…
+pagerduty.options.priority.noneFound	没有优先级选项
+pagerduty.options.priority.search	搜索优先级…
+pagerduty.options.priority.select	选择优先级
+pagerduty.options.service.connectToSelect	连接 PagerDuty 以选择服务
+pagerduty.options.service.loading	正在加载服务选项…
+pagerduty.options.service.noneFound	没有服务选项
+pagerduty.options.service.search	搜索服务…
+pagerduty.options.service.select	选择服务
+pagerduty.options.team.connectToSelect	连接 PagerDuty 以选择团队
+pagerduty.options.team.loading	正在加载团队选项…
+pagerduty.options.team.noneFound	没有团队选项
+pagerduty.options.team.search	搜索团队…
+pagerduty.options.team.select	选择团队
+pagerduty.pageDescription	连接 PagerDuty 以从事件触发自动化，并让 Devin 用事件备注回复。
+pagerduty.providerLabel	PagerDuty
+pagerduty.reconnectWithNewKey	用新 key 重连
+pagerduty.regionEu	EU（api.eu.pagerduty.com）
+pagerduty.regionLabel	API 区域
+pagerduty.regionUs	US（api.pagerduty.com）
+pagerduty.remove	移除
+pagerduty.removeSubscriptionDescriptionManaged	webhook 订阅也会在 PagerDuty 中删除。建新订阅前 Devin 停止收事件。
+pagerduty.removeSubscriptionDescriptionManual	已存的签名密钥被移除。如不再需要，也请删掉 PagerDuty 里的 webhook。
+pagerduty.removeSubscriptionTitle	移除 webhook 订阅？
+pagerduty.retryWebhookSetup	重试 webhook 设置
+pagerduty.save	保存
+pagerduty.setUpManually	添加 webhook
+pagerduty.signingSecretLabel	webhook 签名密钥
+pagerduty.signingSecretRequired	webhook 签名密钥为必填项
+pagerduty.statusLoadFailedBody	无法加载 PagerDuty 连接状态。
+pagerduty.statusLoadFailedTitle	出错了
+pagerduty.subscriptionActive	活跃
+pagerduty.subscriptionCreatedAt	创建于 {{date}}
+pagerduty.subscriptionIdLabel	订阅 ID
+pagerduty.subscriptionInactive	不活跃
+pagerduty.subscriptionManaged	由 Devin 自动创建
+pagerduty.subscriptionManual	手动
+pagerduty.subscriptionMissingRemote	在 PagerDuty 中找不到
+pagerduty.toastConnectFailed	连接 PagerDuty 失败
+pagerduty.toastConnected	PagerDuty 已连接
+pagerduty.toastDisconnectFailed	断开 PagerDuty 失败
+pagerduty.toastDisconnected	PagerDuty 已断开
+pagerduty.toastIncompatibleKey	不支持此 key。请用 General Access REST API key。
+pagerduty.toastInvalidKey	PagerDuty 拒绝了此 API key
+pagerduty.toastSigningSecretFailed	保存签名密钥失败
+pagerduty.toastSigningSecretSaved	签名密钥已保存
+pagerduty.toastUnreachable	连不上 PagerDuty。请重试。
+pagerduty.toastWebhookCreateFailed	创建 webhook 订阅失败
+pagerduty.toastWebhookCreated	webhook 订阅已创建
+pagerduty.toastWebhookRemoveFailed	移除 webhook 订阅失败
+pagerduty.toastWebhookRemoved	webhook 订阅已移除
+pagerduty.tryAgain	重试
+pagerduty.userLinkRowNotMember	此账户属于 {{subdomain}} PagerDuty 账户，不是连到此组织的那个。从已连的 PagerDuty 账户里关联一个，才能用 PagerDuty 自动化。
+pagerduty.userLinkRowNotMemberUnknown	此账户不是连到此组织的 PagerDuty 账户的成员。从已连的 PagerDuty 账户里关联一个，才能用 PagerDuty 自动化。
+pagerduty.userLinkUnlinkFailed	取消关联你的 PagerDuty 账户失败
+pagerduty.webhookEndpointTitle	webhook 端点
+pagerduty.webhookMissing	没有活跃的 webhook 订阅。Devin 没在收 PagerDuty 事件。
+pagerduty.webhookSetupFailed	自动 webhook 设置失败：{{error}}。重试，或手动设置。
+pagerduty.webhookSubtitle	PagerDuty 通过 webhook 订阅把事件发给 Devin
+pagerduty.webhookTitle	Webhook
+parenthetical.default	（默认）
+parenthetical.mcp	{{name}}（MCP）
+parenthetical.unavailable	{{name}}（不可用）
+parenthetical.unnamed	（未命名）
+pastConversations.archive	归档对话
+pastConversations.noneFound	没有对话
+pastConversations.rename	重命名对话
+pastConversations.search	搜索
+pastConversations.unarchive	取消归档对话
+patInventory.columns.created	创建时间
+patInventory.columns.expires	过期时间
+patInventory.columns.name	名称
+patInventory.columns.owner	所有者
+patInventory.columns.status	状态
+patInventory.empty	没有凭据。
+patInventory.filterByStatus	按状态筛选个人访问令牌
+patInventory.never	从不
+patInventory.revoke	吊销
+patInventory.revokeDescription	此令牌立即失效。此操作不可撤销。
+patInventory.revokeTitle	吊销「{{name}}」？
+patInventory.revokeToken	吊销令牌
+patInventory.searchPlaceholder	按名称或所有者搜
+patInventory.status.active	活跃
+patInventory.status.all	全部
+patInventory.status.expired	已过期
+patInventory.status.revoked	已吊销
+persona.adaPlaceholder	问 Devin 你的代码库…
+persona.danaPlaceholder	让 Dana 分析你的数据、生成洞察或做报告…
+persona.dataCatalogSubtitle	探索并编目你的数据库
+persona.dataCatalogTitle	数据目录发现
+persona.devinPlaceholder	让 {{name}} 做功能、修 bug 或改你的代码
+persona.janeWongPlaceholder	把要 scoop 的应用指给 Jane Wong Devin…
+persona.productAdoptionSubtitle	跟踪功能用量随时间变化
+persona.productAdoptionTitle	产品采用趋势
+persona.readyToScoop	准备 scoop
+persona.revenuePulseSubtitle	季度业绩洞察
+persona.revenuePulseTitle	收入脉搏
+persona.scoopSubtitle	hi - @jhanikhil
+persona.scoopTitle	Scoop Silicon Valley
+persona.suggestedExplorations	建议探索
+personalQuotaAnalytics.currentCycle	当前周期
+personalQuotaAnalytics.cycleTotal	周期合计
+personalQuotaAnalytics.inProgress	进行中
+personalQuotaAnalytics.loadError	无法加载你的个人分析。
+personalQuotaAnalytics.noOnDemandUsage	此期间无按需用量。
+personalQuotaAnalytics.noQuotaSeat	你没被分配额席位。
+personalQuotaAnalytics.noWeeklyUsage	此期间无配额用量。
+personalQuotaAnalytics.onDemandDescription	你自己在 Devin Cloud、Desktop 和 CLI 上的按需花费。
+personalQuotaAnalytics.onDemandSpend	按需花费
+personalQuotaAnalytics.previousCycle	上一周期
+personalQuotaAnalytics.quotaDescription	你的完整席位所含每周配额的使用量
+personalQuotaAnalytics.retry	重试
+personalQuotaAnalytics.selectCycle	选择计费周期
+personalQuotaAnalytics.unavailable	你的方案还没有个人分析。
+personalQuotaAnalytics.weeklyAverageUtilization	周平均利用率
+personalQuotaAnalytics.weeklyQuota	已用每周配额
+personalQuotaAnalytics.weeklyTooltip	已用每周配额的 {{percent}}%
+platformBadge.runsOn	此会话跑在 {{label}}
+playbookSelect.favorites	收藏
+playbookSelect.loadingPlaybooks	正在加载 playbook…
+playbookSelect.noPlaybook	无 playbook
+playbookSelect.noPlaybooksFound	未找到 playbook。
+playbookSelect.searchPlaybooks	搜索 playbook…
+playbookSelect.selectPlaybook	选择一个 playbook
+playbooks.author	作者
+playbooks.communityAuthor	Cognition 团队
+playbooks.migration.checkmarxMarketplace	Checkmarx SAST Resolution 市场插件提供此 playbook 对应的技能。
+playbooks.migration.listEmptyTitle	没有 playbook
+playbooks.migration.listMovedDescription	技能是 playbook 的新家。打开下方一个 playbook 看它变成什么并前往它的技能，或在「自定义」中查看管理你的技能。
+playbooks.migration.listMovedTitle	playbook 已搬到技能
+playbooks.migration.movedToSkillsDescription	Devin 现在用那个技能。下面是迁移前的 playbook。
+playbooks.migration.movedToSkillsTitle	此 playbook 现在是一个技能
+playbooks.migration.skillAmbiguous	不止一个技能认领此 playbook；无法从此链接打开。
+playbooks.migration.skillNotCutOver	此 playbook 还没迁到技能。稍后再试。
+playbooks.migration.skillUnavailable	此 playbook 变成的技能已不可用。
+playbooks.migration.viewSkill	查看技能
+playbooks.migration.viewSkills	查看技能
+playbooks.readOnly	只读
+playbooks.toast.createError	创建 playbook 失败
+playbooks.toast.createLoading	正在创建 playbook…
+playbooks.toast.createSuccess	playbook 创建成功
+playbooks.toast.deleteError	删除 playbook 失败
+playbooks.toast.deleteLoading	正在删除 playbook…
+playbooks.toast.deleteSuccess	playbook 删除成功
+playbooks.toast.promoteError	提升 playbook 到企业失败
+playbooks.toast.promoteLoading	正在提升 playbook 到企业…
+playbooks.toast.promoteSuccess	playbook 已提升到企业
+playbooks.toast.updateError	保存 playbook 更改失败
+playbooks.toast.updateLoading	正在保存 playbook 更改…
+playbooks.toast.updateSuccess	playbook 更改保存成功
+pluginAudience.all	全部组织
+pluginAudience.allExceptNames	除 {{names, list}} 外全部
+pluginAudience.allExcept_one	除 {{count}} 个外全部组织
+pluginAudience.allExcept_other	除 {{count}} 个外全部组织
+pluginAudience.buttonLabel	获得 {{name}} 的组织：{{summary}}
+pluginAudience.dialogDescription	被排除组织里的会话不加载此插件：它的技能、hook、规则和 agent 全部不加载。组织仍可自己安装此插件。
+pluginAudience.dialogTitle	获得 {{name}} 的组织
+pluginAudience.modeAllExceptHint	含以后新建的组织。
+pluginAudience.modeAllExceptTitle	除所选外全部组织
+pluginAudience.modeAllHint	含以后新建的组织。
+pluginAudience.modeAllTitle	全部组织
+pluginAudience.modeSelectedHint	以后新建的组织得不到此插件。
+pluginAudience.modeSelectedTitle	仅所选组织
+pluginAudience.none	没有组织
+pluginAudience.noneHint	你选之前没有组织得到此插件。
+pluginAudience.organizationsError	无法加载组织。
+pluginAudience.rowLabel	组织
+pluginAudience.saveError	无法保存此插件的组织。
+pluginAudience.selectedNames	{{names, list}}
+pluginAudience.selected_one	{{count}} 个组织
+pluginAudience.selected_other	{{count}} 个组织
+pluginContents.cancelCreate	取消
+pluginContents.create	创建
+pluginContents.createFailed	无法创建插件
+pluginContents.createTitle	创建插件
+pluginContents.creating	正在创建…
+pluginContents.descriptionLabel	描述
+pluginContents.descriptionPlaceholder	用于发布工作的技能和规则
+pluginContents.docsLink	插件文档
+pluginContents.editDetails	编辑插件详情
+pluginContents.logoInvalid	请输入以 https:// 开头的完整 URL，或此插件内图片文件路径。
+pluginContents.logoLabel	Logo
+pluginContents.logoPlaceholder	https:// 或 assets/logo.png
+pluginContents.manifestRowSubtitle	插件 id、版本和 manifest 其余部分
+pluginContents.manifestSection	插件 manifest
+pluginContents.nameLabel	名称
+pluginContents.namePlaceholder	Acme Tools
+pluginContents.nameRequired	名称为必填项
+pluginContents.saveDetails	保存
+pluginContents.savingDetails	正在保存…
+pluginContents.updateDetailsMessage	更新插件详情
+pluginContents.uploadFailed	无法上传那个 .zip 文件
+pluginContents.uploading	正在上传…
+pluginContentsEditor.changedBySomeoneElse	插件被别人改了。放弃你的编辑以加载最新版本。
+pluginContentsEditor.nameTaken	此作用域已有名为「{{name}}」的插件（可能已停用）。换个名字。
+pluginContentsEditor.pathExists	「{{name}}」已存在
+pluginContentsEditor.savedActivationFailed	已保存，但激活 bundle 失败。在「配置」标签把它加进 manifest。
+pluginContentsEditor.tooManyFiles	bundle 文件太多（上限 {{limit}}）
+pluginEditor.add	添加
+pluginEditor.advancedEditorHint	想加更多资源如脚本或模板？用 <linkTag>高级编辑器</linkTag>。
+pluginEditor.content	内容
+pluginEditor.delete	删除
+pluginEditor.deleteDescription	从插件删除「{{label}}」？
+pluginEditor.deleteNamed	删除 {{title}}
+pluginEditor.deleteTitle	从插件删除
+pluginEditor.discard	放弃
+pluginEditor.discardTitle	放弃未保存的更改？
+pluginEditor.edit	编辑
+pluginEditor.editRule	编辑规则
+pluginEditor.editSkill	编辑技能
+pluginEditor.filePatterns	文件模式
+pluginEditor.filePatternsPlaceholder	src/**/*.ts, *.md
+pluginEditor.hooks	hook
+pluginEditor.instructions	说明
+pluginEditor.keepEditing	继续编辑
+pluginEditor.mcpServers	MCP 服务器
+pluginEditor.name	名称
+pluginEditor.nameNeedsAscii	名称至少含一个字母（a-z）或数字（0-9）。
+pluginEditor.newRule	新规则
+pluginEditor.newSkill	新技能
+pluginEditor.noHooks	没有 hook。
+pluginEditor.noMcpServers	没有 MCP 服务器。
+pluginEditor.noRules	还没有规则。
+pluginEditor.noSkills	还没有技能。
+pluginEditor.ruleBodyPlaceholder	agent 该遵守的指引，Markdown 格式。
+pluginEditor.rules	规则
+pluginEditor.save	保存
+pluginEditor.saving	正在保存…
+pluginEditor.selectTrigger	选择规则触发器
+pluginEditor.skillBodyPlaceholder	agent 该遵循的步骤，Markdown 格式。
+pluginEditor.skills	技能
+pluginEditor.trigger	触发器
+pluginEditor.triggerHelp.alwaysOn	每个会话都应用。
+pluginEditor.triggerHelp.glob	会话碰到匹配文件时应用。
+pluginEditor.triggerHelp.manual	仅在被明确提到时应用。
+pluginEditor.triggerHelp.modelDecision	由 agent 按描述决定。
+pluginFilesEditor.addMessage	添加 {{path}}
+pluginFilesEditor.binaryFile	二进制文件（{{size}}）——此处不能编辑。
+pluginFilesEditor.cancel	取消
+pluginFilesEditor.delete	删除
+pluginFilesEditor.deleteDescription	从插件移除 {{path}}？保存时生效。
+pluginFilesEditor.deleteFileTitle	删除文件
+pluginFilesEditor.deleteFolderTitle	删除文件夹
+pluginFilesEditor.deleteMessage	删除 {{path}}
+pluginFilesEditor.discard	放弃
+pluginFilesEditor.discardTitle	放弃未保存的更改？
+pluginFilesEditor.filePathLabel	文件路径
+pluginFilesEditor.files	文件
+pluginFilesEditor.fixedManifestName	保持 "name" 为「{{name}}」。要改名请编辑 "displayName"。
+pluginFilesEditor.folderPathLabel	文件夹路径
+pluginFilesEditor.keepEditing	继续编辑
+pluginFilesEditor.manifestInvalid	.devin-plugin/plugin.json 不是有效 JSON。
+pluginFilesEditor.manifestMissing	bundle 必须含 .devin-plugin/plugin.json。
+pluginFilesEditor.move	移动…
+pluginFilesEditor.moveConfirm	移动
+pluginFilesEditor.moveFile	移动文件
+pluginFilesEditor.moveFileDescription	相对插件根
+pluginFilesEditor.moveFolder	移动文件夹
+pluginFilesEditor.moveFolderDescription	相对插件根。其内容随它移动
+pluginFilesEditor.noFiles	还没有文件。加一个开始。
+pluginFilesEditor.notSaved	你的更改没保存。
+pluginFilesEditor.renameMessage	把 {{from}} 改名为 {{to}}
+pluginFilesEditor.save	保存
+pluginFilesEditor.saving	正在保存…
+pluginFilesEditor.selectFile	选一个文件来编辑。
+pluginFilesEditor.updateMessage	更新文件
+pluginFilesEditor.updateOneMessage	更新 {{path}}
+pluginInstallWarning.acknowledge	我明白并要继续
+pluginInstallWarning.body	Devin 将被允许运行此插件的规则、hook 和技能。仅在信任此插件并已核实其来源时继续。
+pluginInstallWarning.bodyMcp	Devin 将被允许运行此插件的规则、hook 和技能，包括通过其 MCP 服务器访问外部数据。仅在信任此插件并已核实其来源时继续。
+pluginInstallWarning.bodyMcpOfficial	Devin 将被允许运行此插件的规则、hook 和技能，包括通过其 MCP 服务器访问外部数据。仅在信任此插件时继续。
+pluginInstallWarning.bodyOfficial	Devin 将被允许运行此插件的规则、hook 和技能。仅在信任此插件时继续。
+pluginInstallWarning.capability.agents	子 agent
+pluginInstallWarning.capability.hooks	hook
+pluginInstallWarning.capability.mcp_servers	MCP 服务器
+pluginInstallWarning.capability.rules	规则
+pluginInstallWarning.capability.skills	技能
+pluginInstallWarning.connectDescription	可在设置中断开 {{name}}。
+pluginInstallWarning.connectTitle	连接 {{name}}
+pluginInstallWarning.description	把 Devin 连到 {{name}}。你可随时在设置中卸载此插件。

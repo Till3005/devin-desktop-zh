@@ -1,0 +1,280 @@
+errors.somethingWentWrong	出错了
+eventPreview.convertFailed	翻译失败：{{message}}
+eventPreview.converting	正在翻译…
+eventRenderer.eventTimeline.acu	ACU
+eventRenderer.eventTimeline.allTypes	全部类型（{{count}}）
+eventRenderer.eventTimeline.event	事件
+eventRenderer.eventTimeline.filterAria	按类型筛选事件
+eventRenderer.eventTimeline.major	主要
+eventRenderer.eventTimeline.offset	偏移
+eventRenderer.eventTimeline.stream	流
+eventRenderer.eventTimeline.time	时间
+eventRenderer.eventTimeline.uiOnly	仅 UI
+extraAccessCleanup.ackOther	我了解通过此组织获得的额外仓库访问权将被移除。
+extraAccessCleanup.ackUnknown	我了解提供商访问权未知的成员将被移除访问。
+extraAccessCleanup.affected	受影响成员
+extraAccessCleanup.apply	移除访问
+extraAccessCleanup.applyError	更改无法开始。请先检查是否有进行中的清理再重试。
+extraAccessCleanup.applying	正在检查访问…
+extraAccessCleanup.back	返回
+extraAccessCleanup.cancel	取消
+extraAccessCleanup.complete	访问已移除。报告正在刷新。
+extraAccessCleanup.description	移除前请审查受影响成员和访问。已移除的访问无法自动恢复。
+extraAccessCleanup.download	下载受影响访问
+extraAccessCleanup.downloadScope	不论搜索或折叠，下载全部受影响访问为 CSV
+extraAccessCleanup.failed	清理已停止。请刷新报告并审查剩余访问后重试。
+extraAccessCleanup.partial	部分更改失败。成功的移除已保留；请刷新报告查看剩余。
+extraAccessCleanup.permissionDenied	你没有权限应用这些更改。
+extraAccessCleanup.previewError	无法加载影响预览。重试或刷新报告。
+extraAccessCleanup.progress	已处理 {{total}} 项更改中的 {{done}} 项 · {{failed}} 项失败
+extraAccessCleanup.progressError	无法加载清理状态。重试后再开始另一轮清理。
+extraAccessCleanup.review	审查更改
+extraAccessCleanup.reviewAction	审查
+extraAccessCleanup.running	正在移除访问…
+extraAccessCleanup.stale	报告、访问或清理状态已变化。请刷新报告并重新审查更改。
+extraAccessCleanup.unknownWarning	部分受影响成员的提供商访问无法验证。
+extraAccessReport.accessListTitle	额外访问
+extraAccessReport.action	操作
+extraAccessReport.actionsDescription	选择一个操作以审查它移除的访问。
+extraAccessReport.actionsForSearch	「{{search}}」的操作。审查更改以看全部影响。
+extraAccessReport.asOf	截至 {{time}}
+extraAccessReport.collapseMembers	按成员折叠
+extraAccessReport.description	超出其 git 提供商访问权、能在 Devin 中使用仓库的成员。
+extraAccessReport.distinctMembers_one	{{formattedCount}} 个不同成员
+extraAccessReport.distinctMembers_other	{{formattedCount}} 个不同成员
+extraAccessReport.download	下载 CSV
+extraAccessReport.downloadFiltered	下载筛选后 CSV
+extraAccessReport.downloadScope	下载所有匹配行而非仅本页。折叠成员导出为单独的成员–仓库行。
+extraAccessReport.expandRepositories	展开仓库
+extraAccessReport.extraRemoved	额外访问
+extraAccessReport.leastOther	移除最少其他组织访问
+extraAccessReport.leastOtherFirst	优先移除最少其他组织访问
+extraAccessReport.loadError	无法加载报告。
+extraAccessReport.matchingRows_one	{{formattedCount}} 个匹配行
+extraAccessReport.matchingRows_other	{{formattedCount}} 个匹配行
+extraAccessReport.member	成员
+extraAccessReport.mostExtra	移除最多额外访问
+extraAccessReport.noResults	无匹配结果。
+extraAccessReport.noSnapshot	还没有已完成的报告。
+extraAccessReport.omitted_one	报告最多含 500 条建议操作。另有 {{count, number}} 条被排除。
+extraAccessReport.omitted_other	报告最多含 500 条建议操作。另有 {{count, number}} 条被排除。
+extraAccessReport.otherLost	同时从此组织移除
+extraAccessReport.otherLostHelp	通过此组织失去访问的其他成员–仓库对。移除组织成员资格也影响会话可见性。镜像的仓库访问在个人环境中仍可用。
+extraAccessReport.page	第 {{page}} 页
+extraAccessReport.people	人员
+extraAccessReport.refresh	刷新
+extraAccessReport.refreshForAccess	刷新报告以搜索成员和仓库访问
+extraAccessReport.removeMemberCount_one	从 <org>{{org}}</org> 移除 {{count, number}} 个成员
+extraAccessReport.removeMemberCount_other	从 <org>{{org}}</org> 移除 {{count, number}} 个成员
+extraAccessReport.removeMembers	从 <org>{{org}}</org> 移除直接成员
+extraAccessReport.removeRepositories	从 <org>{{org}}</org> 移除仓库
+extraAccessReport.removeRepositoryCount_one	从 <org>{{org}}</org> 移除 {{count, number}} 个仓库
+extraAccessReport.removeRepositoryCount_other	从 <org>{{org}}</org> 移除 {{count, number}} 个仓库
+extraAccessReport.removeTarget	从 <org>{{org}}</org> 移除 <target>{{target}}</target>
+extraAccessReport.repository	仓库
+extraAccessReport.repositoryCount_one	{{count, number}} 个仓库
+extraAccessReport.repositoryCount_other	{{count, number}} 个仓库
+extraAccessReport.requestError	请求失败。请重试。
+extraAccessReport.restrictedTarget	受限或不可用资源
+extraAccessReport.retry	重试
+extraAccessReport.reviewActions	审查清理操作
+extraAccessReport.rowCount_one	{{formattedCount}} 行
+extraAccessReport.rowCount_other	{{formattedCount}} 行
+extraAccessReport.searchAccess	搜索成员或仓库
+extraAccessReport.states.empty	还没有报告。刷新以从已完成的镜像轮次构建。
+extraAccessReport.states.failed	上次报告刷新失败。上一份报告仍可用；刷新以重试。
+extraAccessReport.states.first_pass	还没有已完成的镜像轮次。刷新此报告前先跑镜像。
+extraAccessReport.states.off	访问镜像已关闭。打开它以构建报告。
+extraAccessReport.states.ready	报告就绪。
+extraAccessReport.states.updating	镜像或报告刷新进行中。上一份已完成报告仍可用。
+extraAccessReport.unavailableOrg	不可用组织
+extraAccessReport.unknown	未知
+extraAccessReport.unknownHelp	未知成员没关联 git 提供商身份，因此无法比较其访问。不计为额外访问。
+extraAccessReport.unknownMembers	未知成员
+eyebrow.botUpdatesNudgeConnectImessage	连接 iMessage
+eyebrow.botUpdatesNudgeConnectSlack	连接 Slack
+eyebrow.botUpdatesNudgeTitle	{{botName}} 干完活时收到通知
+eyebrow.connectProvider	连接 {{provider}}
+eyebrow.connectProviderMessage	连接你的 {{provider}} 账户以用 Devin 开 PR。
+eyebrow.connectProviderRepositoriesMessage	连接你的 {{provider}} 账户以查看你的仓库。
+eyebrow.dismiss	忽略
+eyebrow.efficiencyNeedsImprovement	你的会话效率有待改进。
+eyebrow.loading	加载中…
+eyebrow.localChangesFiles_one	{{count}} 个文件已改
+eyebrow.localChangesFiles_other	{{count}} 个文件已改
+eyebrow.localChangesView	查看更改
+eyebrow.maxUsageLimit	你已用 {{used}}/{{limit}} ACU（{{pct}}%）的用量上限。
+eyebrow.maxUsageLimitDollars	你已花 {{used}}/{{limit}}（{{pct}}%）的用量上限。
+eyebrow.maxUsageLimitWithReset	你已用 {{used}}/{{limit}} ACU（{{pct}}%）的用量上限（{{resets}} {{resetsTime}} 重置）。
+eyebrow.maxUsageLimitWithResetDollars	你已花 {{used}}/{{limit}}（{{pct}}%）的用量上限（{{resets}} {{resetsTime}} 重置）。
+eyebrow.missingSetup	Devin 的机器缺少部分设置，任务可能跑得更慢。
+eyebrow.requestMoreUsage	申请更多
+eyebrow.setupIncomplete	设置未完成
+eyebrow.shareBotFailed	无法把提到的 {{botName}} 共享给这个。请重试。
+eyebrow.shareBotWithBot_one	<botResults></botResults> 将共享给此 {{botName}}
+eyebrow.shareBotWithBot_other	<botResults></botResults> 将共享给此 {{botName}}
+eyebrow.sharePluginFailed	无法把插件共享给此 {{botName}}。请重试。
+eyebrow.sharePluginFailed_named	无法把插件共享给 {{botName}}。请重试。
+eyebrow.sharePluginWithBotNamed_one	<plugins></plugins> 插件将共享给 {{botName}}
+eyebrow.sharePluginWithBotNamed_other	<plugins></plugins> 插件将共享给 {{botName}}
+eyebrow.sharePluginWithBot_one	<plugins></plugins> 插件将共享给此 {{botName}}
+eyebrow.sharePluginWithBot_other	<plugins></plugins> 插件将共享给此 {{botName}}
+eyebrow.shareSessionFailed	无法把此会话共享给该 {{botName}}。请重试。
+eyebrow.shareSessionFailed_named	无法把此会话共享给 {{botName}}。请重试。
+eyebrow.shareSessionWithBot_one	此会话将共享给 <botResults></botResults>
+eyebrow.shareSessionWithBot_other	此会话将共享给 <botResults></botResults>
+eyebrow.usageLimit	你已用 {{used}}/{{limit}} ACU（{{pct}}%）的用量上限。
+eyebrow.usageLimitDollars	你已用 {{used}}/{{limit}}（{{pct}}%）的用量上限。
+eyebrow.usageLimitPrimaryHitFallback	你已触达主用量上限。现在进入降级用量。
+eyebrow.usageLimitPrimaryHitFallbackWithReset	你已触达主用量上限（{{resets}} {{resetsTime}} 重置）。现在进入降级用量。
+eyebrow.usageLimitPrimaryHitRemaining	你已触达主用量上限。降级用量还剩 {{fallbackRemaining}} ACU。
+eyebrow.usageLimitPrimaryHitRemainingDollars	你已触达主用量上限。降级用量还剩 {{fallbackRemaining}}。
+eyebrow.usageLimitPrimaryHitRemainingWithReset	你已触达主用量上限（{{resets}} {{resetsTime}} 重置）。降级用量还剩 {{fallbackRemaining}} ACU。
+eyebrow.usageLimitPrimaryHitRemainingWithResetDollars	你已触达主用量上限（{{resets}} {{resetsTime}} 重置）。降级用量还剩 {{fallbackRemaining}}。
+eyebrow.usageLimitWithReset	你已用 {{used}}/{{limit}} ACU（{{pct}}%）的用量上限（{{resets}} {{resetsTime}} 重置）。
+eyebrow.usageLimitWithResetDollars	你已用 {{used}}/{{limit}}（{{pct}}%）的用量上限（{{resets}} {{resetsTime}} 重置）。
+eyebrow.usagePace	按当前节奏将达 {{projected}}%。
+eyebrow.viewDetails	查看详情
+federalDownloads.cliHeading	Devin CLI
+federalDownloads.cliSetup	解压压缩包并运行自带的 <code>bin/devin</code>（Windows 上是 <code>bin/devin.exe</code>），然后运行 <code>devin setup</code> 完成。
+federalDownloads.cliUnavailable	CLI 下载暂不可用。如果你认为这是错误，请联系管理员。
+federalDownloads.desktopHeading	Devin Desktop
+federalDownloads.desktopSetup	安装后，在提示时把门户 URL 设为 <code>{{origin}}</code>。
+federalDownloads.desktopUnavailable	桌面端下载暂不可用。如果你认为这是错误，请联系管理员。
+federalDownloads.intro	从此部署安装 Devin Desktop 和 Devin CLI。
+figmaCard.connect	连接
+figmaCard.connectToPreview	连接 Figma MCP 以预览此文件
+figmaCard.design	Figma 设计
+figmaCard.tryAgain	重试
+fileSearch.authoredBy	{{name}} 撰写
+fileSearch.categoryDisabled	类别已禁用
+fileSearch.commands	命令
+fileSearch.enterprisePlugin	企业插件
+fileSearch.enterpriseSkills	企业技能
+fileSearch.interactiveArtifactsDescription	构建交互式报告、图表或示意图
+fileSearch.loadingResults	正在加载结果…
+fileSearch.mentionCardLoadFailed	无法加载已关联账户
+fileSearch.mentionCardLoading	正在加载账户…
+fileSearch.mentionDescBots	你可用的 {{botNamePlural}}
+fileSearch.mentionDescFiles	全部已索引文件
+fileSearch.mentionDescMacros	来自知识的宏
+fileSearch.mentionDescPeople	你组织的成员
+fileSearch.mentionDescPlaybooks	全部团队和社区 Playbook
+fileSearch.mentionDescPlaybooksMoved	你的 Playbook 变成的技能
+fileSearch.mentionDescPlugins	为你安装的插件
+fileSearch.mentionDescRepos	已加到 Devin 机器的全部仓库
+fileSearch.mentionDescSecrets	组织内的全部全局机密
+fileSearch.mentionDescSessions	提及其他 Devin 会话
+fileSearch.mentionDescSkills	来自仓库的可用技能
+fileSearch.mentionDescSlackChannels	你能看到的 Slack 频道
+fileSearch.mentionDescWorkItems	你项目追踪器中的工单
+fileSearch.noCategoryItems	未找到{{category}}
+fileSearch.noMatchesFound	未找到匹配
+fileSearch.noRepositoriesIndexed	没有已索引仓库。请先完成仓库设置。
+fileSearch.noResults	未找到结果
+fileSearch.organizationPlugin	组织插件
+fileSearch.organizationSkills	组织技能
+fileSearch.personalPlugin	个人插件
+fileSearch.personalSkills	个人技能
+fileSearch.pluginInstalling	{{name}} 正在安装
+fileSearch.pluginInstallingResources	就绪后资源可用
+fileSearch.pluginSkills	插件技能
+fileSearch.skillFrom	来自{{source}}
+fileSearch.skillPluginNotActivated	此技能的插件未在此会话激活。请开始新会话使用它。
+fileSearch.skillSourceBuiltin	Devin
+fileSearch.skillSourceYou	你
+fileSearch.slackChannelBotNotIn	{{botName}} 不在此频道
+fileSearch.typeToSearch	输入以搜索
+fileSearch.unknownAuthor	未知
+fileUploader.dropFilesHere	把文件拖到此处
+fileUploader.dropFilesToShare	拖文件与 Devin 共享
+fileUploader.fileTooLarge	文件 {{fileName}} 超过 {{maxSizeMb}}MB 的大小上限
+fileUploader.filesTooLargeNames	{{names, list}}
+fileUploader.filesTooLarge_one	{{count}} 个文件超过 {{maxSizeMb}}MB 的大小上限
+fileUploader.filesTooLarge_other	{{count}} 个文件超过 {{maxSizeMb}}MB 的大小上限
+fileUploader.uploadFailed	上传 {{fileName}} 失败：{{message}}
+filterCategory.noResultsFor	{{name}} 无结果
+filterCategory.other	其他
+filterCategory.selectAll	全选
+filterCategory.unnamed	未命名
+filterDate.after	{{date}} 之后
+filterTags.loadingTags	正在加载标签…
+filterTags.recentlyUsedTags	最近用过的标签
+filterTags.searchTags	搜索标签…
+filterTags.selectedTags	已选标签
+filterTags.tagsCount_one	{{count}} 个标签
+filterTags.tagsCount_other	{{count}} 个标签
+filteredCheckboxList.selectAll	全选{{label}}（{{count}}）
+find.close	关闭查找
+find.invalidRegex	无效正则表达式
+find.matchPosition	{{current}} / {{total}}
+find.matchPositionPartial	{{current}} / {{total}}+
+find.nextMatch	下一个匹配
+find.noResults	无结果
+find.placeholder	在{{label}}中搜索
+find.previousMatch	上一个匹配
+find.scopeFile	文件
+find.scopePane	标签页
+find.scopeReview	PR
+find.scopeSession	聊天
+firstSessionOnboarding.connectYourTasks	连接你的任务
+firstSessionOnboarding.connectYourTeam	连接你的团队
+firstSessionOnboarding.options.automation.autofixReviewDescription	自动解决已确认的缺陷
+firstSessionOnboarding.options.automation.autofixReviewLabel	自动修复 Devin Review 发现项
+firstSessionOnboarding.options.automation.catchBugsDescription	审查 main 上的提交并立即建议修复
+firstSessionOnboarding.options.automation.catchBugsLabel	自动抓缺陷
+firstSessionOnboarding.options.automation.suggestDescription	研究近期工作并提议有用的自动化
+firstSessionOnboarding.options.automation.suggestLabel	建议自动化
+firstSessionOnboarding.options.review.autoDescription	拉取请求就绪时以及之后每次推送
+firstSessionOnboarding.options.review.autoLabel	自动
+firstSessionOnboarding.options.review.manualDescription	仅在请求时分析拉取请求
+firstSessionOnboarding.options.review.manualLabel	手动
+firstSessionOnboarding.options.review.readyDescription	拉取请求创建时分析一次
+firstSessionOnboarding.options.review.readyLabel	PR 就绪时
+gateway.deploy.tenantPlaceholder	acme
+ghesInstall.accept	接受
+ghesInstall.accepting	正在接受…
+ghesInstall.alreadyConnectedMessage	此安装已关联到 {{enterprise}}。
+ghesInstall.alreadyConnectedTitle	安装已连接
+ghesInstall.completeTitle	完成 GitHub Enterprise 安装
+ghesInstall.connectPrompt	把 <code>{{host}}</code> 上的 <strong>{{account}}</strong> 连到 <strong>{{enterprise}}</strong>？
+ghesInstall.goToHome	去首页
+ghesInstall.invalidStateMessage	请从「设置 > 集成」重试。
+ghesInstall.invalidStateTitle	GitHub Enterprise 安装状态无效
+ghesInstall.lookupFailedMessage	无法加载安装详情。请重试。
+ghesInstall.lookupFailedTitle	安装查询失败
+ghesInstall.reject	拒绝
+ghesInstall.requestedMessage	让你的 GitHub Enterprise 管理员批准安装。批准后回到 Devin「设置 > 集成」完成安装。
+ghesInstall.requestedTitle	GitHub 安装已申请
+ghesInstall.signIn	登录
+ghesInstall.signInMessage	你已在 GitHub Enterprise 实例上装好 GitHub App。登录 Devin 把它关联到你的企业。
+ghesInstall.signInTitle	登录以完成安装
+ghesInstall.somethingWentWrong	出错了。请重试。
+ghesInstall.unknownInstallationMessage	找不到此 GitHub Enterprise App 配置。请从「设置 > 集成」重试。
+ghesInstall.unknownInstallationTitle	未知安装
+ghesInstall.wrongAccountMessage	此 GitHub Enterprise 安装属于另一个 Devin 企业。切换账户后重试。
+ghesInstall.wrongAccountTitle	Devin 账户不对
+ghesInstall.yourDevinEnterprise	你的 Devin 企业
+gitConnectionAccess.canConfigure	可配置
+gitConnectionAccess.canShare	可共享
+gitConnectionAccess.canView	可查看
+gitConnectionAccess.cannotRemoveOwnAccess	不能移除你自己管理此连接的访问权
+gitConnectionAccess.configureDescription	可编辑此连接的仓库权限并断开它
+gitConnectionAccess.configureVerb	配置
+gitConnectionAccess.inheritedFromManage	此访问权继承自「管理 Git 集成」权限，可管理全部连接
+gitConnectionAccess.inheritedFromOwner	此访问权继承自所有者角色，可管理全部连接
+gitConnectionAccess.inheritedFromView	此访问权继承自「查看 Git 集成」权限，可查看全部连接
+gitConnectionAccess.searchPlaceholder	搜索要添加的用户、角色或团队
+gitConnectionAccess.shareDescription	可管理谁有此连接的访问权
+gitConnectionAccess.shareVerb	共享
+gitConnectionAccess.viewDescription	可看到此连接及它授予访问权的仓库
+gitConnectionAccess.viewVerb	查看
+gitOnboarding.accountSuspended	账户已停用
+gitOnboarding.accountsWithYourGithubProfile	已关联你 GitHub 资料的账户
+gitOnboarding.adminMustUninstallFirst	GitHub 管理员必须先从此组织卸载 Devin App，你才能在此连接。
+gitOnboarding.authenticateViaCliWarning	在 Devin 机器上通过 GitHub CLI 认证。部分功能（含 Devin Review）将不可用。
+gitOnboarding.back	返回
+gitOnboarding.chooseDifferentOrganization	换一个组织
+gitOnboarding.chooseExistingOrNewOrg	选一个已有或新的 GitHub 组织安装 Devin
+gitOnboarding.chooseExistingOrNewOrgInfo	需要该 GitHub 组织的管理员权限才能装 Devin App。
+gitOnboarding.chooseHowToConnectGithub	选择你想要的 GitHub 连接方式

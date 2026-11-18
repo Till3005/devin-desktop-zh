@@ -1,0 +1,226 @@
+bots.templateDescriptionCodebaseExpert	用它读过的文件回答代码库问题。问它代码如何工作，它会读代码作答，并说明哪些没查。
+bots.templateDescriptionComplianceEngineer	从你的代码收集控制项证据并保持其时效。某个控制项不再成立时它会提醒你。
+bots.templateDescriptionDataAnalyst	用图表和背后的查询回答数据问题。也会告诉你数据中任何可能影响答案的因素。
+bots.templateDescriptionDevinCoach	汇报本周 Devin 在哪里卡住以及该教它什么。每个问题给出一条修复建议，如笔记、技能或设置改动。
+bots.templateDescriptionGitGossip	每周颁发代码库奖项：夜猫子、热门文件和化石。发到团队频道是为人喝彩，从不羞辱谁。
+bots.templateDescriptionInternalToolsEngineer	构建你团队描述的内部工具并运行它。它展示工具正常工作、保持运行并按要求更新。
+bots.templateDescriptionIosEngineer	用 SwiftUI 构建 iOS 功能并发到 TestFlight。它把一张工单一直做到拉取请求，带测试和测试人员可安装的构建。
+bots.templateDescriptionLatencyOptimizer	找到你最慢的 API 端点、任务和查询并加速。每周为最慢的那个尝试一次修复，开一个带前后速度对比的小拉取请求。
+bots.templateDescriptionMigrationEngineer	负责一个大项目或迁移，拆成可追踪的小拉取请求交付。在一处追踪它们并告诉你进展和卡点。
+bots.templateDescriptionOnCallEngineer	排查每条告警并给出可能原因。它查日志、指标和近期变更；找不到原因时会直说。
+bots.templateDescriptionPoke	你短信里那个 poke，现在做真正的工程。修缺陷、开 PR、催审查，对所有事都有主见
+bots.templateDescriptionProductEngineer	在你的产品里做功能、修缺陷。它把工单或需求一直做到带测试的拉取请求并跟完审查。
+bots.templateDescriptionQaEngineer	在真实浏览器中测试每个拉取请求并发回视频。在 PR 上汇报什么通过、什么失败。
+bots.templateDescriptionSecurityEngineer	在你的仓库间找漏洞并开出修复。每周核实每个问题是否真实存在，并告诉你哪些需要你拍板。
+bots.templateDescriptionSoftwareFactory	在你点名的产品领域找缺陷、打磨、性能和重构活，每项开一个小拉取请求并附可用证据。它从你合并和关闭的 PR 中学习，让你的审查队列不空。
+bots.templateDescriptionSpikeSniffer	发现错误率、延迟或支出异常漂移并找出变化原因。把最近几小时与过去两周相同时段对比，然后发出变化项和幅度。
+bots.templateDescriptionTechnicalWriter	让每个仓库的 wiki 和图与 main 保持同步。合并改变行为时，它更新文档并告诉你改了什么。
+bots.templateDescriptionTriageEngineer	复现进来的缺陷报告，把属实的登记为工单。复现不了时告诉报告者还需要什么。
+bots.templateDescriptionWorkflowImporter	接管你在另一个 Agent 里已有的配置：它的规则和提示词、连接的应用和服务、运行的工作流。
+bots.templateExampleAndroidEngineer	推送通知工单完成了。PR #733 有 Kotlin 改动和 9 个通过的测试，构建 412 已上内部测试。扩大范围前需要有人批准新的通知权限。
+bots.templateExampleAnomalyWatcher	德国试用注册自周二以来下降 38%，其他国家都平稳。没有监控覆盖此项。起点是 PR #4821——改了注册表的 VAT 字段，所以 Maya 很可能是负责人。
+bots.templateExampleAutoResearcher	昨晚：42 个实验，保留 5 个，丢弃 36 个，崩溃 1 个。验证损失从 1.83 降到 1.71，主要来自余弦学习率和更大 batch。保留的改动在 autoresearch 分支。
+bots.templateExampleChiefOfStaff	发布进展：定价页已完成，文档从周一就在等 Sam 审查。我把 Safari 上失败的测试交给了你的 QA 工程师，下午 3 点跟进。没有其他事阻塞周四发布。
+bots.templateExampleCodeQualityEngineer	本月我开了 5 个小拉取请求：一个修补 axios 的高危 CVE，两个移除已 100% 推送的特性开关，两个替换已废弃 API。每个都附了通过的测试和合并为何安全。
+bots.templateExampleCodeReaper	本周我开了 3 个拉取请求，移除 1,240 行无人使用的代码，包括旧的账单导出。测试通过且没有调用方。legacy_webhooks.py 我没动，因为有 cron 任务按名字调用它。
+bots.templateExampleCodeReviewer	PR #5060 合并前有一个缺陷要修：payments/refund.py 第 88 行，部分退款用了订单全额，客户会收到过多退款。我在该行留了修复评论。
+bots.templateExampleCodebaseExpert	密码重置在 auth/reset.py 第 40-92 行。令牌有签名、有效期 30 分钟、只能用一次——第 67 行强制了这点。我读了代码但没查生产配置，过期时间可能不同。
+bots.templateExampleComplianceEngineer	SOC 2 控制项 CC8.1 不再成立：支付仓库的分支保护被关了，2 个拉取请求未经审查进入 main。其余 31 项控制的证据都是最新的。
+bots.templateExampleDataAnalyst	10 月年付方案占新收入的 41%，高于 9 月的 33%。图表和查询已附上。一个注意点：12 笔走账单的企业订单还没同步，实际数字可能更高。
+bots.templateExampleDevinCoach	Devin 本周卡住 14 次，其中 9 次同一原因：起不了本地数据库。在设置里加 make db-up 应该能杜绝。我拟好了改动等你批准。
+bots.templateExampleGitGossip	本周奖项：夜猫子归 Priya——凌晨 3:12 修了重试逻辑。烫手山芋是 checkout.ts，9 个人改过。化石是一个 2017 年的日期助手，每张账单都还在跑。
+bots.templateExampleInternalToolsEngineer	你的退款工具上线了。客服可查订单并退最高 $200，更大金额转经理。视频显示它正常工作，我会保持运行。要改什么告诉我。
+bots.templateExampleIosEngineer	已存搜索工单完成了。PR #812 有 SwiftUI 界面和 6 个通过的 UI 测试，构建 214 已上 TestFlight。发给外部测试者前需要你批准。
+bots.templateExampleLatencyOptimizer	GET /orders 本周等待最长，p95 1,840ms。主要是一项 N+1 查询。PR #4933 做了批处理，同基准下 p95 降到 310ms。
+bots.templateExampleMessage	消息示例
+bots.templateExampleMigrationEngineer	迁到新支付 API：48 个拉取请求已合并 31 个，无回滚。退款批次受阻，因为它的 webhook 测试需要 sandbox 密钥。补上密钥，最后 17 个周五前能交付。
+bots.templateExampleOnCallEngineer	下午 2:32 的 API 告警最可能来自 12 分钟前部署的 PR #5044——它把数据库连接池从 50 缩到 5。日志显示此后 1,200 次连接超时。PR #5046 回滚了它，等你处理。
+bots.templateExamplePoke	ci 又绿了。是你那次迁移，你说「很小」的那个。jake 还没合并修复，第四次催他了，语气更差了
+bots.templateExampleProductEngineer	完成了 LIN-482 的已存筛选，修了结账时的空购物车崩溃。PR #4961 两项都有，带测试，可审查了。
+bots.templateExampleQaEngineer	在 Chrome 测了 PR #4950。注册和密码重置通过，但结账失败：加了优惠券后支付按钮仍是禁用。视频和失败截图在拉取请求上。
+bots.templateExampleSecurityEngineer	本周修了 2 个真实漏洞，包括 /search 的 SQL 注入（PR #5012），排除了 4 个无法触达的。一个需要你拍板：旧提交里有把 API 密钥。要轮换吗？
+bots.templateExampleSoftwareFactory	PR #5127 等你了：SWF(bug)：修复恢复已删除会话时的崩溃。新测试无修复失败、有修复通过，录屏显示恢复成功。这占满你 10 个审查位中的 7 个。
+bots.templateExampleSpikeSniffer	结账错误下午 2:05 从平常的 0.2% 跳到 3.1%，正好在 PR #4907 部署后。日志显示已存购物车出现空货币。PR #4912 有修复。
+bots.templateExampleTechnicalWriter	PR #5071 改了重试机制，我更新了 wiki 的 webhook 页和时序图。失败的 webhook 现在 24 小时内重试 5 次，而不是 1 小时内 3 次。
+bots.templateExampleTriageEngineer	已复现：日期筛选跨两个月时 CSV 导出返回空。我登记了 ENG-2481，附了步骤和 export_query.py 中的疑似原因。Dana 的登录缺陷复现不了，我向她要了时间戳。
+bots.templateExampleWorkflowImporter	我从你的交接文件接管了 3 个开放任务、4 个技能、3 个连接和 2 个工作流。工作流已关闭避免重复运行。留给你的：登录 2 个应用。有一项在这里找不到对应，列在下面。
+bots.templateFeatured	精选模板
+bots.templateFilter	筛选
+bots.templateFilterByCategory	按类别筛选模板
+bots.templateFind	找到你的 {{botName}}
+bots.templateGridSubtitle	从一个开始，再变成你的
+bots.templateLibrary	模板库
+bots.templateLinkAnonymous	匿名
+bots.templateLinkBrowser	此浏览器无法验证链接制作者。请更新浏览器后再打开。
+bots.templateLinkCopy	复制公开链接
+bots.templateLinkCopyFailed	无法生成公开链接
+bots.templateLinkCopyTooltip	任何有此链接的人都能读该提示词并把它加到自己的组织。
+bots.templateLinkFailedTitle	此链接无法打开
+bots.templateLinkInvalid	它不完整或生成后被改过。请向发你的人要一个新的。
+bots.templateLinkSignedBy	由 <author>{{author}}</author> 于 {{date}} 创建
+bots.templateLinkUnsupported	它由更新版本的 Devin 生成。重新加载此页面后再打开。
+bots.templateLinkUntitled	共享模板
+bots.templateLoadFailed	无法加载此插件。
+bots.templateMoreTitle	更多模板
+bots.templateNotFound	此模板不存在。
+bots.templateOpen	打开
+bots.templatePageDescription	从 <templateName/> 模板创建
+bots.templatePromptDescription	用此模板建的 {{botName}} 的初始提示词。每个 {{botName}} 保留自己的副本，因此早建的可能不同。
+bots.templatePromptShowLess	收起
+bots.templatePromptShowMore	显示更多
+bots.templatePromptTitle	提示词
+bots.templatePublicLinkFailed	无法生成公开链接。请重试。
+bots.templatePublicLinkTooLong	此提示词太长，无法公开
+bots.templateSaveFailed	无法保存插件。
+bots.templateSearchNoMatch	没有匹配「{{query}}」的模板。
+bots.templateSearchPlaceholder	搜索模板
+bots.templateShare	共享
+bots.templateSharePubliclyHint	生成一个任何人都能打开、用此模板创建 {{botName}} 的链接。
+bots.templateSharedAddTo	添加到
+bots.templateSharedByAuthor	由 <author>{{author}}</author>
+bots.templateSharedDescription	此组织任何人都能用此链接创建 {{botName}}。
+bots.templateSharedDescriptionNamed	<org>{{orgName}}</org> 中任何人都能用此链接创建 {{botName}}。
+bots.templateSharedLoadFailed	无法加载此模板。
+bots.templateSharedOrganization	组织
+bots.templateSharedPromptPreview	预览
+bots.templateSharedPromptRaw	原始
+bots.templateSharedPromptTitle	{{name}} <muted>· 完整提示词</muted>
+bots.templateSharedPromptView	查看
+bots.templateSharedPublicDescription	任何有此链接的人都能用它创建 {{botName}}。
+bots.templateSharedPublicly	已公开共享
+bots.templateSharedView	查看模板
+bots.templateSharedViewPrompt	查看完整提示词
+bots.templateSharedWithOrganization	已共享给组织
+bots.templateShowMore	显示更多模板
+bots.templateSuggestedEyebrow	推荐 {{botName}}
+bots.templateTaglineAndroidEngineer	交付 Android 功能
+bots.templateTaglineAnomalyWatcher	标记异常产品数据
+bots.templateTaglineAutoResearcher	通宵模型实验
+bots.templateTaglineChiefOfStaff	更新与跟进
+bots.templateTaglineCodeQualityEngineer	保持依赖常新
+bots.templateTaglineCodeReaper	移除死代码
+bots.templateTaglineCodeReviewer	审查每个拉取请求
+bots.templateTaglineCodebaseExpert	回答代码问题
+bots.templateTaglineComplianceEngineer	保持控制证据常新
+bots.templateTaglineDataAnalyst	回答数据问题
+bots.templateTaglineDevinCoach	找出 Devin 卡住的地方
+bots.templateTaglineGitGossip	每周代码库颁奖
+bots.templateTaglineInternalToolsEngineer	构建内部工具
+bots.templateTaglineIosEngineer	交付 iOS 功能
+bots.templateTaglineLatencyOptimizer	加速慢路径
+bots.templateTaglineMigrationEngineer	规划并执行迁移
+bots.templateTaglineNeo	带你完成设置
+bots.templateTaglineOnCallEngineer	排查告警
+bots.templateTaglinePoke	Poke 的风格，内里是 Devin 🦦🌴
+bots.templateTaglineProductEngineer	做功能、修缺陷
+bots.templateTaglineQaEngineer	在浏览器中测试拉取请求
+bots.templateTaglineSecurityEngineer	发现并修复漏洞
+bots.templateTaglineSoftwareFactory	你来合并的拉取请求
+bots.templateTaglineSpikeSniffer	排查指标尖峰
+bots.templateTaglineTechnicalWriter	保持文档常新
+bots.templateTaglineTriageEngineer	复现缺陷报告
+bots.templateTaglineWorkflowImporter	接管现有 Agent
+bots.templateUnavailable	该模板不可用
+bots.templateUnavailableHint	在下面另选一个。
+bots.templateViewAll	查看全部模板
+bots.title	{{botNamePlural}}
+bots.toolAdd	添加
+bots.toolAddFailed	无法更新此 {{botName}} 的应用。请重试。
+bots.toolAddLabel	把 {{name}} 加到此 {{botName}}
+bots.toolAddLabel_named	把 {{name}} 加到 {{botName}}
+bots.toolConnected	已连接
+bots.toolConnectedOrgLevel	已为全组织连接。每个 {{botName}} 都能用；在设置中管理。
+bots.toolRemove	移除
+bots.toolRemoveLabel	把 {{name}} 从此 {{botName}} 移除
+bots.toolRemoveLabel_named	把 {{name}} 从 {{botName}} 移除
+bots.toolToggleLabel	让此 {{botName}} 使用 {{name}}
+bots.toolToggleLabel_named	让 {{botName}} 使用 {{name}}
+bots.toolsAppsSection	应用
+bots.toolsLoadError	无法加载已连接应用
+bots.toolsPersonalSection	你的插件
+bots.toolsShowAll	显示全部（{{count}}）
+bots.toolsShowLess	收起
+bots.unarchive	取消归档
+bots.unarchiveFailed	无法取消归档 {{name}}
+bots.unarchiveNamed	取消归档 {{name}}
+bots.unknownOwner	未知
+bots.workspace	工作区
+budgetAccess.canApproveLimits	可批准上限
+budgetAccess.canManage	可管理
+budgetAccess.canUse	可使用
+budgetAccess.cannotRemoveOwnAccess	你不能移除自己管理此预算的权限
+budgetAccess.configureDescription	可设置此预算子预算的 ACU 上限
+budgetAccess.inheritedFromManage	此权限继承自「管理 ACU 上限」权限，该权限可管理所有预算
+budgetAccess.inheritedFromOwner	此权限继承自所有者角色，所有者可管理所有预算
+budgetAccess.inheritedFromUse	此权限继承自使用此预算的组织成员身份
+budgetAccess.manageDescription	可管理谁有此预算的权限，以及添加、移动、归档其子预算
+budgetAccess.searchPlaceholder	搜索用户、角色、团队或服务用户
+budgetAccess.useDescription	可从此预算支取
+budgets.accountScope	全账户（旧版）
+budgets.addOrganization	添加组织
+budgets.aiGatewayAcus	AI Gateway ACU
+budgets.aiGatewaySpend	AI Gateway 支出
+budgets.allocatedWithLimit	已分配 {{allocated}} / {{limit}}
+budgets.allocatedWithLimitAndPercent	已分配 {{allocated}} / {{limit}}（{{percent}}）
+budgets.allocationDescription	设置此预算的每月用量分配。
+budgets.allocationDescriptionCycle	设置此预算的每月用量分配。\n当前周期：{{start}} – {{end}}
+budgets.allocationResetsAt	{{time}} 重置
+budgets.allocationResetsMonthly	在下一个月度周期开始时重置。
+budgets.allocationResetsTo	{{time}} 重置为 {{limit}}
+budgets.archive	归档预算
+budgets.archiveConfirmDescription	已归档预算在「全部」筛选下仍在列表中。其下不能再加子预算。
+budgets.archiveConfirmTitle	归档 {{name}}？
+budgets.archiveError	无法归档预算。请重试。
+budgets.archiveHasChildren	请先归档或移走子预算。
+budgets.archiveOrgLinkedTooltip	不能归档关联了活跃组织的预算。
+budgets.archived	已归档
+budgets.archivedToast	预算已归档
+budgets.atLimit	已达上限
+budgets.blockRootUsageDescription	这是根预算，因此此上限会阻止整个企业的用量。
+budgets.blockUsageConfirmHint	请准确输入 {{name}} 以确认。
+budgets.blockUsageDescription	此预算本周期已用 {{usage}}。上限 {{limit}} 会立即阻止新用量。
+budgets.blockUsageTitle	现在阻止用量？
+budgets.budget	预算
+budgets.cancel	取消
+budgets.childBudgets_one	{{count}} 个子预算
+budgets.childBudgets_other	{{count}} 个子预算
+budgets.childRange	{{total}} 中的 {{from}}–{{to}}
+budgets.childrenHeading	子预算
+budgets.closePreview	关闭预算预览
+budgets.collapse	折叠 {{name}}
+budgets.confirmOrganizationMoves	移动这些组织？
+budgets.copyParentAccess	从父预算复制权限
+budgets.create	创建
+budgets.createError	无法创建预算。请检查父预算后重试。
+budgets.createRoot	创建根预算
+budgets.cycleLimit	每月 ACU 上限
+budgets.cycleSpendLimit	每月支出上限
+budgets.description	组织 ACU 预算并管理每个预算的层级。
+budgets.descriptionDollars	组织支出预算并管理每个预算的层级。
+budgets.directUsage	直接用量
+budgets.directUsersTooltip	用户上限作用于直接关联到此预算的组织。子预算用量不计入此上限。
+budgets.drawsFrom	可从此支取的对象
+budgets.editAllocation	编辑用量分配
+budgets.editBudget	编辑预算
+budgets.emptyDescription	创建你账户的根预算，开始组织预算和层级。
+budgets.emptyTitle	还没有预算
+budgets.expand	展开 {{name}}
+budgets.hiddenParentTooltip	你无法查看预算 {{name}}。
+budgets.limitUnit	上限单位
+budgets.limitUnitAcus	ACU
+budgets.limitUnitDollars	美元
+budgets.loadError	无法加载预算
+budgets.manageAccessTab	管理权限
+budgets.manageOrganizations	管理组织
+budgets.map.children_one	{{count}} 个子级
+budgets.map.children_other	{{count}} 个子级
+budgets.map.fit	适配全部预算
+budgets.map.noNextChildren	没有更多下一级子级
+budgets.map.noPreviousChildren	没有更多上一级子级
+budgets.map.title	预算图
+budgets.map.usageWithAllocation	{{used}} / {{limit}}
+budgets.map.zoomIn	放大
+budgets.map.zoomOut	缩小
+budgets.moveOrgLeaves_one	该组织将离开 {{budget}}。
+budgets.moveOrgLeaves_other	{{count}} 个组织将离开 {{budget}}。
+budgets.moveOrgLosesUserLimits_one	{{count}} 个用户上限将不再作用于其成员。

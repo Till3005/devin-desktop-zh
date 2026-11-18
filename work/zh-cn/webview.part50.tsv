@@ -1,0 +1,199 @@
+mcpInstallationSecrets.deleteUnlinkedDescription	这会删除「{{name}}」的已存值。引用 ${{name}} 的地方将停止解析，直到存新值。
+mcpInstallationSecrets.saveSecrets	保存机密
+mcpInstallationSecrets.saving	正在保存…
+mcpInstallationSecrets.unlink	取消关联
+mcpInstallationSecrets.unlinkDescription	这会把「{{name}}」从此 MCP 取消关联。组织机密不删除，在「机密」页仍可用。
+mcpInstallationSecrets.unlinkSecret	取消关联机密
+mcpMarketplace.accessScope.appRegistrationClientRequired	组织访问需要自己的 OAuth 客户端 ID；此服务器不再用该 app 注册
+mcpMarketplace.accessScope.appRegistrationClientRequired_enterprise	企业访问需要自己的 OAuth 客户端 ID；此服务器不再用该 app 注册
+mcpMarketplace.accessScope.appRegistrationDisconnect	断开此服务器与 PagerDuty app 注册的连接。请在下方输入你自己的 OAuth 客户端 ID 和密钥。
+mcpMarketplace.addAnotherInstallation	再添加一个安装
+mcpMarketplace.addAnotherInstallationOf	再添加一个 {{name}} 安装
+mcpMarketplace.argumentLabel	参数 {{index}}
+mcpMarketplace.authHeaders.customHeaderCollision	「{{name}}」请用上方头模板——自定义头不能覆盖认证头。
+mcpMarketplace.authHeaders.description	用 ${API_KEY} 引用「机密」区的机密。Bearer 或其它认证方案放头值里，不放机密里。
+mcpMarketplace.authHeaders.hiddenDescription	此旧版头含内联值且保持只写。留空保持不变。
+mcpMarketplace.authHeaders.hiddenPlaceholder	已配置——输入模板以替换
+mcpMarketplace.authHeaders.incompleteSecret	每个机密需要名称和不含 Bearer 前缀的值。保存前补全或移除不完整行。
+mcpMarketplace.authHeaders.name	头名
+mcpMarketplace.authHeaders.namePlaceholder	Authorization
+mcpMarketplace.authHeaders.pastedBearer	此模板已带 Bearer。保存此机密时会去掉你粘贴的 Bearer 前缀。
+mcpMarketplace.authHeaders.pendingSecretsOAuth	切到 OAuth 前请保存或清空未存的机密值。
+mcpMarketplace.authHeaders.template	头模板
+mcpMarketplace.authHeaders.templatePlaceholder	Bearer ${API_KEY}
+mcpMarketplace.authHeaders.templateRequired	用带机密引用的头模板，如 Bearer ${API_KEY}。
+mcpMarketplace.connect	连接
+mcpMarketplace.connecting	正在连接…
+mcpMarketplace.connectionIncompleteBody	登录 {{name}} 以完成连接此 MCP 服务器。
+mcpMarketplace.connectionIncompleteTitle	连接未完成
+mcpMarketplace.customHeaderNameLabel	自定义头 {{index}} 名
+mcpMarketplace.customHeaderValueLabel	自定义头 {{index}} 值
+mcpMarketplace.editor.areYouSure	确定？
+mcpMarketplace.editor.authExpiredBody	请重连此集成以恢复访问。
+mcpMarketplace.editor.authExpiredTitle	认证已过期
+mcpMarketplace.editor.connectFailedBody	无法用配置的客户端凭据取令牌。检查客户端 ID、密钥和 scope 后重试。
+mcpMarketplace.editor.connectFailedTitle	无法连接
+mcpMarketplace.editor.connecting	正在连接…
+mcpMarketplace.editor.delete	删除
+mcpMarketplace.editor.deleteAllPersonalTokensBody	这会永久删除 {{name}} 的所有个人 OAuth 令牌。所有用户需重新认证。
+mcpMarketplace.editor.deleteAllPersonalTokensTitle	删除全部个人令牌？
+mcpMarketplace.editor.deleteInstallationBody	这会永久移除 {{name}} MCP 安装及其全部配置。
+mcpMarketplace.editor.deletePersonalToken	删除个人令牌
+mcpMarketplace.editor.deletePersonalTokenBody	这会永久删除你的 {{name}} 个人 OAuth 令牌。Devin 使用前需重新认证。
+mcpMarketplace.editor.deletePersonalTokenDescription	永久删除你此安装的个人 OAuth 令牌。你需要重新连接。
+mcpMarketplace.editor.deletePersonalTokenTitle	删除个人令牌？
+mcpMarketplace.editor.deletePersonalTokens	删除个人令牌
+mcpMarketplace.editor.deletePersonalTokensDescription	永久删除全部个人 OAuth 令牌。所有用户需重新认证。
+mcpMarketplace.editor.deleteServer	删除 MCP 服务器
+mcpMarketplace.editor.deleteServerDescription	从你的组织移除此 MCP 服务器
+mcpMarketplace.editor.deleteServerUserDescription	从你自己的安装中移除此 MCP 服务器。不影响其他成员。
+mcpMarketplace.editor.deleteUserInstallationBody	这会永久移除你的 {{name}} MCP 安装及其全部配置。不影响其他成员。
+mcpMarketplace.editor.deleteYourPersonalToken	删除你的个人令牌
+mcpMarketplace.editor.deleteYourPersonalTokenDescription	在个人设置的「连接」中管理或删除你自己的个人 OAuth 令牌。
+mcpMarketplace.editor.goToConnections	前往连接
+mcpMarketplace.editor.outOfDateBody	此安装已过期。更新它以同步市场最新连接设置。你的已存凭据保留。
+mcpMarketplace.editor.outOfDateTitle	安装已过期
+mcpMarketplace.editor.reconnect	重新连接
+mcpMarketplace.editor.reconnecting	正在重连…
+mcpMarketplace.editor.retry	重试
+mcpMarketplace.editor.updateFromMarketplace	从市场更新
+mcpMarketplace.editor.updating	正在更新…
+mcpMarketplace.enterpriseBadge	企业
+mcpMarketplace.environmentVariableNameLabel	环境变量 {{index}} 名
+mcpMarketplace.environmentVariableValueLabel	环境变量 {{index}} 值
+mcpMarketplace.googleProductivityScopes.descriptions.calendarEvents	允许 Devin 创建、更新、删除事件并回复邀请。
+mcpMarketplace.googleProductivityScopes.descriptions.calendarReadonly	允许 Devin 列出你的日历并读取事件。
+mcpMarketplace.googleProductivityScopes.descriptions.contactsOtherReadonly	允许 Devin 搜索你发过邮件但未存为联系人的人。
+mcpMarketplace.googleProductivityScopes.descriptions.contactsReadonly	允许 Devin 搜索你的 Google 联系人。
+mcpMarketplace.googleProductivityScopes.descriptions.gmailModify	允许 Devin 创建和发送草稿、回复和转发，并归档、删除和标记你的 Gmail 邮件。
+mcpMarketplace.googleProductivityScopes.descriptions.gmailReadonly	允许 Devin 搜索和读取你的 Gmail 邮件、草稿、标签和附件。
+mcpMarketplace.googleProductivityScopes.descriptions.openid	允许 Devin 识别你的 Google 账户。
+mcpMarketplace.googleProductivityScopes.descriptions.userinfoEmail	允许 Devin 查看你 Google 账户的邮箱地址。
+mcpMarketplace.googleProductivityScopes.rowDescription	选择 Devin 在你 Google 账户里能做什么。每个权限解锁特定工具，Devin 只能看到你权限允许的工具。必需权限始终包含。
+mcpMarketplace.importJsonParseError	无法解析配置。请粘贴有效 MCP JSON 配置（如来自 {{ideName}}、Devin CLI 或直接服务器配置）
+mcpMarketplace.installationNameLabel	安装名
+mcpMarketplace.installationNamePlaceholder	如 {{name}}（EU）
+mcpMarketplace.installationSectionDescription	Devin 用名称和短描述区分 MCP 服务器。
+mcpMarketplace.installationSectionTitle	安装
+mcpMarketplace.marketplaceServerLabel	市场服务器
+mcpMarketplace.memberConnectionsDisabledBody	管理员已关闭成员自行连接远程 MCP。请让管理员为组织添加此 MCP。
+mcpMarketplace.memberConnectionsDisabledTitle	只能连接管理员添加的 MCP
+mcpMarketplace.microsoft365Scopes.descriptions.calendarsRead	允许 Devin 列出和打开你的事件，含描述。
+mcpMarketplace.microsoft365Scopes.descriptions.calendarsReadBasic	允许 Devin 列出和打开你的事件（时间、标题、地点、与会者），不含描述或附件。
+mcpMarketplace.microsoft365Scopes.descriptions.calendarsReadWrite	还允许 Devin 在你日历上创建、更新和删除事件。
+mcpMarketplace.microsoft365Scopes.descriptions.channelMessageReadAll	允许 Devin 读取你能访问的团队频道中的帖子和回复。需要管理员同意。
+mcpMarketplace.microsoft365Scopes.descriptions.channelMessageSend	允许 Devin 以你的身份在团队频道发帖。
+mcpMarketplace.microsoft365Scopes.descriptions.channelReadBasicAll	允许 Devin 列出你团队的频道，以找到发帖位置。
+mcpMarketplace.microsoft365Scopes.descriptions.chatCreate	与 ChatMessage.Send 配合，允许 Devin 发起 1:1 聊天并给人发私信。
+mcpMarketplace.microsoft365Scopes.descriptions.chatMessageSend	允许 Devin 以你的身份在已有聊天中发消息。
+mcpMarketplace.microsoft365Scopes.descriptions.chatRead	Chat.ReadBasic 的替代：列出聊天和成员。Devin 没有读消息的工具。
+mcpMarketplace.microsoft365Scopes.descriptions.chatReadBasic	允许 Devin 列出你的聊天及其成员。不允许读消息。
+mcpMarketplace.microsoft365Scopes.descriptions.chatReadWrite	允许 Devin 列出聊天并在已有聊天中发消息。范围偏大：建议用 Chat.ReadBasic 和 ChatMessage.Send。
+mcpMarketplace.microsoft365Scopes.descriptions.contactsRead	允许 Devin 列出和读取你的 Outlook 联系人。
+mcpMarketplace.microsoft365Scopes.descriptions.contactsReadWrite	还允许 Devin 创建、更新和删除你的联系人。
+mcpMarketplace.microsoft365Scopes.descriptions.directoryReadAll	允许 Devin 通过目录数据搜索人员和查上级。需要管理员同意。
+mcpMarketplace.microsoft365Scopes.descriptions.filesRead	允许 Devin 浏览你的 OneDrive 并读文件内容。
+mcpMarketplace.microsoft365Scopes.descriptions.filesReadAll	同 Files.Read，但走覆盖你全部可访问文件的更大权限。仅在管理员授这个时才需要。
+mcpMarketplace.microsoft365Scopes.descriptions.filesReadWrite	还允许 Devin 上传文件、建文件夹、删文件并从共享链接打开文件。
+mcpMarketplace.microsoft365Scopes.descriptions.filesReadWriteAll	同 Files.ReadWrite，但走覆盖你全部可访问文件的更大权限。仅在管理员授这个时才需要。
+mcpMarketplace.microsoft365Scopes.descriptions.mailRead	允许 Devin 列出、搜索和读取你的邮件和文件夹。
+mcpMarketplace.microsoft365Scopes.descriptions.mailReadBasic	只允许 Devin 列出邮件文件夹。读邮件需要 Mail.Read。
+mcpMarketplace.microsoft365Scopes.descriptions.mailReadWrite	还允许 Devin 建草稿、归档、移动和标记邮件已读。不允许发送。
+mcpMarketplace.microsoft365Scopes.descriptions.mailSend	允许 Devin 以你的身份发邮件。
+mcpMarketplace.microsoft365Scopes.descriptions.offlineAccess	让 Devin 后台保持连接，你不用反复登录。
+mcpMarketplace.microsoft365Scopes.descriptions.sitesReadAll	同 Files.Read，但走 SharePoint 级权限。仅在管理员授这个时才需要。
+mcpMarketplace.microsoft365Scopes.descriptions.sitesReadWriteAll	同 Files.ReadWrite，但走 SharePoint 级权限。仅在管理员授这个时才需要。
+mcpMarketplace.microsoft365Scopes.descriptions.tasksRead	允许 Devin 读你的 To Do 列表和任务。
+mcpMarketplace.microsoft365Scopes.descriptions.tasksReadWrite	还允许 Devin 创建、更新、完成和删除你的任务。
+mcpMarketplace.microsoft365Scopes.descriptions.teamReadBasicAll	允许 Devin 列出你所在的团队。
+mcpMarketplace.microsoft365Scopes.descriptions.teamworkTagRead	允许 Devin 列出你团队的标签，以便在频道帖子里 @提及标签。需要管理员同意。
+mcpMarketplace.microsoft365Scopes.descriptions.userRead	允许 Devin 识别你的账户（姓名和邮箱）。
+mcpMarketplace.microsoft365Scopes.descriptions.userReadAll	还允许 Devin 查某人的上级。需要管理员同意。
+mcpMarketplace.microsoft365Scopes.descriptions.userReadBasicAll	允许 Devin 在你组织内搜人并读其基本档案（姓名、邮箱、职位）。
+mcpMarketplace.microsoft365Scopes.rowDescription	选择 Devin 在你 Microsoft 365 账户里能做什么。每个权限解锁特定工具，Devin 只能看到你权限允许的工具。必需权限始终包含。
+mcpMarketplace.multipleInstallationsBody	请在名称和短描述里写清细节，让 Devin 能把它和这些安装区分开：
+mcpMarketplace.multipleInstallationsTitle	Devin 将看到此服务器的多个安装
+mcpMarketplace.nameRequired	名称为必填项
+mcpMarketplace.nameTaken	此服务器已有名为「{{name}}」的安装
+mcpMarketplace.oauthCapabilityCheckFailedBody	Devin 无法检查此提供商。连接前请重试。
+mcpMarketplace.oauthCapabilityCheckFailedTitle	OAuth 设置检查失败
+mcpMarketplace.oauthCapabilityCheckingBody	Devin 正在检查此提供商能否安全启动 OAuth。
+mcpMarketplace.oauthCapabilityCheckingTitle	正在检查 OAuth 设置
+mcpMarketplace.oauthCapabilityUnknownBody	Devin 无法验证自动 OAuth 设置。查提供商文档。若提供商用 API key，选「授权头」，值用「Bearer ${MCP_API_KEY}」，再到「机密」区加一个名为「MCP_API_KEY」的只写机密。或者在「高级」下加预注册的 OAuth 客户端 ID。
+mcpMarketplace.oauthCapabilityUnknownTitle	无法验证 OAuth 设置
+mcpMarketplace.oauthScopeSelect.empty	未找到 scope
+mcpMarketplace.oauthScopeSelect.placeholder	选择 scope…
+mcpMarketplace.oauthScopeSelect.required	必需
+mcpMarketplace.oauthScopeSelect.searchPlaceholder	搜索 scope…
+mcpMarketplace.oauthSetupRequiredBody	此提供商不能自动创建 OAuth 客户端。API key 认证请选「授权头」，值用「Bearer ${MCP_API_KEY}」，再到「机密」区加一个名为「MCP_API_KEY」的只写机密。或者在「高级」下加预注册的 OAuth 客户端 ID。
+mcpMarketplace.oauthSetupRequiredTitle	需要 OAuth 设置
+mcpMarketplace.pluginLinkedBody	一个插件使用此 MCP 服务器并拥有其连接设置，不能在此编辑；其余设置你可改，仍可禁用它或移除安装。
+mcpMarketplace.pluginLinkedBodyNamed_one	{{plugins}} 插件使用此 MCP 服务器并拥有其连接设置，不能在此编辑；其余设置你可改，仍可禁用它或移除安装。
+mcpMarketplace.pluginLinkedBodyNamed_other	{{plugins}} 插件使用此 MCP 服务器并拥有其连接设置，不能在此编辑；其余设置你可改，仍可禁用它或移除安装。
+mcpMarketplace.pluginLinkedTitle	由插件管理
+mcpMarketplace.pluginUrlEditableHint	只有框出的部分可编辑。其余由插件设定。
+mcpMarketplace.pluginUrlIncomplete	保存前请填好服务器 URL 的输入部分
+mcpMarketplace.pluginUrlInvalidValue	URL 的输入部分只能含字母、数字、. _ 和 -
+mcpMarketplace.pluginUrlMoreValues	+{{count}} 更多
+mcpMarketplace.pluginUrlShowLess	收起
+mcpMarketplace.retry	重试
+mcpMarketplace.setupUnavailable	无法从市场加载 {{name}}。
+mcpMarketplace.shortDescriptionLabel	短描述
+mcpMarketplace.shortDescriptionPlaceholder	如 EU 生产账户的 {{name}}
+mcpMarketplace.testTools.description	查看此 MCP 可用工具
+mcpMarketplace.testTools.label	测试工具
+mcpMarketplace.testTools.test	测试
+mcpMarketplace.testTools.testing	正在测试…
+mcpMarketplace.writeOnlySecrets.add	添加机密
+mcpMarketplace.writeOnlySecrets.configurableDescription	此服务器的只写凭据，加密存储，保存后不再显示。在服务器配置里以 ${KEY} 引用。
+mcpMarketplace.writeOnlySecrets.configuredHint	已保存。输入新值以替换。
+mcpMarketplace.writeOnlySecrets.configuredPlaceholder	••••••••
+mcpMarketplace.writeOnlySecrets.declaredDescription	此服务器的只写凭据，加密存储，保存后不再显示。
+mcpMarketplace.writeOnlySecrets.delete	删除机密
+mcpMarketplace.writeOnlySecrets.empty	未添加机密
+mcpMarketplace.writeOnlySecrets.linkedPlaceholder	已关联组织机密。输入值以覆盖。
+mcpMarketplace.writeOnlySecrets.nameLabel	机密名
+mcpMarketplace.writeOnlySecrets.namePlaceholder	SECRET_NAME
+mcpMarketplace.writeOnlySecrets.placeholderDescription	先保存服务器，再在此为它加只写凭据。在服务器配置里以 ${KEY} 引用。
+mcpMarketplace.writeOnlySecrets.remove	移除机密
+mcpMarketplace.writeOnlySecrets.sectionTitle	机密
+mcpMarketplace.writeOnlySecrets.stdioDescription	此服务器的只写凭据，加密存储，保存后不再显示。它们设为服务器进程的环境变量；配置也可引用 ${KEY}。
+mcpMarketplace.writeOnlySecrets.unlink	从此 MCP 取消关联（组织机密不删除）
+mcpMarketplace.writeOnlySecrets.valueLabel	机密值
+mcpMarketplace.writeOnlySecrets.valuePlaceholder	值（只写）
+mcpServerCard.beta	Beta
+mcpServerCard.connectedViaIntegration	已通过集成连接
+mcpServerCard.officialMcp	官方 MCP
+mcpSetupSheet.add	添加
+mcpSetupSheet.addACustomMcp	添加自定义 MCP
+mcpSetupSheet.adding	正在添加…
+mcpSetupSheet.pointDevinAtAn	把 Devin 指向你自己运行的 MCP 服务器。连接后其工具在会话中可用。
+mcpShortcuts.createIssueLabel	建一个 Linear 工单
+mcpShortcuts.createJiraIssueLabel	建一个 Jira 工单
+mcpShortcuts.createPageLabel	建一个 Notion 页面
+mcpShortcuts.findThreadLabel	找一个 Slack 帖子
+mcpShortcuts.implementDesignLabel	从 Figma 实现一个设计
+mcpShortcuts.investigateIssueLabel	排查一个 Sentry 问题
+mcpShortcuts.linkPrLabel	把修复关联到 Sentry 问题
+mcpShortcuts.postCommentLabel	把评论发回 Figma
+mcpShortcuts.postUpdateLabel	发更新到 Slack
+mcpShortcuts.pullFileLabel	拉一个 Figma 文件
+mcpShortcuts.pullJiraIssueLabel	拉一个 Jira 工单
+mcpShortcuts.pullNodeLabel	拉指定的框架或组件
+mcpShortcuts.readPageLabel	读一个 Notion 页面
+mcpShortcuts.recentErrorsLabel	总结最近错误
+mcpShortcuts.searchConfluenceLabel	搜索 Confluence 文档
+mcpShortcuts.searchIssuesLabel	搜索 Linear 工单
+mcpShortcuts.searchNotionLabel	搜索 Notion
+mcpShortcuts.summarizeChannelLabel	总结一个 Slack 频道
+mcpShortcuts.triageIssueLabel	开始处理一个 Linear 工单
+mcpShortcuts.updateStatusLabel	在 Linear 工单上评论状态
+mcpSubmitInstallation.cannotDeleteInstallationMissing	无法删除安装：缺服务器或安装 ID
+mcpSubmitInstallation.cannotDeletePersonalTokens	无法删除个人令牌：缺服务器或安装 ID
+mcpSubmitInstallation.cannotToggleServerMissing	无法切换服务器：缺服务器或安装 ID
+mcpSubmitInstallation.cannotUpdateInstallationMissing	无法更新安装：缺服务器或安装 ID
+mcpSubmitInstallation.connectedSuccessfully	连接成功！
+mcpSubmitInstallation.eachEnvironmentVariableMust	每个环境变量必须含键和值。
+mcpSubmitInstallation.failedToAcquireToken	获取令牌失败
+mcpSubmitInstallation.failedToCreateInstallation	创建安装失败。请重试。
+mcpSubmitInstallation.failedToDeleteInstallation	删除安装失败。请重试。

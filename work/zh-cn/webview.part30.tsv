@@ -1,0 +1,339 @@
+codeScan.med	中
+codeScan.medium	中
+codeScan.mediumShort	中
+codeScan.mergedPRs_one	{{count}} 个已合并 PR
+codeScan.mergedPRs_other	{{count}} 个已合并 PR
+codeScan.minuteWithinHour	小时内第几分钟
+codeScan.modeBulkWhen	最适合一次覆盖整个组织。每个匹配仓库各跑一次独立扫描，不会把仓库放在一起分析。
+codeScan.modeDiscover	发现型
+codeScan.modeDiscoverTooltip	用此档案的扫描分析你的代码以发现新问题。
+codeScan.modeIngest	导入型
+codeScan.modeIngestTitle	导入发现项
+codeScan.modeIngestTooltip	用此档案的扫描从你的工具或报告导入已有发现项。
+codeScan.modeIngestWhen	最适合把你现有工具或报告里的发现项带进 Devin。Devin 不发现新问题，而是导入并分诊你已有的发现项。
+codeScan.modeMultiTitle	多仓库
+codeScan.modeMultiWhen	最适合微服务或相互交互的仓库。Devin 在一次扫描中把所有所选仓库放在一起分析，能抓跨仓库边界的问题。
+codeScan.modeSingleTitle	单仓库
+codeScan.modeSingleWhen	最适合聚焦扫描一个代码库。Devin 分析该仓库并在一次扫描中报告所有发现项。
+codeScan.monday	星期一
+codeScan.moreActions	更多操作
+codeScan.multiModel	多模型
+codeScan.multiModelDescription	每个扫描阶段用不同的执行模型。
+codeScan.multiRepoNoneSelected	未选择
+codeScan.multiRepoSelected_one	已选 {{count}} 个
+codeScan.multiRepoSelected_other	已选 {{count}} 个
+codeScan.mythosFusion	Fusion
+codeScan.mythosFusionDescription	Claude Mythos 主导扫描并把执行交给 SWE-2。
+codeScan.newProfile	新建档案
+codeScan.newProfileCrumb	新建档案
+codeScan.newScan	新建扫描
+codeScan.nextFinding	下一个
+codeScan.nextScan	下一次扫描
+codeScan.noAutomationsYet	还没有发现项自动化
+codeScan.noDescriptionProvided	没有提供描述。
+codeScan.noDismissed	没有已忽略的发现项。
+codeScan.noDismissedFindings	无已忽略发现项
+codeScan.noFindingsFound	无发现项
+codeScan.noFindingsInPeriod	此期间无发现项
+codeScan.noFindingsYet	还没有发现项
+codeScan.noIngestProfilesYet	还没有导入型档案
+codeScan.noMatchingAutomations	无匹配自动化
+codeScan.noMatchingFindings	无匹配你筛选的发现项
+codeScan.noMatchingFindingsDescription	换个筛选试试，或清空筛选看此阶段全部发现项。
+codeScan.noMatchingProfiles	无匹配档案
+codeScan.noMatchingScans	无匹配扫描
+codeScan.noNewCommits	自上次扫描后没有新提交
+codeScan.noOpenFindings	无打开的发现项
+codeScan.noPermission	你没有使用代码扫描的权限
+codeScan.noPermissionCodeScans	你没有使用代码扫描的权限
+codeScan.noPermissionEditProfile	你没有编辑此档案的权限
+codeScan.noProfile	无档案
+codeScan.noProfilesYet	还没有档案
+codeScan.noReferences	此发现项没有代码引用。
+codeScan.noReposMatch	没有匹配「{{search}}」的仓库
+codeScan.noReposMatchFilters	没有匹配所选筛选的仓库。
+codeScan.noResolved	还没有已审查的发现项。
+codeScan.noReviewedFindings	无已审查发现项
+codeScan.noSandboxValidation	无沙箱验证
+codeScan.noScanModel	无扫描模型
+codeScan.noScanModelYet	还没有生成扫描模型。
+codeScan.noScanProfilesYet	还没有扫描档案
+codeScan.noScanTypesAvailable	还没有可用扫描类型
+codeScan.noScanTypesAvailableDescription	预制扫描类型可用后会出现在这里。
+codeScan.noScanTypesMatch	没有匹配你搜索的扫描类型。
+codeScan.noScansQueued	没有扫描进入队列。启动时没有仓库匹配。检查你的扫描设置后重试。
+codeScan.noScansYet	还没有扫描
+codeScan.none	无
+codeScan.notSet	未设置
+codeScan.notValidated	未验证
+codeScan.note	备注
+codeScan.openInSecurity	在「安全」中打开
+codeScan.openPRs_one	{{count}} 个打开 PR
+codeScan.openPRs_other	{{count}} 个打开 PR
+codeScan.openPrInGitHub	在 GitHub 中打开 PR
+codeScan.openReportInNewTab	在新标签页打开报告
+codeScan.openRepository	打开仓库
+codeScan.openResolvedCounts	{{open}} 个打开 · {{resolved}} 个已解决
+codeScan.organization	组织
+codeScan.outcomeBulk_one	启动 {{count}} 次扫描
+codeScan.outcomeBulk_other	启动 {{count}} 次扫描
+codeScan.outcomeMulti_one	跨 {{count}} 个仓库启动 1 次扫描
+codeScan.outcomeMulti_other	跨 {{count}} 个仓库启动 1 次扫描
+codeScan.outcomeSingle	对 {{repo}} 启动 1 次扫描
+codeScan.overview	概览
+codeScan.pauseScan	暂停扫描
+codeScan.pauseScanTooltip	让 Devin 休眠。扫描保留进度，恢复时从停下的地方继续。
+codeScan.paused	已暂停
+codeScan.pausingScan	正在暂停扫描…
+codeScan.perforceChangelist	变更列表
+codeScan.perforceChangelistNumber	CL {{changelist}}
+codeScan.perforceChangelistShelved	CL {{changelist}} 已搁置
+codeScan.perforceChangelistSubmitted	已提交为 CL {{changelist}}
+codeScan.perforceShelfDeleted	已删除搁置
+codeScan.pilotDeepScanUsed	此试点的免费深度扫描还没设置好、已用完或已过期。联系你的 Cognition 团队获取更多深度扫描。
+codeScan.postIngestionDescription	导入后，Devin 按你的策略分诊发现项：忽略哪些、调优先级、或视作重复。
+codeScan.postIngestionPlaceholder	如：忽略测试夹具里的发现项。规则 ID 和文件相同的发现项按重复处理…
+codeScan.postIngestionTitle	导入后分诊
+codeScan.prClosedUnmerged	PR 未合并即关闭
+codeScan.prReviewSeverityCritical	Devin Review 中的严重
+codeScan.prReviewSeverityInfo	Devin Review 中的提示
+codeScan.prReviewSeverityModerate	Devin Review 中的中等
+codeScan.prReviewSeveritySevere	Devin Review 中的高
+codeScan.prReviewSeverityWarning	Devin Review 中的警告
+codeScan.prReviewStatusOwned	此发现项的状态由 Devin Review 管理。请在 Devin Review 的拉取请求中更改。
+codeScan.previewButton	预览
+codeScan.previousFinding	上一个
+codeScan.primaryRepo	主仓库
+codeScan.profile	档案
+codeScan.profileActions	档案操作
+codeScan.profileArchived	档案已归档
+codeScan.profileChanged	档案已更新
+codeScan.profileLabel	档案：
+codeScan.profileLoadError	无法加载此扫描档案。
+codeScan.profileNamePlaceholder	档案名
+codeScan.profileNotFound	未找到档案。
+codeScan.profileRequiredDescription	档案告诉 Devin 此扫描要找什么、如何报告发现项。运行此扫描类型需要先建一个。
+codeScan.profileRequiredTitle	此扫描类型需要档案
+codeScan.profileSheetDescription	档案帮助 Devin 一致地对仓库执行和报告代码扫描
+codeScan.profileSheetDescriptionLabel	描述
+codeScan.profileSheetDescriptionPlaceholder	描述此档案的用途…
+codeScan.profileSheetDiscoverDescription	分析代码以发现新问题
+codeScan.profileSheetDiscoverTitle	发现型
+codeScan.profileSheetExcludeGlobsDescription	匹配的文件模式被排除
+codeScan.profileSheetIncludeGlobsDescription	匹配的文件模式被包含
+codeScan.profileSheetIngestDescription	从外部工具或报告导入发现项
+codeScan.profileSheetIngestTitle	导入型
+codeScan.profileSheetInvestigationPlaceholder	告诉 Devin 如何排查和分诊发现项…
+codeScan.profileSheetName	名称
+codeScan.profileSheetPostIngestionDescription	导入后按你的策略分诊发现项
+codeScan.profileSheetRemediationPlaceholder	告诉 Devin 如何修复发现项…
+codeScan.profileSheetRemoveGlob	移除 {{glob}}
+codeScan.profileSheetReportDescription	扫描完成后生成带附件的汇总报告
+codeScan.profileSheetReportTitle	生成报告
+codeScan.profileSheetSandboxValidationDescription	在沙箱 Devin 会话中验证每个发现项
+codeScan.profileSheetScanModelPlaceholder	告诉 Devin 如何识别潜在发现项…
+codeScan.profileSheetScanTypeDescription	选择扫描类型
+codeScan.profileSheetTriagePlaceholder	告诉 Devin 如何去重和排优先级…
+codeScan.profileSheetType	档案类型
+codeScan.profiles	档案
+codeScan.profilesCustomize	档案可自定义扫描分析代码的方式。
+codeScan.promoCardTitle	Mythos 促销
+codeScan.promoDeepRepos	深度扫描
+codeScan.promoExpires	{{date}} 截止
+codeScan.promoFreeBadge	免费（促销）
+codeScan.promoNormalRepos	普通扫描
+codeScan.promoRemaining_one	Devin for Security 促销：还剩 1 个仓库可免费扫描。
+codeScan.promoRemaining_other	Devin for Security 促销：还剩 {{count}} 个仓库可免费扫描。
+codeScan.promoReposLeft_one	还剩 {{count}} 个仓库
+codeScan.promoReposLeft_other	还剩 {{count}} 个仓库
+codeScan.promoScansLabel	Mythos 促销
+codeScan.promoScansUsed	已用 {{used}}/{{limit}} 次 Mythos 促销扫描
+codeScan.promoUsageTooltip	免费扫描会话在有人发消息后仍可能计 ACU，修复会话始终计费。
+codeScan.provideFeedback	提供反馈
+codeScan.provideFeedbackHint	补充上下文让 Devin 更新此扫描档案、改进以后的扫描
+codeScan.provideScanModelFeedback	对扫描模型提供反馈
+codeScan.prsMergedOpen	已合并 {{merged}} · 打开 {{open}}
+codeScan.pullRequest	拉取请求
+codeScan.queued	排队中
+codeScan.queuedScans_one	已排队 {{count}} 次扫描
+codeScan.queuedScans_other	已排队 {{count}} 次扫描
+codeScan.quickPromptFixCritical	修复全部严重发现项
+codeScan.quickPromptFixHigh	修复全部高危发现项
+codeScan.quickPromptReport	总结此扫描
+codeScan.quickPromptTriage	分诊并排优先级
+codeScan.quickWinsDescription	小而易的修复
+codeScan.quickWinsDismiss	忽略此推荐
+codeScan.quickWinsFixAll_one	修复 {{count}} 个发现项
+codeScan.quickWinsFixAll_other	修复全部 {{count}} 个发现项
+codeScan.quickWinsNext	下一个速赢
+codeScan.quickWinsOpenFinding	打开发现项
+codeScan.quickWinsPosition	{{total}} 中第 {{position}}
+codeScan.quickWinsPrevious	上一个速赢
+codeScan.quickWinsTitle_one	Devin 建议先从 {{count}} 个速赢入手
+codeScan.quickWinsTitle_other	Devin 建议先从 {{count}} 个速赢入手
+codeScan.quotaWarning	扫描消耗你的配额。仓库越大、首次扫描用得越多。档案有助于控制成本。
+codeScan.quotaWarningChatgptPlan	扫描不含在你的 ChatGPT 方案内，会消耗你的 Devin 配额。仓库越大、首次扫描用得越多。档案有助于控制成本。
+codeScan.recommended	推荐
+codeScan.recoverScan	恢复扫描
+codeScan.recovering	正在恢复…
+codeScan.redTeamTarget	目标
+codeScan.references	引用
+codeScan.remediation	修复
+codeScan.remediationFix	修复
+codeScan.remediationGuidanceTitle	修复指引
+codeScan.remediationPrs	修复 PR
+codeScan.remediationRecommendation	修复方法
+codeScan.remediationSession	修复会话
+codeScan.removeAttachment	移除附件
+codeScan.reopenFinding	重开发现项
+codeScan.repeatCustom	自定义计划
+codeScan.repeatDaily	每天
+codeScan.repeatEvery	每隔
+codeScan.repeatMonthly	每月
+codeScan.repeatNone	不重复
+codeScan.repeatOn	重复于
+codeScan.repeatOnDay	重复于某日
+codeScan.repeatWeekly	每周
+codeScan.repoNameFilter	仓库名筛选
+codeScan.repoNameFilterDescription	按名称筛选仓库。每个匹配仓库各跑一次扫描。
+codeScan.repoOverride	仓库覆盖
+codeScan.repoOverridePlaceholder	owner/repo
+codeScan.repoPrClosed	{{count}} 个已关闭
+codeScan.repoPrMerged	{{count}} 个已合并
+codeScan.repoPrOpen	{{count}} 个打开
+codeScan.reportHeadings.howItWorks	原理
+codeScan.reportHeadings.stepsToReproduce	复现步骤
+codeScan.reportHeadings.tldr	TL;DR
+codeScan.reportHeadings.whatTheyGet	能拿到什么
+codeScan.reportHeadings.whatsWrong	问题在哪
+codeScan.reportHeadings.whoCanDoIt	谁能做到
+codeScan.reportLoadFailed	无法加载此报告——试试在新标签页打开。
+codeScan.reportPlaceholder	报告应包含什么的指令…
+codeScan.reports	报告
+codeScan.repositories	仓库
+codeScan.repository	仓库
+codeScan.repositoryActions	仓库操作
+codeScan.repositoryCount_one	{{count}} 个仓库
+codeScan.repositoryCount_other	{{count}} 个仓库
+codeScan.resolution	处理
+codeScan.resolveFindingTitle	标记发现项为已审查
+codeScan.resolveFindingsDescription	此备注作用于每个所选发现项
+codeScan.resolveFindingsTitle_one	把 {{count}} 个发现项标为已审查
+codeScan.resolveFindingsTitle_other	把 {{count}} 个发现项标为已审查
+codeScan.respondToDevin	直接回答 Devin 的问题，或问别的
+codeScan.restoreRepoAccess	在<connectionsLink>Git 连接</connectionsLink>中恢复访问，然后重新扫描。
+codeScan.resumeScan	恢复扫描
+codeScan.retry	重试
+codeScan.retrySelectAll	重试选择
+codeScan.reviewFeedbackReady	扫描模型就绪后你可以审查并提供反馈。
+codeScan.reviewScan	审查扫描
+codeScan.reviewed	已审查
+codeScan.reviewedOfTotal	{{total}} 中 {{reviewed}} 个
+codeScan.rulesGenerated_one	Devin 为此扫描生成了 {{count}} 条规则。
+codeScan.rulesGenerated_other	Devin 为此扫描生成了 {{count}} 条规则。
+codeScan.rulesInvestigated_one	Devin 先排查这条规则，过程中可能发现更多发现项。
+codeScan.rulesInvestigated_other	Devin 先排查这 {{count}} 条规则，过程中可能发现更多发现项。
+codeScan.runFailed	失败
+codeScan.runFull	全量扫描
+codeScan.runGroupToday	今天
+codeScan.runGroupYesterday	昨天
+codeScan.runHistory	此扫描每次运行的记录，最新在前
+codeScan.runIncremental	增量
+codeScan.runScan	运行扫描
+codeScan.runScansNoneSelected	运行扫描
+codeScan.runScans_one	运行 {{count}} 次扫描
+codeScan.runScans_other	运行 {{count}} 次扫描
+codeScan.running	运行中…
+codeScan.runsEmpty	此扫描还没有运行过。
+codeScan.sandboxValidation	沙箱验证
+codeScan.sandboxValidationPlaceholder	关于 Devin 应如何在沙箱中验证发现项的指令…
+codeScan.sandboxValidationTitle	沙箱验证
+codeScan.saturday	星期六
+codeScan.saveChanges	保存
+codeScan.saveMachine	保存
+codeScan.saveProfile	保存
+codeScan.saveSchedule	保存计划
+codeScan.savingMachine	正在保存…
+codeScan.savingProfile	正在保存…
+codeScan.scan	扫描
+codeScan.scanActions	扫描操作
+codeScan.scanArchived	扫描已归档
+codeScan.scanAwaitingInputTitle	Devin 需要你的输入
+codeScan.scanCancelled	扫描已取消
+codeScan.scanDetails	扫描详情
+codeScan.scanEffort	扫描深度
+codeScan.scanEffortDeep	深度
+codeScan.scanEffortDeepDescription	用前沿模型更彻底地排查复杂漏洞
+codeScan.scanEffortDeepFrontierDescription	用前沿模型（包括 Claude Mythos）更彻底地排查漏洞
+codeScan.scanEffortDeepFrontierTitle	<accent>前沿安全模型</accent>深度扫描
+codeScan.scanEffortDeepLockedEnterpriseOnlyTooltip	Claude Mythos 深度扫描仅企业方案可用。
+codeScan.scanEffortDeepLockedTooltip	联系你的账户团队获取前沿模型深度扫描。
+codeScan.scanEffortDeepTitle	深度扫描
+codeScan.scanEffortNormal	普通
+codeScan.scanEffortNormalDescription	兼顾速度与深度地发现安全漏洞
+codeScan.scanEffortNormalTitle	普通扫描
+codeScan.scanEffortTooltip	此扫描以 {{mode}} 深度运行
+codeScan.scanFailed	扫描失败
+codeScan.scanFailedDescription	Devin 无法完成此扫描。请尝试启动新扫描。
+codeScan.scanFailedPartialDescription	最近一次运行未完成。扫描结果可能不完整。
+codeScan.scanFailedSessionEndedDescription	此扫描的会话在扫描完成前结束，无法恢复。扫描结果可能不完整。
+codeScan.scanFindingsAwaitingInput	Devin 在聊天中等待你的输入
+codeScan.scanHistory	扫描历史
+codeScan.scanInProgress	扫描进行中
+codeScan.scanLaunchedTitle	扫描已启动：{{title}}
+codeScan.scanLinkCopied	扫描链接已复制
+codeScan.scanMode	扫描模式
+codeScan.scanModel	扫描模型
+codeScan.scanModelDescription	扫描生成模型后会显示在这里。
+codeScan.scanModelHint	Devin 如何识别潜在发现项
+codeScan.scanModelLabel	扫描模型
+codeScan.scanModelPlaceholder	关于 Devin 应如何识别潜在发现项的指令…
+codeScan.scanModes	扫描模式
+codeScan.scanNewCommits	扫描新提交
+codeScan.scanNoAccess	你没有此扫描的访问权限
+codeScan.scanNoAccessDescription	请向组织管理员申请权限
+codeScan.scanNoAccessNeedsPermission	请向组织管理员申请「{{permission}}」权限
+codeScan.scanNotFound	未找到扫描
+codeScan.scanNotFoundDescription	检查链接，或切换到运行此扫描的组织
+codeScan.scanNotStarted	扫描未开始
+codeScan.scanNotStartedDescription	此会话在 Devin 开始扫描前就结束了。
+codeScan.scanNow	立即扫描
+codeScan.scanNowAskOwnerSession	要现在扫描新提交，请在此扫描的会话中提出。
+codeScan.scanPageTitle	开始你的扫描
+codeScan.scanPausedForUsage	扫描已暂停：用量不足
+codeScan.scanPausedForUsageDescription	你的进度已保存。用量恢复后继续此扫描。
+codeScan.scanProfile	扫描档案
+codeScan.scanProfileHeading	扫描档案
+codeScan.scanProfileRequiredTooltip	此扫描类型没有默认行为——档案定义它找什么、如何报告发现项。
+codeScan.scanProfileTooltip	没有档案时 Devin 做通用扫描。档案让你自定义要查的发现项类型和模式。
+codeScan.scanProgressBeforeStart	扫描开始后通常约 {{minutes}} 分钟
+codeScan.scanProgressOverrun	比平时更久
+codeScan.scanProgressPaused	已暂停，等你在聊天中回复
+codeScan.scanProgressRemaining_one	约剩 1 分钟
+codeScan.scanProgressRemaining_other	约剩 {{count}} 分钟
+codeScan.scanQueued	扫描已排队
+codeScan.scanQueuedTitle	你的扫描在队列中
+codeScan.scanRepoAccessLost	Devin 无法再访问 {{repo}}。
+codeScan.scanReposAccessLost	Devin 无法再访问此扫描中的一个或多个仓库。
+codeScan.scanResumed	扫描已恢复
+codeScan.scanRowTitle	对 {{repo}} 的 {{type}} 扫描
+codeScan.scanRunningDescription	发现项确认后会立即出现在这里。扫描时长取决于仓库大小。
+codeScan.scanSession	扫描会话
+codeScan.scanSheetAcuDescription	仓库越大、首次扫描用 ACU 越多。用档案帮助控制扫描成本。
+codeScan.scanSheetAutoScan	自动扫描
+codeScan.scanSheetAutoScanDescription	定期扫描新提交以发现并修复问题
+codeScan.scanSheetBulkScan	批量扫描
+codeScan.scanSheetBulkSuggestionLink	试试批量扫描
+codeScan.scanSheetBulkSuggestionTitle	要扫超过 {{count}} 个仓库？
+codeScan.scanSheetBulkTargetDescription	搜索后全选，即可扫描每个匹配项。每个仓库各跑一次扫描。
+codeScan.scanSheetConfiguration	配置
+codeScan.scanSheetConfigureDescription	选择仓库并定义 Devin 要扫哪些安全漏洞
+codeScan.scanSheetConfigureScan	配置扫描
+codeScan.scanSheetConfigureScanDescription	设定你的安全扫描的重点和深度
+codeScan.scanSheetEffort	深度
+codeScan.scanSheetEffortDescription	选择 Devin 排查代码的彻底程度。深度越高耗时越长、ACU 越多
+codeScan.scanSheetEffortSectionDescription	设定你的安全扫描的深度
+codeScan.scanSheetIngestDescription	把其他工具的发现项带进来让 Devin 分诊
+codeScan.scanSheetIngestionProfile	导入型档案
+codeScan.scanSheetIngestionProfileDescription	告诉 Devin 你的发现项在哪里、如何导入
+codeScan.scanSheetInteractiveDescription	在会话中与 Devin 协作打磨扫描模型

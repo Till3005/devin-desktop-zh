@@ -1,0 +1,276 @@
+coach.blockerGroups.emptyDescription.blocked	当只有你的团队能修的问题挡住了 Devin 会话时，阻塞项会出现在这里。
+coach.blockerGroups.emptyDescription.slowed	当只有你的团队能修的问题让 Devin 不得不绕路时，阻塞项会出现在这里。
+coach.blockerGroups.error	加载阻塞项时出错。
+coach.blockerGroups.filter.active	未解决
+coach.blockerGroups.filter.all	全部
+coach.blockerGroups.filter.dismissed	已忽略
+coach.blockerGroups.filter.resolved	已解决
+coach.blockerGroups.impact.blocked_one	{{value}} 个会话
+coach.blockerGroups.impact.blocked_other	{{value}} 个会话
+coach.blockerGroups.impact.slowed	{{value}} ACU
+coach.blockerGroups.kpi.atLeast	{{value}}+
+coach.blockerGroups.kpi.count.active	未解决阻塞项
+coach.blockerGroups.kpi.count.all	阻塞项
+coach.blockerGroups.kpi.count.dismissed	已忽略阻塞项
+coach.blockerGroups.kpi.count.resolved	已解决阻塞项
+coach.blockerGroups.kpi.countTooltip	不同的坏资源数量，每项聚合了所有撞上它的会话。
+coach.blockerGroups.kpi.countTooltipTruncated	只加载了影响最大的 {{limit}} 个阻塞项，因此这些总数是下限。
+coach.blockerGroups.kpi.impact.blocked	被阻塞的会话
+coach.blockerGroups.kpi.impact.slowed	浪费的 ACU
+coach.blockerGroups.kpi.impactTooltip.blocked	因这些阻塞项无法完成的会话，每个撞上的阻塞项各计一次。
+coach.blockerGroups.kpi.impactTooltip.slowed	Devin 在仍然完成的会话中为绕过这些阻塞项估算多花的 ACU。
+coach.blockerGroups.kpi.topCategory	最多类别
+coach.blockerGroups.kpi.topCategoryTooltip.blocked	阻塞会话最多的类别。
+coach.blockerGroups.kpi.topCategoryTooltip.slowed	造成浪费 ACU 最多的类别。
+coach.blockerGroups.kpi.topCategoryTooltipTruncated	按已加载的影响最大的 {{limit}} 个阻塞项排序，不是全账户。
+coach.blockerGroups.listDescription.blocked	按被阻塞会话数排序。选中一行看它出现的每个会话
+coach.blockerGroups.listDescription.slowed	按浪费 ACU 排序。选中一行看它出现的每个会话
+coach.blockerGroups.listTitle	阻塞项
+coach.blockerGroups.occurrences.cannotOpen	你无法打开的会话
+coach.blockerGroups.occurrences.empty	此时间范围内无会话
+coach.blockerGroups.occurrences.error	无法加载会话。
+coach.blockerGroups.occurrences.loadMore	加载更多
+coach.blockerGroups.occurrences.severity.blocked	已阻塞
+coach.blockerGroups.occurrences.severity.slowed	已拖慢
+coach.blockerGroups.occurrences.title_one	{{count}} 个会话
+coach.blockerGroups.occurrences.title_other	{{count}} 个会话
+coach.blockerGroups.occurrences.untitled	未命名会话
+coach.blockerGroups.severity.blocked	已阻塞
+coach.blockerGroups.severity.slowed	已拖慢
+coach.blockerGroups.severityLabel	阻塞项严重性
+coach.blockerGroups.status.active	未解决
+coach.blockerGroups.status.dismissed	已忽略
+coach.blockerGroups.status.resolved	已解决
+coach.blockerGroups.statusFilterLabel	按状态筛选阻塞项
+coach.blockerGroups.title	阻塞项报告
+coach.blockerGroups.trend.description.blocked	最近 {{days}} 天每天（UTC）被阻塞的会话数，按类别
+coach.blockerGroups.trend.description.slowed	最近 {{days}} 天每天（UTC）浪费的 ACU，按类别
+coach.blockerGroups.trend.empty.blocked	最近 {{days}} 天没有被阻塞的会话
+coach.blockerGroups.trend.empty.slowed	最近 {{days}} 天没有可计量的浪费 ACU
+coach.blockerGroups.trend.error	无法加载阻塞项趋势
+coach.blockerGroups.trend.tableDay	天
+coach.blockerGroups.trend.title	阻塞项趋势
+coach.blockerGroups.windowDays	{{days}} 天
+coach.blockerGroups.windowFilterLabel	时间范围
+coach.blockerReporterWithOthers	{{name}} +{{count}}
+coach.blockersDescription_one	最近一天 Devin 遇到的问题，按原因分组、按影响排序
+coach.blockersDescription_other	最近 {{count}} 天 Devin 遇到的问题，按原因分组、按影响排序
+coach.blockersError	加载已报告阻塞项时出错。
+coach.blockersTitle	阻塞项
+coach.columnMembers	成员
+coach.columnSource	来源
+coach.columnSuggestion	建议
+coach.defaultFindingRecommendation	审查这些会话，找出让 Devin 发挥更大价值的方法。
+coach.emptyTitle	还没有教练活动
+coach.errorTitle	无法加载教练分析
+coach.findingTypes.argueLoop.label	分歧循环
+coach.findingTypes.argueLoop.recommendation	来回拉扯卡住时，从头重述需求，而不是继续争论。
+coach.findingTypes.blockedDomainLoop.label	域名被拦重试
+coach.findingTypes.blockedDomainLoop.recommendation	把 Devin 需要的域名加白名单，或提前告诉它哪些不可达。
+coach.findingTypes.brokenOrStaleDrs.label	环境设置损坏或过期
+coach.findingTypes.brokenOrStaleDrs.recommendation	刷新仓库的快照/设置，别让 Devin 每个会话都重做环境。
+coach.findingTypes.contextDumpNoTask.label	只有上下文没有任务
+coach.findingTypes.contextDumpNoTask.recommendation	粘贴线程或文档时，说明 Devin 到底该做什么。
+coach.findingTypes.contradictoryPrompt.label	需求互相矛盾
+coach.findingTypes.contradictoryPrompt.recommendation	发送前检查提示词里有没有互相冲突的需求。
+coach.findingTypes.emotionalVenting.label	只发泄没指令
+coach.findingTypes.emotionalVenting.recommendation	发泄的同时给一条具体指令，Devin 才知道怎么纠正。
+coach.findingTypes.flakyCiLoop.label	不稳定 CI 循环
+coach.findingTypes.flakyCiLoop.recommendation	告诉 Devin 哪些 CI 失败是不稳定/无关的，别让它反复纠结。
+coach.findingTypes.largePr.label	过大的 PR
+coach.findingTypes.largePr.recommendation	把大改动拆成更小的堆叠 PR 和会话——审查合并都更快。
+coach.findingTypes.mergeConflictRot.label	陈旧分支冲突
+coach.findingTypes.mergeConflictRot.recommendation	长寿 PR 尽早合并或关闭，别等它烂成解冲突的活。
+coach.findingTypes.misleadingKnowledge.label	过时的知识
+coach.findingTypes.misleadingKnowledge.recommendation	审查并清理与代码库不再匹配的知识笔记。
+coach.findingTypes.missingEnvContext.label	缺环境上下文
+coach.findingTypes.missingEnvContext.recommendation	指明分支、环境和服务，Devin 才能在正确的目标上干活。
+coach.findingTypes.multitaskingInSession.label	一个会话多个任务
+coach.findingTypes.multitaskingInSession.recommendation	互不相关的任务分开开会话，每个都能保留完整上下文。
+coach.findingTypes.narrowUsage.label	用法太窄
+coach.findingTypes.narrowUsage.recommendation	让 Devin 试试更多类型的活——审查、迁移、测试——更物有所值。
+coach.findingTypes.noPlanBeforeImpl.description	提示词让 Devin 直接实现本该先规划的东西。先规划能让你和 Devin 对齐规格，避免 ACU 花在不想要的实现上。
+coach.findingTypes.noPlanBeforeImpl.label	实现前没有计划
+coach.findingTypes.noPlanBeforeImpl.recommendation	让 Devin 写代码前先确认计划，避免中途返工。
+coach.findingTypes.noRepoSpecified.label	未指定仓库
+coach.findingTypes.noRepoSpecified.recommendation	在第一条提示词里点名仓库，Devin 才能从正确的地方开始。
+coach.findingTypes.nonWorkUsage.description	提示词与工作无关。Devin 建议清空提示词，别把用量花在不产生业务价值的事上。
+coach.findingTypes.nonWorkUsage.label	非工作用途
+coach.findingTypes.nonWorkUsage.recommendation	让会话聚焦工程工作，用量才花得值。
+coach.findingTypes.repeatedTaskNoSkill.label	重复任务却没有技能
+coach.findingTypes.repeatedTaskNoSkill.recommendation	把反复跑的任务做成技能或 Playbook，Devin 一次就能做对。
+coach.findingTypes.screenshotOnlyBug.label	只有截图的缺陷报告
+coach.findingTypes.screenshotOnlyBug.recommendation	报缺陷时带上复现步骤和上下文，别只发截图。
+coach.findingTypes.sessionAbandonment.label	被遗弃的会话
+coach.findingTypes.sessionAbandonment.recommendation	收尾或终止会话，别让 Devin 一直等输入。
+coach.findingTypes.unsavedRepeatedCorrection.label	重复纠正却没保存
+coach.findingTypes.unsavedRepeatedCorrection.recommendation	同一事实纠正 Devin 两次时，把它存为知识或技能。
+coach.kpiAcceptedTooltip	被采纳的建议。
+coach.kpiRejectedTooltip	被驳回的建议。
+coach.kpiSuggestionsShown	已展示建议
+coach.kpiSuggestionsShownTooltip	Devin 在你写提示词和工作时给出的指导建议。
+coach.kpiTopSuggestion	最多建议
+coach.otherCategory	其他
+coach.outcomeAccepted	已采纳
+coach.outcomeNoResponse	无响应
+coach.outcomeRejected	已拒绝
+coach.shown	已展示
+coach.sourceFinding	教练发现
+coach.sourcePrecheck	提示词检查
+coach.suggestionsDescription	按建议类型的结果。选中一行可收窄上方趋势
+coach.suggestionsTitle	建议
+coach.trendDescriptionFocused_one	最近一天每天按结果的 {{suggestion}} 建议数
+coach.trendDescriptionFocused_other	最近 {{count}} 天每天按结果的 {{suggestion}} 建议数
+coach.trendDescription_one	最近一天每天按结果的建议数
+coach.trendDescription_other	最近 {{count}} 天每天按结果的建议数
+coach.trendTitle	趋势
+coach.tryAgain	重试
+coach.untitledBlocker	未命名阻塞项
+coachPrecheck.actions.clearPrompt	清空提示词
+coachPrecheck.actions.createPlan	创建计划
+coachPrecheck.actions.splitTasks	拆成子会话
+coachPrecheck.actions.startCodeScan	启动代码扫描
+coachPrecheck.actions.startNewSession	开始新会话
+coachPrecheck.actions.switchMode	切换模式
+coachPrecheck.back	返回
+coachPrecheck.confirmTitle	确认发送消息
+coachPrecheck.dismiss	忽略
+coachPrecheck.findingDetails	显示发现详情
+coachPrecheck.noPlanBeforeImpl.caption	考虑先让 Devin 出计划再实现
+coachPrecheck.noPlanBeforeImpl.label	实现前没有计划
+coachPrecheck.noPlanBeforeImpl.recommendation	让 Devin 写代码前先确认计划，避免中途返工
+coachPrecheck.nonWorkUsage.caption	你的提示词似乎与工作场景无关
+coachPrecheck.nonWorkUsage.label	非工作用途
+coachPrecheck.nonWorkUsage.recommendation	让会话聚焦工程工作，用量才花得值
+coachPrecheck.overkillDevinMode.caption	此任务可能用不到 Ultra
+coachPrecheck.overkillDevinMode.description	此任务用轻量模型即可胜任，却选了重型模型（如 Ultra）。Devin 建议下调所选模型档位以节省 ACU。
+coachPrecheck.overkillDevinMode.label	重型模式
+coachPrecheck.overkillDevinMode.recommendation	小而简单的任务换轻量模式
+coachPrecheck.parallelizablePrompt.caption	这份草稿看起来是几个独立任务
+coachPrecheck.parallelizablePrompt.description	提示词里包含可同时运行的独立任务。Devin 建议拆成并行会话，更快完成。
+coachPrecheck.parallelizablePrompt.label	可并行的任务
+coachPrecheck.parallelizablePrompt.recommendation	把独立任务放到并行子会话里跑
+coachPrecheck.send	发送
+coachPrecheck.setting.description	Devin Coach 发现发送前提示词有问题时如何响应
+coachPrecheck.setting.label	提示词预检
+coachPrecheck.setting.managedByEnterprise	此设置由企业级管理。
+coachPrecheck.setting.modeOff	关
+coachPrecheck.setting.modeOffDescription	发送前不检查提示词
+coachPrecheck.setting.modeWarningAndModal	警告并确认
+coachPrecheck.setting.modeWarningAndModalDescription	显示内联警告并在发送前请求确认
+coachPrecheck.setting.modeWarningOnly	仅警告
+coachPrecheck.setting.modeWarningOnlyDescription	只显示内联警告，不阻止发送
+coachPrecheck.setting.noPermission	你没有更改此设置的权限。
+coachPrecheck.setting.selectAriaLabel	选择预检模式
+coachPrecheck.setting.selectPlaceholder	选择选项
+coachPrecheck.setting.updateFailed	更新提示词预检设置失败
+coachPrecheck.unrelatedFollowupNewSession.caption	此任务似乎与当前会话无关
+coachPrecheck.unrelatedFollowupNewSession.description	在一个大会话中，提示词要求开与目前工作无关的新 PR。Devin 建议在新会话中做。
+coachPrecheck.unrelatedFollowupNewSession.label	无关的后续任务
+coachPrecheck.unrelatedFollowupNewSession.recommendation	开新会话，让新任务有干净的上下文
+coachPrecheck.useCodeScan.caption	这看起来是全代码库的活。代码扫描可能更合适
+coachPrecheck.useCodeScan.description	提示词让 Devin 在整个代码库里找、审或报告某类东西的每个实例。Devin 建议运行代码扫描——并行分析整个仓库并追踪每个发现项。
+coachPrecheck.useCodeScan.label	全代码库任务
+coachPrecheck.useCodeScan.recommendation	运行代码扫描，在整个仓库中找出每个实例并追踪每个发现项
+coachPrecheck.useCodeScan.sessionPrompt	帮我根据这个需求设置并启动一次代码扫描：\n\n{{prompt}}
+codeScan.accessBadge	抢先体验
+codeScan.actionModel	执行模型
+codeScan.actionModelDescription	执行扫描动作的模型；留空用默认。
+codeScan.actionModelPlaceholder	模型名
+codeScan.activity	活动
+codeScan.activitySystemActor	代码扫描
+codeScan.activityUnknownUser	未知用户
+codeScan.acuWarningChatgptPlan	扫描不含在你的 ChatGPT 方案内，会消耗你的 Devin ACU。仓库越大、首次扫描用得越多。档案有助于控制成本。
+codeScan.addAttachments	添加附件
+codeScan.addNewProfile	添加新档案
+codeScan.addToChat	加到聊天
+codeScan.adjust	调整
+codeScan.adjustArchived	取消归档此扫描才能给反馈或调严重性
+codeScan.adjustDetailsLabel	详情
+codeScan.adjustSeverity	调整严重性
+codeScan.adjustSeverityHint	补充细节帮 Devin 细化此严重性
+codeScan.adminBadge	管理员
+codeScan.advanced	高级
+codeScan.agent	Agent
+codeScan.agentDefault	默认
+codeScan.agentDescription	扫描会话运行的 Agent。可选 Agent 按其会话同样计费。
+codeScan.agentSwe2	SWE-2
+codeScan.allMatchingSelected	已选中全部匹配发现项
+codeScan.allMatchingSelectedExcluding_one	已选中全部匹配发现项，{{count}} 项未勾
+codeScan.allMatchingSelectedExcluding_other	已选中全部匹配发现项，{{count}} 项未勾
+codeScan.allResolved	所有发现项均已审查或忽略。
+codeScan.allScanTypes	全部扫描类型
+codeScan.allSeverities	全部严重性
+codeScan.apply	应用
+codeScan.applying	正在应用…
+codeScan.archive	归档
+codeScan.archiveScanSubscriberDescription	你是此扫描最后一位订阅者。你可以归档它，或只把它从你的侧栏隐藏。
+codeScan.archiveScanTitle	归档此扫描？
+codeScan.archivedBadge	已归档
+codeScan.archivingProfile	正在归档档案…
+codeScan.archivingScan	正在归档扫描…
+codeScan.askAdminToRestoreRepoAccess	请让管理员恢复访问，然后重新扫描。
+codeScan.askDevinDescription	启动一个 Devin 会话并告诉它做什么——修发现项、分诊它们或派给你的团队。
+codeScan.askDevinPlaceholder	如：把所有严重发现项各开一个修复 PR…
+codeScan.askDevinTitle	对这些发现项做点什么
+codeScan.assigning	正在分配…
+codeScan.attachments	附件
+codeScan.attachmentsTooltip	附上报告或导出件（如 SARIF、CSV、PDF）供 Devin 提取发现项。
+codeScan.autoRemediate	自动修复
+codeScan.autoRemediateDescription	此扫描每次完成运行，Devin 就开始修复其打开的发现项并打开拉取请求。
+codeScan.autoRemediateSeverity	要修复的严重性
+codeScan.autoRemediateSeverityDescription	此严重性及以上的发现项会被修复
+codeScan.autoRemediateSkill	修复技能
+codeScan.autoRemediateSkillDescription	修复会话遵循的安全插件指令。留空用默认指令。
+codeScan.autoScan	自动扫描
+codeScan.autoScanCannotRun	自动扫描无法运行
+codeScan.autoScanCreated	自动扫描计划已创建
+codeScan.autoScanDescription	为定期扫描设置自定义计划
+codeScan.autoScanDescriptionOwnerSession	为定期扫描设置自定义计划。要现在扫描新提交，请在此扫描的会话中提出。
+codeScan.autoScanFailed	自动扫描失败
+codeScan.autoScanNeedsCompletedScan	首次扫描未完成
+codeScan.autoScanNeedsCompletedScanDescription	计划扫描只覆盖自上次完成扫描以来的新提交，因此无法开始。请对此仓库启动一次新扫描以保持覆盖。
+codeScan.autoScanNeedsFullScan	没有可依托的全量扫描
+codeScan.autoScanNeedsFullScanDescription	计划扫描只覆盖自一次全量扫描以来的新提交，而此扫描从未跑过全量（如导入的扫描）。请对此仓库启动一次新扫描以保持覆盖。
+codeScan.autoScanPaused	自动扫描已暂停
+codeScan.autoScanRemoved	自动扫描计划已移除
+codeScan.awaitingInput	等待输入
+codeScan.back	返回
+codeScan.backToFinding	返回发现项
+codeScan.backToFindings	返回发现项列表
+codeScan.backToScan	返回扫描
+codeScan.backToSummary	返回摘要
+codeScan.badgeCodeScan	代码扫描
+codeScan.badgeCreatedByCodeScan	此会话由代码扫描创建
+codeScan.badgeCreatedBySecurityScan	此会话由安全扫描创建
+codeScan.badgeSecurityScan	安全扫描
+codeScan.badgeViewCodeScan	查看代码扫描
+codeScan.badgeViewSecurityScan	查看安全扫描
+codeScan.batchSize	批次大小
+codeScan.batchSizeDescription	控制每批排查把多少带信号的文件分在一起
+codeScan.batchSizeError	批次大小必须是 {{min}} 到 {{max}} 之间的整数
+codeScan.bucketAssigned	已分配
+codeScan.bucketPrOpen	PR 已开
+codeScan.bucketResolved	已解决
+codeScan.bucketUnassigned	未分配
+codeScan.buildingScanModel	正在构建扫描模型
+codeScan.bulkAssignArchived	已归档扫描的发现项不能分配
+codeScan.bulkAssignEvidence_one	所选行中 {{count}} 行是合规证据，不是要修的发现项
+codeScan.bulkAssignEvidence_other	所选行中 {{count}} 行是合规证据，不是要修的发现项
+codeScan.bulkAssignFailed	分配发现项给 Devin 失败
+codeScan.bulkAssignIneligible_one	所选发现项中 {{count}} 项已有会话或 PR
+codeScan.bulkAssignIneligible_other	所选发现项中 {{count}} 项已有会话或 PR
+codeScan.bulkAssignMax	一次最多分配 {{max}} 个发现项
+codeScan.bulkAssignSkipped_one	已跳过 {{count}} 个匹配发现项：已关闭或已分配
+codeScan.bulkAssignSkipped_other	已跳过 {{count}} 个匹配发现项：已关闭或已分配
+codeScan.bulkAssigned_one	已把 {{count}} 个发现项分配给 Devin
+codeScan.bulkAssigned_other	已把 {{count}} 个发现项分配给 Devin
+codeScan.bulkDismiss	忽略
+codeScan.bulkMarkReviewed	标为已审查
+codeScan.bulkMarkUnreviewed	标为未审查
+codeScan.bulkReviewDescription	每个所选仓库将各自单独扫描一次。
+codeScan.bulkScanCountCancelled	{{count}} 个已取消
+codeScan.bulkScanCountCompleted	{{count}} 个已完成
+codeScan.bulkScanCountFailed	{{count}} 个失败
+codeScan.bulkScanCountQueued	{{count}} 个排队中
+codeScan.bulkScanCountRunning	{{count}} 个运行中

@@ -1,0 +1,160 @@
+teamsLinkNudge.server.repoReview	审查我 {{repo}} 里最新 PR
+teamsLinkNudge.server.tips.firstTask.prompt	帮我挑个首个任务
+teamsLinkNudge.server.tips.firstTask.text	我能接你拖着的任务，拆成步骤并开 PR。
+teamsLinkNudge.server.tips.firstTask.title	今天能交接什么给 Devin？
+teamsLinkNudge.server.tips.flakyTest.prompt	帮我调一个飘的测试
+teamsLinkNudge.server.tips.flakyTest.text	发我失败测试或 CI 链接，我能查出它为啥偶尔才挂。
+teamsLinkNudge.server.tips.flakyTest.title	那测试又挂了？
+teamsLinkNudge.server.tips.review.prompt	审查我最新 PR
+teamsLinkNudge.server.tips.review.text	我能带你看一个拉取请求，指出值得细看的更改。
+teamsLinkNudge.server.tips.review.title	想让人再帮你看下 PR？
+teamsLinkNudge.server.tips.teamThread.prompt	帮我给 Devin 写个 bug 报告
+teamsLinkNudge.server.tips.teamThread.text	在线程里 @我 带上 bug 报告，我能就地排查并为你团队回复。
+teamsLinkNudge.server.tips.teamThread.title	把 Teams 线程变任务
+teamsLinkNudge.server.tips.tour.prompt	带我逛一个仓库
+teamsLinkNudge.server.tips.tour.text	我能追一个功能怎么工作，告诉你先读哪些文件。
+teamsLinkNudge.server.tips.tour.title	新仓库？先来个短导览
+teamsSync.disableSync	禁 Teams 同步
+teamsSync.disabled	Teams 同步已禁
+teamsSync.disabledDescription	消息不会同步到 Teams
+teamsSync.enableSync	开 Teams 同步
+teamsSync.enabled	Teams 同步已开
+teamsSync.enabledDescription	消息会同步到 Teams
+teamsSync.syncDisabled	Teams 同步已禁
+teamsSync.synced	已同步到 Teams
+telegramConnect.allConnected	你全部 {{botNamePlural}} 已连到此聊天。
+telegramConnect.alreadyConnected	已连
+telegramConnect.connect_one	建 {{count}} 个话题
+telegramConnect.connect_other	建 {{count}} 个话题
+telegramConnect.description	选要连的 {{botNamePlural}}。每个在你 Telegram 聊天里有自己话题。
+telegramConnect.devinAccount	Devin 账户
+telegramConnect.doneDescription	回 Telegram——每个已连 {{botName}} 现在有自己话题。
+telegramConnect.doneTitle	都设好了
+telegramConnect.resultConnected	已连
+telegramConnect.telegramAccount	Telegram 账户
+telegramConnect.title	连 Telegram
+terminalSsh.connectOverSsh	经 SSH 连
+terminalSsh.copy	复制
+terminalSsh.hint	在你本地终端贴此命令。
+terminalSsh.loading	加载 SSH 命令中…
+terminalSsh.openFailed	开不了应用。装了吗？
+terminalSsh.openInDevinDesktop	在 Devin Desktop 开
+terminalSsh.openInVsCode	在 VS Code 开
+terminalSsh.unavailable	此会话没有可用 SSH 连接详情。
+testRecording.clickToLoop	点击循环
+testRecording.closeViewer	关测试录屏查看器
+testRecording.defaultTitle	测试录屏
+testRecording.downloadVideo	下载视频
+testRecording.eventSetup	准备
+testRecording.eventTest	测试
+testRecording.events	事件
+testRecording.eventsRecorded	事件已录
+testRecording.exitFullscreen	退全屏
+testRecording.failed	失败
+testRecording.fullscreen	全屏
+testRecording.loading	加载中…
+testRecording.loopCurrentChapter	循环当前章节
+testRecording.nextChapter	下一章
+testRecording.nextChapterShortcut	下一章（Shift+→）
+testRecording.openVideoUrlDirectly	直接开视频 URL
+testRecording.passed	通过
+testRecording.pause	暂停
+testRecording.pauseShortcut	暂停（空格）
+testRecording.play	播放
+testRecording.playShortcut	播放（空格）
+testRecording.playbackSpeed	播放速度
+testRecording.previousChapter	上一章
+testRecording.previousChapterShortcut	上一章（Shift+←）
+testRecording.statusFailed	失败
+testRecording.statusPassed	通过
+testRecording.statusUntested	未测
+testRecording.stopLooping	停循环
+testRecording.untested	未测
+testRecording.videoCouldNotBeLoaded	视频加载不了
+timeEstimate.amount	量
+timeEstimate.unit	单位
+timeEstimate.unitDays	天
+timeEstimate.unitHours	小时
+timeEstimate.unitMinutes	分钟
+timeEstimate.unitPlaceholder	单位
+timeEstimateSurvey.bucket.1to2Days	1–2 天
+timeEstimateSurvey.bucket.2to4Days	2–4 天
+timeEstimateSurvey.bucket.2to4Hours	2–4 小时
+timeEstimateSurvey.bucket.4to8Days	4–8 天
+timeEstimateSurvey.bucket.4to8Hours	4–8 小时
+timeEstimateSurvey.bucket.over8Days	8+ 天
+timeEstimateSurvey.bucket.under2Hours	< 2 小时
+timeEstimateSurvey.cancel	取消
+timeEstimateSurvey.custom	自定义
+timeEstimateSurvey.customAmount	量
+timeEstimateSurvey.dismissSurvey	关调查
+timeEstimateSurvey.enterPositiveNumber	输个正数
+timeEstimateSurvey.helpCalibrate	帮我们校准 Devin
+timeEstimateSurvey.howLongQuestion	没有任何 AI 时此会话会花多久？
+timeEstimateSurvey.save	保存
+timeEstimateSurvey.saveFailed	存失败
+timeEstimateSurvey.saving	存中…
+timeEstimateSurvey.thanksSaved	谢了——已存。
+toast.dismissNotification	关通知
+toast.dontNotifyAgain	别再通知我
+toast.more	更多
+toast.undo	撤销
+toast.undoFailed	撤销上次操作失败
+trackerAnalytics.acusColumn	ACU
+trackerAnalytics.allConnections	全部连接
+trackerAnalytics.connection	连接
+trackerAnalytics.itemColumn	条目
+trackerAnalytics.kind	分组按
+trackerAnalytics.loadFailed	加载不了追踪分析
+trackerAnalytics.navDescription	按 epic、项目或其它层级分组的按项目追踪条目的 ACU 用量
+trackerAnalytics.noKinds	还没有追踪条目链到会话
+trackerAnalytics.noSessionsInRange	此期无已链会话
+trackerAnalytics.notVisible	你不可见
+trackerAnalytics.pageDescription	链到追踪条目的会话的 ACU，按所选类型的条目祖先分组。标题如你所见从追踪器实时读。
+trackerAnalytics.sessionsColumn	会话
+trackerAnalytics.title	追踪分析
+trackerAnalytics.total	共：{{count}} 个不同会话 · {{acus}} ACU
+trackerAnalytics.totalNote	链到多个条目的会话在每个组里都计，所以各组加起来可能超总数。
+trackerAnalytics.total_other	共：{{count}} 个不同会话 · {{acus}} ACU
+trackerAnalytics.tryAgain	重试
+trackerAnalytics.ungrouped	未分组
+transcript.aFile	一个文件
+transcript.aUser	一个用户
+transcript.acceptSuggestionFailed	接受建议失败。
+transcript.acuAmount	{{value}} ACU
+transcript.addSlackChannelMembers	给 Slack 频道加成员
+transcript.addedToAutomationPolicy	已加到自动化政策
+transcript.addedToSecurityProfile	已加到安全配置
+transcript.addedToSecurityProfileAndAutomation	已加到安全配置和自动化政策
+transcript.addedToSecurityProfileAndAutomation_named	已加到安全配置 {{profileName}} 和自动化政策
+transcript.addedToSecurityProfile_named	已加到安全配置 {{profileName}}
+transcript.adminRequired	需管理员
+transcript.agentMessage	{{name}} 消息
+transcript.allowForThisSession	允许此会话
+transcript.allowing	允许中…
+transcript.allowlist	白名单
+transcript.allowlistAppliesToSquad	应用于此 {{botName}} 的全部会话，含它起的会话。
+transcript.allowlistAppliesToSquadAllowEverythingDoesNot	白名单应用于此 {{botName}} 的全部会话，含它起的会话。「允许一切」关的是此会话的网络控制，不是全部。
+transcript.allowlistAppliesToSquadAllowEverythingDoesNot_named	白名单应用于 {{botName}} 的全部会话，含它起的会话。「允许一切」关的是此会话的网络控制，不是全部。
+transcript.allowlistAppliesToSquad_named	应用于 {{botName}} 的全部会话，含它起的会话。
+transcript.allowlistAppliesToThisSession	只应用于此会话。
+transcript.allowlistDomains_one	白名单 {{count}} 个域名
+transcript.allowlistDomains_other	白名单 {{count}} 个域名
+transcript.allowlisted	已加白名单
+transcript.allowlistedForSession	已为此会话加白名单
+transcript.allowlistedForSquad	已为此 {{botName}} 全部会话加白名单
+transcript.allowlistedForSquad_named	已为 {{botName}} 全部会话加白名单
+transcript.alreadyAllowed	已允许
+transcript.analyzedDirectory	已分析
+transcript.analyzingDirectory	分析中
+transcript.appDeployConfigure	配置
+transcript.appDeployFailedStatus	失败
+transcript.appDeployLive	线上
+transcript.appDeployOpen	开应用
+transcript.appDeployProduction	生产
+transcript.appDeployVersion	v{{version}}
+transcript.appDeployedFrom	部署自
+transcript.applyTheseReverts	应用这些还原
+transcript.approve	批准
+transcript.approvedBy	由 {{names, list(type: unit)}} 批准
+transcript.approvedDeployment	已批部署

@@ -1,0 +1,125 @@
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/workInRepository	在仓库工作…
+vs/sessions/contrib/providers/copilotChatSessions/browser/permissionPicker/permissionPicker.sandboxedHover	{0} 终端命令已沙箱化。
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/cloudSandbox.connecting	连中…
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/cloudSandbox.connectingTitle	连环境中
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/cloudSandbox.incompatible	此环境不兼容此版 Visual Studio Code。
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/cloudSandbox.incompatibleTitle	连不了环境
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/cloudSandbox.offline	环境离线。
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/cloudSandbox.offlineTitle	环境离线
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/cloudSandbox.reconnecting	重连中…
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/cloudSandbox.reconnectingIn	{0} 秒后重连
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/sandbox.cloningFailed	仓库克隆失败
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/sandbox.cloningRepository	克隆仓库
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/sandbox.cloningRepositoryProgress	克隆仓库（{0}%）
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/sandbox.connectingContainer	连云容器
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/sandbox.connectionUnavailable	云沙箱连接不再可用。
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/sandbox.preparationUnavailable	云沙箱仓库准备未注册。
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/sandbox.provisioningContainer	配云容器
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxAgentHostContribution/sandbox.startingAgent	起 Copilot agent
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxSessionsProvider/cloudSandbox.archiveUnavailable	连环境才能改此会话归档态。
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxSessionsProvider/cloudSandbox.configNotApplied	沙箱应用不了所选 {0}。你的提示没发。
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxSessionsProvider/cloudSandbox.configUnavailable	沙箱连接不可用。你的提示没发。
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxSessionsProvider/cloudSandbox.renameUnavailable	连环境才能改此会话名。
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxSessionsProvider/cloudSandbox.sessionNotFound	沙箱会话找不到。
+vs/sessions/contrib/providers/remoteAgentHost/browser/cloudSandboxSessionsProvider/environment.cloud	云
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnostics.contribution/connectionDiagnostics.captureFailed	捕获不了连接信息。{0}
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnostics.contribution/connectionDiagnostics.category	远程 Agent Host
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnostics.contribution/connectionDiagnostics.help.close	Esc 或「关」关诊断。关此无障碍视图回诊断快照。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnostics.contribution/connectionDiagnostics.help.copy	「复制诊断」和「下载诊断」含整个所显快照，含折叠段。分享前审查主机名和地址。「刷新」读当前本地态，不做发现、认证或连接更改。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnostics.contribution/connectionDiagnostics.help.hostPicker	手机上，主机面板标题旁「开连接信息」关选择器并开此报告。关报告焦点回主机选择器控件，或其工具栏（若控件被替）。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnostics.contribution/connectionDiagnostics.help.logs	快照含已录连接阶段和本地窗口日志的有界摘录。复制和下载用所捕文本，不采新日志。已知凭据已脱敏；分享前审查消息。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnostics.contribution/connectionDiagnostics.help.navigation	Tab 和 Shift+Tab 在头部操作、报告、折叠段间移。方向键滚聚焦的报告。Enter 或空格展客户端详情。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnostics.contribution/connectionDiagnostics.help.overview	连接诊断显本地连接态的只读快照。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnostics.contribution/connectionDiagnostics.help.view	用 {0} 以纯文本开报告。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnostics.contribution/connectionDiagnostics.help.webCopy	「复制诊断」和「下载诊断」含整个所显快照，含折叠段。分享前审查主机名和地址。「刷新」重跑主机发现再捕当前本地态。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnostics.contribution/connectionDiagnostics.help.webNavigation	Tab 和 Shift+Tab 在主机操作、头部操作、报告、折叠段间移。方向键滚聚焦的报告。Enter 或空格展客户端详情。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnostics.contribution/connectionDiagnostics.help.webOverview	连接信息显主机实时摘要，每主机旁有「连」「断」。展主机读其捕获的诊断详情。操作用当前主机态。主动断开让主机留选择器并暂停自动连接。「隐藏的主机」区有「恢复」操作把主机放回发现；恢复不保证连接。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnostics.contribution/connectionDiagnostics.hint	用 {0} 看连接诊断无障碍帮助。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnostics.contribution/connectionDiagnostics.showCommand	显连接信息
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsLogs/diagnostics.logCollectionFailed	日志采集失败
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsLogs/diagnostics.logMessages	消息
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsLogs/diagnostics.logsCaptured	采集开始于
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsLogs/diagnostics.logScope	当前窗口日志最后 128 KiB 里至多 200 条生命周期行；无轮转或远程日志。当前日志级下消息可能不可用。已知凭据已脱敏；分享前审查。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsLogs/diagnostics.noLogLines	此有界摘录里没匹配的连接生命周期行。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsLogs/diagnostics.windowLogs	连接相关窗口日志摘录
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.captured	捕获于：{0}
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.connect	连
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.connected	已连
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.connectHost	连 {0}
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.connecting	连中
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.copied	诊断已复制。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.copy	复制诊断
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.copyFailed	复制不了。试下载诊断。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.disconnect	断
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.disconnected	已断
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.disconnectHost	断 {0}
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.discoveryFailed	快照已刷新，但一个或多个主机发现操作失败。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.download	下载诊断
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.downloadFailed	下载不了。试复制诊断。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.downloadStarted	下载已请。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.hiddenHosts	隐藏的主机
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.hiddenStatus	已从主机选择器隐
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.incompatible	不兼容
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.liveSummaries	主机摘要和控件是实时的。详情和导出用所捕快照。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.notCaptured	不在所捕快照里。刷新以捕详情。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.onDemand	按需管的连接
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.paused	已断。自动连接已暂停。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.pending	干活中…
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.reconnecting	重连中
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.refresh	刷新
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.refreshed	主机已重发现，快照已刷新。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.refreshFailed	刷不了连接信息。{0}
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.report	连接诊断报告
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.restore	恢复
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.restored	主机已恢复到选择器。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.restoredNotFound	主机已恢复，但最新发现里找不到。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.restoreHost	恢复 {0}
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.sharing	本地快照，含连接相关窗口日志。已知凭据已脱敏，但主机名、地址、消息可能含个人信息。分享前审查。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.snapshotRefreshed	快照已刷新。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsReport/connectionDiagnostics.title	连接信息
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/connectionDiagnostics.hostNoLongerAvailable	主机不再可用。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/connectionDiagnostics.hostNotHidden	主机没隐。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/connectionDiagnostics.hostNotManageable	主机没手动连接控件。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/connectionDiagnostics.restoreDiscoveryFailed	主机已不隐，但发现失败。用「刷新」再试。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.activeHostCount	活跃隧道主机
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.activity	近期活动日志
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.activityScope	{0} 以来至多 100 条本地事件。更早历史没捕。含主机名和地址；分享前审查。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.address	地址
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.agents	已广播 agent
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.attempt	尝试
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.attemptElapsed	捕获时尝试已过（ms）
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.attemptPhase	尝试阶段
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.attemptStarted	尝试开始于
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.attemptTrigger	尝试触发
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.autoConnect	自动连接已开
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.automatic	自动
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.cached	已缓存
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.cachedCount	已缓存隧道
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.captured	捕获于
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.clientId	协议客户端 ID
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.clientKind	客户端
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.clientProtocols	客户端协议版本
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.cluster	隧道集群
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.commit	提交
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.configured	已配
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.connectionEntryPresent	连接条目在
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.connectionRemoved	{0}：连接条目已移。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.connectionState	{0}：{1}。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.connectRequested	{0}：已请连接（{1}）。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.desktop	桌面
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.disconnectedByUser	{0}：用户请断开；已压自动重连。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.disconnectReason	断开原因
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.discovered	在上次成功发现里
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.discoveredCount	上次成功发现的主机
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.discoveryFailed	发现 #{0} 在 {1} ms 后失败。{2}
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.discoveryFailedTitle	隧道发现失败
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.discoveryFinished	发现 #{0} 在 {1} ms 成功：找到 {2}，{3} 个有活跃主机，{4} 个已忽略。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.discoveryMany	隧道发现成功，{0} 条隧道
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.discoveryNotObserved	隧道发现还没观测到
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.discoveryOne	隧道发现成功，1 条隧道
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.discoveryPendingTitle	隧道发现进行中
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.discoveryScope	主机详情用此窗口上次成功发现；可能过时。看或复制诊断时不发网络请求。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.discoveryStarted	发现 #{0} 已开始（{1}）。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.dismissedLabel	持久忽略
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.duration	时长（ms）
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.enabled	远程主机已开

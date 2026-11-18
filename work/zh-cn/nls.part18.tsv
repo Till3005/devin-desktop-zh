@@ -1,0 +1,140 @@
+vs/workbench/browser/actions/developerActions/telemetryBlockSource	所选遥测块
+vs/workbench/browser/actions/layoutActions/auxiliaryActivityBar	辅助活动栏
+vs/workbench/browser/actions/layoutActions/compositePart.showSideBarLabel	显示主侧边栏
+vs/workbench/browser/actions/layoutActions/layoutDensity	布局密度
+vs/workbench/browser/actions/layoutActions/layoutDensityCompact	紧凑
+vs/workbench/browser/actions/layoutActions/layoutDensityCompactIcon	表示紧凑布局密度
+vs/workbench/browser/actions/layoutActions/layoutDensityDefault	默认
+vs/workbench/browser/actions/layoutActions/layoutDensityDefaultIcon	表示默认布局密度
+vs/workbench/browser/actions/layoutActions/moveSecondSidebarLeft	将辅助侧边栏移到左侧
+vs/workbench/browser/actions/layoutActions/moveSecondSidebarRight	将辅助侧边栏移到右侧
+vs/workbench/browser/actions/layoutDensityActions/layoutDensityCompact	紧凑
+vs/workbench/browser/actions/layoutDensityActions/layoutDensityDefault	默认
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.conditional	这些策略对部分路径或投递来源覆盖不完整。这并不表明你当前的来源或会话未能执行它们。请查看下方条件；即使其 VS Code 对应项未执行，运行时受管值可能已在执行中。
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.harnessPolicy	ChatEditorPreferCopilotHarness 控制 chat.editor.preferCopilotHarness：启用后，当新聊天本会使用 Local 时优先使用 Copilot。这是偏好而非 harness 锁定；禁用并不要求 Local，也不禁止显式或已记忆的 Copilot 选择。现有会话和企业要求的沙箱行为不变。要求特定 harness 需要单独的执行契约，不能从本就绪报告推断。
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.impact	影响 / 待验证项
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.needsVerification	需要验证的已应用要求
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.noGaps	在已应用的 VS Code 策略中未发现已知的不支持要求。这并不证明完整的运行时策略一致；用户设置和未投射的运行时受管设置不在本检查范围内。
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.notEnforced	未被 Agent Host 执行的已应用要求
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.policy	策略
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.reportOnly	这些发现仅供报告：不会将用户锁在 Local、不改变实验分派或 harness 选择、不拦截消息、不添加聊天横幅。现有分派、偏好、显式选择和会话均不变。打开本报告对选择无影响。受支持的桥接限制仍生效。
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.rollout	分派与 harness 选择
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.runtimeSandboxNotRequired	没有生效的企业必需 Agent Host 沙箱。
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.runtimeSandboxRequired	存在生效的企业必需 Agent Host 沙箱。Local 无法满足此运行时沙箱要求。
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.scope	此处仅显示当前已应用企业策略中的要求。未配置的策略和已知宽松值被排除。本检查覆盖本机的 Copilot Agent Host，不含远程 host、Claude 或 Codex。
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.setting	设置
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.source	应用来源
+vs/workbench/browser/actions/policyDiagnosticsMarkdown/policyReadiness.title	Agent Host 策略就绪
+vs/workbench/browser/actions/quickAccessActions/quickOpenSessions	快速打开会话
+vs/workbench/browser/actions/quickAccessActions/windsurf.agentManager	Agent 管理器
+vs/workbench/browser/agentWindowLabels/agentWindowDevinCloudWorkspace	Devin 云端文件
+vs/workbench/browser/agentWindowLabels/agentWindowMultiRootWorkspace	{0}（工作区）
+vs/workbench/browser/changesStatsWidget/changesStatsWidget.file	{0} 个文件
+vs/workbench/browser/changesStatsWidget/changesStatsWidget.files	{0} 个文件
+vs/workbench/browser/chatImagePreview/chat.openImagePreview	在图片预览中打开
+vs/workbench/browser/chatPills/chatPills.copyHash	复制哈希
+vs/workbench/browser/chatPills/chatPills.copyUrl	复制 URL
+vs/workbench/browser/chatPills/chatPills.imagePreviewAlt	{0} 的预览
+vs/workbench/browser/chatPills/chatPills.imagePreviewUnavailable	图片预览不可用。
+vs/workbench/browser/chatPills/chatPills.open	打开 {0}
+vs/workbench/browser/chatPills/chatPills.removeArtifact	移除附件
+vs/workbench/browser/chatPills/chatPills.removeReference	移除引用
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/auxiliary activity bar position	辅助活动栏位置
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/bottom	底部
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/default	默认
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/hide	隐藏
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/hideAuxiliaryActivityBar	隐藏辅助活动栏
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/hideMenu	隐藏菜单
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/menu	菜单
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/miBottomAuxiliaryActivityBar	底部(&&B)
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/miDefaultAuxiliaryActivityBar	默认(&&D)
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/miHideAuxiliaryActivityBar	隐藏(&&H)
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/miTopAuxiliaryActivityBar	顶部(&&T)
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/positionAuxiliaryActivituBar	辅助活动栏位置
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/positionAuxiliaryActivityBarBottom	将辅助活动栏移到底部
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/positionAuxiliaryActivityBarDefault	将辅助活动栏移到侧边
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/positionAuxiliaryActivityBarTop	将辅助活动栏移到顶部
+vs/workbench/browser/parts/auxiliaryactivitybar/auxiliaryactivitybarPart/top	顶部
+vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions/hide second side bar	隐藏 Agent 侧边栏
+vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions/show second side bar	显示 Agent 侧边栏
+vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart/auxiliary activity bar position	辅助活动栏位置
+vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart/toggleAuxiliaryActivityBar	切换辅助活动栏可见性
+vs/workbench/browser/parts/editor/agentWindowDirectoryPicker/windsurfWelcome.remoteFoldersSkipped	已跳过无法在此 agent 窗口中打开的文件夹。
+vs/workbench/browser/parts/editor/agentWindowDirectoryPicker/windsurfWelcome.selectFolder	选择文件夹
+vs/workbench/browser/parts/editor/breadcrumbsControl/plans	计划
+vs/workbench/browser/parts/editor/breadcrumbsPicker/openTerminalInWorktree	在集成终端中打开 worktree
+vs/workbench/browser/parts/editor/breadcrumbsPicker/openWorktreeNewWindow	在新窗口中打开 worktree
+vs/workbench/browser/parts/editor/editor.contribution/copySessionId	复制会话 ID
+vs/workbench/browser/parts/editor/editor.contribution/copySessionUrl	复制会话 URL
+vs/workbench/browser/parts/editor/editor.contribution/diffView	Diff 视图
+vs/workbench/browser/parts/editor/editor.contribution/diffView.automaticInline	自动（当前为内联）
+vs/workbench/browser/parts/editor/editor.contribution/diffView.automaticSideBySide	自动（当前为并排）
+vs/workbench/browser/parts/editor/editor.contribution/diffView.inline	内联
+vs/workbench/browser/parts/editor/editor.contribution/diffView.inlineTemporary	内联（临时）
+vs/workbench/browser/parts/editor/editor.contribution/diffView.sideBySide	并排
+vs/workbench/browser/parts/editor/editor.contribution/downloadDevinResource	下载
+vs/workbench/browser/parts/editor/editor.contribution/openSessionOnWeb	在网页中打开会话
+vs/workbench/browser/parts/editor/editor.contribution/putDevinToSleep	让 Devin 休眠
+vs/workbench/browser/parts/editor/editor.contribution/renameSession	重命名会话…
+vs/workbench/browser/parts/editor/editorActions/openWindsurfAgentWindow	新建 Agent 窗口
+vs/workbench/browser/parts/editor/editorActions/windsurf.agentManager	Agent 管理器
+vs/workbench/browser/parts/editor/editorDropTarget/dropIntoAgentPrompt	按住 __{0}__ 拖入 agent
+vs/workbench/browser/parts/editor/editorStatus/addToGitignore	添加到 .gitignore
+vs/workbench/browser/parts/editor/editorStatus/addToGitignoreError	添加到 .gitignore 失败：{0}
+vs/workbench/browser/parts/editor/editorStatus/alreadyInGitignore	文件已在 .gitignore 中
+vs/workbench/browser/parts/editor/editorStatus/cannotReadGitignore	无法读取 .gitignore
+vs/workbench/browser/parts/editor/editorStatus/noGitignoreFile	工作区中没有 .gitignore 文件
+vs/workbench/browser/parts/editor/workbenchEditorGroupChrome/ariaLabelGroupActions	空编辑器组操作
+vs/workbench/browser/parts/globalCompositeBar/noAccounts	你未登录任何账号
+vs/workbench/browser/parts/globalCompositeBar/signIn	登录
+vs/workbench/browser/parts/globalCompositeBar/windsurf settings	Devin 设置
+vs/workbench/browser/parts/leftHeader/leftHeaderPart/toggleBarWithKb	{0}（{1}）
+vs/workbench/browser/parts/leftHeader/leftHeaderPart/toggleSecondarySideBar	切换 Agent 侧边栏
+vs/workbench/browser/parts/leftHeader/leftHeaderPart/toggleSideBar	切换主侧边栏
+vs/workbench/browser/parts/paneCompositePart/pane.resetLink	重置视图
+vs/workbench/browser/parts/titlebar/agentEditorSwitch/agentEditorSwitchTooltipWithKeybinding	{0}（{1}）
+vs/workbench/browser/parts/titlebar/agentEditorSwitch/focusEditorWindow	编辑器
+vs/workbench/browser/parts/titlebar/agentEditorSwitch/focusEditorWindowTooltip	聚焦编辑器窗口
+vs/workbench/browser/parts/titlebar/agentEditorSwitch/openAgentWindow	Agent
+vs/workbench/browser/parts/titlebar/agentEditorSwitch/openAgentWindowTooltip	打开 agent 窗口
+vs/workbench/browser/parts/titlebar/agentEditorSwitch/returnToAgentWindowTooltip	返回此会话的 agent 窗口
+vs/workbench/browser/parts/titlebar/commandCenterControl/label.agentMode	搜索会话…
+vs/workbench/browser/parts/titlebar/titlebarPart/ariaLabelTitleActivityActions	标题栏活动操作
+vs/workbench/browser/parts/titlebar/titlebarPart/download update_1	有可用更新
+vs/workbench/browser/parts/titlebar/titlebarPart/DownloadingUpdate	正在下载更新
+vs/workbench/browser/parts/titlebar/titlebarPart/installingUpdate	正在安装更新
+vs/workbench/browser/parts/titlebar/titlebarPart/installUpdate...	安装更新
+vs/workbench/browser/parts/titlebar/titlebarPart/restartToUpdate	重启以更新
+vs/workbench/browser/windsurfSaveFile/openContainingFolder	打开所在文件夹
+vs/workbench/browser/windsurfSaveFile/showInFileExplorer	在文件资源管理器中显示
+vs/workbench/browser/windsurfSaveFile/showInFinder	在访达中显示
+vs/workbench/browser/windsurfSaveFile/windsurfFileDownloaded	已下载“{0}”
+vs/workbench/browser/windsurfSaveFile/windsurfSaveFileTitle	保存
+vs/workbench/browser/workbench.contribution/auxiliaryActivityBarLocation	控制辅助活动栏相对于辅助侧边栏的位置。
+vs/workbench/browser/workbench.contribution/devin.agentWindow.keepWindowWorkspace	在 Agent 指挥中心显示窗口自身的文件夹，而不是活动会话的文件夹。适用于尚未切换的窗口；已切换的窗口需重新打开文件夹或工作区恢复。
+vs/workbench/browser/workbench.contribution/devin.agentWindow.location	Agent 指挥中心的打开位置。
+vs/workbench/browser/workbench.contribution/devin.agentWindow.location.currentWindow	当前窗口在 Agent 指挥中心和编辑器之间切换。
+vs/workbench/browser/workbench.contribution/devin.agentWindow.location.separateWindow	Agent 指挥中心有独立窗口，切换在两个窗口间移动焦点。
+vs/workbench/browser/workbench.contribution/devin.desktopShell.backgroundThrottling	允许 Devin Agent 窗口在后台时限流计时器和渲染。默认关闭，使会话在其他窗口后仍以全速更新。立即生效。
+vs/workbench/browser/workbench.contribution/devin.network.detectProxy	开启从操作系统设置自动检测网络代理。由设备策略设定；用户可在 Devin 设置中通过“检测代理”开启检测。
+vs/workbench/browser/workbench.contribution/devin.network.detectProxy.policy	开启从操作系统设置自动检测网络代理，包括代理自动配置（PAC）文件。用户无法关闭检测。
+vs/workbench/browser/workbench.contribution/devin.spaces.shareContext	启用后，发送到空间的第一条消息会自动附带该空间其他所有会话的摘要，作为 agent 的上下文。
+vs/workbench/browser/workbench.contribution/modernUIEditorTabStyle	控制启用 {0} 时的编辑器标签样式，以及 Agents 窗口中聊天和侧面板的标签样式。高对比度主题保留明确的选中和焦点边框。
+vs/workbench/browser/workbench.contribution/modernUIEditorTabStyle.connected	用外边框和弧形肩部将活动标签连接到编辑器表面。
+vs/workbench/browser/workbench.contribution/modernUIEditorTabStyle.pill	将编辑器标签显示为独立的圆角药丸。
+vs/workbench/browser/workbench.contribution/modernUIFrostedGlass	为菜单、命令面板和其他弹窗添加柔和模糊背景。在 Agents 窗口及启用 {0} 的编辑器窗口中可用。始终遵循操作系统无障碍设置中的减弱透明效果以及 {1}。在高对比度主题或不支持该效果时使用纯色背景。如发现显示或性能问题请关闭。系统自身的菜单和对话框不受影响。
+vs/workbench/browser/workbench.contribution/modernUIFrostedGlassOpacity	控制毛玻璃背景的透明程度，从 50% 到 100%。较低值透出更多模糊的背景内容；较高值使背景更实。文字和控件不变。需要 {0}，且不覆盖操作系统或 VS Code 的减弱透明效果设置。
+vs/workbench/browser/workbench.contribution/windsurf.spaces.shareContext	启用后，发送到空间的第一条消息会自动附带该空间其他所有会话的摘要，作为 agent 的上下文。
+vs/workbench/browser/workbench.contribution/windsurf.spaces.shareContext.deprecated	已弃用：请改用“devin.spaces.shareContext”。
+vs/workbench/browser/workbench.contribution/workbench.auxiliaryActivityBar.location.bottom	在辅助侧边栏底部显示辅助活动栏。
+vs/workbench/browser/workbench.contribution/workbench.auxiliaryActivityBar.location.default	在辅助侧边栏侧边显示辅助活动栏。
+vs/workbench/browser/workbench.contribution/workbench.auxiliaryActivityBar.location.hide	在辅助侧边栏中隐藏辅助活动栏。
+vs/workbench/browser/workbench.contribution/workbench.auxiliaryActivityBar.location.top	在辅助侧边栏顶部显示辅助活动栏。
+vs/workbench/common/agentsColors/activeSessionView.background	agent 会话窗口中活动会话视图的背景色。
+vs/workbench/common/agentsColors/activeSessionView.foreground	agent 会话窗口中活动会话视图的前景色。
+vs/workbench/common/agentsColors/agentFeedbackEditorWidget.background	编辑器中显示的 agent 反馈小部件的背景色。
+vs/workbench/common/agentsColors/agentFeedbackEditorWidget.border	编辑器中显示的 agent 反馈小部件的边框色。
+vs/workbench/common/agentsColors/agentFeedbackInputWidget.border	编辑器中显示的 agent 反馈输入小部件的边框色。
+vs/workbench/common/agentsColors/agents.background	agent 会话窗口外壳和渐变基底的背景色。
+vs/workbench/common/agentsColors/agentsBadge.background	agent 会话窗口中徽标的背景色。
+vs/workbench/common/agentsColors/agentsBadge.foreground	agent 会话窗口中徽标的前景色。

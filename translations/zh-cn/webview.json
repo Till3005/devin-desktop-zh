@@ -1,0 +1,14 @@
+{
+ "translation": {
+  "guide.step": "第 {{number}} 部分，共 {{total}} 部分",
+  "guide.previousPart": "上一部分",
+  "guide.nextPart": "下一部分",
+  "guide.viewed": "已查看",
+  "onboardingRedesign.next": "下一步",
+  "adminPromotionOwner.label": "企业或组织",
+  "adminPromotionOwner.placeholder": "按名称或 ID 搜索"
+ },
+ "review": {
+  "guide.step": "第 {{number}} 部分，共 {{total}} 部分"
+ }
+}

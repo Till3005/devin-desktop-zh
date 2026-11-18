@@ -1,0 +1,310 @@
+commandPalette.onboardingMock	模拟入门
+commandPalette.onboardingMockAlreadySetUp	已设置
+commandPalette.onboardingMockConnected	{{name}} 已连接
+commandPalette.onboardingMockConnectionMode	{{name}} 连接模式
+commandPalette.onboardingMockDescription	全屏入门引导会假定此方案和这些连接，而不是你的真实连接。「假」连接不登录任何地方就标为已连接。流程结束于新用户看到的 {{botNamePlural}} 页。把所有连接设为「假」时，你在那里创建的第一个 {{botName}} 也会假定它们。只有你能看到。
+commandPalette.onboardingMockFake	假
+commandPalette.onboardingMockOff	关闭模拟
+commandPalette.onboardingMockPlan	方案
+commandPalette.onboardingMockPlgModesHint	选「真」用你的账户和提供商登录，或选「假」模拟该连接。开关设定假连接的初始状态。
+commandPalette.onboardingMockReal	真
+commandPalette.onboardingMockRepositories	仓库已设置
+commandPalette.onboardingMockStart	开始入门
+commandPalette.onboardingMockTitle	模拟入门
+commandPalette.openPrReview	打开审查 <secondary>{{pr}}</secondary>
+commandPalette.organizationIdCopied	组织 ID 已复制
+commandPalette.pinSession	置顶会话
+commandPalette.quickInputOk	确定
+commandPalette.quickInputSelectedCount_one	已选 {{count}} 项
+commandPalette.quickInputSelectedCount_other	已选 {{count}} 项
+commandPalette.replaySession	回放会话
+commandPalette.resetAllCallouts	重置全部
+commandPalette.resetDevinReviewOnboarding	重置 Devin Review 引导
+commandPalette.resetDismissedCallouts	重置已忽略提示
+commandPalette.resetOnboarding	重置组织入门向导
+commandPalette.review	审查
+commandPalette.reviewOnboardingReset	Devin Review 引导已重置
+commandPalette.searchIde	在编辑器中搜索
+commandPalette.searchIdeInput	在编辑器中搜索…
+commandPalette.searchIn	在 {{label}} 中搜索…
+commandPalette.searchSessions	搜索会话
+commandPalette.sectionAccessibility	无障碍
+commandPalette.sectionActions	操作
+commandPalette.sectionDarkThemes	深色主题
+commandPalette.sectionDebug	调试
+commandPalette.sectionLanguage	语言
+commandPalette.sectionLightThemes	浅色主题
+commandPalette.sectionMode	模式
+commandPalette.sectionNavigation	导航
+commandPalette.sectionOrganizations	组织
+commandPalette.sectionSettings	设置
+commandPalette.sectionTheme	主题
+commandPalette.seeMore	查看更多
+commandPalette.select	选择
+commandPalette.sendBotMessage	发送
+commandPalette.showGettingStarted	显示「入门」清单
+commandPalette.skipOnboarding	跳过入门
+commandPalette.start	开始
+commandPalette.startInBackground	在后台开始
+commandPalette.startScan	开始一次安全扫描
+commandPalette.startSessionWithPrompt	开始会话<secondary>并带提示词…</secondary>
+commandPalette.startSessionWithQuery	开始会话<secondary>「{{prompt}}」</secondary>
+commandPalette.switchOrganization	切换组织
+commandPalette.switchToLang	切换到{{lang}}
+commandPalette.syncSessionToSlack	同步会话到 Slack
+commandPalette.syncSessionToTeams	同步会话到 Teams
+commandPalette.systemMode	跟随系统
+commandPalette.toggleCompactHistory	切换紧凑消息历史
+commandPalette.toggleSidebar	切换侧栏
+commandPalette.turnOffReactScan	关闭 React Scan
+commandPalette.turnOnReactScan	开启 React Scan
+commandPalette.typeCommand	输入命令或搜索…
+commandPalette.typePrompt	输入提示词…
+commandPalette.typeToSearchText	输入以在工作区中搜索文本…
+commandPalette.unarchiveSession	取消归档会话
+commandPalette.unpinSession	取消置顶会话
+commandPalette.viewDebugCommands	查看调试命令
+commandPalette.wakeUpDevin	唤醒 Devin
+commandPalette.waterfallTraces	瀑布追踪
+commandPalette.wdw	WDW
+common.availableToAdmins	管理员可用
+common.cancel	取消
+common.close	关闭
+common.copied	已复制
+common.copy	复制
+common.copyLink	复制链接
+common.cut	剪切
+common.deselectAllEnterprisesOnPage	取消选择此页全部企业
+common.deselectAllOtherEnterprises	取消选择此页其他企业
+common.deselectAllYourEnterprises	取消选择此页你的企业
+common.failedToCopy	复制失败
+common.failedToCopyLink	复制链接失败
+common.inProgress	进行中
+common.learnMore	了解更多
+common.linkCopied	链接已复制
+common.loading	加载中…
+common.openInExternalBrowser	在外部浏览器打开
+common.openInNewTab	在新标签页打开
+common.paste	粘贴
+common.readOnly	只读
+common.saving	正在保存…
+common.selectAllEnterprisesOnPage	选择此页全部企业
+common.selectAllOtherEnterprises	选择此页其他企业
+common.selectAllYourEnterprises	选择此页你的企业
+common.selectedFilter	已选筛选
+common.selectedOption	已选项
+common.selectedTeam	已选团队
+common.sending	正在发送…
+common.skipToMainContent	跳到主内容
+common.syncing	同步中
+common.unselectedFilter	未选筛选
+common.unselectedOption	未选项
+common.unselectedTeam	未选团队
+common.user	用户
+compliance.addFramework	让 Devin 添加框架
+compliance.allFrameworks	全部框架
+compliance.catalogs	扫描档案
+compliance.description	从你的代码收集控制项证据并保持时效：逐控制项引用产物、偏差生成修复 PR、修复合并后重跑。控制项是否达标由你的评估员判断。
+compliance.detail.clear	清除筛选
+compliance.detail.controlNotFound	未找到准则
+compliance.detail.deviationCount	{{count}} 个{{severity}}
+compliance.detail.deviations	偏差
+compliance.detail.error	无法加载合规档案、扫描或发现项。请重试。
+compliance.detail.id	ID
+compliance.detail.noMatches	没有匹配这些筛选的准则。
+compliance.detail.notFound	未找到体系
+compliance.detail.notFoundDescription	此体系不在可用的合规档案中。
+compliance.detail.notSearchedCount	{{count}} 条未搜索
+compliance.detail.outcome	状态
+compliance.detail.outcomes.deviation	发现偏差
+compliance.detail.outcomes.evidence	找到证据
+compliance.detail.outcomes.no-evidence	无证据
+compliance.detail.outcomes.no-surface	超出扫描范围
+compliance.detail.outcomes.not-searched	未搜索
+compliance.detail.partialError_one	{{count}} 次扫描的证据无法完全加载，其准则可能显示为未搜索。
+compliance.detail.partialError_other	{{count}} 次扫描的证据无法完全加载，其准则可能显示为未搜索。
+compliance.detail.search	搜索准则
+compliance.detail.systemDetails	体系详情
+compliance.emptyDescription	体系是一个授权边界（仓库和路径）加上适用于它的合规框架。你设置的体系会显示在这里。
+compliance.emptyTitle	还没有合规体系
+compliance.errorDescription	无法加载合规档案或扫描。请重试。
+compliance.errorTitle	无法加载合规体系
+compliance.evidence.commitUnknown	提交不可用
+compliance.evidence.exitFullScreen	退出全屏
+compliance.evidence.findingUnavailable	在当前扫描中此控制项的此发现项不可用。
+compliance.evidence.fullScreen	全屏打开
+compliance.evidence.outcomeRow.noEvidence.detail	当前扫描已在来源中搜索此控制项，目前没有打开的证据或偏差。没有打开的发现项并不等于控制项达标；匹配器也可能漏掉了以其他形式保存的证据。
+compliance.evidence.outcomeRow.noEvidence.next	检查此控制项是否在已搜索来源之外有实现或文档，并把该证据补到扫描旁边。
+compliance.evidence.outcomeRow.noScans.detail	此档案没有已完成的扫描结果，因此无法从仓库获知此控制项的任何信息。
+compliance.evidence.outcomeRow.noScans.next	对该体系的仓库跑一次新扫描来搜索此控制项。
+compliance.evidence.outcomeRow.noSurface.detail	此档案的当前扫描声明其扫描的来源都无法反映此控制项，且没有当前扫描记录过对它的搜索。这不说明控制项是否达标。
+compliance.evidence.outcomeRow.noSurface.next	在其他来源查与此控制项相关的策略、流程、培训记录或运行配置。当前扫描范围内没有来源被搜索过。
+compliance.evidence.outcomeRow.notSearched.detail	当前扫描没有对此准则的搜索记录。更老的扫描可能不含搜索细节。
+compliance.evidence.outcomeRow.notSearched.next	跑一次新扫描来检查此准则。
+compliance.evidence.provenance	出处
+compliance.evidence.recommendation	建议
+compliance.evidence.requirement	需求文本
+compliance.evidence.scanId	扫描
+compliance.evidence.scanSession	扫描会话
+compliance.evidence.scope	扫描范围
+compliance.evidence.source	来源
+compliance.evidence.statusDetails	状态详情
+compliance.framework	框架
+compliance.guidance.clear	清除指引
+compliance.guidance.cleared	指引已清除
+compliance.guidance.help	作用于之后使用此条目的每个仓库的扫描。「扫描新提交」只看新提交；要在所有地方重新评估此控制项请用「全量重扫」。
+compliance.guidance.indicator	指引
+compliance.guidance.indicatorTitle	此控制项有给 Devin 的指引
+compliance.guidance.nextScan	下次扫描生效。
+compliance.guidance.placeholder	去哪里找、需要什么、或为何证据被驳回。
+compliance.guidance.save	保存
+compliance.guidance.saveFailed	无法保存指引。请重试。
+compliance.guidance.saved	指引已保存
+compliance.guidance.title	给 Devin 的指引
+compliance.includedFrameworks	此体系中的框架
+compliance.ledger.count	{{total}} 个发现项中的 {{shown}} 个
+compliance.ledger.countWithEvidence	{{total}} 个发现项和证据指引中的 {{shown}} 个
+compliance.ledger.empty	最近完成的扫描没有发现项。
+compliance.ledger.kind	类型
+compliance.ledger.kinds.all	全部类型
+compliance.ledger.kinds.deviation	偏差
+compliance.ledger.kinds.evidence	证据
+compliance.ledger.noMatches	没有匹配这些筛选的发现项。
+compliance.list.emptyNote	Devin 收集证据并标记偏差供评估员验证；它不断言控制项是否达标。
+compliance.list.frameworkCount_one	{{count}} 个框架
+compliance.list.frameworkCount_other	{{count}} 个框架
+compliance.list.frameworks	框架
+compliance.list.noFrameworks	无框架
+compliance.list.openSystem	打开体系
+compliance.list.partialScans	部分扫描还没有结果
+compliance.list.scanStatus	扫描状态
+compliance.list.searchFramework	搜索框架
+compliance.list.status.clean	无未解决偏差
+compliance.list.status.deviations	有偏差
+compliance.list.status.unscanned	未扫描
+compliance.list.statusCount_one	{{count}} 个状态
+compliance.list.statusCount_other	{{count}} 个状态
+compliance.list.systemActions	体系操作
+compliance.loading	正在加载合规体系…
+compliance.noCompletedScans	没有已完成的扫描
+compliance.openScanSession	打开 {{system}} 的最近扫描会话
+compliance.repositories	仓库
+compliance.runAction.duplicateBadge	并发运行
+compliance.runAction.duplicate_one	此扫描档案和仓库已有 {{count}} 次扫描在运行。
+compliance.runAction.duplicate_other	此扫描档案和仓库已有 {{count}} 次扫描在运行，发现项会被拆分。取消你不需要的。
+compliance.runAction.failed	启动失败
+compliance.runAction.framework	框架
+compliance.runAction.fullRescan	全量重扫
+compliance.runAction.fullRescanTooltip	从零开始扫描每个仓库，重新映射所有准则；当前扫描及其发现项保留在历史中。
+compliance.runAction.groupFailed_one	{{count}} 次运行中 {{failed}} 次启动失败
+compliance.runAction.groupFailed_other	{{count}} 次运行中 {{failed}} 次启动失败
+compliance.runAction.groupStarted_one	已启动 {{count}} 次运行
+compliance.runAction.groupStarted_other	已启动 {{count}} 次运行
+compliance.runAction.groupUpToDate_one	{{count}} 个扫描档案已是最新；未启动运行
+compliance.runAction.groupUpToDate_other	全部 {{count}} 个扫描档案已是最新；未启动运行
+compliance.runAction.lastScanned	最近扫描时间
+compliance.runAction.neverScanned	从未扫描
+compliance.runAction.noRepos	此体系还没有关联仓库
+compliance.runAction.rescan	重扫
+compliance.runAction.rescanTooltip	只扫自 {{commit}}（{{date}}）以来新增的提交；不创建新扫描。
+compliance.runAction.respond	回复
+compliance.runAction.respondTooltip	Devin 在扫描会话中等待你的输入。在那里回复以继续扫描。
+compliance.runAction.runFirstAssessment	运行首次评估
+compliance.runAction.runSystemScan	运行体系扫描
+compliance.runAction.systemFullRescanTooltip	对此体系所有框架的每个扫描档案从零开始扫描，重新映射所有准则；当前扫描及其发现项保留在历史中。从未扫过的档案会做首次评估。
+compliance.runAction.systemScanNewCommitsTooltip	扫描此体系所有框架下的新提交；从未扫过的档案会做首次评估。
+compliance.scanHistory.empty	此体系还没有扫描。
+compliance.scanHistory.finished	完成时间
+compliance.scanHistory.noSessionPermission	你没有启动 Devin 会话的权限
+compliance.scanHistory.runActive	已有一次运行在进行中
+compliance.scanHistory.started	开始时间
+compliance.scanHistory.title	扫描历史
+compliance.scanProgress.batches	已排查 {{total}} 批中的 {{completed}} 批
+compliance.scanProgress.deviations_one	{{count}} 个偏差
+compliance.scanProgress.deviations_other	{{count}} 个偏差
+compliance.scanProgress.incomplete	未完成
+compliance.scanProgress.neverScanned_one	{{count}} 个从未扫描
+compliance.scanProgress.neverScanned_other	{{count}} 个从未扫描
+compliance.scanProgress.profilesRunning	{{count}} 个扫描档案中 {{running}} 个在运行
+compliance.scanProgress.profiles_one	{{count}} 个扫描档案
+compliance.scanProgress.profiles_other	{{count}} 个扫描档案
+compliance.scanProgress.systemScan	体系扫描
+compliance.scans	扫描
+compliance.searchFrameworks	搜索框架…
+compliance.summary.copy	复制摘要
+compliance.summary.failed	无法生成摘要。请重试。
+compliance.summary.generate	生成摘要
+compliance.summary.generating	正在写摘要…
+compliance.summary.help	对下方发现项的带引用报告，可审查并粘贴进审计文档。不是合规判定。
+compliance.summary.regenerate	重新生成
+compliance.summary.title	摘要
+compliance.system	体系
+compliance.systemActions.accountSharedBlocked	部分条目在企业内共享，只有企业管理员能改
+compliance.systemActions.archive	归档体系
+compliance.systemActions.archiveDescription_one	归档其 {{count}} 个条目并把体系从「合规」移除。已有扫描和发现项保留。
+compliance.systemActions.archiveDescription_other	归档其全部 {{count}} 个条目并把体系从「合规」移除。已有扫描和发现项保留。
+compliance.systemActions.archiveFailed_one	{{count}} 个条目中 {{failed}} 个无法归档
+compliance.systemActions.archiveFailed_other	{{count}} 个条目中 {{failed}} 个无法归档
+compliance.systemActions.archiveTitle	归档 {{name}}？
+compliance.systemActions.archived	{{name}} 已归档
+compliance.systemActions.exportCsv	导出 CSV
+compliance.systemActions.exportCsvDisabled	此体系完成一次扫描后可用
+compliance.systemActions.exportFailed	无法导出 CSV
+compliance.systemActions.exported	CSV 下载已开始
+compliance.systemActions.exporting	正在导出 CSV…
+compliance.systemActions.label	{{name}} 的操作
+compliance.systemActions.rename	重命名体系
+compliance.systemActions.renameDescription_one	更新其 {{count}} 个条目上的体系
+compliance.systemActions.renameDescription_other	更新其全部 {{count}} 个条目上的体系
+compliance.systemActions.renameFailed_one	{{count}} 个条目中 {{failed}} 个无法重命名，仍归在旧体系下
+compliance.systemActions.renameFailed_other	{{count}} 个条目中 {{failed}} 个无法重命名，仍归在旧体系下
+compliance.systemActions.renameTitle	重命名 {{name}}
+compliance.systemActions.renamed	已重命名为 {{name}}
+compliance.systemActions.slugHint	改标识名会把体系移到新 URL。
+compliance.systemActions.slugTaken	另一个体系已在使用此标识名。
+compliance.systemGuidance.cleared	体系指引已清除
+compliance.systemGuidance.description	作用于此体系的每次扫描。引导 Devin 看哪里、怎么写发现项，从不改变控制项状态。
+compliance.systemGuidance.label	指引
+compliance.systemGuidance.menu	给 Devin 的指引
+compliance.systemGuidance.nextScan	下次扫描生效。
+compliance.systemGuidance.partial	已保存到 {{count}} 个扫描档案中的 {{saved}} 个。保存以应用到全部。
+compliance.systemGuidance.placeholder	如：忽略 apps/legacy/**。观察描述保持一句话。PE 族降低优先级。
+compliance.systemGuidance.save	保存
+compliance.systemGuidance.saveFailed_one	{{count}} 个扫描档案中 {{failed}} 个无法更新
+compliance.systemGuidance.saveFailed_other	{{count}} 个扫描档案中 {{failed}} 个无法更新
+compliance.systemGuidance.saved	体系指引已保存
+compliance.systemGuidance.title	给 {{name}} 的指引
+compliance.systems	合规体系
+compliance.title	合规
+compliance.tryAgain	重试
+compliance.unassignedFramework	未分配框架
+compliance.usage.fullScope	每个条目最近一次全量扫描的总 ACU，不含重跑和导入的证据。
+compliance.usage.latestFull	最近全量扫描：{{usage}}
+compliance.usage.latestRun	最近运行用量
+compliance.usage.loadError	无法加载用量
+compliance.usage.loading	正在加载用量…
+compliance.usage.runScope	最近一次运行所用 ACU。更早的运行见扫描历史。
+compliance.usage.unavailable	用量不可用
+complianceSidebar.deviationCount_one	{{count}} 个偏差
+complianceSidebar.deviationCount_other	{{count}} 个偏差
+complianceSidebar.setUpCardDescription	收集控制项证据供评估员验证
+complianceSidebar.setUpCardTitle	设置一个体系
+complianceSidebar.setUpSystem	设置体系
+complianceSidebar.systems	体系
+composerTips.agentLocation	提示：在云端或本机运行 Devin（<shortcut/>）
+composerTips.capabilityMenu	提示：更改 Devin 的模型和能力（<shortcut/>）
+composerTips.commandPalette	提示：搜索会话和命令（<shortcut/>）
+composerTips.newSession	提示：开始新会话（<shortcut/>）
+composerTips.sidebar	提示：隐藏或显示侧栏（<shortcut/>）
+composerToast.connectGitHubDescription	连接你的 GitHub 账户，在你的代码库上试试 Devin
+composerToast.finishOrgSetupTitle	完成你的组织设置
+composerToast.openPrsTitle	用 Devin 开 PR
+confirmation.cancel	取消
+confirmation.confirm	确认
+connectGit.allSet	一切就绪
+connectGit.connectedBody	你的 Git 提供商已连接到 Devin。告诉队友他们已解除阻塞——或自己试试 Devin。
+connectGit.description	一位队友请你把组织的仓库连接到 Devin，团队就能开始干活。
+connectGit.manageConnections	管理 Git 连接
+connectGit.title	连接你的 Git 提供商
+connectGit.tryDevin	立即试试 Devin
+connectionSchedule.advanced	高级

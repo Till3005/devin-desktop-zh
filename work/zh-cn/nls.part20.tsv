@@ -1,0 +1,54 @@
+vs/workbench/contrib/agentsVoice/browser/components/statusRowsComponent/agentsVoice.done	已完成
+vs/workbench/contrib/agentsVoice/browser/components/statusRowsComponent/agentsVoice.jumpToSession	跳到会话
+vs/workbench/contrib/agentsVoice/browser/components/statusRowsComponent/agentsVoice.needsInput	需要输入
+vs/workbench/contrib/agentsVoice/browser/components/statusRowsComponent/agentsVoice.noActiveSessions	没有活动会话
+vs/workbench/contrib/agentsVoice/browser/components/statusRowsComponent/agentsVoice.working	进行中
+vs/workbench/contrib/agentsVoice/browser/components/voiceBarComponent/agentsVoice.listening	正在聆听
+vs/workbench/contrib/agentsVoice/browser/components/voiceBarComponent/agentsVoice.speaking	正在说话…
+vs/workbench/contrib/agentsVoice/browser/components/voiceBarComponent/agentsVoice.stopSpeech	停止语音
+vs/workbench/contrib/architectureWarning/electron-browser/architectureWarning.contribution/architectureMismatchWarning	架构不匹配
+vs/workbench/contrib/architectureWarning/electron-browser/architectureWarning.contribution/wrongArchitecture	架构错误——请下载原生 ARM64 构建
+vs/workbench/contrib/architectureWarning/electron-browser/architectureWarning.contribution/wrongArchitectureAria	你正在运行 {0} 的模拟 x64 版本。下载原生 ARM64 版本以获得更好性能。
+vs/workbench/contrib/architectureWarning/electron-browser/architectureWarning.contribution/wrongArchitectureTooltip	你正在运行 {0} 的模拟版本，性能可能下降。点击下载原生 ARM64 构建。
+vs/workbench/contrib/browserView/common/browserView/browserView.openShareableCopy.cancel	取消
+vs/workbench/contrib/browserView/common/browserView/browserView.openShareableCopy.confirm	打开并共享(&&O)
+vs/workbench/contrib/browserView/common/browserView/browserView.openShareableCopy.detail	此标签页未执行 agent 共享所需的已配置策略限制。\n\n在新标签页中打开该页面即可与 agent 共享。
+vs/workbench/contrib/browserView/common/browserView/browserView.openShareableCopy.message	打开新标签页用于共享？
+vs/workbench/contrib/browserView/electron-browser/browserViewWorkbenchService/browser.networkFilteringEnabled	由于启用了网络过滤，agent 对浏览器标签页的访问已被撤销。
+vs/workbench/contrib/browserView/electron-browser/features/browserDataStorageFeatures/browser.clearAgentStorageAction	清除存储（Agent）
+vs/workbench/contrib/browserView/electron-browser/features/browserDataStorageFeatures/browser.dataStorage.agent	浏览器视图共享一个内存会话，在应用关闭时清除。此会话与 agent 打开的浏览器页面共享，因此**包括 local storage 和 cookie 在内的所有数据都将可被 agent 访问。** 启用 agent 网络过滤时，来自此会话的请求受已配置的网络域名策略限制。
+vs/workbench/contrib/browserView/electron-browser/features/browserEditorChatFeatures/browser.shareWithAgent.blockedByNetworkPolicy	因网络域名策略，无法与 agent 共享。
+vs/workbench/contrib/browserView/electron-browser/features/browserEditorChatFeatures/browser.shareWithAgent.failed	无法共享浏览器标签页
+vs/workbench/contrib/browserView/electron-browser/features/browserEditorChatFeatures/browser.shareWithAgent.isolated	与 Agent 共享（打开隔离标签页）
+vs/workbench/contrib/browserView/electron-browser/features/browserEditorErrorFeatures/browser.networkPolicyErrorExtraWarning	该请求很可能被网络域名策略拦截。\n请检查已配置的允许和拒绝的网络域名。
+vs/workbench/contrib/browserView/electron-browser/tools/openBrowserTool/browser.sandbox.requiresUrl	沙箱化的 Copilot 会话必须在隔离的浏览器页面中打开 URL，而不是共享用户拥有的页面。
+vs/workbench/contrib/browserView/electron-browser/tools/screenshotBrowserTool/browser.sandbox.pageNotAvailable	此沙箱会话中找不到 ID 为 {0} 的浏览器页面。
+vs/workbench/contrib/browserView/electron-browser/webContentsViewHost/browser.overlayPauseDetail.notification	关闭该通知即可继续使用浏览器。
+vs/workbench/contrib/browserView/electron-browser/webContentsViewHost/browser.overlayPauseHeading.notification	因通知而暂停
+vs/workbench/contrib/chat/browser/accessibility/chatResponseAccessibleView/warningContent	警告：{0}
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.agentHostSandboxPolicy	在 Copilot agent-host 会话中，使用 /sandbox policy 查看生效的沙箱策略。在回复中，按 Tab 聚焦“打开沙箱策略”，按 Enter 打开格式化报告。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.agentsParallelWork	当另一个 Agent Host 会话正在运行时，新的 Agent Host 聊天可能显示并排运行 agent 的邀请。一次只显示一条聊天输入通知。用 Tab 移动到“打开 Agents 窗口”“忽略”或“关闭通知”。“打开 Agents 窗口”会从该输入框复制当前提示词和附件，但不发送也不清空它。Agents 窗口中已有的草稿保留。“忽略”关闭今后的邀请；“关闭通知”仅为该聊天隐藏邀请直至窗口重载。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.blobby	输入 /blobby 可在不发送聊天请求的情况下解锁“真名”成就。若 Blobby 已关闭，该命令会将其开启；若已开启，则打开“自定义 Blobby”中的“颜色”标签页。宠物上下文菜单中的“更改颜色”始终打开“颜色”，其中 Stable 和 Insiders 是免费选项。“真名”解锁纯色预设和自定义颜色；激活该成就也会打开“颜色”。使用取色器或输入不透明十六进制颜色（如 #ff8800），然后激活“应用颜色”。离开标签页或关闭弹窗时，未应用的自定义颜色会被丢弃。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.copilotHarnessIntroduction	根据当前实验，新的 Copilot harness 聊天可能在会话开始或首次请求提交后显示新 Copilot 体验介绍。显示后，发送消息不会使其消失。用 Tab 移动到“告诉我们”“了解更多”“知道了！”或“没帮助”。“了解更多”打开文档且不隐藏介绍。“知道了！”和“没帮助”关闭今后的介绍。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.customizationMigrations	当工作区自定义项需要更新时，新聊天输入框上方的通知会显示需要处理的数量。用 Tab 移动到“审阅迁移”打开迁移页面。“关闭此工作区的迁移通知”会隐藏该工作区的通知（包括重启后），并将焦点移回输入框。“自定义项”工具栏按钮在有可用迁移时也会播报。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.harnessSwitchFeedbackSurvey	从 Copilot 切换到 Local 后，聊天输入框上方可能出现反馈问卷。用 Shift+Tab 移动到它。用上下方向键选择切换原因，然后按 Enter 或空格键提交。“关闭问卷”或 Escape 关闭问卷。提交后会有一条消息确认已记录你的反馈。用 Tab 移动到“在 GitHub 上分享”以在 GitHub 议题中提供具体反馈。用“关闭反馈确认”或 Escape 关闭该消息。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.inputBlocked	当另一个 Codex 应用正在使用该对话时，输入框上方的横幅会说明如何释放它。你可以继续编辑草稿，但发送被禁用。退出占用该对话的应用（如 ChatGPT）或退出 Codex CLI 会话。用 Tab 聚焦横幅中的“重试”，然后按 Enter 或空格键再次检查。“重试”不会发送你的草稿。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.linkContextMenu	聚焦聊天转录中的链接并按 Shift+F10 打开其上下文菜单。用“复制链接”复制其目标。带有额外编辑器选项的文件链接还提供“打开方式”。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.mcpStartupSkip	当聊天回合正在等待 MCP 服务器启动时，可能出现“跳过”链接。用 Tab 聚焦“跳过”并按 Enter 或空格键，让这些服务器在后台启动的同时继续回合。当前启动消息会立即消失，焦点返回聊天输入框。新的服务器启动可能再显示另一条消息。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.modelPicker.autoMode	在标签页式模型选择器中，活动的 Copilot 标签页在提供方名称旁有一个 Auto 开关。提供方按钮和开关是独立的键盘目标。打开 Auto 会用自动路由选项替换 Copilot 的各个模型；提供方标签页和搜索仍可用。关闭 Auto 会恢复之前手动选择的 Copilot 模型。没有可用的单个 Copilot 模型时该开关禁用。浏览其他提供方不会改变所选模型。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.modelPicker.detailsPage	在标签页式模型选择器中，思考力度和上下文在悬停、选中或键盘聚焦的模型上显示为配置按钮。用上下方向键聚焦模型，然后按 Tab 到达其配置按钮，按 Enter 或空格键打开其信息与配置页面而不选中它。没有读数时按钮显示“详情”。无可配置设置的模型仍会打开其信息页面。聊天输入框中模型名称旁的思考力度和上下文读数为当前模型打开同一页面。打开配置按钮会在可用时聚焦其配置控件。已知值即使在默认状态下也会显示。“返回模型”箭头位于模型名称旁；导航和模型操作固定在顶部，详情内容可滚动。“返回模型”回到之前的提供方、搜索和模型列表。Escape 在任何页面关闭选择器并恢复焦点。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.modelPicker.managedDefault	在标签页式模型选择器中，“组织默认”标识你的组织为新聊天设置的模型。为该聊天选择其他模型时它仍保留在该模型上；对勾标识你当前的选择。当 Auto 是组织默认时，Auto 分区带有相同标签。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.modelPicker.optimizeFor	在 Auto 模式下，用上下方向键聚焦一个“优化目标”偏好：效率、均衡或智能。按 Enter 或空格键应用该偏好并保持选择器打开。HydraFusion（可用时）是另一种路由选项，而非额外的开关。聚焦 HydraFusion 并按 Tab 到达“了解更多”。选中它会清除当前 Auto 档位；选中某个档位则回到 Auto。关闭 Auto 会保留偏好和路由选择。Auto 没有独立详情页：聊天输入框中的 Auto 名称和偏好读数都会打开这些路由选项。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.modelPicker.pricingDetails	“定价详情”原地展开，不移动模型控件。启用减弱动态效果时展开和收起立即完成。若详情超出可用空间，在模型详情聚焦时用 Page Up 或 Page Down 滚动。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.modelPicker.resetToDefault	在模型详情中，用 Tab 到达思考力度、上下文和模型操作。用方向键在选项间移动，然后按 Enter 或空格键选择。更改过思考力度或上下文时，“重置为默认”出现在“固定模型”旁。它将两项设置恢复到模型默认，不改变固定状态。选择选项或重置设置会选中该模型并保持其详情打开。固定或取消固定会更新模型列表，不移动其详情或键盘焦点。“返回”不撤销已保存的设置，但离开详情后才完成的保存不会覆盖更新的模型选择。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.modelPicker.search	在模型列表聚焦时输入即可跨所有提供方搜索。在搜索框中，用上下方向键浏览结果，按 Enter 选择模型，按 Escape 关闭选择器。左右方向键移动文本光标。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.nestedSubagentActivity	当子代理又启动子代理时，其活动行按名称标识嵌套子代理。用 Tab 聚焦该链接并按 Enter 或空格键，在侧边打开嵌套子代理的聊天。外围的药丸仍打开父级子代理。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.openTerminalFullOutput	当已完成命令保留了完整输出时，可用输出预览下方的“查看完整输出”链接，或命令头部/终端输出无障碍视图中的“打开完整输出（只读）”操作，在只读编辑器中打开。也可以聚焦输出区域并按 Enter。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.persistentProgress	chat.experimental.persistentProgress 设置在所有版本的 VS Code 中默认为“绘制”。实验可覆盖默认值；显式设置优先。选择“绘制”“绘制（单色）”或“绘制（单色，无图标）”可在回复完成前在底部保留工作进度指示器。回复完成时，其工具栏取代指示器位置。“绘制”以快速抛物线飘带动作系起和解开 VS Code 标志，循环间有短暂停顿。“无图标”变体仅隐藏装饰性 VS Code 图标；进度文字和语音播报不变。chat.experimental.persistentProgressVerbosity 设置默认为“紧凑”：工具调用运行时显示预览，当思考或回复文字继续、或回复完成时，原地折叠为单行摘要。选择“详细”可保持工具链展开，无组标题也无内部滚动限制。用 Tab 聚焦摘要并按 Enter 或空格键展开或折叠其工具调用。自动折叠会等到键盘焦点离开该组。已完成的回复仍遵循 chat.agent.collapseCompletedResponses。推理显示为独立的可折叠预览；聚焦推理标题并按 Enter 或空格键展开或折叠。独立工具保留其装饰图标。终端活动动画和子代理药丸不变。指示器报告正在运行的子代理和后台命令数量（包括早前请求启动的工作），无论主回复在进行还是空闲。需要你输入、批准、计划审阅或认证的请求优先于这些计数。当回复 90 秒无活动且没有活动工具、进度任务或已知后台工作时，它会报告该回复耗时异常。长时间运行的前台终端命令不会触发此消息。减弱动态效果会禁用…
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.persistentProgressHandoff	回复运行期间，自动折叠推理或工具预览会保留可见的标题。若标题位于可见内容上方但其详情仍可见，它会移到固定提示词下方，或在没有固定提示词时移到视口顶部。只为可见视口预留所需空间。该空间在回复完成或停止后移除（在任何待完成过渡和内容渲染结束后）。展开预览会随内容增长消耗预留空间。滚动到底部会移除预留空间。手动折叠不增加填充。后续回复内容在自动折叠完成后出现。减弱动态效果会跳过此延迟。若键盘焦点使预览保持打开，新内容会继续出现而不等待焦点移动。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.persistentProgressSimplifiedTools	在“紧凑”持久进度下，单个工具使用其正常渲染、图标和详情，不带组摘要或自动组折叠。MCP 工具使用 MCP 图标。聊天等待你的回答时，工作指示器会直接报告，而不是显示独立的问题工具进度行。问题控件仍可用，已回答的问题留在回复中，问题工具的失败仍可见。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.persistentReasoningTitles	在持久进度下，推理标题在内容到达时显示“正在思考”。推理完成时，单个标题成为标题并从详情中移除。启用 chat.agent.thinking.generateTitles 且标题生成可用时，多个标题留在详情中，标题中显示摘要。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.readOnlyThinking	在只读聊天中，思考详情在流式输出时预览、完成后折叠，与你的思考样式设置无关。聚焦思考标题并按 Enter 或空格键展开或折叠其详情。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.sandboxUnavailable	若 agent host 无法支持已配置的沙箱，输入框上方的通知会说明原因。你可以选中并复制警告文字。用 Tab 移动到支持链接或“关闭通知”，按 Enter 打开聚焦的链接。关闭会为该会话隐藏警告直至窗口重载，不改变沙箱也不阻止消息。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.sessionActivityPills	“子代理”和“自定义项”在 Agents 窗口和编辑器窗口都可用，默认隐藏。从会话状态工具栏上下文菜单启用。“子代理”列出当前聊天的直接子代理，按进行中和已完成分组。激活条目在侧边打开其聊天。“子代理选项”可显示全部或仅进行中的子代理，跨窗口记忆。“自定义项”列出当前聊天使用的 agents、skills、instructions、hooks、prompts、MCP 服务器和插件。激活条目在“自定义项”编辑器中定位显示。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.sessionArchiveNudge	当会话的 PR 全部合并时，聊天输入框上方会出现归档建议。用 Tab 或 Shift+Tab 移动到“归档”“配置自动清理”或“关闭归档建议”，然后按 Enter 或空格键。“配置自动清理”打开自动归档不活跃已合并会话和永久删除自动归档的已合并会话的设置。“归档会做什么？”下方的说明默认折叠，用 Tab 到达并按 Enter 或空格键展开或折叠。关闭建议（包括聚焦时按 Escape）会返回聊天输入框。归档会话会将其从会话列表中隐藏，让你专注剩余任务。会话不会被删除。让 agent 帮你找，或在会话列表的“已归档”分区查看。你可随时取消归档。为会话创建的 worktree（若有）将被删除，取消归档会话可重建它。

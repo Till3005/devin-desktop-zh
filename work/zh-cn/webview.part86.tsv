@@ -1,0 +1,190 @@
+settings.gitlabAppsLoadFailed	加载 GitLab 应用配置失败。
+settings.gitlabAppsLoading	加载配置中…
+settings.gitlabAppsRemove	移除
+settings.gitlabAppsRemoveFailed	移除 GitLab 应用配置失败。
+settings.gitlabAppsRemoved	已移除 {{host}} 的 GitLab 应用
+settings.gitlabAppsRemoving	移除中…
+settings.gitlabAppsTitle	GitLab 应用
+settings.gitlabConnectionAdded	添加于 {{date}}
+settings.gitlabDescription	管理 GitLab 集成设置
+settings.gitlabGroupOnboardFailed	接入不了 GitLab 组
+settings.gitlabGroupOnboarded	{{group}} 已连
+settings.gitlabGroupTokenConnection	组访问令牌
+settings.gitlabOnboardAlreadyConnected	已连
+settings.gitlabOnboardCoveredBy	被 {{group}} 覆盖
+settings.gitlabOnboardGroup	接入一个组
+settings.gitlabOnboardGroupDescription	挑一个你是 Owner 的 GitLab 组。Devin 建一个限该组、其子组及其项目的组访问令牌并在这连它。
+settings.gitlabOnboardGroupEmpty	没有你是 Owner 的组。
+settings.gitlabOnboardGroupLinkFirst	先链你 GitLab 账户，Devin 才能列你拥有的组。
+settings.gitlabOnboardGroupLoadFailed	加载不了你 GitLab 组
+settings.gitlabOnboardGroupSearch	搜索组
+settings.gitlabOnboardProject	接入一个项目
+settings.gitlabOnboardProjectDescription	挑一个你是 Maintainer 的 GitLab 项目。Devin 建一个限该项目的项目访问令牌并在这连它。
+settings.gitlabOnboardProjectEmpty	没有你是 Maintainer 的项目。
+settings.gitlabOnboardProjectHost	GitLab 主机
+settings.gitlabOnboardProjectLink	链 GitLab 账户
+settings.gitlabOnboardProjectLinkFailed	启动不了链你 GitLab 账户
+settings.gitlabOnboardProjectLinkFirst	先链你 GitLab 账户，Devin 才能列你维护的项目。
+settings.gitlabOnboardProjectLoadFailed	加载不了你 GitLab 项目
+settings.gitlabOnboardProjectLoadMore	加载更多
+settings.gitlabOnboardProjectRetry	重试
+settings.gitlabOnboardProjectSearch	搜索项目
+settings.gitlabOnboardProjectSubmit	接入
+settings.gitlabOnboardTarget	加项目或组
+settings.gitlabOnboardTargetDescription	你维护的项目拿项目访问令牌；你拥有的组拿覆盖其子组和将来项目的组访问令牌。
+settings.gitlabProjectOnboardFailed	接入不了 GitLab 项目
+settings.gitlabProjectOnboarded	{{repo}} 已连
+settings.gitlabProjectSyncing	同步项目中…
+settings.gitlabReconnectRequired	需重连
+settings.gitlabReconnectRequiredDescription	GitLab 拒了此连接的 token。需要它的会话将失败直到你重连。
+settings.gitlabRepositoryPermissions	GitLab 仓库权限
+settings.gitlabRepositoryPermissionsDescription	配置每个 Devin 组织可用的仓库
+settings.goToCustomize	去自定义
+settings.goToMcpServers	去 MCP 服务器
+settings.googleChatIntegrationDescription	只提 @Devin 就从 Google Chat 开 Devin 会话。
+settings.googleWorkspaceMcpNoticeEnroll	注册 Developer Preview
+settings.googleWorkspaceMcpNoticePreview	Google 只对加入 <previewLink>Google Workspace Developer Preview Program</previewLink> 的 Google Cloud 项目供 {{name}} MCP 请求。没注册的话，登录能成但每个工具调用被 Google 以权限错误拒。
+settings.googleWorkspaceMcpNoticeTitle	需要 Google Workspace Developer Preview 注册
+settings.groupColumn	组
+settings.groupMappingGroupRequired	请选一个组
+settings.groupMappingTierLabel	成员档位
+settings.groupMappingTierRequired	请选一个成员档位
+settings.groupMappings	组映射
+settings.groupMappingsDescription	把身份提供商组映射到用量档位。没有直接派档位的成员拿其组的档位；若其组映射到几个档位，档位列表最靠上的优先。
+settings.groupMappingsSidebarLabel	组映射
+settings.groups	组（IdP）
+settings.groupsDescription	从你企业同步的组
+settings.groupsIdp	组（IdP）
+settings.groupsIdpDescription	管理身份提供商组和映射
+settings.guardrails	护栏
+settings.handsOnHelp	上手帮助
+settings.headerScript	头脚本
+settings.headerScriptDescription	每次调用前在会话机器跑的 bash 命令。它输出要发头的 JSON 对象。
+settings.healthyHypervisors	健康 hypervisor
+settings.highContrast	高对比模式
+settings.highContrastDescription	提高 app 各处颜色对比，或跟随你系统设置。
+settings.highestUtilizationWithUsage	最高利用率（有用量）
+settings.hooksConfigLabel	Hook 配置
+settings.hypervisorDetails	Hypervisor 详情
+settings.hypervisorSettings	Hypervisor 设置
+settings.hypervisorSettingsDescription	配置 VPC 部署设置
+settings.idpGroupColumn	IdP 组
+settings.idpGroupsSidebarLabel	IdP 组
+settings.imageTooLarge	图片文件太大：至多 10 MB。
+settings.inSession	会话内
+settings.inappNotifications	App 内通知
+settings.inappNotificationsDescription	会话要你关注时在 app 内通知
+settings.incidentIo	incident.io
+settings.includeInEnvironment	纳入环境
+settings.includeInEnvironmentDescription	为新 Devin 会话预克隆并设置此仓库
+settings.increaseFontSize	增大字号
+settings.indexedBranches	已索引分支
+settings.individualAnalytics	个人分析
+settings.individualAnalyticsDescription	允许成员级分析
+settings.infrastructure	基建
+settings.infrastructureStatus	基建状态
+settings.insights	Devin 洞察
+settings.insightsBlockersTab	阻塞项报告
+settings.insightsReadinessTab	Agent 就绪度
+settings.insightsTabTitle	洞察
+settings.install	安装
+settings.installDevinCliInDevinDesktop	在 Devin Desktop 装 Devin CLI
+settings.integrationCategoryCommunication	沟通
+settings.integrationCategoryCommunicationDescription	在你团队工作区 @Devin
+settings.integrationCategoryGitProviders	Git 提供商
+settings.integrationCategoryGitProvidersDescription	在你代码库试 Devin
+settings.integrationCategoryIncidentManagement	事件管理
+settings.integrationCategoryIncidentManagementDescription	用 Devin 响应事件
+settings.integrationCategorySupport	支持
+settings.integrationCategorySupportDescription	自动化支持升级和工作流
+settings.integrationCategoryTaskManagement	任务管理
+settings.integrationCategoryTaskManagementDescription	把工单变拉取请求
+settings.integrationConnectionSubtitle	把 Devin 集成 {{provider}}
+settings.integrationCustomTracker	自定义 Tracker（API）
+settings.integrationDescriptionAzureDevops	建 PR、响应 PR 评论和 CI 失败，等
+settings.integrationDescriptionBitbucket	建 PR、响应 PR 评论和 CI 失败，等
+settings.integrationDescriptionCustomTracker	经 Devin API 从你自己系统推工作项
+settings.integrationDescriptionGerrit	让 Devin 克隆 Gerrit 项目并上传更改待审
+settings.integrationDescriptionGithub	建 PR、自动响应 PR 评论和 CI 失败，等
+settings.integrationDescriptionGitlab	建 MR、响应 MR 评论和 CI 失败，等
+settings.integrationDescriptionIncidentIo	用 Devin 排查和解决事件
+settings.integrationDescriptionJira	把 Jira 工单变 PR
+settings.integrationDescriptionJiraDataCenter	连自托管 Jira Data Center 实例
+settings.integrationDescriptionLinear	把 Linear 工单变 PR
+settings.integrationDescriptionMicrosoftTeams	bug 报告和功能需求一到就在 Microsoft Teams 帖子 @Devin
+settings.integrationDescriptionPagerDuty	用 PagerDuty 事件自动化事件响应
+settings.integrationDescriptionPerforce	给 Devin 作用域内的 Perforce depot 路径访问
+settings.integrationDescriptionPylon	用 Devin 自动化支持工作流和升级
+settings.integrationDescriptionSlack	bug 报告和功能需求一到就在 Slack 帖子 @Devin
+settings.integrationLinkUserProfile	链用户档案
+settings.integrationLinkUserProfilePrompt	{{provider}} 已连。链你的用户档案
+settings.integrationNoConnectionsMatchSearch	没有连接匹配你的搜索。
+settings.integrationSearchConnections	搜索连接…
+settings.integrationSupportDescription	了解 Devin 怎么和你 {{provider}} 仓库交互
+settings.integrationSupportTitle	{{provider}} 里的 Devin
+settings.integrations	集成
+settings.integrationsDescription	管理企业集成连接
+settings.invalidConfiguration	无效配置。
+settings.invalidJsonInServerConfig	服务器配置里无效 JSON
+settings.invalidJsonSyntax	无效 JSON 语法。
+settings.inviteByEmail	经邮箱邀请
+settings.inviteEmailsLabel	经邮箱加同事
+settings.inviteEmailsPlaceholder	如 user@example.com, user2@example.com
+settings.invites	邀请
+settings.invoices	发票
+settings.jira	Jira
+settings.jiraAutomationsMoved	自动化现居 <automationsLink>自动化页</automationsLink>，各组织管自己的。
+settings.jiraAutomationsMovedNoLink	自动化现居各组织的自动化页。
+settings.jiraDataCenter	Jira Data Center
+settings.jiraDataCenterDescription	链你 Jira Data Center 用户以看活工作项详情
+settings.jiraDescription	把 Jira 工单路由到组织，在会话、技能和知识里干
+settings.jiraDirectSessionDescription	关时，Devin 只在工单上发范围评论
+settings.jiraDirectSessionLabel	在会话里做工单
+settings.jiraEnvironmentMapping	Jira 环境映射
+settings.jiraEnvironmentMappingDescription	把 Jira 项目映射到新 My Workspace 会话的环境
+settings.jiraIntegrationDescription	让 Devin 干活。把工单变 PR。
+settings.jiraKnowledgeDescription	Devin 接一个工单时已知的你 Jira 项目情况
+settings.jiraKnowledgeTitle	知识
+settings.jiraLegacyAutomationsDescription	这些仍按项目映射路由。在 <automationsLink>自动化页</automationsLink>重建，再在这删
+settings.jiraLegacyAutomationsDescriptionNoLink	这些仍按项目映射路由。在你组织的自动化页重建，再在这删
+settings.jiraLegacyAutomationsLabel	旧版自动化
+settings.jiraOauthAccountHasSite	此 Devin 账户已连另一个 Jira 站点。连另一个前先断开。
+settings.jiraOauthAtlassianUnavailable	Atlassian 没应登录申请，所以什么都没连。一分钟后重试。
+settings.jiraOauthBadState	此 Jira 登录链接不再有效：可能过期或在别的浏览器开过。从此页重开连接。
+settings.jiraOauthBusy	此 Jira 连接另一个更改还在进行。等一会再连。
+settings.jiraOauthCancelled	你取消了 Atlassian 登录，所以什么都没连。随时再连 Jira。
+settings.jiraOauthDenied	Atlassian 完成不了登录。再连 Jira；若一直失败，问你 Atlassian 管理员你账户是否允许 Devin app。
+settings.jiraOauthFailedTitle	连不了 Jira
+settings.jiraOauthForbidden	你不再有此组织管工单集成的权限，所以什么都没连。请组织管理员给访问。
+settings.jiraOauthLegacyTriggers	此账户有些自动化带没站点的 Jira 触发器。连另一个站点前先解决。
+settings.jiraOauthNoAccount	此登录为之起的 Devin 账户已不存在。登录 Devin 重新开始。
+settings.jiraOauthNoCode	Atlassian 把你送回来时没带授权，所以什么都没连。再连 Jira。
+settings.jiraOauthNoSites	找不到你登录用的 Atlassian 账户能进的 Jira 站点，所以什么都没连。若有，一分钟后重试；否则用你想连站点的 Jira 管理员账户登录。
+settings.jiraOauthNotEnabled	此 Devin 账户没开 Jira 集成。联系支持开通。
+settings.jiraOauthProfileMissing	Atlassian 没回你登录账户的档案，所以什么都没连。再连 Jira。
+settings.jiraOauthSiteDetailsMissing	Atlassian 没回 Jira 站点详情，所以什么都没连。再连 Jira。
+settings.jiraOauthSiteOtherAccount	此 Jira 站点已连另一个 Devin 账户。先在那断开，或连别的站点。
+settings.jiraOauthSitesUnavailable	Atlassian 没告诉我们你账户能到哪些 Jira 站点，所以什么都没连。一分钟后重试。
+settings.jiraOauthTokenRejected	Atlassian 没接受登录。授权只能用一次且很快过期，所以再连 Jira。
+settings.jiraOauthUnexpected	完成 Jira 连接时我们这边出错了。什么都没连；一分钟后重试，若一直发生联系支持。
+settings.jiraOrgPlaybooksLabel	{{organization}} 的 playbook
+settings.jiraOrgSkillsDescriptionNoProjects	用于此组织的工单，替代上面技能
+settings.jiraOrgSkillsDescriptionProjects	用于 {{projects, list}} 的工单，替代上面技能
+settings.jiraOrgSkillsEmpty	还没有技能，所以用上面技能
+settings.jiraOrgSkillsLabel	{{organization}} 的技能
+settings.jiraPlaybooksDescription	给 Jira 工单派对应标签以带 playbook 开 Devin 会话。复制标签名并在你 Jira 项目建它。Devin 被无特定 playbook 标签触发时（如带「devin」标签）用默认 playbook。
+settings.jiraProjectMapping	Jira 项目映射
+settings.jiraProjectMappingDescription	把 Jira 项目映射到 Devin 组织以路由会话
+settings.jiraSessionsDescription	工单交给 Devin 时它干什么
+settings.jiraSessionsTitle	会话
+settings.jiraSkillsDescription	给工单加某技能的标签就跑那个技能。没有时 Devin 用默认技能
+settings.jiraTriggerDialogPlaybookDescription	项目、标签和状态条件匹配时触发 playbook。
+settings.jiraTriggerDialogSkillDescription	项目、标签和状态条件匹配时触发技能。
+settings.joinRequests	加入申请
+settings.joinRequestsDescription	审加入你组织的待批申请
+settings.joinRequestsTable.approve	批准
+settings.joinRequestsTable.empty	没有{{status}}加入申请
+settings.joinRequestsTable.failedLoad	加载加入申请失败
+settings.joinRequestsTable.loading	加载中…
+settings.joinRequestsTable.message	消息
+settings.joinRequestsTable.noPermission	你没有管理加入申请的权限

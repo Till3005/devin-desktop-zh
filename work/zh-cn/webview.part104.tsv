@@ -1,0 +1,140 @@
+settings.ssoDomains.available	还没被任何 SSO 连接用
+settings.ssoDomains.checkDns	查 DNS
+settings.ssoDomains.checking	检查中…
+settings.ssoDomains.copyName	复制名
+settings.ssoDomains.copyValue	复制值
+settings.ssoDomains.description	加一条 DNS TXT 记录证明你拥有某邮箱域名。已验证域名可用在你 SSO 连接上，那些邮箱地址的用户经它们登录。
+settings.ssoDomains.domainRequired	域名为必填项
+settings.ssoDomains.domainToVerify	要验证的域名
+settings.ssoDomains.domainVerified	{{domain}} 已验证
+settings.ssoDomains.inUse	被你一个 SSO 连接使用中
+settings.ssoDomains.loadError	加载域名失败。请重试。
+settings.ssoDomains.pending	待验
+settings.ssoDomains.remove	移除
+settings.ssoDomains.removeFailed	移除不了域名
+settings.ssoDomains.title	已验证邮箱域名
+settings.ssoDomains.txtRecordType	TXT
+settings.ssoDomains.verified	已验证
+settings.ssoDomains.verifyFailed	验证不了域名
+settings.startupReferral.body	把你链接分享给其它创始人。你推荐的创业被 Devin for Startups 录取并完成上手后，你组织得 ${{amount}} 奖励用量。
+settings.startupReferral.code	推荐码：{{code}}。你整个组织一个码。
+settings.startupReferral.column.email	邮箱
+settings.startupReferral.column.invitedAt	邀请于
+settings.startupReferral.column.status	状态
+settings.startupReferral.copyLink	复制链接
+settings.startupReferral.description	推荐创业到 Devin for Startups 挣奖励用量。
+settings.startupReferral.joinedNote	推荐的创业完成上手时发奖励。
+settings.startupReferral.link	你的推荐链接
+settings.startupReferral.referred	推荐的创业
+settings.startupReferral.referredError	加载不了你推荐的创业。请重试。
+settings.startupReferral.status.expired	已过期
+settings.startupReferral.status.invited	已邀请
+settings.startupReferral.status.joined	已加入
+settings.startupReferral.status.rewarded	已奖励
+settings.startupReferral.title	推荐一个创业。得 ${{amount}}。
+settings.subagentDefaultModelUpdateFailed	更新默认 subagent 模型失败
+settings.subagentDefaultModelUpdated	默认 subagent 模型已更新
+settings.subagentRouterDefault	Subagent 路由器（默认）
+settings.support	支持
+settings.supportChat	支持聊天
+settings.swe2Description	Cognition 的软件工程模型
+settings.swe2FlashDescription	Cognition 快速高效编程模型。预览到 11 月 18 日
+settings.swe2LightningDescription	Cognition 最新模型，更快的服务。预览到 11 月 25 日
+settings.system	系统
+settings.systemDescription	浏览 Devin 提供的内置 playbook
+settings.systemFont	系统
+settings.systemMonospaceFont	系统等宽
+settings.teamOnly	仅团队
+settings.teamSharedCodemaps	团队共享代码地图
+settings.teamSharedCodemapsDescription	其它成员共享给你团队的代码地图
+settings.teamsAccess	Microsoft Teams 访问
+settings.teamsAccessAllChannelsHint	装了 Devin 的团队的每个频道都能用 Devin
+settings.teamsAccessChannelCount_one	{{count}} 个频道
+settings.teamsAccessChannelCount_other	{{count}} 个频道
+settings.teamsAccessChannels	频道
+settings.teamsAccessClear	清除
+settings.teamsAccessDescription	选此组织会话能在 Microsoft Teams 哪用：频道、群聊和私信
+settings.teamsAccessDmsAllowed	私信允许
+settings.teamsAccessDmsBlocked	私信禁止
+settings.teamsAccessEdit	编辑白名单
+settings.teamsAccessGroupChatsAllowed	群聊允许
+settings.teamsAccessGroupChatsBlocked	群聊禁止
+settings.teamsAccessMaximumChannels	最多选 100 个频道。
+settings.teamsAccessNoChannels	无频道
+settings.teamsAccessPickerSummary	{{teams}} 里 {{channels}}
+settings.teamsAccessSearchChannelsPlaceholder	搜索要加的频道…
+settings.teamsAccessSearchTeamChannels	搜索 {{team}} 里频道
+settings.teamsAccessTeamCount_one	{{count}} 个团队
+settings.teamsAccessTeamCount_other	{{count}} 个团队
+settings.teamsAccessViewByTeam	按团队
+settings.teamsAccessViewList	列表
+settings.teamsAttachmentClassificationAccess	访问
+settings.teamsAttachmentClassificationAddLabelId	加标签 ID
+settings.teamsAttachmentClassificationAddLevel	加级别
+settings.teamsAttachmentClassificationAddLevelTitle	加级别
+settings.teamsAttachmentClassificationAllowed	允许
+settings.teamsAttachmentClassificationAllowedDescription	此级别文件与 Devin 共享
+settings.teamsAttachmentClassificationBlocked	禁止
+settings.teamsAttachmentClassificationBlockedDescription	此级别文件被拒
+settings.teamsAttachmentClassificationCancel	取消
+settings.teamsAttachmentClassificationDescription	Devin 读 Teams 里分享文件的 Microsoft 敏感度标签。允许标签的文件与 Devin 共享，禁止标签的被拒，未知标签的等发送者选级别，没有允许级别时也被拒。Devin 经 Microsoft 365 Files MCP 读文件时同样规则适用，只是文件直接拒而非等选级别。
+settings.teamsAttachmentClassificationEditLevel	编辑级别
+settings.teamsAttachmentClassificationEditLevelTitle	编辑级别
+settings.teamsAttachmentClassificationEmptyState	没配级别。附件不经检查直接共享。
+settings.teamsAttachmentClassificationGuide.allowed.footnote	文件有你允许的标签，所以 Devin 立刻读。没人要做什么。
+settings.teamsAttachmentClassificationGuide.allowed.reply	好，这是 <file>q3-plan.docx</file> 的快速总结…
+settings.teamsAttachmentClassificationGuide.allowed.tab	允许的标签
+settings.teamsAttachmentClassificationGuide.blocked.footnote	文件有你禁止的标签，所以 Devin 永远看不到它。
+settings.teamsAttachmentClassificationGuide.blocked.reply	<file>salaries.xlsx</file> 分级为 {{level}}，你组织不允许进 Devin。它没被共享。
+settings.teamsAttachmentClassificationGuide.blocked.tab	禁止的标签
+settings.teamsAttachmentClassificationGuide.conversation	销售团队
+settings.teamsAttachmentClassificationGuide.conversationKind	群聊
+settings.teamsAttachmentClassificationGuide.description	有人与 Devin 分享文件时，Devin 先查文件的敏感度标签。下面是每种情况的结果。
+settings.teamsAttachmentClassificationGuide.devinName	Devin AI
+settings.teamsAttachmentClassificationGuide.noSensitivityLabel	无标签
+settings.teamsAttachmentClassificationGuide.open	看怎么工作
+settings.teamsAttachmentClassificationGuide.picker.cardHint	你管理员要求每个与 Devin 分享的文件都要分级。Devin 在此文件上找不到它认得的敏感度标签，所以选它的分级以共享。
+settings.teamsAttachmentClassificationGuide.picker.cardTitle	Devin 能读前先分级此文件
+settings.teamsAttachmentClassificationGuide.picker.dontShare	不分享
+settings.teamsAttachmentClassificationGuide.picker.footnote	只有分享文件的人能选。选项是你在这加的级别，顺序相同。选允许级别就把文件共享给 Devin；禁止的则不。
+settings.teamsAttachmentClassificationGuide.picker.label	分级
+settings.teamsAttachmentClassificationGuide.picker.placeholder	选一个分级
+settings.teamsAttachmentClassificationGuide.picker.share	与 Devin 分享
+settings.teamsAttachmentClassificationGuide.picker.shared	✅ <file>customer-notes.pdf</file> 被 <mention>@{{name}}</mention> 分级为 <b>{{level}}</b> 并与 Devin 共享。
+settings.teamsAttachmentClassificationGuide.picker.tab	未知标签
+settings.teamsAttachmentClassificationGuide.request	<mention>@Devin</mention> 能总结这个文件吗？
+settings.teamsAttachmentClassificationGuide.senderInitials	MC
+settings.teamsAttachmentClassificationGuide.senderName	Maya Chen
+settings.teamsAttachmentClassificationGuide.title	Teams 里人看到的样子
+settings.teamsAttachmentClassificationLabelId	标签 ID
+settings.teamsAttachmentClassificationLabelIdCount_one	{{count}} 个标签 ID
+settings.teamsAttachmentClassificationLabelIdCount_other	{{count}} 个标签 ID
+settings.teamsAttachmentClassificationLabelIds	标签 ID
+settings.teamsAttachmentClassificationLabelIdsDescription	映射到此级别的 Microsoft Purview 敏感度标签的 GUID。带这些标签之一的文件得此级别。留空则为发送者只能手选的级别。
+settings.teamsAttachmentClassificationLabelIdsDocsLink	什么是敏感度标签？
+settings.teamsAttachmentClassificationLabelIdsDuplicate	一个标签 ID 已派给另一级别
+settings.teamsAttachmentClassificationLabelIdsInvalid	不是有效 GUID：{{labelIds}}
+settings.teamsAttachmentClassificationLevelActions	级别操作
+settings.teamsAttachmentClassificationLevelDialogDescription	Devin 读 Teams 里分享文件的 Microsoft 敏感度标签。允许级别的文件与 Devin 共享，禁止级别的被拒，未知标签或无标签的等发送者选级别，没有允许级别时也被拒。
+settings.teamsAttachmentClassificationLevelName	级别名
+settings.teamsAttachmentClassificationLevelNameDescription	发送者为无标签文件选级别时显示
+settings.teamsAttachmentClassificationLevelNamePlaceholder	如：公开
+settings.teamsAttachmentClassificationLevels	级别
+settings.teamsAttachmentClassificationLevelsDescription	文件无已知标签时发送者按此顺序看到级别
+settings.teamsAttachmentClassificationMoveDown	下移
+settings.teamsAttachmentClassificationMoveUp	上移
+settings.teamsAttachmentClassificationNameDuplicate	另一级别已用此名
+settings.teamsAttachmentClassificationNameRequired	级别名为必填项
+settings.teamsAttachmentClassificationNameTooLong	用 64 个字符或更少
+settings.teamsAttachmentClassificationRemoveLabelId	移除标签 ID
+settings.teamsAttachmentClassificationRemoveLevel	移除级别
+settings.teamsAttachmentClassificationSave	保存
+settings.teamsAttachmentClassificationSaveFailed	存不了附件敏感度标签
+settings.teamsAttachmentClassificationTitle	附件敏感度标签
+settings.teamsAttachmentClassificationUnlabelableFiles	不能带标签的文件
+settings.teamsAttachmentClassificationUnlabelableFilesDescription	让 Devin 读图片和其它带不了敏感度标签的文件类型。禁止或不识别标签的文件仍被拒。
+settings.teamsCapabilities.aiGenerated	AI 生成
+settings.teamsCapabilities.alerts.conversation	Payments › Alerts
+settings.teamsCapabilities.alerts.description	打开告警的人已拿到诊断。
+settings.teamsCapabilities.alerts.footnote	没人提及 Devin：一个带 Microsoft Teams 触发器的自动化在看频道。在自动化里配。
+settings.teamsCapabilities.alerts.m1	payments-api：最近 10 分钟 p95 超 2 秒。

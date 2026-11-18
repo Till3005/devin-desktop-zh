@@ -1,0 +1,168 @@
+stack.status.mergeBlocked	合并被挡
+stack.status.mergeConflicts	合并冲突
+stack.status.merged	已合并
+stack.status.notReadyToMerge	未可合并
+stack.status.readyToMerge	可合并
+stack.status.unknown	查合并状态中
+status.needsReview	要审查
+status.outdated	已过期
+status.pending	待定
+status.previouslyFlagged	之前被旗标
+status.resolved	已解决
+stopBanner.actions.keep_reviewing	自动分析
+stopBanner.actions.manage_limits	管上限
+stopBanner.actions.resume_auto	恢复分析
+stopBanner.actions.review_again	分析最新
+stopBanner.actions.review_now	现在分析
+stopBanner.actions.run_and_enable_auto	分析 PR
+stopBanner.actions.view_plans	看方案
+stopBanner.auto_review_excluded.body	规则和例外可由组织管理员设。
+stopBanner.auto_review_excluded.settings	设置
+stopBanner.auto_review_excluded.title	自动分析被例外跳过
+stopBanner.billing.body	没额度可分析，所以此拉取请求只显 diff。
+stopBanner.billing.title	当前方案分析不可用
+stopBanner.budget_reached.body	分析达此拉取请求消费上限，所以 Devin 停分析新提交。
+stopBanner.budget_reached.detail	恢复会补预算并为新提交重开自动分析。
+stopBanner.budget_reached.title	分析已暂停：达单 PR 消费上限
+stopBanner.bugsTabDisabled	此提交没分析可用
+stopBanner.contract_expired.body	你组织的 Devin 合同已止，所以 Devin 分析不了此拉取请求。
+stopBanner.contract_expired.detail	找你客户团队续订。
+stopBanner.contract_expired.title	分析不可用：合同已止
+stopBanner.draft.body	此拉取请求标待审时 Devin 会分析它。
+stopBanner.draft.title	Devin 跳过草稿拉取请求的自动分析
+stopBanner.latest_not_reviewed.body	Devin 分析的是早前提交，所以发现项可能不反映最新更改。
+stopBanner.latest_not_reviewed.lastReviewedCommit	Devin 最后分析的是提交 <code>{{sha}}</code>。
+stopBanner.latest_not_reviewed.newCommits_one	{{count}} 个新提交没分析。
+stopBanner.latest_not_reviewed.newCommits_other	{{count}} 个新提交没分析。
+stopBanner.latest_not_reviewed.title	Devin 没分析最新更改
+stopBanner.merge_conflicts.body	合并冲突解后 Devin 自动分析会跑。你也可现在手动跑。
+stopBanner.merge_conflicts.title	合并冲突
+stopBanner.not_run.body	Devin 能找 bug、评架构决策和旗标安全问题。
+stopBanner.not_run.title	Devin 没分析此拉取请求
+stopBanner.org_limit.body	此拉取请求计费到的组织达本周期上限。上限提高或周期重置时分析恢复。
+stopBanner.org_limit.title	分析已暂停：组织用量上限已达
+stopBanner.scope.adminHint	只有 Review 管理员能开
+stopBanner.scope.connectHint	在设置连你 git 账户以开
+stopBanner.scope.permissionHint	你 Review 权限不允许自动分析
+stopBanner.scope.pr.description	现在及此 PR 每次推送都分析
+stopBanner.scope.pr.label	此拉取请求
+stopBanner.scope.repo.description	你组织里所有人
+stopBanner.scope.repo.label	{{repo}} 里每个拉取请求
+stopBanner.scope.user.description	你开的每个拉取请求，每次推送
+stopBanner.scope.user.label	我全部拉取请求
+stopBanner.too_large.body	此 diff 超大小上限。把此拉取请求拆小，Devin 才能分析。
+stopBanner.too_large.title	此拉取请求太大分析不了
+stopBanner.too_many_files.body	此拉取请求改的文件太多 {{provider}} 加载不了，所以 Devin 分析不了。检查、审查者和评论可能缺或旧。
+stopBanner.too_many_files.title	此拉取请求太大分析不了
+tabs.architecture	架构
+tabs.bugs	Bug
+tabs.changes	更改
+tabs.chat	聊天
+tabs.commits	提交
+tabs.description	描述
+tabs.discussion	讨论
+tabs.info	信息
+tabs.summary	摘要
+toasts.alreadyAnalyzed	已分析过
+toasts.alreadyAnalyzedCompleted	最新提交已有完整分析。
+toasts.alreadyAnalyzedInProgress	最新提交已有分析在跑。
+toasts.analysisStarted	分析已开始
+toasts.analysisStartedDesc	Devin 现正分析此拉取请求。
+toasts.approved	已批准
+toasts.approvedPullRequest	已批准拉取请求
+toasts.approvedPullRequestDescription	PR #{{prNumber}}
+toasts.autoMergeDisabled	自动合并已关
+toasts.autoMergeDisabledDescription	PR #{{prNumber}} 不会自动合并
+toasts.autoMergeEnabled	自动合并已开
+toasts.autoMergeEnabledDescription	PR #{{prNumber}} 在全部检查过时合并
+toasts.bitbucketDataCenterOauthFailed	起不了 Bitbucket OAuth 流程
+toasts.bitbucketDataCenterUnlinkFailed	解链 Bitbucket 账户失败
+toasts.bitbucketDataCenterUnlinked	Bitbucket 账户已解链
+toasts.branchCopied	分支名已复制
+toasts.cannotRunAnalysis	跑不了分析
+toasts.commentedOn	评论了
+toasts.contractExpired	你组织的 Devin 合同已止，所以 Devin 跑不了完整分析。找你客户团队续订。
+toasts.convertedToDraft	已转草稿
+toasts.copiedLink	链接已复制
+toasts.copiedMessage	消息已复制
+toasts.copyFailed	复制失败
+toasts.draftNotAvailable	草稿拉取请求完整分析不可用。
+toasts.failedToAddAssignee	加经办人失败
+toasts.failedToAddComment	加评论失败
+toasts.failedToAddLabel	加标签失败
+toasts.failedToAddReaction	加表情回应失败
+toasts.failedToAddReply	加回复失败
+toasts.failedToApplySuggestion	应用建议修复失败
+toasts.failedToDeleteComment	删评论失败
+toasts.failedToDisableAutoMerge	关自动合并失败
+toasts.failedToDiscardReview	弃审查失败
+toasts.failedToJoinOrg	加组织失败
+toasts.failedToMarkReady	标拉取请求待审失败
+toasts.failedToMerge	合并拉取请求失败
+toasts.failedToPostToProvider	发到 {{providerName}} 失败
+toasts.failedToRemoveAssignee	移除经办人失败
+toasts.failedToRemoveFromMergeQueue	移出合并队列失败
+toasts.failedToRemoveLabel	移除标签失败
+toasts.failedToRemoveReaction	移除表情回应失败
+toasts.failedToRemoveReviewer	移除审查者失败
+toasts.failedToRequestReview	请审查失败
+toasts.failedToResolveThread	解决线程失败
+toasts.failedToStartAnalysis	起分析失败
+toasts.failedToSubmitReview	交审查失败
+toasts.failedToTriageFinding	更新发现项失败
+toasts.failedToUnresolveThread	取消解决线程失败
+toasts.failedToUpdateComment	更新评论失败
+toasts.failedToUpdateDescription	更新描述失败
+toasts.failedToUpdateTitle	更新标题失败
+toasts.ghesOauthFailed	起不了 GitHub Enterprise OAuth 流程
+toasts.ghesUnlinkFailed	解链 GitHub Enterprise 账户失败
+toasts.ghesUnlinked	GitHub Enterprise 账户已解链
+toasts.gitlabSelfHostedOauthFailed	起不了 GitLab OAuth 流程
+toasts.gitlabSelfHostedUnlinkFailed	解链 GitLab 账户失败
+toasts.gitlabSelfHostedUnlinked	GitLab 账户已解链
+toasts.linkCopied	链接已复制
+toasts.newCommitsPushed	有新提交推到此拉取请求。审更改再试。
+toasts.noAccessToAnalyze	你没权限分析此仓库。
+toasts.noReviewPermission	你没权限用 Devin Review。找管理员要访问。
+toasts.notEligible	你没资格在此 PR 跑完整分析。
+toasts.orgAcuLimitReached	你组织已达 ACU 上限，所以 Devin 跑不了完整分析。
+toasts.prDescriptionCopied	拉取请求描述已复制
+toasts.prNotFound	找不到此拉取请求。
+toasts.prNumberCopied	拉取请求编号已复制
+toasts.prTitleCopied	拉取请求标题已复制
+toasts.rateLimitExceeded	超限。请几分钟后重试。
+toasts.removedFromMergeQueue	已移出合并队列
+toasts.removedFromMergeQueueDescription	PR #{{prNumber}} 不在合并队列了
+toasts.requestedChangesOn	要了更改于
+toasts.signInRequired	要登录
+toasts.signInRequiredDesc	登录跑分析。
+toasts.somethingWentWrong	出了错。请重试。
+toasts.somethingWentWrongStartingAnalysis	起分析时出了错。
+toasts.spendLimitReached	此 PR 达自动分析消费上限。
+toasts.stackMergeStillRunning	堆叠合并仍在 GitHub 上跑
+toasts.submittedReviewOn	交了审查于
+toasts.successfullyAction	已成功{{action}}此拉取请求
+toasts.suggestedFixApplied	建议修复应用成功
+toasts.suggestionOutdated	代码已变——此建议已过期
+toasts.trialExpiredNoBalance	你试用已到期，且没剩余额度。
+toasts.triggerModeManual	此仓库设为手动分析。
+trial.announcement	Review 2.0 公告
+trial.countdown_one	Review 试用：<countdown>剩 {{days}} 天</countdown>
+trial.countdown_other	Review 试用：<countdown>剩 {{days}} 天</countdown>
+trial.creditNotice	试用后，分析用额度。
+trial.dismissBanner	消试用横幅
+upsell.betterFasterReview	更好更快的代码审查
+upsell.bugDetection	Bug 检测
+upsell.chaptersFromLastAnalysis	上次分析的章节。新分析在跑。
+upsell.chaptersFromLastAnalysisNotAnalyzed	上次分析的章节。此提交没分析过。
+upsell.dismiss	消
+upsell.notInChapterYet	还没在章节里
+upsell.notInChapterYetDescription	上次分析没覆盖的文件的更改。
+upsell.orgAcuLimitContactAdmin	企业管理员须提高你组织 ACU 上限以跑完整分析。
+upsell.orgDollarLimitContactAdmin	企业管理员须提高你组织消费上限以跑完整分析。
+upsell.orgGroupAcuLimitContactAdmin	企业管理员须提高你组织组 ACU 上限以跑完整分析。
+upsell.orgGroupDollarLimitContactAdmin	企业管理员须提高你组织组消费上限以跑完整分析。
+upsell.reorganizingChanges	分析并生成指南中…
+upsell.smartDiffs	指南视图
+upsell.smartDiffsReady	指南视图就绪
+upsell.switchToSmartDiffs	切到指南视图

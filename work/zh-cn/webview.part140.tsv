@@ -1,0 +1,160 @@
+worklog.repoCreationFailed	建不了仓库。
+worklog.repoCreationFixIt	在 GitHub 修此
+worklog.repoCreationLinkAccount	链 GitHub
+worklog.repoCreationLinkAccountPrompt	链你 GitHub 账户以在这建仓库。
+worklog.repoCreationLoadFailed	加载不了你能在哪建仓库。
+worklog.repoCreationNoAccess	Devin 还用不了此仓库。
+worklog.repoCreationNoNamespaces	链你 GitHub 账户并连其一个组织以在这建仓库。
+worklog.repoCreationOpen	在 GitHub 开
+worklog.repoCreationOwnerLabel	所有者
+worklog.repoCreationOwnersLoading	加载所有者中…
+worklog.repoCreationPrivate	私有
+worklog.repoCreationPublic	公有
+worklog.repoCreationTitle	建 {{name}}？
+worklog.repoCreationVisibilityLabel	可见性
+worklog.repoNotIndexed	{{repoLabel}} 没索引
+worklog.repoPickerConnect	连 Git 提供商
+worklog.repoPickerSendFailed	发不了你选择。重试。
+worklog.repoPickerSkipped	跳过仓库设置
+worklog.repoPickerSubmit	设置仓库
+worklog.repoPickerSubmitted	设置 {{repos}} 中
+worklog.repoPickerTitle	挑要设置的仓库
+worklog.repoPickerTooMany	最多挑 {{max}} 个仓库。
+worklog.repoPickerUnavailable	从这选不了仓库。
+worklog.repoSetupDoneCount	{{count}} 中 {{done}} 个已设
+worklog.repoSetupFailedCount	{{count}} 中 {{failed}} 个失败
+worklog.repoSetupNamesAndMore	{{names}} 和另 {{count}} 个
+worklog.repoSetupRowDone	已设
+worklog.repoSetupRowFailed	失败
+worklog.repoSetupSuggestions	仓库设置建议
+worklog.repoSetupTitle_one	设置 {{count}} 个仓库
+worklog.repoSetupTitle_other	设置 {{count}} 个仓库
+worklog.repositories	仓库
+worklog.repositoriesCount	{{count}} 个仓库
+worklog.repository	仓库
+worklog.repositoryAddedToEnvironment	仓库已加到环境
+worklog.repositoryIsSetUp	仓库已设
+worklog.requestStatusAwaiting	等批准
+worklog.requestStatusDeleteApproved	删除已批
+worklog.requestStatusDeleteAwaiting	等批准删除
+worklog.requestStatusDeleteDenied	删除被拒
+worklog.requestStatusDeleteFailed	删除失败
+worklog.requestStatusDeleteRunning	删中…
+worklog.requestStatusDeleteSucceeded	已删
+worklog.requestStatusDisableApproved	禁用已批
+worklog.requestStatusDisableAwaiting	等批准禁用
+worklog.requestStatusDisableDenied	禁用被拒
+worklog.requestStatusEnableApproved	启用已批
+worklog.requestStatusEnableAwaiting	等批准启用
+worklog.requestStatusEnableDenied	启用被拒
+worklog.requestStatusInstallDenied	安装被拒
+worklog.requestStatusInstallFailed	安装失败
+worklog.requestStatusInstallRunning	装中…
+worklog.requestStatusInstallSucceeded	已装
+worklog.requestStatusSaveDenied	保存被拒
+worklog.requestStatusSaveFailed	保存失败
+worklog.requestStatusSaveRunning	存中…
+worklog.requestStatusSaveSucceeded	已存
+worklog.requestStatusUninstallAwaiting	等批准卸载
+worklog.requestStatusUninstallDenied	卸载被拒
+worklog.requestStatusUninstallFailed	卸载失败
+worklog.requestStatusUninstallRunning	卸中…
+worklog.requestStatusUninstallSucceeded	已卸
+worklog.requestStatusUpdateApproved	更新已批
+worklog.requestStatusUpdateDenied	更新被拒
+worklog.restarting	重启中…
+worklog.resumingWorkflow	续 workflow
+worklog.retrievedPlaybook	取了 playbook：
+worklog.retry	重试
+worklog.retryLocalAccess	请求新码
+worklog.retryLocalAccessAndConnect	连此机
+worklog.retryRepoSetup	重试设置 {{name}}
+worklog.retrying	重试中…
+worklog.review	审查
+worklog.reviewDiffBeforeApplying	应用前审 diff
+worklog.revokeLocalAccess	断开本地机
+worklog.runWorkflow	跑 workflow
+worklog.runningWorkflow	跑 workflow 中
+worklog.save	保存
+worklog.saveAndClearOverride	存并清覆盖
+worklog.saveAndClearOverrideAndSleep	存、清覆盖并休眠
+worklog.saveAndSleep	存并休眠
+worklog.saveBrowserProfileToPath	存浏览器配置到 <path>{{path}}</path>
+worklog.saveCombinedResult	存合并结果
+worklog.saveForFasterResults	存此令之后会话更快
+worklog.saveToCanonicalBlueprint	存到规范 blueprint
+worklog.saving	存中…
+worklog.savingBrowserProfileToPath	存浏览器配置到 <path>{{path}}</path> 中
+worklog.savingWillSleepDevinProfile	存会让 Devin 休眠——发条新消息以新配置唤醒
+worklog.scopeOrg	组织
+worklog.scopePersonal	个人
+worklog.scopeRepo	仓库
+worklog.scratchpadRead	读了 scratchpad
+worklog.scratchpadReadFailed	读 scratchpad 失败
+worklog.scratchpadUpdateFailed	更新 scratchpad 失败
+worklog.scratchpadUpdated	更新了 scratchpad
+worklog.searchedForSkills	搜了技能：
+worklog.secretUseApproveSession	此会话全部命令都批
+worklog.secretUseApproveSessionTooltip	允许 Devin 此会话余下期在命令用这些机密
+worklog.secretUseApprovedFor	批了命令用 {{secretNames}}
+worklog.secretUseCommandLabel	命令
+worklog.secretUseDeniedFor	拒了命令用 {{secretNames}}
+worklog.secretUseSecretsFallback	机密
+worklog.secretUseSecretsLabel	机密
+worklog.secretUseTitle	Devin 想在命令用机密
+worklog.securityProfile	安全配置
+worklog.securityProfileFieldLabel	配置
+worklog.securityProfileSettingsUnchanged	此选不改会话生效设置，所以 Devin 接着跑。
+worklog.securityProfileUpdated	安全配置已更新。
+worklog.securityProfileUpdatedSleep	安全配置已更新。Devin 已休眠——发条新消息以新配置唤醒。
+worklog.selectDevinMode	选 Devin 模式
+worklog.sessionBoundToSlack	由 {{botName}} 起 · 绑到 {{place}}
+worklog.sessionStartedInMode	此会话起于 {{mode}} 模式
+worklog.sessionSuggestionsRemoved	会话建议已移除
+worklog.sessionThreadOtherBot_one	看和另一 {{botName}} 的 {{count}} 条消息
+worklog.sessionThreadOtherBot_other	看和另一 {{botName}} 的 {{count}} 条消息
+worklog.sessionThreadParentTitle	父：{{botName}}
+worklog.sessionThreadWithBot_one	和 {{botName}} 的 {{count}} 条消息
+worklog.sessionThreadWithBot_other	和 {{botName}} 的 {{count}} 条消息
+worklog.sessionTitle	会话标题
+worklog.sessionTitleExample	如 审上手流程
+worklog.sessionUnrestrictedProfileStillApplies	此会话无网络限制。{{profileName}} 配置的其它设置（MCP、git 访问、Slack）仍生效。
+worklog.sessionsUnrestrictedNetworkAccess	会话将有不受限网络访问
+worklog.setUpRepo	设置 {{repo}}
+worklog.settingCardImessageDescription	从 iMessage 给 {{name}} 发短信
+worklog.settingCardOpenSettings	开设置
+worklog.settingCardSlackDescription	谁能在 Slack 找到 {{name}}，和它能在哪回
+worklog.setupCardChangeResponse	改
+worklog.setupCardConnected	已连
+worklog.setupCardDeepWikiDone	为 {{repos}} 起了 DeepWiki 索引。
+worklog.setupCardDeepWikiSkipped	暂跳过 DeepWiki 索引
+worklog.setupCardDeepWikiTitle	为 DeepWiki 索引仓库
+worklog.setupCardDeepWikiWithheld	你没权索引仓库。
+worklog.setupCardGitAwaitingApproval	要管理员批
+worklog.setupCardGitAwaitingApprovalDescription	你管理员须批 {{provider}} 安装
+worklog.setupCardGitAwaitingApprovalNote	我们请了你管理员批 {{provider}} 上的 Devin 应用。批后，再点 {{provider}} 完成，或暂不连 Git 继续。
+worklog.setupCardGitAwaitingApprovalSummary	我请了管理员批 {{provider}} 安装，暂不连 Git 继续了。批后捡起我仓库。
+worklog.setupCardGitConnect	连接
+worklog.setupCardGitConnected	已连
+worklog.setupCardGitConnectionCount_one	已连 {{count}} 个
+worklog.setupCardGitConnectionCount_other	已连 {{count}} 个
+worklog.setupCardGitContinueWithoutGit	不连 Git 继续
+worklog.setupCardGitNoneConnected	我没连 Git 提供商。
+worklog.setupCardGitOpening	开 {{provider}} 中…
+worklog.setupCardGitPerforceRowDescription	让 Devin 在你 Perforce 库干活
+worklog.setupCardGitReportFailed	聊天没收到你 {{provider}} 设置结果。
+worklog.setupCardGitReportRetry	重试
+worklog.setupCardGitRowDescription	让 Devin 在你 {{provider}} 仓库干活
+worklog.setupCardGitSkipped	暂跳过连 Git 提供商
+worklog.setupCardGitTitle	连 Git 提供商
+worklog.setupCardGitWithheld	你没权连 Git 提供商。
+worklog.setupCardGithubAccountDescription	让 Devin 见你自己拉取请求、审查和活动
+worklog.setupCardGithubAccountLinked	你 GitHub 账户已链。
+worklog.setupCardGithubAccountSkipped	暂跳过链我 GitHub 账户
+worklog.setupCardGithubAccountTitle	链你 GitHub 账户
+worklog.setupCardGithubAccountWithheld	你在这链不了 GitHub 账户。
+worklog.setupCardInviteDone	给 {{emails}} 发了邀请。
+worklog.setupCardInviteSkipped	暂跳过邀队友
+worklog.setupCardInviteTitle	邀队友
+worklog.setupCardInviteWithheld	你没权邀成员。
+worklog.setupCardJiraConnect	连接

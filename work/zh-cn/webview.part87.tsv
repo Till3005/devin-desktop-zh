@@ -1,0 +1,190 @@
+settings.joinRequestsTable.processFailed	处理申请失败
+settings.joinRequestsTable.reject	拒绝
+settings.joinRequestsTable.requested	申请时间
+settings.keepErrorNotifications	错误通知留到手动关
+settings.keepErrorNotificationsDescription	错误和警告通知留屏到你关掉，而非 10 秒后自动关
+settings.keyType	Key 类型
+settings.keyTypeDescription	在个人和服务 API key 间选
+settings.keyboardShortcuts.addShortcut	加快捷键
+settings.keyboardShortcuts.cancel	取消
+settings.keyboardShortcuts.changeShortcut	改 {{command}} 的快捷键 {{chord}}
+settings.keyboardShortcuts.cheatSheetDescription	此页可用快捷键。
+settings.keyboardShortcuts.cheatSheetEditLink	编辑快捷键
+settings.keyboardShortcuts.cheatSheetTitle	键盘快捷键
+settings.keyboardShortcuts.commands.billingTagsAcceptSuggestion	批准建议
+settings.keyboardShortcuts.commands.billingTagsAssignTag	派计费标签
+settings.keyboardShortcuts.commands.billingTagsClearSelection	清除键盘光标
+settings.keyboardShortcuts.commands.billingTagsDismissSuggestion	拒绝建议
+settings.keyboardShortcuts.commands.billingTagsGoToAll	去全部会话
+settings.keyboardShortcuts.commands.billingTagsGoToInbox	去我的收件箱
+settings.keyboardShortcuts.commands.billingTagsNextSession	下个会话
+settings.keyboardShortcuts.commands.billingTagsOpenSession	打开会话
+settings.keyboardShortcuts.commands.billingTagsPrevSession	上个会话
+settings.keyboardShortcuts.commands.billingTagsSearch	搜索会话
+settings.keyboardShortcuts.commands.billingTagsToggleSelect	选会话
+settings.keyboardShortcuts.commands.boardTicketSave	存工单
+settings.keyboardShortcuts.commands.boardsAssignTicket	派工单
+settings.keyboardShortcuts.commands.boardsBackToBoard	返回看板
+settings.keyboardShortcuts.commands.boardsNewTicket	新工单
+settings.keyboardShortcuts.commands.boardsToggleAgent	开关看板 agent
+settings.keyboardShortcuts.commands.boardsUndo	撤销工单更改
+settings.keyboardShortcuts.commands.botInboxNext	下个 {{botName}} 项
+settings.keyboardShortcuts.commands.botInboxPeek	按住收起「需要你」
+settings.keyboardShortcuts.commands.botInboxPrevious	上个 {{botName}} 项
+settings.keyboardShortcuts.commands.botInboxPrimaryAction	跑 {{botName}} 项的主操作
+settings.keyboardShortcuts.commands.botsRailJump	去 Devin
+settings.keyboardShortcuts.commands.closeBotArtifactPane	关面板
+settings.keyboardShortcuts.commands.closeBotInbox	关「需要你」
+settings.keyboardShortcuts.commands.closeFind	关查找
+settings.keyboardShortcuts.commands.closeNotificationInbox	关通知
+settings.keyboardShortcuts.commands.closeOtherTabs	关其它标签页
+settings.keyboardShortcuts.commands.copyLink	复制链接
+settings.keyboardShortcuts.commands.digestApprovePR	批准拉取请求
+settings.keyboardShortcuts.commands.digestCloseSplit	关拉取请求面板
+settings.keyboardShortcuts.commands.digestGoToTab	去拉取请求标签页
+settings.keyboardShortcuts.commands.digestMergePR	合并拉取请求
+settings.keyboardShortcuts.commands.digestNextChapter	下章
+settings.keyboardShortcuts.commands.digestNextPR	下个拉取请求
+settings.keyboardShortcuts.commands.digestOpenPR	打开拉取请求
+settings.keyboardShortcuts.commands.digestPrevChapter	上章
+settings.keyboardShortcuts.commands.digestPrevPR	上个拉取请求
+settings.keyboardShortcuts.commands.digestScrollPRBottom	滚到拉取请求底
+settings.keyboardShortcuts.commands.digestScrollPRDown	拉取请求向下滚
+settings.keyboardShortcuts.commands.digestScrollPRTop	滚到拉取请求顶
+settings.keyboardShortcuts.commands.digestScrollPRUp	拉取请求向上滚
+settings.keyboardShortcuts.commands.digestShowInPane	在面板显示拉取请求
+settings.keyboardShortcuts.commands.digestToggleAgent	开关摘要 agent
+settings.keyboardShortcuts.commands.findNext	找下一个
+settings.keyboardShortcuts.commands.findPrevious	找上一个
+settings.keyboardShortcuts.commands.findingAssign	用 Devin 修发现项
+settings.keyboardShortcuts.commands.findingDismiss	忽略发现项
+settings.keyboardShortcuts.commands.findingNext	下个发现项
+settings.keyboardShortcuts.commands.findingPrev	上个发现项
+settings.keyboardShortcuts.commands.findingsClearSelection	清除已选发现项
+settings.keyboardShortcuts.commands.focusSettingsSearch	聚焦设置搜索
+settings.keyboardShortcuts.commands.focusWikiSearch	聚焦 wiki 搜索
+settings.keyboardShortcuts.commands.ideOpenFile	打开文件
+settings.keyboardShortcuts.commands.ideQuickOpenFile	去文件
+settings.keyboardShortcuts.commands.ideSearchText	搜索工作区
+settings.keyboardShortcuts.commands.ideShowCommands	编辑器命令
+settings.keyboardShortcuts.commands.membersClearSelection	清除选择
+settings.keyboardShortcuts.commands.membersExtendNext	向下扩选
+settings.keyboardShortcuts.commands.membersExtendPrev	向上扩选
+settings.keyboardShortcuts.commands.membersFirst	首个成员
+settings.keyboardShortcuts.commands.membersLast	末个成员
+settings.keyboardShortcuts.commands.membersNext	下个成员
+settings.keyboardShortcuts.commands.membersPageDown	向下五成员
+settings.keyboardShortcuts.commands.membersPageUp	向上五成员
+settings.keyboardShortcuts.commands.membersPrev	上个成员
+settings.keyboardShortcuts.commands.membersToggleSelect	选成员
+settings.keyboardShortcuts.commands.navigateBack	后退
+settings.keyboardShortcuts.commands.navigateForward	前进
+settings.keyboardShortcuts.commands.navigateHome	新会话
+settings.keyboardShortcuts.commands.nextNotification	下个通知
+settings.keyboardShortcuts.commands.openWikiSettings	Wiki 设置
+settings.keyboardShortcuts.commands.previousNotification	上个通知
+settings.keyboardShortcuts.commands.recordVoicePrompt	录语音提示
+settings.keyboardShortcuts.commands.replayStepBack	退一步
+settings.keyboardShortcuts.commands.replayStepForward	进一步
+settings.keyboardShortcuts.commands.replayTogglePlay	播放或暂停
+settings.keyboardShortcuts.commands.reviewAddMention	加审查提及
+settings.keyboardShortcuts.commands.reviewApprove	批准拉取请求
+settings.keyboardShortcuts.commands.reviewCopyBranch	复制审查分支
+settings.keyboardShortcuts.commands.reviewCopyLink	复制审查链接
+settings.keyboardShortcuts.commands.reviewLoadLatest	加载最新提交或分析
+settings.keyboardShortcuts.commands.reviewMerge	合并或排队拉取请求
+settings.keyboardShortcuts.commands.reviewNewChatMention	新审查聊天提及
+settings.keyboardShortcuts.commands.reviewRequestChanges	要求更改
+settings.keyboardShortcuts.commands.reviewToggleSidebar	开关审查侧栏
+settings.keyboardShortcuts.commands.searchSessions	搜索会话
+settings.keyboardShortcuts.commands.sessionFocusChat	聚焦聊天
+settings.keyboardShortcuts.commands.sessionListClearSelection	清除选择
+settings.keyboardShortcuts.commands.sessionListExtendNext	向下扩选
+settings.keyboardShortcuts.commands.sessionListExtendPrev	向上扩选
+settings.keyboardShortcuts.commands.sessionListNext	下个会话
+settings.keyboardShortcuts.commands.sessionListOpen	打开会话
+settings.keyboardShortcuts.commands.sessionListPrev	上个会话
+settings.keyboardShortcuts.commands.sessionListToggleSelect	选会话
+settings.keyboardShortcuts.commands.sessionNavDown	下个会话
+settings.keyboardShortcuts.commands.sessionNavUp	上个会话
+settings.keyboardShortcuts.commands.sessionPushToTalk	按住说话
+settings.keyboardShortcuts.commands.sessionRename	重命名会话
+settings.keyboardShortcuts.commands.sessionStopDevin	停 Devin
+settings.keyboardShortcuts.commands.sessionTabClose	关标签页或会话面板
+settings.keyboardShortcuts.commands.sessionTabJump	去标签页
+settings.keyboardShortcuts.commands.sessionTabNext	下个标签页
+settings.keyboardShortcuts.commands.sessionTabOpenMenu	开加标签页菜单
+settings.keyboardShortcuts.commands.sessionTabPrev	上个标签页
+settings.keyboardShortcuts.commands.sessionTabReopen	重开已关标签页
+settings.keyboardShortcuts.commands.sessionToggleArchive	归档会话
+settings.keyboardShortcuts.commands.sessionToggleDone	标记会话完成
+settings.keyboardShortcuts.commands.showShortcutCheatSheet	显示键盘快捷键
+settings.keyboardShortcuts.commands.stageQuoteCaption	暂存引用标题
+settings.keyboardShortcuts.commands.submitReview	提交审查
+settings.keyboardShortcuts.commands.switchToNextMode	下个模式
+settings.keyboardShortcuts.commands.toastUndo	撤销最近操作
+settings.keyboardShortcuts.commands.toggleAgentAskMode	开关 ask 模式
+settings.keyboardShortcuts.commands.toggleAgentLocation	云端或本地 agent
+settings.keyboardShortcuts.commands.toggleAskModeMenu	Ask 模式菜单
+settings.keyboardShortcuts.commands.toggleCapabilityMenu	能力菜单
+settings.keyboardShortcuts.commands.toggleCommandPalette	命令面板
+settings.keyboardShortcuts.commands.toggleContextMapSearch	上下文地图搜索
+settings.keyboardShortcuts.commands.toggleDSSearch	设计系统搜索
+settings.keyboardShortcuts.commands.toggleElementPicker	开关元素选择
+settings.keyboardShortcuts.commands.toggleFind	查找
+settings.keyboardShortcuts.commands.toggleFindingsPanel	开关发现项面板
+settings.keyboardShortcuts.commands.toggleHomeSearch	开关主页搜索
+settings.keyboardShortcuts.commands.toggleKnowledgeSuggestions	知识建议
+settings.keyboardShortcuts.commands.toggleNotificationInbox	去通知
+settings.keyboardShortcuts.commands.toggleSidebar	开关侧栏
+settings.keyboardShortcuts.commands.toggleTerminal	开关终端
+settings.keyboardShortcuts.commands.toggleTheme	开关主题
+settings.keyboardShortcuts.commands.toggleWikiSearch	Wiki 搜索
+settings.keyboardShortcuts.commands.toggleWorkspacePanel	开关工作区面板
+settings.keyboardShortcuts.commands.windowTabClose	关窗口标签页
+settings.keyboardShortcuts.commands.windowTabJump	跳到窗口标签页
+settings.keyboardShortcuts.commands.windowTabNew	新窗口标签页
+settings.keyboardShortcuts.commands.windowTabNext	下个窗口标签页
+settings.keyboardShortcuts.commands.windowTabPrev	上个窗口标签页
+settings.keyboardShortcuts.commands.windowTabReopen	重开已关窗口标签页
+settings.keyboardShortcuts.conflictChord	{{chord}} 已被 {{command}} 用
+settings.keyboardShortcuts.conflictLocked	{{chord}} 被 {{command}} 用，改不了。
+settings.keyboardShortcuts.description	看和自定义键盘快捷键。更改不跨设备同步。
+settings.keyboardShortcuts.emptySearch	没有快捷键匹配「{{query}}」
+settings.keyboardShortcuts.filterAll	全部
+settings.keyboardShortcuts.filterModified	已改
+settings.keyboardShortcuts.groupBillingTags	计费标签
+settings.keyboardShortcuts.groupBoards	看板
+settings.keyboardShortcuts.groupCodeScan	安全
+settings.keyboardShortcuts.groupCodeScanFindings	代码扫描发现项
+settings.keyboardShortcuts.groupComposer	输入框
+settings.keyboardShortcuts.groupContextMap	上下文地图
+settings.keyboardShortcuts.groupDesignSystem	设计系统
+settings.keyboardShortcuts.groupDigest	审查摘要
+settings.keyboardShortcuts.groupEnterpriseMembers	企业成员
+settings.keyboardShortcuts.groupGeneral	常规
+settings.keyboardShortcuts.groupHome	主页
+settings.keyboardShortcuts.groupReview	审查
+settings.keyboardShortcuts.groupSession	会话
+settings.keyboardShortcuts.groupSessionList	会话列表
+settings.keyboardShortcuts.groupSettings	设置
+settings.keyboardShortcuts.groupWiki	Wiki
+settings.keyboardShortcuts.managedByDesktop	由 Devin Desktop 管
+settings.keyboardShortcuts.modified	已改
+settings.keyboardShortcuts.needsHoldModifier	单按一个修饰键：此快捷键靠按住它工作
+settings.keyboardShortcuts.needsModifier	加一个修饰键——此快捷键在输入时工作
+settings.keyboardShortcuts.notAssigned	未指派
+settings.keyboardShortcuts.notRebindable	此快捷键改不了
+settings.keyboardShortcuts.pressACombination	按一个组合键
+settings.keyboardShortcuts.pressKeys	按键…
+settings.keyboardShortcuts.reassign	重指派
+settings.keyboardShortcuts.record	录制
+settings.keyboardShortcuts.recordKeys	录键
+settings.keyboardShortcuts.recordKeysPlaceholder	按键以筛选…
+settings.keyboardShortcuts.removeShortcut	从 {{command}} 移除 {{chord}}
+settings.keyboardShortcuts.reservedChord	{{chord}} 被你浏览器保留
+settings.keyboardShortcuts.resetAll	全重置
+settings.keyboardShortcuts.resetAllConfirm	全重置
+settings.keyboardShortcuts.resetAllDescription	这把每个快捷键恢复默认。不可撤销。
+settings.keyboardShortcuts.resetAllTitle	重置全部键盘快捷键？
+settings.keyboardShortcuts.resetToDefault	重置为默认：{{chord}}

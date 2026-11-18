@@ -1,0 +1,273 @@
+schedules.migrate.failedStayOnLegacy	这些计划任务继续按计划任务跑。修好列出的问题（如给所有者补上缺的权限）再迁移。
+schedules.migrate.nothingToMigrate	没有可迁移的计划任务。
+schedules.migrate.outcome.blocked	还不能迁移
+schedules.migrate.outcome.migrated	已迁移
+schedules.migrate.outcome.removed	已移除
+schedules.migrate.outcome.willMigrate	将迁移
+schedules.migrate.outcome.willRemove	将被移除
+schedules.migrate.previewError	无法查哪些计划任务可迁移。请重试。
+schedules.migrate.removal.completedOneTime	一次性计划任务已跑过
+schedules.migrate.removal.ownerLeft	所有者已离开组织
+schedules.migrate.resultDescription	已迁移计划任务现在是自动化。迁移不了的继续按原样跑。
+schedules.migrate.resultDescriptionNoneMigrated	迁移不了的计划任务继续按原样跑。修好下面列的问题再迁移。
+schedules.migrate.resultTitle	迁移完成
+schedules.migrate.resultTitleNoneMigrated	没有计划任务被迁移
+schedules.migrate.title	把计划任务迁移到自动化
+schedules.migrate.warnings.personaDropped	会话将以 Devin 而非 {{persona}} 人设运行（自动化不支持人设）
+schedules.migrate.warnings.summaryPreview_one	{{count}} 个计划任务迁移后行为会变；见下方备注
+schedules.migrate.warnings.summaryPreview_other	{{count}} 个计划任务迁移后行为会变；见下方备注
+schedules.migrate.warnings.summaryResult_one	{{count}} 个自动化行为与其计划任务不同；见下方备注
+schedules.migrate.warnings.summaryResult_other	{{count}} 个自动化行为与其计划任务不同；见下方备注
+schedules.toast.createError	创建计划任务失败
+schedules.toast.createLoading	正在创建计划任务…
+schedules.toast.createSuccess	计划任务创建成功
+schedules.toast.deleteError	删除计划任务失败
+schedules.toast.deleteLoading	正在删除计划任务…
+schedules.toast.deleteSuccess	计划任务删除成功
+schedules.toast.updateError	更新计划任务失败
+schedules.toast.updateLoading	正在更新计划任务…
+schedules.toast.updateSuccess	计划任务更新成功
+scopedTriggers.access.permission_required	你没有管理自动分析的权限。
+scopedTriggers.account	整个账户
+scopedTriggers.add.advanced	加高级规则
+scopedTriggers.addAction	添加
+scopedTriggers.addAdvancedDescription	组合条件匹配特定拉取请求。
+scopedTriggers.addExclusion	加排除项
+scopedTriggers.addExclusionDescription	跳过某仓库里或匹配条件的拉取请求。
+scopedTriggers.addKind.account.description	每个连接上的每个仓库。
+scopedTriggers.addKind.account.label	整个账户
+scopedTriggers.addKind.organization.description	一个组织里的每个仓库。
+scopedTriggers.addKind.prefix.description	路径以某前缀开头的 GitHub 仓库。
+scopedTriggers.addKind.prefix.label	加 GitHub 仓库前缀
+scopedTriggers.addKind.repository.description	一个仓库。
+scopedTriggers.addKind.repository.label	加单个仓库
+scopedTriggers.addKind.user.description	一个账户成员开的每个拉取请求。
+scopedTriggers.addNamespace.azure_devops.description	一个 Azure DevOps 项目里的每个仓库。
+scopedTriggers.addNamespace.azure_devops.label	加 Azure DevOps 项目
+scopedTriggers.addNamespace.bitbucket.description	一个 Bitbucket 工作区里的每个仓库。
+scopedTriggers.addNamespace.bitbucket.label	加 Bitbucket 工作区
+scopedTriggers.addNamespace.bitbucket_data_center.description	一个 Bitbucket 项目里的每个仓库。
+scopedTriggers.addNamespace.bitbucket_data_center.label	加 Bitbucket 项目
+scopedTriggers.addNamespace.gerrit.description	一个 Gerrit 父项目下的每个项目。
+scopedTriggers.addNamespace.gerrit.label	加 Gerrit 父项目
+scopedTriggers.addNamespace.github.description	一个 GitHub 组织里的每个仓库。
+scopedTriggers.addNamespace.github.label	加 GitHub 组织
+scopedTriggers.addNamespace.gitlab.description	一个 GitLab 组里的每个仓库。
+scopedTriggers.addNamespace.gitlab.label	加 GitLab 组
+scopedTriggers.addNamespace.p4.description	一个 Perforce depot 里的每个路径。
+scopedTriggers.addNamespace.p4.label	加 Perforce depot
+scopedTriggers.addRepositoriesOrUsers	加仓库或用户
+scopedTriggers.addRepositoryAction	加仓库
+scopedTriggers.addRepositoryDescription2	选一个仓库或组织，再用条件收窄。
+scopedTriggers.addRule	加规则
+scopedTriggers.addUser	加用户
+scopedTriggers.addUserDescription	匹配特定人开的拉取请求。
+scopedTriggers.after	之后
+scopedTriggers.alwaysApproveHelp	匹配的拉取请求不经评判即批准，除非有打开的发现项或批准策略变了。文件条件必须匹配每个被改文件。
+scopedTriggers.blankPlaceholder	空
+scopedTriggers.brokenExclusion	Devin 显示不了此排除项。它可能没在跑。
+scopedTriggers.brokenRule	Devin 显示不了此规则。它可能没在跑。
+scopedTriggers.cancel	取消
+scopedTriggers.cancelScope	取消
+scopedTriggers.capability.available	你可编辑此范围。
+scopedTriggers.capability.broader_grant_required	你在 Devin 里没有 {{target}} 的访问权。问 Devin 管理员。
+scopedTriggers.capability.broader_grant_required_admin	你在 Devin 里没有 {{target}} 的访问权。
+scopedTriggers.capability.github_pat_unsupported	用的是个人访问令牌连接，不发 webhook。请 Devin 管理员装 GitHub App。
+scopedTriggers.capability.github_pat_unsupported_admin	用的是个人访问令牌连接，不发 webhook。请装 GitHub App。
+scopedTriggers.capability.inaccessible	它的 {{provider}} 连接被移除了，没有 webhook 进来。请 Devin 管理员重连 {{provider}} 并重加此规则。
+scopedTriggers.capability.inaccessible_admin	它的 {{provider}} 连接被移除了，没有 webhook 进来。移除此规则，重连 {{provider}}，再重加。
+scopedTriggers.capability.personalAdvanced	只有账户管理员能改个人规则的过滤器。你仍可改分析何时跑或移除规则。
+scopedTriggers.capability.prefix_disabled	你的账户没开前缀规则。仅可查看。
+scopedTriggers.capability.readonly	仅可查看。请 Devin 管理员改。
+scopedTriggers.capability.relink_required	GitHub App 不再已装，因此 {{provider}} 不发 webhook。请 Devin 管理员重连 {{provider}}。
+scopedTriggers.capability.relink_required_admin	GitHub App 不再已装，因此 {{provider}} 不发 webhook。
+scopedTriggers.capability.unsupported	Devin 还收不到 {{provider}} 的拉取请求 webhook。
+scopedTriggers.cardAccountField	{{field}} · 全部仓库
+scopedTriggers.cardTargetType.ariaLabelWithValue	目标类型：{{type}}
+scopedTriggers.cardTargetType.member	成员
+scopedTriggers.cardTargetType.organization	组织
+scopedTriggers.cardTargetType.prefix	仓库前缀
+scopedTriggers.cardTargetType.repository	仓库
+scopedTriggers.checkScope	检查访问
+scopedTriggers.checkScopeHelp	编辑此范围前检查访问。
+scopedTriggers.clearFilter	清除筛选
+scopedTriggers.conditionCount_one	{{count}} 个条件
+scopedTriggers.conditionCount_other	{{count}} 个条件
+scopedTriggers.connectionsChanged	{{target}} 丢了它的 {{provider}} 连接，因此这些更改保存不了。放弃它们并请 Devin 管理员重连 {{provider}}。
+scopedTriggers.connectionsChanged_admin	{{target}} 丢了它的 {{provider}} 连接，因此这些更改保存不了。放弃它们，或重连 {{provider}} 再试。
+scopedTriggers.deleteExclusion	删排除项
+scopedTriggers.deleteExclusionDescription	删此排除项后，匹配的拉取请求可能被自动分析。
+scopedTriggers.deleteExclusionTitle	删排除项？
+scopedTriggers.deleteRule	删规则
+scopedTriggers.deleteRuleDescription	此规则将不再触发自动分析。
+scopedTriggers.deleteRuleTitle	删规则？
+scopedTriggers.editable	可编辑触发器
+scopedTriggers.entity.prefix	仓库前缀
+scopedTriggers.entity.repository	仓库
+scopedTriggers.entity.user	成员
+scopedTriggers.everyPullRequest	每个拉取请求
+scopedTriggers.everyPush	每次推送
+scopedTriggers.exact	精确匹配
+scopedTriggers.excludedGroupCount.advanced_one	{{count}} 个高级排除项
+scopedTriggers.excludedGroupCount.advanced_other	{{count}} 个高级排除项
+scopedTriggers.excludedGroupCount.repositories_one	{{count}} 个排除仓库
+scopedTriggers.excludedGroupCount.repositories_other	{{count}} 个排除仓库
+scopedTriggers.excludedGroupCount.users_one	{{count}} 个排除用户
+scopedTriggers.excludedGroupCount.users_other	{{count}} 个排除用户
+scopedTriggers.exclusionsHelp	Devin 永不自动分析匹配排除项的 PR，即使另一条规则招了它们。
+scopedTriggers.exclusionsTitle	排除项
+scopedTriggers.fieldPlaceholder	字段
+scopedTriggers.filter	筛选
+scopedTriggers.filterGroup	筛选 {{group}}
+scopedTriggers.for	用于
+scopedTriggers.forDialog	于
+scopedTriggers.glob	Glob 模式
+scopedTriggers.global	全部仓库
+scopedTriggers.groupCount.advanced_one	{{count}} 条高级规则
+scopedTriggers.groupCount.advanced_other	{{count}} 条高级规则
+scopedTriggers.groupCount.repositories_one	{{count}} 个仓库
+scopedTriggers.groupCount.repositories_other	{{count}} 个仓库
+scopedTriggers.groupCount.users_one	{{count}} 个用户
+scopedTriggers.groupCount.users_other	{{count}} 个用户
+scopedTriggers.groups.exclusions	排除项
+scopedTriggers.groups.mergeManager	自动批准规则
+scopedTriggers.groups.mergeManagerAlwaysApprove	自动批准「总是批准」规则
+scopedTriggers.groups.mergeManagerExclusions	自动批准排除项
+scopedTriggers.groups.mergeManagerNeverApprove	自动批准「总是拒绝」规则
+scopedTriggers.groups.reviewer	审查者规则
+scopedTriggers.groups.reviewerExclusions	审查者排除项
+scopedTriggers.groups.triggers	触发器
+scopedTriggers.literalPrefix	字面仓库前缀
+scopedTriggers.loadMoreError	无法加载更多。重试
+scopedTriggers.manageAccess	管理访问
+scopedTriggers.mergeManager.addAlwaysApprove	总是批准规则
+scopedTriggers.mergeManager.addAlwaysApproveDescription	对某仓库里或匹配条件的拉取请求不经评判即批准。
+scopedTriggers.mergeManager.addExclusion	加自动批准排除项
+scopedTriggers.mergeManager.addNeverApprove	总是拒绝规则
+scopedTriggers.mergeManager.addNeverApproveDescription	把某仓库里或匹配条件的拉取请求留给人。
+scopedTriggers.mergeManager.addRule	加自动批准规则
+scopedTriggers.mergeManager.alwaysApproveHelp	自动批准对匹配的拉取请求不经评判即批准，除非有打开的发现项或批准策略变了。文件条件必须匹配每个被改文件。
+scopedTriggers.mergeManager.alwaysApproveManagersOnly	仅可查看。只有账户的 Review 管理员能改哪些拉取请求总是被批准。
+scopedTriggers.mergeManager.alwaysApproveTitle	总是批准
+scopedTriggers.mergeManager.deleteAlwaysApproveDescription	删此规则后，自动批准会评判仅被它匹配的拉取请求。
+scopedTriggers.mergeManager.deleteExclusionDescription	删此排除项后，自动批准可能跑在它匹配的拉取请求上。
+scopedTriggers.mergeManager.deleteNeverApproveDescription	删此规则后，自动批准可能批准它匹配的拉取请求。
+scopedTriggers.mergeManager.deleteRuleDescription	自动批准将不再跑在仅被此规则匹配的拉取请求上。
+scopedTriggers.mergeManager.empty	还没有自动批准规则
+scopedTriggers.mergeManager.emptyDescription	规则决定自动批准代你评估和批准哪些拉取请求。
+scopedTriggers.mergeManager.exclusionsHelp	自动批准永不跑在匹配排除项的 PR 上，即使有规则招了它们。自动分析不受影响。
+scopedTriggers.mergeManager.exclusionsTitle	自动批准排除项
+scopedTriggers.mergeManager.help	选自动批准评估哪些拉取请求。每次推送都跑。
+scopedTriggers.mergeManager.neverApproveHelp	自动批准把匹配的拉取请求留给人不经评判。「总是拒绝」胜过「总是批准」。
+scopedTriggers.mergeManager.neverApproveTitle	总是拒绝
+scopedTriggers.mergeManager.noAlwaysApprove	还没有「总是批准」规则
+scopedTriggers.mergeManager.noNeverApprove	还没有「总是拒绝」规则
+scopedTriggers.mergeManager.title	自动批准规则
+scopedTriggers.namespaceKind.azure_devops.description	此 Azure DevOps 项目里的每个仓库。
+scopedTriggers.namespaceKind.azure_devops.label	Azure DevOps 项目
+scopedTriggers.namespaceKind.bitbucket.description	此 Bitbucket 工作区里的每个仓库。
+scopedTriggers.namespaceKind.bitbucket.label	Bitbucket 工作区
+scopedTriggers.namespaceKind.bitbucket_data_center.description	此 Bitbucket 项目里的每个仓库。
+scopedTriggers.namespaceKind.bitbucket_data_center.label	Bitbucket 项目
+scopedTriggers.namespaceKind.gerrit.description	此 Gerrit 父项目下的每个项目。
+scopedTriggers.namespaceKind.gerrit.label	Gerrit 父项目
+scopedTriggers.namespaceKind.github.description	此 GitHub 组织里的每个仓库。
+scopedTriggers.namespaceKind.github.label	GitHub 组织
+scopedTriggers.namespaceKind.gitlab.description	此 GitLab 组里的每个仓库。
+scopedTriggers.namespaceKind.gitlab.label	GitLab 组
+scopedTriggers.namespaceKind.p4.description	此 Perforce depot 里的每个路径。
+scopedTriggers.namespaceKind.p4.label	Perforce depot
+scopedTriggers.neverApproveHelp	匹配的拉取请求留给人。
+scopedTriggers.neverReviewWhen	何时不分析
+scopedTriggers.newExclusion	新排除项
+scopedTriggers.newRule	新规则
+scopedTriggers.noEnrollments	在你的第一个仓库设置自动分析
+scopedTriggers.noEnrollmentsDescription	规则决定 Devin 自动分析哪些拉取请求。
+scopedTriggers.noExclusions	没有排除项。
+scopedTriggers.noFilter	无表达式过滤
+scopedTriggers.noMatchingRules	没有规则匹配你的筛选。
+scopedTriggers.noRepositoriesFound	未找到仓库
+scopedTriggers.noScopes_account	还没有可自动分析的仓库。连接 git 提供商或加仓库开始。
+scopedTriggers.noScopes_enterprise_organization	此组织还没有可自动分析的仓库。请企业管理员给此组织仓库访问权。
+scopedTriggers.noScopes_organization	此组织还没有可自动分析的仓库。连接 git 提供商或给此组织加仓库开始。
+scopedTriggers.noTargets	找不到可访问的目标。
+scopedTriggers.noWebhooks	没有 webhook
+scopedTriggers.not	非
+scopedTriggers.onInline	在
+scopedTriggers.once	仅一次
+scopedTriggers.onlyWhen	仅当
+scopedTriggers.opIs	是
+scopedTriggers.opIsNot	不是
+scopedTriggers.or	或
+scopedTriggers.patternCount_one	{{count}} 个模式
+scopedTriggers.patternCount_other	{{count}} 个模式
+scopedTriggers.prCreated	PR 创建时
+scopedTriggers.prReady	PR 就绪时
+scopedTriggers.prefixPlaceholder	前缀
+scopedTriggers.readonly	只读
+scopedTriggers.reconnectProvider	重连 {{provider}}
+scopedTriggers.repositorySearchError	仓库加载失败。
+scopedTriggers.reviewHelp	Devin 自动分析匹配的拉取请求。
+scopedTriggers.reviewWhen	何时分析
+scopedTriggers.reviewer.addExclusion	加审查者排除项
+scopedTriggers.reviewer.addRule	加审查者规则
+scopedTriggers.reviewer.deleteExclusionDescription	删此排除项后，此审查者可能跑在它匹配的拉取请求上。
+scopedTriggers.reviewer.deleteRuleDescription	此审查者将不再跑在仅被此规则匹配的拉取请求上。
+scopedTriggers.reviewer.empty	还没有规则
+scopedTriggers.reviewer.emptyDescription	此审查者不在任何拉取请求上跑。
+scopedTriggers.reviewer.exclusionsHelp	此审查者永不跑在匹配排除项的 PR 上，即使有规则招了它们。自动分析和其它审查者不受影响。
+scopedTriggers.reviewer.exclusionsTitle	排除项
+scopedTriggers.reviewer.help	选此审查者查哪些拉取请求。
+scopedTriggers.reviewer.runWithReview	随 Devin Review 跑
+scopedTriggers.reviewer.runWithReviewDescription	Devin Review 跑时总是跑此自定义审查者。
+scopedTriggers.reviewer.title	规则
+scopedTriggers.ruleCannotBeShown	此规则显示不了。
+scopedTriggers.runHelp	在匹配的拉取请求上跑。
+scopedTriggers.saveScope	保存
+scopedTriggers.scope	范围
+scopedTriggers.scopeCheckError	检查 {{target}} 失败。请重试。
+scopedTriggers.scopeKind.account	全部仓库
+scopedTriggers.scopeKind.organization	组织
+scopedTriggers.scopeKind.prefix	仓库前缀
+scopedTriggers.scopeKind.repository	仓库
+scopedTriggers.scopeKind.user	成员
+scopedTriggers.scopeKindDescription.account	此 Devin 账户已链仓库里的每个拉取请求。
+scopedTriggers.scopeKindDescription.prefix	路径以某前缀开头的仓库。
+scopedTriggers.scopeKindDescription.repository	一个仓库。
+scopedTriggers.scopeKindDescription.user	一个账户成员开的每个拉取请求。
+scopedTriggers.scopeLevelQuestion	此规则该作用于哪级范围？
+scopedTriggers.scopeReadonly	此范围含此编辑器替换不了的条目。
+scopedTriggers.scopeType	范围类型
+scopedTriggers.scopeValueQuestion	此规则该作用于哪个{{entity}}？
+scopedTriggers.searchRepositories	搜索仓库
+scopedTriggers.searchTargets	搜索目标
+scopedTriggers.searchTargetsSelected	{{label}}，已选：{{target}}
+scopedTriggers.searchingRepositories	正在搜仓库…
+scopedTriggers.selectScope	选择范围
+scopedTriggers.selectScopeType	选择范围类型
+scopedTriggers.setUpGitHubApp	安装 GitHub App
+scopedTriggers.shortFields.author	作者
+scopedTriggers.shortFields.author_type	作者类型
+scopedTriggers.shortFields.changed_file	文件
+scopedTriggers.shortFields.label	标签
+scopedTriggers.shortFields.line_diff	大小
+scopedTriggers.shortFields.not_originated_by	非 Devin 发起
+scopedTriggers.shortFields.originated_by	Devin 发起
+scopedTriggers.shortFields.repository	仓库
+scopedTriggers.shortFields.reviewer	审查者
+scopedTriggers.shortFields.source_branch	源分支
+scopedTriggers.shortFields.target_branch	目标分支
+scopedTriggers.shortFields.title	标题
+scopedTriggers.skipHelp	匹配的拉取请求被跳过。
+scopedTriggers.stale	触发器在服务器上变了。你的编辑保留，但保存被挡。选「放弃更改」重载最新触发器。
+scopedTriggers.target.organization	整个 {{name}}
+scopedTriggers.targetsList	{{targets, list(type: unit)}}
+scopedTriggers.unavailable	此账户没有范围触发器。管理员确认访问后重载。
+scopedTriggers.unselected	未选
+scopedTriggers.unsupportedEffect	自动分析不支持「{{effect}}」效果。没有保存任何更改。
+scopedTriggers.unsupportedEffectUnknown	这些触发器用了不支持的效果。没有保存任何更改。
+scopedTriggers.username	用户名
+scopedTriggers.validation	有些更改不完整。检查所选仓库或用户并填每个过滤器。
+scopedTriggers.valueCount_one	{{count}} 个值
+scopedTriggers.valueCount_other	{{count}} 个值
+scopedTriggers.verbAlwaysApprove	总是批准

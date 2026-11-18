@@ -1,0 +1,340 @@
+boards.ordering.priority	优先级
+boards.ordering.status	状态
+boards.ordering.updated	更新时间
+boards.page.boardNameSettings	{{name}} 设置
+boards.page.boardSettings	Board 设置
+boards.page.configureHowThisBoardWorksForYourTeam	配置此 Board 如何为你团队和 Board Agent 工作。
+boards.page.failedToLoadBoards	加载 Board 失败。
+boards.page.failedToLoadThisBoard	加载此 Board 失败。
+boards.page.subscribeTo	订阅 {{name}}
+boards.page.unsubscribeFrom	取消订阅 {{name}}
+boards.plan.access	访问权限
+boards.plan.approve.beforeApproval	批准前
+boards.plan.approve.button	批准计划
+boards.plan.approve.cancel	取消
+boards.plan.approve.confirm	批准
+boards.plan.approve.dialogDescription	批准会为每个步骤创建一个工单。之后仍可继续修改计划。
+boards.plan.approve.dialogTitle	批准此计划？
+boards.plan.approve.notDrafted	Devin 还没有起草计划。
+boards.plan.approvedBy	由 {{name}} 批准
+boards.plan.blocker	阻塞项
+boards.plan.blockerCleared	已解除
+boards.plan.blockerClearedByCheck	已通过检查解除
+boards.plan.blockerOpen	未解决
+boards.plan.checkErrored	检查出错
+boards.plan.checkFailed	检查未通过
+boards.plan.checkNotRun	未检查
+boards.plan.checkPassed	检查已通过
+boards.plan.checkRunning	正在检查…
+boards.plan.clearReference	清除计划引用
+boards.plan.counter.gates	{{done}} / {{total}} 个关卡
+boards.plan.decision	决策
+boards.plan.decisionOpen	待决策
+boards.plan.decisionPicked	已决策
+boards.plan.dismissBlocker	忽略
+boards.plan.drafting	Devin 正在起草计划
+boards.plan.exitCriteria	退出条件
+boards.plan.loadError	无法加载计划
+boards.plan.noPlanFile	此 Board 没有计划文件
+boards.plan.notice.alreadyApproved	已有人批准了此计划
+boards.plan.notice.approvalBlocked_one	计划又有 {{count}} 个未解决项——解决后才能批准
+boards.plan.notice.approvalBlocked_other	计划又有 {{count}} 个未解决项——解决后才能批准
+boards.plan.notice.blockerRemoved	此阻塞项已被移除
+boards.plan.notice.decisionRemoved	此决策已从计划中移除
+boards.plan.notice.dismiss	忽略
+boards.plan.notice.failed	你的更改无法保存
+boards.plan.notice.gateRemoved	此关卡已从计划中移除
+boards.plan.notice.optionRemoved	此决策不再有选项「{{option}}」
+boards.plan.phaseLabel	阶段 {{n}}
+boards.plan.recheck	重新检查
+boards.plan.recheckFailed	重新检查未运行
+boards.plan.rechecking	正在检查
+boards.plan.retry	重试
+boards.plan.status.approved	已批准
+boards.plan.status.done	已完成
+boards.plan.status.drafting	起草中
+boards.plan.status.inProgress	进行中
+boards.plan.status.progress	{{done}}/{{total}} 已完成
+boards.plan.view.aria	Board 视图
+boards.plan.view.board	Board
+boards.plan.view.issues	问题
+boards.plan.view.layoutAria	问题布局
+boards.plan.view.list	列表
+boards.plan.view.overview	概览
+boards.plan.walkthrough.accessNeeded	需要权限
+boards.plan.walkthrough.actionNeeded	需要处理
+boards.plan.walkthrough.after	之后
+boards.plan.walkthrough.allMet_one	已满足 {{count}} 项条件
+boards.plan.walkthrough.allMet_other	全部 {{count}} 项条件已满足
+boards.plan.walkthrough.approvedNoTickets	已批准 · 尚无工单
+boards.plan.walkthrough.autoPlay	自动播放
+boards.plan.walkthrough.awaitingInput	等待输入
+boards.plan.walkthrough.backToPhase	返回阶段 {{n}}
+boards.plan.walkthrough.backToStep	返回步骤
+boards.plan.walkthrough.backToTour	返回导览
+boards.plan.walkthrough.blocks	阻塞
+boards.plan.walkthrough.checkpointKicker	阶段 {{n}} · 退出检查点
+boards.plan.walkthrough.clearedBlockers	已解除
+boards.plan.walkthrough.criteriaAllMetPhase	所有退出条件均已满足，此阶段可以收尾。
+boards.plan.walkthrough.criteriaAllMetStep	所有退出条件均已满足，此步骤可以收尾。
+boards.plan.walkthrough.criteriaFor	{{title}} 的退出条件：{{summary}}
+boards.plan.walkthrough.criteriaMet_one	{{count}} 项退出条件已满足 {{met}} 项
+boards.plan.walkthrough.criteriaMet_other	{{count}} 项退出条件已满足 {{met}} 项
+boards.plan.walkthrough.criteriaOpenPhase	只有满足下面所有条件，此阶段才算完成。
+boards.plan.walkthrough.criteriaOpenStep	只有满足下面所有条件，此步骤才算完成。
+boards.plan.walkthrough.decidedLabel	已决策：{{label}}
+boards.plan.walkthrough.decisionNeeded	需要决策
+boards.plan.walkthrough.details	详情
+boards.plan.walkthrough.discussion	讨论
+boards.plan.walkthrough.draftingPhase	Devin 正在起草阶段 {{n}}…
+boards.plan.walkthrough.escHint	返回概览
+boards.plan.walkthrough.exitCheckpoints	退出检查点
+boards.plan.walkthrough.exitPill	退出 · {{met}}/{{total}}
+boards.plan.walkthrough.exploreHint	点击阶段或方框查看详情。
+boards.plan.walkthrough.inputsResolved	{{total}} 项输入已解决 {{done}} 项
+boards.plan.walkthrough.intro	按顺序走一遍每个阶段，在所有还需要你输入的地方停下。
+boards.plan.walkthrough.introEmpty	Devin 还没有写出任何阶段。计划成形后会显示在这里。
+boards.plan.walkthrough.legendCriteria	退出条件已满足
+boards.plan.walkthrough.legendCrossPhase	依赖更早的阶段
+boards.plan.walkthrough.legendTickets	工单进度
+boards.plan.walkthrough.narrationLabel	计划解说
+boards.plan.walkthrough.needsInput	需要输入
+boards.plan.walkthrough.needsInputCount	需要输入 · {{count}}
+boards.plan.walkthrough.next	下一个
+boards.plan.walkthrough.noPhases	还没有阶段
+boards.plan.walkthrough.noPhasesHint	Devin 把阶段写进计划后，它们会显示在这里。
+boards.plan.walkthrough.noSteps	步骤尚未定义
+boards.plan.walkthrough.noStepsPendingInput	步骤尚未定义——等待上面的输入
+boards.plan.walkthrough.overview	概览
+boards.plan.walkthrough.pause	暂停
+boards.plan.walkthrough.phaseContext	阶段 {{n}} · {{title}}
+boards.plan.walkthrough.phaseProgress	{{phase}} 进度
+boards.plan.walkthrough.planProgress	计划进度
+boards.plan.walkthrough.prev	上一个
+boards.plan.walkthrough.restart	重新开始导览
+boards.plan.walkthrough.resumeTour	继续导览
+boards.plan.walkthrough.someMet	已满足 {{met}}/{{total}}
+boards.plan.walkthrough.statCriteriaMet	退出条件已满足
+boards.plan.walkthrough.statPhases	阶段
+boards.plan.walkthrough.statSteps	步骤
+boards.plan.walkthrough.stepAwaitingInput	{{step}}——等待输入
+boards.plan.walkthrough.stepContext	步骤 · {{title}}
+boards.plan.walkthrough.stepCriteriaInPhase	此阶段内的步骤条件
+boards.plan.walkthrough.stepCriteriaKicker	步骤退出条件
+boards.plan.walkthrough.stepNeedsInput	{{step}}——需要输入
+boards.plan.walkthrough.stepsCount	步骤 · {{count}}
+boards.plan.walkthrough.stepsDone	{{total}} 步已完成 {{done}} 步
+boards.plan.walkthrough.stepsHeading	步骤
+boards.plan.walkthrough.steps_one	{{count}} 步
+boards.plan.walkthrough.steps_other	{{count}} 步
+boards.plan.walkthrough.stopOf	第 {{n}} 站，共 {{total}} 站
+boards.plan.walkthrough.tickets	工单
+boards.plan.walkthrough.tour	导览
+boards.plan.walkthrough.untitled	未命名迁移计划
+boards.plan.walkthrough.walkthroughProgress	导览进度
+boards.plan.walkthrough.wrapUp	总结
+boards.plan.walkthrough.wrapUpAllAnswered	所有需要输入的项都已答复。
+boards.plan.walkthrough.wrapUpApproved	已批准
+boards.plan.walkthrough.wrapUpNeedsInput	等待你的输入
+boards.plan.walkthrough.wrapUpProgress	工作进行中
+boards.plan.walkthrough.wrapUpReady	待批准
+boards.plan.walkthrough.wrapUpRemaining	{{total}} 项中还有 {{remaining}} 项需要输入。
+boards.prState.anyOf	PR 状态是 {{count}} 项之一
+boards.prState.approved	已批准
+boards.prState.awaitingReview	待审查
+boards.prState.changesRequested	已要求修改
+boards.prState.closed	已关闭
+boards.prState.draft	草稿
+boards.prState.is	PR 状态是 {{value}}
+boards.prState.merged	已合并
+boards.prState.none	无 PR
+boards.prState.queued	合并队列中
+boards.prState.remove	移除 PR 状态筛选
+boards.prState.title	PR 状态
+boards.prState.waitingCi	等待 CI
+boards.priority.critical	严重
+boards.priority.high	高
+boards.priority.low	低
+boards.priority.medium	中
+boards.priority.noPriority	无优先级
+boards.priority.noSeverity	无严重性
+boards.priority.schemeDefault	默认
+boards.priority.schemeSeverity	严重性
+boards.priority.urgent	紧急
+boards.progressDone	{{completed}} / {{total}} 已完成
+boards.removeTextFilter	移除文本筛选
+boards.resourceAdd	添加
+boards.resourceAddLink	添加链接
+boards.resourceRemove	移除资源
+boards.resourceTitle	标题
+boards.resourceTitlePlaceholder	设计文档
+boards.resourceUrl	URL
+boards.resourceUrlInvalid	请输入有效的 http(s) 链接
+boards.resourceUrlPlaceholder	https://example.com
+boards.resources	资源
+boards.resourcesNone	无资源
+boards.searchBoards	搜索 Board
+boards.searchTickets	搜索工单
+boards.selectBoard	选择 Board…
+boards.sessionEtaLeft	约剩 {{duration}}
+boards.sessionLoading	正在加载会话…
+boards.sessionPane.openTicket	打开工单 {{ticket}}
+boards.sessionPane.ticket	工单
+boards.sessionPane.untitledTicket	未命名工单
+boards.sessionTab.backToBoard	返回 Board
+boards.sessionTab.boardsLoadFailed	无法加载 Board
+boards.sessionTab.clearFilters	清除筛选
+boards.sessionTab.loadFailed	无法加载此 Board
+boards.sessionTab.noBoardLinked	未关联 Board——告诉你的 Devin 创建一个
+boards.sessionTab.noMatchingTickets	没有匹配当前筛选的工单
+boards.sessionTab.noPlanLinked	此会话不管理迁移计划
+boards.sessionTab.openTicket	打开工单
+boards.sessionTab.retry	重试
+boards.sessionTab.settings	Board 设置
+boards.sessionTab.switchBoard	切换 Board
+boards.sessionUnavailableTitle	会话不可用
+boards.sessionsWorking_one	{{count}} 个会话在工作中
+boards.sessionsWorking_other	{{count}} 个会话在工作中
+boards.settingsForm.color	颜色
+boards.settingsForm.customFieldEmptyHint	工单值在设置前为空
+boards.settingsForm.defaultColor	默认颜色
+boards.settingsForm.defaultColorHint	用于此键的新值
+boards.settingsForm.keyNamePlaceholder	阶段
+boards.settingsForm.keyNameTaken	已存在同名键
+boards.settingsForm.link	链接
+boards.settingsForm.linkHint	带此值的徽章将打开该链接
+boards.settingsForm.linkInvalid	请输入 http 或 https URL
+boards.settingsForm.linkPlaceholder	https://example.com
+boards.settingsForm.name	名称
+boards.settingsForm.onePerTicket	每工单一个
+boards.settingsForm.onePerTicketHint	每个工单此键最多一个值
+boards.settingsForm.type	类型
+boards.settingsForm.valueNameTaken	{{key}} 已存在同名值
+boards.settingsPage.aPersistentDevinSessionThatEveryoneOnThis	一个此 Board 上所有人都可见的常驻 Devin 会话。成员也可在 Agent 面板启动个人 Agent。
+boards.settingsPage.clickAStatusToRenameOrRecolorIt	点击状态可重命名或改色。拖拽可在 Board 上重排。
+boards.settingsPage.commaSeparatedNumbersUpToSavedSortedAnd	逗号分隔的数字，最多 {{MAX_ESTIMATE_PRESETS}} 个。保存时排序去重。
+boards.settingsPage.customScalePlaceholder	如 0.5, 1, 2, 4
+boards.settingsPage.defineReusableTicketFieldsAndChooseWhichOnes	定义可复用的工单字段，并选择哪些显示在 Board 行和卡片上。
+boards.settingsPage.deleteName	删除 {{name}}
+boards.settingsPage.deleteNameReason	删除 {{name}}（{{reason}}）
+boards.settingsPage.deletesKeyAndValuesOrMore	删除该键及其 {{number}}+ 个值。
+boards.settingsPage.deletesKeyAndValues_one	删除该键及其 {{count}} 个值。
+boards.settingsPage.deletesKeyAndValues_other	删除该键及其 {{count}} 个值。
+boards.settingsPage.howTicketPrioritiesAreNamedAndShownOn	工单优先级在行、卡片、选择器和洞察中的命名与显示方式。
+boards.settingsPage.keyValuePairsLikePhasePhase1Click	形如「阶段: Phase 1」的键值对。点击编辑，拖拽重排。
+boards.settingsPage.labelsOnlyTicketsKeepTheirPriorityWhenYou	仅换标签——切换时工单保留其优先级。默认：{{defaultScheme}}。
+boards.settingsPage.nameIdentifierAndDescriptionShownAcrossTheBoard	在 Board 各处显示的名称、标识符和描述。
+boards.settingsPage.noAgentYetSendAMessageInThe	还没有 Agent。在 Board 页的 Agent 面板发条消息即可启动。
+boards.settingsPage.permanentlyDeletesThisBoardAndAllOfIts	永久删除此 Board 及其全部工单。此操作无法撤销。
+boards.settingsPage.prioritySchemeDefaultHelp	紧急、高、中、低——用于规划工作。
+boards.settingsPage.prioritySchemeSeverityHelp	严重、高、中、低——用于发现项和事故。
+boards.settingsPage.removesAssignmentsOrMore	从工单移除 {{number}}+ 个标签分配。
+boards.settingsPage.removesAssignments_one	从工单移除 {{count}} 个标签分配。
+boards.settingsPage.removesAssignments_other	从工单移除 {{count}} 个标签分配。
+boards.settingsPage.removesTagFromTickets_one	从 {{count}} 个工单移除此标签。此操作无法撤销。
+boards.settingsPage.removesTagFromTickets_other	从 {{count}} 个工单移除此标签。此操作无法撤销。
+boards.settingsPage.removesTagsFromTicketsOrMore	从 {{number}}+ 个工单移除这些标签。
+boards.settingsPage.removesTagsFromTickets_one	从 {{count}} 个工单移除这些标签。
+boards.settingsPage.removesTagsFromTickets_other	从 {{count}} 个工单移除这些标签。
+boards.settingsPage.sharedWithTheBoardAgentAndShownUnder	与 Board Agent 共享，显示在 Board 标题下方。
+boards.settingsPage.showOnBoard	在 Board 上显示 {{name}}
+boards.settingsPage.shownInTheSidebarAndAtTheTop	显示在侧栏和 Board 顶部。
+boards.settingsPage.sizeTicketsWithANumberShownOnRows	用一个数字给工单估规模，显示在行、卡片和工单详情中。
+boards.settingsPage.tagsAreNotAvailableOnThisBoardYet	此 Board 还没有可用标签。
+boards.settingsPage.thisCannotBeUndone	此操作无法撤销。
+boards.settingsPage.thisDetachesTheSharedAgentFromThisBoard	这将把共享 Agent 从此 Board 对所有人分离。会话保留在其所有者的会话列表中，Agent 面板的下一条消息会启动一个全新的共享 Agent。个人 Agent 不受影响。
+boards.settingsPage.ticketKeyPrefixHelp	工单键前缀，最多 {{max}} 个字符（如 {{example}}-12）。
+boards.settingsPage.turningThisOffHidesEstimatesButKeepsThe	关闭会隐藏估算，但保留数值。
+boards.settingsPage.valuesOfferedInTheEstimatePickerAnyNumber	估算选择器里提供的值。仍可手动输入任意数字。
+boards.sharing.notShared	未共享
+boards.sharing.onlyYou	仅你
+boards.sharing.sharedWithCount_one	与 {{count}} 人共享
+boards.sharing.sharedWithCount_other	与 {{count}} 人共享
+boards.sharing.visibilityOrg	组织内所有人可访问。
+boards.sharing.visibilityPrivate	仅你添加的人可访问。
+boards.sortableList.dragToReorder	拖拽重排
+boards.sortableList.reorder	重排 {{label}}
+boards.statusCategory.backlog	待办池
+boards.statusCategory.canceled	已取消
+boards.statusCategory.done	已完成
+boards.statusCategory.inProgress	进行中
+boards.statusCategory.onlyBoardStatus	唯一的 Board 状态
+boards.statusCategory.onlyStatus	唯一的 {{category}} 状态
+boards.statusCategory.todo	待办
+boards.statusCategory.triage	分诊
+boards.statusCategory.unknown	未知
+boards.statusColorPicker.customHex	自定义十六进制颜色
+boards.statusColorPicker.invalidHex	请输入形如 #4c9aff 的十六进制颜色。
+boards.statusColorPicker.statusColor	状态颜色
+boards.statusColorPicker.useDefault	用类别默认色
+boards.statusEditor.addStatus	添加状态
+boards.statusEditor.adding	正在添加…
+boards.statusEditor.category	类别
+boards.statusEditor.color	颜色
+boards.statusEditor.default	默认
+boards.statusEditor.defaultForNewTickets	新工单的默认状态
+boards.statusEditor.duplicateName	已存在同名状态。
+boards.statusEditor.edit	编辑 {{label}}
+boards.statusEditor.fixed	（固定）
+boards.statusEditor.name	名称
+boards.statusEditor.namePlaceholder	审查中
+boards.statusEditor.setDefaultForNewTickets	设为新工单默认状态
+boards.statusEditor.statuses	状态
+boards.statusEditor.ticketCount_one	{{count}} 个工单
+boards.statusEditor.ticketCount_other	{{count}} 个工单
+boards.statusEditor.undeletable	这是{{reason}}。
+boards.sweepFailed	无法请求清扫
+boards.sweepNoManager	此 Board 没有关联管理会话
+boards.sweepNow	立即清扫
+boards.sweepNowHint	让管理会话立即核对工单状态
+boards.sweepSent	已请求清扫
+boards.sweeping	正在清扫…
+boards.systemTagKeys.source	来源
+boards.systemTagKeys.tag	标签
+boards.systemTags.automation	自动化
+boards.systemTags.codeScan	代码扫描
+boards.systemTags.securityFinding	安全发现项
+boards.tagColor.custom	自定义颜色
+boards.tagColor.hex	十六进制颜色
+boards.tagColor.wheel	选颜色
+boards.tagEditor.clearIcon	清除图标
+boards.tagEditor.display	显示
+boards.tagEditor.icon	图标
+boards.tagEditor.iconFor	{{label}} 的图标
+boards.tagEditor.iconLabel	图标
+boards.tagEditor.noIconFallback	没有图标时此值显示为徽章。
+boards.tagEditor.noIconsFound	未找到图标
+boards.tagEditor.pill	徽章
+boards.tagEditor.searchIcons	搜索图标
+boards.tagEditor.shortLabel	短标签
+boards.tagEditor.shortLabelCollision	另一个 {{key}} 值也缩写为「{{shortLabel}}」。
+boards.tagEditor.shortLabelCount	{{count}}/{{max}}
+boards.tagEditor.shortLabelHint	显示在徽章上。默认从名称派生，可改。
+boards.tagEditor.shortLabelTooLong	最多 {{max}} 个字符。
+boards.tagFilter.anyOf	{{key}} 是 {{count}} 项之一
+boards.tagFilter.is	{{key}} 是 {{value}}
+boards.tagFilter.none	无 {{key}}
+boards.tagFilter.remove	移除 {{key}} 筛选
+boards.tagFilter.unknownKey	已删除的标签
+boards.tagIconLabels.automation	自动化
+boards.tagIconLabels.banknote	钞票
+boards.tagIconLabels.blocked	受阻
+boards.tagIconLabels.bookmark	书签
+boards.tagIconLabels.bug	缺陷
+boards.tagIconLabels.cloud	云
+boards.tagIconLabels.code	代码
+boards.tagIconLabels.database	数据库
+boards.tagIconLabels.document	文档
+boards.tagIconLabels.flag	旗帜
+boards.tagIconLabels.flask	烧瓶
+boards.tagIconLabels.folder	文件夹
+boards.tagIconLabels.gitHub	GitHub
+boards.tagIconLabels.globe	地球
+boards.tagIconLabels.hourglass	沙漏
+boards.tagIconLabels.lightbulb	灯泡
+boards.tagIconLabels.linear	Linear
+boards.tagIconLabels.link	链接
+boards.tagIconLabels.lock	锁
+boards.tagIconLabels.magnifyingGlass	放大镜
+boards.tagIconLabels.onCall	值班
+boards.tagIconLabels.palette	调色板

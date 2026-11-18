@@ -1,0 +1,287 @@
+auth.sessionErrors.noOrgMembership	你不是任何组织的成员。请联系你的组织管理员获取访问权限。
+auth.sessionErrors.postAuthFailed	无法完成验证后的初始化
+auth.signInWithAccountConnection	使用 {{account}}（{{name}}）登录
+auth.signInWithConnection	使用 {{name}} 登录
+auth.signInWithSso	使用 SSO 登录
+auth.signUp	注册
+auth.signupConsent.caPrivacy	我同意按<privacy>隐私政策</privacy>所述收集和使用我的个人信息，包括在加拿大境外处理。
+auth.signupConsent.caTerms	我同意<terms>服务条款</terms>
+auth.signupConsent.eea	我同意<terms>服务条款</terms>并已阅读<privacy>隐私政策</privacy>。
+auth.signupConsent.eeaNotice	继续即表示你同意<terms>服务条款</terms>并确认已阅读<privacy>隐私政策</privacy>。
+auth.signupConsent.entryNotice	继续即表示你确认已阅读并同意<privacy>隐私政策</privacy>和<terms>服务条款</terms>。
+auth.signupConsent.existingUserContinue	继续
+auth.signupConsent.existingUserFailed	我们无法保存你的同意记录。请重试。
+auth.signupConsent.existingUserTitle	查看我们的条款以继续
+auth.signupConsent.required	请先同意再注册。
+auth.signupConsent.us	我已阅读并同意<terms>服务条款</terms>和<privacy>隐私政策</privacy>
+auth.signupConsent.usNotice	继续即表示你确认已阅读并同意<terms>服务条款</terms>和<privacy>隐私政策</privacy>。
+auth.ssoSignupConsent.backToLogin	返回登录
+auth.ssoSignupConsent.connectionUnavailable	此 SSO 连接不可用。请返回重新登录。
+auth.ssoSignupConsent.continue	同意并继续使用 SSO
+auth.ssoSignupConsent.description	这是你第一次使用 SSO 登录。请在下方同意以创建你的账户；之后会再经你的身份提供商跳转一次。
+auth.ssoSignupConsent.title	创建你的 Devin 账户
+auth.universityBridgeRedirecting	正在跳转到 Devin University…
+auth.upgrade.chatgptHeroBadge	限时优惠
+auth.upgrade.chatgptHeroDescription	关联个人 Go、Plus 或 Pro 方案，无需购买独立 Devin 订阅即可试用 Devin
+auth.upgrade.chatgptHeroTitle	只用你的 ChatGPT 方案试用 Devin
+auth.upgrade.choosePlanDescription	开始用 Devin 交付。随时可取消。
+auth.upgrade.choosePlanHeading	选择你的方案
+auth.upgrade.continueWithFree	继续使用免费版（受限访问）
+auth.upgrade.freeFeatureDeepWiki	DeepWiki
+auth.upgrade.freeFeatureReview	Devin Review
+auth.upgrade.freeFeatureUsage	有限的 Cloud、Desktop 和 CLI 用量
+auth.upgrade.freePlanIncludes	免费方案包含：
+auth.upgrade.genericError	出错了。请重试。
+auth.upgrade.heading	解锁 Devin 的全部能力
+auth.upgrade.loading	正在加载…
+auth.upgrade.recommendedForYou	为你推荐
+auth.upgrade.selectAnotherPlan	选择其他方案
+auth.upgrade.trialDescription	解锁 Devin 的全部能力。14 天内不会扣款。随时可取消。
+auth.upgrade.trialHeading	领取你的<wbr />免费 Pro 试用
+autoRecharge.paymentFailedSubtitle	你最近一次自动充值扣款失败。请更新支付方式或直接支付账单。
+autoRecharge.paymentFailedTitle	自动充值扣款失败
+autoRecharge.seeInvoices	查看账单
+automationAccess.canConfigure	可配置
+automationAccess.canConfigureDescription	可查看、禁用和删除此自动化，若还能运行它则可编辑
+automationAccess.canConfigureDescriptionRunsAsCreator	可查看、禁用和删除此自动化。只有创建者能编辑，因为它以创建者身份运行
+automationAccess.canConfigureDescriptionUnknown	可配置此自动化
+automationAccess.canManage	可管理
+automationAccess.canManageDescription	可配置此自动化并管理其访问权限
+automationAccess.canView	可查看
+automationAccess.canViewDescription	可查看此自动化
+automationAccess.description	允许用户、分组或服务用户访问 {{name}}。
+automationAccess.inheritedDescription	此访问权限为继承所得，不能在此更改
+automationAccess.manageAccess	管理访问权限
+automationAccess.removeSelfError	你不能移除自己管理此自动化的权限
+automationAccess.searchPlaceholder	搜索要添加的用户、分组或服务用户
+automationAgentTypes.incident	事件
+automationAgentTypes.incidentDescription	在事件频道中排查与协助
+automations.accessibleDomains	可访问的域名
+automations.actionItem	操作
+automations.actionTypeAutoTriage	自动分诊
+automations.actionTypeMessageSession	发送消息到会话
+automations.actionTypeMonitorSession	分诊 Devin
+automations.actionTypeNotify	邮件通知
+automations.actionTypeReadinessScan	就绪扫描
+automations.actionTypeRemediate	修复
+automations.actionTypeScanNewCommits	扫描新提交
+automations.actionTypeStartCodeScan	启动代码扫描
+automations.actionTypeStartSession	启动会话
+automations.actionTypeStartThreatScan	启动威胁扫描
+automations.active	活跃
+automations.activeSkillsActionsFor	{{name}} 的操作
+automations.activeSkillsAdd	添加技能
+automations.activeSkillsCopyLabel	复制标签
+automations.activeSkillsCopyLabelNamed	复制标签 {{label}}
+automations.activeSkillsDefault	（默认）
+automations.activeSkillsEmpty	没有启用的技能。添加技能后即可从 {{source}} 标签运行它。
+automations.activeSkillsFind	查找技能
+automations.activeSkillsNoneAvailable	没有可用技能
+automations.activeSkillsRemove	移除
+automations.activeSkillsRemoveAsDefault	取消默认
+automations.activeSkillsSetAsDefault	设为默认
+automations.activeSkillsUnavailable	此技能不再可用。请移除它或添加其他技能。
+automations.activityLoadError	无法加载活动。
+automations.activityTabs	自动化活动
+automations.acuLimitPerSession	每会话 ACU 上限
+automations.acus	ACU
+automations.addAtLeastOneAction	至少添加一个操作
+automations.addAtLeastOneTrigger	至少添加一个触发器
+automations.addAutomation	添加自动化
+automations.addCondition	添加条件
+automations.addDomain	添加域名
+automations.addMetadata	添加元数据
+automations.addNotification	添加通知
+automations.addTrigger	添加触发器
+automations.addTriggerPicker	添加触发器
+automations.added	已添加
+automations.addedCount_one	已添加 {{count}} 项
+automations.addedCount_other	已添加 {{count}} 项
+automations.advanced	高级
+automations.agentDefinition	Agent 定义
+automations.agentDefinitionDescription	定义触发器激活时发生什么
+automations.agentMode	Agent 模式
+automations.agentNumberSuffix	· Agent {{number}}
+automations.agentType	Agent 类型
+automations.agentTypeAutoTriage	自动分诊
+automations.agentTypeAutoTriageDescription	监听 Slack 频道并自动分诊新消息
+automations.agentTypeAutoTriageSlackOnly	自动分诊目前仅支持 Slack → Message 触发器。
+automations.agentTypeAutoTriageV2Description	按触发器跟踪、分诊和排查问题
+automations.agentTypeCodeScan	代码扫描
+automations.agentTypeCodeScanDescription	每个触发器启动一次新的代码扫描
+automations.agentTypeDescription	决定 Agent 在新事件上应做什么
+automations.agentTypeGenericAssistant	助手
+automations.agentTypeGenericAssistantDescription	在 Slack 线程中回答问题、排查和承接请求
+automations.agentTypeGenericAssistantSlackOnly	助手目前仅支持 Slack → Message 触发器。
+automations.agentTypeLocked	Agent 类型创建后不可更改。复制此自动化以更改。
+automations.agentTypeLongRunning	向现有会话发消息
+automations.agentTypeLongRunningDescription	每个触发器向现有会话发送消息
+automations.agentTypeNewSession	启动新会话
+automations.agentTypeNewSessionDescription	每个触发器启动一个新会话
+automations.agentTypeOnlyOneNewSession	一个自动化只能有一个「新会话」Agent
+automations.agentTypeOptionLocked	创建后不能切换到此 Agent 类型。复制此自动化以更改。
+automations.agentTypeRemediate	修复
+automations.agentTypeRemediateDescription	排查每个发现项并创建 PR
+automations.agentTypeThreatScan	威胁扫描
+automations.agentTypeThreatScanDescription	扫描新发布的威胁
+automations.agentTypeWatchingSlackChannel	此自动化正在监听一个 Slack 频道。要使用此 Agent 类型，请移除「监听频道」触发器。
+automations.all	全部
+automations.allActionsMustHaveType	所有操作必须有类型
+automations.allJiraProjects	全部项目
+automations.allPublicChannels	全部公开频道
+automations.allTriggersMustHaveType	所有触发器必须有事件类型
+automations.allowAllLinkedUsers	允许非本组织的 Devin 用户
+automations.allowAllLinkedUsersHint	关闭时，已关联用户也需要在此 Devin 组织中有启动会话的权限。
+automations.allowChildSessions	允许自动启动子会话
+automations.allowChildSessionsDescription	会话可以在不经你批准的情况下自动派生子会话
+automations.allowExternalSlackReplies	允许
+automations.allowExternalSlackRepliesDescription	组织外人员的回复会被转发到此自动化的会话，这使其暴露于提示词注入风险。
+automations.allowExternalSlackRepliesTitle	允许外部 Slack 用户的回复？
+automations.analytics	分析
+automations.and	和
+automations.appMentionedManageServiceUsers	管理服务用户
+automations.appMentionedNeedsServiceUserApp	以安装了 Slack 应用的服务用户身份运行此自动化（设置 > Devin API > 服务用户）
+automations.appMentionedServiceUserNoApp	此服务用户还没有 Slack 应用（设置 > Devin API > 服务用户）
+automations.appMentionedSetUpSlackApp	设置 Slack 应用
+automations.apply	应用
+automations.askAdminToConnectToUseTrigger	{{source}} 对整个账户只需连接一次。请让管理员连接 {{source}} 以使用此触发器。
+automations.askAdminToUpdateChannelMappings	请让你的企业管理员更新此组织的频道映射。
+automations.askEnterpriseAdminMapping	请让企业管理员更新映射。
+automations.attachedToTriggeringThread	附加到触发它的 Slack 线程
+automations.autoCreate	自动创建会话
+automations.autoCreateSessionOption	创建新会话
+automations.autoCreateSessionOptionDescription	为自动化创建长驻目标会话
+automations.automation	自动化
+automations.automationActions	自动化操作
+automations.automationCreated	自动化创建成功
+automations.automationDeleted	自动化删除成功
+automations.automationLinkLabel	自动化
+automations.automationLoadError	无法加载此自动化。
+automations.automationNamePlaceholder	自动化名称
+automations.automationNotFound	此自动化不存在、已被删除或对你不可见。
+automations.automationTitle	自动化
+automations.automationTriggered	自动化已触发
+automations.automationUnavailable	对你不可见
+automations.automationUpdated	自动化更新成功
+automations.automationsLoadError	无法加载自动化。
+automations.azureDevopsPublicProjectWarning	出于安全原因，来自公开 Azure DevOps 项目中仓库的事件不会触发自动化。
+automations.batchMaxSize	批次大小
+automations.batchMaxSizeDescription	每次运行的事件数，2 到 100；满批立即运行
+automations.batchTimeout	批次超时（秒）
+automations.batchTimeoutDescription	第一个事件在部分批次运行前的最长等待时间，1 到 3600
+automations.batching	启用批处理
+automations.batchingDescription	收集匹配的事件并在一次运行中统一处理。自动化创建后此项不可更改
+automations.batchingLockedDescription	匹配的事件会被收集并在一次运行中统一处理。批处理不可关闭，此自动化的触发器、操作、回复和 Preflight 检查均不可更改
+automations.binaryFileNotPreviewable	二进制文件无法预览或编辑。
+automations.bitbucketDataCenterPublicRepoWarning	出于安全原因，来自公开 Bitbucket Data Center 仓库或项目的事件不会触发自动化。
+automations.blockedByProfile	已阻止
+automations.blockedByProfileTooltip	被管控安全档案所禁止——会话将无法到达此目标
+automations.boardIssues.empty	还没有工单。此自动化第一次发现新问题时 Devin 会在此提交。
+automations.boardIssues.filters.menuLabel	排序与筛选
+automations.boardIssues.filters.priorityCount	{{count}} 个优先级
+automations.boardIssues.filters.reset	重置
+automations.boardIssues.filters.sort	排序
+automations.boardIssues.filters.sortDefault	默认顺序
+automations.boardIssues.filters.sortFirstSeen	首次出现
+automations.boardIssues.filters.sortLastSeen	最近出现
+automations.boardIssues.filters.statusAll	全部问题
+automations.boardIssues.filters.statusOpen	未结问题
+automations.boardIssues.firstSeen	首次出现
+automations.boardIssues.heading	问题
+automations.boardIssues.latestSeen	最近出现
+automations.boardIssues.noFilterMatches	没有符合这些筛选的工单。
+automations.boardIssues.noMatches	没有匹配你搜索的工单。
+automations.boardIssues.occurrences	发生次数
+automations.boardIssues.priority	优先级
+automations.boardIssues.showLess	收起
+automations.boardIssues.showMore	展开更多
+automations.boardIssues.status	状态
+automations.boardIssues.summary	{{issues}} 个工单 · {{occurrences}} 次发生
+automations.boardIssues.unknownStatus	未知
+automations.booleanFalse	false
+automations.booleanOff	关
+automations.booleanOn	开
+automations.booleanTrue	true
+automations.botFromAutomationCreated	已创建 {{botName}}「{{name}}」
+automations.botFromAutomationDescription	自动分诊自动化现在归此 {{botName}} 所有，并继续按原方式运行。
+automations.botFromAutomationFailed	无法由此自动化创建 {{botName}}
+automations.browseFiles	浏览文件
+automations.builtIn	内置
+automations.byUser	来自 {{name}}
+automations.cancel	取消
+automations.canceledCount_one	已取消 {{count}} 项
+automations.canceledCount_other	已取消 {{count}} 项
+automations.categoryCicdRelease	CI/CD 与发布
+automations.categoryMonitoringTriage	监控与分诊
+automations.categoryProjectManagement	项目管理
+automations.categorySecurity	安全
+automations.changeListFootnote	仅显示有变更的设置。打开侧边栏中的卡片可查看完整对比。
+automations.changed	已变更
+automations.changedCount_one	{{count}} 项已变更
+automations.changedCount_other	{{count}} 项已变更
+automations.changes_one	{{count}} 处变更
+automations.changes_other	{{count}} 处变更
+automations.channel	频道
+automations.channelAlreadyMonitored	此频道已由另一个分诊 Devin 监听
+automations.channelCountWithDms_one	{{count}} 个频道 + 私聊
+automations.channelCountWithDms_other	{{count}} 个频道 + 私聊
+automations.channelCount_one	{{count}} 个频道
+automations.channelCount_other	{{count}} 个频道
+automations.channelNoLongerMapped	频道不再映射
+automations.channelNoLongerMappedTooltip	此自动化监听的频道已不再映射到此组织。请让企业管理员更新频道映射。
+automations.channelNotAvailableTooltip	此频道不可用。邀请 @Devin 进入该频道，或另选一个。
+automations.childSessionsAllowedWithoutApproval	允许子会话不经批准
+automations.clearAllFilters	清除所有筛选
+automations.clearChannel	清除频道
+automations.clearFilter	清除筛选
+automations.close	关闭
+automations.closeSearch	关闭搜索
+automations.codeScanTarget	扫描
+automations.codeScanTargetDescription	启动新扫描或对现有扫描的新提交进行扫描
+automations.codeStep.allSecretsSection	全部机密
+automations.codeStep.cancel	取消
+automations.codeStep.clearState	清除状态
+automations.codeStep.clearStateConfirm	清除状态
+automations.codeStep.clearStateConfirmBody	下次运行将把每个条目视为新条目，可启动的会话数直至每次运行上限
+automations.codeStep.clearStateConfirmInputLabel	输入「{{word}}」以确认
+automations.codeStep.clearStateConfirmTitle	清除状态与去重历史？
+automations.codeStep.closeRunDetails	关闭
+automations.codeStep.configLoadError	无法加载已保存的 Preflight 检查配置。
+automations.codeStep.contractBody	$EVENT_FILE     触发事件（只读 JSON）\n$STATE_FILE     你的持久 JSON，≤64KB，跨运行保留\n$LAST_RUN_FILE  你上次发出的条目的处理结果\n                （只读）：{"items": [{"key", "status", "session_id"}]}\n$OUTPUT_FILE    你的决定——退出前必须写入：\n  {"run": true}                     进入会话阶段\n  {"run": false, "reason": "..."}   跳过本次运行\n  {"items": [{...}, {...}]}         每个条目一个会话\n条目上限每次运行 10 个（最多 50 个）；多余的下次运行。\n条目的 "id" 是一个工作单元而非实体："INC-1" 只运行一次。\n加上 "version"（如上游的 updated_at）可让重开的条目算新工作。\n会话失败的条目会被释放并可再次运行。
+automations.codeStep.contractInfo	脚本契约
+automations.codeStep.copyLogs	复制
+automations.codeStep.discardLocalDraft	放弃本地草稿
+automations.codeStep.done	完成
+automations.codeStep.downloadLogs	下载
+automations.codeStep.editScript	编辑脚本
+automations.codeStep.editScriptTitle	编辑脚本
+automations.codeStep.egressWarning	脚本只能使用在此选择的机密。
+automations.codeStep.environment	环境
+automations.codeStep.environmentDescription	脚本执行位置
+automations.codeStep.loadingConfig	正在加载已保存的 Preflight 检查配置…
+automations.codeStep.minimalEnvironment	最小环境
+automations.codeStep.noEventsPreflight	脚本将在下一次触发时运行——或用「立即运行」马上触发一次。
+automations.codeStep.noEventsYetHeading	还没有事件
+automations.codeStep.noMatchingSecrets	没有匹配你搜索的机密。
+automations.codeStep.noOrgSecrets	你的组织还没有机密。
+automations.codeStep.noSecretsAttached	此 Preflight 检查没有附加组织机密。
+automations.codeStep.noSecretsSelected	未选择
+automations.codeStep.orgSecretMissingTag	已不存在——保存时会移除
+automations.codeStep.orgSecretTag	组织机密
+automations.codeStep.orgSecretsLoadError	无法加载组织机密。
+automations.codeStep.orgSecretsLoading	正在加载组织机密…
+automations.codeStep.previewBreakdownDeferred_one	超出 {{cap}} 上限而推迟 {{count}} 项
+automations.codeStep.previewBreakdownDeferred_other	超出 {{cap}} 上限而推迟 {{count}} 项
+automations.codeStep.previewBreakdownDropped_one	超出上限而丢弃 {{count}} 项
+automations.codeStep.previewBreakdownDropped_other	超出上限而丢弃 {{count}} 项
+automations.codeStep.previewBreakdownDuplicates_one	{{count}} 项已处理过
+automations.codeStep.previewBreakdownDuplicates_other	{{count}} 项已处理过
+automations.codeStep.requestError	出错了。请稍后再试。
+automations.codeStep.retry	重试
+automations.codeStep.runAsSecretUnavailableTag	对运行身份用户不可用
+automations.codeStep.runBadgeFailed	失败
+automations.codeStep.runBadgeRan	已运行
+automations.codeStep.runBadgeRunning	运行中…
+automations.codeStep.runBadgeSkipped	已跳过
+automations.codeStep.runBadgeStale	停止上报
+automations.codeStep.runBadgeValidationFailed	校验失败

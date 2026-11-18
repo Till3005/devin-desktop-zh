@@ -1,0 +1,200 @@
+settings.pages.azureDevops.disconnectServicePrincipal	断开 service principal
+settings.pages.azureDevops.documentation	文档
+settings.pages.azureDevops.failedConnectAzureDevops	连 Azure DevOps 失败
+settings.pages.azureDevops.failedConnectServicePrincipal	连 service principal 失败
+settings.pages.azureDevops.failedDisconnectAzureDevops	断开 Azure DevOps 失败
+settings.pages.azureDevops.failedDisconnectServicePrincipal	断开 service principal 失败
+settings.pages.azureDevops.failedReconnectAzureDevops	重连 Azure DevOps 失败
+settings.pages.azureDevops.failedStartAzureAppInstallation	启动 Azure 应用安装失败
+settings.pages.azureDevops.general	常规
+settings.pages.azureDevops.manageAccess	管访问
+settings.pages.azureDevops.noOrganizationIdFound	找不到组织 ID
+settings.pages.azureDevops.organizationName	组织名
+settings.pages.azureDevops.organizationNamePlaceholder	contoso
+settings.pages.azureDevops.reRunAzureDevopsOauthFlow	为此连接重跑 Azure DevOps OAuth 流
+settings.pages.azureDevops.reconnect	重连
+settings.pages.azureDevops.reconnectWithServicePrincipal	用 service principal 重连
+settings.pages.azureDevops.removeConnectionFromOrganization	从你组织移除此连接
+settings.pages.azureDevops.removingAzureDevopsConnection	正在移除 Azure DevOps 连接
+settings.pages.azureDevops.removingServicePrincipalConfiguration	正在移除 service principal 配置
+settings.pages.azureDevops.repositories	仓库
+settings.pages.azureDevops.repositoriesAvailableThroughConnection	经此连接可用的仓库
+settings.pages.azureDevops.servicePrincipalActions	Service principal 操作
+settings.pages.azureDevops.servicePrincipalConnectedSuccessfully	Service principal 连接成功
+settings.pages.azureDevops.servicePrincipalConnection	service principal
+settings.pages.azureDevops.servicePrincipalDisconnected	Service principal 已断开
+settings.pages.azureDevops.servicePrincipalReconnectedSuccessfully	Service principal 重连成功
+settings.pages.azureDevops.somethingWentWrong	出错了
+settings.pages.azureDevops.step1GoAzureDevopsOrganization	第 1 步：去你的 <lnk>Azure DevOps 组织</lnk>，导航到 Organization Settings → Users → Add Users。把「Cognition Azure DevOps Service Principal」加为用户。
+settings.pages.azureDevops.step2EnterAzureDevopsOrganization	第 2 步：输上一步的 Azure DevOps 组织名，然后连接。
+settings.pages.azureDevops.webhook	Webhook
+settings.pages.azureDevops.youDontHavePermissionManageConnection	你没有管此连接的权限。
+settings.pages.bitbucket.addConnection	加连接
+settings.pages.bitbucket.allowUsersOrRolesManageRepository	允许用户或角色管此连接的仓库权限。
+settings.pages.bitbucket.beta	Beta
+settings.pages.bitbucket.bitbucket	Bitbucket
+settings.pages.bitbucket.bitbucketDisconnectedSuccessfully	Bitbucket 断开成功
+settings.pages.bitbucket.connect	连接
+settings.pages.bitbucket.connectWithBitbucketDataCenter	用 Bitbucket Data Center 连
+settings.pages.bitbucket.dangerZone	危险区
+settings.pages.bitbucket.disconnectConnection	断开连接
+settings.pages.bitbucket.documentation	文档
+settings.pages.bitbucket.failedConnectBitbucket	连 Bitbucket 失败
+settings.pages.bitbucket.failedDisconnectBitbucket	断开 Bitbucket 失败
+settings.pages.bitbucket.general	常规
+settings.pages.bitbucket.manageAccess	管访问
+settings.pages.bitbucket.noOrganizationIdFound	找不到组织 ID
+settings.pages.bitbucket.removeConnectionFromOrganization	从你组织移除此连接
+settings.pages.bitbucket.removingBitbucketConnection	正在移除 Bitbucket 连接
+settings.pages.bitbucket.repositories	仓库
+settings.pages.bitbucket.repositoriesAvailableThroughConnection	经此连接可用的仓库
+settings.pages.bitbucket.somethingWentWrong	出错了
+settings.pages.bitbucket.youDontHavePermissionManageConnection	你没有管此连接的权限。
+settings.pages.enterpriseOrgConnections.integrations	集成
+settings.pages.enterpriseOrgConnections.integrationsManagedEnterpriseSettings	集成在企业设置管
+settings.pages.enterpriseOrgConnections.integrationsManagedEnterpriseSettingsLink	集成在<lnk>企业设置</lnk>管
+settings.pages.enterpriseOrgConnections.integrationsManagedPersonalSettings	集成在<lnk>个人设置</lnk>管
+settings.pages.gerrit.devinBot	devin-bot
+settings.pages.gerrit.gerrit	Gerrit
+settings.pages.gitLab.add	加
+settings.pages.gitLab.addConnection	加连接
+settings.pages.gitLab.addRepositoryConnectionByUrl	按 URL 加仓库到此连接
+settings.pages.gitLab.advanced	高级
+settings.pages.gitLab.allowUsersOrRolesManageRepository	允许用户或角色管此连接的仓库权限。
+settings.pages.gitLab.automaticallyRotateConnectionsToken	自动轮换此连接的 token
+settings.pages.gitLab.beta	Beta
+settings.pages.gitLab.configure	配置
+settings.pages.gitLab.configureMrAuthor	配置 MR 作者
+settings.pages.gitLab.configureWebhookConnection	配置此连接的 webhook
+settings.pages.gitLab.connect	连接
+settings.pages.gitLab.connectSelfHostedInstance	连自托管实例
+settings.pages.gitLab.connectServiceAccount	连服务账户
+settings.pages.gitLab.dangerZone	危险区
+settings.pages.gitLab.disable	禁用
+settings.pages.gitLab.disableAutomaticTokenRotationBeforeManually	手动轮换此 token 前先禁自动轮换。
+settings.pages.gitLab.disablingGitlabTokenAutoRotation	正在禁 GitLab token 自动轮换…
+settings.pages.gitLab.disconnectConnection	断开连接
+settings.pages.gitLab.documentation	文档
+settings.pages.gitLab.enable	启用
+settings.pages.gitLab.enablingGitlabTokenAutoRotation	正在开 GitLab token 自动轮换…
+settings.pages.gitLab.enterpriseBadge	企业
+settings.pages.gitLab.failedUpdateTokenAutoRotation	更新 GitLab token 自动轮换失败
+settings.pages.gitLab.general	常规
+settings.pages.gitLab.gitlabGitlabCom	GitLab（gitlab.com）
+settings.pages.gitLab.gitlabHost	GitLab（{{host}}）
+settings.pages.gitLab.gitlabTokenAutoRotationDisabled	GitLab token 自动轮换已禁
+settings.pages.gitLab.gitlabTokenAutoRotationEnabled	GitLab token 自动轮换已开
+settings.pages.gitLab.manageAccess	管访问
+settings.pages.gitLab.manageApps	管应用
+settings.pages.gitLab.manualRepositories	手动仓库
+settings.pages.gitLab.manuallyAddRepo	手动加仓库
+settings.pages.gitLab.reRunGitlabOauthFlowConnection	为此连接重跑 GitLab OAuth 流
+settings.pages.gitLab.reconnect	重连
+settings.pages.gitLab.registerApp	注册应用
+settings.pages.gitLab.removeConnectionFromOrganization	从你组织移除此连接
+settings.pages.gitLab.replaceConnectionsAccessToken	替换此连接的 access token
+settings.pages.gitLab.repositories	仓库
+settings.pages.gitLab.repositoriesAvailableThroughConnection	经此连接可用的仓库
+settings.pages.gitLab.rotate	轮换
+settings.pages.gitLab.rotateToken	轮换 token
+settings.pages.gitLab.selfHostedSetupGuide	自托管设置指南
+settings.pages.gitLab.tokenAutoRotation	Token 自动轮换
+settings.pages.gitLab.webhook	Webhook
+settings.pages.gitLab.youDontHavePermissionManageConnection	你没有管此连接的权限。
+settings.pages.github.addConnection	加连接
+settings.pages.github.addGithubAccount	加 GitHub 账户
+settings.pages.github.addOrRemoveRepositories	加或移除仓库
+settings.pages.github.addOrganization	加到此组织
+settings.pages.github.advanced	高级
+settings.pages.github.allowUsersOrRolesManageRepository	允许用户或角色管此连接的仓库权限。
+settings.pages.github.back	返回
+settings.pages.github.beforeAddingPatDoubleCheckToken	加 PAT 前，再查你 token 时长和权限范围。
+settings.pages.github.beta	Beta
+settings.pages.github.cliTokenHost	CLI token · {{host}}
+settings.pages.github.cliTokensHaveLimitedFunctionalityDevin	CLI token 功能受限——Devin Review 等功能不可用。断开此 CLI token 并装 GitHub App 拿全功能。
+settings.pages.github.configurePrAuthor	配置 PR 作者
+settings.pages.github.connect	连接
+settings.pages.github.connectGithubOrganization	连 GitHub 组织
+settings.pages.github.connectUsingGithubAccount	用你 GitHub 账户连
+settings.pages.github.connectUsingGithubPat	用 GitHub PAT 连
+settings.pages.github.connectedAnotherDevinAccount	已连另一个 Devin 账户
+settings.pages.github.connectedToNamed	已连 {{name}}
+settings.pages.github.connectedToNamedRich	已连 <name>{{name}}</name>
+settings.pages.github.connecting	连接中…
+settings.pages.github.connectionType	连接类型
+settings.pages.github.createNewOrganization	建新组织？
+settings.pages.github.createNewOrganization2	建新组织
+settings.pages.github.dangerZone	危险区
+settings.pages.github.disconnectConnection	断开连接
+settings.pages.github.documentation	文档
+settings.pages.github.eGGithubPat1234567890	如：github_pat_1234567890
+settings.pages.github.eGGithubYourcompanyCom	如：github.yourcompany.com
+settings.pages.github.enterpriseGithubPatSuccessfullyAdded	Enterprise GitHub PAT 添加成功。
+settings.pages.github.enterprisePat	企业 PAT
+settings.pages.github.failedConnectGithubOrganization	连 GitHub 组织失败
+settings.pages.github.failedLoadOrganizations	加载组织失败
+settings.pages.github.general	常规
+settings.pages.github.githubAccount	GitHub 账户
+settings.pages.github.githubAdminPermissionsRequired	需 GitHub 管理员权限
+settings.pages.github.githubAdminPermissionsRequiredConnectedtext	需 GitHub 管理员权限。{{connectedText}}
+settings.pages.github.githubEnterpriseApp	GitHub Enterprise 应用
+settings.pages.github.githubGhesHost	GitHub（{{ghes_host}}）
+settings.pages.github.hostname	主机名
+settings.pages.github.installRegisteredAppGithubEnterpriseInstance	在 GitHub Enterprise 实例装已注册应用
+settings.pages.github.installation	安装
+settings.pages.github.learnMoreLinkingGithubOrgs	了解链 GitHub 组织
+settings.pages.github.manage	管理
+settings.pages.github.manageAccess	管访问
+settings.pages.github.manageApps	管应用
+settings.pages.github.manageWhichRepositoriesInstalledGithub	管哪些仓库装到 GitHub
+settings.pages.github.nameReference	名称（供你参考）
+settings.pages.github.or	或
+settings.pages.github.organizationIdNotFound	找不到组织 ID
+settings.pages.github.patHost	PAT · {{host}}
+settings.pages.github.patName	PAT 名
+settings.pages.github.refresh	刷新
+settings.pages.github.refreshConnection	刷新连接
+settings.pages.github.registerApp	注册应用
+settings.pages.github.removeConnectionFromOrganization	从你组织移除此连接
+settings.pages.github.repositories	仓库
+settings.pages.github.repositoriesAvailableThroughConnection	经此连接可用的仓库
+settings.pages.github.thereWasErrorLoadingGithubOrganizations	加载你 GitHub 组织出错。请重试。
+settings.pages.github.theseGithubOrganizationsAlreadyConnectedDevin	这些 GitHub 组织已连一个 Devin 账户。先从 GitHub 断开再链到新账户。<lnk>了解更多</lnk>
+settings.pages.github.token	Token
+settings.pages.github.updatePersonalAccessTokenConnection	更新此连接的个人访问令牌
+settings.pages.github.weSuggestKeepingGithubConnectionsSeparate	建议把 GitHub 连接放在不同组织，干净管成员和权限。
+settings.pages.github.youDontHavePermissionManageConnection	你没有管此连接的权限。
+settings.pages.orgIntegrationsRedesign.configure	配置
+settings.pages.orgIntegrationsRedesign.connected	已连
+settings.pages.orgIntegrationsRedesign.loading	加载中…
+settings.pages.orgIntegrationsRedesign.missingConfiguration	缺配置
+settings.pages.orgIntegrationsRedesign.missingWebhook	缺 webhook
+settings.pages.orgIntegrationsRedesign.needsReAuthorization	需重新授权
+settings.pages.orgIntegrationsRedesign.notConnected	未连
+settings.pages.orgIntegrationsRedesign.userNotLinked	用户未链
+settings.pages.perforce.addConnection	加连接
+settings.pages.perforce.connect	连接
+settings.pages.perforce.failedDisconnectPerforce	断开 Perforce 失败
+settings.pages.perforce.giveDevinScopedAccessPerforceDepot	给 Devin 作用域内的 Perforce depot 路径访问
+settings.pages.perforce.perforce	Perforce
+settings.pages.perforce.perforceDisconnectedSuccessfully	Perforce 断开成功
+settings.pages.perforce.removingPerforceConnection	正在移除 Perforce 连接
+settings.patPolicies	PAT 策略
+settings.patProvision.cancel	取消
+settings.patProvision.createToken	建 token
+settings.patProvision.creating	创建中…
+settings.patProvision.descCreate	用你账户权限认证 Devin API
+settings.patProvision.descRequest	管理员会审你的申请
+settings.patProvision.enterName	Token 名为必填项
+settings.patProvision.expiration	过期
+settings.patProvision.expirationDays_one	{{count}} 天
+settings.patProvision.expirationDays_other	{{count}} 天
+settings.patProvision.namePlaceholder	如：CI/CD 流水线、本地开发
+settings.patProvision.never	永不
+settings.patProvision.policyFailed	加载 token 策略失败。
+settings.patProvision.policyLoading	加载 token 策略中…
+settings.patProvision.submitRequest	提交申请
+settings.patProvision.submitting	提交中…
+settings.patProvision.titleCreate	建个人访问令牌
+settings.patProvision.titleRequest	申请个人访问令牌
+settings.patProvision.tokenName	Token 名

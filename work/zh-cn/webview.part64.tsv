@@ -1,0 +1,243 @@
+resourceCollections.resourceCanConfigure	可配置
+resourceCollections.resourceCanConfigureDescription	可编辑此资源
+resourceCollections.resourceCanShare	可共享
+resourceCollections.resourceCanShareDescription	可管理谁能访问此资源
+resourceCollections.resourceCanUse	可使用
+resourceCollections.resourceCanUseDescription	可在会话中用此资源
+resourceCollections.resourceConfigureVerb	配置
+resourceCollections.resourceCount_one	{{count}} 个资源
+resourceCollections.resourceCount_other	{{count}} 个资源
+resourceCollections.resourceInheritedDescription	从角色、组或集合继承的访问
+resourceCollections.resourceRemoveSelfError	你不能移除自己的访问
+resourceCollections.resourceShareSearchPlaceholder	搜索用户或组
+resourceCollections.resourceShareVerb	共享
+resourceCollections.resourceTypeColumn	资源类型
+resourceCollections.resourceUseVerb	使用
+resourceCollections.resourcesDeleted_one	已删 {{count}} 个资源
+resourceCollections.resourcesDeleted_other	已删 {{count}} 个资源
+resourceCollections.resourcesFilter	资源
+resourceCollections.saveChanges	保存
+resourceCollections.saveFailed	保存集合失败
+resourceCollections.saved	集合已保存
+resourceCollections.searchResources	搜索资源
+resourceCollections.searchResourcesPlaceholder	搜索资源
+resourceCollections.secretCreated	机密已创建
+resourceCollections.selectAll	全选 {{count}} 个
+resourceCollections.selectAllFailed	无法全选。请重试
+resourceCollections.selectAllLimit	全选最多作用于 {{max}} 个资源
+resourceCollections.serviceUserTokenCopied	已复制
+resourceCollections.serviceUserTokenCopy	复制
+resourceCollections.serviceUserTokenCopyFailed	复制令牌失败
+resourceCollections.serviceUserTokenDescription	复制此令牌并安全存放。它只显示一次。
+resourceCollections.serviceUserTokenDone	完成
+resourceCollections.serviceUserTokenTitle	服务用户令牌
+resourceCollections.share	共享
+resourceCollections.shareCollectionLabel	集合
+resourceCollections.shareDescription	选能访问 {{name}} 的用户和组
+resourceCollections.shareLimit	一次最多共享 {{max}} 个
+resourceCollections.shareSkipped_one	跳过 {{count}} 个你不能共享的资源。
+resourceCollections.shareSkipped_other	跳过 {{count}} 个你不能共享的资源。
+resourceCollections.sharedThroughCollection	通过集合 {{collection}} 共享
+resourceCollections.sort.name_asc	名称 A–Z
+resourceCollections.sort.name_desc	名称 Z–A
+resourceCollections.sort.type_asc	类型 A–Z
+resourceCollections.sort.type_desc	类型 Z–A
+resourceCollections.sort.updated_desc	最近更新
+resourceCollections.sortBy	排序
+resourceCollections.tabGeneral	常规
+resourceCollections.tabManageAccess	管理访问
+resourceCollections.tabResources	资源
+resourceCollections.types.mcp	MCP 服务器
+resourceCollections.types.mcpAuthorization	MCP 授权
+resourceCollections.types.playbook	Playbook
+resourceCollections.types.plugin	插件
+resourceCollections.types.secret	机密
+resourceCollections.types.serviceUser	服务用户
+rolePermissions.automations.create	创建 Unified 模式自动化
+rolePermissions.automations.createDescription	在 Unified 模式建自动化
+rolePermissions.billingTags.group	计费标签权限
+rolePermissions.billingTags.manage	管理计费标签
+rolePermissions.billingTags.manageDescription	全部使用权限加创建、编辑和删除计费标签
+rolePermissions.billingTags.use	使用计费标签
+rolePermissions.billingTags.useDescription	全部查看权限加给会话打计费标签
+rolePermissions.billingTags.view	查看计费标签
+rolePermissions.billingTags.viewDescription	查看计费标签及其用量（只读）
+rolePermissions.environments.create	创建环境
+rolePermissions.environments.createDescription	在企业里建新环境
+rolePermissions.folders.create	创建资源集合
+rolePermissions.folders.createDescription	在 Unified 模式建新资源集合
+rolePermissions.groupNames.accountDataPermissions	账户数据权限
+rolePermissions.groupNames.accountPermissions	账户权限
+rolePermissions.groupNames.accountStatsPermissions	账户统计权限
+rolePermissions.groupNames.accountUsagePermissions	账户用量权限
+rolePermissions.groupNames.agentReadinessPermissions	Agent 就绪度权限
+rolePermissions.groupNames.codeScanPermissions	代码扫描权限
+rolePermissions.groupNames.desktopCli	{{productName}} + Devin CLI 权限
+rolePermissions.groupNames.devinReviewAccess	Devin Review 访问
+rolePermissions.groupNames.devinReviewPermissions	Devin Review 权限
+rolePermissions.groupNames.integrationPermissions	集成权限
+rolePermissions.groupNames.organizationDataPermissions	组织数据权限
+rolePermissions.groupNames.organizationPermissions	组织权限
+rolePermissions.groupNames.organizationResourcePermissions	组织资源权限
+rolePermissions.groupNames.organizationStatsPermissions	组织统计权限
+rolePermissions.groupNames.organizationUsagePermissions	组织用量权限
+rolePermissions.groupNames.outpostPermissions	Outpost 权限
+rolePermissions.groupNames.securityProfilePermissions	安全配置权限
+rolePermissions.groupNames.securityScanPermissions	安全扫描权限
+rolePermissions.groupNames.sessionCategoriesPermissions	会话分类权限
+rolePermissions.groupNames.usagePermissions	用量权限
+rolePermissions.groups.create	创建组
+rolePermissions.groups.createDescription	在账户里建组
+rolePermissions.managedWebhooks.group	入站 webhook 权限
+rolePermissions.managedWebhooks.manage	管理入站 webhook
+rolePermissions.managedWebhooks.manageDescription	创建、编辑、启停和删除企业入站 webhook 及其共享密钥
+rolePermissions.managedWebhooks.manageTriggerPolicies	管理触发策略
+rolePermissions.managedWebhooks.manageTriggerPoliciesDescription	定每个组织可用哪些自动化触发源，并把策略分给组织
+rolePermissions.oncall.group	Oncall 权限
+rolePermissions.oncall.manage	管理 Oncall
+rolePermissions.oncall.manageDescription	全部查看权限加设置 Oncall，停止、恢复和删除事件，及创建、编辑和删除 responder、事件设置和报告
+rolePermissions.oncall.view	查看 Oncall
+rolePermissions.oncall.viewDescription	查看 responder、事件、报告和 Oncall 设置（只读）
+rolePermissions.options.accessAllOrganizations	访问全部组织
+rolePermissions.options.accessAllOrganizationsDescription	访问企业里全部组织，即使没有直接成员身份。部分功能可能不可用——要完整访问请直接加入组织
+rolePermissions.options.allReviewModes	全部分析模式
+rolePermissions.options.allReviewModesDescription	在此组织用全部分析模式。账户级访问自动继承。
+rolePermissions.options.createGitIntegrations	创建 Git 集成
+rolePermissions.options.createGitIntegrationsDescription	建新 Git 集成
+rolePermissions.options.createUnifiedModeSessions	创建 Unified 模式会话
+rolePermissions.options.createUnifiedModeSessionsDescription	在 Unified 模式开会话。不影响在组织里建的会话。
+rolePermissions.options.createUserGroups	创建用户组
+rolePermissions.options.createUserGroupsDescription	建用户组并管理你建的那些
+rolePermissions.options.desktopCliAdmin	{{productName}} + Devin CLI 管理员
+rolePermissions.options.desktopCliAdminDescription	允许用户改 {{productName}} + Devin CLI 用量的组织设置
+rolePermissions.options.impersonateAccountSessions	扮演账户会话
+rolePermissions.options.impersonateAccountSessionsDescription	代表企业里其他用户建 Devin 会话。此角色仅适用于服务用户。
+rolePermissions.options.impersonateSessions	扮演会话
+rolePermissions.options.impersonateSessionsDescription	代表组织里其他用户建 Devin 会话。此角色仅适用于服务用户。
+rolePermissions.options.indexAccountRepositories	索引账户仓库
+rolePermissions.options.indexAccountRepositoriesDescription	为其所属组织跨组织索引仓库供搜索和 wiki 生成
+rolePermissions.options.indexRepositories	索引仓库
+rolePermissions.options.indexRepositoriesDescription	索引仓库供搜索和 wiki 生成
+rolePermissions.options.manageAccountApiKeys	管理账户 API key
+rolePermissions.options.manageAccountApiKeysDescription	在企业及其所属组织创建/编辑/删除/用 API key
+rolePermissions.options.manageAccountBots	管理全企业 {{botNamePlural}}
+rolePermissions.options.manageAccountBotsDescription	共享、归档和删除每个组织里任何 {{botName}}，但不看其对话
+rolePermissions.options.manageAccountMcpServers	管理账户 MCP 服务器
+rolePermissions.options.manageAccountMcpServersDescription	跨其所属组织创建/编辑/删除 MCP 服务器
+rolePermissions.options.manageAccountMembership	管理账户成员
+rolePermissions.options.manageAccountMembershipDescription	对用户可访问的组织查看/创建/编辑/删除企业+组织成员
+rolePermissions.options.manageAccountResources	管理账户资源
+rolePermissions.options.manageAccountResourcesDescription	跨其所属组织创建/编辑/删除 playbook、机密、知识和自动化
+rolePermissions.options.manageAccountServiceUsers	管理账户服务用户
+rolePermissions.options.manageAccountServiceUsersDescription	在企业级管理服务用户的 API key
+rolePermissions.options.manageAccountSessions	管理账户会话
+rolePermissions.options.manageAccountSessionsDescription	编辑和查看企业里其他用户的 Devin 会话
+rolePermissions.options.manageAcuLimits	管理 ACU 上限
+rolePermissions.options.manageAcuLimitsDescription	管理 ACU 上限档位和策略，批准提额申请
+rolePermissions.options.manageAgentReadiness	管理 agent 就绪度
+rolePermissions.options.manageAgentReadinessDescription	全部使用权限加为准则启动修复会话
+rolePermissions.options.manageApiKeys	管理 API key
+rolePermissions.options.manageApiKeysDescription	创建/删除/用 API key
+rolePermissions.options.manageAutomations	管理自动化
+rolePermissions.options.manageAutomationsDescription	创建/编辑/删除自动化，看其调用，看/发消息给它们建的会话
+rolePermissions.options.manageBilling	管理计费
+rolePermissions.options.manageBillingDescription	编辑企业的消费上限
+rolePermissions.options.manageBots	管理 {{botNamePlural}}
+rolePermissions.options.manageBotsDescription	共享、归档和删除组织里任何 {{botName}}，但不看其对话
+rolePermissions.options.manageChatIntegrations	管理聊天集成
+rolePermissions.options.manageChatIntegrationsDescription	创建/编辑/删除聊天集成如 Microsoft Teams 或 Slack
+rolePermissions.options.manageCodeScanFindings	管理代码扫描发现项
+rolePermissions.options.manageCodeScanFindingsDescription	看代码扫描、分诊发现项并把发现项派给 Devin
+rolePermissions.options.manageCodeScans	管理代码扫描
+rolePermissions.options.manageCodeScansDescription	全部使用权限加归档代码扫描
+rolePermissions.options.manageDevinReview	管理 Devin Review
+rolePermissions.options.manageDevinReviewDescription	允许用户改企业的 Devin Review 设置
+rolePermissions.options.manageEnterpriseBlueprints	管理企业 blueprint
+rolePermissions.options.manageEnterpriseBlueprintsDescription	跨企业创建/编辑/删除 blueprint 和快照
+rolePermissions.options.manageEnterpriseKnowledge	管理企业知识
+rolePermissions.options.manageEnterpriseKnowledgeDescription	创建/编辑/删除企业知识
+rolePermissions.options.manageEnterprisePlaybooks	管理企业 playbook
+rolePermissions.options.manageEnterprisePlaybooksDescription	创建/编辑/删除企业 playbook
+rolePermissions.options.manageEnterprisePlugins	管理企业插件
+rolePermissions.options.manageEnterprisePluginsDescription	安装/编辑/移除企业插件和技能
+rolePermissions.options.manageEnterpriseSettings	管理企业设置
+rolePermissions.options.manageEnterpriseSettingsDescription	查看/编辑企业+组织级设置
+rolePermissions.options.manageGitIntegrations	管理 Git 集成
+rolePermissions.options.manageGitIntegrationsDescription	创建/编辑/删除 Git 集成（GitHub、GitLab、ADO、Bitbucket）
+rolePermissions.options.manageIpWhitelist	管理 IP 白名单
+rolePermissions.options.manageIpWhitelistDescription	查看/编辑企业级 IP 访问列表
+rolePermissions.options.manageKnowledge	管理知识
+rolePermissions.options.manageKnowledgeDescription	创建/编辑/删除组织知识
+rolePermissions.options.manageMcpServers	管理 MCP 服务器
+rolePermissions.options.manageMcpServersDescription	创建/编辑/删除 MCP 服务器
+rolePermissions.options.manageMembership	管理成员
+rolePermissions.options.manageMembershipDescription	加/删用户和组。指派或撤销权限角色
+rolePermissions.options.manageOrgBlueprints	管理组织 blueprint
+rolePermissions.options.manageOrgBlueprintsDescription	创建/编辑/删除组织 blueprint 和快照
+rolePermissions.options.manageOrganizations	管理组织
+rolePermissions.options.manageOrganizationsDescription	查看/创建/编辑/删除企业组织
+rolePermissions.options.managePlaybooks	管理 playbook
+rolePermissions.options.managePlaybooksDescription	创建/编辑/删除组织 playbook
+rolePermissions.options.managePlugins	管理插件
+rolePermissions.options.managePluginsDescription	安装/编辑/移除组织插件和技能
+rolePermissions.options.manageRepoBlueprints	管理仓库 blueprint
+rolePermissions.options.manageRepoBlueprintsDescription	创建/编辑/删除仓库 blueprint
+rolePermissions.options.manageRepositoryPermissions	管理仓库权限
+rolePermissions.options.manageRepositoryPermissionsDescription	为组织创建/编辑/删除仓库权限。隐含查看 Git 集成。
+rolePermissions.options.manageReviewRules	管理分析规则
+rolePermissions.options.manageReviewRulesDescription	用全部分析模式，编辑此组织仓库的自动分析规则和排除项
+rolePermissions.options.manageSchedules	管理计划任务
+rolePermissions.options.manageSchedulesDescription	创建/编辑/删除定时会话
+rolePermissions.options.manageSecrets	管理机密
+rolePermissions.options.manageSecretsDescription	创建/编辑/删除组织机密
+rolePermissions.options.manageSecurityProfiles	管理安全配置
+rolePermissions.options.manageSecurityProfilesDescription	在企业级创建/编辑/删除安全配置
+rolePermissions.options.manageSecurityProfilesOrgDescription	创建/编辑/删除组织安全配置
+rolePermissions.options.manageSecurityScanFindings	管理安全扫描发现项
+rolePermissions.options.manageSecurityScanFindingsDescription	看安全扫描、分诊发现项并把发现项派给 Devin
+rolePermissions.options.manageSecurityScans	管理安全扫描
+rolePermissions.options.manageSecurityScansDescription	全部使用权限加归档安全扫描
+rolePermissions.options.manageServiceUsers	管理服务用户
+rolePermissions.options.manageServiceUsersDescription	创建/删除服务用户
+rolePermissions.options.manageSessionCategories	管理会话分类
+rolePermissions.options.manageSessionCategoriesDescription	在企业级创建/编辑/删除会话分类和子分类
+rolePermissions.options.manageSessions	管理会话
+rolePermissions.options.manageSessionsDescription	编辑和查看组织里其他用户的 Devin 会话。
+rolePermissions.options.manageSettings	管理设置
+rolePermissions.options.manageSettingsDescription	管理组织级设置
+rolePermissions.options.manageTicketIntegrations	管理工单集成
+rolePermissions.options.manageTicketIntegrationsDescription	创建/编辑/删除工单集成如 Jira 或 Linear
+rolePermissions.options.manageTicketProjectMappings	管理工单项目映射
+rolePermissions.options.manageTicketProjectMappingsDescription	把 Jira 项目和 Linear 团队映射到组织。搭配「查看组织」使每个组织都能当目标。由「管理工单集成」隐含。
+rolePermissions.options.manualAndReviewOnPrCreation	手动 + PR 创建时审查
+rolePermissions.options.manualAndReviewOnPrCreationDescription	授此组织 PR 创建时审查；账户级访问自动继承
+rolePermissions.options.manualReviews	手动分析
+rolePermissions.options.manualReviewsDescription	在此组织按需跑分析。账户级访问自动继承。
+rolePermissions.options.outpostsRead	outpost 读
+rolePermissions.options.outpostsReadDescription	列 outpost 并读 outpost 会话队列。
+rolePermissions.options.outpostsWrite	outpost 写
+rolePermissions.options.outpostsWriteDescription	创建/编辑/删除 outpost，领取/释放会话。隐含 outpost 读。
+rolePermissions.options.personalOutposts	个人 outpost
+rolePermissions.options.personalOutpostsDescription	建只有创建者能开会话的个人 outpost。不授账户级 outpost 管理。
+rolePermissions.options.useAccountTools	用账户工具
+rolePermissions.options.useAccountToolsDescription	在其所属组织跨组织用 Devin 会话、Ask Devin 和 DeepWiki
+rolePermissions.options.useAgentReadiness	用 agent 就绪度
+rolePermissions.options.useAgentReadinessDescription	全部查看权限加跑评估
+rolePermissions.options.useAskDevin	用 Ask Devin
+rolePermissions.options.useAskDevinDescription	–
+rolePermissions.options.useBots	用 {{botNamePlural}}
+rolePermissions.options.useBotsDescription	建 {{botNamePlural}} 并用共享给你的
+rolePermissions.options.useCodeScans	用代码扫描
+rolePermissions.options.useCodeScansDescription	全部「管理发现项」权限加启动代码扫描和管理扫描配置
+rolePermissions.options.useDeepwiki	用 DeepWiki
+rolePermissions.options.useDeepwikiDescription	–
+rolePermissions.options.useDevinCli	用 Devin CLI
+rolePermissions.options.useDevinCliDescription	允许用户用 Devin CLI
+rolePermissions.options.useDevinDesktop	用 Devin Desktop
+rolePermissions.options.useDevinDesktopDescription	允许用户用 Devin Desktop
+rolePermissions.options.useDevinExpertFeatures	用 Devin 专家功能
+rolePermissions.options.useDevinExpertFeaturesDescription	访问 MCP 扩展会话的 Devin 专家功能
+rolePermissions.options.useDevinReview	用 Devin Review
+rolePermissions.options.useDevinReviewDescription	手动或自动跑分析，含每次推送时
+rolePermissions.options.useDevinReviewManual	用 Devin Review（手动）
+rolePermissions.options.useDevinReviewManualDescription	看分析结果并对任何 PR 按需跑分析

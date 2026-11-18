@@ -1,0 +1,320 @@
+budgets.moveOrgLosesUserLimits_other	{{count}} 个用户上限将不再作用于其成员。
+budgets.moveOrgsLoseUserLimits_one	{{count}} 个用户上限将不再作用于他们的成员。
+budgets.moveOrgsLoseUserLimits_other	{{count}} 个用户上限将不再作用于他们的成员。
+budgets.name	名称
+budgets.nameRequired	名称为必填项
+budgets.newBudget	新建预算
+budgets.nextChildren	{{name}} 的下一批子级
+budgets.noAccessDescription	你在此账户中没有任何预算的访问权限。
+budgets.noAccessTitle	无预算可显示
+budgets.noMatchesDescription	换个搜索试试。
+budgets.noMatchesTitle	无匹配预算
+budgets.noOrgLinkedDescription	成员上限只作用于关联了组织的预算。把一个预算关联到组织即可在此管理其成员。
+budgets.noOrgLinkedTitle	无关联组织的预算
+budgets.onTrack	正常
+budgets.overBudget	超出预算
+budgets.overallocated	超出 {{amount}}
+budgets.parent	父预算
+budgets.permanentAllocationHelp	留空表示无上限。
+budgets.policyTableError	无法加载用量策略。请重试。
+budgets.previousChildren	{{name}} 的上一批子级
+budgets.projectedToExceed	预计将超出
+budgets.retry	重试
+budgets.retryDescription	重试加载最新设置。
+budgets.save	保存
+budgets.saveError	无法保存预算。请重试。
+budgets.saved	预算已保存
+budgets.searchPlaceholder	搜索预算
+budgets.selectOrganizationRequired	请至少选择一个组织
+budgets.settingsTab	设置
+budgets.spendUtilization	支出使用率
+budgets.statusActive	活跃
+budgets.statusAll	全部
+budgets.statusFilter	按状态筛选预算
+budgets.temporaryAllocationHelp	只作用于当前月度窗口。留空表示清除。
+budgets.temporaryUsageAllocation	临时用量分配
+budgets.title	预算
+budgets.unallocated	低于 {{amount}}
+budgets.unlimitedOverallocation	超出（子级无上限）
+budgets.unlinkOrganization	取消关联
+budgets.userLimitsPreview	这些用户上限尚未生效。<accountLink>全账户用户上限</accountLink>仍然适用。
+budgets.userLimitsPreviewNoAccount	这些用户上限尚未生效。
+buildOutpostImages.description	此构建为开启 blueprint 的 Outpost 池生成的容器镜像。池上的新会话从其镜像启动。
+buildOutpostImages.failed	无镜像
+buildOutpostImages.listBadge	Outpost
+buildOutpostImages.listBadgeTooltip	也已为 {{pools, list}} 构建容器镜像
+buildOutpostImages.pushed	已推送
+buildOutpostImages.title	Outpost 镜像
+buildOutpostImages.unknownFailure	构建没有为此 Outpost 产出镜像。
+buildOutpostImages.viewPool	查看 Outpost
+buildStatusToast.inProgress	新的环境构建进行中。
+buildStatusToast.inProgressShort	构建进行中。
+buildStatusToast.partial	你最近的环境构建部分完成。
+buildStatusToast.partialShort	构建部分完成。
+buildStatusToast.view	查看
+buildStatusToast.viewBuildLogs	查看构建日志
+buildStatusToast.viewProgress	查看进度
+builtInRoles.admin	管理员
+builtInRoles.deepWikiOnly	仅 DeepWiki
+builtInRoles.member	成员
+builtInRoles.reviewManager	审查管理员
+callouts.back	返回
+callouts.done	完成
+callouts.next	下一个
+callouts.skip	跳过
+campaignExplainer.label	确定目标，把目标拆成指标，然后优化指标。指标 1 和 3 上升；指标 2 下降。三者都朝目标改善。
+campaignExplainer.metric	指标 {{number}}
+campaignExplainer.status.improved	已改善
+campaignExplainer.status.improving	改善中
+campaignExplainer.status.target	目标
+campaignExplainer.steps.breakDownGoal	把目标拆成指标
+campaignExplainer.steps.optimizeMetrics	优化指标
+campaignExplainer.steps.specifyGoal	确定目标
+campaigns.panel.budget.acu	{{value}} ACU
+campaigns.panel.budget.approveAndKickOff	批准 {{value}} ACU 并启动
+campaigns.panel.budget.current	当前 {{value}}
+campaigns.panel.budget.edit	编辑预算
+campaigns.panel.budget.footerNote	批准预算即启动 Campaign。
+campaigns.panel.budget.perMonth	ACU / 月
+campaigns.panel.budget.proposed	Devin 提议 {{value}}
+campaigns.panel.budget.save	保存预算
+campaigns.panel.budget.subtitle	Campaign 每月可花的 ACU，分摊到各个杠杆。
+campaigns.panel.budget.title	每月预算
+campaigns.panel.dashboard.budgetUsed	本月已用预算
+campaigns.panel.dashboard.monthElapsed	本月已过 {{pct}}%
+campaigns.panel.dashboard.needsAttention	需要关注
+campaigns.panel.dashboard.noReading	还没有读数
+campaigns.panel.dashboard.noSpend	还没有用量记录
+campaigns.panel.dashboard.onTrack	正常
+campaigns.panel.dashboard.sinceStart	自开始以来 {{change}}
+campaigns.panel.decision.approve	批准
+campaigns.panel.decision.approveAll	全部批准
+campaigns.panel.decision.approveItem	批准 {{item}}
+campaigns.panel.decision.approved	已批准
+campaigns.panel.decision.remove	移除
+campaigns.panel.decision.removeItem	移除 {{item}}
+campaigns.panel.decision.removed	已移除
+campaigns.panel.decision.undo	撤销
+campaigns.panel.decision.undoItem	撤销 {{item}} 的决定
+campaigns.panel.eyebrow	Campaign
+campaigns.panel.goal.approve	批准目标
+campaigns.panel.goal.footerNote	批准目标后 Devin 进入指标阶段。
+campaigns.panel.goal.forming	目标形成中
+campaigns.panel.goal.revise	在聊天中修改
+campaigns.panel.hint.budget	每月 ACU
+campaigns.panel.hint.budgetRunning	已用 {{used}} / {{total}} ACU
+campaigns.panel.hint.goal	Campaign 的目标
+campaigns.panel.hint.levers	推动它们的自动化
+campaigns.panel.hint.leversDrafting	正在为这些指标提议自动化
+campaigns.panel.hint.metrics	衡量它的指标
+campaigns.panel.hint.metricsQuerying	正在从你的数据拉取基线
+campaigns.panel.hint.metricsRunning	{{total}} 中 {{onTrack}} 个正常
+campaigns.panel.kickoff.subtitle	Devin 已开始。读数会陆续落到这里。
+campaigns.panel.kickoff.title	Campaign 已上线
+campaigns.panel.levers.acuPerMonth	约 {{value}} ACU/月
+campaigns.panel.levers.asksFirst	需要你批准
+campaigns.panel.levers.asksFirstHint	Devin 每次运行前都会先问你。
+campaigns.panel.levers.confirm_one	确认 {{count}} 个杠杆
+campaigns.panel.levers.confirm_other	确认 {{count}} 个杠杆
+campaigns.panel.levers.footerNote	你没决定的都算作批准。
+campaigns.panel.levers.removedNote_one	{{count}} 个杠杆将被弃用。
+campaigns.panel.levers.removedNote_other	{{count}} 个杠杆将被弃用。
+campaigns.panel.levers.state.dropped	已弃用
+campaigns.panel.levers.state.manual	手动
+campaigns.panel.levers.subtitle	推动指标的自动化。批准 Devin 可以运行的那些。
+campaigns.panel.live	在线
+campaigns.panel.metrics.chartLabel	{{name}}：{{current}}，目标 {{target}}
+campaigns.panel.metrics.confirm_one	确认 {{count}} 个指标
+campaigns.panel.metrics.confirm_other	确认 {{count}} 个指标
+campaigns.panel.metrics.details	{{name}} 的详情
+campaigns.panel.metrics.footerNote	你没决定的都算作批准。
+campaigns.panel.metrics.pending	正在查询基线…
+campaigns.panel.metrics.removedNote_one	{{count}} 个指标将被弃用。
+campaigns.panel.metrics.removedNote_other	{{count}} 个指标将被弃用。
+campaigns.panel.metrics.singleReading	单次读数
+campaigns.panel.metrics.singleReadingAt	单次读数，测于 {{date}}
+campaigns.panel.metrics.subtitleLoading	Devin 正在为每个指标拉取基线。
+campaigns.panel.metrics.subtitleReady	批准衡量目标的指标，或移除不符的。
+campaigns.panel.metrics.waitingForTargets	等待 Devin 的目标值后才能确认
+campaigns.panel.phase.budget	预算
+campaigns.panel.phase.goal	目标
+campaigns.panel.phase.levers	杠杆
+campaigns.panel.phase.metrics	指标
+campaigns.panel.sampleData	示例数据
+campaigns.panel.saveFailed	无法保存到 Campaign。请重试。
+campaigns.panel.setup	Campaign 设置
+campaigns.panel.slot.awaiting	轮到你了
+campaigns.panel.slot.empty	下一个
+campaigns.panel.slot.running	在线
+campaigns.panel.slot.settled	已批准
+campaigns.panel.slot.working	Devin 工作中
+campaigns.panel.untitled	新 Campaign
+chatSyncConfirm.cancel	取消
+chatSyncConfirm.dontRemindToday	今天不再提醒
+chatSyncConfirm.participantsUnknown	其他人将在 {{channel}} 收到通知
+chatSyncConfirm.participants_one	{{channel}} 中另有 {{countLabel}} 人将收到通知
+chatSyncConfirm.participants_other	{{channel}} 中另有 {{countLabel}} 人将收到通知
+chatSyncConfirm.post	发布
+chatSyncConfirm.title	你的消息将通知 {{provider}} 中的人
+chatgptPlanCta.connect	连接 ChatGPT
+chatgptPlanCta.inbox.body	连接个人 Go、Plus 或 Pro 方案，用其运行受支持的模型而不消耗 Devin 用量。
+chatgptPlanCta.inbox.title	在 Devin 中使用你的 ChatGPT 方案
+checkoutLocally.couldNotOpen	无法打开 Devin Desktop
+checkoutLocally.download	下载 Devin Desktop
+checkoutLocally.mayNotBeInstalled	可能未安装 Devin Desktop。
+checkoutProcessing.activating	正在激活你的方案…
+checkoutProcessing.checkAgain	再查一次
+checkoutProcessing.contactSupport	联系支持
+checkoutProcessing.duplicateEmail	此邮箱已用于试用。请换一个邮箱或联系支持。
+checkoutProcessing.duplicateOrg	此组织已用过试用。请选择付费方案或联系支持。
+checkoutProcessing.duplicatePayment	此支付方式已用于试用。请换一张卡或联系支持。
+checkoutProcessing.duplicateUser	你已用过试用。请选择付费方案或联系支持。
+checkoutProcessing.paymentBody	你的扣款可能仍在处理。确认后方案会自动激活。你可以几分钟后查一次，仍有问题请联系支持。
+checkoutProcessing.paymentProcessing	支付处理中
+checkoutProcessing.redirecting	正在跳转…
+checkoutProcessing.subscribeWithoutTrial	不试用直接订阅
+checkoutProcessing.trialFailedGeneric	你的试用无法激活。请联系支持。
+checkoutProcessing.trialFailedTitle	试用无法激活
+checkoutProcessing.viewPlans	查看方案
+checkoutProcessing.wait	请稍候，我们正在设置你的账户。
+citationContextMenu.copyPath	复制路径
+citationContextMenu.openContainingFolder	打开所在文件夹
+citationContextMenu.openInEditor	在编辑器中打开
+citiDisclaimer.acknowledgeButton	确认声明
+citiDisclaimer.acknowledgeStatement	继续即表示我已阅读、理解并将遵守上述规则。
+citiDisclaimer.aiWarning	⚠️ 这是基于生成式 AI 的工具——可能出错。任何使用前请确认输出准确性。
+citiDisclaimer.bulkPii	批量 PII——超过 5,000 条个人用户记录，定义见<definitionLink>此处</definitionLink>。
+citiDisclaimer.complianceApprovedPurposes	本系统仅授权用于已批准的业务目的；任何其他用途均被禁止。
+citiDisclaimer.complianceComply	你必须始终遵守这些数据提交规则。
+citiDisclaimer.complianceDisciplinary	未经授权使用本系统或不遵守这些规则可能导致纪律处分。
+citiDisclaimer.complianceMonitored	本系统上的活动将在当地法律允许的范围内被监控和记录。
+citiDisclaimer.complianceMonitoring	合规与监控
+citiDisclaimer.complianceNoProduction	不授权将本系统或其输出用于任何 Citi 生产相关活动。
+citiDisclaimer.complianceResponsible	你对任何结果输出的使用负责。
+citiDisclaimer.confidentialUpdate	⚠️ 更新：Devin 支持机密数据。标准处理、按需知密和授权要求继续适用。受限数据仍然严格禁止。
+citiDisclaimer.dataSubmissionRules	数据提交规则
+citiDisclaimer.doNotSubmit	请勿提交以下任何内容：
+citiDisclaimer.mustRead	必读——使用 Devin 前你必须声明遵守。
+citiDisclaimer.permissibleExamples	✅ 允许的示例：公开发布的财务和市场数据（如 SEC 文件、财报）、内部文档，以及你有权访问的机密商业材料。
+citiDisclaimer.permittedClassification	允许的数据分级：你可提交最高至机密级的数据，定义见 <policyLink>Citi 信息分级政策</policyLink>。
+citiDisclaimer.prohibitedClientBody	请勿提交非公开的客户或顾客数据——例如机构客户合同中的客户数据，或财务、交易、KYC（了解你的客户）、支付/工资单文件中的顾客数据。
+citiDisclaimer.prohibitedClientData	禁止的客户或顾客数据。
+citiDisclaimer.prohibitedClientHeading	禁止的客户或顾客数据
+citiDisclaimer.prohibitedWorkforceBody	请勿提交包含员工、潜在员工或非雇员（承包商/顾问）个人数据且用于评估工作表现或招聘的文档，或任何受 HIPAA（美国健康隐私法）约束的数据。
+citiDisclaimer.prohibitedWorkforceData	禁止的员工（HR）数据。
+citiDisclaimer.prohibitedWorkforceHeading	禁止的员工（HR）数据
+citiDisclaimer.questions	❓ 有疑问？参阅 <policyLink>Citi 信息分级政策</policyLink>。
+citiDisclaimer.restrictedData	任何形式的受限数据。
+citiDisclaimer.title	声明
+citiDisclaimer.verifyOutput	除现有业务管控外，你必须在任何使用前核实此 AI 工具生成的所有输出的准确性。
+closePrDialog.cancel	取消
+closePrDialog.closeFailed	关闭拉取请求失败
+closePrDialog.closed	拉取请求已关闭
+closePrDialog.confirm	关闭拉取请求
+closePrDialog.description	这将关闭拉取请求而不合并。之后可从 GitHub 重新打开。
+closePrDialog.title	关闭拉取请求？
+cloudSetup.backToList	返回云端设置
+cloudSetup.buildStatus.created	已通过
+cloudSetup.buildStatus.error	失败
+cloudSetup.buildStatus.pending	运行中
+cloudSetup.buildSummary.failed	构建失败
+cloudSetup.buildSummary.incomplete	构建不完整
+cloudSetup.buildSummary.notStarted	构建未开始
+cloudSetup.buildSummary.passed	构建通过
+cloudSetup.buildSummary.running	构建运行中
+cloudSetup.column.organization	组织
+cloudSetup.column.project	项目
+cloudSetup.column.status	状态
+cloudSetup.column.updated	更新时间
+cloudSetup.description	每次运行 <code>devin cloud setup</code> 及其发送的内容。
+cloudSetup.detailDescription	运行 {{id}} · CLI {{cli}} · 设置于 {{date}}
+cloudSetup.detailLoadError	无法加载此运行。
+cloudSetup.detailTitle	云端设置运行
+cloudSetup.emptyDescription	在项目中运行此命令
+cloudSetup.emptyTitle	还没有运行记录
+cloudSetup.entryStatus.created	已创建
+cloudSetup.entryStatus.error	失败
+cloudSetup.entryStatus.flagged	已标记
+cloudSetup.entryStatus.pending	待处理
+cloudSetup.entryStatus.refused	已拒绝
+cloudSetup.entryStatus.skipped	已跳过
+cloudSetup.entryStatus.updated	已更新
+cloudSetup.environmentEdited	已上传编辑后的 environment.yaml。
+cloudSetup.kind.blueprint	Blueprint
+cloudSetup.kind.build	构建
+cloudSetup.kind.memory	记忆
+cloudSetup.kind.plugin	插件
+cloudSetup.kind.secrets	机密
+cloudSetup.kindCounts.failed_one	{{count}} 个失败
+cloudSetup.kindCounts.failed_other	{{count}} 个失败
+cloudSetup.kindCounts.flagged_one	{{count}} 个已标记
+cloudSetup.kindCounts.flagged_other	{{count}} 个已标记
+cloudSetup.kindCounts.skipped_one	{{count}} 个已跳过
+cloudSetup.kindCounts.skipped_other	{{count}} 个已跳过
+cloudSetup.kindCounts.uploaded_one	{{count}} 个已上传
+cloudSetup.kindCounts.uploaded_other	{{count}} 个已上传
+cloudSetup.loadError	无法加载运行记录。
+cloudSetup.localProject	本地项目
+cloudSetup.nextPage	下一页
+cloudSetup.noEntries	还没有条目。
+cloudSetup.notFound	此运行不存在或你无法打开。
+cloudSetup.openLink.builds	打开构建日志
+cloudSetup.openLink.session	启动会话
+cloudSetup.previousPage	上一页
+cloudSetup.reason.actionSkip	在设置中设为跳过。
+cloudSetup.reason.buildFailed	构建失败。见构建日志。
+cloudSetup.reason.draftExistsInCloud	云端已有 blueprint 版本。请在那里编辑。
+cloudSetup.reason.existsInCloud	云端已有。
+cloudSetup.reason.flagged	请在会话读取这些行之前先检查它们。
+cloudSetup.reason.invalid	格式错误。修复文件后重新上传。
+cloudSetup.reason.missingSecret	本地没有值。请在云端添加。
+cloudSetup.reason.networkError	没有到达云端。请重新上传。
+cloudSetup.reason.notPortable	没有对应的 Devin 概念。
+cloudSetup.reason.permissionDenied	需要管理员权限。
+cloudSetup.setupStatusHint.build_failed	环境构建失败。
+cloudSetup.setupStatusHint.build_pending	环境正在构建。
+cloudSetup.setupStatusHint.needs_secrets	还有机密缺失。
+cloudSetup.setupStatusHint.not_built	Blueprint 尚未构建。
+cloudSetup.setupStatusHint.ready	就绪。此组织的会话将从此环境启动。
+cloudSetup.status.done	已上传
+cloudSetup.status.failed	上传失败
+cloudSetup.status.interrupted	上传中断
+cloudSetup.status.superseded	已被取代
+cloudSetup.status.uploading	上传中
+cloudSetup.status.written	未上传
+cloudSetup.statusHint.done	上传已完成。
+cloudSetup.statusHint.failed	部分条目失败。
+cloudSetup.statusHint.interrupted	上传提前停止。
+cloudSetup.statusHint.superseded	更新的云端设置运行已取代本次。
+cloudSetup.statusHint.uploading	你的机器上正在上传。
+cloudSetup.statusHint.uploadingMinutes_one	上传进行中。{{count}} 分钟后过期。
+cloudSetup.statusHint.uploadingMinutes_other	上传进行中。{{count}} 分钟后过期。
+cloudSetup.statusHint.written	已在你机器上设置。还没有上传。
+cloudSetup.stored	此运行记录保存名称、本地路径、environment.yaml 哈希和各结果。不保存机密值或文件内容。
+cloudSetup.title	云端设置
+cloudSetup.todo.retryUpload	再跑一次 <code>devin cloud setup</code>
+cloudSetup.todo.runUpload	运行 <code>devin cloud setup</code>
+cloudSetup.visibilityOrg	你和此组织的管理员可见。
+cloudSetup.visibilityUnified	你、账户管理员和你组织的管理员可见。
+cloudUnreachable.description	Devin 无法连接 Devin API，因此 Devin Cloud 会话和你的组织不可用。IDE 视图中的 Devin Local、Tab 和编辑器仍可使用。
+cloudUnreachable.openIdeView	打开 IDE 视图
+cloudUnreachable.retry	重试
+cloudUnreachable.title	无法连接 Devin Cloud
+coach.acceptanceRate	采纳率
+coach.acceptanceRateTooltip	已处理建议（采纳 + 拒绝）中被采纳的比例。
+coach.blockerGroups.blockedOn.credentials	凭据
+coach.blockerGroups.blockedOn.environment	环境
+coach.blockerGroups.blockedOn.external_service	外部服务
+coach.blockerGroups.blockedOn.instructions	指令
+coach.blockerGroups.blockedOn.permissions	权限
+coach.blockerGroups.blockedOn.tests	测试
+coach.blockerGroups.blockedOn.uncategorized	未分类
+coach.blockerGroups.categoryFilterLabel	按类别筛选阻塞项
+coach.blockerGroups.column.impact	影响
+coach.blockerGroups.column.lastSeen	最近出现
+coach.blockerGroups.column.obstacle	阻塞项
+coach.blockerGroups.description	真实会话中发现的、Devin 需要你团队提供的东西，按出问题的资源分组
+coach.blockerGroups.empty.active	没有未解决的阻塞项
+coach.blockerGroups.empty.all	还没有阻塞项
+coach.blockerGroups.empty.dismissed	没有已忽略的阻塞项
+coach.blockerGroups.empty.resolved	没有已解决的阻塞项

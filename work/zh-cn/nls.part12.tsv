@@ -1,0 +1,125 @@
+vs/sessions/contrib/editor/browser/diffEditor.sessions.contribution/sessions.editor.wordWrap	控 Agents 窗口里代码编辑器怎么换行。
+vs/sessions/contrib/editor/browser/diffEditor.sessions.contribution/sessions.editor.wordWrap.inherit	行按 {0} 设置换行。
+vs/sessions/contrib/editor/browser/diffEditor.sessions.contribution/sessions.editor.wordWrap.off	行永不换行。
+vs/sessions/contrib/editor/browser/diffEditor.sessions.contribution/sessions.editor.wordWrap.on	行在视口宽换行。
+vs/sessions/contrib/editor/browser/emptyFileEditor/emptyFileEditor.title	文件
+vs/sessions/contrib/editor/common/diffEditorOptionsService/sessionsDiffViewMode	Agents 窗口里 diff 的偏好布局模式
+vs/sessions/contrib/extensions/browser/extensions.contribution/extensions.experimental.enableAgentsWindowCapability	开启时扩展可声明是否支持在 Agents 窗口跑。
+vs/sessions/contrib/files/browser/files.contribution/downloadRemoteFile	下载…
+vs/sessions/contrib/github/browser/pullRequestPicker/pullRequest.sessionReady	会话备好。拉取请求 #{0} 已 checkout 并附上。
+vs/sessions/contrib/layout/browser/desktop/desktopExistingSessionStrategy/toggleDetails	切换详情
+vs/sessions/contrib/onboardingTours/browser/parallelWorkOnboarding/parallelWorkOnboarding.listUnavailable	会话列表开不了。重试。
+vs/sessions/contrib/onboardingTours/browser/tours/newSessionViewTourShared/sessions.onboarding.newSessionViewV2.workspace.optional.description	工作区是 agent 读上下文和做更改的文件夹或仓库。项目活选一个，或不选继续。
+vs/sessions/contrib/onboardingTours/browser/tours/newSessionViewV2Tour/sessions.onboarding.newSessionViewV2.runningSession.description	起另一任务时在会话列表盯着跑中会话。你的 agent 可并行续干。
+vs/sessions/contrib/onboardingTours/browser/tours/newSessionViewV2Tour/sessions.onboarding.newSessionViewV2.runningSession.title	你的会话在这
+vs/sessions/contrib/onboardingTours/browser/tours/sessionArchiveTour/archiveOnboarding.archiveDescription	你可从会话列表直接归档任何会话。悬停会话或聚焦它显「归档」。
+vs/sessions/contrib/onboardingTours/browser/tours/sessionArchiveTour/archiveOnboarding.archiveTitle	从列表归档会话
+vs/sessions/contrib/onboardingTours/browser/tours/sessionArchiveTour/archiveOnboarding.doneDescription	你可从会话列表直接标任何会话完。悬停会话或聚焦它显「标完」。
+vs/sessions/contrib/onboardingTours/browser/tours/sessionArchiveTour/archiveOnboarding.doneTitle	从列表标会话完
+vs/sessions/contrib/onboardingTours/browser/tours/sessionArchiveTour/archiveOnboarding.understood	明白
+vs/sessions/contrib/openAgentsWindow/electron-browser/openAgentsWindow.contribution/openAgentsWindowSystemWideKeybinding.registrationFailed	有的系统级键绑注册不了（{0}）；该组合键可能被系统或别的应用占了。
+vs/sessions/contrib/policyBlocked/browser/sessionsPolicyBlocked/managedSettingsUpdate.openEditorWindow	开编辑器窗口
+vs/sessions/contrib/providers/agentHost/browser/agentHostAgentPicker/agentHostAgentPicker.context	Agent…
+vs/sessions/contrib/providers/agentHost/browser/agentHostAutomationStore/agentHostAutomation.createUnavailable	Agent Host 没备好建自动化。
+vs/sessions/contrib/providers/agentHost/browser/agentHostAutomationStore/agentHostAutomation.customizationVersion	版本 {0}
+vs/sessions/contrib/providers/agentHost/browser/agentHostAutomationStore/agentHostAutomation.operationUnavailable	自动化操作 '{0}' 对 '{1}' 不可用。
+vs/sessions/contrib/providers/agentHost/browser/agentHostAutomationStore/agentHostAutomation.savedCustomization	本地不可用。存的副本留着。
+vs/sessions/contrib/providers/agentHost/browser/agentHostAutomationStore/agentHostAutomation.syncedCustomizationDescription	从 VS Code 同步的定制项。
+vs/sessions/contrib/providers/agentHost/browser/agentHostAutomationStore/agentHostAutomation.syncedCustomizations	VS Code 定制项
+vs/sessions/contrib/providers/agentHost/browser/agentHostAutomationStore/agentHostAutomation.wrongHost	自动化目标须属此 Agent Host。
+vs/sessions/contrib/providers/agentHost/browser/agentHostModePicker/agentHostModePicker.combinedAriaLabel	模式与权限选择器
+vs/sessions/contrib/providers/agentHost/browser/agentHostPermissionPickerDelegate/agentHostPermissionPicker.effectiveApprovalsHover	生效权限：{0}。所请权限：{1}。
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionBranchActions/copyAgentHostChatLink	复制链接
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionBranchActions/copyAgentHostSessionLink	复制链接
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionConfigPicker/agentHostSessionConfig.currentBranchGroup	当前分支
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionConfigPicker/agentHostSessionConfig.defaultBranchGroup	默认分支
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionConfigPicker/agentHostSessionConfig.isolation.branch	分支
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionConfigPicker/agentHostSessionConfig.isolation.branchDescription	在你机器已有仓库里工作
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionConfigPicker/agentHostSessionConfig.isolation.devContainerDisabled	新 Worktree 不能与 Dev Container 执行并用。
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionConfigPicker/agentHostSessionConfig.isolation.worktreeDescription	为此会话建独立副本
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionConfigPicker/agentHostSessionConfig.itemAriaLabelWithBadge	{0}，{1}
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionConfigPicker/agentHostSessionConfig.itemAriaLabelWithGroup	{0}，{1}
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionConfigPicker/agentHostSessionConfig.otherBranchesGroup	分支
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionConfigPicker/agentHostSessionConfigPicker.checkoutCommit	提交并 Checkout
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionConfigPicker/agentHostSessionConfigPicker.checkoutDirty	checkout '{0}' 时你的本地更改会被盖。
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionConfigPicker/agentHostSessionConfigPicker.checkoutStash	Stash 并 Checkout
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.claude.acceptEdits	自动编辑
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.claude.acceptEditsDescription	Claude 不问就编辑文件，用其它工具前才问。
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.claude.auto	自动模式
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.claude.autoDescription	Claude 自定每个工具操作问不问。
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.claude.bypass	绕过权限
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.claude.bypassDescription	Claude 不问就跑所有工具。
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.claude.default	编辑前询问
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.claude.defaultDescription	Claude 编辑文件前会问。
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.claude.plan	计划模式
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.claude.planDescription	Claude 改前先出计划。
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.codex.autoReview	自动审查
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.codex.autoReviewDescription	批准请求走自动审查者而非问你。
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.codex.default	默认权限
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.codex.defaultDescription	Codex 在工作区沙箱内干活，更大访问前会问。
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.codex.fullAccess	完全访问
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.codex.fullAccessDescription	Codex 可上网并编辑工作区外文件，不问。
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.copilot.allowAll	全允许
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.copilot.allowAllDescription	跑所有工具调用不求批准。
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.copilot.assisted	辅助权限
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.copilot.assistedDescription	LLM 评判评估工具调用，不批时问你。
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.copilot.default	手动权限
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.copilot.defaultDescription	除非你配的批准设置允许，跑工具前会问。
+vs/sessions/contrib/providers/agentHost/browser/agentHostSessionPermissions/sessionComparison.permissions.policyLocked	已被你组织禁用
+vs/sessions/contrib/providers/agentHost/browser/agentHostSettings.contribution/sessionItemSettings	设置
+vs/sessions/contrib/providers/agentHost/browser/agentMergeActions/agentMerge.configure.submenu	配置 Agent Merge
+vs/sessions/contrib/providers/agentHost/browser/baseAgentHostSessionsProvider/agentHost.initialConfigFailed	初始会话配置解不了。
+vs/sessions/contrib/providers/agentHost/browser/baseAgentHostSessionsProvider/agentHost.initialModeRejected	所选会话模式 '{0}' 应用不了。
+vs/sessions/contrib/providers/agentHost/browser/baseAgentHostSessionsProvider/agentHost.initialPermissionRejected	所选会话权限应用不了：agent host 没应用 '{0}'。
+vs/sessions/contrib/providers/agentHost/browser/baseAgentHostSessionsProvider/agentHost.initialPermissionUnsupported	所选会话权限应用不了：agent '{0}' 不支持权限 '{1}'。
+vs/sessions/contrib/providers/agentHost/browser/baseAgentHostSessionsProvider/agentHost.sessionConfigUnavailable	解不了 Agent Host 会话配置。请重试。
+vs/sessions/contrib/providers/agentHost/browser/baseAgentHostSessionsProvider/canvas.pendingTitle	Canvas
+vs/sessions/contrib/providers/agentHost/browser/baseAgentHostSessionsProvider/chatArchiveUnavailable	归档此聊天不可用。
+vs/sessions/contrib/providers/agentHost/browser/baseAgentHostSessionsProvider/chatNotFound	聊天找不到。
+vs/sessions/contrib/providers/agentHost/browser/baseAgentHostSessionsProvider/importSessionUnavailable	此会话导入不可用。
+vs/sessions/contrib/providers/agentHost/browser/baseAgentHostSessionsProvider/removeSessionArtifactUnavailable	此会话移除产物不可用。
+vs/sessions/contrib/providers/agentHost/browser/devContainerAgentHostSessionsProvider/devContainerAgentHost.initializing	初始化 Agent Host 会话
+vs/sessions/contrib/providers/agentHost/browser/devContainerAgentHostSessionsProvider/devContainerAgentHost.noAgents	Dev Container Agent Host 没广播任何 agent。
+vs/sessions/contrib/providers/agentHost/browser/devContainerAgentHostSessionsProvider/devContainerAgentHost.preparing	备 Dev Container 中
+vs/sessions/contrib/providers/agentHost/browser/devContainerAgentHostSessionsProvider/devContainerAgentHost.preparingWorktree	为 Dev Container 备 worktree 中
+vs/sessions/contrib/providers/agentHost/browser/devContainerAgentHostSessionsProvider/devContainerAgentHost.providerUnavailable	Dev Container 会话提供商 '{0}' 不可用。
+vs/sessions/contrib/providers/agentHost/browser/devContainerAgentHostSessionsProvider/devContainerAgentHost.requiredUnavailable	所选 Dev Container 不可用。恢复其配置和连接，或明选主机工作区不带容器继续。
+vs/sessions/contrib/providers/agentHost/browser/devContainerAgentHostSessionsProvider/devContainerAgentHost.starting	起 Dev Container 中
+vs/sessions/contrib/providers/agentHost/browser/devContainerAgentHostSessionsProvider/devContainerAgentHost.trustFolder	起 Dev Container 可跑此工作区的生命周期命令。
+vs/sessions/contrib/providers/agentHost/browser/devContainerAgentHostSessionsProvider/devContainerAgentHost.workspaceRequired	Dev Container 会话要工作区。
+vs/sessions/contrib/providers/agentHost/browser/devContainerAgentHostSessionsProvider/devContainerAgentHost.worktreePreparationUnsupported	源 Agent Host 不支持为 Dev Container 备 worktree。
+vs/sessions/contrib/providers/agentHost/browser/devContainerAgentHostSessionsProvider/devContainerSample.containerRequired	Dev Container 示例须在容器里跑。
+vs/sessions/contrib/providers/agentHost/browser/devContainerAgentHostSessionsProvider/devContainerSample.trust	起此示例会把 {0} 克隆进 Docker 卷并跑其 Dev Container 生命周期命令。
+vs/sessions/contrib/providers/agentHost/browser/localAgentHostSessionsProvider/devContainerSample.workspaceLabel	{0} 示例
+vs/sessions/contrib/providers/agentHost/browser/localAgentHostSessionsProvider/environment.local	本地
+vs/sessions/contrib/providers/agentHost/browser/reconnectableAgentHostAutomationStore/automationFeatureDisabled	自动化已禁。开 {0} 设置再试。
+vs/sessions/contrib/providers/agentHost/browser/reconnectableAgentHostAutomationStore/automationHostDisconnected	Agent Host 已断。重连主机再试。
+vs/sessions/contrib/providers/agentHost/browser/reconnectableAgentHostAutomationStore/automationHostInitializing	Agent Host 还在连。等连完再试。
+vs/sessions/contrib/providers/agentHost/browser/reconnectableAgentHostAutomationStore/automationHostUnavailable	Agent Host 不可用。重连主机再试。
+vs/sessions/contrib/providers/agentHost/browser/reconnectableAgentHostAutomationStore/automationHostUnsupported	此 Agent Host 不支持自动化。更新主机或用支持自动化的 Agent Host。
+vs/sessions/contrib/providers/agentHost/browser/reconnectableAgentHostAutomationStore/automationHostUpgradeRequired	更新此 Agent Host 到新版本，再重连用自动化。
+vs/sessions/contrib/providers/copilotChatSessions/browser/cloudSandboxSessionConfig/cloudSandbox.approvals	批准
+vs/sessions/contrib/providers/copilotChatSessions/browser/cloudSandboxSessionConfig/cloudSandbox.autopilot	自动
+vs/sessions/contrib/providers/copilotChatSessions/browser/cloudSandboxSessionConfig/cloudSandbox.autopilotDescription	一直干到任务完。
+vs/sessions/contrib/providers/copilotChatSessions/browser/cloudSandboxSessionConfig/cloudSandbox.interactive	交互
+vs/sessions/contrib/providers/copilotChatSessions/browser/cloudSandboxSessionConfig/cloudSandbox.interactiveDescription	和你协作，要输入时问。
+vs/sessions/contrib/providers/copilotChatSessions/browser/cloudSandboxSessionConfig/cloudSandbox.mode	Agent 模式
+vs/sessions/contrib/providers/copilotChatSessions/browser/cloudSandboxSessionConfig/cloudSandbox.plan	计划
+vs/sessions/contrib/providers/copilotChatSessions/browser/cloudSandboxSessionConfig/cloudSandbox.planDescription	改前先规划任务。
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsActions/sandbox.approvalPicker	批准
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsActions/sandbox.modePicker	Agent 模式
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/automationCloudAgentUnsupported	此提供商不支持自动化会话模板里的自定义 agent。
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/cloneRepository.workspaceFile	所选克隆是工作区文件。重选仓库以选仓库文件夹。
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/copilotSandbox	Copilot
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/environment.cloud	云
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/repositoryPicker.unsupportedHost	此选择器只支持 github.com 仓库。切到 github.com 账户再试。
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/sandbox.alreadyStarting	GitHub 沙箱会话正在起。等起完再发下条消息。
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/sandbox.chooseRepository	选仓库…
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/sandbox.disabled	GitHub 沙箱会话未开。
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/sandbox.modelConfigurationUnavailable	沙箱不支持 {1} 所选的 {0}。
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/sandbox.provisioningContainer	配云容器中
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/sandbox.startingAgent	起 Copilot agent 中
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/sandbox.unavailable	GitHub 沙箱创建不再可用。开功能并选仓库再试。
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/sandbox.unsupportedConfiguration	新 GitHub 沙箱会话不支持此配置。
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/sandboxCreationProvider	GitHub 沙箱
+vs/sessions/contrib/providers/copilotChatSessions/browser/copilotChatSessionsProvider/sandboxModelNotApplied	此会话用不了 {0}。改用 agent 默认模型。

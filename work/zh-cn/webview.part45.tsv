@@ -1,0 +1,211 @@
+jira.agentLink.goToDevin	前往 Devin
+jira.agentLink.heading	把你的 Jira 站点连到 Devin
+jira.agentLink.installedBy	安装者
+jira.agentLink.jiraAdmin	Jira 管理员
+jira.agentLink.jiraCloudSite	Jira Cloud 站点
+jira.agentLink.linkCopied	链接已复制
+jira.agentLink.linkCopyFailed	复制链接失败
+jira.agentLink.linkSite	关联站点
+jira.agentLink.linkTo	关联到
+jira.agentLink.loadErrorDescription	检查 Jira 连接时出错。请重试。
+jira.agentLink.loadErrorTitle	无法加载此链接
+jira.agentLink.mappingDescription	在设置中把 Jira 项目映射到 Devin 组织。
+jira.agentLink.noAccountsMatch	没有匹配你搜索的账户
+jira.agentLink.noPermissionDescription	你登录的账户不是任何 Devin 账户的管理员。把此链接转给 Devin 管理员，让他们关联 <site>{{site}}</site>。
+jira.agentLink.noPermissionDescriptionNoSite	你登录的账户不是任何 Devin 账户的管理员。把此链接转给 Devin 管理员，让他们关联 <site>你的 Jira 站点</site>。
+jira.agentLink.noPermissionDescriptionWithEmail	你登录为 <email>{{email}}</email>，它不是任何 Devin 账户的管理员。把此链接转给 Devin 管理员，让他们关联 <site>{{site}}</site>。
+jira.agentLink.noPermissionDescriptionWithEmailNoSite	你登录为 <email>{{email}}</email>，它不是任何 Devin 账户的管理员。把此链接转给 Devin 管理员，让他们关联 <site>你的 Jira 站点</site>。
+jira.agentLink.noPermissionTitle	需要 Devin 管理员来完成
+jira.agentLink.oauthConflictDescription	{{site}} 已通过 Jira OAuth 连到另一个 Devin 账户。在这里关联会把工作拆到两个账户，因此被阻止。请先断开那边的 OAuth 连接，或联系支持。
+jira.agentLink.oauthConflictTitle	此站点在另一个账户上已有 Jira 连接
+jira.agentLink.oauthConstraintMultiple	此站点的 Jira OAuth 连接在 <account>{{accountName}}</account> 上，因此 app 只能关联到那里。关联不会改变 OAuth 连接；要用别的账户，先断开 Jira OAuth。
+jira.agentLink.oauthConstraintSingle	此站点的 Jira OAuth 连接在 <account>{{accountName}}</account> 上，因此 app 只能关联到那里。关联不会改变 OAuth 连接。
+jira.agentLink.openJiraSettings	打开 Jira 设置
+jira.agentLink.organization	组织
+jira.agentLink.pageTitle	连接 Jira 站点
+jira.agentLink.searchAccounts	搜索账户
+jira.agentLink.settings.added	已添加
+jira.agentLink.settings.adminAccountDescription	以 Jira 管理员身份登录 Atlassian 来注册 Devin 的 webhook。在你加服务账户凭据前，评论以此账户发出。
+jira.agentLink.settings.adminRow	管理员登录
+jira.agentLink.settings.adminRowConnected	注册 Devin 的 webhook
+jira.agentLink.settings.adminRowMissing	未连接。以 Jira 管理员登录来注册 Devin 的 webhook。
+jira.agentLink.settings.adminRowNotNeeded	不需要：app 已在投递事件。
+jira.agentLink.settings.adminRowWebhookFailed	已连接 · Devin 无法续期它的 webhook，Jira 更新可能中断
+jira.agentLink.settings.appRemovedTooltip_one	{{count}} 个安装已在 Jira 中移除但仍在此关联。重装 app 会开始新关联；请取消关联这个。
+jira.agentLink.settings.appRemovedTooltip_other	{{count}} 个安装已在 Jira 中移除但仍在此关联。重装 app 会开始新关联；请取消关联它们。
+jira.agentLink.settings.appRow	Devin for Jira App
+jira.agentLink.settings.appRowInstalled_one	已从 Jira 安装 · 评论以 Devin 发出
+jira.agentLink.settings.appRowInstalled_other	{{count}} 个安装来自 Jira · 评论以 Devin 发出
+jira.agentLink.settings.appRowNotInstalled	未安装。从 Atlassian Marketplace 装上并在此关联。
+jira.agentLink.settings.appRowRemoved	已在 Jira 中移除 · 取消旧安装关联；重装会开始新关联
+jira.agentLink.settings.attentionAppRemoved	Devin App 已在 Jira 中移除，请取消旧安装关联
+jira.agentLink.settings.attentionPermissions_one	服务账户缺 {{count}} 个 Jira 权限，请审查
+jira.agentLink.settings.attentionPermissions_other	服务账户缺 {{count}} 个 Jira 权限，请审查
+jira.agentLink.settings.attentionServiceAccountRejected	服务账户凭据被 Atlassian 拒绝，请更换
+jira.agentLink.settings.attentionSite	<strong>{{site}}</strong>：{{issues}}
+jira.agentLink.settings.attentionTitle_one	一个 Jira 连接需要处理
+jira.agentLink.settings.attentionTitle_other	{{count}} 个 Jira 连接需要处理
+jira.agentLink.settings.attentionWebhook	webhook 无法续期，请重连管理员登录
+jira.agentLink.settings.attentionWebhookRetry	webhook 无法续期，请刷新或重连管理员登录
+jira.agentLink.settings.connect	连接
+jira.agentLink.settings.connectAccount	连接账户
+jira.agentLink.settings.connectAnotherSite	连接另一个站点
+jira.agentLink.settings.connectAnyway	仍然连接
+jira.agentLink.settings.connectWithAdminAccount	用管理员账户连接
+jira.agentLink.settings.connected	已连接
+jira.agentLink.settings.disconnectDescription	Devin 停止接收此站点的事件，因此监听它的自动化停止触发，直到重连。其管理员登录、服务账户凭据和项目映射被移除。
+jira.agentLink.settings.disconnectDescriptionWithApp	移除此站点的管理员登录和服务账户凭据。项目映射保留，Devin App 保持安装，因此继续投递事件、触发自动化并以 Devin 发帖。
+jira.agentLink.settings.disconnectTitle	断开 {{site}}？
+jira.agentLink.settings.footerPostsAsAdmin_one	{{sites, list}} 以连接它的管理员账户发评论。加服务账户凭据，Devin 才能以自己身份发帖并能被分派工单。
+jira.agentLink.settings.footerPostsAsAdmin_other	{{sites, list}} 以连接它们的管理员账户发评论。加服务账户凭据，Devin 才能以自己身份发帖并能被分派工单。
+jira.agentLink.settings.installApp	在 Jira 安装 Devin App
+jira.agentLink.settings.installAppDescription	Jira 管理员在站点上安装它，然后在此关联。站点级，不存凭据。
+jira.agentLink.settings.installAppShort	安装 App
+jira.agentLink.settings.installationInstalled	已安装
+jira.agentLink.settings.installationLinkedOn	关联于 {{date}}
+jira.agentLink.settings.installationsLoadErrorDescription	加载已关联 Jira 站点时出错。
+jira.agentLink.settings.installationsLoadErrorTitle	无法加载 Jira App 连接
+jira.agentLink.settings.linked	已关联
+jira.agentLink.settings.notConnectedSubtitle	先用 Jira 管理员账户连接，再加服务账户凭据，Devin 才能以 Bot 身份发帖并能被分派工单。
+jira.agentLink.settings.permissionsDialogDescription	{{site}} 的 Devin 服务账户需要这些 Jira 权限才能操作工单：
+jira.agentLink.settings.permissionsDialogDocs	Jira 设置指南
+jira.agentLink.settings.permissionsDialogGrant	把它们授给此服务账户。
+jira.agentLink.settings.permissionsDialogReplace	或换成已有这些权限的服务账户。
+jira.agentLink.settings.permissionsDialogReplaceButton	更换服务账户…
+jira.agentLink.settings.permissionsDialogTitle	服务账户缺 Jira 权限
+jira.agentLink.settings.permissionsGrantHint	在 Jira 中，项目管理员把服务账户加到一个持这些权限的项目角色（在项目设置里），或 Jira 管理员在项目的<permissionsLink>权限方案</permissionsLink>中授予。Devin 一分钟内生效。
+jira.agentLink.settings.permissionsReviewButton	审查权限
+jira.agentLink.settings.permissionsTooltip	缺失 Jira 权限：{{permissions, list}}
+jira.agentLink.settings.postsAsAdmin	管理员账户
+jira.agentLink.settings.postsAsDevin	Devin
+jira.agentLink.settings.recommended	推荐
+jira.agentLink.settings.reconnectDescription	只刷新管理员授权。服务账户凭据、项目映射和 webhook 保留。
+jira.agentLink.settings.refreshWebhookDescription	不离开 Devin，用当前管理员登录重试续期 webhook。适合临时故障；若 Jira 持续拒绝请重连。
+jira.agentLink.settings.removeServiceAccountAdminIdentityWarning	重连管理员账户以恢复 @Devin 提及。
+jira.agentLink.settings.removeServiceAccountConfirm	移除服务账户
+jira.agentLink.settings.removeServiceAccountDescription	Devin 改回以连接 Jira 的管理员账户发评论，且工单不能再分派给 Devin。webhook、项目映射和自动化规则保留
+jira.agentLink.settings.removeServiceAccountFailure	移除服务账户失败
+jira.agentLink.settings.removeServiceAccountMenu	移除服务账户…
+jira.agentLink.settings.removeServiceAccountSuccess	服务账户已移除
+jira.agentLink.settings.removeServiceAccountTitle	移除服务账户？
+jira.agentLink.settings.replaceServiceAccountCredentialsMenu	更换服务账户凭据…
+jira.agentLink.settings.rowActions	{{row}} 的操作
+jira.agentLink.settings.serviceAccountClientId	客户端 ID
+jira.agentLink.settings.serviceAccountClientIdPlaceholder	输入客户端 ID
+jira.agentLink.settings.serviceAccountClientIdRequired	客户端 ID 为必填项
+jira.agentLink.settings.serviceAccountClientSecret	客户端密钥
+jira.agentLink.settings.serviceAccountClientSecretPlaceholder	输入客户端密钥
+jira.agentLink.settings.serviceAccountClientSecretRequired	客户端密钥为必填项
+jira.agentLink.settings.serviceAccountConnectFailed	添加服务账户凭据失败。请检查客户端 ID 和密钥。
+jira.agentLink.settings.serviceAccountDialogDescription	Devin 以此服务账户发评论，把工单分派给它即启动会话。在你的 Atlassian 组织管理员设置中创建其 OAuth 2.0 凭据
+jira.agentLink.settings.serviceAccountDialogReplaceDescription	新凭据立即生效。webhook、项目映射和自动化规则保留
+jira.agentLink.settings.serviceAccountDialogReplaceSubmit	更换凭据
+jira.agentLink.settings.serviceAccountDialogReplaceTitle	更换服务账户凭据
+jira.agentLink.settings.serviceAccountDialogRoleHint	服务账户必须有 Jira 的 <strong>User</strong> 应用角色——在 Directory › Service accounts › 选该账户 › ⋯ › Allow access 中设置
+jira.agentLink.settings.serviceAccountDialogSubmit	添加凭据
+jira.agentLink.settings.serviceAccountDialogTitle	添加服务账户凭据
+jira.agentLink.settings.serviceAccountRejectedTooltip	Atlassian 拒绝此服务账户的凭据，因此评论以管理员账户发出。凭据可能已吊销或过期：请更换。
+jira.agentLink.settings.serviceAccountRequiredScopes	必需的 Classic scopes
+jira.agentLink.settings.serviceAccountRow	服务账户
+jira.agentLink.settings.serviceAccountRowAdded	评论以 Devin 发出
+jira.agentLink.settings.serviceAccountRowAddedNoSessionAccess	评论以 Devin 发出，但没有人类所有者的会话（如服务用户和不以创建者身份运行的自动化）不能读写 Jira。
+jira.agentLink.settings.serviceAccountRowMissing	未添加。在你加一个之前，评论以管理员账户发出。
+jira.agentLink.settings.serviceAccountRowNotNeeded	不需要：App 即以 Devin 发帖。
+jira.agentLink.settings.serviceAccountRowRejected	Atlassian 拒绝其凭据。在你更换前，评论以管理员账户发出。
+jira.agentLink.settings.signInAsAdmin	以管理员登录
+jira.agentLink.settings.siteNeedsAttention	需要处理
+jira.agentLink.settings.siteSummary	接收事件 · 以 <strong>{{identity}}</strong> 发帖
+jira.agentLink.settings.siteSummaryInactive	未接收事件
+jira.agentLink.settings.siteTabsDescription	会话设置、技能和映射规则按站点设置。路由和知识共享
+jira.agentLink.settings.siteTabsLabel	Jira 站点
+jira.agentLink.settings.sitesDescription	Devin 能读取和发帖的每个站点
+jira.agentLink.settings.sitesTitle	Jira 站点
+jira.agentLink.settings.uninstalled	已卸载
+jira.agentLink.settings.unlinkAppMenu	取消关联 Devin App…
+jira.agentLink.settings.unlinkAppShort	取消关联
+jira.agentLink.settings.unlinkConfirm	取消关联站点
+jira.agentLink.settings.unlinkDescription	Devin 立即停止在此 Jira 站点工作，安装回到未认领状态。要重新关联，Jira 管理员在 Jira 中打开 Devin App 并点 Connect to Devin
+jira.agentLink.settings.unlinkFailure	取消关联 Jira 站点失败
+jira.agentLink.settings.unlinkSuccess	Jira 站点已取消关联
+jira.agentLink.settings.unlinkTitle	取消关联 {{site}}？
+jira.agentLink.settings.webhookBannerDefaultError	Devin 无法续期 Jira webhook，可能停止接收 Jira 更新。用管理员账户重连 Jira 以恢复 webhook 投递。项目映射保留。
+jira.agentLink.settings.webhookBannerRefresh	刷新 webhook
+jira.agentLink.settings.webhookDialogDescription	Devin 在 {{site}} 上用管理员登录注册了 webhook 并定期续期。最近几次续期失败，因此 Jira 更新（新评论、分派、状态变化）可能到不了 Devin：
+jira.agentLink.settings.webhookDialogReconnect	重连管理员登录。
+jira.agentLink.settings.webhookDialogReconnectHint	重新以 Jira 管理员登录；Devin 重新注册 webhook。服务账户凭据、项目映射和已有 webhook 保留。这能修复被吊销、过期或收窄的授权。
+jira.agentLink.settings.webhookDialogReconnectLater	若仍失败，重连管理员登录。
+jira.agentLink.settings.webhookDialogRefresh	或刷新 webhook。
+jira.agentLink.settings.webhookDialogRefreshFirst	刷新 webhook。
+jira.agentLink.settings.webhookDialogRefreshHint	不离开 Devin，用当前登录重试续期。适合 Jira 临时故障；若 Jira 持续拒绝请重连。
+jira.agentLink.settings.webhookDialogTitle	管理员登录无法续期 webhook
+jira.agentLink.settings.webhookDialogWhyAdmin	即使已加服务账户，也只有管理员登录能续期 webhook：Jira 把 webhook 绑在注册它的账户上。
+jira.agentLink.settings.webhookError.auth	Jira 拒绝了请求：连接 Jira 的管理员账户可能已失访问，或其权限或 scope 变了。
+jira.agentLink.settings.webhookError.invalidConnection	Jira 找不到已连接站点或其 webhook；连接可能已在 Jira 侧被移除。
+jira.agentLink.settings.webhookError.network	Devin 连不上 Jira 续期 webhook。这通常是临时的；它会自动重试。
+jira.agentLink.settings.webhookError.serviceAccountAuth	Jira 拒绝了请求。webhook 由管理员登录而非服务账户续期，因此该管理员账户需要 webhook（manage:jira-webhook）权限。
+jira.agentLink.settings.webhookError.unknown	续期 webhook 因意外原因失败。Devin 会继续重试；如持续请重连。
+jira.agentLink.settings.webhookReviewButton	审查
+jira.agentLink.signInButton	登录 Devin
+jira.agentLink.signInDescription	你正在把一个 Jira 站点连到 Devin。先登录——我们马上带你回来。
+jira.agentLink.signInTitle	登录以继续
+jira.agentLink.successDescription	<site>{{site}}</site> 现在连到了 <account>{{accountName}}</account>。Devin 将接受此站点的工作。
+jira.agentLink.successDescriptionNoSite	<site>你的 Jira 站点</site>现在连到了 <account>{{accountName}}</account>。Devin 将接受此站点的工作。
+jira.agentLink.successTitle	Jira 站点已关联。
+jira.agentLink.tryAgain	重试
+jira.agentLink.tryIt	试试——把一个 Jira 工作项分派给 <agent>Devin</agent>，看会话启动。
+jira.agentLink.unknownSite	未知站点
+jira.appOnlySiteAskAdmin	让 Devin 管理员在「设置 > 连接 > Jira」中连接它。
+jira.appOnlySiteConnectLink	打开 Jira 连接
+jira.appOnlySitePicker_assignees	需要 Jira 管理员用管理员账户连接 {{site}} 后才能选经办人。
+jira.appOnlySitePicker_epics	需要 Jira 管理员用管理员账户连接 {{site}} 后才能选 Epic。
+jira.appOnlySitePicker_labels	需要 Jira 管理员用管理员账户连接 {{site}} 后才能选标签。
+jira.appOnlySitePicker_statuses	需要 Jira 管理员用管理员账户连接 {{site}} 后才能选状态。
+jira.connectAccountToPickProjects	连接你的 Atlassian 账户以选项目
+jira.environmentMapping.addProject	添加项目
+jira.environmentMapping.count_one	已映射 {{count}} 个项目
+jira.environmentMapping.count_other	已映射 {{count}} 个项目
+jira.environmentMapping.description	为每个项目的新 My Workspace 会话选环境。没有它访问权的人用自己的默认环境。
+jira.environmentMapping.empty	还没有项目有环境。
+jira.environmentMapping.environmentRequired	请选择一个环境
+jira.environmentMapping.info	这只选环境。每个人的「偏好」决定其 Jira 会话是否跑在 My Workspace。
+jira.environmentMapping.none	没有已映射项目
+jira.environmentMapping.projectsFailed	无法加载 Jira 项目。
+jira.environmentMapping.remove	移除映射
+jira.environmentMapping.saveFailed	保存 Jira 环境映射失败
+jira.environmentMapping.selectEnvironment	选择一个环境…
+jira.environmentMapping.title	环境映射
+jira.environmentMapping.titleForSite	环境映射 · {{site}}
+jira.grantBrowseProjects	在 Jira 中授给它 Browse projects 权限
+jira.listingIdentity.admin	已连接的 Jira 管理员账户
+jira.listingIdentity.app	Devin for Jira App
+jira.listingIdentity.personal	你的 Atlassian 账户
+jira.listingIdentity.serviceAccount	Devin 的 Jira 服务账户
+jira.loadingStatuses	正在加载状态…
+jira.mappedProjectsNotVisible_one	已映射项目 {{ids}} 对 {{identity}} 不可见
+jira.mappedProjectsNotVisible_other	已映射项目 {{ids}} 对 {{identity}} 不可见
+jira.mapping.addRule	添加规则
+jira.mapping.anyProject	任意项目
+jira.mapping.defaultWorkingOrgNotice	你的映射规则保留，切回项目映射时再生效
+jira.mapping.description	把项目和标签映射到 Devin 组织
+jira.mapping.duplicateRule	此规则已列出
+jira.mapping.empty	未找到项目或组织
+jira.mapping.everythingElse	其他全部
+jira.mapping.label	Jira 标签
+jira.mapping.labelColumn	标签
+jira.mapping.labelRequired	输入不含空格的 Jira 标签
+jira.mapping.manage	管理
+jira.mapping.noLabel	无标签
+jira.mapping.noMatch	不匹配任何规则的工单
+jira.mapping.noProjectsFound	未找到项目
+jira.mapping.noRulesWarning	加映射规则之前，Devin 对每个工单都回复要求管理员映射其项目
+jira.mapping.noRulesWorkingOrgNotice	加映射规则之前，工单进请求者的默认工作组织
+jira.mapping.organization	Devin 组织
+jira.mapping.organizationRequired	请选择一个 Devin 组织
+jira.mapping.overlap	都匹配时优先于{{rule}}
+jira.mapping.overlapLabelRule	{{label}} 标签
+jira.mapping.overlapProjectLabelRule	{{project}} + {{label}}
+jira.mapping.project	项目
+jira.mapping.projectRequired	请选择一个项目
+jira.mapping.remove	移除规则
+jira.mapping.retryProjects	重试
+jira.mapping.ruleRequired	选一个项目或输入 Jira 标签

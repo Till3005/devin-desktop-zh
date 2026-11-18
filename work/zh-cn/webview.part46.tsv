@@ -1,0 +1,267 @@
+jira.mapping.rulesInfo	工单进入其项目或标签映射到的组织。从 Devin for Jira App 发起时仅当请求者属于该组织才生效；否则进其默认工作组织。
+jira.mapping.rulesNone	还没有规则
+jira.mapping.rulesTitle	映射规则
+jira.mapping.rulesTitleForSite	映射规则 · {{site}}
+jira.mapping.rulesWithDefault_one	{{count}} 条规则 · 其他工单去 {{organization}}
+jira.mapping.rulesWithDefault_other	{{count}} 条规则 · 其他工单去 {{organization}}
+jira.mapping.rulesWithoutDefaultWorkingOrg_one	{{count}} 条规则 · 不匹配任何规则的工单去请求者的默认工作组织
+jira.mapping.rulesWithoutDefaultWorkingOrg_other	{{count}} 条规则 · 不匹配任何规则的工单去请求者的默认工作组织
+jira.mapping.rulesWithoutDefault_one	{{count}} 条规则 · 不匹配任何规则的工单会得到要求管理员映射项目的回复
+jira.mapping.rulesWithoutDefault_other	{{count}} 条规则 · 不匹配任何规则的工单会得到要求管理员映射项目的回复
+jira.mapping.search	搜索规则…
+jira.mapping.searchProjects	搜索项目…
+jira.mapping.selectProject	选择一个项目…
+jira.mapping.title	项目映射
+jira.mapping.titleForSite	项目映射 · {{site}}
+jira.noProjects	无 Jira 项目
+jira.noProjectsMapped	没有 Jira 项目映射到此组织。请在 Jira 连接设置中映射。
+jira.noProjectsMappedTooltip	此组织没有可用 Jira 项目。检查 Devin 的 Jira 账户能否看到该项目；企业组织还要在 Jira 连接设置中映射到此组织。
+jira.noStatuses	无 Jira 状态
+jira.noStatusesFound	未找到状态
+jira.notes.description	由你的 Jira 项目生成。管理员可编辑
+jira.notes.descriptionOrganizations	按组织从工单能到达它的 Jira 项目生成。管理员可编辑
+jira.notes.discard	放弃更改
+jira.notes.discardConfirm	放弃
+jira.notes.discardTitle	放弃未保存的更改？
+jira.notes.editMapping	编辑项目映射
+jira.notes.generatedAt	更新于 {{time}}
+jira.notes.generating	正在生成…
+jira.notes.intro	Devin 接单前对此组织 Jira 项目的了解。编辑它加上它该知道的内容。
+jira.notes.knowledgeTitle	知识
+jira.notes.loadingSources	正在加载项目…
+jira.notes.manage	管理
+jira.notes.noProjectsMapped	还没有 Jira 项目把工单发到此组织。映射一个后 Devin 就能写这段知识。
+jira.notes.noProjectsVisible	Devin 在你的 Jira 站点上看不到任何项目，因此没东西可写。
+jira.notes.notGenerated	还没有内容。点「重新生成」让 Devin 写，或在下方输入。
+jira.notes.panelTitleForOrg	Jira 知识 · {{name}}
+jira.notes.placeholder	Devin 该知道的关于此组织 Jira 项目的一切…
+jira.notes.regenerate	重新生成
+jira.notes.regenerateDescription	Devin 根据上面列出的项目重写知识。当前文本（含你的编辑）将被替换。
+jira.notes.regenerateTitle	重新生成 Jira 知识？
+jira.notes.remove	移除知识
+jira.notes.removeConfirm	移除
+jira.notes.removeDescription	没有它，Devin 照常界定此组织的工单。之后可再把组织加回来。
+jira.notes.removeError	无法移除 Jira 知识。
+jira.notes.removeLastDescription	Jira 知识已弃用。这是你账户里最后一段知识：移除它会关掉此功能，且不能再生成。
+jira.notes.removeTitle	移除 Jira 知识？
+jira.notes.removed	Jira 知识已移除
+jira.notes.save	保存
+jira.notes.siteUnavailable	无法读取 {{sites, list}} 上的项目。
+jira.notes.sourcesError	无法加载此组织的项目。
+jira.notes.sourcesTitle	依据
+jira.notes.statusGenerated	已生成
+jira.notes.statusNotGenerated	未生成
+jira.notes.title	Jira 知识
+jira.notes.view	查看
+jira.openJiraProjectSettings	打开 Jira 项目设置
+jira.orgAccess.actor	在 Jira 中以谁行事
+jira.orgAccess.actorDevin	Devin
+jira.orgAccess.actorDevinDescription	该 Jira 站点连接的服务账户或 App。Jira 把 Devin 显示为作者，每条评论注明发起人。
+jira.orgAccess.actorDevinForAutomations	自动化用 Devin，每人的会话用各自账户
+jira.orgAccess.actorDevinForAutomationsDescription	自动化用该 Jira 站点连接的服务账户或 App。人发起的会话用其自己关联的 Atlassian 账户。
+jira.orgAccess.actorHelp	谁执行 Devin 会话发起的评论、编辑和流转。
+jira.orgAccess.actorUser	各用户自己
+jira.orgAccess.actorUserDescription	他们自己关联的 Atlassian 账户。Jira 把他们显示为作者；每人连接有写权限的 Atlassian。
+jira.orgAccess.addOrganization	添加组织
+jira.orgAccess.enforceToolScope	限制 Devin 的 Jira 访问
+jira.orgAccess.enforceToolScopeConfirm	限制访问
+jira.orgAccess.enforceToolScopeConfirmTitle	限制 Devin 的 Jira 访问？
+jira.orgAccess.enforceToolScopeHelp	会话中 Devin 只看路由到其组织的工单
+jira.orgAccess.enforceToolScopeInfo	路由用项目、标签和锁定组织规则。若 !org 开着，未锁定组织也能看到其他未锁定组织的工单。发起会话的那个工单始终可访问。
+jira.orgAccess.enforceToolScopeWarning	这会收窄现有会话和自动化的 Jira 访问。Devin 只能访问路由到其组织的工单，外加发起会话的那个。
+jira.orgAccess.lockHelp	只处理路由到它的工单，且这些工单不能去别处
+jira.orgAccess.lockInfo	锁定组织只处理路由到它的工单，且这些工单不能去任何其他组织，即使用 !org 也不行。
+jira.orgAccess.lockedBadge	已锁定
+jira.orgAccess.lockedTitle	已锁定组织
+jira.orgAccess.noLockedOrganizations	无已锁定组织
+jira.orgAccess.noOrganizationsFound	未找到组织
+jira.orgAccess.override	用 !org 切换组织
+jira.orgAccess.overrideHelp	工单中带 !org 的提及会在该组织中启动会话
+jira.orgAccess.overrideInfo	关闭时，带 !org 的提及会被拒绝。
+jira.orgAccess.saveError	无法保存 Jira 组织访问。
+jira.orgAccess.searchOrganizations	搜索组织
+jira.orgAccess.toolScopeImpactError	无法加载受影响自动化数。你仍可启用限制。
+jira.orgAccess.toolScopeImpactLoading	正在统计 Jira 访问可能收窄的自动化…
+jira.orgAccess.toolScopeImpact_one	{{count}} 个现有自动化的 Jira 访问可能收窄。
+jira.orgAccess.toolScopeImpact_other	{{count}} 个现有自动化的 Jira 访问可能收窄。
+jira.orgAccess.unlock	解锁 {{name}}
+jira.projectsError.adminNoPermission	已连接的 Jira 账户看不到任何项目。确保它在 Jira 中有 Browse projects 权限和 read:jira-work scope，或换有权限的账户重连 Jira。
+jira.projectsError.agentTokenUnavailable	Devin for Jira App 还没签到，因此无法列项目。几分钟后重试。
+jira.projectsError.connectRequired	连接你的 Atlassian 账户以加载 Jira 项目。
+jira.projectsError.generic	无法从 Jira 加载项目。
+jira.projectsError.notConnected	未找到 Jira 集成。重连 Jira 以管理项目映射。
+jira.projectsError.rateLimited	Jira 正在限流此站点的请求，目前无法列项目。几分钟后重试。
+jira.projectsError.saNoPermission	Jira 服务账户看不到任何项目。确保它在 Jira 中有 Browse projects 权限和 read:jira-work scope，然后重试。
+jira.projectsError.saSiteAccessRevoked	Jira 完全拒绝了服务账户——它对 Jira 站点的访问似乎已被吊销（常因访问过期或身份治理策略）。让 Jira 管理员重新授予该服务账户站点的产品访问权，并把它从任何自动吊销策略中豁免，避免再发生。
+jira.projectsError.tokenRefreshFailed	Jira 认证失败且令牌无法刷新。重连 Jira 恢复访问。
+jira.removedDeletedOrganizationMappings_one	已移除指向 {{count}} 个已删除组织的映射
+jira.removedDeletedOrganizationMappings_other	已移除指向 {{count}} 个已删除组织的映射
+jira.removedPlaybookReferences_one	已移除 {{count}} 个已删除或映射组织不可用的 playbook 引用
+jira.removedPlaybookReferences_other	已移除 {{count}} 个已删除或映射组织不可用的 playbook 引用
+jira.routing.defaultWorkingOrg	默认工作组织
+jira.routing.defaultWorkingOrgDescription	把每个工单路由到请求者的默认工作组织。
+jira.routing.label	工单路由依据
+jira.routing.projectMapping	项目映射
+jira.routing.projectMappingDescription	按项目和标签把每个工单路由到一个组织。
+jira.routing.saveError	无法保存 Jira 路由设置。
+jira.routing.sectionDescription	哪个 Devin 组织处理每个工单
+jira.routing.title	路由
+jira.searchStatuses	搜索状态…
+jira.siteSelection.cancel	取消
+jira.siteSelection.connect	连接
+jira.siteSelection.description	你的 Atlassian 账户能访问多个 Jira 站点
+jira.siteSelection.expired	此 Jira 登录已过期。重新连接以选站点。
+jira.siteSelection.failure	连接 Jira 失败
+jira.siteSelection.loadFailed	无法加载你的 Jira 站点。请重新连接。
+jira.siteSelection.required	Jira 站点为必填项
+jira.siteSelection.success	已连接到 {{site}}
+jira.siteSelection.title	选择一个 Jira 站点
+jiraAssignee.loadingUsers	正在加载用户…
+jiraAssignee.noJiraUsers	无 Jira 用户
+jiraAssignee.noUsersFound	未找到用户
+jiraAssignee.searchUsers	搜索用户…
+jiraCloud.deleteDescription	Devin 停止读此 Jira Cloud 站点，其工单不能再被关联。已有链接保留。Jira 集成保持连接。
+jiraCloud.enable	启用项目追踪器
+jiraCloud.enableAlreadyEnabled	此 Jira Cloud 站点的追踪器已启用。
+jiraCloud.enableDescription	让 Devin 把会话关联到此 Jira Cloud 站点的工单、按项目打标并读取工单层级。为此它优先用已安装的 Devin App，其次是已配置的服务账户，否则用已连接的管理员账户。被问及某工单时，Devin 用会话所有者的 Jira 账户读取。
+jiraCloud.enableFailed	无法启用项目追踪器
+jiraCloud.enableNotConnected	请先连接 Jira。
+jiraCloud.enabling	正在启用…
+jiraCloud.kindLabel	Jira Cloud
+jiraCloud.noSites	没有任何 Jira Cloud 站点装了 Devin App 或连了管理员账户。
+jiraCloud.siteLabel	Jira 站点
+jiraCloud.sitePlaceholder	选择一个站点
+jiraCloud.sourceAdminGrant	用管理员账户
+jiraCloud.sourceForgeApp	用 Devin App
+jiraCloud.sourceServiceAccount	用服务账户
+jiraCloud.webhookDescription	在 Jira 中到「Jira Administration → System → WebHooks」，用此 URL 和密钥创建 webhook。选择下方事件并留空 JQL 过滤器。
+jiraDataCenter.back	返回
+jiraDataCenter.baseUrl	基础 URL
+jiraDataCenter.baseUrlRequired	基础 URL 为必填项
+jiraDataCenter.clientId	客户端 ID
+jiraDataCenter.clientIdRequired	客户端 ID 为必填项
+jiraDataCenter.clientSecret	客户端密钥
+jiraDataCenter.clientSecretRequired	客户端密钥为必填项
+jiraDataCenter.connect	连接
+jiraDataCenter.connectInstance	连接一个实例
+jiraDataCenter.connecting	正在连接…
+jiraDataCenter.copyRedirectUrl	复制重定向 URL
+jiraDataCenter.createFailed	无法创建连接
+jiraDataCenter.deleteDescription	Devin 停止读此 Jira，其工单不能再被关联。已有链接保留。此操作无法撤销。
+jiraDataCenter.kindLabel	Jira Data Center
+jiraDataCenter.name	连接名
+jiraDataCenter.nameRequired	连接名为必填项
+jiraDataCenter.next	下一步
+jiraDataCenter.redirectUrl	重定向 URL
+jiraDataCenter.rotate	轮换服务令牌
+jiraDataCenter.rotateDescription	粘贴服务账户的新个人访问令牌。旧令牌立即失效
+jiraDataCenter.rotateFailed	无法轮换服务令牌
+jiraDataCenter.rotateSucceeded	服务令牌已轮换
+jiraDataCenter.rotateTitle	轮换服务令牌
+jiraDataCenter.rotating	正在轮换…
+jiraDataCenter.routeDirect	直连
+jiraDataCenter.routeInternal	内网
+jiraDataCenter.serviceToken	个人访问令牌
+jiraDataCenter.serviceTokenExpiry	令牌过期时间
+jiraDataCenter.serviceTokenRequired	个人访问令牌为必填项
+jiraDataCenter.stepOauthDescription	在 Jira 中用下方重定向 URL 和 WRITE scope 创建一个 incoming application link，然后把其客户端 ID 和密钥粘到这里
+jiraDataCenter.stepOauthTitle	传入应用链接
+jiraDataCenter.stepTokenDescription	粘贴 Devin 用于读取和 webhook 的 Jira 服务用户的个人访问令牌。该用户需要 Browse Projects 权限
+jiraDataCenter.stepTokenTitle	服务账户令牌
+jiraDataCenter.stepUrlDescription	输入你 Jira Data Center 实例的基础 URL。Devin 会检查它是否为受支持版本
+jiraDataCenter.stepUrlTitle	连接 Jira Data Center
+jiraDataCenter.validateUrl	验证 URL
+jiraDataCenter.validateUrlFailed	无法验证 Jira URL
+jiraDataCenter.validatedVersion	{{host}} 运行 Jira Data Center {{version}}。
+jiraDataCenter.validating	正在验证…
+jiraDataCenter.webhookDescription	在 Jira 中到「System → WebHooks」，用此 URL 和密钥为工单事件创建 webhook。
+jiraDataCenter.webhookTitle	在 Jira 中注册 webhook
+jiraEpic.loadingEpics	正在加载 Epic…
+jiraEpic.noEpicsFound	未找到 Epic
+jiraEpic.noJiraEpics	无 Jira Epic
+jiraEpic.searchEpics	搜索 Epic…
+jiraLabel.loadingLabels	正在加载标签…
+jiraLabel.noJiraLabels	无 Jira 标签
+jiraLabel.noLabelsFound	未找到标签
+jiraLabel.searchLabels	搜索标签…
+jiraToasts.connectFailed	连接 Jira 失败
+jiraToasts.disconnectFailed	断开 Jira 失败
+jiraToasts.disconnected	Jira 已成功断开
+jiraToasts.knowledgeCreated	知识创建成功
+jiraToasts.knowledgeFailed	保存知识失败
+jiraToasts.knowledgeSaved	知识保存成功
+jiraToasts.mappingsFailed	保存 Jira 映射失败
+jiraToasts.mappingsSaved	Jira 映射保存成功
+jiraToasts.noOrg	未找到组织 ID
+jiraToasts.regenFailed	重新生成知识失败
+jiraToasts.regenStarted	知识重新生成已开始
+jiraToasts.serviceAccountConnected	Jira 服务账户已连接
+jiraToasts.webhookFailed	刷新 Jira webhook 失败
+jiraToasts.webhookRefreshed	Jira webhook 已刷新
+knowledge.backToLegacyList	返回知识列表
+knowledge.cleanup.confirm	开始会话
+knowledge.cleanup.confirmDescription	这会启动一个真实 Devin 会话，和其他会话一样花你组织余额里的 ACU。Devin 会审查从你知识迁移来的技能，并在删除、合并或重命名之前暂停等你批准。
+knowledge.cleanup.confirmTitle	开始清理会话？
+knowledge.cleanup.description	跑一个会话：Devin 审查从你知识迁移来的技能，建议哪些删除、合并或重命名，并应用你批准的更改。
+knowledge.cleanup.failed	启动清理会话失败。请重试。
+knowledge.cleanup.run	运行清理会话
+knowledge.cleanup.title	清理你的知识
+knowledge.deprecationDescription	知识正在迁移为技能。你的笔记会自动转成 knowledge 插件中的技能，内容不变。Devin 在会话中像今天用你的笔记一样用它们，且它们仍存于 Devin，不在你的仓库里。什么都不丢，也不用你操作。
+knowledge.deprecationTitle	知识即将弃用
+knowledge.learnMore	了解更多
+knowledge.legacyTable.author	作者
+knowledge.legacyTable.createdAt	创建于
+knowledge.legacyTable.empty	未找到知识
+knowledge.legacyTable.folder	文件夹
+knowledge.legacyTable.loadError	无法加载知识
+knowledge.legacyTable.loadErrorDescription	请稍后重试。
+knowledge.legacyTable.name	名称
+knowledge.manager.addNewFolder	新建文件夹
+knowledge.manager.addSecrets	添加机密
+knowledge.manager.addSecretsReferenceSecretsWithSECRETNAME	添加机密。用 $SECRET_NAME 引用机密。
+knowledge.manager.addingDescriptionsToFoldersHelpsMakeTheAutomatic	给文件夹加描述能让自动组织更准。
+knowledge.manager.allAlreadyDisabled	所选项目都已禁用
+knowledge.manager.allAlreadyEnabled	所选项目都已启用
+knowledge.manager.allOrganizationsInYourEnterpriseWillInheritThis	你企业内的所有组织都会继承此知识
+knowledge.manager.allSessions	全部会话
+knowledge.manager.autoOrganize	自动整理
+knowledge.manager.autoOrganizeKnowledge	自动整理知识
+knowledge.manager.autoOrganizeSelection	自动整理所选
+knowledge.manager.automaticallyGeneratedKnowledge	自动生成的知识
+knowledge.manager.back	返回
+knowledge.manager.builtInKnowledge	内置知识
+knowledge.manager.bulkActions	批量操作
+knowledge.manager.clearSelection	清除选择
+knowledge.manager.cognitionsBuiltInKnowledgeCannotBeEditedBut	Cognition 的内置知识不能编辑，但随时可禁用。
+knowledge.manager.collapseFolder	折叠文件夹 {{name}}
+knowledge.manager.confirmOrganization	确认组织
+knowledge.manager.content	内容
+knowledge.manager.contents	内容
+knowledge.manager.create	创建
+knowledge.manager.createFolder	创建文件夹
+knowledge.manager.createFolderFirst	先建一个文件夹来组织知识
+knowledge.manager.createFolderToOrganize	至少要建一个文件夹才能自动整理知识
+knowledge.manager.createKnowledge	创建知识
+knowledge.manager.createdNewSecret	已创建新机密 ${{name}}
+knowledge.manager.creating	正在创建…
+knowledge.manager.delete	删除
+knowledge.manager.deleteFolder	删除文件夹
+knowledge.manager.deleteItems	删除条目
+knowledge.manager.deleteItemsDescription_one	确定要删除 {{count}} 个所选条目？此操作无法撤销
+knowledge.manager.deleteItemsDescription_other	确定要删除 {{count}} 个所选条目？此操作无法撤销
+knowledge.manager.deleteKnowledge	删除知识
+knowledge.manager.deleteKnowledgeConfirm	确定要删除知识「{{name}}」？此操作无法撤销。
+knowledge.manager.deleting	正在删除…
+knowledge.manager.deploymentChecklist	部署清单
+knowledge.manager.description	描述
+knowledge.manager.descriptionsHelpDevinAutomaticallyOrganizeKnowledge	描述帮 Devin 自动整理知识
+knowledge.manager.details	详情
+knowledge.manager.developingAWebAppFromScratch	从零开发一个 Web 应用
+knowledge.manager.devinAlwaysSeesPinnedKnowledgeInTheSelected	Devin 在所选仓库中总能看到置顶知识
+knowledge.manager.devinCanUseEnabledKnowledgeInYourSessions	Devin 能在你的会话中使用已启用知识。此设置只影响你的会话，不影响组织其他成员。
+knowledge.manager.devinMayNotRecallLongKnowledgeAccurately	Devin 可能无法准确记住长知识
+knowledge.manager.disable	禁用
+knowledge.manager.disabled	知识已禁用
+knowledge.manager.disabledSuccessfully	知识禁用成功
+knowledge.manager.disablingEllipsis	正在禁用知识…
+knowledge.manager.discardChanges	放弃更改

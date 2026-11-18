@@ -1,0 +1,41 @@
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.archiveChat	要归档单个嵌套聊天而不归档其会话，在会话列表或聊天标签开其上下文菜单选「归档」。聊天从会话列表隐并关，但没删。开会话列表筛选菜单开「已归档」再显它，再开上下文菜单选「取消归档」。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.archiveNudge	会话关联的 GitHub 拉取请求全合并且无聊天在工作或等输入时，聊天输入上方可能显归档建议。Tab 或 Shift+Tab 到「归档」「配置自动清理」或「忽略归档建议」，Enter 或空格激活。「配置自动清理」开自动归档不活跃已合会话、永久删自动归档已合会话的设置。「归档做啥？」下说明默认折叠。Tab 到它，Enter 或空格展收。「忽略归档建议」或建议聚焦时 Esc，为此会话隐建议（含重载后）直到归档或删除，焦点回聊天输入。归档会话把它从会话列表隐让你聚焦剩任务。会话没删。叫 agent 找它，或看会话列表「已归档」区。随时可取消归档。会话建的 worktree（若有）会删。取消归档会话可重建。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.archiveNudgeOnboarding	首次激活建议的「归档」或「标完」按钮时，聚光可能显出会话列表里该会话的操作。它稍等列表操作显出。操作等你激活高亮操作、激活「明白」或按 Esc 结束聚光。Tab 或 Shift+Tab 在高亮操作和「明白」间移，Enter 或空格激活。聚光显不了或被打断时，只要建议还可用会话仍被归档或标完。完成或跳过后聚光不再显。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.backgroundTint	设了背景图时，用命令面板或背景上下文菜单的「窗口着色匹配背景」开关匹配窗口颜色。勾表示着色开。关掉留背景图并恢复原窗口色。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.blobby	输 /blobby 不发聊天请求解锁真名。Blobby 关则开；已开则开「颜色」标签。宠物上下文菜单的「换颜色」总开颜色。Stable 和 Insiders 是自由选；真名解锁纯色和自定义色。激活真名成就卡或账户徽章也开颜色。用取色器或输不透明 hex 色如 #ff8800，再激活「应用颜色」。离开标签或关弹窗弃未应用自定义色。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.branchPickerUpstream	Git 仓库里新 Agent Host 会话，Tab 到分支选择器按 Enter 或空格选基分支。选「新 Worktree」时默认可用时选当前分支的跟踪上游；否则选默认分支。选择器列当前分支上游和非默认时的当前分支，然后默认分支远程跟踪分支和默认分支，再其它分支，组间分隔，开时聚焦所选分支。每分支带组名播报：当前分支、默认分支或分支。选「分支」时，已 checkout 的分支（所选分支）非默认时排首，随后默认分支自组，再其它分支。方向键选分支，Enter 选定。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.closePane	多会话面板可见时，移焦到面板头激活「关」从网格移该面板。关面板会话和其 worktree 仍在会话列表可用。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.compactArchiveNudge	成功用建议归档或标完会话三次后，后续建议以无说明的紧凑布局显。空间不够按钮折到标题下，「忽略」留右上。键盘序：归档或标完、配置、然后忽略。配置开同一自动清理设置。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.compactSessionPickers	空间不够时新会话选择器显图标不带标签、不换行。工作区名仍可见。仅图标选择器保其无障碍名和提示；激活看并改当前选择。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.compareAgents	新会话输入里，开实验模型选择器激活「比较模型」。「尝试」里选 2–10 个不同模型，或选一个模型并把「跑次」设 2–10。尝试继承当前工作区、分支、agent、权限。Tab 到「返回」和「下一步」。「评判」里可选个模型审查尝试并荐胜者。不选评判激活「完成」则只跑不审。选了评判激活「下一步」可选可选「合成器」。没合成器有审查没合成。再激活所选模型清除它。「返回」保你选。「完成」回编写器；激活「跑 N 个尝试」启动。Esc 关选择器不启动。会话列表开比较父项以可缩放网格开每个可用尝试。两个尝试面板都显聊天输入；三个以上只活跃面板显输入，聚焦另一面板显其输入。屏幕阅读器优化模式保每尝试输入可见。评判完后其聊天显胜尝试和分类简表（决定性比较证据、验证、代码质量、方案），随后其它尝试亮点。聚焦比较结果用「开无障碍视图{0}」以纯文本读其判定和尝试指标。Tab 到尝试名激活其链接显该会话。Tab 到「尝试时长和 token 用量」按 Enter 或空格展总时长总 token 表。激活「聚焦获胜会话」开推荐尝试，或用旁下拉聚焦别的尝试。可合成时「合成尝试」起评判默认方案。开「更多操作」菜单选「额外合成指令…」。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.compareAgentsConfiguration	草稿权限或模式更新时比较选择留着。更新完前「跑 N 个尝试」不可用。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.compareAgentsGroupActions	用比较头的「全标完」操作标其会话完，同其它组的确认和撤销。全员完时自动建的组移除。撤销恢复组和其会话。「删除组」在比较头上下文菜单仍可用。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.compareAgentsInactivePaneNotification	不活跃可见面板里问题工具要输入时，确认通知设置可在 Agents 窗口另一面板活跃时也显系统通知。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.compareAgentsInstructions	初始评判和合成消息折在「评判指令」或「合成指令」下。Tab 到摘要按 Enter 或空格展收完整指令。完整指令留在对话和其无障碍视图。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.compareAgentsOpenInGrid	尝试默认开始时以网格开。关 sessions.chat.compareAgents.openInGrid 则启动不自动导航。仍可选比较组开网格。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.compareAgentsRationaleOrder	评判结果以「尝试 N」标候选（带 agent、模型、档位），然后按序显「为何胜」：比较、验证、代码质量、方案。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.compareAgentsSetup	比较配置在你激活「完成」前是工作副本。每步有「取消」。取消、Esc 或点选择器外弃配置更改，保你先前单模型或已配比较可发。没完配置重开选择器不续。「完成」提交你选择并把模型标签改「N 个尝试」、发送改「跑 N 个尝试」。重开已配比较起这些选择的工作副本。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.compareAgentsTokenWarning	跑比较为每会话耗 token。「跑 N 个尝试」按钮悬停即显此警。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.connectionLog	为现有会话连 Dev Container 时，Tab 到「显日志」按 Enter 开 Dev Container 输出频道。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.conversationsAsSessionView	聊天直接在会话视图开，无标签行。并排聊天各显会话头。置顶让该聊天在别聊天开时仍可见。关则移该聊天组。关最后组即从网格关会话。非主聊天隐起可后重开。多聊天会话在会话溢出菜单用「显聊天标签」显多标签。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.conversationsAsTabs	单组多聊天以标签显时，标签行替会话头并含会话操作。并排聊天组保会话头且标签行紧凑。多聊天会话在会话溢出菜单用「显聊天标签」显单聊。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.copySessionLink	要复制在 Agents 窗口开 Agent Host 会话的浏览器链接，开会话上下文菜单选「复制链接」。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.copySessionRecord	pill 表单项时，其上下文菜单给该项的复制操作，如复制 URL 或文件路径。集合则开下拉用单行操作。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.deleteSandboxSession	Cloud 沙箱会话，「删除」即使环境离线也移其 Mission Control 任务和存的对话。删失败会话留列表。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.devContainerSamples	工作区选择器含「Dev Container 示例」。开子菜单用方向键和 Enter 选示例。选示例不起 Docker 也不克隆仓库。发首条提示时示例在 Docker 卷备好。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.doneChat	要标单个嵌套聊天完而不标其会话完，在会话列表或聊天标签开其上下文菜单选「标完」。聊天从会话列表隐并关，但没删。开会话列表筛选菜单开「已完成」再显它，再开上下文菜单选「恢复」。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.doneNudge	会话关联的 GitHub 拉取请求全合并且无聊天在工作或等输入时，聊天输入上方可能显标完建议。Tab 或 Shift+Tab 到「标完」「配置自动清理」或「忽略标完建议」，Enter 或空格激活。「配置自动清理」开自动归档不活跃已合会话、永久删自动归档已合会话的设置。「标完做啥？」下说明默认折叠。Tab 到它，Enter 或空格展收。「忽略标完建议」或建议聚焦时 Esc，为此会话隐建议（含重载后）直到标完或删除，焦点回聊天输入。标完会话把它从会话列表隐让你聚焦剩任务。会话没删。叫 agent 找它，或看会话列表「已完成」区。随时可恢复。会话建的 worktree（若有）会删。恢复会话可重建。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.externalSessionAdoption	给外部会话的 agent 发消息后，它成常规会话。其横幅和「外部」悬停标签消失，不再按外部分组或筛选。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.externalSessionContinuationBanner	首次开在别的应用建的会话时，横幅说明你可在此续。Codex 会话可用你的 ChatGPT 或 Copilot 订阅（模型选择器里选）。Claude 会话用你的 Copilot 订阅。Tab 到「关」按 Enter 或空格永久忽略所有外部会话的横幅，焦点回聊天输入。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.externalSessionImport	要不发消息就把外部会话变常规会话，在其行工具栏用「导入」（在归档或标完前），或聚焦会话从其上下文菜单选「导入{0}」。主机支持导入会话时此操作可用。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.externalSessionSectionArchived	外部会话显在「已归档」上方「外部」区，除非置顶或在自定义组。区空时隐。聚焦其标题开上下文菜单{0}配置显哪些外部会话或归档该区会话。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.externalSessionSectionDone	外部会话显在「已完成」上方「外部」区，除非置顶或在自定义组。区空时隐。聚焦其标题开上下文菜单{0}配置显哪些外部会话或标该区会话完。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.forkToSide	检查点处 Alt+点（macOS 上 Option+点）「分叉对话」按钮，把分叉在其源旁开。普通激活保现有行为。键盘则激活「分叉对话」，从会话列表重开源，再从分叉上下文菜单选「侧边打开」。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.githubContext	用「加上下文」附文件、图片，及可用时 GitHub 议题或拉取请求。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.harnessSwitchFeedbackSurvey	从 Copilot 切到 Local 后，聊天输入上方可能显反馈调查。Shift+Tab 到它。上下方向键选为何切换，Enter 或空格提交。「忽略调查」或 Esc 关调查。提交后消息确认反馈已记。Tab 到「在 GitHub 分享」在 GitHub 议题给具体反馈。「忽略反馈确认」或 Esc 关消息。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.layoutDensity	「查看 > 布局密度」选默认或紧凑，或改 window.density.layout 设置。默认用高标题栏。紧凑用矮标题栏、去部件间隙、缩面板间距。更改立即生效。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.mainChatToSide	要把主聊天在同侪聊天旁开，从会话行上下文菜单选「侧边打开」。也可 Alt+点（macOS 上 Option+点）该行或拖到聊天面板边。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.migrations	agent 定制项要更新时，新会话输入下通知显几个要注意。Tab 到「审查迁移」开迁移页。「忽略此工作区迁移通知」为该工作区隐通知（含重启后），焦点回输入。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.navigateChatTabs	聊天标签聚焦时，左右方向键移并激活相邻聊天标签，Home/End 激活首尾标签。放不下的标签激活时滚入视野。也可鼠标滚轮滚标签行，或拖悬停溢出标签时显的横向滚动条。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.nestedSubagentActivity	子 agent 再起子 agent 时，其活动行按名标嵌套子 agent。Tab 聚焦该链接按 Enter 或空格在当前聊天旁开嵌套子 agent 聊天。外围 pill 仍开父子 agent。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.newSessionInputControls.agentInAttachContext	新会话或跑中会话有 Agent 选择器时，它初始显在「加上下文」。开「加上下文」选「Agent」选 agent。选了 agent 后选择器回常位。其它新会话控件留在布局特定位置。Tab 到工具栏控件，方向键遍历工具栏项，Enter 或空格开选择器。

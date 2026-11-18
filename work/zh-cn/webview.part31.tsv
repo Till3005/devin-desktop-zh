@@ -1,0 +1,332 @@
+codeScan.scanSheetInteractiveMode	交互模式
+codeScan.scanSheetMultiDescription	一起扫描多个仓库，在单次扫描中报告发现项
+codeScan.scanSheetOrganizationWideDescription	对你组织的多个仓库各自独立批量扫描并报告
+codeScan.scanSheetProfile	档案
+codeScan.scanSheetProfileDescription	选档案聚焦特定发现项类型和模式，或不选做通用扫描
+codeScan.scanSheetRepository	仓库
+codeScan.scanSheetRepositoryDescription	选择一个连接到你组织的仓库
+codeScan.scanSheetScanType	扫描类型
+codeScan.scanSheetScanTypeRowDescription	一起或分开扫描仓库
+codeScan.scanSheetScopeExcludeDescription	匹配的文件模式被排除。留空不排除任何文件。
+codeScan.scanSheetScopeIncludeDescription	匹配的文件模式被包含。留空包含所有文件。
+codeScan.scanSheetScopePathsDescription	只扫这些目录。留空扫描整个仓库。
+codeScan.scanSheetSingleDescription	聚焦一个代码库，在单次扫描中报告发现项
+codeScan.scanSheetSingleScanDescription	一起扫描仓库，在单次扫描中报告发现项
+codeScan.scanSheetSingleScanTitle	单扫描
+codeScan.scanSheetSkill	技能
+codeScan.scanSheetSkillDescription	此扫描要遵循的指令。
+codeScan.scanSheetSkillSealed	此扫描要遵循的指令。前沿模型深度扫描中扫描器不加载技能，因此它只指导威胁模型和发现项优先级排序。
+codeScan.scanSheetSkipScannedDescription	排除已在此档案下扫过的仓库
+codeScan.scanSheetSkipScannedSecurityDescription	排除已有安全扫描的仓库
+codeScan.scanSheetSkipScannedSelectAllOnly	在选中所有匹配仓库时生效
+codeScan.scanSheetSplitScanTitle	分扫描
+codeScan.scanSheetSubmitButton	开始扫描
+codeScan.scanSheetTarget	目标
+codeScan.scanSheetTargetRepository	目标仓库
+codeScan.scanSheetTargetRepositoryDescription	选择你想让 Devin 扫漏洞的代码库
+codeScan.scanSheetThreatModelDescription	选好仓库。继续后你会和 Devin 聊出威胁模型，也可以选择把扫描聚焦到特定目录或风险。
+codeScan.scanSheetType	类型
+codeScan.scanSheetValidationSkill	验证技能
+codeScan.scanSheetValidationSkillDescription	开启运行时验证：会话按此技能对运行中的构建验证严重、高和中危发现项。留空跳过运行时验证。
+codeScan.scanStarted	扫描已开始
+codeScan.scanSummary	扫描摘要
+codeScan.scanType	扫描类型
+codeScan.scanTypeAccessibility	无障碍
+codeScan.scanTypeAccessibilityDescription	扫描你的前端中不符合无障碍规范（WCAG）的地方——缺标签、键盘不可达、对比度低等。
+codeScan.scanTypeCategoryCodeQuality	代码质量
+codeScan.scanTypeCategoryCompliance	合规
+codeScan.scanTypeCategoryCustom	自定义
+codeScan.scanTypeCategoryDocumentation	文档
+codeScan.scanTypeCategoryObservability	可观测性
+codeScan.scanTypeCategoryReliability	可靠性
+codeScan.scanTypeCleanup	清理
+codeScan.scanTypeCleanupDescription	扫描代码库中可在不改变行为的前提下清理的混乱、冗余和过度设计的代码。
+codeScan.scanTypeCodeQuality	代码质量
+codeScan.scanTypeCodeQualityDescription	扫描代码库中让代码更难读、更难改、更难保持正确的可维护性问题。
+codeScan.scanTypeCompliance	合规
+codeScan.scanTypeComplianceDescription	扫描代码库相对你档案定义的法规、标准和策略的差距——敏感数据处理、审计轨迹、留存等。
+codeScan.scanTypeDbQueries	数据库查询
+codeScan.scanTypeDbQueriesDescription	扫描代码中每一处数据存储查询，找出各类问题——低效、错误、不安全或不可靠的查询。
+codeScan.scanTypeDeadCode	死代码
+codeScan.scanTypeDeadCodeDescription	扫描代码库中再无人触达的代码——可安全移除的未用函数、模块、开关和依赖。
+codeScan.scanTypeFixedDescription	创建后不可变
+codeScan.scanTypeGeneral	自定义
+codeScan.scanTypeGeneralDescription	扫描代码库中你定义的任何内容——你附上的扫描档案决定具体找什么。
+codeScan.scanTypeMigrationDocs	迁移文档
+codeScan.scanTypeMigrationDocsDescription	追踪并记录你代码的端到端流程和业务逻辑，产出带图表的可迁移文档。
+codeScan.scanTypePerformance	性能
+codeScan.scanTypePerformanceDescription	扫描代码库中的性能问题以及让代码更快更高效的机会。
+codeScan.scanTypeSecurity	安全
+codeScan.scanTypeTelemetry	遥测
+codeScan.scanTypeTelemetryDescription	扫描代码库中需要遥测或埋点的地方。
+codeScan.scanTypeTestCoverage	测试覆盖
+codeScan.scanTypeTestCoverageDescription	扫描代码库中没有被测试覆盖的流程和组件。
+codeScan.scanUnarchived	扫描已取消归档
+codeScan.scanWaitingInQueue	它会自动开始。扫描时长取决于仓库大小。发现项会陆续显示在这里。
+codeScan.scanning	正在扫描…
+codeScan.scanningNewCommits	正在扫描新提交
+codeScan.scanningNewCommitsTitle	Devin 正在扫描新提交
+codeScan.scanningTitle	Devin 正在扫描代码库
+codeScan.scans	扫描
+codeScan.scansHeading	扫描
+codeScan.search	搜索
+codeScan.searchAutomations	搜索自动化
+codeScan.searchAutomationsPlaceholder	搜索自动化…
+codeScan.searchFindings	搜索发现项
+codeScan.searchProfiles	搜索档案
+codeScan.searchProfilesPlaceholder	搜索档案…
+codeScan.searchRepositoriesPlaceholder	搜索仓库
+codeScan.searchScanTypes	搜索扫描类型…
+codeScan.searchScans	搜索扫描
+codeScan.searchScansPlaceholder	搜索扫描…
+codeScan.securityAutomationTitle	安全自动化
+codeScan.securityProfileTitle	安全档案
+codeScan.securityScanTitle	安全扫描
+codeScan.selectAProfile	选择一个档案
+codeScan.selectAll	全选
+codeScan.selectAllFallback	无法选中全部匹配。你的选择只含目前加载的发现项。
+codeScan.selectAllFindings	选择全部发现项
+codeScan.selectAllRepositories	选择全部仓库
+codeScan.selectAllSeverity	选择全部{{severity}}
+codeScan.selectFinding	选择发现项
+codeScan.selectRepository	选择仓库
+codeScan.selectRepositoryToScan	请至少选择一个要扫描的仓库。
+codeScan.selectedOfTotal	已选 {{total}} 中 {{selected}} 个
+codeScan.selectingMatchingFindings	正在选择匹配发现项…
+codeScan.sendFeedback	发送反馈
+codeScan.session	会话
+codeScan.sessions	会话
+codeScan.setUpComplianceScanForSystemPrompt	帮我为已有体系「{{name}}」（体系标识名 `{{slug}}`）设置并启动一次新的合规扫描。先和我确认新的控制条目来自哪个框架或标准，然后创建档案时把 `system.slug` 设为 `{{slug}}`、把 `framework` 对应设好，让它在「合规」页与该体系的其他条目汇总在一起。
+codeScan.setUpComplianceScanPrompt	帮我设置并启动一次新的合规扫描。创建档案前先和我确认它评估哪个体系（一个授权边界：其仓库和路径）以及其控制条目来自哪个框架或标准，然后在档案上同时设置 `system` 和 `framework`，让它在「合规」页与该体系的其他条目汇总在一起。
+codeScan.setUpScanPrompt	帮我设置并启动一次新的代码扫描。
+codeScan.setUpScanPromptWithType	帮我设置并启动一次新的 {{scanType}} 扫描。
+codeScan.setUpWithDevin	让 Devin 设置
+codeScan.settingUpScan	Devin 正在设置你的扫描
+codeScan.settingUpScanChatHint	Devin 会在聊天中提问。
+codeScan.settingUpScanDescription	Devin 可能先在聊天中问你几个问题。回答可选，但能让结果更聚焦。
+codeScan.settingUpScanShowChat	显示聊天
+codeScan.severity	严重性
+codeScan.severityUpdated	严重性已更新
+codeScan.showFindingsPanel	显示发现项面板
+codeScan.showMore	显示更多
+codeScan.skipAlreadyScannedRepositories	跳过已扫描仓库
+codeScan.stagingOnly	仅预发环境
+codeScan.startDevinSession	发给 Devin
+codeScan.startScan	开始扫描
+codeScan.startScanDescription	开始一次扫描，在你的仓库间搜索发现项。
+codeScan.starting	正在启动…
+codeScan.startingScan	正在启动…
+codeScan.statClosedPrs	已关闭 PR
+codeScan.statCreatedPrs	已创建 PR
+codeScan.statMergeRate	合并率
+codeScan.statMergedPrs	已合并 PR
+codeScan.statOpenPrs	打开 PR
+codeScan.stateError	错误
+codeScan.status	状态
+codeScan.statusDismissed	已忽略
+codeScan.statusFixReady	可修复
+codeScan.statusNoteLabel	备注
+codeScan.statusNotePlaceholder	给你的团队补充上下文
+codeScan.statusOpen	打开
+codeScan.statusResolved	已审查
+codeScan.stopScan	停止扫描
+codeScan.stopScanTitle	停止此扫描？
+codeScan.subDevinsWorking_one	{{count}} 个子 Devin 正在处理此扫描
+codeScan.subDevinsWorking_other	{{count}} 个子 Devin 正在处理此扫描
+codeScan.submit	提交
+codeScan.submitting	正在提交…
+codeScan.summary	摘要
+codeScan.summaryCrumb	摘要
+codeScan.summaryDescription_one	{{count}} 个打开的发现项待审查
+codeScan.summaryDescription_other	{{count}} 个打开的发现项待审查
+codeScan.summaryDuration	耗时 {{duration}}
+codeScan.summaryHeadline	Devin 在 {{repo}} 中的发现
+codeScan.summaryProfile	档案：{{name}}
+codeScan.summaryScanQueued	此扫描已排队，会自动开始——Devin 报告的发现项会显示在这里。全量扫描时长取决于仓库大小。
+codeScan.summaryScanRunning	此扫描仍在运行——Devin 报告的发现项会显示在这里。全量扫描时长取决于仓库大小。
+codeScan.sunday	星期日
+codeScan.threatModelDescription	Devin 根据你的代码和基础设施仓库为此档案写的威胁模型。它用于给发现项排序，永远不会共享给扫描器。
+codeScan.threatModelEmpty	还没有威胁模型。
+codeScan.threatModelPlaceholder	威胁模型 markdown…
+codeScan.threatModelSaveFailed	保存威胁模型失败
+codeScan.threatModelScanSubmitButton	继续（让 Devin 处理）
+codeScan.threatModelTitle	威胁模型
+codeScan.thursday	星期四
+codeScan.time	时间
+codeScan.timeLabel	时间
+codeScan.timeLatestRun	最近运行时间
+codeScan.topFindings	主要发现项
+codeScan.total	总计
+codeScan.trendDown	较前 {{count}} 天下降
+codeScan.trendNoChange	较前 {{count}} 天无变化
+codeScan.trendUp	较前 {{count}} 天上升
+codeScan.triageGuidanceHint	Devin 如何去重和排优先级
+codeScan.triageGuidanceLabel	分诊指引
+codeScan.triageGuidancePlaceholder	关于 Devin 应如何去重和排优先级的指令…
+codeScan.tryDifferentSearch	换个搜索试试。
+codeScan.tryRefreshing	试试刷新页面。
+codeScan.tuesday	星期二
+codeScan.type	类型
+codeScan.unarchive	取消归档
+codeScan.unarchivingScan	正在取消归档扫描…
+codeScan.unlinkDevin	取消 Devin 关联
+codeScan.unlinkDevinFailed	取消 Devin 关联失败
+codeScan.unlinkedDevin_one	已取消 {{count}} 个发现项与 Devin 的关联
+codeScan.unlinkedDevin_other	已取消 {{count}} 个发现项与 Devin 的关联
+codeScan.unresolvedSeverityCount_one	{{severity}}：{{count}} 个未解决发现项
+codeScan.unresolvedSeverityCount_other	{{severity}}：{{count}} 个未解决发现项
+codeScan.unsupportedProfileMode	此扫描档案用了不支持的模式。
+codeScan.untitledProfile	未命名档案
+codeScan.uploading	正在上传…
+codeScan.usage	用量
+codeScan.usageAllRuns	用量（{{count}} 次运行）
+codeScan.usageAvailableAgain	用量已恢复
+codeScan.usageAvailableAgainDescription	恢复后从扫描停下的地方继续。你的进度已保存。
+codeScan.validateWithDevin	用 Devin 验证
+codeScan.validationArtifacts	验证产物
+codeScan.validationConfirmed	已确认
+codeScan.validationFailed	启动验证失败
+codeScan.validationFalsePositive	误报
+codeScan.validationInconclusive	无法确定
+codeScan.validationSeverityDescription	只有此严重性及以上的发现项会在沙箱中验证
+codeScan.validationSeverityTitle	验证的严重性
+codeScan.validationSkipped_one	已跳过 {{count}} 个匹配发现项：已审查或正在验证中
+codeScan.validationSkipped_other	已跳过 {{count}} 个匹配发现项：已审查或正在验证中
+codeScan.validationStarted_one	已开始验证 {{count}} 个发现项
+codeScan.validationStarted_other	已开始验证 {{count}} 个发现项
+codeScan.validationUnvalidated	未验证
+codeScan.viewAllFindings	查看全部发现项
+codeScan.viewAttachments	启动此扫描时附上的文件
+codeScan.viewBreakdown	查看细分
+codeScan.viewFeedbackSession	查看反馈会话
+codeScan.viewFixSession	查看修复会话
+codeScan.viewPr	查看 PR
+codeScan.viewPrNumber	查看 PR #{{prNumber}}
+codeScan.viewReports	查看此扫描的 Devin 生成报告
+codeScan.viewSession	查看会话
+codeScan.visibilityDescription	组织档案留在本组织。企业档案跨所有组织。
+codeScan.visibilityTitle	可见性
+codeScan.waiting	等待中
+codeScan.wednesday	星期三
+codeScanSelect.loadFailed	加载扫描失败
+codeScanSelect.loading	正在加载扫描…
+codeScanSelect.noScans	未找到扫描
+codeScanSelect.searchScans	按仓库搜索扫描…
+codemapViewer.diagram	图
+codemapViewer.fallbackTitle	代码地图
+codemapViewer.loading	正在加载代码地图…
+codemapViewer.moreOpenOptions	更多打开方式
+codemapViewer.openInDesktop	在 Devin Desktop 中打开
+codemapViewer.openInDesktopNext	在 Devin Desktop Next 中打开
+codemapViewer.progress.foundFiles	找到匹配「{{pattern}}」的文件
+codemapViewer.progress.opened	已打开 {{name}}
+codemapViewer.progress.processing	正在处理
+codemapViewer.progress.read	已读 {{name}}
+codemapViewer.progress.readLines	已读 {{name}}（第 {{start}}-{{end}} 行）
+codemapViewer.progress.searched	已搜索「{{pattern}}」
+codemapViewer.resizePanels	调整面板大小
+codemapViewer.selectLocation	选择一个位置查看其文件
+codemapViewer.traces	追踪
+codemapViewer.unavailable	代码地图不可用
+codemapViewer.unavailableBody	此代码地图不存在或你没有访问权限。
+combinedModal.clickOrDrop	点击或把文件拖到这里
+combinedModal.dialogLabel	上传文件
+combinedModal.maxFileSize	最大文件大小：75MB
+combinedModal.supportedFileTypes	支持的文件类型：.txt、.md、.pdf、.jpg、.png 等
+comboboxFilter.noOptionsAvailable	无可用选项
+comboboxFilter.noOptionsFound	未找到选项
+comboboxFilter.search	搜索…
+comboboxFilter.selectOption	选择选项…
+commandList.add	添加
+commandList.insertCommand	插入命令
+commandList.noCommands	无命令
+commandList.placeholder	如 cd ~/path/to/repo && npm install
+commandList.setupCommand	设置命令
+commandList.startupCommands	启动命令
+commandList.tipHomeDirectory	• 启动命令在主目录执行
+commandList.tipOrder	• 按列出顺序执行
+commandList.tipTimeout	• 每条命令超时 2 分钟
+commandPalette.accessibility	无障碍
+commandPalette.accessibilitySettings	无障碍设置
+commandPalette.admin	管理
+commandPalette.adminPanel	管理面板
+commandPalette.allSessions	全部会话
+commandPalette.archiveSession	归档会话
+commandPalette.bestMatch	最佳匹配
+commandPalette.botMessageFailed	无法把你的消息发给 {{name}}。请重试。
+commandPalette.botMessageSent	消息已发给 {{name}}
+commandPalette.bots	{{botNamePlural}}
+commandPalette.calloutReset	重置 {{name}}
+commandPalette.changeLanguage	更改语言
+commandPalette.changeTheme	更改主题
+commandPalette.chatWidthDefault	聊天宽度默认
+commandPalette.chatWidthWide	聊天宽度加宽
+commandPalette.cloudSetup	从此项目设置 Devin Cloud
+commandPalette.cloudSetupFailed	无法启动云端设置预览。请重试。
+commandPalette.copyDevinId	复制 Devin ID
+commandPalette.copyEnterpriseId	复制企业 ID
+commandPalette.copyOrganizationId	复制组织 ID
+commandPalette.createReplay	创建回放
+commandPalette.customizeHooks	钩子
+commandPalette.customizeMcps	MCP
+commandPalette.customizeMemory	记忆
+commandPalette.customizePlugins	插件
+commandPalette.customizeRules	规则
+commandPalette.customizeSkills	技能
+commandPalette.darkMode	深色模式
+commandPalette.devinIdCopied	Devin ID 已复制
+commandPalette.dialogLabel	命令面板
+commandPalette.disableSyncTo	关闭同步到 {{label}}
+commandPalette.dismissedCalloutsReset	已忽略的提示已重置
+commandPalette.enableSyncTo	开启同步到 {{label}}
+commandPalette.enterpriseIdCopied	企业 ID 已复制
+commandPalette.errorLookup	错误查询
+commandPalette.eventRenderer	事件渲染器
+commandPalette.failedResetOnboarding	重置入门引导失败
+commandPalette.failedToChangeLanguage	更改语言失败
+commandPalette.failedToCopyEnterpriseId	复制企业 ID 失败
+commandPalette.failedToCopyOrganizationId	复制组织 ID 失败
+commandPalette.failedToResetDismissedCallouts	重置已忽略提示失败
+commandPalette.failedToResetReviewOnboarding	重置 Devin Review 引导失败
+commandPalette.highContrastOff	高对比度关
+commandPalette.highContrastOn	高对比度开
+commandPalette.highContrastSystem	高对比度跟随系统
+commandPalette.ideCommandFile	文件
+commandPalette.ideCommandLine	行
+commandPalette.ideCommandSymbol	符号
+commandPalette.ideCommandText	文本
+commandPalette.ideConnecting	正在连接 Devin 的机器…IDE 搜索会在其上线后可用。
+commandPalette.ideConnectionFailed	无法连接 Devin 的机器。
+commandPalette.ideDevinAsleep	Devin 已休眠——IDE 搜索需要机器在线。
+commandPalette.ideGoToLine	跳到 {{file}} 第 {{line}} 行
+commandPalette.ideGoToLineWithColumn	跳到 {{file}} 第 {{line}} 行第 {{column}} 列
+commandPalette.ideModeFiles	转到文件
+commandPalette.ideModeFilesInput	搜索文件…
+commandPalette.ideModeFilesPlaceholder	按名称搜文件（末尾加 :42 跳到某行）…
+commandPalette.ideModeGoToLine	转到行
+commandPalette.ideModeGoToLineInput	转到行…
+commandPalette.ideModeGoToLinePlaceholder	转到行（如 42 或 42:7）…
+commandPalette.ideModeHelp	IDE 搜索帮助
+commandPalette.ideModeHelpInput	搜索 IDE 模式…
+commandPalette.ideModeHelpPlaceholder	IDE 搜索模式
+commandPalette.ideModeSymbols	转到工作区符号
+commandPalette.ideModeSymbolsInput	搜索符号…
+commandPalette.ideModeSymbolsPlaceholder	在工作区中搜索符号（以 : 开头按类别分组）…
+commandPalette.ideModeText	搜索文本
+commandPalette.ideModeTextInput	搜索文本…
+commandPalette.ideModeTextPlaceholder	在工作区中搜索文本…
+commandPalette.ideOpenFileToGoToLine	打开一个文件以跳转到某行。
+commandPalette.ideRetryConnection	重试连接
+commandPalette.ideSearch	IDE 搜索
+commandPalette.ideSessionEnded	此会话已结束——IDE 搜索不可用。
+commandPalette.ideTypeLineNumber	在 {{file}} 中输入行号（如 42 或 42:7）。
+commandPalette.impersonate	模拟身份
+commandPalette.lightMode	浅色模式
+commandPalette.logs	日志
+commandPalette.messageBot	发消息
+commandPalette.messageBotPlaceholder	给 {{name}} 发消息…
+commandPalette.messageHistory	消息历史：{{next}}
+commandPalette.navigate	导航
+commandPalette.noEnterpriseIdFound	未找到企业 ID
+commandPalette.noOrganizationIdFound	未找到组织 ID
+commandPalette.onboardingFlow	入门流程

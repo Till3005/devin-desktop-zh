@@ -1,0 +1,314 @@
+reactions.people_other	{{count}} 人
+reactions.summary	反应：{{groups, list(type: unit)}}
+readiness.add	添加
+readiness.agentModel	Agent 模型
+readiness.agentModelDescription	Agent Readiness 用并行的 Devin 会话集群。选它们跑在哪个模式
+readiness.allLevelsMet	全部等级达成
+readiness.assessedAt	评估于 {{date}}
+readiness.assessmentAlreadyFinished	评估已完成
+readiness.assessmentAlreadyRunning	已有评估在跑
+readiness.assessmentCancelled	评估已取消
+readiness.assessmentRunning	评估运行中…
+readiness.assessmentRunningHint	评估在跑。完成后结果显示在这里。
+readiness.assessmentStarted	评估已开始
+readiness.assessmentSummary	评估摘要
+readiness.blockerAcusWasted	{{value}} ACU 被浪费
+readiness.blockerAcusWastedToDate	至今浪费的 ACU
+readiness.blockerNotSeenSince	{{date}} 后未再出现
+readiness.blockerSessionsOverTime	会话随时间
+readiness.blockerSparklineSeries	每日会话
+readiness.blockerStatBlocked	被阻塞
+readiness.blockerStatSlowed	被拖慢
+readiness.blockersLoadFailed	阻塞项加载失败。
+readiness.burdenRemaining	{{phases}} 占剩余 {{percent}}%。
+readiness.burdenTitle	会话时间花在哪
+readiness.burdenWindow	最近 {{days}} 天 · 抽样 {{sampled}} 中 {{segmented}} 个会话
+readiness.cancelAssessment	取消评估
+readiness.cancelAssessmentFailed	取消评估失败
+readiness.cancelling	正在取消…
+readiness.capabilityAnalytics	产品分析
+readiness.capabilityAnalyticsDescription	访问产品用量和行为数据
+readiness.capabilityDocs	文档
+readiness.capabilityDocsDescription	搜索和引用你团队的文档
+readiness.capabilityFeatureFlags	功能 flag
+readiness.capabilityFeatureFlagsDescription	访问和管理功能 flag
+readiness.capabilityIncidents	事件管理
+readiness.capabilityIncidentsDescription	访问和响应事件与告警
+readiness.capabilityObservability	可观测
+readiness.capabilityObservabilityDescription	监控错误、日志和应用健康
+readiness.categoryAnalytics	分析
+readiness.categoryBlueprint	环境设置
+readiness.categoryBreakdown	分类明细
+readiness.categoryBreakdownDescription	每类的建议，附会话在其上的花费
+readiness.categoryChat	聊天
+readiness.categoryChatDescription	与你团队沟通协作
+readiness.categoryDocs	文档与 agent 上下文
+readiness.categoryE2e	本地开发与端到端
+readiness.categoryNotAssessed	无适用检查
+readiness.categoryObservability	可观测
+readiness.categorySecurityAccess	安全与访问
+readiness.categorySourceControl	源码控制
+readiness.categorySourceControlDescription	访问仓库、分支和拉取请求
+readiness.categoryTests	测试
+readiness.categoryTickets	工单系统
+readiness.categoryTicketsDescription	访问和管理工单与项目工作
+readiness.categoryValidation	构建与验证
+readiness.checkEvidenceCount	检查证据（{{count}}）
+readiness.checkFinding_one	发现项
+readiness.checkFinding_other	发现项
+readiness.checks	检查
+readiness.checksDescription	此评估跑的每个检查，按范围分组。
+readiness.checksPassed	已通过检查
+readiness.checksPassedRatio	{{applicable}} 中 {{passed}} 个检查通过
+readiness.checksPassedShort	个检查通过
+readiness.checksPassing	{{applicable}} 中 {{passed}} 个通过
+readiness.commit	提交
+readiness.connected	已连接
+readiness.connectionsDescription	Devin 从此组织能连到的工具。
+readiness.connectionsLoadFailed	无法加载连接
+readiness.connectionsLoadFailedDescription	查 Devin 能连哪些工具时出错。
+readiness.connectionsTitle	连接
+readiness.coreChecks	核心检查
+readiness.couldNotVerify	无法验证
+readiness.createAssessment	创建评估
+readiness.createReport	创建报告
+readiness.createReportDescription	企业里所有组织的所有会话都可用
+readiness.createdAgo	创建于 {{ago}}
+readiness.customCheckAccount	账户
+readiness.customCheckOrg	组织
+readiness.customChecks	自定义检查
+readiness.customChecksAdd	加检查
+readiness.customChecksCount	{{max}} 中 {{count}} 个检查
+readiness.customChecksDescription	给你自己的工具链定检查，与 Cognition 的检查一起跑。
+readiness.customChecksDescriptionField	检查
+readiness.customChecksDescriptionHelp	什么必须为真、Devin 该怎么验。可含命令作指引
+readiness.customChecksEmptyDescription	自定义检查描述仓库里对你自己的工具链必须为真的东西，Devin 在就绪评估中逐条验证。它们与 Cognition 的检查并列，永远不改就绪等级。
+readiness.customChecksEmptyTitle	还没有自定义检查
+readiness.customChecksErrorDuplicateTitle	另一个检查已用此标题
+readiness.customChecksErrorRequired	必填
+readiness.customChecksErrorTooLong	至多 {{limit}} 字符
+readiness.customChecksFixErrors	保存前修好标出的字段。
+readiness.customChecksInherited	由你企业设定
+readiness.customChecksLoadFailed	加载自定义检查失败。
+readiness.customChecksLoadFailedTitle	出错了
+readiness.customChecksOrganization	由你组织设定
+readiness.customChecksPageDescription	你组织自己的工具链和规范的检查。它们在每个仓库与 Cognition 的检查一起评估，但永远不改就绪等级。
+readiness.customChecksRationale	为何重要
+readiness.customChecksRationaleHelp	像 Cognition 的检查一样显示在结果旁
+readiness.customChecksReadOnly	你可看自定义检查，但要管理 agent readiness 权限才能改。
+readiness.customChecksRemove	移除
+readiness.customChecksRevisionMeta	修订 {{revision}} · 存于 {{date}}
+readiness.customChecksSave	保存
+readiness.customChecksSaveFailed	保存自定义检查失败。
+readiness.customChecksSaved	已存为修订 {{revision}}——应用于每个仓库的下一次评估
+readiness.customChecksSaving	正在保存…
+readiness.customChecksTitle	标题
+readiness.customChecksUntitled	检查 {{index}}
+readiness.customConnectionConnectedOrgs_one	{{count}} 个组织中 {{connected}} 个已连
+readiness.customConnectionConnectedOrgs_other	{{count}} 个组织中 {{connected}} 个已连
+readiness.customConnectionDefaultHint	自定义连接检查
+readiness.customConnectionError	检查失败
+readiness.customConnectionNoOrgsChecked	还没在任何组织检查
+readiness.customConnectionNotChecked	未检查
+readiness.customConnectionUnknown	未知
+readiness.customConnections	自定义连接
+readiness.customConnectionsAdd	加连接
+readiness.customConnectionsChecking	正在检查…
+readiness.customConnectionsConnectHint	怎么连接
+readiness.customConnectionsConnectHintHelp	系统未连接时在「连接」上显示——如找谁或开哪个机密
+readiness.customConnectionsCount	{{max}} 中 {{count}} 个连接
+readiness.customConnectionsDescription	描述 Devin 该能连到的系统，从「连接」验证。
+readiness.customConnectionsDescriptionField	Devin 该连到什么
+readiness.customConnectionsDescriptionHelp	用大白话：Devin 该连到的系统、怎么判断访问可用。Devin 用你组织的机密、MCP 服务器和集成做只读验证
+readiness.customConnectionsDescriptionPlaceholder	如：用 SONARQUBE_TOKEN 组织机密调 GET https://sonarqube.example.com/api/authentication/validate 并确认返回 valid: true
+readiness.customConnectionsEmptyDescription	描述 Devin 该连到的系统，如你的 SonarQube 或 Artifactory，以及怎么判断访问可用。Devin 用你组织的机密、MCP 服务器和集成做只读验证。
+readiness.customConnectionsEmptyHint	从「自定义连接」加 Devin 该能连到的系统，如你的 SonarQube 或 Artifactory。
+readiness.customConnectionsEmptyTitle	还没有自定义连接
+readiness.customConnectionsInheritedConnectHint	怎么连接：{{hint}}
+readiness.customConnectionsLastChecked	上次检查 {{date}}
+readiness.customConnectionsLoadFailed	无法加载检查状态
+readiness.customConnectionsManage	管理
+readiness.customConnectionsNotChecked	还没检查
+readiness.customConnectionsPageDescription	Devin 该能连到的系统，如你的 SonarQube 或 Artifactory。显示在「连接」上，与就绪评估分开验证。
+readiness.customConnectionsRefresh	刷新
+readiness.customConnectionsRefreshFailed	无法启动检查
+readiness.customConnectionsRefreshHelp	在带此组织机密和 MCP 服务器的会话里只读跑每个检查。
+readiness.customConnectionsRunFailed	上次检查跑不了
+readiness.customConnectionsRunFailedWithError	上次检查跑不了：{{error}}
+readiness.customConnectionsSaved	已存为修订 {{revision}}——应用于下次连接刷新
+readiness.customConnectionsTitle	自定义连接
+readiness.customConnectionsUntitled	连接 {{index}}
+readiness.degradedAssessment	降级评估
+readiness.durationHours	{{hours}} 小时
+readiness.durationMinutes	{{minutes}} 分钟
+readiness.effortDifficult	难修
+readiness.effortModerate	中等修复
+readiness.effortTrivial	易修
+readiness.enterpriseConnectionsDescription	Devin 跨此企业能连到的工具。
+readiness.enterpriseCustomConnectionsDescription	你企业定义的检查，按每个组织最近一次运行计。
+readiness.enterprisePageDescription	跨你企业每个仓库对 agent 工作就绪到什么程度，逐条准则评估。
+readiness.enterpriseRepositoriesDescription	每个已评估仓库的就绪等级。在多组织连接的仓库只出现一次，取最新评估。
+readiness.enterpriseRepositoriesScoreDescription	每个已评估仓库的得分：其检查通过的百分比。在多组织连接的仓库只出现一次，取最新评估。
+readiness.evidence	证据
+readiness.evidenceCount	证据（{{count}}）
+readiness.exclusionReasonDormant	休眠：最近 90 天无提交
+readiness.exclusionReasonGenerated	生成代码
+readiness.exclusionReasonInactive	不活跃
+readiness.exclusionReasonNestedInParent	作为其父范围一部分评估
+readiness.exclusionReasonNoBuildIdentity	无自己的构建工具
+readiness.exclusionReasonNotAScope	非独立应用
+readiness.exclusionReasonOverCap	超单次评估范围上限
+readiness.exclusionReasonVendored	Vendor 代码
+readiness.failingCriteriaImplicated_one	{{count}} 条未过准则相关
+readiness.failingCriteriaImplicated_other	{{count}} 条未过准则相关
+readiness.findingAffectedChecks	受影响检查
+readiness.findingCount_one	{{count}} 个发现项
+readiness.findingCount_other	{{count}} 个发现项
+readiness.findingLocus	位置
+readiness.findingNoSessions_one	最近一天没有会话碰到。
+readiness.findingNoSessions_other	最近 {{count}} 天没有会话碰到。
+readiness.findingScopeMore	{{scope}} +{{more}} 更多
+readiness.findingSessions	会话
+readiness.findingStatusBlocker	阻塞项
+readiness.findingStatusDismissed	已忽略
+readiness.findingStatusFailedCheck	未过检查
+readiness.findingStatusFixed	已修
+readiness.findingStatusNote	备注
+readiness.findingTypeHypothetical	假设性问题
+readiness.findingTypeIssue	真实问题
+readiness.findingTypeRecommendation	建议
+readiness.findings	发现项
+readiness.fixFailed	启动修复会话失败。
+readiness.fixInProgress	此发现项已有修复会话在跑。
+readiness.fixStale	此发现项在页面加载后有变化。正在刷新。
+readiness.fixWithDevin	用 Devin 修复
+readiness.fixableSuggestions	可修建议
+readiness.fixedCount_one	已修 {{count}} 个
+readiness.fixedCount_other	已修 {{count}} 个
+readiness.frequencyDaily	每天
+readiness.frequencyDailyDetail	每天 <time /> 跑
+readiness.frequencyDefault	默认
+readiness.frequencyManual	手动
+readiness.frequencyWeekly	每周
+readiness.frequencyWeeklyDetail	每周 <weekday /> <time /> 跑
+readiness.goToBlueprint	前往 blueprint
+readiness.insightSummary	洞察摘要
+readiness.insightsDescription	最新评估发现了什么
+readiness.insightsTitle	洞察
+readiness.latestAssessmentFailed	最新评估失败：{{error}}
+readiness.levelBadge	L{{level}}
+readiness.levelHistoryFailed	加载等级历史失败。
+readiness.levelHistoryOnlyOne	目前只有一次评估——再跑一次看趋势
+readiness.levelHistoryRange	{{from}} – {{to}}
+readiness.levelLabel	等级
+readiness.levelNumber	等级 {{level}}
+readiness.levelOverTime	等级随时间
+readiness.loadAssessmentFailed	加载就绪评估失败。
+readiness.loadAssessmentsFailed	加载就绪评估失败。
+readiness.loadingRepositories	正在加载仓库
+readiness.manage	管理
+readiness.maxScopeAdvanced	最大范围（高级）
+readiness.maxScopeHint	最多 100
+readiness.mcpServers	MCP 服务器
+readiness.moreScanActions	更多扫描操作
+readiness.noAssessmentForRepo	此仓库没有就绪评估。
+readiness.noAssessmentsInEnterprise	从任一组织的「洞察」页跑的评估会出现在这里。
+readiness.noAssessmentsInOrg	{{org}} 还没有评估。从那个组织的「洞察」页跑一次。
+readiness.noCompletedAssessment	还没有完成的评估
+readiness.noFailingCriteriaLinked	无关联的未过准则
+readiness.noFindings	没有发现项
+readiness.noFindingsNoScanDescription	还没有仓库扫描。
+readiness.noFindingsUnscannedDescription	还没有仓库扫描，会话也没在此仓库碰到问题。
+readiness.noReposAssessed	还没有已评估仓库
+readiness.noReposAssessedHint	在上方选一个仓库跑评估，看它对 agent 有多就绪。
+readiness.noReposAssessedReadOnly	有权限的人跑评估后会出现在这里。
+readiness.noServersInstalled	没有已装服务器
+readiness.noneEnabled	未启用任何
+readiness.notApplicableBlockedByUpstream	被此范围内上游失败挡住
+readiness.notApplicableDependency	前置准则未过
+readiness.notApplicableEcosystem	此生态不适用
+readiness.notApplicableNotUserFacing	非面向用户的产品面
+readiness.notApplicableRepoUpstream	被仓库级失败挡住
+readiness.notApplicableTypeInapplicable	不适用于此类范围
+readiness.notAssessed	未评估
+readiness.notAssessedShort	—
+readiness.notConnected	未连接
+readiness.notScanned	未扫描
+readiness.notYetScanned	还没扫描
+readiness.notYetScannedDescription	跑一次扫描给此仓库打分并拿 Devin 的建议。
+readiness.notYetScannedReadOnly	有权限的人跑扫描后，得分和 Devin 的建议会出现在这里。
+readiness.observedInCategory_one	在 {{count}} 个会话中出现
+readiness.observedInCategory_other	在 {{count}} 个会话中出现
+readiness.olderFormat	旧格式
+readiness.orgAccessGuidance	需要组织管理员授此访问；Devin 无法从会话修。
+readiness.otherMcpServersEnabled_one	其它 MCP 服务器：{{count}} 个启用
+readiness.otherMcpServersEnabled_other	其它 MCP 服务器：{{count}} 个启用
+readiness.otherSection	其它
+readiness.overallScore	总分
+readiness.overallScoreDescription	各类别通过的检查
+readiness.overallScoreHelp	适用检查中通过的百分比。
+readiness.pageDescription	每个仓库对 agent 工作就绪到什么程度，逐条准则评估。
+readiness.pageTitle	Agent 就绪度
+readiness.passedFraction	<value>{{passed}}</value><rest>/{{applicable}} 通过</rest>
+readiness.passedRatio	{{passed}}/{{applicable}} 通过
+readiness.phaseDebugging	调试
+readiness.phaseFixingCi	修 CI
+readiness.phaseImplementing	实现
+readiness.phaseOther	其它
+readiness.phaseResearching	调研
+readiness.phaseReviewing	审查
+readiness.phaseSetup	设置
+readiness.phaseTesting	测试
+readiness.preliminaryFindings	初步发现项
+readiness.preliminaryFindingsDescription	Devin 在你的会话历史中发现这些。
+readiness.preliminaryTooltip	还没就绪扫描。这些发现项来自最近 {{days}} 天会话碰到的。
+readiness.progressAriaLabel	仓库就绪进度
+readiness.progressValueText	加权通过率 {{percent}}%，达 {{thresholdPercent}}% 过此等级
+readiness.providerDisabled	{{name}}（已禁用）
+readiness.providerMappedOrgs_one	{{label}}（{{count}} 个组织中 {{mapped}} 个）
+readiness.providerMappedOrgs_other	{{label}}（{{count}} 个组织中 {{mapped}} 个）
+readiness.readinessLevel	就绪等级
+readiness.readinessLevelHelp	等级按顺序达成。当其检查的加权通过率达到该等级阈值即达成；检查通过越多，进度条越靠近下一刻度。
+readiness.recommendation	建议
+readiness.repoPageTitle	就绪度 — {{repo}}
+readiness.repoTabsAriaLabel	评估区段
+readiness.repositories	仓库
+readiness.repositoriesDescription	每个已评估仓库的就绪等级。
+readiness.repositoriesScoreDescription	每个已评估仓库的得分：其检查通过的百分比。
+readiness.repository	仓库
+readiness.repositoryAndSession	仓库与会话
+readiness.rerunToSeeResults	重跑评估看结果。
+readiness.rescanNow	立即重扫
+readiness.resolveToReachLevel	解决这些问题到等级 {{level}}
+readiness.resolveToReachLevelHelp	打开卡住等级 {{level}} 检查上的发现项。通往等级 {{level}} 的检查按活跃度加权通过 {{percent}}%；达 {{thresholdPercent}}% 即过。
+readiness.rootApplication	根应用
+readiness.runAgain	再跑一次
+readiness.runAssessment	跑评估
+readiness.runAssessmentHint	跑评估看此仓库逐条准则的结果。
+readiness.runReadinessScan	跑就绪扫描
+readiness.runningElapsed	已跑 {{elapsed}}
+readiness.runningEllipsis	运行中…
+readiness.runningSince	运行中 · {{elapsed}}
+readiness.scanInProgress	就绪扫描进行中
+readiness.scheduleEdit	编辑排期
+readiness.scheduleEnabled	排期扫描
+readiness.scheduleLoadFailed	无法加载排期。
+readiness.scheduleRepoDescription	Devin 何时深度扫描此仓库，按你的时区。
+readiness.scheduleSaveFailed	无法保存排期。
+readiness.scheduleSaved	排期已保存
+readiness.scheduleScanInterval	深扫频率
+readiness.scheduleTitle	扫描排期
+readiness.scopeDescriptionCost	最多评估这么多范围。范围是仓库里能独立构建和测试的部分，如服务、app 或库。每个范围单独评估，范围越多成本越高
+readiness.scopesAssessed_one	已评估 {{count}} 个范围
+readiness.scopesAssessed_other	已评估 {{count}} 个范围
+readiness.scopesExcluded_one	已排除 {{count}} 个范围
+readiness.scopesExcluded_other	已排除 {{count}} 个范围
+readiness.scoreLabel	得分 {{score}} / 100
+readiness.scoreSeries	得分
+readiness.seenAgainAfterFix	修复后再次出现
+readiness.selectRepositoryLabel	选择仓库
+readiness.serversEnabledOfInstalled_one	{{count}} 个服务器中 {{enabled}} 个启用
+readiness.serversEnabledOfInstalled_other	{{count}} 个服务器中 {{enabled}} 个启用
+readiness.serversEnabled_one	{{count}} 个服务器启用
+readiness.serversEnabled_other	{{count}} 个服务器启用
+readiness.sessionsBlocked_one	{{count}} 个会话被阻塞

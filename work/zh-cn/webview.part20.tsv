@@ -1,0 +1,340 @@
+boards.devinAgentDescription	{{name}} 是此 Board 的 Devin。Board 上所有人共享其当前对话。
+boards.devinNone	无
+boards.devinResetDescription	这将把 {{name}} 从此 Board 对所有人分离。Devin 本身不受影响。个人 Agent 不受影响。
+boards.devinSelectAriaLabel	Board 的 Devin
+boards.devinUpdateFailed	更新 Board 的 Devin 失败
+boards.devinUpdated	Board 的 Devin 已更新
+boards.dialogs.allTicketsOnThisBoardWillBePermanently	此 Board 上的所有工单将被永久删除。此操作无法撤销。
+boards.dialogs.clickToEditIdentifier	点击编辑标识符
+boards.dialogs.couldNotCreateTheBoardTryAgain	无法创建 Board。请重试。
+boards.dialogs.dropFilesToAttach	拖放文件以附加
+boards.dialogs.failedToUpload	上传 {{name}} 失败
+boards.dialogs.fileUploadIsDisabled	文件上传已禁用
+boards.dialogs.leaveLoseAccess	你将失去此 Board 的访问权，直到有成员把你加回来。
+boards.dialogs.leaveOnlyMember	你是唯一成员；之后将没人能打开此 Board。
+boards.dialogs.newTicketIn	在 {{boardName}} 新建工单
+boards.dialogs.noMembersToAssign	没有可分配的成员
+boards.dialogs.pleaseEnterADescription	描述为必填项
+boards.dialogs.pleaseEnterAName	名称为必填项
+boards.dialogs.quotedBoardName	「{{name}}」
+boards.dialogs.statusIsDefault	这是新工单的默认状态；你选择的状态将成为新的默认值。
+boards.dialogs.statusTicketsWillMove_one	{{count}} 个工单处于此状态，将被移走。
+boards.dialogs.statusTicketsWillMove_other	{{count}} 个工单处于此状态，将被移走。
+boards.dialogs.typeNameToConfirm	输入「{{name}}」以确认
+boards.dialogs.whatThisBoardTracksAgentsReadThisTo	此 Board 追踪什么。Agent 据此放置工单。
+boards.dispatchComposerAriaLabel	派遣指令
+boards.dispatchComposerPlaceholder	给 Devin 的指令…
+boards.dispatchDescription	Devin 会自动获取 Board 和工单上下文。可补充指令、@提及文件/会话/仓库、选择 Playbook 或模式。
+boards.dispatchDialogTitle	派遣 Devin 到 {{ticket}}
+boards.dispatchThisTicket	此工单
+boards.dispatchWithoutInstructions	不带指令派遣
+boards.dispatching	正在派遣…
+boards.downloadCsv	下载 CSV
+boards.estimateScales.exponential	指数
+boards.estimateScales.fibonacci	斐波那契
+boards.estimateScales.linear	线性（1–5）
+boards.expandTags	展开标签：{{names}}
+boards.filterTickets	筛选工单
+boards.filters.any	任意
+boards.filters.assignedToMe	分配给我
+boards.filters.assigneeIs	负责人是 {{name}}
+boards.filters.assigneeIsAnyOf	负责人是 {{count}} 人之一
+boards.filters.assigneeIsNone	负责人为空
+boards.filters.assigneeIsOneMember	负责人是 1 名成员
+boards.filters.claimedByDevin	Devin 已认领
+boards.filters.clearAll	清除全部筛选
+boards.filters.filter	筛选
+boards.filters.me	我
+boards.filters.memberCount_one	{{count}} 名成员
+boards.filters.memberCount_other	{{count}} 名成员
+boards.filters.noAssignee	无负责人
+boards.filters.notClaimed	未认领
+boards.filters.oneStatus	1 个状态
+boards.filters.removeDevinFilter	移除 Devin 筛选
+boards.filters.selectionCount_one	已选 {{count}} 项
+boards.filters.selectionCount_other	已选 {{count}} 项
+boards.filters.selectionOnly	仅 {{label}}
+boards.filters.selectionOr	{{first}} 或 {{second}}
+boards.firstMessageStartsDevinConversation	你的第一条消息将开始 {{name}} 的对话。
+boards.groupBy.assignee	负责人
+boards.groupBy.noAssignee	无负责人
+boards.groupBy.noTag	无标签
+boards.groupBy.noTagKey	无 {{key}}
+boards.groupBy.prState	PR 状态
+boards.groupBy.priority	优先级
+boards.groupBy.status	状态
+boards.groupBy.unknown	未知
+boards.hoursSaved	节省工时
+boards.hoursSavedLoadFailed	无法加载节省工时
+boards.hoursSavedValue	{{hours}} 小时
+boards.hoursSavedValueSaved	已节省 {{hours}} 小时
+boards.identifier.invalid	标识符必须以字母开头，且只能用 A-Z 和 0-9
+boards.identifier.tooLong_one	标识符最多 {{count}} 个字符
+boards.identifier.tooLong_other	标识符最多 {{count}} 个字符
+boards.identifier.tooShort_one	标识符至少 {{count}} 个字符
+boards.identifier.tooShort_other	标识符至少 {{count}} 个字符
+boards.identifierInputLabel	Board 标识符
+boards.insights.chartAcus	ACU
+boards.insights.chartCompleted	已完成
+boards.insights.chartCreated	已创建
+boards.insights.chartCumulative	累计
+boards.insights.chartDeletedStatus	已删除状态
+boards.insights.chartEstimate	估算
+boards.insights.chartManager	管理者
+boards.insights.chartScope	范围
+boards.insights.chartTickets	工单
+boards.insights.chartUnattributed	未归属
+boards.insights.couldntLoadACUUsage	无法加载 ACU 用量
+boards.insights.dateSoFar	{{date}}（至今）
+boards.insights.daysAreBillingDaysGMT8TodaysBucket	日期按计费日（GMT-8）计。今天的桶仍在累积。
+boards.insights.noActivityInThisRange	此范围内无活动
+boards.insights.noEstimatesOrUsageYet	还没有估算或用量
+boards.insights.noTicketUsageInThisRange	此范围内无工单用量
+boards.insights.noUsageInThisRange	此范围内无用量
+boards.insights.pointsCreatedVsCompleted	创建 vs 完成的点数
+boards.insights.showAllMore	显示全部（另有 {{hidden}} 项）
+boards.insights.weekOf	{{date}} 当周
+boards.insightsRange.all	全部
+boards.insightsRange.bucketSizeAria	桶大小
+boards.insightsRange.day	天
+boards.insightsRange.days	{{days}} 天
+boards.insightsRange.timeRangeAria	时间范围
+boards.insightsRange.week	周
+boards.labels.aCUs	ACU
+boards.labels.acuUsed	已用 ACU
+boards.labels.addADescription	添加描述
+boards.labels.addDescription	添加描述…
+boards.labels.addDescriptionEllipsis	添加描述…
+boards.labels.addDescriptionPlaceholder	添加描述…
+boards.labels.addField	添加字段
+boards.labels.addMe	加我
+boards.labels.addMembers	添加成员
+boards.labels.addMembersEllipsis	添加成员…
+boards.labels.agent	Agent
+boards.labels.agentActions	Agent 操作
+boards.labels.analytics	分析
+boards.labels.artifactsOf	{{ticket}} 的产物
+boards.labels.ascending	升序
+boards.labels.assignTo	分配给…
+boards.labels.assignToEllipsis	分配给…
+boards.labels.assigned	已分配
+boards.labels.assignee	负责人
+boards.labels.attachFiles	附加文件
+boards.labels.board	Board
+boards.labels.boardActions	Board 操作
+boards.labels.boardBurn	Board 燃尽
+boards.labels.boardCreated	Board 已创建
+boards.labels.boardDeleted	Board 已删除
+boards.labels.boardDescription	Board 描述
+boards.labels.boardPanel	Board 面板
+boards.labels.boardSettingsSections	Board 设置分区
+boards.labels.boardSettingsTitle	{{name}} 设置
+boards.labels.boardTitle	Board 标题
+boards.labels.boardUpdated	Board 已更新
+boards.labels.botBoardInbox	需要你处理
+boards.labels.botBoardTask	任务
+boards.labels.byCategory	按类别
+boards.labels.byStatus	按状态
+boards.labels.changeAssignee	更改负责人
+boards.labels.changeEstimate	更改估算
+boards.labels.changePriority	更改优先级
+boards.labels.changePriorityPlaceholder	更改优先级…
+boards.labels.changeStatus	更改状态
+boards.labels.changeStatusPlaceholder	更改状态…
+boards.labels.chooseAStatus	选择一个状态
+boards.labels.clear	清除
+boards.labels.collapseGroup	折叠分组
+boards.labels.copyKey	复制键
+boards.labels.copyTicketKey	复制工单键
+boards.labels.copyTicketURL	复制工单 URL
+boards.labels.copyURL	复制 URL
+boards.labels.cost	成本
+boards.labels.couldntLoadActivity	无法加载活动记录
+boards.labels.couldntUndo	无法撤销
+boards.labels.createBoard	创建 Board
+boards.labels.createMore	继续创建
+boards.labels.createTicket	创建工单
+boards.labels.created	已创建
+boards.labels.createdVsCompleted	创建 vs 完成
+boards.labels.creating	正在创建…
+boards.labels.creator	· 创建者
+boards.labels.cumulative	累计
+boards.labels.custom	自定义
+boards.labels.customEstimateValues	自定义估算值
+boards.labels.customFields	自定义字段
+boards.labels.customValues	自定义值
+boards.labels.dangerZone	危险区
+boards.labels.dashboard	仪表盘
+boards.labels.delete	删除
+boards.labels.deleteBoard	删除 Board
+boards.labels.deleteBoardQuestion	删除 Board？
+boards.labels.deleteKey	删除键？
+boards.labels.deleteKeyAction	删除键
+boards.labels.deleteLabelQuestion	删除「{{label}}」？
+boards.labels.deleteNamed	删除 {{name}}
+boards.labels.deleteNamedQuestion	删除「{{name}}」？
+boards.labels.deleteStatus	删除状态？
+boards.labels.deleteStatusAction	删除状态
+boards.labels.deleteTagQuestion	删除「{{prefix}}{{label}}」？
+boards.labels.deleteValue	删除值？
+boards.labels.deleteValueAction	删除值
+boards.labels.descending	降序
+boards.labels.description	描述
+boards.labels.devinDispatched	Devin 已派遣
+boards.labels.devins	Devin
+boards.labels.discard	放弃
+boards.labels.discardTicket	放弃工单？
+boards.labels.dispatchDevin	派遣 Devin
+boards.labels.displayAllShown	显示：全部
+boards.labels.displayHidden_one	显示：隐藏 {{count}} 项
+boards.labels.displayHidden_other	显示：隐藏 {{count}} 项
+boards.labels.dropTicketsHere	把工单拖到此处
+boards.labels.editTicketDescription	编辑工单描述
+boards.labels.enableEstimates	启用估算
+boards.labels.enterANumber	输入数字…
+boards.labels.est	估算
+boards.labels.estimate	估算
+boards.labels.estimateScale	估算刻度
+boards.labels.estimateVsActual	估算 vs 实际
+boards.labels.estimates	估算
+boards.labels.expandGroup	展开分组
+boards.labels.filter	筛选
+boards.labels.general	常规
+boards.labels.goHome	回首页
+boards.labels.groupBy	分组方式
+boards.labels.groupByOrderBy	分组：{{group}} · 排序：{{order}}
+boards.labels.groupPointsBy	点数分组方式
+boards.labels.groupTicketsBy	工单分组方式
+boards.labels.hiddenColumns	隐藏列
+boards.labels.hideEmptyGroups	隐藏空分组
+boards.labels.hidePanel	隐藏面板
+boards.labels.identifier	标识符 {{identifier}}
+boards.labels.identifierLabel	标识符
+boards.labels.insights	洞察
+boards.labels.leave	退出
+boards.labels.leaveBoard	退出 Board
+boards.labels.leavePrivateBoard	退出私有 Board？
+boards.labels.loadingMembers	正在加载成员…
+boards.labels.manageSharing	{{label}}。管理共享
+boards.labels.manageSharingPrivate	私有 Board。{{label}}。管理共享
+boards.labels.manager	管理者
+boards.labels.members	成员
+boards.labels.newBoard	新建 Board
+boards.labels.newTicket	新建工单
+boards.labels.noEstimate	无估算
+boards.labels.noMembersFound	未找到成员
+boards.labels.noPrioritiesFound	未找到优先级
+boards.labels.noStatusesFound	未找到状态
+boards.labels.noTickets	无工单
+boards.labels.noTicketsYet	还没有工单
+boards.labels.notSelected	未选择
+boards.labels.openFullSession	打开完整会话
+boards.labels.openSession	打开会话
+boards.labels.orderBy	排序方式
+boards.labels.peopleCount_one	{{formatted}} 人
+boards.labels.peopleCount_other	{{formatted}} 人
+boards.labels.personalAgentReset	个人 Agent 已重置
+boards.labels.points	点数
+boards.labels.pointsBurnUp	点数燃尽
+boards.labels.pointsCompleted	已完成点数
+boards.labels.pointsInTotal_one	共 {{total}} 点
+boards.labels.pointsInTotal_other	共 {{total}} 点
+boards.labels.pointsOverTime	点数趋势
+boards.labels.prCount_one	{{count}} 个 PR
+boards.labels.prCount_other	{{count}} 个 PR
+boards.labels.preview	预览
+boards.labels.priority	优先级
+boards.labels.priorityIs	优先级为 {{priority}}
+boards.labels.priorityScheme	优先级方案
+boards.labels.progress	进度
+boards.labels.properties	属性
+boards.labels.pullRequests_one	拉取请求
+boards.labels.pullRequests_other	拉取请求
+boards.labels.recording	录屏 {{number}}
+boards.labels.recordingsCount_one	{{count}} 段录屏
+boards.labels.recordingsCount_other	{{count}} 段录屏
+boards.labels.recordings_one	录屏
+boards.labels.recordings_other	录屏
+boards.labels.remove	移除 {{name}}
+boards.labels.removeAssigneeFilter	移除负责人筛选
+boards.labels.removeFromSidebar	从侧栏移除
+boards.labels.removePriorityFilter	移除优先级筛选
+boards.labels.removeStatusFilter	移除状态筛选
+boards.labels.rename	重命名
+boards.labels.resetAgent	重置 Agent
+boards.labels.resetPersonalAgent	重置个人 Agent？
+boards.labels.resetSharedAgent	重置共享 Agent？
+boards.labels.resizePanel	调整面板大小
+boards.labels.save	保存
+boards.labels.saving	正在保存…
+boards.labels.scale	刻度
+boards.labels.searchMembers	搜索成员
+boards.labels.seeLess	收起
+boards.labels.seeMore	查看更多
+boards.labels.seePersonalAgent	查看个人 Agent
+boards.labels.seeSharedAgent	查看共享 Agent
+boards.labels.selectEveryone	全选（{{memberCount}}）
+boards.labels.selected	已选
+boards.labels.session	会话
+boards.labels.sessions	会话
+boards.labels.setEstimate	设置估算
+boards.labels.setIdentifier	设置标识符
+boards.labels.setValue	设置值
+boards.labels.settings	设置
+boards.labels.shareWithEveryone	分享给所有人
+boards.labels.sharedAgent	共享 Agent
+boards.labels.sharedAgentReset	共享 Agent 已重置
+boards.labels.showAgent	显示 Agent
+boards.labels.showInsights	显示洞察
+boards.labels.showPanel	显示面板
+boards.labels.showTop	显示前 {{COLLAPSED_ROWS}} 项
+boards.labels.somethingWentWrong	出错了
+boards.labels.starting	正在启动
+boards.labels.startingSession	正在启动会话…
+boards.labels.status	状态
+boards.labels.statusIs	状态为 {{status}}
+boards.labels.subscribe	订阅
+boards.labels.subscribed	已订阅
+boards.labels.text	文本
+boards.labels.ticket	工单
+boards.labels.ticketCount_one	{{count, number}} 个工单
+boards.labels.ticketCount_other	{{count, number}} 个工单
+boards.labels.ticketDescription	工单描述
+boards.labels.ticketLower	工单
+boards.labels.ticketNotFound	未找到工单
+boards.labels.ticketTitle	工单标题
+boards.labels.ticketsByPriority	按优先级的工单
+boards.labels.ticketsBySeverity	按严重性的工单
+boards.labels.ticketsOverTime	工单趋势
+boards.labels.unassigned	未分配
+boards.labels.unattributed	未归属
+boards.labels.unclaimed	未认领
+boards.labels.undo	撤销：{{undoneMessage}}
+boards.labels.unestimated	未估算
+boards.labels.unknown	未知
+boards.labels.unknownMember	未知成员
+boards.labels.unsubscribe	取消订阅
+boards.labels.unsubscribedFromBoard	已取消订阅 Board
+boards.labels.untitledBoard	未命名 Board
+boards.labels.untitledTicket	未命名工单
+boards.labels.updated	已更新
+boards.labels.usageByTicket	按工单的用量
+boards.labels.used	已用
+boards.labels.viewBoard	查看 Board
+boards.labels.viewRecording	查看录屏
+boards.labels.viewSession	查看会话
+boards.labels.viewTicket	查看工单
+boards.labels.visibility	可见性
+boards.labels.you	（你）
+boards.loadingBoards	正在加载 Board…
+boards.migrationComplete	迁移完成
+boards.migrationCompleteDescription	此 Board 上的所有工单均已完成。
+boards.migrationKickoffProgress	迁移启动进度
+boards.migrationKickoffTickets	本次迁移已完成的工单
+boards.moreTags	+{{count}}
+boards.newTicket	新建工单
+boards.noBoards	还没有 Board
+boards.noBoardsFound	未找到 Board
+boards.openDevin	打开 Devin
+boards.ordering.created	创建时间
+boards.ordering.manual	手动

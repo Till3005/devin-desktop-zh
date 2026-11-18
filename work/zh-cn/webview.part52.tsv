@@ -1,0 +1,340 @@
+migrations.openBoardFailed	迁移已开始，但打不开会话
+migrations.startFailed	启动迁移失败
+modelPickerMock.advanced	高级
+modelPickerMock.advancedTitle	高级模型设置
+modelPickerMock.anthropicModels	Anthropic
+modelPickerMock.capability	能力
+modelPickerMock.close	关闭
+modelPickerMock.composerPlaceholder	给 Devin 描述一个任务…
+modelPickerMock.cost	成本
+modelPickerMock.desktop	桌面端
+modelPickerMock.devinDescription	推荐用于大多数任务。Cognition 持续从能力、速度和成本评估模型，一有更优选择就自动更新。
+modelPickerMock.fast	快速
+modelPickerMock.fastAvailabilityTooltip	尽力而为；Fast 不可用时可能回落标准速度。可用时约 2–5 倍成本。
+modelPickerMock.fusion	Fusion
+modelPickerMock.fusionTooltip	以成本高效的执行搭配前沿智能，以更低成本交付前沿级结果。
+modelPickerMock.googleModels	Google
+modelPickerMock.high	高
+modelPickerMock.light	轻量
+modelPickerMock.lightCapabilityTooltip	用 Luna、SWE-1.7 等模型。
+modelPickerMock.low	低
+modelPickerMock.max	Max
+modelPickerMock.medium	中
+modelPickerMock.mobile	移动端 · 390px
+modelPickerMock.normal	Normal
+modelPickerMock.normalCapabilityTooltip	用 Opus、Sol 及部分 Fable 或 Astra。
+modelPickerMock.openAIModels	OpenAI
+modelPickerMock.priority	优先
+modelPickerMock.recommended	推荐
+modelPickerMock.searchModels	搜索模型
+modelPickerMock.send	发送
+modelPickerMock.speed	速度
+modelPickerMock.standard	标准
+modelPickerMock.thinkingEffort	思考力度
+modelPickerMock.thinkingEffortDescription	更高力度通常提升难题结果，但成本更高且可能过度思考。
+modelPickerMock.title	选择 Devin 的工作方式
+modelPickerMock.ultra	Ultra
+modelPickerMock.ultraCapabilityTooltip	用 Fable、Astra 等模型。
+modelPickerMock.ultraFast	Ultra Fast
+modelPickerMock.viewport	视口
+modelSelect.acuBalance	所有模型都花你的 Devin ACU 余额
+modelSelect.addToArena	添加模型互相较量
+modelSelect.agentProviderBilling	计费由 agent 提供商决定
+modelSelect.arena	竞技场
+modelSelect.clearFilter	清除筛选
+modelSelect.contextTokens	{{count}} 上下文
+modelSelect.cost	成本
+modelSelect.costTagApiLabel	API
+modelSelect.costTagApiPricing	按 API 价计费
+modelSelect.costTagByok	用你的 API key
+modelSelect.costTagByokLabel	BYOK
+modelSelect.costTagCreditsMultiplier	用 {{multiplier}} 倍点数
+modelSelect.costTagFreeAcu	不花 ACU
+modelSelect.costTagFreeCredits	不花点数
+modelSelect.costTagFreeQuota	不花配额
+modelSelect.costTagMultiplierLabel	{{multiplier}}x
+modelSelect.costTagRelativeCost	相对成本
+modelSelect.current	当前
+modelSelect.cyberVerification	网络验证计划
+modelSelect.cyberVerificationDescription	把你的 Anthropic 请求经该计划路由，不在零数据保留范围内。
+modelSelect.cyberVerificationRetry	重试
+modelSelect.cyberVerificationSaveFailed	更改未确认。路由可能未变。
+modelSelect.dimensionOff	关
+modelSelect.dimensionOn	开
+modelSelect.free	免费
+modelSelect.groupAllModels	全部模型
+modelSelect.groupBattleGroups	对战组
+modelSelect.groupPinned	已置顶
+modelSelect.groupRecentlyUsed	最近使用
+modelSelect.learnAboutModels	了解模型
+modelSelect.modelIssueWarning	此模型目前有些问题。
+modelSelect.noResults	未找到结果。
+modelSelect.noneSelected	未选择
+modelSelect.orderBy	排序
+modelSelect.partnerProviderToggleFailed	无法更新「{{label}}」
+modelSelect.pinVariant	置顶变体
+modelSelect.pinnedVariant	已置顶变体
+modelSelect.planWith	用 {{name}} 规划
+modelSelect.promo	促销
+modelSelect.promoActiveLimited	促销价限时生效
+modelSelect.promoActiveUntil	促销价至 {{date}} 有效
+modelSelect.promoUntil	{{label}} 至 {{date}}
+modelSelect.removeFromSelection	从选择中移除
+modelSelect.retryFetchModels	重试获取可用模型。
+modelSelect.searchPlaceholder	搜索全部模型
+modelSelect.seeMore	查看更多
+modelSelect.showAllMore	显示全部（+{{count}}）
+modelSelect.showLess	收起
+modelSelect.single	单个
+modelSelect.tagBeta	Beta
+modelSelect.tagFast	快速
+modelSelect.tagNew	新
+modelSelect.unpinToChangeVariant	取消置顶以改变体
+moreButton.addRepositories	添加仓库
+moreButton.budget	预算
+moreButton.configuration	配置
+moreButton.connectGithubOrg	连接 GitHub 组织
+moreButton.connecting	正在连接…
+moreButton.countSelected	已选 {{countLabel}}
+moreButton.default	默认
+moreButton.defaultBudgetToggle	默认预算：{{name}}
+moreButton.defaultEnvironmentToggle	默认环境：{{name}}
+moreButton.disabledInAskMode	Ask 模式下不可用
+moreButton.enterprise	企业
+moreButton.environment	环境
+moreButton.environmentOncallUnavailable	独立环境上的会话是私密的。关闭 Oncall 模式或切到默认环境才能发送。
+moreButton.environmentSlackChannelUnavailable	独立环境上的会话是私密的。移除 Slack 频道或切到默认环境才能发送。
+moreButton.environmentStartsHidden	此会话开始即对团队隐藏
+moreButton.gpu	专用 GPU
+moreButton.gpuT4	NVIDIA T4
+moreButton.gpuT4Memory	16 GB
+moreButton.internalOnly	仅内部
+moreButton.loading	加载中…
+moreButton.loadingOrchestrators	正在加载编排器…
+moreButton.loadingProfiles	正在加载配置…
+moreButton.manageMcpConnectors	管理 MCP 连接器
+moreButton.manageProfiles	管理配置
+moreButton.noBudget	无
+moreButton.noEnvironmentsFound	未找到环境
+moreButton.none	无
+moreButton.notableRepositories	常用仓库
+moreButton.oncallMode	Oncall 模式
+moreButton.only	仅
+moreButton.orchestratorSettings	编排器设置
+moreButton.orgDefaultEnvironment	{{org}}（默认）
+moreButton.organization	组织
+moreButton.parentBudget	父会话预算
+moreButton.removeDefaultBudget	移除默认预算
+moreButton.restrictedProfile	受限配置
+moreButton.searchEnvironments	搜索环境
+moreButton.securityProfile	安全配置
+moreButton.selected	已选
+moreButton.setAsDefaultBudget	设为默认预算
+moreButton.setAsDefaultEnvironment	设为你的默认环境
+moreButton.standaloneEnvironments	独立环境
+nativeEditor.binaryFile	该文件是二进制或用了不支持的文本编码，因此不在文本编辑器中显示。
+nativeEditor.connecting	正在连接会话的文件…
+nativeEditor.copyOptions	复制选项
+nativeEditor.copyPath	复制路径
+nativeEditor.copyRelativePath	复制相对路径
+nativeEditor.emptyDescription	从文件树中选一个文件
+nativeEditor.emptyTitle	打开文件
+nativeEditor.fileTreeLoadFailed	无法加载文件
+nativeEditor.filterFiles	筛选文件
+nativeEditor.hideFileTree	隐藏文件树
+nativeEditor.mediaDecodeFailed	无法解码 {{name}}
+nativeEditor.onMachine	在 Devin 的机器上
+nativeEditor.open	打开
+nativeEditor.openAnyway	仍要打开
+nativeEditor.openFailed	无法打开 {{name}}：{{message}}
+nativeEditor.openInFolder	在文件夹中打开
+nativeEditor.openInIde	IDE
+nativeEditor.openOptions	更多打开选项
+nativeEditor.pathCopied	路径已复制
+nativeEditor.pathCopyFailed	复制路径失败
+nativeEditor.previewFailed	无法加载预览
+nativeEditor.previewTooLarge	文件太大无法预览
+nativeEditor.retry	重试
+nativeEditor.saveAs	另存为…
+nativeEditor.saveBeforeCloseDescription	不保存的话你的更改会丢失。
+nativeEditor.saveBeforeCloseDiscard	不保存
+nativeEditor.saveBeforeCloseSave	保存
+nativeEditor.saveBeforeCloseTitle	保存对 {{name}} 的更改？
+nativeEditor.saveConflictDescription	你打开后 {{name}} 在 Devin 的机器上被改了，因此你的编辑没保存。用你的编辑覆盖它，或放弃你的编辑加载新版本。
+nativeEditor.saveConflictDiscard	放弃我的编辑
+nativeEditor.saveConflictOverwrite	覆盖
+nativeEditor.saveConflictTitle	此文件在 Devin 的机器上变了
+nativeEditor.saveFilesBeforeCloseTitle_one	保存对 {{count}} 个文件的更改？
+nativeEditor.saveFilesBeforeCloseTitle_other	保存对 {{count}} 个文件的更改？
+nativeEditor.saveToUpdatePreview	保存以更新预览
+nativeEditor.savedToMachineAt	已存到 Devin 的机器 {{time}}
+nativeEditor.sessionFilesUnavailable	会话的文件不可用。
+nativeEditor.showCode	显示代码
+nativeEditor.showFileTree	显示文件树
+nativeEditor.showPreview	显示预览
+nativeEditor.terminalAppsError	无法检测终端应用——重试
+nativeEditor.unsavedOnMachine	未保存的更改。保存即写到 Devin 的机器。
+nav.appSettings	应用设置
+nav.apps	应用
+nav.ask	Ask
+nav.askTabTitle	Ask
+nav.back	返回
+nav.backToApp	返回应用
+nav.betaFeatures	Beta 功能
+nav.compliance	合规
+nav.customize	自定义
+nav.hideOtter	隐藏 otter
+nav.hideTab	隐藏标签
+nav.migrations	迁移
+nav.more	更多
+nav.newSession	新会话
+nav.oncall	Oncall
+nav.organizations	组织
+nav.otterStaging	Otter（预发布）
+nav.review	Review
+nav.reviewBillingTags	计费标签
+nav.search	搜索
+nav.security	安全
+nav.sessionGroups	计费标签
+nav.sessions	会话
+nav.sessionsTabTitle	会话
+nav.settings	设置
+nav.settingsTabTitle	设置
+nav.showTab	显示标签
+nav.showTabKeyHint	右方向键把它显示为标签
+nav.skillsCoach	Skills Coach
+nav.wiki	Wiki
+noDevinAccount.description	此 Windsurf 账户没有 Devin 账户，因此此处没有 Devin Cloud 会话和组织。Devin Local、Tab 和编辑器在 IDE 视图可用。
+noDevinAccount.openIdeView	打开 IDE 视图
+noDevinAccount.title	此登录没有 Devin 账户
+notes.chartLegend.retrieved	已调取
+notes.chartLegend.retrievedTip	知识被判断为可能相关而被取用的次数，不一定被使用
+notes.chartLegend.used	已用
+notes.chartLegend.usedTip	根据使用分析，知识在会话中被实际使用的次数
+notes.usageChart.empty	最近 30 天无可用数据
+notes.usageChart.last30Days	最近 30 天
+notes.usageChart.retrievedCount	已调取：{{count}}
+notes.usageChart.usedCount	已用：{{count}}
+notes.usageTab.loadError	加载用量数据出错
+notes.usageTab.sessionName	会话名
+notes.usageTab.sessionUsageByDay	按日会话用量
+notes.usageTab.sessionsLoadError	加载会话出错
+notes.usageTab.unnamedSession	未命名会话
+notes.utils.autoGenerated	此知识由 Devin 自动生成且只读。你随时可以禁用它。
+notes.utils.corruptedData	本地数据已损坏。请刷新页面。
+notes.utils.enterpriseAdminsOnly	此知识只能由企业管理员编辑
+notes.utils.enterpriseKnowledge	企业知识
+notes.utils.enterpriseKnowledgeDescription	此文件夹含你企业管理员创建的知识。企业知识只读，但你随时可禁用。
+notes.utils.enterpriseWide	这是企业级知识。
+notes.utils.enterpriseWideReadOnly	这是企业级知识，对子组织只读。
+notes.utils.managedByCognition	此文件夹由 Cognition 管理且只读。
+notes.utils.repoIndexes	仓库索引
+notes.utils.repoIndexesDescription	此文件夹含你代码的自动生成索引。Devin 在你的仓库中工作时会自动调取它们。
+notes.utils.systemKnowledge	系统知识
+notes.utils.systemKnowledgeDescription	此文件夹含 Cognition 创建的知识。系统知识只读，但你随时可禁用。
+notificationInbox.actions	操作
+notificationInbox.announcements.hide	隐藏公告
+notificationInbox.announcements.label	公告
+notificationInbox.announcements.navigation	浏览公告
+notificationInbox.announcements.next	下一条公告
+notificationInbox.announcements.position	{{total}} 中第 {{index}}
+notificationInbox.announcements.previous	上一条公告
+notificationInbox.collapse	关闭
+notificationInbox.empty.description	新通知会显示在这里。
+notificationInbox.empty.title	全部处理完了
+notificationInbox.errors.load	通知加载失败。
+notificationInbox.errors.mutation	更改无法保存。请重试。
+notificationInbox.errors.unsupported	此连接不支持该操作。
+notificationInbox.feed.label	最近通知
+notificationInbox.filter	筛选
+notificationInbox.filteredEmpty.description	选一个通知类型在这里看。
+notificationInbox.filteredEmpty.title	无匹配通知
+notificationInbox.fixtureApproved	由你批准
+notificationInbox.fixtureDenied	由你拒绝
+notificationInbox.hideDetails	隐藏详情
+notificationInbox.internal	内部
+notificationInbox.loadMore	加载更多
+notificationInbox.loading	正在加载通知…
+notificationInbox.markAllAsRead	全部标已读
+notificationInbox.markAllAsUnread	全部标未读
+notificationInbox.markRead	标为已读
+notificationInbox.markUnread	标为未读
+notificationInbox.more	更多操作
+notificationInbox.notificationSettings	通知设置
+notificationInbox.pinSidebar	置顶
+notificationInbox.resetNotifications	恢复全部通知
+notificationInbox.retry	重试
+notificationInbox.server.accessRequest.body	{{name}} 申请访问 {{account}}
+notificationInbox.server.accessRequest.outcome.approved	已批准
+notificationInbox.server.accessRequest.outcome.denied	已拒绝
+notificationInbox.server.accessRequest.review	审查
+notificationInbox.server.accessRequest.settings.description	有人申请访问且你能批准。
+notificationInbox.server.accessRequest.settings.name	待批准的访问申请
+notificationInbox.server.accessRequest.title	访问申请
+notificationInbox.server.accessRequestResolved.body.approved	你对 {{account}} 的访问申请已被批准
+notificationInbox.server.accessRequestResolved.body.denied	你对 {{account}} 的访问申请已被拒绝
+notificationInbox.server.accessRequestResolved.settings.description	你的访问申请已被批准或拒绝。
+notificationInbox.server.accessRequestResolved.settings.name	你的访问申请已有答复
+notificationInbox.server.accessRequestResolved.startSession	开始一个会话
+notificationInbox.server.accessRequestResolved.title.approved	访问已批准
+notificationInbox.server.accessRequestResolved.title.denied	访问已拒绝
+notificationInbox.server.automationRunFailed.body	{{name}} 连续失败 {{count}} 次。
+notificationInbox.server.automationRunFailed.bodyOne	{{name}} 失败了。
+notificationInbox.server.automationRunFailed.open	查看自动化
+notificationInbox.server.automationRunFailed.outcome.recovered	已恢复
+notificationInbox.server.automationRunFailed.settings.description	一个自动化运行失败。
+notificationInbox.server.automationRunFailed.settings.name	自动化失败
+notificationInbox.server.automationRunFailed.title	自动化失败
+notificationInbox.server.budgetThreshold.body	账户合计：本周期已用 {{consumed}} / {{limit}} ACU
+notificationInbox.server.budgetThreshold.bodyDollars	账户合计：本周期已用 {{consumed}} / {{limit}}
+notificationInbox.server.budgetThreshold.bodyForBudget	{{name}}：本周期已用 {{consumed}} / {{limit}} ACU
+notificationInbox.server.budgetThreshold.bodyForBudgetDollars	{{name}}：本周期已用 {{consumed}} / {{limit}}
+notificationInbox.server.budgetThreshold.outcome.period_ended	周期已结束
+notificationInbox.server.budgetThreshold.outcome.superseded	已达更高阈值
+notificationInbox.server.budgetThreshold.settings.description	用量越过用量预算的一个阈值。
+notificationInbox.server.budgetThreshold.settings.name	已达预算阈值
+notificationInbox.server.budgetThreshold.title	已用预算的 {{percent}}%
+notificationInbox.server.budgetThreshold.viewUsage	查看用量
+notificationInbox.server.integrationDisconnected.body	Devin 连不上 {{integration}}。需要它的会话会失败，直到重连。
+notificationInbox.server.integrationDisconnected.bodyNamed	Devin 连不上 {{integration}}（{{name}}）。需要它的会话会失败，直到重连。
+notificationInbox.server.integrationDisconnected.outcome.reconnected	已重连
+notificationInbox.server.integrationDisconnected.outcome.removed	已移除
+notificationInbox.server.integrationDisconnected.reconnect	重新连接
+notificationInbox.server.integrationDisconnected.settings.description	Devin 与集成（如 GitHub）的连接丢失。
+notificationInbox.server.integrationDisconnected.settings.name	集成已断开
+notificationInbox.server.integrationDisconnected.title	{{integration}} 已断开
+notificationInbox.server.liveActivity.activity.cancelled	已停止
+notificationInbox.server.liveActivity.activity.coding	写代码
+notificationInbox.server.liveActivity.activity.completed	已完成
+notificationInbox.server.liveActivity.activity.failed	已失败
+notificationInbox.server.liveActivity.activity.needsInput	等待你
+notificationInbox.server.liveActivity.activity.planning	规划中
+notificationInbox.server.liveActivity.activity.runningCommand	正在跑命令
+notificationInbox.server.liveActivity.activity.testing	测试中
+notificationInbox.server.liveActivity.activity.thinking	思考中
+notificationInbox.server.liveActivity.activity.usingBrowser	正在用浏览器
+notificationInbox.server.liveActivity.activity.usingComputer	正在用电脑
+notificationInbox.server.liveActivity.activity.waitingForCi	等待 CI
+notificationInbox.server.liveActivity.activity.waitingOnChild	等待子会话
+notificationInbox.server.liveActivity.activity.working	工作中
+notificationInbox.server.liveActivity.followingSession	正在跟踪会话
+notificationInbox.server.liveActivity.title	Devin 会话
+notificationInbox.server.mentionedInSession.messageMissing	有人在消息中提及你。
+notificationInbox.server.mentionedInSession.settings.description	有人在你可以打开的会话中提及你。
+notificationInbox.server.mentionedInSession.settings.name	在会话中被提及
+notificationInbox.server.mentionedInSession.title	{{name}} 需要你关注此会话
+notificationInbox.server.mentionedInSession.unknownPerson	某人
+notificationInbox.server.noAccess.body	此通知所涉内容你已不能再看。
+notificationInbox.server.noAccess.title	你已无访问权
+notificationInbox.server.patRequestResolved.activateToken	激活令牌
+notificationInbox.server.patRequestResolved.body.approved	你对个人访问令牌「{{name}}」的申请已批准
+notificationInbox.server.patRequestResolved.body.approvedReviewed	{{reviewer}} 批准了你对个人访问令牌「{{name}}」的申请
+notificationInbox.server.patRequestResolved.body.denied	你对个人访问令牌「{{name}}」的申请已拒绝
+notificationInbox.server.patRequestResolved.body.deniedReviewed	{{reviewer}} 拒绝了你对个人访问令牌「{{name}}」的申请
+notificationInbox.server.patRequestResolved.outcome.activated	令牌已激活
+notificationInbox.server.patRequestResolved.outcome.cancelled	申请已取消
+notificationInbox.server.patRequestResolved.outcome.expired	申请已过期
+notificationInbox.server.patRequestResolved.settings.description	你的访问令牌申请已被批准或拒绝。
+notificationInbox.server.patRequestResolved.settings.name	你的访问令牌申请已有答复
+notificationInbox.server.patRequestResolved.title.approved	你的令牌申请已批准
+notificationInbox.server.patRequestResolved.title.denied	你的令牌申请已拒绝

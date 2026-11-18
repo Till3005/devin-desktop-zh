@@ -1,0 +1,283 @@
+analyticsRevamp.cloud.metrics.spend	ACU 消耗总额
+analyticsRevamp.cloud.noPermission	你没有权限查看账户指标。
+analyticsRevamp.cloud.productivityByCategoryDescription	此期间按会话类别划分的总计
+analyticsRevamp.cloud.productivityChartLabel	生产力图表视图
+analyticsRevamp.cloud.productivityChart_acusPerHour	每有效小时 ACU 趋势
+analyticsRevamp.cloud.productivityChart_acusPerMergedPr	每已合并 PR 的 ACU 趋势
+analyticsRevamp.cloud.productivityChart_aiFtes	AI FTE 趋势
+analyticsRevamp.cloud.productivityChart_hours	有效小时趋势
+analyticsRevamp.cloud.productivityChart_mergedPrs	已合并 PR 趋势
+analyticsRevamp.cloud.productivityDescription	工程产出与回报
+analyticsRevamp.cloud.productivityGrainLabel	生产力图表周期
+analyticsRevamp.cloud.productivityMethodology	<methodologyLink>在此</methodologyLink>阅读更多方法论说明。
+analyticsRevamp.cloud.productivityNotFinal	最近 28 天的生产力指标尚未最终确定。已合并 PR 和有效小时会随 PR 落地和用户重访旧会话持续更新。
+analyticsRevamp.cloud.productivityNotFinal_mergedPrs	最近 28 天的生产力指标尚未最终确定。已合并 PR 会随 PR 落地持续更新。
+analyticsRevamp.cloud.productivityTitle	生产力
+analyticsRevamp.cloud.quota	配额方案无法使用 ACU 分析，其用量按美元计。
+analyticsRevamp.cloud.quotaShort	配额方案不可用
+analyticsRevamp.cloud.sessionTooltip	此期间在云端创建的会话
+analyticsRevamp.cloud.sessionsChartDescription	每日创建的会话
+analyticsRevamp.cloud.sessionsChartDescription_category	每日创建的会话，按类别
+analyticsRevamp.cloud.sessionsChartDescription_mode	每日创建的会话，按 Agent 模式
+analyticsRevamp.cloud.sessionsDescription	会话数量与结果
+analyticsRevamp.cloud.sessionsOverTime	会话趋势
+analyticsRevamp.cloud.sessionsTitle	会话
+analyticsRevamp.cloud.sessionsToMergedTooltip	此期间创建的云端会话中有已合并 PR 的占比
+analyticsRevamp.cloud.shareHeader	占比
+analyticsRevamp.cloud.sizesChartDescription	每日创建的会话，按规模
+analyticsRevamp.cloud.spendTooltip	此期间云端消耗的 ACU
+analyticsRevamp.cloud.tabs.active	总计
+analyticsRevamp.cloud.tabs.activity	按活动
+analyticsRevamp.cloud.tabs.category	按类别
+analyticsRevamp.cloud.tabs.day	按天
+analyticsRevamp.cloud.tabs.kind	按种类
+analyticsRevamp.cloud.tabs.mode	按模式
+analyticsRevamp.cloud.tabs.pie	饼图
+analyticsRevamp.cloud.tabs.size	按规模
+analyticsRevamp.cloud.tabs.timeSeries	时间序列
+analyticsRevamp.cloud.tabs.total	总计
+analyticsRevamp.cloud.tabs.week	按周
+analyticsRevamp.cloud.usersChartLabel	用户图表视图
+analyticsRevamp.cloud.usersChart_active	活跃用户趋势
+analyticsRevamp.cloud.usersDescription	人员与成员资格构成
+analyticsRevamp.cloud.usersTitle	用户
+analyticsRevamp.customizations.agentTriggered	Agent 触发
+analyticsRevamp.customizations.analytics	分析
+analyticsRevamp.customizations.clearTaskType	清除
+analyticsRevamp.customizations.cloudSessions	云端会话
+analyticsRevamp.customizations.cloudSessionsTooltip	至少使用过一个技能的独立云端会话。本地技能使用不关联到 Devin 会话。
+analyticsRevamp.customizations.columns.invocations	调用次数
+analyticsRevamp.customizations.columns.lastUsed	最近使用
+analyticsRevamp.customizations.columns.sessions	会话
+analyticsRevamp.customizations.columns.skill	技能
+analyticsRevamp.customizations.columns.users	用户
+analyticsRevamp.customizations.distinctSkills	去重技能数
+analyticsRevamp.customizations.empty	此期间没有技能调用
+analyticsRevamp.customizations.emptySearch	没有符合筛选的技能
+analyticsRevamp.customizations.filterByRuntime	按运行环境筛选
+analyticsRevamp.customizations.invocations	调用次数
+analyticsRevamp.customizations.invocationsTooltip	此期间技能被使用的次数，无论由 Agent 激活还是用户调用
+analyticsRevamp.customizations.loadMoreSessions	加载更多
+analyticsRevamp.customizations.noSessionsUsedSkill	还没有会话使用过此技能
+analyticsRevamp.customizations.overview	概览
+analyticsRevamp.customizations.retryLoadingSessions	重试
+analyticsRevamp.customizations.runtime.all	云端与本地
+analyticsRevamp.customizations.runtime.cloud	云端
+analyticsRevamp.customizations.runtime.local	本地
+analyticsRevamp.customizations.searchPlaceholder	搜索技能或来源
+analyticsRevamp.customizations.sessions	会话
+analyticsRevamp.customizations.sessionsLoadError	无法加载会话。
+analyticsRevamp.customizations.skillUsage	全部技能
+analyticsRevamp.customizations.skillUsageDescription	此期间使用过的所有技能
+analyticsRevamp.customizations.skillUsageOverTimeDescription	此技能每日的调用次数
+analyticsRevamp.customizations.skills	技能
+analyticsRevamp.customizations.skillsDescription	哪些技能被使用、频率如何、支持哪类工作
+analyticsRevamp.customizations.skillsUsed	使用的技能
+analyticsRevamp.customizations.skillsUsedTooltip	此期间至少使用过一次的独立技能数
+analyticsRevamp.customizations.taskTypes	任务类型
+analyticsRevamp.customizations.taskTypesCloudOnly	任务类型仅对云端会话可用
+analyticsRevamp.customizations.taskTypesDescription	使用技能的云端会话
+analyticsRevamp.customizations.taskTypesEmpty	此期间没有已分类的会话
+analyticsRevamp.customizations.taskTypesTooltip	任务类型仅对云端会话可用。本地技能使用不关联到 Devin 会话。
+analyticsRevamp.customizations.topSkills	调用最多的技能
+analyticsRevamp.customizations.topSkillsDescription	按调用次数
+analyticsRevamp.customizations.totalInvocations	总调用次数
+analyticsRevamp.customizations.triggerSplit	{{agent}} 次 Agent 触发 · {{user}} 次用户触发
+analyticsRevamp.customizations.usageOverTime	使用量趋势
+analyticsRevamp.customizations.usageOverTimeDescription	每日技能调用次数与去重技能数
+analyticsRevamp.customizations.usageOverTimeTooltip	每日技能调用次数，按 Agent 激活或用户调用拆分。折线显示当日去重技能数，对应右轴。
+analyticsRevamp.customizations.userTriggered	用户触发
+analyticsRevamp.customizations.usersTooltip	使用过此技能的云端会话的去重用户数。不含本地用量。
+analyticsRevamp.customizations.viewAllSessions	查看全部
+analyticsRevamp.customizations.viewSessions	查看会话
+analyticsRevamp.drilldown.average	平均值
+analyticsRevamp.drilldown.changeVs.day	与前一天相比的变化
+analyticsRevamp.drilldown.changeVs.month	与上月相比的变化
+analyticsRevamp.drilldown.changeVs.week	与上周相比的变化
+analyticsRevamp.drilldown.crossLabel	将 {{table}} 与第二个维度交叉
+analyticsRevamp.drilldown.dimensions.capabilities	模式
+analyticsRevamp.drilldown.dimensions.categories	类别
+analyticsRevamp.drilldown.dimensions.kinds	种类
+analyticsRevamp.drilldown.dimensions.models	模型
+analyticsRevamp.drilldown.dimensions.organizations	组织
+analyticsRevamp.drilldown.dimensions.origins	来源
+analyticsRevamp.drilldown.dimensions.outcomes	结果
+analyticsRevamp.drilldown.dimensions.products	产品
+analyticsRevamp.drilldown.dimensions.repositories	仓库
+analyticsRevamp.drilldown.dimensions.sizes	规模
+analyticsRevamp.drilldown.dimensions.statuses	状态
+analyticsRevamp.drilldown.dimensions.users	用户
+analyticsRevamp.drilldown.download	下载 CSV
+analyticsRevamp.drilldown.downloadFailed	无法下载 CSV。请重试。
+analyticsRevamp.drilldown.downloadLabel	将 {{table}} 下载为 CSV
+analyticsRevamp.drilldown.entities.capabilities	模式
+analyticsRevamp.drilldown.entities.categories	类别
+analyticsRevamp.drilldown.entities.kinds	种类
+analyticsRevamp.drilldown.entities.models	模型
+analyticsRevamp.drilldown.entities.organizations	组织
+analyticsRevamp.drilldown.entities.origins	来源
+analyticsRevamp.drilldown.entities.outcomes	结果
+analyticsRevamp.drilldown.entities.products	产品
+analyticsRevamp.drilldown.entities.repositories	仓库
+analyticsRevamp.drilldown.entities.sizes	规模
+analyticsRevamp.drilldown.entities.statuses	状态
+analyticsRevamp.drilldown.entities.users	用户
+analyticsRevamp.drilldown.filtersLabel	下钻筛选
+analyticsRevamp.drilldown.grain.day	按天
+analyticsRevamp.drilldown.grain.month	按月
+analyticsRevamp.drilldown.grain.week	按周
+analyticsRevamp.drilldown.grainLabel	表格列
+analyticsRevamp.drilldown.loadFailed	无法加载此表。
+analyticsRevamp.drilldown.more	更多
+analyticsRevamp.drilldown.noBreakdowns	此图表没有可用的下钻表。
+analyticsRevamp.drilldown.noRows	此期间无数据
+analyticsRevamp.drilldown.open	打开 {{title}} 的下钻
+analyticsRevamp.drilldown.openButton	打开下钻
+analyticsRevamp.drilldown.partialBucket	{{label}}（不完整）
+analyticsRevamp.drilldown.peak	峰值
+analyticsRevamp.drilldown.total	合计
+analyticsRevamp.drilldown.uncrossed	无子细分
+analyticsRevamp.drilldown.userUplift	用户提升
+analyticsRevamp.drilldown.userUpliftDescription	以每周 40 有效小时为基线，AI 带来的每用户提升估算
+analyticsRevamp.drilldown.userUpliftDescription_day	以每天 8 有效小时为基线，AI 带来的每用户提升估算
+analyticsRevamp.gateway.activeUsersTooltip	此期间至少发起过一次 AI Gateway 请求的人。
+analyticsRevamp.gateway.description	AI Gateway 请求按标价计费的美元金额
+analyticsRevamp.gateway.inactiveUsersTooltip	此期间无 AI Gateway 用量的现有成员
+analyticsRevamp.gateway.spend	支出
+analyticsRevamp.gateway.spendPerUserTooltip	此期间 AI Gateway 美元支出除以其活跃用户数
+analyticsRevamp.gateway.totalSpend	总支出
+analyticsRevamp.gateway.totalSpendTooltip	此期间 AI Gateway 请求按标价计费的美元金额。
+analyticsRevamp.keepNew	保留新版分析
+analyticsRevamp.legacyBannerAction	切换到新版分析
+analyticsRevamp.legacyBannerBody	新版分析面板已对你的账户开放。可随时通过右上角设置图标切换。
+analyticsRevamp.legacyBannerDismiss	不再显示
+analyticsRevamp.legacyBannerTitle	你正在查看旧版分析
+analyticsRevamp.loadingHint.slow	此图表加载时间较长。
+analyticsRevamp.local.activeUsers	活跃用户
+analyticsRevamp.local.activeUsersByProductOverTimeSubtitle	每日活跃用户，按计费产品
+analyticsRevamp.local.activeUsersByProductOverTimeTooltip	用户按产品各计一次
+analyticsRevamp.local.activeUsersOverTime	活跃用户趋势
+analyticsRevamp.local.activeUsersOverTimeSubtitle	每日活跃用户
+analyticsRevamp.local.activeUsersTooltip	此期间有 Desktop 或 CLI 用量的用户，包括现已不在此企业的用户
+analyticsRevamp.local.activeUsersTooltip_org	此期间有 Desktop 或 CLI 用量的用户，包括现已不在此组织的用户
+analyticsRevamp.local.acusDescription	ACU 消耗趋势
+analyticsRevamp.local.acusDescription_dollars	美元支出趋势
+analyticsRevamp.local.acusOverTime	ACU 趋势
+analyticsRevamp.local.acusOverTimeByModelTooltip	前 10 模型，其余归为「其他」
+analyticsRevamp.local.acusOverTimeByModelTooltip_dollars	前 10 模型，其余归为「其他」
+analyticsRevamp.local.acusOverTimeSubtitle	每日消耗的 ACU
+analyticsRevamp.local.acusOverTimeSubtitle_dollars	每日支出
+analyticsRevamp.local.acusOverTime_dollars	支出趋势
+analyticsRevamp.local.acusPerUser	每用户 ACU
+analyticsRevamp.local.acusPerUserTooltip	此期间消耗的 ACU 除以有 Desktop 或 CLI 用量的用户数
+analyticsRevamp.local.acusPerUserTooltip_dollars	此期间美元支出除以有 Desktop 或 CLI 用量的用户数
+analyticsRevamp.local.acusPerUser_dollars	每用户支出
+analyticsRevamp.local.acusTitle	ACU
+analyticsRevamp.local.acusTitle_dollars	支出
+analyticsRevamp.local.acusUsed	消耗的 ACU
+analyticsRevamp.local.acusUsed_dollars	支出
+analyticsRevamp.local.billingProducts.ai_gateway	AI Gateway
+analyticsRevamp.local.billingProducts.cascade	Desktop
+analyticsRevamp.local.billingProducts.cli	CLI
+analyticsRevamp.local.breakdownLabel	构成
+analyticsRevamp.local.byModel	按模型
+analyticsRevamp.local.byProduct	按产品
+analyticsRevamp.local.crossUnitRangeBody	ACU 与美元用量不能合并。请选择单一计费周期内的范围。
+analyticsRevamp.local.crossUnitRangeTitle	此日期范围跨越以不同单位计量的计费周期
+analyticsRevamp.local.inactiveUsers	不活跃用户
+analyticsRevamp.local.inactiveUsersTooltip	此期间无 Desktop 或 CLI 用量的现有成员
+analyticsRevamp.local.legend	图例
+analyticsRevamp.local.moreRows_one	下钻中另有 {{count}} 行
+analyticsRevamp.local.moreRows_other	下钻中另有 {{count}} 行
+analyticsRevamp.local.noAcuData	所选期间无本地 ACU 消耗
+analyticsRevamp.local.noAcuData_dollars	所选期间无本地用量
+analyticsRevamp.local.noUserData	所选期间无本地用户
+analyticsRevamp.local.notEnabledBody	为此企业启用 Devin Desktop 或 Devin CLI 后才会显示本地指标。
+analyticsRevamp.local.notEnabledBody_org	为此组织启用 Devin Desktop 或 Devin CLI 后才会显示本地指标。
+analyticsRevamp.local.notEnabledTitle	本地 Agent 未启用
+analyticsRevamp.local.otherModel	其他
+analyticsRevamp.local.otherModels	其他模型
+analyticsRevamp.local.productDistribution	本地分布
+analyticsRevamp.local.productDistributionSubtitle	按本地产品的 ACU 消耗
+analyticsRevamp.local.productDistributionSubtitle_dollars	按本地产品的美元支出
+analyticsRevamp.local.productGroups.plugins	插件与 ACP 客户端
+analyticsRevamp.local.spendByModel	按模型的消耗
+analyticsRevamp.local.spendByModelSubtitle	按模型的 ACU 消耗
+analyticsRevamp.local.spendByModelSubtitle_dollars	按模型的美元支出
+analyticsRevamp.local.spendByModelTooltip	已停用或隐藏的模型归为「其他」
+analyticsRevamp.local.spendByModelTooltip_dollars	已停用或隐藏的模型归为「其他」
+analyticsRevamp.local.spendByModel_dollars	按模型的支出
+analyticsRevamp.local.total	合计
+analyticsRevamp.local.totalAcuSpend	ACU 消耗总额
+analyticsRevamp.local.totalAcuSpendTooltip	此期间 Desktop 与 CLI 消耗的 ACU
+analyticsRevamp.local.totalAcuSpendTooltip_dollars	此期间 Desktop 与 CLI 的美元支出
+analyticsRevamp.local.totalAcuSpend_dollars	总支出
+analyticsRevamp.local.unknownProvider	未知提供商
+analyticsRevamp.local.usersChartView	用户图表视图
+analyticsRevamp.local.usersDescription	人员与成员资格构成
+analyticsRevamp.local.usersTitle	用户
+analyticsRevamp.local.viewAllModels	查看全部模型
+analyticsRevamp.localMembers.blocks.linesWritten	Agent 写入行数
+analyticsRevamp.localMembers.blocks.mcpInvocations	MCP 调用总数
+analyticsRevamp.localMembers.blocks.mcpInvocationsTooltip	旧版 Agent 的 MCP 工具调用
+analyticsRevamp.localMembers.blocks.messagesSent	Agent 已发消息数
+analyticsRevamp.localMembers.blocks.modelUsage	本地模型用量
+analyticsRevamp.localMembers.blocks.tabAcceptances	按语言的 Tab 补全采纳
+analyticsRevamp.localMembers.blocks.webSearches	网页搜索总数
+analyticsRevamp.localMembers.columns.acus	ACU
+analyticsRevamp.localMembers.columns.acus_dollars	支出
+analyticsRevamp.localMembers.columns.agentLinesAccepted	Agent 行采纳数
+analyticsRevamp.localMembers.columns.member	成员
+analyticsRevamp.localMembers.columns.messages	消息
+analyticsRevamp.localMembers.columns.sessions	会话
+analyticsRevamp.localMembers.description	此期间每成员的本地活动
+analyticsRevamp.localMembers.descriptionAiGateway	此期间每成员的 AI Gateway 支出
+analyticsRevamp.localMembers.empty	没有匹配的成员
+analyticsRevamp.localMembers.emptySearch	没有匹配「{{search}}」的成员
+analyticsRevamp.localMembers.error	无法加载成员
+analyticsRevamp.localMembers.linesSuggested_one	建议 {{formattedCount}} 行
+analyticsRevamp.localMembers.linesSuggested_other	建议 {{formattedCount}} 行
+analyticsRevamp.localMembers.nextPage	下一页
+analyticsRevamp.localMembers.noName	未命名成员
+analyticsRevamp.localMembers.panel.error	无法加载此成员的分析
+analyticsRevamp.localMembers.panel.title	本地分析
+analyticsRevamp.localMembers.partialNotice	部分指标无法加载，显示为 —。刷新可重试。
+analyticsRevamp.localMembers.previousPage	上一页
+analyticsRevamp.localMembers.searchPlaceholder	按姓名或邮箱搜索
+analyticsRevamp.localMembers.serviceUser	服务用户
+analyticsRevamp.localMembers.title	成员
+analyticsRevamp.localMembers.tooltips.agentLinesAccepted	成员保留的 Agent 写入行数
+analyticsRevamp.localMembers.tooltips.sessions	此期间 Desktop 或 CLI 上的 Agent 对话
+analyticsRevamp.mergeManagerAudit.allRepositories	全部仓库
+analyticsRevamp.mergeManagerAudit.approval	Devin 批准
+analyticsRevamp.mergeManagerAudit.approvalState.approved	已批准
+analyticsRevamp.mergeManagerAudit.approvalState.withdrawn	已撤回
+analyticsRevamp.mergeManagerAudit.description	此期间 Autoapprover 运行过的拉取请求，最新在前
+analyticsRevamp.mergeManagerAudit.empty	此期间 Autoapprover 未在任何拉取请求上运行。
+analyticsRevamp.mergeManagerAudit.lastRun	最近一次运行
+analyticsRevamp.mergeManagerAudit.latestResult	最新结果
+analyticsRevamp.mergeManagerAudit.loading	正在加载…
+analyticsRevamp.mergeManagerAudit.next	下一页
+analyticsRevamp.mergeManagerAudit.outcome.approve	批准
+analyticsRevamp.mergeManagerAudit.outcome.failed	失败
+analyticsRevamp.mergeManagerAudit.outcome.review	需要审查
+analyticsRevamp.mergeManagerAudit.outcome.running	运行中
+analyticsRevamp.mergeManagerAudit.outcome.skipped	已跳过
+analyticsRevamp.mergeManagerAudit.pageRange	{{total}} 条中的 {{first}}–{{last}}
+analyticsRevamp.mergeManagerAudit.previous	上一页
+analyticsRevamp.mergeManagerAudit.pullRequest	拉取请求
+analyticsRevamp.mergeManagerAudit.repositoryFilter	按仓库筛选：{{repository}}
+analyticsRevamp.mergeManagerAudit.runs	运行
+analyticsRevamp.mergeManagerAudit.title	Autoapprover 运行
+analyticsRevamp.mergeManagerAudit.totalCost	总成本
+analyticsRevamp.overview.activeUsers	活跃用户
+analyticsRevamp.overview.activeUsersOverTimeSubtitle	每日活跃用户
+analyticsRevamp.overview.activeUsersTooltip	此期间在任一产品上活跃的用户
+analyticsRevamp.overview.acuSpend	ACU 消耗
+analyticsRevamp.overview.acuSpendCommitDetail	占 {{capacity}} 承诺量的 {{percent}}
+analyticsRevamp.overview.acuSpendCommitDetail_org	占 {{capacity}} 上限的 {{percent}}
+analyticsRevamp.overview.acuSpendTooltip	此期间所有产品消耗的 ACU
+analyticsRevamp.overview.acuSpendTooltip_dollars	此期间所有产品的美元支出
+analyticsRevamp.overview.acuSpendTooltip_filtered	此期间所选组织在所有产品上消耗的 ACU
+analyticsRevamp.overview.acuSpendTooltip_filtered_dollars	此期间所选组织在所有产品上的美元支出
+analyticsRevamp.overview.acuSpendTooltip_org_dollars	此期间所有产品的美元支出

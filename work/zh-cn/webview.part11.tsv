@@ -1,0 +1,318 @@
+automations.codeStep.runDetailsLoadError	无法加载此次 Preflight 检查运行。请稍后再试。
+automations.codeStep.runDetailsTitle	Preflight 运行
+automations.codeStep.runExitCodeInline	退出码 {{code}}
+automations.codeStep.runItemFallback	条目 {{index}}
+automations.codeStep.runItemsEmitted	条目 · 已发出 {{count}}
+automations.codeStep.runLogsEmpty	无日志
+automations.codeStep.runLogsHeading	日志
+automations.codeStep.runMetaRan	运行了 {{seconds}} 秒
+automations.codeStep.runReasonHeading	原因
+automations.codeStep.runtime	运行环境
+automations.codeStep.saveScript	保存脚本
+automations.codeStep.scriptEdited	编辑于 {{time}}
+automations.codeStep.scriptLabel	脚本
+automations.codeStep.searchSecretsPlaceholder_one	搜索 {{count}} 个机密…
+automations.codeStep.searchSecretsPlaceholder_other	搜索 {{count}} 个机密…
+automations.codeStep.secretsFooterCount	已选 {{total}} 个中的 {{selected}} 个
+automations.codeStep.secretsLabel	机密
+automations.codeStep.secretsPermissionRequired	附有机密的 Preflight 检查只能由有管理组织机密权限的用户保存或测试运行。请找管理员，或移除附加的机密。
+automations.codeStep.secretsSelectedSummary_one	已选 {{count}} 项——{{names}}
+automations.codeStep.secretsSelectedSummary_other	已选 {{count}} 项——{{names}}
+automations.codeStep.selectSecrets	选择机密…
+automations.codeStep.selectSecretsSubtitle	注入到脚本的运行环境中
+automations.codeStep.selectSecretsTitle	选择机密
+automations.codeStep.selectedSection	已选
+automations.codeStep.serverConfigChanged	此 Preflight 检查已在服务器上被更改。你的本地草稿仍未保存。
+automations.codeStep.stateLabel	状态
+automations.codeStep.stateSummary	{{size}} / {{max}}KB
+automations.codeStep.switchLabel	Preflight 检查
+automations.codeStep.testRun	运行
+automations.codeStep.testRunAgainst	测试对象
+automations.codeStep.testRunEventsLoadError	无法加载事件
+automations.codeStep.testRunInProgress	正在隔离 VM 中运行——脚本退出后结果会显示在此。
+automations.codeStep.testRunLoadError	无法加载此次测试运行。请稍后再试。
+automations.codeStep.testRunNoDraftSamples	此触发器还没有示例事件。保存自动化后即可用真实事件测试。
+automations.codeStep.testRunNoEvents	还没有可测试的事件
+automations.codeStep.testRunRecentEventOption	{{eventType}} · {{when}}
+automations.codeStep.testRunRecentEventsGroup	近期事件
+automations.codeStep.testRunRecentManualEventOption	{{eventType}} · {{when}} · 手动运行
+automations.codeStep.testRunResultTitle	测试结果
+automations.codeStep.testRunSampleEventOption	示例：{{name}}（{{eventType}}）
+automations.codeStep.testRunSampleEventsGroup	示例事件
+automations.codeStep.testRunStale	此运行已停止上报。请重新运行测试。
+automations.codeStep.testRunStarting	正在为此运行启动 VM…
+automations.codeStep.timeout	超时（秒）
+automations.codeStep.timeoutDescription	脚本被杀掉并将运行标记为失败的超时。最长 {{max}} 秒
+automations.codeStep.toggleTitle	Preflight 检查
+automations.codeStep.toggleDescription	每次触发后运行脚本，进一步校验事件、转换其数据或跳过不需要的运行
+automations.codeStep.viewRun	查看 Preflight 检查运行
+automations.codeStep.viewScript	查看脚本
+automations.codeStep.wouldStart_one	将启动 {{count}} 个会话
+automations.codeStep.wouldStart_other	将启动 {{count}} 个会话
+automations.conditions	条件
+automations.configure	配置
+automations.configureChannelMappings	配置频道映射
+automations.configureToUseTrigger	配置 {{source}} 以使用此触发器。
+automations.connect	连接
+automations.connectDatadog	连接 Datadog
+automations.connectIncidentIoToSelectTeam	连接 incident.io 以选择团队
+automations.connectMcpsBeforeSaving	保存前先连接所选的 MCP
+automations.connectToUseTrigger	连接 {{source}} 以使用此触发器。
+automations.connecting	正在连接…
+automations.consumption	消耗
+automations.consumptionLoadError	加载消耗数据失败。
+automations.consumptionOnDemand	按需
+automations.consumptionOnDemandHint	方案内覆盖的用量不显示。
+automations.continue	继续
+automations.copied	已复制
+automations.copiedLabel	{{label}} 已复制
+automations.copiedSecret	机密已复制
+automations.copiedTestCommand	测试命令已复制
+automations.copy	复制
+automations.copyAllDomains	复制所有域名
+automations.copyFailed	复制失败
+automations.copyLabel	复制 {{label}}
+automations.copyMessage	复制消息
+automations.copyOfName	{{name}}（副本）
+automations.copySecret	复制机密
+automations.copyTestCommand	复制测试命令
+automations.couldntJoinChannelReconnect	Devin 无法加入该频道。<reconnect>重新连接 Slack</reconnect> 以授予加入频道的权限。
+automations.couldntLoadScratchpadFolder	无法加载暂存文件夹。
+automations.createAutomation	创建自动化
+automations.createAutomationTitle	创建自动化
+automations.createFileToGetStarted	创建一个文件开始。
+automations.createFromTemplate	从模板创建
+automations.createFromTemplateCardDescription	定制一个预设自动化以符合你的需求
+automations.createManually	手动创建
+automations.createManuallyCardDescription	自行配置自动化触发器、操作和限制
+automations.createNewScanOption	创建新扫描
+automations.createNewScanOptionDescription	在下方配置仓库、扫描类型和配置档案
+automations.createTriageDevin	创建分诊 Devin
+automations.createWithDevin	让 Devin 创建
+automations.created	已创建
+automations.createdBy	创建者
+automations.createdByAutomation	此会话由自动化创建
+automations.createdByOn	由 {{name}} 创建于 {{date}}
+automations.creating	正在创建…
+automations.creatingAutomation	正在创建自动化…
+automations.creatorYou	{{name}}（你）
+automations.customRange	自定义范围
+automations.datadogConnectDescription	连接 Datadog 后 Devin 能更有把握地排查生产问题。
+automations.datadogReauthorize	你的 Datadog 连接需要重新授权。
+automations.dayFriday	星期五
+automations.dayInitialFriday	五
+automations.dayInitialMonday	一
+automations.dayInitialSaturday	六
+automations.dayInitialSunday	日
+automations.dayInitialThursday	四
+automations.dayInitialTuesday	二
+automations.dayInitialWednesday	三
+automations.dayMonday	星期一
+automations.dayOfMonth	每月第几日
+automations.daySaturday	星期六
+automations.daySunday	星期日
+automations.dayThursday	星期四
+automations.dayTuesday	星期二
+automations.dayWednesday	星期三
+automations.defaultPlatformWithName	默认（{{platform}}）
+automations.delete	删除
+automations.deleteAutomation	删除自动化
+automations.deleteAutomationConfirmation	确定要删除「{{name}}」吗？此操作不可撤销。
+automations.deleteConfirmation	确定要删除「{{name}}」吗？此操作不可撤销。
+automations.deletingAutomation	正在删除自动化…
+automations.destChannelNotAvailable	所选目标频道不可用。请先邀请 @Devin 进入该频道。
+automations.destChannelRequired	使用「在新频道发贴」模式时必须选择目标频道
+automations.destTeamsChannelRequired	发到 Teams 需要同时选择团队和频道
+automations.destinationDevin	目标 {{botName}}
+automations.destinationDevinDescription	消息跟随该 {{botName}} 到其当前会话
+automations.destinationDevinRequired	选择目标 {{botName}}
+automations.destinationSession	目标会话
+automations.destinationSessionDescription	选择用于接收触发请求的会话
+automations.destinationSessionRequired	选择一个目标会话，或选择「创建新会话」
+automations.destinationTarget	目标
+automations.destinationTargetDescription	发消息给一个特定会话，或一个 {{botName}} 的会话延续处
+automations.destinationTargetDevin	{{botName}}
+automations.destinationTargetSession	会话
+automations.devinIsInChannel	Devin 已在频道中
+automations.devinMode	Agent 模式
+automations.devinModeDescription	以此 Agent 模式启动会话
+automations.devinModeUnavailableWarning	{{mode}} 对你的组织不再可用。在你另选模式前，运行会使用回退模式（{{fallback}}）。
+automations.devinModeUnavailableWarningNoFallback	{{mode}} 对你的组织不再可用。在你另选模式前，运行会失败。
+automations.devinWillJoin	Devin 将加入 {{channel}}
+automations.devinWillJoinChannel	Devin 将加入 {{channel}}
+automations.directMessages	私聊
+automations.directMessagesDisabled	私聊已关闭
+automations.directMessagesOrgMembersOnly	私聊（仅组织成员）
+automations.directMessagesWorkspace	私聊（整个工作区）
+automations.disable	禁用
+automations.disableNetworkControlsDescription	禁用网络管控会移除对提示词注入窃取的防护。会话将能访问任何网络目标。
+automations.disableNetworkControlsTitle	禁用网络管控？
+automations.disabled	已禁用
+automations.discardChanges	放弃更改
+automations.discardTitle	放弃未保存的更改？
+automations.discoveryBannerCta	为我推荐自动化
+automations.discoveryBannerDescription	Devin 会查看你近期的工作，找出值得自动化的重复任务。
+automations.discoveryBannerPendingDescription	Devin 已为你推荐了自动化。你批准前不会有任何运行。
+automations.discoveryBannerPendingTitle	推荐的自动化正等待你确认
+automations.discoveryBannerReviewCta	审查
+automations.discoveryBannerSuggestMoreCta	继续推荐
+automations.discoveryBannerTitle	让 Devin 找到帮助你的新方式
+automations.dmsOnly	仅私聊
+automations.dollarIncrementLimit	每会话上限须以 ${{increment}} 为增量
+automations.domainEntry	条目
+automations.domainPlaceholder	域名、IPv4 或 IPv6（如 *.github.com）
+automations.done	完成
+automations.duplicate	创建副本
+automations.duplicateDomain	重复
+automations.duplicateRemovedOnSave	此重复项将在保存时移除
+automations.edit	编辑
+automations.editAutomation	编辑自动化
+automations.editAutomationFile	编辑自动化文件内容
+automations.edited	已编辑
+automations.editedByOn	由 {{name}} 编辑于 {{date}}
+automations.enable	启用
+automations.enableIssueTrackingBody	Devin 会把此频道的报告归并为可跟踪的问题并显示在此页。更新后 Devin 会直接回复，你的交互中将不再出现「Devin Automation」机器人。
+automations.enableIssueTrackingBodyReadOnly	Devin 可以把此频道的报告归并为可跟踪的问题并显示在此页。请找管理自动化的人启用。
+automations.enableIssueTrackingTitle	启用问题跟踪
+automations.enterAPrompt	输入提示词…
+automations.enterprise	企业
+automations.entriesBlockedByProfile_named_one	{{count}} 个条目不被安全档案「{{name}}」允许。
+automations.entriesBlockedByProfile_named_other	{{count}} 个条目不被安全档案「{{name}}」允许。
+automations.entriesBlockedByProfile_one	{{count}} 个条目不被管控安全档案允许。
+automations.entriesBlockedByProfile_other	{{count}} 个条目不被管控安全档案允许。
+automations.entriesBlockedContactAdmin_one	要放行它，请联系管理员更新安全档案。
+automations.entriesBlockedContactAdmin_other	要放行它们，请联系管理员更新安全档案。
+automations.errorLogs	错误日志
+automations.errorLogsDescription	此自动化最近 {{count}} 次失败的运行。
+automations.errorLogsLoadError	无法加载错误日志。
+automations.event	事件
+automations.eventAction.manual	手动触发
+automations.eventAction.manualBy	由 {{name}} 手动触发
+automations.eventAction.scheduled	按计划
+automations.eventBatch	批次 {{id}}
+automations.eventBatchedDescription	与其批次中的其他事件在同一个会话中处理
+automations.eventOutcome.forwarded	已转发
+automations.eventOutcome.grouped	已归并
+automations.eventOutcome.investigated	已排查
+automations.eventOutcome.notAnIssue	不是问题
+automations.eventTrigger.assigned	由分配触发
+automations.eventTrigger.build	由构建触发
+automations.eventTrigger.buildCompleted	由构建完成触发
+automations.eventTrigger.checkRun	由检查运行触发
+automations.eventTrigger.comment	由评论触发
+automations.eventTrigger.finding	由发现项触发
+automations.eventTrigger.followUpCreated	由新跟进项触发
+automations.eventTrigger.gmailMessage	由 Gmail 邮件触发
+automations.eventTrigger.incidentAcknowledged	由事件被确认触发
+automations.eventTrigger.incidentCreated	由新事件触发
+automations.eventTrigger.incidentResolved	由事件解决触发
+automations.eventTrigger.incidentUpdated	由事件更新触发
+automations.eventTrigger.issue	由工单触发
+automations.eventTrigger.issueComment	由工单评论触发
+automations.eventTrigger.issueCreated	由新工单触发
+automations.eventTrigger.issueUpdated	由工单更新触发
+automations.eventTrigger.labelAdded	由新标签触发
+automations.eventTrigger.mention	由提及触发
+automations.eventTrigger.mergeRequest	由合并请求触发
+automations.eventTrigger.message	由消息触发
+automations.eventTrigger.moved	由工单移动触发
+automations.eventTrigger.other	由 {{name}} 触发
+automations.eventTrigger.pipeline	由流水线触发
+automations.eventTrigger.priorityChanged	由优先级变更触发
+automations.eventTrigger.pullRequest	由拉取请求触发
+automations.eventTrigger.pullRequestComment	由拉取请求评论触发
+automations.eventTrigger.pullRequestReview	由拉取请求审查触发
+automations.eventTrigger.push	由推送触发
+automations.eventTrigger.reaction	由表情回应触发
+automations.eventTrigger.reviewComment	由审查评论触发
+automations.eventTrigger.severityChanged	由严重性变更触发
+automations.eventTrigger.statusChanged	由状态变更触发
+automations.eventTrigger.tagAdded	由新标签触发
+automations.eventTrigger.ticketUpdated	由工单更新触发
+automations.eventTrigger.unknown	由事件触发
+automations.eventTrigger.userGroupMention	由用户组提及触发
+automations.eventTrigger.webhook	由 webhook 触发
+automations.eventTrigger.workflowRun	由工作流运行触发
+automations.eventTypeName.boardTicketUpdated	Board 工单更新
+automations.eventTypeName.codeScanFinding	安全扫描发现项
+automations.eventTypeName.githubCheckRun	GitHub 检查运行
+automations.eventTypeName.githubIssue	GitHub 工单
+automations.eventTypeName.githubIssueComment	GitHub 工单评论
+automations.eventTypeName.githubPullRequest	GitHub 拉取请求
+automations.eventTypeName.githubPullRequestReview	GitHub 拉取请求审查
+automations.eventTypeName.githubPush	GitHub 推送
+automations.eventTypeName.githubReviewComment	GitHub 审查评论
+automations.eventTypeName.githubWorkflowRun	GitHub 工作流运行
+automations.eventTypeName.jiraAssigned	Jira 工单被分配
+automations.eventTypeName.jiraIssueCreated	Jira 工单创建
+automations.eventTypeName.jiraIssueUpdated	Jira 工单更新
+automations.eventTypeName.jiraLabelAdded	Jira 标签添加
+automations.eventTypeName.jiraStatusChanged	Jira 状态变更
+automations.eventTypeName.linearAssigned	Linear 工单被分配
+automations.eventTypeName.linearIssueCreated	Linear 工单创建
+automations.eventTypeName.linearLabelAdded	Linear 标签添加
+automations.eventTypeName.linearMoved	Linear 工单移动
+automations.eventTypeName.linearPriorityChanged	Linear 优先级变更
+automations.eventTypeName.linearStatusChanged	Linear 状态变更
+automations.eventTypeName.managedWebhook	托管 webhook
+automations.eventTypeName.pylonIssueCreated	Pylon 工单创建
+automations.eventTypeName.pylonStatusChanged	Pylon 状态变更
+automations.eventTypeName.pylonTagAdded	Pylon 标签添加
+automations.eventTypeName.schedule	计划
+automations.eventTypeName.slackMention	Slack 提及
+automations.eventTypeName.slackMessage	Slack 消息
+automations.eventTypeName.slackReaction	Slack 表情回应
+automations.eventTypeName.slackUserGroupMention	Slack 用户组提及
+automations.eventTypeName.snapshotBuildCompleted	快照构建完成
+automations.eventTypeName.unknown	事件
+automations.eventTypeName.webhook	Webhook
+automations.eventType_board_ticket_updated	Board：工单更新
+automations.eventType_code_scan_finding	代码扫描：发现项
+automations.eventType_github_check_run	GitHub：检查运行
+automations.eventType_github_issue_comment	GitHub：工单评论
+automations.eventType_github_issues	GitHub：工单
+automations.eventType_github_pull_request	GitHub：拉取请求
+automations.eventType_github_pull_request_review	GitHub：拉取请求审查
+automations.eventType_github_pull_request_review_comment	GitHub：拉取请求审查评论
+automations.eventType_github_push	GitHub：推送
+automations.eventType_github_workflow_run	GitHub：工作流运行
+automations.eventType_jira_assigned	Jira：被分配
+automations.eventType_jira_issue_created	Jira：工单创建
+automations.eventType_jira_issue_updated	Jira：工单更新
+automations.eventType_jira_label_added	Jira：标签添加
+automations.eventType_jira_status_changed	Jira：状态变更
+automations.eventType_linear_assigned	Linear：被分配
+automations.eventType_linear_create	Linear：创建
+automations.eventType_linear_label_added	Linear：标签添加
+automations.eventType_linear_moved	Linear：移动
+automations.eventType_linear_priority_changed	Linear：优先级变更
+automations.eventType_linear_status_changed	Linear：状态变更
+automations.eventType_pylon_issue_created	Pylon：工单创建
+automations.eventType_pylon_issue_status_changed	Pylon：工单状态变更
+automations.eventType_pylon_issue_tag_added	Pylon：工单标签添加
+automations.eventType_schedule_recurring	计划：重复
+automations.eventType_security_threat_published	安全威胁：已发布
+automations.eventType_slack_message	Slack：消息
+automations.eventType_slack_reaction_added	Slack：表情回应添加
+automations.eventType_slack_usergroup_mentioned	Slack：用户组被提及
+automations.eventType_snapshot_build_completed	快照构建：完成
+automations.eventType_webhook_incoming	Webhook：传入
+automations.eventType_webhook_managed	托管 webhook
+automations.events	事件
+automations.eventsCount_one	{{count}} 个事件
+automations.eventsCount_other	{{count}} 个事件
+automations.eventsLoadError	无法加载事件。
+automations.eventsRange	{{total}} 条中的 {{from}}–{{to}}
+automations.eventsSearchPageMatches_one	本页 {{count}} 个匹配
+automations.eventsSearchPageMatches_other	本页 {{count}} 个匹配
+automations.excludedPrivateChannelNoop	排除 {{channel}} 没有效果：Devin 在此只监听公开频道
+automations.failed	{{count}} 个失败
+automations.failedRun	失败运行
+automations.failedToConnectDatadog	连接 Datadog 失败
+automations.failedToCreateAutomation	创建自动化失败
+automations.failedToDeleteAutomation	删除自动化失败
+automations.failedToLoadLinkedEvents	无法加载关联事件。请重新加载页面。
+automations.failedToMigrateToResponder	迁移到 Oncall 失败
+automations.failedToPrepareWebhookCredentials	准备 webhook 凭据失败
+automations.failedToRegenerateWebhookSecret	重新生成 webhook 密钥失败
+automations.failedToResetTriageDevin	重置分诊 Devin 失败

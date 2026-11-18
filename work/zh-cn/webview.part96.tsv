@@ -1,0 +1,200 @@
+settings.patQuickStartDescription	用你个人访问令牌发 API 调用
+settings.patRequests.activate	激活
+settings.patRequests.activating	激活中…
+settings.patRequests.approvalExpired	批准已过期
+settings.patRequests.approvalExpiresInDays	批准 {{days}} 天后过期
+settings.patRequests.approvalExpiresToday	批准今天过期
+settings.patRequests.cancelRequest	取消申请
+settings.patRequests.expiresOn	{{date}} 过期
+settings.patRequests.filterAriaLabel	筛申请历史
+settings.patRequests.noExpiration	无过期
+settings.patRequests.noMatches	没有申请匹配你的筛选。
+settings.patRequests.pendingActivation	待激活
+settings.patRequests.pendingActivationDescription	激活以显示你的 token。它只显示一次。
+settings.patRequests.reviewerNote	审者备注：{{note}}
+settings.patRequests.searchPlaceholder	按名搜索
+settings.patRequests.statusCancelled	已取消
+settings.patRequests.statusCompleted	已完成
+settings.patRequests.viewHistory	看历史
+settings.pats	PAT
+settings.pendingRequestsView	待批申请
+settings.perforce	Perforce
+settings.perforceConfiguration	配置
+settings.perforceConnectionName	连接名
+settings.perforceConnectionNameRequired	连接名为必填项
+settings.perforceConnectionNameUpdateFailed	更新 Perforce 连接名失败
+settings.perforceConnectionNameUpdated	Perforce 连接名已更新
+settings.perforceDepotPaths	Depot 路径和 stream
+settings.perforceDepotPathsUnavailable	加载不了 depot 路径
+settings.perforceDepotPathsUpdateFailed	更新 Perforce depot 路径失败
+settings.perforceDepotPathsUpdated	Perforce depot 路径已更新
+settings.perforceDialog.depotPathsRequired	请选或输至少一条 depot 路径以继续
+settings.perforceDisconnectConnection	断开连接
+settings.perforceNoDepotPaths	没配 depot 路径
+settings.perforceNotConfigured	未配置
+settings.perforceServerAddress	服务器地址（P4PORT）
+settings.perforceServiceUser	服务用户
+settings.perforceSetup.back	返回
+settings.perforceSetup.checking	查连接中…
+settings.perforceSetup.choosePaths	选 depot 和 stream
+settings.perforceSetup.chooseSavedConnection	选一个连接
+settings.perforceSetup.connect	连接
+settings.perforceSetup.connectFailed	连不了。查你的服务器细节和 depot 路径。
+settings.perforceSetup.connected	Perforce 已连
+settings.perforceSetup.connecting	连接中…
+settings.perforceSetup.continue	继续
+settings.perforceSetup.credentialHint	加密存储。会话只拿短寿命 ticket。
+settings.perforceSetup.fingerprintHint	连接前和你 Perforce 管理员核对此指纹。
+settings.perforceSetup.importConfig	从文件导入 P4PORT
+settings.perforceSetup.importConfigInvalid	选一个只含字面 P4PORT=server 的文件。没改任何设置。
+settings.perforceSetup.importConfigReadFailed	读不了此文件。选至多 64 KB 的 P4CONFIG 文本文件。
+settings.perforceSetup.listFailed	加载不了 depot。查服务器地址、凭据和网络访问。
+settings.perforceSetup.manualPaths	手动输 depot 路径
+settings.perforceSetup.manualPathsHint	每行一条或用逗号分隔。例如：//depot/main/...
+settings.perforceSetup.manualSetup	改为手动输 depot 路径
+settings.perforceSetup.nameHint	默认服务器地址。可之后改名。
+settings.perforceSetup.noPaths	找不到 depot 或 stream。手动输路径或查此账户的权限。
+settings.perforceSetup.optionalSettings	可选设置
+settings.perforceSetup.password	密码
+settings.perforceSetup.pathsDescription	只选 Devin 该能访问的 depot 和 stream。
+settings.perforceSetup.pathsStep	2. Depot 访问
+settings.perforceSetup.savedDetails	从已存连接填
+settings.perforceSetup.savedDetailsHint	只复制服务器和用户名。
+settings.perforceSetup.serverDescription	先填服务器和服务账户。下一步选 Devin 能访问的 depot。
+settings.perforceSetup.serverHint	用 P4PORT，需要时含 ssl:。文件导入只用 P4PORT，文件留在你浏览器。
+settings.perforceSetup.serverStep	1. 服务器细节
+settings.perforceSetup.steps	连接设置
+settings.perforceSetup.title	连到 Perforce
+settings.perforceSetup.userHint	用能访问所需 depot 的专用 Perforce 账户。
+settings.perforceSetup.viewerHint	用可信 HTTPS 地址。审查时 Devin 把 Perforce ticket 发到此地址。
+settings.perforceSslFingerprint	SSL 指纹
+settings.perforceWebViewerUrl	Web 查看器 URL
+settings.permanentOverride	永久
+settings.permissionsAndSecurity	权限与安全
+settings.permissionsAndSecurityDescription	控制终端执行、命令列表和工作区访问
+settings.permissionsSaveFailed	存权限失败
+settings.permissionsSaved	权限已存
+settings.perprSpendLimit	单 PR 花费上限
+settings.perprSpendLimitDefaultAcus	不设默认 {{limit}} ACU。
+settings.perprSpendLimitDefaultDollars	不设默认 ${{limit}}。
+settings.perprSpendLimitDescription	PR 到此花费上限时暂停自动分析。
+settings.personal	个人
+settings.personalConnectionsDescription	连你个人账户以用团队成员建的集成和 MCP。
+settings.personalDescription	限你自己会话或你管的服务用户的机密
+settings.personalMCPAccountGroup	企业 MCP
+settings.personalMCPDescription	你管理员开、需你个人认证的 MCP 集成
+settings.personalMCPGroupedDescription	按账户或组织连个人 MCP。账户连接跨其目标组织应用。
+settings.personalMCPLoadError	加载不了你 MCP 连接。
+settings.personalMCPOrganizationGroup	组织 MCP
+settings.personalMCPUserGroup	你的 MCP
+settings.personalMCPs	个人 MCP
+settings.personalMCPsDescription	连你个人账户以用团队开启的 MCP
+settings.personalMarketplace	插件
+settings.personalMcpConnectedCount	{{total}} 中已连 {{connected}}
+settings.personalOutpostCliInstructions	要加个人 outpost，<cliLink>装 Devin CLI</cliLink>，用 <code>devin auth login</code> 登录，再在要跑你会话的机器上跑：
+settings.personalOutpostCommandCopied	命令已复制
+settings.personalOutpostCopyCommand	复制命令
+settings.personalOutpostDocsLink	看 outpost 设置文档
+settings.personalOutposts	个人 outpost
+settings.personalOutpostsDescription	在你自己机器跑 Devin 会话。只有你能在你个人 outpost 起会话。
+settings.personalOutpostsEmpty	还没有个人 outpost。跑上面命令建一个。
+settings.personalSlackThreadModeDescription	选你新 Slack 会话在哪开。
+settings.picture	头像
+settings.pictureDescription	设你的头像
+settings.plans	方案
+settings.playProgressSound	IDE 显示进度时放声音
+settings.playProgressSoundDescription	IDE 模式显示进度条时（如搜索中）放循环音；Agent 视图从不放
+settings.playSoundWithNotifications	通知时放声音
+settings.playSoundWithNotificationsDescription	会话要你关注时放一声
+settings.playbookCategoryInitial.community	社
+settings.playbookCategoryInitial.enterprise	企
+settings.playbookCategoryInitial.legacy	旧
+settings.playbookCategoryInitial.org	组
+settings.playbookCreatorUnknown	未知
+settings.playbookDevinMode	Devin 模式
+settings.playbookDevinModeDescription	控制此 playbook 起的会话的 agent 模式
+settings.playbookEnterpriseBadge	企业
+settings.playbookExamplesDescription	每行加一个会话 ID
+settings.playbookOptionalDescription	选一个 playbook 用
+settings.playbooks	Playbook
+settings.pluginDownloadFailed	下载不了插件
+settings.plugins	插件
+settings.postAsPrCommentsDescription	Devin Review 把发现项以评论发到你拉取请求
+settings.postFindingsTo	发发现项到 {{providers, list}}
+settings.postFindingsToGitProviders	发发现项到 Git 提供商
+settings.postGithubCiChecks	发 CI 检查
+settings.postGithubCiChecksDescription	每次分析在拉取请求上发一条 Devin Review 提交状态
+settings.prLinkBehavior	PR 链接行为
+settings.prLinkConfirm	确认
+settings.prLinkDialogDescription	选在哪开拉取请求链接。随时可在你的<settingsLink>偏好</settingsLink>改
+settings.prLinkGitProviderDescription	在首选 Git 提供商开
+settings.prLinkGitProviderLabel	Git 提供商
+settings.prLinkInSessionDescription	在会话视图里以标签页开
+settings.prLinkReviewDescription	在 Devin Review 开
+settings.prLinkReviewLearnMore	了解 Devin Review
+settings.prReviewEventApprove	批准
+settings.prReviewEventComment	评论
+settings.prReviewEventRequestChanges	要求更改
+settings.prReviewEventsAllowed	拉取请求审查
+settings.prReviewEventsAllowedDescription	允许 Devin 在拉取请求上发这些审查
+settings.prReviewEventsAllowedUpdateFailed	更新设置失败。请重试。
+settings.prSessionMetadata	PR 描述里含会话细节
+settings.prSessionMetadataDescription	加回链到 Devin 并标明谁要的 PR。更改在会话开始或恢复时应用。
+settings.prcOriginModelsDisabled	PRC 来源模型已禁
+settings.prcOriginModelsDisabledDescription	你组织设为挡基于中华人民共和国（PRC）实验室权重的模型，含 Cognition 从其微调的模型。Devin 任何模式都不用这些模型。
+settings.preapproveTesting	预批测试
+settings.preapproveTestingDescription	Devin 不先问批准就测应用
+settings.preferencePages.customization.add	加
+settings.preferencePages.customization.allBots	全部 bot
+settings.preferencePages.customization.alwaysOpensPrsAsDevin	总以 Devin 开 PR
+settings.preferencePages.customization.botUsernameRequired	GitHub 用户名为必填项
+settings.preferencePages.customization.defaultEnvironmentUpdated	默认环境已更新
+settings.preferencePages.customization.defaultPlatformUpdated	默认平台已更新
+settings.preferencePages.customization.failedUpdateDefaultEnvironment	更新默认环境失败
+settings.preferencePages.customization.failedUpdateDefaultPlatform	更新默认平台失败
+settings.preferencePages.customization.failedUpdateDynamicWorkflowsSetting	更新 dynamic workflows 设置失败。
+settings.preferencePages.customization.failedUpdateMaxBatchSessions	更新最大批量会话失败
+settings.preferencePages.customization.failedUpdatePrOpenAsSetting	更新 PR「以谁开」设置失败
+settings.preferencePages.customization.gitProvider	Git 提供商
+settings.preferencePages.customization.letEachOrganizationChooseItsOwn	让每个组织自选设置
+settings.preferencePages.customization.linkIndividualAccount	你必须链你个人 {{provider}} 账户以用此功能。
+settings.preferencePages.customization.maxBatchSessionsUpdated	最大批量会话已更新
+settings.preferencePages.customization.maximumLimit500Sessions	最大限 500 个会话
+settings.preferencePages.customization.noBots	无 bot
+settings.preferencePages.customization.onlyAdminsCanChangeTheseSettings	仅管理员能改这些设置。
+settings.preferencePages.customization.openPrsAs	以谁开 PR
+settings.preferencePages.customization.opensAsUserFailsIfTheir	以用户开；其 Git 账户没连则失败。自动化和服务用户回退到 Devin
+settings.preferencePages.customization.opensAsUserWhenTheirGit	其 Git 账户已连时以用户开，否则以 Devin
+settings.preferencePages.customization.perOrganization	按组织
+settings.preferencePages.customization.pleaseEnterValidNumberGreaterThan	请输大于 0 的有效数字
+settings.preferencePages.customization.reconnectIndividualAccount	你必须重连你个人 {{provider}} 账户以用此功能。
+settings.preferencePages.customization.searchBotsGithubUsername	搜索 bot 的 GitHub 用户名
+settings.preferencePages.customization.selectBotAllowlistMode	选 bot 白名单模式
+settings.preferencePages.customization.selectHowOpenPullRequests	选怎么开拉取请求
+settings.preferencePages.customization.selectOption	选选项
+settings.preferencePages.customization.selectedOnly	仅所选
+settings.preferencePages.customization.sessions	会话
+settings.preferencePages.customization.thisMayCauseInfiniteLoopsWith	这可能和自动化代码审查 bot 造成无限循环。
+settings.preferencePages.customization.userOnly	仅用户
+settings.preferencePages.customization.warning	警告
+settings.preferencePages.customization.whenYouUseGithubPatConnection	你用 GitHub PAT 连接时，全部 Devin PR 以你 GitHub 用户名开。
+settings.preferencePages.customization.yourEnterpriseAdminHasLockedSetting	你企业管理员为全部组织锁了此设置。
+settings.preferencePages.profile.changeChannel	换频道
+settings.preferencePages.profile.clear	清除
+settings.preferencePages.profile.connectGitAccountConfigureTriggerMode	<lnk>连一个 git 账户</lnk>以配置触发模式
+settings.preferencePages.profile.connectPersonalAccountsUseTeamEnabled	连你个人账户以用团队开启的集成
+settings.preferencePages.profile.connected	已连
+settings.preferencePages.profile.devinDesktop	Devin Desktop
+settings.preferencePages.profile.devinReview	Devin Review
+settings.preferencePages.profile.failedChangeLanguage	换语言失败
+settings.preferencePages.profile.failedDisconnectPylon	断开 Pylon 失败
+settings.preferencePages.profile.firefox	Firefox
+settings.preferencePages.profile.googleChrome	Google Chrome
+settings.preferencePages.profile.linkDevinDesktopWithAccount	把 Devin Desktop 链到此账户
+settings.preferencePages.profile.missingIntegration	缺一个集成？
+settings.preferencePages.profile.noIntegrations	无集成
+settings.preferencePages.profile.safari	Safari
+settings.preferencePages.profile.selectChannel	选频道
+settings.preferencePages.profile.selfHostedGitlab	自托管 GitLab
+settings.preferencePages.review.addRepo	加仓库
+settings.preferencePages.review.allHosts	全部主机

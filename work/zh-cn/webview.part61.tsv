@@ -1,0 +1,340 @@
+promoInvites.programSummary.window	窗口期
+promoInvites.programsLoadFailed	无法加载项目：{{message}}
+promoInvites.readOnlyBody	邀请不能创建、重发或吊销
+promoInvites.readOnlyTitle	此项目在此只读
+promoInvites.redeemedBy	兑换人
+promoInvites.referredBy	推荐人
+promoInvites.refreshFailed	无法刷新邀请。显示之前加载的行。
+promoInvites.removeToStayWithin	移除 {{count}} 个以控制在每批 {{max}} 以内
+promoInvites.resentCount_one	重发 {{count}} 个
+promoInvites.resentCount_other	重发 {{count}} 个
+promoInvites.result	结果
+promoInvites.revokeCount	吊销 {{count}} 个
+promoInvites.row.adminIssued	管理员发出
+promoInvites.row.emailSentAt	发送于 {{date}}
+promoInvites.row.referrerNotRecorded	未记录推荐人
+promoInvites.row.selectAria	选择 {{email}}
+promoInvites.searchPlaceholder	搜索邮箱或推荐人
+promoInvites.selectAllAria	全选已加载的可吊销邀请
+promoInvites.selectedCount_one	已选 {{count}} 个
+promoInvites.selectedCount_other	已选 {{count}} 个
+promoInvites.sendInvitationEmail	发邀请邮件
+promoInvites.sendInvitationEmailDescription	关掉可拿链接自己分享
+promoInvites.sendInvitesEmpty	发邀请
+promoInvites.sendInvites_one	发 {{count}} 个邀请
+promoInvites.sendInvites_other	发 {{count}} 个邀请
+promoInvites.sending	正在发送…
+promoInvites.sent	已发送
+promoInvites.shownCount_one	显示 {{count}} 个
+promoInvites.shownCount_other	显示 {{count}} 个
+promoInvites.skippedCount_one	跳过 {{count}} 个
+promoInvites.skippedCount_other	跳过 {{count}} 个
+promoInvites.status	状态
+promoInvites.title	促销邀请
+promoInvites.toast.resendFailed	重发邀请失败：{{message}}
+promoInvites.toast.resendProcessed	已重发邀请：{{summary, list}}
+promoInvites.toast.revokeFailed	吊销邀请失败：{{message}}
+promoInvites.toast.revokeProcessed	已吊销邀请：{{summary, list}}
+promoInvites.toast.sendFailed	发邀请失败：{{message}}
+promoInvites.toast.sendProcessed	已发邀请：{{summary, list}}
+promoInvites.toast.statusCount	{{status}}（{{n}}）
+promoInvites.tryDifferentFilter	换个筛选或搜索词试试。
+promoOffer.adminDescription	只有计费管理员能兑换。请你团队上的管理员领，或把你设为管理员，或联系我们。
+promoOffer.adminTitle	让你的管理员领此优惠
+promoOffer.claim	领取
+promoOffer.claimFailed	领取优惠失败。请重试。
+promoOffer.contactUs	联系我们
+promoOffer.defaultDetails	你的优惠可以领了。
+promoOffer.defaultTitle	领取你的优惠
+promoOffer.orgPickerAdminOnly	仅计费管理员
+promoOffer.orgPickerLabel	应用优惠到的组织
+promoOffer.orgPickerNotEligible	不符合条件
+promoOffer.orgPickerPlaceholder	选择一个组织
+promoOffer.startupOfferLabel	创业优惠：{{grant}} + 最多 {{matchCap}} 1:1 配比
+providerSyncPolicy.confirmOff.confirm	关闭
+providerSyncPolicy.confirmOff.description	Devin 停止镜像每个连接，并移除镜像产生的仓库访问权。在 Devin 里授予的访问不受影响。
+providerSyncPolicy.confirmOff.title	关闭访问镜像？
+providerSyncPolicy.loadFailed	无法加载访问镜像策略。
+providerSyncPolicy.noConnections	还没有 git 连接。
+providerSyncPolicy.updateFailed	无法更新访问镜像策略。
+providerTeamSync.confirmDisable.mirroredUsers_one	{{count, number}} 个用户的仓库访问来自镜像，除非也在 Devin 里授予，否则会失去它。
+providerTeamSync.confirmDisable.mirroredUsers_other	{{count, number}} 个用户的仓库访问来自镜像，除非也在 Devin 里授予，否则会失去它。
+providerTeamSync.health.missingEvents	缺事件：{{list}}
+providerTeamSync.health.missingPermissions	缺权限：{{list}}
+providerTeamSync.health.openInstallation	在 GitHub 打开安装
+providerTeamSync.health.reviewAndAccept	在 GitHub 审查并接受
+providerTeamSync.myRepoAccess.action	同步仓库访问
+providerTeamSync.myRepoAccess.failed	无法从 GitLab 同步你的仓库访问。请重试。
+providerTeamSync.myRepoAccess.started	仓库访问同步已开始。可能要几分钟。
+providerTeamSync.status.error	错误
+providerTeamSync.status.stalled	停滞
+providerTeamSync.status.suspended	已挂起
+providerTeamSync.statusDescription.suspended	GitHub App 安装已挂起。在 GitHub 上解除挂起前什么都不跑。若已解除，「立即镜像」会再查一次安装。
+provisionedApiKeyModal.copied	已复制！
+provisionedApiKeyModal.copyApiKey	复制 API key
+provisionedApiKeyModal.copyFailed	复制 API key 失败
+provisionedApiKeyModal.copyKey	复制 key
+provisionedApiKeyModal.dialogLabel	API key 已发放
+provisionedApiKeyModal.forOrganization	用于组织：{{orgName}}
+provisionedApiKeyModal.saved	我已存好 key
+provisionedApiKeyModal.securityNoticeBody	此 API key 只显示一次。务必复制并安全存放。关掉此弹窗后将无法再看到 key。
+provisionedApiKeyModal.securityNoticeTitle	重要安全须知
+provisionedApiKeyModal.serviceApiKey	服务 API Key
+provisionedApiKeyModal.title	API Key 已发放
+provisionedTokenModal.copied	已复制！
+provisionedTokenModal.copyCommand	复制命令
+provisionedTokenModal.copyToken	复制令牌
+provisionedTokenModal.enterpriseScope	企业
+provisionedTokenModal.forService	用于：{{serviceName}}（{{scope}}）
+provisionedTokenModal.saved	我已存好令牌
+provisionedTokenModal.securityNoticeTitle	重要安全须知
+provisionedTokenModal.token	令牌
+pylon.accessControlDescription	控制 Devin 与 Pylon 的交互方式。
+pylon.accessControlTitle	访问控制
+pylon.allowedOrgsAll	全部组织
+pylon.allowedOrgsDescription	可用 Pylon 的组织
+pylon.allowedOrgsLabel	允许的组织
+pylon.allowedOrgsNone	没有组织
+pylon.allowedScopesAll	全部组织和\nMy Workspace
+pylon.allowedScopesSelected_one	已选 {{count}} 个范围
+pylon.allowedScopesSelected_other	已选 {{count}} 个范围
+pylon.askOnlyAllow	允许（只答问题，不改代码）
+pylon.askOnlyDescription	让没有 Devin 账户的人提问
+pylon.askOnlyDisallow	不允许
+pylon.askOnlyLabel	无 Devin 账户也能问
+pylon.askOnlyOrgDescription	用于未关联 Devin 账户的发件人
+pylon.askOnlyOrgLabel	未关联时路由到
+pylon.automationTriggersConfirmLabel	启用触发器
+pylon.automationTriggersConfirmTitle	启用 Pylon 自动化触发器
+pylon.automationTriggersDescription	允许支持的 Pylon 事件触发 Devin 自动化
+pylon.automationTriggersDisabled	已禁用
+pylon.automationTriggersEnabled	已启用
+pylon.automationTriggersLabel	Pylon 自动化触发器
+pylon.connect	连接
+pylon.connectFailed	连接 Pylon 失败
+pylon.connectedAt	连接于 {{date}}
+pylon.connectionFallback	Pylon 连接
+pylon.disconnectCancel	取消
+pylon.disconnectConfirm	断开
+pylon.disconnectDescription	确定要断开你的 Pylon 集成？这会移除 Devin 中全部 Pylon 自动化触发器。
+pylon.disconnectFailed	断开 Pylon 失败
+pylon.disconnectSuccess	Pylon 已成功断开
+pylon.disconnectTitle	断开 Pylon
+pylon.inheritEnterpriseDefaults	用企业默认
+pylon.inheritOrganizationDefaults	用组织默认
+pylon.linkConfirmCancel	取消
+pylon.linkConfirmLabel	关联账户
+pylon.linkConfirmTitle	关联你的 Pylon 账户
+pylon.loadingStatuses	正在加载状态…
+pylon.loadingTags	正在加载标签…
+pylon.mcpAccessConfirmDescription	读写访问让 Devin 能创建和更新 Pylon 工单和账户。
+pylon.mcpAccessConfirmLabel	启用读写访问
+pylon.mcpAccessConfirmTitle	启用 Pylon MCP 写访问
+pylon.mcpAccessDescription	控制 Devin 能否创建和更新 Pylon 工单和账户。<learnMoreLink>了解更多</learnMoreLink>
+pylon.mcpAccessLabel	Pylon MCP 访问
+pylon.mcpAccessReadOnly	只读
+pylon.mcpAccessReadWrite	读写
+pylon.messagesDescription	允许 Pylon bot 给工单链接的 Devin 会话发跟进消息
+pylon.messagesDisabled	已禁用
+pylon.messagesEnabled	已启用
+pylon.messagesLabel	Pylon 跟进消息
+pylon.noStatuses	没有 Pylon 状态
+pylon.noStatusesFound	未找到状态
+pylon.noTags	没有 Pylon 标签
+pylon.noTagsFound	未找到标签
+pylon.orgSelectAriaLabel	选择 Pylon 组织
+pylon.orgSelectPlaceholder	选择一个组织
+pylon.pageDescription	连接 Pylon 以用 Devin 自动化支持工作流。
+pylon.regionEu	EU（api.eu.usepylon.com）
+pylon.regionLabel	Pylon 工作区区域
+pylon.regionUs	US（api.usepylon.com）
+pylon.searchStatuses	搜索状态…
+pylon.searchTags	搜索标签…
+pylon.securityDescription	控制从 Pylon 创建的会话能做什么。
+pylon.securityProfileDescription	应用于 Pylon 委派的会话。选一个限制网络和工具访问的配置。在<securityProfilesLink>安全配置</securityProfilesLink>中编辑配置。
+pylon.securityProfileLabel	Pylon 安全配置
+pylon.securityProfilesLoadError	加载安全配置失败。
+pylon.securityTitle	安全
+pylon.securityWarningConfirmLabel	更换配置
+pylon.securityWarningDescription	从 Pylon 创建的会话处理不可信内容如客户支持工单，可能尝试提示词注入。确保这些会话有韧性——套一个限制网络和工具访问的严格安全配置。
+pylon.securityWarningTitle	警告
+pylon.securityWarningUpdateLink	更新默认 Pylon 安全配置
+pylon.sessionRoutingDescription	选择 Pylon 会话建在哪个组织。
+pylon.sessionRoutingOrgDescription	多组织账户必填；选一个之前 Pylon 事件会被拒
+pylon.sessionRoutingOrgLabel	组织
+pylon.sessionRoutingTitle	会话路由
+pylon.setup.askOnlyDescription	答问题不改代码
+pylon.setup.askOnlyOrgDescription	用于没有关联 Devin 账户的发件人
+pylon.setup.automationTriggersDescription	从 Pylon 事件启动 Devin 自动化
+pylon.setup.automationTriggersLabel	自动化触发器
+pylon.setup.description	选择 Devin 在 Pylon 能做什么
+pylon.setup.mcpAccessDescription	Devin 能对 Pylon 工单做什么
+pylon.setup.mcpAccessLabel	MCP 访问
+pylon.setup.messagesDescription	让 Pylon bot 给工单链接的 Devin 会话发消息
+pylon.setup.messagesLabel	跟进消息
+pylon.setup.noProfile	无安全配置
+pylon.setup.orgRequired	选一个组织前 Devin 会拒 Pylon 事件
+pylon.setup.orgRequiredError	选择一个组织
+pylon.setup.recommended	推荐
+pylon.setup.reviewProfile	审查配置
+pylon.setup.save	保存
+pylon.setup.securityProfileDescription	当前：{{name}}。工单不可信，用严格配置
+pylon.setup.securityProfileLabel	安全配置
+pylon.setup.title	Pylon 已连接
+pylon.setup.userMatchingDescription	识别没关联 Pylon 账户的发件人
+pylon.statusErrorDescription	加载 Pylon 集成状态时出错。
+pylon.statusErrorTitle	加载 Pylon 状态失败
+pylon.triggerDisabledDescription	{{triggers}} 在 Pylon 设置中关了，因此此自动化已禁用不起作用。
+pylon.triggerDisabledLink	管理 Pylon 自动化触发器
+pylon.triggerDisabledStatus	不会跑——Pylon 触发器已关
+pylon.triggerDisabledTitle	此自动化不会跑
+pylon.triggerLockedTooltip	此触发器不可用。\n在 Pylon 连接设置中开启它。
+pylon.triggerOrgListLockedTooltip	此触发器不可用。\n要开它，在 Pylon 连接设置中允许 My Workspace。
+pylon.triggerPartiallyDisabledDescription	{{triggers}} 在 Pylon 设置中关了，因此此自动化不会为它跑。其它触发器仍可用。
+pylon.triggerPartiallyDisabledTitle	部分触发器不会触发
+pylon.triggers.issueCreated	工单创建
+pylon.triggers.issueCreatedDescription	新 Pylon 工单创建时触发
+pylon.triggers.issueStatusChanged	工单状态变更
+pylon.triggers.issueStatusChangedDescription	Pylon 工单状态变化时触发
+pylon.triggers.issueTagAdded	工单标签添加
+pylon.triggers.issueTagAddedDescription	标签加到 Pylon 工单时触发
+pylon.tryAgain	重试
+pylon.updateSecurityProfileFailed	更新 Pylon 安全配置失败
+pylon.updateSettingsFailed	更新 Pylon 设置失败
+pylon.userMatchingConnectedOnly	仅 Pylon 已连用户
+pylon.userMatchingDescription	Pylon 发件人如何被识别为 Devin 用户
+pylon.userMatchingEmail	邮箱或 Pylon 已连用户
+pylon.userMatchingLabel	用户匹配
+quickReview.agentRunning	等 agent 干完活再请求审查。
+quickReview.button	快速审查
+quickReview.failed	快速审查失败：{{message}}
+quickReview.noModels	你的管理员还没启用任何审查模型。
+quoteAttachment.accessibility.actions	操作
+quoteAttachment.accessibility.details	无障碍详情
+quoteAttachment.accessibility.discovery	发现
+quoteAttachment.accessibility.identifier	标识符
+quoteAttachment.accessibility.label	标签
+quoteAttachment.accessibility.role	角色
+quoteAttachment.accessibility.show	显示无障碍详情
+quoteAttachment.accessibility.state	状态
+quoteAttachment.accessibility.stateValue	enabled={{enabled}} · focused={{focused}}
+quoteAttachment.accessibility.value	值
+quoteAttachment.annotation	标注
+quoteAttachment.area	区域
+quoteAttachment.areaScreenshotAlt	所选区域的截图，随引用一起发送
+quoteAttachment.areaSummary_one	{{width}} × {{height}} px 区域 · {{count}} 个元素
+quoteAttachment.areaSummary_other	{{width}} × {{height}} px 区域 · {{count}} 个元素
+quoteAttachment.component	组件
+quoteAttachment.designGroupChanges_one	{{count}} 处更改
+quoteAttachment.designGroupChanges_other	{{count}} 处更改
+quoteAttachment.designGroupEdit	编辑引用
+quoteAttachment.designGroupExternal	外部站点
+quoteAttachment.designGroupRemove	移除引用
+quoteAttachment.details	详情
+quoteAttachment.element	元素
+quoteAttachment.file	文件
+quoteAttachment.page	页面
+quoteAttachment.port	端口 {{port}}
+quoteAttachment.preview	预览
+quoteAttachment.previewElement	预览元素
+quoteAttachment.screenshotAlt	所选元素的截图，随引用一起发送
+quoteAttachment.source	来源
+quotePill.closeQuote	”
+quotePill.designEdit.alignItems	对齐项
+quotePill.designEdit.alignSelf	对齐自身
+quotePill.designEdit.background	背景
+quotePill.designEdit.border	边框
+quotePill.designEdit.borderBottomColor	下边框颜色
+quotePill.designEdit.borderBottomStyle	下边框样式
+quotePill.designEdit.borderBottomWidth	下边框宽度
+quotePill.designEdit.borderLeftColor	左边框颜色
+quotePill.designEdit.borderLeftStyle	左边框样式
+quotePill.designEdit.borderLeftWidth	左边框宽度
+quotePill.designEdit.borderRightColor	右边框颜色
+quotePill.designEdit.borderRightStyle	右边框样式
+quotePill.designEdit.borderRightWidth	右边框宽度
+quotePill.designEdit.borderTopColor	上边框颜色
+quotePill.designEdit.borderTopStyle	上边框样式
+quotePill.designEdit.borderTopWidth	上边框宽度
+quotePill.designEdit.changeCount_one	{{count}} 处更改
+quotePill.designEdit.changeCount_other	{{count}} 处更改
+quotePill.designEdit.columnGap	列间距
+quotePill.designEdit.direction	方向
+quotePill.designEdit.display	显示
+quotePill.designEdit.flexBasis	Flex 基准
+quotePill.designEdit.flexGrow	Flex 放大
+quotePill.designEdit.flexShrink	Flex 缩小
+quotePill.designEdit.fontFamily	字体族
+quotePill.designEdit.fontSize	字号
+quotePill.designEdit.fontStyle	字体样式
+quotePill.designEdit.fontWeight	字重
+quotePill.designEdit.gap	间距
+quotePill.designEdit.gridColumns	网格列
+quotePill.designEdit.height	高度
+quotePill.designEdit.justifyContent	主轴对齐
+quotePill.designEdit.letterSpacing	字间距
+quotePill.designEdit.lineHeight	行高
+quotePill.designEdit.margin	外边距
+quotePill.designEdit.marginBottom	下外边距
+quotePill.designEdit.marginLeft	左外边距
+quotePill.designEdit.marginRight	右外边距
+quotePill.designEdit.marginTop	上外边距
+quotePill.designEdit.maxHeight	最大高度
+quotePill.designEdit.maxWidth	最大宽度
+quotePill.designEdit.minHeight	最小高度
+quotePill.designEdit.minWidth	最小宽度
+quotePill.designEdit.objectFit	对象适应
+quotePill.designEdit.opacity	不透明度
+quotePill.designEdit.overflow	溢出
+quotePill.designEdit.padding	内边距
+quotePill.designEdit.paddingBottom	下内边距
+quotePill.designEdit.paddingLeft	左内边距
+quotePill.designEdit.paddingRight	右内边距
+quotePill.designEdit.paddingTop	上内边距
+quotePill.designEdit.position	定位
+quotePill.designEdit.radius	圆角
+quotePill.designEdit.radiusBottomLeft	左下圆角
+quotePill.designEdit.radiusBottomRight	右下圆角
+quotePill.designEdit.radiusTopLeft	左上圆角
+quotePill.designEdit.radiusTopRight	右上圆角
+quotePill.designEdit.rowGap	行间距
+quotePill.designEdit.shadow	阴影
+quotePill.designEdit.text	文本
+quotePill.designEdit.textAlign	文本对齐
+quotePill.designEdit.textColor	文本颜色
+quotePill.designEdit.textDecoration	文本装饰
+quotePill.designEdit.textTransform	文本变换
+quotePill.designEdit.width	宽度
+quotePill.designEdit.wrap	换行
+quotePill.openQuote	“
+quoting.editorNotice	引用的编辑器内容
+railPins.dragCancel	重排 {{name}} 已取消。
+railPins.dragEnd	已放下 {{name}}。
+railPins.dragInstructions	按空格重排置顶项。方向键移动，空格放下，Esc 取消。
+railPins.dragMove	{{name}} 在第 {{position}} / {{count}} 位。
+railPins.dragStart	已拾起 {{name}}。
+railPins.loading	正在加载置顶项…
+railPins.open	打开
+railPins.pin	置顶到左栏
+railPins.unpin	从左栏取消置顶
+reactionSelect.activities	活动
+reactionSelect.all	全部
+reactionSelect.animalsNature	动物与自然
+reactionSelect.flags	旗帜
+reactionSelect.foodDrink	食物与饮料
+reactionSelect.frequentlyUsed	常用
+reactionSelect.noEmojiFound	没有 emoji
+reactionSelect.objects	物品
+reactionSelect.peopleBody	人物与身体
+reactionSelect.searchEmoji	搜索 emoji…
+reactionSelect.smileysEmotion	笑脸与表情
+reactionSelect.symbols	符号
+reactionSelect.travelPlaces	旅行与地点
+reactionSelect.useCustom	用自定义：
+reactions.addReaction	加反应
+reactions.count_one	{{count}} 个反应
+reactions.count_other	{{count}} 个反应
+reactions.group	{{emoji}} {{names, list}}
+reactions.others_one	{{count}} 个其它
+reactions.others_other	{{count}} 个其它
+reactions.people_one	{{count}} 人

@@ -1,0 +1,235 @@
+settings.autofix	自动修 Devin Review 发现项
+settings.autofixOffForOrg	管理员对此组织全员关了。
+settings.autofixOrgDescription	Devin 将自动分诊发现项并定是修、验证还是升级给你。此选项配置全部用户的默认。
+settings.autofixPersonalDescription	Devin 将自动分诊发现项并定是修、验证还是升级给你。
+settings.autofixResetToOrgDefault	重置为组织默认
+settings.autofixResetToOrgDefaultOff	你为自己的会话改了。重置以跟组织默认（关）。
+settings.autofixResetToOrgDefaultOn	你为自己的会话改了。重置以跟组织默认（开）。
+settings.automaticReview	自动分析
+settings.automationScope	自动化作用域
+settings.automationScopeAllConnectedRepos	全部已连仓库
+settings.automationScopeDescription	控制哪些仓库能触发自动化
+settings.automationScopePrivateReposOnly	仅私有仓库
+settings.automationScopePublicRepoWarning	基于公共仓库的自动化提示词注入风险更高。慎用。
+settings.automationScopeUpdateFailed	更新自动化作用域失败
+settings.automationSettings	自动化设置
+settings.automations	自动化
+settings.automationsDefaultLoadFailed	加载不了自动化默认安全配置。
+settings.automationsDescription	特定条件满足时开会话
+settings.availableSlots	可用名额
+settings.availableToAdmins	仅管理员可用
+settings.averageUtilization	平均利用率
+settings.azureDevops	Azure DevOps
+settings.azureDevopsAuthorizedAs	{{host}} · 已授权为 {{name}}
+settings.azureDevopsDescription	管理 Azure DevOps 集成设置
+settings.azureDevopsRepositoryPermissions	Azure DevOps 仓库权限
+settings.azureDevopsRepositoryPermissionsDescription	配置每个组织能访问哪些仓库。
+settings.azureDevopsServer.cancel	取消
+settings.azureDevopsServer.collectionLabel	Collection
+settings.azureDevopsServer.collectionRequired	Collection 为必填项
+settings.azureDevopsServer.connect	连接
+settings.azureDevopsServer.connectFailed	连不了 Azure DevOps Server。查主机、collection 和 token。
+settings.azureDevopsServer.connected	Azure DevOps Server 已连
+settings.azureDevopsServer.connectedNoRepoAccess	Azure DevOps Server 已连，但 token 列不了仓库。给它 Code (Read & write) 作用域再重连。
+settings.azureDevopsServer.connecting	正在连 Azure DevOps Server…
+settings.azureDevopsServer.description	支持 Azure DevOps Server 2022。token 需要 Code (Read & write) 和 Project and Team (Read) 作用域
+settings.azureDevopsServer.hostHint	服务器用虚拟目录就带上，如 devops.mycompany.com/tfs
+settings.azureDevopsServer.hostLabel	服务器主机
+settings.azureDevopsServer.hostRequired	主机为必填项
+settings.azureDevopsServer.menuItem	连 Azure DevOps Server
+settings.azureDevopsServer.title	连 Azure DevOps Server
+settings.azureDevopsServer.tokenLabel	个人访问令牌
+settings.azureDevopsServer.tokenRequired	Token 为必填项
+settings.baaDescription	用 Devin 处理受保护健康信息？申请 BAA，我们团队会跟进。
+settings.baaTitle	商业伙伴协议（BAA）
+settings.batchLimit	批量上限
+settings.batchLimitDescription	Devin 每批最多建几个会话（1–500）
+settings.beta	Beta
+settings.bitbucket	Bitbucket
+settings.bitbucketCloudConnectWithOauth	用 OAuth 连接（任何 Bitbucket 方案）
+settings.bitbucketCloudConnectWithToken	用访问令牌连接
+settings.bitbucketCloudTokenConnecting	连接中…
+settings.bitbucketCloudTokenDialogDescription	Devin 把 token 用于此工作区并以 token 身份而非你身份发审查。工作区访问令牌要 Bitbucket Cloud Premium。没 Premium 就改用 OAuth 连接，任何 Bitbucket 方案都行。
+settings.bitbucketCloudTokenError	连不了 Bitbucket Cloud
+settings.bitbucketCloudTokenLabel	访问令牌
+settings.bitbucketCloudTokenRequired	访问令牌为必填项
+settings.bitbucketCloudTokenScopePullRequests	Pull requests：Write
+settings.bitbucketCloudTokenScopeRepositories	Repositories：Admin
+settings.bitbucketCloudTokenScopeWebhooks	Webhooks：Read and write
+settings.bitbucketCloudTokenScopesDegraded	作用域更窄时，Devin 读不了合并状态也装不了 webhook。
+settings.bitbucketCloudTokenScopesIntro	带这些作用域建 token：
+settings.bitbucketCloudTokenSubmit	连接
+settings.bitbucketCloudTokenSuccess	Bitbucket Cloud 已连
+settings.bitbucketCloudTokenTitle	用访问令牌连 Bitbucket Cloud
+settings.bitbucketCloudTokenWorkspaceDescription	你 Bitbucket URL 里的工作区 ID：bitbucket.org/my-workspace
+settings.bitbucketCloudTokenWorkspaceInvalid	工作区 ID 只含字母、数字、下划线、连字符和点
+settings.bitbucketCloudTokenWorkspaceLabel	工作区
+settings.bitbucketCloudTokenWorkspaceRequired	工作区为必填项
+settings.bitbucketDataCenterOauth.allHostsRegistered	每个 Bitbucket Data Center 连接都已有应用。移除一个才能注册替换。
+settings.bitbucketDataCenterOauth.clientIdLabel	Client ID
+settings.bitbucketDataCenterOauth.clientIdValue	Client ID：{{clientId}}
+settings.bitbucketDataCenterOauth.clientSecretLabel	Client secret
+settings.bitbucketDataCenterOauth.confirmRemove	确认移除
+settings.bitbucketDataCenterOauth.copiedAppLinksUrl	已复制
+settings.bitbucketDataCenterOauth.copiedRedirectUri	已复制
+settings.bitbucketDataCenterOauth.copyAppLinksUrl	复制 application links URL
+settings.bitbucketDataCenterOauth.copyAppLinksUrlError	复制 application links URL 失败
+settings.bitbucketDataCenterOauth.copyRedirectUri	复制重定向 URL
+settings.bitbucketDataCenterOauth.copyRedirectUriError	复制重定向 URL 失败
+settings.bitbucketDataCenterOauth.createSuccess	Bitbucket Data Center 应用已注册
+settings.bitbucketDataCenterOauth.description	为每个 Bitbucket Data Center 实例注册 OAuth 应用，用户就能从个人设置的「连接」链自己的账户。
+settings.bitbucketDataCenterOauth.empty	还没注册过 Bitbucket Data Center 应用。
+settings.bitbucketDataCenterOauth.errorCreate	注册不了 Bitbucket Data Center 应用。请重试。
+settings.bitbucketDataCenterOauth.errorDuplicateHost	此主机已注册应用。先移除再注册替换。
+settings.bitbucketDataCenterOauth.errorEnterpriseOnly	Bitbucket Data Center 用户 OAuth 只对企业账户开放。
+settings.bitbucketDataCenterOauth.errorHostMismatch	主机必须匹配你的一个 Bitbucket Data Center 连接。
+settings.bitbucketDataCenterOauth.errorPermission	你没有注册 Bitbucket Data Center 应用的权限。
+settings.bitbucketDataCenterOauth.hostLabel	主机
+settings.bitbucketDataCenterOauth.hostNoLongerAvailable	你选的主机不再可用。重选主机并再输其 client ID 和 secret
+settings.bitbucketDataCenterOauth.hostPlaceholder	选一个 Data Center 主机
+settings.bitbucketDataCenterOauth.loadError	加载 Bitbucket Data Center 应用失败。
+settings.bitbucketDataCenterOauth.loading	加载应用中…
+settings.bitbucketDataCenterOauth.modalDescription	在你的 Bitbucket Data Center 实例用下面设置建 incoming application link，再把其凭据粘到这里
+settings.bitbucketDataCenterOauth.modalTitle	注册 Bitbucket Data Center 应用
+settings.bitbucketDataCenterOauth.noConnections	注册应用前先加 Bitbucket Data Center 连接。
+settings.bitbucketDataCenterOauth.noPermission	能建 Git 连接的用户可用
+settings.bitbucketDataCenterOauth.openAppLinksUrl	打开 application links
+settings.bitbucketDataCenterOauth.permissions	选 Repositories：Write（{{scope}}）。
+settings.bitbucketDataCenterOauth.permissionsLabel	应用权限
+settings.bitbucketDataCenterOauth.redirectUriLabel	重定向 URL
+settings.bitbucketDataCenterOauth.registerLabel	注册应用
+settings.bitbucketDataCenterOauth.remove	移除
+settings.bitbucketDataCenterOauth.removeError	移除 Bitbucket Data Center 应用失败。
+settings.bitbucketDataCenterOauth.removeSuccess	已移除 {{host}} 的 Bitbucket Data Center 应用
+settings.bitbucketDataCenterOauth.removeWarning	移除此应用会解绑 {{host}} 上每个用户的 Bitbucket Data Center 账户。Bitbucket 里的 application link 要单独删。
+settings.bitbucketDataCenterOauth.removing	移除中…
+settings.bitbucketDataCenterOauth.retry	重试
+settings.bitbucketDataCenterOauth.stepCreate	在 Administration > Application links 选 Create link，再选 External application 和 Incoming
+settings.bitbucketDataCenterOauth.stepCreateLabel	Application link
+settings.bitbucketDataCenterOauth.submit	注册
+settings.bitbucketDataCenterOauth.submitting	保存中…
+settings.bitbucketDataCenterOauth.title	Bitbucket Data Center 用户 OAuth
+settings.bitbucketDataCenterUserOauth	Bitbucket Data Center 用户 OAuth
+settings.bitbucketDescription	管理 Bitbucket 集成设置
+settings.bitbucketRepositoryPermissions	Bitbucket 仓库权限
+settings.bitbucketRepositoryPermissionsDescription	配置每个组织能访问哪些仓库。
+settings.bitbucketRotateTokenAction	轮换 token
+settings.bitbucketRotateTokenDescription	不重连就换掉 Devin 此连接用的 HTTP 访问令牌
+settings.bitbucketRotateTokenDescriptionCloud	不重连就换掉 Devin 此连接用的访问令牌
+settings.bitbucketRotateTokenDialogDescription	换当前 token 前 Devin 先查新 token 属于 {{username}}
+settings.bitbucketRotateTokenDialogDescriptionCloud	换当前 token 前 Devin 先查新 token 属于 {{workspace}} 工作区
+settings.bitbucketRotateTokenError	轮换 Bitbucket 访问令牌失败
+settings.bitbucketRotateTokenLabel	新 HTTP 访问令牌
+settings.bitbucketRotateTokenLabelCloud	新访问令牌
+settings.bitbucketRotateTokenLoading	正在轮换 Bitbucket 访问令牌…
+settings.bitbucketRotateTokenRequired	Token 为必填项
+settings.bitbucketRotateTokenSuccess	Bitbucket 访问令牌已轮换
+settings.bitbucketRotateTokenTitle	轮换访问令牌
+settings.bitbucketWebhook	Webhook
+settings.bitbucketWebhookAutoInstallNote	Devin 自己给其 Bitbucket token 管的每个项目加此 webhook。只有它管不了的项目才用下面步骤。已有手工建的 Devin webhook 的仓库或项目，在 Devin 加自己的之后每个事件发两次，所以删手工那个。
+settings.bitbucketWebhookConfigure	配置
+settings.bitbucketWebhookDescription	把拉取请求事件发给 Devin，让 PR 状态和评论实时更新
+settings.bitbucketWebhookStepAuth	Authentication 下选 Basic，输任意用户名，把上面的 secret token 粘为密码
+settings.bitbucketWebhookStepCreate	建一个 webhook 并把上面的 webhook URL 粘进去
+settings.bitbucketWebhookStepEvents	Pull request 下选 Opened、Source branch updated、Merged、Declined 和 Comment added
+settings.bitbucketWebhookStepEventsAutomations	要用自动化，再选 Pull request 下的 Modified 和 Repository 下的 Push
+settings.bitbucketWebhookStepOpen	在 Bitbucket Data Center 开仓库或项目设置并进 Webhooks
+settings.blockMemberMcpConnections	只允许连管理员配置的 MCP
+settings.blockMemberMcpConnectionsDescription	成员只能连管理员加过的远程 MCP。要让各成员用自己账户登录，加 MCP 并把其访问设为 Personal。
+settings.blockedStatus	已阻塞
+settings.blueprint	Blueprint
+settings.blueprintDescription	配置先于全部组织配置跑的企业级环境 blueprint
+settings.blueprintDrift	Blueprint 漂移
+settings.blueprintDriftDescription	此快照用的 blueprint 配置与构建时仓库文件的历史差异。
+settings.blueprints	Blueprint
+settings.blueprintsDescription	为仓库配置环境 blueprint
+settings.blueprintsPage.buildLog.copyLogs	复制日志
+settings.blueprintsPage.buildLog.copyLogsFailed	复制日志失败
+settings.blueprintsPage.buildLog.noLogsForFilter	此筛选没日志。
+settings.blueprintsPage.cloneAllPlatforms.description	让每个配置的仓库在每个平台的快照里都可用
+settings.blueprintsPage.cloneAllPlatforms.infoTip	Blueprint 步骤仍只在 runs-on 选的平台上跑。
+settings.blueprintsPage.cloneAllPlatforms.label	在全部平台克隆仓库
+settings.blueprintsPage.pinConfirm.activateDesc	全部新会话将用此快照而非自动挑最新构建。计划环境刷新将暂停到你恢复自动更新。
+settings.blueprintsPage.pinConfirm.activateTitle	激活此快照？
+settings.blueprintsPage.pinConfirm.cancel	取消
+settings.blueprintsPage.pinConfirm.confirm	确认
+settings.blueprintsPage.pinConfirm.delete	删除
+settings.blueprintsPage.pinConfirm.deleteDesc	快照将从构建历史隐藏。存在时新会话回退到次新成功构建。此操作不可撤销。
+settings.blueprintsPage.pinConfirm.deleteTitle	删此快照？
+settings.blueprintsPage.pinConfirm.resume	恢复
+settings.blueprintsPage.pinConfirm.resumeDesc	新会话将回到用最新成功构建。计划环境刷新按正常计划恢复。
+settings.blueprintsPage.pinConfirm.resumeTitle	恢复自动更新？
+settings.blueprintsPage.pinControls.activateFailed	激活快照失败
+settings.blueprintsPage.pinControls.activateSnapshot	激活此快照
+settings.blueprintsPage.pinControls.activateSnapshotTooltip	为全部新会话激活此快照
+settings.blueprintsPage.pinControls.activateSuccess	快照已激活——新会话将用它
+settings.blueprintsPage.pinControls.activating	激活中…
+settings.blueprintsPage.pinControls.disabledCancelled	取消的构建用不了
+settings.blueprintsPage.pinControls.disabledFailed	失败的构建用不了
+settings.blueprintsPage.pinControls.disabledInProgress	进行中的构建锁不了
+settings.blueprintsPage.pinControls.disabledTooOld	超 {{days}} 天的构建用不了
+settings.blueprintsPage.pinControls.locked	已锁
+settings.blueprintsPage.pinControls.lockedTooltip	此快照为新会话手动选的。
+settings.blueprintsPage.pinControls.paused	自动更新已暂停
+settings.blueprintsPage.pinControls.pausedDescription	新会话用固定构建而非自动更新到最新。
+settings.blueprintsPage.pinControls.pausedForPlatforms	自动更新已暂停（{{platforms}}）
+settings.blueprintsPage.pinControls.resumeAutoUpdates	恢复自动更新
+settings.blueprintsPage.pinControls.resumeBeforeDelete	删此快照前先恢复自动更新。
+settings.blueprintsPage.pinControls.resumeFailed	恢复自动更新失败
+settings.blueprintsPage.pinControls.resumeSuccess	自动更新已恢复——会话将用最新构建
+settings.blueprintsPage.pinControls.resuming	恢复中…
+settings.blueprintsPage.pinControls.useBuild	用此构建
+settings.blueprintsPage.pinControls.useBuildTooltip	把全部新会话锁到此构建版本
+settings.blueprintsPage.setupGuide.cloneDesc	可选。只在克隆非默认分支、自定义路径、浅深度或跳子模块/LFS 时需要。
+settings.blueprintsPage.setupGuide.cloneTitle	克隆
+settings.blueprintsPage.setupGuide.initializeDescOrg	加在你环境全部仓库跑的设置命令。
+settings.blueprintsPage.setupGuide.initializeDescRepo	加命令让 Devin 从 Git 提供商拉你代码并装依赖。
+settings.blueprintsPage.setupGuide.initializeTitle	初始化
+settings.blueprintsPage.setupGuide.knowledgeDescOrg	加共享参考信息和约定给 Devin 遵。
+settings.blueprintsPage.setupGuide.knowledgeDescRepo	加参考信息如 lint、测试、构建命令给 Devin 用。
+settings.blueprintsPage.setupGuide.knowledgeTitle	知识
+settings.blueprintsPage.setupGuide.maintenanceDescOrg	加命令让 Devin 的环境保持最新。
+settings.blueprintsPage.setupGuide.maintenanceDescRepo	加命令让 Devin 跟上你仓库最新更改。
+settings.blueprintsPage.setupGuide.maintenanceTitle	维护
+settings.blueprintsPage.setupGuide.postBuildDesc	加在全部设置完成后跑的命令。适合做健康检查——非零退出码判构建失败。
+settings.blueprintsPage.setupGuide.postBuildTitle	构建后
+settings.blueprintsPage.setupGuide.title	设置指南
+settings.bookATeamOnboardingCall	约团队上手电话
+settings.bookATeamOnboardingCallDescription	约专属会话带你团队上手
+settings.bookCall	约电话
+settings.botPrLink.description	最佳体验是连同聊天里其它上下文一起看 PR。
+settings.botPrLink.done	懂了
+settings.botPrLink.navigationBlocked	标签页被挡了。允许此站弹窗再试。
+settings.botPrLink.openFullReview	开全屏 Devin Review
+settings.botPrLink.openPreferences	打开偏好设置
+settings.botPrLink.openSidePane	在侧边栏打开
+settings.botPrLink.providerDescription	要改 PR 链接在哪开，在偏好设置找「{{setting}}」。
+settings.botPrLink.providerTitle	在你 Git 提供商开
+settings.botPrLink.recommended	推荐
+settings.botPrLink.retrySave	重试保存
+settings.botPrLink.saveFailed	存不了 PR 链接在哪开。
+settings.botPrLink.sidePane	Devin Review 侧边栏
+settings.botPrLink.sidePaneDescription	不离开对话审 diff 和评论。
+settings.botPrLink.title	PR 该在哪开？
+settings.botTemplatesCancel	取消
+settings.botTemplatesDelete	删除
+settings.botTemplatesDeleteConfirm	删除模板
+settings.botTemplatesDeleteDescription	它离开模板库且其链接失效。已从它建的 {{botNamePlural}} 不受影响。
+settings.botTemplatesDeleteFailed	删不了模板。请重试。
+settings.botTemplatesDeleteTitle	删 {{name}}？
+settings.botTemplatesDescription	共享给此组织的模板。改名或删除不影响已从它建的 {{botNamePlural}}。
+settings.botTemplatesEmpty	还没有模板共享给此组织。
+settings.botTemplatesLoadFailed	加载不了模板。
+settings.botTemplatesNameLabel	名称
+settings.botTemplatesRename	重命名
+settings.botTemplatesRenameDescription	新名在模板库显示。已从此模板建的 {{botNamePlural}} 保留其名。
+settings.botTemplatesRenameFailed	重命名不了模板。请重试。
+settings.botTemplatesRenameSave	保存
+settings.botTemplatesRenameSaving	保存中…
+settings.botTemplatesRenameTitle	重命名模板
+settings.botTemplatesTitle	模板
+settings.botTemplatesTruncated	只列最新模板。
+settings.botsBillingCreatedBy	由 {{name}} 创建
+settings.botsBillingCreatedByInOrg	由 {{name}} 在 {{org}} 创建
+settings.botsBillingDescription	你成员建的全部 {{botNamePlural}}，含私有的，及各自计费。
+settings.botsBillingDialogDescription	谁为此 {{botName}} 付费、每周期可花多少。

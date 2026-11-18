@@ -1,0 +1,284 @@
+oncall.reporting.run.summaryTitle	摘要
+oncall.reporting.run.viewSession	查看会话
+oncall.reporting.runAsNoServiceUsers	报告以服务用户身份运行。建一个以继续。
+oncall.reporting.runAsNoServiceUsersNoAccess	报告以服务用户身份运行。请让管理员建一个。
+oncall.reporting.runPeriodLatest	{{period}}（当前）
+oncall.reporting.runUnavailable	此报告运行已不可用。
+oncall.reporting.searchPlaceholder	搜索报告…
+oncall.reporting.selectAll	全选
+oncall.reporting.selectResponders	选择 responder
+oncall.reporting.setUpDigest	设置摘要
+oncall.reporting.statsError	无法加载 on-call 统计。
+oncall.reporting.viewAutomation	查看自动化
+oncall.reporting.viewLatestRun	查看最新报告
+oncall.reports	报告
+oncall.responderColumn	名称
+oncall.responderCreateFailed	创建 responder 失败
+oncall.responderCreated	responder 创建成功
+oncall.responderCreating	正在创建 responder…
+oncall.responderDeleteFailed	删除 responder 失败
+oncall.responderDeleted	responder 删除成功
+oncall.responderDeleting	正在删除 responder…
+oncall.responderEventCount_one	{{count}} 个事件
+oncall.responderEventCount_other	{{count}} 个事件
+oncall.responderIssueCount_one	{{count}} 个问题
+oncall.responderIssueCount_other	{{count}} 个问题
+oncall.responderIssueTypeAlerts	告警
+oncall.responderIssueTypeAlertsDescription	为排查生产问题告警优化
+oncall.responderIssueTypeBugs	支持 + Bug
+oncall.responderIssueTypeBugsDescription	为排查 bug 报告和支持问题优化
+oncall.responderIssueTypeDescription	此 responder 处理的问题类别。创建后不能改
+oncall.responderIssueTypeLabel	responder 类型
+oncall.responderIssueTypeLegacy	旧版
+oncall.responderLoadError	无法加载此 responder。
+oncall.responderLoadWarning	无法刷新此 responder。显示上次加载的。
+oncall.responderModeDescription	排查用的 Agent 模式
+oncall.responderNotFound	此 responder 不存在或已被删除。
+oncall.responderSection	responder
+oncall.responderUpdateFailed	更新 responder 失败
+oncall.responderUpdated	responder 更新成功
+oncall.responderUpdating	正在更新 responder…
+oncall.responders	responder
+oncall.respondersLoadError	无法加载 responder。
+oncall.respondersLoadWarning	无法刷新 responder。显示上次加载的。
+oncall.runAsDescription	选择 Oncall 用来理解你代码库和访问连接器的身份
+oncall.runAsPaused	此身份不能再跑会话。换一个身份以恢复 Oncall 索引。
+oncall.runAsPausedTitle	Oncall 索引已暂停
+oncall.runAsResume	恢复
+oncall.runAsSaveFailed	保存 Oncall 运行身份失败
+oncall.runResponder	运行 responder
+oncall.runResponderDialogDescription	立即手动运行 responder。
+oncall.runbookDescription	Devin 默认排查问题。加 runbook 给它具体步骤
+oncall.runbookDescriptionBugs	Devin 默认分诊 bug 和支持问题。在此加公司特定上下文，如怎么定优先级、工单提到哪个系统
+oncall.runbookLabel	Runbook
+oncall.runbookOptional	可选
+oncall.runbookPlaceholderBugs	如：描述你怎么定优先级、工单提到哪里
+oncall.save	保存
+oncall.saving	正在保存…
+oncall.schedulePreflightHint	在下方加一个 preflight 检查，用脚本在每次运行找新问题或事件。responder 分诊脚本返回的每一项。
+oncall.sessionSettingsDescription	此 responder 启动的会话怎么跑
+oncall.sessionSettingsLabel	会话设置
+oncall.sessionTagDescription	新会话计费到此标签
+oncall.sessionTagLabel	会话标签
+oncall.sessionTagPtsDescription	新会话计费到此 PTS Code
+oncall.sessionTagPtsRequired	请选择一个 PTS Code
+oncall.sessionTagRequired	请选择一个会话标签
+oncall.sessionTagUpdateFailed	更新会话标签失败
+oncall.sessionTagUpdated	会话标签已更新
+oncall.sessionTagUpdating	正在更新会话标签…
+oncall.settingsButton	Oncall 设置
+oncall.setup.alreadyConnected	已连接
+oncall.setup.availableWhenReady	Devin Oncall 就绪后可用
+oncall.setup.back	返回
+oncall.setup.beginSetup	开始设置
+oncall.setup.cadenceLabel	保持 Devin 学到的技能常新
+oncall.setup.cadenceMonthly	每月
+oncall.setup.cadenceNever	从不
+oncall.setup.cadenceNote	初始设置后的每次更新都计你的用量。
+oncall.setup.cadenceWeekly	每周
+oncall.setup.chronosphereDescription	查指标、日志和链路（Palo Alto Networks）
+oncall.setup.connect	连接
+oncall.setup.connectDescriptionLinked	连接至少一个遥测工具。若你已在 <envLink>Devin 的环境</envLink> 中直连了遥测工具，可不带工具设置
+oncall.setup.connectDescriptionRevisit	连接或重连至少一个遥测工具，然后点完成把连接应用到 Oncall
+oncall.setup.connectTitle	连接工具
+oncall.setup.connected	已连接
+oncall.setup.datadogDescription	发现指标、日志、链路和事件
+oncall.setup.dynatraceDescription	用 DQL 查日志和指标并排查问题
+oncall.setup.elasticDescription	在 Elasticsearch 中搜日志、指标和链路
+oncall.setup.emptyDescription	连接你的遥测工具，让 Devin 学习你的系统，从而排查告警和事件、找根因、建议下一步。
+oncall.setup.failedDescription	Devin 没能完成对你系统的学习。重试以重启设置。
+oncall.setup.failedLabel	学习设置失败
+oncall.setup.failedToast	Oncall 设置失败
+oncall.setup.finalizeWithTools_one	带 {{count}} 个工具完成
+oncall.setup.finalizeWithTools_other	带 {{count}} 个工具完成
+oncall.setup.finalizeWithoutTools	不带工具完成
+oncall.setup.getStarted	开始
+oncall.setup.googleCloudMonitoringDescription	用 PromQL 查指标、看告警和仪表盘
+oncall.setup.grafanaDescription	看监控仪表盘、可视化和告警
+oncall.setup.honeycombDescription	查和探索可观测数据和 SLO
+oncall.setup.initializingBannerDescription	Devin 正在学习你的系统。通常约 1-2 小时。现在就能配 responder、事件监控和报告，但设置完成前它们不运行：responder 不响应事件、新事件频道不被监控、报告摘要不发送。
+oncall.setup.initializingBannerTitle	Devin 正在准备上 oncall
+oncall.setup.introDescription	盯告警、排查事件、呼叫对的人来推动解决。
+oncall.setup.introDiagnose	修复问题、找根因并开修复 PR
+oncall.setup.introRemember	从每次排查中学习，重复问题解决得更快
+oncall.setup.introSetupTitle	设置 Devin Oncall
+oncall.setup.introTeamTitle	你的团队在用 Devin Oncall
+oncall.setup.introTrigger	告警、bug 报告或事件频道一触发就开始排查
+oncall.setup.manageEnterprisePluginsPermission	管理企业插件
+oncall.setup.managePluginsPermission	管理插件
+oncall.setup.maybeLater	以后再说
+oncall.setup.newRelicDescription	查遥测、APM 服务、日志和告警
+oncall.setup.noMatches	没有工具匹配「{{query}}」
+oncall.setup.noOrgInstallPermission	你没有为此组织连接工具的权限。请组织管理员或有 <strong>{{permission}}</strong> 权限的人连接。
+oncall.setup.noPermission	你没有开始 Oncall 设置的权限。请管理员完成设置。
+oncall.setup.openTool	打开 {{name}}
+oncall.setup.previewAlertSeverity	SEV-2：
+oncall.setup.previewAlertText	POST /api/transfers 错误率超 5%
+oncall.setup.previewBugChannel	# eng-bugs
+oncall.setup.previewBugFix	追到 <commitLink>c48b1f3</commitLink>，今早部署到生产：新的 cursor 分页在结果跨多片时丢第一页。升级给代码负责人 <mention>@Jake</mention>。
+oncall.setup.previewBugInvestigating	看一下。先复现，再查搜索页最近的改动。
+oncall.setup.previewBugLabel	升级给对的人
+oncall.setup.previewBugReport	有几个客户报 /search 结果页空白。有人看一下吗？
+oncall.setup.previewChannel	# oncall-alerts
+oncall.setup.previewDiskPressureAlert	prod-us-east 12 节点中 3 个磁盘超 90%
+oncall.setup.previewDiskPressureChannel	# infra-monitoring
+oncall.setup.previewDiskPressureFix	找到了：<code>log-shipper</code> DaemonSet 丢了卷挂载导致日志轮转停了，容器日志正在填满 <code>/var/log/pods</code>。要我隔离这 3 个节点并清积压吗？
+oncall.setup.previewDiskPressureInvestigating	在看。按路径查受影响节点的磁盘用量。
+oncall.setup.previewDiskPressureLabel	沿栈追根因
+oncall.setup.previewDiskPressureSeverity	节点磁盘压力：
+oncall.setup.previewFix	找到了：<commitLink>a3f9c21</commitLink> 在重试时丢了幂等键。已开 <prLink>PR 74414</prLink> 恢复。
+oncall.setup.previewIncidentChannel	# incident-4821-login-failures
+oncall.setup.previewInvestigating	在查转账错误。弄清楚哪坏了我发帖。
+oncall.setup.previewLoginAlert	登录 API 超 10% 请求返 5xx
+oncall.setup.previewLoginFix	已缓解：回滚了 auth-service，登录恢复。<commitLink>e91b7d4</commitLink> 弄坏了会话令牌校验；已开 <prLink>PR 74502</prLink> 回退。
+oncall.setup.previewLoginInvestigating	在看。错误从 10:41 开始，正好在 auth-service 部署后。查是不是它引起的。
+oncall.setup.previewLoginLabel	主动回滚坏部署
+oncall.setup.previewLoginSeverity	SEV-1：
+oncall.setup.previewSlowQueryAlert	GET /graphql/orders p95 查询超 2s
+oncall.setup.previewSlowQueryChannel	# backend-alerts
+oncall.setup.previewSlowQueryFix	找到了：<code>list_customers</code> dataloader 里无界 <code>IN (...)</code> 子句批了 1500+ 会话 ID，导致秒级查询。要我给 dataloader 加批大小上限或分页吗？
+oncall.setup.previewSlowQueryInvestigating	在看。拉查询计划并查 orders 端点变了什么。
+oncall.setup.previewSlowQueryLabel	找拖慢背后的查询
+oncall.setup.previewSlowQuerySeverity	慢数据库查询：
+oncall.setup.previewTransfersLabel	把告警变成修复 PR
+oncall.setup.previewWorking	工作中…
+oncall.setup.readyToast	Oncall 已就绪
+oncall.setup.retry	重试
+oncall.setup.runAsMenu	运行身份
+oncall.setup.searchPlaceholder	搜索工具
+oncall.setup.sentryDescription	追踪错误、问题和完整堆栈
+oncall.setup.setUp	设置
+oncall.setup.splunkDescription	在日志和事件上跑 SPL 搜索
+oncall.setup.statusError	加载 Oncall 设置状态失败。
+oncall.setup.telemetryGroup	可用 MCP 服务器
+oncall.setup.tryAgain	重试
+oncall.setupStartFailed	启动 oncall 设置失败
+oncall.subtitle	把 Devin 带进你的告警和事件响应工作流
+oncall.teamsChannelRequired	请选一个 Microsoft Teams 团队和频道
+oncall.threadSessionModeDescription	帖子中 Devin 的 Agent 模式。
+oncall.threadSessionModeLabel	帖子会话模式
+oncall.triggerDescription	满足任一条件时响应
+oncall.triggerDuplicate	此触发器与前面一个完全相同
+oncall.triggerLabel	触发器
+oncall.triggerMessageLabel	消息
+oncall.triggerWebhookLabel	Webhook 投递
+oncall.webhookTriggerDescription	外部系统把带 X-Webhook-Secret 头的 POST 发到此收件箱。投递没有回复面：结果记在问题和会话上，并通过你在 runbook 里点名的工具上报。
+orgSwitcher.allOrganizations	全部组织
+orgSwitcher.collapseOrganizations	折叠组织
+orgSwitcher.createOrganization	创建组织
+orgSwitcher.movedSubtitle	从侧栏底部管理你的组织
+orgSwitcher.movedTitle	组织切换器挪地方了
+orgSwitcher.noOrganizationsFound	未找到组织
+orgSwitcher.organizationSettings	组织设置
+orgSwitcher.organizations	组织
+orgSwitcher.pin	置顶
+orgSwitcher.pinOrganization	置顶组织
+orgSwitcher.searchOrganizations	搜索组织
+orgSwitcher.searchOrganizationsPlaceholder	搜索组织…
+orgSwitcher.unpin	取消置顶
+orgSwitcher.unpinOrganization	取消置顶组织
+organizationCombobox.loadError	无法加载组织。请重试。
+organizationCombobox.loadMoreError	无法加载更多。重试
+organizationCombobox.loading	加载中…
+organizationCombobox.noOrganizationsFound	未找到组织。
+organizationCombobox.noResultsFound	未找到结果。
+organizationCombobox.searchPlaceholder	搜索…
+organizationCombobox.selectOrganization	选择一个组织
+outOfCreditsToast.action	获取更多点数
+outOfCreditsToast.title	你的点数用完了
+outpostAccess.canConfigure	可配置
+outpostAccess.canConfigureDescription	可在此 outpost 跑 Unified 会话、改其设置、管其 worker 凭据并删除它
+outpostAccess.canManage	可管理
+outpostAccess.canManageDescription	可在此 outpost 跑 Unified 会话、配置它并管理谁能访问它
+outpostAccess.canUse	可使用
+outpostAccess.canUseDescription	可在此 outpost 跑 Unified 会话
+outpostAccess.description	允许用户、组或服务用户在 {{name}} 上跑 Unified 会话。
+outpostAccess.inheritedDescription	此访问是继承的，不能在此改
+outpostAccess.manageAccess	管理访问
+outpostAccess.manageAccessTo	管理 {{name}} 的访问
+outpostAccess.removeSelfError	你不能移除自己对管理此 outpost 的访问
+outpostAccess.searchPlaceholder	搜索要加的用户、组或服务用户
+outpostConvert.action	转为 Unified
+outpostConvert.allOrganizations	全部组织
+outpostConvert.confirm	转换
+outpostConvert.converted	outpost 已转为 Unified
+outpostConvert.converting	正在转换…
+outpostConvert.description	选一个 outpost 转换。此操作不可撤销。
+outpostConvert.effectAllowList	共享 outpost 的组织访问变为使用授权：账户里所有人，或每个被允许组织的成员，都能在上面跑 Unified 会话。
+outpostConvert.effectOwner	个人 outpost 的所有者保留使用、配置和共享它的权限。
+outpostConvert.effectRefused	outpost 上有组织会话排队或运行中时拒绝转换。
+outpostConvert.effectUnifiedOnly	之后只有 Unified 会话在上面跑，且不再从组织设置管理。
+outpostConvert.effectWorker	outpost 的机器继续运行，但其 worker 被限定在此 outpost，不再服务账户的其他 outpost。
+outpostConvert.effectWorkerCredential	没有自己 worker 凭据的 outpost 转换后没人服务，直到你给它建一个。
+outpostConvert.empty	没有可转换的 outpost 了。
+outpostConvert.failed	转换 outpost 失败
+outpostConvert.loadFailed	加载 outpost 失败。
+outpostConvert.organizations_one	{{count}} 个组织
+outpostConvert.organizations_other	{{count}} 个组织
+outpostConvert.personal	个人
+outpostConvert.pick	outpost
+outpostConvert.title	把一个 outpost 转为 Unified
+outpostDrsImage.buildStatus.cancelled	已取消
+outpostDrsImage.buildStatus.failed	失败
+outpostDrsImage.buildStatus.inProgress	进行中
+outpostDrsImage.buildStatus.partial	部分
+outpostDrsImage.buildStatus.success	成功
+outpostDrsImage.disabledToast	{{name}} 的 blueprint 已关
+outpostDrsImage.enableDescription	开启后为每个能用此 outpost 的组织各起一个构建；每个组织得到自己的镜像。
+outpostDrsImage.enabledToast	{{name}} 的 blueprint 已开
+outpostDrsImage.environmentScope	环境 {{id}}
+outpostDrsImage.failed	保存 blueprint 设置失败。
+outpostDrsImage.kindEnvironment	环境
+outpostDrsImage.kindOrganization	组织
+outpostDrsImage.noImageYet	还没有镜像
+outpostDrsImage.noLongerEligible	无访问权
+outpostDrsImage.noLongerEligibleTooltip	此组织或环境不能再用此 outpost，因此其构建不再在此产出镜像。
+outpostDrsImage.orgScope	组织 {{id}}
+outpostDrsImage.unknownFailure	上次构建没产出镜像。
+outpostPools.description	你自己机器的池子，会话跑在上面。选每个池分给哪些组织、是否构建 blueprint。
+outpostPools.drsColumn	blueprint
+outpostPools.drsOff	关
+outpostPools.drsOn	开
+outpostPools.drsSwitchLabel	在 {{name}} 上构建 blueprint
+outpostPools.imagesBuilt	{{total}} 中已建 {{built}}
+outpostPools.poolColumn	池
+outpostPools.title	outpost 池
+outposts.connect.connectFailed	连接 outpost 失败
+outposts.connect.create	创建
+outposts.connect.createTitle	创建 outpost
+outposts.connect.creating	正在创建…
+outposts.connect.credentialsNotice	点「创建」会与 {{provider}} 共享运行 Devin 机器所需凭据。<learnMore>了解</learnMore>共享了什么。
+outposts.connect.description	描述
+outposts.connect.descriptionHint	描述此 outpost 的用途
+outposts.connect.iconStyle	图标样式
+outposts.connect.invalidCallback	服务器返回的回调 URL 无效
+outposts.connect.learnMoreAria	了解 outpost 凭据共享
+outposts.connect.linkInvalidDescription	此 outpost 连接链接缺必需信息或已过期。回你来的平台重新开始。
+outposts.connect.linkInvalidTitle	连接链接无效
+outposts.connect.managedBy	分到此 outpost 的会话跑在 {{host}} 管理的机器上。
+outposts.connect.name	名称
+outposts.connect.nameRule	名称只能含小写字母、数字、连字符和下划线
+outposts.connect.ownMachines	分到此 outpost 的会话跑在你自己的机器上。
+outposts.connect.pageTitle	连接 outpost
+outposts.connect.partner	伙伴
+outposts.connect.platform	平台
+outposts.connect.titlePlaceholder	outpost 标题
+pageTitles.configureMcp	配置 MCP
+pageTitles.oncallReport	{{name}} — Oncall
+pageTitles.setupMcp	设置 MCP
+pagerduty.accountFallback	PagerDuty 账户
+pagerduty.actorEmailHelp	Devin 写到 PagerDuty 的备注和事件更新都记到此用户名下。用服务用户更清晰
+pagerduty.actorEmailLabel	执行者邮箱
+pagerduty.actorEmailPlaceholder	devin-bot@example.com
+pagerduty.apiKeyLabel	General Access REST API key
+pagerduty.apiKeyPlaceholder	粘贴你的 PagerDuty API key
+pagerduty.appRegistrationClientIdLabel	客户端 ID
+pagerduty.appRegistrationClientSecretLabel	客户端密钥
+pagerduty.appRegistrationClientSecretStored	已存——留空保留
+pagerduty.appRegistrationConfigured_one	app 注册已配置 · {{count}} 个 MCP 服务器在用
+pagerduty.appRegistrationConfigured_other	app 注册已配置 · {{count}} 个 MCP 服务器在用
+pagerduty.appRegistrationCopyRedirectUri	复制重定向 URI
+pagerduty.appRegistrationLegacyWarning_one	{{count}} 个 PagerDuty MCP 服务器仍用自己的 OAuth 凭据，因此没完全连接。通过它关联的成员保持关联，直到切换。
+pagerduty.appRegistrationLegacyWarning_other	{{count}} 个 PagerDuty MCP 服务器仍用自己的 OAuth 凭据，因此没完全连接。通过它们关联的成员保持关联，直到切换。
+pagerduty.appRegistrationLoadFailedBody	无法加载 PagerDuty app 注册。
+pagerduty.appRegistrationLoadFailedTitle	出错了

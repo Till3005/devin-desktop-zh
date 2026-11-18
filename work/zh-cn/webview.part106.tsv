@@ -1,0 +1,100 @@
+settings.triggerPolicyLoadFailed	加载不了触发政策
+settings.triggerPolicyManagedWebhookRow	托管 webhook：{{name}}
+settings.triggerPolicyName	名称
+settings.triggerPolicyNamePlaceholder	如：仅排期
+settings.triggerPolicyNameRequired	名称为必填项
+settings.triggerPolicyNoAllowedSources	全部源被挡
+settings.triggerPolicyNoOrganizations	无组织
+settings.triggerPolicyNoSourcesFound	找不到源
+settings.triggerPolicyOrgCount_one	{{count}} 个组织
+settings.triggerPolicyOrgCount_other	{{count}} 个组织
+settings.triggerPolicyOrgFollowsDefault	企业默认
+settings.triggerPolicyOrganizationsDescription	派到的组织用此政策，而非企业默认。
+settings.triggerPolicyOrganizationsTitle	组织
+settings.triggerPolicySave	保存
+settings.triggerPolicySaveFailed	存不了政策
+settings.triggerPolicySavedToast	政策已存
+settings.triggerPolicySearchOrganizations	搜索组织
+settings.triggerPolicySearchSources	搜索源
+settings.triggerPolicySelectAll	全选 {{label}}
+settings.triggerPolicySetupDefault	设默认政策
+settings.triggerPolicySetupDescription	应用于每个组织，含新建的。之后可加更多政策给某些组织不同的源。
+settings.triggerPolicySetupRestrict	限源
+settings.triggerPolicySetupTitle	设默认政策
+settings.triggerPolicySingleOrgEditorDescription	自动化只能从你允许的源起，后加的源在你允许前被挡。
+settings.triggerPolicySourceAutomations_one	被 {{count}} 个已启用自动化用
+settings.triggerPolicySourceAutomations_other	被 {{count}} 个已启用自动化用
+settings.triggerPolicySourcesDescription	自动化只能从允许的源起。后加的源和托管 webhook 在你允许前被挡
+settings.triggerPolicySourcesTitle	允许的源
+settings.triggerPolicyStaleToast	别人改了此政策。已载入最新版本。
+settings.uiFont	界面字体
+settings.uiFontDescription	用于消息、菜单和控件
+settings.uiFontSize	界面字号
+settings.uiFontSizeDescription	像素基础字号
+settings.ultra	Ultra
+settings.ultraDescription	我们最强、最深思考的 agent，显著更贵
+settings.ultraModelProviderRetentionDescription	某些模型提供商可能为自动化危害检测留数据至多 30 天。数据不会用于模型训练或改进。
+settings.unifiedPlaybooks	Playbook
+settings.unifiedRepositories	仓库
+settings.unifiedReview	审查
+settings.unifiedReviewPage.autoApproverUnavailable	Autoapprover 此账户还不可用。
+settings.unifiedReviewPage.description	选 Devin 怎么分析拉取请求、批什么、分析怎么计费。
+settings.unifiedReviewPage.emptyDescription	自定义审查者按你自己的指示查拉取请求，在其规则匹配的拉取请求上跑。
+settings.unifiedReviewPage.emptyTitle	还没有自定义审查者
+settings.unifiedReviewPage.enabledSwitch	跑 {{name}}
+settings.unifiedReviewPage.lastUpdatedOn	最后更新于 {{date}}
+settings.unifiedReviewPage.listDescription	每个审查者在其规则匹配的拉取请求上跑。
+settings.unifiedReviewPage.newReviewerButton	加审查者
+settings.unifiedReviewPage.notFound	找不到审查者
+settings.unifiedReviewPage.orgScopeEnterpriseLink	企业设置
+settings.unifiedReviewPage.orgScopeLocked	企业级设置
+settings.unifiedReviewPage.orgScopeNotice	此页覆盖 {{org}} 的仓库。企业级设置在此锁定。
+settings.unifiedReviewPage.readOnlyAdmin	只有管理员能改。
+settings.unifiedReviewPage.readOnlyEnterpriseAdmin	只有企业管理员能改。
+settings.unifiedReviewPage.reviewerColumn	审查者
+settings.unifiedReviewPage.reviewersLoadError	加载不了自定义审查者。
+settings.unifiedReviewPage.tabAutoApprover	Autoapprover
+settings.unifiedReviewPage.tabBilling	计费
+settings.unifiedReviewPage.tabCustomReviewers	自定义审查者
+settings.unifiedReviewPage.tabKnowledge	知识
+settings.unifiedReviewPage.tabReview	审查
+settings.unifiedReviewPage.viewRuns	看运行
+settings.unifiedReviewPreferences	审查偏好
+settings.unifiedSecrets	机密
+settings.universityLoginFailed	开不了 Devin University。请重试。
+settings.unlink	解链
+settings.unlinkUser	解链用户
+settings.unlinkedSuccessfully	解链 {{name}} 成功
+settings.unlinking	解链中…
+settings.untitledCodemap	未命名代码地图
+settings.untitledConversation	未命名对话
+settings.updateGroupMappingError	更新映射失败
+settings.updatedRoleMembers_one	已把 {{count}} 个成员角色更新为 {{role}}
+settings.updatedRoleMembers_other	已把 {{count}} 个成员角色更新为 {{role}}
+settings.updatingOrgName	更新组织名中…
+settings.usage	用量
+settings.usageAnalyticsTab	用量分析
+settings.usageAndLimits	用量与上限
+settings.usageAndLimitsSidebarLabel	用量与上限
+settings.usageDescription	看企业会话活动分析
+settings.usageLimits	用量上限
+settings.usageLimitsDescription	设会话创建和用量上限
+settings.usagePolicies	用量政策
+settings.usagePoliciesDescription	配置你账户里用量怎么分配、管和批
+settings.usagePoliciesDescription_dollars	配置你账户里花费怎么分配、管和批
+settings.usagePoliciesSidebarLabel	用量政策
+settings.usageSection	用量
+settings.usageSectionDescription	了解此档位成员怎么消耗其分配
+settings.usageTierColumn	用量档位
+settings.usageTierRequired	选一个档位
+settings.usageTiers	用量档位
+settings.usageTiersDescription	建、编和配置用量档位
+settings.useAiGateway	用 AI Gateway
+settings.useAiGatewayDescription	允许服务用户建和用 AI Gateway 的 API key
+settings.useOrgDefault	用组织默认
+settings.usePersonalAutomations	跑个人自动化（已弃用）
+settings.usePersonalAutomationsDescription	已弃用：被管个人自动化取代并包含。有管自动化权限时，允许设自动化以此用户跑会话
+settings.userGroups	用户组
+settings.userId	用户 ID
+settings.userIdDescription	你 API 用的唯一用户标识
+settings.userInformation	用户信息

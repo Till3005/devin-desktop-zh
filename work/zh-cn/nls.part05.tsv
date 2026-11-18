@@ -1,0 +1,155 @@
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceRemoved	已移插件市场 {0}。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceRemoveForce	跑 /plugin marketplace remove {0} --force 卸它们并移市场。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceRemoveUsage	用法：/plugin marketplace remove <name> [--force]
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceRemoving	移插件市场中…
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaces	插件市场
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceUpdated	已更插件市场。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceUpdatedEntry	已更 {0}。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceUpdateFailedEntry	更 {0} 失败：{1}
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceUpdateFailures	市场更新完但有错。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceUpdateUsage	用法：/plugin marketplace update [name]
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceUpdating	更插件市场中…
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.noMarketplaces	没注册的插件市场。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.notFound	插件 {0} 没装。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.registeredMarketplaces	已注册市场
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.unavailable	不可用
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.uninstalled	已卸插件 {0}。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.uninstalling	卸插件中…
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.uninstallUsage	用法：/plugin uninstall <plugin>
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.unknownError	未知错误
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.updated	已更插件 {0}。{1}
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.updatedVersion	已更版本：{0}。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.updateUsage	用法：/plugin update <plugin>
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.updating	更插件中…
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.usage	插件命令用法：
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugins.disabled	已禁
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugins.installed	已装插件
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotSkills.availableSkills	可用技能
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotSkills.disabled	已禁
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotSkills.infoExample	示例：{0}
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotSkills.infoUsage	用法：{0}
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotSkills.oneSkillFound	找到 1 个技能。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotSkills.skillsFound	找到 {0} 个技能。
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.accepted	审查接受了结果。
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.cascade	Cascade
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.completedDegraded	HydraFusion 工作流以回退完成
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.continuing	继续 HydraFusion 工作流中…
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.critic	批评轮
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.critique	批评
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.draft	首轮
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.duration	时长：{0}
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.ended	HydraFusion 工作流已止：{0}
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.fallback	以回退阶段继续中…
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.followUp	跟进轮
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.interrupted	HydraFusion 工作流已断
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.judge	评判轮
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.phaseCancelled	{0} 已取消
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.phaseCompleted	{0} 已完
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.phaseFailed	{0} 失败
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.phaseRunning	{0} 跑中
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.preparing	备 {0} 工作流中…
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.primary	主轮
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.rejected	审查要了更改。
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.repair	修复轮
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.review.approved	已批准
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.review.issue	问题：
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.review.revise	已要更改
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.review.score	分数：{0}/5
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.revision	修订轮
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.routeFailed	HydraFusion 路由失败；以 {0} 继续
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.routing	选 HydraFusion 工作流中…
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.selected	已选 {0} 工作流
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.single	单轮
+vs/platform/agentHost/node/copilot/copilotFusionProgress/copilot.fusion.toolRunning	{0}：跑工具中
+vs/platform/agentHost/node/copilot/copilotSandboxDiagnostics/copilot.sandbox.capabilityUnavailable	此主机上沙箱能力 '{0}' 不可用。
+vs/platform/agentHost/node/copilot/copilotSandboxDiagnostics/copilot.sandbox.unsupported	此主机上沙箱后端不可用。
+vs/platform/agentHost/node/copilot/copilotSandboxPolicyDisplay/copilotSandboxPolicy.title	有效沙箱政策
+vs/platform/agentHost/node/copilot/copilotSandboxPolicyDisplay/copilotSlashCommand.openSandboxPolicy	开沙箱政策
+vs/platform/agentHost/node/copilot/copilotSandboxPolicyDisplay/copilotSlashCommand.sandboxPolicy	在编辑器开此会话最新有效沙箱政策
+vs/platform/agentHost/node/copilot/copilotSandboxPolicyDisplay/copilotSlashCommand.sandboxPolicyUnavailable	SDK 没返沙箱政策。
+vs/platform/agentHost/node/copilot/copilotSlashCommandCompletionProvider/copilotPlugin.completion.disable	禁个插件
+vs/platform/agentHost/node/copilot/copilotSlashCommandCompletionProvider/copilotPlugin.completion.enable	开个插件
+vs/platform/agentHost/node/copilot/copilotSlashCommandCompletionProvider/copilotPlugin.completion.install	装个插件
+vs/platform/agentHost/node/copilot/copilotSlashCommandCompletionProvider/copilotPlugin.completion.list	列已装插件
+vs/platform/agentHost/node/copilot/copilotSlashCommandCompletionProvider/copilotPlugin.completion.marketplace	管插件市场
+vs/platform/agentHost/node/copilot/copilotSlashCommandCompletionProvider/copilotPlugin.completion.marketplaceAdd	加插件市场
+vs/platform/agentHost/node/copilot/copilotSlashCommandCompletionProvider/copilotPlugin.completion.marketplaceBrowse	浏览插件市场
+vs/platform/agentHost/node/copilot/copilotSlashCommandCompletionProvider/copilotPlugin.completion.marketplaceList	列插件市场
+vs/platform/agentHost/node/copilot/copilotSlashCommandCompletionProvider/copilotPlugin.completion.marketplaceRemove	移插件市场
+vs/platform/agentHost/node/copilot/copilotSlashCommandCompletionProvider/copilotPlugin.completion.marketplaceUpdate	更插件市场
+vs/platform/agentHost/node/copilot/copilotSlashCommandCompletionProvider/copilotPlugin.completion.uninstall	卸插件
+vs/platform/agentHost/node/copilot/copilotSlashCommandCompletionProvider/copilotPlugin.completion.update	更插件
+vs/platform/agentHost/node/copilot/copilotSystemNotification/agentHost.copilot.systemNotification.unnamedAgentCompleted	后台 agent 已完
+vs/platform/agentHost/node/copilot/copilotSystemNotification/agentHost.copilot.systemNotification.unnamedAgentFailed	后台 agent 失败
+vs/platform/agentHost/node/copilot/copilotSystemNotification/agentHost.copilot.systemNotification.unnamedAgentIdle	后台 agent 已完
+vs/platform/agentHost/node/copilot/copilotSystemNotification/agentHost.copilot.systemNotification.workflowCancelled	工作流 {0} 已取消
+vs/platform/agentHost/node/copilot/copilotSystemNotification/agentHost.copilot.systemNotification.workflowCompleted	工作流 {0} 已完
+vs/platform/agentHost/node/copilot/copilotSystemNotification/agentHost.copilot.systemNotification.workflowFailed	工作流 {0} 失败
+vs/platform/agentHost/node/copilot/copilotSystemNotification/agentHost.copilot.systemNotification.workflowHalted	工作流 {0} 已停
+vs/platform/agentHost/node/copilot/copilotToolDisplay/copilot.permission.mcp.invocation	{0}：{1}
+vs/platform/agentHost/node/copilot/copilotToolDisplay/copilot.permission.read.bypass.title	读沙箱外文件？
+vs/platform/agentHost/node/copilot/copilotToolDisplay/copilot.permission.read.generic.title	允许读文件？
+vs/platform/agentHost/node/copilot/copilotToolDisplay/copilot.permission.shell.permissive.title	允许沙箱内文件系统访问重试？
+vs/platform/agentHost/node/copilot/copilotToolDisplay/toolInvoke.writeAgents	写给 agent {0}
+vs/platform/agentHost/node/copilot/copilotToolDisplay/toolInvoke.writeChildAgents	写给子 agent
+vs/platform/agentHost/node/copilot/copilotToolDisplay/toolInvoke.writeSiblingAgents	写给同级 agent
+vs/platform/agentHost/node/devContainerAgentHostService/devContainerAgentHost.containerLifecycleFailed	Docker {0} Dev Container '{1}' 失败（退出 {2}）：{3}
+vs/platform/agentHost/node/devContainerAgentHostService/devContainerAgentHost.containerSessionCheckFailed	查不了 Dev Container '{0}' 里活跃 VS Code 会话（退出 {1}）：{2}
+vs/platform/agentHost/node/devContainerAgentHostService/devContainerAgentHost.containerSuspended	'{0}' 的 Dev Container 已停。
+vs/platform/agentHost/node/devContainerAgentHostService/devContainerAgentHost.dockerInspectFailed	Docker inspect 失败（退出 {0}）：{1}
+vs/platform/agentHost/node/devContainerAgentHostService/devContainerAgentHost.dockerUnavailable	Docker 不可用。
+vs/platform/agentHost/node/devContainerAgentHostService/devContainerAgentHost.emptySampleResponse	下载 Dev Container 示例时空响应：{0}
+vs/platform/agentHost/node/devContainerAgentHostService/devContainerAgentHost.invalidMountJson	解析不了 Docker 挂载信息：{0}
+vs/platform/agentHost/node/devContainerAgentHostService/devContainerAgentHost.invalidMounts	Docker 返了无效挂载信息：{0}
+vs/platform/agentHost/node/devContainerAgentHostService/devContainerAgentHost.ownerLookupFailed	查不了 {0} 属主：{1}
+vs/platform/agentHost/node/devContainerAgentHostService/devContainerAgentHost.sampleCleanupFailed	准备失败后停不了示例容器：{0}\n
+vs/platform/agentHost/node/devContainerAgentHostService/devContainerAgentHost.unknownSample	未知 Dev Container 示例：{0}
+vs/platform/agentHost/node/devContainerSamples/devContainerSample.buildUnsupported	此示例要镜像构建。用 Dockerfile、Docker Compose 或 Features 的示例还不支持。
+vs/platform/agentHost/node/devContainerSamples/devContainerSample.commandFailed	{0} 失败（退出 {1}）：{2}
+vs/platform/agentHost/node/devContainerSamples/devContainerSample.hostConfigUnsupported	此示例要主机命令或自定义挂载，还不支持。
+vs/platform/agentHost/node/devContainerSamples/devContainerSample.imageChanged	示例镜像已变。先在 Dev Containers 扩展里重建容器再在 Agents 开。
+vs/platform/agentHost/node/devContainerSamples/devContainerSample.invalidCache	缓存的示例配置无效：{0}
+vs/platform/agentHost/node/devContainerSamples/devContainerSample.invalidCommit	GitHub 返了无效示例修订。
+vs/platform/agentHost/node/devContainerSamples/devContainerSample.invalidConfig	示例须有有效基于镜像的 Dev Container 配置。
+vs/platform/agentHost/node/devContainerSamples/devContainerSample.invalidUpResult	Dev Container CLI 返了无效示例容器。
+vs/platform/agentHost/node/devContainerSamples/devContainerSample.lifecycleFailed	示例的 Dev Container 生命周期命令失败：{0}
+vs/platform/agentHost/node/devContainerSamples/devContainerSample.volumeConflict	Docker 卷 '{0}' 不属此示例。
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.configure	配 Agent Merge
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.configure.addressReviews.off	不处理拉取请求审查评论。
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.configure.addressReviews.on	处理新拉取请求审查评论。
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.configure.confirmationMessage	允许 Agent Merge 监视此聊天文件夹的拉取请求并按这些选项更改自主工作？没指定的选项不变。
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.configure.confirmationTitle	配 Agent Merge？
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.configure.disabled.confirmationMessage	停此聊天文件夹的 Agent Merge 监视和自主工作，并存这些选项更改？没指定的选项不变。
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.configure.fixCI.off	不修失败 CI 检查。
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.configure.fixCI.on	修失败 CI 检查。
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.configure.merge.always	拉取请求就绪时自动合并，含 Agent Merge 做的更改。
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.configure.merge.ifUnchanged	拉取请求就绪时自动合并，只在 Agent Merge 没做更改时。
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.configure.merge.never	不自动合并拉取请求。
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.configure.resolveConflicts.off	不解合并冲突或更新落后分支。
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.configure.resolveConflicts.on	解合并冲突并在分支落后时更新它。
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.configure.running	配 Agent Merge 中
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.disable	禁 Agent Merge
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.disable.complete	已禁 Agent Merge
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.disable.confirmationMessage	停此聊天文件夹的 Agent Merge 监视和自主工作？
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.disable.confirmationTitle	禁 Agent Merge？
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.disable.running	禁 Agent Merge 中
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.enable	开 Agent Merge
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.enable.complete	已开 Agent Merge
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.enable.configured	Agent Merge 已开。{0}
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.enable.confirmationMessage	允许 Agent Merge 按现有选项监视此聊天文件夹的拉取请求并自主工作（含已配的合并）？
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.enable.confirmationTitle	开 Agent Merge？
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.enable.pending	Agent Merge 已开；此回合后监视起。{0}
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.enable.running	开 Agent Merge 中
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.replyReview.indeterminate	确认不了审查回复已发布
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.replyReview.pending	存了条未发布审查回复
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.rerunWorkflow.deferred	工作流重跑延到当前尝试完后
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.rerunWorkflow.indeterminate	确认不了工作流重跑
+vs/platform/agentHost/node/shared/agentMergeServerTools/agentMerge.tool.setEnabled.failed	更 Agent Merge 失败
+vs/platform/agentHost/node/shared/sessionServerTools/toolComplete.cancelMessage	处理了消息取消
+vs/platform/agentHost/node/shared/sessionServerTools/toolComplete.replaceMessage	处理了消息替换
+vs/platform/agentHost/node/shared/sessionServerTools/toolComplete.setWorkspace	排了工作区变更
+vs/platform/agentHost/node/shared/sessionServerTools/toolConfirm.setWorkspace.direct	在 {0} 继续此会话并直接在该文件夹改？
+vs/platform/agentHost/node/shared/sessionServerTools/toolConfirm.setWorkspace.generic	在 {0} 继续此会话？
+vs/platform/agentHost/node/shared/sessionServerTools/toolConfirm.setWorkspace.isolated	在 {0} 继续此会话并把更改和现有文件夹隔离？
+vs/platform/agentHost/node/shared/sessionServerTools/toolConfirm.setWorkspace.selectedWorkspace	所选工作区
+vs/platform/agentHost/node/shared/sessionServerTools/toolConfirm.setWorkspace.title	在 {0} 继续？

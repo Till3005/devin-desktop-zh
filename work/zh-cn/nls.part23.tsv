@@ -1,0 +1,140 @@
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.disconnectConnectorLabel	断开 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.emptyCatalog	没有可用的目录自定义项。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.error	无法加载可用的自定义项。{0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.filter	筛选自定义项…
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.filterInstalled	已安装
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.filterMcpServers	MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.filterPlugins	插件
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.filterSkills	Skills
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.hook	Hook
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.install	安装
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.installCancelled	已取消 {0} 的安装。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.installComplete	已安装 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.installed	已安装
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.installedAriaLabel	{0}，{1}，{2}{3}{4}。{5}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.installedPluginDescription	已安装的 agent 插件
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.installFailed	无法安装 {0}。{1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.installing	正在安装…
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.installLabel	{0} {1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.installStarted	正在安装 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.installUnavailable	安装 {0}。{1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.installVerificationError	{0}。{1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.instructions	Instructions
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.leadingSection	拓展你的 agent 的能力边界
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.loading	正在加载自定义项…
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.loadingMore	正在加载更多自定义项…
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.manualSetupAccessible	需要手动配置。“查看配置”会打开发布者的说明。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.marketplaceOrigin	{0} · {1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.mcp	MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.mcpsSection	MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.missingFiles	缺失文件
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.moreResultsPossible	此搜索可能还有更多目录结果。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.newAgent	新建 Agent
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.newInstructions	新建 Instructions
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.newPrompt	新建 Prompt
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.newSkill	新建 Skill
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.noResults	没有匹配此搜索的自定义项。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.openDetails	查看 {0} 的详情
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.openError	无法打开自定义项资源。{0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.openInstalled	打开已安装的自定义项 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.plugin	插件
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.pluginsSection	插件
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.progress	正在加载自定义项
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.prompt	Prompt
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.providerPluginsError	无法加载已安装的插件。{0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.reloading	正在重新加载自定义项…
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.repair	修复
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.repairActionUnavailableLabel	{0} {1}。{2}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.repairCancelled	已取消 {0} 的修复。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.repairComplete	已修复 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.repairFailed	无法修复 {0}。{1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.repairing	正在修复
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.repairingProgress	正在修复…
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.repairLabel	{0} {1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.repairStarted	正在修复 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.resultCount	找到 {0} 个自定义项。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.resultsLabel	自定义项搜索结果
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.retry	重试
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.retryInstall	重试安装
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.retryRepair	重试修复
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.retryUninstall	重试卸载
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.searchActions	自定义项搜索操作
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.searchLabel	搜索自定义项
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.searchPlaceholder	搜索自定义项
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.searchWithHelp	搜索自定义项。按 {0} 获取无障碍帮助。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.showAll	显示全部
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.skill	Skill
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.skillsSection	Skills
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.sourceAriaLabel	，来源 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.sourceButtonAriaLabel	自定义项来源：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.sourcesUnavailable	可用的自定义项未能完全加载。请重试不可用的来源。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.stars	{0} 星标
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.title	发现自定义项
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.unavailable	不可用
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.uninstall	卸载
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.uninstallCancelled	已取消 {0} 的卸载。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.uninstallComplete	已卸载 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.uninstallFailed	无法卸载 {0}。{1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.uninstalling	正在卸载…
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.uninstallingState	正在卸载
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.uninstallLabel	{0} {1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.uninstallStarted	正在卸载 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.verificationErrorDetail	，{0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.verificationFailed	无法验证安装
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.viewSetup	查看配置
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.viewSetupLabel	查看 {0} 的配置说明
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.vsCodeSource	VS Code
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationListWidget/browseSkills	浏览 Skills
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationListWidget/itemAriaLabelNoSourceContent	{0}，来源内容不可用
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationListWidget/localSkillsGroupDescription	存储在本地机器并同步到 {0}（活动远程 agent 环境）的 skills。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/backToCustomizationDiscovery	返回发现页
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/backToCustomizationDiscoveryTooltip	返回发现页
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/backToCustomizationMigrations	返回迁移
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/backToCustomizationSection	返回 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/backToMcpServersList	返回 MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/backToMcpServersListTooltip	返回 MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/backToPluginDetail	返回插件详情
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/changeCustomizationMigrationDestination	更改 {0} 的目标位置，当前为 {1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/changeMigrationGroupDestination	更改 {0} {1} 项迁移的目标位置，当前为 {2}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/chooseAnotherMigrationFolder	选择其他文件夹…
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/chooseAnotherMigrationFolderDescription	使用自定义迁移目标位置
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/chooseCustomMigrationDestination	选择自定义迁移目标位置
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/chooseMigrationDestination	为 {0} 选择目标位置
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/chooseMigrationLocationToCustomize	选择要自定义的迁移位置
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/configureCustomizationMigrationDestination	配置 {0} 的目标位置
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/confirmDeleteMigrationMcpServer	删除 MCP 服务器“{0}”？
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/confirmDeleteMigrationMcpServerDetail	这会从其当前 MCP 配置中移除该服务器。此操作无法撤销。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/customizationDetailPreviewTitle	预览
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/customizationMigrationAgentsDestination	{0} 个 agents
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/customizationMigrationClearSettingsFailed	自定义项已迁移，但无法清除自定义位置设置：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/customizationMigrationDestinationNotConfigured	未配置
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/customizationMigrationInstructionsDestination	{0} 个 instructions
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/customizationMigrationShortcut	迁移
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/customizationMigrationShortcutAriaLabel	迁移，{0} 项自定义需要处理
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/customizationMigrationShortcutAriaLabelSingle	迁移，1 项自定义需要处理
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/customizationMigrationShortcutLabel	迁移
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/customizationMigrationShortcutTooltip	审阅需要迁移的自定义项
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/customizationMigrationSkillsDestination	{0} 个 skills
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/customizationMigrationUserScope	用户
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/customizationMigrationWorkspaceScope	工作区
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/deleteCustomization	删除
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/discoverButtonTooltip	返回自定义项
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/editorEditSkillButtonLabel	编辑源文件
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/editorEditSkillButtonTooltip	在源编辑器中直接编辑此 skill
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/fileMigrationConfirmationChange	• {0}\n  来自：{1}\n  目标：{2}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/ignoredMigrationGroup	{0}（{1}）
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/ignoreMigrationCategoryConfirmation	忽略 {0}（{1}）迁移？
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/ignoreMigrationCategoryDetail	此迁移组会保持隐藏，直到你从“显示已忽略迁移”中恢复。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/ignoreMigrationGroup	忽略
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/marketplaceDetail.openError	无法打开自定义项资源。{0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/mcpMigrationConfirmationChange	• {0}\n  来自：{1}\n  目标：{2}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrateThisCustomization	迁移此项
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationAccessibleActivity	迁移活动：{0}，{1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationAccessibleCategory	{0}（{1}）：{2}。{3}{4}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationAccessibleDestination	目标：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationAccessibleHighRisk	高风险。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationAccessibleItemWithStatus	{0}，需要人工审阅：{1}，来源 {2}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationAccessibleManualReview	需要人工审阅
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationAccessiblePaths	{0}：从 {1} 到 {2}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationAccessibleSelectableItem	{0}，{1}，来源 {2}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationAccessibleSelectableItemWithChanges	{0}，{1}，来源 {2}。迁移更改：{3}

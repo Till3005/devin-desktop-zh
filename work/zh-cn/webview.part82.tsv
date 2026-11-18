@@ -1,0 +1,200 @@
+settings.customizeMcpSharedBadge	共享
+settings.customizeMcpsTab	MCP
+settings.customizeMcpsTabDescription	给 Devin 超出内置工具的 MCP 服务器
+settings.customizeNew	新建
+settings.customizeNewHook	新 hook
+settings.customizeNewMcp	新 MCP
+settings.customizeNewRule	新规则
+settings.customizeNewSkill	新技能
+settings.customizeNoInstallPermission	你没有装插件的权限。
+settings.customizeNoMatchHooks	没有已装 hook 匹配你的搜索
+settings.customizeNoMatchMcps	没有已装 MCP 匹配你的搜索
+settings.customizeNoMatchPlugins	没有已装插件匹配你的搜索
+settings.customizeNoMatchRules	没有已装规则匹配你的搜索
+settings.customizeNoMatchSkills	没有已装技能匹配你的搜索
+settings.customizeNoMatchSubagents	没有已装子 agent 匹配你的搜索
+settings.customizeNoneYetHooks	这里还没有 hook
+settings.customizeNoneYetMcps	这里还没有 MCP
+settings.customizeNoneYetPlugins	这里还没有插件
+settings.customizeNoneYetRules	这里还没有规则
+settings.customizeNoneYetSkills	这里还没有技能
+settings.customizeNoneYetSubagents	这里还没有子 agent
+settings.customizeOrgMcpSetupDescription	为大家装一次，在这连而非各成员各连自己的。声明此服务器的插件用此安装。
+settings.customizeOrgMcpSetupTitle	为组织设置 {{name}}
+settings.customizeOrganizationMcpsLabel	组织 MCP
+settings.customizeOrganizationSectionHooks	组织 hook
+settings.customizeOrganizationSectionMcps	组织 MCP
+settings.customizeOrganizationSectionPlugins	组织插件
+settings.customizeOrganizationSectionRules	组织规则
+settings.customizeOrganizationSectionSkills	组织技能
+settings.customizeOrganizationSectionSubagents	组织子 agent
+settings.customizePersonalMcpsLabel	个人 MCP
+settings.customizePersonalPluginsDisabled	你组织没开个人插件
+settings.customizePluginInScope	{{scope}} 里的 {{name}}
+settings.customizePluginInstallationDescription	为每个成员装，或提供给他们装。
+settings.customizePluginInstallationLabel	安装
+settings.customizePluginLoadFailed	加载不了插件。稍后再试。
+settings.customizePluginManifestUnreadable	读不了插件 manifest。
+settings.customizePluginSettings	插件设置
+settings.customizePluginStateOffered	提供给成员
+settings.customizePluginStateOfferedEnterpriseDescription	组织及其成员可自己装。
+settings.customizePluginStateOfferedOrgDescription	成员可自己装。
+settings.customizePluginStateOfferedShort	已提供
+settings.customizePluginStateRequired	全员必需
+settings.customizePluginStateRequiredAudienceDescription	为拿到此插件的组织里每个人装。
+settings.customizePluginStateRequiredEnterpriseDescription	为企业里每个人装。
+settings.customizePluginStateRequiredOrgDescription	为组织里每个人装。
+settings.customizePluginStateRequiredShort	必需
+settings.customizePluginsTab	插件
+settings.customizePluginsTabDescription	技能、规则、hook、MCP 和子 agent 的 bundle
+settings.customizePluginsTabDescriptionSynced	跨 <term/> 装的技能、规则、hook、MCP 和子 agent 的 bundle
+settings.customizeRepoDescription	此仓库自己的插件配置给用它的会话带来什么，按 Devin 最近索引。
+settings.customizeRepoHint	会话用过仓库后 Devin 开始索引其插件配置。<settingsLink>仓库设置</settingsLink>
+settings.customizeRepoLoadError	加载不了仓库。请重试。
+settings.customizeRepoLoading	加载仓库中…
+settings.customizeRepoNoMatch	找不到仓库。
+settings.customizeRepoNotIndexed	此组织不索引此仓库的插件配置。<settingsLink>仓库设置</settingsLink>
+settings.customizeRepoPluginDescription	Devin 每次跑都从仓库读插件，那边的改动不用重加就生效
+settings.customizeRepoPluginRepository	仓库
+settings.customizeRepoPluginRepositoryPlaceholder	owner/repo 或 https://github.com/owner/repo
+settings.customizeRepoPluginRepositoryRequired	仓库为必填项
+settings.customizeRepoPluginSubdirectory	子目录
+settings.customizeRepoPluginSubdirectoryHint	可选。插件在仓库里的根目录
+settings.customizeRepoPluginTitle	从仓库加插件
+settings.customizeRepoSearch	搜索仓库…
+settings.customizeRepoUnindexed	Devin 还没索引此仓库的插件配置。
+settings.customizeRepoWithheld	你没有此仓库的访问权，所以其插件配置不显示。
+settings.customizeRulesTab	规则
+settings.customizeRulesTabDescription	Devin 每个会话遵守的常驻指引
+settings.customizeScopeAudienceBot	{{name}} 跑的每个会话
+settings.customizeScopeAudienceEnterprise	每个组织里的每个人
+settings.customizeScopeAudienceMyself	仅你自己的会话
+settings.customizeScopeAudienceOrganization	组织里每个人
+settings.customizeScopeAudienceOrganizationAndBots	组织里每个人及其 {{botNamePlural}}
+settings.customizeScopeAudienceThisComputer	此电脑上的会话
+settings.customizeScopeBotCreatedBy	由 {{creator}} 创建
+settings.customizeScopeBots	{{botNamePlural}}
+settings.customizeScopeBotsNoMatch	找不到 {{botNamePlural}}。
+settings.customizeScopeBotsSearch	搜索 {{botNamePlural}}…
+settings.customizeScopeEnterprise	企业
+settings.customizeScopeInOrganization	<scope/> <muted>于 {{organization}}</muted>
+settings.customizeScopeInstallFailed	装不了 {{name}} 到 {{scope}}
+settings.customizeScopeInstalled	已装 {{name}} 到 {{scope}}
+settings.customizeScopeLabelEnterprise	企业
+settings.customizeScopeLabelLocal	本地
+settings.customizeScopeLabelOrganization	组织
+settings.customizeScopeLabelPersonal	个人
+settings.customizeScopeLocal	本地
+settings.customizeScopeManifestUnreadable	读不了 {{scope}} manifest。
+settings.customizeScopeMyself	我自己
+settings.customizeScopeMyselfInOrganization	我自己 <muted>于 {{organization}}</muted>
+settings.customizeScopeMyselfInTitle	我自己
+settings.customizeScopeOrganization	组织
+settings.customizeScopeOrganizations	组织
+settings.customizeScopeOtherOrganizations	其它组织
+settings.customizeScopePermissionDenied	你没有改 {{scope}} 插件的权限
+settings.customizeScopePersonal	个人
+settings.customizeScopePlugin	{{scope}} 插件
+settings.customizeScopeRemoveFailed	从 {{scope}} 移除 {{name}} 失败
+settings.customizeScopeRemoved	已从 {{scope}} 移除 {{name}}
+settings.customizeScopeRepoAccessRequired	你没有 {{name}} 仓库的访问权
+settings.customizeScopeRepositories	仓库
+settings.customizeScopeServiceUsers	服务用户
+settings.customizeScopeSuggestFailed	让 {{name}} 从 {{scope}} 可用失败
+settings.customizeScopeSuggested	{{name}} 可从 {{scope}} 装
+settings.customizeScopeThisComputer	此电脑
+settings.customizeScopeThisComputerInTitle	此电脑
+settings.customizeSearchHooks	搜索 hook
+settings.customizeSearchMcps	搜索 MCP
+settings.customizeSearchPlugins	搜索插件
+settings.customizeSearchRules	搜索规则
+settings.customizeSearchSkills	搜索技能
+settings.customizeSearchSubagents	搜索子 agent
+settings.customizeSkillsAnalytics	技能分析
+settings.customizeSkillsTab	技能
+settings.customizeSkillsTabDescription	Devin 按需加载的指令，来自已装插件和你的仓库
+settings.customizeSubagentsTab	子 agent
+settings.customizeSubagentsTabDescription	在自己上下文跑专注任务的 agent 的配置，带自己的指令和工具
+settings.customizeUninstallForServiceUser	这从 {{name}} 的配置移除 {{plugin}}。它跑的会话不再加载它。
+settings.customizeUnpinnedPlugins_one	{{count}} 个插件未置顶
+settings.customizeUnpinnedPlugins_other	{{count}} 个插件未置顶
+settings.customizeViewHooksFor	看 <picker/> 的 hook
+settings.customizeViewMcpsFor	看 <picker/> 的 MCP
+settings.customizeViewPlugin	看插件
+settings.customizeViewPluginsFor	看 <picker/> 的插件
+settings.customizeViewRow	看 {{name}}
+settings.customizeViewRulesFor	看 <picker/> 的规则
+settings.customizeViewSkillsFor	看 <picker/> 的技能
+settings.cyberVerification	Cyber Verification Program
+settings.cyberVerificationAllowlist	Cyber Verification Program 成员
+settings.cyberVerificationAllowlistDescription	其 Devin Desktop 和 CLI 到 Anthropic 模型的申请可用 Cyber Verification Program 的成员。其申请不受零数据保留覆盖
+settings.cyberVerificationAllowlistDuplicate	{{email}} 已在列表
+settings.cyberVerificationAllowlistEmailRequired	成员邮箱为必填项
+settings.cyberVerificationAllowlistEmpty	还没有成员，所以团队没人能用 Cyber Verification Program
+settings.cyberVerificationAllowlistFull	列表限 {{max}} 个成员
+settings.cyberVerificationAllowlistInvalidEmail	「{{email}}」不是有效邮箱地址
+settings.cyberVerificationAllowlistLoadFailed	加载不了成员列表。
+settings.cyberVerificationAllowlistMemberEmail	成员邮箱
+settings.cyberVerificationAllowlistNotAMember	此企业没有邮箱 {{email}} 的成员
+settings.cyberVerificationAllowlistPlaceholder	name@example.com
+settings.cyberVerificationAllowlistRemove	移除 {{email}}
+settings.cyberVerificationDescription	申请 Anthropic 的 Cyber Verification Program，放宽部分安全工作限内容制。Anthropic 批准企业后路由自动开：下面成员的 Anthropic 申请去非零数据保留（non-ZDR）组织且不受零数据保留覆盖，即使企业不允许模型商数据保留。批准后你可关路由。若 Anthropic 已批你组织，开 enrollment 链接，选「Link profile」，再为此配置开你已批的访问。
+settings.cyberVerificationEnroll	注册
+settings.cyberVerificationEnrollFailed	开不了 enrollment 链接。稍后重试。
+settings.cyberVerificationEnrollmentLink	Enrollment 链接
+settings.cyberVerificationEnrollmentLinkBlocked	你的浏览器挡了 Anthropic enrollment 页。
+settings.cyberVerificationOpenEnrollmentPage	打开
+settings.cyberVerificationStatusActive	已批准。批准时路由自动开。开期间，下面成员的 Anthropic 申请去非零数据保留（non-ZDR）组织且不受零数据保留覆盖，即使企业不允许模型商数据保留。
+settings.cyberVerificationStatusPending	待处理。Anthropic 目标七个工作日内回。批准时路由自动开：下面成员的 Anthropic 申请去非零数据保留（non-ZDR）组织且不受零数据保留覆盖。若 Anthropic 已批你组织，开 enrollment 链接，选「Link profile」，再为此配置开你已批的访问。
+settings.cyberVerificationStatusRejected	Anthropic 没批申请。开 enrollment 链接再申。
+settings.dangerZone	危险区
+settings.dark	深色
+settings.dataControlsV2	数据控制与隐私
+settings.dataControlsV2Description	选 Cognition 能用什么改进其产品
+settings.dataRetention	数据保留
+settings.decreaseFontSize	减小字号
+settings.deepWikiRepoDescription	按仓库覆盖组织级默认
+settings.deepwiki	DeepWiki
+settings.deepwikiDescription	允许成员用 DeepWiki 生成文档
+settings.defaultAccess	默认访问
+settings.defaultAgent	默认 agent
+settings.defaultAgentDescription	你组织全部新会话的默认 agent
+settings.defaultAgentWeb	默认 agent
+settings.defaultAgentWebDescription	你在此开的新会话的默认 agent 模式
+settings.defaultBabysitting	默认托管
+settings.defaultBabysittingDescription	新会话默认开托管，Devin 自己处理 PR 评论、合并冲突、CI 失败和审查发现项
+settings.defaultEnvironment	默认环境
+settings.defaultEnvironmentDescription	能用它成员开会话时预选。其它人在组织环境开。
+settings.defaultEnvironmentOrgOption	组织环境
+settings.defaultModelUpdateFailed	更新默认模型失败
+settings.defaultModelUpdated	默认模型已更新
+settings.defaultPlatform	默认平台
+settings.defaultPlatformDescription	你组织全部新会话的默认平台或 outpost
+settings.defaultReviewBillingOrg.description	Devin 定不了用户计费组织时的自动分析计费组织。
+settings.defaultReviewBillingOrg.noOrganizations	找不到组织。
+settings.defaultReviewBillingOrg.none	无
+settings.defaultReviewBillingOrg.searchOrganizations	搜索组织…
+settings.defaultReviewBillingOrg.selectOrganization	选择组织
+settings.defaultReviewBillingOrg.title	自动分析默认计费组织
+settings.defaultReviewBillingOrg.updateFailed	更新计费组织失败。
+settings.defaultReviewBillingOrg.updated	默认计费组织已更新。
+settings.defaultSessionSharing	默认会话可见性
+settings.defaultSessionSharingAccountBlockedDescription	最大可见性为组织时不可用
+settings.defaultSessionSharingDescription	谁能看新会话。创建者仍能共享它们。
+settings.defaultSessionSharingEnterpriseReadOnlyDescription	账户里任何人可读；组织保留其访问
+settings.defaultSessionSharingEnterpriseWideBlockedDescription	最大可见性为账户只读时不可用
+settings.defaultSessionSharingEnterpriseWideDescription	账户里任何人可读和写
+settings.defaultSessionSharingOrgWideBlockedDescription	最大可见性为仅创建者时不可用
+settings.defaultSessionSharingOrgWideDescription	对能看组织会话的成员可见
+settings.defaultSessionSharingPersonalOnlyDescription	共享前仅创建者可见
+settings.defaultSessionSharingSelectLabel	选默认会话可见性
+settings.defaultSubagentModel	默认子 agent 模型
+settings.defaultSubagentModelDescription	Devin 起的子 agent 会话用的模型。选子 agent 路由器、特定模型，或无以禁用子 agent。
+settings.defaultTierAllocationConfirmDescriptionNoMembers	这是默认档位。新分配 {{limit}} 将应用于没派到其它档位的任何账户成员。
+settings.defaultTierAllocationConfirmDescription_one	这是默认档位，所以新分配 {{limit}} 立刻应用于其 {{count}} 个成员。
+settings.defaultTierAllocationConfirmDescription_other	这是默认档位，所以新分配 {{limit}} 立刻应用于其 {{count}} 个成员。
+settings.defaultTierAllocationConfirmTitle	改默认档位的分配？
+settings.defaultTierBadge	默认
+settings.defaultWorkingEnvironment	默认环境
+settings.defaultWorkingEnvironmentDescription	Devin 为 app 外开的新 My Workspace 会话用的环境，如 Jira 和 Linear 提及
+settings.defaultWorkingEnvironmentOrgDescription	Devin 为从 Slack、Jira 和 Linear 开的新会话用的环境

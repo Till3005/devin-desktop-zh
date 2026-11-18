@@ -1,0 +1,276 @@
+onboarding.nvidiaConnectGitNoneAvailable	你的 Devin 管理员还没把 GitHub 或 GitLab 连到 Devin，没东西可关联。请他们在「设置」里加连接，或先跳过此步。
+onboarding.nvidiaConnectGitSkipBody	关联 Git 账户前 Devin 功能受限。之后可在「设置」里关联。
+onboarding.nvidiaConnectGitSkipCancel	返回
+onboarding.nvidiaConnectGitSkipConfirm	仍要跳过
+onboarding.nvidiaConnectGitSkipTitle	跳过关联你的账户？
+onboarding.nvidiaConnectGitTitle	关联你的 Git 账户
+onboarding.nvidiaConnectGitTitleBoth	关联你的 GitLab 或 GitHub 账户
+onboarding.nvidiaConnectGitTitleGithub	关联你的 GitHub 账户
+onboarding.nvidiaConnectGitTitleGitlab	关联你的 GitLab 账户
+onboarding.nvidiaConnectSlackBody	在任何 Slack 频道里 @Devin 即可开会话，更新走私信。
+onboarding.nvidiaConnectSlackTitle	关联你的 Slack
+onboarding.onboardingProgress	引导进度
+onboarding.oneToOneMatch	1:1 配比
+onboarding.openDesktop	打开 Devin Desktop
+onboarding.openDesktopBlocked	浏览器拦截了打开 Devin Desktop。
+onboarding.orgConnection	组织
+onboarding.orgDefaultModeDescription	用于此组织的新会话
+onboarding.otherStepPlaceholder	其他，如广告牌、大会、播客
+onboarding.personalConnection	个人
+onboarding.recommendedCapabilities	开启全部推荐能力
+onboarding.recommendedCapabilitiesDescription	Fusion、Ultra、Normal、Lite、Fast、动态工作流和网页搜索。关掉可逐个选。
+onboarding.reconnectSlack	重连 Slack
+onboarding.removeInvitee	移除 {{name}}
+onboarding.repoGranted	已授予
+onboarding.reposSelectedForIndexing_one	已选 {{count}} 个仓库待索引
+onboarding.reposSelectedForIndexing_other	已选 {{count}} 个仓库待索引
+onboarding.reposSelectedForReview_one	已选 {{count}} 个仓库待自动分析
+onboarding.reposSelectedForReview_other	已选 {{count}} 个仓库待自动分析
+onboarding.requestPermissionFromAdmin	向管理员申请权限
+onboarding.retry	重试
+onboarding.retrySync	重试同步
+onboarding.reviewReposDescription	Devin 已分析自己的 PR 并修复发现的问题。选仓库让它也分析你团队在那里的 PR。
+onboarding.reviewReposTitle	也分析这些仓库里所有人的 PR
+onboarding.searchMcpServers	搜索 MCP 服务器
+onboarding.searchRepositories	搜索仓库…
+onboarding.searchTeammatesOrEmails	搜索队友或输入邮箱…
+onboarding.selectAll	全选
+onboarding.selectAllCount	全选（{{count}}）
+onboarding.selectChannel	选择一个频道
+onboarding.selectLabel	选择标签…
+onboarding.selectOrPressEnterToAdd	选择或按回车添加
+onboarding.selectProject	选择项目…
+onboarding.selectRepositories	选择仓库
+onboarding.selectTeam	选择团队…
+onboarding.setupAutomations	设置自动化
+onboarding.setupWiki	设置你的 wiki
+onboarding.showLessTips	少显示提示
+onboarding.showMoreTips	多显示提示
+onboarding.skip	跳过
+onboarding.slackJoinChannelFailed	Devin 无法加入 Slack 频道
+onboarding.slackJoinChannelMissingScope	在设置里重连 Slack，授予 Devin 加入频道的权限。
+onboarding.slackJoinChannelUnavailable	频道可能是私密或不可用。手动邀 Devin 或换个频道。
+onboarding.slackMonitor	Slack 监听
+onboarding.someTeammatesNotListed	有些队友不在列表里。输入他们的邮箱添加。
+onboarding.ssoAddDomain	添加
+onboarding.ssoAddDomainFailed	无法添加域名
+onboarding.ssoCheckDns	检查
+onboarding.ssoCopyRecord	复制 {{label}}
+onboarding.ssoDnsHint	把此 TXT 记录加到你的 DNS，然后检查。
+onboarding.ssoDnsName	名称
+onboarding.ssoDnsNotFound	还没找到记录。DNS 可能要几分钟。
+onboarding.ssoDnsValue	值
+onboarding.ssoDomainAdded	域名已添加
+onboarding.ssoDomainTitle	验证你的邮箱域名
+onboarding.ssoDomainVerified	域名已验证
+onboarding.ssoProviderTitle	连接你的身份提供商
+onboarding.ssoVerifyFailed	无法验证域名
+onboarding.startCliDescription	在终端里与 Devin 协作
+onboarding.startDesktopAction	下载
+onboarding.startDesktopDescription	在你电脑上与 Devin 协作
+onboarding.startDone	完成
+onboarding.startWebDescription	在云端与 Devin 协作
+onboarding.startWebTitle	Devin Webapp
+onboarding.startupSlackChannelBody	你的团队与我们的团队有一个共享频道。
+onboarding.startupSlackChannelTitle	专属 Slack 频道
+onboarding.stepAttributionBody	帮我们了解你在哪里发现 Devin。
+onboarding.stepAttributionTitle	你怎么听说我们的？
+onboarding.stepCapabilitiesBody	这些作用于你企业里每个组织。之后可在 <settingsLink>Devin 设置</settingsLink> 中改。
+onboarding.stepCapabilitiesTitle	选择 Devin 可用的能力
+onboarding.stepConnectGithubBody	连接你组织的仓库，让 Devin 开始工作。
+onboarding.stepConnectGithubTitle	连接你的 Git 提供商
+onboarding.stepConnectIssueTrackerBody	把工单派给 Devin 得到拉取请求。
+onboarding.stepConnectIssueTrackerTitle	连接你的工单系统
+onboarding.stepConnectLinearBody	把 Linear 工单派给 Devin 得到拉取请求。
+onboarding.stepConnectLinearTitle	连接 Linear
+onboarding.stepConnectMessagingAppBody	在聊天和频道里 @Devin 派活。
+onboarding.stepConnectMessagingAppTitle	连接你的消息应用
+onboarding.stepConnectSlackBody	在任何频道里 @Devin 派活。
+onboarding.stepCreateOrgBody	给你的第一个组织起个名。你企业里所有人都会加为成员。
+onboarding.stepCreateOrgTitle	创建你的第一个组织
+onboarding.stepDeepWikiBody	配置 DeepWiki 如何索引你的仓库源码供 Wiki 和 Ask Devin 用。
+onboarding.stepDeepWikiTitle	DeepWiki
+onboarding.stepExploreDevinBody	Devin 是为团队造的 AI 软件工程师。Devin 自主规划、写码、测试、交付。
+onboarding.stepExploreDevinTitle	你好，Devin——你的\n 新工程协作者
+onboarding.stepGrantReposBody	选此组织能工作的仓库。更多仓库或更细控制用 <settingsLink>仓库设置</settingsLink>。
+onboarding.stepGrantReposTitle	把仓库授予你的组织
+onboarding.stepInviteTeamBody	Devin 和全队一起用效果最好。邀请队友协作。
+onboarding.stepInviteTeamTitle	邀请你的团队
+onboarding.stepJiraTriageBody	给 Jira 工单打标签让 Devin 分诊。
+onboarding.stepJiraTriageTitle	配置自动分诊
+onboarding.stepLinearTriageBody	给 Linear 工单打标签让 Devin 分诊。
+onboarding.stepLinearTriageTitle	配置自动分诊
+onboarding.stepMcpBody	选 Devin 该用的工具，或输名字加自己的。稍后在置顶会话中批准访问。
+onboarding.stepMcpTitle	连接你的工具
+onboarding.stepOrgCapabilitiesBody	这些只作用于此组织。之后可在 <settingsLink>Devin 设置</settingsLink> 中改。
+onboarding.stepOrgCapabilitiesTitle	选择 Devin 可用的能力
+onboarding.stepOrgSecurityProfileBody	限制 Devin 能访问什么。建一个配置并设为默认，现在或在「设置 > Devin」里都行。
+onboarding.stepOrgSecurityProfileTitle	添加安全配置
+onboarding.stepPickStartBody	用 Devin 的方式不止一种。都试试。
+onboarding.stepPickStartTitle	你想怎么用 Devin？
+onboarding.stepPickWorkflowsBody	选要设置的集成——之后还能加。
+onboarding.stepPickWorkflowsTitle	你想怎么用 Devin？
+onboarding.stepReposBody	Devin 有自己的笔记本，带浏览器和终端。选 Devin 主要干活的仓库——之后还能加。
+onboarding.stepReposTitle	设置你的仓库
+onboarding.stepReviewBody	设置 Devin Review。之后可在 <settingsLink>Review 设置</settingsLink> 中改。
+onboarding.stepReviewTitle	Devin Review
+onboarding.stepSecurityProfileBody	限制 Devin 能访问什么。建配置并为每个组织设一个默认，现在或在「设置 > Devin」里都行。
+onboarding.stepSecurityProfileTitle	添加安全配置
+onboarding.stepSlackTriageBody	选一个 Devin 该监听的频道，并告诉它做什么
+onboarding.stepSsoBody	让你的团队用身份提供商登录。<learnMore>了解更多</learnMore>
+onboarding.stepSsoTitle	设置单点登录（SSO）
+onboarding.stepStartupProgramBody	你的创业公司优惠已在此团队生效。
+onboarding.stepStartupProgramTitle	欢迎使用 Devin for Startups
+onboarding.triageJiraPlaceholder	分诊进来的 Jira 工单…
+onboarding.triageLinearPlaceholder	分诊进来的 Linear 工单…
+onboarding.triageSlackPlaceholder	分诊进来的 Slack 消息…
+onboarding.unableToLoadMcpServers	无法加载 MCP 服务器。
+onboarding.unableToLoadOnboarding	无法加载你的引导。
+onboarding.unableToLoadOnboardingNext	若一直这样，请让 Devin 管理员查你的访问权。
+onboarding.unableToLoadRepositories	无法加载你的仓库。
+onboarding.unableToSaveOnboarding	无法保存你的引导。请重试。
+onboarding.unifiedAddReposBody	你添加之前 Devin 不能在这些仓库工作。要加列表外的仓库，在下方搜索。之后还能加，并可在 <repositoriesLink>设置 > 仓库</repositoriesLink> 查你的仓库访问权。
+onboarding.unifiedAddReposNext	下一步
+onboarding.unifiedAddReposTitle	把你的仓库加到 Devin
+onboarding.unifiedEnvironmentContinueAnyway	仍要继续进 Devin
+onboarding.unifiedEnvironmentFailed	无法设置你的环境。请重试；若一直失败，让 Devin 管理员查账户的默认环境。
+onboarding.unifiedPickerGroups	组
+onboarding.unifiedPickerProjects	项目
+onboarding.unifiedPromptStarter	你好 Devin，这是我的第一个会话！我通常在 {{repos}} 工作。先问我想做什么，再帮我设置好。
+onboarding.unifiedPromptStarterNoRepos	你好 Devin，这是我的第一个会话！先问我想做什么，再帮我设置好。
+onboarding.unifiedRepoAddAsGroup	加为组
+onboarding.unifiedRepoAddAsProject	加为项目
+onboarding.unifiedRepoAddChoiceBody	组覆盖其下全部仓库。加为组让 Devin 自动获得组 <code>{{group}}</code> 中未来新仓库的访问权。
+onboarding.unifiedRepoAddChoiceTitle	加整个组？
+onboarding.unifiedRepoAddFailed	无法把此项目加到 Devin。
+onboarding.unifiedRepoAddGroupToDevin	把组加到 Devin
+onboarding.unifiedRepoAddToDevin	加到 Devin
+onboarding.unifiedRepoAdded	已添加
+onboarding.unifiedRepoAdding	正在添加…
+onboarding.unifiedRepoInDevin	已在 Devin
+onboarding.unifiedRepoNotFound	未找到
+onboarding.unifiedRepoNotFoundStatus	未找到 {{path}}。
+onboarding.unifiedRepoNotInDevin	不在 Devin
+onboarding.unifiedRepoOpenOnHost	在 {{host}} 打开 {{repo}}
+onboarding.unifiedReposAddAllAsGroups	加为 {{groups}}
+onboarding.unifiedReposAddAllAsGroupsPlus_one	加为 {{groups}} 和 {{count}} 个项目
+onboarding.unifiedReposAddAllAsGroupsPlus_other	加为 {{groups}} 和 {{count}} 个项目
+onboarding.unifiedReposAddAllAsProjects_one	加 {{count}} 个项目
+onboarding.unifiedReposAddAllAsProjects_other	加 {{count}} 个项目
+onboarding.unifiedReposAddAllChoiceBody_one	组覆盖其下全部仓库。加为组让 Devin 自动获得未来新仓库的访问权。
+onboarding.unifiedReposAddAllChoiceBody_other	组覆盖其下全部仓库。加为组让 Devin 自动获得未来新仓库的访问权。
+onboarding.unifiedReposAddAllChoiceHybrid	部分列出的仓库不能这样加，仍将加为项目。
+onboarding.unifiedReposAddAllChoiceTitle	加为组？
+onboarding.unifiedReposAddAllFailed_one	无法把 {{count}} 个项目加到 Devin。
+onboarding.unifiedReposAddAllFailed_other	无法把 {{count}} 个项目加到 Devin。
+onboarding.unifiedReposAddAllProgress	正在添加 {{total}} 中第 {{done}} 个…
+onboarding.unifiedReposAddAll_one	加 {{count}} 个列出项
+onboarding.unifiedReposAddAll_other	加全部 {{count}} 个列出项
+onboarding.unifiedReposCheckAgain	再查一次
+onboarding.unifiedReposContinueWithout	不带仓库继续
+onboarding.unifiedReposFailed	无法读取你的仓库。
+onboarding.unifiedReposFailedNext	可不带仓库继续，之后在 <repositoriesLink>设置 > 仓库</repositoriesLink> 中添加，或让 Devin 管理员查 Git 连接。
+onboarding.unifiedReposGithubNotConnected	你的 GitHub 账户已关联，但此 Devin 账户没有 GitHub App 连接，因此列不出你的 GitHub 仓库。让 Devin 管理员<integrationLink>设置 GitHub 集成</integrationLink>。
+onboarding.unifiedReposGroupCount_one	{{count}} 个组
+onboarding.unifiedReposGroupCount_other	{{count}} 个组
+onboarding.unifiedReposHostFailed	无法读你在 {{hosts, list}} 上的仓库；下面的来自你其他已关联账户。
+onboarding.unifiedReposNoMatch	没有仓库匹配你的搜索。
+onboarding.unifiedReposNone	在你已关联账户上找不到你有权访问的仓库。让仓库维护者给你权限后再查，或先跳过此步。
+onboarding.unifiedReposNoneRecent	你已关联账户上没有你最近工作过的仓库。在上方按名搜索，或再查一次。
+onboarding.unifiedReposNotLinked	关联你的 GitLab 或 GitHub 账户才能在这里看仓库。<connectionsLink>打开你的连接</connectionsLink>。
+onboarding.unifiedReposNotLinkedBack	关联你的 GitLab 或 GitHub 账户才能在这里看仓库。
+onboarding.unifiedReposNotLinkedBackAction	回去连接
+onboarding.unifiedReposRecentEmptyDescription	搜索以加其它，或之后在 <repositoriesLink>设置 > 仓库</repositoriesLink> 中加。
+onboarding.unifiedReposRecentEmptyTitle	你最近贡献过的仓库都已在 Devin 里
+onboarding.unifiedReposRelink	你的 {{provider}}（{{host}}）关联已失效；重新关联以看仓库。
+onboarding.unifiedReposRelinkBackAction	回去重新关联
+onboarding.unifiedReposRelinkConnections	<connectionsLink>打开你的连接</connectionsLink>。
+onboarding.unifiedReposSearch	搜索仓库
+onboarding.unifiedStartSession	继续进 Devin
+onboarding.upToAmount	至多 {{amount}}
+onboarding.validateInReview	在 Devin Review 中验证
+onboarding.welcomeDescription	从一个 Devin 引导会话开始。
+onboarding.welcomeNotNow	先不
+onboarding.welcomeStart	开始
+onboarding.welcomeTitle	欢迎来到 {{org}}
+onboarding.welcomeTitleGeneric	欢迎
+onboarding.workflowDeepWikiDescription	索引你的仓库供 Wiki 和 Ask Devin 用
+onboarding.workflowIssueTrackerDescription	把 Linear 或 Jira 工单变成拉取请求
+onboarding.workflowIssueTrackerTitle	工单系统
+onboarding.workflowMcpDescription	连接 Notion、Sentry 或 Datadog 等工具
+onboarding.workflowMcpTitle	MCP 服务器
+onboarding.workflowReviewDescription	审查拉取请求并标记 bug
+onboardingGit.areYouSure	确定？
+onboardingGit.cancel	取消
+onboardingGit.connectBitbucket	连接 Bitbucket
+onboardingGit.connectGithub	连接 GitHub
+onboardingGit.connectGitlab	连接 GitLab
+onboardingGit.connectToTryFree	要免费试 Devin，需连接 GitHub。
+onboardingGit.connectingBitbucket	正在连接 Bitbucket…
+onboardingGit.connectingGithub	正在连接 GitHub…
+onboardingGit.connectingGitlab	正在连接 GitLab…
+onboardingGit.description	在 Devin 上找队友，或选仓库开始工作。
+onboardingGit.doItLater	我之后再说
+onboardingGit.installFailed	启动 GitHub 安装失败
+onboardingRedesign.addRepos_one	加 {{count}} 个仓库
+onboardingRedesign.addRepos_other	加 {{count}} 个仓库
+onboardingRedesign.botBody	规模化自动管理任务、处理重复工作，并在需要时浮现关键决策
+onboardingRedesign.botCaption	你的 {{botName}} 能帮你完成设置、推进项目，或当你的参谋长。
+onboardingRedesign.botDefaultName	{{name}} 的 {{botName}}
+onboardingRedesign.botNextAvatar	下一个头像
+onboardingRedesign.botPreviousAvatar	上一个头像
+onboardingRedesign.botTitle	从一个 {{botName}} 开始
+onboardingRedesign.cliEditor	配你现有编辑器用
+onboardingRedesign.cliScripts	可脚本化用于自动化
+onboardingRedesign.cliSsh	支持 SSH 和远程机器
+onboardingRedesign.cliTerminal	在任何终端跑
+onboardingRedesign.connectProvider	连接 {{provider}}
+onboardingRedesign.connectTasks	连接你的任务
+onboardingRedesign.connectTeam	连接你的团队
+onboardingRedesign.continueWeb	继续用 web
+onboardingRedesign.deselectAllRepos	全部取消选择
+onboardingRedesign.desktopAgents	统一管理本地和云端 agent
+onboardingRedesign.desktopDiffs	本地审查 diff 和更改
+onboardingRedesign.desktopIde	完整 IDE，带编辑器和扩展
+onboardingRedesign.desktopPreview	应用内预览
+onboardingRedesign.features	功能
+onboardingRedesign.finish	完成
+onboardingRedesign.gitAlreadyConnectedTitle	已连到 {{provider}}
+onboardingRedesign.gitBody	克隆仓库、推分支、开拉取请求全在云端。
+onboardingRedesign.gitConnectedBody	克隆仓库、推分支、开拉取请求全在云端。之后可在设置里增删。
+onboardingRedesign.gitConnectedTitle	你的 Git 提供商已连接
+onboardingRedesign.gitTitle	连接你的 Git 提供商
+onboardingRedesign.installPlugin	安装 {{name}}
+onboardingRedesign.integrationsBody	在 Slack 中给 Devin 派活，把你的工单变成拉取请求
+onboardingRedesign.integrationsTitle	连接你的团队和任务
+onboardingRedesign.navigation	引导导航
+onboardingRedesign.progress	引导进度
+onboardingRedesign.reposBody	在你的默认环境里更快、更省、更稳地开 Devin 会话。
+onboardingRedesign.reposLabel	仓库
+onboardingRedesign.reposOverflowMore_one	还有 {{formattedCount}} 个仓库
+onboardingRedesign.reposOverflowMore_other	还有 {{formattedCount}} 个仓库
+onboardingRedesign.reposSelected_one	你选了 {{formattedCount}} 个仓库
+onboardingRedesign.reposSelected_other	你选了 {{formattedCount}} 个仓库
+onboardingRedesign.reposSelected_zero	你没选仓库
+onboardingRedesign.reposTitle	添加仓库
+onboardingRedesign.searchTools	搜索插件和 MCP
+onboardingRedesign.selectTool	选择 {{name}} 进行设置
+onboardingRedesign.startBody	Devin Cloud 强烈建议有 git 连接
+onboardingRedesign.startTitle	你想从哪里开始？
+onboardingRedesign.toolNotInstalled	未安装
+onboardingRedesign.toolsBody	给你的组织加其他插件和 MCP
+onboardingRedesign.toolsLoadFailed	部分工具加载失败。
+onboardingRedesign.toolsTitle	把 Devin 连到外部工具
+oncall.actionItemSessionFailed	启动会话失败
+oncall.actionItemSessionStarted	会话已启动
+oncall.actionItemSessionStarting	正在启动会话…
+oncall.addTriggerOtherSourceLocked	一个 responder 一次只盯一个集成。改它的第一个触发器即可切换集成。
+oncall.advanced	高级
+oncall.advancedSummary	网络策略 · 元数据
+oncall.agentModeLabel	Agent 模式
+oncall.alertsBugs	告警与 Bug
+oncall.cancel	取消
+oncall.channelRequired	请选一个 Slack 频道
+oncall.conditionIncomplete	每个过滤器必须有字段和值。补全或移除空过滤器
+oncall.contextDiscardChanges	放弃更改
+oncall.contextDiscardTitle	放弃未保存的更改？

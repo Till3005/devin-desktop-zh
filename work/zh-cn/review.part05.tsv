@@ -1,0 +1,160 @@
+discussion.reAnalyzeCommit	重分析提交
+discussion.readMore	看更多
+discussion.regenerateDisabledPublic	公开示例禁用重生成分析
+discussion.reply	回复
+discussion.replyPlaceholder	回复此线程…
+discussion.requestedChanges	已要更改
+discussion.resolvedByUser	{{login}} 标此对话为已解决。
+discussion.retryAnalysis	重试分析
+discussion.reviewersCount	审查者（{{count}}）
+discussion.selectAll	全选
+discussion.showLess	看更少
+discussion.showingCommits	显 {{total}} 提交中 {{shown}} 个
+discussion.startAReview	起个审查
+discussion.suggestChange	建议更改
+discussion.suggestedChange	建议的更改
+discussion.suggestionOutdated	建议已过期
+errors.codeHostUnavailable	{{provider}} 没响应，所以此拉取请求加载不了。自动重试中。
+errors.genericErrorDescription	加载 <repoLink>{{repoName}}</repoLink> 中拉取请求 #{{prNumber}} 时出了错。
+errors.goBack	回去
+errors.networkError	连不了。查你网络连接再试。
+errors.openOnHost	在 {{host}} 开
+errors.prMalformed	PR 内容似乎畸形。请重试。
+errors.prNotFound	找不到拉取请求
+errors.prNotFoundDescription	<repoLink>{{repoName}}</repoLink> 中拉取请求 #{{prNumber}} 找不到。它可能已删，或此 Devin 组织没访问权限。
+errors.prNotFoundDescription_public	公开仓库 <repoLink>{{repoName}}</repoLink> 中拉取请求 #{{prNumber}} 找不到。它可能已删，或此 Devin 组织没访问权限。
+errors.prTooLarge	此拉取请求改的文件太多 {{provider}} 加载不了。
+errors.rateLimited	API 超限。请几分钟后重试。
+errors.unableToLoad	加载不了拉取请求
+errors.unableToLoadPRShort	加载不了 PR。
+errors.viewOnProvider	在 {{provider}} 看
+fileOverlay.closeFileOverlay	关文件浮层
+fileOverlay.closeFileView	关文件视图
+fileOverlay.failedToLoad	加载文件失败
+fileOverlay.fileMayNotExist	此文件可能不存在
+fileOverlay.loadingFile	加载文件中…
+find.changedLinesOnly	只看更改行
+find.filterMatches	筛匹配
+find.matchCase	区分大小写
+find.skipCollapsedFiles	跳过收起文件
+footer.chatAboutPR	聊此 PR
+footer.endOfChanges	更改完
+guide.askDevinToFix	叫 Devin 修
+guide.close	关
+guide.commentFailed	发不了评论。重试。
+guide.commentPlaceholder	加评论或要更改…
+guide.commentPosted	评论已发到 PR
+guide.devinRequestFailed	叫不了 Devin 做此更改。重试。
+guide.devinRequested	叫了 Devin 做此更改
+guide.diagramSource	图源
+guide.discussItem	讨论此项
+guide.issueCommentsUnsupported	此提供商不支持 PR 评论
+guide.nextPart	下一部分
+guide.noDescription	此组还没说明。
+guide.noDevinSession	此 PR 没链 Devin 会话
+guide.openInChanges	在更改中开
+guide.openReference	开引用 {{number}}
+guide.origins.author	作者
+guide.origins.devin	Devin
+guide.origins.user	你的指示
+guide.postAsPRComment	发为 PR 评论
+guide.previousPart	上一部分
+guide.showFullChange	显完整更改
+guide.showReferencedLines	显引用行
+guide.step	{{total}} 中第 {{number}} 部分
+guide.tags.assumption	假设
+guide.tags.decision	决策
+guide.tags.risk	风险
+guide.viewed	已看
+headerActions.all	全部
+headerActions.allDiscussionsResolved	全部讨论已解决
+headerActions.analysisComplete	分析完
+headerActions.analysisInProgress	分析中…
+headerActions.approve	批准
+headerActions.approveDescription	交反馈并批准合并这些更改
+headerActions.autoReviewThisPr	自动分析此 PR
+headerActions.cannotApproveOwn	你批不了自己拉取请求
+headerActions.cannotRequestChangesOwn	你不能在自己拉取请求要更改
+headerActions.closeReview	关审查
+headerActions.closedState	已关
+headerActions.collapseSidebar	收侧栏
+headerActions.comment	评论
+headerActions.commentDescription	交一般反馈，不明示批准
+headerActions.configureReviewSettings	审查设置
+headerActions.connectProvider	连 {{provider}}
+headerActions.copyDevinReviewUrl	复制 Devin Review URL
+headerActions.copyLinkToPr	复制 PR 链接
+headerActions.copyPrDescription	复制拉取请求描述
+headerActions.copyPrNumber	复制拉取请求编号
+headerActions.copyPrTitle	复制拉取请求标题
+headerActions.copyProviderPrUrl	复制 {{provider}} URL
+headerActions.current	当前
+headerActions.deletePendingComment	删评论
+headerActions.devinDesktop	Devin Desktop
+headerActions.devinReview	Devin Review
+headerActions.discardReview	弃审查
+headerActions.discarding	弃中
+headerActions.expandSidebar	展侧栏
+headerActions.filter	筛选
+headerActions.filterComments	筛评论
+headerActions.goToPullRequest	到拉取请求
+headerActions.goToSession	到会话
+headerActions.goToSlackThread	到 Slack 线程
+headerActions.latest	最新
+headerActions.mergedState	已合并
+headerActions.moreActions	更多操作
+headerActions.newAnalysis	新分析
+headerActions.newAnalysisFindings_one	分析完，{{count}} 个发现项。点击看。
+headerActions.newAnalysisFindings_other	分析完，{{count}} 个发现项。点击看。
+headerActions.newCommit	新提交
+headerActions.newCommitAnalyzing	推了新提交，分析中。点击现在看其代码。
+headerActions.newCommitsAvailable	有新提交
+headerActions.noCommentsFound	找不到评论
+headerActions.noCreditsForAnalysis	你没额度跑分析
+headerActions.openDevinSession	开 Devin 会话
+headerActions.openInProvider	在 {{provider}} 开
+headerActions.openSlackThread	开 Slack 线程
+headerActions.pendingComments	待定评论
+headerActions.pendingComments_one	{{count}} 条待定评论
+headerActions.pendingComments_other	{{count}} 条待定评论
+headerActions.personalSettings	个人设置
+headerActions.pinnedOlderAnalysis	此链接显提交 {{sha}} 的分析，不是此 PR 最新提交
+headerActions.prAndSessionLinks	拉取请求和会话链接
+headerActions.prClosedMessage	此拉取请求已{{state}}。你仍能留评论。
+headerActions.prReviewing	PR 审查中
+headerActions.quotePr	引用 PR 到聊天
+headerActions.reAnalyze	重分析
+headerActions.refreshToView	刷新看
+headerActions.requestChanges	要更改
+headerActions.requestChangesDescription	交合并前须处理的反馈
+headerActions.resolved	已解决
+headerActions.review	审查
+headerActions.reviewHistory	分析历史
+headerActions.reviewRunning	Devin 分析中…
+headerActions.reviewRunningTooltip	看分析进度
+headerActions.reviewThisPr	审此拉取请求
+headerActions.reviewTrigger	分析触发
+headerActions.reviewTriggerOption	分析触发：{{option}}
+headerActions.runAnalysisOnLatest	在最新跑分析
+headerActions.savingCommentChanges	存评论更改中…
+headerActions.searchComments	搜评论
+headerActions.seeChanges	看更改
+headerActions.session	会话
+headerActions.signIn	登录
+headerActions.slackThread	Slack 线程
+headerActions.submit	交
+headerActions.submitting	交中
+headerActions.switchToLatest	切到最新
+headerActions.turnOffAutoReviewThisPr	关此 PR 自动分析
+headerActions.turnOnAutoReviewThisPr	开此 PR 自动分析
+headerActions.unresolved	未解决
+headerActions.unresolvedComments	未解决评论
+headerActions.viewLatestCommit	看最新提交
+headerActions.writeComment	写评论
+headerActions.writeYourReview	写你的审查
+ide.collapseUnchanged	收起未变区域
+ide.openingDiff	开 diff 中…
+ide.showFullFile	显完整文件
+ide.showSideBySideDiff	显并排 diff
+ide.showStackedDiff	显堆叠 diff
+ide.viewFile	看文件

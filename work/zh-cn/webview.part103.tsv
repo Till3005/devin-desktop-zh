@@ -1,0 +1,140 @@
+settings.sharingDescription	控制成员怎么共享对话和代码地图
+settings.showOfficialMarketplacePlugins	显示 Devin 市场插件
+settings.skills	技能
+settings.skillsAnalyticsDescription	哪些技能被用、多频繁、支持哪类工作
+settings.slack	Slack
+settings.slackAddAnotherWorkspace	加另一个工作区
+settings.slackChannelAccessSpecific	特定频道
+settings.slackChannelAllowlist	Slack 频道白名单
+settings.slackChannelAllowlistAdd	选频道
+settings.slackChannelAllowlistAll	全部频道和私信
+settings.slackChannelAllowlistDescription	选此组织会话能在 Slack 哪里开和发。
+settings.slackChannelAllowlistRemove	移除频道
+settings.slackChannelAllowlistSelectToApply	没选频道。你加一个之前 Devin 在 Slack 哪都开不了发不了。
+settings.slackChannelAllowlistSelected	已选频道
+settings.slackChannelPrefs.failedChannels	以下频道可能是私密或不可用。手动邀请 Devin 或换频道：{{channels}}。
+settings.slackChannelPrefs.missingScope	在设置里重连 Slack 给 Devin 加这些频道的权限：{{channels}}。或者在 Slack 手动把 Devin 加进频道。
+settings.slackChannelPrefs.missingScopeAndFailed	在设置里重连 Slack 给 Devin 加这些频道的权限：{{missingScope}}。或者在 Slack 手动把 Devin 加进频道。以下频道可能是私密或不可用。手动邀请 Devin 或换频道：{{failed}}。
+settings.slackChannelPrefs.saveFailed	存频道偏好失败
+settings.slackChannelPrefs.saved	频道偏好保存成功
+settings.slackChannelPrefs.savedWithWarnings	频道偏好已存但有加入警告
+settings.slackDefaultModeDescription	控制 Devin 在原线程回、开新线程、还是开代码频道。
+settings.slackDescription	管 Slack 集成设置
+settings.slackDisconnectWorkspaceDescription	确定要断开 {{workspace}}？Devin 将在其频道停工作，其成员的 Slack 链接将被移除。
+settings.slackIntegrationDescription	让 Devin 干活。在 Slack 里 @Devin 开始。
+settings.slackInvitationDialog.emailInvalid	请输有效邮箱地址
+settings.slackInvitationDialog.emailRequired	邮箱地址为必填项
+settings.slackInvitationDialog.inviteSent	Slack 邀请已发到 {{email}}
+settings.slackOauthEnterpriseMismatch	此 Slack 用户不属于你连的 Slack 组织所在的企业。
+settings.slackOauthNotConnected	此 Slack 工作区没连你 Devin 组织。
+settings.slackOauthUserAlreadyLinked	此 Slack 用户已连你 Devin 组织。
+settings.slackSetBySecurityProfile	由安全配置 {{name}} 设
+settings.slackSetBySecurityProfileDescription	此组织会话用配置的 Slack 访问代替账户设置。要改，更新安全配置。
+settings.slackSetBySecurityProfileNotice	由安全配置 {{name}} 设。
+settings.slackThisWorkspace	此 Slack 工作区
+settings.slackThreadMode	Slack 线程模式
+settings.slackThreadModeCodeChannel	代码频道
+settings.slackThreadModeCodeChannelDescription	Devin 每个会话在自己的代码频道开。
+settings.slackThreadModeDefault	组织默认
+settings.slackThreadModeDefaultDescription	用你组织的线程模式。
+settings.slackThreadModeDescription	控制 Devin 在原线程回还是开新线程
+settings.slackThreadModeInThread	在同一线程回
+settings.slackThreadModeInThreadDescription	Devin 在它被提及的线程回。
+settings.slackThreadModeMentionOnly	同一线程回，仅当被提及
+settings.slackThreadModeMentionOnlyDescription	Devin 在它被提及的线程回，且只读后来提及它的回复。
+settings.slackThreadModeNewThread	开新线程
+settings.slackThreadModeNewThreadDescription	Devin 在已有线程的回复里被提及时，开新线程并在那继续。
+settings.slackThreadModePersonalOverride	配置个人设置
+settings.snapshotBuilds	快照构建
+settings.snapshotBuildsDescription	控制你企业快照构建怎么排期
+settings.snapshotDescription	看、查和调试此环境快照细节。
+settings.snapshotOptionalDescription	选一个机器快照用
+settings.snapshots	快照
+settings.snapshotsDescription	看和管环境快照及构建历史
+settings.source	来源
+settings.spendLimitPreviewTitle	审花费上限更改
+settings.ssoConnections.acsUrl	ACS URL
+settings.ssoConnections.addConnection	加连接
+settings.ssoConnections.addDescription	连你身份提供商。邮箱在所选已验证域名上的成员将经它登录。邮箱和社交登录保持开，直到你在登录方法下关掉。
+settings.ssoConnections.addTitle	加 SSO 连接
+settings.ssoConnections.autoJoin	自动加成员
+settings.ssoConnections.autoJoinDescription	经此连接登录的人加入你企业。关掉时只有已有成员能登录。
+settings.ssoConnections.certificateExpires	证书 {{date}} UTC 过期
+settings.ssoConnections.clientId	Client ID
+settings.ssoConnections.clientIdDescription	{{type}} · Client ID {{clientId}}
+settings.ssoConnections.clientIdNotSet	未设
+settings.ssoConnections.clientIdRequired	Client ID 为必填项
+settings.ssoConnections.clientSecret	Client secret
+settings.ssoConnections.clientSecretRequired	Client secret 为必填项
+settings.ssoConnections.clientSecretRequiredForEndpoint	请输新 client secret
+settings.ssoConnections.copyField	复制 {{label}}
+settings.ssoConnections.createConnection	建连接
+settings.ssoConnections.createFailed	建 SSO 连接失败
+settings.ssoConnections.created	SSO 连接已建
+settings.ssoConnections.creating	创建中…
+settings.ssoConnections.deleteConnection	删连接
+settings.ssoConnections.deleteDescription	成员不能再经此连接登录。其身份提供商配置被移除且不可恢复；你可之后加新连接。
+settings.ssoConnections.deleteFailed	删 SSO 连接失败
+settings.ssoConnections.deleteTitle	删 {{name}}？
+settings.ssoConnections.deleted	{{name}} 已删
+settings.ssoConnections.descriptionCanCreateAndManage	你成员经之登录的身份提供商连接。为已验证邮箱域名加连接，或编辑、移除已有的。
+settings.ssoConnections.descriptionCanManage	你成员经之登录的身份提供商连接。在此编辑其凭据和配置或移除。
+settings.ssoConnections.discoveryUrl	Discovery URL
+settings.ssoConnections.discoveryUrlRequired	Discovery URL 为必填项
+settings.ssoConnections.displayName	显示名
+settings.ssoConnections.displayNamePlaceholder	如：Okta（Contoso）
+settings.ssoConnections.displayNameRequired	显示名为必填项
+settings.ssoConnections.domainsSelectedCount	{{total}} 域名已选 {{selected}}
+settings.ssoConnections.edit	编辑
+settings.ssoConnections.editAriaLabel	编辑 {{name}}
+settings.ssoConnections.editOidcDescription	当前 client secret 加密存且不显示；留空保留。先在你身份提供商建新凭据让登录不断。
+settings.ssoConnections.editSamlDescription	Devin 一次只信一张签名证书，所以在你身份提供商激活新证书后立刻存它。证书留空保留当前。
+settings.ssoConnections.editSupportManagedDescription	此连接的提供商设置由 Cognition 支持管；你可改它登录哪些邮箱域名，或移除它。
+settings.ssoConnections.editTitle	编辑 {{name}}
+settings.ssoConnections.emailDomains	邮箱域名
+settings.ssoConnections.emailDomainsRequired	请选至少一个邮箱域名
+settings.ssoConnections.empty	你组织还没设 SSO 连接。联系支持加一个。
+settings.ssoConnections.emptyCanCreate	你组织还没设 SSO 连接。先验证一个邮箱域名，再加连接。
+settings.ssoConnections.entraTenant	Entra 租户
+settings.ssoConnections.entraTenantPlaceholder	contoso.onmicrosoft.com 或租户 ID
+settings.ssoConnections.entraTenantRequired	Entra 租户为必填项
+settings.ssoConnections.identityProvider	身份提供商
+settings.ssoConnections.invalidUrl	请输有效 URL
+settings.ssoConnections.keepDomainDescription	留空保留当前域名
+settings.ssoConnections.keepTenantDescription	留空保留当前租户
+settings.ssoConnections.loadError	加载 SSO 连接失败。请重试。
+settings.ssoConnections.newClientSecret	新 client secret
+settings.ssoConnections.newSigningCert	新签名证书（PEM）
+settings.ssoConnections.noDomainsMatch	没有域名匹配你的搜索
+settings.ssoConnections.oktaDomain	Okta 域名
+settings.ssoConnections.oktaDomainRequired	Okta 域名为必填项
+settings.ssoConnections.pemPlaceholder	-----BEGIN CERTIFICATE-----
+settings.ssoConnections.providerSettings	提供商设置
+settings.ssoConnections.redirectUri	Redirect URI
+settings.ssoConnections.save	保存
+settings.ssoConnections.saving	保存中…
+settings.ssoConnections.scopes	Scope
+settings.ssoConnections.scopesPlaceholder	openid profile email
+settings.ssoConnections.scopesRequired	Scope 为必填项
+settings.ssoConnections.searchDomains	搜索域名
+settings.ssoConnections.secretDescription	留空保留当前 secret
+settings.ssoConnections.secretRequiredDescription	discovery URL、Okta 域名或 Entra 租户变时为必填
+settings.ssoConnections.selectAllDomains	全选域名
+settings.ssoConnections.signInRedirectUri	登录 Redirect URI
+settings.ssoConnections.signInUrl	登录 URL
+settings.ssoConnections.signInUrlRequired	登录 URL 为必填项
+settings.ssoConnections.signingCert	签名证书（PEM）
+settings.ssoConnections.signingCertRequired	请粘贴签名证书
+settings.ssoConnections.title	SSO 连接
+settings.ssoConnections.typeFallback	SSO
+settings.ssoConnections.typeOidc	OpenID Connect
+settings.ssoConnections.typeOkta	Okta
+settings.ssoConnections.typeSamlp	SAML
+settings.ssoConnections.typeWaad	Microsoft Entra ID
+settings.ssoConnections.updateFailed	更新 SSO 连接失败
+settings.ssoConnections.updated	{{name}} 已更新
+settings.ssoConnections.verifyDomainFirst	加连接前先在下面验证一个邮箱域名。
+settings.ssoDomains.add	加
+settings.ssoDomains.addDomain	加一个域名
+settings.ssoDomains.addFailed	加不了域名
+settings.ssoDomains.addedBySupport	由 Cognition 支持设置。要用在你自己的 SSO 连接，在下面加并用 TXT 记录验证。

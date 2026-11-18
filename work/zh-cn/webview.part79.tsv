@@ -1,0 +1,220 @@
+settings.collaborationPages.slack.channelAccess	频道访问
+settings.collaborationPages.slack.channelChannelidAlreadyMappedChooseDifferent	频道「{{channelId}}」已被映射。换个频道。
+settings.collaborationPages.slack.channelChannelidArchivedCantMapped	频道「{{channelId}}」已归档映射不了。
+settings.collaborationPages.slack.channelChannelidNotFoundIfPrivate	找不到频道「{{channelId}}」。若是私有频道，先在 Slack 邀 Devin 进去。
+settings.collaborationPages.slack.channelIdAlreadyMappedChooseDifferent	频道「{{id}}」已被映射。换个频道。
+settings.collaborationPages.slack.channelMapping	频道映射
+settings.collaborationPages.slack.completeMigration	完成迁移
+settings.collaborationPages.slack.connect	连接
+settings.collaborationPages.slack.defaultAccess	默认访问
+settings.collaborationPages.slack.devinCantSeeChannelMayHave	Devin 看不到此频道——可能被删了、Devin 可能被移了、或是暂时错误。若此警告持续，考虑移除此失效映射。
+settings.collaborationPages.slack.devinOrganization	Devin 组织
+settings.collaborationPages.slack.devinOrganizationChannelname	{{channelName}} 的 Devin 组织
+settings.collaborationPages.slack.devinOrganizationNewMapping	新映射的 Devin 组织
+settings.collaborationPages.slack.devinOrganizationUnmappedChannels	未映射频道的 Devin 组织
+settings.collaborationPages.slack.directMessages	私信
+settings.collaborationPages.slack.failedResolveSlackChannelPleaseTry	解析不了 Slack 频道。请重试。
+settings.collaborationPages.slack.individualAutomationsCanOverrideSetting	单个自动化可覆盖此设置
+settings.collaborationPages.slack.integrateDevinWithSlack	把 Devin 集成 Slack
+settings.collaborationPages.slack.learnKeywordsSuchAsAsideMute	了解 aside、mute 等关键词
+settings.collaborationPages.slack.loading	加载中…
+settings.collaborationPages.slack.mapSlackChannelsDevinOrganizations	把 Slack 频道映射到 Devin 组织
+settings.collaborationPages.slack.migrate	迁移
+settings.collaborationPages.slack.migrateSlackEnterpriseGrid	迁到 Slack Enterprise Grid
+settings.collaborationPages.slack.newMapping	新映射
+settings.collaborationPages.slack.noChannelMappingsDefinedClickNew	没定义频道映射。点「新映射」加一个。
+settings.collaborationPages.slack.noChannelsFound	找不到频道。
+settings.collaborationPages.slack.noChannelsMatchingSearchquery	没有频道匹配「{{searchQuery}}」
+settings.collaborationPages.slack.off	关
+settings.collaborationPages.slack.organizationMembers	组织成员
+settings.collaborationPages.slack.permissionsUpdateRequiredPleaseReAuthorize	<span>要更新权限。</span>请重新授权权限
+settings.collaborationPages.slack.reAuthorize	重新授权
+settings.collaborationPages.slack.recommended	推荐
+settings.collaborationPages.slack.redirecting	跳转中…
+settings.collaborationPages.slack.refreshWorkspaces	刷新工作区
+settings.collaborationPages.slack.refreshing	刷新中…
+settings.collaborationPages.slack.removeMapping	移除映射
+settings.collaborationPages.slack.sameChannelAsTag	与标签同频道
+settings.collaborationPages.slack.saveChangesBeforeAddingMoreChannels	加更多频道前先存你的更改
+settings.collaborationPages.slack.searchChannels	搜索频道…
+settings.collaborationPages.slack.searchChannels2	搜索频道…
+settings.collaborationPages.slack.selectChannel	选频道
+settings.collaborationPages.slack.selectSlackChannel	选 Slack 频道
+settings.collaborationPages.slack.sessionsStartedFromChannelRunIts	从频道起的会话在其映射组织跑，用该组织的设置和连接
+settings.collaborationPages.slack.slackChannel	Slack 频道
+settings.collaborationPages.slack.slackConnectionBrokenDevinCanNo	<span>Slack 连接坏了。</span>Devin 再收不了 Slack 消息。重新授权恢复提及和自动化。
+settings.collaborationPages.slack.theChannelWasTagged	它被标签的频道
+settings.collaborationPages.slack.unmapped	未映射
+settings.collaborationPages.slack.useChannelIdSearchaschannelid	用频道 ID {{searchAsChannelId}}
+settings.collaborationPages.slack.whetherNewDevinSessionsCanRead	新 Devin 会话能否在映射到其组织的、Devin 已加入的公开 Slack 频道读和发
+settings.collaborationPages.slack.whetherNewDevinSessionsCanReadPost	新 Devin 会话能否在 Devin 已加入的公开 Slack 频道读和发
+settings.collaborationPages.slack.whoNewDevinSessionsCanSend	新 Devin 会话能私信谁。企业会话只能发其组织成员
+settings.collaborationPages.slack.whoNewDevinSessionsCanSendDirect	新 Devin 会话能私信谁
+settings.collaborationPages.slack.workspaceNotAuthorized	工作区未授权
+settings.command	命令
+settings.commandAddFailed	加命令失败
+settings.commandAddedToAllowlist	命令已加白名单
+settings.commandAddedToDenylist	命令已加黑名单
+settings.commandDescription	跑 MCP 服务器进程的命令
+settings.commandLists	命令列表
+settings.commandListsDescription	终端命令的旧版白名单和黑名单，作未配置 Devin Local 权限的回退。
+settings.commandRemoveFailed	移除命令失败
+settings.commandRemovedFromAllowlist	命令已从白名单移除
+settings.commandRemovedFromDenylist	命令已从黑名单移除
+settings.commandRequired	命令为必填项
+settings.commands	命令
+settings.commandsDescription	聊天输入的自定义命令。输 / 看可用命令
+settings.commentLanguage	评论语言
+settings.commentLanguageDescription	Devin Review 在你 PR 上写评论用的语言
+settings.commitAuthoring	提交署名
+settings.commitAuthoringDescription	设 Devin 的 Git 提交的作者和提交者。
+settings.commitEmail	提交邮箱
+settings.commitEmailDescription	此邮箱将用于你的 Git 提交。
+settings.commitEmailUpdated	提交邮箱更新成功
+settings.commitSigningMode.coauthoredDevinYou	共同署名（Devin + 你）
+settings.commitSigningMode.coauthoredYouDevin	共同署名（你 + Devin）
+settings.commitSigningMode.devinAuthorYouCommitter	Devin 作作者，你作提交者
+settings.commitSigningMode.devinOnly	仅 Devin
+settings.commitSigningMode.youAuthorDevinCommitter	你作作者，Devin 作提交者
+settings.commitSigningMode.youOnly	仅你
+settings.completeOauth	完成 OAuth
+settings.completeSlackEnterpriseGridMigration	完成 Slack Enterprise Grid 迁移
+settings.completeSlackEnterpriseGridMigrationDescription	我们检测到你迁到 Slack Enterprise Grid，但我们这边要完成一步才算完。
+settings.computerUse	Agent 电脑使用
+settings.computerUseDescription	让 Devin 用鼠标、键盘和屏幕工具。禁用时 Devin 改用浏览器工具。电脑标签页两种都仍可用。
+settings.configExamplePlaceholder	输入像这样例的配置：
+settings.configuration	配置
+settings.configure	配置
+settings.configureGroupMappings	配置组映射
+settings.configureTierModelOverrides	配置模型覆盖
+settings.configureTierModelOverridesDescription	自定义此档位用户可用模型，覆盖组织设置
+settings.configureWithCount	配置（{{total}}）
+settings.confirmUnlink	确定要解绑你的用户？
+settings.confirmUnlinkDescription	继续后将不能再用 Devin 连你 {{integration}} 账户。
+settings.confirmUnlinkMCP	确定要解绑？
+settings.confirmUnlinkMCPDescription	继续后 Devin 将不能再用你个人 {{name}} 账户。
+settings.connectExternalServicesDescription	把外部服务和工具连到你在 Devin 的组织。
+settings.connectOnSlack	在 Slack 联系
+settings.connectOnSlackDescription	经 Slack 直接找到我们团队
+settings.connectedAccountsTitle	已连账户
+settings.connectedAccountsV2	连接
+settings.connecting	连接中…
+settings.connection	连接
+settings.connectionExpiredReconnect	连接已过期——重连恢复访问。
+settings.connections	连接
+settings.connectionsSortBy	排序连接
+settings.connectionsSortName	名称
+settings.connectionsSortNewest	最新在前
+settings.connectionsSortOldest	最旧在前
+settings.consumption	消耗
+settings.consumptionDescription	看企业用量和花费分析
+settings.conversationSharingDescription	控制谁能经链接共享 Devin Local 对话
+settings.copyAccountPolicies	把账户级策略复制到预算
+settings.copyAccountPoliciesConfirm_one	复制到 {{count}} 个预算
+settings.copyAccountPoliciesConfirm_other	复制到 {{count}} 个预算
+settings.copyAccountPoliciesCountsError	加载不了预算的档位数。
+settings.copyAccountPoliciesDescription	把你选的账户级策略复制到每个所选预算。
+settings.copyAccountPoliciesFailed_one	复制到 {{count}} 个预算失败。它保持选中可重试。
+settings.copyAccountPoliciesFailed_other	复制到 {{count}} 个预算失败。它们保持选中可重试。
+settings.copyAccountPoliciesOverwriteConfirm	覆盖并复制
+settings.copyAccountPoliciesOverwriteDescription_one	{{count}} 个所选预算已有档位。复制替换其档位、组映射和成员上限。
+settings.copyAccountPoliciesOverwriteDescription_other	{{count}} 个所选预算已有档位。复制替换其档位、组映射和成员上限。
+settings.copyAccountPoliciesOverwriteTitle	覆盖已有档位？
+settings.copyAccountPoliciesParts	复制什么
+settings.copyAccountPoliciesProgress	{{total}} 个预算中完成 {{finished}} 个
+settings.copyAccountPoliciesProgressDescription	保持此页开着。关掉停复制，已完成的预算保持已复制。
+settings.copyAccountPoliciesProgressTitle	正在复制账户级策略
+settings.copyAccountPoliciesSelectAll	全选预算
+settings.copyAccountPoliciesSourceEmpty	此账户没有用户上限档位可复制。
+settings.copyAccountPoliciesSuccess_one	已复制到 {{count}} 个预算
+settings.copyAccountPoliciesSuccess_other	已复制到 {{count}} 个预算
+settings.copyAccountPoliciesSummaryCopy_one	正在把用户用量策略复制到 {{count}} 个预算
+settings.copyAccountPoliciesSummaryCopy_other	正在把用户用量策略复制到 {{count}} 个预算
+settings.copyAccountPoliciesSummaryOverwrite_one	正在覆盖 {{count}} 个预算里的用户用量策略
+settings.copyAccountPoliciesSummaryOverwrite_other	正在覆盖 {{count}} 个预算里的用户用量策略
+settings.copyAccountPoliciesTitle	选复制到哪些预算
+settings.copyAccountPoliciesTooMany	一次最多复制到 {{max}} 个预算。清一些预算再继续。
+settings.copyCodemapLink	复制代码地图链接
+settings.copyEnterpriseId	复制企业 ID
+settings.copyPoliciesAccountNote	账户级上限跨每个组织限量。复制进此预算后只限此预算的组织。
+settings.copyPoliciesAssignments	成员档位指派
+settings.copyPoliciesConfirm	复制
+settings.copyPoliciesDescription	把另一作用域的用量策略复制进此预算。档位总会被复制。
+settings.copyPoliciesError	复制不了用量策略
+settings.copyPoliciesFrom	复制自…
+settings.copyPoliciesGroups	IdP 组映射
+settings.copyPoliciesPermanentLimits	永久上限覆盖
+settings.copyPoliciesSkippedUsers_one	跳过 {{count}} 个成员：不在此预算的组织或已在这里被派
+settings.copyPoliciesSkippedUsers_other	跳过 {{count}} 个成员：不在此预算的组织或已在这里被派
+settings.copyPoliciesSource	复制自
+settings.copyPoliciesSourcePlaceholder	选一个作用域
+settings.copyPoliciesSuccess	用量策略已复制
+settings.copyPoliciesTemporaryLimits	临时上限覆盖
+settings.copyPoliciesTierMappings	档位映射
+settings.copyPoliciesTiers	档位
+settings.copyPoliciesTitle	复制用量策略
+settings.copyServiceUserId	复制服务用户 ID
+settings.copySharedConversationLink	复制共享对话链接
+settings.copyUserLimits	复制用户上限
+settings.copyUserLimitsToBudgets_one	把用户上限复制到 {{count}} 个预算
+settings.copyUserLimitsToBudgets_other	把用户上限复制到 {{count}} 个预算
+settings.createOrganization	建组织
+settings.createOrganizationDescription	给你企业加新组织
+settings.createTier	建档位
+settings.createdAt	创建时间
+settings.credentialPages.apiKeys.apiKeysHaveMovedDeveloperSettings	API key 已移到开发者设置。访问请联系你企业管理员。
+settings.credentialPages.apiKeys.apiKeysOnlyWorkWithV1	API key 只对 V1 和 V2 API 有用。迁到 <lnk>服务用户</lnk>用 V3 API。
+settings.credentialPages.apiKeys.copied	已复制！
+settings.credentialPages.apiKeys.copyApiKey	复制 API key
+settings.credentialPages.apiKeys.createKeyStartUsingApi	建 key 开始用 API
+settings.credentialPages.apiKeys.deprecated	已废弃
+settings.credentialPages.apiKeys.error	错误
+settings.credentialPages.apiKeys.failedLoadApiKeysPleaseTry	加载 API key 失败。请稍后重试。
+settings.credentialPages.apiKeys.generateApiKey	生成 API Key
+settings.credentialPages.apiKeys.generating	生成中…
+settings.credentialPages.apiKeys.hide	隐藏
+settings.credentialPages.apiKeys.hideApiKey	隐藏 API key
+settings.credentialPages.apiKeys.keepKeySecure	保管好此 key
+settings.credentialPages.apiKeys.keyType	Key 类型
+settings.credentialPages.apiKeys.moreActions	更多操作
+settings.credentialPages.apiKeys.noPersonalApiKey	没有个人 API key
+settings.credentialPages.apiKeys.noServiceApiKey	没有服务 API key
+settings.credentialPages.apiKeys.personalApiKey	个人 API key
+settings.credentialPages.apiKeys.personalKey	个人 key
+settings.credentialPages.apiKeys.personalKeys	个人 key
+settings.credentialPages.apiKeys.regenerating	重新生成中…
+settings.credentialPages.apiKeys.retrieving	取回中…
+settings.credentialPages.apiKeys.revealOrRegenerateKey	显示或重新生成你的 key
+settings.credentialPages.apiKeys.revokeRegenerate	吊销并重新生成
+settings.credentialPages.apiKeys.selectKeyType	选 key 类型
+settings.credentialPages.apiKeys.serviceApiKey	服务 API key
+settings.credentialPages.apiKeys.serviceKey	服务 key
+settings.credentialPages.apiKeys.serviceKeys	服务 key
+settings.credentialPages.apiKeys.sharedAcrossOrganizationServiceIntegrations	跨你组织共享给服务集成。
+settings.credentialPages.apiKeys.tiedAccountDoNotShare	绑你账户。别分享。
+settings.credentialPages.apiKeys.tip	提示
+settings.credentialPages.apiKeys.toGiveDevinAccessThirdParty	要给 Devin 第三方凭据访问，改用 <lnk>机密</lnk>。
+settings.credentialPages.apiKeys.viewKey	看 key
+settings.credentialPages.personalAccessTokens.active	活跃
+settings.credentialPages.personalAccessTokens.cancelRequest	取消申请
+settings.credentialPages.personalAccessTokens.cancelRequestName	取消申请「{{name}}」？
+settings.credentialPages.personalAccessTokens.copyApiKeyId	复制 API key ID
+settings.credentialPages.personalAccessTokens.createToken	建 token
+settings.credentialPages.personalAccessTokens.createTokenAuthenticateWithDevinApi	建 token 以向 Devin API 认证。
+settings.credentialPages.personalAccessTokens.created	创建时间
+settings.credentialPages.personalAccessTokens.expired	已过期
+settings.credentialPages.personalAccessTokens.expires	过期时间
+settings.credentialPages.personalAccessTokens.failedActivateTokenRequestMayHave	激活 token 失败。申请可能已过期或被取消。
+settings.credentialPages.personalAccessTokens.failedCancelRequest	取消申请失败。
+settings.credentialPages.personalAccessTokens.failedCopyId	复制 ID 失败
+settings.credentialPages.personalAccessTokens.failedCreateToken	建 token 失败
+settings.credentialPages.personalAccessTokens.failedLoadTokenPolicy	加载 token 策略失败。
+settings.credentialPages.personalAccessTokens.failedRevokeToken	吊销 token 失败
+settings.credentialPages.personalAccessTokens.failedRotateToken	轮换 token 失败
+settings.credentialPages.personalAccessTokens.filterTokenStatus	筛 token 状态
+settings.credentialPages.personalAccessTokens.forName	给：{{name}}
+settings.credentialPages.personalAccessTokens.keep	保留
+settings.credentialPages.personalAccessTokens.lastUsed	上次使用
+settings.credentialPages.personalAccessTokens.loadingPersonalAccessTokens	加载个人访问令牌中…
+settings.credentialPages.personalAccessTokens.name	名称
+settings.credentialPages.personalAccessTokens.never	从未

@@ -1,0 +1,200 @@
+settings.reviewers.sourceDeletedTitle	技能已删
+settings.reviewers.sourceEnterpriseSkill	企业技能
+settings.reviewers.sourceHelpDetach	把审查者从其技能解链。当前文本留作可编的纯指示。
+settings.reviewers.sourceHelpPlugin	指示来自自定义里上传的技能。
+settings.reviewers.sourceHelpRepository	指示来自你某仓库的 SKILL.md，读自 {{branch}}。
+settings.reviewers.sourceHelpText	在这写并随审查者存。随时可编。
+settings.reviewers.sourceInvalid	此审查者跟随的技能是空或太长做不了审查者指示。审查者仍用其最后副本。
+settings.reviewers.sourceInvalidTitle	技能用不了
+settings.reviewers.sourceOrganizationSkill	组织技能
+settings.reviewers.sourcePluginNone	没有可选技能
+settings.reviewers.sourceRepository	仓库技能
+settings.reviewers.sourceRequired	先选一个技能。
+settings.reviewers.sourceText	纯文本
+settings.reviewers.spendLimitAmountDescription	达此上限后，此拉取请求之后的自动分析跳过此审查者。留空无单独上限。
+settings.reviewers.spendLimitAmountLabel	每拉取请求上限
+settings.reviewers.spendLimitInvalid	输大于 0 的数，或留空不单独限
+settings.reviewers.spendLimitLabel	花费上限
+settings.reviewers.spendLimitModeDescription	此审查者从拉取请求的 Devin Review 花费上限扣，还是从自己的上限扣。单独预算让审查者在 Devin Review 上限到后还跑。
+settings.reviewers.spendLimitModeLabel	预算
+settings.reviewers.spendLimitNone	无上限
+settings.reviewers.spendLimitRequired	单独预算需要上限
+settings.reviewers.spendLimitSeparate	单独预算
+settings.reviewers.spendLimitUmbrella	并入 Devin Review 上限
+settings.reviewers.statsFindingLabel_one	发现项
+settings.reviewers.statsFindingLabel_other	发现项
+settings.reviewers.statsFindings_one	{{count}} 个发现项
+settings.reviewers.statsFindings_other	{{count}} 个发现项
+settings.reviewers.statsNoRuns	最近 {{days}} 天没有运行
+settings.reviewers.statsResolvedLabel	已解决
+settings.reviewers.statsRunCount_one	{{count}} 次运行
+settings.reviewers.statsRunCount_other	{{count}} 次运行
+settings.reviewers.statsRunLabel_one	运行
+settings.reviewers.statsRunLabel_other	运行
+settings.reviewers.statsWindowCaption	最近 {{days}} 天
+settings.reviewers.statsWindowHeader	最近 {{days}} 天
+settings.reviewers.statusDisabled	已禁用
+settings.reviewers.statusDraft	草稿
+settings.reviewers.statusEnabled	已启用
+settings.reviewers.statusNeedsAttention	需注意
+settings.reviewers.title	审查者
+settings.reviewers.unlink	解链
+settings.reviewers.unlinkedToast	{{name}} 已从其技能解链；其文本留作纯指示
+settings.reviewers.urgencyHint	此审查者发现项在审查里和拉取请求上怎么显示
+settings.reviewers.urgencyInfo	提示
+settings.reviewers.urgencyInfoDescription	建议和上下文
+settings.reviewers.urgencyInfoFindings	提示发现项
+settings.reviewers.urgencyLabel	发现项紧急度
+settings.reviewers.urgencyModerate	中等
+settings.reviewers.urgencyModerateDescription	值得查的标记
+settings.reviewers.urgencyModerateFindings	中等发现项
+settings.reviewers.urgencySevere	严重
+settings.reviewers.urgencySevereDescription	必须修的问题
+settings.reviewers.urgencySevereFindings	严重发现项
+settings.reviewers.versionChangesFrom	自版本 {{number}} 的更改
+settings.reviewers.versionCurrent	当前
+settings.reviewers.versionDiffLabel	指示的更改
+settings.reviewers.versionDiffNone	指示在此版本没变。
+settings.reviewers.versionFirst	首个版本
+settings.reviewers.versionLabel	版本 {{number}}
+settings.reviewers.versionLoadError	加载不了此版本。
+settings.reviewers.versionRestore	恢复
+settings.reviewers.versionRestoreFollowing	此审查者跟随一个技能。停止跟随才能恢复更早版本。
+settings.reviewers.versionRestoredToast	已恢复 {{name}} 的版本 {{number}}
+settings.reviewers.versionUnavailable	此版本的指示已不可用。
+settings.reviewers.versionsDescription	每版显示相对上一版变了什么。恢复版本把其指示存为新版本。
+settings.reviewers.versionsListLabel	版本
+settings.reviewers.versionsNone	还没存过版本。
+settings.reviewers.versionsOpen	看版本历史
+settings.reviewers.versionsTitle	{{name}} 的版本历史
+settings.reviewingRequests_one	正在审 {{count}} 个申请…
+settings.reviewingRequests_other	正在审 {{count}} 个申请…
+settings.roleRequests.createError	建角色失败
+settings.roleRequests.createLoading	建角色中…
+settings.roleRequests.createSuccess	角色创建成功
+settings.roleRequests.updateError	存角色更改失败
+settings.roleRequests.updateLoading	存角色更改中…
+settings.roleRequests.updateSuccess	角色更改保存成功
+settings.roles	角色
+settings.rolesDescription	管自定义角色和权限
+settings.rolesTab	角色
+settings.rollout	铺开
+settings.rolloutBuildHealth.degraded_one	另外 {{count}} 个完成但有失败步骤。
+settings.rolloutBuildHealth.degraded_other	另外 {{count}} 个完成但有失败步骤。
+settings.rolloutBuildHealth.label	健康环境
+settings.rolloutBuildHealth.percent	占企业 {{percent}}%。
+settings.rolloutBuildHealth.tooltip	最近环境构建完全成功的组织，占全部组织。
+settings.rolloutBuildHealth.tooltipAllEnvironments	最近构建完全成功的组织和独立环境，占全部环境。
+settings.rolloutBuildHealth.unbuilt_one	{{count}} 个从未构建。
+settings.rolloutBuildHealth.unbuilt_other	{{count}} 个从未构建。
+settings.rolloutDescription	监控和控制声明式环境配置的企业级铺开
+settings.rolloutLastUsableBuild.none	无
+settings.rolloutLatestBuild.failedCount	{{count}} 个失败
+settings.rolloutLatestBuild.failedCount_one	{{count}} 个失败
+settings.rolloutLatestBuild.failedCount_other	{{count}} 个失败
+settings.rolloutLatestBuild.healthyCount	{{count}} 个健康
+settings.rolloutLatestBuild.healthyCount_one	{{count}} 个健康
+settings.rolloutLatestBuild.healthyCount_other	{{count}} 个健康
+settings.rolloutLatestBuild.partialCount	{{count}} 个部分
+settings.rolloutLatestBuild.partialCount_one	{{count}} 个部分
+settings.rolloutLatestBuild.partialCount_other	{{count}} 个部分
+settings.rolloutLatestBuild.platformFailures	{{platform}}：{{count}}
+settings.rolloutLatestBuild.platformStatus	{{platform}}：{{status}} · {{when}}
+settings.rolloutLatestBuild.status.failed	失败
+settings.rolloutLatestBuild.status.partial	部分
+settings.rolloutLatestBuild.status.success	成功
+settings.rolloutNeedsAttention.tooltip	连失败 {{count}} 次或更多构建，或无可用快照的组织
+settings.rolloutNeedsAttention.tooltipAllEnvironments	连失败 {{count}} 次或更多构建，或无可用快照的组织和独立环境
+settings.rolloutNeedsAttention.tooltipFallback	连失败构建或无可用快照的组织
+settings.rolloutPage.baseImageFallback	此组织回退到基础镜像
+settings.rolloutPage.configuredRepos	已配仓库
+settings.rolloutPage.consecutiveFailures	连续失败
+settings.rolloutPage.consecutiveFailuresTooltip	上次成功或部分构建以来的已完结构建
+settings.rolloutPage.environments	环境
+settings.rolloutPage.environmentsTooltip	此企业的组织环境和独立环境
+settings.rolloutPage.filterOrganizations	筛组织
+settings.rolloutPage.home	主页
+settings.rolloutPage.lastUsableBuild	最近可用构建
+settings.rolloutPage.lastUsableBuildTooltip	产出会话能启动的快照的最近构建。带失败步骤完成的也算。
+settings.rolloutPage.latestBuild	最新构建
+settings.rolloutPage.needsAttention	需注意
+settings.rolloutPage.needsAttentionAria	只显示需注意的组织
+settings.rolloutPage.noMatch	没有组织匹配你的筛选
+settings.rolloutPage.noOrganizations	还没有组织
+settings.rolloutPage.noSnapshot	无快照
+settings.rolloutPage.orgBlueprint	有组织级声明式配置
+settings.rolloutPage.organization	组织
+settings.rolloutPage.organizationEnvironments	组织环境
+settings.rolloutPage.organizationsTooltip	此企业的组织
+settings.rolloutPage.searchOrganizations	搜索组织…
+settings.rolloutPage.sortedDescription	按组织名排
+settings.rolloutPage.unconfigured	未配置组织
+settings.rolloutPage.unconfiguredEnvironments	未配置环境
+settings.rolloutPage.unconfiguredEnvironmentsTooltip	没配仓库且无组织级配置的组织，及无 blueprint 的独立环境
+settings.rolloutPage.unconfiguredTooltip	没配仓库且无组织级配置的组织
+settings.rolloutQueue.allPlatforms	全部平台
+settings.rolloutQueue.allStatuses	全部状态
+settings.rolloutQueue.description	选一个组织或环境看其构建详情。
+settings.rolloutQueue.empty	没有构建排队或运行中。
+settings.rolloutQueue.emptyPage	此页没有构建
+settings.rolloutQueue.emptyTitle	构建队列空
+settings.rolloutQueue.environment	环境
+settings.rolloutQueue.error	加载不了构建队列。刷新再试。
+settings.rolloutQueue.filterHint	换目的地、状态或平台试试。
+settings.rolloutQueue.noMatches	没有活跃构建匹配这些筛选。
+settings.rolloutQueue.orgDescription	选一个组织看其构建详情。
+settings.rolloutQueue.orgFilterHint	换组织、状态或平台试试。
+settings.rolloutQueue.previousHint	返回看队列里更早构建。
+settings.rolloutQueue.queued	排队中
+settings.rolloutQueue.search	搜索组织或环境
+settings.rolloutQueue.status	状态
+settings.rolloutQueue.target	目的地
+settings.rolloutQueue.title	构建队列
+settings.rolloutQueue.unassigned	还没派
+settings.rolloutStatus	铺开状态
+settings.rolloutStatusDescription	监控声明式环境配置的企业级铺开
+settings.rolloutStatusHealthDescription	各组织环境构建健康
+settings.rulesFieldError	字段「{{field}}」：{{message}}
+settings.rulesMissingRequiredField	缺必填字段：{{field}}
+settings.runtimePages.enterpriseDevin.configurePersonalSettings	配置个人设置
+settings.runtimePages.enterpriseDevin.loadingTags	加载标签中…
+settings.runtimePages.enterpriseDevin.noOrganizationsFound	找不到组织。
+settings.runtimePages.enterpriseDevin.noTagsConfiguredOrganizationSessionCreation	此组织没配标签。白名单至少加一个标签前会话创建会失败。
+settings.runtimePages.enterpriseDevin.searchOrganizations	搜索组织…
+settings.runtimePages.enterpriseDevin.selectOrganization	选组织
+settings.runtimePages.enterpriseDevin.selectOrganizationViewItsAllowedTags	选一个组织看其允许标签
+settings.runtimePages.enterpriseOncall.oncall	Oncall
+settings.runtimePages.enterpriseSessions.noSessionsFound	找不到会话
+settings.runtimePages.outposts.anOutpostWithNameAlreadyExists	已有同名 outpost。
+settings.runtimePages.outposts.anOutpostWithNameAlreadyExists2	已有同名 outpost
+settings.runtimePages.outposts.chooseWhichOrganizationsCanUseOutpost	选哪些组织能用此 outpost
+settings.runtimePages.outposts.copyOutpostId	复制 outpost ID
+settings.runtimePages.outposts.create	创建
+settings.runtimePages.outposts.createOutpost	建 outpost
+settings.runtimePages.outposts.creating	创建中…
+settings.runtimePages.outposts.deleteOutpost	删 outpost
+settings.runtimePages.outposts.describePurposeOutpost	描述此 outpost 用途
+settings.runtimePages.outposts.description	描述
+settings.runtimePages.outposts.failedCreateOutpost	建 outpost 失败
+settings.runtimePages.outposts.failedDeleteOutpost	删 outpost 失败
+settings.runtimePages.outposts.failedUpdateOutpostAccess	更新 outpost 访问失败
+settings.runtimePages.outposts.forOutpostOutpostname	用于 outpost：{{outpostName}}
+settings.runtimePages.outposts.name	名称
+settings.runtimePages.outposts.namesMayOnlyContainLowercaseLetters	名只可含小写字母、数字、连字符和下划线。
+settings.runtimePages.outposts.noOrganizations	无组织
+settings.runtimePages.outposts.noOutpostsConfiguredCreateOneGet	没配 outpost。建一个开始。
+settings.runtimePages.outposts.organizationAccess	组织访问
+settings.runtimePages.outposts.outpostAccessUpdated	Outpost 访问已更新
+settings.runtimePages.outposts.outpostCreated	Outpost 已建
+settings.runtimePages.outposts.outpostDeleted	Outpost 已删
+settings.runtimePages.outposts.outpostTitle	Outpost 标题
+settings.runtimePages.outposts.outpostTokenGenerated	Outpost token 已生成
+settings.runtimePages.outposts.personal	个人
+settings.runtimePages.outposts.personalOutpostOnlyItsOwnerCan	个人 outpost——仅其主能在其上起会话
+settings.runtimePages.outposts.platform	平台
+settings.runtimePages.outposts.retry	重试
+settings.runtimePages.outposts.runWorkerMachine	在你机器跑 worker
+settings.runtimePages.outposts.selectAtLeastOneOrganizationOr	选至少一个组织或选全部组织
+settings.runtimePages.outposts.sessionsAssignedOutpostRunOwnMachines	派到此 outpost 的会话在你自己机器跑
+settings.runtimePages.outposts.thisTokenWillOnlyShownOnce	此 token 只显示一次。务必复制并安全存——outpost worker 用它连。若你关此弹窗，就再看不了此 token。
+settings.runtimePages.vpcInfra.acquiredSlotsSlots	{{acquired_slots}} 槽

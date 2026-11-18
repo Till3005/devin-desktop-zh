@@ -1,0 +1,293 @@
+adminPlg.orgStatusLoading	正在获取 · {{pages}} 页
+adminPlg.owner	所有者
+adminPlg.ownerColumn	所有者
+adminPlg.ownerCount_one	已加载 {{count}} 名所有者
+adminPlg.ownerCount_other	已加载 {{count}} 名所有者
+adminPlg.ownersDescription	获取此企业已连接的所选 GitHub 组织的所有者，并查看其中哪些是 Devin 用户。
+adminPlg.ownersHint	先选择组织，再获取其所有者。只请求所有者页面，绝不请求普通成员页面。
+adminPlg.ownersPartialError_one	{{count}} 个组织未能完整获取。重试前下方的行为不完整数据。
+adminPlg.ownersPartialError_other	{{count}} 个组织未能完整获取。重试前下方的行为不完整数据。
+adminPlg.ownersProgress	{{total}} 个组织已完成 {{done}} 个
+adminPlg.ownersScopeComplete	完整：已获取所有所选组织。
+adminPlg.ownersScopePartial	不完整：结果尚未覆盖所有所选组织。
+adminPlg.ownersScope_one	范围：{{count}} 个已连接的 GitHub 组织。个人用户安装已跳过。
+adminPlg.ownersScope_other	范围：{{count}} 个已连接的 GitHub 组织。个人用户安装已跳过。
+adminPlg.ownersTab	组织所有者
+adminPlg.ownersTitle	组织所有者
+adminPlg.pageDescription	将 GitHub 组织所有者及用户与此企业中的 Devin 用户进行对比。
+adminPlg.pageStatus_one	第 {{page}} 页 · {{count}} 名用户
+adminPlg.pageStatus_other	第 {{page}} 页 · {{count}} 名用户
+adminPlg.previousPage	上一页
+adminPlg.refetchOwners	重新获取所选
+adminPlg.refresh	刷新
+adminPlg.repeatedCursorOwners	此来源的分页未能前进；该页之后的所有者未获取。
+adminPlg.repeatedCursorUsers	分页未能前进；下一页不可用。
+adminPlg.retrieveUsers	获取用户
+adminPlg.retrieving	正在获取…
+adminPlg.retry	重试
+adminPlg.retryFailedOrgs_one	重试 {{count}} 个失败的组织
+adminPlg.retryFailedOrgs_other	重试 {{count}} 个失败的组织
+adminPlg.retrySource	重试来源
+adminPlg.searchOrganizations	搜索组织…
+adminPlg.selectAll	全选
+adminPlg.selectHint	选择一个 GitHub 组织以浏览其用户。
+adminPlg.selectOrganization	选择一个 GitHub 组织
+adminPlg.selectOrganizations	要查询的组织
+adminPlg.selectedOrganizations_one	已选 {{total}} 个组织中的 {{count}} 个
+adminPlg.selectedOrganizations_other	已选 {{total}} 个组织中的 {{count}} 个
+adminPlg.selectionHint	更改选择会清空之前的结果和 CSV 数据。获取期间选择被锁定。
+adminPlg.superusersOnly	此实验性工具仅对超级用户开放。
+adminPlg.toolsLabel	PLG 工具
+adminPlg.unknown	未知
+adminPlg.usersDescription	逐页浏览一个 GitHub 组织的所有者和成员，并与 Devin 用户进行对比。
+adminPlg.usersError	无法获取用户：{{error}}
+adminPlg.usersHint	点击「获取用户」拉取第一页。在此之前不会发出任何成员请求。
+adminPlg.usersTab	组织用户
+adminPlg.usersTitle	组织用户
+adminPlgGitlab.archived	已归档
+adminPlgGitlab.clearSelection	清除选择
+adminPlgGitlab.description	以某名企业用户的身份读取 GitLab，使用其已连接的 GitLab OAuth 身份。不保存任何内容；每页都是以该用户自身权限进行的实时读取。所有者邮箱来自 GitLab members 和公开资料 API，仅供参考，不代表身份归属或授权证明。
+adminPlgGitlab.deselectAll	取消全选
+adminPlgGitlab.downloadCsv	下载所选内容为 CSV
+adminPlgGitlab.groupColumn	群组
+adminPlgGitlab.groupsTab	群组
+adminPlgGitlab.loadMore	加载更多
+adminPlgGitlab.loadOwners_one	加载 {{count}} 个所选的所有者
+adminPlgGitlab.loadOwners_other	加载 {{count}} 个所选的所有者
+adminPlgGitlab.loadedCount	已加载 {{loaded}} · 已选 {{selected}}
+adminPlgGitlab.loadingOwners	正在加载所有者…
+adminPlgGitlab.loadingProfiles	正在加载已连接的 GitLab 资料…
+adminPlgGitlab.loadingResources	正在加载…
+adminPlgGitlab.noEmail	无邮箱
+adminPlgGitlab.noMatchingProfiles	没有匹配的资料
+adminPlgGitlab.noOwners	无所有者或维护者
+adminPlgGitlab.noProfiles	没有企业用户连接过 GitLab 身份。
+adminPlgGitlab.noResources	此资料没有可见内容。
+adminPlgGitlab.noSelection	在上方选择群组或项目，即可在此查看其所有者。
+adminPlgGitlab.ownersColumn	所有者与维护者
+adminPlgGitlab.ownersNotLoaded	未获取
+adminPlgGitlab.ownersTruncated	实际所有者多于已获取数量。
+adminPlgGitlab.profilesError	加载 GitLab 资料失败。请重试。
+adminPlgGitlab.profilesTruncated	仅列出前 {{count}} 个 GitLab 资料；此企业还有更多。
+adminPlgGitlab.projectColumn	项目
+adminPlgGitlab.projectsTab	项目
+adminPlgGitlab.readAsUser	正以 {{user}} 身份读取
+adminPlgGitlab.repeatedCursor	GitLab 返回了已访问过的游标；为避免循环已停止分页。
+adminPlgGitlab.resourceColumn	群组或项目
+adminPlgGitlab.resourcesError	GitLab 读取失败：{{error}}
+adminPlgGitlab.searchProfiles	搜索资料
+adminPlgGitlab.selectAllLoaded	全选已加载项
+adminPlgGitlab.selectHint	选择一个资料以读取其可见的群组和项目。
+adminPlgGitlab.selectProfile	选择一个 GitLab 资料
+adminPlgGitlab.selectResourcesHint	群组和项目会自动加载。选择一个或多个后加载其所有者。
+adminPlgGitlab.tab	GitLab
+adminPlgGitlab.title	GitLab 群组与项目
+adminPlgGitlab.visibilityColumn	可见性
+adminPromotionOwner.budgetHint	以美元或 ACU 计，取决于账户方案的计费方式。请先选择一个企业或组织。
+adminPromotionOwner.description	在企业中选择一个组织即选定该企业，并将该组织加入 Org IDs。
+adminPromotionOwner.empty	没有匹配的企业或组织
+adminPromotionOwner.label	企业或组织
+adminPromotionOwner.loading	正在搜索…
+adminPromotionOwner.placeholder	按名称或 ID 搜索
+agentPicker.agentMode	Agent
+agentPicker.dataMode	Data
+agentPicker.janeWongDevin	Jane Wong Devin
+agentPicker.priority	优先级
+agentPreviews.fable51	Anthropic 的 Fable 5.1 模型。预览开放至 9 月 22 日
+agentPreviews.fast	快 2.5 倍，贵 2 倍，智能相同
+agentPreviews.fastUltra	运行在优先推理上的 Ultra：更快但贵 2 倍
+agentPreviews.freeMode	免费的 SWE-2，有并发会话上限
+agentPreviews.fusion	将前沿智能与高性价比执行配对，以更低成本交付前沿级成果
+agentPreviews.fusionFast	运行在优先模型上的 Fusion
+agentPreviews.gpt55	OpenAI 最强模型
+agentPreviews.gpt56	OpenAI 最强模型。7 折——优惠至 10 月 3 日
+agentPreviews.gpt61Sol	OpenAI 最新模型。预览开放至 10 月 13 日
+agentPreviews.gpt6Astra	OpenAI 的 GPT-6 Astra 模型
+agentPreviews.gpt6Sol	OpenAI 的模型。预览开放至 10 月 6 日
+agentPreviews.lite	为较小、定义明确的任务调优。便宜 30-40%
+agentPreviews.normal	速度快且擅长长程规划
+agentPreviews.opus48	擅长遵循指令
+agentPreviews.opus55	Anthropic 最新模型。预览开放至 10 月 6 日
+agentPreviews.orgDefault	跟随你组织的默认设置并随其变更更新
+agentPreviews.research	实验性研究模型
+agentPreviews.swe17	Cognition 的软件工程模型
+agentPreviews.swe17Lightning	运行在 Cerebras 上的 SWE-1.7
+agentPreviews.swe17Paid	带优先容量的 SWE-1.7
+agentPreviews.swe2FlashHigh	Cognition 快速高效的编码模型，高强度。预览至 11 月 18 日
+agentPreviews.swe2FlashMax	Cognition 快速高效的编码模型，最高强度。预览至 11 月 18 日
+agentPreviews.swe2FlashMedium	Cognition 快速高效的编码模型，中强度。预览至 11 月 18 日
+agentPreviews.swe2High	Cognition 下一代软件工程模型，高推理强度
+agentPreviews.swe2LightningHigh	Lightning 模式的 SWE-2，高推理强度。开放至 11 月 25 日
+agentPreviews.swe2LightningMax	Lightning 模式的 SWE-2，最高推理强度。开放至 11 月 25 日
+agentPreviews.swe2LightningMedium	Lightning 模式的 SWE-2，中推理强度。开放至 11 月 25 日
+agentPreviews.swe2Max	Cognition 下一代软件工程模型，最高推理强度
+agentPreviews.swe2Medium	Cognition 下一代软件工程模型，中推理强度
+agentPreviews.swe2Preview	Cognition 下一代软件工程模型
+agentPreviews.swe2PriorityHigh	付费 SWE-2，优先容量，高推理强度
+agentPreviews.swe2PriorityMax	付费 SWE-2，优先容量，最高推理强度
+agentPreviews.swe2PriorityMedium	付费 SWE-2，优先容量，中推理强度
+agentPreviews.ultra	我们最强大、思考最深入的 Agent，价格明显更高
+agentProfiles.access.canConfigure	可编辑
+agentProfiles.access.canConfigureDescription	可更改此配置档案的设置
+agentProfiles.access.canShare	可分享
+agentProfiles.access.canShareDescription	可向他人授予此配置档案的访问权限
+agentProfiles.access.canUse	可使用
+agentProfiles.access.canUseDescription	可用此配置档案启动会话
+agentProfiles.access.configureVerb	编辑
+agentProfiles.access.inheritedDescription	继承自账户角色
+agentProfiles.access.removeSelfError	你不能移除自己的访问权限。
+agentProfiles.access.searchPlaceholder	搜索人员、分组和服务用户
+agentProfiles.access.shareVerb	分享
+agentProfiles.access.useVerb	使用
+agentProfiles.accessAfterCreate	创建后即可分享此配置档案
+agentProfiles.actions	配置档案操作
+agentProfiles.allResources	全部
+agentProfiles.caps.done	完成
+agentProfiles.caps.folder	集合
+agentProfiles.caps.mcp	MCP 服务器
+agentProfiles.caps.none	无
+agentProfiles.caps.plugin	插件
+agentProfiles.caps.repo	仓库
+agentProfiles.caps.secret	机密
+agentProfiles.caps.trackerConnection	Tracker 连接
+agentProfiles.create	创建 Agent 配置档案
+agentProfiles.createSubmit	创建
+agentProfiles.default	默认
+agentProfiles.definitionColumn	定义
+agentProfiles.delete	删除
+agentProfiles.deleteDescription	新会话无法使用它。运行中的会话保持其限制。
+agentProfiles.deleteTitle	删除 {{name}}？
+agentProfiles.description	描述
+agentProfiles.discard	放弃
+agentProfiles.discardTitle	放弃未保存的更改？
+agentProfiles.edit	编辑
+agentProfiles.emptyDescription	配置档案定义安全档案以及仓库、MCP 服务器、插件和机密的限制。
+agentProfiles.emptyTitle	没有 Agent 配置档案
+agentProfiles.environment	默认环境
+agentProfiles.loadError	无法加载 Agent 配置档案。
+agentProfiles.locked	已锁定
+agentProfiles.lockedDescription	会话严格使用这些资源。会话启动时不能添加任何内容。
+agentProfiles.name	名称
+agentProfiles.nameRequired	配置档案名称为必填项
+agentProfiles.noChanges	没有可保存的更改
+agentProfiles.noSearchResults	没有符合搜索的 Agent 配置档案
+agentProfiles.pageDescription	会话可以访问什么以及如何保障安全。
+agentProfiles.picker.addToSession	添加到此会话…
+agentProfiles.picker.manage	管理配置档案
+agentProfiles.picker.none	无配置档案
+agentProfiles.picker.securitySetBy	由 {{name}} 设置
+agentProfiles.pickerSearch	搜索
+agentProfiles.resources.add	添加资源
+agentProfiles.resources.addDescription	选择此配置档案的会话可访问的资源
+agentProfiles.resources.all	全部
+agentProfiles.resources.allMcp	全部 MCP 服务器
+agentProfiles.resources.allPlugins	全部插件
+agentProfiles.resources.allRepos	全部仓库
+agentProfiles.resources.allSecrets	全部机密
+agentProfiles.resources.allTrackerConnections	全部 Tracker 连接
+agentProfiles.resources.allowAny	允许任意
+agentProfiles.resources.anyMcp	会话所有者可访问的任何 MCP 服务器。
+agentProfiles.resources.anyPlugin	会话所有者可访问的任何插件。
+agentProfiles.resources.anyRepo	会话所有者可访问的任何仓库。
+agentProfiles.resources.anySecret	会话所有者可访问的任何机密。
+agentProfiles.resources.anySummaryMcp	任意 MCP 服务器
+agentProfiles.resources.anySummaryPlugin	任意插件
+agentProfiles.resources.anySummaryRepo	任意仓库
+agentProfiles.resources.anySummaryRepoWrite	任意仓库可读，{{count}} 个可写
+agentProfiles.resources.anySummarySecret	任意机密
+agentProfiles.resources.anySummaryTrackerConnection	任意 Tracker 连接
+agentProfiles.resources.anyTrackerConnection	会话所有者可访问的任何 Tracker 连接。
+agentProfiles.resources.browseRoot	全部资源
+agentProfiles.resources.collection	集合
+agentProfiles.resources.descriptionCollections	设置此配置档案的会话可访问的集合
+agentProfiles.resources.descriptionMcp	设置此配置档案的会话可访问的 MCP 服务器
+agentProfiles.resources.descriptionPlugin	设置此配置档案的会话可访问的插件
+agentProfiles.resources.descriptionRepo	设置此配置档案的会话可访问的仓库
+agentProfiles.resources.descriptionSecret	设置此配置档案的会话可访问的机密
+agentProfiles.resources.descriptionTrackerConnection	设置此配置档案的会话可访问的 Tracker 连接
+agentProfiles.resources.everythingIn	{{name}} 中的所有内容
+agentProfiles.resources.included	已包含
+agentProfiles.resources.includedBy	由 {{name}} 包含
+agentProfiles.resources.itemCount_one	{{count}} 项
+agentProfiles.resources.itemCount_other	{{count}} 项
+agentProfiles.resources.loadError	无法加载资源
+agentProfiles.resources.next	下一个
+agentProfiles.resources.noMatches	无匹配项
+agentProfiles.resources.previous	上一个
+agentProfiles.resources.range	{{total}} 项中的 {{start}}-{{end}}
+agentProfiles.resources.read	读
+agentProfiles.resources.repository	仓库
+agentProfiles.resources.search	搜索资源
+agentProfiles.resources.searchCollections	搜索集合
+agentProfiles.resources.searchMcp	搜索 MCP 服务器
+agentProfiles.resources.searchPlugins	搜索插件
+agentProfiles.resources.searchRepos	搜索仓库
+agentProfiles.resources.searchSecrets	搜索机密
+agentProfiles.resources.searchTrackerConnections	搜索 Tracker 连接
+agentProfiles.resources.selected	已选 {{count}} 项
+agentProfiles.resources.selectedViaCollections	已选 {{count}} 项，另有 {{via}} 项来自集合
+agentProfiles.resources.selectedWithAccess	已选 {{count}} 项，{{access}}
+agentProfiles.resources.staysAtWrite	保持写权限
+agentProfiles.resources.trackerConnection	Tracker 连接
+agentProfiles.resources.type	资源类型
+agentProfiles.resources.write	写
+agentProfiles.resources.writeCount	{{count}} 个可写
+agentProfiles.resourcesColumn	资源
+agentProfiles.retry	重试
+agentProfiles.save	保存
+agentProfiles.saveError	无法保存配置档案
+agentProfiles.searchPlaceholder	搜索 Agent 配置档案
+agentProfiles.security	安全
+agentProfiles.securityProfile	安全档案
+agentProfiles.securityProfileDescription	会话以此<manageLink>安全档案</manageLink>启动
+agentProfiles.securityProfileNone	账户默认值
+agentProfiles.session.addedToSession	已添加到此会话
+agentProfiles.session.allOwnerHas	所有者可用的全部
+agentProfiles.session.inCollections	其集合中的内容
+agentProfiles.session.noEnvironment	默认
+agentProfiles.session.scopeDescription	会话配置档案允许的范围。其所有者无权访问的项已标记。
+agentProfiles.setUpTitle	新建 Agent 配置档案
+agentProfiles.share	分享
+agentProfiles.sheetDescription	设置此配置档案的会话可访问的资源及其安全方式
+agentProfiles.tabs.access	管理访问权限
+agentProfiles.tabs.general	常规
+agentProfiles.tabs.resources	资源
+agentProfiles.unavailable	无访问权限
+agentProfiles.unnamedEntry	没有可见名称的项
+agentProfiles.view	查看
+agentProfiles.viewOnlyDescription	你可以查看此配置档案但不能更改
+agentTooltips.agent-preview:devin-async-normal-gpt	Async——内部预览，在 OpenAI Background Flex API 上运行 GPT-6.1 Sol
+agentTooltips.agent-preview:devin-fable-5-1	由 Fable 5.1 驱动——预览开放至 9 月 22 日
+agentTooltips.agent-preview:devin-fast-opus	Fast
+agentTooltips.agent-preview:devin-gpt-5-5	由 GPT-5.5 Preview 驱动——OpenAI 最强模型
+agentTooltips.agent-preview:devin-gpt-5-6	由 GPT-5.6 Sol 驱动——7 折，优惠至 10 月 3 日
+agentTooltips.agent-preview:devin-gpt-6-1-sol	由 GPT-6.1 Sol 驱动——预览开放至 10 月 13 日
+agentTooltips.agent-preview:devin-gpt-6-astra	由 GPT-6 Astra 驱动
+agentTooltips.agent-preview:devin-gpt-6-astra-fast	GPT-6 Astra Fast——优先模型上的内部 GPT-6 Astra 预览
+agentTooltips.agent-preview:devin-gpt-6-sol	由 GPT-6 Sol 驱动——预览开放至 10 月 6 日
+agentTooltips.agent-preview:devin-opus-4-8	Opus 4.8 Preview——擅长遵循指令
+agentTooltips.agent-preview:devin-opus-5-5	由 Opus 5.5 驱动——预览开放至 10 月 6 日
+agentTooltips.agent-preview:devin-research-preview	Research Preview——实验性研究模型
+agentTooltips.agent-preview:devin-swe-1-7	由 SWE-1.7 Preview 驱动——Cognition 的软件工程模型
+agentTooltips.agent-preview:devin-swe-1-7-lightning	由 SWE-1.7 Lightning 驱动——运行在 Cerebras 上的 SWE-1.7
+agentTooltips.agent-preview:devin-swe-1-7-paid	由 SWE-1.7 Priority 驱动——带优先容量的 SWE-1.7
+agentTooltips.agent-preview:devin-swe-2-flash-high	由 SWE-2 Flash High 驱动——预览开放至 11 月 18 日
+agentTooltips.agent-preview:devin-swe-2-flash-max	由 SWE-2 Flash Max 驱动——预览开放至 11 月 18 日
+agentTooltips.agent-preview:devin-swe-2-flash-medium	由 SWE-2 Flash Medium 驱动——预览开放至 11 月 18 日
+agentTooltips.agent-preview:devin-swe-2-high	由 SWE-2 High 驱动——Cognition 下一代软件工程模型，高推理强度
+agentTooltips.agent-preview:devin-swe-2-lightning-high	由 SWE-2 High（Lightning）驱动——Lightning 模式的 SWE-2，高推理强度。开放至 11 月 25 日
+agentTooltips.agent-preview:devin-swe-2-lightning-low	由 SWE-2 Medium（Lightning）驱动——Lightning 模式的 SWE-2，中推理强度。开放至 11 月 25 日
+agentTooltips.agent-preview:devin-swe-2-lightning-max	由 SWE-2 Max（Lightning）驱动——Lightning 模式的 SWE-2，最高推理强度。开放至 11 月 25 日
+agentTooltips.agent-preview:devin-swe-2-low	由 SWE-2 Medium 驱动——Cognition 下一代软件工程模型，中推理强度
+agentTooltips.agent-preview:devin-swe-2-max	由 SWE-2 Max 驱动——Cognition 下一代软件工程模型，最高推理强度
+agentTooltips.agent-preview:devin-swe-2-preview	由 SWE-2 Preview 驱动——Cognition 下一代软件工程模型
+agentTooltips.agent-preview:devin-swe-2-priority-high	由 SWE-2 High（Priority）驱动——付费 SWE-2，优先容量，高推理强度
+agentTooltips.agent-preview:devin-swe-2-priority-low	由 SWE-2 Medium（Priority）驱动——付费 SWE-2，优先容量，中推理强度
+agentTooltips.agent-preview:devin-swe-2-priority-max	由 SWE-2 Max（Priority）驱动——付费 SWE-2，优先容量，最高推理强度
+agentTooltips.agent-preview:devin-ultra	Ultra——我们最强大、思考最深入的 Agent，价格明显更高
+agentTooltips.agent-preview:devin-ultrafusion	Ultrafusion——内部预览，由 GPT-6 Astra Fast 主导并搭配 Opus 5.5 High Fast 副驾
+agentTooltips.agent-preview:devin_lite	Lite——为较小、定义明确的任务调优。便宜 30-40%
+agentTooltips.agent:dana	由 Data Analyst Agent 创建
+agentTooltips.agent:explore	由 Plan Agent 创建
+agentVersionToggle.chooseMode	选择模式
+agentVersionToggle.disabledForOrg	你的组织已禁用

@@ -1,0 +1,200 @@
+settings.customizationPage.agentPreview.defaultOn	默认开
+settings.customizationPage.agentPreview.defaultOnDesc	组织可关
+settings.customizationPage.agentPreview.delegated	设置下放给各组织。
+settings.customizationPage.agentPreview.expandModes	展开或收起单个模式
+settings.customizationPage.agentPreview.mixed	混合
+settings.customizationPage.assetDetails.detailsFor	{{name}} 的详情
+settings.customizationPage.assetDetails.editableOnTitle	从 {{scope}} 编辑
+settings.customizationPage.commitAuthor.perUserDefault	按用户（默认）
+settings.customizationPage.commitAuthor.selectAuthor	选提交作者
+settings.customizationPage.commitAuthor.selectOption	选选项
+settings.customizationPage.commitAuthor.updateFailed	更新 Git 提交署名设置失败。
+settings.customizationPage.commitAuthor.updateSuccess	Git 提交署名设置更新成功。
+settings.customizationPage.commitEmail.custom	自定义邮箱…
+settings.customizationPage.commitEmail.default	默认
+settings.customizationPage.commitEmail.enterEmail	输自定义邮箱地址
+settings.customizationPage.commitEmail.selectEmail	选提交邮箱
+settings.customizationPage.commitEmail.selectOption	选选项
+settings.customizationPage.commitEmail.updateFailed	更新提交邮箱失败。
+settings.customizationPage.commitEmail.updateSuccess	提交邮箱更新成功。
+settings.customizationPage.orgAgentPreview.disabledByAdmin	在企业设置已禁。只有企业管理员能开此模式。
+settings.customizationPage.orgAgentPreview.enabledByAdmin	企业管理员已开
+settings.customizationPage.orgAgentPreview.someManagedByAdmin	部分由企业管理员开
+settings.customizationPage.userMemory.enterpriseAlwaysOff	你企业对每个组织关了。
+settings.customizationPage.userMemory.enterpriseAlwaysOn	你企业对每个组织开了。
+settings.customizationPage.userMemory.enterpriseDefaultOff	你企业默认关；为此组织开它。
+settings.customizeAddCustomMcp	加自定义 MCP
+settings.customizeAddMcp	加 MCP
+settings.customizeAddPlugin	加插件
+settings.customizeAddPluginFromRepository	从仓库
+settings.customizeAddPluginUploadZip	上传 .zip
+settings.customizeAvailableMcpsDescription	你可用的 MCP 服务器
+settings.customizeBackToPluginContents	返回插件内容
+settings.customizeBotConnectionsMoved	{{botName}} 的连接搬家了！
+settings.customizeBotConnectionsMovedAction	去 {{name}} 的连接
+settings.customizeBotConnectionsMovedDescription	从 {{name}} 的连接页管理它的 MCP 服务器和登录。
+settings.customizeBotConnectionsPointer	在其设置的 <settingsLink>连接</settingsLink>下列。
+settings.customizeBotEditInstructions	编辑 {{name}} 的指令
+settings.customizeBotInstructionsPointer	{{name}} 自己被告知的在其设置的 <settingsLink>指令</settingsLink>下。
+settings.customizeBotLayerDescription	{{name}} 在它跑的每个会话用这些，连同 {{organization}} 设的。
+settings.customizeBotLayerDescriptionNoOrganization	{{name}} 在它跑的每个会话用这些。
+settings.customizeBotNoneYet	还没有专为 {{name}} 设的东西
+settings.customizeBotRulesNoneYet	{{name}} 自己的指令在其设置里
+settings.customizeCannotViewInstalledPlugins	你没有看已装插件的访问权。
+settings.customizeCloudAndLocalTerm	云端和本地
+settings.customizeConfigureForLoadFailed	加载不了你能配置的服务用户。
+settings.customizeConfigureForNoMatch	找不到服务用户。
+settings.customizeConfigureForSearch	搜索服务用户…
+settings.customizeConfigureForUnavailable	那个服务用户配不了。显示你自己的设置。
+settings.customizeCreateAssetDescription	常驻或条件激活的指令
+settings.customizeCreateHook	建 hook
+settings.customizeCreateRule	建规则
+settings.customizeCreateRuleTitle	建新规则
+settings.customizeCreateSkill	建技能
+settings.customizeCreateSkillTitle	建技能
+settings.customizeEditManifest	编辑 manifest
+settings.customizeEnterpriseMcpsLabel	企业 MCP
+settings.customizeEnterpriseSectionHooks	企业 hook
+settings.customizeEnterpriseSectionMcps	企业 MCP
+settings.customizeEnterpriseSectionPlugins	企业插件
+settings.customizeEnterpriseSectionRules	企业规则
+settings.customizeEnterpriseSectionSkills	企业技能
+settings.customizeEnterpriseSectionSubagents	企业子 agent
+settings.customizeFileContentsAriaLabel	{{path}} 内容
+settings.customizeFromMcpMarketplace	从 MCP 市场（旧版）
+settings.customizeFromPluginMarketplace	从插件市场
+settings.customizeFromPluginMarketplace_recommended	从插件市场（推荐）
+settings.customizeHookLabel	Hook
+settings.customizeHooksJsonAriaLabel	Hook JSON
+settings.customizeHooksSheetDescription	Devin 在会话中某些点按事件跑的命令。存到此作用域插件的 {{filePath}}。
+settings.customizeHooksTab	Hook
+settings.customizeHooksTabDescription	在会话中某些点自动跑的命令
+settings.customizeIndexPlugins	重建插件索引
+settings.customizeIndexing	重建索引中…
+settings.customizeInstallForServiceUser	为 {{name}} 安装
+settings.customizeInstallHooksFor	为 <picker/> 装 hook
+settings.customizeInstallMcpsFor	为 <picker/> 装 MCP
+settings.customizeInstallPluginsFor	为 <picker/> 装插件
+settings.customizeInstallRulesFor	为 <picker/> 装规则
+settings.customizeInstallSkillsFor	为 <picker/> 装技能
+settings.customizeInstallSubagentsFor	为 <picker/> 装子 agent
+settings.customizeInstalledForBot	已为 {{name}} 装
+settings.customizeIssueLearnMoreAriaLabel	{{issue}}：了解更多
+settings.customizeIssuePermissions	权限
+settings.customizeIssuesLoadFailed	加载不了插件
+settings.customizeLastInstalled	索引于 {{ago}}
+settings.customizeListIncomplete	读不了你 {{scopes}} 设置，此列表可能不全。
+settings.customizeLoadError	加载不了你的配置。
+settings.customizeLoadErrorReindex	加载不了插件内容。
+settings.customizeLoadErrorRetry	重试
+settings.customizeLocalBuiltin	内置
+settings.customizeLocalHooksDescription	你本地 Devin agent 为此窗口打开的文件夹跑的 hook
+settings.customizeLocalHooksDescriptionNoFolder	你 {{machine}} 上 Devin agent 为每个文件夹跑的 hook。文件夹 .devin 里的项目 hook 未列。
+settings.customizeLocalHooksDescriptionSession	你本地 Devin agent 为 <folder>{{folder}}</folder> 跑的 hook（来自会话 <session>{{session}}</session>）
+settings.customizeLocalHooksLoadError	读不了此机器上的 hook：{{error}}
+settings.customizeLocalHooksStaleError	重读不了此机器上的 hook——显示最近已知列表：{{error}}
+settings.customizeLocalMcpAuthenticate	认证
+settings.customizeLocalMcpConnect	连接
+settings.customizeLocalMcpDisable	禁用 {{name}}
+settings.customizeLocalMcpEnable	启用 {{name}}
+settings.customizeLocalMcpEnv	环境变量
+settings.customizeLocalMcpErrorTitle	服务器报错
+settings.customizeLocalMcpHeaders	头
+settings.customizeLocalMcpManagedByPlugin	由 {{name}} 插件管理
+settings.customizeLocalMcpOpenConfig	开配置文件
+settings.customizeLocalMcpPlugin	插件
+settings.customizeLocalMcpRegistryDescription	你 MCP registry 里本地 Devin agent 能在此机器装的 MCP 服务器
+settings.customizeLocalMcpRegistryInstall	安装
+settings.customizeLocalMcpRegistryInstalled	已装 {{name}}
+settings.customizeLocalMcpRegistryInstalling	安装中…
+settings.customizeLocalMcpRegistryLoadError	读不了 MCP registry：{{error}}
+settings.customizeLocalMcpRegistryLoadMore	加载更多
+settings.customizeLocalMcpRegistryNotInstallable	此 registry 条目没有你本地 Devin agent 能装的东西
+settings.customizeLocalMcpRegistryRepository	仓库
+settings.customizeLocalMcpRegistryTitle	可用
+settings.customizeLocalMcpRegistryWebsite	网站
+settings.customizeLocalMcpStatusAuthRequired	需认证
+settings.customizeLocalMcpStatusConnected	已连
+settings.customizeLocalMcpStatusConnecting	连接中…
+settings.customizeLocalMcpStatusDisabled	已禁用
+settings.customizeLocalMcpStatusError	错误
+settings.customizeLocalMcpStatusNotStarted	未启动
+settings.customizeLocalMcpStatusPolicyBlocked	被策略挡
+settings.customizeLocalMcpTools	工具
+settings.customizeLocalMcpToolsFailed	加载不了此服务器的工具
+settings.customizeLocalMcpUninstallDescription	这从 {{path}} 移除 {{name}}。
+settings.customizeLocalMcpViewPlugin	看插件
+settings.customizeLocalMcpsDescription	你本地 Devin agent 为此窗口打开的文件夹加载的 MCP 服务器
+settings.customizeLocalMcpsDescriptionNoFolder	你 {{machine}} 上 Devin agent 为每个文件夹加载的 MCP 服务器。文件夹 .devin 里的项目服务器未列。
+settings.customizeLocalMcpsDescriptionSession	你本地 Devin agent 为 <folder>{{folder}}</folder> 加载的 MCP 服务器（来自会话 <session>{{session}}</session>）
+settings.customizeLocalMcpsLoadError	读不了此机器上的 MCP 服务器：{{error}}
+settings.customizeLocalMcpsStaleError	重读不了此机器上的 MCP 服务器——显示最近已知列表：{{error}}
+settings.customizeLocalOpen	打开 {{name}}
+settings.customizeLocalPluginActionFailed	你本地 Devin agent 做不了：{{error}}
+settings.customizeLocalPluginBlocked	被挡
+settings.customizeLocalPluginBlockedByPlugin	被 {{name}} 插件挡
+settings.customizeLocalPluginBlockedByPolicy	被插件策略挡
+settings.customizeLocalPluginBlockedByRepo	被 {{root}} 的仓库配置挡
+settings.customizeLocalPluginInstall	安装
+settings.customizeLocalPluginInstalled	已在此机器装 {{name}}
+settings.customizeLocalPluginIssueAtRoot	{{message}}（{{root}}）
+settings.customizeLocalPluginManifest	Manifest
+settings.customizeLocalPluginMoreAssets	{{count}} 个未列
+settings.customizeLocalPluginRemove	移除
+settings.customizeLocalPluginRemoved	已从此机器移除 {{name}}
+settings.customizeLocalPluginRemovedLeftRequired_one	已从此机器移除 {{name}}。它依赖的插件仍在：{{plugins}}
+settings.customizeLocalPluginRemovedLeftRequired_other	已从此机器移除 {{name}}。它依赖的插件仍在：{{plugins}}
+settings.customizeLocalPluginRequiredByEnterprise	此企业必需
+settings.customizeLocalPluginRequiredByOrg	此组织必需
+settings.customizeLocalPluginRequiredByRepo	此仓库要求
+settings.customizeLocalPluginSourceLocal	本地
+settings.customizeLocalPluginUnsupported	不支持
+settings.customizeLocalPluginUnsupportedReason	你本地 Devin agent 用不了此插件来源
+settings.customizeLocalPluginsAvailabilityChecking	你本地 Devin agent 还在查可用插件…
+settings.customizeLocalPluginsAvailabilityFailed	查不了可用插件
+settings.customizeLocalPluginsAvailabilityStale	刷新不了可用插件——显示最近已知列表
+settings.customizeLocalPluginsAvailabilityUnchecked	还没查过可用插件
+settings.customizeLocalPluginsAvailableDescription	你本地 Devin agent 找到但没装的插件
+settings.customizeLocalPluginsAvailableTitle	此机器可用
+settings.customizeLocalPluginsDescription	你本地 Devin agent 为此窗口打开的文件夹装的插件
+settings.customizeLocalPluginsDescriptionNoFolder	你 {{machine}} 上 Devin agent 为每个文件夹装的插件。为单个项目文件夹装的插件未列。
+settings.customizeLocalPluginsDescriptionSession	你本地 Devin agent 为 <folder>{{folder}}</folder> 装的插件（来自会话 <session>{{session}}</session>）
+settings.customizeLocalPluginsLoadError	读不了此机器上的插件：{{error}}
+settings.customizeLocalPluginsRefresh	刷新
+settings.customizeLocalPluginsStaleError	重读不了此机器上的插件——显示最近已知列表：{{error}}
+settings.customizeLocalPluginsTitle	此机器上
+settings.customizeLocalRuleTriggerAgentDecided	模型决定
+settings.customizeLocalRuleTriggerAlwaysOn	总是开
+settings.customizeLocalRuleTriggerGlob	Glob
+settings.customizeLocalRuleTriggerManual	手动
+settings.customizeLocalRulesDescription	你本地 Devin agent 为此窗口打开的文件夹加载的规则
+settings.customizeLocalRulesDescriptionNoFolder	你 {{machine}} 上 Devin agent 为每个文件夹加载的规则。文件夹 AGENTS.md 或 .devin 里的项目规则未列。
+settings.customizeLocalRulesDescriptionSession	你本地 Devin agent 为 <folder>{{folder}}</folder> 加载的规则（来自会话 <session>{{session}}</session>）
+settings.customizeLocalRulesLoadError	读不了此机器上的规则：{{error}}
+settings.customizeLocalRulesStaleError	重读不了此机器上的规则——显示最近已知列表：{{error}}
+settings.customizeLocalScopeGlobal	全局
+settings.customizeLocalScopeWorkspace	工作区
+settings.customizeLocalSkillsDescription	你本地 Devin agent 为此窗口打开的文件夹加载的技能
+settings.customizeLocalSkillsDescriptionNoFolder	你 {{machine}} 上 Devin agent 为每个文件夹加载的技能。文件夹 .devin 或 .agents 里的项目技能未列。
+settings.customizeLocalSkillsDescriptionSession	你本地 Devin agent 为 <folder>{{folder}}</folder> 加载的技能（来自会话 <session>{{session}}</session>）
+settings.customizeLocalSkillsLoadError	读不了此机器上的技能：{{error}}
+settings.customizeLocalSkillsStaleError	重读不了此机器上的技能——显示最近已知列表：{{error}}
+settings.customizeLocalSubagentsDescription	你本地 Devin agent 为此窗口打开的文件夹加载的子 agent
+settings.customizeLocalSubagentsDescriptionNoFolder	你 {{machine}} 上 Devin agent 为每个文件夹加载的子 agent。文件夹 .devin 或 .agents 里的项目子 agent 未列。
+settings.customizeLocalSubagentsDescriptionSession	你本地 Devin agent 为 <folder>{{folder}}</folder> 加载的子 agent（来自会话 <session>{{session}}</session>）
+settings.customizeLocalSubagentsLoadError	读不了此机器上的子 agent：{{error}}
+settings.customizeLocalSubagentsStaleError	重读不了此机器上的子 agent——显示最近已知列表：{{error}}
+settings.customizeMachineDisconnected	{{host}} 已断连
+settings.customizeMachineThisComputer	此电脑
+settings.customizeMarketplace	浏览市场
+settings.customizeMcpInstallationMissing	找不到此 MCP 服务器的安装。它可能已单独装。
+settings.customizeMcpJsonAriaLabel	MCP 服务器 JSON
+settings.customizeMcpMarketplaceDescription	为你自己或整个组织装一个 MCP 服务器。
+settings.customizeMcpMarketplaceEnterpriseDescription	挑一个服务器为整个企业配一次——你目标的组织里会话自动拿到。
+settings.customizeMcpNotInstalled	未安装
+settings.customizeMcpSectionPlugins	来自插件
+settings.customizeMcpSectionShared	共享给你的
+settings.customizeMcpSectionStandalone	独立
+settings.customizeMcpSectionYours	你的 MCP
+settings.customizeMcpSetupDescription	连此 MCP 让其工具在会话可用。
+settings.customizeMcpSetupTitle	设置 {{name}}

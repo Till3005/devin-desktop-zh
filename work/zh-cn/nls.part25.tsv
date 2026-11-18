@@ -1,0 +1,98 @@
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.connectorStatusUnavailable	此连接器已不可用。请刷新发现页后重试。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.cursorUnsupported	Cursor 插件不能安装到 VS Code。请打开资源查看其安装说明。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.disabled	启用自定义市场以安装此资源。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.installationVerificationFailed	无法验证此自定义项的安装。{0}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.mcpGalleryChanged	“{0}”被发现后 MCP 注册表已变更。请刷新发现页后重试。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.mcpGalleryUnavailable	MCP 服务器“{0}”在已配置的注册表中不可用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.mcpInstallIncomplete	MCP 服务器未能安装。请审阅安装错误后重试。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.mcpManualSetup	此 MCP 服务器需要手动配置。添加前请审阅发布者说明。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.mcpManualSetupRequired	此 MCP 服务器需要手动配置。请打开发布者说明进行配置。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.mcpManualSetupUnavailable	此 MCP 服务器需要手动配置，但没有可用的发布者说明。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.mcpUnavailable	MCP 服务器“{0}”在 GitHub Feed 中已不可用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.pluginInstallIncomplete	插件未能安装。请审阅安装错误后重试。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.pluginRevisionMismatch	已记录的插件修订在其来源中已不可用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.pluginsDisabled	启用 agent 插件以安装此资源。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.pluginUnavailable	此插件在已配置的市场中已不可用。请刷新发现页后重试。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.pluginWebUnsupported	VS Code 网页版不支持安装已配置的市场插件。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.repairIncomplete	此自定义项未能完全修复。请审阅安装情况后重试。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.sourceDisabled	启用此资源的市场来源以安装它。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.sourceUnavailable	此资源不提供受支持的安装来源。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.sourceUnavailableForRepair	此资源的市场来源已不可用，因此无法修复。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.confirmSkill	安装“{0}”？
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.confirmSkillDetail	Skills 可提供 agent 可能运行的指令和脚本。只安装来自你信任来源的资源。\n\n来源：{0}\n修订：{1}\n目标：{2}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.confirmSkillRepair	修复“{0}”？
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.confirmSkillRepairDetail	将恢复缺失文件且不覆盖现有文件。\n\n来源：{0}\n修订：{1}\n目标：{2}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.emptySkillFile	来源的 SKILL.md 文件为空。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.installingSkill	正在安装 skill“{0}”
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.installSkillButton	安装
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.invalidSkillName	不支持此 skill 的文件夹名“{0}”。请打开来源审阅其安装说明。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.invalidSkillRecord	已记录的 skill 安装无效。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.invalidSkillRevision	该 skill 来源未能解析为不可变的 Git 修订。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.invalidSkillSource	该 skill 的安装来源无效。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.missingSkillFile	来源中不包含常规的 SKILL.md 文件。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.missingStagedSkillFile	skill 复制完成前来源已变化。请重新安装。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.noSkillDestination	所选 agent 不提供可写的 skill 安装位置。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.repairingSkill	正在修复 skill“{0}”
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.repairSkillButton	修复
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.skillExists	“{0}”处已存在同名 skill。安装此资源前请先移除或重命名。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.skillInstallIncomplete	该 skill 未能安装。请审阅安装错误后重试。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.skillMetadataTooLarge	该 skill 的文件元数据过多，无法安全安装。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.skillRepairConflict	无法修复已记录的 skill 文件，因为其目标位置被另一种文件类型占用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.skillRepairRevisionMismatch	已记录的 skill 修订在其来源中已不可用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.skillRepairSourceChanged	已记录的 skill 文件在原始来源中已不可用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.skillRepairUnsafeDestination	无法修复该 skill，因为其目标位置包含符号链接或非目录路径。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.skillRevisionChangedDuringInstall	复制期间该 skill 来源已变化。请重新安装。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.skillTooLarge	该 skill 超过 50 MB 安装上限。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.unsafeSkillContents	该 skill 包含符号链接或文件过多。请审阅来源后手动安装。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.unsafeSkillDirectory	该 skill 必须是其仓库内的目录，且不含符号链接。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSkillInstaller/customizationMarketplace.unsupportedSkillFile	该 skill 包含无法安装的文件类型。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSourceWarnings/customizationMarketplace.recoverSourceLabel	{0}（{1}）。从第一页重新加载所有来源。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSourceWarnings/customizationMarketplace.retrySource	重试
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSourceWarnings/customizationMarketplace.retrySourceLabel	重试 {0}。从第一页重新加载所有来源。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSourceWarnings/customizationMarketplace.retrySourcesHint	结果可能不完整。“重试”会从第一页重新加载所有来源。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSourceWarnings/customizationMarketplace.signInSourceLabel	{0}以查看 {1}。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSourceWarnings/customizationMarketplace.sourceError	{0}：{1}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSourceWarnings/customizationMarketplace.sourceRecovery	{0} 选择 {1} 恢复此来源。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSourceWarnings/customizationMarketplace.sources	市场来源
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceSourceWarnings/customizationMarketplace.sourceSignIn	{0} 选择 {1} 以查看 {2}。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceWorkbenchService/customizationMarketplace.authorizeConnectors	授权连接器
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceWorkbenchService/customizationMarketplace.signIn	登录
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationAccessibility/migrationHelpActions	“迁移”应用于所选组内的项目，并在修改文件前显示计划的来源和目标更改。“忽略”会永久隐藏一个组。“显示已忽略迁移”可恢复隐藏的组。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationAccessibility/migrationHelpActivity	迁移活动会在本地记录成功的更改。按 Enter 或空格键展开活动条目，阅读其来源和目标路径。“关闭”移除的是活动记录，而非已迁移的文件。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationAccessibility/migrationHelpAgent	用“迁移”让 VS Code 更新所选自定义项。“随 Agent 迁移”会关闭“Agent 自定义项”，并为所选 harness 在聊天中打开引导式迁移。agent 迁移消耗用量额度。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationAccessibility/migrationHelpLocations	激活目标路径可更改目标位置。工作区 MCP 服务器迁移到根目录 .mcp.json。用户 MCP 服务器迁移到 Copilot home 的 mcp-config.json。已禁用的用户服务器迁移后可能变为启用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationAccessibility/migrationHelpMcpChanges	带更改迁移的 MCP 服务器会在其行中说明每个属性移除项。确认迁移前请审阅这些警告。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationAccessibility/migrationHelpMcpDetails	无法自动迁移的 MCP 服务器出现在“需要人工审阅”组中。打开服务器审阅其详情；“编辑配置”打开其源文件并选中该服务器的 JSON 配置。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationAccessibility/migrationHelpNavigation	用方向键浏览并展开树。用每行的复选框包含或排除它。打开自定义项可查看其编辑器或详情。“更多操作”菜单可迁移或删除单个项目。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationAccessibility/migrationHelpOverview	迁移树按工作区或用户对每种迁移类型分组。展开组可检查每个自定义项、其来源位置和目标位置。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationAccessibility/migrationHelpView	用 {0} 在无障碍视图中阅读迁移和活动。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationCardAction	迁移…
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationCardActionAriaLabel	从 VS Code 配置的位置迁移自定义项
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationCardDescription	在仅 Local agent harness 观察的位置发现 {0} 项自定义。{1} 在 VS Code 中运行时会识别它们。移到受支持的位置即可在 VS Code 之外使用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationCardDescriptionSingle	在仅 Local agent harness 观察的位置发现 1 项自定义。{0} 在 VS Code 中运行时会识别它。移到受支持的位置即可在 VS Code 之外使用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationCardLabel	迁移位置设置
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationCompleted	已从配置位置迁移 {0} 项自定义。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationCompletedSingle	已从配置位置迁移 1 项自定义。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationConfirmButton	迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationConfirmDetail	这会将 {0} 项自定义移出 VS Code 配置的位置。若所有使用受影响位置设置的自定义项都迁移成功，这些设置将被清除。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationConfirmDetailSingle	这会将 1 项自定义移出 VS Code 配置的位置。若所有使用受影响位置设置的自定义项都迁移成功，该设置将被清除。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationConfirmMessage	迁移自定义项到 {0}？
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationConfirmMessageWithDestination	迁移自定义项到“{0}”？
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationDeleteOriginalFilesCheckbox	迁移后删除原文件
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationFileFailed	迁移 1 项自定义失败：{0}。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationFilesFailed	迁移 {0} 项自定义失败：{1}。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationFilesFailedWithRemainder	迁移 {0} 项自定义失败：{1}，另有 {2} 项。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationNoFilesMigrated	没有来自配置位置的自定义项被迁移。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationShortcutAriaLabelSingle	位置，1 项自定义需要迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationShortcutAriaLabelWithCount	位置，{0} 项自定义需要迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationShortcutLabel	迁移位置设置
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/configuredLocationsMigrationShortcutTooltip	将自定义项从 VS Code 配置的位置移到当前 harness 支持的位置
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationCardAction	迁移…
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationCardActionAriaLabel	迁移符合条件的 MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationCardDescriptionMultiple	在 .vscode/mcp.json 中发现 {0} 个符合条件的服务器，可移到工作区根目录文件以便 {1} 直接发现。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationCardDescriptionSingle	在 .vscode/mcp.json 中发现 1 个符合条件的服务器，可移到工作区根目录以便 {0} 直接发现。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationCardDescriptionUser	发现 {0} 个符合条件的 MCP 服务器。用户服务器移到 Copilot home 的 mcp-config.json；工作区服务器移到根目录 .mcp.json 以便 {1} 直接发现。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationCardLabel	迁移 MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationCompletedMultiple	已迁移 {0} 个 MCP 服务器。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationCompletedSingle	已迁移 1 个 MCP 服务器。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationConfirmButton	迁移

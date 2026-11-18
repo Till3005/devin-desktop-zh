@@ -1,0 +1,160 @@
+settingsPages.scheduleEditorPage.edit	编辑
+settingsPages.scheduleEditorPage.emailNotifications	邮件通知
+settingsPages.scheduleEditorPage.error	错误
+settingsPages.scheduleEditorPage.failureOnly	仅失败时
+settingsPages.scheduleEditorPage.frequency	频率
+settingsPages.scheduleEditorPage.goToSession	去会话
+settingsPages.scheduleEditorPage.invalidDate	无效日期
+settingsPages.scheduleEditorPage.lastEditedBy	最近由 {{name}} 编辑
+settingsPages.scheduleEditorPage.lastRun	最近运行
+settingsPages.scheduleEditorPage.loading	加载中…
+settingsPages.scheduleEditorPage.loadingChannels	加载频道中…
+settingsPages.scheduleEditorPage.loadingRepositories	加载仓库中…
+settingsPages.scheduleEditorPage.mitigatePromptInjectionRiskByInstructing	指示排期 Devin 只与可信数据交互，以降低提示词注入风险。
+settingsPages.scheduleEditorPage.never	从不
+settingsPages.scheduleEditorPage.newSchedule	新排期
+settingsPages.scheduleEditorPage.no	否
+settingsPages.scheduleEditorPage.noChannelsFound	找不到频道。
+settingsPages.scheduleEditorPage.noPlaybook	无 playbook
+settingsPages.scheduleEditorPage.noRepositoriesFound	找不到仓库
+settingsPages.scheduleEditorPage.noSessionsHaveBeenCreatedBy	此排期还没建会话
+settingsPages.scheduleEditorPage.noSkill	无技能
+settingsPages.scheduleEditorPage.noTagSelected	没选标签
+settingsPages.scheduleEditorPage.none	无
+settingsPages.scheduleEditorPage.noneWillStartANewSession	无（将起新会话）
+settingsPages.scheduleEditorPage.notSet	未设
+settingsPages.scheduleEditorPage.notice	注意
+settingsPages.scheduleEditorPage.oneTime	一次性
+settingsPages.scheduleEditorPage.openPlaybook	开 playbook
+settingsPages.scheduleEditorPage.pastSessions	过去会话
+settingsPages.scheduleEditorPage.pause	暂停
+settingsPages.scheduleEditorPage.paused	已暂停
+settingsPages.scheduleEditorPage.playbook	Playbook
+settingsPages.scheduleEditorPage.playbooksOnlyNewSession	Playbook 只在起新会话时可用
+settingsPages.scheduleEditorPage.prompt	提示词
+settingsPages.scheduleEditorPage.promptPlaceholder	描述 Devin 该做什么…
+settingsPages.scheduleEditorPage.recurring	周期
+settingsPages.scheduleEditorPage.registeredAuthorForNewSchedules	新排期登记作者
+settingsPages.scheduleEditorPage.repositories	仓库
+settingsPages.scheduleEditorPage.repositoriesSelected	已选 {{selectedReposCount}} 个仓库
+settingsPages.scheduleEditorPage.required	必填
+settingsPages.scheduleEditorPage.resume	恢复
+settingsPages.scheduleEditorPage.runAt	跑于
+settingsPages.scheduleEditorPage.runNow	现在跑
+settingsPages.scheduleEditorPage.runsAs	运行为…
+settingsPages.scheduleEditorPage.save	保存
+settingsPages.scheduleEditorPage.scheduleDetails	排期详情
+settingsPages.scheduleEditorPage.scheduleName	排期名…
+settingsPages.scheduleEditorPage.scheduledTimeMustBeInThe	排期时间须在未来
+settingsPages.scheduleEditorPage.searchChannels	搜频道…
+settingsPages.scheduleEditorPage.searchRepositories	搜仓库…
+settingsPages.scheduleEditorPage.selectASession	选一个会话
+settingsPages.scheduleEditorPage.sendPromptAsAMessageTo	把提示词作为消息发给目标会话
+settingsPages.scheduleEditorPage.sessionTag	会话标签
+settingsPages.scheduleEditorPage.skill	技能
+settingsPages.scheduleEditorPage.skillsOnlyNewSession	技能只在起新会话时可用
+settingsPages.scheduleEditorPage.skipSubSessionCreationApproval	跳过子会话创建批准
+settingsPages.scheduleEditorPage.slackChannel	Slack 频道
+settingsPages.scheduleEditorPage.status	状态
+settingsPages.scheduleEditorPage.targetSession	目标会话
+settingsPages.scheduleEditorPage.type	类型
+settingsPages.scheduleEditorPage.unknownUser	未知用户
+settingsPages.scheduleEditorPage.untitledSchedule	未命名排期
+settingsPages.scheduleEditorPage.whenThisScheduleShouldRun	此排期何时跑
+settingsPages.scheduleEditorPage.yes	是
+settingsPages.scheduleEditorPage.youAfterSaving	你（保存后）
+settingsPages.scheduleScope.environment	环境
+settingsPages.scheduleScope.organization	组织
+settingsPages.schedulesPage.active	活跃
+settingsPages.schedulesPage.allSchedules	全部排期
+settingsPages.schedulesPage.automateRecurringOrOneTimeDevin	自动化周期或一次性 Devin 会话。<docsLink>了解</docsLink>
+settingsPages.schedulesPage.automationsSupportsSchedulesAndMoreIncluding	自动化支持排期和更多，包括事件驱动触发器。现有排期继续可用，但新的应建为自动化。Devin 能帮你迁排期——叫它做就行，它有这工具。
+settingsPages.schedulesPage.createAScheduleToAutomateRecurring	建个排期以自动化周期 Devin 会话
+settingsPages.schedulesPage.createAnAutomationToScheduleRecurring	建个自动化以排期周期 Devin 会话
+settingsPages.schedulesPage.createAutomation	建自动化
+settingsPages.schedulesPage.createSchedule	建排期
+settingsPages.schedulesPage.error	错误
+settingsPages.schedulesPage.filterSchedulesByOwner	按所有者筛排期
+settingsPages.schedulesPage.frequency	频率
+settingsPages.schedulesPage.goToAutomations	去自动化
+settingsPages.schedulesPage.lastRun	最近运行
+settingsPages.schedulesPage.name	名称
+settingsPages.schedulesPage.never	从不
+settingsPages.schedulesPage.noSchedulesFound	找不到排期
+settingsPages.schedulesPage.once	一次：{{when}}
+settingsPages.schedulesPage.oneTimeNotSet	一次性（未设）
+settingsPages.schedulesPage.paused	已暂停
+settingsPages.schedulesPage.schedules	你的排期
+settingsPages.schedulesPage.schedulesIsALegacyFeatureMigrate	排期是旧功能——迁到自动化
+settingsPages.schedulesPage.searchSchedules	搜排期…
+settingsPages.schedulesPage.status	状态
+settingsPages.schedulesPage.tryADifferentSearch	换个搜索试试
+settingsPages.schedulesPage.tryAgain	重试
+settingsPages.schedulesPage.unableToLoadSchedules	加载不了排期。
+settingsPages.schedulesPage.viewAllSchedules	看全部排期
+settingsPages.scopeOverridesSection.overrideRemoved	覆盖已移除
+settingsPages.scopeOverridesSection.overrideSaved	覆盖已存
+settingsPages.securityProfileSelect.enterpriseProfiles	企业配置
+settingsPages.securityProfileSelect.noSecurityProfile	无安全配置
+settingsPages.securityProfileSelect.orgProfiles	组织配置
+settingsPages.securityProfileSelect.unknownProfile	未知配置
+settingsPages.serverCard.installedByASessionPluginOnly	由会话插件装：只在你自己会话可用
+settingsPages.serverCard.personalAccessEachMemberAuthenticatesWith	个人访问：每个成员用自己账户认证
+settingsPages.serverCard.yourInstallationOnlyAvailableInYour	你的安装：只在你自己会话可用
+settingsPages.sessionGroupsOrgControlToggleSetting.failedToUpdateBillingTagsSetting	更新计费标签设置失败。
+settingsPages.sessionGroupsToggleSetting.failedToUpdateBillingTagsSetting	更新计费标签设置失败。
+settingsPages.sessionTagEnforcementToggleSetting.failedToUpdateSessionTagEnforcement	更新会话标签强制设置失败。
+settingsPages.sessionTagEnforcementToggleSetting.sessionTagEnforcementDisabledForYour	你企业的会话标签强制已禁。
+settingsPages.sessionTagEnforcementToggleSetting.sessionTagEnforcementEnabledForYour	你企业的会话标签强制已开。
+settingsPages.sessionsTable.acus	ACU
+settingsPages.sessionsTable.cost	费用
+settingsPages.sessionsTable.created	建于
+settingsPages.sessionsTable.creator	创建者
+settingsPages.sessionsTable.noSessions	无会话。
+settingsPages.sessionsTable.session	会话
+settingsPages.sessionsTable.status	状态
+settingsPages.skillContentViewer.modifyWithDevin	用 Devin 改
+settingsPages.skillsAnalyticsPage.agentTriggeredUserTriggered	{{modelactivations}} 次 agent 触发 · {{userinvocations}} 次用户触发
+settingsPages.skillsAnalyticsPage.agentUser	{{agentuses}} 次 agent · {{useruses}} 次用户
+settingsPages.skillsAnalyticsPage.bugFixing	修 bug
+settingsPages.skillsAnalyticsPage.clear	清除
+settingsPages.skillsAnalyticsPage.cloud	云
+settingsPages.skillsAnalyticsPage.cloudLocal	云和本地
+settingsPages.skillsAnalyticsPage.cloudSessions	云会话
+settingsPages.skillsAnalyticsPage.codeQualitySecurity	代码质量和安全
+settingsPages.skillsAnalyticsPage.codeReview	代码审查
+settingsPages.skillsAnalyticsPage.codeReviewAnalysis	代码审查和分析
+settingsPages.skillsAnalyticsPage.dailySkillInvocationsInTheSelected	所选运行时的每日技能调用
+settingsPages.skillsAnalyticsPage.dataAutomation	数据和自动化
+settingsPages.skillsAnalyticsPage.distinctCloudSessionsUsingSkills	用技能的不同云会话
+settingsPages.skillsAnalyticsPage.documentationContent	文档和内容
+settingsPages.skillsAnalyticsPage.featureDevelopment	功能开发
+settingsPages.skillsAnalyticsPage.invocations	调用
+settingsPages.skillsAnalyticsPage.invocations2	{{totaluses}} 次调用
+settingsPages.skillsAnalyticsPage.invocationsUnit_one	次调用
+settingsPages.skillsAnalyticsPage.invocationsUnit_other	次调用
+settingsPages.skillsAnalyticsPage.last30Days	最近 30 天
+settingsPages.skillsAnalyticsPage.last7Days	最近 7 天
+settingsPages.skillsAnalyticsPage.lastUsed	最近用
+settingsPages.skillsAnalyticsPage.local	本地
+settingsPages.skillsAnalyticsPage.migrationsUpgrades	迁移和升级
+settingsPages.skillsAnalyticsPage.mostInvokedSkills	最常用技能
+settingsPages.skillsAnalyticsPage.noCategorizedSessionsInThisPeriod	此期无已分类会话
+settingsPages.skillsAnalyticsPage.noInvocationsWereObservedInThe	最近 {{days}} 天没观察到调用
+settingsPages.skillsAnalyticsPage.noSkillInvocationsInThisPeriod	此期无技能调用
+settingsPages.skillsAnalyticsPage.noSkillInvocationsYet	还没有技能调用
+settingsPages.skillsAnalyticsPage.noSkillsMatchYourSearch	没有技能匹配你搜索
+settingsPages.skillsAnalyticsPage.other	其它
+settingsPages.skillsAnalyticsPage.productionInvestigation	生产排查
+settingsPages.skillsAnalyticsPage.rankedByInvocationsInTheSelected	按所选期调用排名
+settingsPages.skillsAnalyticsPage.refactoringOptimization	重构和优化
+settingsPages.skillsAnalyticsPage.researchExploration	研究和探索
+settingsPages.skillsAnalyticsPage.searchSkillsOrSources	搜技能或来源…
+settingsPages.skillsAnalyticsPage.security	安全
+settingsPages.skillsAnalyticsPage.sessions	会话
+settingsPages.skillsAnalyticsPage.skill	技能
+settingsPages.skillsAnalyticsPage.skillsUsed	用过的技能
+settingsPages.skillsAnalyticsPage.skillsUsed2	用了 {{distinctskills}} 个技能
+settingsPages.skillsAnalyticsPage.taskTypes	任务类型
+settingsPages.skillsAnalyticsPage.taskTypesAreAvailableForCloud	任务类型只对云会话可用。本地技能事件不关联 Devin 会话。
+settingsPages.skillsAnalyticsPage.taskTypesAreAvailableForCloud2	任务类型只对云会话可用

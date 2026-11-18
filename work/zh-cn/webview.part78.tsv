@@ -1,0 +1,230 @@
+settings.botsBillingEmpty	还没有 {{botNamePlural}}。
+settings.botsBillingLoadFailed	加载不了 {{botNamePlural}}。
+settings.botsBillingManage	管理计费
+settings.botsBillingNoMatches	没有 {{botNamePlural}} 匹配你的搜索。
+settings.botsBillingPrivateName	{{name}} 的私有 {{botName}}
+settings.botsBillingPrivateNameUnknown	私有 {{botName}}
+settings.botsBillingSearch	按名、创建者或组织搜
+settings.botsBillingTitle	{{botNamePlural}}
+settings.botsSidebarLabel	{{botNamePlural}}
+settings.browserNotifications	系统通知
+settings.browserNotificationsDescription	会话要你关注时收系统通知
+settings.bugs	Bug
+settings.bugsDescription	代码里可能的错误或错误行为
+settings.buildDefaultCleared	构建默认已清
+settings.buildDefaultInherit	继承默认
+settings.buildDefaultInheritNone	继承默认（无配置）
+settings.buildDefaultInheritProfile	继承默认（{{name}}）
+settings.buildDefaultLoadFailed	加载不了构建默认安全配置。
+settings.buildDefaultProfile	快照构建默认配置
+settings.buildDefaultUpdateFailed	更新构建默认失败
+settings.buildDefaultUpdated	构建默认已更新
+settings.buildDetail.searchResults_one	{{count}} 个结果
+settings.buildDetail.searchResults_other	{{count}} 个结果
+settings.buildLogs	构建日志
+settings.buildSchedule	构建计划
+settings.buildScheduleDescription	快照按刷新计划多频繁重建
+settings.byAcuConsumed	按 ACU 消耗
+settings.byAllocationUsed	按分配用百分比
+settings.bySpend	按花费
+settings.cancel	取消
+settings.capacity	容量
+settings.cascadeAndAcp	Cascade 与 ACP
+settings.cascadeAvailabilityDescription	选成员哪里能用旧版 Cascade agent
+settings.cascadeAvailabilitySaveFailed	更新 Cascade 可用性失败
+settings.cascadeAvailabilitySaved	Cascade 可用性已更新
+settings.cascadeDisabledEverywhere	到处禁用
+settings.cascadeEnabled	已启用
+settings.cascadeJetBrainsOnly	仅 JetBrains 插件
+settings.categories	类别
+settings.categoriesDescription	看企业会话分类分析
+settings.certificationColumn	认证
+settings.certificationRequired	选一个认证
+settings.changeDefaultModelByStarring	在下面加星改默认。
+settings.changeOrganizationName	改组织名
+settings.changeOrganizationNameDescription	给你组织输新名
+settings.changePreferredName	改首选名
+settings.changeProfilePicture	改头像
+settings.channel	频道
+settings.channelDescription	定 Devin 该在哪开新帖子
+settings.channelForRepositoryUpdates	仓库更新频道
+settings.channelForRepositoryUpdatesDescription	选 Devin 把你已连仓库的更新发去哪
+settings.chatKeywordsTutorial.appBadge	APP
+settings.chatKeywordsTutorial.example	示例
+settings.chatWidth	聊天宽度
+settings.chatWidthDefault	默认
+settings.chatWidthDescription	会话消息和输入框能长多宽。
+settings.chatWidthWide	宽
+settings.chatWithSupport	需要更多帮助？找客服聊
+settings.chatgptAccount	ChatGPT 账户
+settings.chatgptAccountDescription	链你账户以在 Devin 用你的 ChatGPT 方案。
+settings.chatgptLink	用 ChatGPT 继续
+settings.chatgptLinkDenied	你的 ChatGPT 账户没链上，因为申请被取消或拒绝。请重试。
+settings.chatgptLinkFailedWithError	链不了你的 ChatGPT 账户（{{error}}）。请重试。
+settings.chatgptLinkUnavailable	目前用不了 ChatGPT 登录
+settings.chatgptLinked	ChatGPT 账户已链
+settings.chatgptPlanNotShared	ChatGPT 方案未共享
+settings.chatgptPlanNotSharedNotice	你的 ChatGPT 账户没把方案共享给 Devin。
+settings.chatgptPlanNotSharedReason	只有个人 Go、Plus 和 Pro 方案能共享，Free、Business、Team 和 Enterprise 工作区账户不行。
+settings.chatgptReconnect	重连
+settings.chatgptSubscription	ChatGPT 订阅
+settings.chatgptTokenSharing	用你的 ChatGPT 方案
+settings.chatgptTokenSharingDescription	在你 ChatGPT 订阅而非 Devin 方案上跑支持的模型
+settings.chatgptTokenSharingError	你的 ChatGPT 方案目前用不了。查你的连接。
+settings.chatgptTokenSharingReconnectRequired	你的 ChatGPT 连接已过期。重连以用你的方案。
+settings.chatgptTokenSharingUpdateFailed	更新不了你的 ChatGPT 方案设置。请重试。
+settings.chatgptUnlink	解绑
+settings.chatgptUnlinked	ChatGPT 账户已解绑
+settings.chatgptUpgrade	升级
+settings.chatgptUpgradeToConnect	升级你的方案以连 ChatGPT
+settings.ciBabysitting	自动跟进 CI
+settings.ciBabysittingDescription	Devin 盯其 PR 的 CI 并修失败。关时 Devin 不动 CI，除非用户要。应用于更改后开始或恢复的会话。
+settings.clearOverride	重置为默认
+settings.cliPermissions	Devin CLI 权限
+settings.cliPermissionsConfigLabel	权限配置
+settings.cliPermissionsDescription	配置团队强制的 Devin CLI 用权规则。这些规则优先级最高，用户覆盖不了
+settings.cliPermissionsHelp	JSON 可含三个可选字段任一：<code>allow</code>、<code>deny</code> 和 <code>ask</code>。每字段应为权限串数组。权限可按作用域（如 <code>Read(/path)</code>、<code>Write(/path)</code>、<code>Exec(cmd)</code>、<code>Fetch(url)</code>）或按工具（如 <code>read</code>、<code>edit</code>、<code>exec</code>）。详见 <docsLink>权限文档</docsLink>
+settings.cliPluginsDescription	允许成员装和用 Devin CLI 插件
+settings.cliVersionConstraint	Devin CLI 版本约束
+settings.cliVersionConstraintHelp	接受 semver 约束如 >=1.2.0。留空允许全部 Devin CLI 版本。
+settings.cliVersionConstraintPlaceholder	如 >=1.2.0 <2.0.0
+settings.cliVersionConstraintUpdateFailed	更新 Devin CLI 版本约束失败
+settings.cliVersionConstraintUpdated	Devin CLI 版本约束已更新
+settings.cloneFailuresFailBuild	仓库克隆不了就判构建失败
+settings.cloneFailuresFailBuildDescription	关时，快照构建以成功克隆的仓库算部分完成。
+settings.close	关闭
+settings.cloudSettingsTab	云设置
+settings.cloudSetup	云设置
+settings.cloudSetupDescription	devin cloud setup 的运行和每次上传干了什么
+settings.coachTabTitle	Coach
+settings.codeFont	代码字体
+settings.codeFontDescription	用于代码块、diff 和终端输出
+settings.codeFontSize	代码字号
+settings.codeFontSizeDescription	代码文字像素大小
+settings.codebaseIntelligence	代码库智能
+settings.codebaseIntelligenceDescription	代码理解、文档和可视化工具
+settings.codemapDeleteFailed	删代码地图失败
+settings.codemapDeleted	代码地图已删
+settings.codemapSharingDescription	控制谁能看共享代码地图
+settings.codemapSharingUpdateFailed	更新代码地图共享失败
+settings.codemapSharingUpdated	代码地图共享已更新
+settings.codemaps	代码地图
+settings.codemapsDescription	允许成员生成和看交互代码地图
+settings.collaborationPages.issueTracker.actionsTitle	{{title}} 的操作
+settings.collaborationPages.issueTracker.addPlaybook	加 playbook
+settings.collaborationPages.issueTracker.anyLabel	任意标签
+settings.collaborationPages.issueTracker.anyStatus	任意状态
+settings.collaborationPages.issueTracker.community	社区
+settings.collaborationPages.issueTracker.create	创建
+settings.collaborationPages.issueTracker.default	默认 ✓
+settings.collaborationPages.issueTracker.defaultPlaybook	默认 playbook
+settings.collaborationPages.issueTracker.deletedPlaybook	已删 playbook
+settings.collaborationPages.issueTracker.editAutomation	编辑自动化
+settings.collaborationPages.issueTracker.enterprise	企业
+settings.collaborationPages.issueTracker.findPlaybooks	找 playbook
+settings.collaborationPages.issueTracker.goPlaybooks	去 playbook
+settings.collaborationPages.issueTracker.labels	标签
+settings.collaborationPages.issueTracker.noLabelsFound	找不到标签
+settings.collaborationPages.issueTracker.noPlaybooksAvailable	没有可用 playbook
+settings.collaborationPages.issueTracker.noPlaybooksWithMacrosAvailable	没有带宏的可用 playbook
+settings.collaborationPages.issueTracker.noStatusesFound	找不到状态
+settings.collaborationPages.issueTracker.organization	组织
+settings.collaborationPages.issueTracker.playbook	Playbook
+settings.collaborationPages.issueTracker.remove	移除
+settings.collaborationPages.issueTracker.save	保存
+settings.collaborationPages.issueTracker.searchLabels	搜索标签…
+settings.collaborationPages.issueTracker.searchPlaybooks	搜索 playbook…
+settings.collaborationPages.issueTracker.searchStatuses	搜索状态…
+settings.collaborationPages.issueTracker.setAsDefault	设为默认
+settings.collaborationPages.issueTracker.status	状态
+settings.collaborationPages.issueTracker.thisPlaybookNoLongerExistsPlease	此 playbook 已不存在。请移除或换个 playbook。
+settings.collaborationPages.jira.anyProject	任意项目
+settings.collaborationPages.jira.are	，位于
+settings.collaborationPages.jira.are2	位于
+settings.collaborationPages.jira.areLabeled	带标签
+settings.collaborationPages.jira.automationActions	自动化操作
+settings.collaborationPages.jira.copyLabel	复制标签
+settings.collaborationPages.jira.copyLabelMacro	复制标签 {{macro}}
+settings.collaborationPages.jira.delete	删除
+settings.collaborationPages.jira.edit	编辑
+settings.collaborationPages.jira.learnHowStartDevinSessionsFrom	了解怎么从 Jira app 开 Devin 会话
+settings.collaborationPages.jira.noActivePlaybooks	没有活跃 playbook。加 playbook 把其宏同步为 Jira 标签。
+settings.collaborationPages.jira.noPlaybooksConfigured	没配置 playbook。
+settings.collaborationPages.jira.noProjectsFound	找不到项目
+settings.collaborationPages.jira.project	项目
+settings.collaborationPages.jira.run	，跑
+settings.collaborationPages.jira.searchProjects	搜索项目…
+settings.collaborationPages.jira.thisPlaybookNoLongerExistsPleaseEdit	此 playbook 已不存在。请编辑此自动化修复。
+settings.collaborationPages.jira.whenTicketsFrom	当工单来自
+settings.collaborationPages.linear.addBot	加 bot
+settings.collaborationPages.linear.allowedBots	允许的 bot
+settings.collaborationPages.linear.analyzesRequirementsPotentialApproach	分析需求和潜在方案
+settings.collaborationPages.linear.anyTeam	任意团队
+settings.collaborationPages.linear.areYouSureYouWantDisconnect	确定要断开 Linear 集成？这会从 Devin 移除全部 Linear 功能。
+settings.collaborationPages.linear.assign	指派
+settings.collaborationPages.linear.chooseWhereDevinSessionsCreatedFrom	选从 Linear 建的 Devin 会话在 app 里显示在哪
+settings.collaborationPages.linear.chooseWhichLinearBotsCanStart	选哪些 Linear bot 能开 Devin 会话
+settings.collaborationPages.linear.configure	配置
+settings.collaborationPages.linear.connect	连接
+settings.collaborationPages.linear.createAutomation	建自动化
+settings.collaborationPages.linear.devinAutomaticallySyncsPlaybookMacrosLinear	Devin 自动把你的 playbook 宏同步为 Linear 标签，但连 Linear 出错。试试重装 Linear 集成。
+settings.collaborationPages.linear.devinReadsTicketDescriptionComments	Devin 读工单描述和评论
+settings.collaborationPages.linear.devinScopingTriggers	Devin 范围触发器
+settings.collaborationPages.linear.devinTriggersMentionOrLabel	你提及 <tag></tag> 或派 <label></label> 标签时 Devin 总触发。管理员可在下面配置更多触发器。
+settings.collaborationPages.linear.disconnect	断开
+settings.collaborationPages.linear.disconnectLinear	断开 Linear
+settings.collaborationPages.linear.howWorks	怎么工作：
+settings.collaborationPages.linear.label	标签
+settings.collaborationPages.linear.labelSyncPermissionsRequired	需要标签同步权限
+settings.collaborationPages.linear.labelsNotBeingSyncedLinearGrant	标签没在同步到 Linear。授所需权限或在 Linear 手工建这些标签。
+settings.collaborationPages.linear.learnHowStartDevinSessionsFrom	了解怎么从 Linear app 开 Devin 会话
+settings.collaborationPages.linear.legacyTicketScoping	旧版工单范围
+settings.collaborationPages.linear.legacyTicketScoping2	旧版工单范围
+settings.collaborationPages.linear.linearTeamsDevinOrganizations	Linear 团队到 Devin 组织
+settings.collaborationPages.linear.linearWorkspace	Linear 工作区
+settings.collaborationPages.linear.mcpAccessIncluded	含 MCP 访问
+settings.collaborationPages.linear.mention	提及
+settings.collaborationPages.linear.noActivePlaybooksAddPlaybookSync	没有活跃 playbook。加 playbook 把其宏同步为 Linear 标签。
+settings.collaborationPages.linear.noBotsAvailable	没有可用 bot
+settings.collaborationPages.linear.noBotsCurrentlyAllowed	目前没允许的 bot。
+settings.collaborationPages.linear.noLinearTeamDevinOrganizationMapping	没配置 Linear 团队到 Devin 组织映射。至少配一个映射集成才工作。
+settings.collaborationPages.linear.noTeamsFound	找不到团队
+settings.collaborationPages.linear.optionsName	{{name}} 的选项
+settings.collaborationPages.linear.postsScopingSummaryLinearAgentSession	在 Linear agent 会话发范围摘要
+settings.collaborationPages.linear.removeAsDefault	取消默认
+settings.collaborationPages.linear.searchTeams	搜索团队…
+settings.collaborationPages.linear.switchPlaybookLikeTicketPrBetter	换像 <span>!ticket_to_pr</span> 的 playbook 以更好控制和自定义。
+settings.collaborationPages.linear.syncsPlaybookMacrosLacksPermissions	Devin 自动把你的 playbook 宏同步为 Linear 标签，你就能从 Linear 直接触发 playbook。集成目前缺所需权限。
+settings.collaborationPages.linear.syncsPlaybookMacrosRequiresLabels	Devin 自动把你的 playbook 宏同步为 Linear 标签，你就能从 Linear 直接触发 playbook。这需要管理工作区标签权限。
+settings.collaborationPages.linear.team	团队
+settings.collaborationPages.linear.thisFeatureDeprecatedWeRecommendUsing	<bold>此功能已废弃。</bold>建议改用现代 playbook。
+settings.collaborationPages.linear.thisIntegrationGivesDevinNativeLinear	此集成给 Devin 原生 Linear 工具，你不用单装 Linear MCP。<lnk>了解 Linear MCP 能力</lnk>
+settings.collaborationPages.linear.thisLegacyFeatureWhenDevinAssigned	这是旧版功能。Devin 被派到以此为默认的工单时，会分析工单并给范围摘要而非立刻开工。
+settings.collaborationPages.linear.unableSyncLabels	同步不了标签
+settings.collaborationPages.linear.view	查看
+settings.collaborationPages.linear.waitsApprovalBeforeProceeding	等你批准再继续
+settings.collaborationPages.linear.workspaceAdminAdjustPermissions	可能要工作区管理员在 <lnk>Linear 安全设置</lnk>调权限。
+settings.collaborationPages.linear.workspaceAdminSetManageLabels	需要工作区管理员在 <lnk>Linear 安全设置</lnk>把 <bold>Manage workspace labels</bold> 设为「All members」。
+settings.collaborationPages.microsoftTeams.areYouSureYouWantDisconnect	确定要断开 Microsoft Teams 集成？这会从 Devin 移除全部 Microsoft Teams 功能。
+settings.collaborationPages.microsoftTeams.channelMapping	频道映射
+settings.collaborationPages.microsoftTeams.connectedFormat	已连 {{format}}
+settings.collaborationPages.microsoftTeams.connectedTeams	已连团队
+settings.collaborationPages.microsoftTeams.connectionFallbackName	连接
+settings.collaborationPages.microsoftTeams.deepLinkInstallUnavailableStaging	staging 用不了深链安装：staging Teams bot 发布在 Microsoft 市场，从那装。
+settings.collaborationPages.microsoftTeams.disconnect	断开
+settings.collaborationPages.microsoftTeams.disconnectMicrosoftTeams	断开 Microsoft Teams
+settings.collaborationPages.microsoftTeams.enterpriseConnections	企业连接
+settings.collaborationPages.microsoftTeams.installDevinAppTeamsEnableDevin	在团队装 Devin app 以在频道用 Devin。
+settings.collaborationPages.microsoftTeams.installTeam	装到团队
+settings.collaborationPages.microsoftTeams.loading	加载中…
+settings.collaborationPages.microsoftTeams.microsoftTeams	Microsoft Teams
+settings.collaborationPages.microsoftTeams.microsoftTeamsConnection	Microsoft Teams 连接
+settings.collaborationPages.microsoftTeams.noTeamsConnectedConnection	此连接没连团队。
+settings.collaborationPages.microsoftTeams.teams	团队
+settings.collaborationPages.slack.addNewChannelMapping	加新频道映射
+settings.collaborationPages.slack.allPublicChannels	全部公开频道
+settings.collaborationPages.slack.anyoneWorkspace	工作区任何人
+settings.collaborationPages.slack.areYouSureYouWantMigrate	确定要迁到 Slack Enterprise Grid？这会为你 Slack 集成开多工作区支持。
+settings.collaborationPages.slack.authorizationRequiredUseDevinWorkspace	此工作区用 Devin 需授权
+settings.collaborationPages.slack.authorizeNow	现在授权
+settings.collaborationPages.slack.authorizeNow2	现在授权

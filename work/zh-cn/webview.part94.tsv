@@ -1,0 +1,200 @@
+settings.onboardingOpSetOverrideDollars	给 {{name}} 设永久上限 {{amount}}
+settings.onboardingOpSetOverride_one	给 {{name}} 设永久上限 {{count}} ACU
+settings.onboardingOpSetOverride_other	给 {{name}} 设永久上限 {{count}} ACU
+settings.onboardingOpUpdateDefault	更新默认档位为 {{name}}，限 {{count}} ACU
+settings.onboardingOpUpdateDefaultDollars	更新默认档位为 {{name}}，限 {{amount}}
+settings.onboardingPeakUsageColumn	峰值月用量
+settings.onboardingPlaybookUnavailable	Playbook 不可用
+settings.onboardingPlaybookUnavailableDescription	上手会话要等你另选 playbook 才会跑。
+settings.onboardingPlaybookUpdateFailed	更新上手 playbook 失败。
+settings.onboardingPlaybookUpdated	上手 playbook 已更新。
+settings.onboardingPowerTier	Power
+settings.onboardingRetryFailed	重试失败操作
+settings.onboardingReviewChanges	审更改
+settings.onboardingSearchMembers	搜索成员
+settings.onboardingSearchPlaybooks	搜索 playbook…
+settings.onboardingSearchSkills	搜索技能…
+settings.onboardingSectionDescription	设新成员首次登录拿到的引导会话
+settings.onboardingSession	上手会话
+settings.onboardingSessionEnabled	开新成员上手
+settings.onboardingSessionEnabledDescription	成员首次登录时提供引导 Devin 会话
+settings.onboardingSessionEnabledEnterpriseDescription	每个组织的成员首次登录时都提供引导 Devin 会话
+settings.onboardingSessionEntry	开始时机
+settings.onboardingSessionEntryDescription	会话先问还是自动开始
+settings.onboardingSessionEntryEnterpriseDescription	会话在每个组织先问还是自动开始
+settings.onboardingSessionOrgSettings	按组织的上手
+settings.onboardingSessionOrgSettingsDescription	每个组织跑什么，以及由企业还是组织定
+settings.onboardingSessionPlaybook	上手 playbook
+settings.onboardingSessionPlaybookDescription	上手会话跑的 playbook
+settings.onboardingSessionPlaybookEnterpriseDescription	每个组织跑的 playbook
+settings.onboardingSessionSkill	上手技能
+settings.onboardingSessionSkillDescription	上手会话跑的技能
+settings.onboardingSessionSkillEnterpriseDescription	每个组织跑的技能
+settings.onboardingSessionStateOff	关
+settings.onboardingSessionStateOn	开
+settings.onboardingSessionUpdateFailed	更新上手会话失败。
+settings.onboardingSessionUpdated	上手会话已更新。
+settings.onboardingSetByEnterprise	由企业设定
+settings.onboardingSetByOrg	由组织设定
+settings.onboardingSetUpManually	改为手动设置
+settings.onboardingSimulateDescription	这是此设置对最近用量的模拟结果。
+settings.onboardingSimulateGraceMore	及另外 {{count}} 个
+settings.onboardingSimulateGraceRowDollars	{{name}} 拿临时上限 {{amount}}，到月末。
+settings.onboardingSimulateGraceRow_one	{{name}} 拿临时上限 {{count}} ACU，到月末。
+settings.onboardingSimulateGraceRow_other	{{name}} 拿临时上限 {{count}} ACU，到月末。
+settings.onboardingSimulateGraceTitle	超新上限成员的临时宽限
+settings.onboardingSimulateKeptOverLimitRow	{{name}} 超其自定义上限，可申请提额
+settings.onboardingSimulateOverLastWindow	上月本会撞上限的成员
+settings.onboardingSimulateOverNow	现正超新上限的成员
+settings.onboardingSimulateProjectedRequests	预计每月提额申请
+settings.onboardingSimulateUncappedNote	无上限成员：{{names}}。其用量从不受限。
+settings.onboardingSimulateWorstCase	最坏情况月度顶
+settings.onboardingSimulateWorstCaseUncappedDollars_one	{{amount}} + {{count}} 个无上限成员
+settings.onboardingSimulateWorstCaseUncappedDollars_other	{{amount}} + {{count}} 个无上限成员
+settings.onboardingSimulateWorstCaseUncapped_one	{{amount}} ACU + {{count}} 个无上限成员
+settings.onboardingSimulateWorstCaseUncapped_other	{{amount}} ACU + {{count}} 个无上限成员
+settings.onboardingSkillUnavailable	技能不可用
+settings.onboardingSkillUnavailableDescription	上手会话要等你另选技能才会跑。
+settings.onboardingSkillUpdateFailed	更新上手技能失败。
+settings.onboardingSkillUpdated	上手技能已更新。
+settings.onboardingStandardTier	Standard
+settings.onboardingStart	设置档位
+settings.onboardingSuggestPolicyNote	效率分健康的成员，至最大上限的申请自动批。这些值都可改。
+settings.onboardingSuggestPolicyNoteUnconditional	至最大上限的申请自动批。这些值都可改。
+settings.onboardingSuggestRationale	基于 {{members}} 个活跃成员过去 {{windows}} 个月的峰值月用量，并留增长余量。
+settings.onboardingTierColumn	档位
+settings.onboardingTitle	设置用量档位
+settings.onboardingTotalCloudUsage	总云用量
+settings.onboardingTotalLocalUsage	总本地用量（Desktop + CLI）
+settings.onboardingUnitAcus	ACU
+settings.onboardingUnitDollars	USD
+settings.onboardingUnlimitedDescription	无上限，给你最重的用户和主管。
+settings.onboardingUnlimitedTier	Unlimited
+settings.onlyAvailableToAdmins	仅管理员可用
+settings.openPrsAs	以谁开 PR
+settings.openPrsAsDescription	Devin 建的 PR 的作者身份
+settings.openPullRequestsAsDrafts	以草稿开拉取请求
+settings.openPullRequestsAsDraftsDescription	Devin 总是以草稿建拉取请求
+settings.openaiCyberRetentionDescription	解锁需要数据保留做信任与安全验证的额外 OpenAI 模型。<br /><br />OpenAI 存此数据至多 30 天，不用于模型训练或改进。此设置只适用于 OpenAI 模型。
+settings.optional	可选
+settings.orgNameAlreadyExists	组织名已存在。请换个名。
+settings.orgNameUpdated	组织名更新成功
+settings.orgOverrides	组织覆盖
+settings.orgSessionVisibilityDescription	控制谁能看和写此组织的会话。你企业的设置定外圈边界。
+settings.organization	组织
+settings.organizationBlueprint	组织 blueprint
+settings.organizationBlueprintDescription	应用于此组织每个会话
+settings.organizationDefaultModel	组织默认
+settings.organizationDescription	你组织全部会话共享的机密
+settings.organizationId	组织 ID
+settings.organizationIdDescription	你 API 用的唯一组织标识
+settings.organizationMembers	组织成员
+settings.organizationName	组织名
+settings.organizationNameDescription	Devin 各处和通知里显示的名
+settings.organizationPicture	组织头像
+settings.organizationPictureChange	更换
+settings.organizationPictureDescription	Devin 各处组织名旁显示
+settings.organizationPictureRemove	移除头像
+settings.organizationPictureRemoveFailed	移除组织头像失败
+settings.organizationPictureRemoved	组织头像已移除
+settings.organizationPictureRemoving	移除组织头像中…
+settings.organizationPictureUpload	上传
+settings.organizationPictureUploadFailed	上传组织头像失败
+settings.organizationPictureUploaded	组织头像已更新
+settings.organizationPictureUploading	上传组织头像中…
+settings.organizationSettings	组织
+settings.organizationTags	组织标签
+settings.organizationTagsDescription	看每个组织允许的标签
+settings.organizations	组织
+settings.organizationsDescription	管你企业里的子组织
+settings.otelAddCollector	加 collector
+settings.otelCollector	OpenTelemetry collector
+settings.otelCollectorDescription	在成员自配 collector 之外，把 Devin CLI 日志和指标导出到你团队的 OpenTelemetry collector
+settings.otelCollectorDialogDescription	collector 以下面的头和设置收每个成员的 CLI 遥测
+settings.otelCollectorRemoveFailed	移除 collector 失败
+settings.otelCollectorRemoved	collector 已移除
+settings.otelCollectorSaveFailed	存 collector 失败
+settings.otelCollectorSaved	collector 已存
+settings.otelContentDontExport	不导出
+settings.otelContentExport	导出
+settings.otelContentInherit	成员的设置
+settings.otelDurationInvalid	请输范围内整数毫秒
+settings.otelEditCollector	编辑 collector
+settings.otelEndpointInvalid	请输 https URL
+settings.otelEndpointRequired	请输日志或指标端点
+settings.otelHeaders	头
+settings.otelHeadersDescription	每行一条 Name: value，随每次导出发
+settings.otelHeadersInvalid	请把每个头写成 Name: value
+settings.otelLogExportInterval	日志导出间隔
+settings.otelLogExportIntervalDescription	1,000–60,000 ms；空则用成员的设置
+settings.otelLogsEndpoint	日志端点
+settings.otelLogsEndpointDescription	完整 URL，不追加任何路径
+settings.otelLogsOnly	仅日志
+settings.otelMetricExportInterval	指标导出间隔
+settings.otelMetricExportIntervalDescription	1,000–3,600,000 ms；空则用成员的设置
+settings.otelMetricsEndpoint	指标端点
+settings.otelMetricsEndpointDescription	任一端点留空即不导出那个信号
+settings.otelMetricsOnly	仅指标
+settings.otelMilliseconds	毫秒
+settings.otelPromptText	提示词文本
+settings.otelPromptTextDescription	是否导出提示词和响应
+settings.otelProtocol	协议
+settings.otelRemoveCollector	移除 collector
+settings.otelResourceAttributes	资源属性
+settings.otelResourceAttributesDescription	每行一条 key=value，加进 OTLP 资源
+settings.otelResourceAttributesInvalid	请把每个属性写成 key=value
+settings.otelTimeout	导出超时
+settings.otelTimeoutDescription	1,000–60,000 ms；空则用成员的设置
+settings.otelToolArguments	工具参数
+settings.otelToolArgumentsDescription	是否导出工具输入
+settings.outpostBuilds.cardLabel	构建
+settings.outpostBuilds.description	各组织或环境为开了 blueprint 的 outpost 池构建的镜像。
+settings.outpostBuilds.empty	还没有组织或环境为这些池构建。
+settings.outpostBuilds.environmentColumn	环境
+settings.outpostBuilds.imageColumn	镜像
+settings.outpostBuilds.loadFailed	加载不了构建。
+settings.outpostBuilds.title	Outpost 构建
+settings.outpostBuilds.viewBuilds	看构建
+settings.outposts	Outpost
+settings.outpostsDescription	管在自己机器跑 Devin 会话的 outpost。每个 outpost 由你自己的 worker 服务，账户里每个组织共享。
+settings.overLimit	超上限
+settings.overriddenInOrgs_one	在 {{count}} 个组织被覆盖
+settings.overriddenInOrgs_other	在 {{count}} 个组织被覆盖
+settings.override	覆盖
+settings.overrideAmountRequired	请输上限
+settings.overrideColumn	上限
+settings.overrideDescription	为此成员选永久或临时 ACU 上限。临时上限只用于当前计费窗口。
+settings.overrideError	更新 ACU 上限失败
+settings.overrideError_dollars	更新花费上限失败
+settings.overrideLabel	ACU 上限
+settings.overridePlaceholder	档位默认：{{count}}
+settings.overrideSaved	ACU 上限已更新
+settings.overrideSaved_dollars	花费上限已更新
+settings.overrideSpendDescription	为此成员选永久或临时花费上限。临时上限只用于当前计费窗口。
+settings.overrideSpendLabel	花费上限
+settings.overrideSpendPlaceholder	档位默认：{{amount}}
+settings.overrideTypeLabel	上限类型
+settings.overrideTypePlaceholder	选上限类型
+settings.owner	Owner
+settings.pagerduty	PagerDuty
+settings.pages.azureDevops.add	加
+settings.pages.azureDevops.addAnotherOrganizationWithServicePrincipal	用 service principal 加另一个组织
+settings.pages.azureDevops.addConnection	加连接
+settings.pages.azureDevops.addOrganizationWithServicePrincipal	用 service principal 加组织
+settings.pages.azureDevops.allowUsersOrRolesManageRepository	允许用户或角色管此连接的仓库权限
+settings.pages.azureDevops.azureAdTenantIdMissingInstall	缺 Azure AD tenant ID。先用上面「连接」按钮装 Azure 应用。
+settings.pages.azureDevops.azureDevops	Azure DevOps
+settings.pages.azureDevops.azureDevopsDisconnectedSuccessfully	Azure DevOps 断开成功
+settings.pages.azureDevops.azureDevopsOrganizationNameRequired	组织名为必填项
+settings.pages.azureDevops.azureDevopsServer	Azure DevOps Server
+settings.pages.azureDevops.beta	Beta
+settings.pages.azureDevops.configure	配置
+settings.pages.azureDevops.configureWebhookConnection	配置此连接的 webhook
+settings.pages.azureDevops.connect	连接
+settings.pages.azureDevops.connectAdditionalAzureDevopsOrganizationUsing	用 service principal 连另一个 Azure DevOps 组织。
+settings.pages.azureDevops.connectAzureDevopsOrganizationUsingService	用 service principal 连一个 Azure DevOps 组织。
+settings.pages.azureDevops.connectWithOauth	用 OAuth 连
+settings.pages.azureDevops.connectWithServicePrincipal	用 service principal 连
+settings.pages.azureDevops.connectingServicePrincipal	正在连 service principal…
+settings.pages.azureDevops.dangerZone	危险区
+settings.pages.azureDevops.disconnectConnection	断开连接

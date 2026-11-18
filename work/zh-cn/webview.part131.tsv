@@ -1,0 +1,160 @@
+unifiedResources.nameColumn	名称
+unifiedResources.noSearchResults	没有结果匹配你搜索。
+unifiedResources.playbooks.create	建 playbook
+unifiedResources.playbooks.description	你有权访问的账户 playbook，在集合里或顶层
+unifiedResources.playbooks.emptyDescription	你还没任何账户 playbook 访问权。
+unifiedResources.playbooks.emptyTitle	无 playbook
+unifiedResources.playbooks.loadError	加载 playbook 失败。
+unifiedResources.playbooks.search	搜 playbook
+unifiedResources.playbooks.title	Playbook
+unifiedResources.retry	重试
+unifiedResources.secrets.create	建机密
+unifiedResources.secrets.createDescription	为你账户的会话存。你共享前只你能用。
+unifiedResources.secrets.description	你有权访问的账户机密，在集合里或顶层
+unifiedResources.secrets.emptyDescription	你还没任何账户机密访问权。
+unifiedResources.secrets.emptyTitle	无机密
+unifiedResources.secrets.loadError	加载机密失败。
+unifiedResources.secrets.search	搜机密
+unifiedResources.secrets.title	机密
+unifiedServiceUsers.cancel	取消
+unifiedServiceUsers.createdWithoutToken	服务用户已建。此账户静态 key 已禁，所以没发 token。
+unifiedServiceUsers.expirationDays_one	{{count}} 天
+unifiedServiceUsers.expirationDays_other	{{count}} 天
+unifiedServiceUsers.expirationLabel	到期
+unifiedServiceUsers.expirationNever	从不
+unifiedServiceUsers.loadError	加载不了服务用户。
+unifiedServiceUsers.nameLabel	显示名
+unifiedServiceUsers.namePlaceholder	输显示名
+unifiedServiceUsers.nameRequired	显示名为必填项
+unifiedServiceUsers.provision	供应
+unifiedServiceUsers.provisionAction	供应
+unifiedServiceUsers.provisionDescription	自动化和集成用的 API 身份
+unifiedServiceUsers.provisionError	供应不了服务用户
+unifiedServiceUsers.provisionTitle	供应服务用户
+unifiedServiceUsers.retry	重试
+unifiedServiceUsers.roleLabel	企业角色
+unifiedServiceUsers.roleNotFound	找不到所选角色
+unifiedServiceUsers.rolePlaceholder	选角色
+unifiedServiceUsers.roleRequired	选一个角色
+unifiedServiceUsers.searchPlaceholder	搜服务用户
+upgradeButton.upgrade	升级
+usageAnalytics.category.acusValue_one	{{count}} ACU
+usageAnalytics.category.acusValue_other	{{count}} ACU
+usageAnalytics.category.askAdminSubcategories	找你平台管理员配子分类。
+usageAnalytics.category.categoryDetails	分类详情
+usageAnalytics.category.configureSubcategories	配子分类以开始追细粒度用量。
+usageAnalytics.category.metric	指标
+usageAnalytics.category.noData	无分类数据
+usageAnalytics.category.noSubcategories	此分类没定子分类。
+usageAnalytics.category.noSubcategorySessions	还没有会话归入子分类。
+usageAnalytics.category.none	无
+usageAnalytics.category.overTime	随时间
+usageAnalytics.category.prsMerged	已合并 PR
+usageAnalytics.category.prsMergedValue_one	{{count}} 个 PR 已合并
+usageAnalytics.category.prsMergedValue_other	{{count}} 个 PR 已合并
+usageAnalytics.category.selectCategory	选分类
+usageAnalytics.category.selectCategoryHint	在上面选分类看详情
+usageAnalytics.category.selectSubcategoryHint	在上面选子分类进一步筛。
+usageAnalytics.category.sessionsValue_one	{{count}} 个会话
+usageAnalytics.category.sessionsValue_other	{{count}} 个会话
+usageAnalytics.category.subcategoryBreakdown	子分类细分
+usageAnalytics.category.subcategoryHint	新会话创建并归类后子分类数据会显在这。
+usageAnalytics.category.uniqueUsers	独立用户
+usageAnalytics.category.uniqueUsersValue_one	{{count}} 个独立用户
+usageAnalytics.category.uniqueUsersValue_other	{{count}} 个独立用户
+usageAnalytics.category.viewNamedSessions	看 {{bannerLabel}} 会话
+usageAnalytics.category.viewRelated	看与 {{bannerLabel}} 相关的会话
+usageAnalytics.category.viewingSubcategory	在看「{{label}}」子分类。
+usageAnalytics.columns.acusPerPrMerged	每合并 PR ACU
+usageAnalytics.columns.acusPerSearch	ACU / 搜索
+usageAnalytics.columns.acusPerSession	每会话 ACU
+usageAnalytics.columns.closed	已关
+usageAnalytics.columns.dollarsPerPrMerged	每合并 PR $
+usageAnalytics.columns.dollarsPerSearch	$ / 搜索
+usageAnalytics.columns.dollarsPerSession	每会话 $
+usageAnalytics.columns.email	邮箱
+usageAnalytics.columns.merged	已合并
+usageAnalytics.columns.name	名称
+usageAnalytics.columns.open	开放
+usageAnalytics.columns.originWebapp	Web 应用
+usageAnalytics.columns.prsByStatus	按状态 PR
+usageAnalytics.columns.prsCreated	已建 PR
+usageAnalytics.columns.searchesCreated	已建搜索
+usageAnalytics.columns.searchesPerSession	每会话搜索
+usageAnalytics.columns.sectionPrs	PR
+usageAnalytics.columns.sectionSearches	搜索
+usageAnalytics.columns.sectionSessions	会话
+usageAnalytics.columns.sessionsByOrigin	按来源会话
+usageAnalytics.columns.sessionsBySize	按大小会话
+usageAnalytics.columns.sessionsCreated	已建会话
+usageAnalytics.columns.sessionsWithMergedPrsBySize	按大小有合并 PR 会话
+usageAnalytics.columns.sessionsWithPlaybook	有 playbook 会话
+usageAnalytics.columns.sessionsWithSearch	有搜索会话
+usageAnalytics.columns.totalAcus	总 ACU
+usageAnalytics.columns.totalCost	总费用
+usageAnalytics.comparison.noteCount	（整个窗口 vs 所选期至今）
+usageAnalytics.comparison.noteVolume	（按日均比）
+usageAnalytics.comparison.points_one	{{value}} 分
+usageAnalytics.comparison.points_other	{{value}} 分
+usageAnalytics.comparison.vsLastMonth	对上月
+usageAnalytics.comparisonChip.noComparisonData	{{column}} · {{range}} · 无对比数据
+usageAnalytics.comparisonChip.vsLastMonth	{{text}} 对上月
+usageAnalytics.display.activeDayTip	用户某天建至少 1 个会话或 1 次搜索算当天活跃
+usageAnalytics.display.activeReviewTip	用户某天用过 Devin Review 算当天活跃
+usageAnalytics.display.activeWeekTip	用户某周建至少 1 个会话或 1 次搜索算当周活跃
+usageAnalytics.display.activity	活动
+usageAnalytics.display.acusPerPrMerged	ACU / 合并 PR
+usageAnalytics.display.allDatesUtc	全部日期为 UTC
+usageAnalytics.display.byOrigin	按来源
+usageAnalytics.display.costUsd	费用（USD）
+usageAnalytics.display.cycleCurrent	当前
+usageAnalytics.display.cyclePrevious	上个
+usageAnalytics.display.daily	每天
+usageAnalytics.display.dollarsPerPrMerged	$ / 合并 PR
+usageAnalytics.display.dollarsPerSession	$ / 会话
+usageAnalytics.display.membersPerUserHidden_one	{{count}} 个成员。此账户隐藏每用户行。
+usageAnalytics.display.membersPerUserHidden_other	{{count}} 个成员。此账户隐藏每用户行。
+usageAnalytics.display.numberOfSearches	搜索数
+usageAnalytics.display.numberOfSessions	会话数
+usageAnalytics.display.otherCount	其它（{{count}}）
+usageAnalytics.display.perUserHidden	此账户隐藏每用户行。
+usageAnalytics.display.prTrackingNote	PR 数据在 SaaS 部署为 GitHub、Azure DevOps、Bitbucket 和 GitLab 追踪。非 GitHub PR 状态可能暂旧。最近开的 PR 状态 24 小时内最新，较老 PR 1 个月内最新。
+usageAnalytics.display.prsGrouped	按创建日分组的 PR
+usageAnalytics.display.prsLoadFailed	加载拉取请求数据失败
+usageAnalytics.display.reviewUsers	Devin 审查用户
+usageAnalytics.display.reviewUsersFrom	Devin Review 用户只从 {{date}} 起有。
+usageAnalytics.display.reviewUsersNoOrg	Devin Review 用户不按组织细分。
+usageAnalytics.display.reviewUsersOverTime	Devin 审查用户随时间
+usageAnalytics.display.searchesGrouped	按创建日分组的搜索
+usageAnalytics.display.searchesLoadFailed	加载搜索数据失败
+usageAnalytics.display.searchesOverTime	搜索随时间
+usageAnalytics.display.searchesToSessions	搜索会话比
+usageAnalytics.display.selectView	选视图
+usageAnalytics.display.sessionsGrouped	按创建日分组的会话
+usageAnalytics.display.sessionsLoadFailed	加载会话数据失败
+usageAnalytics.display.topOrgsAcus	按 ACU 头部组织
+usageAnalytics.display.topOrgsAcusTip	所选期按总 ACU 前 10 组织。余下组织并入其它。
+usageAnalytics.display.topOrgsCost	按费用头部组织
+usageAnalytics.display.topOrgsCostTip	所选期按总费用前 10 组织。余下组织并入其它。
+usageAnalytics.display.topOrgsSessions	按建会话头部组织
+usageAnalytics.display.topOrgsSessionsTip	所选期按建会话前 10 组织。余下组织并入其它。
+usageAnalytics.display.unknown	未知
+usageAnalytics.display.usersAcuNote	ACU 数据基于所选期建的会话。精确 ACU 消耗看消耗页。
+usageAnalytics.display.usersUsageNote	用量数据基于所选期建的会话。精确用量看消耗页。
+usageAnalytics.display.weekly	每周
+usageAnalytics.enterprisePage.consumptionEnterpriseWide	消耗企业级计费。
+usageAnalytics.enterprisePage.noProductivityPermission	你没权看生产力分析。
+usageAnalytics.exportSessionDataFailed	导出会话数据失败。请重试。
+usageAnalytics.hierarchyDrilldown.enterpriseRow	{{name}}（企业）
+usageAnalytics.hierarchyDrilldown.lobColumn	LOB / 子组织
+usageAnalytics.hierarchyDrilldown.noLobs	此企业没配 LOB
+usageAnalytics.hierarchyDrilldown.subOrgCount_one	{{count}} 个子组织
+usageAnalytics.hierarchyDrilldown.subOrgCount_other	{{count}} 个子组织
+usageAnalytics.hierarchyDrilldown.tooManyOrgsNote	开完整会话列表——组织太多筛不了链接到计数集
+usageAnalytics.metrics.acusPerCodingUser	ACU / 编码用户
+usageAnalytics.metrics.acusPerMergedPr	ACU / 合并 PR
+usageAnalytics.metrics.acusPerSession	ACU / 会话
+usageAnalytics.metrics.acusUsed	已用 ACU
+usageAnalytics.metrics.acusUsedTooltip	所选期耗的 ACU
+usageAnalytics.metrics.askQueries	DW/Ask 查询
+usageAnalytics.metrics.assignedAcus	已分配 ACU

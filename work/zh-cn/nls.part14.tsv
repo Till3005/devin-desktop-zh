@@ -1,0 +1,128 @@
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.environment	此客户端
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.error	错误
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.hostSummary	{0} - {1}，{2}
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.lastStage	上次观测的连接阶段
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.lastSuccess	上次成功发现
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.networkChanged	浏览器网络信号：{0}。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.nextRetry	下次重连尝试
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.no	否
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.noConnection	无连接
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.noDiscovery	此窗口没观测到发现。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.none	无
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.notObserved	无连接条目
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.notSelectable	不可选
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.online	浏览器在线信号
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.pending	待决
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.pendingAttempt	连接尝试
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.phases	连接和发现阶段
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.phaseScope	此窗口至多 200 条连接和 200 条发现事件。只有开始没完成的可能是还在进行，或其完成没被捕。错误描述已脱敏并有界。这是客户端观测，不是服务器日志。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.protocolPending	协议连接
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.result	结果
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.retryScheduled	重连中；下次尝试 {0}
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.secureContext	安全浏览器上下文
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.selectable	可选
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.selectableLabel	可选
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.selected	所选主机
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.serverProtocols	服务器协议版本
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.settingsChanged	远程主机连接设置变了。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.setupPending	连接建立（协议客户端前）
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.stageError	阶段错误
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.stageTime	阶段观测于
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.standalone	独立显式
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.started	开始于
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.status	连接态
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.suppressedLabel	自动连接被压
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.title	连接诊断
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.transport	连接类型
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.trigger	触发
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.tunnelProtocol	隧道协议版本
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.unknown	未知
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.user	用户
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.version	版本
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.visibility	页可见性
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.visibilityChanged	页可见性：{0}。
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.visibleCount	主机选择器条目
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.web	Web
+vs/sessions/contrib/providers/remoteAgentHost/browser/connectionDiagnosticsService/diagnostics.yes	是
+vs/sessions/contrib/providers/remoteAgentHost/browser/devContainerAgentHostService/devContainerAgentHost.connectionUnavailable	连后 Dev Container Agent Host 连接不可用。
+vs/sessions/contrib/providers/remoteAgentHost/browser/devContainerAgentHostService/devContainerAgentHost.reconnectionFailed	Dev Container Agent Host 重连中断开。
+vs/sessions/contrib/providers/remoteAgentHost/browser/devContainerSource/devContainerAgentHost.sourceNotConnected	此 Dev Container 工作区的 SSH、隧道或 WSL 主机连不了。
+vs/sessions/contrib/providers/remoteAgentHost/browser/devContainerSource/devContainerAgentHost.sourceUnavailable	此 Dev Container 工作区的 SSH、隧道或 WSL 连接不再已配。
+vs/sessions/contrib/providers/remoteAgentHost/browser/remoteAgentHost.contribution/chat.agentHost.wsl.autoStart	开其发行版没在跑的聊天时自动起 WSL 发行版。禁用时聊天改显「启动」按钮。
+vs/sessions/contrib/providers/remoteAgentHost/browser/remoteAgentHostActions/tunnelRefreshAfterDeleteFailed	已删 dev 隧道 '{0}'，但刷新 dev 隧道失败：{1}
+vs/sessions/contrib/providers/remoteAgentHost/browser/remoteAgentHostSessionsProvider/devContainerAgentHost.archiveDisconnected	断开时归档不了 Dev Container 会话 '{0}'。
+vs/sessions/contrib/providers/remoteAgentHost/browser/remoteAgentHostSessionsProvider/devContainerAgentHost.archiveRejected	归档不了 Dev Container 会话 '{0}'：{1}
+vs/sessions/contrib/providers/remoteAgentHost/browser/remoteAgentHostSessionsProvider/devContainerAgentHost.archiveTimeout	等 Dev Container 会话 '{0}' 归档超时。
+vs/sessions/contrib/providers/remoteAgentHost/browser/remoteAgentHostSessionsProvider/devContainerAgentHost.reconnectFailed	Dev Container Agent Host '{0}' 没重连。
+vs/sessions/contrib/providers/remoteAgentHost/browser/remoteAgentHostSessionsProvider/devContainerAgentHost.unarchiveDisconnected	断开时取消归档不了 Dev Container 会话 '{0}'。
+vs/sessions/contrib/providers/remoteAgentHost/browser/remoteAgentHostSessionsProvider/devContainerAgentHost.unarchiveRejected	取消归档不了 Dev Container 会话 '{0}'：{1}
+vs/sessions/contrib/providers/remoteAgentHost/browser/remoteAgentHostSessionsProvider/devContainerAgentHost.unarchiveTimeout	等 Dev Container 会话 '{0}' 取消归档超时。
+vs/sessions/contrib/providers/remoteAgentHost/browser/remoteAgentHostSessionsProvider/remoteAgentHost.deleteSessionNotFound	会话找不到。
+vs/sessions/contrib/providers/remoteAgentHost/browser/remoteHostOptions/workspacePicker.renameRemote	改名…
+vs/sessions/contrib/providers/remoteAgentHost/browser/remoteHostOptions/workspacePicker.renameRemoteFailed	改 {0} 名失败：{1}
+vs/sessions/contrib/providers/remoteAgentHost/browser/remoteHostOptions/workspacePicker.renameRemotePrompt	输此远程 agent host 在此客户端的显名。留空用默认名。
+vs/sessions/contrib/providers/remoteAgentHost/browser/remoteHostOptions/workspacePicker.renameRemoteTitle	改远程 Agent Host 名
+vs/sessions/contrib/providers/remoteAgentHost/browser/wslAgentHost.contribution/wslAgentHost.autoStart	开聊天时自动起 WSL
+vs/sessions/contrib/providers/remoteAgentHost/electron-browser/devContainerAgentHostConnector.contribution/chat.agentHost.devContainer.idleTimeout	无 Agent Host 会话在干活、等输入或有未发草稿的秒数，过了自动停 Dev Container。设 0 禁自动停。归档或删会话仍可移容器。
+vs/sessions/contrib/providers/remoteAgentHost/electron-browser/devContainerAgentHostConnector.contribution/chat.agentHost.devContainer.samples.enabled	Agents 窗口工作区选择器显 Dev Container 示例。发首条提示时示例克隆进 Docker 卷并起。要开 Dev Container Agent Host 会话。
+vs/sessions/contrib/providers/remoteAgentHost/electron-browser/devContainerAgentHostConnector.contribution/chat.agentHost.devContainer.worktree.enabled	允许在新 worktree 跑 Dev Container Agent Host 会话。
+vs/sessions/contrib/providers/remoteAgentHost/electron-browser/devContainerAgentHostConnector.contribution/devContainerAgentHost.aiDisabled	AI 功能已禁。
+vs/sessions/contrib/providers/remoteAgentHost/electron-browser/devContainerAgentHostConnector.contribution/devContainerAgentHost.unsupportedHost	此远程 Agent Host 不支持 Dev Container 会话。更新远程机器上的 VS Code。
+vs/sessions/contrib/providers/remoteAgentHost/electron-browser/devContainerAgentHostConnector.contribution/devContainerAgentHost.workspaceRequired	Dev Container Agent Host 要本地、SSH、隧道或 WSL 工作区。
+vs/sessions/contrib/providers/remoteAgentHost/electron-browser/tunnelAgentHostServiceImpl/tunnelAgentHost.noAuthentication	没可用认证枚举隧道。
+vs/sessions/contrib/remoteSessions/browser/getRemoteSessionTool/remoteInspection.description	查远程会话态和最新响应
+vs/sessions/contrib/remoteSessions/browser/getRemoteSessionTool/remoteInspection.displayName	取远程会话
+vs/sessions/contrib/remoteSessions/browser/getRemoteSessionTool/remoteInspection.invocation	读远程会话中
+vs/sessions/contrib/remoteSessions/browser/getRemoteSessionTool/remoteInspection.past	已读远程会话
+vs/sessions/contrib/remoteSessions/browser/getRemoteSessionTool/remoteInspection.result	{0} 上的远程会话
+vs/sessions/contrib/remoteSessions/browser/getRemoteSessionTool/remoteInspection.unavailable	：不可用。{0}
+vs/sessions/contrib/remoteSessions/browser/remoteSessionChatService/remoteSessionChat.disconnected	后台聊天的 agent host 不再连着。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionChatService/remoteSessionChat.unavailable	载不了远程会话工具的后台聊天。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionChatService/remoteSessionChat.unsupported	此聊天备不了后台消息的客户端工具。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionInspector/remoteInspection.chatChanged	检查时目标聊天身份变了。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionInspector/remoteInspection.connectionChanged	检查时远程 agent host 断了或连接变了。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionInspector/remoteInspection.disabled	远程会话工具已禁。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionInspector/remoteInspection.missingChat	确切目标聊天在其 agent host 不再存在。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionInspector/remoteInspection.offline	agent host {0}。检查不重连它。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionInspector/remoteInspection.timeout	读远程会话态超时。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionInspector/remoteInspection.unknownHost	用此 Agents 窗口已注册远程 agent host 上的会话或聊天。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.acknowledgementTimeout	等远程消息确认超时。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.changedRetry	远程消息请求不能以不同参数重试。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.chatChanged	备消息时目标聊天身份变了。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.connectionChanged	agent host 连接变了。消息没在新连接上发。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.disabled	远程会话工具已禁。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.invalidInput	给会话引用和至多 {0} 字符的非空消息。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.limit	远程消息上限到（每窗口 {0} 次请求）。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.missingChat	确切目标聊天在其 agent host 不再存在。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.noOrigin	此会话没存远程会话来源。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.preparationTimeout	备远程消息超时。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.readOnly	目标聊天已归档或只读。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.self	聊天不能给自己发远程消息。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.unconfirmed	远程消息投递没确认。可能已排队；别自动重试。{0}
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.unknownWorkspace	目标会话的工作目录不可用。发远程消息前开会话。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.unregisteredProvider	{0} 的 agent host 提供商没注册也没连此 Agents 窗口。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionMessageRouter/remoteMessage.untrustedWorkspace	目标会话的工作区不受信。发远程消息前先信任。
+vs/sessions/contrib/remoteSessions/browser/remoteSessions.contribution/remoteSessions.tools.enabled	开内置工具以发现远程 agent host、建查远程会话、在 Agents 窗口会话间发消息。要 {0}。禁此设置不断主机也不停跑中会话。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.changedRetry	远程会话建请求不能以不同参数重试。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.connectionChanged	建会话时远程 agent host {0} 连接变了。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.connectionUnavailable	主机连接不可用。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.creationLimit	远程会话建上限到（每窗口 {0} 次请求）。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.creationUnconfirmed	远程会话创建没提交会话就结束了。别自动重试。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.dedicatedHost	此主机专给一现有会话。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.disabled	远程会话工具已禁。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.hostNoLongerMatches	远程 agent host {0} 不再匹配此请求。{1}
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.noMatchingHost	没已连远程 agent host 匹配此请求。{0}
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.recursionLimit	远程会话递归上限到（最深 {0}）。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.unsupportedWorkspace	没 agent 支持所请工作区和隔离（含可用模型或 Auto 回退）。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.workloadLost	远程 agent host {0} 不再报其负载。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.workspaceChanged	建会话时远程 agent host {0} 工作区变了。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.workspaceHostMismatch	工作区属别的主机。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.workspaceInspectionFailed	工作区检查失败：{0}
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.workspaceNotDirectory	工作区不是目录。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.workspaceNotTrusted	工作区不受信。起无人值守会话前先信任。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionService/remoteSessions.workspaceRequired	主机不支持无工作区会话。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionSource/remoteMessage.invalidLink	远程会话链接无效。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionSource/remoteMessage.offline	{0} 的 agent host 没注册也没连此 Agents 窗口。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionSource/remoteMessage.sourceChanged	源聊天或 agent host 连接变了。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionSource/remoteMessage.sourceChatMissing	确切源聊天在其 agent host 不再存在。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionSource/remoteMessage.sourceTimeout	读源会话态超时。

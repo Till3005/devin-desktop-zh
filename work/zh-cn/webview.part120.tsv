@@ -1,0 +1,160 @@
+sidebar.status.approvalRequired	需批准
+sidebar.status.approveAutomation	批准自动化
+sidebar.status.approveBillingTag	批准计费标签
+sidebar.status.approveBlueprintTest	批准 blueprint 测试
+sidebar.status.approveHook	批准 hook
+sidebar.status.approveKnowledge	批准知识
+sidebar.status.approveLocalAccess	批准本地访问
+sidebar.status.approveMcpServer	批准 MCP 服务器
+sidebar.status.approveOncall	批准值班
+sidebar.status.approvePlaybook	批准 playbook
+sidebar.status.approvePlugin	批准插件
+sidebar.status.approveRule	批准规则
+sidebar.status.approveSchedule	批准排期
+sidebar.status.approveSession	批准会话
+sidebar.status.approveSessions	批准会话
+sidebar.status.approveSkill	批准技能
+sidebar.status.approveWorkflow	批准 workflow
+sidebar.status.awaitingInstructions	等指示中
+sidebar.status.closed	已关
+sidebar.status.crashed	已崩溃
+sidebar.status.done	完成
+sidebar.status.environmentCrashed	环境已崩溃
+sidebar.status.exceededLimit	超限
+sidebar.status.inactive	不活跃
+sidebar.status.prApproved	PR 已批
+sidebar.status.prInMergeQueue	合并队列中
+sidebar.status.prReady	PR 就绪
+sidebar.status.prReadyWaitingCI	PR 就绪，等 CI
+sidebar.status.reviewPR	审查 PR
+sidebar.status.sleeping	休眠中
+sidebar.status.stackApproved	Stack 已批
+sidebar.status.stackReady	Stack 就绪
+sidebar.status.waitingForResponse	等回复中
+sidebar.status.waitingOnOtherSessions	等 Devin 会话
+sidebar.status.working	工作中
+sidebar.status.workingWithEta	工作中（约剩 {{duration}}）
+sidebar.statusBlocked	被挡
+sidebar.statusExited	不活跃
+sidebar.statusFilter	状态
+sidebar.statusInactive	不活跃
+sidebar.statusReady	就绪
+sidebar.statusRunning	运行中
+sidebar.statusWorking	工作中
+sidebar.stop	停止
+sidebar.stopAllQueries	停全部提问
+sidebar.stopAllQueriesDescription	确定停全部提问？之后能恢复。
+sidebar.stopAllQueriesTitle	停全部提问？
+sidebar.stopSession	停会话
+sidebar.stopSessionInfo	为所有人停虚拟机
+sidebar.stopSessionInfoLocal	停 agent 当前工作
+sidebar.stopped	已停
+sidebar.subscriber	订阅者
+sidebar.syncView	同步视图设置
+sidebar.tags	标签
+sidebar.tasksAssignee	经办人
+sidebar.tasksBoardStatus	看板状态
+sidebar.tasksNoAssignee	无经办人
+sidebar.tasksPriority	优先级
+sidebar.tasksSessionStatus	会话状态
+sidebar.tasksShowUnclaimed	没会话的任务
+sidebar.tasksStatusAll	全部
+sidebar.tasksStatusCategoryBacklog	待办
+sidebar.tasksStatusCategoryCanceled	已取消
+sidebar.tasksStatusCategoryDone	完成
+sidebar.tasksStatusCategoryInProgress	进行中
+sidebar.tasksStatusCategoryTodo	待办
+sidebar.tasksStatusCategoryTriage	分诊
+sidebar.tasksStatusDefault	默认
+sidebar.tasksTaskStatus	任务状态
+sidebar.teamsSyncDisabled	Teams（同步已禁）
+sidebar.toggle.collapse	收侧栏
+sidebar.toggle.expand	展侧栏
+sidebar.triggeredByAutomation	由自动化触发
+sidebar.unarchive	取消归档
+sidebar.unavailable	不可用
+sidebar.unavailableInCompactView	紧凑视图不可用
+sidebar.updatedTime	更新时间
+sidebar.updatedTimeAgo	更新于 {{time}}
+sidebar.usage.extraUsageBalance	额外用量余额
+sidebar.usage.manageUsage	管用量
+sidebar.usage.viewUsage	看用量
+sidebar.viewAll	看全部
+sidebar.viewAllQueries	看全部提问
+sidebar.viewAllReviews	看全部审查
+sidebar.viewAllScans	看全部扫描
+sidebar.viewAllSessions	看全部会话
+sidebar.viewAllWikis	看全部 wiki
+sidebar.viewPullRequests_one	看 {{count}} 个 PR
+sidebar.viewPullRequests_other	看 {{count}} 个 PR
+sidebar.windows	Windows
+sidebar.workspaceThisMachine	此机器
+sidebarNew.beta	Beta
+sidebarNew.folderView	文件夹视图
+sidebarNew.groupFilesFailed	文件分组失败——PR 可能太大
+sidebarNew.more	更多
+sidebarNew.nameCannotBeEmpty	名称不能空。
+sidebarNew.prNumber	PR #{{number}}
+sidebarNew.repoNote	仓库笔记
+sidebarNew.viewAsSections	按分节看
+skillEditor.allowAutomaticUse	允许 Devin 自动用此技能
+skillEditor.descriptionHelp	Devin 何时该用此技能。
+skillRefSelect.loadingSkills	加载技能中…
+skillRefSelect.noSkill	无技能
+skillRefSelect.noSkillsFound	找不到技能。
+skillRefSelect.searchSkills	搜技能…
+skillRefSelect.selectSkill	选一个技能
+skillRefSelect.skill	技能
+skillRefSelect.unavailableSkill	{{name}}（不可用）
+skillRefSelect.viewPlugin	看 {{plugin}} 插件
+skillsCoach.action.approve	批准
+skillsCoach.action.approveAll	全批
+skillsCoach.action.cancel	取消
+skillsCoach.action.dismiss	忽略
+skillsCoach.action.fixWithDevin	用 Devin 修
+skillsCoach.action.reject	拒绝
+skillsCoach.action.removeFromInbox	从收件箱移除
+skillsCoach.action.suggest	建议
+skillsCoach.action.suggestAll	全建议
+skillsCoach.action.tryAgain	重试
+skillsCoach.action.uninstall	卸载
+skillsCoach.approveAll.applied_one	{{count}} 个编辑已应用
+skillsCoach.approveAll.applied_other	{{count}} 个编辑已应用
+skillsCoach.approveAll.blockedBy	被挡于：
+skillsCoach.approveAll.hiddenEdit	一个你再也看不了的编辑
+skillsCoach.approveAll.prOpening_one	Devin 在为 {{count}} 个编辑开 PR
+skillsCoach.approveAll.prOpening_other	Devin 在为 {{count}} 个编辑开 PR
+skillsCoach.card.reviewChanges	开完整审查
+skillsCoach.card.routedTo_one	又 {{count}} 个编辑路由给 {{approvers, list}}
+skillsCoach.card.routedTo_other	又 {{count}} 个编辑路由给 {{approvers, list}}
+skillsCoach.card.summary.appliedPart_one	{{count}} 个已应用
+skillsCoach.card.summary.appliedPart_other	{{count}} 个已应用
+skillsCoach.card.summary.canceledPart_one	{{count}} 个已取消
+skillsCoach.card.summary.canceledPart_other	{{count}} 个已取消
+skillsCoach.card.summary.openPart_one	{{count}} 个开放
+skillsCoach.card.summary.openPart_other	{{count}} 个开放
+skillsCoach.card.summary.rejectedPart_one	{{count}} 个已拒
+skillsCoach.card.summary.rejectedPart_other	{{count}} 个已拒
+skillsCoach.card.summary.sentToDevinPart_one	{{count}} 个已发 Devin
+skillsCoach.card.summary.sentToDevinPart_other	{{count}} 个已发 Devin
+skillsCoach.done.approved_one	{{count}} 个已批
+skillsCoach.done.approved_other	{{count}} 个已批
+skillsCoach.done.open	开 {{name}}
+skillsCoach.done.rejected_one	{{count}} 个已拒
+skillsCoach.done.rejected_other	{{count}} 个已拒
+skillsCoach.done.removed	已从收件箱移除
+skillsCoach.done.sentToDevin	已发 Devin
+skillsCoach.done.suggested_one	{{count}} 个已建议
+skillsCoach.done.suggested_other	{{count}} 个已建议
+skillsCoach.done.title	完成
+skillsCoach.edit.beforeUnavailable	原文件没随此编辑存。
+skillsCoach.edit.canceled.already_done	已取消，因此更改已做。
+skillsCoach.edit.canceled.file_changed	已取消，因此文件已变。
+skillsCoach.edit.canceled.file_changed_by_edit	已取消，因另一已批编辑改了此文件。
+skillsCoach.edit.canceled.home_unavailable	已取消，因此 home 或文件没了，或没批准者了。
+skillsCoach.edit.canceledOthers_one	批这个取消了另 {{count}} 个编辑。
+skillsCoach.edit.canceledOthers_other	批这个取消了另 {{count}} 个编辑。
+skillsCoach.edit.failed	应用不了此编辑：{{detail}}
+skillsCoach.edit.move	移动的一部分。另一半单独路由：{{path}}
+skillsCoach.edit.noAfter	此编辑删文件。
+skillsCoach.edit.noBefore	此编辑建文件。

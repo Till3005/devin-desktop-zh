@@ -1,0 +1,120 @@
+settings.mcpServerConfigRegexNote	某些特殊字符会被当正则解析，所以必须转义。若你 MCP 配置不如预期，再查特殊字符
+settings.mcpServerIdPlaceholder	stripe
+settings.mcpServerRemoveFailed	移除 MCP 服务器失败
+settings.mcpServerRemoved	MCP 服务器已从白名单移除
+settings.mcpServerSourceCustom	自定义
+settings.mcpServerSourceMarketplace	市场
+settings.mcpServers	MCP 服务器
+settings.mcpServersDescription	浏览和配置你组织的 MCP 服务器
+settings.mcpServersRowDescription	允许成员在其 IDE 加和配置 MCP 服务器
+settings.mcpToolsAllExcept	除这些外全部组织
+settings.mcpToolsAllOrgs	全部当前和将来组织
+settings.mcpToolsAppliesTo	应用于
+settings.mcpToolsAuthRequiredDescription	此 MCP 登录后才列其工具。
+settings.mcpToolsAuthRequiredTitle	连你账户以看工具
+settings.mcpToolsCategorySource	分组来自 MCP 服务器自己的工具标注，Devin 不验证。显式设工具以覆盖其分组。
+settings.mcpToolsChangedAria	{{name}} 变了
+settings.mcpToolsChangedBody	它保持 {{mode}} 直到你改
+settings.mcpToolsChangedTitle	此工具自你设权限后变了
+settings.mcpToolsChooseExclusion	选至少一个要挡的组织。
+settings.mcpToolsCount_one	{{count}} 个工具
+settings.mcpToolsCount_other	{{count}} 个工具
+settings.mcpToolsDefaultMode	默认 · {{mode}}
+settings.mcpToolsEmptyDescription	列服务器的工具以选 Devin 何时能用
+settings.mcpToolsEmptyTitle	还没列工具
+settings.mcpToolsGroupDestructive	破坏性工具
+settings.mcpToolsGroupOther	其它工具
+settings.mcpToolsGroupReadOnly	只读工具
+settings.mcpToolsGroupWrite	写工具
+settings.mcpToolsIntro	选 Devin 何时能用每个工具
+settings.mcpToolsListFailedDescription	MCP 服务器回：{{error}}。查其 URL 和凭据再试。
+settings.mcpToolsListFailedTitle	列不了工具
+settings.mcpToolsListTools	列工具
+settings.mcpToolsMarkReviewed	标记已审
+settings.mcpToolsMissing	服务器不再列
+settings.mcpToolsModeAllow	总是允许
+settings.mcpToolsModeAsk	需批准
+settings.mcpToolsModeDeny	已挡
+settings.mcpToolsNoneAllowed	没有组织能用此工具。
+settings.mcpToolsOnlySelected	仅这些组织
+settings.mcpToolsOrgBlocked	你企业没为你组织开此工具。
+settings.mcpToolsOthersAllowed	列出组织被挡。全部其它（含新组织）不需批准就能用此工具。
+settings.mcpToolsOthersAsk	列出组织被挡。全部其它（含新组织）需批准才能用此工具。
+settings.mcpToolsOthersBlocked	全部其它组织（含新组织）被挡。
+settings.mcpToolsPermissionAria	{{name}} 权限
+settings.mcpToolsPermissionsLoadError	加载不了工具权限
+settings.mcpToolsPluginLocked	被提供此 MCP 的插件挡
+settings.mcpToolsRefresh	刷新工具
+settings.mcpToolsRequireApproval	需批准
+settings.mcpToolsResetCustom	全部组织用默认权限
+settings.mcpToolsResetToDefault	用默认
+settings.mcpToolsRuleAskSentence	<permission/> 在 <audience/> 用此工具
+settings.mcpToolsRuleSentence	<permission/> 此工具用于 <audience/>
+settings.mcpToolsSectionTitle	工具与权限
+settings.mcpToolsSummaryExcept_one	{{mode}} · 除 {{count}} 个组织外全部
+settings.mcpToolsSummaryExcept_other	{{mode}} · 除 {{count}} 个组织外全部
+settings.mcpToolsSummaryOnly_one	{{mode}} · 仅 {{count}} 个组织
+settings.mcpToolsSummaryOnly_other	{{mode}} · 仅 {{count}} 个组织
+settings.mcpToolsTryAgain	重试
+settings.mcpToolsUnsupportedDescription	只有 HTTP 和 SSE MCP 服务器能在这列。
+settings.mcpToolsUnsupportedTitle	设置里列不了工具
+settings.mcpToolsUpdated	更新于 {{date}}
+settings.mcpsInCustomizeDescription	用插件在云和本地连你 MCP，和技能、规则、hook 一处。
+settings.mcpsInCustomizeTitle	MCP 现于自定义里
+settings.memberAcuUsageColumn	ACU 利用率
+settings.memberAddColumn	加列
+settings.memberAnalytics	成员分析
+settings.memberAnalyticsBeforeDollarPricing	此期在美元计费开始前按 ACU 计费。
+settings.memberAnalyticsCumulativeAcus	累计 ACU（全部产品）
+settings.memberAnalyticsCumulativeSpend	累计花费（全部产品）
+settings.memberAnalyticsError	此成员的分析目前不可用。
+settings.memberAnalyticsLocalModelUsage	本地模型用量
+settings.memberAnalyticsLocalUsageDescription	Devin Desktop 和 Devin CLI 活动
+settings.memberAnalyticsNoUsage	此周期无用量
+settings.memberAnalyticsNoUsageInWindow	此窗口无用量
+settings.memberAnalyticsProductCli	终端 CLI
+settings.memberAnalyticsProductDesktop	Devin Desktop
+settings.memberAnalyticsProductDevin	Devin
+settings.memberAnalyticsTabAcceptances	按语言的 Tab 采纳
+settings.memberAnalyticsTabEfficiency	会话效率
+settings.memberAnalyticsTabLocalUsage	本地用量
+settings.memberAnalyticsTooltipCycleLabel	周期至今
+settings.memberAnalyticsTooltipWindowLabel	窗口至今
+settings.memberAnalyticsUsageInWindow	用量 {{range}}：{{usage}} ACU
+settings.memberAnalyticsUsageInWindowDollars	用量 {{range}}：{{usage}}
+settings.memberAnalyticsUsageOfLimit	朝上限：{{limit}} ACU 中 {{usage}}（{{percent}}%）
+settings.memberAnalyticsUsageOfLimitDollars	朝上限：{{limit}} 中 {{usage}}（{{percent}}%）
+settings.memberAnalyticsUsageUncapped	朝上限：{{usage}} ACU · 无上限
+settings.memberAnalyticsUsageUncappedDollars	朝上限：{{usage}} · 无上限
+settings.memberLimits	成员列表
+settings.memberLimitsDescription	按利用率看成员和上限
+settings.memberNameColumn	名称
+settings.memberPane.acuUsage	ACU 用量
+settings.memberPane.acuUsage_dollars	用量
+settings.memberPane.managementUnavailable	成员上限控制目前不可用。
+settings.memberPane.request	申请
+settings.memberPane.usageAnalytics	用量分析
+settings.memberPane.usageLimit	用量上限
+settings.memberPane.usageOfLimit	{{limit}} ACU 中 {{usage}}
+settings.memberPane.usageOfLimitDollars	{{limit}} 中 {{usage}}
+settings.memberPane.usageUncapped	{{usage}} ACU · 无上限
+settings.memberPane.usageUncappedDollars	{{usage}} · 无上限
+settings.memberRequestPending	申请待批
+settings.memberServiceUserBadge	服务用户
+settings.memberType	成员类型
+settings.members	成员
+settings.membersAssigned	已派成员
+settings.membersColumn	成员
+settings.membersCount_one	{{count}} 个成员
+settings.membersCount_other	{{count}} 个成员
+settings.membersDescription	管你企业里的成员
+settings.membersPageTitle	成员
+settings.membersSection	成员
+settings.membersSectionDescription	找出可能该在别的档位的成员
+settings.membersTab	成员
+settings.membersViewPeople	人员
+settings.membersViewServiceUsers	服务用户
+settings.membership	成员资格
+settings.membershipCertificationTooltip	经 Devin University 认证纳入：编认证映射以移出档位
+settings.membershipDefaultTooltip	经默认档位纳入
+settings.membershipExplicitTooltip	已派到档位

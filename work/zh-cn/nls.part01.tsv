@@ -1,0 +1,117 @@
+vs/base/common/constants/appMetadata/app.description	Codeium 打造的一流 AI IDE。
+vs/base/common/constants/appMetadata/app.name	Devin
+vs/code/electron-main/main/innoSetupActive	{0} 正更新中。请等更新完再启动。
+vs/editor/browser/widget/codeEditor/codeEditorWidget/cursors.findAndReplaceLink	查找并替换
+vs/editor/browser/widget/codeEditor/codeEditorWidget/cursors.maximumLinked	光标数已限到 {0}。大更改考虑用 {1}，或调大编辑器多光标上限设置。
+vs/editor/browser/widget/diffEditor/features/hideUnchangedRegionsFeature/diff.hiddenLines.breadcrumb	到 {0}
+vs/editor/browser/widget/diffEditor/features/hideUnchangedRegionsFeature/diff.hiddenLines.collapse	收起未变行
+vs/editor/browser/widget/diffEditor/features/hideUnchangedRegionsFeature/diff.hiddenLines.expand	显 {0} 个隐藏行
+vs/editor/browser/widget/multiDiffEditor/diffEditorItemTemplate/binaryFileChanged	二进制文件已变
+vs/editor/browser/widget/multiDiffEditor/diffEditorItemTemplate/openBinaryDiff	开 Diff
+vs/editor/common/config/editorConfigurationSchema/hideOriginalLineNumbers	控制内联 diff 中是否隐原始行号。null 时用编辑器默认：紧凑多 diff 编辑器中隐，其它 diff 编辑器中显。
+vs/editor/common/config/editorOptions/fullwidthCharacterWidth	控制渲染全角字符用的宽度。
+vs/editor/common/config/editorOptions/fullwidthCharacterWidth.font	用字体定义的宽度渲染全角字符。
+vs/editor/common/config/editorOptions/fullwidthCharacterWidth.twoCells	全角字符居中渲染在正好两个字符格内。只适用等宽字体；不适用多码点全角字符或 GPU 渲染。对行渲染有性能影响。
+vs/editor/common/config/editorOptions/selectedTextMatchMode	控制选下一个、上一个或全部出现处时选中文本的匹配方式，以及选区匹配高亮。`caseSensitive` 和 `caseInsensitive` 独立于查找小部件匹配子串。空选区总起全词、区分大小写搜索。
+vs/editor/common/config/editorOptions/selectedTextMatchMode.caseInsensitive	不区分大小写、独立于查找小部件匹配出现处。
+vs/editor/common/config/editorOptions/selectedTextMatchMode.caseSensitive	区分大小写、独立于查找小部件匹配出现处。
+vs/editor/common/config/editorOptions/selectedTextMatchMode.findOptions	用查找小部件的区分大小写和全词设置。
+vs/editor/common/config/editorOptions/wordWrapIndicator	控制软换行行是否在换行列渲染指示。只在开 `#editor.wordWrap#` 时生效。
+vs/editor/common/core/editorColorRegistry/editorWordWrapIndicator	编辑器软换行行尾指示的颜色。
+vs/editor/common/editorContextKeys/diffEditorAutomaticRenderSideBySide	自动 diff 编辑器布局是否会并排渲染
+vs/editor/common/editorContextKeys/diffEditorTemporaryInlineMode	手动调 diff 编辑器后内联模式是否临时激活
+vs/editor/common/editorContextKeys/editorHasMultilineSelection	编辑器是否有多行选区
+vs/editor/common/editorContextKeys/editorIsOpen	编辑器是否开着
+vs/editor/contrib/gotoError/browser/gotoError/windsurfExplainProblem.label	解释并修问题
+vs/editor/contrib/hover/browser/markerHoverParticipant/windsurf explain and fix problem	解释并修
+vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys/disableDebounce	内联建议是否应禁用防抖
+vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys/windsurf.richGhostTextShown	自定义 windsurf 富幻影文本是否正显
+vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys/windsurf.sideHintShown	自定义 windsurf 侧提示是否正显
+vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys/windsurf.tabActionShown	自定义 windsurf tab 操作是否正显
+vs/editor/contrib/quickAccess/browser/gotoSymbolQuickAccess/unknown	未知（{0}）
+vs/editor/contrib/suggest/browser/suggestController/inDebugRepl	焦点在调试控制台时为 true，否则 false。
+vs/editor/contrib/suggest/browser/suggestWidgetRenderer/acceptSuggestion	接受建议
+vs/platform/accessibilitySignal/browser/accessibilitySignalService/accessibilitySignals.confetti	彩带
+vs/platform/agentFinder/common/agentFinderMcpRegistry/agentFinder.invalidMcpSource	MCP 服务器安装来源无效。
+vs/platform/agentFinder/common/agentFinderRestProvider/agentFinder.httpError	定制目录完成不了请求（HTTP {0}）。稍后重试。
+vs/platform/agentFinder/common/agentFinderRestProvider/agentFinder.invalidCursor	定制目录页无效。起新搜索。
+vs/platform/agentFinder/common/agentFinderRestProvider/agentFinder.invalidJson	定制目录返回无效 JSON。稍后重试。
+vs/platform/agentFinder/common/agentFinderRestProvider/agentFinder.invalidQuery	定制目录查询无效。
+vs/platform/agentFinder/common/agentFinderRestProvider/agentFinder.invalidResponse	定制目录返回无效响应。稍后重试。
+vs/platform/agentFinder/common/agentFinderRestProvider/agentFinder.rateLimited	定制目录收请求太多。稍后重试。
+vs/platform/agentFinder/common/agentFinderRestProvider/agentFinder.responseTooLarge	定制目录响应太大。试更小页。
+vs/platform/agentFinder/common/agentFinderRestProvider/agentFinder.timeout	定制目录响应太久。重试。
+vs/platform/agentFinder/common/agentFinderRestProvider/agentFinder.unavailable	到不了定制目录。查你连接再试。
+vs/platform/agentFinder/common/agentFinderRestProvider/agentFinder.unsupportedPages	定制目录返回太多不支持的条目。试别的搜索。
+vs/platform/agentHost/browser/agentHostProtocolClient/agentHost.reconnectTimedOut	自动重连 {0}ms 后超时。
+vs/platform/agentHost/browser/agentHostProtocolClient/agentHost.trustWorkspaceMessage	agent 会话将能在此文件夹读文件、跑命令和做更改。
+vs/platform/agentHost/browser/agentHostSandboxToggle/agentHostSandboxToggle.label	终端沙箱
+vs/platform/agentHost/browser/agentHostSandboxToggle/agentHostSandboxToggle.reenableManagedTitle	此会话沙箱经批准的绕过关了。你可再开。
+vs/platform/agentHost/browser/agentHostSandboxToggle/agentHostSandboxToggle.requiredTitle	你组织要求沙箱
+vs/platform/agentHost/browser/agentHostSandboxToggle/agentHostSandboxToggle.title	在限文件系统和网络访问的沙箱内跑此会话终端命令。所应用设置为此会话存，恢复时对照当前组织政策查。
+vs/platform/agentHost/browser/remoteAgentHostServiceImpl/remoteAgentHost.recoveryClosed	恢复完成前到 {0} 的连接已关。
+vs/platform/agentHost/common/agentHostEnablementService/agentHostExistingSessionHarnessPickerEnabled	主 VS Code 窗口里现有 Agent Host 会话是否把当前 harness 显为禁用的选择器。
+vs/platform/agentHost/common/agentHostEnablementService/chat.editor.agentHost.existingSessionHarnessPicker.enabled	启用后，主 VS Code 窗口里现有 Agent Host 会话把当前 harness 显为禁用的选择器。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.agentMode	即使政策禁 agent 模式，Agent Host 会话目标仍可留在编辑器。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.customizations	工作台筛同步的定制项，但运行时发现和独立指示在各政策源没等效覆盖。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.hooks	「仅 Local」hook 开关不禁运行时发现的 Agent Host hook。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.managedHooks	共享提示发现筛 hook，但 VS Code 专属要求没传到运行时文件 hook。运行时原生托管 hook 和 SDK 回调行为需单独验证。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.marketplaces	共享市场发现和安装遵守这些控制。运行时自持的市场操作不收 VS Code 专属值，需单独验证。严格市场规则不追溯禁用已装插件。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.mcpAccess	工作台筛转发的 MCP 集合，但 Agent Host 能独立发现并跑 MCP 服务器，尽管有 VS Code MCP 访问限制。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.mcpAuth	转发的 MCP 认证不用 Local 的企业托管身份提供商查找。企业单点登录可能不可用；运行时自持的认证路径未由此查认证。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.mcpLists	VS Code 专属服务器限制没传到全部 Agent Host 发现路径。运行时托管设置有单独强制；此报告不假设两源等效。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.network	共享浏览器工具和自定义终端沙箱遵守域名清单，但原生 SDK 沙箱不应用这些清单。桥只覆盖支持的运行时 URL 拒。访问可能和 Local 不同地被放行或挡。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.otelEnabled	禁 OpenTelemetry 的政策可被主机遥测配置里另配的导出目标或数据库记录器覆盖。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.otelHeaders	VS Code 专属导出器头到不了 Agent Host。要那些头的导出可能失败；运行时托管遥测不确立主机自身导出器的覆盖。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.otelIdentity	Agent Host 管线遵守身份捕获和抑制。已认证运行时账户归因仍需运行时更新和端到端验证；直接运行时导出用自身身份控制。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.otelProtocol	继承的 OTLP 协议配置可覆盖政策选的导出器类型。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.plugins	工作台筛同步的插件，但运行时发现和更具体的定制决策没等效政策覆盖。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.terminalApproval	原生 shell 命令经桥要批准。自定义终端工具在每种批准模式没等效托管询问覆盖。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.toolApproval	Allow All 会话级禁用，但政策排除的工具仍能经其它批准路径自动获批。
+vs/platform/agentHost/common/agentHostPolicyReadiness/policyGap.unknown	Agent Host 没完全强制此配置要求。迁移前查其政策支持。
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.agentOrchestrationLimits.description	控制 Agent Host 会话工具的建会话、发消息和递归安全上限。
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.agentOrchestrationLimits.off	不强制 agent 编排安全上限。
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.agentOrchestrationLimits.on	强制 agent 编排安全上限。
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.agentOrchestrationLimits.title	Agent 编排上限
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.autoArchiveMergedSessionsAfterDays.description	已合并拉取请求的会话不活跃多少天后自动归档。零禁自动归档。
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.autoArchiveMergedSessionsAfterDays.title	自动归档已合并会话
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.autoAttachPullRequests.description	Agent Host 是否自动发现并关联当前签出分支的拉取请求。禁后，只考虑记为产物或被会话操作明确关联的拉取请求。
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.autoAttachPullRequests.title	自动拉取请求关联
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.autoDeleteArchivedMergedSessionsAfterDays.description	自动归档后多少天把已合并拉取请求的会话永久删。零禁永久删。
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.autoDeleteArchivedMergedSessionsAfterDays.title	自动删已归档已合并会话
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.canvases.description	Copilot 会话能否用 Canvas 扩展呈交互内容。
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.canvases.title	Canvas
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.deferredTitleGeneration.description	立即起种子标题，首响应回合成功后后台精化，不叫活跃 agent 给聊天起名。显式改名工具仍可用。覆盖新会话的活跃 agent 标题生成；现有会话及其聊天留各自策略。
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.deferredTitleGeneration.title	延迟标题生成
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.mcpConnectorsEnabled.description	Copilot agent 会话是否暴露已连 Copilot Connector 提供的 MCP 服务器。
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.mcpConnectorsEnabled.title	Copilot Connector
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.mcpToolRoutingEnabled.description	Copilot agent 会话是否用缓存 MCP 工具元数据路由。
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.mcpToolRoutingEnabled.title	MCP 工具路由
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.overlapProviderPreparation.description	agent 是否在回合起检查点捕获的同时（而非其后）为回合备会话。
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.overlapProviderPreparation.title	重叠提供商准备
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.sessionCatalogEnabled.description	会话列表是否由中央目录供给。禁后，会话改由提供商元数据和每会话存储列出。
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.sessionCatalogEnabled.title	会话目录
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.workspaceSnapshot.description	新 Copilot 聊天首回合是否含其工作目录的有界文件名快照。
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.workspaceSnapshot.title	初始工作区快照
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.workspaceTrust	工作区信任
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.workspaceTrust.enabled	启用
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.workspaceTrust.trustedUris	受信文件夹
+vs/platform/agentHost/common/agentHostSchema/agentHost.config.workspaceTrust.uri	文件夹 URI
+vs/platform/agentHost/common/agentHostSchema/agentHost.sessionConfig.sandboxEnabled	沙箱
+vs/platform/agentHost/common/agentHostSchema/agentHost.sessionConfig.sandboxEnabledDescription	此会话的沙箱行为。默认跟全局设置。
+vs/platform/agentHost/common/agentHostSchema/agentHost.sessionConfig.sensitiveEditLocations	敏感编辑位置
+vs/platform/agentHost/common/agentHostSchema/agentHost.sessionConfig.sensitiveEditLocations.isDirectory	目录
+vs/platform/agentHost/common/agentHostSchema/agentHost.sessionConfig.sensitiveEditLocations.item	敏感编辑位置
+vs/platform/agentHost/common/agentHostSchema/agentHost.sessionConfig.sensitiveEditLocations.path	路径
+vs/platform/agentHost/common/agentHostSchema/agentHost.sessionConfig.sensitiveEditLocationsDescription	编辑总要确认的工作区相对定制位置。
+vs/platform/agentHost/common/agentHostSchema/agentHost.sessionConfig.shellInitScripts	Shell 初始化脚本
+vs/platform/agentHost/common/agentHostSchema/agentHost.sessionConfig.shellInitScripts.item	Shell 初始化脚本
+vs/platform/agentHost/common/agentHostSchema/agentHost.sessionConfig.shellInitScripts.script	脚本
+vs/platform/agentHost/common/agentHostSchema/agentHost.sessionConfig.shellInitScripts.shell	Shell
+vs/platform/agentHost/common/agentHostSchema/agentHost.sessionConfig.shellInitScriptsDescription	每条内置 shell 工具命令前加载的脚本。
+vs/platform/agentHost/common/agentHostStarter.config.contribution/chat.agentHost.agentOrchestrationLimits	控制 Agent Host 会话工具建会话和聊天、发消息、递归起会话的进程级上限。确认要求和输入验证不变。
+vs/platform/agentHost/common/agentHostStarter.config.contribution/chat.agentHost.agentOrchestrationLimits.off	不强制上限。
+vs/platform/agentHost/common/agentHostStarter.config.contribution/chat.agentHost.agentOrchestrationLimits.on	强制上限。
+vs/platform/agentHost/common/agentHostStarter.config.contribution/chat.agentHost.experimental.autoAttachPullRequests	控制 Agent Host 是否自动发现并关联当前签出分支的拉取请求。禁后，只考虑 agent 记为产物或经会话操作显式选或建的拉取请求。
+vs/platform/agentHost/common/agentHostStarter.config.contribution/chat.agentHost.experimental.mcpToolRouting	启用后，agent-host 会话用缓存 MCP 工具元数据路由请求，只在服务器相关时才提示 MCP 认证。新建会话会拾取此设置的更改。
+vs/platform/agentHost/common/agentHostStarter.config.contribution/chat.agentHost.experimental.overlapProviderPreparation	启用后，agent 在回合起检查点捕获的同时（而非其后）为新回合备会话，如起运行时会话。这可缩短首响应时间，尤其会话首回合。

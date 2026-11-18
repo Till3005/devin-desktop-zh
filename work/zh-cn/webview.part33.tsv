@@ -1,0 +1,273 @@
+connectionSchedule.description	此连接会话将按此计划被唤醒。
+connectionSchedule.disabled	已停用
+connectionSchedule.edit	编辑计划
+connectionSchedule.enabled	已启用
+connectionSchedule.instructionsDescription	每次计划运行时发给连接会话的消息。
+connectionSchedule.loadFailed	无法加载连接计划。
+connectionSchedule.notFound	此会话没有可见的连接。
+connectionSchedule.readOnly	需要管理安全扫描和自动化的权限才能设置计划。
+connectionSchedule.recurringRequired	请选择一个重复计划。
+connectionSchedule.remove	移除计划
+connectionSchedule.saveFailed	无法更新计划。请重试。
+connectionSchedule.title	计划
+connectionSettings.syncBack	反向同步
+connectionSettings.syncBackFailed	更新反向同步失败
+connectionSettings.title	连接设置
+consumption.acuLimitDialog.cancel	取消
+consumption.acuLimitDialog.description_one	设置所选组织每月可用的 ACU 上限
+consumption.acuLimitDialog.description_other	设置所选 {{count}} 个组织每月可用的 ACU 上限
+consumption.acuLimitDialog.errorToast_one	更新 {{count}} 个组织的 ACU 上限失败
+consumption.acuLimitDialog.errorToast_other	更新 {{count}} 个组织的 ACU 上限失败
+consumption.acuLimitDialog.loadingToast_one	正在更新 {{count}} 个组织的 ACU 上限…
+consumption.acuLimitDialog.loadingToast_other	正在更新 {{count}} 个组织的 ACU 上限…
+consumption.acuLimitDialog.noLimit	无上限
+consumption.acuLimitDialog.successToast_one	已更新 {{count}} 个组织的 ACU 上限
+consumption.acuLimitDialog.successToast_other	已更新 {{count}} 个组织的 ACU 上限
+consumption.acuLimitDialog.title	更新 ACU 上限
+consumption.acuLimitInput.cannotBeNegative	ACU 上限不能为负
+consumption.acuLimitInput.mustBeWholeNumber	ACU 上限必须是整数
+consumption.acuLimitScope.cloudBadge	仅云端
+consumption.acuLimitScope.cloudDescription	只作用于 Devin 会话和 Devin Review。Devin Desktop 和 Terminal CLI 用量不计入此上限。
+consumption.acuLimitScope.cloudFieldDescription	只计 Devin 会话和 Devin Review，不计 Devin Desktop 或 Terminal CLI
+consumption.acuLimitScope.cloudLabel	每月云端 ACU 上限
+consumption.acuLimitScope.cloudLimitLegend	云端上限
+consumption.acuLimitScope.cloudLimitLegendTooltip	上限线只覆盖 Devin 会话和 Devin Review，而柱条含 Devin Desktop 和 Terminal CLI 用量，因此柱条可以超过线而组织不被阻塞。
+consumption.acuLimitScope.combinedDescription	作用于全部产品的用量：Devin 会话、Devin Review、Devin Desktop 和 Terminal CLI。
+consumption.acuLimitScope.combinedFieldDescription	计 Devin 会话、Devin Review、Devin Desktop 和 Terminal CLI 的全部用量
+consumption.acuLimitScope.combinedLabel	每月 ACU 上限
+consumption.acuLimitScope.combinedSpendLabel	每月支出上限
+consumption.acuLimitScope.mixedSelectionWarning	所选组织的上限类型不同：{{cloud}} 个只计 Devin 会话和 Devin Review，{{combined}} 个计全部产品用量。每个组织以此值作为自己的上限类型
+consumption.csv.currentPeriodHeader	{{metric}} 本期（{{period}}）
+consumption.csv.previousPeriodHeader	{{metric}} 上期（{{period}}）
+consumption.cycleCapacity.column	每月 ACU 上限
+consumption.cycleCapacity.tooltip	当前月度窗口内每组织 ACU 上限
+consumption.cycleCapacity.tooltip_cloud	当前月度窗口内每组织云端 ACU 上限。只作用于 Devin 会话和 Devin Review；Devin Desktop 和 Terminal CLI 用量不计入。
+consumption.cycleCapacity.tooltip_combined	当前月度窗口内每组织跨全部产品的 ACU 上限。
+consumption.cycleLegend.beforeLast.cycle	上上个周期
+consumption.cycleLegend.beforeLast.halfYear	上上个半年
+consumption.cycleLegend.beforeLast.month	上上个月
+consumption.cycleLegend.beforeLast.quarter	上上个季度
+consumption.cycleLegend.beforeLast.year	上上个年度
+consumption.cycleLegend.current.cycle	本周期
+consumption.cycleLegend.current.halfYear	本半年
+consumption.cycleLegend.current.month	本月
+consumption.cycleLegend.current.quarter	本季度
+consumption.cycleLegend.current.year	本年度
+consumption.cycleLegend.indexed.cycle	第 {{index}} 周期
+consumption.cycleLegend.indexed.halfYear	第 {{index}} 半年
+consumption.cycleLegend.indexed.month	第 {{index}} 月
+consumption.cycleLegend.indexed.quarter	第 {{index}} 季度
+consumption.cycleLegend.indexed.year	第 {{index}} 年
+consumption.cycleLegend.previous.cycle	上周期
+consumption.cycleLegend.previous.halfYear	上半年
+consumption.cycleLegend.previous.month	上月
+consumption.cycleLegend.previous.quarter	上季度
+consumption.cycleLegend.previous.year	上年度
+consumption.cyclePeriod.capacityShare.cycle	占本周期容量 {{percent}}%
+consumption.cyclePeriod.capacityShare.halfYear	占本半年容量 {{percent}}%
+consumption.cyclePeriod.capacityShare.month	占本月容量 {{percent}}%
+consumption.cyclePeriod.capacityShare.quarter	占本季度容量 {{percent}}%
+consumption.cyclePeriod.capacityShare.year	占本年度容量 {{percent}}%
+consumption.cyclePeriod.crossUnitDescription.cycle	ACU 和美元用量不能合并。请选单个计费周期内的范围。
+consumption.cyclePeriod.crossUnitDescription.halfYear	ACU 和美元用量不能合并。请选单个计费半年内的范围。
+consumption.cyclePeriod.crossUnitDescription.month	ACU 和美元用量不能合并。请选单个计费月内的范围。
+consumption.cyclePeriod.crossUnitDescription.quarter	ACU 和美元用量不能合并。请选单个计费季度内的范围。
+consumption.cyclePeriod.crossUnitDescription.year	ACU 和美元用量不能合并。请选单个计费年度内的范围。
+consumption.cyclePeriod.crossUnitTitle.cycle	此日期范围跨越了计量单位不同的计费周期
+consumption.cyclePeriod.crossUnitTitle.halfYear	此日期范围跨越了计量单位不同的计费半年
+consumption.cyclePeriod.crossUnitTitle.month	此日期范围跨越了计量单位不同的计费月
+consumption.cyclePeriod.crossUnitTitle.quarter	此日期范围跨越了计量单位不同的计费季度
+consumption.cyclePeriod.crossUnitTitle.year	此日期范围跨越了计量单位不同的计费年度
+consumption.cyclePeriod.current.cycle	本周期
+consumption.cyclePeriod.current.halfYear	本半年
+consumption.cyclePeriod.current.month	本月
+consumption.cyclePeriod.current.quarter	本季度
+consumption.cyclePeriod.current.year	本年度
+consumption.cyclePeriod.currentBilling.cycle	本计费周期
+consumption.cyclePeriod.currentBilling.halfYear	本计费半年
+consumption.cyclePeriod.currentBilling.month	本计费月
+consumption.cyclePeriod.currentBilling.quarter	本计费季度
+consumption.cyclePeriod.currentBilling.year	本计费年度
+consumption.cyclePeriod.currentDates.cycle	本周期日期
+consumption.cyclePeriod.currentDates.halfYear	本半年日期
+consumption.cyclePeriod.currentDates.month	本月日期
+consumption.cyclePeriod.currentDates.quarter	本季度日期
+consumption.cyclePeriod.currentDates.year	本年度日期
+consumption.cyclePeriod.historical.cycle	历史周期
+consumption.cyclePeriod.historical.halfYear	历史半年
+consumption.cyclePeriod.historical.month	历史月份
+consumption.cyclePeriod.historical.quarter	历史季度
+consumption.cyclePeriod.historical.year	历史年度
+consumption.cyclePeriod.previous.cycle	上周期
+consumption.cyclePeriod.previous.halfYear	上半年
+consumption.cyclePeriod.previous.month	上月
+consumption.cyclePeriod.previous.quarter	上季度
+consumption.cyclePeriod.previous.year	上年度
+consumption.cyclePeriod.reviewJobs.cycle	本周期 PR 审查任务（{{range}}）
+consumption.cyclePeriod.reviewJobs.halfYear	本半年 PR 审查任务（{{range}}）
+consumption.cyclePeriod.reviewJobs.month	本月 PR 审查任务（{{range}}）
+consumption.cyclePeriod.reviewJobs.quarter	本季度 PR 审查任务（{{range}}）
+consumption.cyclePeriod.reviewJobs.year	本年度 PR 审查任务（{{range}}）
+consumption.cyclePeriod.topRepos.cycle	本周期按{{noun}}的前 {{topN}} 仓库（{{range}}）。其余仓库归入「其他」。
+consumption.cyclePeriod.topRepos.halfYear	本半年按{{noun}}的前 {{topN}} 仓库（{{range}}）。其余仓库归入「其他」。
+consumption.cyclePeriod.topRepos.month	本月按{{noun}}的前 {{topN}} 仓库（{{range}}）。其余仓库归入「其他」。
+consumption.cyclePeriod.topRepos.quarter	本季度按{{noun}}的前 {{topN}} 仓库（{{range}}）。其余仓库归入「其他」。
+consumption.cyclePeriod.topRepos.year	本年度按{{noun}}的前 {{topN}} 仓库（{{range}}）。其余仓库归入「其他」。
+consumption.dashboard.acusUnit	ACU
+consumption.dashboard.allDatesPst	所有日期均为 PST 时区
+consumption.dashboard.allocatedCapacity	已分配容量
+consumption.dashboard.automationAcus	自动化 ACU
+consumption.dashboard.bugsCaught	捕获的缺陷
+consumption.dashboard.byCycle	按周期
+consumption.dashboard.consumption	消耗
+consumption.dashboard.consumptionByCycle	按周期的消耗
+consumption.dashboard.consumptionByCycleTooltip	所有计费周期的历史消耗
+consumption.dashboard.counts	数量
+consumption.dashboard.csvColumn.automation	自动化
+consumption.dashboard.csvColumn.config	配置
+consumption.dashboard.csvColumn.deleted	已删除
+consumption.dashboard.csvColumn.disabled	已停用
+consumption.dashboard.csvColumn.email	邮箱
+consumption.dashboard.csvColumn.enabled	已启用
+consumption.dashboard.csvColumn.host	主机
+consumption.dashboard.csvColumn.lastRun	最近运行
+consumption.dashboard.csvColumn.lastScan	最近扫描
+consumption.dashboard.csvColumn.name	名称
+consumption.dashboard.csvColumn.oncallResource	值班资源
+consumption.dashboard.csvColumn.organization	组织
+consumption.dashboard.csvColumn.repository	仓库
+consumption.dashboard.csvColumn.reviews	审查
+consumption.dashboard.csvColumn.scans	扫描
+consumption.dashboard.csvColumn.sessions	会话
+consumption.dashboard.csvColumn.status	状态
+consumption.dashboard.cumulative	累计{{noun}}
+consumption.dashboard.cumulativeCapacityUsed	已用已分配容量累计百分比
+consumption.dashboard.cumulativeOverRange	所选范围的累计{{noun}}
+consumption.dashboard.cumulativeVsLimit	累计 ACU vs 每月上限
+consumption.dashboard.cumulativeVsThreshold	累计{{noun}} vs 每月阈值
+consumption.dashboard.currentDay	当天
+consumption.dashboard.currentMonthUnitConsumed	本月已消耗{{noun}}
+consumption.dashboard.currentPeriod	本期
+consumption.dashboard.cycleCurrentWithLabel	本期（{{label}}）
+consumption.dashboard.cycleOption.both	本期和上期
+consumption.dashboard.cycleOption.current	本期
+consumption.dashboard.cycleOption.previous	上期
+consumption.dashboard.cycleOption.prior	之前
+consumption.dashboard.cyclePreviousWithLabel	上期（{{label}}）
+consumption.dashboard.daily	按天
+consumption.dashboard.dailyAverage	日均
+consumption.dashboard.dailyConsumption	每日消耗
+consumption.dashboard.dailyConsumptionTitle	每日消耗
+consumption.dashboard.daysLeft_one	剩 {{count}} 天
+consumption.dashboard.daysLeft_other	剩 {{count}} 天
+consumption.dashboard.editMonthlyThreshold	编辑每月阈值
+consumption.dashboard.exporting	正在导出…
+consumption.dashboard.groupBy	分组方式
+consumption.dashboard.left	剩 {{amount}}
+consumption.dashboard.monthly	按月
+consumption.dashboard.monthlyConsumptionTitle	每月消耗
+consumption.dashboard.monthlyLimitUsage	每月 ACU 上限用量
+consumption.dashboard.monthlyLocalLimitUsage	每月本地 ACU 上限用量
+consumption.dashboard.monthlyThreshold	每月阈值
+consumption.dashboard.monthlyTooltipAll	当前月度窗口内计入你 ACU 上限的用量，覆盖全部产品含云端 Devin 会话。此窗口每月重置，与计费周期长度无关。
+consumption.dashboard.monthlyTooltipLocal	当前月度窗口内计入你 ACU 上限的用量，只覆盖 {{cascadeLabel}} 和 Terminal CLI，不含云端 Devin 会话。此窗口每月重置，与计费周期长度无关。
+consumption.dashboard.myAnalytics	我的分析
+consumption.dashboard.noAutomationUsage	没有可用的自动化用量数据。
+consumption.dashboard.noCapacityForCycle	所选周期没有已分配容量数据。
+consumption.dashboard.noCycleData	未找到计费周期数据
+consumption.dashboard.noHistoricalCycles	没有可用的历史周期数据。
+consumption.dashboard.noMonthlyPacing	没有可用的每月进度数据。
+consumption.dashboard.noOncallUsage	没有可用的值班用量数据。
+consumption.dashboard.noProductBreakdown	没有可用的产品细分数据。
+consumption.dashboard.noUsageForCycle	所选周期没有用量数据。
+consumption.dashboard.noUsageInRange	所选日期范围内没有用量数据。
+consumption.dashboard.oncallAcus	值班 ACU
+consumption.dashboard.orgFiguresNoReview	每组织数值含归于该组织的 Devin 会话、{{cascadeLabel}} 和 Terminal CLI {{noun}}。审查用量没有每组织归属，已排除。
+consumption.dashboard.orgFiguresWithReview	每组织数值含归于该组织的 Devin 会话、{{cascadeLabel}}、Terminal CLI 和审查 {{noun}}。
+consumption.dashboard.otherCount	其他（{{repoCount}}）
+consumption.dashboard.over	超出 {{amount}}
+consumption.dashboard.overallUsage	总用量
+consumption.dashboard.peakDay	峰值日
+consumption.dashboard.percentages	百分比
+consumption.dashboard.personalNotAvailable	你的账户还没有个人消耗数据。
+consumption.dashboard.products.aiGateway	AI Gateway
+consumption.dashboard.products.ask	Ask
+consumption.dashboard.products.automations	自动化
+consumption.dashboard.products.bots	{{botNamePlural}}
+consumption.dashboard.products.codeScans	代码扫描
+consumption.dashboard.products.devinCloud	Devin 云端
+consumption.dashboard.products.indexing	索引
+consumption.dashboard.products.oncall	值班
+consumption.dashboard.products.review	审查
+consumption.dashboard.products.terminal	Terminal
+consumption.dashboard.products.terminalCli	Terminal CLI
+consumption.dashboard.products.total	合计
+consumption.dashboard.products.wiki	Wiki
+consumption.dashboard.projectedRestOfCycle	预计本周期剩余消耗
+consumption.dashboard.projectedRestOfCycleTooltip	按本周期至今消耗速率的线性外推
+consumption.dashboard.projectedRestOfMonth	预计本月剩余消耗
+consumption.dashboard.searchUser	搜索用户
+consumption.dashboard.selectCycle	选择周期
+consumption.dashboard.selectMetric	选择指标
+consumption.dashboard.selectedDateRange	所选日期范围
+consumption.dashboard.statusFilter.active	仅活跃
+consumption.dashboard.statusFilter.all	活跃和已删除组织
+consumption.dashboard.statusFilter.deleted	仅已删除
+consumption.dashboard.tabOverall	总览
+consumption.dashboard.tooltipNouns.bugsCaught	捕获的缺陷
+consumption.dashboard.tooltipNouns.prReviews	PR 审查
+consumption.dashboard.tooltipNouns.reviewAcus	审查 ACU
+consumption.dashboard.topReposBy	按{{metric}}的仓库排名
+consumption.dashboard.topServiceUsersBy	按{{noun}}的服务用户排名
+consumption.dashboard.topServiceUsersTooltip	本周期按{{noun}}的前 10 名服务用户，以上周期作对比。其余服务用户归入「其他」。
+consumption.dashboard.topUsersBy	按{{noun}}的用户排名
+consumption.dashboard.topUsersTooltip	本周期按{{noun}}的前 10 名用户，以上周期作对比。其余用户归入「其他」。
+consumption.dashboard.totalAcuLimit	ACU 上限总计
+consumption.dashboard.totalAcuLimitTooltip	已设上限的组织的 ACU 上限之和
+consumption.dashboard.totalAcusConsumed	已消耗 ACU 总计
+consumption.dashboard.unitAcus	ACU
+consumption.dashboard.unitByProduct	按产品的{{noun}}
+consumption.dashboard.unitConsumed	已消耗{{noun}}
+consumption.dashboard.unitConsumedOverRange	所选范围已消耗{{noun}}
+consumption.dashboard.unitDollars	美元
+consumption.dashboard.unitUsed	已用{{noun}}
+consumption.dashboard.valueModeTooltip	以数量或百分比显示图表值
+consumption.dashboard.weekly	按周
+consumption.dollarLimitInput.cannotBeNegative	金额上限不能为负
+consumption.dollarLimitInput.invalidAmount	请输入最多两位小数的金额
+consumption.dollarLimitInput.tooLarge	请输入更小的金额
+consumption.lastUpdated	最后更新 {{time}}
+consumption.monthlyThreshold.cancel	取消
+consumption.monthlyThreshold.current	当前阈值：{{amount}}
+consumption.monthlyThreshold.description_acus	追踪计费周期内每月的用量节奏。留空停用
+consumption.monthlyThreshold.description_dollars	追踪计费周期内每月的用量节奏。留空停用
+consumption.monthlyThreshold.disabledToast	每月阈值已停用
+consumption.monthlyThreshold.errorToast	更新每月阈值失败
+consumption.monthlyThreshold.invalid_acus	请输入有效的非负整数
+consumption.monthlyThreshold.invalid_dollars	请输入有效的非负金额（最多两位小数）
+consumption.monthlyThreshold.label_acus	每月 ACU 阈值
+consumption.monthlyThreshold.label_dollars	每月金额阈值
+consumption.monthlyThreshold.loadError	无法加载当前阈值。关闭此对话框后重试
+consumption.monthlyThreshold.none	当前未设阈值
+consumption.monthlyThreshold.placeholder	未设阈值
+consumption.monthlyThreshold.save	保存
+consumption.monthlyThreshold.saving	正在保存…
+consumption.monthlyThreshold.setToast	每月阈值已设为 {{amount}}
+consumption.monthlyThreshold.title	每月警告阈值
+consumption.personal.bots.acus	已用 ACU
+consumption.personal.bots.byBot	本周期按 {{botName}} 的 ACU
+consumption.personal.bots.legendEntry_one	{{name}}（{{acus}} ACU，已合并 {{count}} 个 PR）
+consumption.personal.bots.legendEntry_other	{{name}}（{{acus}} ACU，已合并 {{count}} 个 PR）
+consumption.personal.bots.mergedPrs	已合并 PR
+consumption.personal.bots.otherBots	其他 {{botNamePlural}}
+consumption.personal.bots.title	你的 {{botNamePlural}}
+consumption.personal.byProductDollarsTitle.cycle	本周期按产品的金额
+consumption.personal.byProductDollarsTitle.halfYear	本半年按产品的金额
+consumption.personal.byProductDollarsTitle.month	本月按产品的金额
+consumption.personal.byProductDollarsTitle.quarter	本季度按产品的金额
+consumption.personal.byProductDollarsTitle.year	本年度按产品的金额
+consumption.personal.byProductTitle.cycle	本周期按产品的 ACU
+consumption.personal.byProductTitle.halfYear	本半年按产品的 ACU
+consumption.personal.byProductTitle.month	本月按产品的 ACU
+consumption.personal.byProductTitle.quarter	本季度按产品的 ACU
+consumption.personal.byProductTitle.year	本年度按产品的 ACU

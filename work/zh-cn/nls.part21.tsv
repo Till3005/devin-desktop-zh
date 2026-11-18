@@ -1,0 +1,89 @@
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.sessionDoneNudge	当会话的 PR 全部合并时，聊天输入框上方会出现“标为完成”建议。用 Tab 或 Shift+Tab 移动到“标为完成”“配置自动清理”或“关闭标完建议”，然后按 Enter 或空格键。“配置自动清理”打开自动归档不活跃已合并会话和永久删除自动归档的已合并会话的设置。“标为完成会做什么？”下方的说明默认折叠，用 Tab 到达并按 Enter 或空格键展开或折叠。关闭建议（包括聚焦时按 Escape）会返回聊天输入框。将会话标为完成会将其从会话列表中隐藏，让你专注剩余任务。会话不会被删除。让 agent 帮你找，或在会话列表的“已完成”分区查看。你可随时恢复。为会话创建的 worktree（若有）将被删除，恢复会话可重建它。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.sessionPreparation	会话准备期间，转录中会出现进度消息。用 Tab 或 Shift+Tab 移动到“显示日志”（可用时），按 Enter 或空格键打开输出日志。用“停止”取消准备。准备完成前，聊天输入框和附件控件被禁用。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.sessionStatusPillCopy	当药丸代表单个条目时，其上下文菜单提供该条目的复制操作，如复制 URL 或文件路径。对集合，打开下拉菜单并使用各行操作。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.sessionStatusPills	当会话状态药丸出现在输入框上方时，用 Tab 聚焦工具栏，然后用左右方向键在药丸间移动。按 Enter 或空格键激活药丸。打开上下文菜单{0}选择显示哪些可选药丸。“Pull Requests 选项”可显示全部或仅打开和草稿的 PR，跨会话记忆。若所有 PR 被过滤掉，这些选项也可在任一其他药丸的上下文菜单或工具栏上下文菜单中找到。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.sessionStatusPillsCompact	空间有限时，会话状态药丸会从右到左逐个折叠为图标。其完整标签对屏幕阅读器和提示保持可用。空间恢复时标签会回来。若图标仍放不下，该行会水平滚动；用方向键可到达每个药丸。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.subagentPills	子代理在回复中显示为药丸。用 Tab 聚焦子代理药丸，按 Enter 或空格键在侧边打开其聊天。若子代理没有独立聊天，Enter 或空格键改为展开或折叠其行内详情。药丸会播报其运行状态、模型设置和任何待确认的确认项。其活动行中的文件和 markdown 链接可用 Tab 聚焦并独立按 Enter 打开。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.systemNotificationDisclosure	部分会话状态消息有额外详情。用 Tab 聚焦状态消息并按 Enter 或空格键显示或隐藏详情。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.terminalOutputReflow	终端输出默认按聊天宽度重排。将 {0} 设为 false 可保持固定宽度预览并水平滚动。这只改变预览，不改变运行命令的终端。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chat.toolFailureIcon	失败的工具调用使用错误图标替代其正常工具图标。其内容和可用操作不变。无障碍视图在可用时包含失败原因或终端退出码。
+vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp/chatAgent.sectionProgress	已完成的思考和工具调用分区停止显示活动。当子代理药丸是最后可见内容时省略“进行中”指示器；回复仍在进行时它会出现在其他内容之后。
+vs/workbench/contrib/chat/browser/actions/chatActions/githubUrlUnavailable	GitHub Enterprise URL 不可用。请登录后重试。
+vs/workbench/contrib/chat/browser/actions/chatContext/chatContext.githubIssue	议题…
+vs/workbench/contrib/chat/browser/actions/chatContext/chatContext.githubPullRequest	Pull Request…
+vs/workbench/contrib/chat/browser/actions/chatContext/chatContext.githubRepository.placeholder	选择仓库
+vs/workbench/contrib/chat/browser/actions/chatCopyActions/chat.openLinkWith	打开方式…
+vs/workbench/contrib/chat/browser/actions/chatPluginActions/pickPluginFolder	选择文件夹
+vs/workbench/contrib/chat/browser/actions/chatPluginActions/pickPluginFolderTitle	选择插件文件夹
+vs/workbench/contrib/chat/browser/actions/chatPluginActions/selectPluginFolder	选择文件夹
+vs/workbench/contrib/chat/browser/actions/createPluginAction/agentPluginFormat	Agent 插件
+vs/workbench/contrib/chat/browser/actions/createPluginAction/agentPluginFormatDescription	标准插件格式
+vs/workbench/contrib/chat/browser/actions/createPluginAction/agentPluginLegacyCompatibilityFormat	开放插件（旧版兼容）
+vs/workbench/contrib/chat/browser/actions/createPluginAction/agentPluginLegacyCompatibilityFormatDescription	同时支持旧版客户端
+vs/workbench/contrib/chat/browser/actions/createPluginAction/pluginMcpCommandNotPortable	MCP 服务器“{0}”无法导出，因为其命令不是裸可执行名或插件相对路径。
+vs/workbench/contrib/chat/browser/actions/createPluginAction/pluginMcpCwdNotPortable	MCP 服务器“{0}”无法导出，因为其工作目录不是插件相对路径。
+vs/workbench/contrib/chat/browser/actions/createPluginAction/pluginMcpEnvFileNotPortable	MCP 服务器“{0}”无法导出，因为 Agent 插件不支持环境文件。
+vs/workbench/contrib/chat/browser/actions/createPluginAction/pluginMcpEnvNotPortable	MCP 服务器“{0}”无法导出，因为其环境包含 Agent 插件不支持的值。
+vs/workbench/contrib/chat/browser/actions/createPluginAction/pluginMcpHeadersNotPortable	MCP 服务器“{0}”无法导出，因为可移植插件不能包含 HTTP 头。
+vs/workbench/contrib/chat/browser/actions/createPluginAction/pluginMcpSandboxNotPortable	MCP 服务器“{0}”无法导出，因为 Agent 插件不支持沙箱配置。
+vs/workbench/contrib/chat/browser/actions/createPluginAction/selectPluginFormatPlaceholder	选择插件的创建方式
+vs/workbench/contrib/chat/browser/actions/createPluginAction/selectPluginFormatTitle	选择插件格式
+vs/workbench/contrib/chat/browser/actions/exportAgentHostDebugLogsAction/exportDebugLogs.copyPath	复制路径
+vs/workbench/contrib/chat/browser/agentPluginActions/pluginPolicyForceEnabled	插件“{0}”已被你的组织启用，无法禁用。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatInputPicker/agentHostChatInputPicker.allowAllPermissions	全部允许
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatInputPicker/agentHostChatInputPicker.approvalsLevelHoverSandboxed	{0} 终端命令已沙箱化。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatInputPicker/agentHostChatInputPicker.assistedPermissions	辅助权限
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatInputPicker/agentHostChatInputPicker.effectivePermissions	生效权限：{0}。请求权限：{1}。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatInputPicker/agentHostChatInputPicker.manualPermissions	手动权限
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatInputState/agentHost.checkingConversation	正在检查此对话是否可用…
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatInputState/agentHost.checkingConversationTitle	正在检查对话
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatInputState/agentHost.codexWriterLock	此对话正被另一个 Codex 应用使用。让运行中的任务完成，然后退出占用它的应用（如 ChatGPT）或退出 Codex CLI 会话。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatInputState/agentHost.codexWriterLockExplanation	另一个应用已锁定此聊天。必须先释放锁定才能在此继续。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatInputState/agentHost.codexWriterLockRetry	退出另一个应用（如 ChatGPT、Codex CLI），然后重试。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatInputState/agentHost.conversationInUse	此聊天已在另一个应用中打开
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatInputState/agentHost.conversationUnavailable	对话不可用
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatInputState/agentHost.prepareChatFailed	无法准备此对话。选择“重试”再试。{0}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostChatInputState/agentHost.retryPreparation	重试
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostCustomizationService/agentHost.mcpServer.connectorDisplayName	{0}（连接器）
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostLanguageModelProvider/agentHost.hydraFusion.description	HydraFusion 路由首个符合条件的回合，可能使用多个模型。高级用量随所选路由变化。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostLanguageModelProvider/agentHost.hydraFusion.researchPreview	研究预览
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerMigrationProvider/mcpMigrationServerIneligible	此服务器不再满足迁移要求。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerMigrationProvider/mcpMigrationServerInvalidSource	源 MCP 配置或服务器定义无效。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerMigrationProvider/mcpMigrationServerNotApplicable	此服务器与当前工作区无关。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerMigrationProvider/mcpMigrationServerNotForwarded	此服务器未从其当前配置转发到活动 agent。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerMigrationProvider/mcpMigrationServerNullEnvironment	目标 MCP 配置不支持值为 null 的环境变量。请移除或替换该 null 值以迁移此服务器。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerMigrationProvider/mcpMigrationServerSourceUnavailable	无法读取源 MCP 配置。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerMigrationProvider/mcpMigrationServerUnrepresentable	不改变行为就无法移动此服务器配置。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerSupportScope/mcpCompatibilityDefinitionNotLoaded	无法确定兼容性，因为服务器定义尚未加载。\n要迁移此服务器，请等待 MCP 发现完成，然后刷新此视图。若问题持续，请检查服务器配置中的错误。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerSupportScope/mcpCompatibilityDevelopmentModeIgnored	不支持开发模式。迁移将移除 dev。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerSupportScope/mcpCompatibilityEnvironmentFileIgnored	Copilot harness 不支持环境文件。\n要迁移此服务器，请将所需变量从环境文件移入服务器 env 配置。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerSupportScope/mcpCompatibilityGalleryMetadataNotPortable	不支持市场元数据。迁移将移除它并停止注册表更新。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerSupportScope/mcpCompatibilityLaunchNotRepresentable	Copilot harness 不支持此服务器的启动配置。\n要迁移此服务器，请为本地服务器添加命令，或为远程服务器添加有效 URL。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerSupportScope/mcpCompatibilityOAuthClientConfigurationIgnored	Copilot harness 不支持自定义 OAuth 客户端配置。\n要迁移此服务器，请移除自定义 OAuth 客户端配置，并在 Copilot harness 提示认证时登录。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerSupportScope/mcpCompatibilityRequiresUserInteraction	Copilot harness 不支持输入和命令变量。\n要迁移此服务器，请将其替换为具体值或直接在服务器配置中定义的环境变量。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerSupportScope/mcpCompatibilitySandboxConfigurationIgnored	不支持按服务器沙箱。迁移将移除 sandboxEnabled。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerSupportScope/mcpCompatibilityServerVersionNotPortable	不支持版本元数据。迁移将移除它；版本锁定保留。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerSupportScope/mcpCompatibilitySourceUnknown	无法确定兼容性，因为服务器配置来源未知。\n要迁移此服务器，请将其配置移到可识别位置，如工作区根目录的 .mcp.json 文件。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerSupportScope/mcpCompatibilitySseTransportNotPortable	SSE 传输设置无法迁移到工作区根目录的 .mcp.json 文件。\n要迁移此服务器，请使用默认 HTTP 传输。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerSupportScope/mcpCompatibilityUnresolvedConfiguration	Copilot harness 不支持未解析的配置、环境或工作区变量。\n要迁移此服务器，请定义缺失的变量或替换为具体值。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerSupportScope/mcpCompatibilityUnsupportedSourceLocation	Copilot harness 不支持此服务器当前的配置位置。\n要迁移此服务器，请将其配置移到工作区根目录的 .mcp.json 文件。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostMcpServerSupportScope/mcpCompatibilityWorkingDirectoryNotPortable	工作目录设置无法迁移到工作区根目录的 .mcp.json 文件。\n要迁移此服务器，请移除 cwd 属性。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.accessibilityHelp	为 Copilot Agent Host 会话启用实验性合并选择器时，Tab 可到达独立的“模式”和“权限”按钮。在“模式”上按 Enter 或空格键打开展开了“Agent 模式”的选择器，在“权限”上按则打开展开了“权限”的选择器。每个分区标题显示当前选择，打开的分区初始聚焦该选择。在分区标题上按 Enter 或空格键展开或折叠，或用右方向键展开、左方向键折叠。悬停或键盘导航移动单行高亮，在激活某项前不改变选择。聚焦“权限”标题并按 Tab 到达“配置权限”，打开相关设置。用上下方向键导航，按 Enter 选择模式、权限级别或终端沙箱。“辅助权限”是实验性的，会在运行工具前评估风险。企业策略可禁用“辅助权限”和“全部允许”。当会话的 host 要求终端沙箱时，其沙箱开关为勾选且禁用。若你的组织允许绕过，受支持的沙箱外权限提示可提供“在此会话中允许”。该操作成功后，你可用开关重新启用沙箱。此限制仅适用于该会话。Escape 关闭选择器并将焦点返回打开它的按钮。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.agentMode	Agent 模式
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.allowAll	全部允许
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.assisted	辅助
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.configurePermissions	配置权限
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.currentMode	当前模式：{0}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.experimental	实验性
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.manual	手动
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.modeButton	选择模式，{0}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.permissions	权限
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.permissionsButton	选择权限，{0}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.permissionsButtonSandboxed	选择权限，{0}，终端已沙箱化
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.permissionsSandboxed	{0}，终端已沙箱化
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.withPermissions	选择模式和权限，{0}，{1}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostModePickerPresentation/agentHostModePicker.withSandboxedPermissions	选择模式和权限，{0}，{1}，终端已沙箱化
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSandboxNotification/agentHost.sandboxUnsupported	此环境中沙箱不可用
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSandboxNotifications/agentHost.sandboxUpdateFailed	无法更改终端沙箱。请重试该操作。{0}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSdkSetupNotification/agentHost.sdkSetup.downloadDescription.withModels	点击“下载”或发送消息以下载 {0} Agent SDK。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSdkSetupNotification/agentHost.sdkSetup.noAccountDescription.agent	如果你已在别处配置了 {0}，请[重新加载配置]({1})。

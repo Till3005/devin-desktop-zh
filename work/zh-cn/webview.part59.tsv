@@ -1,0 +1,340 @@
+pluginVersionHistory.unknownAuthor	未知
+pluginVersionHistory.viewModeLabel	版本视图
+prDigest.goToPr	前往 PR
+prDigest.goToPullRequest	前往拉取请求
+prDigest.jumpToPr	跳到拉取请求
+prDigest.readOnly	只读
+prDigest.readOnlyShort	只读
+prDigest.trySyntax	试试：<code>github.com/owner/repo/pull/123</code> 或 <code>owner/repo#123</code>
+prReviewChip.alwaysAnalyzeMyPrs	总是分析我的拉取请求
+prReviewChip.alwaysAnalyzeRepoPrs	总是分析 {{repo}} 里的拉取请求
+prReviewChip.analyze	分析
+prReviewChip.analyzeAutoHint	现在及此拉取请求每次推送时分析
+prReviewChip.analyzeHint	Devin 能分析你的拉取请求
+prReviewChip.analyzeInStack	分析堆栈中的一个拉取请求
+prReviewChip.analyzeOnce	只分析一次
+prReviewChip.analyzeOptions	更多分析方式
+prReviewChip.analyzing	正在分析
+prReviewChip.bugs_one	{{count}} 个 bug
+prReviewChip.bugs_other	{{count}} 个 bug
+prReviewChip.connect	连接
+prReviewChip.devinFound	Devin 发现 {{findings, list}}
+prReviewChip.flags_one	{{count}} 个标记
+prReviewChip.flags_other	{{count}} 个标记
+prReviewChip.noIssuesFound	未发现问题
+prReviewChip.outdated	已过期
+prReviewChip.vulnerabilities_one	{{count}} 个漏洞
+prReviewChip.vulnerabilities_other	{{count}} 个漏洞
+previewAuthorize.cookieErrorDescription	登录 cookie 存不下来，因此开不了预览。确保启用 cookie 后重试。（Safari 在本地纯 HTTP 下会拦预览 cookie——用 Chrome 或 HTTPS。）
+previewAuthorize.cookieErrorTitle	开不了预览
+previewAuthorize.description	正在给你登录并启动预览。
+previewAuthorize.title	正在打开预览…
+previewAuthorize.unavailableDescription	你没有此预览的访问权，或它已不存在。
+previewAuthorize.unavailableTitle	预览不可用
+previewBackend.bannerNotice	你在用预览后端（<commitLink>{{sha}}</commitLink>）——不是主线 staging。
+previewBackend.cancel	取消
+previewBackend.confirm	用预览后端
+previewBackend.confirmDescription	你的认证请求（含会话令牌）都会发到此 PR 构建的 staging 后端。只用你信任的后端。应用将重载。
+previewBackend.confirmTitle	用预览后端 {{sha}}？
+previewBackend.description	此应用在用预览后端，而非主线 staging。
+previewBackend.exit	退出预览后端
+previewBackend.exitPreview	退出预览
+previewBackend.hint	粘贴一个提交 SHA 或预览后端 URL
+previewBackend.invalid	不是有效预览后端
+previewBackend.title	预览后端：{{sha}}
+previewBackend.use	用预览后端…
+previewBackend.useSha	用预览后端 {{sha}}
+previewBuild.barUpdateBuilding	更新预览构建中
+previewBuild.barUpdateFailed	更新预览构建失败
+previewBuild.barUpdateReady	更新预览已就绪
+previewBuild.checkForUpdate	查更新构建
+previewBuild.checkForUpdateFailed	无法查此拉取请求有无更新构建。
+previewBuild.description	此窗口跑的是拉取请求的构建，不是已发布的。
+previewBuild.loadingTitle	正在加载预览：{{label}}
+previewBuild.revert	回到发布构建
+previewBuild.seeNewBuildProgress	看新构建进度
+previewBuild.switch	切到 {{commit}}
+previewBuild.title	预览：{{label}}
+previewBuild.updateBuilding	更新的提交 {{commit}} 正在构建。
+previewBuild.updateFailed	更新提交 {{commit}} 的预览失败了。
+previewBuild.updateReady	更新的预览（{{commit}}）已就绪。
+pricingDialog.acknowledge	知道了
+pricingDialog.coreIntro	因为你之前是 <emphasis>Devin Core</emphasis>，这意味着…
+pricingDialog.coreMovedToFree	你的账户已被移到 <emphasis>Free</emphasis>
+pricingDialog.coreRetired	<emphasis>Core 方案</emphasis>已下线
+pricingDialog.coreUpgradePlans	你已付费的用量仍可用。要更多付费 Devin 用量，需升级到我们的新付费方案：<emphasis>Pro</emphasis>、<emphasis>Max</emphasis> 或 <emphasis>Teams</emphasis>。
+pricingDialog.coreUpgradeTeams	你已付费的用量仍可用。要更多付费 Devin 用量，需升级到 <emphasis>Teams</emphasis>。
+pricingDialog.description	我们更新了 Devin 自助定价方案。详见<announcementLink>公告</announcementLink>。
+pricingDialog.pricingDialogLabel	定价
+pricingDialog.teamsDollars	用量现在以美元计，不再以 ACU
+pricingDialog.teamsIncludedUsage	每个团队现在每月含 $80 用量
+pricingDialog.teamsPriceReduced	Teams 方案从 <emphasis>$500</emphasis> 降到每月 <emphasis>$80</emphasis>
+pricingDialog.title	你的方案有变化
+pricingDialog.upgradeDialogLabel	升级定价
+pricingDialog.viewPlans	查看方案
+privacyChoices.activeCookies	认证和会话 cookie
+privacyChoices.activeDatadog	Datadog（产品遥测）
+privacyChoices.activeFirstParty	第一方分析（会话跟踪、事件日志）
+privacyChoices.activeHeading	仍保持活跃的
+privacyChoices.blockedBing	Bing / Microsoft UET
+privacyChoices.blockedGoogleAds	Google Ads 转化跟踪
+privacyChoices.blockedGoogleAnalytics	Google Analytics
+privacyChoices.blockedHeading	选择退出后被拦的
+privacyChoices.blockedLinkedIn	LinkedIn Insight Tag
+privacyChoices.blockedMeta	Meta（Facebook）Pixel
+privacyChoices.blockedOther	其它第三方广告 tag
+privacyChoices.blockedReddit	Reddit Pixel
+privacyChoices.blockedX	X（Twitter）转化跟踪
+privacyChoices.currentStatus	当前状态
+privacyChoices.doNotSell	不要出售或共享我的个人信息
+privacyChoices.enterpriseNotice	你的组织用 Devin Enterprise。我们不对企业账户用广告或重定向 tag，因此这里没有可配置的数据共享偏好。
+privacyChoices.gpcActive	你的浏览器在发 Global Privacy Control（GPC）信号。我们依法必须遵从此信号，视你为已退出数据共享。
+privacyChoices.gpcDetected	检测到 Global Privacy Control
+privacyChoices.gpcLocked	之前从你的浏览器检测到 Global Privacy Control（GPC）信号。依加州法律，你的退出在信号首次检测到后锁定 12 个月。
+privacyChoices.home	主页
+privacyChoices.lockedUntil	你的退出生效至 <strong>{{date}}</strong>。
+privacyChoices.method	方式：
+privacyChoices.methodGpc	Global Privacy Control（自动）
+privacyChoices.methodManual	手动退出
+privacyChoices.notOptedOut	未退出
+privacyChoices.optOutBody	启用后，我们将按你所在辖区适用法律遵从你的退出偏好，停止为定向广告出售或共享你的个人信息。
+privacyChoices.optOutStatus	退出状态：
+privacyChoices.optedOut	已退出
+privacyChoices.optedOutBody	你当前已退出。我们在遵从你的偏好，没有为定向广告出售或共享你的个人信息。
+privacyChoices.privacyPolicy	隐私政策
+privacyChoices.rights	按居住地，你可能有权依适用隐私法（含 CCPA/CPRA 及类似美国州法）退出为定向广告出售或共享个人信息。
+privacyChoices.title	你的隐私选择
+progress.aBit	一会儿
+progress.accessedKnowledge	访问了知识
+progress.accessedKnowledgeCount	访问了知识（{{count}}）
+progress.activatedSkill	激活了技能
+progress.analyzedAnotherSession	分析了另一个 Devin 会话
+progress.analyzedSessions_one	分析了以下 Devin 会话：
+progress.analyzedSessions_other	分析了以下 Devin 会话：
+progress.approvedDeployment	批准了部署
+progress.autoFixEnabled	自动修复已开——Devin 将尝试解决这些发现项。
+progress.available_one	{{count}} 个可用
+progress.available_other	{{count}} 个可用
+progress.backgroundWork	在后台收尾
+progress.boardDescriptionUpdated	Board 描述已更新
+progress.botAskAdmin	请组织管理员在 <settingsLink>Devin 设置</settingsLink> 中开启
+progress.botCommentIgnored	已忽略 bot 评论
+progress.botCommentsIgnored	Devin 忽略了 <code>{{botUsername}}</code> 的 {{comments}}，因为它不在 bot 白名单上。
+progress.botEnable	启用
+progress.botEnabled	已启用
+progress.botEnabling	正在启用…
+progress.bug_one	Bug
+progress.bug_other	Bug
+progress.called	调用了
+progress.canceledCall	取消了对以下项的调用
+progress.ciFailed	CI 失败
+progress.ciFailedCount	CI 失败（{{count}}）
+progress.clicked	点击了
+progress.clickedAt	点击了（{{x}}, {{y}}）
+progress.clickedElement	点击了元素
+progress.clickedElementLead	点击了元素
+progress.commentedOnPR	在 PR 上评论了
+progress.comments_one	{{count}} 条评论
+progress.comments_other	{{count}} 条评论
+progress.created	已创建
+progress.createdPlan	已建方案
+progress.creating	正在创建
+progress.deactivatedSkill	停用了技能
+progress.deleteKnowledge	删除知识
+progress.deleted	已删除
+progress.devinReview	Devin Review
+progress.devinReviewFeedback	Devin Review 反馈
+progress.devinSaid	Devin 说
+progress.diagnostics	诊断
+progress.diffNotShown	diff 未显示
+progress.dismissedSuggestions	忽略了建议
+progress.doubleClicked	双击了
+progress.doubleClickedAt	双击了（{{x}}, {{y}}）
+progress.draggedFromTo	从（{{startX}}, {{startY}}）拖到（{{endX}}, {{endY}}）
+progress.edited	已编辑
+progress.editing	正在编辑
+progress.eventLoadFailed	加载事件失败
+progress.executed	执行了
+progress.executedJavaScript	执行了 JavaScript
+progress.fallbackUser	用户
+progress.feedbackFrom	{{username}} 的反馈
+progress.fetchedWebPageContent	取了网页内容
+progress.file	文件
+progress.fileReadInPlace	Devin 就地读了此文件，因此没存副本。
+progress.findingBugs_one	{{count}} 个 bug
+progress.findingBugs_other	{{count}} 个 bug
+progress.findingCodeQuality_one	{{count}} 个代码质量问题
+progress.findingCodeQuality_other	{{count}} 个代码质量问题
+progress.findingCount_one	{{count}} 个发现项
+progress.findingCount_other	{{count}} 个发现项
+progress.findingFlags_one	{{count}} 个标记
+progress.findingFlags_other	{{count}} 个标记
+progress.findingNotes_one	{{count}} 条备注
+progress.findingNotes_other	{{count}} 条备注
+progress.findingTotal_one	{{count}} 个发现项
+progress.findingTotal_other	{{count}} 个发现项
+progress.findingVulnerabilities_one	{{count}} 个漏洞
+progress.findingVulnerabilities_other	{{count}} 个漏洞
+progress.flag_one	标记
+progress.flag_other	标记
+progress.foundResults_one	找到 {{count}} 个结果
+progress.foundResults_other	找到 {{count}} 个结果
+progress.from	从
+progress.fromMCPServer	从 MCP 服务器
+progress.gotCursorPosition	取了光标位置
+progress.grantAutomations_one	{{botName}} 申请读改的自动化
+progress.grantAutomations_other	{{botName}} 申请读改的 {{count}} 个自动化
+progress.grantMcp_one	{{botName}} 申请用的 MCP 服务器
+progress.grantMcp_other	{{botName}} 申请用的 {{count}} 个 MCP 服务器
+progress.grantPlugins_one	{{botName}} 申请用的插件
+progress.grantPlugins_other	{{botName}} 申请用的 {{count}} 个插件
+progress.grantSecrets_one	{{botName}} 申请用的机密
+progress.grantSecrets_other	{{botName}} 申请用的 {{count}} 个机密
+progress.grantSessionViewAndUse_one	{{botName}} 申请查看并消息化的会话
+progress.grantSessionViewAndUse_other	{{botName}} 申请查看并消息化的 {{count}} 个会话
+progress.grantSessionView_one	{{botName}} 申请查看的会话
+progress.grantSessionView_other	{{botName}} 申请查看的 {{count}} 个会话
+progress.groupAwaiting	Devin 在等你的回复…
+progress.groupWasWorkingOrAwaiting	Devin 在工作或在等你的回复…
+progress.groupWorking	Devin 在工作中…
+progress.groupWorkingOrAwaiting	Devin 在工作中或在等你的回复…
+progress.heldKey	按住了键
+progress.hookLabelDecision	决定：
+progress.hookLabelDuration	耗时：
+progress.hookLabelExitCode	退出码：
+progress.hookLabelHook	Hook：
+progress.hookLabelPhase	阶段：
+progress.hookOutputIgnored	输出被忽略：{{error}}
+progress.hookReplaced	替换了模型看到的 {{what}}
+progress.hookStoppedTurn	停了一轮
+progress.importedKnowledge	导入了知识
+progress.importedKnowledgeCount	导入了知识（{{count}}）
+progress.in	在
+progress.injectedRule	注入了规则
+progress.injectedRulesCount	注入了规则（{{count}}）
+progress.internalKnowledge	内部知识
+progress.invokedSkill	调用了技能
+progress.keepingRepoUpToDate	保持 {{repo}} 最新
+progress.keepingReposUpToDate	保持仓库最新
+progress.knowledgeContentUnavailable	笔记「{{name}}」内容不可用
+progress.knowledgeRetrievalReason.backgroundAgent	后台 agent
+progress.knowledgeRetrievalReason.macro	宏
+progress.knowledgeRetrievalReason.mentioned	被提及
+progress.knowledgeRetrievalReason.pinnedAll	置顶（全部）
+progress.knowledgeRetrievalReason.pinnedRepo	置顶（仓库）
+progress.knowledgeRetrievalReason.relevance	相关性
+progress.knowledgeRetrievalReasonTooltip.assistantMention	笔记的仓库名出现在 Devin 的消息里。
+progress.knowledgeRetrievalReasonTooltip.backgroundAgent	Devin 工作中自己查了此笔记。
+progress.knowledgeRetrievalReasonTooltip.macro	此笔记由 !macro 命令手动调用。
+progress.knowledgeRetrievalReasonTooltip.pinnedAll	此笔记置顶到此组织每个会话。
+progress.knowledgeRetrievalReasonTooltip.pinnedRepo	此笔记置顶到此会话的仓库。
+progress.knowledgeRetrievalReasonTooltip.pinnedRepoWithName	此笔记置顶到 {{repoName}} 仓库。
+progress.knowledgeRetrievalReasonTooltip.promptMention	笔记的仓库名出现在用户提示词里。
+progress.knowledgeRetrievalReasonTooltip.relevance	知识搜索选中此笔记为相关。
+progress.knowledgeWillBeDeleted	此知识项将被删除
+progress.listedKnowledgeSuggestions	列出了知识建议
+progress.listedMCPServers	列出了可用 MCP 服务器
+progress.listedSkills	列出了技能
+progress.listedToolsFor	列出了工具于
+progress.listedToolsOnMCP	列出了 MCP 服务器上的工具
+progress.loadedExtensions	已加载扩展：
+progress.mcpAppFailed	此 app 加载失败。
+progress.mcpAppLabel	MCP app
+progress.mcpAuthFailed	MCP 认证失败于
+progress.mcpAuthSuccess	MCP 认证成功于
+progress.mergeConflictBaseBranch	基分支：
+progress.mergeConflictDescription	此 PR 与基分支有合并冲突，无法合并。
+progress.mergeConflictHeadBranch	头分支：
+progress.mergeConflictOn	合并冲突于
+progress.mergeConflictPr	PR：
+progress.messageAria	{{name}} 消息
+progress.middleClicked	中键点击了
+progress.middleClickedAt	中键点击了（{{x}}, {{y}}）
+progress.miniError	错误
+progress.miniFailedLabel	失败：{{label}}
+progress.miniLoading	加载中…
+progress.miniRunning	运行中…
+progress.miniRunningShort	运行中
+progress.mouseDown	鼠标按下
+progress.mouseUp	鼠标抬起
+progress.movedMouseTo	鼠标移到（{{x}}, {{y}}）
+progress.movedTheMouse	移动了鼠标
+progress.movedTheMouseLead	移动了鼠标
+progress.navigatedTo	导航到
+progress.noChanges	无变化
+progress.noIssuesFound	未发现问题
+progress.noWorkHere	Devin 没在这里干活。
+progress.on	在
+progress.onMCPServer	在 MCP 服务器上
+progress.openSentMessage	打开已发消息
+progress.openWiki	打开 Wiki
+progress.opened	打开了
+progress.openedPreview	打开了预览
+progress.pageCount	{{count}} 页
+progress.pageCount_other	{{count}} 页
+progress.partsList	{{parts, list(type: unit)}}
+progress.permissionRequestFor	权限申请于
+progress.phaseNotesUpdated	工作流阶段备注已更新
+progress.prFeedback	PR 反馈
+progress.prMerged	PR #{{number}} 已合并：{{title}}
+progress.prMergedWithoutTitle	PR #{{number}} 已合并
+progress.prNumberTitle	PR #{{number}}
+progress.prReviewApproved	批准了此 PR
+progress.prReviewChangesRequested	要求更改
+progress.pressedKey	按了键
+progress.pressedKeyAction	按了 {{key}}
+progress.pressedKeyActionLead	按了 {{key}}
+progress.pullingLatest	正在拉最新
+progress.pullingLatestFor	正在拉 {{repo}} 最新
+progress.ranCommandIn	在以下处跑了命令
+progress.ranHook	跑了 hook
+progress.ranJavaScript	跑了 JavaScript
+progress.ranJavaScriptLead	跑了 JavaScript
+progress.ranScriptedTools	跑了脚本工具
+progress.read	读了
+progress.readPageDom	读了页面 DOM
+progress.readResource	读了资源
+progress.reading	正在读
+progress.reloadedSkills	重载了技能（{{summary}}）
+progress.renamed	已重命名
+progress.restartedBrowser	重启了浏览器
+progress.results_one	{{count}} 个结果
+progress.results_other	{{count}} 个结果
+progress.retrievedPlaybook	取了 playbook
+progress.reviewIgnoredAutofixOff	Devin Review 发现了问题但 Devin 没修，因为「自动修复 Devin Review 发现项」关了。
+progress.reviewIgnoredAutofixOffAskAdmin	Devin Review 发现了问题但 Devin 没修，因为「自动修复 Devin Review 发现项」关了。请管理员开启。
+progress.reviewIgnoredEnabledNow	Devin 发现了问题但当时没开自动修复。未来 PR 已开自动修复。
+progress.reviewIgnoredNotAllowlisted	Devin Review 发现了问题但因不在白名单无法自动修。<settingsLink>管理设置</settingsLink>
+progress.reviewReported	Devin Review 在此拉取请求上报了 {{findings}}。
+progress.rewrotePlan	重写了方案
+progress.rightClicked	右键点击了
+progress.rightClickedAt	右键点击了（{{x}}, {{y}}）
+progress.ruleContentLoadFailed	加载规则内容失败
+progress.ruleContentUnavailable	此事件没有规则内容。
+progress.runningMaintenance	正在跑维护
+progress.runningMaintenanceFor	正在跑 {{repo}} 的维护
+progress.scannedFiles_one	扫了 {{count}} 个文件
+progress.scannedFiles_other	扫了 {{count}} 个文件
+progress.scrolled	向{{direction}}滚了
+progress.scrolledBy	向{{direction}}滚了 {{amount}}
+progress.scrolledDown	向下滚了
+progress.scrolledDownLead	向下滚了
+progress.scrolledUp	向上滚了
+progress.scrolledUpLead	向上滚了
+progress.searchedForSkills	搜了技能
+progress.searchedWebFor	搜了网页
+progress.searching	正在搜
+progress.seeIn	在 {{site}} 看
+progress.selectedFile	选了文件 {{file}}
+progress.selectedFileLead	选了文件 {{file}}
+progress.selectedOption	选了选项 {{option}}
+progress.selectedOptionLead	选了选项 {{option}}
+progress.sessionsToCreate_one	要建 {{count}} 个会话
+progress.sessionsToCreate_other	要建 {{count}} 个会话
+progress.sharedFileUpdated	{{name}} 已更新
+progress.sharedFileUrgent	紧急
+progress.showApp	显示 app
+progress.skillContentUnavailable	此事件没有技能内容。
+progress.slackAction	Slack {{action}}
+progress.slackDownloadedFile	下载了文件
+progress.slackListedUsers	列出了用户

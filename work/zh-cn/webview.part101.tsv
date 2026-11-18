@@ -1,0 +1,180 @@
+settings.runtimePages.vpcInfra.allStatuses	全部状态
+settings.runtimePages.vpcInfra.availableslotsTotalcapacityslotsSlotsAvailable	{{totalCapacitySlots}} 槽可用 {{availableSlots}}
+settings.runtimePages.vpcInfra.breakdownDisconnected_one	{{count}} 个断连
+settings.runtimePages.vpcInfra.breakdownDisconnected_other	{{count}} 个断连
+settings.runtimePages.vpcInfra.breakdownDraining_one	{{count}} 个排水
+settings.runtimePages.vpcInfra.breakdownDraining_other	{{count}} 个排水
+settings.runtimePages.vpcInfra.breakdownRunning_one	{{count}} 个运行
+settings.runtimePages.vpcInfra.breakdownRunning_other	{{count}} 个运行
+settings.runtimePages.vpcInfra.breakdownStale_one	{{count}} 个失联
+settings.runtimePages.vpcInfra.breakdownStale_other	{{count}} 个失联
+settings.runtimePages.vpcInfra.breakdownStarting_one	{{count}} 个启动
+settings.runtimePages.vpcInfra.breakdownStarting_other	{{count}} 个启动
+settings.runtimePages.vpcInfra.builds	构建
+settings.runtimePages.vpcInfra.copyHypervisorId	复制 hypervisor ID
+settings.runtimePages.vpcInfra.copyInstanceId	复制实例 ID
+settings.runtimePages.vpcInfra.copyLabel	复制 {{label}}
+settings.runtimePages.vpcInfra.created	创建于
+settings.runtimePages.vpcInfra.dataStorage	数据存储
+settings.runtimePages.vpcInfra.disconnected2	已断连
+settings.runtimePages.vpcInfra.disconnectedUnreachable	<span>已断连：</span>不可达
+settings.runtimePages.vpcInfra.draining2	排水中
+settings.runtimePages.vpcInfra.drainingFinishingCurrentJobs	<span>排水中：</span>收尾当前任务
+settings.runtimePages.vpcInfra.durationHoursAgo	{{value}} 小时前
+settings.runtimePages.vpcInfra.durationMinutesAgo	{{value}} 分钟前
+settings.runtimePages.vpcInfra.durationSecondsAgo	{{value}} 秒前
+settings.runtimePages.vpcInfra.failedLoadInfrastructureDataTryRefreshing	加载基建数据失败。试刷新。
+settings.runtimePages.vpcInfra.filterMonitoringStatus	筛监控状态
+settings.runtimePages.vpcInfra.heartbeat	心跳
+settings.runtimePages.vpcInfra.heartbeatStale1Min	Hypervisor 超 1 分钟没报告——新任务可能调到别处
+settings.runtimePages.vpcInfra.heartbeatStale2Min	Hypervisor 超 2 分钟没报告
+settings.runtimePages.vpcInfra.hypervisor	Hypervisor
+settings.runtimePages.vpcInfra.hypervisorIdCopied	Hypervisor ID 已复制
+settings.runtimePages.vpcInfra.hypervisorSettingsUpdatedSuccessfully	Hypervisor 设置更新成功。
+settings.runtimePages.vpcInfra.hypervisorStorage	Hypervisor 存储
+settings.runtimePages.vpcInfra.indexing	索引中
+settings.runtimePages.vpcInfra.instanceIdCopied	实例 ID 已复制
+settings.runtimePages.vpcInfra.labelCopied	{{label}} 已复制
+settings.runtimePages.vpcInfra.monitorHypervisorHealthCapacity	监控 hypervisor 健康和容量
+settings.runtimePages.vpcInfra.noHeartbeatData	无心跳数据
+settings.runtimePages.vpcInfra.noHypervisorsMatchSelectedFilter	没有 hypervisor 匹配所选筛选
+settings.runtimePages.vpcInfra.noTenantsOrHypervisorsCurrentlyConfigured	当前没配租户或 hypervisor。
+settings.runtimePages.vpcInfra.noVpcDataAvailable	无 VPC 数据
+settings.runtimePages.vpcInfra.oldestRequest	最老申请：{{duration}}
+settings.runtimePages.vpcInfra.other	其它
+settings.runtimePages.vpcInfra.percentAvailable	可用 {{percent}}%
+settings.runtimePages.vpcInfra.prReview	PR 审查
+settings.runtimePages.vpcInfra.queueBuildsCount_one	{{count}} 个构建
+settings.runtimePages.vpcInfra.queueBuildsCount_other	{{count}} 个构建
+settings.runtimePages.vpcInfra.queueIndexingCount_one	{{count}} 个索引
+settings.runtimePages.vpcInfra.queueIndexingCount_other	{{count}} 个索引
+settings.runtimePages.vpcInfra.queueNone	无
+settings.runtimePages.vpcInfra.queueOtherCount_one	{{count}} 个其它
+settings.runtimePages.vpcInfra.queueOtherCount_other	{{count}} 个其它
+settings.runtimePages.vpcInfra.queueReviewCount_one	{{count}} 个 PR 审查
+settings.runtimePages.vpcInfra.queueReviewCount_other	{{count}} 个 PR 审查
+settings.runtimePages.vpcInfra.queueSessionsCount_one	{{count}} 个会话
+settings.runtimePages.vpcInfra.queueSessionsCount_other	{{count}} 个会话
+settings.runtimePages.vpcInfra.refresh	刷新
+settings.runtimePages.vpcInfra.restarting	重启中
+settings.runtimePages.vpcInfra.retiring	退役中
+settings.runtimePages.vpcInfra.running2	运行中
+settings.runtimePages.vpcInfra.runningHealthyAcceptingJobs	<span>运行中：</span>健康，接任务
+settings.runtimePages.vpcInfra.scaling	扩缩中
+settings.runtimePages.vpcInfra.sessions	会话
+settings.runtimePages.vpcInfra.stale2	失联
+settings.runtimePages.vpcInfra.staleHeartbeatLostExcludedFromCapacity	<span>失联：</span>心跳丢失，不计容量
+settings.runtimePages.vpcInfra.starting2	启动中
+settings.runtimePages.vpcInfra.startingBootingUp	<span>启动中：</span>正在引导
+settings.runtimePages.vpcInfra.status	状态
+settings.runtimePages.vpcInfra.terminated	已终止
+settings.runtimePages.vpcInfra.thereNoVpcsAvailableAccount	你账户没有可用 VPC。
+settings.runtimePages.vpcInfra.unableLoadData	加载不了数据
+settings.runtimePages.vpcInfra.unhealthy	不健康
+settings.runtimePages.vpcInfra.usage	用量
+settings.runtimePages.vpcInfra.usedOfMaxSlots	{{maxSlots}} 槽中 {{used}}
+settings.runtimePages.vpcInfra.yourOrganizationHasntConfiguredVirtualPrivate	你组织还没配虚拟私有云实例
+settings.sandboxDomainRequired	域名为必填项
+settings.sandboxDomains	沙箱域名
+settings.sandboxDomainsDescription	配置沙箱网络访问的域名过滤
+settings.sandboxExcluded	沙箱命令豁免
+settings.sandboxExcludedDescription	允许特定命令在沙箱外跑
+settings.sandboxExclusions	沙箱命令豁免
+settings.sandboxExclusionsConfigLabel	豁免配置
+settings.sandboxExclusionsDescription	选哪些命令能在沙箱外跑。拒绝规则优先级最高，用户覆盖不了
+settings.sandboxExclusionsHelp	JSON 可含三个可选字段：<code>allow</code>、<code>deny</code>、<code>ask</code>。每个字段应是 <code>Exec(...)</code> 权限规则数组（如 <code>Exec(git *)</code>）。allow 规则直接在沙箱外跑，ask 规则先要确认，deny 规则永不能豁免——压过团队和用户级 allow/ask 规则。详细配置见<docsLink>权限文档</docsLink>
+settings.sandboxExclusionsSaveFailed	存沙箱豁免失败
+settings.sandboxExclusionsSaved	沙箱豁免已存
+settings.save	保存
+settings.saveChanges	保存
+settings.saveTierError	存档位失败
+settings.saveTierOrder	存优先级
+settings.saving	保存中…
+settings.schedules	排期
+settings.scimBaseUrl	SCIM base URL
+settings.scimBaseUrlDescription	在你身份提供商的 SCIM 配置用此 URL
+settings.scimProvisioning	用户和 IdP 组供应
+settings.scimProvisioningDescription	管用户和组怎么从你身份提供商同步
+settings.scopeOverrides.add	加一个覆盖
+settings.scopeOverrides.edit	编辑覆盖
+settings.scopeOverrides.editFor	编辑 {{path}} 的覆盖
+settings.scopeOverrides.loadError	加载不了覆盖。刷新页面再试。
+settings.scopeOverrides.loading	加载覆盖中…
+settings.scopeOverrides.remove	移除覆盖
+settings.scopeOverrides.removeConfirm	移除
+settings.scopeOverrides.removeDescription	{{path}} 下仓库将回到上面选的发现项类型。
+settings.scopeOverrides.removeFor	移除 {{path}} 的覆盖
+settings.searchCertifications	搜索认证
+settings.searchFonts	搜索字体
+settings.searchGroupMappingsPlaceholder	搜索组
+settings.searchGroupsPlaceholder	搜索组
+settings.searchMembers	搜索成员
+settings.searchMembersPlaceholder	搜索成员…
+settings.searchSettings	搜索设置…
+settings.seatRequestFailed	申请全席位失败
+settings.seatRequestSentDescription	你的申请已发给你团队管理员审。
+settings.seatUsage	席位用量
+settings.seatUsageDescription	看和管全席位分配
+settings.secrets	机密
+settings.secretsDescription	管组织和个人机密
+settings.secretsFor	<picker/> 的机密
+settings.security	安全
+settings.securityAccessAdminOnly	仅管理员
+settings.securityAccessMembersAndAdmins	成员+管理员
+settings.securityAllMembers	Devin 安全访问
+settings.securityAllMembersDescription	谁能看安全、跑扫描和分诊发现项。
+settings.securityDescription	漏洞和安全加固建议
+settings.securityProfileAccessibleDomains	可访问域名
+settings.securityProfileAskBeforeExternalContent	加载外部内容前先问
+settings.securityProfileAskBeforeExternalContentDescription	从不自动取 Devin 机器上链接的外部内容。
+settings.securityProfileDialogCancel	取消
+settings.securityProfileDialogCreate	创建
+settings.securityProfileDialogCreateTitle	建安全配置
+settings.securityProfileDialogDescription	可复用的会话安全限制
+settings.securityProfileDialogEditTitle	编辑安全配置
+settings.securityProfileDialogSave	保存
+settings.securityProfileDialogSaving	保存中…
+settings.securityProfileDomainsCopied	域名已复制
+settings.securityProfileEnforcement	强制
+settings.securityProfileGitReadOnly	只读 git 访问
+settings.securityProfileGitReadOnlyDescription	挡会话推分支或开 PR
+settings.securityProfileGitRemoveGhToken	移除 GitHub CLI token
+settings.securityProfileGitRemoveGhTokenDescription	从 Devin 机器移除 GH token，防直接 GitHub API 访问
+settings.securityProfileGitSettings	Git
+settings.securityProfileGitSettingsDescription	限常见 git 功能访问
+settings.securityProfileGitTokenNeedsFullAccess	允许 GitHub CLI token 要完整 git 访问
+settings.securityProfileGitTokenNeedsHost	允许 GitHub CLI token 要网络政策白名单含 {{host}}（或覆盖它的通配）
+settings.securityProfileMcpServerAccess	MCP 服务器访问
+settings.securityProfileMcpServers	MCP 服务器
+settings.securityProfileMcpServersHelper	配置此配置里可用哪些 MCP 服务器
+settings.securityProfileMcpServers_one	{{count}} 个 MCP 服务器
+settings.securityProfileMcpServers_other	{{count}} 个 MCP 服务器
+settings.securityProfileMcpUnrestricted	全部 MCP 允许
+settings.securityProfileName	名称
+settings.securityProfileNamePlaceholder	如：生产、受限
+settings.securityProfileNetworkPolicy	网络政策
+settings.securityProfileNetworkPolicyAccess	网络政策访问
+settings.securityProfileNetworkPolicyHelper	控制会话能访问哪些网络目的地
+settings.securityProfileNetworkRules_one	{{count}} 条网络规则
+settings.securityProfileNetworkRules_other	{{count}} 条网络规则
+settings.securityProfileNoRestrictionsApplied	没应用限制
+settings.securityProfilePreventOverrides	防覆盖
+settings.securityProfilePreventOverridesDescription	只能更严，永不能覆盖
+settings.securityProfileReadOnlyAccess	只读访问
+settings.securityProfileReadOnlyAccessDescription	挡 MCP 建会话、管自动化等经 MCP 的写操作
+settings.securityProfileRestrictMcpServers	限 MCP 服务器
+settings.securityProfileRestrictMcpServersDescription	设用此配置的会话允许的 MCP 服务器
+settings.securityProfileRestrictNetworkAccess	限网络访问
+settings.securityProfileRestrictNetworkAccessDescription	设用此配置的会话允许的网络目的地
+settings.securityProfileSlackChannelAccess	频道访问
+settings.securityProfileSlackChannelAllPublic	全部公开频道
+settings.securityProfileSlackChannelNone	无
+settings.securityProfileSlackDmDisabled	已禁用
+settings.securityProfileSlackDmOrgMembers	组织成员
+settings.securityProfileSlackDmScope	私信
+settings.securityProfileSlackDmWorkspace	工作区
+settings.securityProfileSlackNotSet	未设
+settings.securityProfileSlackNotSetDescription	未设，用账户设置
+settings.securityProfileSlackSettings	Slack
+settings.securityProfileSlackSettingsDescription	限用此配置会话的频道和私信
+settings.securityProfileTeamsChannelAccess	频道访问

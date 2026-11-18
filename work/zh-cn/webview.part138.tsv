@@ -1,0 +1,160 @@
+worklog.failedToRevokeLocalAccess	断开不了本地机。
+worklog.failedToStopCommand	停命令失败。请重试。
+worklog.failedToStopSubagent	停子 agent 失败。请重试。
+worklog.failedToUpdateNetworkConfig	更新网络配置失败。
+worklog.failedToUpdateProfile	更新配置失败
+worklog.failedToUpdateSecurityProfile	更新安全配置失败。
+worklog.failedToUpdateTestingPreference	更新测试偏好失败。请重试。
+worklog.followsRepoBlueprintFile	用仓库的 blueprint 文件
+worklog.generatedWiki	已生成 wiki
+worklog.generatingWiki	生成 wiki 中
+worklog.grantNetworkAccess	授网络访问
+worklog.handoffDeclined	本地更改已拒。
+worklog.handoffDiffDescription	把你未提交更改作为 diff 发
+worklog.handoffOpenInDesktop	在 Devin Desktop 开此会话以发或拒这些更改。
+worklog.handoffRequested	Devin 想在其 VM 继续
+worklog.handoffSent	本地更改已发。
+worklog.hookBlocked	Hook 挡了：
+worklog.hookExitCode	以码 {{code}} 退出
+worklog.hookExited	带错退出
+worklog.hookFailed	Hook 失败：
+worklog.hookMachineUnreachable	机器不可达
+worklog.hookNotRun	跑不了
+worklog.hookReplacedInput	Hook 替换了工具输入：
+worklog.hookReplacedOutput	Hook 替换了工具输出：
+worklog.hookStopped	Hook 停了回合：
+worklog.hookTimedOut	{{duration}} 后超时
+worklog.hookUnparseableOutput	输出不是 hook 输出
+worklog.howContinueManageIndexing	你想怎么继续？<settingsLink>管仓库索引</settingsLink>
+worklog.imessageConnectUnavailable	iMessage 从这连不了。
+worklog.imessageConnectedTitle	iMessage 已连
+worklog.importedKnowledge	已导入知识
+worklog.inboxRequiresAttention	需要你
+worklog.indexLaterFromSettings	你能以后从<settingsLink>仓库索引设置</settingsLink>索引它。
+worklog.indexNounFree	索引 {{noun}}（免费）
+worklog.indexed	已索引 {{repoLabel}}
+worklog.indexing	索引 {{repoLabel}} 中
+worklog.indexingComplete	索引完成
+worklog.indexingPercentComplete	索引中——{{progressPercent}}% 完成
+worklog.inheritFromDefaults	继承默认值
+worklog.inheritFromDefaults_named	继承默认值（{{name}}）
+worklog.inheritFromDefaults_none	继承默认值（无配置）
+worklog.initialMessage	初始消息
+worklog.initialMessageExample	如 审最近支持工单
+worklog.integrationSettings	{{label}} 设置
+worklog.linkedSessionClosedPrs_one	{{count}} 个已关 PR
+worklog.linkedSessionClosedPrs_other	{{count}} 个已关 PR
+worklog.linkedSessionMergedPrs_one	{{count}} 个已合并 PR
+worklog.linkedSessionMergedPrs_other	{{count}} 个已合并 PR
+worklog.linkedSessionOpenPrs_one	{{count}} 个开放 PR
+worklog.linkedSessionOpenPrs_other	{{count}} 个开放 PR
+worklog.listedAvailableDevinTools	列了可用 Devin 工具
+worklog.listedAvailableMcpServers	列了可用 MCP 服务器
+worklog.listedSkills	列了技能：<count>{{skillCount}}</count> 个可用
+worklog.listedToolsFor	列了 {{displayName}} 的工具
+worklog.listedToolsOnMcpServer	列了 MCP 服务器 {{server}} 的工具
+worklog.listingAvailableDevinTools	列可用 Devin 工具中
+worklog.listingAvailableMcpServers	列可用 MCP 服务器中
+worklog.listingToolsFor	列 {{displayName}} 工具中
+worklog.listingToolsOnMcpServer	列 MCP 服务器 {{server}} 工具中
+worklog.loading	加载中…
+worklog.loadingChanges	加载更改中…
+worklog.loadingCurrentConfig	加载当前配置中…
+worklog.loadingCurrentProfile	加载当前配置中…
+worklog.loadingNetworkPolicy	加载网络政策中…
+worklog.localAccessDeclined	本地机访问被拒
+worklog.localAccessDeclinedDescription	Devin 没此机访问权。
+worklog.localAccessExpired	本地机访问请求过期
+worklog.localAccessFailed	连接失败。重试，或跑下面命令。
+worklog.localAccessRequested	请求了本地机访问
+worklog.localAccessRevoked	本地机已断开
+worklog.localAccessRevokedDescription	Devin 不再有本地机访问权。
+worklog.localAccessSignInRequired	在此机登录 Devin 以在这批，或跑下面命令。
+worklog.localAccessSuperseded	本地机访问请求被替
+worklog.localAccessSupersededDescription	更新的访问请求替了它，所以其配对码失效。
+worklog.localApprovalModeBypass	绕权限
+worklog.localApprovalModeNormal	逐命令批准
+worklog.localApprovalModeSmart	智能权限
+worklog.localAskRuleBuiltin	因 Devin CLI 内置规则每次都问：
+worklog.localAskRuleOrg	因你组织规则每次都问：
+worklog.localAskRuleUnknown	因规则每次都问：
+worklog.localAskRuleUser	因你 Devin CLI 配置的询问规则每次都问：
+worklog.localBinaryFile	二进制文件
+worklog.localBypassBlocked	这些修好前绕权限关着：
+worklog.localEditCount_one	{{count}} 处编辑
+worklog.localEditCount_other	{{count}} 处编辑
+worklog.localMachineApproverOnly	只其机器连着的用户能批此请求
+worklog.localMachineBypassConnectedUserOnly	只连此机的用户能选智能或绕权限
+worklog.localMachineBypassOwnerOnly	多人会话没智能和绕权限。先把会话设为只所有者。
+worklog.localMachineChipDisconnectedAria	本地手（连接已断）
+worklog.localMachineChipLabel	本地手
+worklog.localMachineChipRevokedAria	本地手（已断开）
+worklog.localMachineConnected	本地机已连
+worklog.localMachineDisconnected	连接已断
+worklog.localMachineIdentityUnknown	本地机
+worklog.localProjectRule	项目规则：{{rule}} · 工作区：{{workspace}}
+worklog.localRuleCheckFailed	查不了你规则。允前审此调用。
+worklog.macroLabel	宏：{{macro}}
+worklog.manageBotAccess	管 {{botName}} 访问
+worklog.manageProfile	管 {{profileName}}
+worklog.mandatoryProfileLocksNetworkControls	{{profileName}} 配置为强制，所以此会话关不了网络控制。你只能进一步限下面目标。
+worklog.mcpAccess	访问
+worklog.mcpAccessBot	此 {{botName}}
+worklog.mcpAccessOrganization	你组织所有人
+worklog.mcpAccessPersonal	只你
+worklog.mcpAddAccount	加账户
+worklog.mcpAddAccountRequest	为 {{server}} 加另一账户。
+worklog.mcpAuthConnect	连接
+worklog.mcpAuthConnectLabel	连 {{server}}
+worklog.mcpAuthConnected	已连
+worklog.mcpAuthConnectionFailed	连接失败
+worklog.mcpAuthConnectionRequired	须连接
+worklog.mcpAuthFailedBackticked	MCP 服务器 `{{server}}` 认证失败
+worklog.mcpAuthMemberDescription	找管理员开此会话并连它。
+worklog.mcpAuthRequested	请求了 MCP 服务器 `{{server}}` 认证
+worklog.mcpAuthSuccessfulBackticked	MCP 服务器 `{{server}}` 认证成功
+worklog.mcpAuthTryAgain	重试
+worklog.mcpAuthTryAgainLabel	重试：连 {{server}}
+worklog.mcpConnectedAccountCount_one	{{count}} 个账户
+worklog.mcpConnectedAccountCount_other	{{count}} 个账户
+worklog.mcpConnectedAccountMore_one	还有 {{count}} 个
+worklog.mcpConnectedAccountMore_other	还有 {{count}} 个
+worklog.mcpConnectedAccounts	已连账户
+worklog.mcpConnectionAdded	连接已加
+worklog.mcpConnectionRemoved	连接已移除
+worklog.mcpCreatedSessions_one	建了 1 个 Devin 会话
+worklog.mcpCreatedSessions_other	建了 {{count}} 个 Devin 会话
+worklog.mcpCreatingSessions_one	建 Devin 会话中
+worklog.mcpCreatingSessions_other	建 {{count}} 个 Devin 会话中
+worklog.mcpFailedToCreateSessions_one	建会话失败
+worklog.mcpFailedToCreateSessions_other	建 {{count}} 个会话失败
+worklog.mcpInstallConfigure	配置
+worklog.mcpInstallFailed	安装失败
+worklog.mcpNewConnection	新连接
+worklog.mcpScope	范围
+worklog.mcpScopeHelp	你组织全部成员共享此连接。
+worklog.mcpScopeHelpLabel	关于连接范围
+worklog.mcpScopeOrganization	组织
+worklog.mcpScopePersonal	个人
+worklog.mcpScopeUnavailable	连接范围先知才能批。
+worklog.mcpScopeUnspecified	未定
+worklog.mcpServerCallFailed	MCP 服务器调用失败。
+worklog.mcpServerName	MCP 服务器 {{server}}
+worklog.mcpShare	共享
+worklog.mcpShareQuestion	你已连 {{server}}。想给此 {{botName}} 新 {{server}} 连接还是共享你当前的？共享让此 {{botName}} 用你登录。
+worklog.mcpShareQuestionPlugin	共享把 {{server}} 背后你整个插件（技能、规则、hook）和你登录给此 {{botName}}，或你能给它新 {{server}} 连接。
+worklog.mcpShareQuestionPlugin_named	共享把 {{server}} 背后你整个插件（技能、规则、hook）和你登录给 {{botName}}，或你能给它新 {{server}} 连接。
+worklog.mcpShareQuestion_named	你已连 {{server}}。想给 {{botName}} 新 {{server}} 连接还是共享你当前的？共享让 {{botName}} 用你登录。
+worklog.mcpSource	来源
+worklog.mcpSourceCustom	自定义服务器
+worklog.mcpSourceCustomBadge	自定义
+worklog.mcpSourceMarketplace	Devin 市场
+worklog.mcpSourceMarketplaceBadge	市场
+worklog.memoryApprovalBody	每个用 {{name}} 的人会见它读的内容。它改不了你笔记，你随时能在管访问移除访问。
+worklog.memoryApprovalInboxDescription	只读；只那个成员能批。每个用此 {{botName}} 的人会见它读的内容。
+worklog.memoryApprovalInboxTitle	读成员个人记忆
+worklog.memoryApprovalLabel	个人记忆
+worklog.memoryApprovalOnlyMember	只 {{member}} 能批此请求。
+worklog.memoryApprovalTitle	让 {{name}} 读你个人记忆
+worklog.memoryDriveDiffTruncated	diff 在大小上限截断。
+worklog.memoryDriveManage	管记忆

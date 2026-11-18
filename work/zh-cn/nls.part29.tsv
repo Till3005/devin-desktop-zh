@@ -1,0 +1,140 @@
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxLegacySessionPreparation/sandbox.projectTimedOut	仓库克隆未在五分钟内完成。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxModels/cloudSandbox.modelsFailed	无法为 GitHub 沙箱加载模型。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxModels/cloudSandbox.modelsProvider	GitHub 沙箱
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxModels/cloudSandbox.retryModels	重试
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxReadOnlySessionHandler/cloudSandbox.truncatedHistory	此对话不完整。其记录的历史在回复中途结束，最后一次交互可能缺失。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxSessionContribution/cloudSandbox.archiveSessionNotFound	找不到 Mission Control 沙箱会话。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxSessionContribution/cloudSandbox.deleteSessionNotFound	找不到 Mission Control 沙箱会话。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxSessionContribution/cloudSandbox.renameSessionNotFound	找不到 Mission Control 沙箱会话。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxSessionListController/cloudSandbox.archiveFailed	无法更改沙箱会话的归档状态：{0}
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxSessionListController/cloudSandbox.archiveInvalidSession	该会话不属于此沙箱。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxSessionListController/cloudSandbox.deleteInvalidSession	该会话不属于此沙箱。
+vs/workbench/contrib/chat/browser/remoteAgentHost/editorCloudSandboxContribution/cloudSandbox.discoveryDescription	现有的云沙箱会话。
+vs/workbench/contrib/chat/browser/remoteAgentHost/editorCloudSandboxContribution/cloudSandbox.discoveryName	GitHub 沙箱
+vs/workbench/contrib/chat/browser/remoteAgentHost/editorCloudSandboxContribution/cloudSandbox.sessionName	GitHub 沙箱
+vs/workbench/contrib/chat/browser/remoteAgentHost/remoteAgentHost.contribution/chat.agentHost.cloudSandbox.enabled	启用通过实时 Agent Host Protocol 中继在编辑器窗口和 Agents 窗口中发现并打开 Copilot 云沙箱会话。在 Agents 窗口中启动云会话时也会增加“沙箱”选项。
+vs/workbench/contrib/chat/browser/remoteAgentHost/remoteAgentHost.contribution/chat.remoteAgentHosts.enabled	启用连接远程 agent host。
+vs/workbench/contrib/chat/browser/remoteAgentHost/remoteAgentHostChatContribution/remoteAgentHost.removeConfiguredPlugin	从远程 host 移除
+vs/workbench/contrib/chat/browser/remoteAgentHost/remoteAgentHostCustomizationHarness/remoteAgentHost.addPlugin	添加远程插件
+vs/workbench/contrib/chat/browser/remoteAgentHost/remoteAgentHostCustomizationHarness/remoteAgentHost.addPluginTooltip	添加此远程 agent host 上已存在的插件文件夹。
+vs/workbench/contrib/chat/browser/remoteAgentHost/remoteAgentHostCustomizationHarness/remoteAgentHost.pluginAlreadyConfigured	“{0}”已在 {1} 上配置。
+vs/workbench/contrib/chat/browser/remoteAgentHost/remoteAgentHostCustomizationHarness/remoteAgentHost.selectPluginFolder	在 {0} 上选择插件文件夹
+vs/workbench/contrib/chat/browser/sessionBackgroundShellOutputView/backgroundShells.accessibleCommand	命令：{0}
+vs/workbench/contrib/chat/browser/sessionBackgroundShellOutputView/backgroundShells.accessibleStatus	状态：{0}
+vs/workbench/contrib/chat/browser/sessionBackgroundShellOutputView/backgroundShells.exited	已退出
+vs/workbench/contrib/chat/browser/sessionBackgroundShellOutputView/backgroundShells.exitedWithCode	已退出，退出码 {0}
+vs/workbench/contrib/chat/browser/sessionBackgroundShellOutputView/backgroundShells.loadingOutput	正在等待输出…
+vs/workbench/contrib/chat/browser/sessionBackgroundShellOutputView/backgroundShells.noOutput	没有输出。
+vs/workbench/contrib/chat/browser/sessionBackgroundShellOutputView/backgroundShells.noOutputYet	暂无输出。
+vs/workbench/contrib/chat/browser/sessionBackgroundShellOutputView/backgroundShells.outputRegion	{0} 的终端输出
+vs/workbench/contrib/chat/browser/sessionBackgroundShellOutputView/backgroundShells.outputRegionWithHint	{0} 的终端输出，{1}
+vs/workbench/contrib/chat/browser/sessionBackgroundShellOutputView/backgroundShells.outputUnavailable	输出不可用：{0}
+vs/workbench/contrib/chat/browser/sessionBackgroundShellOutputView/backgroundShells.running	运行中
+vs/workbench/contrib/chat/browser/sessionBackgroundShellOutputView/backgroundShells.statusUnknown	状态未知
+vs/workbench/contrib/chat/browser/sessionBackgroundShellsControl/backgroundShells.accessibilityHelp	“后台 Shell”药丸在聊天输入框上方打开选择器，单个 shell 亦然。每个条目包含已用时长，shell 独立于 agent 运行时标记为“已分离”。用方向键选择 shell，然后按 Enter 或右方向键在选择器旁打开其实时命令详情。左方向键或 Escape 返回列表；在列表中按 Escape 将焦点返回药丸。详情打开时已用时长继续更新，shell 完成后即消失。有输出时，详情在只读终端上方显示命令及其状态并流式输出。按 Tab 移到输出，然后使用“打开无障碍视图”{0}以文本形式阅读命令、状态和输出。此列表不停止命令。
+vs/workbench/contrib/chat/browser/sessionBackgroundShellsControl/backgroundShells.active	活动的后台 Shell
+vs/workbench/contrib/chat/browser/sessionBackgroundShellsControl/backgroundShells.attachmentWithDuration	{0}，{1}
+vs/workbench/contrib/chat/browser/sessionBackgroundShellsControl/backgroundShells.command	命令：{0}
+vs/workbench/contrib/chat/browser/sessionBackgroundShellsControl/backgroundShells.detached	已分离
+vs/workbench/contrib/chat/browser/sessionBackgroundShellsControl/backgroundShells.details	{0}\n\n{1}
+vs/workbench/contrib/chat/browser/sessionBackgroundShellsControl/backgroundShells.facts	命令：{0}\nShell ID：{1}\n开始于：{2}
+vs/workbench/contrib/chat/browser/sessionBackgroundShellsControl/backgroundShells.factsWithoutId	命令：{0}\n开始于：{1}
+vs/workbench/contrib/chat/browser/sessionBackgroundShellsControl/backgroundShells.id	Shell ID：{0}
+vs/workbench/contrib/chat/browser/sessionBackgroundShellsControl/backgroundShells.showDetails	显示后台 shell {0} 的详情
+vs/workbench/contrib/chat/browser/sessionBackgroundShellsControl/backgroundShells.startedAt	开始于：{0}
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/chatInputPills.showAll	显示全部
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionBackgroundShells.count	{0} 个后台 Shell
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionBackgroundShells.countSingle	1 个后台 Shell
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionBackgroundShells.show	显示 {0} 个后台 shell
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionBackgroundShells.showSingle	显示 1 个后台 shell
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionBackgroundShells.title	后台 Shell
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionBrowsers.count	{0} 个活动浏览器
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionBrowsers.countSingle	1 个活动浏览器
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionBrowsers.show	显示 {0} 个浏览器
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionBrowsers.showSingle	显示 1 个浏览器
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionBrowsers.title	浏览器
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionCustomizations.count	{0} 项自定义
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionCustomizations.countSingle	1 项自定义
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionCustomizations.show	显示 {0} 项自定义
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionCustomizations.showSingle	显示 1 项自定义
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionCustomizations.title	自定义项
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionIssues.count	{0} 个议题
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionIssues.countSingle	1 个议题
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionIssues.show	显示 {0} 个议题
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionIssues.showSingle	显示 1 个议题
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionIssues.title	议题
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionPullRequests.count	{0} 个 Pull Request
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionPullRequests.countSingle	1 个 Pull Request
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionPullRequests.show	显示 {0} 个 PR
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionPullRequests.showSingle	显示 1 个 PR
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionPullRequests.title	Pull Requests
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionReferences.count	{0} 个引用
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionReferences.countSingle	1 个引用
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionReferences.show	显示 {0} 个引用
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionReferences.showSingle	显示 1 个引用
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionReferences.title	引用
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionSubagents.count	{0} 个子代理
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionSubagents.countSingle	1 个子代理
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionSubagents.show	显示 {0} 个子代理
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionSubagents.showSingle	显示 1 个子代理
+vs/workbench/contrib/chat/browser/sessionChatPillOptions/sessionSubagents.title	子代理
+vs/workbench/contrib/chat/browser/sessionCustomizations/sessionCustomizations.agents	Agents
+vs/workbench/contrib/chat/browser/sessionCustomizations/sessionCustomizations.hooks	Hooks
+vs/workbench/contrib/chat/browser/sessionCustomizations/sessionCustomizations.instructions	Instructions
+vs/workbench/contrib/chat/browser/sessionCustomizations/sessionCustomizations.mcpServers	MCP 服务器
+vs/workbench/contrib/chat/browser/sessionCustomizations/sessionCustomizations.plugins	插件
+vs/workbench/contrib/chat/browser/sessionCustomizations/sessionCustomizations.prompts	Prompts
+vs/workbench/contrib/chat/browser/sessionCustomizations/sessionCustomizations.skills	Skills
+vs/workbench/contrib/chat/browser/sessionPullRequestPill/chatInputPills.pullRequests.showOpen	显示打开/草稿
+vs/workbench/contrib/chat/browser/sessionSubagentsPill/backgroundActivities.subagent	子代理
+vs/workbench/contrib/chat/browser/sessionSubagentsPill/backgroundActivities.subagents.completed	子代理：已完成
+vs/workbench/contrib/chat/browser/sessionSubagentsPill/backgroundActivities.subagents.inProgress	子代理：进行中
+vs/workbench/contrib/chat/browser/sessionSubagentsPill/backgroundActivities.subagents.showInProgress	显示进行中
+vs/workbench/contrib/chat/browser/speechToText/dictationSession/chatStt.maximumDurationReached	听写在 20 分钟后停止。
+vs/workbench/contrib/chat/browser/tools/clientToolSetsContribution/clientToolSet.remoteSessions.description	远程会话
+vs/workbench/contrib/chat/browser/tools/clientToolSetsContribution/clientToolSet.remoteSessions.detail	查找远程 agent host、委派和检查工作，以及在 host 之间发送消息。
+vs/workbench/contrib/chat/browser/voiceClient/voiceSessionController/voiceMode.disabled	语音模式已禁用。
+vs/workbench/contrib/chat/browser/voiceClient/voiceSessionController/voiceMode.organizationUnavailable	GitHub Copilot Business 或 Enterprise 账号不可用语音模式。
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.behindBaseBranch	落后于基础分支
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.failingChecks	{0} 项检查失败
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.fourEvents	{0}、{1}、{2} 和 {3}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.mergeConflicts	合并冲突
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.noPendingFeedback	没有待处理反馈
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.oneFailingCheck	1 项检查失败
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.oneReviewComment	1 条评审评论
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.openPullRequestWithTitle	打开 Pull Request #{0}：{1}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.openPullRequestWithTitleFallback	打开 Pull Request：{0}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.pullRequestPillLabel	#{0} {1}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.reviewComments	{0} 条评审评论
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.showAgentMessage	显示 Agent 消息
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.showMergeDetails	显示合并详情
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.source	Agent Merge
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.startedAt	开始于 {0}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.summaryLabel	{0}，{1}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.threeEvents	{0}、{1} 和 {2}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentMergeContentPart/chat.agentMerge.twoEvents	{0} 和 {1}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatChangesSummaryPart/chat.fileChanges	文件更改
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatEditStatsButton/chat.edits.viewChanges	查看文件更改
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatEditStatsButton/chat.edits.viewChangesAccessible	查看文件更改，新增 {0} 行，删除 {1} 行
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatMcpServersStartingContentPart/mcp.starting.withSkip	{0} [跳过](#skip)
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatMcpServersStartingContentPart/mcp.waiting.for.servers	正在等待 MCP 服务器 {0}…
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatProgressContentPart/persistentProgress.takingLonger	耗时比平时稍长
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatReferencesContentPart/chat.copyLink.status	链接已复制到剪贴板
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatRequestOriginPart/chat.requestOrigin.openSourceSession	打开来源会话
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSubagentContentPart/chat.subagent.nestedActivity	子代理：{0}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSubagentContentPart/chat.subagent.openChat	打开子代理
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSubagentOpenChat/chat.subagent.contextWindow	上下文窗口：{0}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSubagentOpenChat/chat.subagent.defaultContext	默认
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSubagentOpenChat/chat.subagent.hideDetails	隐藏子代理详情：{0}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSubagentOpenChat/chat.subagent.longContext	长上下文
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSubagentOpenChat/chat.subagent.nestedActivity	子代理：{0}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSubagentOpenChat/chat.subagent.openChat.unavailable	子代理聊天暂不可用。
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSubagentOpenChat/chat.subagent.openNestedChat	在侧边打开子代理聊天：{0}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSubagentOpenChat/chat.subagent.pendingChat.aria	子代理：{0}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSubagentOpenChat/chat.subagent.reasoningEffort	推理力度：{0}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSubagentOpenChat/chat.subagent.showDetails	显示子代理详情：{0}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSubagentOpenChat/chat.subagent.waitingForInput	等待输入
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSystemNotificationContentPart/chat.systemNotification.hideDetails	隐藏 {0} 的详情
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSystemNotificationContentPart/chat.systemNotification.showDetails	显示 {0} 的详情
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatThinkingContentPart/chat.toolChain	工具调用
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatThinkingContentPart/chat.working.fun.10	正在搅拌方案

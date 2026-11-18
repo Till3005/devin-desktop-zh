@@ -1,0 +1,160 @@
+worklog.slackConnectTitle	连 Slack
+worklog.slackConnectUnavailable	Slack 从这连不了。
+worklog.slackDetailAction	操作
+worklog.slackDetailAttachment	附件
+worklog.slackDetailCanvasContent	内容
+worklog.slackDetailCanvasOperation	操作
+worklog.slackDetailCanvasTitle	标题
+worklog.slackDetailChannel	频道
+worklog.slackDetailEmoji	表情
+worklog.slackDetailFileId	文件 ID
+worklog.slackDetailMessage	消息
+worklog.slackDetailMessageTimestamp	消息时间戳
+worklog.slackDetailOpenInSlack	在 Slack 开
+worklog.slackDetailRecipientUserId	收者用户 ID
+worklog.slackDetailResourceName	资源名
+worklog.slackDetailResourceType	资源类型
+worklog.slackDetailSectionId	分节 ID
+worklog.slackDetailThread	线程
+worklog.slackDetailUserId	用户 ID
+worklog.slackDetailWorkspaceId	工作区 ID
+worklog.snapshotBuildWarningDetail	那些设置命令装的依赖、工具或仓库可能缺或旧。
+worklog.snapshotBuildWarningEyebrow	环境构建不全
+worklog.snapshotBuildWarningHeadlineUnknown	有些设置步失败；Devin 可能缺依赖。
+worklog.snapshotBuildWarningHeadline_one	{{count}} 个 blueprint 设置失败；Devin 可能缺依赖。
+worklog.snapshotBuildWarningHeadline_other	{{count}} 个 blueprint 设置失败；Devin 可能缺依赖。
+worklog.somethingWentWrongTryAgain	出了错。请重试。
+worklog.startDevinSession_one	起 Devin 会话
+worklog.startDevinSession_other	起 {{count}} 个 Devin 会话
+worklog.startMode	起 {{mode}}
+worklog.startModeSession_one	起 {{mode}} 会话
+worklog.startModeSession_other	起 {{count}} 个 {{mode}} 会话
+worklog.startSession	起会话
+worklog.startSession_one	起会话
+worklog.startSession_other	起会话
+worklog.starting	起中…
+worklog.statusFilter	状态：{{statusFilter}}
+worklog.suggestSessionTitle	建议会话：{{title}}
+worklog.suggestSessions_one	建议 {{count}} 个会话
+worklog.suggestSessions_other	建议 {{count}} 个会话
+worklog.suggested	已建议
+worklog.suggestedChangesTo	对 <name>{{profileName}}</name> 的建议更改
+worklog.suggestedEnvironmentUpdate	对此环境的建议更新
+worklog.suggestedNewKnowledge	建议新知识：「{{trigger}}」
+worklog.suggestedPlaybookTitle	建议 playbook：{{title}}
+worklog.suggestedScopeSetup	建议 <scope>{{scope}}</scope> 设置
+worklog.suggestedSkillTitle	建议技能：{{title}}
+worklog.suggestedUpdateToKnowledge	对知识的建议更新：「{{trigger}}」
+worklog.suggestionDismissed	建议已消
+worklog.switchToGit	切到 Git
+worklog.syncTo	同步到 {{boundLabel}}
+worklog.tablePreviewLimitedColumns	预览限 {{totalColumns}} 列中 {{visibleColumns}} 列
+worklog.tablePreviewLimitedRows	预览限 {{totalRows}} 行中 {{visibleRows}} 行
+worklog.tablePreviewLimitedRowsAndColumns	预览限 {{totalRows}} 行中 {{visibleRows}} 行和 {{totalColumns}} 列中 {{visibleColumns}} 列
+worklog.teamsOpenMessage	在 Teams 开
+worklog.theSelectedRepository	所选仓库
+worklog.triggeringSlackLabel	触发事件
+worklog.truncateCellText	截断单元格文本
+worklog.tryAgain	重试
+worklog.tryRestart	试重启
+worklog.unableToPreviewAttachment	预览不了此附件。
+worklog.unsavedChanges_one	{{count}} 处未存更改
+worklog.unsavedChanges_other	{{count}} 处未存更改
+worklog.untitledPlaybook	无题 Playbook
+worklog.update	更新
+worklog.updateKnowledgeTitle	更新知识：{{name}}
+worklog.updateNetworkConfig	更新网络配置
+worklog.updatePlaybook	更新 playbook
+worklog.updated	已更新
+worklog.updatedProfileNextWake	更新的配置下次此会话醒来生效
+worklog.useInheritedNetworkRules	用继承规则
+worklog.useProfileNetworkRules	用 {{profileName}} 规则
+worklog.useTerminalInstead	改用终端
+worklog.userAvatar	用户头像
+worklog.userInvokedSkill	用户调技能：
+worklog.viewBuild	看构建
+worklog.viewInSettings	在设置看
+worklog.viewKnowledge	看知识
+worklog.viewMcpServerLog	看服务器日志
+worklog.viewMcpServerLogTooltip	从会话机器开 MCP 服务器 stderr 日志（机密值已脱敏）
+worklog.viewNewerSuggestion	看更新建议
+worklog.viewOutput	看输出
+worklog.viewPlaybook	看 playbook
+worklog.viewPlugin	看插件
+worklog.viewPr	看 PR
+worklog.viewPrNumber	看 PR #{{prNumber}}
+worklog.viewSettings	看设置
+worklog.viewWorkflowDocumentation	看 workflow 文档
+worklog.warning	警告
+worklog.wiki	Wiki
+worklog.wikiForRepo	{{repoName}} 的 Wiki
+worklog.workItemActorAutomation	一个自动化
+worklog.workItemActorTeammate	一个队友
+worklog.workItemDetected	从消息链了 <item>{{key}}</item>
+worklog.workItemLinked	{{actor}} 链了 <item>{{key}}</item>
+worklog.workItemUnlinked	{{actor}} 解链了 <item>{{key}}</item>
+worklog.workflowScriptLines_one	{{count}} 行脚本
+worklog.workflowScriptLines_other	{{count}} 行脚本
+worklog.workflowTimeout	超时：{{seconds}} 秒
+worklog.wrapCellText	折行单元格文本
+workshopFeedback.answers.no	否
+workshopFeedback.answers.partially	部分
+workshopFeedback.answers.yes	是
+workshopFeedback.q1	Cognition 培训师答你问题效果怎样？
+workshopFeedback.q2	他们能解决你全部问题/疑虑吗？
+workshopFeedback.q3	你现在更有信心用好 Devin 吗？
+workshopFeedback.q4	你想多看点什么？你会改或加什么？
+workshopFeedback.q5	对培训师或会话内容/结构的开放反馈
+workshopFeedback.required	（必填）
+workshopFeedback.requiredError	答此问题
+workshopFeedback.submit	提交反馈
+workshopFeedback.submitError	提交你反馈时出了错。请重试。
+workshopFeedback.submitting	提交中…
+workshopFeedback.thanksDescription	你回答已记录，会帮我们改进今后工作坊。
+workshopFeedback.thanksTitle	谢你反馈！
+workshopFeedback.title	工作坊反馈
+workspace.allCaughtUp	都看完了
+workspace.allChanges	全部更改
+workspace.browserBackToDevin	回 Devin
+workspace.browserGoToLive	去看实时
+workspace.browserImageLoadFailed	加载不了图片
+workspace.browserLive	实时
+workspace.browserLiveUnavailable	实时不可用
+workspace.browserLoadingScreenshot	加载截图中…
+workspace.browserNoHistory	还没有浏览器历史
+workspace.browserPreview.appDescription	描述
+workspace.browserPreview.appTitle	标题
+workspace.browserPreview.back	回退
+workspace.browserPreview.backToPreview	回预览
+workspace.browserPreview.cancelSelection	取消元素选择
+workspace.browserPreview.clearBrowsingData	清浏览数据
+workspace.browserPreview.clearBrowsingDataDescription	浏览器标签页的 cookie、站点存储和历史会被删。站点会登出你。
+workspace.browserPreview.contextMenuAddToChat	加到聊天
+workspace.browserPreview.contextMenuBack	回退
+workspace.browserPreview.contextMenuForward	前进
+workspace.browserPreview.contextMenuInspect	检查
+workspace.browserPreview.contextMenuReload	重载
+workspace.browserPreview.create	创建
+workspace.browserPreview.default	默认
+workspace.browserPreview.descriptionPlaceholder	此应用是干什么的？
+workspace.browserPreview.designAddSection	加 {{section}}
+workspace.browserPreview.designAddToChat	加到聊天
+workspace.browserPreview.designAnnotationImageUnavailable	捕捉不了标注图。重画再试。
+workspace.browserPreview.designAnnotationUploadFailed	发不了标注图。重试。
+workspace.browserPreview.designClearAnnotations	清标注
+workspace.browserPreview.designColorAlpha	不透明度百分比
+workspace.browserPreview.designColorBlue	蓝
+workspace.browserPreview.designColorChroma	彩度
+workspace.browserPreview.designColorFormat	颜色格式
+workspace.browserPreview.designColorGreen	绿
+workspace.browserPreview.designColorHslSaturation	饱和度
+workspace.browserPreview.designColorHue	色相
+workspace.browserPreview.designColorLabA	绿红轴
+workspace.browserPreview.designColorLabB	蓝黄轴
+workspace.browserPreview.designColorLightness	亮度
+workspace.browserPreview.designColorRed	红
+workspace.browserPreview.designColorSaturation	饱和度和明度
+workspace.browserPreview.designColorValue	颜色值
+workspace.browserPreview.designColorWideGamut	超 sRGB，所以 hex 值为近似。在拾色器用其自身格式保全色。
+workspace.browserPreview.designColorWideGamutTag	P3
+workspace.browserPreview.designControls.addColumn	加列

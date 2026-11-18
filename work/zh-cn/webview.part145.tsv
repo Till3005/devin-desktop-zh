@@ -1,0 +1,199 @@
+workspace.connectionRetrying	连接失败，重试中…（{{count}}/20）
+workspace.diffLanguage.definitionChoices_one	{{count}} 个定义
+workspace.diffLanguage.definitionChoices_other	{{count}} 个定义
+workspace.diffLanguage.definitionCount_one	{{count}} 个定义。点击开它。
+workspace.diffLanguage.definitionCount_other	{{count}} 个定义。点击挑一个。
+workspace.diffLanguage.loadingProject	加载代码智能中…
+workspace.disableVmAudio	静音 VM 音频
+workspace.downloadFile	下载 {{filename}}
+workspace.downloadFullFile	下载完整文件
+workspace.driveComputer	点任意处操控电脑
+workspace.editedByYou	你编辑过
+workspace.editorFailedToStart	编辑器起不来
+workspace.editorFailedToStartDescription	试重载页面。还犯就编辑器暂不可用。
+workspace.enableVmAudio	开 VM 音频
+workspace.exitFullScreen	退出全屏
+workspace.exitFullWidth	退出全宽
+workspace.expandAllFiles	展开全部文件
+workspace.explorer.branchChanges	分支更改
+workspace.explorer.branches	分支
+workspace.explorer.collapseFolders	在资源管理器收起文件夹
+workspace.explorer.comparedWith	{{branch}} 对比 {{baseRef}}
+workspace.explorer.connecting	连 Devin 电脑中
+workspace.explorer.copy	复制
+workspace.explorer.copyPath	复制路径
+workspace.explorer.copyRelativePath	复制相对路径
+workspace.explorer.couldNotConnect	连不了 Devin 电脑
+workspace.explorer.cut	剪切
+workspace.explorer.delete	删除
+workspace.explorer.deleteDescription	确定要删「{{name}}」？此操作撤不了。
+workspace.explorer.deleteFileTitle	删文件？
+workspace.explorer.deleteFolderTitle	删文件夹？
+workspace.explorer.devinAsleep	Devin 休眠中
+workspace.explorer.devinWaking	Devin 醒中
+workspace.explorer.download	下载
+workspace.explorer.failedToFindRepositories	找不到工作区仓库
+workspace.explorer.failedToLoadBranchChanges	加载不了分支更改
+workspace.explorer.failedToLoadFiles	加载不了工作区文件
+workspace.explorer.folderCount_one	{{count}} 个文件夹
+workspace.explorer.folderCount_other	{{count}} 个文件夹
+workspace.explorer.hideSidebar	隐侧栏
+workspace.explorer.moveLeft	资源管理器移左
+workspace.explorer.moveRight	资源管理器移右
+workspace.explorer.newFile	新文件…
+workspace.explorer.newFolder	新文件夹…
+workspace.explorer.noBranchChanges	找不到分支更改
+workspace.explorer.noRepositories	找不到 Git 仓库
+workspace.explorer.openAll	全打开
+workspace.explorer.openAsWorkspaceRoot	作为工作区根打开
+workspace.explorer.openRepository	开仓库
+workspace.explorer.openWorktree	开 worktree
+workspace.explorer.paste	粘贴
+workspace.explorer.rename	重命名…
+workspace.explorer.repository	仓库
+workspace.explorer.resetWorkspaceRoot	重置工作区根
+workspace.explorer.search.failed	搜索失败。
+workspace.explorer.search.fileCount_one	{{count}} 个文件
+workspace.explorer.search.fileCount_other	{{count}} 个文件
+workspace.explorer.search.hitLabel	{{text}}，{{path}} 行 {{line}}
+workspace.explorer.search.noResults	找不到结果。
+workspace.explorer.search.resultCountCapped_one	{{files}} 里超 {{count}} 个结果
+workspace.explorer.search.resultCountCapped_other	{{files}} 里超 {{count}} 个结果
+workspace.explorer.search.resultCount_one	{{files}} 里 {{count}} 个结果
+workspace.explorer.search.resultCount_other	{{files}} 里 {{count}} 个结果
+workspace.explorer.search.searching	搜中…
+workspace.explorer.sessionEnded	此会话已结束
+workspace.explorer.showAllRepositories	显全部仓库
+workspace.explorer.sidebarViews	侧栏视图
+workspace.explorer.upload	上传…
+workspace.explorer.views.changes	源代码管理
+workspace.explorer.views.edits	更改
+workspace.explorer.views.files	资源管理器
+workspace.explorer.views.search	搜索
+workspace.failedToLoadFileContents	加载更改失败
+workspace.fileCitation	引用
+workspace.fileCitationTooltip	Devin 引用时的文件。此后在 Devin 机器上可能变了。
+workspace.filesChangedCount_one	{{count}} 个文件
+workspace.filesChangedCount_other	{{count}} 个文件
+workspace.fitToPane	适配面板
+workspace.fullScreen	全屏
+workspace.fullWidth	全宽
+workspace.generatedByDevin	Devin 生成
+workspace.goToEnd	到末尾
+workspace.goToLiveDesktop	到实时桌面
+workspace.hideComparison	隐对比
+workspace.hideFileTree	隐文件树
+workspace.hideTabsPanel	隐标签页面板
+workspace.historyError	加载工作区历史失败。
+workspace.historyUnavailable	工作区历史不可用。
+workspace.ideFrameTitle	Devin IDE
+workspace.incidentReportCopySection	复制分节
+workspace.incidentReportTimeZone	时区
+workspace.incidentReportUtc	UTC
+workspace.lastAgentTurn	上个 agent 回合
+workspace.lastAgentTurnHint	自你上条消息或 PR 评论
+workspace.live	实时
+workspace.loadOlderChanges	载更旧
+workspace.loadOlderChangesFailed	载不了更旧。重试
+workspace.loadingFileContents	加载更改中…
+workspace.localBrowser.urlPlaceholder	输 URL，如 localhost:3000
+workspace.machineProvisioning	机器供应中…
+workspace.markChangesSeen	标全部更改为已见
+workspace.mcpApp.canceled	应用的工具调用被取消。
+workspace.mcpApp.failed	应用的工具调用失败。
+workspace.mcpApp.inProgress	等应用的工具调用完。
+workspace.mcpApp.unavailable	此应用不可用。
+workspace.mcpApp.unloaded	此应用的工具调用没载。
+workspace.moveFileTreeLeft	文件树移左
+workspace.moveFileTreeRight	文件树移右
+workspace.moveSidebarLeft	侧栏移左
+workspace.moveSidebarRight	侧栏移右
+workspace.nextEvent	下一事件
+workspace.noBrowserScreenshot	历史此点无截图。
+workspace.noChangesInRange	此范围无更改
+workspace.noChangesLastTurn	上回合无更改
+workspace.noChangesLastTurnDescription	你上条消息后没编文件。
+workspace.noChangesSinceSeenAt	{{time}} 后没新更改。
+workspace.noChangesYet	还没更改
+workspace.noChangesYetDescription	此会话编的文件会显在这。
+workspace.noContentForFile	<file>{{filePath}}</file> 没内容可显
+workspace.noFilesFound	找不到工作区文件
+workspace.noMatchingFiles	没匹配文件
+workspace.noTaskList	此会话还没有任务列表。
+workspace.previewDiff	预览 diff
+workspace.previewFile	预览文件
+workspace.previewLimited	预览限 {{totalLines}} 行中 {{maxLines}} 行
+workspace.previewMarkdown	预览 markdown
+workspace.previewTable	预览表格
+workspace.previewUrl.ariaLabel	预览 URL
+workspace.previousEvent	上一事件
+workspace.readOnly	只读
+workspace.readableWidth	适读宽
+workspace.remoteComputer	远程电脑
+workspace.retry	重试
+workspace.searchFiles	搜文件…
+workspace.selectComparisonVersion	选对比版本
+workspace.selectEventVersion	选事件版本
+workspace.selectSessionVersion	选会话版本
+workspace.selectedRange	所选范围
+workspace.selectedRangeTimes	{{start}} – {{end}}
+workspace.sessionTimeline	会话时间线
+workspace.showFileTree	显文件树
+workspace.showFindingsPanel	显发现项
+workspace.showTabsPanel	显标签页面板
+workspace.simulator.asleep	休眠中
+workspace.simulator.asleepDescription	{{displayName}} 跑在 Devin 机器，现挂起。唤醒 Devin 加载它。
+workspace.simulator.endedDescription	此会话已完，所以 {{displayName}} 流不了。
+workspace.simulator.endedTitle	会话已结束
+workspace.simulator.linkErrorDescription	拿不了 {{displayName}} 显示链接。
+workspace.simulator.linkErrorTitle	到不了 Devin 机器
+workspace.simulator.machineUnavailableDescription	此机器没显示服务器，所以 {{displayName}} 流不了。
+workspace.simulator.machineUnavailableTitle	此机器无 {{displayName}}
+workspace.simulator.noSession	此会话用不了 {{displayName}}。
+workspace.simulator.notRunning	没在跑
+workspace.simulator.retry	重试
+workspace.simulator.retryNow	现在重试
+workspace.simulator.sourceErrorDescription	Devin 机器在线，但没找到启动的 {{emulatorType}}。叫 Devin 起一个——此标签页会自动重连。
+workspace.simulator.sourceErrorTitle	没 {{displayName}} 在跑
+workspace.simulator.startingDescription	Devin 机器上线中——{{displayName}} 就绪后加载。
+workspace.simulator.startingStatus	起中…
+workspace.simulator.unavailable	此会话用不了 {{displayName}} 流。
+workspace.simulator.unavailableStatus	不可用
+workspace.simulator.unsupported	此 Devin 远程不支持 {{displayName}} 显示流。
+workspace.sinceLastSeen	自上次见
+workspace.sinceLastSeenHint	{{time}} 后的更改
+workspace.tablePreviewLabel	{{filename}} 预览
+workspace.takeControl	接管
+workspace.takeControlOfComputer	接管 Devin 电脑
+workspace.tasksCompleted_one	{{completed}}/{{count}} 任务完成
+workspace.tasksCompleted_other	{{completed}}/{{count}} 任务完成
+workspace.versionByDevin	版本 {{version}} · Devin 作
+workspace.versionByUser	版本 {{version}} · 你编辑
+workspace.versionNumber	版本 {{version}}
+workspace.versionsIdentical	这些版本相同
+workspace.viewAsFlatList	平铺看
+workspace.viewAsTree	树形看
+workspace.viewLatestCitation	看最新引用
+workspace.viewLatestVersion	看最新版本
+workspace.viewRawFile	看原始文件
+workspace.vmAudioUnavailable	VM 音频不可用
+workspace.vmAudioVolume	VM 音量
+workspace.waitingForComputer	等 Devin 电脑中…
+workspace.wakeSplash.asleepTitle	Devin 休眠中
+workspace.wakeSplash.desktopAsleep	Devin 休眠中。点任意处唤醒看实时
+workspace.wakeSplash.desktopConnecting	唤醒 Devin 电脑中…
+workspace.wakeSplash.desktopWaking	Devin 机器上线中——就绪后实时桌面会连上
+workspace.wakeSplash.previewAsleep	预览跑在 Devin 机器，现挂起。唤醒 Devin 加载它。
+workspace.wakeSplash.previewStarting	Devin 机器上线中——就绪后预览会加载。
+workspace.wakeSplash.startingTitle	Devin 启动中…
+workspace.wakeSplash.wakeUp	唤醒 Devin
+workspace.wakeSplash.waking	唤醒 Devin 中…
+workspace.welcome.connected	已连 Devin 电脑
+workspace.welcome.filesUnavailable	此会话文件不再可用。
+workspace.welcome.goToFile	到文件
+workspace.welcome.recentFiles	最近文件
+workspace.welcome.toggleExplorer	切资源管理器
+workspace.welcome.toggleTerminal	切终端
+workspace.welcome.wakeDescription	唤醒 Devin 浏览文件并做更改。
+workspace.welcome.wakeUp	唤醒
+workspace.welcome.waking	醒中…

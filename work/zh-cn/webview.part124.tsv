@@ -1,0 +1,160 @@
+transcript.askedDeepwiki	问了 DeepWiki
+transcript.askingDeepwiki	问 DeepWiki 中
+transcript.attachment	附件
+transcript.autoApprovePreferenceFailed	更新自动批准偏好失败
+transcript.autoReview	自动分析
+transcript.autoReviewSpendLimitReached	自动分析因达消费上限被关。重开以恢复。
+transcript.autoRoute.decision	切了 agent
+transcript.autoRoute.toAgent	自动路由到 {{agent}}
+transcript.autoRoute.toAgentAfterCompaction	压缩后自动路由到 {{agent}}
+transcript.autoRoute.toAgentAfterUserFollowUp	用户跟进后自动路由到 {{agent}}
+transcript.autoRoute.toAgentOnModeSwitch	切模式时自动路由到 {{agent}}
+transcript.autoRoute.toAgentOnStartup	启动时自动路由到 {{agent}}
+transcript.autoRoutedTo	自动路由到 {{agent}} {{trigger}}
+transcript.autofixIsEnabled	自动修复已开。
+transcript.automatedMessage.automation	自动消息
+transcript.automatedMessage.automationSource	来自 {{source}} 的自动化触发
+transcript.automatedMessage.checkIn	签到
+transcript.automatedMessage.slackTrigger	#{{channel}} 里的 Slack 触发
+transcript.automatedMessage.slackTriggerNoChannel	Slack 触发
+transcript.automatedMessage.updates_one	{{count}} 条更新
+transcript.automatedMessage.updates_other	{{count}} 条更新
+transcript.automationCreated	自动化已建
+transcript.automationCreating	建自动化中
+transcript.automationDeleted	自动化已删
+transcript.automationDeleting	删自动化中
+transcript.automationNotCreated	自动化没建成
+transcript.automationNotDeleted	自动化没删成
+transcript.automationNotRun	自动化没跑成
+transcript.automationNotUpdated	自动化没更新成
+transcript.automationPermission.create	Devin 想建一个自动化
+transcript.automationPermission.delete	Devin 想删一个自动化
+transcript.automationPermission.run	Devin 想跑一个自动化
+transcript.automationPermission.update	Devin 想更新一个自动化
+transcript.automationRan	自动化跑了
+transcript.automationRunning	跑自动化中
+transcript.automationUpdateRefreshing	批这些更改前重读当前自动化。
+transcript.automationUpdateUnavailable	加载不了当前自动化，所以这些更改没法跟它比。
+transcript.automationUpdated	自动化已更新
+transcript.automationUpdating	更新自动化中
+transcript.billingTagAssignSummary_one	把 {{count}} 个会话指派到计费标签
+transcript.billingTagAssignSummary_other	把 {{count}} 个会话指派到计费标签
+transcript.billingTagAssignTitle	计费标签指派
+transcript.billingTagCreateEyebrow	新计费标签
+transcript.billingTagCurrent	当前计费标签
+transcript.billingTagLoading	加载会话详情中…
+transcript.billingTagMoreRows_one	+{{count}} 个会话
+transcript.billingTagMoreRows_other	+{{count}} 个会话
+transcript.billingTagNew	新计费标签
+transcript.billingTagShowAll	看全部
+transcript.botCommentsFromIgnored_one	已忽略来自 <bots>{{bots, list(type: unit)}}</bots> 的 bot 评论
+transcript.botCommentsFromIgnored_other	已忽略来自 <bots>{{bots, list(type: unit)}}</bots> 的 bot 评论（{{count}}）
+transcript.botNotUpdated	{{name}} 没更新成
+transcript.botUpdateRequested	更新 {{name}}
+transcript.botUpdateTitle	改设置
+transcript.botUpdated	{{name}} 已更新
+transcript.branch	分支
+transcript.branchForcePushed	{{branch}} 被强推（{{shortSha}}）
+transcript.branchedFromEvent	从事件分叉
+transcript.branchedFromMessage	从消息分叉
+transcript.branchedFromRecap	从会话回顾分叉
+transcript.browserClickedElement	在 {{url}} 点了元素
+transcript.browserExecutedJavascript	在 {{url}} 执行了 JavaScript
+transcript.browserLoadedExtensions	加载扩展：{{extensions}}
+transcript.browserMovedMouse	在 {{url}} 移了鼠标
+transcript.browserNavigated	导航到 {{url}}
+transcript.browserPressedKey	在 {{url}} 按了键：{{key}}
+transcript.browserPreviewOpening	开浏览器中
+transcript.browserRestarted	重启了浏览器
+transcript.browserRestartedTo	重启浏览器到 {{url}}
+transcript.browserScrolledDown	在 {{url}} 下滚
+transcript.browserScrolledUp	在 {{url}} 上滚
+transcript.browserSelectedFile	选了要上传的文件：{{path}}
+transcript.browserSelectedOption	选了选项：{{option}}
+transcript.browserSetDesktop	把浏览器设为桌面模式
+transcript.browserSetMobile	把浏览器设为移动模式
+transcript.browserTookScreenshot	截了 {{url}} 的屏
+transcript.browserTypedInTextbox	在 {{url}} 的文本框打字
+transcript.browserViewed	看了 {{url}} 的浏览器
+transcript.browserViewedConsole	看了 {{url}} 的控制台
+transcript.callEnded	通话结束
+transcript.callEndedWithDuration	通话结束 · {{duration}}
+transcript.callStarted	通话开始
+transcript.cancel	取消
+transcript.cancelToolPermission	取消
+transcript.ciFailed	CI 失败
+transcript.ciFailedCount	CI 失败（{{count}}）
+transcript.closePullRequest	关拉取请求
+transcript.cloudWordmarkLabel	云
+transcript.codeReportScannedFallback	已扫文件
+transcript.codeReportScanned_one	{{timeSpent}} 内扫了 {{count}} 个文件
+transcript.codeReportScanned_other	{{timeSpent}} 内扫了 {{count}} 个文件
+transcript.codeReportScanningFallback	扫中…
+transcript.codeReportScanning_one	扫中… {{timeSpent}} 内处理了 {{count}} 个文件
+transcript.codeReportScanning_other	扫中… {{timeSpent}} 内处理了 {{count}} 个文件
+transcript.codeReportStarted	起了代码报告
+transcript.codeReportStartedIn	在目录 {{directory}} 起了代码报告
+transcript.codeScanComplete	扫描完成：{{title}}
+transcript.codeScanCriticalCount	{{count}} 个严重
+transcript.codeScanFailed	扫描失败：{{title}}
+transcript.codeScanHighCount	{{count}} 个高
+transcript.codeScanImportComplete	导入完成：{{title}}
+transcript.codeScanImportFailed	导入失败：{{title}}
+transcript.codeScanMoreRepos	+{{count}}
+transcript.codeScanNoFindings	无发现项
+transcript.codeScanSetupAutoRemediate	自动修复
+transcript.codeScanSetupAutoRemediateSeverities	{{severities, list}}
+transcript.codeScanSetupAutoRemediateWithSkills	{{severities, list}} 用 <skills/>
+transcript.codeScanSetupAutoScan	自动扫描
+transcript.codeScanSetupAutoScanPaused	已暂停
+transcript.codeScanSetupCommit	提交
+transcript.codeScanSetupEffort	努力
+transcript.codeScanSetupEffortDeep	深
+transcript.codeScanSetupEffortNormal	普通
+transcript.codeScanSetupGuidance	指引
+transcript.codeScanSetupImportSkill	导入技能
+transcript.codeScanSetupProfile	配置
+transcript.codeScanSetupRepositories	仓库
+transcript.codeScanSetupScanSkill	扫描技能
+transcript.codeScanSetupValidationSkill	验证技能
+transcript.codeScanStatusImporting	导入中…
+transcript.codeScanStatusScanning	扫中…
+transcript.codeScanStatusSettingUp	设置中…
+transcript.codeScanViewFindings	看发现项
+transcript.codeScanViewFindingsCount_one	看 {{count}} 个发现项
+transcript.codeScanViewFindingsCount_other	看 {{count}} 个发现项
+transcript.codebase	代码库
+transcript.collapseCard	收起
+transcript.commentedOnPr	在 {{repo}} 的 PR #{{pullNumber}} 评论了
+transcript.commentedOnPrNoNumber	在 {{repo}} 的一个 PR 评论了
+transcript.communicationManager	通信管理器
+transcript.communicationManagerAttempt	第 {{number}} 次尝试
+transcript.communicationManagerDecision	决定：{{decision}}
+transcript.communicationManagerDuration	{{seconds}} 秒
+transcript.communicationManagerNote	笔记
+transcript.communicationManagerOutcomeEmpty	空回复
+transcript.communicationManagerOutcomeError	失败
+transcript.communicationManagerOutcomeOk	成功
+transcript.communicationManagerPlayground	演练场
+transcript.communicationManagerReview	第 {{number}} 次审
+transcript.communicationManagerTotal	{{count}} 次尝试共 {{seconds}} 秒
+transcript.communicationManagerTotal_other	{{count}} 次尝试共 {{seconds}} 秒
+transcript.communicationManagerWithheld	此消息前扣了 {{count}} 个早先草稿
+transcript.communicationManagerWithheldDraft	被扣草稿
+transcript.communicationManagerWithheldLabel_one	通信管理器：扣了 {{count}} 个早先草稿
+transcript.communicationManagerWithheldLabel_other	通信管理器：扣了 {{count}} 个早先草稿
+transcript.communicationManagerWithheld_other	此消息前扣了 {{count}} 个早先草稿
+transcript.computerActedOn	操作了 {{reference}}：{{operation}}
+transcript.computerActedOnElements	操作了 {{references}}
+transcript.computerCheckedUiCapabilities	查了 UI 能力
+transcript.computerCheckedUiChanges	查了 UI 更改
+transcript.computerClicked	点了
+transcript.computerClickedAt	点在 {{coordinate}}
+transcript.computerDoubleClicked	双击了
+transcript.computerDoubleClickedAt	双击在 {{coordinate}}
+transcript.computerDragged	从 {{start}} 拖到 {{end}}
+transcript.computerExecutedJavascript	执行了 JavaScript
+transcript.computerGotCursorPosition	拿了光标位置
+transcript.computerHeldKey	按住了键：{{key}}
+transcript.computerInspectedUi	查了 UI
+transcript.computerMiddleClicked	中键点了

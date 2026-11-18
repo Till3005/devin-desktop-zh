@@ -1,0 +1,276 @@
+gitOnboarding.clickUninstall	点击 Uninstall
+gitOnboarding.close	关闭
+gitOnboarding.connect	连接
+gitOnboarding.connectGithub	连接 GitHub
+gitOnboarding.connectGithubOrganizationTitle	连接一个 GitHub 组织
+gitOnboarding.connectViaCli	通过 CLI 连接
+gitOnboarding.connectedAs	已连接为 {{name}}
+gitOnboarding.connecting	正在连接…
+gitOnboarding.continueWithThisAccount	用此账户继续
+gitOnboarding.couldNotLoadGithubAccounts	无法加载你的 GitHub 账户
+gitOnboarding.createNewInstallation	在此账户上创建新安装
+gitOnboarding.directlyInstallOnDevinMachine	直接装在 Devin 的机器上
+gitOnboarding.disconnectAppToUnlink	滚到「危险区」点击 Uninstall。这会移除现有集成，你就能在此把此组织连到 Devin。<learnMoreLink>了解更多</learnMoreLink>
+gitOnboarding.done	完成
+gitOnboarding.failedToConnectOrganization	连接组织失败
+gitOnboarding.findDangerZoneSection	找到 <dangerZone>Danger Zone</dangerZone> 区
+gitOnboarding.finishConnectingGithub	完成 GitHub 连接
+gitOnboarding.githubDangerZoneAlt	显示卸载选项的 GitHub 危险区
+gitOnboarding.githubLoginLinkedToAccounts	<login>{{login}}</login> 已关联到以下 Devin 账户
+gitOnboarding.installedButNotConnected	Devin 已装在这些 GitHub 组织上，但还没连到任何 Devin 账户
+gitOnboarding.inviteManager.copyLink	复制链接
+gitOnboarding.inviteManager.description	我们会给他们发一封连接你 Git 提供商到 Devin 的链接
+gitOnboarding.inviteManager.invite	邀请
+gitOnboarding.inviteManager.inviteLink	邀请链接
+gitOnboarding.inviteManager.noPermissionAdmin	你没有连接 Git 提供商的权限。请让管理员批准安装。
+gitOnboarding.inviteManager.noPermissionInvite	你没有连接 Git 提供商的权限。邀请有权限的队友。
+gitOnboarding.inviteManager.sendFailed	发送邀请失败。请重试。
+gitOnboarding.inviteManager.sending	正在发送…
+gitOnboarding.inviteManager.sentShare	邀请已发送。你也可以分享此链接
+gitOnboarding.inviteManager.sentTo	邀请已发给 {{email}}
+gitOnboarding.inviteManager.teammateEmail	队友的邮箱
+gitOnboarding.inviteManager.title	邀请你的 Git 管理员
+gitOnboarding.join	加入
+gitOnboarding.joined	已加入
+gitOnboarding.joining	正在加入…
+gitOnboarding.linkedTo	已关联到 {{name}}
+gitOnboarding.linkedToAnotherAccount	已关联到另一个账户
+gitOnboarding.loading	加载中
+gitOnboarding.manage	管理
+gitOnboarding.memberCount_one	{{count}} 个成员
+gitOnboarding.memberCount_other	{{count}} 个成员
+gitOnboarding.memberOfOrgsConnectedToAccounts	你是连到这些账户的 GitHub 组织的成员
+gitOnboarding.oneTimeCode	一次性验证码：
+gitOnboarding.openGithub	打开 GitHub
+gitOnboarding.or	或
+gitOnboarding.orgMembershipMatchInfo	这些 Devin 账户连到了你所属的 GitHub 组织。
+gitOnboarding.orgsPartiallyInstalled	部分安装了 Devin 的 GitHub 组织
+gitOnboarding.orgsPartiallyInstalledInfo	Devin GitHub App 已装在这些组织上，但还没有 Devin 账户完成连接。
+gitOnboarding.ownerRequiredToConnect	只有 GitHub 组织所有者能连接它。请让所有者来连接。
+gitOnboarding.pasteCodeInto	把验证码粘贴到
+gitOnboarding.personalGithubMatchInfo	这些 Devin 账户连到了你登录用的 GitHub 账户。
+gitOnboarding.recommended	推荐
+gitOnboarding.reloadToTryAgain	刷新页面重试。
+gitOnboarding.requestAccess	申请访问
+gitOnboarding.requested	已申请
+gitOnboarding.requesting	正在申请…
+gitOnboarding.requiredToUseOrgOnAccount	在此 Devin 账户上使用 <orgLink>{{org}}</orgLink> GitHub 组织所必需
+gitOnboarding.retry	重试
+gitOnboarding.run	运行
+gitOnboarding.running	运行中
+gitOnboarding.showMore	显示还有 {{count}} 个
+gitOnboarding.signInRequired	需要登录
+gitOnboarding.signInToConnectGithub	登录以连接 GitHub。
+gitOnboarding.signOut	登出
+gitOnboarding.signOutAndUseAnotherEmail	登出并换一个邮箱
+gitOnboarding.skip	跳过
+gitOnboarding.skipForNow	暂时跳过
+gitOnboarding.someOrgsLinkedToOtherAccounts	你的部分组织已关联到其他账户
+gitOnboarding.takenToGithubToManage	点击下方「打开 GitHub」前往此组织的 Devin App 设置。
+gitOnboarding.teamMayAlreadyUseDevin	你的团队可能已在用 Devin
+gitOnboarding.thisWillRemoveTheApp	这会移除该 App
+gitOnboarding.tryReinstallingGithubApp	请尝试重装 GitHub App。
+gitOnboarding.uninstallDisconnectsUnknownWarning	这会断开 GitHub 与正在使用它的 Devin 账户。
+gitOnboarding.uninstallDisconnectsWarning	这会断开 GitHub 与 {{name}} 的连接。
+gitOnboarding.uninstallNotSuspendNote	确保点的是 Uninstall，不是 Suspend。
+gitOnboarding.uninstallOnGithubTitle	在 GitHub 上卸载
+gitOnboarding.uninstallPreviousIntegration	卸载之前的 GitHub 集成
+gitOnboarding.useCredentialsOnDevinMachine	在 Devin 的机器上使用你的凭据
+gitOnboarding.visitAppSettingsForDevin	访问「Devin」的 App 设置
+gitOnboarding.youOrTeamMayUseDevin	你或你的团队可能已在用 Devin
+gitOnboarding.youWillSeeUninstallAndSuspend	你会看到「uninstall」和「suspend」
+gitOnboarding.yourGithubConnectedToOtherAccounts	你的 GitHub 连到了其他账户
+gitOnboarding.yourGithubLinkedToAccounts	你的 GitHub 已关联到以下 Devin 账户
+gitPermissions.access	访问
+gitPermissions.accessType	访问类型
+gitPermissions.accessTypeCount	访问类型（{{count}}）
+gitPermissions.add.addFailed	添加权限失败
+gitPermissions.add.addPermissions	添加权限
+gitPermissions.add.addPermissionsCount	添加权限（{{count}}）
+gitPermissions.add.added	权限已添加
+gitPermissions.add.clearSearch	清除搜索
+gitPermissions.add.granted	（已授予）
+gitPermissions.add.grantedViaParent	（经父级授予）
+gitPermissions.add.grantedViaPrefix	（经前缀匹配授予）
+gitPermissions.add.loadingRepositories	正在加载仓库…
+gitPermissions.add.search	搜索…
+gitPermissions.add.subtitle	授予对仓库和组织的访问权。
+gitPermissions.add.title	给 {{org}} 添加仓库权限
+gitPermissions.add.value	值
+gitPermissions.authTypeApp	App
+gitPermissions.authTypeOAuth	OAuth
+gitPermissions.authTypePat	PAT
+gitPermissions.connectionSyncFailingDescription	自 {{date}} 起没有成功同步。此连接的仓库可能缺失或过期，且会话用不了 Devin 看不到的仓库。请在「设置 > 连接」检查该连接的凭据。
+gitPermissions.connectionSyncFailingRow	{{name}} 上的仓库同步自 {{date}} 起一直在失败。此连接的仓库可能缺失或过期。
+gitPermissions.connectionSyncFailingRowAlsoOn	也可经 {{name}} 访问，它最近于 {{date}} 见过。
+gitPermissions.connectionSyncFailingTitle	{{name}} 的仓库同步在失败
+gitPermissions.emptyAskAdmin	让管理员为你添加权限
+gitPermissions.emptyCanAdd	选择组织及其仓库来添加权限
+gitPermissions.enterpriseOnly	此页仅企业可用。
+gitPermissions.filterDropdown.noOptions	未找到选项
+gitPermissions.filterDropdown.placeholder	筛选 Git 提供商
+gitPermissions.filterDropdown.searchPlaceholder	搜索…
+gitPermissions.headerDescription	管理你组织对仓库的访问。Git 提供商可在连接设置中添加。
+gitPermissions.headerTitle	仓库访问
+gitPermissions.managePermissions	管理权限
+gitPermissions.manual.accessLevel	访问级别
+gitPermissions.manual.addFailed	添加权限失败
+gitPermissions.manual.addPermission	添加权限
+gitPermissions.manual.added	权限添加成功
+gitPermissions.manual.depotPath	Depot 路径
+gitPermissions.manual.description	当你已通 过 Git 提供商授权但仓库没被自动检测到时，手动添加一条权限
+gitPermissions.manual.enterDepotPath	输入 depot 路径
+gitPermissions.manual.enterGroupPath	输入组或组织路径
+gitPermissions.manual.enterPathError	路径为必填项
+gitPermissions.manual.enterRepoPath	输入完整仓库路径
+gitPermissions.manual.fixPathError	请修正路径校验错误
+gitPermissions.manual.gitProvider	Git 提供商
+gitPermissions.manual.organizationProject	组织/项目
+gitPermissions.manual.path	路径
+gitPermissions.manual.permissionType	权限类型
+gitPermissions.manual.repository	仓库
+gitPermissions.manual.repositoryPathPrefix	仓库路径前缀
+gitPermissions.manual.selectGitProvider	选择 Git 提供商
+gitPermissions.manual.selectProviderError	Git 提供商为必填项
+gitPermissions.manual.selectType	选择类型
+gitPermissions.manual.title	手动配置（高级）
+gitPermissions.manual.tooltip	手动添加一条权限。仅用于已通过 Git 提供商授权但仓库没被自动检测到的少见场景。
+gitPermissions.manual.unknown	未知
+gitPermissions.manuallyAddRepo.addFailed	手动添加仓库失败
+gitPermissions.manuallyAddRepo.addFailedWithReason	手动添加仓库失败：{{message}}
+gitPermissions.manuallyAddRepo.added	仓库添加成功
+gitPermissions.manuallyAddRepo.description	用于没被自动检测到的仓库
+gitPermissions.manuallyAddRepo.pathFormat	请输入完整路径，如 {{example}}
+gitPermissions.manuallyAddRepo.pathRequired	仓库路径为必填项
+gitPermissions.manuallyAddRepo.title	手动添加仓库（高级）
+gitPermissions.mirroring.accountDescription	访问镜像列出且未分配给任何组织的仓库。分配给一个组织即可在那里使用。
+gitPermissions.mirroring.accountEmpty	账户层无仓库
+gitPermissions.mirroring.accountEmptyDescription	访问镜像列出的每个仓库都已分配给组织。
+gitPermissions.mirroring.accountEmptyNotMirrored	访问镜像还没在你能查看的任何连接上完成一轮。
+gitPermissions.mirroring.accountHeader	仓库
+gitPermissions.mirroring.accountOption	账户（不在组织中）
+gitPermissions.mirroring.accountSearchPlaceholder	搜索仓库
+gitPermissions.mirroring.accountTruncated	并非每个仓库都被检查。按名搜索可找到未列出的。
+gitPermissions.mirroring.anotherOrganization	另一个组织
+gitPermissions.mirroring.assign	分配给组织
+gitPermissions.mirroring.assignConfirm	分配
+gitPermissions.mirroring.assignDescription	{{repo}} 将在你选择的组织中可用。
+gitPermissions.mirroring.assignFailed	无法分配仓库。
+gitPermissions.mirroring.assigned	仓库已分配
+gitPermissions.mirroring.atAccount	在账户层
+gitPermissions.mirroring.cancel	取消
+gitPermissions.mirroring.inOrganizations	已分配给 {{orgs, list}}
+gitPermissions.mirroring.sourceMirrored	访问镜像
+gitPermissions.multiSelect.only	仅此
+gitPermissions.multiSelect.selectOnlyTitle	只选此项
+gitPermissions.noMatch	没有匹配你搜索的权限
+gitPermissions.noneFound	未找到权限
+gitPermissions.notAvailable	不适用
+gitPermissions.organization	组织
+gitPermissions.pageTitle	仓库权限
+gitPermissions.permissionTypes	权限类型
+gitPermissions.permissionTypesCount	权限类型（{{count}}）
+gitPermissions.permissionsFor	{{org}} 的权限
+gitPermissions.permissionsTable.readOnly	只读
+gitPermissions.permissionsTable.readWrite	读写
+gitPermissions.publicRepoBadge	公开
+gitPermissions.readOnly	只读
+gitPermissions.readWrite	读写
+gitPermissions.removeFailed	移除权限失败
+gitPermissions.removePermission	移除权限
+gitPermissions.repoSyncStartFailed	无法开始仓库同步。你可能没有管理 git 连接的权限。
+gitPermissions.scopeType.group	组
+gitPermissions.scopeType.organization	组织
+gitPermissions.scopeType.project	项目
+gitPermissions.scopeType.subgroup	子组
+gitPermissions.search	搜索…
+gitPermissions.searchPlaceholder	搜索权限…
+gitPermissions.selectOrgPrompt	选择一个组织查看和管理权限
+gitPermissions.selectOrganization	选择一个组织
+gitPermissions.transferRepo.allLosingAccess	将失去对一个或多个仓库访问的组织，因为它们只经此连接上的前缀权限到达：{{orgs}}
+gitPermissions.transferRepo.allMerges_one	{{count}} 个仓库在目标连接已有条目。两条合并为一。
+gitPermissions.transferRepo.allMerges_other	{{count}} 个仓库在目标连接已有条目。每仓的两条合并为一。
+gitPermissions.transferRepo.allRefused_one	{{count}} 个仓库无法转移，留在此连接：
+gitPermissions.transferRepo.allRefused_other	{{count}} 个仓库无法转移，留在此连接：
+gitPermissions.transferRepo.allReindex_one	{{count}} 个仓库的账户 wiki 将被重建。
+gitPermissions.transferRepo.allReindex_other	{{count}} 个仓库的账户 wiki 将被重建。
+gitPermissions.transferRepo.allSummary_one	{{total}} 个仓库中 {{count}} 个可转移。
+gitPermissions.transferRepo.allSummary_other	{{total}} 个仓库中 {{count}} 个可转移。
+gitPermissions.transferRepo.back	返回
+gitPermissions.transferRepo.button	转移仓库
+gitPermissions.transferRepo.cannotTransfer	无法转移：{{reason}}
+gitPermissions.transferRepo.confirmPending	转移
+gitPermissions.transferRepo.confirm_one	转移 {{count}} 个仓库
+gitPermissions.transferRepo.confirm_other	转移 {{count}} 个仓库
+gitPermissions.transferRepo.description	把此连接持有的仓库移到此账户的另一个连接。其权限、授权和设置随之迁移。
+gitPermissions.transferRepo.failure	转移仓库失败
+gitPermissions.transferRepo.loading	正在加载仓库…
+gitPermissions.transferRepo.losingAccess	将失去访问的组织，因为它们只经此连接上的前缀权限到达该仓库：{{orgs}}
+gitPermissions.transferRepo.merges	目标连接已有此仓库条目。两条合并为一。
+gitPermissions.transferRepo.moreResults	只显示前 50 个仓库。搜索可找更多。
+gitPermissions.transferRepo.movedPermissions	随之迁移的权限：{{orgs}}
+gitPermissions.transferRepo.noMovedPermissions	没有组织权限迁移。
+gitPermissions.transferRepo.noRepos	此连接没有持有仓库。
+gitPermissions.transferRepo.noResults	此连接没有匹配你搜索的仓库。
+gitPermissions.transferRepo.noTargets	同一主机下没有其他可用连接。
+gitPermissions.transferRepo.partialFailure_one	{{count}} 个仓库未转移：{{reason}}
+gitPermissions.transferRepo.partialFailure_other	{{count}} 个仓库未转移：{{reason}}
+gitPermissions.transferRepo.previewError	检查转移失败。返回重试。
+gitPermissions.transferRepo.previewLoading	正在检查转移带来的变化…
+gitPermissions.transferRepo.previewProgress	正在检查转移带来的变化… {{total}} 之 {{done}}
+gitPermissions.transferRepo.previewTitle	转移到 {{connection}} 带来的变化
+gitPermissions.transferRepo.providerGrantsRemoved_one	此连接访问镜像中的 {{count}} 个授权被移除。目标连接的访问镜像会加上自己的。
+gitPermissions.transferRepo.providerGrantsRemoved_other	此连接访问镜像中的 {{count}} 个授权被移除。目标连接的访问镜像会加上自己的。
+gitPermissions.transferRepo.reindex	此仓库的账户 wiki 将被重建。
+gitPermissions.transferRepo.review	审查
+gitPermissions.transferRepo.searchError	加载仓库失败。
+gitPermissions.transferRepo.searchPlaceholder	搜索此连接的仓库…
+gitPermissions.transferRepo.selectedCount_one	已选 {{count}} 个仓库
+gitPermissions.transferRepo.selectedCount_other	已选 {{count}} 个仓库
+gitPermissions.transferRepo.selectionLimit	一次最多转移 {{max}} 个仓库。
+gitPermissions.transferRepo.success_one	{{count}} 个仓库已转移到 {{connection}}
+gitPermissions.transferRepo.success_other	{{count}} 个仓库已转移到 {{connection}}
+gitPermissions.transferRepo.targetLabel	转移到
+gitPermissions.transferRepo.targetPlaceholder	选择一个连接
+gitPermissions.transferRepo.title	转移仓库到另一个连接
+gitPermissions.transferRepo.transferAll	转移此连接全部仓库
+gitPermissions.transferRepo.transferAllHint	此连接持有的所有仓库都会被转移。搜索不影响。
+gitPermissions.transferRepo.transferProgress	正在转移… {{total}} 之 {{done}}
+gitPermissions.transferRepo.transferring	正在转移…
+gitPermissions.transferRepo.unnamedConnection	未命名连接
+gitPermissions.tryDifferentSearch	换个搜索词试试
+gitPermissions.type	类型
+gitPermissions.typeLabel.depot_path	Depot 路径
+gitPermissions.typeLabel.group	组
+gitPermissions.typeLabel.organization	组织
+gitPermissions.typeLabel.prefix_path	仓库路径前缀
+gitPermissions.typeLabel.project	项目
+gitPermissions.typeLabel.repository	仓库
+gitPermissions.typeLabel.subgroup	子组
+gitPermissions.typeLabel.unknown	未知
+gitPermissions.validation.includeOrganization	仓库路径必须包含组织部分
+gitPermissions.validation.noGitExtension	GitHub 仓库不需要 .git 后缀
+gitPermissions.validation.noFullUrl	仓库路径不能含完整 URL
+gitPermissions.validation.oneSlash	仓库路径只能有一个斜杠
+gitPermissions.validation.perforceDepot	Perforce depot 路径必须用 depot 语法（如 //depot/...）
+gitPermissions.viewAllRepos.daysAgo_one	{{count}} 天前
+gitPermissions.viewAllRepos.daysAgo_other	{{count}} 天前
+gitPermissions.viewAllRepos.hoursAgo_one	{{count}} 小时前
+gitPermissions.viewAllRepos.hoursAgo_other	{{count}} 小时前
+gitPermissions.viewAllRepos.justNow	刚刚
+gitPermissions.viewAllRepos.lastFetchFailed	上次获取此 Git 提供商关联仓库列表失败。请检查你的 Git 提供商/集成设置后重试。
+gitPermissions.viewAllRepos.lastFetched	最近获取：{{time}}
+gitPermissions.viewAllRepos.minutesAgo_one	{{count}} 分钟前
+gitPermissions.viewAllRepos.minutesAgo_other	{{count}} 分钟前
+gitPermissions.viewAllRepos.noMatch	没有匹配你搜索的仓库。
+gitPermissions.viewAllRepos.noRepos	没有可用仓库。
+gitPermissions.viewAllRepos.refetch	重新获取仓库列表
+gitPermissions.viewAllRepos.updateFailed	更新仓库列表失败
+gitPermissions.viewAllRepos.updated	仓库列表更新成功
+gitPermissions.viewAllRepos.updating	正在更新仓库列表…
+githubInstall.accept	接受
+githubInstall.acceptFailed	无法连接此 GitHub 安装。请重试。
+githubInstall.accepting	正在接受…
+githubInstall.authorizedMessage	（登录 Devin 状态下）在「设置 > 集成」完成你的安装
+githubInstall.authorizedTitle	GitHub 集成已授权
+githubInstall.completeTitle	完成 GitHub 安装

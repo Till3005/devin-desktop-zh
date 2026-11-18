@@ -1,0 +1,309 @@
+agentVersionToggle.loadingVersions	正在加载版本…
+agentVersionToggle.switchingDisabled	{{shortName}} 会话已禁用能力切换
+agents.addFolder	添加文件夹…
+agents.agentDisabledDescription	请在 Agents 设置中启用它以继续此会话。
+agents.agentDisabledTitle	{{name}} 已禁用
+agents.agentDisabledTitleUnnamed	此会话的 Agent 已禁用
+agents.agentFailedToStartLocalSession	{{agent}} 无法启动会话
+agents.agentOptions	Agent 选项
+agents.chooseAgent	选择一个 Agent
+agents.chooseFolderToStart	选择运行会话的文件夹
+agents.chooseWhereToRun	选择会话运行位置
+agents.cloud	云端
+agents.connectRemoteHost	连接到远程主机…
+agents.connectingToHost	正在连接到 {{name}}…
+agents.connectorNoAccount	正在登录…
+agents.connectorUnavailable	{{name}} 未运行。启动它以继续此会话。
+agents.connectorUnknown	{{name}} 不是此窗口的 Agent 之一。
+agents.creatingWorktree	正在创建 worktree…
+agents.failedToCreateWorktree	创建 worktree 失败：{{message}}
+agents.failedToPickFolder	无法打开文件夹选择器。
+agents.failedToSendLocalMessage	无法将你的消息发送给本地 Agent。
+agents.failedToStartLocalSession	启动本地会话失败。请重试。
+agents.failedToUpdateConfig	无法将该设置应用到本地 Agent。
+agents.firstPromptTooLarge	此消息太大，无法启动会话。请移除部分附件或缩短内容后重新发送。
+agents.imageProcessingFailed	处理图片 {{name}} 出错：{{message}}
+agents.inlineImageLimitPartial_one	因 {{limit}} 张图片上限，仅上传前 {{remaining}} 张。{{skipped}}
+agents.inlineImageLimitPartial_other	因 {{limit}} 张图片上限，仅上传前 {{remaining}} 张。{{skipped}}
+agents.inlineImageLimitReached	无法添加更多图片。最多允许 {{limit}} 张。
+agents.inlineImagesSkipped_one	{{count}} 张图片被跳过。
+agents.inlineImagesSkipped_other	{{count}} 张图片被跳过。
+agents.introDescribeTask	向 Devin 描述你的任务
+agents.introStartSession	开始一个新的 {{agent}} 会话
+agents.introTrustFolder	信任此文件夹以使用 Devin Local
+agents.loadingWorktrees	正在加载 worktree…
+agents.local	本地
+agents.localAgentDisabled	{{name}} 已禁用。请在 Agents 设置中启用它以开始会话。
+agents.localAgentNotConnected	本地 Agent 未连接。
+agents.localAgentsOffUntrusted	此工作区处于受限模式，本地 Agent 已关闭。
+agents.localNeedsTrust	受限模式下本地 Agent 已关闭。选择「本地」以信任此工作区。
+agents.mode	模式
+agents.model	模型
+agents.modelDoesNotSupportImages	此模型不支持图片。你可以移除图片或切换到支持的模型。
+agents.newWorktree	新建 worktree
+agents.noFolderSelected	选择一个文件夹
+agents.noWorktreesFound	未找到 worktree
+agents.openAgentSettings	打开 Agents 设置
+agents.openWorktree	打开 worktree
+agents.recentFolders	最近使用
+agents.reconnectHostToStart	{{name}} 已断开。重新连接后可在该处启动会话。
+agents.remoteAgentHosts	远程 Agent 主机
+agents.remoteHostConfigProblems	已连接，但配置有问题
+agents.remoteHostConnected	已连接
+agents.remoteHostConnecting	连接中
+agents.remoteHostDisconnect	断开连接
+agents.remoteHostDisconnected	已断开
+agents.remoteHostDoesNotOfferAgent	{{name}}：该主机不提供 {{agent}}。
+agents.remoteHostError	连接失败
+agents.remoteHostFailed	{{name}}：{{message}}
+agents.remoteHostMoreActions	{{name}} 的更多操作（{{transport}}）
+agents.remoteHostNoAgents	已连接，无 Agent
+agents.remoteHostOffersNoAgent	{{name}}：该主机不提供任何 Agent。
+agents.remoteHostReconnect	重新连接
+agents.remoteHostRemove	移除
+agents.remoteHostsUnavailable	{{name}}：此窗口中远程主机不可用。
+agents.searchWorktrees	搜索 worktree
+agents.selectOrganizationToStartCloudSession	选择一个组织以启动 Devin Cloud 会话
+agents.selectedFolders_one	{{count}} 个文件夹
+agents.selectedFolders_other	{{count}} 个文件夹
+agents.sessionFolder	会话文件夹
+agents.trustFolder	信任文件夹
+agents.trustWorkspace	信任工作区
+agents.unsupportedImageFormat	{{name}} 的图片格式不受支持。仅允许 PNG、JPG、GIF 和 SVG。
+agents.waitForLocalAgent	等待 Devin Local 连接
+agents.waitForRemoteHost	等待远程主机连接
+agents.workingDirectory	工作目录
+agents.worktree	Worktree
+agents.worktreeFailed	Worktree 失败
+agents.worktreeOf	{{path}} 的 worktree
+agents.worktreesRequireRepository	Worktree 需要 Git 仓库
+agents.worktreesRequireWorkspace	Worktree 需要工作区
+agentsApp.done	已完成
+agentsApp.failed	失败
+agentsApp.noAgentsYet	还没有 Agent
+agentsApp.noChildren	还没有创建子会话。
+agentsApp.parent	父会话
+agentsApp.sleeping	休眠中
+agentsApp.viewFullScript	查看完整脚本
+agentsApp.viewSession	查看会话
+agentsApp.waitingChildren	等待子会话
+agentsApp.waitingCi	等待 CI
+agentsApp.waitingReview	等待审查
+agentsApp.waitingUser	等待用户
+agentsApp.working	工作中
+allResources.addToCollection	添加到集合
+allResources.andMore_one	以及另外 {{count}} 项
+allResources.andMore_other	以及另外 {{count}} 项
+allResources.back	返回全部资源
+allResources.cantManageCollection	你不能管理对 {{name}} 的访问
+allResources.collection	集合
+allResources.collectionActions	集合操作
+allResources.collectionActionsFor	{{name}} 的操作
+allResources.collectionActionsNote	「移动」和「删除」仅适用于资源，因此选中集合时会隐藏。
+allResources.collectionLoadError	加载集合失败。
+allResources.collectionSelectedNote	选中的集合涵盖其中全部内容，包括之后添加的资源。
+allResources.collectionType	集合
+allResources.collections	集合
+allResources.collectionsCount_one	{{count}} 个集合
+allResources.collectionsCount_other	{{count}} 个集合
+allResources.create	创建
+allResources.createdColumn	创建时间
+allResources.description	你在此账户中有权访问的所有内容。
+allResources.edit	编辑
+allResources.empty	空
+allResources.emptyTitle	还没有集合或资源。
+allResources.loadError	加载资源失败。
+allResources.matchCount	{{count}} 项中匹配 {{matches}} 项
+allResources.matchingResourcesCapped	{{count}} 个匹配资源
+allResources.matchingResources_one	{{count}} 个匹配资源
+allResources.matchingResources_other	{{count}} 个匹配资源
+allResources.nextPage	下一页
+allResources.pageNumber	第 {{page}} 页
+allResources.pagination	分页
+allResources.previousPage	上一页
+allResources.privateCollection	在私有集合中
+allResources.privateCollectionMove	它在无法查看的集合中，因此无法从这里移动。
+allResources.removeFromSelection	从所选移除 {{name}}
+allResources.resources	资源
+allResources.resourcesCount_one	{{count}} 个资源
+allResources.resourcesCount_other	{{count}} 个资源
+allResources.search	搜索
+allResources.searchPlaceholder	搜索资源
+allResources.selected	已选 {{what}}
+allResources.sharedWithMembers_one	与 {{count}} 名成员共享。其中所有内容继承该权限。
+allResources.sharedWithMembers_other	与 {{count}} 名成员共享。其中所有内容继承该权限。
+allResources.title	全部资源
+analytics.lastUpdated	最后更新于 {{time}}
+analytics.refresh	刷新数据
+analyticsRevamp.autoapprover.approveRate	批准率
+analyticsRevamp.autoapprover.approveRateTooltip	已完成的判定中为「批准」的比例
+analyticsRevamp.autoapprover.approved	批准
+analyticsRevamp.autoapprover.approvedTooltip	Devin 批准在拉取请求上保持有效的判定
+analyticsRevamp.autoapprover.changesRequested	批准后被要求修改
+analyticsRevamp.autoapprover.changesRequestedTooltip	Autoapprover 批准后又被人要求修改的拉取请求
+analyticsRevamp.autoapprover.description	此期间内 Autoapprover 在账户所有仓库上的判定情况
+analyticsRevamp.autoapprover.descriptionSince	此期间内 Autoapprover 的判定情况。判定自 {{date}} 起统计；更早的运行仅显示在下方列表中。
+analyticsRevamp.autoapprover.disagreed	被标记为错误
+analyticsRevamp.autoapprover.disagreedTooltip	被人标记为错误的判定，包括对 Autoapprover 已批准拉取请求的修改要求
+analyticsRevamp.autoapprover.failedOrSkipped	失败或已跳过
+analyticsRevamp.autoapprover.failedOrSkippedTooltip	结束时未给出判定的运行
+analyticsRevamp.autoapprover.instructionPeriods	按指令划分的判定
+analyticsRevamp.autoapprover.instructionPeriodsDescription	两次指令编辑之间的判定，最新的在前
+analyticsRevamp.autoapprover.instructionPeriodsEmpty	此期间内指令未被编辑。
+analyticsRevamp.autoapprover.instructionsBefore	此期间首次编辑之前
+analyticsRevamp.autoapprover.instructionsEdited	指令已编辑
+analyticsRevamp.autoapprover.instructionsEditedHint	Autoapprover 的指令在这一天被编辑
+analyticsRevamp.autoapprover.instructionsSince	此后指令
+analyticsRevamp.autoapprover.labeled	占 {{formatted}} 个已标注
+analyticsRevamp.autoapprover.needsReview	需要审查
+analyticsRevamp.autoapprover.needsReviewTooltip	将拉取请求留给人审查的判定
+analyticsRevamp.autoapprover.overviewDescription	此期间内 Autoapprover 的判定情况
+analyticsRevamp.autoapprover.repositories	按仓库划分的判定
+analyticsRevamp.autoapprover.repositoriesDescription	此期间判定数最多的仓库
+analyticsRevamp.autoapprover.repository	仓库
+analyticsRevamp.autoapprover.ruleForced	由规则决定
+analyticsRevamp.autoapprover.ruleForcedTooltip	由「始终批准」或「绝不批准」规则直接决定、未经模型的判定
+analyticsRevamp.autoapprover.shadow	影子模式判定
+analyticsRevamp.autoapprover.shadowApprove	影子模式：本会批准
+analyticsRevamp.autoapprover.shadowReview	影子模式：需要审查
+analyticsRevamp.autoapprover.shadowTooltip	影子模式下给出的判定，即 Autoapprover 做出决定但不批准也不撤回任何内容
+analyticsRevamp.autoapprover.verdicts	判定
+analyticsRevamp.autoapprover.verdictsOverTime	判定趋势
+analyticsRevamp.autoapprover.verdictsOverTimeDescription	每日「批准」和「需要审查」判定数，影子模式判定单列，并标记每次指令编辑
+analyticsRevamp.autoapprover.verdictsTooltip	此期间 Autoapprover 给出判定的审查运行，含失败和已跳过的
+analyticsRevamp.autoapprover.viewAll	查看 Autoapprover
+analyticsRevamp.autoapprover.withdrawn	已撤回的批准
+analyticsRevamp.autoapprover.withdrawnTooltip	Devin 收回其已给出批准的判定，通常因新提交需要重新审查
+analyticsRevamp.autoapprover.wouldApprove	{{formatted}} 本会批准
+analyticsRevamp.bots.bot	{{botName}}
+analyticsRevamp.bots.botsSeries	{{botNamePlural}}
+analyticsRevamp.bots.chartMetric	图表指标
+analyticsRevamp.bots.chartTitle	{{botNamePlural}} 随时间变化
+analyticsRevamp.bots.description	组织各 {{botNamePlural}} 的支出与已合并 PR
+analyticsRevamp.bots.empty	此期间无 {{botName}} 活动
+analyticsRevamp.bots.mergedPrs	已合并 PR
+analyticsRevamp.bots.mergedPrsTooltip	此期间 {{botName}} 会话合并的 PR
+analyticsRevamp.bots.owner	所有者
+analyticsRevamp.bots.share	支出占比
+analyticsRevamp.bots.shareOfAll	占全部的 {{percent}}
+analyticsRevamp.bots.spend	支出
+analyticsRevamp.bots.spendTooltip	此期间计入 {{botNamePlural}} 的 ACU
+analyticsRevamp.bots.tableDescription	每个 {{botName}} 链接到其专属页面
+analyticsRevamp.bots.tableTitle	按支出排列的 {{botNamePlural}}
+analyticsRevamp.calloutBody	可随时通过上方设置菜单切回旧版分析布局
+analyticsRevamp.calloutTitle	你正在查看新版分析
+analyticsRevamp.charts.noDataForRange	所选时间范围内无数据
+analyticsRevamp.charts.partialDay	进行中
+analyticsRevamp.charts.partialDayHint	仍在进行中：截至目前为部分数据。与上一期间的对比只统计完整天数。
+analyticsRevamp.charts.total	合计
+analyticsRevamp.cloud.activeUsersTooltip	此期间创建过云端会话或使用过 Ask 的用户
+analyticsRevamp.cloud.acusChartDescription_category	每日消耗的 ACU，按会话类别
+analyticsRevamp.cloud.acusChartDescription_mode	每日消耗的 ACU，按 Agent 模式
+analyticsRevamp.cloud.acusChartDescription_size	每日消耗的 ACU，按会话规模
+analyticsRevamp.cloud.acusDescription	ACU 消耗与分布
+analyticsRevamp.cloud.acusOverTime	ACU 随时间变化
+analyticsRevamp.cloud.acusPerHourChartDescription	每日每有效小时的 ACU
+analyticsRevamp.cloud.acusPerHourChartDescription_week	每周每有效小时的 ACU
+analyticsRevamp.cloud.acusPerHourChartTooltip	每日创建的会话平均每有效小时 ACU。7 天和 30 天均值按有效小时加权，而非按天。
+analyticsRevamp.cloud.acusPerHourChartTooltip_week	每周创建的会话平均每有效小时 ACU
+analyticsRevamp.cloud.acusPerHourTooltip	此期间创建的会话平均每有效小时 ACU
+analyticsRevamp.cloud.acusPerMergedPrChartDescription	每日每个已合并 PR 的 ACU，按会话创建日期
+analyticsRevamp.cloud.acusPerMergedPrChartDescription_week	每周每个已合并 PR 的 ACU，按会话创建日期
+analyticsRevamp.cloud.acusPerMergedPrChartTooltip	每日创建的会话平均每个已合并 PR 的 ACU。7 天和 30 天均值按已合并 PR 加权，而非按天。
+analyticsRevamp.cloud.acusPerMergedPrChartTooltip_week	每周创建的会话平均每个已合并 PR 的 ACU
+analyticsRevamp.cloud.acusPerPrTooltip	此期间创建的会话平均每个已合并 PR 的 ACU
+analyticsRevamp.cloud.acusPerSessionTooltip	此期间创建的云端会话平均全生命周期 ACU
+analyticsRevamp.cloud.acusPerUserTooltip	此期间创建的会话消耗的 ACU 除以该期间创建会话的去重用户数
+analyticsRevamp.cloud.acusTitle	ACU
+analyticsRevamp.cloud.aiFtesChartDescription	每日 AI FTE，按每天 8 有效小时计
+analyticsRevamp.cloud.aiFtesChartDescription_week	每周 AI FTE，按每周 40 有效小时计
+analyticsRevamp.cloud.aiFtesTooltip	按每 FTE 每周 40 有效小时估算的 AI FTE
+analyticsRevamp.cloud.askOnlyUsersTooltip	此期间仅使用过 Ask 的用户
+analyticsRevamp.cloud.askSessionsTooltip	此期间创建的 Ask 查询
+analyticsRevamp.cloud.breakdownCard.chartLabel	{{section}} 图表类型
+analyticsRevamp.cloud.breakdownHelp.activity	创建过会话的用户与仅使用 Ask 的用户
+analyticsRevamp.cloud.breakdownHelp.kind	此期间的会话与 Ask 查询
+analyticsRevamp.cloud.breakdownHelp.size	按全生命周期 ACU 划分的会话规模
+analyticsRevamp.cloud.breakdownLabel	{{section}} 构成
+analyticsRevamp.cloud.codingUsersTooltip	此期间创建过会话的用户
+analyticsRevamp.cloud.empty	此期间无活动。试试其他期间或组织筛选。
+analyticsRevamp.cloud.empty_org	此期间无活动。试试其他期间。
+analyticsRevamp.cloud.hoursChartDescription	每日有效小时，按会话创建日期
+analyticsRevamp.cloud.hoursChartDescription_week	每周有效小时，按会话创建日期
+analyticsRevamp.cloud.hoursTooltip	此期间创建的会话估算节省的工程小时数
+analyticsRevamp.cloud.keys.1_session	1 个会话
+analyticsRevamp.cloud.keys.2_5_sessions	2–5 个会话
+analyticsRevamp.cloud.keys.6_plus_sessions	6+ 个会话
+analyticsRevamp.cloud.keys.active	活跃
+analyticsRevamp.cloud.keys.agent	Agent
+analyticsRevamp.cloud.keys.api	API
+analyticsRevamp.cloud.keys.ask	Ask
+analyticsRevamp.cloud.keys.ask_only	仅 Ask
+analyticsRevamp.cloud.keys.automation	自动化
+analyticsRevamp.cloud.keys.bug_fixing	缺陷修复
+analyticsRevamp.cloud.keys.ci_cd_and_devops	CI/CD 与 DevOps
+analyticsRevamp.cloud.keys.code	代码
+analyticsRevamp.cloud.keys.code_review	代码审查
+analyticsRevamp.cloud.keys.code_scan	代码扫描
+analyticsRevamp.cloud.keys.coding	会话
+analyticsRevamp.cloud.keys.data	数据
+analyticsRevamp.cloud.keys.data_and_automation	数据与自动化
+analyticsRevamp.cloud.keys.default	Agent（默认）
+analyticsRevamp.cloud.keys.devin	Devin 会话
+analyticsRevamp.cloud.keys.documentation_and_content	文档与内容
+analyticsRevamp.cloud.keys.fast	Fast
+analyticsRevamp.cloud.keys.feature_development	功能开发
+analyticsRevamp.cloud.keys.fusion	Fusion
+analyticsRevamp.cloud.keys.human	人工
+analyticsRevamp.cloud.keys.inactive	不活跃
+analyticsRevamp.cloud.keys.indexing	索引
+analyticsRevamp.cloud.keys.jira	Jira
+analyticsRevamp.cloud.keys.jiraDataCenter	Jira Data Center
+analyticsRevamp.cloud.keys.l	L
+analyticsRevamp.cloud.keys.linear	Linear
+analyticsRevamp.cloud.keys.lite	Lite
+analyticsRevamp.cloud.keys.m	M
+analyticsRevamp.cloud.keys.merged_pr	已合并 PR
+analyticsRevamp.cloud.keys.migrations_and_upgrades	迁移与升级
+analyticsRevamp.cloud.keys.new	新用户
+analyticsRevamp.cloud.keys.no_pr	无 PR
+analyticsRevamp.cloud.keys.non_productive	非有效
+analyticsRevamp.cloud.keys.normal	Normal
+analyticsRevamp.cloud.keys.oncall	值班
+analyticsRevamp.cloud.keys.open_pr	打开的 PR
+analyticsRevamp.cloud.keys.other	其他
+analyticsRevamp.cloud.keys.production_investigation	生产问题排查
+analyticsRevamp.cloud.keys.productive	有效
+analyticsRevamp.cloud.keys.refactoring_and_optimization	重构与优化
+analyticsRevamp.cloud.keys.research_and_exploration	研究与探索
+analyticsRevamp.cloud.keys.review	Review
+analyticsRevamp.cloud.keys.s	S
+analyticsRevamp.cloud.keys.security	安全
+analyticsRevamp.cloud.keys.service	Service
+analyticsRevamp.cloud.keys.slack	Slack
+analyticsRevamp.cloud.keys.teams	Teams
+analyticsRevamp.cloud.keys.total	合计
+analyticsRevamp.cloud.keys.ultra	Ultra
+analyticsRevamp.cloud.keys.unit_test_generation	单元测试生成
+analyticsRevamp.cloud.keys.webapp	网页端
+analyticsRevamp.cloud.keys.wiki	Wiki
+analyticsRevamp.cloud.keys.xl	XL
+analyticsRevamp.cloud.keys.xs	XS
+analyticsRevamp.cloud.kindsChartDescription	每日会话与 Ask 查询数
+analyticsRevamp.cloud.membershipCaveat	基于当前成员资格
+analyticsRevamp.cloud.mergeTooltip_session_created	此期间创建的云端会话产生的已合并 PR
+analyticsRevamp.cloud.mergedPrsChartDescription	每日已合并 PR，按会话创建日期
+analyticsRevamp.cloud.mergedPrsChartDescription_week	每周已合并 PR，按会话创建日期
+analyticsRevamp.cloud.metrics.activeUsers	活跃用户
+analyticsRevamp.cloud.metrics.acusPerHour	每有效小时 ACU
+analyticsRevamp.cloud.metrics.acusPerMergedPr	每已合并 PR 的 ACU
+analyticsRevamp.cloud.metrics.acusPerSession	每会话 ACU
+analyticsRevamp.cloud.metrics.acusPerUser	每会话用户 ACU
+analyticsRevamp.cloud.metrics.askOnlyUsers	仅 Ask 活跃用户
+analyticsRevamp.cloud.metrics.askSessions	Ask 会话
+analyticsRevamp.cloud.metrics.codeSessions	会话
+analyticsRevamp.cloud.metrics.codingUsers	活跃会话用户
+analyticsRevamp.cloud.metrics.estimatedAiFtes	估算 AI FTE
+analyticsRevamp.cloud.metrics.mergedPrs	已合并 PR
+analyticsRevamp.cloud.metrics.productiveHours	折算有效小时
+analyticsRevamp.cloud.metrics.sessionsToMerged	会话到已合并 PR

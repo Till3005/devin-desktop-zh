@@ -1,0 +1,300 @@
+scopedTriggers.verbNeverApprove	总是拒绝
+scopedTriggers.verbReview	分析
+scopedTriggers.verbRun	跑于
+scopedTriggers.verbSkip	跳过
+scopedTriggers.viewOnly	仅可查看
+scopedTriggers.viewOnlyHint	仅管理员可编辑
+scopedTriggers.warning.github_pat.admin	用的是个人访问令牌连接，不发 webhook。
+scopedTriggers.warning.github_pat.nonAdmin	用的是个人访问令牌连接，不发 webhook。请 Devin 管理员装 GitHub App。
+scopedTriggers.warning.missing.admin	它的 {{provider}} 连接被移除了，没有 webhook 进来。移除此规则，重连 {{provider}}，再重加。
+scopedTriggers.warning.missing.nonAdmin	它的 {{provider}} 连接被移除了，没有 webhook 进来。请 Devin 管理员重连 {{provider}} 并重加此规则。
+scopedTriggers.warning.relink_required.admin	GitHub App 不再已装，因此 {{provider}} 不发 webhook。
+scopedTriggers.warning.relink_required.nonAdmin	GitHub App 不再已装，因此 {{provider}} 不发 webhook。请 Devin 管理员重连 {{provider}}。
+scopedTriggers.warning.unavailable.admin	Devin 还收不到 {{provider}} 的拉取请求 webhook。
+scopedTriggers.warning.unavailable.nonAdmin	Devin 还收不到 {{provider}} 的拉取请求 webhook。
+scopedTriggers.whenDialog	当
+scopedTriggers.wheneverReviewRuns	每当 Devin Review 跑时
+search.aCUs_one	{{amount}} ACU
+search.aCUs_other	{{amount}} ACU
+search.accessDeniedYouMayNotHavePermissionTo	访问被拒。你可能没有执行此操作的权限。
+search.accountBillingIssue	此账户有计费问题，Ask Devin 不可用
+search.addReposToUseAsk	加仓库以用 Ask Devin
+search.addRepositories	加仓库
+search.addRepositoryToUseAsk	加仓库以用 Ask Devin
+search.allPrivate	全部私有
+search.allRepositories	全部仓库
+search.anErrorOccurredWhileRunningTheQuery	跑查询时出错。
+search.anErrorOccurredWhileRunningTheQueryPlease	跑查询时出错，请联系支持
+search.ask	问答
+search.askAFollowUp	追问
+search.askDescription	答关于代码库的问题
+search.askDevinAboutCode	问 Devin 关于你代码的问题
+search.askFollowUpOrConstructPrompt	追问或构造 Devin 提示词
+search.askFollowUpQuestion	追问
+search.auto	自动
+search.autoDescription	自动选模式
+search.back	返回
+search.badResponse	回答不好
+search.basedOn	基于：<prompt>{{prompt}}</prompt>
+search.cancel	取消
+search.characterCount	{{current}} / {{limit}} 字符
+search.characterLimitExceeded	- 超字符上限
+search.clarificationNeeded	需要澄清
+search.clickToViewInRightPanel	点击在右栏查看
+search.closePanel	关闭面板
+search.codeSnippets	代码片段
+search.codemap	代码地图
+search.codemapDescription	立足代码的结构化解释
+search.collapseKnowledge	收起知识
+search.connectAccount	连接账户
+search.connectAccountToAccessRepos	连接你的账户以访问仓库
+search.connecting	连接中…
+search.constructPrompt	构造 Devin 提示词
+search.continueWithoutRepos	不带仓库继续
+search.copied	已复制！
+search.copyLinkToQuery	复制查询链接
+search.copyResponse	复制回答
+search.copyThread	复制帖子
+search.deep	深度
+search.deepDescription	更彻底的排查
+search.deepMode	深度模式
+search.deepModeBilledTooltip	深度模式用量计费。其它用量仍免费。
+search.deepModeDescription	更深推理的更彻底回答
+search.deepModeSelectedLabel	深度 · {{label}}
+search.deepModeUnavailableTooltip	用量配额超限时深度模式不可用。
+search.deleteResponse	删回答
+search.desktopInsiders	Devin Desktop Insiders
+search.desktopNext	Devin Desktop Next
+search.desktopStable	Devin Desktop
+search.devinSessionStarted	Devin 会话已开始
+search.didntOpen	没打开？
+search.discard	放弃
+search.discardChanges	放弃未保存的更改？
+search.dismiss	忽略
+search.dropImageOnAskComposer	要附图，把它拖到消息框
+search.edit	编辑
+search.enterAMessage	输入消息
+search.error	错误：
+search.expandKnowledge	展开知识
+search.failedToCancelQuery	取消查询失败
+search.failedToCopyResponse	复制回答失败
+search.failedToCopyThread	复制帖子失败
+search.failedToCreatePromptMapping	创建提示词映射失败
+search.failedToCreateTaskPleaseTryAgain	创建任务失败。请重试。
+search.failedToDeleteResponse	删回答失败
+search.failedToLoadPromptPleaseTryAgain	加载提示词失败。请重试。
+search.failedToSendPleaseCheckIfYouAre	发送失败。请确认你在正确的组织并重试。
+search.failedToSendQueryPleaseCheckYourConnection	发查询失败。请检查连接并重试。
+search.failedToStartDeepSearchPleaseTryAgain	启动深度搜索失败。请重试。
+search.failedToStartDevinSession	启动 Devin 会话失败
+search.failedToSubmitFeedback	提交反馈失败
+search.failedToUpload	上传 {{name}} 失败
+search.fast	快速
+search.fastDescription	快速响应的回答
+search.generatedDevinPrompt	生成的 Devin 提示词
+search.generating	生成中…
+search.generatingDevinPrompt	正在生成 Devin 提示词…
+search.generatingPrompt	正在生成提示词…
+search.goDeeper	更深入
+search.goodResponse	回答好
+search.hideFullText	收起全文
+search.indexing	索引中
+search.installToViewCodemaps	<installLink>安装 {{productName}}</installLink> 在你的 IDE 里看代码地图。
+search.knowledge	知识
+search.lastIndexed	上次索引
+search.linkCopied	链接已复制！
+search.linkGithubAccount	关联 GitHub 账户
+search.loadingEllipsis	加载中…
+search.loadingIndexes	正在加载索引…
+search.loadingRepositories	正在加载仓库…
+search.manageRepositories	管理仓库
+search.moreOptions	更多选项
+search.mustLinkGithubAccount	必须关联你的 GitHub 账户才能搜仓库。
+search.name	名称
+search.noCodeSnippetsReferenced	没引用代码片段
+search.noCodeToPreview	没有可预览的代码
+search.noPublicRepositories	没有公开仓库
+search.noRepositoriesAvailable	没有可用仓库
+search.noRepositoriesForAsk	你没有可用于 Ask Devin 的仓库
+search.noRepositoriesFound	未找到仓库
+search.noRepositoriesIndexed	还没有已索引仓库
+search.noRepositoriesIndexedForThisOrganizationConfigureRepository	此组织没有已索引仓库。配置仓库索引以启用搜索。
+search.noResultsFound	没有结果
+search.only	仅
+search.onlyImageFiles	只支持图片文件（.png、.jpg、.jpeg、.gif、.webp）
+search.openInGithub	在 GitHub 打开
+search.openInPlayground	在 playground 打开
+search.openInSidebar	在侧栏打开
+search.openLink	打开链接：{{href}}
+search.openPanel	打开面板
+search.openPr	打开 PR
+search.openWith	用 {{product}} 打开
+search.plan	方案
+search.planDescription	为任务建可执行方案
+search.planTitle	方案标题
+search.privateCount_one	{{count}} 个私有
+search.privateCount_other	{{count}} 个私有
+search.public	公开
+search.publicRepositoriesCount_one	{{count}} 个公开仓库
+search.publicRepositoriesCount_other	{{count}} 个公开仓库
+search.querySize	查询大小
+search.recordVoicePrompt	录语音提示词
+search.removeQuote	移除引用
+search.repositoriesCount_one	{{count}} 个仓库
+search.repositoriesCount_other	{{count}} 个仓库
+search.scanned	已扫描
+search.scanning	扫描中
+search.scrollToBottom	滚到底
+search.searchDeepWikiToAdd	搜 DeepWiki 以加公开仓库
+search.searchPublicRepositoriesPlaceholder	搜索公开仓库…
+search.searchRepositoriesPlaceholder	搜索仓库…
+search.searchedAcrossAll	已搜全部仓库
+search.searchedAcrossCount_one	已搜 <reposTooltip>{{count}} 个仓库</reposTooltip>
+search.searchedAcrossCount_other	已搜 <reposTooltip>{{count}} 个仓库</reposTooltip>
+search.searchedAcrossRepos	已搜 {{repos}}
+search.searching	搜索中…
+search.searchingAcrossAll	正在搜全部仓库…
+search.searchingAcrossCount_one	正在搜 <reposTooltip>{{count}} 个仓库</reposTooltip>…
+search.searchingAcrossCount_other	正在搜 <reposTooltip>{{count}} 个仓库</reposTooltip>…
+search.searchingAcrossRepos	正在搜 {{repos}}…
+search.selectBranch	选择分支
+search.selectMode	选择模式
+search.selectReposToUseAskDevin	选用于 Ask Devin 的仓库
+search.selectRepositories	选择仓库
+search.selectRepositoriesCount_one	选 {{count}} 个仓库
+search.selectRepositoriesCount_other	选 {{count}} 个仓库
+search.selectRepositoriesDescription	告诉 Devin 会话里它该用哪些仓库
+search.selectRepository	选择一个仓库
+search.selectRepositoryTrigger	选择仓库
+search.selectVersion	选择 {{productName}} 版本
+search.sendFailedTryAgain	发送失败。请重试。
+search.sendToDevin	发给 Devin
+search.sending	发送中…
+search.sessionUnavailable	会话不可用
+search.sessionUnavailableDescription	你没有此会话的访问权，或它已不存在。
+search.showFullText	显示全文
+search.signInToContinue	登录以继续
+search.signInToUpload	登录以上传图片
+search.startDevin	启动 Devin
+search.startDevinSession	启动 Devin 会话
+search.startingDevinSession	正在启动 Devin 会话…
+search.stillAnsweringPreviousQuestion	Devin 还在答此帖上个问题。等它答完再追问，或先停掉回答。
+search.stopStreaming	停止输出
+search.stopping	正在停止…
+search.superuserReadonly.message	你在以只读模式看另一个组织的搜索查询。
+search.tasksProgress	{{completed}} / {{total}} 个任务
+search.thinking	思考中…
+search.thinkingLabel	思考中
+search.thinkingProcess	思考过程
+search.thoughtProcess	思路
+search.title	搜索
+search.tryDifferentSearchTerm	换个搜索词试试
+search.userMessages	用户消息
+search.viewSession	查看会话
+search.whatQuestionsDoYouHave	你有什么问题？
+search.yourOrganizationHasABillingIssueSubscribeTo	你的组织有计费问题。订阅以继续用 Ask Devin。
+search.yourRepos	你的仓库
+search.youveReachedTheMaximumNumberOfQueriesAllowed	你已达查询次数上限。请稍后再试。
+secretAccess.canEdit	可编辑
+secretAccess.canEditDescription	可在其会话用此机密，并编辑或删除它
+secretAccess.canManage	可管理
+secretAccess.canManageDescription	可在其会话用此机密，编辑或删除它，并管理谁能访问它
+secretAccess.canUse	可使用
+secretAccess.canUseDescription	可在其会话用此机密
+secretAccess.description	允许用户、角色或服务用户在其会话用 {{name}}。
+secretAccess.inheritedDescription	此访问是继承的，不能在此改
+secretAccess.manageAccess	管理访问
+secretAccess.removeSelfError	你不能移除自己管理此机密的访问
+secretAccess.searchPlaceholder	搜索要加的用户、角色、团队或服务用户
+secretAccess.sharedBy	由 {{name}} 共享
+secrets.confirmOrganizationCreate	创建组织机密？
+secrets.confirmOrganizationImport	导入组织机密？
+secrets.editUnavailable	编辑不可用
+secrets.importOrganizationSecrets	导入组织机密
+secrets.loadPolicyUpdateFailed	更新 Devin 何时能用此机密失败
+secrets.organizationCreateDescription	{{orgName}} 里任何人都可在其 Devin 会话用此机密。
+secrets.organizationImportDescription	{{orgName}} 里任何人都可在其 Devin 会话用这些机密。
+secrets.redactColumnLabel	脱敏
+secrets.redactEntryLabel	脱敏 {{key}}
+secrets.redactNewValueDescription	安全起见，脱敏值不能再显示。\n以后要关，输入新值
+secrets.redactNewValuesDescription	安全起见，脱敏值不能再显示。\n以后要关，输入新值
+secrets.redactValueDescription	安全起见，脱敏值不能再显示。\n要关，输入新值
+secrets.redactValueLabel	脱敏值
+secrets.redactValueLocked	先输入新值
+secrets.redactValueLockedView	点编辑，再输入新值
+secrets.requireApprovalToggleDescription	Devin 每次需要此机密都问你批准
+secrets.requireApprovalToggleLabel	每次用前需批准
+secrets.scope	范围
+secrets.scopeEveryone	{{orgName}} 所有人
+secrets.scopeGroups	组
+secrets.scopeGroupsDescription	共享给你选的用户组。只有你能编辑
+secrets.scopeGroupsEmpty	找不到用户组
+secrets.scopeGroupsPlaceholder	搜索用户组
+secrets.scopeOnlyMe	仅我
+secrets.scopeOrganizationDescription	共享给全体成员。有「管理机密」权限的人都能编辑
+secrets.serviceUserCreateDescription	仅 {{name}} 的会话可用
+secrets.storeOrganizationSecret	存组织机密
+secrets.title	机密
+secrets.typeCookie	Cookie
+secrets.typeKeyValue	键值
+secrets.typeTotp	一次性密码（TOTP）
+secretsDialog.addCountSecrets_one	加 {{count}} 个机密
+secretsDialog.addCountSecrets_other	加 {{count}} 个机密
+secretsDialog.addNewSecret	加新机密
+secretsDialog.addSecrets	加机密
+secretsDialog.addToCollectionFailed_one	{{count}} 个机密保存不了。
+secretsDialog.addToCollectionFailed_other	{{count}} 个机密保存不了。
+secretsDialog.botScopeTooltip	仅 {{name}} 及其会话能访问这些机密
+secretsDialog.bulkAdd	批量加
+secretsDialog.bulkAddError_manyLines_one	已加 {{count}} 个机密。下面剩 {{invalidCount}} 行无效——修好或取消。
+secretsDialog.bulkAddError_manyLines_other	已加 {{count}} 个机密。下面剩 {{invalidCount}} 行无效——修好或取消。
+secretsDialog.bulkAddError_oneLine_one	已加 {{count}} 个机密。下面剩 {{invalidCount}} 行无效——修好或取消。
+secretsDialog.bulkAddError_oneLine_other	已加 {{count}} 个机密。下面剩 {{invalidCount}} 行无效——修好或取消。
+secretsDialog.bulkDescription	上传 .env 文件或粘贴 KEY=VALUE 行一次加多个机密。
+secretsDialog.bulkPlaceholder	API_KEY=your-api-key-here # GitHub 用此 API Key\nDATABASE_URL=postgresql://user:pass@localhost:5432/db # us-west-2 的 RDS\nENVIRONMENT=production
+secretsDialog.cancel	取消
+secretsDialog.chooseFile	选文件或拖进来
+secretsDialog.collection	集合
+secretsDialog.cookiePreview.expired	已过期
+secretsDialog.cookiePreview.expiredTitle	已过期 cookie
+secretsDialog.cookiePreview.expires	过期于
+secretsDialog.cookiePreview.expiringSoonTitle	快过期
+secretsDialog.cookiePreview.httpOnly	httpOnly
+secretsDialog.cookiePreview.secure	secure
+secretsDialog.decodedCookies_one	已解码 {{count}} 个 cookie
+secretsDialog.decodedCookies_other	已解码 {{count}} 个 cookie
+secretsDialog.description	加机密与当前会话共享。
+secretsDialog.expiredCookiesWarning_one	<strong>{{name}}</strong> 已过期。
+secretsDialog.expiredCookiesWarning_other	{{count}} 个 cookie 已过期：{{cookies, list(type: unit)}}
+secretsDialog.expiringCookieWarning_one	<strong>{{name}}</strong> {{count}} 天后过期。
+secretsDialog.expiringCookieWarning_other	<strong>{{name}}</strong> {{count}} 天后过期。
+secretsDialog.expiringCookiesWarning_one	{{count}} 个 cookie 一个月内过期：{{cookies, list(type: unit)}}
+secretsDialog.expiringCookiesWarning_other	{{count}} 个 cookie 一个月内过期：{{cookies, list(type: unit)}}
+secretsDialog.fileTooLarge	文件必须小于 2MB
+secretsDialog.maxSize	（最大 2MB）
+secretsDialog.orgScopeTooltip	你组织里所有人可用
+secretsDialog.organization	组织
+secretsDialog.parsedCookies_one	已解析 {{count}} 个 cookie
+secretsDialog.parsedCookies_other	已解析 {{count}} 个 cookie
+secretsDialog.pasteSecrets	粘贴机密
+secretsDialog.pastedCreate	建机密
+secretsDialog.pastedCreateFailed	建不了机密。请重试。
+secretsDialog.pastedDescription	提示词里的内容留在会话历史，有访问权的人能读。考虑存成机密。
+secretsDialog.pastedInvalidName	用字母、数字和下划线；别以数字开头。
+secretsDialog.pastedKeepAsIs	原样粘贴
+secretsDialog.pastedNameLabel	机密名
+secretsDialog.pastedNameTaken	已有同名机密。
+secretsDialog.pastedScopeInfo	个人：只你能用，在你自己的会话。组织：你组织里每个人都能在其会话用。
+secretsDialog.pastedTitle	这看着像机密
+secretsDialog.personal	个人
+secretsDialog.personalScopeTooltip	仅你能访问这些机密
+secretsDialog.saveForFuture	存给以后的 Devin 会话。<manageLink>管理机密</manageLink>
+secretsDialog.saveShort	保存
+secretsDialog.saveToReuse	存这些机密以后会话复用
+secretsDialog.saveToSecretsManager	存到机密管理器
+secretsDialog.send	发送
+secretsDialog.sending	发送中…
+secretsDialog.title	发会话机密
+secretsDialog.uploadFile	上传文件
+secretsDialog.validationError_withLinesAndValidEntries_one	{{count}} 个条目有错（第 {{lines, list(type: unit)}} 行）——见下方预览。存其余有效机密时无效条目会被跳过。
+secretsDialog.validationError_withLinesAndValidEntries_other	{{count}} 个条目有错（第 {{lines, list(type: unit)}} 行）——见下方预览。存其余有效机密时无效条目会被跳过。

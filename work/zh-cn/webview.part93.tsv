@@ -1,0 +1,200 @@
+settings.msTeamsTeamBotDisabled	Microsoft Teams 管理员挡了 Devin AI 应用，所以 Devin 在此团队回不了、发不了帖。请 Teams 管理员在 Teams 管理中心（Teams apps > Manage apps）允许 Devin AI。
+settings.msTeamsTeamMissingPermissions	Devin 没有此团队的完整访问，所以 Teams 消息触发的自动化等功能在此可能不工作。请 Microsoft Teams 管理员查此团队的 Devin 应用权限。
+settings.msTeamsUsersCount_one	{{count}} 个用户
+settings.msTeamsUsersCount_other	{{count}} 个用户
+settings.myAnalytics	我的分析
+settings.name	名称
+settings.nameDescription	设你的显示名
+settings.newTier	新档位
+settings.newsletter	Newsletter
+settings.newsletterDescription	经邮箱收产品更新和公告
+settings.noAccountLinked	没链账户
+settings.noAcuRequestsDescription	成员的额外 ACU 申请会出现在这
+settings.noAcuRequestsDescription_dollars	成员的额外花费申请会出现在这
+settings.noAcuRequestsTitle	还没有 ACU 申请
+settings.noAcuRequestsTitle_dollars	还没有申请
+settings.noCertificationsFound	找不到认证。
+settings.noFallbackTier	无回退档位
+settings.noFontsFound	找不到字体
+settings.noGroupMappingsDescription	加一个映射给 IdP 组成员一个默认用量档位。
+settings.noGroupMappingsTitle	还没有组映射
+settings.noGroupsFound	找不到组
+settings.noLimit	无上限
+settings.noMatchingGroupMappingsDescription	换个搜索或档位筛选试试。
+settings.noMatchingGroupMappingsTitle	没有匹配的组映射
+settings.noMcpServersAdded	没加服务器。全部 MCP 服务器默认允许。
+settings.noMcpServersForSource	此来源没有服务器。
+settings.noMcpsToConnect	没有可连的 MCP
+settings.noMembersFound	找不到成员
+settings.noMembersMatchFilters	没有成员匹配这些筛选
+settings.noPendingAcuRequestsDescription	成员新的额外 ACU 申请会出现在这
+settings.noPendingAcuRequestsDescription_dollars	成员新的额外花费申请会出现在这
+settings.noPendingAcuRequestsTitle	没有待批申请
+settings.noRequestMessage	没有消息
+settings.noSharedCodemaps	没有共享代码地图
+settings.noSharedCodemapsDescription	你从 Devin Desktop 共享的代码地图会出现在这。
+settings.noSharedConversations	没有共享对话
+settings.noSharedConversationsDescription	你从 Devin Desktop 或 Devin CLI 共享的对话会出现在这。
+settings.noSubagents	无（不用子 agent）
+settings.noTeamCodemaps	没有团队代码地图
+settings.noTeamCodemapsDescription	共享给你团队的代码地图会出现在这。
+settings.noTeamDefault	无团队默认
+settings.noTier	无档位
+settings.noTierMembersDescription	派成员以把此档位的月度 ACU 分配应用于他们。
+settings.noTierMembersDescription_dollars	派成员以把此档位的月度花费分配应用于他们。
+settings.noTierMembersTitle	此档位还没有成员
+settings.noTierUsageThisCycle	此周期无用量
+settings.noTiersDescription	加一个档位为你成员定义月度 ACU 分配。
+settings.noTiersDescription_dollars	加一个档位为你成员定义月度花费分配。
+settings.noTiersTitle	还没有用量档位
+settings.normal	Normal
+settings.normalDescription	快且擅长长程规划
+settings.notSet	未设
+settings.notSetWillAsk	未设（首次点击时会问）
+settings.notificationSettings	通知
+settings.notifications	通知
+settings.notificationsDisabledInstructions	Devin 的通知已禁。开启方法见此：
+settings.oauthAccessDenied	提供商拒了访问
+settings.oauthCallbackUrl	OAuth 回调 URL
+settings.oauthCallbackUrlDescription	在提供商侧把此重定向 URI 加进你 OAuth 应用的白名单。
+settings.oauthCallbackUrlDescriptionGoogle	在你 Google Cloud OAuth client 上把此加为已授权重定向 URI。
+settings.oauthCallbackUrlDescriptionMicrosoft365	在你应用注册的 Authentication 页把此加为 Web 平台重定向 URI。
+settings.oauthClientId	OAuth client ID
+settings.oauthClientIdDescription	你预注册 OAuth 应用的 client ID。
+settings.oauthClientIdDescriptionGoogle	你 Google Cloud OAuth client 的 client ID（以 .apps.googleusercontent.com 结尾）。
+settings.oauthClientIdDescriptionMicrosoft365	你应用注册 Overview 页的 Application (client) ID。
+settings.oauthClientRejected	提供商拒了此服务器的 OAuth client ID 或 client secret。在服务器设置查两者（secret 可能过期了），再连。
+settings.oauthClientSecret	OAuth client secret
+settings.oauthClientSecretDescription	你预注册 OAuth 应用的 client secret。加密存储。
+settings.oauthClientSecretDescriptionGoogle	你 Google Cloud OAuth client 的 client secret。加密存储。
+settings.oauthClientSecretDescriptionMicrosoft365	Certificates & secrets 里 client secret 的 Value（不是 Secret ID）。加密存储。
+settings.oauthClientSetupGuide.google.action	开 Google Cloud 控制台
+settings.oauthClientSetupGuide.google.clientIdRequired	输你 Google Cloud OAuth client 的 client ID
+settings.oauthClientSetupGuide.google.step1	在注册了 Developer Preview 的 Google Cloud 项目里，开 {{name}} API 和 {{name}} MCP API。
+settings.oauthClientSetupGuide.google.step1Project	在你 Google Cloud 项目里，开 {{name}} API 并给要连的每个人授 MCP Tool User 角色（roles/mcp.toolUser）。
+settings.oauthClientSetupGuide.google.step2	项目还没有的话，配置 OAuth 同意屏。
+settings.oauthClientSetupGuide.google.step3	建一个 Web 应用类型的 OAuth client ID，把下面显示的 OAuth 回调 URL 加为已授权重定向 URI。
+settings.oauthClientSetupGuide.google.step4	在下面输 client ID 和 client secret。
+settings.oauthClientSetupGuide.google.title	设你的 Google OAuth client
+settings.oauthClientSetupGuide.microsoft365.action	开 Microsoft Entra 管理中心
+settings.oauthClientSetupGuide.microsoft365.clientIdRequired	输你 Microsoft Entra 应用注册的 Application (client) ID
+settings.oauthClientSetupGuide.microsoft365.clientSecretRequired	输你 Microsoft Entra 应用注册的 client secret Value
+settings.oauthClientSetupGuide.microsoft365.optionalIntro	Devin 默认用它自己的 Microsoft 应用连。要改用你组织的应用注册：
+settings.oauthClientSetupGuide.microsoft365.step1	在 App registrations 建应用注册（在 Microsoft Entra 管理中心，或 Azure 门户的 Microsoft Entra ID）。Supported account types 下选 Accounts in any organizational directory (multitenant)。Devin 经 Microsoft common 端点登录，单租户应用会被拒。
+settings.oauthClientSetupGuide.microsoft365.step2	Authentication 下，加一条 Web 平台重定向 URI，用下面显示的 OAuth 回调 URL。
+settings.oauthClientSetupGuide.microsoft365.step3	API permissions 下，加匹配下面所选 scope 的 Microsoft Graph 委托权限。若你租户需管理员批准，授管理员同意。
+settings.oauthClientSetupGuide.microsoft365.step4	Certificates & secrets 下，建一个 client secret 并复制其 Value（不是 Secret ID）。它只显示一次。
+settings.oauthClientSetupGuide.microsoft365.step5	在下面输 Application (client) ID 和 secret 值。
+settings.oauthClientSetupGuide.microsoft365.title	设你的 Microsoft Entra 应用
+settings.oauthCompleteError	OAuth 完成不了。请重试。
+settings.oauthConfigurationChanged	MCP OAuth 配置变了。重新开 OAuth。
+settings.oauthExpiredState	OAuth 会话过期，请重试
+settings.oauthFailed	OAuth 失败：{{message}}
+settings.oauthGenericError	出错了，请重试
+settings.oauthGrantType	OAuth 授权类型
+settings.oauthGrantTypeDescription	token 怎么拿：交互用户登录（authorization code）或非交互服务凭据（client credentials）。
+settings.oauthInstallationNotFound	此 MCP 服务器安装已不存在。
+settings.oauthInsufficientPermissions	你没有为此组织或账户管 MCP 服务器的权限。请组织管理员授你访问或让他们自己连服务器。
+settings.oauthInsufficientScope	提供商没授所需权限。重新授权并在同意屏勾权限框。
+settings.oauthMissingAccessToken	token 交换成功但没回 access token。
+settings.oauthMissingParameters	缺 OAuth 参数
+settings.oauthResource	OAuth resource
+settings.oauthResourceDescription	RFC 8707 resource 参数怎么发。对拒它的提供商（如 Microsoft Entra）省略。
+settings.oauthRouteChanged	MCP OAuth 网络路由变了。重新开 OAuth。
+settings.oauthSaveTokensError	存 OAuth token 失败
+settings.oauthScope	OAuth scope
+settings.oauthScopeDescription	要申请的空格分隔 scope。只有提供商默认授 API 访问才留空——有些发只含身份的 token，在这写明 scope 前什么都读不了。
+settings.oauthScopesCardLabel	Scope
+settings.oauthStartFailed	开不了 OAuth 链接。请重试或联系你的管理员。
+settings.oauthTokenExchangeError	授权码交换失败
+settings.oauthTokenExchangeFailed	token 交换失败
+settings.oauthUnsafeAuthorizationUrl	提供商回了无效或不支持的 OAuth 登录 URL。
+settings.oauthWrongUser	此 OAuth 链接是另一个用户建的。从你自己账户重开连接。
+settings.off	关
+settings.on	开
+settings.onFallback	在回退上
+settings.onFallbackStatus	在回退上
+settings.onboarding	上手向导
+settings.onboardingAnalyzeError	加载用量数据失败。关掉向导再试。
+settings.onboardingAnalyzing	分析最近用量中…
+settings.onboardingApplyDescription	确认后会有这些变化。
+settings.onboardingApplyOperationFailed	操作失败
+settings.onboardingApplyProgress	应用更改中…
+settings.onboardingApplyToAll	应用到全部
+settings.onboardingBack	返回
+settings.onboardingBulkTier	全部设为…
+settings.onboardingChecklist	上手清单
+settings.onboardingChecklistDescription	清单已被收起。
+settings.onboardingClearBlockedByAssignment	跳过：移到 {{tier}} 没成功，所以保留了现有限制
+settings.onboardingClose	关闭
+settings.onboardingCompleteWindows	完整月度窗口
+settings.onboardingConfirmApply	确认并应用
+settings.onboardingDescription	管主页出现的上手清单。
+settings.onboardingDoneDescription	你的档位已生效。撞到上限的成员可一键申请更多。
+settings.onboardingDoneIdpNote	若你身份提供商同步组，可把组映射到档位，新成员自动入档。
+settings.onboardingDoneRequestsLink	看申请
+settings.onboardingDoneRequestsNote	头几周盯一下申请并随情况调整。
+settings.onboardingDoneTitle	用量档位已配置
+settings.onboardingDoneViewTiers	看档位
+settings.onboardingEachOrgDecides	按组织
+settings.onboardingEntryAuto	自动开始
+settings.onboardingEntryPoint	按建议设置
+settings.onboardingEntryPrompt	开始前先问
+settings.onboardingEntryUpdateFailed	更新上手开始时机失败。
+settings.onboardingEntryUpdated	上手开始时机已更新。
+settings.onboardingGraceBlockedByClear	跳过：现有自定义限制没清掉，所以保留它而非临时上限
+settings.onboardingIntroCardAnalyzeBody	我们看每个成员过去几个月的用量。
+settings.onboardingIntroCardAnalyzeTitle	分析用量
+settings.onboardingIntroCardApplyBody	改动前先看影响。
+settings.onboardingIntroCardApplyTitle	预览并应用
+settings.onboardingIntroCardSuggestBody	看建议档位和每个成员的落位。可调任何项。
+settings.onboardingIntroCardSuggestTitle	审建议
+settings.onboardingIntroDescription	按你团队实际用 Devin 的情况拿档位建议。
+settings.onboardingIntroLimitsNote	上限随时可改，撞上限的成员可申请当月额外用量。
+settings.onboardingLegacyPlaybookOption	{{title}}（Playbook）
+settings.onboardingLimitLabel	月度上限
+settings.onboardingManagedByEnterprise	由你企业管理员管
+settings.onboardingMaxLimitLabel	最大上限
+settings.onboardingMemberColumn	成员
+settings.onboardingMembersAnalyzed	已分析成员
+settings.onboardingMembersDescription	这是每个成员的落位——最后确认前什么都不应用。可调任何人。
+settings.onboardingMigrateActionColumn	操作
+settings.onboardingMigrateClear	清限制，派 {{tier}}
+settings.onboardingMigrateDescription	这些成员在云用量计入前设了自定义限制。我们建议各自换成覆盖原上限外加云端余量的档位。
+settings.onboardingMigrateGuaranteeNote	没人会比今天容量少。
+settings.onboardingMigrateKeepDollars	保留扩到 {{amount}} 的上限
+settings.onboardingMigrateKeep_one	保留扩到 {{count}} ACU 的上限
+settings.onboardingMigrateKeep_other	保留扩到 {{count}} ACU 的上限
+settings.onboardingMigrationIncluded	待迁移的现有按用户限制
+settings.onboardingMigrationNo	否
+settings.onboardingMigrationYes	是
+settings.onboardingNext	下一步
+settings.onboardingNoOrgs	还没有组织
+settings.onboardingNoPlaybook	无
+settings.onboardingNoPlaybooksFound	找不到 playbook。
+settings.onboardingNoSkillsFound	找不到技能。
+settings.onboardingNoUsageNote	峰值用量是成员最忙的月，计本地和云 ACU。无用量的成员从 Standard 起。
+settings.onboardingNoUsageNoteDollars	峰值用量是成员最忙的月，计本地和云花费。无用量的成员从 Standard 起。
+settings.onboardingOldOverrideColumn	当前限制
+settings.onboardingOpAssignMember	派 {{name}} 到 {{tier}}
+settings.onboardingOpClearOverride	清 {{name}} 的按用户限制
+settings.onboardingOpCreateTier	建 {{name}} 档位，限 {{count}} ACU
+settings.onboardingOpCreateTierDollars	建 {{name}} 档位，限 {{amount}}
+settings.onboardingOpCreateUnlimitedTier	建 {{name}} 档位，无上限
+settings.onboardingOpDone	完成
+settings.onboardingOpGraceOverrideDollars	给 {{name}} 设临时上限 {{amount}}，到当前月度窗口末
+settings.onboardingOpGraceOverride_one	给 {{name}} 设临时上限 {{count}} ACU，到当前月度窗口末
+settings.onboardingOpGraceOverride_other	给 {{name}} 设临时上限 {{count}} ACU，到当前月度窗口末
+settings.onboardingOpGroupAssign_one	派 1 个成员到档位
+settings.onboardingOpGroupAssign_other	派 {{count}} 个成员到档位
+settings.onboardingOpGroupClear_one	替换 1 个自定义限制
+settings.onboardingOpGroupClear_other	替换 {{count}} 个自定义限制
+settings.onboardingOpGroupFailed_one	1 个失败
+settings.onboardingOpGroupFailed_other	{{count}} 个失败
+settings.onboardingOpGroupGrace_one	授 1 个临时上限
+settings.onboardingOpGroupGrace_other	授 {{count}} 个临时上限
+settings.onboardingOpGroupKeep_one	更新 1 个自定义限制
+settings.onboardingOpGroupKeep_other	更新 {{count}} 个自定义限制
+settings.onboardingOpGroupProgress	{{count}} 中 {{done}}
+settings.onboardingOpPending	待处理
+settings.onboardingOpRunning	应用中…

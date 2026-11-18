@@ -1,0 +1,160 @@
+settingsHub.mcpManagementDescription	MCP 服务器管理
+settingsHub.mcpMarketplaceDescription	浏览和装 MCP 服务器
+settingsHub.membersDescription	用户、组和加入申请
+settingsHub.membershipDescription	管成员、角色和组
+settingsHub.myAnalyticsDescription	你的个人用量和消耗分析
+settingsHub.noOrganizations	还没有组织
+settingsHub.notificationsDescription	选你收哪些通知
+settingsHub.openRepositoryInProvider	开 {{provider}} 仓库
+settingsHub.organization	组织
+settingsHub.organizationDescription	组织偏好和设置
+settingsHub.organizationSettings	组织设置
+settingsHub.organizations	组织
+settingsHub.organizationsDescription	企业组织
+settingsHub.organizationsHiddenInWorkspace	找某组织的设置？从账户菜单切到那组织。
+settingsHub.personal	个人
+settingsHub.personalMarketplaceDescription	浏览和装你自己的插件
+settingsHub.plansDescription	看和改订阅方案
+settingsHub.playbooksDescription	可复用的工作流模板
+settingsHub.productivityDescription	生产力分析仪表板
+settingsHub.products	产品
+settingsHub.productsDescription	配置核心产品和功能
+settingsHub.referralsDescription	推荐别人挣奖励用量
+settingsHub.repositoriesDescription	仓库管理和治理
+settingsHub.repositoriesStandardDescription	看和管仓库访问和索引
+settingsHub.resources	资源
+settingsHub.resourcesDescription	配置 Devin 的资源
+settingsHub.reviewDescription	Devin Review 配置
+settingsHub.rolesDescription	角色和权限管理
+settingsHub.schedulesDescription	排期会话配置
+settingsHub.searchOrganizations	搜索组织
+settingsHub.secretsDescription	凭据和环境变量
+settingsHub.serviceUsersDescription	API 访问的服务用户
+settingsHub.showMoreResults_one	再显示 {{count}} 条结果
+settingsHub.showMoreResults_other	再显示 {{count}} 条结果
+settingsHub.sidebarConnections	连接
+settingsHub.sidebarKeyboardShortcuts	键盘快捷键
+settingsHub.sidebarLabs	Labs
+settingsHub.sidebarNotifications	通知
+settingsHub.sidebarPlansBilling	方案与计费
+settingsHub.sidebarPreferences	偏好
+settingsHub.sidebarSettings	设置
+settingsHub.snapshotsDescription	机器快照和构建历史
+settingsHub.unifiedMode	我的工作区
+settingsHub.unifiedModeDescription	你的资源和设置
+settingsHub.unifiedPlaybooksDescription	你能访问的账户 playbook，不管归档在哪
+settingsHub.unifiedRepositoriesDescription	你能访问的仓库及你在其中能做什么
+settingsHub.unifiedReviewDescription	拉取请求审查的审查者、自动批准和计费
+settingsHub.unifiedReviewPreferencesDescription	你自己的 Review 触发和评论语言
+settingsHub.unifiedSecretsDescription	你能访问的账户机密，不管归档在哪
+settingsHub.unifiedServiceUsersDescription	自动化以之运行的身份，及谁可用它们
+settingsHub.usageAndLimitsDescription	ACU 配额和点数用量
+settingsHub.usagePoliciesDescription	配置用量怎么分配、管和批
+settingsHub.userGroupsDescription	组织成员并与他们共享资源
+settingsHub.webhooksDescription	给你控制的端点发签名事件通知
+settingsHub.windsurfDescription	Windsurf IDE 设置
+settingsHub.workspaceSettings	我的工作区设置
+settingsPages.actionsPanel.actionsCatalog	操作目录
+settingsPages.actionsPanel.loadingTemplates	加载模板中…
+settingsPages.actionsPanel.noMatchingTemplates	没有匹配的模板
+settingsPages.actionsPanel.noTemplatesAvailable	没有可用模板
+settingsPages.actionsPanel.searchActions	搜索操作
+settingsPages.addAssetDialogs.add	加
+settingsPages.addAssetDialogs.couldNotAddThePlugin	加不了插件
+settingsPages.addAssetDialogs.enterRepositoryAsOwnerRepoFull	输 owner/repo 形式仓库，或完整 git URL。
+settingsPages.addAssetDialogs.pluginAdded	插件已加
+settingsPages.addAssetDialogs.pluginAlreadyInstalledThisScope	那个插件此作用域已装。
+settingsPages.addAssetDialogs.thisScopeSPluginManifestCan	此作用域的插件清单读不了，所以在这改不了。
+settingsPages.addBlueprintReposModal.addRepositories	加仓库
+settingsPages.addBlueprintReposModal.addRepositoriesNone	加仓库
+settingsPages.addBlueprintReposModal.addRepositoriesToYourEnvironmentConfiguration	加仓库到你的环境配置
+settingsPages.addBlueprintReposModal.addRepositories_one	加 {{count}} 个仓库
+settingsPages.addBlueprintReposModal.addRepositories_other	加 {{count}} 个仓库
+settingsPages.addBlueprintReposModal.adding	加中…
+settingsPages.addBlueprintReposModal.addingProgress	正在加 {{total}} 中 {{settled}}…
+settingsPages.addBlueprintReposModal.allRepositoriesHaveBeenAdded	全部仓库已加
+settingsPages.addBlueprintReposModal.couldntLoadYourExistingRepositoriesPlease	加载不了你已有仓库。请重试。
+settingsPages.addBlueprintReposModal.largeSelectionNote	大量选择可能要几分钟。完成前保持此窗口开着。
+settingsPages.addBlueprintReposModal.noRepositoriesFound	找不到仓库
+settingsPages.baseEnvironmentPage.commandsThatApplyToAllSessions	应用于全部会话、在仓库级设置前跑的命令。
+settingsPages.blueprintDriftWarningsSection.blueprintDrift	Blueprint 漂移
+settingsPages.blueprintDriftWarningsSection.deleted	——已删
+settingsPages.blueprintDriftWarningsSection.deleted2	已删
+settingsPages.blueprintDriftWarningsSection.failedToSyncBlueprintsFrom	从 {{reponame}} 同步 blueprint 失败
+settingsPages.blueprintDriftWarningsSection.newerVersionAtBuild_one	{{repoName}}——此构建用了提交 <commitLink>{{commit}}</commitLink>，但构建时仓库里已有更新版本。下面的文件与此快照解析的版本不同。
+settingsPages.blueprintDriftWarningsSection.newerVersionAtBuild_other	{{repoName}}——此构建用了提交 <commitLink>{{commit}}</commitLink>，但构建时仓库里已有更新版本。下面的文件与此快照解析的版本不同。
+settingsPages.blueprintDriftWarningsSection.syncFromRepo	从仓库同步
+settingsPages.blueprintDriftWarningsSection.syncFromRepoBuild	从仓库同步+构建
+settingsPages.blueprintDriftWarningsSection.syncFromRepoPullsTheLatest	从仓库同步把 blueprint 最新版拉进当前配置，不改此快照；从仓库同步+构建还排一个新快照。
+settingsPages.blueprintDriftWarningsSection.synced	已同步 {{reponame}}
+settingsPages.blueprintDriftWarningsSection.syncedAndQueuedABuild	已同步 {{reponame}} 并排了构建
+settingsPages.blueprintDriftWarningsSection.whenThisSnapshotWasBuiltThe_one	此快照构建时，下面的文件与最近同步版本不同。
+settingsPages.blueprintDriftWarningsSection.whenThisSnapshotWasBuiltThe_other	此快照构建时，下面的文件与最近同步版本不同。
+settingsPages.blueprintEditorContainer.copyYaml	复制 YAML
+settingsPages.blueprintEditorContainer.create	建 {{abbrev}}
+settingsPages.blueprintEditorContainer.creating	建 {{abbrev}} 中…
+settingsPages.blueprintEditorContainer.creationUnavailableForThisBlueprint	此 blueprint 建不了 {{abbrev}}
+settingsPages.blueprintEditorContainer.delete	删除
+settingsPages.blueprintEditorContainer.deleteSetup	删 {{value}} 设置
+settingsPages.blueprintEditorContainer.deleting	删中…
+settingsPages.blueprintEditorContainer.discard	丢弃
+settingsPages.blueprintEditorContainer.discardUnsavedChangesTitle	丢弃未保存更改？
+settingsPages.blueprintEditorContainer.documentation	文档
+settingsPages.blueprintEditorContainer.editor	编辑器
+settingsPages.blueprintEditorContainer.failedToCreateSetup	建 {{value}} 设置失败
+settingsPages.blueprintEditorContainer.failedToDeleteSetup	删 {{value}} 设置失败
+settingsPages.blueprintEditorContainer.failedToUpdateSetup	更新 {{value}} 设置失败
+settingsPages.blueprintEditorContainer.history	历史
+settingsPages.blueprintEditorContainer.makeChangesToEnableSaving	做更改以启用保存
+settingsPages.blueprintEditorContainer.makeChangesToOpen_a	做更改以开 {{abbrev}}
+settingsPages.blueprintEditorContainer.makeChangesToOpen_an	做更改以开 {{abbrev}}
+settingsPages.blueprintEditorContainer.moreActions	更多操作
+settingsPages.blueprintEditorContainer.noUnsavedChangesToDiscard	没有可丢弃的未保存更改
+settingsPages.blueprintEditorContainer.opened	{{abbrev}} 已开
+settingsPages.blueprintEditorContainer.preparing	准备中…
+settingsPages.blueprintEditorContainer.save	保存
+settingsPages.blueprintEditorContainer.saveBlueprint	保存 blueprint
+settingsPages.blueprintEditorContainer.saveSetup	保存 {{value}} 设置
+settingsPages.blueprintEditorContainer.saving	保存中…
+settingsPages.blueprintEditorContainer.searchFiles	搜索文件
+settingsPages.blueprintEditorContainer.setupCreated	{{label}} 设置已建
+settingsPages.blueprintEditorContainer.setupDeleted	{{label}} 设置已删
+settingsPages.blueprintEditorContainer.setupUpdated	{{label}} 设置已更新
+settingsPages.blueprintEditorContainer.syncBlueprint	同步 blueprint
+settingsPages.blueprintEditorContainer.syncing	同步中…
+settingsPages.blueprintEditorContainer.upgradePlanRunTestSessions	升级方案以跑测试会话
+settingsPages.blueprintEditorContainer.uploadFile	上传文件
+settingsPages.blueprintEditorContainer.view	看 {{abbrev}}
+settingsPages.blueprintEditorContainer.youDonTHavePermissionManage	你没权管此 blueprint
+settingsPages.blueprintEditorTabs.files	文件
+settingsPages.blueprintEditorTabs.secrets	机密
+settingsPages.blueprintFilesSection.aFileNamedAlreadyExistsUploading	已有名为「{{name}}」的文件。上传将替换现有文件。此操作不可撤销。
+settingsPages.blueprintFilesSection.areYouSureYouWantTo	确定要删「{{name}}」？此操作不可撤销。
+settingsPages.blueprintFilesSection.canonical	规范
+settingsPages.blueprintFilesSection.clickUploadFileToGetStarted	点「上传文件」开始。
+settingsPages.blueprintFilesSection.copy	复制 {{envvarname}}
+settingsPages.blueprintFilesSection.copyVariableName	复制变量名
+settingsPages.blueprintFilesSection.delete	删除
+settingsPages.blueprintFilesSection.deleteFile	删文件
+settingsPages.blueprintFilesSection.downloadFile	下载文件
+settingsPages.blueprintFilesSection.dragAndDropOrClickUpload	拖放或点「上传文件」加一个。
+settingsPages.blueprintFilesSection.dropToUpload	放下即上传
+settingsPages.blueprintFilesSection.eGSettingsXml	如：settings.xml
+settingsPages.blueprintFilesSection.environmentVariable	环境变量
+settingsPages.blueprintFilesSection.failedToDelete	删「{{fileName}}」失败
+settingsPages.blueprintFilesSection.failedToDownload	下载「{{name}}」失败
+settingsPages.blueprintFilesSection.failedToUpload	上传「{{name}}」失败
+settingsPages.blueprintFilesSection.fileDeleted	文件「{{fileName}}」已删
+settingsPages.blueprintFilesSection.fileExceedsThe10MbSize	文件超 10 MB 大小限
+settingsPages.blueprintFilesSection.fileName	文件名
+settingsPages.blueprintFilesSection.fileNameCannotBeEmpty	文件名为必填项
+settingsPages.blueprintFilesSection.fileNameCannotContainControlCharacters	文件名不能含控制字符。
+settingsPages.blueprintFilesSection.fileNameCannotContainPathSeparators	文件名不能含路径分隔符。
+settingsPages.blueprintFilesSection.fileNameCannotContainWhitespace	文件名不能含空白。
+settingsPages.blueprintFilesSection.fileNameCannotHaveLeadingTrailing	文件名首尾不能有空格。
+settingsPages.blueprintFilesSection.fileNameCannotStartDot	文件名不能以点开头。
+settingsPages.blueprintFilesSection.fileNameMustContainLeastOne	文件名须至少含一个字母数字字符。
+settingsPages.blueprintFilesSection.fileUploaded	文件「{{name}}」已传
+settingsPages.blueprintFilesSection.loadingFiles	加载文件中…
+settingsPages.blueprintFilesSection.name	名称
+settingsPages.blueprintFilesSection.noFilesAttached	没附文件

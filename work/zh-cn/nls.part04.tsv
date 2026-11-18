@@ -1,0 +1,125 @@
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.writeAgent.running	发消息给 agent 中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.writeShell.completed	发了输入给 shell
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.writeShell.failed	发输入给 shell 失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.writeShell.running	发输入给 shell 中
+vs/platform/agentHost/common/meta/vscode/agentPullRequestOperationMeta/agentHost.pr.agentMergeOptionsWithoutEnablement	开 Agent Merge 以为此拉取请求配它。
+vs/platform/agentHost/common/meta/vscode/agentPullRequestOperationMeta/agentHost.pr.conflictingMergeOptions	Agent Merge 和 GitHub 自动合并不能同开。
+vs/platform/agentHost/common/meta/vscode/agentPullRequestOperationMeta/agentHost.pr.draftAutoMerge	草稿拉取请求用不了 GitHub 自动合并。
+vs/platform/agentHost/common/meta/vscode/agentPullRequestOperationMeta/agentHost.pr.invalidAgentMergeOptions	无效 Agent Merge 配置。
+vs/platform/agentHost/common/meta/vscode/agentPullRequestOperationMeta/agentHost.pr.invalidContext	无效拉取请求准备上下文。
+vs/platform/agentHost/common/meta/vscode/agentPullRequestOperationMeta/agentHost.pr.invalidConversation	无效拉取请求对话聊天。
+vs/platform/agentHost/common/meta/vscode/agentPullRequestOperationMeta/agentHost.pr.invalidDetails	无效拉取请求准备结果。
+vs/platform/agentHost/common/meta/vscode/agentPullRequestOperationMeta/agentHost.pr.invalidMergeMethod	无效拉取请求自动合并方式。
+vs/platform/agentHost/common/meta/vscode/agentPullRequestOperationMeta/agentHost.pr.invalidMeta	无效拉取请求操作元数据。
+vs/platform/agentHost/common/meta/vscode/agentPullRequestOperationMeta/agentHost.pr.invalidOptions	无效拉取请求建选项。
+vs/platform/agentHost/common/meta/vscode/agentPullRequestOperationMeta/agentHost.pr.invalidValidation	无效拉取请求上下文验证请求。
+vs/platform/agentHost/common/meta/vscode/agentPullRequestOperationMeta/agentHost.pr.titleRequired	拉取请求标题必填。
+vs/platform/agentHost/common/sandboxConfigSchema/agentHost.config.sandbox.addCurrentWorkingDirectory.title	加当前工作目录
+vs/platform/agentHost/common/sandboxConfigSchema/agentHost.config.sandbox.allowDevToolAccess.title	允许开发工具访问
+vs/platform/agentHost/common/sandboxConfigSchema/agentHost.config.sandbox.allowLocalNetwork.title	允许本地网络
+vs/platform/agentHost/common/sandboxConfigSchema/agentHost.config.sandbox.authenticateGh.title	认证 gh
+vs/platform/agentHost/common/sandboxConfigSchema/agentHost.config.sandbox.authenticateGit.title	认证 git
+vs/platform/agentHost/common/sandboxConfigSchema/agentHost.config.sandbox.deniedPaths.title	已拒
+vs/platform/agentHost/common/sandboxConfigSchema/agentHost.config.sandbox.path.title	路径
+vs/platform/agentHost/common/sandboxConfigSchema/agentHost.config.sandbox.readonlyPaths.title	只读
+vs/platform/agentHost/common/sandboxConfigSchema/agentHost.config.sandbox.readwritePaths.title	读写
+vs/platform/agentHost/common/sandboxConfigSchema/agentHost.config.sandbox.sandboxLspServers.title	沙箱 LSP 服务器
+vs/platform/agentHost/common/sandboxConfigSchema/agentHost.config.sandbox.sandboxMcpServers.title	沙箱 MCP 服务器
+vs/platform/agentHost/common/sandboxConfigSchema/agentHost.config.sandbox.userConfiguredPaths.title	用户配置路径
+vs/platform/agentHost/common/sessionComparisonPrompts/sessionComparison.judgePrompt	评判实现对比 `{0}`。\n\n1. 用此对比 ID 恰好调 `#readAttemptComparison` 一次。\n2. 审每个尝试的代码更改和验证证据。用 `get_session_context` 带准确 manifest 目标识尝试已完的验证。终端命令起在 Judge worktree 而非尝试 worktree，所以每条检查或验证尝试的命令里显式 `cd` 到 manifest 里准确的 `worktree.workingDirectory`。\n3. 尝试报告含明确结果时不重跑验证类。只跑缺的定向测试、构建、lint 或诊断以做可靠推荐。所需依赖或构建产物不可用时，记该验证为 unavailable；不装或建依赖，也不换别的验证类。\n4. 每个验证类记一对一致的 `state` 和 `source` 证据。已知 `passed` 或 `failed` 结果须用 `attemptReport` 或 `judgeRun`；`unavailable` 只配 `notRun` 或 `unknown`；该类确不适用时两字段都用 `notApplicable`。\n5. `explanation` 留一句。`rationale` 填恰好四点，序为：`comparison`、`validation`、`codeQuality`、`solution`。每点须引具体证据、不含换行、不超工具 schema 长度上限。其它每个尝试的最强可复用点记 `notableDifferences`。\n6. 不改、不合、不应用、不删任何尝试。\n7. 带推荐和支撑证据调 `#completeAttemptComparison`。只用 `#readAttemptComparison` 返的 `attemptNumber` 值指尝试；不抄参与者或会话 UUID。若拒无效输入，正所报字段重试；不再交。
+vs/platform/agentHost/common/titleGenerationConfiguration/chat.agentHost.experimental.activeAgentTitleGeneration	启用后，活跃 agent 用改名工具给新会话和聊天起名。禁后，实用模型立即生成标题。延迟标题生成优先。更改应用于新会话；现有会话及其聊天留各自策略。
+vs/platform/agentHost/common/titleGenerationConfiguration/chat.agentHost.experimental.deferredTitleGeneration	立即起种子标题，首响应回合成功后后台精化，不叫活跃 agent 给聊天起名。显式改名工具仍可用。覆盖新会话的活跃 agent 标题生成；现有会话及其聊天留各自策略。
+vs/platform/agentHost/node/agentHostAutomationCustomizations/automationActiveClient	自动化
+vs/platform/agentHost/node/agentHostChangesetService/ambiguousTurnDiff	算不了回合更改，因该回合属多个聊天。
+vs/platform/agentHost/node/agentHostChangesetService/sessionGitDiffUnavailable	会话变更集的 Git diff 不可用。
+vs/platform/agentHost/node/agentHostChangesetService/turnGitDiffCheckpointsUnavailable	没检查点对可用 Git 算回合更改。
+vs/platform/agentHost/node/agentHostChangesetService/turnGitDiffNonGitFolders	算不了全部回合更改，因会话含非 Git 文件夹。
+vs/platform/agentHost/node/agentHostChangesetService/turnGitDiffRepositoryCheckpointsUnavailable	'{0}' 里没检查点对可用 Git 算回合更改。
+vs/platform/agentHost/node/agentHostChangesetService/turnGitDiffRepositoryUnavailable	'{0}' 里所请回合的 Git diff 不可用。
+vs/platform/agentHost/node/agentHostChangesetService/turnGitDiffUnavailable	所请回合的 Git diff 不可用。
+vs/platform/agentHost/node/agentHostChangesetService/turnGitDiffWorkingDirectoryUnavailable	没工作目录可用 Git 算回合更改。
+vs/platform/agentHost/node/agentHostCheckoutOperationHandler/agentHost.changeset.checkout.branchInvalid	分支 '{0}' 不是现有本地分支。
+vs/platform/agentHost/node/agentHostCheckoutOperationHandler/agentHost.changeset.checkout.branchMissing	选个分支签出。
+vs/platform/agentHost/node/agentHostCheckoutOperationHandler/agentHost.changeset.checkout.cancelled	签出操作已取消。
+vs/platform/agentHost/node/agentHostCheckoutOperationHandler/agentHost.changeset.checkout.checkedOut	已签出分支 `{0}`。
+vs/platform/agentHost/node/agentHostCheckoutOperationHandler/agentHost.changeset.checkout.commitAction	提交
+vs/platform/agentHost/node/agentHostCheckoutOperationHandler/agentHost.changeset.checkout.commitMessage	WIP：签出 {0} 前存更改
+vs/platform/agentHost/node/agentHostCheckoutOperationHandler/agentHost.changeset.checkout.dirty	签出会覆盖你本地更改。签出 `{0}` 前先提交或 stash 当前更改。
+vs/platform/agentHost/node/agentHostCheckoutOperationHandler/agentHost.changeset.checkout.failed	签出 '{0}' 失败：{1}
+vs/platform/agentHost/node/agentHostCheckoutOperationHandler/agentHost.changeset.checkout.preActionFailed	签出 '{1}' 前{0}更改失败：{2}
+vs/platform/agentHost/node/agentHostCheckoutOperationHandler/agentHost.changeset.checkout.stashAction	stash
+vs/platform/agentHost/node/agentHostCheckoutOperationHandler/agentHost.changeset.checkout.stashMessage	WIP：签出 {0} 前的更改
+vs/platform/agentHost/node/agentHostCheckoutOperationProvider/agentHost.changeset.checkout	签出
+vs/platform/agentHost/node/agentHostCommitOperationHandler/agentHost.changeset.commit.notGitRepository	变更集属主的工作目录不是 Git 仓库：{0}
+vs/platform/agentHost/node/agentHostPullRequestOperationHandler/agentHost.changeset.pr.agentMergeDisabled	主机配置里 Agent Merge 被禁。
+vs/platform/agentHost/node/agentHostPullRequestOperationHandler/agentHost.changeset.pr.autoMergeUnavailable	仓库不允许所请自动合并方式。
+vs/platform/agentHost/node/agentHostPullRequestOperationHandler/agentHost.changeset.pr.created.agentMerge	已建拉取请求 [#{0}]({1}) 并开了 Agent Merge。
+vs/platform/agentHost/node/agentHostPullRequestOperationHandler/agentHost.changeset.pr.createdDraft.agentMerge	已建草稿拉取请求 [#{0}]({1}) 并开了 Agent Merge。
+vs/platform/agentHost/node/agentHostPullRequestOperationHandler/agentHost.changeset.pr.existing.agentMerge	拉取请求 [#{0}]({1}) 已存在；已开 Agent Merge。
+vs/platform/agentHost/node/agentHostPullRequestOperationHandler/agentHost.changeset.pr.generationAuthRequired	登 Copilot 以生成拉取请求标题和描述，或手动输。
+vs/platform/agentHost/node/agentHostPullRequestOperationHandler/agentHost.changeset.pr.generationInvalidResponse	模型没返拉取请求标题和描述。手动输。
+vs/platform/agentHost/node/agentHostPullRequestOperationHandler/agentHost.changeset.pr.generationNoContext	没对话或更改上下文可生成拉取请求标题和描述。
+vs/platform/agentHost/node/agentHostPullRequestOperationHandler/agentHost.changeset.pr.stalePreparation	此拉取请求准备后仓库或分支已变。重开「建 PR」看当前详情。
+vs/platform/agentHost/node/agentHostPullRequestOperationProvider/agentHost.changeset.preparePR	备 PR
+vs/platform/agentHost/node/agentHostPullRequestOperationProvider/agentHost.changeset.preparePR.description	生成拉取请求标题和描述并读仓库合并选项，不改仓库。
+vs/platform/agentHost/node/agentHostSyncOperationProvider/agentHost.changeset.syncIncoming	同步更改 {0}↓
+vs/platform/agentHost/node/agentHostSyncOperationProvider/agentHost.changeset.syncIncomingOutgoing	同步更改 {0}↓ {1}↑
+vs/platform/agentHost/node/agentSideEffects/agentHost.subagentUnavailable	子 agent 起不了或恢复不了。其待定批准请求已取消。起新子 agent 继续。
+vs/platform/agentHost/node/chatContributions/pullRequest/pullRequestChatContribution/agentHost.pullRequestChat.agentMergeDisabled	主机配置里 Agent Merge 被禁。
+vs/platform/agentHost/node/chatContributions/sessionWorkspaceConversion/sessionWorkspaceConversionContribution/agentHost.workspaceConversionPending	等工作区设完再发下条消息。
+vs/platform/agentHost/node/chatContributions/sessionWorkspaceConversion/sessionWorkspaceConversionService/agentHost.continueInWorkspaceLabel	在所请工作区继续
+vs/platform/agentHost/node/chatContributions/sessionWorkspaceConversion/sessionWorkspaceConversionService/agentHost.continueInWorkspaceMessage	在所请工作区继续。
+vs/platform/agentHost/node/chatContributions/sessionWorkspaceConversion/sessionWorkspaceConversionService/agentHost.workspaceSetLabel	工作区已设
+vs/platform/agentHost/node/chatContributions/sessionWorkspaceConversion/sessionWorkspaceConversionService/agentHost.workspaceSetupFailedLabel	工作区设置失败
+vs/platform/agentHost/node/chatContributions/sessionWorkspaceConversion/sessionWorkspaceConversionService/agentHost.workspaceTransitionLabel	现工作于 {0}
+vs/platform/agentHost/node/codex/codexAgent/codex.legacyThreadTruncation	此版 Codex 删不了旧聊天的消息。
+vs/platform/agentHost/node/codex/codexCustomizations/codex.invalidSkills	无效技能
+vs/platform/agentHost/node/codex/codexGuardianReview/codex.guardianReview.aborted	自动审查已停
+vs/platform/agentHost/node/codex/codexGuardianReview/codex.guardianReview.requestedAction	所请操作：{0}
+vs/platform/agentHost/node/codex/codexGuardianReview/codex.guardianReview.timedOut	自动审查超时
+vs/platform/agentHost/node/codex/codexGuardianReview/codex.guardianReview.writeStdin	发输入给程序
+vs/platform/agentHost/node/codex/codexProviderConfiguration/codex.configuration.portableProvider.conflict	此 ChatGPT 对话切不了 Copilot，因 Codex 配置已定义不兼容的 'model_providers.vscode-proxy'。把该定义改原生 OpenAI 认证再重试。现有配置和原对话未变。
+vs/platform/agentHost/node/codex/codexProviderConfiguration/codex.configuration.portableProvider.unavailable	此 ChatGPT 对话切不了 Copilot，因 Codex 用户配置安全读不了。原对话未变。
+vs/platform/agentHost/node/copilot/copilotAgent/copilot.modelAutoTier.description	偏向 Auto 把此会话路由到哪些模型。
+vs/platform/agentHost/node/copilot/copilotAgent/copilot.modelAutoTier.title	优化目标
+vs/platform/agentHost/node/copilot/copilotAgent/copilotAgent.autoModelName	Auto
+vs/platform/agentHost/node/copilot/copilotAgent/copilotAgent.modelNotAvailable	模型 '{0}' 不可用。
+vs/platform/agentHost/node/copilot/copilotAgentSession/agentHost.byokToolLimitExceeded	模型只支持 {0} 个工具，{1} 个工具没供给模型。
+vs/platform/agentHost/node/copilot/copilotAgentSession/copilot.historyChanged	会话历史在载时变了。重开会话再试。
+vs/platform/agentHost/node/copilot/copilotAgentSession/copilot.invalidHistoryCursor	Copilot 运行时返了无效历史游标。重开会话再试。
+vs/platform/agentHost/node/copilot/copilotAgentSession/copilot.mcpRouting.connect	连到 {0}
+vs/platform/agentHost/node/copilot/copilotAgentSession/copilotAgent.subagentFailed	子 agent 失败。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotMcp.error	错误
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotMcp.lastStderr	最近 stderr
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotMcp.serverNameUsage	用法：{0}
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotMcp.servers	MCP 服务器
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.alreadyDisabled	插件 {0} 已禁。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.alreadyEnabled	插件 {0} 已开。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.ambiguous	多个插件名为 {0}。用完整 plugin@marketplace 名。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.commandFailed	插件命令失败
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.directEnablementUnsupported	插件 {0} 为直装，不能启或禁。改卸它。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.disabled	已禁插件 {0}。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.disabling	禁插件中…
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.enabled	已开插件 {0}。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.enablementUsage	用法：/plugin {0} <plugin>
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.enabling	开插件中…
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.includedMarketplaces	随 GitHub Copilot 附
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.installed	已装插件 {0}。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.installedOneSkill	已装 1 个技能。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.installedSkills	已装 {0} 个技能。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.installedVersion	版本：{0}
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.installing	装插件中…
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.installManifestLocations	期望其一：
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.installManifestMissing	从 {0} 装不了插件。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.installManifestMissingDetail	仓库里找不到 {0} manifest。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.installUsage	用法：/plugin install <source>
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.managed	托管
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceAdded	已加插件市场 {0}。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceAdding	加插件市场中…
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceAddUsage	用法：/plugin marketplace add <source>
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceBrowseUsage	用法：/plugin marketplace browse <name>
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceEmpty	市场 {0} 没插件。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceListGuidance	跑 {0} 看可用市场。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceNotFound	找不到市场 {0}。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplaceNotRemoved	市场 {0} 没移，因其有已装插件。
+vs/platform/agentHost/node/copilot/copilotCustomizationCommandDisplay/copilotPlugin.marketplacePlugins	{0} 中插件：

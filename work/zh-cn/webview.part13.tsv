@@ -1,0 +1,340 @@
+automations.noMetadataYetDescription	在自动化的<advanced>高级</advanced>设置中添加键值对，然后即可在此按它们筛选。
+automations.noOnDemandConsumption	此范围内无按需用量。
+automations.noOptionsFound	未找到选项。
+automations.noPermissionEdit	你没有编辑此自动化的权限
+automations.noPermissionRun	你没有运行此自动化的权限
+automations.noPrompt	无提示词
+automations.noRepositorySelected	未选择仓库
+automations.noRunAsIdentitiesFound	未找到身份。
+automations.noScanSelected	未选择扫描
+automations.noSessionSelected	未选择会话
+automations.noSlackChannels	无 Slack 频道
+automations.noSlackChannelsCheckIntegration	未找到 Slack 频道——请检查你的 Slack 集成
+automations.noSlackChannelsFound	未找到 Slack 频道
+automations.noStartingInstructions	无起始指令
+automations.noSuggestions	无建议
+automations.noTemplatesFound	未找到模板。
+automations.noTemplatesMatch	没有匹配你搜索的模板。
+automations.noTimezonesFound	未找到时区
+automations.noUsergroups	未找到用户组
+automations.nonOrgUsersWarning	本组织之外已关联的 Devin 用户可以启动此自动化。他们的消息可能含有提示词注入。请用严格的安全档案限制网络和工具访问，或关闭「允许非本组织 Devin 用户」。
+automations.none	无
+automations.notAvailableForPrivateChannels	私有触发频道不可用
+automations.notRecommended	不推荐
+automations.notSet	未设置
+automations.notifications	通知
+automations.notificationsDescription	自动化运行完成时提醒
+automations.notificationsEmpty	未配置通知。
+automations.notifyEmail	邮件
+automations.notifyWhen	通知时机
+automations.notifyWhenAlways	总是
+automations.notifyWhenFailure	失败时
+automations.notifyWhenSuccess	成功时
+automations.occurrenceCount_one	{{count}} 次发生
+automations.occurrenceCount_other	{{count}} 次发生
+automations.occurrencesColumn	发生次数
+automations.onBoard	在 Board
+automations.onSite	在站点
+automations.onlyJoinedChannelsAvailable	只有 @Devin 已加入的频道可选
+automations.opAfter	晚于
+automations.opBefore	早于
+automations.opBetween	介于
+automations.opContains	包含
+automations.opEndsWith	结尾是
+automations.opEq	=
+automations.opEquals	等于
+automations.opGt	>
+automations.opGte	≥
+automations.opIn	在
+automations.opIs	是
+automations.opIsEmpty	为空
+automations.opIsNotEmpty	非空
+automations.opLt	<
+automations.opLte	≤
+automations.opMatches	匹配
+automations.opMatchesRegex	匹配正则
+automations.opNeq	≠
+automations.opNotContains	不包含
+automations.opNotEndsWith	结尾不是
+automations.opNotEquals	不等于
+automations.opNotIn	不在
+automations.opNotStartsWith	开头不是
+automations.opStartsWith	开头是
+automations.operatorPlaceholder	运算…
+automations.or	或
+automations.orgDefaultMode	组织默认
+automations.orgWide	全组织
+automations.organization	组织
+automations.organizationDefaultMode	组织默认
+automations.otherChanges	其他变更
+automations.otherParameters	其他参数
+automations.outpostRequired	此组织只能在 Outpost 上运行会话且没有默认 Outpost。请在高级设置中选择一个。
+automations.paused	已暂停
+automations.payloadFilter	负载过滤
+automations.payloadFilterFieldLabel	负载过滤
+automations.payloadFilterHelp	Python 正则（<code>re.search</code>，区分大小写）。POST 请求匹配 JSON body，GET 请求匹配查询串。留空表示全部匹配。
+automations.payloadFilterLabel	负载过滤：
+automations.payloadFilterPlaceholder	如 deploy|release|hotfix
+automations.per	每
+automations.permissionManageAutomations	管理自动化
+automations.permissionManageAutomationsDescription	在你的组织中创建和编辑自动化
+automations.permissionManagePersonalAutomations	管理个人自动化
+automations.permissionManagePersonalAutomationsDescription	以你的身份和权限运行此自动化
+automations.permissionManageSecrets	管理机密
+automations.permissionManageSecretsDescription	把组织机密附加到自动化的代码步骤
+automations.permissionUseCodeScans	使用代码扫描
+automations.permissionUseCodeScansDescription	以自动化服务身份运行代码扫描
+automations.permissionUseSecurityScans	使用安全扫描
+automations.permissionUseSecurityScansDescription	以自动化服务身份运行安全扫描
+automations.permissionsRequested	请求的权限
+automations.personal	个人
+automations.platform	平台
+automations.playbook	Playbook
+automations.postAgentResponseTo	将 Agent 回复发到 {{channel}}
+automations.postAgentResponseToSlackChannel	将 Agent 回复发到 Slack 频道
+automations.postAgentResponseToTeamsChannel	将 Agent 回复发到 Microsoft Teams 频道
+automations.postResponse	发送回复
+automations.postSessionUpdatesTo	将会话更新发到 {{channel}}
+automations.postSessionUpdatesToChannel	将会话更新发到频道
+automations.postSessionUpdatesToSlackChannel	将会话更新发到 Slack 频道
+automations.postSlackUpdatesTo	将 Slack 更新发到
+automations.postToSlack	发到 Slack
+automations.postToTeams	发到 Teams
+automations.postsInitialMessageInThread	在触发它的 Slack 线程中发布初始消息
+automations.postsSessionUpdatesTo	将会话更新发到 {{channel}}
+automations.postsToSlackChannel	发到 Slack 频道 {{channel}}
+automations.preflightReplaced	该请求替换了 Preflight 检查脚本。当前脚本不在此显示。
+automations.preflightStep.about	在事件匹配之后、会话启动之前运行，决定运行、跳过还是把事件拆成条目。
+automations.preflightStep.add	添加 Preflight 检查
+automations.preflightStep.filterPromptLabel	哪些事件应启动 Agent
+automations.preflightStep.filterPromptPlaceholder	描述哪些事件应启动 Agent，例如「涉及账单或支付代码的 PR。跳过 dependabot 和仅文档的改动。」
+automations.preflightStep.filterPromptRequired	请描述哪些事件应启动 Agent，或移除该步骤。
+automations.preflightStep.invalid	请先修复 Preflight 检查再保存。
+automations.preflightStep.kind	步骤类型
+automations.preflightStep.llm	LLM 过滤
+automations.preflightStep.llmDescription	用 LLM 过滤事件，避免无谓的完整会话。
+automations.preflightStep.llmLoadError	无法加载已保存的 LLM 过滤。
+automations.preflightStep.llmSkipped	被 LLM 过滤跳过：事件不匹配该过滤
+automations.preflightStep.optional	可选
+automations.preflightStep.passesLlmFilter	通过 Preflight 过滤
+automations.preflightStep.passesScript	通过 Preflight 脚本
+automations.preflightStep.passesWebhook	通过 Preflight webhook
+automations.preflightStep.remove	移除步骤
+automations.preflightStep.retry	重试
+automations.preflightStep.script	运行脚本
+automations.preflightStep.scriptDescription	在每个匹配事件上、会话启动之前运行。
+automations.preflightStep.scriptFailsSkipped	失败的事件被跳过
+automations.preflightStep.title	Preflight 检查
+automations.preflightStep.webhook	调用 webhook
+automations.preflightStep.webhookAuthInfo	每个请求的 Authorization 头携带由 Devin 签发的 JWT（issuer {{issuer}}）。用以下地址的密钥验证：
+automations.preflightStep.webhookAuthLabel	身份验证
+automations.preflightStep.webhookAuthPending	每个请求的 Authorization 头携带由 Devin 签发的 JWT。保存后此处会显示签名密钥的获取地址。
+automations.preflightStep.webhookChanged	Webhook 检查已更新
+automations.preflightStep.webhookConfigRequired	请填好必填的 {{destination}} 字段，或移除该步骤。
+automations.preflightStep.webhookCustomUrl	自定义 URL
+automations.preflightStep.webhookDescription	你的 HTTPS 端点对每个匹配事件做判断：运行、跳过或按条目启动会话。
+automations.preflightStep.webhookDestinationChanged	目标：{{destination}}
+automations.preflightStep.webhookDestinationLabel	目标
+automations.preflightStep.webhookDisabled	Webhook 检查已移除
+automations.preflightStep.webhookLoadError	无法加载已保存的 webhook 检查。
+automations.preflightStep.webhookOnlyFor	仅用于触发器：{{trigger}}
+automations.preflightStep.webhookSecretPlaceholder	选择一个组织机密
+automations.preflightStep.webhookSecretSearchPlaceholder	搜索机密…
+automations.preflightStep.webhookSecretsLoadError	无法加载组织机密。
+automations.preflightStep.webhookSecretsLoading	正在加载机密…
+automations.preflightStep.webhookSecretsNoMatch	无匹配机密
+automations.preflightStep.webhookSecretsNoPermission	你需要管理组织机密的权限才能选择。
+automations.preflightStep.webhookTimeoutLabel	超时（秒）
+automations.preflightStep.webhookTimeoutRange	超时须在 1 到 {{max}} 秒之间。
+automations.preflightStep.webhookUrlLabel	Webhook URL
+automations.preflightStep.webhookUrlPlaceholder	https://example.com/devin/preflight
+automations.preflightStep.webhookUrlRequired	请输入你 webhook 的 HTTPS URL，或移除该步骤。
+automations.previous	上一步
+automations.privateSessions	会话以私有方式启动
+automations.privateSessionsDescription	此自动化的会话仅对你和你分享的人可见。
+automations.privateSessionsRequiresRunAsCreator	仅在自动化以你身份运行时可用
+automations.promoteToBot	升级为 {{botName}}
+automations.promptPlaceholder	例如描述哪类触发事件会路由到此自动化以及 Agent 应如何表现
+automations.publicChannels	公开频道
+automations.publicChannelsWithDms	公开频道 + 私聊
+automations.publicRepoWarning	出于安全原因，来自公开仓库的事件不会触发自动化，因此公开仓库在仓库选择器中显示为禁用。
+automations.publicRepoWarningWithSettingsLink	出于安全原因，来自公开 GitHub 仓库的事件不会触发自动化。你可以在 <settingsLink>GitHub 连接设置</settingsLink>中更改此行为。
+automations.pylon	Pylon
+automations.pylonReadOnly	Pylon（只读）
+automations.queuedCount_one	{{count}} 个排队中
+automations.queuedCount_other	{{count}} 个排队中
+automations.queueing	启用排队
+automations.queueingDescription	限制同时运行的次数，让多余事件排队等待
+automations.rateLimit	频率限制
+automations.rateLimitDescription	滚动时间窗内的最大运行次数
+automations.rateLimitNone	—
+automations.rateLimitWindow	频率限制时间窗
+automations.rateLimitWindow12Hours	12 小时
+automations.rateLimitWindow15Minutes	15 分钟
+automations.rateLimitWindow1Hour	1 小时
+automations.rateLimitWindow24Hours	24 小时
+automations.rateLimitWindow6Hours	6 小时
+automations.rateLimitWindow7Days	7 天
+automations.readOnly	只读
+automations.reauthorize	重新授权
+automations.reauthorizeToUseTrigger	重新授权 {{source}} 以使用此触发器。
+automations.reconnect	重新连接
+automations.refreshChannels	刷新频道
+automations.refreshChannelsFailed	无法刷新频道
+automations.regenerate	重新生成
+automations.regenerateSecret	重新生成密钥
+automations.regenerateWebhookSecretDescription	当前密钥将立即失效。所有向此 webhook 发送事件的系统都必须更新为新密钥。
+automations.regenerateWebhookSecretTitle	重新生成 webhook 密钥
+automations.regeneratingWebhookSecret	正在重新生成 webhook 密钥…
+automations.regexSyntaxDescription	使用 Google RE2 语法。
+automations.regexSyntaxInfoLabel	关于正则语法
+automations.regexSyntaxLearnMore	了解更多
+automations.region	地区
+automations.remove	移除
+automations.removeCondition	移除条件
+automations.removeDomain	移除 {{value}}
+automations.removeMetadata	移除元数据
+automations.removeReply	移除回复
+automations.removeSlackChannelConfirm	移除
+automations.removeSlackChannelTitle	移除频道筛选？
+automations.removeSlackChannelWarning	此触发器将监听 Devin 可访问的所有频道中的 Slack 消息。没有其他筛选时，它可能对每条 Slack 消息都运行。请至少添加一个筛选来限定哪些消息触发运行。
+automations.removeTrigger	移除触发器
+automations.removed	已移除
+automations.removedCount_one	已移除 {{count}} 项
+automations.removedCount_other	已移除 {{count}} 项
+automations.repeatEvery	每隔
+automations.repeatOn	重复于
+automations.replies	回复
+automations.reply	回复
+automations.replyAddsIncidentNote	在事件上添加备注
+automations.replyApiOnly	发布回复并在线程中继续对话
+automations.replyCommentsOnIssue	在工单上评论
+automations.replyCommentsOnMergeRequest	在合并请求上评论
+automations.replyCommentsOnPr	在 PR 上评论
+automations.replyOnThread	在线程中回复
+automations.replyPostsSessionLink	会话启动时发布其链接
+automations.repositories	仓库
+automations.repositoryRequired	必须选择仓库
+automations.requiredFieldOperator	必填字段「{{field}}」必须使用「等于」或「在」运算符
+automations.requiredForAutomationType	此类型自动化必填
+automations.reservedMetadataKey	「{{key}}」是保留元数据键，不会被保存。
+automations.resetMonitoringSessionDescription	更改这些设置会重置监听中的 Devin 会话。下次触发时会自动开始一个新会话。
+automations.resetMonitoringSessionTitle	重置监听会话
+automations.resetSession	重置会话
+automations.resetTriageSessionDescription	当前会话会被清空，下次触发时开始全新会话。已创建的共享暂存区和任务会话不受影响。
+automations.resetTriageSessionTitle	重置分诊会话？
+automations.resettingTriageDevin	正在重置分诊 Devin…
+automations.resolveErrors	请先解决这些错误再继续。
+automations.resourceCheckRun	检查运行
+automations.resourceCheckRunInRepo	{{repoName}} 中的检查运行
+automations.resourceIssue	工单
+automations.resourceIssueComment	工单评论
+automations.resourceJiraIssue	Jira 工单
+automations.resourceJiraIssueWithSummary	Jira 工单：{{summary}}
+automations.resourceLinearIssue	Linear 工单
+automations.resourceLinearIssueWithTitle	Linear 工单：{{title}}
+automations.resourcePrReview	PR 审查
+automations.resourcePullRequest	拉取请求
+automations.resourcePush	推送到 {{repoName}} 的 {{branch}}
+automations.resourceSlackMessage	Slack 消息
+automations.resourceSlackThread	Slack 线程
+automations.resourceWorkflowRun	工作流运行
+automations.resourceWorkflowRunInRepo	{{repoName}} 中的工作流运行
+automations.responder	响应器
+automations.responderUpgraded	响应器已升级
+automations.retry	重试
+automations.rruleAtMinute	在 :{{minute}} 分
+automations.rruleAtTime	在 {{time}}
+automations.rruleAtTimeInTimeZone	在 {{time}}（{{timeZone}}）
+automations.rruleCustom	自定义
+automations.rruleDaily	每天
+automations.rruleDayOrdinalNd	{{day}} 日
+automations.rruleDayOrdinalRd	{{day}} 日
+automations.rruleDayOrdinalSt	{{day}} 日
+automations.rruleDayOrdinalTh	{{day}} 日
+automations.rruleEveryDayLong	每天
+automations.rruleEveryHour	每小时
+automations.rruleEveryMinute	每分钟
+automations.rruleEveryNDays	每 {{interval}} 天
+automations.rruleEveryNHours	每 {{interval}} 小时
+automations.rruleEveryNMin	每 {{interval}} 分钟
+automations.rruleEveryNMinutes	每 {{interval}} 分钟
+automations.rruleEveryNMonths	每 {{interval}} 个月
+automations.rruleEveryNMonthsOnDay	每 {{interval}} 个月的 {{dayOrdinal}} 日
+automations.rruleEveryNWeeks	每 {{interval}} 周
+automations.rruleEveryNamedDay	每周{{day}}
+automations.rruleFromUntil	{{schedule}}，自 {{start}} 至 {{end}}
+automations.rruleHourly	每小时
+automations.rruleInTimeZone	{{schedule}}（{{timeZone}}）
+automations.rruleMonthly	每月
+automations.rruleMonthlyOnDay	每月 {{dayOrdinal}} 日
+automations.rruleNoSchedule	无计划
+automations.rruleOnDays	在{{days}}
+automations.rruleOnWeekdays	在工作日
+automations.rruleOnWeekends	在周末
+automations.rruleRunOnceOn	在 {{datetime}} 运行一次
+automations.rruleRunOnceOnInTimeZone	在 {{datetime}} 运行一次（{{timeZone}}）
+automations.rruleStarting	{{schedule}}，自 {{start}} 起
+automations.rruleString	RRULE 字符串
+automations.rruleTextMode	RRULE
+automations.rruleUntil	{{schedule}}，至 {{end}}
+automations.rruleUtcHint	带可选时区的 RFC 5545 RRULE。
+automations.rruleVisualMode	可视化
+automations.rruleWeekdays	工作日
+automations.rruleWeekends	周末
+automations.rruleWeekly	每周
+automations.runAs	运行身份
+automations.runAsCreator	创建者
+automations.runAsCreatorName	创建者（{{name}}）
+automations.runAsCreatorYou	创建者（你）
+automations.runAsCurrent	当前（{{name}}）
+automations.runAsDescription	运行会话时使用此用户身份
+automations.runAsManageServiceUsers	管理服务用户
+automations.runAsNewServiceUserBadge	新建
+automations.runAsNewServiceUserTooltip	请求获批后会为此 Devin 创建一个服务用户
+automations.runAsOrganization	组织
+automations.runAsPlaceholder	选择一个身份
+automations.runAsRequired	选择此自动化的运行身份
+automations.runAsServiceUser	服务用户
+automations.runAsServiceUserNamed	{{name}}（{{id}}）
+automations.runAsServiceUsers	服务用户
+automations.runAsSlackAppInstalled	在 Slack 中以 @{{handle}} 发帖。
+automations.runAsSlackAppMentionTrigger	用「Slack 应用被提及」触发器在 @mention 时启动会话。
+automations.runAsSystem	系统用户
+automations.runAutomation	运行自动化
+automations.runningCount_one	{{count}} 个运行中
+automations.runningCount_other	{{count}} 个运行中
+automations.runsAsUser	以 {{name}} 身份运行
+automations.saturday	星期六
+automations.save	保存
+automations.saveAnyway	仍要保存
+automations.saveBlockedTitle	无法保存更改
+automations.saveChanges	保存
+automations.saveWithMissingCredentialsDescription	连接前会话无法使用 {{names, list}}。仍要保存？
+automations.saveWithMissingCredentialsTitle	部分所选 MCP 未连接
+automations.saving	正在保存…
+automations.savingScratchpadFolder	正在保存暂存文件夹…
+automations.scanFindingRemediationSummary	{{severities, list}} 严重性
+automations.scanHasNoCompletedRun	需要先完成一次全量扫描才能扫描新提交
+automations.scanId	扫描 ID
+automations.scanNewCommitsExplainer	每次运行扫描自该扫描上次完成以来新增的提交，并计入该扫描的运行历史。
+automations.scanNotFound	未找到扫描
+automations.scanRequired	必须选择扫描
+automations.scanRunFull	全量
+automations.scanRunIncremental	增量
+automations.scanRunNoSession	无会话
+automations.scanRunStarted	已开始
+automations.scanRuns	扫描会话
+automations.scanRunsEmpty	此期间没有运行过扫描。
+automations.scanRunsLoadError	无法加载扫描会话。
+automations.scheduleAt	在
+automations.scheduleCustom	自定义计划
+automations.scheduleDailyPhrase	<frequency /><time />
+automations.scheduleEndsOn	结束于
+automations.scheduleEndsOnClear	移除结束日期
+automations.scheduleEndsOnHint	计划在所选时区中最后运行的日期。不设结束日期则无限期运行。
+automations.scheduleEndsOnInline	结束于
+automations.scheduleEndsOnMustBeFuture	结束日期必须是今天或更晚
+automations.scheduleEndsOnNever	从不
+automations.scheduleEveryDay	每天
+automations.scheduleEveryHour	每小时

@@ -1,0 +1,160 @@
+vs/platform/windsurfSvg/browser/windsurfCodicons/acpConnectorIcon	{0} 的 ACP agent 图标
+vs/platform/windsurfSvg/browser/windsurfCodicons/deepwikiIcon	DeepWiki 图标
+vs/platform/windsurfSvg/browser/windsurfCodicons/devinLogoIcon	Devin logo 图标
+vs/platform/windsurfSvg/browser/windsurfCodicons/windsurfLogoIcon	Devin logo 图标
+vs/platform/windsurfSvg/browser/windsurfCodicons/windsurfSlackIcon	Slack 图标
+vs/platform/workspaces/electron-main/workspacesHistoryMainService/agentsWindow	Agents 窗口
+vs/platform/workspaces/electron-main/workspacesHistoryMainService/openAgentsWindowDesc	开 Agents 窗口
+vs/sessions/browser/desktopWorkbench/sidePaneHidden	侧栏已隐
+vs/sessions/browser/desktopWorkbench/sidePaneVisible	侧栏已显
+vs/sessions/browser/layoutActions/layoutDensity	布局密度
+vs/sessions/browser/openInVSCodeUtils/devContainerSample.notPrepared	先发首条提示备此 Dev Container 示例，再在编辑器开。
+vs/sessions/browser/parts/chatCompositeBar/chatTabUnreadAriaLabel	{0}，未读
+vs/sessions/browser/parts/chatCompositeBar/copyChatLink	复制链接
+vs/sessions/browser/parts/mobile/mobilePickerSheet/mobilePickerSheet.itemAriaLabelWithBadge	{0}，{1}
+vs/sessions/browser/parts/mobile/mobilePickerSheet/mobilePickerSheet.itemAriaLabelWithBadgeAndDescription	{0}，{1}，{2}
+vs/sessions/browser/parts/mobile/mobileSessionFilterChips/sessionListActions	会话列表操作
+vs/sessions/browser/parts/sessionHeaderBar/renameChat.aria	改聊天名
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.connect	连
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.connectingTitle	连 {0} 中
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.disconnected	到不了 {0}。
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.disconnectedTitle	连不了 {0}
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.incompatibleDescription	{0} 不兼容此版 Visual Studio Code。
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.incompatibleTitle	连不了 {0}
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.notRunning	{0} 没在跑。
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.notRunningTitle	连不了 {0}
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.reconnecting	重连 {0} 中…
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.reconnectingIn	{1} 秒后重连 {0}
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.retry	重试
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.showLog	显日志
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.start	起 {0}
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.startingDescription	起 {0} 中。
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.tryNow	现在试
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.unknown	远程主机
+vs/sessions/browser/parts/sessionRemoteConnection/sessionRemoteHost.waitingForConnection	等 agent host 连接中…
+vs/sessions/browser/parts/sessionsPart/sessionsChatBackground.confetti	彩带！
+vs/sessions/browser/parts/sessionView/newSessionPane	新会话
+vs/sessions/browser/parts/sessionView/sessionPane	会话：{0}
+vs/sessions/browser/sessionsSetUpService/welcomeFooterWithoutSettingsLink	继续即同意 {0} 的[条款]({1})和[隐私声明]({2})。{3} Copilot 可能显[公共代码]({4})建议并用你数据改进产品。你随时可改这些设置。
+vs/sessions/common/contextkeys/agentSessionsDesktopChangesEditorTransition	会话切换时桌面更改编辑器是否正被替换
+vs/sessions/common/contextkeys/agentSessionsDesktopChangesTabAvailable	桌面会话是否支持更改编辑器
+vs/sessions/common/contextkeys/agentSessionsDesktopChangesTabMissing	桌面会话是否支持更改编辑器但其标签页现没开
+vs/sessions/common/contextkeys/agentSessionsDesktopDiffEditorInputActive	活跃桌面编辑器输入是否 diff，与渲染它的编辑器无关
+vs/sessions/common/contextkeys/agentSessionsDesktopFilesTabAvailable	桌面会话是否支持文件编辑器
+vs/sessions/common/contextkeys/agentSessionsDesktopFilesTabMissing	桌面会话是否支持文件标签页但其标签页现没开
+vs/sessions/common/contextkeys/agentSessionsDesktopLayout	Agents 窗口是否用桌面布局
+vs/sessions/common/contextkeys/newSessionCreationProviderId	草稿存在前新建会话所选的提供商
+vs/sessions/common/contextkeys/sessionActiveChatCanArchive	活跃聊天可否归档或标完
+vs/sessions/common/contextkeys/sessionActiveChatHasSideChats	会话或聊天头所表的聊天是否有侧聊
+vs/sessions/common/contextkeys/sessionActiveChatIsUntitled	活跃聊天是否无名嵌套会话草稿
+vs/sessions/common/contextkeys/sessionActiveChatResource	会话或聊天头所表聊天的资源
+vs/sessions/common/contextkeys/sessionAgentPickerInAttachContext	活跃会话的 Agent 选择器是否显在「加上下文」而非输入工具栏
+vs/sessions/common/contextkeys/sessionFocusedChatIsRenameTarget	聚焦聊天组的可见聊天是否非主聊天，应收聊天专属改名命令而非会话改名命令
+vs/sessions/common/contextkeys/sessionHeaderActiveChatIsPinned	并排聊天组头所表的聊天是否置顶
+vs/sessions/common/contextkeys/sessionHeaderShowsChat	会话式头是否表并排聊天组中一个聊天而非整会话
+vs/sessions/common/contextkeys/sessionHeaderTargetsChat	会话式头里嵌套会话生命周期操作是否对所表聊天而非整会话
+vs/sessions/common/contextkeys/sessionItem.isMultiSelection	会话列表是否选了多个会话
+vs/sessions/common/contextkeys/sessionsListPromoteNewChatAction	会话行上「新嵌套会话」是否替置顶/取消置顶为主操作（A/B 实验）
+vs/sessions/common/contextkeys/sessionsListRearrange	会话列表是否用实验性导航排布
+vs/sessions/common/contextkeys/sessionToolbarShowsSession	会话工具栏是否表整会话而非并排聊天组
+vs/sessions/common/contextkeys/sessionUsesExperimentalComposerLayout	会话聊天输入是否用实验性编写器布局
+vs/sessions/common/contextkeys/sessionWorktreeCleanupEditorFocused	「开 worktree 清理」编辑器是否聚焦
+vs/sessions/common/sessionApplication/application.claude	Claude
+vs/sessions/common/sessionApplication/application.codex	Codex
+vs/sessions/common/sessionApplication/application.copilotApp	Copilot App
+vs/sessions/common/sessionApplication/application.copilotCli	Copilot CLI
+vs/sessions/common/sessionApplication/application.issuesAssignment	议题指派
+vs/sessions/common/sessionApplication/application.slack	Slack
+vs/sessions/common/sessionApplication/application.teams	Teams
+vs/sessions/common/sessionApplication/application.vscode	VS Code
+vs/sessions/contrib/accountMenu/browser/account.contribution/chatGPTLimitResetAria	{0}，已用 {1}%。{2}
+vs/sessions/contrib/accountMenu/browser/account.contribution/chatGPTLongLimitResetExact	{0} {1} 重置
+vs/sessions/contrib/accountMenu/browser/account.contribution/chatGPTShortLimitResetExact	{0} 重置
+vs/sessions/contrib/accountMenu/browser/account.contribution/chatGPTWindowLimitUsedPercentage	{0}：已用 {1}%
+vs/sessions/contrib/accountMenu/browser/chatPetAchievementBadges/sessionsChatPetBadgeColorLabel	{0} 成就徽章：换 Blobby 颜色
+vs/sessions/contrib/accountMenu/browser/chatPetAchievementBadges/sessionsChatPetBadgeHatSelected	VS Code 宠物现戴着 {0}
+vs/sessions/contrib/accountMenu/browser/chatPetAchievementBadges/sessionsChatPetBadgeSelectedLabel	{0} 成就徽章：{1}，戴着
+vs/sessions/contrib/agentFeedback/browser/agentFeedback.contribution/chat.experimental.agentsWindowPRComments	Agents 窗口加反馈时启用「PR 评论」选项。
+vs/sessions/contrib/agentFeedback/browser/agentFeedbackEditorInputContribution/agentFeedback.addingPRComment	加拉取请求评论中
+vs/sessions/contrib/agentFeedback/browser/agentFeedbackEditorInputContribution/agentFeedback.addPRComment	加 PR 评论
+vs/sessions/contrib/agentFeedback/browser/agentFeedbackEditorInputContribution/agentFeedback.addPRCommentAction	加 PR 评论
+vs/sessions/contrib/agentFeedback/browser/agentFeedbackEditorInputContribution/agentFeedback.addPRCommentActionWithPR	加 PR 评论（{0}/{1}#{2}）
+vs/sessions/contrib/agentFeedback/browser/agentFeedbackEditorInputContribution/agentFeedback.addPRCommentFailed	加拉取请求评论失败：{0}
+vs/sessions/contrib/agentFeedback/browser/agentFeedbackEditorInputContribution/agentFeedback.commentTarget	Agent 反馈
+vs/sessions/contrib/agentFeedback/browser/agentFeedbackEditorInputContribution/agentFeedback.loadPRCommentTargetsFailed	载拉取请求评论目标失败：{0}
+vs/sessions/contrib/agentFeedback/browser/agentFeedbackEditorInputContribution/agentFeedback.prCommentTarget	拉取请求评论
+vs/sessions/contrib/agentFeedback/browser/agentFeedbackEditorInputContribution/agentFeedback.prCommentTargetWithPR	拉取请求（{0}/{1}#{2}）评论
+vs/sessions/contrib/agentFeedback/browser/agentFeedbackEditorInputContribution/agentFeedback.prCommentUnavailableForLine	此行加不了拉取请求评论。
+vs/sessions/contrib/automations/browser/automationDialog/automation.advanced	高级
+vs/sessions/contrib/automations/browser/automationDialog/automation.customizations.description	选此自动化运行能用哪些插件和定制项。
+vs/sessions/contrib/automations/browser/automationDialog/automation.customizations.empty	此目标没可用定制项。
+vs/sessions/contrib/automations/browser/automationDialog/automation.customizations.heading	定制项
+vs/sessions/contrib/automations/browser/automationDialog/automation.customizations.loading	载定制项中…
+vs/sessions/contrib/automations/browser/automationDialog/automation.customizations.loadingSummary	载中…
+vs/sessions/contrib/automations/browser/automationDialog/automation.customizations.outdated	已过期
+vs/sessions/contrib/automations/browser/automationDialog/automation.customizations.outdatedHint	过期定制项会在存自动化时更新。
+vs/sessions/contrib/automations/browser/automationDialog/automation.customizations.summary	{1} 中 {0} 个定制项
+vs/sessions/contrib/automations/browser/automationDialog/automation.customizations.summaryOutdated	{1} 中 {0} 个定制项 · {2} 个过期
+vs/sessions/contrib/automations/browser/automationDialog/automation.form.hostChanged	要用另一 Agent Host，复制此自动化。原自动化留其计划直到你禁它。
+vs/sessions/contrib/automations/browser/automationDialog/automation.form.hostUnavailable	选个支持自动化的可用 Agent Host。
+vs/sessions/contrib/automations/browser/automationDialog/automation.form.quickChatUnavailable	所选 Agent Host 和会话类型没工作区跑不了。选工作区或别的会话类型。
+vs/sessions/contrib/automations/browser/automationDialog/automation.form.saving	存自动化中…
+vs/sessions/contrib/automations/browser/automationDialog/automation.form.selectWorkspace	选工作区
+vs/sessions/contrib/automations/browser/automationDialog/automation.form.sessionConfigurationLoading	载会话配置中…
+vs/sessions/contrib/automations/browser/automationDialog/automation.form.sessionConfigurationOptions	会话配置选项
+vs/sessions/contrib/automations/browser/automationDialog/automation.form.sessionConfigurationUnavailable	会话配置不可用
+vs/sessions/contrib/automations/browser/automationDialog/automation.form.sessionControls	会话控制
+vs/sessions/contrib/automations/browser/automationDialog/automation.form.syncingCustomizations	同步定制项中…
+vs/sessions/contrib/automations/browser/automationDialog/automation.form.target	目标
+vs/sessions/contrib/automations/browser/automationDialog/automation.form.targetOptions	自动化目标选项
+vs/sessions/contrib/automations/browser/automationDialog/automation.form.workspaceTargetUnavailable	所选 Agent Host 和会话类型用不了此工作区。选别的工作区或会话类型。
+vs/sessions/contrib/automations/browser/automationDialogService/automation.dialog.captureError	自动化没存，因会话配置捕获不了。查提供商连接再试。
+vs/sessions/contrib/automations/browser/automationDialogService/automation.dialog.saving	存中…
+vs/sessions/contrib/automations/browser/automationRunner/automationDispatchFailed	自动化 '{0}' 没起会话：{1}
+vs/sessions/contrib/automations/browser/automationRunner/automationDispatchNoSession	Agent Host 没会话就结束了运行。
+vs/sessions/contrib/automations/browser/automationRunner/automationHostLoadError	载不了 {0} 的自动化。重连 Agent Host 再试。
+vs/sessions/contrib/automations/browser/automationRunner/automationHostLoading	{0} 的自动化还在载。等载完再试。
+vs/sessions/contrib/automations/browser/automationRunner/automationHostNotConnected	连此自动化的 Agent Host 再试。
+vs/sessions/contrib/automations/browser/automationRunner/automationHostNotSelected	此自动化没 Agent Host。复制它并选个 Agent Host。
+vs/sessions/contrib/automations/browser/automationRunner/automationHostUnavailable	{0} 不可用。重连 Agent Host 再试。
+vs/sessions/contrib/automations/browser/automationRunner/automationProviderUnsupported	{0} 不支持自动化。用支持自动化的 Agent Host。
+vs/sessions/contrib/automations/browser/automationRunner/automationRunUnavailable	自动化的 Agent Host 没备好跑它。
+vs/sessions/contrib/automations/browser/automationTools/automation.tool.list.result.incompleteProviders	可见自动化：{0}；不全提供商：{2} 中 {1}
+vs/sessions/contrib/automations/browser/providerAutomationService/automationCreateUnavailable	建自动化前先连支持自动化的 Agent Host。
+vs/sessions/contrib/automations/browser/providerAutomationService/automationUnavailable	自动化 '{0}' 不可用。其 Agent Host 可能断了或自动化已删。
+vs/sessions/contrib/canvases/common/sessionCanvas/canvas.editorDescription	关此标签页隐 canvas。在「加标签页」菜单重开它（其仍可用时）。
+vs/sessions/contrib/canvases/common/sessionCanvas/canvas.editorName	Canvas
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasActions/canvas.instanceTitle	{0}（{1}）
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasActions/canvas.instanceTitleCollision	{0}（{1}，{2}）
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.closed	此 canvas 不再可用。
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.content	Canvas 内容。键盘导航用无障碍帮助。
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.help.close	关标签页隐此 canvas。其仍可用时在编辑器工具栏「加标签页」菜单选其标题重开。
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.help.navigation	Tab 遍历页内控件。用 <keybinding:workbench.action.focusNextPart> 离开此页。
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.help.overview	此 canvas 是活跃对话私有的页。
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.loadFailed	canvas 载不了。
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.loading	载 canvas 中…
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.noPage	现没附 canvas 页。
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.noSemantics	此 canvas 没暴露具名无障碍内容。
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.ownerUnavailable	此 canvas 只显在其属主对话旁。
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.pageFailed	canvas 页载失败。
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.pageLoading	载 canvas 页中…
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.reading	读无障碍 canvas 内容中…
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.semanticChanged	canvas 变了。重开「无障碍视图」读其当前内容。
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.semanticError	canvas 无障碍内容读不了。
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.truncated	有界无障碍快照不全。
+vs/sessions/contrib/canvases/electron-browser/sessionCanvasEditor/canvas.unavailable	canvas 提供商暂不可用。
+vs/sessions/contrib/canvases/electron-browser/sessionCanvases.contribution/canvas.editor	Canvas
+vs/sessions/contrib/changes/browser/changesView/changesView.diffStats.accessibleLabel	{0}，{1} 增，{2} 删
+vs/sessions/contrib/changes/browser/changesView/changesView.emptyTitle	更改
+vs/sessions/contrib/changes/browser/changesView/changesView.picker.tooltip	{0}：{1}
+vs/sessions/contrib/changes/browser/changesView/changesView.picker.tooltipWithSummary	{0}：{1}，{2}
+vs/sessions/contrib/changes/browser/changesViewActions/agentSessions.diffEditorWordWrap	自动换行
+vs/sessions/contrib/changes/browser/changesViewActions/agentSessions.editorWordWrap	自动换行
+vs/sessions/contrib/changes/browser/changesViewActions/diffView	Diff 视图
+vs/sessions/contrib/changes/browser/changesViewActions/diffView.automaticInline	自动（当前内联）
+vs/sessions/contrib/changes/browser/changesViewActions/diffView.automaticSideBySide	自动（当前并排）
+vs/sessions/contrib/changes/browser/changesViewActions/diffView.inline	内联
+vs/sessions/contrib/changes/browser/changesViewActions/diffView.inlineTemporary	内联（临时）
+vs/sessions/contrib/changes/browser/changesViewActions/diffView.sideBySide	并排
+vs/sessions/contrib/changes/browser/createPullRequestChatRequest/createPR.chat.readOnly	只读聊天发不了建拉取请求消息。
+vs/sessions/contrib/changes/browser/createPullRequestChatRequest/createPR.message.autoMerge	用 {0} 开 GitHub 自动合并，让拉取请求在必查和批准过时合并。不绕这些要求。

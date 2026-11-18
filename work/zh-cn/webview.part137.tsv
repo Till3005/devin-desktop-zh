@@ -1,0 +1,160 @@
+worklog.botSetupCancel	取消
+worklog.botSetupChannelsSelected_one	已选 {{count}} 个频道
+worklog.botSetupChannelsSelected_other	已选 {{count}} 个频道
+worklog.botSetupChannelsUnavailable	在设置连 Slack 以挑频道。
+worklog.botSetupConfirm	确认
+worklog.botSetupConnectSlack	连 Slack
+worklog.botSetupEdit	编辑
+worklog.botSetupLinkSlack	链 Slack 账户
+worklog.botSetupLoadFailed	加载不了 Slack 频道。重载再试。
+worklog.botSetupMembers_one	{{count}} 个成员
+worklog.botSetupMembers_other	{{count}} 个成员
+worklog.botSetupNoChannels	没有你和 Devin 都在的 Slack 频道。进一个并邀 @Devin，再重试。
+worklog.botSetupNoChannelsMatch	没频道匹配
+worklog.botSetupNotConnected	此组织没连 Slack。
+worklog.botSetupNotLinked	你 Slack 账户还没链到 Devin。
+worklog.botSetupSearchChannels	搜频道
+worklog.botSetupSlackJobQuestion	我该盯哪些频道做 {{job}}？
+worklog.botSetupSlackQuestion	我该跟进哪些频道？
+worklog.botSetupSlackSettings	Slack 设置
+worklog.botSetupUnsupportedHost	在 Devin web 应用挑频道。
+worklog.browserProfileSavedToOrgNotice	此浏览器配置存到你组织——你组织其它用户能起加载它的会话，含其存的登录、cookie 或会话 token。
+worklog.browserProfileSavedToPath	浏览器配置存到 <path>{{path}}</path>
+worklog.bypassForConnection	此连接绕权限
+worklog.bypassPermissionsDescription	此连接余下期跳过本地工具逐次提示。待决请求立即批准。
+worklog.bypassPermissionsFailed	改不了本地权限：{{error}}
+worklog.bypassPermissionsWaitingForMachine	等本地机器中…
+worklog.calledToolOn	在 {{target}} 上调了 {{toolName}}
+worklog.callingToolOn	在 {{target}} 上调 {{toolName}} 中
+worklog.cancel	取消
+worklog.canonicalSuggestionFollowers_one	此仓库随其规范 blueprint，所以更改存那。{{count}} 个环境随它会重建。存前审下面结果。
+worklog.canonicalSuggestionFollowers_other	此仓库随其规范 blueprint，所以更改存那。{{count}} 个环境随它会重建。存前审下面结果。
+worklog.canonicalSuggestionTitle	此建议改规范 blueprint
+worklog.canonicalUpdateFollowers_one	此建议编一个随其规范 blueprint 的仓库，所以更改存那。{{count}} 个环境随它会重建。
+worklog.canonicalUpdateFollowers_other	此建议编一个随其规范 blueprint 的仓库，所以更改存那。{{count}} 个环境随它会重建。
+worklog.changeSecurityProfile	换安全配置
+worklog.changesApplyOncePrMerged	PR 合并后更改生效
+worklog.changingProfileClearsNetworkOverride	此会话有自定义网络政策覆盖。换安全配置会移除它，会话用新配置的网络政策。
+worklog.checkWorkspaceCleanStartupCommands	查工作区干净并再核<settingsLink>设置</settingsLink>里启动命令。
+worklog.chooseSecurityProfileGoverns	挑哪个安全配置管此会话
+worklog.cloudSetupAddSecret	加
+worklog.cloudSetupAddToPlugin	加到插件
+worklog.cloudSetupAddToPluginSearch	搜索
+worklog.cloudSetupBlueprint	Blueprint
+worklog.cloudSetupDropHere	拖文件到这
+worklog.cloudSetupKindAgents	子 agent
+worklog.cloudSetupKindCommands	命令
+worklog.cloudSetupKindHooks	Hook
+worklog.cloudSetupKindRules	规则
+worklog.cloudSetupKindSkills	技能
+worklog.cloudSetupKindWorkflows	Workflow
+worklog.cloudSetupMarketplace	迁市场插件
+worklog.cloudSetupMcps	MCP
+worklog.cloudSetupMemory	记忆
+worklog.cloudSetupNewPlugin	从解析的文件建新插件
+worklog.cloudSetupNewVersion	Devin Cloud 有此插件版本 {{version}}。发送会替换它。想两者都留就改名。
+worklog.cloudSetupNewVersionOfUnversioned	Devin Cloud 有同名插件。发送会替换它。想两者都留就改名。
+worklog.cloudSetupPluginName	插件名
+worklog.cloudSetupPlugins	Agent 插件
+worklog.cloudSetupPreviewEmpty	没可发的：没找到设置、机密、agent 文件、插件或记忆。
+worklog.cloudSetupPreviewSummary	发什么到 Devin Cloud。勾的项会发；点文件名读它。
+worklog.cloudSetupPreviewSummaryRepo	为 {{repo}} 发什么到 Devin Cloud。勾的项会发；点文件名读它。
+worklog.cloudSetupRemoveFromPlugin	从插件移除 {{name}}
+worklog.cloudSetupRemovePlugin	移除插件 {{name}}
+worklog.cloudSetupReviewCancelled	没做选择。
+worklog.cloudSetupReviewCount	已选 {{selected}} / {{total}}
+worklog.cloudSetupReviewDescription	挑发什么到 Devin Cloud。
+worklog.cloudSetupReviewDone	已批。
+worklog.cloudSetupReviewDrafting	起草中…
+worklog.cloudSetupReviewNone	还没可审的。跑 /cloud-setup，或等草稿备好。
+worklog.cloudSetupReviewTitle	云设置预览
+worklog.cloudSetupScope	范围
+worklog.cloudSetupScopeEnterprise	企业
+worklog.cloudSetupScopeOrg	组织
+worklog.cloudSetupScopeRepo	仓库
+worklog.cloudSetupScopeYou	个人
+worklog.cloudSetupSecretFoundIn	发现于
+worklog.cloudSetupSecretFromMcp	MCP：{{name}}
+worklog.cloudSetupSecretHide	隐藏值
+worklog.cloudSetupSecretName	SECRET_NAME
+worklog.cloudSetupSecretNameInvalid	用字母、数字和下划线。别数字开头。
+worklog.cloudSetupSecretNameTaken	此名已在列表。
+worklog.cloudSetupSecretNoValue	没值
+worklog.cloudSetupSecretRedactHint	为安全，脱敏值上传后不能再显。
+worklog.cloudSetupSecretRedacted	脱敏值
+worklog.cloudSetupSecretShow	显值
+worklog.cloudSetupSecretValue	值
+worklog.cloudSetupSecretValueOf	{{name}} 的值
+worklog.cloudSetupSecrets	机密
+worklog.cloudSetupSend	发到 Devin Cloud
+worklog.cloudSetupVersion	版本
+worklog.codeScanSetupFormChatgptPlanAcuNotice	扫描不包在你 ChatGPT 方案，用你 Devin ACU。
+worklog.codeScanSetupFormChatgptPlanQuotaNotice	扫描不包在你 ChatGPT 方案，用你 Devin 额度。
+worklog.codeScanSetupFormDisabled	已禁
+worklog.codeScanSetupFormDismissed	表单已消
+worklog.codeScanSetupFormEnabled	已开
+worklog.codeScanSetupFormFailed	发不了配置
+worklog.codeScanSetupFormReady	审选项再提交
+worklog.codeScanSetupFormRequired	填必填字段
+worklog.codeScanSetupFormSubmit	起扫描
+worklog.codeScanSetupFormSubmitted	配置已发 Devin
+worklog.codeScanSetupFormTitle	代码扫描设置
+worklog.collapse	收起
+worklog.columnNumber	第 {{number}} 列
+worklog.configureMcpServer	配 MCP 服务器
+worklog.connect	连接
+worklog.connectLocalMachineFallback	用 Devin CLI 连你本地机以继续。
+worklog.connected	已连
+worklog.connecting	连中…
+worklog.connectingLocalMachine	连中…
+worklog.copyCommand	复制命令
+worklog.couldNotIndex	索引不了 {{repoLabel}}
+worklog.couldntLoadProfiles	加载不了配置。
+worklog.countMore	还有 {{count}} 个
+worklog.countMoreAskAdmin	还有 {{count}} 个——找管理员查构建日志
+worklog.createPlaybook	建 playbook
+worklog.createPr	建 PR
+worklog.created	已建
+worklog.createdSessionsSuccessfully_one	建了 {{count}} 个会话
+worklog.createdSessionsSuccessfully_other	建了 {{count}} 个会话
+worklog.creatingPr	建 PR 中…
+worklog.current	当前
+worklog.deactivatedSkill	停用技能：
+worklog.declineLocalAccess	拒绝
+worklog.delete	删除
+worklog.deleteKnowledgeTitle	删知识：{{name}}
+worklog.deleted	已删
+worklog.deleting	删中…
+worklog.denied	已拒
+worklog.denyForProject	此项目永远拒
+worklog.detachFromGit	从 Git 分离
+worklog.devinCanChooseModel	Devin 能为子会话挑模型。
+worklog.devinCanChooseModelChangeable	Devin 能为子会话挑模型。批时可改。
+worklog.devinSessionIntrospectionToolUsed	用了 Devin 会话内省工具
+worklog.devinWantsToCreateSessions_one	Devin 想建 {{count}} 个新会话
+worklog.devinWantsToCreateSessions_other	Devin 想建 {{count}} 个新会话
+worklog.diffTruncatedCaption	diff 截断：超大小上限
+worklog.diffTruncatedParen	（diff 截断：超大小上限）
+worklog.docs	文档
+worklog.dontIndexNoun	别索引 {{noun}}
+worklog.doubleCheckMaintenanceCommands	再核你<settingsLink>环境设置</settingsLink>里 maintenance 命令。
+worklog.downloadTheFullFile	下载完整文件
+worklog.enableNetworkControls	开网络控制
+worklog.enterpriseBlueprint	企业 blueprint
+worklog.envConfigChangedSinceSuggestion	此建议后环境配置变了
+worklog.envConfigEditedReviewCombined	此建议建后有人编了环境配置。存前审下面合并结果。
+worklog.environment	环境
+worklog.environmentCreated	环境已建
+worklog.environmentIsSetUp	环境已设
+worklog.expand	展开
+worklog.expandAllLines	展开全部行
+worklog.failedToAddRepositoryToEnvironment	加仓库到环境失败
+worklog.failedToDenyNetworkRequest	拒网络访问请求失败。
+worklog.failedToGenerateWiki	生成 wiki 失败
+worklog.failedToLoadFileContent	加载文件内容失败
+worklog.failedToLoadNetworkConfig	加载网络配置失败。
+worklog.failedToLoadProfileChanges	加载配置更改失败
+worklog.failedToLoadSecurityProfile	加载安全配置失败。
+worklog.failedToRequestBypassPermissions	请求绕本地权限失败。
+worklog.failedToRetryLocalAccess	续不了访问或连不了机器。重试。
+worklog.failedToReviseCommand	改写命令失败。请重试。

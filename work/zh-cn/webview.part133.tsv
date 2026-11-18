@@ -1,0 +1,160 @@
+userGroups.access.shareVerb	共享
+userGroups.access.viewVerb	看
+userGroups.accessFailed	更新不了访问
+userGroups.accountPermissions.actionDescriptions.automation_create	在 Unified 模式建自动化
+userGroups.accountPermissions.actionDescriptions.environment_create	在企业建新环境
+userGroups.accountPermissions.actionDescriptions.folder_create	在 Unified 模式建新资源集合
+userGroups.accountPermissions.actionDescriptions.git_connection_create	建新 Git 集成
+userGroups.accountPermissions.actionDescriptions.group_create	建新组
+userGroups.accountPermissions.actionDescriptions.playbook_create	在 Unified 资源集合建 playbook
+userGroups.accountPermissions.actionDescriptions.secret_create	在 Unified 模式建机密
+userGroups.accountPermissions.actionDescriptions.tracker_connection_create	建新追踪器连接
+userGroups.accountPermissions.actions.automation_create	建 Unified 自动化
+userGroups.accountPermissions.actions.environment_create	建环境
+userGroups.accountPermissions.actions.folder_create	建资源集合
+userGroups.accountPermissions.actions.git_connection_create	建 Git 集成
+userGroups.accountPermissions.actions.group_create	建组
+userGroups.accountPermissions.actions.playbook_create	建 Unified playbook
+userGroups.accountPermissions.actions.secret_create	建 Unified 机密
+userGroups.accountPermissions.actions.tracker_connection_create	建追踪器连接
+userGroups.accountPermissions.description	此组成员能跨账户建什么。
+userGroups.accountPermissions.descriptionColumn	描述
+userGroups.accountPermissions.edit	编辑
+userGroups.accountPermissions.managed	由此组来源设
+userGroups.accountPermissions.permissionColumn	权限
+userGroups.accountPermissions.save	保存
+userGroups.accountPermissions.saveFailed	存不了权限
+userGroups.accountPermissions.saved	权限已存
+userGroups.accountPermissions.title	账户权限
+userGroups.actionColumn	访问
+userGroups.actionVerbs.configure	配置
+userGroups.actionVerbs.share	共享
+userGroups.actionVerbs.use	用
+userGroups.actionVerbs.view	看
+userGroups.add	加
+userGroups.addFailed	加不了成员
+userGroups.addMembers	加到组
+userGroups.addMembersPlaceholder	搜成员或从你账户加人和 IdP 组
+userGroups.allActions	全部访问
+userGroups.allResources.*	全部资源
+userGroups.allResources.budget	全部预算
+userGroups.allResources.environment	全部环境
+userGroups.allResources.folder	全部资源集合
+userGroups.allResources.git_connection	全部 Git 连接
+userGroups.allResources.knowledge	全部知识
+userGroups.allResources.mcp	全部 MCP
+userGroups.allResources.mcp_authorization	全部 MCP 授权
+userGroups.allResources.playbook	全部 playbook
+userGroups.allResources.repo	全部仓库
+userGroups.allResources.repo_prefix	全部仓库前缀
+userGroups.allResources.secret	全部机密
+userGroups.allResources.secure_mode_profile	全部安全模式配置
+userGroups.allResources.session	全部会话
+userGroups.allResources.tracker_connection	全部追踪器连接
+userGroups.cancel	取消
+userGroups.candidatesLoadError	搜不了要加的人。
+userGroups.clearSearch	清搜索
+userGroups.close	关
+userGroups.create	建组
+userGroups.createDescription	组让你一次给一批成员授资源访问
+userGroups.createFailed	建不了组
+userGroups.createTitle	建组
+userGroups.created	组已建
+userGroups.dangerZone	危险区
+userGroups.definition.accountRole	持 {{role}} 账户角色的成员
+userGroups.definition.orgMembers	{{org}} 全部成员
+userGroups.definition.orgRole	{{org}} 里持 {{role}} 角色的成员
+userGroups.definition.providerTeam	镜像自 {{provider}} 团队 {{team}}
+userGroups.definitionColumn	定义
+userGroups.delete	删除
+userGroups.deleteConfirm	删「{{name}}」？成员失去经此组授的访问。
+userGroups.deleteDescription	移除组、其成员和授给它的每个权限。
+userGroups.deleteFailed	删不了组
+userGroups.deleteTitle	删组
+userGroups.deleted	组已删
+userGroups.description	建组管成员和其对共享资源的访问。
+userGroups.descriptionHelp	说明谁属此组
+userGroups.descriptionLabel	描述
+userGroups.descriptionPlaceholder	描述此组
+userGroups.editSheetDescription	管此组成员、权限和详情
+userGroups.editTitle	编辑组
+userGroups.emptyDescription	建个组给一批成员共享资源。
+userGroups.emptyDescriptionNoCreate	你所属或可管的组会显在这。
+userGroups.emptyTitle	还没有组
+userGroups.loadError	加载不了组。
+userGroups.loading	加载中…
+userGroups.memberCount_one	{{count}} 个成员
+userGroups.memberCount_other	{{count}} 个成员
+userGroups.memberType.idp_group	身份提供商组
+userGroups.memberType.service_user	服务用户
+userGroups.membersColumn	成员
+userGroups.membersLoadError	加载不了成员。
+userGroups.membersReadOnly	你能见此组成员但编不了。
+userGroups.nameColumn	名称
+userGroups.nameHelp	标识组的短名
+userGroups.nameLabel	名称
+userGroups.namePlaceholder	如 平台工程师
+userGroups.noMemberMatches	没有人匹配你搜索
+userGroups.noMembers	还没有成员
+userGroups.noPermissions	此组还没被授任何资源访问。
+userGroups.noSearchResults	没有组匹配你搜索
+userGroups.permissionsColumn	权限
+userGroups.permissionsHint	此组被授访问的资源。
+userGroups.permissionsLoadError	加载不了权限。
+userGroups.removeFailed	移除不了成员
+userGroups.removeFromGroup	从组移除
+userGroups.resourceColumn	资源
+userGroups.resourceTypes.*	任何资源
+userGroups.resourceTypes.agent_profile	Agent 配置
+userGroups.resourceTypes.app	应用
+userGroups.resourceTypes.automation	自动化
+userGroups.resourceTypes.budget	预算
+userGroups.resourceTypes.environment	环境
+userGroups.resourceTypes.folder	资源集合
+userGroups.resourceTypes.git_connection	Git 连接
+userGroups.resourceTypes.group	组
+userGroups.resourceTypes.knowledge	知识
+userGroups.resourceTypes.mcp	MCP
+userGroups.resourceTypes.mcp_authorization	MCP 授权
+userGroups.resourceTypes.memory	个人记忆
+userGroups.resourceTypes.outpost_pool	Outpost 池
+userGroups.resourceTypes.playbook	Playbook
+userGroups.resourceTypes.plugin	插件
+userGroups.resourceTypes.repo	仓库
+userGroups.resourceTypes.repo_prefix	仓库前缀
+userGroups.resourceTypes.secret	机密
+userGroups.resourceTypes.secure_mode_profile	安全模式配置
+userGroups.resourceTypes.service_user	服务用户
+userGroups.resourceTypes.session	会话
+userGroups.resourceTypes.tracker_connection	追踪器连接
+userGroups.resourcesTitle	资源
+userGroups.retry	重试
+userGroups.saveChanges	保存
+userGroups.saveFailed	存不了组
+userGroups.saved	组已存
+userGroups.search	搜组
+userGroups.searchMembersPlaceholder	搜成员
+userGroups.searchPlaceholder	搜组
+userGroups.sort.name_asc	名称（A–Z）
+userGroups.sort.name_desc	名称（Z–A）
+userGroups.sortBy	排序按
+userGroups.systemBadge	系统
+userGroups.systemMembersReadOnly	此组由其来源自动管。其成员这编不了。
+userGroups.tabGeneral	常规
+userGroups.tabMembers	成员
+userGroups.tabPermissions	权限
+userGroups.title	管用户组
+userGroups.viewTitle	组详情
+userRoleBulk.cannotChangeOwnRole	你把自己角色从管理员改不了
+userRoleBulk.changeRole	改角色
+userRoleBulk.noMembersSelected	没选成员
+userRoleBulk.role	角色
+userRoleBulk.roleNotFound	找不到角色：{{roleId}}
+userRoleBulk.understood	明白了
+userRoleBulk.unknownError	未知错误
+userRoleBulk.updateFailed	更新角色失败：{{error}}
+userRoleBulk.updatingRoles	更新角色到 {{role}} 中…
+userRoleBulk.upgradeDescription	企业管理员能看和配整个 Devin 企业的全部代码、快照、集成和消耗上限。谨慎授此权限。
+userRoleBulk.upgradeTitle	升到企业管理员
+videoAttachment.notSupported	你浏览器不支持视频标签。
+videoAttachment.unavailable	视频不可用：

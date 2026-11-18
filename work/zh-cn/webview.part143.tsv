@@ -1,0 +1,100 @@
+workspace.browserPreview.designControls.alignItems	对齐项
+workspace.browserPreview.designControls.alignSelf	自对齐
+workspace.browserPreview.designControls.backgroundColor	背景色
+workspace.browserPreview.designControls.baseline	基线
+workspace.browserPreview.designControls.black	黑
+workspace.browserPreview.designControls.bold	粗体
+workspace.browserPreview.designControls.borderColor	边框色
+workspace.browserPreview.designControls.borderLineStyle	边框样式
+workspace.browserPreview.designControls.borderSideColor	边框{{side}}色
+workspace.browserPreview.designControls.borderSideStyle	边框{{side}}样式
+workspace.browserPreview.designControls.borderSideWidth	边框{{side}}宽
+workspace.browserPreview.designControls.borderStyle	样式
+workspace.browserPreview.designControls.borderWidth	边框宽
+workspace.browserPreview.designControls.boxShadow	盒阴影
+workspace.browserPreview.designControls.capitalize	词首大写
+workspace.browserPreview.designControls.caseNone	不变
+workspace.browserPreview.designControls.center	居中
+workspace.browserPreview.designControls.centerAlign	居中对齐
+workspace.browserPreview.designControls.color	颜色
+workspace.browserPreview.designControls.column	列
+workspace.browserPreview.designControls.columnGap	列间距
+workspace.browserPreview.designControls.columnTrack	第 {{index}} 列
+workspace.browserPreview.designControls.contain	包含
+workspace.browserPreview.designControls.cornerRadius	圆角半径
+workspace.browserPreview.designControls.cover	覆盖
+workspace.browserPreview.designControls.dashed	虚线
+workspace.browserPreview.designControls.dotted	点线
+workspace.browserPreview.designControls.double	双线
+workspace.browserPreview.designControls.end	末端
+workspace.browserPreview.designControls.extraBold	特粗
+workspace.browserPreview.designControls.extraLight	特细
+workspace.browserPreview.designControls.fill	填充
+workspace.browserPreview.designControls.fillParent	填满父级
+workspace.browserPreview.designControls.fixed	固定
+workspace.browserPreview.designControls.flexBasis	Flex 基准
+workspace.browserPreview.designControls.flexDirection	Flex 方向
+workspace.browserPreview.designControls.flexGrow	Flex 增长
+workspace.browserPreview.designControls.flexShrink	Flex 收缩
+workspace.browserPreview.designControls.flexWrap	Flex 换行
+workspace.browserPreview.designControls.fontFamily	字体族
+workspace.browserPreview.designControls.fontSize	字号
+workspace.browserPreview.designControls.fontStyle	字体样式
+workspace.browserPreview.designControls.fontWeight	字重
+workspace.browserPreview.designControls.gap	间距
+workspace.browserPreview.designControls.gridColumns	网格列
+workspace.browserPreview.designControls.height	高度
+workspace.browserPreview.designControls.horizontal	水平
+workspace.browserPreview.designControls.hug	适应内容
+workspace.browserPreview.designControls.italic	斜体
+workspace.browserPreview.designControls.justifyAlign	主轴对齐
+workspace.browserPreview.designControls.justifyContent	内容对齐
+workspace.browserPreview.designControls.leftAlign	左对齐
+workspace.browserPreview.designControls.letterSpacing	字距
+workspace.browserPreview.designControls.light	细
+workspace.browserPreview.designControls.lineHeight	行高
+workspace.browserPreview.designControls.lowercase	小写
+workspace.browserPreview.designControls.margin	外边距
+workspace.browserPreview.designControls.marginSide	外边距{{side}}
+workspace.browserPreview.designControls.maxHeight	最大高
+workspace.browserPreview.designControls.maxWidth	最大宽
+workspace.browserPreview.designControls.mediumWeight	中
+workspace.browserPreview.designControls.minHeight	最小高
+workspace.browserPreview.designControls.minWidth	最小宽
+workspace.browserPreview.designControls.mixedSides	混合
+workspace.browserPreview.designControls.none	无
+workspace.browserPreview.designControls.normal	常规
+workspace.browserPreview.designControls.nowrap	不换行
+workspace.browserPreview.designControls.objectFit	对象适应
+workspace.browserPreview.designControls.opacity	不透明度
+workspace.browserPreview.designControls.overline	上划线
+workspace.browserPreview.designControls.padding	内边距
+workspace.browserPreview.designControls.paddingSide	内边距{{side}}
+workspace.browserPreview.designControls.radiusBottomLeft	左下半径
+workspace.browserPreview.designControls.radiusBottomRight	右下半径
+workspace.browserPreview.designControls.radiusTopLeft	左上半径
+workspace.browserPreview.designControls.radiusTopRight	右上半径
+workspace.browserPreview.designControls.regular	常规
+workspace.browserPreview.designControls.removeColumn	移除列
+workspace.browserPreview.designControls.removeColumnTrack	移除第 {{index}} 列
+workspace.browserPreview.designControls.removeShadow	移除阴影 {{index}}
+workspace.browserPreview.designControls.resetToKeyword	重置为 {{keyword}}
+workspace.browserPreview.designControls.reverseColumn	反向列
+workspace.browserPreview.designControls.reverseRow	反向行
+workspace.browserPreview.designControls.reverseWrap	反向换行
+workspace.browserPreview.designControls.rightAlign	右对齐
+workspace.browserPreview.designControls.row	行
+workspace.browserPreview.designControls.rowGap	行间距
+workspace.browserPreview.designControls.scaleDown	缩小
+workspace.browserPreview.designControls.semiBold	半粗
+workspace.browserPreview.designControls.shadow	阴影
+workspace.browserPreview.designControls.shadowBlur	模糊
+workspace.browserPreview.designControls.shadowCount_one	{{count}} 层阴影
+workspace.browserPreview.designControls.shadowCount_other	{{count}} 层阴影
+workspace.browserPreview.designControls.shadowInset	内阴影
+workspace.browserPreview.designControls.shadowLayer	阴影 {{index}}
+workspace.browserPreview.designControls.shadowSpread	扩散
+workspace.browserPreview.designControls.shadowX	X
+workspace.browserPreview.designControls.shadowY	Y
+workspace.browserPreview.designControls.sideBottom	下
+workspace.browserPreview.designControls.sideLeft	左

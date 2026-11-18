@@ -1,0 +1,130 @@
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatThinkingContentPart/chat.working.fun.5	让它慢慢炖
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatThinkingContentPart/chat.working.fun.6	感谢所有的鱼
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatThinkingContentPart/chat.working.fun.7	正在稳定虫洞
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatThinkingContentPart/chat.working.fun.8	正在烘焙点子
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatThinkingContentPart/chat.working.fun.9	正在请教神谕
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatThinkingContentPart/chat.working.fun.minecraft.2	垂直向下挖
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatThinkingContentPart/chat.working.fun.minecraft.3	夜晚挖矿中
+vs/workbench/contrib/chat/browser/widget/chatContentParts/chatTurnPillsPart/chat.turnChanges.viewTurnAccessible	查看回合更改：{0}，新增 {1} 行，删除 {2} 行
+vs/workbench/contrib/chat/browser/widget/chatContentParts/fusionPhasePillActionViewItem/chat.phase.cancelled	阶段已取消
+vs/workbench/contrib/chat/browser/widget/chatContentParts/fusionPhasePillActionViewItem/chat.phase.completed	阶段已完成
+vs/workbench/contrib/chat/browser/widget/chatContentParts/fusionPhasePillActionViewItem/chat.phase.failed	阶段失败
+vs/workbench/contrib/chat/browser/widget/chatContentParts/fusionPhasePillActionViewItem/chat.phase.modelTooltip	模型：{0}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/fusionPhasePillActionViewItem/chat.phase.running	阶段运行中
+vs/workbench/contrib/chat/browser/widget/chatContentParts/fusionPhasePillActionViewItem/chat.phase.title	HydraFusion 阶段：{0}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/toolInvocationParts/chatTerminalToolProgressPart/chatTerminalFullOutputAriaLabel	{0} 的终端输出。按 Enter 在只读编辑器中打开完整输出。
+vs/workbench/contrib/chat/browser/widget/chatContentParts/toolInvocationParts/chatTerminalToolProgressPart/chatTerminalFullOutputAvailable	使用“打开完整输出（只读）”查看捕获的输出。
+vs/workbench/contrib/chat/browser/widget/chatContentParts/toolInvocationParts/chatTerminalToolProgressPart/chatTerminalFullOutputDescription	只读
+vs/workbench/contrib/chat/browser/widget/chatContentParts/toolInvocationParts/chatTerminalToolProgressPart/chatTerminalFullOutputLabel	终端输出 · {0}
+vs/workbench/contrib/chat/browser/widget/chatContentParts/toolInvocationParts/chatTerminalToolProgressPart/chatTerminalFullOutputPreview	显示预览。使用“打开完整输出（只读）”查看捕获的输出。
+vs/workbench/contrib/chat/browser/widget/chatContentParts/toolInvocationParts/chatTerminalToolProgressPart/chatTerminalOutputPreviewUnavailable	预览不可用。
+vs/workbench/contrib/chat/browser/widget/chatContentParts/toolInvocationParts/chatTerminalToolProgressPart/chatTerminalViewFullOutputLink	查看完整输出
+vs/workbench/contrib/chat/browser/widget/chatContentParts/toolInvocationParts/chatTerminalToolProgressPart/openTerminalFullOutputReadonly	打开完整输出（只读）
+vs/workbench/contrib/chat/browser/widget/chatContentParts/toolInvocationParts/chatToolAuthenticationSubPart/chat.toolAuthentication.disableForSession	在此会话中禁用
+vs/workbench/contrib/chat/browser/widget/chatContentParts/toolInvocationParts/chatToolProgressPart/toolExecutionFailed	工具执行失败
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/chat.completedResponse.changes.title	回复文件更改
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/chat.completedResponse.withEdits	{0}，新增 {1} 行，删除 {2} 行
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/confirmationSubagent	子代理
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/persistentProgress.authenticationRequired	需要认证
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/persistentProgress.backgroundCommands	{0} 个后台命令
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/persistentProgress.backgroundCommandsRunning	{0} 个后台命令运行中
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/persistentProgress.oneBackgroundCommand	1 个后台命令
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/persistentProgress.oneBackgroundCommandRunning	1 个后台命令运行中
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/persistentProgress.oneSubagent	1 个子代理
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/persistentProgress.oneSubagentRunning	1 个子代理运行中
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/persistentProgress.planReviewRequired	需要计划审阅
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/persistentProgress.runningBackgroundWork	{0} 和 {1} 运行中
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/persistentProgress.subagents	{0} 个子代理
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/persistentProgress.subagentsRunning	{0} 个子代理运行中
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/persistentProgress.waitingForResponse	等待你的回复
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/persistentProgress.waitingForSubagent	等待 1 个子代理
+vs/workbench/contrib/chat/browser/widget/chatListRenderer/persistentProgress.waitingForTerminal	等待终端输出
+vs/workbench/contrib/chat/browser/widget/chatPetWidget/chatPet.bounceCount	VS Code 宠物弹跳次数：{0}
+vs/workbench/contrib/chat/browser/widget/chatPetWidget/chatPet.bounceMilestone	VS Code 宠物落地时连跳了 {0} 次
+vs/workbench/contrib/chat/browser/widget/chatPetWidget/chatPet.changeColor.action	更改颜色
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.actionDetails	“{0}”会做什么？
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.archiveError	无法归档会话：{0}
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.archiveQuestion	PR 已合并。归档此会话？
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.archiveQuestionAll	所有 PR 已合并。归档此会话？
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.archiving	正在归档…
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.configure	配置
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.configureAutomaticCleanup	配置自动清理
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.dismiss	关闭归档建议
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.dismissDone	关闭标完建议
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.doneError	无法将会话标为完成：{0}
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.doneOverview	将会话标为完成可将其从会话列表中隐藏，专注剩余任务。
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.doneQuestion	PR 已合并。将此会话标为完成？
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.doneQuestionAll	所有 PR 已合并。将此会话标为完成？
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.doneRecovery	会话不会被删除。让 agent 帮你找，或在会话列表的“{0}”分区查看。你可随时恢复。
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.doneWorktree	为此会话创建的 worktree 将被删除。恢复会话可重建它。
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.markingDone	正在标为完成…
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.openCleanupSettingsError	无法打开自动清理设置：{0}
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.overview	归档此会话可将其从会话列表中隐藏，专注剩余任务。
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.recovery	会话不会被删除。让 agent 帮你找，或在会话列表的“{0}”分区查看。你可随时取消归档。
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.sessionActions	会话建议操作
+vs/workbench/contrib/chat/browser/widget/input/chatSessionArchiveNudge/chat.sessionArchiveNudge.worktree	为此会话创建的 worktree 将被删除。取消归档会话可重建它。
+vs/workbench/contrib/chat/browser/widget/input/editor/chatPasteProviders/chat.pastedGitHubContextAttached	已附加 {0} 作为上下文
+vs/workbench/contrib/chat/browser/widget/input/editor/chatPasteProviders/chat.pastedGitHubContextsAttached	已附加 {0} 个 GitHub 链接作为上下文
+vs/workbench/contrib/chat/browser/widget/input/editor/chatPasteProviders/chat.pasteGitHubContext	粘贴 GitHub 上下文
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerActionItem/chat.modelPicker.selectedModelHover	{0} • {1}
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerActionItem/chat.modelPicker.selectedModelStatusHover	{0} • {1}
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerBadges/chat.modelPicker.badge.deprecated	即将停用
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerBadges/chat.modelPicker.badge.promo	{0}% 折扣
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerBadges/chat.modelPicker.organizationDefault	组织默认
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerBadges/chat.modelPicker.organizationDefaultDescription	你的组织将 {0} 设为新聊天的默认模型。你可为此聊天选择其他模型。
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerCard/chat.context.header	上下文
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerCard/chat.effort.header	思考力度
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerCard/chat.modelPicker.modelActions	模型操作
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerCard/chat.modelPicker.optionDescription	{0}，{1}
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerCard/chat.modelPicker.pin	固定模型
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerCard/chat.modelPicker.resetToDefault	重置为默认
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerCard/chat.modelPicker.unpin	取消固定模型
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerCard/models.cost	费用：{0}
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerCard/models.optimizeFor	优化目标
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerCard/models.pricingDetails	定价详情
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerCard/models.speed	速度
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerCard/models.speed.fast	快
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerCard/models.speed.standard	标准
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerConfiguration/chat.modelPicker.autoOptionsAriaLabel	{0} 选项，{1}
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerConfiguration/chat.modelPicker.detailsAriaLabel	{0} 详情，{1}
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerDetails/chat.modelPicker.learnMore	了解更多
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerDetails/models.cacheCostLabel	缓存读取
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerDetails/models.cacheWriteCostLabel	缓存写入
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerDetails/models.contextSize	最大上下文
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerDetails/models.cost.unknown	未知
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerDetails/models.creditsPerMillionTokens	每百万 token 额度
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerDetails/models.inputCostLabel	输入
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerDetails/models.outputCostLabel	输出
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerHover/models.optimizeFor	优化目标
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerItems/chat.modelPicker.currentModel	当前模型
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerItems/chat.modelPicker.selectedModel	已选中
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerModelConfig/chat.context.header	上下文
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerModelConfig/chat.effort.header	思考力度
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerModelConfig/chat.modelPicker.automaticTier	自动
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerModelConfig/chat.modelPicker.configValue	{0}：{1}
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerModelConfig/chat.modelPicker.maxContext	最大上下文：{0}
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerPresentation/chat.category.lightweight	轻量
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerPresentation/chat.category.powerful	强大
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerPresentation/chat.category.versatile	全能
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.addProvider	添加模型…
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.alternativeRouting	替代路由
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.auto	Auto
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.autoHeading	{0} · {1}
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.autoModeToggle	在 {0} 中使用 Auto 模式
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.backToModels	返回模型
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.configurationDetails	{0} 详情，{1}
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.details	详情
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.dismissConfigurationHint	关闭提示
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.hydraFusionDescription	按任务选择工作流，使用一个或多个模型起草、评审或升级。
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.learnMore	了解更多
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.modelDetails	{0} 详情
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.optimizeFor	优化目标
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.otherModels	其他模型
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.otherModelsCount	还有 {0} 个模型
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.pinned	已固定
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.search	搜索模型
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.searchToggle	搜索模型
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/chat.modelPicker.upgradeForMoreModels	升级以获得更多模型
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/modelPicker.workflow.back	{0} 返回
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/modelPicker.workflow.cancel	取消
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/modelPicker.workflow.done	完成

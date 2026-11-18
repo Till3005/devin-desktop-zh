@@ -1,0 +1,160 @@
+worklog.setupCardJiraConnected	已连
+worklog.setupCardJiraDescription	让 Devin 从你 Jira 工单干活并回帖。
+worklog.setupCardJiraLink	链
+worklog.setupCardJiraLinkDescription	让 Devin 在 Jira 以你行事。
+worklog.setupCardJiraLinkTitle	链你 Jira 账户
+worklog.setupCardJiraSkipped	暂跳过 Jira
+worklog.setupCardJiraTitle	连 Jira
+worklog.setupCardJiraUnavailable	此组织用不了 Jira。
+worklog.setupCardJiraWithheld	找组织管理员连 Jira。
+worklog.setupCardLinearConfigureAction	开设置
+worklog.setupCardLinearConfigureDescription	把你 Linear 项目映射到组织，让工单到 Devin
+worklog.setupCardLinearConfigureTitle	完成 Linear 设置
+worklog.setupCardLinearConnectAction	连接
+worklog.setupCardLinearConnectDescription	装 Devin 应用，让你能把工单派给 Devin
+worklog.setupCardLinearConnectTitle	加 Devin 到 Linear
+worklog.setupCardLinearConnected	已连
+worklog.setupCardLinearLinkAction	链
+worklog.setupCardLinearLinkDescription	让 Devin 在 Linear 以你行事并认你工单
+worklog.setupCardLinearLinkTitle	链你 Linear 账户
+worklog.setupCardLinearSkipped	暂跳过 Linear
+worklog.setupCardLinearTitle	连 Linear
+worklog.setupCardLinearWithheld	你没权设 Linear。
+worklog.setupCardLoadFailed	加载不了此步。
+worklog.setupCardMessagingConnectAccount	连你账户
+worklog.setupCardMessagingSkipped	暂跳过连聊天应用
+worklog.setupCardMessagingTitle	连你聊天应用
+worklog.setupCardMockConnected	{{name}} 已连。
+worklog.setupCardMockDescription	模拟：连 {{name}} 哪也没登。
+worklog.setupCardOutdated	此步要更新版应用。重载看它。
+worklog.setupCardOutpostsAccess	共享 Outpost 让 {{botName}} 在其上跑任何命令免批准。
+worklog.setupCardOutpostsBypass	全绕权限模式
+worklog.setupCardOutpostsEmpty	没 Outpost 可共享。
+worklog.setupCardOutpostsInstallCli	装 Devin CLI
+worklog.setupCardOutpostsMore	显更多
+worklog.setupCardOutpostsOrganization	组织 Outpost
+worklog.setupCardOutpostsPersonal	个人 Outpost
+worklog.setupCardOutpostsRunCommand	在你想给 Devin 用的机器跑此。Devin 干活时保持 worker 跑着。
+worklog.setupCardOutpostsSelected	选了 {{name}}
+worklog.setupCardOutpostsShare	共享
+worklog.setupCardOutpostsShareFailed	完成不了共享 Outpost。重试。
+worklog.setupCardOutpostsShareNamed	共享 {{name}}
+worklog.setupCardOutpostsShared	已共享
+worklog.setupCardOutpostsSkip	暂跳过共享 Outpost
+worklog.setupCardOutpostsStart	起个人 Outpost
+worklog.setupCardOutpostsTitle	共享 Outpost
+worklog.setupCardOutpostsUnavailable	这用不了 Outpost 共享。
+worklog.setupCardOutpostsUse	用
+worklog.setupCardOutpostsUseNamed	用 {{name}}
+worklog.setupCardOutpostsWaiting	等你 Outpost 出现
+worklog.setupCardPluginsDone	已连 {{plugins}}
+worklog.setupCardPluginsInstall	安装
+worklog.setupCardPluginsInstallFailed	装不了 {{plugin}}
+worklog.setupCardPluginsInstalled	已装
+worklog.setupCardPluginsKept	已连插件：{{plugins}}。
+worklog.setupCardPluginsKeptMore_one	已连插件：{{plugins}} 和另 {{count}} 个。
+worklog.setupCardPluginsKeptMore_other	已连插件：{{plugins}} 和另 {{count}} 个。
+worklog.setupCardPluginsNone	还没连插件。
+worklog.setupCardPluginsNoneLine	没连插件。
+worklog.setupCardPluginsNotInstalled	没装
+worklog.setupCardPluginsSearch	搜 {{count}} 个插件
+worklog.setupCardPluginsSearchLoading	搜插件
+worklog.setupCardPluginsSkipped	暂跳过插件
+worklog.setupCardPluginsTitle	连插件
+worklog.setupCardPluginsWithheld	你没权为此 {{botName}} 连插件。
+worklog.setupCardProactiveDone	开：{{features}}
+worklog.setupCardProactiveNone	暂不要
+worklog.setupCardProactiveNoneLine	暂没开东西。
+worklog.setupCardProactiveSettingUpLine	把 {{features, list}} 设为自动化。
+worklog.setupCardProactiveSkipped	暂跳过让我 {{botName}} 主动
+worklog.setupCardProactiveTitle	让你 {{botName}} 主动
+worklog.setupCardRecommended	推荐
+worklog.setupCardReload	重载
+worklog.setupCardReportFailed	那成了，但你 {{botName}} 没收到消息。试再发。
+worklog.setupCardReposDeepWikiOn	DeepWiki 在索引这些仓库。
+worklog.setupCardReposDone	设了这些仓库：{{repos}}
+worklog.setupCardReposEmpty	找不到仓库
+worklog.setupCardReposLater	以后问 Devin 或在设置设更多仓库。
+worklog.setupCardReposPicked	已选
+worklog.setupCardReposSearch	搜仓库
+worklog.setupCardReposSkipped	暂跳过仓库设置
+worklog.setupCardReposTitle	选仓库
+worklog.setupCardReposWithheld	组织管理员须设仓库。
+worklog.setupCardReviewAllPrs	分析 {{repos}} 每个拉取请求。
+worklog.setupCardReviewAllPrsDetail	也分析你团队在 {{repos}} 开的拉取请求。
+worklog.setupCardReviewAllPrsLabel	分析所有人的拉取请求
+worklog.setupCardReviewAlreadyOn	Devin Review 已分析 Devin 拉取请求并修所发现。
+worklog.setupCardReviewAutoFix	修 Devin Review 在 Devin 拉取请求所发现。
+worklog.setupCardReviewAutoFixDetail	Devin 会自动分诊发现项并定修、验证还是上报给你。
+worklog.setupCardReviewAutoFixLabel	自动修 Devin Review 发现项
+worklog.setupCardReviewDevinPrs	分析 Devin 拉取请求。
+worklog.setupCardReviewDevinPrsAutoFix	分析 Devin 拉取请求并自动修发现项。
+worklog.setupCardReviewDevinPrsDetail	Devin Review 查 Devin 会话开的每个拉取请求。
+worklog.setupCardReviewDevinPrsLabel	分析 Devin 拉取请求
+worklog.setupCardReviewManual	只我叫时审拉取请求。
+worklog.setupCardReviewNothingToOffer	Devin Review 还没可开的。
+worklog.setupCardReviewQuestion	告诉 Devin 何时审
+worklog.setupCardReviewSkipped	暂跳过 Devin Review
+worklog.setupCardReviewTitle	设 Devin Review
+worklog.setupCardReviewWithheld	你没权管 Devin Review。
+worklog.setupCardSettingSkipped	暂跳过 {{setting}} 设置
+worklog.setupCardSlackAppSkippedLine	暂跳过加你 {{botName}} 的 Slack 应用。
+worklog.setupCardSlackSkippedLine	暂跳过连 Slack。
+worklog.setupCardSlackSupportBody	你会在 {{email}} 收到加入和我们团队共享 Slack 频道的邮件。
+worklog.setupCardSlackSupportDone	给 {{email}} 发了 Slack 支持频道邀请。
+worklog.setupCardSlackSupportPlanOnly	共享 Slack 支持频道只 Teams 方案有，所以没发邀请。
+worklog.setupCardSlackSupportSkipped	暂跳过 Slack 支持频道
+worklog.setupCardSlackSupportTitle	Slack 支持频道
+worklog.setupCardStatusAnsweredInChat	聊天里已答
+worklog.setupCardStatusDone	完成
+worklog.setupCardStatusSkipped	已跳过
+worklog.setupCardSubmitFailed	没成。重试。
+worklog.setupCardTaskTrackingSkipped	暂跳过连任务追踪器
+worklog.setupCardTaskTrackingTitle	连你任务追踪器
+worklog.setupCardTeamsConnectAction	连接
+worklog.setupCardTeamsConnectDescription	连你组织，再把 Devin 应用加到团队
+worklog.setupCardTeamsConnectFailed	连不了 Microsoft Teams
+worklog.setupCardTeamsConnectTitle	加 Devin 到 Microsoft Teams
+worklog.setupCardTeamsDone	Microsoft Teams 已连且你账户已链。
+worklog.setupCardTeamsLinkAction	链
+worklog.setupCardTeamsLinkDescription	让 Devin 在 Microsoft Teams 私信你
+worklog.setupCardTeamsLinkTitle	链你 Microsoft Teams 账户
+worklog.setupCardTeamsNotNowDescription	没改动。准备好随时连
+worklog.setupCardTeamsNotNowTitle	Microsoft Teams 未连
+worklog.setupCardTeamsSkipped	暂跳过 Microsoft Teams
+worklog.setupCardTeamsTasksDone	已连 {{tools}}
+worklog.setupCardTeamsTasksNone	我没连任何团队或任务工具。
+worklog.setupCardTeamsTasksSkipped	暂跳过连团队和任务
+worklog.setupCardTeamsTasksTitle	连你团队和任务
+worklog.setupCardTeamsTasksWithheld	组织管理员须连这些工具。
+worklog.setupCardTeamsTitle	Microsoft Teams
+worklog.setupCardTeamsUnavailable	你组织用不了 Microsoft Teams。
+worklog.setupCardTeamsWithheld	你没权连 Microsoft Teams。
+worklog.setupCardTitle	设置步
+worklog.setupCardUnavailable	此步从这做不了。
+worklog.setupCommandsProposed	{{verified}}/{{unskipped}} Devin 为在 {{repoName}} 开发提了 {{unskipped}} 个命令
+worklog.shareSessionNotAllowed	此会话共享不了
+worklog.shareSessionRead	只读
+worklog.shareSessionReadWrite	读写
+worklog.shareSessionSkip	不共享
+worklog.shareSessionTitle	和 {{name}} 共享此会话？
+worklog.shareSessionTitleUnnamed	和你提的人共享此会话？
+worklog.sharedViaTeams	经 Teams 共享
+worklog.shelvedClOn	在 {{host}} 暂存 CL {{changelist}}
+worklog.showAllChanges	显全部更改
+worklog.showLess	收起
+worklog.showMore	显更多
+worklog.sidechainSendFailed	消息发不出去
+worklog.skillResults_one	（{{count}} 个结果）
+worklog.skillResults_other	（{{count}} 个结果）
+worklog.slackActionCanvas	管了画布
+worklog.slackActionChannelHistory	读了频道历史
+worklog.slackActionDownloadFile	下了文件
+worklog.slackActionGeneric	Slack {{action}}
+worklog.slackActionGetUserProfile	读了用户资料
+worklog.slackActionGetUsers	列了用户
+worklog.slackActionListChannels	列了频道
+worklog.slackActionLookupResource	查了 Slack 资源
+worklog.slackActionPostMessage	发了消息
+worklog.slackActionReaction	管了反应
+worklog.slackActionThreadReplies	读了线程回复

@@ -1,0 +1,160 @@
+settingsPages.skillsAnalyticsPage.tryADifferentSkillOrSource	换个技能或来源试试
+settingsPages.skillsAnalyticsPage.tryAgain	重试
+settingsPages.skillsAnalyticsPage.unableToLoadSkillInvocations	加载不了技能调用
+settingsPages.skillsAnalyticsPage.uniqueUsersAssociatedWithCloudSessions	与此技能所用云会话关联的独立用户。不含本地用量。
+settingsPages.skillsAnalyticsPage.unitTestGeneration	单元测试生成
+settingsPages.skillsAnalyticsPage.usageOverTime	用量随时间
+settingsPages.skillsAnalyticsPage.users	用户
+settingsPages.skillsAnalyticsPage.viewSessions	看会话
+settingsPages.slashCommandsSection.commandCreated	命令已建
+settingsPages.slashCommandsSection.commandDeleted	命令已删
+settingsPages.slashCommandsSection.commandMustStartLetterContainOnly	命令须字母开头，只含字母、数字和连字符
+settingsPages.slashCommandsSection.commandNameRequired	命令名为必填项
+settingsPages.slashCommandsSection.commandThisNameAlreadyExists	此名命令已存在
+settingsPages.slashCommandsSection.commandUpdated	命令已更新
+settingsPages.slashCommandsSection.descriptionRequired	描述为必填项
+settingsPages.slashCommandsSection.failedToDeleteCommand	删命令失败
+settingsPages.slashCommandsSection.failedToSaveCommand	存命令失败
+settingsPages.slashCommandsSection.promptRequired	提示词为必填项
+settingsPages.snapshotsPage.active	活跃
+settingsPages.snapshotsPage.activeImage	活跃镜像
+settingsPages.snapshotsPage.at	于
+settingsPages.snapshotsPage.autoBuildIsOffSnapshotsWill	自动构建关了——快照不会自动重建
+settingsPages.snapshotsPage.autoBuildSnapshots	自动构建快照
+settingsPages.snapshotsPage.baseImage	基础镜像
+settingsPages.snapshotsPage.buildSchedule	构建排期
+settingsPages.snapshotsPage.buildScheduleUpdated	构建排期已更新
+settingsPages.snapshotsPage.cadenceDays_one	每天一次
+settingsPages.snapshotsPage.cadenceDays_other	每 {{count}} 天
+settingsPages.snapshotsPage.cadenceWeeks_one	每周一次
+settingsPages.snapshotsPage.cadenceWeeks_other	每 {{count}} 周
+settingsPages.snapshotsPage.cleanImage	干净镜像
+settingsPages.snapshotsPage.controlWhenNewSnapshotsAreBuilt	控制何时建新快照
+settingsPages.snapshotsPage.custom	自定义
+settingsPages.snapshotsPage.daily	每天
+settingsPages.snapshotsPage.dayOfWeek	星期几
+settingsPages.snapshotsPage.days	天
+settingsPages.snapshotsPage.defaultEvery24Hours	默认——每 24 小时
+settingsPages.snapshotsPage.differentialBuilds	差异构建
+settingsPages.snapshotsPage.enterpriseDefault	企业默认——{{enterprisePolicy}}
+settingsPages.snapshotsPage.enterpriseDefaultRebuildsValueScheduledDifferent	企业默认——每 {{value}} 重建，每个{{value2}}时间错开
+settingsPages.snapshotsPage.every14Days	每 14 天
+settingsPages.snapshotsPage.every30Days	每 30 天
+settingsPages.snapshotsPage.every3Days	每 3 天
+settingsPages.snapshotsPage.every7Days	每 7 天
+settingsPages.snapshotsPage.everyDay	每天
+settingsPages.snapshotsPage.failedToUpdateBuildSchedule	更新构建排期失败
+settingsPages.snapshotsPage.fasterBuildsByReusingUnchangedWorkspaces	复用未变工作区让构建更快。<docsLink>了解</docsLink>
+settingsPages.snapshotsPage.friday	周五
+settingsPages.snapshotsPage.fullBuildRefresh	全量构建刷新
+settingsPages.snapshotsPage.fullBuildRefreshInterval	全量构建刷新间隔
+settingsPages.snapshotsPage.hourUtc	小时（UTC）
+settingsPages.snapshotsPage.hours	小时
+settingsPages.snapshotsPage.inDaysHours	{{days}}天{{hours}}小时后
+settingsPages.snapshotsPage.inHoursMinutes	{{hours}}小时{{minutes}}分后
+settingsPages.snapshotsPage.inMinutes	{{minutes}}分钟后
+settingsPages.snapshotsPage.interval	间隔
+settingsPages.snapshotsPage.intervalUnit	间隔单位
+settingsPages.snapshotsPage.managedByYourEnterpriseAdministrator	由你企业管理员管
+settingsPages.snapshotsPage.minutes	分钟
+settingsPages.snapshotsPage.monday	周一
+settingsPages.snapshotsPage.n00Utc	{{value}}:00 UTC
+settingsPages.snapshotsPage.never	从不
+settingsPages.snapshotsPage.nextBuild	下次构建——
+settingsPages.snapshotsPage.nextBuildAt	下次构建 <strong>{{when}}</strong>
+settingsPages.snapshotsPage.nextBuildAtRelative	下次构建 <strong>{{when}}</strong>（{{relative}}）
+settingsPages.snapshotsPage.noImageBuiltYetUsingThe	还没建镜像——用池的基础镜像
+settingsPages.snapshotsPage.noImageHasBeenBuiltYet	还没建镜像——此池会话跑其基础镜像。
+settingsPages.snapshotsPage.noSnapshotBuiltYetUsingDevins	还没建快照——用 Devin 基础环境
+settingsPages.snapshotsPage.noSnapshotHasBeenBuiltYet	还没建快照——会话从 Devin 基础环境起。
+settingsPages.snapshotsPage.on	开
+settingsPages.snapshotsPage.on2	于
+settingsPages.snapshotsPage.onlyRebuildWorkspacesWhoseBlueprintsChanged	只重建 blueprint 变了的工作区。未变工作区从上次构建继承。
+settingsPages.snapshotsPage.poolImage	池镜像
+settingsPages.snapshotsPage.rebuildAt	重建于
+settingsPages.snapshotsPage.rebuildWhenBlueprintsChangeOrOn	blueprint 变时或按刷新排期重建
+settingsPages.snapshotsPage.rebuildsDaily	每天 {{at}} 重建
+settingsPages.snapshotsPage.rebuildsEveryDay	每{{day}} {{at}} 重建
+settingsPages.snapshotsPage.rebuildsEveryEveryNDays	每 {{every_n}} 天 {{at}} 重建
+settingsPages.snapshotsPage.rebuildsEveryEveryNMinutes	每 {{every_n}} 分钟重建
+settingsPages.snapshotsPage.rebuildsEveryEveryNWeeksDay	每 {{every_n}} 周{{day}} {{at}} 重建
+settingsPages.snapshotsPage.rebuildsEveryHour	每小时重建
+settingsPages.snapshotsPage.rebuildsEveryValueHours	每 {{value}} 小时重建
+settingsPages.snapshotsPage.rebuildsWhenLastBuildMoreThan	上次构建超 24 小时就重建
+settingsPages.snapshotsPage.repeatEvery	每隔
+settingsPages.snapshotsPage.repositoryCount_one	{{count}} 个仓库
+settingsPages.snapshotsPage.repositoryCount_other	{{count}} 个仓库
+settingsPages.snapshotsPage.runAFullBuildWhenThe	上次构建老于此就跑全量构建
+settingsPages.snapshotsPage.saturday	周六
+settingsPages.snapshotsPage.saveSchedule	存排期
+settingsPages.snapshotsPage.sunday	周日
+settingsPages.snapshotsPage.thursday	周四
+settingsPages.snapshotsPage.tuesday	周二
+settingsPages.snapshotsPage.turnOffToStopBuildingNew	关掉就停建新快照。现有快照保持不动。
+settingsPages.snapshotsPage.wednesday	周三
+settingsPages.snapshotsPage.weekly	每周
+settingsPages.snapshotsPage.weeks	周
+settingsPages.snapshotsPage.whatNewSessionsRunTheActive	新会话跑什么——每平台的活跃快照和每个 Outpost 池的镜像——加构建历史和所含仓库。
+settingsPages.snapshotsPage.whenTheNewestFullBuildIs	最新全量构建老于此，下次自动构建就跑全量而非差异。
+settingsPages.terminalRunPanel.clickRunButtonNextInitializeMaintenance	点编辑器里 initialize、maintenance 或某知识项旁的「Run」钮，对预克隆你仓库的实时环境测那步。结果实时显在这。
+settingsPages.terminalRunPanel.connecting	连中…
+settingsPages.terminalRunPanel.failedStartAuthorSession	起作者会话失败
+settingsPages.terminalRunPanel.failedToStartSession	起会话失败
+settingsPages.terminalRunPanel.idle	空闲
+settingsPages.terminalRunPanel.lastRunCancelled	上次运行：已取消
+settingsPages.terminalRunPanel.lastRunFailed	上次运行：失败
+settingsPages.terminalRunPanel.lastRunSucceeded	上次运行：成功
+settingsPages.terminalRunPanel.namedRepoMissingFromSnapshot	{{name}} 不在上次快照构建里。从环境设置起新构建以含它。
+settingsPages.terminalRunPanel.noOrganizationSelected	没选组织
+settingsPages.terminalRunPanel.noSnapshotBuild	无快照构建
+settingsPages.terminalRunPanel.noSnapshotBuildYetThisOrg	此组织还没有快照构建
+settingsPages.terminalRunPanel.preparingEnvironment	备环境中…
+settingsPages.terminalRunPanel.ready	就绪
+settingsPages.terminalRunPanel.running	跑中…
+settingsPages.terminalRunPanel.sessionNotConnected	会话未连
+settingsPages.terminalRunPanel.snapshotBuildMissingThisRepository	快照构建缺此仓库
+settingsPages.terminalRunPanel.snapshotBuildProgress	快照构建进行中
+settingsPages.terminalRunPanel.snapshotBuildProgress2	快照构建进行中…
+settingsPages.terminalRunPanel.snapshotBuildProgressAuthorSessionsWill	快照构建进行中。一完成作者会话就可用。
+settingsPages.terminalRunPanel.startingInitializeRun	起 initialize 运行中…
+settingsPages.terminalRunPanel.startingKnowledgeRunName	起知识运行：{{name}}…
+settingsPages.terminalRunPanel.startingMaintenanceRun	起 maintenance 运行中…
+settingsPages.terminalRunPanel.startingSession	起会话中…
+settingsPages.terminalRunPanel.startingTestRun	起测试运行中…
+settingsPages.terminalRunPanel.testAlreadyRunning	一个测试已在跑
+settingsPages.terminalRunPanel.testSessionStarting	测试会话起中…
+settingsPages.terminalRunPanel.thisOrgDoesnTHaveSnapshot	此组织还没有快照构建。从环境设置起个构建，再回来测你 blueprint。
+settingsPages.terminalRunPanel.thisPlatformIsnTReadyYet	此平台还没就绪
+settingsPages.terminalRunPanel.thisRepoIsnTLatestSnapshot	此仓库不在最新快照构建里
+settingsPages.terminalRunPanel.thisRepoMissingFromSnapshot	此仓库不在上次快照构建里。从环境设置起新构建以含它。
+settingsPages.terminalRunPanel.unableToConnectToTheTest	连不了测试会话。请稍后再试。
+settingsPages.terminalRunPanel.vMBootFailed	VM 启动失败
+settingsPages.terminalRunPanel.vMBootFailedThisPlatform	此平台 VM 启动失败
+settingsPages.timestampTooltip.daysAgo_one	{{count}} 天前
+settingsPages.timestampTooltip.daysAgo_other	{{count}} 天前
+settingsPages.triggerMode.autoReview	自动分析
+settingsPages.triggerMode.badgeWhenReady	就绪时
+settingsPages.triggerMode.manual	手动
+settingsPages.triggerMode.noAutomaticReviews	不自动分析
+settingsPages.triggerMode.runsWhenPRReadyEverySubsequent	PR 就绪时和之后每次推送都跑
+settingsPages.triggerMode.whenPRReady	PR 就绪时
+settingsPages.triggerMode.singleReviewPerformedWhenPRReady	Devin 在 PR 就绪时分析一次，通常是开时
+settingsPages.useCustomizeLayers.account	账户
+settingsPages.useCustomizeLayers.couldNotReadTheOrgManifest	读不了组织 manifest。
+settingsPages.useCustomizeLayers.couldNotReadYourPersonalManifest	读不了你个人 manifest。
+settingsPages.useCustomizeLayers.enterprise	企业
+settingsPages.useCustomizeLayers.installAt	装到 {{name}}
+settingsPages.useCustomizeLayers.installAtYourOrganization	装到你组织
+settingsPages.useCustomizeLayers.installForMe	为我装
+settingsPages.useCustomizeLayers.thisRemovesNameFromOwnConfiguration	这从你自己配置移除 {{name}}。你起的会话不再加载它。
+settingsPages.useCustomizeLayers.you	你
+settingsPages.useCustomizeLayers.yourOrg	你组织
+settingsPages.useCustomizeRows.alreadyUpToDate	已是最新
+settingsPages.useCustomizeRows.appliesValue	应用于：{{value}}
+settingsPages.useCustomizeRows.disabled	已禁
+settingsPages.useCustomizeRows.hook	Hook
+settingsPages.useMCPValidation.failedToListMcpTools	列 MCP 工具失败
+settingsPages.useMCPValidation.failedToListMcpToolsPlease	列 MCP 工具失败。请重试，或问题持续就联系支持。
+settingsPages.useYamlValidation.invalidYaml	无效 YAML
+settingsPages.webhookConfigModal.failedToRegenerateToken	重生成 webhook token 失败
+settingsPages.webhookConfigModal.tokenRegenerated	Webhook token 重生成成功

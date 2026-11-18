@@ -1,0 +1,160 @@
+transcript.reviewOutcomeFixed	已修
+transcript.reviewOutcomeSentToPr	已发 PR
+transcript.reviewTriageFixed_one	{{count}} 个发现项已修
+transcript.reviewTriageFixed_other	{{count}} 个发现项已修
+transcript.reviewTriageInDevinReview_one	{{count}} 个发现项留在 Devin Review
+transcript.reviewTriageInDevinReview_other	{{count}} 个发现项留在 Devin Review
+transcript.reviewTriageOutcomeInDevinReview	留在 Devin Review
+transcript.reviewTriageSentToPr_one	{{count}} 个发现项发到 PR
+transcript.reviewTriageSentToPr_other	{{count}} 个发现项发到 PR
+transcript.reviewTriaging	修中…
+transcript.reviseCommand	修改
+transcript.reviseCommandPlaceholder	告诉 Devin 怎么改命令
+transcript.rewriteLabel	已改写
+transcript.rewritePending	改写中…
+transcript.rewritingCommand	改写中…
+transcript.runCommandQuestion	跑个命令？
+transcript.runningMaintenance	跑 maintenance 中
+transcript.runningMaintenanceFor	为 {{repo}} 跑 maintenance 中
+transcript.runningScriptedTools	跑脚本中
+transcript.runningShellCommand	跑 {{command}} 中
+transcript.saveToolPermissionFailed	存不了工具权限
+transcript.scopeEnterprise	企业
+transcript.scopeOrg	组织
+transcript.scriptLabel	脚本
+transcript.scriptedToolsRan_one	跑了 {{count}} 次工具调用
+transcript.scriptedToolsRan_other	跑了 {{count}} 次工具调用
+transcript.scriptedToolsRunning_one	跑 {{count}} 次工具调用中
+transcript.scriptedToolsRunning_other	跑 {{count}} 次工具调用中
+transcript.scriptedToolsSameTool	{{label}} ×{{count}}
+transcript.scrollToBottom	滚到底
+transcript.searchResultCount	{{count}} 个结果
+transcript.searchResultCount_one	{{count}} 个结果
+transcript.searchResultCount_other	{{count}} 个结果
+transcript.searchedFiles	搜了文件
+transcript.searchedLocationFor	在 {{location}} 搜了 {{query}}
+transcript.searchedWebForQuery	<label>搜网页找</label> <query>{{query}}</query>
+transcript.searchingFiles	搜文件中
+transcript.searchingLocationFor	在 {{location}} 搜 {{query}} 中
+transcript.searchingWebForQuery	<label>搜网页找</label> <query>{{query}}</query>
+transcript.secret.collectionLabel	集合
+transcript.secret.collectionPlaceholder	挑个集合
+transcript.secret.collectionsLoading	加载集合中…
+transcript.secret.groupShareFailed	只为你存了：跟组共享失败。从 设置 › 机密 共享它。
+transcript.secret.instructionsTitle	怎么拿
+transcript.secret.multiLine	多行
+transcript.secret.nameExists	叫 {{name}} 的机密已存在。替换其值？
+transcript.secret.noCollections	没有你能加的集合
+transcript.secret.provide	提供机密
+transcript.secret.provide2fa	提供 2FA 机密
+transcript.secret.provided	机密已提供
+transcript.secret.qrDetected	检测到二维码
+transcript.secret.qrNotFound	那图里没找到二维码
+transcript.secret.replaceAction	替换
+transcript.secret.repoNotInEnvironment	此仓库还不在你环境里。在环境设置加它再为其存机密。
+transcript.secret.repoNotInEnvironmentWithLink	此仓库还不在你环境里。<settingsLink>在环境设置加它</settingsLink>，再重试。
+transcript.secret.repoPlaceholder	owner/repo
+transcript.secret.requested	所求凭据：
+transcript.secret.requestedGroup	所求凭据
+transcript.secret.resolved	请求已解决
+transcript.secret.save	存机密：
+transcript.secret.saveAction	保存
+transcript.secret.saveFailed	存不了机密
+transcript.secret.saveFor	存为
+transcript.secret.saveForFuture	为之后会话存
+transcript.secret.saveForFutureSessions	为之后 Devin 会话存。
+transcript.secret.saveRefused	{{reason}}。取消勾「为之后会话存」以只把机密给此会话。
+transcript.secret.saved	机密已存
+transcript.secret.saving	存中…
+transcript.secret.singleLine	单行
+transcript.secret.totpPlaceholder	TOTP 机密或二维码
+transcript.secret.typeTotp	TOTP / 2FA 机密
+transcript.secret.uploadQrCode	上传二维码
+transcript.selfGrantAutomation_one	给了自己一个自动化的访问：{{names, list}}
+transcript.selfGrantAutomation_other	给了自己 {{count}} 个自动化的访问：{{names, list}}
+transcript.selfGrantBot_one	给了自己另一个 {{botName}} 的访问
+transcript.selfGrantBot_other	给了自己 {{count}} 个其它 {{botNamePlural}} 的访问
+transcript.selfGrantMcp_one	给了自己一个 MCP 登录：{{names, list}}
+transcript.selfGrantMcp_other	给了自己 {{count}} 个 MCP 登录：{{names, list}}
+transcript.selfGrantPlugin_one	给了自己一个插件：{{names, list}}
+transcript.selfGrantPlugin_other	给了自己 {{count}} 个插件：{{names, list}}
+transcript.selfGrantSecret_one	给了自己一个机密：{{names, list}}
+transcript.selfGrantSecret_other	给了自己 {{count}} 个机密：{{names, list}}
+transcript.selfGrantSessionCount	给了自己 {{count}} 个会话的访问
+transcript.selfGrantSessionUse	给了自己看和发一个会话的访问：<session/>
+transcript.selfGrantSessionView	给了自己看一个会话的访问：<session/>
+transcript.sessionArchived	会话已归档
+transcript.sessionIndex	会话索引
+transcript.sessionStopped	会话已停
+transcript.sessionTerminated	会话已终止
+transcript.sessionTerminatedBy	会话被 <actor>{{username}}</actor> 终止
+transcript.shellChainChangedDirectory	换目录到 {{path}}
+transcript.shellChainChangedDirectoryHome	换到家目录
+transcript.shellCommandInCwd	<label>命令</label> 在 <cwd>{{cwd}}</cwd>
+transcript.shellCommandLabel	命令
+transcript.shellCopyOutput	复制输出
+transcript.shellExitCode	退出码 {{code}}
+transcript.shellExitSignal	进程以信号 {{signal}} 退出
+transcript.shellOutputLabel	输出
+transcript.shellOutputViewAll	看全部
+transcript.shellTimeout	{{duration}} 后超时
+transcript.shellWaitingToRun	等跑中
+transcript.showFullMessage	显完整消息
+transcript.showLess	收起
+transcript.showOriginal	显原文
+transcript.showRevised	显改后
+transcript.sideChat	侧聊
+transcript.sideChatAskFollowUp	问个跟进…
+transcript.sideChatAskQuestion	问个问题…
+transcript.sideChatAttachFailed	附侧聊记录失败
+transcript.sideChatAttachFailedDescription	记录上传不了。重试。
+transcript.sideChatQueue	排队
+transcript.sideChatSend	发送
+transcript.sideChatSendMessage	发侧聊消息
+transcript.sideChatStop	停止
+transcript.sideChatStopRequest	停侧聊请求
+transcript.sidechainSleeping	Devin 休眠中
+transcript.sidechainThinking	思考中…
+transcript.sidechainWaitingQuestions	等问题中
+transcript.sidechainWakingUp	醒中…
+transcript.slackConnectFailed	连 Slack 失败
+transcript.slackDm	私信
+transcript.slackSyncDisabled	Slack 同步已禁
+transcript.slackSyncEnabled	Slack 同步已开
+transcript.slackSyncUpdated	Slack 同步已更新
+transcript.slackThread	Slack 线程
+transcript.sourceApp	<icon/><sourceLink>{{app}}</sourceLink>
+transcript.sourceAppVia	<icon/><sourceLink>{{app}}</sourceLink> 经 <viaLink>{{name}}</viaLink>
+transcript.stackMemberClosed	已关
+transcript.stackMemberConflicting	冲突中
+transcript.stackMemberDraft	草稿
+transcript.stackMemberFailing	失败中
+transcript.stackMemberMerged	已合并
+transcript.stackMemberNotReady	未就绪
+transcript.stackMemberReady	就绪
+transcript.stackRestacked_one	Stack #{{stackNumber}} 重堆叠：{{count}} 个分支已更新
+transcript.stackRestacked_other	Stack #{{stackNumber}} 重堆叠：{{count}} 个分支已更新
+transcript.stackingPullRequests	堆叠拉取请求
+transcript.stackingPullRequestsNamed	堆叠拉取请求 · {{stackName}}
+transcript.startNewSession	用此提示词起新会话
+transcript.startedRecording	开始录屏
+transcript.statusCompleted	检查完成
+transcript.stopCommand	停命令
+transcript.stopSubagent	停子 agent
+transcript.stoppedRecording	停了录屏
+transcript.subagentAwaitingApprovalSuffix	——等批准
+transcript.subagentEarlierActionsHidden	更早活动没显
+transcript.subagentExploreLabel	探索
+transcript.subagentGenericLabel	子 agent
+transcript.subagentPausedSuffix	——已暂停
+transcript.subdevin	Devin
+transcript.submit	提交
+transcript.suspended.botBudgetExceeded	因此 {{botName}} 的用量上限超了。
+transcript.suspended.botBudgetExceededRaised	因此 {{botName}} 的用量上限超了。上限已提高。
+transcript.suspended.botBudgetExceededWithButton	因此 {{botName}} 的用量上限超了。<budgetButton>提高上限</budgetButton>以继续。
+transcript.suspended.contractExpired	Devin 休眠了，因你组织的 Devin 合同到期。找你账户团队续期。
+transcript.suspended.error	Devin 崩了。发条消息尝试恢复。
+transcript.suspended.netPolicyUpdate	Devin 休眠了以应用更新的网络配置。
+transcript.suspended.noQuotaAllocation	Devin 休眠了，因你账户在个人方案但你不是组织所有者
+transcript.suspended.orgAcuLimitExceededAdmin	因你组织的用量上限超了。企业管理员须提高你组织用量上限以继续。
+transcript.suspended.orgAcuLimitExceededRaised	因你组织的用量上限超了。上限已提高。

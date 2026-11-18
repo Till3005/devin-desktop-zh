@@ -1,0 +1,145 @@
+vs/platform/agentHost/node/shared/sessionServerTools/toolInvoke.cancelMessage	取消消息中
+vs/platform/agentHost/node/shared/sessionServerTools/toolInvoke.replaceMessage	替换消息中
+vs/platform/agentHost/node/shared/sessionServerTools/toolInvoke.setWorkspace	设工作区中
+vs/platform/agentHost/node/shared/sessionServerTools/toolName.cancelMessage	取消消息
+vs/platform/agentHost/node/shared/sessionServerTools/toolName.replaceMessage	替换消息
+vs/platform/agentHost/node/shared/sessionServerTools/toolName.setWorkspace	设工作区
+vs/platform/agentHost/node/shared/worktreeIsolation/agentHost.noIsolatedWorktree	没建隔离 worktree。
+vs/platform/agentHost/node/shared/worktreeIsolation/agentHost.sessionConfig.worktreeSymlinkFolders	Worktree 符号链接文件夹
+vs/platform/agentHost/node/shared/worktreeIsolation/agentHost.sessionConfig.worktreeSymlinkFoldersDescription	git-ignored 文件夹符号链接进隔离 worktree 的模式，.gitignore 语法。
+vs/platform/agentHost/node/shared/worktreeIsolation/agentHost.sessionConfig.worktreeSymlinkFoldersItem	模式
+vs/platform/agentHost/node/shared/worktreeIsolation/agentHost.worktreeSessionFailed	建不了隔离 worktree。此会话续不了。起新会话再试。\n\n{0}
+vs/platform/agentHost/node/shared/worktreeIsolation/agentHost.worktreeSymlinkingFolders	建隔离 worktree 中（符号链接文件夹）
+vs/platform/agentHost/node/sshConfigPaths/sshAmbiguousKnownHostsFiles	从歧义 ssh -G 输出定不了 SSH known-hosts 文件路径：{0}
+vs/platform/agentHost/node/sshConfigPaths/sshKnownHostsResolutionFailed	解不了 SSH known-hosts 文件：{0}
+vs/platform/agentHost/node/sshConfigPaths/sshUnsupportedHostKeyDirective	远程 agent host 连接不支持 SSH 配置指令 {0}。
+vs/platform/agentHost/node/sshProxyCommand/sshProxyExited	SSH ProxyCommand 已退（{0}）：{1}
+vs/platform/agentHost/node/sshProxyCommand/sshProxyUnsafeToken	SSH ProxyCommand 在 Windows 安全展开不了此主机或用户名。
+vs/platform/agentHost/node/sshProxyCommand/sshProxyUnsupportedToken	不支持 SSH ProxyCommand token：%{0}
+vs/platform/agentHost/node/sshRemoteAgentHostService/sshProgressStillAwaitingAgent	等新 agent host 注册中…（已过 {0} 秒）
+vs/platform/agentHost/node/wslRemoteAgentHostService/wslProgressDownloadingServer	下载服务器中（{0}%）
+vs/platform/browserView/electron-main/browserViewMainService/browser.contextMenu.copyLinkUrl	复制 URL
+vs/platform/contextkey/common/contextkeys/isChromeOS	操作系统是否 ChromeOS
+vs/platform/copilotConnectors/common/copilotConnectorsRequestService/copilotConnectors.httpError	Copilot connector 完成不了请求（HTTP {0}）。
+vs/platform/copilotConnectors/common/copilotConnectorsRequestService/copilotConnectors.invalidJson	Copilot connector 返了无效响应。
+vs/platform/copilotConnectors/common/copilotConnectorsRequestService/copilotConnectors.requestFailed	到不了 Copilot connector。查你连接再试。
+vs/platform/copilotConnectors/common/copilotConnectorsRequestService/copilotConnectors.responseTooLarge	Copilot connector 响应太大。
+vs/platform/copilotConnectors/common/copilotConnectorsRequestService/copilotConnectors.timeout	Copilot connector 请求超时。重试。
+vs/platform/copilotConnectors/common/copilotConnectorsRequestService/copilotConnectors.unavailable	此产品没 Copilot connector。
+vs/platform/customizationMarketplace/common/customizationMarketplaceService/customizationMarketplace.invalidCursor	市场页无效。起新搜索。
+vs/platform/customizationMarketplace/common/customizationMarketplaceService/customizationMarketplace.invalidQuery	市场查询无效。
+vs/platform/customizationMarketplace/common/customizationMarketplaceService/customizationMarketplace.invalidSourcePage	市场源 '{0}' 返了无效页。
+vs/platform/customizationMarketplace/common/customizationMarketplaceService/customizationMarketplace.invalidSourcePriority	市场源 '{0}' 返了无效优先级序。
+vs/platform/customizationMarketplace/common/customizationMarketplaceService/customizationMarketplace.invalidSourceScore	市场源 '{0}' 返了无效相关度序。
+vs/platform/customizationMarketplace/common/customizationMarketplaceSources/customizationMarketplace.copilotConnectors	Copilot Connector
+vs/platform/customizationMarketplace/common/customizationMarketplaceSources/customizationMarketplace.githubFeed	GitHub Feed
+vs/platform/customizationMarketplace/common/customizationMarketplaceSources/customizationMarketplace.mcpGallery	MCP 画廊
+vs/platform/customizationMarketplace/common/customizationMarketplaceSources/customizationMarketplace.pluginMarketplaces	已配插件市场
+vs/platform/customizationMarketplace/common/mcpGalleryMarketplaceProvider/mcpGalleryEmptyPages	MCP 画廊返太多空页。再搜一次。
+vs/platform/customizationMarketplace/common/mcpGalleryMarketplaceProvider/mcpGalleryRegistryChanging	所配 MCP 画廊在变。重试。
+vs/platform/dialogs/electron-main/dialogMainService/cancel	取消
+vs/platform/dialogs/electron-main/dialogMainService/confirmOverwrite	'{0}' 已存在。要替换吗？
+vs/platform/dialogs/electron-main/dialogMainService/overwriteIrreversible	文件夹 '{1}' 里已有名为 '{0}' 的文件或文件夹。替换会盖掉其现内容。
+vs/platform/dialogs/electron-main/dialogMainService/replaceButtonLabel	&&Replace
+vs/platform/files/node/diskFileSystemProvider/fileIsDirectory	文件是目录
+vs/platform/files/node/diskFileSystemProvider/fileNotRegular	文件不是常规文件
+vs/platform/git/node/localGitService/gitAuthenticationRequiresNewerGit	VS Code GitHub 认证要 Git 2.31+。更 Git 再试。
+vs/platform/git/node/localGitService/pluginsPinnedCloneCleanupFailed	备或清 '{0}' 插件仓库失败。
+vs/platform/mcp/common/mcpCopilotGlobalConfiguration/invalidCopilotGlobalMcpJson	Copilot Global MCP 配置须含有效 JSON：{0}
+vs/platform/mcp/common/mcpCopilotGlobalConfiguration/invalidCopilotGlobalMcpServer	MCP 服务器配置无效。
+vs/platform/mcp/common/mcpCopilotGlobalConfiguration/invalidCopilotGlobalMcpServers	Copilot Global MCP 配置须是 'mcpServers' 属性为对象的 JSON 对象。
+vs/platform/mcp/common/mcpCopilotGlobalConfiguration/unsupportedCopilotGlobalMcpInputs	Copilot Global MCP 配置不支持交互输入。改用环境变量引用。
+vs/platform/mcp/common/mcpCopilotGlobalConfiguration/unsupportedCopilotGlobalMcpInputVariable	Copilot Global MCP 配置不支持 VS Code 输入变量。改用环境变量引用。
+vs/platform/mcp/common/mcpCopilotGlobalConfiguration/unsupportedCopilotGlobalMcpProperty	Copilot Global MCP 配置不支持 '{0}'。
+vs/platform/mcp/common/mcpGalleryService/mcpGallery.invalidResponse	MCP 注册表返了无效服务器元数据。
+vs/platform/mcp/common/mcpGalleryService/mcpGallery.responseTooLarge	MCP 注册表响应太大装不了。
+vs/platform/mcp/common/mcpGalleryService/mcpGalleryEmptyResponse	MCP 画廊返了空响应。
+vs/platform/mcp/common/mcpGalleryService/mcpGalleryNoQueryUrl	MCP 画廊没查询端点。
+vs/platform/mcp/common/mcpGalleryService/mcpGalleryNotConfigured	MCP 画廊没配。
+vs/platform/mcp/common/mcpGalleryService/mcpGalleryQueryFailed	MCP 画廊返了 HTTP {0}。
+vs/platform/mcp/common/mcpManagementService/mcpVariableConflict	变量 '{0}' 定义冲突。
+vs/platform/mcp/common/mcpResourceScannerService/copilotGlobalMcpConfigurationChanged	更新服务器时 Copilot Global MCP 配置变了。请重试。
+vs/platform/mcp/common/mcpResourceScannerService/invalidCopilotGlobalMcpServerForWrite	加不了 Copilot Global MCP 服务器 '{0}'：{1}
+vs/platform/mcp/common/mcpResourceScannerService/reservedWorkspaceRootMcpServerName	要加名为 'mcpServers' 的服务器，先在 .mcp.json 把现有服务器包进 'mcpServers' 对象。
+vs/platform/mcp/common/mcpResourceScannerService/unsupportedCopilotGlobalMcpSandbox	Copilot Global MCP 配置不支持沙箱配置。
+vs/platform/mcp/common/mcpResourceScannerService/unsupportedWorkspaceRootMcpSandbox	.mcp.json 不支持沙箱配置。改用 .vscode/mcp.json。
+vs/platform/mcp/common/mcpResourceScannerService/workspaceRootMcpConfigurationChanged	更新 MCP 服务器时 .mcp.json 变了。请重试。
+vs/platform/mcp/common/mcpWorkspaceConfiguration/invalidWorkspaceRootMcpConfiguration	.mcp.json 须含有效 JSON 对象。改 MCP 服务器前先修文件。
+vs/platform/mcp/common/mcpWorkspaceConfiguration/invalidWorkspaceRootMcpServers	.mcp.json 里 'mcpServers' 属性须是对象。改 MCP 服务器前先修文件。
+vs/platform/mcp/common/mcpWorkspaceConfiguration/unsupportedWorkspaceRootMcpProperty	.mcp.json 不支持 '{0}'。改用 .vscode/mcp.json。
+vs/platform/menubar/electron-main/menubar/confirmRestartUpdate.cancel	取消
+vs/platform/menubar/electron-main/menubar/confirmRestartUpdate.yes	是
+vs/platform/native/electron-main/nativeHostMainService/devinCliExists	{0} 处已有文件。可能已装？
+vs/platform/native/electron-main/nativeHostMainService/devinCliMissing	找不到 Devin CLI 二进制。此版 {0} 可能没捆绑。
+vs/platform/native/electron-main/nativeHostMainService/devinCliRemoveLegacyFailed	换不了 {0} 处现有 Devin CLI。关跑中的 `{1}` 进程再试。
+vs/platform/native/electron-main/nativeHostMainService/noSymlinksCreated	装不了 shell 命令 '{0}'。
+vs/platform/native/electron-main/nativeHostMainService/noSymlinksUninstalled	卸不了 shell 命令 '{0}'。
+vs/platform/native/electron-main/nativeHostMainService/targetMissing	找不到 '{0}' 处 shell 脚本
+vs/platform/onboarding/electron-main/onboardingTryoutHandoff/onboardingTryout.acceptTimeout	Agents 窗口没及时接功能示例。
+vs/platform/onboarding/electron-main/onboardingTryoutHandoff/onboardingTryout.invalidRequest	功能示例请求无效。
+vs/platform/onboarding/electron-main/onboardingTryoutHandoff/onboardingTryout.noAgentsWindow	功能示例送不了 Agents 窗口。
+vs/platform/telemetry/common/telemetryService/telemetry.windsurfCodeSnippet	管 {0} 怎么存代码片段遥测，看你的 [Devin Profile 设置]({1})。\n
+vs/platform/theme/common/colors/editorColors/diffEditor.windsurfRemovedTextBackground	Devin 内联补全里被删文本的背景色。
+vs/platform/theme/common/colors/windsurfCustomColors/listHoverBackgroundSubtle	list.hoverBackground 的淡化版，主题感知的悬停色，常比中性半透明灰多点色。
+vs/platform/theme/common/colors/windsurfCustomColors/starkButtonBackground	鲜明按钮用的背景色。
+vs/platform/theme/common/colors/windsurfCustomColors/starkButtonForeground	鲜明按钮用的前景色。
+vs/platform/theme/common/colors/windsurfCustomColors/starkButtonHoverBackground	鲜明按钮悬停时用的背景色。
+vs/platform/theme/common/colors/windsurfCustomColors/windsurfBlack	自定义 UI 元素用的 Devin 黑色。
+vs/platform/theme/common/colors/windsurfCustomColors/windsurfSea	自定义 UI 元素用的 Devin 海色。
+vs/platform/theme/common/colors/windsurfCustomColors/windsurfSeaShade	自定义 UI 元素用的 Devin 海影色。
+vs/platform/theme/common/colors/windsurfCustomColors/windsurfSeaTint	自定义 UI 元素用的 Devin 海淡色。
+vs/platform/theme/common/colors/windsurfCustomColors/windsurfSessionStatusBlue	蓝色会话状态色。
+vs/platform/theme/common/colors/windsurfCustomColors/windsurfSessionStatusGreen	绿色会话状态色。
+vs/platform/theme/common/colors/windsurfCustomColors/windsurfSessionStatusOrange	橙色会话状态色。
+vs/platform/theme/common/colors/windsurfCustomColors/windsurfSessionStatusPurple	紫色会话状态色。
+vs/platform/theme/common/colors/windsurfCustomColors/windsurfSessionStatusRed	红色会话状态色。
+vs/platform/theme/common/colors/windsurfDiffColors/diffEditorInsertedCustom	插入文本的背景色。色须非不透明以不遮底层装饰。
+vs/platform/theme/common/colors/windsurfDiffColors/diffEditorInsertedFallback	插入文本的回退背景色。色须非不透明以不遮底层装饰。
+vs/platform/theme/common/colors/windsurfDiffColors/diffEditorRemovedCustom	删除文本的背景色。色须非不透明以不遮底层装饰。
+vs/platform/theme/common/colors/windsurfDiffColors/diffEditorRemovedFallback	删除文本的回退背景色。色须非不透明以不遮底层装饰。
+vs/platform/update/electron-main/updateService.linux/close	关
+vs/platform/update/electron-main/updateService.linux/linux_update_available_detail	Devin 有新版本（{0}）。\n\n若你原先经系统包管理器（如 apt）装 Devin，可经标准系统更新流程拿新版。\n\n若你原先用 tarball 装 Devin，可按下方说明手动下载新 tarball。
+vs/platform/update/electron-main/updateService.linux/linux_update_available_message	有更新可用
+vs/platform/update/electron-main/updateService.linux/update_instructions	更新说明…
+vs/platform/webview/common/embeddedWebappContextMenu/embeddedWebapp.contextMenu.copyImageUrl	复制图片 URL
+vs/platform/webview/common/embeddedWebappContextMenu/embeddedWebapp.contextMenu.copyLink	复制链接
+vs/platform/webview/common/embeddedWebappContextMenu/embeddedWebapp.contextMenu.copyLinkUrl	复制 URL
+vs/platform/webview/common/embeddedWebappContextMenu/embeddedWebapp.contextMenu.openLinkInExternalBrowser	在外部浏览器开链接
+vs/platform/windows/electron-main/windowImpl/appGoneDetailLogsExported	日志已导出。{0}
+vs/platform/windows/electron-main/windowImpl/exportCrashLogs	&&Export logs...
+vs/platform/windows/electron-main/windowImpl/exportCrashLogsButton	导出
+vs/platform/windows/electron-main/windowImpl/exportCrashLogsError	导不了日志
+vs/platform/windows/electron-main/windowImpl/exportCrashLogsTitle	导出崩溃日志
+vs/platform/windows/electron-main/windowImpl/ok	&&OK
+vs/platform/windows/electron-main/windowImpl/zipArchive	ZIP 档案
+vs/platform/windsurfAuth/common/windsurfAuth/windsurfAccount	Devin 账户
+vs/platform/windsurfAuth/common/windsurfAuth/windsurfUsage	Devin 用量
+vs/platform/windsurfChatClient/common/chatClientPreview/incompatibleChatClientPreview	此聊天客户端预览要不同的 Desktop API。改用兼容的完整 Desktop 构建。
+vs/platform/windsurfChatClient/common/chatClientPreview/invalidChatClientPreviewId	无效聊天客户端预览 ID。
+vs/platform/windsurfChatClient/common/chatClientPreview/invalidChatClientPreviewIndex	无效聊天客户端预览索引。
+vs/platform/windsurfChatClient/common/chatClientPreview/invalidChatClientPreviewLink	无效聊天客户端预览链接。
+vs/platform/windsurfChatClient/common/chatClientPreview/invalidChatClientPreviewManifest	无效聊天客户端预览 manifest。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewDownload/chatClientPreviewBundleHash	聊天客户端预览 bundle 校验和或长度不对。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewDownload/chatClientPreviewIncomplete	聊天客户端预览下载不全。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewDownload/chatClientPreviewIndexJson	聊天客户端预览索引不是有效 UTF-8 JSON。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewDownload/chatClientPreviewManifestHash	聊天客户端预览 manifest 校验和不匹配其 ID。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewDownload/chatClientPreviewManifestJson	聊天客户端预览 manifest 不是有效 UTF-8 JSON。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewDownload/chatClientPreviewTimeout	聊天客户端预览下载超时。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewDownload/chatClientPreviewTooLarge	聊天客户端预览下载超大小上限。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewDownload/chatClientPreviewWebappHostArchive	聊天客户端预览 webapp host 档案无效。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewDownload/chatClientPreviewWebappHostHash	聊天客户端预览 webapp host 校验和或长度不对。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewDownload/invalidChatClientPreviewIndexUrl	无效聊天客户端预览索引 URL。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewDownload/invalidChatClientPreviewResponse	预览服务器返了无效响应。不允许重定向。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewMainService/cancelChatClientPreview	取消
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewMainService/chatClientPreviewCacheFull	最多八个窗口能跑聊天客户端预览。先把另一窗口恢复正常。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewMainService/chatClientPreviewClosedWindow	目标窗口不再可用。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewMainService/chatClientPreviewFailed	载不了聊天客户端预览。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewMainService/chatClientPreviewLinkMismatch	预览链接不匹配所请资源。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewMainService/chatClientPreviewNoWindow	载聊天客户端预览前先开 Desktop 工作台窗口。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewMainService/chatClientPreviewOk	好
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewMainService/chatClientPreviewUnavailable	聊天客户端预览只在非受限 Devin Desktop Insiders 可用。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewMainService/chatClientPreviewWindowChanged	载预览时目标窗口变了。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewMainService/confirmChatClientPreview	载此聊天客户端预览？
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewMainService/confirmChatClientPreviewDetail	{0}\n仓库：{1}\nPR：#{2}\n提交：{3}\n建时间：{4}\nBundle ID：{5}\n\n这会以你聊天客户端权限和已认证 Desktop 访问跑预览代码。只载你信的代码。此窗口和其浮动窗口会重载。其它窗口不变。\n\n要恢复正常，全退 Desktop 再重开。
+vs/platform/windsurfChatClient/electron-main/chatClientPreviewMainService/loadChatClientPreview	载预览
+vs/platform/windsurfSvg/browser/windsurfCodicons/acpAgentIcon	ACP agent 图标

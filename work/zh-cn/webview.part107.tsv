@@ -1,0 +1,150 @@
+settings.userLimitsEnforce	强制按预算用户上限
+settings.userLimitsEnforceDescription	按预算用户上限替代全部成员的账户级用户上限。可之后回退。
+settings.userLimitsEnforceRowDescription	停止强制账户级用户上限，开始强制按预算用户上限。
+settings.userLimitsEnforceTitle	强制按预算用户上限？
+settings.userLimitsEnforcedBanner	<docsLink>按预算用户上限</docsLink>已生效。
+settings.userLimitsEnforcementFailed	改不了强制哪类用户上限。
+settings.userLimitsEnforcementPreviewError	加载不了多少用户会被挡。
+settings.userLimitsEnforcementPreviewLoading	正在数会被挡的用户…
+settings.userLimitsEnforcementPreview_one	按当前计费周期用量，{{count}} 个用户会被挡。
+settings.userLimitsEnforcementPreview_other	按当前计费周期用量，{{count}} 个用户会被挡。
+settings.userLimitsMigrationBanner	用户上限正迁移到<docsLink>按预算用户上限</docsLink>。
+settings.userLimitsMigrationCollapse	收起预算
+settings.userLimitsMigrationExpand	展开预算
+settings.userLimitsMigrationGuidance	用量上限正迁到用户上限按每个预算划域的层级模型。要集中管用户上限，把用户上限复制到账户预算并把其它预算并入它。否则，考虑把用户上限复制到每个预算。
+settings.userLimitsRevert	回退到账户级用户上限
+settings.userLimitsRevertDescription	账户级用户上限替代全部成员的按预算用户上限。
+settings.userLimitsRevertTitle	回退到账户级用户上限？
+settings.utilizationDistribution	利用率分布
+settings.utilizationDistributionDescription	按利用率分的成员占比
+settings.viewAiGatewayMetrics	看 AI Gateway 指标
+settings.viewAiGatewayMetricsDescription	看企业 AI Gateway 指标（只读）
+settings.viewAiGatewayPrices	看 AI Gateway 价格
+settings.viewAiGatewayPricesDescription	看企业付的 AI Gateway 模型价格（只读）
+settings.vpcMonitoringPage.pendingJobsWithOldest_one	{{count}} 个任务排队 · 最老：{{oldest}}
+settings.vpcMonitoringPage.pendingJobsWithOldest_other	{{count}} 个任务排队 · 最老：{{oldest}}
+settings.vpcMonitoringPage.pendingJobs_one	{{count}} 个任务排队
+settings.vpcMonitoringPage.pendingJobs_other	{{count}} 个任务排队
+settings.vpcMonitoringPage.startingHypervisors_one	{{count}} 个 hypervisor 启动中——新容量将上线（一般 ~10 分钟）
+settings.vpcMonitoringPage.startingHypervisors_other	{{count}} 个 hypervisor 启动中——新容量将上线（一般 ~10 分钟）
+settings.webSearch	网页搜索
+settings.webSearchDescription	允许 agent 搜索和抓取网页拿最新信息
+settings.webhookAddEndpoint	加端点
+settings.webhookAllEventTypes	全部事件类型
+settings.webhookAllEvents	全部事件
+settings.webhookAllStatuses	全部状态
+settings.webhookAttemptCount_one	{{count}} 次尝试
+settings.webhookAttemptCount_other	{{count}} 次尝试
+settings.webhookAttemptLabel	第 {{count}} 次尝试
+settings.webhookAutoDisabledBanner	一个或多个端点因持续投递失败被自动禁用。事件不再投递给它们。
+settings.webhookAutoDisabledHint	持续投递失败后自动禁用
+settings.webhookClearAll	清空
+settings.webhookConfigModal.configuration	配置
+settings.webhookConfigModal.copySecretAria	复制 secret token
+settings.webhookConfigModal.copySecretTooltip	复制 webhook secret token
+settings.webhookConfigModal.copyUrl	复制 webhook URL
+settings.webhookConfigModal.loading	加载 webhook 配置中…
+settings.webhookConfigModal.regenerateDescription	你需要在 {{provider}} 更新 webhook 配置。当前 token 将被吊销
+settings.webhookConfigModal.regenerateTitle	重生成 webhook token
+settings.webhookConfigModal.regenerateToken	重生成 token
+settings.webhookConfigModal.secretToken	Secret token
+settings.webhookConfigModal.setup	设置
+settings.webhookConfigModal.tokenShownOnce	为你的安全，token 只在首次创建时显示一次
+settings.webhookConfigModal.url	URL
+settings.webhookCopySecret	复制 secret
+settings.webhookCreate	创建并验证
+settings.webhookCreateTitle	加 webhook 端点
+settings.webhookDelete	删除
+settings.webhookDeleteDescription	这将永久删「{{name}}」并停止对其全部投递。不可撤销。
+settings.webhookDeleteFailed	删不了端点
+settings.webhookDeleteTitle	删 webhook 端点
+settings.webhookDeliveries	投递
+settings.webhookDeliveriesLoadFailed	加载投递失败。请重试。
+settings.webhookDeliveriesTitle	投递日志——{{name}}
+settings.webhookDeliveryExhausted	耗尽
+settings.webhookDeliveryFailed	失败
+settings.webhookDeliveryPending	待发
+settings.webhookDeliverySuccess	已投递
+settings.webhookDescriptionLabel	描述
+settings.webhookDurationMs	{{duration}} 毫秒
+settings.webhookEditTitle	编辑 webhook 端点
+settings.webhookEmptyState	还没有 webhook 端点。加一个端点收签名事件通知。
+settings.webhookEventTypeFilter	按事件类型筛
+settings.webhookEventTypesLabel	要发的事件
+settings.webhookGuideExampleTitle	示例接收方
+settings.webhookGuideIntro	每个事件都是带 JSON body 和 <linkTag>Standard Webhooks</linkTag> 签名头的 HTTPS POST，发到你注册的 URL。一个处理器收全部并按 <code>event_type</code> 分支——只需做三件事：
+settings.webhookGuideStep1Body	你加端点（或改其 URL、重新启用、点验证）时，我们立刻 POST 一个 <code>endpoint.verification</code> 事件，你必须回显其 <code>data.nonce</code>：以 body 含那个确切 nonce 的 2xx 响应，如 <code>{"nonce": "…"}</code>。这是唯一要回显的事件——其它事件只要 2xx。通过前端点保持待发，收不到事件。
+settings.webhookGuideStep1Title	应答验证事件
+settings.webhookGuideStep2Body	每个请求带 <code>webhook-id</code>、<code>webhook-timestamp</code> 和 <code>webhook-signature</code> 头。用你的签名 secret（base64 解码 <code>whsec_</code> 后那段）对 <code>{webhook-id}.{webhook-timestamp}.{raw body}</code> 算 HMAC-SHA256，与签名头里空格分隔的 <code>v1,…</code> 值比对——任一匹配即有效，secret 轮换中会有多个。
+settings.webhookGuideStep2Title	验签名
+settings.webhookGuideStep3Body	10 秒内回 2xx；否则按退避重试约三天，之后端点被禁。重试和重放复用同一 <code>webhook-id</code>，所以把重复 ID 当已处理。
+settings.webhookGuideStep3Title	快速确认并去重
+settings.webhookGuideTitle	怎么收 webhook
+settings.webhookHideAttempts	收起尝试
+settings.webhookInstallAuthFailed	{{provider}} 拒了连接的凭据。重连或轮换 token，再刷新。
+settings.webhookInstallKind.group	组
+settings.webhookInstallKind.project	项目
+settings.webhookInstallKind.repository	仓库
+settings.webhookInstallLastRun	上次跑 {{time}}。
+settings.webhookInstallLoadFailed	加载不了最新结果。
+settings.webhookInstallLoading	加载最新结果中…
+settings.webhookInstallManualHook	手动加的 webhook 也投递到 Devin，所以事件到两次。移除它：{{url}}
+settings.webhookInstallManualHookBadge	重复
+settings.webhookInstallManualHookCount	要移除的重复 webhook：{{count}}。
+settings.webhookInstallNoResult	没有最近结果。刷新现在查 webhook。
+settings.webhookInstallOutcome.failed	失败
+settings.webhookInstallOutcome.installed	已装
+settings.webhookInstallOutcome.skipped	已跳过
+settings.webhookInstallPassFailed	上次跑没完。刷新再试。
+settings.webhookInstallPassRateLimited	跑停在提供商限流，会自动重试。
+settings.webhookInstallRefresh	刷新
+settings.webhookInstallRefreshFailed	启动不了 webhook 刷新
+settings.webhookInstallRefreshing	刷新中…
+settings.webhookInstallSkipReason.rate_limited	本轮没查：达提供商限流。会自动重试。
+settings.webhookInstallStatus.capped	本轮没查：目标太多。
+settings.webhookInstallStatus.created	Webhook 已建。
+settings.webhookInstallStatus.error	请求失败。
+settings.webhookInstallStatus.insufficient_role	此连接在这管不了 webhook。
+settings.webhookInstallStatus.not_reached	本轮没查：时间用完。
+settings.webhookInstallStatus.role_lost	此连接不再能管此 webhook；它保持之前的设置。
+settings.webhookInstallStatus.timeout	请求超时。
+settings.webhookInstallStatus.unchanged	Webhook 已就位。
+settings.webhookInstallStatus.unsupported	这装不了 webhook。
+settings.webhookInstallStatus.updated	Webhook 已更新。
+settings.webhookInstallSummary	{{installed}} 已装，{{skipped}} 跳过，{{failed}} 失败。
+settings.webhookInstallSummaryOther_one	{{count}} 个结果此版本不认得。
+settings.webhookInstallSummaryOther_other	{{count}} 个结果此版本不认得。
+settings.webhookInstallTitle	自动设置
+settings.webhookInstallUnreachable	够不着 {{provider}}。查服务器及其到 Devin 的连接在跑，再刷新。
+settings.webhookLoadFailed	加载 webhook 端点失败。请重试。
+settings.webhookLoadMore	加载更多
+settings.webhookNameLabel	名称
+settings.webhookNextRetry	下次重试 {{time}}
+settings.webhookNoDeliveries	没有投递匹配这些筛选
+settings.webhookNoMatches	无匹配
+settings.webhookOrgScopeLabel	组织作用域
+settings.webhookPendingHint	等此 URL 以含 <code>data.nonce</code> 的 2xx 应答 <code>endpoint.verification</code> 事件。应答前不发事件——点验证重发该事件。
+settings.webhookRateLimitBadge	{{count}}/秒 限流
+settings.webhookRateLimitDescription	每秒请求数
+settings.webhookRateLimitLabel	限流
+settings.webhookRateLimitPlaceholder	不限
+settings.webhookReenable	重新启用
+settings.webhookReenableFailed	启用不了端点
+settings.webhookReenabled	端点已重新启用——验证挑战已发
+settings.webhookReplay	重放
+settings.webhookReplayDescription	重排时间范围内事件的投递。已投递事件以同一事件 ID 再发
+settings.webhookReplayFailed	排不了重放
+settings.webhookReplayFrom	从
+settings.webhookReplayInvalidTimeRangeReason	结束时间须在开始时间后
+settings.webhookReplayMissingTimeReason	开始和结束时间都要输
+settings.webhookReplayQueued_one	已排 {{count}} 条投递重放
+settings.webhookReplayQueued_other	已排 {{count}} 条投递重放
+settings.webhookReplayTitle	重放事件
+settings.webhookReplayTo	到
+settings.webhookReplayToDescription	选开始时间之后的结束时间
+settings.webhookResend	重发
+settings.webhookResourceIdFilter	按资源 ID 筛
+settings.webhookResponseStatus	HTTP {{status}}
+settings.webhookRetryFailed	排不了投递重试
+settings.webhookRetryInFlight	一次投递尝试进行中；完成后重试
+settings.webhookRetryQueued	投递已排队重试

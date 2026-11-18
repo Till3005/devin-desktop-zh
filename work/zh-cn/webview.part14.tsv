@@ -1,0 +1,295 @@
+automations.scheduleEveryWeek	每周
+automations.scheduleHourlyPhrase	<frequency />在第 <minute /> 分
+automations.scheduleRunOnce	运行一次
+automations.scheduleTriggerRequired	计划触发器需要一个计划
+automations.scheduleTriggeredAt	计划于 {{timestamp}} 触发
+automations.scheduleWeeklyPhrase	<frequency />每<weekday /> <time />
+automations.scheduledTimeMustBeFuture	计划时间必须在未来
+automations.scheduledTimeMustBeInFuture	计划时间必须在未来
+automations.scheduledTimeRequired	计划时间为必填项
+automations.scratchpadDescription	在此自动化运行的所有 Devin 会话间共享的长期记忆
+automations.scratchpadFolder	暂存文件夹
+automations.scratchpadFolderDescription	浏览并编辑 Devin 管理的暂存文件夹。
+automations.scratchpadFolderEmpty	此暂存文件夹还没有文件。
+automations.scratchpadFolderReadOnlyDescription	Devin 管理的暂存文件夹的只读视图。
+automations.scratchpadFolderSaved	暂存文件夹已保存
+automations.scratchpadForceEnabledTooltip	自动分诊 Agent 类型不能关闭共享暂存区
+automations.scratchpadTooLarge	此暂存区超过大小上限，无法加载。
+automations.scratchpadTooLargeEditable	你在此创建和保存的文件将替换其内容。
+automations.search	搜索
+automations.searchChannels	搜索频道
+automations.searchChannelsPlaceholder	搜索频道…
+automations.searchEventsPlaceholder	搜索事件…
+automations.searchIssuesPlaceholder	搜索问题…
+automations.searchJiraProjects	搜索项目
+automations.searchMcps	搜索 MCP…
+automations.searchMetadata	搜索元数据…
+automations.searchPlaceholder	搜索自动化…
+automations.searchRunAsIdentities	搜索身份…
+automations.searchSlackChannels	搜索 Slack 频道
+automations.searchTeamsChannels	搜索 Microsoft Teams 频道
+automations.searchTemplates	搜索模板…
+automations.searchTimezones	搜索时区
+automations.searchUsergroups	搜索用户组…
+automations.searching	正在搜索…
+automations.secret	机密
+automations.securityProfile	安全档案
+automations.securityProfileBindingLoadFailed	无法加载此自动化的安全档案绑定。
+automations.securityProfileDescription	为此自动化创建的会话设置访问权限级别的控制。
+automations.securityProfileGoverns	会话将改用管控安全档案。
+automations.securityProfileGovernsAutomation	会话将改用自动化专属安全档案。
+automations.securityProfileGovernsAutomationNamed	会话将改用自动化专属安全档案「{{name}}」。
+automations.securityProfileGovernsAutomationsDefault	会话将改用自动化默认安全档案。
+automations.securityProfileGovernsAutomationsDefaultNamed	会话将改用自动化默认安全档案「{{name}}」。
+automations.securityProfileGovernsEnterprise	会话将改用企业安全档案。
+automations.securityProfileGovernsEnterpriseNamed	会话将改用企业安全档案「{{name}}」。
+automations.securityProfileGovernsNamed	会话将改用安全档案「{{name}}」。
+automations.securityProfileGovernsOrganization	会话将改用组织安全档案。
+automations.securityProfileGovernsOrganizationNamed	会话将改用组织安全档案「{{name}}」。
+automations.securityProfileInjectionWarning	读取不可信内容的自动化有提示词注入风险。请选择限制网络和工具访问的安全档案。
+automations.securityProfileLookupFailed	无法加载此自动化的安全档案设置，因此无法在此概述网络访问。
+automations.securityProfileNone	无安全档案
+automations.securityProfileUnavailableBeforeSaving	安全档案尚未加载，因此保存前无法设置默认网络策略和 MCP
+automations.securityProfileUseEnterpriseDefault	使用企业默认
+automations.securityProfileUseEnterpriseDefault_named	使用企业默认（{{name}}）
+automations.securityProfileUseEnterpriseDefault_none	使用企业默认（无档案）
+automations.securityProfileUseOrgDefault	使用组织默认
+automations.securityProfileUseOrgDefault_named	使用组织默认（{{name}}）
+automations.securityProfileUseOrgDefault_none	使用组织默认（无档案）
+automations.securityScanFinding	安全扫描发现项
+automations.selectActionType	选择操作类型…
+automations.selectAgentMode	选择 Agent 模式
+automations.selectAtLeastOneJiraProject	至少选择一个 Jira 项目，或允许全部项目。
+automations.selectChannel	选择频道…
+automations.selectChannelPlaceholder	选择频道…
+automations.selectConditionField	选择条件字段
+automations.selectConditionOperator	选择条件运算符
+automations.selectConditionValue	选择条件值
+automations.selectDevin	选择一个 {{botName}}
+automations.selectExactlyOneTag	选择一个必填的会话标签
+automations.selectFallbackDevinMode	选择回退 Agent 模式
+automations.selectFrequency	选择频率
+automations.selectHour	选择小时
+automations.selectNotificationTiming	选择通知时机
+automations.selectOutpost	选择一个 Outpost
+automations.selectPlaceholder	选择…
+automations.selectRegion	选择地区
+automations.selectReplyField	选择回复字段
+automations.selectScan	选择一个扫描
+automations.selectSchedule	选择计划…
+automations.selectSession	选择一个会话
+automations.selectSlackChannelForTriage	为分诊 Devin 选择一个 Slack 频道
+automations.selectTeam	选择团队…
+automations.selectTimezone	选择时区
+automations.selectUsergroup	选择用户组…
+automations.selectWeekday	选择星期几
+automations.selected	已选 {{count}} 项
+automations.selected_one	已选 {{count}} 项
+automations.selected_other	已选 {{count}} 项
+automations.sessionColumn	会话
+automations.sessionNotStarted	会话未启动。
+automations.sessionTagMissing	缺失
+automations.sessionTagRepairBlockedByChannelAccess	此自动化的会话标签需更新为允许的标签，但你无权访问它引用的一个 Slack 频道。请让有权限的人保存它。
+automations.sessionTagValue	会话标签：{{tag}}
+automations.sessionTagsRequiredButNone	要求会话标签，但此组织没有配置任何标签
+automations.setup	设置
+automations.sharedScratchpad	共享暂存区
+automations.shortAgoDays_one	{{count}} 天前
+automations.shortAgoDays_other	{{count}} 天前
+automations.shortAgoHours_one	{{count}} 小时前
+automations.shortAgoHours_other	{{count}} 小时前
+automations.shortAgoMinutes_one	{{count}} 分钟前
+automations.shortAgoMinutes_other	{{count}} 分钟前
+automations.shortAgoMonths_one	{{count}} 个月前
+automations.shortAgoMonths_other	{{count}} 个月前
+automations.shortAgoNow	刚刚
+automations.shortAgoWeeks_one	{{count}} 周前
+automations.shortAgoWeeks_other	{{count}} 周前
+automations.shortAgoYears_one	{{count}} 年前
+automations.shortAgoYears_other	{{count}} 年前
+automations.showMore	再显示 {{count}} 项
+automations.showSecret	显示机密
+automations.showingLatestLinkedEvents	显示 {{total}} 个事件中最近 {{shown}} 个。
+automations.showingNewestEvents_one	显示 {{formattedTotal}} 个事件中最新 {{visibleCount}} 个
+automations.showingNewestEvents_other	显示 {{formattedTotal}} 个事件中最新 {{visibleCount}} 个
+automations.showingRange	{{total}} 条中的 {{from}}–{{to}}
+automations.skip	跳过
+automations.skippedCount	已跳过 {{count}} 项
+automations.slack	Slack
+automations.slackAppIsInChannel	应用已在频道中
+automations.slackAppMentioned	Slack 应用被提及
+automations.slackAppWillJoin	应用将加入 {{channel}}
+automations.slackCappedByProfile	受安全档案限制
+automations.slackChannel	Slack 频道
+automations.slackChannelNotAvailable	所选 Slack 频道不可用。你和 @Devin 都需要是该频道成员。
+automations.slackChannels	Slack 频道
+automations.slackChannelsCappedByProfile	此自动化授予的 Slack 频道访问超出管控安全档案；超出部分在自动化运行时被丢弃。
+automations.slackChannelsCappedByProfile_named	此自动化授予的 Slack 频道访问超出安全档案「{{name}}」；超出部分在自动化运行时被丢弃。
+automations.slackDmScope	Slack 私聊范围
+automations.slackDmsCappedByProfile	此自动化授予的 Slack 私聊超出管控安全档案；自动化运行时私聊范围会被收窄。
+automations.slackDmsCappedByProfile_named	此自动化授予的 Slack 私聊超出安全档案「{{name}}」；自动化运行时私聊范围会被收窄。
+automations.slackIdentity	Slack 身份
+automations.slackIdentityChangePicture	更换头像
+automations.slackIdentityDescription	以自定义名称和头像发布此自动化的 Slack 消息
+automations.slackIdentityEditName	编辑名称
+automations.slackIdentityName	显示名
+automations.slackIdentityPictureTooLarge	图片须小于 5 MB
+automations.slackIdentityPictureUploadFailed	上传图片失败
+automations.slackIdentityPreviewMessage	此自动化的消息在 Slack 中会显示成这样。
+automations.slackIdentityRemovePicture	移除头像
+automations.slackJoinFailed	Devin 无法加入该 Slack 频道
+automations.slackJoinFailedMissingScope	在设置中重新连接 Slack，以授予 Devin 加入频道的权限。
+automations.slackJoinFailedReconnect	无法加入。<reconnect>重新连接 Slack</reconnect> 以授予权限。
+automations.slackJoinFailedUnavailable	频道可能是私有的或不可用。手动邀请 Devin，或另选一个频道。
+automations.slackMessageFilterRequired	添加一个频道限制或完成至少一个筛选。仅「包含线程回复」不够。
+automations.slackNotifications	Slack 通知
+automations.slackReplyAccess	允许回复来自
+automations.slackReplyAccessDescription	谁可以在 Slack 线程中回复以继续一次运行
+automations.slackReplyAccessDevinUsers	仅 Devin 用户
+automations.slackReplyAccessDevinUsersDescription	仅 Devin 用户
+automations.slackReplyAccessExternalInjectionWarning	响应不可信消息的自动化有提示词注入风险。允许外部 Slack 用户回复时请务必谨慎。
+automations.slackReplyAccessExternalSlackUsers	外部 Slack 用户
+automations.slackReplyAccessExternalSlackUsersDescription	所有 Slack 用户，包括外部用户
+automations.slackReplyAccessSlackUsers	Slack 用户
+automations.slackReplyAccessSlackUsersDescription	已连接工作区的 Slack 用户
+automations.slackThreadMode	Slack 线程模式
+automations.slackThreadModeAttach	附加到线程
+automations.slackThreadModeForward	在新频道发贴
+automations.slackThreadModeNone	无
+automations.slackThreadModeNotify	通知线程
+automations.sourceLabelBoard	Board
+automations.sourceLabelCodeScan	安全扫描
+automations.sourceLabelManagedWebhook	托管 webhook
+automations.sourceLabelSchedule	计划
+automations.sourceLabelSecurityThreat	安全威胁
+automations.sourceLabelSnapshotBuild	快照构建
+automations.specificChannels	指定频道
+automations.specificJiraProjects	指定项目
+automations.spendLimitPerSession	每会话支出上限
+automations.starting	正在启动…
+automations.status	状态
+automations.statusCanceled	已取消
+automations.statusFailed	失败
+automations.statusInProgress	进行中
+automations.statusQueued	排队中
+automations.statusRunning	运行中
+automations.statusSkipped	已跳过
+automations.statusSucceeded	成功
+automations.subHourlyBlockMessage	频率高于每小时一次的计划需要 Teams 或更高方案。
+automations.subtitle	把 Devin 带进你的周期性与事件驱动工作流
+automations.successRate	成功率 {{rate}}%
+automations.successful	{{count}} 个成功
+automations.suggestAutomations	让 Devin 推荐
+automations.suggested	推荐
+automations.suggestedAutomations	推荐的自动化
+automations.suggestedFirstMessage	你好 <mention>Devin</mention>，请阅读此频道历史并做好笔记，了解如何回复消息
+automations.suggestedFirstMessageCopied	消息已复制
+automations.summaryChangesLabel	变更
+automations.summaryMore	+{{count}} 更多
+automations.summaryNextRun	{{day}} {{time}}（{{timeZone}}）
+automations.summaryNextRunLabel	下次运行
+automations.summaryOnEvent	在 {{event}} 时
+automations.summaryOnManagedWebhook	在托管 webhook {{name}} 时
+automations.summaryOnSlackMessages	在 Slack 消息时
+automations.summaryOnce	在 {{datetime}} 运行一次（{{timeZone}}）
+automations.summaryOnceUndated	一次
+automations.summaryPermissionsLabel	权限
+automations.summaryPromptLabel	提示词
+automations.summaryRunsLabel	运行
+automations.summaryRunsOnSlackMessages	在 {{channel}} 的 Slack 消息时
+automations.summarySessionSettingsLabel	会话设置
+automations.summaryTag_github	GitHub
+automations.summaryTag_jira	Jira
+automations.summaryTag_linear	Linear
+automations.summaryTag_pagerduty	PagerDuty
+automations.summaryTag_schedule	按计划
+automations.summaryTag_slack	Slack
+automations.summaryTag_teams	Teams
+automations.summaryTag_webhook	Webhook
+automations.summaryTypeLabel	类型
+automations.sunday	星期日
+automations.tags	标签
+automations.targetSessionLabel	目标会话：
+automations.teamsAllInstalledTeams	已安装团队的所有公开频道
+automations.teamsAllInstalledTeamsWithDms	已安装团队的所有公开频道 + 私聊
+automations.teamsCappedByProfile	受安全档案限制
+automations.teamsChannels	Microsoft Teams 频道
+automations.teamsChannelsCappedByProfile	此自动化授予的 Microsoft Teams 频道访问超出管控安全档案；超出部分在自动化运行时被丢弃。
+automations.teamsChannelsCappedByProfile_named	此自动化授予的 Microsoft Teams 频道访问超出安全档案「{{name}}」；超出部分在自动化运行时被丢弃。
+automations.teamsConnectInSettings	在设置中连接
+automations.teamsDirectMessages	私聊
+automations.teamsDirectMessagesHelper	只能触达在 Teams 中安装了 Devin 应用的人。
+automations.teamsDmScope	Microsoft Teams 私聊范围
+automations.teamsDmsCappedByProfile	此自动化授予的 Microsoft Teams 私聊超出管控安全档案；自动化运行时私聊范围会被收窄。
+automations.teamsDmsCappedByProfile_named	此自动化授予的 Microsoft Teams 私聊超出安全档案「{{name}}」；自动化运行时私聊范围会被收窄。
+automations.teamsNoInstalledTeams	还没有任何团队安装 Devin 应用
+automations.teamsNotConnected	未连接
+automations.teamsOnlyInstalledTeamsAvailable	只有安装了 Devin 的团队可选
+automations.teamsReplyAccess	允许回复来自
+automations.teamsReplyAccessDescription	谁可以在 Teams 线程中回复以继续一次运行
+automations.teamsReplyAccessDevinUsers	仅 Devin 用户
+automations.teamsReplyAccessDevinUsersDescription	仅 Devin 用户
+automations.teamsReplyAccessTeamsUsers	Teams 用户
+automations.teamsReplyAccessTeamsUsersDescription	你已连接租户中的 Teams 用户
+automations.teamsTriggerChannelExcludedByProfile	管控安全档案排除了此自动化的 Teams 触发频道；运行将在无该频道权限的情况下开始。
+automations.teamsTriggerChannelExcludedByProfile_named	安全档案「{{name}}」排除了此自动化的 Teams 触发频道；运行将在无该频道权限的情况下开始。
+automations.templateNotFound	找不到此自动化模板。
+automations.templateRequiresIntegration	需要 {{name}} 集成
+automations.templateRequiresMcp	需要 {{name}} MCP 服务器
+automations.templates	模板
+automations.templatesLoadError	无法加载模板。
+automations.testCommand	测试命令
+automations.then	然后
+automations.threatScanDescription	每次运行都会在这些仓库上扫描触发它的事件中发布的威胁（Cognition 和你们团队的），没有仍处打开状态的威胁时跳过。Devin 会按你的威胁模型重排发现项。
+automations.threatScanTriggerRequired	威胁扫描需要以「安全威胁：已发布」作为唯一触发器
+automations.thursday	星期四
+automations.time	时间
+automations.title	自动化
+automations.toLabel	到
+automations.toOwner	给所有者
+automations.toTeam	给团队
+automations.triageChannelMismatch	分诊操作的来源频道必须是触发频道之一
+automations.triageDevinMode	排查模式
+automations.triageDevinModeDescription	排查所用的 Agent 模式
+automations.triageDevinModeInfoLabel	关于排查模式
+automations.triageDevinModeTooltip	自动分诊使用单个父分诊会话，运行 Normal；排查模式为 Lite 时则运行 Lite。
+automations.triageDevinReset	分诊 Devin 重置成功
+automations.triageMustHaveSlackTrigger	自动分诊自动化至少要有一个 Slack 消息触发器
+automations.triagePromptPlaceholder	例如描述如何分诊和排查问题
+automations.trigger	运行
+automations.triggerAutomation	立即运行
+automations.triggerChannel	触发频道
+automations.triggerContextLabel	上下文
+automations.triggerDiffScanDescription	扫描所选扫描自上次完成运行以来的新提交
+automations.triggerItem	触发器
+automations.triggerNoPromptDescription	使用自动化已配置的提示词启动一个新 Devin 会话
+automations.triggerNow	立即运行
+automations.triggerPlaceholder	例如为此次运行提供上下文
+automations.triggerPolicyBlockedTooltip	被触发策略阻止
+automations.triggerPolicyLoadingTooltip	正在检查触发策略…
+automations.triggerProject	触发项目
+automations.triggerPromptDescription	你添加的上下文会随自动化已配置的提示词一起用于此次运行
+automations.triggerRequiresFilter	{{trigger}} 触发器需要对「{{field}}」设置筛选
+automations.triggerRequiresTeam	{{trigger}} 触发器需要选择团队
+automations.triggerScanDescription	使用自动化已配置的扫描设置启动一个新代码扫描
+automations.triggerSection	触发器
+automations.triggerSuccessDescription	新的运行很快会开始并出现在事件历史中
+automations.triggerSummaryInScope	{{scope}} 中的{{label}}
+automations.triggerSummaryWithFilter	{{label}}（{{filter}}）
+automations.triggerUnavailableGithub	Devin 的 GitHub App 需要在 {{account}} 上的 {{permissions}} 权限，须由 GitHub 组织所有者接受。
+automations.triggerUnavailableGithubAnyOrg	你的 GitHub 组织
+automations.triggerUnavailableGithubServer	在 {{host}} 上为 Devin 应用添加 {{events}} 事件和 {{permissions}} 权限。
+automations.triggerUnavailableTitle	{{trigger}} 尚不可用
+automations.triggerWatchChannel	监听频道
+automations.triggers	触发器
+automations.triggersDescription	满足以下任一条件时运行自动化
+automations.tryAgainInAMoment	请稍后再试。
+automations.trySendingMessage	试着给 <channel>{{channelName}}</channel> 发条消息！
+automations.tuesday	星期二
+automations.unknown	未知
+automations.unrestrictedAccess	会话将拥有不受限的网络访问。
+automations.unsavedChanges	未保存的更改
+automations.untitledAutomation	未命名自动化
+automations.untitledIssue	未命名问题
+automations.updateAutomation	更新自动化
+automations.updateNetworkConfigDescription	更改网络设置会让监听中的 Devin 休眠再唤醒，其工作会出现短暂中断。

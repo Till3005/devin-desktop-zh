@@ -1,0 +1,284 @@
+enterprise.landing.membersCount_one	{{count}} 个成员
+enterprise.landing.membersCount_other	{{count}} 个成员
+enterprise.landing.moreOptions	更多选项
+enterprise.landing.noOrgsYet	还没有设置任何组织。请联系你的企业管理员创建。
+enterprise.landing.orDownloadDesktop	或<lnk>下载 Devin Desktop</lnk>
+enterprise.landing.orOpenDesktop	或<button>打开 Devin Desktop<icon /></button>
+enterprise.landing.orTryCli	或<lnk>试试 Devin CLI</lnk>
+enterprise.landing.runCloudDesktop	在云端或桌面运行 Devin
+enterprise.landing.runCloudDesktopTerminal	在云端、桌面或终端运行 Devin
+enterprise.landing.runCloudTerminal	在云端或终端运行 Devin
+enterprise.landing.tryAdjust	试试调整你的搜索
+enterprise.landing.tryCliLink	<lnk>试试 Devin CLI</lnk>
+enterprise.landing.viewOrgs	查看组织
+enterprise.learnWithUniversity	在 Devin University 学习
+enterprise.mcpDetail.description	此 MCP 在你企业内的用量和可用性。
+enterprise.mcpDetail.fallbackTitle	MCP 服务器
+enterprise.mcpDetail.noLongerAvailable	此 MCP 服务器在你企业中不再可用。
+enterprise.mcpDetail.noUsageData	没有可用用量数据
+enterprise.mcpDetail.notFound	未找到 MCP
+enterprise.mcpDetail.organizations	组织
+enterprise.mcpDetail.orgsDesc	你企业中启用此 MCP 的组织。
+enterprise.mcpDetail.sessionsDesc	最近使用此 MCP 的会话。
+enterprise.mcpDetail.sessionsUnit	个会话
+enterprise.mcpDetail.sessionsUsage	会话用量
+enterprise.mcpDetail.sessionsUsageDesc	最近一个月使用此 MCP 的会话。
+enterprise.mcpDetail.showInMarketplace	在市场中显示
+enterprise.mcpDetail.showInMarketplaceDesc	开启后，你企业中的用户能在市场看到并安装此 MCP。关闭会隐藏它并阻止新安装——已安装的组织保留访问，直到在那里停用或卸载。
+enterprise.mcpSessionTable.noSessions	未找到会话
+enterprise.mcpSessionTable.session	会话
+enterprise.mcpSessionTable.user	用户
+enterprise.mcpSessionTable.viewSession	查看会话
+enterprise.mcpTable.columnUsers	用户
+enterprise.mcpTable.mcpName	MCP 名
+enterprise.mcpTable.noOrganizationsFound	未找到组织
+enterprise.mcpTable.orgsEnabled	已启用组织
+enterprise.mcpTable.sessions	会话
+enterprise.mcpTable.users	用户
+enterprise.mcpTargetPicker.addIds	添加 ID
+enterprise.mcpTargetPicker.alreadyExcluded	{{token}}——已排除
+enterprise.mcpTargetPicker.alreadySelected	{{token}}——已选择
+enterprise.mcpTargetPicker.clearAll	清空
+enterprise.mcpTargetPicker.deselectAllMatching	取消选择全部匹配组织
+enterprise.mcpTargetPicker.excludeAll	全部排除
+enterprise.mcpTargetPicker.excludeAllMatching	排除全部匹配组织
+enterprise.mcpTargetPicker.excludeIds	排除 ID
+enterprise.mcpTargetPicker.excludedCount_one	已排除 {{count}} 个
+enterprise.mcpTargetPicker.excludedCount_other	已排除 {{count}} 个
+enterprise.mcpTargetPicker.includeAllMatching	包含全部匹配组织
+enterprise.mcpTargetPicker.included	已包含
+enterprise.mcpTargetPicker.includedCount_one	已包含 {{count}} 个
+enterprise.mcpTargetPicker.includedCount_other	已包含 {{count}} 个
+enterprise.mcpTargetPicker.includedWithExcluded	{{included}} · {{excluded}}
+enterprise.mcpTargetPicker.noIncludedOrgs	没有已包含组织。
+enterprise.mcpTargetPicker.noIncludedOrgsMatch	没有匹配的已包含组织。
+enterprise.mcpTargetPicker.noOrgsFound	未找到组织。
+enterprise.mcpTargetPicker.noOrgsInEnterprise	此企业没有组织。
+enterprise.mcpTargetPicker.noSelectedOrgs	没有已选组织。
+enterprise.mcpTargetPicker.noSelectedOrgsMatch	没有匹配的已选组织。
+enterprise.mcpTargetPicker.onePerLine	每行一个组织 ID，或逗号分隔
+enterprise.mcpTargetPicker.otherInstallations_one	+{{count}} 个其他安装
+enterprise.mcpTargetPicker.otherInstallations_other	+{{count}} 个其他安装
+enterprise.mcpTargetPicker.pasteIds	粘贴组织 ID
+enterprise.mcpTargetPicker.pasteIdsExclude	粘贴要排除的组织 ID
+enterprise.mcpTargetPicker.rejectDuplicateHint	未知或重复的 ID 会逐行报错拒绝。
+enterprise.mcpTargetPicker.rejectExcludedHint	未知或已排除的 ID 会逐行报错拒绝。
+enterprise.mcpTargetPicker.searchOrg	搜索组织
+enterprise.mcpTargetPicker.selectAllMatching	选择全部匹配组织
+enterprise.mcpTargetPicker.selected	已选
+enterprise.mcpTargetPicker.selectedCount_one	已选 {{count}} 个
+enterprise.mcpTargetPicker.selectedCount_other	已选 {{count}} 个
+enterprise.mcpTargetPicker.showAll	显示全部组织
+enterprise.mcpTargetPicker.showOnly	只显示{{kind}}组织
+enterprise.mcpTargetPicker.showingAnnounce_one	显示 {{count}} 个{{kind}}组织
+enterprise.mcpTargetPicker.showingAnnounce_other	显示 {{count}} 个{{kind}}组织
+enterprise.mcpTargetPicker.toggleAria	{{summary}}——{{action}}
+enterprise.mcpTargetPicker.unknownOrgId	{{token}}——未知组织 ID
+enterprise.members.billingOrg	计费组织
+enterprise.members.copyGroupName	复制组名
+enterprise.members.groupPlural	个组
+enterprise.members.groupSingular	个组
+enterprise.members.memberCount_one	{{formattedCount}} 个成员
+enterprise.members.memberCount_other	{{formattedCount}} 个成员
+enterprise.members.noItems	未找到{{pluralLabel}}
+enterprise.members.orgCount_one	{{formattedCount}} 个组织
+enterprise.members.orgCount_other	{{formattedCount}} 个组织
+enterprise.members.organizationPlural	个组织
+enterprise.members.organizationSingular	个组织
+enterprise.members.searchItems	搜索{{pluralLabel}}
+enterprise.members.tryDifferent	换个搜索或筛选试试。
+enterprise.members.viaGroups	 · 经由 {{groups}}
+enterprise.members.you	你
+enterprise.members.zeroGroups	0 个组
+enterprise.members.zeroOrgs	0 个组织
+enterprise.membersPage.allRoles	全部企业角色
+enterprise.membersPage.manualInvitesOff	手动邀请已关闭。成员必须通过你的 SSO 提供商添加
+enterprise.membersPage.noData	所选组织没有数据
+enterprise.membersPage.searchMember	搜索成员
+enterprise.membersPage.tryRelogin	不是你预期的？试试退出再登录。
+enterprise.noAccessTitle	向你的企业管理员申请 Devin 访问权限
+enterprise.noAccessUniversityDescription	入职的同时在 Devin University 拿认证
+enterprise.orSetUpDevinDesktop	或<desktopLink>设置 Devin Desktop</desktopLink>
+enterprise.orgLimitNoPermission	你没有查看组织设置的权限
+enterprise.orgMembership.addCount_one	添加 {{count}} 个组织
+enterprise.orgMembership.addCount_other	添加 {{count}} 个组织
+enterprise.orgMembership.addFailed	添加{{suffix}}失败
+enterprise.orgMembership.addOrgs	添加组织
+enterprise.orgMembership.added	已成功添加{{suffix}}
+enterprise.orgMembership.adding	正在添加{{suffix}}…
+enterprise.orgMembership.groupsCount_one	{{count}} 个组
+enterprise.orgMembership.groupsCount_other	{{count}} 个组
+enterprise.orgMembership.noneSelectedMembers	未选择成员或组
+enterprise.orgMembership.noneSelectedOrgs	未选择组织
+enterprise.orgMembership.orgsCount_one	{{count}} 个组织
+enterprise.orgMembership.orgsCount_other	{{count}} 个组织
+enterprise.orgMembership.orgsSelected_one	已选 {{count}} 个组织
+enterprise.orgMembership.orgsSelected_other	已选 {{count}} 个组织
+enterprise.orgMembership.removeCount_one	移除 {{count}} 个组织
+enterprise.orgMembership.removeCount_other	移除 {{count}} 个组织
+enterprise.orgMembership.removeFailed	移除{{suffix}}失败
+enterprise.orgMembership.removeOrgs	移除组织
+enterprise.orgMembership.removed	已成功移除{{suffix}}
+enterprise.orgMembership.removing	正在移除{{suffix}}…
+enterprise.orgMembership.subjectsAnd	{{users}}和{{groups}}
+enterprise.orgMembership.suffixFrom	{{orgs}}的{{subjects}}
+enterprise.orgMembership.suffixTo	{{subjects}}到{{orgs}}
+enterprise.orgMembership.usersCount_one	{{count}} 个用户
+enterprise.orgMembership.usersCount_other	{{count}} 个用户
+enterprise.orgName.empty	组织名不能为空或只含空格
+enterprise.orgName.invalidChars	组织名只能含字母、数字、空格、连字符和下划线
+enterprise.orgName.taken	同名组织已存在
+enterprise.orgName.tooLong	组织名最多 40 个字符
+enterprise.orgName.tooShort	组织名至少 2 个字符
+enterprise.orgSelector.deletedOrgLabel	已删除组织
+enterprise.orgSelector.primaryOrgLabel	{{name}}（整个企业）
+enterprise.orgSelector.primaryOrgWarning	警告：企业内所有用户对此处仓库有 DeepWiki 和搜索权限
+enterprise.orgsPage.addOne	添加一个开始使用 Devin。
+enterprise.orgsPage.contactAdmin	联系你的企业管理员添加组织。
+enterprise.orgsPage.deleteBulkBody_one	确定要删除所选 {{count}} 个组织？此操作无法撤销，会永久移除所有相关数据。
+enterprise.orgsPage.deleteBulkBody_other	确定要删除所选 {{count}} 个组织？此操作无法撤销，会永久移除所有相关数据。
+enterprise.orgsPage.deleteCount_one	删除 {{count}} 个组织
+enterprise.orgsPage.deleteCount_other	删除 {{count}} 个组织
+enterprise.orgsPage.deleteFailed_one	删除 {{count}} 个组织失败
+enterprise.orgsPage.deleteFailed_other	删除 {{count}} 个组织失败
+enterprise.orgsPage.deleteOrg	删除组织
+enterprise.orgsPage.deleteOrgBody	这会永久删除「{{name}}」及所有相关数据。此操作无法撤销。
+enterprise.orgsPage.deleted_one	已成功删除 {{count}} 个组织
+enterprise.orgsPage.deleted_other	已成功删除 {{count}} 个组织
+enterprise.orgsPage.deleting_one	正在删除 {{count}} 个组织…
+enterprise.orgsPage.deleting_other	正在删除 {{count}} 个组织…
+enterprise.orgsPage.description	你企业中的全部组织，包括你不属于的。
+enterprise.orgsPage.emptyAdmin	你还没有添加任何组织。
+enterprise.orgsPage.emptyMember	还没有添加任何组织。
+enterprise.orgsPage.loadFailedDescription	组织列表没加载出来。稍候再试。
+enterprise.orgsPage.loadFailedTitle	无法加载组织
+enterprise.orgsPage.manageTitle	管理 {{name}}
+enterprise.orgsPage.noMatch	没有匹配你搜索的组织。
+enterprise.orgsPage.savingChanges	正在保存更改
+enterprise.orgsPage.updateFailed	更新组织失败
+enterprise.orgsPage.updateNameLimits	更新名称和上限
+enterprise.orgsPage.updated	组织更新成功
+enterprise.orgsPage.updating	正在更新组织…
+enterprise.patInventory.revokeFailed	吊销「{{name}}」失败。
+enterprise.patInventory.revoked	已吊销「{{name}}」。
+enterprise.patPolicies.andMore	…还有 {{count}} 个
+enterprise.patPolicies.applying	正在应用…
+enterprise.patPolicies.approvalQueue	批准队列
+enterprise.patPolicies.columnName	名称
+enterprise.patPolicies.columnOwner	所有者
+enterprise.patPolicies.confirmTitle	确认策略更改
+enterprise.patPolicies.loadFailed	加载策略失败。
+enterprise.patPolicies.maxExpiration	最长有效期（天）
+enterprise.patPolicies.maxExpirationError	最长有效期必须是 1 到 {{max}} 天的整数。
+enterprise.patPolicies.maxExpirationHelp	每个令牌必须在此窗口内过期（1–{{max}} 天）。
+enterprise.patPolicies.modeApprovalRequired	需要批准
+enterprise.patPolicies.modeDisabled	已禁用
+enterprise.patPolicies.patInventory	PAT 清单
+enterprise.patPolicies.policyMode	策略模式
+enterprise.patPolicies.policyModeDesc	控制此企业内 PAT 的创建方式。
+enterprise.patPolicies.policySettings	策略设置
+enterprise.patPolicies.reactivatedNote_one	{{count}} 个现有令牌恢复可用
+enterprise.patPolicies.reactivatedNote_other	{{count}} 个现有令牌恢复可用
+enterprise.patPolicies.revokeApply	吊销并应用
+enterprise.patPolicies.revokeWarning_one	此更改将吊销 {{count}} 个不合规的令牌。
+enterprise.patPolicies.revokeWarning_other	此更改将吊销 {{count}} 个不合规的令牌。
+enterprise.patPolicies.revokedNote_one	已吊销 {{count}} 个令牌
+enterprise.patPolicies.revokedNote_other	已吊销 {{count}} 个令牌
+enterprise.patPolicies.selectMode	选择策略模式
+enterprise.patPolicies.selfServe	自助
+enterprise.patPolicies.updateFailed	更新策略失败。
+enterprise.patPolicies.updated	策略已更新。
+enterprise.patPolicies.updatedWithNotes	策略已更新。{{notes}}。
+enterprise.patPolicies.violationDisabled	PAT 已被策略禁用
+enterprise.patPolicies.violationExceeds	超过最长有效期
+enterprise.patPolicies.violationMissing	缺过期日期
+enterprise.patPolicies.violations	违规
+enterprise.removeFromEnterprise.error	把 {{name}} 从企业移除失败
+enterprise.removeFromEnterprise.loading	正在把 {{name}} 从企业移除…
+enterprise.removeFromEnterprise.success	已成功把 {{name}} 从企业移除
+enterprise.removeGroups.button	移除组
+enterprise.removeGroups.confirm	移除
+enterprise.removeGroups.description	这会从企业及其所有组织永久移除所选组。此操作无法撤销。
+enterprise.removeGroups.noneSelected	未选择组
+enterprise.removeGroups.title	从企业移除组？
+enterprise.removeUsers.button	移除成员
+enterprise.removeUsers.cannotRemoveSelf	你不能把自己从企业移除
+enterprise.removeUsers.confirm	移除
+enterprise.removeUsers.description	从企业及其所有组织永久移除所选用户
+enterprise.removeUsers.noneSelected	未选择用户
+enterprise.removeUsers.title	从企业移除成员？
+enterprise.roles.loading	正在加载角色…
+enterprise.roles.select	选择角色…
+enterprise.searchOrganizationPlaceholder	搜索组织
+enterprise.selectDatePreset	选择日期预设
+enterprise.subcategories.createError	创建子类别失败
+enterprise.subcategories.createLoading	正在创建子类别…
+enterprise.subcategories.createSuccess	子类别创建成功
+enterprise.subcategories.deleteError	删除子类别失败
+enterprise.subcategories.deleteLoading	正在删除子类别…
+enterprise.subcategories.deleteSuccess	子类别删除成功
+enterprise.subcategories.others	其他
+enterprise.subcategories.suggestError	生成建议失败。请重试。
+enterprise.subcategories.updateError	保存子类别更改失败
+enterprise.subcategories.updateLoading	正在保存子类别更改…
+enterprise.subcategories.updateSuccess	子类别更改保存成功
+enterprise.unifiedNoSessionPermission	你的账户还没有启动 Devin 会话的权限。请让你的企业管理员把它加到你的角色。
+enterprise.welcome	欢迎
+enterpriseApiKeys.page.allOrganizations	全部组织
+enterpriseApiKeys.page.alreadyHasServiceKey	已有服务密钥
+enterpriseApiKeys.page.noResults	未找到结果。
+enterpriseApiKeys.page.provisionDescription	选择一个组织为其开通服务 API 密钥。每个组织同时只能有一个服务密钥。
+enterpriseApiKeys.page.provisionFailed	开通服务密钥失败
+enterpriseApiKeys.page.provisionKey	开通密钥
+enterpriseApiKeys.page.provisionServiceKey	开通服务密钥
+enterpriseApiKeys.page.provisionSuccess	服务密钥开通成功
+enterpriseApiKeys.page.provisionTitle	开通服务 API 密钥
+enterpriseApiKeys.page.provisioning	正在开通…
+enterpriseApiKeys.page.revokeAll	吊销全部 API 密钥
+enterpriseApiKeys.page.revokeAllConfirm	全部吊销
+enterpriseApiKeys.page.revokeAllDescription	这会吊销全企业的所有有效 API 密钥。此操作无法撤销。
+enterpriseApiKeys.page.revokeAllTitle	吊销全部 API 密钥？
+enterpriseApiKeys.page.revokeFailed	吊销 API 密钥失败
+enterpriseApiKeys.page.searchKeys	搜索密钥
+enterpriseApiKeys.page.searchPlaceholder	搜索…
+enterpriseApiKeys.page.selectOption	选择选项…
+enterpriseApiKeys.page.selectOrganization	请选择一个组织
+enterpriseApiKeys.page.unknownOrganization	未知组织
+enterpriseApiKeys.table.created	创建时间
+enterpriseApiKeys.table.emptyDescription	开通一个服务密钥后会列在这里。
+enterpriseApiKeys.table.emptyTitle	还没有 API 密钥
+enterpriseApiKeys.table.loading	正在加载 API 密钥…
+enterpriseApiKeys.table.name	名称
+enterpriseApiKeys.table.noResults	未找到 API 密钥。
+enterpriseApiKeys.table.organization	组织
+enterpriseApiKeys.table.revoke	吊销 API 密钥
+enterpriseApiKeys.table.type	类型
+enterpriseApiKeys.table.typeOrganization	组织
+enterpriseApiKeys.table.typeUser	用户
+enterpriseApiKeys.table.unknown	未知
+enterpriseApiKeys.table.updating	正在更新…
+enterpriseFeatureFlags.mayStillBeEnabled	已对此企业移除，但 Unleash 里其他规则可能仍对部分或全部用户开着。请查 Unleash。
+enterpriseFeatureFlags.turnedOff	已关闭 {{flag}}。已打开 Devin 的用户需要刷新。
+enterpriseFeatureFlags.turnedOn	已开启 {{flag}}。已打开 Devin 的用户需要刷新。
+enterpriseFeatureFlags.turningOff	正在关闭…
+enterpriseFeatureFlags.turningOn	正在开启…
+enterpriseMarketplaceAvailability.cancel	取消
+enterpriseMarketplaceAvailability.description	你企业中的组织能在市场看到并安装哪些 MCP 服务器。隐藏一个会阻止新安装；已安装的组织保留访问，直到在那里停用或卸载。
+enterpriseMarketplaceAvailability.empty	没有可用的市场服务器。
+enterpriseMarketplaceAvailability.hidden	已从市场隐藏
+enterpriseMarketplaceAvailability.hideConfirm	从市场隐藏
+enterpriseMarketplaceAvailability.hideDescription_one	{{count}} 个组织已有安装且会保持可用（包括自动化中）。要切断访问，请在每个组织中停用或卸载此 MCP。
+enterpriseMarketplaceAvailability.hideDescription_other	{{count}} 个组织已有安装且会保持可用（包括自动化中）。要切断访问，请在每个组织中停用或卸载此 MCP。
+enterpriseMarketplaceAvailability.hideFailed	无法把 {{name}} 从市场隐藏
+enterpriseMarketplaceAvailability.hideTitle	把 {{name}} 从市场隐藏？
+enterpriseMarketplaceAvailability.loadError	无法加载市场服务器。
+enterpriseMarketplaceAvailability.noMatches	没有匹配你搜索的市场服务器。
+enterpriseMarketplaceAvailability.search	搜索市场服务器
+enterpriseMarketplaceAvailability.showFailed	无法在市场显示 {{name}}
+enterpriseMarketplaceAvailability.showSwitch	在市场显示 {{name}}
+enterpriseMarketplaceAvailability.shown	已在市场显示
+enterpriseMarketplaceAvailability.shownInstalled_one	已在市场显示 · 已在 {{count}} 个组织安装
+enterpriseMarketplaceAvailability.shownInstalled_other	已在市场显示 · 已在 {{count}} 个组织安装
+enterpriseMarketplaceAvailability.title	市场可用性
+enterpriseMcp.management.allOrganizations	全部组织
+enterpriseMcp.management.loadError	加载 MCP 服务器出错

@@ -1,0 +1,125 @@
+vs/sessions/contrib/remoteSessions/browser/remoteSessionSource/remoteMessage.unknownChat	确切会话或聊天不再可用：{0}
+vs/sessions/contrib/remoteSessions/browser/remoteSessionSource/remoteMessage.unqualifiedReference	用远程会话工具返的带主机限定的确切会话或聊天引用。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionSource/remoteMessage.unsupportedSource	远程委派要 Agent Host 上的源聊天。不支持别的聊天提供商。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.create.automaticHost	一个匹配的远程主机
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.create.baseBranch	Worktree 基分支：{0}
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.create.confirmation	在 {0} 起此任务？主机按所请资源和当前负载从你已连的远程 agent host 选。新会话可回消息给此聊天。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.create.confirmationTitle	建远程会话？
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.create.description	委派活给匹配的远程 agent host
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.create.displayName	建远程会话
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.create.invocation	建远程会话中
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.create.missingContext	建远程会话要一个源会话。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.create.model	模型：{0}/{1}
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.create.noWorkspace	不从此会话继承工作区或文件。
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.create.past	已建远程会话
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.create.requirements	要求：{0}
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.create.result	已在 {0} 建远程会话
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.create.workspace	工作区：{0}（{1}）
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.list.description	列已连远程 agent host 及其资源
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.list.displayName	列 Agent Host
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.list.invocation	读远程 agent host 中
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.list.past	已读远程 agent host
+vs/sessions/contrib/remoteSessions/browser/remoteSessionTools/remoteSessions.list.result	已列 {0} 个远程 agent host
+vs/sessions/contrib/remoteSessions/browser/sendRemoteMessageTool/remoteMessage.confirmation	发此消息给 {1} 上的 {0}？它会用目标聊天现有权限并排在活跃或待决轮后。
+vs/sessions/contrib/remoteSessions/browser/sendRemoteMessageTool/remoteMessage.confirmationTitle	发远程消息
+vs/sessions/contrib/remoteSessions/browser/sendRemoteMessageTool/remoteMessage.description	发消息给已连 agent host 上的会话
+vs/sessions/contrib/remoteSessions/browser/sendRemoteMessageTool/remoteMessage.displayName	发远程消息
+vs/sessions/contrib/remoteSessions/browser/sendRemoteMessageTool/remoteMessage.invocation	发远程消息中
+vs/sessions/contrib/remoteSessions/browser/sendRemoteMessageTool/remoteMessage.missingContext	远程消息要源聊天。
+vs/sessions/contrib/remoteSessions/browser/sendRemoteMessageTool/remoteMessage.past	已处理远程消息
+vs/sessions/contrib/remoteSessions/browser/sendRemoteMessageTool/remoteMessage.queued	已在 {0} 排队消息
+vs/sessions/contrib/remoteSessions/browser/sendRemoteMessageTool/remoteMessage.sent	已在 {0} 发消息
+vs/sessions/contrib/remoteSessions/common/remoteSessionInspection/remoteInspection.invalidInput	给远程会话工具返的确切会话或聊天引用。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.branchRequiresWorktree	{0} 要 {1} 隔离；现有 checkout 永不切到别的分支。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.capabilitiesPending	还没收到主机能力。等主机发现完再建远程会话。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.cpuCountUnknown	要 {0} 逻辑 CPU；主机报未知。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.delegationUnsupported	主机不支持远程会话委派。更新 agent host。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.hostIdMismatch	主机 ID 不匹配。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.hostNotConnected	主机 {0}。建远程会话前先建连接；其能力还没拿到。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.insufficientCpuCount	要 {0} 逻辑 CPU；主机报 {1}。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.insufficientMemory	要 {0} GiB 内存；主机报 {1} GiB。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.invalidInteger	{0} 须是正整数。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.invalidIsolation	{0} 须是 {1} 或 {2}。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.invalidNumber	{0} 须是正数。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.invalidObject	{0} 须是对象。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.invalidPlatform	{0} 须是 {1}、{2} 或 {3}。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.invalidText	{0} 须是非空字符串。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.invalidWorkspace	{0} 须用 file URI 或来自 {1} 的远程工作区 URI 标绝对文件夹。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.memoryUnknown	要 {0} GiB 内存；主机报未知。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.modelUnavailable	模型 {0}/{1} 不可用。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.noAgents	没已广播的可用 agent。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.platformMismatch	要平台 {0}；主机报 {1}。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.platformUnknown	要平台 {0}；主机报未知。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.titleTooLong	{0} 不得超 {1} 字符。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.unknownProperty	未知 {0} 属性 "{1}"。
+vs/sessions/contrib/remoteSessions/common/remoteSessions/remoteSessions.workloadUnavailable	跑中会话数还没拿到。
+vs/sessions/contrib/search/browser/searchEditorEmptyState.contribution/searchEditor.emptyDescription	在你文件里搜文本
+vs/sessions/contrib/search/browser/searchEditorEmptyState.contribution/searchEditor.emptyTitle	搜索
+vs/sessions/contrib/sessionComparison/browser/sessionComparison.contribution/openSessionComparison	开尝试比较
+vs/sessions/contrib/sessionComparison/browser/sessionComparisonTool/sessionComparison.readTool.displayName	读尝试比较
+vs/sessions/contrib/sessionComparison/browser/sessionComparisonTool/sessionComparison.readTool.invocationMessage	读尝试比较中
+vs/sessions/contrib/sessionComparison/browser/sessionComparisonTool/sessionComparison.readTool.pastTenseMessage	已读尝试比较
+vs/sessions/contrib/sessionComparison/browser/sessionComparisonTool/sessionComparison.readTool.userDescription	读活跃比较的尝试和证据
+vs/sessions/contrib/sessionComparison/browser/sessionComparisonTool/sessionComparison.tool.displayName	交尝试比较
+vs/sessions/contrib/sessionComparison/browser/sessionComparisonTool/sessionComparison.tool.error	尝试比较提交失败
+vs/sessions/contrib/sessionComparison/browser/sessionComparisonTool/sessionComparison.tool.invocationMessage	提交尝试比较中
+vs/sessions/contrib/sessionComparison/browser/sessionComparisonTool/sessionComparison.tool.pastTenseMessage	已交尝试比较
+vs/sessions/contrib/sessionComparison/browser/sessionComparisonTool/sessionComparison.tool.result	已交尝试比较
+vs/sessions/contrib/sessionComparison/browser/sessionComparisonTool/sessionComparison.tool.userDescription	交评判的结构化尝试比较
+vs/sessions/contrib/sessionComparison/browser/sessionComparisonTool/sessionComparison.toolSet.description	比较实现尝试
+vs/sessions/contrib/sessionComparison/browser/sessionComparisonViewService/sessionComparison.missing	此比较不再可用。
+vs/sessions/contrib/sessionComparison/browser/sessionComparisonViewService/sessionComparison.noAttempts	没可开的比较尝试。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupAccessibilityHelp/sessionWorktreeCleanupHelp.automatic	「清理设置」区可自动标已合拉取请求会话完，可选保留期后删。还含开/关存储清理建议的设置。每设置有「在设置里配置」按钮，开筛到该设置的设置编辑器。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupAccessibilityHelp/sessionWorktreeCleanupHelp.cleanup	激活「清理 Worktree」确认后删所选会话的 worktree 并标其完。至少选一个会话前禁用，其标签报会清几个 worktree。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupAccessibilityHelp/sessionWorktreeCleanupHelp.filter	用「未动时长」选择器选会话要不活跃多久才合格。改了会重测存储并更新表和摘要。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupAccessibilityHelp/sessionWorktreeCleanupHelp.overview	你在「开 worktree 清理」编辑器。它列不活跃且可清的 agent 会话 worktree，供你回收其占的磁盘空间。清会话标其完并删其 worktree；后可恢复会话重建。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupAccessibilityHelp/sessionWorktreeCleanupHelp.reopen	随时回此编辑器：命令面板、会话更多操作菜单或会话上下文菜单跑「开 Worktree 清理」。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupAccessibilityHelp/sessionWorktreeCleanupHelp.summary	表上方摘要行报几个 worktree 合格、约用多少存储。旁边信息按钮解释会话为何含或排。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupAccessibilityHelp/sessionWorktreeCleanupHelp.table	表每合格会话一行，带标题、上次用时、worktree 大小。Tab 进表。每行有勾选框和开会话的会话标题链接，表头「全选」勾切全部合格行。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.ageLabel	未动时长
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.autoDelete	自动完成会话后永久删除
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.autoDeleteAria	自动删已完成已合会话
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.autoMark	已合会话后标完
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.autoMarkAria	自动标已合会话完
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.automaticDescription	这些选项改你的设置。已合拉取请求：先自动标不活跃会话完，可选再额外保留期后删。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.automaticHeading	清理设置
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.cleanupButton	清理 Worktree
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.cleanupSelection	清 {0} 个 Worktree
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.configureInSettings	在设置里配 {0}
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.days	{0} 天
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.daysSuffix	天
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.eligibilityDescription	含未动至少 {0} 天且不活跃、不跑中、不待输入、不置顶、未完成、非无名、非错误态的会话。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.eligibilityInfo	为何这些会话可标完
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.heading	开 worktree 清理
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.intro	超所选期的不活跃未置顶会话可清，回收其 worktree 占的磁盘。清会话标其完并删其 worktree；后可恢复会话重建。活跃、跑中、待输入、置顶会话总受保。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.lastUsedColumn	上次用
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.loadCanceled	worktree 测量已取消。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.loadFailed	worktree 存储测不了。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.loading	测 worktree 存储中…
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.openSession	开 {0}
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.selectAll	选全部合格会话
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.selectSession	选 {0}
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.sessionColumn	会话
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.settingDays	{0} 天
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.storageColumn	存储
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.suggestion	会话存储变大时建议清理
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.suggestionDescription	Agents 窗口开时和会话变后勾查，磁盘用量至多每小时测一次。至少 {0} 个不活跃 worktree 合格或合格 worktree 用至少 {1} 时，会话列表下显建议。忽略后藏到窗口重载。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.tableLabel	Agent 会话 worktree
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.tooRecentMany	另 {0} 个在最近 {1} 天内用过。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.tooRecentOne	另 1 个在最近 {0} 天内用过。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.untitled	无名会话
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditor/sessionWorktreeCleanup.worktreeSummary	{1} 个中 {0} 个不活跃至少 {2} 天的 worktree 可清，回收约 {3}。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupEditorInput/sessionWorktreeCleanupEditor.name	开 worktree 清理
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupService/worktreeCleanup.archived.many	已起 {0} 个 worktree 的清理。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupService/worktreeCleanup.archived.one	已起 1 个 worktree 的清理。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupService/worktreeCleanup.cleaning.many	排 {0} 个 agent 会话 worktree 的清理…
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupService/worktreeCleanup.cleaning.one	排 1 个 agent 会话 worktree 的清理…
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupService/worktreeCleanup.cleaningProgress	已排 {1} 中 {0} 个 worktree
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupService/worktreeCleanup.confirm.detail	这回收约 {0} 并标所选会话完。后可恢复会话重建其 worktree。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupService/worktreeCleanup.confirm.many	清 {0} 个 worktree？
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupService/worktreeCleanup.confirm.one	清 1 个 worktree？
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupService/worktreeCleanup.confirm.primary	清理
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupService/worktreeCleanup.measuringProgress	测 agent 会话 worktree 中…
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupService/worktreeCleanup.measuringProgressCount	已扫 {1} 中 {0} 个 worktree
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupService/worktreeCleanup.nudge.descriptionMany	{0} 个 agent 会话 worktree 不活跃至少 15 天，可清，回收约 {1}。
+vs/sessions/contrib/sessionInputBanners/browser/sessionWorktreeCleanupService/worktreeCleanup.nudge.descriptionOne	1 个 agent 会话 worktree 不活跃至少 15 天，可清，回收约 {0}。

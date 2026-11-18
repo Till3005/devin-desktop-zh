@@ -1,0 +1,287 @@
+oncall.contextEmptyDescription	Devin 为此组织生成 oncall 技能后会显示在这里。
+oncall.contextEmptyHeading	还没有 oncall 技能
+oncall.contextInstructionsPlaceholder	每个 oncall 会话该遵守的说明，Markdown 格式
+oncall.contextLoadError	加载 oncall 上下文失败。试试刷新页面。
+oncall.contextModified	已修改默认
+oncall.contextOpenSkill	打开 {{name}}
+oncall.contextResetToDefault	重置为默认
+oncall.contextSave	保存
+oncall.contextSaveConflict	内容自加载后有变化。刷新并重试。
+oncall.contextSaveError	保存失败。检查内容后重试。
+oncall.contextSaveForbidden	你保存不了这个：它的会话以你不能扮演的身份运行，或在你不能用的环境里。请问那个人，或把它们移到服务用户。
+oncall.contextSectionTitle	说明
+oncall.contextSetupDescription	重看引导向导
+oncall.contextSetupOpen	审查设置
+oncall.contextSetupTitle	引导
+oncall.contextSkillDescriptionFallback	无描述
+oncall.contextSkillsRefreshFailed	启动技能更新失败。请重试。
+oncall.contextSkillsRefreshFrequencyLabel	技能更新频率
+oncall.contextSkillsRefreshFrequencySaveFailed	保存更新频率失败。请重试。
+oncall.contextSkillsRefreshMonthly	每月
+oncall.contextSkillsRefreshNever	从不
+oncall.contextSkillsRefreshNotScheduled	未排期
+oncall.contextSkillsRefreshNow	立即更新技能
+oncall.contextSkillsRefreshWeekly	每周
+oncall.contextSkillsRefreshing	正在更新技能…
+oncall.contextSkillsTitle	技能
+oncall.create	创建 responder
+oncall.createResponder	创建 responder
+oncall.createResponderNoPermission	需要「管理 Oncall」权限才能创建 responder。请向组织管理员申请。
+oncall.creating	正在创建…
+oncall.digestScheduled	周报已排期
+oncall.digestSettingUp	正在设置摘要…
+oncall.digestSetupFailed	设置摘要失败
+oncall.editResponder	编辑 responder
+oncall.emptyDescription	让 Devin 用遥测数据、代码、部署、相关 runbook 和过往事件自动响应排查告警和 bug，给出可能的根因和建议的下一步。
+oncall.emptyHeading	先创建一个 responder
+oncall.enterpriseAddRule	添加规则
+oncall.enterpriseDestinationConfig	Oncall 配置
+oncall.enterpriseDestinationOrgDescription	每个事件频道都在此组织或 Oncall 配置中开始事件。
+oncall.enterpriseDestinationOrgLabel	目标 Oncall
+oncall.enterpriseIncidentSettingsSaved	企业事件设置已保存
+oncall.enterpriseIncidentSourcePagerDutyNeedsSlack	PagerDuty（先连 Slack）
+oncall.enterpriseIncidentSourcePagerDutyNotConnected	PagerDuty（未连接）
+oncall.enterpriseIncidentSourceSlackNotConnected	Slack（未连接）
+oncall.enterpriseIncidentSourceTeamsNotConnected	Microsoft Teams（未连接）
+oncall.enterpriseIncidentsSectionDescription	配置 Devin 在事件中的行为
+oncall.enterpriseIncidentsSectionLabel	事件
+oncall.enterpriseMultiOrgDescription	允许在此管理事件源并把事件路由到多个组织
+oncall.enterpriseMultiOrgLabel	在多个组织中启用事件
+oncall.enterpriseOrgOncallNotSetUp	此组织还没开始 Oncall 设置。请在那里开始，或选别的组织。
+oncall.enterpriseOrgOncallSetupFailed	此组织 Oncall 设置失败。请在那里重试；设置完成前事件不会在这里跑。
+oncall.enterpriseOrgOncallSetupInProgress	此组织 Oncall 设置还没完成。完成前事件不会在这里跑。
+oncall.enterpriseOrgPlaceholder	选择一个目标
+oncall.enterprisePageDescription	Devin Oncall 的企业级偏好与设置
+oncall.enterprisePagerDutyNotConnected	PagerDuty 还没连到此账户。
+oncall.enterpriseRemoveRule	移除规则
+oncall.enterpriseRuleIncomplete	每条规则需要一个值和一个组织。
+oncall.enterpriseRuleKindEscalationPolicy	升级策略
+oncall.enterpriseRuleKindLabel	匹配依据
+oncall.enterpriseRuleKindService	服务
+oncall.enterpriseRuleKindTeam	团队
+oncall.enterpriseRuleOptionsLoading	加载中…
+oncall.enterpriseRuleValueLabel	值
+oncall.enterpriseRulesDescription	如何决定在哪个组织开始事件会话
+oncall.enterpriseRulesLabel	路由规则
+oncall.enterpriseTurnOffConfirm	关闭
+oncall.enterpriseTurnOffDescription	所有组织的事件都会关闭，企业事件源、路由规则和默认回退会被重置。在某个组织中重新开启事件即可继续在那里用。
+oncall.enterpriseTurnOffTitle	关闭多个组织中的事件？
+oncall.enterpriseUnmatchedDescription	没有规则匹配的事件怎么处理
+oncall.enterpriseUnmatchedLabel	默认回退
+oncall.enterpriseUnmatchedNoIncident	无（不建事件）
+oncall.incidentAutoJoinDescription	自动把 Devin 加进匹配事件频道前缀的新建频道。只有公开频道能自动加入。
+oncall.incidentAutoJoinLabel	自动加入事件频道
+oncall.incidentAutoJoinMissingScope	请在「连接」中重新授权 Devin 以自动加入 Slack 频道。
+oncall.incidentChannelColumn	事件
+oncall.incidentChannelPrefixLabel	频道前缀
+oncall.incidentConfigRoutedByEnterprise	企业设置把事件路由到此配置。在那里移除它的路由才能关掉事件。
+oncall.incidentDeleteFailed	删除事件失败
+oncall.incidentDeleted	事件已删除
+oncall.incidentDeleting	正在删除事件…
+oncall.incidentDevinModeDescription	主事件 Devin 会话的模式。
+oncall.incidentEnabledConnectSlack	连接 Slack
+oncall.incidentEnabledDescription	开启让 Devin 在你的事件中帮忙
+oncall.incidentEnabledElsewhere	此账户另一个组织或 Oncall 配置里事件已开。关掉那边的才能在这里开。
+oncall.incidentEnabledElsewhereMultiOrg	允许此账户多个组织或 Oncall 配置同时开事件。在企业设置中管理
+oncall.incidentEnabledLabel	启用事件
+oncall.incidentEnabledNoSlack	为你的组织连接 Slack 以启用事件。
+oncall.incidentMcpsDescription	选择事件会话该用哪些连接器
+oncall.incidentMonitoringOff	事件监控已关
+oncall.incidentNoSessionYet	启动中…
+oncall.incidentNonOrgMentionsDescription	允许当前组织之外的用户在事件频道中与 Devin 交互。会话仍以事件配置的身份运行。
+oncall.incidentNonOrgMentionsDescription_config	允许没有此 Oncall 环境访问权的人在事件频道中与 Devin 交互。会话仍以事件配置的身份运行。
+oncall.incidentNonOrgMentionsLabel	允许组织外用户参与
+oncall.incidentNonOrgMentionsLabel_config	允许无环境访问权的人参与
+oncall.incidentPagerDutyMissingJoinScope	Devin 还进不了 PagerDuty 的频道：Slack 连接缺 channels:join scope。
+oncall.incidentPagerDutyPrefixDescription	当 Devin 加入带此前缀的 Slack 频道并被 PagerDuty 触发时，开始主动排查。必须与 PagerDuty 中设的频道名匹配。
+oncall.incidentPagerDutyReconnectSlack	重新授权 Slack
+oncall.incidentPrefixDescription	当 Devin 加入带此前缀的 Slack 频道时，开始主动排查。
+oncall.incidentPrefixLabel	Slack 频道前缀
+oncall.incidentPrefixPlaceholder	incident-
+oncall.incidentResponseModeDescription	选择 Devin 发出可能根因后是否继续排查。
+oncall.incidentResponseModeLabel	响应模式
+oncall.incidentResponseModeOneShot	一次性 RCA
+oncall.incidentResponseModeOneShotDescription	Devin 发出带置信度的可能根因，然后等待有人点「开始主动模式」。
+oncall.incidentResponseModeProactive	主动
+oncall.incidentResponseModeProactiveDescription	Devin 发出可能根因后继续排查、发更新并维护事件报告。
+oncall.incidentResume	恢复
+oncall.incidentResumed	事件已恢复
+oncall.incidentRoutingManagedByEnterprise	事件路由由企业设置管理
+oncall.incidentRunbookDescription	为每个事件会话提供的说明。
+oncall.incidentRunbookPlaceholder	如：描述 Devin 排查事件时该知道什么
+oncall.incidentRunbookTooLong	Runbook 最多 {{max}} 字符。
+oncall.incidentSessionColumn	会话
+oncall.incidentSessionLink	查看会话
+oncall.incidentSettingsLoadError	无法加载事件设置。
+oncall.incidentSettingsLoadWarning	无法刷新事件设置。显示上次加载的。
+oncall.incidentSettingsSaveFailed	保存事件设置失败
+oncall.incidentSettingsSaved	事件设置已保存
+oncall.incidentSettingsTitle	事件设置
+oncall.incidentSourceDescription	谁告诉 Devin 有新事件频道
+oncall.incidentSourceLabel	事件源
+oncall.incidentSourceManageEnterpriseSettings	管理企业设置
+oncall.incidentSourceManagedDescription	Devin 如何加入事件频道由企业设置管理
+oncall.incidentSourcePagerDuty	PagerDuty
+oncall.incidentSourcePlaceholder	选择一个源
+oncall.incidentSourceSlack	Slack
+oncall.incidentSourceTeams	Microsoft Teams
+oncall.incidentStop	停止
+oncall.incidentStopped	事件已停止
+oncall.incidentStoppedBadge	已停止
+oncall.incidentTeamsPrefixDescription	在名称匹配此前缀的新标准 Teams 频道中开始排查。共享和私密频道不支持。必须在团队中装 Devin app。
+oncall.incidentTeamsUnavailable	Teams 事件不可用。开启 oncall-teams-incidents flag 并连接 Microsoft Teams 以恢复事件监控。
+oncall.incidentUpdateFailed	更新事件失败
+oncall.incidents	事件
+oncall.incidentsEmptyCta	启用事件
+oncall.incidentsEmptyCtaConfigure	配置设置
+oncall.incidentsEmptyDescription	Devin 加入你的事件频道，综合全栈信号，生成自动更新的报告，让你专注解决事件。
+oncall.incidentsEmptyHeading	事件中的得力助手
+oncall.incidentsLoadError	无法加载事件。
+oncall.incidentsLoadWarning	无法刷新事件。显示上次加载的。
+oncall.initialInvestigationModeDescription	初始排查的 Agent 模式。
+oncall.initialInvestigationModeLabel	初始排查模式
+oncall.investigationModeInfoLabel	关于排查模式
+oncall.investigationModeLabel	排查模式
+oncall.investigationModeTooltip	responder 用跑在 Normal 的单个父会话或分诊会话；排查模式为 Lite 时跑在 Lite。
+oncall.limitsLabel	限制
+oncall.mcpsDescription	选择此 responder 该用哪些连接器
+oncall.metadataDescription	加键值对组织和筛选你的 responder
+oncall.metadataIncomplete	每条元数据必须含键和值
+oncall.nameDescription	此 responder 的简短描述名
+oncall.nameLabel	名称
+oncall.namePlaceholder	生产告警
+oncall.nameRequired	名称为必填项
+oncall.newResponder	新 responder
+oncall.noMatchingResponders	没有匹配你搜索的 responder。
+oncall.noRespondersYet	还没有 responder。
+oncall.overview	总览
+oncall.overviewAlertsReported	告警与 bug 报告
+oncall.overviewGroupedCount_one	{{count}} 个事件已分组
+oncall.overviewGroupedCount_other	{{count}} 个事件已分组
+oncall.overviewIncidentCount_one	{{count}} 个事件
+oncall.overviewIncidentCount_other	{{count}} 个事件
+oncall.overviewIncidentMonitoringOn	事件监控已开
+oncall.overviewIncidentsInvestigated	已排查事件
+oncall.overviewInvestigatedCount_one	已排查 {{count}} 个问题
+oncall.overviewInvestigatedCount_other	已排查 {{count}} 个问题
+oncall.overviewIssuesFixed	已修复问题
+oncall.overviewIssuesIdentified	已识别问题
+oncall.overviewResponderCount_one	{{count}} 个 responder
+oncall.overviewResponderCount_other	{{count}} 个 responder
+oncall.pagerDutyConnectCta	连接 PagerDuty
+oncall.pagerDutyNotConnected	创建 PagerDuty responder 前先连接 PagerDuty
+oncall.pagerDutyNotConnectedBanner	PagerDuty 还没连到此账户。请在「设置」中连接以分诊事件。
+oncall.reportCreateFailed	创建报告失败
+oncall.reportCreated	报告创建成功
+oncall.reportCreating	正在创建报告…
+oncall.reportDeleteFailed	删除报告失败
+oncall.reportDeleted	报告删除成功
+oncall.reportDeleting	正在删除报告…
+oncall.reportUpdateFailed	更新报告失败
+oncall.reportUpdated	报告更新成功
+oncall.reportUpdating	正在更新报告…
+oncall.reporting.content.addSection	添加小节
+oncall.reporting.content.contextDescription	Devin 写此报告时该知道的，如仪表盘、指标和你关心的事。
+oncall.reporting.content.contextLabel	上下文
+oncall.reporting.content.contextPlaceholder	核心指标：500 错误率（目标 <0.1%）和 p95 延迟。仪表盘：https://…\n行动项分类：客户升级、容量
+oncall.reporting.content.customSectionsDescription	Devin 加到每份报告末尾的额外小节。
+oncall.reporting.content.customSectionsLabel	自定义小节
+oncall.reporting.content.loadFailed	无法加载此报告的上下文和自定义小节。重新打开再试。
+oncall.reporting.content.moveSectionDown	小节下移
+oncall.reporting.content.moveSectionUp	小节上移
+oncall.reporting.content.removeSection	移除小节
+oncall.reporting.content.sectionInstructions	小节说明
+oncall.reporting.content.sectionInstructionsPlaceholder	此小节该含什么
+oncall.reporting.content.sectionTitle	小节标题
+oncall.reporting.content.sectionTitlePlaceholder	常见问题
+oncall.reporting.create	创建报告
+oncall.reporting.createReport	创建报告
+oncall.reporting.createServiceUser	创建服务用户
+oncall.reporting.deleteReport	删除报告
+oncall.reporting.deleteReportConfirm	确定要删除「{{name}}」？其周报自动化也一并删除；responder 不受影响。
+oncall.reporting.deselectAll	全部取消选择
+oncall.reporting.digestMcpsDescription	选择摘要的会话该用哪些连接器
+oncall.reporting.digestPaused	摘要已暂停
+oncall.reporting.digestSheet.enabled	已启用
+oncall.reporting.digestSheet.enabledDescription	启用周期报告生成
+oncall.reporting.digestSheet.instructions	说明
+oncall.reporting.digestSheet.instructionsDescription	描述报告该含什么
+oncall.reporting.digestSheet.loadError	无法加载摘要自动化。
+oncall.reporting.digestSheet.microsoftTeams	Microsoft Teams
+oncall.reporting.digestSheet.noSchedule	无周期排期。
+oncall.reporting.digestSheet.noSessionAction	此自动化不启动会话，因此其说明和通知不能在此编辑。用「查看自动化」。
+oncall.reporting.digestSheet.notifications	通知
+oncall.reporting.digestSheet.notificationsDescription	报告生成时提醒
+oncall.reporting.digestSheet.postDigestTo	摘要发到
+oncall.reporting.digestSheet.schedule	排期
+oncall.reporting.digestSheet.scheduleDescription	按此节奏生成报告
+oncall.reporting.digestSheet.selectProvider	目标
+oncall.reporting.digestSheet.slack	Slack
+oncall.reporting.edit	编辑
+oncall.reporting.editReport	编辑报告
+oncall.reporting.emptyDescription	获得你 oncall 的周期报告——已排查事件、已报告告警与 bug、已识别问题、已交付修复，以及 Devin 对成因的洞察。
+oncall.reporting.emptyHeading	创建你的第一份报告
+oncall.reporting.generateReport	生成报告
+oncall.reporting.generatedOn	生成于 {{date}}
+oncall.reporting.groupedLegend	已分组
+oncall.reporting.incidentsMatchDescription	描述哪些事件该进此报告。留空则不含事件
+oncall.reporting.incidentsMatchLabel	事件匹配
+oncall.reporting.incidentsMatchPlaceholder	影响支付服务或结账流程的事件
+oncall.reporting.investigated	已排查
+oncall.reporting.lastUpdatedAt	最近更新 {{date}}
+oncall.reporting.matchBy	匹配依据
+oncall.reporting.matchByDescription	选择按什么匹配 responder
+oncall.reporting.matchByMetadataOption	元数据
+oncall.reporting.matchByRespondersOption	单个 responder
+oncall.reporting.metadataPlaceholder	team:payments
+oncall.reporting.namePlaceholder	支付分诊
+oncall.reporting.noDigestScheduled	还没有摘要排期
+oncall.reporting.noMatchingReports	没有匹配你搜索的报告。
+oncall.reporting.noRespondersToAdd	还没有 responder——先创建一个。
+oncall.reporting.notFound	此报告不存在或已被删除。
+oncall.reporting.paused	已暂停
+oncall.reporting.prsPanel.lastDays	最近 {{days}} 天
+oncall.reporting.prsPanel.merged	已合并
+oncall.reporting.prsPanel.open	打开
+oncall.reporting.prsPanel.state.draft	草稿
+oncall.reporting.prsPanel.state.merged	已合并
+oncall.reporting.prsPanel.state.open	打开
+oncall.reporting.prsPanel.subtitle	{{period}} · {{merged}} 已合并 · {{open}} 打开
+oncall.reporting.prsPanel.title_mr	合并请求
+oncall.reporting.prsPanel.title_pr	拉取请求
+oncall.reporting.prsPanelFooter_mr	最近 {{days}} 天 Devin 从 responder 会话开出的合并请求。
+oncall.reporting.prsPanelFooter_pr	最近 {{days}} 天 Devin 从 responder 会话开出的拉取请求。
+oncall.reporting.removeMetadata	移除元数据
+oncall.reporting.reportFallback	报告
+oncall.reporting.reports	报告
+oncall.reporting.reportsError	无法加载报告。
+oncall.reporting.responderCount_one	{{count}} 个 responder
+oncall.reporting.responderCount_other	{{count}} 个 responder
+oncall.reporting.respondersLoadError	无法加载 responder。重试以继续。
+oncall.reporting.respondersLoadWarning	无法刷新 responder。显示上次加载的。保存前请重试。
+oncall.reporting.respondersLoading	正在加载 responder…
+oncall.reporting.respondersMatchDescription	选择用哪些 responder 的数据生成报告
+oncall.reporting.respondersMatchLabel	responder 匹配
+oncall.reporting.retry	重试
+oncall.reporting.run.actionItemsTitle	行动项
+oncall.reporting.run.copyActionItem	复制行动项：{{title}}
+oncall.reporting.run.copyReport	复制报告
+oncall.reporting.run.copySection	复制 {{section}}
+oncall.reporting.run.empty.prs	此期间无 Devin PR。
+oncall.reporting.run.firstRunScheduled	你的第一份报告将按排期生成。
+oncall.reporting.run.generating	正在生成报告——几分钟后出现在这里。
+oncall.reporting.run.generatingShort	正在生成…
+oncall.reporting.run.handoffTitle	交接
+oncall.reporting.run.metricSource	仪表盘
+oncall.reporting.run.metricTarget	目标 {{target}}
+oncall.reporting.run.metricsTitle	指标
+oncall.reporting.run.noReport	此运行无报告。
+oncall.reporting.run.noSummary	此运行无摘要。
+oncall.reporting.run.priorityHigh	高
+oncall.reporting.run.priorityLow	低
+oncall.reporting.run.priorityMedium	中
+oncall.reporting.run.prsPanelFooter_mr	此期间 Devin 从此报告的 responder 会话开出的合并请求。
+oncall.reporting.run.prsPanelFooter_pr	此期间 Devin 从此报告的 responder 会话开出的拉取请求。
+oncall.reporting.run.runsError	无法加载报告运行。
+oncall.reporting.run.sessionPrompt	查看完整会话提示词
+oncall.reporting.run.startSession	开始会话

@@ -1,0 +1,152 @@
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.experimental.collapsedSessionOptionsShowIcons	新会话输入上方折叠的会话选项是否把仓库和 harness 选择器留为图标，使其没标签也可用。关时折叠全隐这些控件。此设置只在新会话编写器布局开时生效。
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.experimental.newSessionComposerLayout	新会话编写器是否把工作区、仓库、harness 控件分组到聊天输入上方。此设置只在统一工作区选择器开时生效。
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.experimental.newSessionComposerOptionsExpanded	你首次展开或折叠前会话选项是否展开。此后以你上次选择为准。此设置只在新会话编写器布局开时生效。
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.experimental.welcomeMessages	自定义新会话编写器上方显的欢迎短语。`"mode": "replace"` 只用你的短语，`"mode": "append"` 加进默认。短语里用 `{name}` 定位欢迎名。
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.experimental.welcomeMessages.mode	'replace' 只用你的短语；'append' 把你的短语加进默认。
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.experimental.welcomeMessages.phrases	新会话编写器上方显的欢迎短语。用 `{name}` 定位欢迎名，如 `Back at it, {name}`。没名时 `{name}` 及其周围分隔符会移除。
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.experimental.welcomeName	指定新会话欢迎消息用的名。留空则可用时取你登录 GitHub 资料的名；否则欢迎消息省略名。
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.experimental.welcomePhrases	新会话编写器上方是否显轮换欢迎短语。
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.hideWelcomeMessage	隐藏欢迎消息
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.setWelcomeName.cleared	可用时欢迎名已重置为你的 GitHub 名。
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.setWelcomeName.placeholder	留空则可用时取你的 GitHub 名
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.setWelcomeName.prompt	输新会话欢迎消息用的名
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.setWelcomeName.updated	欢迎名已设为 {0}。
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.focusNewSessionHarnessPicker	聚焦 Harness 选择器
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.focusNewSessionWorkspacePicker	聚焦工作区选择器
+vs/sessions/contrib/chat/browser/chat.contribution/sessionStorageCleanupSuggestionsDisabled	会话存储清理建议已禁。
+vs/sessions/contrib/chat/browser/chat.contribution/sessionWorktreeCleanupEditor	开 worktree 清理编辑器
+vs/sessions/contrib/chat/browser/chatBackgroundTint/chat.agentSessions.backgroundTintDisabled	窗口着色已禁。
+vs/sessions/contrib/chat/browser/chatBackgroundTint/chat.agentSessions.backgroundTintEnabled	窗口着色已开。
+vs/sessions/contrib/chat/browser/chatBackgroundTint/chat.agentSessions.toggleBackgroundTint	窗口着色匹配背景
+vs/sessions/contrib/chat/browser/chatView/sessionComparison.judgeInstructions	评判指令
+vs/sessions/contrib/chat/browser/chatView/sessionComparison.synthesisInstructions	合成指令
+vs/sessions/contrib/chat/browser/chatView/sessionPreparation.attachUnavailable	加附件前等会话准备完。
+vs/sessions/contrib/chat/browser/chatView/sessionPreparation.showLog	显日志
+vs/sessions/contrib/chat/browser/externalSessionBanner/externalSessionBanner.continuation.ariaLabel	外部会话
+vs/sessions/contrib/chat/browser/externalSessionBanner/externalSessionBanner.continue	你可在此续此会话。
+vs/sessions/contrib/chat/browser/externalSessionBanner/externalSessionBanner.continue.claude	你可在此用你的 Copilot 订阅续此会话。
+vs/sessions/contrib/chat/browser/externalSessionBanner/externalSessionBanner.continue.codex	你可在此用你的 ChatGPT 或 Copilot 订阅续此会话。在模型选择器选你的订阅。
+vs/sessions/contrib/chat/browser/mobile/mobileWorkspacePickerSheet/mobileWorkspacePicker.noWorkspaces	没匹配工作区
+vs/sessions/contrib/chat/browser/mobile/mobileWorkspacePickerSheet/mobileWorkspacePicker.searchWorkspaces	搜工作区…
+vs/sessions/contrib/chat/browser/newChatInput/comparisonTokenWarning	这会为每个会话耗 token。
+vs/sessions/contrib/chat/browser/newChatInput/initializing	初始化中…
+vs/sessions/contrib/chat/browser/newChatWidget/comparisonPicker.finishSetup	在模型选择器配完比较。
+vs/sessions/contrib/chat/browser/newChatWidget/comparisonPicker.modelUnavailable	所选比较模型不再可用。更新模型选择器选择。
+vs/sessions/contrib/chat/browser/newChatWidget/comparisonPicker.permissionsUnavailable	比较用不了当前权限。更新草稿权限再试。
+vs/sessions/contrib/chat/browser/newChatWidget/comparisonPicker.runAttempts	跑 {0} 个尝试
+vs/sessions/contrib/chat/browser/newChatWidget/comparisonPicker.unavailable	此草稿的比较不再可用。查其工作区和 agent 配置。
+vs/sessions/contrib/chat/browser/newChatWidget/comparisonPicker.workspaceRequired	给比较选个工作区。
+vs/sessions/contrib/chat/browser/newChatWidget/comparisonPicker.worktreesRequired	所选 agent 不再支持 worktree 比较。
+vs/sessions/contrib/chat/browser/newChatWidget/newSession.agentContextAction	Agent…
+vs/sessions/contrib/chat/browser/newChatWidget/newSession.sendFailed	起会话失败：{0}
+vs/sessions/contrib/chat/browser/newChatWidget/newSession.welcome.actions	欢迎消息操作
+vs/sessions/contrib/chat/browser/newChatWidget/newSession.welcome.announcement	{0}\n要关此播报，把 {1} 设为 false。
+vs/sessions/contrib/chat/browser/newChatWidget/newSessionHarnessPicker.tooltip	选新会话的 harness
+vs/sessions/contrib/chat/browser/newChatWidget/newSessionOptions.collapse	隐会话选项
+vs/sessions/contrib/chat/browser/newChatWidget/newSessionOptions.expand	显会话选项
+vs/sessions/contrib/chat/browser/newChatWidget/newSessionWorkspacePicker.localQuickChat	本地
+vs/sessions/contrib/chat/browser/newChatWidget/newSessionWorkspacePicker.noWorkspaceDescription	无后备工作区起
+vs/sessions/contrib/chat/browser/newChatWidget/newSessionWorkspacePicker.remoteQuickChat	聊天 [{0}]
+vs/sessions/contrib/chat/browser/newChatWidget/newSessionWorkspacePicker.repository	选仓库
+vs/sessions/contrib/chat/browser/newChatWidget/newSessionWorkspacePicker.repositoryAriaLabel	为新会话选仓库
+vs/sessions/contrib/chat/browser/newSessionAction/sessions.newSession.label	新会话
+vs/sessions/contrib/chat/browser/newSessionPickerTryout/newSessionPickerTryout.unavailable	当前 Agents 编写器没所请选择器。
+vs/sessions/contrib/chat/browser/responseSelectionSideChatController/sessions.responseSelection.askWithBtw	侧聊询问
+vs/sessions/contrib/chat/browser/responseSelectionSideChatController/sessions.responseSelection.copied	所选回复文本已复制。
+vs/sessions/contrib/chat/browser/responseSelectionSideChatController/sessions.responseSelection.copy	复制
+vs/sessions/contrib/chat/browser/responseSelectionSideChatController/sessions.responseSelection.copyFailed	所选回复文本复制不了。
+vs/sessions/contrib/chat/browser/responseSelectionSideChatController/sessions.responseSelection.menuAriaLabel	所选回复文本操作
+vs/sessions/contrib/chat/browser/responseSelectionSideChatController/sessions.responseSelection.quote	引用
+vs/sessions/contrib/chat/browser/responseSelectionSideChatController/sessions.responseSelection.quoted	引用选区已插。
+vs/sessions/contrib/chat/browser/sessionArchiveNudge/archiveOnboarding.listUnavailable	会话列表开不了。重试。
+vs/sessions/contrib/chat/browser/sessionArchiveNudge/sessionArchiveNudge.noLongerAvailable	此建议不再可用。审查会话再试。
+vs/sessions/contrib/chat/browser/sessionArchiveNudge/sessionArchiveNudge.updateFailed	会话更新不了。查其连接再试。
+vs/sessions/contrib/chat/browser/sessionArtifacts/sessionArtifacts.artifactRemoved	{0} 已从会话移除。
+vs/sessions/contrib/chat/browser/sessionArtifacts/sessionArtifacts.copyCommitUrl	复制提交 URL
+vs/sessions/contrib/chat/browser/sessionArtifacts/sessionArtifacts.copyFilePath	复制路径
+vs/sessions/contrib/chat/browser/sessionArtifacts/sessionArtifacts.copyFileRelativePath	复制相对路径
+vs/sessions/contrib/chat/browser/sessionArtifacts/sessionArtifacts.copyResourceUri	复制 URI
+vs/sessions/contrib/chat/browser/sessionArtifacts/sessionArtifacts.copyWebsiteUrl	复制网站 URL
+vs/sessions/contrib/chat/browser/sessionArtifacts/sessionArtifacts.removeArtifact	从会话移除产物 {0}
+vs/sessions/contrib/chat/browser/sessionArtifacts/sessionArtifacts.removeArtifactFailed	从会话移不了 {0}：{1}
+vs/sessions/contrib/chat/browser/sessionArtifacts/sessionArtifacts.removeReference	从会话移除引用 {0}
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.allChanges	所有更改
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.allChangesOnBranch	所有更改（{0}）
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.copyIssue	复制议题 URL
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.copyPullRequest	复制拉取请求 URL
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.issue	议题 #{0}
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.issueDescription	{0}。{1}
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.issues	议题
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.issueWithTitle	议题 #{0}：{1}
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.pullRequest	拉取请求 #{0}
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.pullRequestAttention	失败检查或合并冲突
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.pullRequestClosed	已关
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.pullRequestComments	未解决审查评论
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.pullRequestDescription	{0}。{1}
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.pullRequestDescriptionWithChecks	{0}。{1}。{2}
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.pullRequestDraft	草稿
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.pullRequestFailingChecks	失败检查
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.pullRequestFailingChecksAndComments	失败检查和未解决审查评论
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.pullRequestMerged	已合
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.pullRequestOpen	开
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.pullRequests	拉取请求
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.pullRequestWithTitle	拉取请求 #{0}：{1}
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.referenceRemoved	{0} 已从会话移除。
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.removeIssue	从会话移除议题产物
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.removePullRequest	从会话移除拉取请求产物
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.removeReferenceFailed	从会话移不了 {0}：{1}
+vs/sessions/contrib/chat/browser/sessionChatInputToolbar/sessionChatPills.sessionChanges	会话更改
+vs/sessions/contrib/chat/browser/sessionComparisonModelSelection/comparisonPicker.attempts	尝试
+vs/sessions/contrib/chat/browser/sessionComparisonModelSelection/comparisonPicker.attemptsDescription	选 2–10 个模型，或一个模型跑 2–10 次。
+vs/sessions/contrib/chat/browser/sessionComparisonModelSelection/comparisonPicker.compare	比较模型
+vs/sessions/contrib/chat/browser/sessionComparisonModelSelection/comparisonPicker.judge	评判
+vs/sessions/contrib/chat/browser/sessionComparisonModelSelection/comparisonPicker.judgeDescription	可选个模型审查尝试并荐胜者。不选则只跑尝试。
+vs/sessions/contrib/chat/browser/sessionComparisonModelSelection/comparisonPicker.runs	跑次
+vs/sessions/contrib/chat/browser/sessionComparisonModelSelection/comparisonPicker.summary	{0} 个尝试
+vs/sessions/contrib/chat/browser/sessionComparisonModelSelection/comparisonPicker.synthesizer	合成器
+vs/sessions/contrib/chat/browser/sessionComparisonModelSelection/comparisonPicker.synthesizerDescription	可选个模型在审查后合最优部分。合成只在你请时开始。
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonAccessibleView.attemptMetrics	{0}：总时长 {1}{2}；用 token {3}{4}
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonAccessibleView.labelValue	{0}：{1}
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonAccessibleView.title	比较结果
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonAccessibleView.winner	（胜者）
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.actionsAriaLabel	比较结果操作
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.additionalInstructions	额外合成指令
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.additionalInstructionsAction	额外合成指令…
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.additionalInstructionsDescription	加合成要求，然后用「带指令开始合成」或按 Ctrl+Enter（macOS 上 Cmd+Enter）。
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.additionalInstructionsInputAriaLabel	额外合成指令
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.additionalInstructionsPlaceholder	例如：保公共 API 并加聚焦测试
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.ariaLabelWithAccessibleViewHint	{0}。用 {1} 在「无障碍视图」开比较结果。
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.attempt	尝试
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.attemptMetrics	尝试时长和 token 用量
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.attemptMetricsDescription	时长是提供商报的终端首轮耗时。标「至少」的 token 数不全，不计入 token 用量胜者。
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.focusAttempt	聚焦 {0}
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.focusOtherAttempts	聚焦另一尝试
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.focusWinner	聚焦获胜会话
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.focusWinnerAriaLabel	聚焦获胜会话，{0}
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.metricWinner	胜者
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.minutes	{0}分
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.minutesSeconds	{0}分 {1}秒
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.noStrengths	没报明显亮点
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.otherStrengths	其它尝试的亮点
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.partialTokenCount	至少 {0}
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.rationale.codeQuality	代码质量
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.rationale.comparison	比较
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.rationale.solution	方案
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.rationale.validation	验证
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.ready	{0} 胜。比较结果备好。
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.seconds	{0}秒
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.startWithInstructions	带指令开始合成
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.startWithInstructionsAriaLabel	带额外指令开始推荐合成
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.strongPoints	亮点
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.synthesisOptionsAriaLabel	更多合成选项
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.synthesisStarted	合成已开始
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.synthesisStartedAriaLabel	合成已开始
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.synthesize	合成尝试
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.synthesizeAriaLabel	按评判推荐合成
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.timeWinner	时长胜者
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.tokensUsed	用 token
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.tokenWinner	token 用量胜者
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.totalTime	总时长
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.unavailable	不可用
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.whyWinner	为何胜
+vs/sessions/contrib/chat/browser/sessionComparisonResult/sessionComparisonResult.winner	{0} 胜

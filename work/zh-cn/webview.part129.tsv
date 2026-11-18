@@ -1,0 +1,160 @@
+transcript.suspended.orgAcuLimitExceededWithLink	因你组织的用量上限超了。<orgLink>提高用量上限</orgLink>让你组织继续。
+transcript.suspended.paymentDeclined	Devin 休眠了，因你组织上次付款失败，请更新你付款详情
+transcript.suspended.perMessageUsageLimitPaused	Devin 撞了你每条消息用量上限，所以自动暂停防止消费失控。想让它继续？发条消息，或<limitButton>提高或去掉此会话的上限</limitButton>。在设置提高上限只对新会话生效。
+transcript.suspended.sleepBecauseReason	Devin 休眠了，因 {{reason}}
+transcript.suspended.totalSessionLimitExceeded	Devin 休眠了，因此会话超了总会话用量上限。确认上限以继续或起新会话。
+transcript.suspended.userAcuLimitExceededAskAdmin	因你每用户用量上限超了。找你账户管理员提高你用量上限以继续。
+transcript.suspended.userAcuLimitExceededBare	因你每用户用量上限超了。
+transcript.suspended.userAcuLimitExceededGuidance	因你每用户用量上限超了。{{guidance}}。
+transcript.suspended.userAcuLimitExceededRaised	因你每用户用量上限超了。上限已提高。
+transcript.suspended.userAcuLimitExceededWithAction	因你每用户用量上限超了。<requestAction></requestAction>以继续。
+transcript.suspended.userAcuLimitExceededWithButton	因你每用户用量上限超了。<requestButton>请求更多用量</requestButton>以继续。
+transcript.switchedToBranch	切到分支 {{branch}}
+transcript.switchedToBranchInRepo	在 {{repo}} 切到分支 {{branch}}
+transcript.switchedToVersion	切到 {{name}}
+transcript.teamsDm	Microsoft Teams 私信
+transcript.teamsGroupChat	Microsoft Teams 群聊
+transcript.teamsSyncDisabled	Teams 同步已禁
+transcript.teamsSyncEnabled	Teams 同步已开
+transcript.teamsSyncUpdated	Teams 同步已更新
+transcript.teamsThread	Microsoft Teams 线程
+transcript.teamsThreadInChannel	{{channel}} 里的 Microsoft Teams 线程
+transcript.terminalOutput	终端输出
+transcript.testTheApp	测此应用
+transcript.testingApproved	测试已批
+transcript.thanksForTheFeedback	谢你反馈
+transcript.thinking	思考中
+transcript.thoughtForDuration	想了 {{duration}}
+transcript.thoughts	想法
+transcript.threadClose	关线程
+transcript.threadReplyPlaceholder	在线程里回…
+transcript.threadReplyingIn	在线程里回
+transcript.threadTitle	线程
+transcript.tldrLabel	TLDR
+transcript.toolBlocked	工具调用被挡
+transcript.toolCallArguments	参数
+transcript.toolCallCanceled	已取消
+transcript.toolCallFailed	失败
+transcript.toolCallOutput	输出
+transcript.toolCallRejected	已拒
+transcript.toolInputClipped	显前 {{shown}} 字符。
+transcript.toolInputCopyFull	复制完整输入
+transcript.toolInputFull	显完整输入。
+transcript.toolInputLoading	输入已截。加载完整输入中…
+transcript.toolInputPreview	输入已截。显预览。
+transcript.toolInputRetry	重试
+transcript.toolInputShowFull	显完整输入
+transcript.toolInputTotalSize	共 {{size}}
+transcript.toolInputUnavailable	输入已截。完整输入拿不到。
+transcript.translate	翻译
+transcript.translateMessageFailed	翻译消息失败。请重试。
+transcript.translating	翻中
+transcript.turnFooterBadResponse	坏回复
+transcript.turnFooterContinue	继续
+transcript.turnFooterCopyRequestId	复制请求 ID
+transcript.turnFooterDuplicateSession	复制会话
+transcript.turnFooterGoodResponse	好回复
+transcript.turnFooterNoResponse	模型结束回合没给回复。
+transcript.turnFooterNoStats	此回合没有统计。
+transcript.turnFooterOtherActions	其它操作
+transcript.turnFooterShareConversation	分享对话
+transcript.turnFooterShareCopyLink	复制链接
+transcript.turnFooterShareCreateLink	建链接
+transcript.turnFooterShareCreating	建中…
+transcript.turnFooterShareDescription	为你团队建个可分享链接。
+transcript.turnFooterShareFailed	建分享链接失败
+transcript.turnFooterShareLink	分享链接
+transcript.turnFooterShareTruncated	上传前有些内容被脱敏或截断。
+transcript.turnFooterTurnLimit	达回合上限。
+transcript.turnFooterViewStats	看回复统计
+transcript.typingBubble	{{botName}} 打字中…
+transcript.unknownAction	未知操作
+transcript.unknownEvent	未知事件
+transcript.unknownUpdate	未处理更新
+transcript.updateResponder	更新响应器
+transcript.updatedAPr	更新了 {{repo}} 里一个 PR
+transcript.updatedPr	更新了 {{repo}} 里 PR #{{number}}
+transcript.usedPlaybook	用了 playbook：
+transcript.user	用户
+transcript.userActivityDetectedOnBranch	在 <branch>{{branch}}</branch> 检测到<strong>用户活动</strong>，来自 {{sender}}：交还所有权直到下条用户消息
+transcript.userMessage	用户消息
+transcript.viewInDeepwiki	在 DeepWiki 看
+transcript.viewInThread	在线程里看
+transcript.viewReminder	看提醒
+transcript.viewScript	看脚本
+transcript.viewedAPrInRepo	在 <repo>{{repo}}</repo> 看了<pr>一个 PR</pr>
+transcript.viewedCiJobLogsForJob	在 {{repo}} 看了 job {{jobId}} 的 CI job 日志
+transcript.viewedCiJobLogsInRepo	在 {{repo}} 看了 CI job 日志
+transcript.viewedCiStatusForAPrInRepo	在 {{repo}} 看了<pr>一个 PR</pr> 的 CI 状态
+transcript.viewedCiStatusForPrInRepo	在 {{repo}} 看了 <pr>PR #{{number}}</pr> 的 CI 状态
+transcript.viewedKnowledgeSuggestion	看了知识建议：{{suggestionName}}
+transcript.viewedPrInRepo	在 <repo>{{repo}}</repo> 看了拉取请求 <pr>#{{number}}</pr>
+transcript.waitMessageWithSeconds	{{message}}（{{seconds}} 秒）
+transcript.waited	等了
+transcript.waitedForSeconds	等了 {{seconds}} 秒
+transcript.waitingForSeconds	等 {{seconds}} 秒中
+transcript.watchedThreadNotice	*Devin 没直接见此消息，因 {{name}} 没此会话访问权。它能[在 Slack 读它]({{url}})。*
+transcript.watchedThreadNoticeNoLink	*Devin 没直接见此消息，因 {{name}} 没此会话访问权。*
+transcript.watchedThreadNoticeNoName	*Devin 没直接见此消息，因此人没此会话访问权。它能[在 Slack 读它]({{url}})。*
+transcript.watchedThreadNoticeNoNameNoLink	*Devin 没直接见此消息，因此人没此会话访问权。*
+transcript.wentToSleep	Devin 休眠了
+transcript.wentToSleepShort	休眠了
+transcript.widerThanSession.automation	能看自动化的成员能读其提示词，它起的会话对你组织可见。
+transcript.widerThanSession.knowledge	你组织所有人能读此笔记，它加到他们会话。
+transcript.widerThanSession.playbook	你组织所有人能读和用此 playbook。
+transcript.widerThanSession.plugin	此插件更改应用于每个用插件的成员，不只此会话。
+transcript.widerThanSession.schedule	管排期的成员能读其提示词，它起的会话对你组织可见。
+transcript.widerThanSession.title	这超出你私会话
+transcript.yourModifiedFiles	你改的文件：
+transcript.yourRecentTerminalCommands	你最近终端命令：
+transcriptPlayground.active	活跃：{{name}}
+transcriptPlayground.applyScenario	应用场景
+transcriptPlayground.author	作者
+transcriptPlayground.clear	清除
+transcriptPlayground.import	导入
+transcriptPlayground.importEventsFile	导入事件文件
+transcriptPlayground.importHelp	贴规范转录项的 JSON 导出（数组，或 <code>{ items }</code> / <code>{ events }</code>）。条目原样给渲染器；未知事件类型渲染不了。
+transcriptPlayground.importedEventsJson	已导入事件 JSON
+transcriptPlayground.loadEvents	载事件
+transcriptPlayground.scenarioJson	场景 JSON
+transcriptPlayground.usingFile	用 {{name}}；在此输以覆盖
+ui.crontabEditor.apply	应用
+ui.crontabEditor.cronExpression	Cron 表达式
+ui.crontabEditor.cronFormat	格式：分 时 日 月 星期（{{zone}}）
+ui.crontabEditor.custom	自定义
+ui.crontabEditor.dayFri	五
+ui.crontabEditor.dayMon	一
+ui.crontabEditor.daySat	六
+ui.crontabEditor.daySun	日
+ui.crontabEditor.dayThu	四
+ui.crontabEditor.dayTue	二
+ui.crontabEditor.dayWed	三
+ui.crontabEditor.hour	小时
+ui.crontabEditor.hourUnit	时
+ui.crontabEditor.minute	分钟
+ui.crontabEditor.minuteUnit	分
+ui.crontabEditor.repeatEvery	每隔
+ui.crontabEditor.repeatOn	重复于
+ui.crontabEditor.selectUnit	选排期单位
+ui.crontabEditor.time	时间
+ui.crontabEditor.timeDescription	{{zone}} 本地时间；时 0-23，分 0-59
+ui.crontabEditor.unitDay_one	天
+ui.crontabEditor.unitDay_other	天
+ui.crontabEditor.unitHour_one	小时
+ui.crontabEditor.unitHour_other	小时
+ui.crontabEditor.unitWeek_one	周
+ui.crontabEditor.unitWeek_other	周
+ui.crontabEditor.utc	UTC
+ui.crontabEditor.visual	可视化
+unified.environmentSectionAll	全部环境
+unified.environmentSectionRecent	最近用过
+unified.environmentsFailed	加载不了环境。试重开此页。
+unified.loadingEnvironments	加载环境中…
+unified.manageEnvironments	管环境
+unified.noEnvironments	无可用环境。
+unified.noEnvironmentsOrOutpostsFound	找不到环境或 outpost
+unified.noSnapshot	无快照
+unified.noUsableOutpost	没有 outpost 共享给你。找管理员。
+unified.oncallUnavailable	Oncall 模式在我的工作区不可用。关掉以发。
+unified.orgPlaybookUnavailable	我的工坊只有企业和社区 playbook 可用。移除所选 playbook 以发。
+unified.outposts	Outpost

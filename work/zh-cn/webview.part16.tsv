@@ -1,0 +1,239 @@
+billing.costBreakdown.connectedMcpsInfo	已连接的 MCP 是你选择添加的服务器，不是 Devin 的内置工具。把它们列入会话上下文要付费，Devin 每次调用其工具并读取结果也要付费。\n如果这部分占比偏高，请移除团队不用的服务器。
+billing.costBreakdown.connectedMcpsInfoLabel	关于已连接 MCP 的成本
+billing.costBreakdown.connectedMcpsInfoLink	管理 MCP
+billing.costBreakdown.description	此组织最近 {{days}} 天的模型与云计算成本构成。
+billing.costBreakdown.llm	模型
+billing.costBreakdown.loadError	无法加载成本构成。
+billing.costBreakdown.noData	此期间无成本数据。
+billing.costBreakdown.rules	规则
+billing.costBreakdown.rulesInfo	常驻规则会在每个适用会话中加载，例如使用该仓库的会话中的根 AGENTS.md，因此即使任务不需要也要付费。嵌套的 AGENTS.md 和带路径模式的规则只在会话触及匹配路径时才加载。\n如果这部分占比偏高，请缩短常驻规则，把只针对仓库某部分的指引移入嵌套 AGENTS.md 或带路径模式的规则，使其按需加载。
+billing.costBreakdown.rulesInfoLabel	关于规则的成本
+billing.costBreakdown.rulesInfoLink	管理规则
+billing.costBreakdown.skills	技能
+billing.costBreakdown.skillsInfo	技能不常驻上下文。被使用前，会话最多只携带其名称和描述，因此只有使用它的会话才为其完整指令付费。\n如果这部分占比偏高，请在「自定义」中查看你最常用的技能，缩短过长的或把描述写得更具体，使其按需加载。
+billing.costBreakdown.skillsInfoLabel	关于技能的成本
+billing.costBreakdown.skillsInfoLink	管理技能
+billing.costBreakdown.vm	云计算
+billing.costBreakdown.vmLlmDescription	此组织最近 {{days}} 天的成本构成。
+billing.costBreakdown.vmLlmInfo	云计算成本取决于会话运行的机器和运行时长。\n如果云计算占比偏高，请加快慢的构建和测试让会话更早结束，不需要那么大容量时选小一点的机器。
+billing.costBreakdown.vmLlmInfoLabel	关于云计算与模型成本
+billing.costBreakdown.vmLlmInfoLink	管理机器
+billing.costBreakdown.vmLlmTitle	云计算与模型成本
+billing.dailyUsageQuotaExceeded	已超每日用量配额
+billing.devinCoach.description	你对 Devin 指导的响应——最近 {{days}} 天你会话中建议的采纳情况
+billing.devinCoach.emptyState	Devin 会在你写提示词和工作时提供指导。建议采纳情况将显示在此。
+billing.devinCoach.title	Devin Coach
+billing.devinDesktop	Devin Desktop
+billing.devinForStartupsBanner.cta	立即申请
+billing.devinForStartupsBanner.description	Devin for Startups 为符合条件的公司提供最高 $65k 额度与赠款。
+billing.devinForStartupsBanner.title	你是早期创业公司吗？
+billing.efficiencyAcusBySizeDescription	按会话规模的 ACU 分布
+billing.efficiencyAcusBySizeTitle	按规模的 ACU
+billing.efficiencyHelpDescription	以下是让每个会话产出更有价值工作的最有效方法。
+billing.efficiencyHelpExplainer	当 Devin 完成有价值的工作且模式与任务规模和工作量相称时，效率就高。
+billing.efficiencyHelpHeadline	有效产出 + 高效用量 = 更高效率
+billing.efficiencyHelpTitle	如何提高会话效率
+billing.efficiencyHelpWhatItMeans	含义
+billing.efficiencyKpiAcusPerMergedPr	每已合并 PR 的 ACU
+billing.efficiencyKpiAcusPerSession	每会话 ACU
+billing.efficiencyKpiHealthy	健康
+billing.efficiencyKpiNeedsImprovement	需要改进
+billing.efficiencyKpiPrsMergedPerDay	每日合并 PR 数
+billing.efficiencyKpiSatisfactory	达标
+billing.efficiencyKpiSessionsWithOutcomes	有结果的会话
+billing.efficiencyPrOutcomesDescription	Devin PR 按状态的分布
+billing.efficiencyPrOutcomesTitle	PR 结果
+billing.efficiencyRangeCurrent	当前周期
+billing.efficiencyRangePrevious	上一周期
+billing.efficiencyRangeRecent	近期用量
+billing.efficiencyRangeSelect	选择效率范围
+billing.efficiencySectionDescription	把效率保持在<healthy>健康</healthy>或<satisfactory>达标</satisfactory>，才能物尽其用。
+billing.efficiencySectionDescriptionConditional	把效率保持在<healthy>健康</healthy>或<satisfactory>达标</satisfactory>，即可自动获得更高的用量上限。
+billing.efficiencySectionTitle	会话效率
+billing.efficiencyTipModesDescription	把 Ultra 留给真正需要的任务；大多数工作 Lite 或 Normal 就够。
+billing.efficiencyTipModesTitle	试试低成本模式
+billing.efficiencyTipPlanDescription	一开始就给出上下文、约束和验收标准。
+billing.efficiencyTipPlanTitle	先规划再执行
+billing.efficiencyTipSplitDescription	聚焦的任务能让 Agent 稳步推进。
+billing.efficiencyTipSplitTitle	拆分大任务
+billing.efficiencyTipsLink	建议
+billing.enterpriseLimitReachedToast	你的组织已达用量上限。请联系企业管理员提高上限。
+billing.enterpriseScaleHeading	为全组织规模化而生：
+billing.explorePlans	浏览方案
+billing.failedToLoadData	加载数据失败。
+billing.flexSeatFunding.body	Flex 成员从你的按需余额扣费。在你<settingsLink>添加按需额度或启用自动充值</settingsLink>前，此成员无法使用 Devin。
+billing.flexSeatFunding.title	无可用按需额度
+billing.free	免费
+billing.freeCreditsGateToast	你已用完 100% 的免费额度。订阅后可继续使用 Devin。
+billing.hardCap.acknowledgeFailed	确认失败。请重试。
+billing.hardCap.acknowledging	正在确认…
+billing.hardCap.continueCurrent	继续当前会话
+billing.hardCap.continueNew	在新会话中继续
+billing.hardCap.continueNewBody	已达会话上限。Devin 在聚焦、范围明确的任务上表现最好。在新会话中接着做——它会自动引用此会话。<lineBreak /><lineBreak />以后把工作拆小一些可<lnk>提高效率<icon /></lnk>。
+billing.hardCap.createFailed	创建会话失败。请重试。
+billing.hardCap.creatingSession	正在创建会话…
+billing.hardCap.extendAcu	将此会话的 ACU 上限提高 20%，让它继续工作。你组织的管理员会收到通知。
+billing.hardCap.extendAndContinue	提高上限并继续
+billing.hardCap.extendUsage	将此会话的用量上限提高 20%，让它继续工作。你组织的管理员会收到通知。
+billing.hardCap.or	或
+billing.hardCap.resumeFailed	恢复会话失败
+billing.increaseEnterpriseOrgLimit	提高企业组织用量上限
+billing.increaseLimitTitle	提高你的用量上限
+billing.increaseOrgLimitMemberDescription	本计费周期你的每组织可用 {{unit}} 已达上限。组织管理员可在设置中提高组织用量上限。
+billing.increaseOrgLimitMemberEnterpriseDescription	本计费周期你的每组织可用企业 {{unit}} 已达上限。企业管理员可在设置中提高组织用量上限。
+billing.increaseOrgLimitOwnerDescription	本计费周期你的每组织可用 {{unit}} 已达上限。要继续使用 Devin，可提高组织的用量上限。<learnMore>了解更多</learnMore>
+billing.increaseOrgLimitOwnerEnterpriseDescription	本计费周期你的每组织可用企业 {{unit}} 已达上限。要继续使用 Devin，可提高组织的用量上限。<learnMore>了解更多</learnMore>
+billing.increaseOrgLimitTitle	提高你组织的用量上限
+billing.increaseUserLimitDescription	本计费周期你的每用户可用 {{unit}} 已达上限。请向账户管理员申请更多以继续使用 Devin。
+billing.increaseUserLimitReachedDescription	本计费周期你的每用户可用 {{unit}} 已达上限。
+billing.individualPlanMemberDescription	你的账户在个人方案上，但你不是组织所有者。请让账户管理员升级到 Teams 方案，让所有人都能使用。
+billing.individualPlanOwnerDescription	你的账户在个人方案上，但你不是组织所有者。升级到 Teams 方案即可让所有人使用。
+billing.individualPlanTitle	你的账户在个人方案上
+billing.invoices.amount	金额
+billing.invoices.clear	清除
+billing.invoices.clippedNotice_one	仅显示你日期范围内最近 {{count}} 张账单。更早的账单请缩小范围。
+billing.invoices.clippedNotice_other	仅显示你日期范围内最近 {{count}} 张账单。更早的账单请缩小范围。
+billing.invoices.contactAccountManager	请联系你的客户经理修改账单设置。
+billing.invoices.date	日期
+billing.invoices.filterByDate	按日期筛选
+billing.invoices.from	从
+billing.invoices.noInvoicesFound	未找到账单
+billing.invoices.noInvoicesYet	你还没有任何账单。
+billing.invoices.notAuthorized	你无权查看账单。
+billing.invoices.payInvoice	支付账单
+billing.invoices.paymentDeclinedKeep	你最近一次扣款未成功。要保留订阅，需更新支付方式。
+billing.invoices.paymentDeclinedRenew	你最近一次扣款未成功。要续订，需更新支付方式。
+billing.invoices.retrieveError	获取你的账单时出现问题。
+billing.invoices.retryHint	换个日期范围或重新加载页面。
+billing.invoices.status	状态
+billing.invoices.to	至
+billing.invoices.viewInvoice	查看账单
+billing.learnMore	了解更多
+billing.lowUsageToast.dailyQuotaUsed	每日配额已用 {{percent}}%
+billing.lowUsageToast.dailyResetsIn	每日配额 {{hours}} 小时后重置
+billing.lowUsageToast.lowAcuDescription_one	你的组织还剩 {{formattedCount}} ACU。ACU 用完后 Devin 会进入休眠。
+billing.lowUsageToast.lowAcuDescription_other	你的组织还剩 {{formattedCount}} ACU。ACU 用完后 Devin 会进入休眠。
+billing.lowUsageToast.lowAcuTitle	你的 ACU 快用完了！
+billing.lowUsageToast.manageSessionLimit	管理会话上限
+billing.lowUsageToast.quotaDescription	你的{{parts, list}}。
+billing.lowUsageToast.quotaDescriptionWithReset	你的{{parts, list}}（{{resets, list}}）。
+billing.lowUsageToast.quotaTitle	你的用量配额快用完了！
+billing.lowUsageToast.sessionLimitDescription	除非提高会话支出上限，否则 Devin 会进入休眠。
+billing.lowUsageToast.sessionLimitTitle	你快达到会话支出上限了！
+billing.lowUsageToast.upgradePlan	升级方案
+billing.lowUsageToast.weeklyQuotaUsed	每周配额已用 {{percent}}%
+billing.lowUsageToast.weeklyResetsIn	每周配额 {{days}} 天后重置
+billing.manageAutoReload	管理自动充值
+billing.manageEnterpriseAcuLimits	管理你的企业 ACU 上限
+billing.managePlans	管理方案
+billing.manageUsageLimit	管理用量上限
+billing.noAcusRemaining	你没有剩余可用 ACU
+billing.noCreditsRemaining	你没有剩余可用额度
+billing.noDataAvailable	无可用数据
+billing.noDataForPeriod	此期间无数据。
+billing.noUsageDescription	你没有剩余可用 {{unit}}。要继续使用 Devin，可提高按需用量上限。<learnMore>了解更多</learnMore>
+billing.noUsageEnterpriseDescription	你没有剩余可用企业 {{unit}}。要继续使用 Devin，可提高按需用量上限。<learnMore>了解更多</learnMore>
+billing.noUsersMatch	没有匹配「{{query}}」的用户。
+billing.orgLimitReachedToast	你的组织已达用量上限。请联系账户管理员提高上限。
+billing.organizationsTable.deleted	已删除
+billing.organizationsTable.deletedOn	删除于 {{date}}
+billing.organizationsTable.name	名称
+billing.organizationsTable.nameTitle	组织名称
+billing.organizationsTable.noData	无可用数据
+billing.organizationsTable.percentChange	变化 %
+billing.organizationsTable.percentChangeLong	变化 %
+billing.organizationsTable.percentChangeLongTitle	与上一期间相比的变化
+billing.organizationsTable.percentChangeTitle	与整个上周期消耗的 {{unit}} 相比的变化
+billing.organizationsTable.percentOfTotal	占总数 %
+billing.organizationsTable.percentOfTotalTitle	此组织的 {{unit}} 除以本计费周期所有组织消耗的 {{unit}} 总和
+billing.organizationsTable.unitCurrentTitle	当前期间消耗的 {{unit}}
+billing.organizationsTable.unitCycle	{{unit}}（{{label}}）
+billing.organizationsTable.unitPreviousTitle	上一期间消耗的 {{unit}}
+billing.organizationsTable.unitThisMonth	本月 {{unit}}
+billing.organizationsTable.unitThisMonthTitle	本月消耗的 {{unit}}
+billing.organizationsTable.usage	用量
+billing.organizationsTable.usageCycleTooltip	本计费周期已用每月 ACU 上限的百分比
+billing.organizationsTable.usageMonthlyTooltip	当前月度窗口已用每月 ACU 上限的百分比
+billing.outOfCreditsPaidTitle	你的额度已用完。请购买额度以继续使用 Devin
+billing.outOfDailyQuotaPaidDescription	你已超出每日用量配额且按需用量已用尽。每日配额每天重置——详见你的用量设置。
+billing.outOfFreeCredits	你的免费额度已用完。请订阅以继续使用 Devin
+billing.outOfQuotaPaidDescription	你已超出用量配额且按需用量已用尽。详见你的用量设置。
+billing.outOfWeeklyQuotaPaidDescription	你已超出每周用量配额且按需用量已用尽。详见你的用量设置。
+billing.payAsYouGo.currentLimit_one	你当前的上限是 {{count}} 个按需 {{unit}}
+billing.payAsYouGo.currentLimit_other	你当前的上限是 {{count}} 个按需 {{unit}}
+billing.payAsYouGo.descriptionAcus	你的团队可以在你设定的按需用量上限内使用 Devin。消耗的 ACU 将在计费周期结束时从你在档支付方式扣款
+billing.payAsYouGo.descriptionUsage	你的团队可以在你设定的按需用量上限内使用 Devin。用量将在计费周期结束时从你在档支付方式扣款
+billing.payAsYouGo.explainerAlt	按需用量上限如何运作
+billing.payAsYouGo.learnMoreAriaLabel	了解账单与用量上限
+billing.payAsYouGo.limitLabel	每月上限
+billing.payAsYouGo.maxLimitForPlan	你方案的上限最高为 {{limit}} {{unit}}。如需更高支出上限，请联系 support@cognition.ai。
+billing.payAsYouGo.save	保存
+billing.payAsYouGo.saving	正在保存…
+billing.payAsYouGo.settingLimitPreview_one	把上限设为 {{count}} 个按需 {{unit}}，本月将剩余共 {{total}} {{unit}}
+billing.payAsYouGo.settingLimitPreview_other	把上限设为 {{count}} 个按需 {{unit}}，本月将剩余共 {{total}} {{unit}}
+billing.payAsYouGo.title	设置每月按需用量上限
+billing.payAsYouGo.unitAcu_one	ACU
+billing.payAsYouGo.unitAcu_other	ACU
+billing.payAsYouGo.unitCredit_one	额度
+billing.payAsYouGo.unitCredit_other	额度
+billing.paymentDeclinedMemberDescription	你组织最近一次扣款未成功。要保留订阅，管理员需更新支付方式。如有问题请联系 <supportLink>support@cognition.ai</supportLink>。
+billing.paymentDeclinedOwnerDescription	你最近一次扣款失败。要继续使用 Devin，请更新支付方式。如有问题请联系 <supportLink>support@cognition.ai</supportLink>。
+billing.paymentProblemTitle	你的支付出现问题
+billing.planCard.accountSupport	账户支持
+billing.planCard.acuTooltip	Devin 的工作量单位是 Agent Compute Unit（ACU），即 Devin 消耗资源的标准计量。
+billing.planCard.acusIncludedMonthly	每月包含 250 <acu>ACU</acu>
+billing.planCard.adminDashboard	带分析的管理员面板
+billing.planCard.askDevin	Ask Devin
+billing.planCard.autoReload	按需消耗的自动充值设置
+billing.planCard.centralizedBilling	集中计费
+billing.planCard.claimOffer	领取优惠
+billing.planCard.concurrentSessions	最多 10 个并发 Devin 会话
+billing.planCard.dedicatedAccountTeam	专属账户团队
+billing.planCard.deepWiki	DeepWiki
+billing.planCard.devinApi	Devin API
+billing.planCard.devinIde	Devin IDE
+billing.planCard.devinReview	Devin Review
+billing.planCard.devinUsageQuota	Devin 用量配额
+billing.planCard.devinWiki	Devin Wiki
+billing.planCard.dollarsIncludedMonthly	每月包含 $500
+billing.planCard.downgrade	降级
+billing.planCard.earlyAccess	抢先体验新功能与研究预览
+billing.planCard.enterpriseAccess	Devin Enterprise 访问权限
+billing.planCard.enterpriseAdminControls	集中的企业管理控制
+billing.planCard.everythingInCore	包含 Core 全部功能，另加：
+billing.planCard.everythingInFree	包含 Free 全部功能，另加：
+billing.planCard.everythingInPro	包含 Pro 全部功能，另加：
+billing.planCard.flagshipModelAccess	免费使用我们的旗舰编码模型 SWE-2
+billing.planCard.freeUpgradeBlurb	升级即可使用更多模型并提高用量配额。
+billing.planCard.getPlan	获取 {{plan}}
+billing.planCard.ideUsageQuota	<desktop /> IDE 用量配额
+billing.planCard.includes	包含：
+billing.planCard.increasedDevinUsageQuota	更高的 Devin 用量配额
+billing.planCard.increasedIdeUsageQuota	更高的 <desktop /> IDE 用量配额
+billing.planCard.integrations	Slack、Linear 和 MCP 集成
+billing.planCard.keyCapabilities	关键能力
+billing.planCard.lapsedBadge	已失效
+billing.planCard.lapsedBannerBody	你现在是 Free 方案。重新订阅即可恢复你的模型和用量配额。
+billing.planCard.lapsedBannerBodyWithDate	你的方案已于 {{date}} 结束。你现在是 Free 方案。重新订阅即可恢复你的模型和用量配额。
+billing.planCard.lapsedBannerTitle	你的 {{plan}} 方案已失效
+billing.planCard.learnsOverTime	随时间学习
+billing.planCard.limitedDevinUsage	有限的 Devin 用量
+billing.planCard.noMonthlyCommitment	无月度承诺，按需付费方案
+billing.planCard.onboardingCall	可选的 Cognition 团队入门电话
+billing.planCard.payAsYouGoOnDemandPastQuota	超出配额部分按需付费
+billing.planCard.payAsYouGoPastQuota	超出配额部分按需付费
+billing.planCard.planCodeTestShip	用 Devin 规划、编码、测试并交付
+billing.planCard.priceCustom	定制价格
+billing.planCard.priceFree	免费
+billing.planCard.pricePayAsYouGo	按需付费，$20 起
+billing.planCard.pricePerMonth	{{price}}/月
+billing.planCard.pricePerYear	{{price}}/年
+billing.planCard.priceProTrial	免费 14 天，之后 $20/月
+billing.planCard.purchase	购买
+billing.planCard.resubscribe	重新订阅
+billing.planCard.scimAndRbac	SCIM 与基于角色的访问控制
+billing.planCard.shareAndCollaborate	共享与协作
+billing.planCard.slackChannelSupport	Slack 频道支持
+billing.planCard.sso	SAML/OIDC SSO
+billing.planCard.startFreeTrial	开始免费试用
+billing.planCard.teamsCostControls	3 档用量层级的成本控制

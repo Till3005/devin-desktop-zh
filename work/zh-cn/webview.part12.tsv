@@ -1,0 +1,282 @@
+automations.failedToSaveScratchpadFolder	保存暂存文件夹失败
+automations.failedToStartSession	启动 Devin 会话失败。请重试。
+automations.failedToTriggerAutomation	触发自动化失败
+automations.failedToUpdateAutomation	更新自动化失败
+automations.failedToUpgradeResponder	升级响应器失败
+automations.fallbackDevinMode	回退 Agent 模式
+automations.fallbackDevinModeDescription	当研究预览不再可用时使用此 Agent 模式
+automations.fieldGroupAddedLabel	添加的标签
+automations.fieldGroupCheckRun	检查运行
+automations.fieldGroupComment	评论
+automations.fieldGroupCommit	提交
+automations.fieldGroupIssue	工单
+automations.fieldGroupPullRequest	拉取请求
+automations.fieldGroupRepository	仓库
+automations.fieldGroupReview	审查
+automations.fieldPlaceholder	字段…
+automations.files	文件
+automations.fillRequiredTriggerFields	保存前请填好所有必填的触发器字段
+automations.filter	筛选
+automations.filterCreatedBy	创建者
+automations.filterKindAutomation	自动化
+automations.filterKindReminder	提醒
+automations.filterSearchOptions	搜索…
+automations.filterSelectedCount_one	已选 {{count}} 项
+automations.filterSelectedCount_other	已选 {{count}} 项
+automations.filterSelection	{{labels, list(type: unit)}}
+automations.filterStatusEnabled	已启用
+automations.filterType	类型
+automations.findingsPerScanLimit	每次扫描的发现项上限
+automations.findingsPerScanTooltip	此自动化每次扫描最多处理的发现项数。
+automations.forUpTo	最多
+automations.forwarded	已转发
+automations.freqDay	天
+automations.freqHour	小时
+automations.freqMinute	分钟
+automations.freqMonth	月
+automations.freqWeek	周
+automations.friday	星期五
+automations.generateAutomationPrompt	帮我生成一个新的自动化。
+automations.generateSessionPtsCodeDescription	你的组织要求每个会话带 PTS Code。请为 Devin 启动的会话选择一个。
+automations.generateSessionTagConfirm	启动会话
+automations.generateSessionTagDescription	你的组织要求每个会话带标签。请为 Devin 启动的会话选择一个。
+automations.generateWithDevin	让 Devin 生成
+automations.generateWithDevinCardDescription	描述你想构建的自动化
+automations.githubPublicDisabledReason	公开仓库不会触发自动化。管理员可在 设置 → 集成 → GitHub 中为此连接放行。
+automations.githubWebhookRequired	GitHub 自动化需要 GitHub App 连接才能接收 webhook。基于令牌连接不支持事件触发器。
+automations.gitlabPublicDisabledReason	公开项目不会触发自动化，因此不能被选择。
+automations.gitlabPublicProjectWarning	出于安全原因，来自公开项目或 gitlab.com 上内部项目（对所有登录用户可见）的事件不会触发自动化。
+automations.gitlabPublicProjectWarningWithSettingsLink	出于安全原因，来自公开项目或 gitlab.com 上内部项目（对所有登录用户可见）的事件不会触发自动化。你可以在 <settingsLink>GitLab 连接设置</settingsLink>中放行公开项目。
+automations.gotIt	知道了
+automations.grouped	已归并 / 已跳过
+automations.hideSecret	隐藏机密
+automations.hourRange	小时（0-23）
+automations.improveAutomationPrompt	审查自动化 {{id}}。按每 ACU 产出优化。拉取它近期的运行（成本 + 结果），然后按影响 ÷ 成本推荐排名前 3 的改动并附证据。说明加 Preflight 检查能否跳过那些无产出的运行。改动自动化前先问我确认。
+automations.improveWithDevin	让 Devin 改进
+automations.inChannel	在频道
+automations.inProject	在项目
+automations.inRepo	在仓库
+automations.inTeam	在团队
+automations.inactive	不活跃
+automations.incidentAgentTypeLocked	Agent 类型创建后不可更改。
+automations.incidentTriggerNowDisabled	事件自动化不支持「立即运行」。
+automations.instructions	指令
+automations.instructionsAgentDescription	描述 Agent 应做什么
+automations.instructionsRequired	指令为必填项
+automations.introAutomationPill	自动化
+automations.introCustomizationDescription	配置 ACU 上限、安全档案、MCP 和网络策略等控制
+automations.introCustomizationTitle	定制
+automations.introDevin	Devin
+automations.introDevinSession	Devin 会话
+automations.introDevinSessionSubtitle	启动周期性任务
+automations.introEventsDescription	通过支持的集成或自定义 webhook 从你自己的系统自动运行 Devin
+automations.introEventsTitle	事件型触发器
+automations.introFileReport	提交报告
+automations.introImproveMemory	改进记忆
+automations.introKeyFeatures	关键功能
+automations.introLinearConnection	Linear 连接
+automations.introLinearConnectionSubtitle	工单与待办梳理
+automations.introMaybeLater	以后再说
+automations.introNewAutomation	新的自动化运行
+automations.introNewKnowledge	新知识
+automations.introNotification	通知
+automations.introPreflightCondition	仅当事件与支付服务相关时继续
+automations.introPreflightDescription	在会话开始前用 LLM 或脚本过滤匹配的事件
+automations.introPreflightSessionSubtitle	排查匹配的事件
+automations.introPreflightTitle	Preflight 检查
+automations.introPullRequest	拉取请求
+automations.introScheduleDescription	让 Devin 按任意周期日期或时间间隔处理工作
+automations.introSchedulePillSubtitle	每周一 6:00
+automations.introScheduleTitle	计划触发器
+automations.introSelfImprovementDescription	用暂存区在自动化运行之间持久化状态和知识
+automations.introSelfImprovementTitle	持久记忆
+automations.introSubtitle	按事件或计划触发，自动排查问题、生成洞察并创建拉取请求。
+automations.introTitle	自动化功能介绍
+automations.introTriggerEvent	触发事件
+automations.investigated	排查
+automations.inviteDevinToChannel	邀请 @Devin 加入频道
+automations.inviteDevinToChannelToAdd	邀请 @Devin 加入频道后它才会出现在此
+automations.inviteDevinToChannelToContinue	邀请 @Devin 加入一个 Slack 频道以继续
+automations.issueCount_one	{{count}} 个问题
+automations.issueCount_other	{{count}} 个问题
+automations.issueNotFound	找不到此问题。它可能已被删除或并入其他问题。
+automations.issuePanelLabel	问题
+automations.issues	问题
+automations.issuesFromEvents_one	{{issues}}（来自 {{count}} 个事件）
+automations.issuesFromEvents_other	{{issues}}（来自 {{count}} 个事件）
+automations.issuesLoadError	无法加载问题。
+automations.jira	Jira
+automations.jiraBotCredentialRequired	在管理员添加服务账号凭据或安装 Jira 版 Devin 应用之前，Devin 无法在此自动化的会话中读取或评论 Jira。
+automations.jiraBotCredentialSettings	Jira 设置
+automations.jiraDefaultPlaybook	默认 playbook
+automations.jiraDefaultSkill	默认技能
+automations.jiraProjectCount_one	{{count}} 个项目
+automations.jiraProjectCount_other	{{count}} 个项目
+automations.jiraProjectScopeHint	把 Jira 工具限定到特定项目会关闭 Atlassian MCP 服务器，因为它无法按项目限定。
+automations.jiraProjectScopeHintWithTrigger	把 Jira 工具限定到特定项目会关闭 Atlassian MCP 服务器，因为它无法按项目限定。此自动化 Jira 触发器用到的项目始终包含在内。
+automations.jiraToolsAlwaysOn	Jira 连接期间 Jira 工具始终开启。可用菜单将其限定到特定项目。
+automations.jiraToolsNotConnected	Jira 未连接。重新连接前 Jira 工具处于关闭状态。
+automations.keepEditing	继续编辑
+automations.last4Weeks	最近 4 周
+automations.lastNDays	最近 {{days}} 天
+automations.lastRun	最近一次运行
+automations.lastTriggered	最近触发
+automations.lastWeek	最近一周
+automations.limits	限制
+automations.limitsDescription	限制资源用量和调用频率
+automations.linear	Linear
+automations.linearAnyLabel	任意标签
+automations.linearAnyStatus	任意状态
+automations.linearAnyTeam	任意团队
+automations.linearAreIn	属于
+automations.linearAreLabeled	带标签
+automations.linearAutomationsDescription	满足特定条件时启动会话
+automations.linearAutomationsLabel	自动化
+automations.linearCommaAreIn	，属于
+automations.linearDefaultPlaybook	默认 playbook
+automations.linearDefaultSkill	默认技能
+automations.linearNoTeamsMapped	没有 Linear 团队映射到此组织。管理员在 Linear 设置中映射团队后触发器才会生效。
+automations.linearPlaybookMissing	此 playbook 已不存在。请编辑此自动化修复。
+automations.linearRun	，运行
+automations.linearTeamUnmapped	此触发器引用的 Linear 团队未映射到此组织，来自该团队的事件不会触发此自动化。管理员可在 Linear 设置中更新团队映射。
+automations.linearTeamsUnmapped	此触发器引用的 Linear 团队未映射到此组织，来自这些团队的事件不会触发此自动化。管理员可在 Linear 设置中更新团队映射。
+automations.linearWhenTicketsFrom	当工单来自
+automations.linkUser	关联用户
+automations.linkYourUserToUseTrigger	关联你的 {{source}} 用户以使用此触发器。
+automations.linking	正在关联…
+automations.llmCheckDisabled	该请求关闭了 LLM 过滤；其事件不再被过滤。
+automations.llmCheckReplaced	该请求替换了 LLM 过滤提示词。当前提示词不在此显示。
+automations.loadMoreEvents	加载更多
+automations.loadingChannels	正在加载频道…
+automations.loadingJiraProjects	正在加载项目…
+automations.loadingScratchpadFolder	正在加载暂存文件夹…
+automations.loadingTeamOptions	正在加载团队选项…
+automations.machine	机器
+automations.machineDescription	选择此自动化创建的会话所用的操作系统或 Outpost。
+automations.manageMcps	管理 MCP
+automations.managedWebhookBadge	托管
+automations.managedWebhookBadgeTooltip	由你的管理员托管。打开设置。
+automations.managedWebhookBadgeTooltipNoAccess	由你的管理员托管。
+automations.managedWebhookDisabledTooltip	此托管 webhook 已禁用。
+automations.managedWebhookRequiredFieldTooltip	此字段在每个触发条件中必填。
+automations.managedWebhookTrigger	托管 webhook：{{name}}
+automations.manualRunBlockedDuringTrial	此自动化在免费试用期间不能手动运行。它会在你主分支的每次推送时自动运行。
+automations.manualTriggeredAt	手动触发于 {{timestamp}}
+automations.maxAcuLimit	每会话 ACU 上限最高为 1000
+automations.maxAcusDescription	每个会话最多可用的 ACU
+automations.maxConcurrentRuns	并发运行数
+automations.maxConcurrentRunsDescription	此自动化同时运行的最大次数；多余的事件排队等待
+automations.maxConcurrentRunsInfoLabel	关于并发运行
+automations.maxConcurrentRunsTooltip	当会话结束并等待新指令时，该运行即不再计入此上限——无需等会话完全停止。
+automations.maxDollarLimit	每会话上限最高为 ${{max}}
+automations.maxQueueDepth	队列深度
+automations.maxQueueDepthDescription	可排队等待的最大事件数；多余的事件被丢弃
+automations.maxSpendDescription	单个会话的支出上限
+automations.mcpBlockedByProfileTooltip	不被管控安全档案允许——会话将无法使用此 MCP 服务器
+automations.mcpCatalogError	无法加载 MCP 服务器
+automations.mcpCatalogUnavailableBeforeSaving	MCP 服务器尚未加载，因此保存前无法检查所选的 MCP
+automations.mcpManagedByEnterprise	由你的企业提供
+automations.mcpNameWithScope	{{name}}（{{scope}}）
+automations.mcpNeedsYourConnection	需要你连接
+automations.mcpNotAvailableInOrg	在此组织不可用
+automations.mcpNotConnected	未连接。在「定制」中连接
+automations.mcpNotConnectedPersonal	未连接。在「定制」中个人连接
+automations.mcpNotConnectedShort	未连接
+automations.mcpPersonalInstallation	为单个用户设置，不共享
+automations.mcpRemovedOnSave	保存时移除
+automations.mcpRemovedOnSaveTooltip	此 MCP 要求以创建者身份运行，保存时将被移除
+automations.mcpRequiresRunAsCreator	要求以创建者身份运行
+automations.mcpSetUpForOrganization	为此组织设置
+automations.mcps	MCP
+automations.mcpsAutoUnselected	以下 MCP 因要求以创建者身份运行而被取消选择：{{names}}
+automations.mcpsBlockedByProfile_named_one	{{count}} 个所选 MCP 服务器不被安全档案「{{name}}」允许，将被移除。要放行，请更新安全档案。
+automations.mcpsBlockedByProfile_named_other	{{count}} 个所选 MCP 服务器不被安全档案「{{name}}」允许，将被移除。要放行，请更新安全档案。
+automations.mcpsBlockedByProfile_one	{{count}} 个所选 MCP 服务器不被管控安全档案允许，将被移除。要放行，请更新安全档案。
+automations.mcpsBlockedByProfile_other	{{count}} 个所选 MCP 服务器不被管控安全档案允许，将被移除。要放行，请更新安全档案。
+automations.mcpsDescription	选择你希望此自动化使用的连接器
+automations.mcpsPreselectedFromProfile	已从「{{name}}」安全档案预选。可按需调整。
+automations.mentionedFieldTooltip	当工单、PR 或评论正文以 @devin、DevinAI 或 Devin 开头时为真（任意大小写）。正文后面的提及不算。
+automations.metadata	元数据
+automations.metadataDescription	添加键值对以组织和筛选你的自动化
+automations.metadataIncomplete	每条元数据必须同时包含键和值。
+automations.metadataKeyPlaceholder	键
+automations.metadataValuePlaceholder	值
+automations.microsoftTeams	Microsoft Teams
+automations.migrateToResponderAction	迁移
+automations.migrateToResponderBannerTitle	迁移到 Devin Oncall
+automations.migrateToResponderBody	用于缺陷和告警分诊的自动分诊自动化应迁移到 Devin Oncall 以获得更好的性能和成本效率。Devin Oncall 使用改进的 Agent 框架、更智能的问题归并，并为你的自动化优化告警和缺陷分诊体验。
+automations.migrateToResponderDialogDescription	选择与此自动化处理的问题对应的响应器类型。创建后不可更改。
+automations.migrateToResponderSetupAction	设置 Oncall
+automations.migrateToResponderTitle	迁移到 Devin Oncall 响应器
+automations.migratedToResponder	已迁移到 Oncall
+automations.migratingToResponder	正在迁移到 Oncall…
+automations.minAcuLimit	每会话 ACU 上限最低为 1
+automations.minDollarLimit	每会话上限最低为 ${{min}}
+automations.minuteRange	分钟（0-59）
+automations.minuteWithinHour	小时内的分钟数
+automations.missingIntegrationConfigure_creating	请先配置 {{label}} 再创建此自动化
+automations.missingIntegrationConfigure_saving	请先配置 {{label}} 再保存此自动化
+automations.missingIntegrationConnect_creating	请先连接 {{label}} 再创建此自动化
+automations.missingIntegrationConnect_saving	请先连接 {{label}} 再保存此自动化
+automations.missingIntegrationLink_creating	请先关联你的 {{label}} 账户再创建此自动化
+automations.missingIntegrationLink_saving	请先关联你的 {{label}} 账户再保存此自动化
+automations.missingIntegrationReauthorize_creating	请先重新授权 {{label}} 再创建此自动化
+automations.missingIntegrationReauthorize_saving	请先重新授权 {{label}} 再保存此自动化
+automations.monday	星期一
+automations.monitorCannotHaveNonSlackTriggers	监听自动化不能有非 Slack 消息触发器
+automations.monitorChannelMismatch	监听操作的来源频道必须是触发频道之一
+automations.monitorJoinMissingScope	无法加入。<reconnect>重新连接 Slack</reconnect> 以授予权限。
+automations.monitorMustHaveOneAction	监听自动化必须有且只有一个操作
+automations.monitorMustHaveSlackTrigger	监听自动化至少要有一个 Slack 消息触发器
+automations.moreActions	更多操作
+automations.nameColumn	名称
+automations.nameLabel	名称
+automations.nameRequired	名称为必填项
+automations.networkPolicy	网络策略
+automations.networkPolicyControlDescription	控制会话可访问的网络目标
+automations.networkPolicyControlDescription_governed	在其安全档案之外进一步限制此自动化的会话可访问的网络目标
+automations.networkPolicyMore	+{{count}} 更多
+automations.networkPolicyNoDestinations	不允许任何目标
+automations.networkPolicyShowLess	收起
+automations.newAutomation	新自动化
+automations.newDomain	新建
+automations.newFindingsPerScan	每次扫描的新发现项
+automations.newIssueCount_one	{{count}} 个新问题
+automations.newIssueCount_other	{{count}} 个新问题
+automations.next	下一步
+automations.noAccess	无访问权限
+automations.noAutomationsMatchFilters	没有符合这些筛选的自动化
+automations.noAutomationsMatchFiltersDetail_one	没有同时具备全部 {{count}} 个元数据值的自动化。试试移除某个筛选或放宽搜索。
+automations.noAutomationsMatchFiltersDetail_other	没有同时具备全部 {{count}} 个元数据值的自动化。试试移除某个筛选或放宽搜索。
+automations.noAutomationsMatchListFiltersDetail	试试移除某个筛选或放宽搜索。
+automations.noAutomationsYet	还没有自动化
+automations.noAutomationsYetPeriod	还没有自动化。
+automations.noChanges	无变更
+automations.noChannels	无频道
+automations.noChannelsAvailableTooltip	没有可选择的频道。请检查你的 Slack 连接和频道映射。
+automations.noChannelsFound	未找到频道
+automations.noChannelsMappedToOrgPeriod	没有映射到此组织的频道。
+automations.noChannelsMappedTooltip	没有映射到此组织的频道。请更新企业 Slack 设置以映射频道。
+automations.noConsumption	此范围内无消耗。
+automations.noDevinSelected	未选择 Devin
+automations.noErrorMessage	此运行没有记录错误信息。
+automations.noEventMessage	无消息
+automations.noEvents	此范围内无事件。
+automations.noFailedRuns	没有失败的运行。此自动化未上报过错误。
+automations.noFilesYet	还没有文件。
+automations.noFilterOptions	没有可筛选项
+automations.noFilteredEvents	没有符合所选状态筛选的事件。
+automations.noIssues	此范围内无问题。
+automations.noJiraProjectsFound	未找到项目
+automations.noJiraSites	未连接 Jira 站点
+automations.noLimit	无上限
+automations.noLinkedEvents	无关联事件。
+automations.noMatchingAutomations	没有匹配的自动化
+automations.noMatchingEvents	本页没有匹配你搜索的事件。用「上一页/下一页」搜索其他页。
+automations.noMatchingEventsSinglePage	没有匹配你搜索的事件。
+automations.noMatchingIssues	没有匹配你搜索的问题。
+automations.noMatchingMetadata	没有匹配的元数据
+automations.noMcps	无
+automations.noMcpsAvailable	没有可用的 MCP
+automations.noMcpsMatching	没有匹配「{{query}}」的 MCP
+automations.noMetadataYet	还没有元数据

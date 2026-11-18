@@ -1,0 +1,160 @@
+settingsPages.buildStatusBanner.viewSnapshot	看快照
+settingsPages.chatKeywordsTutorial.aside	Aside
+settingsPages.chatKeywordsTutorial.asideTellsDevinIgnoreMessage	_aside_ 让 Devin 忽略这条消息
+settingsPages.chatKeywordsTutorial.asideWaitWhyDidWeZorple	aside 等等，我们干嘛在这 zorple jorp？
+settingsPages.chatKeywordsTutorial.ask	Ask
+settingsPages.chatKeywordsTutorial.authenticationHandledViaJWTTokensStored	认证经 localstorage 存的 JWT token 处理。
+settingsPages.chatKeywordsTutorial.devinAskHowAuthWebsiteWorks	_@Devin_ !ask website 的 auth 怎么工作？
+settingsPages.chatKeywordsTutorial.iLlStartRefactoringAuthModule	我现在开始重构 auth 模块。
+settingsPages.chatKeywordsTutorial.iThinkJorpWasAlreadyZorpled	我记得 jorp 上次部署已经 zorple 过了
+settingsPages.chatKeywordsTutorial.looksGreatAs	就这样就挺好
+settingsPages.chatKeywordsTutorial.mute	Mute
+settingsPages.chatKeywordsTutorial.mute2	mute
+settingsPages.chatKeywordsTutorial.muteStopsDevinFromListeningUntil	_mute_ 让 Devin 不听，直到你 _unmute_
+settingsPages.chatKeywordsTutorial.sleep	Sleep
+settingsPages.chatKeywordsTutorial.sleep2	sleep
+settingsPages.chatKeywordsTutorial.sleepPausesDevin	_sleep_ 暂停 Devin
+settingsPages.chatKeywordsTutorial.startMessageAskGetQuickCodebase	消息以 _!ask_ 开头，不起完整 agent 就拿到快速代码库答案
+settingsPages.chatKeywordsTutorial.thanksOliver	谢了，Oliver！
+settingsPages.chatKeywordsTutorial.triagedFixedAuthIssuesPR5438	已分诊并修复 _PR #5438_ 里的 auth 问题。
+settingsPages.chatKeywordsTutorial.unmute	unmute
+settingsPages.contentCharCount.chars	{{value}} 字符
+settingsPages.contentCharCount.lengthWarning	此 playbook 很长，可能稀释 Devin 的专注。考虑拆成从子会话跑的更小 playbook。
+settingsPages.contentCharCount.thousandChars	{{value}}K 字符
+settingsPages.createPlaybookSheet.availableAllAccountsSystemTab	System 标签页对全部账户可用
+settingsPages.createPlaybookSheet.checkingMacroAvailability	查宏可用性中
+settingsPages.createPlaybookSheet.content	内容
+settingsPages.createPlaybookSheet.continueEditing	继续编辑
+settingsPages.createPlaybookSheet.create	创建
+settingsPages.createPlaybookSheet.createCommunityPlaybook	建社区 playbook
+settingsPages.createPlaybookSheet.createPlaybook	建 playbook
+settingsPages.createPlaybookSheet.deployToStaging	部署到 staging
+settingsPages.createPlaybookSheet.discardChanges	丢弃更改
+settingsPages.createPlaybookSheet.discardUnsavedChanges	丢弃未保存更改？
+settingsPages.createPlaybookSheet.examples	示例
+settingsPages.createPlaybookSheet.loadingPlaybook	加载 playbook 中
+settingsPages.createPlaybookSheet.macro	宏
+settingsPages.createPlaybookSheet.macroIsAvailable	宏可用
+settingsPages.createPlaybookSheet.name	名称
+settingsPages.createPlaybookSheet.oneSessionIdPerLine	每行一个会话 ID
+settingsPages.createPlaybookSheet.playbookNotFound	找不到 playbook
+settingsPages.createPlaybookSheet.pleaseEnterAName	名称为必填项
+settingsPages.createPlaybookSheet.pleaseEnterPlaybookContent	Playbook 内容为必填项
+settingsPages.createPlaybookSheet.reusablePromptCustomizesHowDevinWorks	定制 Devin 工作方式的可复用提示词
+settingsPages.createPlaybookSheet.shortcutToRunThePlaybookFrom	从提示词跑 playbook 的快捷键
+settingsPages.createPlaybookSheet.thisMacroIsNotAvailable	此宏不可用
+settingsPages.customizeIntroDialog.sampleSkillBody	开 PR 前：\n1. 跑 pnpm lint。\n2. 跑受影响的测试。\n3. 链工单。
+settingsPages.devinApiPage.apiKeysLegacy	API key（旧版）
+settingsPages.devinApiPage.copyOrganizationId	复制组织 ID
+settingsPages.devinApiPage.organizationIdLabel	组织 ID：
+settingsPages.devinApiPage.pats	PAT
+settingsPages.devinApiPage.serviceUsers	服务用户
+settingsPages.devinCliBundlingRow.devinCLIBundledWindsurfButRequires	Devin CLI 随 Windsurf 捆绑但需显式启用。
+settingsPages.devinCliBundlingRow.failedToUpdateSetting	更新设置失败
+settingsPages.devinCliBundlingRow.settingUpdated	设置已更新
+settingsPages.editorSettingsSchemas.invalidAgents	缺或无效 "agents" 字段（须为数组）。
+settingsPages.editorSettingsSchemas.invalidVersion	缺或无效 "version" 字段（须为字符串）。
+settingsPages.enterpriseApiKeysTable.revokeFailed	吊销 API key 失败
+settingsPages.enterpriseApiKeysTable.revokeManySuccess_one	{{count}} 个 API key 吊销成功
+settingsPages.enterpriseApiKeysTable.revokeManySuccess_other	{{count}} 个 API key 吊销成功
+settingsPages.enterpriseApiKeysTable.revokeSuccess	API key 吊销成功
+settingsPages.enterpriseApiKeysTable.unknown	未知
+settingsPages.enterpriseBlueprintContainer.enterprise	企业
+settingsPages.enterpriseBlueprintContainer.savingThisBlueprintWillTriggerA	保存此 blueprint 将触发企业每个组织重建。
+settingsPages.enterpriseBlueprintContainer.thisWillTriggerARebuildFor	这将触发企业全部组织重建。
+settingsPages.enterpriseDevinApiPage.deprecated	已弃用
+settingsPages.enterpriseDevinApiPage.legacyApi	旧版 API
+settingsPages.enterpriseDevinApiPage.pats	PAT
+settingsPages.enterpriseDevinApiPage.serviceUsers	服务用户
+settingsPages.enterpriseDevinApiPage.theLegacyApiIsDeprecatedUse	旧版 API 已弃用。新 key 用服务用户 API。
+settingsPages.enterpriseEnvironmentV2Page.allowOverride	允许 {{overrideScope}} 覆盖
+settingsPages.enterpriseEnvironmentV2Page.buildSchedule	构建排期
+settingsPages.enterpriseEnvironmentV2Page.buildScheduleUpdated	构建排期已更新
+settingsPages.enterpriseEnvironmentV2Page.buildTimesAreSpreadAutomaticallyAcross	构建时间自动错开在每个组织
+settingsPages.enterpriseEnvironmentV2Page.builds	构建
+settingsPages.enterpriseEnvironmentV2Page.cloneFailurePolicyUpdated	克隆失败政策已更新。
+settingsPages.enterpriseEnvironmentV2Page.configuration	配置
+settingsPages.enterpriseEnvironmentV2Page.controlHowSnapshotBuildsAreScheduled	控制你企业快照构建怎么排期
+settingsPages.enterpriseEnvironmentV2Page.custom	自定义
+settingsPages.enterpriseEnvironmentV2Page.days	天
+settingsPages.enterpriseEnvironmentV2Page.defaultEvery24Hours	默认——每 24 小时
+settingsPages.enterpriseEnvironmentV2Page.enterAWholeNumberGreaterThan	输大于 0 的整数，或留空不限
+settingsPages.enterpriseEnvironmentV2Page.failedToUpdateBuildSchedule	更新构建排期失败
+settingsPages.enterpriseEnvironmentV2Page.failedToUpdateCloneFailurePolicy	更新克隆失败政策失败。
+settingsPages.enterpriseEnvironmentV2Page.failedToUpdateMaxConcurrentBuilds	更新最大并发构建失败。
+settingsPages.enterpriseEnvironmentV2Page.interval	间隔
+settingsPages.enterpriseEnvironmentV2Page.intervalUnit	间隔单位
+settingsPages.enterpriseEnvironmentV2Page.learnMoreAboutEnterpriseEnvironmentSettings	了解<spanEl>企业环境设置</spanEl>
+settingsPages.enterpriseEnvironmentV2Page.learnMoreAboutTheEnterpriseBlueprint	了解<spanEl>企业 blueprint</spanEl>
+settingsPages.enterpriseEnvironmentV2Page.letEnvironmentsAndOrganizationsSetTheir	让环境和组织自定构建排期
+settingsPages.enterpriseEnvironmentV2Page.letOrganizationsSetTheirOwnBuild	让组织自定构建排期
+settingsPages.enterpriseEnvironmentV2Page.machineCatalog	机器目录
+settingsPages.enterpriseEnvironmentV2Page.maxConcurrentBuildsUpdated	最大并发构建已更新。
+settingsPages.enterpriseEnvironmentV2Page.noEnterprisePolicyOrganizationsUseTheir	无企业政策——组织用各自排期
+settingsPages.enterpriseEnvironmentV2Page.noLimit	不限
+settingsPages.enterpriseEnvironmentV2Page.rebuildsEveryDays_one	每天重建一次，每个组织时间错开
+settingsPages.enterpriseEnvironmentV2Page.rebuildsEveryDays_other	每 {{count}} 天重建，每个组织时间错开
+settingsPages.enterpriseEnvironmentV2Page.rebuildsEveryWeeks_one	每周重建一次，每个组织时间错开
+settingsPages.enterpriseEnvironmentV2Page.rebuildsEveryWeeks_other	每 {{count}} 周重建，每个组织时间错开
+settingsPages.enterpriseEnvironmentV2Page.repeatEvery	每隔
+settingsPages.enterpriseEnvironmentV2Page.runsBeforeOrgAndRepoConfigs	在全部组织的组织和每仓库配置前跑。
+settingsPages.enterpriseEnvironmentV2Page.saveSchedule	存排期
+settingsPages.enterpriseEnvironmentV2Page.standaloneEnvironments	独立环境
+settingsPages.enterpriseEnvironmentV2Page.usingSystemDefaultRebuildsWhenOlder	用系统默认——超 24 小时就重建
+settingsPages.enterpriseEnvironmentV2Page.weekly	每周
+settingsPages.enterpriseEnvironmentV2Page.weeks	周
+settingsPages.enterpriseReadinessPanel.l	L{{level}}
+settingsPages.enterpriseSecretsSection.addYourFirstSecretToGet	加你首个机密开始。
+settingsPages.enterpriseSecretsSection.couldntLoadSecretsTryAgainLater	加载不了机密。稍后再试。
+settingsPages.enterpriseSecretsSection.createSecret	建机密
+settingsPages.enterpriseSecretsSection.importSecrets	导入机密
+settingsPages.enterpriseSecretsSection.noMatchingSecrets	没有匹配的机密
+settingsPages.enterpriseSecretsSection.noSecretsFound	找不到机密
+settingsPages.enterpriseSecretsSection.noSecretsHaveBeenAddedYet	还没加机密。
+settingsPages.enterpriseSecretsSection.searchSecrets	搜索机密
+settingsPages.enterpriseSecretsSection.tryADifferentSearchTerm	换个搜索词试试。
+settingsPages.environmentPage.advanced	高级
+settingsPages.environmentPage.blueprints	Blueprint
+settingsPages.environmentPage.configureHowDevinsEnvironmentIsSet	配置你组织 Devin 的环境怎么设置。<docsLink>了解</docsLink>
+settingsPages.environmentPage.machineConfiguration	机器配置
+settingsPages.environmentPage.outposts	Outpost
+settingsPages.environmentPage.snapshots	快照
+settingsPages.filterDropdownMenu.allGitProviders	全部 git 提供商
+settingsPages.githubSettingsItems.autoJoiningDisabled	GitHub 自动加入已禁
+settingsPages.githubSettingsItems.autoJoiningEnabled	GitHub 自动加入已开
+settingsPages.githubSettingsItems.failedToUpdateAutoJoining	更新 GitHub 自动加入设置失败
+settingsPages.hooks.autoReviewCanOnlyBeSet	Devin 必须先跟踪此 PR 你才能开自动分析
+settingsPages.hooks.autoReviewPreferencesHaveBeenUpdated	自动分析偏好已更新
+settingsPages.hooks.failedRemoveOverride	移除覆盖失败
+settingsPages.hooks.failedRemoveReviewContext	移除审查上下文失败
+settingsPages.hooks.failedSaveOverride	存覆盖失败
+settingsPages.hooks.failedSaveReviewContext	存审查上下文失败
+settingsPages.hooks.failedUpdateAutoReviewSetting	更新不了自动分析
+settingsPages.hooks.failedUpdateEnrollmentStatus	更新登记状态失败
+settingsPages.hooks.reviewSettings	审查设置
+settingsPages.hooks.reviewTriggerSetTriggerLabel	你的分析触发设为 {{triggerLabel}}
+settingsPages.hooks.triggerModeAuto	自动分析
+settingsPages.hooks.triggerModeManual	手动
+settingsPages.hooks.whenPRReady	PR 就绪时
+settingsPages.hooks.youDonTHavePermissionEnable	你没权为此 PR 开自动分析
+settingsPages.installControl.install	安装
+settingsPages.installControl.installed	已装
+settingsPages.installControl.installing	装中…
+settingsPages.installControl.uninstall	卸载
+settingsPages.installControl.uninstalling	卸中…
+settingsPages.installationSecretsSection.eachSecretNeedsBothNameValue	每个机密要名和值都有。保存前补全或删不完整行。
+settingsPages.installationSecretsSection.secretDeleted	机密已删
+settingsPages.installationSecretsSection.secretUnlinked	机密已解链
+settingsPages.installationSecretsSection.secretsSaved	机密已存
+settingsPages.itemDefs.aPIDefaultAgent	API 默认 agent
+settingsPages.itemDefs.advanced	高级
+settingsPages.itemDefs.allocationUsageProductivityAcrossHierarchy	你层级里的分配、用量和生产力
+settingsPages.itemDefs.allowOrgAdminsManageBillingTags	允许组织管理员管计费标签
+settingsPages.itemDefs.allowUsersDevinSessionsRunDynamic	允许用户和 Devin 会话跑 dynamic workflow
+settingsPages.itemDefs.anthropicSFable5_1ModelPreview	Anthropic 的 Fable 5.1 模型。预览到 9 月 22 日
+settingsPages.itemDefs.anthropicSLatestModelPreviewAvailable	Anthropic 的最新模型。预览到 10 月 6 日
+settingsPages.itemDefs.appliedNewSessionsEveryOrgOrgs	应用于每个组织的新会话。组织可自设默认覆盖。
+settingsPages.itemDefs.appliedNewSessionsThisOrg	应用于此组织的新会话
+settingsPages.itemDefs.appliedPylonDelegatedSessions	应用于 Pylon 委派会话
+settingsPages.itemDefs.askWithoutDevinAccount	无 Devin 账户也能问
+settingsPages.itemDefs.autoBuildDifferentialBuildsBuildSchedule	自动构建、差异构建和构建排期设置

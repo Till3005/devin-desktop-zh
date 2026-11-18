@@ -1,0 +1,270 @@
+selectionBar.asksExcluded	{{count}} 个 ask 被排除——只能分析会话
+selectionBar.asksExcluded_other	{{count}} 个 ask 被排除——只能分析会话
+selectionBar.clearSelection	清除选择
+selectionBar.createPlaybook	建 Playbook
+selectionBar.createPlaybookFromSessions	从 {{count}} 个会话建 playbook
+selectionBar.createPlaybookFromSessions_other	从 {{count}} 个会话建 playbook
+selectionBar.createSkill	建技能
+selectionBar.createSkillFromSessions	从 {{count}} 个会话建技能
+selectionBar.createSkillFromSessions_other	从 {{count}} 个会话建技能
+selectionBar.resume	恢复
+selectionBar.selectFirstSessions	选前 {{max}} 个会话
+selectionBar.selected	已选 {{count}} 个
+selectionBar.stop	停止
+selectionBar.tooManySessions_one	最多 {{max}} 个会话（已选 {{count}}）
+selectionBar.tooManySessions_other	最多 {{max}} 个会话（已选 {{count}}）
+selectionBar.unarchive	取消归档
+selectionContextMenu.searchWeb	搜网页「{{text}}」
+selectionContextMenu.selectAll	全选
+sendOptions.moreSendOptions	更多发送选项
+sendOptions.startInBackground	后台开会话
+serviceRail.bots	{{botNamePlural}}
+serviceRail.compliance	合规
+serviceRail.devin	Devin
+serviceRail.home	主页
+serviceRail.label	服务
+serviceRail.security	安全
+serviceUserAccess.botCanConfigure	可配置
+serviceUserAccess.botCanUse	可使用
+serviceUserAccess.botConfigureDescription	改 {{name}} 的指令、连接、插件和机密。
+serviceUserAccess.botConfigureOption	配置
+serviceUserAccess.botConfigureVerb	配置
+serviceUserAccess.botSearchPlaceholder	加人、组或角色
+serviceUserAccess.botShareDescription	决定谁还能用、配置或共享 {{name}}。
+serviceUserAccess.botUseDescription	给 {{name}} 发消息并指挥它的会话，会话用它自己的连接和机密跑。
+serviceUserAccess.botUseOption	使用
+serviceUserAccess.botUseVerb	使用
+serviceUserAccess.canConfigure	可配置
+serviceUserAccess.canConfigureDescription	管理此服务用户持有的连接、插件和机密
+serviceUserAccess.canShare	可共享
+serviceUserAccess.canShareDescription	决定谁还可用、配置或共享它
+serviceUserAccess.canUse	可使用
+serviceUserAccess.canUseDescription	以此服务用户身份跑自动化并指挥其会话，带其权限、连接和机密
+serviceUserAccess.configureOption	配置
+serviceUserAccess.configureOptionDescription	编辑此资源的内容和设置，或删它。
+serviceUserAccess.configureVerb	配置
+serviceUserAccess.description	谁可用、配置或共享 {{name}}。
+serviceUserAccess.descriptionUseOnly	谁可用 {{name}}。
+serviceUserAccess.heldGrantsBotReach	附带 {{name}} 能访问的一切
+serviceUserAccess.heldGrantsCreateAny	建任何{{type}}
+serviceUserAccess.heldGrantsDescription	你共享 {{name}} 给的任何人可用这些。
+serviceUserAccess.heldGrantsEmpty	授权会出现在这里。每个授权显示 {{name}} 能对共享资源做什么，如会话或机密。
+serviceUserAccess.heldGrantsEveryOne	每个{{type}}
+serviceUserAccess.heldGrantsLoadFailed	加载不了此 bot 能访问什么
+serviceUserAccess.heldGrantsManagedElsewhere	由同步管理；在授予处吊销
+serviceUserAccess.heldGrantsRemoveFailed	吊销不了访问
+serviceUserAccess.heldGrantsTitle	访问 {{name}} 还包含
+serviceUserAccess.heldGrantsTruncated	{{name}} 能访问的比列出的多。吊销一些再看其余。
+serviceUserAccess.heldGrantsTypes.*	任何资源
+serviceUserAccess.heldGrantsTypes.agent_profile	Agent 配置
+serviceUserAccess.heldGrantsTypes.app	App
+serviceUserAccess.heldGrantsTypes.automation	自动化
+serviceUserAccess.heldGrantsTypes.budget	预算
+serviceUserAccess.heldGrantsTypes.environment	环境
+serviceUserAccess.heldGrantsTypes.folder	资源集合
+serviceUserAccess.heldGrantsTypes.git_connection	Git 连接
+serviceUserAccess.heldGrantsTypes.group	组
+serviceUserAccess.heldGrantsTypes.knowledge	知识
+serviceUserAccess.heldGrantsTypes.mcp	MCP
+serviceUserAccess.heldGrantsTypes.mcp_authorization	MCP 授权
+serviceUserAccess.heldGrantsTypes.outpost_pool	Outpost 池
+serviceUserAccess.heldGrantsTypes.playbook	Playbook
+serviceUserAccess.heldGrantsTypes.plugin	插件
+serviceUserAccess.heldGrantsTypes.repo	仓库
+serviceUserAccess.heldGrantsTypes.repo_prefix	仓库前缀
+serviceUserAccess.heldGrantsTypes.secret	机密
+serviceUserAccess.heldGrantsTypes.secure_mode_profile	安全模式配置
+serviceUserAccess.heldGrantsTypes.service_user	服务用户
+serviceUserAccess.heldGrantsTypes.session	会话
+serviceUserAccess.heldGrantsTypes.tracker_connection	Tracker 连接
+serviceUserAccess.heldGrantsUnnamed	已删或未知{{type}}
+serviceUserAccess.inheritedDescription	继承自集合或角色
+serviceUserAccess.manageAccess	管理访问
+serviceUserAccess.personalGrantsWarning	共享此 {{botName}} 也把它连接的账户共享给你加的每个人。
+serviceUserAccess.removeSelfError	你不能移除自己的访问
+serviceUserAccess.searchPlaceholder	加人、组或角色
+serviceUserAccess.searchPlaceholderMembersAndRoles	加人或角色
+serviceUserAccess.shareHeldGrantLabel	为 {{name}} 保留 {{resource}}
+serviceUserAccess.shareHeldGrantsConfirm	共享
+serviceUserAccess.shareHeldGrantsDescription	共享允许他人用这些。先取消勾选要从 {{name}} 吊销的。
+serviceUserAccess.shareHeldGrantsTitle	{{name}} 有其它资源的访问
+serviceUserAccess.shareOption	共享
+serviceUserAccess.shareOptionDescription	管理访问，但没有查看或编辑此资源的权限。
+serviceUserAccess.shareVerb	共享
+serviceUserAccess.useOption	使用
+serviceUserAccess.useOptionDescription	在 Devin 会话查看和用此资源。
+serviceUserAccess.useVerb	使用
+session.aboutFolder	关于 {{folderName}}
+session.actionModelTooltip	动作模型：{{model}}
+session.acuTreeThisSession	此会话
+session.acuUsage	ACU 用量
+session.acusValue	{{value}} ACU
+session.agentVersionTooltip	Agent：{{name}}
+session.approvalRequired	需要批准
+session.archiveFailedToast_one	归档会话失败。请重试。
+session.archiveFailedToast_other	归档会话失败。请重试。
+session.archiveFolder	归档文件夹
+session.archived	已归档
+session.archivedByOwner	所有者归档了此会话
+session.archivedToast_one	会话已归档
+session.archivedToast_other	已归档 {{count}} 个会话
+session.askDevin	Ask Devin
+session.badgeDataAnalyst	数据分析
+session.badgePlan	方案
+session.badgeResearch	调研
+session.billedUsage	计费用量
+session.botFromFolderBoardDescription	「{{folder}}」文件夹的会话，每个认领其工单。
+session.botFromFolderChildren_one	{{count}} 个子会话留在其父会话。
+session.botFromFolderChildren_other	{{count}} 个子会话留在其父会话。
+session.botFromFolderCreated	已建 {{botName}}「{{folder}}」
+session.botFromFolderExists	「{{folder}}」已有它的 {{botName}}
+session.botFromFolderFailed	从此文件夹建 {{botName}} 失败
+session.botFromFolderSessionsStay	文件夹已变成此 {{botName}}，其会话留在你的列表。
+session.botFromFolderSkipped_one	{{count}} 个会话不是你的，已跳过。
+session.botFromFolderSkipped_other	{{count}} 个会话不是你的，已跳过。
+session.botFromFolderTickets_one	{{count}} 个会话已移交。
+session.botFromFolderTickets_other	{{count}} 个会话已移交。
+session.botFromSessionCreated	已建 {{botName}}「{{name}}」
+session.botFromSessionFailed	从此会话建 {{botName}} 失败
+session.bulkArchiveFailed	归档会话失败
+session.bulkUnarchiveFailed	取消归档会话失败
+session.cancel	取消
+session.category	分类
+session.clickToResume	点击恢复
+session.clickToUnarchive	点击取消归档
+session.closeComparison	关闭对比
+session.closeSearch	关闭搜索
+session.composerLabel	在此会话给 Devin 发消息
+session.connectionError	连接错误
+session.connectionErrorDescription	会话加载不了。检查网络后重试。
+session.copyLinkFailed	复制会话链接失败
+session.coveredByPromotion	促销覆盖
+session.create	创建
+session.createFailed	创建会话失败。请重试。
+session.createdByBot	由 {{name}} 创建
+session.createdByUser	创建者：{{name}}
+session.createdOnTooltip	创建于 {{date}}
+session.deleteFailed	删除会话失败：{{error}}
+session.deleteFolder	删文件夹
+session.deleteFolderDescription	「{{folderName}}」里的会话不会被删，但文件夹和其分组会被移除。不可撤销。
+session.deleteFolderTitle	删文件夹？
+session.descendantAcuUsage	后代 ACU 用量
+session.descendantUsage	后代用量
+session.deselectAllInGroup	取消全选 {{group}}
+session.devinStartingUp	{{name}} 正在启动…
+session.emptyFolder	没有会话
+session.emptyFolderAction	清空文件夹
+session.emptyFolderDnd	把会话拖到这里
+session.error	错误
+session.exitFocusMode	退出专注模式
+session.exportAcusFailed	加载不了导出的 ACU。请重试。
+session.exportFailed	导出不了会话。请重试。
+session.exportPromptFailed	加载不了会话完整提示词。请重试。
+session.failedToArchiveFolder	归档文件夹失败
+session.failedToCreateFolder	建文件夹失败
+session.failedToDeleteFolder	删文件夹失败
+session.failedToRenameFolder	重命名文件夹失败
+session.failedToUnarchiveFolder	取消归档文件夹失败
+session.failedToUnpinAll	取消置顶会话失败
+session.fileUploadBlocked	{{fileName}} 在到达 Devin 前被挡
+session.fileUploadBlockedDescription	你网络的安全策略很可能拒了上传。请你 IT 团队放行；重试没用。
+session.fileUploadBlockedDescriptionWithReason	你网络的安全策略很可能拒了上传（原因：{{reason}}）。请你 IT 团队放行；重试没用。
+session.fileUploadDisabled	文件上传已禁用
+session.fileUploadFailed	上传 {{fileName}} 失败
+session.folderName	文件夹名
+session.folderNameRequired	文件夹名为必填项
+session.folderOptions	文件夹选项
+session.folders	文件夹
+session.freeModeSession	免费（SWE-2 驱动）<br/><n>{{used}}/{{limit}}</n> 使用中
+session.freeModeSessionNoSlot	免费（SWE-2 驱动）<br/><n>{{used}}/{{limit}}</n> 被其它会话占用
+session.freeModeSessionNoSlotAtCap	免费（SWE-2 驱动）<br/><n>{{used}}/{{limit}}</n> 被其它会话占用。归档一个腾位。
+session.freeModeSessionShared	免费（SWE-2 驱动）
+session.freeUntilFirstMessage	此会话目前免费。你第一条消息开始计费。
+session.hostDisconnectedDescription	此会话在那台主机跑。重连以打开。
+session.hostDisconnectedTitle	{{name}} 已断连
+session.insightsAnalyzing	分析中…
+session.internalError	内部错误。
+session.keyAlt	Alt
+session.knowledgeF1	F1：{{percent}}%
+session.legacyParticipatedInfo	你参与过的他人旧会话。新的现在出现在「最近」。
+session.loadFullPromptFailed	加载不了会话完整提示词。请重试。
+session.loadingMore	加载更多…
+session.locked.description	在那里关掉才能在这里用。
+session.locked.forceOpen	强制打开
+session.locked.forceOpenDescription	这会停掉开此会话的进程（PID {{pid}}）并在这里打开它。
+session.locked.forceOpenFailed	停不了另一个进程。
+session.locked.forceOpenTitle	强制打开此会话？
+session.locked.title	此会话在另一个窗口或终端开着
+session.locked.titleWithPid	此会话在另一个窗口或终端开着（PID {{pid}}）
+session.makeBotFromFolder	从此文件夹建 {{botName}}
+session.markedNotDone	已标记未完成
+session.moreFolders	更多文件夹
+session.moveToBot	移到 {{botName}}
+session.moveToBotFailed	移此会话到 {{botName}} 失败
+session.moveToBotSearch	搜索 {{botNamePlural}}
+session.moveToFolder	移到文件夹
+session.movedToBot	已移到 {{name}}
+session.nameEmpty	名字不能为空。
+session.nameTooLong	会话名不能超过 {{max}} 字符。
+session.newFolder	新文件夹
+session.newPinnedSession	新置顶会话
+session.newSession	新会话
+session.newSessionInFolder	文件夹里新会话
+session.newSessionInWorkspace	工作区里新会话
+session.noLongerAccess_one	你不再有此会话的访问权。
+session.noLongerAccess_other	你不再有这些会话的访问权。
+session.noPermission	你没有访问此会话的权限。
+session.onDemandUsage	按需用量
+session.organizationTooltip	组织：{{name}}
+session.pin	置顶
+session.playbookUploaded	Playbook 已上传
+session.promoteToBot	提升为 {{botName}}
+session.promotionAcuAmount	{{amount}} ACU
+session.promotionCoversUsage	此促销覆盖的会话用量免费。计划结束：{{endsAt}}。
+session.refreshFailed	刷新不了此会话
+session.refreshFailedDescription	显示最近加载的版本。检查你的网络。
+session.renameFolder	重命名文件夹
+session.reportFailed	举报会话失败
+session.reported	会话已举报
+session.resumeFailed.description	显示最近加载的版本。
+session.resumeFailed.goneDescription	可能从另一个窗口或终端被删了。
+session.resumeFailed.goneTitle	此会话已不存在
+session.runSkillsInsights	跑技能洞察
+session.runSkillsInsightsShort	跑 SI
+session.save	保存
+session.saveNameFailed	存会话名失败
+session.selectAllInGroup	全选 {{group}}
+session.sessionSize	会话大小
+session.showSuperuserBanner	显示超管横幅
+session.skillsF1	技能 F1：{{percent}}%
+session.slackPostFailed	发不了此会话到 {{target}}。
+session.slackPosted	已发此会话到 {{target}}
+session.staffAccess.duration	时长
+session.staffAccess.durationHours.1	1 小时
+session.staffAccess.durationHours.24	24 小时
+session.staffAccess.durationHours.4	4 小时
+session.staffAccess.pending	你的申请在等批准。
+session.staffAccess.reason	原因
+session.staffAccess.reasonRequired	原因为必填项
+session.staffAccess.request	申请此会话的访问权
+session.staffAccess.requestDescription	此账户的 owner 或 admin 批你的申请。只开此会话，到过期为止。
+session.staffAccess.requestFailed	你的申请发不出。请重试。
+session.staffAccess.stepUp	用 Okta 验证以查看
+session.staffAccess.stepUpCoversAccount	此验证覆盖账户 {{accountId}} 的每个会话。
+session.staffAccess.stepUpCoversSession	此验证只覆盖此会话。
+session.staffAccess.stepUpFailed	Okta 验证启动不了。请重试。
+session.staffAccess.stepUpWaiting	在等另一个窗口的 Okta 登录。你登录后此页自动加载。
+session.stopped	已停
+session.stoppedByOwner	所有者停了此会话
+session.subscribed	已订阅
+session.syncByDefaultDescription	你已同步几个会话到这里。要新会话自动同步吗？
+session.syncByDefaultPrompt	默认把新 web 会话同步到 {{target}}？
+session.syncDefaultSaved	新 web 会话将默认同步到 {{target}}
+session.syncSetDefault	设为默认
+session.thisChannel	此频道
+session.title	会话
+session.typingDisabled	回放时输入已禁用
+session.unarchiveFailed	取消归档失败
+session.unarchiveFailedToast_one	取消归档会话失败。请重试。
+session.unarchiveFailedToast_other	取消归档会话失败。请重试。
+session.unarchiveFolder	取消归档文件夹

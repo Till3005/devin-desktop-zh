@@ -1,0 +1,200 @@
+settings.defaultWorkingEnvironmentOrgOption	组织环境
+settings.defaultWorkingOrg	默认工作组织
+settings.defaultWorkingOrgDescription	Devin 为 app 外开的新会话用的组织，如 Jira 和 Linear 提及
+settings.delete	删除
+settings.deleteCodemap	删代码地图
+settings.deleteCodemapConfirmation	确定要删此代码地图？此操作不可撤销。
+settings.deleteGitProviderConnection	删 {{provider}} 连接
+settings.deleteServiceUsers.action	删除
+settings.deleteServiceUsers.confirmDescription_one	确定要删此服务用户？此操作不可撤销。其 token 立刻失效，用它的一切系统失去访问。
+settings.deleteServiceUsers.confirmDescription_other	确定要删这 {{count}} 个服务用户？此操作不可撤销。其 token 立刻失效，用它们的一切系统失去访问。
+settings.deleteServiceUsers.confirmTitle_one	删 {{count}} 个服务用户
+settings.deleteServiceUsers.confirmTitle_other	删 {{count}} 个服务用户
+settings.deleteServiceUsers.deleted_one	服务用户已删
+settings.deleteServiceUsers.deleted_other	{{count}} 个服务用户已删
+settings.deleteServiceUsers.failed_one	删不了此服务用户
+settings.deleteServiceUsers.failed_other	删不了 {{count}} 个服务用户
+settings.deleteServiceUsers.selectedCount_one	已选 {{count}} 个
+settings.deleteServiceUsers.selectedCount_other	已选 {{count}} 个
+settings.deleteSharedConversation	删共享对话
+settings.deleteSharedConversationConfirmation	确定要删此对话？此操作不可撤销。
+settings.deleteTier	删档位
+settings.deleteTierConfirmDescription	确定要删「{{name}}」？不可撤销。
+settings.deleteTierConfirmTitle	删档位？
+settings.deleteTierError	删档位失败
+settings.deleteTierSuccess	档位已删
+settings.deniedDomains	被拒域名
+settings.denyCommandPlaceholder	如：rm -rf
+settings.denyDomainPlaceholder	如：malicious.com
+settings.denyRequest	拒绝
+settings.denyRequests_one	拒绝 {{count}} 个申请
+settings.denyRequests_other	拒绝 {{count}} 个申请
+settings.denyingRequest	正在拒绝申请…
+settings.denylist	黑名单
+settings.desktopIndividualDescription	管理你的 {{product}} API key 和隐私设置。
+settings.desktopMemberDescription	看你的 {{product}} 账户活动和共享对话。
+settings.desktopOrgDescription	选你组织的 {{product}} 设置。
+settings.desktopOrgOverrideDescription	为此组织覆盖 {{product}} 设置。你没覆盖的设置继承企业默认。
+settings.desktopSettingsLoadFailed	加载 {{product}} 设置失败。
+settings.desktopSettingsTitle	{{product}} 设置
+settings.details	详情
+settings.developerSettings	开发者设置
+settings.devinApi	Devin API
+settings.devinCliDefaultModel	Devin Desktop 和 Devin CLI 默认模型
+settings.devinCliDefaultModelDescription	为你团队新用户设默认模型。
+settings.devinCliPermissions	Devin CLI 权限
+settings.devinCliPlugins	Devin CLI 插件
+settings.devinForCloud	Devin for Cloud
+settings.devinForCloudDescription	允许成员经 ACP 派任务给 Devin 的云端 agent
+settings.devinForTerminalOrgDescription	允许成员经 ACP 派任务给 Devin 的终端 agent
+settings.devinForTerminalTeamDescription	允许成员在 Devin Desktop 用 Devin Local agent 并经 ACP 派任务给 Devin 的终端 agent
+settings.devinLite	Lite
+settings.devinLiteDescription	为小而定义清的任务调优。便宜 30-40%
+settings.devinLocalAgent	Devin Local Agent
+settings.devinModeAstra	GPT-6 Astra（预览）
+settings.devinModeAstraFast	GPT-6 Astra Fast（预览）
+settings.devinModeDisabledForEnterprise	{{mode}} 对你企业已禁。
+settings.devinModeDisabledForOrganization	{{mode}} 对你组织已禁。
+settings.devinModeEnabledForEnterprise	{{mode}} 对你企业已开。
+settings.devinModeEnabledForOrganization	{{mode}} 对你组织已开。
+settings.devinModeFusion	Fusion
+settings.devinModeFusionFast	Fusion Fast
+settings.devinModeSwe2	SWE-2（预览）
+settings.devinModeSwe2Flash	SWE-2 Flash（预览）
+settings.devinModeSwe2FlashHigh	SWE-2 Flash High（预览）
+settings.devinModeSwe2FlashMax	SWE-2 Flash Max（预览）
+settings.devinModeSwe2FlashMedium	SWE-2 Flash Medium（预览）
+settings.devinModeSwe2High	SWE-2 High（预览）
+settings.devinModeSwe2Lightning	SWE-2 Lightning（预览）
+settings.devinModeSwe2LightningHigh	SWE-2 Lightning High（预览）
+settings.devinModeSwe2LightningMax	SWE-2 Lightning Max（预览）
+settings.devinModeSwe2LightningMedium	SWE-2 Lightning Medium（预览）
+settings.devinModeSwe2Max	SWE-2 Max（预览）
+settings.devinModeSwe2Medium	SWE-2 Medium（预览）
+settings.devinModeUnavailable	{{mode}}（不可用）
+settings.devinModeUpdateFailed	更新 {{mode}} 设置失败。
+settings.devinReview	Devin Review
+settings.devinReviewDescription	Devin Review 的组织偏好和设置
+settings.devinSandbox	Devin 沙箱
+settings.devinSandboxDescription	强制 Devin CLI 和 Devin Local 会话开沙箱模式
+settings.devinSandboxTooltip	开启后，Devin Desktop 里 Devin CLI 和 Devin Local 会话强制沙箱模式，文件系统和网络访问限在所授作用域。
+settings.devinSessions	Devin 会话
+settings.devinSessionsDescription	Devin 会话的组织偏好和设置
+settings.differentialBuilds	差异构建
+settings.differentialBuildsDescription	只重建 blueprint 变了的工作区
+settings.disableTelemetry	禁用训练
+settings.disableTelemetryDescription	不共享数据帮改进 Devin
+settings.disabled	已禁用
+settings.disabledByEnterprisePrivacyPolicy	企业隐私策略已禁。
+settings.disabledInOrgs_one	在 {{count}} 个组织已禁
+settings.disabledInOrgs_other	在 {{count}} 个组织已禁
+settings.disconnect	断开
+settings.displayLanguage	显示语言
+settings.displayLanguageDescription	选你的界面首选语言
+settings.documentation	文档
+settings.documentationDescription	常见问题解答和综合指南
+settings.domainAddFailed	加域名失败
+settings.domainAddedToAllowlist	域名已加白名单
+settings.domainAddedToDenylist	域名已加黑名单
+settings.domainAlreadyInAllowlist	域名已在白名单
+settings.domainAlreadyInDenylist	域名已在黑名单
+settings.domainRemoveFailed	移除域名失败
+settings.domainRemovedFromAllowlist	域名已从白名单移除
+settings.domainRemovedFromDenylist	域名已从黑名单移除
+settings.done	完成
+settings.downloadZip	下载 zip
+settings.edit	编辑
+settings.editGroupMapping	编辑映射
+settings.editOverride	编辑 ACU 上限
+settings.editSpendOverride	编辑花费上限
+settings.editTier	编辑档位
+settings.editTierDescription	把此成员移到不同档位。
+settings.efficiency	效率
+settings.efficiencyDescription	看已关 PR 数和成员排名
+settings.effort	力度
+settings.effortDescription	更高力度以更高成本产更好质量
+settings.email	邮箱
+settings.emailDescription	你的账户邮箱
+settings.enable	启用
+settings.enableAccessToAnthropicModelsWithDataRetention	开带数据保留的 Anthropic 模型访问
+settings.enableAccessToAnthropicModelsWithDataRetentionDescription	解锁需要数据保留做信任与安全验证的额外 Anthropic 模型，如 Claude Fable 5。
+settings.enableAccessToOpenAIModelsWithDataRetention	开带数据保留的 OpenAI 模型访问
+settings.enableAccessToOpenAIModelsWithDataRetentionDescription	解锁需要数据保留做信任与安全验证的额外 OpenAI 模型。
+settings.enableCascade	启用 Cascade
+settings.enableInSessions	在会话里启用
+settings.enableInSessionsDescription	允许 Devin 会话期间用此 MCP 服务器
+settings.enableNativeDeployments	开原生部署
+settings.enableNativeDeploymentsDescription	允许 Devin 用其内置部署工具部署到公网
+settings.enabled	已启用
+settings.enabledInOrgs_one	在 {{count}} 个组织已开
+settings.enabledInOrgs_other	在 {{count}} 个组织已开
+settings.enforceMcpRegistryDescription	除 MCP 白名单外也允许匹配 registry 条目的服务器
+settings.enterCustomEmail	输自定义邮箱地址
+settings.enterOrganizationName	输组织名
+settings.enterPreferredName	请输首选名
+settings.enterPreferredNamePlaceholder	输首选名
+settings.enterprise	企业
+settings.enterpriseAuthentication.openPage	在 web app 打开
+settings.enterpriseAuthentication.unavailableDescription	登录方式和 SSO 连接必须从 web app 改。
+settings.enterpriseAuthentication.unavailableTitle	在 Devin web app 管理认证
+settings.enterpriseAuthenticationDescription	管理成员怎么加入你企业
+settings.enterpriseAutomationsDescription	管理你企业收的 webhook 和每个组织可起自动化的触发源。
+settings.enterpriseAutomationsSidebarLabel	自动化
+settings.enterpriseAutomationsTitle	自动化
+settings.enterpriseAutomationsTriggerPoliciesTab	触发策略
+settings.enterpriseAutomationsWebhooksTab	托管 webhook
+settings.enterpriseBlueprint	企业 blueprint
+settings.enterpriseBlueprintDescription	应用于此企业每个组织。
+settings.enterpriseBuildDefaultDescription	应用于此企业每个组织的快照构建，替代其会话配置。构建用各组织的会话配置，除非在这改。
+settings.enterpriseCustomizeBannerDescription	在自定义里装插件、编企业配置、管每个组织的技能、MCP 和 hook。
+settings.enterpriseCustomizeBannerTitle	在自定义里管企业插件
+settings.enterpriseDescription	建和管理企业级 playbook
+settings.enterpriseDevinDescription	Devin 会话的企业偏好和设置
+settings.enterpriseEnforcedProfile	{{name}} 被你企业强制。在这选的配置只能更严。
+settings.enterpriseEnforcedProfileUnnamed	你企业强制了一个安全配置。在这选的配置只能更严。
+settings.enterpriseEnvironmentsDescription	配置 Devin 的环境在你企业里怎么设。
+settings.enterpriseEnvironmentsMemberDescription	看你会话可用的环境。
+settings.enterpriseGeneralDescription	企业偏好和设置
+settings.enterpriseId	企业 ID
+settings.enterpriseIdCopied	企业 ID 已复制
+settings.enterpriseIdDescription	你 API 用的唯一企业标识
+settings.enterpriseLimitRequestEmails	企业用量上限申请
+settings.enterpriseLimitRequestEmailsDescription	给每个企业管理员发加急邮件和待批申请每日摘要
+settings.enterpriseMembershipDescription	管理你企业的成员、角色和 IdP 组。
+settings.enterpriseOfficialMarketplaceDescription	向此账户每个组织和成员提供 Devin 市场的插件。
+settings.enterpriseOnlySettings	企业专属设置
+settings.enterpriseOnlySettingsDescription	这些设置只在 Teams 和 Enterprise 方案可配，但当前应用在你账户。
+settings.enterpriseOnlySettingsReset	企业专属设置已重置
+settings.enterpriseOrgFilter.allOrganizations	全部组织
+settings.enterpriseOrgFilter.filterByOrg	按组织筛
+settings.enterprisePluginsDescription	控制组织和企插件怎么加
+settings.enterpriseSecretsDescription	管理企业级机密
+settings.enterpriseSessions	会话
+settings.enterpriseSessionsTitle	企业会话
+settings.enterpriseSettings	企业设置
+settings.environment	环境
+settings.environmentOutpostPools.add	加 outpost 池
+settings.environmentOutpostPools.description	在你自己机器上把此环境的 blueprint 建成镜像的 outpost 池。
+settings.environmentOutpostPools.noMatches	没有匹配的 outpost 池
+settings.environmentOutpostPools.none	没加 outpost 池
+settings.environmentOutpostPools.remove	移除
+settings.environmentOutpostPools.removeLabel	移除 {{name}}
+settings.environmentOutpostPools.saveFailed	更新不了 outpost 池。请重试。
+settings.environmentOutpostPools.search	搜索 outpost 池
+settings.environmentVariables	环境变量
+settings.environmentVariablesDescription	跑服务器进程时设的环境变量
+settings.errorLoadingEnterpriseMcpServers	加载企业 MCP 服务器出错
+settings.errorLoadingPage	加载此页出错。请稍后重试。
+settings.errorUpdatingPreferredName	更新首选名出错。
+settings.errorUploadingPicture	上传头像出错。
+settings.exampleRequest	示例请求
+settings.exampleRequestDescription	复制此 curl 命令建会话
+settings.executionLocation	执行位置
+settings.executionLocationAuto	自动
+settings.executionLocationAutoDescription	从 Devin 服务器连
+settings.executionLocationAutoTunnelDescription	从 Devin 服务器经你私有网络隧道连
+settings.executionLocationDescription	Devin 从哪连此 MCP 服务器。
+settings.executionLocationPublic	公网
+settings.executionLocationPublicDescription	从 Devin 服务器连，不走你私有网络隧道
+settings.executionLocationRemote	会话机器
+settings.executionLocationRemoteDescription	从会话的 VM 连。凭据发到那边；OAuth 登录仍从 Devin 服务器跑。

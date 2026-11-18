@@ -1,0 +1,160 @@
+settingsPages.webhookConfigModal.webhookConfiguration	Webhook 配置
+settingsPages.webhookConfigModal.webhookConfigurationValueAccountName	{{value}}{{accountName}} 的 Webhook 配置
+settingsPages.workspaceSidebar.addBlueprint	加 blueprint
+settingsPages.workspaceSidebar.blueprintDeleted	Blueprint {{scope}} 已删
+settingsPages.workspaceSidebar.blueprintOrderUpdated	Blueprint 顺序已更新
+settingsPages.workspaceSidebar.delete	删除
+settingsPages.workspaceSidebar.deleteBlueprint	删 blueprint？
+settingsPages.workspaceSidebar.deleteBlueprint2	删 blueprint
+settingsPages.workspaceSidebar.deleteBlueprint3	删 blueprint {{scope}}
+settingsPages.workspaceSidebar.dragToReorder	拖以重排
+settingsPages.workspaceSidebar.editBlueprint	编辑 blueprint {{scope}}
+settingsPages.workspaceSidebar.failedToDeleteBlueprint	删 blueprint 失败
+settingsPages.workspaceSidebar.failedToReorderBlueprints	重排 blueprint 失败
+settingsPages.workspaceSidebar.reorderBlueprint	重排 blueprint {{scope}}
+settingsPages.workspaceSidebar.root	/（根）
+settingsPages.workspaceSidebar.thisWillDeleteTheEnvironmentFor	这会删 {{scope}} 的环境。此仓库其它 blueprint 不受影响。
+sidebar.actions.analyzeSession	分析会话
+sidebar.actions.copyBotLink	复制 {{botName}} 的链接
+sidebar.actions.copySessionLink	复制会话链接
+sidebar.actions.discardDraft	丢弃草稿
+sidebar.actions.hideFromSidebar	从侧栏移除
+sidebar.actions.hideFromTeam	对团队隐藏
+sidebar.actions.makeVisibleToTeam	对团队可见
+sidebar.actions.markAsRead	标已读
+sidebar.actions.markAsUnread	标未读
+sidebar.actions.markDone	标完成
+sidebar.actions.markDoneInfo	只对你自己生效
+sidebar.actions.markNotDone	标未完成
+sidebar.actions.markUnreadFailed	更新已读状态失败
+sidebar.actions.moveUnderSessionError	移会话到父会话下失败
+sidebar.actions.movedUnderSessionToast	「{{session}}」已移到「{{parent}}」下
+sidebar.actions.newChildSession	新子会话
+sidebar.actions.noSessionsFound	找不到会话
+sidebar.actions.removeFromParent	从父会话移除
+sidebar.actions.removeFromParentError	从父会话移除会话失败
+sidebar.actions.removedFromParentToast	「{{session}}」已从父会话移除
+sidebar.actions.rename	重命名
+sidebar.actions.reparent	换父级
+sidebar.actions.reparentNoWriteAccessTooltip	你要有此会话写权限才能移它
+sidebar.actions.reparentNotOwnedTooltip	你只能把会话移到你拥有的会话下
+sidebar.actions.scheduleDevin	排期 Devin
+sidebar.actions.searchSessions	搜会话
+sidebar.actions.shareSession	分享会话
+sidebar.actions.slackSyncFailed	更新 Slack 同步失败
+sidebar.actions.subscribe	订阅
+sidebar.actions.subscribers	订阅者
+sidebar.actions.teamsSyncFailed	更新 Teams 同步失败
+sidebar.actions.unsubscribe	退订
+sidebar.actions.unsubscribeInfo	从你侧栏移除。没其它订阅者就对所有人归档。
+sidebar.actionsLabel	操作
+sidebar.agent	Agent
+sidebar.agentDevinCloud	Devin Cloud
+sidebar.agentDevinCloudLocalTools	Devin Cloud，用 {{machine}} 上的本地工具
+sidebar.agentFilter	Agent
+sidebar.aiSortedView	AI 排序视图
+sidebar.aiSortedViewDisabled	审查结果出来前禁用
+sidebar.aiSortedViewInProgress	AI 排序视图（分析中）
+sidebar.allSessions	全部会话
+sidebar.allUsers	全部用户
+sidebar.anyFilterValue	任意
+sidebar.archive	归档
+sidebar.archiveAllQueries	归档全部提问
+sidebar.archiveAllQueriesDescription	确定归档全部提问？之后能从你归档的提问里访问。
+sidebar.archiveAllQueriesTitle	归档全部提问？
+sidebar.archiveAllSessions	归档全部会话
+sidebar.archiveAllSessionsDescription	确定归档全部会话？之后能从你归档的会话里访问。
+sidebar.archiveAllSessionsTitle	归档全部会话？
+sidebar.archiveInfo	为所有人停此会话。
+sidebar.archived	已归档
+sidebar.archivedFilterDisabled	有已归档组时禁用
+sidebar.ask	提问
+sidebar.askSession	提问会话
+sidebar.automation	自动化
+sidebar.automations	自动化
+sidebar.automationsInvolvingYou	涉你的自动化
+sidebar.botHome.allGroupsHidden	全部组已隐藏
+sidebar.botHome.compose.to	发给：
+sidebar.botHome.compose.toLabel	发给
+sidebar.botHome.compose.toPlaceholder	开聊…
+sidebar.botHome.decisions	决定
+sidebar.botHome.done	已完成
+sidebar.botHome.groupByActionType	类型
+sidebar.botHome.groupBySessionFolder	文件夹
+sidebar.botHome.idle	空闲
+sidebar.botHome.leaving.moving	移到 {{group}}
+sidebar.botHome.needsYou	需要你
+sidebar.botHome.noFolder	无文件夹
+sidebar.botHome.noMatchingSessions	没有会话匹配此筛选
+sidebar.botHome.nothingNeedsYou	没等你的
+sidebar.botHome.nothingResolved	还没有已解决
+sidebar.botHome.resolved	已解决
+sidebar.botHome.resolvedToday_one	今天已解决 {{count}} 个
+sidebar.botHome.resolvedToday_other	今天已解决 {{count}} 个
+sidebar.botHome.searchSection	搜 {{section}}
+sidebar.botHome.sessionsEmpty	现在没在进行中的
+sidebar.botHome.showLess	收起
+sidebar.botHome.showMoreTasks_one	再显 {{count}} 个任务
+sidebar.botHome.showMoreTasks_other	再显 {{count}} 个任务
+sidebar.botHome.unknownStatus	未知
+sidebar.botHome.working	工作中
+sidebar.cancel	取消
+sidebar.clearSearch	清搜索
+sidebar.close	关侧栏
+sidebar.collapse	收侧栏
+sidebar.collapseChildren	收子项
+sidebar.compactView	紧凑视图
+sidebar.createNewFolder	建新文件夹
+sidebar.createdBy	创建者
+sidebar.createdTime	创建时间
+sidebar.createdTimeAgo	建于 {{time}}
+sidebar.creatorMe	我
+sidebar.creatorOthers	他人
+sidebar.customDateRange	自定义…
+sidebar.delete	删除
+sidebar.deleteAskThread	删除
+sidebar.deleteAskThreadDescription	此线程永久移除。不可撤销。
+sidebar.deleteAskThreadFailed	删线程失败
+sidebar.deleteAskThreadTitle	删此提问？
+sidebar.deleteSession	删会话
+sidebar.deleteSessionDescription	这从 agent 永久删会话。不可撤销。
+sidebar.deleteSessionLocked	「{{title}}」在另一窗口或终端开着时删不了。那边关了再试。
+sidebar.deleteSessionLockedWithPid	「{{title}}」在另一窗口或终端开着（PID {{pid}}）时删不了。那边关了再试。
+sidebar.deleteSessionTitle	删会话？
+sidebar.deletedEnvironment	{{name}}（已删）
+sidebar.done	完成
+sidebar.doneFilterDisabled	有完成组时禁用
+sidebar.dragToReorder	拖以重排
+sidebar.environment	环境
+sidebar.expand	展侧栏
+sidebar.expandChildren	展子项
+sidebar.failedToLoadPRs	加载拉取请求失败
+sidebar.filter	筛选
+sidebar.findAWiki	找 wiki
+sidebar.folderView	文件夹视图
+sidebar.googleChatSyncDisabled	Google Chat（同步已禁）
+sidebar.group	组
+sidebar.groupBy	分组按
+sidebar.groupLastWeek	上周
+sidebar.groupOlder	更早
+sidebar.groupThisMonth	本月
+sidebar.groupThisWeek	本周
+sidebar.groupToday	今天
+sidebar.grouping	分组
+sidebar.groupingAgent	Agent
+sidebar.groupingAssignee	订阅者
+sidebar.groupingEnvironment	环境
+sidebar.groupingFolders	文件夹
+sidebar.groupingLastUpdated	最近更新
+sidebar.groupingNone	无
+sidebar.groupingPrStatus	拉取请求
+sidebar.groupingRepository	仓库
+sidebar.groupingStatus	状态
+sidebar.groupingWorkspace	工作区
+sidebar.hasChildSessions	有子会话
+sidebar.help.changelog	更新日志
+sidebar.help.contactSupport	联系支持
+sidebar.help.documentation	文档
+sidebar.help.downloadDiagnostics	下载诊断
+sidebar.help.tooltip	帮助
+sidebar.hideAll	全隐藏

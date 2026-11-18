@@ -1,0 +1,293 @@
+consumption.personal.description	了解你如何使用 Devin、追踪 ACU 消耗，并找到提效的机会
+consumption.personal.description_dollars	了解你如何使用 Devin、追踪支出，并找到提效的机会
+consumption.personal.localUsage.description	你在 Devin Desktop 和 Devin CLI 最近 30 天的活动
+consumption.personal.localUsage.title	本地用量
+consumption.personal.monthlyConsumedLabel	每月消耗 ACU
+consumption.personal.monthlyConsumedLabel_dollars	每月支出
+consumption.personal.monthlyConsumedTooltip	Devin Review 的 ACU 不计入此页。
+consumption.personal.monthlyConsumedTooltip_dollars	按合同 ACU 单价的云端 Devin 会话加上你的 Devin Desktop 和 Terminal CLI 支出。Devin Review 不计入此页。
+consumption.refresh	刷新数据
+consumption.spendLimitDialog.description_one	设置所选组织每月可支出的金额上限
+consumption.spendLimitDialog.description_other	设置所选 {{count}} 个组织每月可支出的金额上限
+consumption.spendLimitDialog.errorToast_one	更新 {{count}} 个组织的支出上限失败
+consumption.spendLimitDialog.errorToast_other	更新 {{count}} 个组织的支出上限失败
+consumption.spendLimitDialog.loadingToast_one	正在更新 {{count}} 个组织的支出上限…
+consumption.spendLimitDialog.loadingToast_other	正在更新 {{count}} 个组织的支出上限…
+consumption.spendLimitDialog.successToast_one	已更新 {{count}} 个组织的支出上限
+consumption.spendLimitDialog.successToast_other	已更新 {{count}} 个组织的支出上限
+consumption.spendLimitDialog.title	更新支出上限
+consumption.usage.cloudTotalNote_one	含 Devin Desktop 和 Terminal CLI 共 {{formattedCount}} ACU
+consumption.usage.cloudTotalNote_other	含 Devin Desktop 和 Terminal CLI 共 {{formattedCount}} ACU
+consumption.usage.overallTowardLimitNote_one	只计各组织上限适用的用量（{{formattedCount}} ACU）。仅云端上限不含 Devin Desktop 和 Terminal CLI 用量；审查用量即使不按组织显示也计入。
+consumption.usage.overallTowardLimitNote_other	只计各组织上限适用的用量（{{formattedCount}} ACU）。仅云端上限不含 Devin Desktop 和 Terminal CLI 用量；审查用量即使不按组织显示也计入。
+consumption.usage.percentUsed	已用 {{percent}}% 容量（{{consumed}} / {{limit}} ACU）
+consumption.usage.percentUsedOverage	已用 {{percent}}% 容量（{{consumed}} / {{limit}} ACU——超容量 {{overage}}）
+consumption.usage.percentUsedOverage_cloud	已用 {{percent}}% 云端容量（{{consumed}} / {{limit}} 云端 ACU——超容量 {{overage}}）
+consumption.usage.percentUsed_cloud	已用 {{percent}}% 云端容量（{{consumed}} / {{limit}} 云端 ACU）
+contextMap.detail.connections	连接
+contextMap.detail.connectsTo	连接到
+contextMap.detail.incomingFrom	输入来自
+contextMap.detail.loadPathFailed	无法从仓库加载此路径
+contextMap.detail.mappedAt	映射于 {{when}}
+contextMap.detail.mappingFailed	此节点映射失败；依赖它之前请重跑映射工作流。
+contextMap.detail.openInRepository	在仓库中打开
+contextMap.detail.outgoingTo	输出去向
+contextMap.detail.referenceCode	引用代码
+contextMap.detail.repoRoot	（仓库根目录）
+contextMap.detail.subComponents	子组件
+contextMap.detail.truncated	…（已截断）
+contextMap.file.invalidTree	不是有效的 Atlas 树文件（需要 rootId + nodes）
+contextMap.file.loadFailed	无法加载文件
+contextMap.file.loadFailedHttp	无法加载 {{url}}（HTTP {{status}}）
+contextMap.file.sameOriginRequired	来源必须是同源路径
+contextMap.file.waitingFor	正在等待 {{url}}…
+contextMap.graph.legend	卡片按阅读顺序编号——悬停可高亮它的连接。
+contextMap.graph.needsRegen	需要重新生成
+contextMap.graph.openParts	打开 · {{n}} 个部分
+contextMap.graph.readThisFirst	先读这个
+contextMap.list.chooseFile	选择文件…
+contextMap.list.clear	清除
+contextMap.list.empty	还没有保存的地图——运行 COBOL 迁移 Playbook，或在下方打开一个树文件。
+contextMap.list.keepInStorageFailed	无法把地图保存在浏览器存储中；重载后会丢失
+contextMap.list.loadFailed	无法加载 Atlas 地图
+contextMap.list.openLoadedFile	打开已加载文件：{{name}}
+contextMap.list.openTreeFile	打开一个树文件——在此浏览器会话中查看工作流的 Atlas 产物而不保存
+contextMap.list.subtitle	由 COBOL 迁移 Playbook 生成的代码库概念地图——读一张建立心智模型，再深入你关心的部分。
+contextMap.list.title	Devin Atlas
+contextMap.list.version	v{{version}}
+contextMap.tree.collapse	折叠
+contextMap.tree.expand	展开
+contextMap.tree.mapTree	地图树
+contextMap.viewer.atlas	Atlas
+contextMap.viewer.connectingTo	正在连接 {{url}}…
+contextMap.viewer.createFailed	无法创建地图
+contextMap.viewer.ctrlKey	Ctrl
+contextMap.viewer.downloadTree	下载树
+contextMap.viewer.followingFile	正在跟踪 {{url}}；文件变化时地图会刷新（只读）
+contextMap.viewer.importFailed	无法导入树
+contextMap.viewer.jumpDescription	按标题或摘要搜索地图节点
+contextMap.viewer.jumpPlaceholder	跳到某个组件…
+contextMap.viewer.jumpTitle	跳到某个组件
+contextMap.viewer.kKey	K
+contextMap.viewer.loadFailed	无法加载此地图
+contextMap.viewer.loadedFromDatabase	已从数据库加载
+contextMap.viewer.loadedFromFile	已从此浏览器会话中的文件加载（只读）
+contextMap.viewer.noFileLoaded	此会话没有加载地图文件
+contextMap.viewer.noMatches	无匹配组件
+contextMap.viewer.noRepositoryName	此文件没有仓库名；无法保存
+contextMap.viewer.nodeCount_one	{{count}} 个节点
+contextMap.viewer.nodeCount_other	{{count}} 个节点
+contextMap.viewer.saveToDatabase	保存到数据库
+contextMap.viewer.saving	正在保存…
+contextMap.viewer.search	搜索
+contextMap.viewer.sourceFile	文件
+contextMap.viewer.sourceLive	实时
+contextMap.viewer.sourceLiveStale	实时（过期）
+contextMap.viewer.sourceVersion	v{{version}}
+contextMap.viewer.statusWithBackLink	{{status}} ——<backLink>返回全部地图</backLink>
+copyToasts.apiKey	API 密钥已复制
+copyToasts.apiKeyId	API 密钥 ID 已复制
+copyToasts.blueprint	Blueprint 已复制
+copyToasts.branchName	分支名已复制
+copyToasts.buildLogs	构建日志已复制
+copyToasts.callbackUrl	回调 URL 已复制
+copyToasts.command	命令已复制
+copyToasts.copyDatadogSessionLink	复制 Datadog 会话链接
+copyToasts.copyDatadogSessionLinkToClipboard	复制 Datadog 会话链接到剪贴板
+copyToasts.datadogSessionLink	Datadog 会话链接已复制
+copyToasts.datadogSessionLinkFailed	复制 Datadog 会话链接失败
+copyToasts.failureSummary	失败摘要已复制
+copyToasts.inviteLink	邀请链接已复制
+copyToasts.issueId	工单 ID 已复制
+copyToasts.macro	宏已复制
+copyToasts.noDatadogSessionId	未找到 Datadog 会话 ID
+copyToasts.organizationId	组织 ID 已复制
+copyToasts.outpostId	Outpost ID 已复制
+copyToasts.profileId	档案 ID 已复制
+copyToasts.replayUrl	回放 URL 已复制
+copyToasts.roleId	角色 ID 已复制
+copyToasts.scimBaseUrl	SCIM 基础 URL 已复制
+copyToasts.secretName	机密名已复制
+copyToasts.skipSummary	跳过摘要已复制
+copyToasts.ticketKey	工单键已复制
+copyToasts.ticketUrl	工单 URL 已复制
+copyToasts.variableName	变量名已复制
+copyToasts.yaml	YAML 已复制
+createTeam.cancel	取消
+createTeam.create	创建
+createTeam.creating	正在创建…
+createTeam.description	每个账户管理自己的项目和计费
+createTeam.error	创建账户失败
+createTeam.nameLabel	名称
+createTeam.nameRequired	名称为必填项
+createTeam.title	新账户
+creditsExhausted.contactAccountTeam	联系你的账户团队续订。
+creditsExhausted.contractExpired	你的 Devin 合同已结束
+creditsExhausted.increaseLimit	提高用量上限
+creditsExhausted.increaseOrgLimit	提高企业组织用量上限
+creditsExhausted.increaseUserLimit	提高你的每用户用量上限
+creditsExhausted.individualPlan	你的账户是个人方案
+creditsExhausted.lastPaymentFailed	你最近一次扣款失败
+creditsExhausted.subscribeToUse	订阅以使用 Devin
+customTracker.copyTrackerId	复制追踪器 ID
+customTracker.create	创建追踪器
+customTracker.createDescription	你的系统推送工作项。Devin 永远不主动调用你的追踪器。
+customTracker.createFailed	无法创建追踪器
+customTracker.createTitle	创建自定义追踪器
+customTracker.creating	正在创建…
+customTracker.deleteDescription	Devin 不再显示这些条目，也不能再关联它们。已有链接保留。此操作无法撤销。
+customTracker.itemUrlTemplate	条目 URL 模板
+customTracker.itemUrlTemplateHelp	条目打开的位置，{key} 代表它的键
+customTracker.itemUrlTemplateInvalid	请用 http 或 https URL，{key} 在主机名后出现一次
+customTracker.lastPush_one	最近推送 {{time}} · {{count}} 个条目
+customTracker.lastPush_other	最近推送 {{time}} · {{count}} 个条目
+customTracker.maxDepth	层级深度
+customTracker.maxDepthHelp	Devin 从一个条目向上追几层父级
+customTracker.name	名称
+customTracker.noPushYet	还没有推送条目
+customTracker.pageDescription	通过 Devin API 从你自己的系统推送工作项。Devin 把会话关联到它们并读取其层级，和其他追踪器一样。
+customTracker.trackerId	追踪器 ID
+customTracker.trackerIdHelp	把条目推送到 PUT /v3beta1/tracker-connections/{{id}}/items。调用的服务用户需要此追踪器的 tracker_connection.configure 授权。
+customizeAsset.deleteConfirm	删除
+customizeAsset.deleteDescription	删除「{{label}}」？Devin 将不再使用它。
+customizeAsset.deleteLinkedTitle	删除「{{label}}」？
+customizeAsset.deletePlaybookSkillWarning	如果此技能为某个 Playbook 提供指令，删除它意味着使用该 Playbook 的计划和自动化将不再运行那些指令。
+customizeAsset.deleteRuleTitle	删除规则
+customizeAsset.deleteSkillTitle	删除技能
+customizeAsset.deleted	已删除 {{name}}
+customizeAsset.editRuleTitle	编辑规则
+customizeAsset.editSkillTitle	编辑技能
+customizeIntro.actions.continue	继续
+customizeIntro.illustration.cli	CLI
+customizeIntro.illustration.cloud	云端
+customizeIntro.illustration.datadogDescription	监控、指标、日志和追踪
+customizeIntro.illustration.desktop	桌面端
+customizeIntro.illustration.figmaDescription	Figma 文件、组件和评论
+customizeIntro.illustration.installed	已安装
+customizeIntro.illustration.terminal	终端
+customizeIntro.rows.ask.body	让 Devin 为你做技能、安装 MCP 服务器或配置第三方插件。
+customizeIntro.rows.ask.title	Devin 可以替你加插件
+customizeIntro.rows.marketplace.body	浏览现有插件并装进你的配置。
+customizeIntro.rows.marketplace.title	从市场安装
+customizeIntro.rows.sync.body	你的插件在云端会话、Devin CLI 和 Devin Desktop 中加载。
+customizeIntro.rows.sync.title	跨所有端面共享
+customizeIntro.subtitle	管理 Devin 可用的插件、技能、MCP 和钩子。
+customizeIntro.subtitle_shared	为你和你的组织管理 Devin 可用的插件、技能、MCP 和钩子。
+customizeIntro.title	自定义你的 Devin
+customizeMcp.accountActions	{{name}} 的操作
+customizeMcp.accountConnected	已连接
+customizeMcp.accountExpired	登录已过期
+customizeMcp.accountNotSignedIn	未登录
+customizeMcp.accountReconnect	重新连接
+customizeMcp.accountSignIn	登录
+customizeMcp.accountsTitle	安装
+customizeMcp.addAccountFailed	无法添加另一个 {{name}} 安装
+customizeMcp.addAnotherAccount	添加安装
+customizeMcp.addDescription	添加描述
+customizeMcp.authClientCredentials	OAuth 客户端凭据
+customizeMcp.authCredential	API 密钥或请求头
+customizeMcp.authLabel	认证
+customizeMcp.authNone	无 · 免凭据连接
+customizeMcp.authOAuthExpired	OAuth · 登录已过期
+customizeMcp.authOAuthNotSignedIn	OAuth · 未登录
+customizeMcp.authOAuthPerMember	OAuth · 每个成员用自己的账户登录
+customizeMcp.authOAuthSignedInAs	OAuth · 已登录为 {{account}}
+customizeMcp.authOAuthSignedInPersonal	OAuth · 已用你的账户登录
+customizeMcp.authOAuthSignedInShared	OAuth · 已用共享账户登录
+customizeMcp.credentialRejectedBody	{{name}} 拒绝了连接。请输入或更新其凭据后重试。
+customizeMcp.credentialRejectedTitle	检查凭据
+customizeMcp.disabledForEnterprise	对此企业中有权限的每个组织停用
+customizeMcp.disabledForOrg	对此组织所有人停用
+customizeMcp.disabledForYou	对你停用
+customizeMcp.disabledState	已停用
+customizeMcp.disconnectAll	断开所有成员
+customizeMcp.disconnectAllDescription	这会移除每个成员对 {{name}} 的授权。所有人都需要重新连接。
+customizeMcp.disconnectAllFailed	无法断开成员与 {{name}} 的连接。
+customizeMcp.disconnectAllTitle	断开所有成员与 {{name}} 的连接？
+customizeMcp.disconnectAllTooltip	移除每个成员的授权；所有人都需要重新连接。
+customizeMcp.disconnectDescription	Devin 将无法再使用你的 {{name}} 账户。之后可以重新连接。
+customizeMcp.disconnectFailed	无法断开 {{name}}。
+customizeMcp.disconnectTitle	断开 {{name}}？
+customizeMcp.disconnectTooltip	移除此 MCP 上你的授权。之后可以重新连接。
+customizeMcp.disconnected	已断开 {{name}}。
+customizeMcp.disconnectedAll	已断开所有成员与 {{name}} 的连接。
+customizeMcp.editDescription	编辑描述
+customizeMcp.editInstallation	编辑安装
+customizeMcp.editSource	编辑来源
+customizeMcp.enabledForEnterprise	对此企业中有权限的每个组织启用
+customizeMcp.enabledForOrg	对此组织所有人启用
+customizeMcp.enabledForYou	对你启用
+customizeMcp.firstSignInAction	用 {{name}} 登录
+customizeMcp.firstSignInDescription	登录以让 Devin 通过你的账户获得访问权。连接后可再添加更多安装。
+customizeMcp.firstSignInTitle	连接你的 {{name}} 账户
+customizeMcp.installation	安装
+customizeMcp.installationUnavailable	此安装不再可用。
+customizeMcp.installationsConnected_one	{{count}} 个已连接
+customizeMcp.installationsConnected_other	{{count}} 个已连接
+customizeMcp.installationsSummary_one	{{count}} 个安装 · {{connected}}
+customizeMcp.installationsSummary_other	{{count}} 个安装 · {{connected}}
+customizeMcp.manageOn	打开{{scope}}
+customizeMcp.managedOnTitle	在{{scope}}级安装
+customizeMcp.needsEnterpriseAdmin	需要企业管理员权限才能更改
+customizeMcp.needsOrgAdmin	需要组织管理员权限才能更改
+customizeMcp.notConnectedNeedsCredentials	连接以设置此 MCP 并输入其凭据。
+customizeMcp.notConnectedNeedsEnterpriseAdmin	需要企业管理员连接此 MCP 后 Devin 才能用。
+customizeMcp.notConnectedNeedsOrgAdmin	需要组织管理员连接此 MCP 后 Devin 才能用。
+customizeMcp.notConnectedNoAuth	连接以设置此 MCP——之后无需授权。
+customizeMcp.notConnectedSignsIn	连接以设置此 MCP，它要求时登录即可。
+customizeMcp.notConnectedTitle	尚未连接
+customizeMcp.notInUseCollapse	折叠「未使用」
+customizeMcp.notInUseDescription	由未在此安装的插件创建。可能被仓库插件使用。插件激活时使用。
+customizeMcp.notInUseExpand	展开「未使用」
+customizeMcp.notInUseTitle	未使用
+customizeMcp.outOfDateBody	自安装以来市场定义已变化。更新会同步连接设置；已存凭据保留。
+customizeMcp.outOfDateTitle	安装已过期
+customizeMcp.perMemberHint	按成员设置。每个成员在自己的个人范围连接此 MCP。
+customizeMcp.providedByHint	{{provider}}级已提供，在此设置会另加一个{{scope}}级安装。
+customizeMcp.rowDisconnectHint	把你登出。设置保留，可再登录。
+customizeMcp.rowUninstallHint	删除此安装及其设置。
+customizeMcp.saveBeforeConnect	连接前请先保存或放弃你的更改。
+customizeMcp.setUpForOrg	为组织设置
+customizeMcp.setUpForOrgHint	此 MCP 在 Devin 市场里。为组织安装一次并在此连接，声明它的插件将用该连接，而不用每个成员各自连接。
+customizeMcp.setUpForOrgPerMemberHint	成员正在各自个人范围逐个连接此 MCP。它也在 Devin 市场里，因此你可以为组织安装一次并在此连接——声明它的插件将用该连接。
+customizeMcp.sharePrimaryAccount	共享主账户
+customizeMcp.sharedConnectEnterpriseHint	目前此 MCP 是按成员设置的。「连接」为企业设置一次，成员的会话就用该连接。
+customizeMcp.sharedConnectOrgHint	目前此 MCP 是按成员设置的。「连接」为组织设置一次，成员的会话就用该连接。
+customizeMcp.sharedConnectionCredential	有此 MCP 权限的人共享这些 {{name}} 凭据。请用发给服务账户的凭据，别用个人的。
+customizeMcp.sharedConnectionTitle	共享连接
+customizeMcp.signInWithOAuthInstead	改用 OAuth 登录
+customizeMcp.statusLabel	MCP 状态
+customizeMcp.summaryAuth	认证
+customizeMcp.summaryAvailableTo	可用于
+customizeMcp.summaryAvailableToEnterprise	此企业中有权限的每个组织
+customizeMcp.summaryAvailableToOrg	此组织所有人
+customizeMcp.summaryAvailableToYou	你
+customizeMcp.summaryCommand	命令
+customizeMcp.summaryIdentifier	标识符
+customizeMcp.summarySource	来源
+customizeMcp.summarySourceCustom	自定义
+customizeMcp.summarySourceMarketplace	市场
+customizeMcp.summarySourcePlugin	插件 · {{plugin}}
+customizeMcp.summaryTransport	传输
+customizeMcp.summaryUrl	URL
+customizeMcp.uninstall	卸载
+customizeMcp.uninstallDescription	这会永久移除 {{name}} 安装及其配置。
+customizeMcp.uninstallFailed	无法卸载 {{name}}。
+customizeMcp.uninstallOwnDescription	这会永久移除你的 {{name}} 安装及其配置。其他成员不受影响。
+customizeMcp.uninstallPluginTooltip	再次遇到该插件的会话会重装它。
+customizeMcp.uninstallTitle	卸载 {{name}}？
+customizeMcp.uninstallTooltip	移除安装及其配置。
+customizeMcp.updateFailed	无法更新 {{name}}。
+customizeMcp.updateFromMarketplace	从市场更新
+customizeMcp.updated	{{name}} 已更新。
+customizeMcp.updating	正在更新…
+customizeSync.tooltip	你的个人插件在云端会话、Devin CLI 和 Devin Desktop 中加载。用 <code>devin plugins install</code> 装的插件也会出现在这里。
+dataTable.clearSelection	清除选择
+dataTable.collapseRow	折叠 {{name}}
+dataTable.columnsBefore_one	前面 {{count}} 列
+dataTable.columnsBefore_other	前面 {{count}} 列
+dataTable.expandRow	展开 {{name}}
+dataTable.moreColumns_one	还有 {{count}} 列
+dataTable.moreColumns_other	还有 {{count}} 列
+dataTable.selectAllRows	选择全部行
+dataTable.selectRow	选择行

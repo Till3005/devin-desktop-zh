@@ -1,0 +1,160 @@
+settings.securityProfileTeamsDmDisabled	已禁用
+settings.securityProfileTeamsDmInstalledUsers	装了 Devin 应用的用户
+settings.securityProfileTeamsDmScope	私信
+settings.securityProfileTeamsGroupChatDisabled	已禁用
+settings.securityProfileTeamsGroupChatOriginChat	仅 Devin 被提及的聊天
+settings.securityProfileTeamsGroupChatScope	群聊
+settings.securityProfileTeamsNotSet	未设
+settings.securityProfileTeamsNotSetDescription	未设，用 Teams 默认访问
+settings.securityProfileTeamsSettings	Teams
+settings.securityProfileTeamsSettingsDescription	限用此配置会话的频道和私信
+settings.securityProfilesSectionDescription	可复用的会话安全限制
+settings.securityProfilesTitle	安全配置
+settings.securitySettings	安全
+settings.selectAllMembers	全选成员
+settings.selectCertificationPlaceholder	选一个认证
+settings.selectDefaultSecurityProfile	选默认安全配置
+settings.selectEmail	选邮箱…
+settings.selectGroupPlaceholder	选一个组
+settings.selectLanguage	选语言
+settings.selectLevel	选级别
+settings.selectLimitOverrideType	选上限覆盖类型
+settings.selectMember	选成员
+settings.selectMemberTier	选成员档位
+settings.selectOption	选选项
+settings.selectSharingMode	选共享模式
+settings.selectTheme	选主题
+settings.selectTier	选一个档位
+settings.selectTierForMember	为 {{name}} 选档位
+settings.selectTierPlaceholder	选一个档位
+settings.selectUsageTierForMember	为 {{name}} 选用量档位
+settings.selectedLanguages	已选语言
+settings.selectedLanguagesDescription	用于 wiki 生成的语言
+settings.selfEnrolledUsers	自行登记用户
+settings.selfEnrolledUsersDescription	登记了自动分析的用户
+settings.selfHostedGitLab	自托管 GitLab
+settings.selfHostedGitlab	自托管 GitLab
+settings.selfServeAutomationsDescription	管你收的 webhook 和哪些触发源可起自动化。
+settings.sendShortcut	发送快捷键
+settings.sendShortcutDescription	选哪些键发消息。
+settings.sendShortcutModeEnter	Enter
+settings.sendShortcutModeModEnter	{{shortcut}}
+settings.serverConfigLabel	服务器配置
+settings.serverConfigMissingCommandOrUrl	配置必须含 command 或 URL
+settings.serverId	服务器 ID
+settings.serverIdRequired	服务器 ID 为必填项
+settings.serverUrl	服务器 URL
+settings.serverUrlDescription	Devin 连此服务器用的端点
+settings.serviceUserAutomations.defaultBadge	默认
+settings.serviceUserAutomations.defaultBadgeTooltip	没带 run-as 身份建的自动化以此服务用户跑。
+settings.serviceUserAutomations.defaultCannotRun	自动化在此不能以服务用户跑。先确保它已启用且能建会话。
+settings.serviceUserAutomations.defaultDeleteWarning	这是自动化默认服务用户。你另选默认前，没 run-as 身份的自动化建不了也更新不了。
+settings.serviceUserAutomations.defaultDeletedName	{{name}}（已删）
+settings.serviceUserAutomations.defaultLabel	默认服务用户
+settings.serviceUserAutomations.defaultLoadFailed	加载不了默认服务用户。刷新页面再试。
+settings.serviceUserAutomations.defaultNone	无
+settings.serviceUserAutomations.defaultNoneAllowed	此组织还没有服务用户。
+settings.serviceUserAutomations.defaultSectionDescription	不带 run-as 身份建时，自动化以此服务用户跑。
+settings.serviceUserAutomations.defaultSectionTitle	自动化默认
+settings.serviceUserAutomations.defaultSetDescription	应用于此组织的自动化。
+settings.serviceUserAutomations.defaultUnknown	不可用
+settings.serviceUserAutomations.defaultUnsetDescription	没设默认。
+settings.serviceUserAutomations.defaultUpdateFailed	更新自动化默认服务用户失败
+settings.serviceUserAutomations.defaultWarningChooseAnother	你另选默认前，没 run-as 身份的自动化建不了也更新不了。
+settings.serviceUserAutomations.defaultWarningTitleCannotCreateSessions	{{name}} 不能在此组织建会话
+settings.serviceUserAutomations.defaultWarningTitleDeleted	{{name}} 已被删
+settings.serviceUserAutomations.defaultWarningTitleNotAllowed	{{name}} 不能跑自动化
+settings.serviceUserAutomations.deleteConfirmAction	删除
+settings.serviceUserAutomations.deleteConfirmDescription	确定要删服务用户「{{name}}」？此操作不可撤销。其 token 立刻失效，用它的一切系统失去访问。
+settings.serviceUserAutomations.deleteConfirmTitle	删服务用户
+settings.serviceUserAutomations.runAsDependentsCheckFailed	查不了哪些自动化以此服务用户跑。请重试。
+settings.serviceUserAutomations.runAsDependentsIntro	以下全部将跑不了，直到移到另一身份。
+settings.serviceUserAutomations.runAsGroupAutomations	自动化
+settings.serviceUserAutomations.runAsGroupIncidentSettings	Oncall 事件
+settings.serviceUserAutomations.runAsGroupInternalAutomations	系统托管
+settings.serviceUserAutomations.runAsGroupOncallReports	Oncall 报告
+settings.serviceUserAutomations.runAsGroupOncallResponders	Oncall 响应者
+settings.serviceUserAutomations.runAsGroupOncallSettings	Oncall 设置
+settings.serviceUserAutomations.runAsIncidentSettingsEntry	事件设置默认
+settings.serviceUserAutomations.runAsOncallSettingsEntry	Oncall 索引
+settings.serviceUserAutomations.runAsShowAllMore	显示全部（另 {{count}} 个）
+settings.serviceUserAutomations.runAsShowLess	收起
+settings.serviceUserDefaultTierBadge	服务用户默认
+settings.serviceUserDefaultTierDescription	没显式派档位的服务用户属此档位。没有服务用户默认档位，它们就没有 ACU 上限。
+settings.serviceUserDefaultTierDescription_dollars	没显式派档位的服务用户属此档位。没有服务用户默认档位，它们就没有花费上限。
+settings.serviceUserDefaultTierFirstTier	首个档位成为默认档位，就不能兼作服务用户默认。要限服务用户，在此档后再加一个档位。
+settings.serviceUserDefaultTierLabel	服务用户默认档位
+settings.serviceUserId	服务用户 ID
+settings.serviceUserIdCopied	服务用户 ID 已复制
+settings.serviceUserSlackApp.action	Slack 应用
+settings.serviceUserSlackApp.createAutomationHint	没有自动化用它前此应用不听任何事。建一个带「Slack 应用被提及」触发器的自动化或 oncall 响应者以开始响应。
+settings.serviceUserSlackApp.description	此用户自己的 Slack 应用。注意，@提及和私信只经以此服务用户跑、用「Slack 应用被提及」触发器的自动化到达 Devin。
+settings.serviceUserSlackApp.iconDescription	此应用在 Slack 里的样子。你传自己的前用 Devin 图标。
+settings.serviceUserSlackApp.iconLabel	应用图标
+settings.serviceUserSlackApp.iconReset	Slack 应用图标已重置为 Devin 图标
+settings.serviceUserSlackApp.iconResetError	重置不了 Slack 应用图标
+settings.serviceUserSlackApp.iconResetting	恢复 Devin 图标中…
+settings.serviceUserSlackApp.iconUpload	上传图标
+settings.serviceUserSlackApp.iconUploadError	更新不了 Slack 应用图标
+settings.serviceUserSlackApp.iconUploaded	Slack 应用图标已更新
+settings.serviceUserSlackApp.iconUploading	更新 Slack 应用图标中…
+settings.serviceUserSlackApp.iconUseDefault	用 Devin 图标
+settings.serviceUserSlackApp.installedAction	Slack 应用 @{{handle}}
+settings.serviceUserSlackApp.orgScopedOnly	只支持组织级服务用户
+settings.serviceUserSlackApp.setUpAction	设置 Slack 应用
+settings.serviceUserSlackApp.title	{{name}} 的 Slack 应用
+settings.serviceUsers	服务用户
+settings.serviceUsersDescription	管企业服务用户账户，用于 API 自动化
+settings.serviceUsersSidebarLabel	服务用户
+settings.sessionAcuLimit	会话 ACU 上限
+settings.sessionAcuLimitDescription	Devin 每会话能用的最大 ACU
+settings.sessionAgents	会话 agent
+settings.sessionAgentsDescription	选会话里用哪些 agent
+settings.sessionSharingCappedByEnterpriseDescription	被你企业限到仅创建者
+settings.sessionSharingCappedOrgByEnterpriseDescription	被你企业限到组织内共享
+settings.sessionSharingCappedReadOnlyByEnterpriseDescription	被你企业限到只读共享
+settings.sessionSharingEnterpriseReadOnly	账户，只读
+settings.sessionSharingEnterpriseWide	账户
+settings.sessionSharingInheritFromEnterprise	继承企业
+settings.sessionSharingInheritFromEnterpriseDescription	跟随企业设置（当前 {{value}}）
+settings.sessionSharingOrgWide	组织
+settings.sessionSharingPersonalOnly	仅创建者
+settings.sessionSharingUpdateFailed	更新会话共享设置失败。
+settings.sessionTagEnforcement	会话标签强制
+settings.sessionTagEnforcementDescription	要求用户建新会话时从允许列表选一个标签
+settings.sessionTags	会话标签
+settings.sessionTagsDescription	为你企业配置会话标签强制。开启时，用户建新会话必须从其组织允许列表选恰好一个标签。
+settings.sessionViewerPreference	在 Devin Desktop 打开
+settings.sessionViewerPreferenceDescription	尽可能在 Devin Desktop 自动开 Devin 链接
+settings.sessionVisibility	会话可见性
+settings.sessionVisibilityDescription	控制你企业里谁能看会话
+settings.sessions	会话
+settings.sessionsDescription	配置 Devin 在会话里的行为
+settings.setAsDefaultBranch	设为默认
+settings.setAsDefaultModel	设为默认
+settings.setDefaultBranchError	设默认分支失败
+settings.setDefaultBranchSuccess	{{branch}} 现在是默认分支
+settings.setEnvironmentVariable	设环境变量
+settings.setEnvironmentVariableDescription	存你的 token 让脚本和 CLI 工具可用
+settings.settingProfilePicture	设置头像中…
+settings.settingUpdateFailed	更新设置失败
+settings.settingUpdated	设置已更新
+settings.settings	设置
+settings.settingsLabel	设置
+settings.settingsResetFailed	重置设置失败。请重试。
+settings.shareCodemaps	共享代码地图
+settings.shareConversations	共享对话
+settings.shareConversationsTooltip	对话将上传到 Windsurf 服务器。可共享链接只有你团队登录成员能进。
+settings.shareDeepWikiBeforeIndexingDescription	从首次索引起共享。此账户全部组织用同一个 DeepWiki。
+settings.shareDeepWikiWithAccount	与此账户全部组织共享 DeepWiki
+settings.shareDeepWikiWithAccountDescription	新索引归账户所有并被其每个组织复用。力度级别和自动刷新也账户级应用。
+settings.shareDeepWikiWithAccountError	更新 DeepWiki 共享失败
+settings.sharePromptsInPrs	PR 里共享提示词
+settings.sharePromptsInPrsDescription	PR 描述里含原始提示词
+settings.sharedCodemaps	共享代码地图
+settings.sharedCodemapsDescription	管你从 Devin Desktop 共享的代码地图
+settings.sharedConversationDeleteFailed	删共享对话失败
+settings.sharedConversationDeleted	共享对话已删
+settings.sharedConversations	共享对话
+settings.sharedConversationsDescription	管你共享的 Devin Local 会话
+settings.sharing	共享

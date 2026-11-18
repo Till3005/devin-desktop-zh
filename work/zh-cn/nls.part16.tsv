@@ -1,0 +1,127 @@
+vs/sessions/contrib/sessions/browser/mobile/mobileOverlayContribution/mobileOpenChanges	打开更改
+vs/sessions/contrib/sessions/browser/sessionHoverContent/untitledChat	未命名聊天
+vs/sessions/contrib/sessions/browser/sessions.contribution/sessions.automations.newBadgeStyle	控制自动化首次使用徽标的视觉样式。
+vs/sessions/contrib/sessions/browser/sessions.contribution/sessions.list.groupExternalSessions	控制外部会话是否显示在单独的“外部”分区中，而不是按工作区或时间分组。置顶会话和自定义组保持其位置。
+vs/sessions/contrib/sessions/browser/sessions.contribution/sessions.list.showArchivedByDefault	控制会话列表中是否默认显示“已完成或已归档”分区。更改相应筛选器后会忽略此默认值。
+vs/sessions/contrib/sessions/browser/sessions.contribution/sessions.list.showUnreadInCollapsedSections	控制会话列表中折叠的分区是否为其包含的未归档会话显示需输入、CI 失败或未读指示。
+vs/sessions/contrib/sessions/browser/sessions.contribution/sessions.markAsDoneConfetti	控制将会话标为完成时是否显示彩纸动画。
+vs/sessions/contrib/sessions/browser/sessions.contribution/sessions.newSessionButton.style	控制“新建会话”按钮的视觉样式。
+vs/sessions/contrib/sessions/browser/sessions.contribution/sessions.showChatTabs	控制会话中的聊天是显示为独立标签页，还是将活动聊天显示为会话视图。
+vs/sessions/contrib/sessions/browser/sessions.contribution/sessions.showChatTabs.multiple	每个聊天在会话视图中显示为一个标签页。
+vs/sessions/contrib/sessions/browser/sessions.contribution/sessions.showChatTabs.single	活动聊天显示为会话视图。
+vs/sessions/contrib/sessions/browser/sessions.contribution/sessions.useWorktree	控制对从未启动过会话的工作区是否默认勾选“新建 worktree”。其他情况下每个工作区使用其上次启动会话时的选择。
+vs/sessions/contrib/sessions/browser/sessionsActions/arrangeSessions	以均衡网格排列会话
+vs/sessions/contrib/sessions/browser/sessionsActions/chatCompositeBar.closeTooltip	关闭会话
+vs/sessions/contrib/sessions/browser/sessionsActions/chatCompositeBar.pinChat	置顶
+vs/sessions/contrib/sessions/browser/sessionsActions/chatCompositeBar.showChatTabs	显示聊天标签页
+vs/sessions/contrib/sessions/browser/sessionsActions/chatCompositeBar.unpinChat	取消置顶
+vs/sessions/contrib/sessions/browser/sessionsActions/closeChatGroup	关闭
+vs/sessions/contrib/sessions/browser/sessionsActions/closeChatGroupTooltip	关闭聊天组
+vs/sessions/contrib/sessions/browser/sessionsActions/focusSessionAbove	聚焦上方会话
+vs/sessions/contrib/sessions/browser/sessionsActions/focusSessionBelow	聚焦下方会话
+vs/sessions/contrib/sessions/browser/sessionsActions/focusSessionLeft	聚焦左侧会话
+vs/sessions/contrib/sessions/browser/sessionsActions/focusSessionRight	聚焦右侧会话
+vs/sessions/contrib/sessions/browser/sessionsActions/heightenSession	增加会话高度
+vs/sessions/contrib/sessions/browser/sessionsActions/moveSessionDown	将会话下移
+vs/sessions/contrib/sessions/browser/sessionsActions/moveSessionLeft	将会话左移
+vs/sessions/contrib/sessions/browser/sessionsActions/moveSessionRight	将会话右移
+vs/sessions/contrib/sessions/browser/sessionsActions/moveSessionUp	将会话上移
+vs/sessions/contrib/sessions/browser/sessionsActions/narrowSession	减小会话宽度
+vs/sessions/contrib/sessions/browser/sessionsActions/renameActiveChat	重命名…
+vs/sessions/contrib/sessions/browser/sessionsActions/sessionGridLayout	会话布局
+vs/sessions/contrib/sessions/browser/sessionsActions/shortenSession	减小会话高度
+vs/sessions/contrib/sessions/browser/sessionsActions/showMultipleChatTabs	多个
+vs/sessions/contrib/sessions/browser/sessionsActions/showSingleChat	单个
+vs/sessions/contrib/sessions/browser/sessionsActions/widenSession	增加会话宽度
+vs/sessions/contrib/sessions/browser/sessionsTitleBarWidget/agentSessionsSessionWithBranch	{0}，分支 {1}
+vs/sessions/contrib/sessions/browser/sessionsTitleBarWidget/agentSessionsSessionWithContext	{0} · {1}
+vs/sessions/contrib/sessions/browser/sessionsTitleBarWidget/agentSessionsSessionWithContextAccessible	{0}，{1}
+vs/sessions/contrib/sessions/browser/sessionsTitleBarWidget/agentSessionsShowSessionsWithTitle	显示会话：{0}
+vs/sessions/contrib/sessions/browser/views/automationCataloguePresentation/automationsPartialUnavailable	部分自动化不可用。
+vs/sessions/contrib/sessions/browser/views/automationCataloguePresentation/automationsProvidersCustomReason	自动化在 {0} 上不可用。{1}
+vs/sessions/contrib/sessions/browser/views/automationCataloguePresentation/automationsProvidersDisabled	自动化在 {0} 上已禁用。
+vs/sessions/contrib/sessions/browser/views/automationCataloguePresentation/automationsProvidersDisconnected	{0} 上的 agent host 已断开连接。
+vs/sessions/contrib/sessions/browser/views/automationCataloguePresentation/automationsProvidersIncompatible	需要更新 agent host 才能在 {0} 上使用自动化。
+vs/sessions/contrib/sessions/browser/views/automationCataloguePresentation/automationsProvidersInitializing	{0} 上的 agent host 仍在连接中。
+vs/sessions/contrib/sessions/browser/views/automationCataloguePresentation/automationsProvidersUnavailable	自动化在 {0} 上不可用。
+vs/sessions/contrib/sessions/browser/views/automationCataloguePresentation/automationsProvidersUnsupported	{0} 上不支持自动化。
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsAccessibleView.builtInTemplates	内置模板
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsAccessibleView.loadError	无法加载自动化。
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsAccessibleView.loading	正在加载自动化。
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsAccessibleView.partialLoadError	部分自动化无法加载。
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsAccessibleView.partialLoading	正在加载更多自动化。
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsAccessibleView.pluginTemplate	{0}，{1}。{2} 来自 {3}。
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsAccessibleView.pluginTemplates	来自插件的模板
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsAccessibleView.template	{0}，{1}。{2}
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsAccessibleView.templates	可用模板
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsAccessibleView.unavailable	部分自动化不可用。一个或多个提供方已断开连接、已禁用或不支持自动化。
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsCustomView.help.authority	自动化在其选定的 agent host 上运行，而非本窗口。创建和修改需要一个已连接且支持自动化的 agent host。“立即运行”会向该 host 请求执行；断开连接或不支持的 host 绝不会回退到本地执行。要使用其他 host，请复制该自动化。原始历史记录留在其 host 上，已启用的原自动化会继续调度，直到你将其禁用。
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsCustomView.help.builtInTemplatesCollapsed	由于已存在保存的自动化，“内置模板”分区默认折叠。在其展开控件上按 Enter 或空格键可展开。
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsCustomView.help.builtInTemplatesExpanded	在没有已保存自动化时，“内置模板”分区默认展开。按 Tab 选中模板后按 Enter 或空格键，会打开带有可编辑名称、提示词和调度的“新建自动化”对话框。
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsCustomView.help.dialog	在自动化对话框中，目标控件位于提示词上方。agent 和模型选择器位于提示词输入框内，执行模式和权限控件位于其下方。使用 Tab 和 Shift+Tab 在字段和选择器之间移动。创建自动化时只需输入提示词。空名称会从提示词派生，目标默认为“无工作区”（除非已提供）。仍需要一个支持该目标的可用 agent host。
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsCustomView.help.pluginTemplates	只要已启用的插件提供模板，“来自插件的模板”分区就可用。在其展开控件上按 Enter 或空格键可展开或折叠。蓝色标记表示自上次展开该分区后新增的模板。插件模板初始为禁用状态。
+vs/sessions/contrib/sessions/browser/views/automationsAccessibility/automationsCustomView.help.sharing	使用视图标题栏中的“导入自动化”，或将一个 .automation.md 文件拖到视图任意位置，即可审阅共享的自动化蓝图。导入的自动化初始为禁用状态。打开已保存自动化的上下文菜单并选择“导出”，可保存可移植蓝图。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationBlueprint.invalidField	属性“{0}”缺失或无效。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationBlueprint.invalidFrontmatter	文件必须以有效的 YAML frontmatter 开头。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationBlueprint.invalidId	蓝图 id“{0}”无效。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationBlueprint.missingPrompt	自动化提示词必须位于 frontmatter 之后。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationBlueprint.unknownProperty	不支持属性“{0}”。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationBlueprint.unsupportedSchedule	cron 表达式“{0}”无法用当前自动化编辑器表示。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationBlueprint.unsupportedTimeZone	不支持时区“{0}”。请使用“local”使调度遵循导入者的时区。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationBlueprint.unsupportedVersion	不支持自动化蓝图版本 {0}。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationBlueprintFileFilter	自动化蓝图
+vs/sessions/contrib/sessions/browser/views/automationsView/automationBuiltInTemplatesDescription	选择一个起点，然后在创建前审阅并自定义。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationBuiltInTemplatesTitle	内置模板
+vs/sessions/contrib/sessions/browser/views/automationsView/automationChangedDuringEnable	此自动化在启用前已被更改。请重试。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationDeletedDuringEnable	此自动化在启用前已被删除。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationDropDescription	你可以在创建前审阅该自动化。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationDropFailed	无法导入自动化。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationDropMultiple	一次只能拖入一个自动化蓝图文件。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationDropTitle	拖放以导入自动化
+vs/sessions/contrib/sessions/browser/views/automationsView/automationDropUnsupported	只能导入 .automation.md 文件。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationEnabledStatus	已启用自动化 {0}
+vs/sessions/contrib/sessions/browser/views/automationsView/automationEnableFailed	启用自动化失败。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationExportedStatus	已导出自动化 {0}
+vs/sessions/contrib/sessions/browser/views/automationsView/automationExportFailed	导出自动化失败。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationExportInvalidFileName	请使用以恰好一个 .automation.md 后缀结尾的文件名。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationExportInvalidFileNameTitle	无法导出自动化。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationImportedStatus	已导入自动化 {0}
+vs/sessions/contrib/sessions/browser/views/automationsView/automationImportReadFailed	导入自动化失败。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationPluginTemplateBadge	插件
+vs/sessions/contrib/sessions/browser/views/automationsView/automationPluginTemplatesDescription	由已启用插件提供的模板初始为禁用状态。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationPluginTemplatesManyNewAriaLabel	来自插件的模板，{0} 个新模板
+vs/sessions/contrib/sessions/browser/views/automationsView/automationPluginTemplatesOneNewAriaLabel	来自插件的模板，1 个新模板
+vs/sessions/contrib/sessions/browser/views/automationsView/automationPluginTemplatesTitle	来自插件的模板
+vs/sessions/contrib/sessions/browser/views/automationsView/automationsDisabledBeforeEnable	自动化在启用前已被禁用。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationsDisabledBeforeImport	自动化在导入的自动化保存前已被禁用。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationsLoadError	无法加载自动化
+vs/sessions/contrib/sessions/browser/views/automationsView/automationsLoadErrorDescription	无法读取完整的自动化目录。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationsPartialLoadError	部分自动化无法加载。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationsPartialLoading	正在加载更多自动化…
+vs/sessions/contrib/sessions/browser/views/automationsView/automationsPartialUnavailable	部分自动化不可用。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationsUnavailable	部分自动化不可用
+vs/sessions/contrib/sessions/browser/views/automationsView/automationsUnavailableDescription	一个或多个提供方已断开连接、已禁用或不支持自动化。
+vs/sessions/contrib/sessions/browser/views/automationsView/automationTemplateBadge	模板
+vs/sessions/contrib/sessions/browser/views/automationsView/automationTemplateSource	来自 {0}
+vs/sessions/contrib/sessions/browser/views/automationsView/automationViewClosedBeforeSave	自动化视图在自动化保存前已关闭。
+vs/sessions/contrib/sessions/browser/views/automationsView/enableAutomationContextMenu	启用
+vs/sessions/contrib/sessions/browser/views/automationsView/exportAutomation	导出
+vs/sessions/contrib/sessions/browser/views/automationsView/exportAutomationDialogSave	导出
+vs/sessions/contrib/sessions/browser/views/automationsView/exportAutomationDialogTitle	导出自动化
+vs/sessions/contrib/sessions/browser/views/automationsView/importAutomation	导入自动化
+vs/sessions/contrib/sessions/browser/views/automationsView/importAutomationDialogOpen	导入
+vs/sessions/contrib/sessions/browser/views/automationsView/importAutomationDialogTitle	导入自动化
+vs/sessions/contrib/sessions/browser/views/automationsView/loadingAutomations	正在加载自动化…
+vs/sessions/contrib/sessions/browser/views/automationsView/loadingAutomationsDescription	现有自动化加载期间，你可以创建新自动化。
+vs/sessions/contrib/sessions/browser/views/automationsView/moreActions	更多操作…
+vs/sessions/contrib/sessions/browser/views/automationsView/moreActionsForAutomation	{0} 的更多操作
+vs/sessions/contrib/sessions/browser/views/automationsView/useAutomationTemplate	使用模板：{0}，{1}
+vs/sessions/contrib/sessions/browser/views/automationsView/usePluginAutomationTemplate	使用模板：{0}，{1}，来自 {2}
+vs/sessions/contrib/sessions/browser/views/automationTemplates/automationTemplate.findBugs.description	探索代码库并报告已验证、可复现的 bug。
+vs/sessions/contrib/sessions/browser/views/automationTemplates/automationTemplate.findBugs.name	查找 bug
+vs/sessions/contrib/sessions/browser/views/automationTemplates/automationTemplate.findBugs.prompt	探索此代码库并找出具体、可复现的 bug。\n\n先阅读仓库指引并理解架构，再选择重点调查方向，例如近期改动、复杂状态流转或错误处理。沿调用方和现有测试追踪疑似问题。用最相关的最小测试或最小复现验证行为，并区分已确认的 bug 与猜想。避免仅涉及风格的建议和推测性发现。\n\n报告高置信度、可操作的 bug，包含严重级别、文件与行号引用、触发场景、预期与实际行为，以及支持性的测试或复现结果。为每个发现建议针对性修复，但不修改仓库文件或提交更改。说明你探索了哪些内容、任何验证局限，以及何时未找到已确认的 bug。
+vs/sessions/contrib/sessions/browser/views/automationTemplates/automationTemplate.issueTriage.description	按各仓库的先例为我的 GitHub 仓库议题做分类。
+vs/sessions/contrib/sessions/browser/views/automationTemplates/automationTemplate.issueTriage.name	议题分类
+vs/sessions/contrib/sessions/browser/views/automationTemplates/automationTemplate.issueTriage.prompt	使用现有仓库先例为我的 GitHub 仓库议题做分类。\n\n使用已认证的 GitHub 账号找到我的仓库，优先处理活跃仓库和新的或未分类的议题。对每个仓库，阅读其贡献指南、议题模板、现有标签，以及有维护者裁决的同类议题。先分别学习各仓库的惯例，再给出建议。\n\n产出按仓库分组的报告。链接到每个议题，推荐现有标签，识别可能的重复议题，并在有用时起草回复。引用支持每条建议的历史议题、PR 或维护者评论。对不确定或缺少先例之处标注，而不是编造规则。不要应用标签、发表评论、关闭议题或做其他 GitHub 更改。说明审阅了哪些仓库和议题，以及任何访问限制。
+vs/sessions/contrib/sessions/browser/views/automationTemplates/automationTemplate.mainUpdates.description	拉取最新 main 并总结新提交。
+vs/sessions/contrib/sessions/browser/views/automationTemplates/automationTemplate.mainUpdates.name	跟进 main 动态

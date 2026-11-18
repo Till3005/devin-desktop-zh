@@ -1,0 +1,180 @@
+settings.keyboardShortcuts.saveFailed	存不了此快捷键。关掉未保存的 keybindings.json 编辑再试。
+settings.keyboardShortcuts.searchPlaceholder	搜索快捷键
+settings.keyboardShortcuts.sequenceThen	然后
+settings.keyboardShortcuts.title	键盘快捷键
+settings.knowledge	知识
+settings.language	语言
+settings.languages	语言
+settings.languagesDescription	配置语言设置
+settings.leaderboard	排行榜
+settings.leaderboardDescription	看生产力排行和成员排名
+settings.learnMore	了解更多
+settings.learnMoreAboutDynamicWorkflows	开 Dynamic Workflows 文档
+settings.learnMoreAboutEnterpriseBlueprint	了解企业环境 blueprint
+settings.learnMoreAboutEnterpriseEnvironment	了解企业环境配置
+settings.learnMoreAboutEnterpriseMembership	了解企业成员
+settings.learnMoreAboutEnvironment	了解组织环境配置
+settings.learnMoreAboutOrganizationBlueprint	了解组织环境 blueprint
+settings.learnMoreAboutSchedules	了解计划 Devin 会话
+settings.learnMoreAboutSecrets	了解机密
+settings.learnMoreAboutSnapshots	了解差异构建
+settings.learnMoreEfficiencyTips	了解效率技巧
+settings.learning	学习
+settings.learningAllOrganizations	全部组织
+settings.learningCertifications	认证
+settings.learningCertificationsIssued	已发认证
+settings.learningCertifiedOn	认证于 {{date}}
+settings.learningCompleted	已完成
+settings.learningCompletedOn	完成于
+settings.learningCompletionsThisMonth	本月完成
+settings.learningCourses	课程
+settings.learningDescription	Devin University 进度和认证
+settings.learningExamAttempts	尝试次数
+settings.learningExamFailed	未过
+settings.learningExamFailedAttempts	失败次数
+settings.learningExamInProgress	进行中
+settings.learningExamLastScore	最近分数
+settings.learningExamPassed	已过
+settings.learningExams	考试
+settings.learningExport	导出
+settings.learningExportAllMembers	全部成员
+settings.learningExportDescription	下载哪些成员持各 Devin University 认证，不含课程进度或考试记录
+settings.learningExportDownloadCsv	下载 CSV
+settings.learningExportDownloadPdf	下载 PDF
+settings.learningExportEmail	邮箱
+settings.learningExportEmailsDescription	粘邮箱，用逗号、空格或换行分隔
+settings.learningExportEmailsLabel	成员邮箱
+settings.learningExportFailed	加载不了导出。请重试。
+settings.learningExportGenerated	生成于
+settings.learningExportHeldBy	{{total}} 中 {{count}}
+settings.learningExportMatched	{{requested}} 个邮箱中 {{matched}} 个匹配到成员。
+settings.learningExportMemberCount_one	将导出 {{count}} 个成员。
+settings.learningExportMemberCount_other	将导出 {{count}} 个成员。
+settings.learningExportMembers	成员
+settings.learningExportMembersLabel	成员
+settings.learningExportName	名称
+settings.learningExportNoCertification	无认证
+settings.learningExportPageOf	第 {{page}} / {{total}} 页
+settings.learningExportReportTitle	认证报告
+settings.learningExportSaveFailed	下载不了文件。请重试。
+settings.learningExportSpecificEmails	指定邮箱
+settings.learningExportTitle	导出认证
+settings.learningExportUnmatched	这些邮箱没匹配到你企业任何成员：
+settings.learningFilters	筛选
+settings.learningGoToConnectedAccounts	去已连账户
+settings.learningHideNoActivity	隐藏无活动成员
+settings.learningLessonsCompleted	已完成课时
+settings.learningMember	成员
+settings.learningMemberSection	成员学习
+settings.learningMemberSectionDescription	你企业成员的课程进度。选一个成员看其全部课程进度。
+settings.learningMembersStarted	已开始成员
+settings.learningMembersStartedValue	{{total}} 中 {{started}}
+settings.learningNeedsFollowUp	同一考试败 3+ 次
+settings.learningNeedsFollowUpStat	需跟进
+settings.learningNeedsFollowUpTooltip	同一考试败 3+ 次且未过的成员。
+settings.learningNoCourseActivity	此成员还没开始任何课程。
+settings.learningNoMembersMatch	没有成员匹配。
+settings.learningNotStarted	未开始
+settings.learningPageDescription	你企业里 Devin University 进度和认证
+settings.learningQuizzesPassed	已过测验
+settings.learningRemoveFilter	移除筛选：{{filter}}
+settings.learningUnavailable	学习数据目前不可用。稍后重试。
+settings.learningUniversityCalloutDescription	Devin University 在你个人设置的「已连账户」里。
+settings.learningUniversityCalloutTitle	找登录？
+settings.learningViewMemberDetails	看 {{member}} 的学习详情
+settings.legacyApi	旧版 API
+settings.legacyApiDescription	已废弃企业 API key
+settings.legacyAutomaticReviewEnrollments	旧版自动分析规则
+settings.legacyAutomaticReviewEnrollmentsDescription	这些旧的仓库和用户规则还跑着，直到迁到新规则。上面的排除对两者都适用。
+settings.legacyCascade	旧版 Cascade
+settings.legacyCascadeDescription	Devin Local 在取代 Cascade。这些设置主要适用于旧版 Cascade agent。
+settings.letDevinReviewEditPrDescription	让 Devin Review 编辑 PR 描述
+settings.letDevinReviewEditPrDescriptionDescription	关就不动你的描述。在 GitHub 上 Devin 改在一条 PR 评论里显示其链接和状态。
+settings.light	浅色
+settings.limitPreviewAcknowledge_one	我有意挡此 {{count}} 个用户
+settings.limitPreviewAcknowledge_other	我有意挡这 {{count}} 个用户
+settings.limitPreviewAlreadyOver	已超上限
+settings.limitPreviewFallback	开始用回退
+settings.limitPreviewLowered	降低上限，不挡
+settings.limitPreviewMember	成员
+settings.limitPreviewNewLimit	新上限
+settings.limitPreviewOldLimit	旧上限
+settings.limitPreviewSample	显示 {{count}} 个新被挡用户中的 {{shown}} 个。
+settings.limitPreviewSample_one	显示 {{count}} 个新被挡用户中的 {{shown}} 个。
+settings.limitPreviewSample_other	显示 {{count}} 个新被挡用户中的 {{shown}} 个。
+settings.limitPreviewUsers_one	{{count}} 个用户
+settings.limitPreviewUsers_other	{{count}} 个用户
+settings.limitRequestEmails	你的用量上限申请
+settings.limitRequestEmailsDescription	只适用于你，且只在企业用量上限申请邮件开时
+settings.limitSource	上限来源
+settings.limitSourceAccountDefault	账户默认
+settings.limitSourceCertificationMappedTier	认证映射
+settings.limitSourceExplicitTier	显式档位
+settings.limitSourceFallbackTier	回退档位
+settings.limitSourceIdpMappedTier	IdP 映射
+settings.limitSourceLiveTemporaryOverride	临时覆盖
+settings.limitSourceNoLimit	无上限
+settings.limitSourcePermanentOverride	永久覆盖
+settings.linear	Linear
+settings.linearDescription	配置 Linear 团队映射、允许的 bot、自动化和 playbook
+settings.linearIntegrationDescription	让 Devin 干活。把工单变 PR。
+settings.linearPlaybooksDescription	把你 playbook 同步到 Linear 标签
+settings.linearSkillsDescription	Linear 工单拿到技能的标签时跑那个技能。Devin 被无标签触发时跑默认技能。
+settings.linearTeamMapping	Linear 团队映射
+settings.linearTeamMappingDescription	把 Linear 团队映射到 Devin 组织以路由会话
+settings.linearTriggerDialogPlaybookDescription	团队、标签和状态条件匹配时触发 playbook
+settings.linearTriggerDialogSkillDescription	团队、标签和状态条件匹配时触发技能
+settings.link	链
+settings.linkAccountsDescription	把你个人账户链到 Devin
+settings.linkBitbucketAccount	链 Bitbucket 账户
+settings.linking	链接中…
+settings.loadCertificationsError	加载不了 Devin University 认证。稍后重试。
+settings.loadGroupsError	加载组失败。需要管理账户成员权限
+settings.loadMappingsError	加载组映射失败
+settings.loadTierMembersError	加载成员失败
+settings.loadingEllipsis	加载中…
+settings.localMachineTools	Local Hands
+settings.localMachineToolsDescription	让 Devin 申请经 `devin connect` 在用户自己机器跑工具。每次连接需用户批准。原生部署关了或会话用安全配置时不可用。
+settings.localModelsTab	本地模型
+settings.localSettings	本地设置
+settings.lockUserCommitEmail	锁用户提交邮箱
+settings.lockUserCommitEmailDescription	把提交邮箱锁到各成员的主邮箱
+settings.logInToUniversity	登录 Devin University
+settings.logOutAllDevices	全部设备登出
+settings.logOutAllDevicesAction	到处登出
+settings.logOutAllDevicesConfirmTitle	全部设备登出？
+settings.logOutAllDevicesDescription	结束你在 web app、Devin Desktop、CLI 和移动 app 的每个设备会话，含这台。你 OAuth 授权的 app 也失访问。API key 和个人访问令牌仍可用。
+settings.logOutAllDevicesFailed	全部设备登出失败。请重试。
+settings.loginConnections.description	除你 SSO 连接外你组织成员的登录方式。至少一种登录方式须保持启用。
+settings.loginConnections.emailDescription	用邮箱和一次性码登录。
+settings.loginConnections.emailLabel	邮箱
+settings.loginConnections.githubDescription	用 GitHub 账户登录。
+settings.loginConnections.githubLabel	GitHub
+settings.loginConnections.googleDescription	用 Google 账户登录。
+settings.loginConnections.googleLabel	Google
+settings.loginConnections.loadError	加载登录方式失败。请重试。
+settings.loginConnections.title	登录方式
+settings.loginConnections.updateFailed	更新登录方式失败
+settings.lowestUtilizationWithUsage	最低利用率（有用量）
+settings.machineCatalog	机器目录
+settings.machineCatalogPage.columnDisk	磁盘
+settings.machineCatalogPage.columnMachine	机器
+settings.machineCatalogPage.columnMemory	内存
+settings.machineCatalogPage.columnNestedVirtualization	嵌套虚拟化
+settings.machineCatalogPage.columnSize	大小
+settings.machineCatalogPage.confirmDescription	这更新新会话的机器默认。
+settings.machineCatalogPage.confirmTitle	存 {{platform}} 机器？
+settings.machineCatalogPage.defaultMachineHint	新组织在默认机器跑，直到选别的。
+settings.machineCatalogPage.diskHint	磁盘随机器来，改不了。
+settings.machineCatalogPage.diskPerSlotHint	磁盘每槽至多 {{size}} GB。
+settings.machineCatalogPage.diskPickerHint	每种磁盘大小是自己的机器镜像，换磁盘重建你的快照。
+settings.machineCatalogPage.diskSize	{{size}} GB
+settings.machineCatalogPage.machineCount_one	{{count}} 台机器
+settings.machineCatalogPage.machineCount_other	{{count}} 台机器
+settings.machineCatalogPage.memoryAmount	{{size}} GB
+settings.machineCatalogPage.memorySize	{{size}} GB RAM
+settings.machineCatalogPage.nestedOff	嵌套关
+settings.machineCatalogPage.nestedOn	嵌套开
+settings.machineCatalogPage.nestedVirtualizationHint	嵌套虚拟化加 Android 模拟器支持并把大小限到 16 槽。
+settings.machineCatalogPage.noMachinesDescription	此企业没有可编的机器配置。
+settings.machineCatalogPage.noMachinesTitle	没有可用机器

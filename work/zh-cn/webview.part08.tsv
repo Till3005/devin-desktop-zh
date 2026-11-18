@@ -1,0 +1,340 @@
+analyticsRevamp.toolbar.organizationLimit	最多可选择 {{max}} 个组织。
+analyticsRevamp.toolbar.organizations	组织
+analyticsRevamp.toolbar.organizationsLoadError	无法加载组织
+analyticsRevamp.toolbar.organizationsLoadErrorBody	所选组织的指标在组织列表加载完成前保持隐藏。清除筛选即可查看全账户数字。
+analyticsRevamp.toolbar.retry	重试
+analyticsRevamp.toolbar.scope	范围：{{scope}}
+analyticsRevamp.toolbar.scopeEnterprise	企业
+analyticsRevamp.units.activeUsers_one	名活跃用户
+analyticsRevamp.units.activeUsers_other	名活跃用户
+analyticsRevamp.units.acusPerMergedPr_one	每已合并 PR 的 ACU
+analyticsRevamp.units.acusPerMergedPr_other	每已合并 PR 的 ACU
+analyticsRevamp.units.acusPerProductiveHour_one	每有效小时 ACU
+analyticsRevamp.units.acusPerProductiveHour_other	每有效小时 ACU
+analyticsRevamp.units.acus_one	ACU
+analyticsRevamp.units.acus_other	ACU
+analyticsRevamp.units.aiFtes_one	AI FTE
+analyticsRevamp.units.aiFtes_other	AI FTE
+analyticsRevamp.units.mergedPrs_one	个已合并 PR
+analyticsRevamp.units.mergedPrs_other	个已合并 PR
+analyticsRevamp.units.productiveHours_one	个有效小时
+analyticsRevamp.units.productiveHours_other	个有效小时
+analyticsRevamp.units.pullRequests_one	个拉取请求
+analyticsRevamp.units.pullRequests_other	个拉取请求
+analyticsRevamp.units.sessionsCreated_one	个已创建会话
+analyticsRevamp.units.sessionsCreated_other	个已创建会话
+analyticsRevamp.units.users_one	名用户
+analyticsRevamp.units.users_other	名用户
+analyticsRevamp.usage.chartViewLabel	图表分组
+analyticsRevamp.usage.chartViews.cumulative	累计
+analyticsRevamp.usage.chartViews.day	按天
+analyticsRevamp.usage.chartViews.week	按周
+analyticsRevamp.usage.metrics.sessions	会话
+analyticsRevamp.usage.metrics.sessionsTooltip	此期间创建的自动化会话，按创建日期各计一次
+analyticsRevamp.usage.metrics.shareOfCloud	占云端 ACU 比例
+analyticsRevamp.usage.more	更多
+analyticsRevamp.usage.productAcus.automations	自动化 ACU 趋势
+analyticsRevamp.usage.productAcus.code_scans	代码扫描 ACU 趋势
+analyticsRevamp.usage.productAcus.oncall	值班 ACU 趋势
+analyticsRevamp.usage.productDescriptions.automations	自动化启动的会话消耗的 ACU
+analyticsRevamp.usage.productDescriptions.code_scans	代码扫描会话消耗的 ACU
+analyticsRevamp.usage.productDescriptions.oncall	值班会话消耗的 ACU：响应器、事件和摘要
+analyticsRevamp.usage.products.automations	自动化
+analyticsRevamp.usage.products.code_scans	代码扫描
+analyticsRevamp.usage.products.oncall	值班
+analyticsRevamp.usage.table.oncallResource	值班资源
+analyticsRevamp.usage.table.orgFilterNote	此表覆盖所有组织；组织筛选只作用于图表
+analyticsRevamp.usage.table.previousPeriod	上一期间
+analyticsRevamp.usage.table.search.automations	按自动化搜索
+analyticsRevamp.usage.table.search.code_scans	按仓库搜索
+analyticsRevamp.usage.table.search.oncall	按值班资源搜索
+analyticsRevamp.usage.table.title.automations	自动化
+analyticsRevamp.usage.table.title.code_scans	代码扫描
+analyticsRevamp.usage.table.title.oncall	值班
+analyticsRevamp.userData.appliesToSubOrgs	同样适用于所有子组织。
+analyticsRevamp.userData.groupLabel	隐私
+analyticsRevamp.userData.membersHidden	此账户已隐藏逐用户数据。
+analyticsRevamp.version	版本
+analyticsRevamp.versionLegacy	旧版
+analyticsRevamp.versionNewest	最新版
+analyticsRevamp.versionSettings	分析设置
+announcementCallout.close	关闭
+announcementCallout.title	公司公告
+announcementCallout.view	查看
+appUpdate.bar.available	有可用更新
+appUpdate.bar.ready	更新已就绪
+appUpdate.checking	正在检查更新…
+appUpdate.description	重启应用以获取最新更新
+appUpdate.descriptionAvailable	下载更新以获取最新变更
+appUpdate.descriptionInstall	安装更新以获取最新变更
+appUpdate.download	下载
+appUpdate.downloading	正在下载更新…
+appUpdate.install	安装更新
+appUpdate.installing	正在安装更新…
+appUpdate.restart	重启以更新
+appUpdate.title	有新更新可用
+apps.accessShort.org	组织
+apps.accessShort.password	密码
+apps.addDescription	添加描述
+apps.allApps	全部应用
+apps.appAudienceHelp.enterprise_view	你企业中每个组织的成员
+apps.appAudienceHelp.org	组织内所有人以及你添加的人
+apps.appAudienceHelp.private	创建者、组织管理员以及你添加的人
+apps.appPage	应用页面
+apps.archiveServingConfirm	归档并下线
+apps.archiveServingDescription_one	归档会使 {{names, list}} 下线。在其会话取消归档前无人可以打开。
+apps.archiveServingDescription_other	归档会使 {{names, list}} 下线。在它们的会话取消归档前无人可以打开。
+apps.archiveServingKeepLive	保持会话在线
+apps.archiveServingKeepLiveMany	保持会话在线
+apps.archiveServingTitle_one	这将使一个应用下线
+apps.archiveServingTitle_other	这将使多个应用下线
+apps.buildingThumbnail	构建中…
+apps.cancel	取消
+apps.columnCreated	创建时间
+apps.columnName	名称
+apps.columnOwner	所有者
+apps.columnScope	范围
+apps.columnStatus	状态
+apps.columnTraffic	访问量
+apps.columnUpdated	更新时间
+apps.commandSearch.all	全部
+apps.commandSearch.createFromQuery	以此需求创建应用
+apps.commandSearch.online	在线
+apps.commandSearch.pinned	已固定
+apps.commandSearch.scope	应用搜索范围
+apps.commandSearch.yours	你的
+apps.composerSharing.groups	用户组
+apps.composerSharing.org	组织
+apps.composerSharing.private	仅自己
+apps.composerSharingHelp.groups	应用及其会话会共享给你选择的用户组
+apps.composerSharingHelp.org	你组织中的所有人都能打开应用及其会话
+apps.composerSharingHelp.private	只有你能打开应用及其会话
+apps.composerSharingLabel	谁可以打开应用及其会话
+apps.composerSharingTrigger	新应用共享给：{{audience}}
+apps.copied	已复制
+apps.copyFailed	复制 URL 失败
+apps.copySessionLink	复制会话链接
+apps.copyUrl	复制 URL
+apps.coverPhoto	封面图片
+apps.coverRemove	移除
+apps.coverRemoved	封面图片已移除
+apps.coverReplace	替换
+apps.coverSaveFailed	无法更新封面图片
+apps.coverSaved	封面图片已更新
+apps.coverUpload	上传
+apps.create	创建应用
+apps.createDescription	Devin 可以在一个稳定 URL 后为组织内所有人构建并部署应用
+apps.createFailed	创建应用失败
+apps.createTitle	创建应用
+apps.creatorViaBot	{{owner}} 经由 {{bot}}
+apps.customizeIcon	自定义图标…
+apps.customizeSidebarIcon	自定义侧边栏图标…
+apps.dangerZone	危险区域
+apps.delete	删除
+apps.deleteApp	删除应用
+apps.deleteDescription	应用 URL 将失效。管理它的会话不受影响。
+apps.deleteFailed	删除应用失败
+apps.deleteTitle	删除 {{name}}？
+apps.deleteTypeName	输入「{{name}}」以确认
+apps.deployBranch	分支
+apps.deployName	名称
+apps.deployStatus.failed	失败
+apps.deployStatus.live	在线
+apps.deployStatus.starting	构建中
+apps.deployStatus.stopped	离线
+apps.deployment.command	命令
+apps.deployment.commit	提交
+apps.deployment.copyOutput	复制输出
+apps.deployment.deployedBy	部署者
+apps.deployment.description	描述
+apps.deployment.details	部署详情
+apps.deployment.host	主机
+apps.deployment.notFound	未找到部署
+apps.deployment.openSession	打开会话
+apps.deployment.output	输出
+apps.deployment.preview	预览 · {{branch}}
+apps.deployment.repository	仓库
+apps.deployment.session	会话
+apps.deployment.started	开始时间
+apps.deployment.status	状态
+apps.deployment.stopped	已停止
+apps.deployment.target	目标
+apps.deployment.versionTitle	v{{version}}
+apps.deploymentVersion	V{{version}}
+apps.deploymentsTitle	部署
+apps.deploysNoMatches	没有符合这些筛选的部署。
+apps.description	用 Devin 为你的组织构建并托管自定义应用
+apps.edit	编辑
+apps.editApp	在会话中编辑
+apps.editDescription	编辑描述
+apps.editInSession	在会话中编辑
+apps.emptyTitle	还没有应用
+apps.fieldDescription	描述
+apps.fieldName	名称
+apps.fieldPromptPlaceholder	一个团队可以给办公室点咖啡的页面
+apps.filterAllBranches	全部分支
+apps.filterAllStatuses	全部状态
+apps.generalAccess	通用访问
+apps.gridView	网格视图
+apps.historyEmpty	还没有部署。
+apps.historyError	加载部署失败
+apps.hostName	主机名
+apps.last24Hours	最近 24 小时
+apps.last30Days	最近 30 天
+apps.last7Days	最近 7 天
+apps.listView	列表视图
+apps.liveBack	返回应用
+apps.liveEdit	编辑应用
+apps.liveHideHeader	隐藏头部
+apps.liveLoading	正在加载应用…
+apps.liveNotFound	找不到此应用，或你没有访问权限。
+apps.liveNotServing	此应用未在服务。打开其详情以管理部署。
+apps.liveOpen	在新标签页打开
+apps.liveUnavailable	此应用无法内联显示。试试在新标签页打开。
+apps.loadError	加载应用失败
+apps.moreActions	{{name}} 的更多操作
+apps.newApp	新建应用
+apps.newAppSharing.groups	用户组
+apps.newAppSharing.org	组织内所有人
+apps.newAppSharing.private	仅创建者
+apps.newAppSharingHelp.groups	新应用共享给你选择的用户组
+apps.newAppSharingHelp.org	每个组织成员都能打开新应用
+apps.newAppSharingHelp.private	新应用仅创建者可见
+apps.newAppSharingLabel	新应用的默认共享对象
+apps.noDeployments	无部署
+apps.noMatches	没有符合这些筛选的应用。
+apps.noMatchingApps	没有匹配的应用
+apps.noTraffic	无
+apps.notFound	未找到应用
+apps.notTrackedYet	尚未跟踪
+apps.offline	离线
+apps.offlineCallout	此应用已离线。在 Devin 重新部署前，其 URL 会显示离线页面。
+apps.offlineFailed	此应用已离线：部署 v{{version}} 在上线前失败。
+apps.online	在线
+apps.open	打开
+apps.openApp	打开应用
+apps.openDeployUrl	在浏览器中打开
+apps.openInNewTab	在新标签页打开 {{name}}
+apps.openPreview	打开预览
+apps.orgAudience.enterprise_edit	企业可打开和编辑
+apps.orgAudience.enterprise_view	企业可打开
+apps.orgAudience.org	仅组织
+apps.orgAudienceButton	共享默认值
+apps.orgAudienceHelp.enterprise_edit	你整个企业都能打开和编辑每个应用
+apps.orgAudienceHelp.enterprise_view	你整个企业都能打开每个应用
+apps.orgAudienceHelp.org	只有组织成员才能打开其应用
+apps.orgAudienceLabel	组织之外
+apps.orgAudienceTitle	你组织所有应用的共享设置
+apps.pageViewCount_one	{{count}} 次页面浏览
+apps.pageViewCount_other	{{count}} 次页面浏览
+apps.pageViewsOverTime	页面浏览量
+apps.pinFailed	更新固定失败
+apps.pinForEveryone	为所有人固定
+apps.pinForMe	为我固定
+apps.pinToSidebar	固定到侧边栏
+apps.pinned	已固定
+apps.pinnedToYourRail	已固定到你的边栏
+apps.previewUrl	URL
+apps.production	生产环境
+apps.removeApplicationHelp	停止并从应用及相关部署中移除该应用
+apps.rename	重命名
+apps.renameFailed	重命名应用失败
+apps.renameHelp	显示在应用页面的名称。应用 URL 不变。
+apps.renameTitle	重命名应用
+apps.renamed	应用已重命名
+apps.reorder	重新排序 {{name}}
+apps.requestsLast7Days_one	最近 7 天 {{count}} 次请求
+apps.requestsLast7Days_other	最近 7 天 {{count}} 次请求
+apps.retry	重试
+apps.save	保存
+apps.saveFailed	保存应用失败
+apps.saved	已保存
+apps.scopeAllScopes	全部范围
+apps.scopeFilterAccessible	范围：{{selection}}
+apps.scopeMine	我的
+apps.search	搜索应用
+apps.searchDeployments	搜索部署
+apps.searchDeploymentsPlaceholder	搜索部署
+apps.session	会话
+apps.sessionLinkCopied	会话链接已复制
+apps.sessionServes_one	此会话服务 {{count}} 个应用
+apps.sessionServes_other	此会话服务 {{count}} 个应用
+apps.settingsAbout	关于
+apps.settingsCoverHelp	显示在你的应用卡片上
+apps.settingsCreatedBy	创建者
+apps.settingsDetails	详情
+apps.settingsLink	链接
+apps.settingsLinkHelp	链接不可更改，已有链接保持有效。
+apps.settingsLiveVersion	在线版本
+apps.settingsNameRequired	名称为必填项
+apps.settingsSharing	共享
+apps.settingsVisits	最近 7 天访问量
+apps.share	分享
+apps.shareAction.configure	可编辑
+apps.shareAction.share	可分享
+apps.shareAction.use	可打开
+apps.shareActionHelp.configure	更改设置、域名和访问模式
+apps.shareActionHelp.share	添加和移除人员
+apps.shareActionHelp.use	打开应用
+apps.shareDescription	有访问权限的人可以通过链接打开应用。
+apps.shareDone	完成
+apps.shareInherited	来自角色或你组织的共享设置
+apps.sharePeople	有访问权限的人
+apps.shareReach.appOrg	应用所在组织中的任何人
+apps.shareReach.enterprise	你企业中的任何人
+apps.shareReach.org	{{orgName}} 中的任何人
+apps.shareReach.private	仅有访问权限的人
+apps.shareReach.yourOrg	你组织中的任何人
+apps.shareReadOnly	你需要共享权限才能更改。请找应用创建者或组织管理员。
+apps.shareRemoveSelf	你不能移除自己的访问权限
+apps.shareSearch	添加人员、分组或组织
+apps.shareTitle	分享 {{name}}
+apps.shareVerb.configure	编辑
+apps.shareVerb.share	分享
+apps.shareVerb.use	打开
+apps.showAll	显示全部 {{count}} 项
+apps.sidebarIconBackground	背景
+apps.sidebarIconBackgrounds.none	无
+apps.sidebarIconBackgrounds.solid	纯色
+apps.sidebarIconBackgrounds.tint	淡色
+apps.sidebarIconColor	颜色
+apps.sidebarIconColors.blue	蓝色
+apps.sidebarIconColors.green	绿色
+apps.sidebarIconColors.neutral	中性色
+apps.sidebarIconColors.orange	橙色
+apps.sidebarIconColors.purple	紫色
+apps.sidebarIconColors.red	红色
+apps.sidebarIconNames.calendar	日历
+apps.sidebarIconNames.chart	图表
+apps.sidebarIconNames.chat	聊天
+apps.sidebarIconNames.devices	设备
+apps.sidebarIconNames.form	表单
+apps.sidebarIconNames.news	新闻
+apps.sidebarIconNames.table	表格
+apps.sidebarIconReset	恢复默认
+apps.sidebarIconSaveFailed	无法保存图标。请重试。
+apps.sidebarShowHeader	显示头部
+apps.sortAscending	升序
+apps.sortBy	应用排序
+apps.sortDescending	降序
+apps.sortNewestFirst	排序：最新在前
+apps.sortOldestFirst	排序：最旧在前
+apps.startFromTemplate	从模板开始
+apps.stateAllStatuses	全部状态
+apps.stateBuilding	构建中
+apps.stateFilterAccessible	状态：{{selection}}
+apps.stateOffline	离线
+apps.stateOnline	在线
+apps.stateOnlineVersion	在线 · v{{version}}
+apps.stopApplicationHelp	停止该应用的服务但保留其注册信息和部署历史
+apps.stopFailed	应用下线失败
+apps.stopServingConfirm	停止并下线
+apps.stopServingDescription_one	停止会使 {{names, list}} 下线。在其会话恢复前无人可以打开。
+apps.stopServingDescription_other	停止会使 {{names, list}} 下线。在它们的会话恢复前无人可以打开。
+apps.tabSettings	设置
+apps.takeOffline	下线
+apps.template.customer-health.description	搜索任意账户，查看其用量、方案和未结工单
+apps.template.customer-health.name	客户健康浏览器
+apps.template.customer-health.placeholder	构建一个可搜索的账户浏览器，展示每个客户的方案、近期用量和未结支持工单。添加筛选找出需要关注的账户。
+apps.template.design-system.description	来自你仓库的组件、设计令牌和可复制代码的活字典
+apps.template.design-system.name	设计系统

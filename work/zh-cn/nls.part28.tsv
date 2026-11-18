@@ -1,0 +1,129 @@
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.subagents.showCreditUsage	控制是否在子代理的时长旁显示 AI 额度用量。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.tools.terminal.outputReflow	控制聊天中的终端输出是否按可用宽度重排。禁用时，预览使用终端的列数（无终端时为 80 列），需要时水平滚动。不会调整运行命令的终端大小。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.welcomePage.signIn.enabled	控制未登录时欢迎页显示 GitHub 登录按钮而非 Agents 窗口按钮。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/mcp.workspaceRootConfig.enabled	手动添加 MCP 服务器时提供工作区根目录的 `.mcp.json` 文件。当 `.vscode/mcp.json` 存在时，可选择添加到哪个文件。市场安装继续使用 `.vscode/mcp.json`。已存在的 `.mcp.json` 文件可独立于此设置打开和读取。
+vs/workbench/contrib/chat/browser/chatInputPills/chatInputPills.ariaLabel	会话状态
+vs/workbench/contrib/chat/browser/chatInputPills/chatInputPills.configure	配置会话状态药丸
+vs/workbench/contrib/chat/browser/chatInputPills/chatInputPills.options	{0} 选项
+vs/workbench/contrib/chat/browser/chatInputPills/chatInputPills.subagentOptions	子代理选项
+vs/workbench/contrib/chat/browser/chatInputPills/chatInputPills.viewChanges	查看 {0}
+vs/workbench/contrib/chat/browser/chatNetworkConfiguration/chat.agent.allowedNetworkDomains	启用 {0} 时，agent 工具（fetch 工具、集成浏览器）允许访问的网络域名。在启用沙箱（{1}）的 Copilot Agent Host 会话中，当允许出站网络访问（{2}）时也约束集成浏览器；空允许列表不增加沙箱限制。此列表不启用出站访问。支持 {3} 等通配符。沙箱之外，当允许和拒绝列表都为空时，所有域名都被阻止。拒绝域名（见 {4}）优先。\n\n更改可能要重启 VS Code 后完全生效。
+vs/workbench/contrib/chat/browser/chatNetworkConfiguration/chat.agent.deniedNetworkDomains	启用 {0} 时，agent 工具（fetch 工具、集成浏览器）拒绝访问的网络域名。同样适用于沙箱化 Copilot Agent Host 会话（{1}）中的集成浏览器；允许出站网络访问（{2}）不能绕过此列表。优先于 {3}。支持 {4} 等通配符。\n\n更改可能要重启 VS Code 后完全生效。
+vs/workbench/contrib/chat/browser/chatParticipant.contribution/chat.updateRequiredView	聊天更新要求
+vs/workbench/contrib/chat/browser/chatPetAchievements/chatPet.achievement.blobby.description	Blob the Builder？Blobby McBlobface？都不是，我的名字是 Blobby。
+vs/workbench/contrib/chat/browser/chatPetAchievements/chatPet.achievement.blobby.hint	这团小东西有个名字。试着在聊天中叫它。
+vs/workbench/contrib/chat/browser/chatPetAchievements/chatPet.achievement.blobby.title	真名
+vs/workbench/contrib/chat/browser/chatPetAchievements/chatPet.achievement.colorCustomization	颜色自定义
+vs/workbench/contrib/chat/browser/chatPetAchievements.contribution/chatPet.achievements.accessibilityHelp.colors	Blobby 上下文菜单中的“更改颜色”始终打开“颜色”标签页。Stable 和 Insiders 无需成就即可用。在聊天中使用 /blobby 可解锁“真名”及其纯色和自定义颜色。若宠物已关闭，该命令会开启它；若已开启，则打开“颜色”标签页。激活“真名”成就也会打开“颜色”。用 Tab 移动到色卡，然后按 Enter 或空格键应用。自定义颜色可用取色器或输入不透明十六进制值（如 #ff8800），然后激活“应用颜色”或在十六进制输入框中按 Enter。预览在应用前不会改变宠物。
+vs/workbench/contrib/chat/browser/chatPetAchievements.contribution/chatPet.blobby	自定义 Blobby
+vs/workbench/contrib/chat/browser/chatPetAchievements.contribution/chatPet.changeColor	更改 Blobby 的颜色
+vs/workbench/contrib/chat/browser/chatPetAchievementsEditor/chatPet.customization.achievements	成就
+vs/workbench/contrib/chat/browser/chatPetAchievementsEditor/chatPet.customization.color	颜色
+vs/workbench/contrib/chat/browser/chatPetAchievementsEditor/chatPet.customization.label	自定义 Blobby
+vs/workbench/contrib/chat/browser/chatPetAchievementsEditor/chatPet.customization.tabs	Blobby 自定义
+vs/workbench/contrib/chat/browser/chatPetAchievementsWidget/chatPet.achievement.changeColor	更改颜色
+vs/workbench/contrib/chat/browser/chatPetColors/chatPet.color.black	黑色
+vs/workbench/contrib/chat/browser/chatPetColors/chatPet.color.exploration	探索
+vs/workbench/contrib/chat/browser/chatPetColors/chatPet.color.green	绿色
+vs/workbench/contrib/chat/browser/chatPetColors/chatPet.color.insiders	Insiders
+vs/workbench/contrib/chat/browser/chatPetColors/chatPet.color.pink	粉色
+vs/workbench/contrib/chat/browser/chatPetColors/chatPet.color.purple	紫色
+vs/workbench/contrib/chat/browser/chatPetColors/chatPet.color.red	红色
+vs/workbench/contrib/chat/browser/chatPetColors/chatPet.color.stable	Stable
+vs/workbench/contrib/chat/browser/chatPetColors/chatPet.color.white	白色
+vs/workbench/contrib/chat/browser/chatPetColors/chatPet.color.yellow	黄色
+vs/workbench/contrib/chat/browser/chatPetColorsWidget/chatPet.color.invalid	请输入十六进制颜色，如 #ff8800 或 #f80。
+vs/workbench/contrib/chat/browser/chatPetColorsWidget/chatPet.colors.apply	应用颜色
+vs/workbench/contrib/chat/browser/chatPetColorsWidget/chatPet.colors.chooseCustom	选择 Blobby 的自定义颜色
+vs/workbench/contrib/chat/browser/chatPetColorsWidget/chatPet.colors.custom	自定义颜色
+vs/workbench/contrib/chat/browser/chatPetColorsWidget/chatPet.colors.customDescription	任选颜色或输入十六进制值。满意时就应用它。
+vs/workbench/contrib/chat/browser/chatPetColorsWidget/chatPet.colors.hex	自定义十六进制颜色
+vs/workbench/contrib/chat/browser/chatPetColorsWidget/chatPet.colors.intro	更有个性一点。选个经典外观，或给 Blobby 一个专属颜色。
+vs/workbench/contrib/chat/browser/chatPetColorsWidget/chatPet.colors.locked	已锁定
+vs/workbench/contrib/chat/browser/chatPetColorsWidget/chatPet.colors.lockedLabel	{0}，已锁定。发现 Blobby 的真名即可解锁。
+vs/workbench/contrib/chat/browser/chatPetColorsWidget/chatPet.colors.presets	Blobby 颜色预设
+vs/workbench/contrib/chat/browser/chatPetColorsWidget/chatPet.colors.selected	已选中
+vs/workbench/contrib/chat/browser/chatPetColorsWidget/chatPet.colors.selectedLabel	{0}，已选中
+vs/workbench/contrib/chat/browser/chatPetColorsWidget/chatPet.colors.title	颜色
+vs/workbench/contrib/chat/browser/chatPetColorsWidget/chatPet.colors.unlockHint	发现 Blobby 的真名即可解锁纯色和自定义颜色。
+vs/workbench/contrib/chat/browser/chatPetService/chatPet.color.changed	Blobby 的颜色已更改为 {0}
+vs/workbench/contrib/chat/browser/chatPetService/chatPet.color.locked	在聊天中使用 /blobby 解锁颜色自定义。
+vs/workbench/contrib/chat/browser/chatProgressConfiguration/chat.experimental.persistentProgress	在回复完成前在底部保留工作进度指示器，可用彩色或单色的“绘制”动画，或无图标。指示器报告当前或早前请求中正在运行的子代理和后台命令，即使主回复仍在进行。所有版本 VS Code 默认为“绘制”。实验可覆盖默认值；显式设置优先。工具调用遵循 {0}，推理分离为打断工具链的可折叠预览。独立工具保留其图标。已完成的回复仍遵循 {1}。此功能取代内部工作进度；终端活动动画和富子代理药丸不变。更改立即生效；减弱动态效果保留指示器但不播放动画。
+vs/workbench/contrib/chat/browser/chatProgressConfiguration/chat.experimental.persistentProgressVerbosity	启用 {0} 时控制工具调用详情。“紧凑”为默认值：当思考或回复文字继续、或回复完成时，将工具组原地折叠。展开摘要可检查其工具调用。持久进度为“关”时无效。更改立即生效。
+vs/workbench/contrib/chat/browser/chatProgressConfiguration/chat.progressAnimation.draw	以快速抛物线飘带动作系起 VS Code 标志，停留片刻后解开，短暂休息再循环。
+vs/workbench/contrib/chat/browser/chatProgressConfiguration/chat.progressAnimation.draw.label	绘制
+vs/workbench/contrib/chat/browser/chatProgressConfiguration/chat.progressAnimation.drawMonochrome	使用与 Agents 窗口中 VS Code 图标相同灰度处理的“绘制”动画。高对比度主题保留其对比色。
+vs/workbench/contrib/chat/browser/chatProgressConfiguration/chat.progressAnimation.drawMonochrome.label	绘制（单色）
+vs/workbench/contrib/chat/browser/chatProgressConfiguration/chat.progressAnimation.drawMonochromeNoIcon	保留与“绘制（单色）”相同的持久进度文字和工具渲染，但隐藏 VS Code 图标。
+vs/workbench/contrib/chat/browser/chatProgressConfiguration/chat.progressAnimation.drawMonochromeNoIcon.label	绘制（单色，无图标）
+vs/workbench/contrib/chat/browser/chatProgressConfiguration/chat.progressAnimation.off	保留原始的思考、工具和工作进度渲染，不使用持久指示器或 VS Code 标志。
+vs/workbench/contrib/chat/browser/chatProgressConfiguration/chat.progressAnimation.off.label	关
+vs/workbench/contrib/chat/browser/chatProgressConfiguration/chat.progressVerbosity.compact	工具调用运行时显示预览，回复继续后将每组折叠为单个可展开的摘要行。
+vs/workbench/contrib/chat/browser/chatProgressConfiguration/chat.progressVerbosity.compact.label	紧凑
+vs/workbench/contrib/chat/browser/chatProgressConfiguration/chat.progressVerbosity.verbose	保持工具调用以无标题的链式展开，无内部滚动限制。
+vs/workbench/contrib/chat/browser/chatProgressConfiguration/chat.progressVerbosity.verbose.label	详细
+vs/workbench/contrib/chat/browser/chatSetup/chatSetupContributions/githubUrlUnavailable	GitHub Enterprise URL 不可用。请登录后重试。
+vs/workbench/contrib/chat/browser/chatSetup/chatSetupRunner/settingsWithoutLink	继续即表示你同意 {0} 的[条款]({1})和[隐私声明]({2})。{3} Copilot 可能显示[公开代码]({4})建议并使用你的数据改进产品。你可随时更改这些设置。
+vs/workbench/contrib/chat/browser/chatSetup/chatSetupRunner/signInDidNotComplete	登录未完成。你可以关闭此窗口。
+vs/workbench/contrib/chat/browser/chatSetup/chatSetupRunner/signingInPlaceholder	正在登录…
+vs/workbench/contrib/chat/browser/chatSlashCommands/blobby	显示 Blobby 或打开其颜色自定义
+vs/workbench/contrib/chat/browser/chatStatus/chatStatusDashboard/githubUrlUnavailable	GitHub Enterprise URL 不可用。请登录后重试。
+vs/workbench/contrib/chat/browser/chatStatus/chatStatusPromo/chat.promo.modelUnavailable	推广的模型已不可用。
+vs/workbench/contrib/chat/browser/chatStatus/chatStatusPromo/chat.promo.openFailed	无法打开 Chat 试用此模型。
+vs/workbench/contrib/chat/browser/chatStatus/chatStatusPromo/chat.promo.pipAria	{0}。打开促销优惠。
+vs/workbench/contrib/chat/browser/chatStatus/chatStatusPromo/chat.promo.tryModel	试用 {0}
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusDashboard/chatGPTAccountName	ChatGPT
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusDashboard/chatGPTAvatarAlt	{0} 的 ChatGPT 头像
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusDashboard/chatGPTAvatarAltFallback	ChatGPT 头像
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusDashboard/chatGPTDailyLimit	每日限额
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusDashboard/chatGPTHourLimit	{0} 小时限额
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusDashboard/chatGPTRateLimitAria	{0}：已用 {1}%
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusDashboard/chatGPTRateLimitAriaWithReset	{0}：已用 {1}%。{2}
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusDashboard/chatGPTRateLimitReset	{0} 于 {1} 重置
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusDashboard/chatGPTRateLimitUsed	已用
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusDashboard/chatGPTRateLimitValue	{0}%
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusDashboard/chatGPTUsageLimit	用量限额
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusDashboard/chatGPTUsageUnavailable	用量信息不可用。
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusDashboard/chatGPTWeeklyLimit	每周限额
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusDashboard/openCodexAgentCustomizations	Codex 的 Agent 自定义项
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusEntry/codexLimitReached	已达限额
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusEntry/codexLimitReachedAria	Codex 已达限额
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusEntry/codexStatus	Codex 状态
+vs/workbench/contrib/chat/browser/chatStatus/codexStatusEntry/codexStatusAria	Codex 状态
+vs/workbench/contrib/chat/browser/chatTipCatalog/tip.btw	用 `/btw <question>` 提问侧聊问题，不加入当前对话。
+vs/workbench/contrib/chat/browser/editorChatUsage.contribution/savingEditorChatUsage	正在保存编辑器聊天用量
+vs/workbench/contrib/chat/browser/feedbackSurvey/chatHarnessSwitchFeedbackSurveyService/chat.harnessSwitchFeedbackSurvey.acknowledgement	谢谢，你的反馈已记录。
+vs/workbench/contrib/chat/browser/feedbackSurvey/chatHarnessSwitchFeedbackSurveyService/chat.harnessSwitchFeedbackSurvey.dismiss	关闭问卷
+vs/workbench/contrib/chat/browser/feedbackSurvey/chatHarnessSwitchFeedbackSurveyService/chat.harnessSwitchFeedbackSurvey.dismissAcknowledgement	关闭反馈确认
+vs/workbench/contrib/chat/browser/feedbackSurvey/chatHarnessSwitchFeedbackSurveyService/chat.harnessSwitchFeedbackSurvey.feedbackLink	有具体反馈？[在 GitHub 上分享]({0})。
+vs/workbench/contrib/chat/browser/feedbackSurvey/chatHarnessSwitchFeedbackSurveyService/chat.harnessSwitchFeedbackSurvey.reason	你为什么切换 harness？
+vs/workbench/contrib/chat/browser/feedbackSurvey/chatHarnessSwitchFeedbackSurveyService/chat.harnessSwitchFeedbackSurvey.reason.missingFeature	需要的功能不可用
+vs/workbench/contrib/chat/browser/feedbackSurvey/chatHarnessSwitchFeedbackSurveyService/chat.harnessSwitchFeedbackSurvey.reason.other	其他原因
+vs/workbench/contrib/chat/browser/feedbackSurvey/chatHarnessSwitchFeedbackSurveyService/chat.harnessSwitchFeedbackSurvey.reason.performance	Copilot 太慢
+vs/workbench/contrib/chat/browser/feedbackSurvey/chatHarnessSwitchFeedbackSurveyService/chat.harnessSwitchFeedbackSurvey.reason.preferLocal	我更喜欢 Local 体验
+vs/workbench/contrib/chat/browser/feedbackSurvey/chatHarnessSwitchFeedbackSurveyService/chat.harnessSwitchFeedbackSurvey.reason.reliability	Copilot 未按预期工作
+vs/workbench/contrib/chat/browser/onboarding/modelPickerTryout.contribution/chat.tryout.modelPicker.description	打开一份安全、未发送的 Agents 草稿，比较可用的模型、提供方和计费信息。
+vs/workbench/contrib/chat/browser/onboarding/modelPickerTryout.contribution/chat.tryout.modelPicker.guidanceUnavailable	Agents 草稿已打开，但无法高亮其模型选择器。配置提供方后请在 Chat 或 Agents 中使用“模型”。
+vs/workbench/contrib/chat/browser/onboarding/modelPickerTryout.contribution/chat.tryout.modelPicker.setup	配置 Chat
+vs/workbench/contrib/chat/browser/onboarding/modelPickerTryout.contribution/chat.tryout.modelPicker.step.description	模型可来自不同提供方，能力、速度和计费/高级请求用量各异。选择前请查看你的提供方和套餐的详情。
+vs/workbench/contrib/chat/browser/onboarding/modelPickerTryout.contribution/chat.tryout.modelPicker.step.title	选择模型和提供方
+vs/workbench/contrib/chat/browser/onboarding/modelPickerTryout.contribution/chat.tryout.modelPicker.title	试用模型和提供方选择
+vs/workbench/contrib/chat/browser/onboarding/modelPickerTryout.contribution/chat.tryout.modelPicker.unavailable	Agents 草稿已打开，但其模型选择器不可用。请配置 Chat 或模型提供方，然后在 Chat 或 Agents 中使用“模型”比较选项和计费。
+vs/workbench/contrib/chat/browser/pluginInstallService/invalidPluginSubdirectory	插件的仓库目录无效。
+vs/workbench/contrib/chat/browser/pluginInstallService/pluginManifestNotFound	“{0}”中未找到受支持的插件清单或市场条目。
+vs/workbench/contrib/chat/browser/pluginInstallService/pluginSourceInstallIncomplete	插件未能安装。请审阅安装错误后重试。
+vs/workbench/contrib/chat/browser/pluginInstallService/pluginSubdirectoryRequiresRepository	安装插件子目录需要 Git 仓库来源。
+vs/workbench/contrib/chat/browser/pluginInstallService/unsafePluginSubdirectory	插件目录必须是其仓库内的目录，且不含符号链接。
+vs/workbench/contrib/chat/browser/pluginInstallService/updatedPluginSourceNotFound	更新后找不到“{0}”的插件源目录。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxAgentHostService/cloudSandbox.connectionTimedOut	连接沙箱在 {0} 秒后超时。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxAgentHostService/cloudSandbox.retryExceedsDeadline	沙箱请求的重试超过了连接截止时间。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxApiService/cloudSandbox.reasoningEffort	推理力度
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxLegacySessionPreparation/sandbox.invalidCloneResult	云沙箱返回了无效的仓库克隆响应。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxLegacySessionPreparation/sandbox.invalidProjectDirectory	云沙箱未返回可用的仓库目录。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxLegacySessionPreparation/sandbox.invalidRepository	云沙箱需要不含凭据、查询参数或片段的 GitHub 仓库 URL。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxLegacySessionPreparation/sandbox.projectChanged	云沙箱返回了不同的仓库。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxLegacySessionPreparation/sandbox.projectFailed	仓库克隆失败。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxLegacySessionPreparation/sandbox.projectFailedWithReason	仓库克隆失败：{0}
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxLegacySessionPreparation/sandbox.projectManagementUnavailable	云沙箱不再广播仓库准备能力。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxLegacySessionPreparation/sandbox.projectRemoved	仓库在准备期间已从云沙箱中移除。
+vs/workbench/contrib/chat/browser/remoteAgentHost/cloudSandboxLegacySessionPreparation/sandbox.projectStateUnavailable	云沙箱的项目状态不可用。

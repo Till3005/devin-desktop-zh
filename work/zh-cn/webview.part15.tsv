@@ -1,0 +1,282 @@
+automations.updateNetworkConfigTitle	更新网络配置
+automations.updateSecurityProfile	更新安全档案
+automations.updated	已更新
+automations.updatedBy	更新者
+automations.updatingAutomation	正在更新自动化…
+automations.upgrade	升级
+automations.upgradeResponderAction	升级
+automations.upgradeResponderBody	将此响应器的问题迁移到 Board。
+automations.upgradeResponderDialogDescription	为新 Board 选择问题类型。所有现有问题及其发生记录都会迁移过去。此操作不可撤销。
+automations.upgradeResponderTitle	[internal] 升级响应器
+automations.upgradingResponder	正在升级响应器…
+automations.usageLimitReached	已达用量上限
+automations.useBuiltInLinearInstead	改用内置 Linear 集成
+automations.useBuiltInSlackInstead	改用内置 Slack 集成
+automations.usergroupId	用户组 ID
+automations.usergroupIdHint	输入用户组 ID，即以 S 开头的 Slack ID
+automations.usergroupIdInvalid	请输入以 S 开头、后接大写字母或数字的用户组 ID。
+automations.usergroupIdPlaceholder	如 S0123456789
+automations.usergroupMentioned	用户组被提及
+automations.usergroupsLoading	正在加载用户组…
+automations.viewAutomation	查看自动化
+automations.viewErrors	查看错误
+automations.viewScanSession	查看 {{repo}} 的扫描会话
+automations.viewSession	查看会话
+automations.viewSessions	查看会话
+automations.watchChannel	监听频道
+automations.webhookCredentialsPending	新触发器的 webhook 凭据尚未准备好
+automations.webhookDeliveryIdHelp	把 <code>{{deliveryIdPlaceholder}}</code> 换成每条告警唯一的值（告警系统的事件或投递 ID，以 <code>X-Devin-Delivery-Id</code>、<code>Idempotency-Key</code> 或 <code>webhook-id</code> 发送）：相同值的重试投递不会重复计数。
+automations.webhookSecretNote	请立即复制此密钥——自动化创建后将不再显示。
+automations.webhookSecretNoteSaved	请立即复制此密钥——自动化保存后将不再显示。
+automations.webhookSecretNoteShort	请立即复制此密钥——它将不再显示。
+automations.webhookSecretRegenerated	Webhook 密钥已重新生成
+automations.webhookTestCommandHelp	把 <code>{{secretPlaceholder}}</code> 换成你的密钥。通过 <code>X-Webhook-Secret</code> 头、<code>Authorization: Bearer</code> 头或 <code>secret</code> 查询参数传递。
+automations.webhookTriggerDisabledTooltip	你的企业已禁用 webhook 触发器。
+automations.webhookUrl	Webhook URL
+automations.wednesday	星期三
+automations.whenLabel	当：
+automations.wholeAcuLimit	每会话 ACU 上限必须为整数
+automations.withResponse	带回复
+automations.withSessionLink	带会话链接
+automations.you	你
+autoreviewTriggers.addCondition	添加条件
+autoreviewTriggers.addUser	添加用户
+autoreviewTriggers.and	和
+autoreviewTriggers.atLeast	至少
+autoreviewTriggers.atMost	至多
+autoreviewTriggers.authorTypes.bot	机器人
+autoreviewTriggers.authorTypes.devin	Devin
+autoreviewTriggers.authorTypes.user	用户
+autoreviewTriggers.cadence.everyPushDescription	每次后续推送时重新分析该 PR
+autoreviewTriggers.cadence.everyPushPermissionRequired	你没有每次推送都分析的权限。请联系你的企业管理员申请开通。
+autoreviewTriggers.cadence.onceDescription	PR 满足触发条件后分析一次
+autoreviewTriggers.cadence.wheneverReviewRunsDescription	每次对匹配 PR 的分析都会运行，无论由何种方式发起
+autoreviewTriggers.devinUserPlaceholder	选择一个 Devin 用户
+autoreviewTriggers.discard	放弃更改
+autoreviewTriggers.doesNotMatch	不匹配
+autoreviewTriggers.editUser	更换用户
+autoreviewTriggers.effort.default	组织默认
+autoreviewTriggers.effort.defaultDescription	使用 Review 设置中的默认分析强度。
+autoreviewTriggers.effort.defaultWithLevel	组织默认（{{level}}）
+autoreviewTriggers.effort.normal	Normal 强度
+autoreviewTriggers.effort.normalDescription	兼顾成本与效果的深入分析。
+autoreviewTriggers.effort.shortDefault	默认
+autoreviewTriggers.effort.shortDefaultWithLevel	默认（{{level}}）
+autoreviewTriggers.effort.ultra	Ultra 强度
+autoreviewTriggers.effort.ultraDescription	更彻底的分析，成本更高。
+autoreviewTriggers.effort.with	使用
+autoreviewTriggers.fields.author	作者
+autoreviewTriggers.fields.author_type	作者类型
+autoreviewTriggers.fields.changed_file	变更文件
+autoreviewTriggers.fields.label	标签
+autoreviewTriggers.fields.line_diff	变更行数
+autoreviewTriggers.fields.not_originated_by	非 Devin 发起
+autoreviewTriggers.fields.originated_by	Devin 发起
+autoreviewTriggers.fields.repository	仓库
+autoreviewTriggers.fields.reviewer	审查人
+autoreviewTriggers.fields.source_branch	源分支
+autoreviewTriggers.fields.target_branch	目标分支
+autoreviewTriggers.fields.title	标题
+autoreviewTriggers.globHelp.path	* 匹配路径段内的任意字符。? 匹配一个字符。不区分大小写。
+autoreviewTriggers.globHelp.text	* 匹配任意字符。? 匹配一个字符。不区分大小写。
+autoreviewTriggers.help	自动分析所选仓库中的新 PR。
+autoreviewTriggers.helpAllRepositories	自动分析所有仓库中匹配的 PR。
+autoreviewTriggers.lessThan	小于
+autoreviewTriggers.literalWildcardWarning	「{{is}}」做精确文本比较，* 在这里不是通配符。要匹配模式，请选择「{{matches}}」。
+autoreviewTriggers.loadError	无法加载触发器。
+autoreviewTriggers.loading	正在加载触发器…
+autoreviewTriggers.matches	匹配
+autoreviewTriggers.moreThan	大于
+autoreviewTriggers.noSuggestions	未找到建议
+autoreviewTriggers.removeCondition	移除条件
+autoreviewTriggers.removeExclusion	移除排除项 {{number}}
+autoreviewTriggers.removeTrigger	移除触发器 {{number}}
+autoreviewTriggers.removeUser	移除用户
+autoreviewTriggers.retry	重试
+autoreviewTriggers.save	保存
+autoreviewTriggers.saveError	无法保存触发器。
+autoreviewTriggers.saved	触发器已保存。
+autoreviewTriggers.selectCadence	选择分析频率
+autoreviewTriggers.selectEffort	选择分析强度
+autoreviewTriggers.selectField	选择字段
+autoreviewTriggers.selectOperator	选择运算符
+autoreviewTriggers.selectStart	选择分析何时开始
+autoreviewTriggers.selectUser	选择用户
+autoreviewTriggers.selectUserScope	选择用户范围
+autoreviewTriggers.start.checkName	CI 检查名
+autoreviewTriggers.start.checkPassed	CI 检查
+autoreviewTriggers.start.checkPassedDescription	就绪 PR 当前提交上的另一项 CI 检查已成功完成。
+autoreviewTriggers.start.namedCheckPassed	在 {{name}} 通过后
+autoreviewTriggers.start.prOpenDescription	PR 被打开，无论草稿还是待审查状态。
+autoreviewTriggers.start.prReadyDescription	PR 以待审查状态打开或被标记为待审查。
+autoreviewTriggers.title	自动分析
+autoreviewTriggers.unresolvedDevinUser	此 Devin 用户已不在此账户中。
+autoreviewTriggers.userAlreadyAdded	此用户已添加。
+autoreviewTriggers.userLocationQuestion	此用户在哪里？
+autoreviewTriggers.userPickerTitle	选择一个用户
+autoreviewTriggers.userScopeDevin	Devin
+autoreviewTriggers.userValueQuestion	哪个 {{location}} 用户？
+avatarStack.overflow_one	另有 {{count}} 人
+avatarStack.overflow_other	另有 {{count}} 人
+badges.beta	Beta
+badges.internal	内部
+badges.legacy	旧版
+badges.new	新
+badges.updated	已更新
+billing.accountLimitReachedToast	你的组织已没有剩余用量。请联系账户管理员以继续使用 Devin。
+billing.acuAmount_one	{{formattedCount}} ACU
+billing.acuAmount_other	{{formattedCount}} ACU
+billing.acuLimitAskAdmin	请联系账户管理员提高上限
+billing.askAdminIncreaseAutoReload	请让管理员提高自动充值上限
+billing.askAdminUpdatePayment	请让管理员更新组织的支付方式
+billing.autoJoin.description	<org>{{orgName}}</org> 的成员将无需等待你批准即可加入。
+billing.autoJoin.enable	启用
+billing.autoJoin.notNow	暂不
+billing.autoJoin.title	允许队友自动加入账户
+billing.autoReload.configurePaymentMethod	配置支付方式
+billing.autoReload.descriptionAcus	用量达到阈值时自动补充 ACU
+billing.autoReload.descriptionCredits	用量达到阈值时自动补充额度
+billing.autoReload.descriptionQuota	余额不足时自动补充按需用量
+billing.autoReload.disabled	自动充值已禁用
+billing.autoReload.dollarsToAcus_one	{{dollars}} = {{count}} ACU
+billing.autoReload.dollarsToAcus_other	{{dollars}} = {{count}} ACU
+billing.autoReload.enable	启用自动充值
+billing.autoReload.enableDescription	余额不足时自动补充额度
+billing.autoReload.monthlyCap	每月上限
+billing.autoReload.monthlyCapMax	每月总额不能超过 {{amount}}
+billing.autoReload.monthlyCapMin	每月支出总额上限至少要等于自动充值余额
+billing.autoReload.paymentFailedBody	你最近一次自动充值扣款失败。请更新支付方式或<invoicesLink>直接支付账单</invoicesLink>。
+billing.autoReload.paymentFailedTitle	自动充值扣款失败
+billing.autoReload.paymentMethodRequiredBody	启用自动充值前需要先配置默认支付方式
+billing.autoReload.paymentMethodRequiredTitle	需要支付方式
+billing.autoReload.reloadTo	充值至
+billing.autoReload.save	保存
+billing.autoReload.settingsSaved	自动充值设置已保存
+billing.autoReload.spendThisCycle	本周期自动充值支出：{{amount}}
+billing.autoReload.targetMax	充值金额不能超过 {{amount}}
+billing.autoReload.targetMin	至少为 {{amount}}（比阈值多 {{difference}}）
+billing.autoReload.thresholdMax	阈值不能超过 {{amount}}
+billing.autoReload.thresholdMin	阈值至少为 {{amount}}
+billing.autoReload.whenBelow	低于
+billing.autoReloadLimitMemberDescription	你的组织已达到每月自动充值上限。下一计费周期前不会再处理自动充值。请联系组织管理员提高每月自动充值上限。
+billing.autoReloadLimitOwnerDescription	你已达到每月自动充值上限。下一计费周期前不会再处理自动充值。要继续使用 Devin，可在账单设置中提高每月自动充值上限。<learnMore>了解更多</learnMore>
+billing.autoReloadLimitReachedTitle	已达自动充值上限
+billing.automationsTable.acusCurrentCycle	本周期 ACU（{{label}}）
+billing.automationsTable.acusCurrentTitle	本周期消耗的 ACU
+billing.automationsTable.acusPreviousCycle	上周期 ACU（{{label}}）
+billing.automationsTable.acusPreviousTitle	上周期消耗的 ACU
+billing.automationsTable.config	配置
+billing.automationsTable.deleted	已删除
+billing.automationsTable.disabled	已禁用
+billing.automationsTable.enabled	已启用
+billing.automationsTable.lastRun	最近一次运行
+billing.automationsTable.loadFailed	加载自动化数据失败。请重试。
+billing.automationsTable.noData	无可用数据
+billing.automationsTable.organization	组织
+billing.automationsTable.percentChange	变化 %
+billing.automationsTable.percentChangeTitle	与整个上周期消耗的 ACU 相比的变化
+billing.automationsTable.percentOfTotal	占总数 %
+billing.automationsTable.percentOfTotalTitle	此行 ACU 除以本计费周期此视图范围内的 ACU 总数
+billing.automationsTable.sessionsLastCycle	上周期会话数
+billing.automationsTable.sessionsThisCycle	本周期会话数
+billing.automationsTable.status	状态
+billing.billingActions.cancelled	已取消
+billing.billingActions.currentPlan	当前方案
+billing.billingActions.discountUntil	{{price}} 至 {{date}}，之后 {{listPrice}}
+billing.billingActions.endsOn	结束于 {{date}}
+billing.billingActions.fullSeats_one	{{count}} 个正式席位
+billing.billingActions.fullSeats_other	{{count}} 个正式席位
+billing.billingActions.manageBilling	管理账单
+billing.billingActions.pendingChangesEndOfCycle	待定变更将于当前计费周期结束时生效
+billing.billingActions.pendingChangesOn	待定变更将于 {{date}} 生效
+billing.billingActions.planChangesOn	方案将于 {{date}} 变更
+billing.billingActions.planWillSwitch	你的方案将从 {{from}} → {{to}}
+billing.billingActions.renewsForOn	将于 {{date}} 以 {{amount}} 续订
+billing.billingActions.renewsOn	将于 {{date}} 续订
+billing.billingActions.trialDays_one	试用 {{count}} 天，之后 $20/月
+billing.billingActions.trialDays_other	试用 {{count}} 天，之后 $20/月
+billing.billingActions.trialEnded	试用已结束，之后 $20/月
+billing.billingActions.trialLessThanDay	试用不足一天，之后 $20/月
+billing.billingActions.unpaidInvoices	未付账单
+billing.billingActions.unpaidInvoicesBody	你的账户有未付账单。请更新支付方式以避免服务中断。
+billing.breakdownByAutomation.columnAutomation	自动化
+billing.breakdownByAutomation.columnLastRun	最近一次运行
+billing.breakdownByAutomation.disabled	已禁用
+billing.breakdownByAutomation.enabled	已启用
+billing.breakdownByAutomation.failedToLoad	加载自动化用量数据失败。
+billing.breakdownByAutomation.hiddenAutomations_one	{{count}} 个自动化因你无权查看而被隐藏。
+billing.breakdownByAutomation.hiddenAutomations_other	{{count}} 个自动化因你无权查看而被隐藏。
+billing.breakdownByAutomation.oncallPreviousCycle	上周期值班成本
+billing.breakdownByAutomation.oncallThisCycle	本周期值班成本
+billing.breakdownByAutomation.previousCycle	上周期自动化成本
+billing.breakdownByAutomation.thisCycle	本周期自动化成本
+billing.breakdownByUser.previousCycleTitle	上周期用户成本
+billing.breakdownByUser.thisCycleTitle	本周期用户成本
+billing.breakdownByUser.unknownUser	未知
+billing.breakdownByUserModel.previousCycleTitle	上周期按用户的按需成本
+billing.breakdownByUserModel.thisCycleTitle	本周期按用户的按需成本
+billing.cancelPlanSwitch	取消方案切换
+billing.chatgptConnectCta.action	连接 ChatGPT
+billing.chatgptConnectCta.botBudgetDescription	连接你的 ChatGPT 账户，此 {{botName}} 以你身份启动的受支持会话将消耗你的 ChatGPT 方案而非此预算。
+billing.chatgptConnectCta.botBudgetTitle	用 ChatGPT 让此 {{botName}} 保持运行
+billing.chatgptConnectCta.botsDescription	连接你的 ChatGPT 账户，你的 {{botNamePlural}} 以你身份启动的受支持会话将消耗你的 ChatGPT 方案。
+billing.chatgptConnectCta.botsTitle	用你的 ChatGPT 方案运行 {{botNamePlural}}
+billing.chatgptConnectCta.outOfUsageDescription	连接你的 ChatGPT 账户，在用量重置前继续用 ChatGPT 方案运行受支持的会话。
+billing.chatgptConnectCta.outOfUsageTitle	用量用尽？用你的 ChatGPT 方案继续
+billing.chatgptConnectCta.usageDescription	连接你的 ChatGPT 账户，受支持的会话将消耗你的 ChatGPT 方案而非 Devin 用量。
+billing.chatgptConnectCta.usageTitle	在 Devin 中使用你的 ChatGPT 方案
+billing.chatgptCta.connect	连接 ChatGPT
+billing.chatgptCta.description	关联个人 ChatGPT Go、Plus 或 Pro 方案，Devin 将消耗你的 ChatGPT 用量而非 Devin 额度。
+billing.chatgptCta.enable	使用 ChatGPT 方案
+billing.chatgptCta.enableDescription	你的 ChatGPT 账户已关联。使用其方案后，Devin 将消耗你的 ChatGPT 用量而非 Devin 额度。
+billing.chatgptCta.reconnect	重新连接 ChatGPT
+billing.chatgptCta.reconnectDescription	你的 ChatGPT 连接已过期。重新连接后，Devin 将消耗你的 ChatGPT 用量而非 Devin 额度。
+billing.chatgptCta.title	用你的 ChatGPT 方案继续
+billing.chatgptManageUsage	管理用量
+billing.chatgptPlanCta.connect	连接 ChatGPT
+billing.chatgptPlanCta.plansDescription	已经付费使用 ChatGPT？用你个人的 Go、Plus 或 Pro 方案运行受支持的模型，不消耗 Devin 用量。
+billing.chatgptPlanCta.purchaseUsageDescription	购买更多用量之前，先用你个人的 ChatGPT Go、Plus 或 Pro 方案运行受支持的模型。
+billing.chatgptPlanCta.requestUsageDescription	等待期间，可用你个人的 ChatGPT Go、Plus 或 Pro 方案运行受支持的模型。
+billing.chatgptPlanCta.title	在 Devin 中使用你的 ChatGPT 方案
+billing.chatgptUsageCardTitle	查看和管理你的 ChatGPT 用量
+billing.clear	清除
+billing.codeScansTable.acusCurrentCycle	本周期 ACU（{{label}}）
+billing.codeScansTable.acusCurrentTitle	本周期消耗的 ACU
+billing.codeScansTable.acusPreviousCycle	上周期 ACU（{{label}}）
+billing.codeScansTable.acusPreviousTitle	上周期消耗的 ACU
+billing.codeScansTable.lastScan	最近一次扫描
+billing.codeScansTable.lastScanTitle	最近创建的扫描
+billing.codeScansTable.loadFailed	加载代码扫描数据失败。请重试。
+billing.codeScansTable.noData	无可用数据
+billing.codeScansTable.organization	组织
+billing.codeScansTable.percentChange	变化 %
+billing.codeScansTable.percentChangeTitle	与整个上周期消耗的 ACU 相比的变化
+billing.codeScansTable.percentOfTotal	占总数 %
+billing.codeScansTable.percentOfTotalTitle	此行 ACU 除以本计费周期此视图范围内的 ACU 总数
+billing.codeScansTable.repository	仓库
+billing.codeScansTable.scanCountTitle	扫描次数
+billing.codeScansTable.scans	扫描
+billing.codeScansTable.sessionsLastCycle	上周期会话数
+billing.codeScansTable.sessionsThisCycle	本周期会话数
+billing.columnCost	成本
+billing.columnEmail	邮箱
+billing.columnName	名称
+billing.columnSessions	会话
+billing.columnStatus	状态
+billing.configureAutoReload	配置自动充值设置
+billing.consumptionChart.noAmcData	无 AMC 数据
+billing.consumptionChart.projected	预计
+billing.consumptionChart.total	合计
+billing.contactAccountAdmin	联系你的账户管理员
+billing.contactAccountTeam	联系你的账户团队
+billing.contactEnterpriseAdmin	联系你的企业管理员
+billing.contractExpiredBanner	你的合同已于 {{endDate}} 到期。请联系账户团队续订以恢复访问。
+billing.contractExpiredDescription	你组织的 Devin 合同已结束，新工作已被阻止。请联系账户团队续订以恢复访问。
+billing.contractExpiredTitle	你的企业合同已结束
+billing.contractExpiryBanner	你的合同将于 {{endDate}} 到期。为避免访问中断，请联系账户团队续订。
+billing.contractGracePeriodBanner	你组织的计费周期已结束。Devin 访问将于 {{accessEndsAt}} 完全关闭。请联系账户团队续订。
+billing.costBreakdown.ciChecks	CI 检查
+billing.costBreakdown.ciChecksInfo	Devin 在会话打开第一个拉取请求后检查 CI 状态和读取 CI 日志所产生的费用，包括这些检查运行时的云计算开销。\n如果这部分占比偏高，请加快慢的 CI、修好不稳定检查，减少 Devin 的等待时间。
+billing.costBreakdown.ciChecksInfoLabel	关于 CI 检查成本
+billing.costBreakdown.ciChecksInfoLink	管理 CI 跟进
+billing.costBreakdown.connectedMcps	已连接的 MCP

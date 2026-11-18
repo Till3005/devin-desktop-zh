@@ -1,0 +1,140 @@
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationConfirmDetail	符合条件的条目在写入并验证到 .mcp.json 后会从 .vscode/mcp.json 移除。无法迁移的条目保留原样。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationConfirmMessageMultiple	迁移 {0} 个 MCP 服务器到 .mcp.json？
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationConfirmMessageSingle	迁移 1 个 MCP 服务器到 .mcp.json？
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationFailedMultiple	迁移 {0} 个 MCP 服务器失败：{1}。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationFailedSingle	迁移 MCP 服务器失败：{0}。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationFailedWithRemainder	迁移 {0} 个 MCP 服务器失败：{1}，另有 {2} 个。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationInvalidTarget	无法迁移“{0}”，因为目标 MCP 配置无效。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationMixedConfirmDetail	将用户服务器移到 Copilot home，将工作区服务器移到 .mcp.json。原条目将被移除。\n\n已禁用的用户服务器可能变为启用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationNoLongerEligible	无法迁移“{0}”，因为它已不再符合条件。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationNoneMigrated	没有 MCP 服务器被迁移。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationRemoveDev	移除“dev”。开发模式将停止。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationRemoveDisabledGallery	移除“gallery”。注册表更新本已关闭。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationRemoveGallery	移除“gallery”。注册表更新将停止。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationRemoveSandbox	移除“sandboxEnabled”。沙箱由 {0} 处理。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationRemoveVersion	移除“version”。版本锁定保留。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationRollbackFailed	无法安全完成或回滚“{0}”的迁移。请检查源和目标 MCP 配置文件。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationRollbackFailedMultiple	部分 MCP 服务器迁移无法安全完成或回滚。请检查受影响的源和目标 MCP 配置文件。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationShadowedServerNotMigrated	无法迁移“{0}”，因为另一个工作区文件夹定义了同名 MCP 服务器。请将两个服务器一起迁移以保持相同配置生效。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationShortcutAriaLabelSingle	MCP 服务器，1 个服务器可迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationShortcutAriaLabelWithCount	MCP 服务器，{0} 个服务器可迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationShortcutLabel	迁移 MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationShortcutTooltip	将符合条件的 MCP 服务器移到工作区根目录或 Copilot home 配置文件
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationSourceChanged	无法迁移“{0}”，因为其源配置已更改。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationTargetConflict	无法迁移“{0}”，因为目标位置已有同名但不同的服务器。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationUserConfirmDetail	移到 Copilot home 以跨个人资料和工作区使用。原条目将被移除。\n\n已禁用的服务器可能变为启用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationUserConfirmDetailSingle	移到 Copilot home 以跨个人资料和工作区使用。原条目将被移除。\n\n已禁用的服务器可能变为启用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationUserConfirmMessage	迁移 {0} 个 MCP 服务器？
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationCategories/mcpMigrationUserConfirmMessageSingle	迁移 1 个 MCP 服务器？
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/activityMigrations	已迁移 {0} 项
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/changeMigrationDestinations	更改 {0} 的目标位置
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/convertedToSkill	已转换为 skill
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/copiedFile	已复制文件
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/dismissMigrationActivity	关闭来自 {1} 的 {0} 活动
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/dismissMigrationResult	关闭迁移结果
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/highRiskMigrationDescription	高风险。{0}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/ignoreMigrationCategory	忽略 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/ignoreMigrationGroup	忽略
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/manualReviewItemHover	{0}\n\n{1}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrate	迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrateMigrationCategory	迁移 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrateSelectedCount	迁移 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrateWithAgent	随 Agent 迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrateWithAgentAriaLabel	启动 agent 引导的自定义项迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationActivity	迁移活动
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationActivityTitle	{0} · {1}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationComplete	迁移完成
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationDestinationPath	目标：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationFrom	来源
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationGroupAriaLabel	{0}，{1} 项迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationGroupWithScope	{0}（{1}）
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationItemActions	{0} 的更多操作
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationItemAriaLabel	{0}，{1}，来源 {2}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationItemWithChangesAriaLabel	{0}，{1}，来源 {2}。迁移更改：{3}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationItemWithStatusAriaLabel	{0}，需要人工审阅，{1}，{2}，来源 {3}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationManualReviewGroup	需要人工审阅
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationManualReviewGroupDescription	这些自定义项无法自动迁移。打开其详情或用条目菜单处理。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationsComplete	已迁移 {0} 项自定义
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationsCompletedDescription	你的自定义项已使用受支持的格式和位置。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationsDescription	你的部分 agent 自定义项需要更新才能继续工作。请审阅并将它们迁移到新格式和位置。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationsDescriptionWithAgent	你的部分 agent 自定义项需要更新才能继续工作。用“迁移”让 VS Code 更新所选自定义项，或用“随 Agent 迁移”在聊天中引导迁移。agent 迁移消耗用量额度。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationsTitle	迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationTo	目标
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationTreeAriaLabel	自定义项迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationUserScope	用户
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/migrationWorkspaceScope	工作区
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/moreActions	更多操作
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/movedFile	已移动文件
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/movedServer	已移动服务器
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/noActiveMigrations	没有进行中的迁移。恢复已忽略的迁移以审阅。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/noMigrations	不需要迁移。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/oneActivityMigration	已迁移 1 项
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/oneMigrationComplete	已迁移 1 项自定义
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/retry	重试
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/retryMigrations	重试加载迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/reviewMigrationItem	审阅
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/reviewMigrationItemAriaLabel	审阅 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/selectMigrationItem	选中 {0} 以迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/showIgnoredMigrations	显示已忽略迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/showIgnoredMigrationsAriaLabel	显示并恢复已忽略的迁移
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/viewChanges	查看更改
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationDashboard/viewMigrationChanges	查看迁移更改
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationServiceImpl/customizationMigrationHintCounts	{0} 项工作区自定义和 {1} 项用户自定义需要更新才能继续工作。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationServiceImpl/customizationMigrationHintUserCountPlural	{0} 项用户自定义需要更新才能继续工作。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationServiceImpl/customizationMigrationHintUserCountSingular	{0} 项用户自定义需要更新才能继续工作。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationServiceImpl/customizationMigrationHintWorkspaceCountPlural	{0} 项工作区自定义需要更新才能继续工作。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMigrationServiceImpl/customizationMigrationHintWorkspaceCountSingular	{0} 项工作区自定义需要更新才能继续工作。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationTree/collapsed	已折叠
+vs/workbench/contrib/chat/browser/aiCustomization/customizationTree/customizationTreeGroupAriaLabel	{0}，{1} 项，{2}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationTree/expanded	已展开
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedAgentPluginDetail/pluginDetailAutomations	自动化
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedAgentPluginDetail/pluginMarketplaceContributionsFailed	无法加载贡献详情。{0}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedAgentPluginDetail/pluginMarketplaceContributionsLoading	正在加载贡献详情…
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorAuthorFact	作者
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorAuthorWebsiteFact	作者网站
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorContainsTitle	包含
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorDetailActionAriaLabel	{0} {1}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorDetailActionComplete	{0}：{1}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorDetailActionFailed	无法更新 {0}：{1}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorDetailEmpty	未选择连接器。
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorDetailRefreshFailed	无法刷新连接器详情：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorDetailsTitle	详情
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorExportSupportedFact	支持导出
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorHomepageFact	主页
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorIdentifierFact	标识符
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorKeywordsFact	关键词
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorLicenseFact	许可证
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorMcpServersFact	MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorMcpServerWithUrl	{0} · {1}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorNo	否
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorOtherInformationTitle	其他信息
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorRepositoryFact	仓库
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorStatusFact	状态
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorTierFact	层级
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorVersionFact	版本
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedConnectorDetail/connectorYes	是
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.actionAria	{0} {1}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.checkingConnection	正在检查…
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.connect	连接
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.connectedStatus	已连接 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.connectError	无法连接 {0}。{1}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.connecting	正在连接…
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.details	详情
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.disconnect	断开连接
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.disconnectedStatus	已断开 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.disconnectError	无法断开 {0}。{1}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.disconnecting	正在断开…
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.errorSummary	此自定义项存在错误
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.install	安装
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.installed	已安装
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.installedStatus	已安装 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.installError	无法安装 {0}。{1}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.installing	正在安装…
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.location	位置
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.locationAccessible	位置：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.mcp	MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.missingSummary	此自定义项需要修复
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.noDescription	未提供描述。
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.plugin	插件
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.pluginReadme	插件 README
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.pluginReadmeAccessible	插件 README：\n{0}

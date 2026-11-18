@@ -1,0 +1,270 @@
+securityRedTeaming.previouslyRejected	之前被拒
+securityRedTeaming.refreshFailed	刷新不了扫描活动。显示最近一次可用更新。
+securityRedTeaming.repoLabel	仓库（可选）
+securityRedTeaming.repoSelectPlaceholder	选择仓库
+securityRedTeaming.report.affected	受影响
+securityRedTeaming.report.appendix	附录
+securityRedTeaming.report.colId	ID
+securityRedTeaming.report.colSeverity	严重度
+securityRedTeaming.report.colStatus	状态
+securityRedTeaming.report.colTitle	发现项
+securityRedTeaming.report.completed	完成时间
+securityRedTeaming.report.confidential	机密
+securityRedTeaming.report.descriptionEvidence	描述与证据
+securityRedTeaming.report.engagementDetails	B. 合同详情
+securityRedTeaming.report.executiveSummary	执行摘要
+securityRedTeaming.report.executiveSummaryBody_one	Devin 对 {{domain}} 做了授权渗透测试。合同范围内识别 {{count}} 个发现项：{{critical}} 严重、{{high}} 高、{{medium}} 中、{{low}} 低。下面的发现项含 Devin 收集的证据和建议修复。
+securityRedTeaming.report.executiveSummaryBody_other	Devin 对 {{domain}} 做了授权渗透测试。合同范围内识别 {{count}} 个发现项：{{critical}} 严重、{{high}} 高、{{medium}} 中、{{low}} 低。下面每个发现项含 Devin 收集的证据和建议修复。
+securityRedTeaming.report.executiveSummaryBody_zero	Devin 对 {{domain}} 做了授权渗透测试。合同范围内未识别发现项。
+securityRedTeaming.report.findingDetails	详细发现项
+securityRedTeaming.report.findings	发现项
+securityRedTeaming.report.findingsSummary	发现项摘要
+securityRedTeaming.report.generated	报告已生成
+securityRedTeaming.report.limitations	C. 限制
+securityRedTeaming.report.limitationsBody	此报告反映测试期内范围内系统。渗透测试是某时点评估，不保证没有其它漏洞。验证中被忽略的发现项不含在内。
+securityRedTeaming.report.methodology	方法论
+securityRedTeaming.report.methodologyBody	测试：Devin 以外部攻击者身份和每个所供用户角色演练应用，覆盖认证与会话处理、访问控制、注入、SSRF、业务逻辑和敏感数据暴露，对齐 OWASP Web Security Testing Guide。\n验证：每个候选问题在报告前都对活目标复现过。未确认的问题被忽略不含在内。\n报告：发现项按影响和可利用性评级。测试中见到的机密被脱敏。
+securityRedTeaming.report.methodologyReconnaissance	侦察：Devin 绘了目标的可达端点、技术和认证流程，用源仓库引导覆盖。
+securityRedTeaming.report.methodologyReconnaissanceNoRepos	侦察：Devin 通过探测活目标绘了可达端点、技术和认证流程，没有源码访问。
+securityRedTeaming.report.noFindings	所测范围内未识别发现项。
+securityRedTeaming.report.noRemediation	此发现项没记录修复。
+securityRedTeaming.report.pageOf	第 {{page}} / {{total}} 页
+securityRedTeaming.report.preparedBy	由 Cognition 的 Devin 编制
+securityRedTeaming.report.remediation	修复
+securityRedTeaming.report.scanId	扫描 ID
+securityRedTeaming.report.scope	范围与授权
+securityRedTeaming.report.scopeAuthorization	授权
+securityRedTeaming.report.scopeAuthorizationBody	目标所有者授权了此测试，Cognition 在测试开始前验证了目标域名的所有权。测试流量限于上面列的主机。
+securityRedTeaming.report.scopeDomain	目标域名
+securityRedTeaming.report.scopeHosts	额外范围内主机
+securityRedTeaming.report.scopeNoHosts	无。测试限于目标域名。
+securityRedTeaming.report.scopeNoRepos	无。测试对活目标跑，没有源码。
+securityRedTeaming.report.scopeRepos	源仓库
+securityRedTeaming.report.severityCritical	可直接利用且影响严重，如数据、账户或基建被完全控制。立即修。
+securityRedTeaming.report.severityHigh	可利用且对机密性、完整性或可用性影响重大。优先修。
+securityRedTeaming.report.severityLow	小弱点或加固机会，直接影响小。
+securityRedTeaming.report.severityMedium	特定条件下可利用或影响有限。计划发布里修。
+securityRedTeaming.report.severityRatings	A. 严重度评级
+securityRedTeaming.report.sourceCode	源码
+securityRedTeaming.report.started	开始时间
+securityRedTeaming.report.statusOpen	打开
+securityRedTeaming.report.statusResolved	已解决
+securityRedTeaming.report.target	目标
+securityRedTeaming.report.testingPeriod	测试期
+securityRedTeaming.report.title	渗透测试报告
+securityRedTeaming.reportExported	渗透报告已导出
+securityRedTeaming.reposDescription	每个所选仓库都检出给扫描，使发现项可追到服务每个主机的代码。
+securityRedTeaming.reposSelectedDescription_one	{{count}} 个仓库将被检出并映射到它服务的主机。
+securityRedTeaming.reposSelectedDescription_other	{{count}} 个仓库将被检出并映射到它们服务的主机。
+securityRedTeaming.requests.columnFlags	标记
+securityRedTeaming.requests.columnMethod	方法
+securityRedTeaming.requests.columnRequest	请求
+securityRedTeaming.requests.columnSession	会话
+securityRedTeaming.requests.columnStatus	状态
+securityRedTeaming.requests.columnTime	时间
+securityRedTeaming.requests.emptyDescription	此扫描没经代理发请求。
+securityRedTeaming.requests.emptyFlaggedDescription	没有请求越界或看着破坏性。
+securityRedTeaming.requests.emptyFlaggedTitle	没有被标记请求
+securityRedTeaming.requests.emptyRunningDescription	请求发出后几分钟内出现在这里。
+securityRedTeaming.requests.emptyTitle	还没记录请求
+securityRedTeaming.requests.filterAll	全部（{{total}}）
+securityRedTeaming.requests.filterFlagged	被标记（{{total}}）
+securityRedTeaming.requests.filterLabel	显示的请求
+securityRedTeaming.requests.flagDestructive	破坏性
+securityRedTeaming.requests.flagOutOfScope	越界
+securityRedTeaming.requests.flaggedHint	请求的主机在此扫描获准测试的范围外，或其方法或路径看着会改或删数据时被标记。
+securityRedTeaming.requests.loadFailedTitle	加载不了请求日志
+securityRedTeaming.requests.openSession	打开
+securityRedTeaming.requests.statusFailed	失败
+securityRedTeaming.requests.statusUnknown	无响应
+securityRedTeaming.requests.subtitle	此扫描的会话发给你系统的每个请求，最新在前。头、查询串和体永不记录，看着像机密的路径段被脱敏。
+securityRedTeaming.requests.title	请求日志
+securityRedTeaming.retry	重试
+securityRedTeaming.revokeAuthorization	吊销授权
+securityRedTeaming.revokeDescription	吊销会取消 {{domain}} 的红队扫描、归档其会话，并在目标重新验证前挡住新扫描。
+securityRedTeaming.revokeNoteLabel	吊销原因
+securityRedTeaming.revokeNotePlaceholder	如：授权过期、工单链接
+securityRedTeaming.revokeNoteRequired	原因为必填项
+securityRedTeaming.revokeTitle	吊销授权
+securityRedTeaming.saveScope	保存
+securityRedTeaming.scanAwaitingInputDescription	侦察已完成。打开扫描会话选 Devin 测哪些资产。
+securityRedTeaming.scanConfig	扫描配置
+securityRedTeaming.scanFailedDescription	Devin 没能完成此扫描。从管理面板此组织的红队页发新的。
+securityRedTeaming.scanQueuedDescription	它自动开始。发现项确认后显示在这里。
+securityRedTeaming.scanTestingDescription	Devin 在测目标。发现项确认后显示在这里。
+securityRedTeaming.scanTestingTitle	Devin 在测目标
+securityRedTeaming.scopeAdd	添加
+securityRedTeaming.scopeCovered_one	{{entries, list}} 已被通配条目覆盖，不单独列。
+securityRedTeaming.scopeCovered_other	{{entries, list}} 已被通配条目覆盖，不单独列。
+securityRedTeaming.scopeDescription	用 *.example.com 指 example.com 及其全部子域名，或列具体主机、IP 地址或 CIDR 段。可加多个。
+securityRedTeaming.scopeExactHint	仅此主机
+securityRedTeaming.scopeInOtherTarget	已在 {{domain}} 目标里
+securityRedTeaming.scopeInvalid_one	{{entries, list}} 不是公网主机名、IP 地址或 CIDR 段。输入如 app.example.com 或 *.example.com 的主机名（不带端口或凭据），或 /16 及以下的公网 IP 或段（IPv6 为 /48）。
+securityRedTeaming.scopeInvalid_other	{{entries, list}} 不是公网主机名、IP 地址或 CIDR 段。输入如 app.example.com 或 *.example.com 的主机名（不带端口或凭据），或 /16 及以下的公网 IP 或段（IPv6 为 /48）。
+securityRedTeaming.scopeLabel	范围
+securityRedTeaming.scopePlaceholder	*.example.com、app.example.com 或 203.0.113.0/24
+securityRedTeaming.scopeRangeHint	此段里每个地址
+securityRedTeaming.scopeRemove	移除 {{host}}
+securityRedTeaming.scopeRequired	至少加一个域名、主机或 IP 地址
+securityRedTeaming.scopeSummary_one	{{first}} 和另外 {{count}} 个范围条目
+securityRedTeaming.scopeSummary_other	{{first}} 和另外 {{count}} 个范围条目
+securityRedTeaming.scopeWildcardHint	{{domain}} 及其全部子域名
+securityRedTeaming.selectAllRepos	全选
+securityRedTeaming.selectAllReposCapped	扫描最多覆盖 {{max}} 个仓库
+securityRedTeaming.selectAllReposCappedDescription	你组织连接超过 {{max}} 个仓库，因此选了前 {{max}} 个。清掉改选服务此目标的仓库。
+securityRedTeaming.selectAllReposFailed	加载不了全部仓库
+securityRedTeaming.selectAllReposLoading	正在加载仓库…
+securityRedTeaming.selfServeAddDomainDescription	加你想测的域名。任何扫描开始前 Cognition 确认你有权测它们。
+securityRedTeaming.setContract	设置合同
+securityRedTeaming.specialInstructionsDescription	粘贴每个会话必须遵守的规则，如 bug bounty 条款，和关注点。只应用于此扫描，不能扩权范围。
+securityRedTeaming.specialInstructionsLabel	特殊指令
+securityRedTeaming.specialInstructionsPlaceholder	遵守项目 bug bounty 条款：不测 /admin，每秒最多 10 请求。关注账户接管和支付流程。
+securityRedTeaming.statusPending	待验证
+securityRedTeaming.statusRejected	已拒绝
+securityRedTeaming.statusVerified	已验证
+securityRedTeaming.stopScanDescription	Devin 立刻停测。此次运行连同已确认发现项留在目标的扫描历史。
+securityRedTeaming.talkToSales	联系销售
+securityRedTeaming.title	红队
+securityRedTeaming.trafficTagDescription	给每个 HTTP(S) 请求加头，让客户在 WAF 和 SOC 日志识别此扫描。关掉只丢头：扫描仍记录它发的每个请求。
+securityRedTeaming.trafficTagLabel	用头标记此扫描流量
+securityRedTeaming.trafficTagNameLabel	头名
+securityRedTeaming.trafficTagValueDescription	发给扫描到的每个站点，别用机密。留空用每个会话的 ID。
+securityRedTeaming.trafficTagValueLabel	头值
+securityRedTeaming.trafficTagValuePlaceholder	会话 ID
+securityRedTeaming.verify	验证
+securityRedTeaming.verifyDescription	确认此组织有权渗透此范围内一切。选授权依据并写理由。
+securityRedTeaming.verifyFailed	更新不了目标。
+securityRedTeaming.verifyTitle	验证授权
+securityRedTeaming.viewFindings	看发现项
+securityRedTeaming.viewScan	看扫描
+securityRepositories.emptyDescription	你组织连接的仓库显示在这里。开扫描查你的代码库。
+securityRepositories.emptyTitle	还没有仓库
+securityRepositories.failedToLoad	加载仓库失败
+securityRepositories.noMatches	没有仓库匹配这些筛选
+securityRepositories.noMatchesDescription	换筛选试试，或清掉看每个仓库。
+securitySidebar.addConnection	加连接
+securitySidebar.addConnectionNoPermission	你没有加连接的权限
+securitySidebar.anyTime	任何时间
+securitySidebar.codeDescription	建功能、修 bug、发代码
+securitySidebar.codeTitle	代码
+securitySidebar.complianceDescription	为评估员收集控制证据供验证
+securitySidebar.connections	连接
+securitySidebar.connectionsCardDescription	把另一个工具的发现项带进 Devin 分诊和修复
+securitySidebar.connectionsCardTitle	加连接
+securitySidebar.customize	自定义
+securitySidebar.everyone	所有人
+securitySidebar.findings	发现项
+securitySidebar.legacy	经典版
+securitySidebar.noConnections	没有连接
+securitySidebar.overview	总览
+securitySidebar.prReviews	PR 审查
+securitySidebar.pullRequests	拉取请求
+securitySidebar.redTeaming	红队
+securitySidebar.renameConnectionFailed	重命名不了连接
+securitySidebar.repositories	仓库
+securitySidebar.scanStopped	已停
+securitySidebar.securityDescription	找漏洞和风险并发修复
+securitySidebar.securityVersion	2.0
+securitySidebar.startScan	开扫描
+securitySidebar.startScanCardDescription	找漏洞并把修复备好待审
+securitySidebar.startScanCardTitle	开扫描
+securitySidebar.threats	威胁
+securityThreats.autoTriageAutomationName	威胁自动分诊
+securityThreats.autoTriageDescription	新威胁发布时自动扫你的仓库。
+securityThreats.autoTriageOff	自动分诊关
+securityThreats.autoTriageOn	自动分诊开
+securityThreats.autoTriageSave	保存
+securityThreats.autoTriageSeverity	最低严重度
+securityThreats.autoTriageSeverityAny	任意严重度
+securityThreats.autoTriageSeverityCritical	仅严重
+securityThreats.autoTriageSeverityHigh	高及以上
+securityThreats.autoTriageSeverityLow	低及以上
+securityThreats.autoTriageSeverityMedium	中及以上
+securityThreats.autoTriageTitle	自动分诊
+securityThreats.cancel	取消
+securityThreats.colAdded	添加时间
+securityThreats.colFindings	发现项
+securityThreats.colSource	来源
+securityThreats.colStatus	状态
+securityThreats.copyLink	复制链接
+securityThreats.create	创建
+securityThreats.createFailed	建不了威胁
+securityThreats.createTitle	新威胁
+securityThreats.createdAtUtc	创建于 {{date}} UTC
+securityThreats.descriptionLabel	描述
+securityThreats.descriptionPlaceholder	可能发生什么、怎么发生？
+securityThreats.detailTitle	威胁详情
+securityThreats.dismiss	忽略
+securityThreats.edit	编辑
+securityThreats.editTitle	编辑威胁
+securityThreats.emptyActiveDescription	来自 Cognition 的威胁和你建的出现在这里。
+securityThreats.emptyActiveTitle	没有活跃威胁
+securityThreats.emptyDismissedDescription	你忽略的威胁出现在这里。
+securityThreats.emptyDismissedTitle	没有已忽略威胁
+securityThreats.emptyMitigatedDescription	你解决的威胁出现在这里。
+securityThreats.emptyMitigatedTitle	没有已缓解威胁
+securityThreats.findingCount_one	{{count}} 个发现项
+securityThreats.findingCount_other	{{count}} 个发现项
+securityThreats.findingsNoneAfterScans_one	0（跑了 {{count}} 次扫描）
+securityThreats.findingsNoneAfterScans_other	0（跑了 {{count}} 次扫描）
+securityThreats.findingsNotScanned	未扫描
+securityThreats.focusCount_one	1 个威胁
+securityThreats.focusCount_other	{{count}} 个威胁
+securityThreats.focusDescription	把 Devin 的搜索限在你选的威胁
+securityThreats.focusEmpty	未找到威胁
+securityThreats.focusRequiresNormal	深扫只能聚焦 Cognition 的威胁。
+securityThreats.focusSearch	搜索威胁
+securityThreats.focusSelected_one	已选 1 个威胁
+securityThreats.focusSelected_other	已选 {{count}} 个威胁
+securityThreats.focusTitle	聚焦威胁
+securityThreats.fromCognition	Cognition
+securityThreats.linkButton	威胁
+securityThreats.linkFailed	链不了发现项
+securityThreats.linked	已链到 {{title}}
+securityThreats.loadFailed	加载不了威胁。
+securityThreats.markMitigated	标记已缓解
+securityThreats.moreActions	更多操作
+securityThreats.movedDismissed_one	已忽略 {{count}} 个威胁
+securityThreats.movedDismissed_other	已忽略 {{count}} 个威胁
+securityThreats.movedMitigated_one	已把 {{count}} 个威胁标记为已缓解
+securityThreats.movedMitigated_other	已把 {{count}} 个威胁标记为已缓解
+securityThreats.movedReopened_one	已重开 {{count}} 个威胁
+securityThreats.movedReopened_other	已重开 {{count}} 个威胁
+securityThreats.newThreat	新威胁
+securityThreats.noDescription	无描述。
+securityThreats.noMatchesDescription	去掉筛选或换搜索试试。
+securityThreats.noMatchesTitle	没有威胁匹配这些筛选
+securityThreats.noPermission	你没有改威胁的权限
+securityThreats.reopen	重开
+securityThreats.save	保存
+securityThreats.scanCount_one	{{count}} 次扫描
+securityThreats.scanCount_other	{{count}} 次扫描
+securityThreats.scanWithDevin	用 Devin 扫
+securityThreats.scansLoadFailed	加载不了扫描
+securityThreats.sourceTeam	你的团队
+securityThreats.statusDismissed	已忽略
+securityThreats.statusInvestigating	排查中
+securityThreats.statusMitigated	已缓解
+securityThreats.statusOpen	打开
+securityThreats.tabActive	活跃
+securityThreats.tabDismissed	已忽略
+securityThreats.tabMitigated	已缓解
+securityThreats.tabSummary	摘要
+securityThreats.threatActions	威胁操作
+securityThreats.title	威胁
+securityThreats.titleLabel	标题
+securityThreats.titlePlaceholder	威胁是什么？
+securityThreats.titleRequired	标题为必填项
+securityThreats.unlink	从威胁移除
+securityThreats.unlinkFailed	把发现项从威胁移除失败
+securityThreats.unlinked	已从 {{title}} 移除
+securityThreats.updateFailed	更新不了威胁
+securityThreats.viewFindings	看发现项
+securityThreats.whatThisMeans	这意味着什么
+securityWelcome.description	找你代码库里的漏洞并懂它们能导致什么。Devin Security 帮你排最关键发现项的优先级、排查风险、把修复变成待审拉取请求。
+securityWelcome.dismiss	忽略
+securityWelcome.title	介绍 Devin Security
+selectionBar.analyse	分析
+selectionBar.analyseSessions	分析 {{count}} 个会话
+selectionBar.analyseSessions_other	分析 {{count}} 个会话
+selectionBar.archive	归档

@@ -1,0 +1,110 @@
+settingsPages.blueprintFilesSection.noFilesHaveBeenAddedYet	还没加文件。
+settingsPages.blueprintFilesSection.noMatchingFiles	没有匹配的文件
+settingsPages.blueprintFilesSection.overwrite	覆盖
+settingsPages.blueprintFilesSection.overwriteFile	覆盖文件
+settingsPages.blueprintFilesSection.size	大小
+settingsPages.blueprintFilesSection.tryADifferentSearchTerm	换个搜索词试试。
+settingsPages.blueprintFilesSection.updated	更新于
+settingsPages.blueprintFilesSection.upload	上传
+settingsPages.blueprintFilesSection.uploadFile	上传文件
+settingsPages.blueprintFilesSection.uploading	上传中…
+settingsPages.blueprintGitPath.syncedFrom	同步自 {{resolvedProvider}}
+settingsPages.blueprintInlinePreview.copyBlueprint	复制 blueprint
+settingsPages.blueprintInlinePreview.expandBlueprint	展开 blueprint
+settingsPages.blueprintSchema.aSetupStepMustSpecifyEither	一个设置步骤必须指定 'run' 或 'uses' 之一，不能都有
+settingsPages.blueprintSchema.includesNoParent	'includes' 路径不能含 '..'
+settingsPages.blueprintSchema.lineLine	第 {{line}} 行：
+settingsPages.blueprintSchema.runsOnNotEmpty	'runs-on' 不能是空列表
+settingsPages.blueprintSchema.shellInvalid	'shell' 必须是 'default'、'bash' 或 'powershell'
+settingsPages.blueprintSchema.withIsOnlyValidOnSteps	'with' 只在有 'uses' 的步骤上有效
+settingsPages.blueprintTerminalDrawer.closeTerminal	关终端
+settingsPages.blueprintTerminalDrawer.stop	停止
+settingsPages.blueprintTerminalDrawer.terminal	终端
+settingsPages.blueprintVersionHistoryPanel.comparing	对比 <strong>{{previous}}</strong> → <strong>{{current}}</strong>
+settingsPages.blueprintVersionHistoryPanel.devinSession	Devin 会话
+settingsPages.blueprintVersionHistoryPanel.noVersionHistoryYetSaveThe	还没有版本历史。保存 blueprint 记第一版。
+settingsPages.blueprintVersionHistoryPanel.originalVersion	原始版本
+settingsPages.blueprintVersionHistoryPanel.selectAVersionOnTheLeft	在左边选一版看其 diff。
+settingsPages.blueprintVersionHistoryPanel.serviceAccount	服务账户
+settingsPages.blueprintVersionHistoryPanel.viewCommitOnTheGitProvider	在 git 提供商看提交
+settingsPages.blueprintVersionHistoryPanel.viewOriginatingDevinSession	看来源 Devin 会话
+settingsPages.blueprintViewModal.copyBlueprint	复制 blueprint
+settingsPages.blueprintViewModal.editBlueprint	编辑 blueprint
+settingsPages.blueprintViewModal.updated	更新于 {{updatedAt}}
+settingsPages.blueprintsPage.add	加
+settingsPages.blueprintsPage.addRepositories	加仓库
+settingsPages.blueprintsPage.addRepositoriesToConfigurePerRepo	加仓库以配置每仓库设置指示。
+settingsPages.blueprintsPage.added	加于 {{createdat}}
+settingsPages.blueprintsPage.allAddedRepositoriesAreAccessible	全部加的仓库可访问。
+settingsPages.blueprintsPage.allAddedRepositoriesPassedTheirLast	全部加的仓库过了最近构建。
+settingsPages.blueprintsPage.allRepositories	全部仓库
+settingsPages.blueprintsPage.buildBlocked	构建被挡
+settingsPages.blueprintsPage.configured	已配置
+settingsPages.blueprintsPage.connectionIssues	连接问题
+settingsPages.blueprintsPage.dragToReorder	拖以重排
+settingsPages.blueprintsPage.edit	编辑
+settingsPages.blueprintsPage.editBlueprint	编辑 blueprint
+settingsPages.blueprintsPage.failedToLoadRepositories	加载仓库失败
+settingsPages.blueprintsPage.failedToReorderRepositories	重排仓库失败
+settingsPages.blueprintsPage.filterRepositories	筛仓库
+settingsPages.blueprintsPage.included	已含
+settingsPages.blueprintsPage.lastBuildFailed	最近构建失败
+settingsPages.blueprintsPage.noRepositoriesAdded	没加仓库
+settingsPages.blueprintsPage.noRepositoriesWithAFailedLast	没有最近构建失败的仓库
+settingsPages.blueprintsPage.noRepositoriesWithConnectionIssues	没有连接问题的仓库
+settingsPages.blueprintsPage.noResults	无结果
+settingsPages.blueprintsPage.notSetAddOneToShare	未设。加一个以跨此企业每个组织共享设置。
+settingsPages.blueprintsPage.notSetAddOneToShare2	未设。加一个以跨此组织共享设置
+settingsPages.blueprintsPage.notSetYourOrgAdminCan	未设。你的组织管理员能加
+settingsPages.blueprintsPage.reorder	重排 {{displayedRepoName}}
+settingsPages.blueprintsPage.repositoryOrderUpdated	仓库顺序已更新
+settingsPages.blueprintsPage.runsAfterTheEnterpriseBlueprintOn	每次构建在企业 blueprint 后跑
+settingsPages.blueprintsPage.runsBeforeThisOrgsBlueprintManaged	在此组织 blueprint 前跑。由你企业管理员管。
+settingsPages.blueprintsPage.runsOnEveryBuild	每次构建跑
+settingsPages.blueprintsPage.searchAddedRepositories_one	搜 {{count}} 个已加仓库…
+settingsPages.blueprintsPage.searchAddedRepositories_other	搜 {{count}} 个已加仓库…
+settingsPages.blueprintsPage.setUp	设置
+settingsPages.blueprintsPage.skippedInLastBuild	最近构建跳过
+settingsPages.blueprintsPage.theBuildWasBlockedBeforeSetup	构建在设置完成前被挡，如仓库克隆或解析阶段
+settingsPages.blueprintsPage.theRepositoryClonedSuccessfullyButSetup	仓库克隆成功，但设置失败
+settingsPages.blueprintsPage.tryADifferentSearchTerm	换个搜索词试试。
+settingsPages.blueprintsPage.tryRefreshingThePage	试刷新页面。
+settingsPages.blueprintsPage.view	看
+settingsPages.blueprintsPage.yourEnterpriseAdminHasntSetOne	你企业管理员还没设。
+settingsPages.buildDeltaPanel.blueprintFileAndEnvironmentChangesCompared	与更早构建比的 blueprint、文件和环境更改。
+settingsPages.buildDeltaPanel.blueprintFilesWerentRecordedForOne	对比的构建之一没记 blueprint 文件。
+settingsPages.buildDeltaPanel.blueprintOrder	Blueprint 顺序
+settingsPages.buildDeltaPanel.builtFromTheBaseImageThere	从基础镜像构建。没有更早构建可比。
+settingsPages.buildDeltaPanel.commitLabel	提交：
+settingsPages.buildDeltaPanel.comparedWith	对比于
+settingsPages.buildDeltaPanel.configurationChanges	配置更改
+settingsPages.buildDeltaPanel.current	当前：
+settingsPages.buildDeltaPanel.devinSession	Devin 会话
+settingsPages.buildDeltaPanel.emptyBlueprint	空 blueprint
+settingsPages.buildDeltaPanel.emptyBlueprintsWerentRecordedForOne	对比的构建之一没记空 blueprint。
+settingsPages.buildDeltaPanel.enterprise	企业
+settingsPages.buildDeltaPanel.env	环境变量
+settingsPages.buildDeltaPanel.environment	环境
+settingsPages.buildDeltaPanel.environmentSuggestion	环境建议
+settingsPages.buildDeltaPanel.failedToLoadBlueprintContents	加载 blueprint 内容失败。
+settingsPages.buildDeltaPanel.failedToLoadConfigurationChanges	加载配置更改失败。
+settingsPages.buildDeltaPanel.files	文件
+settingsPages.buildDeltaPanel.gitSync	Git 同步
+settingsPages.buildDeltaPanel.hideYamlDiff	收起 YAML diff
+settingsPages.buildDeltaPanel.lastBuild	最近构建
+settingsPages.buildDeltaPanel.lastBuildStatus	最近构建（{{status}}）
+settingsPages.buildDeltaPanel.lastPartialBuild	最近部分构建
+settingsPages.buildDeltaPanel.lastSuccessfulBuild	最近成功构建
+settingsPages.buildDeltaPanel.machineConfiguration	机器配置
+settingsPages.buildDeltaPanel.manual	手动
+settingsPages.buildDeltaPanel.noConfigurationChanges	无配置更改
+settingsPages.buildDeltaPanel.noEarlierCompletedBuildIsAvailable	没有可比的更早完成构建。
+settingsPages.buildDeltaPanel.none	无
+settingsPages.buildDeltaPanel.organization	组织
+settingsPages.buildDeltaPanel.platform	平台
+settingsPages.buildDeltaPanel.previous	之前：
+settingsPages.buildDeltaPanel.rollback	回滚
+settingsPages.buildDeltaPanel.serviceAccount	服务账户
+settingsPages.buildDeltaPanel.showYamlDiff	显示 YAML diff
+settingsPages.buildDeltaPanel.someChangesCouldnTBeCompared	有些更改比不了
+settingsPages.buildDeltaPanel.source	来源：{{currentSourceLabel}}

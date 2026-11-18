@@ -1,0 +1,270 @@
+sessionTabs.childComputerNotRunning	此会话的电脑没在跑
+sessionTabs.closeAllPrTabs	关全部 PR 标签页
+sessionTabs.closeMergedPrTabs	关已合并 PR 标签页
+sessionTabs.closeTab	关标签页
+sessionTabs.cloudSetupReview	云端设置
+sessionTabs.cloudSetupReviewDescription	选什么去 Devin Cloud
+sessionTabs.codemap	代码地图
+sessionTabs.desktop	电脑
+sessionTabs.desktopDescription	看和控制 Devin 的电脑
+sessionTabs.diff	更改
+sessionTabs.diffDescription	看 Devin 的文件编辑
+sessionTabs.editor	编辑器
+sessionTabs.editorDescription	带语言智能编辑文件
+sessionTabs.eventContext	事件
+sessionTabs.failedToChangeWorkspaceRoot	改工作区文件夹失败
+sessionTabs.failedToDeleteWorkspaceItem	删文件或文件夹失败
+sessionTabs.failedToPasteWorkspaceItem	粘贴文件或文件夹失败
+sessionTabs.fewerRows	显示更少
+sessionTabs.file	文件
+sessionTabs.files	文件
+sessionTabs.filesDescription	浏览和编辑此工作区的文件
+sessionTabs.findings	发现项
+sessionTabs.findingsDescription	浏览你各扫描的全部发现项
+sessionTabs.hideAllPrs	隐藏全部
+sessionTabs.hideClosedPrs	隐藏已关闭
+sessionTabs.ide	文件
+sessionTabs.informationDescription	了解 Devin 的历史和操作
+sessionTabs.iosSimulator	iOS 模拟器
+sessionTabs.iosSimulatorDescription	流式、控制和检查 iOS 模拟器
+sessionTabs.linkCopied	链接已复制
+sessionTabs.localBrowserDescription	在你机器上一个标签页浏览任何站点
+sessionTabs.mcpApp	App
+sessionTabs.mentionedPrs	被提及的 PR
+sessionTabs.migrationPlan	方案
+sessionTabs.migrationPlanDescription	在会话里显示迁移方案
+sessionTabs.moreRows	{{count}} 更多
+sessionTabs.moreTabActions	更多标签页操作
+sessionTabs.newSidechain	新侧聊
+sessionTabs.newTab	新标签页
+sessionTabs.newTabSearch	搜 PR、产物和工具
+sessionTabs.newTabSearchUrl	搜标签页或输 URL
+sessionTabs.noAttachmentsFound	找不到附件
+sessionTabs.noPreviewsAvailable	此会话还没有预览
+sessionTabs.noResults	没有结果
+sessionTabs.plan	方案
+sessionTabs.planNumbered	方案 {{number}}
+sessionTabs.plans	方案
+sessionTabs.pr	PR
+sessionTabs.prSearchText	PR #{{number}} {{owner}}/{{repo}} {{title}}
+sessionTabs.preview	浏览器
+sessionTabs.previewDescription	看 Devin 在跑的站点
+sessionTabs.previews	预览
+sessionTabs.progress	进度
+sessionTabs.pullRequests	拉取请求
+sessionTabs.scanFindings	发现项
+sessionTabs.scanFindingsDescription	看此扫描目前的发现项
+sessionTabs.search	搜索
+sessionTabs.searchAttachments	搜索附件
+sessionTabs.segmentation	分段
+sessionTabs.segmentationDescription	此会话的阶段分解
+sessionTabs.sessionPrs	会话 PR
+sessionTabs.sessionTerminal	终端
+sessionTabs.sessionTerminalAsleep	Devin 的机器跑着时终端可用。
+sessionTabs.sessionTerminalDescription	开属于此会话的终端
+sessionTabs.shell	命令
+sessionTabs.shellDescription	看 Devin 的命令历史
+sessionTabs.showAllPrs	显示全部
+sessionTabs.showEditorHere	在此显示编辑器
+sessionTabs.showOpenPrs	显示打开的
+sessionTabs.sideChats	侧聊
+sessionTabs.sidechain	侧聊
+sessionTabs.snippetLoading	在等 Devin 分享此文件…
+sessionTabs.snippetMissingNotFound	Devin 引用时此文件不存在
+sessionTabs.snippetMissingNotText	此文件不是文本文件，Devin 抓不了
+sessionTabs.snippetMissingTooLarge	Devin 引用时此文件太大抓不了
+sessionTabs.snippetNotAvailable	片段不可用
+sessionTabs.splitDown	向下分
+sessionTabs.splitRight	向右分
+sessionTabs.todo	任务
+sessionTabs.todoDescription	看 Devin 最新任务列表
+sessionTabs.unsavedChanges	未保存的更改
+sessionTabs.uploadTooLarge	超过 {{limit}}GB 的文件被跳过
+sessionTabs.viewMoreArtifacts	看更多
+sessionTabs.watchChildComputer	看电脑
+sessionTabs.workflow	工作流
+sessionTabs.worklogDescription	了解 Devin 的历史和操作
+sessionsList.activeSessions	活跃会话
+sessionsList.addFilters	加筛选
+sessionsList.backgroundSessionToast.title	会话已建
+sessionsList.backgroundSessionToast.viewSession	看会话
+sessionsList.clearAll	全清
+sessionsList.clearFilters	清除筛选
+sessionsList.codeScan	代码扫描
+sessionsList.collapseChildren	收起子会话
+sessionsList.contains	包含
+sessionsList.containsAnyOf	包含任一
+sessionsList.datePresets.lastMonth	上月
+sessionsList.datePresets.lastTwoWeeks	近 2 周
+sessionsList.datePresets.lastWeek	上周
+sessionsList.datePresets.today	今天
+sessionsList.dateRange	日期范围
+sessionsList.deselectAllSessions	取消全选会话
+sessionsList.devinMode	Devin 模式
+sessionsList.errorLoadingMore	加载更多出错。请刷新页面。
+sessionsList.errorLoadingMoreChildren	加载更多子会话失败。请重试。
+sessionsList.errorLoadingMoreRoots	加载更多会话失败。请重试。
+sessionsList.expandChildren	展开子会话
+sessionsList.failedToLoadSessions	加载会话失败
+sessionsList.filterCounts.agents_one	{{count}} 个 agent
+sessionsList.filterCounts.agents_other	{{count}} 个 agent
+sessionsList.filterCounts.creators_one	{{count}} 个创建者
+sessionsList.filterCounts.creators_other	{{count}} 个创建者
+sessionsList.filterCounts.items_one	{{count}} 项
+sessionsList.filterCounts.items_other	{{count}} 项
+sessionsList.filterCounts.modes_one	{{count}} 个模式
+sessionsList.filterCounts.modes_other	{{count}} 个模式
+sessionsList.filterCounts.personas_one	{{count}} 个人设
+sessionsList.filterCounts.personas_other	{{count}} 个人设
+sessionsList.filterCounts.platforms_one	{{count}} 个平台
+sessionsList.filterCounts.platforms_other	{{count}} 个平台
+sessionsList.filterCounts.playbooks_one	{{count}} 个 playbook
+sessionsList.filterCounts.playbooks_other	{{count}} 个 playbook
+sessionsList.filterCounts.statuses_one	{{count}} 个状态
+sessionsList.filterCounts.statuses_other	{{count}} 个状态
+sessionsList.filterCounts.types_one	{{count}} 种类型
+sessionsList.filterCounts.types_other	{{count}} 种类型
+sessionsList.filterNames.archivedStatus	归档状态
+sessionsList.filterNames.automationName	自动化名
+sessionsList.filterNames.content	内容
+sessionsList.filterNames.createdDate	创建日期
+sessionsList.filterNames.creator	创建者
+sessionsList.filterNames.organization	组织
+sessionsList.filterNames.playbook	Playbook
+sessionsList.filterNames.skill	技能
+sessionsList.filterNames.stoppedStatus	停止状态
+sessionsList.filterNames.title	标题
+sessionsList.filterNames.type	类型
+sessionsList.filterNames.updatedDate	更新日期
+sessionsList.filterNoResults	找不到{{name}}
+sessionsList.filterOptions.advanced	高级
+sessionsList.filterOptions.dataAnalyst	数据分析
+sessionsList.filterOptions.notArchived	未归档
+sessionsList.filterOptions.notStopped	未停止
+sessionsList.filterOptions.playbookSkillSource	Playbook
+sessionsList.filterOptions.serviceUser	服务用户
+sessionsList.filterOptions.subDevin	子 Devin
+sessionsList.filterSearchFallback	搜索{{name}}…
+sessionsList.filterSessionsAria	筛选 Devin 会话
+sessionsList.inactiveSessions	不活跃会话
+sessionsList.is	是
+sessionsList.isAnyOf	是任一
+sessionsList.linkedToSlack	此会话已链 Slack
+sessionsList.loadingFilters	加载中…
+sessionsList.maxCreatorsSelected	最多选 {{count}} 个创建者
+sessionsList.maxSubscribersSelected	最多选 {{count}} 个订阅者
+sessionsList.migratedSpaceTitle	已迁移 space
+sessionsList.noSessionsFound	找不到会话
+sessionsList.otherSubcategory	其它（{{category}}）
+sessionsList.persona	人设
+sessionsList.prStates.closed	已关闭
+sessionsList.prStates.draft	草稿
+sessionsList.prStates.merged	已合并
+sessionsList.prStates.noPr	无 PR
+sessionsList.prStates.open	打开
+sessionsList.prStates.queued	排队中
+sessionsList.prStates.unknown	未知
+sessionsList.removeFilter	移除筛选
+sessionsList.saveAsDefault	存为默认
+sessionsList.searchArchivedStates	搜索归档状态…
+sessionsList.searchAutomations	搜索自动化…
+sessionsList.searchCreators	搜索创建者…
+sessionsList.searchDevinModes	搜索 Devin 模式…
+sessionsList.searchOrganizations	搜索组织…
+sessionsList.searchOrigins	搜索来源…
+sessionsList.searchPersonas	搜索人设…
+sessionsList.searchPlatforms	搜索平台…
+sessionsList.searchPlaybooks	搜索 playbook…
+sessionsList.searchPrStates	搜索 PR 状态…
+sessionsList.searchSessions	搜索会话…
+sessionsList.searchSkills	搜索技能…
+sessionsList.searchStatuses	搜索状态…
+sessionsList.searchStoppedStates	搜索停止状态…
+sessionsList.searchSubcategories	搜索子分类…
+sessionsList.searchSubscribers	搜索订阅者…
+sessionsList.searchTypes	搜索类型…
+sessionsList.selectAll	全选
+sessionsList.selectAllSessions	全选会话
+sessionsList.selectSession	选 {{title}}
+sessionsList.selectionCount_one	{{count}} 个选择
+sessionsList.selectionCount_other	{{count}} 个选择
+sessionsList.spacesMigration.description	你的 Space 正在变成父会话。
+sessionsList.spacesMigration.progress_one	{{count}} 个 Space 中 {{done}} 个
+sessionsList.spacesMigration.progress_other	{{count}} 个 Space 中 {{done}} 个
+sessionsList.spacesMigration.title	正在设置你的工作区
+sessionsList.thisSessionIsArchived	此会话已归档
+sessionsList.thisSessionIsStopped	此会话已停
+sessionsList.unnamedSubcategory	未命名
+sessionsList.viewSlackThread	看 Slack 帖子
+settings.accessEnabledForAnthropicModelsWithZeroDataRetention	已开 Anthropic 模型零数据保留访问
+settings.accessEnabledForAnthropicModelsWithZeroDataRetentionDescription	你组织已开用 Claude Fable 5 和 Claude Fable 5.1，在 Anthropic 推 Enterprise Frontier Safeguards 期间对数据保留要求限时豁免。你对全部模型的标准数据保留策略仍适用。
+settings.accessPages.enterpriseMembers.sizeSelected	已选 {{size}} 个
+settings.accessPages.idpGroups.groupsCanCreatedBySettingUp	与 IdP 提供商设 SSO 可建组。
+settings.accessPages.idpGroups.noGroupsFound	找不到组
+settings.accessPages.idpGroups.pleaseContactCognitionAccountManagerAssistance	设置帮助请联系你的 Cognition 客户经理。
+settings.accessPages.idpGroups.somethingWentWrongLoadingGroupsPlease	加载组时出错。请重试。
+settings.accessPages.invitations.add	添加
+settings.accessPages.invitations.addAtLeastOneValidEmail	请至少加一个有效邮箱
+settings.accessPages.invitations.addCoworkers	加同事
+settings.accessPages.invitations.adding	添加中…
+settings.accessPages.invitations.additionalSeatsRequired	需要额外席位
+settings.accessPages.invitations.anErrorOccurred	出错了
+settings.accessPages.invitations.completePayment	完成付款
+settings.accessPages.invitations.confirmPayment	确认你的付款
+settings.accessPages.invitations.failedInviteUsers	邀请用户失败
+settings.accessPages.invitations.githubCliConnectionsOnlySupportSingle	GitHub CLI 连接只支持单个成员。<lnk>换 GitHub 集成</lnk>以邀更多成员。
+settings.accessPages.invitations.invitationsUnavailable	邀请不可用
+settings.accessPages.invitations.inviteMembers	邀请成员
+settings.accessPages.invitations.invitedUsers	已邀用户
+settings.accessPages.invitations.invitingUsers	邀请用户中…
+settings.accessPages.invitations.noUnassignedFullSeatsAvailableEach	没有未分配的全席位。每个以全席位邀请的成员将加一个额外席位（每席位 {{formattedSeatPrice}}，按当前计费周期折算）。
+settings.accessPages.invitations.role	角色
+settings.accessPages.invitations.seatType	席位类型
+settings.accessPages.invitations.seatWarningAdditional_one	这会加 {{count}} 个额外席位（每席位 {{price}}，按当前计费周期折算）。
+settings.accessPages.invitations.seatWarningAdditional_other	这会加 {{count}} 个额外席位（每席位 {{price}}，按当前计费周期折算）。
+settings.accessPages.invitations.seatWarningAvailable_one	只剩 {{count}} 个未分配全席位。
+settings.accessPages.invitations.seatWarningAvailable_other	只剩 {{count}} 个未分配全席位。
+settings.accessPages.invitations.seatWarningInviting_one	你在以全席位邀 {{count}} 个成员。
+settings.accessPages.invitations.seatWarningInviting_other	你在以全席位邀 {{count}} 个成员。
+settings.accessPages.invitations.selectMemberRole	选成员角色
+settings.accessPages.invitations.selectRole	选一个角色
+settings.accessPages.invitations.selectSeatType	选席位类型
+settings.accessPages.invitations.ssoEnabled	SSO 已开
+settings.accessPages.invitations.thereWasProblemSubmittingRequestSubmissionerror	提交你的申请有问题。{{submissionError}}
+settings.accessPages.invitations.usersJoinByNavigatingWebapphostnameSigning	用户去 <span>{{webappHostname}}</span> 用其 SSO 凭据登录即可加入。不需要邀请。
+settings.accessPages.invitations.weCouldntCompleteChargeAutomaticallyBank	自动扣款没成——你的银行可能要确认。完成付款以加完席位。
+settings.accessPages.invitations.whoElseEnterprise	此企业里还有谁？
+settings.accessPages.invitations.whoElseOrganization	此组织里还有谁？
+settings.accessPages.members.accessGrantedViaIdpGroupEdit	访问经 IdP 组授予：编辑组映射以移除
+settings.accessPages.members.addGroup	加组
+settings.accessPages.members.addMember	加成员
+settings.accessPages.members.allEnterpriseMembersAutomaticallyIncludedPrimary	全部企业成员自动包含在主组织。
+settings.accessPages.members.anUnassignedFullSeatWillUsed	将用一个未分配全席位。不产生额外费用。
+settings.accessPages.members.approve	批准
+settings.accessPages.members.areYouSureYouWantRemove	确定要移除此组？此操作不可撤销。
+settings.accessPages.members.areYouSureYouWantRemoveMember	确定要移除此成员？此操作不可撤销。
+settings.accessPages.members.back	返回
+settings.accessPages.members.cannotDowngradeOwnRole	不能降级自己的角色
+settings.accessPages.members.cannotRemoveMembersFromPrimaryOrganization	不能从主组织移除成员
+settings.accessPages.members.cannotRemoveYourselfFromStandaloneOrganization	不能把自己从独立组织移除
+settings.accessPages.members.chooseSeatMemberdisplayname	给 {{memberDisplayName}} 选席位
+settings.accessPages.members.completePayment	完成付款
+settings.accessPages.members.confirm	确认
+settings.accessPages.members.confirmGroupRemoval	确认移除组
+settings.accessPages.members.confirmMemberRemoval	确认移除成员
+settings.accessPages.members.confirmPayment	确认你的付款
+settings.accessPages.members.confirming	确认中…
+settings.accessPages.members.copyGroupName	复制组名
+settings.accessPages.members.current	当前
+settings.accessPages.members.decline	拒绝
+settings.accessPages.members.deletingGroup2	正在删组
+settings.accessPages.members.email	邮箱
+settings.accessPages.members.failedApproveSeatRequest	批准席位申请失败
+settings.accessPages.members.failedDeclineSeatRequest	拒绝席位申请失败
+settings.accessPages.members.failedDeleteGroupError	删组失败：{{error}}
+settings.accessPages.members.failedLoadSeatRequests	加载席位申请失败
+settings.accessPages.members.failedRemoveMember	移除成员失败
+settings.accessPages.members.failedUpdateRole	更新角色失败
+settings.accessPages.members.failedUpdateSeatType	更新席位类型失败
+settings.accessPages.members.fullSeatRequestPending	全席位申请待处理
+settings.accessPages.members.group	组

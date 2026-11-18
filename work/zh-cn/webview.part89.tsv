@@ -1,0 +1,180 @@
+settings.machineCatalogPage.noUnsavedChanges	没有未保存更改
+settings.machineCatalogPage.saveFailed	存不了机器配置。请重试。
+settings.machineCatalogPage.saved	机器配置已存。
+settings.machineCatalogPage.selectDiskAriaLabel	选磁盘大小
+settings.machineCatalogPage.selectSizePlaceholder	选大小
+settings.machineCatalogPage.selectSlotsAriaLabel	选机器槽数
+settings.machineCatalogPage.sizeCapHint	此平台至多支持 {{slots}} 槽（{{memory}} GB）。
+settings.machineCatalogPage.slots_one	{{count}} 槽
+settings.machineCatalogPage.slots_other	{{count}} 槽
+settings.machineCatalogPage.tierExtraLarge	特大
+settings.machineCatalogPage.tierLarge	大
+settings.machineCatalogPage.tierMedium	中
+settings.machineCatalogPage.tierSmall	小
+settings.machineCatalogPage.tierXXLarge	XXL
+settings.machineCatalogPage.tierXXXLarge	XXXL
+settings.machineCatalogPage.unsavedChanges_one	{{count}} 处未保存更改
+settings.machineCatalogPage.unsavedChanges_other	{{count}} 处未保存更改
+settings.machineConfiguration	机器配置
+settings.machineConfigurationAccountDescription	设此账户里组织能跑会话的机器。槽数和嵌套虚拟化应用于每个组织；各组织挑用哪台机器。
+settings.machineConfigurationDescription	按平台选新会话跑的机器
+settings.machineSelectionPage.confirmDescription	这排一个构建并改全部新会话的机器。构建完成后新会话跑在更新机器上。
+settings.machineSelectionPage.confirmLabel	存并重建
+settings.machineSelectionPage.confirmTitle	存机器配置？
+settings.machineSelectionPage.noMachinesDescription	此组织的账户没有可选机器配置。
+settings.machineSelectionPage.saved	机器配置已存。构建已排队，应用于全部新会话。
+settings.machineSelectionPage.sizeDescription	按平台设新会话跑的机器大小。
+settings.machineSnapshot	机器快照
+settings.machines	机器
+settings.machinesDescription	按平台选新会话跑的机器。可用机器在账户级设。
+settings.makeApiRequest	发 API 请求
+settings.makeApiRequestDescription	更多示例和细节见 API 文档
+settings.manage	管理
+settings.manageAccountAutomations	管自动化
+settings.manageAccountAutomationsDescription	在其所属每个组织建/改/删自动化
+settings.manageAccountPersonalAutomations	管个人自动化
+settings.manageAccountPersonalAutomationsDescription	在其所属每个组织只建/改/删以自己身份跑会话的自己的自动化
+settings.manageAppsDescription	在 GitHub Enterprise 实例装已注册应用，或移除一个以重注册同一主机。
+settings.manageCommands	管命令
+settings.manageGitlabAppsDescription	看或移除为自托管 GitLab 实例注册的 OAuth 应用。
+settings.managePersonalAutomations	管个人自动化
+settings.managePersonalAutomationsDescription	只建/改/删以自己身份跑会话的自己的自动化
+settings.managePreferences	管你的个人偏好
+settings.manageTiers	管档位
+settings.manageTiersDescription	建、改和派带自定义月度 ACU 分配的用量档位
+settings.manageTiersDescription_dollars	建、改和派带自定义月度花费分配的用量档位
+settings.manageTiersSidebarLabel	管档位
+settings.managedMcpAuthentication	认证
+settings.managedMcpDisabledBody	此 MCP 服务器当前已禁，会话里不可用。
+settings.managedMcpDisabledTitle	企业已禁
+settings.managedMcpManagedBody	此 MCP 服务器由你企业配置，在这只读。
+settings.managedMcpManagedTitle	企业管
+settings.managedMcpPersonal	个人 MCP
+settings.managedMcpPersonalConnect	每个成员各自连。连你的账户以在你会话用此服务器。
+settings.managedMcpPersonalConnected	你已连。每个成员各自连；在你个人连接设置管你的连接。
+settings.managedMcpPersonalExpired	你的连接过期了——重连以继续用此服务器。
+settings.managedMcpSharedConnected	经你企业管的共享连接已连
+settings.managedMcpSharedExpired	连接过期了。需企业管理员在企业设置重连此服务器。
+settings.managedMcpSharedExpiredAdmin	连接过期了。<lnk>在企业设置重连它</lnk>。
+settings.managedMcpSharedNotSetUp	还没连。需企业管理员在企业设置连此服务器。
+settings.managedMcpSharedNotSetUpAdmin	还没连。<lnk>在企业设置连它</lnk>。
+settings.managedMcpTransport	传输
+settings.managedMcpUrl	URL
+settings.managedWebhookActionFailed	操作完成不了
+settings.managedWebhookActions	操作
+settings.managedWebhookActionsTooltip	更多操作
+settings.managedWebhookAdd	新 webhook
+settings.managedWebhookArrayItems_one	{{count}} 项
+settings.managedWebhookArrayItems_other	{{count}} 项
+settings.managedWebhookAuthBearer	Authorization: Bearer
+settings.managedWebhookAuthBearerNote	以 Authorization: Bearer <secret> 发
+settings.managedWebhookAuthBearerShort	Bearer token
+settings.managedWebhookAuthHeader	自定义头
+settings.managedWebhookAuthHeaderName	头名
+settings.managedWebhookAuthHeaderPlaceholder	X-Webhook-Secret
+settings.managedWebhookAuthTitle	认证
+settings.managedWebhookAutomationCount_one	{{count}} 个自动化
+settings.managedWebhookAutomationCount_other	{{count}} 个自动化
+settings.managedWebhookCancel	取消
+settings.managedWebhookColumnAuth	认证
+settings.managedWebhookColumnAutomations	自动化
+settings.managedWebhookColumnName	Webhook
+settings.managedWebhookColumnStatus	状态
+settings.managedWebhookCopyEndpoint	复制端点 URL
+settings.managedWebhookCopySecret	复制 secret
+settings.managedWebhookCreate	建 webhook
+settings.managedWebhookDelete	删除
+settings.managedWebhookDeleteBlockedTooltip_one	被 {{count}} 个自动化用。改为禁用它；没有自动化引用后才能删。
+settings.managedWebhookDeleteBlockedTooltip_other	被 {{count}} 个自动化用。改为禁用它；没有自动化引用后才能删。
+settings.managedWebhookDeleteDescription	端点停止接受事件，webhook 从每个组织的触发器选择器消失。没有自动化引用它，所以没别的变化。
+settings.managedWebhookDeleteTitle	删 {{name}}？
+settings.managedWebhookDeletedToast	托管 webhook 已删
+settings.managedWebhookDeliveryIdDescription	去重同一投递的重试。两个都设且不一致时请求被拒
+settings.managedWebhookDeliveryIdHeader	头名
+settings.managedWebhookDeliveryIdPath	body 路径
+settings.managedWebhookDeliveryIdPlaceholder	X-Delivery-Id
+settings.managedWebhookDeliveryIdTitle	投递 ID
+settings.managedWebhookDisable	禁用
+settings.managedWebhookDisableDescription	此 webhook 将停止触发新运行。链的自动化保持当前状态，仍能从其它触发器跑。进行中的运行能跑完。
+settings.managedWebhookDisableTitle	禁用 {{name}}？
+settings.managedWebhookDisabledReasonHeaderName	加一个头名
+settings.managedWebhookDisabledReasonJson	修示例负载 JSON
+settings.managedWebhookDisabledReasonName	加一个名称
+settings.managedWebhookDisabledToast	托管 webhook 已禁
+settings.managedWebhookEdit	编辑
+settings.managedWebhookEditJson	编辑 JSON
+settings.managedWebhookEditTitle	编辑 {{name}}
+settings.managedWebhookEmptyDescription	从工具收一次事件；每个组织能在其上建自动化。
+settings.managedWebhookEmptyTitle	还没有托管 webhook
+settings.managedWebhookEnable	启用
+settings.managedWebhookEnableDescription	此 webhook 将重新接受事件。链的自动化保持当前状态；只有启用的自动化能跑。
+settings.managedWebhookEnableTitle	启用 {{name}}？
+settings.managedWebhookEnabledToast	托管 webhook 已开
+settings.managedWebhookEndpointTitle	端点
+settings.managedWebhookFieldLabel	标签
+settings.managedWebhookFieldLabelFor	{{path}} 的标签
+settings.managedWebhookFieldPath	路径
+settings.managedWebhookFieldRequired	必填
+settings.managedWebhookFieldRequiredFor	要求 {{path}} 上有筛选
+settings.managedWebhookFieldType	类型
+settings.managedWebhookFieldTypeFor	{{path}} 的类型
+settings.managedWebhookFieldsDescription	组织在触发器编辑器见这些标签和类型，永不见负载。自动化用的字段可重命名但不能删或改类型
+settings.managedWebhookFieldsEmpty	还没有字段
+settings.managedWebhookFieldsTitle	可筛选字段
+settings.managedWebhookFirstSecretNote	建时生成，显示一次
+settings.managedWebhookInvalidJson	示例必须是有效 JSON 对象
+settings.managedWebhookLifetime30d	30 天
+settings.managedWebhookLifetime7d	7 天
+settings.managedWebhookLifetime90d	90 天
+settings.managedWebhookLifetimeNever	永不过期
+settings.managedWebhookLoadFailed	托管 webhook 加载不了
+settings.managedWebhookLogoFileInput	Logo 图片文件
+settings.managedWebhookLogoHint	点方块加 logo：PNG、JPEG、GIF 或 WebP，至多 512 KB
+settings.managedWebhookLogoInvalidType	Logo 必须是 PNG、JPEG、GIF 或 WebP 图。
+settings.managedWebhookLogoRemove	移除
+settings.managedWebhookLogoReplace	换 logo
+settings.managedWebhookLogoSaveFailed	更新 logo 失败
+settings.managedWebhookLogoSaveFailedAfterSave	Webhook 已存，但 logo 没更新：{{detail}}
+settings.managedWebhookLogoTooLarge	Logo 须 512 KB 或更小。
+settings.managedWebhookLogoUpload	上传 logo
+settings.managedWebhookNameLabel	名称
+settings.managedWebhookNamePlaceholder	如：Bugzilla
+settings.managedWebhookNewTitle	新托管 webhook
+settings.managedWebhookNotFound	此托管 webhook 已不存在
+settings.managedWebhookNotSet	未设
+settings.managedWebhookPickField	让 {{path}} 可筛
+settings.managedWebhookPickFields	挑字段
+settings.managedWebhookRemoveField	移除 {{path}}
+settings.managedWebhookRevoke	吊销
+settings.managedWebhookRevokeDescription	用此 secret 签的请求立刻被拒。不可撤销。
+settings.managedWebhookRevokeTitle	吊销此 secret？
+settings.managedWebhookRotate	生成新 secret
+settings.managedWebhookRotateExplainer	新 secret 显示一次。已有 secret 保持有效直到过期或被吊销。
+settings.managedWebhookRotateSecret	轮换 secret
+settings.managedWebhookSampleDescription	点键让它可筛。数组和含点的键挑不了
+settings.managedWebhookSamplePlaceholder	粘一个真实投递的 JSON body…
+settings.managedWebhookSampleTitle	示例负载
+settings.managedWebhookSave	保存
+settings.managedWebhookSaveFailed	托管 webhook 存不了
+settings.managedWebhookSavedToast	托管 webhook 已存
+settings.managedWebhookSecretActive	活跃
+settings.managedWebhookSecretDone	我已存好 secret
+settings.managedWebhookSecretExpired	已过期
+settings.managedWebhookSecretExpiresOn	{{date}} 过期
+settings.managedWebhookSecretLifetime	Secret 寿命
+settings.managedWebhookSecretRevealDescription	每个请求在 {{header}} 里带它发。
+settings.managedWebhookSecretRevealTitle	你的新 secret
+settings.managedWebhookSecretRevoked	已吊销
+settings.managedWebhookSecretRevokedToast	Secret 已吊销
+settings.managedWebhookSecretShownOnce	secret 只显示这一次。存到安全处；丢了可之后轮换。
+settings.managedWebhookSecretsTitle	签名密钥
+settings.managedWebhookStatusDisabled	已禁用
+settings.managedWebhookStatusEnabled	已启用
+settings.managedWebhookUnpickField	从可筛字段移除 {{path}}
+settings.managedWebhooksDescription	作为自动化触发器共享给每个组织的入站 webhook。
+settings.managedWebhooksTitle	托管 webhook
+settings.manualMemberInvitationDisabled	手动成员邀请已禁。
+settings.manualMemberInvitationEnabled	手动成员邀请已开。
+settings.marketplace	插件
+settings.marketplaceGalleryUrl	扩展市场 URL
+settings.marketplaceGalleryUrlDescription	强制 Devin Desktop 从此市场搜和装扩展。成员不能覆盖。

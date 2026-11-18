@@ -1,0 +1,297 @@
+billing.usageLimits.maxAcusPerMessage	Devin 每收到你一条消息最多可用的 ACU
+billing.usageLimits.maxUsagePerMessage	Devin 每收到你一条消息最多可用的按需用量
+billing.usageLimits.messageAcuLimit	每消息 ACU 上限
+billing.usageLimits.messageUsageLimit	每消息用量上限
+billing.usageLimits.updateError	更新你的用量上限时出现问题。请稍后再试。
+billing.usageLimits.updated	支出上限已更新
+billing.usageLimits.usageMax	用量上限不能大于 10,000
+billing.usageLimits.usageMin	用量上限至少为 $1
+billing.usageLimits.usageWholeNumber	用量上限必须为整数
+billing.usagePage.availableAcus	可用 ACU
+billing.usagePage.availableAcusTooltip	你的订阅、已购 ACU 和获赠 ACU 中的剩余部分。
+billing.usagePage.availableCredits	可用额度
+billing.usagePage.availableCreditsTooltip	你的订阅及已购或获赠额度中的剩余部分。
+billing.usagePage.barGift	赠送 {{unit}}
+billing.usagePage.barPayAsYouGo	按需 {{unit}}
+billing.usagePage.barPurchased	已购 {{unit}}
+billing.usagePage.barSubscription	订阅 {{unit}}
+billing.usagePage.cycleUsageBreakdown	本周期用量构成
+billing.usagePage.enterpriseAcus	企业 ACU
+billing.usagePage.increaseUsageLimit	想提高 Devin 用量？提高你的用量上限。
+billing.usagePage.increaseUsageSubscribe	想提高 Devin 用量？<plansLink>订阅一个方案</plansLink>。
+billing.usagePage.legacyPlanBanner	你当前在旧版方案上。请<supportLink>联系支持</supportLink>升级到新方案。你也可以<manageButton>在此管理订阅</manageButton>。
+billing.usagePage.legacyPlanContactSupport	你在旧版方案上。请联系支持升级。
+billing.usagePage.noActiveSubscription	你没有生效的订阅
+billing.usagePage.noSubscriptionYet	你还没有订阅。
+billing.usagePage.noUsageData	无可用用量数据
+billing.usagePage.overview	概览
+billing.usagePage.payAsYouGoBilled	按需用量将在计费周期结束时从你的默认支付方式扣款。
+billing.usagePage.paymentProblem	你的支付出现问题，请更新支付方式
+billing.usagePage.planNotUsageBased	你当前的方案不按用量计费。
+billing.usagePage.referTeam	推荐一个团队 →
+billing.usagePage.referralDescription	向 Devin 推荐一个团队，你将获得 {{amount}} 的奖励用量
+billing.usagePage.referralTitle	赚取 {{amount}} 奖励用量
+billing.usagePage.reloadAndRetry	请重新加载页面后重试。
+billing.usagePage.retrieveError	获取你的用量数据时出现问题。
+billing.usagePage.subscriptionEndsConfigure	你的订阅将在本计费周期结束时终止。可在<plansLink>方案页</plansLink>配置下月的订阅设置。
+billing.usagePage.totalAcus	ACU 总计
+billing.usagePage.totalEnterpriseAcus	企业 ACU 总计
+billing.usagePage.totalUsage	总用量
+billing.usagePage.totalUsageInCycle	本周期总用量
+billing.usagePage.usageHistory	用量历史
+billing.usagePage.viewPlans	查看方案
+billing.usageProduct.aiGateway	AI Gateway
+billing.usageProduct.all	全部产品
+billing.usageProduct.ask	Ask
+billing.usageProduct.automations	自动化
+billing.usageProduct.cli	CLI
+billing.usageProduct.codeScans	代码扫描
+billing.usageProduct.desktop	Desktop
+billing.usageProduct.oncall	值班
+billing.usageProduct.reviews	审查
+billing.usageProduct.selectProduct	选择产品
+billing.usageProduct.sessions	会话
+billing.usageProduct.wiki	Wiki
+billing.usageQuotaExceeded	已超用量配额
+billing.usageRequest.acuAmount_one	{{count}} ACU
+billing.usageRequest.acuAmount_other	{{count}} ACU
+billing.usageRequest.acuLimit	{{limit}} ACU 上限
+billing.usageRequest.acuRequest	ACU 申请
+billing.usageRequest.acusOver_one	超出 {{count}} ACU
+billing.usageRequest.acusOver_other	超出 {{count}} ACU
+billing.usageRequest.additionalAcus	要申请的额外 ACU
+billing.usageRequest.additionalDollars	要申请的额外金额
+billing.usageRequest.amountOptionTrigger_one	+{{count}} <unit>ACU</unit>
+billing.usageRequest.amountOptionTrigger_other	+{{count}} <unit>ACU</unit>
+billing.usageRequest.amountOption_one	+{{count}} ACU
+billing.usageRequest.amountOption_other	+{{count}} ACU
+billing.usageRequest.approved	已批准
+billing.usageRequest.autoApprovedToast	用量申请已自动批准
+billing.usageRequest.canRequestMoreLater	之后还可以继续申请
+billing.usageRequest.cancel	取消
+billing.usageRequest.cancelRequest	取消申请
+billing.usageRequest.cancelling	正在取消申请…
+billing.usageRequest.close	关闭
+billing.usageRequest.concurrentEdit	可能有人同时改了你的上限。请重试。
+billing.usageRequest.currentLimit	当前上限
+billing.usageRequest.customAmount	自定义金额
+billing.usageRequest.denied	已拒绝
+billing.usageRequest.dollarAmountOption	+{{amount}}
+billing.usageRequest.dollarLimit	{{limit}} 上限
+billing.usageRequest.dollarRequest	支出申请
+billing.usageRequest.dollarsOver	超出 {{amount}}
+billing.usageRequest.exceedsAutoApproval	此金额超过自动批准阈值。
+billing.usageRequest.expired	已过期
+billing.usageRequest.handledOutsideDevin	你的管理员在 Devin 之外处理增量申请。
+billing.usageRequest.howMuchDoYouNeed	金额
+billing.usageRequest.learnMore	了解更多
+billing.usageRequest.learnMoreTooltip	申请只作用于当前计费周期。组织管理员会审核并批准你的申请
+billing.usageRequest.limitLoadError	加载你的用量上限时出错。
+billing.usageRequest.minimumAcuIncrease_one	至少输入 {{count}} ACU 才能把上限提到本周期用量之上。
+billing.usageRequest.minimumAcuIncrease_other	至少输入 {{count}} ACU 才能把上限提到本周期用量之上。
+billing.usageRequest.minimumDollarIncrease	至少输入 {{amount}} 才能把上限提到本周期用量之上。
+billing.usageRequest.noPerUserLimits	你的账户不按用户设用量上限，这里无可申请项。如果用量用尽，请联系管理员。
+billing.usageRequest.partialDollarApproval	申请中的 {{amount}} 已自动批准。其余部分需管理员批准。
+billing.usageRequest.partiallyApprovedToast_one	申请中的 {{count}} ACU 已自动批准。其余部分需管理员批准。
+billing.usageRequest.partiallyApprovedToast_other	申请中的 {{count}} ACU 已自动批准。其余部分需管理员批准。
+billing.usageRequest.pending	待处理
+billing.usageRequest.pendingAdditionalDollarLimit	已申请 +{{amount}}
+billing.usageRequest.pendingAdditionalLimit_one	已申请 +{{count}} ACU
+billing.usageRequest.pendingAdditionalLimit_other	已申请 +{{count}} ACU
+billing.usageRequest.pendingNewDollarLimit	已申请 {{limit}} 新上限
+billing.usageRequest.pendingNewLimit_one	已申请 {{count}} ACU 新上限
+billing.usageRequest.pendingNewLimit_other	已申请 {{count}} ACU 新上限
+billing.usageRequest.pendingReviewStatus	申请于 {{time}} · 等待管理员审核
+billing.usageRequest.previousRequests	历史申请
+billing.usageRequest.productDevin	Devin
+billing.usageRequest.productDevinDesktop	Devin Desktop
+billing.usageRequest.productTerminalCli	Terminal CLI
+billing.usageRequest.projectedHeadroom	预计余量
+billing.usageRequest.reason	原因
+billing.usageRequest.reasonPlaceholder	补充说明你为什么需要更多用量
+billing.usageRequest.requestAdditionalUsage	申请更多用量
+billing.usageRequest.requestDescription	申请临时提高你的 ACU 上限。
+billing.usageRequest.requestDescriptionDollars	申请临时提高你的支出上限。
+billing.usageRequest.requestedLimit	申请的上限
+billing.usageRequest.submitRequest	提交申请
+billing.usageRequest.submittedToast	用量申请已提交
+billing.usageRequest.tryAgain	重试
+billing.usageRequest.usageByProduct	按产品的用量
+billing.usersRanking.lastCycle	上周期
+billing.usersRanking.legendLastCycle	上周期 {{unit}}（{{cycle}}）
+billing.usersRanking.legendThisCycle	本周期 {{unit}}（{{cycle}}）
+billing.usersRanking.thisCycle	本周期
+billing.usersTable.email	邮箱
+billing.usersTable.emailTitle	用户邮箱
+billing.usersTable.name	名称
+billing.usersTable.noData	无可用数据
+billing.usersTable.percentChange	变化 %
+billing.usersTable.percentChangeLong	变化 %
+billing.usersTable.percentChangeLongTitle	与上一期间相比的变化
+billing.usersTable.percentChangeTitle	与整个上周期消耗的 {{unit}} 相比的变化
+billing.usersTable.percentOfTotal	占总数 %
+billing.usersTable.percentOfTotalTitle	此行 {{unit}} 除以本计费周期此视图范围内的 {{unit}} 总数
+billing.usersTable.serviceUserNameTitle	服务用户名
+billing.usersTable.unitCurrentTitle	当前期间消耗的 {{unit}}
+billing.usersTable.unitCycle	{{unit}}（{{label}}）
+billing.usersTable.unitPreviousTitle	上一期间消耗的 {{unit}}
+billing.usersTable.userNameTitle	用户名
+billing.usersTable.viewSessions	查看会话
+billing.viewInvoices	查看账单
+billing.viewUsageSettings	查看用量设置
+billing.weeklyUsageQuotaExceeded	已超每周用量配额
+billing.workspaceSeats.activeFullSeats	活跃正式席位
+billing.workspaceSeats.addDescription	新席位将立即按比例计费
+billing.workspaceSeats.addSeats	添加席位
+billing.workspaceSeats.availableAfterPurchase_one	购买后可用：{{count}} 个正式席位。
+billing.workspaceSeats.availableAfterPurchase_other	购买后可用：{{count}} 个正式席位。
+billing.workspaceSeats.back	返回
+billing.workspaceSeats.cancelDescription	席位在当前计费周期结束时移除
+billing.workspaceSeats.cancelUnassigned	取消未分配
+billing.workspaceSeats.cancelUnassignedSeats	取消未分配席位
+billing.workspaceSeats.completePayment	完成支付
+billing.workspaceSeats.confirm	确认
+billing.workspaceSeats.fullSeats	正式席位
+billing.workspaceSeats.fullSeatsToCancel	要取消的正式席位
+billing.workspaceSeats.genericError	出错了。请重试。
+billing.workspaceSeats.loadFullSeatsError	加载正式席位数据时出现问题。
+billing.workspaceSeats.loadSeatInfoError	加载席位信息时出现问题。
+billing.workspaceSeats.manage	管理
+billing.workspaceSeats.memberLimit	成员上限
+billing.workspaceSeats.memberLimitValue	最多 100
+billing.workspaceSeats.monthlyReduction	每月正式席位减少量
+billing.workspaceSeats.newMonthlyCharge	新的每月正式席位费用
+billing.workspaceSeats.onlyUnassignedCancelable	只能取消当前未分配的正式席位。
+billing.workspaceSeats.paymentConfirmationNeeded	我们无法自动完成此扣款——你的银行可能要求确认（3D Secure）。请完成支付以添加席位。
+billing.workspaceSeats.perSeatSuffix	× {{price}} / 席位
+billing.workspaceSeats.seatUsage	席位用量
+billing.workspaceSeats.seatsAddedToastDescription_one	已添加 {{count}} 个正式席位。
+billing.workspaceSeats.seatsAddedToastDescription_other	已添加 {{count}} 个正式席位。
+billing.workspaceSeats.seatsCanceledToastDescription_one	已取消 {{count}} 个正式席位。
+billing.workspaceSeats.seatsCanceledToastDescription_other	已取消 {{count}} 个正式席位。
+billing.workspaceSeats.seatsUpdatedToast	席位已更新
+billing.workspaceSeats.tooltipFlexBody	按用量付费。无席位费。包含 Devin Desktop。
+billing.workspaceSeats.tooltipFlexTitle	Flex
+billing.workspaceSeats.tooltipFullBody	正式席位折扣前每月 {{price}}，包含与 Pro 方案相同的 Devin 和 {{productName}} 用量配额。适合常用用户。
+billing.workspaceSeats.tooltipFullTitle	Full
+billing.workspaceSeats.tooltipIntro	你的 Devin Teams 方案最多支持 100 名成员。可为常用用户购买正式席位。
+billing.workspaceSeats.unassignedCanceledToast	未分配席位已取消
+billing.workspaceSeats.unassignedFullSeats	未分配正式席位
+billing.workspaceSeats.unassignedSuffix	{{seats}} 个未分配
+billingBanner.assignToDevin	分配给 Devin
+billingBanner.deepwiki	DeepWiki
+billingBanner.deepwikiDescription	自动生成的文档
+billingBanner.devinReview	Devin Review
+billingBanner.devinReviewDescription	AI 驱动的 PR 审查
+billingBanner.payInvoiceDirectly	想直接支付账单？
+billingBanner.planAndReview	与 Devin 一起规划和审查
+billingBanner.tryTheseTools	无需订阅即可使用这些工具：
+billingBanner.viewInvoices	查看账单
+billingTagsAnalytics.acuByBillingTag	按计费标签的 ACU 消耗
+billingTagsAnalytics.acusTooltip	{{acus}} ACU（占支出 {{percent}}）
+billingTagsAnalytics.byDay	按天
+billingTagsAnalytics.byWeek	按周
+billingTagsAnalytics.groupingAria	分组方式
+billingTagsAnalytics.health.atRisk	不健康
+billingTagsAnalytics.health.healthy	健康
+billingTagsAnalytics.health.miscellaneousAtRiskTooltip	超过 60% 的会话标记为「杂项」。大部分支出无法归属到计费标签。
+billingTagsAnalytics.health.miscellaneousHealthyTooltip	标记为「杂项」的会话不到 20%。支出归属良好。
+billingTagsAnalytics.health.miscellaneousNeedsAttentionTooltip	20-60% 的会话标记为「杂项」。一般建议控制在 20% 以下。
+billingTagsAnalytics.health.needsAttention	需要关注
+billingTagsAnalytics.health.uncategorizedAtRiskTooltip	超过 60% 的会话未分类。大部分支出无法归属到计费标签。
+billingTagsAnalytics.health.uncategorizedHealthyTooltip	未分类会话不到 20%。支出归属良好。
+billingTagsAnalytics.health.uncategorizedNeedsAttentionTooltip	20-60% 的会话未分类。一般建议控制在 20% 以下。
+billingTagsAnalytics.includeUncategorized	包含未分类会话
+billingTagsAnalytics.legendEntry	{{name}} · {{percent}}
+billingTagsAnalytics.movingAverage	7 天移动平均
+billingTagsAnalytics.movingAverageTooltip	7 天移动平均：{{percent}}
+billingTagsAnalytics.noSessionsInRange	此时间范围内无会话
+billingTagsAnalytics.noUsageInRange	此时间范围内无 ACU 用量
+billingTagsAnalytics.percentTagged	已打标签 %
+billingTagsAnalytics.person	人
+billingTagsAnalytics.sessionsTooltip_one	{{count}} 个会话
+billingTagsAnalytics.sessionsTooltip_other	{{count}} 个会话
+billingTagsAnalytics.statTooltips.miscellaneous	标记为「杂项」的会话，即不属于任何计费标签的工作的内置标签。
+billingTagsAnalytics.statTooltips.sessions	所选时间范围内创建的所有会话。
+billingTagsAnalytics.statTooltips.tagged	已分配计费标签的会话。不含标记为「杂项」的会话。
+billingTagsAnalytics.statTooltips.uncategorized	尚未分配计费标签的会话。
+billingTagsAnalytics.taggedSessions	已打标签会话
+billingTagsAnalytics.taggedShareDaily	已打标签会话（每日）
+billingTagsAnalytics.taggedShareOverTime	已打标签会话趋势
+billingTagsAnalytics.taggedShareWeekly	已打标签会话（每周）
+billingTagsAnalytics.taggedTooltip	{{sessions}} 个会话中已打标签 {{tagged}} 个（{{percent}}）
+billingTagsAnalytics.taggingByUser	按用户的打标情况
+billingTagsAnalytics.totalSessions	总会话数
+billingTagsAnalytics.untaggedSessions	未打标签会话
+billingTagsReview.acuProgress.summary	{{total}} ACU 中已打标签 {{tagged}}（{{percent}}%）
+billingTagsReview.acuProgress.taggedOfTotal	{{total}} ACU 中已打标签 <tagged>{{tagged}}</tagged>
+billingTagsReview.acuProgress.tooltip	此期间你的 ACU 中有计费标签的会话所占比例
+billingTagsReview.acuProgress.tooltipPartial	近似值：因该期间超过分析上限，仅按你最近的会话计算
+billingTagsReview.allSessions	全部会话
+billingTagsReview.approveSuggestions.label_one	批准 {{count}} 条建议
+billingTagsReview.approveSuggestions.label_other	批准 {{count}} 条建议
+billingTagsReview.classifierConfidence	分类器置信度：{{confidence}}
+billingTagsReview.columns.billingTag	计费标签
+billingTagsReview.columns.suggestion	建议
+billingTagsReview.inboxCount_one	{{count}} 个会话需要决定计费标签
+billingTagsReview.inboxCount_other	{{count}} 个会话需要决定计费标签
+billingTagsReview.miscellaneous	杂项
+billingTagsReview.myInbox	我的收件箱
+billingTagsReview.nothingToReview	没有待处理项
+billingTagsReview.subtitle	为已有会话打上计费标签
+billingTagsReview.tag	打标签
+billingTagsReview.title	审查会话
+billingTagsReview.toast.dismissed	建议已忽略
+billingTagsReview.toast.tagged	已标记为 {{tag}}
+billingTagsReview.toast.undoSuperseded	撤销已跳过——此会话此后又被打了标签
+billingTagsReview.uncategorized	未分类
+billingTagsUi.acceptSuggestion	接受建议
+billingTagsUi.actions	操作
+billingTagsUi.activityOverTime	活动趋势
+billingTagsUi.acuSpent	已花 ACU
+billingTagsUi.acus	ACU
+billingTagsUi.acusByUser	按用户的 ACU
+billingTagsUi.acusPerMergedPr	每已合并 PR 的 ACU
+billingTagsUi.acusPerSession	每会话 ACU
+billingTagsUi.acusValue	{{value}} ACU
+billingTagsUi.age	存在时长
+billingTagsUi.allBillingTags	全部计费标签
+billingTagsUi.analytics	分析
+billingTagsUi.analyticsSubtitle	所选范围内的打标覆盖率与 ACU 支出
+billingTagsUi.assignBillingTag	分配计费标签
+billingTagsUi.author	作者
+billingTagsUi.backToBillingTags	返回计费标签
+billingTagsUi.billingTagCreated	计费标签已创建
+billingTagsUi.billingTagDeleted	计费标签已删除
+billingTagsUi.billingTagNoLongerExists	此计费标签已不存在。
+billingTagsUi.billingTagNotFound	未找到计费标签
+billingTagsUi.billingTagUpdated	计费标签已更新
+billingTagsUi.billingTagsMerged_one	已将 {{count}} 个计费标签并入 {{name}}
+billingTagsUi.billingTagsMerged_other	已将 {{count}} 个计费标签并入 {{name}}
+billingTagsUi.billingTagsTableSubtitle	每个标签的全部会话与 ACU，跨全部时间
+billingTagsUi.billingTagsTableTitle	计费标签
+billingTagsUi.bulkAlreadyResolvedSessions	所选会话已处理
+billingTagsUi.bulkAlreadyResolvedSuggestions	所选建议已处理
+billingTagsUi.bulkFailedSessions_one	更新 {{count}} 个会话失败
+billingTagsUi.bulkFailedSessions_other	更新 {{count}} 个会话失败
+billingTagsUi.bulkFailedSuggestions_one	更新 {{count}} 条建议失败
+billingTagsUi.bulkFailedSuggestions_other	更新 {{count}} 条建议失败
+billingTagsUi.cancel	取消
+billingTagsUi.clear	清除
+billingTagsUi.clearSelection	清除选择
+billingTagsUi.closed	已关闭
+billingTagsUi.collapse	折叠
+billingTagsUi.comingSoon	即将推出
+billingTagsUi.countWithShare	{{value}}（{{percent}}）
+billingTagsUi.createAnotherTag	再创建一个标签
+billingTagsUi.createBillingTag	创建计费标签
+billingTagsUi.createBillingTagNamed	创建「{{name}}」
+billingTagsUi.createBillingTagOptions	更多创建选项
+billingTagsUi.createTag	创建标签
+billingTagsUi.createWithDevin	让 Devin 创建
+billingTagsUi.createWithDevinPrompt	Devin，请根据以下来源帮我创建计费标签\n\n[在此上传附件并附链接]
+billingTagsUi.delete	删除
+billingTagsUi.deleteBillingTagDescription	已标记为「{{name}}」的会话将变为未打标签、未分类。
+billingTagsUi.deleteBillingTagTitle	删除计费标签「{{name}}」？
+billingTagsUi.description	描述
+billingTagsUi.descriptionHelp	帮助 Devin 为合适的会话建议此标签

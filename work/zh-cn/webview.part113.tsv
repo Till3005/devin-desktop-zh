@@ -1,0 +1,160 @@
+settingsPages.itemDefs.autoReviewDefaultBillingOrganization	自动分析默认计费组织
+settingsPages.itemDefs.automateIncidentResponsePagerDutyEvents	用 PagerDuty 事件自动化事件响应
+settingsPages.itemDefs.automateSupportWorkflowsEscalationsDevin	用 Devin 自动化支持工作流和升级
+settingsPages.itemDefs.billingTags	计费标签
+settingsPages.itemDefs.browseNotesPersonalMemoryDevin	浏览你个人记忆里 Devin 跨会话携带的笔记，或读你管的服务用户的记忆
+settingsPages.itemDefs.channelAccess	频道访问
+settingsPages.itemDefs.channelMapping	频道映射
+settingsPages.itemDefs.chooseWhichFindingTypesDevinPosts	选 Devin 为仓库、组织或组发哪些发现项类型。
+settingsPages.itemDefs.cloneRepositoriesAllPlatforms	在全部平台克隆仓库
+settingsPages.itemDefs.connectPerforceHelixCoreServer	连 Perforce（Helix Core）服务器
+settingsPages.itemDefs.controlsDefaultSecurityProfileSessionsStarted	控制自动化起的会话的默认安全配置
+settingsPages.itemDefs.createProfile	建配置
+settingsPages.itemDefs.createReusableSecurityProfileSessions	为会话建可复用安全配置
+settingsPages.itemDefs.customize.hooks.enterpriseDescription	Hook：会话中某些点自动跑的命令，与企业账户每个组织共享
+settingsPages.itemDefs.customize.hooks.enterpriseLabel	企业 hook
+settingsPages.itemDefs.customize.hooks.organizationDescription	Hook：会话中某些点自动跑的命令，与组织每个成员共享（企业账户上是组织的 manage-plugins 权限，独立账户上是企业的）
+settingsPages.itemDefs.customize.hooks.organizationLabel	组织 hook
+settingsPages.itemDefs.customize.hooks.personalDescription	Hook：会话中某些点自动跑的命令，只你用
+settingsPages.itemDefs.customize.hooks.personalLabel	个人 hook
+settingsPages.itemDefs.customize.plugins.enterpriseDescription	插件（技能、规则、MCP 服务器和 hook 的集合），从市场、仓库或上传装，与企业账户每个组织共享
+settingsPages.itemDefs.customize.plugins.enterpriseLabel	企业插件
+settingsPages.itemDefs.customize.plugins.organizationDescription	插件（技能、规则、MCP 服务器和 hook 的集合），从市场、仓库或上传装，与组织每个成员共享（企业账户上是组织的 manage-plugins 权限，独立账户上是企业的）
+settingsPages.itemDefs.customize.plugins.organizationLabel	组织插件
+settingsPages.itemDefs.customize.plugins.personalDescription	插件（技能、规则、MCP 服务器和 hook 的集合），从市场、仓库或上传装，只你用
+settingsPages.itemDefs.customize.plugins.personalLabel	个人插件
+settingsPages.itemDefs.customize.rules.enterpriseDescription	规则：Devin 每个会话都遵循的长期指引，与企业账户每个组织共享
+settingsPages.itemDefs.customize.rules.enterpriseLabel	企业规则
+settingsPages.itemDefs.customize.rules.organizationDescription	规则：Devin 每个会话都遵循的长期指引，与组织每个成员共享（企业账户上是组织的 manage-plugins 权限，独立账户上是企业的）
+settingsPages.itemDefs.customize.rules.organizationLabel	组织规则
+settingsPages.itemDefs.customize.rules.personalDescription	规则：Devin 每个会话都遵循的长期指引，只你用
+settingsPages.itemDefs.customize.rules.personalLabel	个人规则
+settingsPages.itemDefs.customize.skills.enterpriseDescription	Devin 加载进云会话的技能（SKILL.md 指示），与企业账户每个组织共享
+settingsPages.itemDefs.customize.skills.enterpriseLabel	企业技能
+settingsPages.itemDefs.customize.skills.organizationDescription	Devin 加载进云会话的技能（SKILL.md 指示），与组织每个成员共享（企业账户上是组织的 manage-plugins 权限，独立账户上是企业的）
+settingsPages.itemDefs.customize.skills.organizationLabel	组织技能
+settingsPages.itemDefs.customize.skills.personalDescription	Devin 加载进云会话的技能（SKILL.md 指示），只你用
+settingsPages.itemDefs.customize.skills.personalLabel	个人技能
+settingsPages.itemDefs.defaultAccess	默认访问
+settingsPages.itemDefs.defaultAgentAPISessionsOrganization	你组织 API 会话默认 agent
+settingsPages.itemDefs.defaultBillingOrganization	默认计费组织
+settingsPages.itemDefs.defaultProfileAutomations	自动化默认配置
+settingsPages.itemDefs.defaultProfileSnapshotBuilds	快照构建默认配置
+settingsPages.itemDefs.defaultSlackSyncChannel	默认 Slack 同步频道
+settingsPages.itemDefs.defaultThisEnterprise	此企业默认
+settingsPages.itemDefs.defaultThisOrg	此组织默认
+settingsPages.itemDefs.devinCLIVersionConstraint	Devin CLI 版本约束
+settingsPages.itemDefs.devinCoach	Devin Coach
+settingsPages.itemDefs.devinUniversity	Devin University
+settingsPages.itemDefs.directMessages	私信
+settingsPages.itemDefs.dynamicWorkflows	Dynamic workflow
+settingsPages.itemDefs.editProfile	编辑配置
+settingsPages.itemDefs.editReusableSecurityProfile	编辑可复用安全配置
+settingsPages.itemDefs.fable5_1Preview	Fable 5.1（预览）
+settingsPages.itemDefs.fallbackOrganizationBilledAutomaticReviewsWhen	Devin 定不了用户计费组织时，自动分析计到此组织。
+settingsPages.itemDefs.fallbackOrganizationPylonSessions	Pylon 会话回退组织
+settingsPages.itemDefs.fallbackWhenBillingOrganizationCanT	用户计费组织解析不了时的回退
+settingsPages.itemDefs.fullBuildRefresh	全量构建刷新
+settingsPages.itemDefs.gPT5_6Sol	GPT-5.6 Sol
+settingsPages.itemDefs.gPT6AstraPreview	GPT-6 Astra（预览）
+settingsPages.itemDefs.gPT6SolPreview	GPT-6 Sol（预览）
+settingsPages.itemDefs.gPT6_1SolPreview	GPT-6.1 Sol（预览）
+settingsPages.itemDefs.howPylonSendersMatchedDevinUsers	Pylon 发送者怎么匹配 Devin 用户
+settingsPages.itemDefs.incidentIo	incident.io
+settingsPages.itemDefs.investigateResolveIncidentsDevin	用 Devin 查和解决事件
+settingsPages.itemDefs.learnHowUseDevinMostEffectively	学怎么最有效用 Devin
+settingsPages.itemDefs.letDevinKeepPersonalNotesEach	让 Devin 为每个成员跨会话记个人笔记
+settingsPages.itemDefs.letDevinKeepPersonalNotesEach2	让 Devin 为每个用户跨会话记个人笔记，跨全部组织或按组织
+settingsPages.itemDefs.letOrgAdminsTurnBillingTags	让组织管理员为自己组织开关计费标签
+settingsPages.itemDefs.letPeopleWithoutDevinAccountAsk	让没 Devin 账户的人提问
+settingsPages.itemDefs.linkIncident_ioAccountDevin	把你 incident.io 账户链到 Devin
+settingsPages.itemDefs.linkPagerDutyAccountDevin	把你 PagerDuty 账户链到 Devin
+settingsPages.itemDefs.linkPylonAccountDevin	把你 Pylon 账户链到 Devin
+settingsPages.itemDefs.makeEveryConfiguredRepositoryAvailableSnapshots	让已配仓库在每个平台的快照里都可用
+settingsPages.itemDefs.mapSlackChannelsSpecificDevinOrganizations	把 Slack 频道映射到特定 Devin 组织以路由会话
+settingsPages.itemDefs.memory	记忆
+settingsPages.itemDefs.newSessionsYouStartCanAutomatically	你开的新会话能自动同步到此 Slack 频道
+settingsPages.itemDefs.onlyProfileSNetworkPolicyApplies	只有配置的网络政策应用于构建 VM。继承会话默认。
+settingsPages.itemDefs.openAISGPT6AstraModel	OpenAI 的 GPT-6 Astra 模型
+settingsPages.itemDefs.openAISLatestModelPreviewAvailable	OpenAI 的最新模型。预览到 10 月 13 日
+settingsPages.itemDefs.openAISModelPreviewAvailableUntil	OpenAI 的模型。预览到 10 月 6 日
+settingsPages.itemDefs.openAISMostCapableModel	OpenAI 最强模型
+settingsPages.itemDefs.opus5_5Preview	Opus 5.5（预览）
+settingsPages.itemDefs.organization	组织
+settingsPages.itemDefs.overrides	覆盖
+settingsPages.itemDefs.overview	概览
+settingsPages.itemDefs.pagerDuty	PagerDuty
+settingsPages.itemDefs.perforce	Perforce
+settingsPages.itemDefs.proveOwnershipEmailDomainsDNSRecord	在 SSO 连接用邮箱域名前，先用 DNS 记录证明其所有权
+settingsPages.itemDefs.pylon	Pylon
+settingsPages.itemDefs.pylonAutomationTriggers	Pylon 自动化触发器
+settingsPages.itemDefs.pylonFollowUpMessages	Pylon 跟进消息
+settingsPages.itemDefs.pylonMCPAccess	Pylon MCP 访问
+settingsPages.itemDefs.pylonSecurityProfile	Pylon 安全配置
+settingsPages.itemDefs.repositoryPermissions	仓库权限
+settingsPages.itemDefs.restrictWhichDevinCLIVersionsMembers	限成员能用哪些 Devin CLI 版本。
+settingsPages.itemDefs.reusableSecurityRestrictionsSessions	可复用的会话安全限制
+settingsPages.itemDefs.rotateCredentialsEnterpriseSSSOConnections	轮换你企业 SSO 连接的凭据，已启用处可命名、编辑或移除
+settingsPages.itemDefs.runFullBuildWhenLastOne	上次构建老于此就跑全量构建
+settingsPages.itemDefs.sSOConnections	SSO 连接
+settingsPages.itemDefs.securityProfiles	安全配置
+settingsPages.itemDefs.signMethods	登录方法
+settingsPages.itemDefs.trackACUUsageTaggingDevinSessions	用计费标签标 Devin 会话以追 ACU 用量
+settingsPages.itemDefs.turnEmailGoogleGitHubSignOff	开关你企业的邮箱、Google 或 GitHub 登录
+settingsPages.itemDefs.userMatching	用户匹配
+settingsPages.itemDefs.verifiedEmailDomains	已验证邮箱域名
+settingsPages.itemDefs.whetherDevinCanReadModifyPylon	Devin 能否读写 Pylon 数据
+settingsPages.itemDefs.whetherNewDevinSessionsCanRead	新 Devin 会话能否在 Devin 已加入的公开 Slack 频道读和发
+settingsPages.itemDefs.whetherPylonBotCanSendFollow	Pylon bot 能否给链到某 issue 的 Devin 会话发跟进消息
+settingsPages.itemDefs.whetherSupportedPylonEventsCanTrigger	支持的 Pylon 事件能否触发自动化
+settingsPages.itemDefs.whoNewDevinSessionsCanSend	新 Devin 会话能私信谁
+settingsPages.lockUserCommitEmailToggleSetting.failedToUpdateCommitEmailLock	更新提交邮箱锁设置失败。
+settingsPages.lockUserCommitEmailToggleSetting.membersCanNowChangeTheirCommit	成员现在能改其提交邮箱。
+settingsPages.lockUserCommitEmailToggleSetting.userCommitEmailIsNowLocked	全部成员的提交邮箱已锁。
+settingsPages.managedWebhookSheet.boolean	布尔
+settingsPages.managedWebhookSheet.number	数字
+settingsPages.managedWebhookSheet.string	字符串
+settingsPages.marketplaceView.activated	已激活 {{layer}}
+settingsPages.marketplaceView.addAnotherInstallationHint	拿自己的登录和设置。你当前安装不变。
+settingsPages.marketplaceView.bundleDescription	你在这编的技能、规则、MCP 和 hook。
+settingsPages.marketplaceView.bundleDescriptionOrg	你在这编的技能、规则、MCP 和 hook，给此组织所有人。
+settingsPages.marketplaceView.bundleDescriptionScope	你在这编的技能、规则、MCP 和 hook，给 {{scope}} 上所有人。
+settingsPages.marketplaceView.bundleDescriptionUser	你在这编的技能、规则、MCP 和 hook，给你自己的会话。
+settingsPages.marketplaceView.couldNotActivate	激活不了 {{pluginName}}
+settingsPages.marketplaceView.couldNotDeactivate	停用不了 {{pluginName}}
+settingsPages.marketplaceView.couldNotInstall	装不了 {{pluginName}}
+settingsPages.marketplaceView.couldNotUninstall	卸不了 {{pluginName}}
+settingsPages.marketplaceView.deactivate	停用
+settingsPages.marketplaceView.deactivateTitle	停用 {{name}}？
+settingsPages.marketplaceView.deactivated	已停用 {{name}}
+settingsPages.marketplaceView.deactivating	停用中…
+settingsPages.marketplaceView.existingInstallation	你已有 1 个安装 · {{status}}
+settingsPages.marketplaceView.existingInstallations_one	你已有 {{total}} 个安装 · {{connected}} 已连
+settingsPages.marketplaceView.existingInstallations_other	你已有 {{total}} 个安装 · {{connected}} 已连
+settingsPages.marketplaceView.organization	组织
+settingsPages.marketplaceView.organizationPlugin	组织插件
+settingsPages.marketplaceView.personal	个人
+settingsPages.marketplaceView.personalPlugin	个人插件
+settingsPages.marketplaceView.removed	已移除 {{name}}
+settingsPages.marketplaceView.removedFrom	已从 {{scopeName}} 移除 {{name}}
+settingsPages.marketplaceView.scopePlugin	{{scope}} 插件
+settingsPages.marketplaceView.uninstallFromScope	从 {{scope}} 卸载
+settingsPages.marketplaceView.uninstallTitle	卸载 {{name}}？
+settingsPages.marketplaceView.uploadedPlugin	上传的插件
+settingsPages.marketplaceView.viewInstallation	看安装
+settingsPages.marketplaceView.viewInstallations	看安装
+settingsPages.mcpToolsPanel.couldNotSaveTheToolPermission	存不了工具权限
+settingsPages.orgConfigProvider.failedToResetSetting	重置设置失败
+settingsPages.orgSecretsSection.addYourFirstSecretToGet	加你首个机密开始。
+settingsPages.orgSecretsSection.couldntLoadSecretsTryAgainLater	加载不了机密。稍后再试。
+settingsPages.orgSecretsSection.createSecret	建机密
+settingsPages.orgSecretsSection.importSecrets	导入机密
+settingsPages.orgSecretsSection.noMatchingSecrets	没有匹配的机密
+settingsPages.orgSecretsSection.noSecretsFound	找不到机密
+settingsPages.orgSecretsSection.noSecretsHaveBeenAddedYet	还没加机密。
+settingsPages.orgSecretsSection.searchSecrets	搜索机密
+settingsPages.orgSecretsSection.tryADifferentSearchTerm	换个搜索词试试。
+settingsPages.organizationBlueprintContainer.organization	组织
+settingsPages.organizationBlueprintContainer.thisWillTriggerARebuildFor	这将触发此组织环境重建。
+settingsPages.personalMCPSection.oauthLoginFailed	OAuth 登录失败：{{message}}
+settingsPages.personalMCPSection.unableToStartOauthLinkPlease	启动不了 OAuth 链接。请重试或找你管理员。

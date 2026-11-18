@@ -1,0 +1,70 @@
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.newSessionInputControls.experimental	新会话提示里控件按序：加上下文、Agent、模式与权限、模型。哪些可用取决于所选 harness。Tab 到控件，方向键遍历工具栏项，Enter 或空格开选择器。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.newSessionInputControls.legacy	新会话提示里「加上下文」和「模型」在输入工具栏。「Agent」「模式」「权限」在所选 harness 支持时显在输入下方。Tab 到控件，方向键遍历工具栏项，Enter 或空格开选择器。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.newSessionPickers	新会话编写器里开并聚焦工作区选择器{0}或 harness 选择器{1}。聚焦任一选择器控件开其上下文菜单{2}配其键绑。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.preparation	新会话准备中，转写显你提交的提示和附件，随后启动进度。Tab 到进度消息旁「显日志」按 Enter 开 Dev Container 输出频道。聊天输入和附件控件在准备完前禁用。用输入的「停止」操作或「取消聊天」命令{0}取消准备。准备失败或取消，你的原提示和附件留在新会话编写器。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.remoteDelegation	叫 agent 列远程 agent host 或带平台和资源要求建远程会话。建用标准工具确认，不改聚焦聊天。结果带远程会话链接。此 Agents 窗口连着时远程会话可回消息给源聊天。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.remoteInspection	叫 agent 用会话链接检查远程会话。检查读其当前态和最新响应或错误，不改焦点、不标已读、不批待批请求。主机不可用时结果说明原因；检查不重连它。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.removeSessionRecord	已记产物和引用每行给「从会话移除」。Tab 到行操作。只有一项可见时改用其 pill 悬停操作或上下文菜单。移除等持久化且只删会话记录；不删链接的资源、不关拉取请求或议题、不移独立会话关联。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.removeWorkspace	工作区行给「移除」操作。方向键聚焦工作区，Tab 到其操作。移除的工作区跨重载隐起，直到你浏览到该工作区并从新会话编写器成功起会话。移工作区不删其会话或文件。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.renameChat	非主聊天可改名时，聚焦其在会话列表的标签或嵌套行调「改名{0}」，或双击其标题，内联改。输新标题，Enter 确认 Esc 取消。在聊天转写或输入里调「改名」则开提示框。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.repositoryCreation	此主机为每会话建新环境。开「选仓库」选其仓库。选仓库不起环境；发首条消息才起。发前用模式选择器选交互、计划或自动，权限选择器配工具批准。开模型选择器选云模型和其支持的推理档位。方向键遍历选项，Enter 选定，Esc 关选择器。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.repositorySelection	浏览器里选 GitHub 仓库时，搜或输 GitHub URL 或 owner/repo。方向键遍历结果，Enter 选定，Esc 取消。提示则登 GitHub。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.responseSelectionInput	选助手回复文本时，「提问」输入框显。输侧问题按 Enter 发，Shift+Enter 插新行，Esc 关输入框。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.responseSelectionMenu	选助手回复文本时，操作菜单显。Tab 聚焦菜单，上下方向键遍历操作，Enter 激活。Esc 关菜单。「侧聊询问」开锚定所选文本的问题输入。「引用」在对话交互时把选区作为引用块加进聊天输入。「复制」复制所选文本。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.sessionCreationFilters	「创建于」列建了会话的应用，按本地、云和每个远程主机分组，应用名里带环境。每个可用环境总给 VS Code，即使你还没在那建会话。其它应用在发现其中建的会话后列出。只列已含环境的应用。排除环境隐其应用但不改其勾选；再含则恢复。其它列表筛选不移应用选项。所含远程主机在缓存会话还在时保其应用，即使断了。若没含环境，先选个环境。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.sessionFilters	「环境」「创建于」「Harness」子菜单筛会话列表。勾选的项被包含。本地和远程主机上，VS Code 以外的应用默认隐。云里 Slack 和 Teams 应用也默认隐。「重置筛选」恢复这些默认。「显已完成」或「显已归档」（看你设置）含归档会话。桌面上「紧凑视图」和「收全组」在会话更多操作菜单。手机上用「排序」和「查找」浏览列表。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.sessionGrid	会话面板与每会话内聊天组构成独立网格。聚焦左{0}、右{1}、上{2}、下{3}的会话。「会话布局」菜单和命令面板给「会话左移/右移/上移/下移」「加宽/缩窄会话」「加高/缩低会话」「均衡网格排会话」。侧栏会话上下文菜单用「在网格中开」把它在活跃会话旁/上/下开。排布保对话不改侧面板。手机上只显活跃会话；回宽窗恢复桌面排布。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.sessionOptions	新会话输入上方初始显工作区、仓库、harness 选择器。聊天变窄时选择器标签从右到左逐个换成图标，工作区名除外。空间够了标签回来。Tab/Shift+Tab 或左右方向键在控件间移。Enter 或空格开选择器，上下方向键遍历选项，Esc 关它并焦点回其控件。隔离选择器给「新 Worktree」（为会话建独立副本）或「分支」（在现有仓库工作）。分支选择器选新 worktree 的基分支或在现有仓库 checkout 分支。「隐会话选项」收这些控件不改你的选。「显会话选项」或「聚焦新会话 Harness 选择器」命令再展。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.sessionOptions.screenReader	新会话输入上方显工作区、仓库、harness 选择器。聊天变窄时选择器标签从右到左逐个换成图标，工作区名除外。空间够了标签回来。Tab/Shift+Tab 或左右方向键在控件间移。Enter 或空格开选择器，上下方向键遍历选项，Esc 关它并焦点回其控件。隔离选择器给「新 Worktree」（为会话建独立副本）或「分支」（在现有仓库工作）。分支选择器选新 worktree 的基分支或在现有仓库 checkout 分支。屏幕阅读器活跃时这些控件保持展开。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.sessionOrdering	桌面上「筛选会话」菜单给「排序」和「分组」子菜单。按工作区分组时「显」在「最近」和「全部」会话间切。当前选在子菜单里打勾。右方向键开子菜单，左方向键回，Enter 或空格选项。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.sessionsListChatsAsSessionView	多用户可见聊天的会话在会话列表里把聊天嵌套在会话下。方向键浏览列表，Enter 以会话视图显聊天。侧聊和子 agent 聊天不列此嵌套表：侧聊从会话溢出菜单的「侧聊」下拉进，子 agent 聊天从聊天转写里其 pill 开。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.sessionsListChatsAsTabs	多用户可见聊天的会话在会话列表里把聊天嵌套在会话下。方向键浏览列表，Enter 以标签开聊天。侧聊和子 agent 聊天不列此嵌套表：侧聊从会话溢出菜单的「侧聊」下拉进，子 agent 聊天从聊天转写里其 pill 开。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.sessionsListDefaultArchiveActions	会话行工具栏在「归档」前给置顶/取消置顶。多聊天会话开其上下文菜单起新聊天。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.sessionsListDefaultDoneActions	会话行工具栏在「标完」前给置顶/取消置顶。多聊天会话开其上下文菜单起新聊天。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.sessionsListPromotedNewChatArchiveActions	多聊天会话，会话行工具栏在「归档」前给「新嵌套会话」。开会话上下文菜单置顶/取消置顶。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.sessionsListPromotedNewChatDoneActions	多聊天会话，会话行工具栏在「标完」前给「新嵌套会话」。开会话上下文菜单置顶/取消置顶。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.showArchivedChats	用会话列表筛选菜单的「已归档」控是否显已归档会话和嵌套聊天。勾表示显归档内容。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.showDoneChats	用会话列表筛选菜单的「已完成」控是否显已完成会话和嵌套聊天。勾表示显已完成内容。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.subagentPillDetails	子 agent pill 可报其模型设置（有的话）。Tab 聚焦活动行里文件和 markdown 链接，Enter 独立于子 agent 聊天开它们。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.syncChanges.experimental	有入或出提交的文件夹会话可用时，「同步更改」带提交数显在输入上方与 worktree、分支控件同一仓库工具栏。选「新 Worktree」时隐。Tab 和方向键到它，Enter 或空格同步会话仓库。同步跑时操作禁用。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.syncChanges.legacy	有入或出提交的文件夹会话可用时，「同步更改」带提交数显在输入下方与 worktree、分支控件同一仓库工具栏。选「新 Worktree」时隐。Tab 和方向键到它，Enter 或空格同步会话仓库。同步跑时操作禁用。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.welcomeName	新会话里欢迎标题显时播报。要关此播报，把 accessibility.verbosity.newSessionWelcome 设为 false。Tab 到欢迎标题旁「自定义欢迎消息」，或开其上下文菜单{0}。选「名」输自定义名，或清掉可用时取你 GitHub 名。选「短语」开设置加或换欢迎短语，用 {1} 定位名。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.workspaceHandoff	从编辑器开 Agents 可能建议该编辑器文件夹用于新会话。你自己选工作区或起别会话会取消待决建议。若明请的工作区选不了，通知给「重试」和「选工作区」操作。
+vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp/sessionsChat.worktreeCleanupSuggestion	至少 20 个不活跃会话 worktree 可清或可清的不活跃 worktree 能回收至少 5 GiB 时，会话列表下方可能显存储建议，并带「开 Worktree 清理」命令面板命令播报。此命令也在会话更多操作菜单和会话上下文菜单。活跃、跑中、待输入、置顶、近期用的会话排除。Tab 或 Shift+Tab 到「开 Worktree 清理」「不再显」或「忽略会话存储建议」，Enter 或空格激活。「不再显」跨重启禁未来建议和播报。焦点在建议时按 Esc 为当前窗口忽略它。不用建议本身要停这些建议和播报，命令面板跑「禁用会话存储清理建议」，或跑「开 Worktree 清理」清掉「存储变大时建议清会话存储」勾框。
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/pathNotExistDetail	路径 '{0}' 在此电脑不存在。
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/pathNotExistTitle	路径不存在
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.attachFolderWithEllipsis	附文件夹…
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.attachRepositoryWithEllipsis	附仓库…
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.chat	聊天
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.devContainer.label	{0} - Dev Container
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.devContainer.local	用本地
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.devContainer.remote	用远程主机
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.devContainer.samples	Dev Container 示例
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.devContainer.use	用 Dev Container
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.manageRemoteHost	管 {0}
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.noFolderDescription	在临时目录起会话。
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.noWorkspace	无工作区
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.noWorkspaceSelectedAriaLabel	无工作区新会话
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.openFolder	开文件夹…
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.remote	远程
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.remoteAriaLabel	{0}，{1}
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.remoteFilter	搜远程
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.statusWithActiveSession	{0} · {1} 个活跃会话
+vs/sessions/contrib/chat/browser/sessionWorkspacePicker/workspacePicker.statusWithActiveSessions	{0} · {1} 个活跃会话
+vs/sessions/contrib/chat/browser/slashCommands/slashCommand.blobby	显 Blobby 或开其颜色自定义
+vs/sessions/contrib/chat/common/welcomePhrases/newSession.welcome.building	造点啥？
+vs/sessions/contrib/chat/common/welcomePhrases/newSession.welcome.cook	开做
+vs/sessions/contrib/chat/common/welcomePhrases/newSession.welcome.lockIn	该上心了
+vs/sessions/contrib/chat/common/welcomePhrases/newSession.welcome.move	下一步啥？
+vs/sessions/contrib/chat/common/welcomePhrases/newSession.welcome.named.building	造点啥，{0}？
+vs/sessions/contrib/chat/common/welcomePhrases/newSession.welcome.named.cook	开做，{0}
+vs/sessions/contrib/chat/common/welcomePhrases/newSession.welcome.named.lockIn	该上心了，{0}
+vs/sessions/contrib/chat/common/welcomePhrases/newSession.welcome.named.move	下一步啥，{0}？
+vs/sessions/contrib/chat/common/welcomePhrases/newSession.welcome.named.ship	发点东西，{0}
+vs/sessions/contrib/chat/common/welcomePhrases/newSession.welcome.ship	发点东西
+vs/sessions/contrib/chat/electron-browser/chat.contribution/agentsHandoff.invalidDraft	草稿复制不了。你的提示和附件还在编辑器。
+vs/sessions/contrib/chat/electron-browser/chat.contribution/agentsHandoff.sessionNotFound	链接的会话找不到：{0}
+vs/sessions/contrib/editor/browser/diffEditor.sessions.contribution/sessions.diffEditor.wordWrap	控 Agents 窗口里 diff 编辑器怎么换行。
+vs/sessions/contrib/editor/browser/diffEditor.sessions.contribution/sessions.diffEditor.wordWrap.inherit	行按 {0} 设置换行。
+vs/sessions/contrib/editor/browser/diffEditor.sessions.contribution/sessions.diffEditor.wordWrap.off	行永不换行。
+vs/sessions/contrib/editor/browser/diffEditor.sessions.contribution/sessions.diffEditor.wordWrap.on	行在视口宽换行。

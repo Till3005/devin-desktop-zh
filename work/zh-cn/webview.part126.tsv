@@ -1,0 +1,160 @@
+transcript.findingsSecurity_other	{{count}} 个安全发现项
+transcript.findingsVulnerabilities_one	{{count}} 个漏洞
+transcript.findingsVulnerabilities_other	{{count}} 个漏洞
+transcript.firstSession.connectGithub	<githubLink>连 GitHub</githubLink> 以在你仓库建 PR
+transcript.firstSession.moreTips	给首次用户的更多提示
+transcript.firstSession.tryTaggingSlack	试在 <slackLink>Slack</slackLink> 里 @Devin，直接从线程起任务
+transcript.firstSession.tryTaggingSlackOrTeams	试在 <slackLink>Slack</slackLink> 或 <teamsLink>Teams</teamsLink> 里 @Devin，直接从聊天起任务
+transcript.firstSession.tryTaggingTeams	试在 <teamsLink>Teams</teamsLink> 里 @Devin，直接从聊天起任务
+transcript.firstSessionCongratulations	恭喜你起了首个会话！
+transcript.fixForThisPr	为此 PR 修
+transcript.fixForThisPrOnly	只为此 PR 修
+transcript.forceRevert	强制还原
+transcript.forkFailed	分叉失败：{{reason}}
+transcript.forkFromMessage	从这分叉
+transcript.forwarded	已转发
+transcript.forwardedBy	转发者
+transcript.fromSourceApp	来自 <icon/><sourceLink>{{app}}</sourceLink>
+transcript.fromSourceAppVia	来自 <icon/><sourceLink>{{app}}</sourceLink> 经 <viaLink>{{name}}</viaLink>
+transcript.gapOf	间隔 {{duration}}
+transcript.grantConfirm	确认
+transcript.grantPluginContents	{{name}} · {{contents}}
+transcript.grantRowCannotOpen	你开不了此会话
+transcript.grantViewerCannotOpen	你开不了此会话，所以只有能开的人才能批准此请求。
+transcript.grantViewerCannotOpenSome	你开不了其中一些会话，所以只有全开得了的人才能批准此请求。
+transcript.hiddenUpdate	隐藏更新
+transcript.hideEdits	藏编辑
+transcript.hideFullMessage	藏完整消息
+transcript.iDisagree	我不同意
+transcript.ignoredFeedbackFrom	已忽略来自 {{names}} 的反馈
+transcript.ignoredFeedbackFromPrComments	已忽略来自 PR 评论的反馈
+transcript.inboxDecisionConfirm	确认
+transcript.inboxDecisionCounts	已处理 {{resolved}} · 等 {{waiting}}
+transcript.inboxDecisionHandled	已处理
+transcript.inboxDecisionRecommended	已建议
+transcript.inboxDecisionResolved	已处理 {{resolved}}
+transcript.inboxDecisionWaiting	等 {{waiting}}
+transcript.inboxItemResolvedViewThread	已处理 · 在线程里看
+transcript.inboxUpdate	需要你更新
+transcript.internalDebugging	内部调试
+transcript.irreversibleActions_one	{{count}} 个操作不可还原
+transcript.irreversibleActions_other	{{count}} 个操作不可还原
+transcript.joinSlackChannel	加 Slack 频道
+transcript.keepingRepoUpToDate	让 {{repo}} 保持最新
+transcript.keepingReposUpToDate	让仓库保持最新
+transcript.keyEsc	esc
+transcript.knowledgeEdit	编辑
+transcript.knowledgeHideLines_one	藏 {{count}} 行
+transcript.knowledgeHideLines_other	藏 {{count}} 行
+transcript.knowledgeShowMoreLines_one	再显 {{count}} 行
+transcript.knowledgeShowMoreLines_other	再显 {{count}} 行
+transcript.languageTranslation	{{language}}翻译：
+transcript.launchedSubagent	起了子 agent
+transcript.leaveSlackChannel	离开 Slack 频道
+transcript.listedSuggestions	列了 {{totalCount}} 个建议中的 {{returnedCount}} 个
+transcript.listedSuggestionsFiltered	列了 {{totalCount}} 个建议中的 {{returnedCount}} 个（{{filters, list(type: unit)}}）
+transcript.loadingEarlierMessages	加载更早消息中…
+transcript.loadingOlderMessages	加载更早消息中…
+transcript.manageGitSettings	管 Git 设置
+transcript.mcpSourceCustom	自定义服务器
+transcript.mcpSourceMarketplace	Devin 市场
+transcript.mergeConflict	合并冲突
+transcript.mergeConflictOnPr	PR #{{number}} 合并冲突
+transcript.mergeConflictOnPrTitled	PR #{{number}} 合并冲突：{{title}}
+transcript.messageActions	消息操作
+transcript.messageFlagged	消息被标记
+transcript.messageFlaggedUsagePolicies	此消息因可能违反你组织使用政策被标记。
+transcript.messageThreadSummaryCount_one	{{count}} 条消息
+transcript.messageThreadSummaryCount_other	{{count}} 条消息
+transcript.messageThreadSummaryTo_one	给 {{name}} 发了消息
+transcript.messageThreadSummaryTo_other	给 {{name}} 发了 {{count}} 条消息
+transcript.messageThreadSummary_one	来自 {{names}} 的 {{count}} 条消息
+transcript.messageThreadSummary_other	与 {{names}} 的 {{count}} 条消息
+transcript.metadataCommand	命令
+transcript.metadataMacro	宏
+transcript.metadataRecommendedMcps	推荐 MCP
+transcript.metadataSource	来源
+transcript.metadataTrigger	触发
+transcript.metadataType	类型
+transcript.metadataUrl	URL
+transcript.modelDegraded	暂用备用模型
+transcript.modelDegradedDetail	主模型不可用——Devin 切到备用模型继续干活。结果可能略有不同。
+transcript.modelDegradedRefusal	请求被拒——用备用模型
+transcript.modelDegradedRefusalDetail	主模型拒了此请求——Devin 切到备用模型继续。
+transcript.modelRecovered	回主模型了
+transcript.modelRecoveredDetail	回主模型了。
+transcript.modelViaProvider	{{model}} 经 {{modelProvider}}
+transcript.moreActions	更多操作
+transcript.moreAllowOptions	更多允许选项
+transcript.morePrActions	更多操作
+transcript.moreRejectOptions	更多拒绝选项
+transcript.moreTestingOptions	更多测试选项
+transcript.needsYou	需要你
+transcript.needsYouCard.budget	用量上限提议
+transcript.needsYouCard.environmentConfig	环境更改
+transcript.needsYouCard.localAccess	连你本地机器
+transcript.needsYouCard.mcpAuth	登录 {{server}}
+transcript.needsYouCard.networkAccess	网络访问请求
+transcript.needsYouCard.repoCreation	新仓库
+transcript.needsYouCard.toolPermission	需权限
+transcript.networkAllowEverything	允许一切
+transcript.networkAllowEverythingTooltip	关此会话的网络控制
+transcript.networkAllowInAutomation	加到自动化
+transcript.networkAllowInBoth	加到配置和自动化
+transcript.networkAllowInProfile	加到配置
+transcript.networkBlockedByAutomation_one	此目标被自动化网络政策挡。
+transcript.networkBlockedByAutomation_other	这些目标被自动化网络政策挡。
+transcript.networkBlockedByBothGeneric_one	此目标被安全配置和自动化网络政策挡。
+transcript.networkBlockedByBothGeneric_other	这些目标被安全配置和自动化网络政策挡。
+transcript.networkBlockedByBoth_one	此目标被安全配置「{{name}}」和自动化网络政策挡。
+transcript.networkBlockedByBoth_other	这些目标被安全配置「{{name}}」和自动化网络政策挡。
+transcript.networkBlockedByProfileGeneric_one	此目标被安全配置挡。
+transcript.networkBlockedByProfileGeneric_other	这些目标被安全配置挡。
+transcript.networkBlockedByProfile_one	此目标被安全配置「{{name}}」挡。
+transcript.networkBlockedByProfile_other	这些目标被安全配置「{{name}}」挡。
+transcript.networkConfirmInAutomation_one	这会为自动化网络政策应用的每个会话允许所求目标。
+transcript.networkConfirmInAutomation_other	这会为自动化网络政策应用的每个会话允许所求目标。
+transcript.networkConfirmInBoth_one	这会为安全配置和自动化网络政策管的每个会话允许所求目标。
+transcript.networkConfirmInBoth_other	这会为安全配置和自动化网络政策管的每个会话允许所求目标。
+transcript.networkConfirmInProfileTitle	确认配置更改
+transcript.networkConfirmInProfile_one	这为安全配置管的每个会话允许此目标。
+transcript.networkConfirmInProfile_other	这为安全配置管的每个会话允许这些目标。
+transcript.networkContactAdmin_one	找管理员允许它。
+transcript.networkContactAdmin_other	找管理员允许它们。
+transcript.networkGovernedWriteScope_one	为共享政策管的每个会话允许此目标。
+transcript.networkGovernedWriteScope_other	为共享政策管的每个会话允许这些目标。
+transcript.networkManageProfiles	管安全配置
+transcript.networkReconcileFailed_one	政策已允许此目标，但请求解析不了。
+transcript.networkReconcileFailed_other	政策已允许这些目标，但请求解析不了。
+transcript.networkReconciling_one	政策已允许此目标——解析中…
+transcript.networkReconciling_other	政策已允许这些目标——解析中…
+transcript.newCommitsPushed	新提交推到 {{branch}}（{{shortSha}}）
+transcript.newSideChat	新侧聊
+transcript.noticeContactAdmin	找你账户管理员
+transcript.noticeIndividualPlanBodyAskAdmin	你账户在个人方案但你不是组织所有者。找你账户管理员升到 Teams 方案让所有人能用。
+transcript.noticeIndividualPlanBodyUpgrade	你账户在个人方案但你不是组织所有者。升到 Teams 方案给所有人访问。
+transcript.noticeIndividualPlanTitle	你账户在个人方案
+transcript.noticeOutOfCreditsBody	升级你方案以继续和 Devin 的会话
+transcript.noticeOutOfCreditsTitle	你点数用完了
+transcript.noticeResumableBody	你现在能恢复和 Devin 的会话了
+transcript.noticeResumableTitle	从上次处继续？
+transcript.noticeResumeSession	恢复会话
+transcript.noticeUpgradePlan	升级方案
+transcript.noticeUpgradeToTeams	升到 Teams
+transcript.noticeViewUsageSettings	看用量设置
+transcript.openInBrowserPreview	浏览器
+transcript.openInDesktopTab	在 Desktop 标签页开
+transcript.openInDevinReview	在 Devin Review 开
+transcript.openInProvider	在 {{provider}} 开
+transcript.openInSessionTab	在会话标签页开
+transcript.openLocally	本地开
+transcript.original	原文：
+transcript.outpost.claimExpired	Outpost 机器没连；再等你的 outpost
+transcript.outpost.claimExpired_named	Outpost 机器没连；再等 outpost「{{name}}」
+transcript.outpost.claimed	Outpost 机器接了会话，连接中
+transcript.outpost.connected	Outpost 机器已连
+transcript.outpost.died	Outpost 机器挂了；再等你的 outpost
+transcript.outpost.died_named	Outpost 机器挂了；再等 outpost「{{name}}」
+transcript.outpost.disconnected	Outpost 机器断连
+transcript.outpost.failed	Outpost 机器起不了；会话移出队列
+transcript.outpost.failed_named	Outpost「{{name}}」机器起不了；会话移出队列

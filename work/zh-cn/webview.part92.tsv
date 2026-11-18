@@ -1,0 +1,200 @@
+settings.membershipIdpTooltip	经 IdP 组纳入：编组映射以移出档位
+settings.mergeBudgetsDescription_one	把其组织移到 {{root}} 并归档该预算。
+settings.mergeBudgetsDescription_other	把其组织移到 {{root}} 并归档这些预算。
+settings.mergeBudgetsFailed_one	合并不了 {{count}} 个预算。
+settings.mergeBudgetsFailed_other	合并不了 {{count}} 个预算。
+settings.mergeBudgetsSkipped_one	{{count}} 个所选预算留下：它是根，或其一个子预算没被选中。
+settings.mergeBudgetsSkipped_other	{{count}} 个所选预算留下：它们是根，或其一个子预算没被选中。
+settings.mergeBudgetsSuccess_one	已合并 {{count}} 个预算
+settings.mergeBudgetsSuccess_other	已合并 {{count}} 个预算
+settings.mergeBudgetsTitle_one	把 {{name}} 并入 {{root}}？
+settings.mergeBudgetsTitle_other	把 {{count}} 个预算并入 {{root}}？
+settings.mergeIntoBudget	并入 {{name}}
+settings.mergeManagerApprover.approveAs	以谁批准
+settings.mergeManagerApprover.configure	在 GitHub 上配置
+settings.mergeManagerApprover.description	选哪个 GitHub 应用为 Autoapprover 批准拉取请求
+settings.mergeManagerApprover.devin.appLabel	Devin 应用
+settings.mergeManagerApprover.devin.description	以 Devin 应用批准。GitHub 不让它批准自己开的拉取请求。
+settings.mergeManagerApprover.devin.label	Devin
+settings.mergeManagerApprover.devin_review.appLabel	Devin Review 应用
+settings.mergeManagerApprover.devin_review.description	以独立的 Devin Review 应用批准，含 Devin 自己写的拉取请求。
+settings.mergeManagerApprover.devin_review.label	Devin Review
+settings.mergeManagerApprover.help	想连 Devin 写的拉取请求也自动批，就选 Devin Review。
+settings.mergeManagerApprover.install	在 GitHub 上装
+settings.mergeManagerApprover.installed	已装于 {{accounts, list}}。
+settings.mergeManagerApprover.notInstalled	没装于 {{accounts, list}}。装好前那边由 Devin 批准。
+settings.mergeManagerApprover.saveFailed	存不了批准者。请重试。
+settings.mergeManagerApprover.title	批准者
+settings.mergeManagerEscalation.capHelp	同时在多处被标的拉取请求多半是弄错了。超过此上限，Autoapprover 把拉取请求标记为有缺陷，而非乱发审查申请。
+settings.mergeManagerEscalation.capLabel	审查者过多封顶
+settings.mergeManagerEscalation.checkHelp	Autoapprover 跑时发「Devin Review / Code owners」提交状态。
+settings.mergeManagerEscalation.checkLabel	发 CI 检查
+settings.mergeManagerEscalation.condition.ran	Autoapprover 跑完
+settings.mergeManagerEscalation.condition.resolved	全部升级已解决
+settings.mergeManagerEscalation.conditionHelp	检查何时变绿。要挡住合并，在你仓库的分支规则里把它标为必需。
+settings.mergeManagerEscalation.conditionLabel	CI 检查通过条件
+settings.mergeManagerEscalation.description	对高风险更改，Autoapprover 把审查升级给人。
+settings.mergeManagerEscalation.descriptionOwners	有 CODEOWNERS 文件时，可申请各被标区域的 owner，或要求其批准。
+settings.mergeManagerEscalation.mode.anyone.description	任何有写访问的人可解决审查；不申请任何人。
+settings.mergeManagerEscalation.mode.anyone.label	任何人都可批准
+settings.mergeManagerEscalation.mode.owners_requested.description	申请各被标区域的代码 owner；任何有写访问的人仍可批准。
+settings.mergeManagerEscalation.mode.owners_requested.label	申请代码 owner
+settings.mergeManagerEscalation.mode.owners_required.description	每个被标区域需其一个代码 owner 批准，经 CI 检查强制。
+settings.mergeManagerEscalation.mode.owners_required.label	必须代码 owner
+settings.mergeManagerEscalation.modeLabel	批准行为
+settings.mergeManagerEscalation.saveFailed	存不了升级设置。请重试。
+settings.mergeManagerEscalation.title	升级
+settings.mergeManagerInstructions.add	加指示
+settings.mergeManagerInstructions.addTitle	加指示
+settings.mergeManagerInstructions.bodyLabel	指示
+settings.mergeManagerInstructions.conflict	你编辑期间这些指示变了。已显示最新版，你的更改没保存。
+settings.mergeManagerInstructions.conflictReloadFailed	你编辑期间这些指示变了，且最新版加载不了。你的更改没保存。
+settings.mergeManagerInstructions.editAriaLabel	编辑 {{target}} 的指示
+settings.mergeManagerInstructions.editTitle	编辑指示
+settings.mergeManagerInstructions.editTooltip	编辑指示
+settings.mergeManagerInstructions.help	告诉 Autoapprover 你团队什么免审直接批、什么总要人看。
+settings.mergeManagerInstructions.loadError	加载不了指示
+settings.mergeManagerInstructions.placeholder	改计费代码总要人审
+settings.mergeManagerInstructions.removeAriaLabel	移除 {{target}} 的指示
+settings.mergeManagerInstructions.removeButton	移除
+settings.mergeManagerInstructions.removeConflict	这些指示自你加载后变了。重新加载再试。
+settings.mergeManagerInstructions.removeDescription	Autoapprover 将停用 {{target}} 的指示。
+settings.mergeManagerInstructions.removeFailed	移除不了指示
+settings.mergeManagerInstructions.removeTitle	移除指示？
+settings.mergeManagerInstructions.removeTooltip	移除指示
+settings.mergeManagerInstructions.removed	指示已移除
+settings.mergeManagerInstructions.saveFailed	存不了指示
+settings.mergeManagerInstructions.saved	指示已存
+settings.mergeManagerInstructions.scopeLabel	应用于
+settings.mergeManagerInstructions.scopeRequired	请选这些指示的应用范围
+settings.mergeManagerInstructions.title	指示
+settings.mergeManagerInstructions.updated	更新于 {{date}}
+settings.mergeManagerInstructions.viewAriaLabel	看 {{target}} 的指示
+settings.mergeManagerInstructions.viewTitle	指示
+settings.mergeManagerInstructions.viewTooltip	看指示
+settings.mergeManagerIntro	Autoapprover 面向合并前必须批准审查的仓库。它批准登记过、不需要人就能安全合并的拉取请求，审查者只看剩下的。其批准算作来自 Devin 的一次批准审查，不算代码 owner 审查，且它从不自己合并。
+settings.mergeManagerLabel	Autoapprover
+settings.mergeManagerShadow.description	试 Autoapprover 而不让它真批任何东西
+settings.mergeManagerShadow.help	Autoapprover 以评论给出结论，不批准拉取请求也不要求更改。
+settings.mergeManagerShadow.label	以影子模式跑
+settings.mergeManagerShadow.saveFailed	存不了影子模式。请重试。
+settings.mergeManagerShadow.title	影子模式
+settings.mergeManagerStats.approvalRate	率
+settings.mergeManagerStats.approvedLabel_one	已批准
+settings.mergeManagerStats.approvedLabel_other	已批准
+settings.mergeManagerStats.description	Autoapprover 怎么判定它评估过的拉取请求
+settings.mergeManagerStats.escalationApproved	Owner 已批
+settings.mergeManagerStats.escalationBlocked	被要求更改
+settings.mergeManagerStats.escalationOverCap	超审查者上限
+settings.mergeManagerStats.escalationRequested	已申请审查者
+settings.mergeManagerStats.escalationWouldRequest	会申请审查者
+settings.mergeManagerStats.filterApproved	已批准
+settings.mergeManagerStats.filterFailed	失败
+settings.mergeManagerStats.filterLabel	显示结论
+settings.mergeManagerStats.filterOverCap	超审查者上限
+settings.mergeManagerStats.filterReview	需审查
+settings.mergeManagerStats.graphLabel	按天：{{approved}} 批准、{{review}} 升级
+settings.mergeManagerStats.historyDescription	最近 {{days}} 天 Autoapprover 的最新结论。影子模式下，批准是它本会做的。
+settings.mergeManagerStats.historyEmpty	最近 {{days}} 天没有结论
+settings.mergeManagerStats.historyFilterEmpty	没有结论匹配此筛选
+settings.mergeManagerStats.historyLoadError	加载不了 Autoapprover 的结论
+settings.mergeManagerStats.historyLoading	加载结论中…
+settings.mergeManagerStats.historyTitle	最近 Autoapprover 结论
+settings.mergeManagerStats.labelAgree	同意此结论
+settings.mergeManagerStats.labelDisagree	不同意此结论
+settings.mergeManagerStats.labelError	存不了你对结论的判定
+settings.mergeManagerStats.labelGroup	你对结论的判定
+settings.mergeManagerStats.overCapWarning_one	{{count}} 个拉取请求跳过审查者：超审查者上限
+settings.mergeManagerStats.overCapWarning_other	{{count}} 个拉取请求跳过审查者：超审查者上限
+settings.mergeManagerStats.reviewLabel_one	已升级
+settings.mergeManagerStats.reviewLabel_other	已升级
+settings.mergeManagerStats.shadowBadge	影子模式
+settings.mergeManagerStats.title	批准
+settings.mergeManagerStats.verdictApproved	已批准
+settings.mergeManagerStats.verdictReview	需审查
+settings.mergeManagerStats.verdictWouldApprove	本会批准
+settings.mergeManagerStats.viewHistory	看结论
+settings.mergeManagerStats.wouldApproveLabel_one	本会批准
+settings.mergeManagerStats.wouldApproveLabel_other	本会批准
+settings.messageAcuLimitDescription	你每条消息 Devin 能用的最大 ACU
+settings.messageRewriteAdaptive	自适应
+settings.messageRewriteOff	关
+settings.messageRewriteView	消息修订
+settings.messageRewriteViewDescription	改写只精简长 Devin 消息时，你可在它和原文间切。自适应显示修订版，你正看着会话时除外。
+settings.messageRewriteViewOriginal	总是原文
+settings.messageRewriteViewRevised	总是修订版
+settings.messageTldrCollapse	TLDR
+settings.messageTldrCollapseCollapsed	总是收起
+settings.messageTldrCollapseDescription	改写砍掉长 Devin 消息大部时，它在消息上方显示为 TLDR。自适应收起消息，你正看着会话时除外。
+settings.messageTldrCollapseExpanded	总是展开
+settings.messageUsageLimit	消息用量上限
+settings.messageUsageLimitDescription	你每条消息 Devin 能用的最大用量
+settings.microsoftTeams	Microsoft Teams
+settings.microsoftTeamsDescription	配置 Microsoft Teams 的已连团队和帖内回复模式
+settings.microsoftTeamsLinkWithoutSendAsUser	只链接，不以你身份发帖
+settings.microsoftTeamsLinkWithoutSendAsUserDescription	只链你的 Teams 账户。你从 Devin 发的消息显示为「你的名字 by Devin」，Microsoft 不会要你授权以你身份发消息。
+settings.microsoftTeamsSendAsUserEnable	开以你身份发帖
+settings.microsoftTeamsSendAsUserInfo	你从 Devin 发到已同步 Teams 对话的消息显示为「你的名字 by Devin」。以你身份发帖是从你自己 Teams 账户发，需你在 Microsoft 授权。
+settings.microsoftTeamsSendAsUserNeedsReauth	以你身份发帖的授权过期或被撤。
+settings.microsoftTeamsSendAsUserOff	以「你的名字 by Devin」发帖
+settings.microsoftTeamsSendAsUserReconnect	重连
+settings.migrationToSlackEnterprise	迁到 Slack Enterprise
+settings.migrationToSlackEnterpriseDescription	我们检测到你连的工作区属于 Slack Enterprise Grid 组织。迁移以开多工作区支持并解锁额外功能。
+settings.missingAnMcp	缺一个 MCP？
+settings.mode	模式
+settings.modelCompliance	合规
+settings.modelControlsInherited	此组织继承企业根的模型控制。
+settings.modelControlsOverridden	此组织覆盖企业模型控制。
+settings.modelDefaults	默认
+settings.modelGroupClaude	Claude
+settings.modelGroupCognition	Cognition
+settings.modelGroupGemini	Gemini
+settings.modelGroupGpt	GPT
+settings.modelGroupXai	xAI
+settings.modelName	模型名
+settings.modelProviderApiKeys	模型商 API key
+settings.modelProviderApiKeysDescription	管你第三方模型商的 API key
+settings.modelRouting	模型路由
+settings.models	模型
+settings.modelsEnabledCount	已启用 {{enabled}}/{{total}} 个模型
+settings.modelsLoadFailed	加载模型失败
+settings.monthlyAcuAllocation	月度用量分配
+settings.monthlyAcuAllocationDescription	档位成员每月以这么多用量起算
+settings.moreActions	更多操作
+settings.moreLinkOptions	更多链接选项
+settings.moveMembersBetweenTiersConfirmDescription_dollars_one	所选成员中，{{count}} 个将被移出当前档位，任何按成员花费覆盖将被重置。
+settings.moveMembersBetweenTiersConfirmDescription_dollars_other	所选成员中，{{count}} 个将被移出当前档位，任何按成员花费覆盖将被重置。
+settings.moveMembersBetweenTiersConfirmDescription_one	所选成员中，{{count}} 个将被移出当前档位，任何按成员 ACU 覆盖将被重置。
+settings.moveMembersBetweenTiersConfirmDescription_other	所选成员中，{{count}} 个将被移出当前档位，任何按成员 ACU 覆盖将被重置。
+settings.moveMembersBetweenTiersConfirmTitle	在档位间移成员？
+settings.moveTierDown	档位下移
+settings.moveTierUp	档位上移
+settings.msTeamsChannelAccess	频道访问
+settings.msTeamsChannelAccessDescription	新 Devin 会话能否在装了 Devin 应用的团队频道里读和发帖
+settings.msTeamsChannelAccessInstalledTeams	已装团队的全部频道
+settings.msTeamsChannelAccessNone	无频道
+settings.msTeamsChannelAccessSpecific	指定频道
+settings.msTeamsChatsCount_one	{{count}} 个聊天
+settings.msTeamsChatsCount_other	{{count}} 个聊天
+settings.msTeamsConnect	连接
+settings.msTeamsConnectFailed	连不了 Microsoft Teams
+settings.msTeamsDefaultAccessUpdateFailed	更新 Microsoft Teams 默认访问失败
+settings.msTeamsDirectMessages	私信
+settings.msTeamsDirectMessagesDescription	新 Devin 会话能私信谁。Microsoft Teams 只允许装了 Devin 应用的用户
+settings.msTeamsDmAllowedBySecurityProfile	安全配置 {{name}} 允许私信装了 Devin 应用的用户。
+settings.msTeamsDmDisabledBySecurityProfile	安全配置 {{name}} 禁用私信。
+settings.msTeamsGroupChatAccess	群聊
+settings.msTeamsGroupChatAccessDescription	新 Devin 会话能否读它被发起的群聊
+settings.msTeamsGroupChatAllowedBySecurityProfile	安全配置 {{name}} 允许会话读它被发起的群聊。
+settings.msTeamsGroupChatDisabledBySecurityProfile	安全配置 {{name}} 禁用群聊。
+settings.msTeamsGroupChats	群聊
+settings.msTeamsIntegrationDescription	只要 @Devin 就从 Microsoft Teams 唤起 Devin。
+settings.msTeamsLearnDescription	你团队不离开 Teams 能用 Devin 做什么
+settings.msTeamsPermissionIssuesBanner	那些团队里部分 Microsoft Teams 功能可能不如预期。
+settings.msTeamsPermissionIssuesLearnMore	了解更多
+settings.msTeamsPermissionIssuesTitle	一个或多个团队有权限问题
+settings.msTeamsPersonalInstallations	个人安装
+settings.msTeamsRemoveFromTeamsHint	要断开，在 Microsoft Teams 里从此团队移除 Devin 应用
+settings.msTeamsSetBySecurityProfile	由安全配置 {{name}} 设定
+settings.msTeamsSetBySecurityProfileDescription	此组织的会话用该配置的 Teams 访问而非默认访问。要改，更新安全配置。
+settings.msTeamsSetBySecurityProfileNotice	由安全配置 {{name}} 设定。

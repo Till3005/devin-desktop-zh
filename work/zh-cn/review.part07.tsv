@@ -1,0 +1,160 @@
+landing.exampleFile	示例文件
+landing.exampleFindingDescription	新的 `POST /api/users/password` 处理器在 `secureFnc` 后接任意 `username` 和 `password`，但在调 `setUsers` 前从不验证已认证请求用户是同一账户（或管理员）。此代码库 `verifyToken` 在没给 `x-access-token` 时还建访客 token（`jwt-helper.js:46-65`），所以未认证/访客请求能到该处理器重置任意已知用户的密码，导致账户被接管。
+landing.exampleFindingRecommendation	此路由要有效已认证非访客用户；自助更改验证 `req.userId === req.body.username`（重置要管理员权限）；写新密码前验证当前密码。拒绝访客/未认证请求，并尽量不透任意用户名是否存在。
+landing.exampleFindingTitle	改密码端点缺归属或管理员授权检查
+landing.exampleSectionText	给账户服务加个改密码路由，让用户能更新凭据。
+landing.exampleSectionTitle	加账户改密码端点
+landing.justLaunched	刚上线：安全审查现在属每次 Devin Review。
+landing.organizedDiffs	智能组织的代码 diff
+landing.organizedDiffsDesc	自动把 PR 组织成带说明的逻辑分节
+landing.securitySectionCoverage	自动漏洞检测
+landing.securitySectionCoverageDesc	Devin 自动分析每个 PR 的漏洞，跨你整个代码库推理，抓模式匹配扫描器漏掉的认证绕过和逻辑缺陷。
+landing.securitySectionFixes	可合并修复
+landing.securitySectionFixesDesc	不止旗标问题——Devin 直接写修复并开成可合并 PR，交付给工程师即审，不是在队列等几周的一张工单。
+landing.securitySectionTitle	每次代码审查现在都是安全审查。
+landing.securitySectionTriaging	严重度分级和 CWE 标签
+landing.securitySectionTriagingDesc	每个发现项按严重度分级并打 CWE ID，便于分诊。
+landing.subtitle	组织 diff、检移动代码、旗标漏洞和 bug 的代码审查。
+landing.tagline	是懂代码的方式。
+landing.tryNow	现在试 <devinReview>Devin Review</devinReview>。
+landing.tryOnAnyPr	分析你下个 PR 的<emphasis>漏洞</emphasis>
+landmarks.reviewSidebar	拉取请求审查导航
+merge.addToMergeQueue	加合并队列
+merge.allChecksApprovalsMet	可合并
+merge.approvalRequired	要批准
+merge.approvalsOfRequired_one	{{approved}}/{{required}} 个批准
+merge.approvalsOfRequired_other	{{approved}}/{{required}} 个批准
+merge.approvingReviewsRequired_one	要 {{count}} 个批准审查
+merge.approvingReviewsRequired_other	要 {{count}} 个批准审查
+merge.askedDevinToFixConflicts	叫了 Devin 解合并冲突
+merge.askingDevin	叫 Devin 中…
+merge.autoMergeEnabled	自动合并已开
+merge.autoMergeEnabledBy	{{login}} 开了自动合并
+merge.autoMergeShort	自动合并
+merge.blockedByBranchProtection	被分支保护挡
+merge.branchHasConflicts	合并冲突
+merge.branchOutOfDate	分支已过期
+merge.bypassRulesAndMerge	不等要求直接合并（绕规则）
+merge.bypassRulesDialogDescription	此拉取请求不达仓库合并要求。你 GitHub 账户允许绕它们，所以现在合并会跳过必查和审查。
+merge.bypassRulesDialogTitle	绕规则并合并？
+merge.cannotMerge	合不了
+merge.changesRequested	已被要更改
+merge.checkingMergeStatus	查合并状态中…
+merge.checksStillRunning	可选检查待跑
+merge.closePullRequest	关拉取请求
+merge.convertToDraft	转草稿
+merge.createMergeCommit	建合并提交
+merge.createMergeCommitShort	建合并提交
+merge.disableAutoMerge	关自动合并
+merge.disabling	关中
+merge.draftCannotMerge	草稿 PR 合不了
+merge.enableAutoMerge	开自动合并
+merge.enabling	开中
+merge.failedToAskDevinToFixConflicts	到不了 Devin 会话
+merge.fixConflicts	修冲突
+merge.githubSsoRequired	要 GitHub SSO
+merge.looksReadyToMerge	似乎可合并，确认中…
+merge.markReadyForReview	标待审
+merge.markThisPrReady	标此拉取请求为待审
+merge.marking	标中
+merge.merge	合并
+merge.mergeCount	合并 {{count}}
+merge.mergeQueueWhenChecksPass	检查过时进合并队列
+merge.mergeStatusUnavailable	合并状态不可用
+merge.mergeThisPr	合并此拉取请求
+merge.merging	合并中
+merge.moreActions	更多操作
+merge.moreMergeActions	更多合并操作
+merge.morePrActions	更多拉取请求操作
+merge.noPermissionToMerge	没合并权限
+merge.nonRequiredChecksFailing	可选检查失败
+merge.notReadyToMerge	未可合并
+merge.prMerging	PR 合并中
+merge.prReadyForReview	待审
+merge.prStillDraft	草稿
+merge.pullRequestMerged	拉取请求已合并
+merge.queuePosition_ordinal_few	队列第 {{position}}
+merge.queuePosition_ordinal_one	队列第 {{position}}
+merge.queuePosition_ordinal_other	队列第 {{position}}
+merge.queuePosition_ordinal_two	队列第 {{position}}
+merge.queuedToMerge	已排合并队列
+merge.queuedToMergePosition	已排合并队列（第 {{position}} 位）
+merge.queueing	排队中
+merge.readyForReview	待审
+merge.rebaseAndMerge	Rebase 并合并
+merge.rebaseAndMergeCount	Rebase 并合并 {{count}}
+merge.removeFromQueue	移出队列
+merge.removingFromQueue	移出中
+merge.requiredChecksNotPassed	检查失败
+merge.restoreAccess	恢复访问
+merge.retryFixConflicts	重试
+merge.reviewDraft	审草稿
+merge.reviewRequired	要审查
+merge.selectMergeMethod	选合并方式
+merge.squashAndMerge	Squash 并合并
+merge.squashAndMergeCount	Squash 并合并 {{count}}
+merge.stackBlockedDownstack	堆叠下方一个拉取请求未可合并
+merge.viewChecks	{{message}}——看检查
+merge.viewPrDetails	{{message}}——看检查、审查者、经办人和标签
+merge.viewReviewers	{{message}}——看审查者
+merge.viewReviewersAndChecks	{{message}}——看审查者和检查
+merge.waitingOnCodeOwnerReview	等 code owner 审查
+merge.waitingOnCodeOwnerReviewFrom	等 {{reviewers}} 的 code owner 审查
+merge.waitingOnRequiredChecks	检查待跑
+mergeManager.approval.approved	Devin 批准了此拉取请求。
+mergeManager.approval.error	Devin 更新不了批准。查拉取请求看有没有 Devin 的有效批准。
+mergeManager.approval.withdrawn	Devin 撤回了早前批准。
+mergeManager.decision.approve	批准
+mergeManager.decision.review	要审查
+mergeManager.loadFailed	加载不了合并风险结果。
+mergeManager.outcome.autoapproved	自动批准
+mergeManager.outcome.peerApproved	人批准
+mergeManager.outcome.reviewRequired	非自动批准
+mergeManager.pillRunning	自动批准者跑中
+mergeManager.previousDecision.approve	Devin 批准了上个提交。
+mergeManager.previousDecision.review	上个提交要审查。
+mergeManager.shadow.approve	影子模式：Devin 本会批准此拉取请求。没行动。
+mergeManager.shadow.badge	影子
+mergeManager.shadow.noAction	影子模式：Devin 对此拉取请求不行动。
+mergeManager.shadow.withdraw	影子模式：Devin 本会留此拉取请求给人审并撤回早前自身批准。没行动。
+mergeManager.status.failed	合并风险分级失败。
+mergeManager.status.pending	等合并风险分级中…
+mergeManager.status.running	合并风险分级中…
+mergeManager.status.skipped	此分析没做合并风险分级。
+mergeManager.title	自动批准者
+newVersionBanner.description	此版本开后 bug 分析更新了。
+newVersionBanner.title	有更新的分析版本
+newVersionBanner.viewLatestVersion	看最新版本
+onboarding.actions.back	回
+onboarding.actions.close	关
+onboarding.actions.connect	连
+onboarding.actions.done	完
+onboarding.actions.next	下一步
+onboarding.actions.skip	跳过
+onboarding.callout.subtitle	连你个人 git 账户以评论和批准拉取请求
+onboarding.callout.title	解锁完整体验
+onboarding.connect.sectionLabel	个人连接
+onboarding.connect.subtitle	审查评论、要更改和批准拉取请求所需。
+onboarding.connect.title	连个人账户
+onboarding.connect.viewAllSettings	在设置编辑
+onboarding.intro.features	["按严重度分级自动抓 bug","自动修并迭代","智能组织的代码 diff"]
+onboarding.intro.subtitle	组织 diff、检移动代码、旗标潜在 bug 的代码审查。
+onboarding.intro.title	Devin Review
+onboarding.language.followDisplay	跟显示语言
+onboarding.language.followDisplayHint	审查跟你账户的显示语言
+onboarding.language.noResultsDescription	试别的搜索词。
+onboarding.language.noResultsFound	找不到结果
+onboarding.language.searchPlaceholder	搜语言…
+onboarding.language.subtitle	选 Devin 审查评论用的语言。
+onboarding.language.title	Devin 审查评论该用什么语言？
+onboarding.language.viewAllSettings	在设置编辑
+onboarding.trigger.modes.auto.description	PR 就绪时及之后每次推送都跑
+onboarding.trigger.modes.auto.title	自动分析
+onboarding.trigger.modes.manual.description	不自动分析
+onboarding.trigger.modes.manual.title	手动
+onboarding.trigger.modes.on_creation.description	Devin 在 PR 就绪时（通常开时）分析一次
+onboarding.trigger.modes.on_creation.title	PR 就绪时
+onboarding.trigger.noPermission	你审查角色不允许此选项
+onboarding.trigger.subtitle	选分析何时跑。
+onboarding.trigger.title	Devin 该何时分析你 PR？
+onboarding.trigger.viewInSettings	在设置编辑

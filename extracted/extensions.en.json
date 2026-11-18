@@ -1,0 +1,1067 @@
+{
+ "vscode.prompt": {
+  "dir": "prompt-basics",
+  "hasNls": true,
+  "displayStrings": [
+   "chat agent"
+  ]
+ },
+ "vscode.terminal-suggest": {
+  "dir": "terminal-suggest",
+  "hasNls": true,
+  "displayStrings": [
+   "Show suggestions for commands, arguments, flags, and file paths based upon the Fig spec."
+  ]
+ },
+ "vscode.merge-conflict": {
+  "dir": "merge-conflict",
+  "hasNls": true,
+  "displayStrings": [
+   "Accept All Both",
+   "Accept All Current",
+   "Accept All Incoming",
+   "Accept Both",
+   "Accept Current",
+   "Accept Incoming",
+   "Accept Selection",
+   "Compare Current Conflict",
+   "Next Conflict",
+   "Previous Conflict",
+   "scmProvider == git && scmResourceGroup == merge"
+  ]
+ },
+ "vscode.media-preview": {
+  "dir": "media-preview",
+  "hasNls": true,
+  "displayStrings": [
+   "Image Preview",
+   "Media Previewer",
+   "activeCustomEditorId == 'imagePreview.previewEditor'",
+   "activeCustomEditorId == 'imagePreview.previewEditor' && resourceExtname == '.svg'",
+   "activeEditor == workbench.editors.files.textFileEditor && resourceExtname == '.svg' && !hasCustomImagePreview",
+   "editorFocus && resourceExtname == '.svg' && !hasCustomImagePreview",
+   "webviewId == 'imagePreview.previewEditor'"
+  ]
+ },
+ "vscode.razor": {
+  "dir": "razor",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.shaderlab": {
+  "dir": "shaderlab",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "ms-vscode.js-debug-companion": {
+  "dir": "ms-vscode.js-debug-companion",
+  "hasNls": false,
+  "displayStrings": []
+ },
+ "vscode.vscode-theme-seti": {
+  "dir": "theme-seti",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.html-language-features": {
+  "dir": "html-language-features",
+  "hasNls": true,
+  "displayStrings": [
+   "head, body, /html"
+  ]
+ },
+ "vscode.docker": {
+  "dir": "docker",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.dotenv": {
+  "dir": "dotenv",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.go": {
+  "dir": "go",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "codeium.windsurf-remote-wsl": {
+  "dir": "windsurf-remote-wsl",
+  "hasNls": false,
+  "displayStrings": [
+   "Add a Distro",
+   "Connect in Current Window",
+   "Connect in New Window",
+   "Connect to WSL",
+   "Connect to WSL in New Window",
+   "Connect to WSL using Distro in New Window...",
+   "Connect to WSL using Distro...",
+   "Delete Distro",
+   "Experimental: Disable the server checksum verification. This is only recommended for development and testing.",
+   "Open in Current Window",
+   "Open in New Window",
+   "Remove From Recent List",
+   "Set as Default Distro",
+   "Show Log",
+   "The URL from where the Devin Desktop server will be downloaded. The following variables can be substituted: ${os}, ${arch}, ${windsurfVersion}, ${vscodeVersion} ${commit}, ${quality}.",
+   "WSL Targets (Devin Desktop)",
+   "remoteName =~ /^wsl$/",
+   "view == windsurfWslTargets",
+   "viewItem == windsurfremotewsl.explorer.folder",
+   "viewItem =~ /^windsurfremotewsl.explorer.distro$/",
+   "viewItem =~ /^windsurfremotewsl.explorer.folder/"
+  ]
+ },
+ "vscode.simple-browser": {
+  "dir": "simple-browser",
+  "hasNls": true,
+  "displayStrings": [
+   "Focus Lock Indicator Enabled",
+   "Simple Browser"
+  ]
+ },
+ "vscode.theme-monokai": {
+  "dir": "theme-monokai",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.json-language-features": {
+  "dir": "json-language-features",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.references-view": {
+  "dir": "references-view",
+  "hasNls": true,
+  "displayStrings": [
+   "reference-list.isActive && !reference-list.hasResult",
+   "view == references-view.tree && reference-list.hasHistory && !reference-list.hasResult",
+   "view == references-view.tree && reference-list.hasResult",
+   "view == references-view.tree && reference-list.hasResult && reference-list.source == callHierarchy &&  references-view.callHierarchyMode == showIncoming",
+   "view == references-view.tree && reference-list.hasResult && reference-list.source == callHierarchy &&  references-view.callHierarchyMode == showOutgoing",
+   "view == references-view.tree && reference-list.hasResult && reference-list.source == typeHierarchy &&  references-view.typeHierarchyMode != subtypes",
+   "view == references-view.tree && reference-list.hasResult && reference-list.source == typeHierarchy &&  references-view.typeHierarchyMode != supertypes",
+   "view == references-view.tree && viewItem == call-item",
+   "view == references-view.tree && viewItem == file-item",
+   "view == references-view.tree && viewItem == file-item || view == references-view.tree && viewItem == reference-item",
+   "view == references-view.tree && viewItem == history-item",
+   "view == references-view.tree && viewItem == type-item"
+  ]
+ },
+ "vscode.gulp": {
+  "dir": "gulp",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.configuration-editing": {
+  "dir": "configuration-editing",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.python": {
+  "dir": "python",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.css": {
+  "dir": "css",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.clojure": {
+  "dir": "clojure",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.less": {
+  "dir": "less",
+  "hasNls": true,
+  "displayStrings": [
+   "Lessc compiler"
+  ]
+ },
+ "vscode.css-language-features": {
+  "dir": "css-language-features",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.theme-red": {
+  "dir": "theme-red",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.dart": {
+  "dir": "dart",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "codeium.windsurf-auth": {
+  "dir": "windsurf-auth",
+  "hasNls": false,
+  "displayStrings": []
+ },
+ "vscode.latex": {
+  "dir": "latex",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.typescript-language-features": {
+  "dir": "typescript-language-features",
+  "hasNls": true,
+  "displayStrings": [
+   "Stop using TypeScript Go (Experimental)",
+   "Use TypeScript Go (Experimental)",
+   "config.js/ts.experimental.useTsgo || config.typescript.experimental.useTsgo",
+   "editorLangId == javascript && typescript.isManagedFile",
+   "editorLangId == javascriptreact && typescript.isManagedFile",
+   "editorLangId == typescript && typescript.isManagedFile",
+   "editorLangId == typescriptreact && typescript.isManagedFile",
+   "tsSupportsFileReferences && resourceLangId == javascript",
+   "tsSupportsFileReferences && resourceLangId == javascriptreact",
+   "tsSupportsFileReferences && resourceLangId == typescript",
+   "tsSupportsFileReferences && resourceLangId == typescriptreact",
+   "tsSupportsFileReferences && typescript.isManagedFile",
+   "tsSupportsSourceDefinition && typescript.isManagedFile"
+  ]
+ },
+ "vscode.grunt": {
+  "dir": "grunt",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.microsoft-authentication": {
+  "dir": "microsoft-authentication",
+  "hasNls": true,
+  "displayStrings": [
+   "Microsoft Sovereign Cloud"
+  ]
+ },
+ "vscode.theme-abyss": {
+  "dir": "theme-abyss",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.scss": {
+  "dir": "scss",
+  "hasNls": true,
+  "displayStrings": [
+   "Node Sass Compiler"
+  ]
+ },
+ "vscode.jake": {
+  "dir": "jake",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.perl": {
+  "dir": "perl",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.rust": {
+  "dir": "rust",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.pug": {
+  "dir": "pug",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.fsharp": {
+  "dir": "fsharp",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.r": {
+  "dir": "r",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.ipynb": {
+  "dir": "ipynb",
+  "hasNls": true,
+  "displayStrings": [
+   "Jupyter Notebook",
+   "webviewId == 'notebook.output' && webviewSection == 'image'",
+   "webviewId == 'notebook.output' && webviewSection == 'text'"
+  ]
+ },
+ "vscode.builtin-notebook-renderers": {
+  "dir": "notebook-renderers",
+  "hasNls": true,
+  "displayStrings": [
+   "Devin Desktop Builtin Notebook Output Renderer"
+  ]
+ },
+ "RobbOwen.synthwave-vscode": {
+  "dir": "theme-synthwave",
+  "hasNls": false,
+  "displayStrings": [
+   "SynthWave '84"
+  ]
+ },
+ "vscode.java": {
+  "dir": "java",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "codeium.windsurf-remote-devin": {
+  "dir": "windsurf-remote-devin",
+  "hasNls": false,
+  "displayStrings": [
+   "Devin Remote",
+   "Devin Remote - Cloud Session",
+   "Override the Devin API base URL used to look up cloud session machines (for example a local dev webserver). Must use https unless it points at localhost. Leave empty to derive it from the build.",
+   "Show Log"
+  ]
+ },
+ "vscode.diff": {
+  "dir": "diff",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.html": {
+  "dir": "html",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "miguelsolorio.symbols": {
+  "dir": "theme-symbols",
+  "hasNls": false,
+  "displayStrings": [
+   "Symbol Icons"
+  ]
+ },
+ "vscode.php": {
+  "dir": "php",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "ms-vscode.js-debug": {
+  "dir": "ms-vscode.js-debug",
+  "hasNls": true,
+  "displayStrings": [
+   "Attach to Chrome",
+   "Attach to Edge",
+   "Attach to Integrated Browser",
+   "Browser Options",
+   "Electron Main",
+   "Excluded Callers",
+   "Gulp ${1:task}",
+   "JavaScript Debugger",
+   "Launch Chrome",
+   "Launch Edge",
+   "Launch Integrated Browser",
+   "Mocha Tests",
+   "Please use type chrome instead",
+   "Please use type editor-browser instead",
+   "Please use type extensionHost instead",
+   "Please use type msedge instead",
+   "Please use type node instead",
+   "Run npm start",
+   "WebAssembly Text Format",
+   "Yeoman ${1:generator}",
+   "debugConfigurationType == pwa-node && !inDebugMode && activeViewlet == workbench.view.debug || debugConfigurationType == pwa-extensionHost && !inDebugMode && activeViewlet == workbench.view.debug || debugConfigurationType == node && !inDebugMode && activeViewlet == workbench.view.debug",
+   "debugConfigurationType == pwa-node && !inDebugMode || debugConfigurationType == pwa-extensionHost && !inDebugMode || debugConfigurationType == node && !inDebugMode",
+   "debugStartLanguage == javascript && !isWeb || debugStartLanguage == typescript && !isWeb || debugStartLanguage == javascriptreact && !isWeb || debugStartLanguage == typescriptreact && !isWeb",
+   "debugStartLanguage == javascript && isWeb || debugStartLanguage == typescript && isWeb || debugStartLanguage == javascriptreact && isWeb || debugStartLanguage == typescriptreact && isWeb",
+   "debugType == pwa-chrome && callStackItemType == 'session' || debugType == pwa-msedge && callStackItemType == 'session' || debugType == pwa-editor-browser && callStackItemType == 'session'",
+   "debugType == pwa-chrome || debugType == pwa-msedge || debugType == pwa-editor-browser",
+   "debugType == pwa-extensionHost && !jsDebugIsProfiling && callStackItemType == 'session' || debugType == node-terminal && !jsDebugIsProfiling && callStackItemType == 'session' || debugType == pwa-node && !jsDebugIsProfiling && callStackItemType == 'session' || debugType == pwa-chrome && !jsDebugIsProfiling && callStackItemType == 'session' || debugType == pwa-msedge && !jsDebugIsProfiling && callStackItemType == 'session' || debugType == pwa-editor-browser && !jsDebugIsProfiling && callStackItemType == 'session'",
+   "debugType == pwa-extensionHost && !jsDebugIsProfiling || debugType == node-terminal && !jsDebugIsProfiling || debugType == pwa-node && !jsDebugIsProfiling || debugType == pwa-chrome && !jsDebugIsProfiling || debugType == pwa-msedge && !jsDebugIsProfiling || debugType == pwa-editor-browser && !jsDebugIsProfiling",
+   "debugType == pwa-extensionHost && callStackItemType == 'session' || debugType == node-terminal && callStackItemType == 'session' || debugType == pwa-node && callStackItemType == 'session' || debugType == pwa-chrome && callStackItemType == 'session' || debugType == pwa-msedge && callStackItemType == 'session' || debugType == pwa-editor-browser && callStackItemType == 'session'",
+   "debugType == pwa-extensionHost && callStackItemType == 'stackFrame' || debugType == node-terminal && callStackItemType == 'stackFrame' || debugType == pwa-node && callStackItemType == 'stackFrame' || debugType == pwa-chrome && callStackItemType == 'stackFrame' || debugType == pwa-msedge && callStackItemType == 'stackFrame' || debugType == pwa-editor-browser && callStackItemType == 'stackFrame'",
+   "debugType == pwa-extensionHost && debugState == \"stopped\" || debugType == node-terminal && debugState == \"stopped\" || debugType == pwa-node && debugState == \"stopped\" || debugType == pwa-chrome && debugState == \"stopped\" || debugType == pwa-msedge && debugState == \"stopped\" || debugType == pwa-editor-browser && debugState == \"stopped\"",
+   "debugType == pwa-extensionHost && debugState == stopped || debugType == node-terminal && debugState == stopped || debugType == pwa-node && debugState == stopped || debugType == pwa-chrome && debugState == stopped || debugType == pwa-msedge && debugState == stopped || debugType == pwa-editor-browser && debugState == stopped",
+   "debugType == pwa-extensionHost && inDebugMode && !jsDebugIsProfiling || debugType == node-terminal && inDebugMode && !jsDebugIsProfiling || debugType == pwa-node && inDebugMode && !jsDebugIsProfiling || debugType == pwa-chrome && inDebugMode && !jsDebugIsProfiling || debugType == pwa-msedge && inDebugMode && !jsDebugIsProfiling || debugType == pwa-editor-browser && inDebugMode && !jsDebugIsProfiling",
+   "debugType == pwa-extensionHost && inDebugMode && jsDebugIsProfiling || debugType == node-terminal && inDebugMode && jsDebugIsProfiling || debugType == pwa-node && inDebugMode && jsDebugIsProfiling || debugType == pwa-chrome && inDebugMode && jsDebugIsProfiling || debugType == pwa-msedge && inDebugMode && jsDebugIsProfiling || debugType == pwa-editor-browser && inDebugMode && jsDebugIsProfiling",
+   "debugType == pwa-extensionHost && inDebugMode || debugType == node-terminal && inDebugMode || debugType == pwa-node && inDebugMode || debugType == pwa-chrome && inDebugMode || debugType == pwa-msedge && inDebugMode || debugType == pwa-editor-browser && inDebugMode",
+   "debugType == pwa-extensionHost && jsDebugHasExcludedCallers || debugType == node-terminal && jsDebugHasExcludedCallers || debugType == pwa-node && jsDebugHasExcludedCallers || debugType == pwa-chrome && jsDebugHasExcludedCallers || debugType == pwa-msedge && jsDebugHasExcludedCallers || debugType == pwa-editor-browser && jsDebugHasExcludedCallers",
+   "debugType == pwa-extensionHost && jsDebugIsProfiling && callStackItemType == 'session' || debugType == node-terminal && jsDebugIsProfiling && callStackItemType == 'session' || debugType == pwa-node && jsDebugIsProfiling && callStackItemType == 'session' || debugType == pwa-chrome && jsDebugIsProfiling && callStackItemType == 'session' || debugType == pwa-msedge && jsDebugIsProfiling && callStackItemType == 'session' || debugType == pwa-editor-browser && jsDebugIsProfiling && callStackItemType == 'session'",
+   "debugType == pwa-extensionHost && jsDebugIsProfiling || debugType == node-terminal && jsDebugIsProfiling || debugType == pwa-node && jsDebugIsProfiling || debugType == pwa-chrome && jsDebugIsProfiling || debugType == pwa-msedge && jsDebugIsProfiling || debugType == pwa-editor-browser && jsDebugIsProfiling",
+   "debugType == pwa-extensionHost && view == workbench.debug.callStackView && !jsDebugIsMapSteppingDisabled || debugType == node-terminal && view == workbench.debug.callStackView && !jsDebugIsMapSteppingDisabled || debugType == pwa-node && view == workbench.debug.callStackView && !jsDebugIsMapSteppingDisabled || debugType == pwa-chrome && view == workbench.debug.callStackView && !jsDebugIsMapSteppingDisabled || debugType == pwa-msedge && view == workbench.debug.callStackView && !jsDebugIsMapSteppingDisabled || debugType == pwa-editor-browser && view == workbench.debug.callStackView && !jsDebugIsMapSteppingDisabled",
+   "debugType == pwa-extensionHost && view == workbench.debug.callStackView && jsDebugIsMapSteppingDisabled || debugType == node-terminal && view == workbench.debug.callStackView && jsDebugIsMapSteppingDisabled || debugType == pwa-node && view == workbench.debug.callStackView && jsDebugIsMapSteppingDisabled || debugType == pwa-chrome && view == workbench.debug.callStackView && jsDebugIsMapSteppingDisabled || debugType == pwa-msedge && view == workbench.debug.callStackView && jsDebugIsMapSteppingDisabled || debugType == pwa-editor-browser && view == workbench.debug.callStackView && jsDebugIsMapSteppingDisabled",
+   "debugType == pwa-msedge",
+   "localRoot || ${workspaceFolder}",
+   "node my-server.js",
+   "npm start",
+   "view == jsBrowserBreakpoints",
+   "view == jsBrowserBreakpoints && viewItem == xhrBreakpoint",
+   "view == jsBrowserBreakpoints && viewItem == xhrCategory",
+   "view == jsDebugNetworkTree",
+   "view == jsExcludedCallers"
+  ]
+ },
+ "vscode.lua": {
+  "dir": "lua",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.emmet": {
+  "dir": "emmet",
+  "hasNls": true,
+  "displayStrings": [
+   "activeEditor && !activeEditorIsReadonly"
+  ]
+ },
+ "vscode.xml": {
+  "dir": "xml",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.theme-quietlight": {
+  "dir": "theme-quietlight",
+  "hasNls": true,
+  "displayStrings": [
+   "Quiet Light"
+  ]
+ },
+ "vscode.vb": {
+  "dir": "vb",
+  "hasNls": true,
+  "displayStrings": [
+   "Visual Basic"
+  ]
+ },
+ "windsurf.theme-windsurf": {
+  "dir": "theme-windsurf",
+  "hasNls": false,
+  "displayStrings": [
+   "Devin Dark",
+   "Devin Light"
+  ]
+ },
+ "vscode.theme-solarized-dark": {
+  "dir": "theme-solarized-dark",
+  "hasNls": true,
+  "displayStrings": [
+   "Solarized Dark"
+  ]
+ },
+ "vscode.powershell": {
+  "dir": "powershell",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.typescript": {
+  "dir": "typescript-basics",
+  "hasNls": true,
+  "displayStrings": [
+   "TypeScript JSX",
+   "TypeScript React"
+  ]
+ },
+ "vscode.debug-auto-launch": {
+  "dir": "debug-auto-launch",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.debug-server-ready": {
+  "dir": "debug-server-ready",
+  "hasNls": true,
+  "displayStrings": [
+   "Launch Browser",
+   "listening on port ([0-9]+)"
+  ]
+ },
+ "vscode.ini": {
+  "dir": "ini",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.json": {
+  "dir": "json",
+  "hasNls": true,
+  "displayStrings": [
+   "Code Snippets",
+   "JSON Lines",
+   "JSON with Comments"
+  ]
+ },
+ "vscode.theme-tomorrow-night-blue": {
+  "dir": "theme-tomorrow-night-blue",
+  "hasNls": true,
+  "displayStrings": [
+   "Tomorrow Night Blue"
+  ]
+ },
+ "vscode.github": {
+  "dir": "github",
+  "hasNls": true,
+  "displayStrings": [
+   "Continue Working in vscode.dev",
+   "Remote Repositories",
+   "config.git.enabled && git.state == initialized && workbenchState == folder && git.parentRepositoryCount == 0 && git.unsafeRepositoryCount == 0 && git.closedRepositoryCount == 0",
+   "config.git.enabled && git.state == initialized && workbenchState == workspace && workspaceFolderCount != 0 && git.parentRepositoryCount == 0 && git.unsafeRepositoryCount == 0 && git.closedRepositoryCount == 0",
+   "git-base.gitEnabled && workspaceFolderCount != 0 && remoteName != 'codespaces'",
+   "github.hasGitHubRepo && remoteName != 'codespaces'",
+   "github.hasGitHubRepo && resourceScheme != untitled && !isInEmbeddedEditor && remoteName != 'codespaces'",
+   "github.hasGitHubRepo && resourceScheme != untitled && activeEditor == workbench.editor.notebook && remoteName != 'codespaces'",
+   "github.hasGitHubRepo && resourceScheme != untitled && activeEditor == workbench.editors.files.textFileEditor && config.editor.lineNumbers == on && remoteName != 'codespaces'",
+   "github.hasGitHubRepo && resourceScheme != untitled && remoteName != 'codespaces'",
+   "github.hasGitHubRepo && timelineItem =~ /git:file:commit\\b/"
+  ]
+ },
+ "vscode.markdown-language-features": {
+  "dir": "markdown-language-features",
+  "hasNls": true,
+  "displayStrings": [
+   "Markdown Editor",
+   "Markdown Preview",
+   "Markdown it renderer",
+   "activeCustomEditorId == 'vscode.markdown.editor'",
+   "activeCustomEditorId == 'vscode.markdown.editor' && markdownEditorFocus",
+   "activeCustomEditorId == 'vscode.markdown.editor' && markdownEditorFocus && !isMac",
+   "activeCustomEditorId == 'vscode.markdown.editor' && markdownEditorFocus && isLinux",
+   "activeCustomEditorId == 'vscode.markdown.editor' && markdownEditorFocus && isMac",
+   "activeCustomEditorId == 'vscode.markdown.editor' && markdownEditorFocus && isWindows",
+   "activeCustomEditorId == 'vscode.markdown.preview.editor'",
+   "activeCustomEditorId == 'vscode.markdown.preview.editor' && !activeCustomEditorTextDiff && !isSessionsWindow",
+   "activeEditor == workbench.editors.files.textFileEditor && resourceLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/",
+   "activeEditor == workbench.editors.files.textFileEditor && resourceLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/ && !notebookEditorFocused && !hasCustomMarkdownPreview && !isSessionsWindow",
+   "activeWebviewPanelId == 'markdown.preview'",
+   "activeWebviewPanelId == 'markdown.preview' || activeCustomEditorId == 'vscode.markdown.preview.editor'",
+   "cmd+k v",
+   "ctrl+k v",
+   "editorFocus && editorLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/ && !notebookEditorFocused",
+   "editorLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/",
+   "editorLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/ && !activeEditorIsReadonly",
+   "editorLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/ && !notebookEditorFocused",
+   "editorLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/ && !notebookEditorFocused && !hasCustomMarkdownPreview",
+   "resourceLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/",
+   "resourceLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/ && !hasCustomMarkdownPreview"
+  ]
+ },
+ "vscode.git-base": {
+  "dir": "git-base",
+  "hasNls": true,
+  "displayStrings": [
+   "Git Base API",
+   "Git Commit Message",
+   "Git Rebase Message"
+  ]
+ },
+ "vscode.theme-solarized-light": {
+  "dir": "theme-solarized-light",
+  "hasNls": true,
+  "displayStrings": [
+   "Solarized Light"
+  ]
+ },
+ "vscode.handlebars": {
+  "dir": "handlebars",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.cpp": {
+  "dir": "cpp",
+  "hasNls": true,
+  "displayStrings": [
+   "CUDA C++"
+  ]
+ },
+ "vscode.swift": {
+  "dir": "swift",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.make": {
+  "dir": "make",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.shellscript": {
+  "dir": "shellscript",
+  "hasNls": true,
+  "displayStrings": [
+   "Shell Script"
+  ]
+ },
+ "vscode.markdown": {
+  "dir": "markdown-basics",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.markdown-math": {
+  "dir": "markdown-math",
+  "hasNls": true,
+  "displayStrings": [
+   "Markdown Math",
+   "Markdown it KaTeX renderer"
+  ]
+ },
+ "codeium.windsurf": {
+  "dir": "windsurf",
+  "hasNls": false,
+  "displayStrings": [
+   "Add current file to conversation",
+   "Allow Cascade, tab, and supercomplete to view and edit the files in .gitignore.",
+   "Changes the base URL for marketplace search results. [Available Options](https://github.com/VSCodium/vscodium/blob/master/docs/index.md#extensions-marketplace). You must restart Devin to use the new marketplace after changing this value.",
+   "Changes the base URL on each extension page. [Available Options](https://github.com/VSCodium/vscodium/blob/master/docs/index.md#extensions-marketplace). You must restart Devin to use the new marketplace after changing this value.",
+   "Connect to agents on remote machines over SSH.",
+   "Connect to saved hosts automatically on startup.",
+   "Controls the AI completion mode. Supercomplete provides the most capable completions including multi-line suggestions, autocomplete provides standard completions, and off disables AI completions entirely.",
+   "Controls whether Cascade automatically continues when it reaches the invocation limit. 0 or negative means auto-continue is on (Cascade continues indefinitely). A positive value (e.g. 40) means auto-continue is off (Cascade stops at that many invocations and prompts you to continue).",
+   "Copy API Key to Clipboard",
+   "Deprecated: use `devin.acp.agentEnv` instead. This key will be removed in a future release.",
+   "Deprecated: use `devin.acp.agentPreferences` instead. This key will be removed in a future release.",
+   "Deprecated: use `devin.acp.diffZonesEnabled` instead. This key will be removed in a future release.",
+   "Deprecated: use `devin.acp.enabledAgents` instead. This key will be removed in a future release.",
+   "Deprecated: use `devin.acp.preferredAgent` instead. This key will be removed in a future release.",
+   "Deprecated: use `devin.allowCascadeAccessGitignoreFiles` instead. This key will be removed in a future release.",
+   "Deprecated: use `devin.autoContinue` instead. This key will be removed in a future release.",
+   "Deprecated: use `devin.cascade.readClaudeCodeConfig` instead. This key will be removed in a future release.",
+   "Deprecated: use `devin.completionMode` instead. This key will be removed in a future release.",
+   "Deprecated: use `devin.marketplaceExtensionGalleryServiceURL` instead. This key will be removed in a future release.",
+   "Deprecated: use `devin.marketplaceGalleryItemURL` instead. This key will be removed in a future release.",
+   "Deprecated: use `devin.portalUrl` instead. This key will be removed in a future release.",
+   "Deprecated: use `devin.useIndexingV2` instead. This key will be removed in a future release.",
+   "Devin Codemap",
+   "Devin Editor",
+   "Disable AI completions",
+   "Download Devin Diagnostics",
+   "Enable Auto Refill",
+   "Full AI completions with multi-line suggestions and side hints",
+   "Generate Commit Message",
+   "Import Cursor extensions",
+   "Import Cursor settings",
+   "Import Devin Desktop extensions",
+   "Import Devin Desktop settings",
+   "Import VS Code extensions",
+   "Import VS Code recent workspaces",
+   "Import VS Code settings",
+   "Keep Devin error notifications on screen until you dismiss them.",
+   "Let Devin see commands and output from your integrated terminal.",
+   "Let Devin see which files you edit and create in your workspace, and let a Devin Cloud session read unsaved edits when it reads a file on this machine.",
+   "Log Out",
+   "Log in",
+   "Map of ACP agent IDs to default session config preferences. Each key is an agent ID and the value is an object mapping config option IDs to their preferred default values, applied automatically when a new session is created.",
+   "Map of ACP agent IDs to enabled/disabled state. Only agents listed here with a value of true will be instantiated.",
+   "Map of ACP agent IDs to environment variables. Each key is an agent ID and the value is an object of environment variable key-value pairs passed to that agent's process.",
+   "Migrate MCP Config (~/.codeium/ → ~/.config/devin/)",
+   "Migrate Workspace Config (.windsurf/ → .devin/)",
+   "Open Changelog",
+   "Open Local ACP Agent Registry",
+   "Opt-in backend environment. `beta` switches the api server and Devin web URLs to the beta environment (`server-beta.codeium.com`, `app.beta.devin.ai`). Requires a restart after changing.",
+   "Path to a local build of \"Devin Computer Use.app\" (macOS). Only for source builds; packaged builds use the helper in the app bundle. A CLI signed by Cognition refuses a helper that we did not sign, so a local helper also needs a local CLI build.",
+   "Provide Devin auth token (backup login)",
+   "Purchase Add-on Credits",
+   "Reload ACP Connections",
+   "Restart Language Server",
+   "Run format-on-save and code actions on save (e.g. gofmt) when Devin edits a file. When disabled, agent edits are saved without running save actions.",
+   "Save Language Server CPU Profile",
+   "Save Language Server Memory Profile",
+   "Set Portal URL",
+   "Set up Computer Use (macOS permissions)",
+   "Show native notifications when an agent session finishes or needs your input while in the background.",
+   "Standard single-line AI completions",
+   "Start new conversation",
+   "Stop Devin from opening files in the background when it creates or edits them.",
+   "Use indexing v2",
+   "View Account",
+   "When enabled, ACP agent file edits open interactive diff zones with accept/reject controls. When disabled, edits are applied directly and the toolbar shows a simple dismiss button.",
+   "When enabled, Cascade will read skills from .claude directories (both local .claude/skills/ and global ~/.claude/skills/).",
+   "When set to a valid ACP agent connector ID (e.g. 'claude-code', 'opencode', 'gemini', 'devin-cli'), newly created Cascade tabs will automatically select that agent if it is available.",
+   "When set to a valid ACP agent connector ID (e.g. 'claude-code', 'opencode', 'gemini', 'devin-cli'), newly created Cascade tabs will automatically select that agent if it is available. When left unset, new tabs default to Devin Local if it is available, otherwise Cascade.",
+   "editorTextFocus && !editorHasMultilineSelection && ((inlineSuggestionVisible && (inlineSuggestionHasIndentationLessThanTabSize || (vim.active && vim.mode == 'Normal') || (neovim.init && neovim.mode == 'normal'))) || ((windsurf.richGhostTextShown || windsurf.sideHintShown || windsurf.tabActionShown)))",
+   "editorTextFocus && !editorHasSelection && !inlineSuggestionsVisible",
+   "editorTextFocus && !editorHasSelection && windsurf.canAcceptOrRejectCommand",
+   "editorTextFocus && vim.active && !inDebugRepl",
+   "editorTextFocus && windsurf.canAcceptOrRejectAllCascadeEditsInFile",
+   "editorTextFocus && windsurf.canAcceptOrRejectFocusedHunk",
+   "isMac && (productQualityType == 'insider' || config.devin.computerUse.helperPath)",
+   "terminalFocus && windsurf.canTriggerTerminalCommandAction"
+  ]
+ },
+ "vscode.yaml": {
+  "dir": "yaml",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.log": {
+  "dir": "log",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.github-authentication": {
+  "dir": "github-authentication",
+  "hasNls": true,
+  "displayStrings": [
+   "GitHub Enterprise Server"
+  ]
+ },
+ "vscode.theme-defaults": {
+  "dir": "theme-defaults",
+  "hasNls": true,
+  "displayStrings": [
+   "Dark 2026",
+   "Dark Modern",
+   "Default High Contrast",
+   "Default High Contrast Light",
+   "Light 2026",
+   "Light Modern",
+   "Visual Studio Dark",
+   "Visual Studio Light"
+  ]
+ },
+ "vscode.csharp": {
+  "dir": "csharp",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "codeium.windsurf-remote-openssh": {
+  "dir": "windsurf-remote-openssh",
+  "hasNls": false,
+  "displayStrings": [
+   "Add New",
+   "Close SSH Process",
+   "Connect to SSH Host in Current Window",
+   "Connect to SSH Host in Current Window...",
+   "Connect to SSH Host in New Window",
+   "Connect to SSH Host...",
+   "Devin Remote - SSH",
+   "Experimental: Disable the server checksum verification. This is only recommended for development and testing.",
+   "Experimental: The URL from where the Devin server will be downloaded. The following variables can be substituted: ${os}, ${arch}, ${windsurfVersion}, ${vscodeVersion} ${commit}, ${quality}.",
+   "Experimental: The name of the server binary, use this **only if** you are using a client without a corresponding server release.",
+   "Map of SSH host names to absolute parent directories where the Devin remote server is installed. The `.devin-server` data directory is created beneath the configured path. Kill the running server (or wait for it to exit) for this change to take effect.",
+   "Open SSH Configuration File...",
+   "Open on SSH Host in Current Window",
+   "Open on SSH Host in New Window",
+   "Remove from List",
+   "SSH (Devin)",
+   "SSH to a Remote Host",
+   "Show SSH Log...",
+   "Specifies the timeout in seconds used for the SSH command that connects to the remote.",
+   "The HTTP proxy to pass to the Devin server. Kill running server (or wait for it to exit) for this change to take effect.",
+   "The HTTPS proxy to pass to the Devin server. Kill running server (or wait for it to exit) for this change to take effect.",
+   "The absolute file path to a custom SSH config file.",
+   "The absolute file path to the SSH executable. If empty, will use the ssh on the PATH.",
+   "The grace time in seconds to wait before terminating the remote server when the client disconnects. This allows the client to reconnect to the same server process after brief network disruptions. Leave empty to use the default. Currently supports only Linux remotes.",
+   "The maximum number of times to attempt reconnection. Use 0 to disallow reconnection, and null to use the default of 8.",
+   "This setting is now deprecated, please use `#remote.devinSSH.configFile#` instead.",
+   "This setting is now deprecated, please use `#remote.devinSSH.connectTimeout#` instead.",
+   "This setting is now deprecated, please use `#remote.devinSSH.experimental.disableServerChecksum#` instead.",
+   "This setting is now deprecated, please use `#remote.devinSSH.experimental.serverBinaryName#` instead.",
+   "This setting is now deprecated, please use `#remote.devinSSH.experimental.serverDownloadUrlTemplate#` instead.",
+   "This setting is now deprecated, please use `#remote.devinSSH.httpProxy#` instead.",
+   "This setting is now deprecated, please use `#remote.devinSSH.httpsProxy#` instead.",
+   "This setting is now deprecated, please use `#remote.devinSSH.maxReconnectionAttempts#` instead.",
+   "This setting is now deprecated, please use `#remote.devinSSH.path#` instead.",
+   "This setting is now deprecated, please use `#remote.devinSSH.reconnectionGraceTime#` instead.",
+   "remoteConnectionState == disconnected",
+   "remoteName =~ /^ssh-remote$/ && remoteConnectionState == connected",
+   "view == windsurfSSHHosts",
+   "viewItem == windsurf-remote-openssh.explorer.folder",
+   "viewItem =~ /^windsurf-remote-openssh.explorer.folder/",
+   "viewItem =~ /^windsurf-remote-openssh.explorer.host$/"
+  ]
+ },
+ "vscode.julia": {
+  "dir": "julia",
+  "hasNls": true,
+  "displayStrings": [
+   "Julia Markdown"
+  ]
+ },
+ "vscode.theme-monokai-dimmed": {
+  "dir": "theme-monokai-dimmed",
+  "hasNls": true,
+  "displayStrings": [
+   "Monokai Dimmed"
+  ]
+ },
+ "vscode.bat": {
+  "dir": "bat",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.groovy": {
+  "dir": "groovy",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.coffeescript": {
+  "dir": "coffeescript",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.mermaid-markdown-features": {
+  "dir": "mermaid-markdown-features",
+  "hasNls": true,
+  "displayStrings": [
+   "A short title that describes the diagram.",
+   "Markdown-It Mermaid Renderer",
+   "Mermaid Renderer",
+   "Render a Mermaid.js diagram from markup.",
+   "Renders a Mermaid diagram from Mermaid.js markup.",
+   "The mermaid diagram markup to render as a Mermaid diagram. This should only be the markup of the diagram. Do not include a wrapping code block.",
+   "chatSessionType == local",
+   "webviewId == 'vscode.mermaid-markdown-features.chatOutputItem' || (webviewSection == 'mermaid' && (webviewId == 'markdown.preview' || webviewId == 'vscode.markdown.preview.editor' || webviewId == 'notebook.output'))",
+   "webviewId == 'vscode.mermaid-markdown-features.chatOutputItem' || webviewId == 'vscode.mermaid-markdown-features.preview' || (webviewSection == 'mermaid' && (webviewId == 'markdown.preview' || webviewId == 'vscode.markdown.preview.editor' || webviewId == 'notebook.output'))"
+  ]
+ },
+ "vscode.javascript": {
+  "dir": "javascript",
+  "hasNls": true,
+  "displayStrings": [
+   "JavaScript JSX",
+   "JavaScript React"
+  ]
+ },
+ "ms-vscode.vscode-js-profile-table": {
+  "dir": "ms-vscode.vscode-js-profile-table",
+  "hasNls": false,
+  "displayStrings": [
+   "CPU Profile Table Visualizer",
+   "Clear Profile Code Lenses",
+   "Heap Profile Table Visualizer",
+   "Heap Snapshot Table Visualizer",
+   "jsProfileVisualizer.hasCodeLenses == true"
+  ]
+ },
+ "vscode.php-language-features": {
+  "dir": "php-language-features",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.tunnel-forwarding": {
+  "dir": "tunnel-forwarding",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.extension-editing": {
+  "dir": "extension-editing",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.hlsl": {
+  "dir": "hlsl",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "enkia.tokyo-night": {
+  "dir": "theme-tokyo-night",
+  "hasNls": false,
+  "displayStrings": [
+   "Tokyo Night",
+   "Tokyo Night Light",
+   "Tokyo Night Storm"
+  ]
+ },
+ "vscode.vscode-modern-icons": {
+  "dir": "theme-modern-icons",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.restructuredtext": {
+  "dir": "restructuredtext",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.theme-kimbie-dark": {
+  "dir": "theme-kimbie-dark",
+  "hasNls": true,
+  "displayStrings": [
+   "Kimbie Dark"
+  ]
+ },
+ "vscode.objective-c": {
+  "dir": "objective-c",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "vscode.npm": {
+  "dir": "npm",
+  "hasNls": true,
+  "displayStrings": [
+   "Did you mean (?:this|one of these)\\?((?:\\n.+?npm .+ #.+)+)",
+   "config.npm.enableRunFromFolder && explorerViewletVisible && explorerResourceIsFolder && resourceScheme == file",
+   "resourceFilename == 'package.json' && resourceScheme == file",
+   "view == npm",
+   "view == npm && viewItem == packageJSON",
+   "view == npm && viewItem == script"
+  ]
+ },
+ "vscode.ruby": {
+  "dir": "ruby",
+  "hasNls": true,
+  "displayStrings": []
+ },
+ "Codeium.windsurf-dev-containers": {
+  "dir": "windsurf-dev-containers",
+  "hasNls": false,
+  "displayStrings": [
+   "Attach to Running Container",
+   "Command to run after the dotfiles repository is cloned. When empty, the first of `install.sh`, `install`, `bootstrap.sh`, `bootstrap`, `script/bootstrap`, `setup.sh`, `setup` and `script/setup` found in the repository runs; when none exists, the dotfiles in the repository root are symlinked into the home directory.",
+   "Connect to a development container",
+   "Dev Containers",
+   "Dev Containers (Devin Desktop)",
+   "Devin Desktop Remote - Dev Containers",
+   "Disable the server checksum verification. This is only recommended for development and testing.",
+   "Docker Compose executable name or path. It is used only when the Docker executable has no `compose` subcommand. Default: `docker-compose`.",
+   "Docker executable name or path that Dev Containers uses. This is one value for all windows and all hosts: in a Remote-SSH or WSL window, the same name or path is used on that host.",
+   "Enable SSH agent forwarding when connecting to devcontainers.",
+   "Open Container",
+   "Open Folder in Container",
+   "Path in the container to clone the dotfiles repository to.",
+   "Rebuild Container",
+   "Rebuild Container Without Cache",
+   "Rebuild and Reopen in Container",
+   "Refresh Dev Containers",
+   "Remove Container from History",
+   "Reopen Folder Locally",
+   "Reopen in Container",
+   "Run the lifecycle commands from `devcontainer.json` (`onCreateCommand`, `updateContentCommand`, `postCreateCommand`, `postStartCommand`, `postAttachCommand`) and install dotfiles when a Dev Container opens. When off, Devin Desktop runs none of them and installs no dotfiles, as before lifecycle support.",
+   "Show Devin Desktop Dev Containers Log",
+   "Show a notification that offers to reopen the folder in a container when the folder has a Dev Container configuration file.",
+   "This setting is now deprecated, please use `#remote.devinDevContainers.enableSSHAgentForwarding#` instead.",
+   "This setting is now deprecated, please use `#remote.devinDevContainers.experimental.disableServerChecksum#` instead.",
+   "URL of a dotfiles Git repository (for example `https://github.com/owner/repository.git`) to clone into each Dev Container and install after it is created.",
+   "remoteConnectionState == disconnected",
+   "remoteConnectionState == disconnected && workspaceFolderCount > 0",
+   "remoteName =~ /^dev-container$/",
+   "remoteName =~ /^dev-container$/ && remoteConnectionState == connected",
+   "remoteName =~ /^dev-container$/ && remoteConnectionState == connected && !windsurf.isNestedContainer",
+   "remoteName =~ /^dev-container$/ && remoteConnectionState == connected && workspaceFolderCount > 0 && !windsurf.isNestedContainer",
+   "remoteName =~ /^dev-container$/ && workspaceFolderCount > 0 && !windsurf.isNestedContainer",
+   "view == windsurfDevContainers",
+   "view == windsurfDevContainers && viewItem == windsurf-dev-containers.container"
+  ]
+ },
+ "vscode.git": {
+  "dir": "git",
+  "hasNls": true,
+  "displayStrings": [
+   "Git API",
+   "This setting is now deprecated, please use `#git.showDevinWorktrees#` instead.",
+   "This setting is now deprecated, please use `#github.gitAuthentication#` instead.",
+   "cmd+k cmd+alt+s",
+   "cmd+k cmd+n",
+   "cmd+k cmd+r",
+   "config.git.enabled && !git.missing",
+   "config.git.enabled && !git.missing && !isInDiffEditor && !isMergeEditor && resource in git.mergeChanges && git.activeResourceHasMergeConflicts",
+   "config.git.enabled && !git.missing && config.git.allowForcePush && gitOpenRepositoryCount != 0",
+   "config.git.enabled && !git.missing && config.git.allowNoVerifyCommit && gitOpenRepositoryCount != 0",
+   "config.git.enabled && !git.missing && config.git.untrackedChanges == separate",
+   "config.git.enabled && !git.missing && git.parentRepositoryCount != 0",
+   "config.git.enabled && !git.missing && git.state == initialized && git.closedRepositoryCount == 1",
+   "config.git.enabled && !git.missing && git.state == initialized && git.closedRepositoryCount > 1",
+   "config.git.enabled && !git.missing && git.state == initialized && git.parentRepositoryCount == 1",
+   "config.git.enabled && !git.missing && git.state == initialized && git.parentRepositoryCount > 1",
+   "config.git.enabled && !git.missing && git.state == initialized && git.unsafeRepositoryCount == 1",
+   "config.git.enabled && !git.missing && git.state == initialized && git.unsafeRepositoryCount > 1",
+   "config.git.enabled && !git.missing && git.state == initialized && workbenchState == folder && scm.providerCount == 0 && git.parentRepositoryCount == 0 && git.unsafeRepositoryCount == 0 && git.closedRepositoryCount == 0 && remoteName != 'codespaces'",
+   "config.git.enabled && !git.missing && git.state == initialized && workbenchState == workspace && workspaceFolderCount != 0 && scm.providerCount == 0 && git.parentRepositoryCount == 0 && git.unsafeRepositoryCount == 0 && git.closedRepositoryCount == 0 && remoteName != 'codespaces'",
+   "config.git.enabled && !git.missing && git.timeline.selectedForCompare && timelineItem =~ /git:file\\b/ && !listMultiSelection",
+   "config.git.enabled && !git.missing && git.unsafeRepositoryCount != 0",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && !isInDiffEditor && !isInNotebookTextDiffEditor && resourceScheme == git",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && !isInDiffEditor && !isMergeEditor && resourceScheme == file && git.activeResourceHasStagedChanges && !isSessionsWindow",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && !isInDiffEditor && !isMergeEditor && resourceScheme == file && git.activeResourceHasUnstagedChanges && !isSessionsWindow",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && !isInDiffEditor && !isMergeEditor && resourceScheme == file && scmActiveResourceHasChanges && !isSessionsWindow",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && diffEditorOriginalUri =~ /^git\\:.*%22ref%22%3A%22~%22%7D$/",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && editorLangId == git-commit",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && gitCherryPickInProgress",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && gitMergeInProgress",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && gitRebaseInProgress",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && gitVersion2.35",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && isInDiffEditor && isInDiffRightEditor && !isEmbeddedDiffEditor && resourceScheme == file",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && isInDiffEditor && isInDiffRightEditor && !isEmbeddedDiffEditor && resourceScheme == file && !isSessionsWindow",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && isInDiffEditor && isInDiffRightEditor && !isEmbeddedDiffEditor && resourceScheme == git",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && isInDiffEditor && isInDiffRightEditor && !isEmbeddedDiffEditor && resourceScheme == git && !isSessionsWindow",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && isInDiffEditor && resourceScheme =~ /^git$|^file$/",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && isInNotebookTextDiffEditor && resourceScheme =~ /^git$|^file$/",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && remoteName",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && resourceScheme == file",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && resourceScheme == file && scmActiveResourceHasChanges",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && resourceScheme == file && scmActiveResourceRepository",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0 && resourceScheme == git",
+   "config.git.enabled && !git.missing && gitOpenRepositoryCount > 1",
+   "config.git.enabled && !git.missing && originalResource =~ /^git\\:.*%22ref%22%3A%22%22%7D$/",
+   "config.git.enabled && !git.missing && remoteName != 'codespaces'",
+   "config.git.enabled && !git.missing && resourceScheme == git-stash",
+   "config.git.enabled && !git.missing && timelineItem =~ /git:file:commit\\b/ && !listMultiSelection",
+   "config.git.enabled && !git.missing && timelineItem =~ /git:file\\b/ && !listMultiSelection",
+   "config.git.enabled && !git.missing && workbenchState == empty && git.parentRepositoryCount == 0 && git.unsafeRepositoryCount == 0 && git.closedRepositoryCount == 0",
+   "config.git.enabled && !git.missing && workbenchState == folder && workspaceFolderCount != 0 && git.state != initialized",
+   "config.git.enabled && !git.missing && workbenchState == workspace && workspaceFolderCount != 0 && git.state != initialized",
+   "config.git.enabled && !git.missing && workbenchState == workspace && workspaceFolderCount == 0 && git.parentRepositoryCount == 0 && git.unsafeRepositoryCount == 0 && git.closedRepositoryCount == 0",
+   "config.git.enabled && git.missing && remoteName != ''",
+   "config.git.enabled && git.missing && remoteName == '' && isLinux",
+   "config.git.enabled && git.missing && remoteName == '' && isMac",
+   "config.git.enabled && git.missing && remoteName == '' && isWindows",
+   "config.git.enabled && git.state == initialized && scm.providerCount == 0",
+   "ctrl+k ctrl+alt+s",
+   "ctrl+k ctrl+n",
+   "ctrl+k ctrl+r",
+   "diffEditorOriginalUri =~ /^git\\:.*%22ref%22%3A%22~%22%7D$/",
+   "editorTextFocus && isInDiffEditor && isInDiffRightEditor && resourceScheme == git",
+   "editorTextFocus && resourceScheme == file",
+   "git.closedRepositoryCount > 0",
+   "git.state == initialized",
+   "gitState == idle",
+   "isMergeEditor && mergeEditorResultUri in git.mergeChanges",
+   "isMergeResultEditor && mergeEditorBaseUri =~ /^(git|file):/ && mergeEditorResultUri in git.mergeChanges",
+   "scmProvider == git",
+   "scmProvider == git && !listMultiSelection",
+   "scmProvider == git && !scmCurrentHistoryItemRefHasRemote",
+   "scmProvider == git && (scmArtifactGroupId == branches || scmArtifactGroupId == tags)",
+   "scmProvider == git && gitOpenRepositoryCount > 1",
+   "scmProvider == git && scmArtifactGroup == branches",
+   "scmProvider == git && scmArtifactGroup == stashes",
+   "scmProvider == git && scmArtifactGroup == tags",
+   "scmProvider == git && scmArtifactGroup == worktrees",
+   "scmProvider == git && scmArtifactGroupId == branches",
+   "scmProvider == git && scmArtifactGroupId == stashes",
+   "scmProvider == git && scmArtifactGroupId == tags",
+   "scmProvider == git && scmArtifactGroupId == worktrees",
+   "scmProvider == git && scmCurrentHistoryItemRefHasRemote",
+   "scmProvider == git && scmHistoryItemRef =~ /^refs\\/heads\\/|^refs\\/remotes\\//",
+   "scmProvider == git && scmHistoryItemRef =~ /^refs\\/tags\\//",
+   "scmProvider == git && scmProviderContext == worktree",
+   "scmProvider == git && scmResourceGroup == index",
+   "scmProvider == git && scmResourceGroup == index && config.git.showInlineOpenFileAction && !config.git.openDiffOnClick",
+   "scmProvider == git && scmResourceGroup == index && config.git.showInlineOpenFileAction && config.git.openDiffOnClick",
+   "scmProvider == git && scmResourceGroup == index && remoteName == '' && isLinux",
+   "scmProvider == git && scmResourceGroup == index && remoteName == '' && isMac",
+   "scmProvider == git && scmResourceGroup == index && remoteName == '' && isWindows",
+   "scmProvider == git && scmResourceGroup == index && scmResourceState == worktree",
+   "scmProvider == git && scmResourceGroup == merge",
+   "scmProvider == git && scmResourceGroup == merge && config.git.showInlineOpenFileAction && !config.git.openDiffOnClick",
+   "scmProvider == git && scmResourceGroup == merge && config.git.showInlineOpenFileAction && config.git.openDiffOnClick",
+   "scmProvider == git && scmResourceGroup == merge && remoteName == '' && isLinux",
+   "scmProvider == git && scmResourceGroup == merge && remoteName == '' && isMac",
+   "scmProvider == git && scmResourceGroup == merge && remoteName == '' && isWindows",
+   "scmProvider == git && scmResourceGroup == untracked",
+   "scmProvider == git && scmResourceGroup == untracked && !gitFreshRepository",
+   "scmProvider == git && scmResourceGroup == untracked && config.git.showInlineOpenFileAction && !config.git.openDiffOnClick",
+   "scmProvider == git && scmResourceGroup == untracked && config.git.showInlineOpenFileAction && config.git.openDiffOnClick",
+   "scmProvider == git && scmResourceGroup == workingTree",
+   "scmProvider == git && scmResourceGroup == workingTree && config.git.showInlineOpenFileAction && !config.git.openDiffOnClick",
+   "scmProvider == git && scmResourceGroup == workingTree && config.git.showInlineOpenFileAction && config.git.openDiffOnClick",
+   "scmProvider == git && scmResourceGroup == workingTree && config.git.untrackedChanges != mixed",
+   "scmProvider == git && scmResourceGroup == workingTree && config.git.untrackedChanges == mixed",
+   "scmProvider == git && scmResourceGroup == workingTree && remoteName == '' && isLinux",
+   "scmProvider == git && scmResourceGroup == workingTree && remoteName == '' && isMac",
+   "scmProvider == git && scmResourceGroup == workingTree && remoteName == '' && isWindows",
+   "scmProvider == git && scmResourceGroup == workingTree && scmResourceState == worktree",
+   "scmProviderContext == repository",
+   "scmProviderContext == worktree"
+  ]
+ },
+ "vscode.search-result": {
+  "dir": "search-result",
+  "hasNls": true,
+  "displayStrings": [
+   "Search Result"
+  ]
+ },
+ "vscode.sql": {
+  "dir": "sql",
+  "hasNls": true,
+  "displayStrings": [
+   "MS SQL"
+  ]
+ }
+}

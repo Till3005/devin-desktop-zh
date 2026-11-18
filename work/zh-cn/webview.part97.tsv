@@ -1,0 +1,200 @@
+settings.preferencePages.review.allModes	全部模式
+settings.preferencePages.review.autoReview	自动分析
+settings.preferencePages.review.clickAddRepoAddRepositories	点「加仓库」加仓库
+settings.preferencePages.review.enterWholeNumberGreaterThan0	输大于 0 的整数，或留空用默认
+settings.preferencePages.review.filterByReviewTriggerMode	按分析触发筛
+settings.preferencePages.review.loading	加载中…
+settings.preferencePages.review.loadingUsers	加载用户中…
+settings.preferencePages.review.missingRepository	缺仓库？<connectionsLink>配你的 Git 集成</connectionsLink>或<permissionsLink>仓库权限</permissionsLink>。
+settings.preferencePages.review.noMatchingRepositories	没有匹配的仓库
+settings.preferencePages.review.noMatchingUsers	没有匹配的用户
+settings.preferencePages.review.noRepositoriesConfigured	没配仓库
+settings.preferencePages.review.noUsersEnrolled	没登记用户
+settings.preferencePages.review.perPrAcuLimit	单 PR ACU 上限
+settings.preferencePages.review.perPrDemandSpendLimit	单 PR 按需花费上限
+settings.preferencePages.review.prsReviewedAutomaticallyWhenSubmittedEnrolled	Devin 自动分析已登记仓库或已登记作者的 PR。两者都适用时，更频繁的触发胜出。用户可在<lnk>个人设置</lnk>登记。
+settings.preferencePages.review.remove	移除
+settings.preferencePages.review.removeRepo	移除 {{repo}}
+settings.preferencePages.review.repositories	仓库
+settings.preferencePages.review.saveLengthSelected	保存（已选 {{length}} 个）
+settings.preferencePages.review.searchRepositories	搜索仓库…
+settings.preferencePages.review.searchUsers	搜索用户…
+settings.preferencePages.review.selectRepositories	选仓库
+settings.preferencePages.review.selectRepositoriesEnableAutomaticPrReviews	选仓库以自动分析其 PR。
+settings.preferencePages.review.selectRepositoryTriggerMode	选仓库触发模式
+settings.preferencePages.review.selfEnrolledUsers	自行登记用户
+settings.preferencePages.review.stopsAutoReviewingPrOnceIts	PR 的按需花费超此上限时暂停自动分析。{{t}}
+settings.preferencePages.review.usersCanSelfEnrollFromAny	用户可从任何 Devin Review PR 页自行登记
+settings.preferencePages.review.whenReady	就绪时
+settings.preferencePages.support.bookCall	预约通话
+settings.preferencePages.support.connectingSupportChat	正在连支持聊天…
+settings.preferencePages.support.documentation	文档
+settings.preferencePages.support.pleaseEmailSupportCognitionAiWell	请发邮件到 <lnk>support@cognition.ai</lnk>，我们会回你。
+settings.preferencePages.support.supportChatUnavailable	支持聊天不可用
+settings.preferencePages.teamReferral.accountCantSendInvites	你账户现在发不了邀请。
+settings.preferencePages.teamReferral.alreadyOnCompanyDomain	此人已在你公司域名上。
+settings.preferencePages.teamReferral.couldntSendInvitePleaseTryAgain	发不了邀请。请重试。
+settings.preferencePages.teamReferral.email	邮箱
+settings.preferencePages.teamReferral.enterCompanyEmailAddress	输公司邮箱地址
+settings.preferencePages.teamReferral.enterValidEmail	请输有效邮箱
+settings.preferencePages.teamReferral.expired	已过期
+settings.preferencePages.teamReferral.giveRecipientrewarddollarsGetReferrerrewarddollars	送 ${{recipientRewardDollars}}。得 ${{referrerRewardDollars}}。
+settings.preferencePages.teamReferral.invite	邀请
+settings.preferencePages.teamReferral.inviteLink	邀请链接
+settings.preferencePages.teamReferral.inviteSent	邀请已发
+settings.preferencePages.teamReferral.invited	已邀请
+settings.preferencePages.teamReferral.invitesremainingPerorgquotaInvitesRemaining	{{perOrgQuota}} 个邀请剩 {{invitesRemaining}}
+settings.preferencePages.teamReferral.programNotAcceptingInvites	此计划不再接受邀请。
+settings.preferencePages.teamReferral.programNotAvailable	此计划不再可用。
+settings.preferencePages.teamReferral.referTeamDevinWhenTheyJoin	推荐一个团队给 Devin。他们加入时得 ${{recipientRewardDollars}}，你得 ${{referrerRewardDollars}} 奖励用量试 Devin。
+settings.preferencePages.teamReferral.retry	重试
+settings.preferencePages.teamReferral.rewarded	已奖励
+settings.preferencePages.teamReferral.sentAt	发于
+settings.preferencePages.teamReferral.sentBy	发者
+settings.preferencePages.teamReferral.somethingWentWrongPleaseTryAgain	出错了。请重试。
+settings.preferencePages.teamReferral.status	状态
+settings.preferencePages.teamReferral.statusSent	已发
+settings.preferencePages.teamReferral.thisAddressWasAlreadyInvitedRecently	此地址最近已被邀请过——没发新邮件。
+settings.preferencePages.teamReferral.useCompanyEmail	请用公司邮箱地址。
+settings.preferencePages.teamReferral.usedAllInvites	你已用完邀请。
+settings.preferencePages.teamReferral.weCouldntLoadSentInvitesPlease	加载不了你发的邀请。请重试。
+settings.preferencePages.teamReferral.youveUsedAllInvites	你已用完邀请。
+settings.preferences	偏好
+settings.preferredName	首选名
+settings.preferredNameUpdated	首选名更新成功。
+settings.primaryEmail	（主邮箱）
+settings.privateSessions	会话开为「仅自己」
+settings.privateSessionsDescription	你在此开的新会话对其它人隐藏，除非你共享
+settings.productivity	生产力
+settings.productivityDescription	看企业等效生产工程时长和 ROI
+settings.profile	档案
+settings.profilePictureUploaded	头像上传成功。
+settings.prsMergedPerDayColumn	每日合并 PR
+settings.pullRequestLinksOpen	拉取请求链接开在…
+settings.pullRequestLinksOpenDescription	选拉取请求默认在哪开
+settings.pullRequests	拉取请求
+settings.pullRequestsDescription	Devin 怎么建、管和响应拉取请求
+settings.pylon	Pylon
+settings.pylonOauthOrgMismatch	你 Pylon 账户属于不同于连到此账户的 Pylon 组织。
+settings.qrScanner.uploadButton	上传二维码截图
+settings.qrScanner.uploadDescription	上传你 TOTP 二维码截图以自动提取 secret
+settings.queue	排队
+settings.queueMessagesWhileWorking	默认发送行为
+settings.queueMessagesWhileWorkingDescription	设 Devin 怎么处理后续提示。
+settings.queueMessagesWhileWorkingModeQueue	排队消息
+settings.queueMessagesWhileWorkingModeSend	立刻发
+settings.queueMessagesWhileWorkingShortcut	按 <kbdShortcut/> 做相反操作
+settings.quickReview	快速审查
+settings.quickReviewDescription	允许成员用<docsLink>快速审查</docsLink>模型
+settings.quickStart	快速开始
+settings.quickStartDescription	用你个人访问令牌发 API 调用
+settings.quickTest	快速测试
+settings.quickTestDescription	试建一个 Devin API 会话。可选快照和 playbook。
+settings.quickTestPlaybook	Playbook
+settings.quickTestSnapshot	快照
+settings.readOnly	只读
+settings.reconnect	重连
+settings.referrals	推荐
+settings.referralsDescription	邀请团队到 Devin 挣奖励用量。
+settings.referralsError	出错了
+settings.referralsErrorDescription	查不了你推荐资格。
+settings.register	注册
+settings.registerBitbucketDataCenterAppDescription	在已连 Data Center 实例加一个传入应用链接的 client ID 和 secret。
+settings.registerDescription	在你自托管 GitLab 实例注册一个 OAuth 应用。
+settings.registerGithubEnterpriseDescription	在你 GitHub Enterprise Server 实例注册一个 GitHub App。
+settings.registry	Registry
+settings.registryDescription	除 MCP 白名单外也允许匹配 registry 条目的服务器
+settings.registryUrlAddFailed	加 registry URL 失败
+settings.registryUrlAdded	Registry URL 已加
+settings.registryUrlAlreadyExists	Registry URL 已存在
+settings.registryUrlLabel	Registry URL
+settings.registryUrlRemoveFailed	移除 registry URL 失败
+settings.registryUrlRemoved	Registry URL 已移除
+settings.registryUrlRequired	Registry URL 为必填项
+settings.removeAsDefaultModel	移除默认
+settings.removeCertificationMappingConfirmDescription	没派档位的 {{name}} 持证者将回退到其组或默认档位。
+settings.removeCertificationMappingConfirmTitle	移除认证映射？
+settings.removeCommandFromAllowlist	从白名单移除 {{command}}
+settings.removeCommandFromDenylist	从黑名单移除 {{command}}
+settings.removeDefaultBranchHint	把另一分支设为默认以移除此索引
+settings.removeDomainFromAllowlist	从白名单移除域名
+settings.removeDomainFromDenylist	从黑名单移除域名
+settings.removeFromAllowlist	从白名单移除
+settings.removeFromDenylist	从黑名单移除
+settings.removeFromTierConfirm	移除
+settings.removeFromTierDescription_one	确定要从此档位移除 {{count}} 个成员？
+settings.removeFromTierDescription_other	确定要从此档位移除 {{count}} 个成员？
+settings.removeFromTierTitle	从档位移除？
+settings.removeFromTier_one	移除 {{count}} 个成员
+settings.removeFromTier_other	移除 {{count}} 个成员
+settings.removeGitProviderConnectionEnterpriseWarning	你在 Settings > Repository Permissions 页做的任何配置将丢失。提示：若你要的仓库没出现，试<environmentLink>Settings > Environment 页</environmentLink>的刷新按钮或找 <supportLink>support@cognition.ai</supportLink>。
+settings.removeGitProviderConnectionKeepsPat	这不会从你 {{provider}} 账户吊销 PAT 本身。
+settings.removeGitProviderConnectionLoseAccess	Devin 将失 {{connection}} 仓库的访问。
+settings.removeGitProviderConnectionLoseAccessUnnamed	Devin 将失此连接仓库的访问。
+settings.removeGroupMapping	移除映射
+settings.removeGroupMappingConfirmDescription	没派档位的 {{name}} 成员将回退到默认档位。
+settings.removeGroupMappingConfirmTitle	移除组映射？
+settings.removeGroupMappingError	移除映射失败
+settings.removeMembersError	移除成员失败
+settings.removeMembersSuccess	成员已从档位移除
+settings.removeRegistryUrl	移除 registry URL
+settings.removeServer	移除服务器
+settings.removeServerNamed	移除 {{server}}
+settings.renameServiceUser.actionFor	重命名服务用户 {{name}}
+settings.renameServiceUser.confirm	重命名
+settings.renameServiceUser.failed	重命名不了服务用户
+settings.renameServiceUser.nameLabel	名称
+settings.renameServiceUser.renamed	服务用户已重命名
+settings.renameServiceUser.title	重命名服务用户
+settings.reorderTier	重排档位 {{name}}
+settings.reorderTiers	编辑优先级
+settings.reorderTiersDefaultError	优先级已存，但更新默认档位失败
+settings.reorderTiersError	更新档位优先级失败
+settings.reorderTiersHint	拖以排档位。档位按降序优先；最底档位是未派成员的默认。
+settings.reorderTiersServiceUserDefaultError	服务用户默认档位不能是最底档：最底档变成成员默认档位
+settings.reorderTiersSuccess	档位优先级已更新
+settings.repoConnectInstructionsUrl	连接指引链接
+settings.repoConnectInstructionsUrlDescription	你自己写的怎么把仓库连到 Devin 的指南（谁能、怎么连）。从「谁能连它？」及其起草的消息链出；没有它，成员只看到要 owner 或 maintainer 来连。链接里 {repo}、{url} 和 {host} 换成该仓库。
+settings.repoConnectInstructionsUrlFailed	存不了连接指引链接。
+settings.repoConnectInstructionsUrlSaved	连接指引链接已存。
+settings.repoRequestAccessUrl	默认申请访问链接
+settings.repoRequestAccessUrlDescription	成员去哪申请把仓库连到 Devin，如你内部门户或文档。在还没进 Devin 的仓库旁显示。链接里 {repo}、{url} 和 {host} 换成该仓库。
+settings.repoRequestAccessUrlFailed	存不了申请访问链接。
+settings.repoRequestAccessUrlGithub	GitHub 申请访问链接
+settings.repoRequestAccessUrlGitlab	GitLab 申请访问链接
+settings.repoRequestAccessUrlInvalid	输 https:// 开头的完整链接。
+settings.repoRequestAccessUrlProviderDescription	用于此提供商仓库，替代默认链接。留空用默认链接。链接里 {repo}、{url} 和 {host} 换成该仓库。
+settings.repoRequestAccessUrlSaved	申请访问链接已存。
+settings.repoRequests	仓库申请
+settings.repoSyncFailing	仓库同步
+settings.repoSyncFailingDescription	查此连接的凭据。会话用不了 Devin 看不见的仓库。
+settings.repoSyncFailingSince	自 {{date}} 起失败
+settings.repoSyncRetry	重试同步
+settings.repositories	仓库
+settings.repositoriesBlueprintDescription	快照构建按所示顺序克隆和设置加的仓库。拖以重排
+settings.repositoriesDescription	选仓库给 DeepWiki 和 Ask Devin 索引
+settings.repositoryPermissions	仓库权限
+settings.requestApprovalFailed	批准不了申请。
+settings.requestApproved	申请已批准
+settings.requestBaa	申请 BAA
+settings.requestCurrentUsage	当前用量
+settings.requestDenialFailed	拒绝不了申请。
+settings.requestDenied	申请被拒
+settings.requestDetails	申请详情
+settings.requestMessage	消息
+settings.requestNameColumn	名称
+settings.requestStatusApproved	已批准
+settings.requestStatusColumn	状态
+settings.requestStatusDenied	被拒
+settings.requestStatusExpired	已过期
+settings.requestStatusPending	待批
+settings.requestUrgencyBlocked	被挡
+settings.requestUrgencyColumn	紧急度
+settings.requestUrgencyProactive	主动
+settings.requestedOnColumn	申请于
+settings.requestsApproved_one	{{count}} 个申请已批
+settings.requestsApproved_other	{{count}} 个申请已批
+settings.requestsDenied_one	{{count}} 个申请被拒
+settings.requestsDenied_other	{{count}} 个申请被拒
+settings.requireAtdevinToRespond	要 @Devin 才回
+settings.requireAtdevinToRespondDescription	只回直接提 @Devin 的 PR 评论

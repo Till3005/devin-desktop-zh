@@ -1,0 +1,140 @@
+vs/sessions/contrib/sessions/browser/views/automationTemplates/automationTemplate.mainUpdates.prompt	拉取最新 main 并总结拉入的提交。\n\n检查此仓库的当前分支、工作树和已配置的远程。从仓库配置解析 main 的远程，不要假定是 origin。记录 HEAD，然后用 --ff-only 将该远程的 main 拉入当前检出。仅在工作树干净且可快进时继续。若远程有歧义、main 缺失或更新受阻，停止并说明原因。不要切换分支、stash 或丢弃本地更改、rebase 或强制更新。\n\n对比起止 HEAD，仅总结新拉入的提交并按主题分组。突出用户可见更改、bug 修复、破坏性更改和后续动作。可用时附上提交链接和相关 PR。若未拉入任何提交，如实说明。
+vs/sessions/contrib/sessions/browser/views/automationTemplates/automationTemplate.pluginDescription	由 {0} 提供。
+vs/sessions/contrib/sessions/browser/views/sessionsList/automationsNewBadge	新
+vs/sessions/contrib/sessions/browser/views/sessionsList/automationsNewFeatureAria	{0}，新功能
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonAttemptFailed	失败
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonAttemptNeedsInput	需要输入
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonAttemptPending	待处理
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonGroup.attempts	比较 · {0} 次尝试
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonGroup.attemptsFinished	比较 · {0} 次尝试已完成
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonGroup.attemptsNeedInput	比较 · {0} 次尝试需要输入
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonGroup.attemptsWorking	比较 · {0} 次尝试进行中
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonGroup.judgeNeedsInput	比较 · 评判需要输入
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonGroup.oneAttemptNeedsInput	比较 · 1 次尝试需要输入
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonGroup.oneAttemptWorking	比较 · 1 次尝试进行中
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonGroup.reviewFailed	比较 · 评审失败
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonGroup.reviewIncomplete	比较 · 评审未完成
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonGroup.reviewing	比较 · 正在评审尝试
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonGroup.reviewReady	比较 · 评审就绪
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonGroup.startingAttempts	比较 · 正在启动 {0} 次尝试
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonGroup.startingAttemptsProgress	比较 · 正在启动尝试 · {0}/{1} 就绪
+vs/sessions/contrib/sessions/browser/views/sessionsList/comparisonGroupAria	{0}，{1}
+vs/sessions/contrib/sessions/browser/views/sessionsList/customizationCountAria	1 项自定义
+vs/sessions/contrib/sessions/browser/views/sessionsList/customizations	自定义项
+vs/sessions/contrib/sessions/browser/views/sessionsList/customizationsAria	{0}，{1}
+vs/sessions/contrib/sessions/browser/views/sessionsList/customizationsCountAria	{0} 项自定义
+vs/sessions/contrib/sessions/browser/views/sessionsList/customizationsMigrationAvailableAria	{0}，{1}，有可用的自定义迁移
+vs/sessions/contrib/sessions/browser/views/sessionsList/externalSessionsSection	外部
+vs/sessions/contrib/sessions/browser/views/sessionsList/inlineRename.empty	标题不能为空
+vs/sessions/contrib/sessions/browser/views/sessionsList/markAllInSectionRead	全部标为已读
+vs/sessions/contrib/sessions/browser/views/sessionsList/newSession	新建会话
+vs/sessions/contrib/sessions/browser/views/sessionsList/newSessionAria	新建会话（{0}）
+vs/sessions/contrib/sessions/browser/views/sessionsList/newSessionAriaWithoutKeybinding	新建会话
+vs/sessions/contrib/sessions/browser/views/sessionsList/renameChat.inputAriaLabel	重命名聊天。按 Enter 确认或 Escape 取消。
+vs/sessions/contrib/sessions/browser/views/sessionsList/renameSession.inputAriaLabel	重命名会话。按 Enter 确认或 Escape 取消。
+vs/sessions/contrib/sessions/browser/views/sessionsList/retryComparisonJudge	重试评判
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionChatItemArchivedAria	{0}，已归档
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionChatItemChangesAria	{0}，新增 {1} 行，删除 {2} 行
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionChatItemFolderAria	{0}，文件夹 {1} 中的聊天，更新于 {2}，{3}
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionChatItemFolderWithoutTimeAria	{0}，文件夹 {1} 中的聊天，{2}
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionChatItemStatusMessageAria	{0}，{1}
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionChatItemUnreadAria	{0}，未读
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionChatItemWithoutTimeAria	{0}，聊天，{1}
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionItemInputNeededMessageAria	{0}，{1}
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionItemQuickChatWithoutTimeAria	{0}，聊天
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionItemUnreadAria	{0}，未读
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionItemWorktreePendingWithoutTimeAria	{0}，正在创建 worktree
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionSectionAria	{0}，{1}
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionSectionFailingCIAria	{0}，{1}，会话有失败的 CI 检查
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionSectionNeedsInputAria	{0}，{1}，会话需要输入
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionSectionUnreadAria	{0}，{1}，包含未读会话
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionsList.archiveOnboardingUnavailable	无法在会话列表中显示该会话。请重试。
+vs/sessions/contrib/sessions/browser/views/sessionsList/sessionsNavigation	会话导航
+vs/sessions/contrib/sessions/browser/views/sessionsListFilters/application.environment	{0}（{1}）
+vs/sessions/contrib/sessions/browser/views/sessionsListFilters/environment.cloud	云端
+vs/sessions/contrib/sessions/browser/views/sessionsListFilters/environment.local	本地
+vs/sessions/contrib/sessions/browser/views/sessionsListFilters/harness.claude	Claude
+vs/sessions/contrib/sessions/browser/views/sessionsListFilters/harness.codex	Codex
+vs/sessions/contrib/sessions/browser/views/sessionsListFilters/harness.copilot	Copilot
+vs/sessions/contrib/sessions/browser/views/sessionsListNotification/dismiss	关闭
+vs/sessions/contrib/sessions/browser/views/sessionsListNotification/notificationHelp	{0}\n此通知在将会话标为完成或归档后出现。用 Tab 和 Shift+Tab 移动到“撤销”和“关闭”，按 Enter 或空格键激活，或按 Escape 关闭通知。\n“撤销”会恢复会话及其原先的自定义分组（若这些分组仍存在）。它不会重启已停止的请求。\n通知在 10 秒后消失。悬停、聚焦或打开本帮助时倒计时暂停。底部横条显示剩余时间。
+vs/sessions/contrib/sessions/browser/views/sessionsListNotification/notificationHelpHint	按 {0} 查看无障碍帮助。
+vs/sessions/contrib/sessions/browser/views/sessionsListNotification/undo	撤销
+vs/sessions/contrib/sessions/browser/views/sessionsListNotification/undoAvailable	{0}。会话列表中 10 秒内可撤销。
+vs/sessions/contrib/sessions/browser/views/sessionsListNotification/undoSessions	撤销：{0}
+vs/sessions/contrib/sessions/browser/views/sessionStorageCleanupNotice/sessionStorageCleanupNotice.announcement	{0} 运行“打开 worktree 清理”进行查看。要停止此类建议，运行“禁用会话存储清理建议”。
+vs/sessions/contrib/sessions/browser/views/sessionStorageCleanupNotice/sessionStorageCleanupNotice.ariaLabel	会话存储清理建议
+vs/sessions/contrib/sessions/browser/views/sessionStorageCleanupNotice/sessionStorageCleanupNotice.disable	不再显示
+vs/sessions/contrib/sessions/browser/views/sessionStorageCleanupNotice/sessionStorageCleanupNotice.dismiss	关闭会话存储建议
+vs/sessions/contrib/sessions/browser/views/sessionStorageCleanupNotice/sessionStorageCleanupNotice.manage	打开 worktree 清理
+vs/sessions/contrib/sessions/browser/views/sessionsView/environment	环境
+vs/sessions/contrib/sessions/browser/views/sessionsView/noCreatingApplications	未找到应用
+vs/sessions/contrib/sessions/browser/views/sessionsView/selectEnvironmentFirst	请先选择环境
+vs/sessions/contrib/sessions/browser/views/sessionsView/showArchived	显示已归档
+vs/sessions/contrib/sessions/browser/views/sessionsView/showDone	显示已完成
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/all	全部
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/configureExternalSessions	配置外部会话
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/created	创建时间
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/createdExternally	外部创建
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/createdIn	创建于
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/grouping	分组方式
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/harness	Harness
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/importSession	导入
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/ordering	排序方式
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/recent	最近
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/resetAutomationsNewBadge	重置自动化“新”徽标
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/sessionImported	已导入 {0}。
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/sessionsArchived	已归档 {0} 个会话
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/sessionsImported	已导入 {0} 个会话。
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/sessionsMarkedDone	已标完 {0} 个会话
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/sessionsRestored	会话已恢复。
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/showInExternalSection	在外部分区显示
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/showSessions	显示
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/time	时间
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/toggleCompactSessionsView	紧凑视图
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/updated	更新时间
+vs/sessions/contrib/sessions/browser/views/sessionsViewActions/workspace	工作区
+vs/sessions/contrib/sessions/electron-browser/sessions.contribution/sessions.applicationBadge	控制启用 {0} 时应用徽标计入哪些未归档会话。匹配多个已启用选项的会话只计一次。
+vs/sessions/contrib/sessions/electron-browser/sessions.contribution/sessions.applicationBadge.ciFailing	计入打开的、非草稿 PR 上 CI 检查失败、不再进行中且未被 Agent Merge 处理的会话。
+vs/sessions/contrib/sessions/electron-browser/sessions.contribution/sessions.applicationBadge.inputNeeded	计入需要输入或批准的会话。
+vs/sessions/contrib/sessions/electron-browser/sessions.contribution/sessions.applicationBadge.unread	计入不再进行中的未读会话。
+vs/sessions/services/chatBackground/browser/chatBackgroundRenderer/sessionsChatBackground.confettiButton	庆祝
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.additionalSynthesisInstructionsPrompt	\n\n## 附加合成指令\n{0}
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.attemptInterrupted	该尝试在启动前被中断。
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.attemptMissing	该尝试会话已不可用。
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.harnessAndPermissions	{0} · {1}
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.insufficientSuccessfulAttempts	{1} 次比较尝试仅 {0} 次启动。至少需两次成功启动。失败的尝试：{2}
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.judgeTitle	评判：{0}
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.judgeUnavailable	评判会话未能启动。
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.launchCancelled	该尝试在启动前被取消。
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.launchUnavailable	该会话未能启动。
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.legacyAttemptTitle	尝试 {0}：{1}
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.noJudgeExplanation	没有可用的评判说明；请使用所选尝试作为基底。
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.otherAttemptStrengthPrompt	- **{0}**：{1}
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.otherAttemptStrengthsPrompt	\n\n## 其他尝试的亮点\n{0}
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.rationale.codeQuality	代码质量：{0}
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.rationale.comparison	比较：{0}
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.rationale.solution	方案：{0}
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.rationale.validation	验证：{0}
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.synthesisPrompt	将比较 `{0}` 中最强的部分合成为一份新实现。\n\n## 流程\n1. 用此比较 ID 恰好调用一次 `#readAttemptComparison`。\n2. 仅从清单中的权威 worktree 读取实现代码。若 `changedFilesStatus` 不可用，读取该 worktree 的 Git diff。\n3. 将下方及清单中的附加指令视为用户的明确要求。连贯地融合最强的做法，而不是机械地照搬代码块。\n4. 提供时，考虑下方其他尝试的亮点，在与用户要求不冲突且能改善方案时加以采纳。\n5. `get_session_context` 仅在清单返回了精确的 `sessionContextTarget` 且为理由或验证证据而调用。绝不从转录中还原实现代码或路径。\n6. 不要查看其他检出、不要搜索会话、不要猜测引用。保持正确行为并解决评判报告的冲突。\n\n## 评判建议\n{1}{2}{3}\n\n## 完成\n- 运行相关验证。\n- 用项目符号简洁回复，含 **更改**、**验证** 和 **遗留问题** 三节。
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.synthesisTitle	合成：{0}
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.synthesisUnavailable	合成会话未能启动。
+vs/sessions/services/sessions/browser/sessionComparisonService/sessionComparison.unknownWinningAttempt	胜出尝试
+vs/sessions/services/sessions/browser/sessionsManagementService/automationProviderUnavailable	所选提供方当前不提供自动化配置。
+vs/sessions/services/sessions/browser/sessionsManagementService/newSession.sendFailed	启动会话失败：{0}
+vs/sessions/services/sessions/browser/sessionsManagementService/sessions.importSession.unsupported	此会话不支持导入。
+vs/sessions/services/sessions/browser/sessionsManagementService/sessions.removeSessionArtifact.unsupported	此会话不支持移除附件。
+vs/sessions/services/sessions/common/sessionComparison/sessionComparison.attemptLabel	尝试 {0}（{1}）
+vs/sessions/services/sessions/common/sessionComparison/sessionComparison.gitRemoteRequired	比较需要 Git 远程。
+vs/sessions/services/sessions/common/sessionComparison/sessionComparison.gitRepositoryRequired	比较需要至少有一个提交的 Git 仓库。
+vs/sessions/services/sessions/common/sessionComparison/sessionComparison.harnessAndModel	{0} · {1}
+vs/sessions/services/sessions/common/sessionComparison/sessionComparison.harnessModelAndConfiguration	{0} · {1}
+vs/workbench/api/browser/viewsExtensionPoint/views.container.auxiliaryactivitybar	向辅助活动栏提供视图容器
+vs/workbench/api/common/configurationExtensionPoint/scope.deprecationMessageSeverity	控制弃用消息的显示严重级别。
+vs/workbench/api/common/configurationExtensionPoint/scope.deprecationMessageSeverity.info	以信息样式显示弃用消息。
+vs/workbench/api/common/configurationExtensionPoint/scope.deprecationMessageSeverity.warning	以标准警告样式显示弃用消息。
+vs/workbench/api/common/extHostLanguageModels/selectedModelUnavailable	所选模型“{0}”不可用。请选择其他模型后重试。
+vs/workbench/browser/actions/developerActions/excludedTelemetryContributions	被所选遥测块排除的遥测贡献
+vs/workbench/browser/actions/developerActions/excludedTelemetryStatus	被更高优先级的遥测块排除（值已省略）
+vs/workbench/browser/actions/developerActions/managedSettingsPrecedence	优先级依次为原生 MDM、服务器、文件。大多数设置按键逐个解析，从较低渠道补齐缺项。遥测整段选取一个块：被省略的叶子不会从较弱块继承。空对象或仅含未知键的服务器/文件对象仍会选中一个块；原生 MDM 只暴露声明的扁平键。内部遥测存在标记不是策略设置。对 sandbox.enabled，任何渠道的受管 true 都生效，与渠道优先级无关，符合运行时沙箱下限。
+vs/workbench/browser/actions/developerActions/noSelectedManagedSettingsKeys	所选来源不提供任何受管设置叶子。

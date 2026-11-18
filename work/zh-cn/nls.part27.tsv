@@ -1,0 +1,125 @@
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.publisher	发布者
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.publisherAccessible	发布者：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.queries	试试看
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.readmeEmpty	插件 README 为空。
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.readmeLoadError	无法加载插件 README。
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.readmeLoading	正在加载插件 README…
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.reconnect	重新连接
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.reconnectedStatus	已重新连接 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.reconnectError	无法重新连接 {0}。{1}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.reconnecting	正在重新连接…
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.repair	修复
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.repairedStatus	已修复 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.repairError	无法修复 {0}。{1}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.repairing	正在修复…
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.repository	仓库
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.repositoryAccessible	仓库：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.skill	Skill
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.source	来源
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.sourceAccessible	来源：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.tags	标签
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.tryThis	试试看
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.type	类型
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.typeAccessible	类型：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.unavailable	不可用
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.unavailableSummary	此自定义项不可用
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.uninstalling	正在卸载…
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.version	版本
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.versionAccessible	版本：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMarketplaceDetail/marketplaceDetail.viewSetup	查看配置
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/currentHarness	当前 harness
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/editMcpConfiguration	编辑配置
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/mcpCheckingCompatibility	正在检查与 {0} 的兼容性
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/mcpCompatibilityUnknownForHarness	无法确定与 {0} 的兼容性
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/mcpConfigurationLocationNotFound	找不到“{0}”的配置。改为打开源文件。
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/mcpConfigurationOpenFailed	无法打开“{0}”的配置：{1}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/mcpConfigurationReadFailed	无法读取“{0}”的配置：{1}
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/mcpConfigurationSection	配置
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/mcpDefinitionAvailableAfterInstall	当 MCP 服务器可在本地检查时，安装后即可查看详情。
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/mcpMigrateServer	迁移 MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/mcpMigrationAvailableDescription	此 MCP 服务器需要迁移才能继续工作。
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/mcpNoDiagnostics	没有可显示的诊断
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/mcpPartiallySupportedByHarness	{0} 部分支持
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/mcpReviewMigrations	审阅迁移…
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/mcpServerErrorSummary	此服务器报告了错误
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/mcpUnsupportedByHarness	{0} 不支持
+vs/workbench/contrib/chat/browser/aiCustomization/embeddedMcpServerDetail/openMcpServerSource	打开 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/browseMcps	浏览 MCP
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/builtinMcpServersGroup	内置
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/builtinMcpServersGroupDescription	内置于应用或活动 agent host 的 MCP 服务器。
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/connectorMcpServerAriaLabel	{0}。连接器：{1}。
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/connectors.actionComplete	{0}：{1}
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/connectors.actionFailed	无法更新 {0}：{1}
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/extensionMcpServersGroup	扩展
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/extensionMcpServersGroupDescription	由已安装扩展提供的 MCP 服务器。
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/fromExtension	扩展：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/mcpCompatibilityMigrationHint	{0}。详见[[迁移]]。
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/mcpDisabledGlobally	已禁用（全局）
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/mcpGroupAriaLabel	{0}，{1} 项
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/mcpPartiallySupported	部分支持
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/mcpServerAriaLabelWithSource	{0}，配置于 {1}
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/mcpServerErrorWithoutDetails	服务器报告了错误，但没有更多详情。
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/mcpServerFromConnector	连接器：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/mcpServerSigningInStatus	正在登录 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/mcpServersListAriaLabel	MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/mcpSupportUnknown	支持情况未知
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/mcpUnsupported	不支持
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/noMcpServersInGroup	此组中没有 MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/openExtensionDetails	打开 {0} 的扩展详情
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/openPluginDetails	打开 {0} 的插件详情
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/output	显示输出
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/pluginMcpServersGroup	插件
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/pluginMcpServersGroupDescription	由已安装插件提供的 MCP 服务器。
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/signingIn	正在登录…
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/signingInToMcpServer	正在登录 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/start	启动
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/startMcpServer	启动 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/userMcpServersGroup	用户
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/userMcpServersGroupDescription	为你的个人资料配置、可跨工作区使用的 MCP 服务器。
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/workspaceMcpServersGroup	工作区
+vs/workbench/contrib/chat/browser/aiCustomization/mcpListWidget/workspaceMcpServersGroupDescription	由此工作区配置的 MCP 服务器。
+vs/workbench/contrib/chat/browser/aiCustomization/pluginListWidget/browsePlugins	浏览插件
+vs/workbench/contrib/chat/browser/aiCustomization/pluginListWidget/checkForAndApplyPluginUpdates	检查并应用更新
+vs/workbench/contrib/chat/browser/aiCustomization/pluginListWidget/userPluginsGroup	用户
+vs/workbench/contrib/chat/browser/aiCustomization/pluginListWidget/userPluginsGroupDescription	为你的个人资料安装、可跨工作区使用的插件。
+vs/workbench/contrib/chat/browser/aiCustomization/pluginListWidget/workspacePluginsGroup	工作区
+vs/workbench/contrib/chat/browser/aiCustomization/pluginListWidget/workspacePluginsGroupDescription	专为此工作区包含或排除的插件。
+vs/workbench/contrib/chat/browser/aiCustomization/toolsListWidget/toolsSetToggle	启用 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/toolsListWidget/toolsToolToggle	启用 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/toolsListWidget/toolsTreeAriaLabel	工具
+vs/workbench/contrib/chat/browser/attachments/chatAttachmentWidgets/chat.browserViewBlockedByNetworkPolicy	此浏览器页面被网络策略阻止，无法共享。
+vs/workbench/contrib/chat/browser/attachments/chatAttachmentWidgets/chat.browserViewBlockedByNetworkPolicy.aria	被网络策略阻止的浏览器页面，{0}
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.agentHost.copilot.modelCapabilityOverrides.promptOverrideFile	包含 `systemPrompt` 和/或 `toolDescriptions` 覆盖的 YAML 文件路径。配置了 `promptOverrideString` 时忽略此项。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.agentHost.copilot.modelCapabilityOverrides.promptOverrideString	包含 `systemPrompt` 和/或 `toolDescriptions` 覆盖的内联 YAML。优先于 `promptOverrideFile`。系统提示词会替换所有 Agent Host 和 SDK 提示词段落及护栏。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.agentHost.copilot.runtimePath	本地 `copilot-runtime` 可执行文件的绝对路径。捆绑的 Copilot SDK 包装仍在使用。留空则使用捆绑运行时。更改此设置会在活动回合结束后重启 Copilot SDK 客户端。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.agentHost.customTerminalTool.enabled.policy	为 Copilot SDK 会话启用 Agent Host 自定义终端工具覆盖。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.agentHost.debugLogs.defaultExportLocation	“开发人员：导出 Agent Host 调试日志”命令创建的归档和文件夹的默认目录。为空或不可用时使用默认文件对话框位置。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.agentHost.debugLogs.defaultExportLocation.error	Agent Host 调试日志的默认导出位置必须是绝对路径（例如 C:\myFolder 或 /myFolder）。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.agentHost.sessionCatalog	控制 agent 会话列表是否由 Agent host 的会话目录提供。禁用时，会话改为从提供方元数据和按会话存储中列出，速度更慢。\n\n更改此设置需要重启后生效。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.agentHost.shellTool.initScript.enabled	启用后，Copilot SDK 会话会在每条 shell 命令前加载你的 shell 配置（macOS 和 Linux 为 `~/.bashrc`，Windows 为 PowerShell 配置）并激活为工作区选择的 Python 环境。Python 激活需要 Python Environments 扩展并将 `#python-envs.terminal.autoActivationType#` 设为 `shellStartup`。仅限本地窗口。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.btwTip.enabled	控制 Agents 窗口是否显示使用 `/btw` 提问侧聊问题的提示。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.closedPromoNotification	控制 Chat 关闭时是否在 Copilot 图标上显示实时模型推广。显式设置时覆盖实验且不做实验查询；否则符合条件的推广使用实验处理。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.closedPromoNotification.copilotIconPopup.description	Chat 关闭时，悬停或点击 Copilot 状态图标显示推广提示。查看后清除其指示；该推广在当前窗口会话中仍可用。选择“试用”会关闭推广及其聊天横幅。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.closedPromoNotification.copilotIconPopup.label	Copilot 图标弹窗
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.closedPromoNotification.none.description	Chat 关闭时不在 Copilot 图标上显示推广。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.closedPromoNotification.none.label	无
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.copilot.autoModeTierOverride	为评测和调试覆盖 Auto 的“优化目标”偏好。在 Copilot Chat 和 Copilot SDK 会话中接受 `efficiency`、`balance` 或 `intelligence`；`fast` 仅扩展可用。设为 `null` 清除。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.copilot.claudeAdvisor.enabled	启用后，使用受支持 Claude 模型的 Copilot Agent Host 会话可调用提供方原生的 Advisor 工具。更改此设置会在活动回合结束后重启 Copilot SDK 客户端。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.copilot.hydraFusion.enabled	启用后，让实验性 HydraFusion 模型对本地 Copilot Agent Host 会话可用。更改此设置会重启本地 Copilot 运行时。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.copilot.skillCharBudget	Copilot SDK 系统消息中 skill 描述的最大字符数。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.copilot.tgrep.enabled	启用后，本地 Copilot Agent Host 会话对符合条件的大型仓库使用 tgrep 索引搜索。需要非虚拟文件系统上的本地 Git 仓库。更改此设置会在活动回合结束后重启 Copilot SDK 客户端。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.customizations.copilotConnectors.enabled	在统一市场中启用 Copilot 连接器，并在 Chat 自定义项和 Copilot agent 会话中暴露已连接的连接器 MCP 服务器。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.customizations.locationsMigration.enabled	控制 Chat 自定义项编辑器是否提供将 agents、instructions 和 skills 从活动 agent-host harness 不支持的已配置位置移出的功能。禁用时迁移卡片和侧边栏快捷入口被隐藏。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.customizations.mcpServerMigration.enabled	控制 VS Code 是否显示 MCP 服务器迁移操作、提示、兼容性徽标和兼容性详情。迁移将符合条件的工作区 MCP 服务器移出 .vscode/mcp.json 并放入工作区根目录的 .mcp.json 文件，由活动 agent-host harness 直接发现。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.customizations.migration.enabled	控制 VS Code 是否为活动 Agent Host harness 显示自定义项迁移操作、提示、兼容性徽标和兼容性详情。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.experimental.openInAgentsWindow.revealCurrentSession	控制“在 Agents 窗口中打开”是否显示当前本地 Agent Host 会话而非打开新会话。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.experimental.sessionStateIndicator.enabled	为进行中、需输入或有未查看完成的聊天编辑器会话启用状态指示。在 `#workbench.colorCustomizations#` 中用 `chat.sessionStateIndicator.inProgressBorder`、`chat.sessionStateIndicator.needsInputBorder` 和 `chat.sessionStateIndicator.unvisitedBorder` 自定义边框。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.experimentalModelPicker	启用后，模型选择器使用提供方标签页和模型详情页展示信息与配置。从模型的信息按钮或聊天输入框中的思考力度和上下文读数打开详情。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.experimentalModePermissionsPicker	为 Copilot Agent Host 会话在合并选择器中显示模式和权限，权限选项可展开。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.locations.migrate	迁移标签页
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.locations.migrate.tooltip	打开迁移标签页
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.microsoftAuthentication.enabled.always	始终提供“使用 Microsoft 继续”，不检查已关联账号。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.microsoftAuthentication.enabled.auto	仅当此设备上的 Microsoft 工作或学校账号已关联 GitHub 账号时才提供“使用 Microsoft 继续”。此检查在后台静默进行：Microsoft 可能记录一次登录，且用于检查的 GitHub 访问会在可能时被撤销。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.microsoftAuthentication.enabled.never	从不提供“使用 Microsoft 继续”，也从不检查已关联账号。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.reusablePrompts.config.locations.deprecated	此设置和 Local agent harness 将在未来版本中移除。请在 Agent 自定义项编辑器中审阅 {0}，将 prompt 文件转换为 skills。
+vs/workbench/contrib/chat/browser/chat.shared.contribution/chat.subagents.defaultToAuto	控制当工具调用和所选 agent 都未指定模型时，本地子代理是否使用 Auto 模型。显式工具和 agent 模型选择优先。BYOK 主模型的子代理继续使用该模型。Auto 路由不受主模型固定成本层级限制。

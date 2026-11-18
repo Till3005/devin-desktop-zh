@@ -1,0 +1,140 @@
+vs/workbench/common/agentsColors/agentsBottomPanel.border	agent 会话窗口中底部面板的边框色。
+vs/workbench/common/agentsColors/agentsCard.border	agent 会话窗口中浮动内容卡片（会话网格和自定义视图网格）的边框色。
+vs/workbench/common/agentsColors/agentsChatInput.background	agent 会话窗口中聊天输入框的背景色。
+vs/workbench/common/agentsColors/agentsChatInput.border	agent 会话窗口中聊天输入框的边框色。
+vs/workbench/common/agentsColors/agentsChatInput.focusBorder	agent 会话窗口中聊天输入框聚焦时的边框色。
+vs/workbench/common/agentsColors/agentsChatInput.foreground	agent 会话窗口中聊天输入框的前景色。
+vs/workbench/common/agentsColors/agentsChatInput.placeholderForeground	agent 会话窗口中聊天输入框的占位文字颜色。
+vs/workbench/common/agentsColors/agentsDetail.background	agent 会话窗口中停靠详情面板的背景色。
+vs/workbench/common/agentsColors/agentsGradient.tintColor	agent 会话窗口外壳背景渐变中使用的着色。
+vs/workbench/common/agentsColors/agentsNewSessionButton.background	agent 会话侧边栏中“新建会话”按钮的背景色。
+vs/workbench/common/agentsColors/agentsNewSessionButton.border	agent 会话侧边栏中“新建会话”按钮的边框色。
+vs/workbench/common/agentsColors/agentsNewSessionButton.foreground	agent 会话侧边栏中“新建会话”按钮的前景色。
+vs/workbench/common/agentsColors/agentsNewSessionButton.hoverBackground	agent 会话侧边栏中“新建会话”按钮悬停时的背景色。
+vs/workbench/common/agentsColors/agentsPanel.background	agent 会话窗口中卡片面板（聊天、文件、终端）的背景色。
+vs/workbench/common/agentsColors/agentsPanel.border	agent 会话窗口中卡片面板（聊天、文件、终端）的边框色。
+vs/workbench/common/agentsColors/agentsPanel.foreground	agent 会话窗口中卡片面板（聊天、文件、终端）的前景色。
+vs/workbench/common/agentsColors/agentsUnreadBadge.background	侧边栏开关上未读会话数徽标的背景色。
+vs/workbench/common/agentsColors/agentsUnreadBadge.foreground	侧边栏开关上未读会话数徽标的前景色。
+vs/workbench/common/agentsColors/agentsUpdateButton.downloadedBackground	agent 会话窗口中更新按钮下载完成时的背景色。
+vs/workbench/common/agentsColors/agentsUpdateButton.downloadingBackground	agent 会话窗口中更新按钮显示下载进度时的背景色。
+vs/workbench/common/agentsColors/inactiveSessionView.background	agent 会话窗口中非活动会话视图的背景色。
+vs/workbench/common/agentsColors/inactiveSessionView.foreground	agent 会话窗口中非活动会话视图的前景色。
+vs/workbench/common/agentsSizes/agents.fontSize.body1	agents 窗口的主要正文字号。
+vs/workbench/common/agentsSizes/agents.fontSize.body1.deprecated	已弃用：请改用 `fontSize.body1`。
+vs/workbench/common/agentsSizes/agents.fontSize.body2	agents 窗口的次要正文字号。
+vs/workbench/common/agentsSizes/agents.fontSize.body2.deprecated	已弃用：请改用 `fontSize.body2`。
+vs/workbench/common/agentsSizes/agents.fontSize.heading1	agents 窗口的一级标题字号（欢迎页标题）。
+vs/workbench/common/agentsSizes/agents.fontSize.heading1.deprecated	已弃用：请改用 `fontSize.heading1`。
+vs/workbench/common/agentsSizes/agents.fontSize.heading2	agents 窗口的二级标题字号（标题）。
+vs/workbench/common/agentsSizes/agents.fontSize.heading2.deprecated	已弃用：请改用 `fontSize.heading2`。
+vs/workbench/common/agentsSizes/agents.fontSize.heading3	agents 窗口的三级标题字号（副标题）。
+vs/workbench/common/agentsSizes/agents.fontSize.heading3.deprecated	已弃用：请改用 `fontSize.heading3`。
+vs/workbench/common/agentsSizes/agents.fontSize.label1	agents 窗口的标签 1 字号（分区标题、标签页）。
+vs/workbench/common/agentsSizes/agents.fontSize.label1.deprecated	已弃用：请改用 `fontSize.label1`。
+vs/workbench/common/agentsSizes/agents.fontSize.label2	agents 窗口的标签 2 字号（元数据）。
+vs/workbench/common/agentsSizes/agents.fontSize.label2.deprecated	已弃用：请改用 `fontSize.label2`。
+vs/workbench/common/agentsSizes/agents.fontSize.label3	agents 窗口的标签 3 字号（徽标）。
+vs/workbench/common/agentsSizes/agents.fontSize.label3.deprecated	已弃用：请改用 `fontSize.label3`。
+vs/workbench/common/agentsSizes/agents.fontWeight.regular	agents 窗口的常规字重（400）。
+vs/workbench/common/agentsSizes/agents.fontWeight.regular.deprecated	已弃用：请改用 `fontWeight.regular`。
+vs/workbench/common/agentsSizes/agents.fontWeight.semiBold	agents 窗口的半粗字重（600）。
+vs/workbench/common/agentsSizes/agents.fontWeight.semiBold.deprecated	已弃用：请改用 `fontWeight.semiBold`。
+vs/workbench/common/agentsSizes/agents.layout.floatingPanelGap	Agents 窗口中浮动面板之间的间距。
+vs/workbench/common/contextkeys/activeCascadeEditorHasExternalUrl	活动编辑器是否为会话带有外部会话 URL 的 cascade 编辑器
+vs/workbench/common/contextkeys/activeEditorGroupAutoLocked	活动编辑器组是否被永久自动锁定
+vs/workbench/common/contextkeys/agentWorkspaceConversionInFlight	此窗口是否正在转换为合成 agent 工作区
+vs/workbench/common/contextkeys/cascadeEditorCanRenameSession	cascade 编辑器标签的会话是否可重命名
+vs/workbench/common/contextkeys/cascadeEditorHasExternalUrl	cascade 编辑器标签是否有外部会话 URL
+vs/workbench/common/contextkeys/cascadeEditorHasSessionId	cascade 编辑器标签是否有可解析的会话 ID
+vs/workbench/common/contextkeys/cascadeEditorIsDevinCloudAndAwake	cascade 编辑器标签是否为当前醒着的 Devin Cloud 会话（有外部 URL 且未休眠）
+vs/workbench/common/contextkeys/isAgentSessionsWorkspace	当前工作区是否为 agent 会话工作区
+vs/workbench/common/contextkeys/pullRequestEditorTab	该编辑器标签是否为集成的 pull request 标签
+vs/workbench/common/contextkeys/workbenchMode	当前 workbench 模式。
+vs/workbench/common/theme/connectedTabsContainerBackground	编辑器组标题栏中相连标签的背景色。编辑器组是编辑器的容器。
+vs/workbench/common/theme/editorGroupDepthShadow	侧边栏、面板和辅助侧边栏投射到编辑器区域边缘的阴影颜色。设为透明可获得扁平布局。
+vs/workbench/common/theme/modernPanelBorder	启用现代 UI 时面板表面的边框色。
+vs/workbench/common/theme/modernSashGripForeground	启用现代 UI 时 workbench 各部分间可调边界上握柄的颜色。
+vs/workbench/common/theme/modernUIInactiveShellBackground	窗口非活动且启用现代 UI 时，浮动 workbench 表面周围可见外壳的背景色。
+vs/workbench/common/theme/modernUIShellBackground	启用现代 UI 时，浮动 workbench 表面周围可见外壳的背景色。
+vs/workbench/common/theme/statusBarInactiveBackground	打开工作区或文件夹且窗口非活动时状态栏的背景色。调试和其他背景覆盖优先生效。未设置时使用当前状态栏背景色。
+vs/workbench/common/theme/tabDivider	编辑器标签之间分隔线的颜色。
+vs/workbench/contrib/accessibility/browser/accessibilityConfiguration/accessibility.signals.confetti	显示彩纸动画时播放欢快的提示音。
+vs/workbench/contrib/accessibility/browser/accessibilityConfiguration/accessibility.signals.confetti.sound	显示彩纸动画时播放欢快的提示音。
+vs/workbench/contrib/accessibility/browser/accessibilityConfiguration/verbosity.connectionDiagnostics	在连接诊断报告聚焦时，提供如何访问连接诊断无障碍帮助的信息。
+vs/workbench/contrib/accessibility/browser/accessibilityConfiguration/verbosity.customizationDiscovery.description	在发现自定义项时，提供如何访问无障碍帮助的信息。
+vs/workbench/contrib/accessibility/browser/accessibilityConfiguration/verbosity.customizationMigrations.description	提供如何访问自定义迁移清单无障碍帮助的信息。
+vs/workbench/contrib/accessibility/browser/accessibilityConfiguration/verbosity.newSessionWelcome	在显示新会话编写器时播报欢迎信息。
+vs/workbench/contrib/accessibility/browser/accessibilityConfiguration/verbosity.releaseNotes	在发行说明聚焦时，提供如何访问发行说明无障碍帮助的信息。
+vs/workbench/contrib/accessibility/browser/accessibilityConfiguration/verbosity.sessionCanvas	在画布聚焦时，提供如何访问画布无障碍帮助的信息。
+vs/workbench/contrib/accessibility/browser/accessibilityConfiguration/verbosity.sessionsListNotification	提供如何访问会话列表中“撤销”通知的无障碍帮助信息。
+vs/workbench/contrib/accessibility/browser/accessibilityConfiguration/verbosity.sessionWorktreeCleanup	在“管理 Agent 会话存储”编辑器聚焦时，提供其使用方法的信息。
+vs/workbench/contrib/accessibility/browser/accessibleView/notificationLinks	如果通知包含链接，它们会出现在工具栏中。用左右方向键找到链接，按 Enter 打开。
+vs/workbench/contrib/agentsVoice/browser/agentsVoice.contribution/agentsVoice.toggleMute	语音模式：切换麦克风静音
+vs/workbench/contrib/agentsVoice/browser/agentsVoice.contribution/agentsVoice.unmuteMic	取消麦克风静音
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceSessionsPicker/voiceSessions.placeholder	选择语音输入的目标会话
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceSessionsPicker/voiceSessions.setTarget	设为语音目标
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.clickMicToTalk	点击语音模式开始说话
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.collapseSessions	折叠会话
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.connecting	正在连接…
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.disconnect	断开连接
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.feedbackError	提交失败
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.holdMicToTalkOrBargeIn	按住麦克风说话或插话
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.holdToTalk	按住 {0} 说话
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.holdToTalkOrBargeIn	按住 {0} 说话或插话
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.listening	正在聆听
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.minimize	最小化
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.muteMic	麦克风静音
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.pressToBargeIn	说话或使用 {0}
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.pushToTalk	按住说话
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.pushToTalkKey	按住说话（{0}）
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.pushToTalkSpace	按住说话（空格）
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.reconnecting	正在重连…
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.sendFeedback	发送反馈
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.sessions	会话
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.speakToBargeIn	说话以插话
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidget/agentsVoice.unmuteMic	取消麦克风静音
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidgetBinding/agentsVoice.chat	聊天
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidgetBinding/agentsVoice.otherSessions	其他
+vs/workbench/contrib/agentsVoice/browser/agentsVoiceWidgetBinding/agentsVoice.untitledSession	未命名会话
+vs/workbench/contrib/agentsVoice/browser/components/confirmationComponent/agentsVoice.approve	批准
+vs/workbench/contrib/agentsVoice/browser/components/confirmationComponent/agentsVoice.deny	拒绝
+vs/workbench/contrib/agentsVoice/browser/components/confirmationComponent/agentsVoice.openInVSCode	在 VS Code 中打开
+vs/workbench/contrib/agentsVoice/browser/components/feedbackDialog/agentsVoice.cancel	取消
+vs/workbench/contrib/agentsVoice/browser/components/feedbackDialog/agentsVoice.feedbackConsent	提交即表示你同意将会话日志和转录历史随反馈一并提交。
+vs/workbench/contrib/agentsVoice/browser/components/feedbackDialog/agentsVoice.feedbackError	提交反馈失败
+vs/workbench/contrib/agentsVoice/browser/components/feedbackDialog/agentsVoice.feedbackPlaceholder	有什么可以改进的？
+vs/workbench/contrib/agentsVoice/browser/components/feedbackDialog/agentsVoice.feedbackThanks	感谢你的反馈！
+vs/workbench/contrib/agentsVoice/browser/components/feedbackDialog/agentsVoice.sendFeedback	发送反馈
+vs/workbench/contrib/agentsVoice/browser/components/feedbackDialog/agentsVoice.submit	提交
+vs/workbench/contrib/agentsVoice/browser/components/feedbackDialog/agentsVoice.submitting	正在提交…
+vs/workbench/contrib/agentsVoice/browser/components/headerComponent/agentsVoice.clickMicToTalk	点击语音模式开始说话
+vs/workbench/contrib/agentsVoice/browser/components/headerComponent/agentsVoice.disconnect	断开连接
+vs/workbench/contrib/agentsVoice/browser/components/headerComponent/agentsVoice.holdToTalk	按住 {0} 说话
+vs/workbench/contrib/agentsVoice/browser/components/headerComponent/agentsVoice.minimize	最小化
+vs/workbench/contrib/agentsVoice/browser/components/headerComponent/agentsVoice.muteMic	麦克风静音
+vs/workbench/contrib/agentsVoice/browser/components/headerComponent/agentsVoice.openMiniView	打开迷你视图
+vs/workbench/contrib/agentsVoice/browser/components/headerComponent/agentsVoice.pushToTalkSpace	按住说话（空格）
+vs/workbench/contrib/agentsVoice/browser/components/headerComponent/agentsVoice.sendFeedback	发送反馈
+vs/workbench/contrib/agentsVoice/browser/components/headerComponent/agentsVoice.unmuteMic	取消麦克风静音
+vs/workbench/contrib/agentsVoice/browser/components/onboardingComponent/agentsVoice.changeHotkeySuffix	即可在任何应用中使用。
+vs/workbench/contrib/agentsVoice/browser/components/onboardingComponent/agentsVoice.changePttKey	更改按键说话键
+vs/workbench/contrib/agentsVoice/browser/components/onboardingComponent/agentsVoice.configureHotkey	配置键绑定
+vs/workbench/contrib/agentsVoice/browser/components/onboardingComponent/agentsVoice.connecting	正在连接…
+vs/workbench/contrib/agentsVoice/browser/components/onboardingComponent/agentsVoice.feedbackDesc	使用反馈图标帮助我们改进体验。
+vs/workbench/contrib/agentsVoice/browser/components/onboardingComponent/agentsVoice.getStarted	开始使用
+vs/workbench/contrib/agentsVoice/browser/components/onboardingComponent/agentsVoice.miniViewSuffix	以便在 VS Code 不在前台时多任务操作。
+vs/workbench/contrib/agentsVoice/browser/components/onboardingComponent/agentsVoice.openMiniView	打开迷你视图
+vs/workbench/contrib/agentsVoice/browser/components/onboardingComponent/agentsVoice.pttDesc	按键说话
+vs/workbench/contrib/agentsVoice/browser/components/onboardingComponent/agentsVoice.pttHoldDesc	— 说话时按住按键，说完松开。
+vs/workbench/contrib/agentsVoice/browser/components/onboardingComponent/agentsVoice.welcomeDesc	与一个能同时控制多个编码 agent 的助手对话。工作完成或需要输入时会收到通知。
+vs/workbench/contrib/agentsVoice/browser/components/onboardingComponent/agentsVoice.welcomeTitle	欢迎使用语音聊天
+vs/workbench/contrib/agentsVoice/browser/components/sessionListComponent/agentsVoice.approve	批准
+vs/workbench/contrib/agentsVoice/browser/components/sessionListComponent/agentsVoice.deny	拒绝
+vs/workbench/contrib/agentsVoice/browser/components/sessionListComponent/agentsVoice.newSession	新建会话
+vs/workbench/contrib/agentsVoice/browser/components/sessionListComponent/agentsVoice.noActiveSessions	没有活动会话
+vs/workbench/contrib/agentsVoice/browser/components/sessionListComponent/agentsVoice.openInVSCode	在 VS Code 中打开
+vs/workbench/contrib/agentsVoice/browser/components/sessionListComponent/agentsVoice.sendTo	发送到
+vs/workbench/contrib/agentsVoice/browser/components/sessionListComponent/agentsVoice.sendToActive	发送到（当前）
+vs/workbench/contrib/agentsVoice/browser/components/sessionListComponent/agentsVoice.stop	停止
+vs/workbench/contrib/agentsVoice/browser/components/sessionListComponent/agentsVoice.stopSessionAction	停止会话

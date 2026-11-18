@@ -1,0 +1,160 @@
+common.save	保存
+common.signIn	登录
+common.signUp	注册
+common.splitView	分屏视图
+common.splitViewTooNarrow	面板太窄时分屏视图不可用。
+common.unifiedView	统一视图
+common.unknown	未知
+common.viewMergeQueue	看合并队列
+connections.gitConnections	Git 连接
+connections.link	链
+connections.linkAccountsDescription	链你个人账户以评论和批准拉取请求。
+connections.linking	链中…
+connections.noProvidersAvailable	没 git 提供商可链。找你组织管理员设 GitHub 或 GitLab 集成。
+connections.notConnected	未连
+connections.unlink	解链
+connections.unlinkAccountDescription	这会解链你 {{label}} 账户。你随时能重链。
+connections.unlinkAccountTitle	解链账户？
+connections.unlinking	解链中…
+consumption.account	账户
+consumption.autoReviewLimit	自动分析上限
+consumption.billedAtAccountLevel	最近分析计费到账户，不是特定组织。
+consumption.currentReview	当前分析
+consumption.lastBilledTo	最近计费到
+consumption.limitExempt	此 PR 开了自动分析，所以上限不再适用。
+consumption.limitReachedNextSkipped	达上限。此 PR 下次自动分析会跳过。
+consumption.limitReachedPaused	达上限。此 PR 自动分析暂停，重开为止。
+consumption.pausesAtLimit	此 PR 总用量达上限后自动分析暂停。
+consumption.reviewsRan	已跑分析
+consumption.size	大小
+consumption.totalAcuUsage	总 ACU 用量
+consumption.totalOnDemandUsage	总按需用量
+customReviewers.error.dedup_failed	和早前发现项对比失败。此分析没此审查者结果。
+customReviewers.error.instructions_missing	失败，因此审查者没存指示。
+customReviewers.error.instructions_unreadable	失败，因此审查者存的指示读不了。
+customReviewers.error.invalid_report	此分析没此审查者结果，因其报告读不了。
+customReviewers.error.no_report	此审查者完时没报告，所以此分析没其结果。
+customReviewers.error.review_failed	查拉取请求时失败。此分析没此审查者结果。
+customReviewers.error.reviewer_not_enabled	跳过，因分析起时此审查者没启用。
+customReviewers.error.spend_limit_reached	跳过，因分析起前此审查者此拉取请求已达自身消费上限。
+customReviewers.findingsUnavailable	加载不了此审查者发现项。
+customReviewers.loadFailed	加载不了此分析的自定义审查者。
+customReviewers.noFindings	没发现项。
+customReviewers.rerun	重跑
+customReviewers.rerunConflict	重跑不了：拉取请求有新提交或分析已在跑。
+customReviewers.rerunFailed	重跑不了此审查者。
+customReviewers.statusDetail.failed	此审查者没完，所以此分析没其结果。
+customReviewers.statusDetail.pending	此审查者还没起。
+customReviewers.statusDetail.running	此审查者还在查拉取请求。
+customReviewers.statusDetail.skipped	此分析此审查者没跑。
+customReviewers.title	自定义审查者
+debug.analysesPlayground	分析 playground
+debug.analysisDedupPlayground	分析去重 playground
+debug.bugDedupPlayground	Bug 去重 playground
+debug.copyMoveDetectionPlayground	复制/移动检测 playground
+debug.copyRawJson	复制原始 JSON
+debug.datadogLogs	Datadog 日志
+debug.internalDebug	内部调试
+debug.jobHistory	Job 历史
+debug.jobStatus.cancelled	已取消
+debug.jobStatus.completed	已完成
+debug.jobStatus.errored	出错
+debug.jobStatus.pending	待跑
+debug.jobStatus.running	跑中
+debug.jobStatus.skipped	已跳过
+debug.lifeguardPlayground	Lifeguard playground
+debug.noJobsYet	还没有 job
+debug.regenerating	重生成中
+debug.viewJobHistory	看 job 历史
+detail.baseBranchPrLink	{{title}} #{{number}}（{{branch}} 的拉取请求）
+detail.ciChecksUnavailable	加载不了 CI 检查。几分钟后重试。
+detail.closed	已关
+detail.closedAgo	{{time}} 已关
+detail.connectionLostBanner	连接已断。有些数据可能旧。
+detail.copied	已复制！
+detail.copyBranchName	复制分支名
+detail.copySourceBranchName	复制源分支名
+detail.copyTargetBranchName	复制目标分支名
+detail.createdAgo	{{time}} 建
+detail.descriptionUnavailable	从 {{provider}} 加载不了描述。几分钟后重试。
+detail.diffBreakdown.both	两者
+detail.diffBreakdown.changeDisplay	改行数显法
+detail.diffBreakdown.code	代码
+detail.diffBreakdown.config	配置
+detail.diffBreakdown.docs	文档
+detail.diffBreakdown.filtered	测试和生成行已隐。
+detail.diffBreakdown.full	全部
+detail.diffBreakdown.generated	生成
+detail.diffBreakdown.infra	基础设施
+detail.diffBreakdown.relevant	相关
+detail.diffBreakdown.tests	测试
+detail.diffBreakdown.total	总计
+detail.diffBreakdown.translations	翻译
+detail.draft	草稿
+detail.failedToAnalyzePr	分析 PR 失败
+detail.loadingDiffs	加载 diff 中…
+detail.loadingDiffsDesc	大 PR 可能要一会
+detail.merged	已合并
+detail.mergedAgo	{{time}} 已合并
+detail.open	开放
+detail.openedAgo	{{time}} 已开
+detail.pageTitle	Review #{{prNumber}} · {{repo}}
+detail.pageTitleWithPrTitle	{{title}} · Review #{{prNumber}} · {{repo}}
+detail.prTooLargeBanner	此拉取请求改的文件太多 {{provider}} 加载不了。检查、审查者和评论可能缺或旧。
+detail.providerDataUnavailable	从 {{provider}} 加载不了。几分钟后重试。
+detail.rateLimitedBanner	{{provider}} API 超限。检查、审查者和评论可能缺或旧。
+detail.regenerate	重生成
+detail.retrying	重试中
+detail.reviewThreadsUnavailable	加载不了审查评论。几分钟后重试。
+detail.somethingWentWrong	处理此 PR 时出了错
+detail.titleUnavailable	标题不可用
+detail.viewPreviousChanges	看上个分析（{{sha}}）的更改
+diff.addComment	加评论
+diff.changeAdded	已加
+diff.changeDeleted	已删
+diff.fileOccurrence	（{{total}} 中第 {{index}}）
+diff.imageAfterAlt	改后版本
+diff.imageBeforeAlt	改前版本
+diffViewer.allLines_one	全部 {{count}} 行
+diffViewer.allLines_other	全部 {{count}} 行
+diffViewer.collapseExpandedLines	收起展开行
+diffViewer.collapseFile	收起文件
+diffViewer.collapseImage	收起图
+diffViewer.commentOnThisPr	评论此拉取请求
+diffViewer.copied	已复制！
+diffViewer.copyFilePath	复制文件路径
+diffViewer.diffContentNotLoaded	Diff 内容没载
+diffViewer.expandAllLines	展开全部行
+diffViewer.expandFile	展开文件
+diffViewer.expandImage	展开图
+diffViewer.expandLinesAbove_one	向上展开 {{count}} 行
+diffViewer.expandLinesAbove_other	向上展开 {{count}} 行
+diffViewer.expandLinesBelow_one	向下展开 {{count}} 行
+diffViewer.expandLinesBelow_other	向下展开 {{count}} 行
+diffViewer.expandLines_one	{{count}} 行
+diffViewer.expandLines_other	{{count}} 行
+diffViewer.failedToLoadDiff	加载 diff 失败。
+diffViewer.failedToLoadRenderedDiff	加载渲染 diff 失败。
+diffViewer.fileNotOnMachine	此文件不在 Devin 机器
+diffViewer.fileRenamed	已重命名
+diffViewer.largeDiffHidden	大 diff 默认隐藏
+diffViewer.loadDiff	载 diff
+diffViewer.loading	加载中…
+diffViewer.loadingDiff	加载 diff 中…
+diffViewer.loadingLines_one	加载 {{count}} 行
+diffViewer.loadingLines_other	加载 {{count}} 行
+diffViewer.loadingRenderedDiff	加载渲染 diff 中…
+diffViewer.moreActions	更多操作
+diffViewer.noChangesToDisplay	没更改可显
+diffViewer.noFileChangesFound	找不到文件更改。
+diffViewer.noFilesInSection	此分节没文件
+diffViewer.openInEditor	在编辑器开
+diffViewer.openInProvider	在 {{provider}} 开
+diffViewer.prCommenting	PR 评论
+diffViewer.testArtifacts.changeAdded	已加测试
+diffViewer.testArtifacts.changeModified	已改测试
+diffViewer.testArtifacts.changeRemoved	已删测试
+diffViewer.testArtifacts.code	代码
+diffViewer.testArtifacts.fileGroup	文件
+diffViewer.testArtifacts.testLabel	测试 {{index}}
+diffViewer.testArtifacts.tests	测试

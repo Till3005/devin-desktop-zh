@@ -1,0 +1,160 @@
+wikiSearch.searching	搜中…
+wikiSidebar.noPagesYet	还没有页
+wikiSidebar.repoNote	仓库笔记
+wikiSidebar.tableOfContents	目录
+windowChrome.agentsMode	Agent
+windowChrome.agentsView	Agent 视图
+windowChrome.ideMode	IDE
+windowChrome.ideView	IDE 视图
+windowChrome.openEditorWindow	编辑器
+windowChrome.openEditorWindowTooltip	切到编辑器窗口
+windowChrome.openSessionEditorWindow	IDE
+windowChrome.openSessionEditorWindowTooltip	为此会话开 IDE 窗口
+windowTabs.duplicateTab	复制标签页
+windowTabs.label	窗口标签页
+windowTabs.newTab	新标签页
+windowTabs.reopenClosedTab	重开已关标签页
+windowTabs.untitled	新标签页
+windsurf.codemapSharing.ariaLabel	Codemap 共享
+windsurf.codemapSharing.label	共享
+windsurf.codemapSharing.modePrivate	只我
+windsurf.codemapSharing.modePublic	有链接的任何人
+windsurf.codemapSharing.modeTeam	团队
+windsurf.codemapSharing.updateFailed	更新共享失败
+windsurf.codemapSharing.updated	共享已更新
+windsurfReturn.accountHasAccess	你能用此账户用 {{productName}}。
+windsurfReturn.returnTo	回 {{productName}}
+workItems.connect	连 {{tracker}}
+workItems.connectFailed	起不了追踪器连接
+workItems.fieldAssignee	经办人
+workItems.fieldParent	父项
+workItems.fieldPriority	优先级
+workItems.fieldProject	项目
+workItems.fieldReporter	报告人
+workItems.fieldStatus	状态
+workItems.fieldType	类型
+workItems.fieldUpdated	已更新
+workItems.hidden	对你不可见
+workItems.hiddenIn	在 {{tracker}} 隐藏
+workItems.linkAmbiguous	此 key 匹配多个追踪器的项。改贴项 URL。
+workItems.linkFailed	链接不了工作项
+workItems.linkNoAccess	你没权链接此工作项
+workItems.linkNotFound	找不到
+workItems.linkReference	链接「{{reference}}」
+workItems.needsCredential	连你追踪器账户见此项
+workItems.noResults	找不到工作项
+workItems.oauthClientSecretRejected	Jira 拒了此连接客户端密钥。找管理员在追踪器设置改对。
+workItems.oauthDenied	没授 Jira 访问
+workItems.oauthFailed	连不了 Jira
+workItems.openInJira	在 Jira 开
+workItems.openInTracker	在追踪器开
+workItems.searchPlaceholder	按 key 或标题搜，或贴 URL
+workItems.searching	搜中…
+workItems.unavailable	不可用
+workItems.unavailableDetail	追踪器不可用。稍后再试。
+workItems.unlinkFailed	解链不了工作项
+workItems.unlinkItem	解链 {{key}}
+workflowRuns.agentDetails	{{agent}} 详情
+workflowRuns.agentResultsDescription	此 workflow 运行的 agent 调用会显在这。
+workflowRuns.agentResultsEmpty	还没有 agent 结果
+workflowRuns.completedCount_one	{{formattedCount}} 个完成
+workflowRuns.completedCount_other	{{formattedCount}} 个完成
+workflowRuns.copyLink	复制运行链接
+workflowRuns.copyOutput	复制输出
+workflowRuns.copyScript	复制脚本
+workflowRuns.duration	时长
+workflowRuns.durationSinceRequested	请求后 {{duration}}
+workflowRuns.earlierActionsHidden	更早操作已隐藏
+workflowRuns.failed	失败
+workflowRuns.failedCount_one	{{formattedCount}} 个失败
+workflowRuns.failedCount_other	{{formattedCount}} 个失败
+workflowRuns.failedToCopyLink	复制链接失败
+workflowRuns.finished	已完
+workflowRuns.hideAgents	隐 agent
+workflowRuns.jumpToFailures	跳到失败
+workflowRuns.noAgentsYet	还没有 agent
+workflowRuns.noOutputYet	还没有输出
+workflowRuns.notStarted	未开始
+workflowRuns.openRun	开 workflow 运行
+workflowRuns.orchestratorSession	编排会话
+workflowRuns.outdated	已过期
+workflowRuns.overview	概览
+workflowRuns.paused	已暂停
+workflowRuns.phases	阶段
+workflowRuns.product	产物：
+workflowRuns.queued	已排队
+workflowRuns.queuedCount_one	{{formattedCount}} 个排队
+workflowRuns.queuedCount_other	{{formattedCount}} 个排队
+workflowRuns.requested	已请求
+workflowRuns.requestedAgo	{{duration}} 前请求
+workflowRuns.runFailedAcrossPhases_one	运行失败——{{formattedPhaseCount}} 个阶段中 {{formattedCount}} 个 agent 没完成。
+workflowRuns.runFailedAcrossPhases_other	运行失败——{{formattedPhaseCount}} 个阶段中 {{formattedCount}} 个 agent 没完成。
+workflowRuns.runFailedInPhase_one	运行失败——阶段 {{phase}} 中 {{formattedCount}} 个 agent 没完成。
+workflowRuns.runFailedInPhase_other	运行失败——阶段 {{phase}} 中 {{formattedCount}} 个 agent 没完成。
+workflowRuns.runProgress	运行进度
+workflowRuns.runProgressAriaValue_one	{{formattedTotal}} 个 agent 中 {{formattedSettled}} 个已定
+workflowRuns.runProgressAriaValue_other	{{formattedTotal}} 个 agent 中 {{formattedSettled}} 个已定
+workflowRuns.runStarted	起于 {{date}}
+workflowRuns.running	跑中
+workflowRuns.runningCount_one	{{formattedCount}} 个跑中
+workflowRuns.runningCount_other	{{formattedCount}} 个跑中
+workflowRuns.script	脚本
+workflowRuns.settledCount_one	已定 {{formattedSettled}} / {{formattedTotal}}
+workflowRuns.settledCount_other	已定 {{formattedSettled}} / {{formattedTotal}}
+workflowRuns.sharedVm	共享 VM
+workflowRuns.sharedVmBilling_one	{{formattedCount}} 个共享 VM agent 计费到编排会话
+workflowRuns.sharedVmBilling_other	{{formattedCount}} 个共享 VM agent 计费到编排会话
+workflowRuns.sharedVmTooltip	没独立会话——此 agent 作为子 agent 跑在编排会话的机器上并计费给它
+workflowRuns.showAgents	显 agent
+workflowRuns.showPullRequests	显拉取请求
+workflowRuns.sidebarProgress	{{formattedSettled}}/{{formattedTotal}}
+workflowRuns.sinceRequested	请求后
+workflowRuns.started	已开始
+workflowRuns.starting	起中
+workflowRuns.statusSummary	{{status}} · {{progress}}
+workflowRuns.totalAcus	共 {{acus}}
+workflowRuns.viewSession	看会话
+workflowRuns.workflowRun	Workflow 运行
+workflowRuns.workflowTitle	Workflow：{{title}}
+workflowRuns.working	工作中
+worklog.accepted	已接受
+worklog.activatedSkill	激活技能：
+worklog.acus	ACU
+worklog.acusValue	{{acus}} ACU
+worklog.add	加
+worklog.addKnowledgeTitle	加知识：{{name}}
+worklog.addToEnvironment	加到环境
+worklog.added	已加
+worklog.addedToEnvironment	已加到环境
+worklog.addingToEnvironment	加到环境中…
+worklog.agentsDoneOfTotal	{{done}}/{{total}} 个 agent
+worklog.allLines_one	全部 {{count}} 行
+worklog.allLines_other	全部 {{count}} 行
+worklog.allowForProject	此项目永远允许
+worklog.allowForSession	此会话允许
+worklog.allowOnce	允许一次
+worklog.alreadyIndexedAndSearchable	已索引可搜。
+worklog.applying	应用中…
+worklog.applyingChanges	应用更改中…
+worklog.approveAllSetups	批全部（{{count}}）
+worklog.approveAndAlwaysAllow	批并永远允许
+worklog.approveBudget	批上限
+worklog.approveChanges	批更改
+worklog.approveLocalAccess	批准
+worklog.approveRepoSetup	批 {{name}} 设置
+worklog.approved	已批
+worklog.askAdminToApprove	找管理员开此会话并批准。
+worklog.attentionRampUsers	注意 RAMP 用户：请看以下指南为 ramp/core 解决此问题：
+worklog.autoRunForThisSession	此会话自动跑
+worklog.blueprintPrCreatedForScope	为 {{scope}} 建了 blueprint PR
+worklog.blueprintsAreSetUp	Blueprint 已设
+worklog.botAutomationCreated	已建自动化 <name>{{name}}</name>
+worklog.botBudgetAmountLabel	每月 ACU
+worklog.botBudgetApproved	已批
+worklog.botBudgetCustomAmount	自定义额
+worklog.botBudgetInvalidAmount	输 0 到 {{max}} 的整数
+worklog.botBudgetPresets	建议额
+worklog.botBudgetRequestTitle	请求的 ACU 上限
+worklog.botBudgetRequestedAmount	请求了 {{amount}}
+worklog.botBudgetWellLabel	每月用量上限
+worklog.botCreateJob	其首个任务：{{job}}

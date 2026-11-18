@@ -1,0 +1,200 @@
+settings.extensionPolicy	扩展策略
+settings.extensionPolicyDescription	配置团队成员能装哪些扩展。覆盖本地扩展设置
+settings.extensionPolicyHelp	此 JSON 对象控制你团队允许或挡哪些 VS Code 扩展。键可为扩展 ID（如 <code>ms-python.python</code>）、发布者名，或 <code>*</code> 当默认规则。值可为 <code>true</code>（允许）、<code>false</code>（挡）或 <code>"stable"</code>（只允许稳定版）。格式详见 <docsLink>VS Code 企业扩展文档</docsLink>
+settings.extensionPolicyLabel	策略
+settings.extensionPolicySaveFailed	存扩展策略失败
+settings.extensionPolicySaved	扩展策略已存
+settings.failedToCopyEnterpriseId	复制企业 ID 失败
+settings.failedToCopyServiceUserId	复制服务用户 ID 失败
+settings.failedToLoadCodemaps	加载代码地图失败
+settings.failedToLoadSetting	加载设置失败
+settings.failedToLoadSharedConversations	加载共享对话失败
+settings.failedToUnlink	解绑 {{name}} 失败
+settings.failedToUpdateSetting	更新设置失败
+settings.failedUpdateCommitEmail	更新提交邮箱失败
+settings.failedUpdateOrgName	更新组织名失败
+settings.fallbackAllocation	回退分配
+settings.fallbackTier	回退档位
+settings.fallbackTierAlreadyReferenced	此档位已是回退档位，不能有自己的回退。
+settings.fallbackTierDescription	成员用尽原上限后回退到此档位。超额用量从回退档位用量分配里扣。原档位仍管提额申请和批准。
+settings.fallbackTierExtraNoLimit	（+经回退不限 ACU）
+settings.fallbackTierExtraNoLimitSpend	（+经回退不限花费）
+settings.fallbackTierExtraSpend	（+经回退 {{amount}}）
+settings.fallbackTierExtra_one	（+经回退 {{count}} ACU）
+settings.fallbackTierExtra_other	（+经回退 {{count}} ACU）
+settings.fastContext	Fast Context
+settings.fastContextDescription	允许成员用 Fast Context 改进代码理解
+settings.fastMode	Fast
+settings.fastModeDescription	快 2.5 倍，贵 2 倍，同样智能
+settings.fastUltra	Ultra Fast
+settings.fastUltraDescription	Ultra 跑在优先推理上：更快且贵 2 倍
+settings.features	功能
+settings.featuresDescription	选团队成员能否用这些功能
+settings.fedAllowlistedModelsDescription	选 Devin 在此组织能用哪些模型。每个模式按序回退其已启用模型。
+settings.fedCloudSessionsDisabled	禁用云会话
+settings.fedCloudSessionsDisabledDescription	成员不能开或发消息给 Devin Cloud 会话。Devin Desktop 本地会话不受影响。
+settings.fedIdeBannerColor	横幅颜色
+settings.fedIdeBannerColorBlack	黑
+settings.fedIdeBannerColorBlue	蓝
+settings.fedIdeBannerColorGreen	绿
+settings.fedIdeBannerColorOrange	橙
+settings.fedIdeBannerColorPurple	紫
+settings.fedIdeBannerColorRed	红
+settings.fedIdeBannerColorWhite	白
+settings.fedIdeBannerColorYellow	黄
+settings.fedIdeBannerCustomColor	自定义颜色
+settings.fedIdeBannerDescription	在你企业每个人的每页顶部和 Devin Desktop 里横幅显示的文本
+settings.fedIdeBannerDialogDescription	横幅横跨每页顶部且关不掉。
+settings.fedIdeBannerDialogTitle	编辑 IDE 横幅
+settings.fedIdeBannerEditLabel	IDE 横幅：{{value}}，编辑
+settings.fedIdeBannerEnabled	已启用
+settings.fedIdeBannerLabel	IDE 横幅
+settings.fedIdeBannerOff	关
+settings.fedIdeBannerPreview	预览
+settings.fedIdeBannerSectionTitle	IDE 横幅
+settings.fedIdeBannerText	横幅文本
+settings.fedIdeBannerTextPlaceholder	输横幅文本
+settings.fedIdeBannerTextRequired	横幅启用时文本为必填项
+settings.fedIdeBannerUpdateFailed	更新 IDE 横幅失败
+settings.fedIdeBannerUpdated	IDE 横幅已更新
+settings.fedModelAllowlistUpdateFailed	更新白名单模型失败
+settings.fedModelHelpers	助手
+settings.fedModelLastAllowed	至少一个服务某模式的模型须保持启用
+settings.fedModelTierFast	Fast
+settings.fedModelTierLite	Lite
+settings.fedModelTierNormal	Normal
+settings.fedModelTierUltra	Ultra
+settings.fedModelTiers	模式
+settings.fedModelUnavailableTiers	没启用模型的模式不可用。
+settings.fedModelsOtherProvider	其它
+settings.federatedAuth.addCredentialAction	加凭据
+settings.federatedAuth.addCredentialTitle	加联邦凭据
+settings.federatedAuth.addProviderAction	加提供商
+settings.federatedAuth.addProviderTitle	加身份提供商
+settings.federatedAuth.adding	添加中…
+settings.federatedAuth.audienceHelp	你工作负载 token 必须为之签发的 aud 声明
+settings.federatedAuth.audienceLabel	Audience
+settings.federatedAuth.cancel	取消
+settings.federatedAuth.credentialActive	活跃
+settings.federatedAuth.credentialAddFailed	加联邦凭据失败。
+settings.federatedAuth.credentialAdded	联邦凭据已加。
+settings.federatedAuth.credentialCount	{{total}} 中 {{shown}}
+settings.federatedAuth.credentialCreated	添加时间
+settings.federatedAuth.credentialProvider	提供商：{{name}}
+settings.federatedAuth.credentialRevokeFailed	吊销联邦凭据失败。
+settings.federatedAuth.credentialRevoked	已吊销
+settings.federatedAuth.credentialRevokedToast	联邦凭据已吊销。
+settings.federatedAuth.credentialsDialogDescription	其身份提供商 token 带这些 subject 之一的工作负载，可换成以此服务用户身份行事的 token
+settings.federatedAuth.credentialsDialogTitle	{{name}} 的联邦凭据
+settings.federatedAuth.credentialsProviderNote	受信身份提供商：{{name}}
+settings.federatedAuth.descriptionLabel	描述
+settings.federatedAuth.descriptionPlaceholder	如：每夜 CI 流水线
+settings.federatedAuth.disableStaticKeysAction	禁静态 key
+settings.federatedAuth.disableStaticKeysDescription	从现在起，每个用静态服务用户 key 认证的申请都被拒。{{activeKeys}} 个活跃静态 key 将失效。key 是被挡而非吊销：重开静态 key 会恢复每个未过期的 key，所以吊销不再需要的 key。个人访问令牌由 PAT 策略单独管。SCIM 供应和 Outpost worker 豁免。
+settings.federatedAuth.disableStaticKeysTitle	禁静态服务用户 key？
+settings.federatedAuth.edit	编辑
+settings.federatedAuth.editProviderDialogDescription	改 issuer URL 或 audience 立刻让经此提供商换过的每个 token 过期
+settings.federatedAuth.editProviderLabel	编辑 {{name}}
+settings.federatedAuth.editProviderTitle	编辑身份提供商
+settings.federatedAuth.filterPlaceholder	按 subject 或描述筛
+settings.federatedAuth.issuerUrlHelp	Devin 信此 OIDC issuer 签的 token 并从发现文档取签名密钥。必须 https:// 开头
+settings.federatedAuth.issuerUrlLabel	Issuer URL
+settings.federatedAuth.loadFailed	加载设置失败。
+settings.federatedAuth.loadMoreCredentials	加载更多
+settings.federatedAuth.manageCredentialsAction	联邦凭据
+settings.federatedAuth.noCredentials	还没有联邦凭据。
+settings.federatedAuth.noCredentialsMatch	没有联邦凭据匹配「{{filter}}」。
+settings.federatedAuth.noProviderEnterprise	没配置身份提供商。在 API key 策略加一个再附联邦凭据。
+settings.federatedAuth.noProviderOrganization	你企业没配身份提供商。附联邦凭据前请企业管理员加一个。
+settings.federatedAuth.policySaveFailed	更新静态 key 策略失败。
+settings.federatedAuth.providerCreated	身份提供商已加。
+settings.federatedAuth.providerDialogDescription	信提供商本身不给任何访问。访问按服务用户经联邦凭据授
+settings.federatedAuth.providerNameLabel	名称
+settings.federatedAuth.providerNamePlaceholder	如：Entra ID
+settings.federatedAuth.providerRemoveFailed	移除身份提供商失败。
+settings.federatedAuth.providerRemoved	身份提供商已移除。
+settings.federatedAuth.providerRowDescription	Devin 挑 issuer URL 和 audience 匹配入站 token 的提供商。
+settings.federatedAuth.providerRowDescriptionEmpty	没配工作负载身份提供商。注册你的 OIDC issuer 让工作负载把其 token 换成 Devin token。
+settings.federatedAuth.providerRowLabel	工作负载身份提供商
+settings.federatedAuth.providerSaveFailed	存身份提供商失败。
+settings.federatedAuth.providerSelectLabel	身份提供商
+settings.federatedAuth.providerSelectPlaceholder	选一个提供商
+settings.federatedAuth.providerUpdated	身份提供商已更新。
+settings.federatedAuth.provisionedWithoutStaticKey	服务用户已建但没静态 API key，因为此企业禁了静态服务用户 key。加联邦凭据让它能认证。
+settings.federatedAuth.remove	移除
+settings.federatedAuth.removeProviderAction	移除提供商
+settings.federatedAuth.removeProviderDescription	工作负载将换不了来自 {{name}} 的 token，经它换过的每个 token 下次请求即失效。经此提供商附的每个联邦凭据也吊销。
+settings.federatedAuth.removeProviderLabel	移除 {{name}}
+settings.federatedAuth.removeProviderTitle	移除身份提供商？
+settings.federatedAuth.revokeAction	吊销
+settings.federatedAuth.revokeCredentialDescription	为 subject {{subject}} 换的 token 下次请求即失效。
+settings.federatedAuth.revokeCredentialTitle	吊销联邦凭据？
+settings.federatedAuth.save	保存
+settings.federatedAuth.saving	保存中…
+settings.federatedAuth.sectionDescription	让工作负载用你身份提供商的短寿命 token 认证，而非静态服务用户 API key。
+settings.federatedAuth.sectionTitle	服务用户 key
+settings.federatedAuth.staticKeysDisabledToast	静态服务用户 key 已禁。
+settings.federatedAuth.staticKeysEnabledToast	静态服务用户 key 已开。
+settings.federatedAuth.staticKeysRowDescriptionDisabled	已禁。静态服务用户 key 账户级被拒；服务用户必须换身份提供商 token。已有 key 是被挡而非吊销，重开即恢复。SCIM 供应 key 和 Outpost worker key 豁免。
+settings.federatedAuth.staticKeysRowDescriptionEnabled	已开（默认）。服务用户能用长寿命 API key 认证。关掉以要求每个服务用户用身份提供商 token。
+settings.federatedAuth.staticKeysRowLabel	静态服务用户 key
+settings.federatedAuth.subjectHelp	工作负载身份提供商 token 的 sub 声明，按签发原样
+settings.federatedAuth.subjectLabel	Subject
+settings.federatedAuth.subjectPlaceholder	d84b7745-d6e8-4c98-82ad-4a0fb6a59812
+settings.federatedAuth.tokenTtl	换的 token {{minutes}} 分钟后过期。
+settings.filterByHost	按主机筛
+settings.filterByRuntime	按运行时筛
+settings.filterByTimePeriod	按时间段筛
+settings.filterMcpServersBySource	按来源筛 MCP 服务器
+settings.filterServiceUsersByRole	按角色筛服务用户
+settings.firstPartyTelemetry	会话分析
+settings.firstPartyTelemetryDescription	收集本地 Devin 用量的详细洞察
+settings.flagsInvestigate	标记
+settings.flagsInvestigateDescription	合并前值得细看的潜在问题
+settings.flagsNote	备注
+settings.flagsNoteDescription	可能不需要操作的信息性观察
+settings.followDisplayLanguage	跟随显示语言
+settings.frequency	频率
+settings.frequencyDescription	wiki 多频繁重生成以反映代码更改
+settings.fusion	Fusion
+settings.fusionAllowlistTip	Fusion 只用你模型白名单已允许的模型。
+settings.fusionDescription	前沿智能配成本高效执行，以更低成本产前沿级结果
+settings.fusionEligibleModels	自定义模型
+settings.fusionRoutingDescription	更低成本的前沿结果
+settings.gateway	Devin Connect
+settings.gatewayActions	操作
+settings.gatewayAdd	加 gateway
+settings.gatewayAddRoutes	加目的地
+settings.gatewayAddRoutesDescription	粘精确主机名或 IPv4 地址/CIDR，每行一个或用空格、逗号分隔。
+settings.gatewayAddRoutesDuplicates_one	{{count}} 条已在此 gateway，将被跳过
+settings.gatewayAddRoutesDuplicates_other	{{count}} 条已在此 gateway，将被跳过
+settings.gatewayAddRoutesInvalid	{{route}} 不是精确主机名或 IPv4 地址/CIDR
+settings.gatewayAddRoutesSubmit_one	加 {{count}} 个目的地
+settings.gatewayAddRoutesSubmit_other	加 {{count}} 个目的地
+settings.gatewayAddRoutesTitle	加目的地到 {{name}}
+settings.gatewayBulkRoutesPlaceholder	git.corp.example\nartifacts.corp.example\n10.20.0.0/16
+settings.gatewayClientOnly	仅此浏览器跟踪
+settings.gatewayConfigChanged	配置变了——重新部署以应用
+settings.gatewayConfigChangedDescription	此配置上次复制后目的地变了。复制它并重新部署 Devin Connect 让其路由匹配。
+settings.gatewayConnected	已连
+settings.gatewayConnection	连接
+settings.gatewayConnectionDirect	AWS PrivateLink
+settings.gatewayConnectionDirectDescription	Devin 经你暴露的 AWS PrivateLink 端点到 Devin Connect。无需 token，无需出站访问。
+settings.gatewayConnectionTunnel	隧道
+settings.gatewayConnectionTunnelDescription	Devin Connect 在你网络里跑并出站到 Devin 443 端口。无需入站访问。每账户一个。
+settings.gatewayCopied	已复制
+settings.gatewayCopy	复制
+settings.gatewayCopyError	复制失败
+settings.gatewayDelete	删 gateway
+settings.gatewayDeleteConfirm	到此 gateway 目的地的流量不再路由进你网络。
+settings.gatewayDeleteError	删 gateway 失败
+settings.gatewayDeleteTitle	删 {{name}}？
+settings.gatewayDeployConfigHelp	只要配置文件。挂到 /etc/devin-gateway/config.yaml 并在你自己部署跑镜像。
+settings.gatewayDeployDirectHelp	Devin Connect 监听 {{port}} 端口。放你内部 NLB 后面并发为 VPC 端点服务。
+settings.gatewayDeployEditDestinations	编辑目的地
+settings.gatewayDeployInputs	输入
+settings.gatewayDeployInputsNote	用于填下面模板。不保存；刷新页面重置。
+settings.gatewayDeployListenPortHelp	默认你端点的端口。若负载均衡转发到不同端口就改它
+settings.gatewayDeployTunnelHelp	在能到这些目的地并能出站 443 的主机上跑。模板永不含 enrollment token：它们提示输或读你建的 secret。
+settings.gatewayDeployWith	用 {{target}} 部署
+settings.gatewayDescription	把 Devin 会话路由到你网络里的私有主机。

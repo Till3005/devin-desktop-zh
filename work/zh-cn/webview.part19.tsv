@@ -1,0 +1,307 @@
+billingTagsUi.descriptionPlaceholder	用 3-5 句话描述你的项目
+billingTagsUi.devinCoachRecommendations	Devin Coach 建议
+billingTagsUi.devinCoachRecommendationsDescription	针对此项目的 ACU 效率改进建议。
+billingTagsUi.dismissSuggestion	忽略建议
+billingTagsUi.edit	编辑
+billingTagsUi.editBillingTag	编辑计费标签
+billingTagsUi.everyone	所有人
+billingTagsUi.expand	展开
+billingTagsUi.export	导出
+billingTagsUi.exportFailed	无法导出计费标签
+billingTagsUi.failedToCreateBillingTag	创建计费标签失败
+billingTagsUi.failedToDeleteBillingTag	删除计费标签失败
+billingTagsUi.failedToLoadAssignments	加载计费标签分配失败——下方显示的标签和建议可能不完整。请重新加载页面。
+billingTagsUi.failedToLoadSessions	加载会话失败。请重新加载页面。
+billingTagsUi.failedToLoadUsage	加载计费标签用量失败。请重新加载页面。
+billingTagsUi.failedToMergeBillingTags	合并计费标签失败
+billingTagsUi.failedToUpdateBillingTag	更新计费标签失败
+billingTagsUi.failedToUpdateSuggestion	更新计费标签建议失败
+billingTagsUi.insights	洞察
+billingTagsUi.insightsDescription	自动标注值得再看一眼的支出、吞吐和趋势。
+billingTagsUi.lastActivity	最近活动
+billingTagsUi.loadMore	加载更多
+billingTagsUi.manageBillingTags	管理计费标签
+billingTagsUi.manageBillingTagsSubtitle	创建、编辑和归档计费标签
+billingTagsUi.managedByDevin	内置
+billingTagsUi.managedByDevinTooltip	此标签由 Devin 维护。不能编辑或删除。
+billingTagsUi.merge	合并计费标签
+billingTagsUi.mergeBillingTags	合并计费标签
+billingTagsUi.mergeBillingTagsDescription	选择要合并的标签和要保留的那个。其余标签的所有会话都移入它，那些标签会被归档。
+billingTagsUi.mergeCandidateMeta	{{sessions}} 个会话 · {{acus}} ACU
+billingTagsUi.mergeConfirmDescription	此操作无法撤销。
+billingTagsUi.mergeConfirmTitle_one	把 {{count}} 个计费标签并入 {{name}}？
+billingTagsUi.mergeConfirmTitle_other	把 {{count}} 个计费标签并入 {{name}}？
+billingTagsUi.mergeKeepLabel	要保留的计费标签
+billingTagsUi.mergePreviewMoved_one	{{count}} 个标签的 {{sessions}} 个会话移入
+billingTagsUi.mergePreviewMoved_other	{{count}} 个标签的 {{sessions}} 个会话移入
+billingTagsUi.mergePreviewTitle	{{name}} 保留其名称和描述
+billingTagsUi.mergePreviewTotals	合并后总计：{{sessions}} 个会话 · {{acus}} ACU
+billingTagsUi.mergeSelectLabel	要合并的计费标签
+billingTagsUi.mergeTooManySources	最多选择 {{max}} 个计费标签并入你要保留的那个
+billingTagsUi.merged	已合并
+billingTagsUi.mergedPrsByUser	按用户的已合并 PR
+billingTagsUi.miscellaneousDescription	不属于任何标签
+billingTagsUi.miscellaneousRowDescription	用于不属于任何其他标签的会话的特殊标签
+billingTagsUi.mySessions	我的会话
+billingTagsUi.name	名称
+billingTagsUi.namePlaceholder	如「重做结账流程」
+billingTagsUi.nameRequired	名称为必填项
+billingTagsUi.newBillingTagDescription	跨会话追踪成本
+billingTagsUi.noBillingTagsYet	还没有计费标签
+billingTagsUi.noDataYet	还没有数据
+billingTagsUi.noMatches	无匹配项
+billingTagsUi.noMatchingBillingTags	无匹配的计费标签
+billingTagsUi.noPrsWithTagYet	还没有带此计费标签的会话产出的 PR
+billingTagsUi.noSessionsFound	未找到会话
+billingTagsUi.noSessionsFoundSuggest	未找到会话。用「为我最近的会话建议标签」获取计费标签建议。
+billingTagsUi.noSessionsMatchFilters	没有匹配所选筛选的会话
+billingTagsUi.noSessionsWithTagYet	还没有带此计费标签的会话
+billingTagsUi.noUsersWithTagYet	还没有带此计费标签的用户
+billingTagsUi.notificationsDescription	当成员有需要打计费标签的会话时，在侧栏显示角标。
+billingTagsUi.notificationsLabel	计费标签通知
+billingTagsUi.notificationsUpdateFailed	更新计费标签通知失败。
+billingTagsUi.open	打开
+billingTagsUi.otherUsers_one	另有 {{count}} 名用户
+billingTagsUi.otherUsers_other	另有 {{count}} 名用户
+billingTagsUi.overview	概览
+billingTagsUi.peopleCount_one	{{count}} 人
+billingTagsUi.peopleCount_other	{{count}} 人
+billingTagsUi.prStateClosed	已关闭
+billingTagsUi.prStateMerged	已合并
+billingTagsUi.prStateOpen	打开
+billingTagsUi.prStatus	状态
+billingTagsUi.prs	PR
+billingTagsUi.prsMerged	已合并 {{value}}
+billingTagsUi.prsMergedColumn	已合并 PR
+billingTagsUi.prsOpenClosed	{{open}} 打开 · {{closed}} 关闭
+billingTagsUi.prsOverTime	拉取请求趋势
+billingTagsUi.prsTotalColumn	PR 总数
+billingTagsUi.pullRequest	拉取请求
+billingTagsUi.pullRequests	拉取请求
+billingTagsUi.rejectSuggestions	拒绝建议
+billingTagsUi.reviewUncategorized	审查全部未分类
+billingTagsUi.save	保存
+billingTagsUi.search	搜索
+billingTagsUi.searchBillingTags	搜索计费标签
+billingTagsUi.searchPeople	搜索人员…
+billingTagsUi.searchSessions	搜索会话
+billingTagsUi.searchSessionsPlaceholder	搜索会话…
+billingTagsUi.selectAllSessions	全选会话
+billingTagsUi.selectSession	选择 {{title}}
+billingTagsUi.selectedCount	已选 {{count}} 项
+billingTagsUi.session	会话
+billingTagsUi.sessionCount_one	{{value}} 个会话
+billingTagsUi.sessionCount_other	{{value}} 个会话
+billingTagsUi.sessions	会话
+billingTagsUi.sessionsToReview	待审查会话
+billingTagsUi.settingsButton	计费标签设置
+billingTagsUi.settingsDescription	这些设置对此组织所有人生效。
+billingTagsUi.settingsTitle	计费标签设置
+billingTagsUi.suggestedTags	已建议
+billingTagsUi.tagCount_one	{{count}} 个标签
+billingTagsUi.tagCount_other	{{count}} 个标签
+billingTagsUi.tagWithDevin	让 Devin 打标签
+billingTagsUi.tagWithDevinPrompt	Devin，请为过去一周的所有会话建议要创建的计费标签以及标签分配。
+billingTagsUi.tagWithDevinPromptAll	Devin，请把过去 {{days}} 天的所有会话打上计费标签。
+billingTagsUi.tagWithDevinPromptMine	Devin，请把过去 {{days}} 天我的会话打上计费标签。
+billingTagsUi.tagWithDevinPromptPeople	Devin，请把以下用户过去 {{days}} 天的会话打上计费标签。\n\n{{people}}
+billingTagsUi.tagged	已打标签
+billingTagsUi.totalUsage	总用量
+billingTagsUi.uncategorizedDescription	清除标签
+billingTagsUi.upToSelections	最多选 {{count}} 项
+billingTagsUi.usageTruncated	因此标签超过分析上限，用量按截断的会话列表计算
+billingTagsUi.usageTruncatedAny	因某标签超过分析上限，部分用量数字按截断的会话列表计算
+billingTagsUi.users	用户
+billingTagsUi.viewerYou	{{name}}（你）
+blockedAction.permissionDeniedMessage	你在此会话中无权执行此操作。请向会话所有者申请权限。
+blockedAction.permissionDeniedTitle	操作不被允许
+blockers.spendingFrozen	你的 ACU 用量已达上限。请联系你的企业管理员。
+blueprintFailures.description	本次构建中失败的 blueprint 及建议的下一步。
+blueprintFailures.failedToStart	无法启动修复会话。
+blueprintFailures.fixAll	让 Devin 全部修复
+blueprintFailures.fixWithDevin	让 Devin 修复
+blueprintFailures.humanAction.git	检查是否有 Git 连接授予 Devin 访问此仓库及其拉入仓库的权限。
+blueprintFailures.humanAction.secret	在 blueprint 的「机密」页检查或更新此构建需要的令牌或机密。
+blueprintFailures.openBlueprint	打开 blueprint
+blueprintFailures.openConnections	Git 连接
+blueprintFailures.reviewFailures	审查失败的 blueprint
+blueprintFailures.starting	正在启动…
+blueprintFailures.title	失败的 blueprint
+blueprintFailures.viewFixSession	查看修复会话
+blueprints.buildOnCommitGitDescription	每次推送到默认分支后，用该提交中的 blueprint 构建环境
+blueprints.buildOnCommitLoadingDescription	每次推送到仓库默认分支后构建环境
+blueprints.buildOnCommitSavedDescription	每次推送到默认分支后，用此处当前保存的 blueprint 构建环境——不用提交中的版本
+blueprints.buildStatusChecksDescription	把每次构建的结果作为 GitHub Check Run 显示在提交上
+blueprints.building	正在构建
+blueprints.canonicalEditorDescription	此仓库的权威 blueprint。跟随它的环境都运行这套设置。
+blueprints.copyEnvVar	复制环境变量
+blueprints.delta.added_one	新增 {{count}} 项
+blueprints.delta.added_other	新增 {{count}} 项
+blueprints.delta.changeTypeAdded	新增
+blueprints.delta.changeTypeModified	修改
+blueprints.delta.changeTypeRemoved	移除
+blueprints.delta.changeTypeUnchanged	未变
+blueprints.delta.changedBlueprints_one	{{count}} 个 blueprint 已变更（{{changes, list(type: unit)}}）
+blueprints.delta.changedBlueprints_other	{{count}} 个 blueprint 已变更（{{changes, list(type: unit)}}）
+blueprints.delta.changedFiles_one	{{count}} 个文件已变更
+blueprints.delta.changedFiles_other	{{count}} 个文件已变更
+blueprints.delta.environmentChangeCount_one	{{count}} 项环境变更
+blueprints.delta.environmentChangeCount_other	{{count}} 项环境变更
+blueprints.delta.modified_one	修改 {{count}} 项
+blueprints.delta.modified_other	修改 {{count}} 项
+blueprints.delta.removed_one	移除 {{count}} 项
+blueprints.delta.removed_other	移除 {{count}} 项
+blueprints.delta.unchangedBlueprints_one	{{count}} 个 blueprint 未变
+blueprints.delta.unchangedBlueprints_other	{{count}} 个 blueprint 未变
+blueprints.editorLayout.exitFullScreen	退出全屏
+blueprints.editorLayout.fullScreen	全屏
+blueprints.editorLayout.hideSidebar	隐藏侧栏
+blueprints.editorLayout.showSidebar	显示侧栏
+blueprints.learnMoreAboutBlueprints	了解仓库环境 blueprint
+blueprints.removalBlocked	没有仓库被移除。请检查这些仓库仍存在且你有权配置它们：
+blueprints.removalLimit	一次最多移除 {{count}} 个仓库。
+blueprints.removeCount	移除 {{count}} 个
+blueprints.removeDescription_one	此仓库及其 Blueprint 将从环境中移除。仓库本身不会被删除。
+blueprints.removeDescription_other	这些仓库及其 Blueprint 将从环境中移除。仓库本身不会被删除。
+blueprints.removeSnapshotWarning_one	现有快照仍包含此仓库。能访问剩余仓库的用户仍可使用那些快照。
+blueprints.removeSnapshotWarning_other	现有快照仍包含这些仓库。能访问剩余仓库的用户仍可使用那些快照。
+blueprints.removeTitle_one	移除 {{count}} 个仓库？
+blueprints.removeTitle_other	移除 {{count}} 个仓库？
+blueprints.repositoriesAdded_one	已添加 {{repository}}
+blueprints.repositoriesAdded_other	已添加 {{count}} 个仓库
+blueprints.repositoryEditorDescription	在此仓库的会话中运行。
+blueprints.repositoryIncludedDescription	此仓库已预克隆并为新 Devin 会话完成设置
+blueprints.repositoryIncludedWithBlueprints_one	此仓库（根加 {{count}} 个 blueprint）已预克隆并为新 Devin 会话完成设置
+blueprints.repositoryIncludedWithBlueprints_other	此仓库（根加 {{count}} 个 blueprint）已预克隆并为新 Devin 会话完成设置
+blueprints.repositoryNotIncludedDescription	打开以为新 Devin 会话预克隆并设置此仓库
+blueprints.selectForRemoval	选择要移除的 {{repository}}
+blueprints.sidebarTabs.guide	指南
+blueprints.sidebarTabs.searchTemplates	搜索模板
+blueprints.sidebarTabs.searchWorkspaces	搜索工作区
+blueprints.sidebarTabs.templates	模板
+blueprints.sidebarTabs.workspaces	工作区
+blueprints.source.canonical	权威
+blueprints.source.canonicalDescription	设置来自仓库的权威 blueprint。此处只读。
+blueprints.source.current	· 当前
+blueprints.source.database	数据库
+blueprints.source.databaseDescription	内联编辑。更改即时保存到团队存储。
+blueprints.source.devinStorage	Devin 存储
+blueprints.source.followsCanonical	跟随权威 blueprint
+blueprints.source.gitDescription	真实来源是 {{filePath}}。拉取用同步，推送用 {{prAbbrev}}。
+blueprints.source.openCanonical	打开权威 blueprint
+blueprints.source.pullLatestFrom	从 {{provider}} 拉取最新
+blueprints.source.recently	最近
+blueprints.source.source	来源
+blueprints.source.switchConfirm	切换来源
+blueprints.source.switchDiscardsEdits	切换来源会丢弃你未保存的编辑。
+blueprints.source.switchFromCanonical	<code>{{repoName}}</code> 的根与工作区会把权威设置保留为一份可在此编辑的副本。权威机密和文件仍然生效。
+blueprints.source.switchReplacesContents	切换来源会替换编辑器内容。
+blueprints.source.switchTo	切换来源到 {{target}}
+blueprints.source.switchToCanonical	<code>{{repoName}}</code> 的根与工作区将被权威 blueprint 替换并随其更新。此处的 YAML 变为只读。
+blueprints.source.switchToDb	此 blueprint 将停止从 <code>{{repoName}}</code> 同步。编辑将重新直接保存到团队数据库。
+blueprints.source.switchToGit	Devin 将从 <code>{{repoName}}</code> 默认分支拉取 <code>{{filePath}}</code> 作为真实来源。之后的修改通过 {{prNoun}} 进行。
+blueprints.source.switchingTo	正在切换到 {{provider}}…
+blueprints.source.syncFrom	从 {{provider}} 同步
+blueprints.source.syncedOn	已于 {{time}} 从 {{provider}} 同步
+blueprints.source.syncingFrom	正在从 {{provider}} 同步…
+blueprints.source.unsavedChanges	未保存的更改
+blueprints.source.unsavedDiscarded	你在编辑器中未保存的编辑将被丢弃。
+blueprints.source.unsavedEdits	未保存的编辑
+blueprints.source.whereLives	此 blueprint 存放在哪里
+blueprints.uploadFileEnvVarDescription	会话通过此变量访问该文件
+blueprints.versionCount_one	{{count}} 个版本
+blueprints.versionCount_other	{{count}} 个版本
+blueprints.yamlEditor.linePrefix	第 {{line}} 行：
+boards.activity.addedDismissalNote	添加了驳回备注
+boards.activity.assigned	把工单分配给 <to>{{to}}</to>
+boards.activity.changedDismissalNote	修改了驳回备注
+boards.activity.changedPriority	把优先级从 <from></from> 改为 <to></to>
+boards.activity.changedPriorityReason	修改了工单优先级的原因
+boards.activity.changedSeverity	把严重性从 <from></from> 改为 <to></to>
+boards.activity.changedSeverityReason	修改了发现项严重性的原因
+boards.activity.changedStatus	把状态从 <from></from> 改为 <to></to>
+boards.activity.changedTitle	修改了标题
+boards.activity.changedTitleTo	把标题改为 <title></title>
+boards.activity.claimed	认领了工单
+boards.activity.couldntLoad	无法加载活动记录。
+boards.activity.createdFinding	创建了发现项
+boards.activity.createdTicket	创建了工单
+boards.activity.editedCustomFields	编辑了自定义字段
+boards.activity.editedDescription	编辑了描述
+boards.activity.empty	空
+boards.activity.hideChanges	隐藏变更
+boards.activity.linkedPlanStep	把工单关联到计划步骤 <step>{{step}}</step>
+boards.activity.noActivityYet	还没有活动。
+boards.activity.previously	原标题「{{title}}」
+boards.activity.previouslyUntitled	原无标题
+boards.activity.reassigned	把工单从 <from>{{from}}</from> 改派给 <to>{{to}}</to>
+boards.activity.released	释放了工单
+boards.activity.removedDevin	把 <session>Devin</session> 从工单移除
+boards.activity.removedDismissalNote	移除了驳回备注
+boards.activity.retry	重试
+boards.activity.selfAssigned	把工单分配给自己
+boards.activity.selfUnassigned	取消分配了工单
+boards.activity.setPriority	把优先级设为 <to></to>
+boards.activity.setSeverity	把严重性设为 <to></to>
+boards.activity.showChanges	显示变更
+boards.activity.startedSession	启动了一个 Devin 会话
+boards.activity.startedSessionLink	启动了一个 <session>Devin 会话</session>
+boards.activity.tagsAdded	添加了 <tags></tags>
+boards.activity.tagsAddedAndRemoved	添加了 <added></added>，移除了 <removed></removed>
+boards.activity.tagsRemoved	移除了 <tags></tags>
+boards.activity.title	活动
+boards.activity.unassigned	把 <from>{{from}}</from> 从工单取消分配
+boards.activity.unlinkedPlanStep	把工单从计划步骤 <step>{{step}}</step> 取消关联
+boards.activity.unlinkedPlanStepGeneric	把工单从其计划步骤取消关联
+boards.addDependency	添加依赖
+boards.agent.askDevinAboutThisBoard	就此 Board 询问 Devin
+boards.agent.backToBoardManager	返回 Board 管理 Agent
+boards.agent.backToSession	返回会话
+boards.agent.boardManagerAgent	Board 管理 Agent
+boards.agent.childComposerAriaLabel	在此会话中给 Devin 发消息
+boards.agent.childComposerPlaceholder	给 Devin 发消息…
+boards.agent.composerAriaLabel	就此 Board 给 Devin 发消息
+boards.agent.composerPlaceholder	就此 Board 询问 Devin…
+boards.agent.couldntAttachTheSessionToThisBoard	无法把会话附加到此 Board
+boards.agent.failedToResetTheSharedAgent	重置共享 Agent 失败
+boards.agent.failedToResetYourPersonalAgent	重置你的个人 Agent 失败
+boards.agent.firstMessagePersonal	你的第一条消息会启动一个仅你可见的此 Board 个人会话。
+boards.agent.firstMessageShared	你的第一条消息会启动一个所有人可见的此 Board 共享会话。
+boards.agent.migrationAgent	迁移 Agent
+boards.agent.resetDescriptionPersonal	这将把你的个人 Agent 从此 Board 分离。会话保留在你的会话列表中，你在此的下一条消息会启动一个全新的个人 Agent。
+boards.agent.resetDescriptionShared	这将把共享 Agent 从此 Board 对所有人分离。会话保留在其所有者的会话列表中，此处的下一条消息会启动一个全新的共享 Agent。
+boards.agent.sharedMigrationTooltip	共享迁移 Agent：此 Board 上所有人都可见此会话
+boards.agent.sharedTooltip	共享 Agent：此 Board 上所有人都可见此会话
+boards.agent.startingTheSharedAgent	正在启动共享 Agent…
+boards.agent.startingYourPersonalAgent	正在启动你的个人 Agent…
+boards.agent.summariesPrioritiesAndNextStepsFor	{{board}} 的摘要、优先级和下一步。{{detail}}
+boards.agent.thisBoard	此 Board
+boards.allBoards	全部 Board
+boards.blocked	受阻
+boards.blockedByTicket	被 {{key}} 阻塞
+boards.blockedByTitle	阻塞方
+boards.blockedBy_one	被 {{count}} 项阻塞
+boards.blockedBy_other	被 {{count}} 项阻塞
+boards.blocksTitle	阻塞
+boards.boardsLoadFailed	无法加载 Board
+boards.collapseTags	折叠标签：{{names}}
+boards.colors.blue	蓝色
+boards.colors.brown	棕色
+boards.colors.gray	灰色
+boards.colors.green	绿色
+boards.colors.indigo	靛蓝
+boards.colors.orange	橙色
+boards.colors.pink	粉色
+boards.colors.purple	紫色
+boards.colors.red	红色
+boards.colors.teal	青色
+boards.colors.yellow	黄色
+boards.composerDropHintInboxItem	拖放以就此条目给 Devin 发消息
+boards.composerDropHintTicket	拖放以就此工单给 Devin 发消息
+boards.dependencies	依赖
+boards.dependenciesNone	无依赖
+boards.dependencyAddFailed	无法添加依赖
+boards.dependencyNoMatches	无匹配工单
+boards.dependencyRemove	移除依赖
+boards.dependencyRemoveFailed	无法移除依赖
+boards.dependencySearch	搜索工单…

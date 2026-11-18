@@ -1,0 +1,314 @@
+defaultPrimaryBillingOrg.adminDescription	企业管理员可在「成员资格」下选择或清除默认。所选默认值不受此开关影响。
+defaultPrimaryBillingOrg.adminLabel	允许企业管理员更改默认
+defaultPrimaryBillingOrg.automatic	自动
+defaultPrimaryBillingOrg.description	在用户没有主计费组织时生效。已有分配和组织访问不变。「自动」使用当前解析规则。
+defaultPrimaryBillingOrg.loadFailed	加载组织失败。
+defaultPrimaryBillingOrg.noOrganizations	未找到组织。
+defaultPrimaryBillingOrg.searchOrganizations	搜索组织…
+defaultPrimaryBillingOrg.selectOrganization	选择组织
+defaultPrimaryBillingOrg.title	默认主计费组织
+defaultPrimaryBillingOrg.updateFailed	更新默认主计费组织失败。
+defaultPrimaryBillingOrg.updated	默认主计费组织已更新。
+designSystemIcons.copyName	复制名称
+designSystemIcons.copySvg	复制 SVG
+designSystemIcons.nameCopied	{{name}} 已复制到剪贴板
+designSystemIcons.svgCopied	{{name}} SVG 已复制到剪贴板
+designSystemRail.onThisPage	本页内容
+desktop.desktopTabTitle	桌面端
+desktop.didNotOpen	Devin Desktop 没有打开？
+desktop.download	下载 Devin Desktop
+desktop.invalidLink	此链接无效。
+desktop.logIn	登录 Devin Desktop
+desktop.logInToChannel	登录 {{channel}}
+desktop.moreOptions	更多 Devin Desktop 选项
+desktop.open	打开 Devin Desktop
+desktop.openHereInstead	改为在这里打开
+desktop.opened	会话已在 Devin Desktop 中打开
+desktop.openedPage	已在 Devin Desktop 中打开
+desktop.opening	正在打开 Devin Desktop…
+desktop.returned	正在返回 Devin Desktop
+desktop.title	Devin Desktop
+desktopAuth.codeExpiry	此验证码只能用一次，5 分钟内有效。
+desktopAuth.copied	已复制！
+desktopAuth.copyCode	复制验证码
+desktopAuth.copyLoginCodeTitle	复制你的登录验证码
+desktopAuth.copyToken	复制令牌
+desktopAuth.error	错误
+desktopAuth.genericRetry	出错了。请重试。
+desktopAuth.goToNow	立即前往 {{productName}}
+desktopAuth.pasteCodeBody	把此验证码粘贴进 Devin CLI 完成登录。
+desktopAuth.provideTokenSetup	要完成设置，请向 {{productName}} 提供你的认证令牌
+desktopAuth.provideTokenSignIn	要完成登录，请向 {{productName}} 提供你的认证令牌
+desktopAuth.provideTokenTitle	提供认证令牌
+desktopAuth.redirecting	正在跳转到 {{productName}}
+desktopAuth.selectAccountCli	选择一个账户登录 Devin CLI。你的账户管理员能看到并控制你的用量。
+desktopAuth.selectAccountDesktop	选择一个账户登录 {{productName}}。你的账户管理员能看到并控制你的 {{productName}} 用量。
+desktopAuth.selectAccountMobile	选择一个账户登录 Devin App。你的账户管理员能看到并控制你的用量。
+desktopAuth.startTrial	开始免费试用
+desktopAuth.stepCancelLogin	点击<strong>取消登录</strong>
+desktopAuth.stepCommandPalette	在 {{productName}} 中打开命令面板（Ctrl/Cmd + Shift + P），输入<strong>提供认证令牌</strong>，回车
+desktopAuth.stepCopy	把上方令牌复制到剪贴板
+desktopAuth.stepHavingTrouble	点击<strong>遇到问题？</strong>
+desktopAuth.stepPaste	把令牌粘贴到输入框并提交
+desktopAuth.stepProvideToken	选择<strong>提供认证令牌</strong>并粘贴令牌
+desktopAuth.steps	步骤：
+desktopAuth.tokenExpiry	此令牌只能用一次，1 分钟内有效。
+desktopAuth.trialBody	解锁 Devin 全部能力。14 天内不扣款，随时可取消。
+desktopAuth.trialTitle	领取你的免费 Devin 试用
+desktopAuth.unableToSignIn	无法登录
+devEnvironments.connectionIssue	仓库与 {{provider}} 有连接问题
+devTools.lagRadarTitle	延迟雷达——显示性能卡顿（点击隐藏）
+devTools.migrationsOutOfDate	数据库迁移已过期（{{databases}}）。请运行：
+devinActivityStatus.actionRequired	需要操作：{{action}}
+devinActivityStatus.awaitingInstructions	Devin 正在等待指令
+devinActivityStatus.botBudgetSleep	Devin 已休眠，因为超出了此 {{botName}} 的用量上限。
+devinActivityStatus.botBudgetSleepRaised	Devin 已休眠，因为超出了此 {{botName}} 的用量上限。上限此后已提高。
+devinActivityStatus.botBudgetSleepWithButton	Devin 已休眠，因为超出了此 {{botName}} 的用量上限。<budgetButton></budgetButton>继续。
+devinActivityStatus.botBudgetSleep_named	Devin 已休眠，因为超出了 {{botName}} 的用量上限。
+devinActivityStatus.catchingUp	正在跟进
+devinActivityStatus.crashed	Devin 崩溃了。发条消息尝试恢复
+devinActivityStatus.creatorAcuLimitSleep	Devin 已休眠，因为会话所有者超出了其每用户用量上限。
+devinActivityStatus.creatorAcuLimitSleep_named	Devin 已休眠，因为 {{name}} 超出了其每用户用量上限。
+devinActivityStatus.goingToSleep	正在休眠…
+devinActivityStatus.increaseAcuLimit	提高用量上限
+devinActivityStatus.increaseBotLimits	提高上限
+devinActivityStatus.increaseCreatorAcuLimit	在「用量策略」中提高其上限
+devinActivityStatus.queued	服务器负载高。Devin 正在等待容量…
+devinActivityStatus.queuedStatus	{{status}}…
+devinActivityStatus.raiseOrRemoveLimit	提高或移除上限
+devinActivityStatus.recapDismiss	忽略
+devinActivityStatus.recapDismissLabel	忽略摘要
+devinActivityStatus.recapOpenInSideChat	在侧聊中打开摘要
+devinActivityStatus.recapStatusAwaitingUser	等待下一步
+devinActivityStatus.recapStatusBlocked	已阻塞
+devinActivityStatus.recapStatusDone	完成
+devinActivityStatus.recapStatusInProgress	进行中
+devinActivityStatus.recapTimeline	时间线
+devinActivityStatus.recapTitle	会话摘要
+devinActivityStatus.reconnecting	正在重连…
+devinActivityStatus.reconnectingTooltip	与服务器的连接已断开，正在自动重连。可尝试刷新页面获取最新结果。
+devinActivityStatus.sendMessageToResume	发条消息即可恢复
+devinActivityStatus.settingUp	正在设置…
+devinActivityStatus.sleepContractExpired	Devin 已休眠，因为你组织的 Devin 合同已结束。联系你的账户团队续订。
+devinActivityStatus.sleepNetPolicyUpdate	Devin 已休眠以应用更新后的网络配置。
+devinActivityStatus.sleepNoQuotaAllocation	Devin 已休眠，因为你的账户是个人方案且你不是组织所有者
+devinActivityStatus.sleepOrgAcuLimit	Devin 已休眠，因为超出了你组织的用量上限。需要企业管理员提高你组织的用量上限才能继续。
+devinActivityStatus.sleepOrgAcuLimitWithLink	Devin 已休眠，因为超出了你组织的用量上限。<settingsLink></settingsLink>后你组织才能继续。
+devinActivityStatus.sleepOrgLimitRaised	Devin 已休眠，因为超出了你组织的用量上限。上限此后已提高。
+devinActivityStatus.sleepOutOfQuota	Devin 已休眠，因为{{description}}
+devinActivityStatus.sleepPaymentDeclined	Devin 已休眠，因为你组织最近一次扣款失败，请更新支付信息
+devinActivityStatus.sleepTotalSessionLimit	Devin 已休眠，因为此会话超出了总会话用量上限。确认上限后继续或开始新会话。
+devinActivityStatus.sleepUsageLimit	Devin 触达了你的单条消息用量上限，因此自动暂停以防失控支出。要继续吗？发条消息，或<limitAction></limitAction>。
+devinActivityStatus.sleepUserLimitRaised	Devin 已休眠，因为超出了你的每用户用量上限。上限此后已提高。
+devinActivityStatus.typing	Devin 正在输入…
+devinActivityStatus.upgrade	升级
+devinActivityStatus.userAcuLimitSleepBare	Devin 已休眠，因为超出了你的每用户用量上限。
+devinActivityStatus.userAcuLimitSleepGuidance	Devin 已休眠，因为超出了你的每用户用量上限。{{guidance}}。
+devinActivityStatus.userAcuLimitSleepWithAction	Devin 已休眠，因为超出了你的每用户用量上限。<requestAction></requestAction>继续。
+devinActivityStatus.waitingForApproval	等待批准
+devinActivityStatus.waitingForCiOnPr	等待 <pr>PR #{{number}}</pr> 的 CI 检查
+devinActivityStatus.waitingForWakeUp	等待 Devin 唤醒…
+devinActivityStatus.waitingOnSessions_one	等待 {{count}} 个 Devin 会话…
+devinActivityStatus.waitingOnSessions_other	等待 {{count}} 个 Devin 会话…
+devinActivityStatus.waitingOnSubagent	等待一个子 Agent
+devinActivityStatus.wakeDevinUp	唤醒 Devin
+devinActivityStatus.wakeDevinUpPrompt	唤醒 Devin？
+devinActivityStatus.wentToSleep	Devin 已休眠
+devinActivityStatus.workingInBackground	Devin 正在后台工作
+devinModeHeader.agent	Agent
+devinModeHeader.ask	Ask
+devinModeHeader.code	Code
+devinModeHeader.migrations	迁移
+devinModeHeader.modePickerMovedSubtitle	从此菜单切换模式
+devinModeHeader.modePickerMovedTitle	Agent 和 Ask 搬到这里了
+devinModeHeader.switchMode	切换模式
+devinModeHeader.unavailableWithFusion	Fusion 下不可用
+devinsWorkspace.add	添加
+devinsWorkspace.addMonorepoSubproject	添加 Monorepo 子项目
+devinsWorkspace.addSubproject	添加子项目
+devinsWorkspace.addSubprojectButton	添加子项目
+devinsWorkspace.addSubprojectDescription	子项目是需要自己设置步骤的目录
+devinsWorkspace.cancel	取消
+devinsWorkspace.commandDescriptionPlaceholder	给这些命令加个描述…
+devinsWorkspace.commandsUpdated	命令已更新
+devinsWorkspace.defaultBranch	默认分支
+devinsWorkspace.delete	删除
+devinsWorkspace.deleteProjectConfirm	确定要删除此项目？这会移除所有相关命令和配置。
+devinsWorkspace.deleteSubproject	删除子项目
+devinsWorkspace.deleteSubprojectConfirm	确定要删除子项目「{{projectPath}}」？这会移除所有相关命令和配置。
+devinsWorkspace.edit	编辑
+devinsWorkspace.failedToEdit	编辑失败
+devinsWorkspace.failedToUpdateCommands	更新命令失败
+devinsWorkspace.failedToUpdateStatus	更新状态失败
+devinsWorkspace.mainProject	主项目
+devinsWorkspace.markVerified	标记已验证
+devinsWorkspace.noClonedPathSet	未设置克隆路径
+devinsWorkspace.noDefaultBranchSet	未设置默认分支（将用远端默认）
+devinsWorkspace.noDescription	无描述
+devinsWorkspace.projectCommands	项目命令
+devinsWorkspace.projectCommandsDescription	Devin 用项目命令确保项目在改动仓库后能运行并通过 lint、测试等。
+devinsWorkspace.repositoryConfiguration	仓库配置
+devinsWorkspace.repositoryConfigurationDescription	仓库克隆位置的基本信息
+devinsWorkspace.repositoryMaintenance	仓库维护
+devinsWorkspace.repositoryMaintenanceDescription	处理新工单时让 Devin 工作区保持最新、Git 状态良好（在正确分支等）的命令
+devinsWorkspace.repositoryPath	仓库路径
+devinsWorkspace.resetToLatest	重置为最新
+devinsWorkspace.save	保存
+devinsWorkspace.savingChangesWithConflicts	正在保存有冲突的更改
+devinsWorkspace.sectionChangedByDevin	此部分在你开始编辑后已被 Devin 改动
+devinsWorkspace.setupRejected	对仓库设置{{type}}的修改被拒绝
+devinsWorkspace.setupRejectedForProject	对 {{projectPath}} 仓库设置{{type}}的修改被拒绝
+devinsWorkspace.setupRejectedWithReason	{{message}}：{{reason}}
+devinsWorkspace.skip	跳过
+devinsWorkspace.skipCommandsDescription	确定要跳过这些命令？这会移除本节的全部命令。
+devinsWorkspace.skipCommandsTitle	跳过命令
+devinsWorkspace.statusUpdated	状态已更新为{{status}}
+devinsWorkspace.subprojectPath	子项目路径
+devinsWorkspace.subprojectPathDescription	相对仓库根目录
+devinsWorkspace.subprojectPathPlaceholder	./packages/frontend
+devinsWorkspace.titleInitializeTemplate	初始化模板
+devinsWorkspace.titleMaintenance	维护
+devinsWorkspace.titlePullRepo	拉取仓库
+devinsWorkspace.titleRunLintCheck	运行 lint 检查
+devinsWorkspace.titleRunLintFix	lint 自动修复
+devinsWorkspace.titleRunProject	运行项目
+devinsWorkspace.titleRunTests	运行测试
+devinsWorkspace.titleUpdateDependencies	更新依赖
+devinsWorkspace.tooltipDefaultBranch	仓库主分支（如 'main' 或 'master'）。Devin 默认基于此分支工作。
+devinsWorkspace.tooltipPullRepo	每个会话开始时自动运行，与远端同步仓库并确保在正确分支。
+devinsWorkspace.tooltipRepositoryPath	仓库代码所在的根目录。它是所有命令的基础路径。
+devinsWorkspace.tooltipRunLintCheck	检查代码风格和格式而不做修改的命令。Devin 会被要求运行它来验证工作。
+devinsWorkspace.tooltipRunLintFix	自动修复代码风格和格式问题的命令。Devin 会被要求运行它来验证工作。
+devinsWorkspace.tooltipRunProject	本地构建和运行项目的命令。Devin 会得到描述和命令来验证其工作。
+devinsWorkspace.tooltipRunTests	运行项目测试套件的命令。Devin 会被要求运行它来验证工作。
+devinsWorkspace.tooltipUpdateDependencies	每个会话开始时自动运行，更新并安装项目依赖。
+devinsWorkspace.updatedToLatestValues	已更新为最新值
+devinsWorkspace.waitPendingChanges	请等待待处理更改完成
+devinsWorkspace.yesSkip	是，跳过
+display.byStatus	按状态
+display.created	创建时间
+display.direction	方向
+display.display	显示
+display.displayProperties	显示属性
+display.exportToCsv	导出为 CSV
+display.flatList	平铺列表
+display.grouping	分组
+display.newestFirst	最新在前
+display.noGrouping	不分组
+display.oldestFirst	最旧在前
+display.playbook	Playbook
+display.prs	PR
+display.sortBy	排序
+display.tags	标签
+display.treeView	树视图
+display.updated	更新时间
+display.user	用户
+display.view	视图
+displayLanguage.saveFailed	保存显示语言失败
+doneToast.archived	会话已停止
+doneToast.archivedDescription	已停止 VM
+doneToast.archivedDescriptionLocal	已停止 Agent
+doneToast.archivedPrsClosedDescription_one	已关闭 PR 并停止 VM
+doneToast.archivedPrsClosedDescription_other	已关闭 PR 并停止 VM
+doneToast.archivedSessions_one	已归档 {{count}} 个会话。
+doneToast.archivedSessions_other	已归档 {{count}} 个会话。
+doneToast.autoStoppedDescription	没有其他人订阅，因此已停止。
+doneToast.markDoneFailed	标记会话完成失败。请重试。
+doneToast.markedDone	会话已标为完成
+doneToast.markedDoneDescription	会话已移到侧栏的完成文件夹
+doneToast.markedDoneDescriptionLocal	已停止 Agent 并移到完成文件夹
+doneToast.markedDoneMany_one	已把 {{count}} 个会话标为完成
+doneToast.markedDoneMany_other	已把 {{count}} 个会话标为完成
+doneToast.markedNotDone	已标为未完成
+doneToast.resume	恢复
+doneToast.resumeActionFailed	恢复失败
+doneToast.resumeFailed_one	恢复会话失败。请重试。
+doneToast.resumeFailed_other	恢复会话失败。请重试。
+doneToast.resumed	会话已恢复
+doneToast.resumedMany_one	已恢复 {{count}} 个会话
+doneToast.resumedMany_other	已恢复 {{count}} 个会话
+doneToast.stopFailed_one	停止会话失败。请重试。
+doneToast.stopFailed_other	停止会话失败。请重试。
+doneToast.stopped	会话已标为完成并停止
+doneToast.stoppedDescription	已停止 VM 并移到完成文件夹
+doneToast.stoppedMany_one	已停止 {{count}} 个会话
+doneToast.stoppedMany_other	已停止 {{count}} 个会话
+doneToast.stoppedPrsClosedDescription_one	已关闭 PR、停止 VM 并移到完成文件夹
+doneToast.stoppedPrsClosedDescription_other	已关闭 PR、停止 VM 并移到完成文件夹
+doneToast.subscribeFailed	订阅失败。请重试。
+doneToast.unarchivedSessions_one	已取消归档 {{count}} 个会话。
+doneToast.unarchivedSessions_other	已取消归档 {{count}} 个会话。
+doneToast.unsubscribeFailed	取消订阅失败。请重试。
+doneToast.unsubscribedAndStopped	已取消订阅并停止
+ds.actionBar.clearSelection	清除选择
+ds.actions	操作
+ds.attachment.download	下载
+ds.attachment.downloadAttachment	下载附件
+ds.attachment.image	图片
+ds.attachment.remove	移除附件
+ds.attachment.sizeBytes	{{size}} B
+ds.attachment.sizeKilobytes	{{size}} KB
+ds.attachment.sizeMegabytes	{{size}} MB
+ds.attachment.video	视频
+ds.attachment.view	查看
+ds.attachment.viewAttachment	查看附件
+ds.blocker.confused	Devin 迷糊了
+ds.blocker.error	Devin 出错
+ds.blocker.runningIntoIssues	Devin 遇到了问题
+ds.breadcrumb.label	面包屑
+ds.breadcrumb.showMore	显示更多面包屑
+ds.capability.capability	能力
+ds.capability.capabilityTooltip	能力越高模型越强但成本越高
+ds.capability.fastMode	快速模式
+ds.capability.fusionDescription	前沿智能搭配高性价比执行，以更低成本交付前沿级结果
+ds.capability.internalOnly	仅内部
+ds.capability.mode	模式
+ds.capability.noCapabilitiesEnabled	你的组织没有启用任何能力。请联系管理员启用。
+ds.capability.speed	速度
+ds.capability.speedFast	快速
+ds.capability.speedStandard	标准
+ds.chat.attachments	附件
+ds.chat.devinMessage	Devin 消息
+ds.chat.userMessage	用户消息
+ds.codeBlock.copyCode	复制代码
+ds.codeBlock.inScope	在{{scope}}中
+ds.codeBlock.lines_one	{{count}} 行
+ds.codeBlock.lines_other	{{count}} 行
+ds.codeBlock.unwrapLines	取消折行
+ds.codeBlock.wrapLines	折行
+ds.command.description	搜索要运行的命令…
+ds.command.title	命令面板
+ds.composer.minimize	最小化
+ds.composer.next	下一个
+ds.composer.nextQuestion	下一题
+ds.composer.previousQuestion	上一题
+ds.composer.questionPosition	{{total}} 中第 {{current}}
+ds.composer.skip	跳过
+ds.composer.somethingElse	其他的…
+ds.contextWindow.cacheExpired	提示词缓存已过期。
+ds.contextWindow.cacheExpiresIn	提示词缓存 {{time}} 后过期
+ds.contextWindow.cachedInput	已缓存输入
+ds.contextWindow.contextUsage	上下文用量：{{percent}}%
+ds.contextWindow.contextUsed	已用 {{percent}}%（{{used}} / {{limit}}）上下文
+ds.contextWindow.higherCostExpected	预计成本更高。
+ds.contextWindow.input	输入
+ds.contextWindow.modelChangeDisabledCache	换模型已禁用提示词缓存。
+ds.datePicker.endDate	结束日期
+ds.datePicker.endTime	结束时间
+ds.datePicker.includeTime	包含时间
+ds.datePicker.startDate	开始日期
+ds.datePicker.startTime	开始时间
+ds.datePicker.timezone	时区
+ds.dismiss	忽略
+ds.expandable.collapse	折叠
+ds.expandable.collapseContent	折叠内容
+ds.expandable.expand	展开
+ds.expandable.expandContent	展开内容
+ds.feedback.badResponse	不好的回复
+ds.feedback.badSession	不好的会话
+ds.feedback.categoryDidNotFollow	没按指令做
+ds.feedback.categoryIncomplete	不完整
+ds.feedback.categoryIncorrectCode	代码错误
+ds.feedback.categoryOther	其他
+ds.feedback.details	详情
+ds.feedback.flagResponse	标记回复

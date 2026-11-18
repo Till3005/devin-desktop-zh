@@ -1,0 +1,110 @@
+settings.webhookRetryReason	重试原因：{{reason}}
+settings.webhookRetryVerification	验证
+settings.webhookRotateFailed	轮换不了 secret
+settings.webhookRotateSecret	轮换 secret
+settings.webhookSaveFailed	存不了 webhook 端点
+settings.webhookSearchEvents	搜索事件
+settings.webhookSearchOrgs	搜索组织
+settings.webhookSecretCopied	Secret 已复制
+settings.webhookSecretCopyFailed	复制不了 secret——从弹窗手动复制
+settings.webhookSecretCreatedTitle	端点已建——存你的签名 secret
+settings.webhookSecretHowToUse	用它验你收的每个请求：用 <code>whsec_</code> 后 base64 解码的 key 对 <code>{webhook-id}.{webhook-timestamp}.{raw body}</code> 算 HMAC-SHA256，与 <code>webhook-signature</code> 头里 <code>v1,…</code> 值比对。完整例见此页「怎么收 webhook」。
+settings.webhookSecretRotatedGrace	接下来 24 小时每个请求同时用新旧 secret 签，你可在此窗口任意时点切接收方而不丢投递。
+settings.webhookSecretRotatedTitle	新签名 secret
+settings.webhookSecretShownOnce	此 secret 只显示一次。现在就复制并安全存——你再看不了。
+settings.webhookSecretVerificationFailedNote	端点已存但待发，还不收事件。修好你的接收方，再点端点上的验证重试。
+settings.webhookSecretVerificationFailedTitle	验证还没过
+settings.webhookSecretVerifiedNote	你的端点应答了验证事件——已激活，立刻开始收事件。
+settings.webhookSelectAll	全选
+settings.webhookSelectEventType	选事件类型
+settings.webhookSendTest	发测试
+settings.webhookShowAttempts	显示尝试
+settings.webhookStateActive	活跃
+settings.webhookStateDisabled	已禁用
+settings.webhookStatePendingVerification	待验证
+settings.webhookStatusFilter	按状态筛
+settings.webhookSubmitDisabledEvents	选至少一个事件
+settings.webhookSubmitDisabledName	输一个名
+settings.webhookSubmitDisabledOrgs	选至少一个组织
+settings.webhookSubmitDisabledRateLimit	限流必须是正整数
+settings.webhookSubmitDisabledUrl	输 https:// 开头的端点 URL
+settings.webhookTestDelivered	测试事件已投递
+settings.webhookTestFailed	测试事件失败
+settings.webhookTestRequestFailed	发测试事件失败
+settings.webhookTestTitle	发测试事件
+settings.webhookUrlCreateHint	你点创建后，我们立刻向此 URL POST 一个签名的 <code>endpoint.verification</code> 事件。你的接收方必须以 body 含请求 <code>data.nonce</code> 的 2xx 响应，端点才上线——例见「怎么收 webhook」
+settings.webhookUrlEditHint	改 URL 会向它发新 <code>endpoint.verification</code> 事件。投递暂停直到新 URL 以含请求 <code>data.nonce</code> 的 2xx 响应
+settings.webhookUrlLabel	端点 URL（仅 HTTPS）
+settings.webhookVerificationFailed	验证失败
+settings.webhookVerified	端点已验证
+settings.webhooks	Webhook
+settings.webhooksDescription	企业里事发时给你自己的端点发签名事件通知
+settings.webhooksSidebarLabel	Webhook
+settings.wikiEffortHigh	高
+settings.wikiEffortLow	低
+settings.wikiEffortMedium	中
+settings.windsurf	Windsurf
+settings.windsurfDescription	链你的 Windsurf 账户
+settings.workspaceRestriction	限 Cascade 在工作区
+settings.workspaceRestrictionDescription	只读写工作区里的文件
+settings.yourPrivacyChoices	你的隐私选项
+settingsCrumbs.addRole	加角色
+settingsCrumbs.configureMcpServer	配置 MCP 服务器
+settingsCrumbs.configureRole	配置角色
+settingsCrumbs.connectGithubOrganization	连 GitHub 组织
+settingsCrumbs.createCommunityPlaybook	建社区 playbook
+settingsCrumbs.editManagedWebhook	Webhook 详情
+settingsCrumbs.managedMcpServer	托管 MCP 服务器
+settingsCrumbs.mcpDetails	MCP 详情
+settingsCrumbs.newEnterpriseMcpServer	新企业 MCP 服务器
+settingsCrumbs.newPlaybook	新 playbook
+settingsCrumbs.newSchedule	新排期
+settingsCrumbs.schedule	排期
+settingsCrumbs.setUpMcpServer	设置 MCP 服务器
+settingsHub.administration	管理
+settingsHub.administrationDescription	管访问、基建和分析
+settingsHub.aiGatewayDescription	AI gateway 推理仪表板
+settingsHub.allResourcesDescription	集合和你能访问的资源，一棵树
+settingsHub.analyticsDescription	用量、消耗和生产力分析
+settingsHub.apiKeysDescription	旧版 API key
+settingsHub.authenticationDescription	你成员经之登录的 SSO 连接
+settingsHub.backToEnterprise	回企业
+settingsHub.backToOrganization	回组织
+settingsHub.backToPage	回 {{page}}
+settingsHub.billingTagsDescription	用计费标签标 Devin 会话以追 ACU 用量
+settingsHub.blueprintsDescription	仓库环境 blueprint
+settingsHub.botsDescription	每个 {{botName}} 的计费和花费上限，及你组织模板
+settingsHub.categoriesDescription	会话分类仪表板
+settingsHub.coachDescription	你组织会话的教练发现项
+settingsHub.coachEnterpriseDescription	你企业各组织会话的教练发现项
+settingsHub.connectedAccountsDescriptionV2	管已连集成
+settingsHub.consumptionDescription	消耗分析仪表板
+settingsHub.customizationDescription	插件、技能、MCP 和 hook 一处管
+settingsHub.deepwikiDescription	代码索引和 wiki 生成
+settingsHub.deepwikiLabel	DeepWiki
+settingsHub.devinApiDescription	服务用户和 API key
+settingsHub.devinHubDescription	会话设置和用量上限
+settingsHub.devinLabel	Devin
+settingsHub.enterprise	企业设置
+settingsHub.enterpriseAutomationsDescription	托管 webhook 和自动化可用的触发源
+settingsHub.enterpriseCustomizeDescription	每个组织的插件政策
+settingsHub.enterpriseDescription	企业偏好和设置
+settingsHub.enterpriseOncallDescription	事件源和多组织路由
+settingsHub.enterpriseScopeTag	企业
+settingsHub.enterpriseSessionsDescription	看和管全企业会话
+settingsHub.enterpriseSetupDescriptionV2	企业偏好和设置
+settingsHub.enterpriseSidebarLabel	企业
+settingsHub.environmentDescription	机器快照和环境 blueprint
+settingsHub.environmentsDescription	有自己 blueprint 和构建的独立环境
+settingsHub.gatewayDescription	把主机名和 IPv4 段路由进你网络的隧道和直连网关
+settingsHub.generalDescription	组织档案和数据控制
+settingsHub.guardrailsDescription	AI 安全护栏和政策
+settingsHub.idpGroupsDescription	身份提供商组
+settingsHub.infrastructureDescription	VPC 和网络监控
+settingsHub.insightsDescription	你会话的 Devin Coach 发现项和你仓库的 Agent Readiness
+settingsHub.insightsEnterpriseDescription	你企业各组织的 Devin Coach 发现项和仓库 Agent Readiness
+settingsHub.integrationsDescription	连 GitHub、Slack 等
+settingsHub.invoicesDescription	付款历史和收据
+settingsHub.knowledgeDescription	组织和企业知识
+settingsHub.loadMore	加载更多
+settingsHub.marketplaceDescription	为账户上所有人浏览和装插件

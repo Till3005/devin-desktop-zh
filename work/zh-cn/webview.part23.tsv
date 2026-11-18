@@ -1,0 +1,323 @@
+bots.avatarLedFace.strip	条纹
+bots.avatarLedFace.sun-solid	太阳
+bots.avatarLedFace.telegram-solid	Telegram
+bots.avatarLedFace.tools-solid	工具
+bots.avatarLedFace.twitter-bird-solid	Twitter
+bots.avatarLedFace.usb-solid	USB
+bots.avatarLedFace.vercel-solid	Vercel
+bots.avatarLedFace.visor	面罩
+bots.avatarLedFace.volume-x-solid	静音
+bots.avatarLedFace.wand-solid	魔杖
+bots.avatarLedFace.watch-solid	手表
+bots.avatarLedFace.whatsapp-solid	WhatsApp
+bots.avatarLedFace.x-solid	X
+bots.avatarLedFace.youtube-solid	YouTube
+bots.avatarPickerCasingColors	外壳颜色
+bots.avatarPickerChooseImage	选择图片
+bots.avatarPickerColors	颜色
+bots.avatarPickerDropImage	把图片拖到此处
+bots.avatarPickerFrames	边框
+bots.avatarPickerImageHint	PNG、JPG、GIF 或 WebP，最大 {{maxSizeMb}} MB
+bots.avatarPickerLedCogs	齿轮
+bots.avatarPickerSemanticIcons	图标
+bots.avatarPickerShuffle	随机
+bots.avatarPickerUpload	上传
+bots.avatarUpdateFailed	无法更新头像
+bots.backTo	返回{{page}}
+bots.backToChat	返回聊天
+bots.billingGateAutoReloadDescription	要继续，请提高每月自动充值上限
+bots.billingGateAutoReloadTitle	已达每月自动充值上限
+bots.billingGateContact	联系
+bots.billingGateContractDescription	请联系你的账户团队续订或恢复访问
+bots.billingGateContractTitle	企业合同已结束
+bots.billingGateIncreaseLimitDescription	要继续，请提高你的用量上限
+bots.billingGateIndividualPlanDescription	升级到 Teams 方案让所有人都能使用
+bots.billingGateManage	管理
+bots.billingGateOnDemandDescription	前往你的用量设置
+bots.billingGateOnDemandTitle	按需用量已用尽
+bots.billingGateOrgLimitDescription	要继续，请提高你组织的用量上限
+bots.billingGateOrgLimitTitle	你的组织已达用量上限
+bots.billingGateOutOfCreditsTitle	你的额度已用完
+bots.billingGateOutOfUnitTitle	你的 {{unit}} 已用完
+bots.billingGatePaymentDescription	你最近一次扣款失败。如有问题请联系支持
+bots.billingGatePaymentTitle	支付问题
+bots.billingGateRequest	申请
+bots.billingGateSwitchPlanDescription	要继续，请切换到付费方案或购买额度
+bots.billingGateUpdatePayment	更新支付
+bots.billingGateUpgrade	升级
+bots.billingGateUsageSettings	用量设置
+bots.billingGateUserLimitDescription	要继续，请在本计费周期内向你的账户申请更多
+bots.billingGateUserLimitTitle	你已达每用户用量上限
+bots.botMcpOnboardingTitle	连接你的全部插件和 MCP
+bots.botQuickSetupTitle	快速设置
+bots.botSetupReasonGit	要处理你的代码，我需要它的访问权限。请在下方连接你的 Git 提供商。
+bots.botSetupReasonMessaging	趁我开始干活：在下方连接一个聊天应用，你就能在那里给我发消息、收我的更新。
+bots.botSetupReasonPlugins	这项工作要用到你的几个工具。请在下方添加你用的那些。
+bots.botSetupReasonRepositories	要处理你的代码，我需要它完成设置。请在下方选择相关仓库。
+bots.botSetupReasonTaskTracking	这项工作从你的工单出发。请在下方连接 Linear 或 Jira，我就能拿到它们。
+bots.botSlackConnectAction	连接
+bots.botSlackConnectDescription	允许前请确认 Slack 显示的是正确工作区
+bots.botSlackConnectFailed	无法连接 Slack
+bots.botSlackConnectTitle	把 Devin 加入 Slack
+bots.botSlackOnboardingApprovalAction	打开 Slack 设置
+bots.botSlackOnboardingApprovalTitle	@{{handle}} 需要 Slack 管理员批准
+bots.botSlackOnboardingDescription	给此 {{botName}} 专属 Slack 应用
+bots.botSlackOnboardingTitle	在 Slack 中使用 @{{handle}}
+bots.botSlackOnboardingTitleInWorkspace	在 {{workspace}} 中使用 @{{handle}}
+bots.botWelcomeSetupReason	接入你常用的工具后我能做更多。请在下方连接它们，我同时开始干活。
+bots.budgetAcuLimitDescription	达到上限后此 {{botName}} 将停止工作。{{botName}} 创建者不能超过其自身上限。上限每个计费周期重置
+bots.budgetAcuLimitLabel	{{botName}} ACU 上限
+bots.budgetAllocationCreator	{{botName}} 创建者
+bots.budgetAllocationCreatorDescription	{{botName}} 的 ACU 用量计入 {{botName}} 创建者自身的用量上限
+bots.budgetAllocationCreatorQuotaDescription	用量先消耗 {{botName}} 创建者的包含配额，再扣按需用量
+bots.budgetAllocationDescription	此 {{botName}} 的 ACU 用量由谁承担
+bots.budgetAllocationLabel	ACU 归属
+bots.budgetAllocationOwn	独立用量上限
+bots.budgetAllocationOwnDescription	管理员可授予 {{botName}} 独立的用量上限
+bots.budgetAllocationQuotaDescription	此 {{botName}} 的用量由谁承担
+bots.budgetAllocationQuotaLabel	用量归属
+bots.budgetCapReadOnly	只有 {{name}} 或管理用量上限的管理员能改此项。
+bots.budgetCycleUsage	{{resetsOn}} 重置 · <usage>已用 {{used}}</usage>
+bots.budgetDescription	此 {{botName}} 及其会话的每月支出上限
+bots.budgetDescription_named	{{botName}} 及其会话的每月支出上限
+bots.budgetEnterpriseReadOnly	你的企业把用量上限设为只读。
+bots.budgetInvalid	请输入不小于 0 的整数。
+bots.budgetInvalidSpend	请输入 ${{increment}} 的整倍数金额。
+bots.budgetLabel	每月用量上限
+bots.budgetLimitHidden	已设上限。你的企业隐藏了其金额。
+bots.budgetLoadFailed	无法加载此 {{botName}} 的用量上限。
+bots.budgetNoAccessDescription	只有 {{botName}} 的创建者和能查看组织用量的人才能看到它的用量上限。
+bots.budgetNoAccessTitle	无用量上限可显示
+bots.budgetNotEnforced	此账户尚未强制。此 {{botName}} 超过上限仍继续运行。
+bots.budgetNotEnforced_named	此账户尚未强制。{{botName}} 超过上限仍继续运行。
+bots.budgetPauseConfirm	暂停
+bots.budgetPauseDescription	本周期它已花费 {{used}}，因此上限 {{limit}} 会让它现在暂停。
+bots.budgetPauseTitle	暂停 {{botName}} 直到 {{resetsOn}}？
+bots.budgetPaused	此 {{botName}} 暂停至 {{resetsOn}}。提高上限即可恢复。
+bots.budgetPausedBadge	暂停至 {{resetsOn}}
+bots.budgetPausedNoEdit	此 {{botName}} 暂停至 {{resetsOn}}。
+bots.budgetPausedNoEdit_named	{{botName}} 暂停至 {{resetsOn}}。
+bots.budgetPaused_named	{{botName}} 暂停至 {{resetsOn}}。提高上限即可恢复。
+bots.budgetPayerCreatorFallback	创建者
+bots.budgetPayerDescriptionNotApplied	已设为向 {{name}} 计费，但当前没有任何用量计入其 ACU 上限，因此在改变前此 {{botName}} 有自己独立的上限。
+bots.budgetPayerDescriptionNotAppliedYou	已设为向你计费，但当前没有任何用量计入你的 ACU 上限，因此在改变前此 {{botName}} 有自己独立的上限。
+bots.budgetPayerQuotaDescriptionNotApplied	已设为向 {{name}} 计费，但当前没有任何用量消耗其包含配额，因此在改变前此 {{botName}} 只花按需用量。
+bots.budgetPayerQuotaDescriptionNotAppliedYou	已设为向你计费，但当前没有任何用量消耗你的包含配额，因此在改变前此 {{botName}} 只花按需用量。
+bots.budgetPayerSaveFailed	无法更改承担方
+bots.budgetPayerSaved	承担方已保存
+bots.budgetProjection	按此速度，到 {{resetsOn}} 约 {{projected}}。
+bots.budgetReadOnly	只有管理用量上限的账户管理员能改此项。
+bots.budgetRequestAmount	每周期 ACU
+bots.budgetRequestAmountDollars	每周期金额
+bots.budgetRequestAmountRequired	金额为必填项
+bots.budgetRequestDescription	管理员在<settingsLink>额外用量申请</settingsLink>页审核。若批准，此 {{botName}} 不再计入你的 ACU 上限，并获得独立用量上限。
+bots.budgetRequestDescriptionDollars	管理员在<settingsLink>额外用量申请</settingsLink>页审核。若批准，此 {{botName}} 不再消耗你的包含配额，并获得独立用量上限。
+bots.budgetRequestFailed	无法发送申请
+bots.budgetRequestOwnLimit	申请独立用量上限
+bots.budgetRequestPending	已申请 {{limit}} · 等待管理员审核
+bots.budgetRequestReason	原因
+bots.budgetRequestReasonPlaceholder	为什么此 {{botName}} 需要独立用量上限
+bots.budgetRequestSubmit	发送申请
+bots.budgetRequestSubmitted	申请已提交管理员审核
+bots.budgetRequestTitle	申请独立用量上限
+bots.budgetSaveAndPause	保存并暂停至 {{resetsOn}}
+bots.budgetSaveFailed	无法保存用量上限
+bots.budgetSaved	用量上限已保存
+bots.budgetSpendDescription	{{botName}} 及其子会话本周期的支出，无论由谁承担。
+bots.budgetSpendLabel	支出
+bots.budgetSpendLimitLabel	{{botName}} 支出上限
+bots.budgetTemporaryRaise	当前月度窗口内临时提高到 {{limit}}。
+bots.budgetTooLarge	上限过大。
+bots.budgetUsage	已用 {{used}} / {{limit}} · {{resetsOn}} 重置
+bots.budgetUsageNoLimit	已用 {{used}} · {{resetsOn}} 重置
+bots.capabilityPill	{{orchestrator}} / {{child}}
+bots.capabilityPillDetails	{{botName}} 能力：{{orchestrator}} · 默认子能力：{{child}}
+bots.changeAvatarButton	更换头像
+bots.childCapabilityDescription	你可以让 {{botName}} 对任意子会话使用不同能力。
+bots.childCapabilityLabel	子能力
+bots.childCapabilityOrgDefault	（组织默认）
+bots.childCapabilityUnavailable	不可用
+bots.closeArtifactPane	关闭面板
+bots.closedPullRequests	已合并和已关闭的拉取请求
+bots.connections.accountCount_one	{{count}} 个账户
+bots.connections.accountCount_other	{{count}} 个账户
+bots.connections.accountNames	{{accounts, list}}
+bots.connections.addAccount	添加账户
+bots.connections.addConnection	添加连接
+bots.connections.addedBy	添加者
+bots.connections.addedTo	已添加到 {{name}}
+bots.connections.allConnections	全部连接
+bots.connections.allTypes	全部
+bots.connections.anotherAccount	{{name}} 的另一个账户
+bots.connections.anotherAccountHint	共享你的账户，或登录一个新账户
+bots.connections.attentionCount_one	{{count}} 个需要注意
+bots.connections.attentionCount_other	{{count}} 个需要注意
+bots.connections.browseConnections_one	浏览 {{count}} 个连接
+bots.connections.browseConnections_other	浏览 {{count}} 个连接
+bots.connections.connect	连接
+bots.connections.connectHint	若需登录，{{name}} 将代表已认证用户操作
+bots.connections.connectHintOwn	若 MCP 服务器需要登录，{{name}} 将代表你操作
+bots.connections.connected	已连接
+bots.connections.description	{{name}} 可用的 MCP 服务器和插件
+bots.connections.disconnect	断开连接
+bots.connections.fixedBundledPlugin	通过另一个插件连接，不能单独断开
+bots.connections.fixedEnterprise	企业级建立的连接不能断开
+bots.connections.fixedOrg	组织级建立的连接不能断开
+bots.connections.fixedOrgEnterprise	组织级和企业级建立的连接不能断开
+bots.connections.fromOrganization	来自 {{organization}}
+bots.connections.givenIntro	你给 {{name}} 的东西。只有能管理 {{name}} 的成员能看到它的其他连接。
+bots.connections.givenNothing	你还没有给 {{name}} 任何登录或插件。
+bots.connections.givenPlugin	你的插件
+bots.connections.givenRemove	移除
+bots.connections.givenRemoveFailed	无法把它从 {{name}} 移除。
+bots.connections.givenSignIn	你的登录
+bots.connections.groupCount_one	{{count}} 个连接
+bots.connections.groupCount_other	{{count}} 个连接
+bots.connections.loadError	无法加载连接。
+bots.connections.manage	管理
+bots.connections.managedCount_one	{{organization}} 管理的 {{count}} 个连接
+bots.connections.managedCount_other	{{organization}} 管理的 {{count}} 个连接
+bots.connections.marketplace	市场
+bots.connections.marketplaceEmpty	没有可添加的了：所有可用的都已连接。
+bots.connections.matches_one	{{count}} 个匹配
+bots.connections.matches_other	{{count}} 个匹配
+bots.connections.memberAccount	{{member}} 的账户
+bots.connections.memberPlugin	某成员的插件
+bots.connections.noAccountToShare	你没有可共享的已连接账户
+bots.connections.noMatch	无匹配连接。
+bots.connections.notApplicable	不适用
+bots.connections.notWorking	不可用
+bots.connections.nothingConnected	还没有连接任何东西。
+bots.connections.off	关
+bots.connections.offFor	对 {{name}} 关闭
+bots.connections.organizationAccount	{{organization}} 的账户
+bots.connections.organizationPreview	{{names, list}}
+bots.connections.otherConnections	其他连接
+bots.connections.ownerCatalog	在目录中
+bots.connections.ownerYou	你的
+bots.connections.removeNamedSignIn	移除 {{server}} 登录
+bots.connections.removeSignIn	移除登录
+bots.connections.replaceSignInConfirm	换成我的
+bots.connections.replaceSignInDescription	{{name}} 现在用 {{giver}} 的 {{mcp}} 登录。切换后，它的会话在那里将代表你操作。
+bots.connections.replaceSignInTitle	换成你的登录？
+bots.connections.retry	重试
+bots.connections.savedNotRefreshed	已保存，但列表无法刷新。
+bots.connections.scopeEnterprise	企业
+bots.connections.scopeOrganization	组织
+bots.connections.scopeOwn	{{name}} 自己的
+bots.connections.scopePersonal	个人
+bots.connections.scopedType	{{scope}}{{type}}
+bots.connections.searchMarketplace_one	搜索 {{count}} 个可用连接
+bots.connections.searchMarketplace_other	搜索 {{count}} 个可用连接
+bots.connections.search_one	搜索 {{count}} 个连接
+bots.connections.search_other	搜索 {{count}} 个连接
+bots.connections.separateAccount	{{name}} 自己的账户
+bots.connections.separateAccountHint	独立登录，如服务账户
+bots.connections.shareAllDescription	使用你的插件和登录。在下方挑选单个连接。
+bots.connections.sharedAccount	{{member}} 共享的账户
+bots.connections.showAll	显示全部 {{count}} 个
+bots.connections.showLess	收起
+bots.connections.signIn	登录
+bots.connections.signInExpired	登录已过期
+bots.connections.signInRequired	需要登录
+bots.connections.signedInAs	已登录为
+bots.connections.someone	某成员
+bots.connections.sourceAndContents	{{source}} · {{contents}}
+bots.connections.sourceYourUpload	由你上传
+bots.connections.suggestedFor	为 {{name}} 推荐
+bots.connections.title	连接
+bots.connections.typeMcp	MCP
+bots.connections.typePlugin	插件
+bots.connections.unknown	未知
+bots.connections.useYourConnection	让 {{name}} 使用你的连接，包括你的登录
+bots.connections.viewDetails	查看详情
+bots.connections.viewDetailsOf	查看 {{name}} 持有的内容
+bots.connections.yourAccount	你的账户
+bots.connections.yourCustomize	你的个人插件
+bots.connections.yourCustomizeHint	你为自己配置的技能、规则、钩子和 MCP 服务器
+bots.createBack	返回
+bots.createCompliment1	很有型！
+bots.createCompliment10	满分十分。
+bots.createCompliment11	主角气场。
+bots.createCompliment12	团队会喜欢它的。
+bots.createCompliment13	哇。
+bots.createCompliment14	已经很抢眼了。
+bots.createCompliment15	干净。非常干净。
+bots.createCompliment16	我自己挑也不会更好。
+bots.createCompliment2	选得好！
+bots.createCompliment3	很时髦。
+bots.createCompliment4	这个值得留。
+bots.createCompliment5	很精神！
+bots.createCompliment6	不错的选择。
+bots.createCompliment7	爱了！
+bots.createCompliment8	焕然一新！
+bots.createCompliment9	这个 {{botName}} 真好看。
+bots.createConfirm	创建
+bots.createCustomBotName	你的自定义 {{botName}}
+bots.createCustomBotRemit	创建你自己的 {{botName}} 并告诉它你想要的结果
+bots.createCustomizeDescription	创建后你还可以设置此 {{botName}} 的行为
+bots.createCustomizeTitle	自定义你的 {{botName}}
+bots.createDialogDescription	给 {{botName}} 一个要负责的结果。它会规划工作、启动会话，一直做到完成
+bots.createDialogTitle	你的目标是什么？
+bots.createFailed	无法添加 {{botName}}
+bots.createFromTemplateContinue	继续
+bots.createFromTemplateFromOrg	来自你的组织
+bots.createFromTemplateOnTeam	在你的团队
+bots.createFromTemplateSearch	搜索模板
+bots.createGiveCreatorAccess	授予 {{name}} 访问新 {{botName}} 的权限
+bots.createGiveThisBotAccess	授予此 {{botName}} 访问新 {{botName}} 的权限
+bots.createName	名称
+bots.createNamePlaceholder	{{botName}}
+bots.createNamePrompt	给你的 {{botName}} 起个名
+bots.createNamed	从零开始创建「{{name}}」
+bots.createScratchNext	一个无预设行为的空白 {{botName}}。你给它起名、选外观，然后在聊天里告诉它你的目标。
+bots.createScratchTagline	一个空白 {{botName}}
+bots.createStartFromScratch	从零开始
+bots.createStartingPoint	起点
+bots.createTitle	创建 {{botName}}
+bots.createdBy	{{botName}} 由 {{creator}} 创建
+bots.createdEyebrow	{{botName}} 已创建
+bots.createdWithoutAvatar	{{botName}} 已创建但无头像
+bots.createdWithoutAvatarDescription	头像无法保存。你可以在 {{botName}} 的设置中添加。
+bots.defaultBotName	Devin
+bots.defaultModeLoadFailed	无法加载此 {{botName}} 的默认模式。
+bots.defaultModeOrgDefault	组织默认（{{mode}}）
+bots.defaultModeSaveFailed	无法保存默认模式
+bots.detailsPluginAgents	Agent
+bots.detailsPluginContentsEmpty	此插件未列出技能、规则、MCP 服务器或钩子。
+bots.detailsPluginContentsLoadError	无法加载此插件的内容。
+bots.detailsPluginFromTemplate	来自模板
+bots.detailsPluginHooks	钩子
+bots.detailsPluginMcpServers	MCP 服务器
+bots.detailsPluginMore	+{{count}} 更多
+bots.detailsPluginRules	规则
+bots.detailsPluginSkills	技能
+bots.editButton	编辑
+bots.editConfirm	保存
+bots.editTitle	编辑 {{botName}}
+bots.exclusiveAccess	Devin {{botNamePlural}} 的访问权限
+bots.freePlanUpgradeTitle	升级以使用 {{botName}}
+bots.fromTeammates	来自队友
+bots.fromYou	来自你
+bots.generalSummary.people_one	{{count}} 人
+bots.generalSummary.people_other	{{count}} 人
+bots.generalSummary.prs_one	已合并 {{count}} 个 PR
+bots.generalSummary.prs_other	已合并 {{count}} 个 PR
+bots.generalSummary.setUp	已设置
+bots.generalSummary.sharedWith	共享给
+bots.getStartedFlow.autofixReviewDescription	自动修复确认的缺陷
+bots.getStartedFlow.botsDescription	把需求发给 {{botName}}，它会启动会话把事办成。
+bots.getStartedFlow.botsTitle	设置你的 {{botNamePlural}}
+bots.getStartedFlow.catchBugsDescription	审查主分支上的提交并建议修复
+bots.getStartedFlow.complete	完成
+bots.getStartedFlow.gitDescription	克隆仓库、推送分支、创建拉取请求。详见<settings>设置</settings>。
+bots.getStartedFlow.gitTitle	连接 Git 提供商
+bots.getStartedFlow.integrationsDescription	安装个人插件。之后可去<customizations>自定义</customizations>为自己或团队添加更多。
+bots.getStartedFlow.integrationsTitle	第一方集成
+bots.getStartedFlow.inviteEmailsLabel	按邮箱添加队友
+bots.getStartedFlow.maybeLater	以后再说
+bots.getStartedFlow.proactiveDescription	让 Devin 监视仓库、自动修缺陷、建议自动化。
+bots.getStartedFlow.proactiveTitle	允许更多主动性
+bots.getStartedFlow.repositoriesDescription	添加仓库后，每次启动会话更快、更省、更稳。详见<settings>设置</settings>。
+bots.getStartedFlow.repositoriesTitle	设置环境
+bots.getStartedFlow.reviewAutoDescription	PR 创建时以及之后每次推送时

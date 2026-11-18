@@ -1,0 +1,291 @@
+admin.sponsoredEvents.errors.team_name_required	团队名称为必填项
+admin.sponsoredEvents.errors.too_many_members	团队将超出参与人数上限
+admin.sponsoredEvents.import.chooseFile	选择 CSV
+admin.sponsoredEvents.import.clear	清除
+admin.sponsoredEvents.import.columns.emails	邮箱
+admin.sponsoredEvents.import.columns.lines	CSV 行数
+admin.sponsoredEvents.import.columns.members	成员
+admin.sponsoredEvents.import.columns.team	团队
+admin.sponsoredEvents.import.description	导出含 Team Name 和 Member N Email 列的 Google Forms 回复表。导入在服务器上运行，可以关闭此标签页。重复运行是安全的。
+admin.sponsoredEvents.import.moreProblems_one	以及另外 {{count}} 项
+admin.sponsoredEvents.import.moreProblems_other	以及另外 {{count}} 项
+admin.sponsoredEvents.import.preview	{{file}}：{{teams}} 个团队，{{members}} 名参与者
+admin.sponsoredEvents.import.problemCodes.emails_required	第 {{line}} 行：没有邮箱
+admin.sponsoredEvents.import.problemCodes.invalid_email	第 {{line}} 行：「{{value}}」不是有效邮箱
+admin.sponsoredEvents.import.problemCodes.missing_columns	第 {{line}} 行：缺少 Team Name 或 Member N Email 列
+admin.sponsoredEvents.import.problemCodes.team_name_required	第 {{line}} 行：缺少团队名称
+admin.sponsoredEvents.import.problemCodes.team_name_too_long	第 {{line}} 行：团队名称超过 {{max}} 个字符
+admin.sponsoredEvents.import.problemCodes.too_many_members	第 {{line}} 行：团队「{{value}}」参与者过多
+admin.sponsoredEvents.import.problems_one	{{count}} 行被跳过：
+admin.sponsoredEvents.import.problems_other	{{count}} 行被跳过：
+admin.sponsoredEvents.import.readFailed	无法读取该文件。
+admin.sponsoredEvents.import.start_one	添加 {{count}} 个团队
+admin.sponsoredEvents.import.start_other	添加 {{count}} 个团队
+admin.sponsoredEvents.import.title	从 CSV 导入团队
+admin.sponsoredEvents.import.tooManyTeams	此文件包含超过 {{max}} 个团队。
+admin.sponsoredEvents.jobs.columns.result	结果
+admin.sponsoredEvents.jobs.columns.status	状态
+admin.sponsoredEvents.jobs.columns.team	团队
+admin.sponsoredEvents.jobs.kind.import	导入
+admin.sponsoredEvents.jobs.kind.revoke	撤销
+admin.sponsoredEvents.jobs.loadFailed	加载赞助活动任务失败：{{message}}
+admin.sponsoredEvents.jobs.noError	无错误
+admin.sponsoredEvents.jobs.previousRuns	历史运行（{{count}}）
+admin.sponsoredEvents.jobs.runAgain	重新运行
+admin.sponsoredEvents.jobs.showAll	显示全部
+admin.sponsoredEvents.jobs.showFailedOnly	只显示失败项
+admin.sponsoredEvents.jobs.status.done	已完成
+admin.sponsoredEvents.jobs.status.failed	失败
+admin.sponsoredEvents.jobs.status.running	运行中
+admin.sponsoredEvents.jobs.summary	{{total}} 个团队中完成 {{done}}，失败 {{failed}}
+admin.sponsoredEvents.jobs.title	导入运行记录
+admin.sponsoredEvents.list.columns.acuLimit	每会话 ACU 上限
+admin.sponsoredEvents.list.columns.createdAt	创建时间
+admin.sponsoredEvents.list.columns.name	名称
+admin.sponsoredEvents.list.columns.teamBudget	每队预算
+admin.sponsoredEvents.list.columns.teams	团队
+admin.sponsoredEvents.list.emptyDescription	创建一个活动，让黑客松团队获得带赞助预算的独立组织。
+admin.sponsoredEvents.list.emptyTitle	还没有赞助活动
+admin.sponsoredEvents.list.loadFailed	加载赞助活动失败：{{message}}
+admin.sponsoredEvents.list.loading	正在加载赞助活动
+admin.sponsoredEvents.navLabel	赞助活动
+admin.sponsoredEvents.revoke.badge	已于 {{date}} 撤销
+admin.sponsoredEvents.revoke.button	全部撤销
+admin.sponsoredEvents.revoke.confirm	全部撤销
+admin.sponsoredEvents.revoke.description	这将收回每个团队未使用的赞助额度。组织、成员和会话保持不变。之后不能再添加新团队。
+admin.sponsoredEvents.revoke.title	撤销全部赞助额度？
+admin.sponsoredEvents.teams.addMembers	添加成员
+admin.sponsoredEvents.teams.columns.balance	余额
+admin.sponsoredEvents.teams.columns.createdAt	创建时间
+admin.sponsoredEvents.teams.columns.granted	已授予
+admin.sponsoredEvents.teams.columns.members	成员
+admin.sponsoredEvents.teams.columns.organization	组织
+admin.sponsoredEvents.teams.columns.revoked	已撤销
+admin.sponsoredEvents.teams.columns.team	团队
+admin.sponsoredEvents.teams.empty	还没有团队。添加团队或导入 CSV。
+admin.sponsoredEvents.teams.noMatches	没有匹配「{{query}}」的团队
+admin.sponsoredEvents.teams.searchPlaceholder	搜索团队
+admin.sponsoredEvents.teams.title	团队
+admin.sponsoredEvents.teams.totals_one	合计（{{count}} 个团队）
+admin.sponsoredEvents.teams.totals_other	合计（{{count}} 个团队）
+admin.sponsoredEvents.title	赞助活动
+admin.startupProgram.clearAll	全部清除
+admin.startupProgram.columnEnrolled	已加入
+admin.startupProgram.columnFreeCreditsUsed	已用免费额度
+admin.startupProgram.columnMatchingGrants	匹配的授予
+admin.startupProgram.columnStatus	状态
+admin.startupProgram.enrollFailed	加入失败：{{message}}
+admin.startupProgram.enrolled	账户已加入初创计划
+admin.startupProgram.enrollments	加入记录
+admin.startupProgram.filter	筛选
+admin.startupProgram.invites	邀请
+admin.startupProgram.loadError	加载加入记录出错
+admin.startupProgram.noEnrollments	未找到加入记录。
+admin.startupProgram.noMatches	没有符合搜索条件的加入记录。
+admin.startupProgram.orgLogoAlt	{{name}} 的图标
+admin.startupProgram.pageTitle	初创计划
+admin.startupProgram.searchAriaLabel	搜索加入记录
+admin.startupProgram.searchPlaceholder	按组织名搜索…
+admin.startupProgram.statusActive	有效
+admin.startupProgram.statusChurned	已流失
+admin.startupProgram.statusEnded	已结束
+admin.startupProgram.statusPaused	已暂停
+admin.startupProgram.statusUpdateFailed	更新状态失败：{{message}}
+admin.startupProgram.statusUpdated	初创计划状态已更新
+admin.startupProgram.summaryActive	有效：{{count}}
+admin.startupProgram.summaryChurned	已流失：{{count}}
+admin.startupProgram.summaryEnded	已结束：{{count}}
+admin.startupProgram.summaryPaused	已暂停：{{count}}
+admin.startupProgram.summaryTotal	合计：{{count}}
+admin.storageMigrations.advanced	高级
+admin.storageMigrations.excludedOrgIds	跳过会话文件复制的组织 ID
+admin.storageMigrations.excludedOrgIdsHint	可选。输入以逗号分隔的 staging 子组织 ID。
+admin.storageMigrations.excludedOrgIdsWarning	这些组织仍会随账户迁移，但其历史会话文件在切换后不可用。
+admin.storageMigrations.fineShardOrgIds	使用 256 哈希分片的组织 ID（逗号分隔）
+admin.storageMigrations.fineShardOrgs	使用 256 哈希分片的组织
+admin.storageMigrations.hashShards	每个所有者和键格式的哈希分片数
+admin.storageMigrations.sessionRanges	会话范围
+admin.storageMigrations.shard	分片
+admin.storageMigrations.shardSettings	分片设置
+admin.teamsGraphSubscriptions.hint.failed	Microsoft Graph 或 chat-manager 错误。请重试；若持续失败，检查该频道的 chat-manager 日志。
+admin.teamsGraphSubscriptions.hint.forbidden	将 Devin 应用添加到团队，或让租户的 Microsoft 365 管理员允许特定资源同意（RSC），然后重试。
+admin.teamsGraphSubscriptions.hint.noConnection	Teams 断连后的正常情况：自动化还在，但账户的 Teams 连接已断。无需重试；重新连接 Teams 或删除这些自动化。
+admin.teamsGraphSubscriptions.hint.notFound	Microsoft Graph 找不到此团队或频道，可能已被删除。无需重试；删除这些自动化或将其指向其他频道。
+admin.teamsGraphSubscriptions.hint.unsupported	私有和共享频道不能有 Graph 订阅。
+admin.teamsGraphSubscriptions.status.created	已修复
+admin.teamsGraphSubscriptions.status.failed	失败，重试
+admin.teamsGraphSubscriptions.status.forbidden	Graph 拒绝访问
+admin.teamsGraphSubscriptions.status.noConnection	孤立（无 Teams 连接）
+admin.teamsGraphSubscriptions.status.notFound	团队或频道已删除
+admin.teamsGraphSubscriptions.status.unsupported	不支持（私有/共享频道）
+admin.teamsGraphSubscriptions.toast.created_one	已创建 {{count}} 个 Graph 订阅
+admin.teamsGraphSubscriptions.toast.created_other	已创建 {{count}} 个 Graph 订阅
+admin.teamsGraphSubscriptions.toast.failedSummary_one	失败（{{count}}）：重试；查看 chat-manager 日志。
+admin.teamsGraphSubscriptions.toast.failedSummary_other	失败（{{count}}）：重试；查看 chat-manager 日志。
+admin.teamsGraphSubscriptions.toast.forbiddenSummary_one	Graph 拒绝访问（{{count}}）：将 Devin 应用添加到团队或允许 RSC。
+admin.teamsGraphSubscriptions.toast.forbiddenSummary_other	Graph 拒绝访问（{{count}}）：将 Devin 应用添加到团队或允许 RSC。
+admin.teamsGraphSubscriptions.toast.noConnectionSummary_one	孤立（{{count}}）：无 Teams 连接，断连后属正常。
+admin.teamsGraphSubscriptions.toast.noConnectionSummary_other	孤立（{{count}}）：无 Teams 连接，断连后属正常。
+admin.teamsGraphSubscriptions.toast.notFixed	{{total}} 个频道中有 {{notFixed}} 个未修复
+admin.teamsGraphSubscriptions.toast.notFoundSummary_one	团队或频道已删除（{{count}}）：删除自动化或改指其他频道。
+admin.teamsGraphSubscriptions.toast.notFoundSummary_other	团队或频道已删除（{{count}}）：删除自动化或改指其他频道。
+admin.teamsGraphSubscriptions.toast.nothingToFix	没有需要修复的
+admin.teamsGraphSubscriptions.toast.nothingToFixDescription	服务器复查未发现缺少订阅的频道。
+admin.teamsGraphSubscriptions.toast.orphanedDescription	Teams 断连后的正常情况；无需重试。
+admin.teamsGraphSubscriptions.toast.orphaned_one	{{count}} 个孤立频道：无 Teams 连接
+admin.teamsGraphSubscriptions.toast.orphaned_other	{{count}} 个孤立频道：无 Teams 连接
+admin.teamsGraphSubscriptions.toast.unsupportedSummary_one	不支持（{{count}}）：私有或共享频道。
+admin.teamsGraphSubscriptions.toast.unsupportedSummary_other	不支持（{{count}}）：私有或共享频道。
+admin.title	管理
+admin.usagePolicyAccess.adminHidden	此企业的用量策略对 Cognition 员工不可见。
+admin.usagePolicyAccess.adminRead	Cognition 可读取用量策略。编辑已关闭。
+admin.usagePolicyAccess.cognitionLabel	Cognition 访问权限
+admin.usagePolicyAccess.cognitionReadOnly	仅可由数据库设置
+admin.usagePolicyAccess.customerLabel	客户访问权限
+admin.usagePolicyAccess.default	默认（写）
+admin.usagePolicyAccess.description	设置客户可对用量策略执行的操作。默认即写权限。
+admin.usagePolicyAccess.hidden	隐藏
+admin.usagePolicyAccess.read	读
+admin.usagePolicyAccess.saveError	无法保存用量策略访问设置。
+admin.usagePolicyAccess.title	用量策略访问权限
+admin.usagePolicyAccess.write	写
+admin.user	用户
+admin.userTrust.accountLabel	账户
+admin.userTrust.accountPlaceholder	选择一个账户
+admin.userTrust.columns.eventCount	事件数
+admin.userTrust.columns.floor	下限
+admin.userTrust.columns.observedAt	观察时间
+admin.userTrust.columns.points	分值
+admin.userTrust.columns.queryKey	查询键
+admin.userTrust.columns.reasons	原因
+admin.userTrust.columns.signalType	信号
+admin.userTrust.columns.source	来源
+admin.userTrust.contributions	贡献信号
+admin.userTrust.dialog.cancel	取消
+admin.userTrust.dialog.description	在 {{account}} 中为此用户记录一条手动信任事件。判定与百分比按输入原样保存。
+admin.userTrust.dialog.percent	百分比
+admin.userTrust.dialog.reason	原因
+admin.userTrust.dialog.submit	设置信任
+admin.userTrust.dialog.title	设置信任
+admin.userTrust.dialog.trusted	可信
+admin.userTrust.dialog.untrusted	不可信
+admin.userTrust.dialog.verdict	判定
+admin.userTrust.events_one	{{count}} 条原始事件
+admin.userTrust.events_other	{{count}} 条原始事件
+admin.userTrust.levels.elevated	偏高
+admin.userTrust.levels.high	高
+admin.userTrust.levels.none	无
+admin.userTrust.loadError	加载信任评估失败：{{message}}
+admin.userTrust.loading	正在加载信任评估…
+admin.userTrust.noMemberships	此用户没有账户成员资格。
+admin.userTrust.noReasons	无原因
+admin.userTrust.noSignals	此账户没有记录信任信号。
+admin.userTrust.queryKeys	查询键
+admin.userTrust.reasons	原因
+admin.userTrust.score	分数
+admin.userTrust.setError	设置信任失败
+admin.userTrust.setSuccess	信任已更新
+admin.userTrust.setTrust	设置信任
+admin.userTrust.signalJson	信号 JSON
+admin.userTrust.suspicionLevel	可疑度
+admin.userTrust.tab	信任
+admin.users	用户
+admin.watchDevinWork	观看工作
+adminBackfill.analysis	重新运行会话分析
+adminBackfill.analysisConfirmation	这将替换这些会话的现有分析结果。
+adminBackfill.choose	选择一个选项
+adminBackfill.cloud	云端
+adminBackfill.cloudFile	上传一个云端会话 ID 的 JSON 数组。
+adminBackfill.confirm	为 {{count, number}} 个 ID 排队回填？
+adminBackfill.conversion	将 pattern 链接转换为 Jira
+adminBackfill.conversionConfirmation	这会迁移所提供节点的链接而不编辑 Jira 工单。pattern 连接保持有效。
+adminBackfill.description	上传一份 ID 列表并调度回填。
+adminBackfill.destination	Jira 连接
+adminBackfill.discard	放弃
+adminBackfill.discardTitle	放弃此次回填？
+adminBackfill.invalidIds	请上传非空的有效 ID JSON 数组。
+adminBackfill.invalidStart	请输入有效的开始日期和时间。
+adminBackfill.local	本地
+adminBackfill.open	开始回填…
+adminBackfill.pastStart	开始时间在过去。回填将立即开始。
+adminBackfill.sessionRate	每分钟会话数
+adminBackfill.sessionType	会话类型
+adminBackfill.source	Pattern 连接
+adminBackfill.start	开始时间（本地；留空则立即开始）
+adminBackfill.startsAt	计划于 {{start}} 开始。
+adminBackfill.submit	排队回填
+adminBackfill.title	回填
+adminBackfill.tooManyIds	最多上传 {{max, number}} 个 ID。
+adminBackfill.type	回填类型
+adminBackfill.upload	上传 ID
+adminBudgetBackfill.account	账户：{{accountId}}
+adminBudgetBackfill.adminOnly	只有超级用户可以回填预算。
+adminBudgetBackfill.backfill	回填预算
+adminBudgetBackfill.confirmDescription	将 {{accountId}} 的合格组织同步到预算。这可能创建预算，并用旧组织数据替换组织关联的预算名称、上限和状态。已有预算父级不变。ACU 镜像需要 combined-org-acu-limit。当 governance-budget 处于写或更高权限时同步预算成员授予。所有变更在一个事务中提交。
+adminBudgetBackfill.confirmTitle	回填预算？
+adminBudgetBackfill.copyPoliciesDescription	将账户级分档、分组映射和成员上限复制到你选择的预算。
+adminBudgetBackfill.description	按当前特性开关将合格组织同步到预算。这可能创建预算，并用旧组织数据替换组织关联的预算名称、上限和状态。已有预算父级不变。
+adminBudgetBackfill.dryRun	试运行
+adminBudgetBackfill.dryRunDone	试运行完成。没有任何更改。
+adminBudgetBackfill.failed	回填预算失败。
+adminBudgetBackfill.failure	预算回填请求失败。如果连接中断，更改可能已提交。{{error}}
+adminBudgetBackfill.mode	模式
+adminBudgetBackfill.modes.all_to_root	所有组织归入根预算，其他预算归档
+adminBudgetBackfill.modes.one_to_one	每个组织归入各自预算
+adminBudgetBackfill.modes.prioritize_root	无上限组织归入根预算，空预算归档
+adminBudgetBackfill.modes.reconcile	补入缺失的关联
+adminBudgetBackfill.progress	预算回填进行中。请保持此页面打开直至结束。
+adminBudgetBackfill.result	新增关联：{{added}}。覆盖关联：{{moved}}。移除关联：{{removed}}。创建预算：{{budgets}}。归档预算：{{archived}}。失去组织的用户上限：{{userLimits}}。
+adminBudgetBackfill.success	预算回填完成，耗时 {{duration}} 秒。
+adminBudgetBackfill.title	预算
+adminGovernance.account	账户：{{accountId}}
+adminGovernance.adminOnly	只有超级用户可以运行回填。
+adminGovernance.mcpPromotion.blocked	已阻止：{{count}}
+adminGovernance.mcpPromotion.blockedSkipped	已跳过被阻止的组织。
+adminGovernance.mcpPromotion.close	关闭
+adminGovernance.mcpPromotion.complete	迁移完成。
+adminGovernance.mcpPromotion.confirmDescription	预览企业 {{enterpriseId}} 的子组织。迁移会重新加密凭据并保留组织成员访问权限。关联机密副本必须先验证。
+adminGovernance.mcpPromotion.description	将共享安装迁移到账户范围，可针对单个组织或全部组织。与 Run all 相互独立。
+adminGovernance.mcpPromotion.error	迁移失败。请重试预览。
+adminGovernance.mcpPromotion.filter	按组织或 MCP 筛选
+adminGovernance.mcpPromotion.migrate	迁移安装
+adminGovernance.mcpPromotion.migrateOrganizations	迁移组织：{{count}}
+adminGovernance.mcpPromotion.noMatches	没有匹配的迁移项。
+adminGovernance.mcpPromotion.notes	备注：{{count}}
+adminGovernance.mcpPromotion.nothingToMigrate	无可迁移项：{{count}}
+adminGovernance.mcpPromotion.organization	组织
+adminGovernance.mcpPromotion.organizations	组织：{{count}}
+adminGovernance.mcpPromotion.planned	计划安装：{{count}}
+adminGovernance.mcpPromotion.preview	预览迁移
+adminGovernance.mcpPromotion.progress	正在迁移 {{done}}/{{total}}：{{org}}
+adminGovernance.mcpPromotion.renamed	已重命名：{{count}}
+adminGovernance.mcpPromotion.scope	迁移范围
+adminGovernance.mcpPromotion.scopeAll	所有组织
+adminGovernance.mcpPromotion.scopeOne	单个组织
+adminGovernance.mcpPromotion.stopped	已迁移 {{done}}/{{total}} 个组织，在 {{org}} 处停止：{{detail}} 再次预览以继续。
+adminGovernance.mcpPromotion.title	MCP 迁移
+adminGovernance.rollout.abort	中止
+adminGovernance.rollout.abortConfirmDescription	将在数秒内停止 {{accountId}} 的 {{step}}。已提交的批次保留且该步骤失败，Run all 也会停止。
+adminGovernance.rollout.abortConfirmTitle	中止 {{step}}？
+adminGovernance.rollout.abortFailed	中止回填失败。
+adminGovernance.rollout.abortStep	中止 {{step}}
+adminGovernance.rollout.allTypes	全部类型
+adminGovernance.rollout.busy	有回填正在排队或运行。请等待其完成。
+adminGovernance.rollout.confirmDescription	以后台任务为 {{accountId}} 运行 {{step}}。失败时已提交的批次保留。
+adminGovernance.rollout.confirmDescriptionAll	按顺序为 {{accountId}} 运行全部 {{count}} 个回填，各为一个任务。链在首个失败处停止。
+adminGovernance.rollout.confirmDescriptionBitmaps	以后台任务为 {{accountId}} 运行 {{step}}，作为一个事务。该账户的授予变更等待其完成，失败则不保留任何内容。
+adminGovernance.rollout.confirmTitle	运行 {{step}}？
+adminGovernance.rollout.confirmTitleAll	运行全部上线回填？
+adminGovernance.rollout.description	按顺序以后台任务为此账户运行授予上线回填，使用该账户的 Unleash 开关。
+adminGovernance.rollout.failed	失败于 {{time}}
+adminGovernance.rollout.flagNeeds	{{flag}}：{{current}}，需要 {{required}}
+adminGovernance.rollout.flagSet	{{flag}}：{{current}}
+adminGovernance.rollout.lastRun	最近运行（7 天）
+adminGovernance.rollout.loadFailed	加载上线回填失败。
+adminGovernance.rollout.needs	需要
+adminGovernance.rollout.needsNone	无开关要求
+adminGovernance.rollout.notRun	未运行
+adminGovernance.rollout.onlyTypes	仅这些类型：{{types, list}}。
+adminGovernance.rollout.queued	已排队
+adminGovernance.rollout.run	运行
+adminGovernance.rollout.runAll	全部运行

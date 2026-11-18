@@ -1,0 +1,160 @@
+usageAnalytics.metrics.assignedAcusTooltip	合同表格里的静态分配
+usageAnalytics.metrics.avgDau	平均 DAU
+usageAnalytics.metrics.codingUsers	编码用户
+usageAnalytics.metrics.codingUsersTooltip	获准跑会话的活跃用户
+usageAnalytics.metrics.configuredAcus	已配 ACU
+usageAnalytics.metrics.configuredAcusTooltip	系统里配的实时分配
+usageAnalytics.metrics.delta	差值
+usageAnalytics.metrics.deltaTooltip	已用 ACU 减已分配 ACU
+usageAnalytics.metrics.instances	实例
+usageAnalytics.metrics.mergeSuccessRate	合并成功率
+usageAnalytics.metrics.prsMerged	已合并 PR
+usageAnalytics.metrics.prsRaised	已提 PR
+usageAnalytics.metrics.readOnlyUsers	只读用户
+usageAnalytics.metrics.readOnlyUsersTooltip	没会话权限的活跃用户
+usageAnalytics.metrics.sessionsPerCodingUser	会话 / 编码用户
+usageAnalytics.metrics.sessionsWithoutPr	无 PR 会话 %
+usageAnalytics.metrics.tabConsumption	消耗
+usageAnalytics.metrics.tabEfficiency	效率
+usageAnalytics.metrics.tabPrs	PR
+usageAnalytics.metrics.tabSessions	会话
+usageAnalytics.metrics.tabUsers	用户
+usageAnalytics.metrics.totalUsers	总用户
+usageAnalytics.metrics.totalUsersTooltip	所选期活跃用户
+usageAnalytics.otherLanguage	其它
+usageAnalytics.overview.acusPerInstance	{{amount}} ACU / 实例 / 月
+usageAnalytics.overview.acusYearToDate	今年至今 ACU
+usageAnalytics.overview.askQueries	{{amount}} 次 DW/Ask 查询
+usageAnalytics.overview.assignedInstances	已分配实例
+usageAnalytics.overview.canRunSessions	{{total}} 中 {{coding}} 能跑会话
+usageAnalytics.overview.contractShare	{{total}} 合同中 {{share}}
+usageAnalytics.overview.contractedPerMonth_one	合同定 {{formattedCount}} ACU / 月
+usageAnalytics.overview.contractedPerMonth_other	合同定 {{formattedCount}} ACU / 月
+usageAnalytics.overview.cycleToDate	本周期至今（第 {{day}} 天）
+usageAnalytics.overview.cycleToDateDelta	本周期至今：{{delta}} 对上周期同点
+usageAnalytics.overview.description	你组织层级的分配、用量和生产力
+usageAnalytics.overview.featurePreview	功能预览
+usageAnalytics.overview.fromReview	{{amount}} 来自 Devin Review
+usageAnalytics.overview.instancesConfigured	已配实例
+usageAnalytics.overview.lowerIsEfficient	越低=越高效
+usageAnalytics.overview.monthToDate	本月至今（{{total}} 天中第 {{day}} 天）
+usageAnalytics.overview.noPermission	你没权看企业分析。
+usageAnalytics.overview.projectedExhaustion	预计 {{date}} 耗尽
+usageAnalytics.overview.raisedAndRate	已提 {{raised}} · 合并率 {{rate}}
+usageAnalytics.overview.selectedRange_one	所选范围（{{count}} 天）
+usageAnalytics.overview.selectedRange_other	所选范围（{{count}} 天）
+usageAnalytics.overview.sinceContract	自 {{date}} 合同起
+usageAnalytics.overviewCharts.acus	ACU
+usageAnalytics.overviewCharts.acusPerMergedPr	ACU / 合并 PR
+usageAnalytics.overviewCharts.allocated	已分配
+usageAnalytics.overviewCharts.allocationSubtitle	每柱是 LOB 所选期分配的 ACU，按其消耗填充
+usageAnalytics.overviewCharts.allocationTitle	按 LOB 分配 vs 用量
+usageAnalytics.overviewCharts.consumptionSubtitleDaily	每日会话 ACU（柱）vs 合并 PR（线），按会话起日
+usageAnalytics.overviewCharts.consumptionSubtitleWeekly	每周会话 ACU（柱）vs 合并 PR（线），按会话起日
+usageAnalytics.overviewCharts.consumptionTitle	消耗 vs 产出
+usageAnalytics.overviewCharts.efficiencySubtitleDaily	每日效率趋势——越低越高效
+usageAnalytics.overviewCharts.efficiencySubtitleWeekly	每周效率趋势——越低越高效
+usageAnalytics.overviewCharts.efficiencyTitle	每合并 PR 的 ACU
+usageAnalytics.overviewCharts.mergeRateSubtitleDaily	每日合并 PR 占同桶已提 PR 份额
+usageAnalytics.overviewCharts.mergeRateSubtitleWeekly	每周合并 PR 占同桶已提 PR 份额
+usageAnalytics.overviewCharts.mergeRateTitle	合并成功率
+usageAnalytics.overviewCharts.mergedPrs	已合并 PR
+usageAnalytics.overviewCharts.overAllocation	超分配
+usageAnalytics.overviewCharts.used	已用
+usageAnalytics.overviewCharts.utilization	利用率
+usageAnalytics.overviewKpiCard.usageProgressAria	用量进度
+usageAnalytics.periods.allTime	全部时间
+usageAnalytics.periods.custom	自定义（{{from}} – {{to}}）
+usageAnalytics.periods.customRange	自定义范围…
+usageAnalytics.periods.last90Days	最近 90 天
+usageAnalytics.periods.lastBillingCycleUnavailable	上计费周期（不可用）
+usageAnalytics.periods.lastYear	去年
+usageAnalytics.periods.sinceDate	{{label}}（自 {{date}}）
+usageAnalytics.periods.thisYear	今年
+usageAnalytics.periods.yearToDate	今年至今
+usageAnalytics.productivity.acusPerHourMa	每生产小时 ACU（移动平均）
+usageAnalytics.productivity.acusPerHourMaTip	滑动窗口估算会话 ACU 除以等价生产工程小时。
+usageAnalytics.productivity.acusPerHourTip	估算会话（含非生产）累计 ACU 除以等价生产工程小时。
+usageAnalytics.productivity.acusPerHourWindow	ACU / 小时（{{maWindow}} 天）
+usageAnalytics.productivity.betaBanner	这些生产力指标在 beta，可能略不全或不准。
+usageAnalytics.productivity.equivalentHours	等价生产工程小时
+usageAnalytics.productivity.equivalentHoursTip	全部生产会话的估算人类等价工程小时。
+usageAnalytics.productivity.estimatedSessions	估算会话
+usageAnalytics.productivity.estimatedSessionsWindow	估算会话（{{maWindow}} 天）
+usageAnalytics.productivity.exportFailed	导出生产力 CSV 失败。请重试。
+usageAnalytics.productivity.hours	小时
+usageAnalytics.productivity.hoursOverTime	等价生产工程小时随时间
+usageAnalytics.productivity.loadFailed	加载生产力数据失败。请稍后再试。
+usageAnalytics.productivity.maWindow	移动平均窗口
+usageAnalytics.productivity.methodology	在<lnk>这</lnk>读更多我们方法论。
+usageAnalytics.productivity.methodologyAria	在这读更多 AI 生产力方法论
+usageAnalytics.productivity.minSessionsHint	生产力面板要所选范围至少 {{min}} 个会话才显结果。试加宽日期范围。
+usageAnalytics.productivity.minSessionsHintOrg	生产力面板要所选范围至少 {{min}} 个会话才显结果。试加宽日期范围或选全部组织。
+usageAnalytics.productivity.notEnoughData	数据不足显不了
+usageAnalytics.productivity.productiveAcus	生产 ACU
+usageAnalytics.productivity.productiveAcusTip	估算会话 ACU 中花在生产会话的份额。
+usageAnalytics.productivity.productiveSessions	生产会话
+usageAnalytics.productivity.productiveSessionsTip	估算会话中归为生产的份额。
+usageAnalytics.productivity.window30	30 天
+usageAnalytics.productivity.window7	7 天
+usageAnalytics.productivityLineChart.empty	所选时间范围无数据
+usageAnalytics.repositories.allRepositories	全部仓库
+usageAnalytics.repositories.devinMergeRate	Devin 合并率
+usageAnalytics.repositories.devinPrShare	Devin PR 占比
+usageAnalytics.repositories.devinPrsValue	Devin PR：{{value}}
+usageAnalytics.repositories.devinReviewRate	Devin 审查率
+usageAnalytics.repositories.filterByRepo	按仓库筛
+usageAnalytics.repositories.metricsNote	仓库指标只含全量 PR 数据收集开始后创建的拉取请求。
+usageAnalytics.repositories.metricsNoteDate	仓库指标只含 {{effectiveStartDate}}（全量 PR 数据收集开始）后创建的拉取请求。
+usageAnalytics.repositories.noData	所选期无仓库数据。
+usageAnalytics.repositories.noOrgBreakdown	仓库指标不按组织细分。
+usageAnalytics.repositories.overallMergeRate	总合并率
+usageAnalytics.repositories.prRatio	Devin PR 比
+usageAnalytics.repositories.prRatioByWeek	按周 Devin PR 比
+usageAnalytics.repositories.prRatioValue	Devin PR 比：{{value}}%
+usageAnalytics.repositories.repository	仓库
+usageAnalytics.repositories.totalPrsValue	总 PR：{{value}}
+usageAnalytics.repositoriesExport.devinMergeRate	Devin 合并率（%）
+usageAnalytics.repositoriesExport.devinPrShare	Devin PR 占比（%）
+usageAnalytics.repositoriesExport.devinReviewRate	Devin 审查率（%）
+usageAnalytics.repositoriesExport.overallMergeRate	总合并率（%）
+usageAnalytics.repositoriesExport.prsOpenedByDevin	Devin 开的 PR
+usageAnalytics.repositoriesExport.repository	仓库
+usageAnalytics.review.acuPerReview	每次分析 ACU
+usageAnalytics.review.bugsCaughtTip	PR 合并前已解决的 bug
+usageAnalytics.review.dollarsPerReview	每次分析费用
+usageAnalytics.review.groupedByDay	按起日分组的分析运行
+usageAnalytics.review.jobsOverTime	分析运行随时间
+usageAnalytics.review.jobsRan	已跑 job
+usageAnalytics.review.mergeTimeReduction	合并时间缩短
+usageAnalytics.review.mergeTimeTip	用 Devin Review 比不用平均合并时间的缩短百分比
+usageAnalytics.review.mergeTimeTipDate	用 Devin Review 比不用平均合并时间的缩短百分比。只含 {{date}}（PR 追踪开始）后合并的 PR。
+usageAnalytics.review.metricsFrom	指标只从 {{date}} 起有。
+usageAnalytics.review.noOrgBreakdown	指标不按组织细分。
+usageAnalytics.review.perPr	{{perPrValue}} / PR
+usageAnalytics.review.title	Devin Review
+usageAnalytics.tableControls.valueMode	以计数或百分比显值
+usageAnalytics.timeGrouping.ariaLabel	时间分组
+usageAnalytics.timeGrouping.daily	每天
+usageAnalytics.timeGrouping.placeholder	选分组
+usageAnalytics.timeGrouping.unavailable	此时间分组对此日期范围不可用
+usageAnalytics.timeGrouping.weekly	每周
+usageAnalytics.usageTable.counts	计数
+usageAnalytics.usageTable.export	导出
+usageAnalytics.usageTable.noData	无数据
+usageAnalytics.usageTable.noDataForRange	所选时间范围无数据
+usageAnalytics.usageTable.percentages	百分比
+usageAnalytics.usageTable.toggleBreakdown	切用量细分
+usageAnalytics.usageTable.viewOrgAnalytics	点此看此组织分析
+userGroups.access.canConfigure	可编辑
+userGroups.access.canConfigureDescription	能重命名组、加删成员、删它
+userGroups.access.canShare	可共享
+userGroups.access.canShareDescription	能管谁有此组访问权
+userGroups.access.canView	可看
+userGroups.access.canViewDescription	能见组和其成员
+userGroups.access.configureVerb	编辑
+userGroups.access.inheritedDescription	从角色或组继承的访问
+userGroups.access.member	成员
+userGroups.access.memberDescription	在组里：能见它和成员
+userGroups.access.removeSelfError	你移除不了自己访问
+userGroups.access.searchPlaceholder	搜用户或组

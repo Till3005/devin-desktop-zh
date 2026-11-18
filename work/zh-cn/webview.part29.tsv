@@ -1,0 +1,340 @@
+codeScan.bulkScanLaunchedTitle_one	批量扫描已启动：{{count}} 个仓库
+codeScan.bulkScanLaunchedTitle_other	批量扫描已启动：{{count}} 个仓库
+codeScan.bulkScanRepositories	已扫描仓库
+codeScan.bulkScanShowMore	显示更多（{{total}} 中 {{shown}} 个）
+codeScan.bulkSelectWholeSeverity	全选 {{severity}}，或先滚动加载完它的其余部分
+codeScan.bulkSelectionCapped	已选 {{count}} 项（上限 {{max}}）
+codeScan.bulkSelectionMax	一次最多操作 {{max}} 个发现项。请收窄选择。
+codeScan.bulkStatusDismissed_one	已忽略 {{count}} 个发现项
+codeScan.bulkStatusDismissed_other	已忽略 {{count}} 个发现项
+codeScan.bulkStatusFailed	更新发现项失败
+codeScan.bulkStatusReopened_one	已重开 {{count}} 个发现项
+codeScan.bulkStatusReopened_other	已重开 {{count}} 个发现项
+codeScan.bulkStatusReviewed_one	已把 {{count}} 个发现项标为已审查
+codeScan.bulkStatusReviewed_other	已把 {{count}} 个发现项标为已审查
+codeScan.bulkStatusUpdated_one	已更新 {{count}} 个发现项
+codeScan.bulkStatusUpdated_other	已更新 {{count}} 个发现项
+codeScan.bulkUndismiss	取消忽略
+codeScan.buyMoreCredits	购买更多额度
+codeScan.cancel	取消
+codeScan.cancelled	已取消
+codeScan.category	类别
+codeScan.chained	链式
+codeScan.chainedTooltip	一串相互放大影响的相关发现项的一部分
+codeScan.changeMachine	更换机器
+codeScan.changeMachineDescription	作用于之后的扫描运行
+codeScan.changeProfile	更换档案
+codeScan.changeProfileDescription	作用于之后的扫描运行
+codeScan.chooseFilesOrDragAndDrop	选择文件或拖放
+codeScan.chooseProfileModeSubtitle	选择要创建的档案类型。
+codeScan.chooseScanTypeSubtitle	选择要运行的扫描类型。
+codeScan.clearFilters	清除筛选
+codeScan.closeSearch	关闭搜索
+codeScan.closedPRs_one	{{count}} 个已关闭 PR
+codeScan.closedPRs_other	{{count}} 个已关闭 PR
+codeScan.closedPrs	已关闭 PR
+codeScan.codeOwners	代码负责人
+codeScan.codeOwnersCount_one	{{count}} 个代码负责人
+codeScan.codeOwnersCount_other	{{count}} 个代码负责人
+codeScan.commit	提交
+codeScan.commitPlaceholder	提交 SHA
+codeScan.commitShaInvalid	请输入 7 到 64 位十六进制字符的提交 SHA
+codeScan.communicationDescription	扫描完成后对最终发现项采取行动，如通知代码负责人或干系人
+codeScan.communicationPlaceholder	关于哪些发现项通知谁、如何通知的指令，如在 Slack 上 @ 代码负责人并附严重发现项和修复指引…
+codeScan.communicationTitle	沟通
+codeScan.completed	已完成
+codeScan.complianceFrameworkLabel	框架
+codeScan.complianceFrameworkNamePlaceholder	标准名，如 NIST 800-53
+codeScan.complianceFrameworkSlugPlaceholder	标识名，如 nist-800-53
+codeScan.complianceNameLabel	名称
+codeScan.complianceScopeDescription	此档案评估的体系及其条目来源的标准。共用同一体系标识名的档案在「合规」页汇总为一个体系，按框架分组。
+codeScan.complianceScopeTitle	体系与框架
+codeScan.complianceSlugInvalid	标识名使用小写字母、数字和连字符，最多 {{max}} 个字符。
+codeScan.complianceSlugLabel	标识名
+codeScan.complianceSlugRequired	设置名称时标识名为必填项。
+codeScan.complianceSystemEmptyHint	不设体系时，此档案在「合规」页显示为独立体系。
+codeScan.complianceSystemLabel	体系
+codeScan.complianceSystemNamePlaceholder	体系名，如支付网关
+codeScan.complianceSystemSlugPlaceholder	标识名，如 payments-gateway
+codeScan.complianceSystemSlugReserved	「{{slug}}」是合规页面名，体系不能用它作标识名。
+codeScan.confidence	置信度
+codeScan.confirmDeleteMultiRepoSchedule	删除全部 {{count}} 个仓库的扫描计划？
+codeScan.confirmDeleteSchedule	删除 {{repo}} 的扫描计划？
+codeScan.connectionSkillDescription	导入和分诊此连接发现项的指令。
+codeScan.copyFindingLink	复制发现项链接
+codeScan.copyFindingMarkdown	复制为 Markdown
+codeScan.copyScanLink	复制扫描链接
+codeScan.coverageEvidence	已找到证据
+codeScan.coverageFindings_one	{{count}} 个发现项
+codeScan.coverageFindings_other	{{count}} 个发现项
+codeScan.coverageNoneLinked	无关联
+codeScan.coverageSummary	{{total}} 条准则中 {{linked}} 条有发现项或证据
+codeScan.coverageTitle	覆盖度
+codeScan.createAProfile	创建一个档案
+codeScan.createAutomation	创建自动化
+codeScan.createManually	手动创建
+codeScan.createManuallyDescription	填写自定义提示词、文件模式和修复指引。
+codeScan.createProfile	创建档案
+codeScan.createProfileDescription	创建档案以自定义扫描分析代码的方式。
+codeScan.createProfileSubtitle	按你的需求和组织偏好自定义扫描
+codeScan.createScan	创建扫描
+codeScan.createdByYou	由你创建
+codeScan.criteriaAdd	添加准则
+codeScan.criteriaCount_one	{{count}} 条准则
+codeScan.criteriaCount_other	{{count}} 条准则
+codeScan.criteriaDescription	此档案评估的需求条目。发现项按精确 ID 关联回准则，未评估的准则会在结果中列出。留空则只依赖自由形式指引。
+codeScan.criteriaDuplicateId	重复 ID——每条准则需要唯一 ID。
+codeScan.criteriaEmpty	还没有条目。Devin 会从下方指引推断需求。添加准则可强制发现项使用精确 ID 并获得逐准则覆盖度。
+codeScan.criteriaIdLabel	ID
+codeScan.criteriaIdPlaceholder	ID（如 nist:ac-2(3)）
+codeScan.criteriaIdRequired	ID 为必填项
+codeScan.criteriaIdWhitespace	ID 不能含空格。
+codeScan.criteriaNoMatches	没有匹配你搜索的准则
+codeScan.criteriaRemove	移除准则
+codeScan.criteriaSearchPlaceholder	搜索准则…
+codeScan.criteriaTextLabel	需求
+codeScan.criteriaTextPlaceholder	需求文本
+codeScan.criteriaTextRequired	需求文本为必填项
+codeScan.criteriaTitle	准则
+codeScan.criteriaTitleLabel	标题
+codeScan.criteriaTitlePlaceholder	标题
+codeScan.criterion	准则
+codeScan.critical	严重
+codeScan.criticalFindings	严重发现项
+codeScan.criticalShort	严
+codeScan.customPrompts	自定义提示词
+codeScan.daybreak	专用安全模型
+codeScan.daybreakDescription	用专用安全模型运行扫描。
+codeScan.daybreakTooltip	专用安全模型会增加扫描成本。
+codeScan.deleteSchedule	删除计划
+codeScan.deleteScheduleDescription	此计划将不再启动扫描。已有扫描和发现项不受影响。
+codeScan.describeScanModelChanges	描述你想改扫描模型的什么
+codeScan.devinImage	Devin 镜像
+codeScan.devinImageDescription	扫描运行的 Devin 镜像；留空用当前发行版。
+codeScan.devinImagePlaceholder	devin-image:<tag>
+codeScan.devinScanning	Devin 正在扫描你的代码。扫描时长取决于仓库大小。发现项会陆续显示在这里。
+codeScan.discard	放弃
+codeScan.discardChangesTitle	放弃未保存的更改？
+codeScan.discoverProfileDescription	扫描分析你的代码以发现新问题。
+codeScan.discoverProfileTitle	发现型档案
+codeScan.dismiss	忽略
+codeScan.dismissFindingTitle	忽略发现项
+codeScan.dismissFindingsDescription	此备注作用于每个所选发现项
+codeScan.dismissFindingsTitle_one	忽略 {{count}} 个发现项
+codeScan.dismissFindingsTitle_other	忽略 {{count}} 个发现项
+codeScan.dismissalNote	忽略备注
+codeScan.dismissalReason	忽略原因
+codeScan.dismissalReasonAcceptedRisk	已接受风险
+codeScan.dismissalReasonDuplicate	重复
+codeScan.dismissalReasonFalsePositive	误报
+codeScan.dismissalReasonLabel	原因
+codeScan.dismissalReasonMitigated	已缓解
+codeScan.dismissalReasonNotActionable	不可执行
+codeScan.dismissalReasonOther	其他
+codeScan.download	下载
+codeScan.downloadFile	下载 {{name}}
+codeScan.edit	编辑
+codeScan.editProfile	编辑档案
+codeScan.editProfilePrompt	帮我编辑 ID 为 {{id}} 的代码扫描档案。
+codeScan.editWithDevin	让 Devin 改进
+codeScan.elapsed	已用时
+codeScan.emptyDismissedDescription	你忽略的发现项移到这里，不再出现在打开列表。
+codeScan.emptyDismissedTitle	没有已忽略的发现项
+codeScan.emptyOpenActiveDescription	Devin 确认的新发现项会出现在这里。
+codeScan.emptyOpenDescription	此扫描的每个发现项都已审查或忽略。
+codeScan.emptyOpenTitle	没有打开的发现项
+codeScan.emptyReviewedDescription	标记为已审查的发现项移到这里。
+codeScan.emptyReviewedTitle	还没有已审查的发现项
+codeScan.emptyScanDescription	Devin 在此扫描中没有发现要报告的问题。
+codeScan.enterprise	企业
+codeScan.enterpriseManagedProfile	这是企业管理的档案
+codeScan.excludeGlobs	排除模式
+codeScan.exploitStrategy	漏洞利用策略（实验性）
+codeScan.exploitStrategyDescription	在沙箱中对检出的目标尝试可复现的漏洞利用。
+codeScan.exportAsCsv	导出为 CSV
+codeScan.exportAsSarif	导出为 SARIF
+codeScan.exportSelectedAsCsv	导出所选为 CSV
+codeScan.exportingFindings	正在导出发现项…
+codeScan.failedToArchiveProfile	归档档案失败
+codeScan.failedToArchiveScan	归档扫描失败
+codeScan.failedToChangeMachine	更新机器失败
+codeScan.failedToChangeProfile	更新档案失败
+codeScan.failedToCopyFindingLink	复制发现项链接失败
+codeScan.failedToCopyFindingMarkdown	复制发现项失败
+codeScan.failedToCopyScanLink	复制扫描链接失败
+codeScan.failedToCreateAutoScan	创建自动扫描计划失败
+codeScan.failedToCreateProfile	创建档案失败
+codeScan.failedToDismiss	忽略发现项失败
+codeScan.failedToExportFindings	导出发现项失败
+codeScan.failedToKillScan	终止扫描失败
+codeScan.failedToLoadAutomations	加载自动化失败
+codeScan.failedToLoadChart	加载图表失败
+codeScan.failedToLoadFinding	无法加载此发现项
+codeScan.failedToLoadFindings	加载发现项失败
+codeScan.failedToLoadFindingsDescription	我们这边出错了。请稍后再试。
+codeScan.failedToLoadProfiles	加载档案失败
+codeScan.failedToLoadScan	无法加载此扫描
+codeScan.failedToLoadScanHistory	加载扫描历史失败
+codeScan.failedToLoadScanModel	无法加载扫描模型
+codeScan.failedToLoadScans	加载扫描失败
+codeScan.failedToPauseScan	暂停扫描失败
+codeScan.failedToPreviewRepos	预览仓库失败
+codeScan.failedToRecoverScan	恢复扫描失败
+codeScan.failedToRemoveAutoScan	移除自动扫描计划失败
+codeScan.failedToReopen	重开发现项失败
+codeScan.failedToResumeScan	恢复扫描失败
+codeScan.failedToSendResponse	发送回复失败
+codeScan.failedToStartScan	启动扫描失败
+codeScan.failedToStartScans	启动扫描失败
+codeScan.failedToStartSession	启动 Devin 会话失败。请重试。
+codeScan.failedToSubmitFeedback	提交反馈失败
+codeScan.failedToUnarchiveScan	取消归档扫描失败
+codeScan.failedToUpload	上传 {{name}} 失败
+codeScan.feedback	反馈
+codeScan.feedbackSubmitted	反馈已提交
+codeScan.file	文件
+codeScan.filterAll	全部
+codeScan.filterArchived	已归档
+codeScan.filterAwaitingInput	等待输入
+codeScan.filterByStage	按阶段筛选
+codeScan.filterByStatusAndPrState	按状态和 PR 状态筛选
+codeScan.filterCompleted	已完成
+codeScan.filterFailed	失败
+codeScan.filterFixReady	可修复
+codeScan.filterModeDiscover	发现型
+codeScan.filterModeIngest	导入型
+codeScan.filterPlaceholder	按仓库名筛选…
+codeScan.filterPrClosed	已关闭
+codeScan.filterPrMerged	已合并
+codeScan.filterPrNoPr	无 PR
+codeScan.filterPrOpen	打开
+codeScan.filterPrState	PR 状态
+codeScan.filterProfileEnterprise	企业
+codeScan.filterProfileMode	模式
+codeScan.filterProfileOrganization	组织
+codeScan.filterProfileType	类型
+codeScan.filterProfiles	筛选档案
+codeScan.filterQueued	排队中
+codeScan.filterRunning	运行中
+codeScan.filterScansByStatusAndPrState	按状态和 PR 状态筛选扫描
+codeScan.filterStatus	状态
+codeScan.filterWorking	工作中
+codeScan.finding	发现项
+codeScan.findingActions	发现项操作
+codeScan.findingAutomations	自动化
+codeScan.findingAutomationsDescription	对扫描报告的新发现项自动采取行动。
+codeScan.findingCrumb	发现项 {{id}}
+codeScan.findingLinkCopied	发现项链接已复制
+codeScan.findingMarkdownCopied	发现项已复制为 Markdown
+codeScan.findingNotFound	未找到发现项
+codeScan.findingNotFoundDescription	检查链接，或切换到它所属的组织
+codeScan.findingScanRun	扫描运行
+codeScan.findingScanRunIncremental	增量扫描
+codeScan.findingScanRunInitial	初始扫描
+codeScan.findingSource	来源
+codeScan.findingSourceConnections	连接
+codeScan.findingSourcePrScanning	PR 扫描
+codeScan.findingSourceScans	扫描
+codeScan.findingSyncedFrom	同步自 {{source}}
+codeScan.findingTags.add	添加标签
+codeScan.findingTags.create	创建「{{label}}」
+codeScan.findingTags.empty	无标签
+codeScan.findingTags.failed	无法更新标签
+codeScan.findingTags.groupsGroup	分组
+codeScan.findingTags.kindValue	{{kind}}：{{label}}
+codeScan.findingTags.label	标签
+codeScan.findingTags.labelsGroup	标签
+codeScan.findingTags.noMatches	未找到标签
+codeScan.findingTags.remove	移除标签 {{label}}
+codeScan.findingTags.search	搜索或创建标签
+codeScan.finding_one	{{count}} 个发现项
+codeScan.finding_other	{{count}} 个发现项
+codeScan.findings	发现项
+codeScan.findingsExported	发现项已导出
+codeScan.fixAcrossScansDescription	这些发现项来自 {{scans}} 个扫描。Devin 会为每个扫描各开一个会话。
+codeScan.fixAcrossScansTitle	用 Devin 修复 {{findings}} 个发现项？
+codeScan.fixSkillDescription	从安全插件中挑一个技能给此修复遵循，或不带技能开始。
+codeScan.fixWithDevin	让 Devin 修复
+codeScan.fixedActionModel	固定执行模型
+codeScan.fixedActionModelDescription	只用所选执行模型，不回退。
+codeScan.foundInPrNumber	由拉取请求 #{{prNumber}} 引入
+codeScan.freqDay	天
+codeScan.freqHour	小时
+codeScan.freqMonth	月
+codeScan.freqWeek	周
+codeScan.friday	星期五
+codeScan.generateProfilePrompt	帮我生成一个新的代码扫描档案。
+codeScan.generateProfilePromptWithType	帮我创建一个 {{scanType}} 扫描档案。
+codeScan.generateWithDevin	让 Devin 生成
+codeScan.generateWithDevinDescription	用 Devin 生成最贴合你需求的档案。
+codeScan.generateWithDevinScanDescription	向 Devin 描述你想扫什么
+codeScan.globInvalid	从 {{glob}} 中移除引号或其他不支持的字符
+codeScan.globPlaceholder	如 src/**/*.ts
+codeScan.globs	通配模式
+codeScan.heading	安全
+codeScan.headlessMode	无头模式
+codeScan.headlessModeDescription	构建威胁模型并运行扫描，不问后续问题。
+codeScan.hideFindingsPanel	隐藏发现项面板
+codeScan.hideFromSidebar	从侧栏隐藏
+codeScan.high	高
+codeScan.highShort	高
+codeScan.howToProceed	你想怎么继续？
+codeScan.importLaunchedTitle	导入已启动：{{title}}
+codeScan.importRunningDescription	Devin 从来源导入的发现项会显示在这里。
+codeScan.importingTitle	Devin 正在导入发现项
+codeScan.inProgress	进行中
+codeScan.includeGlobs	包含模式
+codeScan.incorporatingFeedback	Devin 正在把你的反馈并入此扫描档案。
+codeScan.ingestProfileDescription	扫描从你的工具或报告导入已有发现项。
+codeScan.ingestProfileTitle	导入型档案
+codeScan.ingestionSourceDescription	你的已有发现项在哪里，以及 Devin 应如何拉取。
+codeScan.ingestionSourcePlaceholder	如：通过 REST API 拉取 GitHub code scanning 的开放告警，或读取提交在 reports/semgrep.json 的 Semgrep 报告…
+codeScan.ingestionSourceTitle	导入来源
+codeScan.interactiveUnavailableForCyber	安全增强扫描不支持交互模式。
+codeScan.introducedIn	何时引入
+codeScan.introducedInPr	引入于
+codeScan.investigationGuidanceHint	Devin 如何排查和分诊发现项
+codeScan.investigationGuidanceLabel	排查指引
+codeScan.investigationGuidancePlaceholder	关于 Devin 应如何排查和分诊发现项的指令…
+codeScan.keepEditing	继续编辑
+codeScan.keepSchedule	保留计划
+codeScan.killScan	终止扫描
+codeScan.killScanDescription	Devin 立即停止工作，扫描被取消并归档。此操作无法撤销。
+codeScan.killScanSubscriberDescription	你是此扫描最后一位订阅者。终止它会归档此会话并取消扫描。你也可以只把它从侧栏隐藏，让扫描继续跑。
+codeScan.killScanTitle	终止此扫描？
+codeScan.lastCommit	最近提交
+codeScan.lastNDays	最近 {{count}} 天
+codeScan.lastScan	最近扫描
+codeScan.lastScanDidNotRun	上次扫描未运行
+codeScan.lastScanned	最近扫描时间
+codeScan.latestScanFailed	最近一次扫描失败
+codeScan.launchedDevinOpenFromTable	从每行的 Devin 链接打开各会话。
+codeScan.launchedDevinPartly	已在 {{total}} 个发现项中的 {{launched}} 个上启动 Devin
+codeScan.launchedDevinPartlyDescription_one	Devin 没有在 {{count}} 个发现项上启动，它保持选中供你重试：{{reason}}
+codeScan.launchedDevinPartlyDescription_other	Devin 没有在 {{count}} 个发现项上启动，它们保持选中供你重试：{{reason}}
+codeScan.launchedDevin_one	已在 {{count}} 个发现项上启动 Devin
+codeScan.launchedDevin_other	已在 {{count}} 个发现项上启动 Devin
+codeScan.legacyScanSheetEffortDescription	设置排查的代码库彻底程度
+codeScan.legacyScanSheetProfileDescription	自定义发现项类型和模式
+codeScan.legacyScanSheetRepositoryDescription	选择要扫描的仓库
+codeScan.legacyScanSheetSubmitButton	扫描
+codeScan.legacyScanSheetTitle	开始一次扫描
+codeScan.link	链接
+codeScan.liveScanSessions	扫描活动
+codeScan.loadingProfiles	正在加载档案…
+codeScan.loadingRepos	正在加载仓库…
+codeScan.looksGoodStartScanning	没问题，开始扫描
+codeScan.low	低
+codeScan.lowShort	低
+codeScan.machine	机器
+codeScan.machineChanged	机器已更新
+codeScan.machineHosted	托管机器
+codeScan.machineOrgDefault	组织默认
+codeScan.machineOutpost	Outpost
+codeScan.machineOutposts	Outpost
+codeScan.machineTooltip	此扫描的会话在哪里运行：托管机器或你的 Outpost 池。保持组织默认则用默认会话机器
+codeScan.machineTooltipDetail	此扫描在 {{machine}} 上运行
+codeScan.manageProfiles	管理档案
+codeScan.manual	手动
+codeScan.maxAttachments	最多可附 {{count}} 个文件
+codeScan.maxRepos	最多可添加 {{count}} 个仓库

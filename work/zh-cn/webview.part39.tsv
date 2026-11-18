@@ -1,0 +1,223 @@
+enterpriseNetworking.perforceReadOnly	只读：更改需要账户设置管理员授权。
+enterpriseNetworking.perforceSidecarNotApplicable	p4proxy 边车：不适用（共享租户）
+enterpriseNetworking.perforceSidecarStatus_one	p4proxy 边车：{{count}} 个专属租户中 {{on}} 个已开
+enterpriseNetworking.perforceSidecarStatus_other	p4proxy 边车：{{count}} 个专属租户中 {{on}} 个已开
+enterpriseNetworking.perforceStateDisabled	已禁用
+enterpriseNetworking.perforceStateEnabled	已启用
+enterpriseNetworking.perforceStateLabel	此企业的 Perforce：
+enterpriseNetworking.perforceStateMixed	部分启用
+enterpriseNetworking.perforceSwitchAriaLabel	为此企业启用 Perforce
+enterpriseNetworking.perforceTitle	Perforce
+enterpriseNetworking.perforceTurnOff	全部关闭
+enterpriseNetworking.perforceUpdateFailed	Perforce 更新失败：{{error}}
+enterpriseNetworking.readOnly	只读
+enterpriseUpsell.bookDemo	预约演示
+enterpriseUpsell.integrationCta	联系我们的团队升级你的组织。
+enterpriseUpsell.integrationDescription	{{integration}} 包含在企业方案中。
+enterpriseUpsell.seatCapCta	升级到企业版，席位不限量。
+enterpriseUpsell.seatCapDescription_one	你的方案限 {{count}} 个成员。
+enterpriseUpsell.seatCapDescription_other	你的方案限 {{count}} 个成员。
+enterpriseUpsell.seatCapTitle	已达成员上限
+enterpriseUpsell.seatCapTooltip	升级到企业版，席位不限量
+enterpriseUpsell.title	升级以连接 {{integration}}
+environmentPicker.availableRepositoriesMinimum	{{count, number}}+ 个可用
+environmentPicker.availableRepositories_one	{{count, number}} 个可用
+environmentPicker.availableRepositories_other	{{count, number}} 个可用
+environmentPicker.cloned	已克隆
+environmentPicker.clonedRepositories_one	已克隆 {{count, number}} 个
+environmentPicker.clonedRepositories_other	已克隆 {{count, number}} 个
+environmentPicker.configureAccess	在设置中配置访问
+environmentPicker.host	主机
+environmentPicker.hostAvailability	主机可用性由所选环境配置
+environmentPicker.hostAvailabilityInSettings	主机可用性由所选环境<settingsLink>在设置中</settingsLink>配置
+environmentPicker.loadMoreRepositories	加载更多仓库
+environmentPicker.noRepositories	没有预克隆仓库
+environmentPicker.organization	组织
+environmentPicker.repositories	仓库
+environmentPicker.repositoriesFailed	无法加载仓库
+environmentPicker.repositorySummary	{{cloned}}（{{available}}）
+environmentPicker.retryRepositories	重试
+environmentPicker.searchRepositories	搜索仓库
+environmentPicker.updated	更新于 {{timeAgo}}
+environmentPicker.viewRepositories	查看环境设置
+environmentsSettings.access.canConfigure	可配置
+environmentsSettings.access.canConfigureDescription	可编辑环境及其 blueprint
+environmentsSettings.access.canShare	可共享
+environmentsSettings.access.canShareDescription	可管理谁有此环境的访问权
+environmentsSettings.access.canUse	可使用
+environmentsSettings.access.canUseTooltip	能读此环境所有仓库的人都能用它。改他们的仓库访问权即可更改。
+environmentsSettings.access.configureVerb	配置
+environmentsSettings.access.description	需要能访问此环境所有仓库的人才能看到并使用它。
+environmentsSettings.access.descriptionCanShare	需要能访问此环境所有仓库的人才能看到并使用它。你可以在此给别人配置或共享权限。
+environmentsSettings.access.emailColumn	邮箱
+environmentsSettings.access.emptyDescription	没有用户能读此环境全部仓库。移除一个仓库或授予其访问权。
+environmentsSettings.access.inheritedDescription	从角色或组继承的访问权
+environmentsSettings.access.loadError	无法加载有访问权的人。
+environmentsSettings.access.removeSelfError	不能移除你自己的访问权
+environmentsSettings.access.repoAccessCount_one	{{count}} 个用户可使用此环境
+environmentsSettings.access.repoAccessCount_other	{{count}} 个用户可使用此环境
+environmentsSettings.access.repoAccessDescription	能读此环境所有仓库的人都能用它
+environmentsSettings.access.repoAccessMatchCount_one	{{count}} 个匹配用户
+environmentsSettings.access.repoAccessMatchCount_other	{{count}} 个匹配用户
+environmentsSettings.access.repoAccessTitle	有仓库访问权的用户
+environmentsSettings.access.searchPlaceholder	搜索用户
+environmentsSettings.access.serviceUser	服务用户
+environmentsSettings.access.shareSearchPlaceholder	搜索用户或组
+environmentsSettings.access.shareVerb	共享
+environmentsSettings.access.showMore	显示更多
+environmentsSettings.access.tab	访问
+environmentsSettings.access.title	访问
+environmentsSettings.access.userColumn	用户
+environmentsSettings.accessChange.addConfirm	仍然添加
+environmentsSettings.accessChange.addDescription	不能读你正在添加的仓库的用户将失去此环境的访问权。
+environmentsSettings.accessChange.addFailed	添加仓库失败。请重试。
+environmentsSettings.accessChange.addFailedCount_one	添加 {{count}} 个仓库失败
+environmentsSettings.accessChange.addFailedCount_other	添加 {{count}} 个仓库失败
+environmentsSettings.accessChange.addPartialFailed	已添加 {{totalCount}} 个中的 {{addedCount}} 个。{{failedCount}} 个失败。
+environmentsSettings.accessChange.addTitle	部分用户将失去访问权
+environmentsSettings.accessChange.gains_one	{{count}} 个用户将获得此环境访问权
+environmentsSettings.accessChange.gains_other	{{count}} 个用户将获得此环境访问权
+environmentsSettings.accessChange.loses_one	{{count}} 个用户将失去此环境访问权
+environmentsSettings.accessChange.loses_other	{{count}} 个用户将失去此环境访问权
+environmentsSettings.accessChange.previewFailed	无法检查受影响的人。请重试。
+environmentsSettings.accessChange.removeConfirm	移除
+environmentsSettings.accessChange.removeDescription	此仓库不再在新会话中预克隆。将开始环境重建，可能需要几分钟。随时可重新启用。
+environmentsSettings.accessChange.removeDescriptionWithBlueprints_one	这会从新的 Devin 会话移除 {{repository}} 及其 Blueprint。将开始环境重建，可能需要几分钟。随时可重新启用。
+environmentsSettings.accessChange.removeDescriptionWithBlueprints_other	这会从新的 Devin 会话移除 {{repository}} 及全部 {{count}} 个 Blueprint。将开始环境重建，可能需要几分钟。随时可重新启用。
+environmentsSettings.accessChange.removeFromEnvironment	从环境移除
+environmentsSettings.accessChange.removeFromEnvironmentFailed	从环境移除失败
+environmentsSettings.accessChange.removeTitle	从环境移除？
+environmentsSettings.accessChange.removedFromEnvironment	已从环境移除
+environmentsSettings.accessChange.removing	正在移除…
+environmentsSettings.addReposPermissionRequired	需要此环境的配置权限才能添加仓库。
+environmentsSettings.cancel	取消
+environmentsSettings.copyId	复制环境 ID
+environmentsSettings.create	新环境
+environmentsSettings.createDescription	给环境起名。仓库可选，可稍后添加
+environmentsSettings.createFailed	创建环境失败
+environmentsSettings.createNameRequired	输入名称以创建环境
+environmentsSettings.createTitle	创建环境
+environmentsSettings.createWithRepos_one	带 {{count}} 个仓库创建
+environmentsSettings.createWithRepos_other	带 {{count}} 个仓库创建
+environmentsSettings.created	环境已创建
+environmentsSettings.createdAgo	创建于 {{timeAgo}}
+environmentsSettings.createdByAgo	{{name}} 创建于 {{timeAgo}}
+environmentsSettings.createdByColumn	创建者
+environmentsSettings.createdColumn	创建时间
+environmentsSettings.defaultNoReposDescription	Default 环境不带仓库运行，人人都能用。建新环境来配置仓库。
+environmentsSettings.defaultNoReposTitle	无仓库
+environmentsSettings.delete	删除
+environmentsSettings.deleteBlueprintDescription	这会触发此环境的重建。
+environmentsSettings.deleteDescription	删除 {{name}}？其 blueprint、构建历史和快照将对新会话不再可用。此操作无法撤销。
+environmentsSettings.deleteFailed	删除环境失败
+environmentsSettings.deleteTitle	删除环境
+environmentsSettings.deleted	环境已删除
+environmentsSettings.description	拥有自己 blueprint、构建和快照的独立环境。会话可在任何你有权访问的环境上启动。
+environmentsSettings.emptyDescription	创建一个环境来定义它的 blueprint 并为会话构建快照。
+environmentsSettings.emptyDescriptionNoCreate	当你有权访问其全部仓库时，环境会显示在这里。让 Devin 管理员为你常用的仓库建一个。
+environmentsSettings.emptyLinkGitAccount	你的<connectionsLink>个人连接</connectionsLink>中没有关联 Git 提供商。如果你的仓库访问来自该提供商，关联后这里可能就有权限了。
+environmentsSettings.emptyTitle	还没有环境
+environmentsSettings.environment	环境
+environmentsSettings.environmentBlueprint	环境 blueprint
+environmentsSettings.environmentBlueprintDescription	作用于此环境上所有会话、在仓库级设置之前运行的命令。
+environmentsSettings.environmentBlueprintNotSet	未设置。添加一个以在此环境所有仓库间共享设置。
+environmentsSettings.environmentId	环境 ID
+environmentsSettings.environmentIdDescription	在 API 和审计日志中标识此环境
+environmentsSettings.idCopied	环境 ID 已复制
+environmentsSettings.loadError	无法加载环境。
+environmentsSettings.name	名称
+environmentsSettings.nameColumn	名称
+environmentsSettings.namePlaceholder	如：支付 monorepo
+environmentsSettings.noSearchResults	没有匹配你搜索的环境。
+environmentsSettings.rename	重命名
+environmentsSettings.renameDescription	为此环境选一个新名字
+environmentsSettings.renameFailed	重命名环境失败
+environmentsSettings.renameTitle	重命名环境
+environmentsSettings.renamed	环境已重命名
+environmentsSettings.repoAccess.askAdmin	如果你预期的仓库缺失，问 Devin 管理员它是否已连到 Devin 以及你是否有权限。
+environmentsSettings.repoAccess.check	查它为什么缺失
+environmentsSettings.repoAccess.checkAgain	再查一次
+environmentsSettings.repoAccess.checkFailed	无法检查此仓库。请重试。
+environmentsSettings.repoAccess.github.hostFailed	无法搜索此主机。请重试，或重新关联你的 GitHub 账户。
+environmentsSettings.repoAccess.github.howToConnect	让仓库管理员或组织所有者把它加到 Devin GitHub App 安装中。
+environmentsSettings.repoAccess.github.identityNotLinked	因为你的 GitHub 账户未关联，Devin 无法匹配你的 GitHub 访问。<connectionsLink>在连接中关联它</connectionsLink>，然后再查。
+environmentsSettings.repoAccess.github.noMatches	没有你和 Devin GitHub App 都能读的匹配仓库。如果你的仓库缺失，让仓库管理员或组织所有者把它加到 Devin GitHub App 安装中。
+environmentsSettings.repoAccess.github.notCovered	此仓库未连到 Devin。让仓库管理员或组织所有者把它加到 Devin GitHub App 安装中。
+environmentsSettings.repoAccess.github.notFound	GitHub 在此路径未找到你的关联账户和 Devin GitHub App 都能读的仓库。检查路径。如果仓库存在，让仓库管理员或组织所有者授予访问并把它加到 Devin GitHub App 安装中。
+environmentsSettings.repoAccess.github.openMembers	打开仓库访问设置
+environmentsSettings.repoAccess.github.pendingSync	你在 GitHub 有此仓库的访问权，但 Devin 还没有。几分钟后重查；如无变化，问 Devin 管理员。
+environmentsSettings.repoAccess.github.providerRoleTooLow	你在 GitHub 上此仓库的角色不含代码权限。让仓库管理员授予读权限。
+environmentsSettings.repoAccess.gitlab.hostFailed	无法搜索此主机。请重试，或重新关联你的 GitLab 账户。
+environmentsSettings.repoAccess.gitlab.howToConnect	让项目维护者把它加到 Devin。
+environmentsSettings.repoAccess.gitlab.identityNotLinked	因为你的 GitLab 账户未关联，Devin 无法匹配你的 GitLab 访问。<connectionsLink>在连接中关联它</connectionsLink>，然后再查。
+environmentsSettings.repoAccess.gitlab.noMatches	没有你角色为 Reporter 及以上的匹配项目。
+environmentsSettings.repoAccess.gitlab.notCovered	此仓库未连到 Devin。让项目维护者把它加到 Devin。
+environmentsSettings.repoAccess.gitlab.notFound	GitLab 在此路径未找到你的关联账户能访问的仓库。检查路径。如果仓库存在，让项目维护者授予访问。
+environmentsSettings.repoAccess.gitlab.openMembers	打开项目成员
+environmentsSettings.repoAccess.gitlab.pendingSync	你在 GitLab 有此仓库的访问权，但 Devin 还没有。
+environmentsSettings.repoAccess.gitlab.providerRoleTooLow	你在 GitLab 上此项目的角色太低。让项目维护者授予至少 Reporter 角色。
+environmentsSettings.repoAccess.hostNotConnected	Devin 没有到 {{host}} 的连接。让 Devin 管理员连接它。
+environmentsSettings.repoAccess.linkAccount	关联 {{provider}} 账户后，你在 {{host}} 上可访问的仓库会列出。<connectionsLink>关联你的 {{provider}} 账户</connectionsLink>。
+environmentsSettings.repoAccess.ok	你有此仓库的访问权。它可能已在此环境；否则按名搜索。
+environmentsSettings.repoAccess.pageDescription	如果你用的仓库没列在这里，输入它的完整路径看为什么不能在 Devin 中用。
+environmentsSettings.repoAccess.pageOk	你在 Devin 中有此仓库的访问权。当你有权访问某环境全部仓库时，含它的环境会列在「环境」页。
+environmentsSettings.repoAccess.pageTitle	检查仓库访问
+environmentsSettings.repoAccess.pathHint	要看仓库为什么缺失，输入它的完整路径，如 github.com/owner/repo 或 gitlab.com/group/project。
+environmentsSettings.repoAccess.providerNotSupported	此检查只覆盖 GitLab 和 GitHub 仓库。其他 Git 提供商请找 Devin 管理员。
+environmentsSettings.repoAccess.search.button	搜索我的仓库
+environmentsSettings.repoAccess.search.failed	无法搜索。请重试。
+environmentsSettings.repoAccess.search.hasMore_one	显示首个匹配。多输几个字缩小范围。
+environmentsSettings.repoAccess.search.hasMore_other	显示前 {{count}} 个匹配。多输几个字缩小范围。
+environmentsSettings.repoAccess.search.hostNotLinked	未搜索：你在此主机的 {{provider}} 账户未关联。<connectionsLink>在连接中关联它</connectionsLink>。
+environmentsSettings.repoAccess.search.howToConnectNoSync	让 Devin 管理员把它加到 Devin。
+environmentsSettings.repoAccess.search.matchConnected	已连到 Devin。如果选不了，让 Devin 管理员授予访问。
+environmentsSettings.repoAccess.search.matchNotCovered	未连到 Devin
+environmentsSettings.repoAccess.search.matchOk	在 Devin 中可用
+environmentsSettings.repoAccess.search.matchPendingSync	你的访问还没同步到 Devin
+environmentsSettings.repoAccess.search.noSearchableHosts	Devin 没有可搜索的 GitLab 或 GitHub 连接。
+environmentsSettings.repoAccess.search.orPathHint	或输入它的完整路径，如 github.com/owner/repo。
+environmentsSettings.repoAccess.unknown	Devin 无法判断此仓库为何不可用。检查路径，或问 Devin 管理员。
+environmentsSettings.reposEmpty	未找到仓库
+environmentsSettings.reposLoadError	无法加载仓库。
+environmentsSettings.reposSearchPlaceholder	搜索仓库
+environmentsSettings.repositories	仓库
+environmentsSettings.repositoriesBanner	从「仓库」页把仓库加到 Devin。
+environmentsSettings.repositoriesBannerAction	前往仓库页
+environmentsSettings.repositoriesColumn	仓库
+environmentsSettings.repositoriesMissingHint	找不到仓库？从<repositoriesLink>仓库页</repositoriesLink>添加。
+environmentsSettings.retry	重试
+environmentsSettings.searchPlaceholder	搜索环境
+environmentsSettings.secrets.addDescription	仅在构建期间对此环境的 blueprint 步骤可用。快照保存前会被移除，会话中不可用。
+environmentsSettings.secrets.addRepoDescription	仅在构建期间对此仓库的 blueprint 步骤可用。快照保存前会被移除，会话中不可用。
+environmentsSettings.secrets.addTitle	添加构建机密
+environmentsSettings.secrets.hideValue	隐藏值
+environmentsSettings.secrets.showValue	显示值
+environmentsSettings.standaloneDescription	独立环境不绑定单一组织。有权访问其全部仓库的人都能用它。
+environmentsSettings.title	环境
+errorPage.accessDenied	访问被拒
+errorPage.accessDeniedDescription	你没有查看此页的权限。联系你的组织管理员申请访问。
+errorPage.featureUnavailable	功能不可用
+errorPage.featureUnavailableDescription	此功能在你的部署中不可用。
+errorPage.orgUnavailable	组织不可用
+errorPage.orgUnavailableDescription	无法打开此组织。你可能不是成员，或它不存在。
+errorPage.orgUnavailableOpenOwnCustomize	打开你组织的「自定义」页
+errorPage.orgUnavailableOpenOwnSettings	打开你组织的设置
+errorPage.reviewEnterpriseDisabled	企业管理员已禁用 Devin Review。需要访问请让企业管理员启用。
+errorPage.reviewPermissionRequired	你的角色没有 Review 设置权限。请向管理员申请。
+errorUi.chunkLoadFailed	应用的一部分加载失败。在 staging 上，部署后几秒内可能出现。刷新页面；持续发生才需要上报。
+errorUi.errorDetails	错误详情
+errorUi.errorId	错误 ID：
+errorUi.reloadPage	刷新页面
+errorUi.title	出错了
+errorUi.unexpected	我们遇到了意外错误。团队已收到通知。
+errors.botNotFoundRecovery	需要刷新吗？试试再点左侧的 {{botName}}。
+errors.goToHomepage	去首页
+errors.goToSessions	去会话页
+errors.goToStartPage	去起始页
+errors.invalidWorkspace	无效工作区
+errors.invalidWorkspaceDescription	{{host}} 不是 Devin Enterprise 工作区。检查 URL 或联系你的管理员。
+errors.logIn	登录
+errors.pageCouldNotBeFound	找不到此页面。
+errors.pageNotFound	页面不存在
+errors.retry	重试
+errors.signUp	注册

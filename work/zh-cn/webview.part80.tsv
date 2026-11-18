@@ -1,0 +1,210 @@
+settings.credentialPages.personalAccessTokens.noPersonalAccessTokensFound	找不到个人访问令牌。
+settings.credentialPages.personalAccessTokens.noPersonalAccessTokensYet	还没有个人访问令牌
+settings.credentialPages.personalAccessTokens.personalAccessTokenCreated	个人访问令牌已建
+settings.credentialPages.personalAccessTokens.personalAccessTokenRotated	个人访问令牌已轮换
+settings.credentialPages.personalAccessTokens.personalAccessTokensDisabled	个人访问令牌已禁用
+settings.credentialPages.personalAccessTokens.requestHistory	申请历史
+settings.credentialPages.personalAccessTokens.requestNameCancelled	申请「{{name}}」已取消。
+settings.credentialPages.personalAccessTokens.requestToken	申请 token
+settings.credentialPages.personalAccessTokens.retry	重试
+settings.credentialPages.personalAccessTokens.revoke	吊销
+settings.credentialPages.personalAccessTokens.revokeToken	吊销 token
+settings.credentialPages.personalAccessTokens.revoked	已吊销
+settings.credentialPages.personalAccessTokens.rotate	轮换
+settings.credentialPages.personalAccessTokens.rotateToken	轮换 token
+settings.credentialPages.personalAccessTokens.searchTokens	搜索 token
+settings.credentialPages.personalAccessTokens.seeApiDocumentationMoreExamplesDetails	更多示例和详情看 <lnk>API 文档</lnk>
+settings.credentialPages.personalAccessTokens.setEnvironmentVariable	设环境变量
+settings.credentialPages.personalAccessTokens.status	状态
+settings.credentialPages.personalAccessTokens.storeTokenSoItsAvailableScripts	存你的 token 让脚本和 CLI 工具能用
+settings.credentialPages.personalAccessTokens.theCurrentTokenApiKeyName	当前 token「{{api_key_name}}」将立刻被吊销并换新的。
+settings.credentialPages.personalAccessTokens.thePreviousTokenHasBeenRevoked	旧 token 已被吊销。复制并存好此新 token。它只显示一次。
+settings.credentialPages.personalAccessTokens.theTokenApiKeyNameWill	token「{{api_key_name}}」将被永久吊销。用它的一切系统立刻失去访问。
+settings.credentialPages.personalAccessTokens.thisTokenOnlyShownOnceCopy	此 token 只显示一次。关前复制并安全存放。
+settings.credentialPages.personalAccessTokens.thisWillPermanentlyCancelTokenRequest	这会永久取消 token 申请。需要可再提新申请。
+settings.credentialPages.personalAccessTokens.tokenActivated	Token 已激活
+settings.credentialPages.personalAccessTokens.tokenCreated	Token 已建
+settings.credentialPages.personalAccessTokens.tokenRequestSubmittedApproval	Token 申请已提交待批。
+settings.credentialPages.personalAccessTokens.tokenRequests	Token 申请
+settings.credentialPages.personalAccessTokens.tokenRevokedSuccessfully	Token 吊销成功
+settings.credentialPages.personalAccessTokens.tokenRotatedSuccessfully	Token 轮换成功
+settings.credentialPages.personalAccessTokens.trackStatusSubmittedTokenRequests	跟踪你已提交 token 申请的状态。
+settings.credentialPages.personalAccessTokens.updating	更新中…
+settings.credentialPages.personalAccessTokens.viewHistory	看历史
+settings.credentialPages.personalAccessTokens.yourEnterpriseAdministratorHasDisabledPersonal	你企业管理员已为此账户禁用个人访问令牌。
+settings.credentialPages.secrets.aEnvFileUp2mb	一个 .env 文件，至多 2MB
+settings.credentialPages.secrets.actions	操作
+settings.credentialPages.secrets.addFirstSecretGetStarted	加你第一个机密开始。
+settings.credentialPages.secrets.addMultipleFromFileOrPaste	从文件或直接粘贴加多个机密。
+settings.credentialPages.secrets.addMultipleKeyValueSecretsAt	一次加多个键值机密。<lnk>了解更多</lnk>
+settings.credentialPages.secrets.addSecret	加机密
+settings.credentialPages.secrets.addSecrets	加机密
+settings.credentialPages.secrets.addValidsecretscountValid	加 {{validSecretsCount}} 个有效
+settings.credentialPages.secrets.anErrorOccurred	出错了
+settings.credentialPages.secrets.areYouSureYouWantDelete	确定要删「{{key}}」？此操作不可撤销。
+settings.credentialPages.secrets.availableAllSessionsOrg	{{org}} 里全部会话可用。
+settings.credentialPages.secrets.availableEnterpriseWide	企业全部组织的全部会话可用。
+settings.credentialPages.secrets.availableFutureSessionsRepo	{{repo}} 的将来会话可用。
+settings.credentialPages.secrets.availableOnlyYourSessions	仅你会话可用
+settings.credentialPages.secrets.base64	base64
+settings.credentialPages.secrets.buildOnly	仅构建
+settings.credentialPages.secrets.bulkAddSecrets	批量加机密
+settings.credentialPages.secrets.canonical	规范
+settings.credentialPages.secrets.chooseFileOrDragDrop	选文件或拖放
+settings.credentialPages.secrets.cookieExpired	已过期
+settings.credentialPages.secrets.cookieExpiresInDays	{{days}} 天后过期
+settings.credentialPages.secrets.cookieFallbackName	Cookie {{number}}
+settings.credentialPages.secrets.copyKey	复制 ${{key}}
+settings.credentialPages.secrets.copyVariableName	复制变量名
+settings.credentialPages.secrets.couldntReadFile	读不了文件。上传纯文本 .env 文件
+settings.credentialPages.secrets.createSecret	建机密
+settings.credentialPages.secrets.createdAtBy	由 {{name}} 创建于 {{timeOrDate}}
+settings.credentialPages.secrets.createdBy	由 {{name}} 创建
+settings.credentialPages.secrets.createdTimeordate	创建于 {{timeOrDate}}
+settings.credentialPages.secrets.delete	删除
+settings.credentialPages.secrets.deleteSecret	删机密
+settings.credentialPages.secrets.deploymentEnv	DEPLOYMENT_ENV
+settings.credentialPages.secrets.devinCanConnectCloudServicesSecrets	Devin 能经 OIDC 连云服务和机密管理器，不存凭据。<lnk>设置 OIDC</lnk>
+settings.credentialPages.secrets.edit	编辑
+settings.credentialPages.secrets.editNote	编辑备注
+settings.credentialPages.secrets.enterValidCookieJson	请输有效 cookie JSON。
+settings.credentialPages.secrets.environmentVariable	环境变量
+settings.credentialPages.secrets.etc	，等。
+settings.credentialPages.secrets.existingValueStaysHiddenEnterNew	现有值保持隐藏。输新值替换，或留空保留
+settings.credentialPages.secrets.existingValuesStayHiddenEnterNew	现有值保持隐藏。输新值替换一个，或留空保留当前值
+settings.credentialPages.secrets.failedImportSecrets	导入机密失败
+settings.credentialPages.secrets.failedLoadSecretPleaseTryAgain	加载机密失败。请稍后重试
+settings.credentialPages.secrets.failedParseInput	解析输入失败。请确保格式正确。
+settings.credentialPages.secrets.failedUpdateNote	更新备注失败
+settings.credentialPages.secrets.failedUpdateSecret	更新机密失败
+settings.credentialPages.secrets.failedValidateSecrets	验证机密失败
+settings.credentialPages.secrets.featureNotAvailable	功能不可用
+settings.credentialPages.secrets.fieldRequired	必填
+settings.credentialPages.secrets.fileSizeMustLessThan2mb	文件大小须小于 2MB
+settings.credentialPages.secrets.fixOrRemoveInvalidEntries	修或移除无效条目
+settings.credentialPages.secrets.goodExamplesSecretNamesDescriptiveEasy	好的机密名描述性强易懂。例如，
+settings.credentialPages.secrets.importEnterpriseSecrets	导入企业机密
+settings.credentialPages.secrets.importOrganizationSecrets	导入组织机密
+settings.credentialPages.secrets.importPersonalSecrets	导入个人机密
+settings.credentialPages.secrets.importRepositorySecrets	导入仓库机密
+settings.credentialPages.secrets.invalidBase64OrCookieFormat	无效 base64 或 cookie 格式
+settings.credentialPages.secrets.invalidEnvVarName	只能字母、数字和下划线；不能数字开头
+settings.credentialPages.secrets.invalidQrCodeFormat	无效二维码格式。应为 TOTP URI 格式。
+settings.credentialPages.secrets.invalidTotpFormat	TOTP 值必须形如：otpauth://totp/ExampleUser:devin@example.com?secret=JBSWY3DPEHPK3PXP&issuer=ExampleIssuer。
+settings.credentialPages.secrets.json	JSON
+settings.credentialPages.secrets.key	Key
+settings.credentialPages.secrets.moreControls	更多控制
+settings.credentialPages.secrets.name	名称
+settings.credentialPages.secrets.nameMustBeUnique	机密名必须唯一
+settings.credentialPages.secrets.newEnterpriseSecret	新企业机密
+settings.credentialPages.secrets.newOrganizationSecret	新组织机密
+settings.credentialPages.secrets.newPersonalSecret	新个人机密
+settings.credentialPages.secrets.newRepositorySecret	新仓库机密
+settings.credentialPages.secrets.newSecret	新机密
+settings.credentialPages.secrets.noNote	无备注
+settings.credentialPages.secrets.noSecretsFound	找不到机密
+settings.credentialPages.secrets.noSecretsHaveBeenAddedYet	还没有加机密。
+settings.credentialPages.secrets.note	备注
+settings.credentialPages.secrets.noteEditingRequiresBackendUpdate	编辑备注要后端更新
+settings.credentialPages.secrets.oneKeyValuePerLineAdd	每行一个 KEY=value。同行 # 后加备注。cookie 和 TOTP 码一次加一个
+settings.credentialPages.secrets.pasteCookieJsonDirectlyOrPre	直接粘 cookie JSON，或预编码的分号分隔 JSON 对象 base64 串
+settings.credentialPages.secrets.pasteOneOrMoreCookieJson	粘一个或多个 cookie JSON 对象。我们替你编码。
+settings.credentialPages.secrets.pasteOrUploadAtLeastOne	粘或上传至少一个机密
+settings.credentialPages.secrets.pasteOtpauthTotpUriOrScan	粘 otpauth://totp/ URI，或扫其二维码
+settings.credentialPages.secrets.pastePreEncodedBase64StringSemicolon	粘预编码的分号分隔 JSON 对象 base64 串。
+settings.credentialPages.secrets.preview	预览
+settings.credentialPages.secrets.previewSecretCount_one	{{count}} 个机密
+settings.credentialPages.secrets.previewSecretCount_other	{{count}} 个机密
+settings.credentialPages.secrets.previewValidInvalid	{{valid}} 有效，{{invalid}} 无效
+settings.credentialPages.secrets.privateYouOnlyVisibleUsableBy	你私有。只你会话可见可用
+settings.credentialPages.secrets.rdsPsqlDbUrl	RDS_PSQL_DB_URL
+settings.credentialPages.secrets.redactValue	脱敏值
+settings.credentialPages.secrets.redactValues	脱敏值
+settings.credentialPages.secrets.referenceSecretDollarSign	用美元符引用机密，如 <chip>$SERVICE_USERNAME</chip>。<lnk>了解更多</lnk>
+settings.credentialPages.secrets.remove	移除
+settings.credentialPages.secrets.removeInvalid	移除无效
+settings.credentialPages.secrets.removeSecret	移除机密
+settings.credentialPages.secrets.save	保存
+settings.credentialPages.secrets.saving	保存中…
+settings.credentialPages.secrets.scanError	扫描错误
+settings.credentialPages.secrets.scanQrCode	扫二维码
+settings.credentialPages.secrets.scanTotpQrCode	扫 TOTP 二维码
+settings.credentialPages.secrets.scope	作用域
+settings.credentialPages.secrets.scopeOrganization	组织
+settings.credentialPages.secrets.scopePersonal	个人
+settings.credentialPages.secrets.searchSecrets	搜索机密
+settings.credentialPages.secrets.secretNotFound	找不到机密
+settings.credentialPages.secrets.secretUpdatedSuccessfully	机密更新成功
+settings.credentialPages.secrets.secrets	机密
+settings.credentialPages.secrets.secretsAllowYouSecurelyStoreCredentials	机密让你安全存凭据。<lnk>了解更多</lnk>
+settings.credentialPages.secrets.secretsManagerNotAvailableOrganization	此组织没有机密管理器。
+settings.credentialPages.secrets.selectSecretType	选机密类型
+settings.credentialPages.secrets.setUpTimeBasedOneTime	设基于时间的一次性密码（TOTP）做双因素认证。<lnk>看文档</lnk>
+settings.credentialPages.secrets.submissionError	提交错误
+settings.credentialPages.secrets.thereWasErrorLoadingPagePlease	加载此页出错。请稍后重试。
+settings.credentialPages.secrets.thereWasProblemSubmittingRequestSubmissionerror	提交你的申请有问题：{{submissionError}}
+settings.credentialPages.secrets.thisSecretWillNotAvailableDevin	此机密对它创建前启动的 Devin 会话不可用
+settings.credentialPages.secrets.type	类型
+settings.credentialPages.secrets.updatedAt	更新于 {{timeOrDate}}
+settings.credentialPages.secrets.updatedAt2	更新时间
+settings.credentialPages.secrets.updatedAtBy	由 {{name}} 更新于 {{timeOrDate}}
+settings.credentialPages.secrets.updatedBy	更新者
+settings.credentialPages.secrets.uploadFile	上传文件
+settings.credentialPages.secrets.useDuringEnvironmentSetupOnly	仅环境设置时用
+settings.credentialPages.secrets.useQrCodeScannerUpperRight	用输入框右上二维码扫描器扫二维码
+settings.credentialPages.secrets.value	值
+settings.credentialPages.secrets.valueKey	{{key}} 的值
+settings.credentialPages.secrets.values	值
+settings.credentialPages.secrets.viewDocumentation	看文档
+settings.credentialPages.secrets.whatSecretAboutDevinCanRead	此机密关于什么？Devin 能读备注作上下文
+settings.credentialPages.secrets.whenEnabledSecretOnlyAvailableDuring	开启后，此机密只在快照构建的企业/组织设置阶段可用。Devin 会话期间不可用。
+settings.credentialPages.secrets.youDontHavePermissionEditSecret	你没有编辑此机密的权限
+settings.currentUsageColumn	当前上限
+settings.customEmail	自定义邮箱…
+settings.customHeaders	自定义头
+settings.customHeadersDescription	每个到此服务器的请求带可选头
+settings.customerNetworkCa.addBundle	加 CA bundle
+settings.customerNetworkCa.bundleRemoved	CA bundle 已移除
+settings.customerNetworkCa.bundleUpdated	Bundle 更新于 {{date}}
+settings.customerNetworkCa.certificate	证书
+settings.customerNetworkCa.checkFailed	检查不了 bundle——你仍可试存。
+settings.customerNetworkCa.checking	检查中…
+settings.customerNetworkCa.copyFingerprint	复制完整 SHA-256 指纹
+settings.customerNetworkCa.copyFingerprintFailed	复制不了指纹
+settings.customerNetworkCa.daysLeft_one	{{date}} · {{count}} 天
+settings.customerNetworkCa.daysLeft_other	{{date}} · {{count}} 天
+settings.customerNetworkCa.description	Devin 经你私有网络隧道连 MCP 服务器时，信任你内部证书机构签的证书。公网连接从不用。
+settings.customerNetworkCa.detectedCertificates_one	检出 · {{count}} 张证书 · {{size}} KB
+settings.customerNetworkCa.detectedCertificates_other	检出 · {{count}} 张证书 · {{size}} KB
+settings.customerNetworkCa.empty	没有自定义 CA 证书
+settings.customerNetworkCa.emptyHint	出示私有 CA 证书的 MCP 服务器将过不了 TLS 验证，直到加 bundle。
+settings.customerNetworkCa.expiredOn	已过期 {{date}}——不会被信任
+settings.customerNetworkCa.expiredOnLabel	已过期 {{expiresOn}}
+settings.customerNetworkCa.expires	过期时间
+settings.customerNetworkCa.expiresOn	过期 {{date}}
+settings.customerNetworkCa.fingerprint	SHA-256 指纹
+settings.customerNetworkCa.issuedBy	签发者 {{issuer}}
+settings.customerNetworkCa.loadError	加载 CA bundle 出错
+settings.customerNetworkCa.pasteHint	粘 PEM 编码证书链，含你内部服务器出示的每张中间和根证书。
+settings.customerNetworkCa.pemBundle	PEM 证书 bundle
+settings.customerNetworkCa.pemBundleRequired	PEM bundle 为必填项
+settings.customerNetworkCa.pemRules	只接受 CERTIFICATE 块——私钥被拒。至多 64 KB。
+settings.customerNetworkCa.removeAll	全移除
+settings.customerNetworkCa.removeBundle	移除 bundle
+settings.customerNetworkCa.removeCertificates_one	全部 {{count}} 张证书将被移除。出示你私有 CA 证书的 MCP 服务器将过不了 TLS 验证，直到加新 bundle。
+settings.customerNetworkCa.removeCertificates_other	全部 {{count}} 张证书将被移除。出示你私有 CA 证书的 MCP 服务器将过不了 TLS 验证，直到加新 bundle。
+settings.customerNetworkCa.removeTitle	移除 CA bundle？
+settings.customerNetworkCa.replaceBundle	替换 bundle
+settings.customerNetworkCa.saveBundle	存 bundle
+settings.customerNetworkCa.savedCertificates_one	CA bundle 已存（{{count}} 张证书）
+settings.customerNetworkCa.savedCertificates_other	CA bundle 已存（{{count}} 张证书）
+settings.customerNetworkCa.saving	保存中…
+settings.customerNetworkCa.selfSignedRoot	自签根
+settings.customerNetworkCa.title	自定义 CA 证书
+settings.customization	自定义
+settings.customizationPage.agentPreview.alwaysOff	总是关
+settings.customizationPage.agentPreview.alwaysOffDesc	对全部组织禁用
+settings.customizationPage.agentPreview.alwaysOn	总是开
+settings.customizationPage.agentPreview.alwaysOnDesc	对全部组织启用
+settings.customizationPage.agentPreview.defaultOff	默认关
+settings.customizationPage.agentPreview.defaultOffDesc	组织可开

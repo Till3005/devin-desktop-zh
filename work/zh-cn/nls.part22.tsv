@@ -1,0 +1,127 @@
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSdkSetupNotification/agentHost.sdkSetup.noAccountDescription.agentAll	登录 {2} 以使用你的 {2} 订阅；如果你已在别处配置了 {0}，请[重新加载配置]({1})。如需其他配置 {0} 的方式，请在其文档中[了解更多]({3})。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSdkSetupNotification/agentHost.sdkSetup.noAccountDescription.agentDocs	如果你已在别处配置了 {0}，请[重新加载配置]({1})。如需其他配置 {0} 的方式，请在其文档中[了解更多]({2})。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSdkSetupNotification/agentHost.sdkSetup.noAccountDescription.agentSignIn	登录 {2} 以使用你的 {2} 订阅；如果你已在别处配置了 {0}，请[重新加载配置]({1})。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionHandler/agentHost.codexThreadInUse	{0} 然后在 VS Code 中再次发送你的消息。你的消息尚未发送。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionHandler/agentHost.openedSandboxPolicy	已在编辑器中打开沙箱策略。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionHandler/agentHost.openSandboxPolicyFailed	无法在编辑器中打开沙箱策略。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.artifactRemoved	已从会话中移除 {0}。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.artifacts.commits	提交
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.artifacts.files	文件
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.artifacts.issues	议题
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.artifacts.pullRequests	Pull Requests
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.artifacts.resources	资源
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.artifacts.websites	网站
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.browser	浏览器
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.browsers.section	浏览器
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.changes	更改
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.changesEditor	会话更改
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.copyCommit	复制 {0} 的提交哈希
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.copyCommitHash	复制提交哈希
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.copyCommitUrl	复制提交 URL
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.copyFilePath	复制路径
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.copyFileRelativePath	复制相对路径
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.copyIssue	复制议题 URL
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.copyIssueUrl	复制议题 URL
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.copyPullRequest	复制 Pull Request URL
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.copyPullRequestUrl	复制 Pull Request URL
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.copyResourceUri	复制 URI
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.copyWebsiteUrl	复制网站 URL
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.issue	议题
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.issue.number	议题 #{0}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.issue.numberWithTitle	议题 #{0}：{1}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.issues.section	议题
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.pullRequest	Pull Request
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.pullRequest.number	Pull Request #{0}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.pullRequest.numberWithTitle	Pull Request #{0}：{1}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.pullRequests.section	Pull Requests
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.referenceDescription	{0}。{1}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.referenceDescriptionWithChecks	{0}。{1}。{2}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.removeArtifact	从会话中移除附件 {0}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.removeArtifactFailed	无法从此会话移除 {0}：{1}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.removeArtifactUnavailable	此会话不支持移除引用。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionInputPills/agentHostSessionPills.removeReference	从会话中移除引用 {0}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/chatTerminalOutputTextModelContentProvider/chatTerminalOutputUnavailable	终端输出不可用：{0}
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/stateToProgressAdapter/agentHost.byokToolLimitExceeded.configureTools	配置工具
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/stateToProgressAdapter/agentHost.mcpServer.origin	{0}（MCP 服务器）
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/stateToProgressAdapter/agentHost.workspaceTransition.folder	工作区已更改。此会话现在直接在 {0} 中工作。
+vs/workbench/contrib/chat/browser/agentSessions/agentHost/stateToProgressAdapter/agentHost.workspaceTransition.worktree	工作区已更改。此会话现在使用隔离 worktree 在 {0} 中工作。
+vs/workbench/contrib/chat/browser/agentSessions/agentSessionsBanner/agentsBanner.signIn	登录 GitHub
+vs/workbench/contrib/chat/browser/agentSessions/agentSessionsViewer/agentSessionChatItemAriaLabel	{0}，会话 {1} 中的聊天（{2}）
+vs/workbench/contrib/chat/browser/agentSessions/agentSessionsViewer/agentSessionChatItemAriaLabelWithoutStatus	{0}，会话 {1} 中的聊天
+vs/workbench/contrib/chat/browser/agentSessions/agentSessionsViewer/agentSessionParentItemAriaLabel	{0} 会话 {1}，{2} 个同级聊天（{3}），创建于 {4}
+vs/workbench/contrib/chat/browser/agentSessions/agentSessionsViewer/agentSessionParentItemAriaLabel.singular	{0} 会话 {1}，1 个同级聊天（{2}），创建于 {3}
+vs/workbench/contrib/chat/browser/agentSessions/copilotHarnessIntroduction/copilotHarnessAgentDescription	跨窗口和应用继续你的会话，无需改变工作方式。[告诉我们]({0})你的体验。
+vs/workbench/contrib/chat/browser/agentSessions/copilotHarnessIntroduction/copilotHarnessAgentTitle	你正在使用新的 Copilot agent
+vs/workbench/contrib/chat/browser/agentSessions/copilotHarnessIntroduction/copilotHarnessCapabilitiesDescription	这个 agent harness 为你熟悉的工作方式带来了新能力。如有任何异常，请[告诉我们]({0})。
+vs/workbench/contrib/chat/browser/agentSessions/copilotHarnessIntroduction/copilotHarnessDescription	这个 agent harness 开启了跨窗口和应用的新工作方式。照常使用即可，并[告诉我们]({0})你的体验。
+vs/workbench/contrib/chat/browser/agentSessions/copilotHarnessIntroduction/copilotHarnessOriginalDescription	这个新实现解锁了令人兴奋的新能力，旧的 agent harness 仍可使用。如有任何异常，请[告诉我们]({0})。
+vs/workbench/contrib/chat/browser/agentSessions/copilotHarnessIntroduction/copilotHarnessTitle	你正在使用新的 Copilot 体验
+vs/workbench/contrib/chat/browser/agentSessions/copilotHarnessIntroduction/gotIt	{0} 知道了！
+vs/workbench/contrib/chat/browser/agentSessions/copilotHarnessIntroduction/gotItAriaLabel	知道了！
+vs/workbench/contrib/chat/browser/agentSessions/copilotHarnessIntroduction/learnMore	了解更多
+vs/workbench/contrib/chat/browser/agentSessions/copilotHarnessIntroduction/unhelpful	没帮助
+vs/workbench/contrib/chat/browser/agentSessions/copilotHarnessIntroduction/unhelpfulTooltip	没帮助
+vs/workbench/contrib/chat/browser/agentSessions/externalSessionsFilterMenu/agentSessions.filter.external.selected	{0}（{1}）
+vs/workbench/contrib/chat/browser/agentSessions/repositoryPicker/repositoryPicker.clone	从 URL 克隆
+vs/workbench/contrib/chat/browser/agentSessions/repositoryPicker/repositoryPicker.loadFailed	无法加载仓库。请检查 GitHub 登录和连接，然后重试搜索。
+vs/workbench/contrib/chat/browser/agentSessions/repositoryPicker/repositoryPicker.search	搜索仓库…
+vs/workbench/contrib/chat/browser/agentSessions/repositoryPicker/repositoryPicker.searchOrUrl	搜索仓库或粘贴仓库 URL…
+vs/workbench/contrib/chat/browser/agentSessions/sessionSummaryHover/sessionSummaryHover.sessionSummary	会话摘要
+vs/workbench/contrib/chat/browser/agentSessionsConfiguration/autoDeleteMarkedAsDoneMergedSessions.description	控制带已合并 PR 的 agent 会话在被自动标为完成后、被永久删除前的天数。保留的符合条件的 worktree 会在删除前安全移除。自动标完由 {0} 单独控制。设为 0 禁用永久删除。推荐值为 15。
+vs/workbench/contrib/chat/browser/agentSessionsConfiguration/autoMarkAsDoneMergedSessions.description	控制带已合并 PR 的 agent 会话在不活跃多少天后被自动标为完成。标为完成会安全移除其符合条件的 worktree。永久删除由 {0} 单独控制。设为 0 禁用自动标完。推荐值为 15。
+vs/workbench/contrib/chat/browser/agentSessionsConfiguration/chat.agentsHandoffTip.delaySeconds	控制在最新用户消息后多少秒提供在 Agents 窗口中继续进行中会话的提示。需要 `#chat.agentsHandoffTip.mode#` 为 `default` 或 `custom`。
+vs/workbench/contrib/chat/browser/agentSessionsConfiguration/chat.agentsParallelWorkBanner.enabled	当另一个 Agent Host 会话正在运行时，启动新的 Agent Host 聊天时显示在 Agents 窗口中并行工作的邀请。
+vs/workbench/contrib/chat/browser/agentSessionsConfiguration/chat.copilotHarnessIntroduction.afterRequest	在新的 Copilot harness 会话中提交首次请求后显示介绍。
+vs/workbench/contrib/chat/browser/agentSessionsConfiguration/chat.copilotHarnessIntroduction.mode	控制何时显示新 Copilot 体验的介绍。
+vs/workbench/contrib/chat/browser/agentSessionsConfiguration/chat.copilotHarnessIntroduction.newSession	在新的 Copilot harness 会话开始时显示介绍。
+vs/workbench/contrib/chat/browser/agentSessionsConfiguration/chat.copilotHarnessIntroduction.off	不显示 Copilot harness 介绍。
+vs/workbench/contrib/chat/browser/agentSessionsConfiguration/chat.harnessSwitchFeedbackSurvey.enabled	从 Copilot 切换到 Local 后显示一次性的反馈问卷。
+vs/workbench/contrib/chat/browser/agentSessionsConfiguration/chat.openInAgentsWindow.transferDraft	打开 Agents 窗口时复制新聊天中的提示词和附件。Agents 窗口中已有的草稿保留。
+vs/workbench/contrib/chat/browser/agentSessionsConfiguration/sessions.chat.unifiedWorkspacePicker.enabled	控制 Agents 窗口是否使用统一工作区选择器：合并 GitHub 和远程工作区、提供搜索，并在支持时允许创建无工作区的会话。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationColors/mcpCompatibilityWarningForeground	MCP 服务器兼容性警告的前景色。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.accessibleAllSources	来源：全部来源
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.accessibleBrowse	浏览模式。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.accessibleSearch	搜索：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.accessibleSource	来源：{0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.addCustomization	添加自定义项 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.addCustomizationLabel	添加自定义项
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.addMcp	添加 MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.addPlugin	添加插件
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.agent	Agent
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.allSources	全部来源
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.availableAriaLabel	{0}，{1}，来源 {2}。{3}。{4}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.cancelConnectorOperationLabel	取消连接 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.cancelConnectorRepairLabel	取消重新连接 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.catalogDisabled	搜索你已安装的自定义项，或启用市场来源以浏览可用项目。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.checking	正在检查安装
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.checkingProgress	正在检查…
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.clearSearch	清除自定义项搜索结果
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.configureMarketplaces	配置市场
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorCancel	取消
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorChecking	正在检查连接
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorCheckingProgress	正在检查…
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorConnect	连接
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorConnectCancelled	已取消 {0} 的连接。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorConnectComplete	已连接 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorConnected	已连接
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorConnectFailed	无法连接 {0}。{1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorConnectStarted	正在连接 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorDisconnect	断开连接
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorDisconnectCancelled	已取消断开 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorDisconnectComplete	已断开 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorDisconnected	已断开
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorDisconnectFailed	无法断开 {0}。{1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorDisconnecting	正在断开
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorDisconnectingProgress	正在断开…
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorDisconnectStarted	正在断开 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorReconnect	重新连接
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorReconnectCancelled	已取消重新连接 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorReconnectComplete	已重新连接 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorReconnectFailed	无法重新连接 {0}。{1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorReconnecting	正在重新连接
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorReconnectStarted	正在重新连接 {0}。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorRetry	重试
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.connectorVerificationFailed	无法验证连接
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.description	探索扩展 agent 的新方式：[[插件]]、[[MCP 服务器]]、[[Skills]]、[[Instructions]]、[[Agents]] 和 [[Hooks]]。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.disabled	已禁用
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationDiscoveryPage/customizationDiscovery.disabledAriaLabel	，已禁用

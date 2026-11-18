@@ -1,0 +1,160 @@
+transcript.computerMiddleClickedAt	中键点在 {{coordinate}}
+transcript.computerMouseButtonDown	鼠标按下
+transcript.computerMouseButtonUp	鼠标抬起
+transcript.computerMovedMouse	鼠标移到 {{coordinate}}
+transcript.computerPressedKey	按了键：{{key}}
+transcript.computerQueriedUi	查了 UI
+transcript.computerQueriedUiFor	查 UI 找 {{filter}}
+transcript.computerReadPageDom	读了页面 DOM
+transcript.computerRightClicked	右键点了
+transcript.computerRightClickedAt	右键点在 {{coordinate}}
+transcript.computerScrolled	{{direction}}滚
+transcript.computerScrolledBy	{{direction}}滚了 {{amount}}
+transcript.computerTookScreenshot	截了屏
+transcript.computerTripleClicked	三击了
+transcript.computerTripleClickedAt	三击在 {{coordinate}}
+transcript.computerTypedText	打了字
+transcript.computerUsePermissionAllApps	允许 Devin 读全部应用、看整个屏、用鼠标键盘？
+transcript.computerViewedConsole	看了控制台
+transcript.computerWaited	等了
+transcript.computerWaitedFor	等了 {{duration}} 秒
+transcript.computerZoomedRegion	放大了区域
+transcript.confirmRevert	确认
+transcript.confirmRevertTitle	确认还原
+transcript.copied	已复制
+transcript.copiedLink	已复制链接
+transcript.copiedMessage	已复制消息
+transcript.copy	复制
+transcript.copyAppUrl	复制 URL
+transcript.copyBranchName	复制分支名
+transcript.copyLink	复制链接
+transcript.copyPrContext	复制 Devin 工作和此 PR 的上下文以交接给另一 agent
+transcript.createResponder	建响应器
+transcript.createSlackChannel	建 Slack 频道
+transcript.createdFile	已建 {{filename}}
+transcript.creatingFile	建 {{filename}} 中
+transcript.creatingSessions_one	建会话中…
+transcript.creatingSessions_other	建会话中…
+transcript.dayDivider.dateAtTime	{{date}} {{time}}
+transcript.dayDivider.today	今天 {{time}}
+transcript.dayDivider.yesterday	昨天 {{time}}
+transcript.decline	拒绝
+transcript.deepwikiQuestion	问：{{question}}
+transcript.defaultPrDestination	默认
+transcript.deleteResponder	删响应器
+transcript.deletedFile	已删 {{filename}}
+transcript.deny	拒绝
+transcript.describeChangeToCommand	描述命令更改
+transcript.devin	Devin
+transcript.devinChoseToStop	Devin 选择停工
+transcript.devinFixingIssuesFromReview	Devin 在修 Devin Review 发现项
+transcript.devinReview	Devin Review
+transcript.devinReviewFeedback	Devin Review 反馈
+transcript.devinReviewFeedbackWithCounts	Devin Review 反馈（{{counts}}）
+transcript.devinReviewFindingsIgnored	Devin Review 发现项已忽略
+transcript.devinReviewFoundFindings	Devin Review 发现 {{findings, list(type: unit)}}
+transcript.devinReviewFoundIssuesFixOrEnable	Devin Review 发现了发现项。为此 PR 修它们，或为全部 Devin PR 开自动修复。
+transcript.devinReviewPlusFeedback	Devin Review + {{names}} 反馈
+transcript.devinSession	Devin 会话
+transcript.devinTookOverThisPr	接管了 PR
+transcript.dismiss	忽略
+transcript.dismissSuggestionFailed	忽略建议失败。
+transcript.dismissedSuggestions_one	已忽略 {{count}} 个建议
+transcript.dismissedSuggestions_other	已忽略 {{count}} 个建议
+transcript.doneEditingCommand	完成
+transcript.duplicateFailed	复制失败：{{reason}}
+transcript.durationHours	{{hours}}小时
+transcript.durationMinutes	{{minutes}}分
+transcript.durationMinutesSeconds	{{minutes}}分{{seconds}}秒
+transcript.durationSeconds	{{seconds}}秒
+transcript.editCommand	编辑命令
+transcript.editMessage	编辑消息
+transcript.edited	已编辑
+transcript.editedFile	已编辑 {{filename}}
+transcript.editedFiles	已编辑文件
+transcript.editing	编辑中
+transcript.editingFile	编辑 {{filename}} 中
+transcript.editingFiles	编辑文件中
+transcript.editorContextAroundCursor	光标附近文本（第 {{from}}–{{to}} 行）
+transcript.editorContextBranchAhead	本地提交没推（远端旧）
+transcript.editorContextBranchBehind	远端有更新提交
+transcript.editorContextBranchDiffers	远端在不同修订
+transcript.editorContextBranchDiverged	与远端分叉
+transcript.editorContextBranchInSync	与远端同步
+transcript.editorContextBranchLabel	分支
+transcript.editorContextBranchNoUpstream	还没推远端
+transcript.editorContextBufferVersion	版本 {{version}}
+transcript.editorContextFileLabel	文件
+transcript.editorContextHide	藏编辑器上下文
+transcript.editorContextKnows	Devin 有你编辑器的上下文
+transcript.editorContextKnowsFile	Devin 知道你开着 {{file}}
+transcript.editorContextLine	第 {{from}} 行
+transcript.editorContextLines	第 {{from}}–{{to}} 行
+transcript.editorContextLinesSelected_one	已选 {{count}} 行
+transcript.editorContextLinesSelected_other	已选 {{count}} 行
+transcript.editorContextMoreFiles	+{{count}} 个
+transcript.editorContextOpenFilesLabel	打开的文件
+transcript.editorContextRepoLabel	仓库
+transcript.editorContextRoots	{{count}} 个根
+transcript.editorContextSelectedText	所选文本（第 {{from}}–{{to}} 行）
+transcript.editorContextTitle	来自你编辑器的上下文
+transcript.editorContextTruncated	已截断
+transcript.editorContextUncommitted_one	{{count}} 个文件有未提交更改
+transcript.editorContextUncommitted_other	{{count}} 个文件有未提交更改
+transcript.editorContextUnsaved	未保存编辑
+transcript.editorContextWorkspaceLabel	工作区
+transcript.edits	编辑
+transcript.enableAutoFix	开自动修复
+transcript.enableAutoFixFailed	开自动修复失败。
+transcript.enableAutoFixForAllPrs	为全部 PR 开自动修复
+transcript.enabling	开中…
+transcript.enteredTestMode	进了测试模式
+transcript.enteredTestModeWithCitation	进了测试模式——
+transcript.expandCard	展开
+transcript.explore.grepped	Grep 了 {{query}}
+transcript.explore.greppedInRepo	在 {{repoName}} grep 了 {{query}}
+transcript.explore.listed	列了 {{path}}
+transcript.explore.listedInRepo	在 {{repoName}} 列了 {{path}}
+transcript.explore.listedRecentCommits	列了 {{query}} 的最近提交
+transcript.explore.listedRecentCommitsInRepo	在 {{repoName}} 列了 {{query}} 的最近提交
+transcript.explore.matchedFiles	匹配文件 {{query}}
+transcript.explore.matchedFilesInRepo	在 {{repoName}} 匹配文件 {{query}}
+transcript.explore.read	读了 {{filename}}
+transcript.explore.readWiki	读了 wiki {{query}}
+transcript.explore.readWikiInRepo	在 {{repoName}} 读了 wiki {{query}}
+transcript.explore.searchedAcrossRepos	跨仓库搜了 {{query}}
+transcript.explore.searchedInRepo	在 {{repoName}} 搜了 {{query}}
+transcript.explore.searchedRepos	搜了仓库
+transcript.explore.searchedReposFor	搜仓库找 {{query}}
+transcript.explore.searchingAcrossRepos	跨仓库搜 {{query}} 中
+transcript.explore.searchingInRepo	在 {{repoName}} 搜 {{query}} 中
+transcript.explore.viewedBlame	看了 {{filename}} 的 blame
+transcript.explore.viewedBlameInRepo	在 {{repoName}} 看了 {{filename}} 的 blame
+transcript.explore.viewedCommit	看了提交 {{query}}
+transcript.explore.viewedCommitInRepo	在 {{repoName}} 看了提交 {{query}}
+transcript.explore.viewedPr	看了 PR {{query}}
+transcript.explore.viewedPrInRepo	在 {{repoName}} 看了 PR {{query}}
+transcript.exploredRepo	探了仓库
+transcript.fastContext	快速上下文
+transcript.fastContextDuration	{{seconds}} 秒内
+transcript.fastContextNoResults	找不到相关上下文
+transcript.feedbackFailed	提交反馈失败
+transcript.feedbackIgnoredTooltip	此反馈已忽略。
+transcript.fetchedWebPagesCount	取了网页内容（{{count}} 页）
+transcript.fetchedWebPagesCount_one	取了网页内容（{{count}} 页）
+transcript.fetchedWebPagesCount_other	取了网页内容（{{count}} 页）
+transcript.fetchingWebPage	取 {{url}} 中
+transcript.fileDeleted	已删
+transcript.fileUploadDisabled	文件上传已禁
+transcript.fileUploadFailed	上传 {{fileName}} 失败
+transcript.findingsBugs_one	{{count}} 个 bug
+transcript.findingsBugs_other	{{count}} 个 bug
+transcript.findingsCodeQuality_one	{{count}} 个代码质量问题
+transcript.findingsCodeQuality_other	{{count}} 个代码质量问题
+transcript.findingsFindings_one	{{count}} 个发现项
+transcript.findingsFindings_other	{{count}} 个发现项
+transcript.findingsFlags_one	{{count}} 个标记
+transcript.findingsFlags_other	{{count}} 个标记
+transcript.findingsNotes_one	{{count}} 条注意
+transcript.findingsNotes_other	{{count}} 条注意
+transcript.findingsSecurity_one	{{count}} 个安全发现项

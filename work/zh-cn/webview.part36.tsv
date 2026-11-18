@@ -1,0 +1,340 @@
+ds.feedback.goodResponse	好的回复
+ds.feedback.sessionDescription	对此会话给反馈，帮助改进 Devin。
+ds.feedback.submitting	正在提交…
+ds.feedback.tellUsMore	多说几句，帮我们改进以后的回复。
+ds.loadingMore	正在加载更多…
+ds.markdown.completedTask	已完成任务
+ds.markdown.incompleteTask	未完成任务
+ds.markdown.sortBy	按{{label}}排序
+ds.markdown.sortColumn	按{{column}}列排序
+ds.mentionCategories.conversations	对话
+ds.mentionCategories.devinSessions	Devin 会话
+ds.mentionCategories.directories	目录
+ds.mentionCategories.files	文件
+ds.mentionCategories.macros	宏
+ds.mentionCategories.people	人员
+ds.mentionCategories.playbooks	Playbook
+ds.mentionCategories.plugins	插件
+ds.mentionCategories.repositories	仓库
+ds.mentionCategories.secrets	机密
+ds.mentionCategories.skills	技能
+ds.mentionCategories.workItems	工作项
+ds.menuLoadingMore	正在加载更多…
+ds.networkPolicy.accessibleDomains	可访问域名
+ds.networkPolicy.addDomain	添加域名
+ds.networkPolicy.blocked	已阻止
+ds.networkPolicy.blockedTooltip	不在管理安全档案允许范围内——会话将无法访问它
+ds.networkPolicy.copyAll	复制全部域名
+ds.networkPolicy.copyFailed	复制失败
+ds.networkPolicy.duplicate	重复
+ds.networkPolicy.duplicateTooltip	此重复项将在保存时移除
+ds.networkPolicy.entryPlaceholder	域名、IPv4 或 IPv6（如 *.github.com）
+ds.networkPolicy.newEntry	新
+ds.networkPolicy.noMatches	没有匹配你搜索的域名
+ds.networkPolicy.removeEntry	移除条目
+ds.networkPolicy.removeValue	移除 {{value}}
+ds.networkPolicy.searchPlaceholder	搜索域名
+ds.noResultsFound	未找到结果。
+ds.pagination.goToNext	去下一页
+ds.pagination.goToPrevious	去上一页
+ds.pagination.label	分页
+ds.pagination.morePages	更多页
+ds.pagination.next	下一页
+ds.pagination.previous	上一页
+ds.plan.accepted	计划已接受
+ds.plan.downloadMd	下载为 .md
+ds.plan.downloadPlanMd	下载计划为 .md
+ds.plan.edit	编辑
+ds.plan.editedByYou	你编辑过
+ds.plan.generating	正在生成计划
+ds.plan.generatingSuffix	· 生成中
+ds.plan.implement	实施计划
+ds.plan.implementTooltip	这会创建一个新的子会话实施计划
+ds.plan.implemented	已实施
+ds.plan.moreImplementOptions	更多实施方式
+ds.plan.olderVersionWarning	你即将实施第 {{version}} 版。最新是第 {{latest}} 版。
+ds.plan.outdated	已过期
+ds.plan.preview	预览
+ds.plan.selectVersion	选择计划版本
+ds.plan.spawnToImplement	派生 Devin 来实施
+ds.plan.spawnToImplementVersion	派生 Devin 来实施第 {{version}} 版
+ds.plan.splitIntoSessions	把计划拆成多个会话
+ds.plan.switchToAutoConfirm	切换到自动确认
+ds.plan.viewLatestVersion	查看最新版本
+ds.plan.viewPlan	查看计划
+ds.prCard.closed	已关闭 PR
+ds.prCard.deletedShelf	已删除搁置
+ds.prCard.draft	草稿 PR
+ds.prCard.merged	已合并 PR
+ds.prCard.open	打开 PR
+ds.prCard.queued	排队 PR
+ds.prCard.shelvedChangelist	已搁置变更列表
+ds.prCard.submittedChangelist	已提交变更列表
+ds.quoting.actions	引用操作
+ds.quoting.addCaption	加说明
+ds.quoting.addToChat	加到聊天
+ds.quoting.captionPlaceholder	写条说明…
+ds.quoting.captionTitle	引用说明
+ds.quoting.moreOptions	更多引用选项
+ds.quoting.resumeCaption	恢复说明
+ds.quoting.save	保存
+ds.quoting.sendImmediately	立即发送
+ds.quoting.sourceChanged	引用后来源已变化
+ds.quoting.startTyping	开始输入…
+ds.secrets.actions	操作
+ds.secrets.chooseFile	选择文件或拖放
+ds.secrets.errorOnLine	{{error}}（第 {{line}} 行）
+ds.secrets.existingSessionSecrets	已有会话机密（{{count}}）
+ds.secrets.formatComments	用 # 字符写行内注释，说明每个机密怎么用最好。
+ds.secrets.formatKeys	键只能含字母、数字和下划线，不能以数字开头。
+ds.secrets.formatOnePerLine	文件每行一个机密，格式为 Key=Value。
+ds.secrets.formatPaste	可在下方粘贴文件验证格式。cookie 或 TOTP 码请另行添加。
+ds.secrets.importError	导入错误
+ds.secrets.importFailed	导入机密失败
+ds.secrets.key	键
+ds.secrets.maxSize	（最大 2MB）
+ds.secrets.name	名称
+ds.secrets.noValidSecrets	没有可导入的有效机密
+ds.secrets.notRedacted	未遮蔽
+ds.secrets.note	备注
+ds.secrets.noteDescription	给 Devin 的上下文
+ds.secrets.parseFailed	解析输入失败。请确保格式正确。
+ds.secrets.pastePlaceholder	API_KEY=your-api-key-here # 此 API Key 用于 GitHub\nDATABASE_URL=postgresql://user:pass@localhost:5432/db # us-west-2 的 RDS\nENVIRONMENT=production
+ds.secrets.pasteSecrets	粘贴机密
+ds.secrets.readFailed	读取文件失败。请确保是有效的文本文件。
+ds.secrets.redacted	已遮蔽
+ds.secrets.removeAllInvalid	移除全部无效项
+ds.secrets.removeSecret	移除机密
+ds.secrets.sensitive	敏感
+ds.secrets.sensitiveDescription	标为敏感的机密在界面中被遮蔽
+ds.secrets.sensitiveTooltip	开启后机密值在 Devin 输出中被遮蔽
+ds.secrets.sent	已发送
+ds.secrets.store	存储
+ds.secrets.storeValid_one	存储 {{count}} 个有效项
+ds.secrets.storeValid_other	存储 {{count}} 个有效项
+ds.secrets.storing	正在存储…
+ds.secrets.submissionPreview	提交预览
+ds.secrets.uploadFile	上传文件
+ds.secrets.value	值
+ds.selectedCount_one	已选 {{count}} 项
+ds.selectedCount_other	已选 {{count}} 项
+ds.sessionList.collapseChildren	折叠子级
+ds.sessionList.expandChildren	展开子级
+ds.sheet.resize	调整面板大小
+ds.spaceHeader.moreActions	更多操作
+ds.spaceHeader.pin	置顶
+ds.spaceHeader.pinToSidebar	置顶到侧栏
+ds.spaceHeader.unpin	取消置顶
+ds.spaceHeader.viewSessionInsights	查看会话分析
+ds.table.resizeColumn	调整列宽
+ds.tabs.agents	Agent
+ds.tabs.browser	浏览器
+ds.tabs.citations	引用
+ds.tabs.closeTab	关闭标签页
+ds.tabs.codeFiles	代码文件
+ds.tabs.commands	命令
+ds.tabs.diff	差异
+ds.tabs.noResults	无结果
+ds.tabs.progress	进度
+ds.tabs.search	搜索
+ds.tabs.tasks	任务
+ds.terminal.scrollToBottom	滚到底部
+ds.transcript.and	和
+ds.transcript.contentsNotLoaded	内容未在此渲染器中加载
+ds.transcript.devinsComputer	Devin 的电脑
+ds.transcript.enterprise	企业
+ds.transcript.localMachine	本机
+ds.transcript.openSideChat	打开侧聊
+ds.transcript.or	或
+ds.transcript.progressPercent	进度：{{percent}}%
+ds.transcript.seconds	{{seconds}} 秒
+ds.transcript.sideChat	侧聊
+ds.viz.barList	条形列表
+ds.viz.creditLimit	额度上限
+ds.viz.currentlyUsed	当前已用
+ds.viz.down	下降
+ds.viz.forecastedUsage	预测用量
+ds.viz.heatmap	热力图
+ds.viz.heatmapLegend	热力图强度图例
+ds.viz.less	更少
+ds.viz.more	更多
+ds.viz.segments	分段
+ds.viz.up	上升
+ds.workingWords.actualizing	正在变现
+ds.workingWords.aligning	正在对齐
+ds.workingWords.analyzing	正在分析
+ds.workingWords.annealing	正在退火
+ds.workingWords.architecting	正在架构
+ds.workingWords.assembling	正在组装
+ds.workingWords.calibrating	正在校准
+ds.workingWords.cerebrating	正在动脑
+ds.workingWords.cogitating	正在沉思
+ds.workingWords.conjecturing	正在推测
+ds.workingWords.connectingTheDots	正在串点
+ds.workingWords.constructing	正在构建
+ds.workingWords.cooking	正在烹调
+ds.workingWords.descendingTheGradient	正在梯度下降
+ds.workingWords.deviningTheFuture	正在预见未来
+ds.workingWords.draftingBlueprints	正在起草蓝图
+ds.workingWords.eigenvectoring	正在特征向量
+ds.workingWords.exploring	正在探索
+ds.workingWords.gearingUp	正在上档
+ds.workingWords.increasingTorque	正在加扭矩
+ds.workingWords.investigating	正在排查
+ds.workingWords.lockingIn	正在锁定
+ds.workingWords.navigating	正在导航
+ds.workingWords.orthogonalizing	正在正交化
+ds.workingWords.pondering	正在思考
+ds.workingWords.quantizing	正在量化
+ds.workingWords.rebalancingTheTree	正在平衡树
+ds.workingWords.recombobulating	正在重整
+ds.workingWords.reticulatingSplines	正在编织样条
+ds.workingWords.revvingUp	正在轰油门
+ds.workingWords.shapeRotating	正在转形状
+ds.workingWords.shiftingGears	正在换挡
+ds.workingWords.solving	正在求解
+ds.workingWords.strategizing	正在谋略
+ds.workingWords.thinking	正在思考
+ds.workingWords.tighteningTheBolts	正在拧螺栓
+ds.workingWords.tinkering	正在捣鼓
+ds.workingWords.triangulating	正在三角定位
+ds.workingWords.turningTheCogs	正在转齿轮
+editorBreadcrumbs.empty	无条目
+editorBreadcrumbs.filterPlaceholder	转到文件或文件夹…
+editorBreadcrumbs.loading	加载中…
+embeddedSurface.back	后退
+embeddedSurface.forward	前进
+enterprise.approvalQueue.approve	批准
+enterprise.approvalQueue.approveBody	批准 {{user}} 的令牌申请「{{name}}」？申请人将收到通知。
+enterprise.approvalQueue.approveFailed	批准「{{name}}」失败。
+enterprise.approvalQueue.approveTitle	批准申请
+enterprise.approvalQueue.approved	已批准「{{name}}」。
+enterprise.approvalQueue.approving	正在批准…
+enterprise.approvalQueue.columnRequester	申请人
+enterprise.approvalQueue.columnStatus	状态
+enterprise.approvalQueue.denied	已拒绝「{{name}}」。
+enterprise.approvalQueue.deny	拒绝
+enterprise.approvalQueue.denyBody	拒绝 {{user}} 的令牌申请「{{name}}」？申请人将收到通知。
+enterprise.approvalQueue.denyFailed	拒绝「{{name}}」失败。
+enterprise.approvalQueue.denyTitle	拒绝申请
+enterprise.approvalQueue.denying	正在拒绝…
+enterprise.approvalQueue.filterStatus	按状态筛选批准申请
+enterprise.approvalQueue.noRequests	未找到申请。
+enterprise.approvalQueue.noteLabel	备注
+enterprise.approvalQueue.reasonLabel	原因
+enterprise.approvalQueue.requestedExpiration	申请的过期时间
+enterprise.approvalQueue.searchPlaceholder	按名称或申请人搜索
+enterprise.approvalQueue.statusAll	全部状态
+enterprise.approvalQueue.statusApproved	已批准
+enterprise.approvalQueue.statusCancelled	已取消
+enterprise.approvalQueue.statusCompleted	已完成
+enterprise.approvalQueue.statusDenied	已拒绝
+enterprise.approvalQueue.statusExpired	已过期
+enterprise.approvalQueue.statusPending	待处理
+enterprise.approvalQueue.submitted	已提交
+enterprise.billingOrgs.loadingOrgs	正在加载组织…
+enterprise.billingOrgs.selectOrg	选择一个组织
+enterprise.billingOrgs.updateFailedToast	更新计费组织失败
+enterprise.billingOrgs.updatedToast	计费组织已更新
+enterprise.billingOrgs.updatingSrOnly	正在更新计费组织
+enterprise.billingOrgs.updatingToast	正在更新计费组织…
+enterprise.categories.accept	接受
+enterprise.categories.accepting	正在接受…
+enterprise.categories.addSubcategory	添加子类别
+enterprise.categories.addSubcategoryTitle	添加「{{parent}}」子类别
+enterprise.categories.affected_one	当前有 <strong>{{count}}</strong> 个会话归在此子类别下。其分类将保留用于分析。
+enterprise.categories.affected_other	当前有 <strong>{{count}}</strong> 个会话归在此子类别下。其分类将保留用于分析。
+enterprise.categories.allOrganizations	全部组织
+enterprise.categories.analyticsTab	分析
+enterprise.categories.changesOnlyNew	更改只作用于新会话。已有会话不重新分类
+enterprise.categories.checkingAffected	正在检查受影响的会话…
+enterprise.categories.clickEdit	点击编辑
+enterprise.categories.clickReview	点击审查
+enterprise.categories.create	创建
+enterprise.categories.creating	正在创建…
+enterprise.categories.delete	删除
+enterprise.categories.deleteConfirm	确定要删除此子类别？
+enterprise.categories.deleteTitle	删除「{{name}}」
+enterprise.categories.deleting	正在删除…
+enterprise.categories.descAnalytics	查看会话跨类别分类的分析。
+enterprise.categories.descConfig	会话先按类别再按子类别分类。定义自定义子类别可更细粒度分类。自动含一个「其他」子类别。
+enterprise.categories.descPlaceholder	如：迁移 Spark 流水线和相关基础设施
+enterprise.categories.descriptionRequired	描述为必填项
+enterprise.categories.editTitle	编辑「{{name}}」
+enterprise.categories.exportDisabled	请选择具体日期范围导出。不支持导出「全部时间」。
+enterprise.categories.exportSessions	导出会话数据
+enterprise.categories.exporting	正在导出…
+enterprise.categories.fieldDescription	描述
+enterprise.categories.fieldName	显示名
+enterprise.categories.maxReached	已达 {{max}} 个子类别上限
+enterprise.categories.namePlaceholder	如：Spark 迁移
+enterprise.categories.nameRequired	显示名为必填项
+enterprise.categories.needsSessions	至少需要 10 个未分类会话才能生成建议
+enterprise.categories.newOnlyNew	新子类别只作用于新会话。已有会话不回填
+enterprise.categories.periodAllTime	全部时间
+enterprise.categories.periodLast30Days	最近 30 天
+enterprise.categories.periodLast7Days	最近 7 天
+enterprise.categories.periodLast90Days	最近 90 天
+enterprise.categories.periodLastMonth	上月
+enterprise.categories.periodThisMonth	本月
+enterprise.categories.reject	拒绝
+enterprise.categories.reviewSuggestion	审查建议
+enterprise.categories.save	保存
+enterprise.categories.suggest	建议
+enterprise.categories.suggesting	正在建议…
+enterprise.categories.title	类别
+enterprise.categories.uncategorizedShare	约占未分类会话 {{share}}%
+enterprise.categories.usedInPrompts	用于 LLM 提示词
+enterprise.chooseOrganization	选择一个组织继续
+enterprise.common.selectedCount_one	已选 {{count}} 项
+enterprise.common.selectedCount_other	已选 {{count}} 项
+enterprise.createOrg.addMe	把我加为此组织成员
+enterprise.createOrg.createAnother	再创建一个组织
+enterprise.createOrg.createFailed	创建 {{name}} 组织失败
+enterprise.createOrg.createdBut	已创建 {{name}} 组织，但：{{warnings}}
+enterprise.createOrg.creatingToast	正在创建 {{name}} 组织…
+enterprise.createOrg.groupsSelected_one	已选 {{count}} 个组
+enterprise.createOrg.groupsSelected_other	已选 {{count}} 个组
+enterprise.createOrg.membersSelected_one	已选 {{count}} 个成员
+enterprise.createOrg.membersSelected_other	已选 {{count}} 个成员
+enterprise.createOrg.nameTooLong	组织名不能超过 40 个字符
+enterprise.createOrg.noMembers	无企业成员
+enterprise.createOrg.noPermsDefault	默认无权限
+enterprise.createOrg.repoPermsInfo	创建此组织后，请到<lnk>仓库权限</lnk>授予权限
+enterprise.createOrg.searchGroups	搜索组…
+enterprise.createOrg.selectGroups	选择关联到此组织的 IdP 组
+enterprise.createOrg.selectMember	选择成员 {{name}}
+enterprise.createOrg.selectMembers	选择加入此组织的企业成员
+enterprise.createOrg.success	组织创建成功
+enterprise.createOrg.view	查看组织
+enterprise.createOrg.warnAcu	设置 ACU 上限失败
+enterprise.createOrg.warnBudget	设置预算失败
+enterprise.createOrg.warnMembers	添加成员/组失败
+enterprise.createOrg.warnSpend	设置支出上限失败
+enterprise.crumbs.mcpManagement	MCP 管理
+enterprise.groupOrgs.addFailed	把 {{group}} 加到 {{org}} 失败
+enterprise.groupOrgs.added	已把 {{group}} 加到 {{org}}
+enterprise.groupOrgs.adding	正在把 {{group}} 加到 {{org}}…
+enterprise.groupOrgs.changeRoleIn	更改在 {{org}} 的角色
+enterprise.groupOrgs.noneAssigned	没有已分配组织
+enterprise.groupOrgs.noneAvailable	没有可用组织
+enterprise.groupOrgs.removeFailed	把 {{group}} 从 {{org}} 移除失败
+enterprise.groupOrgs.removed	已把 {{group}} 从 {{org}} 移除
+enterprise.groupOrgs.removing	正在把 {{group}} 从 {{org}} 移除…
+enterprise.groupOrgs.updateRoleFailed	更新 {{group}} 在 {{org}} 的角色失败
+enterprise.groupOrgs.updatedRole	已更新 {{group}} 在 {{org}} 的角色
+enterprise.groupOrgs.updatingRole	正在更新 {{group}} 在 {{org}} 的角色…
+enterprise.groups.groupName	组名
+enterprise.groups.noMembers	无成员
+enterprise.groups.roleUpdateFailed	更新角色失败
+enterprise.groups.roleUpdated	角色更新成功
+enterprise.groups.selectAll	选择全部组
+enterprise.groups.selectGroup	选择组 {{name}}
+enterprise.groups.understood	知道了
+enterprise.groups.updatingRole	正在更新角色
+enterprise.groups.upgradeAdminBody	企业管理员能查看和配置整个 Devin 企业的代码、快照、集成和消耗上限。请谨慎授予此权限。
+enterprise.groups.upgradeAdminTitle	升级为企业管理员
+enterprise.landing.askInvite	让你的企业管理员邀请你加入 Devin 组织，马上开始！
+enterprise.landing.askInviteCloud	让你的企业管理员邀请你加入 Devin 组织，即可使用 Devin Cloud。
+enterprise.landing.contactAdminTitle	使用 Devin 前请联系你的企业管理员
+enterprise.landing.manageSettings	管理设置

@@ -1,0 +1,160 @@
+sidebar.hideGroup	隐藏组
+sidebar.hideProperty	隐藏属性
+sidebar.install.cli	装 CLI
+sidebar.install.cliApp	Devin CLI
+sidebar.install.desktop	装 Desktop
+sidebar.install.desktopApp	Devin Desktop
+sidebar.install.tooltip	下载应用
+sidebar.lastCreated	最近创建
+sidebar.lastUpdated	最近更新
+sidebar.linux	Linux
+sidebar.loadMore	加载更多…
+sidebar.loadingPeople	加载人员中…
+sidebar.loadingSessions	加载中…
+sidebar.loadingTags	加载标签中…
+sidebar.loadingWorkspaces	加载工作区中…
+sidebar.machineType	机器类型
+sidebar.macos	macOS
+sidebar.markAllDone	全标完成
+sidebar.markAllDoneDescription	确定把全部会话标完成？这只对你生效。没别人订阅的会话也会停。
+sidebar.markAllDoneTitle	把全部会话标完成？
+sidebar.maxPeopleSelected	最多选 {{count}} 人
+sidebar.more	更多
+sidebar.moreActions	更多操作
+sidebar.new	新建
+sidebar.newLead	新 {{botName}}
+sidebar.newSearch	新提问
+sidebar.newSession	新会话
+sidebar.noAgentsFound	找不到 agent
+sidebar.noAutomations	无自动化
+sidebar.noChangesFound	找不到更改
+sidebar.noEnvironmentsFound	找不到环境
+sidebar.noFiltersFound	找不到筛选
+sidebar.noOrganizationsFound	找不到组织
+sidebar.noPeopleFound	找不到人
+sidebar.noPullRequests	无拉取请求
+sidebar.noResultsFound	找不到结果
+sidebar.noSearches	无提问
+sidebar.noSessions	无会话
+sidebar.noTagsFound	找不到标签
+sidebar.noWikisFound	找不到 wiki
+sidebar.noWorkspacesFound	找不到工作区
+sidebar.notArchived	未归档
+sidebar.notDone	未完成
+sidebar.only	仅
+sidebar.onlyAutomations	仅自动化
+sidebar.onlyOpen	仅开放
+sidebar.openPullRequest	开 PR
+sidebar.openedByMe	我开的
+sidebar.organization	组织
+sidebar.origin	来源
+sidebar.origins.android	Android
+sidebar.origins.api	API
+sidebar.origins.cli	CLI
+sidebar.origins.codeScan	代码扫描
+sidebar.origins.desktop	Desktop
+sidebar.origins.ios	iOS
+sidebar.origins.jira	Jira
+sidebar.origins.linear	Linear
+sidebar.origins.pylon	Pylon
+sidebar.origins.slack	Slack
+sidebar.origins.teams	Teams
+sidebar.origins.webapp	Web
+sidebar.pagesNavLabel	页面
+sidebar.participated	参与过
+sidebar.personalDevin.addBot	加 {{botName}}
+sidebar.personalDevin.addToSidebar	加到侧栏
+sidebar.personalDevin.archive	归档
+sidebar.personalDevin.botsRailCreate	建新 {{botName}}
+sidebar.personalDevin.botsRailMore	更多 {{botNamePlural}}
+sidebar.personalDevin.botsRailUntitled	未命名任务
+sidebar.personalDevin.botsRailViewAll	看全部 {{botNamePlural}}
+sidebar.personalDevin.delete	删除
+sidebar.personalDevin.deleteConfirmation	此操作不可撤销。
+sidebar.personalDevin.deleteTitle	删「{{name}}」？
+sidebar.personalDevin.dropToPin	放下以置顶
+sidebar.personalDevin.dropToUnpin	放下以取消置顶
+sidebar.personalDevin.inboxUnseen_one	需要你里有 {{count}} 条新项
+sidebar.personalDevin.inboxUnseen_other	需要你里有 {{count}} 条新项
+sidebar.personalDevin.pin	置顶到顶
+sidebar.personalDevin.pins	已置顶
+sidebar.personalDevin.pinsReorderHint	按空格拿起已置顶的 {{botName}}，方向键移动，再按空格放下，或 Esc 取消。
+sidebar.personalDevin.pinsReorderRole	{{name}}，已置顶，可拖
+sidebar.personalDevin.removeFromSidebar	从侧栏移除
+sidebar.personalDevin.showMoreAgents	再显 {{count}} 个
+sidebar.personalDevin.showOwn	显我的 {{botNamePlural}}
+sidebar.personalDevin.tasksDone_one	{{count}} 个任务完成
+sidebar.personalDevin.tasksDone_other	{{count}} 个任务完成
+sidebar.personalDevin.teammates	队友
+sidebar.personalDevin.templateLibrary	模板库
+sidebar.personalDevin.unpinFromTop	从顶部取消置顶
+sidebar.personalDevin.unread	未读
+sidebar.personalDevin.unreadNeedsYou	需要你里的未读项
+sidebar.personalDevin.viewingOwnedBy	在看 {{name}} 的 {{botName}}
+sidebar.personalDevin.viewingShared	在看一个共享 {{botName}}
+sidebar.pinned	已置顶
+sidebar.prStateFilter	拉取请求
+sidebar.primaryNavLabel	主导航
+sidebar.properties	属性
+sidebar.propertyAgent	Agent
+sidebar.propertyAgentMode	Agent 模式
+sidebar.propertyAutomationTrigger	自动化
+sidebar.propertyGoogleChat	Google Chat
+sidebar.propertyJira	Jira
+sidebar.propertyLinear	Linear
+sidebar.propertyOrganization	组织
+sidebar.propertyPullRequests	拉取请求
+sidebar.propertyPylon	Pylon
+sidebar.propertySlack	Slack
+sidebar.propertyStatus	状态
+sidebar.propertyTeams	Teams
+sidebar.propertyVisibility	属性可见性
+sidebar.pullRequestsCount_closed_one	{{count}} 个已关拉取请求
+sidebar.pullRequestsCount_closed_other	{{count}} 个已关拉取请求
+sidebar.pullRequestsCount_draft_one	{{count}} 个草稿拉取请求
+sidebar.pullRequestsCount_draft_other	{{count}} 个草稿拉取请求
+sidebar.pullRequestsCount_merged_one	{{count}} 个已合并拉取请求
+sidebar.pullRequestsCount_merged_other	{{count}} 个已合并拉取请求
+sidebar.pullRequestsCount_open_one	{{count}} 个开放拉取请求
+sidebar.pullRequestsCount_open_other	{{count}} 个开放拉取请求
+sidebar.pullRequestsCount_queued_one	{{count}} 个排队拉取请求
+sidebar.pullRequestsCount_queued_other	{{count}} 个排队拉取请求
+sidebar.recent	最近
+sidebar.remove	移除
+sidebar.removeFrom	从 {{name}} 移除
+sidebar.reset	重置
+sidebar.resume	恢复
+sidebar.resumeSession	恢复会话
+sidebar.revealChildSessions	显子会话
+sidebar.scans	扫描
+sidebar.scheduledSession	排期会话
+sidebar.schedules	排期
+sidebar.search	搜索
+sidebar.searchAgents	搜 agent
+sidebar.searchEnvironments	搜环境
+sidebar.searchFilters	搜筛选
+sidebar.searchOrganizations	搜组织
+sidebar.searchPRs	搜 PR…
+sidebar.searchPeople	搜人
+sidebar.searchQueries	搜提问…
+sidebar.searchSessions	搜会话…
+sidebar.searchTags	搜标签
+sidebar.searchWorkspaces	搜工作区
+sidebar.sessionEnvironment	环境：{{name}}
+sidebar.sessionType	会话类型
+sidebar.sessionTypeAda	提问
+sidebar.showAll	全显
+sidebar.showGroup	显组
+sidebar.showMoreSessions_one	再显 {{count}} 个会话
+sidebar.showMoreSessions_other	再显 {{count}} 个会话
+sidebar.showProperty	显属性
+sidebar.sidePeek.deleteFolderDescription	「{{folderName}}」里的任务不会删，但文件夹和其分组会移除。
+sidebar.sidePeek.tasksEmpty	还没有任务
+sidebar.skill	技能
+sidebar.slackSyncDisabled	Slack（同步已禁）
+sidebar.sort	排序
+sidebar.sortBy	排序按
+sidebar.sortStatus	状态
+sidebar.startedBy	发起者
+sidebar.startedByCount_one	{{count}} 人
+sidebar.startedByCount_other	{{count}} 人

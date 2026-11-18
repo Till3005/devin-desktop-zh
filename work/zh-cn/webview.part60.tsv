@@ -1,0 +1,340 @@
+progress.slackManagedReaction	管理了反应
+progress.slackPostedMessage	发了消息
+progress.slackReadChannelHistory	读了频道历史
+progress.slackReadThreadReplies	读了帖子回复
+progress.slackReadUserProfile	读了用户档案
+progress.startedRecording	开始录屏
+progress.stoppedRecording	停止录屏
+progress.suggestedKnowledge	建议了知识
+progress.suggestedNewPlaybook	建议了新 playbook
+progress.suggestedToUpdatePlaybook	建议更新 playbook
+progress.switchedToBranch	切到了分支
+progress.thinkingFor	思考了 <duration></duration>
+progress.thinkingForABit	思考了一会儿
+progress.thinkingProcessTools_one	思考过程（用了 {{count}} 个工具）
+progress.thinkingProcessTools_other	思考过程（用了 {{count}} 个工具）
+progress.tookScreenshot	截了屏
+progress.tookScreenshotOf	截了图
+progress.toolCommand	命令
+progress.toolInput	输入
+progress.toolName	工具
+progress.toolNone	无
+progress.toolOutput	输出
+progress.tripleClicked	三击了
+progress.tripleClickedAt	三击了（{{x}}, {{y}}）
+progress.typed	输入了
+progress.typedLead	输入了
+progress.typedText	输入了文本
+progress.updatedPR	更新了 PR
+progress.usedComputer	用了电脑
+progress.usedComputerAction	用了电脑 - {{action}}
+progress.usedComputerActions_one	用了电脑 - {{count}} 个操作
+progress.usedComputerActions_other	用了电脑 - {{count}} 个操作
+progress.usedSessionIntrospection	用了会话自省工具
+progress.userSaid	{{username}} 说
+progress.viewChanges	看此步的更改
+progress.viewCiRun	看 CI 运行
+progress.viewedBrowserConsole	看了浏览器控制台
+progress.viewedCIJobLogs	看了 CI 任务日志
+progress.viewedCIStatus	看了 CI 状态
+progress.viewedKnowledgeSuggestion	看了知识建议
+progress.viewedPage	看了页面
+progress.viewedTheConsole	看了控制台
+progress.viewedTheConsoleLead	看了控制台
+progress.vulnerability_one	漏洞
+progress.vulnerability_other	漏洞
+progress.waited	等了
+progress.waitedDuration	等了 {{duration}} 秒
+progress.webPagesFetched	已取页数
+progress.webResults	结果数
+progress.wikiFailed	生成 Wiki 失败
+progress.wikiFor	{{repoName}} 的 Wiki
+progress.wikiGenerated	生成了 Wiki
+progress.wikiGenerating	正在生成 Wiki
+progress.wikiTitle	Wiki
+progress.workedFor	工作了 <duration></duration>
+progress.workedForABit	工作了一会儿
+progress.workflowNotesUpdated	工作流备注已更新
+progress.workingFor	工作了 <duration></duration>
+progress.youSaid	你说
+progress.zoomedRegion	放大了区域
+projectSelect.loading	正在加载项目…
+projectSelect.noProjectsFound	未找到项目
+projectSelect.placeholder	选择项目…
+projectSelect.searchPlaceholder	搜索项目…
+projectTracker.adminConnectionsDescription	此账户上活跃的 tracker 连接。只有 pattern 连接支持在此编辑检测设置。
+projectTracker.checkHealth	检查健康
+projectTracker.copyWebhookSecret	复制 webhook 密钥
+projectTracker.copyWebhookUrl	复制 webhook URL
+projectTracker.deleteFailed	无法删除连接
+projectTracker.deleteTitle	删除 {{name}}？
+projectTracker.deleted	连接已删除
+projectTracker.description	你所连 tracker 的功能。Devin 把会话链到工单、按项目打标签并读工单层级。
+projectTracker.detectionEnabled	在会话中检测工单链接
+projectTracker.editKindOrder	编辑工作项层级
+projectTracker.healthCheckFailed	健康检查失败
+projectTracker.healthCheckedAt	检查于 {{time}}
+projectTracker.healthHealthy	健康
+projectTracker.healthUnhealthy	不健康
+projectTracker.healthWarning	警告
+projectTracker.keyPattern	工单 key 模式
+projectTracker.keyPatternHelp	带命名组 `{{group}}` 的 RE2 模式，捕获工单 key
+projectTracker.kindOrderAddLevel	加层级
+projectTracker.kindOrderAddType	加类型
+projectTracker.kindOrderCountsFailed	无法加载已存类型。
+projectTracker.kindOrderCustomType	自定义类型
+projectTracker.kindOrderDuplicate	每种工作项类型只能出现一次。
+projectTracker.kindOrderEditorMode	层级编辑器模式
+projectTracker.kindOrderEmptyLevel	拖一个类型到这里
+projectTracker.kindOrderEmptyTray	没有未放置类型
+projectTracker.kindOrderHelp	层级从高到低排。用拖柄或菜单移类型和层级。只有层级里的类型被保存。
+projectTracker.kindOrderInvalid	输入不超过 {{length}} 字符、无换行或空字符的类型。
+projectTracker.kindOrderInvalidType	无效类型
+projectTracker.kindOrderJsonHelp	从高到低编辑层级。每层有工作项类型数组，可有名字。切到「可视化」前修好错误。
+projectTracker.kindOrderJsonMode	JSON
+projectTracker.kindOrderJsonShape	输入带非空 levels 数组的对象。每层需要类型字符串的 kinds 数组，可有名字。
+projectTracker.kindOrderJsonSyntax	输入有效 JSON。
+projectTracker.kindOrderLevel	第 {{index}} 层
+projectTracker.kindOrderLevelMoved	已移到 {{level}}。
+projectTracker.kindOrderLimits	最多 {{levels}} 层、共 {{kinds}} 个类型，每类型最多 {{length}} 字符。
+projectTracker.kindOrderLoading	正在加载已存类型…
+projectTracker.kindOrderMoveType	移动 {{kind}}（{{total}}）
+projectTracker.kindOrderMoved	已把 {{kind}} 移到 {{level}}。
+projectTracker.kindOrderNoType	无类型：{{total}}
+projectTracker.kindOrderRemoveType	移除 {{kind}}
+projectTracker.kindOrderReorder	重排 {{level}}
+projectTracker.kindOrderRequired	至少放一个工作项类型到层级里。
+projectTracker.kindOrderReset	重置为默认
+projectTracker.kindOrderSaveFailed	无法保存工作项层级。
+projectTracker.kindOrderTray	不在任何层级
+projectTracker.kindOrderVisualMode	可视化
+projectTracker.lastWebhookAt	最近 webhook {{time}}
+projectTracker.loadFailed	加载 tracker 连接失败
+projectTracker.noWebhookYet	还没收到 webhook
+projectTracker.patternNoKeyGroup	模式没有命名组 `{{group}}`
+projectTracker.patternTooLong	模式超过 {{max}} 字符
+projectTracker.save	保存
+projectTracker.saving	正在保存…
+projectTracker.setUpWebhookAgain	重新设置 webhook
+projectTracker.settingsSaveFailed	无法保存设置
+projectTracker.settingsSaved	设置已保存
+projectTracker.settingsSubtitle	Devin 如何为此连接给会话打标签和检测工单链接。
+projectTracker.settingsTitle	设置
+projectTracker.title	项目 tracker
+projectTracker.tooManyUrlPatterns	最多 {{max}} 个 URL 模式
+projectTracker.tryAgain	重试
+projectTracker.urlPatterns	工单 URL 模式
+projectTracker.urlPatternsHelp	每行一个 RE2 模式，各带命名组 `key`。最多 20 个
+projectTracker.webhookEvents	要选的事件
+projectTracker.webhookRegistered	我已注册
+projectTracker.webhookSecret	webhook 密钥
+projectTracker.webhookSecretFailed	无法创建 webhook 密钥
+projectTracker.webhookSecretOnce	密钥只显示一次。现在就复制。
+projectTracker.webhookServiceUser	以 {{user}} 连接。
+projectTracker.webhookUrl	webhook URL
+projects.acusBy	ACU 按
+projects.acusByChild	ACU 按子项
+projects.acusByMode	ACU 按模式
+projects.acusByOrg	ACU 按组织
+projects.acusByOrigin	ACU 按来源
+projects.acusByOutcome	ACU 按结果
+projects.acusByRepo	仓库排行
+projects.acusOverTime	ACU 随时间
+projects.acusPerMergedPr	每已合并 PR 的 ACU
+projects.acusPerMergedPrOverTime	每已合并 PR 的 ACU 随时间
+projects.acusPerMergedPrOverTimeTooltip	每周 ACU ÷ 已合并 PR。周按会话创建算，所以近几周在 PR 合并前偏高。
+projects.acusPerMergedPrTooltip	此条目的 ACU ÷ 已合并 PR。
+projects.acusPerPr	每 PR {{acus}} ACU
+projects.analytics	分析
+projects.attachedTo	挂到
+projects.breakdown	工作分解
+projects.chartBar	柱状
+projects.chartLine	折线
+projects.chartType	图表类型
+projects.closed	已关闭
+projects.collapse	折叠项
+projects.date	日期
+projects.detailsUnavailable	详情暂不可用。
+projects.expand	展开项
+projects.expandTo	展开到
+projects.hideClosed	隐藏已关闭项
+projects.inaccessibleSessions_one	显示 {{total}} 中 {{visible}} 个会话。你没有 {{hidden}} 个会话的访问权。
+projects.inaccessibleSessions_other	显示 {{total}} 中 {{visible}} 个会话。你没有 {{hidden}} 个会话的访问权。
+projects.includeClosed	显示已关闭项
+projects.linkedAcusTooltip	来自链接到 Jira 的会话的 ACU。
+projects.linkedDirectly	直接链到此项
+projects.linkedSessions	已链会话
+projects.linkedSessionsTooltip	你可见的、至少有一个 Jira 链接的会话。
+projects.linkedSpend	已链 ACU
+projects.linkedTo	链到
+projects.mergeRate	合并率
+projects.mergeRateCaption	{{total}} 个带 PR 会话中 {{merged}} 个
+projects.mergedPrs	已合并 PR
+projects.missing	层级之外
+projects.missingTooltip	链到的 Jira 项我们没能映射到层级。展开看每项。
+projects.morePullRequests_one	还有 {{count}} 个拉取请求
+projects.morePullRequests_other	还有 {{count}} 个拉取请求
+projects.next	下一页
+projects.noChildren	此期间此项下没有工作项。
+projects.noMergedPrs	还没有已合并
+projects.noParentFound	{{key}}（找不到父项）
+projects.noPr	无 PR
+projects.noSessionsOnPage	此页没有会话。
+projects.openInJira	在 Jira 打开
+projects.openSession	打开会话
+projects.organization	组织
+projects.origin	来源
+projects.otherConnections	其它 Jira 连接
+projects.otherItems_one	{{count}} 个其它项
+projects.otherItems_other	{{count}} 个其它项
+projects.outcome.merged	已合并 PR
+projects.outcome.none	无已合并 PR
+projects.outcome.open	打开的 PR
+projects.outsideHierarchy	层级外已链 ACU
+projects.outsideHierarchySessions	层级外已链会话
+projects.outsideHierarchySessionsTooltip	其 Jira 项我们没能映射到层级的已链会话。
+projects.outsideHierarchyTooltip	其 Jira 项我们没能映射到层级的已链 ACU。
+projects.person	人
+projects.prState.closed	已关闭
+projects.prState.merged	已合并
+projects.prState.open	打开
+projects.previous	上一页
+projects.pullRequest	PR
+projects.pullRequests	拉取请求
+projects.relation	关系
+projects.search	搜 key 或标题
+projects.session	会话
+projects.sessionCount_one	{{total}} 个会话
+projects.sessionCount_other	{{total}} 个会话
+projects.sessionsBy	会话按
+projects.sessionsByChild	会话按子项
+projects.sessionsByMode	会话按模式
+projects.sessionsByOrg	会话按组织
+projects.sessionsByOrigin	会话按来源
+projects.sessionsByOutcome	会话按结果
+projects.sessionsByRepo	按会话的仓库排行
+projects.sessionsOverTime	会话随时间
+projects.sessionsTab	会话（{{total}}）
+projects.share	分享
+projects.shareOfAllAcus	占全部 ACU 的 {{share}}
+projects.shareOfLinked	占已链 ACU 的 {{share}}
+projects.shareOfLinkedSessions	占已链会话的 {{share}}
+projects.shareOfSessions_one	占 {{total}} 个会话的 {{share}}
+projects.shareOfSessions_other	占 {{total}} 个会话的 {{share}}
+projects.shareParent	占父项 %
+projects.shareTotal	占已链 ACU %
+projects.source	来源
+projects.status	状态
+projects.title	项目
+projects.topContributors	贡献排行
+projects.ungrouped	仅按模式链接
+projects.unknownOwner	未知
+projects.unlinked	未链接
+projects.unlinkedTooltip	你可见的、没有 Jira 链接的会话。
+projects.untitled	未命名项
+projects.whyLinked	为什么链到这里
+promo.claimError.dismiss	知道了
+promo.claimError.qrExpired	此二维码已过期或已用过。要一个新的。
+promo.claimError.qrNotEligible	此账户不符合此促销条件。
+promo.claimError.qrWaiting	等待批准。让给你看二维码的人在 Slack 里批准。
+promo.claimError.title	无法兑现你的促销
+promoInvites.adminOnlyResend	只有管理员发的邀请能在此重发。「全选」作用于已加载行。
+promoInvites.clear	清空
+promoInvites.created	已创建
+promoInvites.createdCount_one	已建 {{count}} 个
+promoInvites.createdCount_other	已建 {{count}} 个
+promoInvites.dismiss	忽略
+promoInvites.downloadCsv	下载 CSV
+promoInvites.email	邮箱
+promoInvites.emails	邮箱
+promoInvites.emailsRequired	邮箱为必填项
+promoInvites.filterAll	全部
+promoInvites.filterByStatus	按状态筛选邀请
+promoInvites.filterClosed	已吊销与已过期
+promoInvites.filterOpen	打开
+promoInvites.filterRedeemed	已兑换
+promoInvites.invalid_one	「{{value}}」不像邮箱，将被记为无效
+promoInvites.invalid_other	{{count}} 个条目不像邮箱，将被记为无效
+promoInvites.inviteLink.copyTooltip	复制邀请链接
+promoInvites.inviteLink.openAria	打开邀请链接
+promoInvites.inviteLink.openTooltip	打开邀请链接
+promoInvites.inviteLinkColumn	邀请链接
+promoInvites.invitePeople	邀请人
+promoInvites.inviteStatus.accepted	已接受
+promoInvites.inviteStatus.alreadyRedeemed	已兑换过
+promoInvites.inviteStatus.alreadyRevoked	已吊销过
+promoInvites.inviteStatus.checkoutInProgress	结账中
+promoInvites.inviteStatus.created	已创建
+promoInvites.inviteStatus.existing	已邀过
+promoInvites.inviteStatus.expired	已过期
+promoInvites.inviteStatus.invalidEmail	无效邮箱
+promoInvites.inviteStatus.notFound	未找到
+promoInvites.inviteStatus.pending	待处理
+promoInvites.inviteStatus.redeemed	已兑换
+promoInvites.inviteStatus.redeemedConcurrently	并发兑换
+promoInvites.inviteStatus.resent	已重发
+promoInvites.inviteStatus.revoked	已吊销
+promoInvites.inviteStatus.rewardsGranted	奖励已发
+promoInvites.inviteStatus.sent	已发送
+promoInvites.invites	邀请
+promoInvites.invitesAppearHere	邀请连同链接和状态显示在这里。
+promoInvites.latestBatch	最近一批
+promoInvites.latestBatchAria	最近一批结果
+promoInvites.loadFailed	无法加载邀请：{{message}}
+promoInvites.loadMore	加载更多
+promoInvites.loadMoreFailed	无法加载更多邀请。请重试。
+promoInvites.loading	加载中…
+promoInvites.loadingPrograms	正在加载项目…
+promoInvites.noInvitesMatch	没有匹配邀请
+promoInvites.noInvitesYet	还没有邀请
+promoInvites.noPrograms	没有促销项目
+promoInvites.noProgramsBody	先建一个项目，再回这里邀人。
+promoInvites.pageTitle	促销邀请
+promoInvites.pasteEmails	粘贴邮箱，逗号、空格或换行分隔。每批最多 {{max}} 个。
+promoInvites.programNotFound	找不到项目。选另一个。
+promoInvites.programPicker.ariaLabel	促销项目
+promoInvites.programPicker.placeholder	选择一个项目
+promoInvites.programSettings.liveDescription	关掉停止新兑换。已有邀请保留。
+promoInvites.programSettings.offerDetails	邀请详情
+promoInvites.programSettings.offerDetailsHint	显示在邀请邮件和弹窗。用 {user} 或 {company} 指推荐人。
+promoInvites.programSettings.offerDialog	优惠弹窗
+promoInvites.programSettings.offerDialogDescription	给被邀人一个弹窗选获得优惠的组织。关掉则优惠给其当前组织。
+promoInvites.programSettings.offerLabel	方案卡标签
+promoInvites.programSettings.offerLabelHint	显示在定价方案卡上。留空用默认。
+promoInvites.programSettings.offerTitle	邀请标题
+promoInvites.programSettings.qrCodes	二维码
+promoInvites.programSettings.qrCodesDescription	让项目的 Slack 命令生成二维码。关掉停止新码。
+promoInvites.programSettings.saveFailed	无法保存设置
+promoInvites.programSettings.title	项目设置
+promoInvites.programSummary.acrossAllSources	全部邀请来源合计
+promoInvites.programSummary.adminInvites	管理员邀请
+promoInvites.programSummary.adminIssuedAndReferrals	管理员发出与推荐
+promoInvites.programSummary.appliesTo	适用于 {{plans}}
+promoInvites.programSummary.appliesToAll	适用于全部方案
+promoInvites.programSummary.ariaLabel	项目摘要
+promoInvites.programSummary.attributes.cardless	免绑卡
+promoInvites.programSummary.attributes.keepsOtherDiscount	不可叠加
+promoInvites.programSummary.attributes.newSubscribersOnly	仅免费组织
+promoInvites.programSummary.attributes.noCoworkerReferrals	不含同事
+promoInvites.programSummary.attributes.onePerOrg	每组织一次
+promoInvites.programSummary.attributes.redeemInPlace	付费组织也可
+promoInvites.programSummary.attributes.startupProgramEnrollment	加入创业计划
+promoInvites.programSummary.attributes.workEmailRequired	仅工作邮箱
+promoInvites.programSummary.attributesAriaLabel	项目规则
+promoInvites.programSummary.capUsed	全部来源 · 已用额度 {{pct}}%
+promoInvites.programSummary.countsError	无法加载项目计数。
+promoInvites.programSummary.countsLoading	正在加载项目计数…
+promoInvites.programSummary.creditedAfterOnboarding	受赠人完成引导后入账
+promoInvites.programSummary.creditedOnRedemption	兑换即入账
+promoInvites.programSummary.excludesReferrals	不含推荐
+promoInvites.programSummary.invites	邀请
+promoInvites.programSummary.openEnded	无截止日期
+promoInvites.programSummary.recipientReward	受赠人奖励
+promoInvites.programSummary.redemptionCapUsed	已用兑换额度
+promoInvites.programSummary.redemptions	兑换数
+promoInvites.programSummary.referrerReward	推荐人奖励
+promoInvites.programSummary.settings	项目设置
+promoInvites.programSummary.state.ended	已结束
+promoInvites.programSummary.state.inactive	不活跃
+promoInvites.programSummary.state.live	进行中
+promoInvites.programSummary.state.scheduled	已排期

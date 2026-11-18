@@ -1,0 +1,340 @@
+knowledge.manager.discardChangesTitle	放弃未保存的更改？
+knowledge.manager.editFolder	编辑文件夹
+knowledge.manager.editKnowledge	编辑知识
+knowledge.manager.enable	启用
+knowledge.manager.enabled	知识已启用
+knowledge.manager.enabledInYourSessions	在你的会话中启用
+knowledge.manager.enabledKnowledgeHint	Devin 能在你的会话中使用已启用知识
+knowledge.manager.enabledSuccessfully	知识启用成功
+knowledge.manager.enablingEllipsis	正在启用知识…
+knowledge.manager.enterprise	企业
+knowledge.manager.enterpriseCannotMove	企业知识不能移到别的文件夹
+knowledge.manager.enterpriseFolder	企业文件夹
+knowledge.manager.error	错误
+knowledge.manager.errorLoadingKnowledge	加载知识出错
+knowledge.manager.errorLoadingKnowledgeTryRefreshingThePage	加载知识出错。试试刷新页面。
+knowledge.manager.expandFolder	展开文件夹 {{name}}
+knowledge.manager.failedToCreateRetry	创建知识失败。请重试。
+knowledge.manager.failedToDisable	禁用知识失败
+knowledge.manager.failedToEnable	启用知识失败
+knowledge.manager.failedToGenerateTrigger	生成触发器失败。你仍可创建此知识。
+knowledge.manager.failedToLoadResultsPleaseTryAgain	加载结果失败。请重试。
+knowledge.manager.failedToMoveRetry	移动条目失败。请重试。
+knowledge.manager.folderCreatedSuccessfully	文件夹创建成功
+knowledge.manager.folderNameRequired	名称为必填项
+knowledge.manager.folderUpdatedSuccessfully	文件夹更新成功
+knowledge.manager.folderWithId	文件夹 {{id}}
+knowledge.manager.itemSDeletedSuccessfully_one	{{count}} 个条目删除成功
+knowledge.manager.itemSDeletedSuccessfully_other	{{count}} 个条目删除成功
+knowledge.manager.itemSMovedSuccessfully_one	{{count}} 个条目移动成功
+knowledge.manager.itemSMovedSuccessfully_other	{{count}} 个条目移动成功
+knowledge.manager.itemsSelected	个条目已选
+knowledge.manager.knowledgeCreatedSuccessfully	知识创建成功
+knowledge.manager.knowledgeDeletedSuccessfully	知识删除成功
+knowledge.manager.knowledgeNotFound	未找到知识
+knowledge.manager.knowledgeOrganizedSuccessfully	知识整理成功
+knowledge.manager.knowledgePromotedToEnterpriseSuccessfully	知识提升为企业级成功
+knowledge.manager.knowledgeUpdatedSuccessfully	知识更新成功
+knowledge.manager.letAIAutomaticallyOrganizeItemsIntoFolders	让 AI 自动把条目整理进文件夹
+knowledge.manager.loadingSuggestions	正在加载建议…
+knowledge.manager.lookingForEnterpriseKnowledge	在找企业知识？
+knowledge.manager.macro	宏
+knowledge.manager.macroName	macro-name
+knowledge.manager.makeSelectedItemsAvailableForDevinToUse	让所选条目可供 Devin 使用
+knowledge.manager.moreActions	更多操作
+knowledge.manager.moveItems	移动条目
+knowledge.manager.moveItemsDescription_one	为 {{count}} 个所选条目选目标文件夹
+knowledge.manager.moveItemsDescription_other	为 {{count}} 个所选条目选目标文件夹
+knowledge.manager.moveSelectedItemsToADifferentFolder	把所选条目移到另一个文件夹
+knowledge.manager.moveToFolder	移到文件夹
+knowledge.manager.moving	正在移动…
+knowledge.manager.movingKnowledge	正在移动知识…
+knowledge.manager.newFolder	新文件夹
+knowledge.manager.next	下一步
+knowledge.manager.noContent	无内容
+knowledge.manager.noFoldersFound	未找到文件夹
+knowledge.manager.noPermissionFolder	你没有编辑此文件夹的权限
+knowledge.manager.noPermissionKnowledge	你没有编辑此知识的权限
+knowledge.manager.noRepositoriesFound	未找到仓库
+knowledge.manager.noSuchFolder	无此文件夹
+knowledge.manager.noTriggerAvailable	无可用触发器
+knowledge.manager.noTriggerSet	未设触发器
+knowledge.manager.none	无
+knowledge.manager.notice	注意
+knowledge.manager.permanentlyDeleteSelectedItems	永久删除所选条目
+knowledge.manager.pinToRepository	置顶到仓库
+knowledge.manager.preventDevinFromAccessingSelectedItems	阻止 Devin 访问所选条目
+knowledge.manager.promote	提升
+knowledge.manager.promoteThisKnowledgeToEnterpriseLevelItWill	把此知识提升为企业级？它将对你企业内所有组织可见
+knowledge.manager.promoteToEnterprise	提升为企业级
+knowledge.manager.promoting	正在提升…
+knowledge.manager.root	根
+knowledge.manager.rootFolder	根文件夹
+knowledge.manager.runTheTestSuiteBeforeOpeningAPull	开拉取请求前先跑测试套件
+knowledge.manager.save	保存
+knowledge.manager.saving	正在保存…
+knowledge.manager.searchActions	搜索操作…
+knowledge.manager.searchForKnowledge	搜索知识…
+knowledge.manager.searchRepositories	搜索仓库
+knowledge.manager.selectAFolder	选择一个文件夹
+knowledge.manager.selectARepository	选择一个仓库
+knowledge.manager.selectDestinationFolder	选择目标文件夹
+knowledge.manager.selectFewerToOrganize	选 50 个以内的条目来自动整理
+knowledge.manager.selectFolder	选择文件夹 {{name}}
+knowledge.manager.selectKnowledge	选择知识 {{name}}
+knowledge.manager.selectToOrganize	选择要自动整理的知识
+knowledge.manager.selectedCount_one	已选 {{count}} 项
+knowledge.manager.selectedCount_other	已选 {{count}} 项
+knowledge.manager.sendMacroNameInAMessageToRetrieve	在消息中发 !macro-name 调取此知识
+knowledge.manager.specifyWhenDevinShouldUseThisKnowledge	指定 Devin 何时该用此知识
+knowledge.manager.tabOrganization	组织
+knowledge.manager.tabSuggestions	建议
+knowledge.manager.takeAction	执行操作
+knowledge.manager.takeActionOnSelectedItems_one	对 {{count}} 个所选条目执行操作
+knowledge.manager.takeActionOnSelectedItems_other	对 {{count}} 个所选条目执行操作
+knowledge.manager.theFolderDoesntHaveADescription	此文件夹没有描述
+knowledge.manager.theKnowledgeYouAreLookingForWasDeleted	你要找的知识已删除或不存在。
+knowledge.manager.thisFolderHasNoKnowledgeToSelect	此文件夹没有可选的知识
+knowledge.manager.thisPieceOfKnowledgeIsAutomaticallyGeneratedAnd	此条知识基于你的代码自动生成并定期更新。
+knowledge.manager.thisWouldCreateACycleInTheHierarchy	这会在层级中形成环
+knowledge.manager.tip	提示
+knowledge.manager.trigger	触发器
+knowledge.manager.tryAgain	重试
+knowledge.manager.unknown	未知
+knowledge.manager.unknownUser	未知用户
+knowledge.manager.untitledKnowledge	未命名知识
+knowledge.manager.untitledKnowledgeTitle	未命名知识
+knowledge.manager.updateFolder	更新文件夹
+knowledge.manager.updating	正在更新…
+knowledge.manager.usage	用量
+knowledge.manager.youCanOnlyTakeActionsOnUpTo	一次最多对 50 个条目执行操作
+knowledge.manager.youCantDeleteNonEmptyFolders	不能删除非空文件夹
+knowledge.manager.youDontHavePermissionToEditThisFolder	你没有编辑此文件夹的权限
+knowledge.movedToSkills	知识已迁移为技能
+knowledge.movedToSkillsDescription	技能是 Devin 在会话中所用知识的新家。在「自定义」中查看和管理你的技能。
+knowledge.pageDescription	Devin 在会话中自动调取相关知识。详见<docsLink>文档</docsLink>。
+knowledge.suggestions.errorLoading	加载建议出错。
+knowledge.title	知识
+knowledge.usage.retrieved	已调取
+knowledge.usage.used	已用
+knowledge.viewSkills	查看技能
+knowledgeSuggestions.accept	接受
+knowledgeSuggestions.acceptSuggestion	接受建议
+knowledgeSuggestions.acceptWithChanges	接受（带修改）
+knowledgeSuggestions.accepted	已接受
+knowledgeSuggestions.acceptingSuggestion	正在接受建议…
+knowledgeSuggestions.addSecrets	添加机密
+knowledgeSuggestions.addSecretsTooltip	添加机密。用 $SECRET_NAME 引用机密。
+knowledgeSuggestions.allKnowledge	全部知识
+knowledgeSuggestions.allSessions	全部会话
+knowledgeSuggestions.cancel	取消
+knowledgeSuggestions.conflictWarning	与另一处知识更改有冲突。必须手动更新。
+knowledgeSuggestions.content	内容
+knowledgeSuggestions.contents	内容
+knowledgeSuggestions.contentsPlaceholder	开拉取请求前先跑测试套件
+knowledgeSuggestions.description	Devin 根据你的消息建议要在以后会话中记住的知识
+knowledgeSuggestions.edit	编辑
+knowledgeSuggestions.failedToAccept	接受建议失败
+knowledgeSuggestions.failedToEdit	编辑知识建议失败
+knowledgeSuggestions.failedToReject	拒绝建议失败
+knowledgeSuggestions.folder	文件夹
+knowledgeSuggestions.iconLabel	知识建议
+knowledgeSuggestions.largeKnowledgeWarning	Devin 可能无法准确记住长知识
+knowledgeSuggestions.loadMore	加载更多
+knowledgeSuggestions.loading	加载中…
+knowledgeSuggestions.macro	宏
+knowledgeSuggestions.macroDescription	在消息中发 !macro-name 调取此知识
+knowledgeSuggestions.macroPlaceholder	如：test-local-webapp
+knowledgeSuggestions.new	新
+knowledgeSuggestions.noContent	无内容
+knowledgeSuggestions.noPermission	你没有接受或拒绝建议的权限。
+knowledgeSuggestions.noRepositoriesFound	未找到仓库
+knowledgeSuggestions.noSuggestionsFound	未找到建议
+knowledgeSuggestions.noSuggestionsYet	还没有知识建议
+knowledgeSuggestions.noTriggerSpecified	未指定触发器
+knowledgeSuggestions.none	无
+knowledgeSuggestions.onlyAdminsCanAccept	只有管理员能接受知识建议。
+knowledgeSuggestions.onlyAdminsCanAcceptOrReject	只有管理员能接受或拒绝建议。
+knowledgeSuggestions.onlyAdminsCanReject	只有管理员能拒绝知识建议。
+knowledgeSuggestions.onlyEnterpriseAdminsCanAccept	只有企业管理员能接受对企业知识的更新。
+knowledgeSuggestions.pending	待处理
+knowledgeSuggestions.pinToRepository	置顶到仓库
+knowledgeSuggestions.pinToRepositoryDescription	Devin 在所选仓库中总能看到置顶知识
+knowledgeSuggestions.reject	拒绝
+knowledgeSuggestions.rejectSuggestion	拒绝建议
+knowledgeSuggestions.rejected	已拒绝
+knowledgeSuggestions.rejectingSuggestion	正在拒绝建议…
+knowledgeSuggestions.rootFolder	根文件夹
+knowledgeSuggestions.rootFolderName	根文件夹
+knowledgeSuggestions.save	保存
+knowledgeSuggestions.searchByUser	按用户名或邮箱搜索
+knowledgeSuggestions.searchRepository	搜索仓库
+knowledgeSuggestions.selectFolder	选择一个文件夹
+knowledgeSuggestions.status	状态
+knowledgeSuggestions.suggestedFolder	建议的文件夹
+knowledgeSuggestions.suggestedOn	建议时间
+knowledgeSuggestions.suggestionAccepted	知识建议已接受
+knowledgeSuggestions.suggestionAcceptedSuccessfully	建议接受成功
+knowledgeSuggestions.suggestionRejected	建议已拒绝
+knowledgeSuggestions.title	知识建议
+knowledgeSuggestions.titlePlural	知识建议
+knowledgeSuggestions.trigger	触发器
+knowledgeSuggestions.triggerExample	如：在 monorepo 中更新数据库 schema
+knowledgeSuggestions.triggerPlaceholder	从零开发一个 Web 应用
+knowledgeSuggestions.type	类型
+knowledgeSuggestions.update	更新
+knowledgeSuggestions.useWhen	使用时机
+knowledgeSuggestions.user	用户
+knowledgeSuggestions.viewExistingKnowledge	查看现有知识
+knowledgeSuggestions.viewNewKnowledge	查看新知识
+knowledgeSuggestions.viewUpdatedKnowledge	查看更新后的知识
+labs.description	抢先试实验性功能。只影响你的账户。
+labs.empty	现在没有可用实验。
+labs.stopEta.description	在侧栏和会话状态上方显示 Devin 下次停止前的实时估时。
+labs.stopEta.title	会话 ETA
+labs.title	Labs
+landing.closeMenu	关闭菜单
+landing.devinLogo	Devin 标志
+landing.docs	文档
+landing.home	首页
+landing.logIn	登录
+landing.openMenu	打开菜单
+landing.review	Review
+landing.signUp	注册
+landing.tryDevinReview	试用 Devin Review
+landing.wiki	Wiki
+landmarks.adminSidebar	管理导航
+landmarks.marketingSidebar	营销导航
+landmarks.sessionSidebar	会话导航
+languageSuggestion.accept	是
+languageSuggestion.description	随时可在「设置」中改。
+languageSuggestion.neverAsk	不再询问
+languageSuggestion.snooze	否
+languageSuggestion.title	更改显示语言？
+layout.close	关闭
+layout.closeAll	全部关闭
+layout.closeOthers	关闭其他
+layout.closeRight	关闭右侧
+layout.copyLink	复制 {{title}} 的链接
+layout.expandTerminalFullWidth	终端展开到全宽
+layout.hideTerminal	隐藏终端
+layout.killTerminal	终止 {{title}}
+layout.moveTerminalToPanel	移到终端面板
+layout.moveTerminalToRightPane	把终端移到右窗格
+layout.newTerminal	新终端
+layout.remoteTerminal	远程终端
+layout.remoteTerminalError	无法在远程机器上启动终端
+layout.renameTerminal	终端名
+layout.retry	重试
+layout.sessionTerminals	会话终端
+layout.terminalTabs	终端
+layout.terminalTitle	终端 {{number}}
+lightbox.close	关闭
+lightbox.copiedImage	图片已复制
+lightbox.copyImage	复制图片
+lightbox.copyImageFailed	复制图片失败
+lightbox.dialogLabel	图片预览
+lightbox.download	下载
+lightbox.fit	适应
+lightbox.media	媒体
+lightbox.next	下一个
+lightbox.openInTab	在标签页打开
+lightbox.position	{{caption}}，{{total}} 中第 {{current}}
+lightbox.previous	上一个
+lightbox.zoomIn	放大
+lightbox.zoomLevel	缩放级别
+lightbox.zoomOut	缩小
+limitSuspendedRestart.bannerText_one	你的一个会话曾被用量上限停止，该上限已提高。
+limitSuspendedRestart.bannerText_other	你的 {{count}} 个会话曾被用量上限停止，该上限已提高。
+limitSuspendedRestart.cancel	取消
+limitSuspendedRestart.dialogDescription	这些会话曾被用量上限停止，该上限已提高。
+limitSuspendedRestart.dialogTitle	恢复已停止会话
+limitSuspendedRestart.done	完成
+limitSuspendedRestart.empty	没有可恢复的已停止会话
+limitSuspendedRestart.loading	正在加载已停止会话…
+limitSuspendedRestart.restart	恢复
+limitSuspendedRestart.restartAll_one	恢复 {{count}} 个已停止会话
+limitSuspendedRestart.restartAll_other	恢复全部 {{count}} 个已停止会话
+limitSuspendedRestart.restartCount_one	恢复 {{count}} 个会话
+limitSuspendedRestart.restartCount_other	恢复 {{count}} 个会话
+limitSuspendedRestart.restartRequestFailed	恢复会话失败。请重试。
+limitSuspendedRestart.restarted	已恢复
+limitSuspendedRestart.restarting	正在恢复…
+limitSuspendedRestart.reviewAndRestart	审查并恢复
+limitSuspendedRestart.selectAll	全选
+limitSuspendedRestart.selectSession	选择 {{title}}
+limitSuspendedRestart.stopped	已停止
+limitSuspendedRestart.stoppedOn	停止于 {{date}}
+linear.connectFailed	连接 Linear 失败
+linear.connectToSelectTeam	连接 Linear 以选择团队
+linear.disconnectFailed	断开 Linear 失败
+linear.disconnected	Linear 已成功断开
+linear.environmentMappings.configure	配置
+linear.environmentMappings.description	有人在 My Workspace 中在一个 Linear 团队里提及 Devin 时，新会话跑在该团队的环境上。若团队在此无环境或他们无权使用，会话回落到其默认环境。
+linear.environmentMappings.environment	环境
+linear.environmentMappings.environmentFor	{{team}} 的环境
+linear.environmentMappings.loadFailed	无法加载 Linear 环境映射。
+linear.environmentMappings.noTeams	未找到 Linear 团队。
+linear.environmentMappings.notConnected	Linear 未连到此账户。
+linear.environmentMappings.remove	移除 {{team}} 的环境
+linear.environmentMappings.save	保存
+linear.environmentMappings.saved	Linear 环境映射已保存
+linear.environmentMappings.team	Linear 团队
+linear.environmentMappings.title	Linear 团队到环境
+linear.environmentMappings.userDefault	用户默认环境
+linear.loadingLabels	正在加载标签…
+linear.loadingMembers	正在加载成员…
+linear.loadingStates	正在加载状态…
+linear.loadingTeams	正在加载团队…
+linear.mapping.addMapping	添加映射
+linear.mapping.addSetting	添加设置
+linear.mapping.allOtherTeams	其他全部团队
+linear.mapping.allTeamsMapped	所有团队都已映射
+linear.mapping.allTeamsSelected	所有可用团队都已选。
+linear.mapping.cancelAndLeave	取消并离开
+linear.mapping.confirmCancelDescription	Linear 集成需要一条映射才能工作
+linear.mapping.confirmCancelTitle	确定要取消？
+linear.mapping.defaultDescription	上方未映射的其他全部 Linear 团队的配置
+linear.mapping.defaultMapping	默认映射
+linear.mapping.defaultSetting	默认设置
+linear.mapping.descriptionMappings	决定从 Linear 创建的 Devin 会话在 Devin Web 应用中出现的位置。
+linear.mapping.descriptionTriggers	你提及 <tag /> 或打上 <label /> 标签时 Devin 总会触发。管理员可在下方配置更多触发器。
+linear.mapping.devinOrganization	Devin 组织
+linear.mapping.done	完成
+linear.mapping.enable	启用
+linear.mapping.enableDefaultAria	启用默认映射
+linear.mapping.keepEditing	继续编辑
+linear.mapping.linearTeam	Linear 团队
+linear.mapping.newMapping	新映射
+linear.mapping.noDevinOrgs	未找到 Devin 组织。
+linear.mapping.noLinearTeams	未找到 Linear 团队。
+linear.mapping.noProjects	未找到项目
+linear.mapping.noTeams	未找到团队
+linear.mapping.noTeamsAndOrgs	未找到 Linear 团队和组织子组织。
+linear.mapping.noTeamsMatch	没有团队匹配「{{search}}」
+linear.mapping.rowIncompleteTeams	* 请至少选择一个 Linear 团队
+linear.mapping.rowIncompleteTeamsAndOrg	* 请至少选择一个 Linear 团队和一个 Devin 组织
+linear.mapping.save	保存
+linear.mapping.searchForTeams	搜索团队…
+linear.mapping.searchProjects	搜索项目…
+linear.mapping.searchTeams	搜索团队…
+linear.mapping.selectDefaultOrgAndTrigger	* 启用默认映射时请选择默认 Devin 组织和触发方式。
+linear.mapping.selectTeams	选择 Linear 团队
+linear.mapping.selectTriggerOption	* 请选择触发方式。
+linear.mapping.titleMappings	Linear 团队到 Devin 组织
+linear.mapping.titleTriggers	Devin 范围触发器
+linear.mapping.unmapped	未映射
+linear.mappingsSaveFailed	保存 Linear 映射失败
+linear.mappingsSaved	Linear 映射保存成功
+linear.noLabels	无 Linear 标签
+linear.noLabelsFound	未找到标签
+linear.noMembers	无 Linear 成员
+linear.noMembersFound	未找到成员
+linear.noProjects	无 Linear 项目
+linear.noStates	无 Linear 状态
+linear.noStatesFound	未找到状态
+linear.noTeams	无 Linear 团队
+linear.noTeamsFound	未找到团队
+linear.reauthorizeToSelectLabel	重新授权 Linear 以选择标签
+linear.reauthorizeToSelectProject	重新授权 Linear 以选择项目
+linear.reauthorizeToSelectState	重新授权 Linear 以选择状态

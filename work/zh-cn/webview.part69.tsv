@@ -1,0 +1,268 @@
+securityRedTeaming.accessGraph.zoomIn	放大
+securityRedTeaming.accessGraph.zoomOut	缩小
+securityRedTeaming.add	加目标
+securityRedTeaming.addDomain	加域名
+securityRedTeaming.addTarget	加目标
+securityRedTeaming.addTargetDiscardTitle	放弃此目标？
+securityRedTeaming.addTargetTitle	加一个目标
+securityRedTeaming.addedAt	添加于 {{time}}
+securityRedTeaming.artexDeepUnavailableDescription	ARTEX 模拟提示词模式在 Standard 深度可用。
+securityRedTeaming.artexDescription	用 ARTEX 相关提示词做攻击规划和测试。这不跑 ARTEX。
+securityRedTeaming.artexLabel	ARTEX 提示词模式
+securityRedTeaming.authorization	授权
+securityRedTeaming.authorizationBasisLabel	授权依据
+securityRedTeaming.authorizationBasisOther	其它
+securityRedTeaming.authorizationBasisPublicBugBounty	公开 bug bounty
+securityRedTeaming.authorizationBasisRequired	选一个授权依据
+securityRedTeaming.authorizationBasisSignedEngagement	已签渗透测试合同
+securityRedTeaming.authorizationNoteLabel	理由
+securityRedTeaming.authorizationNotePlaceholder	如：已签合同的链接，或 bug bounty 项目及其范围链接
+securityRedTeaming.authorizationNoteRequired	理由为必填项
+securityRedTeaming.cancel	取消
+securityRedTeaming.clearRepos	清空
+securityRedTeaming.colDomain	域名
+securityRedTeaming.colLastTested	上次测试
+securityRedTeaming.colScope	范围
+securityRedTeaming.configLoadFailed	无法加载扫描配置。
+securityRedTeaming.confirmReject	拒绝目标
+securityRedTeaming.confirmRevoke	吊销授权
+securityRedTeaming.confirmVerify	验证目标
+securityRedTeaming.contractNoneDescription	现在可加域名。你与 Cognition 的红队合同签署后开始测试。
+securityRedTeaming.contractSentDescription	你的红队合同已发出待签。现在可加域名；签署后开始测试。
+securityRedTeaming.copyField	复制 {{label}}
+securityRedTeaming.coverage.assetConfidenceHigh	高置信
+securityRedTeaming.coverage.assetConfidenceLow	低置信
+securityRedTeaming.coverage.assetConfidenceMedium	中置信
+securityRedTeaming.coverage.assetEvidence	证据：{{evidence}}
+securityRedTeaming.coverage.assetMappedByOperator	由操作员设定
+securityRedTeaming.coverage.assetMappedByScan	由扫描映射
+securityRedTeaming.coverage.assetMapping	资产映射
+securityRedTeaming.coverage.assetServes	提供：{{kind}}
+securityRedTeaming.coverage.assetSourcePaths	源路径
+securityRedTeaming.coverage.assetUnmapped	未映射
+securityRedTeaming.coverage.assetUnmappedDescription	此扫描中没有仓库映射到此主机。
+securityRedTeaming.coverage.backToFindings	返回发现项
+securityRedTeaming.coverage.barLabel	{{tested}} 已测、{{finding}} 有发现项、{{open}} 打开、{{notApplicable}} 不适用
+securityRedTeaming.coverage.byHunter	由 {{slug}} 测
+securityRedTeaming.coverage.clearHunterFilter	显示 {{slug}} · 清除
+securityRedTeaming.coverage.collapseAll	全收起
+securityRedTeaming.coverage.emptyDescription	只有超深红队扫描建端点清单。
+securityRedTeaming.coverage.emptyEndedDescription	扫描在侦察登记端点前就结束了，所以没有清单可看。
+securityRedTeaming.coverage.emptyRunningDescription	侦察在测试开始前登记每个端点；hunter 记结果时树会填充。
+securityRedTeaming.coverage.emptyTitle	还没有端点清单
+securityRedTeaming.coverage.endpointCount_one	{{count}} 个端点
+securityRedTeaming.coverage.endpointCount_other	{{count}} 个端点
+securityRedTeaming.coverage.expandAll	全展开
+securityRedTeaming.coverage.filterPlaceholder	按主机、路径、hunter 或类筛
+securityRedTeaming.coverage.hunterCount_one	{{count}} 个 hunter
+securityRedTeaming.coverage.hunterCount_other	{{count}} 个 hunter
+securityRedTeaming.coverage.huntersDescription	扫描启动的会话，按谁委派给谁嵌套。选一个只显示它的端点。
+securityRedTeaming.coverage.huntersTitle	Hunter
+securityRedTeaming.coverage.loadFailedTitle	加载不了端点覆盖
+securityRedTeaming.coverage.noClassesPlanned	此端点没规划漏洞类
+securityRedTeaming.coverage.noMatches	没有端点匹配当前筛选
+securityRedTeaming.coverage.ownedBy	Hunter：{{slug}}
+securityRedTeaming.coverage.ownsEndpoints_one	{{count}} 个端点
+securityRedTeaming.coverage.ownsEndpoints_other	{{count}} 个端点
+securityRedTeaming.coverage.planEndpointCount_one	{{formattedCount}} 个端点
+securityRedTeaming.coverage.planEndpointCount_other	{{formattedCount}} 个端点
+securityRedTeaming.coverage.planSummary	{{endpoints}} · {{cells}}
+securityRedTeaming.coverage.planTestCount_one	{{formattedCount}} 个已规划测试
+securityRedTeaming.coverage.planTestCount_other	{{formattedCount}} 个已规划测试
+securityRedTeaming.coverage.showingRange	显示 {{total}} 中 {{start}}–{{end}} 个端点
+securityRedTeaming.coverage.source	来源：{{source}}
+securityRedTeaming.coverage.statusFinding	发现项
+securityRedTeaming.coverage.statusNotApplicable	不适用
+securityRedTeaming.coverage.statusOpen	打开
+securityRedTeaming.coverage.statusTested	已测
+securityRedTeaming.coverage.subtitle	集群规划要测的每个主机、面和端点，附每个漏洞类的结果。
+securityRedTeaming.coverage.surfaceAndEndpointCount	{{surfaces}} · {{endpoints}}
+securityRedTeaming.coverage.surfaceCount_one	{{count}} 个面
+securityRedTeaming.coverage.surfaceCount_other	{{count}} 个面
+securityRedTeaming.coverage.title	端点覆盖
+securityRedTeaming.coverage.totalsLabel	覆盖合计
+securityRedTeaming.coverage.unowned	未分配
+securityRedTeaming.coverage.viewFinding	看发现项
+securityRedTeaming.coverage.viewSession	看会话
+securityRedTeaming.createFailed	加不了目标。
+securityRedTeaming.credAdd	加凭据
+securityRedTeaming.credAddFailed	加凭据失败
+securityRedTeaming.credDelete	删除
+securityRedTeaming.credDeleteDescription	以后 {{domain}} 的扫描用不了此凭据。
+securityRedTeaming.credDeleteFailed	删凭据失败
+securityRedTeaming.credDeleteTitle	删「{{name}}」？
+securityRedTeaming.credDetailsRequired	至少填用户名、密码、TOTP 种子、角色或租户之一
+securityRedTeaming.credDiscardConfirm	放弃
+securityRedTeaming.credDiscardEditTitle	放弃未保存的更改？
+securityRedTeaming.credDiscardTitle	放弃此凭据？
+securityRedTeaming.credEdit	编辑
+securityRedTeaming.credEditing	正在编辑 {{name}}
+securityRedTeaming.credEmpty	还没有凭据。加探测该登录的账户，如两个不同权限级的用户做授权测试。
+securityRedTeaming.credLimitReached	此目标已达 {{limit}} 个凭据上限。删一个再加。
+securityRedTeaming.credLoadFailed	加载不了凭据。
+securityRedTeaming.credName	名称
+securityRedTeaming.credNameConflict	与已有凭据「{{name}}」太像。只差大小写、空格或标点的名字共享同一份会话机密。
+securityRedTeaming.credNamePlaceholder	member-user
+securityRedTeaming.credNameRequired	名称为必填项
+securityRedTeaming.credNote	备注
+securityRedTeaming.credNoteDescription	这是哪个账户或团队
+securityRedTeaming.credOpenFailed	打开凭据失败
+securityRedTeaming.credPassword	密码
+securityRedTeaming.credRole	角色/权限级
+securityRedTeaming.credRolePlaceholder	member、admin、owner…
+securityRedTeaming.credSave	保存
+securityRedTeaming.credSaveFailed	存凭据失败
+securityRedTeaming.credSecretSaved	已存。输入新值以替换。
+securityRedTeaming.credSessionClear	清会话
+securityRedTeaming.credSessionClearDescription	以后 {{domain}} 的扫描复用不了此登录会话。若凭据只含会话，凭据也会被删。
+securityRedTeaming.credSessionClearFailed	清登录会话失败
+securityRedTeaming.credSessionClearTitle	清「{{name}}」的已存登录？
+securityRedTeaming.credSessionSaved	登录会话存于 {{time}}
+securityRedTeaming.credTenant	租户
+securityRedTeaming.credTenantDescription	此登录所属的客户账户。用不同值测账户间隔离。
+securityRedTeaming.credTenantPlaceholder	acme-corp、globex…
+securityRedTeaming.credTotp	TOTP 种子（2FA）
+securityRedTeaming.credTotpDescription	一次性码的 Base32 种子
+securityRedTeaming.credTotpInvalid	输入 base32 setup key（字母 A–Z 和数字 2–7）或 otpauth:// 链接
+securityRedTeaming.credUsername	用户名
+securityRedTeaming.credUsernamePlaceholder	user@example.com
+securityRedTeaming.credentials	凭据
+securityRedTeaming.credentialsDescription	渗透测试用来认证的账户。值加密且只注入扫描会话。
+securityRedTeaming.credentialsTitle	{{domain}} 的凭据
+securityRedTeaming.debugSession	调试会话
+securityRedTeaming.deleteDomain	删域名
+securityRedTeaming.deleteDomainDescription	{{domain}} 将被移除。以后可再加。
+securityRedTeaming.deleteDomainFailed	删不了域名。
+securityRedTeaming.deleteDomainNamed	删 {{domain}}
+securityRedTeaming.deleteTarget	删目标
+securityRedTeaming.deleteTargetDescription	这会移除目标及其已存凭据。不可撤销。
+securityRedTeaming.deleteTargetFailed	删不了目标。
+securityRedTeaming.deleteVerifiedTargetDescription	这会吊销授权、停活跃扫描、归档其会话，并移除目标及其已存凭据。不可撤销。
+securityRedTeaming.depthDeep	深度
+securityRedTeaming.depthDeepDescription	侦察后，扫描等你选要测哪些资产。然后至多 12 个会话按漏洞类测它们，至多 6 个确认并串最好的线索。成本更高。
+securityRedTeaming.depthFoothold	超深（内网）
+securityRedTeaming.depthFootholdDescription	从你网络内部超深：会话一次一个在你选的 Outpost 机器上跑，猎尽下面选的范围直到没有开口。不改或不瘫任何东西，扫描在测不确定是你的东西前先问你。
+securityRedTeaming.depthLabel	扫描深度
+securityRedTeaming.depthStandard	标准
+securityRedTeaming.depthStandardDescription	侦察后，扫描等你选要测哪些资产。然后一个会话逐个测。
+securityRedTeaming.depthUltra	超深
+securityRedTeaming.depthUltraDescription	不等你就跑：一个会话猎每个被发现主机，每个再为其威胁模型暴露的漏洞类派生更深会话。成本最高。
+securityRedTeaming.description	红队是托管服务。找你账户团队给你的组织开通。
+securityRedTeaming.domainNotApproved	未批准测试
+securityRedTeaming.done	完成
+securityRedTeaming.earlierScans_one	{{count}} 次更早扫描
+securityRedTeaming.earlierScans_other	{{count}} 次更早扫描
+securityRedTeaming.editScope	编辑范围
+securityRedTeaming.editScopeActiveScan	此目标有扫描在排队或跑着。等它完，或吊销授权停它，再编范围。
+securityRedTeaming.editScopeDescription	新范围要验证后才能再跑扫描。若有扫描活跃，先等它完或吊销授权。
+securityRedTeaming.editScopeFailed	存不了目标范围。
+securityRedTeaming.emptyDescription	加一个活域名做渗透测试。扫描跑前需 Devin 员工验证授权。
+securityRedTeaming.emptyTitle	还没有目标
+securityRedTeaming.exportReport	导出渗透报告（PDF）
+securityRedTeaming.exportingReport	正在导出渗透报告…
+securityRedTeaming.failedToExportReport	导不出渗透报告
+securityRedTeaming.footholdPoolDescription	会话以此机器 worker 用户身份跑，能读那用户能读的一切。列出账户级 Outpost 和你自己的个人 Outpost。
+securityRedTeaming.footholdPoolLabel	立足 Outpost
+securityRedTeaming.footholdPoolPlaceholder	选一个 Outpost
+securityRedTeaming.footholdPoolRequired	选从哪个 Outpost 测。
+securityRedTeaming.footholdPoolsEmpty	此组织没有你可用的 Outpost。
+securityRedTeaming.footholdPoolsFailed	加载不了 Outpost。
+securityRedTeaming.footholdScopeLabel	范围
+securityRedTeaming.footholdScopeLocalNetworks	Outpost 机器及其本地网络
+securityRedTeaming.footholdScopeLocalNetworksDescription	也测机器直连网络上的主机。更远的，以及扫描不确定是你的网络，只在你批准后测。
+securityRedTeaming.footholdScopeLocalNetworksNamed	{{outpost}} 及其本地网络
+securityRedTeaming.footholdScopeReachable	Outpost 机器能到的一切
+securityRedTeaming.footholdScopeReachableDescription	测机器能到的、明显属于你组织的每个系统，经任何网络、VPN 或内网域名。扫描在不确定是你的、或由别家公司跑的服务前停下来问你。
+securityRedTeaming.footholdScopeReachableNamed	{{outpost}} 能到的一切
+securityRedTeaming.fusionDescription	默认主导模型把执行交给 SWE-2。
+securityRedTeaming.fusionLabel	Fusion
+securityRedTeaming.fusionModelUnavailableDescription	只在默认主导模型下可用。
+securityRedTeaming.launch	启动扫描
+securityRedTeaming.launchActiveScanWarning	此目标已有扫描排队或跑着。再发一个会并行测同样主机，流量可能翻倍。
+securityRedTeaming.launchAfterFailure	你要重发的扫描失败过：{{reason}}
+securityRedTeaming.launchAgain	用这些设置再发
+securityRedTeaming.launchDescription	渗透 {{domain}}。加仓库以对源码关联发现项。
+securityRedTeaming.launchDiscardTitle	放弃此扫描设置？
+securityRedTeaming.launchFailed	发不了扫描。
+securityRedTeaming.launchNeedsContract	账户的红队合同设为「已签」前发不了扫描。
+securityRedTeaming.launchScan	启动扫描
+securityRedTeaming.launchSuccess	红队扫描已开始。
+securityRedTeaming.launchTitle	启动红队扫描
+securityRedTeaming.live.agentDetail	{{state}} · {{endpoints}}
+securityRedTeaming.live.agentListLabel	Agent 列表
+securityRedTeaming.live.agentsDescription	主导 agent 把测试拆成部分。每个 agent 领一部分，把更窄的问题交给新 agent。
+securityRedTeaming.live.agentsEmpty	主导 agent 拆完测试后 agent 出现在这里。
+securityRedTeaming.live.agentsEmptyFinished	此测试没启动 agent。
+securityRedTeaming.live.agentsTitle	Agent 团队
+securityRedTeaming.live.headlineAwaitingInput	Devin 在等你的回复
+securityRedTeaming.live.headlineCompleted	测试完成
+securityRedTeaming.live.headlineHunt_one	{{formattedCount}} 个 agent 正在测目标
+securityRedTeaming.live.headlineHunt_other	{{formattedCount}} 个 agent 正在测目标
+securityRedTeaming.live.headlineMap	Devin 在绘攻击者可到的一切
+securityRedTeaming.live.headlineQueued	等待开始
+securityRedTeaming.live.headlineReport	Devin 在核对发现项并写报告
+securityRedTeaming.live.headlineSignIn	Devin 在用测试账户登录
+securityRedTeaming.live.headlineStopped	此测试没完就停了
+securityRedTeaming.live.lead	主导 agent
+securityRedTeaming.live.leadDescription	规划测试
+securityRedTeaming.live.loadFailedTitle	加载不了实况视图
+securityRedTeaming.live.moreAgents_one	{{formattedCount}} 个更多 agent
+securityRedTeaming.live.moreAgents_other	{{formattedCount}} 个更多 agent
+securityRedTeaming.live.phaseHunt	猎弱点
+securityRedTeaming.live.phaseMap	绘攻击面
+securityRedTeaming.live.phaseReport	验证并报告
+securityRedTeaming.live.phaseSignIn	登录
+securityRedTeaming.live.phaseStateCurrent	进行中
+securityRedTeaming.live.phaseStateDone	完成
+securityRedTeaming.live.phaseStateUpcoming	未开始
+securityRedTeaming.live.phasesLabel	测试进度
+securityRedTeaming.live.recordingsDescription	每个已确认弱点附一段 agent 证明它的短录屏。
+securityRedTeaming.live.recordingsEmpty	agent 确认弱点后录屏出现在这里。
+securityRedTeaming.live.recordingsTitle	证明录屏
+securityRedTeaming.live.statAgents	Agent
+securityRedTeaming.live.statEndpoints	已绘端点
+securityRedTeaming.live.statFindings	已确认发现项
+securityRedTeaming.live.statTests	已跑测试
+securityRedTeaming.live.statTestsOf	/{{total}} 已规划
+securityRedTeaming.live.stateCoordinating	在等它的 agent
+securityRedTeaming.live.stateFailed	出错停了
+securityRedTeaming.live.stateFinished	已完成
+securityRedTeaming.live.stateWorking	工作中
+securityRedTeaming.live.title	实况视图
+securityRedTeaming.live.titleFinished	测试怎么跑的
+securityRedTeaming.live.workingNow_one	{{formattedCount}} 个在干
+securityRedTeaming.live.workingNow_other	{{formattedCount}} 个在干
+securityRedTeaming.loadFailed	加载不了目标。
+securityRedTeaming.manageTarget	管理目标
+securityRedTeaming.modelLabel	主导模型
+securityRedTeaming.models.astraCyberPreviewMedium	Astra Cyber Preview Medium（仅内部）
+securityRedTeaming.models.astraCyberPreviewNote	仅内部用。Astra Cyber Preview 只对 Cognition 组织提供；别给客户扫描选它。
+securityRedTeaming.models.astraCyberPreviewXHigh	Astra Cyber Preview XHigh（仅内部）
+securityRedTeaming.models.default	Mythos 5.2 XHigh（默认）
+securityRedTeaming.models.mythos51High	Mythos 5.1 High
+securityRedTeaming.models.mythos51Low	Mythos 5.1 Low
+securityRedTeaming.models.mythos51Max	Mythos 5.1 Max
+securityRedTeaming.models.mythos51Medium	Mythos 5.1 Medium
+securityRedTeaming.models.mythos51XHigh	Mythos 5.1 XHigh
+securityRedTeaming.models.mythos52High	Mythos 5.2 High
+securityRedTeaming.models.mythos52Low	Mythos 5.2 Low
+securityRedTeaming.models.mythos52Max	Mythos 5.2 Max
+securityRedTeaming.models.mythos52Medium	Mythos 5.2 Medium
+securityRedTeaming.models.swe2High	SWE-2 High
+securityRedTeaming.models.swe2Low	SWE-2 Low
+securityRedTeaming.models.swe2Max	SWE-2 Max
+securityRedTeaming.noScans	还没有扫描
+securityRedTeaming.notEnabled	你的账户没开红队
+securityRedTeaming.notEnabledDescription	在 Unleash 给组织或其企业开 code-scan-mythos 和 code-scan-enabled flag，再重载此页。
+securityRedTeaming.notEnabledTitle	此组织没开红队
+securityRedTeaming.noteDiscardTitle	放弃此备注？
+securityRedTeaming.noteTooLong	至多 {{max}} 字符。现有 {{length}}。
+securityRedTeaming.openFindings	打开的发现项
+securityRedTeaming.openSession	打开会话
+securityRedTeaming.overviewAlsoInScope	也在范围内：{{entries, list}}
+securityRedTeaming.overviewEmptyDescription	Cognition 设置并跑每次测试。找你账户团队加域名。
+securityRedTeaming.overviewEmptyTitle	还没有域名
+securityRedTeaming.overviewScopeShowFewer	显示更少
+securityRedTeaming.overviewScopeShowMore_one	显示另外 {{count}} 个
+securityRedTeaming.overviewScopeShowMore_other	显示另外 {{count}} 个
+securityRedTeaming.overviewSubtitle	Cognition 测你活域名上可被利用的问题并报告发现。

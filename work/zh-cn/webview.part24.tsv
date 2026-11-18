@@ -1,0 +1,277 @@
+bots.getStartedFlow.reviewDescription	Devin 可以分析改动，帮你更快交付。
+bots.getStartedFlow.reviewReadyDescription	PR 创建时做一次审查
+bots.getStartedFlow.reviewTitle	自动分析拉取请求
+bots.getStartedFlow.suggestDescription	根据近期工作推荐有用的自动化
+bots.getStartedFlow.teammatesDescription	共享会话、工具和 {{botNamePlural}}，让所有人一起提速。
+bots.getStartedFlow.teammatesTitle	邀请你的团队
+bots.getStartedFlow.toolsDescription	安装个人插件。之后可去<customizations>自定义</customizations>页为自己或团队添加更多。
+bots.getStartedFlow.toolsTitle	连接个人工具
+bots.heldGrantNotice	{{name}} 拥有其他资源的权限。共享会让别人也能用这些。<accessLink>检查访问权限</accessLink>
+bots.hideBrowser	隐藏浏览器
+bots.hideWorkspace	隐藏工作区
+bots.identityDescription	{{name}} 如何工作、记得什么
+bots.identityMemoryDescription	{{name}} 在工作中学到了什么
+bots.imessageCallCardFailed	无法发送新名片。请稍后重试。
+bots.imessageCallCardSent	已发送。请在 iMessage 查看带新通话 PIN 的名片；旧名片不能再用于通话。
+bots.imessageCodeWarning	不要分享此验证码。任何拿到它的人都能以你的身份给 {{botName}} 发短信。
+bots.imessageConnectionFrom	从 {{handle}} 到 {{line}}
+bots.imessageConnectionsDescription	你给 {{botNamePlural}} 发短信用的号码或 Apple ID
+bots.imessageConnectionsEmpty	未关联
+bots.imessageConnectionsEmptyDescription	在 {{botName}} 的设置中关联你的号码
+bots.imessageDescription	从任何地方给 {{botName}} 发短信。无需配置。
+bots.imessageExampleConfirmation	已合并。
+bots.imessageExampleFollowUp	看着不错，合并吧
+bots.imessageExampleQuestion	有等我处理的事吗？
+bots.imessageExampleReply	有一件。支付修复可以审查了。
+bots.imessageExampleTitle	对话示例
+bots.imessageExpiredDescription	该验证码已过期。获取新的再验证。
+bots.imessageGroupChats	iMessage 群聊
+bots.imessageGroupChatsDescription	让群里每个人都能给 {{botName}} 发短信。
+bots.imessageGroupJoinAccessTitle	群组访问
+bots.imessageGroupJoinAcknowledge	我已了解并愿意继续。
+bots.imessageGroupJoinAddNumber	把号码加入群组
+bots.imessageGroupJoinBackupNumber	备用号码
+bots.imessageGroupJoinCheckImessage	验证码 15 分钟内过期。请在 iMessage 中查看确认。
+bots.imessageGroupJoinCodeHint	你的验证码会显示在这里。
+bots.imessageGroupJoinCodeLabel	验证码
+bots.imessageGroupJoinCodeWarning	切勿在群外分享此验证码。
+bots.imessageGroupJoinConnected	群组已连接。
+bots.imessageGroupJoinDone	完成
+bots.imessageGroupJoinExpired	此验证码已过期。
+bots.imessageGroupJoinFailed	无法设置群组。请重试。
+bots.imessageGroupJoinGetCode	获取验证码
+bots.imessageGroupJoinNewCode	获取新验证码
+bots.imessageGroupJoinNotConnected	无法连接群组。请在 iMessage 中查看详情。
+bots.imessageGroupJoinOpen	设置
+bots.imessageGroupJoinPrimaryNumber	主号码
+bots.imessageGroupJoinRowDescription	用验证码把 {{botName}} 连到一个已有群组。
+bots.imessageGroupJoinSendCode	用 {{handle}} 在群里发送验证码，不要私聊发。
+bots.imessageGroupJoinSendCodeTitle	发送验证码
+bots.imessageGroupJoinTitle	加入 iMessage 群组
+bots.imessageGroupJoinUseBackup	用备用号码
+bots.imessageGroupJoinUsePrimary	用主号码
+bots.imessageGroupJoinWarning	群里每个人都能给 {{botName}} 发消息并看到它的回复。此群连接与你其他频道相同的主聊天，群成员可以让它使用该聊天的信息并用其已连接的工具操作。
+bots.imessageHideQr	隐藏二维码
+bots.imessageIntroTitle	在 iMessage 上给 {{botName}} 发短信
+bots.imessageLinkedDescription	已关联 {{handle}}
+bots.imessageLinkedSharedNumberDescription	已连接 {{handle}} 用于 iMessage 和通话
+bots.imessageLinkedWithCallsDescription	已连接 {{handle}} 用于 iMessage，{{phoneNumber}} 用于通话
+bots.imessageLoadFailed	无法加载你的 iMessage 关联。
+bots.imessageManage	管理
+bots.imessageNoLine	当前没有可用的 iMessage 线路。
+bots.imessageOpenAgain	再次打开「信息」
+bots.imessageOpenMessages	打开「信息」
+bots.imessageOtherBot	你的另一个 {{botNamePlural}} 已关联 iMessage。请先解除关联。
+bots.imessagePendingDescription	在「信息」里点发送即完成连接。{{expiresAt}} 过期。
+bots.imessagePhoneAlreadyLinked	此手机号已关联。请换一个号码。
+bots.imessagePhoneDescription	添加你的手机号以呼叫 {{botName}}。我们会通过 iMessage 发送更新后的名片。
+bots.imessagePhoneFailed	无法设置通话。请检查号码后重试。
+bots.imessagePhoneNumber	通话用电话号码
+bots.imessagePhoneRequired	电话号码为必填项
+bots.imessagePhoneSave	保存
+bots.imessagePhoneUnavailable	无法设置通话。请稍后重试。
+bots.imessageQrTitle	或用 iPhone 扫描此码并点发送。
+bots.imessageSendCallCard	发送新名片
+bots.imessageSetupIphone	在 iPhone 上设置
+bots.imessageSetupIphoneDescription	扫二维码并点发送。
+bots.imessageSetupIphoneScanDescription	用相机扫描并点发送。
+bots.imessageSetupThisDevice	在此设备上设置
+bots.imessageSetupThisDeviceDescription	打开「信息」并预填要发送的文本。
+bots.imessageShowQr	显示二维码
+bots.imessageUnlink	断开连接
+bots.imessageUnlinkFailed	无法解除关联
+bots.imessageVerified	已验证
+bots.imessageVerify	连接 iMessage
+bots.imessageVerifyFailed	无法开始验证
+bots.imessageWaitingTitle	等待你的短信
+bots.increaseBudgetDescription	提高此 {{botName}} 的每月用量上限让它继续。上限覆盖它的对话和启动的每个会话
+bots.increaseBudgetDescription_named	提高 {{botName}} 的每月用量上限让它继续。上限覆盖它的对话和启动的每个会话
+bots.increaseBudgetSave	提高上限
+bots.increaseBudgetTitle	提高上限
+bots.increaseBudgetTooLow	请输入大于 {{used}} 的值，此 {{botName}} 才能继续。
+bots.increaseBudgetTooLow_named	请输入大于 {{used}} 的值，{{botName}} 才能继续。
+bots.increaseBudgetUsed	已用 {{used}} / {{limit}} · {{resetsOn}} 重置
+bots.increaseBudgetUsedNoLimit	当前月度窗口内已用 {{used}}
+bots.instructionsPlaceholder	如：拉取请求保持小，并在描述里说明原因
+bots.intro.back	返回
+bots.intro.continue	继续
+bots.intro.gotIt	知道了
+bots.intro.howBotsWork	{{botNamePlural}} 如何工作
+bots.intro.job.android	Android
+bots.intro.job.goal	让 Android 与 iOS 保持同步
+bots.intro.job.ios	iOS
+bots.intro.job.task.buildAll	用 Compose 构建了全部 52 个 iOS 功能
+bots.intro.job.task.builtFour	用 Compose 构建了全部 4 个
+bots.intro.job.task.builtSix	用 Compose 构建了全部 6 个
+bots.intro.job.task.pickedUpTicket	接过 MOB-88：3 个 iOS 功能
+bots.intro.job.task.pulledScreens	从 Figma 拉取了 6 个新 iOS 界面
+bots.intro.job.task.sawRelease	看到 iOS 2.4 发布了 4 个新功能
+bots.intro.job.task.shipped	全部 3 个已上架 Google Play
+bots.intro.jobDescription	例：维护 Android-iOS 功能对齐、负责我全部 App 的合规、优化 p99 可靠性。
+bots.intro.jobTitle	{{botNamePlural}} 负责结果，而不只是任务
+bots.intro.manage.after	之后
+bots.intro.manage.agent	Agent
+bots.intro.manage.before	之前
+bots.intro.manage.done	完成
+bots.intro.manage.fix	修结账
+bots.intro.manage.own	负责结账
+bots.intro.manage.working	工作中
+bots.intro.manageDescription	一个 Devin {{botName}} 带领一组 Agent 全天候构建、测试和改进你的软件。
+bots.intro.manageTitle	{{botNamePlural}} 替你管理一切
+bots.intro.replayIntro	重播介绍
+bots.intro.role.androidEngineer	Android 工程师
+bots.intro.role.backlogManager	待办管理员
+bots.intro.role.codeReviewer	代码审查员
+bots.intro.role.onCallEngineer	值班工程师
+bots.intro.role.productEngineer	产品工程师
+bots.intro.role.qaEngineer	QA 工程师
+bots.intro.role.uiEngineer	UI 工程师
+bots.intro.slackDescription	每个 {{botName}} 有自己的 Slack 身份。在任何对话中 @ 它。
+bots.intro.slackImessageTitle	在 Slack 和 iMessage 里直接协作
+bots.intro.slackTitle	在 Slack 里直接协作
+bots.intro.teamDescription	{{botNamePlural}} 会随时间积累各自角色专属的上下文，也能与其他 {{botNamePlural}} 协作。
+bots.intro.teamTitle	组建一支各有所长的 {{botNamePlural}} 团队
+bots.intro.thread.alert	<b>延迟升高</b>：checkout-api p95 达 1.8s
+bots.intro.thread.app	APP
+bots.intro.thread.ask	iPhone SE 上 Apple Pay 按钮被裁掉，用户无法结账。<mention>@Product Engineer</mention> 能修一下吗？
+bots.intro.thread.channel	#checkout
+bots.intro.thread.datadog	Datadog
+bots.intro.thread.fixReply	找到了：固定宽度在小屏上把它裁掉了。已在 <pr>#2231</pr> 修复并在 iPhone SE 上验证。
+bots.intro.thread.onCallReply	已回滚 <pr>#2238</pr>。p95 回到 310ms。
+bots.intro.thread.personName	Jorge
+bots.intro.thread.working	工作中…
+bots.intro.welcomeTitle	Devin {{botNamePlural}}
+bots.listSubtitle	选一个 {{botName}} 发消息，或创建新的。
+bots.listTitle	Devin {{botNamePlural}}
+bots.loadError	加载 {{botNamePlural}} 失败
+bots.manageAccess	访问权限
+bots.manageAutomations	自动化
+bots.manageBudget	用量上限
+bots.manageConnections	连接
+bots.manageGithub	拉取请求
+bots.manageGithubDescription	{{botName}} 如何打开拉取请求
+bots.manageIdentity	身份
+bots.manageInstructions	指令
+bots.managePersonalPlugins	管理
+bots.manageSharing	共享
+bots.memoryChangedTryAgain	此记忆在你打开后有变化。请重试。
+bots.memoryColumnDescription	描述
+bots.memoryColumnName	名称
+bots.memoryColumnUpdated	更新时间
+bots.memoryDelete	删除
+bots.memoryDeleteDescription	{{name}} 将不再记得此文件中的内容。
+bots.memoryDeleteFailed	无法删除记忆文件。
+bots.memoryDeleteFile	删除 {{name}}
+bots.memoryDeleteTitle	删除 {{name}}？
+bots.memoryDescription	{{name}} 跨会话记住的内容
+bots.memoryEmptyHint	{{name}} 会把工作中学到的东西存在这里。在聊天里让它记住点什么。
+bots.memoryEmptyTitle	记忆里还是空的
+bots.memoryFileMissing	此记忆文件已不存在。
+bots.memoryUpdated	更新于 {{time}}
+bots.moreActionsNamed	更多操作：{{name}}
+bots.nameUpdated	{{botName}} 名称已更新
+bots.neoTemplateRemit	带你完成设置：你的仓库、你的工具和你的第一批 {{botNamePlural}}。
+bots.neoTemplateRemitNoBots	带你完成设置：你的仓库、你的工具和你的第一个任务。
+bots.neoTemplateRemitNoRepositories	带你完成设置：你的工具和你的第一批 {{botNamePlural}}。
+bots.neoTemplateRemitToolsOnly	带你完成设置：你的工具和你的第一个任务。
+bots.noAutomationsHint	在聊天里让 {{name}} 定时或在某事件发生时跑点什么，比如晨报。
+bots.noAutomationsTitle	还没有自动化
+bots.noBotsYet	你还没有添加 {{botName}}
+bots.noGeneralSettingsHint	可从侧栏查看其他设置。
+bots.noGeneralSettingsTitle	没有可配置项
+bots.noMatches	没有匹配你搜索的 {{botNamePlural}}
+bots.noPersonalPlugins	你还没有安装个人插件。
+bots.noToolsConnected	还没有连接应用。添加一个 MCP 服务器，给此 {{botName}} 更多工具。
+bots.noToolsConnected_named	还没有连接应用。添加一个 MCP 服务器，给 {{botName}} 更多工具。
+bots.noneShared	还没有人给你共享 {{botName}}
+bots.onDemandCapDescription	在创建者的包含配额之后，限制此 {{botName}} 的聊天和会话每个计费周期给团队按需用量增加的额度。
+bots.onDemandCapDescription_named	在创建者的包含配额之后，限制 {{botName}} 的聊天和会话每个计费周期给团队按需用量增加的额度。
+bots.onDemandCapLabel	按需上限
+bots.onDemandCapOwnDescription	限制此 {{botName}} 的聊天和会话每个计费周期给团队按需用量增加的额度。它没有包含配额，因此其全部支出都计入。
+bots.onDemandCapOwnDescription_named	限制 {{botName}} 的聊天和会话每个计费周期给团队按需用量增加的额度。它没有包含配额，因此其全部支出都计入。
+bots.onDemandCapOwnReached	此 {{botName}} 已达按需上限，停到 {{resetsOn}}。提高上限即可恢复。
+bots.onDemandCapOwnReachedNoEdit	此 {{botName}} 已达按需上限，停到 {{resetsOn}}。
+bots.onDemandCapOwnReachedNoEdit_named	{{botName}} 已达按需上限，停到 {{resetsOn}}。
+bots.onDemandCapOwnReached_named	{{botName}} 已达按需上限，停到 {{resetsOn}}。提高上限即可恢复。
+bots.onDemandCapReached	此 {{botName}} 已达按需上限，停到 {{resetsOn}}，且仅在其创建者有包含配额时运行。提高上限即可恢复按需使用。
+bots.onDemandCapReachedNoEdit	此 {{botName}} 已达按需上限，停到 {{resetsOn}}，且仅在其创建者有包含配额时运行。
+bots.onDemandCapReachedNoEdit_named	{{botName}} 已达按需上限，停到 {{resetsOn}}，且仅在其创建者有包含配额时运行。
+bots.onDemandCapReached_named	{{botName}} 已达按需上限，停到 {{resetsOn}}，且仅在其创建者有包含配额时运行。提高上限即可恢复按需使用。
+bots.onDemandCapUsage	已用按需 {{used}} / {{limit}} · {{resetsOn}} 重置
+bots.onDemandCapUsageNoLimit	已用按需 {{used}} · {{resetsOn}} 重置
+bots.onboardingChecklist.cards.botsDescription	自动管理会话、处理项目、提出关键决策。
+bots.onboardingChecklist.cards.botsTitle	设置你的 {{botNamePlural}}
+bots.onboardingChecklist.cards.gitProviderDescription	克隆仓库、推送分支、创建拉取请求。
+bots.onboardingChecklist.cards.gitProviderTitle	连接 Git 提供商
+bots.onboardingChecklist.cards.integrationsDescription	在 Slack 或 Linear 等平台直接与 @Devin 交互。
+bots.onboardingChecklist.cards.proactiveDescription	让 Devin 监视仓库、自动修缺陷、建议自动化。
+bots.onboardingChecklist.cards.proactiveTitle	允许更多主动性
+bots.onboardingChecklist.cards.repositoriesDescription	每次启动会话更快、更省、更稳。
+bots.onboardingChecklist.cards.repositoriesTitle	设置你的环境
+bots.onboardingChecklist.cards.reviewDescription	Devin 可以分析改动，帮你更快交付。
+bots.onboardingChecklist.cards.reviewTitle	自动分析拉取请求
+bots.onboardingChecklist.cards.teammatesDescription	共享会话、工具和 {{botNamePlural}}，让所有人一起提速。
+bots.onboardingChecklist.cards.teammatesTitle	邀请你的团队
+bots.onboardingChecklist.cards.toolsDescription	用插件、技能等把 Devin 接到你团队的工具上。
+bots.onboardingChecklist.cards.toolsTitle	连接你的工具
+bots.onboardingChecklist.gitProviderConnecting	正在连接…
+bots.onboardingChecklist.gitProviderWithheld	你没有连接 Git 提供商的权限。请让管理员连接一个。
+bots.onboardingChecklist.hide	隐藏「入门」清单
+bots.onboardingChecklist.proactiveFailed	无法联系你的 {{botName}}。请重试。
+bots.onboardingChecklist.proactiveNotNow	暂不
+bots.onboardingChecklist.proactiveRequest	开启主动模式：{{features, list}}
+bots.onboardingChecklist.progress	{{done}}/{{total}}
+bots.onboardingChecklist.stepDone	已完成
+bots.onboardingChecklist.stepToDo	未完成
+bots.onboardingChecklist.title	入门
+bots.openChatFailed	无法打开此 {{botName}} 的聊天。请重试。
+bots.openChatFailed_named	无法打开 {{botName}} 的聊天。请重试。
+bots.ownLimitDescriptionOnDemand	当 {{botName}} 及其启动的一切在每个计费周期达到此按需支出时将其停止。包含配额永不受限。
+bots.ownLimitOnDemandStopConfirm	保存上限
+bots.ownLimitOnDemandStopDescription	本周期它已花按需 {{used}}，因此 {{limit}} 的上限会立即停止按需使用。其创建者有包含配额时它仍可运行。
+bots.ownLimitOnDemandStopTitle	给 {{botName}} 的按需用量设上限至 {{resetsOn}}？
+bots.ownLimitReached	{{botName}} 已达自身上限，停到 {{resetsOn}}。提高上限即可恢复。
+bots.ownLimitReachedNoEdit	{{botName}} 已达自身上限，停到 {{resetsOn}}。
+bots.ownerBotsCardTitle	把你的 {{botNamePlural}} 共享给 {{name}}
+bots.ownerBotsConfirm	共享
+bots.ownerBotsConfirmBotShared	{{name}} 已共享给其他人。能用 {{name}} 的人都能通过它读取 {{other}} 并发消息。
+bots.ownerBotsConfirmBothShared	两者都已共享给其他人。能用 {{name}} 的人都能通过它读取 {{other}} 并发消息，能用 {{other}} 的人也能看到 {{name}} 写给它的内容。
+bots.ownerBotsConfirmOtherShared	{{other}} 已共享给其他人。能用 {{other}} 的人会看到 {{name}} 写给它的内容。
+bots.ownerBotsConfirmReadOnly	{{name}} 已共享给其他人。能用 {{name}} 的人能通过它读取 {{other}}。{{other}} 为私有期间 {{name}} 无法给它发消息。
+bots.ownerBotsConfirmTitle	把 {{other}} 共享给 {{name}}？
+bots.ownerBotsDescription	{{name}} 可以访问你勾选的那些。
+bots.ownerBotsLinked	{{name}} 现在可以访问 {{other}}
+bots.ownerBotsPrivate	私有
+bots.ownerBotsSettingLabel	共享你的 {{botNamePlural}}
+bots.ownerBotsShareLabel	把 {{other}} 共享给 {{name}}
+bots.ownerBotsSharedWithOthers	已共享给其他人
+bots.ownerBotsSynced	自动授予，因此此处不能取消勾选
+bots.ownerBotsTitle	你的 {{botNamePlural}}
+bots.ownerBotsUnlinked	{{name}} 不能再访问 {{other}}
+bots.ownerBotsUpdateFailed	无法更新 {{name}} 可访问的范围
+bots.pauseAutomation	暂停
+bots.personalPluginsLoadError	无法加载你的个人插件
+bots.personalPluginsPublicNote	此 {{botName}} 已与你的团队共享，因此不能使用你的个人插件。
+bots.personalPluginsPublicNote_named	{{botName}} 已与你的团队共享，因此不能使用你的个人插件。
+bots.pickSaveFailed	无法保存你的选择。重载后可能再次出现。
+bots.pinnedVersionLabel	v{{number}}
+bots.planUpgradeMessagingBenefit	在 Slack 和 iMessage 中协作
+bots.planUpgradeTitle	{{botNamePlural}} 需要 Max 或 Teams 方案
+bots.pluginNotShared	未共享
+bots.pluginNotSharedTooltip	已装在你的个人市场。共享的 {{botNamePlural}} 不能用个人插件。
+bots.prAuthorUpdateFailed	无法更新此 {{botName}} 能否以你身份打开拉取请求
+bots.prSignatureDescription	在此 {{botName}} 打开的每个拉取请求末尾加一小段说明。
+bots.prSignatureLabel	签署拉取请求
+bots.prSignaturePreviewHeading	<name>{{name}}</name> 打开了此 PR
+bots.prSignaturePreviewHeadingFor	<name>{{name}}</name> 为 {{owner}} 打开了此 PR
+bots.prSignaturePreviewLinks	<action>用 Devin 审查</action> · <action>在 Devin Desktop 中打开</action>
+bots.prSignaturePreviewSession	在会话 <session>修复不稳定的结账测试</session> 中实现
+bots.prSignatureUpdateError	无法更新 PR 签名
+bots.prSignatureUpdated	PR 签名已更新
+bots.prSignatureUpdating	正在更新 PR 签名…
+bots.promotedFromAction	打开会话
+bots.promotedFromBody	此 {{botName}} 由一个已归档的会话创建而来。
+bots.promotedFromTitle	从会话创建
+bots.reachedLimitWhoCanChange	{{reached}} {{readOnlyNote}}
+bots.recycle	回收
+bots.recycleBot	回收 {{botName}}

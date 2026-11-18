@@ -1,0 +1,160 @@
+agent.addToChat	加到聊天
+agent.applyEditsDefault	把 {{edits}} 应用到 {{files}}
+agent.askDevin	问 Devin
+agent.chat	聊天
+agent.chatBillingTooltip	聊天计费到所显 job 的计费组织。
+agent.chatDeleted	聊天已删
+agent.chatHistory	聊天历史
+agent.chatPanel	聊天面板
+agent.checkedCiStatus	查了 CI 状态
+agent.checkedPRStack	查了 PR 堆叠
+agent.checkingCiStatus	查 CI 状态中
+agent.checkingPRStack	查 PR 堆叠中
+agent.closePanel	关面板
+agent.commentPosted	评论已发
+agent.commit	提交
+agent.commitChanges	提交更改
+agent.commitFailedForFile	提交 {{file}} 失败：{{error}}。它之前的文件已提交；它和余下还挂起，所以你能重试。
+agent.commitMessage	提交信息
+agent.commitMessageRequired	提交信息必填
+agent.commitPerFile	此 git 提供商一次提一个文件，所以每个文件以此信息自成一次提交。
+agent.commitUnsupported	此 git 提供商还不支持提交更改。手动应用所提更改。
+agent.committing	提交中…
+agent.contactAdminAcus	找你计费管理员加更多 ACU。
+agent.contactAdminCredits	找你计费管理员加更多按需额度。
+agent.deleteChat	删聊天
+agent.discard	丢弃
+agent.editCountAcrossFiles	{{files}} 上 {{edits}}
+agent.editLabel_one	{{count}} 处编辑
+agent.editLabel_other	{{count}} 处编辑
+agent.editsApplied_manyFiles_one	在 {{fileCount}} 个文件上应用了 {{count}} 处编辑
+agent.editsApplied_manyFiles_other	在 {{fileCount}} 个文件上应用了 {{count}} 处编辑
+agent.editsApplied_oneFile_one	在 {{fileCount}} 个文件上应用了 {{count}} 处编辑
+agent.editsApplied_oneFile_other	在 {{fileCount}} 个文件上应用了 {{count}} 处编辑
+agent.explainArchitecture	解释架构
+agent.explainArchitecturePrompt	解释架构决策
+agent.failedToApplyEdits	应用编辑失败
+agent.failedToPostComment	发评论失败
+agent.fetchedCiLogs	取了 job {{jobId}} 的 CI 日志
+agent.fetchingCiLogs	取 job {{jobId}} 的 CI 日志中
+agent.fileCount_one	{{count}} 个文件
+agent.fileCount_other	{{count}} 个文件
+agent.fileLabel_one	{{count}} 个文件
+agent.fileLabel_other	{{count}} 个文件
+agent.fixBugs	修 bug
+agent.fixBugsPrompt	修此 PR 发现的 bug
+agent.getMoreAcus	加更多 ACU
+agent.getMoreCredits	加更多按需额度
+agent.greppedCodebase	搜了代码库
+agent.greppedFor	搜了 {{pattern}}
+agent.greppingCodebase	搜代码库中
+agent.greppingFor	搜 {{pattern}} 中
+agent.increaseAcuLimit	提高 ACU 上限
+agent.increaseDollarLimit	提高消费上限
+agent.maxIterationsReached	达工具调用上限——发另条消息继续
+agent.newChat	新聊天
+agent.noNetChanges	没净更改可应用
+agent.openPlayground	开 playground
+agent.orgAcuLimitContactAdmin	企业管理员须提高你组织的 ACU 上限。
+agent.orgAcuLimitDescriptionChat	你组织已达 ACU 上限，所以 Devin 聊不了此 PR。
+agent.orgAcuLimitDescriptionChatWithUsage	{{orgName}} 本计费周期已用 {{cap}} ACU 上限的 {{used}}，所以 Devin 聊不了此 PR。
+agent.orgAcuLimitReachedTitle	组织 ACU 上限已达
+agent.orgDollarLimitContactAdmin	企业管理员须提高你组织的消费上限。
+agent.orgDollarLimitDescriptionChat	你组织已达消费上限，所以 Devin 聊不了此 PR。
+agent.orgDollarLimitDescriptionChatWithOrgAndUsage	{{orgName}} 本计费周期已用 {{cap}} 消费上限的 {{used}}，所以 Devin 聊不了此 PR。
+agent.orgDollarLimitDescriptionChatWithUsage	你组织本计费周期已用 {{cap}} 消费上限的 {{used}}，所以 Devin 聊不了此 PR。
+agent.orgDollarLimitReachedTitle	组织消费上限已达
+agent.orgGroupAcuLimitContactAdmin	企业管理员须提高你组织组的 ACU 上限。
+agent.orgGroupAcuLimitDescriptionChat	你组织组已达 ACU 上限，所以 Devin 聊不了此 PR。
+agent.orgGroupAcuLimitDescriptionChatWithUsage	{{orgName}} 的组织组本计费周期已用 {{cap}} ACU 上限的 {{used}}，所以 Devin 聊不了此 PR。
+agent.orgGroupDollarLimitContactAdmin	企业管理员须提高你组织组的消费上限。
+agent.orgGroupDollarLimitDescriptionChat	你组织组已达消费上限，所以 Devin 聊不了此 PR。
+agent.orgGroupDollarLimitDescriptionChatWithOrgAndUsage	{{orgName}} 的组织组本计费周期已用 {{cap}} 消费上限的 {{used}}，所以 Devin 聊不了此 PR。
+agent.orgGroupDollarLimitDescriptionChatWithUsage	你组织组本计费周期已用 {{cap}} 消费上限的 {{used}}，所以 Devin 聊不了此 PR。
+agent.placeholder	问此 PR 的任何问题…
+agent.playground	Playground
+agent.postingComment	发评论中
+agent.proposedChanges	所提更改
+agent.purchaseAcusChat	买更多以和 Devin 聊此 PR。
+agent.purchaseCreditsChat	买更多按需额度以和 Devin 聊此 PR。
+agent.readFile	读 {{fileName}}
+agent.readingFile	读 {{fileName}} 中
+agent.removeMention	移除提及
+agent.retrySettings	重试
+agent.review	审查
+agent.reviewMessageComposer	审查消息编写器
+agent.searchedKnowledgeBase	搜了知识库
+agent.searchingKnowledgeBase	搜知识库中
+agent.sendMessage	发消息
+agent.stopGenerating	停生成
+agent.suggestedPrompts	建议提示
+agent.summarizeChanges	总结更改
+agent.summarizeChangesPrompt	总结关键更改
+agent.thinkingEllipsis	思考中…
+agent.unnamedChat	无名
+agent.usedAllAcus	你 ACU 用完了
+agent.usedAllCredits	你按需额度用完了
+agent.viewBugs	看 bug
+agent.viewJobOnGithub	在 GitHub 看 job {{jobId}}
+agent.viewOnGithub	在 GitHub 看
+agent.waitingForQuestions	等问题中
+agent.welcomeMessage	嗨！我是 Devin。我分析了此 PR，随时帮忙。问我更改的事，或直接要编辑。
+alert.caution	注意
+alert.important	重要
+alert.note	备注
+alert.tip	提示
+alert.warning	警告
+analysis.bug	Bug
+analysis.bugDetectionFailed	Bug 检测失败
+analysis.bugsHeader_one	{{count}} 个 Bug
+analysis.bugsHeader_other	{{count}} 个 Bug
+analysis.codePattern	代码质量
+analysis.codePatternIssuesHeader_one	{{count}} 个代码质量问题
+analysis.codePatternIssuesHeader_other	{{count}} 个代码质量问题
+analysis.codeQualityCheckFailed	代码质量检查失败
+analysis.codeQualityCheckFailedDescription	代码质量结果生成不了。重跑分析。
+analysis.copyBug	复制 bug
+analysis.copyFinding	复制发现项
+analysis.copyFlag	复制旗标
+analysis.customReviewer	自定义审查者
+analysis.devinMarkedResolved	Devin 标为已解决。
+analysis.dismissedByReviewer	被审查者消了。
+analysis.failedReviewers.bugDetection	bug 捕捉器
+analysis.failedReviewers.codeQualityCheck	代码质量检查
+analysis.failedReviewers.descriptionBuiltIn_one	此审查者没产出发现项。
+analysis.failedReviewers.descriptionBuiltIn_other	这些审查者没产出发现项。
+analysis.failedReviewers.description_one	此自定义审查者没产出发现项。
+analysis.failedReviewers.description_other	这些审查者没产出发现项。
+analysis.failedReviewers.rerun	重试
+analysis.failedReviewers.title	{{names}} 失败
+analysis.failedToStart	起分析失败
+analysis.flagsHeader_one	{{count}} 个旗标
+analysis.flagsHeader_other	{{count}} 个旗标
+analysis.informational	信息
+analysis.investigate	排查
+analysis.learnMore	了解详情
+analysis.lowConfidence	低置信
+analysis.markAllAsRead	全标已读
+analysis.markAsRead	标已读
+analysis.markAsUnread	标未读
+analysis.mediumConfidence	中置信
+analysis.noBugsFound	没找到 bug
+analysis.noBugsToCopy	没未解决 bug 可复制
+analysis.noCodePatternIssuesFound	没找到代码质量问题
+analysis.noCodePatternIssuesToCopy	没代码质量问题可复制
+analysis.noFlagsFound	没找到旗标
+analysis.noFlagsToCopy	没未解决旗标可复制
+analysis.noVulnerabilitiesFound	没找到漏洞
+analysis.noVulnerabilitiesToCopy	没未解决漏洞可复制
+analysis.noteworthyParts	此 PR 值得注意的部份
+analysis.outdated	已过期
+analysis.outdatedBadgeTooltip	发现项来自上个提交
+analysis.potentialBug	潜在 Bug
+analysis.quoteInChat	引用到聊天
+analysis.read	读
+analysis.recommendation	建议
+analysis.rejected	已作废
+analysis.repoRule	仓库规则
+analysis.repoRuleTooltip	因违仓库规则文件（AGENTS.md、REVIEW.md 等）被旗标
+analysis.resolve	解决
+analysis.resolved	已解决

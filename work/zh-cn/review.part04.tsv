@@ -1,0 +1,160 @@
+diffViewer.testArtifacts.viewLabel	显测试或代码
+diffViewer.viewFile	看文件
+diffViewer.viewNewFileOnProvider	在 {{provider}} 看新文件
+diffViewer.viewOldFileOnProvider	在 {{provider}} 看旧文件
+diffViewer.viewRawDiff	看代码
+diffViewer.viewRenderedMarkdownDiff	看渲染 markdown diff
+diffViewer.viewed	标已看
+diffViewer.viewedShort	已看
+digest.addReposToViewPrs	加仓库看你 PR
+digest.allRepos	全部仓库
+digest.approved	已批准
+digest.categoryClosed	已关
+digest.categoryDrafts	草稿
+digest.categoryOpen	开放
+digest.categoryOpenedByDevin	Devin 开的
+digest.changesRequested	已要更改
+digest.ciFailing	CI 失败
+digest.ciPassing	CI 过
+digest.ciPending	CI 待
+digest.closePullRequest	关拉取请求
+digest.closed	已关
+digest.connectGitProviderToViewPrs	连 git 提供商看你 PR
+digest.contactAdminToAddRepos	找管理员加仓库
+digest.convertToDraft	转草稿
+digest.convertedToDraft	已转草稿
+digest.createPrWithDevin	用 Devin 建 PR
+digest.devinRequestedAuthor	Devin（{{requester}}）
+digest.draft	草稿
+digest.failedToConvertToDraft	转草稿失败
+digest.failedToLoadPrs	加载拉取请求失败
+digest.failedToMarkReady	标待审失败
+digest.gitConnections	Git 连接
+digest.goToSettings	到设置
+digest.inMergeQueue	在合并队列
+digest.installGitHubAppToUseReview	装 GitHub App 用 Devin Review。你可在设置管连接。
+digest.loading	加载中…
+digest.loadingPlain	加载中
+digest.markedReadyForReview	已标待审
+digest.mergeBlocked	被挡
+digest.merged	已合并
+digest.moreActions	更多操作
+digest.noChecks	没检查
+digest.noOwnersFound	找不到 owner。
+digest.noReposFound	找不到仓库。
+digest.notSupportedWithCliTokens	CLI token 不支持 Devin Review
+digest.open	开放
+digest.openInProvider	在 {{provider}} 开
+digest.or	或
+digest.prCount_one	{{count}} 个拉取请求
+digest.prCount_other	{{count}} 个拉取请求
+digest.readyForReview	待审
+digest.readyToMerge	可合并
+digest.refresh	刷新
+digest.relinkGitHub	重链 GitHub
+digest.reposCount_one	{{count}} 个仓库
+digest.reposCount_other	{{count}} 个仓库
+digest.resizeSplit	调分屏
+digest.reviewAnyPrUrl	分析任意 GitHub 拉取请求
+digest.reviewAnyPrUrlGeneric	分析任意拉取请求
+digest.searchOwners	搜 owner…
+digest.searchRepos	搜仓库…
+digest.selectOwner	选 owner
+digest.selectReposToViewPrs	选仓库看你 PR
+digest.shortcutApproving	批准 #{{number}} 中…
+digest.shortcutCannotApprove	你批不了 #{{number}}
+digest.shortcutCannotMerge	合不了 #{{number}}：{{reason}}
+digest.shortcutEnqueued	#{{number}} 已加合并队列
+digest.shortcutMerged	#{{number}} 已合并
+digest.shortcutMerging	合并 #{{number}} 中…
+digest.shortcutOpenToMerge	开 #{{number}} 以合并
+digest.shortcutPendingReview	你 #{{number}} 上有待交审查。开它去交。
+digest.shortcutReadFailed	查不了 #{{number}}。重试。
+digest.ssoAuthRequired	列某些 PR 需 GitHub SSO 授权。请重链你 GitHub 账户授权。
+digest.submitPrUrl	交 PR URL
+digest.unauthedPageDescription	Review 自动在每个 PR 找漏洞、bug 和移动代码。在任意 GitHub 仓库试试。
+digest.unauthedPageTitle	Review | 每次代码审查都有安全
+digest.unresolvedBugs	未解决 bug
+digest.unresolvedFlags	未解决旗标
+digest.unresolvedSecurityFindings	未解决安全发现项
+discussion.addADescription	<button>加描述</button>到此拉取请求
+discussion.addComment	加文件评论
+discussion.addCommentPlaceholder	加评论…
+discussion.addDescription	加描述
+discussion.addReaction	加表情回应
+discussion.addToReview	加到审查
+discussion.adding	加中
+discussion.analysisFailed	分析失败
+discussion.andMore	还有 {{count}} 个
+discussion.applied	已应用
+discussion.applySuggestion	应用建议
+discussion.applySuggestionFor	应用 {{filePath}} 的建议
+discussion.applying	应用中…
+discussion.approved	已批准
+discussion.askDevin	问 Devin
+discussion.bots	Bot
+discussion.cannotApplyToFork	不能在此 fork PR 应用建议
+discussion.clearAll	清空
+discussion.comment	评论
+discussion.commented	已评论
+discussion.commenting	评论中
+discussion.commitMessage	提交信息
+discussion.commitMessageRequired	提交信息必填
+discussion.composer.attach	附文件
+discussion.composer.bold	粗体
+discussion.composer.bulletList	无序列表
+discussion.composer.code	代码
+discussion.composer.dropToAttach	放下即附
+discussion.composer.heading	标题
+discussion.composer.italic	斜体
+discussion.composer.link	链接
+discussion.composer.nothingToPreview	没可预览的
+discussion.composer.numberedList	有序列表
+discussion.composer.preview	预览
+discussion.composer.quote	引用
+discussion.composer.strikethrough	删除线
+discussion.composer.suggestion	建议更改
+discussion.composer.taskList	任务列表
+discussion.composer.uploadFailed	上传 {{name}} 失败
+discussion.composer.uploading	上传 {{name}} 中…
+discussion.composer.write	写
+discussion.connectToReact	连 {{provider}} 以回应
+discussion.copied	已复制！
+discussion.copyCommitSha	复制提交 SHA
+discussion.copyLink	复制链接
+discussion.copyMessage	复制消息
+discussion.copySha	复制 SHA
+discussion.delete	删
+discussion.devinIsAnalyzing	Devin 分析中…
+discussion.dismissed	已消
+discussion.edit	编辑
+discussion.editCommentPlaceholder	编辑评论…
+discussion.editDescription	编辑描述
+discussion.enterPrDescription	输 PR 描述…
+discussion.existingComment	评论
+discussion.extendedDescription	扩展描述
+discussion.filter	筛选
+discussion.filtered	已筛（{{count}}）
+discussion.generateAnalysis	生成分析
+discussion.generatingAnalysis	生成分析中
+discussion.goToInlineComment	到内联评论
+discussion.leaveCommentPlaceholder	留个评论…
+discussion.lineNumber	L{{line}}
+discussion.loadingComments	加载评论中…
+discussion.markedAsResolved	标此对话为已解决。
+discussion.moreActions	更多操作
+discussion.moreSubmitOptions	更多选项
+discussion.newComment	新评论
+discussion.newCommit	新提交
+discussion.newFileComment	新文件评论
+discussion.noDescription	没描述
+discussion.noDiscussionYet	还没讨论
+discussion.openInProvider	在 {{provider}} 开
+discussion.pendingReview	审查待定
+discussion.people	人
+discussion.postCommentsToPr	发评论到此拉取请求
+discussion.postToProvider	发到 {{provider}}
+discussion.posting	发中
+discussion.postingComments	发评论中
+discussion.prIsClosed	PR 已关
+discussion.prIsMerged	PR 已合并

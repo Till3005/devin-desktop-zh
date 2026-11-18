@@ -1,0 +1,338 @@
+accessMirroring.actions	操作
+accessMirroring.allConnections	全部连接
+accessMirroring.attentionCount_one	{{count, number}} 项需要注意
+accessMirroring.attentionCount_other	{{count, number}} 项需要注意
+accessMirroring.confirmOn	要开启访问镜像吗？
+accessMirroring.confirmOnDescription	仓库访问权限将从这些连接以及之后添加的受支持连接镜像：{{connections, list}}。
+accessMirroring.confirmOnEmptyDescription	仓库访问权限将从之后添加的受支持连接镜像。
+accessMirroring.confirmOnSkipsHealthy	已镜像的连接只有在最近一次同步缺失、超过 24 小时或需要注意时才会重新运行。
+accessMirroring.connectionCount_one	{{count, number}} 个连接
+accessMirroring.connectionCount_other	{{count, number}} 个连接
+accessMirroring.connectionMirrored	仓库访问权限已镜像
+accessMirroring.connectionMirroredDescription	此账户已开启访问镜像。你添加的连接会自动镜像。
+accessMirroring.connectionMirroredPartialDescription	此连接已镜像，但新连接不会。请在访问镜像中为所有连接开启镜像。
+accessMirroring.connectionNotMirrored	仓库访问权限未镜像
+accessMirroring.connectionNotMirroredDescription	访问镜像对整个账户只设置一次。开启后会镜像此连接及之后添加的连接。
+accessMirroring.connectionPage	第 {{page, number}} 页，共 {{pages, number}} 页
+accessMirroring.connections	连接
+accessMirroring.connectionsDescription	查看连接健康状况和最近一次镜像同步。
+accessMirroring.description	将你的 git 提供商的仓库访问权限镜像到此账户。
+accessMirroring.enableAll	为所有连接开启
+accessMirroring.extraAccess	额外权限
+accessMirroring.filterConnections	按状态筛选
+accessMirroring.groups	分组
+accessMirroring.healthy	正常
+accessMirroring.hideConnections	隐藏连接
+accessMirroring.lastPass	最近一次同步
+accessMirroring.needsAttention	需要注意
+accessMirroring.needsPermissions	需要权限
+accessMirroring.noMatchingConnections	没有匹配的连接
+accessMirroring.noPass	没有已完成的同步
+accessMirroring.notSupported	不支持
+accessMirroring.off	已关闭
+accessMirroring.offDescription	访问镜像已关闭。
+accessMirroring.open	打开访问镜像
+accessMirroring.partial	部分连接仍在使用此前的镜像设置。为所有受支持连接开启镜像即可统一使用账户级设置。
+accessMirroring.partialPass	部分访问权限未镜像
+accessMirroring.paused	已暂停
+accessMirroring.rateLimited	已达速率上限
+accessMirroring.refreshAll	刷新全部镜像
+accessMirroring.refreshingAll	正在刷新镜像…
+accessMirroring.repositories	仓库
+accessMirroring.retry	重试
+accessMirroring.runAgain	重新运行
+accessMirroring.runFailed	无法启动镜像。请重试。
+accessMirroring.runFor	为 {{connection}} 运行镜像
+accessMirroring.runForbidden	你没有权限为此连接运行镜像。
+accessMirroring.runNow	立即运行
+accessMirroring.running	运行中
+accessMirroring.searchConnections	搜索连接
+accessMirroring.showConnections	显示连接
+accessMirroring.stalePass	最近 24 小时内没有已完成的同步
+accessMirroring.status	状态
+accessMirroring.title	访问镜像
+accessMirroring.toggle	镜像仓库访问权限
+accessMirroring.toggleDescription	受支持的连接（包括新连接）会镜像仓库访问权限。
+accessMirroring.waiting	等待首次同步
+account.addOrCreateOrganization	创建新账户
+account.avatarAlt	{{name}} 的头像
+account.blockedLimitUsers_dollars_one	{{count}} 名成员已达到支出上限
+account.blockedLimitUsers_dollars_other	{{count}} 名成员已达到支出上限
+account.blockedLimitUsers_one	{{count}} 名成员已达到 ACU 上限
+account.blockedLimitUsers_other	{{count}} 名成员已达到 ACU 上限
+account.blockedUsersBanner_one	{{count}} 名用户因单用户 ACU 上限被阻止——请查看<settingsLink>用量策略</settingsLink>页面
+account.blockedUsersBanner_other	{{count}} 名用户因单用户 ACU 上限被阻止——请查看<settingsLink>用量策略</settingsLink>页面
+account.devinSettings	Devin 设置
+account.enterprise	企业
+account.enterpriseSettings	企业设置
+account.inviteMembers	邀请成员
+account.logOut	退出登录
+account.manageAccounts	管理账户
+account.memberCount	{{count}} 名成员
+account.memberCount_other	{{count}} 名成员
+account.new	新建
+account.noResultsFound	未找到结果
+account.organizationSettings	组织设置
+account.personal	个人
+account.searchAccounts	搜索账户
+account.switchAccount	切换账户
+account.teamAndPersonal	团队与个人
+account.upgrade	升级
+accountTerms.accept	接受并继续
+accountTerms.acceptFailed	无法保存你的接受记录。请查看当前条款后重试。
+accountTerms.accepting	正在保存接受记录…
+accountTerms.account	账户：{{accountName}}
+accountTerms.admin.accepted	当前条款已接受
+accountTerms.admin.blockNonAdmins	在接受前阻止非管理员
+accountTerms.admin.confirmNotRequired	此账户将不要求接受条款。已有证据会被保留。
+accountTerms.admin.confirmRequired	未接受此条款 URL 及链接文字的账户将被限制。更改任意一项都需要重新接受。
+accountTerms.admin.confirmSave	保存设置
+accountTerms.admin.confirmTitle	保存点击确认条款设置？
+accountTerms.admin.description	由一名账户管理员代表整个账户接受。在网页端执行。
+accountTerms.admin.export	导出接受证据
+accountTerms.admin.exportFailed	无法导出条款证据。请重试。
+accountTerms.admin.linkLabel	条款链接文字
+accountTerms.admin.loadFailed	无法加载条款设置。
+accountTerms.admin.loading	正在加载条款设置…
+accountTerms.admin.notAccepted	当前条款未接受
+accountTerms.admin.requireAcceptance	要求接受
+accountTerms.admin.save	保存条款设置
+accountTerms.admin.saveFailed	无法保存条款设置。
+accountTerms.admin.termsUrl	条款 URL（HTTPS）
+accountTerms.admin.title	点击确认条款
+accountTerms.authority	接受即表示你确认自己有权代表你的账户接受这些条款。
+accountTerms.checkAgain	重新检查
+accountTerms.description	在使用 Devin 前，需要管理员接受此账户的条款。一次接受覆盖账户内所有人。
+accountTerms.signOut	退出登录
+accountTerms.switchAccount	切换账户
+accountTerms.title	查看你账户的条款
+accountTerms.waitingDescription	请让账户管理员登录并接受条款。他们接受后你才能继续。
+accountTerms.waitingTitle	你的账户需要管理员接受条款
+acpErrors.messageNotSent	你的消息未发送。
+acpErrors.requestFailedRetry	请求失败。请重试。
+acpErrors.requestFailedRetryIn_one	请求失败。请在 {{count}} 秒后重试。
+acpErrors.requestFailedRetryIn_other	请求失败。请在 {{count}} 秒后重试。
+acpErrors.sessionUsageLimitReached	此会话已达到用量上限
+acpHandoff.connecting	正在连接 Devin
+acpHandoff.creatingSession	正在创建 Devin 会话
+acpHandoff.creatingSessionOnPlatform	正在创建 Devin（{{platform}}）会话
+acpHandoff.doneTitle	已移交给云端 Devin 会话
+acpHandoff.failedTitle	移交失败
+acpHandoff.gatheringContext	正在收集移交所需上下文
+acpHandoff.handingOffToLocal	正在移交到本地
+acpHandoff.openSession	打开会话
+actionModelPicker.default	默认
+actionModelPicker.effortExtraHigh	超高
+actionModelPicker.effortHigh	高
+actionModelPicker.effortLow	低
+actionModelPicker.effortMax	最高
+actionModelPicker.effortMedium	中
+actionModelPicker.effortMinimal	极简
+actionModelPicker.effortNone	无
+actionModelPicker.effortPro	Pro
+actionModelPicker.effortUltra	Ultra
+actionModelPicker.fast	Fast
+actionModelPicker.fastTier	快速档
+actionModelPicker.internal	内部
+actionModelPicker.internalCurrent	内部（当前）
+actionModelPicker.internalExperimental	内部（实验）
+actionModelPicker.internalOld	内部（旧版）
+actionModelPicker.lite	Lite
+actionModelPicker.longContext	长上下文
+actionModelPicker.lowVerbosity	低详细度
+actionModelPicker.model	模型
+actionModelPicker.reasoningEffort	推理强度
+actionModelPicker.sidechatUnavailable	暂不支持侧边聊天
+actionModelPicker.standard	标准
+actionModelPicker.thinking	思考中
+actionModelPicker.ultraFast	极速
+actionModelPicker.vision	视觉
+activity.clearFilters	清除筛选
+activity.clearTaskFilter	重新显示全部动态
+activity.editFilter	编辑筛选
+activity.event.changedFiles_one	更改了 {{count}} 个文件
+activity.event.changedFiles_other	更改了 {{count}} 个文件
+activity.event.createdFile	创建了文件
+activity.event.deletedFile	删除了文件
+activity.event.devinMessage	{{name}} 的消息
+activity.event.editedFile	编辑了文件
+activity.event.executedCommand	执行了命令
+activity.event.readFile	读取了文件
+activity.event.readFiles_one	读取了 {{count}} 个文件
+activity.event.readFiles_other	读取了 {{count}} 个文件
+activity.event.renamedFile	重命名了文件
+activity.event.userMessage	用户消息
+activity.excludeTerm	排除 {{term}}
+activity.excludeText	排除「{{text}}」
+activity.facet.shell	Shell
+activity.facet.status	状态
+activity.facet.type	类型
+activity.filter	筛选
+activity.filterBy	按 {{term}} 筛选
+activity.filterByTask	只显示此任务的动态
+activity.hiddenSelected	所选行已被筛选隐藏
+activity.kind.browser	浏览器
+activity.kind.edit	编辑
+activity.kind.git	Git
+activity.kind.knowledge	知识
+activity.kind.mcp	MCP
+activity.kind.message	消息
+activity.kind.other	其他
+activity.kind.plan	计划
+activity.kind.read	读取
+activity.kind.search	搜索
+activity.kind.shell	Shell
+activity.live	实时
+activity.loadFailed	加载事件失败
+activity.maximizePanel	展开抽屉
+activity.minimizePanel	收起抽屉
+activity.nextRow	下一个事件
+activity.noMatches	没有符合当前筛选的事件
+activity.noWorkYet	Devin 还没有开始工作…
+activity.only	仅
+activity.previousRow	上一个事件
+activity.removeFilter	移除筛选
+activity.resizePanel	调整面板大小
+activity.rows_one	{{count}} 行
+activity.rows_other	{{count}} 行
+activity.searchFor	搜索「{{text}}」
+activity.searchPlaceholder	搜索或筛选（type:shell、-status:failed）…
+activity.selectEvent	选择一个事件查看详情
+activity.showAll	显示全部
+activity.statusFailed	失败
+activity.statusOk	退出码 0
+activity.statusRunning	运行中
+activity.tasks	任务
+activity.tasksDone	{{done}}/{{total}} 已完成
+activity.toggleTimestampFormat	{{time}}。切换相对时间与绝对时间
+activity.toggleTurn	折叠或展开此请求的行
+activity.viewInContext	在上下文中查看
+activity.watchLive	实时观看 Devin 工作
+admin.billingPhases.dollarPhaseRepricingHelp	在美元阶段，承诺内 ACU 单价也会把 Devin 与 Review 的 ACU 换算成美元，因此修改它会重新计价该阶段的历史用量。平台费变更只适用于新的 Desktop/CLI 用量。
+admin.billingPhases.phaseEditRuleHelp	Desktop/CLI 通过 5 分钟缓存读取阶段定价，因此边界和计价模式的修改需至少在生效前 5 分钟保存。Desktop/CLI 用量按请求开始时生效阶段的模式计费；把已过去的时间段在 ACU 与美元之间切换不会重算其中已记录的用量。
+admin.devinCosts	费用
+admin.devinStartupMetrics	启动指标
+admin.editRoles	编辑角色
+admin.editRolesFor	编辑 {{name}} 的角色
+admin.enterprise	企业
+admin.enterprises	企业
+admin.lifeguardEvals.performance.avgBugsPerRun	平均缺陷数 / 次运行
+admin.lifeguardEvals.performance.avgWallTime	耗时：{{value}}
+admin.lifeguardEvals.performance.bugsPerRun	{{value}} 个缺陷 / 次运行
+admin.lifeguardEvals.performance.costAxis	单次运行成本（标价，美元）
+admin.lifeguardEvals.performance.costPerRun	单次运行成本
+admin.lifeguardEvals.performance.costPerRunShort	成本 / 次
+admin.lifeguardEvals.performance.description	每个点表示某个路由组最近一次成功的运行（评测的 <code>--model</code> 参数）。连线连接同一模型的各个可见思考档位。默认选中召回率-成本帕累托前沿上所有档位的模型；可切换模型或运行以比较其他项。
+admin.lifeguardEvals.performance.levels_one	{{count}} 个档位
+admin.lifeguardEvals.performance.levels_other	{{count}} 个档位
+admin.lifeguardEvals.performance.loadFailed	加载运行失败：{{message}}
+admin.lifeguardEvals.performance.loading	正在加载运行…
+admin.lifeguardEvals.performance.metrics.avgTurns	平均轮次
+admin.lifeguardEvals.performance.metrics.f1	F1
+admin.lifeguardEvals.performance.metrics.recall	召回率
+admin.lifeguardEvals.performance.modelRuns	模型运行
+admin.lifeguardEvals.performance.noMetric	最近的运行都没有记录 {{metric}}。
+admin.lifeguardEvals.performance.noRuns	还没有带汇总指标的成功运行。
+admin.lifeguardEvals.performance.openRun	打开运行
+admin.lifeguardEvals.performance.resetZoom	重置缩放
+admin.lifeguardEvals.performance.scoreLabel	得分
+admin.lifeguardEvals.performance.showAllLevels	显示 {{group}} 全部档位
+admin.lifeguardEvals.performance.showGroup	显示 {{group}}
+admin.lifeguardEvals.performance.title	{{metric}} 对比单次运行成本——每个模型路由组的最近一次运行
+admin.lifeguardEvals.performance.turns	{{value}} 轮
+admin.lifeguardEvals.performance.zoomHint	拖动可缩放区域 · 双击图表可重置
+admin.lifeguardEvals.tabs.performance	性能
+admin.lifeguardEvals.tabs.runs	运行
+admin.linqPicker.choose	选择一个电话号码
+admin.linqPicker.empty	没有可添加的 Linq 电话号码。
+admin.linqPicker.loadError	无法从 Linq 加载电话号码。
+admin.linqPicker.loading	正在加载电话号码…
+admin.linqPicker.phoneNumber	Linq 电话号码
+admin.linqPicker.retry	重试
+admin.linqSync.button	从 Linq 同步
+admin.linqSync.confirm	同步
+admin.linqSync.description	将池中缺少的 Linq 号码补入、更新 Linq 已更改的号码、停用 Linq 标记或不再列出的线路，并恢复 Linq 列为有效的已停用线路。Linq 中的数据不变。
+admin.linqSync.done	已同步：新增 {{added}}，更新 {{updated}}，停用 {{retired}}，恢复 {{restored}}
+admin.linqSync.title	从 Linq 同步线路？
+admin.noRoles	无角色
+admin.notificationLab.clear	清除我的实验通知
+admin.notificationLab.clearFailed	清除失败
+admin.notificationLab.cleared_one	已清除 {{count}} 条实验通知
+admin.notificationLab.cleared_other	已清除 {{count}} 条实验通知
+admin.notificationLab.description	预览某种通知类型，或发送一条到你自己的收件箱。实验室发送不影响真实通知。
+admin.notificationLab.invalidJson	载荷不是合法 JSON
+admin.notificationLab.loadFailed	加载通知类型失败。
+admin.notificationLab.loading	正在加载…
+admin.notificationLab.locale	语言区域
+admin.notificationLab.payload	载荷
+admin.notificationLab.payloadNotObject	载荷必须是 JSON 对象
+admin.notificationLab.preview	预览
+admin.notificationLab.previewFailed	预览失败。请检查载荷是否与类型匹配。
+admin.notificationLab.searchTypes	搜索类型
+admin.notificationLab.send	发送给我
+admin.notificationLab.sendFailed	发送失败
+admin.notificationLab.sent	已发送到你的收件箱
+admin.notificationLab.suppressedByPreference	未发送：你已在「设置 → 通知」中关闭此类通知
+admin.notificationLab.title	通知实验室
+admin.notificationLab.type	类型
+admin.notificationLab.unknownOutcome	结果：{{outcome}}
+admin.orgMembers.enterpriseMember	企业级
+admin.orgMembers.enterpriseMemberTooltip	企业级成员。与此组织内的角色相互独立。
+admin.orgMembers.enterpriseRoleNames	{{roles, list}}
+admin.orgMembers.enterpriseRoleTooltip	企业级角色：{{roles, list}}。与此组织内的角色相互独立。
+admin.orgMembers.orgRoleTooltip	此组织内的角色
+admin.organization	组织
+admin.permissions	权限
+admin.selectRoleFor	为 {{name}} 选择角色
+admin.session	管理会话
+admin.sessionCost	会话成本
+admin.sessionGroups	会话分组
+admin.sessionLogs	会话日志
+admin.sessionPerformance	会话性能
+admin.sponsoredEvents.actions.cancel	取消
+admin.sponsoredEvents.addTeam.button	添加团队
+admin.sponsoredEvents.addTeam.description	为该团队创建免费组织，将参与者设为所有者，并授予活动预算。重复添加已有团队只会补入新参与者。
+admin.sponsoredEvents.addTeam.emailsHint_one	{{count}} 个邮箱
+admin.sponsoredEvents.addTeam.emailsHint_other	{{count}} 个邮箱
+admin.sponsoredEvents.addTeam.emailsLabel	参与者邮箱
+admin.sponsoredEvents.addTeam.emailsPlaceholder	one@example.com、two@example.com
+admin.sponsoredEvents.addTeam.existingTeam	「{{team}}」已在此活动中存在。新参与者会加入其组织；已有成员会被跳过。
+admin.sponsoredEvents.addTeam.invalidEmail	「{{email}}」不是有效邮箱。
+admin.sponsoredEvents.addTeam.lockedDescription	向此已有团队添加参与者。已有成员会被跳过。
+admin.sponsoredEvents.addTeam.lockedTitle	向 {{team}} 添加成员
+admin.sponsoredEvents.addTeam.nameLabel	团队名称
+admin.sponsoredEvents.addTeam.submit	添加团队
+admin.sponsoredEvents.addTeam.submitExisting	添加参与者
+admin.sponsoredEvents.addTeam.success	团队已保存：新增 {{added}}，已是成员 {{existing}}
+admin.sponsoredEvents.addTeam.title	添加团队
+admin.sponsoredEvents.addTeam.tooManyEmails	一个团队最多 {{max}} 名参与者。
+admin.sponsoredEvents.create.acuLimitHint	1 到 {{max}} 的整数。
+admin.sponsoredEvents.create.acuLimitLabel	每会话 ACU 上限
+admin.sponsoredEvents.create.acuLimitPlaceholder	20
+admin.sponsoredEvents.create.budgetHint	每队 $0 到 ${{max}}，在添加团队时一次性授予。
+admin.sponsoredEvents.create.budgetLabel	每队预算（美元）
+admin.sponsoredEvents.create.budgetPlaceholder	200
+admin.sponsoredEvents.create.button	新建活动
+admin.sponsoredEvents.create.description	加入此活动的每个团队都会获得独立免费组织、一次性赞助预算和每会话 ACU 上限。活动创建后不可更改。
+admin.sponsoredEvents.create.nameLabel	名称
+admin.sponsoredEvents.create.namePlaceholder	HackMIT 2026
+admin.sponsoredEvents.create.submit	创建活动
+admin.sponsoredEvents.create.success	赞助活动已创建
+admin.sponsoredEvents.create.title	新建赞助活动
+admin.sponsoredEvents.detail.acuLimit	每会话 ACU 上限
+admin.sponsoredEvents.detail.createdAt	创建时间
+admin.sponsoredEvents.detail.loadFailed	加载赞助活动失败：{{message}}
+admin.sponsoredEvents.detail.loading	正在加载赞助活动
+admin.sponsoredEvents.detail.notFound	未找到赞助活动。
+admin.sponsoredEvents.detail.revoked	已撤销
+admin.sponsoredEvents.detail.teamBudget	每队预算
+admin.sponsoredEvents.detail.teams	团队
+admin.sponsoredEvents.errors.emails_required	请至少输入一个邮箱
+admin.sponsoredEvents.errors.event_not_found	未找到赞助活动
+admin.sponsoredEvents.errors.event_revoked	此赞助活动已被撤销
+admin.sponsoredEvents.errors.generic	出错了
+admin.sponsoredEvents.errors.invalid_email	其中一个邮箱不是有效地址
+admin.sponsoredEvents.errors.job_not_import	此任务不是导入
+admin.sponsoredEvents.errors.job_running	已有另一个赞助活动任务在运行
+admin.sponsoredEvents.errors.missing_columns	CSV 缺少必需的列
+admin.sponsoredEvents.errors.name_required	名称为必填项

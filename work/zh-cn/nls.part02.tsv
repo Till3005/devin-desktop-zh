@@ -1,0 +1,150 @@
+vs/platform/agentHost/common/agentHostStarter.config.contribution/chat.agentHost.otel.captureIdentity.policy	控制 Copilot OpenTelemetry 是否捕获已认证账户名、操作系统用户名和机器主机名。独立于内容捕获。
+vs/platform/agentHost/common/agentHostStarter.config.contribution/chat.canvases.enabled	控制 agent 能否在 Agent 窗口开带交互内容的 Canvas。新建会话会拾取此设置的更改。
+vs/platform/agentHost/common/agentHostStarter.config.contribution/chat.experimental.workspaceSnapshot	启用后，新 Copilot agent host 聊天首回合含其工作目录的有界文件名快照，让 agent 不先列工作区就能定位。永不含文件内容。
+vs/platform/agentHost/common/agentMerge/agentMerge.disabled.branchUnavailable	Agent Merge 被禁，因确认不了 {0} 仍被签出。要恢复，签出你要监视的分支并重开 Agent Merge。
+vs/platform/agentHost/common/agentMerge/agentMerge.disabled.folderWithoutChat	文件夹的 Agent Merge 被禁，因此会话没聊天再在其中工作。
+vs/platform/agentHost/common/agentMerge/agentMerge.disabled.pendingReviewReply	此文件夹的 Agent Merge 被禁，因你待定 GitHub 审查里有未发布回复。在 GitHub 处理待定审查，再重开 Agent Merge 恢复。
+vs/platform/agentHost/common/agentMerge/agentMerge.disabled.pullRequestAlreadyMerged	拉取请求 [#{0}]({1}) 已合并。Agent Merge 现已禁。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.addressReviews.disabled	它不再处理新拉取请求审查评论，也不在合并前等它们。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.addressReviews.enabled	它现在会处理新拉取请求审查评论。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.changed.global	全部会话的 Agent Merge 默认设置已变。此会话：{0}
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.changed.session	此会话的 Agent Merge 设置已变。{0}
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.fixCI.disabled	它不再修失败 CI 检查。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.fixCI.enabled	它现在会修失败 CI 检查。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.merge.always	它现在会在拉取请求就绪时自动合并。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.merge.ifUnchanged	它现在会在拉取请求就绪时合并，但只在 Agent Merge 没做更改时。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.merge.never	它不再自动合并拉取请求。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.mergeMethod.auto	它现在会自动选可用合并方式。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.mergeMethod.merge	它现在会建合并提交。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.mergeMethod.rebase	它现在会 rebase 并合并拉取请求。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.mergeMethod.squash	它现在会 squash 合并拉取请求。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.replyAttribution.disabled	它发的回复不再标 Agent Merge 为来源。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.replyAttribution.enabled	它发的回复现在会标 Agent Merge 为来源。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.resolveConflicts.disabled	它不再解合并冲突或更新落后分支。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.configuration.resolveConflicts.enabled	它现在会解合并冲突并在分支落后时更新它。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.enabled.addressReviews	它会叫 agent 处理新拉取请求审查评论。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.enabled.fixCI	它会叫 agent 修失败 CI 检查。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.enabled.noRepairs	它会监视拉取请求但不叫 agent 修阻塞项。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.enabled.noReplyAttribution	它发的回复不标 Agent Merge 为来源。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.enabled.replyAttribution	它发的回复会标 Agent Merge 为来源。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.enabled.resolveConflicts	它会叫 agent 解合并冲突并在分支落后时更新它。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.enabled.summary	Agent Merge 为 {0} 已开。{1}
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.enabled.waiting	每次更新后，它会等新 CI 结果和审查评论。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.enabled.waitingForCI	每次更新后，它会等新 CI 结果。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.enabled.withPullRequest	它正监视此分支的拉取请求。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.merge.always	拉取请求就绪时，Agent Merge 会自动合并它。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.merge.ifUnchanged	拉取请求就绪时，Agent Merge 只在它没做更改时自动合并它。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.merge.never	它不会自动合并拉取请求，会保持监视。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.mergeMethod.auto	它会自动选可用合并方式。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.mergeMethod.merge	它会建合并提交。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.mergeMethod.rebase	它会 rebase 并合并拉取请求。
+vs/platform/agentHost/common/agentMerge/agentMerge.notice.mergeMethod.squash	它会 squash 合并拉取请求。
+vs/platform/agentHost/common/agentMerge/agentMerge.pullRequestMerged	Agent Merge 合并了拉取请求 [#{0}]({1})。
+vs/platform/agentHost/common/agentMerge/agentMerge.summary.merge.always	自动合并开。
+vs/platform/agentHost/common/agentMerge/agentMerge.summary.merge.ifUnchanged	自动合并只在未变时开。
+vs/platform/agentHost/common/agentMerge/agentMerge.summary.merge.never	只监视；自动合并关。
+vs/platform/agentHost/common/agentModelConfiguration/copilot.modelContextSize.default	默认
+vs/platform/agentHost/common/agentModelConfiguration/copilot.modelContextSize.description	选此模型的上下文窗口大小。
+vs/platform/agentHost/common/agentModelConfiguration/copilot.modelContextSize.longerSessions	更长会话
+vs/platform/agentHost/common/agentModelConfiguration/copilot.modelContextSize.title	上下文大小
+vs/platform/agentHost/common/artifactToolsConfiguration/chat.artifactTools.enabled	启用后，agent 能记产物——拉取请求、议题、提交、网站、文件和其它资源——显在聊天输入上方。
+vs/platform/agentHost/common/automationConfig/agentHost.automationRunTimeout	自动化运行超时
+vs/platform/agentHost/common/automationConfig/agentHost.automationRunTimeout.description	自动化运行的最长时长，分钟计。
+vs/platform/agentHost/common/automationConfig/agentHost.automationsEnabled	自动化
+vs/platform/agentHost/common/automationConfig/agentHost.automationsEnabled.description	此 Agent Host 可否跑自动化。
+vs/platform/agentHost/common/autoModeTiers/autoModeTier.balance	均衡
+vs/platform/agentHost/common/autoModeTiers/autoModeTier.balanceDescription	按任务复杂度权衡成本/速度与能力。
+vs/platform/agentHost/common/autoModeTiers/autoModeTier.efficiency	高效
+vs/platform/agentHost/common/autoModeTiers/autoModeTier.efficiencyDescription	优化成本与速度，只在要时用更强模型。
+vs/platform/agentHost/common/autoModeTiers/autoModeTier.intelligence	智能
+vs/platform/agentHost/common/autoModeTiers/autoModeTier.intelligenceDescription	优化能力，只在任务允许时用更快模型。
+vs/platform/agentHost/common/changesetUri/agentMergeChangeset.description	显上条用户消息后 Agent Merge 做的更改
+vs/platform/agentHost/common/changesetUri/agentMergeChangeset.label	Agent Merge 更改
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.autoModeTierOverride.description	覆盖 Auto 的「优化目标」偏好。接受 efficiency、balance 或 intelligence。会话建或恢复时及模型变时应用。空或不支持的值用选择器或服务默认。
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.autoModeTierOverride.title	Auto 优化目标覆盖
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.claudeAdvisor.description	启用后，用受支持 Claude 模型的 Copilot SDK 会话暴露提供商原生 Advisor 工具。
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.claudeAdvisor.title	Claude Advisor 工具
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.claudeDefaultReasoningEffort.description	覆盖模型选择器里 Claude 模型显的默认思考档位。空用内置默认。不支持所选档位的模型忽略。
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.claudeDefaultReasoningEffort.title	Claude 默认思考档位
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.copilotRuntimePath.description	本地 Copilot 运行时可执行文件的绝对路径。空用捆绑运行时。
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.copilotRuntimePath.title	Copilot 运行时路径
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.enableShellInitScript.description	启用后，Copilot SDK 会话在每条 shell 命令前应用客户端发布的 shell 初始化脚本。
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.enableShellInitScript.title	Shell 初始化脚本
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.hydraFusion.description	启用后，Copilot SDK 会话能用实验性 HydraFusion 模型。
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.hydraFusion.title	HydraFusion
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.localIndexEnabled.description	Copilot SDK 会话是否用本地跨会话存储做 Chronicle 索引和检索。
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.localIndexEnabled.title	本地会话索引
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.modelCapabilityOverrides.promptOverrideFile.description	覆盖此模型会话系统提示和/或 SDK 工具描述的 YAML 文件路径。`promptOverrideString` 也设时忽略。
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.modelCapabilityOverrides.promptOverrideFile.title	提示覆盖文件
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.modelCapabilityOverrides.promptOverrideString.description	覆盖此模型会话系统提示和/或 SDK 工具描述的内联 YAML。优先于 `promptOverrideFile`。
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.modelCapabilityOverrides.promptOverrideString.title	提示覆盖串
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.skillCharBudget.description	Copilot SDK 系统消息里技能描述可用的最多字符数。
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.skillCharBudget.title	技能字符预算
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.tgrep.description	启用后，Copilot SDK 会话对合格大仓库用 tgrep 索引搜索。需非虚拟文件系统上的本地 Git 仓库。
+vs/platform/agentHost/common/copilotCliConfig/agentHost.config.tgrep.title	索引搜索（tgrep）
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.annotate.completed	加了审查评论
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.annotate.failed	加审查评论失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.annotate.running	加审查评论中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.archive.completed	归档了会话
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.archive.failed	归档会话失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.archive.running	归档会话中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.archivePriority.completed	移了优先级
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.archivePriority.failed	移优先级失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.archivePriority.running	移优先级中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.ask.completed	问了问题
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.ask.failed	问问题失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.ask.running	问问题中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.canvas.completed	开了 canvas
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.canvas.failed	开 canvas 失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.canvas.running	开 canvas 中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.canvasCommand.completed	发了 canvas 命令
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.canvasCommand.failed	发 canvas 命令失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.canvasCommand.running	发 canvas 命令中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.changes.completed	审了更改
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.changes.failed	审更改失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.changes.running	审更改中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.clearWidget.completed	清了小部件
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.clearWidget.failed	清小部件失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.clearWidget.running	清小部件中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.createIssue.completed	建了议题
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.createIssue.failed	建议题失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.createIssue.running	建议题中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.createPr.completed	建了拉取请求
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.createPr.failed	建拉取请求失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.createPr.running	建拉取请求中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.createSession.completed	建了会话
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.createSession.failed	建会话失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.createSession.running	建会话中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.delete.completed	删了条目
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.delete.failed	删条目失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.delete.running	删条目中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.deleteScheduled.completed	删了定时任务
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.deleteScheduled.failed	删定时任务失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.deleteScheduled.running	删定时任务中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.edit.completed	已编辑
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.edit.failed	编辑失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.edit.running	编辑中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.editComment.completed	编了 PR 审查评论
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.editComment.failed	编 PR 审查评论失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.editComment.running	编 PR 审查评论中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.getSchedule.completed	查了计划
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.getSchedule.failed	查计划失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.getSchedule.running	查计划中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.getScheduled.completed	读了定时任务
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.getScheduled.failed	读定时任务失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.getScheduled.running	读定时任务中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.getSession.completed	查了会话
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.getSession.failed	查会话失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.getSession.running	查会话中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.githubItem.completed	开了 GitHub 条目
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.githubItem.failed	开 GitHub 条目失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.githubItem.running	开 GitHub 条目中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listAgents.completed	列了 agent
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listAgents.failed	列 agent 失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listAgents.running	列 agent 中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listItems.completed	列了条目
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listItems.failed	列条目失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listItems.running	列条目中
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listProjects.completed	列了项目
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listProjects.failed	列项目失败
+vs/platform/agentHost/common/meta/copilotd/toolPresentation/copilotd.listProjects.running	列项目中

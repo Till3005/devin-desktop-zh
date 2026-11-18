@@ -1,0 +1,232 @@
+settings.accessPages.members.groupDeletedSuccessfully	组删除成功
+settings.accessPages.members.groupMemberCount_one	{{count, number}} 个成员
+settings.accessPages.members.groupMemberCount_other	{{count, number}} 个成员
+settings.accessPages.members.groupName	组名
+settings.accessPages.members.groups	组（IdP）
+settings.accessPages.members.groups2	组
+settings.accessPages.members.groupsMustAddedAtEnterpriseLevel	组必须在企业级添加
+settings.accessPages.members.idpGroups	IdP 组
+settings.accessPages.members.joinRequests	加入申请
+settings.accessPages.members.loadFailedDescription	成员列表没加载出来。稍后再试。
+settings.accessPages.members.loadFailedTitle	加载不了成员
+settings.accessPages.members.memberManagementUnavailable	成员管理不可用
+settings.accessPages.members.memberManagementUnavailableCliToken	CLI token 下成员管理不可用。换 GitHub App 以邀成员
+settings.accessPages.members.memberRemovedSuccessfully	成员移除成功
+settings.accessPages.members.members	成员
+settings.accessPages.members.membership	成员身份
+settings.accessPages.members.moveMemberdisplaynameLabelSeat	把 {{memberDisplayName}} 移到 {{label}} 席位？
+settings.accessPages.members.n0Groups	0 组
+settings.accessPages.members.name	名称
+settings.accessPages.members.noGroupsFound	找不到组。
+settings.accessPages.members.noPermissionManageMembers	你没有管理成员的权限
+settings.accessPages.members.noUnassignedFullSeatsAvailableWill	没有未分配全席位。这会加一个额外席位（{{seatPrice}}，按当前计费周期折算）。
+settings.accessPages.members.noUnassignedFullSeatsAvailableWillPurchase	没有未分配全席位。这会购买一个额外席位（{{seatPrice}}，按当前计费周期折算）。
+settings.accessPages.members.noUsersFound	找不到用户
+settings.accessPages.members.notExpectingTryLoggingOutLogging	没料到？试试登出再登回。
+settings.accessPages.members.personalAccountsDontHaveMembersOther	个人账户除你没有成员。选或建一个组织看其成员列表。
+settings.accessPages.members.planDoesntSupportMembers	你当前方案不支持加成员。升到 Teams 方案邀更多
+settings.accessPages.members.primaryOrganization	主组织
+settings.accessPages.members.remove	移除
+settings.accessPages.members.removeGroup	移除组
+settings.accessPages.members.removeMember	移除成员
+settings.accessPages.members.removingMember2	正在移除成员
+settings.accessPages.members.requestFullSeat	申请全席位
+settings.accessPages.members.requested	已申请
+settings.accessPages.members.requesting	申请中…
+settings.accessPages.members.retryLoad	重试
+settings.accessPages.members.role	角色
+settings.accessPages.members.roleGrantedViaIdpGroupEdit	角色经 IdP 组授予：编辑组映射以改它
+settings.accessPages.members.roleUpdatedSuccessfully	角色更新成功
+settings.accessPages.members.searchForGroup	搜索组
+settings.accessPages.members.searchForMember	搜索成员
+settings.accessPages.members.seatFlex	Flex
+settings.accessPages.members.seatFree	免费
+settings.accessPages.members.seatFreeUntil	免费到 {{date}}
+settings.accessPages.members.seatFull	全席位
+settings.accessPages.members.seatFullDescription	固定月度席位，Devin 和 {{ideName}} 都享与 Pro 方案等量的免费用量配额。
+settings.accessPages.members.seatPricePerMonth	{{price}}/月
+settings.accessPages.members.seatRequestApproved	席位申请已批准
+settings.accessPages.members.seatRequestDeclined	席位申请已拒绝
+settings.accessPages.members.seatRequestsLength	席位申请（{{length}}）
+settings.accessPages.members.seatType	席位类型
+settings.accessPages.members.seatTypeCantChangedMembersWhose	经 IdP 组授予访问的成员改不了席位类型
+settings.accessPages.members.seatTypeUpdated	席位类型已更新
+settings.accessPages.members.singleSeatPlan	单席位方案
+settings.accessPages.members.teamsSubscriptionInactive	你的 Teams 订阅目前不活跃。解决订阅状态以管理成员
+settings.accessPages.members.thereNoDataSelectedOrganization	所选组织没有数据
+settings.accessPages.members.thisMember	此成员
+settings.accessPages.members.thisSeatWillBecomeAvailableCan	此席位将空出并可分给别人。
+settings.accessPages.members.updatingGroupRole2	正在更新组角色
+settings.accessPages.members.updatingRole2	正在更新角色
+settings.accessPages.members.weCouldntCompleteChargeAutomaticallyBank	自动扣款没成——你的银行可能要确认（3D Secure）。完成付款以结束。
+settings.accessPages.members.yourCurrentPlanSupportsOnly1	你当前方案只支持 1 个成员。<lnk>升到 Teams 方案</lnk>加更多成员。
+settings.accessPages.members.yourRequestFullSeatHasBeen	你的全席位申请已发给你的团队管理员审查。
+settings.accessPages.members.yourTeamsSubscriptionNotCurrentlyActive	你的 Teams 订阅目前不活跃。解决订阅状态以管理成员。
+settings.accessPages.members.youreCurrentlyAuthenticatedWithCliToken	你目前用 CLI token 认证，不支持成员管理。换 GitHub App 以邀和管理成员。
+settings.accessPages.scimProvisioning.activeSince	活跃自 {{date}}
+settings.accessPages.scimProvisioning.activeSinceUnknown	活跃自未知
+settings.accessPages.scimProvisioning.automaticallySyncIdpGroupMembershipsWhen	用户经 SAML/OIDC SSO 登录时自动同步 IdP 组成员身份。通过 SCIM 供应用户时建议关掉以防访问不一致。
+settings.accessPages.scimProvisioning.copied	已复制！
+settings.accessPages.scimProvisioning.copyScimBaseUrl	复制 SCIM base URL
+settings.accessPages.scimProvisioning.couldNotDetermineSsoJustTime	确定不了 SSO just-in-time 供应状态。用 SCIM 时建议手动关掉它。
+settings.accessPages.scimProvisioning.failedCopyUrl	复制 URL 失败
+settings.accessPages.scimProvisioning.failedGenerateScimToken	生成 SCIM token 失败
+settings.accessPages.scimProvisioning.failedLoadPleaseTryAgain	加载失败。请重试。
+settings.accessPages.scimProvisioning.failedLoadScimProvisioningStatusPlease	加载 SCIM 供应状态失败。请重试。
+settings.accessPages.scimProvisioning.failedRevokeScimToken	吊销 SCIM token 失败
+settings.accessPages.scimProvisioning.failedTurnOffSsoJustTime	关 SSO just-in-time 供应失败。用 SCIM 时建议手动关掉它。
+settings.accessPages.scimProvisioning.failedUpdateJitProvisioningSetting	更新 JIT 供应设置失败
+settings.accessPages.scimProvisioning.generateToken	生成 token
+settings.accessPages.scimProvisioning.generateTokenAutomaticallySyncUsersFrom	生成 token 经 SCIM 从你的身份提供商自动同步用户
+settings.accessPages.scimProvisioning.generating	生成中…
+settings.accessPages.scimProvisioning.justTimeJitProvisioning	Just-in-time（JIT）供应
+settings.accessPages.scimProvisioning.newTokenGeneratedButFailedRevoke	新 token 已生成，但吊销旧 token 失败。去服务用户页手动删它。
+settings.accessPages.scimProvisioning.pasteToken	把此 token 连同供应设置里的 SCIM base URL 粘到你身份提供商的 SCIM 配置。
+settings.accessPages.scimProvisioning.pasteTokenJitDisabled	把此 token 连同供应设置里的 SCIM base URL 粘到你身份提供商的 SCIM 配置。注意：SSO just-in-time（JIT）供应已关，IdP 组成员身份只经 SCIM 管理。
+settings.accessPages.scimProvisioning.revoke	吊销
+settings.accessPages.scimProvisioning.revokeScimToken	吊销 SCIM token
+settings.accessPages.scimProvisioning.rotateToken	轮换 token
+settings.accessPages.scimProvisioning.rotating	轮换中…
+settings.accessPages.scimProvisioning.scimBearerToken	SCIM bearer token
+settings.accessPages.scimProvisioning.scimBearerTokenGenerated	SCIM bearer token 已生成
+settings.accessPages.scimProvisioning.scimTokenRevoked	SCIM token 已吊销
+settings.accessPages.scimProvisioning.ssoJustTimeProvisioningDisabled	SSO just-in-time 供应已关
+settings.accessPages.scimProvisioning.ssoJustTimeProvisioningEnabled	SSO just-in-time 供应已开
+settings.accessPages.scimProvisioning.thisTokenWillOnlyShownOnce	此 token 只显示一次。务必复制并安全存放。关掉此弹窗将再看不到，需生成新的。
+settings.accessPages.scimProvisioning.thisWillImmediatelyRevokeScimBearer	这会立刻吊销 SCIM bearer token。生成新 token 前你身份提供商再也同步不了用户。
+settings.accessPages.securityProfiles.automationsDefaultCleared	自动化默认已清
+settings.accessPages.securityProfiles.automationsDefaultUpdated	自动化默认已更新
+settings.accessPages.securityProfiles.copyProfileId	复制配置 ID
+settings.accessPages.securityProfiles.createProfile	建配置
+settings.accessPages.securityProfiles.defaultEnterpriseProfileCleared	默认企业配置已清
+settings.accessPages.securityProfiles.defaultEnterpriseProfileUpdated	默认企业配置已更新
+settings.accessPages.securityProfiles.defaultOrgProfileCleared	默认组织配置已清
+settings.accessPages.securityProfiles.defaultOrgProfileUpdated	默认组织配置已更新
+settings.accessPages.securityProfiles.editProfile	编辑配置
+settings.accessPages.securityProfiles.enforced	强制
+settings.accessPages.securityProfiles.enterpriseDefaultDisabledForOrg	此组织已禁企业默认
+settings.accessPages.securityProfiles.enterpriseDefaultEnforcedDescription	应用于每个组织的新会话。组织只能更严，不能覆盖。
+settings.accessPages.securityProfiles.enterpriseProfiles	企业配置
+settings.accessPages.securityProfiles.failedClearDefaultProfile	清默认配置失败
+settings.accessPages.securityProfiles.failedCopyProfileId	复制配置 ID 失败
+settings.accessPages.securityProfiles.failedCreateProfile	建配置失败
+settings.accessPages.securityProfiles.failedLoadProfiles	加载安全配置失败。
+settings.accessPages.securityProfiles.failedUpdateAutomationsDefault	更新自动化默认失败
+settings.accessPages.securityProfiles.failedUpdateDefaultProfile	更新默认配置失败
+settings.accessPages.securityProfiles.failedUpdateProfile	更新配置失败
+settings.accessPages.securityProfiles.fullGitAccess	完整 git 访问
+settings.accessPages.securityProfiles.inheritEnterpriseDefault	继承企业默认
+settings.accessPages.securityProfiles.inheritEnterpriseDefaultNamed	继承企业默认（{{name}}）
+settings.accessPages.securityProfiles.inheritSessionDefault	继承会话默认
+settings.accessPages.securityProfiles.inheritSessionDefaultNamed	继承会话默认（{{name}}）
+settings.accessPages.securityProfiles.inheritSessionDefaultNoProfile	继承会话默认（无配置）
+settings.accessPages.securityProfiles.nameAlreadyExists	已有同名配置
+settings.accessPages.securityProfiles.nameTooLong	名字至多 {{max}} 字符
+settings.accessPages.securityProfiles.noNetworkPolicy	无网络策略
+settings.accessPages.securityProfiles.noProfilesConfigured	没配置安全配置。建一个开始。
+settings.accessPages.securityProfiles.noProfilesOwnedByOrg	此组织没有安全配置。建一个开始。
+settings.accessPages.securityProfiles.noSecurityProfile	无安全配置
+settings.accessPages.securityProfiles.orgProfiles	组织配置
+settings.accessPages.securityProfiles.profileCreated	配置已建
+settings.accessPages.securityProfiles.profileUpdated	配置已更新
+settings.accessPages.securityProfiles.readOnlyGit	只读 git
+settings.accessPages.securityProfiles.selectProfile	选择配置
+settings.accessPages.serviceUsers.accessLimitedOneOrganization	访问限一个组织
+settings.accessPages.serviceUsers.accessSpansEveryOrganizationEnterprise	访问跨企业里每个组织
+settings.accessPages.serviceUsers.allOrganizations	全部组织
+settings.accessPages.serviceUsers.allRoles	全部角色
+settings.accessPages.serviceUsers.copyRoleId	复制角色 ID
+settings.accessPages.serviceUsers.createdAt	创建时间
+settings.accessPages.serviceUsers.deleteServiceUser	删服务用户
+settings.accessPages.serviceUsers.displayName	显示名
+settings.accessPages.serviceUsers.enterDisplayName	输入显示名
+settings.accessPages.serviceUsers.enterDisplayName2	显示名为必填项
+settings.accessPages.serviceUsers.enterpriseOnly	仅企业
+settings.accessPages.serviceUsers.enterpriseRole	企业角色
+settings.accessPages.serviceUsers.enterpriseRoles	企业角色
+settings.accessPages.serviceUsers.enterpriseServiceUser	企业服务用户
+settings.accessPages.serviceUsers.expiration	过期时间
+settings.accessPages.serviceUsers.expiresAt	过期于
+settings.accessPages.serviceUsers.failedCopyRoleId	复制角色 ID 失败
+settings.accessPages.serviceUsers.failedProvisionServiceUser	发放服务用户失败
+settings.accessPages.serviceUsers.grantsEnterprisePermissionsSuchAsUse	授企业权限如「用 AI Gateway」，用量仍在所选组织
+settings.accessPages.serviceUsers.loadFailedDescription	服务用户列表没加载出来。稍后再试。
+settings.accessPages.serviceUsers.loadFailedTitle	加载不了服务用户
+settings.accessPages.serviceUsers.name	名称
+settings.accessPages.serviceUsers.never	永不
+settings.accessPages.serviceUsers.noOrganizationsFound	找不到组织。
+settings.accessPages.serviceUsers.noRoleAssigned	未派角色
+settings.accessPages.serviceUsers.noServiceUsersYet	还没有服务用户
+settings.accessPages.serviceUsers.none	无
+settings.accessPages.serviceUsers.orgScopeAll	全部
+settings.accessPages.serviceUsers.organization2	组织
+settings.accessPages.serviceUsers.organizationRole	组织角色
+settings.accessPages.serviceUsers.organizationRoles	组织角色
+settings.accessPages.serviceUsers.organizationServiceUser	组织服务用户
+settings.accessPages.serviceUsers.provision	发放
+settings.accessPages.serviceUsers.provisionEnterprise	发放企业服务用户
+settings.accessPages.serviceUsers.provisionOrganization	发放组织服务用户
+settings.accessPages.serviceUsers.provisionServiceUser	发放服务用户
+settings.accessPages.serviceUsers.provisionServiceUserSeeThemListed	发放服务用户以在这里看到。
+settings.accessPages.serviceUsers.provisioning	发放中…
+settings.accessPages.serviceUsers.provisioningEnterprise	正在发放企业服务用户…
+settings.accessPages.serviceUsers.provisioningOrganization	正在发放组织服务用户…
+settings.accessPages.serviceUsers.retryLoad	重试
+settings.accessPages.serviceUsers.roleName	角色名
+settings.accessPages.serviceUsers.scope	作用域
+settings.accessPages.serviceUsers.scopeEnterprise	企业
+settings.accessPages.serviceUsers.scopeOrganization	组织
+settings.accessPages.serviceUsers.searchOrganizations	搜索组织…
+settings.accessPages.serviceUsers.searchServiceUser	搜索服务用户
+settings.accessPages.serviceUsers.selectExpiration	选过期时间
+settings.accessPages.serviceUsers.selectOrganization	选择组织
+settings.accessPages.serviceUsers.selectOrganization2	选一个组织
+settings.accessPages.serviceUsers.selectRole	选择角色
+settings.accessPages.serviceUsers.selectRole2	选一个角色
+settings.accessPages.serviceUsers.serviceUserProvisionedSuccessfully	服务用户发放成功
+settings.accessPages.serviceUsers.unknownOrganization	未知组织
+settings.acpRegistry	ACP registry
+settings.acpRegistryConfig	ACP registry 配置
+settings.acpRegistryConfigDescription	配置你团队可用的 ACP agent
+settings.acpRegistryConfigHelp	JSON 必须遵 ACP registry schema：带 <code>version</code> 字段和 <code>agents</code> 数组。每个 agent 必须有 <code>id</code>、<code>name</code>、<code>version</code>、<code>description</code> 和至少一种方法（npx、uvx、binary 或 websocket）的 <code>distribution</code>
+settings.acpRegistryConfigLabel	Registry 配置
+settings.acpRegistryConfigPlaceholder	输入像这样例的配置：
+settings.acpRegistryConfigSaveFailed	存 ACP registry 配置失败
+settings.acpRegistryConfigSaved	ACP registry 配置已存
+settings.acpRegistryConfiguration	ACP registry 配置
+settings.acpRegistryConfigurationDescription	配置静态 ACP agent registry
+settings.activeSnapshot	活跃快照
+settings.activeSnapshotDescription	当前活跃的环境快照
+settings.acuAmount_one	{{count, number}} ACU
+settings.acuAmount_other	{{count, number}} ACU
+settings.acuLimitPreviewAsOf	用量截至 {{time}}。
+settings.acuLimitPreviewBlocked_one	{{count}} 个用户将被挡用不了 Devin。
+settings.acuLimitPreviewBlocked_other	{{count}} 个用户将被挡用不了 Devin。
+settings.acuLimitPreviewTitle	审查 ACU 上限变更
+settings.acuLimitPreviewUnavailable	查不了此变更影响谁，但仍会应用。
+settings.acuLimitUntil	{{amount}} 到 {{date}} 为止
+settings.acuRequestAction	上限警告操作
+settings.acuRequestActionDescription	应用于成员看到的每个上限警告
+settings.acuRequestActionDevinForm	在 Devin 申请更多用量
+settings.acuRequestActionDevinFormDescription	管理员在 Devin 批或拒申请
+settings.acuRequestActionExternalLink	链到你自己的工具
+settings.acuRequestActionExternalLinkDescription	开你提供的 URL 而非 Devin 申请表
+settings.acuRequestActionHidden	仅警告
+settings.acuRequestActionHiddenDescription	成员看警告但没有下一步
+settings.acuRequestActionLabelLabel	操作文本
+settings.acuRequestActionLinkPlaceholder	申请更多用量
+settings.acuRequestActionNotEnabled	此企业没开可配置上限警告操作
+settings.acuRequestActionReset	重置为默认
+settings.acuRequestActionSaveError	更新不了上限警告操作
+settings.acuRequestActionSaved	上限警告操作已更新
+settings.acuRequestActionTextOnly	只显示说明
+settings.acuRequestActionTextOnlyDescription	显示你提供的文本，没有链接或按钮
+settings.acuRequestActionTextPlaceholder	请你账户管理员提额
+settings.acuRequestActionUrlInvalid	输入以 https:// 开头的完整 URL
+settings.acuRequestActionUrlLabel	目标 URL
+settings.acuRequestExperience	申请体验
+settings.acuRequestExperienceDescription	成员到 ACU 上限时能做什么
+settings.acuRequestNotifications	邮件通知
+settings.acuRequestSettings	额外用量申请设置
+settings.acuRequestSettingsDescription	配置成员怎么申请额外用量、哪些管理员收邮件通知
+settings.acuRequestSettingsSidebarLabel	额外用量申请设置

@@ -1,0 +1,160 @@
+worklog.memoryDriveSyncedTitle	已更新记忆
+worklog.memoryDriveSyncedTitleWithSummary	已更新记忆：{{summary}}
+worklog.memoryDriveSyncedTitleWithSummary_bot	已更新 {{botName}} 记忆：{{summary}}
+worklog.memoryDriveSyncedTitleWithSummary_user	已更新个人记忆：{{summary}}
+worklog.memoryDriveSyncedTitle_bot	已更新 {{botName}} 记忆
+worklog.memoryDriveSyncedTitle_user	已更新个人记忆
+worklog.memoryIndexClearFailed	清记忆索引失败
+worklog.memoryIndexCleared	已清记忆索引
+worklog.memoryIndexUpdateFailed	更新记忆索引失败
+worklog.memoryIndexUpdated	已更新记忆索引
+worklog.memoryNoteRemoveFailed	移除记忆笔记 {{name}} 失败
+worklog.memoryNoteRemoved	已移除记忆笔记 {{name}}
+worklog.memoryNoteSaveFailed	存记忆笔记 {{name}} 失败
+worklog.memoryNoteSaved	已存记忆笔记 {{name}}
+worklog.mergeIntoMainChat	并进主聊
+worklog.moreFiles	+还有 {{hiddenCount}} 个文件
+worklog.needPermissionToApprove	你需 {{permission}} 权限批此请求
+worklog.networkConfigAppliesToSquad	允许目标的更改应用于此 {{botName}} 全部会话，含它起的。
+worklog.networkConfigAppliesToSquad_named	允许目标的更改应用于 {{botName}} 全部会话，含它起的。
+worklog.networkConfigDescriptionNextWake	配此会话能访问的网络目标。更新的配置下次此会话醒来生效
+worklog.networkConfigDescriptionWillSleep	配此会话能访问的网络目标。存会让 Devin 休眠——发条新消息以更新配置唤醒
+worklog.networkConfigDescriptionWithoutSleep	配此会话能访问的网络目标。更改应用于跑着会话，不使之休眠
+worklog.networkConfigUpdated	网络配置已更新。
+worklog.networkConfigUpdatedResumed	网络配置已更新。唤醒 Devin 以新配置重试。
+worklog.networkConfigUpdatedSleep	网络配置已更新。Devin 短暂休眠应用它并会自己醒。
+worklog.networkControlsDisabled	此会话网络控制已禁。
+worklog.networkPolicyUnavailable	加载不了网络政策。
+worklog.networkRequestAlreadyResolved	网络访问请求已解决。
+worklog.newEnvironmentNamed	新环境 {{name}}
+worklog.newerSuggestionAvailable	有更新建议可用
+worklog.noChanges	无更改
+worklog.noPermissionBypassPermissions	你没权改本地机权限
+worklog.noPermissionEditCodeScanProfiles	你没权编代码扫描配置
+worklog.noPermissionManageAcuLimits	你没权管 ACU 上限
+worklog.noPermissionManageEnvConfig	你没权管环境配置
+worklog.noPermissionManageKnowledge	你没权管知识
+worklog.noPermissionManagePlaybooks	你没权管 playbook
+worklog.noPermissionRevokeAction	你没权断开此本地机
+worklog.noPermissionToApprove	你没权批此请求
+worklog.noPlaybook	无 playbook
+worklog.noProfileChanges	无配置更改
+worklog.notifyMentionConfirm	通知
+worklog.notifyMentionSkip	暂不
+worklog.notifyMentionTitle	通知 {{name}} 你提了他？
+worklog.notifyMentionTitleUnnamed	通知你提的人？
+worklog.oneOfCountQuestion	{{count}} 中第 1：{{question}}
+worklog.onlyProfileManagersChangeSecurityProfile	只配置管理员能改此会话安全配置。
+worklog.onlyProfileManagersEditNetworkPolicy	只配置管理员能编此会话网络政策
+worklog.openDismissedQuestion	开已消问题
+worklog.openInPlayground	在 playground 开
+worklog.openInSidebar	在侧栏开
+worklog.openPrToAddSkill	开 PR 把此技能加到 {{repoShort}}
+worklog.openPrToUpdateFile	开 PR 更新仓库里 {{filePath}}
+worklog.openPrToUpdateSkill	开 PR 在 {{repoShort}} 更新此技能
+worklog.openWiki	开 wiki
+worklog.optionsBotIdeasTitle	让此 {{botName}} 干活
+worklog.optionsPickFailed	发不了。重试。
+worklog.optionsPicked	已选
+worklog.organization	组织
+worklog.organizationBlueprint	组织 blueprint
+worklog.otherAnswers	其它回答
+worklog.outdated	已过期
+worklog.outdatedSuggestion	过期建议
+worklog.pairingCodeExpiresAt	配对码一次性，{{expiresAt}} 过期。
+worklog.permissionArgDetails	详情
+worklog.permissionNeeded	需权限
+worklog.personalPluginAssetCreateFailed	建 {{scope}} {{kind}} {{name}} 失败
+worklog.personalPluginAssetCreated	已建 {{scope}} {{kind}} {{name}}
+worklog.personalPluginAssetRemoveFailed	移除 {{scope}} {{kind}} {{name}} 失败
+worklog.personalPluginAssetRemoved	已移除 {{scope}} {{kind}} {{name}}
+worklog.personalPluginAssetSaveFailed	存 {{scope}} {{kind}} {{name}} 失败
+worklog.personalPluginAssetSaved	已存 {{scope}} {{kind}} {{name}}
+worklog.personalPluginAssetUpdateFailed	更新 {{scope}} {{kind}} {{name}} 失败
+worklog.personalPluginAssetUpdated	已更新 {{scope}} {{kind}} {{name}}
+worklog.personalPluginInstallFailed	装 {{scope}} 插件 {{name}} 失败
+worklog.personalPluginInstalled	已装 {{scope}} 插件 {{name}}
+worklog.personalPluginKindHook	hook 事件
+worklog.personalPluginKindMcp	MCP 服务器
+worklog.personalPluginKindRule	规则
+worklog.personalPluginKindSkill	技能
+worklog.personalPluginScopeAccount	企业
+worklog.personalPluginScopeOrg	组织
+worklog.personalPluginScopePersonal	个人
+worklog.personalPluginUninstallFailed	卸 {{scope}} 插件 {{name}} 失败
+worklog.personalPluginUninstalled	已卸 {{scope}} 插件 {{name}}
+worklog.planModeRequiresIndexed	Plan 模式要 {{repoLabel}} 已索引
+worklog.playbook	Playbook
+worklog.pluginApprovalCreate	建 {{kind}} {{name}}
+worklog.pluginApprovalFailed	失败
+worklog.pluginApprovalInstall	装插件
+worklog.pluginApprovalInvalidJson	存的插件或所提内容不是有效 JSON，所以此写会被拒。
+worklog.pluginApprovalNoContent	此请求没带可显内容。
+worklog.pluginApprovalRemove	移除 {{kind}} {{name}}
+worklog.pluginApprovalStoredUnavailable	读不了存的插件；单独显所提文件。
+worklog.pluginApprovalUninstall	卸插件 {{name}}
+worklog.pluginApprovalUpdate	更新 {{kind}} {{name}}
+worklog.plushieCancel	取消
+worklog.plushieCancelFailed	关不了此表单。稍后再试。
+worklog.plushieCancelled	表单已关。改主意就问 Devin。
+worklog.plushieChecking	查邀请中…
+worklog.plushieFailed	出了错。稍后再试。
+worklog.plushieFieldAddress1	地址
+worklog.plushieFieldAddress2	地址行 2
+worklog.plushieFieldCity	城市
+worklog.plushieFieldCountry	国家
+worklog.plushieFieldEmail	邮箱
+worklog.plushieFieldInvalid	查此值
+worklog.plushieFieldName	全名
+worklog.plushieFieldPhone	电话
+worklog.plushieFieldState	州或地区
+worklog.plushieFieldZip	邮编
+worklog.plushieIntro	我该寄哪？
+worklog.plushieInvalid	有些信息不对。核一下再试。
+worklog.plushieOpenInWebapp	<sessionLink>在 web 应用开</sessionLink>填你收货信息。
+worklog.plushieOwnerOnly	此玩偶是别人求的！别处问我自己领。
+worklog.plushieReady	你信息直达 Cognition，不给 Devin
+worklog.plushieReceivedBody	玩偶在路上！
+worklog.plushieReceivedEyebrow	请求已收
+worklog.plushieRequired	填必填字段
+worklog.plushieSending	发中…
+worklog.plushieSubmit	提交
+worklog.plushieSuperseded	此表单已关。在更新的表单继续。
+worklog.plushieTitle	玩偶请求
+worklog.plushieUnavailable	此玩偶活动现在不可用。
+worklog.plushieUnavailableEyebrow	不可用
+worklog.plushieUnconfirmed	可能出了错。请稍后再试。
+worklog.prAuthorApproveScope	让此 {{botName}} 以你名义开拉取请求，直到你在其访问页关掉
+worklog.prAuthorApprovedFor	已批开拉取请求
+worklog.prAuthorDeniedFor	已拒开拉取请求
+worklog.prAuthorRepoLabel	仓库
+worklog.prAuthorTitle	此 bot 想以你名义开拉取请求
+worklog.prAuthorTitleLabel	拉取请求
+worklog.prCreated	PR 已建
+worklog.prCreatedNumber	PR #{{prNumber}} 已建
+worklog.profileUpdated	配置已更新
+worklog.queryFilter	查询：「{{query}}」
+worklog.questionDismissed	问题已消
+worklog.queuedIndexingShortly	已排队——索引马上开始
+worklog.queuedIndexingWillStartShortly	已排队——索引马上开始
+worklog.ranHook	跑了 hook：
+worklog.ranWorkflow	跑了 workflow
+worklog.readResourceFrom	从 {{target}} 读了资源 {{resourceUri}}
+worklog.readingResourceFrom	从 {{target}} 读资源 {{resourceUri}} 中
+worklog.recap	回顾
+worklog.recapWithTitle	回顾：{{title}}
+worklog.reconnect	重连
+worklog.reloadedSkills	重载了技能（{{summary}}）
+worklog.replyThreadPlaceholder	回…
+worklog.replyThreadRestoreDraft	恢复草稿
+worklog.replyThreadSendFailed	发回复失败。
+worklog.replyThreadSendUnconfirmed	你回复可能没发出。发出会显在线程里。
+worklog.replyThreadViewOriginal	看原消息
+worklog.replyThreadViewOriginalWithPreview	看原消息：{{message}}
+worklog.repo	仓库
+worklog.repoCreationConnectOrg	连 GitHub
+worklog.repoCreationConnectOrgPrompt	连你某个 GitHub 组织以在这建仓库。
+worklog.repoCreationCreate	建仓库
+worklog.repoCreationCreateNamed	建 {{fullName}}
+worklog.repoCreationCreated	仓库已建
+worklog.repoCreationCreating	建中

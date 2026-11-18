@@ -1,0 +1,160 @@
+workspace.browserPreview.designControls.sideRight	右
+workspace.browserPreview.designControls.sideTop	上
+workspace.browserPreview.designControls.solid	实线
+workspace.browserPreview.designControls.spaceAround	环绕分布
+workspace.browserPreview.designControls.spaceBetween	两端分布
+workspace.browserPreview.designControls.spaceEvenly	均匀分布
+workspace.browserPreview.designControls.start	起点
+workspace.browserPreview.designControls.stretch	拉伸
+workspace.browserPreview.designControls.strike	删除线
+workspace.browserPreview.designControls.svgColor	SVG 颜色
+workspace.browserPreview.designControls.systemUi	系统 UI
+workspace.browserPreview.designControls.textAlignment	文本对齐
+workspace.browserPreview.designControls.textCase	大小写
+workspace.browserPreview.designControls.textColor	文本色
+workspace.browserPreview.designControls.textDecoration	文本修饰
+workspace.browserPreview.designControls.thin	极细
+workspace.browserPreview.designControls.trackAuto	自动
+workspace.browserPreview.designControls.underline	下划线
+workspace.browserPreview.designControls.uppercase	大写
+workspace.browserPreview.designControls.useDocumentShadow	用文档阴影 {{index}}
+workspace.browserPreview.designControls.vertical	垂直
+workspace.browserPreview.designControls.width	宽度
+workspace.browserPreview.designControls.wrapValue	换行
+workspace.browserPreview.designDelete	删元素
+workspace.browserPreview.designDeleted	元素已删
+workspace.browserPreview.designDocumentColors	文档颜色
+workspace.browserPreview.designDocumentShadows	文档阴影
+workspace.browserPreview.designDrawBox	画方框
+workspace.browserPreview.designDrawPencil	铅笔画
+workspace.browserPreview.designEditProperties	编属性
+workspace.browserPreview.designEditText	编文本
+workspace.browserPreview.designMovePanel	方向键移菜单。按 Enter 重置。
+workspace.browserPreview.designNoMatchingProperties	没匹配属性
+workspace.browserPreview.designPencilColors.charcoal	炭黑
+workspace.browserPreview.designPencilColors.crimson	绯红
+workspace.browserPreview.designPencilColors.forest	森绿
+workspace.browserPreview.designPencilColors.label	铅笔色
+workspace.browserPreview.designPencilColors.navy	藏青
+workspace.browserPreview.designPencilColors.ochre	赭色
+workspace.browserPreview.designPickPageColor	从页面取色
+workspace.browserPreview.designPrompt	描述个更改…
+workspace.browserPreview.designRedo	重做
+workspace.browserPreview.designReset	重置元素
+workspace.browserPreview.designResetProperty	重置：{{property}}
+workspace.browserPreview.designSearchOrCaption	搜或加说明…
+workspace.browserPreview.designSearchProperties	搜属性…
+workspace.browserPreview.designSearchVariables	搜 CSS 变量
+workspace.browserPreview.designSelectElement	选元素
+workspace.browserPreview.designSelectionTools	选择工具
+workspace.browserPreview.designSendTooLong	这些编辑太长发不了。缩短文本更改再试。
+workspace.browserPreview.designUndo	撤销
+workspace.browserPreview.designUnsentChanges_one	{{count}} 处未发更改
+workspace.browserPreview.designUnsentChanges_other	{{count}} 处未发更改
+workspace.browserPreview.designVariables	CSS 变量
+workspace.browserPreview.designVariablesFor	CSS 变量：{{property}}
+workspace.browserPreview.desktop	桌面
+workspace.browserPreview.deviceSize	设备尺寸
+workspace.browserPreview.findInPage	页内查找
+workspace.browserPreview.findNext	下一匹配
+workspace.browserPreview.findPlaceholder	查找
+workspace.browserPreview.findPrevious	上一匹配
+workspace.browserPreview.fontSize	字号
+workspace.browserPreview.forward	前进
+workspace.browserPreview.history	历史
+workspace.browserPreview.leftPreviewDescription	web 应用跟不了 Devin 预览外的站点。用 Devin Desktop 在会话旁浏览其它站点。
+workspace.browserPreview.leftPreviewTitle	此页离开了预览
+workspace.browserPreview.loadErrorDescription	被曝站点可能挡了 iframe 嵌入。
+workspace.browserPreview.loadErrorTitle	显不了此页
+workspace.browserPreview.mintErrorDescription	铸不了曝端口的访问链接。它可能不再曝，或你不是此会话所有者。
+workspace.browserPreview.mintErrorTitle	加载不了此预览
+workspace.browserPreview.mobile	手机
+workspace.browserPreview.needsAuthDescription	你浏览器挡了预览在此预览标签页加载。常因严格 cookie 或隐私设置。
+workspace.browserPreview.needsAuthSafariNote	macOS Sequoia 的 Safari 开「防跨站跟踪」时可能挡此 cookie。升到 macOS Tahoe 或在新标签页开应用。
+workspace.browserPreview.needsAuthTitle	此预览在这载不了
+workspace.browserPreview.noPort	无
+workspace.browserPreview.noPortsDescription	Devin 一曝端口此预览就载。
+workspace.browserPreview.noPortsTitle	还没曝端口
+workspace.browserPreview.openInNewTab	在新标签页开
+workspace.browserPreview.openInSystemBrowser	在系统浏览器开
+workspace.browserPreview.port	端口 {{port}}
+workspace.browserPreview.ports	端口
+workspace.browserPreview.preparing	备预览中…
+workspace.browserPreview.print	打印…
+workspace.browserPreview.publish	发布
+workspace.browserPreview.publishAsApp	发布应用
+workspace.browserPreview.publishAsAppFailed	到不了会话。重连后再试。
+workspace.browserPreview.publishAsAppMessage	用 `deploy_devin_app` 把端口 {{port}} 以 `{{name}}` 名发布为 Devin 应用。
+workspace.browserPreview.publishDescription	让此预览持久并可共享给你组织所有人
+workspace.browserPreview.published	已发布
+workspace.browserPreview.recentPages	最近页面
+workspace.browserPreview.reload	重载预览
+workspace.browserPreview.resetZoom	重置缩放
+workspace.browserPreview.retry	重试
+workspace.browserPreview.retrying	重试中…
+workspace.browserPreview.selectElement	选个元素，或拖选一片区域
+workspace.browserPreview.selecting	选中
+workspace.browserPreview.settings	预览设置
+workspace.browserPreview.stop	停止加载
+workspace.browserPreview.tablet	平板
+workspace.browserPreview.titlePlaceholder	我的应用
+workspace.browserPreview.titleRequired	标题必填
+workspace.browserPreview.unpublish	取消发布
+workspace.browserPreview.zoom	缩放
+workspace.browserPreview.zoomIn	放大
+workspace.browserPreview.zoomOut	缩小
+workspace.browserRetry	重试
+workspace.browserScreenshotAlt	浏览器截图
+workspace.browserScreenshotFailed	加载截图失败
+workspace.browserWakeToSeeLive	唤醒看实时
+workspace.browserWakingUp	醒中…
+workspace.changeCounts	{{additions}} 加，{{deletions}} 删
+workspace.changesSince	自 {{time}}
+workspace.citationLabel	引用 {{version}}
+workspace.citationLabelWithLines	引用 {{version}} · 行 {{start}}-{{end}}
+workspace.codemap.unavailable	此 codemap 不可用。
+workspace.collapseAllFiles	收起全部文件
+workspace.compareVersions	对比版本
+workspace.comparedTo	对比
+workspace.computerCaptureMouse	点击捕获鼠标
+workspace.computerConnectionFailed	连 Devin 电脑失败
+workspace.computerCopyStats	复制统计
+workspace.computerKeyboard	在远程电脑输
+workspace.computerOutpostsLearn	了解怎么为 Outpost 设电脑
+workspace.computerQualityAuto	自动
+workspace.computerQualityAutoHint	随你连接
+workspace.computerQualityDataSaver	省流量
+workspace.computerQualityDataSaverHint	最低带宽
+workspace.computerQualityEncodedUnsupported	此浏览器解码不了视频流，所以只 VNC 可用
+workspace.computerQualityReduced	{{mode}}（降质）
+workspace.computerQualitySharp	高清
+workspace.computerQualitySharpHint	最清晰画面，最耗带宽
+workspace.computerQualityVnc	VNC
+workspace.computerQualityVncHint	老查看器，无编码
+workspace.computerStats.boxFps	机器 FPS
+workspace.computerStats.captureMs	捕获（ms）
+workspace.computerStats.decodeMs	解码（ms）
+workspace.computerStats.encodeMs	编码（ms）
+workspace.computerStats.fpsHistory	FPS · 近 30s
+workspace.computerStats.jitterMs	抖动（ms）
+workspace.computerStats.latencyHistory	延迟 · 近 30s
+workspace.computerStats.networkHistory	网络 · 近 30s
+workspace.computerStats.now	现在
+workspace.computerStats.nowShort	现在
+workspace.computerStats.pacingMs	节奏（ms）
+workspace.computerStats.rttMs	RTT（ms）
+workspace.computerStats.secondsAgo	{{count}} 秒前
+workspace.computerStats.secondsShort	{{count}} 秒
+workspace.computerStats.tooltipBox	机器
+workspace.computerStats.tooltipCapture	捕
+workspace.computerStats.tooltipDecode	解
+workspace.computerStats.tooltipEncode	编
+workspace.computerStats.tooltipJitter	抖
+workspace.computerStats.tooltipPacing	节奏
+workspace.computerStats.tooltipRtt	RTT
+workspace.computerStats.tooltipViewer	查看器
+workspace.computerStats.viewerFps	查看器 FPS
+workspace.computerStatsForNerds	极客统计
+workspace.computerStreamQuality	流质量
+workspace.computerUnavailable	此机器无电脑
+workspace.connectingToComputer	连 Devin 电脑中…

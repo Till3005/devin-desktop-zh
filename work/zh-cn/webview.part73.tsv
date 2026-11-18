@@ -1,0 +1,270 @@
+sessionMenu.keepDevinAwakeQuotaExceeded	一次最多让 {{limit}} 个会话保持唤醒
+sessionMenu.keepDevinAwakeQuotaExceededHint	先把另一个会话的「保持唤醒」关掉。
+sessionMenu.knowledgeSuggestions	知识建议
+sessionMenu.makeVisibleToTeam	对团队可见
+sessionMenu.mcpManagedByPlugin	由插件管理
+sessionMenu.mcpServersEnabled_one	{{count}} 个 MCP 服务器已启用
+sessionMenu.mcpServersEnabled_other	{{count}} 个 MCP 服务器已启用
+sessionMenu.mcpServersLoadFailed	加载不了 MCP 服务器
+sessionMenu.mcpServersLoading	正在加载 MCP 服务器…
+sessionMenu.mcpServersNone	没配置 MCP 服务器
+sessionMenu.more	更多
+sessionMenu.noResults	没有结果
+sessionMenu.onDemandUsage	按需用量
+sessionMenu.openCustomizations	打开自定义
+sessionMenu.openIn	打开于
+sessionMenu.openInDevinDesktop	在 Devin Desktop 打开
+sessionMenu.openInDevinDesktopInsiders	在 Devin Desktop Insiders 打开
+sessionMenu.openInWdw	在 Watch Devin Work 打开
+sessionMenu.openInWeb	在网页浏览器打开
+sessionMenu.outpost	Outpost
+sessionMenu.platform	平台
+sessionMenu.rebootFailed	重启不了 Devin。请重试。
+sessionMenu.rebootVm	重启虚拟机
+sessionMenu.rebooting	重启中…
+sessionMenu.removeFromFolder	从文件夹移除
+sessionMenu.rename	重命名
+sessionMenu.replaySession	回放会话
+sessionMenu.reportSession	举报会话
+sessionMenu.search	搜索
+sessionMenu.searchFolders	搜索文件夹
+sessionMenu.sessionInsights	会话洞察
+sessionMenu.sessionLink	会话链接
+sessionMenu.sessionLinkCopied	会话链接已复制
+sessionMenu.sessionSize	会话大小
+sessionMenu.settings	会话设置
+sessionMenu.share	共享
+sessionMenu.shareSession	共享会话
+sessionMenu.shareSessionTitle	Devin 会话
+sessionMenu.showBotDeferredEvents	显示推迟事件
+sessionMenu.showBotFullTimeline	显示完整事件时间线
+sessionMenu.showHiddenHooks	显示隐藏 hook
+sessionMenu.showInternalInfo	显示内部信息
+sessionMenu.sshCommandCopied	SSH 命令已复制
+sessionMenu.sshCommandCopyFailed	复制命令失败
+sessionMenu.syncRequiresWriteAccess	你需要此会话的写权限才能改同步设置
+sessionMenu.syncSessionUnavailable	会话详情加载前同步设置不可用
+sessionMenu.turnOff	关掉
+sessionMenu.unarchive	取消归档
+sessionMenu.updateNetworkConfig	更新网络配置
+sessionMenu.usageLimits	会话用量上限
+sessionMenu.userMessages	用户消息
+sessionMenu.viewAutomation	看自动化
+sessionMenu.virtualizationDebug	虚拟化调试
+sessionMenu.webBrowser	网页浏览器
+sessionPrPreview.closePr	关闭拉取请求
+sessionPrPreview.copyBranchFailed	复制分支名失败
+sessionPrPreview.copyBranchName	复制分支名
+sessionPrPreview.copyContextTooltip	复制 Devin 工作和此 PR 的上下文以交接给另一个 agent
+sessionPrPreview.copyLink	复制链接
+sessionPrPreview.copyLinkFailed	复制链接失败
+sessionPrPreview.default	默认
+sessionPrPreview.manageGitSettings	管理 Git 设置
+sessionPrPreview.moreActions	更多操作
+sessionPrPreview.openInProvider	在 {{providerName}} 打开
+sessionPrPreview.openInReview	在 Devin Review 打开
+sessionPrPreview.openInSessionTab	在会话标签页打开
+sessionPrPreview.openLocally	本地打开
+sessionPrPreview.stackedPrs	堆叠拉取请求
+sessionPreviews.previews	预览
+sessionRejected.signIn	重新登录
+sessionRejected.title	你的会话已过期
+sessionSegmentation.activeDuration	活跃 {{duration}}
+sessionSegmentation.acuAmount	{{value}} ACU
+sessionSegmentation.acuPerMinute	{{rate}} ACU/分
+sessionSegmentation.byActiveTime	按时间（去停机）
+sessionSegmentation.byCategory	按类别
+sessionSegmentation.byCost	按成本
+sessionSegmentation.byTime	按时间
+sessionSegmentation.costRate	成本速率（宽=活跃时间，高=ACU/分）
+sessionSegmentation.failed	会话分段失败
+sessionSegmentation.minutesShort	{{minutes}} 分
+sessionSegmentation.olderEventsNotLoaded	更早事件还没加载，所以成本、活跃时间和标记只覆盖会话一部分。
+sessionSegmentation.phaseDebugging	调试
+sessionSegmentation.phaseFixingCi	修 CI
+sessionSegmentation.phaseImplementing	实现
+sessionSegmentation.phaseOther	其它
+sessionSegmentation.phaseResearching	调研
+sessionSegmentation.phaseReviewing	审查
+sessionSegmentation.phaseSetup	设置
+sessionSegmentation.phaseTesting	测试
+sessionSegmentation.phaseWaiting	等待
+sessionSegmentation.playground	Playground
+sessionSegmentation.prClosed	PR {{number}} 已关闭
+sessionSegmentation.prComment	PR 评论
+sessionSegmentation.prCommentBy	PR 评论 · {{author}}
+sessionSegmentation.prMerged	PR {{number}} 已合并
+sessionSegmentation.prOpened	PR {{number}} 已开
+sessionSegmentation.ratePerMinute	{{rate}}/分
+sessionSegmentation.showMarkers	显示标记
+sessionSegmentation.summary	会话分段：{{duration}} 内 <bold>{{count}}</bold> 段
+sessionSegmentation.totalDuration	共 {{duration}}
+sessionSegmentation.unavailable	此会话还没有分段。
+sessionSegmentation.userMessage	用户消息
+sessionSelect.daysAgo	{{days}} 天前
+sessionSelect.hoursAgo	{{hours}} 小时前
+sessionSelect.justNow	刚刚
+sessionSelect.loadFailed	加载会话失败。
+sessionSelect.loading	加载会话中…
+sessionSelect.minutesAgo	{{minutes}} 分钟前
+sessionSelect.noneFound	找不到会话。
+sessionSelect.searchSessions	按标题或 ID 搜会话…
+sessionShareInvite.back	返回
+sessionShareInvite.button	共享
+sessionShareInvite.centralizedBillingPerk	集中计费和管理
+sessionShareInvite.connect	连接
+sessionShareInvite.connectSlack	从 Slack 导入联系人
+sessionShareInvite.freeSessionsPerk	每人 2 个并发免费会话
+sessionShareInvite.invited_one	已邀 {{count}} 个队友到此会话
+sessionShareInvite.invited_other	已邀 {{count}} 个队友到此会话
+sessionShareInvite.newPlan	新方案
+sessionShareInvite.noPermissionDescription	只有团队管理员能邀新成员。复制链接把此会话分享给已在团队的的人。
+sessionShareInvite.submit	共享并邀请
+sessionShareInvite.switchAndSend	换方案并发邀请
+sessionShareInvite.title	邀你团队协作会话
+sessionShareInvite.upgrade	升到 Teams
+sessionShareInvite.upgradePending	你的 Teams 升级在处理中。付款过了才解锁邀请。
+sessionShareInvite.upgradedAndInvited_one	已换 Teams 并邀 {{count}} 个队友
+sessionShareInvite.upgradedAndInvited_other	已换 Teams 并邀 {{count}} 个队友
+sessionSharing.accountRead	账户里任何人 · 可读
+sessionSharing.accountRestrictedByPolicy	你账户策略把共享限在会话的组织内。
+sessionSharing.accountWrite	账户里任何人 · 可写
+sessionSharing.botConversation	{{botName}} 的对话通过共享 {{botName}} 共享。你仍可移除已存访问。
+sessionSharing.botConversation_named	{{botName}} 的对话通过共享 {{botName}} 共享。你仍可移除已存访问。
+sessionSharing.canManage	可共享
+sessionSharing.canManageDescription	可读、写和管理谁有访问权
+sessionSharing.canRead	可读
+sessionSharing.canReadDescription	可看活会话
+sessionSharing.canWrite	可写
+sessionSharing.canWriteDescription	可看活会话并给它发消息
+sessionSharing.copyLink	复制链接
+sessionSharing.description	与你账户里的人和角色共享活访问。已有权限的人保留其访问。
+sessionSharing.enterpriseRead	企业里任何人 · 可读
+sessionSharing.enterpriseWrite	企业里任何人 · 可写
+sessionSharing.generalAccess	通用访问
+sessionSharing.inheritedDescription	通过角色或账户权限的访问
+sessionSharing.policyRestricted	你账户策略挡住共享。你仍可移除已存访问。
+sessionSharing.removeSelfError	你不能移除自己共享此会话的访问。
+sessionSharing.restrictedAccess	仅被加的人
+sessionSharing.restrictedAccessDescription	对你组织隐藏。只有你和上面加的人能开此会话。
+sessionSharing.saveFailed	更新不了共享。刷新后重试。
+sessionSharing.saved	会话共享已更新
+sessionSharing.searchPlaceholder	加人、角色或团队
+sessionSharing.searchSavedPlaceholder	搜索有访问的人、角色或团队
+sessionSharing.standaloneEnvironmentWarning	你加的人能看此会话一切，有写权限还能完全控制它。
+sessionSharing.superusersCount_one	{{count}} 人有访问
+sessionSharing.superusersCount_other	{{count}} 人有访问
+sessionSharing.superusersDescription	Cognition 超管和支持能开此会话
+sessionSharing.superusersInheritedDescription	通过 Cognition 管理员角色的访问
+sessionSharing.superusersLoadFailed	加载不了列表
+sessionSharing.superusersTitle	Cognition 超管
+sessionSharing.teamAccess	你的组织
+sessionSharing.teamAccessDescription	此组织成员能按其角色找到并打开此会话。
+sessionSharing.title	共享「{{title}}」
+sessionSharing.widenAccountRead	账户里任何人将能读此会话，含已在里面的一切。
+sessionSharing.widenAccountWrite	账户里任何人将能读此会话，含已在里面的一切，并给它发消息。
+sessionSharing.widenConfirm	共享
+sessionSharing.widenEnterpriseRead	企业里任何人将能读此会话，含已在里面的一切。
+sessionSharing.widenEnterpriseWrite	企业里任何人将能读此会话，含已在里面的一切，并给它发消息。
+sessionSharing.widenTeam	此组织成员将能按其角色找到并打开此会话，含已在里面的一切。
+sessionSharing.widenTitle	把此会话共享给更多人？
+sessionSharing.writeRestricted	只有会话所有者能写此会话。
+sessionSharing.writeRestrictedByPolicy	你账户策略把写权限限给会话所有者。其他人只读。
+sessionSharingPicker.enterprise	你的企业
+sessionSharingPicker.enterpriseReadDescription	你企业里任何人能开此会话。
+sessionSharingPicker.enterpriseWriteDescription	你企业里任何人能开并写此会话。
+sessionSharingPicker.label	共享给
+sessionSharingPicker.lockedByDefault	你组织的新会话只对其创建者可见。你可在此会话开始后共享它。
+sessionSharingPicker.lockedByDefaultWithGroups	你组织的新会话只对其创建者可见。选用户组共享此会话，或开始后共享。
+sessionSharingPicker.lockedByEnvironment	此环境的会话用你自己的仓库访问跑，所以开始只对你可见。你可在此会话开始后共享它。
+sessionSharingPicker.lockedByEnvironmentWithGroups	此环境的会话用你自己的仓库访问跑，所以开始不能共享给你组织。选用户组共享此会话，或开始后共享。
+sessionSharingPicker.lockedByPolicy	你组织的策略使每个会话只对其创建者可见。
+sessionSharingPicker.noMatchingUserGroups	没有用户组匹配你的搜索。
+sessionSharingPicker.noUserGroups	你组织还没有用户组。
+sessionSharingPicker.oncallUnavailable	只共享给你的会话用不了 Oncall 模式。共享给组织才能发。
+sessionSharingPicker.onlyYou	仅你
+sessionSharingPicker.onlyYouDescription	对其他所有人隐藏。
+sessionSharingPicker.organizationDescription	{{org}} 成员能找到并打开此会话。
+sessionSharingPicker.slackChannelCanSee	附带的 Slack 频道仍能看此会话。
+sessionSharingPicker.slackChannelUnavailable	只共享给你的会话不能发到 Slack 频道。移除 Slack 频道或共享给组织才能发。
+sessionSharingPicker.triggerLabel	共享给：{{audience}}
+sessionSharingPicker.userGroups	用户组
+sessionSharingPicker.userGroupsCount_one	{{count}} 个用户组
+sessionSharingPicker.userGroupsCount_other	{{count}} 个用户组
+sessionSharingPicker.userGroupsDescription	只有你选的组成员能开此会话。
+sessionSharingPicker.userGroupsOncallUnavailable	共享给用户组的会话用不了 Oncall 模式。共享给组织才能发。
+sessionSharingPicker.userGroupsPicked	{{names, list}}
+sessionSharingPicker.userGroupsShareFailed	此会话共享给不了 {{names, list}}，所以只有你能看。从会话里再共享。
+sessionSharingPicker.userGroupsSlackChannelUnavailable	共享给用户组的会话不能发到 Slack 频道。移除 Slack 频道或共享给组织才能发。
+sessionStatus.awaitingApproval	Devin 在等操作批准
+sessionStatus.awaitingApprovalShort	等批准
+sessionStatus.awaitingInstructions	Devin 在等指令
+sessionStatus.awaitingInstructionsShort	等指令
+sessionStatus.awaitingResponse	Devin 在等你的回复
+sessionStatus.awaitingResponseDetails	Devin 在等你的回复。输「SLEEP」让 Devin 休眠。不活跃一段时间后 Devin 会自动休眠
+sessionStatus.checkpointRestored	检查点已恢复
+sessionStatus.dailyQuotaExceededTitle	超每日用量配额
+sessionStatus.devinIsUp	Devin 起来了。发消息开始工作
+sessionStatus.devinIsUpShort	Devin 起来了
+sessionStatus.devinStarting	正在启动…
+sessionStatus.devinThinking	Devin 在想…
+sessionStatus.goingToSleepInactivity	不活跃即将休眠。Devin 随时可唤醒
+sessionStatus.goingToSleepNetworkConfig	休眠以应用更新的网络配置
+sessionStatus.goingToSleepNoReason	即将休眠
+sessionStatus.goingToSleepOutOfCredits	额度用完即将休眠
+sessionStatus.goingToSleepShort	即将休眠…
+sessionStatus.loadingHistory	加载历史中…
+sessionStatus.queued	在给 Devin 找机器… Devin 在排队等。
+sessionStatus.queuedShort	Devin 在排队
+sessionStatus.quotaExceededBody	{{clause}}。查你的用量设置看详情。
+sessionStatus.quotaExceededClause	你的{{window}}用量配额已超且按需用量已用完
+sessionStatus.quotaExceededClauseWithReset	你的{{window}}用量配额已超且按需用量已用完。你的{{window}}配额 {{resetsIn}} 重置
+sessionStatus.quotaExceededGenericClause	你的用量配额已超且按需用量已用完
+sessionStatus.quotaExceededGenericSentence	你的用量配额已超且按需用量已用完
+sessionStatus.quotaExceededSentence	你的{{window}}用量配额已超且按需用量已用完
+sessionStatus.quotaExceededSentenceWithReset	你的{{window}}用量配额已超且按需用量已用完。你的{{window}}配额 {{resetsIn}} 重置
+sessionStatus.quotaExceededTitle	超用量配额
+sessionStatus.reloadingMemories	正在重载 Devin 的记忆…
+sessionStatus.revertingCheckpoint	Devin 在回退到上一个检查点
+sessionStatus.sessionExpired	会话已过期
+sessionStatus.sessionTerminated	会话已终止
+sessionStatus.sessionTooOld	会话太旧复活不了
+sessionStatus.sleepingContractExpired	Devin 休眠因为你组织的 Devin 合同结束了。联系你的账户团队续期。
+sessionStatus.sleepingIncreaseLimit	Devin 休眠中。要唤醒，[提高你的上限](/settings/plans)
+sessionStatus.sleepingIncreaseOrgLimit	Devin 休眠中。要唤醒，[提高你组织的上限](/organizations/{{orgId}})
+sessionStatus.sleepingIncreaseUserLimit	Devin 休眠中。要唤醒，请你账户管理员提高你的用量上限
+sessionStatus.sleepingNetworkConfig	Devin 休眠以应用更新的网络配置
+sessionStatus.sleepingNoQuotaAllocation	Devin 休眠因为你账户在个人方案上而你不是组织所有者。查你的[方案](/settings/plans)看详情。
+sessionStatus.sleepingOrgUsageLimitExceeded	Devin 休眠因为组织用量设置。需要企业管理员提高你组织的 ACU 上限才能继续。
+sessionStatus.sleepingOutOfCredits	Devin 休眠因为你账户额度用完。请查你的计费详情。
+sessionStatus.sleepingOutOfQuota	Devin 休眠因为{{description}}。查你的[用量设置](/settings/usage)看详情。
+sessionStatus.sleepingPaymentDeclined	Devin 休眠因为你组织最近一次付款失败。要唤醒，请[更新你的付款信息](/settings/plans)
+sessionStatus.sleepingRenewSubscription	Devin 休眠中。要唤醒，[管理你的订阅](/settings/plans)
+sessionStatus.sleepingTotalSessionLimitExceeded	Devin 休眠因为此会话超了会话总 ACU 上限。确认上限以继续或开新会话。
+sessionStatus.sleepingUsageLimitExceeded	Devin 撞到你的单条消息用量上限，自动暂停防失控消费。想让它继续？发条消息，或在[用量设置](/settings/usage?tab=limits)提高或移除上限。
+sessionStatus.sleepingUserInactivity	Devin 不活跃休眠中。发消息唤醒
+sessionStatus.sleepingUserUsageLimitExceeded	Devin 休眠因为你的单用户 ACU 上限超了。请你账户管理员提高你的用量上限以继续。
+sessionStatus.sleepingWakeByMessage	Devin 休眠中。发消息唤醒
+sessionStatus.waking	Devin 正在唤醒。
+sessionStatus.wakingForLint	Devin 正在唤醒以处理 lint 错误。
+sessionStatus.wakingForPullRequest	Devin 正在唤醒以处理 PR 反馈。
+sessionStatus.wakingWithEta	{{shortMessage}} 可能要 90 秒。
+sessionStatus.weeklyQuotaExceededTitle	超每周用量配额
+sessionStatus.working	Devin 干活中…
+sessionStatus.workingInBackground	Devin 在后台干活
+sessionTabs.addTab	加标签页
+sessionTabs.agents	Agent
+sessionTabs.agentsDescription	管理此会话的子会话
+sessionTabs.androidEmulator	Android 模拟器
+sessionTabs.androidEmulatorDescription	流式、控制和检查 Android 模拟器
+sessionTabs.artifacts	产物
+sessionTabs.artifactsDescription	此 {{botName}} 及其会话的文件
+sessionTabs.attachment	附件
+sessionTabs.attachments	附件
+sessionTabs.boards	看板
+sessionTabs.boardsDescription	在会话里显示 Devin Board
+sessionTabs.bulkScan	批量扫描
+sessionTabs.bulkScanDescription	看此批量扫描里每次扫描运行
+sessionTabs.campaign	Campaign
+sessionTabs.campaignDescription	跟踪 campaign 的设置和其实况仪表盘
+sessionTabs.childComputerNoAccess	你没有此会话电脑的访问权

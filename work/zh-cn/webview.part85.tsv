@@ -1,0 +1,200 @@
+settings.gatewayDestination	目的地
+settings.gatewayDestinationCount_one	{{count}} 个目的地
+settings.gatewayDestinationCount_other	{{count}} 个目的地
+settings.gatewayDialogDescription	gateway 把一组目的地带进你网络。选 Devin 怎么到它。
+settings.gatewayDocsLink	设置指南
+settings.gatewayEditEndpoint	编辑端点
+settings.gatewayEditEndpointTitle	编辑 {{name}} 的端点
+settings.gatewayEndpoint	端点
+settings.gatewayEndpointHelp	Cognition 给你的接口端点 DNS 名，和你 NLB 监听端口
+settings.gatewayEndpointHost	端点 DNS 名
+settings.gatewayEndpointHostInvalid	输有效 DNS 名
+settings.gatewayGenerateToken	生成 token
+settings.gatewayHealth	健康
+settings.gatewayHealthUnavailable	未报告
+settings.gatewayHealthUnavailableDescription	Devin 还不监控 PrivateLink gateway。查 Devin Connect 管理端口（9090）上的 /readyz。
+settings.gatewayLastSeen	最近见到 {{time}}
+settings.gatewayLastSeenNever	从未连过
+settings.gatewayListenPortInvalid	端口须 1 到 65535 之间，且不能 9090（管理端口）。
+settings.gatewayLoadError	加载 gateway 失败。
+settings.gatewayName	名称
+settings.gatewayNameInvalid	用小写字母、数字和连字符（至多 63 字符）。
+settings.gatewayNamePlaceholder	corp-network
+settings.gatewayNameTaken	已有同名 gateway。
+settings.gatewayNotConnected	未连接
+settings.gatewayNotEnabled	此账户没开 Devin Connect
+settings.gatewayNotEnabledDescription	Devin Connect 对企业账户按需开放。联系你的账户团队开通。
+settings.gatewayOpenDeploy	打开部署
+settings.gatewayPort	端口
+settings.gatewayPortInvalid	端口须 1 到 65535 之间。
+settings.gatewayPrivateLinkChecklist	PrivateLink 怎么设
+settings.gatewayPrivateLinkDraftExists	先完成或丢弃进行中的 PrivateLink 设置。
+settings.gatewayPrivateLinkListenPort	Devin Connect 端口
+settings.gatewayPrivateLinkListenPortHelp	Devin Connect 监听此端口。你 NLB 的目标组转发到它
+settings.gatewayPrivateLinkNlbPort	NLB 监听端口
+settings.gatewayPrivateLinkNlbPortHelp	Devin 在你端点上连的端口。默认 Devin Connect 端口（{{port}}）；你 NLB 监听用不同端口就改
+settings.gatewayPrivateLinkSetupConnectHelp	Cognition 给你服务建接口端点并发你其 DNS 名。在下面输。若你端点服务有已验证私有 DNS 名且 Cognition 已在端点开它，可改输那个名
+settings.gatewayPrivateLinkSetupCreate	建 gateway
+settings.gatewayPrivateLinkSetupDeployHelp	在能到这些目的地的 AWS 跑 Devin Connect。它监听 TCP {{port}}。下一步把你内部 Network Load Balancer 放它前面。
+settings.gatewayPrivateLinkSetupDiscard	丢弃
+settings.gatewayPrivateLinkSetupDraftNote	最后一步建 gateway 前什么都不存。你的进度保留到此页刷新。
+settings.gatewayPrivateLinkSetupNotCreated	设置进行中，还没建
+settings.gatewayPrivateLinkSetupService1	建一个带 TCP 监听的内部 Network Load Balancer，转发到 {{port}} 端口的 Devin Connect，再从它建 VPC 端点服务。监听可用任何端口；最后一步输。
+settings.gatewayPrivateLinkSetupService2	在端点服务上把 Cognition 的 AWS 账户加为 principal。你的 Cognition 联系人给你账户。
+settings.gatewayPrivateLinkSetupService3	把端点服务名（com.amazonaws.vpce.<region>.vpce-svc-…）发给你的 Cognition 联系人。
+settings.gatewayPrivateLinkSetupService4	接受来自 Cognition 端点的连接申请，或为 Cognition 账户开自动接受。
+settings.gatewayPrivateLinkSetupServiceSent	我已把端点服务名发给 Cognition
+settings.gatewayPrivateLinkStep1	用此 gateway 的配置部署 Devin Connect。
+settings.gatewayPrivateLinkStep2	放个内部 Network Load Balancer 在它前面。Devin 在 {{port}} 端口连其 TCP 监听。
+settings.gatewayPrivateLinkStep3	在 NLB 上建 VPC 端点服务并允许 Cognition 的 AWS principal。
+settings.gatewayPrivateLinkStep4	把端点服务名发给你的 Cognition 联系人。
+settings.gatewayPrivateLinkStep5	接受端点连接。Cognition 回发接口端点的 DNS 名。
+settings.gatewayPrivateLinkStep6	把那个 DNS 名和端口输为此 gateway 的端点。
+settings.gatewayRedeployNeeded	需重新部署
+settings.gatewayRegenerate	重新生成
+settings.gatewayRegenerateConfirm	当前 token 一分钟内失效，用它的一切 gateway 将断连直到用新 token 重启。
+settings.gatewayRegenerateToken	重新生成 token
+settings.gatewayRemoveRoute	移除 {{route}}
+settings.gatewayRouteTaken	{{route}} 已经 {{gateway}} 路由
+settings.gatewayRoutesEmpty	还没有目的地经此 gateway 路由。
+settings.gatewayRoutesError	存目的地失败。查每条是不带通配符的精确主机名，或 IPv4 地址或 CIDR。
+settings.gatewaySave	保存
+settings.gatewaySaveError	存 gateway 失败
+settings.gatewaySetupAwaitingConnection	然后等首次连接。
+settings.gatewaySetupBack	返回
+settings.gatewaySetupConnected	Devin 会话现在能到此 gateway 的目的地。
+settings.gatewaySetupDeployHelp	在能到这些目的地并能出站 443 的主机上跑 Devin Connect。模板永不含 enrollment token：它们提示输或读你建的 secret。
+settings.gatewaySetupDestinationsCurrent	已加：{{routes}}
+settings.gatewaySetupDestinationsHelp	Devin 该经此 gateway 到的主机名和 IPv4 CIDR。下一步写进配置。可跳过，之后在「目的地」标签页加或改
+settings.gatewaySetupDone	完成
+settings.gatewaySetupFinish	完成此隧道设置
+settings.gatewaySetupNext	下一步
+settings.gatewaySetupResume	继续设置
+settings.gatewaySetupSaveDestinations_one	加 {{count}} 个目的地并继续
+settings.gatewaySetupSaveDestinations_other	加 {{count}} 个目的地并继续
+settings.gatewaySetupSkip	暂时跳过
+settings.gatewaySetupStepConnect	连接
+settings.gatewaySetupStepDeploy	部署
+settings.gatewaySetupStepDestinations	加目的地
+settings.gatewaySetupStepEndpointService	端点服务
+settings.gatewaySetupStepInputs	输入
+settings.gatewaySetupStepName	名称
+settings.gatewaySetupStepToken	存 token
+settings.gatewaySetupTenant	租户名
+settings.gatewaySetupTenantHelp	从你 Devin 部署预填：{{endpoint}}。只有 Cognition 给你不同租户名才改
+settings.gatewaySetupTenantInvalid	只用字母、数字和连字符。
+settings.gatewaySetupTitle	设置 {{name}}
+settings.gatewaySetupTokenHelp	Devin Connect 用此 token 认证。它只显示一次，继续前存进你的机密管理器。
+settings.gatewaySetupTokenMissing	此 token 再显示不了。重新生成拿新的。
+settings.gatewaySetupTokenStored	我已把此 token 存到安全处
+settings.gatewaySetupWaiting	在等 Devin Connect 连接。状态每 30 秒刷新。
+settings.gatewayStatus	状态
+settings.gatewayTabDeploy	部署
+settings.gatewayTabDestinations	目的地
+settings.gatewayTabTitle	连接
+settings.gatewayTenantHelp	基于你专属部署的名。若你 gateway 解析不了，联系 Cognition。
+settings.gatewayToken	Enrollment token
+settings.gatewayTokenError	生成 enrollment token 失败
+settings.gatewayTokenGenerated	Token 生成于 {{time}}
+settings.gatewayTokenNotStored	当前 token 没存且再显示不了。重新生成以在新主机装 gateway。
+settings.gatewayTokenShownOnce	此 token 只显示一次。离开页面即隐藏；重新生成拿新的。
+settings.gatewayTunnelRequirements	需到此端点 443 端口的出站 TLS。无入站端口。
+settings.gatewayUnavailable	此账户没有 Devin Connect
+settings.gatewayUnavailableDescription	Devin Connect 需配了代理路由器的专属部署。联系你的账户团队开通。
+settings.gateways	Gateway
+settings.gatewaysDescription	每个 gateway 把它自己的目的地组带进你网络。
+settings.gatewaysEmpty	还没有 gateway。加一个开始把目的地路由进你网络。
+settings.general	常规
+settings.generalSettings	常规设置
+settings.generation	生成
+settings.gerrit	Gerrit
+settings.gerritAddConnection	加连接
+settings.gerritConfiguration	配置
+settings.gerritConnectButton	连接
+settings.gerritConnectDescription	Devin 用专用 Gerrit 服务账户并加密存其 HTTP 密码
+settings.gerritConnectFailed	连接失败。查 URL 和凭据。
+settings.gerritConnectTitle	连到 Gerrit
+settings.gerritConnected	Gerrit 已连
+settings.gerritConnecting	正在连 Gerrit
+settings.gerritConnectingButton	连接中…
+settings.gerritDisconnectConnection	断开
+settings.gerritDisconnectFailed	断开 Gerrit 失败
+settings.gerritDisconnected	Gerrit 已断开
+settings.gerritDisconnecting	正在移除 Gerrit 连接
+settings.gerritHttpToken	HTTP 密码
+settings.gerritHttpTokenDescription	服务账户的长寿命 HTTP 密码，在 Gerrit 的 Settings > HTTP Credentials。若账户没有网页登录，经 REST 生成：PUT /a/accounts/<username>/password.http 带 {"generate": true}。要 Gerrit 3.13 或更高。Devin 用它签发和续 180 天 auth token
+settings.gerritServiceAccount	服务账户用户名
+settings.gerritStatusFailed	加载 Gerrit 连接失败
+settings.gerritStatusFailedDescription	加载 Gerrit 连接时出错。加载出来前再连被禁。
+settings.gerritStatusRetry	重试
+settings.gerritUrl	Gerrit URL
+settings.gerritUrlDescription	你 Gerrit 服务器的 base URL，含任何 context path
+settings.ghCliTokenSecurityAccess	允许 gh CLI token 读安全数据
+settings.ghCliTokenSecurityAccessDescription	禁用时，Devin 会话里的 GitHub CLI token 读不了安全通告、code scanning 告警、secret scanning 告警或 Dependabot 告警
+settings.ghCliTokenSecurityAccessLockedByEnterprise	你企业管理员在全部组织关了 gh CLI token 的安全数据访问。
+settings.ghCliTokenSecurityAccessUpdateFailed	更新设置失败。请重试。
+settings.git	Git
+settings.gitCommitAttribution	Git 提交归属
+settings.gitCommitAttributionDescription	设 Devin 在你企业里怎么归属提交
+settings.gitCommitAuthor	Git 提交作者
+settings.gitCommitAuthorDescription	为 Devin 的提交设 git 作者和提交者
+settings.gitCommitEmail	Git 提交邮箱
+settings.gitCommitEmailDescription	设用于 git 提交的邮箱
+settings.gitIntegrationDescription	让 Devin 干活。你的仓库，超能力加持。
+settings.gitProvider	Git 提供商
+settings.gitProviderDescription	管理 GitHub 集成设置
+settings.gitProviderInteraction	Git 提供商交互
+settings.github	GitHub
+settings.githubAccountIdentityLinkFailed	启动不了 GitHub 登录
+settings.githubAccountIdentityOverride	仅此账户用。解绑回你默认 GitHub 账户。
+settings.githubAccountIdentityUseDifferent	在这用不同账户
+settings.githubConnectionsDescription	连一个 GitHub 组织或账户。要连另一个，用「加连接」。
+settings.githubEmail	（GitHub）
+settings.githubEnterprise	GitHub Enterprise
+settings.githubOrganizationMemberAllowlist	GitHub 组织成员白名单
+settings.githubOrganizationMemberAllowlistDescription	允许组织成员自动访问 Devin 会话
+settings.githubPatDialog.addFailed	加不了 Enterprise GitHub PAT。
+settings.githubPatDialog.added	Enterprise GitHub PAT 添加成功。
+settings.githubPatDialog.connectDescription	连 token 能访问的每个仓库。再把它们派给组织
+settings.githubPatDialog.connectTitle	连个人访问令牌（PAT）
+settings.githubPatDialog.hostnameInvalid	只输主机名，如 github.yourcompany.com
+settings.githubPatDialog.hostnameRequired	主机名为必填项
+settings.githubPatDialog.nameLabel	名称（供你参考）
+settings.githubPatDialog.namePlaceholder	PAT 名
+settings.githubPatDialog.nameRequired	Token 名为必填项
+settings.githubPatDialog.orgIdNotFound	找不到组织 ID
+settings.githubPatDialog.refreshDescription	新 token 替换此连接的当前 token
+settings.githubPatDialog.refreshFailed	刷新 PAT 失败。请查你 token 有效且有所指组织的访问。
+settings.githubPatDialog.refreshTitle	刷新连接
+settings.githubPatDialog.refreshed	PAT 刷新成功。
+settings.githubPatDialog.scopeWarning	加 PAT 前，再查你 token 时长和权限范围。
+settings.githubPatDialog.tokenLabel	Token
+settings.githubPatDialog.tokenRequired	Token 为必填项
+settings.githubRepositoryPermissions	GitHub 仓库权限
+settings.githubRepositoryPermissionsDescription	配置每个 Devin 组织可用的仓库
+settings.githubTokenDeniedPermissionActionsWrite	Actions 写访问
+settings.githubTokenDeniedPermissionCodeQuality	代码质量
+settings.githubTokenDeniedPermissionCodeScanningAlerts	Code scanning 告警
+settings.githubTokenDeniedPermissionDeployments	Deployments
+settings.githubTokenDeniedPermissionDiscussions	Discussions
+settings.githubTokenDeniedPermissionGroupDelivery	CI/CD 与发布
+settings.githubTokenDeniedPermissionGroupOrganization	组织
+settings.githubTokenDeniedPermissionGroupRepositories	仓库
+settings.githubTokenDeniedPermissionGroupSecurity	安全
+settings.githubTokenDeniedPermissionOrganizationAdministration	组织管理
+settings.githubTokenDeniedPermissionOrganizationCustomOrgRoles	自定义组织角色
+settings.githubTokenDeniedPermissionPackages	Packages
+settings.githubTokenDeniedPermissionPages	Pages
+settings.githubTokenDeniedPermissionRepositoryCreation	仓库创建
+settings.githubTokenDeniedPermissionRepositoryHooks	仓库 hook
+settings.githubTokenDeniedPermissionRepositoryProjects	仓库项目
+settings.githubTokenDeniedPermissionSecretScanningAlerts	Secret scanning 告警
+settings.githubTokenDeniedPermissionWorkflows	Workflow 文件
+settings.githubTokenDeniedPermissions	可选 GitHub 权限
+settings.githubTokenDeniedPermissionsDescription	允许 Devin 用这些 GitHub 权限
+settings.githubTokenDeniedPermissionsUpdateFailed	更新设置失败。请重试。
+settings.gitlab	GitLab
+settings.gitlabAppsApplicationId	应用 ID：{{appId}}
+settings.gitlabAppsConfirmRemove	确认移除
+settings.gitlabAppsDescription	看注册给 Devin 的应用，或移除一个以重注册同一主机。移除应用会解绑用户并清 Devin 存的配置——GitLab 里的应用要单独删。
+settings.gitlabAppsEmpty	还没注册过自托管 GitLab 应用。

@@ -1,0 +1,240 @@
+inputBox.suggestDefaultModeTitle	配置默认 Agent
+inputBox.switchAgentVersion	切换到 {{version}}
+inputBox.switchOrganizationFailed	无法切换组织。请重试。
+inputBox.tag	标签
+inputBox.taskTooLong	此任务太长
+inputBox.todoStarted	· 开始于 {{time}}
+inputBox.transcribeFailed	转写音频失败。请重试。
+inputBox.uploadFailed	上传 {{name}} 失败
+inputBox.usageQuotaExceeded	超出用量配额
+inputBox.userGroup	用户
+inputCommands.ask	切到 Ask 模式
+inputCommands.btw	在侧聊中提问
+inputCommands.queue	加入队列
+inputCommands.scan	运行代码扫描
+insights.coachDescription	你的团队如何回应 Devin 的指导，含最近 {{days}} 天全组织的建议结果
+insights.coachEmpty	Devin 在你的团队写提示词和干活时给予指导。建议结果会出现在这里。
+insights.coachLoadError	加载你组织的 coach 分析时出错。
+insights.devinCoach	Devin Coach
+insights.enterpriseCoachDescription	你的企业如何回应 Devin 的指导，含最近 {{days}} 天每个组织的建议结果
+insights.enterpriseCoachEmpty	Devin 在你的团队写提示词和干活时给予指导。建议结果会出现在这里。
+insights.enterpriseCoachEmptyForOrg	{{org}} 最近 {{days}} 天没有建议结果。
+insights.enterpriseCoachLoadError	加载你企业的 coach 分析时出错。
+integrationOAuth.githubLinkSlow	GitHub 关联比预期慢。刷新页面查其状态。
+integrations.azureDevops.webhook.buildCompleted	要让 Devin 对拉取请求上失败的流水线作出反应并使用构建自动化，请再为 <strong>Build completed</strong> 建一个订阅，资源版本 <strong>2.0</strong>（默认）。
+integrations.azureDevops.webhook.codePushed	要用推送自动化，请再为 <strong>Code pushed</strong> 建一个订阅。
+integrations.azureDevops.webhook.createThree	为下列每个事件各建<strong>三个</strong>独立的 Web Hooks 订阅：
+integrations.azureDevops.webhook.docs	Service hooks 文档
+integrations.azureDevops.webhook.eventCommented	拉取请求被评论
+integrations.azureDevops.webhook.eventCreated	拉取请求已创建
+integrations.azureDevops.webhook.eventUpdated	拉取请求已更新
+integrations.azureDevops.webhook.goToSettings	去你的 Azure DevOps 项目设置
+integrations.azureDevops.webhook.navigate	导航到 Service hooks
+integrations.azureDevops.webhook.setSecret	设置上方 webhook URL，并用本页的 secret token 作为 webhook 的<strong>基本认证密码</strong>。
+integrations.bitbucket.addFailed	添加 Bitbucket 集成失败
+integrations.bitbucket.added	Bitbucket 集成已添加
+integrations.bitbucket.adding	正在添加 Bitbucket Data Center 集成…
+integrations.bitbucket.dataCenterTitle	连接 Bitbucket Data Center
+integrations.bitbucket.hostRequired	主机为必填项
+integrations.bitbucket.httpToken	HTTP 访问令牌
+integrations.bitbucket.httpTokenPlaceholder	你的 HTTP 访问令牌
+integrations.bitbucket.httpTokenRequired	HTTP 访问令牌为必填项
+integrations.bitbucket.invalidHost	主机只能含小写字母、数字、连字符、下划线、句点，以及可选端口和可选路径 [a-z0-9-_.:port/path]
+integrations.bitbucket.learnHttpToken	了解如何创建 HTTP 访问令牌
+integrations.bitbucket.username	用户名
+integrations.bitbucket.usernamePlaceholder	your-username
+integrations.bitbucket.usernameRequired	用户名为必填项
+integrations.bitbucket.workspacePlaceholder	my-workspace
+integrations.common.back	返回
+integrations.common.close	关闭
+integrations.common.connect	连接
+integrations.common.connecting	正在连接…
+integrations.common.continue	继续
+integrations.common.enterHostname	主机名为必填项
+integrations.common.host	主机
+integrations.common.hostname	主机名
+integrations.common.integrationRemoved	集成已移除
+integrations.common.noOrganizationId	未找到组织 ID
+integrations.common.redirecting	正在跳转…
+integrations.common.saving	正在保存…
+integrations.common.somethingWentWrong	出错了
+integrations.github.autoJoinDisableFailed	禁用 GitHub 自动加入失败
+integrations.github.autoJoinEnableFailed	启用 GitHub 自动加入失败
+integrations.github.autoJoinEnabled	GitHub 自动加入已启用
+integrations.github.connectOrgFailed	连接 GitHub 组织失败
+integrations.github.connectedModal.accountConnected	{{accountName}} 已连接
+integrations.github.connectedModal.acusGranted	我们给你的账户加了 {{amount}} ACU，帮你上手 Devin。
+integrations.github.connectedModal.acusGrantedWithMembership	我们给你的账户加了 {{amount}} ACU，帮你上手 Devin。请在下方配置成员设置。
+integrations.github.connectedModal.connected	你已成功连接 {{provider}}。开始用 Devin 干活吧。
+integrations.github.connectedModal.connectedToTeam	你已成功把 {{provider}} 连到你的 Devin 团队。请在下方配置成员设置，然后开始用 Devin 干活。
+integrations.github.connectedModal.dollarsGranted	我们给你的账户加了 ${{amount}} 按需额度，帮你上手 Devin。
+integrations.github.connectedModal.dollarsGrantedWithMembership	我们给你的账户加了 ${{amount}} 按需额度，帮你上手 Devin。请在下方配置成员设置。
+integrations.github.connectedModal.done	完成
+integrations.github.connectedModal.getStarted	开始
+integrations.github.connectedModal.openDesktop	打开 Devin Desktop
+integrations.github.connectedModal.providerConnected	{{provider}} 已连接
+integrations.github.ghesApps.confirmRemove	确认移除
+integrations.github.ghesApps.descriptionInstall	在你的 GitHub Enterprise 实例上安装已注册的 GitHub App。
+integrations.github.ghesApps.descriptionInstallAndRemove	在你的 GitHub Enterprise 实例上安装已注册的 GitHub App。移除一个 app 可为同一主机重新注册——移除只清掉 Devin 已存的配置，请在你的 GitHub Enterprise 实例上另行删除该 app。
+integrations.github.ghesApps.descriptionRemove	移除一个 app 可为同一主机重新注册——移除只清掉 Devin 已存的配置，请在你的 GitHub Enterprise 实例上另行删除该 app。
+integrations.github.ghesApps.empty	还没有注册任何 GitHub Enterprise App。请先注册一个。
+integrations.github.ghesApps.install	安装
+integrations.github.ghesApps.installUrlFailed	获取安装 URL 失败。请重试。
+integrations.github.ghesApps.loadFailed	加载 GitHub App 配置失败。
+integrations.github.ghesApps.loading	正在加载配置…
+integrations.github.ghesApps.remove	移除
+integrations.github.ghesApps.removeFailed	移除 GitHub App 配置失败。
+integrations.github.ghesApps.removed	已移除 {{appName}}（{{host}}）
+integrations.github.ghesApps.removing	正在移除…
+integrations.github.ghesApps.title	GitHub Enterprise Apps
+integrations.github.ghesInstallPageTitle	GitHub Enterprise 安装
+integrations.github.ghesRegister.alreadyRegistered	此 GitHub Enterprise 实例已注册了一个 GitHub App。请安装或管理现有的 App，别建新的。
+integrations.github.ghesRegister.appName	GitHub App 名
+integrations.github.ghesRegister.appNameHint	默认 <code>devin-ai-integration</code>。在此实例上必须唯一
+integrations.github.ghesRegister.appNamePlaceholder	devin-ai-integration
+integrations.github.ghesRegister.description	你将被重定向到 GitHub Enterprise 实例确认创建此 app
+integrations.github.ghesRegister.duplicateMany_one	{{host}} 上已设置 {{count}} 个 GitHub App。要加更多组织，请安装现有 App——别建新的。
+integrations.github.ghesRegister.duplicateMany_other	{{host}} 上已设置 {{count}} 个 GitHub App。要加更多组织，请安装现有 App——别建新的。
+integrations.github.ghesRegister.duplicateOne	「{{appName}}」已在 {{host}} 上设置。要加更多组织，请安装现有 App——别建新的。
+integrations.github.ghesRegister.duplicateTitle	此 GitHub Enterprise 实例已注册了一个 GitHub App
+integrations.github.ghesRegister.notEnterprise	github.com 不是 GitHub Enterprise 实例。请改用常规 GitHub 连接流程。
+integrations.github.ghesRegister.organization	组织
+integrations.github.ghesRegister.organizationHint	留空则把 app 注册到你的个人账户
+integrations.github.ghesRegister.organizationPlaceholder	my-org
+integrations.github.ghesRegister.startFailed	开始 GitHub App 注册失败。请重试。
+integrations.github.ghesRegister.startFailedCheckHost	开始 GitHub App 注册失败。请检查主机名后重试。
+integrations.github.ghesRegister.stillChecking	仍在检查此主机上已有的 GitHub App。请稍候。
+integrations.github.ghesRegister.subdomainIsolation	子域隔离已启用
+integrations.github.ghesRegister.title	连接 GitHub Enterprise
+integrations.github.installPageTitle	GitHub 安装
+integrations.github.installationAccessLost	我们不再有此安装的访问权。请断开再重连。
+integrations.github.installations.confirmDescription	确定要连接到 <strong>{{name}}</strong>？这将允许 Devin 访问此组织内的仓库。
+integrations.github.installations.confirmTitle	连接 {{name}}
+integrations.github.installations.connectDifferentOrg	连接另一个组织
+integrations.github.installations.connecting	正在连接
+integrations.github.installations.doNotLeave	请不要离开此页。
+integrations.github.installations.dontSeeOrg	上面没看到你的组织？
+integrations.github.installations.empty	未找到已安装 Devin 的 GitHub 组织。
+integrations.github.installations.loadError	加载 GitHub 安装出错。请重试。
+integrations.github.installations.searchPlaceholder	搜索组织…
+integrations.github.installations.title	连接 GitHub 组织
+integrations.github.manageInstallationFailed	管理安装出错。
+integrations.github.noConnectPermission	你没有连接 Git 提供商的权限。请让管理员批准安装。
+integrations.github.noOrganizationName	无可用组织名
+integrations.github.removeFailed	移除 GitHub 集成失败
+integrations.github.removed	GitHub 集成已移除
+integrations.github.removing	正在移除 GitHub 集成…
+integrations.github.startOauthFailed	开始 GitHub OAuth 失败
+integrations.github.unknownError	未知错误
+integrations.gitlab.addFailed	添加 GitLab 集成失败
+integrations.gitlab.added	GitLab 集成已添加
+integrations.gitlab.adding	正在添加 GitLab 集成…
+integrations.gitlab.connect.accessToken	访问令牌
+integrations.gitlab.connect.hostPlaceholder	GitLab 主机（如 gitlab.example.com）
+integrations.gitlab.connect.invalidHost	主机只能含小写字母、数字、连字符、下划线或句点 [a-z0-9-_.]
+integrations.gitlab.connect.newAccessToken	新访问令牌
+integrations.gitlab.connect.newTokenPlaceholder	输入你的新 GitLab 个人访问令牌
+integrations.gitlab.connect.selfHostedDescription	令牌需要 api scope。要求 GitLab 15 或更高版本
+integrations.gitlab.connect.selfHostedTitle	连接自托管 GitLab
+integrations.gitlab.connect.serviceAccountDescription	在你的 GitLab 组中建一个服务账户（Free 层用专用用户），给它 api scope 的个人访问令牌，并把它加进 Devin 要访问的组。Developer 能连接和读取，Maintainer 让 Devin 能配 webhook，Owner（Premium/Ultimate）可加组级 webhook
+integrations.gitlab.connect.serviceAccountTitle	连接服务账户
+integrations.gitlab.connect.tokenPlaceholder	输入你的 GitLab 个人访问令牌
+integrations.gitlab.connect.tokenRequired	访问令牌为必填项
+integrations.gitlab.notAccountHost	{{host}} 不是此账户的 GitLab 主机
+integrations.gitlab.removeFailed	移除 GitLab 集成失败
+integrations.gitlab.removed	GitLab 集成已移除
+integrations.gitlab.removing	正在移除 GitLab 集成…
+integrations.gitlab.rotate.description	令牌必须属于与 {{accountName}} 相同的 GitLab 用户
+integrations.gitlab.rotate.failed	轮换 GitLab 令牌失败
+integrations.gitlab.rotate.rotating	正在轮换 GitLab 令牌…
+integrations.gitlab.rotate.submit	轮换令牌
+integrations.gitlab.rotate.submitting	正在轮换…
+integrations.gitlab.rotate.success	GitLab 令牌轮换成功
+integrations.gitlab.rotate.title	轮换 GitLab 令牌
+integrations.gitlab.selfHostedApp.alreadyRegistered	此主机已注册一个 GitLab 应用。注册替代品前先在「管理应用」里移除它。
+integrations.gitlab.selfHostedApp.applicationId	应用 ID
+integrations.gitlab.selfHostedApp.applicationIdRequired	应用 ID 为必填项
+integrations.gitlab.selfHostedApp.applicationName	应用名
+integrations.gitlab.selfHostedApp.applicationSecret	应用密钥
+integrations.gitlab.selfHostedApp.applicationSecretRequired	应用密钥为必填项
+integrations.gitlab.selfHostedApp.confidential	保密
+integrations.gitlab.selfHostedApp.copyApplicationName	复制应用名
+integrations.gitlab.selfHostedApp.copyApplicationNameFailed	复制应用名失败
+integrations.gitlab.selfHostedApp.copyRedirectUri	复制重定向 URI
+integrations.gitlab.selfHostedApp.copyRedirectUriFailed	复制重定向 URI 失败
+integrations.gitlab.selfHostedApp.description	让用户把自托管 GitLab 账户关联到 Devin
+integrations.gitlab.selfHostedApp.duplicateBody	应用 {{appId}} 已在 {{host}} 上设置。注册替代品前先在「管理应用」里移除它。
+integrations.gitlab.selfHostedApp.duplicateTitle	此主机已注册一个 GitLab 应用
+integrations.gitlab.selfHostedApp.enableConfidential	勾选 confidential 复选框。
+integrations.gitlab.selfHostedApp.instructions	<createLink>在 {{host}} 上创建应用</createLink>（用下列设置），然后把凭据粘到下方字段
+integrations.gitlab.selfHostedApp.invalidHostname	请输入有效主机名，如 gitlab.yourcompany.com
+integrations.gitlab.selfHostedApp.notSelfHosted	gitlab.com 不是自托管实例。请改用常规 GitLab 连接流程。
+integrations.gitlab.selfHostedApp.redirectUri	重定向 URI
+integrations.gitlab.selfHostedApp.register	注册
+integrations.gitlab.selfHostedApp.registerFailed	注册 GitLab 应用失败。请重试。
+integrations.gitlab.selfHostedApp.registered	GitLab 应用已注册
+integrations.gitlab.selfHostedApp.scopes	Scopes
+integrations.gitlab.selfHostedApp.selectScopes	选择 <scopes>{{scopes}}</scopes>。
+integrations.gitlab.selfHostedApp.stillChecking	仍在检查已有 GitLab 应用。
+integrations.gitlab.selfHostedApp.title	注册 GitLab 应用
+integrations.gitlab.webhook.addUrlAndSecret	添加 webhook URL 和上方 secret token
+integrations.gitlab.webhook.autoInstall	Devin 在其 GitLab 账户可管理的每个项目和组上自动配好这些 webhook 并保持更新。只有它够不到的项目才需要下面的步骤。
+integrations.gitlab.webhook.clickAdd	点「Add webhook」
+integrations.gitlab.webhook.goToGroupSettings	去你的 GitLab 组设置
+integrations.gitlab.webhook.goToProjectSettings	去你的 GitLab 项目设置
+integrations.gitlab.webhook.groupDocs	组 webhook 文档
+integrations.gitlab.webhook.groupTab	组
+integrations.gitlab.webhook.navigateToWebhooks	导航到 Webhooks
+integrations.gitlab.webhook.projectDocs	项目 webhook 文档
+integrations.gitlab.webhook.projectTab	项目
+integrations.gitlab.webhook.recommended	（推荐）
+integrations.gitlab.webhook.selectTriggers	选择触发器：<strong>Comments</strong>、<strong>Merge request events</strong>、<strong>Push events</strong>、<strong>Issues events</strong>、<strong>Pipeline events</strong>
+integrations.slack.connection.disconnect	断开连接
+integrations.slack.connection.disconnectTitle	断开 Slack
+integrations.slack.connection.label	连接
+integrations.slack.ghNotifications.off	关
+integrations.slack.ghNotifications.privateDm	私信
+integrations.slack.ghNotifications.selectAria	选择 GitHub 通知频道
+integrations.slack.ghNotifications.selectChannel	选择频道
+integrations.slack.ghNotifications.title	通知
+integrations.slack.ghNotifications.unknownChannel	未知频道
+integrations.slack.ghNotifications.updateFailed	更新 GitHub 通知频道失败
+integrations.slack.support.dialogTitle	输入 Slack 邮箱
+integrations.slack.support.emailNotConnected	此邮箱未关联 Slack 账户
+integrations.slack.support.emailPlaceholder	输入你的 Slack 邮箱
+integrations.slack.support.getInvite	获取邀请
+integrations.slack.support.gettingInvite	正在获取邀请…
+integrations.slack.support.inviteFailed	获取 Slack Connect 邀请失败。
+integrations.slack.support.menuItem	Slack 支持频道
+internalBots.automation	自动化
+internalBots.codeScan	代码扫描
+internalBots.devinBot	Devin Bot
+internalBots.pylonBot	Pylon Bot
+introducingBotsCallout.cta	去看看
+introducingBotsCallout.dismiss	忽略
+introducingBotsCallout.shortlistTitle	你的 {{botNamePlural}}
+introducingBotsCallout.title	介绍 Devin {{botNamePlural}}
+introducingBotsCallout.viewAll	查看全部
+itemsPerPageSelect.rowsPerPage	每页行数：
+jira.agentLink.accountAdmin	{{kind}} · 你是管理员
+jira.agentLink.accountAlreadyConnected	此 Devin 账户已连到 {{site}}。先断开它再连别的站点。
+jira.agentLink.accountConnectedToSite	{{kind}} · 已连到 {{site}}
+jira.agentLink.accountLabel	Devin 账户
+jira.agentLink.accountUnavailable	{{kind}} · 此站点不可用
+jira.agentLink.alreadyConnectedDescription	<site>{{site}}</site> 已关联到 <account>{{accountName}}</account>。无需再做别的。
+jira.agentLink.alreadyConnectedTitle	已连接
+jira.agentLink.alreadyOtherDescription	{{site}} 已连到别处。先从那个账户取消关联；不知道它关联在哪就联系支持。
+jira.agentLink.alreadyOtherTitle	此站点已关联到另一个 Devin 账户
+jira.agentLink.appInstalled	App 已安装
+jira.agentLink.cancel	取消
+jira.agentLink.contactSupport	联系支持
+jira.agentLink.copyLink	复制链接
+jira.agentLink.defaultThisJiraSite	此 Jira 站点
+jira.agentLink.description	确认这是你的站点，然后选它应关联的 Devin 账户。
+jira.agentLink.enterprise	企业
+jira.agentLink.expiredDescription	连接链接只能用一次且 15 分钟后过期。新链接只能从 Jira 里建——回你的 Jira 站点再点一次 <action>Connect to Devin</action>。
+jira.agentLink.expiredInstructions	在 Jira 中：Settings → Apps → Manage apps → <app>Devin for Jira</app> → Connect to Devin。
+jira.agentLink.expiredTitle	此链接已过期或已被使用
+jira.agentLink.expiryNote	此链接只能用一次，在 Jira 里创建 15 分钟后过期。
+jira.agentLink.forwardedLinkExpiry	收件人仍须登录，且链接在创建 15 分钟后过期。
+jira.agentLink.genericLinkError	关联 Jira 站点失败

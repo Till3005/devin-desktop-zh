@@ -1,0 +1,160 @@
+skillsCoach.edit.overlap_one	批这个会取消此文件上另 {{count}} 个待决编辑。
+skillsCoach.edit.overlap_other	批这个会取消此文件上另 {{count}} 个待决编辑。
+skillsCoach.edit.summaryCreate	加 {{file}}
+skillsCoach.edit.summaryDelete	删 {{file}}
+skillsCoach.edit.summaryEdit	改 {{file}}
+skillsCoach.edit.summaryUninstall	卸 {{name}}
+skillsCoach.edit.summaryUninstallAccount	为整个企业卸 {{name}}
+skillsCoach.edit.summaryUninstallOrg	为整个组织卸 {{name}}
+skillsCoach.edit.summaryUninstallUnified	为它共享给的所有人卸 {{name}}
+skillsCoach.edit.summaryUninstallUser	为装它的人卸 {{name}}
+skillsCoach.edit.uninstallNote	其内容这编辑不了。
+skillsCoach.edit.view	显
+skillsCoach.edit.viewAfter	之后
+skillsCoach.edit.viewBefore	之前
+skillsCoach.edit.viewChanges	更改
+skillsCoach.error.alreadySuggested	你一旦建议过任何编辑就不能再忽略它们。
+skillsCoach.error.applyFailed	应用不了此编辑。你能重试。
+skillsCoach.error.generic	出错了。重试。
+skillsCoach.error.noLongerPending	此编辑已决。
+skillsCoach.error.noPermission	你不再有权改此 home。
+skillsCoach.error.notApplied	此编辑没应用。
+skillsCoach.finding.evidence	证据
+skillsCoach.finding.reason	为什么？（可选）
+skillsCoach.fix.failed	起不了会话。重试。
+skillsCoach.fix.sentViewSession	已发 Devin · 看会话
+skillsCoach.fix.viewSession	看会话
+skillsCoach.home.external	外部插件 {{name}}
+skillsCoach.home.memory	记忆
+skillsCoach.home.personal	个人插件
+skillsCoach.home.plugin	插件 {{name}}
+skillsCoach.home.repo	仓库 {{name}}
+skillsCoach.home.scratchpad	自动化草稿
+skillsCoach.inbox.description	你能批准或建议的指引编辑。
+skillsCoach.inbox.editLoadFailed	加载不了此编辑。
+skillsCoach.inbox.editNotFound	此编辑没了，或没路由给你。
+skillsCoach.inbox.editsLeft_one	剩 {{count}} 个
+skillsCoach.inbox.editsLeft_other	剩 {{count}} 个
+skillsCoach.inbox.empty	没有可审的。
+skillsCoach.inbox.emptyTitle	没有可审的
+skillsCoach.inbox.loadFailed	加载不了你编辑。
+skillsCoach.inbox.loadMore	加载更多
+skillsCoach.inbox.partlyUnreviewed	含只你能见的编辑
+skillsCoach.inbox.runNotFound	这些编辑没了，或没路由给你。
+skillsCoach.inbox.someone	某人
+skillsCoach.inbox.suggestedFrom	来自 {{name}} 的会话
+skillsCoach.inbox.unreviewed	只你能见此
+skillsCoach.manualRun.action	用 Skills Coach 查此技能
+skillsCoach.manualRun.alreadyRunning	Skills Coach 已在查此技能。
+skillsCoach.manualRun.started	Skills Coach 在查此技能。发现项会显在此会话。
+skillsCoach.op.create	新文件
+skillsCoach.op.delete	删除
+skillsCoach.redFlag.bad_description	描述差
+skillsCoach.redFlag.bad_for_automations	对自动化不好
+skillsCoach.redFlag.bad_guidance	指引差
+skillsCoach.redFlag.called_too_often	调用太频
+skillsCoach.redFlag.called_too_rarely	调用太少
+skillsCoach.redFlag.conflict	冲突
+skillsCoach.redFlag.duplicate	重复
+skillsCoach.redFlag.redistribute	重分配
+skillsCoach.redFlag.scope_too_narrow	范围太窄
+skillsCoach.redFlag.scope_too_wide	范围太宽
+skillsCoach.redFlag.should_not_exist	不该存在
+skillsCoach.redFlag.too_specific	太具体
+skillsCoach.redFlag.too_vague	太含糊
+skillsCoach.redFlag.unsafe	不安全
+skillsCoach.redFlag.wordy	太啰嗦
+skillsCoach.redFlag.wrong_home	home 错
+skillsCoach.redFlag.wrong_info	信息错
+skillsCoach.review.appliedVersion	版本 {{version}}
+skillsCoach.review.applyDisabled	应用编辑还没开。
+skillsCoach.review.approvers	批准者：{{approvers}}
+skillsCoach.review.back	回收件箱
+skillsCoach.review.decidedBy	{{at}} 由 {{name}} {{status}}
+skillsCoach.review.dismissed	其编辑留了未决。
+skillsCoach.review.done	完成
+skillsCoach.review.edits	编辑
+skillsCoach.review.findings	红旗
+skillsCoach.review.nothingLeft	没有可审的了
+skillsCoach.review.nothingLeftWith	没有可审的了 · {{summary}}
+skillsCoach.review.removeFromInboxHint	把此轮从你收件箱拿掉，不应用也不拒其编辑。
+skillsCoach.review.routedTo	等 {{approvers}}
+skillsCoach.review.unreviewed	只你能见此编辑。建议给 {{approvers}}，他们能应用它。
+skillsCoach.review.unreviewedMany	只你能见这些编辑。建议给能应用它们的人。
+skillsCoach.route.acting_user	你
+skillsCoach.route.automation_admins	自动化管理员
+skillsCoach.route.automation_run_as	自动化所有者
+skillsCoach.route.personal_owner	插件所有者
+skillsCoach.route.plugin_admins	插件管理员
+skillsCoach.route.plugin_group	插件的组
+skillsCoach.route.plugin_installer	装插件的人
+skillsCoach.route.repo_code_owner	代码所有者
+skillsCoach.route.repo_writer	仓库写者
+skillsCoach.route.scope_owner	范围所有者
+skillsCoach.route.service_user_admins	服务用户管理员
+skillsCoach.route.skill_writers	技能写者
+skillsCoach.scope.account	企业级
+skillsCoach.scope.org	组织级
+skillsCoach.scope.unified	共享
+skillsCoach.scope.user	个人
+skillsCoach.score.good	还行
+skillsCoach.score.great	很好
+skillsCoach.score.harmful	有害
+skillsCoach.score.needsWork	需改进
+skillsCoach.score.notUseful	没用
+skillsCoach.status.applied	已应用
+skillsCoach.status.applying	应用中
+skillsCoach.status.canceled	已取消
+skillsCoach.status.dismissed	已忽略
+skillsCoach.status.failed	失败
+skillsCoach.status.prOpened	Devin 在开 PR
+skillsCoach.status.rejected	已拒
+skillsCoach.status.sentToDevin	已发 Devin
+skillsCoach.status.unreviewed	未审
+slack.workspacesAddedToast_one	已加 {{count}} 个工作区
+slack.workspacesAddedToast_other	已加 {{count}} 个工作区
+slack.workspacesRemovedToast_one	已移除 {{count}} 个工作区
+slack.workspacesRemovedToast_other	已移除 {{count}} 个工作区
+slackConnect.announcementAction	选择
+slackConnect.announcementDescription	选一频道把此会话同步到 Slack。
+slackConnect.announcementTitle	同步到 Slack
+slackConnect.dontRemindMeAgain	别再提醒我
+slackConnect.migrationCompleted	迁移成功完成
+slackConnect.migrationFailed	完成迁移失败
+slackConnect.noWorkspaceDescription	Devin 已为你 Slack 组织装但还没在任何工作区。从 Slack 管理面板加它，再链你用户。
+slackConnect.workspacesRefreshFailed	刷新工作区出错
+slackConnect.workspacesUpToDate	工作区已最新
+slackLink.disabledAutomation	自动化跑的会话这管不了
+slackLink.disabledNotOwner	只有会话所有者能把此会话连到 Slack
+slackLink.disabledUnlinkable	此会话链不了 Slack
+slackPicker.connectSlackUser	连 Slack 用户
+slackPicker.directMessageYou	私信（你）
+slackPicker.dontSendToSlack	不发到 Slack
+slackPicker.inviteDevinToChannel	邀 @Devin 进 Slack 频道以继续
+slackPicker.loadingChannels	加载频道中…
+slackPicker.noChannelsAvailable	无可用 Slack 频道
+slackPicker.noChannelsFound	找不到频道
+slackPicker.noChannelsMapped	没有频道映射到此组织
+slackPicker.searchChannels	搜频道…
+slackSend.confirmPrivateSync	同步
+slackSend.confirmPrivateSyncDescription	此会话私有。那 Slack 频道里所有人能见其新消息。
+slackSend.confirmPrivateSyncTitle	同步会话到 {{label}}？
+slackSend.disableSync	禁 Slack 同步
+slackSend.enableSync	开 Slack 同步
+slackSend.messagesSyncDisabledDescription	消息不会同步到 {{label}}
+slackSend.messagesSyncEnabledDescription	消息会同步到 {{label}}
+slackSend.sendIn	在 {{label}} 发
+slackSend.syncDisabled	Slack 同步已禁
+slackSend.syncDisabledDescription	此会话不会发到 Slack
+slackSend.syncEnabled	Slack 同步已开
+slackSend.syncEnabledDescription	此会话会发到 {{label}}
+slackSend.syncedTo	已同步到 {{label}}
+slackUserSelect.bot	Bot
+slackUserSelect.loadingUsers	加载用户中…
+slackUserSelect.lookingUpId	查 {{id}} 中…
+slackUserSelect.noUsersFound	找不到用户
+slackUserSelect.searchUsers	搜用户…
+slackUserSelect.searching	搜中…
+slackUserSelect.unknownId	没有 ID {{id}} 的 Slack 用户
+slashCommands.addCommand	加命令
+slashCommands.commandName	命令名

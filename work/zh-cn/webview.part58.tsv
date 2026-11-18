@@ -1,0 +1,259 @@
+pluginInstallWarning.installing	正在安装…
+pluginInstallWarning.mcp.body	你将给 Devin 对 {{name}} 的大量访问权，让它能与外部数据交互。仅在信任此集成并已核实其来源时继续。
+pluginInstallWarning.mcp.description	授予 Devin 对 {{name}} 的访问权。你可随时在设置中禁用此集成。
+pluginInstallWarning.mcp.installAndEnable	安装并启用
+pluginInstallWarning.mcp.sharedOAuth	启用此集成将让你组织全部成员使用<strong>同一个 MCP 服务器连接，所有操作共享单一认证状态。</strong>当 Devin 提示你访问 URL 连接你的 {{name}} 账户时，<u>强烈建议用服务账户</u>。
+pluginInstallWarning.mcp.sharedOAuthAccount	在 Unified 模式下有权访问此 MCP 的任何人都将使用<strong>同一个服务器连接，所有操作共享单一认证状态。</strong>当 Devin 提示你访问 URL 连接你的 {{name}} 账户时，<u>强烈建议用服务账户</u>。
+pluginInstallWarning.mcp.sharedOAuthCount	启用此集成将让你组织全部 {{count}} 名成员使用<strong>同一个 MCP 服务器连接，所有操作共享单一认证状态。</strong>当 Devin 提示你访问 URL 连接你的 {{name}} 账户时，<u>强烈建议用服务账户</u>。
+pluginInstallWarning.mcp.title	启用 MCP 集成
+pluginInstallWarning.mcp.userOAuth	你组织每名成员将用自己的 {{name}} 个人访问令牌单独认证。注意其他用户仍能与你的会话交互，因此这不应视为安全边界。
+pluginInstallWarning.mcp.userOAuthAccount	每个有权访问此 MCP 的人用自己的 {{name}} 个人访问令牌单独认证。其他用户仍能与你的会话交互，因此这不应视为安全边界。
+pluginInstallWarning.securityNotice	安全须知
+pluginInstallWarning.title	安装 {{name}}
+pluginManifestEditor.discard	放弃
+pluginManifestEditor.save	保存
+pluginManifestEditor.saving	正在保存…
+pluginManifestValidation.bundleIdInvalid	"bundleId" 必须是匹配 [a-zA-Z0-9._-]{1,64} 的单路径段（不含斜杠）
+pluginManifestValidation.bundleIdRequired	account-upload 源需要非空 "bundleId"
+pluginManifestValidation.envValues	"env" 必须是字符串值的对象
+pluginManifestValidation.pathParent	"path" 不能含 ".."
+pluginManifestValidation.pathRequired	git-subdir 源需要非空 "path"
+pluginManifestValidation.pathRoot	"path" 必须是非根相对路径
+pluginManifestValidation.pathWildcards	"path" 不允许通配符
+pluginManifestValidation.sourceEmpty	插件源不能为空
+pluginManifestValidation.sourceShape	必须是源字符串（如 "owner/repo" 或 git URL）或带 "source" 字段的对象
+pluginManifestValidation.urlRequired	git-subdir 源需要非空 "url"
+pluginMarketplace.activate	激活
+pluginMarketplace.activating	正在激活…
+pluginMarketplace.addPluginMcpDescription	把 Devin 指向你自己运行的 MCP 服务器。它存到你的插件并连接。
+pluginMarketplace.blockedDescription	被策略标为封锁的插件，含最新索引的依赖。
+pluginMarketplace.browse	浏览
+pluginMarketplace.browseDescriptionAnyScope	为你自己或你管理的作用域安装插件。
+pluginMarketplace.browseDescriptionEnterprise	为你的企业安装插件。
+pluginMarketplace.browseDescriptionOrganization	为你的组织安装插件。
+pluginMarketplace.browseDescriptionPersonal	为你自己安装插件。
+pluginMarketplace.browseEmpty	这里还什么都没有。你的管理员可以往市场加插件
+pluginMarketplace.builtIn	内置
+pluginMarketplace.bundleSecretsNotice	不要含机密。
+pluginMarketplace.clearSearch	清除搜索
+pluginMarketplace.community	社区
+pluginMarketplace.connect	连接
+pluginMarketplace.connectingMcp	正在连接…
+pluginMarketplace.deleteAnyway	仍要删除
+pluginMarketplace.deletePlaybooksBlocked	Playbooks 迁移完成前不能删此插件。
+pluginMarketplace.deletePlaybooksFailed	无法删除插件。检查其当前内容后重试。
+pluginMarketplace.deletePlaybooksTitle	删除 Playbooks 插件？
+pluginMarketplace.deletePlaybooksWarning	删此插件会移除它全部技能，含从 Playbooks 迁来的。用受影响 Playbook 的计划任务和自动化将不再跑那些说明。
+pluginMarketplace.deletePluginDescription	此插件是在此上传的，没有其它副本。其文件被永久删除。此操作不可撤销。
+pluginMarketplace.deletePluginFilesFailed	{{name}} 已卸载，但删其文件失败。
+pluginMarketplace.deletePluginTitle	删除 {{name}}？
+pluginMarketplace.deleteScopeBundleDescription	这会永久删除此插件及写入它的一切。
+pluginMarketplace.deleteScopeBundleDescriptionScoped	这会为 {{scope}} 里的所有人永久删除此插件及写入它的一切。
+pluginMarketplace.deletedPlugin	已删 {{name}}
+pluginMarketplace.disabledByEnterpriseAdmin	被你企业管理员禁用
+pluginMarketplace.disabledByEnterpriseAdminTooltip	你企业管理员没让此插件在此组织可用。
+pluginMarketplace.folders.actionsFor	{{name}} 的操作
+pluginMarketplace.folders.alreadyExists	同名文件夹已存在。
+pluginMarketplace.folders.create	创建
+pluginMarketplace.folders.delete	删除
+pluginMarketplace.folders.deleteDescription_one	该文件夹及其 {{count}} 个技能被删，含子文件夹。不可撤销。
+pluginMarketplace.folders.deleteDescription_other	该文件夹及其 {{count}} 个技能被删，含子文件夹。不可撤销。
+pluginMarketplace.folders.deleteDescription_zero	文件夹是空的。
+pluginMarketplace.folders.deleteTitle	删除 {{name}}？
+pluginMarketplace.folders.empty	还没有技能
+pluginMarketplace.folders.folderLabel	文件夹
+pluginMarketplace.folders.intoItself	文件夹不能移进自己。
+pluginMarketplace.folders.mergeDescription	{{name}} 已存在。两个文件夹将合并。
+pluginMarketplace.folders.move	移动
+pluginMarketplace.folders.moveAction	移到文件夹
+pluginMarketplace.folders.moveActionFor	把 {{name}} 移到文件夹
+pluginMarketplace.folders.moveDescription	选此技能归入的文件夹。
+pluginMarketplace.folders.moveTitle	移动 {{name}}
+pluginMarketplace.folders.nameRequired	文件夹名为必填项
+pluginMarketplace.folders.new	新建文件夹
+pluginMarketplace.folders.newDescription	用 / 表示嵌套。技能移入后文件夹才保留。
+pluginMarketplace.folders.newTitle	新建文件夹
+pluginMarketplace.folders.pathLabel	文件夹名
+pluginMarketplace.folders.pathPlaceholder	团队/Runbook
+pluginMarketplace.folders.rename	重命名
+pluginMarketplace.folders.renameDescription	文件夹里每个技能随它移动。
+pluginMarketplace.folders.renameTitle	重命名文件夹
+pluginMarketplace.folders.updateFailed	无法更新文件夹。请重试。
+pluginMarketplace.indexingFailed	无法重建插件索引
+pluginMarketplace.indexingStarted	正在重建插件索引
+pluginMarketplace.installFailed	安装失败
+pluginMarketplace.installed	已安装
+pluginMarketplace.installedAtScope	已装到 {{scope}}
+pluginMarketplace.installedButBlocked	已安装但被封锁
+pluginMarketplace.installedForMe	已为我安装
+pluginMarketplace.installedForOrg	已为 {{name}} 安装
+pluginMarketplace.installedForOtherOrg	已为另一组织安装
+pluginMarketplace.installedForOtherOrgContents	此插件为另一组织安装。Devin 只在该组织加载其内容。
+pluginMarketplace.installedInEnterprise	现已在企业插件中可用
+pluginMarketplace.installedInOrganization	现已在组织插件中可用
+pluginMarketplace.installedInPersonal	现已在你的个人插件中可用
+pluginMarketplace.installedTitle	已装 {{name}}
+pluginMarketplace.installing	正在安装…
+pluginMarketplace.loadFailed	无法加载市场。请重试。
+pluginMarketplace.manifestDialog.accountTitle	企业插件 manifest
+pluginMarketplace.manifestDialog.accountWho	此企业里每个组织
+pluginMarketplace.manifestDialog.description	三个列表决定{{who}}得哪些插件。<chip>requiredPlugins</chip> 装它们，<chip>optionalPlugins</chip> 提供但不装，<chip>forbiddenPlugins</chip> 封锁——它还支持 glob，如 <chip>acme/*</chip>。<docsLink>看 manifest 格式</docsLink>
+pluginMarketplace.manifestDialog.orgTitle	组织插件 manifest
+pluginMarketplace.manifestDialog.orgWho	此组织里所有人
+pluginMarketplace.manifestDialog.saved	manifest 已保存
+pluginMarketplace.manifestDialog.userTitle	你的插件 manifest
+pluginMarketplace.manifestDialog.userWho	你
+pluginMarketplace.manifestSecretsNotice	不要含明文机密。请改用<docsLink>插件机密引用</docsLink>
+pluginMarketplace.marketplace	市场
+pluginMarketplace.mcpAwaitingAuthorization	{{pluginName}} 已设置好——连接它以授权。
+pluginMarketplace.mcpConnectFailed	无法连接 {{pluginName}}。
+pluginMarketplace.mcpFileInvalid	.mcp.json 不是有效 JSON。先在编辑器里修好再加 MCP。
+pluginMarketplace.mcpNameTaken	你的插件里已有名为「{{name}}」的 MCP。
+pluginMarketplace.mcpNeedsCredential	{{pluginName}} 连接前需要凭据——在它的 MCP 设置里输入。
+pluginMarketplace.mcpOauthScopesNeedClientId	OAuth scope 需要 OAuth 客户端 ID。
+pluginMarketplace.mcpReady	{{pluginName}} 已就绪——不用连接。
+pluginMarketplace.mcpSheetDescription	Devin 可调用的 MCP 服务器，按名索引。存到此作用域插件的 {{filePath}}。以 <code>${NAME}</code> 引用机密，成员在服务器详情里提供——写在这里的值会被剥掉。
+pluginMarketplace.noMatches	没有插件匹配你的搜索。
+pluginMarketplace.notActiveSubtitle	未激活——你激活前会话不加载它。
+pluginMarketplace.notConnected	未连接
+pluginMarketplace.offered	已提供
+pluginMarketplace.offeredToMembers	已提供给成员
+pluginMarketplace.officialMarketplaceDisabled	Devin 市场已禁
+pluginMarketplace.officialMarketplaceDisabledByEnterprise	企业配置对每个组织都禁了 Devin 市场。
+pluginMarketplace.officialMarketplaceEnabled	Devin 市场已开
+pluginMarketplace.officialMarketplaceManifestUnreadable	无法读取 manifest。请在「配置」标签里修好。
+pluginMarketplace.officialMarketplaceUpdateFailed	更新 Devin 市场设置失败
+pluginMarketplace.pluginNotListed	{{name}} 不在此视图里。
+pluginMarketplace.recommended	推荐
+pluginMarketplace.removesForEveryone	这会为所有人移除 {{name}}。
+pluginMarketplace.removesForEveryoneIn	这会为 {{scope}} 里所有人移除 {{name}}。
+pluginMarketplace.requiredBy	被依赖
+pluginMarketplace.retrying	正在重试…
+pluginMarketplace.searchPlaceholder	搜索插件市场
+pluginMarketplace.sheet.advanced	高级
+pluginMarketplace.sheet.backToPluginLabel	返回 {{name}}
+pluginMarketplace.sheet.capabilities	能力
+pluginMarketplace.sheet.category	分类
+pluginMarketplace.sheet.cloudOnly	仅云端
+pluginMarketplace.sheet.contentsWithheldTitle	无权查看
+pluginMarketplace.sheet.dependencies	依赖
+pluginMarketplace.sheet.developer	开发者
+pluginMarketplace.sheet.disabled	已禁用
+pluginMarketplace.sheet.disabledTools	已禁工具：{{tools}}
+pluginMarketplace.sheet.enabled	已启用
+pluginMarketplace.sheet.examplePrompts	示例提示词
+pluginMarketplace.sheet.folderItemCount_one	{{count}} 个技能
+pluginMarketplace.sheet.folderItemCount_other	{{count}} 个技能
+pluginMarketplace.sheet.indexedSnapshot	显示最后索引版本。最近的编辑可能还没出现。
+pluginMarketplace.sheet.installFailedTitle	安装失败
+pluginMarketplace.sheet.installedIn	安装于
+pluginMarketplace.sheet.installedWithIssuesTitle	已安装，但有问题
+pluginMarketplace.sheet.knowledgeFoldersHint	从知识笔记迁来的技能
+pluginMarketplace.sheet.learnMore	了解更多
+pluginMarketplace.sheet.license	许可证
+pluginMarketplace.sheet.localOnly	仅本地
+pluginMarketplace.sheet.marketplacePlugin	市场插件
+pluginMarketplace.sheet.metadata	元数据
+pluginMarketplace.sheet.noContentsFound	此插件中没有技能、MCP、hook、规则或子 agent 配置。
+pluginMarketplace.sheet.notConnected	未连接
+pluginMarketplace.sheet.notIndexedInstall	安装此插件后，待索引完成可看其技能、MCP 和其它内容。
+pluginMarketplace.sheet.notIndexedInstalled	Devin 还没索引此插件内容。下次索引运行后其技能、MCP 等会出现在这里。
+pluginMarketplace.sheet.officialPlugin	官方插件
+pluginMarketplace.sheet.open	打开
+pluginMarketplace.sheet.openLink	打开 {{label}}
+pluginMarketplace.sheet.optional	可选
+pluginMarketplace.sheet.packaging	打包
+pluginMarketplace.sheet.path	路径
+pluginMarketplace.sheet.permissions	权限
+pluginMarketplace.sheet.personalSourceRuntimeHint	此插件无法索引，但 Devin 可能仍能在会话中加载它。
+pluginMarketplace.sheet.pinnedSha	固定 SHA
+pluginMarketplace.sheet.platforms	平台
+pluginMarketplace.sheet.privacyPolicy	隐私政策
+pluginMarketplace.sheet.ref	Ref
+pluginMarketplace.sheet.remove	移除
+pluginMarketplace.sheet.removeDescription	停止在此提供 {{name}}。已装的人保留。
+pluginMarketplace.sheet.removeFrom	从 {{layer}} 移除
+pluginMarketplace.sheet.removeTitle	移除 {{name}}？
+pluginMarketplace.sheet.repoCount_one	{{count}} 个仓库
+pluginMarketplace.sheet.repoCount_other	{{count}} 个仓库
+pluginMarketplace.sheet.reposWithheldHint	此插件来自此视图中你无权访问的仓库。
+pluginMarketplace.sheet.reposWithheldHintOrg	{{org}} 无权访问 {{layer}} 来自的仓库，因此在此隐藏。
+pluginMarketplace.sheet.repository	仓库
+pluginMarketplace.sheet.required	必需
+pluginMarketplace.sheet.securityOnly	仅安全
+pluginMarketplace.sheet.skillsRepo	技能仓库
+pluginMarketplace.sheet.termsOfService	服务条款
+pluginMarketplace.sheet.unfiledFolder	未归档
+pluginMarketplace.sheet.uninstall	卸载
+pluginMarketplace.sheet.uninstallDescription	为此作用域移除 {{name}}。其技能、规则、hook 和 MCP 服务器不再生效。
+pluginMarketplace.sheet.uninstallFrom	从 {{layer}} 卸载
+pluginMarketplace.sheet.uninstallFromDescription	从 {{layer}} 移除 {{name}}。其技能、规则、hook 和 MCP 服务器在那里不再生效。
+pluginMarketplace.sheet.uninstallPersonalDescription	移除你自己安装的 {{name}}。它在 {{layer}} 仍保持安装。
+pluginMarketplace.sheet.uninstallTitle	卸载 {{name}}？
+pluginMarketplace.sheet.version	版本
+pluginMarketplace.sheet.view	查看
+pluginMarketplace.sheet.viewMore	再看 {{count}} 个
+pluginMarketplace.sheet.viewingLayer	{{layer}}（查看中）
+pluginMarketplace.sheet.website	网站
+pluginMarketplace.showOfficialMarketplace	显示 Devin 市场插件
+pluginMarketplace.signInOwnAccount	用你自己的账户登录
+pluginMarketplace.signInRequired	需要登录
+pluginMarketplace.suggested	建议
+pluginMarketplace.unavailableInCustomize	此插件在「自定义」中不可用。
+pluginMarketplace.viewDetails	查看 {{name}} 详情
+pluginMarketplace.viewOnGithub	在 GitHub 查看
+pluginMcp.connect	连接
+pluginMcp.connectFailed	无法连接 {{name}}。
+pluginMcp.connectNeedsOAuthClient	{{name}} 需要预注册的 OAuth 客户端 ID 和密钥。
+pluginMcp.connectNeedsOAuthClientInSettings	{{name}} 需要预注册的 OAuth 客户端 ID 和密钥。在它的设置里，把它们填到「高级」下，认证选 OAuth。
+pluginMcp.connectOwnAccount	连接你自己的账户
+pluginMcp.connectProviderUnavailable	提供商暂时无响应。几分钟后重试。
+pluginMcp.description	选一个在 {{scope}} 作用域连接的 MCP。每个连接有自己的设置。
+pluginMcp.enterCredentials	输入凭据
+pluginMcp.installed	已安装
+pluginMcp.manageMcps	管理 MCP
+pluginMcp.mcpConnected	{{name}} 已连接。
+pluginMcp.needsCredential	{{name}} 连接前需要凭据——在它的设置里输入。
+pluginMcp.notSetUp	未设置
+pluginMcp.signIn	登录
+pluginMcp.signInOwnAccount	用你的账户登录
+pluginMcp.title	为 {{name}} 连接 MCP
+pluginMcp.waitingForEnterpriseAdmin	等待企业管理员连接
+pluginMcp.waitingForOrgAdmin	等待组织管理员连接
+pluginMcpConnect.enterpriseLevelAddGuidance	你的 MCP 加在组织里，请切到你的一个组织去添加。
+pluginMcpConnect.enterpriseLevelCliGuidance	只在 CLI 用的话，本地配置 MCP 并运行 <command>{{command}}</command>。
+pluginMcpConnect.enterpriseLevelCliSetupGuidance	只在 CLI 用的话，本地配置 MCP。
+pluginMcpConnect.enterpriseLevelGuidance	你的 MCP 在组织里连接，请切到你的一个组织去连接 {{names, list}}。
+pluginMcpConnect.enterpriseLevelTitle	企业级不可用
+pluginMcpConnect.mcpDisabledForOrg	你组织的 MCP 服务器已禁
+pluginMcpConnect.memberConnectionsDisabled	只能连接管理员添加的 MCP
+pluginMcpConnect.pendingIndexAtReason	安装排期在 {{time}}，其 MCP 之后可连。
+pluginMcpConnect.pendingIndexFailedReason	上次安装尝试失败。
+pluginMcpConnect.pendingIndexRunningReason	安装完成后其 MCP 可连。
+pluginMcpConnect.pendingIndexSoonReason	安装已排期，其 MCP 之后可连。
+pluginMcpConnect.pendingIndexUnread	{{name}} 还没装完。
+pluginMcpConnect.pendingIndexWaitingReason	插件装好后其 MCP 可连。
+pluginVersionHistory.binaryFile	二进制文件
+pluginVersionHistory.changes	更改
+pluginVersionHistory.content	内容
+pluginVersionHistory.current	当前
+pluginVersionHistory.deletedInVersion	此文件在此版本被删。
+pluginVersionHistory.editTab	编辑
+pluginVersionHistory.empty	还没有已存版本
+pluginVersionHistory.emptyHint	每次保存加一个版本在这里。
+pluginVersionHistory.filesChanged_one	{{count}} 个文件变更
+pluginVersionHistory.filesChanged_other	{{count}} 个文件变更
+pluginVersionHistory.loadFailed	无法加载此版本。
+pluginVersionHistory.noFileChanges	此版本没改任何文件。
+pluginVersionHistory.noMessage	（无消息）
+pluginVersionHistory.noTextChanges	此版本无文本改动。
+pluginVersionHistory.previewTab	预览
+pluginVersionHistory.restore	恢复此版本
+pluginVersionHistory.restoreConfirm	恢复
+pluginVersionHistory.restoreDescription	插件内容将被替换为 {{sha}} 的文件。之后的版本留在历史里。
+pluginVersionHistory.restoreTitle	恢复此版本？
+pluginVersionHistory.restoreToEditor	载入编辑器
+pluginVersionHistory.restoreToEditorHelp	载入版本会替换编辑器内容。保存以保留为最新版本。
+pluginVersionHistory.restored	已恢复版本 {{sha}}
+pluginVersionHistory.sourceTab	源码
+pluginVersionHistory.tab	版本历史

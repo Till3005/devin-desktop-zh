@@ -1,0 +1,160 @@
+viewerReplay.exit	退出回放
+viewerReplay.nextEvent	下一事件
+viewerReplay.pause	暂停
+viewerReplay.play	播放
+viewerReplay.previousEvent	上一事件
+viewerReplay.restart	重播
+viewerReplay.skipIdle	跳过空闲
+viewerReplay.skipIdleHint	一阵没新东西就快进
+viewerReplay.skipped	跳过 {{duration}} 空闲
+viewerReplay.speed	播放速度
+viewerReplay.speedValue	{{speed}}×
+viewerReplay.timeline	会话时间线
+virtualEnvironment.default	默认
+virtualEnvironment.hosted	托管
+virtualEnvironment.outposts	Outpost
+virtualEnvironment.personal	个人
+voiceCall.alreadyActive	此会话已有进行中的语音通话
+voiceCall.call	呼叫 {{name}}
+voiceCall.callDuration	通话时长
+voiceCall.calling	呼叫中…
+voiceCall.cancel	取消通话
+voiceCall.connectionClosed	通话连接已关（{{code}}）
+voiceCall.deafen	静音 Devin
+voiceCall.hangUp	结束语音通话
+voiceCall.holdKeyToTalk	按住 <key></key> 说话
+voiceCall.holdSpacebarToTalk	按住空格说话
+voiceCall.listening	听中
+voiceCall.micLevel	麦克风电平
+voiceCall.microphoneUnavailable	起语音通话需麦克风权限
+voiceCall.mute	静音麦克风
+voiceCall.muted	已静音
+voiceCall.notEnabled	你账户没开语音模式
+voiceCall.presence.endCall	结束通话
+voiceCall.presence.otherUser	{{name}} 和 Devin 在通话中
+voiceCall.presence.someone	有人和 Devin 在通话中
+voiceCall.presence.you	你和 Devin 在另一窗口通话中
+voiceCall.reconnecting	重连通话中…
+voiceCall.retry	重试
+voiceCall.returnToCall	回通话
+voiceCall.sendAndStart	发消息并起语音通话
+voiceCall.spaceKey	空格
+voiceCall.start	起语音通话
+voiceCall.starterMessage	嗨 Devin！
+voiceCall.tooManyCalls	最近起的语音通话太多。等几分钟再试
+voiceCall.transcript	通话记录
+voiceCall.transcriptDevin	Devin
+voiceCall.transcriptEmpty	你说话时会话会显在这。
+voiceCall.transcriptYou	你
+voiceCall.undeafen	取消静音 Devin
+voiceCall.unmute	取消静音麦克风
+voiceCall.voiceModelError	语音模型错误
+voiceRecord.processingEllipsis	处理中…
+voiceRecord.sendVoiceMessage	发语音消息
+voiceRecord.stopAndEdit	停并编辑
+voiceRecord.stopAndSend	停并发
+welcome.advancedMcpBanner	每个 Devin 会话内置已认证的 <mcpLink>Devin MCP</mcpLink>——免设置。任何 Devin 都能查其它会话、管 <playbooksLink>playbook</playbooksLink>、起批量会话。
+welcome.askDevinAboutCode	问 Devin 你代码的问题
+welcome.backToDevin	回 Devin
+welcome.buildSnapshot	构建快照
+welcome.connect	连接
+welcome.connectCodebaseFree	连你代码库免费试 Devin
+welcome.connectMessagingApp	把 Devin 带进你团队 Slack 或 Microsoft Teams
+welcome.connectMicrosoftTeams	把 Devin 带进你团队 Microsoft Teams
+welcome.connectSlack	把 Devin 带进你团队 Slack
+welcome.onlyImageFilesSupported	只支持图片文件（.png、.jpg、.jpeg、.gif、.webp）
+welcome.openSessionLinks	开会话链接
+welcome.organization	组织
+welcome.snapshotNotBuilt	构建快照让 Devin 秒起
+welcome.startOnboarding	开始上手
+welcome.subscribe	订阅
+welcome.tagsRequiredNotConfigured	会话标签必填但此组织没配允许的标签。找你管理员。
+welcome.trialDisabled	因高负载免费会话已禁。请订阅。
+welcome.trialDisabledHighLoad	因高负载免费会话现在已禁。抱歉不便。
+welcomeAdvanced.prompts.auditTitle	跨我们代码库跑安全和依赖审计。
+welcomeAdvanced.prompts.costAcuTitle	分析我最近会话，找出哪些耗最多 ACU。
+welcomeAdvanced.prompts.costQuotaTitle	分析我最近会话，找出哪些花费最多。
+welcomeAdvanced.prompts.createPlaybookTitle	帮我建个捕捉迁移工作流的 playbook。
+welcomeAdvanced.prompts.designSystemTitle	建个每日排期审代码更改的设计系统违规。
+welcomeAdvanced.prompts.failedSessionsTitle	找上周失败或被终止的会话。
+welcomeAdvanced.prompts.featuresTitle	按已合并 PR 找最近动过的 10 个功能。
+welcomeAdvanced.prompts.flagsTitle	设个每周排期扫代码库陈旧功能旗标。
+welcomeAdvanced.prompts.improvePlaybookTitle	帮我按 playbook 表现改进它。
+welcomeAdvanced.prompts.knowledgeDupesTitle	审全部知识条目，找重复和矛盾。
+welcomeAdvanced.prompts.knowledgePatternsTitle	排查我们代码库和文档找出关键模式。
+welcomeAdvanced.prompts.knowledgeSuggestionsTitle	审全部待审知识建议。
+welcomeAdvanced.prompts.migrationTitle	帮我跨代码库跑迁移。
+welcomeAdvanced.prompts.orgUsageTitle	分析我组织最近会话。
+welcomeAdvanced.tabs.analyzeDescription	从过去 Devin 会话拿洞察和指导
+welcomeAdvanced.tabs.analyzeLabel	分析会话
+welcomeAdvanced.tabs.batchDescription	从任务列表一次起多个 Devin 会话
+welcomeAdvanced.tabs.batchLabel	起批量会话
+welcomeAdvanced.tabs.manageDescription	组织、去重、改进 Devin 知识库
+welcomeAdvanced.tabs.manageLabel	管知识
+welcomeAdvanced.tabs.managePlaybooksDescription	建、改进、管可复用 playbook
+welcomeAdvanced.tabs.managePlaybooksLabel	管 playbook
+welcomeAdvanced.tabs.scheduleDescription	设定期跑 Devin 会话的排期
+welcomeAdvanced.tabs.scheduleLabel	建排期
+welcomeScreen.slack.disconnectFailed	断开 Slack 用户集成失败
+welcomeScreen.slack.emailNotConnected	此邮箱没连 Slack 账户
+welcomeScreen.slack.enterEmailError	请输邮箱地址
+welcomeScreen.slack.enterEmailPlaceholder	输你 Slack 邮箱
+welcomeScreen.slack.enterEmailTitle	输 Slack 邮箱
+welcomeScreen.slack.getInvite	拿邀请
+welcomeScreen.slack.getInviteLink	拿邀请链接
+welcomeScreen.slack.gettingInvite	拿邀请中…
+welcomeScreen.slack.inviteFailed	拿不了 Slack Connect 邀请。
+welcomeScreen.slack.noOrgId	找不到组织 ID
+wiki.aWikiHasntBeenGeneratedYetForThis	此仓库还没生成 wiki。起个刷新生成它。
+wiki.accept	接受
+wiki.accessDocumentationAndKnowledgeBasesForPublicRepositories	访问公开仓库的文档和知识库。
+wiki.addWiki	加 wiki
+wiki.askAdminToGenerate	找你管理员生成 wiki
+wiki.askDevin	问 Devin
+wiki.askDevinAbout	问 Devin 关于 {{repo}}
+wiki.backToWiki	回 Wiki
+wiki.changesCommittedSuccessfullyThePRHasBeenCreated	更改提交成功，PR #{{pr_number}} 已建。
+wiki.commitChangesAndCreateAPullRequest	提交更改并建拉取请求
+wiki.connectGitProviderToSeeWikis	连 Git 提供商在这看你 wiki。
+wiki.connecting	连中…
+wiki.contactAnAdminToGenerateTheWikiFor	找管理员为此仓库生成 wiki。
+wiki.continueToPreviewScreen	继续到预览屏
+wiki.copyLinkToHeader	复制标题链接
+wiki.copySectionContent	复制分节内容
+wiki.deepWiki	DeepWiki
+wiki.deepWikiTitle	DeepWiki
+wiki.defaultPageTitle	Wiki
+wiki.drawingDiagram	画图中…
+wiki.edit	编辑
+wiki.editHelpPageNotes	用 <code>page_notes</code> 分节加每页专属批注，指导每个 wiki 页怎么生成。
+wiki.editHelpPages	在 JSON 文件 <code>pages</code> 数组里加、删或重排分节来定义或改 wiki 整体结构。
+wiki.editHelpRepoNotes	给仓库加总体批注就编 JSON 文件 <code>repo_notes</code> 分节。此分节放该全 wiki 通用的上下文、全局指示或语法规范。
+wiki.editJSON	编 JSON
+wiki.editThisJSONFileToConfigureWikiGeneration	编此 JSON 文件配 wiki 生成。wiki 页手动编辑在重生成时会被覆盖。
+wiki.editWiki	编 wiki
+wiki.errorLoadingWiki	加载 wiki 出错
+wiki.failedToCommitChanges	提交更改失败。
+wiki.failedToGeneratePreview	生成预览失败。
+wiki.failedToGeneratePreviewPleaseTryAgainLater	生成预览失败。请稍后再试。
+wiki.failedToLoadWiki	加载不了此 wiki
+wiki.failedToLoadWikiConfigurationPleaseTryRefreshing	加载 wiki 配置失败。试刷新页面。
+wiki.failedToLoadWikis	加载 wiki 失败
+wiki.failedToRefreshWiki	刷新 wiki 失败：{{error}}
+wiki.failedToRefreshWikiPleaseTryAgain	刷新 wiki 失败。请重试。
+wiki.failedToStartGeneration	起 wiki 生成失败
+wiki.failedToUpdateRepoNotePleaseTryAgain	更新仓库笔记失败。请重试。
+wiki.filterAll	全部 wiki
+wiki.filterGenerating	只生成中
+wiki.filterIndexed	只已索引
+wiki.filterNotIndexed	只未索引
+wiki.filterWikis	筛 wiki
+wiki.fullDocumentation	完整文档
+wiki.generate	生成
+wiki.generating	生成中…
+wiki.generatingAPreviewCanTakeSeveralMinutesWe	生成预览可能要几分钟。好了我们能邮件通知你。或者你能继续到预览屏在那等。
+wiki.generatingWiki	生成 wiki 中…
+wiki.linkCopied	链接已复制！
+wiki.linkGitHubAccount	链 GitHub 账户
+wiki.linkGithubToAccess	你须链 GitHub 账户以经 DeepWiki 访问 wiki。
+wiki.loadMoreWikis	加载更多 wiki
+wiki.loading	加载中

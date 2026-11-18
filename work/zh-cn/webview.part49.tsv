@@ -1,0 +1,314 @@
+localSettings.models.row.description	配置 Devin 可用的本地模型端点
+localSettings.models.row.label	模型设置
+localSettings.models.save	保存
+localSettings.models.saveFailed	保存失败：{{message}}。若文件不可写，把 DEVIN_MODELS_FILE 设为可写路径或让管理员更新。
+localSettings.models.saved	已存到 {{path}}。重启 agent 应用新模型设置。
+localSettings.models.tabCompletion	Tab 补全
+localSettings.models.test	测试
+localSettings.models.testFailed	测试失败
+localSettings.models.testRequestFailed	测试请求失败：{{message}}。请确保自带的 Devin agent 正在运行。
+localSettings.models.testTooltip	测的是 agent 启动时加载的配置；保存并重启 agent 才能测新更改
+localSettings.models.testing	正在测试…
+localSettings.models.title	模型设置
+localSettings.models.unreadable	模型文件存在但读不了，因此无法在此编辑。请先修复磁盘上的文件（查权限和编码），再重载。
+localSettings.models.valid	有效——未发现问题
+localSettings.models.validate	验证
+localSettings.models.validateCliHint	修好上面每个诊断项后 agent 才能用这些模型设置。同样检查可在终端用 <code>devin models validate</code> 跑；schema v0 格式和旧文件迁移见模型文件参考。
+localSettings.planInfo.addOnCreditsAvailable	个加购点数可用
+localSettings.planInfo.closeBreakdown	关闭明细
+localSettings.planInfo.creditsLeft	个点数剩余
+localSettings.planInfo.creditsRenewPlanEndsInDuration	点数每月重置。方案 <duration>{{duration}}</duration>后结束
+localSettings.planInfo.creditsTooltip	用高级模型发的每条消息消耗按模型定的点数。具体数值见模型下拉。
+localSettings.planInfo.currentPlan	当前方案
+localSettings.planInfo.days_one	{{count}} 天
+localSettings.planInfo.days_other	{{count}} 天
+localSettings.planInfo.enableAutoRefill	开启自动加购
+localSettings.planInfo.needMoreCredits	点数不够？点这里
+localSettings.planInfo.promptCreditsLeft	个提示词点数剩余
+localSettings.planInfo.purchaseCredits	购买点数
+localSettings.planInfo.referralBonus	推荐朋友付费方案得 250 加购点数奖励
+localSettings.planInfo.trialEndsInDuration	试用 <duration>{{duration}}</duration>后结束
+localSettings.planInfo.unlimited	不限量
+localSettings.planInfo.upgradeForCredits	升级以获得更多高级点数
+localSettings.planInfo.usage	用量
+localSettings.planInfo.viewBreakdown	查看明细
+localSettings.sections.advanced	高级
+localSettings.sections.agents	Agent
+localSettings.sections.authentication	认证
+localSettings.sections.browser	浏览器
+localSettings.sections.configuration	配置
+localSettings.sections.devinLocal	Devin Local
+localSettings.sections.devinTab	Devin 标签
+localSettings.sections.editor	编辑器
+localSettings.sections.extensions	扩展
+localSettings.sections.general	通用
+localSettings.sections.models	模型
+localSettings.sections.planInformation	方案信息
+localSettings.sections.shortcuts	快捷键
+localSettings.sections.userInterface	用户界面
+localSettings.shortcuts.viewAll.action	查看全部
+localSettings.shortcuts.viewAll.label	查看全部 Devin 快捷键
+localShares.defaultTitle	共享会话
+localShares.emptyBody	此会话没有可显示的消息。
+localShares.emptyTitle	没有内容
+localShares.toolTitle.applyPatch	应用补丁
+localShares.toolTitle.edit	编辑 `{{path}}`
+localShares.toolTitle.find	查找匹配 `{{pattern}}` 的文件
+localShares.toolTitle.read	读取 {{path}}
+localShares.toolTitle.search	搜索 `{{pattern}}`
+localShares.toolTitle.write	写入 `{{path}}`
+localShares.truncatedBanner	此会话上传前部分内容已被遮蔽或省略。
+localShares.unavailableBody	此共享会话不存在，或你没有访问权。
+localShares.unavailableTitle	会话不可用
+localShares.unsupportedBody	它的转录不是此页能懂的格式，通常意味着它是更新版 agent 共享的。
+localShares.unsupportedTitle	此会话无法显示
+machineSetup.baseSnapshotMismatchWarning	当前 Devin 会话用的基础机器快照与默认工作区不同。此会话的工作无法存回默认工作区。若要更新它，请用默认工作区开一个新 Devin。
+machineSetup.devinInvestigatingRepo	Devin 正在研究仓库并填写这些步骤
+machineSetup.instructionClickSave	所有步骤就绪后点「保存」
+machineSetup.instructionReviewSteps	逐一审查下方设置步骤，确保 Devin 找到了此仓库中每项任务的正确做法。
+machineSetup.instructionSkipOrEdit	看起来不对的步骤跳过或编辑。
+machineSetup.instructionVerifySteps	确认其他步骤都能成功运行。
+machineSetup.noProposedConfiguration	Devin 还没有提出机器设置配置。
+machineSetup.okay	好
+machineSetup.pendingChanges_one	{{count}} 项待处理更改
+machineSetup.pendingChanges_other	{{count}} 项待处理更改
+machineSetup.planningSetupSteps	正在规划设置环境所需步骤
+machineSetup.remainingSetupSteps_one	剩 {{count}} 个设置步骤
+machineSetup.remainingSetupSteps_other	剩 {{count}} 个设置步骤
+machineSetup.repositoryCommands	仓库命令
+machineSetup.repositoryConfiguration	仓库配置
+machineSetup.repositoryMaintenance	仓库维护
+machineSetup.reviewSetup	审查设置
+machineSetup.saveSetup	保存设置
+machineSetup.setupInstructions	设置说明
+machineSetup.setupProgress	设置进度
+machineSetup.skipAndSave	跳过并保存
+machineSetup.skipRemainingStepsDescription	确定要跳过剩余设置步骤？这会把所有未完成步骤标为跳过并继续保存设置配置。
+machineSetup.skipRemainingStepsTitle	跳过剩余步骤？
+machineSetup.skipTheRestAndSave	跳过其余并保存
+machineSetup.stepsComplete	{{total}} 步中完成 {{completed}} 步
+machineSetup.tooLateDescription	默认工作区在此设置会话开始后被改动过。此会话的工作无法安全存回默认工作区。若此会话中有想同步进默认工作区的更改，可用默认工作区开一个新设置会话，让 Devin 做你要的更改。
+machineSetup.tooLateTitle	太迟了 :(
+manageAccess.accessLevel	访问级别
+manageAccess.add	添加
+manageAccess.advancedDescription	为每种资源类型分别选访问权。
+manageAccess.advancedTitle	高级访问
+manageAccess.bot	{{botName}}
+manageAccess.bots	{{botNamePlural}}
+manageAccess.canList	可{{verbs, list(style: short)}}
+manageAccess.canView	可查看
+manageAccess.cancel	取消
+manageAccess.custom	自定义
+manageAccess.customAccess	自定义访问
+manageAccess.customDescription	为每种资源类型选访问权
+manageAccess.customLine	可{{verb}}：{{resources, list(style: short)}}
+manageAccess.done	完成
+manageAccess.enterpriseRole	企业角色
+manageAccess.enterpriseRoleMembers	有此企业角色的所有人
+manageAccess.enterpriseRoles	企业角色
+manageAccess.everyone	所有人
+manageAccess.fullAccess	完全访问
+manageAccess.gitProvider	Git 提供商
+manageAccess.grantFailed	授予访问失败
+manageAccess.group	组
+manageAccess.groupMemberCountMore	{{count}}+ 个成员
+manageAccess.groupMemberCount_one	{{count}} 个成员
+manageAccess.groupMemberCount_other	{{count}} 个成员
+manageAccess.groups	组
+manageAccess.groupsWithAccess_one	{{count}} 个有访问权的组
+manageAccess.groupsWithAccess_other	{{count}} 个有访问权的组
+manageAccess.hasAccess	有访问权
+manageAccess.inUse	使用中
+manageAccess.loadFailed	无法加载访问设置。
+manageAccess.managedByTooltip	镜像自{{source}}。请在你的 git 提供商处管理此访问。
+manageAccess.noAccess	无访问权
+manageAccess.noGrantsYet	还没有人被授予访问。
+manageAccess.noMatches	未找到匹配。
+manageAccess.orgMembers	此组织全部成员
+manageAccess.orgRole	{{orgName}} 中有此角色的所有人
+manageAccess.orgRoles	组织角色
+manageAccess.orgRolesIn	组织角色 · {{orgName}}
+manageAccess.organizationRole	组织角色
+manageAccess.orgs	组织
+manageAccess.peopleHide	隐藏这影响到谁
+manageAccess.peopleLoadFailed	无法加载人员。
+manageAccess.peopleNone	此组无人。
+manageAccess.peopleShow	显示这影响到谁
+manageAccess.peopleShowMore	显示更多
+manageAccess.permission	权限
+manageAccess.providerTeam	{{provider}} 团队 · {{orgLogin}}
+manageAccess.providerTeams	Git 提供商团队
+manageAccess.providerTeamsOf	{{provider}} 团队
+manageAccess.providerTeamsOn	{{provider}} 团队 · {{host}}
+manageAccess.removeAccess	移除访问
+manageAccess.removeFailed	移除访问失败
+manageAccess.rolesWithAccess_one	{{count}} 个有访问权的角色
+manageAccess.rolesWithAccess_other	{{count}} 个有访问权的角色
+manageAccess.save	保存
+manageAccess.serviceUser	服务用户
+manageAccess.serviceUsers	服务用户
+manageAccess.teamsWithAccess_one	{{count}} 个有访问权的团队
+manageAccess.teamsWithAccess_other	{{count}} 个有访问权的团队
+manageAccess.title	管理访问
+manageAccess.unknown	未知
+manageAccess.unknownUser	未知用户
+manageAccess.updateFailed	更新访问失败
+manageAccess.userAvatar	用户头像
+manageAccess.users	用户
+manageAccess.viewVerb	查看
+markdown.invalidAttachment	无效附件
+markdownContent.copy	复制内容
+markdownContent.frontmatter	Frontmatter
+markdownContent.loadFailed	加载文件失败
+markdownContent.noAccess	你没有查看此文件的权限
+markdownContent.notFound	此仓库中未找到文件
+markdownContent.preview	预览
+markdownContent.source	源码
+markdownEditor.collapse	折叠
+markdownEditor.dialogLabel	Markdown 编辑器
+markdownEditor.edit	编辑
+markdownEditor.expand	展开
+markdownEditor.preview	预览
+markdownEditor.writePlaybookHere	在此写你的 playbook…
+markdownTable.copyTable	复制表格
+mcpAvailableServers.addCustomMcp	添加自定义 MCP
+mcpAvailableServers.allServers	全部服务器
+mcpAvailableServers.installedByYourPlugins	由你的插件安装
+mcpAvailableServers.noMcpServersFound	未找到 MCP 服务器
+mcpAvailableServers.recommended	推荐
+mcpAvailableServers.searchMcpServers	搜索 MCP 服务器…
+mcpConfiguration.add	添加
+mcpConfiguration.addArgument	添加参数
+mcpConfiguration.addEnvironmentVariable	添加环境变量
+mcpConfiguration.allMembersShareA	所有成员共享一个连接
+mcpConfiguration.alreadyConnectedViaThe	已通过集成连接
+mcpConfiguration.authHeaderNameRequired	授权头名为必填项
+mcpConfiguration.authHeaderValueRequired	授权头值为必填项
+mcpConfiguration.authorizationCode	授权码
+mcpConfiguration.authorizationHeader	授权头
+mcpConfiguration.beta	Beta
+mcpConfiguration.cancel	取消
+mcpConfiguration.clientCredentials	客户端凭据
+mcpConfiguration.clientCredentialsClientIdRequired	client credentials 授权需要 OAuth 客户端 ID
+mcpConfiguration.clientCredentialsClientSecretRequired	client credentials 授权需要 OAuth 客户端密钥
+mcpConfiguration.commandRequired	命令为必填项
+mcpConfiguration.completeOauth	完成 OAuth
+mcpConfiguration.completeOauthSetupBefore	使用此 MCP 前先完成 OAuth 设置
+mcpConfiguration.completeOauthSetupBefore2	测试工具前先完成 OAuth 设置
+mcpConfiguration.completingOauth	正在完成 OAuth…
+mcpConfiguration.configurationTips	配置提示
+mcpConfiguration.copyCallbackUrl	复制回调 URL
+mcpConfiguration.copyOauthCallbackUrl	复制 OAuth 回调 URL
+mcpConfiguration.couldNotFindServer	找不到 ID 为 {{serverId}} 的服务器
+mcpConfiguration.couldNotLoadThe	无法加载回调 URL。刷新页面。
+mcpConfiguration.customUrl	自定义 URL
+mcpConfiguration.customValue	自定义值
+mcpConfiguration.defaultDiscovered	默认（自动发现）
+mcpConfiguration.documentation	文档
+mcpConfiguration.eGHttpsMcp	如 https://mcp.example.com
+mcpConfiguration.eGPythonNode	如 python、node、./script.sh
+mcpConfiguration.eGReadWrite	如 read write
+mcpConfiguration.eachOrganizationMemberCan	每个组织成员可用自己的个人访问令牌认证
+mcpConfiguration.enterArgumentValue	输入参数值
+mcpConfiguration.enterprisePersonalHint	目标组织的每个成员各自登录
+mcpConfiguration.enterpriseSharedHint	目标组织所有人共享一个连接
+mcpConfiguration.envVarNameRequired	环境变量名为必填项
+mcpConfiguration.envVarValueRequired	{{name}} 的值为必填项
+mcpConfiguration.envVarValueRequiredUnnamed	此变量的值为必填项
+mcpConfiguration.headerName	头名
+mcpConfiguration.headerValue	头值
+mcpConfiguration.http	HTTP
+mcpConfiguration.iconUrlInvalid	请输入有效 URL（如 https://example.com/icon.png）
+mcpConfiguration.ifThisServerRuns	若此服务器跑在会话机器上，把「高级」下的执行位置设为「会话机器」。
+mcpConfiguration.ifYourOauthProvider	若你的 OAuth 提供商要求预注册应用，请在下方提供凭据。
+mcpConfiguration.installAndEnable	安装并启用
+mcpConfiguration.integration	集成
+mcpConfiguration.interactiveUserLogin	交互式用户登录
+mcpConfiguration.invalidHeaderName	头名只能含字母、数字和 ! # $ % & ' * + - . ^ _ ` | ~ 字符
+mcpConfiguration.invalidHeaderValue	头值只能含可见 ASCII 字符和制表符
+mcpConfiguration.leaveBlankToKeep	留空保留现有机密
+mcpConfiguration.legacyRemoteStreamingTransport	旧版远程流式传输
+mcpConfiguration.loading	加载中…
+mcpConfiguration.localServerSpawnedAs	本地服务器以进程启动
+mcpConfiguration.loopbackUrl	回环 URL
+mcpConfiguration.mcpServersAreConnected	MCP 服务器默认由 Devin 的服务器连接，因此回环 URL 解析到那里而非你会话的机器。
+mcpConfiguration.noArgumentsAdded	未添加参数
+mcpConfiguration.noCustomHeadersAdded	未添加自定义头
+mcpConfiguration.noEnvironmentVariablesAdded	未添加环境变量
+mcpConfiguration.noUrlProvided	未提供 URL
+mcpConfiguration.nonInteractiveMachineTo	非交互、机器对机器
+mcpConfiguration.none	无
+mcpConfiguration.oauth	OAuth
+mcpConfiguration.oauthClientIdRequiredWithSecret	输入与此客户端密钥配套的 OAuth 客户端 ID
+mcpConfiguration.oauthResourceRequired	输入 resource 值或另选选项
+mcpConfiguration.officialMcp	官方 MCP
+mcpConfiguration.omitParameter	省略参数
+mcpConfiguration.onlyMembersWithThe	只有「管理 MCP 服务器」权限的成员能安装 MCP 服务器。联系你的组织管理员。
+mcpConfiguration.organization	组织
+mcpConfiguration.ownOAuthClientIdRequired	此服务器需要你自己的 OAuth 客户端 ID
+mcpConfiguration.personal	个人
+mcpConfiguration.personalAccessDescription	每个有访问权的人连接自己的账户
+mcpConfiguration.personalAccessHint	每个人自己登录
+mcpConfiguration.pleaseFixErrorsTo	请修复错误后继续
+mcpConfiguration.pluginDefault	插件默认：{{scope}}
+mcpConfiguration.remoteServerAtA	某 URL 上的远程服务器
+mcpConfiguration.remove	移除
+mcpConfiguration.removeArgument	移除参数
+mcpConfiguration.removeCustomHeader	移除自定义头
+mcpConfiguration.removeEnvironmentVariable	移除环境变量
+mcpConfiguration.requiredArgsIncomplete	请补全必填参数
+mcpConfiguration.saveChanges	保存
+mcpConfiguration.saveToTestTools	保存以测试工具和使用 MCP
+mcpConfiguration.selectAccessLevel	选择访问级别
+mcpConfiguration.selectAuthenticationMethod	选择认证方式
+mcpConfiguration.selectGrantType	选择授权类型
+mcpConfiguration.selectRegion	选择区域
+mcpConfiguration.selectTransportType	选择传输类型
+mcpConfiguration.serverNotFound	未找到服务器
+mcpConfiguration.serverUrlInvalid	请输入有效服务器 URL
+mcpConfiguration.serverUrlRequired	SSE 和 HTTP 传输需要服务器 URL
+mcpConfiguration.sharedAccess	共享
+mcpConfiguration.sharedAccessDescription	有访问权的人共享一个连接
+mcpConfiguration.sharedAccessHint	你共享此 MCP 的每个人都用你的登录
+mcpConfiguration.signInAccess	登录
+mcpConfiguration.signInAccessDescription	每人用自己的账户登录，还是所有人共享一个连接
+mcpConfiguration.sse	SSE
+mcpConfiguration.stdio	STDIO
+mcpConfiguration.stdioServersCanOnly	stdio 服务器只能在会话里测——用「使用 MCP」
+mcpConfiguration.testConnectionAndList	测试连接并列出工具
+mcpConfiguration.testTools	测试工具
+mcpConfiguration.testing	正在测试…
+mcpConfiguration.thisInstallationCanT	此安装无法固定到会话机器，因此服务器需要 Devin 服务器可达的 URL。
+mcpConfiguration.thisServerSOauth	此服务器的 OAuth 提供商不支持自动客户端注册，因此必须提供自己的 OAuth 客户端凭据。设置步骤见其文档。
+mcpConfiguration.transportRequired	传输类型为必填项
+mcpConfiguration.tryMcpInSession	在会话里试 MCP
+mcpConfiguration.urlMustMatchMarketplace	服务器 URL 必须与市场服务器同 scheme 和 host
+mcpConfiguration.useMcp	使用 MCP
+mcpConfiguration.useTheSameScheme	与市场服务器用同 scheme 和 host；可追加查询参数
+mcpConfiguration.variableName	变量名
+mcpConfiguration.variableValue	变量值
+mcpConfiguration.website	网站
+mcpConfiguration.yourOauthClientId	你的 OAuth 客户端 ID
+mcpConfiguration.yourOauthClientSecret	你的 OAuth 客户端密钥
+mcpCustomServerHeader.cancel	取消
+mcpCustomServerHeader.devinCliAndDirect	、Devin CLI 和直接服务器配置
+mcpCustomServerHeader.eGMyCustom	如 My Custom Server
+mcpCustomServerHeader.iconLabel	图标
+mcpCustomServerHeader.import	导入
+mcpCustomServerHeader.importAnyway	仍要导入
+mcpCustomServerHeader.importJson	导入 JSON
+mcpCustomServerHeader.importJsonConfig	导入 JSON 配置
+mcpCustomServerHeader.pasteAnMcpServer	粘贴一个 MCP 服务器 JSON 配置以自动填表。支持来自
+mcpCustomServerHeader.pasteInAnEmoji	粘贴 emoji 或 URL
+mcpCustomServerHeader.serverName	服务器名
+mcpCustomServerHeader.shortDescription	短描述
+mcpCustomServerHeader.slug	标识：
+mcpCustomServerHeader.tellDevinWhatThisMcpDoes	告诉 Devin 此 MCP 干什么
+mcpCustomServerHeader.thisConfigAppearsTo	此配置似乎含机密值（API 密钥、令牌等）。它们将以明文存进 MCP 配置。建议改用机密管理。
+mcpInheritedEnterprise.managedByEnterprise	由企业管理
+mcpInheritedEnterprise.personalMcp	个人 MCP
+mcpInheritedEnterprise.personalMcpEachMember	个人 MCP——每个成员各自连接
+mcpInstallationSecrets.couldNotSaveSecrets	无法保存机密
+mcpInstallationSecrets.delete	删除
+mcpInstallationSecrets.deleteLinkedDescription	这会删除「{{name}}」的已存值。引用 ${{name}} 的地方将回落到关联的组织机密。
+mcpInstallationSecrets.deleteSecret	删除机密

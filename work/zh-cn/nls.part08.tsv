@@ -1,0 +1,124 @@
+vs/sessions/contrib/changes/browser/createPullRequestChatRequest/createPR.message.context	备好的上下文是仓库 {0}、当前分支 {1}、基分支 {2}。若上下文变了，停下叫我审查，再提交、推送或建拉取请求。
+vs/sessions/contrib/changes/browser/createPullRequestChatRequest/createPR.message.draft	为此会话更改建个草稿拉取请求。保持草稿。
+vs/sessions/contrib/changes/browser/createPullRequestChatRequest/createPR.message.generateDetails	生成总结更改的标题和描述。
+vs/sessions/contrib/changes/browser/createPullRequestChatRequest/createPR.message.manualMerge	不合拉取请求也不开 GitHub 自动合并。
+vs/sessions/contrib/changes/browser/createPullRequestChatRequest/createPR.message.merge	一个 merge 提交
+vs/sessions/contrib/changes/browser/createPullRequestChatRequest/createPR.message.newBranch	提交更改前建并切到新源分支。
+vs/sessions/contrib/changes/browser/createPullRequestChatRequest/createPR.message.push	提交未提交更改，按需推源分支。
+vs/sessions/contrib/changes/browser/createPullRequestChatRequest/createPR.message.ready	为此会话更改建个待审拉取请求。
+vs/sessions/contrib/changes/browser/createPullRequestChatRequest/createPR.message.rebase	rebase 合并
+vs/sessions/contrib/changes/browser/createPullRequestChatRequest/createPR.message.squash	squash 合并
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.actions	拉取请求操作
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.addressReviews	处理审查
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.addressReviewsHint	拉取请求有未解决审查评论时，Agent Merge 会自动叫 agent 处理反馈。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.afterCreation	建后
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.agentConfigurationUnavailable	用会话现有 Agent Merge 设置。更新 agent host 以在此配。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.agentMerge	Agent Merge
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.agentMergeAlways	待审时
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.agentMergeAlwaysHint	必查和批准过时合并。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.agentMergeDraftPolicyHint	{0} 草稿可自动标待审。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.agentMergeNever	关
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.agentMergeNeverHint	留拉取请求开着由你合。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.agentMergeOptions	此会话的 Agent Merge 配置
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.agentMergePolicy	合并拉取请求
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.agentMergeUnchanged	未变时
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.agentMergeUnchangedHint	只在 Agent Merge 没做更改时合。修复提交会关掉合并。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.agentSessionHint	提交时应用于此会话。你的选择会记住用于未来拉取请求。可能有额外 agent 用量。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.autoHint	必查和批准过时 GitHub 合并。它不修失败检查也不处理审查。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.autoMerge	自动合并
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.autoMergeDetailsUnavailable	载不了仓库合并设置。查你 GitHub 访问并重载拉取请求详情。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.autoMergeDisabled	此仓库禁了 GitHub 自动合并。叫仓库管理员在仓库 Settings > General > Pull Requests 开「Allow auto-merge」。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.autoMergeDraft	开 GitHub 自动合并前把拉取请求标待审。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.autoMergeLoading	查 GitHub 自动合并可用性中…
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.autoMergeSettingsUnavailable	载不了仓库合并设置或没启合并方法。查你 GitHub 访问和仓库 Settings > General > Pull Requests。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.baseBranch	基分支：{0}
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.branchDirection	把源分支 {0} 合进基分支 {1}
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.cancel	取消
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.create	建 PR
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.createFailed	建不了拉取请求：{0}
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.creating	建 PR 中…
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.description	描述
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.detailsReady	拉取请求详情备好了。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.draft	建为草稿
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.draftHint	拉取请求保持草稿直到待审。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.enterDescription	描述改了啥、怎么测的
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.enterTitle	总结你的更改
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.fixCI	修 CI 失败
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.fixCIHint	必查 CI 失败时，Agent Merge 会自动叫 agent 查并修。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.generating	生成拉取请求标题和描述中。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.generationFailed	生成不了详情：{0} 自己输或重试。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.generationFailedWithoutMessage	生成不了详情。自己输或重试。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.heading	建拉取请求
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.loadingBranches	载分支信息中…
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.manual	手动合并
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.manualHint	合并时机你定。不自动修也不自动合。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.mergeCommit	Merge 提交
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.mergeCommitHint	保所有提交并加个 merge 提交。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.mergeMethod	合并方法
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.newBranch	会从 {0} 建新分支
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.newBranchLabel	新分支
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.prepareFailed	载不了拉取请求详情：{0} 自己输或重试。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.pushHint	未提交更改会提交并推你的分支。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.rebase	Rebase
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.rebaseHint	每提交重放到基分支，无 merge 提交。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.resolveConflicts	解冲突和落后分支
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.resolveConflictsHint	源分支有合并冲突或落后基分支时，Agent Merge 会自动叫 agent 更新它。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.retry	重试
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.sendFailed	发不了建拉取请求消息：{0}
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.sending	发消息中…
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.sendToChat	发建 PR 消息
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.sourceBranch	源分支：{0}
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.squash	Squash
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.squashHint	所有更改并成基分支上一个提交。
+vs/sessions/contrib/changes/browser/createPullRequestWidget/createPR.title	标题
+vs/sessions/contrib/changes/browser/sessionChangesEditorInput/sessionChangesEditor.ariaLabel	{0}，{1}
+vs/sessions/contrib/changes/browser/sessionChangesService/sessionChangesEditor.decorations	更改
+vs/sessions/contrib/changes/browser/sessionsChangesAccessibilityHelp/sessionsChanges.createPR	Agent Host 会话里，「建 PR」开个表单带生成的可编辑标题描述、草稿勾框和合并选项。生成中表单就显，留你输的内容。Tab 导航，Esc 关掉但留文。取消弃文。
+vs/sessions/contrib/changes/browser/sessionsChangesAccessibilityHelp/sessionsChanges.createPR.agentMergeHints	每个 Agent Merge 勾框都有说明解释它做啥、何时动。聚焦勾框听其说明，或悬停标签后信息图标读它。空格切换。
+vs/sessions/contrib/changes/browser/sessionsChangesAccessibilityHelp/sessionsChanges.createPR.branches	头部标仓库，随后左基分支右源分支。箭头指向收更改的基分支。
+vs/sessions/contrib/changes/browser/sessionsChangesAccessibilityHelp/sessionsChanges.createPR.draft	「建为草稿」让拉取请求保持草稿直到待审。
+vs/sessions/contrib/changes/browser/sessionsChangesAccessibilityHelp/sessionsChanges.createPR.merge	「手动合并」把合并留给你。选「Agent Merge」显出处理审查、修 CI 失败、解冲突或落后分支的勾框。「合并拉取请求」让你关合并、只在 Agent Merge 没改时合、或待审就合。会话设置只在提交时改，开或关表单时不改。「自动合并」叫 GitHub 在要求过时合并并让你选允许的合并方法。草稿用不了 GitHub 自动合并。
+vs/sessions/contrib/changes/browser/sessionsChangesAccessibilityHelp/sessionsChanges.createPR.navigation	Tab 和 Shift+Tab 在字段按钮间移。方向键选合并选项，空格切「建为草稿」。
+vs/sessions/contrib/changes/browser/sessionsChangesAccessibilityHelp/sessionsChanges.createPR.overview	你在建拉取请求表单。标题描述后台生成。每字段显载指示并报忙态直到生成完。你记住的选项立即显且生成中可改。你可立即开始编辑；生成文本永不替你的编辑。
+vs/sessions/contrib/changes/browser/sessionsChangesAccessibilityHelp/sessionsChanges.createPR.preferences	草稿、合并选项和上次提交操作在此 profile 跨会话记住，即使你取消。同会话同分支关表单重开时标题描述留在内存。取消弃此内容。不可用选项不应用，但你的偏好为支持的仓库和主机留着。
+vs/sessions/contrib/changes/browser/sessionsChangesAccessibilityHelp/sessionsChanges.createPR.submit	详情生成中「建 PR」禁用。它立即关表单，然后提交推你的更改并后台建拉取请求。可用时 Tab 到「拉取请求操作」按 Enter 或空格开下拉。生成中「发建 PR 消息」也可用——它叫此会话 agent 用你选的选项建拉取请求并自己生成标题描述，不用表单文本。上次用的操作成主按钮。Windows/Linux 上 Ctrl+Enter、macOS 上 Cmd+Enter 跑该主操作。Esc 关下拉，表单里 Esc 不提交关表单留文。取消关表单弃文。
+vs/sessions/contrib/changes/browser/sessionsChangesAccessibilityHelp/sessionsChanges.diffView	编辑器标题区「更多操作」菜单里用「Diff 视图」选内联、并排或自动布局。「切换偏好 Diff 视图」命令在内联和自动布局间切{0}。
+vs/sessions/contrib/changes/browser/sessionsChangesAccessibilityHelp/sessionsChanges.editorWordWrap	编辑器标题区「更多操作」菜单里用「自动换行」分别控 Agents 窗口里代码和多 diff 编辑器的换行。
+vs/sessions/contrib/changes/browser/sessionSyncChanges/sessions.syncChanges	同步更改
+vs/sessions/contrib/changes/browser/sessionSyncChanges/sessions.syncChanges.incomingCount	{0}↓
+vs/sessions/contrib/changes/browser/sessionSyncChanges/sessions.syncChanges.incomingOutgoingCounts	{0}↓ {1}↑
+vs/sessions/contrib/changes/browser/sessionSyncChanges/sessions.syncChanges.outgoingCount	{0}↑
+vs/sessions/contrib/changes/browser/sessionSyncChanges/sessions.syncChanges.pullPushTooltip	{2} 间拉 {0} 推 {1} 个提交
+vs/sessions/contrib/changes/browser/sessionSyncChanges/sessions.syncChanges.pullTooltip	从 {1} 拉 {0} 个提交
+vs/sessions/contrib/changes/browser/sessionSyncChanges/sessions.syncChanges.pushTooltip	推 {0} 个提交到 {1}
+vs/sessions/contrib/changes/browser/sessionSyncChanges/sessions.syncChanges.running	同步更改中…
+vs/sessions/contrib/changes/browser/sessionSyncChanges/sessions.syncChanges.tooltip	同步更改
+vs/sessions/contrib/changes/browser/sessionSyncChanges/sessions.syncChanges.unavailable	此会话的「同步更改」不再可用。
+vs/sessions/contrib/changes/common/changes/sessionChangesEditor.changedFiles	{0} 个文件
+vs/sessions/contrib/changes/common/changes/sessionChangesEditor.oneChangedFile	1 个文件
+vs/sessions/contrib/chat/browser/agentsWindowWorkspaceHandoff/agentsHandoff.chooseWorkspace	选工作区
+vs/sessions/contrib/chat/browser/agentsWindowWorkspaceHandoff/agentsHandoff.draftUnavailable	草稿复制不了到 Agents 窗口。你的提示和附件还在编辑器。重试或选工作区继续。
+vs/sessions/contrib/chat/browser/agentsWindowWorkspaceHandoff/agentsHandoff.retry	重试
+vs/sessions/contrib/chat/browser/agentsWindowWorkspaceHandoff/agentsHandoff.workspaceUnavailable	工作区选不了。重试或选工作区继续。
+vs/sessions/contrib/chat/browser/branchPicker/branchPicker.newWorktree	新 Worktree
+vs/sessions/contrib/chat/browser/chat.contribution/chat.agentSessions.archiveNudge.enabled	会话关联的 GitHub 拉取请求全合并时建议归档不活跃会话。关掉建议则该会话隐藏它直到归档或删除。
+vs/sessions/contrib/chat/browser/chat.contribution/chat.agentSessions.backgroundImageTint	Agents 窗口颜色配你的聊天背景图。其它窗口保现主题。高对比主题不可用。
+vs/sessions/contrib/chat/browser/chat.contribution/chat.agentSessions.backgroundType.none.detail	移掉当前聊天背景。
+vs/sessions/contrib/chat/browser/chat.contribution/chat.agentSessions.backgroundType.none.label	无背景
+vs/sessions/contrib/chat/browser/chat.contribution/chat.agentSessions.consolidatedRemoteWorkspaces.deprecated	已弃。改用统一工作区选择器设置。
+vs/sessions/contrib/chat/browser/chat.contribution/chat.agentSessions.preferredDarkBackgroundImageLayout	深色主题时聊天背景图在 Agents 窗口怎么排。
+vs/sessions/contrib/chat/browser/chat.contribution/chat.agentSessions.preferredLightBackgroundImageLayout	浅色主题时聊天背景图在 Agents 窗口怎么排。
+vs/sessions/contrib/chat/browser/chat.contribution/chat.agentSessions.responseSelectionMenu.enabled	Agents 窗口选助手回复文本时显带「侧聊询问」「引用」「复制」的增强操作菜单。
+vs/sessions/contrib/chat/browser/chat.contribution/chat.agentSessions.sessionStorageCleanupSuggestion	不活跃 worktree 达数量或可回收存储阈值时，Agents 窗口是否建议清会话存储。
+vs/sessions/contrib/chat/browser/chat.contribution/disableSessionStorageCleanupSuggestions	禁用会话存储清理建议
+vs/sessions/contrib/chat/browser/chat.contribution/manageAgentSessionStorage	开 Worktree 清理
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.compareAgents.enabled	合格新会话 agent 选择器里是否显「跑并比较 Agent」操作。
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.compareAgents.hideInactiveInputs	开启时，三个及以上并行比较尝试以网格显时隐不活跃面板的聊天输入。屏幕阅读器优化模式开时此行为禁用。
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.compareAgents.openInGrid	比较尝试开始时自动以网格开。关时尝试后台起；选其比较组开网格。
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.customizeWelcomeMessage	自定义欢迎消息…
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.customizeWelcomeMessage.name	名
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.customizeWelcomeMessage.nameDescription	设欢迎消息里用的名
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.customizeWelcomeMessage.phrases	短语
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.customizeWelcomeMessage.phrasesDescription	加进或替换欢迎短语
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.customizeWelcomeMessage.placeholder	选要自定义啥
+vs/sessions/contrib/chat/browser/chat.contribution/sessions.chat.experimental.agentsPickerInAttachContextMenu	Agents 窗口聊天输入的 Agent 选择器是否从「加上下文」起。选了 agent 后选择器回常位。

@@ -1,0 +1,160 @@
+settingsPages.buildDeltaPanel.thisBuildIsStillInProgress	此构建还在跑。完成后更改才可见。
+settingsPages.buildDeltaPanel.thisBuildIsStillInProgress2	此构建还在跑。完成后对比可能更新。
+settingsPages.buildDeltaPanel.viewCommitOnTheGitProvider	在 git 提供商看提交
+settingsPages.buildDetailPage.active	活跃
+settingsPages.buildDetailPage.allWorkspacesBuiltFromScratch	全部工作区从零构建
+settingsPages.buildDetailPage.buildDetails	构建详情
+settingsPages.buildDetailPage.buildKind	构建类型
+settingsPages.buildDetailPage.cancelBuild	取消构建
+settingsPages.buildDetailPage.cancelling	取消中…
+settingsPages.buildDetailPage.clearLogSearch	清日志搜索
+settingsPages.buildDetailPage.clearRepositoryFilter	清仓库筛选
+settingsPages.buildDetailPage.cloned	已克隆
+settingsPages.buildDetailPage.clonedButASetupStepFailed	已克隆，但一个设置步骤失败
+settingsPages.buildDetailPage.cloning	克隆中
+settingsPages.buildDetailPage.cloningFailedFixTheseFirst	克隆失败——先修这些
+settingsPages.buildDetailPage.collapse	收起
+settingsPages.buildDetailPage.collapseFailureSummary	收起失败摘要
+settingsPages.buildDetailPage.collapseSkipSummary	收起跳过摘要
+settingsPages.buildDetailPage.copyFailureSummary	复制失败摘要
+settingsPages.buildDetailPage.copySkipSummary	复制跳过摘要
+settingsPages.buildDetailPage.delete	删除
+settingsPages.buildDetailPage.deleting	删中…
+settingsPages.buildDetailPage.differential	差异构建
+settingsPages.buildDetailPage.dismiss	忽略
+settingsPages.buildDetailPage.dismissFailureSummary	忽略失败摘要
+settingsPages.buildDetailPage.dismissSkipSummary	忽略跳过摘要
+settingsPages.buildDetailPage.downloadLogs	下载日志
+settingsPages.buildDetailPage.downloadYaml	下载 YAML
+settingsPages.buildDetailPage.duration	时长
+settingsPages.buildDetailPage.expand	展开
+settingsPages.buildDetailPage.expandFailureSummary	展开失败摘要
+settingsPages.buildDetailPage.expandSkipSummary	展开跳过摘要
+settingsPages.buildDetailPage.failedDeleteSnapshot	删快照失败
+settingsPages.buildDetailPage.failedOrSkipped	失败或跳过（{{failedRailItemsCount}}）
+settingsPages.buildDetailPage.failedToDownloadConfiguration	下载配置失败
+settingsPages.buildDetailPage.failedToLoadBuildLogs	加载构建日志失败。
+settingsPages.buildDetailPage.fatal	致命
+settingsPages.buildDetailPage.filterRepositories	筛仓库
+settingsPages.buildDetailPage.finishedIn	完成用时 -
+settingsPages.buildDetailPage.fullBuild	全量构建
+settingsPages.buildDetailPage.hideThisSnapshotFromBuildHistory	从构建历史藏此快照。
+settingsPages.buildDetailPage.initialized	已初始化
+settingsPages.buildDetailPage.initializing	初始化中
+settingsPages.buildDetailPage.learnMoreAbout	了解 {{topic}}
+settingsPages.buildDetailPage.loadFailedDescription	快照详情没载上。稍后再试。
+settingsPages.buildDetailPage.loadFailedTitle	加载不了此快照
+settingsPages.buildDetailPage.moreActions	更多操作
+settingsPages.buildDetailPage.noContentsAvailable	没有可用内容。
+settingsPages.buildDetailPage.noLogsAvailableForThisBuild	此构建没有可用日志。
+settingsPages.buildDetailPage.notFoundDescription	此快照可能已被删，或链接是别的组织的。
+settingsPages.buildDetailPage.notFoundTitle	找不到快照
+settingsPages.buildDetailPage.partial	部分
+settingsPages.buildDetailPage.platform	平台
+settingsPages.buildDetailPage.requestedAsDifferentialFellBackFull	请求差异构建——回退到全量构建：{{value}}
+settingsPages.buildDetailPage.running	运行中
+settingsPages.buildDetailPage.scheduledFullBuildPreviousFullBuild	排期全量构建——上一个全量构建超了配置的最大年龄
+settingsPages.buildDetailPage.searchLogs	搜日志
+settingsPages.buildDetailPage.showLogsFor	显示 {{repo}} 的日志
+settingsPages.buildDetailPage.skipped	已跳过
+settingsPages.buildDetailPage.snapshotBuildJobId	快照 {{build_job_id}}
+settingsPages.buildDetailPage.snapshotDeleted	快照已删
+settingsPages.buildDetailPage.snapshotOn	快照于 {{value}}
+settingsPages.buildDetailPage.started	已开始
+settingsPages.buildDetailPage.status	状态
+settingsPages.buildDetailPage.streamingLive	直播传输中——{{currentActivity}}
+settingsPages.buildDetailPage.streamingLive2	直播传输中
+settingsPages.buildDetailPage.thePlatformThisSnapshotWasBuilt	此快照为之构建的平台。
+settingsPages.buildDetailPage.thisBuildFailedBeforeLogsWere	此构建在有日志前就失败了。起新构建再试，一直失败就联系支持。
+settingsPages.buildDetailPage.thisSnapshotIsCurrentlyUsedFor	此快照当前用于新会话。
+settingsPages.buildDetailPage.trigger	触发
+settingsPages.buildDetailPage.updated	已更新
+settingsPages.buildDetailPage.updating	更新中
+settingsPages.buildDetailPage.viewConfiguration	看配置
+settingsPages.buildDetailPage.viewSnapshots	看快照
+settingsPages.buildDetailPage.waitingForBuildLogs	等构建日志…
+settingsPages.buildDetailPage.whetherEveryBlueprintBuiltSuccessSome	是否每个 blueprint 都建了（成功），有些失败但快照仍可用（部分），还是构建失败或取消。
+settingsPages.buildDetailPage.whyFailed_one	为什么失败
+settingsPages.buildDetailPage.whyFailed_other	为什么失败（{{count}}）
+settingsPages.buildDetailPage.whySkipped_one	为什么跳过
+settingsPages.buildDetailPage.whySkipped_other	为什么跳过（{{count}}）
+settingsPages.buildFilterOptions.allStatuses	全部状态
+settingsPages.buildFilterOptions.cancelled	已取消
+settingsPages.buildFilterOptions.excludingCancelled	不含已取消
+settingsPages.buildFilterOptions.failed	失败
+settingsPages.buildFilterOptions.partial	部分
+settingsPages.buildFilterOptions.progress	进行中
+settingsPages.buildFilterOptions.status	状态
+settingsPages.buildFilterOptions.statusCount_one	{{count}} 个状态
+settingsPages.buildFilterOptions.statusCount_other	{{count}} 个状态
+settingsPages.buildFilterOptions.successful	成功
+settingsPages.buildHistoryContainer.active	活跃
+settingsPages.buildHistoryContainer.addARepositoryOrConfigureOrganization	加一个仓库或配置组织级设置开始。
+settingsPages.buildHistoryContainer.addARepositoryToStartBuilding	加一个仓库开始构建
+settingsPages.buildHistoryContainer.buildActions	构建操作
+settingsPages.buildHistoryContainer.buildCancelled	构建已取消
+settingsPages.buildHistoryContainer.buildSnapshot	构建快照
+settingsPages.buildHistoryContainer.buildStarted	构建已开始
+settingsPages.buildHistoryContainer.buildsAppearAfterAddingSetupSteps	加设置步骤或仓库后出现构建。
+settingsPages.buildHistoryContainer.cancelBuild	取消构建
+settingsPages.buildHistoryContainer.delete	删除
+settingsPages.buildHistoryContainer.devinCanUseTheseWhenStarting	Devin 起会话时能用这些
+settingsPages.buildHistoryContainer.differentialBuild	差异构建
+settingsPages.buildHistoryContainer.failedCancelBuild	取消构建失败
+settingsPages.buildHistoryContainer.failedDeleteSnapshot	删快照失败
+settingsPages.buildHistoryContainer.failedStartBuild	起构建失败
+settingsPages.buildHistoryContainer.fullBuild	全量构建
+settingsPages.buildHistoryContainer.fullBuildStarted	全量构建已开始
+settingsPages.buildHistoryContainer.noBuildsMatchTheseFilters	没有构建匹配这些筛选
+settingsPages.buildHistoryContainer.noBuildsYet	还没有构建
+settingsPages.buildHistoryContainer.noRepositories	无仓库
+settingsPages.buildHistoryContainer.nothingToBuildYet	还无可构建的
+settingsPages.buildHistoryContainer.recentSnapshots	最近快照
+settingsPages.buildHistoryContainer.repositoryCount_one	{{count}} 个仓库
+settingsPages.buildHistoryContainer.repositoryCount_other	{{count}} 个仓库
+settingsPages.buildHistoryContainer.scheduled	已排期
+settingsPages.buildHistoryContainer.snapshotDeleted	快照已删
+settingsPages.buildHistoryContainer.starting	启动中…
+settingsPages.buildHistoryContainer.todayTime	今天，{{time}}
+settingsPages.buildHistoryContainer.ubuntu	Ubuntu
+settingsPages.buildHistoryContainer.viewDetails	看详情
+settingsPages.buildHistoryContainer.yesterdayTime	昨天，{{time}}
+settingsPages.buildHistoryFilters.allPlatforms	全部平台
+settingsPages.buildHistoryFilters.status	状态：{{statusKeys}} <iconChevronDownMedium></iconChevronDownMedium>
+settingsPages.buildJobUtils.blueprintRemoved	Blueprint 已移除
+settingsPages.buildJobUtils.buildCancelled	构建已取消
+settingsPages.buildJobUtils.buildFailed	构建失败
+settingsPages.buildJobUtils.buildSuccessful	构建成功
+settingsPages.buildJobUtils.building	构建中
+settingsPages.buildJobUtils.cancelled	已取消
+settingsPages.buildJobUtils.configEdited	配置已编
+settingsPages.buildJobUtils.devinSuggestion	Devin 建议
+settingsPages.buildJobUtils.enterpriseRebuild	企业重建
+settingsPages.buildJobUtils.failed	失败
+settingsPages.buildJobUtils.gitSync	Git 同步
+settingsPages.buildJobUtils.manual	手动
+settingsPages.buildJobUtils.partial	部分
+settingsPages.buildJobUtils.partialBuild	部分构建
+settingsPages.buildJobUtils.queued	排队中
+settingsPages.buildJobUtils.repoAdded	仓库已加
+settingsPages.buildJobUtils.repoSecretAdded	仓库机密已加
+settingsPages.buildJobUtils.scheduledRefresh	排期刷新
+settingsPages.buildJobUtils.setupCreated	设置已建
+settingsPages.buildJobUtils.setupRemoved	设置已移除
+settingsPages.buildJobUtils.slackPreClone	Slack 预克隆
+settingsPages.buildJobUtils.success	成功
+settingsPages.buildJobUtils.todayTime	今天，{{time}}
+settingsPages.buildJobUtils.yesterdayTime	昨天，{{time}}
+settingsPages.buildLogParser.finishedIn	完成用时 {{durationLabel}}
+settingsPages.buildRailItems.all	全部
+settingsPages.buildRailItems.enterprise	企业
+settingsPages.buildRailItems.environment	环境
+settingsPages.buildRailItems.healthCheck	健康检查
+settingsPages.buildRailItems.organization	组织
+settingsPages.buildStatusBanner.buildCancelled	构建已取消
+settingsPages.buildStatusBanner.buildingSnapshot	构建快照中
+settingsPages.buildStatusBanner.lastBuilt	最近构建
+settingsPages.buildStatusBanner.lastBuiltValue	最近构建 {{value}}
+settingsPages.buildStatusBanner.latestBuildFailed	最新构建失败
+settingsPages.buildStatusBanner.partialBuild	部分构建
+settingsPages.buildStatusBanner.viewBuild	看构建

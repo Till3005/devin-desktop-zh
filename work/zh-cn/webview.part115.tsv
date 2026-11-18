@@ -1,0 +1,160 @@
+settingsPages.repoIndexingDetailPage.organizationDefault2	组织默认
+settingsPages.repoIndexingDetailPage.reIndex	重索引
+settingsPages.repoIndexingDetailPage.reIndexAllBranches	重索引全部分支
+settingsPages.repoIndexingDetailPage.reIndexAllBranchesThisMay	重索引全部分支？每分支可能需 10–30 分钟。
+settingsPages.repoIndexingDetailPage.reIndexBranch	重索引分支
+settingsPages.repoIndexingDetailPage.reIndexNow	现在重索引（{{costLabel}}）
+settingsPages.repoIndexingDetailPage.reIndexNow2	现在重索引
+settingsPages.repoIndexingDetailPage.reIndexingAllBranches	重索引全部分支中
+settingsPages.repoIndexingDetailPage.reIndexingThisShouldTake10	重索引「{{branch}}」中。需 10–30 分钟。
+settingsPages.repoIndexingDetailPage.reindexWikiForBranch	重索引「{{branch}}」的 wiki？
+settingsPages.repoIndexingDetailPage.remove	移除
+settingsPages.repoIndexingDetailPage.removeAllBranchIndexes	移除全部分支索引
+settingsPages.repoIndexingDetailPage.removeAllBranches	移除全部分支
+settingsPages.repoIndexingDetailPage.removeBranchIndex	移除分支索引
+settingsPages.repoIndexingDetailPage.removeIndex	移除索引
+settingsPages.repoIndexingDetailPage.removeTheWikiIndexForAll	移除全部非默认分支的 wiki 索引？不可撤销。
+settingsPages.repoIndexingDetailPage.removeTheWikiIndexForThis	移除「{{branchToRemove}}」的 wiki 索引？不可撤销。
+settingsPages.repoIndexingDetailPage.removedBranch	已移除分支「{{branchToRemove}}」
+settingsPages.repoIndexingDetailPage.searchBranches	搜分支…
+settingsPages.repoIndexingDetailPage.selectWikiEffortLevel	选 wiki 努力级别
+settingsPages.repoIndexingDetailPage.selectWikiRefreshFrequency	选 wiki 刷新频率
+settingsPages.repoIndexingDetailPage.talkToTheTeamToFind	找团队了解
+settingsPages.repoIndexingDetailPage.theDefaultBranchIndexCannotBe	默认分支索引移除不了
+settingsPages.repoIndexingDetailPage.thisShouldTake1030Minutes	需 10–30 分钟。
+settingsPages.repoIndexingDetailPage.unknownError	未知错误
+settingsPages.repoIndexingDetailPage.weekly	每周
+settingsPages.repoIndexingDetailPage.wikiEffortLevel	Wiki 努力级别
+settingsPages.repoIndexingPage.add	加
+settingsPages.repoIndexingPage.addRepositories	加仓库
+settingsPages.repoIndexingPage.addRepositoriesNone	加仓库
+settingsPages.repoIndexingPage.addRepositoriesToStartIndexingFor	加仓库以开始为 DeepWiki 和 Ask Devin 索引。
+settingsPages.repoIndexingPage.addRepositories_one	加 {{count}} 个仓库
+settingsPages.repoIndexingPage.addRepositories_other	加 {{count}} 个仓库
+settingsPages.repoIndexingPage.adding	加中…
+settingsPages.repoIndexingPage.allRepositoriesHaveBeenIndexed	全部仓库已索引
+settingsPages.repoIndexingPage.balancesSpeedAndQuality	平衡速度与质量（{{lo}}）
+settingsPages.repoIndexingPage.branchesFailed	{{total}} 个分支中 {{failed}} 个失败
+settingsPages.repoIndexingPage.branchesIndexed_one	{{count}} 个分支已索引
+settingsPages.repoIndexingPage.branchesIndexed_other	{{count}} 个分支已索引
+settingsPages.repoIndexingPage.chooseHowDeepwikiGeneratesAndDisplays	选 DeepWiki 为你组织怎么生成和显示内容
+settingsPages.repoIndexingPage.chooseWhichLanguagesDeepwikiContentIs	选 DeepWiki 内容以哪些语言生成
+settingsPages.repoIndexingPage.configureHowDeepwikiIndexesYourRepository	配 DeepWiki 怎么索引你仓库源码用于 Wiki 和 Ask Devin
+settingsPages.repoIndexingPage.daily	每天
+settingsPages.repoIndexingPage.deepwiki	DeepWiki
+settingsPages.repoIndexingPage.failedToLoadRepositories	加载仓库失败
+settingsPages.repoIndexingPage.failedToStartIndexing	起索引失败。请重试。
+settingsPages.repoIndexingPage.failedToUpdateWikiLanguages	更新 wiki 语言失败
+settingsPages.repoIndexingPage.fastAndLightweightFree	快而轻（免费）
+settingsPages.repoIndexingPage.generation	生成
+settingsPages.repoIndexingPage.high	高
+settingsPages.repoIndexingPage.higherEffortGeneratesBetterQualityAt	更高努力以更高成本生成更好质量
+settingsPages.repoIndexingPage.howOftenWikisAreRegeneratedTo	wiki 多久重生成以反映代码更改
+settingsPages.repoIndexingPage.indexing	索引中…
+settingsPages.repoIndexingPage.indexingFailed	索引失败
+settingsPages.repoIndexingPage.loadMore	加载更多
+settingsPages.repoIndexingPage.loading	加载中…
+settingsPages.repoIndexingPage.low	低
+settingsPages.repoIndexingPage.managedByAdministrator	由你管理员管。
+settingsPages.repoIndexingPage.max	最大
+settingsPages.repoIndexingPage.medium	中
+settingsPages.repoIndexingPage.monthly	每月
+settingsPages.repoIndexingPage.moreDetailedHigherQualityWiki	更详、更高质 wiki（{{lo}}）
+settingsPages.repoIndexingPage.never	从不
+settingsPages.repoIndexingPage.noIndexedRepositories	无已索引仓库
+settingsPages.repoIndexingPage.noRepositoriesFound	找不到仓库
+settingsPages.repoIndexingPage.noRepositoriesYet	还没有可用仓库
+settingsPages.repoIndexingPage.noResults	无结果
+settingsPages.repoIndexingPage.notIndexed	未索引
+settingsPages.repoIndexingPage.refreshRepositories	刷新仓库
+settingsPages.repoIndexingPage.retry	重试
+settingsPages.repoIndexingPage.searchRepositories	搜仓库…
+settingsPages.repoIndexingPage.selectAll	全选
+settingsPages.repoIndexingPage.selectRepositoriesToIndexForDeepwiki	选要为 DeepWiki 和 Ask Devin 索引的仓库
+settingsPages.repoIndexingPage.selectWikiEffortLevel	选 wiki 努力级别
+settingsPages.repoIndexingPage.selectWikiRefreshFrequency	选 wiki 刷新频率
+settingsPages.repoIndexingPage.startedIndexing_one	已开始索引 {{count}} 个仓库
+settingsPages.repoIndexingPage.startedIndexing_other	已开始索引 {{count}} 个仓库
+settingsPages.repoIndexingPage.talkToTheTeamToFind	找团队了解
+settingsPages.repoIndexingPage.tryADifferentSearchTerm	换个搜索词试试。
+settingsPages.repoIndexingPage.tryRefreshingThePage	试刷新页面。
+settingsPages.repoIndexingPage.weekly	每周
+settingsPages.repoIndexingPage.wikiLanguagesUpdated	Wiki 语言已更新
+settingsPages.repoSecretsSection.addYourFirstSecretToGet	加你首个机密开始。
+settingsPages.repoSecretsSection.couldntLoadSecretsTryAgainLater	加载不了机密。稍后再试。
+settingsPages.repoSecretsSection.createSecret	建机密
+settingsPages.repoSecretsSection.importSecrets	导入机密
+settingsPages.repoSecretsSection.noMatchingSecrets	没有匹配的机密
+settingsPages.repoSecretsSection.noSecretsFound	找不到机密
+settingsPages.repoSecretsSection.noSecretsHaveBeenAddedYet	还没加机密。
+settingsPages.repoSecretsSection.searchSecrets	搜索机密
+settingsPages.repoSecretsSection.tryADifferentSearchTerm	换个搜索词试试。
+settingsPages.repositoryBlueprintEditorContainer.blueprint	Blueprint
+settingsPages.repositoryBlueprintEditorContainer.blueprintInline	blueprint
+settingsPages.repositoryBlueprintEditorContainer.failedOpenAbbrev	开 {{abbrev}} 失败
+settingsPages.repositoryBlueprintEditorContainer.failedToOpen	开 {{abbrev}} 失败：{{message}}
+settingsPages.repositoryBlueprintEditorContainer.failedToSwitchSourceTo	切来源到 {{providerLabel}} 失败
+settingsPages.repositoryBlueprintEditorContainer.failedToSwitchTo	切到 {{sourceLabel}} 失败
+settingsPages.repositoryBlueprintEditorContainer.failedToSwitchToDatabase	切到 Database 失败
+settingsPages.repositoryBlueprintEditorContainer.failedToSyncBlueprintsFrom	从 {{repoName}} 同步 blueprint 失败
+settingsPages.repositoryBlueprintEditorContainer.followReadOnlyReason	此仓库用其规范 blueprint——切来源以在这编辑
+settingsPages.repositoryBlueprintEditorContainer.followUnavailableReason	此仓库用其规范 blueprint，这编辑不了
+settingsPages.repositoryBlueprintEditorContainer.generateDevin	用 Devin 生成
+settingsPages.repositoryBlueprintEditorContainer.noBlueprintFoundForThisScope	此范围找不到 {{providerLabel}} blueprint——加一个再同步。
+settingsPages.repositoryBlueprintEditorContainer.noBlueprintFoundInOnNothing	{{providerLabel}} 上 {{repoName}} 找不到 blueprint——无可同步。
+settingsPages.repositoryBlueprintEditorContainer.rootOnlySourceReason	从仓库根改来源
+settingsPages.repositoryBlueprintEditorContainer.switchedTo	已切到 {{providerLabel}} @ {{value}}
+settingsPages.repositoryBlueprintEditorContainer.switchedTo2	已切到 {{providerLabel}}
+settingsPages.repositoryBlueprintEditorContainer.switchedTo3	已把 {{repoName}} 切到 {{sourceLabel}}
+settingsPages.repositoryBlueprintEditorContainer.switchedToDatabaseFutureSyncsAre	已把 {{repoName}} 切到 Database——之后 {{providerLabel}} 同步关了
+settingsPages.repositoryBlueprintEditorContainer.switchedToDatabaseFutureSyncsWill	已切到 Database——之后 {{providerLabel}} 同步会跳过此 blueprint
+settingsPages.repositoryBlueprintEditorContainer.syncedFrom	同步自 {{repoName}} @ {{value}}
+settingsPages.repositoryBlueprintEditorContainer.syncedFrom2	同步自 {{repoName}}
+settingsPages.repositoryBlueprintEditorContainer.thisWillDeleteTheBlueprintFor	这会删此仓库的 blueprint。此操作不可撤销。
+settingsPages.repositoryBlueprintEditorContainer.updateDevin	用 Devin 更新
+settingsPages.repositoryBlueprintEditorContainer.upgradeYourPlanToGenerateOr	升级你方案以用 Devin 生成或更新
+settingsPages.repositoryBlueprintEditorPage.aBlueprintAlreadyExistsForThis	此目录已有 blueprint。
+settingsPages.repositoryBlueprintEditorPage.addBlueprint	加 blueprint
+settingsPages.repositoryBlueprintEditorPage.advanced	高级
+settingsPages.repositoryBlueprintEditorPage.blueprint	Blueprint
+settingsPages.repositoryBlueprintEditorPage.blueprintAdded	Blueprint {{normalized}} 已加
+settingsPages.repositoryBlueprintEditorPage.buildCompleted	构建完成于 {{completedat}}。
+settingsPages.repositoryBlueprintEditorPage.buildDidNotComplete	构建没完成。
+settingsPages.repositoryBlueprintEditorPage.connectionIssueLabelReconnectRepositoryMakeChanges	{{connectionIssueLabel}}——重连仓库以改
+settingsPages.repositoryBlueprintEditorPage.continue	继续
+settingsPages.repositoryBlueprintEditorPage.directoryPath	目录路径
+settingsPages.repositoryBlueprintEditorPage.downloadLogs	下载日志
+settingsPages.repositoryBlueprintEditorPage.environmentDisplayedRepoName	环境——{{displayedRepoName}}
+settingsPages.repositoryBlueprintEditorPage.failedAddBlueprint	加 blueprint 失败
+settingsPages.repositoryBlueprintEditorPage.failedToUpdateRepositorySettings	更新仓库设置失败
+settingsPages.repositoryBlueprintEditorPage.gitConnectionIssue	Git 连接问题
+settingsPages.repositoryBlueprintEditorPage.includeThisRepositoryToConfigureSetup	含此仓库以配设置
+settingsPages.repositoryBlueprintEditorPage.largeBlueprintListsCanGetHard	大 blueprint 列表难管。考虑把相关路径并进单个 blueprint 或把一些设置移回根环境。
+settingsPages.repositoryBlueprintEditorPage.lastCompletedBuildFailed	最近完成构建失败
+settingsPages.repositoryBlueprintEditorPage.manageIntegrations	管集成
+settingsPages.repositoryBlueprintEditorPage.mustBeAnExistingDirectoryIn	须为 {{displayedRepoName}} 里已有目录。用作 blueprint 标签
+settingsPages.repositoryBlueprintEditorPage.perforceConnectionIssue	Perforce 连接问题
+settingsPages.repositoryBlueprintEditorPage.repoNoLongerAccessible	此仓库不再可访问。提供商连接可能已移除或权限已吊销。
+settingsPages.repositoryBlueprintEditorPage.reportStatusChecksForEachCommit	为每个提交报状态检查
+settingsPages.repositoryBlueprintEditorPage.runOnEveryCommitToDefault	默认分支每个提交都跑
+settingsPages.repositoryBlueprintEditorPage.skippedInLastCompletedBuild	最近完成构建里跳过
+settingsPages.repositoryBlueprintEditorPage.upgradePlanAddRepositories	升级你方案以加仓库
+settingsPages.repositoryBlueprintEditorPage.viewDetails	看详情
+settingsPages.repositoryBlueprintEditorPage.workspacesDefinedCanonicalBlueprintUpdateWhen	工作区由规范 blueprint 定，它变时更新。
+settingsPages.repositoryBlueprintEditorPage.workspacesDefinedValueUpdateSync	工作区由 {{value}} 定，同步时更新。
+settingsPages.repositoryBlueprintEditorPage.youDonTHavePermissionManage	你没权管此环境
+settingsPages.repositoryBlueprintEditorPage.youHaveBlueprints	你有 {{scopedBlueprintsCount}} 个 blueprint
+settingsPages.scheduleEditorPage.aTagIsRequiredBeforeThis	保存或跑此排期前要一个标签
+settingsPages.scheduleEditorPage.active	活跃
+settingsPages.scheduleEditorPage.allRepositories	全部仓库
+settingsPages.scheduleEditorPage.always	总是
+settingsPages.scheduleEditorPage.autoApproveStartingChildSessions	自动批准起子会话
+settingsPages.scheduleEditorPage.availableToSchedulesWithNewSessions	对新会话排期可用
+settingsPages.scheduleEditorPage.chooseWhenToBeNotifiedOf	选何时被通知排期运行
+settingsPages.scheduleEditorPage.createdBy	由 {{name}} 创建
+settingsPages.scheduleEditorPage.creating	建中…
+settingsPages.scheduleEditorPage.delete	删除
+settingsPages.scheduleEditorPage.deleteConfirmation	确定删排期「{{name}}」？此操作不可撤销。
+settingsPages.scheduleEditorPage.deleteSchedule	删排期
+settingsPages.scheduleEditorPage.details	详情
+settingsPages.scheduleEditorPage.directDevinToRelevantRepositories	引 Devin 到相关仓库

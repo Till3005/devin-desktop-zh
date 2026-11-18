@@ -1,0 +1,217 @@
+enterpriseMcp.management.noOrganizations	未找到组织。
+enterpriseMcp.management.organizationsCount_one	{{count}} 个组织
+enterpriseMcp.management.organizationsCount_other	{{count}} 个组织
+enterpriseMcp.management.searchOrganizations	搜索组织…
+enterpriseMcp.management.searchPlaceholder	按 MCP 名搜索
+enterpriseMcp.servers.add	企业 MCP 服务器
+enterpriseMcp.servers.allOrganizations	全部组织
+enterpriseMcp.servers.allOrganizationsExcept	除 {{names}} 外的全部组织
+enterpriseMcp.servers.allOrganizationsExceptList	除 {{names, list}} 外的全部组织
+enterpriseMcp.servers.andMore	{{shown}}，还有 {{count}} 个
+enterpriseMcp.servers.badge	企业 MCP 服务器
+enterpriseMcp.servers.defaultEnabled	默认启用
+enterpriseMcp.servers.delete	删除服务器
+enterpriseMcp.servers.deleteConfirm	删除
+enterpriseMcp.servers.deleteDescription	从所有目标组织移除「{{name}}」。自己装过副本的组织保留它。
+enterpriseMcp.servers.deleteTitle	删除企业 MCP 服务器
+enterpriseMcp.servers.description	为企业配置一次、共享给你所选组织的 MCP 服务器。
+enterpriseMcp.servers.edit	编辑服务器
+enterpriseMcp.servers.empty	还没有企业 MCP 服务器。添加一个以开放给你的组织。
+enterpriseMcp.servers.excludedOrganizations_one	{{count}} 个已排除组织
+enterpriseMcp.servers.excludedOrganizations_other	{{count}} 个已排除组织
+enterpriseMcp.servers.loadError	加载企业 MCP 服务器出错
+enterpriseMcp.servers.loading	加载中…
+enterpriseMcp.servers.moreOrganizations_one	还有 {{count}} 个
+enterpriseMcp.servers.moreOrganizations_other	还有 {{count}} 个
+enterpriseMcp.servers.notShared	未共享
+enterpriseMcp.servers.onlyOrganizations	仅 {{names, list}}
+enterpriseMcp.servers.organizationsCount_one	{{count}} 个组织
+enterpriseMcp.servers.organizationsCount_other	{{count}} 个组织
+enterpriseMcp.servers.sharedWithOrganizations_one	已共享给 {{count}} 个组织
+enterpriseMcp.servers.sharedWithOrganizations_other	已共享给 {{count}} 个组织
+enterpriseMcp.servers.title	企业 MCP 服务器
+enterpriseMcp.servers.viewAllOrganizations	查看全部
+enterpriseMcpEditor.availableInDesktopAndCliLabel	在 Desktop + CLI 可用
+enterpriseMcpEditor.availableInDesktopCli	在 Desktop + CLI 可用
+enterpriseMcpEditor.availableInDesktopCliHint	把此 MCP 服务器开放给 Devin Desktop 和 Devin CLI
+enterpriseMcpEditor.catalog.description	配置一次——你目标的组织中的会话自动获得它。从目录选一个服务器，或加自定义 MCP。
+enterpriseMcpEditor.catalog.newInstance	新实例
+enterpriseMcpEditor.catalog.noMatch	没有匹配你搜索的服务器。你仍可以加自定义 MCP。
+enterpriseMcpEditor.catalog.searchServers	搜索服务器…
+enterpriseMcpEditor.catalog.serverCatalog	服务器目录
+enterpriseMcpEditor.changeAccess	更改访问
+enterpriseMcpEditor.commandLabel	命令
+enterpriseMcpEditor.configurationTitle	配置
+enterpriseMcpEditor.connect	连接
+enterpriseMcpEditor.connectAfterSave	保存更改，然后从此页连接。
+enterpriseMcpEditor.connectRedirectHint	保存后你会被带到提供商处连接。请用提供商上的专用 Bot 账户，绝不用个人账户。
+enterpriseMcpEditor.connected	已连接。
+enterpriseMcpEditor.connecting	正在连接…
+enterpriseMcpEditor.couldNotSave	无法保存
+enterpriseMcpEditor.createServer	创建服务器
+enterpriseMcpEditor.dangerZone	危险区
+enterpriseMcpEditor.delete	删除
+enterpriseMcpEditor.deleteSecretDescription	这会删除「{{name}}」的已存值。引用 ${{name}} 的地方在存新值之前无法解析。
+enterpriseMcpEditor.deleteSecretTitle	删除机密
+enterpriseMcpEditor.deleteServer	删除服务器
+enterpriseMcpEditor.deleteServerDescription	从所有目标组织移除「{{name}}」。自己装过副本的组织保留它。
+enterpriseMcpEditor.deleteServerHint	删除此服务器会把它从所有目标组织移除。自己装过副本的组织保留它。
+enterpriseMcpEditor.deleteServerTitle	删除企业 MCP 服务器
+enterpriseMcpEditor.descriptionLabel	描述
+enterpriseMcpEditor.descriptionPlaceholder	此服务器的用途
+enterpriseMcpEditor.disabledSuffix	（已停用）
+enterpriseMcpEditor.duplicateHeader	两个自定义头同名「{{name}}」——头名不区分大小写，请删掉重复行。
+enterpriseMcpEditor.duplicateInstallationsHint	请在名称和短描述里写明细节，让 Devin 能把它和这些安装区分开：
+enterpriseMcpEditor.duplicateInstallationsTitle	Devin 将看到此服务器的多个安装
+enterpriseMcpEditor.editServerDescription	更新此企业 MCP 服务器的配置、目标和凭据。
+enterpriseMcpEditor.enableInSessions	在会话中启用
+enterpriseMcpEditor.enableInSessionsHint	允许 Devin 在会话中使用此 MCP 服务器
+enterpriseMcpEditor.envVarNameRequired	每个环境变量都需要名字。保存前请补名或删掉不完整的行。
+enterpriseMcpEditor.finishOAuthInBrowser	服务器已创建。请在浏览器里完成连接后回来。
+enterpriseMcpEditor.headerValueConfiguredPlaceholder	已配置——重新输入以更改
+enterpriseMcpEditor.iconLabel	图标
+enterpriseMcpEditor.iconPlaceholder	粘贴 emoji 或 URL
+enterpriseMcpEditor.invalidHeaderName	自定义头「{{name}}」的名字无效。头名只能含 token 字符。
+enterpriseMcpEditor.invalidHeaderValue	自定义头「{{name}}」的值无效。值只能含可见 ASCII 或中间制表符，首尾不能有空白。
+enterpriseMcpEditor.loadingOrganizations	正在加载组织
+enterpriseMcpEditor.nameLabel	名称
+enterpriseMcpEditor.namePlaceholder	如：Datadog（美国）
+enterpriseMcpEditor.newServerDescription	配置一次——你目标的组织中的会话自动获得它。可先保存，凭据稍后连接。
+enterpriseMcpEditor.newServerTitle	新建企业 MCP 服务器
+enterpriseMcpEditor.oauthStartFailed	无法开始 OAuth 流程——用「连接」重试。
+enterpriseMcpEditor.organizationsLoadError	无法加载组织。
+enterpriseMcpEditor.personalMcp	个人 MCP
+enterpriseMcpEditor.reconnect	重新连接
+enterpriseMcpEditor.reenterHeaders	重新输入所有自定义头的值——已存值只写不读。
+enterpriseMcpEditor.saveChanges	保存
+enterpriseMcpEditor.saving	正在保存…
+enterpriseMcpEditor.secretDeleted	机密已删除
+enterpriseMcpEditor.serverCreated	企业 MCP 服务器已创建
+enterpriseMcpEditor.serverDeleted	企业 MCP 服务器已删除
+enterpriseMcpEditor.serverUpdated	企业 MCP 服务器已更新
+enterpriseMcpEditor.sharedConnectionExpired	共享连接已过期——重新连接以继续使用此服务器。
+enterpriseMcpEditor.sharedConnectionHint	管理员连接一次，目标组织中的所有会话都用该共享连接。
+enterpriseMcpEditor.sharedConnectionIdentityHint	共享连接使用你认证的身份——请用提供商上的专用 Bot 账户，绝不用个人账户
+enterpriseMcpEditor.shortDescriptionExamplePlaceholder	如：Datadog EU 生产
+enterpriseMcpEditor.shortDescriptionHint	显示在列表中并给 Devin 看，用于区分不同 MCP 服务器。
+enterpriseMcpEditor.shortDescriptionLabel	短描述
+enterpriseMcpEditor.shortDescriptionPlaceholder	一句话概述
+enterpriseMcpEditor.switchToOrganizationDescription	现有 OAuth 令牌将失效。需要管理员重新连接，才能为目标组织恢复共享连接。
+enterpriseMcpEditor.switchToPersonalTitle	切换到个人访问？
+enterpriseMcpEditor.targetingDefaultHint	企业内每个组织都获得此服务器，包括以后建的。可以排除特定组织。
+enterpriseMcpEditor.targetingDefaultTitle	默认启用——全部组织
+enterpriseMcpEditor.targetingDefaultUncheckedHint	未勾选的组织不获得此服务器。新组织自动获得。
+enterpriseMcpEditor.targetingDescription	哪些组织获得此服务器。在会话启动时解析——无需同步步骤。
+enterpriseMcpEditor.targetingMode	目标模式
+enterpriseMcpEditor.targetingPluginAudienceDescription	在其插件可用的组织中，哪些获得此服务器。在会话启动时解析——无需同步步骤。
+enterpriseMcpEditor.targetingSpecificHint	只把此服务器共享给你选择的组织。
+enterpriseMcpEditor.targetingSpecificTitle	指定组织
+enterpriseMcpEditor.targetingSpecificUncheckedHint	未勾选的组织不获得此服务器。新组织不自动加入。
+enterpriseMcpEditor.targetingTitle	目标
+enterpriseMcpEditor.templateMissing	{{name}} 目前在市场上不可用。
+enterpriseMcpSettings.description	作用于你企业内每个组织的全账户 MCP 设置。
+enterpriseMcpSettings.label	企业 MCP 设置
+enterpriseMcpSettings.title	企业 MCP 设置
+enterpriseMcpSetup.configureOnce	配置一次——你目标的组织中的会话自动获得它。
+enterpriseMcpSetup.customSubtitle	把 Devin 指向你自己运行的 MCP 服务器。配置一次——你目标的组织中的会话自动获得它。
+enterpriseMcpSetup.customTitle	添加自定义 MCP
+enterpriseMcpSetup.notInstalled	未安装
+enterpriseMcpTable.customMcp	自定义 MCP
+enterpriseMcpTable.empty	未找到 MCP
+enterpriseMcpTable.emptyDescription	此企业中组织启用的 MCP 会显示在这里。
+enterpriseMcpTable.mixed	混合
+enterpriseMcpTable.name	MCP 名
+enterpriseMcpTable.officialMcp	官方 MCP
+enterpriseMcpTable.organization	组织
+enterpriseMcpTable.organizationsEnabled	已启用组织
+enterpriseMcpTable.personal	个人
+enterpriseMcpTable.scope	范围
+enterpriseMcpTable.sessions	会话
+enterpriseMcpTable.users	用户
+enterpriseNetworking.description	此企业的 Perforce、代理路由（proxyrouter）和 git 路由。Perforce 开关、代理路由编辑器、proxyrouter 出口开关、各专属租户的 Perforce 代理开关和各 git 连接的额外代理可以改；此页其余内容为只读。
+enterpriseNetworking.egressConfirmDisable	你即将为此企业禁用 <code>{{flag}}</code>。
+enterpriseNetworking.egressConfirmEnable	你即将为此企业启用 <code>{{flag}}</code>。
+enterpriseNetworking.egressConfirmTitle	确认出口开关更改
+enterpriseNetworking.egressDescription	让此企业的 git 和 MCP 流量从 Cognition 的 pod 经专属租户上的 proxyrouter 出去的 Unleash 开关，租户的代理路由因此生效。它们只对配置了代理路由的租户起作用。
+enterpriseNetworking.egressGitHint	从现在起新建的 git 连接走 proxyrouter 一跳。已有连接保留其代理链。
+enterpriseNetworking.egressLoadFailed	加载出口开关失败：{{error}}
+enterpriseNetworking.egressMcpHint	来自 webserver 和 brain 的 MCP 请求在 FRP 跳后走 proxyrouter。这会改实时流量。
+enterpriseNetworking.egressMetadataUnavailable	此开关的标签在 Unleash 上不可达，因此无法在此更改。
+enterpriseNetworking.egressNotTargetable	此开关在 Unleash 未标 field-enable，因此无法在此更改。
+enterpriseNetworking.egressTitle	Git 和 MCP 经 proxyrouter 出网
+enterpriseNetworking.git.colGateway	网关
+enterpriseNetworking.git.colGitProxy	Git 代理
+enterpriseNetworking.git.colGitTraffic	Git 流量
+enterpriseNetworking.git.colHost	主机
+enterpriseNetworking.git.colHostnames	路由主机名
+enterpriseNetworking.git.colLastConnected	最近连接
+enterpriseNetworking.git.colPerforceProxy	Perforce 代理
+enterpriseNetworking.git.colRoute	路由
+enterpriseNetworking.git.colTenant	租户
+enterpriseNetworking.git.connectionsDescription	此企业连接的 git 主机，以及 git-manager 到达每一台的路由。
+enterpriseNetworking.git.connectionsTitle	Git 连接
+enterpriseNetworking.git.description	此企业的 VM 如何到达其 git 主机。悬停某值看原始详情。
+enterpriseNetworking.git.extraProxiesDescription	git-manager 在租户 FRP 隧道之后为到达 <bold>{{host}}</bold> 增加的跳数。更改在下次请求生效。
+enterpriseNetworking.git.extraProxiesEdit	编辑额外代理
+enterpriseNetworking.git.extraProxiesEditAriaLabel	编辑 {{host}} 的额外代理
+enterpriseNetworking.git.extraProxiesHint	每行一个，形如 socks5://host:port 或 http://host:port。留空表示取消。
+enterpriseNetworking.git.extraProxiesLabel	额外代理
+enterpriseNetworking.git.extraProxiesSave	保存
+enterpriseNetworking.git.extraProxiesTitle	编辑额外代理
+enterpriseNetworking.git.extraProxiesUpdated	{{host}} 的额外代理已更新
+enterpriseNetworking.git.gatewaysDescription	此账户已登记的 Devin Gateway。到受路由主机名的 git 连接走该网关。
+enterpriseNetworking.git.gatewaysTitle	网关
+enterpriseNetworking.git.howItWorks	git 路由原理
+enterpriseNetworking.git.howItWorksGitManager	git-manager 经租户 FRP 隧道到达每个主机，然后走该连接的额外代理（连接没有时用租户的 TENANT_EXTRA_PROXIES）。Gateway 主机名走租户 hypervisor 上的代理路由跳（{{proxyrouter}}），由其转发到网关。
+enterpriseNetworking.git.howItWorksHypervisor	VM 发起的克隆或 git 提供商 API 调用先到租户 hypervisor 上的 gitproxy。租户的 git 流量设置决定 gitproxy 直接抓主机、走 HTTP 代理，还是转交 git-manager。
+enterpriseNetworking.git.loadFailed	加载 git 路由失败：{{error}}
+enterpriseNetworking.git.loading	加载中…
+enterpriseNetworking.git.modeDirect	直连
+enterpriseNetworking.git.modeDirectHint	租户的 hypervisor 直接从 git 主机抓取。
+enterpriseNetworking.git.modeGitManager	经 git-manager
+enterpriseNetworking.git.modeGitManagerHint	租户的 hypervisor 把请求交给 git-manager，由它走每个连接的路由（见 Git 连接）。
+enterpriseNetworking.git.modeHttpProxy	经 HTTP 代理 {{host}}
+enterpriseNetworking.git.modeHttpProxyHint	租户的 hypervisor 经租户 gitproxy 配置中的 HTTP 代理抓取。
+enterpriseNetworking.git.modeHttpProxyUnknown	经某个 HTTP 代理
+enterpriseNetworking.git.noConnections	此账户没有 git 连接
+enterpriseNetworking.git.noGateways	此账户没有已登记网关
+enterpriseNetworking.git.noTenants	此企业没有租户
+enterpriseNetworking.git.off	关
+enterpriseNetworking.git.on	开
+enterpriseNetworking.git.p4proxyConfirmDisable	你即将在租户 <bold>{{tenant}}</bold> 的 hypervisor 上禁用 p4proxy（Perforce）边车。hypervisor 约一分钟内生效，此租户上运行中的 Perforce 会话将失去访问。
+enterpriseNetworking.git.p4proxyConfirmEnable	你即将在租户 <bold>{{tenant}}</bold> 的 hypervisor 上启用 p4proxy（Perforce）边车。hypervisor 约一分钟内生效。企业的 perforce-connections Unleash 开关也必须开着。
+enterpriseNetworking.git.p4proxyConfirmTitle	确认 Perforce 代理更改
+enterpriseNetworking.git.p4proxyDisabled	{{tenant}} 的 Perforce 代理已禁用
+enterpriseNetworking.git.p4proxyEnabled	{{tenant}} 的 Perforce 代理已启用
+enterpriseNetworking.git.p4proxyToggleAriaLabel	切换 {{tenant}} 的 Perforce 代理（p4proxy）
+enterpriseNetworking.git.p4proxyUpdateFailed	更新 {{tenant}} 的 Perforce 代理失败：{{error}}
+enterpriseNetworking.git.rawValues	原始值
+enterpriseNetworking.git.routeDirect	Devin 直连
+enterpriseNetworking.git.routeDirectHint	git-manager 自己连接主机，不经过租户。
+enterpriseNetworking.git.routeGateway	经网关 {{gateway}}
+enterpriseNetworking.git.routeTenant	经租户 {{tenant}}
+enterpriseNetworking.git.routeTenantProxies	经租户 {{tenant}}，再经 {{proxies}}
+enterpriseNetworking.git.routeTenantProxyrouter	经租户 {{tenant}}，再走其代理路由规则
+enterpriseNetworking.git.tenantsDescription	此企业的 VM 在哪里运行，以及每个租户如何发送 git 流量。
+enterpriseNetworking.git.tenantsTitle	租户
+enterpriseNetworking.git.title	Git 路由
+enterpriseNetworking.git.unknownTenant	未知租户
+enterpriseNetworking.git.warnings_one	{{count}} 条警告
+enterpriseNetworking.git.warnings_other	{{count}} 条警告
+enterpriseNetworking.perforceConfirmDisableDedicated_one	你即将为此企业禁用 Perforce：其专属租户上的 p4proxy 边车将被关闭，然后企业被移出 perforce-connections 开关。运行中的 Perforce 会话约一分钟内失去访问。
+enterpriseNetworking.perforceConfirmDisableDedicated_other	你即将为此企业禁用 Perforce：其 {{count}} 个专属租户上的 p4proxy 边车将被关闭，然后企业被移出 perforce-connections 开关。运行中的 Perforce 会话约一分钟内失去访问。
+enterpriseNetworking.perforceConfirmDisableShared	你即将通过把企业移出 perforce-connections 开关来禁用 Perforce。它跑在共享租户上，没有 p4proxy 边车可关。
+enterpriseNetworking.perforceConfirmEnableDedicated_one	你即将为此企业启用 Perforce：先为它打开 perforce-connections 开关，再开其专属租户上的 p4proxy 边车。hypervisor 约一分钟内加载边车。
+enterpriseNetworking.perforceConfirmEnableDedicated_other	你即将为此企业启用 Perforce：先为它打开 perforce-connections 开关，再开其 {{count}} 个专属租户上的 p4proxy 边车。hypervisor 约一分钟内加载边车。
+enterpriseNetworking.perforceConfirmEnableShared	你即将通过为企业打开 perforce-connections 开关来启用 Perforce。它跑在共享租户上，没有 p4proxy 边车可开。
+enterpriseNetworking.perforceConfirmTitle	确认 Perforce 更改
+enterpriseNetworking.perforceDescriptionDedicated	Perforce 需要两项都开：此企业的 perforce-connections Unleash 开关，和每个专属租户上的 p4proxy 边车。
+enterpriseNetworking.perforceDescriptionShared	此企业跑在共享租户上，只有 perforce-connections Unleash 开关适用。p4proxy 边车只跑在专属 SaaS 和 VPC 租户上。
+enterpriseNetworking.perforceDetails	详情
+enterpriseNetworking.perforceDisabled	此企业的 Perforce 已禁用
+enterpriseNetworking.perforceEnabled	此企业的 Perforce 已启用
+enterpriseNetworking.perforceFlagOff	perforce-connections 开关：关
+enterpriseNetworking.perforceFlagOn	perforce-connections 开关：开
+enterpriseNetworking.perforceFlagStillEnabled	已把此企业移出 perforce-connections 开关，但 Unleash 里其他规则可能仍开着。请查 Unleash。
+enterpriseNetworking.perforceLoadFailed	加载 Perforce 状态失败：{{error}}
+enterpriseNetworking.perforceMixedHint	Perforce 只开了一部分。只有开关和每个专属租户的边车都开时才工作。

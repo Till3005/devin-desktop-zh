@@ -1,0 +1,262 @@
+analyticsRevamp.overview.acuSpend_dollars	支出
+analyticsRevamp.overview.acuUsage	ACU 消耗
+analyticsRevamp.overview.acuUsageVsPreviousCycle	对比上一周期的 ACU 消耗
+analyticsRevamp.overview.acuUsageVsPreviousCycle_dollars	对比上一周期的支出
+analyticsRevamp.overview.acuUsageVsPreviousPeriod	对比上一期间的 ACU 消耗
+analyticsRevamp.overview.acuUsageVsPreviousPeriod_dollars	对比上一期间的支出
+analyticsRevamp.overview.acuUsageVsPreviousRange	对比上一范围的 ACU 消耗
+analyticsRevamp.overview.acuUsageVsPreviousRange_dollars	对比上一范围的支出
+analyticsRevamp.overview.acuUsage_dollars	支出
+analyticsRevamp.overview.acusByProduct	按产品的 ACU
+analyticsRevamp.overview.acusByProductChartTooltip	云端包含会话、Ask、自动化、扫描和 DeepWiki。本地包含 Desktop 和 CLI。
+analyticsRevamp.overview.acusByProductChartTooltip_aiGateway	云端包含会话、Ask、自动化、扫描和 DeepWiki。本地包含 Desktop、CLI 和 AI Gateway。
+analyticsRevamp.overview.acusByProductOverTimeSubtitle	每日消耗的 ACU，按产品
+analyticsRevamp.overview.acusByProductOverTimeSubtitle_dollars	每日支出，按产品
+analyticsRevamp.overview.acusByProduct_dollars	按产品的支出
+analyticsRevamp.overview.chartView	图表指标
+analyticsRevamp.overview.consumptionUnavailable	没有计费周期覆盖所选期间
+analyticsRevamp.overview.crossUnitRange	此范围混合了 ACU 与美元计费周期。请选择单一计费周期内的范围。
+analyticsRevamp.overview.crossUnitRangeShort	混合了 ACU 与美元计费周期
+analyticsRevamp.overview.hoverCurrentDay	当天
+analyticsRevamp.overview.legendRollingAverage	7 天平均
+analyticsRevamp.overview.legendRollingAverage30	30 天平均
+analyticsRevamp.overview.limit	承诺量
+analyticsRevamp.overview.limit_org	上限
+analyticsRevamp.overview.mergedPrs	已合并 PR
+analyticsRevamp.overview.mergedPrsTooltip	此期间创建的云端会话产生的已合并 PR
+analyticsRevamp.overview.newSessions	新会话
+analyticsRevamp.overview.noConsumptionData	所选期间无消耗数据
+analyticsRevamp.overview.noPermission	你没有权限查看用量分析。
+analyticsRevamp.overview.noUserData	所选期间无用户活动
+analyticsRevamp.overview.previousCycle	上一周期
+analyticsRevamp.overview.previousPeriod	上一期间
+analyticsRevamp.overview.previousRange	上一范围
+analyticsRevamp.overview.productDetails.devin	云端会话
+analyticsRevamp.overview.productGroups.cloud	云端
+analyticsRevamp.overview.productGroups.local	本地
+analyticsRevamp.overview.productGroups.review	Review
+analyticsRevamp.overview.productsChartView	产品视图
+analyticsRevamp.overview.productsDetailed	详细
+analyticsRevamp.overview.productsSummary	摘要
+analyticsRevamp.overview.promotions.allSessions	全部会话
+analyticsRevamp.overview.promotions.allSessionsCoverage	覆盖所有类型的 Devin 会话。
+analyticsRevamp.overview.promotions.allUsage	全部用量（云端、PR 审查、本地）
+analyticsRevamp.overview.promotions.allUsageCoverage	在一个预算内覆盖云端会话、PR 审查和本地用量（CLI + Desktop）。
+analyticsRevamp.overview.promotions.appliesToAll	适用于此账户中的所有组织。
+analyticsRevamp.overview.promotions.appliesToAll_org	适用于此组织。
+analyticsRevamp.overview.promotions.appliesToNamed	符合条件的组织：{{organizations, list}}
+analyticsRevamp.overview.promotions.appliesToSelected	适用于所选组织。
+analyticsRevamp.overview.promotions.automations	自动化
+analyticsRevamp.overview.promotions.automationsCoverage	覆盖自动化会话，包括计划运行和事件触发运行。
+analyticsRevamp.overview.promotions.balanceDetails	优惠自动覆盖符合条件的用量。卡片显示各优惠总预算中已消耗的全生命周期 ACU。\n「已用尽」表示所有 ACU 已用完。「已过期」表示未用的 ACU 不再可用。
+analyticsRevamp.overview.promotions.chatgptAddon	ChatGPT 附加包
+analyticsRevamp.overview.promotions.chatgptAddonCoverage	覆盖 ChatGPT 附加包会话，即操作模型运行在所有者 ChatGPT 方案上的会话。
+analyticsRevamp.overview.promotions.codeScans	代码扫描
+analyticsRevamp.overview.promotions.codeScansCoverage	覆盖 Code Scan 会话，包括创建扫描和修复发现项。
+analyticsRevamp.overview.promotions.consumed	已消耗 {{used}} / {{budget}} ACU
+analyticsRevamp.overview.promotions.consumedDollars	已消耗 {{used}} / {{budget}}
+analyticsRevamp.overview.promotions.details	覆盖范围：{{promotion}}
+analyticsRevamp.overview.promotions.disabledDates	{{dates}} · 已停用
+analyticsRevamp.overview.promotions.generalDetails	优惠如何运作
+analyticsRevamp.overview.promotions.oncall	值班
+analyticsRevamp.overview.promotions.oncallCoverage	覆盖值班会话，包括事件排查。
+analyticsRevamp.overview.promotions.other	优惠
+analyticsRevamp.overview.promotions.otherCoverage	覆盖范围取决于优惠条款。
+analyticsRevamp.overview.promotions.title	优惠
+analyticsRevamp.overview.promotions.usage	优惠用量
+analyticsRevamp.overview.scopeAccountWide	全账户
+analyticsRevamp.overview.scopeCloudOnly	仅云端
+analyticsRevamp.overview.selectedRange	所选范围
+analyticsRevamp.overview.thisCycle	本周期
+analyticsRevamp.overview.thisPeriod	本期间
+analyticsRevamp.overview.userProducts.ask	Ask
+analyticsRevamp.overview.userProducts.cloudCoding	云端编程
+analyticsRevamp.overview.userProducts.localCoding	本地编程
+analyticsRevamp.overview.usersAll	全部
+analyticsRevamp.overview.usersByProduct	按产品
+analyticsRevamp.overview.usersByProductChartTooltip	用户按产品各计一次
+analyticsRevamp.overview.usersByProductOverTimeSubtitle	每日活跃用户，按产品
+analyticsRevamp.overview.usersChartView	用户视图
+analyticsRevamp.pageDescription	了解你的组织如何使用 Devin 并跟踪 ACU 消耗
+analyticsRevamp.pageDescription_dollars	了解你的组织如何使用 Devin 并跟踪支出
+analyticsRevamp.pageTitle	分析
+analyticsRevamp.period.backToPeriods	返回期间
+analyticsRevamp.period.currentBillingCycle	当前计费周期
+analyticsRevamp.period.customRange	自定义范围
+analyticsRevamp.period.last30Days	最近 30 天
+analyticsRevamp.period.last7Days	最近 7 天
+analyticsRevamp.period.lastBillingCycle	上一计费周期
+analyticsRevamp.period.lastQuarter	上一季度
+analyticsRevamp.period.previousBillingCycle	上一计费周期
+analyticsRevamp.period.selectPeriod	选择期间
+analyticsRevamp.period.thisBillingCycle	本计费周期
+analyticsRevamp.period.thisMonth	本月
+analyticsRevamp.period.thisQuarter	本季度
+analyticsRevamp.period.thisWeek	本周
+analyticsRevamp.period.timezoneTooltip	每天按 UTC-8 的 0 点到 24 点计。因技术限制暂不支持其他时区。
+analyticsRevamp.period.utcTimezoneTooltip	按 UTC 计日
+analyticsRevamp.queryDenied.message	你没有权限查看 ACU 和消耗数据。
+analyticsRevamp.queryDenied.short	无访问权限
+analyticsRevamp.queryError.message	无法加载此数据。
+analyticsRevamp.queryError.retry	重试
+analyticsRevamp.queryError.short	无法加载
+analyticsRevamp.revertToLegacy	切回旧版
+analyticsRevamp.reviewDashboard.acuUnit	ACU
+analyticsRevamp.reviewDashboard.acuUsagePerMergedPr	每已合并 PR 的 ACU 消耗
+analyticsRevamp.reviewDashboard.averageLabel	平均 {{value}}
+analyticsRevamp.reviewDashboard.bugStatus	缺陷状态
+analyticsRevamp.reviewDashboard.bugs	缺陷
+analyticsRevamp.reviewDashboard.bugsMarkedResolved	已解决的缺陷
+analyticsRevamp.reviewDashboard.builtInReview	内置审查
+analyticsRevamp.reviewDashboard.bySize	按规模
+analyticsRevamp.reviewDashboard.byStatus	按状态
+analyticsRevamp.reviewDashboard.categoryDescription	此期间内置审查中此类别的发现项
+analyticsRevamp.reviewDashboard.categoryOverTime	报告趋势
+analyticsRevamp.reviewDashboard.categoryOverTimeDescription	每日发现项数
+analyticsRevamp.reviewDashboard.categoryReported	已报告
+analyticsRevamp.reviewDashboard.categoryResolved	已解决
+analyticsRevamp.reviewDashboard.chartView	图表视图
+analyticsRevamp.reviewDashboard.closed	已关闭
+analyticsRevamp.reviewDashboard.comparison	PR 数据自 2026 年 6 月 16 日起，Review 数据自 2026 年 4 月 9 日起
+analyticsRevamp.reviewDashboard.currentOutcomes	已审查拉取请求的结果
+analyticsRevamp.reviewDashboard.customReviewers	自定义审查器
+analyticsRevamp.reviewDashboard.dailyOutcomes	每日打开的已审查 PR，按结果
+analyticsRevamp.reviewDashboard.dailySizes	每日打开的已审查 PR，按规模
+analyticsRevamp.reviewDashboard.dailyTotalPrs	每日打开的已审查 PR
+analyticsRevamp.reviewDashboard.empty	此期间无可用数据。
+analyticsRevamp.reviewDashboard.escalatedTooltip	留给人决定的发现项占比
+analyticsRevamp.reviewDashboard.examples	最近发现项
+analyticsRevamp.reviewDashboard.examplesAll	全部
+analyticsRevamp.reviewDashboard.examplesDescription_one	此期间最后一天内有发现项的拉取请求，最新在前
+analyticsRevamp.reviewDashboard.examplesDescription_other	此期间最后 {{count}} 天内有发现项的拉取请求，最新在前
+analyticsRevamp.reviewDashboard.examplesEmpty	此期间没有。
+analyticsRevamp.reviewDashboard.examplesFilter	按结果筛选发现项
+analyticsRevamp.reviewDashboard.examplesLastFinding	最新发现项
+analyticsRevamp.reviewDashboard.examplesOutcomeCount	{{findings}} 项{{outcome}}
+analyticsRevamp.reviewDashboard.examplesTitle	标题
+analyticsRevamp.reviewDashboard.failedRuns	失败运行
+analyticsRevamp.reviewDashboard.failedRunsTooltip	以错误结束的运行
+analyticsRevamp.reviewDashboard.findingOutcomesTooltip	按每个发现项自身记录的现状统计。这些总数可能与上方发现项计数不同，后者取自每个拉取请求的最近一次审查。
+analyticsRevamp.reviewDashboard.findings	发现项
+analyticsRevamp.reviewDashboard.findingsDescription	跟踪缺陷、标记和观察项
+analyticsRevamp.reviewDashboard.findingsStatus	修复与发现项
+analyticsRevamp.reviewDashboard.findingsTooltip	来自各 PR 最近一次审查的发现项
+analyticsRevamp.reviewDashboard.fixRate	修复率
+analyticsRevamp.reviewDashboard.fixRateTooltip	已修复的发现项占比
+analyticsRevamp.reviewDashboard.flagStatus	标记状态
+analyticsRevamp.reviewDashboard.flags	标记
+analyticsRevamp.reviewDashboard.flagsMarkedResolved	已解决的标记
+analyticsRevamp.reviewDashboard.hitRate	有发现项的运行
+analyticsRevamp.reviewDashboard.ignoredRate	被忽略
+analyticsRevamp.reviewDashboard.ignoredRateTooltip	在拉取请求合并或关闭时仍处打开状态的发现项占比
+analyticsRevamp.reviewDashboard.markedResolved	已标记解决
+analyticsRevamp.reviewDashboard.medianRunTime	运行时长中位数
+analyticsRevamp.reviewDashboard.medianRunTimeTooltip	此审查器已完成运行的时长中位数
+analyticsRevamp.reviewDashboard.mergeRate	PR 合并率
+analyticsRevamp.reviewDashboard.mergeRateTooltip	此期间创建的已审查 PR 中被合并的占比
+analyticsRevamp.reviewDashboard.merged	已合并
+analyticsRevamp.reviewDashboard.mergedPrs	已合并 PR
+analyticsRevamp.reviewDashboard.mergedPrsTooltip	此期间合并且经 Devin Review 审查过的 PR
+analyticsRevamp.reviewDashboard.mergedUsageChartNote	每日创建的已审查 PR 平均每已合并 PR 的 Review ACU。7 天和 30 天均值按已合并 PR 加权，而非按天。
+analyticsRevamp.reviewDashboard.mergedUsageDescription	平均每已合并 PR 的 Review ACU
+analyticsRevamp.reviewDashboard.mergedUsageTooltip	此期间创建的已审查 PR 平均每已合并 PR 的 Review ACU
+analyticsRevamp.reviewDashboard.notMarkedResolved	未标记解决
+analyticsRevamp.reviewDashboard.observations	观察项
+analyticsRevamp.reviewDashboard.open	打开
+analyticsRevamp.reviewDashboard.orgAttribution	Review 如何归属到组织
+analyticsRevamp.reviewDashboard.orgAttributionOrganizationBody	这些指标覆盖通过其运行用户（如 PR 作者）归属到此组织的审查。无组织的审查仅出现在企业分析中。
+analyticsRevamp.reviewDashboard.orgAttributionTooltip	归属到计费组织的审查
+analyticsRevamp.reviewDashboard.orgFilterUnavailable	Review 指标暂不能按组织筛选
+analyticsRevamp.reviewDashboard.orgFilterUnavailableBody	Review 的组织筛选需要组织级计费归属。此账户不按组织计费，因此下方 Review 指标覆盖整个账户。
+analyticsRevamp.reviewDashboard.outcomeEscalated	已升级
+analyticsRevamp.reviewDashboard.outcomeFindingsTooltip	此期间由审查首次报告的发现项
+analyticsRevamp.reviewDashboard.outcomeFixed	已修复
+analyticsRevamp.reviewDashboard.outcomeIgnored	被忽略
+analyticsRevamp.reviewDashboard.outcomeOpen	打开
+analyticsRevamp.reviewDashboard.outcomeRejected	已驳回
+analyticsRevamp.reviewDashboard.outcomeSource	发现项类型或审查器
+analyticsRevamp.reviewDashboard.outcomes	发现项结果
+analyticsRevamp.reviewDashboard.outcomesDescription	此期间提出的发现项的最终去向
+analyticsRevamp.reviewDashboard.outcomesEmpty	此期间没有记录发现项。
+analyticsRevamp.reviewDashboard.outcomesNow	按结果的发现项
+analyticsRevamp.reviewDashboard.outcomesTooltip	未合并即关闭的 PR 计为已关闭
+analyticsRevamp.reviewDashboard.prBreakdown	PR 构成
+analyticsRevamp.reviewDashboard.prsReviewed	已审查 PR
+analyticsRevamp.reviewDashboard.prsReviewedTooltip	此期间经 Devin Review 审查的 PR
+analyticsRevamp.reviewDashboard.pullRequests	拉取请求
+analyticsRevamp.reviewDashboard.pullRequestsDescription	审查拉取请求的结果与随时间的统计
+analyticsRevamp.reviewDashboard.recordedUsage	记录的 {{unit}}
+analyticsRevamp.reviewDashboard.rejectedRate	已驳回
+analyticsRevamp.reviewDashboard.rejectedRateTooltip	被以误报或不值得修复为由驳回的发现项占比
+analyticsRevamp.reviewDashboard.repository	仓库
+analyticsRevamp.reviewDashboard.repositoryPrs	按仓库划分的已审查拉取请求
+analyticsRevamp.reviewDashboard.repositoryPrsDescription	此期间审查的拉取请求
+analyticsRevamp.reviewDashboard.repositoryUsage	按仓库的 Review ACU 消耗
+analyticsRevamp.reviewDashboard.repositoryUsageDescription	此期间审查的 PR 所消耗的 Review ACU
+analyticsRevamp.reviewDashboard.repositoryUsageTooltip	此期间审查的 PR 所消耗的 Review ACU
+analyticsRevamp.reviewDashboard.resolutionDescription	按首次 Review 日期划分的当前已解决占比
+analyticsRevamp.reviewDashboard.resolutionRate	解决率
+analyticsRevamp.reviewDashboard.resolutionTooltip	已解决或已驳回的发现项占比
+analyticsRevamp.reviewDashboard.resolvedCountTooltip	此期间审查中已解决或已驳回的发现项
+analyticsRevamp.reviewDashboard.resolvedFindings	已解决的发现项
+analyticsRevamp.reviewDashboard.resolvedFindingsTooltip	此期间提出且此后已解决的发现项
+analyticsRevamp.reviewDashboard.resolvedFraction	{{total}} 项中已解决 {{resolved}} 项
+analyticsRevamp.reviewDashboard.reviewCostLabel	每已合并 PR 的 {{unit}}
+analyticsRevamp.reviewDashboard.reviewSessionSize	审查会话规模
+analyticsRevamp.reviewDashboard.reviewShareChartNote	7 天和 30 天均值按 ACU 加权，而非按天
+analyticsRevamp.reviewDashboard.reviewShareDescription	与 Devin 会话共享的已合并 PR 上 Review 的 ACU 占比
+analyticsRevamp.reviewDashboard.reviewShareLabel	Review 占比
+analyticsRevamp.reviewDashboard.reviewShareOfPrAcus	占已合并 PR 的 ACU 比例
+analyticsRevamp.reviewDashboard.reviewShareTooltip	已合并 PR 上 Review 的 ACU 占比。PR 按合并时间统计。
+analyticsRevamp.reviewDashboard.reviewerArchived	已归档
+analyticsRevamp.reviewDashboard.reviewerDescription	此审查器在此期间的运行与发现项
+analyticsRevamp.reviewDashboard.reviewerFindingsTooltip	此审查器在此期间首次提出的去重发现项
+analyticsRevamp.reviewDashboard.reviewerOutcomesDescription	此审查器发现项的最终去向。大量被忽略或驳回的发现项说明其指令可能过宽；未覆盖到的不计入。
+analyticsRevamp.reviewDashboard.reviewerRuns	运行
+analyticsRevamp.reviewDashboard.reviewerRunsOverTime	运行趋势
+analyticsRevamp.reviewDashboard.reviewerRunsOverTimeDescription	每日运行次数
+analyticsRevamp.reviewDashboard.reviewerRunsTooltip	此期间此审查器在拉取请求上运行的次数，不计结果
+analyticsRevamp.reviewDashboard.reviewersLoading	正在加载审查器…
+analyticsRevamp.reviewDashboard.reviews	审查
+analyticsRevamp.reviewDashboard.reviewsTooltip	此期间完成的审查运行
+analyticsRevamp.reviewDashboard.runsWithFindings	有发现项的运行
+analyticsRevamp.reviewDashboard.runsWithFindingsTooltip	留下至少一个未关闭发现项的已完成运行
+analyticsRevamp.reviewDashboard.scopeAll	全部审查器
+analyticsRevamp.reviewDashboard.scopeAutoapprover	Autoapprover
+analyticsRevamp.reviewDashboard.scopeLabel	审查范围：{{scope}}
+analyticsRevamp.reviewDashboard.seconds	秒
+analyticsRevamp.reviewDashboard.security	安全
+analyticsRevamp.reviewDashboard.sizeTooltip	按 Review ACU 划分的 PR 规模。XS ≤ 2.25，S ≤ 4.5，M ≤ 9，L ≤ 18，XL > 18。
+analyticsRevamp.reviewDashboard.skippedRuns	已跳过运行
+analyticsRevamp.reviewDashboard.skippedRunsTooltip	审查器跳过的运行，例如达到支出上限时
+analyticsRevamp.reviewDashboard.total	合计
+analyticsRevamp.reviewDashboard.totalAcuUsage	ACU 消耗总额
+analyticsRevamp.reviewDashboard.totalUsageDescription	每日消耗的 Review ACU
+analyticsRevamp.reviewDashboard.usageDistribution	按规模划分的已审查拉取请求分布
+analyticsRevamp.reviewDashboard.version	版本
+analyticsRevamp.reviewDashboard.versionChangesOpen	查看 v{{number}} 的变更内容
+analyticsRevamp.reviewDashboard.versionFirstRun	首次运行
+analyticsRevamp.reviewDashboard.versionNumber	v{{number}}
+analyticsRevamp.reviewDashboard.versionSavedHint	指令已变更为 v{{number}}
+analyticsRevamp.reviewDashboard.versions	指令版本
+analyticsRevamp.reviewDashboard.versionsDescription	此期间运行过的每个指令版本的表现
+analyticsRevamp.reviewDashboard.versionsEmpty	此期间没有运行过任何版本。
+analyticsRevamp.tabs.bots	{{botNamePlural}}
+analyticsRevamp.tabs.cloud	云端
+analyticsRevamp.tabs.cost_breakdown	成本构成
+analyticsRevamp.tabs.customizations	自定义
+analyticsRevamp.tabs.gateway	AI Gateway
+analyticsRevamp.tabs.local	本地
+analyticsRevamp.tabs.localDescription	本地 Devin 会话的用量与表现
+analyticsRevamp.tabs.overview	概览
+analyticsRevamp.tabs.overviewDescription	用量与表现的高层概览
+analyticsRevamp.tabs.projects	项目
+analyticsRevamp.tabs.review	Review
+analyticsRevamp.timePeriod.current	当前
+analyticsRevamp.timePeriod.previous	之前
+analyticsRevamp.toolbar.allOrganizations	全部组织
+analyticsRevamp.toolbar.clearAll	全部清除
+analyticsRevamp.toolbar.filterByOrganization	按组织筛选
+analyticsRevamp.toolbar.filters	筛选
+analyticsRevamp.toolbar.organizationCount_one	{{count}} 个组织
+analyticsRevamp.toolbar.organizationCount_other	{{count}} 个组织

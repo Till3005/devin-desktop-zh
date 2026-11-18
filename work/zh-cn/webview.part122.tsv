@@ -1,0 +1,160 @@
+slashCommands.commandPlaceholder	my-command
+slashCommands.create	创建
+slashCommands.createTitle	建斜杠命令
+slashCommands.deleteConfirm	删命令
+slashCommands.deleteDescription	确定删「{{command}}」命令？
+slashCommands.deleteTitle	删斜杠命令？
+slashCommands.description	描述
+slashCommands.descriptionPlaceholder	此命令做什么的简述
+slashCommands.duplicate	此名命令已存在
+slashCommands.editTitle	编辑斜杠命令
+slashCommands.empty	没配命令
+slashCommands.invalidFormat	命令须字母开头，只含字母、数字和连字符
+slashCommands.prompt	提示词
+slashCommands.promptPlaceholder	用此命令时插入的文本
+slashCommands.saveChanges	保存
+slashCommands.saving	存中…
+slashCommands.sectionDescription	聊天输入的自定义命令。输 / 看可用命令
+slashCommands.title	命令
+snapshotFilter.failedToLoad	加载快照失败
+snapshotFilter.loading	加载中…
+snapshotFilter.noSnapshotsFound	找不到快照
+snapshotFilter.searchSnapshots	搜快照…
+snapshotSelect.loading	加载快照中…
+snapshotSelect.noDescription	无描述
+snapshotSelect.noSnapshot	无快照
+snapshotSelect.noneFound	找不到快照。
+snapshotSelect.search	搜快照…
+sshAuthorize.approve	授权此连接
+sshAuthorize.approvedBody	在你终端的 SSH 提示处输此码：
+sshAuthorize.approvedTitle	连接已授权
+sshAuthorize.approving	授权中…
+sshAuthorize.clientIp	从 {{ip}} 连
+sshAuthorize.codeSingleUse	此码只用一次，仅此连接。
+sshAuthorize.failed	授权失败。重经 SSH 连再试。
+sshAuthorize.invalidLink	此授权链接无效或已过期。重经 SSH 连拿个新的。
+sshAuthorize.missingSid	此授权链接不完整。
+sshAuthorize.request	一台机器请求对会话 <session>{{session}}</session> 的 SSH 访问。只有你自己刚跑了 SSH 命令才批准。
+sshAuthorize.title	授权 SSH 访问
+sshSettings.keyAdd	加 key
+sshSettings.keyAddFailed	加 SSH key 失败
+sshSettings.keyAddFailedAlreadyEnrolled	那 key 已注册进你组织。
+sshSettings.keyAddFailedInvalid	那不是有效 SSH 公钥。贴你 .pub 文件整行，从 key 类型开头。
+sshSettings.keyAddFailedNotEnabled	你组织的 SSH 访问级别现在不允许 SSH key。
+sshSettings.keyAddFailedTooMany	你已达注册 SSH key 上限。移除一个以加另一个。
+sshSettings.keyNameLabel	Key 名
+sshSettings.keyNamePlaceholder	如 工作笔电
+sshSettings.keyNameRequired	Key 名为必填项
+sshSettings.keyPublicKeyLabel	公钥
+sshSettings.keyPublicKeyRequired	公钥为必填项
+sshSettings.keyRemove	移除
+sshSettings.keyRemoveFailed	移除 SSH key 失败
+sshSettings.keysDescription	此处注册的 key 能直接 SSH 进你 Devin 会话，免浏览器批准。
+sshSettings.keysEnrollmentDisabled	你组织的 SSH 访问级别现在不允许 SSH key；现有 key 留在这以便移除。
+sshSettings.keysTitle	SSH key
+sshSettings.levelApp	仅可信应用
+sshSettings.levelAppDescription	Devin Desktop 和其它已登录应用能连；无码也无 SSH key
+sshSettings.levelCapped	此账户被 Cognition 禁
+sshSettings.levelDescription	用户可怎么 SSH 进会话机器
+sshSettings.levelLabel	SSH 访问
+sshSettings.levelNone	关
+sshSettings.levelNoneDescription	到会话机器的 SSH 连接被拒
+sshSettings.levelOtp	一次性码
+sshSettings.levelOtpDescription	浏览器批准的一次性码，加可信应用访问
+sshSettings.levelPublicKey	SSH key
+sshSettings.levelPublicKeyDescription	已注册 SSH key 直连，加一次性码和可信应用访问
+sshSettings.levelUpdateFailed	更新 SSH 访问设置失败
+sshSettings.noKeys	没注册 SSH key。
+startupProgram.enroll	注册
+startupProgram.enrollDescription	这会立即给组织赠 $15,000 点数，并开充值 $50,000 内 1:1 配比。
+startupProgram.enrollTitle	注册创业计划
+startupProgram.enrolledAt	注册于
+startupProgram.enrolledBy	注册者
+startupProgram.enrolling	注册中…
+startupProgram.freeCredits	免费点数
+startupProgram.freeCreditsUsed	已用免费点数
+startupProgram.loadFailed	加载创业计划状态失败。试刷新页面。
+startupProgram.matchRatio	配比率
+startupProgram.matchingGrants	配比赠额
+startupProgram.notEligible	不符资格。此组织不在 teams 方案。
+startupProgram.notEnrolled	未注册。注册赠 $15,000 点数，并开充值 $50,000 内 1:1 配比。
+startupProgram.pause	暂停
+startupProgram.pauseDescription	暂停会停新充值的 1:1 点数配比。注册可之后恢复。
+startupProgram.pauseTitle	暂停创业计划
+startupProgram.resume	恢复
+startupProgram.resumeDescription	恢复会重开新充值的 1:1 点数配比。
+startupProgram.resumeTitle	恢复创业计划
+startupProgram.statusFilter.active	活跃
+startupProgram.statusFilter.all	全部
+startupProgram.statusFilter.churned	已流失
+startupProgram.statusFilter.ended	已结束
+startupProgram.statusFilter.isAnyOf	是其中之一
+startupProgram.statusFilter.paused	已暂停
+startupProgram.statusFilter.searchPlaceholder	搜状态…
+startupProgram.statusFilter.status	状态
+startupProgram.title	创业计划
+startupProgram.updating	更新中…
+startupReferralCallout.body	你推荐的创业公司加入 Devin for Startups 时，你组织得 ${{amount}} 赠量。
+startupReferralCallout.cta	推荐
+state.bulkCloseHint.description	右键任何标签页得全部关闭、关闭其它、关闭右侧。
+state.bulkCloseHint.title	关很多标签页？
+systemNotifications.blocked	Devin 已停，在等你输入
+systemNotifications.finishedWorking	工作完成
+systemNotifications.needsAttention	Devin 需要你注意
+systemNotifications.untitled	未命名对话
+systemNotifications.waiting	Devin 在等你输入继续
+systemNotifications.waitingForInput	等你输入中
+tagModal.noPtsCodesFound	找不到 PTS Code
+tagModal.noTagsFound	找不到标签
+tagModal.organizationGroup	组织
+tagModal.otherTagsFreeform	其它标签自由填。必填标签在上面选。
+tagModal.otherTagsFreeformPtsCodes	其它标签自由填。必填 PTS Code 在上面选。
+tagModal.requiredPtsCode	必填 PTS Code
+tagModal.requiredPtsCodesManagedAsOther	必填 PTS Code 在上面管，加不了为其它标签。
+tagModal.requiredTag	必填标签
+tagModal.requiredTagsManagedAsOther	必填标签在上面管，加不了为其它标签。
+tagModal.reservedTagNotAllowed	此标签系统保留加不了。
+tagModal.searchPtsCodes	搜 PTS Code…
+tagModal.searchTags	搜标签…
+tagModal.selectExactlyOneRequiredPtsCode	为此会话恰好选一个必填 PTS Code
+tagModal.selectExactlyOneRequiredTag	为此会话恰好选一个必填标签
+tagModal.selectRequiredPtsCode	选必填 PTS Code
+tagModal.selectRequiredTag	选必填标签
+tagModal.userGroup	用户
+tagPill.create	创建
+tagPill.edit	编辑
+tagPill.editDescription	标签帮你组织和筛会话。
+tagPill.editTitle	编辑会话标签
+tagPill.noMatch	没有标签匹配「{{tag}}」。按创建标签加它。
+tagPill.noneAvailable	无可用标签
+tagPill.save	保存
+tagPill.saving	存中…
+tagPill.searchOrCreate	搜或建标签…
+tagSelector.noTags	无标签
+tagSelector.noTagsFound	找不到标签
+tagSelector.searchTags	搜标签…
+tagSelector.selectATag	选一个标签
+tagSelector.selectATagEllipsis	选一个标签…
+tagSelector.selectTags	选标签
+tagSelector.tagsSelected_one	已选 {{count}} 个标签
+tagSelector.tagsSelected_other	已选 {{count}} 个标签
+teamReferralDialog.close	关
+teamReferralDialog.description	推荐团队用 Devin。他们加入时会得 ${{recipientAmount}}，你会得 ${{referrerAmount}} 赠量试用 Devin。
+teamReferralDialog.startReferring	开始推荐
+teamReferralDialog.title	给 ${{giveAmount}}。得 ${{getAmount}}。
+teamsLink.announcementDescription	把此会话同步到你和 Devin 的 Teams 聊天。
+teamsLink.announcementTitle	同步到 Teams
+teamsLink.connectAccount	先把你 Microsoft Teams 账户连到 Devin
+teamsLink.directMessage	私信（你）
+teamsLink.groupChat	群聊
+teamsLink.installPersonalScope	先在你个人 Teams 范围装 Devin
+teamsLink.ownerOnly	只有会话所有者能把此会话连到 Teams
+teamsLink.sync	同步
+teamsLink.syncError	同步不了此会话到你 Teams 聊天。
+teamsLink.syncSuccess	已把此会话同步到你和 Devin 的 Teams 聊天
+teamsLinkNudge.server.connect	连 Devin 账户
+teamsLinkNudge.server.instructions	连你 Devin 账户并就在这给我派任务。之后我会建议几个起步的。
+teamsLinkNudge.server.linkedSuggestions.capabilities	你能做什么？
+teamsLinkNudge.server.linkedSuggestions.explainRepo	讲讲一个仓库怎么工作
+teamsLinkNudge.server.linkedSuggestions.latestPr	审查我最新 PR
+teamsLinkNudge.server.noAccount	还没有 Devin 账户？找你 Devin 管理员邀你。

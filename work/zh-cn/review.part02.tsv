@@ -1,0 +1,160 @@
+analysis.reviewerHeader_one	{{count}} 个 {{name}} 发现项
+analysis.reviewerHeader_other	{{count}} 个 {{name}} 发现项
+analysis.reviewerSettings	审查者设置
+analysis.reviewerStatusHeader.failed	{{name}} 失败
+analysis.reviewerStatusHeader.pending	{{name}} 待跑
+analysis.reviewerStatusHeader.running	{{name}} 跑中
+analysis.reviewerStatusHeader.skipped	{{name}} 已跳过
+analysis.security	安全
+analysis.securityFindingsTooltip	安全漏洞和加固建议
+analysis.securityWithSeverity	安全 {{severity}}
+analysis.suggestedFix	建议修法
+analysis.unableToRunFull	跑不了完整分析
+analysis.unresolve	取消解决
+analysis.vulnerabilitiesHeader_one	{{count}} 个漏洞
+analysis.vulnerabilitiesHeader_other	{{count}} 个漏洞
+autofix.announcement.description	Devin Review 自动跑在 Devin 建的 PR。Devin 会自动分诊发现项并定修、验证还是上报给你。
+autofix.announcement.imageAlt	Devin Review 2.0
+autofix.announcement.manageAutofix	管自动修
+autofix.announcement.manageReviews	管审查
+autofix.announcement.title	Review 2.0 出了。Devin 现在自动审并修其 PR。
+autofix.announcement.trialEnds	我们也刷新了你 Review 试用。审查免费到 {{date}}。
+autofix.askedDevinToFix	叫了 Devin 修发现项
+autofix.autoFix	自动修
+autofix.autoFixWithDevin	用 Devin 自动修
+autofix.enableAutoFix	开自动修
+autofix.enabled	已开
+autofix.enabledTooltip	开后，Devin 会自动修此组织全部 Devin PR 上的审查反馈。
+autofix.enabledTooltipPersonal	开后，Devin 会自动修你全部 Devin PR 上的审查反馈。
+autofix.enabling	开中…
+autofix.failedToAskDevinToFix	叫不了 Devin 修发现项。请重试。
+autofix.failedToStartSession	起 Devin 会话失败。请重试。
+autofix.failedToTurnOn	开不了自动修。请重试。
+autofix.findingsOnThisPr_one	此 PR 上 {{count}} 个发现项
+autofix.findingsOnThisPr_other	此 PR 上 {{count}} 个发现项
+autofix.fixAllMyPrs	自动修我全部 PR 上的发现项
+autofix.fixAllMyPrsDescription	Devin 会自动分诊发现项并定修、验证还是上报给你。
+autofix.fixOptions	更多修选项
+autofix.fixWithDevin	用 Devin 修
+autofix.needAdminPermission	你需组织管理员权限开自动修。
+autofix.selectEnvironmentFirst	先在首页编写器挑环境。
+autofix.startingSession	起会话中…
+autofix.willFixBugsOnceTooltip	Devin 会开个会话修此 PR 发现的 bug。
+autofix.willFixBugsTooltip	Devin 会开个会话修此 PR 发现的 bug 并自动修之后的 bug。
+bugsTab.allTriaged	都分诊完了。
+bugsTab.devinTriaging	Devin 修中
+bugsTab.dismissalReason	作废原因
+bugsTab.dismissed	已作废
+bugsTab.dismissedByYou	你作废的
+bugsTab.escalatedByDevin	Devin 上报的
+bugsTab.escalationReason	上报原因
+bugsTab.goToCode	到代码
+bugsTab.needsAttention	要你处理
+bugsTab.noBugsFound	Devin Review 没发现可修的。
+bugsTab.nothingDismissed	没作废的
+bugsTab.nothingNeedsAttention	没要你分诊的
+bugsTab.nothingResolved	还没修的
+bugsTab.nothingTriaging	没要 Devin 修的
+bugsTab.originalFinding	原发现项
+bugsTab.rejectedByDevin	Devin 作废的
+bugsTab.resolutionReason	解决原因
+bugsTab.resolved	已修
+bugsTab.resolvedByDevin	Devin 修的
+bugsTab.resolvedByYou	你修的
+changesSince.allCommits	全部提交
+changesSince.error	加载不了此提交后的更改。
+changesSince.fileStatus.rebase_conflict	和 rebase 冲突，显旧 head 对新 head
+changesSince.fileStatus.removed_from_pr	不再在 PR
+changesSince.fileStatus.unavailable	对比不了，看完整 diff
+changesSince.lastVisit	你上次访问
+changesSince.loading	对比中…
+changesSince.noChanges	PR 自身 diff 无更改；只 rebase 了。
+changesSince.noPreviousVisit	找不到上次访问
+changesSince.nothingToList	没可列的；看 diff 上方旗标文件。
+changesSince.pushCount_one	{{count}} 次已分析推送
+changesSince.pushCount_other	{{count}} 次已分析推送
+changesSince.range	{{from}}..{{to}}
+changesSince.reverseOrder	反序
+changesSince.selectCommits	选要看的提交
+changesSince.selectRange	选一段提交范围
+changesSince.showFullDiff	显完整 diff
+changesSince.sinceLastVisit	你上次访问后的更改
+changesSince.sinceLastVisitShort	自上次访问
+changesSince.summary_one	{{count}} 个文件更改，{{unchanged}} 个不变
+changesSince.summary_other	{{count}} 个文件更改，{{unchanged}} 个不变
+changesSince.viewing	在看
+checksPanel.close	关
+comments.clickToClose	点击关评论
+comments.clickToExpand	点击展开评论
+comments.closeComment	关评论
+comments.collapseComment	收起评论
+comments.dismiss	消
+comments.dismissQuickReasons	常见原因
+comments.dismissReason	原因
+comments.dismissReasonFalsePositive	误报
+comments.dismissReasonFixLater	以后修
+comments.dismissReasonIntentional	有意如此
+comments.dismissReasonPlaceholder	为什么此发现项不用修
+comments.escalated	已上报
+comments.expandComment	展开评论
+comments.markInvalid	标无效
+comments.markRead	标已读
+comments.markResolved	标已解决
+comments.markUnread	标未读
+comments.markUnresolved	标未解决
+comments.rejected	已作废
+comments.reopen	重开
+comments.resolve	标已修
+comments.resolveLoadingThreads	加载审查线程中…
+comments.resolveRetry	重试
+comments.resolveThreadsFailed	加载不了审查线程——点击重试
+comments.resolved	已解决
+comments.reviewer	审查者
+common.cancel	取消
+common.close	关
+common.closed	已关
+common.codeDiffSettings	代码 diff 设置
+common.collapse	收起
+common.commentLocation	评论位置
+common.comments	评论
+common.comments_one	{{count}} 条评论
+common.comments_other	{{count}} 条评论
+common.connectAccountTo	连你 {{provider}} 账户以{{action}}。
+common.connectOrSignIn	连 {{provider}} 或登录以{{action}}。
+common.connectProvider	连 {{provider}}
+common.copied	已复制！
+common.copy	复制
+common.copyAll	复制全部
+common.diffSettings	Diff 设置
+common.diffView	Diff 视图
+common.draft	草稿
+common.expand	展开
+common.featureNotAvailable	{{feature}} 不可用
+common.fileTreeOnLeft	文件树在左
+common.fileTreeView	文件树视图
+common.files	文件
+common.files_one	{{count}} 个文件
+common.files_other	{{count}} 个文件
+common.floating	悬浮
+common.githubSsoRecovery	此组织要 GitHub 单点登录（SSO）。<ssoLink>在 GitHub 登组织</ssoLink>，再重授 Devin。若 GitHub 跳过授权，在 <appsLink>已授权 GitHub Apps</appsLink> 只吊销 Devin 个人授权再试。
+common.guideView	指南视图
+common.hideHighlights	隐高亮
+common.hideWhitespace	隐空白
+common.hybrid	混合
+common.inline	内联
+common.join	加入
+common.joinOrgWithAccess	或加个有访问的 Devin 组织
+common.layout	布局
+common.logIn	登录
+common.manageIntegration	管 {{provider}} 集成
+common.merged	已合并
+common.noRepoAccess	你 {{provider}} 账户没此仓库写权限。
+common.nothingToCopy	没可复制的
+common.open	开
+common.orgConnectionAdminHint	组织管理员可经 Devin GitHub App 连来开它。
+common.orgConnectionUnsupported	此组织的 {{provider}} 连接不支持 {{feature}}。
+common.providerWriteUnsupported	{{provider}} 拉取请求还不支持 {{feature}}。Devin 仍能分析它们。
+common.queued	已排队
+common.reauthorizeGitHub	重授 GitHub
+common.remove	移除
+common.retry	重试

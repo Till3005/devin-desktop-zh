@@ -1,0 +1,289 @@
+billing.planCard.teamsFreeSessions	每用户 2 个 Free 模式并发会话
+billing.planCard.teamsMultiplayer	多人会话共享与协作
+billing.planCard.teamsUserLimit	最多 100 名用户
+billing.planCard.unlimitedConcurrentSessions	不限并发会话数
+billing.planCard.unlimitedUsers	不限用户数
+billing.planCard.usage	用量
+billing.planCard.useChatgptPlan	使用你的 <planLink>ChatGPT 方案</planLink>
+billing.planColumn.businessPlans	商业方案
+billing.planColumn.contactSales	联系销售
+billing.planColumn.individualPlans	个人方案
+billing.planColumn.individualPlansOnly	Pro 和 Max 方案面向个人，多成员组织不可用。你的组织当前有 {{memberCount}} 名成员。
+billing.planColumn.promoLoadError	我们无法加载你的优惠，为避免按全价扣款已暂停结账。请重试。
+billing.planColumn.scheduled	已排期
+billing.planColumn.switchPlan	切换方案
+billing.planColumn.switchToFreeAtCycleEnd	你的方案将在当前计费周期结束时切换为 Free。
+billing.planColumn.switchToPlanAtCycleEnd	你的方案将在当前计费周期结束时切换为 {{plan}}。
+billing.planColumn.updatingPlan	正在更新方案…
+billing.planManagement.description	管理你的订阅方案
+billing.planManagement.legacyPlan	旧版方案
+billing.planManagement.legacyPlanBody	你当前在旧版方案上。请<lnk>联系支持</lnk>升级到新方案。
+billing.planManagement.manageSubscription	管理订阅
+billing.planManagement.notAuthorized	你无权管理账单。<lnk>请管理员协助。</lnk>
+billing.planManagement.retrieveError	获取你的订阅时出现问题。
+billing.planManagement.updateError	更新你的订阅时出现问题。请重新加载页面后重试。
+billing.planManagement.updated	你的订阅已更新
+billing.planNames.enterprise	Enterprise
+billing.planNames.free	Free
+billing.planNames.max	Max
+billing.planNames.pro	Pro
+billing.planNames.team	Team
+billing.planNames.teams	Teams
+billing.planNames.trial	Trial
+billing.plgSpendReport.description	Devin 审查你过去一个月的云端会话并给出省钱建议。
+billing.plgSpendReport.errorToast	无法启动支出报告。请重试。
+billing.plgSpendReport.existingToast	这是你当前的支出报告。新报告将于 {{date}} 可用。
+billing.plgSpendReport.generate	生成
+billing.plgSpendReport.generateSpendReport	生成支出报告
+billing.plgSpendReport.scope	不含本地会话、DeepWiki 和 Devin Review。
+billing.plgSpendReport.title	获取你的月度支出报告
+billing.plgSpendReport.view	查看
+billing.plgSpendReport.viewSpendReport	查看支出报告
+billing.prScoreboard.closed	已关闭
+billing.prScoreboard.merged	已合并
+billing.prScoreboard.open	打开
+billing.purchaseCredits.acusToPurchase	要购买的 ACU
+billing.purchaseCredits.amount	金额
+billing.purchaseCredits.contactSupport	大额购买请联系支持。
+billing.purchaseCredits.creditsToPurchase	要购买的额度
+billing.purchaseCredits.descriptionAcus	购买的 ACU 不过期，逐月结转
+billing.purchaseCredits.descriptionCredits	购买的额度不过期，逐月结转
+billing.purchaseCredits.descriptionQuota	购买的用量不过期，逐月结转
+billing.purchaseCredits.failed	发起购买失败。请重试或联系支持。
+billing.purchaseCredits.maximumDollars	购买上限为 {{amount}}。
+billing.purchaseCredits.maximumUnits	购买上限为 {{amount}} {{unit}}。
+billing.purchaseCredits.minimumDollars	最低购买金额为 {{amount}}。
+billing.purchaseCredits.minimumUnits	最低购买量为 {{amount}} {{unit}}。
+billing.purchaseCredits.proceed	去购买
+billing.purchaseCredits.processing	处理中…
+billing.purchaseCredits.usd	USD
+billing.purchaseOnDemandUsage	购买按需用量
+billing.quotaUsage.autoReloadSpendThisCycle	本周期自动充值支出
+billing.quotaUsage.dailyQuota	每日配额
+billing.quotaUsage.includedTooltipDailyWeekly	你的方案包含每日和每周用量配额。限额内的用量包含在订阅中，不额外收费。
+billing.quotaUsage.includedTooltipWeekly	你的方案包含每周用量配额。限额内的用量包含在订阅中，不额外收费。
+billing.quotaUsage.loadError	无法加载配额用量数据。请重试。
+billing.quotaUsage.noBalanceSessionsWillPause	按需余额已用尽。超出包含配额后会话将暂停。
+billing.quotaUsage.onDemandTooltipDailyWeekly	超出包含的每日或每周配额后，额外用量从按需余额扣。余额用完后，会话将暂停直到配额重置。
+billing.quotaUsage.onDemandTooltipWeekly	超出包含的每周配额后，额外用量从按需余额扣。余额用完后，会话将暂停直到配额重置。
+billing.quotaUsage.onDemandUsage	按需用量
+billing.quotaUsage.percentUsed	已用 {{percent}}%
+billing.quotaUsage.remainingBalance	剩余余额
+billing.quotaUsage.resets	{{distance}}后重置
+billing.quotaUsage.weeklyQuota	每周配额
+billing.quotaUsage.yourIncludedUsage	你的包含用量
+billing.quotaUsage.yourOnDemandUsage	你的按需用量
+billing.quotaUsage.yourOnDemandUsageTooltip	本计费周期至今的按需支出。
+billing.renewPaidDescription	你当前没有生效的 Devin 方案。请订阅或购买额度以使用 Devin
+billing.reviewHistory.createdAt	创建时间
+billing.reviewHistory.errorLoading	无法加载分析。请重试。
+billing.reviewHistory.noReviews	未找到分析
+billing.reviewHistory.pr	PR
+billing.reviewHistory.repository	仓库
+billing.reviewHistory.statusCancelled	已取消
+billing.reviewHistory.statusCompleted	已完成
+billing.reviewHistory.statusErrored	出错
+billing.reviewHistory.statusPending	待处理
+billing.reviewHistory.statusRunning	运行中
+billing.reviewHistory.title	分析历史
+billing.reviewHistory.viewReview	查看分析
+billing.reviewJobsTable.acus	ACU
+billing.reviewJobsTable.acusConsumed	消耗的 ACU
+billing.reviewJobsTable.created	创建时间
+billing.reviewJobsTable.loadFailed	无法加载分析运行。请重试。
+billing.reviewJobsTable.noData	无可用数据
+billing.reviewJobsTable.pr	PR
+billing.reviewJobsTable.prNumber	拉取请求编号
+billing.reviewJobsTable.repository	仓库
+billing.reviewJobsTable.status	状态
+billing.reviewJobsTable.trigger	触发方式
+billing.reviewJobsTable.triggerAuto	自动
+billing.reviewJobsTable.triggerManual	手动
+billing.reviewJobsView.backToAll	返回全部仓库
+billing.reviewJobsView.title	{{repoPath}} 的审查
+billing.reviewsTable.acusCurrentTitle	当前期间消耗的 ACU
+billing.reviewsTable.acusCycle	ACU（{{label}}）
+billing.reviewsTable.acusPreviousTitle	上一期间消耗的 ACU
+billing.reviewsTable.bugsLastCycle	上周期发现的缺陷数
+billing.reviewsTable.bugsThisCycle	本周期发现的缺陷数
+billing.reviewsTable.loadFailed	加载审查数据失败。请重试。
+billing.reviewsTable.noData	无可用数据
+billing.reviewsTable.percentChange	变化 %
+billing.reviewsTable.percentChangeLong	变化 %
+billing.reviewsTable.percentChangeLongTitle	与上一期间相比的 ACU 变化
+billing.reviewsTable.percentChangeTitle	与整个上周期消耗的 ACU 相比的变化
+billing.reviewsTable.percentOfTotal	占总数 %
+billing.reviewsTable.percentOfTotalTitle	此行 ACU 除以本计费周期此视图范围内的 ACU 总数
+billing.reviewsTable.repository	仓库
+billing.reviewsTable.reviewsCycle	审查（{{label}}）
+billing.scoreboardNoDataYet	还没有数据
+billing.searchByNameOrEmail	按姓名或邮箱搜索…
+billing.sessionHistory.acusUsed	已用 ACU
+billing.sessionHistory.cannotOpen	你无法打开的会话
+billing.sessionHistory.createdAt	创建时间
+billing.sessionHistory.errorLoading	加载会话出错。请重试。
+billing.sessionHistory.includedInQuota	包含在配额内
+billing.sessionHistory.noUsage	未找到用量
+billing.sessionHistory.session	会话
+billing.sessionHistory.title	全部云端会话历史
+billing.sessionHistory.viewSession	查看会话
+billing.sessionLimit.acuMin	会话 ACU 总上限至少为 5
+billing.sessionLimit.acuRetrieveError	获取会话 ACU 总上限时出现问题。请稍后再试。
+billing.sessionLimit.acuTooLarge	会话 ACU 总上限过大
+billing.sessionLimit.acuUpdateError	更新会话 ACU 总上限时出现问题。请稍后再试。
+billing.sessionLimit.acuUpdated	会话 ACU 总上限已更新
+billing.sessionLimit.acuWhole	会话 ACU 总上限必须为整数
+billing.sessionLimit.tooltip	达到时需手动放行。变更只对之后的新会话生效，已在运行的会话不受影响
+billing.sessionLimit.usageDescription	Devin 每个会话最多可用的按需用量
+billing.sessionLimit.usageLabel	会话用量上限
+billing.sessionLimit.usageMin	会话用量上限至少为 5
+billing.sessionLimit.usageRetrieveError	获取会话用量上限时出现问题。请稍后再试。
+billing.sessionLimit.usageTooLarge	会话用量上限过大
+billing.sessionLimit.usageUpdateError	更新会话用量上限时出现问题。请稍后再试。
+billing.sessionLimit.usageUpdated	会话用量上限已更新
+billing.sessionLimit.usageWhole	会话用量上限必须为整数
+billing.sessionNotStarted	会话未启动。
+billing.spendingLimits.acuLimitHelp	设置 Devin 自你上一条消息以来最多可用的 ACU
+billing.spendingLimits.acuLimitLabel	自上条消息起的 ACU 上限
+billing.spendingLimits.acuSinceLast	自上条消息起的 ACU 用量
+billing.spendingLimits.acuSleepHint	达到你的 ACU 上限时 Devin 会进入休眠
+billing.spendingLimits.acuTotal	会话内 ACU 总用量
+billing.spendingLimits.adminOnlyAcu	只有管理员可以全局保存 ACU 上限
+billing.spendingLimits.adminOnlyOnDemand	只有管理员可以全局保存按需上限
+billing.spendingLimits.belowUsage	值不能小于上次交互以来的用量
+billing.spendingLimits.loadError	获取会话支出上限时出错。请稍后再试。
+billing.spendingLimits.mustInteger	值必须为整数
+billing.spendingLimits.notNegative	值不能为负
+billing.spendingLimits.onDemandLimitHelp	设置 Devin 自你上一条消息以来最多可用的按需金额
+billing.spendingLimits.onDemandLimitLabel	自上条消息起的按需上限
+billing.spendingLimits.onDemandSinceLast	自上条消息起的按需用量
+billing.spendingLimits.onDemandSleepHint	按需用量达到你的上限时 Devin 会进入休眠
+billing.spendingLimits.onDemandTotal	会话内按需总用量
+billing.spendingLimits.removeLimit	移除上限
+billing.spendingLimits.removed	支出上限已移除
+billing.spendingLimits.saveLimitIn	在 <lnk>Devin 设置</lnk>中保存此上限
+billing.spendingLimits.set	支出上限已设置
+billing.spendingLimits.sleepDescription	达到上限时 Devin 休眠。你可以随时唤醒
+billing.spendingLimits.titleOnDemand	为此会话设置按需用量上限
+billing.spendingLimits.titleUsage	为此会话设置用量上限
+billing.spendingLimits.tooLarge	值不能大于 10000
+billing.spendingLimits.updateError	更新会话时出错。请稍后再试。
+billing.spendingLimits.useForFutureSessions	用于之后的会话
+billing.startupProgram.freeCreditsRemaining	你的免费额度还剩 {{amount}}
+billing.startupProgram.freeCreditsUsed	已用免费额度
+billing.startupProgram.fullMatchReceived	你已获得全部配比
+billing.startupProgram.matchRemaining	你的每次充值我们都等额配比——赠款最多再 {{amount}}
+billing.startupProgram.matchRemainingWithRatio	你的每次充值我们按 {{ratio}}x 配比——赠款最多再 {{amount}}
+billing.startupProgram.matchingGrantsReceived	已获配比赠款
+billing.startupProgram.title	创业项目
+billing.switchPlan.aboutToSwitch	你即将从 {{from}} 切换到 {{to}}。
+billing.switchPlan.acusIncludedMonthly	每月包含 250 ACU
+billing.switchPlan.billingStartsToday	今日开始计费
+billing.switchPlan.cancelPlanSwitchDescription	你的订阅当前设定在计费周期结束时切换。要取消此变更并留在 {{plan}} 方案吗？
+billing.switchPlan.cancelSubscription	取消订阅
+billing.switchPlan.cancelSubscriptionUnpaid	你的最后一张账单未支付，因此订阅将立即取消而非等到计费周期结束，其待扣款项也会停止。
+billing.switchPlan.canceledEndOfCycle	你的订阅将在当前计费周期结束时取消。
+billing.switchPlan.concurrentSessionsCapped	并发会话上限 10 个
+billing.switchPlan.confirm	确认
+billing.switchPlan.downgrade	降级
+billing.switchPlan.downgradeTo	降级到 {{plan}}
+billing.switchPlan.endOfCurrentCycle	在当前计费周期结束时生效。
+billing.switchPlan.endOfCycleAfterBalance	在你付清现有余额后，于计费周期结束时生效。
+billing.switchPlan.fullProAccess	完整 Pro 方案权限
+billing.switchPlan.higherQuotas	用 Devin 和 {{product}} 编码的更高配额
+billing.switchPlan.immediate	立即生效。
+billing.switchPlan.keepCurrentPlan	保留当前方案
+billing.switchPlan.lowerQuotas	用 Devin 和 {{product}} 编码的更低配额
+billing.switchPlan.managePaymentOnPlans	在「方案」页管理支付方式
+billing.switchPlan.membersLoseAccess	组织成员将失去 Devin 访问权限（保留 DeepWiki 和 Devin Review）
+billing.switchPlan.newMonthlySubscription	创建今日起生效的新月度订阅。
+billing.switchPlan.noAdminDashboard	无带分析的管理员面板
+billing.switchPlan.noCentralizedBilling	无集中计费
+billing.switchPlan.noEarlyAccess	无抢先体验新功能与研究预览
+billing.switchPlan.noMultiUser	不支持多用户
+billing.switchPlan.noPaidPlanFeatures	无法使用付费方案功能
+billing.switchPlan.proratedImmediate	差价将按比例折算。立即生效。
+billing.switchPlan.replacePendingChange	你的订阅当前设定在当前周期结束时变更。若你选择切换到 {{plan}}，待定的方案变更会被替换。
+billing.switchPlan.shareAndCollaborateOrg	与你的组织共享协作
+billing.switchPlan.switchTo	切换到 {{plan}}
+billing.switchPlan.trial	试用
+billing.switchPlan.trialEndsPlanStarts	你的免费试用将结束，{{plan}} 订阅将立即开始。
+billing.switchPlan.trialEndsSubscriptionStarts	你的免费试用将结束，订阅将立即开始。
+billing.switchPlan.twoFullSeats	包含 2 个正式席位
+billing.switchPlan.updateError	更新你的订阅时出现问题。请重试。
+billing.switchPlan.upgrade	升级
+billing.switchPlan.upgradeTo	升级到 {{plan}}
+billing.switchPlan.whatHappensDowngrade	降级后会发生什么：
+billing.switchPlan.whatHappensSwitch	切换后会发生什么：
+billing.switchPlan.whatHappensUpgrade	升级后会发生什么：
+billing.teamAutoReloadAskAdminTitle	请账单管理员启用自动充值
+billing.teamAutoReloadDescription	自动充值会在团队共享按需额度不足时补充。
+billing.teamAutoReloadOpenSettings	打开设置
+billing.teamAutoReloadRequiredTitle	请启用自动充值以使用 Devin
+billing.teamsPlanMemberLimit	最多 100 名成员
+billing.unitAcus	ACU
+billing.unitCredits	额度
+billing.unknownDate	未知日期
+billing.updatePaymentDetails	更新支付方式
+billing.upgradeToTeams	升级到 Teams
+billing.usageAllProductsChart.cumulative	累计
+billing.usageAllProductsChart.date	日期
+billing.usageAllProductsChart.failedToLoad	加载用量数据失败。
+billing.usageAllProductsChart.totalValue	合计：{{amount}}
+billing.usageBreakdown.aiGateway	AI Gateway：{{value}}
+billing.usageBreakdown.cli	Terminal CLI：{{value}}
+billing.usageBreakdown.desktop	Devin Desktop：{{value}}
+billing.usageBreakdown.devin	Devin：{{value}}
+billing.usageBreakdown.devinCloud	Devin 云端：{{value}}
+billing.usageBreakdown.review	Review：{{value}}
+billing.usageChart.cumulative	累计
+billing.usageChart.cumulativeValue	累计：{{amount}}
+billing.usageChart.daily	每日
+billing.usageChart.dailyValue	每日：{{amount}}
+billing.usageChart.date	日期
+billing.usageChart.failedToLoad	加载用量数据失败。
+billing.usageCycle.current	当前周期
+billing.usageCycle.previous	上一周期
+billing.usageCycle.selectBillingCycle	选择计费周期
+billing.usageCycle.selectCycle	选择周期
+billing.usageLimit.acusConsumed	已消耗 ACU
+billing.usageLimit.acusConsumedSince	自 {{date}} 以来消耗的 ACU
+billing.usageLimit.acusConsumedThisMonth	本月消耗的 ACU
+billing.usageLimit.allBudgets	全部预算
+billing.usageLimit.automaticIncreases	<status>正常</status>，可自动提高用量上限
+billing.usageLimit.budgetUsageNoLimit	{{used}}（无上限）
+billing.usageLimit.budgetUsageWithLimit	{{used}} / {{limit}}（{{pct}}%）
+billing.usageLimit.creditLimit	额度上限
+billing.usageLimit.currentlyUsed	当前已用
+billing.usageLimit.dollarsSpent	已支出
+billing.usageLimit.dollarsSpentSince	自 {{date}} 以来支出
+billing.usageLimit.dollarsSpentThisMonth	本月支出
+billing.usageLimit.exceeded	<status>已超出</status>你的用量上限
+billing.usageLimit.exceededFallback	<status>已超出</status>你的主用量上限——回退到缩减用量
+billing.usageLimit.exceededMax	<status>已超出</status>你的最大用量上限
+billing.usageLimit.forecastedUsage	预计用量
+billing.usageLimit.maxCreditLimit	最大额度上限
+billing.usageLimit.maxSpendLimit	最大支出上限
+billing.usageLimit.noLimit	无用量上限
+billing.usageLimit.onPaceToExceed	<status>按此速度将超出</status>你的用量上限
+billing.usageLimit.onPaceToExceedMax	<status>按此速度将超出</status>你的最大用量上限
+billing.usageLimit.onTrack	<status>正常</status>，将保持在用量上限内
+billing.usageLimit.otherBudgets_one	另外 {{count}} 个预算
+billing.usageLimit.otherBudgets_other	另外 {{count}} 个预算
+billing.usageLimit.requestPending	申请处理中
+billing.usageLimit.resetsAt	{{date}} {{time}} 重置
+billing.usageLimit.scopesError	无法加载用量
+billing.usageLimit.spendByBudget	按预算的支出
+billing.usageLimit.spendByBudgetDescription	本周期使用率最高的预算
+billing.usageLimit.spendByBudgetDescriptionRange	本周期使用率最高的预算（{{range}}）
+billing.usageLimit.spendLimit	支出上限
+billing.usageLimit.spentUnit	ACU
+billing.usageLimit.spentUnit_dollars	已支出
+billing.usageLimit.totalSpend	ACU 总计
+billing.usageLimit.totalSpend_dollars	总支出
+billing.usageLimitReached	已达用量上限
+billing.usageLimits.acuMax	ACU 上限不能大于 10,000
+billing.usageLimits.acuMin	ACU 上限至少为 1
+billing.usageLimits.acuWholeNumber	ACU 上限必须为整数
+billing.usageLimits.limitTooltip	达到时请求许可后继续。变更只对之后的新会话生效，已在运行的会话不受影响
+billing.usageLimits.loadError	获取你的用量上限时出现问题。请稍后再试。

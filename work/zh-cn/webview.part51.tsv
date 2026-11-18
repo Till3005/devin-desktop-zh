@@ -1,0 +1,282 @@
+mcpSubmitInstallation.failedToDeletePersonal	删除个人令牌失败。请重试。
+mcpSubmitInstallation.failedToStartOauth	启动 OAuth 流程失败
+mcpSubmitInstallation.failedToToggleServer	切换服务器启用状态失败。请重试。
+mcpSubmitInstallation.failedToUpdateInstallation	更新安装失败。请重试。
+mcpSubmitInstallation.installationCreatedSuccessfully	安装创建成功！
+mcpSubmitInstallation.installationDeletedSuccessfully	安装删除成功！
+mcpSubmitInstallation.installationUpdatedFromMarketplace	已从市场成功更新安装！
+mcpSubmitInstallation.installationUpdatedSuccessfully	安装更新成功！
+mcpSubmitInstallation.oauthDiscoveryHttpError	Devin 查服务器 OAuth 设置时服务器返回 HTTP {{status}}。检查服务器 URL 是否正确，或稍后重试。
+mcpSubmitInstallation.oauthServerUnreachable	Devin 连不上服务器。检查服务器 URL 是否正确、服务器是否在线，然后重试。
+mcpSubmitInstallation.personalTokensDeletedSuccessfully	个人令牌删除成功！
+mcpSubmitInstallation.serverDisabled	服务器禁用成功！
+mcpSubmitInstallation.serverEnabled	服务器启用成功！
+mcpSubmitInstallation.thisMcpServerIs	此 MCP 服务器已为你的组织安装。
+mcpSubmitInstallation.youDonTHave	你没有连接此集成的权限。请让组织管理员重连。
+mcpSuggestions.figma	此提示词用 Figma MCP
+mcpSuggestions.linear	启用 Linear MCP 让 Devin 开始处理你的工单
+mcpSuggestions.slack	启用 Slack MCP 让 Devin 给你的团队发消息
+memoryDrive.binaryFile	二进制文件（{{size}}）——无预览。
+memoryDrive.confidenceHigh	高置信度
+memoryDrive.confidenceLow	低置信度
+memoryDrive.confidenceMedium	中置信度
+memoryDrive.disableAction	关闭个人记忆
+memoryDrive.disableDreamingAction	关闭 dreaming
+memoryDrive.disableServiceUserAction	关闭此服务用户的记忆
+memoryDrive.empty	还没有记忆文件。在会话里让 Devin 记住点什么。
+memoryDrive.enableAction	开启个人记忆
+memoryDrive.enableDreamingAction	开启 dreaming
+memoryDrive.enableServiceUserAction	开启此服务用户的记忆
+memoryDrive.fileContents	{{path}}（只读）
+memoryDrive.files	记忆文件
+memoryDrive.lastUsed	最近使用 {{date}}
+memoryDrive.loadError	无法加载记忆文件。试试刷新。
+memoryDrive.loading	正在加载记忆文件
+memoryDrive.offTitle	个人记忆已关闭
+memoryDrive.personalBadge	个人
+memoryDrive.recentSessions	最近的 dreaming 会话
+memoryDrive.recentSessionsLoading	正在加载最近 dreaming 会话
+memoryDrive.refresh	刷新
+memoryDrive.serviceUserBadge	服务用户
+memoryDrive.serviceUserDescription	Devin 从 {{name}} 的会话里记住的内容。以它身份运行的每个会话共享；此处只读。
+memoryDrive.serviceUserOffTitle	此服务用户的记忆已关闭
+memoryDrive.sessionFilesChanged_one	{{count}} 个文件
+memoryDrive.sessionFilesChanged_other	{{count}} 个文件
+memoryDrive.sessionFinished	已完成
+memoryDrive.sessionNoChanges	无需更改。
+memoryDrive.sessionRefinement	精炼
+memoryDrive.sessionSeed	记忆种子
+memoryDrive.settings	记忆设置
+memoryDrive.sourceAdded	添加于 {{date}}
+memoryDrive.sourceCount_one	{{count}} 个来源
+memoryDrive.sourceCount_other	{{count}} 个来源
+memoryDrive.sourceUnreadableSession	会话 {{id}}
+memoryDrive.sources	来源
+memoryDrive.tabDescription	Devin 跨会话记住的关于你和你工作的内容。仅你可见，不与组织共享。
+memoryDrive.tabLabel	记忆
+memoryDrive.titleFor	<picker/> 的记忆
+mermaid.dialogLabel	Mermaid 图
+mermaid.loadingDiagram	正在加载图…
+mermaid.renderError	渲染图失败：{{message}}
+messageHistory.outpostWaiting.claimedBody	你 outpost 里的一个 worker 接了此会话并正在连接。Devin 已就绪，你的机器一连上就开始。
+messageHistory.outpostWaiting.claimedBody_named	你 outpost「{{outpostName}}」里的一个 worker 接了此会话并正在连接。Devin 已就绪，你的机器一连上就开始。
+messageHistory.outpostWaiting.claimedTitle	你的 outpost 机器正在连接
+messageHistory.outpostWaiting.failedBody	你 outpost 里的一个 worker 接了此会话但启动不了机器，因此放弃了会话。请修复原因（如确保镜像可拉取，或重建环境镜像）再重启会话。
+messageHistory.outpostWaiting.failedBody_named	你 outpost「{{outpostName}}」里的一个 worker 接了此会话但启动不了机器，因此放弃了会话。请修复原因（如确保镜像可拉取，或重建环境镜像）再重启会话。
+messageHistory.outpostWaiting.failedTitle	你的 outpost 无法为此会话启动机器
+messageHistory.outpostWaiting.queuedBody	此会话在你的 outpost 排队，还没有机器领取。这是你组织自己的 outpost，不是 Devin 故障——Devin 会一直等，机器一连上就开始。
+messageHistory.outpostWaiting.queuedBody_named	此会话在你的 outpost「{{outpostName}}」排队，还没有机器领取。这是你组织自己的 outpost，不是 Devin 故障——Devin 会一直等，机器一连上就开始。
+messageHistory.outpostWaiting.queuedTitle	等待你的 outpost 上线
+messageHistory.outpostWaiting.stalledBody	你 outpost 里的一个 worker 接了此会话但迟迟没连上。检查你的 outpost worker 是否正常运行——Devin 会一直等到机器连上。
+messageHistory.outpostWaiting.stalledBody_named	你 outpost「{{outpostName}}」里的一个 worker 接了此会话但迟迟没连上。检查你的 outpost worker 是否正常运行——Devin 会一直等到机器连上。
+messageHistory.outpostWaiting.stalledTitle	你的 outpost 机器还没连上
+messageHistory.outpostWaiting.viewOutposts	查看 outpost
+messageRewriter.addStage	添加阶段
+messageRewriter.attachmentCount_one	{{count}} 个附件
+messageRewriter.attachmentCount_other	{{count}} 个附件
+messageRewriter.attachmentStage	附件
+messageRewriter.attachmentStageHelp	文本阶段看到的是不带附件的 Devin 消息。保留的附件加在最终消息之后，各阶段以 {{fillIn}} 读取。
+messageRewriter.attachmentStageSubtitle	该轮有附件时最先运行，挑选保留哪些
+messageRewriter.attachmentsKept_one	保留 {{count}} 个
+messageRewriter.attachmentsKept_other	保留 {{count}} 个
+messageRewriter.attachmentsNoneKept	附件步骤一个都没保留。
+messageRewriter.attachmentsSkipped	已跳过
+messageRewriter.cancel	取消
+messageRewriter.changes	相对原文的更改
+messageRewriter.contextDescription	更早的用户和 Devin 消息，从最旧开始
+messageRewriter.contextIncomplete	会话中更早的用户消息不足 3 条或对话不足 2,000 字符，因此上下文从会话开头取起。
+messageRewriter.contextLabel	目前对话
+messageRewriter.contextPlaceholder	该轮之前的用户和 Devin 消息，从最旧开始。从链接加载，或粘贴你自己的。
+messageRewriter.defaultFirstInput	第一阶段
+messageRewriter.defaultInputsHelp	输入框为空的阶段读这些。清空一个即回到内置布局。
+messageRewriter.defaultInputsTitle	默认输入
+messageRewriter.defaultLaterInput	后续阶段
+messageRewriter.defaultPipeline	{{name}}（默认）
+messageRewriter.deletePipeline	删除流水线
+messageRewriter.description	粘贴一条 Devin 消息链接。其周围可见聊天（往前 3 条用户消息、折叠 worklog）会被拉入，消息由各阶段依次重写。
+messageRewriter.diffMode	更改显示为
+messageRewriter.diffModeDiff	差异
+messageRewriter.diffModePlain	纯文本
+messageRewriter.dragStage	拖拽排序
+messageRewriter.emptyOutputDescription	加载一条消息并跑流水线。重写后的消息按会话中的样子显示在这里，附相对原文的更改。
+messageRewriter.emptyOutputTitle	还没有输出
+messageRewriter.error	出错了：{{detail}}
+messageRewriter.exportPipelines	导出流水线
+messageRewriter.importFailed	那个文件不是流水线导出。
+messageRewriter.importPipelines	导入流水线
+messageRewriter.inlineRewrite	内联重写我的 Devin 消息
+messageRewriter.inputCustom	自定义
+messageRewriter.inputDefault	默认
+messageRewriter.linkLabel	消息链接
+messageRewriter.linkPlaceholder	https://app.devin.ai/sessions/…?event=…
+messageRewriter.load	加载
+messageRewriter.messageDescription	上一条用户消息以来的 Devin 消息，由各阶段重写
+messageRewriter.messageLabel	Devin 的一轮
+messageRewriter.messagePlaceholder	上一条用户消息以来的 Devin 消息。这是被重写的内容。
+messageRewriter.newPipelineName	名称
+messageRewriter.original	原文
+messageRewriter.output	输出
+messageRewriter.pipeline	流水线
+messageRewriter.pipelineActions	流水线操作
+messageRewriter.preview	重写后的消息
+messageRewriter.publishDefault	发布为所有人默认
+messageRewriter.publishFailed	发布失败
+messageRewriter.published	已发布为所有人默认
+messageRewriter.publishing	正在发布
+messageRewriter.removeStage	移除阶段
+messageRewriter.rerunStage	重跑此阶段
+messageRewriter.resetStages	阶段重置为默认
+messageRewriter.rewriteAction	用默认流水线重写
+messageRewriter.rewrittenFromScratch	差异太大无法对比
+messageRewriter.rewrittenFromScratchHelp	重写保留原文不到一半的词，因此没有逐词对比。原文在下方。
+messageRewriter.runAgain	再跑一次
+messageRewriter.runFailed	运行失败
+messageRewriter.runPipeline	跑流水线
+messageRewriter.runSummary_one	{{count}} 个阶段 · {{duration}}
+messageRewriter.runSummary_other	{{count}} 个阶段 · {{duration}}
+messageRewriter.running	正在跑 {{total}} 中第 {{done}} 个
+messageRewriter.save	保存
+messageRewriter.saveAsNew	另存为新流水线
+messageRewriter.saveAsNewDescription	把当前阶段以新名存入此浏览器
+messageRewriter.saved	已存此浏览器
+messageRewriter.saving	正在保存…
+messageRewriter.setDefault	设为默认
+messageRewriter.source	来源
+messageRewriter.stageId	阶段
+messageRewriter.stageInput	输入
+messageRewriter.stageInputHelp	留空用框内所示布局。占位符：{{fillIns}}。{{draftFillIn}} 是上一阶段的输出，{{stageFillIn}} 是按名的更早阶段输出。
+messageRewriter.stageModel	模型
+messageRewriter.stageOutput	输出
+messageRewriter.stagePrompt	提示词
+messageRewriter.stagePromptPlaceholder	此阶段该怎么处理读到的文本
+messageRewriter.stageRequest	发给 {{model}}
+messageRewriter.stageRequestInput	输入（用户消息）
+messageRewriter.stageRequestPrompt	提示词（系统消息）
+messageRewriter.stale	已过期
+messageRewriter.title	消息重写器
+metrics.efficiency.closedPrsTooltip	{{count}} 个已关 PR · 占总数 {{pct}}%
+metrics.efficiency.mergeRate	合并率
+metrics.efficiency.noClosedPrs	{{period}}无已关 PR
+metrics.efficiency.noClosedPrsDescription	用 Devin 创建后被合并或关闭的 PR 会显示在这里
+metrics.efficiency.noClosedPrsYet	还没有已关 PR
+metrics.efficiency.prsClosed	已关 PR
+metrics.efficiency.prsMerged	已合并 PR
+metrics.efficiencyPage.emptyDescription	你的组织开始关闭用 Devin 创建的 PR 后，PR 效率指标会出现在这里。
+metrics.efficiencyPage.errorDescription	无法加载你的 PR 效率指标。可能是临时问题。
+metrics.efficiencyPage.title	效率
+metrics.page.emptyTitle	还没有指标
+metrics.page.errorTitle	出错了
+metrics.page.lastUpdated	最近更新：{{date}}
+metrics.page.leaderboard	排行榜
+metrics.page.tryAgain	重试
+metrics.periodToggle.allTime	全部时间
+metrics.periodToggle.month	月
+metrics.periodToggle.quarter	季度
+metrics.periodToggle.week	周
+metrics.productivity.avgCostOfMerge	平均合并成本
+metrics.productivity.avgCostTooltip	每个已合并 PR 平均成本 {{cost}}
+metrics.productivity.mergedPrsCoauthored	Devin 共同创作的已合并 PR
+metrics.productivity.mergedPrsTooltip_one	{{count}} 个已合并 PR · 占总数 {{pct}}%
+metrics.productivity.mergedPrsTooltip_other	{{count}} 个已合并 PR · 占总数 {{pct}}%
+metrics.productivity.noCostData	无成本数据
+metrics.productivity.noMergedPrs	{{period}}无已合并 PR
+metrics.productivity.noMergedPrsDescription	Devin 共同创作的已合并 PR 会显示在这里
+metrics.productivity.noMergedPrsYet	还没有已合并 PR
+metrics.productivity.streak	连续
+metrics.productivity.weeks_one	周
+metrics.productivity.weeks_other	周
+metrics.productivityCard.current	当前
+metrics.productivityCard.previous	上一期
+metrics.productivityPage.emptyDescription	你的组织开始用 Devin 合并 PR 后，生产力指标会出现在这里。
+metrics.productivityPage.errorDescription	无法加载你的生产力指标。可能是临时问题。
+metrics.productivityPage.title	组织生产力
+metrics.table.member	成员
+metrics.table.movedRank	从第 {{from}} 名到第 {{to}} 名（{{diff}}）
+metrics.table.noChange	无变化
+metrics.table.noComparison	无可比数据
+metrics.table.noUsers	未找到用户
+metrics.table.period.month	本月
+metrics.table.period.prevMonth	上月
+metrics.table.period.prevQuarter	上季度
+metrics.table.period.prevWeek	上周
+metrics.table.period.quarter	本季度
+metrics.table.period.week	本周
+metrics.table.unknown	未知
+metrics.teamCard.allTimeRange	（全部时间）
+metrics.teamCard.avgCostOfMerge	平均合并成本
+metrics.teamCard.avgCostOfMergeTip	平均合并成本按产生已合并 PR 的会话计
+metrics.teamCard.contributors	贡献者
+metrics.teamCard.mergedAllTime	Devin 共同创作的已合并 PR（全部时间）
+metrics.teamCard.mergedLastMonth	Devin 共同创作的已合并 PR（上月）
+metrics.teamCard.mergedLastQuarter	Devin 共同创作的已合并 PR（上季度）
+metrics.teamCard.mergedLastWeek	Devin 共同创作的已合并 PR（上周）
+metrics.teamCard.mergedPrs	Devin 共同创作的已合并 PR
+metrics.teamCard.mergedThisMonth	Devin 共同创作的已合并 PR（本月）
+metrics.teamCard.mergedThisQuarter	Devin 共同创作的已合并 PR（本季度）
+metrics.teamCard.mergedThisWeek	Devin 共同创作的已合并 PR（本周）
+metrics.teamCard.others	其他
+metrics.teamCard.titleCurrent	当前 {{dateRange}} Devin 共同创作的已合并 PR
+metrics.teamCard.titlePrevious	上一期 {{dateRange}} Devin 共同创作的已合并 PR
+metrics.teamCard.totalMerged	合并总数
+microsoftTeams.channelIdLabel	Teams 频道 ID
+microsoftTeams.channelIdPlaceholder	19:…@thread.tacv2
+microsoftTeams.channelPreferencesSaveFailed	保存频道偏好失败
+microsoftTeams.channelPreferencesSaved	频道偏好保存成功
+microsoftTeams.channelsLoadError	无法加载 Teams 频道。重试或手动输入频道 ID。
+microsoftTeams.connectToSelectChannel	连接 Microsoft Teams 以选择频道
+microsoftTeams.connectToSelectTeam	连接 Microsoft Teams 以选择团队
+microsoftTeams.disconnectFailed	断开 Microsoft Teams 失败
+microsoftTeams.disconnectSuccess	Microsoft Teams 已成功断开
+microsoftTeams.disconnectUserFailed	断开用户与 Microsoft Teams 的连接失败
+microsoftTeams.groupChatSessionsDescription	Devin 如何处理含不同组织成员的群聊。
+microsoftTeams.groupChatSessionsExperimental	实验性
+microsoftTeams.groupChatSessionsPlaceholder	群聊会话
+microsoftTeams.groupChatSessionsPrivate	独立会话
+microsoftTeams.groupChatSessionsPrivateDescription	每个提及 Devin 的人在自己组织里得到自己的会话。只有对方能看到 Devin 的回复。
+microsoftTeams.groupChatSessionsShared	共享会话
+microsoftTeams.groupChatSessionsSharedDescription	该聊天共享一个会话，在发起者的组织里。所有人都能看到 Devin 的回复。
+microsoftTeams.groupChatSessionsTitle	群聊中的会话
+microsoftTeams.loadingTeams	正在加载团队…
+microsoftTeams.mapping.add	添加映射
+microsoftTeams.mapping.addNew	添加新映射
+microsoftTeams.mapping.channelLabel	Microsoft Teams 频道
+microsoftTeams.mapping.description	把 Microsoft Teams 频道映射到你的组织。私密和共享频道暂不支持，不会出现在列表里
+microsoftTeams.mapping.empty	未定义频道映射。添加映射把 Microsoft Teams 频道路由到指定组织。
+microsoftTeams.mapping.loading	加载中…
+microsoftTeams.mapping.noChannelsFound	未找到频道。
+microsoftTeams.mapping.noneBoth	未找到 Microsoft Teams 频道和组织子组织。
+microsoftTeams.mapping.noneChannels	未找到 Microsoft Teams 频道。
+microsoftTeams.mapping.noneOrgs	未找到组织子组织。
+microsoftTeams.mapping.removeMapping	移除映射
+microsoftTeams.mapping.save	保存映射
+microsoftTeams.mapping.searchChannels	搜索频道…
+microsoftTeams.mapping.selectBoth	* 请选择一个频道和一个组织。
+microsoftTeams.mapping.selectChannel	选择频道
+microsoftTeams.mapping.title	Microsoft Teams 与组织映射
+microsoftTeams.noChannels	先在团队里装 Devin Teams app 才能选频道
+microsoftTeams.noTeams	先在团队里装 Devin Teams app 才能选它
+microsoftTeams.noTeamsFound	未找到团队
+microsoftTeams.searchTeams	搜索团队…
+microsoftTeams.selectTeam	选择团队…
+microsoftTeams.teamIdLabel	Teams 团队 ID
+microsoftTeams.teamsLoadError	无法加载 Microsoft Teams。重试或手动输入团队 ID。
+microsoftTeams.threadModeInThread	帖内
+microsoftTeams.threadModeInThreadDescription	Devin 在被提及的帖子中回复。
+microsoftTeams.threadModeNew	开新帖
+microsoftTeams.threadModeNewDescription	Devin 在已有帖子的回复中被提及时，在频道里开新帖并在那里继续。
+microsoftTeams.threadModePlaceholder	帖子模式
+microsoftTeamsAutolink.alreadyLinkedDescription	此 Devin 账户已作为 <email>{{teamsEmail}}</email> 关联到 Microsoft Teams。
+microsoftTeamsAutolink.alreadyLinkedTitle	Microsoft Teams 已关联
+microsoftTeamsAutolink.cancel	取消
+microsoftTeamsAutolink.description	你在 Microsoft Teams 里给 Devin AI 发消息时它会知道你是谁。
+microsoftTeamsAutolink.devinAccount	Devin 账户 · {{orgName}}
+microsoftTeamsAutolink.done	完成
+microsoftTeamsAutolink.linkButton	关联 Microsoft Teams
+microsoftTeamsAutolink.notConnectedDescription	此组织没连 Microsoft Teams。切到你公司用 Teams 的组织，或问你的 Devin 管理员。
+microsoftTeamsAutolink.notConnectedTitle	Microsoft Teams 未连接
+microsoftTeamsAutolink.reconnectDescription	Devin 在 Microsoft Teams 里以你发帖的权限已过期或被吊销。重新连接，你的消息才会再以你的名字显示。
+microsoftTeamsAutolink.reconnectTitle	重连 Microsoft Teams
+microsoftTeamsAutolink.sendAsUserDescription	你从 Devin web 应用发的消息在 Teams 里显示为「你的名字 by Devin」。允许 Devin 以你自己的名字发帖。
+microsoftTeamsAutolink.sendAsUserTitle	在 Microsoft Teams 里以你发帖？
+microsoftTeamsAutolink.title	把你的 Devin 账户关联到 Microsoft Teams？
+migrations.describeTask	一句话描述你的迁移任务，剩下的我们带你走

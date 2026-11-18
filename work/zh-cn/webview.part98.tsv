@@ -1,0 +1,200 @@
+settings.requireSessionAccessForPrComments	PR 评论要会话访问
+settings.requireSessionAccessForPrCommentsDescription	只转有会话访问权人的 PR 评论
+settings.requireSessionAccessForPrCommentsLockedByEnterprise	你企业管理员要求全部组织 PR 评论要会话访问。
+settings.requireSessionAccessForPrCommentsUpdateFailed	更新设置失败。请重试。
+settings.requireSsoForMemberAccess	成员访问要 SSO
+settings.requireSsoForMemberAccessDescription	成员必须经你 SSO 提供商加。关掉手动邀请
+settings.required	必需
+settings.requiresApprovalLabel	需批准
+settings.reset	重置
+settings.resetEnterpriseOnlySettings	重置企业专属设置
+settings.resetEnterpriseOnlySettingsDescription	这清掉当前应用在你账户的下列企业专属设置。不可撤销。
+settings.resetSettings	重置设置
+settings.resetToDefault	重置为默认
+settings.resetToDefaultTier	重置为默认
+settings.resetUserLimits	重置用户上限
+settings.resetUserLimitsConfirmHint	精确输 {{name}} 以确认
+settings.resetUserLimitsDescription	永久删此作用域全部档位、档位指派、组映射和永久/临时覆盖，含服务用户上限。用户在此作用域将无按用户上限。待批用户上限申请将过期。账户和预算池上限及申请历史不变。不可撤销。
+settings.resetUserLimitsError	重置用户上限失败。请重试。
+settings.resetUserLimitsScopeName	作用域名
+settings.resetUserLimitsTitle	重置 {{name}} 的用户上限？
+settings.resetting	重置中…
+settings.respondingToBots	响应 bot
+settings.respondingToBotsAddBot	加 {{bot}}
+settings.respondingToBotsDescription	Devin 将回这些 bot 的评论
+settings.respondingToBotsEnterpriseDescription	在不属组织的会话里，Devin 将回这些 bot 的评论
+settings.respondingToBotsRemoveBot	移除 {{bot}}
+settings.restore	恢复
+settings.restrictCascadeToWorkspace	限 Cascade 在工作区
+settings.retry	重试
+settings.reviewAnalyticsDescription	审过的拉取请求、提的发现项及其解决方式
+settings.reviewCadence	分析频率
+settings.reviewCadenceDescription	触发条件满足后 Devin 多频繁分析一个 PR。
+settings.reviewContextAddButton	加上下文
+settings.reviewContextAddFileRuleButton	加
+settings.reviewContextAddFilesTitle	加仓库文件
+settings.reviewContextAddTitle	加审查上下文
+settings.reviewContextAdminOnly	仅管理员能改此设置
+settings.reviewContextAppliesToAllRepositories	应用于全部仓库
+settings.reviewContextAppliesToScope	应用于 {{scope}}
+settings.reviewContextAutoReadSentence	也被读
+settings.reviewContextAutoReadTooltipTitle	自动读的文件模式
+settings.reviewContextBodyLabel	审查上下文
+settings.reviewContextBodyPlaceholder	给此条应用的仓库加审查指令。
+settings.reviewContextBodyRequired	正文为必填项
+settings.reviewContextBodyTooLong	正文不能超 {{maxLength}} 字符。
+settings.reviewContextCommonRuleFiles	常见规则文件
+settings.reviewContextDefaultBadge	默认
+settings.reviewContextDevinSecurityBadge	Devin 安全
+settings.reviewContextEditAriaLabel	编辑审查上下文 {{title}}
+settings.reviewContextEditFilesTitle	编辑仓库文件
+settings.reviewContextEditTitle	编辑审查上下文
+settings.reviewContextEditTooltip	编辑审查上下文
+settings.reviewContextFilePatternDescription	Devin 从其分析的仓库读匹配文件，从离改动文件最近的开始
+settings.reviewContextFilePatternLabel	文件模式
+settings.reviewContextFilePatternPlaceholder	如：docs/**/*.md
+settings.reviewContextFilePatternRequired	文件模式为必填项
+settings.reviewContextFileRuleEditAriaLabel	编辑仓库文件规则 {{pattern}}
+settings.reviewContextFileRuleEditTooltip	编辑仓库文件规则
+settings.reviewContextFileRuleRemoveAriaLabel	移除仓库文件规则 {{pattern}}
+settings.reviewContextFileRuleRemoveTooltip	移除仓库文件规则
+settings.reviewContextInstructions	托管指示
+settings.reviewContextInstructionsDescription	在这写给 Devin 的指引
+settings.reviewContextLoadError	加载不了审查上下文。关掉再试。
+settings.reviewContextLoadListError	加载不了审查上下文。刷新页面再试。
+settings.reviewContextLoading	加载审查上下文中…
+settings.reviewContextLoadingShort	加载中…
+settings.reviewContextRemoveAriaLabel	移除审查上下文 {{title}}
+settings.reviewContextRemoveButton	移除
+settings.reviewContextRemoveDescription	移除「{{title}}」？
+settings.reviewContextRemoveTitle	移除审查上下文
+settings.reviewContextRemoveTooltip	移除审查上下文
+settings.reviewContextRemoved	审查上下文已移除
+settings.reviewContextRepositoryFile	仓库文件
+settings.reviewContextRepositoryFiles	仓库文件
+settings.reviewContextRepositoryFilesDescription	从仓库读匹配文件
+settings.reviewContextSaveAddButton	加上下文
+settings.reviewContextSaved	审查上下文已存
+settings.reviewContextScopeGroup	{{provider}} 组
+settings.reviewContextScopeNamespace	{{provider}} 命名空间
+settings.reviewContextScopeOrganization	{{provider}} 组织
+settings.reviewContextScopeRepository	{{provider}} 仓库
+settings.reviewContextScopeRepositoryPrefix	{{provider}} 前缀
+settings.reviewContextScopeSubgroup	{{provider}} 子组
+settings.reviewContextSectionDescription	Devin 分析拉取请求时读的文件和指示
+settings.reviewContextSectionTitle	上下文
+settings.reviewContextTitleLabel	标题
+settings.reviewContextTitlePlaceholder	前端约定
+settings.reviewContextTitleRequired	标题为必填项
+settings.reviewContextTitleTooLong	标题不能超 {{maxLength}} 字符。
+settings.reviewDefaultEffort	默认力度级别
+settings.reviewDefaultEffortDescription	手动和自动分析默认用此力度级别。
+settings.reviewEffort	分析力度
+settings.reviewEffortDescription	选你的默认性价比权衡。
+settings.reviewEffortNormalDescription	平衡成本和性能的深入分析。
+settings.reviewEffortUltraDescription	更高成本的更彻底分析。
+settings.reviewEnableFromPr	开自动分析
+settings.reviewEnableFromPrAction	启用自动分析
+settings.reviewEnableFromPrDescription	你开的拉取请求就绪待审时 Devin 分析它们。
+settings.reviewEnrollmentModeAuto	PR 就绪时及每次推送自动分析
+settings.reviewEnrollmentModeManual	手动分析
+settings.reviewEnrollmentModeNone	不分析
+settings.reviewEnrollmentModeOnCreation	PR 就绪时自动分析
+settings.reviewEnrollmentPermissionDenied	你的 Review 权限不允许 {{requested}}（最大：{{maximum}}）。
+settings.reviewFilters	高级规则
+settings.reviewKnowledge.cadenceDaily	每天 · 仅新活动
+settings.reviewKnowledge.cadenceManual	只在你手动起时跑
+settings.reviewKnowledge.cadenceMonthly	每月一号 · 仅新活动
+settings.reviewKnowledge.cadenceWeekly	每{{weekday}} · 仅新活动
+settings.reviewKnowledge.description	从此仓库的历史、安全发现项和事件学。
+settings.reviewKnowledge.frequencyDaily	每日
+settings.reviewKnowledge.frequencyManual	手动
+settings.reviewKnowledge.frequencyMonthly	每月
+settings.reviewKnowledge.frequencyWeekly	每周
+settings.reviewKnowledge.indexNow	现在索引
+settings.reviewKnowledge.loadFailed	加载不了知识设置。
+settings.reviewKnowledge.missingManageReview	你没有 Review 设置访问，所以用不了知识。请管理员给访问。
+settings.reviewKnowledge.missingRepoGrants	你还看不了任何仓库的知识。看仓库知识要 repo.use_read 权限，改它要有该仓库组织里的 Manage Review。请管理员给访问。
+settings.reviewKnowledge.next	下次 · UTC
+settings.reviewKnowledge.noMatches	没有匹配的仓库
+settings.reviewKnowledge.noNextRun	未排期
+settings.reviewKnowledge.noRepositories	没有你可配的仓库。
+settings.reviewKnowledge.oneJobNote	每仓库一次跑一个索引任务。跑时已有知识仍可用。时间全为 UTC。
+settings.reviewKnowledge.readOnly	你可看此仓库的知识。改它要有该仓库组织里的 Manage Review。
+settings.reviewKnowledge.recentHistory	最近历史
+settings.reviewKnowledge.repository	仓库
+settings.reviewKnowledge.retry	重试
+settings.reviewKnowledge.runFailed	启动不了索引。
+settings.reviewKnowledge.running	运行中
+settings.reviewKnowledge.runningNote	此仓库有索引任务在跑。跑完可再起一个。其它仓库不受影响。
+settings.reviewKnowledge.saveFailed	存不了知识设置。
+settings.reviewKnowledge.scheduleNote	已开来源按此仓库的排期索引最近历史。
+settings.reviewKnowledge.searchForRepository	不是每个你能看的仓库都列出。按名搜一个。
+settings.reviewKnowledge.searchRepositories	搜索仓库
+settings.reviewKnowledge.sourceGitHistory	Git 历史和审查评论
+settings.reviewKnowledge.sourceGitHistoryDescription	从过去的 bug 修复和你团队的拉取请求反馈学。
+settings.reviewKnowledge.sourceOncall	Devin Oncall
+settings.reviewKnowledge.sourceOncallDescription	把已确认事件教训变成将来更改的检查。
+settings.reviewKnowledge.sourceSecurity	Devin 安全
+settings.reviewKnowledge.sourceSecurityDescription	从你团队已修的安全发现项学。
+settings.reviewKnowledge.sourcesTitle	知识来源
+settings.reviewKnowledge.startedAt	开始于 {{time}} UTC
+settings.reviewKnowledge.stateIndexed	已索引
+settings.reviewKnowledge.stateNotIndexed	未索引
+settings.reviewKnowledge.statePaused	已暂停
+settings.reviewKnowledge.stateWaiting	等首次索引
+settings.reviewKnowledge.unavailable	此来源对此仓库不可用。
+settings.reviewKnowledge.unavailableOncall	Devin Oncall 知识还不可用。
+settings.reviewKnowledge.unavailableRepoIndexing	开此仓库的索引以用此来源。
+settings.reviewKnowledge.unavailableSecurityGithub	Devin 安全对 GitHub 仓库可用。
+settings.reviewKnowledge.updateFrequency	更新频率
+settings.reviewLabel	审查
+settings.reviewRepoBillingTargets.addRule	加计费规则
+settings.reviewRepoBillingTargets.budget	预算
+settings.reviewRepoBillingTargets.budgetOption	预算：{{name}}
+settings.reviewRepoBillingTargets.cancel	取消
+settings.reviewRepoBillingTargets.chargeTo	计到
+settings.reviewRepoBillingTargets.connectionRemoved	此 Git 连接已移除，所以此映射不再适用。
+settings.reviewRepoBillingTargets.description	把 Review 计到一个组织或预算，而非 PR 作者、手动发起或 grant。
+settings.reviewRepoBillingTargets.duplicateRule	此仓库已有计费规则。编辑它改计费对象。
+settings.reviewRepoBillingTargets.editRule	编辑计费规则
+settings.reviewRepoBillingTargets.editorDescription	此规则覆盖此仓库的 PR 作者、手动发起和 grant 计费，含 Review 聊天。
+settings.reviewRepoBillingTargets.emptyDescription	仓库用常规计费设置，直到你加规则。
+settings.reviewRepoBillingTargets.emptyTitle	没有仓库计费规则
+settings.reviewRepoBillingTargets.loadRulesFailed	加载不了计费规则。
+settings.reviewRepoBillingTargets.loadTargetsFailed	加载不了组织和预算。
+settings.reviewRepoBillingTargets.loadingRules	加载计费规则中…
+settings.reviewRepoBillingTargets.loadingTargets	加载组织和预算中…
+settings.reviewRepoBillingTargets.noEligibleTargets	你没有可用组织或预算。
+settings.reviewRepoBillingTargets.noTargets	找不到目标。
+settings.reviewRepoBillingTargets.notApplied	未应用
+settings.reviewRepoBillingTargets.orgOption	组织：{{name}}
+settings.reviewRepoBillingTargets.organization	组织
+settings.reviewRepoBillingTargets.remove	移除
+settings.reviewRepoBillingTargets.removeDescription	此仓库的 Review 将重新用其它计费设置。
+settings.reviewRepoBillingTargets.removeFailed	移除计费目标失败。
+settings.reviewRepoBillingTargets.removeRule	移除规则
+settings.reviewRepoBillingTargets.removeTitle	移除 {{repo}} 的计费目标？
+settings.reviewRepoBillingTargets.removedConnection	已移除 Git 连接
+settings.reviewRepoBillingTargets.repository	仓库
+settings.reviewRepoBillingTargets.restrictedBudget	受限预算
+settings.reviewRepoBillingTargets.restrictedHint	你要有此预算的访问才能改或移其计费规则。
+settings.reviewRepoBillingTargets.saveFailed	存计费目标失败。
+settings.reviewRepoBillingTargets.searchTargets	搜索目标…
+settings.reviewRepoBillingTargets.selectTarget	选目标
+settings.reviewRepoBillingTargets.targetUnusable	此目标被删或停用，所以 Review 用常规计费。
+settings.reviewRepoBillingTargets.title	仓库计费规则
+settings.reviewRepoBillingTargets.unavailableTarget	不可用目标
+settings.reviewRequestsPartialError_one	审不了 {{count}} 个申请
+settings.reviewRequestsPartialError_other	审不了 {{count}} 个申请
+settings.reviewScopeAddOverride	加覆盖
+settings.reviewScopeAddTitle	加一个覆盖
+settings.reviewScopeAll	全部仓库
+settings.reviewScopeAppliesTo	应用于
+settings.reviewScopeEditTitle	编辑覆盖
+settings.reviewScopeErrorDuplicate	此覆盖已存在。改为编辑已有的。
+settings.reviewScopeErrorGithubOrganizationSegments	GitHub 组织是单段路径，如 acme。
+settings.reviewScopeErrorGroupRequired	输组或子组路径，如 acme/payments。
+settings.reviewScopeErrorNamePrefixFormatGithub	输 org/prefix 形式的名前缀，如 acme/frontend-。
+settings.reviewScopeErrorNamePrefixFormatGitlab	输 group/prefix 形式的名前缀，如 acme/payments/frontend-。
+settings.reviewScopeErrorNamePrefixRequiredGithub	输名前缀，如 acme/frontend-。

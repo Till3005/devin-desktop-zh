@@ -1,0 +1,270 @@
+session.unarchivedToast_one	会话已取消归档
+session.unarchivedToast_other	已取消归档 {{count}} 个会话
+session.unauthorized	未授权
+session.undoCount_one	{{count}} 个会话
+session.undoCount_other	{{count}} 个会话
+session.unknown	未知
+session.unknownUser	未知用户
+session.unpin	取消置顶
+session.unpinAll	全部取消置顶
+session.unsubscribed	已退订
+session.untitled	新会话
+session.updateVisibilityFailed	更新会话可见性失败
+session.updatedOnTooltip	更新于 {{date}}
+session.userMessages	用户消息
+session.viewChildSessions	看子会话
+session.viewParentSession	看父会话
+session.viewSessionInsights	看会话洞察
+session.viewerTyping	{{name}} 正在输入
+session.viewersTyping_one	{{count}} 人正在输入
+session.viewersTyping_other	{{count}} 人正在输入
+session.waitingForWakeUp	正在等 {{name}} 唤醒…
+session.you	你
+sessionAnalysis.detectedIssues	检测到的问题
+sessionAnalysis.goToMachine	去机器
+sessionAnalysis.knowledgeInsights.correctlyRetrieved	正确召回（{{count}}）
+sessionAnalysis.knowledgeInsights.description	评估知识召回与此会话需求的匹配度。这是内部 staging 功能。
+sessionAnalysis.knowledgeInsights.f1	F1 分
+sessionAnalysis.knowledgeInsights.f1Desc	精确率与召回率的调和均值
+sessionAnalysis.knowledgeInsights.incorrectlyRetrieved	错误召回（{{count}}）
+sessionAnalysis.knowledgeInsights.missedRelevant	漏掉相关知识（{{count}}）
+sessionAnalysis.knowledgeInsights.notEvaluated	未评估（{{count}}）
+sessionAnalysis.knowledgeInsights.precision	精确率
+sessionAnalysis.knowledgeInsights.precisionDesc	已评估召回项 {{evaluated}} 中 {{retrieved}} 个相关
+sessionAnalysis.knowledgeInsights.recall	召回率
+sessionAnalysis.knowledgeInsights.recallDesc	相关项 {{total}} 中 {{retrieved}} 个被召回
+sessionAnalysis.knowledgeInsights.relevantCount	{{count}} 个相关
+sessionAnalysis.knowledgeInsights.retrievedCount	{{count}} 个已召回
+sessionAnalysis.knowledgeInsights.title	知识洞察
+sessionAnalysis.knowledgeInsights.totalItems_one	共 {{count}} 个知识条目
+sessionAnalysis.knowledgeInsights.totalItems_other	共 {{count}} 个知识条目
+sessionAnalysis.knowledgeUsage.helpText	知识帮 Devin 记住相关事实、技巧和怎么做某些技能。Devin 会自动回忆相关知识
+sessionAnalysis.knowledgeUsage.misleading	误导知识（{{count}}）
+sessionAnalysis.legendHighImpact	高影响问题
+sessionAnalysis.legendMediumImpact	中影响问题
+sessionAnalysis.legendSignificant	重要事件
+sessionAnalysis.legendValue	提供的价值
+sessionAnalysis.sizeColumn	大小
+sessionAnalysis.sizeGuideBody	会话大小按会话消耗的用量算。
+sessionAnalysis.sizeGuideTitle	会话大小指南
+sessionAnalysis.sizeL	L
+sessionAnalysis.sizeM	M
+sessionAnalysis.sizeS	S
+sessionAnalysis.sizeXl	XL
+sessionAnalysis.sizeXs	XS
+sessionAnalysis.skillsInsights.availableCount_one	{{count}} 个可用技能
+sessionAnalysis.skillsInsights.availableCount_other	{{count}} 个可用技能
+sessionAnalysis.skillsInsights.correctlyInvoked	正确调用（{{count}}）
+sessionAnalysis.skillsInsights.description	评估技能调用与此会话需求的匹配度。这是内部 staging 功能。
+sessionAnalysis.skillsInsights.f1	F1 分
+sessionAnalysis.skillsInsights.f1Desc	精确率与召回率的调和均值
+sessionAnalysis.skillsInsights.invokedCount	{{count}} 个已调用
+sessionAnalysis.skillsInsights.missedRelevant	漏掉相关技能（{{count}}）
+sessionAnalysis.skillsInsights.notEvaluated	未评估（{{count}}）
+sessionAnalysis.skillsInsights.precision	精确率
+sessionAnalysis.skillsInsights.precisionDesc	已评估调用 {{evaluated}} 中 {{invoked}} 个相关
+sessionAnalysis.skillsInsights.recall	召回率
+sessionAnalysis.skillsInsights.recallDesc	相关技能 {{total}} 中 {{invoked}} 个被调用
+sessionAnalysis.skillsInsights.relevantCount	{{count}} 个相关
+sessionAnalysis.skillsInsights.title	技能洞察
+sessionAnalysis.skillsInsights.unnecessarilyInvoked	不必要调用（{{count}}）
+sessionAnalysis.startNewSession	开新会话
+sessionAnalysis.suggestedActions	建议操作
+sessionAnalysis.timeline	时间线
+sessionCategories.bug_fixing	修 bug
+sessionCategories.ci_cd_and_devops	CI/CD 与 DevOps
+sessionCategories.code_review	代码审查
+sessionCategories.data_and_automation	数据与自动化
+sessionCategories.documentation_and_content	文档与内容
+sessionCategories.feature_development	功能开发
+sessionCategories.migrations_and_upgrades	迁移与升级
+sessionCategories.other	其它
+sessionCategories.production_investigation	生产排查
+sessionCategories.refactoring_and_optimization	重构与优化
+sessionCategories.research_and_exploration	调研与探索
+sessionCategories.security	安全
+sessionCategories.unit_test_generation	单元测试生成
+sessionCategoryDescriptions.bug_fixing	诊断、排障和解决缺陷、错误、测试失败或异常行为。
+sessionCategoryDescriptions.ci_cd_and_devops	搭建和维护 CI/CD 流水线、部署配置和基建即代码。
+sessionCategoryDescriptions.code_review	审查拉取请求、分析代码质量并对已有代码给反馈。
+sessionCategoryDescriptions.data_and_automation	为重复任务建数据管道、脚本和自动化工作流。
+sessionCategoryDescriptions.documentation_and_content	写或更新文档、README、changelog、API 文档、wiki、翻译、本地化（i18n/l10n）和内容创作。
+sessionCategoryDescriptions.feature_development	建功能、实现用户故事并给代码库加新能力。
+sessionCategoryDescriptions.migrations_and_upgrades	升级依赖、迁移框架、数据库或 API 到更新版本。
+sessionCategoryDescriptions.other	不好归入上面分类的会话。
+sessionCategoryDescriptions.production_investigation	在生产语境诊断、排障和解决告警或事件。
+sessionCategoryDescriptions.refactoring_and_optimization	在不改外部行为的前提下改进代码结构、性能和可维护性。
+sessionCategoryDescriptions.research_and_exploration	探索可行性、调研方案、排查选项、设计架构、写 RFC、规划和打样。
+sessionCategoryDescriptions.security	修安全漏洞、处理 CVE 并改进应用安全态势。
+sessionCategoryDescriptions.unit_test_generation	写单元测试、集成测试并改进代码库测试覆盖。
+sessionHyperlinks.copyIssueId	复制工单 ID
+sessionHyperlinks.slackThread	Slack 帖子
+sessionInfo.applyTag	应用标签
+sessionInfo.billingTag	计费标签
+sessionInfo.changeBillingTag	改计费标签
+sessionInfo.clearAll	全清
+sessionInfo.createdBy	创建者
+sessionInfo.createdByInfo	提供默认 git 身份、个人机密和个人插件。
+sessionInfo.dismissSuggestion	忽略
+sessionInfo.done	完成
+sessionInfo.environmentSettings	环境设置
+sessionInfo.linkedWorkItems	已链工作项
+sessionInfo.moreRepositories	+{{count}} 更多
+sessionInfo.noMatchingTags	未找到标签
+sessionInfo.noSubscribers	没有订阅者
+sessionInfo.noTag	杂项
+sessionInfo.noTagInfo	用于不属于任何计费标签的一次性工作。
+sessionInfo.noTags	没有标签
+sessionInfo.participant	参与者
+sessionInfo.pluginFailed	失败
+sessionInfo.pluginResources.counts.agents_one	{{count}} 个 agent
+sessionInfo.pluginResources.counts.agents_other	{{count}} 个 agent
+sessionInfo.pluginResources.counts.hooks_one	{{count}} 个 hook
+sessionInfo.pluginResources.counts.hooks_other	{{count}} 个 hook
+sessionInfo.pluginResources.counts.mcps_one	{{count}} 个 MCP
+sessionInfo.pluginResources.counts.mcps_other	{{count}} 个 MCP
+sessionInfo.pluginResources.counts.rules_one	{{count}} 条规则
+sessionInfo.pluginResources.counts.rules_other	{{count}} 条规则
+sessionInfo.pluginResources.counts.skills_one	{{count}} 个技能
+sessionInfo.pluginResources.counts.skills_other	{{count}} 个技能
+sessionInfo.pluginResources.empty	没有已加载资源
+sessionInfo.pluginResources.unavailable	资源详情不可用
+sessionInfo.plugins	活跃插件
+sessionInfo.properties	属性
+sessionInfo.removeFromSidebarInfo	从侧栏移除会话
+sessionInfo.searchBillingTags	搜索计费标签…
+sessionInfo.sessionInfo	会话信息
+sessionInfo.subscribersInfo	在侧栏显示会话并接收更新
+sessionInfo.suggested	建议
+sessionInfo.suggestedBillingTag	建议计费标签
+sessionInfo.suggestedBillingTagLink	建议<billingTagLink>计费标签</billingTagLink>
+sessionInfo.tag	标签
+sessionInfo.tags	标签
+sessionInfo.uncategorized	未分类
+sessionInfo.uncategorizedInfo	清掉标签
+sessionInfo.you	（你）
+sessionInsights.actionableFeedback	可执行反馈
+sessionInsights.acuUsage	ACU 用量
+sessionInsights.acus	ACU
+sessionInsights.analysisRequired	需要分析
+sessionInsights.cancel	取消
+sessionInsights.category	分类
+sessionInsights.cost	成本
+sessionInsights.description	此功能用 AI 分析你的 Devin 会话，帮你懂发生了什么、哪里能改进、怎么拿更好结果。
+sessionInsights.dialogLabel	会话分析
+sessionInsights.enterNonZeroAmount	输入非零金额
+sessionInsights.errorDescription	加载会话分析时出错。
+sessionInsights.errorGeneratingConfig	生成建议配置更改出错。
+sessionInsights.errorTitle	出错了
+sessionInsights.failedToSave	保存失败
+sessionInsights.generateAnalysis	生成分析
+sessionInsights.generateFailed	生成分析失败。请重试。
+sessionInsights.generating	生成中…
+sessionInsights.improvedPrompt	改进提示词
+sessionInsights.investigateWithDevin	用 Devin 排查
+sessionInsights.issueTimeline	问题时间线
+sessionInsights.knowledgeUsage	知识用量
+sessionInsights.lastUpdated	上次更新
+sessionInsights.noFeedback	没有反馈
+sessionInsights.noIssuesFound	没发现问题
+sessionInsights.noKnowledgeUsed	此会话没用知识
+sessionInsights.noPromptChanges	没建议提示词更改
+sessionInsights.noPromptImprovements	没建议提示词改进
+sessionInsights.noPromptSuggestionsAvailable	没有可用提示词建议
+sessionInsights.notProvided	未提供
+sessionInsights.onDemandUsage	按需用量
+sessionInsights.other	其它
+sessionInsights.pending	待处理…
+sessionInsights.regenerate	重新生成
+sessionInsights.regenerating	重新生成中…
+sessionInsights.save	保存
+sessionInsights.saved	已保存
+sessionInsights.saving	保存中…
+sessionInsights.sessionSize	会话大小
+sessionInsights.subcategory	子分类
+sessionInsights.timeWithDevin	用 Devin 耗时
+sessionInsights.timeWithDevinTooltip	估计在 Devin 帮助下完成工作花的时长
+sessionInsights.timeWithoutDevin	不用 Devin 耗时
+sessionInsights.timeWithoutDevinTooltip	估计人不用 AI 辅助做此工作花的时长
+sessionInsights.title	会话洞察
+sessionInsights.userMessages	用户消息
+sessionInsights.viewInPlayground	在 Playground 看
+sessionLinks.livePreview	实时预览
+sessionLinks.livePreviewNamed	实时预览：{{name}}
+sessionLinks.pylonIssue	工单 #{{number}}
+sessionLinks.scheduled	已排期
+sessionLiveActivity.alreadyRequested	此会话已申请过实时活动。
+sessionLiveActivity.noEligibleIphone	找不到符合条件的 iPhone。在此账户开最新 Devin iOS app 并在 iPhone 设置开实时活动。
+sessionLiveActivity.requestQueued	实时活动申请已排队给你的 iPhone。
+sessionLiveActivity.sessionFinished	此会话已不在跑。先恢复再在你 iPhone 上显示。
+sessionLiveActivity.showOnIphone	在 iPhone 上显示
+sessionLiveActivity.startFailed	启动不了实时活动。请重试。
+sessionMenu.acuUsage	ACU 用量
+sessionMenu.addDuration	加 {{duration}}
+sessionMenu.agentSettings	{{botName}} 设置
+sessionMenu.analyzeSession	分析会话
+sessionMenu.archive	归档
+sessionMenu.awakeFor	醒 {{duration}}
+sessionMenu.babysitting	托管
+sessionMenu.babysittingCoverage.ci	修不过的 CI 检查
+sessionMenu.babysittingCoverage.comments	PR 评论
+sessionMenu.babysittingCoverage.conflicts	合并冲突
+sessionMenu.babysittingCoverage.review	Devin Review 发现项
+sessionMenu.babysittingCoverage.testing	测它的更改
+sessionMenu.babysittingCovers	不等你，Devin 处理
+sessionMenu.babysittingError	更新托管失败
+sessionMenu.babysittingLoadError	加载不了托管设置
+sessionMenu.babysittingLoading	正在加载托管设置…
+sessionMenu.babysittingOff	关
+sessionMenu.babysittingOn	开
+sessionMenu.babysittingToggle	自动跟进
+sessionMenu.botLink	{{botName}} 的链接
+sessionMenu.botLinkCopied	{{botName}} 的链接已复制
+sessionMenu.cannotChangeVisibility	改不了从 {{origin}} 建的会话的可见性
+sessionMenu.changeSecurityProfile	改安全配置
+sessionMenu.closePanel	关闭面板
+sessionMenu.connectionDeleted	连接已删
+sessionMenu.copy	复制
+sessionMenu.copyBotLink	复制 {{botName}} 的链接
+sessionMenu.copySessionLink	复制会话链接
+sessionMenu.copySshCommand	SSH 命令
+sessionMenu.createAutomation	从会话建自动化
+sessionMenu.createPlaybook	从会话建 playbook
+sessionMenu.createSkill	从会话建技能
+sessionMenu.debugCopied	已复制
+sessionMenu.debugInfo	调试信息
+sessionMenu.debugInfoError	加载调试信息失败
+sessionMenu.debugSettingsOn	调试设置已开
+sessionMenu.debugTimelineTotal	总计
+sessionMenu.deleteConnection	删连接
+sessionMenu.deleteConnectionConfirmation	确定要删「{{name}}」？Devin 将停止从它同步发现项；已导入的发现项保留。此操作不可撤销。
+sessionMenu.deleteConnectionInfo	Devin 停止从此来源同步发现项
+sessionMenu.deletingConnection	正在删连接…
+sessionMenu.descendantAcuUsage	后代 ACU 用量
+sessionMenu.descendantUsage	后代用量
+sessionMenu.devinDesktop	Devin Desktop
+sessionMenu.devinDesktopInsiders	Devin Desktop Insiders
+sessionMenu.disableEtaDebug	关 ETA 调试模式
+sessionMenu.duration12Hours	12 小时
+sessionMenu.duration24Hours	24 小时
+sessionMenu.duration72Hours	72 小时
+sessionMenu.editTags	编辑标签
+sessionMenu.enableEtaDebug	开 ETA 调试模式
+sessionMenu.failedToCopyBotLink	复制 {{botName}} 的链接失败
+sessionMenu.failedToCopySessionLink	复制会话链接失败
+sessionMenu.failedToDeleteConnection	删连接失败
+sessionMenu.feedbackDescription	告诉我们哪里好或哪里能改进
+sessionMenu.feedbackPlaceholder	分享你的反馈
+sessionMenu.feedbackRequired	反馈为必填项
+sessionMenu.feedbackSensitiveInfoNote	别在反馈里放你公司的敏感信息。
+sessionMenu.folder	文件夹
+sessionMenu.giveFeedback	给反馈
+sessionMenu.hideBotDeferredEvents	隐藏推迟事件
+sessionMenu.hideBotFullTimeline	隐藏完整事件时间线
+sessionMenu.hideFromTeam	对团队隐藏
+sessionMenu.hideHiddenHooks	隐藏隐藏 hook
+sessionMenu.hideInternalInfo	隐藏内部信息
+sessionMenu.improvePlaybook	从会话改进 playbook
+sessionMenu.improveSkill	从会话改进技能
+sessionMenu.keepDevinAwake	让 Devin 保持唤醒
+sessionMenu.keepDevinAwakeError	更新 caffeinate 设置失败

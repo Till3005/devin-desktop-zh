@@ -1,0 +1,130 @@
+settings.teamsCapabilities.alerts.m2	可能原因：14:02 的部署加了一条没索引的查询（<lnk>PR #2207</lnk>）。选项：回滚，或合 <lnk>PR #2211</lnk> 里的索引。我什么都没改。
+settings.teamsCapabilities.alerts.m3	回滚了，谢了。
+settings.teamsCapabilities.alerts.title	下午的告警
+settings.teamsCapabilities.alertsSender	Alerts
+settings.teamsCapabilities.conversationKind.channel	频道
+settings.teamsCapabilities.conversationKind.devinChat	聊天
+settings.teamsCapabilities.conversationKind.groupChat	群聊
+settings.teamsCapabilities.helpChannel.conversation	Platform › Help
+settings.teamsCapabilities.helpChannel.description	帮助频道直接答，不等唯一懂的那个人。
+settings.teamsCapabilities.helpChannel.footnote	每个线程一个会话：线程里的追问保留全部上下文。
+settings.teamsCapabilities.helpChannel.m1	我刚进团队。公开 API 的限流在哪配？<mention>@Devin AI</mention>
+settings.teamsCapabilities.helpChannel.m2	在 <lnk>gateway/limits.yaml</lnk>，按方案。企业客户在 <lnk>accounts/overrides.py</lnk> 覆盖。本地试：<cmd>make gateway-dev</cmd>。
+settings.teamsCapabilities.helpChannel.m3	完美，谢了！
+settings.teamsCapabilities.helpChannel.title	新队友的问题
+settings.teamsCapabilities.m365.conversation	Reporting team
+settings.teamsCapabilities.m365.description	它捡起团队已在 SharePoint 写好的规格。
+settings.teamsCapabilities.m365.footnote	用 Microsoft 365 MCP：每人连自己账户，Devin 需要时会建议装。
+settings.teamsCapabilities.m365.m1	我把新导出的规格放 SharePoint 了。<mention>@Devin AI</mention> 能先做 CSV 部分吗？
+settings.teamsCapabilities.m365.m2	我读了 <lnk>Export v2.docx</lnk>。CSV 导出在 <lnk>PR #1301</lnk>。XLSX 有个问题：有行数上限吗？规格没说。
+settings.teamsCapabilities.m365.title	从规格开始
+settings.teamsCapabilities.prFromChat.conversation	Checkout team
+settings.teamsCapabilities.prFromChat.description	在讨论的同一个聊天里就把它修了。
+settings.teamsCapabilities.prFromChat.footnote	Devin 读对话当上下文，每条回复续同一个会话。
+settings.teamsCapabilities.prFromChat.m1	优惠券比购物车总额大时结算失败。支持刚发过来。
+settings.teamsCapabilities.prFromChat.m2	<mention>@Devin AI</mention> 能看下吗？
+settings.teamsCapabilities.prFromChat.m3	复现了：折扣在税后应用，所以总额变负。修复和测试在 <lnk>PR #482</lnk>。
+settings.teamsCapabilities.prFromChat.m4	<mention>@Devin AI</mention> 100% 优惠券呢？
+settings.teamsCapabilities.prFromChat.m5	覆盖了：我把那情况加进了同一个 PR。
+settings.teamsCapabilities.prFromChat.title	聊天里冒出个 bug
+settings.teamsCapabilities.prReview.conversation	Billing team
+settings.teamsCapabilities.prReview.description	团队继续干活时它审 PR。
+settings.teamsCapabilities.prReview.footnote	Devin 在你组织连的仓库上工作，访问权和 web 应用相同。
+settings.teamsCapabilities.prReview.m1	我想今天合 <lnk>PR #1290</lnk>，它动了税计算。<mention>@Devin AI</mention> 能看下吗？
+settings.teamsCapabilities.prReview.m2	合并前两件事：三位小数金额的舍入变了，外币发票场景缺了。评论留在 PR 上了。
+settings.teamsCapabilities.prReview.m3	好，修它。
+settings.teamsCapabilities.prReview.title	合并前再看一眼
+settings.teamsChannelAllowlistAll	全部频道
+settings.teamsChannelAllowlistRemove	移除频道
+settings.teamsChannelAllowlistSelectToApply	没选频道。Devin 在任何 Microsoft Teams 频道都用不了。
+settings.teamsChannelAllowlistSelected	已选频道
+settings.teamsChannelAllowlistSelectedHint	Devin 只能在这些频道用。新频道不自动加。
+settings.teamsChatAccessAllowed	允许
+settings.teamsChatAccessBlocked	禁止
+settings.teamsDmsAccess	私信
+settings.teamsDmsAccessDescription	允许此组织会话在与 Devin 的私信里开和发
+settings.teamsGroupChatsAccess	群聊
+settings.teamsGroupChatsAccessDescription	允许此组织会话在群聊里开和发
+settings.teamsOauthAdminRequired	只有你 Microsoft 365 租户的 Teams 管理员或全局管理员能连。用管理员账户登录，或请你 Microsoft 365 管理员连 Devin。
+settings.teamsOauthAppTokenDenied	Microsoft Entra ID 挡了此租户上 Devin AI 的应用访问。请 Microsoft Entra 管理员（云应用管理员或更高）允许 Devin AI 应用，再重试。
+settings.teamsOauthFailedTitle	连不了 Microsoft Teams
+settings.teamsOauthOrgAlreadyConnected	此 Devin 组织已连到另一 Microsoft 365 租户。先断开当前 Microsoft Teams 连接，再连新租户。
+settings.teamsOauthPermissionDenied	你没有此 Devin 组织连 Microsoft Teams 所需的权限。请组织管理员给访问。
+settings.teamsOauthTenantAlreadyConnected	此 Microsoft 365 租户已在另一组织或企业连了 Devin，一个租户只能连一次。请那组织的 Devin 管理员断开，或联系支持。
+settings.teamsOauthTenantMismatch	你登录用的 Microsoft 账户所属租户不同于连到此 Devin 组织的那个。用已连租户的工作账户登录。
+settings.teamsOauthUnexpectedError	我们这边完成连接时出错了。几分钟后重试；反复出现就联系支持。
+settings.teamsOauthUserAlreadyLinked	此 Microsoft 账户已链到另一 Devin 用户。先把它从那用户的连接解链，或用别的 Microsoft 账户登录。
+settings.teamsOauthUserAlreadyLinkedInOtherAccount	此 Microsoft 账户已链在连到同一 Microsoft 组织的另一 Devin 账户。登录那账户先在其设置断开 Microsoft Teams，再重试。
+settings.telemetryAlwaysDisabledForEnterprise	企业组织永远禁用
+settings.temporaryOverride	临时
+settings.tenantStorage	租户存储
+settings.terminalCommandLists	终端命令列表
+settings.terminalCommandListsDescription	配置团队级终端命令白名单和黑名单。黑名单优先于白名单
+settings.theme	主题
+settings.themeDescription	选你偏好的颜色主题
+settings.threads	线程
+settings.tier	档位
+settings.tierAllocationConfirmDescriptionNoMembers	新分配 {{limit}} 将应用于此档位成员。
+settings.tierAllocationConfirmDescription_one	新分配 {{limit}} 立刻应用于此档位 {{count}} 个成员。
+settings.tierAllocationConfirmDescription_other	新分配 {{limit}} 立刻应用于此档位 {{count}} 个成员。
+settings.tierMappings	档位映射
+settings.tierMappingsDescription	把组映射到用量档位。组是身份提供商组或 Devin University 认证。没直接派档位的成员拿其组的档位；在多个映射组时，档位列表里最靠上的档位胜出。
+settings.tierMembersTitle	成员
+settings.tierModelsInheritDescription	成员用其组织和企业模型设置。覆盖则以企业默认起。
+settings.tierModelsInherited	此档位继承模型设置。
+settings.tierModelsOverridden	此档位覆盖模型设置。
+settings.tierModelsOverrideDescription	未设字段继承每个成员的组织设置，再企业设置。这显示的继承值用企业默认。
+settings.tierMoved	{{name}} 移到位置 {{position}}
+settings.tierNameDescription	标识此档位的名
+settings.tierNameLabel	档位名
+settings.tierNamePlaceholder	如：重度用户
+settings.tierNameWithLimit	{{name}} · {{limit}}
+settings.tierPanelDescription	定此档位的月度用量分配
+settings.tiersCount_one	{{count}} 个档位
+settings.tiersCount_other	{{count}} 个档位
+settings.trackerConnectedAs	以 {{username}} 连接
+settings.trackerUnlinkFailed	解链不了你 tracker 账户
+settings.transportType	传输类型
+settings.transportTypeDescription	配置 Devin 怎么连此 MCP 服务器
+settings.triggerPoliciesDescription	选每个组织哪些触发源可起自动化。Slack、Teams 或 GitHub 里的 Devin 提及、API、CLI 和 playbook 不受影响。
+settings.triggerPoliciesSingleOrgDescription	选哪些触发源可起自动化。Slack、Teams 或 GitHub 里的 Devin 提及、API、CLI 和 playbook 不受影响。
+settings.triggerPolicyActions	政策操作
+settings.triggerPolicyAdd	加政策
+settings.triggerPolicyAllowedCount_one	{{count}} 个源允许
+settings.triggerPolicyAllowedCount_other	{{count}} 个源允许
+settings.triggerPolicyAllowedOf_one	{{total}} 中允许 {{count}}
+settings.triggerPolicyAllowedOf_other	{{total}} 中允许 {{count}}
+settings.triggerPolicyConfirmDescription	它们保持启用但其触发源被挡时不跑。
+settings.triggerPolicyConfirmSave	照样保存
+settings.triggerPolicyConfirmTitle	保存并跳过这些自动化？
+settings.triggerPolicyCreate	创建
+settings.triggerPolicyCreateDescription	你派到此政策的组织用其源，而非企业默认。
+settings.triggerPolicyCreateTitle	新触发政策
+settings.triggerPolicyDefaultAppliesTo	应用于
+settings.triggerPolicyDefaultBadge	企业默认
+settings.triggerPolicyDefaultName	默认
+settings.triggerPolicyDefaultOrgCount_one	{{count}} 个组织没有自己的政策
+settings.triggerPolicyDefaultOrgCount_other	{{count}} 个组织没有自己的政策
+settings.triggerPolicyDefaultOrganizationsDescription	回退政策。每个没有自己政策的组织用它，含之后建的组织。
+settings.triggerPolicyDefaultOrganizationsHint	要给组织不同的源，把它加进另一政策。
+settings.triggerPolicyDefaultOrganizationsScope	没有自己政策的组织，含新建的。
+settings.triggerPolicyDelete	删除
+settings.triggerPolicyDeleteDefaultDescription	每个组织将又能用全部触发源。
+settings.triggerPolicyDeleteDefaultLocked	先删其它政策
+settings.triggerPolicyDeleteDescription	其组织将跟随企业默认政策。
+settings.triggerPolicyDeleteFailed	删不了政策
+settings.triggerPolicyDeleteSingleOrgDescription	全部触发源将又能起自动化。
+settings.triggerPolicyDeleteTitle	删触发政策？
+settings.triggerPolicyDeletedToast	政策已删
+settings.triggerPolicyDependentsHidden_one	另 {{count}} 个你没权看
+settings.triggerPolicyDependentsHidden_other	另 {{count}} 个你没权看
+settings.triggerPolicyDependentsTitle_one	此更改会挡 {{count}} 个已启用自动化
+settings.triggerPolicyDependentsTitle_other	此更改会挡 {{count}} 个已启用自动化
+settings.triggerPolicyEdit	编辑
+settings.triggerPolicyEmptyDescription	全部触发源都能起自动化。设个默认政策来选组织能用哪些源
+settings.triggerPolicyEmptySingleOrgDescription	全部触发源都能起自动化。
+settings.triggerPolicyEmptyTitle	无触发政策
+settings.triggerPolicyGroupCommunication	通信和跟踪
+settings.triggerPolicyGroupGit	代码
+settings.triggerPolicyGroupOther	其它
+settings.triggerPolicyGroupWebhook	Webhook

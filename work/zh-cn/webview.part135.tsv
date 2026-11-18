@@ -1,0 +1,160 @@
+wiki.loadingEllipsis	加载中…
+wiki.maintainerBadge.label	维护者编辑
+wiki.maintainerBadge.tooltip	此 wiki 由项目维护者手动编辑。
+wiki.makeSomeChangesToEnableThisButton	做些更改以启用此钮
+wiki.missingLanguageAllLanguages	这为全部可用语言建 wiki。
+wiki.missingLanguageGenerate	此语言还没生成 wiki。起个刷新生成它。
+wiki.noBranchesIndexed	没索引分支
+wiki.noContentAvailable	无内容
+wiki.noRepoNoteContent	无仓库笔记内容。
+wiki.noRepositoriesFound	找不到仓库
+wiki.noWikiAvailable	无可用 wiki
+wiki.noWikiAvailableIn	{{languageName}} 无可用 wiki
+wiki.noWikiForRepository	此仓库无可用 wiki
+wiki.noWikisFound	找不到 wiki
+wiki.noWikisMatchFilter	没有 wiki 匹配所选筛
+wiki.noWikisMatchSearch	没有 wiki 匹配你搜索
+wiki.notGeneratedYet	此仓库还没生成 wiki。
+wiki.onThisPage	本页内容
+wiki.onlyShowingTheLast5PreviewsOfThe	只显上周最近 5 个预览。
+wiki.openPreview	开预览
+wiki.pageTitle	Wiki —— {{title}}
+wiki.pageTitleEdit	Wiki —— 编 {{title}}
+wiki.pageTitlePreview	Wiki —— 预览 {{title}}
+wiki.pin	置顶
+wiki.pinned	已置顶
+wiki.pleaseWaitUntilItIsProcessed	请等其处理完
+wiki.prMergedNotice	合并进 {{branch}} 后，更改反到这要点时间。
+wiki.preview	预览
+wiki.previewEdits	预览编辑
+wiki.previewHistory	预览历史
+wiki.previewJobWasSubmitted	预览 job 已提交。
+wiki.previewJobWasSubmittedPleaseCheckYourEmail	预览 job 已提交。请查你邮箱更新。
+wiki.previewWikiChanges	预览 wiki 更改
+wiki.previewingEdit	你在预览此 wiki 一个生成的编辑（ID：<code>{{previewId}}</code>）
+wiki.recentlyViewed	最近看过
+wiki.refetchRepositories	重拉仓库
+wiki.refetchWikis	重拉 wiki
+wiki.repoNote	仓库笔记
+wiki.repoNoteContentMarkdown	仓库笔记内容（markdown）
+wiki.repoNoteUpdatedSuccessfully	仓库笔记更新成功。
+wiki.save	保存
+wiki.saveRepoNote	存仓库笔记
+wiki.saving	存中…
+wiki.searchForRepositories	搜仓库
+wiki.searchWikis	搜 wiki
+wiki.sectionCopied	分节已复制！
+wiki.sendMeAnEmailWhenItIsReady	好了邮件通知我
+wiki.startWikiGeneration	起 wiki 生成
+wiki.startedAt	起于：{{date}}
+wiki.startingRefresh	起刷新中…
+wiki.tableOfContents	目录
+wiki.theDefaultBranchEGMain	默认分支（如 main）
+wiki.theJobIsBeingQueued	job 排队中
+wiki.thePullRequestHasBeenCreated	拉取请求已建
+wiki.thisMayTakeSeveralMinutes	这可能要几分钟
+wiki.thisNoteHelpsDevinUnderstandWhichRepoIs	此笔记帮 Devin 弄清任务相关哪个仓库。wiki 构建时自动生成，内部用于仓库消歧。
+wiki.thisNoteIsUsedByDevinToUnderstand	此笔记被 Devin 用来理解仓库。确保内容准确——错信息会误导 Devin、降其表现。
+wiki.thisPreviewIsNoLongerAvailable	此预览不再可用。
+wiki.thisTypicallyTakes1030MinutesThePage	这通常要 10-30 分钟。好了页面自动更新。
+wiki.tryAdjustingYourSearchQuery	试调你搜索词
+wiki.unableToLoadRepoWiki	加载不了此仓库 wiki。
+wiki.unableToLoadTheWikiForThisRepository	加载不了此仓库 wiki。请稍后再试。
+wiki.unknown	未知
+wiki.unknownError	未知错误
+wiki.unpin	取消置顶
+wiki.validation.addPage	往 'pages' 数组加至少一页
+wiki.validation.duplicateTitle	重名「{{title}}」。每页须唯一标题
+wiki.validation.invalidJson	无效 JSON
+wiki.validation.noteString	笔记内容应是字符串
+wiki.validation.noteTooLong_one	笔记内容太长（{{count}} 字符）。每笔记须 10,000 字符以内
+wiki.validation.noteTooLong_other	笔记内容太长（{{count}} 字符）。每笔记须 10,000 字符以内
+wiki.validation.pageMissingTitle	第 {{number}} 页缺标题。给此页加标题
+wiki.validation.pageNotesArray	「{{title}}」的 page_notes 应是数组
+wiki.validation.repoNotesArray	repo_notes 应是数组
+wiki.validation.tooManyNotes	笔记太多（{{count}}）。repo_notes 和 page_notes 减到共 100 条内
+wiki.validation.tooManyPages	页太多（{{count}}）。减到 {{max}} 页内
+wiki.weAreAboutToProcessIt	我们正要处理它。
+wiki.weAreGeneratingYourPreview	我们在生成你预览
+wiki.weReceivedYourEditRequest	我们收到你编辑请求
+wiki.wikiGenerationFailedForPleaseContactSupport	{{repo}} 的 wiki 生成失败。请联系支持。
+wiki.wikiGenerationInProgress	wiki 生成中…
+wiki.wikiGenerationStarted	wiki 生成已起
+wiki.wikiRefreshProcessStartedTheWikiWillBe	wiki 刷新进程已起。wiki 会 10-30 分钟内更新。
+wiki.wikisHeading	Wiki
+wiki.yourOrganizationHasABillingIssueSubscribeTo	你组织有计费问题。订阅以继续用 Ask Devin。
+wikiHeaderActions.actions.cancel	取消
+wikiHeaderActions.actions.deepWikiSettings	DeepWiki 设置
+wikiHeaderActions.actions.editWiki	编 Wiki
+wikiHeaderActions.actions.indexingInProgress	索引中…
+wikiHeaderActions.actions.more	更多操作
+wikiHeaderActions.actions.openRepository	开仓库
+wikiHeaderActions.actions.reindex	重建索引
+wikiHeaderActions.actions.reindexBranch	重建分支索引
+wikiHeaderActions.actions.reindexNow	现在重建索引
+wikiHeaderActions.actions.reindexNowWithCost	现在重建索引（{{cost}}）
+wikiHeaderActions.actions.remove	移除
+wikiHeaderActions.actions.removeBranchIndex	移除分支索引
+wikiHeaderActions.actions.removeIndex	移除索引
+wikiHeaderActions.actions.removeRepository	从 Wiki 移除仓库
+wikiHeaderActions.actions.removing	移除中…
+wikiHeaderActions.actions.starting	起中…
+wikiHeaderActions.actions.wikiHistory	Wiki 历史
+wikiHeaderActions.autoIndexing.daily	每天
+wikiHeaderActions.autoIndexing.label	自动索引
+wikiHeaderActions.autoIndexing.manual	手动
+wikiHeaderActions.autoIndexing.monthly	每月
+wikiHeaderActions.autoIndexing.weekly	每周
+wikiHeaderActions.branches.defaultBranch	默认分支
+wikiHeaderActions.branches.defaultSuffix	（默认）
+wikiHeaderActions.branches.indexing	索引中…
+wikiHeaderActions.branches.lastUpdated	最近更新 {{time}}
+wikiHeaderActions.branches.noMatch	没分支匹配
+wikiHeaderActions.branches.search	搜分支
+wikiHeaderActions.branches.select	选分支
+wikiHeaderActions.dialogs.reindexConfirmation	为「{{branch}}」重建 Wiki 索引？这要 10–30 分钟。
+wikiHeaderActions.dialogs.reindexConfirmationBilled	为「{{branch}}」重建 Wiki 索引？这耗 ACU 且要 10–30 分钟。
+wikiHeaderActions.dialogs.reindexConfirmationWithCost	为「{{branch}}」重建 Wiki 索引？这耗 ACU（{{cost}}）且要 10–30 分钟。
+wikiHeaderActions.dialogs.removeBranchConfirmation	移除「{{branch}}」的 Wiki 索引？这撤不了。
+wikiHeaderActions.dialogs.removeRepositoryConfirmation	从 Wiki 移除「{{repo}}」？这会去索引全部分支并移除 Wiki 条目。
+wikiHeaderActions.errors.failedToRemoveBranchIndex	移除分支索引失败
+wikiHeaderActions.errors.failedToRemoveRepository	移除仓库失败
+wikiHeaderActions.errors.failedToStartReindex	起重建索引失败
+wikiHeaderActions.errors.failedToUpdateAutoIndexing	更新自动索引失败
+wikiHeaderActions.errors.unknown	未知错误
+wikiHeaderActions.languages.arabic	阿拉伯语
+wikiHeaderActions.languages.chinese	中文
+wikiHeaderActions.languages.english	英语
+wikiHeaderActions.languages.french	法语
+wikiHeaderActions.languages.german	德语
+wikiHeaderActions.languages.hebrew	希伯来语
+wikiHeaderActions.languages.indonesian	印尼语
+wikiHeaderActions.languages.japanese	日语
+wikiHeaderActions.languages.korean	韩语
+wikiHeaderActions.languages.label	语言
+wikiHeaderActions.languages.portuguese	葡语
+wikiHeaderActions.languages.russian	俄语
+wikiHeaderActions.languages.spanish	西语
+wikiHeaderActions.languages.thai	泰语
+wikiHeaderActions.languages.turkish	土耳其语
+wikiHeaderActions.messages.branchAlreadyIndexing	此分支已在索引中。
+wikiHeaderActions.messages.branchIndexRemoved	已移除「{{branch}}」索引
+wikiHeaderActions.messages.defaultBranchCannotBeRemoved	默认分支索引移除不了
+wikiHeaderActions.messages.estimatedCost	预估费用：{{cost}}
+wikiHeaderActions.messages.reindexStarted	在重建「{{branch}}」索引。这要 10–30 分钟。
+wikiHeaderActions.messages.removeRepositoryPermissionRequired	你需索引权限移除此仓库
+wikiHeaderActions.messages.repositoryRemoved	已从 Wiki 移除「{{repo}}」
+wikiHistory.backToCurrent	回当前
+wikiHistory.current	当前
+wikiHistory.description	看此 wiki 先前生成的版本。
+wikiHistory.descriptionForBranch	看此 wiki 分支 {{branch}} 先前生成的版本。
+wikiHistory.loading	加载历史中…
+wikiHistory.noVersions	找不到历史版本。
+wikiHistory.viewingHistorical	你在看此 wiki 历史版本。
+wikiSearch.matches_one	{{count}} 个匹配
+wikiSearch.matches_other	{{count}} 个匹配
+wikiSearch.noResults	找不到结果。
+wikiSearch.page	第 {{id}} 页
+wikiSearch.placeholder	搜 {{repo}} wiki…
+wikiSearch.search	搜索
+wikiSearch.searchWiki	搜 {{repo}} wiki

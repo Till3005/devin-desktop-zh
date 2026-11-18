@@ -1,0 +1,160 @@
+settings.marketplaceGalleryUrlHelp	VS Code 兼容 gallery 服务的绝对 http(s) URL，如 https://marketplace.example.com/vscode/gallery。留空让成员自选市场。
+settings.marketplaceGalleryUrlInvalid	输不带查询串或片段的绝对 http(s) URL，或留空移除限制。
+settings.marketplaceGalleryUrlPlaceholder	https://marketplace.example.com/vscode/gallery
+settings.marketplaceGalleryUrlUpdateFailed	更新扩展市场 URL 失败
+settings.marketplaceGalleryUrlUpdated	扩展市场 URL 已更新
+settings.marketplacePage.pluginRepo.viewSource	看源
+settings.marketplacePage.pluginRepo.viewSourceFor	看 {{plugin}} 的源
+settings.maxAcuColumn	月度 ACU 上限
+settings.maxAutonomyLevel	最大自主级别
+settings.maxAutonomyLevelDescription	成员能开的最高命令自动执行级别
+settings.maxConcurrentBuilds	最大并发构建
+settings.maxConcurrentBuildsDescription	你全部组织可同时跑的快照构建上限。
+settings.maxSessionOrgSharingConfirmAction	限到组织
+settings.maxSessionOrgSharingConfirmDescription	会话组织外的人立刻失访问，含账户级共享。
+settings.maxSessionOrgSharingConfirmRestore	切回账户恢复访问。
+settings.maxSessionOrgSharingConfirmTitle	把全部会话限到其组织？
+settings.maxSessionSharing	最大会话共享
+settings.maxSessionSharingConfirmAction	限到仅创建者
+settings.maxSessionSharingConfirmDescription	全部会话变成仅其创建者可见。其它成员立刻失访问。
+settings.maxSessionSharingConfirmRestore	切回账户恢复访问。
+settings.maxSessionSharingConfirmTitle	把全部会话限到仅创建者？
+settings.maxSessionSharingDescription	会话能共享多远：谁能看、谁能写。对已有会话也适用。自动化、集成和 API 会话不受影响。
+settings.maxSessionSharingEnterpriseReadOnlyDescription	会话可对账户里任何人可见；仅创建者可写
+settings.maxSessionSharingEnterpriseWideDescription	会话可与账户里任何人共享，含写访问
+settings.maxSessionSharingOrgWideDescription	会话可在其组织内共享，含写访问
+settings.maxSessionSharingPersonalOnlyDescription	任何会话除创建者外没人可见
+settings.maxSessionSharingSelectLabel	选最大会话共享
+settings.maxSessionWriteSharingConfirmAction	写限到仅创建者
+settings.maxSessionWriteSharingConfirmDescription	仅创建者能写会话。其它有写访问的成员立刻变只读。
+settings.maxSessionWriteSharingConfirmRestore	切回账户恢复写访问。
+settings.maxSessionWriteSharingConfirmTitle	把全部会话的写限到仅创建者？
+settings.maxSpendColumn	月度花费上限
+settings.maximumAdditionalAllocation	最大自动批准分配
+settings.maximumAdditionalAllocationDescription	用户额外用量申请自动批到此量
+settings.mcp	MCP
+settings.mcpAndAcp	MCP 与 ACP
+settings.mcpAndAcpDescription	直接或经 registry 管 MCP 和 ACP 服务器访问
+settings.mcpAttachOidcToken	附 Devin OIDC token
+settings.mcpAttachOidcTokenDescription	Devin 服务器把短寿命 OIDC token 作每次调用的 bearer 发给此服务器，服务器能查调用来自 Devin。token 的 audience 是服务器 URL 的 origin，必须 HTTPS。对此服务器的调用从不在会话机器跑。
+settings.mcpLinkedSuccessfully	MCP 账户链接成功
+settings.mcpManagement	MCP 管理
+settings.mcpMarketplace	MCP 市场
+settings.mcpMp.authPrompt.adminOnly	仅组织管理员能认证 MCP 服务器。
+settings.mcpMp.authPrompt.authenticate	认证
+settings.mcpMp.authPrompt.authenticateAdminOnly	认证（仅管理员）
+settings.mcpMp.authPrompt.requested	已为 MCP 服务器 {{server}} 申请认证。
+settings.mcpMp.authPrompt.serviceAccount	强烈建议授权服务账户，不是你个人账户。
+settings.mcpMp.authPrompt.sharedAccess	访问将共享给全部组织成员。
+settings.mcpMp.authPrompt.visitUrl	访此 URL 授权 MCP 服务器 {{server}}。此链接约 {{time}} 过期。
+settings.mcpMp.consoleOutput.empty	没有输出
+settings.mcpMp.consoleOutput.loading	加载控制台输出中…
+settings.mcpMp.consoleOutput.title	控制台输出
+settings.mcpMp.perMemberHint	目标组织成员从自定义 → MCP 各自连。
+settings.mcpMp.scopeChange.appRegistrationDetached	脱离应用注册单独设置
+settings.mcpMp.scopeChange.appRegistrationDetachedBody	管理员用此服务器自己的 OAuth client 连一次；每个成员再共享那连接。成员在连接里的 PagerDuty 链不受影响。
+settings.mcpMp.scopeChange.back	返回
+settings.mcpMp.scopeChange.cancel	取消
+settings.mcpMp.scopeChange.continue	继续
+settings.mcpMp.scopeChange.deletePersonalTokens	删个人 token
+settings.mcpMp.scopeChange.descEnterprise	切到 Enterprise 访问会重置此 MCP 的每个已有连接，含成员个人登录。然后管理员连一次，目标组织里每个人共享那连接。
+settings.mcpMp.scopeChange.descEnterpriseAppRegistration	此 MCP 服务器当前经连接里的 PagerDuty 应用注册连每个成员。Enterprise 访问把它从那应用注册断开，改用此服务器输的 OAuth client 认证。
+settings.mcpMp.scopeChange.descOrg	切到 Organization 访问会用共享组织级 token。你可选保留已有个人 token，之后切回 Personal 时用户不用重认证。
+settings.mcpMp.scopeChange.descOrgAppRegistration	此 MCP 服务器当前经连接里的 PagerDuty 应用注册连每个成员。Organization 访问把它从那应用注册断开，改用此服务器输的 OAuth client 认证。
+settings.mcpMp.scopeChange.descPersonal	切到 Personal 访问会要求每个成员用自己账户各自认证，Devin 才能代他们用此 MCP。注意其它用户仍能和你会话交互，所以这不该当安全边界。
+settings.mcpMp.scopeChange.descPersonalTokensInvalidated	已有 OAuth token 将失效。目标组织每个成员需从自定义 → MCP 各自连，Devin 才能代他们用此 MCP。
+settings.mcpMp.scopeChange.descShared	切到 Shared 访问会用一条共享连接给有此 MCP 访问的所有人。你可保留已有个人 token，之后切回 Personal 时用户不用重连。
+settings.mcpMp.scopeChange.descSharedAppRegistration	此 MCP 服务器当前经连接里的 PagerDuty 应用注册连每个成员。Shared 访问把它从那应用注册断开，改用此服务器输的 OAuth client 认证。
+settings.mcpMp.scopeChange.descSharedResetsConnections	切到 Shared 访问会重置此 MCP 的每个已有连接，含成员个人登录。之后再连以设共享连接。
+settings.mcpMp.scopeChange.keepPersonalTokens	保留个人 token
+settings.mcpMp.scopeChange.saving	保存中…
+settings.mcpMp.scopeChange.sharedAccessConnectionBody	有此 MCP 访问的每个人共享一条连接。强烈建议连专用服务账户而非个人账户。
+settings.mcpMp.scopeChange.sharedConnection	共享连接
+settings.mcpMp.scopeChange.sharedConnectionBody	Organization 访问时，你组织每个人共享到此集成的一条连接。强烈建议连专用服务账户而非个人账户。
+settings.mcpMp.scopeChange.sharedConnectionBodyEnterprise	Enterprise 访问时，目标组织里每个人共享到此集成的一条连接。强烈建议连专用服务账户而非个人账户。
+settings.mcpMp.scopeChange.switchToEnterprise	切到 Enterprise 访问
+settings.mcpMp.scopeChange.switchToOrg	切到 Organization 访问
+settings.mcpMp.scopeChange.switchToShared	切到 Shared 访问
+settings.mcpMp.scopeChange.titleEnterprise	切到 Enterprise 访问？
+settings.mcpMp.scopeChange.titleOrg	切到 Organization 访问？
+settings.mcpMp.scopeChange.titlePersonal	切到 Personal 访问？
+settings.mcpMp.scopeChange.titleShared	切到 Shared 访问？
+settings.mcpMp.suggestIntegration.description	我们审所有建议并优先最常被要的集成
+settings.mcpMp.suggestIntegration.descriptionLabel	描述
+settings.mcpMp.suggestIntegration.descriptionPlaceholder	此集成有何价值？你会怎么用？
+settings.mcpMp.suggestIntegration.descriptionRequired	描述为必填项
+settings.mcpMp.suggestIntegration.descriptionTooLong	描述须少于 500 字符
+settings.mcpMp.suggestIntegration.descriptionTooShort	描述须至少 10 字符
+settings.mcpMp.suggestIntegration.documentationLinkLabel	文档链接
+settings.mcpMp.suggestIntegration.documentationLinkRequired	文档链接为必填项
+settings.mcpMp.suggestIntegration.nameLabel	名称
+settings.mcpMp.suggestIntegration.namePlaceholder	如：Slack、Discord、AWS
+settings.mcpMp.suggestIntegration.nameRequired	集成名为必填项
+settings.mcpMp.suggestIntegration.nameTooLong	集成名须少于 50 字符
+settings.mcpMp.suggestIntegration.nameTooShort	集成名须至少 2 字符
+settings.mcpMp.suggestIntegration.submit	提交建议
+settings.mcpMp.suggestIntegration.submitFailed	提交建议失败。请重试。
+settings.mcpMp.suggestIntegration.submitted	集成建议提交成功！我们会审并加进路线图。
+settings.mcpMp.suggestIntegration.submitting	提交中…
+settings.mcpMp.suggestIntegration.title	建议 MCP 集成
+settings.mcpMp.suggestIntegration.trigger	建议
+settings.mcpMp.suggestIntegration.urlInvalid	请输有效 URL（如 https://example.com）
+settings.mcpMp.suggestIntegration.urlProtocolInvalid	请输有效 HTTP 或 HTTPS URL
+settings.mcpMp.tagFilter.all	全部
+settings.mcpMp.tagFilter.filterByCategory	按类别筛
+settings.mcpMp.tagFilter.installed	已装
+settings.mcpMp.tagFilter.noCategoriesFound	找不到类别。
+settings.mcpMp.tagFilter.notInstalled	未装
+settings.mcpMp.tagFilter.searchCategories	搜索类别…
+settings.mcpMp.testConnection.authRequired	{{server}} 需要认证
+settings.mcpMp.testConnection.authRequiredSubtitle	完成下面认证流以继续服务器验证
+settings.mcpMp.testConnection.discoveringTools	从 {{server}} 发现工具中
+settings.mcpMp.testConnection.errorAuth	查认证凭据和权限
+settings.mcpMp.testConnection.errorDefault	查服务器配置、网络连通性和认证设置
+settings.mcpMp.testConnection.errorNetwork	验证服务器 URL 和网络连通性
+settings.mcpMp.testConnection.errorNotFound	找不到服务器端点——验证服务器 URL
+settings.mcpMp.testConnection.errorPermission	权限被拒——查访问权和配置
+settings.mcpMp.testConnection.errorReview	查服务器日志和配置的详细错误信息
+settings.mcpMp.testConnection.errorTimeout	服务器响应太久——查服务器状态
+settings.mcpMp.testConnection.idleSubtitle	点「测工具」验证服务器设置并发现可用工具
+settings.mcpMp.testConnection.readyToTest	可测 MCP 服务器连接
+settings.mcpMp.testConnection.readyToTestGeneric	可测连接
+settings.mcpMp.testConnection.successSubtitle	服务器响应正常，工具发现成功
+settings.mcpMp.testConnection.testingSubtitle	连 MCP 服务器枚举可用工具并验证连接
+settings.mcpMp.testConnection.validationFailed	MCP 服务器验证失败
+settings.mcpMp.testConnection.validationSuccessful	MCP 服务器验证成功
+settings.mcpMp.toolList.description	描述
+settings.mcpMp.toolList.noParameters	此工具没参数
+settings.mcpMp.toolList.parameters	参数
+settings.mcpMp.toolList.required	必填
+settings.mcpMp.toolList.resource	资源
+settings.mcpMp.toolList.toolList	工具列表
+settings.mcpMp.toolList.toolsEnabled_one	{{count}} 个工具已开
+settings.mcpMp.toolList.toolsEnabled_other	{{count}} 个工具已开
+settings.mcpMp.toolList.uri	URI
+settings.mcpOAuthCredentialsSection	OAuth 凭据
+settings.mcpPickerCustomLoadError	加载自定义 MCP 服务器失败。
+settings.mcpPickerDisableServer	禁用 {{name}}
+settings.mcpPickerEnableServer	启用 {{name}}
+settings.mcpPickerEnabledCount	{{total}} 中 {{enabled}}
+settings.mcpPickerEnterpriseBadge	企业
+settings.mcpPickerFilterAll	全部
+settings.mcpPickerLoadingMarketplace	加载市场服务器中…
+settings.mcpPickerMarketplaceLoadError	加载市场服务器失败。
+settings.mcpPickerNoServersAvailable	市场没有可用 MCP 服务器。
+settings.mcpPickerNoServersMatch	没有服务器匹配「{{query}}」。
+settings.mcpPickerOfficialTooltip	官方 MCP
+settings.mcpPickerRemoveServer	移除 {{name}}
+settings.mcpPickerSearchPlaceholder	搜索 MCP 服务器…
+settings.mcpPickerSelectAll	全选已筛服务器
+settings.mcpPickerUnknownServer	未知服务器
+settings.mcpPickerUnknownServers	未知服务器
+settings.mcpRegistry	MCP registry
+settings.mcpRegistryUrls	MCP registry URL
+settings.mcpRegistryUrlsDescription	加提供已批 MCP 服务器列表的 registry URL。开启强制时，任何已配 registry 里的服务器都被允许
+settings.mcpSecretsMovedDescription	MCP 服务器的凭据现于各服务器自己页管。在这加或改的机密不再适用于 MCP 服务器。
+settings.mcpSecretsMovedTitle	MCP 机密移到各服务器页
+settings.mcpServerAddFailed	加 MCP 服务器失败
+settings.mcpServerAdded	MCP 服务器已加白名单
+settings.mcpServerAllowlistDescription	限团队成员能用哪些 MCP 服务器。
+settings.mcpServerConfigHelp	留空以插件商店默认配置白名单此服务器。用正则表达式允许一组自定义配置

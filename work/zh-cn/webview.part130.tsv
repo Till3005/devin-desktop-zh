@@ -1,0 +1,160 @@
+unified.pickBudget	挑个预算以发
+unified.searchEnvironmentsOrOutposts	搜环境和 outpost
+unified.selectEnvironment	选一个环境
+unified.selectEnvironmentOrOutpost	选一个环境或 outpost
+unified.slackChannelUnavailable	Slack 频道在我的工作区不可用。移除 Slack 频道以发。
+unified.switchScope	切范围
+unified.title	我的工作区
+unifiedAutomations.create	新自动化
+unifiedAutomations.environment	环境
+unifiedAutomations.environmentAndRunAs	{{environment}} · {{runAs}}
+unifiedAutomations.environmentDeleted	环境已删
+unifiedAutomations.environmentDeletedNotice	此自动化的环境已删，所以跑不了了。删它建个新的。
+unifiedAutomations.environmentDescription	会话跑在此环境。自动化建后改不了。
+unifiedAutomations.environmentPlaceholder	选一个环境
+unifiedAutomations.environmentRequired	选一个环境。
+unifiedAutomations.runsAsCreator	运行为其创建者
+unifiedAutomations.runsAsServiceUser	运行为服务用户
+unifiedAutomations.slackDirectMessages	私信（能见此环境的人）
+unifiedAutomations.slackTools	Slack
+unifiedAutomations.slackToolsDescription	此自动化的会话经你账户 Slack 工作区能读和发的 Slack 频道。私信只到能见此环境的人。
+unifiedAutomations.title	自动化
+unifiedOncall.access.canConfigure	可配置
+unifiedOncall.access.canConfigureDescription	能编此 Oncall 的响应器、事件、报告和设置
+unifiedOncall.access.canManage	可管理
+unifiedOncall.access.canManageDescription	能配此 Oncall 并管谁有访问权
+unifiedOncall.access.canView	可看
+unifiedOncall.access.canViewDescription	能见此 Oncall 的响应器、事件、报告和设置
+unifiedOncall.access.description	允许用户、组或服务用户访问 {{name}}。
+unifiedOncall.access.inheritedDescription	此访问是继承的，这改不了
+unifiedOncall.access.removeSelfError	你移除不了自己管此 Oncall 的访问
+unifiedOncall.access.removeServiceUserDescription	若响应器、事件或此 Oncall 的报告摘要以此服务用户跑，其会话会失去对它的访问。
+unifiedOncall.access.removeServiceUserTitle	移除 {{name}} 的访问？
+unifiedOncall.access.runsIncidents	此 Oncall 的事件会话以此服务用户跑。移除其访问前先在事件设置改身份。
+unifiedOncall.access.runsResponders	{{names, list(style: short)}} 的会话以此服务用户跑。移除其访问前先改响应器身份。
+unifiedOncall.access.searchPlaceholder	搜要加的用户、组或服务用户
+unifiedOncall.access.share	共享
+unifiedOncall.allOncalls	全部 Oncall
+unifiedOncall.cancel	取消
+unifiedOncall.changeEnvironment	换环境
+unifiedOncall.changeEnvironmentDescription	只在 Oncall 有响应器前可换。
+unifiedOncall.changeEnvironmentTitle	换环境
+unifiedOncall.create	新 Oncall
+unifiedOncall.delete	删除
+unifiedOncall.deleteDescription	其设置和事件设置会移除。先删其响应器和报告。
+unifiedOncall.deleteTitle	删 {{name}}？
+unifiedOncall.emptyDescription	建个 Oncall 在你某个环境上分诊告警、处理事件、写报告。
+unifiedOncall.emptyTitle	还没有 Oncall
+unifiedOncall.environment	环境
+unifiedOncall.environmentDeleted	环境已删
+unifiedOncall.environmentDescription	响应器、事件和报告在此环境跑其会话
+unifiedOncall.environmentPlaceholder	选一个环境
+unifiedOncall.environmentRequired	选一个环境
+unifiedOncall.loadError	加载不了 Oncall。
+unifiedOncall.name	名称
+unifiedOncall.namePlaceholder	支付值班
+unifiedOncall.nameRequired	名称为必填项
+unifiedOncall.rename	重命名
+unifiedOncall.renameTitle	重命名 Oncall
+unifiedOncall.save	保存
+unifiedOncall.saveError	存不了 Oncall。
+unifiedOncall.status.failed	设置失败
+unifiedOncall.status.initializing	设置中
+unifiedOncall.status.not_started	未设置
+unifiedOncall.status.ready	就绪
+unifiedOncall.subtitle	每个 Oncall 跑在自己环境，有自己的响应器、事件、报告和知识。
+unifiedPlugins.actions	{{name}} 的操作
+unifiedPlugins.add	加插件
+unifiedPlugins.canConfigure	可配置
+unifiedPlugins.canShare	可共享
+unifiedPlugins.canUse	可用
+unifiedPlugins.configureDescription	能重命名和删此插件。
+unifiedPlugins.configureVerb	配置
+unifiedPlugins.createdBy	创建者
+unifiedPlugins.deleteDescription	这为每个有访问的人删插件。
+unifiedPlugins.deleteTitle	删 {{name}}？
+unifiedPlugins.editContents	编内容
+unifiedPlugins.fromCreator	来自 {{name}}
+unifiedPlugins.fromCreatorInCollection	来自 {{name}} · {{collection}}
+unifiedPlugins.inherited	继承自账户访问
+unifiedPlugins.loadError	加载不了插件。
+unifiedPlugins.name	名称
+unifiedPlugins.nameRequired	名称为必填项
+unifiedPlugins.notIndexed	还没索引
+unifiedPlugins.remove	移除
+unifiedPlugins.removeSelfError	你移除不了自己访问。
+unifiedPlugins.rename	重命名
+unifiedPlugins.repositoryRequired	仓库为必填项
+unifiedPlugins.searchHooksDescription	Hook：会话中某些点自动跑的命令，来自 Unified 模式「你的插件」和「共享给你」
+unifiedPlugins.searchHooksLabel	hook
+unifiedPlugins.searchPeople	搜人和组
+unifiedPlugins.searchPluginsDescription	插件（技能、规则、MCP 服务器和 hook 的集合），从市场、仓库或上传装，来自 Unified 模式「你的插件」和「共享给你」
+unifiedPlugins.searchPluginsLabel	插件
+unifiedPlugins.searchRulesDescription	规则：Devin 每个会话都遵循的长期指引，来自 Unified 模式「你的插件」和「共享给你」
+unifiedPlugins.searchRulesLabel	规则
+unifiedPlugins.searchSkillsDescription	Devin 加载进云会话的技能（SKILL.md 指示），来自 Unified 模式「你的插件」和「共享给你」
+unifiedPlugins.searchSkillsLabel	技能
+unifiedPlugins.share	共享
+unifiedPlugins.shareDescription	能管此插件访问。
+unifiedPlugins.shareDescriptionName	管 {{name}} 的访问。
+unifiedPlugins.shareVerb	共享
+unifiedPlugins.shared	共享给你
+unifiedPlugins.subdirectory	子目录
+unifiedPlugins.useDescription	自动收并能用此插件，不可退。
+unifiedPlugins.useVerb	用
+unifiedPlugins.yours	你的插件
+unifiedRepositories.accessColumn	访问
+unifiedRepositories.accessList	{{levels, list(style: short)}}
+unifiedRepositories.accessibleDescription	你在 Devin 能访问的仓库。
+unifiedRepositories.available.addFailed	加不了项目。
+unifiedRepositories.available.addToDevin	加到 Devin
+unifiedRepositories.available.added	已把 {{name}} 加到 Devin。
+unifiedRepositories.available.addedGroup	已把组 {{group}} 加到 Devin。
+unifiedRepositories.available.adding	加中…
+unifiedRepositories.available.description	你用已链账户最近贡献过但还没连 Devin 的仓库。仓库没列就搜它。
+unifiedRepositories.available.hostColumn	主机
+unifiedRepositories.available.loadError	加载不了仓库。
+unifiedRepositories.available.lookupFailed	查不了全部主机。稍后再试。
+unifiedRepositories.available.noResultsHint	所查主机没匹配。贴仓库 URL 直接查。
+unifiedRepositories.available.notFound	{{host}} 上找不到 {{path}}
+unifiedRepositories.available.notFoundDescription	可能不存在，你没访问，或 Devin GitHub App 没装它。
+unifiedRepositories.available.notLinkedDescription	<connectionsLink>链你 GitLab 或 GitHub 账户</connectionsLink>看你能加的仓库。
+unifiedRepositories.available.notLinkedTitle	没链账户
+unifiedRepositories.available.recentOnlyHint	按名搜或贴 URL 找你任何能加的仓库。下面列：你最近贡献过的。
+unifiedRepositories.available.refresh	刷新
+unifiedRepositories.available.searchHint	输至少 3 字符或贴仓库 URL。
+unifiedRepositories.available.searchToAddHint	你能加的仓库不搜不列。输名或贴仓库 URL 查能否加。
+unifiedRepositories.available.searchToAddTitle	搜要加的仓库
+unifiedRepositories.available.searching	搜中…
+unifiedRepositories.available.unlinkedHosts	没查：{{unlinked, list(style: long)}}——<connectionsLink>链你账户</connectionsLink>含它。
+unifiedRepositories.configure	配置
+unifiedRepositories.configureBlueprint	配 blueprint
+unifiedRepositories.connectionColumn	连接
+unifiedRepositories.connectionKind.githubApp	GitHub App
+unifiedRepositories.connectionKind.oauth	OAuth 连接
+unifiedRepositories.connectionKind.perforce	Perforce
+unifiedRepositories.connectionKind.projectToken	GitLab 项目访问 token
+unifiedRepositories.connectionKind.token	访问 token
+unifiedRepositories.description	你在我的工作区能访问的仓库，和你在每个能做什么
+unifiedRepositories.emptyDescription	你还没任何仓库访问权。
+unifiedRepositories.emptyTitle	无仓库
+unifiedRepositories.inDevinTab	在 Devin 里
+unifiedRepositories.loadError	加载仓库失败。
+unifiedRepositories.nameColumn	名称
+unifiedRepositories.noSearchResults	没有结果匹配你搜索。
+unifiedRepositories.notInDevinTab	加仓库
+unifiedRepositories.pendingSync	待同步
+unifiedRepositories.pendingSyncCheckFailed	查不了全部主机还在同步的仓库。
+unifiedRepositories.read	读
+unifiedRepositories.repositoriesPager.page	第 {{page}} 页
+unifiedRepositories.repositoryActions	仓库操作
+unifiedRepositories.retry	重试
+unifiedRepositories.search	搜仓库
+unifiedRepositories.searchPlaceholder	搜仓库
+unifiedRepositories.statusAll	全部
+unifiedRepositories.statusFilterLabel	按状态筛
+unifiedRepositories.title	仓库
+unifiedRepositories.write	写
+unifiedResources.clearSearch	清搜索
+unifiedResources.collectionColumn	集合
+unifiedResources.macroColumn	宏

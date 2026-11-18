@@ -1,0 +1,280 @@
+secretsDialog.validationError_withLines_one	{{count}} 个条目有错（第 {{lines, list(type: unit)}} 行）——见下方预览。
+secretsDialog.validationError_withLines_other	{{count}} 个条目有错（第 {{lines, list(type: unit)}} 行）——见下方预览。
+secretsDialog.validationError_withoutLinesAndValidEntries_one	{{count}} 个条目有错——见下方预览。存其余有效机密时无效条目会被跳过。
+secretsDialog.validationError_withoutLinesAndValidEntries_other	{{count}} 个条目有错——见下方预览。存其余有效机密时无效条目会被跳过。
+secretsDialog.validationError_withoutLines_one	{{count}} 个条目有错——见下方预览。
+secretsDialog.validationError_withoutLines_other	{{count}} 个条目有错——见下方预览。
+securityCallout.cta	试 Devin Security
+securityCallout.description	用 Devin Security 2.0 找漏洞并发修复
+securityCallout.descriptionMythos	用 Devin Security 2.0 找漏洞并发修复，现由 <mythos>Claude Mythos</mythos> 驱动
+securityCallout.title	介绍 Devin Security <accent>2.0</accent>
+securityConfigure.alwaysOnRuleHelp	应用于组织里每次安全扫描。
+securityConfigure.alwaysOnRuleHelpEnterprise	应用于企业里每次安全扫描。
+securityConfigure.appliesTo	适用于
+securityConfigure.appliesToAll	全部仓库
+securityConfigure.appliesToModel	模型决定
+securityConfigure.appliesToSelectPlaceholder	选择仓库
+securityConfigure.appliesToSelected	所选仓库
+securityConfigure.appliesToSelectedHelp	应用于这些仓库的安全扫描。
+securityConfigure.createFailed	建不了插件
+securityConfigure.createProfile	建插件
+securityConfigure.empty	还没有安全插件
+securityConfigure.excludeGlobsPlaceholder	**/test/**, vendor/**
+securityConfigure.loadError	加载不了安全插件
+securityConfigure.nameTaken	已有同名插件
+securityConfigure.newProfile	新插件
+securityConfigure.newRule	新规则
+securityConfigure.newSkill	新技能
+securityConfigure.noSkills	还没有技能
+securityConfigure.profileName	名称
+securityConfigure.profilesDescription	扫描和修复运行时带的指令。只在安全会话加载。
+securityConfigure.profilesTitle	安全插件
+securityConfigure.ruleBodyPlaceholder	扫描或修复该遵循的指引，markdown。
+securityConfigure.ruleDescriptionPlaceholder	描述扫描何时该应用此规则
+securityConfigure.ruleNamePlaceholder	支付数据处理
+securityConfigure.scanPaths	扫描路径
+securityConfigure.scanPathsHelp	仓库里的目录，逗号分隔。
+securityConfigure.scanPathsPlaceholder	services/api, web
+securityConfigure.scopeGlobsHelp	文件模式，逗号分隔。
+securityConfigure.skillBodyPlaceholder	扫描或修复该走的步骤，markdown。
+securityConfigure.skillDescriptionPlaceholder	描述此技能查什么或修什么
+securityConfigure.skillNamePlaceholder	认证审查
+securityConfigure.skillPhase	用于
+securityConfigure.skillPhaseAny	任意
+securityConfigure.skillPhaseHelp	安全扫描里哪个选择器提供此技能。「任意」在全部列出。
+securityConfigure.skillPhaseIngest	导入
+securityConfigure.skillPhaseRemediation	修复
+securityConfigure.skillPhaseScan	扫描
+securityConfigure.skillPhaseValidation	验证
+securityConfigure.title	自定义
+securityConfigure.titleFor	为 <picker/> 自定义
+securityFindings.addSort	加排序
+securityFindings.addTag	加标签「{{label}}」
+securityFindings.addValue	加「{{label}}」
+securityFindings.anyField	任何字段
+securityFindings.ascending	升序
+securityFindings.chatWindow.close	关闭
+securityFindings.chatWindow.emptyBody	Devin 看得到你打开的发现项和你选的行。
+securityFindings.chatWindow.emptyTitle	问任何发现项
+securityFindings.chatWindow.expand	展开
+securityFindings.chatWindow.findingCount_one	{{formatted}} 个发现项
+securityFindings.chatWindow.findingCount_other	{{formatted}} 个发现项
+securityFindings.chatWindow.list	{{status}} 列表
+securityFindings.chatWindow.listCount_one	{{status}} · {{count}} 个发现项
+securityFindings.chatWindow.listCount_other	{{status}} · {{count}} 个发现项
+securityFindings.chatWindow.more	更多
+securityFindings.chatWindow.newChat	新对话
+securityFindings.chatWindow.openSession	打开完整会话
+securityFindings.chatWindow.placeholder	问你打开的内容…
+securityFindings.chatWindow.removeFinding	从上下文移除发现项
+securityFindings.chatWindow.restore	还原大小
+securityFindings.chatWindow.selected	已选 {{count}} 个
+securityFindings.chatWindow.title	与 Devin 对话
+securityFindings.chatWindow.windowTitle	Devin 对话
+securityFindings.chatWithDevin	与发现项对话
+securityFindings.columns	列
+securityFindings.component	组件
+securityFindings.created	创建时间
+securityFindings.deleteTag	删标签
+securityFindings.deleteTagConfirm	删标签
+securityFindings.deleteTagDescription	这会从你组织里每个发现项移除此标签。不可撤销。
+securityFindings.deleteTagFailed	删标签失败。请重试。
+securityFindings.deleteTagTitle	删「{{label}}」？
+securityFindings.descending	降序
+securityFindings.emptyDescription	跑扫描找漏洞、看影响、排修复优先级。你全部扫描的发现项会出现在这里。
+securityFindings.emptyOpenDescription	每个发现项都已审查或忽略。
+securityFindings.emptyTitle	知道该修什么
+securityFindings.filter	筛选
+securityFindings.filterAny	任意
+securityFindings.filterCount_one	{{count}} 个筛选
+securityFindings.filterCount_other	{{count}} 个筛选
+securityFindings.findingActions	发现项操作
+securityFindings.findingDetail	发现项详情
+securityFindings.hideColumn	隐藏列
+securityFindings.loadingTags	正在加载标签和属性…
+securityFindings.moreColumns	更多列
+securityFindings.noMatches	没有发现项匹配这些筛选
+securityFindings.noMatchesDescription	换筛选试试，或清掉看此标签页全部发现项。
+securityFindings.noMatchingOptions	没有匹配
+securityFindings.noRedTeamFindings	还没有红队发现项
+securityFindings.noRedTeamFindingsDescription	红队扫描确认后发现项显示在这里。
+securityFindings.noRepositories	未找到仓库
+securityFindings.noTags	未找到标签
+securityFindings.noThreats	未找到威胁
+securityFindings.prClosed	已关闭
+securityFindings.prMerged	已合并
+securityFindings.prNone	无 PR
+securityFindings.prOpen	打开
+securityFindings.prStateCount_one	{{count}} 个 PR 状态
+securityFindings.prStateCount_other	{{count}} 个 PR 状态
+securityFindings.redTeam	红队
+securityFindings.redTeamFinding	红队发现项
+securityFindings.remove	移除
+securityFindings.removeSort	移除排序
+securityFindings.repositoryCount_one	{{count}} 个仓库
+securityFindings.repositoryCount_other	{{count}} 个仓库
+securityFindings.reviewed	已审查
+securityFindings.searchFilters	搜索标签、威胁和属性
+securityFindings.searchFindings	搜索发现项
+securityFindings.searchPlaceholder	按标题或文件路径搜
+securityFindings.searchRepository	搜索仓库
+securityFindings.searchThreat	搜索威胁
+securityFindings.searchValues	搜索 {{name}}
+securityFindings.severityCount_one	{{count}} 个严重度
+securityFindings.severityCount_other	{{count}} 个严重度
+securityFindings.showColumn	显示列
+securityFindings.sortBy	排序
+securityFindings.sortByField	按 {{field}} 排
+securityFindings.sortCount_one	{{count}} 个排序
+securityFindings.sortCount_other	{{count}} 个排序
+securityFindings.sortCreatedOn	创建时间
+securityFindings.startNewScan	开新扫描
+securityFindings.statusCount_one	{{count}} 个状态
+securityFindings.statusCount_other	{{count}} 个状态
+securityFindings.tagsLoadError	加载不了标签和属性。
+securityFindings.threatValue	威胁：{{label}}
+securityOverview.dismissedFindings	已忽略发现项
+securityOverview.dismissedFindingsBySeverity	按严重度的已忽略发现项
+securityOverview.emptyDescription	开第一次扫描，看按严重度的发现项、跟踪修复、监控你仓库的安全趋势。
+securityOverview.emptyTitle	你的安全一览
+securityOverview.failedDescription_one	扫描没跑完就停了，所以还没有发现项。看哪里出错，再跑一次。
+securityOverview.failedDescription_other	{{count}} 次扫描没跑完就停了，所以还没有发现项。看哪里出错，再跑一次。
+securityOverview.failedTitle_one	你的扫描失败了
+securityOverview.failedTitle_other	你的扫描失败了
+securityOverview.failedToLoadPullRequests	加载拉取请求统计失败
+securityOverview.findingsBySeverity	按严重度的发现项
+securityOverview.findingsDonutLabel	发现项
+securityOverview.findingsOverTime	发现项随时间
+securityOverview.findingsSeriesCount	{{label}}：{{total}}
+securityOverview.legacyCalloutAction	去经典版
+securityOverview.legacyCalloutDescription	在「经典版」标签找之前的 Security 扫描体验。
+securityOverview.legacyCalloutTitle	Devin Security 已更新！
+securityOverview.newFindings	新发现项
+securityOverview.openFindingsByRepository	按仓库的打开发现项
+securityOverview.openFindingsBySeverity	按严重度的打开发现项
+securityOverview.otherRepositories	其它
+securityOverview.pendingDescription	Devin 在准备威胁模型。扫描开始后这里出现发现项。
+securityOverview.pendingTitle	你的第一次扫描正在设置
+securityOverview.resolvedFindings	已解决发现项
+securityOverview.retry	重试
+securityOverview.reviewedFindingsBySeverity	按严重度的已审查发现项
+securityOverview.runningDescription	Devin 在扫你的代码。发现项一找到就出现在这里。
+securityOverview.runningTitle	你的扫描在跑
+securityOverview.startScan	开扫描
+securityOverview.stoppedDescription	扫描会话在扫之前就停了，所以还没有发现项。打开看它需要什么，或开新扫描。
+securityOverview.stoppedTitle	你的扫描没启动
+securityOverview.totalPullRequests	拉取请求总数
+securityOverview.viewFailedScans_one	看失败扫描
+securityOverview.viewFailedScans_other	看失败扫描
+securityOverview.viewScan	看扫描
+securityOverview.viewScanSession	看扫描会话
+securityPrReview.colFinding	发现项
+securityPrReview.colFindings	发现项
+securityPrReview.colRepository	仓库
+securityPrReview.colReviewed	已分析
+securityPrReview.colTitle	标题
+securityPrReview.dismissedBy	由 {{name}} 忽略
+securityPrReview.emptyDescription	设置 Devin Review 查每个拉取请求的安全问题。你拉取请求的发现项会出现在这里。
+securityPrReview.emptyTitle	合并前抓住漏洞
+securityPrReview.filterState	状态
+securityPrReview.findingsEmptyDescription	已分析拉取请求的安全发现项会出现在这里，直到被修复或忽略。
+securityPrReview.findingsEmptyTitle	没有待处理发现项
+securityPrReview.fixAllOutstanding_one	修 {{count}} 个待处理发现项
+securityPrReview.fixAllOutstanding_other	修 {{count}} 个待处理发现项
+securityPrReview.fixFindingPrompt	修 Devin Review 在 {{url}} 报的安全发现项。\n\n{{title}}\n{{location}}\n\n{{description}}
+securityPrReview.fixPullRequestPrompt	修 Devin Review 在 {{url}} 报的待处理安全发现项：\n\n{{findings}}
+securityPrReview.fixedBy	由 {{name}} 修复
+securityPrReview.groupDismissed	已忽略
+securityPrReview.groupFixed	已修复
+securityPrReview.groupOtherOutstanding	仍待处理
+securityPrReview.groupOutstanding	待处理
+securityPrReview.noFindings	此拉取请求没有安全发现项
+securityPrReview.pullRequestNumber	#{{number}}
+securityPrReview.pullRequestTitle	{{repo}} #{{number}}
+securityPrReview.pullRequestsEmptyDescription	Devin Review 分析的拉取请求会出现在这里。
+securityPrReview.pullRequestsEmptyTitle	没有已分析拉取请求
+securityPrReview.setUpReview	设置安全审查
+securityPrReview.setupAllCovered	每个仓库都开了审查
+securityPrReview.setupCadence	后续推送
+securityPrReview.setupCadenceDescription	新提交推上时 Devin 是否再分析。
+securityPrReview.setupClearAll	全清
+securityPrReview.setupDescription	Devin Review 查你选的仓库里拉取请求的安全问题。
+securityPrReview.setupDone_one	{{count}} 个仓库已开审查
+securityPrReview.setupDone_other	{{count}} 个仓库已开审查
+securityPrReview.setupEffort	分析力度
+securityPrReview.setupEffortDescription	应用于每个所选仓库。
+securityPrReview.setupNoneCovered	还没有任何仓库开审查
+securityPrReview.setupRepositories	仓库
+securityPrReview.setupSelectAll	全选
+securityPrReview.setupSelected_one	{{total}} 中 {{count}} 个已选
+securityPrReview.setupSelected_other	{{total}} 中 {{count}} 个已选
+securityPrReview.setupStart	首次分析
+securityPrReview.setupStartDescription	Devin 何时首次分析拉取请求。
+securityPrReview.setupSubmit_one	给 {{count}} 个仓库开审查
+securityPrReview.setupSubmit_other	给 {{count}} 个仓库开审查
+securityPrReview.setupTabCovered	已覆盖
+securityPrReview.setupTabNotCovered	未覆盖
+securityPrReview.setupTitle	设置安全审查
+securityPrReview.stateClosed	已关闭
+securityPrReview.stateMerged	已合并
+securityPrReview.stateOpen	打开
+securityPrReview.tabFindings	发现项
+securityPrReview.tabPullRequests	拉取请求
+securityPrReview.truncated_one	显示最近的 1 个拉取请求
+securityPrReview.truncated_other	显示最近 {{count}} 个拉取请求
+securityPrReview.uncoveredCount_one	审查不覆盖 {{count}} 个仓库，含 {{names, list}}。设置安全审查把它加上。
+securityPrReview.uncoveredCount_other	审查不覆盖 {{count}} 个仓库，含 {{names, list}}。设置安全审查把它们加上。
+securityPrReview.uncoveredNamed_one	审查不覆盖 {{names, list}}。设置安全审查把它加上。
+securityPrReview.uncoveredNamed_other	审查不覆盖 {{names, list}}。设置安全审查把它们加上。
+securityPrReview.uncoveredSome	审查不覆盖部分仓库，含 {{names, list}}。设置安全审查把它们加上。
+securityPrReview.untitledFinding	未命名发现项
+securityPrReview.untitledPullRequest	拉取请求 #{{number}}
+securityPrReview.verdictDismissed_one	{{count}} 个已忽略
+securityPrReview.verdictDismissed_other	{{count}} 个已忽略
+securityPrReview.verdictFixed_one	{{count}} 个已修复
+securityPrReview.verdictFixed_other	{{count}} 个已修复
+securityPrReview.verdictNone	没有发现项
+securityPrReview.verdictOutstanding_one	{{count}} 个待处理
+securityPrReview.verdictOutstanding_other	{{count}} 个待处理
+securityPrReview.viewComment	看评论
+securityPrReview.viewInReview	在 Devin Review 看
+securityPrReview.viewPullRequest	看拉取请求
+securityRedTeaming.accessGraph.colDetails	详情
+securityRedTeaming.accessGraph.colEvidence	证据
+securityRedTeaming.accessGraph.colFrom	从
+securityRedTeaming.accessGraph.colLink	链接
+securityRedTeaming.accessGraph.colTo	到
+securityRedTeaming.accessGraph.detailAccess	访问：{{access}}
+securityRedTeaming.accessGraph.detailVia	经 {{via}}
+securityRedTeaming.accessGraph.edgeLabel	{{kinds, list}}
+securityRedTeaming.accessGraph.emptyFinished	此扫描没记录访问链路。
+securityRedTeaming.accessGraph.emptyRunning	扫描找到链路就显示在这里。
+securityRedTeaming.accessGraph.emptyTitle	还没记录访问
+securityRedTeaming.accessGraph.evidenceInferred	推断
+securityRedTeaming.accessGraph.evidenceVerified	已验证
+securityRedTeaming.accessGraph.fit	适配视图
+securityRedTeaming.accessGraph.groupMore_one	+{{formattedCount}} 更多
+securityRedTeaming.accessGraph.groupMore_other	+{{formattedCount}} 更多
+securityRedTeaming.accessGraph.legendInferred	推断：某处提过，没试过
+securityRedTeaming.accessGraph.legendNotTested	已发现，未批准测试
+securityRedTeaming.accessGraph.legendVerified	已验证：扫描做过这个，只读
+securityRedTeaming.accessGraph.linkConnectsTo	连到
+securityRedTeaming.accessGraph.linkHolds	持有
+securityRedTeaming.accessGraph.linkOther	关联到
+securityRedTeaming.accessGraph.linkReaches	到达
+securityRedTeaming.accessGraph.linkSignsIn	登录到
+securityRedTeaming.accessGraph.loadFailedTitle	加载不了访问图
+securityRedTeaming.accessGraph.nodeCredential	已存凭据
+securityRedTeaming.accessGraph.nodeExternal	外部平台
+securityRedTeaming.accessGraph.nodeFoothold	Outpost
+securityRedTeaming.accessGraph.nodeHost	主机
+securityRedTeaming.accessGraph.nodeIdentity	身份
+securityRedTeaming.accessGraph.nodeNetwork	网络
+securityRedTeaming.accessGraph.nodeOther	系统
+securityRedTeaming.accessGraph.nodeService	服务
+securityRedTeaming.accessGraph.notTested	未测试
+securityRedTeaming.accessGraph.showAll	显示每个系统
+securityRedTeaming.accessGraph.showFewer	显示更少
+securityRedTeaming.accessGraph.subtitle	此扫描的 Outpost 能到哪、哪些系统互连、哪些身份和已存凭据能进什么。机密值永不记录。
+securityRedTeaming.accessGraph.tableLabel	访问链路
+securityRedTeaming.accessGraph.title	访问图

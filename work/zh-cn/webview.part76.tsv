@@ -1,0 +1,260 @@
+settings.acuRequests	额外用量申请
+settings.acuRequestsDescription	批、拒并跟踪成员的额外用量申请
+settings.acuRequestsDescription_dollars	批、拒并跟踪成员的额外花费申请
+settings.acuRequestsPendingCount_one	{{count}} 个申请等批准
+settings.acuRequestsPendingCount_other	{{count}} 个申请等批准
+settings.acuRequestsSidebarLabel	额外用量申请
+settings.acuUsageColumn	用量
+settings.acusPerMergedPrColumn	ACU / 已合并 PR
+settings.acusPerPrMergedColumn	已合并 PR 成本
+settings.acusPerSessionColumn	ACU / 会话
+settings.adaptive	自适应
+settings.adaptiveAllowlistTip	自适应只用你模型白名单已允许的模型。
+settings.adaptiveDescription	为每个任务选对模型
+settings.add	添加
+settings.addACustomMcp	加自定义 MCP
+settings.addACustomMcpDescription	为你组织建自定义 MCP 服务器
+settings.addDevinReviewLinkInPr	在拉取请求描述里加 Devin Review 链接
+settings.addDevinReviewLinkInPrDescription	在拉取请求描述里含 Devin Review 链接
+settings.addGroupMapping	加映射
+settings.addGroupMappingError	加映射失败
+settings.addGroups.addButton	添加
+settings.addGroups.addFailed	加组失败
+settings.addGroups.addedSuccess	组添加成功
+settings.addGroups.adding	正在加组…
+settings.addGroups.addingButton	添加中…
+settings.addGroups.description	把 IdP 组加到企业并给特定账户级角色
+settings.addGroups.enterpriseRole	企业角色
+settings.addGroups.errorTitle	提交你的申请出错
+settings.addGroups.genericError	出错了
+settings.addGroups.idpGroups	IdP 组
+settings.addGroups.loading	加载中…
+settings.addGroups.noGroupsFound	找不到组。
+settings.addGroups.searchPlaceholder	搜索 IdP 组…
+settings.addGroups.selectAtLeastOneGroup	请至少选一个 IdP 组
+settings.addGroups.selectRole	选一个角色
+settings.addGroups.selectRoleError	角色为必填项
+settings.addGroups.title	加组
+settings.addMcpServer	加 MCP 服务器
+settings.addServer	加服务器
+settings.addTier	加档位
+settings.addTierMappingDescription	此组成员得所选档位，除非他们有直接派的档位。
+settings.adding	添加中…
+settings.additionalUsage	额外用量
+settings.additionalUsageDescription	配置自动提高用户上限。
+settings.adminEnforcedSetting	你管理员已对你企业全体成员强制此设置。
+settings.adminUsagePoliciesAccount	账户
+settings.adminUsagePoliciesAccountWide	账户级
+settings.adminUsagePoliciesDescription	查看和管理企业的预算、档位和限额申请
+settings.adminUsagePoliciesRequests	申请
+settings.adminUsagePoliciesScope	作用域
+settings.adminonlyKnowledgeSuggestions	仅管理员的知识建议
+settings.adminonlyKnowledgeSuggestionsDescription	把知识建议批准限给管理员
+settings.advanced	高级
+settings.advancedSettings	高级设置
+settings.agentCapabilities	Agent 能力
+settings.agentCapabilitiesDescription	选你组织里可用哪些 agent 能力
+settings.agentHooks	Agent hook
+settings.agentHooksDescription	在 Devin CLI 和 Cascade 跑自定义命令的 hook
+settings.agentHooksDialogDescription	配置团队强制的 hook，在 Devin CLI 和 Cascade 跑自定义 shell 命令
+settings.agentHooksSaveFailed	存 agent hook 失败
+settings.agentHooksSaved	Agent hook 已存
+settings.agentProfiles	Agent 配置
+settings.agentProfilesDescription	命名的会话设置：安全，以及会话能用哪些仓库、MCP 服务器、插件和机密
+settings.aiGateway	AI Gateway
+settings.aiGatewayAuthHeader	认证
+settings.aiGatewayAuthHeaderDescription	每个请求把你的 AI Gateway API key 当 bearer token 发。
+settings.aiGatewayBaseUrl	Base URL
+settings.aiGatewayBaseUrlDescription	在任何 OpenAI 兼容 SDK 或工具里当 base URL 用。
+settings.aiGatewayDashboardTitle	AI gateway 仪表盘
+settings.aiGatewayGetStartedDescription	经一个 OpenAI 兼容 API 从你自己的软件调 Cognition 托管模型。
+settings.aiGatewayGetStartedTab	上手
+settings.aiGatewayGetStartedTitle	AI Gateway 上手
+settings.aiGatewayLoadFailed	加载 AI gateway 仪表盘失败。
+settings.aiGatewayLoading	加载仪表盘中…
+settings.aiGatewayManageKeys	管理服务用户
+settings.aiGatewayManageTokens	管理个人访问令牌
+settings.aiGatewayMetricsTab	指标
+settings.aiGatewayModelIdColumn	模型 ID
+settings.aiGatewayModelsLoadFailed	加载 AI Gateway 模型失败。
+settings.aiGatewayNoModels	你账户还没有为 AI Gateway 启用的模型。
+settings.aiGatewayPermissions	AI Gateway 权限
+settings.aiGatewayReasoningEffortsColumn	推理力度
+settings.aiGatewayRequestFormat	请求格式
+settings.aiGatewayRequestFormatDescription	OpenAI Chat Completions 或 Responses 格式的 JSON 请求体。model 设为你可用模型里的一个模型 ID。
+settings.aiGatewayStepChooseModel	从你的可用模型里选
+settings.aiGatewayStepChooseModelDescription	你账户 GET /models 返回什么。model 设为一个模型 ID 或其变体；对有推理力度的模型，可选设 reasoning_effort。
+settings.aiGatewayStepCopyExample	复制示例请求
+settings.aiGatewayStepCopyExampleDescription	每个示例用你的第一个可用模型。
+settings.aiGatewayStepCopyExampleNoModelDescription	启用一个可用模型后把 <model-id> 换掉。
+settings.aiGatewayStepCreateKey	建或选一个 API key
+settings.aiGatewayStepCreateKeyDescription	在你企业建一个角色含「用 AI Gateway」权限的服务用户并用其 token。个人用的话，你自己的角色含同样权限时个人访问令牌也行。不支持组织级 API key。
+settings.aiGatewayUnavailable	此账户没有 AI gateway 仪表盘。
+settings.aiGatewayVariantsCollapse	显示模式
+settings.aiGatewayVariantsColumn	变体
+settings.aiGatewayVariantsExpand_one	显示 {{count}} 个变体
+settings.aiGatewayVariantsExpand_other	显示全部 {{count}} 个变体
+settings.allMemberTypes	全部成员
+settings.allOrganizations	全部组织
+settings.allRequestsView	全部申请
+settings.allResources	全部资源
+settings.allSources	全部来源
+settings.allStatuses	全部状态
+settings.allTiers	全部档位
+settings.allocation	分配
+settings.allocationDescription	定义此档位的月度用量分配
+settings.allowAllModels	允许全部模型
+settings.allowCognitionDebugging	允许 Cognition 调试
+settings.allowCognitionDebuggingDescription	开启后，Cognition 工程师能用 hypervisor 调试接口。
+settings.allowCommandPlaceholder	如：npm install
+settings.allowDevinApps	允许 Devin App
+settings.allowDevinAppsDescription	App 是 Devin 在自己机器上建和托管的内部 web app。只有你组织或企业的登录成员能开；没有公开的。App 带建它的 Devin 会话的仓库和机密跑，该会话在访问间隔休眠。
+settings.allowDevinPrMerge	允许 Devin 合并拉取请求
+settings.allowDevinPrMergeDescription	开启后，Devin 会话被要求时合并它或其子会话开的拉取请求。你 Git 提供商的分支保护规则仍适用。
+settings.allowDevinPrMergeUpdateFailed	更新设置失败。请重试。
+settings.allowDomainPlaceholder	如：example.com
+settings.allowLegacyMcps	显示旧版 MCP 市场
+settings.allowLegacyMcpsDescription	向此账户每个组织和成员提供旧版 MCP 市场的 MCP。
+settings.allowMcp	允许 MCP
+settings.allowMcpProxy	在本地产品允许某些 MCP
+settings.allowMcpProxyDescription	一开此就让 MCP 在 Devin Desktop 和 CLI 可用。管理员能关单个 MCP。
+settings.allowModelProviderDataRetention	允许模型商安全数据保留
+settings.allowModelProviderDataRetentionDescription	允许模型商为自动危害检测存数据至多 30 天。数据不用于模型训练或改进。
+settings.allowModelProviderDataRetentionDisabledDescription	关此设置会禁掉全部到 Fable 系模型的路由。
+settings.allowParticipantPrAuthor	允许会话参与者开 PR
+settings.allowParticipantPrAuthorDescription	开启后，Devin 能以会话里贡献过的人身份开 PR。
+settings.allowParticipantPrAuthorUpdateFailed	更新设置失败。请重试。
+settings.allowSharedPluginUploads	允许上传的组织和企插件
+settings.allowSharedPluginUploadsDescription	让管理员和 Devin 直接建和编组织及企业插件。关时这些插件只能从仓库加。个人插件不受影响。
+settings.allowWebSearchTool	允许网页搜索工具
+settings.allowWebSearchToolDescription	让 Devin 搜网页变得更聪明。
+settings.allowedBots	允许的 bot
+settings.allowedBotsDescription	选哪些 Linear bot 能开 Devin 会话
+settings.allowedDomains	允许的域名
+settings.allowedModelsDescription	用 Cascade、Devin Local、Command 和 Devin CLI 的成员可用
+settings.allowlist	白名单
+settings.allowlistDescription	默认允许全部 MCP 服务器
+settings.allowlistForCommand	用于 Command
+settings.allowlistForDevinLocal	用于 Devin Local
+settings.allowlistedModels	白名单模型
+settings.amountRequestedColumn	申请上限
+settings.analytics	分析
+settings.analyticsAndCompliance	分析与合规
+settings.analyticsAndComplianceDescription	用量跟踪和代码归属
+settings.analyticsHideUserData	隐藏单用户数据
+settings.analyticsHideUserDataDescription	从分析隐藏用户表、用户分解、成员列表和用户及会话导出；聚合保留。
+settings.anthropicApiKey	Anthropic API key
+settings.anthropicApiKeyDescription	你的 Anthropic API key 将驱动 Claude 模型。你可在 Anthropic 控制台管 key。
+settings.anthropicApiKeyPlaceholder	sk-ant-…
+settings.anthropicApiKeyRemoved	Anthropic API key 已移除
+settings.anthropicApiKeyRowDescription	你的 Anthropic API key 将驱动 Devin Desktop 里的 Claude 模型。你可在 <consoleLink>Anthropic 控制台</consoleLink>管 key。
+settings.anthropicApiKeySaved	Anthropic API key 已存
+settings.anthropicCyberRetentionDescription	解锁需要数据保留做信任与安全验证的额外 Anthropic 模型，如 Claude Fable 5。<br /><br />Anthropic 存此数据至多 30 天且不用于模型训练或改进。此设置只适用于 Anthropic 模型。<learnMoreLink>了解更多</learnMoreLink>
+settings.apiKey	API key
+settings.apiKeyDescription	查看或重新生成你的 API key
+settings.apiKeyGenerateFailed	生成 API key 失败
+settings.apiKeyNoOrgOrUserId	找不到组织 ID 或用户 ID
+settings.apiKeyPolicies	API key 策略
+settings.apiKeyPoliciesDescription	控制企业里个人访问令牌和服务用户 key 怎么用
+settings.apiKeyRegenerateFailed	重新生成 API key 失败
+settings.apiKeyRemoveFailed	移除 key 失败
+settings.apiKeyRetrieveFailed	取 API key 失败
+settings.apiKeySaveFailed	存 key 失败
+settings.apiKeys	API key
+settings.apiKeysPersonalDescription	绑你账户——别分享
+settings.apiKeysServiceDescription	你组织服务集成共用的 key
+settings.apiKeysSidebarLabel	API Key
+settings.apiTabTitle	API
+settings.appearance	外观
+settings.appliedAcpRegistry	ACP registry
+settings.appliedCascadeHooks	Cascade hook
+settings.appliedCascadeRestricted	Cascade 受限
+settings.appliedCliPermissions	Devin CLI 权限
+settings.appliedCliPluginsDisabled	Devin CLI 插件已禁
+settings.appliedCodemapsDisabled	代码地图已禁
+settings.appliedDeepwikiDisabled	DeepWiki 已禁
+settings.appliedDefaultModel	默认模型
+settings.appliedDefaultSubagentModel	默认子 agent 模型
+settings.appliedEnterpriseOnlySettingsLabel	以下企业专属设置当前应用在你账户
+settings.appliedExtensionPolicy	扩展策略
+settings.appliedFastContextDisabled	Fast Context 已禁
+settings.appliedMarketplaceGalleryUrl	扩展市场 URL
+settings.appliedMcpRegistryEnforcement	MCP registry 强制
+settings.appliedMcpRegistryUrls	MCP registry URL
+settings.appliedMcpServerAllowlist	MCP 服务器白名单
+settings.appliedModelAllowlist	模型白名单
+settings.appliedOtelCollectors	OpenTelemetry collector
+settings.appliedSandboxDomains	沙箱网络域
+settings.appliedSandboxEnforcement	沙箱强制
+settings.appliedSandboxExcludedCommands	沙箱排除命令
+settings.appliedTerminalCommandLists	终端命令允许/拒绝列表
+settings.appliedWorkspaceRestriction	工具调用限在工作区
+settings.approvalPolicy	批准策略
+settings.approvalPolicyConditional	按效率批准
+settings.approvalPolicyConditionalDescription	自动给效率健康或满意的成员提限，到最大分配为止。
+settings.approvalPolicyDescription	额外用量申请怎么批
+settings.approvalPolicyManual	手动批准
+settings.approvalPolicyManualDescription	管理员审每个额外用量申请。
+settings.approvalPolicyUnconditional	总是批准
+settings.approvalPolicyUnconditionalDescription	自动批成员申请到最大分配为止。
+settings.approvalPolicyUnconditionalRequestsDisabledWarning	新原生用量申请已禁，因为你企业的<settingsLink>上限警告操作</settingsLink>设为 <actionName>{{action}}</actionName>。此策略只适用于已在等的申请。
+settings.approveRequest	批准
+settings.approveRequests_one	批准 {{count}} 个申请
+settings.approveRequests_other	批准 {{count}} 个申请
+settings.approvingRequest	正在批准申请…
+settings.arenaMode	Arena 模式
+settings.arenaModeDescription	让成员并排比较多模型的回答
+settings.arguments	参数
+settings.argumentsDescription	传给服务器进程的命令行参数
+settings.assignCurrentTierLabel	当前档位
+settings.assignMember	指派成员
+settings.assignMembersDeselect	取消选 {{name}}
+settings.assignMembersPartialErrorWithReason_one	指派 {{count}} 个成员失败：{{reason}}
+settings.assignMembersPartialErrorWithReason_other	指派 {{count}} 个成员失败：{{reason}}
+settings.assignMembersPartialError_one	指派 {{count}} 个成员失败
+settings.assignMembersPartialError_other	指派 {{count}} 个成员失败
+settings.assignMembersSelected_one	已选 {{count}} 个
+settings.assignMembersSelected_other	已选 {{count}} 个
+settings.assignMembersSubmit_one	指派 {{count}} 个成员
+settings.assignMembersSubmit_other	指派 {{count}} 个成员
+settings.assignMembersSuccess_one	{{count}} 个成员已派到档位
+settings.assignMembersSuccess_other	{{count}} 个成员已派到档位
+settings.atRiskTierUpdated	档位已更新
+settings.atlassian	Atlassian
+settings.atlassianAccountInUse	此 Atlassian 账户已链到另一个 Devin 用户。
+settings.atlassianDescription	让 Devin 以你身份读 Jira 并把你在 Jira 的操作匹配到你的 Devin 用户
+settings.atlassianDisconnectError	断开 Atlassian 失败
+settings.atlassianEmailUnverified	链到 Devin 前先验证你的 Atlassian 账户邮箱。
+settings.atlassianJiraSiteAccess	你的 Atlassian 账户进不了此 Jira 站点。
+settings.atlassianLinkBusy	你的 Atlassian 关联在更新中。稍后再试。
+settings.attribution	归属
+settings.attributionDescription	代码建议的归属跟踪
+settings.authentication	认证
+settings.authenticationAutomatic	自动
+settings.authenticationAutomaticDescription	从服务器检测
+settings.authenticationDescription	Devin 怎么向此服务器认证
+settings.authenticationSidebarLabel	认证
+settings.authorizationHeader	Authorization 头
+settings.authorizationHeaderDescription	每个请求带的头键和值
+settings.autoExecutedLabel	自动执行
+settings.autoExecutionAllowlistOnly	仅白名单
+settings.autoExecutionBypass	绕过（全部命令）
+settings.autoExecutionLevelUpdateFailed	更新自动执行级别失败
+settings.autoExecutionLevelUpdated	自动执行级别已更新
+settings.autoExecutionNoAutoApprovals	无自动批准
+settings.autoExecutionSmart	智能（AI 定）
+settings.autoFixFindings	自动修审查发现项
+settings.autoReviewBlockerAcuLimit	自动分析已暂停，因为计费组织到了 ACU 上限。
+settings.autoReviewBlockerSpendLimit	自动分析已暂停，因为到了花费上限。
+settings.autoReviewLimits	自动分析上限
+settings.autoReviewLimitsDescription	限 Devin Review 在自动分析上的花费
+settings.autoaddReviewer	自动加审查者
+settings.autoaddReviewerDescription	把会话创建者加为 Devin 的 PR 的审查者
+settings.autoapproveChildSessions	自动批准子会话
+settings.autoapproveChildSessionsDescription	Devin 不再先问就启动子会话
+settings.autoapproveManageTools	自动批准代你的操作
+settings.autoapproveManageToolsDescription	你拥有的会话在你要求或预批、或操作无关紧要时，可先斩后奏建、编、删自动化、知识、playbook、计划任务、MCP 服务器、个人插件和技能等你本就有权管理的资源。其它情况 Devin 仍要问批准
+settings.autoapproveWorkflows	自动批准工作流
+settings.autoapproveWorkflowsDescription	Devin 不再先问就跑工作流
+settings.autobuildSnapshots	自动建快照
+settings.autobuildSnapshotsDescription	控制是否自动建新快照

@@ -1,0 +1,160 @@
+settingsPages.playbookEditorPage.aShortcutUsedInPromptsTo	提示词里快跑 playbook 的快捷键（如 !test）
+settingsPages.playbookEditorPage.active	活跃
+settingsPages.playbookEditorPage.author	作者
+settingsPages.playbookEditorPage.checkingMacroAvailability	查宏可用性中
+settingsPages.playbookEditorPage.communityAccess	社区访问
+settingsPages.playbookEditorPage.continueEditing	继续编辑
+settingsPages.playbookEditorPage.copyMacro	复制宏
+settingsPages.playbookEditorPage.createdAt	建于
+settingsPages.playbookEditorPage.createdBy	创建者
+settingsPages.playbookEditorPage.date	日期
+settingsPages.playbookEditorPage.delete	删除
+settingsPages.playbookEditorPage.deleteConfirmation	确定删「{{title}}」？此操作不可撤销
+settingsPages.playbookEditorPage.deletePlaybook	删 playbook
+settingsPages.playbookEditorPage.details	详情
+settingsPages.playbookEditorPage.devinSession	Devin 会话
+settingsPages.playbookEditorPage.discardChanges	丢弃更改
+settingsPages.playbookEditorPage.discardUnsavedChanges	丢弃未保存更改？
+settingsPages.playbookEditorPage.duplicate	复制
+settingsPages.playbookEditorPage.edit	编辑
+settingsPages.playbookEditorPage.enterNamePlaybook	给你的 playbook 输个名
+settingsPages.playbookEditorPage.examples	示例
+settingsPages.playbookEditorPage.improveWithDevin	用 Devin 改进
+settingsPages.playbookEditorPage.lastUpdatedOn	最近更新于
+settingsPages.playbookEditorPage.loadingVersions	加载版本中…
+settingsPages.playbookEditorPage.macro	宏
+settingsPages.playbookEditorPage.macroIsAvailable	宏可用
+settingsPages.playbookEditorPage.macroIsInvalid	宏无效
+settingsPages.playbookEditorPage.manual	手动
+settingsPages.playbookEditorPage.mergedPRs	已合并 PR
+settingsPages.playbookEditorPage.mergedPrCount_one	{{formattedCount}} 个已合并 PR
+settingsPages.playbookEditorPage.mergedPrCount_other	{{formattedCount}} 个已合并 PR
+settingsPages.playbookEditorPage.mergedPrs	已合并 PR
+settingsPages.playbookEditorPage.name	名称
+settingsPages.playbookEditorPage.noActivityDataAvailable	没有可用活动数据
+settingsPages.playbookEditorPage.noVersionHistoryAvailable	没有可用版本历史
+settingsPages.playbookEditorPage.noVersionsYet	还没有版本
+settingsPages.playbookEditorPage.numberOfDistinctUsersWhoHave	用过此 playbook 的不同用户数
+settingsPages.playbookEditorPage.numberOfPullRequestsMergedFrom	用此 playbook 的会话合并的拉取请求数
+settingsPages.playbookEditorPage.pastSessions	过去会话
+settingsPages.playbookEditorPage.playbookEditHistory	Playbook 编辑历史
+settingsPages.playbookEditorPage.promote	提升
+settingsPages.playbookEditorPage.promoteThisPlaybookToEnterpriseLevel	提升此 playbook 到企业级？它将对你企业全部组织可见
+settingsPages.playbookEditorPage.promoteToEnterprise	提升到企业
+settingsPages.playbookEditorPage.publishThisPlaybookForAllAccounts	发布此 playbook 供全部账户访问
+settingsPages.playbookEditorPage.save	保存
+settingsPages.playbookEditorPage.sessionCount_one	{{formattedCount}} 个会话
+settingsPages.playbookEditorPage.sessionCount_other	{{formattedCount}} 个会话
+settingsPages.playbookEditorPage.sessions	会话
+settingsPages.playbookEditorPage.source	来源
+settingsPages.playbookEditorPage.status	状态
+settingsPages.playbookEditorPage.thisPlaybookContainsNoExamples	此 playbook 无示例
+settingsPages.playbookEditorPage.title	标题
+settingsPages.playbookEditorPage.totalNumberOfSessionsUsingThis	用此 playbook 的会话总数
+settingsPages.playbookEditorPage.uniqueUsers	独立用户
+settingsPages.playbookEditorPage.untitled	未命名
+settingsPages.playbookEditorPage.untitledPlaybook	未命名 playbook
+settingsPages.playbookEditorPage.userCount_one	{{formattedCount}} 个用户
+settingsPages.playbookEditorPage.userCount_other	{{formattedCount}} 个用户
+settingsPages.playbookEditorPage.users	用户
+settingsPages.playbookEditorPage.versionHistory	版本历史
+settingsPages.playbookEditorPage.via	经
+settingsPages.playbookEditorPage.viaApi	经 API
+settingsPages.playbookEditorPage.viewSession	看会话
+settingsPages.playbookEditorPage.viewSessions	看会话
+settingsPages.playbookEditorPage.weekOf	{{dateLabel}} 一周
+settingsPages.playbookEditorPage.weeklyActivity	每周活动
+settingsPages.playbookPage.playbookNotFound	找不到 playbook
+settingsPages.playbooksPage.createPlaybook	建 playbook
+settingsPages.playbooksPage.createPlaybookGetStarted	建个 playbook 开始
+settingsPages.playbooksPage.createdBy	创建者
+settingsPages.playbooksPage.enterpriseTab	企业
+settingsPages.playbooksPage.lastUpdated	最近更新
+settingsPages.playbooksPage.loadFailedDescription	Playbook 列表没载上。稍后再试。
+settingsPages.playbooksPage.loadFailedTitle	加载不了 playbook
+settingsPages.playbooksPage.lookingForEnterprisePlaybooks	在找企业 playbook？
+settingsPages.playbooksPage.macro	宏
+settingsPages.playbooksPage.name	名称
+settingsPages.playbooksPage.noPlaybooksMatchSearch	没有 playbook 匹配你搜索
+settingsPages.playbooksPage.noPlaybooksYet	还没有 playbook
+settingsPages.playbooksPage.organizationTab	组织
+settingsPages.playbooksPage.reusableSystemPromptsThatCustomizeHow	定制 Devin 工作方式的可复用系统提示词。看我们<docsLink>文档</docsLink>了解。
+settingsPages.playbooksPage.searchPlaybooks	搜 playbook…
+settingsPages.playbooksPage.system	系统
+settingsPages.playbooksPage.tryDifferentSearchTerm	换个搜索词试试
+settingsPages.pluginContents.hookCount_one	{{count}} 个 hook
+settingsPages.pluginContents.hookCount_other	{{count}} 个 hook
+settingsPages.pluginContents.hookSingular	hook
+settingsPages.pluginContents.hooks	Hook
+settingsPages.pluginContents.mCPs	MCP
+settingsPages.pluginContents.mcpCount_one	{{count}} 个 MCP
+settingsPages.pluginContents.mcpCount_other	{{count}} 个 MCP
+settingsPages.pluginContents.mcpSingular	MCP
+settingsPages.pluginContents.ruleCount_one	{{count}} 条规则
+settingsPages.pluginContents.ruleCount_other	{{count}} 条规则
+settingsPages.pluginContents.ruleSingular	规则
+settingsPages.pluginContents.rules	规则
+settingsPages.pluginContents.skillCount_one	{{count}} 个技能
+settingsPages.pluginContents.skillCount_other	{{count}} 个技能
+settingsPages.pluginContents.skillSingular	技能
+settingsPages.pluginContents.skills	技能
+settingsPages.pluginContents.subagentCount_one	{{count}} 个子 agent
+settingsPages.pluginContents.subagentCount_other	{{count}} 个子 agent
+settingsPages.pluginContents.subagentSingular	子 agent
+settingsPages.pluginContents.subagents	子 agent
+settingsPages.pluginDetailsSheet.appliesTo	应用于：{{value}}
+settingsPages.pluginDetailsSheet.effects	效果：{{value}}
+settingsPages.pluginDetailsSheet.noEvents	无事件
+settingsPages.pluginDetailsSheet.source	来源
+settingsPages.pluginManifestEditor.failedToSaveManifest	存 manifest 失败
+settingsPages.pluginManifestEditor.fixTheErrorsBeforeSaving	保存前先修错误
+settingsPages.pluginManifestEditor.invalidJSON	无效 JSON
+settingsPages.pluginManifestEditor.invalidJSONMessage	无效 JSON：{{message}}
+settingsPages.pluginManifestEditor.json	{{title}} JSON
+settingsPages.pluginManifestEditor.manifestSaved	Manifest 已存
+settingsPages.postingLevels.bugs	Bug
+settingsPages.postingLevels.flagsInvestigate	标记（待查）
+settingsPages.postingLevels.flagsNote	标记（注意）
+settingsPages.postingLevels.informationalObservationsMayNotRequireAction	可能不需处理的信息性观察
+settingsPages.postingLevels.levelsList	{{levels, list}}
+settingsPages.postingLevels.likelyErrorsIncorrectBehaviorCode	代码里可能的错误或不正确行为
+settingsPages.postingLevels.none	无
+settingsPages.postingLevels.potentialIssuesWorthCloserLookBefore	合并前值得细看的潜在问题
+settingsPages.postingLevels.security	安全
+settingsPages.postingLevels.vulnerabilitiesSecurityHardeningSuggestions	漏洞和安全加固建议
+settingsPages.repoIndexingDetailPage.addBranch	加分支
+settingsPages.repoIndexingDetailPage.allBranchesRemoved	全部分支已移除
+settingsPages.repoIndexingDetailPage.autoRefreshFrequency	自动刷新频率
+settingsPages.repoIndexingDetailPage.balancesSpeedAndQuality	平衡速度与质量（{{lo}}）
+settingsPages.repoIndexingDetailPage.branchesIndexedForWikiGenerationAnd	索引用于 wiki 生成和代码搜索的分支
+settingsPages.repoIndexingDetailPage.cannotRemoveTheOnlyIndexedBranch	移除不了唯一索引分支
+settingsPages.repoIndexingDetailPage.consumesAcus	这会耗 ACU，需 10–30 分钟。
+settingsPages.repoIndexingDetailPage.consumesAcusCost	这会耗 ACU（{{cost}}），需 10–30 分钟。
+settingsPages.repoIndexingDetailPage.daily	每天
+settingsPages.repoIndexingDetailPage.deepwiki	DeepWiki
+settingsPages.repoIndexingDetailPage.defaultBranch	默认分支
+settingsPages.repoIndexingDetailPage.failedReIndexBranch	重索引分支失败
+settingsPages.repoIndexingDetailPage.failedToIndexBranch	索引分支失败
+settingsPages.repoIndexingDetailPage.failedToReIndexBranches	重索引分支失败
+settingsPages.repoIndexingDetailPage.failedToRemoveBranch	移除分支失败
+settingsPages.repoIndexingDetailPage.failedToRemoveBranches	移除分支失败
+settingsPages.repoIndexingDetailPage.fastAndLightweightFree	快而轻（免费）
+settingsPages.repoIndexingDetailPage.high	高
+settingsPages.repoIndexingDetailPage.higherEffortGeneratesMoreDetailedWikis	更高努力生成更详 wiki
+settingsPages.repoIndexingDetailPage.howOftenTheWikiIsRegenerated	wiki 多久重生成以反映代码更改
+settingsPages.repoIndexingDetailPage.indexing	索引
+settingsPages.repoIndexingDetailPage.indexing2	索引中…
+settingsPages.repoIndexingDetailPage.indexingBranch	索引分支「{{value}}」中
+settingsPages.repoIndexingDetailPage.indexingRepoDisplayName	索引中——{{repoDisplayName}}
+settingsPages.repoIndexingDetailPage.level	级别：{{level}}
+settingsPages.repoIndexingDetailPage.loadingBranches	加载分支中…
+settingsPages.repoIndexingDetailPage.loadingMore	加载更多中…
+settingsPages.repoIndexingDetailPage.low	低
+settingsPages.repoIndexingDetailPage.max	最大
+settingsPages.repoIndexingDetailPage.medium	中
+settingsPages.repoIndexingDetailPage.monthly	每月
+settingsPages.repoIndexingDetailPage.moreDetailedHigherQualityWiki	更详、更高质 wiki（{{lo}}）
+settingsPages.repoIndexingDetailPage.never	从不
+settingsPages.repoIndexingDetailPage.noBranchesFound	找不到分支
+settingsPages.repoIndexingDetailPage.noBranchesIndexed	没索引分支
+settingsPages.repoIndexingDetailPage.organizationDefault	组织默认（{{value}}）

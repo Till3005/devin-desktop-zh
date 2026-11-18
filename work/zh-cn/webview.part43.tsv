@@ -1,0 +1,340 @@
+inbox.change.kind.network_access_request	网络访问
+inbox.change.kind.permission_request	权限申请
+inbox.change.kind.skill_pr_suggestion	技能更改
+inbox.change.localBypassBlocked	修复以下问题后才能绕过：
+inbox.change.openChange	查看更改
+inbox.change.openPr	打开 PR
+inbox.change.reason	原因
+inbox.change.reject	拒绝
+inbox.change.repo	仓库
+inbox.change.reviewOnSession	在会话中审查并应用
+inbox.change.settled	已在会话中答复
+inbox.change.slackCreateChannel	创建此公开 Slack 频道
+inbox.change.slackInviteToChannel	把这些成员加到此公开 Slack 频道
+inbox.change.slackJoinChannel	以 {{botName}} 的 Slack App 身份加入此频道
+inbox.change.slackLeaveChannel	离开此公开 Slack 频道
+inbox.change.summary	摘要
+inbox.change.title	标题
+inbox.change.unread	无法从会话读取申请；请在会话中审查
+inbox.change.unshared	在一个未共享给你的会话上待处理
+inbox.clearReference	移除条目引用
+inbox.collapseInbox	折叠收件箱
+inbox.context.pr	PR {{number}}
+inbox.dismiss	忽略
+inbox.dismissed	已忽略
+inbox.doc.lines_one	{{count}} 行
+inbox.doc.lines_other	{{count}} 行
+inbox.doc.pages_one	{{count}} 页
+inbox.doc.pages_other	{{count}} 页
+inbox.done	完成
+inbox.expandInbox	展开收件箱
+inbox.filterByType	按类型筛选
+inbox.from	来自
+inbox.gotIt	知道了
+inbox.hint.collapse	点击折叠
+inbox.hint.expand	点击展开
+inbox.hint.focus	点击聚焦
+inbox.hint.unfocus	点击取消聚焦
+inbox.holdFailed	无法更新此条目的稍后状态。请重试。
+inbox.holdPeekShortcut	按住 <keycap></keycap>
+inbox.itemPosition	{{index}}/{{count}}
+inbox.lastEngaged	最近处理于 {{when}}
+inbox.localConnect.connect	连接
+inbox.localConnect.copyCommand	复制命令
+inbox.localConnect.expired	配对码已过期。
+inbox.localConnect.expiresAt	配对码 {{expiresAt}} 过期。
+inbox.localConnect.retry	重试
+inbox.localConnect.runCommand	在你的机器上运行 `{{command}}` 以连接。
+inbox.markActive	标为活跃
+inbox.markDone	标为完成
+inbox.markHandled	标为已处理
+inbox.markedDone	已标为完成
+inbox.moreActions	更多操作
+inbox.needsYouCount_one	{{count}} 个需要你
+inbox.needsYouCount_other	{{count}} 个需要你
+inbox.networkAccessGranted	已为 {{hosts}} 授予网络访问
+inbox.networkAccessHost	批准即允许此 {{botName}} 访问 {{host}}
+inbox.networkAccessHost_named	批准即允许 {{botName}} 访问 {{host}}
+inbox.nextItem	下一条
+inbox.nothingOnHold	没有稍后项
+inbox.onHold	稍后
+inbox.onHoldCount_one	{{count}} 个稍后
+inbox.onHoldCount_other	{{count}} 个稍后
+inbox.open	打开
+inbox.openInbox	需要你
+inbox.openPr	打开 PR
+inbox.otherOption	其他
+inbox.pr.ciStatus.failure	检查失败
+inbox.pr.ciStatus.pending	检查运行中
+inbox.pr.ciStatus.success	检查通过
+inbox.pr.draft	草稿
+inbox.pr.linkLabel	拉取请求 #{{number}}
+inbox.pr.linkLabelWithTitle	拉取请求 #{{number}}，{{title}}
+inbox.pr.open	打开
+inbox.pr.recording	查看录屏
+inbox.pr.recordingN	录屏 {{index}}
+inbox.pr.recordings_one	{{count}} 个录屏
+inbox.pr.recordings_other	{{count}} 个录屏
+inbox.pr.state.closed	已关闭
+inbox.pr.state.merged	已合并
+inbox.previousItem	上一条
+inbox.recommendedLabel	推荐
+inbox.renameFailed	无法重命名此条目。请重试。
+inbox.renameTitle	重命名条目
+inbox.replyingTo	回复 {{title}}
+inbox.resolveFailed	无法更新此条目。请重试。
+inbox.resolveRefused	无法更新此条目
+inbox.snooze	稍后
+inbox.snoozeBringBack	取消稍后
+inbox.snoozeConfirm	稍后
+inbox.snoozeCustom	选择日期时间…
+inbox.snoozeDate	日期时间
+inbox.snoozeDateInvalid	请选择一年内的日期时间
+inbox.snoozeDescription	此条目保持稍后状态，直到稍后结束后 {{botName}} 再次检查。
+inbox.snoozeFailed	无法稍后此条目。请重试。
+inbox.snoozeHour	一小时后
+inbox.snoozeIndefinitely	无限期
+inbox.snoozeNextWeek	下周一上午 9 点
+inbox.snoozeTimezone	时间为 {{timezone}} 时区
+inbox.snoozeTomorrow	明天上午 9 点
+inbox.snoozeUntil	稍后至
+inbox.snoozedFor	已稍后 {{duration}}
+inbox.snoozedIndefinitely	已无限期稍后
+inbox.snoozedUntil	已稍后至 {{time}}
+inbox.tickets.label	已关联工单
+inbox.totalCount	共 {{count}} 个
+inbox.view	查看
+incidentIo.apiKeyLabel	API 密钥
+incidentIo.apiKeyPlaceholder	输入 API 密钥
+incidentIo.cancel	取消
+incidentIo.connect	连接
+incidentIo.connectDialogDescription	在 <apiKeysLink>incident.io API 密钥</apiKeysLink>中创建一个带 viewer 权限的密钥。只有你路由私密事件时才加「act in private incidents」
+incidentIo.connectDialogTitle	连接 incident.io
+incidentIo.connectDialogValidation.apiKeyRequired	API 密钥为必填项
+incidentIo.connectToSelectKind.incidentType	连接 incident.io 以选择事件类型
+incidentIo.connectToSelectKind.severity	连接 incident.io 以选择严重级别
+incidentIo.connectToSelectKind.status	连接 incident.io 以选择状态
+incidentIo.connectToSelectKind.team	连接 incident.io 以选择团队
+incidentIo.connectedAt	连接于 {{date}}
+incidentIo.copyUrl	复制 URL
+incidentIo.copyWebhookUrl	复制 webhook URL
+incidentIo.copyWebhookUrlFailed	复制 webhook URL 失败
+incidentIo.disconnect	断开连接
+incidentIo.disconnectDescription	确定要断开 incident.io？Devin 将停止接收事件
+incidentIo.disconnectTitle	断开 incident.io
+incidentIo.invalidKeyBanner	已存的 API 密钥似乎无效或已被吊销。请用新密钥重新连接。
+incidentIo.kindIncidentType	事件类型
+incidentIo.kindSeverity	严重级别
+incidentIo.kindStatus	状态
+incidentIo.kindTeam	团队
+incidentIo.linkMcpNotInstalledToast	你的组织还没有安装 incident.io MCP 服务器。请让管理员先连接 incident.io。
+incidentIo.loadFailedBody	加载 incident.io 集成状态时出错。
+incidentIo.loadFailedTitle	加载 incident.io 状态失败
+incidentIo.loadingOptions	正在加载{{kind}}选项…
+incidentIo.mcpInstalled	incident.io MCP 服务器已为此组织安装
+incidentIo.mcpLinked	已关联到你的 incident.io 账户
+incidentIo.mcpManage	管理 MCP 服务器
+incidentIo.mcpNotInstalled	incident.io MCP 服务器还没安装
+incidentIo.mcpNotLinked	你的 incident.io 账户还没关联。从你的个人「连接」里关联。
+incidentIo.mcpOpenPersonalConnections	打开个人「连接」
+incidentIo.mcpPerOrganization	MCP 服务器按组织安装。打开你的某个组织的「连接」，在那里从 MCP 市场设置 incident.io。
+incidentIo.mcpSetup	用 OAuth 设置
+incidentIo.mcpSubtitle	Devin 会话通过 incident.io MCP 服务器读取和更新事件。由组织从 MCP 市场以 OAuth 安装；之后每个成员从自己的个人「连接」关联自己的 incident.io 登录。API 密钥不与它共享。
+incidentIo.mcpTitle	MCP 服务器
+incidentIo.noOptionsFound	未找到{{kind}}选项
+incidentIo.pageDescription	连接 incident.io，让 Devin 能排查和解决事件。
+incidentIo.reconnectWithNewKey	用新密钥重新连接
+incidentIo.save	保存
+incidentIo.searchKind	搜索{{kind}}…
+incidentIo.selectKind	选择{{kind}}…
+incidentIo.settingsTitle	设置
+incidentIo.signingSecretLabel	签名密钥
+incidentIo.signingSecretMissing	保存签名密钥前，事件无法验证。
+incidentIo.signingSecretRequired	签名密钥为必填项
+incidentIo.signingSecretSaved	签名密钥已保存
+incidentIo.toast.connectFailed	连接 incident.io 失败
+incidentIo.toast.connected	incident.io 已连接
+incidentIo.toast.disconnectFailed	断开 incident.io 失败
+incidentIo.toast.disconnected	incident.io 已断开
+incidentIo.toast.invalidApiKey	incident.io API 密钥无效
+incidentIo.toast.signingSecretSaveFailed	保存签名密钥失败
+incidentIo.toast.signingSecretSaved	签名密钥已保存
+incidentIo.toast.unreachable	无法访问 incident.io。请重试。
+incidentIo.tryAgain	重试
+incidentIo.userLinkLinkedLabel	已关联到你的 incident.io 账户
+incidentIo.userLinkUnlinkFailed	取消关联 incident.io 失败
+incidentIo.webhookStep1	在 incident.io 到「设置 → Webhooks」，用此 URL 创建一个端点
+incidentIo.webhookStep2	在「Subscribe to events」下，选 public_incident 里四个 v2 事件——incident_created_v2、incident_status_updated_v2、incident_updated_v2 和 follow_up_created_v2（要投递私密事件就加 private_incident 版本）——或留空过滤器发全部；Devin 会忽略不用的事件类型
+incidentIo.webhookStep3	把端点的签名密钥粘贴到下方
+incidentIo.webhookSubtitle	把 incident.io 的事件投递给 Devin
+incidentIo.webhookTitle	Webhook 端点
+incidentIo.webhookUrlLabel	Webhook URL
+incidentIo.workspaceFallback	incident.io 工作区
+infoTip.docs	文档
+infoTip.moreInformation	更多信息
+input.actions	操作
+input.attachFiles	附加文件
+input.attachOrMention	附加或提及
+input.capabilityCardChatGPTSubError	你的 ChatGPT 方案现在用不了。<manageLink>检查你的连接</manageLink>。
+input.capabilityCardChatGPTSubNotConnected	<manageLink>连接你的 ChatGPT 账户</manageLink>以使用你的方案。
+input.capabilityCardChatGPTSubOwnerOnly	此会话使用会话所有者的 ChatGPT 方案。只有对方能改。
+input.capabilityCardChatGPTSubReconnectRequired	你的 ChatGPT 连接已过期。<manageLink>重新连接</manageLink>以使用你的方案。
+input.capabilityCardChatGPTSubUpdateFailed	无法更新你的 ChatGPT 方案设置。请重试。
+input.capabilityCardFastMode	快速模式
+input.capabilityCardFastModeChatGPTSub	使用 ChatGPT 方案期间快速模式不可用。
+input.capabilityCardFreeModePlan_one	此方案含 {{count}} 个并发会话
+input.capabilityCardFreeModePlan_other	此方案含 {{count}} 个并发会话
+input.capabilityCardFreeModeSlots	<n>{{used}}/{{limit}}</n> 使用中
+input.capabilityCardGptSubscription	你正在使用 ChatGPT 订阅。<manageLink>管理</manageLink>
+input.capabilityCardLearnMore	了解更多
+input.capabilityCardUseChatGPTSub	使用 ChatGPT 方案
+input.capabilityLabel	能力
+input.capabilityNoneEnabled	此组织的全部 Devin 模式已禁用。
+input.capabilityTooltip	能力越高模型越强但成本越高
+input.defaultMachineToggle	默认机器：{{name}}
+input.defaultRemoved	默认已移除
+input.defaultSet	默认已设置
+input.dropFilesToShare	拖文件与 Devin 共享
+input.fedCloudSessionsDisabled	此组织的云端会话已禁用。
+input.folderUpload.compressFailed	压缩文件夹 {{name}} 失败
+input.folderUpload.compressing	正在压缩… {{percent}}%
+input.folderUpload.empty	文件夹 {{name}} 没有可上传的文件
+input.folderUpload.preparing	正在准备…
+input.folderUpload.readFailed	无法读取文件夹 {{name}}
+input.folderUpload.tooLarge	文件夹 {{name}} 超过 {{limit}}MB 的大小上限
+input.folderUpload.unreadableFilesNames	已跳过：{{paths, list}}
+input.folderUpload.unreadableFiles_one	文件夹 {{name}} 中 {{count}} 个文件读不了已跳过
+input.folderUpload.unreadableFiles_other	文件夹 {{name}} 中 {{count}} 个文件读不了已跳过
+input.folderUpload.uploading	正在上传…
+input.folderUpload.zipTooLarge	文件夹 {{name}} 压缩后仍大于 {{limit}}MB
+input.internalOnly	仅内部
+input.loading	加载中…
+input.mentionBots	{{botNamePlural}}
+input.mentionChannels	频道
+input.mentionCodebaseFiles	文件
+input.mentionMacros	宏
+input.mentionPeople	人员
+input.mentionPlaybooks	Playbook
+input.mentionPlaybooksMovedToSkills	Playbook 已迁移为技能。请改用技能。
+input.mentionPlugins	插件
+input.mentionRepositories	仓库
+input.mentionSecrets	机密
+input.mentionSessions	Devin 会话
+input.mentionSkills	技能
+input.mentionSlackChannels	Slack 频道
+input.mentionTeamsChannels	Microsoft Teams 频道
+input.mentionWorkItems	工作项
+input.modeLabel	模式
+input.modesTooltip	模式
+input.noRepositoriesFound	未找到仓库
+input.noneEnabled	未启用任何
+input.onlyImageFilesSupported	只支持图片文件（.png、.jpg、.jpeg、.gif、.webp）
+input.personaDataAnalyst	数据分析师
+input.removeDefault	移除默认
+input.searchRepository	搜索仓库
+input.sendNewSecret	发送新机密
+input.setAsDefault	设为默认
+input.setAsDefaultPlatform	设为你的默认平台
+input.setOrgWideDefault	设为组织默认
+input.speedLabel	速度
+input.uploadFiles	上传文件
+input.uploadFolder	上传文件夹
+input.uploadImage	上传图片
+input.usingOrganizationDefault	正在用组织默认
+inputBox.addFilesReposMacros	添加文件、仓库、宏
+inputBox.attachAsFile	把提示词附加为文件？
+inputBox.attachAsFileConfirm	附加为文件
+inputBox.cancel	取消
+inputBox.chooseFolderToSeeCommands	选一个文件夹看命令
+inputBox.clickToExpandPrompt	点击展开提示词
+inputBox.collapseInput	折叠输入
+inputBox.connectReposOrUpgrade	连接你的仓库免费试用 Devin，或<upgradeButton>升级方案</upgradeButton>
+inputBox.continueInNewSession	在新会话中继续
+inputBox.contractExpired	你的 Devin 合同已结束。联系你的账户团队续订。
+inputBox.expandInput	展开输入
+inputBox.formatting.bold	加粗
+inputBox.formatting.code	行内代码
+inputBox.formatting.containsChip	选区含引用块
+inputBox.formatting.insideCode	代码内不能加格式
+inputBox.formatting.insideLink	链接内不能加代码
+inputBox.formatting.italic	斜体
+inputBox.formatting.label	文本格式
+inputBox.formatting.multipleBlocks	请在同一段内选择文本
+inputBox.formatting.strikethrough	删除线
+inputBox.guideDevin	在 {{name}} 干活时指引它
+inputBox.guideDevinQueued	发到队列，或按 {{shortcut}} 立即发送
+inputBox.guideDevinQueuedRich	发到队列，或按 <kbdShortcut/> 立即发送
+inputBox.guideDevinWithQueued	在 {{name}} 干活时指引它，或按 {{shortcut}} 进队列
+inputBox.guideDevinWithQueuedRich	在 {{name}} 干活时指引它，或按 <kbdShortcut/> 进队列
+inputBox.inboxReply	问个问题或给个方向
+inputBox.increaseOrgUsageLimit	提高企业组织用量上限
+inputBox.increaseUsageLimit	提高用量上限
+inputBox.increaseUserUsageLimit	提高你的每用户用量上限
+inputBox.inputDisabled	输入当前不可用
+inputBox.keyBackspace	退格键
+inputBox.loadingPreferences	正在加载你的偏好…
+inputBox.loadingPrompt	正在加载提示词…
+inputBox.messageCouldNotBeQueued	消息无法入队
+inputBox.messageIsEmpty	消息为空
+inputBox.microphoneFailed	无法访问麦克风。请检查浏览器权限。
+inputBox.noPtsCodesFound	未找到 PTS Code
+inputBox.noSeatAllocated	你的账户是个人方案
+inputBox.noSpeechDetected	没检测到语音。检查麦克风后重试。
+inputBox.noTagsFound	未找到标签
+inputBox.noWriteAccess	你没有此会话的写权限。
+inputBox.orchestratorNone	无
+inputBox.orgDefaultTagAppliesAtRunTime	组织默认 {{tag}} 在运行时生效
+inputBox.organizationGroup	组织
+inputBox.parentContextIncludedFrom	含来自父会话的上下文：<parentLink>{{title}}</parentLink>
+inputBox.parentContextSummarizing	正在总结父会话…
+inputBox.parentContextSummaryFailed	无法总结父会话
+inputBox.parentContextUnavailable	无法总结父会话——不带其上下文继续。
+inputBox.pasteAttachFailed	粘贴文本附加为文件失败。请重试粘贴。
+inputBox.pasteAttachFailedInsertedAsText	粘贴文本附加为文件失败。已改为按文本粘贴。
+inputBox.pasteAttachedAsFile	大段粘贴已附加为文件
+inputBox.playbookInlineConflict	已选 playbook 时不能再用内联「PLAYBOOK」
+inputBox.playbookRunningDevin	运行中的 Devin 不能用「PLAYBOOK」
+inputBox.pleaseSelectRequiredPtsCode	请选择一个必需的 PTS Code
+inputBox.pleaseSelectRequiredTag	请选择一个必需的标签
+inputBox.prompt	提示词
+inputBox.promptTooLong	你的提示词太长无法直接发送。要改为附加为文件吗？
+inputBox.ptsCode	PTS Code
+inputBox.queueMessage	加入队列
+inputBox.queuedEditCouldNotBeSaved	编辑无法保存
+inputBox.queuedMessagesAddAttachment	添加附件
+inputBox.queuedMessagesClearAll	清空全部
+inputBox.queuedMessagesCount_one	{{count}} 条消息已排队
+inputBox.queuedMessagesCount_other	{{count}} 条消息已排队
+inputBox.queuedMessagesEdit	编辑消息
+inputBox.queuedMessagesEditingCancel	取消
+inputBox.queuedMessagesEditingLabel	正在编辑排队消息
+inputBox.queuedMessagesEditingSave	更新
+inputBox.queuedMessagesRemove	从队列移除
+inputBox.queuedMessagesSendNow	立即发送
+inputBox.reconnecting	正在重连…
+inputBox.recordVoicePrompt	录制语音提示词
+inputBox.removeDefaultTag	移除默认
+inputBox.removeTagWithName	移除标签 {{tag}}
+inputBox.respondToQuestion	直接回答 {{name}} 的问题或问别的
+inputBox.search	搜索
+inputBox.searchPtsCodes	搜索 PTS Code…
+inputBox.searchTags	搜索标签…
+inputBox.selectRequiredPtsCode	选择必需的 PTS Code
+inputBox.selectRequiredTag	选择必需的标签
+inputBox.send	发送
+inputBox.sendNow	立即发送
+inputBox.setDefaultTag	设为默认
+inputBox.skipQuestionFailed	跳过问题失败。请重试。
+inputBox.skipRemainingQuestions	跳过剩余
+inputBox.slashCommands	命令和技能
+inputBox.startDevin	启动 Devin
+inputBox.stopDevin	停止 Devin
+inputBox.subagentsPaused_one	{{count}} 个子 Agent 已暂停
+inputBox.subagentsPaused_other	{{count}} 个子 Agent 已暂停
+inputBox.subagentsRunning_one	{{count}} 个子 Agent 运行中
+inputBox.subagentsRunning_other	{{count}} 个子 Agent 运行中
+inputBox.submissionInProgress	正在提交
+inputBox.subscribeToContinue	订阅以继续
+inputBox.subscribeToUse	订阅以使用 Devin
+inputBox.suggestDefaultModeAction	打开设置
+inputBox.suggestDefaultModeDescription	当前偏好设为 {{mode}}

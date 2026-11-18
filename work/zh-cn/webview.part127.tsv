@@ -1,0 +1,160 @@
+transcript.outpost.queued	等你的 outpost 提供机器
+transcript.outpost.queued_named	等 outpost「{{name}}」提供机器
+transcript.outpost.released	Outpost 机器放了会话；再等你的 outpost
+transcript.outpost.released_named	Outpost 机器放了会话；再等 outpost「{{name}}」
+transcript.outpost.update	Outpost 队列更新
+transcript.outpostOperatorMessage	来自 Outpost Operator 的消息
+transcript.pendingSessionBenefits.cloudMachine	会话跑在云里 Devin 的机器上
+transcript.pendingSessionBenefits.opensPr	完成时测试、调试并开 PR
+transcript.pendingSessionBenefits.parallel	并行跑多个会话不冲突
+transcript.permissionApproved	{{title}}——已批
+transcript.permissionDenied	{{title}}——已拒
+transcript.permissionRequired	允许此操作？
+transcript.permissionResponseFailed	响应权限请求失败
+transcript.personalPluginChangeUnavailable	加载不了已存插件，所以这些更改没法跟它比。
+transcript.plan.completedTask	完成任务
+transcript.plan.createdTask	建了 1 个任务
+transcript.plan.createdTasks	建了 {{count}} 个任务
+transcript.plan.deletedTask	删了任务
+transcript.plan.executionPlan	执行计划
+transcript.plan.fallbackTitle	计划
+transcript.plan.olderVersionAccepted	已接受旧版
+transcript.plan.startedTask	开始任务
+transcript.plan.updated	更新了计划
+transcript.plan.updatedTask	更新任务
+transcript.plan.versionAccepted	v{{version}} 已接受
+transcript.plan.versionLabel	v{{version}}
+transcript.prApproved	PR 已批
+transcript.prStacked	堆叠拉取请求
+transcript.preApproveTestingFutureSessions	为之后会话预批准测试
+transcript.promptBlocked	消息被挡
+transcript.publishAppFailed	部署失败
+transcript.publishAppPublishing	发布中
+transcript.publishAppUnpublished	已取消发布
+transcript.pullingLatest	拉最新中
+transcript.pullingLatestFor	为 {{repo}} 拉最新中
+transcript.pushedBranch	推了分支
+transcript.pushedBranchToRepo	把分支 <branch>{{branch}}</branch> 推到 <repo>{{repo}}</repo>
+transcript.pylonEventIssueCreated	Issue 已建
+transcript.pylonEventMessageIssued	新消息
+transcript.pylonEventStatusChanged	状态已变
+transcript.pylonEventTagAdded	标签已加
+transcript.questionSkipped	问题已跳过
+transcript.questionsSkipped	{{count}} 个问题已跳过
+transcript.quickReviewRequested	已请求快速审查
+transcript.ranCommand	跑了命令
+transcript.ranScriptedTools	跑了脚本
+transcript.ranShellCommand	跑了 {{command}}
+transcript.reactionFailed	加反应失败
+transcript.read	已读
+transcript.readFile	读了 {{filename}}
+transcript.readMore	读更多
+transcript.readSubagentResults	读了子 agent 结果
+transcript.readingFile	读 {{filename}} 中
+transcript.receiptDelivered	已送达
+transcript.receiptRead	已读
+transcript.receiptSending	发中…
+transcript.receivedFeedbackFrom	收到来自 {{names}} 的反馈
+transcript.receivedFeedbackFromPrComments	收到来自 PR 评论的反馈
+transcript.recentHistory	最近历史
+transcript.redactedSecret	因匹配你一个机密被隐藏。开 <settingsLink>设置 > 机密</settingsLink>
+transcript.redactedSecretCode	[已脱敏机密]
+transcript.redactedSecretLabel	已脱敏机密
+transcript.redactedSecretNamed	因匹配你机密 {{name}} 被隐藏。在 <settingsLink>设置 > 机密</settingsLink> 开它
+transcript.rejectedShellCommand	拒了 {{command}}
+transcript.reminderNotSet	提醒没设
+transcript.reminderPermission.create	Devin 想设一个提醒
+transcript.reminderPermission.createAction	设提醒
+transcript.reminderPermission.createApproved	已批设提醒
+transcript.reminderPermission.createDenied	已拒设提醒
+transcript.reminderPermission.delete	Devin 想删一个提醒
+transcript.reminderPermission.deleteAction	删提醒
+transcript.reminderPermission.deleteApproved	已批删提醒
+transcript.reminderPermission.deleteDenied	已拒删提醒
+transcript.reminderPermission.newName	新名：{{name}}
+transcript.reminderPermission.pauses	暂停此提醒
+transcript.reminderPermission.resumes	恢复此提醒
+transcript.reminderPermission.update	Devin 想更新一个提醒
+transcript.reminderPermission.updateAction	更新提醒
+transcript.reminderPermission.updateApproved	已批更新提醒
+transcript.reminderPermission.updateDenied	已拒更新提醒
+transcript.reminderPermission.when	何时：{{when}}
+transcript.reminderSet	已设 {{when}} 的提醒
+transcript.reminderSetSchedule	已设提醒：{{schedule}}
+transcript.reminderSetting	设 {{when}} 的提醒中
+transcript.reminderSettingSchedule	设提醒中：{{schedule}}
+transcript.remoteProvisioning.failedBody	{{wait}} <elapsed></elapsed> 后放弃。
+transcript.remoteProvisioning.failedTitle	Devin 的机器不可用
+transcript.remoteProvisioning.readyBody	{{wait}} <elapsed></elapsed> 后就绪。
+transcript.remoteProvisioning.readyTitle	Devin 的机器就绪
+transcript.remoteProvisioning.slowBody	{{wait}} 已等 <elapsed></elapsed>。
+transcript.remoteProvisioning.slowTitle	等 Devin 的机器比平时久
+transcript.remoteProvisioning.wait.pluginSetup	加载你组织的插件。
+transcript.remoteProvisioning.wait.provisioning	设置机器。
+transcript.remoteProvisioning.wait.reconnect	断线后重连。
+transcript.remoteProvisioning.wait.resume	从快照恢复机器。
+transcript.renamedFile	把 {{filename}} 重命名了
+transcript.reply	回复
+transcript.replyInThread	在线程里回
+transcript.replyThreads	回复线程
+transcript.replyingTo	回 {{preview}}
+transcript.reportedResults	把结果报回父 agent
+transcript.requestBlocked	请求被挡
+transcript.requestBlockedNonWork	此请求因看似与专业工作无关被挡。认为是误判就找你系统管理员。
+transcript.requestDeniedSafeUsePolicy	你请求因违反安全使用政策被拒。请联系你系统管理员。
+transcript.requestFlaggedNonWork	此请求因看似与专业工作无关被标记。
+transcript.responderCreated	响应器已建
+transcript.responderCreating	建响应器中
+transcript.responderDeleted	响应器已删
+transcript.responderDeleting	删响应器中
+transcript.responderNotCreated	响应器没建成
+transcript.responderNotDeleted	响应器没删成
+transcript.responderNotUpdated	响应器没更新成
+transcript.responderPermission.create	Devin 想建一个值班响应器
+transcript.responderPermission.delete	Devin 想删一个值班响应器
+transcript.responderPermission.update	Devin 想更新一个值班响应器
+transcript.responderUpdated	响应器已更新
+transcript.responderUpdating	更新响应器中
+transcript.retriggerFixFailed	重触发修复失败。
+transcript.retry	重试
+transcript.revertConflicts_one	{{count}} 个冲突——文件自 agent 上次写后在盘上变了
+transcript.revertConflicts_other	{{count}} 个冲突——文件自 agent 上次写后在盘上变了
+transcript.revertFailed	还原失败：{{reason}}
+transcript.revertStepNotFound	在 agent 历史里找不到此消息
+transcript.revertToMessage	还原到此点
+transcript.reviewAutofixContinued	Devin 的分诊在下面
+transcript.reviewAutofixDeclined	此 PR 自动修复没开
+transcript.reviewAutofixDismissed_one	{{count}} 个发现项已作废
+transcript.reviewAutofixDismissed_other	{{count}} 个发现项已作废
+transcript.reviewAutofixFixedAll_one	Devin 自动修了此发现项
+transcript.reviewAutofixFixedAll_other	Devin 自动修了全部 {{count}} 个发现项
+transcript.reviewAutofixFixedByYou_one	{{count}} 个发现项由你修
+transcript.reviewAutofixFixedByYou_other	{{count}} 个发现项由你修
+transcript.reviewAutofixFixedOnPr_one	{{count}} 个发现项在 PR 上已修
+transcript.reviewAutofixFixedOnPr_other	{{count}} 个发现项在 PR 上已修
+transcript.reviewAutofixFixed_one	{{count}} 个发现项已修
+transcript.reviewAutofixFixed_other	{{count}} 个发现项已修
+transcript.reviewAutofixForYou_one	{{count}} 个发现项要你处理
+transcript.reviewAutofixForYou_other	{{count}} 个发现项要你处理
+transcript.reviewAutofixFound	Devin Review 发现 {{counts}}
+transcript.reviewAutofixFoundCount_one	Devin Review 发现 {{count}} 个发现项
+transcript.reviewAutofixFoundCount_other	Devin Review 发现 {{count}} 个发现项
+transcript.reviewAutofixInterrupted	Devin 被打断
+transcript.reviewAutofixInvalidatedByYou_one	{{count}} 个发现项由你作废
+transcript.reviewAutofixInvalidatedByYou_other	{{count}} 个发现项由你作废
+transcript.reviewAutofixOpen_one	{{count}} 个发现项开放
+transcript.reviewAutofixOpen_other	{{count}} 个发现项开放
+transcript.reviewAutofixPostFailed	发到 {{provider}} 失败
+transcript.reviewAutofixSuperseded	有更新的审查
+transcript.reviewAutofixTriaged_one	Devin Review 分诊了 {{count}} 个发现项
+transcript.reviewAutofixTriaged_other	Devin Review 分诊了 {{count}} 个发现项
+transcript.reviewAutofixTriagingMeta	Devin 在修
+transcript.reviewAutofixWaiting	等 Devin 分诊
+transcript.reviewFindingSeverityBug	Bug
+transcript.reviewFindingSeverityCodeQuality	代码质量
+transcript.reviewFindingSeverityFlag	标记
+transcript.reviewFindingSeverityInfo	注意
+transcript.reviewFindingSeveritySecurity	安全
+transcript.reviewFindingsShowLess	收起
+transcript.reviewFindingsShowMore_one	再显 {{count}} 个
+transcript.reviewFindingsShowMore_other	再显 {{count}} 个

@@ -1,0 +1,113 @@
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationAccessibleTitle	自定义项迁移
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationAccessibleUser	用户
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationAccessibleWorkspace	工作区
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistAgentsCount	{0} 个 agents
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistConfiguredLocationCustomizationsCount	{0} 项自定义
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistConfiguredLocations	自定义位置设置
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistConfiguredLocationsDescription	将自定义项移出设置中配置的、当前 agent 已不再使用的位置。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistInstructionsCount	{0} 个 instructions
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistMcp	MCP 服务器
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistMcpDescription	将符合条件的工作区服务器移到根目录 .mcp.json。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistMcpServers	{0} 个服务器
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistOneAgent	1 个 agent
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistOneConfiguredLocationCustomization	1 项自定义
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistOneInstruction	1 个 instruction
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistOneMcpServer	1 个服务器
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistOnePrompt	1 个 prompt
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistProfile	你的个人资料
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistPrompts	将 Prompt 转换为 Skills
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistPromptsCount	{0} 个 prompts
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistPromptsDescription	将可复用的 prompt 文件转换为 skills，让 agent 能将它们作为受支持的自定义项发现并运行。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistUserData	用户数据
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistUserDataDescription	将 agents 和 instructions 移到共享位置，使它们对受支持的 agent 体验保持可用。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistUserMcpDescription	将符合条件的用户服务器移到 Copilot home 的 mcp-config.json。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationChecklistWorkspace	工作区
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationConfirmationWithChanges	{0}\n\n计划更改：\n{1}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationNeedsManualReviewReason	此服务器无法自动迁移。请在其配置文件中手动更新。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationNoEditableDestinations	没有可配置的文件迁移目标。工作区 MCP 服务器迁移到根目录 .mcp.json；用户 MCP 服务器迁移到 Copilot home 的 mcp-config.json。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationNotSelected	未选中
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationPickCustomizationFolder	为已迁移的自定义项选择目标位置
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationSelected	已选中
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationUserScope	用户
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/migrationWorkspaceScope	工作区
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/openCustomizationSourceAriaLabel	在编辑器中打开 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/overviewButtonLabel	概览
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/previewDetailsTitle	详情
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/previewInstructionsTitle	说明
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/recommendedCustomizationMigrationFolder	{0}（推荐）
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/restoreIgnoredMigrationGroups	选择要恢复的迁移组
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/selectFolder	选择文件夹
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor/startAgentMigrationFailed	无法启动 agent 引导的自定义项迁移。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditorInput/aiCustomizationManagementEditorDescriptionWithHarnessAndWorkspace	（{0} · {1}）
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditorInput/aiCustomizationManagementEditorDescriptionWithTarget	（{0}）
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationWelcomePagePromptLaunchers/customizationMarketplace	市场
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationWelcomePagePromptLaunchers/customizationMarketplaceDesc	为你的 agent 发现 skills、MCP 服务器和插件。安装前请审阅其来源。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationWelcomePagePromptLaunchers/customizationMigrationOverviewCardDescription	{0} 项自定义需要更新后才能被 {1} 使用。迁移前请审阅将发生的更改。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationWelcomePagePromptLaunchers/customizationMigrationOverviewCardDescriptionSingle	1 项自定义需要更新后才能被 {0} 使用。迁移前请审阅将发生的更改。
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationWelcomePagePromptLaunchers/customizationMigrationOverviewCardLabel	审阅自定义项迁移
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationWelcomePagePromptLaunchers/reviewCustomizationMigrations	审阅迁移…
+vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationWelcomePagePromptLaunchers/reviewCustomizationMigrationsAriaLabel	审阅需要迁移的 {0} 项自定义
+vs/workbench/contrib/chat/browser/aiCustomization/chatCustomizationMigrationNotice/dismissMigrationNotice	关闭此工作区的迁移通知
+vs/workbench/contrib/chat/browser/aiCustomization/chatCustomizationMigrationNotice/migrationNotice	自定义项迁移
+vs/workbench/contrib/chat/browser/aiCustomization/chatCustomizationMigrationNotice/reviewMigrations	审阅迁移
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.action.check	检查连接
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.action.connect	连接
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.action.disconnect	断开连接
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.action.reconnect	重新连接
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.action.refresh	刷新
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.action.review	审阅
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.action.signIn	登录
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.action.tryAgain	重试
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.status.connected	已连接
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.status.error	需要处理
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.status.notConnected	未连接
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.status.pending	连接待处理
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.status.reconnectRequired	需要重新连接
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.status.retryableError	连接失败
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.status.reviewRequired	需要审阅
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.status.signInRequired	需要登录
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.status.unavailable	当前不可用
+vs/workbench/contrib/chat/browser/aiCustomization/connectorPresentation/connectors.status.unknown	未检查连接状态
+vs/workbench/contrib/chat/browser/aiCustomization/copilotConnectorsService/copilotConnectors.catalogScopeRollout	连接器目录不可用（HTTP 403）。此账号可能尚未开放无连接器授权的浏览。
+vs/workbench/contrib/chat/browser/aiCustomization/copilotConnectorsService/copilotConnectors.connectionTimedOut	连接器授权未能及时完成。请在浏览器中完成授权后重试。
+vs/workbench/contrib/chat/browser/aiCustomization/copilotConnectorsService/copilotConnectors.defaultDescription	将 {0} 连接到 GitHub Copilot。
+vs/workbench/contrib/chat/browser/aiCustomization/copilotConnectorsService/copilotConnectors.disconnectionTimedOut	连接器未能及时断开。请重试。
+vs/workbench/contrib/chat/browser/aiCustomization/copilotConnectorsService/copilotConnectors.enterpriseUnavailable	此 GitHub Enterprise 账号不可用 Copilot 连接器。
+vs/workbench/contrib/chat/browser/aiCustomization/copilotConnectorsService/copilotConnectors.invalidCursor	Copilot 连接器分页无效。请开始新的搜索。
+vs/workbench/contrib/chat/browser/aiCustomization/copilotConnectorsService/copilotConnectors.invalidQuery	搜索 Copilot 连接器需使用正数页大小、最多 {0} 个字符和 {1} 个词。
+vs/workbench/contrib/chat/browser/aiCustomization/copilotConnectorsService/copilotConnectors.invalidResponse	Copilot 连接器返回了无效响应。
+vs/workbench/contrib/chat/browser/aiCustomization/copilotConnectorsService/copilotConnectors.openConsentFailed	无法打开连接器授权页。
+vs/workbench/contrib/chat/browser/aiCustomization/copilotConnectorsService/copilotConnectors.permissionNotGranted	GitHub 未授予管理 Copilot 连接器的权限。请重新授权连接器。
+vs/workbench/contrib/chat/browser/aiCustomization/copilotConnectorsService/copilotConnectors.publisher	GitHub Copilot
+vs/workbench/contrib/chat/browser/aiCustomization/copilotConnectorsService/copilotConnectors.signInRequired	请登录后查看连接器。
+vs/workbench/contrib/chat/browser/aiCustomization/copilotConnectorsService/copilotConnectors.unavailable	此产品中不可用 Copilot 连接器。
+vs/workbench/contrib/chat/browser/aiCustomization/copilotConnectorsService/copilotConnectors.wrongAccount	请用与 GitHub Copilot 相同的 GitHub 账号授权连接器。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationCardList/collapseCustomizationSection	折叠 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationCardList/expandCustomizationSection	展开 {0}
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationDiscovery.help.browse	清空搜索即可浏览。分区上的“显示全部”应用其类型筛选并切换到搜索结果。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationDiscovery.help.descriptionLinks	标题下方的自定义项类型链接打开各自的管理分区。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationDiscovery.help.install	先审阅可用项目的来源，再选择“安装”。对连接器，用“连接”“重新连接”或“断开连接”管理连接。VS Code 记录确切的安装目标，不会关联同名本地项。若已记录的 skill 文件缺失，选择“修复”仅恢复这些文件而不覆盖现有文件。已安装的市场项目提供“卸载”操作。需要不受支持的本地前置条件的 MCP 服务器提供“查看配置”，改打开发布者说明。VS Code 会继续执行目标位置、信任、策略和兼容性检查。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationDiscovery.help.links	可用自定义项的名称不再打开外部资源。打开项目详情审阅其元数据，再用明确标注的资源或仓库操作进行外部跳转。“返回”或 Escape 回到发现页并恢复焦点。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationDiscovery.help.navigation	用 Tab 和 Shift+Tab 在控件间移动。在搜索结果中，用方向键、Home 和 End 浏览列表。在可用项目上按 Enter 或空格键打开其应用内详情。在已安装项目上按 Enter 打开。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationDiscovery.help.overview	“发现自定义项”搜索已安装的 agents、skills、instructions、prompts、hooks、MCP 服务器和插件，并可浏览可用的市场项目。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationDiscovery.help.paging	滚动到搜索结果末尾附近会加载下一页，不移除已加载项目。“重试”会重新发起失败的市场请求。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationDiscovery.help.ranking	可用搜索结果按来源指定的相关度排序，与信任度或质量无关。Feed 优先级打破相同相关度。无搜索词浏览时，高优先级的自定义条目排在前面，同优先级条目交错显示并保持各目录的顺序。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationDiscovery.help.search	输入关键词，或使用 @installed、@type:skill、@type:mcp 和 @type:plugin。搜索筛选菜单更新同一查询，筛选可组合。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationDiscovery.help.sourceFailures	不可用来源在结果上方显示警告和“重试”操作。滚动继续使用正常来源。重试某来源会从第一页重新加载所有来源以恢复相关度顺序。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationDiscovery.help.sourceRecovery	需要登录的来源显示“登录”操作而非警告。登录只在你选择时开始；取消则保留其他结果可用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationDiscovery.help.sources	用来源选择器搜索所有可用的市场 feed 或单个 feed。“配置市场”打开相关设置。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationDiscovery.help.view	用 {0} 在无障碍视图中阅读当前浏览或搜索结果。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationOverview.help.migrations	当自定义项需要迁移时，选择“审阅自定义项迁移”查看将发生的更改。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationOverview.help.navigation	用 Tab 和 Shift+Tab 浏览分类卡片，按 Enter 或空格键打开分类。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplace.contribution/customizationOverview.help.overview	“自定义项”概览显示可打开的分类，用于管理 agents、skills、MCP 服务器、插件和其他自定义项。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceConfiguration/chat.customizations.marketplace.enabled	启用自定义市场来源时显示“发现”而非“概览”。禁用时，市场发现保留在现有自定义项管理页中。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceConfiguration/chat.customizations.marketplace.sources.publicFeed.enabled	显示市场时启用 GitHub Feed 作为 skills、MCP 服务器和插件的来源。若市场或此设置被禁用，则不查询 GitHub Feed。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.aiDisabled	启用 AI 功能以安装自定义项。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.connectorAccountUnavailable	用于连接此资源的 GitHub 账号已不可用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.connectorInstallationMetadataUnavailable	Copilot 连接器安装元数据不可用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.connectorInstallTargetUnavailable	Copilot 连接器没有本地安装目标。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.connectorNoLongerAvailable	此连接器在 Copilot 连接器目录中已不可用。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.connectorNotActionable	状态为“{0}”时无法连接此连接器。请刷新后重试。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.connectorRepairIncomplete	无法重新连接此连接器。请刷新其状态后重试。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.connectorRepairUnavailable	状态为“{0}”时无法重新连接此连接器。
+vs/workbench/contrib/chat/browser/aiCustomization/customizationMarketplaceInstallService/customizationMarketplace.connectorsDisabled	启用 Copilot 连接器实验以连接此资源。

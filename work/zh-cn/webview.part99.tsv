@@ -1,0 +1,200 @@
+settings.reviewScopeErrorNamePrefixRequiredGitlab	输名前缀，如 acme/payments/frontend-。
+settings.reviewScopeErrorOrganizationRequired	输 GitHub 组织，如 acme。
+settings.reviewScopeErrorRepositoryFormatGithub	输 org/repo 形式的仓库，如 acme/api。
+settings.reviewScopeErrorRepositoryFormatGitlab	输 group/project 形式的仓库，如 acme/payments/api。
+settings.reviewScopeErrorRepositoryRequiredGithub	输仓库，如 acme/api。
+settings.reviewScopeErrorRepositoryRequiredGitlab	输仓库，如 acme/payments/api。
+settings.reviewScopeFindingTypes	发现项类型
+settings.reviewScopeGroupOrSubgroup	GitLab 组或子组
+settings.reviewScopeHintAll	每个仓库
+settings.reviewScopeHintGitlabGroup	此 GitLab 组或子组路径下每个项目，含嵌套子组
+settings.reviewScopeHintNamePrefix	名以此文本开头的每个仓库
+settings.reviewScopeHintOrganization	此 GitHub 组织里每个仓库。这是 GitHub 上的组织，不是你的 Devin 组织
+settings.reviewScopeLoadingRepositories	加载仓库中…
+settings.reviewScopeNamePrefix	名前缀
+settings.reviewScopeNoRepositoriesFound	找不到仓库。
+settings.reviewScopeOrganization	GitHub 组织
+settings.reviewScopeOrganizationOrProject	Azure DevOps 组织或项目
+settings.reviewScopeParentProject	Gerrit 父项目
+settings.reviewScopePlaceholderGroup	acme/payments
+settings.reviewScopePlaceholderNamePrefixGithub	acme/frontend-
+settings.reviewScopePlaceholderNamePrefixGitlab	acme/payments/frontend-
+settings.reviewScopePlaceholderOrganization	acme
+settings.reviewScopePlaceholderRepositoryGithub	acme/api
+settings.reviewScopePlaceholderRepositoryGitlab	acme/payments/api
+settings.reviewScopeProvider	提供商
+settings.reviewScopeRepository	仓库
+settings.reviewScopeRepositoryPrefix	仓库前缀
+settings.reviewScopeSearchRepositories	搜索仓库…
+settings.reviewScopeSelectRepository	选一个仓库
+settings.reviewScopeWildcardGitlabGroup	应用于 {{wildcard}}：{{path}} 下每个项目，含嵌套子组
+settings.reviewScopeWildcardNamePrefixGithub	应用于 {{wildcard}}：{{namespace}} 里名以 {{prefix}} 开头的每个仓库
+settings.reviewScopeWildcardNamePrefixGitlab	应用于 {{wildcard}}：{{namespace}} 里名以 {{prefix}} 开头的每个项目
+settings.reviewScopeWildcardOrganization	应用于 {{wildcard}}：{{path}} GitHub 组织里每个仓库
+settings.reviewSettings	审查设置
+settings.reviewToasts.commentLanguageUpdateFailed	更新审查评论语言失败
+settings.reviewToasts.commentLanguageUpdated	审查评论语言已更新
+settings.reviewToasts.devinPrsEnableFailed	为 Devin 的拉取请求开 Devin Review 失败
+settings.reviewToasts.githubNotificationsUpdateFailed	更新 GitHub 通知设置失败
+settings.reviewToasts.githubNotificationsUpdated	GitHub 通知设置已更新
+settings.reviewToasts.repoRemoveFailed	移除仓库失败
+settings.reviewToasts.repoRemoved	仓库已从自动分析移除
+settings.reviewToasts.reposEnableFailed	为这些仓库开自动分析失败
+settings.reviewToasts.reposUpdateFailed	更新自动分析仓库失败
+settings.reviewToasts.reposUpdated	自动分析仓库已更新
+settings.reviewToasts.rulesUpdateFailed	更新审查规则失败
+settings.reviewToasts.rulesUpdated	审查规则已更新
+settings.reviewToasts.spendLimitUpdateFailed	更新自动分析花费上限失败
+settings.reviewToasts.spendLimitUpdated	自动分析花费上限已更新
+settings.reviewToasts.triggerModeUpdateFailed	更新触发模式失败
+settings.reviewTrigger	分析触发
+settings.reviewTriggerAdvanced	你的分析触发用了在此改不了的高级设置
+settings.reviewTriggerConflict	你的审查设置在别处被改了
+settings.reviewTriggerConnectGit	连一个 Git 账户以配置你的分析触发
+settings.reviewTriggerDescription	选 Devin 何时分析你写的 PR。草稿 PR 仍可手动分析。
+settings.reviewTriggerManual	手动
+settings.reviewTriggerManualDescription	不自动分析
+settings.reviewTriggerNoPermission	你没有配置自动分析的权限
+settings.reviewTriggerPrCreated	开时自动分析 PR
+settings.reviewTriggerPrReady	就绪待审时自动分析 PR
+settings.reviewTriggerReloaded	已重载最新设置；再试。
+settings.reviewTriggerSaveFailed	更新不了分析触发
+settings.reviewTriggerSaved	分析触发已更新
+settings.reviewTriggerUnavailable	加载不了你分析触发。刷新页面再试。
+settings.reviewedBy	{{name}} 审于 {{date}}
+settings.reviewers.archiveButton	归档
+settings.reviewers.archiveDescription	{{name}} 将停止审拉取请求并移到归档列表，可从中恢复。它已发的发现项保留。
+settings.reviewers.archiveTitle	归档审查者
+settings.reviewers.archivedEmpty	没有归档审查者
+settings.reviewers.archivedLoadError	加载不了归档审查者
+settings.reviewers.archivedSection	归档审查者
+settings.reviewers.archivedToast	{{name}} 已归档
+settings.reviewers.changeSource	换来源…
+settings.reviewers.ciCheckLabel	CI 检查
+settings.reviewers.ciCheckModeDescription	若启用，将在 Devin Review 检查之外再发一条独立检查。
+settings.reviewers.ciCheckModeLabel	发 CI 检查
+settings.reviewers.ciCheckNone	无检查
+settings.reviewers.ciCheckPassesWhenComments	全部评论已解决
+settings.reviewers.ciCheckPassesWhenDescription	检查何时变绿。要挡住合并，在你仓库的分支规则里把它标为必需。
+settings.reviewers.ciCheckPassesWhenFindings	没有打开的发现项
+settings.reviewers.ciCheckPassesWhenFinished	审查者跑完
+settings.reviewers.ciCheckPassesWhenLabel	通过条件
+settings.reviewers.ciCheckSeparate	独立检查
+settings.reviewers.ciCheckSeparateLocked	需管理员为 Devin Review 开 CI 检查
+settings.reviewers.ciCheckUmbrella	并入 Devin Review
+settings.reviewers.createEnableButton	建并启用
+settings.reviewers.createTitle	新审查者
+settings.reviewers.createdDraftToast	{{name}} 已存为草稿
+settings.reviewers.createdEnabledToast	{{name}} 已建并启用
+settings.reviewers.description	自定义审查者按你自己的指示查拉取请求。给审查者加规则以选它在哪跑。
+settings.reviewers.descriptionLabel	描述
+settings.reviewers.descriptionPlaceholder	此审查者查什么
+settings.reviewers.dialogDescription	加审查者细节，再选其指示来源
+settings.reviewers.disabledToast	{{name}} 已禁
+settings.reviewers.editDescription	更改应用于下次审查
+settings.reviewers.editTitle	编辑审查者
+settings.reviewers.enabledToast	{{name}} 已启用
+settings.reviewers.followHint	否则，技能更新要等你批准。
+settings.reviewers.followLabel	让审查者跟技能同步
+settings.reviewers.followSkillDefaultBranch	默认分支
+settings.reviewers.followedOrgSkillWarning	此审查者跨企业共享，但此组织的技能文本（含其将来编辑）只能被此组织成员读。
+settings.reviewers.followedSourcePending	在下次审查或设置查时读
+settings.reviewers.followsSource	指示来自 <skill/>
+settings.reviewers.fromSkillLabel	从已有技能起
+settings.reviewers.fromSkillListError	加载不了技能。试刷新。
+settings.reviewers.fromSkillLoading	加载技能中…
+settings.reviewers.fromSkillNone	此仓库找不到技能
+settings.reviewers.fromSkillPluginListError	加载不了技能。关掉再试。
+settings.reviewers.fromSkillPluginNone	找不到技能
+settings.reviewers.fromSkillRefresh	从仓库刷新技能
+settings.reviewers.fromSkillRepoPlaceholder	搜索仓库
+settings.reviewers.fromSkillReposLoadMore	加载更多仓库
+settings.reviewers.fromSkillReposLoadMoreError	加载不了更多仓库。
+settings.reviewers.fromSkillReposRetry	重试
+settings.reviewers.fromSkillSkillPlaceholder	选一个技能
+settings.reviewers.iconLabel	图标
+settings.reviewers.iconPicker	图标：{{icon}}。换图标
+settings.reviewers.icons.book	书
+settings.reviewers.icons.brain	大脑
+settings.reviewers.icons.broom	扫帚
+settings.reviewers.icons.bug	虫
+settings.reviewers.icons.clock	钟
+settings.reviewers.icons.eye	眼
+settings.reviewers.icons.flag	旗
+settings.reviewers.icons.gauge	仪表
+settings.reviewers.icons.lightning	闪电
+settings.reviewers.icons.lock	锁
+settings.reviewers.icons.loop	循环
+settings.reviewers.icons.magnifier	放大镜
+settings.reviewers.icons.shield	盾
+settings.reviewers.icons.sparkles	星光
+settings.reviewers.icons.testTube	试管
+settings.reviewers.instructionsLabel	指示
+settings.reviewers.instructionsMenu	指示选项
+settings.reviewers.instructionsPlaceholder	描述此审查者该找什么、该忽略什么。
+settings.reviewers.instructionsRequired	指示为必填项
+settings.reviewers.instructionsRestricted	这些指示来自另一组织的技能。只有那个组织的成员能读。
+settings.reviewers.instructionsTooLong	指示须 64 KB 或更小
+settings.reviewers.instructionsUnavailable	已存指示读不了，所以此审查者跑不了。存新指示修复。
+settings.reviewers.knowledgeDescription	此审查者审时可查什么，以找 diff 本身看不出的 bug。查询是只读的。
+settings.reviewers.knowledgeLabel	知识来源
+settings.reviewers.knowledgeOncall	Devin Oncall
+settings.reviewers.knowledgeOncallDescription	来自 Devin Oncall 的事件教训和系统事实。
+settings.reviewers.knowledgeRepositoryHistory	仓库历史
+settings.reviewers.knowledgeRepositoryHistoryDescription	仓库上的提交和过去拉取请求讨论。
+settings.reviewers.knowledgeReviewHistory	审查历史
+settings.reviewers.knowledgeReviewHistoryDescription	Devin Review 在仓库上已发现什么及团队怎么处置。
+settings.reviewers.knowledgeSecurity	Devin 安全
+settings.reviewers.knowledgeSecurityDescription	Devin 安全在仓库上的扫描发现项。
+settings.reviewers.loadReviewerError	加载不了此审查者。关掉再试。
+settings.reviewers.loadingReviewer	加载审查者中…
+settings.reviewers.manageOnly	只有能管 Review 的人能建或改审查者
+settings.reviewers.nameLabel	名称
+settings.reviewers.namePlaceholder	安全审查者
+settings.reviewers.nameRequired	名称为必填项
+settings.reviewers.nameReserved	「{{name}}」为内置安全审查保留。换个名。
+settings.reviewers.previewFooterPlugin	要改这些指示，在自定义里编技能，或解链审查者以在这编文本。
+settings.reviewers.previewFooterRepository	要改这些指示，在仓库里编技能，或解链审查者以在这编文本。
+settings.reviewers.previewReadOnly	只读
+settings.reviewers.previewRef	{{branch}} · {{commit}}
+settings.reviewers.restoreButton	恢复
+settings.reviewers.restoredToast	{{name}} 已恢复且已禁
+settings.reviewers.reviewChanges	审查更新
+settings.reviewers.rulesBack	全部审查者
+settings.reviewers.runFailed	失败
+settings.reviewers.runFindings_one	{{count}} 个发现项
+settings.reviewers.runFindings_other	{{count}} 个发现项
+settings.reviewers.runIgnored_one	{{count}} 个被忽略
+settings.reviewers.runIgnored_other	{{count}} 个被忽略
+settings.reviewers.runNoFindings	无发现项
+settings.reviewers.runPullRequestNumber	#{{number}}
+settings.reviewers.runResolved_one	{{count}} 个已解决
+settings.reviewers.runResolved_other	{{count}} 个已解决
+settings.reviewers.runSkipped	已跳过
+settings.reviewers.runSkippedSpendLimit	跳过：达花费上限
+settings.reviewers.runsDescription	此审查者最近 {{days}} 天的最新运行。
+settings.reviewers.runsFilterAll	全部
+settings.reviewers.runsFilterEmpty	没有运行匹配此筛选
+settings.reviewers.runsFilterIgnored	被忽略发现项
+settings.reviewers.runsFilterLabel	显示运行
+settings.reviewers.runsFilterNoFindings	无发现项
+settings.reviewers.runsFilterResolved	已解决发现项
+settings.reviewers.runsLoadError	加载不了此审查者的运行
+settings.reviewers.runsLoading	加载运行中…
+settings.reviewers.runsTitle	{{name}} 的最近运行
+settings.reviewers.saveDraftButton	存为草稿
+settings.reviewers.saveFailed	存不了审查者
+settings.reviewers.savedToast	{{name}} 已存
+settings.reviewers.securityContextAlsoReads	还有 {{threatModelFile}} 和 {{securityPolicyFile}} 的威胁模型一节
+settings.reviewers.securityContextDescription	此审查者因涉安全从仓库根读的文件
+settings.reviewers.securityRelated	涉安全
+settings.reviewers.securityRelatedHint	与 Devin 安全功能集成
+settings.reviewers.skillChangesDescription	{{skill}} 自此审查者上次取文本后的变化。批准即以技能当前文本替换审查者指示。
+settings.reviewers.skillChangesDiffLabel	指示的更改
+settings.reviewers.skillChangesNone	技能文本与此审查者指示一致。批准以标审查者为最新。
+settings.reviewers.skillChangesTitle	审技能更新
+settings.reviewers.skillChangesUpdate	批准更新
+settings.reviewers.skillReadError	读不了此技能。请重试。
+settings.reviewers.sourceChanged	{{skill}} 变了。此审查者保持当前指示直到你批准。
+settings.reviewers.sourceChangedTitle	技能更新等批准
+settings.reviewers.sourceDeleted	此审查者复制自的技能已被删。审查者仍用其已存副本。

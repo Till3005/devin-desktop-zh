@@ -1,0 +1,321 @@
+linear.reauthorizeToSelectTeam	重新授权 Linear 以选择团队
+linear.removedPlaybookReferences_one	已移除 {{count}} 个已删除或映射组织不可用的 playbook 引用
+linear.removedPlaybookReferences_other	已移除 {{count}} 个已删除或映射组织不可用的 playbook 引用
+linear.searchLabels	搜索标签…
+linear.searchMembers	搜索成员…
+linear.searchStates	搜索状态…
+linear.searchTeams	搜索团队…
+linear.selectedTeams_one	已选 {{count}} 个团队
+linear.selectedTeams_other	已选 {{count}} 个团队
+linear.teamsLoadFailed	无法加载 Linear 团队
+linear.trigger.allNewIssues	全部新工单
+linear.trigger.directMentions	仅直接提及
+linear.trigger.onStatus	状态为「{{state}}」时
+linear.trigger.selectAria	选择触发方式
+linearTicket.addTicketUrl	添加工单 URL
+linearTicket.atLeastOneValidUrl	至少需要一个有效的 Linear 工单 URL
+linearTicket.comments_one	评论（{{count}}）
+linearTicket.comments_other	评论（{{count}}）
+linearTicket.description	描述：
+linearTicket.errorFetching	获取工单出错：
+linearTicket.fetchFailed	获取 Linear 工单失败
+linearTicket.fetchSucceeded	Linear 工单获取成功
+linearTicket.fetchTickets	获取工单
+linearTicket.fetching	正在获取…
+linearTicket.id	ID：
+linearTicket.readMore	展开全文
+linearTicket.removeTicketUrl	移除工单 URL
+linearTicket.showLess	收起
+linearTicket.team	团队：
+linearTicket.ticketInformation	工单信息
+linearTicket.ticketUrl	Linear 工单 URL
+linearTicket.viewInLinear	在 Linear 中查看工单 →
+linkAttachment.edit	编辑
+linkAttachment.openSession	打开会话
+linkAttachment.prDeepLink.check	检查
+linkAttachment.prDeepLink.checkNamed	检查 {{id}}
+linkAttachment.prDeepLink.checks	检查
+linkAttachment.prDeepLink.comment	评论
+linkAttachment.prDeepLink.commit	提交
+linkAttachment.prDeepLink.commitNamed	提交 {{sha}}
+linkAttachment.prDeepLink.commits	提交
+linkAttachment.prDeepLink.conflicts	合并冲突
+linkAttachment.prDeepLink.event	时间线事件
+linkAttachment.prDeepLink.files	已改文件
+linkAttachment.prDeepLink.line	第 {{line}} 行
+linkAttachment.prDeepLink.review	审查
+linkAttachment.preview	预览
+linkAttachment.screenRecording	屏幕录制
+linkAttachment.sessionComputerEnded	此会话的电脑没在运行。
+linkAttachment.sessionComputerNoAccess	你没有此电脑的访问权。
+linkAttachment.sessionComputerTitle	会话电脑
+linkAttachment.thisSession	此会话
+linkContextMenu.copyLink	复制链接
+linkContextMenu.openInExternalBrowser	在外部浏览器打开
+linkPreview.collapseInline	折叠
+linkPreview.copied	已复制！
+linkPreview.copyContent	复制内容
+linkPreview.copyFailed	复制内容失败
+linkPreview.copyLink	复制链接
+linkPreview.copyLinkFailed	复制链接失败
+linkPreview.diffFiles_one	{{count}} 个文件
+linkPreview.diffFiles_other	{{count}} 个文件
+linkPreview.diffUnparseable	无法解析
+linkPreview.download	下载
+linkPreview.downloadFailed	下载附件失败
+linkPreview.downloading	正在下载 {{filename}}…
+linkPreview.expandInline	展开
+linkPreview.figma.board	画板
+linkPreview.figma.deck	演示稿
+linkPreview.figma.file	文件
+linkPreview.figma.frame	框架
+linkPreview.figma.prototype	原型
+linkPreview.figma.slides	幻灯片
+linkPreview.loadImage	加载图片
+linkPreview.loadPreview	加载预览
+linkPreview.loadVideo	加载视频
+linkPreview.loadingDiff	正在加载差异…
+linkPreview.noPreviewAvailable	无可用预览
+linkPreview.open	打开
+linkPreview.previewUnavailable	预览不可用
+linkPreview.tooLargeToPreview	文件太大无法预览
+linkPreview.viewCode	查看代码
+liveSupport.admin.backToList	← 实时支持申请
+liveSupport.admin.bookingUrl	预约 URL
+liveSupport.admin.bookingUrlHelper	没人及时认领申请时、以及实时支持关闭时展示。
+liveSupport.admin.cardDescription	让此企业的成员能把 Devin 团队呼叫进实时房间。
+liveSupport.admin.cardTitle	实时支持
+liveSupport.admin.claim	认领
+liveSupport.admin.claimConflict	已被别人认领
+liveSupport.admin.claimFailed	认领申请失败
+liveSupport.admin.claimed	申请已认领
+liveSupport.admin.claimedValue	{{name}} 于 {{time}}
+liveSupport.admin.colCreated	创建时间
+liveSupport.admin.colEnterprise	企业
+liveSupport.admin.colSource	来源
+liveSupport.admin.colStatus	状态
+liveSupport.admin.colUser	用户
+liveSupport.admin.customerChannelLabel	客户频道名称
+liveSupport.admin.customerChannelUrl	客户频道 URL
+liveSupport.admin.customerChannelUrlHelper	如客户也能用的共享 Slack 频道。带名称显示，含实时支持关闭时。
+liveSupport.admin.detailTitle	实时支持申请
+liveSupport.admin.enabled	已启用
+liveSupport.admin.enabledHelper	关闭时，成员仍能看到已设的客户频道和预约链接。
+liveSupport.admin.hoursNote	时段说明
+liveSupport.admin.internalSlackChannelId	内部 Slack 频道 ID
+liveSupport.admin.internalSlackChannelIdHelper	呼叫 Devin 团队的频道。从不展示给客户。
+liveSupport.admin.internalSlackUserIds	内部 Slack 用户 ID
+liveSupport.admin.internalSlackUserIdsHelper	每个申请要私信的 Slack 用户 ID，逗号分隔。从不展示给客户。
+liveSupport.admin.listSubtitle	已启用实时支持企业的进行中申请。每 15 秒刷新。
+liveSupport.admin.listTitle	实时支持申请
+liveSupport.admin.loadFailed	无法加载实时支持设置。
+liveSupport.admin.loading	加载中…
+liveSupport.admin.loadingAuth	正在加载认证…
+liveSupport.admin.loadingRequest	正在加载申请…
+liveSupport.admin.loadingRequests	正在加载申请…
+liveSupport.admin.meetingUrl	会议 URL
+liveSupport.admin.meetingUrlHelper	客户等待期间进入的常驻房间。
+liveSupport.admin.mustBeLoggedIn	必须登录才能访问此页。
+liveSupport.admin.noRequests	没有进行中的实时支持申请。
+liveSupport.admin.requestNotFound	未找到申请。
+liveSupport.admin.resolve	解决
+liveSupport.admin.resolveFailed	解决申请失败
+liveSupport.admin.resolved	申请已解决
+liveSupport.admin.retry	重试
+liveSupport.admin.rowClaimed	已认领
+liveSupport.admin.rowContext	上下文
+liveSupport.admin.rowOrg	组织
+liveSupport.admin.rowSession	会话
+liveSupport.admin.save	保存
+liveSupport.admin.saveFailed	保存实时支持设置失败
+liveSupport.admin.saved	实时支持设置已保存
+liveSupport.announcementDescription	你处理此会话期间，Devin 团队可进行实时通话。
+liveSupport.announcementTitle	需要搭把手？
+liveSupport.askInChannel	在 {{channel}} 提问
+liveSupport.bookCall	预约通话
+liveSupport.calloutBody	Devin 团队可进行实时通话。
+liveSupport.calloutTitle	上手 Devin 需要帮助？
+liveSupport.cancelRequest	取消申请
+liveSupport.claimedDescription	{{name}} 正在加入
+liveSupport.contactCalloutBody	Devin 团队帮你完成设置。
+liveSupport.contactDescription	联系我们，团队成员会跟进
+liveSupport.contactTeam	联系 Devin 团队
+liveSupport.contactTitle	获得 Devin 团队帮助
+liveSupport.contextPlaceholder	你卡在哪了？
+liveSupport.description	告诉我们你在做什么，团队成员会加入
+liveSupport.expiredDescription	暂时没人能接这个申请
+liveSupport.getLiveHelp	获取实时帮助
+liveSupport.joinRoom	进入房间
+liveSupport.joiningNow	{{name}} 正在加入…
+liveSupport.pendingDescription	我们已呼叫 Devin 团队——通常几分钟内有人加入
+liveSupport.requestFailed	连不上 Devin 团队——请重试。
+liveSupport.requestHelp	申请实时帮助
+liveSupport.requesting	正在申请…
+liveSupport.responder	一位团队成员
+liveSupport.title	获得 Devin 团队实时帮助
+liveSupport.tryAgain	重试
+liveSupport.waiting	等待 Devin 团队…
+localSettings.agents.agentWindowLocation.currentWindow	当前窗口
+localSettings.agents.agentWindowLocation.description	Agent Command Center 在哪里打开。
+localSettings.agents.agentWindowLocation.label	Agent Command Center 位置
+localSettings.agents.agentWindowLocation.separateWindow	独立窗口
+localSettings.agents.configure	配置
+localSettings.agents.enabled	已启用
+localSettings.agents.envVars.add	添加环境变量
+localSettings.agents.envVars.addButton	添加
+localSettings.agents.envVars.empty	无环境变量
+localSettings.agents.envVars.nameLabel	名称
+localSettings.agents.envVars.nameRequired	名称为必填项
+localSettings.agents.envVars.title	环境变量
+localSettings.agents.envVars.valueLabel	值
+localSettings.agents.failed	失败
+localSettings.agents.hideConfiguration	隐藏配置
+localSettings.agents.keepWindowWorkspace.description	显示窗口自己的文件夹而非活跃会话的文件夹。
+localSettings.agents.keepWindowWorkspace.label	在 Agent Command Center 保留工作区
+localSettings.agents.noAgents	无可用 Agent
+localSettings.agents.noMatchingAgents	无匹配 Agent
+localSettings.agents.notifications.description	后台的 agent 会话完成或需要你输入时通知
+localSettings.agents.notifications.label	Agent 通知
+localSettings.agents.notificationsEnabledToast	Agent 通知已启用。agent 会话完成或需要你输入时会通知你。
+localSettings.agents.optionsFor	{{name}} 的选项
+localSettings.agents.remoteHosts.description	通过 SSH 连接远程机器上的 agent。
+localSettings.agents.remoteHosts.label	远程 Agent 主机
+localSettings.agents.remoteHostsAutoConnect.description	启动时自动连接已存主机。
+localSettings.agents.remoteHostsAutoConnect.label	启动时连接
+localSettings.agents.removeAsPreferred	取消首选
+localSettings.agents.runSaveActions.description	Devin 编辑文件时，保存即运行 format-on-save 和 code action（如 gofmt）。
+localSettings.agents.runSaveActions.label	Agent 编辑时运行保存动作
+localSettings.agents.searchPlaceholder	搜索 Agent…
+localSettings.agents.setAsPreferred	设为首选
+localSettings.agents.shareTerminalActivity.description	让 Devin 看到你集成终端里的命令和输出。
+localSettings.agents.shareTerminalActivity.label	共享终端活动
+localSettings.agents.shareUserEdits.description	让 Devin 看到你在工作区里编辑和创建哪些文件，并让 Devin Cloud 会话在此机器上读文件时能读到未保存编辑。
+localSettings.agents.shareUserEdits.descriptionLocalOnly	让 Devin 看到你在工作区里编辑和创建哪些文件。
+localSettings.agents.shareUserEdits.label	共享用户编辑
+localSettings.auth.degraded	因下列问题 agent 以降级状态启动；修复前新会话被阻止。安装有效许可证立即生效；其他修复需要重启 agent。
+localSettings.auth.description	离线 Devin agent 的认证——本机的 Devin Local 和 devin CLI 都适用。不涉及 Cognition 服务器；登录用你组织的身份提供商或离线许可证文件。
+localSettings.auth.license.account	账户：{{account}}
+localSettings.auth.license.dropHint	把 .devin-onprem-license 文件拖到这里，或点击浏览
+localSettings.auth.license.expires	过期：{{expiry}}
+localSettings.auth.license.expiresInDays	（{{days}} 天后）
+localSettings.auth.license.fileInputLabel	许可证文件
+localSettings.auth.license.fromEnv	（来自 DEVIN_LICENSE_FILE）
+localSettings.auth.license.install	安装许可证文件
+localSettings.auth.license.installed	许可证已装到 {{path}}。新会话立即生效。
+localSettings.auth.license.installing	正在验证并安装…
+localSettings.auth.license.invalid	无效
+localSettings.auth.license.notAccepted	许可证文件未被接受。
+localSettings.auth.license.readFailed	无法读取所选文件。
+localSettings.auth.license.renewalWarning	此许可证即将过期。请从你的企业门户取新许可证并在下方安装。
+localSettings.auth.license.seat	席位：{{seat}}
+localSettings.auth.license.title	许可证
+localSettings.auth.license.valid	有效
+localSettings.auth.loadError	无法从 agent 加载认证状态。请确保自带的 Devin agent 正在运行。
+localSettings.auth.loading	正在加载认证状态…
+localSettings.auth.row.description	离线 Devin agent 的许可证和单点登录状态
+localSettings.auth.row.label	认证
+localSettings.auth.sso.browserHint	此机器上会开一个浏览器窗口，完成与你身份提供商的登录。
+localSettings.auth.sso.groups	组：{{groups}}
+localSettings.auth.sso.identityProvider	身份提供商：{{issuer}}
+localSettings.auth.sso.refresh	刷新
+localSettings.auth.sso.sessionExpires	会话过期：{{expiry}}
+localSettings.auth.sso.signIn	登录
+localSettings.auth.sso.signInAgain	重新登录
+localSettings.auth.sso.signInFailed	登录失败。
+localSettings.auth.sso.signedIn	已登录
+localSettings.auth.sso.signedInAs	已登录为：{{identity}}
+localSettings.auth.sso.signedOut	已登出
+localSettings.auth.sso.title	单点登录
+localSettings.auth.sso.waitingForBrowser	等待浏览器登录…
+localSettings.browser.chatLinksInBrowserTab.description	聊天和右窗格中的链接在 Devin Desktop 里聊天旁的 Browser 标签页打开
+localSettings.browser.chatLinksInBrowserTab.label	在 Browser 标签页打开链接
+localSettings.browser.chatLinksInBrowserTab.promptDescription	聊天和右窗格中的链接将在聊天旁的 Browser 标签页打开。可在 App 设置中更改。
+localSettings.browser.chatLinksInBrowserTab.promptTitle	在 Browser 标签页打开链接？
+localSettings.browser.chatLinksInBrowserTab.promptTurnOn	开启
+localSettings.chisel.allow.description	始终允许的工具和命令的模式。更改作用于新会话
+localSettings.chisel.allow.label	允许
+localSettings.chisel.ask.description	需要确认的工具和命令的模式。更改作用于新会话
+localSettings.chisel.ask.label	询问
+localSettings.chisel.configFile.action	在编辑器中打开 config.json
+localSettings.chisel.configFile.label	配置文件
+localSettings.chisel.deny.description	始终拒绝的工具和命令的模式。更改作用于新会话
+localSettings.chisel.deny.label	拒绝
+localSettings.chisel.description	这些设置只作用于 Devin Local
+localSettings.chisel.descriptionWithPath	这些设置只作用于 Devin Local，并保存到 <fileLink>{{path}}</fileLink>
+localSettings.chisel.ruleFormatHint	用 Exec(git push)、ExecExact(git status)、Read(/path/**)、Write(/path/**)、Fetch(domain:example.com) 或工具名如 web_search、mcp__server__tool。
+localSettings.chisel.subagents.description	允许 agent 把工作委派给子 Agent。组织策略优先
+localSettings.chisel.subagents.label	子 Agent（预览）
+localSettings.common.backToSettings	返回设置
+localSettings.common.cancel	取消
+localSettings.common.disable	禁用
+localSettings.common.enable	启用
+localSettings.common.no	否
+localSettings.common.off	关
+localSettings.common.ok	好
+localSettings.common.on	开
+localSettings.common.reload	重载
+localSettings.common.retry	重试
+localSettings.common.yes	是
+localSettings.dropdown.availableWithPro	Pro 可用
+localSettings.editorUi.diffZones.description	为 agent 的文件编辑显示带接受/拒绝控件的交互式差异区
+localSettings.editorUi.diffZones.label	Agent 差异区
+localSettings.editorUi.scrollToNextHunk.description	接受当前差异后自动滚到下一个
+localSettings.editorUi.scrollToNextHunk.label	接受后滚到下一差异
+localSettings.general.customizeIcon.action	自定义
+localSettings.general.customizeIcon.description	从几个预设 Devin Desktop 图标中选
+localSettings.general.customizeIcon.label	自定义应用图标
+localSettings.general.openEditorSettings.action	打开
+localSettings.general.openEditorSettings.description	通用编辑器偏好在独立页面打开
+localSettings.general.openEditorSettings.label	打开编辑器设置
+localSettings.listRow.add	添加
+localSettings.listRow.addItemTo	给 {{id}} 添加条目
+localSettings.listRow.editItem	编辑 {{value}}
+localSettings.listRow.export	导出
+localSettings.listRow.import	导入
+localSettings.listRow.importSkipped_one	跳过 {{count}} 个无效模式的条目：{{values, list}}。{{hint}}
+localSettings.listRow.importSkipped_other	跳过 {{count}} 个无效模式的条目：{{values, list}}。{{hint}}
+localSettings.listRow.invalidItem	不是有效模式，因此无效。{{hint}}
+localSettings.listRow.invalidItemLabel	无效模式警告
+localSettings.listRow.itemValue	条目值
+localSettings.listRow.noItems	无条目
+localSettings.listRow.notApplied	（未应用）
+localSettings.listRow.removeItem	移除 {{value}}
+localSettings.listRow.resetToDefaults	重置为默认
+localSettings.listRow.team	（团队）
+localSettings.listRow.wildcardWarning	通配符将匹配所有命令
+localSettings.listRow.wildcardWarningLabel	通配符警告
+localSettings.models.agentUnreachable	自带的 Devin agent 现在不可达。未保存的编辑会保留，它恢复运行后可再保存。
+localSettings.models.allModels	← 全部模型
+localSettings.models.api.chatCompletions	Chat completions
+localSettings.models.api.responses	Responses
+localSettings.models.conflict	模型文件自加载后已在磁盘上变化，保存会覆盖那些更改。重载以读取它们，再重新应用你的编辑。
+localSettings.models.connected	已连接
+localSettings.models.default	默认
+localSettings.models.description	模型设置作用于离线 Devin agent——本机的 Devin Local 和 devin CLI 都适用。更改在 agent 重启后生效。
+localSettings.models.diagnosticModel	[模型「{{name}}」]
+localSettings.models.edit	编辑
+localSettings.models.editAsModels	按模型编辑
+localSettings.models.editRawJson	编辑原始 JSON
+localSettings.models.fields.api	API
+localSettings.models.fields.apiKeyEnv	API 密钥环境变量
+localSettings.models.fields.baseUrl	基础 URL
+localSettings.models.fields.displayName	显示名
+localSettings.models.fields.maxContextTokens	最大上下文 token
+localSettings.models.fields.maxOutputTokens	最大输出 token
+localSettings.models.fields.name	模型名
+localSettings.models.fileMissing	——文件还不存在
+localSettings.models.fromEnv	（来自 DEVIN_MODELS_FILE）
+localSettings.models.latency	（{{ms}} ms）
+localSettings.models.loadError	无法从 agent 加载模型设置。请确保自带的 Devin agent 正在运行；如果它启动失败，在终端跑 <code>devin models validate</code> 和 <code>devin airgap doctor</code> 看底层错误。
+localSettings.models.loading	正在加载模型设置…
+localSettings.models.makeDefault	设为默认
+localSettings.models.metadata.configFile	配置文件
+localSettings.models.metadata.title	元数据
+localSettings.models.newModel	新模型
+localSettings.models.noModels	还没有配置模型。用「新模型」开始。
+localSettings.models.openFile	打开文件
+localSettings.models.rawContentsLabel	模型文件内容
+localSettings.models.rawJsonParseError	原始 JSON 必须解析为首先含 "models" 数组的对象。
+localSettings.models.remove	移除
+localSettings.models.requestFailed	请求失败：{{message}}。请确保自带的 Devin agent 正在运行，然后重试。
+localSettings.models.resultsStale	这些结果早于你最新的编辑。重新验证以刷新。
