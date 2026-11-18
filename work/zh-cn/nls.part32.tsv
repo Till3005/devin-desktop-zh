@@ -1,0 +1,90 @@
+vs/workbench/contrib/mcp/browser/mcpCommandsAddConfiguration/mcp.target.vscodeRequired	此服务器需要 VS Code 配置
+vs/workbench/contrib/mcp/browser/mcpCommandsAddConfiguration/mcp.target.workspaceFolder	工作区文件夹
+vs/workbench/contrib/mcp/browser/mcpCommandsAddConfiguration/mcp.target.workspaceFolderLabel	工作区（{0}）
+vs/workbench/contrib/mcp/browser/mcpConfigurationDestination/mcp.config.add	将 MCP 服务器添加到 {0}
+vs/workbench/contrib/mcp/browser/mcpConfigurationDestination/mcp.config.add.placeholder	为新服务器选择配置文件
+vs/workbench/contrib/mcp/browser/mcpConfigurationDestination/mcp.config.invalidTarget	请选择已打开工作区文件夹根目录下的 .mcp.json 或 .vscode/mcp.json 文件。
+vs/workbench/contrib/mcp/browser/mcpConfigurationDestination/mcp.config.legacy	VS Code 工作区配置
+vs/workbench/contrib/mcp/browser/mcpConfigurationDestination/mcp.config.legacy.deprecated	已弃用
+vs/workbench/contrib/mcp/browser/mcpConfigurationDestination/mcp.config.legacyRequired	此服务器需要 .vscode/mcp.json
+vs/workbench/contrib/mcp/browser/mcpConfigurationDestination/mcp.config.open	在 {0} 中打开 MCP 配置
+vs/workbench/contrib/mcp/browser/mcpConfigurationDestination/mcp.config.open.placeholder	选择要打开的配置文件
+vs/workbench/contrib/mcp/browser/mcpConfigurationDestination/mcp.config.root	工作区根目录
+vs/workbench/contrib/mcp/browser/mcpConfigurationDestination/mcp.rootConfig.disabled	启用 {0} 以将服务器添加到 .mcp.json，或使用 .vscode/mcp.json。
+vs/workbench/contrib/mcp/browser/mcpServerActions/mcp.target.workspaceFolderLabel	工作区（{0}）
+vs/workbench/contrib/mcp/browser/mcpToolCallUI/mcpApp.agentHostConnectionUnavailable	Agent Host 连接已不可用。
+vs/workbench/contrib/mcp/browser/mcpWorkbenchService/mcpAgentFinderMismatchedServer	GitHub Feed 返回了与请求不同的 MCP 服务器或版本。
+vs/workbench/contrib/mcp/browser/mcpWorkbenchService/mcpRegistryChangedDuringLookup	MCP 注册表已变化，请重新安装该服务器。
+vs/workbench/contrib/mcp/common/mcpConfiguration/app.mcp.json.serverSandbox	仅针对此服务器的沙箱文件系统和网络权限。根级沙箱拒绝规则同样生效。对话框批准保存在此处。macOS 或 Linux 上需要启用 sandboxEnabled。
+vs/workbench/contrib/mcp/common/mcpConfiguration/app.mcp.json.transport	与其他 MCP 客户端共享此配置时要保留的 HTTP transport。
+vs/workbench/contrib/mcp/common/mcpConfiguration/mcp.discovery.source.copilot	GitHub Copilot CLI
+vs/workbench/contrib/mcp/common/mcpConfiguration/mcp.discovery.source.copilot.config	GitHub Copilot CLI 配置（`COPILOT_HOME` 中的 `mcp-config.json`，未设置时为 `~/.copilot/mcp-config.json`）
+vs/workbench/contrib/mcp/common/mcpConfigurationGeneration/mcp.generation.formatMismatch	MCP 设置扩展返回了意外的配置格式。请更新 Copilot 扩展后重试。
+vs/workbench/contrib/mcp/common/mcpConfigurationGeneration/mcp.generation.invalid	生成的 MCP 服务器配置无效。请重试或手动添加服务器。
+vs/workbench/contrib/mcp/common/mcpSandboxService/mcpSandboxSuggestion.serverUnavailable	stdio MCP 服务器 {0} 在此配置中已不可用。
+vs/workbench/contrib/multiDiffEditor/browser/actions/diffView	Diff View
+vs/workbench/contrib/multiDiffEditor/common/multiDiffEditor/multiDiffEditor.experimental.variant	控制 multi diff editor 的实验性变体。
+vs/workbench/contrib/multiDiffEditor/common/multiDiffEditor/multiDiffEditor.experimental.variant.cards	使用紧凑的卡片式变体。
+vs/workbench/contrib/multiDiffEditor/common/multiDiffEditor/multiDiffEditor.experimental.variant.noCards	使用无卡片的紧凑变体。
+vs/workbench/contrib/multiDiffEditor/common/multiDiffEditor/multiDiffEditorConfigurationTitle	Multi Diff Editor
+vs/workbench/contrib/onboarding/browser/guidedTryoutPresentation/onboarding.tryout.guidanceUnavailable	示例已打开，但其高亮控件不可用。
+vs/workbench/contrib/onboarding/browser/guidedTryoutPresentation/onboarding.tryout.invalidGuidedPayload	引导式功能示例“{0}”的呈现无效。
+vs/workbench/contrib/onboarding/browser/onboardingSamplePresentation/onboarding.tryout.languageUnavailable	此示例的语言支持尚不可用。
+vs/workbench/contrib/onboarding/browser/onboardingSamplePresentation/onboarding.tryout.sampleFailed	无法打开示例编辑器。
+vs/workbench/contrib/onboarding/browser/onboardingSamplePresentation/onboarding.tryout.sampleUnavailable	此示例已不可用。请从发行说明重新打开其功能示例。
+vs/workbench/contrib/onboarding/browser/onboardingTryout.contribution/onboarding.tryout.copyLink	复制功能示例链接
+vs/workbench/contrib/onboarding/browser/onboardingTryout.contribution/onboarding.tryout.pick	选择一个功能示例
+vs/workbench/contrib/onboarding/browser/onboardingTryout.contribution/onboarding.tryout.run	试用功能示例
+vs/workbench/contrib/onboarding/browser/onboardingTryoutActions/onboarding.tryout.commandUnavailable	此命令在当前上下文中不可用。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutActions/onboarding.tryout.targetUnavailable	示例已打开，但其目标已不可用。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutActions/onboarding.tryout.viewFailed	无法打开示例视图。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutActions/onboarding.tryout.viewUnavailable	此视图在当前窗口中不可用。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutRunner/onboarding.tryout.setupChanged	示例的可用性已变化，请重新打开。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutService/onboarding.tryout.agentsUnavailable	此示例需要桌面端 Agents window。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutService/onboarding.tryout.aiHidden	AI 功能已停用。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutService/onboarding.tryout.chatDisabledInWorkspace	此工作区已停用聊天。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutService/onboarding.tryout.chatSetupRequired	请先设置聊天再试此示例。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutService/onboarding.tryout.invalidRunOptions	功能示例运行上下文无效。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutService/onboarding.tryout.notAvailableHere	此示例在当前上下文中不可用。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutService/onboarding.tryout.setUpChat	设置聊天
+vs/workbench/contrib/onboarding/browser/onboardingTryoutService/onboarding.tryout.unavailable	此功能示例在此版本中不可用。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutService/onboarding.tryout.unknown	功能示例“{0}”在此版本中不可用。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutUrlHandler/onboarding.tryout.external.confirm.detail	外部链接请求在 {0} 中打开此功能示例。\n\n{1}\n\n仅在你主动发起此请求时才继续。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutUrlHandler/onboarding.tryout.external.confirm.open	打开示例(&&O)
+vs/workbench/contrib/onboarding/browser/onboardingTryoutUrlHandler/onboarding.tryout.external.confirm.title	打开“{0}”？
+vs/workbench/contrib/onboarding/browser/onboardingTryoutUrlHandler/onboarding.tryout.external.unavailable.detail	此外部链接未指向此版本 {0} 中可用的功能示例。
+vs/workbench/contrib/onboarding/browser/onboardingTryoutUrlHandler/onboarding.tryout.external.unavailable.title	功能示例不可用
+vs/workbench/contrib/onboarding/common/onboardingTryout/onboarding.tryout.invalidArguments	需要恰好一个有效的功能示例标识符。
+vs/workbench/contrib/onboarding/common/onboardingTryout/onboarding.tryout.invalidPayload	功能示例“{0}”的呈现无效。
+vs/workbench/contrib/onboarding/electron-browser/onboardingTryoutWindow/onboarding.tryout.agentsRejected	Agents window 无法启动该功能示例。
+vs/workbench/contrib/onboarding/electron-browser/onboardingTryoutWindow/onboarding.tryout.invalidNativeRequest	功能示例请求无效。
+vs/workbench/contrib/onboarding/electron-browser/onboardingTryoutWindow/onboarding.tryout.notInAgentsWindow	功能示例“{0}”在 Agents window 中不可用。
+vs/workbench/contrib/opener/browser/opener.contribution/folderLink.failedExternalOpen	无法在操作系统的文件管理器中打开该文件夹。
+vs/workbench/contrib/preferences/browser/preferencesWidgets/windsurfSettings	Devin 设置
+vs/workbench/contrib/preferences/browser/settingsLayout/devin	Devin
+vs/workbench/contrib/preferences/browser/settingsSearchMenu/expAssignmentSettingsSearch	ExP 分组
+vs/workbench/contrib/preferences/browser/settingsSearchMenu/expAssignmentSettingsSearchTooltip	显示带 ExP 实验分配的设置
+vs/workbench/contrib/preferences/browser/settingsTree/setting.deprecationMessageSeverity.info	信息
+vs/workbench/contrib/preferences/browser/settingsTree/setting.deprecationMessageSeverity.warning	警告
+vs/workbench/contrib/preferences/browser/settingsTreeModels/agentSandbox.allowNetwork.label	允许出站连接
+vs/workbench/contrib/preferences/browser/settingsTreeModels/agentSandbox.allowUnsandboxedCommands.label	允许绕过沙箱
+vs/workbench/contrib/preferences/browser/settingsTreeModels/agentSandbox.authenticateGh.label	认证 gh
+vs/workbench/contrib/preferences/browser/settingsTreeModels/agentSandbox.authenticateGit.label	认证 git
+vs/workbench/contrib/preferences/browser/settingsTreeModels/agentSandbox.lspServers.label	沙箱 LSP 服务器
+vs/workbench/contrib/preferences/browser/settingsTreeModels/agentSandbox.mcpServers.label	沙箱 MCP 服务器
+vs/workbench/contrib/preferences/browser/settingsTreeModels/agentSandbox.userConfiguredPaths.label	用户配置路径
+vs/workbench/contrib/remote/browser/remoteExplorer/remote.tunnelsView.notificationLinkLabel	查看所有转发端口
+vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution/initialize.progress.titleLabel	正在查找远程隧道
+vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution/progress.turnOn.configureLink	配置
+vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution/progress.turnOn.final.noLinkLinked	已为 {0} 启用远程隧道访问。你可以通过 Devin 账户菜单{1}或{2}此访问。
+vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution/progress.turnOn.finalLinked	你现在可以通过安全隧道 {0} 从任何地方访问此机器。要从其他机器连接，请使用生成的 {1} 链接，或在桌面端或网页端使用 {2} 扩展。你可以通过 Devin 账户菜单{3}或{4}此访问。
+vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution/progress.turnOn.turnOffLink	关闭
+vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution/remoteTunnel.actions.rename	重命名隧道
+vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution/remoteTunnel.errorLogLink	错误日志
+vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution/remoteTunnel.serviceInstallFailedLinked	安装为服务失败，已回退为在本会话中运行隧道。详见{0}。
+vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution/renameTunnel.invalidName	名称只能包含字母、数字、下划线和连字符，且不能以连字符开头。
+vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution/renameTunnel.maxLength	名称不能超过 {0} 个字符。
+vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution/renameTunnel.placeholder	留空则使用此机器的主机名。
+vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution/renameTunnel.prompt	输入此隧道的名称。
+vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution/renameTunnel.title	重命名隧道
+vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution/startTunnel.progress.titleLabel	正在启动远程隧道

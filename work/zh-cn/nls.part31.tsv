@@ -1,0 +1,166 @@
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabbedWidget/modelPicker.workflow.next	下一个 {0}
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerTabs/chat.modelPicker.builtInProvider	GitHub Copilot
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerWidget/chat.config.cacheBreakHint	在会话中途更改这些选项会重置提示词缓存，可能增加成本。
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerWidget/chat.modelPicker.signIn	登录
+vs/workbench/contrib/chat/browser/widget/input/modelPicker/modelPickerWidget/chat.modelPicker.signInMessage	登录以查看可用模型。
+vs/workbench/contrib/chat/browser/widgetHosts/viewPane/chatViewPane/openCustomizationsMigrationsAvailable	{0}（有可用迁移）
+vs/workbench/contrib/chat/common/actions/chatContextKeys/agentSessionIsChild	当前 agent 会话项为子聊天时为真。
+vs/workbench/contrib/chat/common/actions/chatContextKeys/chatContextMenuHasAvailableEditors	聊天上下文菜单的链接是否可用其他编辑器打开。
+vs/workbench/contrib/chat/common/actions/chatContextKeys/chatContextMenuHasLink	聊天上下文菜单是否在链接上打开。
+vs/workbench/contrib/chat/common/actions/chatContextKeys/chatContextMenuIsBackground	聊天上下文菜单是否从转录背景而非聊天项内容打开。
+vs/workbench/contrib/chat/common/actions/chatContextKeys/chatHasCreatedSessionInAgentsWindow	用户是否已在 Agents Window 中创建过至少一个会话。
+vs/workbench/contrib/chat/common/actions/chatContextKeys/chatInputBlocked	当前聊天暂时无法发送时为真。
+vs/workbench/contrib/chat/common/actions/chatContextKeys/chatSpeechToTextUsesMai	听写使用 MAI 云端转写后端时为真。
+vs/workbench/contrib/chat/common/actions/chatContextKeys/chatTranscriptProgressActive	可取消的转录准备工作运行时为真。
+vs/workbench/contrib/chat/common/actions/chatContextKeys/inChatBackgroundShellOutput	焦点位于后台 Shell 详情中的后台 shell 输出时为真。
+vs/workbench/contrib/chat/common/automations/automationService/automationHostChangeUnsupported	自动化无法在 Agent Host 之间迁移。在新 host 上复制它以保留原运行历史。在停用前，原自动化会继续按计划运行。
+vs/workbench/contrib/chat/common/chatErrorMessages/copilotError.learnMore	了解更多
+vs/workbench/contrib/chat/common/chatProgressFormatting/toolExecutionFailed	工具执行失败
+vs/workbench/contrib/chat/common/chatProgressFormatting/toolExecutionFailedWithExitCode	工具执行失败，退出码 {0}
+vs/workbench/contrib/chat/common/chatProgressFormatting/toolExecutionFailedWithMessage	工具执行失败：{0}
+vs/workbench/contrib/chat/common/plugins/pluginMarketplaceService/pluginMarketplace.httpReadFailed	无法读取市场“{0}”（HTTP {1}）。
+vs/workbench/contrib/chat/common/plugins/pluginMarketplaceService/pluginMarketplace.invalidPage	插件市场页面无效，请重新开始搜索。
+vs/workbench/contrib/chat/common/plugins/pluginMarketplaceService/pluginMarketplace.readFailed	无法读取市场“{0}”。
+vs/workbench/contrib/chat/common/sessionChatPills/sessionChatPills.artifacts	产物
+vs/workbench/contrib/chat/common/sessionChatPills/sessionChatPills.backgroundShells	后台 Shell
+vs/workbench/contrib/chat/common/sessionChatPills/sessionChatPills.browsers	浏览器
+vs/workbench/contrib/chat/common/sessionChatPills/sessionChatPills.changes	更改
+vs/workbench/contrib/chat/common/sessionChatPills/sessionChatPills.customizations	自定义项
+vs/workbench/contrib/chat/common/sessionChatPills/sessionChatPills.hide	隐藏 {0}
+vs/workbench/contrib/chat/common/sessionChatPills/sessionChatPills.issues	Issues
+vs/workbench/contrib/chat/common/sessionChatPills/sessionChatPills.pullRequests	Pull Requests
+vs/workbench/contrib/chat/common/sessionChatPills/sessionChatPills.references	引用
+vs/workbench/contrib/chat/common/sessionChatPills/sessionChatPills.subagents	子代理
+vs/workbench/contrib/chat/common/widget/chatColors/chat.inputWorkingBorderColor2.deprecated	此颜色已不再使用。请改用“chat.inputWorkingBorderColor1”自定义聊天输入框动画边框。
+vs/workbench/contrib/chat/common/widget/chatColors/chat.inputWorkingBorderColor3.deprecated	此颜色已不再使用。请改用“chat.inputWorkingBorderColor1”自定义聊天输入框动画边框。
+vs/workbench/contrib/chat/common/widget/chatColors/chat.sessionStateIndicator.inProgressBorder	请求进行中的聊天编辑器边框颜色。
+vs/workbench/contrib/chat/common/widget/chatColors/chat.sessionStateIndicator.needsInputBorder	需要用户输入的聊天编辑器边框颜色。
+vs/workbench/contrib/chat/common/widget/chatColors/chat.sessionStateIndicator.unvisitedBorder	有待查看完成结果的聊天编辑器边框颜色。
+vs/workbench/contrib/chat/common/widget/chatColors/chat.statusBackground	聊天中状态元素的背景色。
+vs/workbench/contrib/chat/common/widget/chatColors/chat.workingProgressInsidersIconForeground	聊天工作进度指示器中 Insiders VS Code 图标的前景色。
+vs/workbench/contrib/chat/common/widget/chatColors/chat.workingProgressStableIconForeground	聊天工作进度指示器中 Stable VS Code 图标的前景色。
+vs/workbench/contrib/chat/electron-browser/agentSessions/agentSessionsActions/agentsParallelWork.ignore	忽略
+vs/workbench/contrib/chat/electron-browser/agentSessions/agentSessionsActions/agentsParallelWork.ignoreTooltip	不再显示
+vs/workbench/contrib/chat/electron-browser/agentSessions/agentSessionsActions/agentsParallelWork.open	打开 Agents Window
+vs/workbench/contrib/chat/electron-browser/agentSessions/agentSessionsActions/agentsWindow.agentModeDisabled	Agents window 不可用，因为 agent 模式已停用。
+vs/workbench/contrib/chat/electron-browser/agentSessions/agentSessionsActions/agentsWindow.unsupportedDraftAttachment	此草稿包含仅在本窗口可用的上下文。你的提示词和附件已保留在此处，未复制到 Agents Window。
+vs/workbench/contrib/chat/electron-browser/agentSessions/agentSessionsActions/chat.agentsParallelWorkBanner.defaultDescription	在 Agents Window 中并行运行多个任务，可在同一工作区或跨项目。
+vs/workbench/contrib/chat/electron-browser/agentSessions/agentSessionsActions/chat.agentsParallelWorkBanner.defaultTitle	并排运行多个 agent
+vs/workbench/contrib/chat/electron-browser/agentSessions/agentSessionsActions/chat.resetCopilotHarnessIntroduction	重置 Copilot Harness 介绍
+vs/workbench/contrib/codeEditor/browser/diffEditorAccessibilityHelp/compactHiddenLines	在紧凑 diff 展示中，按 Tab 聚焦隐藏行展开控件，再按 Enter 或空格展开/折叠未更改的行。面包屑是独立按钮，可显示对应符号。
+vs/workbench/contrib/codeEditor/browser/diffEditorAccessibilityHelp/msg6	在编辑器标题区的“更多操作”菜单中使用 Diff View 选择内联、并排或自动布局。
+vs/workbench/contrib/codeEditor/browser/diffEditorTryout.contribution/diffEditor.tryout.description	打开一个只读示例对比。用 Diff View 选择内联、并排或自动布局，然后调整编辑器大小。
+vs/workbench/contrib/codeEditor/browser/diffEditorTryout.contribution/diffEditor.tryout.editorTitle	Smart Diff Layout 示例
+vs/workbench/contrib/codeEditor/browser/diffEditorTryout.contribution/diffEditor.tryout.title	试用 Smart Diff Layout
+vs/workbench/contrib/codeEditor/browser/emptyTextEditorHint/emptyTextEditorHint/defaultHintAriaLabelWindsurf	执行 {0} 启动 Devin。开始输入即可关闭提示。
+vs/workbench/contrib/codeEditor/browser/emptyTextEditorHint/emptyTextEditorHint/emptyTextEditorHintWindsurf	[[{0}]] 启动 Devin。开始输入即可关闭提示。
+vs/workbench/contrib/deepwiki/browser/deepwiki.contribution/deepwiki	DeepWiki
+vs/workbench/contrib/deepwiki/browser/deepwiki.contribution/deepwiki view	DeepWiki
+vs/workbench/contrib/deepwiki/browser/deepwiki.contribution/deepwiki-category	DeepWiki
+vs/workbench/contrib/deepwiki/browser/deepwiki.contribution/deepwiki.attachContext.title	将 DeepWiki 附加为上下文
+vs/workbench/contrib/deepwiki/browser/deepwiki.contribution/deepwiki.moreActions	更多操作
+vs/workbench/contrib/deepwiki/browser/deepwiki.contribution/deepwiki.navigateBackward	后退到历史中的上一篇文章
+vs/workbench/contrib/deepwiki/browser/deepwiki.contribution/deepwiki.navigateForward	前进到历史中的下一篇文章
+vs/workbench/contrib/deepwiki/browser/deepwiki.contribution/deepwiki.openSymbol	查看 Wiki
+vs/workbench/contrib/deepwiki/browser/deepwiki.contribution/deepwiki.openSymbol.title	在 DeepWiki 中打开符号
+vs/workbench/contrib/deepwiki/browser/deepwiki.contribution/deepwiki.resetSeenStates.title	重置 DeepWiki 已读状态
+vs/workbench/contrib/deepwiki/browser/deepwiki.contribution/deepwikiMain	DeepWiki
+vs/workbench/contrib/deepwiki/browser/deepwiki.contribution/miViewDeepwiki	Deep&&Wiki
+vs/workbench/contrib/deepwiki/browser/deepwikiActivity/deepwikiNewBadge	DeepWiki 新功能可用
+vs/workbench/contrib/deepwiki/browser/deepwikiHoverParticipant/deepwiki.emptySummary	摘要为空
+vs/workbench/contrib/deepwiki/browser/deepwikiHoverParticipant/deepwiki.loadingSummary	正在加载 DeepWiki 摘要…
+vs/workbench/contrib/deepwiki/browser/deepwikiHoverParticipant/deepwiki.noSummary	暂无可用摘要
+vs/workbench/contrib/deepwiki/browser/deepwikiHoverParticipant/deepwiki.seeWiki	阅读更多
+vs/workbench/contrib/deepwiki/browser/deepwikiHoverParticipant/deepwiki.summaryError	加载摘要出错
+vs/workbench/contrib/devinCloudFiles/browser/devinCloudFilesStatusView/devinCloudFiles.asleep	会话机器处于休眠状态，因此资源管理器显示本地文件夹。
+vs/workbench/contrib/devinCloudFiles/browser/devinCloudFilesStatusView/devinCloudFiles.connecting	在会话机器的文件到达前，资源管理器显示本地文件夹。
+vs/workbench/contrib/devinCloudFiles/browser/devinCloudFilesStatusView/devinCloudFiles.waking	会话机器启动中。在其文件到达前，资源管理器显示本地文件夹。
+vs/workbench/contrib/devinCloudFiles/browser/devinCloudFilesStatusView/devinCloudFilesStatusView	Devin Cloud Files
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.disable	Devin Cloud：停用保存通知
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.disabled	你在此 Devin Cloud 会话中保存的文件不再通知 Devin。
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.enable	Devin Cloud：启用保存通知
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.enabled	你在此 Devin Cloud 会话中保存的文件会通知 Devin。Devin 会审查、提交并推送它们。
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.status.error	保存通知失败
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.status.name	Devin Cloud 保存通知
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.status.notified	已通知 Devin 保存
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.status.notifying	正在通知 Devin 保存
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.status.off	保存通知已关闭
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.status.on	保存通知已开启
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.status.queued	保存通知已排队
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.status.retrying	尚未通知 Devin
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.status.unavailable	保存通知不可用
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.toggle	Devin Cloud：切换保存通知
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.tooltip.error	无法向 Devin 报告你的保存。文件已保存在会话机器上，请自行告知 Devin。
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.tooltip.notified	Devin 已知悉你保存的文件，并会在安全时提交和推送。
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.tooltip.notifying	正在向 Devin 发送已保存文件列表。
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.tooltip.off	保存的文件不会通知 Devin。点击开启保存通知。
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.tooltip.on	Devin 会知悉你保存的文件并提交、推送。点击关闭。
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.tooltip.queued	已保存在会话机器上。保存暂停后通知 Devin。
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.tooltip.retrying	暂时无法联系 Devin。正在重试通知；你也可以自行告知 Devin 你的保存。
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.tooltip.unavailable	此会话不支持保存通知。
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNotices.unsupported	你的账户不支持保存通知。
+vs/workbench/contrib/devinCloudSaveNotices/electron-browser/devinCloudSaveNotices.contribution/devinCloudSaveNoticesAvailable	此窗口是否为可向 Devin 报告已保存文件的 Devin Cloud 会话窗口。
+vs/workbench/contrib/extensions/browser/extensions.contribution/extensions.gallery.authProvider	配置扩展市场的身份验证提供方
+vs/workbench/contrib/extensions/browser/extensions.contribution/extensions.gallery.authProvider.github	使用 GitHub 对扩展市场进行身份验证。
+vs/workbench/contrib/extensions/browser/extensions.contribution/extensions.gallery.authProvider.microsoft	使用 Microsoft（Entra ID）账户对扩展市场进行身份验证。
+vs/workbench/contrib/extensions/browser/extensions.contribution/windsurf.marketplaceExtensionGalleryServiceURL	更改市场搜索结果的基础 URL。
+vs/workbench/contrib/extensions/browser/extensions.contribution/windsurf.marketplaceGalleryItemURL	更改每个扩展页面的基础 URL。
+vs/workbench/contrib/extensions/browser/extensionsActions/check logs label	日志
+vs/workbench/contrib/extensions/browser/extensionsActions/check logs linked	详情请查看 {0}。
+vs/workbench/contrib/extensions/browser/extensionsActions/Devin for Web	Web 版 {0}
+vs/workbench/contrib/extensions/browser/extensionsViewlet/dismissButton	忽略
+vs/workbench/contrib/extensions/browser/extensionsViewlet/dismissImport	忽略此导入建议
+vs/workbench/contrib/extensions/browser/extensionsViewlet/extensionImportError	导入扩展失败：{0}
+vs/workbench/contrib/extensions/browser/extensionsViewlet/extensionsImportedFromSource	已从 {1} 成功导入 {0} 个扩展
+vs/workbench/contrib/extensions/browser/extensionsViewlet/importExtensionFromSource	从 {0} 导入 1 个扩展
+vs/workbench/contrib/extensions/browser/extensionsViewlet/importExtensionsFromSource	从 {1} 导入 {0} 个扩展
+vs/workbench/contrib/extensions/browser/extensionsViewlet/importExtensionsFromSourceTitle	点击从 {0} 导入扩展
+vs/workbench/contrib/extensions/browser/extensionsViewlet/preview	预览
+vs/workbench/contrib/extensions/browser/extensionsViewlet/previewExtensions	预览扩展
+vs/workbench/contrib/extensions/browser/extensionsWorkbenchService/not compatible	此扩展与 Devin 不兼容。
+vs/workbench/contrib/files/browser/fileActions.contribution/newAgentSessionEditor	新建会话
+vs/workbench/contrib/github/browser/githubLinkPresentation.contribution/github.authenticationRequired	登录 GitHub 以加载 pull request 状态和其他 GitHub 链接详情。
+vs/workbench/contrib/github/browser/githubLinkPresentation.contribution/github.authenticationRequired.signIn	登录
+vs/workbench/contrib/github/browser/githubResourceHover/github.commitHover.author	@{0} 提交了此更改
+vs/workbench/contrib/github/browser/githubResourceHover/github.commitHover.bodyFallback	无更多提交信息。
+vs/workbench/contrib/github/browser/githubResourceHover/github.commitHover.committedDate	于 {0}
+vs/workbench/contrib/github/browser/githubResourceHover/github.commitHover.reference	提交 {0}
+vs/workbench/contrib/github/browser/githubResourceHover/github.issueHover.author	@{0} 创建了此 issue
+vs/workbench/contrib/github/browser/githubResourceHover/github.issueHover.bodyFallback	未提供描述。
+vs/workbench/contrib/github/browser/githubResourceHover/github.issueHover.closed	已关闭
+vs/workbench/contrib/github/browser/githubResourceHover/github.issueHover.createdDate	于 {0}
+vs/workbench/contrib/github/browser/githubResourceHover/github.issueHover.duplicate	重复
+vs/workbench/contrib/github/browser/githubResourceHover/github.issueHover.notPlanned	不在计划中
+vs/workbench/contrib/github/browser/githubResourceHover/github.issueHover.open	未解决
+vs/workbench/contrib/github/browser/githubResourceHover/github.issueHover.reference	Issue #{0}
+vs/workbench/contrib/github/browser/githubResourceHover/github.issueHover.titleFallback	Issue #{0}
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.author	@{0} 创建了此 pull request
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.baseFallback	目标
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.bodyFallback	未提供描述。
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.checksFailed	检查失败
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.checksPassed	检查通过
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.checksPending	检查进行中
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.closed	已关闭
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.copyBaseBranch	复制 base 分支 {0}
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.copyHeadBranch	复制 head 分支 {0}
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.createdDate	于 {0}
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.draft	草稿
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.headFallback	来源
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.merged	已合并
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.open	未合并
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.reference	Pull Request #{0}
+vs/workbench/contrib/github/browser/githubResourceHover/github.pullRequestHover.titleFallback	Pull Request #{0}
+vs/workbench/contrib/github/browser/lazyGitHubResourceHover/githubReference.issueLabel	Issue #{0}
+vs/workbench/contrib/github/browser/lazyGitHubResourceHover/githubReference.loadingIssue	正在加载 issue #{0}…
+vs/workbench/contrib/github/browser/lazyGitHubResourceHover/githubReference.loadingPullRequest	正在加载 pull request #{0}…
+vs/workbench/contrib/github/browser/lazyGitHubResourceHover/githubReference.pullRequestLabel	Pull Request #{0}
+vs/workbench/contrib/issue/browser/baseIssueReporterService/windsurfHandlesIssues	Devin 在 GitHub 之外处理反馈。
+vs/workbench/contrib/issue/browser/baseIssueReporterService/windsurfHandlesIssuesDescription	感谢帮助我们改进 Devin！点击下方按钮打开 Devin 问题/反馈报告器。
+vs/workbench/contrib/issue/browser/baseIssueReporterService/windsurfOpenIssueReporter	打开 Devin 问题报告器
+vs/workbench/contrib/logs/electron-browser/logsActions/openWindsurfLogsFile	下载 Devin 日志文件
+vs/workbench/contrib/mcp/browser/mcpCommandsAddConfiguration/mcp.agentHost.inputsUnsupported	此服务器需要 VS Code 输入变量。请将其添加到 VS Code 配置文件，而非当前 agent 会话。
+vs/workbench/contrib/mcp/browser/mcpCommandsAddConfiguration/mcp.copilotGlobal.added	已将 MCP 服务器“{0}”添加到 {1}。请在启动新 Copilot 会话前，于 agent-host 机器上设置引用的环境变量。此文件不支持 VS Code 输入变量。
+vs/workbench/contrib/mcp/browser/mcpCommandsAddConfiguration/mcp.package.loadFailed	无法加载 MCP 包详情，请重试。
+vs/workbench/contrib/mcp/browser/mcpCommandsAddConfiguration/mcp.target.copilotGlobal	Copilot 全局
+vs/workbench/contrib/mcp/browser/mcpCommandsAddConfiguration/mcp.target.global.placeholder	选择全局配置
+vs/workbench/contrib/mcp/browser/mcpCommandsAddConfiguration/mcp.target.userConfigurationDeprecated	用户配置（已弃用）
