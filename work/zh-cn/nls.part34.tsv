@@ -268,3 +268,5 @@ vs/workbench/services/policies/common/managedSettingsUpdate/managedSettingsUpdat
 vs/workbench/services/policies/common/managedSettingsUpdate/managedSettingsUpdate.restart	重启以更新
 vs/workbench/services/policies/common/managedSettingsUpdate/managedSettingsUpdate.title	组织要求更新
 vs/workbench/services/userDataProfile/common/userDataProfileIcons/settingsViewDropdownIcon	设置下拉图标。
+vs/sessions/contrib/sessions/browser/sessionsTitleBarWidget/agentSessionsSessionWithBranchAccessible	{0}，分支 {1}
+vs/workbench/contrib/windsurfCodeMapViewer/browser/codeMapViewer.contribution/openCodeMapView	打开 Codemap

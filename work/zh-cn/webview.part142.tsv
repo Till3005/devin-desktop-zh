@@ -158,3 +158,4 @@ workspace.browserPreview.designColorValue	颜色值
 workspace.browserPreview.designColorWideGamut	超 sRGB，所以 hex 值为近似。在拾色器用其自身格式保全色。
 workspace.browserPreview.designColorWideGamutTag	P3
 workspace.browserPreview.designControls.addColumn	加列
+settings.teamsOauthUserLinkedInOtherAccount	此 Microsoft 账户已关联到另一个连接到同一 Microsoft 组织的 Devin 账户。请先登录该账户并在其设置中断开 Microsoft Teams，然后重试。
