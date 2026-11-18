@@ -1,0 +1,500 @@
+translation.sessionStatus.sleepingIncreaseLimit	Devin is sleeping. To wake Devin up, [increase your limit](/settings/plans)
+translation.sessionStatus.sleepingIncreaseOrgLimit	Devin is sleeping. To wake Devin up, [increase your organization's limit](/organizations/{{orgId}})
+translation.sessionStatus.sleepingIncreaseUserLimit	Devin is sleeping. To wake Devin up, ask your account admin to increase your usage limit
+translation.sessionStatus.sleepingNetworkConfig	Devin went to sleep to apply the updated network config
+translation.sessionStatus.sleepingNoQuotaAllocation	Devin is sleeping because your account is on an individual plan but you are not the organization owner. Check your [plans](/settings/plans) for details.
+translation.sessionStatus.sleepingOrgUsageLimitExceeded	Devin is sleeping due to organization usage settings. An enterprise admin must increase the ACU limit for your organization to continue.
+translation.sessionStatus.sleepingOutOfCredits	Devin is sleeping because your account is out of credits. Please check your billing details.
+translation.sessionStatus.sleepingOutOfQuota	Devin is sleeping because {{description}}. Check your [usage settings](/settings/usage) for details.
+translation.sessionStatus.sleepingPaymentDeclined	Devin is sleeping because your organization's last payment failed. To wake Devin up, please [update your payment details](/settings/plans)
+translation.sessionStatus.sleepingRenewSubscription	Devin is sleeping. To wake Devin up, [manage your subscription](/settings/plans)
+translation.sessionStatus.sleepingTotalSessionLimitExceeded	Devin is sleeping because this session exceeded the total session ACU limit. Acknowledge the limit to continue or start a new session.
+translation.sessionStatus.sleepingUsageLimitExceeded	Devin hit your per-message usage limit, so it automatically paused to prevent runaway spend. Want it to keep going? Send a message, or raise or remove the limit in [usage settings](/settings/usage?tab=limits).
+translation.sessionStatus.sleepingUserInactivity	Devin is sleeping due to inactivity. Wake Devin up by sending a message
+translation.sessionStatus.sleepingUserUsageLimitExceeded	Devin is sleeping because your per-user ACU limit was exceeded. Ask your account admin to increase your usage limit to continue.
+translation.sessionStatus.sleepingWakeByMessage	Devin is sleeping. Wake Devin up by sending a message
+translation.sessionStatus.waking	Devin is waking up.
+translation.sessionStatus.wakingForLint	Devin is waking up to address lint errors.
+translation.sessionStatus.wakingForPullRequest	Devin is waking up to address PR feedback.
+translation.sessionStatus.wakingWithEta	{{shortMessage}} This may take up to 90 seconds.
+translation.sessionStatus.weeklyQuotaExceededTitle	Weekly usage quota exceeded
+translation.sessionStatus.working	Devin is working…
+translation.sessionStatus.quotaExceededGenericSentence	Your usage quota has been exceeded and you are out of on-demand usage
+translation.sessionStatus.quotaExceededSentence	Your {{window}} usage quota has been exceeded and you are out of on-demand usage
+translation.sessionStatus.quotaExceededSentenceWithReset	Your {{window}} usage quota has been exceeded and you are out of on-demand usage. Your {{window}} quota resets {{resetsIn}}
+translation.session.actionModelTooltip	Action model: {{model}}
+translation.session.acuTreeThisSession	This session
+translation.session.acuUsage	ACU usage
+translation.session.agentVersionTooltip	Agent: {{name}}
+translation.session.archived	Archived
+translation.session.archivedByOwner	The owner archived this session
+translation.session.askDevin	Ask Devin
+translation.session.botFromFolderBoardDescription	Sessions from the "{{folder}}" folder, each on the ticket it claims.
+translation.session.botFromFolderChildren_one	{{count}} child session stays with its parent.
+translation.session.botFromFolderChildren_other	{{count}} child sessions stay with their parents.
+translation.session.botFromFolderCreated	Made the {{botName}} "{{folder}}"
+translation.session.botFromFolderExists	"{{folder}}" already has its {{botName}}
+translation.session.botFromFolderFailed	Failed to make a {{botName}} from this folder
+translation.session.botFromFolderSessionsStay	The folder was turned into this {{botName}}, and its sessions stay in your list.
+translation.session.botFromFolderSkipped_one	{{count}} session isn't yours and was skipped.
+translation.session.botFromFolderSkipped_other	{{count}} sessions aren't yours and were skipped.
+translation.session.botFromFolderTickets_one	{{count}} session handed over.
+translation.session.botFromFolderTickets_other	{{count}} sessions handed over.
+translation.session.archiveFolder	Archive folder
+translation.session.botFromSessionCreated	Made the {{botName}} "{{name}}"
+translation.session.botFromSessionFailed	Failed to make a {{botName}} from this session
+translation.session.cancel	Cancel
+translation.session.category	Category
+translation.session.clickToUnarchive	Click to unarchive
+translation.session.stopped	Stopped
+translation.session.clickToResume	Click to resume
+translation.session.stoppedByOwner	The owner stopped this session
+translation.session.closeSearch	Close search
+translation.session.composerLabel	Message Devin in this session
+translation.session.connectionError	Connection error
+translation.session.connectionErrorDescription	The session couldn't be loaded. Check your internet connection and try again.
+translation.session.create	Create
+translation.session.deleteFolder	Delete folder
+translation.session.deleteFolderDescription	The sessions in "{{folderName}}" won't be deleted, but the folder and its grouping will be removed. This can't be undone.
+translation.session.deleteFolderTitle	Delete folder?
+translation.session.descendantAcuUsage	Descendant ACU usage
+translation.session.descendantUsage	Descendant usage
+translation.session.devinStartingUp	{{name}} is starting up…
+translation.session.emptyFolder	No sessions
+translation.session.emptyFolderAction	Empty folder
+translation.session.emptyFolderDnd	Drag sessions here
+translation.session.error	Error
+translation.session.exitFocusMode	Exit focus mode
+translation.session.failedToArchiveFolder	Failed to archive folder
+translation.session.failedToCreateFolder	Failed to create folder
+translation.session.failedToDeleteFolder	Failed to delete folder
+translation.session.failedToRenameFolder	Failed to rename folder
+translation.session.failedToUnarchiveFolder	Failed to unarchive folder
+translation.session.failedToUnpinAll	Failed to unpin sessions
+translation.session.folderName	Folder name
+translation.session.folderNameRequired	Folder name required
+translation.session.folderOptions	Folder options
+translation.session.folders	Folders
+translation.session.hostDisconnectedDescription	This session runs on that host. Reconnect to open it.
+translation.session.hostDisconnectedTitle	{{name}} is disconnected
+translation.session.internalError	Internal error.
+translation.session.legacyParticipatedInfo	Older sessions owned by others that you participated in. New ones now appear in Recent.
+translation.session.aboutFolder	About {{folderName}}
+translation.session.locked.description	Close it there to use it here.
+translation.session.locked.forceOpen	Force open
+translation.session.locked.forceOpenDescription	This stops the process that has this session open (PID {{pid}}) and opens the session here.
+translation.session.locked.forceOpenFailed	Could not stop the other process.
+translation.session.locked.forceOpenTitle	Force open this session?
+translation.session.locked.title	This session is open in another window or terminal
+translation.session.locked.titleWithPid	This session is open in another window or terminal (PID {{pid}})
+translation.session.makeBotFromFolder	Make a {{botName}} from this folder
+translation.session.promoteToBot	Promote to {{botName}}
+translation.session.moveToBot	Move to {{botName}}
+translation.session.movedToBot	Moved to {{name}}
+translation.session.moveToBotFailed	Failed to move this session to the {{botName}}
+translation.session.moveToBotSearch	Search {{botNamePlural}}
+translation.session.moreFolders	More folders
+translation.session.moveToFolder	Move to folder
+translation.session.newFolder	New folder
+translation.session.newPinnedSession	New pinned session
+translation.session.newSession	New session
+translation.session.newSessionInFolder	New session in folder
+translation.session.newSessionInWorkspace	New session in workspace
+translation.session.noPermission	You don't have permission to access this session.
+translation.session.onDemandUsage	On-demand usage
+translation.session.billedUsage	Billed usage
+translation.session.coveredByPromotion	Covered by promotion
+translation.session.promotionAcuAmount	{{amount}} ACUs
+translation.session.pin	Pin
+translation.session.refreshFailed	Couldn't refresh this session
+translation.session.refreshFailedDescription	Showing the last loaded version. Check your internet connection.
+translation.session.resumeFailed.description	Showing the last loaded version.
+translation.session.resumeFailed.goneTitle	This session no longer exists
+translation.session.resumeFailed.goneDescription	It may have been deleted from another window or terminal.
+translation.session.renameFolder	Rename folder
+translation.session.save	Save
+translation.session.sessionSize	Session size
+translation.session.staffAccess.stepUp	Verify with Okta to view
+translation.session.staffAccess.stepUpWaiting	Waiting for the Okta login in the other window. This page loads by itself once you are logged in.
+translation.session.staffAccess.stepUpFailed	The Okta verification couldn't be started. Try again.
+translation.session.staffAccess.stepUpCoversAccount	This verification covers every session of account {{accountId}}.
+translation.session.staffAccess.stepUpCoversSession	This verification covers this session only.
+translation.session.staffAccess.request	Request access to this session
+translation.session.staffAccess.requestDescription	An owner or admin of this account approves your request. It opens this session only, until it expires.
+translation.session.staffAccess.pending	Your request is waiting for approval.
+translation.session.staffAccess.duration	Duration
+translation.session.staffAccess.reason	Reason
+translation.session.staffAccess.reasonRequired	Reason required
+translation.session.staffAccess.requestFailed	Your request couldn't be sent. Try again.
+translation.session.title	Session
+translation.session.typingDisabled	Typing is disabled during replay
+translation.session.unauthorized	Unauthorized
+translation.session.unpin	Unpin
+translation.session.unarchiveFolder	Unarchive folder
+translation.session.unpinAll	Unpin all
+translation.session.untitled	New session
+translation.session.userMessages	User messages
+translation.session.viewChildSessions	View child sessions
+translation.session.viewParentSession	View parent session
+translation.session.viewSessionInsights	View session insights
+translation.session.viewerTyping	{{name}} is typing
+translation.session.viewersTyping_one	{{count}} person is typing
+translation.session.viewersTyping_other	{{count}} people are typing
+translation.session.waitingForWakeUp	Waiting for {{name}} to wake up…
+translation.session.you	You
+translation.session.freeModeSession	Free (powered by SWE-2)<br/><n>{{used}}/{{limit}}</n> in use
+translation.session.freeModeSessionNoSlot	Free (powered by SWE-2)<br/><n>{{used}}/{{limit}}</n> in use by other sessions
+translation.session.freeModeSessionNoSlotAtCap	Free (powered by SWE-2)<br/><n>{{used}}/{{limit}}</n> in use by other sessions. Archive one to free a slot.
+translation.session.freeModeSessionShared	Free (powered by SWE-2)
+translation.session.freeUntilFirstMessage	This session is free for now. Your first message starts billing.
+translation.session.promotionCoversUsage	Session usage covered by this promotion is free. Scheduled end: {{endsAt}}.
+translation.session.approvalRequired	Approval required
+translation.session.copyLinkFailed	Failed to copy session link
+translation.session.updateVisibilityFailed	Failed to update session visibility
+translation.session.saveNameFailed	Failed to save session name
+translation.session.deleteFailed	Failed to delete session: {{error}}
+translation.session.loadFullPromptFailed	Couldn't load the session's full prompt. Please try again.
+translation.session.bulkArchiveFailed	Failed to archive sessions
+translation.session.bulkUnarchiveFailed	Failed to unarchive sessions
+translation.session.createFailed	Failed to create session. Please try again.
+translation.session.noLongerAccess_one	You no longer have access to this session.
+translation.session.noLongerAccess_other	You no longer have access to these sessions.
+translation.session.unarchiveFailed	Failed to unarchive
+translation.session.markedNotDone	Marked not done
+translation.session.subscribed	Subscribed
+translation.session.unsubscribed	Unsubscribed
+translation.session.playbookUploaded	Playbook uploaded
+translation.session.fileUploadBlocked	{{fileName}} was blocked before it reached Devin
+translation.session.fileUploadBlockedDescription	Your network's security policy most likely refused the upload. Ask your IT team to allow it; retrying won't help.
+translation.session.fileUploadBlockedDescriptionWithReason	Your network's security policy most likely refused the upload (reason given: {{reason}}). Ask your IT team to allow it; retrying won't help.
+translation.session.fileUploadDisabled	File upload is disabled
+translation.session.fileUploadFailed	Failed to upload {{fileName}}
+translation.session.exportAcusFailed	Couldn't load ACUs for the export. Please try again.
+translation.session.exportFailed	Couldn't export sessions. Please try again.
+translation.session.exportPromptFailed	Couldn't load the session's full prompt. Please try again.
+translation.session.nameEmpty	Name cannot be empty.
+translation.session.nameTooLong	Session name cannot be longer than {{max}} characters.
+translation.session.insightsAnalyzing	Analyzing...
+translation.session.knowledgeF1	F1: {{percent}}%
+translation.session.runSkillsInsights	Run Skills Insights
+translation.session.runSkillsInsightsShort	Run SI
+translation.session.skillsF1	Skills F1: {{percent}}%
+translation.session.acusValue	{{value}} ACUs
+translation.session.showSuperuserBanner	Show superuser banner
+translation.session.organizationTooltip	Organization: {{name}}
+translation.session.unknown	Unknown
+translation.session.unknownUser	Unknown user
+translation.session.createdOnTooltip	Created on {{date}}
+translation.session.updatedOnTooltip	Updated on {{date}}
+translation.session.createdByBot	Created by {{name}}
+translation.session.createdByUser	Created by: {{name}}
+translation.session.selectAllInGroup	Select all in {{group}}
+translation.session.deselectAllInGroup	Deselect all in {{group}}
+translation.session.loadingMore	Loading more…
+translation.session.keyAlt	Alt
+translation.session.slackPosted	Posted this session to {{target}}
+translation.session.slackPostFailed	Couldn't post this session to {{target}}.
+translation.session.closeComparison	Close comparison
+translation.session.badgeDataAnalyst	Data Analyst
+translation.session.badgePlan	Plan
+translation.session.badgeResearch	Research
+translation.session.reported	Session reported
+translation.session.reportFailed	Failed to report session
+translation.session.thisChannel	this channel
+translation.session.syncByDefaultPrompt	Sync new sessions to {{target}} by default?
+translation.session.syncByDefaultDescription	You've synced several sessions here. Want new sessions to sync automatically?
+translation.session.syncSetDefault	Set default
+translation.session.syncDefaultSaved	New web sessions will sync to {{target}} by default
+translation.session.archivedToast_one	Session archived
+translation.session.archivedToast_other	Archived {{count}} sessions
+translation.session.unarchivedToast_one	Session unarchived
+translation.session.unarchivedToast_other	Unarchived {{count}} sessions
+translation.session.undoCount_one	{{count}} session
+translation.session.undoCount_other	{{count}} sessions
+translation.session.archiveFailedToast_one	Failed to archive session. Please try again.
+translation.session.archiveFailedToast_other	Failed to archive sessions. Please try again.
+translation.session.unarchiveFailedToast_one	Failed to unarchive session. Please try again.
+translation.session.unarchiveFailedToast_other	Failed to unarchive sessions. Please try again.
+translation.sessionCategories.bug_fixing	Bug fixing
+translation.sessionCategories.ci_cd_and_devops	CI/CD & DevOps
+translation.sessionCategories.code_review	Code review
+translation.sessionCategories.data_and_automation	Data & automation
+translation.sessionCategories.documentation_and_content	Documentation & content
+translation.sessionCategories.feature_development	Feature development
+translation.sessionCategories.migrations_and_upgrades	Migrations & upgrades
+translation.sessionCategories.other	Other
+translation.sessionCategories.production_investigation	Production investigation
+translation.sessionCategories.refactoring_and_optimization	Refactoring & optimization
+translation.sessionCategories.research_and_exploration	Research & exploration
+translation.sessionCategories.security	Security
+translation.sessionCategories.unit_test_generation	Unit test generation
+translation.sessionCategoryDescriptions.bug_fixing	Diagnosing, troubleshooting, and resolving defects, errors, test failures, or unexpected behavior.
+translation.sessionCategoryDescriptions.ci_cd_and_devops	Setting up and maintaining CI/CD pipelines, deployment configurations, and infrastructure-as-code.
+translation.sessionCategoryDescriptions.code_review	Reviewing pull requests, analyzing code quality, and providing feedback on existing code.
+translation.sessionCategoryDescriptions.data_and_automation	Building data pipelines, scripts, and automation workflows for repetitive tasks.
+translation.sessionCategoryDescriptions.documentation_and_content	Writing or updating documentation, READMEs, changelogs, API docs, wikis, translations, localization (i18n/l10n), and content creation.
+translation.sessionCategoryDescriptions.feature_development	Building new features, implementing user stories, and adding new functionality to the codebase.
+translation.sessionCategoryDescriptions.migrations_and_upgrades	Upgrading dependencies, migrating frameworks, databases, or APIs to newer versions.
+translation.sessionCategoryDescriptions.other	Sessions that don’t fit neatly into the categories above.
+translation.sessionCategoryDescriptions.production_investigation	Diagnosing, troubleshooting, and resolving alerts or incidents in a production context.
+translation.sessionCategoryDescriptions.refactoring_and_optimization	Improving code structure, performance, and maintainability without changing external behavior.
+translation.sessionCategoryDescriptions.research_and_exploration	Exploring feasibility, researching solutions, investigating options, designing architecture, writing RFCs, planning, and prototyping.
+translation.sessionCategoryDescriptions.security	Fixing security vulnerabilities, addressing CVEs, and improving application security posture.
+translation.sessionCategoryDescriptions.unit_test_generation	Writing unit tests, integration tests, and improving test coverage across the codebase.
+translation.sessionLinks.livePreview	Live preview
+translation.sessionLinks.livePreviewNamed	Live preview: {{name}}
+translation.sessionLinks.pylonIssue	Issue #{{number}}
+translation.sessionLinks.scheduled	Scheduled
+translation.sessionInfo.plugins	Active plugins
+translation.sessionInfo.pluginFailed	Failed
+translation.sessionInfo.pluginResources.counts.skills_one	{{count}} skill
+translation.sessionInfo.pluginResources.counts.skills_other	{{count}} skills
+translation.sessionInfo.pluginResources.counts.mcps_one	{{count}} MCP
+translation.sessionInfo.pluginResources.counts.mcps_other	{{count}} MCPs
+translation.sessionInfo.pluginResources.counts.hooks_one	{{count}} hook
+translation.sessionInfo.pluginResources.counts.hooks_other	{{count}} hooks
+translation.sessionInfo.pluginResources.counts.rules_one	{{count}} rule
+translation.sessionInfo.pluginResources.counts.rules_other	{{count}} rules
+translation.sessionInfo.pluginResources.counts.agents_one	{{count}} agent
+translation.sessionInfo.pluginResources.counts.agents_other	{{count}} agents
+translation.sessionInfo.pluginResources.empty	No resources loaded
+translation.sessionInfo.pluginResources.unavailable	Resource details unavailable
+translation.sessionInfo.suggested	Suggested
+translation.sessionInfo.searchBillingTags	Search billing tags…
+translation.sessionInfo.participant	Participant
+translation.sessionInfo.applyTag	Apply tag
+translation.sessionInfo.dismissSuggestion	Dismiss
+translation.sessionInfo.suggestedBillingTag	Suggested billing tag
+translation.sessionInfo.billingTag	Billing tag
+translation.sessionInfo.clearAll	Clear all
+translation.sessionInfo.environmentSettings	Environment settings
+translation.sessionInfo.moreRepositories	+{{count}} more
+translation.sessionInfo.createdBy	Created by
+translation.sessionInfo.createdByInfo	Provides the default git identity, personal secrets, and personal plugins.
+translation.sessionInfo.done	done
+translation.sessionInfo.noMatchingTags	No tags found
+translation.sessionInfo.noSubscribers	No subscribers
+translation.sessionInfo.noTag	Miscellaneous
+translation.sessionInfo.noTagInfo	Use for one-off work that doesn't belong under any billing tag.
+translation.sessionInfo.noTags	No tags
+translation.sessionInfo.properties	Properties
+translation.sessionInfo.sessionInfo	Session info
+translation.sessionInfo.subscribersInfo	Show session in sidebar & receive updates
+translation.sessionInfo.tag	Tag
+translation.sessionInfo.tags	Tags
+translation.sessionInfo.uncategorized	Uncategorized
+translation.sessionInfo.uncategorizedInfo	Clear the tag
+translation.sessionInfo.removeFromSidebarInfo	Remove session from sidebar
+translation.sessionInfo.you	(you)
+translation.sessionInfo.changeBillingTag	Change billing tag
+translation.sessionInfo.suggestedBillingTagLink	Suggested <billingTagLink>billing tag</billingTagLink>
+translation.sessionInfo.linkedWorkItems	Linked work items
+translation.sessionInsights.actionableFeedback	Actionable feedback
+translation.sessionInsights.acuUsage	ACU usage
+translation.sessionInsights.acus	ACUs
+translation.sessionInsights.analysisRequired	Analysis required
+translation.sessionInsights.cancel	Cancel
+translation.sessionInsights.category	Category
+translation.sessionInsights.cost	Cost
+translation.sessionInsights.description	This feature uses AI to analyze your Devin session and help you understand what happened, what could be improved, and how to get better results.
+translation.sessionInsights.dialogLabel	Session analysis
+translation.sessionInsights.enterNonZeroAmount	Enter a non-zero amount
+translation.sessionInsights.errorDescription	We encountered an error while loading the session analysis.
+translation.sessionInsights.errorGeneratingConfig	Error generating recommended configuration changes.
+translation.sessionInsights.errorTitle	Something went wrong
+translation.sessionInsights.failedToSave	Failed to save
+translation.sessionInsights.generateAnalysis	Generate analysis
+translation.sessionInsights.generateFailed	Failed to generate analysis. Please try again.
+translation.sessionInsights.generating	Generating…
+translation.sessionInsights.improvedPrompt	Improved prompt
+translation.sessionInsights.investigateWithDevin	Investigate with Devin
+translation.sessionInsights.issueTimeline	Issue timeline
+translation.sessionInsights.knowledgeUsage	Knowledge usage
+translation.sessionInsights.lastUpdated	Last updated
+translation.sessionInsights.noFeedback	No feedback
+translation.sessionInsights.noIssuesFound	No issues found
+translation.sessionInsights.noKnowledgeUsed	No knowledge was used in this session
+translation.sessionInsights.noPromptChanges	No prompt changes were suggested
+translation.sessionInsights.noPromptImprovements	No prompt improvements suggested
+translation.sessionInsights.noPromptSuggestionsAvailable	No prompt suggestions available
+translation.sessionInsights.notProvided	Not provided
+translation.sessionInsights.onDemandUsage	On-demand usage
+translation.sessionInsights.other	Other
+translation.sessionInsights.pending	Pending…
+translation.sessionInsights.regenerate	Regenerate
+translation.sessionInsights.regenerating	Regenerating…
+translation.sessionInsights.save	Save
+translation.sessionInsights.saved	Saved
+translation.sessionInsights.saving	Saving…
+translation.sessionInsights.sessionSize	Session size
+translation.sessionInsights.subcategory	Subcategory
+translation.sessionInsights.timeWithDevin	Time with Devin
+translation.sessionInsights.timeWithDevinTooltip	Estimate of how long the work took to complete with the help of Devin
+translation.sessionInsights.timeWithoutDevin	Time without Devin
+translation.sessionInsights.timeWithoutDevinTooltip	Estimate of how long it would've taken a human to do this work without AI assistance
+translation.sessionInsights.title	Session insights
+translation.sessionInsights.userMessages	User messages
+translation.sessionInsights.viewInPlayground	View in Playground
+translation.sessionSharing.accountRead	Anyone in the account · Can read
+translation.sessionSharing.accountRestrictedByPolicy	Your account policy limits sharing to the session's organization.
+translation.sessionSharing.accountWrite	Anyone in the account · Can write
+translation.sessionSharing.botConversation	A {{botName}}'s conversation is shared by sharing the {{botName}}. You can still remove saved access.
+translation.sessionSharing.botConversation_named	{{botName}}'s conversation is shared by sharing {{botName}}. You can still remove saved access.
+translation.sessionSharing.canManage	Can share
+translation.sessionSharing.canManageDescription	Can read, write, and manage who has access
+translation.sessionSharing.canRead	Can read
+translation.sessionSharing.canReadDescription	Can view the live session
+translation.sessionSharing.canWrite	Can write
+translation.sessionSharing.canWriteDescription	Can view and send messages to the live session
+translation.sessionSharing.copyLink	Copy link
+translation.sessionSharing.description	Share live access with people and roles in your account. People with existing permissions keep their access.
+translation.sessionSharing.enterpriseRead	Anyone in the enterprise · Can read
+translation.sessionSharing.enterpriseWrite	Anyone in the enterprise · Can write
+translation.sessionSharing.generalAccess	General access
+translation.sessionSharing.inheritedDescription	Access through a role or account permission
+translation.sessionSharing.policyRestricted	Your account policy blocks sharing. You can still remove saved access.
+translation.sessionSharing.removeSelfError	You can't remove your own access to share this session.
+translation.sessionSharing.restrictedAccess	Only people added
+translation.sessionSharing.restrictedAccessDescription	Hidden from your organization. Only you and the people added above can open this session.
+translation.sessionSharing.saveFailed	Could not update sharing. Refresh and try again.
+translation.sessionSharing.saved	Session sharing updated
+translation.sessionSharing.searchPlaceholder	Add people, roles or teams
+translation.sessionSharing.searchSavedPlaceholder	Search people, roles or teams with access
+translation.sessionSharing.standaloneEnvironmentWarning	People you add can see everything in this session, and with write access can fully control it.
+translation.sessionSharing.superusersCount_one	{{count}} person with access
+translation.sessionSharing.superusersCount_other	{{count}} people with access
+translation.sessionSharing.superusersDescription	Cognition superusers and support can open this session
+translation.sessionSharing.superusersInheritedDescription	Access through a Cognition admin role
+translation.sessionSharing.superusersLoadFailed	Could not load the list
+translation.sessionSharing.superusersTitle	Cognition superusers
+translation.sessionSharing.teamAccess	Your organization
+translation.sessionSharing.teamAccessDescription	Members of this organization can find and open this session based on their role.
+translation.sessionSharing.title	Share "{{title}}"
+translation.sessionSharing.widenAccountRead	Anyone in the account will be able to read this session, including everything already in it.
+translation.sessionSharing.widenAccountWrite	Anyone in the account will be able to read this session, including everything already in it, and send messages to it.
+translation.sessionSharing.widenConfirm	Share
+translation.sessionSharing.widenEnterpriseRead	Anyone in the enterprise will be able to read this session, including everything already in it.
+translation.sessionSharing.widenEnterpriseWrite	Anyone in the enterprise will be able to read this session, including everything already in it, and send messages to it.
+translation.sessionSharing.widenTeam	Members of this organization will be able to find and open this session based on their role, including everything already in it.
+translation.sessionSharing.widenTitle	Share this session more widely?
+translation.sessionSharing.writeRestricted	Only the session owner can write to this session.
+translation.sessionSharing.writeRestrictedByPolicy	Your account policy limits write access to the session owner. Others can only read.
+translation.sessionSharingPicker.label	Shared with
+translation.sessionSharingPicker.triggerLabel	Shared with: {{audience}}
+translation.sessionSharingPicker.onlyYou	Only you
+translation.sessionSharingPicker.onlyYouDescription	Hidden from everyone else.
+translation.sessionSharingPicker.organizationDescription	Members of {{org}} can find and open this session.
+translation.sessionSharingPicker.enterprise	Your enterprise
+translation.sessionSharingPicker.enterpriseReadDescription	Anyone in your enterprise can open this session.
+translation.sessionSharingPicker.enterpriseWriteDescription	Anyone in your enterprise can open and write to this session.
+translation.sessionSharingPicker.lockedByPolicy	Your organization's policy keeps every session visible only to its creator.
+translation.sessionSharingPicker.lockedByEnvironment	Sessions on this environment run with your own repository access, so they start visible only to you. You can share this session after it starts.
+translation.sessionSharingPicker.lockedByDefault	Your organization starts new sessions visible only to their creator. You can share this session after it starts.
+translation.sessionSharingPicker.lockedByEnvironmentWithGroups	Sessions on this environment run with your own repository access, so they can't start shared with your organization. Pick user groups to share this session with, or share it after it starts.
+translation.sessionSharingPicker.lockedByDefaultWithGroups	Your organization starts new sessions visible only to their creator. Pick user groups to share this session with, or share it after it starts.
+translation.sessionSharingPicker.slackChannelCanSee	The attached Slack channel can still see this session.
+translation.sessionSharingPicker.slackChannelUnavailable	A session shared with only you can't post to a Slack channel. Remove the Slack channel or share the session with your organization to send.
+translation.sessionSharingPicker.oncallUnavailable	A session shared with only you can't use Oncall mode. Share the session with your organization to send.
+translation.sessionSharingPicker.userGroups	User groups
+translation.sessionSharingPicker.userGroupsDescription	Only members of the groups you pick can open this session.
+translation.sessionSharingPicker.userGroupsPicked	{{names, list}}
+translation.sessionSharingPicker.userGroupsCount_one	{{count}} user group
+translation.sessionSharingPicker.userGroupsCount_other	{{count}} user groups
+translation.sessionSharingPicker.noUserGroups	Your organization has no user groups yet.
+translation.sessionSharingPicker.noMatchingUserGroups	No user groups match your search.
+translation.sessionSharingPicker.userGroupsShareFailed	This session could not be shared with {{names, list}}, so only you can see it. Share it again from the session.
+translation.sessionSharingPicker.userGroupsSlackChannelUnavailable	A session shared with user groups can't post to a Slack channel. Remove the Slack channel or share the session with your organization to send.
+translation.sessionSharingPicker.userGroupsOncallUnavailable	A session shared with user groups can't use Oncall mode. Share the session with your organization to send.
+translation.sessionShareInvite.connectSlack	Import contacts from Slack
+translation.sessionShareInvite.connect	Connect
+translation.sessionShareInvite.button	Share
+translation.sessionShareInvite.title	Invite your team to collaborate on sessions
+translation.sessionShareInvite.noPermissionDescription	Only team admins can invite new members. Copy the link to share this session with people already on your team.
+translation.sessionShareInvite.upgrade	Upgrade to Teams
+translation.sessionShareInvite.upgradePending	Your Teams upgrade is processing. Invites unlock once the payment goes through.
+translation.sessionShareInvite.submit	Share and invite
+translation.sessionShareInvite.invited_one	Invited {{count}} teammate to this session
+translation.sessionShareInvite.invited_other	Invited {{count}} teammates to this session
+translation.sessionShareInvite.upgradedAndInvited_one	Switched to Teams and invited {{count}} teammate
+translation.sessionShareInvite.upgradedAndInvited_other	Switched to Teams and invited {{count}} teammates
+translation.sessionShareInvite.newPlan	New plan
+translation.sessionShareInvite.switchAndSend	Switch plan and send invites
+translation.sessionShareInvite.freeSessionsPerk	2 concurrent free sessions per user
+translation.sessionShareInvite.centralizedBillingPerk	Centralized billing and admin
+translation.sessionShareInvite.back	Back
+translation.sessionLiveActivity.sessionFinished	This session is no longer running. Resume it before showing it on your iPhone.
+translation.sessionLiveActivity.alreadyRequested	A Live Activity has already been requested for this session.
+translation.sessionLiveActivity.showOnIphone	Show on iPhone
+translation.sessionLiveActivity.requestQueued	Live Activity request queued for your iPhone.
+translation.sessionLiveActivity.noEligibleIphone	No eligible iPhone found. Open the latest Devin iOS app in this account and enable Live Activities in iPhone Settings.
+translation.sessionLiveActivity.startFailed	Could not start the Live Activity. Please try again.
+translation.sessionMenu.deleteConnection	Delete connection
+translation.sessionMenu.deleteConnectionInfo	Devin stops syncing findings from this source
+translation.sessionMenu.viewAutomation	View automation
+translation.sessionMenu.deleteConnectionConfirmation	Are you sure you want to delete “{{name}}”? Devin will stop syncing findings from it; the findings already imported are kept. This action cannot be undone.
+translation.sessionMenu.deletingConnection	Deleting connection…
+translation.sessionMenu.connectionDeleted	Connection deleted
+translation.sessionMenu.failedToDeleteConnection	Failed to delete connection
+translation.sessionMenu.keepDevinAwake	Keep Devin awake
+translation.sessionMenu.agentSettings	{{botName}} settings
+translation.sessionMenu.keepDevinAwakeError	Failed to update caffeinate settings
+translation.sessionMenu.keepDevinAwakeQuotaExceeded	You can keep up to {{limit}} sessions awake at a time
+translation.sessionMenu.keepDevinAwakeQuotaExceededHint	Turn off Keep Devin awake on another session first.
+translation.sessionMenu.awakeFor	Awake for {{duration}}
+translation.sessionMenu.addDuration	Add {{duration}}
+translation.sessionMenu.duration12Hours	12 hours
+translation.sessionMenu.duration24Hours	24 hours
+translation.sessionMenu.duration72Hours	72 hours
+translation.sessionMenu.turnOff	Turn off
+translation.sessionMenu.babysitting	Babysitting
+translation.sessionMenu.babysittingError	Failed to update babysitting
+translation.sessionMenu.babysittingLoading	Loading babysitting settings…
+translation.sessionMenu.babysittingLoadError	Could not load babysitting settings
+translation.sessionMenu.babysittingOn	On
+translation.sessionMenu.babysittingOff	Off
+translation.sessionMenu.babysittingToggle	Follow up automatically
+translation.sessionMenu.babysittingCovers	Without waiting for you, Devin handles
+translation.sessionMenu.babysittingCoverage.ci	Failing CI checks
+translation.sessionMenu.babysittingCoverage.comments	PR comments
+translation.sessionMenu.babysittingCoverage.conflicts	Merge conflicts
+translation.sessionMenu.babysittingCoverage.review	Devin Review findings
+translation.sessionMenu.babysittingCoverage.testing	Testing its changes
+translation.sessionMenu.settings	Session settings
+translation.sessionMenu.debugInfo	Debug info
+translation.sessionMenu.debugSettingsOn	Debug settings on
+translation.sessionMenu.debugInfoError	Failed to load debug info
+translation.sessionMenu.debugTimelineTotal	Total
+translation.sessionMenu.debugCopied	Copied
+translation.sessionMenu.virtualizationDebug	Virtualization debug
+translation.sessionMenu.enableEtaDebug	Enable ETA debug mode
+translation.sessionMenu.disableEtaDebug	Disable ETA debug mode
+translation.sessionMenu.showBotFullTimeline	Show full event timeline
+translation.sessionMenu.hideBotFullTimeline	Hide full event timeline
+translation.sessionMenu.showBotDeferredEvents	Show deferred events
+translation.sessionMenu.hideBotDeferredEvents	Hide deferred events
+translation.sessionMenu.openInWdw	Open in Watch Devin Work
+translation.sessionMenu.search	Search
+translation.sessionMenu.noResults	No results
+translation.sessionMenu.closePanel	Close panel
+translation.sessionMenu.rename	Rename
+translation.sessionMenu.folder	Folder
+translation.sessionMenu.removeFromFolder	Remove from folder
+translation.sessionMenu.searchFolders	Search folders
+translation.sessionMenu.editTags	Edit tags
+translation.sessionMenu.archive	Archive
+translation.sessionMenu.unarchive	Unarchive
+translation.sessionMenu.rebootVm	Reboot virtual machine
+translation.sessionMenu.updateNetworkConfig	Update network config
+translation.sessionMenu.changeSecurityProfile	Change security profile
+translation.sessionMenu.knowledgeSuggestions	Knowledge suggestions
+translation.sessionMenu.showHiddenHooks	Show hidden hooks
+translation.sessionMenu.hideHiddenHooks	Hide hidden hooks
+translation.sessionMenu.createAutomation	Create automation from session
+translation.sessionMenu.improvePlaybook	Improve playbook from session
+translation.sessionMenu.createPlaybook	Create playbook from session
+translation.sessionMenu.giveFeedback	Give feedback
+translation.sessionMenu.reportSession	Report session
+translation.sessionMenu.openCustomizations	Open Customizations
+translation.sessionMenu.mcpServersEnabled_one	{{count}} MCP server enabled
+translation.sessionMenu.mcpServersEnabled_other	{{count}} MCP servers enabled
+translation.sessionMenu.mcpServersLoading	Loading MCP servers…

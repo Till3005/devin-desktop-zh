@@ -1,0 +1,500 @@
+translation.adminJobs.enqueue.task	Task
+translation.adminJobs.enqueue.accountSystem	account-less (system)
+translation.adminJobs.enqueue.accountFromArgs	account from args
+translation.adminJobs.enqueue.maxAttempts_one	max {{count}} attempt
+translation.adminJobs.enqueue.maxAttempts_other	max {{count}} attempts
+translation.adminJobs.enqueue.timeout	timeout {{seconds}}s
+translation.adminJobs.enqueue.showSchema	Show args schema
+translation.adminJobs.enqueue.hideSchema	Hide args schema
+translation.adminJobs.enqueue.args	Arguments (JSON)
+translation.adminJobs.enqueue.argsHelpFromArgs	Pre-filled from the task's args model with every field named; enqueue validates against it. The job's account is taken from account_id in the arguments.
+translation.adminJobs.enqueue.argsHelpUnknown	Account mode \\
+translation.adminJobs.info.queue	Queue
+translation.adminJobs.info.schedule	Schedule
+translation.adminJobs.info.nextRun	Next run
+translation.adminJobs.info.account	Account
+translation.adminJobs.info.accountFromArgs	From account_id in the arguments
+translation.adminJobs.info.accountSystem	System (account-less)
+translation.adminJobs.info.maxAttempts	Max attempts
+translation.adminJobs.info.timeout	Timeout
+translation.adminJobs.info.holdSetBy	Set by {{by}} at {{at}}
+translation.adminJobs.info.noHold	None
+translation.adminJobs.requests.action	Request enqueue…
+translation.adminJobs.requests.title	Request a job enqueue
+translation.adminJobs.requests.description	Only tasks marked requestable can be requested. Another jobs.request holder reviews the task and these exact arguments, and approving enqueues the job. Arguments are stored with the request but never posted to Slack or the audit log.
+translation.adminJobs.requests.noTasks	No task in this build can be requested.
+translation.adminJobs.requests.reason	Reason
+translation.adminJobs.requests.reasonHelp	Shown to the approver in Slack and kept in the audit log.
+translation.adminJobs.requests.reasonRequired	Please enter a reason
+translation.adminJobs.requests.taskRequired	Please select a task
+translation.adminJobs.requests.submit	Request…
+translation.adminJobs.requests.confirmTitle	Request enqueue of {{task}}?
+translation.adminJobs.requests.confirmDescription	An approver will see the task, queue, account and reason in Slack, and these arguments on the request page. Nothing runs until they approve.
+translation.adminJobs.requests.confirm	Send request
+translation.adminJobs.requests.created	Request {{requestId}} sent for approval
+translation.adminJobs.requests.sectionTitle	Enqueue requests
+translation.adminJobs.requests.sectionHelp	Requests from jobs.request holders to enqueue one job. Any jobs.request holder other than the requester approves or denies each one; approving enqueues exactly the stored arguments. Pending requests expire after 24 hours.
+translation.adminJobs.requests.filterAll	All
+translation.adminJobs.requests.filterPending	Pending
+translation.adminJobs.requests.empty	No enqueue requests.
+translation.adminJobs.requests.emptyPending	No pending enqueue requests.
+translation.adminJobs.requests.columnRequester	Requester
+translation.adminJobs.requests.columnTask	Task
+translation.adminJobs.requests.columnReason	Reason
+translation.adminJobs.requests.columnStatus	Status
+translation.adminJobs.requests.columnCreated	Created
+translation.adminJobs.requests.columnDecision	Decision
+translation.adminJobs.requests.review	Review
+translation.adminJobs.requests.reviewNamed	Review request {{requestId}}
+translation.adminJobs.requests.pageTitle	Enqueue request
+translation.adminJobs.requests.backToJobs	All jobs
+translation.adminJobs.requests.status.pending	pending
+translation.adminJobs.requests.status.approved	approved
+translation.adminJobs.requests.status.denied	denied
+translation.adminJobs.requests.status.expired	expired
+translation.adminJobs.requests.status.failed	enqueue failed
+translation.adminJobs.requests.detailTask	Task
+translation.adminJobs.requests.detailQueue	Queue
+translation.adminJobs.requests.detailAccount	Account
+translation.adminJobs.requests.detailRequester	Requester
+translation.adminJobs.requests.detailReason	Reason
+translation.adminJobs.requests.detailArgs	Arguments
+translation.adminJobs.requests.detailArgsHelp	As validated against the task's args model when the request was made; approving enqueues exactly these.
+translation.adminJobs.requests.detailDedupeKey	Dedupe key
+translation.adminJobs.requests.detailCreated	Created
+translation.adminJobs.requests.detailExpires	Expires
+translation.adminJobs.requests.detailDecision	Decision
+translation.adminJobs.requests.decidedBy	{{status}} by {{approver}} on {{at}}
+translation.adminJobs.requests.expiredAt	Expired on {{at}} without a decision
+translation.adminJobs.requests.enqueuedJob	Enqueued as job {{jobId}}
+translation.adminJobs.requests.deduplicatedJob	Approved, but a pending job with the same dedupe key already existed; nothing new was enqueued.
+translation.adminJobs.requests.failureReason	Enqueue failed: {{reason}}
+translation.adminJobs.requests.ownRequest	You made this request, so someone else must decide it.
+translation.adminJobs.requests.approve	Approve & enqueue
+translation.adminJobs.requests.deny	Deny
+translation.adminJobs.requests.approveTitle	Approve and enqueue {{task}}?
+translation.adminJobs.requests.approveDescription	Enqueues the job with exactly the arguments shown, through the same path as a direct enqueue. Requires a recent sign-in; you may be asked to re-authenticate and then click Approve again.
+translation.adminJobs.requests.denyTitle	Deny request {{requestId}}?
+translation.adminJobs.requests.denyDescription	The requester is told in Slack. Nothing is enqueued.
+translation.adminJobs.requests.approved	Approved: enqueued job {{jobId}} on {{queue}}
+translation.adminJobs.requests.approvedDeduplicated	Approved; a pending job with this dedupe key already existed
+translation.adminJobs.requests.denied	Request denied
+translation.adminJobs.jobLookup.label	Find job by id
+translation.adminJobs.jobLookup.open	Open
+translation.adminJobs.tabs.operations	Operations
+translation.adminJobs.tabs.activity	Activity
+translation.adminJobs.task.activity	Activity
+translation.adminJobs.task.details	Details
+translation.adminJobs.task.arguments	Arguments
+translation.adminJobs.task.bulkEnqueue	Bulk enqueue…
+translation.adminJobs.task.breadcrumbRoot	Jobs
+translation.accountTerms.admin.title	Clickthrough terms
+translation.accountTerms.admin.description	One account admin accepts for the whole account. Enforcement is in the webapp.
+translation.accountTerms.admin.loading	Loading terms settings…
+translation.accountTerms.admin.loadFailed	Could not load terms settings.
+translation.accountTerms.admin.saveFailed	Could not save terms settings.
+translation.accountTerms.admin.exportFailed	Could not export terms evidence. Please try again.
+translation.accountTerms.admin.requireAcceptance	Require acceptance
+translation.accountTerms.admin.blockNonAdmins	Block non-admins until accepted
+translation.accountTerms.admin.termsUrl	Terms URL (HTTPS)
+translation.accountTerms.admin.linkLabel	Terms link label
+translation.accountTerms.admin.accepted	Current terms accepted
+translation.accountTerms.admin.notAccepted	Current terms not accepted
+translation.accountTerms.admin.save	Save terms settings
+translation.accountTerms.admin.export	Export acceptance evidence
+translation.accountTerms.admin.confirmTitle	Save clickthrough terms settings?
+translation.accountTerms.admin.confirmRequired	Accounts without acceptance of this terms URL and link label will be gated. Changing either requires a new acceptance.
+translation.accountTerms.admin.confirmNotRequired	Acceptance will not be required for this account. Existing evidence will be retained.
+translation.accountTerms.admin.confirmSave	Save settings
+translation.accountTerms.title	Review your account’s terms
+translation.accountTerms.description	Before using Devin, an admin needs to accept the terms for this account. One acceptance covers everyone in the account.
+translation.accountTerms.waitingTitle	Your account needs an admin’s acceptance
+translation.accountTerms.waitingDescription	Ask an account admin to sign in and accept the terms. You can continue once they’ve accepted.
+translation.accountTerms.account	Account: {{accountName}}
+translation.accountTerms.authority	By accepting, you confirm you’re authorized to accept these terms on behalf of your account.
+translation.accountTerms.accept	Accept and continue
+translation.accountTerms.accepting	Saving acceptance…
+translation.accountTerms.acceptFailed	We couldn’t save your acceptance. Review the current terms and try again.
+translation.accountTerms.checkAgain	Check again
+translation.accountTerms.switchAccount	Switch account
+translation.accountTerms.signOut	Sign out
+translation.mcpAvailableServers.allServers	All servers
+translation.mcpAvailableServers.addCustomMcp	Add Custom MCP
+translation.mcpAvailableServers.noMcpServersFound	No MCP servers found
+translation.mcpAvailableServers.recommended	Recommended
+translation.mcpAvailableServers.installedByYourPlugins	Installed by your plugins
+translation.mcpAvailableServers.searchMcpServers	Search MCP servers...
+translation.mcpConfiguration.sharedAccess	Shared
+translation.mcpConfiguration.sharedAccessHint	Everyone you share this MCP with uses your sign-in
+translation.mcpConfiguration.personalAccessHint	Each person signs in themselves
+translation.mcpConfiguration.signInAccess	Sign-in
+translation.mcpConfiguration.signInAccessDescription	Whether each person signs in with their own account or everyone shares one connection
+translation.mcpConfiguration.couldNotFindServer	Could not find server with ID: {{serverId}}
+translation.mcpConfiguration.serverNotFound	Server Not Found
+translation.mcpConfiguration.oauth	OAuth
+translation.mcpConfiguration.authorizationHeader	Authorization header
+translation.mcpConfiguration.none	None
+translation.mcpConfiguration.selectAuthenticationMethod	Select authentication method
+translation.mcpConfiguration.thisInstallationCanT	This installation can't be pinned to the session's machine, so the server needs a URL reachable from Devin's servers.
+translation.mcpConfiguration.ifThisServerRuns	If this server runs on the session machine, set execution location to "Session machine" under Advanced.
+translation.mcpConfiguration.mcpServersAreConnected	MCP servers are connected to from Devin's servers by default, so a loopback URL resolves there and not on your session's machine.
+translation.mcpConfiguration.loopbackUrl	Loopback URL
+translation.mcpConfiguration.noUrlProvided	No URL provided
+translation.mcpConfiguration.customUrl	Custom URL
+translation.mcpConfiguration.selectRegion	Select region
+translation.mcpConfiguration.useTheSameScheme	Use the same scheme and host as the marketplace server; query parameters can be appended
+translation.mcpConfiguration.eachOrganizationMemberCan	Each organization member can authenticate with their own personal access token
+translation.mcpConfiguration.personal	Personal
+translation.mcpConfiguration.allMembersShareA	All members share a single connection
+translation.mcpConfiguration.sharedAccessDescription	People with access share a single connection
+translation.mcpConfiguration.personalAccessDescription	Each person with access connects their own account
+translation.mcpConfiguration.organization	Organization
+translation.mcpConfiguration.enterpriseSharedHint	Everyone in the targeted organizations shares a single connection
+translation.mcpConfiguration.pluginDefault	Plugin default: {{scope}}
+translation.mcpConfiguration.enterprisePersonalHint	Each member of a targeted organization signs in themselves
+translation.mcpConfiguration.selectAccessLevel	Select access level
+translation.mcpConfiguration.add	Add
+translation.mcpConfiguration.addEnvironmentVariable	Add environment variable
+translation.mcpConfiguration.noEnvironmentVariablesAdded	No environment variables added
+translation.mcpConfiguration.removeEnvironmentVariable	Remove environment variable
+translation.mcpConfiguration.remove	Remove
+translation.mcpConfiguration.variableValue	Variable value
+translation.mcpConfiguration.variableName	Variable name
+translation.mcpConfiguration.addArgument	Add argument
+translation.mcpConfiguration.noArgumentsAdded	No arguments added
+translation.mcpConfiguration.removeArgument	Remove argument
+translation.mcpConfiguration.enterArgumentValue	Enter argument value
+translation.mcpConfiguration.eGPythonNode	e.g., python, node, ./script.sh
+translation.mcpConfiguration.noCustomHeadersAdded	No custom headers added
+translation.mcpConfiguration.removeCustomHeader	Remove custom header
+translation.mcpConfiguration.headerValue	Header value
+translation.mcpConfiguration.headerName	Header name
+translation.mcpConfiguration.legacyRemoteStreamingTransport	Legacy remote streaming transport
+translation.mcpConfiguration.sse	SSE
+translation.mcpConfiguration.localServerSpawnedAs	Local server spawned as a process
+translation.mcpConfiguration.stdio	STDIO
+translation.mcpConfiguration.remoteServerAtA	Remote server at a URL
+translation.mcpConfiguration.http	HTTP
+translation.mcpConfiguration.selectTransportType	Select transport type
+translation.mcpConfiguration.ifYourOauthProvider	If your OAuth provider requires a pre-registered application, provide the credentials below.
+translation.mcpConfiguration.thisServerSOauth	This server's OAuth provider does not support automatic client registration, so you must provide your own OAuth client credentials. See the server's documentation for setup steps.
+translation.mcpConfiguration.ownOAuthClientIdRequired	This server requires your own OAuth client ID
+translation.mcpConfiguration.oauthClientIdRequiredWithSecret	Enter the OAuth client ID that goes with this client secret
+translation.mcpConfiguration.invalidHeaderName	Header names can contain only letters, digits and the characters ! # $ % & ' * + - . ^ _ ` | ~
+translation.mcpConfiguration.invalidHeaderValue	Header values can contain only visible ASCII characters and tabs
+translation.mcpConfiguration.eGHttpsMcp	e.g. https://mcp.example.com
+translation.mcpConfiguration.customValue	Custom value
+translation.mcpConfiguration.omitParameter	Omit parameter
+translation.mcpConfiguration.defaultDiscovered	Default (discovered)
+translation.mcpConfiguration.eGReadWrite	e.g. read write
+translation.mcpConfiguration.copyOauthCallbackUrl	Copy OAuth callback URL
+translation.mcpConfiguration.copyCallbackUrl	Copy callback URL
+translation.mcpConfiguration.loading	Loading…
+translation.mcpConfiguration.couldNotLoadThe	Could not load the callback URL. Reload the page.
+translation.mcpConfiguration.nonInteractiveMachineTo	Non-interactive, machine-to-machine
+translation.mcpConfiguration.clientCredentials	Client credentials
+translation.mcpConfiguration.interactiveUserLogin	Interactive user login
+translation.mcpConfiguration.authorizationCode	Authorization code
+translation.mcpConfiguration.selectGrantType	Select grant type
+translation.mcpConfiguration.yourOauthClientSecret	Your OAuth client secret
+translation.mcpConfiguration.leaveBlankToKeep	Leave blank to keep existing secret
+translation.mcpConfiguration.yourOauthClientId	Your OAuth client ID
+translation.mcpConfiguration.saveChanges	Save
+translation.mcpConfiguration.saveToTestTools	Save to test tools and use MCP
+translation.mcpConfiguration.cancel	Cancel
+translation.mcpConfiguration.installAndEnable	Install and enable
+translation.mcpConfiguration.onlyMembersWithThe	Only members with the Manage MCP servers permission can install MCP servers. Contact your organization admin.
+translation.mcpConfiguration.useMcp	Use MCP
+translation.mcpConfiguration.tryMcpInSession	Try MCP in session
+translation.mcpConfiguration.completeOauthSetupBefore	Complete OAuth setup before using this MCP
+translation.mcpConfiguration.testTools	Test tools
+translation.mcpConfiguration.testing	Testing...
+translation.mcpConfiguration.testConnectionAndList	Test connection and list tools
+translation.mcpConfiguration.completeOauthSetupBefore2	Complete OAuth setup before testing tools
+translation.mcpConfiguration.stdioServersCanOnly	stdio servers can only be tested in a session — use "Use MCP"
+translation.mcpConfiguration.pleaseFixErrorsTo	Please fix errors to continue
+translation.mcpConfiguration.integration	integration
+translation.mcpConfiguration.alreadyConnectedViaThe	Already connected via the
+translation.mcpConfiguration.completeOauth	Complete OAuth
+translation.mcpConfiguration.completingOauth	Completing OAuth...
+translation.mcpConfiguration.website	Website
+translation.mcpConfiguration.documentation	Documentation
+translation.mcpConfiguration.configurationTips	Configuration Tips
+translation.mcpConfiguration.beta	Beta
+translation.mcpConfiguration.officialMcp	Official MCP
+translation.mcpConfiguration.transportRequired	Transport type is required
+translation.mcpConfiguration.serverUrlRequired	Server URL is required for SSE and HTTP transports
+translation.mcpConfiguration.serverUrlInvalid	Please enter a valid server URL
+translation.mcpConfiguration.commandRequired	Command is required
+translation.mcpConfiguration.envVarNameRequired	Environment variable name is required
+translation.mcpConfiguration.envVarValueRequired	Value for {{name}} is required
+translation.mcpConfiguration.envVarValueRequiredUnnamed	Value for this variable is required
+translation.mcpConfiguration.authHeaderNameRequired	Authorization header name is required
+translation.mcpConfiguration.authHeaderValueRequired	Authorization header value is required
+translation.mcpConfiguration.iconUrlInvalid	Please enter a valid URL (e.g., https://example.com/icon.png)
+translation.mcpConfiguration.urlMustMatchMarketplace	Server URL must use the same scheme and host as the marketplace server
+translation.mcpConfiguration.requiredArgsIncomplete	Please complete required arguments
+translation.mcpConfiguration.clientCredentialsClientIdRequired	The client credentials grant requires an OAuth client ID
+translation.mcpConfiguration.clientCredentialsClientSecretRequired	The client credentials grant requires an OAuth client secret
+translation.mcpConfiguration.oauthResourceRequired	Enter a resource value or choose a different option
+translation.mcpCustomServerHeader.import	Import
+translation.mcpCustomServerHeader.importAnyway	Import anyway
+translation.mcpCustomServerHeader.cancel	Cancel
+translation.mcpCustomServerHeader.importJsonConfig	Import JSON config
+translation.mcpCustomServerHeader.thisConfigAppearsTo	This config appears to contain secret values (API keys, tokens, etc.). They will be stored as plain text in the MCP configuration. Consider using secrets management instead.
+translation.mcpCustomServerHeader.devinCliAndDirect	, Devin CLI, and direct server configs
+translation.mcpCustomServerHeader.pasteAnMcpServer	Paste an MCP server JSON config to auto-fill the form. Supports configs from
+translation.mcpCustomServerHeader.tellDevinWhatThisMcpDoes	Tell Devin what this MCP does
+translation.mcpCustomServerHeader.shortDescription	Short description
+translation.mcpCustomServerHeader.pasteInAnEmoji	Paste in an emoji or URL
+translation.mcpCustomServerHeader.iconLabel	Icon
+translation.mcpCustomServerHeader.slug	Slug:
+translation.mcpCustomServerHeader.eGMyCustom	e.g., My Custom Server
+translation.mcpCustomServerHeader.serverName	Server name
+translation.mcpCustomServerHeader.importJson	Import JSON
+translation.mcpInheritedEnterprise.managedByEnterprise	Managed by enterprise
+translation.mcpInheritedEnterprise.personalMcp	Personal MCP
+translation.mcpInheritedEnterprise.personalMcpEachMember	Personal MCP — each member connects individually
+translation.mcpInstallationSecrets.deleteSecret	Delete secret
+translation.mcpInstallationSecrets.unlinkSecret	Unlink secret
+translation.mcpInstallationSecrets.delete	Delete
+translation.mcpInstallationSecrets.unlink	Unlink
+translation.mcpInstallationSecrets.saveSecrets	Save secrets
+translation.mcpInstallationSecrets.saving	Saving…
+translation.mcpInstallationSecrets.couldNotSaveSecrets	Could not save secrets
+translation.mcpInstallationSecrets.unlinkDescription	This unlinks "{{name}}" from this MCP. The org secret is not deleted and stays available on the Secrets page.
+translation.mcpInstallationSecrets.deleteLinkedDescription	This deletes the stored value for "{{name}}". Anything referencing ${{name}} will fall back to the linked org secret.
+translation.mcpInstallationSecrets.deleteUnlinkedDescription	This deletes the stored value for "{{name}}". Anything referencing ${{name}} will stop resolving until a new value is saved.
+translation.mcpServerCard.officialMcp	Official MCP
+translation.mcpServerCard.beta	Beta
+translation.mcpServerCard.connectedViaIntegration	Connected via integration
+translation.mcpSetupSheet.adding	Adding…
+translation.mcpSetupSheet.add	Add
+translation.mcpSetupSheet.pointDevinAtAn	Point Devin at an MCP server you run yourself. Tools it exposes become available in sessions once it is connected.
+translation.mcpSetupSheet.addACustomMcp	Add a custom MCP
+translation.mcpSubmitInstallation.failedToStartOauth	Failed to start OAuth flow
+translation.mcpSubmitInstallation.oauthServerUnreachable	Devin could not reach the server. Check that the server URL is correct and that the server is online, then try again.
+translation.mcpSubmitInstallation.oauthDiscoveryHttpError	The server responded with HTTP {{status}} when Devin looked up its OAuth settings. Check that the server URL is correct, or try again later.
+translation.mcpSubmitInstallation.youDonTHave	You don't have permission to connect this integration. Ask an org admin to reconnect it.
+translation.mcpSubmitInstallation.failedToAcquireToken	Failed to acquire token
+translation.mcpSubmitInstallation.connectedSuccessfully	Connected successfully!
+translation.mcpSubmitInstallation.failedToUpdateInstallation	Failed to update installation. Please try again.
+translation.mcpSubmitInstallation.installationUpdatedFromMarketplace	Installation updated from marketplace successfully!
+translation.mcpSubmitInstallation.cannotUpdateInstallationMissing	Cannot update installation: missing server or installation ID
+translation.mcpSubmitInstallation.failedToToggleServer	Failed to toggle server enabled state. Please try again.
+translation.mcpSubmitInstallation.cannotToggleServerMissing	Cannot toggle server: missing server or installation ID
+translation.mcpSubmitInstallation.failedToDeletePersonal	Failed to delete personal tokens. Please try again.
+translation.mcpSubmitInstallation.personalTokensDeletedSuccessfully	Personal tokens deleted successfully!
+translation.mcpSubmitInstallation.cannotDeletePersonalTokens	Cannot delete personal tokens: missing server or installation ID
+translation.mcpSubmitInstallation.failedToDeleteInstallation	Failed to delete installation. Please try again.
+translation.mcpSubmitInstallation.installationDeletedSuccessfully	Installation deleted successfully!
+translation.mcpSubmitInstallation.cannotDeleteInstallationMissing	Cannot delete installation: missing server or installation ID
+translation.mcpSubmitInstallation.eachEnvironmentVariableMust	Each environment variable must include both a key and a value.
+translation.mcpSubmitInstallation.installationUpdatedSuccessfully	Installation updated successfully!
+translation.mcpSubmitInstallation.failedToCreateInstallation	Failed to create installation. Please try again.
+translation.mcpSubmitInstallation.thisMcpServerIs	This MCP server is already installed for your organization.
+translation.mcpSubmitInstallation.installationCreatedSuccessfully	Installation created successfully!
+translation.mcpSubmitInstallation.serverEnabled	Server enabled successfully!
+translation.mcpSubmitInstallation.serverDisabled	Server disabled successfully!
+translation.unified.title	My Workspace
+translation.unified.switchScope	Switch scope
+translation.unified.selectEnvironment	Select an environment
+translation.unified.pickBudget	Pick a budget to send
+translation.unified.loadingEnvironments	Loading environments…
+translation.unified.environmentsFailed	Could not load environments. Try reopening this page.
+translation.unified.noEnvironments	No environments available.
+translation.unified.noSnapshot	No snapshot
+translation.unified.orgPlaybookUnavailable	Only enterprise and community playbooks are available in My Workspace. Remove the selected playbook to send.
+translation.unified.slackChannelUnavailable	Slack channels are not available in My Workspace. Remove the Slack channel to send.
+translation.unified.oncallUnavailable	Oncall mode is not available in My Workspace. Turn it off to send.
+translation.unified.selectEnvironmentOrOutpost	Select an environment or outpost
+translation.unified.searchEnvironmentsOrOutposts	Search environments and outposts
+translation.unified.noEnvironmentsOrOutpostsFound	No environments or outposts found
+translation.unified.noUsableOutpost	No outpost is shared with you. Ask an admin.
+translation.unified.environmentSectionRecent	Recently used
+translation.unified.environmentSectionAll	All environments
+translation.unified.manageEnvironments	Manage environments
+translation.unified.outposts	Outposts
+translation.manageAccess.custom	Custom
+translation.manageAccess.customDescription	Choose access for each resource type
+translation.manageAccess.customLine	Can {{verb}}: {{resources, list(style: short)}}
+translation.manageAccess.advancedTitle	Advanced access
+translation.manageAccess.advancedDescription	Choose access separately for each resource type.
+translation.manageAccess.cancel	Cancel
+translation.manageAccess.customAccess	Custom access
+translation.manageAccess.canView	Can view
+translation.manageAccess.viewVerb	view
+translation.manageAccess.noAccess	No access
+translation.manageAccess.save	Save
+translation.manageAccess.accessLevel	Access level
+translation.manageAccess.add	Add
+translation.manageAccess.done	Done
+translation.manageAccess.enterpriseRole	Enterprise role
+translation.manageAccess.organizationRole	Organization role
+translation.manageAccess.enterpriseRoles	Enterprise roles
+translation.manageAccess.everyone	Everyone
+translation.manageAccess.grantFailed	Failed to grant access
+translation.manageAccess.group	Group
+translation.manageAccess.groupMemberCount_one	{{count}} member
+translation.manageAccess.groupMemberCount_other	{{count}} members
+translation.manageAccess.groupMemberCountMore	{{count}}+ members
+translation.manageAccess.groups	Groups
+translation.manageAccess.gitProvider	Git provider
+translation.manageAccess.hasAccess	Has access
+translation.manageAccess.managedByTooltip	Mirrored from {{source}}. Manage this access in your git provider.
+translation.manageAccess.noGrantsYet	No one has been granted access yet.
+translation.manageAccess.peopleHide	Hide who this reaches
+translation.manageAccess.peopleLoadFailed	Could not load the people.
+translation.manageAccess.peopleNone	No one is in this group.
+translation.manageAccess.peopleShow	Show who this reaches
+translation.manageAccess.peopleShowMore	Show more
+translation.manageAccess.loadFailed	Could not load access settings.
+translation.manageAccess.noMatches	No matches found.
+translation.manageAccess.orgRole	Everyone with this role in {{orgName}}
+translation.manageAccess.enterpriseRoleMembers	Everyone with this enterprise role
+translation.manageAccess.orgRoles	Org roles
+translation.manageAccess.orgMembers	All members of this organization
+translation.manageAccess.orgs	Organizations
+translation.manageAccess.orgRolesIn	Org roles · {{orgName}}
+translation.manageAccess.permission	Permission
+translation.manageAccess.inUse	In use
+translation.manageAccess.providerTeam	{{provider}} team · {{orgLogin}}
+translation.manageAccess.providerTeams	Git provider teams
+translation.manageAccess.providerTeamsOf	{{provider}} teams
+translation.manageAccess.providerTeamsOn	{{provider}} teams · {{host}}
+translation.manageAccess.removeAccess	Remove access
+translation.manageAccess.removeFailed	Failed to remove access
+translation.manageAccess.updateFailed	Failed to update access
+translation.manageAccess.fullAccess	Full access
+translation.manageAccess.canList	Can {{verbs, list(style: short)}}
+translation.manageAccess.rolesWithAccess_one	{{count}} role with access
+translation.manageAccess.rolesWithAccess_other	{{count}} roles with access
+translation.manageAccess.teamsWithAccess_one	{{count}} team with access
+translation.manageAccess.teamsWithAccess_other	{{count}} teams with access
+translation.manageAccess.groupsWithAccess_one	{{count}} group with access
+translation.manageAccess.groupsWithAccess_other	{{count}} groups with access
+translation.manageAccess.serviceUser	Service user
+translation.manageAccess.serviceUsers	Service users
+translation.manageAccess.bot	{{botName}}
+translation.manageAccess.bots	{{botNamePlural}}
+translation.manageAccess.title	Manage access
+translation.manageAccess.unknown	Unknown
+translation.manageAccess.unknownUser	Unknown user
+translation.manageAccess.userAvatar	User avatar
+translation.manageAccess.users	Users
+translation.budgets.drawsFrom	Things that can draw from this
+translation.budgets.directUsage	Direct usage
+translation.budgets.directUsersTooltip	User limits apply to organizations directly linked to this budget. Child budget usage does not apply towards this limit.
+translation.budgets.childBudgets_one	{{count}} child budget
+translation.budgets.childBudgets_other	{{count}} child budgets
+translation.budgets.childrenHeading	Child budgets
+translation.budgets.allocatedWithLimit	{{allocated}} / {{limit}} allocated
+translation.budgets.allocatedWithLimitAndPercent	{{allocated}} / {{limit}} ({{percent}}) allocated
+translation.budgets.unlimitedOverallocation	Over (unlimited child)
+translation.budgets.unallocated	{{amount}} under
+translation.budgets.overallocated	{{amount}} over
+translation.budgets.editAllocation	Edit usage allocation
+translation.budgets.onTrack	On track
+translation.budgets.projectedToExceed	Projected to exceed
+translation.budgets.atLimit	At limit
+translation.budgets.overBudget	Over budget
+translation.budgets.allocationResetsTo	Resets to {{limit}} at {{time}}
+translation.budgets.allocationResetsAt	Resets at {{time}}
+translation.budgets.allocationResetsMonthly	Resets at the start of the next monthly cycle.
+translation.budgets.allocationDescription	Set the monthly usage allocation for this budget.
+translation.budgets.allocationDescriptionCycle	Set the monthly usage allocation for this budget.
+Current cycle: {{start}} – {{end}}
+translation.budgets.permanentAllocationHelp	Leave empty for no limit.
+translation.budgets.temporaryAllocationHelp	Applies only to the current monthly window. Leave empty to clear.
+translation.budgets.addOrganization	Add organization
+translation.budgets.selectOrganizationRequired	Please select at least one organization
+translation.budgets.unlinkOrganization	Unlink
+translation.budgets.confirmOrganizationMoves	Move organizations?
+translation.budgets.editBudget	Edit budget
+translation.budgets.blockUsageTitle	Block usage now?
+translation.budgets.blockUsageDescription	This budget has used {{usage}} this cycle. A limit of {{limit}} blocks new usage right away.
+translation.budgets.blockRootUsageDescription	This is the root budget, so this limit blocks usage across the whole enterprise.
+translation.budgets.blockUsageConfirmHint	Type {{name}} exactly to confirm.
+translation.budgets.title	Budgets
+translation.budgets.description	Organize ACU budgets and manage tiers for each budget.
+translation.budgets.descriptionDollars	Organize spend budgets and manage tiers for each budget.
+translation.budgets.name	Name
+translation.budgets.nameRequired	Name required
+translation.budgets.parent	Parent budget
+translation.budgets.cycleLimit	Monthly ACU limit
+translation.budgets.temporaryUsageAllocation	Temporary usage allocation
+translation.budgets.newBudget	New budget
+translation.budgets.createRoot	Create root budget
+translation.budgets.create	Create
+translation.budgets.cancel	Cancel
+translation.budgets.save	Save
+translation.budgets.saved	Budget saved
+translation.budgets.createError	Couldn't create the budget. Check the parent and try again.
+translation.budgets.saveError	Couldn't save the budget. Try again.
+translation.budgets.loadError	Couldn't load budgets
+translation.budgets.policyTableError	Couldn't load usage policies. Try again.
+translation.budgets.retryDescription	Try again to load the latest settings.
+translation.budgets.retry	Try again
+translation.budgets.emptyTitle	No budgets yet
+translation.budgets.emptyDescription	Create your account's root budget to start organizing budgets and tiers.
+translation.budgets.expand	Expand {{name}}
+translation.budgets.collapse	Collapse {{name}}
+translation.budgets.closePreview	Close budget preview
+translation.budgets.moveOrgLeaves_one	The organization leaves {{budget}}.
+translation.budgets.moveOrgLeaves_other	{{count}} organizations leave {{budget}}.
+translation.budgets.moveOrgLosesUserLimits_one	{{count}} user limit no longer applies to its members.
+translation.budgets.moveOrgLosesUserLimits_other	{{count}} user limits no longer apply to its members.
+translation.budgets.moveOrgsLoseUserLimits_one	{{count}} user limit no longer applies to their members.
+translation.budgets.moveOrgsLoseUserLimits_other	{{count}} user limits no longer apply to their members.
+translation.budgets.budget	Budget
+translation.budgets.accountScope	Account-wide (legacy)
+translation.budgets.copyParentAccess	Copy access from the parent budget
+translation.budgets.hiddenParentTooltip	You cannot view the budget {{name}}.
+translation.budgets.archived	Archived
+translation.budgets.noAccessTitle	No budgets to show
+translation.budgets.noAccessDescription	You do not have access to any budget in this account.
+translation.budgets.settingsTab	Settings
+translation.budgets.manageAccessTab	Manage access
+translation.budgets.searchPlaceholder	Search budgets
+translation.budgets.noMatchesTitle	No matching budgets
+translation.budgets.noMatchesDescription	Try a different search.
+translation.budgets.noOrgLinkedTitle	No org-linked budgets
+translation.budgets.noOrgLinkedDescription	Member limits apply only to budgets linked to an organization. Link a budget to an organization to manage its members here.
+translation.budgets.childRange	{{from}}–{{to}} of {{total}}
+translation.budgets.previousChildren	Previous children of {{name}}
+translation.budgets.nextChildren	Next children of {{name}}
+translation.budgets.cycleSpendLimit	Monthly spend limit
+translation.budgets.limitUnit	Limit unit
+translation.budgets.limitUnitAcus	ACUs
+translation.budgets.limitUnitDollars	Dollars
+translation.budgets.spendUtilization	Spend utilization
+translation.budgets.aiGatewayAcus	AI Gateway ACUs
+translation.budgets.aiGatewaySpend	AI Gateway Spend
+translation.budgets.archive	Archive budget
+translation.budgets.archiveConfirmTitle	Archive {{name}}?
+translation.budgets.archiveConfirmDescription	Archived budgets stay in the list under the All filter. New child budgets can't be added under them.
+translation.budgets.archivedToast	Budget archived
+translation.budgets.archiveError	Couldn't archive the budget. Try again.
+translation.budgets.archiveHasChildren	Archive or move child budgets first.
+translation.budgets.manageOrganizations	Manage Organizations
+translation.budgets.archiveOrgLinkedTooltip	Cannot archive a budget linked to an active organization.
+translation.budgets.statusFilter	Filter budgets by status
+translation.budgets.statusActive	Active
+translation.budgets.statusAll	All
+translation.budgets.userLimitsPreview	These user limits are not in force yet. <accountLink>Account-wide user limits</accountLink> apply instead.
+translation.budgets.userLimitsPreviewNoAccount	These user limits are not in force yet.
+translation.budgets.map.children_one	{{count}} child
+translation.budgets.map.children_other	{{count}} children
+translation.budgets.map.noPreviousChildren	No more previous children
+translation.budgets.map.noNextChildren	No more next children
+translation.budgets.map.title	Budget map
+translation.budgets.map.usageWithAllocation	{{used}} / {{limit}}
+translation.budgets.map.zoomIn	Zoom in
+translation.budgets.map.zoomOut	Zoom out
+translation.budgets.map.fit	Fit all budgets
+translation.budgetAccess.canUse	Can use
+translation.budgetAccess.canApproveLimits	Can approve limits
+translation.budgetAccess.canManage	Can manage
+translation.budgetAccess.useDescription	Can draw down from this budget
+translation.budgetAccess.configureDescription	Can set the ACU limits of this budget's sub-budgets
+translation.budgetAccess.manageDescription	Can manage who has access to this budget, and add, move, and archive its sub-budgets

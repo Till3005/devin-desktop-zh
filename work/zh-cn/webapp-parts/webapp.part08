@@ -1,0 +1,500 @@
+translation.analyticsRevamp.local.totalAcuSpend_dollars	Total spend
+translation.analyticsRevamp.local.totalAcuSpendTooltip_dollars	Dollars spent on Desktop and CLI during this period
+translation.analyticsRevamp.local.acusPerUser_dollars	Spend per user
+translation.analyticsRevamp.local.acusPerUserTooltip_dollars	Dollars spent during this period divided by users with Desktop or CLI usage
+translation.analyticsRevamp.local.acusOverTime_dollars	Spend over time
+translation.analyticsRevamp.local.acusOverTimeByModelTooltip_dollars	Top 10 models with the rest grouped as Other
+translation.analyticsRevamp.local.noAcuData_dollars	No local usage in the selected period
+translation.analyticsRevamp.local.acusUsed_dollars	spent
+translation.analyticsRevamp.local.productDistributionSubtitle_dollars	Dollar spend by local product
+translation.analyticsRevamp.local.spendByModelSubtitle_dollars	Dollar spend by model
+translation.analyticsRevamp.local.spendByModelTooltip_dollars	Retired or hidden models grouped as Other
+translation.analyticsRevamp.localMembers.title	Members
+translation.analyticsRevamp.localMembers.description	Local activity per member during this period
+translation.analyticsRevamp.localMembers.descriptionAiGateway	AI Gateway spend per member during this period
+translation.analyticsRevamp.localMembers.searchPlaceholder	Search by name or email
+translation.analyticsRevamp.localMembers.columns.member	Member
+translation.analyticsRevamp.localMembers.columns.sessions	Sessions
+translation.analyticsRevamp.localMembers.columns.messages	Messages
+translation.analyticsRevamp.localMembers.columns.agentLinesAccepted	Agent lines accepted
+translation.analyticsRevamp.localMembers.columns.acus	ACUs
+translation.analyticsRevamp.localMembers.columns.acus_dollars	Spend
+translation.analyticsRevamp.localMembers.tooltips.sessions	Agent conversations on Desktop or CLI during this period
+translation.analyticsRevamp.localMembers.tooltips.agentLinesAccepted	Agent-written lines kept by the member
+translation.analyticsRevamp.localMembers.linesSuggested_one	{{formattedCount}} suggested
+translation.analyticsRevamp.localMembers.linesSuggested_other	{{formattedCount}} suggested
+translation.analyticsRevamp.localMembers.serviceUser	Service user
+translation.analyticsRevamp.localMembers.noName	Unnamed member
+translation.analyticsRevamp.localMembers.empty	No members match
+translation.analyticsRevamp.localMembers.emptySearch	No members match \\
+translation.analyticsRevamp.overview.activeUsers	Active users
+translation.analyticsRevamp.overview.activeUsersTooltip	Users active on any product during this period
+translation.analyticsRevamp.overview.activeUsersOverTimeSubtitle	Active users each day
+translation.analyticsRevamp.overview.usersByProductOverTimeSubtitle	Active users each day, by product
+translation.analyticsRevamp.overview.acusByProductOverTimeSubtitle	ACUs consumed each day, by product
+translation.analyticsRevamp.overview.acusByProductOverTimeSubtitle_dollars	Spend each day, by product
+translation.analyticsRevamp.overview.acuSpend	ACU consumption
+translation.analyticsRevamp.overview.acuSpend_dollars	Spend
+translation.analyticsRevamp.overview.acuSpendTooltip	ACUs consumed across all products during this period
+translation.analyticsRevamp.overview.acuSpendTooltip_dollars	Dollars spent across all products during this period
+translation.analyticsRevamp.overview.acuSpendTooltip_org_dollars	Dollars spent across all products during this period
+translation.analyticsRevamp.overview.acuSpendTooltip_filtered	ACUs consumed across all products by the selected organizations during this period
+translation.analyticsRevamp.overview.acuSpendTooltip_filtered_dollars	Dollars spent across all products by the selected organizations during this period
+translation.analyticsRevamp.overview.acuSpendCommitDetail	{{percent}} of {{capacity}} commit
+translation.analyticsRevamp.overview.acuSpendCommitDetail_org	{{percent}} of {{capacity}} limit
+translation.analyticsRevamp.overview.promotions.title	Promotions
+translation.analyticsRevamp.overview.promotions.usage	Promotion usage
+translation.analyticsRevamp.overview.promotions.consumed	{{used}} / {{budget}} ACUs consumed
+translation.analyticsRevamp.overview.promotions.consumedDollars	{{used}} / {{budget}} consumed
+translation.analyticsRevamp.overview.promotions.disabledDates	{{dates}} · Disabled
+translation.analyticsRevamp.overview.promotions.allSessions	All sessions
+translation.analyticsRevamp.overview.promotions.codeScans	Code scans
+translation.analyticsRevamp.overview.promotions.oncall	Oncall
+translation.analyticsRevamp.overview.promotions.automations	Automations
+translation.analyticsRevamp.overview.promotions.other	Promotion
+translation.analyticsRevamp.overview.promotions.details	Coverage: {{promotion}}
+translation.analyticsRevamp.overview.promotions.generalDetails	How promotions work
+translation.analyticsRevamp.overview.promotions.allUsage	All usage (cloud, PR reviews, local)
+translation.analyticsRevamp.overview.promotions.allUsageCoverage	Covers cloud sessions, PR reviews and local usage (CLI + Desktop) on one budget.
+translation.analyticsRevamp.overview.promotions.allSessionsCoverage	Covers all types of Devin sessions.
+translation.analyticsRevamp.overview.promotions.codeScansCoverage	Covers Code Scan sessions, including scan creation and fixes for findings.
+translation.analyticsRevamp.overview.promotions.oncallCoverage	Covers Oncall sessions, including incident investigations.
+translation.analyticsRevamp.overview.promotions.automationsCoverage	Covers automation sessions, including scheduled and event-triggered runs.
+translation.analyticsRevamp.overview.promotions.chatgptAddon	ChatGPT add-on
+translation.analyticsRevamp.overview.promotions.chatgptAddonCoverage	Covers ChatGPT add-on sessions, where the action models run on the owner's ChatGPT plan.
+translation.analyticsRevamp.overview.promotions.otherCoverage	Coverage depends on the promotion terms.
+translation.analyticsRevamp.overview.promotions.appliesToAll	Applies to all organizations in this account.
+translation.analyticsRevamp.overview.promotions.appliesToAll_org	Applies to this organization.
+translation.analyticsRevamp.overview.promotions.appliesToNamed	Eligible organizations: {{organizations, list}}
+translation.analyticsRevamp.overview.promotions.appliesToSelected	Applies to selected organizations.
+translation.analyticsRevamp.overview.promotions.balanceDetails	Promotions automatically cover eligible usage. Cards show lifetime ACUs consumed out of each promotion’s total budget.\
+Exhausted means all ACUs were used. Expired means unused ACUs are no longer available.
+translation.analyticsRevamp.overview.acuUsage	ACU consumption
+translation.analyticsRevamp.overview.acuUsageVsPreviousCycle	ACU consumption vs. previous cycle
+translation.analyticsRevamp.overview.acuUsageVsPreviousPeriod	ACU consumption vs. previous period
+translation.analyticsRevamp.overview.acuUsageVsPreviousRange	ACU consumption vs. previous range
+translation.analyticsRevamp.overview.acuUsage_dollars	Spend
+translation.analyticsRevamp.overview.acuUsageVsPreviousCycle_dollars	Spend vs. previous cycle
+translation.analyticsRevamp.overview.acuUsageVsPreviousPeriod_dollars	Spend vs. previous period
+translation.analyticsRevamp.overview.acuUsageVsPreviousRange_dollars	Spend vs. previous range
+translation.analyticsRevamp.overview.chartView	Chart metric
+translation.analyticsRevamp.overview.consumptionUnavailable	No billing cycle covers the selected period
+translation.analyticsRevamp.overview.crossUnitRange	This range mixes ACU and dollar billing periods. Pick a range within a single billing period.
+translation.analyticsRevamp.overview.crossUnitRangeShort	Mixes ACU and dollar billing periods
+translation.analyticsRevamp.overview.limit	Commit
+translation.analyticsRevamp.overview.limit_org	Limit
+translation.analyticsRevamp.overview.mergedPrs	Merged PRs
+translation.analyticsRevamp.overview.mergedPrsTooltip	Merged PRs from cloud sessions created during this period
+translation.analyticsRevamp.overview.newSessions	New sessions
+translation.analyticsRevamp.overview.noConsumptionData	No consumption data for the selected period
+translation.analyticsRevamp.overview.noPermission	You don't have permission to view usage analytics.
+translation.analyticsRevamp.overview.noUserData	No user activity for the selected period
+translation.analyticsRevamp.overview.previousCycle	Previous cycle
+translation.analyticsRevamp.overview.previousPeriod	Previous period
+translation.analyticsRevamp.overview.previousRange	Previous range
+translation.analyticsRevamp.overview.scopeAccountWide	Account-wide
+translation.analyticsRevamp.overview.scopeCloudOnly	Cloud only
+translation.analyticsRevamp.overview.selectedRange	Selected range
+translation.analyticsRevamp.overview.thisCycle	This cycle
+translation.analyticsRevamp.overview.thisPeriod	This period
+translation.analyticsRevamp.overview.usersChartView	Users view
+translation.analyticsRevamp.overview.acusByProduct	ACUs by product
+translation.analyticsRevamp.overview.acusByProductChartTooltip	Cloud includes sessions, Ask, automations, scans and DeepWiki. Local includes Desktop and CLI.
+translation.analyticsRevamp.overview.acusByProductChartTooltip_aiGateway	Cloud includes sessions, Ask, automations, scans and DeepWiki. Local includes Desktop, CLI and AI Gateway.
+translation.analyticsRevamp.overview.acusByProduct_dollars	Spend by product
+translation.analyticsRevamp.overview.productGroups.cloud	Cloud
+translation.analyticsRevamp.overview.productGroups.local	Local
+translation.analyticsRevamp.overview.productGroups.review	Review
+translation.analyticsRevamp.overview.legendRollingAverage	7-day average
+translation.analyticsRevamp.overview.legendRollingAverage30	30-day average
+translation.analyticsRevamp.overview.hoverCurrentDay	This day
+translation.analyticsRevamp.overview.usersAll	All
+translation.analyticsRevamp.overview.usersByProduct	By product
+translation.analyticsRevamp.overview.productsChartView	Products view
+translation.analyticsRevamp.overview.productsSummary	Summary
+translation.analyticsRevamp.overview.productsDetailed	Detailed
+translation.analyticsRevamp.overview.productDetails.devin	Cloud sessions
+translation.analyticsRevamp.overview.usersByProductChartTooltip	Users counted once per product
+translation.analyticsRevamp.overview.userProducts.cloudCoding	Cloud coding
+translation.analyticsRevamp.overview.userProducts.localCoding	Local coding
+translation.analyticsRevamp.overview.userProducts.ask	Ask
+translation.analyticsRevamp.pageDescription	Understand how your organization is using Devin and track your ACU consumption
+translation.analyticsRevamp.pageDescription_dollars	Understand how your organization is using Devin and track your spend
+translation.analyticsRevamp.pageTitle	Analytics
+translation.analyticsRevamp.period.backToPeriods	Back to periods
+translation.analyticsRevamp.period.currentBillingCycle	Current billing cycle
+translation.analyticsRevamp.period.customRange	Custom range
+translation.analyticsRevamp.period.last30Days	Last 30 days
+translation.analyticsRevamp.period.last7Days	Last 7 days
+translation.analyticsRevamp.period.lastBillingCycle	Last billing cycle
+translation.analyticsRevamp.period.lastQuarter	Last quarter
+translation.analyticsRevamp.period.previousBillingCycle	Previous billing cycle
+translation.analyticsRevamp.period.selectPeriod	Select period
+translation.analyticsRevamp.period.thisBillingCycle	This billing cycle
+translation.analyticsRevamp.period.thisMonth	This month
+translation.analyticsRevamp.period.thisQuarter	This quarter
+translation.analyticsRevamp.period.thisWeek	This week
+translation.analyticsRevamp.period.timezoneTooltip	Days run midnight to midnight UTC-8. Other time zones aren't supported yet due to technical limitations.
+translation.analyticsRevamp.period.utcTimezoneTooltip	Days in UTC
+translation.analyticsRevamp.revertToLegacy	Revert to legacy
+translation.analyticsRevamp.reviewDashboard.resolvedCountTooltip	Resolved or dismissed findings from reviews during this period
+translation.analyticsRevamp.reviewDashboard.repositoryUsageTooltip	Review ACUs consumed during this period by PRs reviewed during this period
+translation.analyticsRevamp.reviewDashboard.findings	Findings
+translation.analyticsRevamp.reviewDashboard.resolutionRate	Resolution rate
+translation.analyticsRevamp.reviewDashboard.orgAttribution	How Review is attributed to organizations
+translation.analyticsRevamp.reviewDashboard.orgAttributionTooltip	Reviews attributed to the billing organization
+translation.analyticsRevamp.reviewDashboard.orgAttributionOrganizationBody	These metrics cover the reviews attributed to this organization through the user they ran for, such as the PR author. Reviews with no organization appear only in enterprise analytics.
+translation.analyticsRevamp.reviewDashboard.resolutionDescription	Current resolved share by first Review date
+translation.analyticsRevamp.reviewDashboard.resolutionTooltip	Share of findings resolved or dismissed
+translation.analyticsRevamp.reviewDashboard.resolvedFraction	{{resolved}} / {{total}} resolved
+translation.analyticsRevamp.reviewDashboard.byStatus	By status
+translation.analyticsRevamp.reviewDashboard.bySize	By size
+translation.analyticsRevamp.reviewDashboard.total	Total
+translation.analyticsRevamp.reviewDashboard.dailyTotalPrs	Reviewed PRs opened each day
+translation.analyticsRevamp.reviewDashboard.prBreakdown	PR breakdown
+translation.analyticsRevamp.reviewDashboard.dailyOutcomes	Reviewed PRs opened each day, by outcome
+translation.analyticsRevamp.reviewDashboard.dailySizes	Reviewed PRs opened each day, by size
+translation.analyticsRevamp.reviewDashboard.outcomesTooltip	PRs closed without merging count as Closed
+translation.analyticsRevamp.reviewDashboard.mergedUsageChartNote	Average Review ACUs per merged PR, across reviewed PRs created each day. 7-day and 30-day averages are weighted by merged PRs, not by days.
+translation.analyticsRevamp.reviewDashboard.reviewShareChartNote	7-day and 30-day averages are weighted by ACUs, not by days
+translation.analyticsRevamp.reviewDashboard.mergedUsageTooltip	Average Review ACUs per merged PR, across reviewed PRs created during this period
+translation.analyticsRevamp.reviewDashboard.findingsTooltip	Findings from the latest review of each PR
+translation.analyticsRevamp.reviewDashboard.sizeTooltip	PR size by Review ACUs. XS up to 2.25, S up to 4.5, M up to 9, L up to 18, XL above 18.
+translation.analyticsRevamp.reviewDashboard.reviewSessionSize	Review session size
+translation.analyticsRevamp.reviewDashboard.repositoryUsage	Review ACU consumption by repository
+translation.analyticsRevamp.reviewDashboard.repositoryUsageDescription	Review ACUs consumed during this period by PRs reviewed during this period
+translation.analyticsRevamp.reviewDashboard.repositoryPrs	Reviewed pull requests by repository
+translation.analyticsRevamp.reviewDashboard.repositoryPrsDescription	Pull requests reviewed during this period
+translation.analyticsRevamp.reviewDashboard.repository	Repository
+translation.analyticsRevamp.reviewDashboard.recordedUsage	Recorded {{unit}}
+translation.analyticsRevamp.reviewDashboard.chartView	Chart view
+translation.analyticsRevamp.reviewDashboard.reviewCostLabel	{{unit}} per merged PR
+translation.analyticsRevamp.reviewDashboard.usageDistribution	Distribution of reviewed pull requests by size
+translation.analyticsRevamp.reviewDashboard.comparison	PR data from June 16, 2026 and Review data from April 9, 2026
+translation.analyticsRevamp.reviewDashboard.bugStatus	Bug status
+translation.analyticsRevamp.reviewDashboard.bugs	Bugs
+translation.analyticsRevamp.reviewDashboard.bugsMarkedResolved	Bugs resolved
+translation.analyticsRevamp.reviewDashboard.closed	Closed
+translation.analyticsRevamp.reviewDashboard.currentOutcomes	Outcome of reviewed pull requests
+translation.analyticsRevamp.reviewDashboard.empty	No data available for this period.
+translation.analyticsRevamp.reviewDashboard.findingsDescription	Track bugs, flags, and observations
+translation.analyticsRevamp.reviewDashboard.findingsStatus	Fixes and findings
+translation.analyticsRevamp.reviewDashboard.flagStatus	Flag status
+translation.analyticsRevamp.reviewDashboard.flags	Flags
+translation.analyticsRevamp.reviewDashboard.flagsMarkedResolved	Flags resolved
+translation.analyticsRevamp.reviewDashboard.markedResolved	Marked resolved
+translation.analyticsRevamp.reviewDashboard.mergeRate	PR merge rate
+translation.analyticsRevamp.reviewDashboard.mergeRateTooltip	Share of PRs merged, across reviewed PRs created during this period
+translation.analyticsRevamp.reviewDashboard.merged	Merged
+translation.analyticsRevamp.reviewDashboard.mergedPrs	Merged PRs
+translation.analyticsRevamp.reviewDashboard.mergedPrsTooltip	PRs merged during this period that were reviewed by Devin Review
+translation.analyticsRevamp.reviewDashboard.notMarkedResolved	Not marked resolved
+translation.analyticsRevamp.reviewDashboard.observations	Observations
+translation.analyticsRevamp.reviewDashboard.open	Open
+translation.analyticsRevamp.reviewDashboard.prsReviewed	PRs reviewed
+translation.analyticsRevamp.reviewDashboard.prsReviewedTooltip	PRs reviewed by Devin Review during this period
+translation.analyticsRevamp.reviewDashboard.pullRequests	Pull requests
+translation.analyticsRevamp.reviewDashboard.pullRequestsDescription	Review pull request outcomes and statistics over time
+translation.analyticsRevamp.reviewDashboard.acuUnit	ACUs
+translation.analyticsRevamp.reviewDashboard.totalAcuUsage	Total ACU consumption
+translation.analyticsRevamp.reviewDashboard.totalUsageDescription	Review ACUs consumed each day
+translation.analyticsRevamp.reviewDashboard.acuUsagePerMergedPr	ACU consumption per merged PR
+translation.analyticsRevamp.reviewDashboard.mergedUsageDescription	Average Review ACUs per merged PR
+translation.analyticsRevamp.reviewDashboard.averageLabel	Avg {{value}}
+translation.analyticsRevamp.reviewDashboard.orgFilterUnavailable	Review metrics can't be filtered by organization yet
+translation.analyticsRevamp.reviewDashboard.orgFilterUnavailableBody	Organization filtering for Review requires organization-level billing attribution. This account isn't billed per organization, so the Review metrics below cover the entire account.
+translation.analyticsRevamp.reviewDashboard.reviews	Reviews
+translation.analyticsRevamp.reviewDashboard.reviewsTooltip	Review runs completed during this period
+translation.analyticsRevamp.reviewDashboard.reviewShareOfPrAcus	Share of merged PR ACUs
+translation.analyticsRevamp.reviewDashboard.reviewShareLabel	Review share
+translation.analyticsRevamp.reviewDashboard.reviewShareDescription	Review's share of ACUs on merged PRs it shares with a Devin session
+translation.analyticsRevamp.reviewDashboard.reviewShareTooltip	Review's share of ACUs on merged PRs. PRs are counted by the time they were merged.
+translation.analyticsRevamp.reviewDashboard.scopeLabel	Review scope: {{scope}}
+translation.analyticsRevamp.reviewDashboard.scopeAll	All reviewers
+translation.analyticsRevamp.reviewDashboard.security	Security
+translation.analyticsRevamp.reviewDashboard.categoryDescription	Findings of this kind from the built-in review during this period
+translation.analyticsRevamp.reviewDashboard.categoryReported	Reported
+translation.analyticsRevamp.reviewDashboard.categoryResolved	Resolved
+translation.analyticsRevamp.reviewDashboard.categoryOverTime	Reported over time
+translation.analyticsRevamp.reviewDashboard.categoryOverTimeDescription	Findings per day
+translation.analyticsRevamp.reviewDashboard.scopeAutoapprover	Autoapprover
+translation.analyticsRevamp.reviewDashboard.customReviewers	Custom reviewers
+translation.analyticsRevamp.reviewDashboard.reviewerArchived	Archived
+translation.analyticsRevamp.reviewDashboard.reviewerDescription	This reviewer's runs and findings during this period
+translation.analyticsRevamp.reviewDashboard.reviewerRuns	Runs
+translation.analyticsRevamp.reviewDashboard.reviewerRunsTooltip	Times the reviewer ran on a pull request during this period, whatever the result
+translation.analyticsRevamp.reviewDashboard.runsWithFindings	Runs with findings
+translation.analyticsRevamp.reviewDashboard.runsWithFindingsTooltip	Completed runs that left at least one finding open
+translation.analyticsRevamp.reviewDashboard.reviewerFindingsTooltip	Distinct findings the reviewer first raised during this period
+translation.analyticsRevamp.reviewDashboard.resolvedFindings	Resolved findings
+translation.analyticsRevamp.reviewDashboard.resolvedFindingsTooltip	Findings raised during this period that have since been resolved
+translation.analyticsRevamp.reviewDashboard.failedRuns	Failed runs
+translation.analyticsRevamp.reviewDashboard.failedRunsTooltip	Runs that ended with an error
+translation.analyticsRevamp.reviewDashboard.skippedRuns	Skipped runs
+translation.analyticsRevamp.reviewDashboard.skippedRunsTooltip	Runs the reviewer skipped, for example when the spend limit was reached
+translation.analyticsRevamp.reviewDashboard.reviewerRunsOverTime	Runs over time
+translation.analyticsRevamp.reviewDashboard.reviewerRunsOverTimeDescription	Runs per day
+translation.analyticsRevamp.reviewDashboard.reviewersLoading	Loading reviewers…
+translation.analyticsRevamp.reviewDashboard.outcomeFixed	Fixed
+translation.analyticsRevamp.reviewDashboard.outcomeRejected	Rejected
+translation.analyticsRevamp.reviewDashboard.outcomeEscalated	Escalated
+translation.analyticsRevamp.reviewDashboard.outcomeIgnored	Ignored
+translation.analyticsRevamp.reviewDashboard.outcomeOpen	Open
+translation.analyticsRevamp.reviewDashboard.fixRate	Fix rate
+translation.analyticsRevamp.reviewDashboard.fixRateTooltip	Share of the findings that were fixed
+translation.analyticsRevamp.reviewDashboard.rejectedRate	Rejected
+translation.analyticsRevamp.reviewDashboard.rejectedRateTooltip	Share of the findings dismissed as a false positive or as not worth fixing
+translation.analyticsRevamp.reviewDashboard.ignoredRate	Ignored
+translation.analyticsRevamp.reviewDashboard.ignoredRateTooltip	Share of the findings still open when their pull request was merged or closed
+translation.analyticsRevamp.reviewDashboard.outcomeFindingsTooltip	Findings first reported by a review during this period
+translation.analyticsRevamp.reviewDashboard.outcomes	Finding outcomes
+translation.analyticsRevamp.reviewDashboard.outcomesDescription	What became of the findings raised during this period
+translation.analyticsRevamp.reviewDashboard.reviewerOutcomesDescription	What became of this reviewer's findings. Many ignored or rejected findings suggest its instructions are too broad; what it missed is not recorded.
+translation.analyticsRevamp.reviewDashboard.findingOutcomesTooltip	Counted from each finding's own record, where it stands today. These totals can differ from the finding counts above, which come from each pull request's latest review.
+translation.analyticsRevamp.reviewDashboard.outcomesEmpty	No findings were recorded in this period.
+translation.analyticsRevamp.reviewDashboard.outcomesNow	Findings by outcome
+translation.analyticsRevamp.reviewDashboard.builtInReview	Built-in review
+translation.analyticsRevamp.reviewDashboard.outcomeSource	Finding type or reviewer
+translation.analyticsRevamp.reviewDashboard.versions	Instruction versions
+translation.analyticsRevamp.reviewDashboard.versionsDescription	How each version of the instructions that ran during this period did
+translation.analyticsRevamp.reviewDashboard.version	Version
+translation.analyticsRevamp.reviewDashboard.versionFirstRun	First run
+translation.analyticsRevamp.reviewDashboard.versionNumber	v{{number}}
+translation.analyticsRevamp.reviewDashboard.versionSavedHint	Instructions changed to v{{number}}
+translation.analyticsRevamp.reviewDashboard.versionChangesOpen	Show what version {{number}} changed
+translation.analyticsRevamp.reviewDashboard.hitRate	Runs with findings
+translation.analyticsRevamp.reviewDashboard.versionsEmpty	No version ran in this period.
+translation.analyticsRevamp.reviewDashboard.escalatedTooltip	Share of the findings left for a person to decide
+translation.analyticsRevamp.reviewDashboard.medianRunTime	Median run time
+translation.analyticsRevamp.reviewDashboard.medianRunTimeTooltip	Median duration of this reviewer's completed runs
+translation.analyticsRevamp.reviewDashboard.seconds	seconds
+translation.analyticsRevamp.reviewDashboard.examples	Recent findings
+translation.analyticsRevamp.reviewDashboard.examplesDescription_one	Pull requests with findings in the last day of this period, newest first
+translation.analyticsRevamp.reviewDashboard.examplesDescription_other	Pull requests with findings in the last {{count}} days of this period, newest first
+translation.analyticsRevamp.reviewDashboard.examplesTitle	Title
+translation.analyticsRevamp.reviewDashboard.examplesLastFinding	Last finding
+translation.analyticsRevamp.reviewDashboard.examplesAll	All
+translation.analyticsRevamp.reviewDashboard.examplesFilter	Filter findings by outcome
+translation.analyticsRevamp.reviewDashboard.examplesOutcomeCount	{{findings}} {{outcome}}
+translation.analyticsRevamp.reviewDashboard.examplesEmpty	None in this period.
+translation.analyticsRevamp.customizations.skills	Skills
+translation.analyticsRevamp.customizations.skillsDescription	Which skills are used, how often, and the kinds of work they support
+translation.analyticsRevamp.customizations.overview	Overview
+translation.analyticsRevamp.customizations.analytics	Analytics
+translation.analyticsRevamp.customizations.filterByRuntime	Filter by runtime
+translation.analyticsRevamp.customizations.runtime.all	Cloud and local
+translation.analyticsRevamp.customizations.runtime.cloud	Cloud
+translation.analyticsRevamp.customizations.runtime.local	Local
+translation.analyticsRevamp.customizations.invocations	Invocations
+translation.analyticsRevamp.customizations.invocationsTooltip	Times a skill was used during this period, whether the agent activated it or a user invoked it
+translation.analyticsRevamp.customizations.skillsUsed	Skills used
+translation.analyticsRevamp.customizations.skillsUsedTooltip	Distinct skills used at least once during this period
+translation.analyticsRevamp.customizations.cloudSessions	Cloud sessions
+translation.analyticsRevamp.customizations.cloudSessionsTooltip	Distinct cloud sessions that used at least one skill. Local skill usage is not tied to a Devin session.
+translation.analyticsRevamp.customizations.usageOverTime	Usage over time
+translation.analyticsRevamp.customizations.usageOverTimeDescription	Skill invocations and distinct skills used each day
+translation.analyticsRevamp.customizations.skillUsageOverTimeDescription	Invocations of this skill each day
+translation.analyticsRevamp.customizations.usageOverTimeTooltip	Skill invocations per day, split by whether the agent activated the skill or a user invoked it. The line shows how many distinct skills were used that day, on the right axis.
+translation.analyticsRevamp.customizations.sessions	Sessions
+translation.analyticsRevamp.customizations.noSessionsUsedSkill	No sessions have used this skill yet
+translation.analyticsRevamp.customizations.sessionsLoadError	Sessions couldn't be loaded.
+translation.analyticsRevamp.customizations.retryLoadingSessions	Retry
+translation.analyticsRevamp.customizations.viewAllSessions	View all
+translation.analyticsRevamp.customizations.loadMoreSessions	Load more
+translation.analyticsRevamp.customizations.totalInvocations	Total Invocations
+translation.analyticsRevamp.customizations.distinctSkills	Distinct Skills
+translation.analyticsRevamp.customizations.agentTriggered	Agent-triggered
+translation.analyticsRevamp.customizations.userTriggered	User-triggered
+translation.analyticsRevamp.customizations.topSkills	Most invoked skills
+translation.analyticsRevamp.customizations.topSkillsDescription	By invocations
+translation.analyticsRevamp.customizations.taskTypes	Task types
+translation.analyticsRevamp.customizations.taskTypesDescription	Cloud sessions using skills
+translation.analyticsRevamp.customizations.taskTypesTooltip	Task types are available for cloud sessions only. Local skill usage is not tied to a Devin session.
+translation.analyticsRevamp.customizations.taskTypesCloudOnly	Task types are available for cloud sessions
+translation.analyticsRevamp.customizations.taskTypesEmpty	No categorized sessions in this period
+translation.analyticsRevamp.customizations.clearTaskType	Clear
+translation.analyticsRevamp.customizations.skillUsage	All skills
+translation.analyticsRevamp.customizations.skillUsageDescription	Every skill used during this period
+translation.analyticsRevamp.customizations.columns.skill	Skill
+translation.analyticsRevamp.customizations.columns.invocations	Invocations
+translation.analyticsRevamp.customizations.columns.sessions	Sessions
+translation.analyticsRevamp.customizations.columns.users	Users
+translation.analyticsRevamp.customizations.columns.lastUsed	Last used
+translation.analyticsRevamp.customizations.triggerSplit	{{agent}} agent-triggered · {{user}} user-triggered
+translation.analyticsRevamp.customizations.usersTooltip	Unique users of the cloud sessions where this skill was used. Local usage is not included.
+translation.analyticsRevamp.customizations.viewSessions	View sessions
+translation.analyticsRevamp.customizations.searchPlaceholder	Search skills or sources
+translation.analyticsRevamp.customizations.empty	No skill invocations in this period
+translation.analyticsRevamp.customizations.emptySearch	No skills match your filters
+translation.analyticsRevamp.tabs.cloud	Cloud
+translation.analyticsRevamp.tabs.cost_breakdown	Cost Breakdown
+translation.analyticsRevamp.tabs.customizations	Customizations
+translation.analyticsRevamp.tabs.gateway	AI Gateway
+translation.analyticsRevamp.tabs.local	Local
+translation.analyticsRevamp.tabs.localDescription	Usage and performance of local Devin sessions
+translation.analyticsRevamp.tabs.overview	Overview
+translation.analyticsRevamp.tabs.overviewDescription	High-level overview of usage and performance
+translation.analyticsRevamp.tabs.review	Review
+translation.analyticsRevamp.tabs.projects	Projects
+translation.analyticsRevamp.tabs.bots	{{botNamePlural}}
+translation.analyticsRevamp.units.users_one	user
+translation.analyticsRevamp.units.users_other	users
+translation.analyticsRevamp.units.activeUsers_one	active user
+translation.analyticsRevamp.units.activeUsers_other	active users
+translation.analyticsRevamp.units.sessionsCreated_one	session created
+translation.analyticsRevamp.units.sessionsCreated_other	sessions created
+translation.analyticsRevamp.units.acus_one	ACU
+translation.analyticsRevamp.units.acus_other	ACUs
+translation.analyticsRevamp.units.productiveHours_one	productive hour
+translation.analyticsRevamp.units.productiveHours_other	productive hours
+translation.analyticsRevamp.units.aiFtes_one	AI FTE
+translation.analyticsRevamp.units.aiFtes_other	AI FTEs
+translation.analyticsRevamp.units.acusPerProductiveHour_one	ACU per productive hour
+translation.analyticsRevamp.units.acusPerProductiveHour_other	ACUs per productive hour
+translation.analyticsRevamp.units.mergedPrs_one	merged PR
+translation.analyticsRevamp.units.mergedPrs_other	merged PRs
+translation.analyticsRevamp.units.acusPerMergedPr_one	ACU per merged PR
+translation.analyticsRevamp.units.acusPerMergedPr_other	ACUs per merged PR
+translation.analyticsRevamp.units.pullRequests_one	pull request
+translation.analyticsRevamp.units.pullRequests_other	pull requests
+translation.analyticsRevamp.toolbar.allOrganizations	All organizations
+translation.analyticsRevamp.toolbar.clearAll	Clear all
+translation.analyticsRevamp.toolbar.filterByOrganization	Filter by organization
+translation.analyticsRevamp.toolbar.filters	Filters
+translation.analyticsRevamp.toolbar.organizationCount_one	{{count}} organization
+translation.analyticsRevamp.toolbar.organizationCount_other	{{count}} organizations
+translation.analyticsRevamp.toolbar.organizationLimit	You can select up to {{max}} organizations.
+translation.analyticsRevamp.toolbar.organizations	Organizations
+translation.analyticsRevamp.toolbar.organizationsLoadError	Couldn't load organizations
+translation.analyticsRevamp.toolbar.organizationsLoadErrorBody	Metrics for the selected organizations stay hidden until the organization list loads. Clear the filter to see account-wide numbers.
+translation.analyticsRevamp.toolbar.retry	Retry
+translation.analyticsRevamp.toolbar.scope	Scope: {{scope}}
+translation.analyticsRevamp.toolbar.scopeEnterprise	Enterprise
+translation.analyticsRevamp.version	Version
+translation.analyticsRevamp.versionLegacy	Legacy
+translation.analyticsRevamp.versionNewest	Newest
+translation.analyticsRevamp.versionSettings	Analytics settings
+translation.analyticsRevamp.drilldown.open	Open drilldown for {{title}}
+translation.analyticsRevamp.drilldown.openButton	Open drilldown
+translation.analyticsRevamp.drilldown.uncrossed	No sub-breakdown
+translation.analyticsRevamp.drilldown.crossLabel	Cross {{table}} with a second dimension
+translation.analyticsRevamp.drilldown.download	Download CSV
+translation.analyticsRevamp.drilldown.downloadLabel	Download {{table}} as CSV
+translation.analyticsRevamp.drilldown.downloadFailed	Couldn't download the CSV. Please try again.
+translation.analyticsRevamp.drilldown.total	Total
+translation.analyticsRevamp.drilldown.peak	Peak
+translation.analyticsRevamp.drilldown.average	Average
+translation.analyticsRevamp.drilldown.changeVs.day	Change vs. previous day
+translation.analyticsRevamp.drilldown.changeVs.week	Change vs. previous week
+translation.analyticsRevamp.drilldown.changeVs.month	Change vs. previous month
+translation.analyticsRevamp.drilldown.partialBucket	{{label}} (partial)
+translation.analyticsRevamp.drilldown.grainLabel	Table columns
+translation.analyticsRevamp.drilldown.grain.day	By day
+translation.analyticsRevamp.drilldown.grain.week	By week
+translation.analyticsRevamp.drilldown.grain.month	By month
+translation.analyticsRevamp.drilldown.noRows	No data for this period
+translation.analyticsRevamp.drilldown.loadFailed	This table couldn't be loaded.
+translation.analyticsRevamp.drilldown.noBreakdowns	No breakdown tables are available for this chart.
+translation.analyticsRevamp.drilldown.filtersLabel	Drilldown filters
+translation.analyticsRevamp.drilldown.userUplift	User Uplift
+translation.analyticsRevamp.drilldown.userUpliftDescription	Estimated uplift per user from AI, at a baseline of 40 productive hours per week
+translation.analyticsRevamp.drilldown.userUpliftDescription_day	Estimated uplift per user from AI, at a baseline of 8 productive hours per day
+translation.analyticsRevamp.drilldown.more	More
+translation.analyticsRevamp.drilldown.dimensions.organizations	Organizations
+translation.analyticsRevamp.drilldown.dimensions.users	Users
+translation.analyticsRevamp.drilldown.dimensions.repositories	Repositories
+translation.analyticsRevamp.drilldown.dimensions.products	Products
+translation.analyticsRevamp.drilldown.dimensions.models	Models
+translation.analyticsRevamp.drilldown.dimensions.capabilities	Modes
+translation.analyticsRevamp.drilldown.dimensions.categories	Categories
+translation.analyticsRevamp.drilldown.dimensions.origins	Origins
+translation.analyticsRevamp.drilldown.dimensions.sizes	Sizes
+translation.analyticsRevamp.drilldown.dimensions.kinds	Kinds
+translation.analyticsRevamp.drilldown.dimensions.statuses	Statuses
+translation.analyticsRevamp.drilldown.dimensions.outcomes	Outcomes
+translation.analyticsRevamp.drilldown.entities.organizations	Organization
+translation.analyticsRevamp.drilldown.entities.users	User
+translation.analyticsRevamp.drilldown.entities.repositories	Repository
+translation.analyticsRevamp.drilldown.entities.products	Product
+translation.analyticsRevamp.drilldown.entities.models	Model
+translation.analyticsRevamp.drilldown.entities.capabilities	Mode
+translation.analyticsRevamp.drilldown.entities.categories	Category
+translation.analyticsRevamp.drilldown.entities.origins	Origin
+translation.analyticsRevamp.drilldown.entities.sizes	Size
+translation.analyticsRevamp.drilldown.entities.kinds	Kind
+translation.analyticsRevamp.drilldown.entities.statuses	Status
+translation.analyticsRevamp.drilldown.entities.outcomes	Outcome
+translation.analyticsRevamp.usage.more	More
+translation.analyticsRevamp.usage.products.automations	Automations
+translation.analyticsRevamp.usage.products.code_scans	Code scans
+translation.analyticsRevamp.usage.products.oncall	Oncall
+translation.analyticsRevamp.usage.productDescriptions.automations	ACUs consumed by sessions that automations started
+translation.analyticsRevamp.usage.productDescriptions.code_scans	ACUs consumed by code scan sessions
+translation.analyticsRevamp.usage.productDescriptions.oncall	ACUs consumed by oncall sessions: responders, incidents and digests
+translation.analyticsRevamp.usage.productAcus.automations	Automation ACUs over time
+translation.analyticsRevamp.usage.productAcus.code_scans	Code scan ACUs over time
+translation.analyticsRevamp.usage.productAcus.oncall	Oncall ACUs over time
+translation.analyticsRevamp.usage.chartViewLabel	Chart grouping
+translation.analyticsRevamp.usage.chartViews.day	By day
+translation.analyticsRevamp.usage.chartViews.week	By week
+translation.analyticsRevamp.usage.chartViews.cumulative	Cumulative
+translation.analyticsRevamp.usage.metrics.sessions	Sessions
+translation.analyticsRevamp.usage.metrics.sessionsTooltip	Automation sessions created during this period, counted once on their creation date
+translation.analyticsRevamp.usage.metrics.shareOfCloud	Share of Cloud ACUs
+translation.analyticsRevamp.usage.table.title.automations	Automations
+translation.analyticsRevamp.usage.table.title.code_scans	Code scans
+translation.analyticsRevamp.usage.table.title.oncall	Oncall
+translation.analyticsRevamp.usage.table.search.automations	Search by automation
+translation.analyticsRevamp.usage.table.search.code_scans	Search by repository
+translation.analyticsRevamp.usage.table.search.oncall	Search by oncall resource
+translation.analyticsRevamp.usage.table.oncallResource	Oncall resource
+translation.analyticsRevamp.usage.table.previousPeriod	previous period
+translation.analyticsRevamp.usage.table.orgFilterNote	This table covers every organization; the organization filter applies to the chart only
+translation.analyticsRevamp.mergeManagerAudit.title	Autoapprover runs
+translation.analyticsRevamp.mergeManagerAudit.description	Pull requests Autoapprover ran on during this period, most recent first
+translation.analyticsRevamp.mergeManagerAudit.repositoryFilter	Filter by repository: {{repository}}
+translation.analyticsRevamp.mergeManagerAudit.allRepositories	All repositories
+translation.analyticsRevamp.mergeManagerAudit.pullRequest	Pull request
+translation.analyticsRevamp.mergeManagerAudit.latestResult	Latest result
+translation.analyticsRevamp.mergeManagerAudit.approval	Devin approval
+translation.analyticsRevamp.mergeManagerAudit.runs	Runs
+translation.analyticsRevamp.mergeManagerAudit.totalCost	Total cost
+translation.analyticsRevamp.mergeManagerAudit.lastRun	Last run
+translation.analyticsRevamp.mergeManagerAudit.outcome.approve	Approve
+translation.analyticsRevamp.mergeManagerAudit.outcome.review	Needs review
+translation.analyticsRevamp.mergeManagerAudit.outcome.failed	Failed
+translation.analyticsRevamp.mergeManagerAudit.outcome.skipped	Skipped
+translation.analyticsRevamp.mergeManagerAudit.outcome.running	Running
+translation.analyticsRevamp.mergeManagerAudit.approvalState.approved	Approved
+translation.analyticsRevamp.mergeManagerAudit.approvalState.withdrawn	Withdrawn
+translation.analyticsRevamp.mergeManagerAudit.loading	Loading…
+translation.analyticsRevamp.mergeManagerAudit.empty	Autoapprover did not run on any pull request in this period.
+translation.analyticsRevamp.mergeManagerAudit.pageRange	{{first}}–{{last}} of {{total}}
+translation.analyticsRevamp.mergeManagerAudit.previous	Previous
+translation.analyticsRevamp.mergeManagerAudit.next	Next
+translation.analyticsRevamp.autoapprover.verdicts	Verdicts
+translation.analyticsRevamp.autoapprover.verdictsTooltip	Review runs Autoapprover gave a verdict on during this period, including failed and skipped ones
+translation.analyticsRevamp.autoapprover.approveRate	Approve rate
+translation.analyticsRevamp.autoapprover.approveRateTooltip	Share of completed verdicts that were Approve
+translation.analyticsRevamp.autoapprover.needsReview	Needs review
+translation.analyticsRevamp.autoapprover.needsReviewTooltip	Verdicts that left the pull request for a person to review
+translation.analyticsRevamp.autoapprover.withdrawn	Approvals withdrawn
+translation.analyticsRevamp.autoapprover.withdrawnTooltip	Verdicts after which Devin took back an approval it had given, usually because a new commit needed review
+translation.analyticsRevamp.autoapprover.approved	Approvals
+translation.analyticsRevamp.autoapprover.approvedTooltip	Verdicts after which Devin's approval stood on the pull request
+translation.analyticsRevamp.autoapprover.wouldApprove	{{formatted}} would have approved
+translation.analyticsRevamp.autoapprover.ruleForced	Decided by a rule
+translation.analyticsRevamp.autoapprover.ruleForcedTooltip	Verdicts an Always approve or Never approve rule decided without the model
+translation.analyticsRevamp.autoapprover.disagreed	Marked wrong
+translation.analyticsRevamp.autoapprover.disagreedTooltip	Verdicts a person marked as wrong, including a request for changes on a pull request Autoapprover approved
+translation.analyticsRevamp.autoapprover.labeled	of {{formatted}} labeled
+translation.analyticsRevamp.autoapprover.failedOrSkipped	Failed or skipped
+translation.analyticsRevamp.autoapprover.failedOrSkippedTooltip	Runs that ended without a verdict
+translation.analyticsRevamp.autoapprover.overviewDescription	How Autoapprover decided during this period
+translation.analyticsRevamp.autoapprover.viewAll	View Autoapprover
+translation.analyticsRevamp.autoapprover.description	How Autoapprover decided during this period, across every repository of the account
+translation.analyticsRevamp.autoapprover.descriptionSince	How Autoapprover decided during this period. Verdicts are counted from {{date}}; earlier runs appear only in the list below.
+translation.analyticsRevamp.autoapprover.verdictsOverTime	Verdicts over time
+translation.analyticsRevamp.autoapprover.verdictsOverTimeDescription	Approve and Needs review verdicts per day, with Shadow mode verdicts apart and each edit of the instructions marked
+translation.analyticsRevamp.autoapprover.repositories	Verdicts by repository
+translation.analyticsRevamp.autoapprover.repositoriesDescription	The repositories with the most verdicts during this period

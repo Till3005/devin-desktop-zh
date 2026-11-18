@@ -1,0 +1,500 @@
+translation.knowledge.manager.autoOrganizeKnowledge	Auto organize knowledge
+translation.knowledge.manager.tip	Tip
+translation.knowledge.manager.addingDescriptionsToFoldersHelpsMakeTheAutomatic	Adding descriptions to folders helps make the automatic organization more accurate.
+translation.knowledge.manager.loadingSuggestions	Loading suggestions…
+translation.knowledge.manager.failedToLoadResultsPleaseTryAgain	Failed to load results. Please try again.
+translation.knowledge.manager.selectDestinationFolder	Select destination folder
+translation.knowledge.manager.noTriggerSet	No trigger set
+translation.knowledge.manager.content	Content
+translation.knowledge.manager.noContent	No content
+translation.knowledge.manager.movingKnowledge	Moving knowledge…
+translation.knowledge.manager.confirmOrganization	Confirm organization
+translation.knowledge.manager.moveToFolder	Move to folder
+translation.knowledge.manager.moveSelectedItemsToADifferentFolder	Move selected items to a different folder
+translation.knowledge.manager.autoOrganizeSelection	Auto-organize selection
+translation.knowledge.manager.letAIAutomaticallyOrganizeItemsIntoFolders	Let AI automatically organize items into folders
+translation.knowledge.manager.enable	Enable
+translation.knowledge.manager.makeSelectedItemsAvailableForDevinToUse	Make selected items available for Devin to use
+translation.knowledge.manager.disable	Disable
+translation.knowledge.manager.preventDevinFromAccessingSelectedItems	Prevent Devin from accessing selected items
+translation.knowledge.manager.delete	Delete
+translation.knowledge.manager.permanentlyDeleteSelectedItems	Permanently delete selected items
+translation.knowledge.manager.clearSelection	Clear selection
+translation.knowledge.manager.youCanOnlyTakeActionsOnUpTo	You can only take actions on up to 50 items at a time
+translation.knowledge.manager.takeAction	Take action
+translation.knowledge.manager.bulkActions	Bulk actions
+translation.knowledge.manager.takeActionOnSelectedItems_one	Take action on {{count}} selected item
+translation.knowledge.manager.takeActionOnSelectedItems_other	Take action on {{count}} selected items
+translation.knowledge.manager.searchActions	Search actions...
+translation.knowledge.manager.searchForKnowledge	Search for knowledge...
+translation.knowledge.manager.addNewFolder	Add new folder
+translation.knowledge.manager.newFolder	New folder
+translation.knowledge.manager.moreActions	More actions
+translation.knowledge.manager.autoOrganize	Auto-organize
+translation.knowledge.manager.tryAgain	Try again
+translation.knowledge.manager.itemsSelected	items selected
+translation.knowledge.manager.enterprise	Enterprise
+translation.knowledge.manager.lookingForEnterpriseKnowledge	Looking for enterprise knowledge?
+translation.knowledge.manager.knowledgeUpdatedSuccessfully	Knowledge updated successfully
+translation.knowledge.manager.knowledgeDeletedSuccessfully	Knowledge deleted successfully
+translation.knowledge.manager.knowledgePromotedToEnterpriseSuccessfully	Knowledge promoted to enterprise successfully
+translation.knowledge.manager.errorLoadingKnowledge	Error loading knowledge
+translation.knowledge.manager.discardChangesTitle	Discard unsaved changes?
+translation.knowledge.manager.discardChanges	Discard changes
+translation.knowledge.manager.automaticallyGeneratedKnowledge	Automatically generated knowledge
+translation.knowledge.manager.thisPieceOfKnowledgeIsAutomaticallyGeneratedAnd	This piece of knowledge is automatically generated and periodically updated based on your code.
+translation.knowledge.manager.builtInKnowledge	Built-in knowledge
+translation.knowledge.manager.cognitionsBuiltInKnowledgeCannotBeEditedBut	Cognition's built-in knowledge cannot be edited, but can be disabled at any time.
+translation.knowledge.manager.selectARepository	Select a repository
+translation.knowledge.manager.noFoldersFound	No folders found
+translation.knowledge.manager.saving	Saving...
+translation.knowledge.manager.save	Save
+translation.knowledge.manager.promoting	Promoting...
+translation.knowledge.manager.promoteToEnterprise	Promote to Enterprise
+translation.knowledge.manager.promoteThisKnowledgeToEnterpriseLevelItWill	Promote this knowledge to enterprise level? It will become visible to all organizations in your enterprise
+translation.knowledge.manager.promote	Promote
+translation.knowledge.manager.deleteKnowledge	Delete Knowledge
+translation.knowledge.manager.untitledKnowledge	Untitled knowledge
+translation.knowledge.manager.details	Details
+translation.knowledge.manager.usage	Usage
+translation.knowledge.manager.editKnowledge	Edit knowledge
+translation.knowledge.manager.deleteFolder	Delete folder
+translation.knowledge.manager.youCantDeleteNonEmptyFolders	You can't delete non-empty folders
+translation.knowledge.manager.thisFolderHasNoKnowledgeToSelect	This folder has no knowledge to select
+translation.knowledge.manager.theFolderDoesntHaveADescription	The folder doesn't have a description
+translation.knowledge.manager.enabledInYourSessions	Enabled in your sessions
+translation.knowledge.manager.devinCanUseEnabledKnowledgeInYourSessions	Devin can use enabled knowledge in your sessions. This setting only affects your sessions, not the settings for other organization members.
+translation.knowledge.manager.knowledgeNotFound	Knowledge not found
+translation.knowledge.manager.theKnowledgeYouAreLookingForWasDeleted	The knowledge you are looking for was deleted or does not exist.
+translation.knowledge.manager.unknown	Unknown
+translation.knowledge.manager.moveItemsDescription_one	Select a destination folder for the {{count}} selected item
+translation.knowledge.manager.moveItemsDescription_other	Select a destination folder for the {{count}} selected items
+translation.knowledge.manager.deleteItemsDescription_one	Are you sure you want to delete {{count}} selected item? This action cannot be undone
+translation.knowledge.manager.deleteItemsDescription_other	Are you sure you want to delete {{count}} selected items? This action cannot be undone
+translation.knowledge.manager.selectedCount_one	{{count}} selected
+translation.knowledge.manager.selectedCount_other	{{count}} selected
+translation.knowledge.manager.tabOrganization	Organization
+translation.knowledge.manager.tabSuggestions	Suggestions
+translation.knowledge.manager.deleteKnowledgeConfirm	Are you sure you want to delete the knowledge “{{name}}”? This action cannot be undone.
+translation.knowledge.manager.enterpriseFolder	Enterprise Folder
+translation.knowledge.manager.failedToCreateRetry	Failed to create knowledge. Please try again.
+translation.knowledge.manager.failedToGenerateTrigger	Failed to generate trigger. You can still create the knowledge.
+translation.knowledge.manager.createdNewSecret	Created new secret \${{name}}
+translation.knowledge.manager.root	Root
+translation.knowledge.manager.failedToMoveRetry	Failed to move items. Please try again.
+translation.knowledge.manager.enterpriseCannotMove	Enterprise knowledge cannot be moved to a different folder
+translation.knowledge.manager.createFolderToOrganize	You must create at least one folder to auto organize knowledge
+translation.knowledge.manager.allAlreadyEnabled	All selected items are already enabled
+translation.knowledge.manager.allAlreadyDisabled	All selected items are already disabled
+translation.knowledge.manager.selectToOrganize	Select knowledge to auto-organize
+translation.knowledge.manager.selectFewerToOrganize	Select 50 or fewer items to auto-organize
+translation.knowledge.manager.createFolderFirst	Create a folder first to organize knowledge into
+translation.knowledge.manager.noTriggerAvailable	No trigger available
+translation.knowledge.manager.folderWithId	Folder {{id}}
+translation.knowledge.manager.unknownUser	Unknown user
+translation.knowledge.manager.failedToEnable	Failed to enable knowledge
+translation.knowledge.manager.failedToDisable	Failed to disable knowledge
+translation.knowledge.manager.noPermissionFolder	You don't have permission to edit this folder
+translation.knowledge.manager.noPermissionKnowledge	You don't have permission to edit this knowledge
+translation.knowledge.manager.enablingEllipsis	Enabling knowledge...
+translation.knowledge.manager.disablingEllipsis	Disabling knowledge...
+translation.knowledge.manager.enabledSuccessfully	Knowledge enabled successfully
+translation.knowledge.manager.disabledSuccessfully	Knowledge disabled successfully
+translation.knowledge.manager.enabled	Knowledge enabled
+translation.knowledge.manager.disabled	Knowledge disabled
+translation.knowledge.manager.untitledKnowledgeTitle	Untitled Knowledge
+translation.knowledge.manager.enabledKnowledgeHint	Devin can use enabled knowledge in your sessions
+translation.knowledge.manager.selectFolder	Select folder {{name}}
+translation.knowledge.manager.selectKnowledge	Select knowledge {{name}}
+translation.knowledge.suggestions.errorLoading	Error loading suggestions.
+translation.knowledge.pageDescription	Devin recalls relevant knowledge automatically during sessions. Learn more in our <docsLink>documentation</docsLink>.
+translation.knowledge.usage.retrieved	Retrieved
+translation.knowledge.usage.used	Used
+translation.knowledgeSuggestions.accept	Accept
+translation.knowledgeSuggestions.acceptSuggestion	Accept suggestion
+translation.knowledgeSuggestions.acceptWithChanges	Accept (with changes)
+translation.knowledgeSuggestions.accepted	Accepted
+translation.knowledgeSuggestions.acceptingSuggestion	Accepting suggestion...
+translation.knowledgeSuggestions.addSecrets	Add secrets
+translation.knowledgeSuggestions.addSecretsTooltip	Add secrets. Reference secrets with $SECRET_NAME.
+translation.knowledgeSuggestions.allKnowledge	All Knowledge
+translation.knowledgeSuggestions.allSessions	All sessions
+translation.knowledgeSuggestions.cancel	Cancel
+translation.knowledgeSuggestions.conflictWarning	There is a conflict with another change to the knowledge. The update must be made manually.
+translation.knowledgeSuggestions.content	Content
+translation.knowledgeSuggestions.contents	Contents
+translation.knowledgeSuggestions.contentsPlaceholder	Run the test suite before opening a pull request
+translation.knowledgeSuggestions.description	Devin suggests knowledge to remember in future sessions based on your messages
+translation.knowledgeSuggestions.edit	Edit
+translation.knowledgeSuggestions.failedToAccept	Failed to accept suggestion
+translation.knowledgeSuggestions.failedToEdit	Failed to edit knowledge suggestion
+translation.knowledgeSuggestions.failedToReject	Failed to reject suggestion
+translation.knowledgeSuggestions.folder	Folder
+translation.knowledgeSuggestions.largeKnowledgeWarning	Devin may not recall long knowledge accurately
+translation.knowledgeSuggestions.loadMore	Load more
+translation.knowledgeSuggestions.loading	Loading…
+translation.knowledgeSuggestions.macro	Macro
+translation.knowledgeSuggestions.macroDescription	Send !macro-name in a message to retrieve this knowledge
+translation.knowledgeSuggestions.new	New
+translation.knowledgeSuggestions.noContent	No content
+translation.knowledgeSuggestions.noPermission	You don't have permission to accept or reject suggestions.
+translation.knowledgeSuggestions.noRepositoriesFound	No repositories found
+translation.knowledgeSuggestions.noSuggestionsFound	No suggestions found
+translation.knowledgeSuggestions.noSuggestionsYet	No knowledge suggestions yet
+translation.knowledgeSuggestions.noTriggerSpecified	No trigger specified
+translation.knowledgeSuggestions.none	None
+translation.knowledgeSuggestions.onlyAdminsCanAccept	Only admins can accept knowledge suggestions.
+translation.knowledgeSuggestions.onlyAdminsCanAcceptOrReject	Only admins can accept or reject suggestions.
+translation.knowledgeSuggestions.onlyAdminsCanReject	Only admins can reject knowledge suggestions.
+translation.knowledgeSuggestions.onlyEnterpriseAdminsCanAccept	Only enterprise admins can accept updates to enterprise knowledge.
+translation.knowledgeSuggestions.pending	Pending
+translation.knowledgeSuggestions.pinToRepository	Pin to repository
+translation.knowledgeSuggestions.pinToRepositoryDescription	Devin always sees pinned knowledge in the selected repository
+translation.knowledgeSuggestions.reject	Reject
+translation.knowledgeSuggestions.rejectSuggestion	Reject suggestion
+translation.knowledgeSuggestions.rejected	Rejected
+translation.knowledgeSuggestions.rejectingSuggestion	Rejecting suggestion...
+translation.knowledgeSuggestions.rootFolder	Root folder
+translation.knowledgeSuggestions.rootFolderName	Root folder
+translation.knowledgeSuggestions.save	Save
+translation.knowledgeSuggestions.searchByUser	Search by user name or email
+translation.knowledgeSuggestions.searchRepository	Search repositories
+translation.knowledgeSuggestions.selectFolder	Select a folder
+translation.knowledgeSuggestions.status	Status
+translation.knowledgeSuggestions.suggestedFolder	Suggested folder
+translation.knowledgeSuggestions.suggestedOn	Suggested on
+translation.knowledgeSuggestions.suggestionAccepted	Knowledge suggestion accepted
+translation.knowledgeSuggestions.suggestionAcceptedSuccessfully	Suggestion accepted successfully
+translation.knowledgeSuggestions.suggestionRejected	Suggestion rejected
+translation.knowledgeSuggestions.title	Knowledge suggestion
+translation.knowledgeSuggestions.titlePlural	Knowledge suggestions
+translation.knowledgeSuggestions.trigger	Trigger
+translation.knowledgeSuggestions.triggerPlaceholder	Developing a web app from scratch
+translation.knowledgeSuggestions.type	Type
+translation.knowledgeSuggestions.update	Update
+translation.knowledgeSuggestions.useWhen	Use when
+translation.knowledgeSuggestions.user	User
+translation.knowledgeSuggestions.viewExistingKnowledge	View existing knowledge
+translation.knowledgeSuggestions.viewNewKnowledge	View new knowledge
+translation.knowledgeSuggestions.viewUpdatedKnowledge	View updated knowledge
+translation.knowledgeSuggestions.macroPlaceholder	e.g. test-local-webapp
+translation.knowledgeSuggestions.iconLabel	Knowledge suggestions
+translation.knowledgeSuggestions.triggerExample	e.g. updating database schemas in the monorepo
+translation.landing.closeMenu	Close menu
+translation.landing.devinLogo	Devin logo
+translation.landing.home	Home
+translation.landing.logIn	Log in
+translation.landing.openMenu	Open menu
+translation.landing.review	Review
+translation.landing.signUp	Sign up
+translation.landing.tryDevinReview	Try Devin Review
+translation.landing.wiki	Wiki
+translation.landing.docs	Docs
+translation.landmarks.adminSidebar	Admin navigation
+translation.landmarks.marketingSidebar	Marketing navigation
+translation.landmarks.sessionSidebar	Session navigation
+translation.languageSuggestion.title	Change the display language?
+translation.languageSuggestion.description	You can change this anytime in Settings.
+translation.languageSuggestion.accept	Yes
+translation.languageSuggestion.snooze	No
+translation.languageSuggestion.neverAsk	Never ask again
+translation.lightbox.close	Close
+translation.lightbox.copiedImage	Copied image
+translation.lightbox.copyImage	Copy image
+translation.lightbox.copyImageFailed	Failed to copy image
+translation.lightbox.dialogLabel	Image preview
+translation.lightbox.download	Download
+translation.lightbox.fit	Fit
+translation.lightbox.media	Media
+translation.lightbox.next	Next
+translation.lightbox.openInTab	Open in tab
+translation.lightbox.position	{{caption}}, {{current}} of {{total}}
+translation.lightbox.previous	Previous
+translation.lightbox.zoomIn	Zoom in
+translation.lightbox.zoomLevel	Zoom level
+translation.lightbox.zoomOut	Zoom out
+translation.limitSuspendedRestart.bannerText_one	One of your sessions was stopped by a usage limit that has since been raised.
+translation.limitSuspendedRestart.bannerText_other	{{count}} of your sessions were stopped by a usage limit that has since been raised.
+translation.limitSuspendedRestart.cancel	Cancel
+translation.limitSuspendedRestart.dialogDescription	These sessions were stopped by a usage limit that has since been raised.
+translation.limitSuspendedRestart.dialogTitle	Resume stopped sessions
+translation.limitSuspendedRestart.done	Done
+translation.limitSuspendedRestart.empty	No stopped sessions to resume
+translation.limitSuspendedRestart.loading	Loading stopped sessions…
+translation.limitSuspendedRestart.restart	Resume
+translation.limitSuspendedRestart.restartAll_one	Resume {{count}} stopped session
+translation.limitSuspendedRestart.restartAll_other	Resume all {{count}} stopped sessions
+translation.limitSuspendedRestart.restartCount_one	Resume {{count}} session
+translation.limitSuspendedRestart.restartCount_other	Resume {{count}} sessions
+translation.limitSuspendedRestart.restartRequestFailed	Failed to resume sessions. Please try again.
+translation.limitSuspendedRestart.restarted	Resumed
+translation.limitSuspendedRestart.restarting	Resuming…
+translation.limitSuspendedRestart.reviewAndRestart	Review & resume
+translation.limitSuspendedRestart.selectAll	Select all
+translation.limitSuspendedRestart.selectSession	Select {{title}}
+translation.limitSuspendedRestart.stopped	Stopped
+translation.limitSuspendedRestart.stoppedOn	Stopped {{date}}
+translation.linear.removedPlaybookReferences_one	Removed {{count}} playbook reference that is deleted or not available to the mapped organizations
+translation.linear.removedPlaybookReferences_other	Removed {{count}} playbook references that are deleted or not available to the mapped organizations
+translation.linear.selectedTeams_one	{{count}} team selected
+translation.linear.selectedTeams_other	{{count}} teams selected
+translation.linear.connectToSelectTeam	Connect Linear to select a team
+translation.linear.loadingLabels	Loading labels…
+translation.linear.loadingMembers	Loading members…
+translation.linear.loadingStates	Loading states…
+translation.linear.loadingTeams	Loading teams…
+translation.linear.noLabels	No Linear labels
+translation.linear.noLabelsFound	No labels found
+translation.linear.noMembers	No Linear members
+translation.linear.noMembersFound	No members found
+translation.linear.noProjects	No Linear projects
+translation.linear.noStates	No Linear states
+translation.linear.noStatesFound	No states found
+translation.linear.noTeams	No Linear teams
+translation.linear.noTeamsFound	No teams found
+translation.linear.reauthorizeToSelectLabel	Re-authorize Linear to select a label
+translation.linear.reauthorizeToSelectProject	Re-authorize Linear to select a project
+translation.linear.reauthorizeToSelectState	Re-authorize Linear to select a state
+translation.linear.reauthorizeToSelectTeam	Re-authorize Linear to select a team
+translation.linear.searchLabels	Search labels…
+translation.linear.searchMembers	Search members…
+translation.linear.searchStates	Search states…
+translation.linear.searchTeams	Search teams…
+translation.linear.teamsLoadFailed	Couldn't load Linear teams
+translation.linear.connectFailed	Failed to connect to Linear
+translation.linear.disconnected	Linear disconnected successfully
+translation.linear.disconnectFailed	Failed to disconnect Linear
+translation.linear.mappingsSaved	Linear mappings saved successfully
+translation.linear.mappingsSaveFailed	Failed to save Linear mappings
+translation.linear.trigger.allNewIssues	All new issues
+translation.linear.trigger.onStatus	On status "{{state}}"
+translation.linear.trigger.directMentions	Direct mentions only
+translation.linear.trigger.selectAria	Select trigger option
+translation.linear.mapping.selectTeams	Select Linear team(s)
+translation.linear.mapping.searchProjects	Search projects…
+translation.linear.mapping.noProjects	No projects found
+translation.linear.mapping.allTeamsSelected	All available teams already selected.
+translation.linear.mapping.rowIncompleteTeams	* Please select at least one Linear team
+translation.linear.mapping.rowIncompleteTeamsAndOrg	* Please select at least one Linear team and a Devin organization
+translation.linear.mapping.allTeamsMapped	All teams are already mapped
+translation.linear.mapping.addSetting	Add setting
+translation.linear.mapping.addMapping	Add mapping
+translation.linear.mapping.unmapped	Unmapped
+translation.linear.mapping.searchForTeams	Search for teams...
+translation.linear.mapping.newMapping	New mapping
+translation.linear.mapping.searchTeams	Search teams…
+translation.linear.mapping.noTeams	No teams found
+translation.linear.mapping.linearTeam	Linear team
+translation.linear.mapping.devinOrganization	Devin organization
+translation.linear.mapping.noTeamsMatch	No teams match "{{search}}"
+translation.linear.mapping.defaultSetting	Default setting
+translation.linear.mapping.defaultMapping	Default mapping
+translation.linear.mapping.defaultDescription	Configuration for all other Linear teams not mapped above
+translation.linear.mapping.enable	Enable
+translation.linear.mapping.enableDefaultAria	Enable default mapping
+translation.linear.mapping.allOtherTeams	All other teams
+translation.linear.mapping.selectTriggerOption	* Please select a trigger option.
+translation.linear.mapping.selectDefaultOrgAndTrigger	* Please select a default Devin organization and trigger option when default mapping is enabled.
+translation.linear.mapping.titleTriggers	Devin scoping triggers
+translation.linear.mapping.titleMappings	Linear teams to Devin organizations
+translation.linear.mapping.descriptionTriggers	Devin always triggers when you mention <tag /> or assign the <label /> label. Admins can configure additional triggers below.
+translation.linear.mapping.descriptionMappings	Sort where Devin sessions created from Linear should appear in Devin's web application.
+translation.linear.mapping.noTeamsAndOrgs	No Linear teams and organization sub-orgs found.
+translation.linear.mapping.noLinearTeams	No Linear teams found.
+translation.linear.mapping.noDevinOrgs	No Devin organizations found.
+translation.linear.mapping.done	Done
+translation.linear.mapping.save	Save
+translation.linear.mapping.confirmCancelTitle	Are you sure you want to cancel?
+translation.linear.mapping.confirmCancelDescription	A mapping is required for the Linear integration to work
+translation.linear.mapping.cancelAndLeave	Cancel & leave
+translation.linear.mapping.keepEditing	Keep editing
+translation.linear.environmentMappings.title	Linear teams to environments
+translation.linear.environmentMappings.description	When someone in My Workspace mentions Devin in a Linear team, a new session runs on that team's environment. If the team has no environment here, or they cannot use it, the session falls back to their default environment.
+translation.linear.environmentMappings.configure	Configure
+translation.linear.environmentMappings.team	Linear team
+translation.linear.environmentMappings.environment	Environment
+translation.linear.environmentMappings.environmentFor	Environment for {{team}}
+translation.linear.environmentMappings.userDefault	User's default environment
+translation.linear.environmentMappings.remove	Remove environment for {{team}}
+translation.linear.environmentMappings.saved	Linear environment mappings saved
+translation.linear.environmentMappings.noTeams	No Linear teams found.
+translation.linear.environmentMappings.notConnected	Linear is not connected to this account.
+translation.linear.environmentMappings.loadFailed	Could not load the Linear environment mappings.
+translation.linear.environmentMappings.save	Save
+translation.microsoftTeamsAutolink.title	Link your Devin account to Microsoft Teams?
+translation.microsoftTeamsAutolink.description	Devin AI will know who you are when you message it in Microsoft Teams.
+translation.microsoftTeamsAutolink.linkButton	Link Microsoft Teams
+translation.microsoftTeamsAutolink.cancel	Cancel
+translation.microsoftTeamsAutolink.done	Done
+translation.microsoftTeamsAutolink.alreadyLinkedTitle	Microsoft Teams is already linked
+translation.microsoftTeamsAutolink.alreadyLinkedDescription	This Devin account is linked to Microsoft Teams as <email>{{teamsEmail}}</email>.
+translation.microsoftTeamsAutolink.notConnectedTitle	Microsoft Teams isn't connected
+translation.microsoftTeamsAutolink.notConnectedDescription	Microsoft Teams isn't connected for this organization. Switch to the organization your company uses with Teams, or ask your Devin admin.
+translation.microsoftTeamsAutolink.devinAccount	Devin account · {{orgName}}
+translation.microsoftTeamsAutolink.sendAsUserTitle	Post as you in Microsoft Teams?
+translation.microsoftTeamsAutolink.sendAsUserDescription	Messages you send from the Devin web app show up in Teams as "Your Name by Devin". Allow Devin to post them under your own name.
+translation.microsoftTeamsAutolink.reconnectTitle	Reconnect Microsoft Teams
+translation.microsoftTeamsAutolink.reconnectDescription	Devin's permission to post as you in Microsoft Teams expired or was revoked. Reconnect so your messages show up under your own name again.
+translation.microsoftTeams.channelIdLabel	Teams channel ID
+translation.microsoftTeams.channelIdPlaceholder	19:…@thread.tacv2
+translation.microsoftTeams.channelsLoadError	Could not load Teams channels. Retry or enter the channel ID manually.
+translation.microsoftTeams.connectToSelectChannel	Connect Microsoft Teams to select a channel
+translation.microsoftTeams.connectToSelectTeam	Connect Microsoft Teams to select a team
+translation.microsoftTeams.loadingTeams	Loading teams…
+translation.microsoftTeams.noChannels	Install the Devin Teams app in a team to select a channel
+translation.microsoftTeams.noTeams	Install the Devin Teams app in a team to select it
+translation.microsoftTeams.noTeamsFound	No teams found
+translation.microsoftTeams.searchTeams	Search teams…
+translation.microsoftTeams.selectTeam	Select team…
+translation.microsoftTeams.teamIdLabel	Teams team ID
+translation.microsoftTeams.teamsLoadError	Could not load Microsoft Teams. Retry or enter the team ID manually.
+translation.microsoftTeams.groupChatSessionsTitle	Sessions in group chats
+translation.microsoftTeams.groupChatSessionsDescription	How Devin handles a group chat with people from different organizations.
+translation.microsoftTeams.groupChatSessionsShared	Shared session
+translation.microsoftTeams.groupChatSessionsSharedDescription	The chat shares one session, in the organization of whoever started it. Everyone sees Devin's replies.
+translation.microsoftTeams.groupChatSessionsPrivate	Private sessions
+translation.microsoftTeams.groupChatSessionsPrivateDescription	Each person who mentions Devin gets their own session in their own organization. Only they see Devin's replies.
+translation.microsoftTeams.groupChatSessionsExperimental	Experimental
+translation.microsoftTeams.groupChatSessionsPlaceholder	Group chat sessions
+translation.microsoftTeams.threadModeInThread	In-thread
+translation.microsoftTeams.threadModeInThreadDescription	Devin replies in the thread where it was mentioned.
+translation.microsoftTeams.threadModeNew	Create new thread
+translation.microsoftTeams.threadModeNewDescription	When Devin is mentioned in a reply to an existing thread, it starts a new post in the channel and continues there.
+translation.microsoftTeams.threadModePlaceholder	Thread mode
+translation.microsoftTeams.channelPreferencesSaved	Channel preferences saved successfully
+translation.microsoftTeams.channelPreferencesSaveFailed	Failed to save channel preferences
+translation.microsoftTeams.disconnectSuccess	Microsoft Teams disconnected successfully
+translation.microsoftTeams.disconnectFailed	Failed to disconnect Microsoft Teams
+translation.microsoftTeams.disconnectUserFailed	Failed to disconnect user from Microsoft Teams
+translation.microsoftTeams.mapping.loading	Loading...
+translation.microsoftTeams.mapping.title	Microsoft Teams & Organization Mapping
+translation.microsoftTeams.mapping.description	Map Microsoft Teams channels to your Organizations. Private and shared channels are not currently supported and will not appear in the list
+translation.microsoftTeams.mapping.empty	No channel mappings defined. Add mappings to route Microsoft Teams channels to specific organizations.
+translation.microsoftTeams.mapping.channelLabel	Microsoft Teams channel
+translation.microsoftTeams.mapping.selectChannel	Select channel
+translation.microsoftTeams.mapping.searchChannels	Search channels...
+translation.microsoftTeams.mapping.noChannelsFound	No channels found.
+translation.microsoftTeams.mapping.removeMapping	Remove mapping
+translation.microsoftTeams.mapping.selectBoth	* Please select a channel and an organization.
+translation.microsoftTeams.mapping.addNew	Add new mapping
+translation.microsoftTeams.mapping.add	Add mapping
+translation.microsoftTeams.mapping.noneBoth	No Microsoft Teams channels and organization sub-orgs found.
+translation.microsoftTeams.mapping.noneChannels	No Microsoft Teams channels found.
+translation.microsoftTeams.mapping.noneOrgs	No organization sub-orgs found.
+translation.microsoftTeams.mapping.save	Save mappings
+translation.linearTicket.addTicketUrl	Add ticket URL
+translation.linearTicket.atLeastOneValidUrl	At least one valid Linear ticket URL is required
+translation.linearTicket.comments_one	Comments ({{count}})
+translation.linearTicket.comments_other	Comments ({{count}})
+translation.linearTicket.description	Description:
+translation.linearTicket.errorFetching	Error fetching tickets:
+translation.linearTicket.fetchFailed	Failed to fetch Linear tickets
+translation.linearTicket.fetchSucceeded	Linear tickets fetched successfully
+translation.linearTicket.fetchTickets	Fetch tickets
+translation.linearTicket.fetching	Fetching...
+translation.linearTicket.id	ID:
+translation.linearTicket.readMore	Read more
+translation.linearTicket.removeTicketUrl	Remove ticket URL
+translation.linearTicket.showLess	Show less
+translation.linearTicket.team	Team:
+translation.linearTicket.ticketInformation	Ticket information
+translation.linearTicket.ticketUrl	Linear ticket URL
+translation.linearTicket.viewInLinear	View ticket in Linear →
+translation.linkAttachment.edit	Edit
+translation.linkAttachment.openSession	Open session
+translation.linkAttachment.prDeepLink.check	Check
+translation.linkAttachment.prDeepLink.checkNamed	Check {{id}}
+translation.linkAttachment.prDeepLink.checks	Checks
+translation.linkAttachment.prDeepLink.comment	Comment
+translation.linkAttachment.prDeepLink.commit	Commit
+translation.linkAttachment.prDeepLink.commitNamed	Commit {{sha}}
+translation.linkAttachment.prDeepLink.commits	Commits
+translation.linkAttachment.prDeepLink.conflicts	Merge conflicts
+translation.linkAttachment.prDeepLink.event	Timeline event
+translation.linkAttachment.prDeepLink.files	Files changed
+translation.linkAttachment.prDeepLink.line	Line {{line}}
+translation.linkAttachment.prDeepLink.review	Review
+translation.linkAttachment.preview	Preview
+translation.linkAttachment.screenRecording	Screen recording
+translation.linkAttachment.sessionComputerEnded	This session's computer isn't running.
+translation.linkAttachment.sessionComputerNoAccess	You don't have access to this computer.
+translation.linkAttachment.sessionComputerTitle	Session computer
+translation.linkAttachment.thisSession	This session
+translation.linkContextMenu.copyLink	Copy link
+translation.linkContextMenu.openInExternalBrowser	Open in external browser
+translation.linkPreview.collapseInline	Collapse
+translation.linkPreview.copied	Copied!
+translation.linkPreview.copyContent	Copy content
+translation.linkPreview.copyFailed	Failed to copy content
+translation.linkPreview.copyLink	Copy link
+translation.linkPreview.diffFiles_one	{{count}} file
+translation.linkPreview.diffFiles_other	{{count}} files
+translation.linkPreview.diffUnparseable	Unable to parse
+translation.linkPreview.download	Download
+translation.linkPreview.downloadFailed	Failed to download attachment
+translation.linkPreview.downloading	Downloading {{filename}}…
+translation.linkPreview.expandInline	Expand
+translation.linkPreview.loadImage	Load image
+translation.linkPreview.loadPreview	Load preview
+translation.linkPreview.loadVideo	Load video
+translation.linkPreview.loadingDiff	Loading diff…
+translation.linkPreview.noPreviewAvailable	No preview available
+translation.linkPreview.open	Open
+translation.linkPreview.previewUnavailable	Preview unavailable
+translation.linkPreview.tooLargeToPreview	File is too large to preview
+translation.linkPreview.viewCode	View code
+translation.linkPreview.copyLinkFailed	Failed to copy link
+translation.linkPreview.figma.prototype	Prototype
+translation.linkPreview.figma.board	Board
+translation.linkPreview.figma.slides	Slides
+translation.linkPreview.figma.deck	Deck
+translation.linkPreview.figma.frame	Frame
+translation.linkPreview.figma.file	File
+translation.liveSupport.title	Get live help from the Devin team
+translation.liveSupport.description	Tell us what you're working on and someone from the team will join
+translation.liveSupport.contextPlaceholder	What are you stuck on?
+translation.liveSupport.requestHelp	Request live help
+translation.liveSupport.requesting	Requesting…
+translation.liveSupport.getLiveHelp	Get live help
+translation.liveSupport.announcementTitle	Need a hand?
+translation.liveSupport.announcementDescription	The Devin team is available for a live call while you work on this session.
+translation.liveSupport.waiting	Waiting for the Devin team…
+translation.liveSupport.pendingDescription	We've paged the Devin team — someone usually joins within a few minutes
+translation.liveSupport.claimedDescription	{{name}} is joining now
+translation.liveSupport.expiredDescription	Nobody was able to pick this up right away
+translation.liveSupport.joinRoom	Join the room
+translation.liveSupport.cancelRequest	Cancel request
+translation.liveSupport.bookCall	Book a call
+translation.liveSupport.tryAgain	Try again
+translation.liveSupport.askInChannel	Ask in {{channel}}
+translation.liveSupport.joiningNow	{{name}} is joining…
+translation.liveSupport.responder	A teammate
+translation.liveSupport.calloutTitle	Need help getting started with Devin?
+translation.liveSupport.calloutBody	The Devin team is available for a live call.
+translation.liveSupport.contactCalloutBody	The Devin team is here to help you get set up.
+translation.liveSupport.contactTitle	Get help from the Devin team
+translation.liveSupport.contactDescription	Reach out and someone from the team will follow up
+translation.liveSupport.contactTeam	Contact the Devin team
+translation.liveSupport.requestFailed	Couldn't reach the Devin team — please try again.
+translation.liveSupport.admin.cardTitle	Live support
+translation.liveSupport.admin.cardDescription	Lets members of this enterprise page the Devin team into a live room.
+translation.liveSupport.admin.enabled	Enabled
+translation.liveSupport.admin.enabledHelper	When off, members still see the customer channel and booking links if set.
+translation.liveSupport.admin.loading	Loading…
+translation.liveSupport.admin.loadFailed	Couldn't load live support settings.
+translation.liveSupport.admin.retry	Retry
+translation.liveSupport.admin.save	Save
+translation.liveSupport.admin.saved	Live support settings saved
+translation.liveSupport.admin.saveFailed	Failed to save live support settings
+translation.liveSupport.admin.meetingUrl	Meeting URL
+translation.liveSupport.admin.meetingUrlHelper	Standing room the customer joins while waiting.
+translation.liveSupport.admin.bookingUrl	Booking URL
+translation.liveSupport.admin.bookingUrlHelper	Offered when nobody claims a request in time, and while live support is off.
+translation.liveSupport.admin.customerChannelUrl	Customer channel URL
+translation.liveSupport.admin.customerChannelUrlHelper	e.g. the shared Slack channel the customer can also use. Shown with its label, including while live support is off.
+translation.liveSupport.admin.customerChannelLabel	Customer channel label
+translation.liveSupport.admin.internalSlackChannelId	Internal Slack channel ID
+translation.liveSupport.admin.internalSlackChannelIdHelper	Channel the Devin team is paged in. Never shown to customers.
+translation.liveSupport.admin.internalSlackUserIds	Internal Slack user IDs
+translation.liveSupport.admin.internalSlackUserIdsHelper	Comma-separated Slack user IDs to DM on each request. Never shown to customers.
+translation.liveSupport.admin.hoursNote	Hours note

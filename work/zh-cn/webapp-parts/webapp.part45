@@ -1,0 +1,500 @@
+translation.agentProfiles.access.canShareDescription	Can give others access to this profile
+translation.agentProfiles.access.inheritedDescription	Inherited from an account role
+translation.agentProfiles.access.removeSelfError	You can't remove your own access.
+translation.agentProfiles.save	Save
+translation.agentProfiles.unnamedEntry	Item without a visible name
+translation.agentProfiles.securityProfileDescription	Sessions start with this <manageLink>security profile</manageLink>
+translation.agentProfiles.caps.mcp	MCP servers
+translation.agentProfiles.caps.plugin	Plugins
+translation.agentProfiles.caps.secret	Secrets
+translation.agentProfiles.caps.done	Done
+translation.agentProfiles.caps.repo	Repositories
+translation.agentProfiles.caps.none	None
+translation.agentProfiles.caps.folder	Collections
+translation.agentProfiles.caps.trackerConnection	Tracker connections
+translation.agentProfiles.setUpTitle	New agent profile
+translation.agentProfiles.description	Description
+translation.agentProfiles.default	Default
+translation.agentProfiles.pickerSearch	Search
+translation.agentProfiles.accessAfterCreate	You can share this profile once it's created
+translation.agentProfiles.tabs.general	General
+translation.agentProfiles.tabs.resources	Resources
+translation.agentProfiles.tabs.access	Manage access
+translation.agentProfiles.resources.add	Add resources
+translation.agentProfiles.resources.addDescription	Choose what sessions on this profile can reach
+translation.agentProfiles.resources.search	Search resources
+translation.agentProfiles.resources.type	Resource type
+translation.agentProfiles.resources.repository	Repository
+translation.agentProfiles.resources.noMatches	No matches
+translation.agentProfiles.resources.previous	Previous
+translation.agentProfiles.resources.next	Next
+translation.agentProfiles.resources.range	{{start}}-{{end}} of {{total}}
+translation.agentProfiles.resources.everythingIn	Everything in {{name}}
+translation.agentProfiles.resources.included	Included
+translation.agentProfiles.resources.browseRoot	All resources
+translation.agentProfiles.resources.itemCount_one	{{count}} item
+translation.agentProfiles.resources.itemCount_other	{{count}} items
+translation.agentProfiles.resources.allRepos	All repositories
+translation.agentProfiles.resources.allMcp	All MCP servers
+translation.agentProfiles.resources.allPlugins	All plugins
+translation.agentProfiles.resources.allSecrets	All secrets
+translation.agentProfiles.resources.all	All
+translation.agentProfiles.resources.collection	Collection
+translation.agentProfiles.resources.loadError	Couldn't load resources
+translation.agentProfiles.resources.trackerConnection	Tracker connection
+translation.agentProfiles.resources.allTrackerConnections	All tracker connections
+translation.agentProfiles.resources.read	Read
+translation.agentProfiles.resources.write	Write
+translation.agentProfiles.resources.anyRepo	Any repository the session owner can access.
+translation.agentProfiles.resources.anyMcp	Any MCP server the session owner can access.
+translation.agentProfiles.resources.anyPlugin	Any plugin the session owner can access.
+translation.agentProfiles.resources.anySecret	Any secret the session owner can access.
+translation.agentProfiles.resources.anyTrackerConnection	Any tracker connection the session owner can access.
+translation.agentProfiles.resources.allowAny	Allow any
+translation.agentProfiles.resources.anySummaryRepo	Any repository
+translation.agentProfiles.resources.anySummaryRepoWrite	Any repository at Read, Write on {{count}}
+translation.agentProfiles.resources.anySummaryMcp	Any MCP server
+translation.agentProfiles.resources.anySummaryPlugin	Any plugin
+translation.agentProfiles.resources.anySummarySecret	Any secret
+translation.agentProfiles.resources.anySummaryTrackerConnection	Any tracker connection
+translation.agentProfiles.resources.searchCollections	Search collections
+translation.agentProfiles.resources.searchRepos	Search repositories
+translation.agentProfiles.resources.searchMcp	Search MCP servers
+translation.agentProfiles.resources.searchPlugins	Search plugins
+translation.agentProfiles.resources.searchSecrets	Search secrets
+translation.agentProfiles.resources.searchTrackerConnections	Search tracker connections
+translation.agentProfiles.resources.descriptionCollections	Set which collections sessions on this profile can reach
+translation.agentProfiles.resources.descriptionRepo	Set which repositories sessions on this profile can reach
+translation.agentProfiles.resources.descriptionMcp	Set which MCP servers sessions on this profile can reach
+translation.agentProfiles.resources.descriptionPlugin	Set which plugins sessions on this profile can reach
+translation.agentProfiles.resources.descriptionSecret	Set which secrets sessions on this profile can reach
+translation.agentProfiles.resources.descriptionTrackerConnection	Set which tracker connections sessions on this profile can reach
+translation.agentProfiles.resources.selected	{{count}} selected
+translation.agentProfiles.resources.selectedWithAccess	{{count}} selected, {{access}}
+translation.agentProfiles.resources.staysAtWrite	Stays at Write
+translation.agentProfiles.resources.selectedViaCollections	{{count}} selected, plus {{via}} via collections
+translation.agentProfiles.resources.writeCount	{{count}} Write
+translation.agentProfiles.resources.includedBy	Included by {{name}}
+translation.agentProfiles.security	Security
+translation.agentProfiles.securityProfileNone	The account's default
+translation.agentProfiles.createSubmit	Create
+translation.agentProfiles.noChanges	No changes to save
+translation.agentProfiles.discardTitle	Discard unsaved changes?
+translation.agentProfiles.discard	Discard
+translation.agentProfiles.locked	Locked
+translation.agentProfiles.lockedDescription	Sessions use exactly these resources. Nothing can be added at session start.
+translation.scanRuns.title	Scan runs
+translation.scanRuns.freePromo	Free Promo
+translation.scanRuns.freePromoTooltip	This scan ran free with the Devin for Security promo.
+translation.scanRuns.scopeMe	Me
+translation.scanRuns.queued	Queued
+translation.scanRuns.empty	No scans have run yet.
+translation.scanRuns.noMatches	No runs match these filters
+translation.scanRuns.noMatchesDescription	Clear the filter to see every run in this organization.
+translation.scanRuns.cancelScan	Cancel scan
+translation.scanRuns.confirmCancelTitle	Cancel the scan for {{repo}}?
+translation.scanRuns.confirmCancelDescription	This stops the current run. Existing findings and future scheduled scans are not affected.
+translation.scanRuns.keepScan	Keep scan
+translation.scanRuns.cancelScanFailed	Could not cancel the scan.
+translation.scanRuns.cancelScanNoPermission	You don't have permission to cancel scans
+translation.scanRuns.view	Scan history
+translation.scanRuns.scanKind	Type
+translation.scanRuns.created	Created
+translation.scanRuns.duration	Duration
+translation.scanRuns.cost	Cost
+translation.scanRuns.createdBy	Created by
+translation.scanRuns.createdByApi	API
+translation.scanRuns.createdByAutomation	Automation
+translation.oauthCallback.tryAgain	Try again
+translation.oauthCallback.signInDenied	Sign-in was denied. Please try again or contact your administrator.
+translation.oauthCallback.signInFailedWithError	Sign-in failed ({{error}}). Please try again.
+translation.federalDownloads.intro	Install Devin Desktop and the Devin CLI from this deployment.
+translation.federalDownloads.desktopHeading	Devin Desktop
+translation.federalDownloads.desktopUnavailable	Desktop downloads are not available yet. Contact your administrator if you believe this is an error.
+translation.federalDownloads.desktopSetup	After installing, set the portal URL to <code>{{origin}}</code> when prompted.
+translation.federalDownloads.cliHeading	Devin CLI
+translation.federalDownloads.cliUnavailable	CLI downloads are not available yet. Contact your administrator if you believe this is an error.
+translation.federalDownloads.cliSetup	Extract the archive and run the bundled <code>bin/devin</code> (<code>bin/devin.exe</code> on Windows), then run <code>devin setup</code> to finish.
+translation.privacyChoices.home	Home
+translation.privacyChoices.title	Your privacy choices
+translation.privacyChoices.enterpriseNotice	Your organization uses Devin Enterprise. We do not use advertising or retargeting tags for enterprise accounts, so there are no data-sharing preferences to configure here.
+translation.privacyChoices.rights	Depending on where you live, you may have the right to opt out of the sale or sharing of your personal information for targeted advertising purposes under applicable privacy laws, including the CCPA/CPRA and similar US state laws.
+translation.privacyChoices.gpcDetected	Global Privacy Control detected
+translation.privacyChoices.gpcActive	Your browser is sending a Global Privacy Control (GPC) signal. We are legally required to honor this signal and treat you as opted out of data sharing.
+translation.privacyChoices.gpcLocked	A Global Privacy Control (GPC) signal was previously detected from your browser. Per California law, your opt-out is locked for 12 months from when the signal was first detected.
+translation.privacyChoices.lockedUntil	Your opt-out is in effect until <strong>{{date}}</strong>.
+translation.privacyChoices.doNotSell	Do not sell or share my personal information
+translation.privacyChoices.optedOutBody	You are currently opted out. We are honoring your preference and not selling or sharing your personal information for targeted advertising purposes.
+translation.privacyChoices.optOutBody	When enabled, we will honor your opt-out preference and stop selling or sharing your personal information for targeted advertising purposes, as required by applicable law in your jurisdiction.
+translation.privacyChoices.currentStatus	Current status
+translation.privacyChoices.optOutStatus	Opt-out status:
+translation.privacyChoices.optedOut	Opted out
+translation.privacyChoices.notOptedOut	Not opted out
+translation.privacyChoices.method	Method:
+translation.privacyChoices.methodGpc	Global Privacy Control (automatic)
+translation.privacyChoices.methodManual	Manual opt-out
+translation.privacyChoices.blockedHeading	What gets blocked when opted out
+translation.privacyChoices.blockedMeta	Meta (Facebook) Pixel
+translation.privacyChoices.blockedReddit	Reddit Pixel
+translation.privacyChoices.blockedX	X (Twitter) conversion tracking
+translation.privacyChoices.blockedLinkedIn	LinkedIn Insight Tag
+translation.privacyChoices.blockedBing	Bing / Microsoft UET
+translation.privacyChoices.blockedGoogleAds	Google Ads conversion tracking
+translation.privacyChoices.blockedGoogleAnalytics	Google Analytics
+translation.privacyChoices.blockedOther	Other third-party advertising tags
+translation.privacyChoices.activeHeading	What remains active
+translation.privacyChoices.activeFirstParty	First-party analytics (session tracking, event logging)
+translation.privacyChoices.activeDatadog	Datadog (product telemetry)
+translation.privacyChoices.activeCookies	Authentication and session cookies
+translation.privacyChoices.privacyPolicy	Privacy policy
+translation.desktopAuth.copyLoginCodeTitle	Copy your login code
+translation.desktopAuth.pasteCodeBody	Paste this code into Devin CLI to complete the login process.
+translation.desktopAuth.copied	Copied!
+translation.desktopAuth.copyCode	Copy code
+translation.desktopAuth.codeExpiry	This code can only be used once and expires in 5 minutes.
+translation.desktopAuth.unableToSignIn	Unable to sign in
+translation.desktopAuth.error	Error
+translation.desktopAuth.selectAccountCli	Select an account to log into Devin CLI. Your account administrator will be able to see and control your usage.
+translation.desktopAuth.selectAccountMobile	Select an account to log into the Devin app. Your account administrator will be able to see and control your usage.
+translation.desktopAuth.selectAccountDesktop	Select an account to log into {{productName}}. Your account administrator will be able to see and control your {{productName}} usage.
+translation.desktopAuth.genericRetry	Something went wrong. Please try again.
+translation.desktopAuth.trialTitle	Claim your free Devin trial
+translation.desktopAuth.trialBody	Unlock the full power of Devin. Your card will not be charged for 14 days, and you can cancel anytime.
+translation.desktopAuth.startTrial	Start free trial
+translation.desktopAuth.redirecting	Redirecting to {{productName}}
+translation.desktopAuth.goToNow	Go to {{productName}} now
+translation.desktopAuth.provideTokenTitle	Provide authentication token
+translation.desktopAuth.provideTokenSetup	To finish setup, provide your authentication token to {{productName}}
+translation.desktopAuth.provideTokenSignIn	To finish signing in, provide your authentication token to {{productName}}
+translation.desktopAuth.copyToken	Copy token
+translation.desktopAuth.steps	Steps:
+translation.desktopAuth.stepCopy	Copy the token above to your clipboard
+translation.desktopAuth.stepCancelLogin	Click <strong>Cancel login</strong>
+translation.desktopAuth.stepHavingTrouble	Click <strong>Having trouble?</strong>
+translation.desktopAuth.stepProvideToken	Select <strong>Provide Auth Token</strong> and paste the token
+translation.desktopAuth.stepCommandPalette	In {{productName}}, open the Command Palette (Ctrl/Cmd + Shift + P), type <strong>Provide auth token</strong>, and hit Enter
+translation.desktopAuth.stepPaste	Paste the token into the input box and submit
+translation.desktopAuth.tokenExpiry	This token can only be used once and expires in 1 minute.
+translation.connectGit.allSet	You're all set
+translation.connectGit.connectedBody	Your Git provider is connected to Devin. Let your teammate know they're unblocked — or take Devin for a spin yourself.
+translation.connectGit.tryDevin	Try Devin now
+translation.connectGit.manageConnections	Manage Git connections
+translation.connectGit.title	Connect your Git provider
+translation.connectGit.description	A teammate asked you to connect your organization's repositories to Devin so the team can start working.
+translation.welcomeAdvanced.prompts.costAcuTitle	Analyze my recent sessions and identify which ones used the most ACUs.
+translation.welcomeAdvanced.prompts.costQuotaTitle	Analyze my recent sessions and identify which ones cost the most.
+translation.welcomeAdvanced.prompts.migrationTitle	Help me run a migration across my codebase.
+translation.welcomeAdvanced.prompts.auditTitle	Run a security and dependency audit across our codebase.
+translation.welcomeAdvanced.prompts.featuresTitle	Find 10 features that were recently touched based on merged PRs.
+translation.welcomeAdvanced.prompts.flagsTitle	Set up a weekly schedule that scans the codebase for stale feature flags.
+translation.welcomeAdvanced.prompts.designSystemTitle	Create a daily schedule that reviews code changes for design system violations.
+translation.welcomeAdvanced.prompts.createPlaybookTitle	Help me create a playbook that captures a migration workflow.
+translation.welcomeAdvanced.prompts.improvePlaybookTitle	Help me improve a playbook based on how it's been performing.
+translation.welcomeAdvanced.prompts.knowledgeDupesTitle	Review all knowledge entries, find duplicates and contradictions.
+translation.welcomeAdvanced.prompts.knowledgePatternsTitle	Investigate our codebase and documentation to identify key patterns.
+translation.welcomeAdvanced.prompts.knowledgeSuggestionsTitle	Review all pending knowledge suggestions.
+translation.welcomeAdvanced.prompts.failedSessionsTitle	Find sessions that failed or were terminated in the last week.
+translation.welcomeAdvanced.prompts.orgUsageTitle	Analyze recent sessions across my org.
+translation.welcomeAdvanced.tabs.batchLabel	Start Batch Sessions
+translation.welcomeAdvanced.tabs.batchDescription	Launch multiple Devin sessions at once from a list of tasks
+translation.welcomeAdvanced.tabs.scheduleLabel	Create Schedules
+translation.welcomeAdvanced.tabs.scheduleDescription	Set up recurring Devin sessions on a schedule
+translation.welcomeAdvanced.tabs.managePlaybooksLabel	Manage Playbooks
+translation.welcomeAdvanced.tabs.managePlaybooksDescription	Create, improve, and manage reusable playbooks
+translation.welcomeAdvanced.tabs.manageLabel	Manage Knowledge
+translation.welcomeAdvanced.tabs.manageDescription	Organize, deduplicate, and improve Devin's knowledge base
+translation.welcomeAdvanced.tabs.analyzeLabel	Analyze Sessions
+translation.welcomeAdvanced.tabs.analyzeDescription	Get insights and coaching from past Devin sessions
+translation.welcomeScreen.slack.enterEmailError	Please enter an email address
+translation.welcomeScreen.slack.noOrgId	No organization ID found
+translation.welcomeScreen.slack.emailNotConnected	This email is not connected to a Slack account
+translation.welcomeScreen.slack.inviteFailed	Failed to get Slack Connect invite.
+translation.welcomeScreen.slack.enterEmailTitle	Enter Slack Email
+translation.welcomeScreen.slack.enterEmailPlaceholder	Enter your Slack email
+translation.welcomeScreen.slack.gettingInvite	Getting invite…
+translation.welcomeScreen.slack.getInvite	Get invite
+translation.welcomeScreen.slack.getInviteLink	Get invite link
+translation.welcomeScreen.slack.disconnectFailed	Failed to disconnect Slack user integration
+translation.jiraToasts.noOrg	No organization ID found
+translation.jiraToasts.connectFailed	Failed to connect to Jira
+translation.jiraToasts.disconnected	Jira disconnected successfully
+translation.jiraToasts.disconnectFailed	Failed to disconnect Jira
+translation.jiraToasts.webhookRefreshed	Jira webhook refreshed
+translation.jiraToasts.webhookFailed	Failed to refresh the Jira webhook
+translation.jiraToasts.mappingsSaved	Jira mappings saved successfully
+translation.jiraToasts.mappingsFailed	Failed to save Jira mappings
+translation.jiraToasts.regenStarted	Knowledge regeneration started
+translation.jiraToasts.regenFailed	Failed to regenerate knowledge
+translation.jiraToasts.knowledgeCreated	Knowledge created successfully
+translation.jiraToasts.knowledgeSaved	Knowledge saved successfully
+translation.jiraToasts.knowledgeFailed	Failed to save knowledge
+translation.jiraToasts.serviceAccountConnected	Jira service account connected
+translation.slackLink.disabledAutomation	Sessions run by an automation can't be managed here
+translation.slackLink.disabledUnlinkable	This session can't be linked to Slack
+translation.slackLink.disabledNotOwner	Only the session owner can connect this session to Slack
+translation.snapshotSelect.noSnapshot	No snapshot
+translation.snapshotSelect.search	Search snapshots...
+translation.snapshotSelect.loading	Loading snapshots...
+translation.snapshotSelect.noneFound	No snapshots found.
+translation.snapshotSelect.noDescription	No description
+translation.mcpShortcuts.pullFileLabel	Pull a Figma file
+translation.mcpShortcuts.pullNodeLabel	Pull a specific frame or component
+translation.mcpShortcuts.implementDesignLabel	Implement a design from Figma
+translation.mcpShortcuts.postCommentLabel	Post a comment back to Figma
+translation.mcpShortcuts.triageIssueLabel	Start work on a Linear issue
+translation.mcpShortcuts.createIssueLabel	Create a Linear issue
+translation.mcpShortcuts.updateStatusLabel	Comment status on a Linear issue
+translation.mcpShortcuts.searchIssuesLabel	Search Linear issues
+translation.mcpShortcuts.pullJiraIssueLabel	Pull a Jira issue
+translation.mcpShortcuts.createJiraIssueLabel	Create a Jira issue
+translation.mcpShortcuts.searchConfluenceLabel	Search Confluence docs
+translation.mcpShortcuts.searchNotionLabel	Search Notion
+translation.mcpShortcuts.readPageLabel	Read a Notion page
+translation.mcpShortcuts.createPageLabel	Create a Notion page
+translation.mcpShortcuts.investigateIssueLabel	Investigate a Sentry issue
+translation.mcpShortcuts.recentErrorsLabel	Summarize recent errors
+translation.mcpShortcuts.linkPrLabel	Link a fix to a Sentry issue
+translation.mcpShortcuts.summarizeChannelLabel	Summarize a Slack channel
+translation.mcpShortcuts.findThreadLabel	Find a Slack thread
+translation.mcpShortcuts.postUpdateLabel	Post an update to Slack
+translation.integrationOAuth.githubLinkSlow	GitHub link is taking longer than expected. Refresh the page to check its status.
+translation.displayLanguage.saveFailed	Failed to save display language
+translation.devEnvironments.connectionIssue	Repository with {{provider}} connection issue
+translation.inputCommands.btw	Ask in a side chat
+translation.inputCommands.queue	Add to queue
+translation.inputCommands.ask	Switch to Ask mode
+translation.inputCommands.scan	Run code scan
+translation.mcpSuggestions.figma	Use Figma MCP for this prompt
+translation.mcpSuggestions.linear	Enable Linear MCP to let Devin start working on your issues
+translation.mcpSuggestions.slack	Enable Slack MCP to let Devin send messages to your team
+translation.internalBots.automation	Automation
+translation.internalBots.codeScan	Code Scan
+translation.internalBots.devinBot	Devin Bot
+translation.internalBots.pylonBot	Pylon Bot
+translation.acpErrors.requestFailedRetry	Request failed. Try again.
+translation.acpErrors.requestFailedRetryIn_one	Request failed. Try again in {{count}} second.
+translation.acpErrors.requestFailedRetryIn_other	Request failed. Try again in {{count}} seconds.
+translation.acpErrors.messageNotSent	Your message was not sent.
+translation.acpErrors.sessionUsageLimitReached	This session has reached a usage limit
+translation.sessionSegmentation.phaseSetup	Setup
+translation.sessionSegmentation.phaseResearching	Researching
+translation.sessionSegmentation.phaseImplementing	Implementing
+translation.sessionSegmentation.phaseTesting	Testing
+translation.sessionSegmentation.phaseDebugging	Debugging
+translation.sessionSegmentation.phaseFixingCi	Fixing CI
+translation.sessionSegmentation.phaseReviewing	Reviewing
+translation.sessionSegmentation.phaseWaiting	Waiting
+translation.sessionSegmentation.phaseOther	Other
+translation.sessionSegmentation.minutesShort	{{minutes}}m
+translation.sessionSegmentation.ratePerMinute	{{rate}}/min
+translation.sessionSegmentation.acuPerMinute	{{rate}} ACU/min
+translation.sessionSegmentation.prOpened	PR {{number}} opened
+translation.sessionSegmentation.prMerged	PR {{number}} merged
+translation.sessionSegmentation.prClosed	PR {{number}} closed
+translation.sessionSegmentation.userMessage	User message
+translation.sessionSegmentation.prComment	PR comment
+translation.sessionSegmentation.prCommentBy	PR comment · {{author}}
+translation.sessionSegmentation.failed	Session segmentation failed
+translation.sessionSegmentation.totalDuration	{{duration}} total
+translation.sessionSegmentation.activeDuration	{{duration}} active
+translation.sessionSegmentation.summary	Session segments: <bold>{{count}}</bold> over {{duration}}
+translation.sessionSegmentation.playground	Playground
+translation.sessionSegmentation.olderEventsNotLoaded	Older events are not loaded yet, so cost, active time and markers cover only part of the session.
+translation.sessionSegmentation.byTime	By time
+translation.sessionSegmentation.byActiveTime	By time (downtime removed)
+translation.sessionSegmentation.byCost	By cost
+translation.sessionSegmentation.byCategory	By category
+translation.sessionSegmentation.costRate	Cost rate (width = active time, height = ACU/min)
+translation.sessionSegmentation.showMarkers	Show markers
+translation.sessionSegmentation.unavailable	No segmentation available for this session yet.
+translation.sessionSegmentation.acuAmount	{{value}} ACU
+translation.errorUi.title	Something went wrong
+translation.errorUi.chunkLoadFailed	Part of the app failed to load. On staging this can happen for a few seconds right after a deploy. Reload the page; only report it if it keeps happening.
+translation.errorUi.unexpected	We've encountered an unexpected error. Our team has been notified.
+translation.errorUi.errorId	Error ID:
+translation.errorUi.reloadPage	Reload page
+translation.errorUi.errorDetails	Error details
+translation.devTools.lagRadarTitle	Lag radar - shows performance hiccups (click to hide)
+translation.devTools.migrationsOutOfDate	Database migrations are out of date ({{databases}}). Run:
+translation.notifications.githubConnected	GitHub connected successfully
+translation.notifications.gitlabConnected	GitLab connected successfully
+translation.notifications.bitbucketConnected	Bitbucket connected successfully
+translation.notifications.redirectingToDesktop	Redirecting you to {{desktopName}}
+translation.notifications.openDesktopManually	Open {{desktopName}} manually
+translation.notifications.devinSharedPlan	Devin shared a plan.
+translation.tagPill.editTitle	Edit session tags
+translation.tagPill.editDescription	Tags help you organize and filter sessions.
+translation.tagPill.edit	Edit
+translation.tagPill.searchOrCreate	Search or create tag...
+translation.tagPill.create	Create
+translation.tagPill.noMatch	No tags match “{{tag}}”. Press Create tag to add it.
+translation.tagPill.noneAvailable	No tags available
+translation.tagPill.saving	Saving…
+translation.tagPill.save	Save
+translation.repositoriesPage.askAdminForAccess	Ask your admin to grant you access to your repositories
+translation.repositoriesPage.askAdminToConfigure	Ask your admin to configure Git integrations
+translation.repositoriesPage.inviteGitManager	Invite your Git manager
+translation.repositoriesPage.missingRepository	Missing a repository?
+translation.repositoriesPage.configureGitIntegrations	Configure your Git integrations
+translation.repositoriesPage.orSeparator	, or 
+translation.repositoriesPage.repositoriesPermissions	repositories permissions
+translation.repositoriesPage.configured	Configured
+translation.repositoriesPage.indexing	Indexing…
+translation.repositoriesPage.lastIndexed	Last indexed {{time}}
+translation.repositoriesPage.moreActions	More actions
+translation.repositoriesPage.configureIndexing	Configure indexing
+translation.repositoriesPage.configureBlueprint	Configure Blueprint
+translation.repositoriesPage.nameColumn	Name
+translation.repositoriesPage.deepWikiColumn	DeepWiki
+translation.repositoriesPage.environmentColumn	Environment
+translation.repositoriesPage.noMatch	No repository matches your search.
+translation.repositoriesPage.manageAccessDescription	Manage access to repositories for your organizations. Git providers can be added in <connectionsLink>connections settings</connectionsLink>
+translation.repositoriesPage.title	Repositories
+translation.repositoriesPage.repositoriesTab	Repositories
+translation.repositoriesPage.manageTab	Manage
+translation.repositoriesPage.search	Search repositories...
+translation.repositoriesPage.syncFailedTitle	Couldn't sync your repositories
+translation.repositoriesPage.syncFailedDescription	Fetching repositories from your git connection failed.
+translation.repositoriesPage.retrySync	Retry sync
+translation.repositoriesPage.loadFailedTitle	Couldn't load your repositories
+translation.repositoriesPage.loadFailedDescription	The repository list didn't load. Try again in a moment.
+translation.repositoriesPage.retryLoad	Retry
+translation.repositoriesPage.noAccessTitle	You don't have access to any repositories
+translation.repositoriesPage.noAccessEnterprise	If this seems like a mistake, please confirm that your enterprise repository permissions are correctly configured
+translation.repositoriesPage.noAccessGit	If this seems like a mistake, please check your Git integrations
+translation.routeCrumbs.repositoryPermissions	Repository permissions
+translation.routeCrumbs.serviceUsers	Service users
+translation.routeCrumbs.plugins	Plugins
+translation.routeCrumbs.settings	Settings
+translation.routeCrumbs.downloads	Downloads
+translation.routeCrumbs.oncall	Oncall
+translation.routeErrors.mcpMarketplaceUnavailable	The MCP Marketplace is not available.
+translation.routeErrors.pageDoesNotExist	The page you're looking for doesn't exist.
+translation.checkoutProcessing.activating	Activating your plan...
+translation.checkoutProcessing.paymentProcessing	Payment processing
+translation.checkoutProcessing.trialFailedTitle	Trial could not be activated
+translation.checkoutProcessing.wait	Please wait while we set up your account.
+translation.checkoutProcessing.paymentBody	Your payment may still be processing. Your plan will activate automatically once it is confirmed. You can check again in a few minutes, or contact support if the issue persists.
+translation.checkoutProcessing.checkAgain	Check again
+translation.checkoutProcessing.contactSupport	Contact support
+translation.checkoutProcessing.duplicatePayment	This payment method has already been used for a trial. Please use a different card or contact support.
+translation.checkoutProcessing.duplicateEmail	This email has already been used for a trial. Please use a different email or contact support.
+translation.checkoutProcessing.duplicateUser	You have already used a trial. Please select a paid plan or contact support.
+translation.checkoutProcessing.duplicateOrg	This organization has already used a trial. Please select a paid plan or contact support.
+translation.checkoutProcessing.trialFailedGeneric	Your trial could not be activated. Please contact support for assistance.
+translation.checkoutProcessing.redirecting	Redirecting...
+translation.checkoutProcessing.subscribeWithoutTrial	Subscribe without a trial
+translation.checkoutProcessing.viewPlans	View plans
+translation.outposts.connect.iconStyle	Icon style
+translation.outposts.connect.platform	Platform
+translation.outposts.connect.partner	Partner
+translation.outposts.connect.linkInvalidTitle	Connection link invalid
+translation.outposts.connect.linkInvalidDescription	This outpost connection link is missing required information or has expired. Return to the platform you came from and start again.
+translation.outposts.connect.invalidCallback	The callback URL returned by the server is invalid
+translation.outposts.connect.connectFailed	Failed to connect outpost
+translation.outposts.connect.createTitle	Create outpost
+translation.outposts.connect.managedBy	Sessions assigned to this outpost run on machines managed by {{host}}.
+translation.outposts.connect.ownMachines	Sessions assigned to this outpost run on your own machines.
+translation.outposts.connect.name	Name
+translation.outposts.connect.titlePlaceholder	Outpost title
+translation.outposts.connect.nameRule	Names may only contain lowercase letters, digits, dashes, and underscores
+translation.outposts.connect.description	Description
+translation.outposts.connect.descriptionHint	Describe the purpose of this outpost
+translation.outposts.connect.credentialsNotice	Clicking Create shares the credentials needed to run Devin machines with {{provider}}. <learnMore>Learn more</learnMore> about what is shared.
+translation.outposts.connect.learnMoreAria	Learn more about Outpost credential sharing
+translation.outposts.connect.creating	Creating…
+translation.outposts.connect.create	Create
+translation.outposts.connect.pageTitle	Connect outpost
+translation.promo.claimError.title	We couldn't claim your promo
+translation.promo.claimError.dismiss	Got it
+translation.promo.claimError.qrExpired	This QR code has expired or was already used. Ask for a new one.
+translation.promo.claimError.qrNotEligible	This account is not eligible for this promo.
+translation.promo.claimError.qrWaiting	Waiting for approval. Ask the person who showed you the QR code to approve it in Slack.
+translation.agentsApp.waitingUser	Waiting for user
+translation.agentsApp.working	Working
+translation.agentsApp.waitingReview	Waiting for review
+translation.agentsApp.waitingCi	Waiting for CI
+translation.agentsApp.waitingChildren	Waiting for child sessions
+translation.agentsApp.sleeping	Sleeping
+translation.agentsApp.done	Done
+translation.agentsApp.failed	Failed
+translation.agentsApp.viewSession	View session
+translation.agentsApp.viewFullScript	View full script
+translation.agentsApp.noAgentsYet	No agents yet
+translation.agentsApp.noChildren	No child sessions have been created yet.
+translation.agentsApp.parent	Parent
+translation.prDigest.readOnly	Read only
+translation.prDigest.readOnlyShort	Read-only
+translation.prDigest.jumpToPr	Jump to pull request
+translation.prDigest.trySyntax	Try: <code>github.com/owner/repo/pull/123</code> or <code>owner/repo#123</code>
+translation.prDigest.goToPullRequest	Go to pull request
+translation.prDigest.goToPr	Go to PR
+translation.sidebarNew.nameCannotBeEmpty	Name cannot be empty.
+translation.sidebarNew.more	More
+translation.sidebarNew.prNumber	PR #{{number}}
+translation.sidebarNew.groupFilesFailed	Failed to group files - PR may be too large
+translation.sidebarNew.viewAsSections	View as sections
+translation.sidebarNew.folderView	Folder view
+translation.sidebarNew.repoNote	Repo Note
+translation.sidebarNew.beta	Beta
+translation.sessionHyperlinks.slackThread	Slack thread
+translation.sessionHyperlinks.copyIssueId	Copy issue ID
+translation.sessionPrPreview.copyLinkFailed	Failed to copy link
+translation.sessionPrPreview.copyBranchFailed	Failed to copy branch name
+translation.sessionPrPreview.copyContextTooltip	Copy context about Devin's work and this PR to handoff to another agent
+translation.sessionPrPreview.openInProvider	Open in {{providerName}}
+translation.sessionPrPreview.moreActions	More actions
+translation.sessionPrPreview.copyBranchName	Copy branch name
+translation.sessionPrPreview.copyLink	Copy link
+translation.sessionPrPreview.openInReview	Open in Devin Review
+translation.sessionPrPreview.default	Default
+translation.sessionPrPreview.openInSessionTab	Open in Session tab
+translation.sessionPrPreview.openLocally	Open locally
+translation.sessionPrPreview.manageGitSettings	Manage Git settings
+translation.sessionPrPreview.closePr	Close pull request
+translation.sessionPrPreview.stackedPrs	Stacked pull requests
+translation.eventPreview.convertFailed	Translation failed: {{message}}
+translation.eventPreview.converting	Translating…
+translation.agentPreviews.orgDefault	Follows your organization's default and updates if it changes
+translation.agentPreviews.normal	Fast and good at long-horizon planning
+translation.agentPreviews.fast	2.5x faster, 2x more expensive, same intelligence
+translation.agentPreviews.lite	Tuned for smaller, well-defined tasks. 30-40% cheaper
+translation.agentPreviews.fusion	Pairs frontier intelligence with cost-efficient execution to deliver frontier-level results at lower cost
+translation.agentPreviews.fusionFast	Fusion served on priority models
+translation.agentPreviews.gpt56	OpenAI's most capable model. 70% off — available until Oct 3
+translation.agentPreviews.gpt6Astra	OpenAI's GPT-6 Astra model
+translation.agentPreviews.research	Experimental research model
+translation.agentPreviews.fable51	Anthropic's Fable 5.1 model. Preview available until Sept 22
+translation.agentPreviews.opus55	Anthropic's latest model. Preview available until Oct 6
+translation.agentPreviews.fastUltra	Ultra served on priority inference: faster and 2x more expensive
+translation.agentPreviews.gpt6Sol	OpenAI's model. Preview available until Oct 6
+translation.agentPreviews.gpt61Sol	OpenAI's latest model. Preview available until Oct 13
+translation.agentPreviews.ultra	Our most powerful and hardest thinking agent, significantly more expensive
+translation.agentPreviews.gpt55	OpenAI's most capable model
+translation.agentPreviews.opus48	Good at instruction following
+translation.agentPreviews.swe17	Cognition's software engineering model
+translation.agentPreviews.swe17Lightning	SWE-1.7 served on Cerebras
+translation.agentPreviews.swe17Paid	SWE-1.7 with priority capacity
+translation.agentPreviews.swe2Preview	Cognition's next-generation software engineering model
+translation.agentPreviews.swe2Medium	Cognition's next-generation software engineering model, medium reasoning effort
+translation.agentPreviews.swe2PriorityMedium	Paid SWE-2 with priority capacity, medium reasoning effort
+translation.agentPreviews.swe2LightningMedium	SWE-2 in Lightning mode, medium reasoning effort. Available until Nov 25
+translation.agentPreviews.swe2High	Cognition's next-generation software engineering model, high reasoning effort
+translation.agentPreviews.swe2PriorityHigh	Paid SWE-2 with priority capacity, high reasoning effort
+translation.agentPreviews.swe2LightningHigh	SWE-2 in Lightning mode, high reasoning effort. Available until Nov 25
+translation.agentPreviews.swe2Max	Cognition's next-generation software engineering model, max reasoning effort
+translation.agentPreviews.swe2PriorityMax	Paid SWE-2 with priority capacity, max reasoning effort
+translation.agentPreviews.swe2LightningMax	SWE-2 in Lightning mode, max reasoning effort. Available until Nov 25
+translation.agentPreviews.swe2FlashMedium	Cognition's fast, efficient coding model at medium effort. Preview until Nov 18
+translation.agentPreviews.swe2FlashHigh	Cognition's fast, efficient coding model at high effort. Preview until Nov 18
+translation.agentPreviews.swe2FlashMax	Cognition's fast, efficient coding model at max effort. Preview until Nov 18
+translation.agentPreviews.freeMode	Free SWE-2 with a concurrent session limit
+translation.grantRequest.titleConsent_one	Stop the {{botName}} opening pull requests as one person?
+translation.grantRequest.titleConsent_other	Stop the {{botName}} opening pull requests as {{count}} people?
+translation.grantRequest.titleSession_one	Remove the {{botName}}'s access to a session?
+translation.grantRequest.titleSession_other	Remove the {{botName}}'s access to {{count}} sessions?
+translation.grantRequest.titleBot_one	Remove the {{botName}}'s access to a {{botName}}?
+translation.grantRequest.titleBot_other	Remove the {{botName}}'s access to {{count}} {{botNamePlural}}?
+translation.grantRequest.titleSecret_one	Remove the {{botName}}'s access to a secret?
+translation.grantRequest.titleSecret_other	Remove the {{botName}}'s access to {{count}} secrets?
+translation.grantRequest.titleMcp_one	Remove the {{botName}}'s access to an MCP sign-in?

@@ -1,0 +1,500 @@
+translation.homeCustomization.zoomValue	{{value}}×
+translation.homeCustomization.recenter	Center
+translation.homeCustomization.makeDefault	Set as default
+translation.homeCustomization.isDefault	Your default
+translation.homeCustomization.makeDefaultHint	Organizations without their own background, including new ones, will use this one.
+translation.homeCustomization.image	Image
+translation.homeCustomization.backgroundReset	Background reset
+translation.homeCustomization.madeDefault	Set as your default background
+translation.homeCustomization.menu.changeBackground	Change background…
+translation.homeCustomization.menu.removeBackground	Remove background
+translation.homeCustomization.menu.useDefaultBackground	Use default background
+translation.homeCustomization.menu.makeDefault	Set as default background
+translation.homeCustomization.menu.editWidgets	Edit widgets…
+translation.homeWidgets.done	Done
+translation.homeWidgets.hideWidgets	Hide widgets
+translation.homeWidgets.addWidget	Add a widget
+translation.homeWidgets.allShown	All widgets are shown
+translation.homeWidgets.removeWidget	Remove {{name}}
+translation.homeWidgets.resizeWidget	Resize {{name}}
+translation.homeWidgets.more_one	{{count}} more
+translation.homeWidgets.more_other	{{count}} more
+translation.homeWidgets.workingNowEmpty	No sessions are working right now
+translation.homeWidgets.needsAttentionEmpty	Nothing is waiting on you
+translation.homeWidgets.pinnedEmpty	Pin a session from its menu to keep it here
+translation.homeWidgets.wikisEmpty	No wikis yet
+translation.homeWidgets.devinsEmpty	No {{botNamePlural}} on your rail yet
+translation.homeWidgets.statsEmpty	No stats for this month yet
+translation.homeWidgets.activityUnavailable	Couldn't load activity
+translation.homeWidgets.usageEmpty	No usage this cycle
+translation.homeWidgets.playbooksEmpty	No playbooks yet
+translation.homeWidgets.playbookHint	Start a session with this playbook
+translation.homeWidgets.usageOfLimit	{{used}} of {{limit}} ACUs
+translation.homeWidgets.usageNoLimit	{{used}} ACUs
+translation.homeWidgets.usageResets	Resets {{date}}
+translation.homeWidgets.sizes.s	Small
+translation.homeWidgets.sizes.m	Medium
+translation.homeWidgets.sizes.l	Large
+translation.homeWidgets.sizes.wide	Wide
+translation.homeWidgets.stats.sessions	Sessions
+translation.homeWidgets.stats.prsMerged	PRs merged
+translation.homeWidgets.stats.mergeRate	Merge rate
+translation.homeWidgets.stats.acus	ACUs
+translation.homeWidgets.titles.activity	Activity
+translation.homeWidgets.titles.workingNow	Working now
+translation.homeWidgets.titles.needsAttention	Needs your attention
+translation.homeWidgets.titles.pullRequests	Pull requests
+translation.homeWidgets.titles.recent	Recent sessions
+translation.homeWidgets.titles.pinned	Pinned
+translation.homeWidgets.titles.devins	Your {{botNamePlural}}
+translation.homeWidgets.titles.thisMonth	This month
+translation.homeWidgets.titles.usage	Usage
+translation.homeWidgets.titles.playbooks	Playbooks
+translation.homeWidgets.titles.wikis	Wiki
+translation.homeWidgets.activityDay	{{date}}: {{sessions}}, {{opened}}, {{merged}}, {{lines}}
+translation.homeWidgets.activitySessions_one	{{count}} session
+translation.homeWidgets.activitySessions_other	{{count}} sessions
+translation.homeWidgets.activityDayOpened_one	{{count}} PR opened
+translation.homeWidgets.activityDayOpened_other	{{count}} PRs opened
+translation.homeWidgets.activityDayMerged_one	{{count}} merged
+translation.homeWidgets.activityDayMerged_other	{{count}} merged
+translation.homeWidgets.activityDayLines_one	{{formattedCount}} line changed
+translation.homeWidgets.activityDayLines_other	{{formattedCount}} lines changed
+translation.homeWidgets.activityQuietDay	{{date}}: no activity
+translation.homeWidgets.activityTotals	{{sessions}} · {{merged}} · {{lines}}
+translation.homeWidgets.activityTotalMerged_one	{{count}} PR merged
+translation.homeWidgets.activityTotalMerged_other	{{count}} PRs merged
+translation.homeWidgets.activityTotalLines_one	{{formattedCount}} line
+translation.homeWidgets.activityTotalLines_other	{{formattedCount}} lines
+translation.welcome.advancedMcpBanner	Every Devin session has the <mcpLink>Devin MCP</mcpLink> built in and authenticated — no setup needed. Any Devin can inspect other sessions, manage <playbooksLink>playbooks</playbooksLink>, and start batch sessions.
+translation.welcome.askDevinAboutCode	Ask Devin questions about your code
+translation.welcome.backToDevin	Back to Devin
+translation.welcome.buildSnapshot	Build snapshot
+translation.welcome.connect	Connect
+translation.welcome.connectCodebaseFree	Connect your codebase to try Devin for free
+translation.welcome.connectMessagingApp	Bring Devin into your team's Slack or Microsoft Teams
+translation.welcome.connectMicrosoftTeams	Bring Devin into your team's Microsoft Teams
+translation.welcome.connectSlack	Bring Devin into your team's Slack
+translation.welcome.onlyImageFilesSupported	Only image files are supported (.png, .jpg, .jpeg, .gif, .webp)
+translation.welcome.openSessionLinks	Open session links
+translation.welcome.organization	Organization
+translation.welcome.snapshotNotBuilt	Build a Snapshot so Devin can start instantly
+translation.welcome.startOnboarding	Start onboarding
+translation.welcome.subscribe	Subscribe
+translation.welcome.tagsRequiredNotConfigured	Session tags are required but no allowed tags are configured for this organization. Contact your administrator.
+translation.welcome.trialDisabled	Starting a free session is disabled because of high load. Please subscribe.
+translation.welcome.trialDisabledHighLoad	Starting a free session is currently disabled because of high load. Sorry for the inconvenience.
+translation.wiki.addWiki	Add wiki
+translation.wiki.askAdminToGenerate	Ask your admin to generate wikis
+translation.wiki.connectGitProviderToSeeWikis	Connect a Git provider to see your wikis here.
+translation.wiki.failedToLoadWiki	Failed to load this wiki
+translation.wiki.failedToLoadWikis	Failed to load wikis
+translation.wiki.filterAll	All wikis
+translation.wiki.filterGenerating	Generating only
+translation.wiki.filterIndexed	Indexed only
+translation.wiki.filterNotIndexed	Not indexed only
+translation.wiki.filterWikis	Filter wikis
+translation.wiki.linkGithubToAccess	You must link your GitHub account to access wikis through DeepWiki.
+translation.wiki.loadMoreWikis	Load more wikis
+translation.wiki.noBranchesIndexed	No branches indexed
+translation.wiki.noWikiForRepository	No wiki available for this repository
+translation.wiki.noWikisFound	No wikis found
+translation.wiki.noWikisMatchFilter	No wikis match the selected filter
+translation.wiki.noWikisMatchSearch	No wikis match your search
+translation.wiki.pin	Pin
+translation.wiki.pinned	Pinned
+translation.wiki.recentlyViewed	Recently viewed
+translation.wiki.refetchWikis	Refetch wikis
+translation.wiki.searchWikis	Search wikis
+translation.wiki.unpin	Unpin
+translation.wiki.wikisHeading	Wikis
+translation.wiki.deepWikiTitle	DeepWiki
+translation.wiki.refetchRepositories	Refetch repositories
+translation.wiki.maintainerBadge.label	Maintainer Edited
+translation.wiki.maintainerBadge.tooltip	This wiki is manually edited by the maintainers of the project.
+translation.wiki.repoNote	Repo Note
+translation.wiki.defaultPageTitle	Wiki
+translation.wiki.copyLinkToHeader	Copy link to header
+translation.wiki.linkCopied	Link copied!
+translation.wiki.yourOrganizationHasABillingIssueSubscribeTo	Your organization has a billing issue. Subscribe to keep using Ask Devin.
+translation.wiki.askDevin	Ask Devin
+translation.wiki.tableOfContents	Table of contents
+translation.wiki.onThisPage	On this page
+translation.wiki.wikiRefreshProcessStartedTheWikiWillBe	Wiki refresh process started. The wiki will be updated in 10-30 minutes.
+translation.wiki.failedToRefreshWiki	Failed to refresh wiki: {{error}}
+translation.wiki.failedToRefreshWikiPleaseTryAgain	Failed to refresh wiki. Please try again.
+translation.wiki.errorLoadingWiki	Error loading wiki
+translation.wiki.unableToLoadTheWikiForThisRepository	Unable to load the wiki for this repository. Please try again later.
+translation.wiki.noWikiAvailableIn	No wiki available in {{languageName}}
+translation.wiki.wikiGenerationInProgress	Wiki generation in progress...
+translation.wiki.thisTypicallyTakes1030MinutesThePage	This typically takes 10-30 minutes. The page will automatically update when ready.
+translation.wiki.aWikiHasntBeenGeneratedYetForThis	A wiki hasn't been generated yet for this repository. Start a refresh to generate it.
+translation.wiki.startingRefresh	Starting refresh...
+translation.wiki.startWikiGeneration	Start wiki generation
+translation.wiki.contactAnAdminToGenerateTheWikiFor	Contact an admin to generate the wiki for this repository.
+translation.wiki.repoNoteUpdatedSuccessfully	Repo Note updated successfully.
+translation.wiki.failedToUpdateRepoNotePleaseTryAgain	Failed to update Repo Note. Please try again.
+translation.wiki.edit	Edit
+translation.wiki.thisNoteHelpsDevinUnderstandWhichRepoIs	This note helps Devin understand which repo is relevant for a task. It is auto-generated when the wiki is built and used internally for repo disambiguation.
+translation.wiki.repoNoteContentMarkdown	Repo Note content (markdown)
+translation.wiki.saving	Saving...
+translation.wiki.save	Save
+translation.wiki.noRepoNoteContent	No Repo Note content.
+translation.wiki.saveRepoNote	Save Repo Note
+translation.wiki.thisNoteIsUsedByDevinToUnderstand	This note is used by Devin to understand the repository. Make sure the content is accurate — incorrect information will mislead Devin and degrade its performance.
+translation.wiki.wikiGenerationStarted	Wiki generation started
+translation.wiki.generatingWiki	Generating wiki…
+translation.wiki.generating	Generating…
+translation.wiki.generate	Generate
+translation.wiki.wikiGenerationFailedForPleaseContactSupport	Wiki generation failed for {{repo}}. Please contact support.
+translation.wiki.connecting	Connecting…
+translation.wiki.linkGitHubAccount	Link GitHub Account
+translation.wiki.thisPreviewIsNoLongerAvailable	This preview is no longer available.
+translation.wiki.weReceivedYourEditRequest	We received your edit request
+translation.wiki.weAreAboutToProcessIt	We are about to process it.
+translation.wiki.theJobIsBeingQueued	The job is being queued
+translation.wiki.pleaseWaitUntilItIsProcessed	Please wait until it is processed
+translation.wiki.loading	Loading
+translation.wiki.weAreGeneratingYourPreview	We are generating your preview
+translation.wiki.thisMayTakeSeveralMinutes	This may take several minutes
+translation.wiki.failedToGeneratePreviewPleaseTryAgainLater	Failed to generate preview. Please try again later.
+translation.wiki.failedToLoadWikiConfigurationPleaseTryRefreshing	Failed to load wiki configuration. Please try refreshing the page.
+translation.wiki.previewJobWasSubmittedPleaseCheckYourEmail	Preview job was submitted. Please check your email for updates.
+translation.wiki.previewJobWasSubmitted	Preview job was submitted.
+translation.wiki.changesCommittedSuccessfullyThePRHasBeenCreated	Changes committed successfully, the PR #{{pr_number}} has been created.
+translation.wiki.backToWiki	Back to Wiki
+translation.wiki.editJSON	Edit JSON
+translation.wiki.editThisJSONFileToConfigureWikiGeneration	Edit this JSON file to configure wiki generation. Manual edits to wiki pages will be overwritten when the wiki is regenerated.
+translation.wiki.fullDocumentation	Full documentation
+translation.wiki.makeSomeChangesToEnableThisButton	Make some changes to enable this button
+translation.wiki.previewEdits	Preview edits
+translation.wiki.commitChangesAndCreateAPullRequest	Commit changes and create a Pull Request
+translation.wiki.thePullRequestHasBeenCreated	The Pull Request has been created
+translation.wiki.theDefaultBranchEGMain	the default branch (e.g., main)
+translation.wiki.accept	Accept
+translation.wiki.previewWikiChanges	Preview wiki changes
+translation.wiki.generatingAPreviewCanTakeSeveralMinutesWe	Generating a preview can take several minutes. We can notify you by email when it is ready. Alternatively, you can continue to the preview screen and wait for it there.
+translation.wiki.continueToPreviewScreen	Continue to preview screen
+translation.wiki.sendMeAnEmailWhenItIsReady	Send me an email when it is ready
+translation.wiki.previewHistory	Preview history
+translation.wiki.openPreview	Open preview
+translation.wiki.onlyShowingTheLast5PreviewsOfThe	Only showing the last 5 previews of the last week.
+translation.wiki.noRepositoriesFound	No repositories found
+translation.wiki.tryAdjustingYourSearchQuery	Try adjusting your search query
+translation.wiki.accessDocumentationAndKnowledgeBasesForPublicRepositories	Access documentation and knowledge bases for public repositories.
+translation.wiki.noWikiAvailable	No wiki available
+translation.wiki.deepWiki	DeepWiki
+translation.wiki.editWiki	Edit wiki
+translation.wiki.preview	Preview
+translation.wiki.copySectionContent	Copy section content
+translation.wiki.sectionCopied	Section copied!
+translation.wiki.askDevinAbout	Ask Devin about {{repo}}
+translation.wiki.startedAt	Started: {{date}}
+translation.wiki.missingLanguageGenerate	A wiki hasn't been generated yet for this language. Start a refresh to generate it.
+translation.wiki.missingLanguageAllLanguages	This will create the wiki for all available languages.
+translation.wiki.previewingEdit	You are previewing a generated edit for this wiki (ID: <code>{{previewId}}</code>)
+translation.wiki.editHelpRepoNotes	To add general commentary about the repository, edit the <code>repo_notes</code> section of the JSON file. Use this section to include context, global instructions, or syntax guidelines that should apply across the entire wiki.
+translation.wiki.editHelpPages	Define or modify the wiki's overall structure by adding, removing, or reordering sections labeled as <code>pages</code> in the array of the JSON file.
+translation.wiki.editHelpPageNotes	Use the <code>page_notes</code> section to add page-specific commentary that guides how each individual wiki page is generated.
+translation.wiki.prMergedNotice	After it's merged into {{branch}}, it may take some time for the changes to be reflected here.
+translation.wiki.noContentAvailable	No content available
+translation.wiki.failedToStartGeneration	Failed to start wiki generation
+translation.wiki.pageTitle	Wiki — {{title}}
+translation.wiki.pageTitlePreview	Wiki — Preview {{title}}
+translation.wiki.pageTitleEdit	Wiki — Edit {{title}}
+translation.wiki.unknown	Unknown
+translation.wiki.failedToGeneratePreview	Failed to generate preview.
+translation.wiki.failedToCommitChanges	Failed to commit changes.
+translation.wiki.validation.addPage	Add at least one page to the 'pages' array
+translation.wiki.validation.pageMissingTitle	Page {{number}} is missing a title. Add a title to this page
+translation.wiki.validation.duplicateTitle	Duplicate title "{{title}}". Each page must have a unique title
+translation.wiki.validation.pageNotesArray	page_notes for "{{title}}" should be an array
+translation.wiki.validation.tooManyPages	Too many pages ({{count}}). Reduce to {{max}} pages or fewer
+translation.wiki.validation.repoNotesArray	repo_notes should be an array
+translation.wiki.validation.tooManyNotes	Too many notes ({{count}}). Reduce repo_notes and page_notes to 100 total or fewer
+translation.wiki.validation.noteString	Note content should be a string
+translation.wiki.validation.noteTooLong_one	Note content too long ({{count}} character). Each note must be 10,000 characters or fewer
+translation.wiki.validation.noteTooLong_other	Note content too long ({{count}} characters). Each note must be 10,000 characters or fewer
+translation.wiki.validation.invalidJson	Invalid JSON
+translation.wiki.drawingDiagram	Drawing a diagram…
+translation.wiki.searchForRepositories	Search for repositories
+translation.wiki.unknownError	Unknown error
+translation.wiki.loadingEllipsis	Loading...
+translation.wiki.unableToLoadRepoWiki	Unable to load the wiki for this repository.
+translation.wiki.notGeneratedYet	A wiki hasn't been generated yet for this repository.
+translation.wikiHeaderActions.actions.cancel	Cancel
+translation.wikiHeaderActions.actions.deepWikiSettings	DeepWiki settings
+translation.wikiHeaderActions.actions.editWiki	Edit Wiki
+translation.wikiHeaderActions.actions.indexingInProgress	Indexing in progress…
+translation.wikiHeaderActions.actions.more	More actions
+translation.wikiHeaderActions.actions.openRepository	Open repository
+translation.wikiHeaderActions.actions.reindex	Re-index
+translation.wikiHeaderActions.actions.reindexBranch	Re-index branch
+translation.wikiHeaderActions.actions.reindexNow	Re-index now
+translation.wikiHeaderActions.actions.reindexNowWithCost	Re-index now ({{cost}})
+translation.wikiHeaderActions.actions.remove	Remove
+translation.wikiHeaderActions.actions.removeBranchIndex	Remove branch index
+translation.wikiHeaderActions.actions.removeIndex	Remove index
+translation.wikiHeaderActions.actions.removeRepository	Remove repository from Wiki
+translation.wikiHeaderActions.actions.removing	Removing…
+translation.wikiHeaderActions.actions.starting	Starting…
+translation.wikiHeaderActions.actions.wikiHistory	Wiki history
+translation.wikiHeaderActions.autoIndexing.daily	Daily
+translation.wikiHeaderActions.autoIndexing.label	Auto-indexing
+translation.wikiHeaderActions.autoIndexing.manual	Manual
+translation.wikiHeaderActions.autoIndexing.monthly	Monthly
+translation.wikiHeaderActions.autoIndexing.weekly	Weekly
+translation.wikiHeaderActions.branches.defaultBranch	default branch
+translation.wikiHeaderActions.branches.defaultSuffix	(default)
+translation.wikiHeaderActions.branches.indexing	Indexing…
+translation.wikiHeaderActions.branches.lastUpdated	Last updated {{time}}
+translation.wikiHeaderActions.branches.noMatch	No branches match
+translation.wikiHeaderActions.branches.search	Search branches
+translation.wikiHeaderActions.branches.select	Select branch
+translation.wikiHeaderActions.dialogs.reindexConfirmation	Re-index Wiki for "{{branch}}"? This should take 10–30 minutes.
+translation.wikiHeaderActions.dialogs.reindexConfirmationBilled	Re-index Wiki for "{{branch}}"? This consumes ACUs and should take 10–30 minutes.
+translation.wikiHeaderActions.dialogs.reindexConfirmationWithCost	Re-index Wiki for "{{branch}}"? This consumes ACUs ({{cost}}) and should take 10–30 minutes.
+translation.wikiHeaderActions.dialogs.removeBranchConfirmation	Remove the Wiki index for "{{branch}}"? This cannot be undone.
+translation.wikiHeaderActions.dialogs.removeRepositoryConfirmation	Remove "{{repo}}" from Wiki? This unindexes all branches and removes the Wiki entry.
+translation.wikiHeaderActions.errors.failedToRemoveBranchIndex	Failed to remove branch index
+translation.wikiHeaderActions.errors.failedToRemoveRepository	Failed to remove repository
+translation.wikiHeaderActions.errors.failedToStartReindex	Failed to start re-index
+translation.wikiHeaderActions.errors.failedToUpdateAutoIndexing	Failed to update auto-indexing
+translation.wikiHeaderActions.errors.unknown	Unknown error
+translation.wikiHeaderActions.languages.arabic	Arabic
+translation.wikiHeaderActions.languages.chinese	Chinese
+translation.wikiHeaderActions.languages.english	English
+translation.wikiHeaderActions.languages.french	French
+translation.wikiHeaderActions.languages.german	German
+translation.wikiHeaderActions.languages.hebrew	Hebrew
+translation.wikiHeaderActions.languages.indonesian	Indonesian
+translation.wikiHeaderActions.languages.japanese	Japanese
+translation.wikiHeaderActions.languages.korean	Korean
+translation.wikiHeaderActions.languages.label	Language
+translation.wikiHeaderActions.languages.portuguese	Portuguese
+translation.wikiHeaderActions.languages.russian	Russian
+translation.wikiHeaderActions.languages.spanish	Spanish
+translation.wikiHeaderActions.languages.turkish	Turkish
+translation.wikiHeaderActions.languages.thai	Thai
+translation.wikiHeaderActions.messages.branchAlreadyIndexing	This branch is already being indexed.
+translation.wikiHeaderActions.messages.branchIndexRemoved	Removed index for "{{branch}}"
+translation.wikiHeaderActions.messages.defaultBranchCannotBeRemoved	The default branch index cannot be removed
+translation.wikiHeaderActions.messages.estimatedCost	Estimated cost: {{cost}}
+translation.wikiHeaderActions.messages.reindexStarted	Re-indexing "{{branch}}". This should take 10–30 minutes.
+translation.wikiHeaderActions.messages.removeRepositoryPermissionRequired	You need indexing permissions to remove this repository
+translation.wikiHeaderActions.messages.repositoryRemoved	Removed "{{repo}}" from Wiki
+translation.wikiSearch.searchWiki	Search {{repo}} wiki
+translation.wikiSearch.search	Search
+translation.wikiSearch.placeholder	Search {{repo}} wiki…
+translation.wikiSearch.searching	Searching…
+translation.wikiSearch.noResults	No results found.
+translation.wikiSearch.matches_one	{{count}} match
+translation.wikiSearch.matches_other	{{count}} matches
+translation.wikiSearch.page	Page {{id}}
+translation.securityOverview.runningTitle	Your scan is running
+translation.securityOverview.runningDescription	Devin is scanning your code. Findings will appear here as soon as they are found.
+translation.securityOverview.viewScan	View scan
+translation.securityOverview.pendingTitle	Your first scan is being set up
+translation.securityOverview.pendingDescription	Devin is preparing the threat model. Findings will appear here once the scan starts.
+translation.securityOverview.viewScanSession	View scan session
+translation.securityOverview.stoppedTitle	Your scan didn't start
+translation.securityOverview.stoppedDescription	The scan session stopped before it started a scan, so there are no findings yet. Open it to see what it needs, or start a new scan.
+translation.securityOverview.failedTitle_one	Your scan failed
+translation.securityOverview.failedTitle_other	Your scans failed
+translation.securityOverview.failedDescription_one	The scan stopped before it finished, so there are no findings yet. See what went wrong, then run it again.
+translation.securityOverview.failedDescription_other	{{count}} scan runs stopped before they finished, so there are no findings yet. See what went wrong, then run them again.
+translation.securityOverview.viewFailedScans_one	View failed scan
+translation.securityOverview.viewFailedScans_other	View failed scans
+translation.securityOverview.legacyCalloutTitle	Devin Security has been updated!
+translation.securityOverview.legacyCalloutDescription	Find the previous Security scans experience in the Classic tab.
+translation.securityOverview.legacyCalloutAction	Go to Classic
+translation.securityOverview.emptyTitle	Your security at a glance
+translation.securityOverview.emptyDescription	Start your first scan to see findings by severity, track fixes, and monitor security trends across your repositories.
+translation.securityOverview.startScan	Start a scan
+translation.securityOverview.totalPullRequests	Total pull requests
+translation.securityOverview.findingsOverTime	Findings over time
+translation.securityOverview.newFindings	New findings
+translation.securityOverview.dismissedFindings	Dismissed findings
+translation.securityOverview.resolvedFindings	Resolved findings
+translation.securityOverview.findingsSeriesCount	{{label}}: {{total}}
+translation.securityOverview.findingsBySeverity	Findings by severity
+translation.securityOverview.openFindingsBySeverity	Open findings by severity
+translation.securityOverview.reviewedFindingsBySeverity	Reviewed findings by severity
+translation.securityOverview.dismissedFindingsBySeverity	Dismissed findings by severity
+translation.securityOverview.findingsDonutLabel	Findings
+translation.securityOverview.openFindingsByRepository	Open findings by repository
+translation.securityOverview.otherRepositories	Other
+translation.securityOverview.retry	Retry
+translation.securityOverview.failedToLoadPullRequests	Failed to load pull request stats
+translation.securityFindings.redTeam	Red team
+translation.securityFindings.redTeamFinding	Red-team finding
+translation.securityFindings.chatWithDevin	Chat with Findings
+translation.securityFindings.startNewScan	Start new scan
+translation.securityFindings.chatWindow.findingCount_one	{{formatted}} finding
+translation.securityFindings.chatWindow.findingCount_other	{{formatted}} findings
+translation.securityFindings.chatWindow.removeFinding	Remove finding from context
+translation.securityFindings.chatWindow.title	Chat with Devin
+translation.securityFindings.chatWindow.windowTitle	Devin Chat
+translation.securityFindings.chatWindow.selected	{{count}} selected
+translation.securityFindings.chatWindow.list	{{status}} list
+translation.securityFindings.chatWindow.listCount_one	{{status}} · {{count}} finding
+translation.securityFindings.chatWindow.listCount_other	{{status}} · {{count}} findings
+translation.securityFindings.chatWindow.placeholder	Ask about what you have open…
+translation.securityFindings.chatWindow.emptyTitle	Ask about any finding
+translation.securityFindings.chatWindow.emptyBody	Devin sees the finding you open and the rows you select.
+translation.securityFindings.chatWindow.newChat	New chat
+translation.securityFindings.chatWindow.openSession	Open full session
+translation.securityFindings.chatWindow.expand	Expand
+translation.securityFindings.chatWindow.restore	Restore size
+translation.securityFindings.chatWindow.close	Close
+translation.securityFindings.chatWindow.more	More
+translation.securityFindings.emptyTitle	Know what needs fixing
+translation.securityFindings.emptyDescription	Run a scan to uncover vulnerabilities, understand their impact, and prioritize what to fix. Findings from all your scans will appear here.
+translation.securityFindings.repositoryCount_one	{{count}} repository
+translation.securityFindings.repositoryCount_other	{{count}} repositories
+translation.securityFindings.severityCount_one	{{count}} severity
+translation.securityFindings.severityCount_other	{{count}} severities
+translation.securityFindings.statusCount_one	{{count}} status
+translation.securityFindings.statusCount_other	{{count}} statuses
+translation.securityFindings.noMatches	No findings match these filters
+translation.securityFindings.noMatchesDescription	Try different filters, or clear them to see every finding in this tab.
+translation.securityFindings.noRedTeamFindings	No red-team findings yet
+translation.securityFindings.noRedTeamFindingsDescription	Findings show here once a red-team scan confirms them.
+translation.securityFindings.emptyOpenDescription	Every finding has been reviewed or dismissed.
+translation.securityFindings.findingDetail	Finding detail
+translation.securityFindings.reviewed	Reviewed
+translation.securityFindings.searchRepository	Search repository
+translation.securityFindings.noRepositories	No repositories found
+translation.securityFindings.prOpen	Open
+translation.securityFindings.prMerged	Merged
+translation.securityFindings.prClosed	Closed
+translation.securityFindings.prNone	No PR
+translation.securityFindings.prStateCount_one	{{count}} PR state
+translation.securityFindings.prStateCount_other	{{count}} PR states
+translation.securityFindings.anyField	Any field
+translation.securityFindings.noTags	No tags found
+translation.securityFindings.noThreats	No threats found
+translation.securityFindings.loadingTags	Loading tags and properties…
+translation.securityFindings.tagsLoadError	Couldn't load tags and properties.
+translation.securityFindings.filter	Filter
+translation.securityFindings.filterCount_one	{{count}} filter
+translation.securityFindings.filterCount_other	{{count}} filters
+translation.securityFindings.filterAny	Any
+translation.securityFindings.searchFilters	Search tags, threats and properties
+translation.securityFindings.searchValues	Search {{name}}
+translation.securityFindings.noMatchingOptions	No matches
+translation.securityFindings.addTag	Add tag “{{label}}”
+translation.securityFindings.addValue	Add “{{label}}”
+translation.securityFindings.deleteTag	Delete tag
+translation.securityFindings.deleteTagTitle	Delete “{{label}}”?
+translation.securityFindings.deleteTagDescription	This removes the tag from every finding in your organization. This cannot be undone.
+translation.securityFindings.deleteTagConfirm	Delete tag
+translation.securityFindings.deleteTagFailed	Failed to delete tag. Try again.
+translation.securityFindings.threatValue	Threat: {{label}}
+translation.securityFindings.component	Component
+translation.securityFindings.sortBy	Sort by
+translation.securityFindings.sortByField	Sort by {{field}}
+translation.securityFindings.sortCount_one	{{count}} sort
+translation.securityFindings.sortCount_other	{{count}} sorts
+translation.securityFindings.sortCreatedOn	Created on
+translation.securityFindings.ascending	Ascending
+translation.securityFindings.descending	Descending
+translation.securityFindings.addSort	Add sort
+translation.securityFindings.removeSort	Remove sort
+translation.securityFindings.remove	Remove
+translation.securityFindings.moreColumns	More columns
+translation.securityFindings.columns	Columns
+translation.securityFindings.showColumn	Show column
+translation.securityFindings.hideColumn	Hide column
+translation.securityFindings.searchFindings	Search findings
+translation.securityFindings.searchPlaceholder	Search by title or file path
+translation.securityFindings.created	Created
+translation.securityFindings.findingActions	Finding actions
+translation.securityFindings.searchThreat	Search threat
+translation.securityRedTeaming.authorization	Authorization
+translation.securityRedTeaming.openFindings	Open findings
+translation.securityRedTeaming.addedAt	Added {{time}}
+translation.securityRedTeaming.earlierScans_one	{{count}} earlier scan
+translation.securityRedTeaming.earlierScans_other	{{count}} earlier scans
+translation.securityRedTeaming.manageTarget	Manage target
+translation.securityRedTeaming.noScans	No scans yet
+translation.securityRedTeaming.refreshFailed	Couldn’t refresh scan activity. Showing the last available update.
+translation.securityRedTeaming.revokeAuthorization	Revoke authorization
+translation.securityRedTeaming.scanConfig	Scan configuration
+translation.securityRedTeaming.configLoadFailed	Could not load the scan configuration.
+translation.securityRedTeaming.launchAgain	Launch again with these settings
+translation.securityRedTeaming.copyField	Copy {{label}}
+translation.securityRedTeaming.add	Add target
+translation.securityRedTeaming.addTarget	Add target
+translation.securityRedTeaming.addTargetTitle	Add a target
+translation.securityRedTeaming.artexDescription	Use ARTEX-related prompts for attack planning and testing. This does not run ARTEX.
+translation.securityRedTeaming.artexDeepUnavailableDescription	ARTEX simulation prompts mode is available with Standard depth.
+translation.securityRedTeaming.artexLabel	ARTEX prompts mode
+translation.securityRedTeaming.authorizationNoteLabel	Justification
+translation.securityRedTeaming.authorizationBasisLabel	Authorization basis
+translation.securityRedTeaming.authorizationBasisSignedEngagement	Signed pen testing engagement
+translation.securityRedTeaming.authorizationBasisPublicBugBounty	Public bug bounty
+translation.securityRedTeaming.authorizationBasisOther	Other
+translation.securityRedTeaming.authorizationBasisRequired	Choose an authorization basis
+translation.securityRedTeaming.previouslyRejected	Previously rejected
+translation.securityRedTeaming.authorizationNotePlaceholder	e.g. link to the signed engagement, or to the bug bounty program and its scope
+translation.securityRedTeaming.cancel	Cancel
+translation.securityRedTeaming.confirmReject	Reject target
+translation.securityRedTeaming.confirmRevoke	Revoke authorization
+translation.securityRedTeaming.confirmVerify	Verify target
+translation.securityRedTeaming.revokeDescription	Revoking cancels the red-team scans of {{domain}}, archives their sessions, and blocks new scans until the target is verified again.
+translation.securityRedTeaming.revokeNoteLabel	Reason for revoking
+translation.securityRedTeaming.revokeNotePlaceholder	e.g. authorization expired, ticket link
+translation.securityRedTeaming.revokeTitle	Revoke authorization
+translation.securityRedTeaming.createFailed	Couldn't add the target.
+translation.securityRedTeaming.emptyDescription	Add a live domain to pentest. A Devin employee must verify authorization before a scan can run.
+translation.securityRedTeaming.emptyTitle	No targets yet
+translation.securityRedTeaming.launch	Launch scan
+translation.securityRedTeaming.launchActiveScanWarning	A scan on this target is already queued or running. Launching another tests the same hosts in parallel and can double the traffic they receive.
+translation.securityRedTeaming.launchAfterFailure	The scan you're relaunching failed: {{reason}}
+translation.securityRedTeaming.launchDescription	Pentest {{domain}}. Add a repository to correlate findings against its source.
+translation.securityRedTeaming.scopeSummary_one	{{first}} and {{count}} other scope entry
+translation.securityRedTeaming.scopeSummary_other	{{first}} and {{count}} other scope entries
+translation.securityRedTeaming.depthLabel	Scan depth
+translation.securityRedTeaming.depthStandard	Standard
+translation.securityRedTeaming.depthDeep	Deep
+translation.securityRedTeaming.depthStandardDescription	After recon, the scan waits for you to choose which assets to test. One session then tests each.
+translation.securityRedTeaming.depthDeepDescription	After recon, the scan waits for you to choose which assets to test. Up to 12 sessions then test them by vulnerability category, and up to 6 confirm and chain the best leads. Costs more.
+translation.securityRedTeaming.depthUltra	Ultra deep
+translation.securityRedTeaming.depthUltraDescription	Runs without waiting for you: one session hunts every discovered host, and each spawns deeper sessions for the vulnerability classes its threat model surfaces. Costs the most.
+translation.securityRedTeaming.depthFoothold	Ultra deep (internal)
+translation.securityRedTeaming.depthFootholdDescription	Ultra deep from inside your network: sessions run on a machine in the Outpost you choose, one at a time, and hunt everything in the scope you pick below until nothing is left open. Nothing is changed or taken down, and the scan asks you before testing anything it is not sure is yours.
+translation.securityRedTeaming.footholdPoolLabel	Foothold Outpost
+translation.securityRedTeaming.footholdPoolPlaceholder	Select an Outpost
+translation.securityRedTeaming.footholdPoolDescription	Sessions run as the worker's user on this machine and can read whatever that user can. Account-wide Outposts and your own personal Outposts are listed.
+translation.securityRedTeaming.footholdPoolRequired	Select the Outpost to test from.
+translation.securityRedTeaming.footholdPoolsEmpty	No Outposts are available to you in this organization.
+translation.securityRedTeaming.footholdPoolsFailed	Couldn't load Outposts.
+translation.securityRedTeaming.footholdScopeLabel	Scope
+translation.securityRedTeaming.footholdScopeLocalNetworks	The Outpost machine and its local networks
+translation.securityRedTeaming.footholdScopeReachable	Everything the Outpost machine can reach
+translation.securityRedTeaming.footholdScopeLocalNetworksNamed	{{outpost}} and its local networks
+translation.securityRedTeaming.footholdScopeReachableNamed	Everything {{outpost}} can reach
+translation.securityRedTeaming.footholdScopeLocalNetworksDescription	Also tests hosts on the networks the machine is directly attached to. Anything further, and any network the scan is not sure is yours, is tested only after you approve it.
+translation.securityRedTeaming.footholdScopeReachableDescription	Tests every system the machine can reach that clearly belongs to your organization, through any network, VPN or internal domain. The scan pauses to ask you about anything it is not sure is yours, and about any service run by another company.
+translation.securityRedTeaming.launchFailed	Couldn't launch the scan.
+translation.securityRedTeaming.launchScan	Launch scan
+translation.securityRedTeaming.launchSuccess	Red-team scan started.
+translation.securityRedTeaming.scanTestingTitle	Devin is testing the target
+translation.securityRedTeaming.scanTestingDescription	Devin is testing the target. We will show findings here as they are confirmed.
+translation.securityRedTeaming.scanAwaitingInputDescription	Recon is done. Open the scan session to choose which assets Devin tests.
+translation.securityRedTeaming.scanQueuedDescription	It starts automatically. We will show findings here as they are confirmed.
+translation.securityRedTeaming.stopScanDescription	Devin stops testing right away. The run stays in the target's scan history with the findings it confirmed.
+translation.securityRedTeaming.scanFailedDescription	Devin was unable to complete this scan. Launch a new one from this organization's Red Teaming page in the admin panel.
+translation.securityRedTeaming.credentials	Credentials
+translation.securityRedTeaming.authorizationNoteRequired	Justification required
+translation.securityRedTeaming.revokeNoteRequired	Reason required
+translation.securityRedTeaming.noteTooLong	Use {{max}} characters or fewer. This has {{length}}.
+translation.securityRedTeaming.credAdd	Add credential
+translation.securityRedTeaming.credAddFailed	Failed to add credential
+translation.securityRedTeaming.credDelete	Delete
+translation.securityRedTeaming.credDeleteTitle	Delete “{{name}}”?
+translation.securityRedTeaming.credDeleteDescription	Future scans of {{domain}} won’t be able to use this credential.
+translation.securityRedTeaming.credSessionClearTitle	Clear the saved login for “{{name}}”?
+translation.securityRedTeaming.credSessionClearDescription	Future scans of {{domain}} won’t be able to reuse this login session. If the credential contains only the session, the credential will also be deleted.
+translation.securityRedTeaming.credDeleteFailed	Failed to delete credential

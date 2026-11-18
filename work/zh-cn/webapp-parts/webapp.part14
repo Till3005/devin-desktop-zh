@@ -1,0 +1,500 @@
+translation.codeScan.advanced	Advanced
+translation.codeScan.allResolved	All findings have been reviewed or dismissed.
+translation.codeScan.allScanTypes	All scan types
+translation.codeScan.allSeverities	All severities
+translation.codeScan.apply	Apply
+translation.codeScan.applying	Applying...
+translation.codeScan.archive	Archive
+translation.codeScan.archiveScanSubscriberDescription	You're the last subscriber to this scan. You can archive it, or just hide it from your sidebar.
+translation.codeScan.archiveScanTitle	Archive this scan?
+translation.codeScan.archivedBadge	Archived
+translation.codeScan.archivingProfile	Archiving profile…
+translation.codeScan.archivingScan	Archiving scan…
+translation.codeScan.askDevinDescription	Spin up a Devin session and tell it what to do — fix findings, triage them, or assign them to your team.
+translation.codeScan.askDevinPlaceholder	e.g. Take all the critical findings and open a PR fixing each one…
+translation.codeScan.askDevinTitle	Do something with these findings
+translation.codeScan.assigning	Assigning…
+translation.codeScan.addAttachments	Add attachments
+translation.codeScan.attachments	Attachments
+translation.codeScan.attachmentsTooltip	Attach reports or exports (e.g. SARIF, CSV, PDF) for Devin to ingest findings from.
+translation.codeScan.autoScan	Auto scan
+translation.codeScan.autoScanPaused	Auto scan paused
+translation.codeScan.autoScanCannotRun	Auto scan can’t run
+translation.codeScan.autoScanNeedsCompletedScan	The first scan didn’t finish
+translation.codeScan.autoScanNeedsCompletedScanDescription	Scheduled scans only cover commits added since the last completed scan, so they can’t start. Start a new scan of this repository to keep it covered.
+translation.codeScan.autoScanNeedsFullScan	No full scan to build on
+translation.codeScan.autoScanNeedsFullScanDescription	Scheduled scans only cover commits added since a full scan, and this scan never ran one, as with imported scans. Start a new scan of this repository to keep it covered.
+translation.codeScan.autoScanFailed	Auto scan failed
+translation.codeScan.lastScanDidNotRun	Last scan didn’t run
+translation.codeScan.scanRepoAccessLost	Devin can no longer access {{repo}}.
+translation.codeScan.scanReposAccessLost	Devin can no longer access one or more repositories in this scan.
+translation.codeScan.restoreRepoAccess	Restore access in <connectionsLink>Git connections</connectionsLink>, then scan again.
+translation.codeScan.askAdminToRestoreRepoAccess	Ask an admin to restore access, then scan again.
+translation.codeScan.autoScanCreated	Auto scan schedule created
+translation.codeScan.autoScanDescription	Set a custom schedule for recurring scans
+translation.codeScan.autoScanDescriptionOwnerSession	Set a custom schedule for recurring scans. To scan new commits now, ask this scan’s session.
+translation.codeScan.autoScanRemoved	Auto scan schedule removed
+translation.codeScan.deleteSchedule	Delete schedule
+translation.codeScan.confirmDeleteSchedule	Delete the scan schedule for {{repo}}?
+translation.codeScan.confirmDeleteMultiRepoSchedule	Delete the scan schedule for all {{count}} repositories?
+translation.codeScan.deleteScheduleDescription	This schedule will no longer start scans. Existing scans and findings won’t change.
+translation.codeScan.keepSchedule	Keep schedule
+translation.codeScan.chooseFilesOrDragAndDrop	Choose files or drag and drop
+translation.codeScan.awaitingInput	Awaiting input
+translation.codeScan.back	Back
+translation.codeScan.backToFinding	Back to finding
+translation.codeScan.backToFindings	Back to findings
+translation.codeScan.backToScan	Back to scan
+translation.codeScan.backToSummary	Back to summary
+translation.codeScan.badgeCodeScan	Code scan
+translation.codeScan.unresolvedSeverityCount_one	{{severity}}: {{count}} unresolved finding
+translation.codeScan.unresolvedSeverityCount_other	{{severity}}: {{count}} unresolved findings
+translation.codeScan.badgeCreatedByCodeScan	This session was created by a code scan
+translation.codeScan.badgeCreatedBySecurityScan	This session was created by a security scan
+translation.codeScan.badgeSecurityScan	Security scan
+translation.codeScan.badgeViewCodeScan	View code scan
+translation.codeScan.badgeViewSecurityScan	View security scan
+translation.codeScan.batchSize	Batch size
+translation.codeScan.batchSizeDescription	Control how many files with signals are grouped into each investigation batch
+translation.codeScan.batchSizeError	Batch size must be a whole number between {{min}} and {{max}}
+translation.codeScan.bucketAssigned	Assigned
+translation.codeScan.bucketPrOpen	PR open
+translation.codeScan.bucketResolved	Resolved
+translation.codeScan.bucketUnassigned	Unassigned
+translation.codeScan.buildingScanModel	Building scan model
+translation.codeScan.bulkReviewDescription	Each selected repository will get its own separate scan.
+translation.codeScan.cancel	Cancel
+translation.codeScan.cancelled	Cancelled
+translation.codeScan.category	Category
+translation.codeScan.chained	Chained
+translation.codeScan.chainedTooltip	Part of a chain of related findings that compound each other's impact
+translation.codeScan.changeMachine	Change machine
+translation.codeScan.changeMachineDescription	Applies to future runs of this scan
+translation.codeScan.changeProfile	Change profile
+translation.codeScan.changeProfileDescription	Applies to future runs of this scan
+translation.codeScan.chooseProfileModeSubtitle	Choose the type of profile to create.
+translation.codeScan.chooseScanTypeSubtitle	Choose the type of scan to run.
+translation.codeScan.clearFilters	Clear filters
+translation.codeScan.closeSearch	Close search
+translation.codeScan.closedPRs_one	{{count}} closed PR
+translation.codeScan.closedPRs_other	{{count}} closed PRs
+translation.codeScan.closedPrs	Closed PRs
+translation.codeScan.codeOwners	Code owners
+translation.codeScan.introducedIn	When was this introduced
+translation.codeScan.commit	Commit
+translation.codeScan.commitPlaceholder	commit SHA
+translation.codeScan.commitShaInvalid	Enter a commit SHA of 7 to 64 hexadecimal characters
+translation.codeScan.communicationDescription	Act on the final findings after the scan completes, e.g. notify code owners or stakeholders
+translation.codeScan.communicationPlaceholder	Instructions for who to notify about which findings and how, e.g. ping code owners on Slack with critical findings and remediation guidance...
+translation.codeScan.communicationTitle	Communication
+translation.codeScan.completed	Completed
+translation.codeScan.complianceFrameworkLabel	Framework
+translation.codeScan.complianceFrameworkNamePlaceholder	Standard name, e.g. NIST 800-53
+translation.codeScan.complianceFrameworkSlugPlaceholder	Slug, e.g. nist-800-53
+translation.codeScan.complianceNameLabel	Name
+translation.codeScan.complianceScopeDescription	The system this profile assesses and the standard its catalog is drawn from. Profiles that share a system slug roll up into one system on the Compliance page, grouped by framework.
+translation.codeScan.complianceScopeTitle	System and framework
+translation.codeScan.complianceSlugInvalid	Slugs use lowercase letters, digits and hyphens, and are at most {{max}} characters.
+translation.codeScan.complianceSlugLabel	Slug
+translation.codeScan.complianceSlugRequired	A slug is required when a name is set.
+translation.codeScan.complianceSystemEmptyHint	Without a system, this profile appears as its own system on the Compliance page.
+translation.codeScan.complianceSystemSlugReserved	“{{slug}}” is a Compliance page, so a system cannot use it as its slug.
+translation.codeScan.complianceSystemLabel	System
+translation.codeScan.complianceSystemNamePlaceholder	System name, e.g. Payments gateway
+translation.codeScan.complianceSystemSlugPlaceholder	Slug, e.g. payments-gateway
+translation.codeScan.confidence	Confidence
+translation.codeScan.copyScanLink	Copy scan link
+translation.codeScan.coverageEvidence	Evidence found
+translation.codeScan.coverageFindings_one	{{count}} finding
+translation.codeScan.coverageFindings_other	{{count}} findings
+translation.codeScan.coverageNoneLinked	Nothing linked
+translation.codeScan.coverageSummary	{{linked}}/{{total}} criteria with findings or evidence
+translation.codeScan.coverageTitle	Coverage
+translation.codeScan.createAProfile	Create a profile
+translation.codeScan.addNewProfile	Add new profile
+translation.codeScan.manageProfiles	Manage profiles
+translation.codeScan.createAutomation	Create automation
+translation.codeScan.createManually	Create manually
+translation.codeScan.createManuallyDescription	Fill in custom prompts, file patterns, & remediation guides.
+translation.codeScan.createProfile	Create profile
+translation.codeScan.createProfileDescription	Create a profile to customize how scans analyze your code.
+translation.codeScan.createProfileSubtitle	Customize a scan with your needs and organization preferences
+translation.codeScan.createScan	Create scan
+translation.codeScan.createdByYou	Created by you
+translation.codeScan.criteriaAdd	Add criterion
+translation.codeScan.criteriaCount_one	{{count}} criterion
+translation.codeScan.criteriaCount_other	{{count}} criteria
+translation.codeScan.criteriaDescription	The catalog of requirements this profile assesses. Findings link back to a criterion by its exact ID, and unassessed criteria are surfaced in results. Leave empty to rely on free-form guidance only.
+translation.codeScan.criteriaIdLabel	ID
+translation.codeScan.criteriaDuplicateId	Duplicate ID — each criterion needs a unique ID.
+translation.codeScan.criteriaEmpty	No catalog yet. Devin will infer requirements from the guidance below. Add criteria to enforce exact IDs on findings and get per-criterion coverage.
+translation.codeScan.criteriaIdPlaceholder	ID (e.g. nist:ac-2(3))
+translation.codeScan.criteriaIdRequired	ID required
+translation.codeScan.criteriaIdWhitespace	IDs can't contain spaces.
+translation.codeScan.criteriaNoMatches	No criteria match your search
+translation.codeScan.criteriaRemove	Remove criterion
+translation.codeScan.criteriaSearchPlaceholder	Search criteria...
+translation.codeScan.criteriaTextLabel	Requirement
+translation.codeScan.criteriaTextPlaceholder	Requirement text
+translation.codeScan.criteriaTextRequired	Requirement text required
+translation.codeScan.criteriaTitle	Criteria
+translation.codeScan.criteriaTitleLabel	Title
+translation.codeScan.criteriaTitlePlaceholder	Title
+translation.codeScan.criterion	Criterion
+translation.codeScan.critical	Critical
+translation.codeScan.criticalShort	C
+translation.codeScan.highShort	H
+translation.codeScan.mediumShort	M
+translation.codeScan.lowShort	L
+translation.codeScan.criticalFindings	Critical findings
+translation.codeScan.customPrompts	Custom prompts
+translation.codeScan.daybreak	Specialized cyber models
+translation.codeScan.daybreakDescription	Run the scan using specialized cyber models.
+translation.codeScan.daybreakTooltip	Specialized cyber models increase scan cost.
+translation.codeScan.mythosFusion	Fusion
+translation.codeScan.mythosFusionDescription	Claude Mythos leads the scan and hands execution to SWE-2.
+translation.codeScan.accessBadge	Early access
+translation.codeScan.describeScanModelChanges	Describe what you'd change in the scan model
+translation.codeScan.devinImage	Devin image
+translation.codeScan.devinImagePlaceholder	devin-image:<tag>
+translation.codeScan.devinScanning	Devin is working on scanning your code. Scan time depends on repo size. We will show findings here as they come in.
+translation.codeScan.discard	Discard
+translation.codeScan.discardChangesTitle	Discard unsaved changes?
+translation.codeScan.keepEditing	Keep editing
+translation.codeScan.discoverProfileDescription	Scans analyze your code to find new issues.
+translation.codeScan.discoverProfileTitle	Discover profile
+translation.codeScan.download	Download
+translation.codeScan.downloadFile	Download {{name}}
+translation.codeScan.edit	Edit
+translation.codeScan.editProfile	Edit profile
+translation.codeScan.editProfilePrompt	Help me edit the code scan profile with ID {{id}}.
+translation.codeScan.editWithDevin	Improve with Devin
+translation.codeScan.elapsed	Elapsed
+translation.codeScan.enterprise	Enterprise
+translation.codeScan.enterpriseManagedProfile	This is an enterprise-managed profile
+translation.codeScan.excludeGlobs	Exclude globs
+translation.codeScan.exportAsCsv	Export as CSV
+translation.codeScan.exportSelectedAsCsv	Export selected as CSV
+translation.codeScan.exportAsSarif	Export as SARIF
+translation.codeScan.exportingFindings	Exporting findings…
+translation.codeScan.failedToArchiveProfile	Failed to archive profile
+translation.codeScan.failedToArchiveScan	Failed to archive scan
+translation.codeScan.failedToChangeMachine	Failed to update machine
+translation.codeScan.failedToChangeProfile	Failed to update profile
+translation.codeScan.failedToCopyScanLink	Failed to copy scan link
+translation.codeScan.failedToCreateAutoScan	Failed to create auto scan schedule
+translation.codeScan.failedToDismiss	Failed to dismiss the finding
+translation.codeScan.failedToExportFindings	Failed to export findings
+translation.codeScan.failedToKillScan	Failed to kill the scan
+translation.codeScan.failedToLoadAutomations	Failed to load automations
+translation.codeScan.failedToLoadChart	Failed to load chart
+translation.codeScan.failedToLoadFinding	Couldn't load this finding
+translation.codeScan.findingNotFound	Finding not found
+translation.codeScan.findingNotFoundDescription	Check the link, or switch to the organization it belongs to
+translation.codeScan.failedToLoadFindings	Failed to load findings
+translation.codeScan.failedToLoadProfiles	Failed to load profiles
+translation.codeScan.profileLoadError	Couldn’t load this scan profile.
+translation.codeScan.unsupportedProfileMode	This scan profile uses an unsupported mode.
+translation.codeScan.failedToLoadScanHistory	Failed to load scan history
+translation.codeScan.failedToLoadScanModel	Couldn’t load the scan model
+translation.codeScan.failedToLoadScan	Couldn't load this scan
+translation.codeScan.failedToLoadScans	Failed to load scans
+translation.codeScan.scanNotFound	Scan not found
+translation.codeScan.scanNotFoundDescription	Check the link, or switch to the organization that ran this scan
+translation.codeScan.scanNoAccess	You don't have access to this scan
+translation.codeScan.scanNoAccessDescription	Ask an organization admin for access
+translation.codeScan.scanNoAccessNeedsPermission	Ask an organization admin for the “{{permission}}” permission
+translation.codeScan.failedToPreviewRepos	Failed to preview repos
+translation.codeScan.failedToRecoverScan	Failed to recover scan
+translation.codeScan.failedToRemoveAutoScan	Failed to remove auto scan schedule
+translation.codeScan.failedToPauseScan	Failed to pause the scan
+translation.codeScan.failedToResumeScan	Failed to resume the scan
+translation.codeScan.failedToSendResponse	Failed to send response
+translation.codeScan.failedToStartScan	Failed to start scan
+translation.codeScan.failedToStartScans	Failed to start scans
+translation.codeScan.failedToStartSession	Failed to start Devin session. Please try again.
+translation.codeScan.failedToSubmitFeedback	Failed to submit feedback
+translation.codeScan.failedToUnarchiveScan	Failed to unarchive scan
+translation.codeScan.failedToUpload	Failed to upload {{name}}
+translation.codeScan.feedback	Feedback
+translation.codeScan.feedbackSubmitted	Feedback submitted
+translation.codeScan.filterAll	All
+translation.codeScan.filterArchived	Archived
+translation.codeScan.filterAwaitingInput	Awaiting input
+translation.codeScan.filterByStatusAndPrState	Filter by status and PR state
+translation.codeScan.filterCompleted	Completed
+translation.codeScan.filterFailed	Failed
+translation.codeScan.findingSourceConnections	Connections
+translation.codeScan.findingSourceScans	Scans
+translation.codeScan.findingSourcePrScanning	PR Scans
+translation.codeScan.foundInPrNumber	Introduced in pull request #{{prNumber}}
+translation.codeScan.introducedInPr	Introduced in
+translation.codeScan.prReviewSeverityCritical	Critical in Devin Review
+translation.codeScan.prReviewSeverityWarning	Warning in Devin Review
+translation.codeScan.prReviewSeveritySevere	Severe in Devin Review
+translation.codeScan.prReviewSeverityModerate	Moderate in Devin Review
+translation.codeScan.prReviewSeverityInfo	Info in Devin Review
+translation.codeScan.prReviewStatusOwned	Devin Review owns this finding's status. Change it on the pull request in Devin Review.
+translation.codeScan.filterModeDiscover	Discover
+translation.codeScan.filterModeIngest	Ingest
+translation.codeScan.filterPlaceholder	Filter by repository name…
+translation.codeScan.filterPrClosed	Closed
+translation.codeScan.filterPrMerged	Merged
+translation.codeScan.filterPrNoPr	No PR
+translation.codeScan.filterPrOpen	Open
+translation.codeScan.filterPrState	PR state
+translation.codeScan.filterProfileEnterprise	Enterprise
+translation.codeScan.filterProfileMode	Mode
+translation.codeScan.filterProfileOrganization	Organization
+translation.codeScan.filterProfileType	Type
+translation.codeScan.filterProfiles	Filter profiles
+translation.codeScan.filterQueued	Queued
+translation.codeScan.filterRunning	Running
+translation.codeScan.filterScansByStatusAndPrState	Filter scans by status and PR state
+translation.codeScan.filterStatus	Status
+translation.codeScan.finding	Finding
+translation.codeScan.findingCrumb	Finding {{id}}
+translation.codeScan.findingAutomations	Automations
+translation.codeScan.findingAutomationsDescription	Automatically act on new findings reported by your scans.
+translation.codeScan.finding_one	{{count}} finding
+translation.codeScan.finding_other	{{count}} findings
+translation.codeScan.filterWorking	Working
+translation.codeScan.filterFixReady	Fix ready
+translation.codeScan.findingTags.labelsGroup	Tags
+translation.codeScan.findingTags.groupsGroup	Groups
+translation.codeScan.findingTags.label	Tags
+translation.codeScan.findingTags.add	Add tag
+translation.codeScan.findingTags.remove	Remove tag {{label}}
+translation.codeScan.findingTags.kindValue	{{kind}}: {{label}}
+translation.codeScan.findingTags.search	Search or create tags
+translation.codeScan.findingTags.create	Create \\
+translation.codeScan.reportHeadings.tldr	TL;DR
+translation.codeScan.reportHeadings.whatsWrong	What's wrong
+translation.codeScan.reportHeadings.stepsToReproduce	Steps to reproduce
+translation.codeScan.reportHeadings.whoCanDoIt	Who can do it
+translation.codeScan.reportHeadings.whatTheyGet	What they get
+translation.codeScan.reportHeadings.howItWorks	How it works
+translation.codeScan.findings	Findings
+translation.codeScan.findingsExported	Findings exported
+translation.codeScan.freqDay	Day
+translation.codeScan.freqHour	Hour
+translation.codeScan.freqMonth	Month
+translation.codeScan.freqWeek	Week
+translation.codeScan.friday	Friday
+translation.codeScan.generateProfilePrompt	Help me generate a new code scan profile.
+translation.codeScan.generateProfilePromptWithType	Help me create a {{scanType}} scan profile.
+translation.codeScan.generateWithDevin	Generate with Devin
+translation.codeScan.generateWithDevinDescription	Use Devin to generate a profile best fit to your needs.
+translation.codeScan.generateWithDevinScanDescription	Describe what you want to scan with Devin
+translation.codeScan.globInvalid	Remove quotes or other unsupported characters from {{glob}}
+translation.codeScan.globPlaceholder	e.g. src/**/*.ts
+translation.codeScan.globs	Globs
+translation.codeScan.heading	Security
+translation.codeScan.hideFindingsPanel	Hide findings panel
+translation.codeScan.hideFromSidebar	Hide from sidebar
+translation.codeScan.high	High
+translation.codeScan.howToProceed	How would you like to proceed?
+translation.codeScan.inProgress	In progress
+translation.codeScan.includeGlobs	Include globs
+translation.codeScan.incorporatingFeedback	Devin is incorporating your feedback into this scan profile.
+translation.codeScan.ingestProfileDescription	Scans import existing findings from your tooling or reports.
+translation.codeScan.ingestProfileTitle	Ingestion profile
+translation.codeScan.ingestionSourceDescription	Where your existing findings live and how Devin should fetch them.
+translation.codeScan.ingestionSourcePlaceholder	e.g. Fetch open alerts from GitHub code scanning via the REST API, or read the Semgrep report committed at reports/semgrep.json...
+translation.codeScan.ingestionSourceTitle	Ingestion source
+translation.codeScan.investigationGuidanceLabel	Investigation guidance
+translation.codeScan.investigationGuidanceHint	How Devin investigates and triages findings
+translation.codeScan.investigationGuidancePlaceholder	Instructions for how Devin should investigate and triage findings...
+translation.codeScan.killScan	Kill scan
+translation.codeScan.killScanDescription	Devin stops working right away and the scan is cancelled and archived. This can't be undone.
+translation.codeScan.killScanSubscriberDescription	You're the last subscriber to this scan. Killing it archives this session and cancels the scan. You can instead hide it from your sidebar and let the scan keep running.
+translation.codeScan.killScanTitle	Kill this scan?
+translation.codeScan.stopScan	Stop scan
+translation.codeScan.stopScanTitle	Stop this scan?
+translation.codeScan.lastCommit	Last Commit
+translation.codeScan.lastNDays	Last {{count}} days
+translation.codeScan.lastScan	Last Scan
+translation.codeScan.latestScanFailed	Latest scan failed
+translation.codeScan.liveScanSessions	Scan activity
+translation.codeScan.loadingProfiles	Loading profiles…
+translation.codeScan.loadingRepos	Loading repos…
+translation.codeScan.looksGoodStartScanning	Looks good, start scanning
+translation.codeScan.low	Low
+translation.codeScan.machine	Machine
+translation.codeScan.machineChanged	Machine updated
+translation.codeScan.machineHosted	Hosted machines
+translation.codeScan.machineOrgDefault	Organization default
+translation.codeScan.machineOutpost	Outpost
+translation.codeScan.machineOutposts	Outposts
+translation.codeScan.machineTooltip	Where this scan's sessions run: a hosted machine or one of your outpost pools. Leave as the organization default to use the default session machine
+translation.codeScan.machineTooltipDetail	This scan runs on {{machine}}
+translation.codeScan.manual	Manual
+translation.codeScan.maxAttachments	You can attach up to {{count}} files
+translation.codeScan.maxRepos	You can add up to {{count}} repositories
+translation.codeScan.med	Med
+translation.codeScan.medium	Medium
+translation.codeScan.mergedPRs_one	{{count}} merged PR
+translation.codeScan.mergedPRs_other	{{count}} merged PRs
+translation.codeScan.minuteWithinHour	Minute within hour
+translation.codeScan.modeBulkWhen	Best for covering your whole organization at once. Each matching repository gets its own independent scan. Repositories are not analyzed together.
+translation.codeScan.modeDiscover	Discover
+translation.codeScan.modeDiscoverTooltip	Scans using this profile analyze your code to find new issues.
+translation.codeScan.modeIngest	Ingest
+translation.codeScan.modeIngestTitle	Ingest findings
+translation.codeScan.modeIngestTooltip	Scans using this profile import existing findings from your tooling or reports.
+translation.codeScan.modeIngestWhen	Best for bringing findings from your existing tooling or reports into Devin. Instead of discovering new issues, Devin imports and triages the findings you already have.
+translation.codeScan.modeMultiTitle	Multi-repository
+translation.codeScan.modeMultiWhen	Best for microservices or repositories that interact with each other. Devin analyzes all selected repositories together in one scan, so it can catch issues that span repo boundaries.
+translation.codeScan.modeSingleTitle	Single repository
+translation.codeScan.modeSingleWhen	Best for a focused scan of one codebase. Devin analyzes the repository and reports all findings in a single scan.
+translation.codeScan.monday	Monday
+translation.codeScan.moreActions	More actions
+translation.codeScan.multiModel	Multi-model
+translation.codeScan.multiModelDescription	Use a different action model for each scan phase.
+translation.codeScan.exploitStrategy	Exploit strategy (experimental)
+translation.codeScan.headlessMode	Headless mode
+translation.codeScan.headlessModeDescription	Build the threat model and run the scan without asking follow-up questions.
+translation.codeScan.exploitStrategyDescription	Attempt reproducible exploits against the checked-out target in its sandbox.
+translation.codeScan.multiRepoNoneSelected	None selected
+translation.codeScan.multiRepoSelected_one	{{count}} selected
+translation.codeScan.multiRepoSelected_other	{{count}} selected
+translation.codeScan.newProfile	New profile
+translation.codeScan.newProfileCrumb	New Profile
+translation.codeScan.newScan	New Scan
+translation.codeScan.nextFinding	Next
+translation.codeScan.nextScan	Next Scan
+translation.codeScan.noAutomationsYet	No finding automations yet
+translation.codeScan.noDescriptionProvided	No description provided.
+translation.codeScan.noDismissed	No findings have been dismissed.
+translation.codeScan.noFindingsInPeriod	No findings in this period
+translation.codeScan.noFindingsFound	No findings
+translation.codeScan.noFindingsYet	No findings yet
+translation.codeScan.noIngestProfilesYet	No ingestion profiles yet
+translation.codeScan.noMatchingAutomations	No matching automations
+translation.codeScan.noMatchingFindings	No findings match your filters
+translation.codeScan.noMatchingFindingsDescription	Try different filters, or clear them to see all findings in this stage.
+translation.codeScan.quickWinsTitle_one	Devin recommends starting with {{count}} quick win
+translation.codeScan.quickWinsTitle_other	Devin recommends starting with {{count}} quick wins
+translation.codeScan.quickWinsDismiss	Dismiss recommendation
+translation.codeScan.quickWinsPosition	{{position}} of {{total}}
+translation.codeScan.quickWinsPrevious	Previous quick win
+translation.codeScan.quickWinsNext	Next quick win
+translation.codeScan.quickWinsOpenFinding	Open finding
+translation.codeScan.quickWinsDescription	Small, easy fixes
+translation.codeScan.quickWinsFixAll_one	Fix {{count}} finding
+translation.codeScan.quickWinsFixAll_other	Fix all {{count}} findings
+translation.codeScan.noMatchingProfiles	No matching profiles
+translation.codeScan.noMatchingScans	No matching scans
+translation.codeScan.noNewCommits	No new commits since the last scan
+translation.codeScan.noPermission	You don't have permission to use code scans
+translation.codeScan.noPermissionCodeScans	You don't have permission to use code scans
+translation.codeScan.noPermissionEditProfile	You don't have permission to edit this profile
+translation.codeScan.noProfile	No profile
+translation.codeScan.noProfilesYet	No profiles yet
+translation.codeScan.noReferences	No code references for this finding.
+translation.codeScan.noReposMatch	No repos match \\
+translation.combinedModal.clickOrDrop	Click or drop your files here
+translation.combinedModal.dialogLabel	Upload files
+translation.combinedModal.maxFileSize	Maximum file size: 75MB
+translation.combinedModal.supportedFileTypes	Supported file types: .txt, .md, .pdf, .jpg, .png, etc.
+translation.eventRenderer.eventTimeline.filterAria	Filter events by type
+translation.eventRenderer.eventTimeline.allTypes	All types ({{count}})
+translation.eventRenderer.eventTimeline.uiOnly	UI only
+translation.eventRenderer.eventTimeline.time	Time
+translation.eventRenderer.eventTimeline.event	Event
+translation.eventRenderer.eventTimeline.offset	Offset
+translation.eventRenderer.eventTimeline.major	major
+translation.eventRenderer.eventTimeline.stream	stream
+translation.eventRenderer.eventTimeline.acu	ACU
+translation.closePrDialog.title	Close pull request?
+translation.closePrDialog.description	This will close the pull request without merging. You can reopen it later from GitHub.
+translation.closePrDialog.cancel	Cancel
+translation.closePrDialog.confirm	Close pull request
+translation.closePrDialog.closed	Pull request closed
+translation.closePrDialog.closeFailed	Failed to close pull request
+translation.commandPalette.cloudSetup	Set up Devin Cloud from this project
+translation.commandPalette.cloudSetupFailed	Couldn't start the cloud setup preview. Please try again.
+translation.commandPalette.sendBotMessage	Send
+translation.commandPalette.messageBot	Message
+translation.commandPalette.messageBotPlaceholder	Message {{name}}…
+translation.commandPalette.botMessageSent	Message sent to {{name}}
+translation.commandPalette.botMessageFailed	Couldn't send your message to {{name}}. Please try again.
+translation.commandPalette.chatWidthDefault	Chat width default
+translation.commandPalette.chatWidthWide	Chat width wide
+translation.commandPalette.bestMatch	Best match
+translation.commandPalette.bots	{{botNamePlural}}
+translation.commandPalette.accessibility	Accessibility
+translation.commandPalette.accessibilitySettings	Accessibility settings
+translation.commandPalette.admin	Admin
+translation.commandPalette.adminPanel	Admin panel
+translation.commandPalette.allSessions	All sessions
+translation.commandPalette.changeLanguage	Change language
+translation.commandPalette.changeTheme	Change theme
+translation.commandPalette.copyDevinId	Copy Devin ID
+translation.commandPalette.customizeHooks	Hooks
+translation.commandPalette.customizeMcps	MCPs
+translation.commandPalette.customizeMemory	Memory
+translation.commandPalette.customizePlugins	Plugins
+translation.commandPalette.customizeRules	Rules
+translation.commandPalette.customizeSkills	Skills
+translation.commandPalette.darkMode	Dark mode
+translation.commandPalette.devinIdCopied	Devin ID copied
+translation.commandPalette.dialogLabel	Command palette
+translation.commandPalette.errorLookup	Error lookup
+translation.commandPalette.eventRenderer	Event renderer
+translation.commandPalette.onboardingMock	Mock onboarding
+translation.commandPalette.onboardingMockTitle	Mock onboarding
+translation.commandPalette.onboardingMockDescription	The full-screen onboarding assumes this plan and these connections instead of your real ones. A Fake connection is marked as connected without signing in anywhere. The run ends on the {{botNamePlural}} page as a new user sees it. With every connection set to Fake, the first {{botName}} you create there assumes them too. Only you see it.
+translation.commandPalette.onboardingMockPlgModesHint	Choose Real to use your account and provider sign-in, or Fake to simulate that connection. The switches set the starting state of Fake connections.
+translation.commandPalette.onboardingMockConnectionMode	{{name}} connection mode
+translation.commandPalette.onboardingMockReal	Real
+translation.commandPalette.onboardingMockFake	Fake
+translation.commandPalette.onboardingMockPlan	Plan
+translation.commandPalette.onboardingMockAlreadySetUp	Already set up
+translation.commandPalette.onboardingMockConnected	{{name}} connected
+translation.commandPalette.onboardingMockRepositories	Repositories set up
+translation.commandPalette.onboardingMockOff	Turn off mock
+translation.commandPalette.onboardingMockStart	Start onboarding
+translation.commandPalette.failedResetOnboarding	Failed to reset onboarding
+translation.commandPalette.highContrastOff	High contrast off
+translation.commandPalette.highContrastOn	High contrast on
+translation.commandPalette.highContrastSystem	High contrast system
+translation.commandPalette.lightMode	Light mode
+translation.commandPalette.onboardingFlow	Onboarding flow
+translation.commandPalette.resetDismissedCallouts	Reset dismissed callouts
+translation.commandPalette.resetAllCallouts	Reset all
+translation.commandPalette.resetOnboarding	Reset organization onboarding wizard
+translation.commandPalette.skipOnboarding	Skip onboarding
+translation.commandPalette.showGettingStarted	Show Getting Started checklist
+translation.commandPalette.review	Review
+translation.commandPalette.searchSessions	Search sessions
+translation.commandPalette.startScan	Start a security scan
+translation.commandPalette.searchIde	Search in Editor
+translation.commandPalette.searchIdeInput	Search in Editor…
+translation.commandPalette.ideCommandFile	File
+translation.commandPalette.ideCommandText	Text
+translation.commandPalette.ideCommandSymbol	Symbol
+translation.commandPalette.ideCommandLine	Line
+translation.commandPalette.sectionAccessibility	Accessibility
+translation.commandPalette.sectionActions	Actions
+translation.commandPalette.sectionDebug	Debug
+translation.commandPalette.sectionLanguage	Language
+translation.commandPalette.sectionNavigation	Navigation
+translation.commandPalette.sectionOrganizations	Organizations
+translation.commandPalette.sectionSettings	Settings
+translation.commandPalette.sectionTheme	Theme
+translation.commandPalette.sectionMode	Mode
+translation.commandPalette.sectionLightThemes	Light themes
+translation.commandPalette.sectionDarkThemes	Dark themes
+translation.commandPalette.seeMore	See more
+translation.commandPalette.startSessionWithPrompt	Start session <secondary>with a prompt…</secondary>
+translation.commandPalette.startSessionWithQuery	Start session <secondary>“{{prompt}}”</secondary>
+translation.commandPalette.openPrReview	Open review <secondary>{{pr}}</secondary>
+translation.commandPalette.switchToLang	Switch to {{lang}}
+translation.commandPalette.systemMode	System
+translation.commandPalette.toggleCompactHistory	Toggle compact message history
+translation.commandPalette.toggleSidebar	Toggle sidebar
+translation.commandPalette.turnOnReactScan	Turn on React Scan
+translation.commandPalette.turnOffReactScan	Turn off React Scan
+translation.commandPalette.typeCommand	Type a command or search…
+translation.commandPalette.startInBackground	Start in background

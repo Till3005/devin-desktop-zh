@@ -1,0 +1,500 @@
+translation.apps.deployment.started	Started
+translation.apps.deployment.stopped	Stopped
+translation.apps.deployment.commit	Commit
+translation.apps.deployment.repository	Repository
+translation.apps.deployment.command	Command
+translation.apps.deployment.notFound	Deployment not found
+translation.apps.deployment.preview	Preview · {{branch}}
+translation.apps.deployment.output	Output
+translation.apps.deployment.copyOutput	Copy output
+translation.apps.filterAllStatuses	All statuses
+translation.apps.filterAllBranches	All branches
+translation.apps.deleteTypeName	Type \\
+translation.automations.batchMaxSize	Batch size
+translation.automations.batchMaxSizeDescription	Events per run, from 2 to 100; a full batch runs right away
+translation.automations.batchTimeout	Batch timeout (seconds)
+translation.automations.batchTimeoutDescription	Longest the first event waits before a partial batch runs, from 1 to 3600
+translation.automations.batching	Enable batching
+translation.automations.batchingDescription	Collect matching events and handle them together in one run. This can't be turned on or off after the automation is created
+translation.automations.batchingLockedDescription	Matching events are collected and handled together in one run. Batching can't be turned off, and the triggers, actions, replies and Preflight checks of this automation can't be changed
+translation.automations.eventBatch	Batch {{id}}
+translation.automations.eventBatchedDescription	Handled in one session together with the other events in its batch
+translation.automations.resourcePullRequest	Pull Request
+translation.automations.resourcePrReview	PR Review
+translation.automations.resourceIssueComment	Issue Comment
+translation.automations.resourceIssue	Issue
+translation.automations.resourceCheckRun	Check Run
+translation.automations.resourceCheckRunInRepo	Check Run in {{repoName}}
+translation.automations.resourceWorkflowRun	Workflow run
+translation.automations.resourceWorkflowRunInRepo	Workflow run in {{repoName}}
+translation.automations.resourcePush	Push to {{branch}} in {{repoName}}
+translation.automations.resourceSlackThread	Slack thread
+translation.automations.resourceSlackMessage	Slack message
+translation.automations.resourceLinearIssue	Linear Issue
+translation.automations.resourceLinearIssueWithTitle	Linear Issue: {{title}}
+translation.automations.resourceJiraIssue	Jira Issue
+translation.automations.resourceJiraIssueWithSummary	Jira Issue: {{summary}}
+translation.automations.triggerPolicyBlockedTooltip	Blocked by a trigger policy
+translation.automations.triggerPolicyLoadingTooltip	Checking trigger policy…
+translation.automations.byUser	by {{name}}
+translation.automations.organizationDefaultMode	Organization default
+translation.automations.activityTabs	Automation activity
+translation.automations.codeScanTarget	Scan
+translation.automations.codeScanTargetDescription	Start a new scan or scan new commits on an existing one
+translation.automations.createNewScanOption	Create a new scan
+translation.automations.createNewScanOptionDescription	Configure repositories, scan type and profile below
+translation.automations.lastRun	Last run
+translation.automations.scanHasNoCompletedRun	Needs a completed full scan before it can scan new commits
+translation.automations.scanFindingRemediationSummary	{{severities, list}} severity
+translation.automations.threatScanDescription	Each run scans these repositories for the threats published in the events that triggered it (Cognition’s and your team’s), and is skipped when none is still open. Devin reranks the findings against your threat model.
+translation.automations.threatScanTriggerRequired	A threat scan needs “Security threat: published” as its only trigger
+translation.automations.scanNewCommitsExplainer	Each run scans the commits added since the scan's last completed run and appears in that scan's run history.
+translation.automations.scanNotFound	Scan not found
+translation.automations.selectScan	Select a scan
+translation.automations.slackIdentity	Slack identity
+translation.automations.slackIdentityDescription	Post this automation's Slack messages under a custom name and picture
+translation.automations.slackIdentityName	Display name
+translation.automations.slackIdentityChangePicture	Change picture
+translation.automations.slackIdentityRemovePicture	Remove picture
+translation.automations.slackIdentityEditName	Edit name
+translation.automations.slackIdentityPreviewMessage	This is how messages from this automation will appear in Slack.
+translation.automations.slackIdentityPictureTooLarge	Picture must be smaller than 5 MB
+translation.automations.slackIdentityPictureUploadFailed	Failed to upload picture
+translation.automations.slackCappedByProfile	Capped by profile
+translation.automations.slackChannelsCappedByProfile	This automation grants Slack channel access beyond the governing security profile; access outside it is dropped when the automation runs.
+translation.automations.slackChannelsCappedByProfile_named	This automation grants Slack channel access beyond the security profile “{{name}}”; access outside it is dropped when the automation runs.
+translation.automations.slackDmsCappedByProfile	This automation grants Slack direct messages beyond the governing security profile; DMs are narrowed when the automation runs.
+translation.automations.slackDmsCappedByProfile_named	This automation grants Slack direct messages beyond the security profile “{{name}}”; DMs are narrowed when the automation runs.
+translation.automations.teamsCappedByProfile	Capped by profile
+translation.automations.teamsChannelsCappedByProfile	This automation grants Microsoft Teams channel access beyond the governing security profile; access outside it is dropped when the automation runs.
+translation.automations.teamsChannelsCappedByProfile_named	This automation grants Microsoft Teams channel access beyond the security profile “{{name}}”; access outside it is dropped when the automation runs.
+translation.automations.teamsDmsCappedByProfile	This automation grants Microsoft Teams direct messages beyond the governing security profile; DMs are narrowed when the automation runs.
+translation.automations.teamsDmsCappedByProfile_named	This automation grants Microsoft Teams direct messages beyond the security profile “{{name}}”; DMs are narrowed when the automation runs.
+translation.automations.teamsTriggerChannelExcludedByProfile	The governing security profile excludes this automation's Teams trigger channel; runs start without access to that channel.
+translation.automations.teamsTriggerChannelExcludedByProfile_named	The security profile “{{name}}” excludes this automation's Teams trigger channel; runs start without access to that channel.
+translation.automations.teamsAllInstalledTeams	All public channels in installed teams
+translation.automations.teamsAllInstalledTeamsWithDms	All public channels in installed teams + DMs
+translation.automations.teamsDirectMessages	Direct messages
+translation.automations.teamsDirectMessagesHelper	Only reaches people who installed the Devin app in Teams.
+translation.automations.teamsDmScope	Microsoft Teams DM scope
+translation.automations.teamsOnlyInstalledTeamsAvailable	Only teams where Devin is installed are available
+translation.automations.teamsNoInstalledTeams	The Devin app is not installed in any team yet
+translation.automations.teamsConnectInSettings	Connect in settings
+translation.automations.teamsNotConnected	Not connected
+translation.automations.searchTeamsChannels	Search Microsoft Teams channels
+translation.automations.actionTypeAutoTriage	Auto-triage
+translation.automations.actionTypeMessageSession	Message session
+translation.automations.actionTypeMonitorSession	Triage Devin
+translation.automations.actionItem	Action
+translation.automations.actionTypeNotify	Email notification
+translation.automations.actionTypeReadinessScan	Readiness scan
+translation.automations.actionTypeRemediate	Remediate
+translation.automations.actionTypeScanNewCommits	Scan new commits
+translation.automations.actionTypeStartCodeScan	Start code scan
+translation.automations.actionTypeStartThreatScan	Start threat scan
+translation.automations.actionTypeStartSession	Start session
+translation.automations.active	Active
+translation.automations.paused	Paused
+translation.automations.activityLoadError	Couldn't load activity.
+translation.automations.acuLimitPerSession	ACU limit per session
+translation.automations.acus	ACUs
+translation.automations.azureDevopsPublicProjectWarning	For security reasons, automations don't trigger for events from repositories in public Azure DevOps projects.
+translation.automations.bitbucketDataCenterPublicRepoWarning	For security reasons, automations don't trigger for events from public Bitbucket Data Center repositories or projects.
+translation.automations.addAtLeastOneAction	Add at least one action
+translation.automations.addAtLeastOneTrigger	Add at least one trigger
+translation.automations.addAutomation	Add automation
+translation.automations.addCondition	Add condition
+translation.automations.accessibleDomains	Accessible domains
+translation.automations.addDomain	Add domain
+translation.automations.added	Added
+translation.automations.addedCount_one	{{count}} added
+translation.automations.addedCount_other	{{count}} added
+translation.automations.addMetadata	Add metadata
+translation.automations.addNotification	Add notification
+translation.automations.addTrigger	Add trigger
+translation.automations.addTriggerPicker	Add trigger
+translation.automations.advanced	Advanced
+translation.automations.agentDefinition	Agent definition
+translation.automations.agentDefinitionDescription	Define what happens when triggers are activated
+translation.automations.agentMode	Agent mode
+translation.automations.agentNumberSuffix	· Agent {{number}}
+translation.automations.agentType	Agent type
+translation.automations.agentTypeAutoTriage	Auto-triage
+translation.automations.agentTypeAutoTriageDescription	Watch Slack channel and triage new messages automatically
+translation.automations.agentTypeCodeScan	Code scan
+translation.automations.agentTypeCodeScanDescription	Start a fresh code scan per trigger
+translation.automations.agentTypeThreatScan	Threat scan
+translation.automations.agentTypeThreatScanDescription	Scan for newly published threats
+translation.automations.agentTypeAutoTriageSlackOnly	Auto-triage is currently only supported with Slack → Message triggers.
+translation.automations.agentTypeAutoTriageV2Description	Track, triage, and investigate issues per trigger
+translation.automations.agentTypeGenericAssistant	Assistant
+translation.automations.agentTypeGenericAssistantDescription	Answer questions, investigate, and take on requests in Slack threads
+translation.automations.agentTypeGenericAssistantSlackOnly	Assistant is currently only supported with Slack → Message triggers.
+translation.automations.agentTypeDescription	Decide what the agent should do on new events
+translation.automations.agentTypeLocked	Agent type can't be changed after creation. Duplicate the automation to change it.
+translation.automations.agentTypeLongRunning	Message existing session
+translation.automations.agentTypeLongRunningDescription	Send message to existing session per trigger
+translation.automations.agentTypeNewSession	Start new session
+translation.automations.agentTypeNewSessionDescription	Start a fresh session per trigger
+translation.automations.agentTypeOnlyOneNewSession	An automation can have only one New session agent
+translation.automations.agentTypeOptionLocked	Can't switch to this agent type after creation. Duplicate the automation to change it.
+translation.automations.agentTypeRemediate	Remediate
+translation.automations.agentTypeRemediateDescription	Investigate and create a PR for each finding
+translation.automations.agentTypeWatchingSlackChannel	This automation is watching a Slack channel. To use this agent type, remove the Watch channel trigger.
+translation.automations.all	All
+translation.automations.allActionsMustHaveType	All actions must have a type
+translation.automations.allPublicChannels	All public channels
+translation.automations.allTriggersMustHaveType	All triggers must have an event type
+translation.automations.allowChildSessions	Allow auto-start of child sessions
+translation.automations.privateSessions	Start sessions as private
+translation.automations.privateSessionsDescription	Sessions from this automation are visible only to you and people you share them with.
+translation.automations.privateSessionsRequiresRunAsCreator	Available only when the automation runs as you
+translation.automations.allowChildSessionsDescription	Sessions can spawn child sessions automatically without your approval
+translation.automations.analytics	Analytics
+translation.automations.and	and
+translation.automations.apply	Apply
+translation.automations.askAdminToConnectToUseTrigger	{{source}} is connected once for your whole account. Ask an admin to connect {{source}} to use this trigger.
+translation.automations.askAdminToUpdateChannelMappings	Ask your enterprise admin to update the channel mappings for this org.
+translation.automations.askEnterpriseAdminMapping	Ask an enterprise admin to update the mapping.
+translation.automations.attachedToTriggeringThread	Attached to triggering Slack thread
+translation.automations.autoCreate	Create session automatically
+translation.automations.autoCreateSessionOption	Create new session
+translation.automations.autoCreateSessionOptionDescription	Creates long running destination session for automation
+translation.automations.automation	Automation
+translation.automations.automationActions	Automation actions
+translation.automations.automationLinkLabel	Automation
+translation.automations.automationLoadError	Couldn't load this automation.
+translation.automations.automationNamePlaceholder	Automation name
+translation.automations.automationNotFound	This automation does not exist, has been deleted, or is not visible to you.
+translation.automations.automationsLoadError	Couldn't load automations.
+translation.automations.automationTitle	Automation
+translation.automations.automationTriggered	Automation triggered
+translation.automations.automationUnavailable	Not visible to you
+translation.automations.editAutomation	Edit automation
+translation.automations.binaryFileNotPreviewable	Binary files can't be previewed or edited.
+translation.automations.blockedByProfile	Blocked
+translation.automations.blockedByProfileTooltip	Not allowed by the governing security profile — sessions will not be able to reach this destination
+translation.automations.booleanFalse	false
+translation.automations.booleanOff	Off
+translation.automations.booleanOn	On
+translation.automations.booleanTrue	true
+translation.automations.browseFiles	Browse files
+translation.automations.builtIn	Built-in
+translation.automations.cancel	Cancel
+translation.automations.canceledCount_one	{{count}} canceled
+translation.automations.canceledCount_other	{{count}} canceled
+translation.automations.categoryCicdRelease	CI/CD & Release
+translation.automations.categoryMonitoringTriage	Monitoring & Triage
+translation.automations.categoryProjectManagement	Project Management
+translation.automations.categorySecurity	Security
+translation.automations.changed	Changed
+translation.automations.changedCount_one	{{count}} changed
+translation.automations.changedCount_other	{{count}} changed
+translation.automations.changes_one	{{count}} change
+translation.automations.changes_other	{{count}} changes
+translation.automations.changeListFootnote	Only changed settings are shown. Open the card in the sidebar to compare everything.
+translation.automations.preflightReplaced	The request replaces the preflight check script. The current script is not shown here.
+translation.automations.llmCheckReplaced	The request replaces the LLM filter prompt. The current prompt is not shown here.
+translation.automations.llmCheckDisabled	The request turns the LLM filter off; its events are no longer filtered.
+translation.automations.status	Status
+translation.automations.channel	Channel
+translation.automations.channelAlreadyMonitored	This channel is already being monitored by another triage Devin
+translation.automations.channelCountWithDms_one	{{count}} channel + DMs
+translation.automations.channelCountWithDms_other	{{count}} channels + DMs
+translation.automations.channelCount_one	{{count}} channel
+translation.automations.channelCount_other	{{count}} channels
+translation.automations.channelNoLongerMapped	Channel no longer mapped
+translation.automations.channelNoLongerMappedTooltip	The channel this automation was watching is no longer mapped to this org. Ask your enterprise admin to update the channel mappings.
+translation.automations.channelNotAvailableTooltip	This channel is not available. Invite @Devin to the channel or select a different one.
+translation.automations.childSessionsAllowedWithoutApproval	Child sessions allowed without approval
+translation.automations.clearAllFilters	Clear all filters
+translation.automations.clearChannel	Clear channel
+translation.automations.clearFilter	Clear filter
+translation.automations.close	Close
+translation.automations.closeSearch	Close search
+translation.automations.filterType	Type
+translation.automations.filterCreatedBy	Created by
+translation.automations.filterKindAutomation	Automation
+translation.automations.filterKindReminder	Reminder
+translation.automations.filterStatusEnabled	Enabled
+translation.automations.filterSelectedCount_one	{{count}} selected
+translation.automations.filterSelectedCount_other	{{count}} selected
+translation.automations.filterSelection	{{labels, list(type: unit)}}
+translation.automations.filterSearchOptions	Search…
+translation.automations.noFilterOptions	Nothing to filter by
+translation.automations.noAutomationsMatchListFiltersDetail	Try removing a filter or broadening your search.
+translation.automations.conditions	Conditions
+translation.automations.configure	Configure
+translation.automations.configureChannelMappings	Configure channel mappings
+translation.automations.configureToUseTrigger	Configure {{source}} to use this trigger.
+translation.automations.connect	Connect
+translation.automations.connectDatadog	Connect Datadog
+translation.automations.connectIncidentIoToSelectTeam	Connect incident.io to select a team
+translation.automations.connectMcpsBeforeSaving	Connect the selected MCPs before saving
+translation.automations.connectToUseTrigger	Connect {{source}} to use this trigger.
+translation.automations.connecting	Connecting…
+translation.automations.consumption	Consumption
+translation.automations.consumptionLoadError	Failed to load consumption data.
+translation.automations.consumptionOnDemand	on-demand
+translation.automations.consumptionOnDemandHint	Usage covered by your plan is not shown.
+translation.automations.continue	Continue
+translation.automations.copied	Copied
+translation.automations.copiedLabel	{{label}} copied
+translation.automations.copiedSecret	Secret copied
+translation.automations.copiedTestCommand	Test command copied
+translation.automations.suggestedFirstMessageCopied	Message copied
+translation.automations.copy	Copy
+translation.automations.copyAllDomains	Copy all domains
+translation.automations.copyFailed	Copy failed
+translation.automations.copyLabel	Copy {{label}}
+translation.automations.copyMessage	Copy message
+translation.automations.copyOfName	{{name}} (copy)
+translation.automations.copySecret	Copy secret
+translation.automations.copyTestCommand	Copy test command
+translation.automations.couldntJoinChannelReconnect	Devin couldn't join the channel. <reconnect>Reconnect Slack</reconnect> to grant permission to join channels.
+translation.automations.couldntLoadScratchpadFolder	Couldn't load the scratchpad folder.
+translation.automations.createAutomation	Create automation
+translation.automations.createAutomationTitle	Create automation
+translation.automations.createFileToGetStarted	Create a file to get started.
+translation.automations.createFromTemplate	Create from template
+translation.automations.createFromTemplateCardDescription	Customize a preset automation to fit your needs
+translation.automations.createManually	Create manually
+translation.automations.createManuallyCardDescription	Configure automation triggers, actions, and limits yourself
+translation.automations.createTriageDevin	Create triage Devin
+translation.automations.created	Created
+translation.automations.createdBy	Created by
+translation.automations.creating	Creating…
+translation.automations.createdByOn	Created by {{name}} on {{date}}
+translation.automations.customRange	Custom range
+translation.automations.datadogConnectDescription	Connecting Datadog lets Devin debug production bugs with confidence.
+translation.automations.datadogReauthorize	Your Datadog connection needs to be re-authorized.
+translation.automations.dayFriday	Friday
+translation.automations.dayInitialFriday	F
+translation.automations.dayInitialMonday	M
+translation.automations.dayInitialSaturday	S
+translation.automations.dayInitialSunday	S
+translation.automations.dayInitialThursday	T
+translation.automations.dayInitialTuesday	T
+translation.automations.dayInitialWednesday	W
+translation.automations.dayMonday	Monday
+translation.automations.dayOfMonth	Day of month
+translation.automations.daySaturday	Saturday
+translation.automations.daySunday	Sunday
+translation.automations.dayThursday	Thursday
+translation.automations.dayTuesday	Tuesday
+translation.automations.dayWednesday	Wednesday
+translation.automations.delete	Delete
+translation.automations.deleteAutomation	Delete automation
+translation.automations.deleteAutomationConfirmation	Are you sure you want to delete “{{name}}”? This action cannot be undone.
+translation.automations.deleteConfirmation	Are you sure you want to delete “{{name}}”? This action cannot be undone.
+translation.automations.destChannelNotAvailable	Selected destination channel is not available. Invite @Devin to the channel first.
+translation.automations.destChannelRequired	A destination channel is required when using 'Post in new channel' mode
+translation.automations.destTeamsChannelRequired	Post to Teams requires both a team and a channel
+translation.automations.destinationDevin	Destination {{botName}}
+translation.automations.destinationDevinDescription	Messages follow the {{botName}} to its current session
+translation.automations.destinationDevinRequired	Select a destination {{botName}}
+translation.automations.destinationSession	Destination session
+translation.automations.destinationSessionDescription	Select session to route trigger requests
+translation.automations.destinationSessionRequired	Select a destination session or choose 'Create new session'
+translation.automations.destinationTarget	Target
+translation.automations.destinationTargetDescription	Message a specific session, or a {{botName}} wherever its conversation continues
+translation.automations.destinationTargetDevin	{{botName}}
+translation.automations.destinationTargetSession	Session
+translation.automations.devinIsInChannel	Devin is in the channel
+translation.automations.devinMode	Agent mode
+translation.automations.devinModeDescription	Launch sessions using this agent mode
+translation.automations.devinWillJoin	Devin will join {{channel}}
+translation.automations.devinWillJoinChannel	Devin will join {{channel}}
+translation.automations.slackAppWillJoin	The app will join {{channel}}
+translation.automations.slackAppIsInChannel	The app is in the channel
+translation.automations.excludedPrivateChannelNoop	Excluding {{channel}} has no effect: Devin only listens in public channels here
+translation.automations.directMessages	Direct messages
+translation.automations.directMessagesDisabled	Direct messages off
+translation.automations.directMessagesOrgMembersOnly	Direct messages (org members only)
+translation.automations.directMessagesWorkspace	Direct messages (whole workspace)
+translation.automations.disable	Disable
+translation.automations.disableNetworkControlsDescription	Disabling network controls removes protection against prompt injection data exfiltration. Sessions will be able to access any network destination.
+translation.automations.disableNetworkControlsTitle	Disable network controls?
+translation.automations.disabled	Disabled
+translation.automations.discardTitle	Discard unsaved changes?
+translation.automations.dmsOnly	DMs only
+translation.automations.dollarIncrementLimit	Per-session limit must be in \${{increment}} increments
+translation.automations.domainEntry	entry
+translation.automations.domainPlaceholder	domain, IPv4, or IPv6 (e.g. *.github.com)
+translation.automations.done	Done
+translation.automations.duplicate	Duplicate
+translation.automations.promoteToBot	Promote to {{botName}}
+translation.automations.botFromAutomationCreated	Made the {{botName}} \\
+translation.infoTip.docs	Docs
+translation.infoTip.moreInformation	More information
+translation.avatarStack.overflow_one	{{count}} more
+translation.avatarStack.overflow_other	{{count}} more
+translation.badges.beta	Beta
+translation.badges.internal	Internal
+translation.badges.legacy	Legacy
+translation.badges.new	New
+translation.badges.updated	Updated
+translation.billing.plgSpendReport.description	Devin reviews your cloud sessions from the past month and suggests ways to spend less.
+translation.billing.plgSpendReport.errorToast	Couldn't start the spend report. Please try again.
+translation.billing.plgSpendReport.existingToast	This is your current spend report. A new report is available on {{date}}.
+translation.billing.plgSpendReport.generate	Generate
+translation.billing.plgSpendReport.generateSpendReport	Generate spend report
+translation.billing.plgSpendReport.scope	Local sessions, DeepWiki, and Devin Review are not included.
+translation.billing.plgSpendReport.title	Get your monthly spend report
+translation.billing.plgSpendReport.view	View
+translation.billing.plgSpendReport.viewSpendReport	View spend report
+translation.billing.acuAmount_one	{{formattedCount}} ACU
+translation.billing.acuAmount_other	{{formattedCount}} ACUs
+translation.billing.planCard.accountSupport	Account support
+translation.billing.planCard.acuTooltip	Devin's unit of work is an Agent Compute Unit, or ACU. It's a normalized measure of the resources used by Devin.
+translation.billing.planCard.acusIncludedMonthly	250 <acu>ACUs</acu> included monthly
+translation.billing.planCard.adminDashboard	Admin dashboard with analytics
+translation.billing.planCard.askDevin	Ask Devin
+translation.billing.planCard.autoReload	Auto-reload settings for on-demand consumption
+translation.billing.planCard.centralizedBilling	Centralized billing
+translation.billing.planCard.claimOffer	Claim the offer
+translation.billing.planCard.concurrentSessions	Up to 10 concurrent Devin sessions
+translation.billing.planCard.dedicatedAccountTeam	Dedicated account team
+translation.billing.planCard.deepWiki	DeepWiki
+translation.billing.planCard.devinApi	Devin API
+translation.billing.planCard.devinIde	Devin IDE
+translation.billing.planCard.devinReview	Devin Review
+translation.billing.planCard.devinUsageQuota	Devin usage quota
+translation.billing.planCard.devinWiki	Devin Wiki
+translation.billing.planCard.dollarsIncludedMonthly	$500 included monthly
+translation.billing.planCard.downgrade	Downgrade
+translation.billing.planCard.earlyAccess	Access to early feature releases and research previews
+translation.billing.planCard.enterpriseAccess	Access to Devin Enterprise
+translation.billing.planCard.enterpriseAdminControls	Centralized enterprise admin controls
+translation.billing.planCard.everythingInCore	Everything in Core, plus:
+translation.billing.planCard.everythingInFree	Everything in Free, plus:
+translation.billing.planCard.everythingInPro	Everything in Pro, plus:
+translation.billing.planCard.getPlan	Get {{plan}}
+translation.billing.planCard.flagshipModelAccess	Free access to SWE-2, our flagship coding model
+translation.billing.planCard.ideUsageQuota	<desktop /> IDE usage quota
+translation.billing.planCard.includes	Includes:
+translation.billing.planCard.increasedDevinUsageQuota	Increased Devin usage quota
+translation.billing.planCard.increasedIdeUsageQuota	Increased <desktop /> IDE usage quota
+translation.billing.planCard.integrations	Slack, Linear, and MCP integrations
+translation.billing.planCard.keyCapabilities	Key capabilities
+translation.billing.planCard.learnsOverTime	Learns over time
+translation.billing.planCard.limitedDevinUsage	Limited Devin usage
+translation.billing.planCard.noMonthlyCommitment	No monthly commitment, pay-as-you-go plan
+translation.billing.planCard.onboardingCall	Optional onboarding call with the Cognition team
+translation.billing.planCard.payAsYouGoOnDemandPastQuota	Pay-as-you-go for on-demand usage past quota
+translation.billing.planCard.payAsYouGoPastQuota	Pay-as-you-go for usage past quota
+translation.billing.planCard.planCodeTestShip	Use Devin to plan, code, test, and ship
+translation.billing.planCard.priceCustom	Custom pricing
+translation.billing.planCard.priceFree	Free
+translation.billing.planCard.pricePayAsYouGo	Pay as you go, starting at $20
+translation.billing.planCard.pricePerMonth	{{price}}/month
+translation.billing.planCard.pricePerYear	{{price}}/year
+translation.billing.planCard.priceProTrial	Free for 14 days, $20/mo after
+translation.billing.planCard.purchase	Purchase
+translation.billing.planCard.shareAndCollaborate	Share and collaborate
+translation.billing.planCard.sso	SAML/OIDC SSO
+translation.billing.planCard.scimAndRbac	SCIM and role-based access control
+translation.billing.planCard.teamsCostControls	Cost controls with 3 usage tiers
+translation.billing.planCard.teamsUserLimit	Up to 100 users
+translation.billing.planCard.teamsMultiplayer	Share and collaborate with multiplayer sessions
+translation.billing.planCard.teamsFreeSessions	2 concurrent sessions in Free mode per user
+translation.billing.planCard.slackChannelSupport	Slack channel support
+translation.billing.planCard.startFreeTrial	Start free trial
+translation.billing.planCard.unlimitedConcurrentSessions	Unlimited concurrent sessions
+translation.billing.planCard.unlimitedUsers	Unlimited users
+translation.billing.planCard.useChatgptPlan	Use your <planLink>ChatGPT plan</planLink>
+translation.billing.planCard.freeUpgradeBlurb	Upgrade to get access to more models and an increased usage quota.
+translation.billing.planCard.lapsedBadge	Lapsed
+translation.billing.planCard.lapsedBannerBody	You are now on the Free plan. Resubscribe to get your models and usage quota back.
+translation.billing.planCard.lapsedBannerBodyWithDate	Your plan ended on {{date}}. You are now on the Free plan. Resubscribe to get your models and usage quota back.
+translation.billing.planCard.lapsedBannerTitle	Your {{plan}} plan has lapsed
+translation.billing.planCard.resubscribe	Resubscribe
+translation.billing.planCard.usage	Usage
+translation.billing.accountLimitReachedToast	Your organization has no usage remaining. Contact your account admin to continue using Devin.
+translation.billing.acuLimitAskAdmin	Contact your account admin to increase it
+translation.billing.askAdminIncreaseAutoReload	Ask an admin to increase the auto-reload limit
+translation.billing.askAdminUpdatePayment	Ask an admin to update your organization's payment method
+translation.billing.autoReloadLimitMemberDescription	Your organization has reached its monthly auto-reload limit. No further auto-reloads will be processed until the next billing cycle. Please contact your organization's admin to increase the monthly auto-reload limit.
+translation.billing.autoReloadLimitOwnerDescription	You have reached your monthly auto-reload limit. No further auto-reloads will be processed until the next billing cycle. To continue using Devin, you can increase your monthly auto-reload limit in the billing settings. <learnMore>Learn more</learnMore>
+translation.billing.autoReloadLimitReachedTitle	Auto-reload limit reached
+translation.billing.chatgptManageUsage	Manage usage
+translation.billing.chatgptConnectCta.action	Connect ChatGPT
+translation.billing.chatgptConnectCta.usageTitle	Use your ChatGPT plan in Devin
+translation.billing.chatgptConnectCta.usageDescription	Connect your ChatGPT account so supported sessions draw on your ChatGPT plan instead of your Devin usage.
+translation.billing.chatgptConnectCta.outOfUsageTitle	Out of usage? Keep going with your ChatGPT plan
+translation.billing.chatgptConnectCta.outOfUsageDescription	Connect your ChatGPT account to keep running supported sessions on your ChatGPT plan until your usage resets.
+translation.billing.chatgptConnectCta.botsTitle	Run {{botNamePlural}} on your ChatGPT plan
+translation.billing.chatgptConnectCta.botsDescription	Connect your ChatGPT account so supported sessions your {{botNamePlural}} start as you draw on your ChatGPT plan.
+translation.billing.chatgptConnectCta.botBudgetTitle	Keep this {{botName}} running with ChatGPT
+translation.billing.chatgptConnectCta.botBudgetDescription	Connect your ChatGPT account so supported sessions it starts as you draw on your ChatGPT plan instead of this budget.
+translation.billing.chatgptUsageCardTitle	View and manage your ChatGPT usage
+translation.billing.clear	Clear
+translation.billing.contactAccountAdmin	Contact your account admin
+translation.billing.contactAccountTeam	Contact your account team
+translation.billing.contactEnterpriseAdmin	Contact your enterprise admin
+translation.billing.contractExpiredBanner	Your contract expired on {{endDate}}. Contact your account team to renew and restore access.
+translation.billing.contractExpiredDescription	Your organization's Devin contract has ended, so new work is blocked. Contact your account team to renew and restore access.
+translation.billing.contractExpiredTitle	Your enterprise contract has ended
+translation.billing.contractExpiryBanner	Your contract expires on {{endDate}}. To avoid an interruption in access, contact your account team to renew.
+translation.billing.contractGracePeriodBanner	Your organization's billing cycle has ended. Access to Devin will be completely shut off on {{accessEndsAt}}. Contact your account team to renew.
+translation.billing.dailyUsageQuotaExceeded	Daily usage quota exceeded
+translation.billing.efficiencyAcusBySizeDescription	Distribution of ACUs by session size
+translation.billing.efficiencyAcusBySizeTitle	ACUs by size
+translation.billing.efficiencyHelpDescription	Here are the highest-impact ways to get more valuable work from each session.
+translation.billing.efficiencyHelpExplainer	Efficiency improves when Devin completes valuable work while keeping the mode and task size proportional to the job.
+translation.billing.efficiencyHelpHeadline	Useful output + efficient usage = higher efficiency
+translation.billing.efficiencyHelpTitle	How to improve session efficiency
+translation.billing.efficiencyHelpWhatItMeans	What it means
+translation.billing.efficiencyKpiAcusPerMergedPr	ACUs per merged PR
+translation.billing.efficiencyKpiAcusPerSession	ACUs per session
+translation.billing.efficiencyKpiHealthy	Healthy
+translation.billing.efficiencyKpiNeedsImprovement	Needs improvement
+translation.billing.efficiencyKpiPrsMergedPerDay	PRs merged per day
+translation.billing.efficiencyKpiSatisfactory	Satisfactory
+translation.billing.efficiencyKpiSessionsWithOutcomes	Sessions with outcomes
+translation.billing.efficiencyPrOutcomesDescription	Distribution of Devin PRs by status
+translation.billing.efficiencyPrOutcomesTitle	PR outcomes
+translation.billing.efficiencyRangeCurrent	Current cycle
+translation.billing.efficiencyRangePrevious	Previous cycle
+translation.billing.efficiencyRangeRecent	Trailing usage
+translation.billing.efficiencyRangeSelect	Select efficiency range
+translation.billing.efficiencySectionDescription	Keep your efficiency <healthy>healthy</healthy> or <satisfactory>satisfactory</satisfactory> to get the most out of Devin.
+translation.billing.efficiencySectionDescriptionConditional	Keep your efficiency <healthy>healthy</healthy> or <satisfactory>satisfactory</satisfactory> to automatically receive higher usage limits.
+translation.billing.efficiencySectionTitle	Session efficiency
+translation.billing.efficiencyTipModesDescription	Save Ultra for tasks that need it; Lite or Normal cover most work.
+translation.billing.efficiencyTipModesTitle	Try lower-cost modes
+translation.billing.efficiencyTipPlanDescription	Give context, constraints, and acceptance criteria up front.
+translation.billing.efficiencyTipPlanTitle	Plan before executing
+translation.billing.efficiencyTipSplitDescription	Focused tasks help agents make steady progress.
+translation.billing.efficiencyTipSplitTitle	Split up large work
+translation.billing.efficiencyTipsLink	Tips
+translation.billing.enterpriseLimitReachedToast	Your organization's usage limit has been reached. Contact your enterprise admin to increase it.
+translation.billing.enterpriseScaleHeading	Built to scale across your organization:
+translation.billing.explorePlans	Explore plans
+translation.billing.sessionNotStarted	The session was not started.
+translation.billing.usageLimitReached	Usage limit reached
+translation.billing.increaseEnterpriseOrgLimit	Increase enterprise organization usage limit
+translation.billing.increaseLimitTitle	Increase your usage limit
+translation.billing.increaseOrgLimitMemberDescription	You have hit your per-organization limit for available {{unit}} this billing cycle. Organization admins can increase organization usage limit in settings.
+translation.billing.increaseOrgLimitMemberEnterpriseDescription	You have hit your per-organization limit for available enterprise {{unit}} this billing cycle. Enterprise admins can increase organization usage limit in settings.
+translation.billing.increaseOrgLimitOwnerDescription	You have hit your per-organization limit for available {{unit}} this billing cycle. To continue using Devin, you can increase your organization's usage limit. <learnMore>Learn more</learnMore>
+translation.billing.increaseOrgLimitOwnerEnterpriseDescription	You have hit your per-organization limit for available enterprise {{unit}} this billing cycle. To continue using Devin, you can increase your organization's usage limit. <learnMore>Learn more</learnMore>
+translation.billing.increaseOrgLimitTitle	Increase your organization's usage limit
+translation.billing.increaseUserLimitDescription	You have hit your per-user limit for available {{unit}} this billing cycle. Request more from your account admin to continue using Devin.
+translation.billing.increaseUserLimitReachedDescription	You have hit your per-user limit for available {{unit}} this billing cycle.
+translation.billing.individualPlanMemberDescription	Your account is on an individual plan but you are not the organization owner. Ask your account admin to upgrade to a Teams plan so everyone gets access.
+translation.billing.individualPlanOwnerDescription	Your account is on an individual plan but you are not the organization owner. Upgrade to a Teams plan to give everyone access.
+translation.billing.individualPlanTitle	Your account is on an individual plan
+translation.billing.learnMore	Learn more
+translation.billing.manageAutoReload	Manage auto-reload
+translation.billing.manageEnterpriseAcuLimits	Manage your enterprise ACU limits
+translation.billing.managePlans	Manage plans
+translation.billing.manageUsageLimit	Manage usage limit
+translation.billing.noAcusRemaining	You have no available ACUs remaining
+translation.billing.noCreditsRemaining	You have no available credits remaining
+translation.billing.noDataAvailable	No data available
+translation.billing.noUsageDescription	You have no available {{unit}} remaining. To continue using Devin, you can increase your pay-as-you-go usage limit. <learnMore>Learn more</learnMore>
+translation.billing.noUsageEnterpriseDescription	You have no available enterprise {{unit}} remaining. To continue using Devin, you can increase your pay-as-you-go usage limit. <learnMore>Learn more</learnMore>
+translation.billing.orgLimitReachedToast	Your organization's usage limit has been reached. Contact your account admin to increase it.
+translation.billing.outOfCreditsPaidTitle	You ran out of credits. Please purchase credits to continue using Devin
+translation.billing.outOfDailyQuotaPaidDescription	Your daily usage quota has been exceeded and you are out of on-demand usage. Your daily quota resets every day — check your usage settings for details.

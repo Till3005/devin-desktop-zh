@@ -1,0 +1,500 @@
+translation.settingsPages.snapshotsPage.saturday	Saturday
+translation.settingsPages.snapshotsPage.sunday	Sunday
+translation.settingsPages.snapshotsPage.defaultEvery24Hours	Default — every 24 hours
+translation.settingsPages.snapshotsPage.daily	Daily
+translation.settingsPages.snapshotsPage.weekly	Weekly
+translation.settingsPages.snapshotsPage.custom	Custom
+translation.settingsPages.snapshotsPage.days	Days
+translation.settingsPages.snapshotsPage.weeks	Weeks
+translation.settingsPages.snapshotsPage.minutes	Minutes
+translation.settingsPages.snapshotsPage.hours	Hours
+translation.settingsPages.snapshotsPage.everyDay	Every day
+translation.settingsPages.snapshotsPage.every3Days	Every 3 days
+translation.settingsPages.snapshotsPage.every7Days	Every 7 days
+translation.settingsPages.snapshotsPage.every14Days	Every 14 days
+translation.settingsPages.snapshotsPage.every30Days	Every 30 days
+translation.settingsPages.snapshotsPage.never	Never
+translation.settingsPages.snapshotsPage.nextBuildAt	Next build <strong>{{when}}</strong>
+translation.settingsPages.snapshotsPage.nextBuildAtRelative	Next build <strong>{{when}}</strong> ({{relative}})
+translation.settingsPages.snapshotsPage.rebuildsEveryHour	Rebuilds every hour
+translation.settingsPages.snapshotsPage.rebuildsEveryValueHours	Rebuilds every {{value}} hours
+translation.settingsPages.snapshotsPage.rebuildsEveryEveryNMinutes	Rebuilds every {{every_n}} minutes
+translation.settingsPages.snapshotsPage.rebuildsDaily	Rebuilds daily at {{at}}
+translation.settingsPages.snapshotsPage.rebuildsEveryEveryNDays	Rebuilds every {{every_n}} days at {{at}}
+translation.settingsPages.snapshotsPage.rebuildsEveryDay	Rebuilds every {{day}} at {{at}}
+translation.settingsPages.snapshotsPage.rebuildsEveryEveryNWeeksDay	Rebuilds every {{every_n}} weeks on {{day}} at {{at}}
+translation.settingsPages.snapshotsPage.enterpriseDefaultRebuildsValueScheduledDifferent	Enterprise default — rebuilds {{value}}, scheduled at a different time for each {{value2}}
+translation.settingsPages.snapshotsPage.rebuildsWhenLastBuildMoreThan	Rebuilds when the last build is more than 24 hours old
+translation.settingsPages.snapshotsPage.baseImage	Base image
+translation.settingsPages.snapshotsPage.cadenceWeeks_one	once per week
+translation.settingsPages.snapshotsPage.cadenceWeeks_other	every {{count}} weeks
+translation.settingsPages.snapshotsPage.cadenceDays_one	once per day
+translation.settingsPages.snapshotsPage.cadenceDays_other	every {{count}} days
+translation.settingsPages.snapshotsPage.inDaysHours	in {{days}}d {{hours}}h
+translation.settingsPages.snapshotsPage.inHoursMinutes	in {{hours}}h {{minutes}}m
+translation.settingsPages.snapshotsPage.inMinutes	in {{minutes}}m
+translation.settingsPages.buildFilterOptions.progress	In progress
+translation.settingsPages.buildFilterOptions.successful	Successful
+translation.settingsPages.buildFilterOptions.failed	Failed
+translation.settingsPages.buildFilterOptions.partial	Partial
+translation.settingsPages.buildFilterOptions.cancelled	Cancelled
+translation.settingsPages.buildFilterOptions.allStatuses	All statuses
+translation.settingsPages.buildFilterOptions.excludingCancelled	Excluding cancelled
+translation.settingsPages.buildFilterOptions.status	Status
+translation.settingsPages.buildFilterOptions.statusCount_one	{{count}} status
+translation.settingsPages.buildFilterOptions.statusCount_other	{{count}} statuses
+translation.settingsPages.buildJobUtils.queued	Queued
+translation.settingsPages.buildJobUtils.building	Building
+translation.settingsPages.buildJobUtils.buildSuccessful	Build successful
+translation.settingsPages.buildJobUtils.success	Success
+translation.settingsPages.buildJobUtils.buildFailed	Build failed
+translation.settingsPages.buildJobUtils.failed	Failed
+translation.settingsPages.buildJobUtils.partialBuild	Partial build
+translation.settingsPages.buildJobUtils.partial	Partial
+translation.settingsPages.buildJobUtils.buildCancelled	Build cancelled
+translation.settingsPages.buildJobUtils.cancelled	Cancelled
+translation.settingsPages.buildJobUtils.configEdited	Config edited
+translation.settingsPages.buildJobUtils.devinSuggestion	Devin suggestion
+translation.settingsPages.buildJobUtils.scheduledRefresh	Scheduled refresh
+translation.settingsPages.buildJobUtils.gitSync	Git sync
+translation.settingsPages.buildJobUtils.slackPreClone	Slack pre-clone
+translation.settingsPages.buildJobUtils.enterpriseRebuild	Enterprise rebuild
+translation.settingsPages.buildJobUtils.repoSecretAdded	Repo secret added
+translation.settingsPages.buildJobUtils.repoAdded	Repo added
+translation.settingsPages.buildJobUtils.setupCreated	Setup created
+translation.settingsPages.buildJobUtils.blueprintRemoved	Blueprint removed
+translation.settingsPages.buildJobUtils.setupRemoved	Setup removed
+translation.settingsPages.buildJobUtils.todayTime	Today, {{time}}
+translation.settingsPages.buildJobUtils.yesterdayTime	Yesterday, {{time}}
+translation.settingsPages.buildJobUtils.manual	Manual
+translation.settingsPages.buildRailItems.all	All
+translation.settingsPages.buildRailItems.healthCheck	Health Check
+translation.settingsPages.buildRailItems.enterprise	Enterprise
+translation.settingsPages.buildRailItems.environment	Environment
+translation.settingsPages.buildRailItems.organization	Organization
+translation.settingsPages.scheduleScope.environment	environment
+translation.settingsPages.scheduleScope.organization	organization
+translation.settingsPages.managedWebhookSheet.string	string
+translation.settingsPages.managedWebhookSheet.number	number
+translation.settingsPages.managedWebhookSheet.boolean	boolean
+translation.settingsPages.sessionsTable.session	Session
+translation.settingsPages.sessionsTable.creator	Creator
+translation.settingsPages.sessionsTable.status	Status
+translation.settingsPages.sessionsTable.created	Created
+translation.settingsPages.sessionsTable.acus	ACUs
+translation.settingsPages.sessionsTable.cost	Cost
+translation.settingsPages.sessionsTable.noSessions	No sessions.
+translation.settingsPages.devinApiPage.copyOrganizationId	Copy organization ID
+translation.settingsPages.devinApiPage.serviceUsers	Service users
+translation.settingsPages.devinApiPage.pats	PATs
+translation.settingsPages.devinApiPage.apiKeysLegacy	API keys (legacy)
+translation.settingsPages.devinApiPage.organizationIdLabel	Organization ID:
+translation.settingsPages.enterpriseDevinApiPage.serviceUsers	Service users
+translation.settingsPages.enterpriseDevinApiPage.pats	PATs
+translation.settingsPages.enterpriseDevinApiPage.legacyApi	Legacy API
+translation.settingsPages.enterpriseDevinApiPage.deprecated	Deprecated
+translation.settingsPages.enterpriseDevinApiPage.theLegacyApiIsDeprecatedUse	The legacy API is deprecated. Use the service users API for new keys.
+translation.settingsPages.repoIndexingDetailPage.indexingBranch	Indexing branch \\
+translation.settingsPages.repoIndexingPage.indexing	Indexing…
+translation.settingsPages.repoIndexingPage.notIndexed	Not indexed
+translation.settingsPages.repoIndexingPage.low	Low
+translation.settingsPages.repoIndexingPage.fastAndLightweightFree	Fast and lightweight (free)
+translation.settingsPages.repoIndexingPage.medium	Medium
+translation.settingsPages.repoIndexingPage.balancesSpeedAndQuality	Balances speed and quality ({{lo}})
+translation.settingsPages.repoIndexingPage.high	High
+translation.settingsPages.repoIndexingPage.moreDetailedHigherQualityWiki	More detailed, higher quality wiki ({{lo}})
+translation.settingsPages.repoIndexingPage.max	Max
+translation.settingsPages.repoIndexingPage.talkToTheTeamToFind	Talk to the team to find out more
+translation.settingsPages.repoIndexingPage.addRepositories	Add repositories
+translation.settingsPages.repoIndexingPage.selectRepositoriesToIndexForDeepwiki	Select repositories to index for DeepWiki and Ask Devin
+translation.settingsPages.repoIndexingPage.selectAll	Select all
+translation.settingsPages.repoIndexingPage.searchRepositories	Search repositories...
+translation.settingsPages.repoIndexingPage.failedToLoadRepositories	Failed to load repositories
+translation.settingsPages.repoIndexingPage.retry	Retry
+translation.settingsPages.repoIndexingPage.noRepositoriesFound	No repositories found
+translation.settingsPages.repoIndexingPage.allRepositoriesHaveBeenIndexed	All repositories have been indexed
+translation.settingsPages.repoIndexingPage.noRepositoriesYet	No repositories available yet
+translation.settingsPages.repoIndexingPage.adding	Adding...
+translation.settingsPages.repoIndexingPage.wikiLanguagesUpdated	Wiki languages updated
+translation.settingsPages.repoIndexingPage.failedToUpdateWikiLanguages	Failed to update wiki languages
+translation.settingsPages.repoIndexingPage.deepwiki	DeepWiki
+translation.settingsPages.repoIndexingPage.chooseHowDeepwikiGeneratesAndDisplays	Choose how DeepWiki generates and displays content for your organization
+translation.settingsPages.repoIndexingPage.generation	Generation
+translation.settingsPages.repoIndexingPage.configureHowDeepwikiIndexesYourRepository	Configure how DeepWiki indexes your repository source code for Wiki and Ask Devin
+translation.settingsPages.repoIndexingPage.higherEffortGeneratesBetterQualityAt	Higher effort generates better quality at greater cost
+translation.settingsPages.repoIndexingPage.selectWikiEffortLevel	Select wiki effort level
+translation.settingsPages.repoIndexingPage.howOftenWikisAreRegeneratedTo	How often wikis are regenerated to reflect code changes
+translation.settingsPages.repoIndexingPage.selectWikiRefreshFrequency	Select wiki refresh frequency
+translation.settingsPages.repoIndexingPage.weekly	Weekly
+translation.settingsPages.repoIndexingPage.chooseWhichLanguagesDeepwikiContentIs	Choose which languages DeepWiki content is generated in
+translation.settingsPages.repoIndexingPage.refreshRepositories	Refresh repositories
+translation.settingsPages.repoIndexingPage.add	Add
+translation.settingsPages.repoIndexingPage.tryRefreshingThePage	Try refreshing the page.
+translation.settingsPages.repoIndexingPage.noIndexedRepositories	No indexed repositories
+translation.settingsPages.repoIndexingPage.addRepositoriesToStartIndexingFor	Add repositories to start indexing for DeepWiki and Ask Devin.
+translation.settingsPages.repoIndexingPage.noResults	No results
+translation.settingsPages.repoIndexingPage.tryADifferentSearchTerm	Try a different search term.
+translation.settingsPages.repoIndexingPage.loading	Loading...
+translation.settingsPages.repoIndexingPage.loadMore	Load more
+translation.settingsPages.repoIndexingPage.daily	Daily
+translation.settingsPages.repoIndexingPage.monthly	Monthly
+translation.settingsPages.repoIndexingPage.never	Never
+translation.settingsPages.repoIndexingPage.addRepositories_one	Add {{count}} repository
+translation.settingsPages.repoIndexingPage.addRepositories_other	Add {{count}} repositories
+translation.settingsPages.repoIndexingPage.addRepositoriesNone	Add repositories
+translation.settingsPages.repoIndexingPage.startedIndexing_one	Started indexing {{count}} repository
+translation.settingsPages.repoIndexingPage.startedIndexing_other	Started indexing {{count}} repositories
+translation.settingsPages.repoIndexingPage.branchesIndexed_one	{{count}} branch indexed
+translation.settingsPages.repoIndexingPage.branchesIndexed_other	{{count}} branches indexed
+translation.settingsPages.repoIndexingPage.indexingFailed	Indexing failed
+translation.settingsPages.repoIndexingPage.branchesFailed	{{failed}} of {{total}} branches failed
+translation.settingsPages.repoIndexingPage.failedToStartIndexing	Failed to start indexing. Please try again.
+translation.settingsPages.repoIndexingPage.managedByAdministrator	Managed by your administrator.
+translation.settingsPages.skillContentViewer.modifyWithDevin	Modify with Devin
+translation.settingsPages.skillsAnalyticsPage.usageOverTime	Usage over time
+translation.settingsPages.skillsAnalyticsPage.dailySkillInvocationsInTheSelected	Daily skill invocations in the selected runtime
+translation.settingsPages.skillsAnalyticsPage.invocations	Invocations
+translation.settingsPages.skillsAnalyticsPage.skillsUsed	Skills used
+translation.settingsPages.skillsAnalyticsPage.cloudSessions	Cloud sessions
+translation.settingsPages.skillsAnalyticsPage.invocations2	{{totaluses}} invocations
+translation.settingsPages.skillsAnalyticsPage.agentUser	{{agentuses}} agent · {{useruses}} user
+translation.settingsPages.skillsAnalyticsPage.skillsUsed2	{{distinctskills}} skills used
+translation.settingsPages.skillsAnalyticsPage.agentTriggeredUserTriggered	{{modelactivations}} agent-triggered · {{userinvocations}} user-triggered
+translation.settingsPages.skillsAnalyticsPage.skill	Skill
+translation.settingsPages.skillsAnalyticsPage.sessions	Sessions
+translation.settingsPages.skillsAnalyticsPage.users	Users
+translation.settingsPages.skillsAnalyticsPage.uniqueUsersAssociatedWithCloudSessions	Unique users associated with cloud sessions where this skill was used. Local usage is not included.
+translation.settingsPages.skillsAnalyticsPage.lastUsed	Last used
+translation.settingsPages.skillsAnalyticsPage.viewSessions	View sessions
+translation.settingsPages.skillsAnalyticsPage.mostInvokedSkills	Most invoked skills
+translation.settingsPages.skillsAnalyticsPage.rankedByInvocationsInTheSelected	Ranked by invocations in the selected period
+translation.settingsPages.skillsAnalyticsPage.noSkillInvocationsInThisPeriod	No skill invocations in this period
+translation.settingsPages.skillsAnalyticsPage.taskTypes	Task types
+translation.settingsPages.skillsAnalyticsPage.taskTypesAreAvailableForCloud	Task types are available for cloud sessions only. Local skill events are not associated with a Devin session.
+translation.settingsPages.skillsAnalyticsPage.distinctCloudSessionsUsingSkills	Distinct cloud sessions using skills
+translation.settingsPages.skillsAnalyticsPage.clear	Clear
+translation.settingsPages.skillsAnalyticsPage.taskTypesAreAvailableForCloud2	Task types are available for cloud sessions
+translation.settingsPages.skillsAnalyticsPage.noCategorizedSessionsInThisPeriod	No categorized sessions in this period
+translation.settingsPages.skillsAnalyticsPage.searchSkillsOrSources	Search skills or sources...
+translation.settingsPages.skillsAnalyticsPage.unableToLoadSkillInvocations	Unable to load skill invocations
+translation.settingsPages.skillsAnalyticsPage.noSkillsMatchYourSearch	No skills match your search
+translation.settingsPages.skillsAnalyticsPage.noSkillInvocationsYet	No skill invocations yet
+translation.settingsPages.skillsAnalyticsPage.tryAgain	Try again
+translation.settingsPages.skillsAnalyticsPage.tryADifferentSkillOrSource	Try a different skill or source
+translation.settingsPages.skillsAnalyticsPage.noInvocationsWereObservedInThe	No invocations were observed in the last {{days}} days
+translation.settingsPages.skillsAnalyticsPage.last7Days	Last 7 days
+translation.settingsPages.skillsAnalyticsPage.last30Days	Last 30 days
+translation.settingsPages.skillsAnalyticsPage.cloudLocal	Cloud and local
+translation.settingsPages.skillsAnalyticsPage.cloud	Cloud
+translation.settingsPages.skillsAnalyticsPage.local	Local
+translation.settingsPages.skillsAnalyticsPage.bugFixing	Bug fixing
+translation.settingsPages.skillsAnalyticsPage.codeQualitySecurity	Code quality & security
+translation.settingsPages.skillsAnalyticsPage.codeReview	Code review
+translation.settingsPages.skillsAnalyticsPage.codeReviewAnalysis	Code review & analysis
+translation.settingsPages.skillsAnalyticsPage.dataAutomation	Data & automation
+translation.settingsPages.skillsAnalyticsPage.documentationContent	Documentation & content
+translation.settingsPages.skillsAnalyticsPage.featureDevelopment	Feature development
+translation.settingsPages.skillsAnalyticsPage.migrationsUpgrades	Migrations & upgrades
+translation.settingsPages.skillsAnalyticsPage.productionInvestigation	Production investigation
+translation.settingsPages.skillsAnalyticsPage.refactoringOptimization	Refactoring & optimization
+translation.settingsPages.skillsAnalyticsPage.researchExploration	Research & exploration
+translation.settingsPages.skillsAnalyticsPage.unitTestGeneration	Unit test generation
+translation.settingsPages.skillsAnalyticsPage.other	Other
+translation.settingsPages.skillsAnalyticsPage.security	Security
+translation.settingsPages.skillsAnalyticsPage.invocationsUnit_one	invocation
+translation.settingsPages.skillsAnalyticsPage.invocationsUnit_other	invocations
+translation.settingsPages.enterpriseReadinessPanel.l	L{{level}}
+translation.settingsPages.webhookConfigModal.tokenRegenerated	Webhook token regenerated successfully
+translation.settingsPages.webhookConfigModal.failedToRegenerateToken	Failed to regenerate webhook token
+translation.settingsPages.webhookConfigModal.webhookConfigurationValueAccountName	Webhook configuration for {{value}}{{accountName}}
+translation.settingsPages.webhookConfigModal.webhookConfiguration	Webhook configuration
+translation.settingsPages.slashCommandsSection.commandUpdated	Command updated
+translation.settingsPages.slashCommandsSection.commandCreated	Command created
+translation.settingsPages.slashCommandsSection.failedToSaveCommand	Failed to save command
+translation.settingsPages.slashCommandsSection.commandDeleted	Command deleted
+translation.settingsPages.slashCommandsSection.failedToDeleteCommand	Failed to delete command
+translation.settingsPages.slashCommandsSection.commandNameRequired	Command name required
+translation.settingsPages.slashCommandsSection.commandMustStartLetterContainOnly	Command must start with a letter and contain only letters, numbers, and hyphens
+translation.settingsPages.slashCommandsSection.commandThisNameAlreadyExists	A command with this name already exists
+translation.settingsPages.slashCommandsSection.promptRequired	Prompt required
+translation.settingsPages.slashCommandsSection.descriptionRequired	Description required
+translation.settingsPages.lockUserCommitEmailToggleSetting.userCommitEmailIsNowLocked	User commit email is now locked for all members.
+translation.settingsPages.lockUserCommitEmailToggleSetting.membersCanNowChangeTheirCommit	Members can now change their commit email.
+translation.settingsPages.lockUserCommitEmailToggleSetting.failedToUpdateCommitEmailLock	Failed to update commit email lock setting.
+translation.settingsPages.sessionGroupsOrgControlToggleSetting.failedToUpdateBillingTagsSetting	Failed to update Billing Tags setting.
+translation.settingsPages.sessionGroupsToggleSetting.failedToUpdateBillingTagsSetting	Failed to update Billing Tags setting.
+translation.settingsPages.sessionTagEnforcementToggleSetting.sessionTagEnforcementEnabledForYour	Session tag enforcement enabled for your enterprise.
+translation.settingsPages.sessionTagEnforcementToggleSetting.sessionTagEnforcementDisabledForYour	Session tag enforcement disabled for your enterprise.
+translation.settingsPages.sessionTagEnforcementToggleSetting.failedToUpdateSessionTagEnforcement	Failed to update session tag enforcement setting.
+translation.settingsPages.orgConfigProvider.failedToResetSetting	Failed to reset setting
+translation.settingsPages.devinCliBundlingRow.settingUpdated	Setting updated
+translation.settingsPages.devinCliBundlingRow.failedToUpdateSetting	Failed to update setting
+translation.settingsPages.devinCliBundlingRow.devinCLIBundledWindsurfButRequires	Devin CLI is bundled with Windsurf but requires explicit activation.
+translation.settingsPages.personalMCPSection.oauthLoginFailed	OAuth login failed: {{message}}
+translation.settingsPages.personalMCPSection.unableToStartOauthLinkPlease	Unable to start OAuth link. Please try again or contact your admin.
+translation.settingsPages.scopeOverridesSection.overrideSaved	Override saved
+translation.settingsPages.scopeOverridesSection.overrideRemoved	Override removed
+translation.settingsPages.installationSecretsSection.secretsSaved	Secrets saved
+translation.settingsPages.installationSecretsSection.secretUnlinked	Secret unlinked
+translation.settingsPages.installationSecretsSection.secretDeleted	Secret deleted
+translation.settingsPages.installationSecretsSection.eachSecretNeedsBothNameValue	Each secret needs both a name and a value. Complete or remove the incomplete secret rows before saving.
+translation.settingsPages.mcpToolsPanel.couldNotSaveTheToolPermission	Could not save the tool permission
+translation.settingsPages.useCustomizeRows.alreadyUpToDate	Already up to date
+translation.settingsPages.useCustomizeRows.appliesValue	Applies to: {{value}}
+translation.settingsPages.useCustomizeRows.disabled	Disabled
+translation.settingsPages.useCustomizeRows.hook	Hook
+translation.settingsPages.marketplaceView.deactivated	Deactivated {{name}}
+translation.settingsPages.marketplaceView.removedFrom	Removed {{name}} from {{scopeName}}
+translation.settingsPages.marketplaceView.removed	Removed {{name}}
+translation.settingsPages.marketplaceView.activated	Activated {{layer}}
+translation.settingsPages.marketplaceView.deactivating	Deactivating…
+translation.settingsPages.marketplaceView.uploadedPlugin	Uploaded plugin
+translation.settingsPages.marketplaceView.bundleDescription	Skills, rules, MCPs, and hooks you edit here.
+translation.settingsPages.marketplaceView.bundleDescriptionUser	Skills, rules, MCPs, and hooks you edit here, for your own sessions.
+translation.settingsPages.marketplaceView.bundleDescriptionOrg	Skills, rules, MCPs, and hooks you edit here, for everyone in this org.
+translation.settingsPages.marketplaceView.bundleDescriptionScope	Skills, rules, MCPs, and hooks you edit here, for everyone on the {{scope}}.
+translation.settingsPages.marketplaceView.deactivate	Deactivate
+translation.settingsPages.marketplaceView.uninstallFromScope	Uninstall from {{scope}}
+translation.settingsPages.marketplaceView.deactivateTitle	Deactivate {{name}}?
+translation.settingsPages.marketplaceView.uninstallTitle	Uninstall {{name}}?
+translation.settingsPages.marketplaceView.addAnotherInstallationHint	Gets its own sign-in and settings. Your current installation isn't changed.
+translation.settingsPages.marketplaceView.existingInstallation	You already have 1 installation · {{status}}
+translation.settingsPages.marketplaceView.existingInstallations_one	You already have {{total}} installations · {{connected}} connected
+translation.settingsPages.marketplaceView.existingInstallations_other	You already have {{total}} installations · {{connected}} connected
+translation.settingsPages.marketplaceView.viewInstallation	View installation
+translation.settingsPages.marketplaceView.viewInstallations	View installations
+translation.settingsPages.marketplaceView.couldNotInstall	Could not install {{pluginName}}
+translation.settingsPages.marketplaceView.couldNotUninstall	Could not uninstall {{pluginName}}
+translation.settingsPages.marketplaceView.couldNotActivate	Could not activate {{pluginName}}
+translation.settingsPages.marketplaceView.couldNotDeactivate	Could not deactivate {{pluginName}}
+translation.settingsPages.marketplaceView.organization	Organization
+translation.settingsPages.marketplaceView.personal	Personal
+translation.settingsPages.marketplaceView.organizationPlugin	Organization plugin
+translation.settingsPages.marketplaceView.personalPlugin	Personal plugin
+translation.settingsPages.marketplaceView.scopePlugin	{{scope}} plugin
+translation.settingsPages.enterpriseApiKeysTable.revokeSuccess	API key revoked successfully
+translation.settingsPages.enterpriseApiKeysTable.revokeManySuccess_one	{{count}} API key revoked successfully
+translation.settingsPages.enterpriseApiKeysTable.revokeManySuccess_other	{{count}} API keys revoked successfully
+translation.settingsPages.enterpriseApiKeysTable.revokeFailed	Failed to revoke API key
+translation.settingsPages.enterpriseApiKeysTable.unknown	Unknown
+translation.settingsPages.securityProfileSelect.enterpriseProfiles	Enterprise profiles
+translation.settingsPages.securityProfileSelect.orgProfiles	Org profiles
+translation.settingsPages.securityProfileSelect.noSecurityProfile	No security profile
+translation.settingsPages.securityProfileSelect.unknownProfile	Unknown profile
+translation.settingsPages.githubSettingsItems.autoJoiningEnabled	GitHub auto-joining enabled
+translation.settingsPages.githubSettingsItems.autoJoiningDisabled	GitHub auto-joining disabled
+translation.settingsPages.githubSettingsItems.failedToUpdateAutoJoining	Failed to update GitHub auto-joining setting
+translation.settingsPages.customizeIntroDialog.sampleSkillBody	Before opening a PR:\
+1. Run pnpm lint.\
+2. Run affected tests.\
+3. Link the ticket.
+translation.settingsPages.installControl.install	Install
+translation.settingsPages.installControl.installing	Installing…
+translation.settingsPages.installControl.installed	Installed
+translation.settingsPages.installControl.uninstall	Uninstall
+translation.settingsPages.installControl.uninstalling	Uninstalling…
+translation.settingsPages.timestampTooltip.daysAgo_one	{{count}} day ago
+translation.settingsPages.timestampTooltip.daysAgo_other	{{count}} days ago
+translation.settingsPages.hooks.reviewSettings	Review settings
+translation.settingsPages.hooks.whenPRReady	when the PR is ready
+translation.settingsPages.hooks.failedSaveReviewContext	Failed to save review context
+translation.settingsPages.hooks.failedRemoveReviewContext	Failed to remove review context
+translation.settingsPages.hooks.failedSaveOverride	Failed to save override
+translation.settingsPages.hooks.failedRemoveOverride	Failed to remove override
+translation.settingsPages.hooks.reviewTriggerSetTriggerLabel	Your analysis trigger is set to {{triggerLabel}}
+translation.settingsPages.hooks.autoReviewPreferencesHaveBeenUpdated	Automatic analysis preferences updated
+translation.settingsPages.hooks.failedUpdateEnrollmentStatus	Failed to update enrollment status
+translation.settingsPages.hooks.youDonTHavePermissionEnable	You don't have permission to enable automatic analysis for this PR
+translation.settingsPages.hooks.autoReviewCanOnlyBeSet	Devin must track this PR before you can enable automatic analysis
+translation.settingsPages.hooks.failedUpdateAutoReviewSetting	Couldn't update automatic analysis
+translation.settingsPages.hooks.triggerModeAuto	automatic analysis
+translation.settingsPages.hooks.triggerModeManual	manual
+translation.settingsPages.pluginManifestEditor.fixTheErrorsBeforeSaving	Fix the errors before saving
+translation.settingsPages.pluginManifestEditor.failedToSaveManifest	Failed to save manifest
+translation.settingsPages.pluginManifestEditor.json	{{title}} JSON
+translation.settingsPages.pluginManifestEditor.invalidJSONMessage	Invalid JSON: {{message}}
+translation.settingsPages.pluginManifestEditor.invalidJSON	Invalid JSON
+translation.settingsPages.pluginManifestEditor.manifestSaved	Manifest saved
+translation.settingsPages.serverCard.installedByASessionPluginOnly	Installed by a session plugin: only available in your own sessions
+translation.settingsPages.serverCard.yourInstallationOnlyAvailableInYour	Your installation: only available in your own sessions
+translation.settingsPages.serverCard.personalAccessEachMemberAuthenticatesWith	Personal access: each member authenticates with their own account
+translation.settingsPages.useMCPValidation.failedToListMcpTools	Failed to list MCP tools
+translation.settingsPages.useMCPValidation.failedToListMcpToolsPlease	Failed to list MCP tools. Please try again or contact support if the issue persists.
+translation.settingsPages.addAssetDialogs.pluginAdded	Plugin added
+translation.settingsPages.addAssetDialogs.couldNotAddThePlugin	Could not add the plugin
+translation.settingsPages.addAssetDialogs.add	Add
+translation.settingsPages.addAssetDialogs.enterRepositoryAsOwnerRepoFull	Enter a repository as owner/repo, or a full git URL.
+translation.settingsPages.addAssetDialogs.thisScopeSPluginManifestCan	This scope's plugin manifest can't be read, so it can't be changed here.
+translation.settingsPages.addAssetDialogs.pluginAlreadyInstalledThisScope	That plugin is already installed for this scope.
+translation.settingsPages.useCustomizeLayers.installAt	Install at {{name}}
+translation.settingsPages.useCustomizeLayers.couldNotReadTheOrgManifest	Could not read the org manifest.
+translation.settingsPages.useCustomizeLayers.installForMe	Install for me
+translation.settingsPages.useCustomizeLayers.couldNotReadYourPersonalManifest	Could not read your personal manifest.
+translation.settingsPages.useCustomizeLayers.installAtYourOrganization	Install at your organization
+translation.settingsPages.useCustomizeLayers.yourOrg	your org
+translation.settingsPages.useCustomizeLayers.you	you
+translation.settingsPages.useCustomizeLayers.thisRemovesNameFromOwnConfiguration	This removes {{name}} from your own configuration. Sessions you start will no longer load it.
+translation.settingsPages.useCustomizeLayers.enterprise	Enterprise
+translation.settingsPages.useCustomizeLayers.account	Account
+translation.settingsPages.pluginDetailsSheet.effects	Effects: {{value}}
+translation.settingsPages.pluginDetailsSheet.appliesTo	Applies to: {{value}}
+translation.settingsPages.pluginDetailsSheet.noEvents	No events
+translation.settingsPages.pluginDetailsSheet.source	Source
+translation.settingsPages.itemDefs.securityProfiles	Security profiles
+translation.settingsPages.itemDefs.reusableSecurityRestrictionsSessions	Reusable security restrictions for sessions
+translation.settingsPages.itemDefs.autoReviewDefaultBillingOrganization	Default billing organization for automatic analysis
+translation.settingsPages.itemDefs.fallbackOrganizationBilledAutomaticReviewsWhen	Billed for automatic analysis when Devin can't determine a user's billing organization.
+translation.settingsPages.itemDefs.defaultAccess	Default Access
+translation.settingsPages.itemDefs.defaultBillingOrganization	Default billing organization
+translation.settingsPages.itemDefs.fallbackWhenBillingOrganizationCanT	Fallback when the billing organization can't be resolved for the user
+translation.settingsPages.itemDefs.gPT5_6Sol	GPT-5.6 Sol
+translation.settingsPages.itemDefs.openAISMostCapableModel	OpenAI's most capable model
+translation.settingsPages.itemDefs.gPT6AstraPreview	GPT-6 Astra (Preview)
+translation.settingsPages.itemDefs.openAISGPT6AstraModel	OpenAI's GPT-6 Astra model
+translation.settingsPages.itemDefs.fable5_1Preview	Fable 5.1 (Preview)
+translation.settingsPages.itemDefs.anthropicSFable5_1ModelPreview	Anthropic's Fable 5.1 model. Preview available until Sept 22
+translation.settingsPages.itemDefs.opus5_5Preview	Opus 5.5 (Preview)
+translation.settingsPages.itemDefs.anthropicSLatestModelPreviewAvailable	Anthropic's latest model. Preview available until Oct 6
+translation.settingsPages.itemDefs.gPT6SolPreview	GPT-6 Sol (Preview)
+translation.settingsPages.itemDefs.openAISModelPreviewAvailableUntil	OpenAI's model. Preview available until Oct 6
+translation.settingsPages.itemDefs.gPT6_1SolPreview	GPT-6.1 Sol (Preview)
+translation.settingsPages.itemDefs.openAISLatestModelPreviewAvailable	OpenAI's latest model. Preview available until Oct 13
+translation.settingsPages.itemDefs.billingTags	Billing Tags
+translation.settingsPages.itemDefs.trackACUUsageTaggingDevinSessions	Track ACU usage by tagging Devin sessions with billing tags
+translation.settingsPages.itemDefs.memory	Memory
+translation.settingsPages.itemDefs.letDevinKeepPersonalNotesEach	Let Devin keep personal notes for each member across sessions
+translation.settingsPages.itemDefs.allowOrgAdminsManageBillingTags	Allow org admins to manage Billing Tags
+translation.settingsPages.itemDefs.letOrgAdminsTurnBillingTags	Let org admins turn Billing Tags on or off for their own org
+translation.settingsPages.itemDefs.dynamicWorkflows	Dynamic workflows
+translation.settingsPages.itemDefs.allowUsersDevinSessionsRunDynamic	Allow users and Devin sessions to run dynamic workflows
+translation.settingsPages.itemDefs.letDevinKeepPersonalNotesEach2	Let Devin keep personal notes for each user across sessions, for every organization or per organization
+translation.settingsPages.itemDefs.defaultThisOrg	Default for this org
+translation.settingsPages.itemDefs.appliedNewSessionsThisOrg	Applied to new sessions in this org
+translation.settingsPages.itemDefs.defaultThisEnterprise	Default for this enterprise
+translation.settingsPages.itemDefs.appliedNewSessionsEveryOrgOrgs	Applied to new sessions in every org. Orgs can set their own default to override it.
+translation.settingsPages.itemDefs.defaultProfileAutomations	Default profile for automations
+translation.settingsPages.itemDefs.controlsDefaultSecurityProfileSessionsStarted	Controls the default security profile for sessions started by automations
+translation.settingsPages.itemDefs.defaultProfileSnapshotBuilds	Default profile for snapshot builds
+translation.settingsPages.itemDefs.onlyProfileSNetworkPolicyApplies	Only the profile's network policy applies to build VMs. Inherits the session default.
+translation.settingsPages.itemDefs.createProfile	Create profile
+translation.settingsPages.itemDefs.createReusableSecurityProfileSessions	Create a reusable security profile for sessions
+translation.settingsPages.itemDefs.editProfile	Edit profile
+translation.settingsPages.itemDefs.editReusableSecurityProfile	Edit a reusable security profile
+translation.settingsPages.itemDefs.aPIDefaultAgent	API default agent
+translation.settingsPages.itemDefs.defaultAgentAPISessionsOrganization	Default agent for API sessions in your organization
+translation.settingsPages.itemDefs.overrides	Overrides
+translation.settingsPages.itemDefs.chooseWhichFindingTypesDevinPosts	Choose which finding types Devin posts for a repository, organization, or group.
+translation.settingsPages.itemDefs.browseNotesPersonalMemoryDevin	Browse the notes in your personal memory that Devin carries across sessions, or read the memory of a service user you manage
+translation.settingsPages.itemDefs.defaultSlackSyncChannel	Default Slack sync channel
+translation.settingsPages.itemDefs.newSessionsYouStartCanAutomatically	New sessions you start can automatically sync to this Slack channel
+translation.settingsPages.itemDefs.repositoryPermissions	Repository permissions
+translation.settingsPages.itemDefs.channelAccess	Channel access
+translation.settingsPages.itemDefs.whetherNewDevinSessionsCanRead	Whether new Devin sessions can read and post in public Slack channels Devin has joined
+translation.settingsPages.itemDefs.directMessages	Direct messages
+translation.settingsPages.itemDefs.whoNewDevinSessionsCanSend	Who new Devin sessions can send direct messages to
+translation.settingsPages.itemDefs.channelMapping	Channel mapping
+translation.settingsPages.itemDefs.mapSlackChannelsSpecificDevinOrganizations	Map Slack channels to specific Devin organizations to route sessions
+translation.settingsPages.itemDefs.devinUniversity	Devin University
+translation.settingsPages.itemDefs.learnHowUseDevinMostEffectively	Learn how to use Devin most effectively
+translation.settingsPages.itemDefs.pylon	Pylon
+translation.settingsPages.itemDefs.linkPylonAccountDevin	Link your Pylon account to Devin
+translation.settingsPages.itemDefs.linkIncident_ioAccountDevin	Link your incident.io account to Devin
+translation.settingsPages.itemDefs.pagerDuty	PagerDuty
+translation.settingsPages.itemDefs.linkPagerDutyAccountDevin	Link your PagerDuty account to Devin
+translation.settingsPages.itemDefs.fullBuildRefresh	Full build refresh
+translation.settingsPages.itemDefs.runFullBuildWhenLastOne	Run a full build when the last one is older than this
+translation.settingsPages.itemDefs.cloneRepositoriesAllPlatforms	Clone repositories on all platforms
+translation.settingsPages.itemDefs.makeEveryConfiguredRepositoryAvailableSnapshots	Make every configured repository available in snapshots for each platform
+translation.settingsPages.itemDefs.advanced	Advanced
+translation.settingsPages.itemDefs.autoBuildDifferentialBuildsBuildSchedule	Auto-build, differential builds, and build schedule settings
+translation.settingsPages.itemDefs.signMethods	Sign-in methods
+translation.settingsPages.itemDefs.turnEmailGoogleGitHubSignOff	Turn email, Google or GitHub sign-in on or off for your enterprise
+translation.settingsPages.itemDefs.sSOConnections	SSO connections
+translation.settingsPages.itemDefs.rotateCredentialsEnterpriseSSSOConnections	Rotate credentials for your enterprise's SSO connections and, where enabled, name, edit or remove them
+translation.settingsPages.itemDefs.verifiedEmailDomains	Verified email domains
+translation.settingsPages.itemDefs.proveOwnershipEmailDomainsDNSRecord	Prove ownership of your email domains with a DNS record before using them on an SSO connection
+translation.settingsPages.itemDefs.overview	Overview
+translation.settingsPages.itemDefs.allocationUsageProductivityAcrossHierarchy	Allocation, usage, and productivity across your hierarchy
+translation.settingsPages.itemDefs.devinCoach	Devin Coach
+translation.settingsPages.itemDefs.perforce	Perforce
+translation.settingsPages.itemDefs.connectPerforceHelixCoreServer	Connect a Perforce (Helix Core) server
+translation.settingsPages.itemDefs.automateSupportWorkflowsEscalationsDevin	Automate support workflows and escalations with Devin
+translation.settingsPages.itemDefs.investigateResolveIncidentsDevin	Investigate and resolve incidents with Devin
+translation.settingsPages.itemDefs.automateIncidentResponsePagerDutyEvents	Automate incident response with PagerDuty events
+translation.settingsPages.itemDefs.userMatching	User matching
+translation.settingsPages.itemDefs.howPylonSendersMatchedDevinUsers	How Pylon senders are matched to Devin users
+translation.settingsPages.itemDefs.pylonMCPAccess	Pylon MCP access
+translation.settingsPages.itemDefs.whetherDevinCanReadModifyPylon	Whether Devin can read or modify Pylon data
+translation.settingsPages.itemDefs.askWithoutDevinAccount	Ask without a Devin account
+translation.settingsPages.itemDefs.letPeopleWithoutDevinAccountAsk	Let people without a Devin account ask questions
+translation.settingsPages.itemDefs.pylonFollowUpMessages	Pylon follow-up messages
+translation.settingsPages.itemDefs.whetherPylonBotCanSendFollow	Whether Pylon bot can send follow-up messages to the Devin session linked to an issue
+translation.settingsPages.itemDefs.pylonAutomationTriggers	Pylon automation triggers
+translation.settingsPages.itemDefs.whetherSupportedPylonEventsCanTrigger	Whether supported Pylon events can trigger automations
+translation.settingsPages.itemDefs.organization	Organization
+translation.settingsPages.itemDefs.fallbackOrganizationPylonSessions	Fallback organization for Pylon sessions
+translation.settingsPages.itemDefs.pylonSecurityProfile	Pylon security profile
+translation.settingsPages.itemDefs.appliedPylonDelegatedSessions	Applied to Pylon-delegated sessions
+translation.settingsPages.itemDefs.devinCLIVersionConstraint	Devin CLI version constraint
+translation.settingsPages.itemDefs.restrictWhichDevinCLIVersionsMembers	Restrict which Devin CLI versions members can use.
+translation.settingsPages.itemDefs.incidentIo	incident.io
+translation.settingsPages.itemDefs.customize.plugins.personalLabel	Personal plugins
+translation.settingsPages.itemDefs.customize.plugins.personalDescription	Plugins (bundles of skills, rules, MCP servers, and hooks) installed from the marketplace, a repository, or an upload, that only you use
+translation.settingsPages.itemDefs.customize.plugins.organizationLabel	Organization plugins
+translation.settingsPages.itemDefs.customize.plugins.organizationDescription	Plugins (bundles of skills, rules, MCP servers, and hooks) installed from the marketplace, a repository, or an upload, shared with every member of the organization (the organization's manage-plugins permission on an enterprise account, the enterprise's on a standalone one)
+translation.settingsPages.itemDefs.customize.plugins.enterpriseLabel	Enterprise plugins
+translation.settingsPages.itemDefs.customize.plugins.enterpriseDescription	Plugins (bundles of skills, rules, MCP servers, and hooks) installed from the marketplace, a repository, or an upload, shared with every organization on the enterprise account
+translation.settingsPages.itemDefs.customize.skills.personalLabel	Personal skills
+translation.settingsPages.itemDefs.customize.skills.personalDescription	Skills (SKILL.md instructions) Devin loads into cloud sessions, that only you use
+translation.settingsPages.itemDefs.customize.skills.organizationLabel	Organization skills
+translation.settingsPages.itemDefs.customize.skills.organizationDescription	Skills (SKILL.md instructions) Devin loads into cloud sessions, shared with every member of the organization (the organization's manage-plugins permission on an enterprise account, the enterprise's on a standalone one)
+translation.settingsPages.itemDefs.customize.skills.enterpriseLabel	Enterprise skills
+translation.settingsPages.itemDefs.customize.skills.enterpriseDescription	Skills (SKILL.md instructions) Devin loads into cloud sessions, shared with every organization on the enterprise account
+translation.settingsPages.itemDefs.customize.hooks.personalLabel	Personal hooks
+translation.settingsPages.itemDefs.customize.hooks.personalDescription	Hooks: commands that run automatically at points in a session, that only you use
+translation.settingsPages.itemDefs.customize.hooks.organizationLabel	Organization hooks
+translation.settingsPages.itemDefs.customize.hooks.organizationDescription	Hooks: commands that run automatically at points in a session, shared with every member of the organization (the organization's manage-plugins permission on an enterprise account, the enterprise's on a standalone one)
+translation.settingsPages.itemDefs.customize.hooks.enterpriseLabel	Enterprise hooks
+translation.settingsPages.itemDefs.customize.hooks.enterpriseDescription	Hooks: commands that run automatically at points in a session, shared with every organization on the enterprise account
+translation.settingsPages.itemDefs.customize.rules.personalLabel	Personal rules
+translation.settingsPages.itemDefs.customize.rules.personalDescription	Rules: standing guidance Devin follows on every session, that only you use
+translation.settingsPages.itemDefs.customize.rules.organizationLabel	Organization rules
+translation.settingsPages.itemDefs.customize.rules.organizationDescription	Rules: standing guidance Devin follows on every session, shared with every member of the organization (the organization's manage-plugins permission on an enterprise account, the enterprise's on a standalone one)
+translation.settingsPages.itemDefs.customize.rules.enterpriseLabel	Enterprise rules
+translation.settingsPages.itemDefs.customize.rules.enterpriseDescription	Rules: standing guidance Devin follows on every session, shared with every organization on the enterprise account
+translation.settingsPages.postingLevels.bugs	Bugs
+translation.settingsPages.postingLevels.likelyErrorsIncorrectBehaviorCode	Likely errors or incorrect behavior in the code
+translation.settingsPages.postingLevels.flagsInvestigate	Flags (investigate)
+translation.settingsPages.postingLevels.potentialIssuesWorthCloserLookBefore	Potential issues worth a closer look before merging
+translation.settingsPages.postingLevels.security	Security
+translation.settingsPages.postingLevels.vulnerabilitiesSecurityHardeningSuggestions	Vulnerabilities and security hardening suggestions
+translation.settingsPages.postingLevels.flagsNote	Flags (note)
+translation.settingsPages.postingLevels.informationalObservationsMayNotRequireAction	Informational observations that may not require action
+translation.settingsPages.postingLevels.levelsList	{{levels, list}}
+translation.settingsPages.postingLevels.none	None
+translation.settingsPages.triggerMode.manual	Manual
+translation.settingsPages.triggerMode.noAutomaticReviews	No automatic analysis
+translation.settingsPages.triggerMode.whenPRReady	When the PR is ready
+translation.settingsPages.triggerMode.singleReviewPerformedWhenPRReady	Devin analyzes the PR once when it's ready, usually when it opens
+translation.settingsPages.triggerMode.autoReview	Automatic analysis
+translation.settingsPages.triggerMode.runsWhenPRReadyEverySubsequent	Runs when the PR is ready and on every subsequent push
+translation.settingsPages.triggerMode.badgeWhenReady	When ready
+translation.settingsPages.chatKeywordsTutorial.ask	Ask
+translation.settingsPages.chatKeywordsTutorial.startMessageAskGetQuickCodebase	Start your message with _!ask_ to get a quick codebase answer without starting a full agent
+translation.settingsPages.chatKeywordsTutorial.devinAskHowAuthWebsiteWorks	_@Devin_ !ask how auth in website works?
+translation.settingsPages.chatKeywordsTutorial.authenticationHandledViaJWTTokensStored	Authentication is handled via JWT tokens stored in localstorage.
+translation.settingsPages.chatKeywordsTutorial.aside	Aside
+translation.settingsPages.chatKeywordsTutorial.asideTellsDevinIgnoreMessage	_aside_ tells Devin to ignore the message
+translation.settingsPages.chatKeywordsTutorial.triagedFixedAuthIssuesPR5438	Triaged and fixed the auth issues in _PR #5438_.
+translation.settingsPages.chatKeywordsTutorial.asideWaitWhyDidWeZorple	aside wait, why did we zorple the jorp here?
+translation.settingsPages.chatKeywordsTutorial.looksGreatAs	Looks great as is
+translation.settingsPages.chatKeywordsTutorial.thanksOliver	Thanks, Oliver!
+translation.settingsPages.chatKeywordsTutorial.sleep	Sleep
+translation.settingsPages.chatKeywordsTutorial.sleepPausesDevin	_sleep_ pauses Devin
+translation.settingsPages.chatKeywordsTutorial.iLlStartRefactoringAuthModule	I'll start refactoring the auth module now.
+translation.settingsPages.chatKeywordsTutorial.sleep2	sleep
+translation.settingsPages.chatKeywordsTutorial.mute	Mute
+translation.settingsPages.chatKeywordsTutorial.muteStopsDevinFromListeningUntil	_mute_ stops Devin from listening until you _unmute_
+translation.settingsPages.chatKeywordsTutorial.mute2	mute
+translation.settingsPages.chatKeywordsTutorial.iThinkJorpWasAlreadyZorpled	I think the jorp was already zorpled in the last deploy
+translation.settingsPages.chatKeywordsTutorial.unmute	unmute

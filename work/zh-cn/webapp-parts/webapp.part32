@@ -1,0 +1,500 @@
+translation.sidebar.noFiltersFound	No filters found
+translation.sidebar.noOrganizationsFound	No organizations found
+translation.sidebar.noPeopleFound	No people found
+translation.sidebar.noPullRequests	No pull requests
+translation.sidebar.noResultsFound	No results found
+translation.sidebar.noSearches	No asks
+translation.sidebar.noSessions	No sessions
+translation.sidebar.noTagsFound	No tags found
+translation.sidebar.noWikisFound	No wikis found
+translation.sidebar.notArchived	Unarchived
+translation.sidebar.noAutomations	No automations
+translation.sidebar.onlyAutomations	Only automations
+translation.sidebar.notDone	Not done
+translation.sidebar.only	Only
+translation.sidebar.onlyOpen	Only open
+translation.sidebar.openedByMe	Opened by me
+translation.sidebar.organization	Organization
+translation.sidebar.pagesNavLabel	Pages
+translation.sidebar.startedBy	Started by
+translation.sidebar.startedByCount_one	{{count}} person
+translation.sidebar.startedByCount_other	{{count}} people
+translation.sidebar.allSessions	All sessions
+translation.sidebar.pinned	Pinned
+translation.sidebar.participated	Participated
+translation.sidebar.automationsInvolvingYou	Automations involving you
+translation.sidebar.openPullRequest	Open PR
+translation.sidebar.viewPullRequests_one	View {{count}} PR
+translation.sidebar.viewPullRequests_other	View {{count}} PRs
+translation.sidebar.pullRequestsCount_open_one	{{count}} open pull request
+translation.sidebar.pullRequestsCount_open_other	{{count}} open pull requests
+translation.sidebar.pullRequestsCount_queued_one	{{count}} queued pull request
+translation.sidebar.pullRequestsCount_queued_other	{{count}} queued pull requests
+translation.sidebar.pullRequestsCount_draft_one	{{count}} draft pull request
+translation.sidebar.pullRequestsCount_draft_other	{{count}} draft pull requests
+translation.sidebar.pullRequestsCount_merged_one	{{count}} merged pull request
+translation.sidebar.pullRequestsCount_merged_other	{{count}} merged pull requests
+translation.sidebar.pullRequestsCount_closed_one	{{count}} closed pull request
+translation.sidebar.pullRequestsCount_closed_other	{{count}} closed pull requests
+translation.sidebar.prStateFilter	Pull requests
+translation.sidebar.primaryNavLabel	Primary
+translation.sidebar.properties	Properties
+translation.sidebar.propertyAgent	Agent
+translation.sidebar.propertyAgentMode	Agent mode
+translation.sidebar.propertyAutomationTrigger	Automation
+translation.sidebar.propertyJira	Jira
+translation.sidebar.propertyLinear	Linear
+translation.sidebar.propertyPullRequests	Pull requests
+translation.sidebar.propertyOrganization	Organization
+translation.sidebar.propertyPylon	Pylon
+translation.sidebar.propertySlack	Slack
+translation.sidebar.propertyTeams	Teams
+translation.sidebar.teamsSyncDisabled	Teams (sync disabled)
+translation.sidebar.propertyGoogleChat	Google Chat
+translation.sidebar.googleChatSyncDisabled	Google Chat (sync disabled)
+translation.sidebar.propertyStatus	Status
+translation.sidebar.propertyVisibility	Property visibility
+translation.sidebar.recent	Recent
+translation.sidebar.remove	Remove
+translation.sidebar.removeFrom	Remove from {{name}}
+translation.sidebar.reset	Reset
+translation.sidebar.scans	Scans
+translation.sidebar.schedules	Schedules
+translation.sidebar.search	Search
+translation.sidebar.searchAgents	Search agents
+translation.sidebar.searchFilters	Search filters
+translation.sidebar.searchOrganizations	Search organizations
+translation.sidebar.searchPRs	Search PRs...
+translation.sidebar.searchPeople	Search people
+translation.sidebar.searchQueries	Search asks...
+translation.sidebar.searchSessions	Search sessions...
+translation.sidebar.searchTags	Search tags
+translation.sidebar.sessionType	Session type
+translation.sidebar.sessionTypeAda	Ask
+translation.sidebar.showAll	Show all
+translation.sidebar.skill	Skill
+translation.sidebar.showGroup	Show group
+translation.sidebar.showMoreSessions_one	Show {{count}} more session
+translation.sidebar.showMoreSessions_other	Show {{count}} more sessions
+translation.sidebar.showProperty	Show property
+translation.sidebar.sort	Sort
+translation.sidebar.sortBy	Sort by
+translation.sidebar.sortStatus	Status
+translation.sidebar.status.awaitingInstructions	Awaiting instructions
+translation.sidebar.status.approvalRequired	Approval required
+translation.sidebar.status.approveAutomation	Approve automation
+translation.sidebar.status.approveBillingTag	Approve billing tag
+translation.sidebar.status.approveBlueprintTest	Approve blueprint test
+translation.sidebar.status.approveHook	Approve hook
+translation.sidebar.status.approveKnowledge	Approve Knowledge
+translation.sidebar.status.approveLocalAccess	Approve local access
+translation.sidebar.status.approveMcpServer	Approve MCP server
+translation.sidebar.status.approveOncall	Approve on-call
+translation.sidebar.status.approvePlaybook	Approve playbook
+translation.sidebar.status.approvePlugin	Approve plugin
+translation.sidebar.status.approveRule	Approve rule
+translation.sidebar.status.approveSchedule	Approve schedule
+translation.sidebar.status.approveSession	Approve session
+translation.sidebar.status.approveSessions	Approve sessions
+translation.sidebar.status.approveSkill	Approve skill
+translation.sidebar.status.approveWorkflow	Approve workflow
+translation.sidebar.status.closed	Closed
+translation.sidebar.status.crashed	Crashed
+translation.sidebar.status.done	Done
+translation.sidebar.status.environmentCrashed	Environment crashed
+translation.sidebar.status.exceededLimit	Exceeded limit
+translation.sidebar.status.inactive	Inactive
+translation.sidebar.status.prApproved	PR is approved
+translation.sidebar.status.prInMergeQueue	In merge queue
+translation.sidebar.status.prReady	PR is ready
+translation.sidebar.status.prReadyWaitingCI	PR ready, waiting for CI
+translation.sidebar.status.reviewPR	Review PR
+translation.sidebar.status.sleeping	Sleeping
+translation.sidebar.status.stackApproved	Stack is approved
+translation.sidebar.status.stackReady	Stack is ready
+translation.sidebar.status.waitingForResponse	Waiting for response
+translation.sidebar.status.waitingOnOtherSessions	Waiting for Devin sessions
+translation.sidebar.status.working	Working
+translation.sidebar.status.workingWithEta	Working (~{{duration}} left)
+translation.sidebar.statusBlocked	Blocked
+translation.sidebar.statusExited	Inactive
+translation.sidebar.statusFilter	Status
+translation.sidebar.statusInactive	Inactive
+translation.sidebar.statusReady	Ready
+translation.sidebar.statusRunning	Running
+translation.sidebar.statusWorking	Working
+translation.sidebar.subscriber	Subscriber
+translation.sidebar.allUsers	All users
+translation.sidebar.creatorMe	Me
+translation.sidebar.creatorOthers	Others
+translation.sidebar.tags	Tags
+translation.sidebar.toggle.collapse	Collapse sidebar
+translation.sidebar.toggle.expand	Expand sidebar
+translation.sidebar.unarchive	Unarchive
+translation.sidebar.resumeSession	Resume session
+translation.sidebar.resume	Resume
+translation.sidebar.usage.viewUsage	View usage
+translation.sidebar.usage.extraUsageBalance	Extra usage balance
+translation.sidebar.usage.manageUsage	Manage usage
+translation.sidebar.unavailable	Unavailable
+translation.sidebar.unavailableInCompactView	Unavailable in compact view
+translation.sidebar.updatedTime	Updated time
+translation.sidebar.windows	Windows
+translation.sidebar.viewAll	View all
+translation.sidebar.viewAllQueries	View all asks
+translation.sidebar.viewAllReviews	View all reviews
+translation.sidebar.viewAllScans	View all scans
+translation.sidebar.viewAllSessions	View all sessions
+translation.sidebar.viewAllWikis	View all wikis
+translation.sidebar.askSession	Ask session
+translation.sidebar.collapseChildren	Collapse children
+translation.sidebar.expandChildren	Expand children
+translation.sidebar.createdTimeAgo	Created {{time}}
+translation.sidebar.updatedTimeAgo	Updated {{time}}
+translation.sidebar.hasChildSessions	Has child sessions
+translation.sidebar.scheduledSession	Scheduled session
+translation.sidebar.slackSyncDisabled	Slack (sync disabled)
+translation.sidebar.triggeredByAutomation	Triggered by automation
+translation.sidebar.close	Close sidebar
+translation.sidebar.collapse	Collapse sidebar
+translation.sidebar.expand	Expand sidebar
+translation.slackConnect.noWorkspaceDescription	Devin is installed for your Slack organization but not in any workspace yet. Add it from Slack's admin dashboard, then link your user.
+translation.slackConnect.dontRemindMeAgain	Don't remind me again
+translation.slackConnect.announcementTitle	Sync to Slack
+translation.slackConnect.announcementDescription	Sync this session to Slack by selecting a channel.
+translation.slackConnect.announcementAction	Select
+translation.slackConnect.migrationCompleted	Migration completed successfully
+translation.slackConnect.migrationFailed	Failed to complete migration
+translation.slackConnect.workspacesUpToDate	Workspaces are up to date
+translation.slackConnect.workspacesRefreshFailed	Error refreshing workspaces
+translation.slackPicker.connectSlackUser	Connect Slack user
+translation.slackPicker.directMessageYou	Direct message (you)
+translation.slackPicker.dontSendToSlack	Don't send to Slack
+translation.slackPicker.inviteDevinToChannel	Invite @Devin to a Slack channel to continue
+translation.slackPicker.loadingChannels	Loading channels…
+translation.slackPicker.noChannelsAvailable	No Slack channels available
+translation.slackPicker.noChannelsFound	No channels found
+translation.slackPicker.noChannelsMapped	No channels are mapped to this organization
+translation.slackPicker.searchChannels	Search channels…
+translation.reactionSelect.noEmojiFound	No emoji found
+translation.reactionSelect.searchEmoji	Search emoji…
+translation.reactionSelect.useCustom	Use custom:
+translation.reactionSelect.frequentlyUsed	Frequently Used
+translation.reactionSelect.all	All
+translation.reactionSelect.smileysEmotion	Smileys & Emotion
+translation.reactionSelect.peopleBody	People & Body
+translation.reactionSelect.animalsNature	Animals & Nature
+translation.reactionSelect.foodDrink	Food & Drink
+translation.reactionSelect.travelPlaces	Travel & Places
+translation.reactionSelect.activities	Activities
+translation.reactionSelect.objects	Objects
+translation.reactionSelect.symbols	Symbols
+translation.reactionSelect.flags	Flags
+translation.slackSend.disableSync	Disable Slack sync
+translation.slackSend.enableSync	Enable Slack sync
+translation.slackSend.sendIn	Send in {{label}}
+translation.slackSend.syncDisabled	Slack sync disabled
+translation.slackSend.syncDisabledDescription	This session won't be sent to Slack
+translation.slackSend.syncEnabled	Slack sync enabled
+translation.slackSend.syncEnabledDescription	This session will be sent to {{label}}
+translation.slackSend.messagesSyncDisabledDescription	Messages won't be synced to {{label}}
+translation.slackSend.messagesSyncEnabledDescription	Messages will be synced to {{label}}
+translation.slackSend.syncedTo	Synced to {{label}}
+translation.slackSend.confirmPrivateSyncTitle	Sync session to {{label}}?
+translation.slackSend.confirmPrivateSyncDescription	This session is private. Everyone in that Slack channel can see its new messages.
+translation.slackSend.confirmPrivateSync	Sync
+translation.teamsSync.synced	Synced to Teams
+translation.teamsSync.syncDisabled	Teams sync disabled
+translation.teamsSync.disableSync	Disable Teams sync
+translation.teamsSync.enableSync	Enable Teams sync
+translation.teamsSync.enabled	Teams sync enabled
+translation.teamsSync.disabled	Teams sync disabled
+translation.teamsSync.enabledDescription	Messages will be synced to Teams
+translation.teamsSync.disabledDescription	Messages won't be synced to Teams
+translation.slackUserSelect.bot	Bot
+translation.slackUserSelect.loadingUsers	Loading users…
+translation.slackUserSelect.noUsersFound	No users found
+translation.slackUserSelect.searchUsers	Search users…
+translation.slackUserSelect.searching	Searching…
+translation.slackUserSelect.lookingUpId	Looking up {{id}}…
+translation.slackUserSelect.unknownId	No Slack user with ID {{id}}
+translation.snapshotFilter.failedToLoad	Failed to load snapshots
+translation.snapshotFilter.loading	Loading…
+translation.snapshotFilter.noSnapshotsFound	No snapshots found
+translation.snapshotFilter.searchSnapshots	Search snapshots...
+translation.userRoleBulk.noMembersSelected	No members selected
+translation.userRoleBulk.roleNotFound	Role not found: {{roleId}}
+translation.userRoleBulk.cannotChangeOwnRole	You cannot change your own role from Admin to something else
+translation.userRoleBulk.updatingRoles	Updating roles to {{role}}...
+translation.userRoleBulk.updateFailed	Failed to update roles: {{error}}
+translation.userRoleBulk.unknownError	Unknown error
+translation.userRoleBulk.changeRole	Change role
+translation.userRoleBulk.role	Role
+translation.userRoleBulk.upgradeTitle	Upgrading to Enterprise Admin
+translation.userRoleBulk.upgradeDescription	Enterprise Admins have the ability to view and configure all code, snapshots, integrations, and consumption limits across the Devin Enterprise. Assign this permission carefully.
+translation.userRoleBulk.understood	Understood
+translation.previewAuthorize.title	Opening preview…
+translation.previewAuthorize.description	Signing you in and starting the preview.
+translation.previewAuthorize.cookieErrorTitle	Couldn't open the preview
+translation.previewAuthorize.cookieErrorDescription	The sign-in cookie isn't being stored, so we couldn't start the preview. Make sure cookies are enabled and try again. (Safari blocks the preview cookie over plain HTTP locally — use Chrome or HTTPS.)
+translation.previewAuthorize.unavailableTitle	Preview unavailable
+translation.previewAuthorize.unavailableDescription	You don't have access to this preview, or it no longer exists.
+translation.sshAuthorize.title	Authorize SSH access
+translation.sshAuthorize.missingSid	This authorization link is incomplete.
+translation.sshAuthorize.invalidLink	This authorization link is invalid or has expired. Reconnect over SSH to get a new one.
+translation.sshAuthorize.request	A machine is requesting SSH access to session <session>{{session}}</session>. Only approve this if you just ran the SSH command yourself.
+translation.sshAuthorize.clientIp	Connecting from {{ip}}
+translation.sshAuthorize.approve	Authorize this connection
+translation.sshAuthorize.approving	Authorizing...
+translation.sshAuthorize.failed	Authorization failed. Reconnect over SSH and try again.
+translation.sshAuthorize.approvedTitle	Connection authorized
+translation.sshAuthorize.approvedBody	Enter this code at the SSH prompt in your terminal:
+translation.sshAuthorize.codeSingleUse	The code works once, for this connection only.
+translation.sshSettings.keyAdd	Add key
+translation.sshSettings.keyAddFailed	Failed to add SSH key
+translation.sshSettings.keyAddFailedAlreadyEnrolled	That key is already enrolled in your organization.
+translation.sshSettings.keyAddFailedInvalid	That is not a valid SSH public key. Paste the whole line from your .pub file, starting with the key type.
+translation.sshSettings.keyAddFailedNotEnabled	Your organization's SSH access level doesn't allow SSH keys right now.
+translation.sshSettings.keyAddFailedTooMany	You have reached the limit for enrolled SSH keys. Remove one to add another.
+translation.sshSettings.keyNameLabel	Key name
+translation.sshSettings.keyNameRequired	Key name required
+translation.sshSettings.keyNamePlaceholder	e.g. Work laptop
+translation.sshSettings.keyPublicKeyLabel	Public key
+translation.sshSettings.keyPublicKeyRequired	Public key required
+translation.sshSettings.keyRemove	Remove
+translation.sshSettings.keyRemoveFailed	Failed to remove SSH key
+translation.sshSettings.keysDescription	Keys enrolled here can SSH into your Devin sessions directly, without browser approval.
+translation.sshSettings.keysEnrollmentDisabled	Your organization's SSH access level doesn't allow SSH keys right now; existing keys stay listed here so you can remove them.
+translation.sshSettings.keysTitle	SSH keys
+translation.sshSettings.levelApp	Trusted apps only
+translation.sshSettings.levelAppDescription	Devin Desktop and other signed-in apps can connect; no codes or SSH keys
+translation.sshSettings.levelCapped	Disabled by Cognition for this account
+translation.sshSettings.levelDescription	How users may SSH into session machines
+translation.sshSettings.levelLabel	SSH access
+translation.sshSettings.levelNone	Off
+translation.sshSettings.levelNoneDescription	SSH connections to session machines are rejected
+translation.sshSettings.levelOtp	One-time codes
+translation.sshSettings.levelOtpDescription	Browser-approved one-time codes, plus trusted app access
+translation.sshSettings.levelPublicKey	SSH keys
+translation.sshSettings.levelPublicKeyDescription	Enrolled SSH keys connect directly, plus one-time codes and trusted app access
+translation.sshSettings.levelUpdateFailed	Failed to update SSH access setting
+translation.sshSettings.noKeys	No SSH keys enrolled.
+translation.tagModal.noPtsCodesFound	No PTS Codes found
+translation.tagModal.noTagsFound	No tags found
+translation.tagModal.organizationGroup	Organization
+translation.tagModal.otherTagsFreeform	Other tags are freeform. Required tags are selected above.
+translation.tagModal.otherTagsFreeformPtsCodes	Other tags are freeform. Required PTS Codes are selected above.
+translation.tagModal.requiredPtsCode	Required PTS Code
+translation.tagModal.requiredPtsCodesManagedAsOther	Required PTS Codes are managed above and can't be added as other tags.
+translation.tagModal.requiredTag	Required tag
+translation.tagModal.requiredTagsManagedAsOther	Required tags are managed above and can't be added as other tags.
+translation.tagModal.reservedTagNotAllowed	This tag is reserved for system use and can't be added.
+translation.tagModal.searchPtsCodes	Search PTS Codes…
+translation.tagModal.searchTags	Search tags…
+translation.tagModal.selectExactlyOneRequiredPtsCode	Select exactly one required PTS Code for this session
+translation.tagModal.selectExactlyOneRequiredTag	Select exactly one required tag for this session
+translation.tagModal.selectRequiredPtsCode	Select required PTS Code
+translation.tagModal.selectRequiredTag	Select required tag
+translation.tagModal.userGroup	User
+translation.tagSelector.noTags	No tags
+translation.tagSelector.noTagsFound	No tags found
+translation.tagSelector.searchTags	Search tags…
+translation.tagSelector.selectATag	Select a tag
+translation.tagSelector.selectATagEllipsis	Select a tag…
+translation.tagSelector.selectTags	Select tags
+translation.tagSelector.tagsSelected_one	{{count}} tag selected
+translation.tagSelector.tagsSelected_other	{{count}} tags selected
+translation.teamReferralDialog.close	Close
+translation.teamReferralDialog.description	Refer a team to Devin. When they join, they'll receive ${{recipientAmount}} and you'll receive ${{referrerAmount}} in bonus usage to try Devin.
+translation.teamReferralDialog.startReferring	Start referring
+translation.teamReferralDialog.title	Give ${{giveAmount}}. Get ${{getAmount}}.
+translation.testRecording.clickToLoop	click to loop
+translation.testRecording.closeViewer	Close test recording viewer
+translation.testRecording.defaultTitle	Test recording
+translation.testRecording.downloadVideo	Download video
+translation.testRecording.eventSetup	Setup
+translation.testRecording.eventTest	Test
+translation.testRecording.events	events
+translation.testRecording.eventsRecorded	events recorded
+translation.testRecording.exitFullscreen	Exit fullscreen
+translation.testRecording.failed	failed
+translation.testRecording.fullscreen	Fullscreen
+translation.testRecording.loading	Loading...
+translation.testRecording.loopCurrentChapter	Loop current chapter
+translation.testRecording.nextChapter	Next chapter
+translation.testRecording.nextChapterShortcut	Next chapter (Shift+→)
+translation.testRecording.openVideoUrlDirectly	Open video URL directly
+translation.testRecording.passed	passed
+translation.testRecording.pause	Pause
+translation.testRecording.pauseShortcut	Pause (Space)
+translation.testRecording.play	Play
+translation.testRecording.playShortcut	Play (Space)
+translation.testRecording.playbackSpeed	Playback speed
+translation.testRecording.previousChapter	Previous chapter
+translation.testRecording.previousChapterShortcut	Previous chapter (Shift+←)
+translation.testRecording.statusFailed	Failed
+translation.testRecording.statusPassed	Passed
+translation.testRecording.statusUntested	Untested
+translation.testRecording.stopLooping	Stop looping
+translation.testRecording.untested	untested
+translation.testRecording.videoCouldNotBeLoaded	Video could not be loaded
+translation.timeEstimate.amount	Amount
+translation.timeEstimate.unit	Unit
+translation.timeEstimate.unitPlaceholder	unit
+translation.timeEstimate.unitDays	days
+translation.timeEstimate.unitHours	hours
+translation.timeEstimate.unitMinutes	minutes
+translation.timeEstimateSurvey.cancel	Cancel
+translation.timeEstimateSurvey.custom	Custom
+translation.timeEstimateSurvey.customAmount	Amount
+translation.timeEstimateSurvey.dismissSurvey	Dismiss survey
+translation.timeEstimateSurvey.helpCalibrate	Help us calibrate Devin
+translation.timeEstimateSurvey.howLongQuestion	How long would this session have taken without any AI?
+translation.timeEstimateSurvey.save	Save
+translation.timeEstimateSurvey.saving	Saving…
+translation.timeEstimateSurvey.thanksSaved	Thanks — saved.
+translation.timeEstimateSurvey.bucket.under2Hours	< 2 hrs
+translation.timeEstimateSurvey.bucket.2to4Hours	2-4 hrs
+translation.timeEstimateSurvey.bucket.4to8Hours	4-8 hrs
+translation.timeEstimateSurvey.bucket.1to2Days	1-2 days
+translation.timeEstimateSurvey.bucket.2to4Days	2-4 days
+translation.timeEstimateSurvey.bucket.4to8Days	4-8 days
+translation.timeEstimateSurvey.bucket.over8Days	8+ days
+translation.timeEstimateSurvey.saveFailed	Failed to save
+translation.timeEstimateSurvey.enterPositiveNumber	Enter a positive number
+translation.toast.dismissNotification	Dismiss notification
+translation.toast.dontNotifyAgain	Don't notify me again
+translation.toast.undo	Undo
+translation.toast.undoFailed	Failed to undo last action
+translation.toast.more	More
+translation.transcript.redactedSecretCode	[REDACTED SECRET]
+translation.transcript.redactedSecretLabel	Redacted secret
+translation.transcript.redactedSecret	Hidden because it matched one of your secrets. Open <settingsLink>Settings > Secrets</settingsLink>
+translation.transcript.redactedSecretNamed	Hidden because it matched your secret {{name}}. Open it in <settingsLink>Settings > Secrets</settingsLink>
+translation.transcript.receiptSending	Sending…
+translation.transcript.receiptDelivered	Delivered
+translation.transcript.receiptRead	Read
+translation.transcript.typingBubble	{{botName}} is typing…
+translation.transcript.dayDivider.today	Today {{time}}
+translation.transcript.dayDivider.yesterday	Yesterday {{time}}
+translation.transcript.dayDivider.dateAtTime	{{date}} at {{time}}
+translation.transcript.subdevin	Devin
+translation.transcript.devinSession	Devin session
+translation.transcript.hiddenUpdate	Hidden update
+translation.transcript.edited	Edited
+translation.transcript.hideEdits	Hide edits
+translation.transcript.needsYou	Needs you
+translation.transcript.needsYouCard.networkAccess	Network access request
+translation.transcript.needsYouCard.localAccess	Connect your local machine
+translation.transcript.needsYouCard.environmentConfig	Environment change
+translation.transcript.needsYouCard.budget	Usage limit proposal
+translation.transcript.needsYouCard.repoCreation	New repository
+translation.transcript.needsYouCard.mcpAuth	Sign in to {{server}}
+translation.transcript.needsYouCard.toolPermission	Permission needed
+translation.transcript.inboxDecisionCounts	Addressed {{resolved}} · Waiting on {{waiting}}
+translation.transcript.inboxDecisionResolved	Addressed {{resolved}}
+translation.transcript.inboxDecisionWaiting	Waiting on {{waiting}}
+translation.transcript.viewInThread	View in thread
+translation.transcript.inboxItemResolvedViewThread	Addressed · View in thread
+translation.transcript.inboxDecisionConfirm	Confirm
+translation.transcript.inboxDecisionRecommended	Recommended
+translation.transcript.inboxDecisionHandled	Addressed
+translation.transcript.viewScript	View script
+translation.transcript.forwardedBy	Forwarded by
+translation.transcript.forwarded	Forwarded
+translation.transcript.sourceAppVia	<icon/><sourceLink>{{app}}</sourceLink> via <viaLink>{{name}}</viaLink>
+translation.transcript.sourceApp	<icon/><sourceLink>{{app}}</sourceLink>
+translation.transcript.fromSourceApp	from <icon/><sourceLink>{{app}}</sourceLink>
+translation.transcript.fromSourceAppVia	from <icon/><sourceLink>{{app}}</sourceLink> via <viaLink>{{name}}</viaLink>
+translation.transcript.duplicateFailed	Duplicate failed: {{reason}}
+translation.transcript.forkFailed	Fork failed: {{reason}}
+translation.transcript.forceRevert	Force revert
+translation.transcript.confirmRevert	Confirm
+translation.transcript.revertConflicts_one	{{count}} conflict — files changed on disk since the agent last wrote them
+translation.transcript.revertConflicts_other	{{count}} conflicts — files changed on disk since the agent last wrote them
+translation.transcript.revertFailed	Revert failed: {{reason}}
+translation.transcript.applyTheseReverts	Apply these reverts
+translation.transcript.confirmRevertTitle	Confirm revert
+translation.transcript.irreversibleActions_one	{{count}} action cannot be reverted
+translation.transcript.irreversibleActions_other	{{count}} actions cannot be reverted
+translation.transcript.revertStepNotFound	Could not find this message in the agent's history
+translation.transcript.inboxUpdate	Needs you update
+translation.transcript.creatingSessions_one	Creating session...
+translation.transcript.creatingSessions_other	Creating sessions...
+translation.transcript.codeScanComplete	Scan complete: {{title}}
+translation.transcript.codeScanFailed	Scan failed: {{title}}
+translation.transcript.codeScanImportComplete	Import complete: {{title}}
+translation.transcript.codeScanImportFailed	Import failed: {{title}}
+translation.transcript.codeScanViewFindings	View findings
+translation.transcript.codeScanStatusScanning	Scanning…
+translation.transcript.codeScanStatusImporting	Importing…
+translation.transcript.codeScanStatusSettingUp	Setting up…
+translation.transcript.codeScanViewFindingsCount_one	View {{count}} finding
+translation.transcript.codeScanViewFindingsCount_other	View {{count}} findings
+translation.transcript.codeScanNoFindings	No findings
+translation.transcript.codeScanCriticalCount	{{count}} critical
+translation.transcript.codeScanHighCount	{{count}} high
+translation.transcript.codeScanMoreRepos	+{{count}}
+translation.transcript.aFile	a file
+translation.transcript.aUser	A user
+translation.transcript.acuAmount	{{value}} ACUs
+translation.transcript.adminRequired	Admin required
+translation.transcript.agentMessage	{{name}} message
+translation.transcript.allowForThisSession	Allow for this session
+translation.transcript.allowing	Allowing…
+translation.transcript.analyzedDirectory	Analyzed
+translation.transcript.analyzingDirectory	Analyzing
+translation.transcript.approve	Approve
+translation.transcript.doneEditingCommand	Done
+translation.transcript.approvedDeployment	Approved deployment
+translation.transcript.approvedBy	Approved by {{names, list(type: unit)}}
+translation.transcript.prApproved	PR approved
+translation.transcript.automationPermission.create	Devin wants to create an automation
+translation.transcript.automationPermission.delete	Devin wants to delete an automation
+translation.transcript.automationPermission.run	Devin wants to run an automation
+translation.transcript.automationPermission.update	Devin wants to update an automation
+translation.transcript.automationCreated	Automation created
+translation.transcript.automationCreating	Creating automation
+translation.transcript.automationDeleted	Automation deleted
+translation.transcript.automationDeleting	Deleting automation
+translation.transcript.automationNotCreated	Automation not created
+translation.transcript.automationNotDeleted	Automation not deleted
+translation.transcript.automationNotRun	Automation not run
+translation.transcript.automationNotUpdated	Automation not updated
+translation.transcript.automationRan	Automation ran
+translation.transcript.automationRunning	Running automation
+translation.transcript.automationUpdated	Automation updated
+translation.transcript.automationUpdating	Updating automation
+translation.transcript.responderPermission.create	Devin wants to create an Oncall responder
+translation.transcript.responderPermission.delete	Devin wants to delete an Oncall responder
+translation.transcript.responderPermission.update	Devin wants to update an Oncall responder
+translation.transcript.responderCreated	Responder created
+translation.transcript.responderCreating	Creating responder
+translation.transcript.responderDeleted	Responder deleted
+translation.transcript.responderDeleting	Deleting responder
+translation.transcript.responderNotCreated	Responder not created
+translation.transcript.responderNotDeleted	Responder not deleted
+translation.transcript.responderNotUpdated	Responder not updated
+translation.transcript.responderUpdated	Responder updated
+translation.transcript.responderUpdating	Updating responder
+translation.transcript.createResponder	Create responder
+translation.transcript.updateResponder	Update responder
+translation.transcript.deleteResponder	Delete responder
+translation.transcript.automationUpdateRefreshing	Re-reading the current automation before these changes can be approved.
+translation.transcript.automationUpdateUnavailable	Couldn't load the current automation, so these changes can't be compared against it.
+translation.transcript.widerThanSession.title	This goes beyond your private session
+translation.transcript.widerThanSession.knowledge	Everyone in your organization can read this note, and it is added to their sessions.
+translation.transcript.widerThanSession.playbook	Everyone in your organization can read and use this playbook.
+translation.transcript.widerThanSession.schedule	Members who manage schedules can read its prompt, and the sessions it starts are visible to your organization.
+translation.transcript.widerThanSession.automation	Members who can view automations can read its prompt, and the sessions it starts are visible to your organization.
+translation.transcript.widerThanSession.plugin	This plugin change applies to every member who uses the plugin, not only to this session.
+translation.transcript.reminderSet	Reminder set for {{when}}
+translation.transcript.reminderSetting	Setting reminder for {{when}}
+translation.transcript.reminderNotSet	Reminder not set
+translation.transcript.reminderSetSchedule	Reminder set: {{schedule}}
+translation.transcript.reminderSettingSchedule	Setting reminder: {{schedule}}
+translation.transcript.reminderPermission.create	Devin wants to set a reminder
+translation.transcript.reminderPermission.update	Devin wants to update a reminder
+translation.transcript.reminderPermission.delete	Devin wants to delete a reminder
+translation.transcript.reminderPermission.createApproved	Approved setting a reminder
+translation.transcript.reminderPermission.createDenied	Denied setting a reminder

@@ -1,0 +1,500 @@
+translation.boards.plan.walkthrough.allMet_one	{{count}} criterion met
+translation.boards.plan.walkthrough.allMet_other	All {{count}} criteria met
+translation.boards.plan.walkthrough.someMet	{{met}} of {{total}} met
+translation.boards.plan.walkthrough.criteriaAllMetPhase	Every exit criterion is met, so this phase can be closed out.
+translation.boards.plan.walkthrough.criteriaOpenPhase	This phase is finished only when every criterion below is met.
+translation.boards.plan.walkthrough.criteriaAllMetStep	Every exit criterion is met, so this step can be closed out.
+translation.boards.plan.walkthrough.criteriaOpenStep	This step is finished only when every criterion below is met.
+translation.boards.plan.walkthrough.stepCriteriaInPhase	Step criteria in this phase
+translation.boards.plan.walkthrough.stepCriteriaKicker	Step exit criteria
+translation.boards.plan.walkthrough.checkpointKicker	Phase {{n}} · exit checkpoint
+translation.boards.plan.walkthrough.backToPhase	Back to phase {{n}}
+translation.boards.plan.walkthrough.backToStep	Back to step
+translation.boards.plan.walkthrough.phaseContext	Phase {{n}} · {{title}}
+translation.boards.plan.walkthrough.stepContext	Step · {{title}}
+translation.boards.plan.walkthrough.steps_one	{{count}} step
+translation.boards.plan.walkthrough.steps_other	{{count}} steps
+translation.boards.plan.walkthrough.stepsCount	Steps · {{count}}
+translation.boards.plan.walkthrough.stepsHeading	Steps
+translation.boards.plan.walkthrough.clearedBlockers	Cleared
+translation.boards.plan.walkthrough.after	After
+translation.boards.plan.walkthrough.blocks	Blocks
+translation.boards.plan.walkthrough.tickets	Tickets
+translation.boards.plan.walkthrough.discussion	Discussion
+translation.boards.plan.walkthrough.wrapUp	Wrap-up
+translation.boards.plan.walkthrough.wrapUpNeedsInput	Waiting on your input
+translation.boards.plan.walkthrough.wrapUpProgress	Work is under way
+translation.boards.plan.walkthrough.wrapUpApproved	Approved
+translation.boards.plan.walkthrough.wrapUpReady	Ready for approval
+translation.boards.plan.walkthrough.wrapUpAllAnswered	Everything that needed input has been answered.
+translation.boards.plan.walkthrough.wrapUpRemaining	{{remaining}} of {{total}} items still need input.
+translation.boards.plan.walkthrough.exitCheckpoints	Exit checkpoints
+translation.boards.plan.walkthrough.phaseProgress	{{phase}} progress
+translation.boards.plan.blockerClearedByCheck	cleared by passing check
+translation.boards.plan.status.drafting	Drafting
+translation.boards.plan.status.approved	Approved
+translation.boards.plan.status.inProgress	In progress
+translation.boards.plan.status.progress	{{done}}/{{total}} done
+translation.boards.plan.status.done	Done
+translation.boards.statusColorPicker.statusColor	Status color
+translation.boards.statusColorPicker.useDefault	Use category default
+translation.boards.statusColorPicker.customHex	Custom hex color
+translation.boards.statusColorPicker.invalidHex	Enter a hex color like #4c9aff.
+translation.boards.insightsRange.all	All
+translation.boards.insightsRange.days	{{days}}d
+translation.boards.insightsRange.day	Day
+translation.boards.insightsRange.week	Week
+translation.boards.insightsRange.timeRangeAria	Time range
+translation.boards.insightsRange.bucketSizeAria	Bucket size
+translation.boards.visibility.ariaLabel	Board visibility
+translation.boards.visibility.public	Public
+translation.boards.visibility.private	Private
+translation.boards.visibility.privateBoardAria	Private board
+translation.boards.resourceAddLink	Add link
+translation.boards.resourceUrl	URL
+translation.boards.resourceUrlPlaceholder	https://example.com
+translation.boards.resourceTitle	Title
+translation.boards.resourceTitlePlaceholder	Design spec
+translation.boards.resourceUrlInvalid	Enter a valid http(s) link
+translation.boards.resourceAdd	Add
+translation.boards.resourceRemove	Remove resource
+translation.boards.devinNone	None
+translation.boards.devinSelectAriaLabel	Board Devin
+translation.boards.devinAgentDescription	{{name}} is this board's Devin. Everyone on the board shares its current conversation.
+translation.boards.devinUpdated	Board Devin updated
+translation.boards.devinUpdateFailed	Failed to update the board's Devin
+translation.boards.openDevin	Open Devin
+translation.boards.firstMessageStartsDevinConversation	Your first message starts {{name}}'s conversation.
+translation.boards.devinResetDescription	This detaches {{name}} from this board for everyone. The Devin itself is not affected. Personal agents are not affected.
+translation.boards.sortableList.dragToReorder	Drag to reorder
+translation.boards.sortableList.reorder	Reorder {{label}}
+translation.boards.statusEditor.statuses	Statuses
+translation.boards.statusEditor.addStatus	Add status
+translation.boards.statusEditor.adding	Adding...
+translation.boards.statusEditor.edit	Edit {{label}}
+translation.boards.statusEditor.default	Default
+translation.boards.statusEditor.name	Name
+translation.boards.statusEditor.namePlaceholder	In review
+translation.boards.statusEditor.duplicateName	A status with this name already exists.
+translation.boards.statusEditor.category	Category
+translation.boards.statusEditor.undeletable	This is the {{reason}}.
+translation.boards.statusEditor.fixed	(fixed)
+translation.boards.statusEditor.color	Color
+translation.boards.statusEditor.defaultForNewTickets	Default status for new tickets
+translation.boards.statusEditor.setDefaultForNewTickets	Set as default for new tickets
+translation.boards.statusEditor.ticketCount_one	{{count}} ticket
+translation.boards.statusEditor.ticketCount_other	{{count}} tickets
+translation.boards.ticketDate.created	Created {{date}}
+translation.boards.ticketDate.updated	Updated {{date}}
+translation.boards.ticketDisplay.showOnTickets	Show on tickets
+translation.boards.ticketDisplay.showAll	Show all
+translation.boards.ticketDisplay.priority	Priority
+translation.boards.ticketDisplay.key	Ticket ID
+translation.boards.ticketDisplay.status	Status
+translation.boards.ticketDisplay.devinStatus	Devin status
+translation.boards.ticketDisplay.devinRuntime	Devin runtime
+translation.boards.ticketDisplay.pullRequests	PR artifacts
+translation.boards.ticketDisplay.recordings	Recording artifacts
+translation.boards.ticketDisplay.assignee	Assignee
+translation.boards.ticketDisplay.hoursSaved	Hours saved
+translation.boards.ticketDisplay.timestamps	Timestamps
+translation.boards.tagKeyList.label	Tag keys
+translation.boards.tagKeyList.addKey	Add key
+translation.boards.tagKeyList.edit	Edit {{name}}
+translation.boards.tagKeyList.systemKeyTooltip	System key: cannot be renamed or deleted
+translation.boards.tagKeyList.systemKey	System key
+translation.boards.tagKeyList.keyNameTaken	A key with this name already exists.
+translation.boards.tagKeyList.systemKeyRename	System keys cannot be renamed.
+translation.boards.tagKeyList.defaultColorHint	Used for new values of this key.
+translation.boards.tagKeyList.useBoardDefault	Use board default
+translation.boards.tagKeyList.defaultValueColor	Default value color
+translation.boards.tagKeyList.fixedForSystemKeys	Fixed for system keys.
+translation.boards.tagKeyList.onePerTicketHint	Tickets can have at most one value of this key.
+translation.boards.tagKeyList.onePerTicketAria	One {{name}} value per ticket
+translation.boards.tagKeyList.adding	Adding...
+translation.boards.tagValueList.label	{{key}} values
+translation.boards.tagValueList.noValues	No values yet.
+translation.boards.tagValueList.addValue	Add value
+translation.boards.tagValueList.edit	Edit {{name}}
+translation.boards.tagValueList.system	System
+translation.boards.tagValueList.hasLink	Has link
+translation.boards.tagValueList.valueNameTaken	A value with this name already exists for {{key}}.
+translation.boards.tagValueList.useKeyDefault	Use key default
+translation.boards.tagValueList.linkHint	Pills with this value open the link.
+translation.boards.tagValueList.linkInvalid	Enter an http or https URL.
+translation.boards.tagValueList.highlightHint	Tint tickets with this value on the board.
+translation.boards.tagValueList.highlight	Highlight
+translation.boards.tagValueList.highlightAria	Highlight tickets tagged {{name}}
+translation.boards.tagValueList.systemValuesUndeletable	System values cannot be deleted.
+translation.boards.tagValueList.adding	Adding...
+translation.boards.tagValueList.ticketCount_one	{{count}} ticket
+translation.boards.tagValueList.ticketCount_other	{{count}} tickets
+translation.boards.tagValueList.highlightsTickets	Highlights tickets
+translation.boards.labels.agentActions	Agent actions
+translation.boards.labels.seePersonalAgent	See personal agent
+translation.boards.labels.seeSharedAgent	See shared agent
+translation.boards.labels.resetAgent	Reset agent
+translation.boards.labels.openFullSession	Open full session
+translation.boards.labels.session	Session
+translation.boards.labels.openSession	Open session
+translation.boards.labels.changePriority	Change priority
+translation.boards.labels.changePriorityPlaceholder	Change priority...
+translation.boards.labels.newTicket	New ticket
+translation.boards.labels.dropTicketsHere	Drop tickets here
+translation.boards.labels.noTickets	No tickets
+translation.boards.labels.hiddenColumns	Hidden columns
+translation.boards.labels.personalAgentReset	Personal agent reset
+translation.boards.labels.sharedAgentReset	Shared agent reset
+translation.boards.labels.resetPersonalAgent	Reset personal agent?
+translation.boards.labels.resetSharedAgent	Reset shared agent?
+translation.boards.labels.boardTitle	Board title
+translation.boards.labels.untitledBoard	Untitled board
+translation.boards.labels.identifier	Identifier {{identifier}}
+translation.boards.labels.setIdentifier	Set identifier
+translation.boards.labels.boardDescription	Board description
+translation.boards.labels.addADescription	Add a description
+translation.boards.labels.seeMore	See more
+translation.boards.labels.seeLess	See less
+translation.boards.labels.boardActions	Board actions
+translation.boards.labels.settings	Settings
+translation.boards.labels.deleteBoard	Delete board
+translation.boards.labels.newBoard	New board
+translation.boards.labels.description	Description
+translation.boards.labels.creating	Creating...
+translation.boards.labels.ticketTitle	Ticket title
+translation.boards.labels.ticketDescription	Ticket description
+translation.boards.labels.addDescription	Add description…
+translation.boards.labels.changeStatus	Change status
+translation.boards.labels.changeStatusPlaceholder	Change status...
+translation.boards.labels.status	Status
+translation.boards.labels.setEstimate	Set estimate
+translation.boards.labels.changeEstimate	Change estimate
+translation.boards.labels.createBoard	Create board
+translation.boards.labels.estimate	Estimate
+translation.boards.labels.assignee	Assignee
+translation.boards.labels.changeAssignee	Change assignee
+translation.boards.labels.assignTo	Assign to…
+translation.boards.labels.attachFiles	Attach files
+translation.boards.labels.createMore	Create more
+translation.boards.labels.createTicket	Create ticket
+translation.boards.labels.discardTicket	Discard ticket?
+translation.boards.labels.discard	Discard
+translation.boards.labels.boardBurn	Board burn
+translation.boards.labels.manager	Manager
+translation.boards.labels.unattributed	Unattributed
+translation.boards.labels.cumulative	Cumulative
+translation.boards.labels.estimateVsActual	Estimate vs actual
+translation.boards.labels.used	Used
+translation.boards.labels.noTicketsYet	No tickets yet
+translation.boards.labels.properties	Properties
+translation.boards.labels.devins	Devins
+translation.boards.labels.created	Created
+translation.boards.labels.delete	Delete
+translation.boards.labels.expandGroup	Expand group
+translation.boards.labels.collapseGroup	Collapse group
+translation.boards.labels.hideEmptyGroups	Hide empty groups
+translation.boards.labels.priority	Priority
+translation.boards.labels.progress	Progress
+translation.boards.labels.points	Points
+translation.boards.labels.pointsCompleted	Points completed
+translation.boards.labels.unestimated	Unestimated
+translation.boards.labels.analytics	Analytics
+translation.boards.labels.ticketsBySeverity	Tickets by severity
+translation.boards.labels.ticketsByPriority	Tickets by priority
+translation.boards.labels.createdVsCompleted	Created vs completed
+translation.boards.labels.couldntLoadActivity	Couldn't load activity
+translation.boards.labels.pointsBurnUp	Points burn-up
+translation.boards.labels.pointsOverTime	Points over time
+translation.boards.labels.ticketsOverTime	Tickets over time
+translation.boards.labels.groupPointsBy	Group points by
+translation.boards.labels.groupTicketsBy	Group tickets by
+translation.boards.labels.byCategory	By category
+translation.boards.labels.byStatus	By status
+translation.boards.labels.usageByTicket	Usage by ticket
+translation.boards.labels.ticketCount_one	{{count, number}} ticket
+translation.boards.labels.ticketCount_other	{{count, number}} tickets
+translation.boards.labels.est	Est.
+translation.boards.labels.sessions	Sessions
+translation.boards.labels.aCUs	ACUs
+translation.boards.labels.cost	Cost
+translation.boards.labels.showTop	Show top {{COLLAPSED_ROWS}}
+translation.boards.labels.visibility	Visibility
+translation.boards.labels.loadingMembers	Loading members...
+translation.boards.labels.noMembersFound	No members found
+translation.boards.labels.enterANumber	Enter a number…
+translation.boards.labels.noEstimate	No estimate
+translation.boards.labels.recording	Recording {{number}}
+translation.boards.labels.pullRequests_one	Pull request
+translation.boards.labels.pullRequests_other	Pull requests
+translation.boards.labels.recordings_one	Recording
+translation.boards.labels.recordings_other	Recordings
+translation.boards.labels.artifactsOf	Artifacts of {{ticket}}
+translation.boards.labels.rename	Rename
+translation.boards.labels.copyURL	Copy URL
+translation.boards.labels.copyKey	Copy key
+translation.boards.labels.starting	Starting
+translation.boards.labels.startingSession	Starting session…
+translation.boards.labels.prCount_one	{{count}} PR
+translation.boards.labels.prCount_other	{{count}} PRs
+translation.boards.labels.dispatchDevin	Dispatch Devin
+translation.boards.labels.viewSession	View session
+translation.boards.labels.unclaimed	Unclaimed
+translation.boards.labels.viewRecording	View recording
+translation.boards.labels.ticketNotFound	Ticket not found
+translation.boards.labels.copyTicketURL	Copy ticket URL
+translation.boards.labels.copyTicketKey	Copy ticket key
+translation.boards.labels.editTicketDescription	Edit ticket description
+translation.boards.labels.assigned	Assigned
+translation.boards.labels.unassigned	Unassigned
+translation.boards.labels.acuUsed	ACU used
+translation.boards.labels.setValue	Set value
+translation.boards.labels.unknown	Unknown
+translation.boards.labels.updated	Updated
+translation.boards.labels.undo	Undo: {{undoneMessage}}
+translation.boards.labels.couldntUndo	Couldn't undo
+translation.boards.labels.manageSharing	{{label}}. Manage sharing
+translation.boards.labels.creator	· Creator
+translation.boards.labels.you	(you)
+translation.boards.labels.leave	Leave
+translation.boards.labels.removeFromSidebar	Remove from sidebar
+translation.boards.labels.leaveBoard	Leave board
+translation.boards.labels.remove	Remove {{name}}
+translation.boards.labels.shareWithEveryone	Share with everyone
+translation.boards.labels.addMembers	Add members
+translation.boards.labels.addMe	Add me
+translation.boards.labels.resizePanel	Resize panel
+translation.boards.labels.boardPanel	Board panel
+translation.boards.labels.agent	Agent
+translation.boards.labels.insights	Insights
+translation.boards.labels.hidePanel	Hide panel
+translation.boards.labels.showPanel	Show panel
+translation.boards.labels.showAgent	Show agent
+translation.boards.labels.showInsights	Show insights
+translation.boards.labels.selected	Selected
+translation.boards.labels.notSelected	Not selected
+translation.boards.labels.members	Members
+translation.boards.labels.selectEveryone	Select everyone ({{memberCount}})
+translation.boards.labels.boardCreated	Board created
+translation.boards.labels.viewBoard	View board
+translation.boards.labels.boardUpdated	Board updated
+translation.boards.labels.boardDeleted	Board deleted
+translation.boards.labels.goHome	Go home
+translation.boards.labels.unsubscribedFromBoard	Unsubscribed from board
+translation.boards.labels.leavePrivateBoard	Leave private board?
+translation.boards.labels.somethingWentWrong	Something went wrong
+translation.boards.labels.ticket	Ticket
+translation.boards.labels.subscribed	Subscribed
+translation.boards.labels.unsubscribe	Unsubscribe
+translation.boards.labels.subscribe	Subscribe
+translation.boards.labels.unknownMember	Unknown member
+translation.boards.labels.board	Board
+translation.boards.labels.assignToEllipsis	Assign to...
+translation.boards.labels.pointsInTotal_one	{{total}} point in total
+translation.boards.labels.pointsInTotal_other	{{total}} points in total
+translation.boards.labels.botBoardInbox	Needs you
+translation.boards.labels.botBoardTask	Task
+translation.boards.labels.untitledTicket	Untitled ticket
+translation.boards.labels.ticketLower	ticket
+translation.boards.labels.noPrioritiesFound	No priorities found
+translation.boards.labels.noStatusesFound	No statuses found
+translation.boards.labels.recordingsCount_one	{{count}} recording
+translation.boards.labels.recordingsCount_other	{{count}} recordings
+translation.boards.labels.addDescriptionPlaceholder	Add a description…
+translation.boards.labels.addMembersEllipsis	Add members...
+translation.boards.labels.manageSharingPrivate	Private board. {{label}}. Manage sharing
+translation.boards.labels.deleteBoardQuestion	Delete board?
+translation.boards.labels.peopleCount_one	{{formatted}} person
+translation.boards.labels.peopleCount_other	{{formatted}} people
+translation.boards.labels.deleteKey	Delete key?
+translation.boards.labels.deleteValue	Delete value?
+translation.boards.labels.deleteNamedQuestion	Delete \\
+translation.boards.agent.couldntAttachTheSessionToThisBoard	Couldn't attach the session to this board
+translation.boards.agent.failedToResetYourPersonalAgent	Failed to reset your personal agent
+translation.boards.agent.failedToResetTheSharedAgent	Failed to reset the shared agent
+translation.boards.agent.askDevinAboutThisBoard	Ask Devin about this board
+translation.boards.agent.startingYourPersonalAgent	Starting your personal agent…
+translation.boards.agent.startingTheSharedAgent	Starting the shared agent…
+translation.boards.agent.summariesPrioritiesAndNextStepsFor	Summaries, priorities and next steps for {{board}}. {{detail}}
+translation.boards.agent.boardManagerAgent	Board Manager Agent
+translation.boards.agent.migrationAgent	Migration Agent
+translation.boards.agent.sharedTooltip	Shared agent: everyone on this board sees this session
+translation.boards.agent.sharedMigrationTooltip	Shared migration agent: everyone on this board sees this session
+translation.boards.agent.composerPlaceholder	Ask Devin about this board…
+translation.boards.agent.composerAriaLabel	Message Devin about this board
+translation.boards.agent.childComposerPlaceholder	Message Devin…
+translation.boards.agent.childComposerAriaLabel	Message Devin in this session
+translation.boards.agent.resetDescriptionPersonal	This detaches your personal agent from this board. The session stays in your session list, and your next message here starts a fresh personal agent.
+translation.boards.agent.resetDescriptionShared	This detaches the shared agent from this board for everyone. The session stays in its owner's session list, and the next message here starts a fresh shared agent.
+translation.boards.agent.backToBoardManager	Back to board manager agent
+translation.boards.agent.backToSession	Back to session
+translation.boards.agent.thisBoard	this board
+translation.boards.agent.firstMessagePersonal	Your first message starts a personal session for this board that only you see.
+translation.boards.agent.firstMessageShared	Your first message starts a shared session for this board that everyone sees.
+translation.boards.ui.newTicketIn	New ticket in {{label}}
+translation.boards.ui.showEmptyGroups	Show empty groups ({{hiddenCount}})
+translation.boards.ui.enterANumberOf0OrMore	Enter a number of 0 or more
+translation.boards.ui.startNewSessionWithTicket	Start new session with ticket
+translation.boards.ui.manageWhoSeesThisBoardInTheirSidebar	Manage who sees this board in their sidebar
+translation.boards.ui.nobodyHasThisBoardInTheirSidebarYet	Nobody has this board in their sidebar yet
+translation.boards.ui.priorityIsAnyOf	Priority is any of {{length}}
+translation.boards.ui.statusIsAnyOf	Status is any of {{length}}
+translation.boards.dialogs.fileUploadIsDisabled	File upload is disabled
+translation.boards.dialogs.failedToUpload	Failed to upload {{name}}
+translation.boards.dialogs.dropFilesToAttach	Drop files to attach
+translation.boards.dialogs.noMembersToAssign	No members to assign
+translation.boards.dialogs.newTicketIn	New ticket in {{boardName}}
+translation.boards.dialogs.clickToEditIdentifier	Click to edit identifier
+translation.boards.dialogs.allTicketsOnThisBoardWillBePermanently	All tickets on this board will be permanently deleted. This cannot be undone.
+translation.boards.dialogs.pleaseEnterAName	Name required
+translation.boards.dialogs.couldNotCreateTheBoardTryAgain	Could not create the board. Try again.
+translation.boards.dialogs.pleaseEnterADescription	Description required
+translation.boards.dialogs.whatThisBoardTracksAgentsReadThisTo	What this board tracks. Agents read this to place tickets.
+translation.boards.dialogs.typeNameToConfirm	Type \\
+translation.boards.ticketDetail.thisTicketCouldNotBeFound	This ticket could not be found.
+translation.boards.insights.noUsageInThisRange	No usage in this range
+translation.boards.insights.noEstimatesOrUsageYet	No estimates or usage yet
+translation.boards.insights.couldntLoadACUUsage	Couldn’t load ACU usage
+translation.boards.insights.daysAreBillingDaysGMT8TodaysBucket	Days are billing days (GMT-8). Today’s bucket is still accumulating.
+translation.boards.insights.pointsCreatedVsCompleted	Points created vs completed
+translation.boards.insights.noActivityInThisRange	No activity in this range
+translation.boards.insights.noTicketUsageInThisRange	No ticket usage in this range
+translation.boards.insights.showAllMore	Show all ({{hidden}} more)
+translation.boards.insights.chartTickets	Tickets
+translation.boards.insights.chartManager	Manager
+translation.boards.insights.chartUnattributed	Unattributed
+translation.boards.insights.chartCumulative	Cumulative
+translation.boards.insights.chartEstimate	Estimate
+translation.boards.insights.chartAcus	ACUs
+translation.boards.insights.chartCreated	Created
+translation.boards.insights.chartCompleted	Completed
+translation.boards.insights.chartScope	Scope
+translation.boards.insights.chartDeletedStatus	Deleted status
+translation.boards.insights.dateSoFar	{{date}} (so far)
+translation.boards.insights.weekOf	Week of {{date}}
+translation.boards.toasts.failedToSaveFolderState	Failed to save folder state
+translation.boards.toasts.undoConflict	Couldn't undo — ticket was changed since
+translation.boards.toasts.failedToCreateBoard	Failed to create board
+translation.boards.toasts.failedToUpdateBoard	Failed to update board
+translation.boards.toasts.failedToDeleteBoard	Failed to delete board
+translation.boards.toasts.failedToSubscribe	Failed to subscribe to board
+translation.boards.toasts.failedToUnsubscribe	Failed to unsubscribe from board
+translation.boards.toasts.failedToRemoveMember	Failed to remove member
+translation.boards.toasts.failedToUpdateMembers	Failed to update members
+translation.boards.toasts.failedToAddMembers	Failed to add members
+translation.boards.toasts.failedToShareWithEveryone	Failed to share board with everyone
+translation.boards.toasts.failedToAddStatus	Failed to add status
+translation.boards.toasts.failedToUpdateStatus	Failed to update status
+translation.boards.toasts.failedToDeleteStatus	Failed to delete status
+translation.boards.toasts.failedToReorderStatuses	Failed to reorder statuses
+translation.boards.toasts.failedToSetDefaultStatus	Failed to set default status
+translation.boards.toasts.failedToAddTagKey	Failed to add tag key
+translation.boards.toasts.failedToUpdateTagKey	Failed to update tag key
+translation.boards.toasts.failedToDeleteTagKey	Failed to delete tag key
+translation.boards.toasts.failedToReorderTagKeys	Failed to reorder tag keys
+translation.boards.toasts.failedToAddTag	Failed to add tag
+translation.boards.toasts.failedToUpdateTag	Failed to update tag
+translation.boards.toasts.failedToDeleteTag	Failed to delete tag
+translation.boards.toasts.failedToReorderTags	Failed to reorder tags
+translation.boards.toasts.failedToCreateTicket	Failed to create ticket
+translation.boards.toasts.failedToUpdateTicket	Failed to update ticket
+translation.boards.toasts.failedToDispatchDevin	Failed to dispatch Devin
+translation.boards.toasts.viewTicket	View ticket
+translation.boards.toasts.ticketCreated	Ticket created
+translation.boards.toasts.ticketUpdated	Ticket updated
+translation.boards.page.failedToLoadThisBoard	Failed to load this board.
+translation.boards.page.failedToLoadBoards	Failed to load boards.
+translation.boards.page.unsubscribeFrom	Unsubscribe from {{name}}
+translation.boards.page.subscribeTo	Subscribe to {{name}}
+translation.boards.page.configureHowThisBoardWorksForYourTeam	Configure how this board works for your team and the board agent.
+translation.boards.page.boardNameSettings	{{name}} settings
+translation.boards.page.boardSettings	Board settings
+translation.boards.filters.noAssignee	No assignee
+translation.boards.filters.removeDevinFilter	Remove Devin filter
+translation.boards.filters.filter	Filter
+translation.boards.filters.clearAll	Clear all filters
+translation.boards.filters.me	Me
+translation.boards.filters.memberCount_one	{{count}} member
+translation.boards.filters.memberCount_other	{{count}} members
+translation.boards.filters.assignedToMe	Assigned to me
+translation.boards.filters.claimedByDevin	Claimed by Devin
+translation.boards.filters.notClaimed	Not claimed
+translation.boards.filters.assigneeIsAnyOf	Assignee is any of {{count}}
+translation.boards.filters.assigneeIsNone	Assignee is none
+translation.boards.filters.assigneeIs	Assignee is {{name}}
+translation.boards.filters.assigneeIsOneMember	Assignee is 1 member
+translation.boards.filters.oneStatus	1 status
+translation.boards.filters.any	Any
+translation.boards.filters.selectionOnly	{{label}} only
+translation.boards.filters.selectionOr	{{first}} or {{second}}
+translation.boards.filters.selectionCount_one	{{count}} selected
+translation.boards.filters.selectionCount_other	{{count}} selected
+translation.boards.ticket.acuValue	{{acus}} ACU
+translation.boards.activity.hideChanges	Hide changes
+translation.boards.activity.showChanges	Show changes
+translation.boards.activity.title	Activity
+translation.boards.activity.empty	Empty
+translation.boards.activity.reassigned	reassigned the ticket from <from>{{from}}</from> to <to>{{to}}</to>
+translation.boards.activity.selfAssigned	self-assigned the ticket
+translation.boards.activity.assigned	assigned the ticket to <to>{{to}}</to>
+translation.boards.activity.selfUnassigned	unassigned the ticket
+translation.boards.activity.unassigned	unassigned <from>{{from}}</from> from the ticket
+translation.boards.activity.tagsAddedAndRemoved	added <added></added> and removed <removed></removed>
+translation.boards.activity.tagsAdded	added <tags></tags>
+translation.boards.activity.tagsRemoved	removed <tags></tags>
+translation.boards.activity.previously	Previously “{{title}}”
+translation.boards.activity.previouslyUntitled	Previously untitled
+translation.boards.activity.createdFinding	created the finding
+translation.boards.activity.createdTicket	created the ticket
+translation.boards.activity.claimed	claimed the ticket
+translation.boards.activity.startedSessionLink	started a <session>Devin session</session>
+translation.boards.activity.startedSession	started a Devin session
+translation.boards.activity.released	released the ticket
+translation.boards.activity.removedDevin	removed <session>Devin</session> from the ticket
+translation.boards.activity.changedStatus	changed status from <from></from> to <to></to>
+translation.boards.activity.setSeverity	set severity to <to></to>
+translation.boards.activity.setPriority	set priority to <to></to>
+translation.boards.activity.changedSeverity	changed severity from <from></from> to <to></to>
+translation.boards.activity.changedPriority	changed priority from <from></from> to <to></to>
+translation.boards.activity.changedTitle	changed the title
+translation.boards.activity.changedTitleTo	changed the title to <title></title>
+translation.boards.activity.editedDescription	edited the description
+translation.boards.activity.changedSeverityReason	changed the reason for the finding's severity
+translation.boards.activity.changedPriorityReason	changed the reason for the ticket's priority
+translation.boards.activity.changedDismissalNote	changed the dismissal note
+translation.boards.activity.addedDismissalNote	added a dismissal note
+translation.boards.activity.removedDismissalNote	removed the dismissal note
+translation.boards.activity.editedCustomFields	edited custom fields
+translation.boards.activity.linkedPlanStep	linked the ticket to plan step <step>{{step}}</step>
+translation.boards.activity.unlinkedPlanStep	unlinked the ticket from plan step <step>{{step}}</step>
+translation.boards.activity.unlinkedPlanStepGeneric	unlinked the ticket from its plan step
+translation.boards.activity.couldntLoad	Couldn’t load activity.
+translation.boards.activity.retry	Retry
+translation.boards.activity.noActivityYet	No activity yet.
+translation.boards.undo.priorityCleared	Priority cleared
+translation.boards.undo.priorityChangedTo	Priority changed to {{priority}}
+translation.boards.undo.movedTo	Moved to {{status}}
+translation.boards.undo.ticketMoved	Ticket moved
+translation.boards.undo.ticketMovedBack	ticket moved back
+translation.boards.undo.statusChangedTo	Status changed to {{status}}
+translation.boards.undo.statusChangedBackTo	status changed back to {{status}}
+translation.boards.undo.priorityClearedLower	priority cleared
+translation.boards.undo.priorityChangedBackTo	priority changed back to {{priority}}
+translation.boards.undo.assignedTo	Assigned to {{name}}
+translation.boards.undo.assignedBackTo	assigned back to {{name}}
+translation.boards.undo.unassignedLower	unassigned
+translation.boards.undo.titleAndDescriptionUpdated	Title and description updated
+translation.boards.undo.titleUpdated	Title updated
+translation.boards.undo.titleAndDescriptionRestored	title and description restored
+translation.boards.undo.titleRestored	title restored
+translation.boards.undo.descriptionUpdated	Description updated
+translation.boards.undo.descriptionRestored	description restored
+translation.boards.unknownStatus	Unknown
+translation.boards.title	Boards
+translation.boards.newTicket	New ticket
+translation.boards.sharing.notShared	Not shared
+translation.boards.sharing.onlyYou	Only you
+translation.boards.sharing.sharedWithCount_one	Shared with {{count}} person
+translation.boards.sharing.sharedWithCount_other	Shared with {{count}} people
+translation.boards.sharing.visibilityPrivate	Only accessible to people you add.
+translation.boards.sharing.visibilityOrg	Accessible to everyone in the org.
+translation.boards.identifier.tooShort_one	Identifier must be at least {{count}} character

@@ -1,0 +1,500 @@
+translation.consumption.dashboard.products.wiki	Wiki
+translation.consumption.dashboard.products.total	Total
+translation.consumption.dashboard.products.terminal	Terminal
+translation.consumption.dashboard.products.bots	{{botNamePlural}}
+translation.consumption.dashboard.cycleOption.current	Current
+translation.consumption.dashboard.cycleOption.previous	Previous
+translation.consumption.dashboard.cycleOption.prior	Prior
+translation.consumption.dashboard.cycleOption.both	Current and previous
+translation.consumption.dashboard.exporting	Exporting...
+translation.consumption.dashboard.allDatesPst	All dates are in PST
+translation.consumption.dashboard.noUsageInRange	No usage data in the selected date range.
+translation.consumption.dashboard.selectCycle	Select cycle
+translation.consumption.dashboard.daily	Daily
+translation.consumption.dashboard.weekly	Weekly
+translation.consumption.dashboard.monthly	Monthly
+translation.consumption.dashboard.groupBy	Group by
+translation.consumption.dashboard.cycleCurrentWithLabel	Current ({{label}})
+translation.consumption.dashboard.cyclePreviousWithLabel	Previous ({{label}})
+translation.consumption.dashboard.csvColumn.organization	Organization
+translation.consumption.dashboard.csvColumn.config	Config
+translation.consumption.dashboard.csvColumn.status	Status
+translation.consumption.dashboard.csvColumn.sessions	Sessions
+translation.consumption.dashboard.csvColumn.lastRun	Last run
+translation.consumption.dashboard.csvColumn.repository	Repository
+translation.consumption.dashboard.csvColumn.reviews	Reviews
+translation.consumption.dashboard.csvColumn.automation	Automation
+translation.consumption.dashboard.csvColumn.deleted	Deleted
+translation.consumption.dashboard.csvColumn.enabled	Enabled
+translation.consumption.dashboard.csvColumn.disabled	Disabled
+translation.consumption.dashboard.csvColumn.oncallResource	Oncall resource
+translation.consumption.dashboard.csvColumn.host	Host
+translation.consumption.dashboard.csvColumn.scans	Scans
+translation.consumption.dashboard.csvColumn.lastScan	Last scan
+translation.consumption.dashboard.csvColumn.email	Email
+translation.consumption.dashboard.csvColumn.name	Name
+translation.consumption.dashboard.valueModeTooltip	Display chart values as counts or percentages
+translation.consumption.dashboard.counts	Counts
+translation.consumption.dashboard.percentages	Percentages
+translation.consumption.dashboard.tooltipNouns.reviewAcus	review ACUs
+translation.consumption.dashboard.tooltipNouns.prReviews	PR reviews
+translation.consumption.dashboard.tooltipNouns.bugsCaught	bugs caught
+translation.consumption.dashboard.bugsCaught	Bugs caught
+translation.consumption.dashboard.statusFilter.all	Active & deleted organizations
+translation.consumption.dashboard.statusFilter.active	Active only
+translation.consumption.dashboard.statusFilter.deleted	Deleted only
+translation.consumption.dashboard.otherCount	Other ({{repoCount}})
+translation.consumption.dashboard.myAnalytics	My analytics
+translation.consumption.dashboard.consumption	Consumption
+translation.consumption.dashboard.personalNotAvailable	Personal consumption data is not yet available for your account.
+translation.consumption.dashboard.noCycleData	No billing cycle data found
+translation.consumption.dashboard.monthlyTooltipLocal	Usage counted against your ACU limit in the current monthly window, which covers {{cascadeLabel}} and Terminal CLI usage only, excluding cloud Devin sessions. This window resets monthly regardless of billing cycle length.
+translation.consumption.dashboard.monthlyTooltipAll	Usage counted against your ACU limit in the current monthly window, which covers all products including cloud Devin sessions. This window resets monthly regardless of billing cycle length.
+translation.consumption.dashboard.selectedDateRange	Selected date range
+translation.consumption.dashboard.unitConsumed	{{noun}} consumed
+translation.consumption.dashboard.dailyAverage	Daily average
+translation.consumption.dashboard.peakDay	Peak day
+translation.consumption.dashboard.unitConsumedOverRange	{{noun}} consumed over selected range
+translation.consumption.dashboard.byCycle	By cycle
+translation.consumption.dashboard.cumulativeOverRange	Cumulative {{noun}} over selected range
+translation.consumption.dashboard.cumulative	Cumulative {{noun}}
+translation.consumption.dashboard.currentDay	Current day
+translation.consumption.dashboard.monthlyLocalLimitUsage	Monthly local ACU limit usage
+translation.consumption.dashboard.monthlyLimitUsage	Monthly ACU limit usage
+translation.consumption.dashboard.over	{{amount}} over
+translation.consumption.dashboard.left	{{amount}} left
+translation.consumption.dashboard.monthlyThreshold	Monthly threshold
+translation.consumption.dashboard.editMonthlyThreshold	Edit monthly threshold
+translation.consumption.dashboard.dailyConsumption	Daily consumption
+translation.consumption.dashboard.currentPeriod	Current period
+translation.consumption.dashboard.currentMonthUnitConsumed	Current month {{noun}} consumed
+translation.consumption.dashboard.cumulativeVsLimit	Cumulative ACUs vs monthly limit
+translation.consumption.dashboard.cumulativeVsThreshold	Cumulative {{noun}} vs monthly threshold
+translation.consumption.dashboard.noMonthlyPacing	No monthly pacing data available.
+translation.consumption.dashboard.unitUsed	{{noun}} used
+translation.consumption.dashboard.projectedRestOfMonth	Projected rest-of-month consumption
+translation.consumption.dashboard.noUsageForCycle	No usage data available for selected cycle(s).
+translation.consumption.dashboard.cumulativeCapacityUsed	Cumulative % of allocated capacity used
+translation.consumption.dashboard.noCapacityForCycle	No allocated capacity data available for selected cycle(s).
+translation.consumption.dashboard.unitByProduct	{{noun}} by product
+translation.consumption.dashboard.noProductBreakdown	No product breakdown data available.
+translation.consumption.dashboard.consumptionByCycle	Consumption by cycle
+translation.consumption.dashboard.consumptionByCycleTooltip	Historical consumption across all billing cycles
+translation.consumption.dashboard.projectedRestOfCycle	Projected rest-of-cycle consumption
+translation.consumption.dashboard.projectedRestOfCycleTooltip	Linear extrapolation of consumption rate thus far in the cycle
+translation.consumption.dashboard.allocatedCapacity	Allocated capacity
+translation.consumption.dashboard.noHistoricalCycles	No historical cycle data available.
+translation.consumption.dashboard.totalAcuLimit	Total ACU limit
+translation.consumption.dashboard.totalAcuLimitTooltip	Sum of ACU limits for organizations with limits set
+translation.consumption.dashboard.totalAcusConsumed	Total ACUs consumed
+translation.consumption.dashboard.overallUsage	Overall usage
+translation.consumption.dashboard.searchUser	Search for a user
+translation.consumption.dashboard.topUsersTooltip	Top 10 users by {{noun}} this cycle, with last cycle shown for comparison. Remaining users are grouped into Other.
+translation.consumption.dashboard.topServiceUsersTooltip	Top 10 service users by {{noun}} this cycle, with last cycle shown for comparison. Remaining service users are grouped into Other.
+translation.consumption.dashboard.tabOverall	Overall
+translation.consumption.dashboard.selectMetric	Select metric
+translation.consumption.dashboard.automationAcus	Automation ACUs
+translation.consumption.dashboard.noAutomationUsage	No automation usage data available.
+translation.consumption.dashboard.oncallAcus	Oncall ACUs
+translation.consumption.dashboard.noOncallUsage	No oncall usage data available.
+translation.consumption.dashboard.dailyConsumptionTitle	Daily consumption
+translation.consumption.dashboard.monthlyConsumptionTitle	Monthly consumption
+translation.consumption.dashboard.daysLeft_one	{{count}} day left
+translation.consumption.dashboard.daysLeft_other	{{count}} days left
+translation.consumption.dashboard.topUsersBy	Top users by {{noun}}
+translation.consumption.dashboard.topServiceUsersBy	Top service users by {{noun}}
+translation.consumption.dashboard.topReposBy	Top repositories by {{metric}}
+translation.consumption.dashboard.orgFiguresWithReview	Per-org figures include Devin session, {{cascadeLabel}}, Terminal CLI, and Review {{noun}} attributed to the org.
+translation.consumption.dashboard.orgFiguresNoReview	Per-org figures include Devin session, {{cascadeLabel}}, and Terminal CLI {{noun}} attributed to the org. Review usage has no per-org attribution and is excluded.
+translation.consumption.dashboard.acusUnit	ACUs
+translation.createTeam.cancel	Cancel
+translation.createTeam.create	Create
+translation.createTeam.creating	Creating...
+translation.createTeam.description	Each account manages its own projects and billing
+translation.createTeam.error	Failed to create account
+translation.createTeam.nameLabel	Name
+translation.createTeam.nameRequired	Name required
+translation.createTeam.title	New account
+translation.creditsExhausted.contactAccountTeam	Contact your account team to renew.
+translation.creditsExhausted.contractExpired	Your Devin contract has ended
+translation.creditsExhausted.increaseLimit	Increase usage limit
+translation.creditsExhausted.increaseOrgLimit	Increase enterprise organization usage limit
+translation.creditsExhausted.increaseUserLimit	Increase your per-user usage limit
+translation.creditsExhausted.individualPlan	Your account is on an individual plan
+translation.creditsExhausted.lastPaymentFailed	Your last payment failed
+translation.creditsExhausted.subscribeToUse	Subscribe to use Devin
+translation.desktop.desktopTabTitle	Desktop
+translation.desktop.didNotOpen	Devin Desktop didn't open?
+translation.desktop.download	Download Devin Desktop
+translation.desktop.invalidLink	This link is invalid.
+translation.desktop.logIn	Log in to Devin Desktop
+translation.desktop.logInToChannel	Log in to {{channel}}
+translation.desktop.moreOptions	More Devin Desktop options
+translation.desktop.open	Open Devin Desktop
+translation.desktop.openHereInstead	Open here instead
+translation.desktop.opened	Session opened in Devin Desktop
+translation.desktop.openedPage	Opened in Devin Desktop
+translation.desktop.opening	Opening Devin Desktop…
+translation.desktop.returned	Returning to Devin Desktop
+translation.desktop.title	Devin Desktop
+translation.devinActivityStatus.catchingUp	Catching up
+translation.devinActivityStatus.actionRequired	Action required: {{action}}
+translation.devinActivityStatus.awaitingInstructions	Devin is awaiting instructions
+translation.devinActivityStatus.botBudgetSleep	Devin went to sleep because this {{botName}}'s usage limit was exceeded.
+translation.devinActivityStatus.botBudgetSleep_named	Devin went to sleep because {{botName}}'s usage limit was exceeded.
+translation.devinActivityStatus.botBudgetSleepRaised	Devin went to sleep because this {{botName}}'s usage limit was exceeded. The limit has since been raised.
+translation.devinActivityStatus.botBudgetSleepWithButton	Devin went to sleep because this {{botName}}'s usage limit was exceeded. <budgetButton></budgetButton> to continue.
+translation.devinActivityStatus.crashed	Devin crashed. Send a message to attempt recovery
+translation.devinActivityStatus.creatorAcuLimitSleep	Devin went to sleep because the session owner exceeded their per-user usage limit.
+translation.devinActivityStatus.creatorAcuLimitSleep_named	Devin went to sleep because {{name}} exceeded their per-user usage limit.
+translation.devinActivityStatus.goingToSleep	Going to sleep…
+translation.devinActivityStatus.increaseAcuLimit	Increase the usage limit
+translation.devinActivityStatus.increaseBotLimits	Increase limits
+translation.devinActivityStatus.increaseCreatorAcuLimit	Increase their limit in Usage Policies
+translation.devinActivityStatus.queued	High server load. Devin is waiting for capacity...
+translation.devinActivityStatus.queuedStatus	{{status}}...
+translation.devinActivityStatus.raiseOrRemoveLimit	raise or remove the limit
+translation.devinActivityStatus.recapDismiss	Dismiss
+translation.devinActivityStatus.recapDismissLabel	Dismiss recap
+translation.devinActivityStatus.recapOpenInSideChat	Open recap in side chat
+translation.devinActivityStatus.recapStatusAwaitingUser	Awaiting next steps
+translation.devinActivityStatus.recapStatusBlocked	Blocked
+translation.devinActivityStatus.recapStatusDone	Done
+translation.devinActivityStatus.recapStatusInProgress	In progress
+translation.devinActivityStatus.recapTimeline	Timeline
+translation.devinActivityStatus.recapTitle	Session summary
+translation.devinActivityStatus.reconnecting	Reconnecting…
+translation.devinActivityStatus.reconnectingTooltip	Connection with the server was lost, attempting to reconnect automatically. You may try refreshing the page for updated results.
+translation.devinActivityStatus.sendMessageToResume	Send a message to resume
+translation.devinActivityStatus.settingUp	Setting up…
+translation.devinActivityStatus.workingInBackground	Devin is working in the background
+translation.devinActivityStatus.waitingOnSubagent	Waiting on a subagent
+translation.devinActivityStatus.sleepContractExpired	Devin went to sleep because your organization's Devin contract has ended. Contact your account team to renew.
+translation.devinActivityStatus.sleepNetPolicyUpdate	Devin went to sleep to apply the updated network config.
+translation.devinActivityStatus.sleepNoQuotaAllocation	Devin went to sleep because your account is on an individual plan but you are not the organization owner
+translation.devinActivityStatus.sleepOrgAcuLimit	Devin went to sleep because your organization's usage limit was exceeded. An enterprise admin must increase the usage limit for your organization to continue.
+translation.devinActivityStatus.sleepOrgAcuLimitWithLink	Devin went to sleep because your organization's usage limit was exceeded. <settingsLink></settingsLink> for your organization to continue.
+translation.devinActivityStatus.sleepOrgLimitRaised	Devin went to sleep because your organization's usage limit was exceeded. The limit has since been raised.
+translation.devinActivityStatus.sleepOutOfQuota	Devin went to sleep because {{description}}
+translation.devinActivityStatus.sleepPaymentDeclined	Devin went to sleep because your organization's last payment failed, please update your payment details
+translation.devinActivityStatus.sleepTotalSessionLimit	Devin went to sleep because this session exceeded the total session usage limit. Acknowledge the limit to continue or start a new session.
+translation.devinActivityStatus.sleepUsageLimit	Devin hit your per-message usage limit, so it automatically paused to prevent runaway spend. Want it to keep going? Send a message, or <limitAction></limitAction>.
+translation.devinActivityStatus.sleepUserLimitRaised	Devin went to sleep because your per-user usage limit was exceeded. The limit has since been raised.
+translation.devinActivityStatus.typing	Devin is typing…
+translation.devinActivityStatus.upgrade	Upgrade
+translation.devinActivityStatus.userAcuLimitSleepBare	Devin went to sleep because your per-user usage limit was exceeded.
+translation.devinActivityStatus.userAcuLimitSleepGuidance	Devin went to sleep because your per-user usage limit was exceeded. {{guidance}}.
+translation.devinActivityStatus.userAcuLimitSleepWithAction	Devin went to sleep because your per-user usage limit was exceeded. <requestAction></requestAction> to continue.
+translation.devinActivityStatus.waitingForApproval	Waiting for approval
+translation.devinActivityStatus.waitingForCiOnPr	Waiting for CI checks on <pr>PR #{{number}}</pr>
+translation.devinActivityStatus.waitingForWakeUp	Waiting for Devin to wake up…
+translation.devinActivityStatus.waitingOnSessions_one	Waiting on {{count}} Devin session…
+translation.devinActivityStatus.waitingOnSessions_other	Waiting on {{count}} Devin sessions…
+translation.devinActivityStatus.wakeDevinUp	Wake Devin up
+translation.devinActivityStatus.wakeDevinUpPrompt	Wake Devin up?
+translation.devinActivityStatus.wentToSleep	Devin went to sleep
+translation.devinModeHeader.code	Code
+translation.devinModeHeader.unavailableWithFusion	Not available with Fusion
+translation.devinModeHeader.agent	Agent
+translation.devinModeHeader.ask	Ask
+translation.devinModeHeader.switchMode	Switch mode
+translation.devinModeHeader.modePickerMovedTitle	Agent and Ask are here now
+translation.devinModeHeader.modePickerMovedSubtitle	Switch modes from this menu
+translation.devinModeHeader.migrations	Migrations
+translation.devinsWorkspace.tooltipRepositoryPath	The root directory where the repository code is located. This is used as the base path for all commands.
+translation.devinsWorkspace.tooltipDefaultBranch	The main branch of the repository (e.g., 'main' or 'master'). Devin will default to working off this branch.
+translation.devinsWorkspace.tooltipPullRepo	Runs automatically at the start of each session to sync the repository with the remote and ensure you're on the correct branch.
+translation.devinsWorkspace.tooltipUpdateDependencies	Runs automatically at the start of each session to update and install project dependencies.
+translation.devinsWorkspace.tooltipRunLintCheck	Commands to check code style and formatting without making changes. Devin will be told to run this command to verify its work.
+translation.devinsWorkspace.tooltipRunLintFix	Commands to automatically fix code style and formatting issues. Devin will be told to run this command to verify its work.
+translation.devinsWorkspace.tooltipRunTests	Commands to run the project's test suite. Devin will be told to run this command to verify its work.
+translation.devinsWorkspace.tooltipRunProject	Commands to build and run the project locally. Devin will be provided the description and commands in order to verify its work.
+translation.devinsWorkspace.statusUpdated	Status updated to {{status}}
+translation.devinsWorkspace.failedToUpdateStatus	Failed to update status
+translation.devinsWorkspace.savingChangesWithConflicts	Saving changes with conflicts
+translation.devinsWorkspace.commandsUpdated	Commands updated
+translation.devinsWorkspace.failedToUpdateCommands	Failed to update commands
+translation.devinsWorkspace.updatedToLatestValues	Updated to latest values
+translation.devinsWorkspace.titlePullRepo	Pulling the Repo
+translation.devinsWorkspace.titleUpdateDependencies	Updating dependencies
+translation.devinsWorkspace.titleRunLintCheck	Running lint check
+translation.devinsWorkspace.titleRunLintFix	Lint auto-fixing
+translation.devinsWorkspace.titleRunTests	Running tests
+translation.devinsWorkspace.titleRunProject	Running project
+translation.devinsWorkspace.titleInitializeTemplate	Initialize template
+translation.devinsWorkspace.titleMaintenance	Maintenance
+translation.devinsWorkspace.add	Add
+translation.devinsWorkspace.addMonorepoSubproject	Add Monorepo Subproject
+translation.devinsWorkspace.addSubproject	Add subproject
+translation.devinsWorkspace.addSubprojectButton	Add subproject
+translation.devinsWorkspace.addSubprojectDescription	A subproject is a directory that requires its own setup steps
+translation.devinsWorkspace.cancel	Cancel
+translation.devinsWorkspace.commandDescriptionPlaceholder	Add a description for these commands…
+translation.devinsWorkspace.defaultBranch	Default branch
+translation.devinsWorkspace.delete	Delete
+translation.devinsWorkspace.deleteProjectConfirm	Are you sure you want to delete this project? This will remove all associated commands and configurations.
+translation.devinsWorkspace.deleteSubproject	Delete Subproject
+translation.devinsWorkspace.deleteSubprojectConfirm	Are you sure you want to delete the subproject "{{projectPath}}"? This will remove all associated commands and configurations.
+translation.devinsWorkspace.edit	Edit
+translation.devinsWorkspace.mainProject	Main project
+translation.devinsWorkspace.noClonedPathSet	No cloned path set
+translation.devinsWorkspace.noDefaultBranchSet	No default branch set (will use remote's default)
+translation.devinsWorkspace.noDescription	No description
+translation.devinsWorkspace.projectCommands	Project Commands
+translation.devinsWorkspace.projectCommandsDescription	Devin uses project commands to make sure projects can run and pass lint, tests, etc. after making changes to the repo.
+translation.devinsWorkspace.repositoryConfiguration	Repository Configuration
+translation.devinsWorkspace.repositoryConfigurationDescription	Basic information about where the repo is cloned
+translation.devinsWorkspace.repositoryMaintenance	Repository Maintenance
+translation.devinsWorkspace.repositoryMaintenanceDescription	Commands that keep Devin's workspace up to date and in a good Git state (on the right branch, etc.) when working on a new ticket
+translation.devinsWorkspace.repositoryPath	Repository path
+translation.devinsWorkspace.resetToLatest	Reset to Latest
+translation.devinsWorkspace.markVerified	Mark verified
+translation.devinsWorkspace.save	Save
+translation.devinsWorkspace.sectionChangedByDevin	This section has been changed by Devin since you started editing
+translation.devinsWorkspace.skip	Skip
+translation.devinsWorkspace.skipCommandsDescription	Are you sure you want to skip these commands? This will remove all commands for this section.
+translation.devinsWorkspace.skipCommandsTitle	Skip commands
+translation.devinsWorkspace.subprojectPath	Subproject path
+translation.devinsWorkspace.subprojectPathDescription	Relative to the repository root
+translation.devinsWorkspace.subprojectPathPlaceholder	./packages/frontend
+translation.devinsWorkspace.yesSkip	Yes, Skip
+translation.devinsWorkspace.setupRejected	Modifications to repository setup {{type}} rejected
+translation.devinsWorkspace.setupRejectedForProject	Modifications to repository setup {{type}} for {{projectPath}} rejected
+translation.devinsWorkspace.setupRejectedWithReason	{{message}}: {{reason}}
+translation.devinsWorkspace.waitPendingChanges	Please wait for pending changes to be processed
+translation.devinsWorkspace.failedToEdit	Failed to edit
+translation.display.byStatus	By status
+translation.display.created	Created
+translation.display.direction	Direction
+translation.display.display	Display
+translation.display.displayProperties	Display properties
+translation.display.exportToCsv	Export to CSV
+translation.display.flatList	Flat list
+translation.display.grouping	Grouping
+translation.display.newestFirst	Newest first
+translation.display.noGrouping	No grouping
+translation.display.oldestFirst	Oldest first
+translation.display.playbook	Playbook
+translation.display.prs	PRs
+translation.display.sortBy	Sort by
+translation.display.tags	Tags
+translation.display.treeView	Tree view
+translation.display.updated	Updated
+translation.display.user	User
+translation.display.view	View
+translation.enterprise.orgName.empty	Organization name cannot be empty or contain only spaces
+translation.enterprise.orgName.tooShort	Organization name must be at least 2 characters long
+translation.enterprise.orgName.tooLong	Organization name must be at most 40 characters
+translation.enterprise.orgName.invalidChars	Organization name can only contain letters, numbers, spaces, hyphens, and underscores
+translation.enterprise.orgName.taken	An organization with this name already exists
+translation.enterprise.learnWithUniversity	Learn with Devin University
+translation.enterprise.noAccessTitle	Ask your enterprise admin for Devin access
+translation.enterprise.noAccessUniversityDescription	Get certified on Devin University as you get onboard
+translation.enterprise.unifiedNoSessionPermission	Your account doesn't have permission to start Devin sessions yet. Ask your enterprise admin to add it to your role.
+translation.enterprise.orSetUpDevinDesktop	Or, <desktopLink>set up Devin Desktop</desktopLink>
+translation.enterprise.selectDatePreset	Select date preset
+translation.enterprise.welcome	Welcome
+translation.enterprise.chooseOrganization	Choose an organization to continue
+translation.enterprise.searchOrganizationPlaceholder	Search for an organization
+translation.enterprise.mcpTable.mcpName	MCP Name
+translation.enterprise.mcpTable.orgsEnabled	Organizations enabled
+translation.enterprise.mcpTable.users	Users
+translation.enterprise.mcpTable.sessions	Sessions
+translation.enterprise.mcpTable.columnUsers	Users
+translation.enterprise.mcpTable.noOrganizationsFound	No organizations found
+translation.enterprise.mcpSessionTable.session	Session
+translation.enterprise.mcpSessionTable.user	User
+translation.enterprise.mcpSessionTable.noSessions	No sessions found
+translation.enterprise.mcpSessionTable.viewSession	View session
+translation.enterprise.billingOrgs.updatingToast	Updating billing organization...
+translation.enterprise.billingOrgs.updatedToast	Updated billing organization
+translation.enterprise.billingOrgs.updateFailedToast	Failed to update billing organization
+translation.enterprise.billingOrgs.loadingOrgs	Loading organizations…
+translation.enterprise.billingOrgs.selectOrg	Select an organization
+translation.enterprise.billingOrgs.updatingSrOnly	Updating billing organization
+translation.enterprise.mcpTargetPicker.unknownOrgId	{{token}} — unknown org ID
+translation.enterprise.mcpTargetPicker.alreadyExcluded	{{token}} — already excluded
+translation.enterprise.mcpTargetPicker.alreadySelected	{{token}} — already selected
+translation.enterprise.mcpTargetPicker.selectedCount_one	{{count}} selected
+translation.enterprise.mcpTargetPicker.selectedCount_other	{{count}} selected
+translation.enterprise.mcpTargetPicker.included	included
+translation.enterprise.mcpTargetPicker.includedCount_one	{{count}} included
+translation.enterprise.mcpTargetPicker.includedCount_other	{{count}} included
+translation.enterprise.mcpTargetPicker.selected	selected
+translation.enterprise.mcpTargetPicker.excludedCount_one	{{count}} excluded
+translation.enterprise.mcpTargetPicker.excludedCount_other	{{count}} excluded
+translation.enterprise.mcpTargetPicker.includedWithExcluded	{{included}} · {{excluded}}
+translation.enterprise.mcpTargetPicker.excludeAllMatching	Exclude all matching organizations
+translation.enterprise.mcpTargetPicker.deselectAllMatching	Deselect all matching organizations
+translation.enterprise.mcpTargetPicker.includeAllMatching	Include all matching organizations
+translation.enterprise.mcpTargetPicker.selectAllMatching	Select all matching organizations
+translation.enterprise.mcpTargetPicker.searchOrg	Search organization
+translation.enterprise.mcpTargetPicker.toggleAria	{{summary}} — {{action}}
+translation.enterprise.mcpTargetPicker.showAll	show all organizations
+translation.enterprise.mcpTargetPicker.showOnly	show only {{kind}} organizations
+translation.enterprise.mcpTargetPicker.showingAnnounce_one	Showing {{count}} {{kind}} organization
+translation.enterprise.mcpTargetPicker.showingAnnounce_other	Showing {{count}} {{kind}} organizations
+translation.enterprise.mcpTargetPicker.noOrgsInEnterprise	No organizations in this enterprise.
+translation.enterprise.mcpTargetPicker.noIncludedOrgs	No included organizations.
+translation.enterprise.mcpTargetPicker.noIncludedOrgsMatch	No included organizations match.
+translation.enterprise.mcpTargetPicker.noSelectedOrgs	No selected organizations.
+translation.enterprise.mcpTargetPicker.noSelectedOrgsMatch	No selected organizations match.
+translation.enterprise.mcpTargetPicker.noOrgsFound	No organizations found.
+translation.enterprise.mcpTargetPicker.otherInstallations_one	+{{count}} other installation
+translation.enterprise.mcpTargetPicker.otherInstallations_other	+{{count}} other installations
+translation.enterprise.mcpTargetPicker.pasteIdsExclude	Paste org IDs to exclude
+translation.enterprise.mcpTargetPicker.pasteIds	Paste org IDs
+translation.enterprise.mcpTargetPicker.excludeAll	Exclude all
+translation.enterprise.mcpTargetPicker.clearAll	Clear all
+translation.enterprise.mcpTargetPicker.onePerLine	One org ID per line, or comma-separated
+translation.enterprise.mcpTargetPicker.excludeIds	Exclude IDs
+translation.enterprise.mcpTargetPicker.addIds	Add IDs
+translation.enterprise.mcpTargetPicker.rejectExcludedHint	Unknown or already excluded IDs are rejected with a per-line error.
+translation.enterprise.mcpTargetPicker.rejectDuplicateHint	Unknown or duplicate IDs are rejected with a per-line error.
+translation.enterprise.subcategories.createLoading	Creating subcategory...
+translation.enterprise.subcategories.createSuccess	Subcategory created successfully
+translation.enterprise.subcategories.createError	Failed to create subcategory
+translation.enterprise.subcategories.updateLoading	Saving subcategory changes...
+translation.enterprise.subcategories.updateSuccess	Subcategory changes saved successfully
+translation.enterprise.subcategories.updateError	Failed to save subcategory changes
+translation.enterprise.subcategories.deleteLoading	Deleting subcategory...
+translation.enterprise.subcategories.deleteSuccess	Subcategory deleted successfully
+translation.enterprise.subcategories.deleteError	Failed to delete subcategory
+translation.enterprise.subcategories.suggestError	Failed to generate suggestions. Please try again.
+translation.enterprise.subcategories.others	Others
+translation.enterprise.orgSelector.deletedOrgLabel	Deleted organization
+translation.enterprise.orgSelector.primaryOrgLabel	{{name}} (Entire Enterprise)
+translation.enterprise.orgSelector.primaryOrgWarning	Warning: All users in the enterprise have DeepWiki and Search access to repositories here
+translation.enterprise.removeUsers.noneSelected	No users selected
+translation.enterprise.removeUsers.cannotRemoveSelf	You cannot remove yourself from the enterprise
+translation.enterprise.removeUsers.button	Remove members
+translation.enterprise.removeUsers.title	Remove members from enterprise?
+translation.enterprise.removeUsers.description	Permanently remove selected users from the enterprise and all its organizations
+translation.enterprise.removeUsers.confirm	Remove
+translation.enterprise.removeGroups.noneSelected	No Groups selected
+translation.enterprise.removeGroups.button	Remove groups
+translation.enterprise.removeGroups.title	Remove groups from enterprise?
+translation.enterprise.removeGroups.description	This will permanently remove selected groups from the enterprise and all its organizations. This action cannot be undone.
+translation.enterprise.removeGroups.confirm	Remove
+translation.enterprise.patInventory.revoked	Revoked \\
+translation.enterprise.approvalQueue.requestedExpiration	Requested expiration
+translation.enterprise.approvalQueue.approved	Approved \\
+translation.enterprise.categories.clickEdit	Click to edit
+translation.enterprise.categories.uncategorizedShare	~{{share}}% of uncategorized sessions
+translation.enterprise.categories.clickReview	Click to review
+translation.enterprise.categories.reviewSuggestion	Review suggestion
+translation.enterprise.categories.newOnlyNew	New subcategories only apply to new sessions. Existing sessions are not backfilled
+translation.enterprise.categories.usedInPrompts	Used in LLM prompts
+translation.enterprise.categories.accepting	Accepting...
+translation.enterprise.categories.addSubcategoryTitle	Add “{{parent}}” subcategory
+translation.enterprise.categories.namePlaceholder	e.g. Spark Migration
+translation.enterprise.categories.descPlaceholder	e.g. Migrating Spark pipelines and related infrastructure
+translation.enterprise.categories.deleteTitle	Delete “{{name}}”
+translation.enterprise.categories.deleteConfirm	Are you sure you want to delete this subcategory?
+translation.enterprise.categories.checkingAffected	Checking affected sessions…
+translation.enterprise.categories.affected_one	<strong>{{count}}</strong> session is currently classified under this subcategory. It will retain its classification for analytics purposes.
+translation.enterprise.categories.affected_other	<strong>{{count}}</strong> sessions are currently classified under this subcategory. They will retain their classification for analytics purposes.
+translation.enterprise.categories.editTitle	Edit “{{name}}”
+translation.enterprise.categories.changesOnlyNew	Changes only apply to new sessions. Existing sessions are not reclassified
+translation.enterprise.categories.maxReached	Maximum of {{max}} subcategories reached
+translation.enterprise.categories.needsSessions	Needs at least 10 uncategorized sessions to generate suggestions
+translation.enterprise.categories.suggesting	Suggesting...
+translation.enterprise.categories.addSubcategory	Add subcategory
+translation.enterprise.categories.descAnalytics	View analytics for how sessions are classified across categories.
+translation.enterprise.categories.descConfig	Sessions are first classified by category, then by subcategory. Define custom subcategories to classify sessions more granularly. An “Other” subcategory is included automatically.
+translation.enterprise.categories.exportDisabled	Select a specific date range to export. The “All time” preset is not supported for export.
+translation.enterprise.categories.exportSessions	Export session data
+translation.enterprise.categories.deleting	Deleting…
+translation.enterprise.categories.fieldName	Display name
+translation.enterprise.categories.nameRequired	Display name required
+translation.enterprise.categories.fieldDescription	Description
+translation.enterprise.categories.descriptionRequired	Description required
+translation.enterprise.categories.reject	Reject
+translation.enterprise.categories.accept	Accept
+translation.enterprise.categories.creating	Creating...
+translation.enterprise.categories.create	Create
+translation.enterprise.categories.delete	Delete
+translation.enterprise.categories.suggest	Suggest
+translation.enterprise.categories.exporting	Exporting...
+translation.enterprise.categories.periodLast7Days	Last 7 days
+translation.enterprise.categories.periodLast30Days	Last 30 days
+translation.enterprise.categories.periodLast90Days	Last 90 days
+translation.enterprise.categories.periodThisMonth	This month
+translation.enterprise.categories.periodLastMonth	Last month
+translation.enterprise.categories.periodAllTime	All time
+translation.enterprise.categories.analyticsTab	Analytics
+translation.enterprise.categories.allOrganizations	All organizations
+translation.enterprise.categories.title	Categories
+translation.enterprise.categories.save	Save
+translation.enterprise.mcpDetail.notFound	MCP not found
+translation.enterprise.mcpDetail.noLongerAvailable	This MCP server is no longer available in your enterprise.
+translation.enterprise.mcpDetail.description	Usage and availability of this MCP across your enterprise.
+translation.enterprise.mcpDetail.showInMarketplace	Show in marketplace
+translation.enterprise.mcpDetail.showInMarketplaceDesc	When on, users in your enterprise can see and install this MCP from the marketplace. Turning it off hides it and blocks new installations — organizations that already installed it keep access until they disable or uninstall it there.
+translation.enterprise.mcpDetail.orgsDesc	Organizations in your enterprise that have enabled this MCP.
+translation.enterprise.mcpDetail.sessionsUsage	Sessions usage
+translation.enterprise.mcpDetail.sessionsUsageDesc	Sessions that used this MCP over the past month.
+translation.enterprise.mcpDetail.sessionsDesc	Recent sessions that used this MCP.
+translation.enterprise.mcpDetail.sessionsUnit	sessions
+translation.enterprise.mcpDetail.fallbackTitle	MCP server
+translation.enterprise.mcpDetail.noUsageData	No usage data available
+translation.enterprise.mcpDetail.organizations	Organizations
+translation.enterprise.patPolicies.policySettings	Policy settings
+translation.enterprise.patPolicies.approvalQueue	Approval queue
+translation.enterprise.patPolicies.patInventory	PAT inventory
+translation.enterprise.patPolicies.violationDisabled	PATs disabled by policy
+translation.enterprise.patPolicies.violationMissing	Missing expiration date
+translation.enterprise.patPolicies.violationExceeds	Exceeds maximum expiration
+translation.enterprise.patPolicies.selfServe	Self-serve
+translation.enterprise.patPolicies.maxExpiration	Maximum expiration (days)
+translation.enterprise.patPolicies.maxExpirationHelp	Every token must expire within this window (1–{{max}} days).
+translation.enterprise.patPolicies.confirmTitle	Confirm policy change
+translation.enterprise.patPolicies.violations	Violations
+translation.enterprise.patPolicies.andMore	... and {{count}} more
+translation.enterprise.patPolicies.revokeApply	Revoke and apply
+translation.enterprise.patPolicies.loadFailed	Failed to load policy.
+translation.enterprise.patPolicies.maxExpirationError	Maximum expiration must be a whole number between 1 and {{max}} days.
+translation.enterprise.patPolicies.revokedNote_one	{{count}} token revoked
+translation.enterprise.patPolicies.revokedNote_other	{{count}} tokens revoked
+translation.enterprise.patPolicies.reactivatedNote_one	{{count}} existing token is usable again
+translation.enterprise.patPolicies.reactivatedNote_other	{{count}} existing tokens are usable again
+translation.enterprise.patPolicies.updatedWithNotes	Policy updated. {{notes}}.
+translation.enterprise.patPolicies.updated	Policy updated.
+translation.enterprise.patPolicies.updateFailed	Failed to update policy.
+translation.enterprise.patPolicies.policyMode	Policy mode
+translation.enterprise.patPolicies.policyModeDesc	Controls how PATs are created in this enterprise.
+translation.enterprise.patPolicies.selectMode	Select policy mode
+translation.enterprise.patPolicies.revokeWarning_one	This change will revoke {{count}} token that does not comply with the new policy.
+translation.enterprise.patPolicies.revokeWarning_other	This change will revoke {{count}} tokens that do not comply with the new policy.
+translation.enterprise.patPolicies.modeDisabled	Disabled
+translation.enterprise.patPolicies.modeApprovalRequired	Approval required
+translation.enterprise.patPolicies.columnName	Name
+translation.enterprise.patPolicies.columnOwner	Owner
+translation.enterprise.patPolicies.applying	Applying…
+translation.enterprise.crumbs.mcpManagement	MCP management
+translation.enterprise.groups.updatingRole	Updating role
+translation.enterprise.groups.roleUpdated	Role updated successfully
+translation.enterprise.groups.roleUpdateFailed	Failed to update role
+translation.enterprise.groups.selectGroup	Select group {{name}}
+translation.enterprise.groups.noMembers	No members
+translation.enterprise.groups.upgradeAdminTitle	Upgrading to Enterprise Admin
+translation.enterprise.groups.upgradeAdminBody	Enterprise Admins have the ability to view and configure all code, snapshots, integrations, and consumption limits across the Devin Enterprise. Assign this permission carefully.
+translation.enterprise.groups.understood	Understood
+translation.enterprise.groups.selectAll	Select all groups
+translation.enterprise.groups.groupName	Group name
+translation.enterprise.members.you	You
+translation.enterprise.members.zeroOrgs	0 organizations
+translation.enterprise.members.zeroGroups	0 groups
+translation.enterprise.members.copyGroupName	Copy group name
+translation.enterprise.members.tryDifferent	Try a different search or filter.
+translation.enterprise.members.billingOrg	Billing organization
+translation.enterprise.members.organizationSingular	organization
+translation.enterprise.members.organizationPlural	organizations
+translation.enterprise.members.groupSingular	group
+translation.enterprise.members.groupPlural	groups
+translation.enterprise.members.searchItems	Search {{pluralLabel}}
+translation.enterprise.members.noItems	No {{pluralLabel}} found
+translation.enterprise.members.memberCount_one	{{formattedCount}} member
+translation.enterprise.members.memberCount_other	{{formattedCount}} members
+translation.enterprise.members.orgCount_one	{{formattedCount}} organization
+translation.enterprise.members.orgCount_other	{{formattedCount}} organizations

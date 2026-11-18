@@ -1,0 +1,500 @@
+translation.usageAnalytics.category.metric	Metric
+translation.usageAnalytics.category.overTime	Over time
+translation.usageAnalytics.category.noData	No category data available
+translation.usageAnalytics.category.noSubcategorySessions	No sessions have been classified into subcategories yet.
+translation.usageAnalytics.category.subcategoryHint	Subcategory data will appear here as new sessions are created and classified.
+translation.usageAnalytics.category.categoryDetails	Category details
+translation.usageAnalytics.category.none	None
+translation.usageAnalytics.category.selectCategory	Select category
+translation.usageAnalytics.category.selectCategoryHint	Select a category above to view details
+translation.usageAnalytics.category.viewNamedSessions	View {{bannerLabel}} sessions
+translation.usageAnalytics.category.uniqueUsers	Unique Users
+translation.usageAnalytics.category.prsMerged	PRs Merged
+translation.usageAnalytics.category.subcategoryBreakdown	Subcategory breakdown
+translation.usageAnalytics.category.noSubcategories	No subcategories defined for this category.
+translation.usageAnalytics.category.configureSubcategories	Configure subcategories to start tracking granular usage.
+translation.usageAnalytics.category.askAdminSubcategories	Ask your platform admin to configure subcategories.
+translation.usageAnalytics.category.viewingSubcategory	Viewing \\
+translation.usageAnalytics.productivity.loadFailed	Failed to load productivity data. Please try again later.
+translation.usageAnalytics.productivity.notEnoughData	Not enough data to display
+translation.usageAnalytics.productivity.minSessionsHint	The productivity dashboard needs at least {{min}} sessions in the selected range before results are shown. Try widening the date range.
+translation.usageAnalytics.productivity.minSessionsHintOrg	The productivity dashboard needs at least {{min}} sessions in the selected range before results are shown. Try widening the date range or selecting all organizations.
+translation.usageAnalytics.productivity.betaBanner	These productivity metrics are in beta and may be slightly incomplete or inaccurate.
+translation.usageAnalytics.productivity.methodology	Read more about our methodology <lnk>here</lnk>.
+translation.usageAnalytics.productivity.methodologyAria	Read more here about AI productivity methodology
+translation.usageAnalytics.productivity.equivalentHours	Equivalent productive engineering hours
+translation.usageAnalytics.productivity.equivalentHoursTip	Estimated human-equivalent engineering hours across all productive sessions.
+translation.usageAnalytics.productivity.acusPerHourTip	Lifetime ACUs of estimated sessions (including unproductive ones) divided by equivalent productive engineering hours.
+translation.usageAnalytics.productivity.productiveSessions	Productive sessions
+translation.usageAnalytics.productivity.productiveSessionsTip	Share of estimated sessions which were classified as productive.
+translation.usageAnalytics.productivity.productiveAcus	Productive ACUs
+translation.usageAnalytics.productivity.productiveAcusTip	Share of estimated sessions' ACUs spent on productive sessions.
+translation.usageAnalytics.productivity.hoursOverTime	Equivalent productive engineering hours over time
+translation.usageAnalytics.productivity.hours	Hours
+translation.usageAnalytics.productivity.estimatedSessions	Estimated sessions
+translation.usageAnalytics.productivity.acusPerHourMa	ACUs per productive hour (trailing moving average)
+translation.usageAnalytics.productivity.acusPerHourMaTip	Trailing-window ACUs of estimated sessions divided by equivalent productive engineering hours.
+translation.usageAnalytics.productivity.maWindow	Moving average window
+translation.usageAnalytics.productivity.acusPerHourWindow	ACUs / hour ({{maWindow}}d)
+translation.usageAnalytics.productivity.estimatedSessionsWindow	Estimated sessions ({{maWindow}}d)
+translation.usageAnalytics.productivity.exportFailed	Failed to export productivity CSV. Please try again.
+translation.usageAnalytics.productivity.window7	7-day
+translation.usageAnalytics.productivity.window30	30-day
+translation.usageAnalytics.repositories.repository	Repository
+translation.usageAnalytics.repositories.devinPrShare	Devin PR share
+translation.usageAnalytics.repositories.overallMergeRate	Overall merge rate
+translation.usageAnalytics.repositories.devinMergeRate	Devin merge rate
+translation.usageAnalytics.repositories.devinReviewRate	Devin review rate
+translation.usageAnalytics.repositories.allRepositories	All repositories
+translation.usageAnalytics.repositories.noData	No repository data available for the selected period.
+translation.usageAnalytics.repositories.metricsNoteDate	Repository metrics only include pull requests created on or after {{effectiveStartDate}}, when full PR data collection began.
+translation.usageAnalytics.repositories.metricsNote	Repository metrics only include pull requests created on or after the date full PR data collection began.
+translation.usageAnalytics.repositories.noOrgBreakdown	Repository metrics are not broken down by organization.
+translation.usageAnalytics.repositories.prRatioByWeek	Devin PR ratio by week
+translation.usageAnalytics.repositories.filterByRepo	Filter by repository
+translation.usageAnalytics.repositories.prRatio	Devin PR ratio
+translation.usageAnalytics.repositories.prRatioValue	Devin PR ratio: {{value}}%
+translation.usageAnalytics.repositories.devinPrsValue	Devin PRs: {{value}}
+translation.usageAnalytics.repositories.totalPrsValue	Total PRs: {{value}}
+translation.usageAnalytics.review.mergeTimeTipDate	Percentage reduction in average merge time when using Devin Review compared to without. Only includes PRs merged on or after {{date}}, when PR tracking began.
+translation.usageAnalytics.review.mergeTimeTip	Percentage reduction in average merge time when using Devin Review compared to without
+translation.usageAnalytics.review.title	Devin Review
+translation.usageAnalytics.review.metricsFrom	Metrics are only available from {{date}}.
+translation.usageAnalytics.review.groupedByDay	Analysis runs grouped by start date
+translation.usageAnalytics.review.noOrgBreakdown	Metrics are not broken down by organization.
+translation.usageAnalytics.review.jobsRan	Jobs ran
+translation.usageAnalytics.review.mergeTimeReduction	Merge time reduction
+translation.usageAnalytics.review.bugsCaughtTip	Bugs that were resolved before the PR was merged
+translation.usageAnalytics.review.acuPerReview	ACUs per analysis
+translation.usageAnalytics.review.dollarsPerReview	Cost per analysis
+translation.usageAnalytics.review.perPr	{{perPrValue}} / PR
+translation.usageAnalytics.review.jobsOverTime	Analysis runs over time
+translation.usageAnalytics.enterprisePage.consumptionEnterpriseWide	Consumption is billed enterprise-wide.
+translation.usageAnalytics.enterprisePage.noProductivityPermission	You don't have permission to view productivity analytics.
+translation.state.bulkCloseHint.title	Closing a lot of tabs?
+translation.state.bulkCloseHint.description	Right-click any tab for Close All, Close Others, or Close to the Right.
+translation.localSettings.sections.general	General
+translation.localSettings.sections.planInformation	Plan information
+translation.localSettings.sections.extensions	Extensions
+translation.localSettings.sections.agents	Agents
+translation.localSettings.sections.devinLocal	Devin Local
+translation.localSettings.sections.configuration	Configuration
+translation.localSettings.sections.models	Models
+translation.localSettings.sections.authentication	Authentication
+translation.localSettings.sections.editor	Editor
+translation.localSettings.sections.userInterface	User interface
+translation.localSettings.sections.devinTab	Devin Tab
+translation.localSettings.sections.browser	Browser
+translation.localSettings.sections.shortcuts	Shortcuts
+translation.localSettings.sections.advanced	Advanced
+translation.localSettings.common.on	On
+translation.localSettings.common.off	Off
+translation.localSettings.common.ok	Ok
+translation.localSettings.common.cancel	Cancel
+translation.localSettings.common.retry	Retry
+translation.localSettings.common.reload	Reload
+translation.localSettings.common.enable	Enable
+translation.localSettings.common.disable	Disable
+translation.localSettings.common.yes	Yes
+translation.localSettings.common.no	No
+translation.localSettings.common.backToSettings	Back to settings
+translation.localSettings.general.customizeIcon.label	Customize application icon
+translation.localSettings.general.customizeIcon.description	Choose from a few preset Devin Desktop icons
+translation.localSettings.general.customizeIcon.action	Customize
+translation.localSettings.general.openEditorSettings.label	Open editor settings
+translation.localSettings.general.openEditorSettings.description	General editor preferences open in a separate page
+translation.localSettings.general.openEditorSettings.action	Open
+translation.localSettings.shortcuts.viewAll.label	View all Devin shortcuts
+translation.localSettings.shortcuts.viewAll.action	View all
+translation.localSettings.browser.chatLinksInBrowserTab.label	Open links in Browser tab
+translation.localSettings.browser.chatLinksInBrowserTab.description	Open links in the chat and the right pane in a Browser tab next to the chat in Devin Desktop
+translation.localSettings.browser.chatLinksInBrowserTab.promptTitle	Open links in Browser tab?
+translation.localSettings.browser.chatLinksInBrowserTab.promptDescription	Links in the chat and the right pane open in a Browser tab next to the chat. You can change this in App settings.
+translation.localSettings.browser.chatLinksInBrowserTab.promptTurnOn	Turn on
+translation.localSettings.editorUi.scrollToNextHunk.label	Scroll to next diff on accept
+translation.localSettings.editorUi.scrollToNextHunk.description	Automatically scroll to the next diff when accepting the current one
+translation.localSettings.editorUi.diffZones.label	Agent diff zones
+translation.localSettings.editorUi.diffZones.description	Show interactive diff zones with accept/reject controls for agent file edits
+translation.localSettings.chisel.description	These settings only apply to Devin Local
+translation.localSettings.chisel.descriptionWithPath	These settings only apply to Devin Local and are saved to <fileLink>{{path}}</fileLink>
+translation.localSettings.chisel.allow.label	Allow
+translation.localSettings.chisel.allow.description	Patterns for tools and commands that are always allowed. Changes apply to new sessions
+translation.localSettings.chisel.deny.label	Deny
+translation.localSettings.chisel.deny.description	Patterns for tools and commands that are always denied. Changes apply to new sessions
+translation.localSettings.chisel.ask.label	Ask
+translation.localSettings.chisel.ask.description	Patterns for tools and commands that require confirmation. Changes apply to new sessions
+translation.localSettings.chisel.ruleFormatHint	Use Exec(git push), ExecExact(git status), Read(/path/**), Write(/path/**), Fetch(domain:example.com) or a tool name such as web_search or mcp__server__tool.
+translation.localSettings.chisel.subagents.label	Subagents (Preview)
+translation.localSettings.chisel.subagents.description	Allow the agent to delegate work to subagents. Organization policy takes precedence
+translation.localSettings.chisel.configFile.label	Configuration file
+translation.localSettings.chisel.configFile.action	Open config.json in editor
+translation.localSettings.listRow.add	Add
+translation.localSettings.listRow.addItemTo	Add item to {{id}}
+translation.localSettings.listRow.import	Import
+translation.localSettings.listRow.export	Export
+translation.localSettings.listRow.resetToDefaults	Reset to defaults
+translation.localSettings.listRow.noItems	No items
+translation.localSettings.listRow.notApplied	(not applied)
+translation.localSettings.listRow.team	(team)
+translation.localSettings.listRow.wildcardWarning	Wildcard will match all commands
+translation.localSettings.listRow.wildcardWarningLabel	wildcard warning
+translation.localSettings.listRow.invalidItem	Not a valid pattern, so it has no effect. {{hint}}
+translation.localSettings.listRow.invalidItemLabel	invalid pattern warning
+translation.localSettings.listRow.importSkipped_one	Skipped {{count}} entry that is not a valid pattern: {{values, list}}. {{hint}}
+translation.localSettings.listRow.importSkipped_other	Skipped {{count}} entries that are not valid patterns: {{values, list}}. {{hint}}
+translation.localSettings.listRow.editItem	Edit {{value}}
+translation.localSettings.listRow.removeItem	Remove {{value}}
+translation.localSettings.listRow.itemValue	Item value
+translation.localSettings.dropdown.availableWithPro	Available with Pro
+translation.localSettings.agents.searchPlaceholder	Search agents...
+translation.localSettings.agents.noAgents	No agents available
+translation.localSettings.agents.noMatchingAgents	No matching agents
+translation.localSettings.agents.enabled	Enabled
+translation.localSettings.agents.failed	Failed
+translation.localSettings.agents.optionsFor	Options for {{name}}
+translation.localSettings.agents.removeAsPreferred	Remove as preferred
+translation.localSettings.agents.setAsPreferred	Set as preferred
+translation.localSettings.agents.hideConfiguration	Hide configuration
+translation.localSettings.agents.configure	Configure
+translation.localSettings.agents.notificationsEnabledToast	Agent notifications enabled. You'll be notified when an agent session finishes or needs your input.
+translation.localSettings.agents.envVars.title	Environment variables
+translation.localSettings.agents.envVars.add	Add environment variable
+translation.localSettings.agents.envVars.empty	No environment variables
+translation.localSettings.agents.envVars.nameLabel	Name
+translation.localSettings.agents.envVars.nameRequired	Name required
+translation.localSettings.agents.envVars.addButton	Add
+translation.localSettings.agents.envVars.valueLabel	Value
+translation.localSettings.agents.shareTerminalActivity.label	Share terminal activity
+translation.localSettings.agents.shareTerminalActivity.description	Let Devin see commands and output from your integrated terminal.
+translation.localSettings.agents.shareUserEdits.label	Share user edits
+translation.localSettings.agents.shareUserEdits.description	Let Devin see which files you edit and create in your workspace, and let a Devin Cloud session read unsaved edits when it reads a file on this machine.
+translation.localSettings.agents.shareUserEdits.descriptionLocalOnly	Let Devin see which files you edit and create in your workspace.
+translation.localSettings.agents.runSaveActions.label	Run save actions on agent edits
+translation.localSettings.agents.runSaveActions.description	Run format-on-save and code actions on save (e.g. gofmt) when Devin edits a file.
+translation.localSettings.agents.agentWindowLocation.label	Agent Command Center location
+translation.localSettings.agents.agentWindowLocation.description	Where the Agent Command Center opens.
+translation.localSettings.agents.agentWindowLocation.currentWindow	Current window
+translation.localSettings.agents.agentWindowLocation.separateWindow	Separate window
+translation.localSettings.agents.keepWindowWorkspace.label	Keep workspace in Agent Command Center
+translation.localSettings.agents.keepWindowWorkspace.description	Show the window's own folders instead of the active session's folders.
+translation.localSettings.agents.notifications.label	Agent notifications
+translation.localSettings.agents.notifications.description	Notify when an agent session finishes or needs your input while in the background
+translation.localSettings.agents.remoteHosts.label	Remote agent hosts
+translation.localSettings.agents.remoteHosts.description	Connect to agents on remote machines over SSH.
+translation.localSettings.agents.remoteHostsAutoConnect.label	Connect on startup
+translation.localSettings.agents.remoteHostsAutoConnect.description	Connect to saved hosts automatically on startup.
+translation.localSettings.planInfo.currentPlan	Current plan
+translation.localSettings.planInfo.usage	Usage
+translation.localSettings.planInfo.unlimited	Unlimited
+translation.localSettings.planInfo.creditsTooltip	Each message sent with a premium model consumes a model-dependent number of credits. This number is visible in the model dropdown.
+translation.localSettings.planInfo.creditsLeft	credits left
+translation.localSettings.planInfo.viewBreakdown	View breakdown
+translation.localSettings.planInfo.closeBreakdown	Close breakdown
+translation.localSettings.planInfo.promptCreditsLeft	prompt credits left
+translation.localSettings.planInfo.addOnCreditsAvailable	add-on credits available
+translation.localSettings.planInfo.purchaseCredits	Purchase credits
+translation.localSettings.planInfo.enableAutoRefill	Enable auto-refill
+translation.localSettings.planInfo.referralBonus	Refer a friend to a paid plan to get 250 bonus add-on credits
+translation.localSettings.planInfo.trialEndsInDuration	Trial will end in <duration>{{duration}}</duration>
+translation.localSettings.planInfo.creditsRenewPlanEndsInDuration	Credits renew every month. Plan ends in <duration>{{duration}}</duration>
+translation.localSettings.planInfo.days_one	{{count}} day
+translation.localSettings.planInfo.days_other	{{count}} days
+translation.localSettings.planInfo.upgradeForCredits	Upgrade for more premium credits
+translation.localSettings.planInfo.needMoreCredits	Need more credits? Click here
+translation.localSettings.auth.row.label	Authentication
+translation.localSettings.auth.row.description	License and single sign-on status for the air-gapped Devin agent
+translation.localSettings.auth.description	Authentication for the air-gapped Devin agent — both Devin Local and the devin CLI on this machine. No Cognition servers are involved; sign-in uses your organization's identity provider or an offline license file.
+translation.localSettings.auth.loading	Loading authentication status…
+translation.localSettings.auth.loadError	Could not load authentication status from the agent. Make sure the bundled Devin agent is running.
+translation.localSettings.auth.degraded	The agent started in a degraded state because of the issues below; new sessions are blocked until they are fixed. Installing a valid license takes effect immediately; other fixes need an agent restart.
+translation.localSettings.auth.sso.title	Single sign-on
+translation.localSettings.auth.sso.signedIn	Signed in
+translation.localSettings.auth.sso.signedOut	Signed out
+translation.localSettings.auth.sso.identityProvider	Identity provider: {{issuer}}
+translation.localSettings.auth.sso.signedInAs	Signed in as: {{identity}}
+translation.localSettings.auth.sso.groups	Groups: {{groups}}
+translation.localSettings.auth.sso.sessionExpires	Session expires: {{expiry}}
+translation.localSettings.auth.sso.signIn	Sign in
+translation.localSettings.auth.sso.signInAgain	Sign in again
+translation.localSettings.auth.sso.waitingForBrowser	Waiting for browser sign-in…
+translation.localSettings.auth.sso.refresh	Refresh
+translation.localSettings.auth.sso.browserHint	A browser window opens on this machine to complete sign-in with your identity provider.
+translation.localSettings.auth.sso.signInFailed	Sign-in failed.
+translation.localSettings.auth.license.title	License
+translation.localSettings.auth.license.valid	Valid
+translation.localSettings.auth.license.invalid	Invalid
+translation.localSettings.auth.license.fromEnv	(from DEVIN_LICENSE_FILE)
+translation.localSettings.auth.license.seat	Seat: {{seat}}
+translation.localSettings.auth.license.account	Account: {{account}}
+translation.localSettings.auth.license.expires	Expires: {{expiry}}
+translation.localSettings.auth.license.expiresInDays	(in {{days}} days)
+translation.localSettings.auth.license.renewalWarning	This license expires soon. Fetch a renewed license from your enterprise portal and install it below.
+translation.localSettings.auth.license.install	Install a license file
+translation.localSettings.auth.license.fileInputLabel	License file
+translation.localSettings.auth.license.installing	Validating and installing…
+translation.localSettings.auth.license.dropHint	Drop a .devin-onprem-license file here, or click to browse
+translation.localSettings.auth.license.installed	License installed at {{path}}. New sessions use it immediately.
+translation.localSettings.auth.license.notAccepted	The license file was not accepted.
+translation.localSettings.auth.license.readFailed	Could not read the selected file.
+translation.localSettings.models.row.label	Model settings
+translation.localSettings.models.row.description	Configure the local model endpoints available to Devin
+translation.localSettings.models.title	Model settings
+translation.localSettings.models.description	Model settings apply to the air-gapped Devin agent — both Devin Local and the devin CLI on this machine. Changes take effect after the agent restarts.
+translation.localSettings.models.loading	Loading model settings…
+translation.localSettings.models.loadError	Could not load model settings from the agent. Make sure the bundled Devin agent is running; if it fails to start, run <code>devin models validate</code> and <code>devin airgap doctor</code> in a terminal for the underlying error.
+translation.localSettings.models.agentUnreachable	The bundled Devin agent is not reachable right now. Unsaved edits are kept and can be saved once it is running again.
+translation.localSettings.models.validateCliHint	The agent cannot use these model settings until every diagnostic above is fixed. The same checks run from a terminal with <code>devin models validate</code>; see the models file reference for the schema v0 format and how to migrate older files.
+translation.localSettings.models.rawJsonParseError	The raw JSON must parse as an object with a \\
+translation.environmentPicker.cloned	Cloned
+translation.environmentPicker.organization	Organization
+translation.environmentPicker.loadMoreRepositories	Load more repositories
+translation.environmentPicker.retryRepositories	Retry
+translation.environmentPicker.host	Host
+translation.environmentPicker.hostAvailability	Host availability is configured by the selected environment
+translation.environmentPicker.hostAvailabilityInSettings	Host availability is configured by the selected environment <settingsLink>in settings</settingsLink>
+translation.environmentPicker.repositories	Repositories
+translation.environmentPicker.clonedRepositories_one	{{count, number}} cloned
+translation.environmentPicker.clonedRepositories_other	{{count, number}} cloned
+translation.environmentPicker.availableRepositories_one	{{count, number}} available
+translation.environmentPicker.availableRepositories_other	{{count, number}} available
+translation.environmentPicker.availableRepositoriesMinimum	{{count, number}}+ available
+translation.environmentPicker.repositorySummary	{{cloned}} ({{available}})
+translation.environmentPicker.searchRepositories	Search repositories
+translation.environmentPicker.noRepositories	No pre-cloned repositories
+translation.environmentPicker.repositoriesFailed	Could not load repositories
+translation.environmentPicker.viewRepositories	View environment settings
+translation.environmentPicker.updated	Updated {{timeAgo}}
+translation.environmentPicker.configureAccess	Configure access in settings
+translation.environmentsSettings.title	Environments
+translation.environmentsSettings.standaloneDescription	Standalone environments aren't tied to one organization. Anyone with access to every repository in an environment can use it.
+translation.environmentsSettings.addReposPermissionRequired	You need permission to configure this environment to add repositories.
+translation.environmentsSettings.repositoriesBanner	Add repositories to Devin from the Repositories page.
+translation.environmentsSettings.repositoriesBannerAction	Go to Repositories
+translation.environmentsSettings.repositoriesMissingHint	Can't find a repository? Add it from the <repositoriesLink>Repositories page</repositoriesLink>.
+translation.environmentsSettings.description	Standalone environments that own their own blueprints, builds, and snapshots. Sessions can be started on any environment you have access to.
+translation.environmentsSettings.create	New environment
+translation.environmentsSettings.createTitle	Create environment
+translation.environmentsSettings.createDescription	Name the environment. Repositories are optional, and you can add them later
+translation.environmentsSettings.createNameRequired	Enter a name to create the environment
+translation.environmentsSettings.createWithRepos_one	Create with {{count}} repository
+translation.environmentsSettings.createWithRepos_other	Create with {{count}} repositories
+translation.environmentsSettings.repositories	Repositories
+translation.environmentsSettings.reposSearchPlaceholder	Search repositories
+translation.environmentsSettings.reposEmpty	No repositories found
+translation.environmentsSettings.reposLoadError	Could not load repositories.
+translation.environmentsSettings.created	Environment created
+translation.environmentsSettings.createFailed	Failed to create environment
+translation.environmentsSettings.rename	Rename
+translation.environmentsSettings.renameTitle	Rename environment
+translation.environmentsSettings.renameDescription	Choose a new name for this environment
+translation.environmentsSettings.renamed	Environment renamed
+translation.environmentsSettings.renameFailed	Failed to rename environment
+translation.environmentsSettings.delete	Delete
+translation.environmentsSettings.deleteTitle	Delete environment
+translation.environmentsSettings.deleteDescription	Delete {{name}}? Its blueprints, build history, and snapshots will no longer be available to new sessions. This cannot be undone.
+translation.environmentsSettings.deleted	Environment deleted
+translation.environmentsSettings.deleteFailed	Failed to delete environment
+translation.environmentsSettings.name	Name
+translation.environmentsSettings.namePlaceholder	e.g. Payments monorepo
+translation.environmentsSettings.cancel	Cancel
+translation.environmentsSettings.retry	Retry
+translation.environmentsSettings.copyId	Copy environment ID
+translation.environmentsSettings.idCopied	Environment ID copied
+translation.environmentsSettings.environmentId	Environment ID
+translation.environmentsSettings.environmentIdDescription	Identifies this environment in the API and audit logs
+translation.environmentsSettings.nameColumn	Name
+translation.environmentsSettings.repositoriesColumn	Repositories
+translation.environmentsSettings.createdByColumn	Created by
+translation.environmentsSettings.createdColumn	Created
+translation.environmentsSettings.createdAgo	Created {{timeAgo}}
+translation.environmentsSettings.createdByAgo	Created by {{name}} {{timeAgo}}
+translation.environmentsSettings.loadError	Could not load environments.
+translation.environmentsSettings.emptyTitle	No environments yet
+translation.environmentsSettings.emptyDescription	Create an environment to define its blueprints and build a snapshot for sessions.
+translation.environmentsSettings.emptyDescriptionNoCreate	Environments appear here when you have access to every repository in them. Ask a Devin admin to create one for the repositories you use.
+translation.environmentsSettings.emptyLinkGitAccount	A Git provider is not linked in your <connectionsLink>personal connections</connectionsLink>. If your repository access comes from that provider, linking it can give you access here.
+translation.environmentsSettings.searchPlaceholder	Search environments
+translation.environmentsSettings.noSearchResults	No environments match your search.
+translation.environmentsSettings.secrets.addTitle	Add build secret
+translation.environmentsSettings.secrets.addDescription	Available to this environment's blueprint steps during builds only. It is removed before the snapshot is saved and is not available in sessions.
+translation.environmentsSettings.secrets.addRepoDescription	Available to this repository's blueprint steps during builds only. It is removed before the snapshot is saved and is not available in sessions.
+translation.environmentsSettings.secrets.showValue	Show value
+translation.environmentsSettings.secrets.hideValue	Hide value
+translation.environmentsSettings.environment	Environment
+translation.environmentsSettings.environmentBlueprint	Environment blueprint
+translation.environmentsSettings.environmentBlueprintDescription	Commands that apply to all sessions on this environment and run before repo-specific setup.
+translation.environmentsSettings.environmentBlueprintNotSet	Not set. Add one to share setup across every repository on this environment.
+translation.environmentsSettings.defaultNoReposTitle	No repositories
+translation.environmentsSettings.defaultNoReposDescription	The Default environment runs without repositories so everyone can use it. Create a new environment to set up repositories.
+translation.environmentsSettings.deleteBlueprintDescription	This will trigger a rebuild for this environment.
+translation.environmentsSettings.access.tab	Access
+translation.environmentsSettings.access.title	Access
+translation.environmentsSettings.access.description	People need access to all of this environment's repositories to see and use it.
+translation.environmentsSettings.access.descriptionCanShare	People need access to all of this environment's repositories to see and use it. You can give others access to configure or share it here.
+translation.environmentsSettings.access.userColumn	User
+translation.environmentsSettings.access.emailColumn	Email
+translation.environmentsSettings.access.searchPlaceholder	Search users
+translation.environmentsSettings.access.serviceUser	Service user
+translation.environmentsSettings.access.emptyDescription	No user can read every repository in this environment. Remove a repository or grant access to it.
+translation.environmentsSettings.access.loadError	Could not load who has access.
+translation.environmentsSettings.access.canUse	Can use
+translation.environmentsSettings.access.canUseTooltip	Anyone who can read all of this environment's repositories can use it. Change their repository access to change this.
+translation.environmentsSettings.access.repoAccessTitle	Users with repo access
+translation.environmentsSettings.access.repoAccessDescription	Everyone who can read all of this environment's repositories can use it
+translation.environmentsSettings.access.repoAccessCount_one	{{count}} user can use this environment
+translation.environmentsSettings.access.repoAccessCount_other	{{count}} users can use this environment
+translation.environmentsSettings.access.repoAccessMatchCount_one	{{count}} matching user
+translation.environmentsSettings.access.repoAccessMatchCount_other	{{count}} matching users
+translation.environmentsSettings.access.showMore	Show more
+translation.environmentsSettings.access.shareSearchPlaceholder	Search for a user or group
+translation.environmentsSettings.access.canConfigure	Can configure
+translation.environmentsSettings.access.canConfigureDescription	Can edit the environment and its blueprints
+translation.environmentsSettings.access.canShare	Can share
+translation.environmentsSettings.access.canShareDescription	Can manage who has access to this environment
+translation.environmentsSettings.access.configureVerb	configure
+translation.environmentsSettings.access.shareVerb	share
+translation.environmentsSettings.access.inheritedDescription	Access inherited from a role or group
+translation.environmentsSettings.access.removeSelfError	You can't remove your own access
+translation.environmentsSettings.accessChange.addTitle	Some users will lose access
+translation.environmentsSettings.accessChange.addDescription	Users who cannot read the repositories you are adding will lose access to this environment.
+translation.environmentsSettings.accessChange.addConfirm	Add anyway
+translation.environmentsSettings.accessChange.addPartialFailed	Added {{addedCount}} of {{totalCount}}. Failed to add {{failedCount}}.
+translation.environmentsSettings.accessChange.addFailed	Failed to add repositories. Please try again.
+translation.environmentsSettings.accessChange.addFailedCount_one	Failed to add {{count}} repository
+translation.environmentsSettings.accessChange.addFailedCount_other	Failed to add {{count}} repositories
+translation.environmentsSettings.accessChange.removedFromEnvironment	Removed from environment
+translation.environmentsSettings.accessChange.removeFromEnvironmentFailed	Failed to remove from environment
+translation.environmentsSettings.accessChange.removing	Removing...
+translation.environmentsSettings.accessChange.removeFromEnvironment	Remove from environment
+translation.environmentsSettings.accessChange.removeTitle	Remove from environment?
+translation.environmentsSettings.accessChange.removeDescription	This repository will no longer be pre-cloned in new sessions. An environment rebuild will start and may take a few minutes. You can re-enable it at any time.
+translation.environmentsSettings.accessChange.removeDescriptionWithBlueprints_one	This will remove {{repository}} and its Blueprint from new Devin sessions. An environment rebuild will start and may take a few minutes. You can re-enable it at any time.
+translation.environmentsSettings.accessChange.removeDescriptionWithBlueprints_other	This will remove {{repository}} and all {{count}} Blueprints from new Devin sessions. An environment rebuild will start and may take a few minutes. You can re-enable it at any time.
+translation.environmentsSettings.accessChange.removeConfirm	Remove
+translation.environmentsSettings.accessChange.loses_one	{{count}} user will lose access to this environment
+translation.environmentsSettings.accessChange.loses_other	{{count}} users will lose access to this environment
+translation.environmentsSettings.accessChange.gains_one	{{count}} user will gain access to this environment
+translation.environmentsSettings.accessChange.gains_other	{{count}} users will gain access to this environment
+translation.environmentsSettings.accessChange.previewFailed	Could not check who would be affected. Try again.
+translation.environmentsSettings.repoAccess.pathHint	To see why a repository is missing, enter its full path, such as github.com/owner/repo or gitlab.com/group/project.
+translation.environmentsSettings.repoAccess.pageTitle	Check access to a repository
+translation.environmentsSettings.repoAccess.pageDescription	If a repository you use is not listed here, enter its full path to see why you cannot use it in Devin.
+translation.environmentsSettings.repoAccess.pageOk	You have access to this repository in Devin. An environment that includes it is listed on the Environments page when you have access to all of its repositories.
+translation.environmentsSettings.repoAccess.check	Check why it is missing
+translation.environmentsSettings.repoAccess.checkAgain	Check again
+translation.environmentsSettings.repoAccess.checkFailed	Could not check this repository. Try again.
+translation.environmentsSettings.repoAccess.ok	You have access to this repository. It may already be in this environment; otherwise search for it by name.
+translation.environmentsSettings.repoAccess.hostNotConnected	Devin has no connection to {{host}}. Ask a Devin admin to connect it.
+translation.environmentsSettings.repoAccess.providerNotSupported	This check only covers GitLab and GitHub repositories. For other Git providers, ask a Devin admin.
+translation.environmentsSettings.repoAccess.unknown	Devin cannot tell why this repository is unavailable. Check the path, or ask a Devin admin.
+translation.environmentsSettings.repoAccess.linkAccount	Repositories you can access on {{host}} are listed once your {{provider}} account is linked. <connectionsLink>Link your {{provider}} account</connectionsLink>.
+translation.environmentsSettings.repoAccess.askAdmin	If a repository you expect is missing, ask a Devin admin whether it is connected to Devin and whether you have access to it.
+translation.environmentsSettings.repoAccess.gitlab.identityNotLinked	Devin cannot match your GitLab access because your GitLab account is not linked. <connectionsLink>Link it in your connections</connectionsLink>, then check again.
+translation.environmentsSettings.repoAccess.gitlab.notFound	GitLab did not find a repository at this path for your linked account. Check the path. If the repository exists, ask a project maintainer for access.
+translation.environmentsSettings.repoAccess.gitlab.providerRoleTooLow	Your GitLab role on this project is too low. Ask a project maintainer for at least the Reporter role.
+translation.environmentsSettings.repoAccess.gitlab.notCovered	This repository is not connected to Devin. Ask a project maintainer to add it to Devin.
+translation.environmentsSettings.repoAccess.gitlab.openMembers	Open project members
+translation.environmentsSettings.repoAccess.gitlab.pendingSync	You have access to this repository in GitLab, but not in Devin yet.
+translation.environmentsSettings.repoAccess.gitlab.hostFailed	Could not search this host. Try again, or link your GitLab account again.
+translation.environmentsSettings.repoAccess.gitlab.noMatches	No matching projects where your role is Reporter or higher.
+translation.environmentsSettings.repoAccess.gitlab.howToConnect	Ask a project maintainer to add it to Devin.
+translation.environmentsSettings.repoAccess.github.identityNotLinked	Devin cannot match your GitHub access because your GitHub account is not linked. <connectionsLink>Link it in your connections</connectionsLink>, then check again.
+translation.environmentsSettings.repoAccess.github.notFound	GitHub did not find a repository at this path that both your linked account and the Devin GitHub App can read. Check the path. If the repository exists, ask a repository admin or organization owner for access and to add it to the Devin GitHub App installation.
+translation.environmentsSettings.repoAccess.github.providerRoleTooLow	Your GitHub role on this repository does not include its code. Ask a repository admin for read access.
+translation.environmentsSettings.repoAccess.github.notCovered	This repository is not connected to Devin. Ask a repository admin or organization owner to add it to the Devin GitHub App installation.
+translation.environmentsSettings.repoAccess.github.openMembers	Open repository access settings
+translation.environmentsSettings.repoAccess.github.pendingSync	You have access to this repository in GitHub, but not in Devin yet. Check again in a few minutes; if nothing changes, ask a Devin admin.
+translation.environmentsSettings.repoAccess.github.hostFailed	Could not search this host. Try again, or link your GitHub account again.
+translation.environmentsSettings.repoAccess.github.noMatches	No matching repositories that both you and the Devin GitHub App can read. If yours is missing, ask a repository admin or organization owner to add it to the Devin GitHub App installation.
+translation.environmentsSettings.repoAccess.github.howToConnect	Ask a repository admin or organization owner to add it to the Devin GitHub App installation.
+translation.environmentsSettings.repoAccess.search.button	Search my repositories
+translation.environmentsSettings.repoAccess.search.orPathHint	or enter its full path, such as github.com/owner/repo.
+translation.environmentsSettings.repoAccess.search.failed	Could not search. Try again.
+translation.environmentsSettings.repoAccess.search.noSearchableHosts	Devin has no GitLab or GitHub connection to search.
+translation.environmentsSettings.repoAccess.search.hostNotLinked	Not searched: your {{provider}} account on this host is not linked. <connectionsLink>Link it in your connections</connectionsLink>.
+translation.environmentsSettings.repoAccess.search.matchOk	Available in Devin
+translation.environmentsSettings.repoAccess.search.matchPendingSync	Your access is not in Devin yet
+translation.environmentsSettings.repoAccess.search.matchConnected	Connected to Devin. If you can't select it, ask a Devin admin for access.
+translation.environmentsSettings.repoAccess.search.matchNotCovered	Not connected to Devin
+translation.environmentsSettings.repoAccess.search.hasMore_one	Showing the first match. Type more of the name to narrow the search.
+translation.environmentsSettings.repoAccess.search.hasMore_other	Showing the first {{count}} matches. Type more of the name to narrow the search.
+translation.environmentsSettings.repoAccess.search.howToConnectNoSync	Ask a Devin admin to add it to Devin.
+translation.unifiedAutomations.title	Automations
+translation.unifiedAutomations.create	New automation
+translation.unifiedAutomations.environment	Environment
+translation.unifiedAutomations.environmentPlaceholder	Select an environment
+translation.unifiedAutomations.environmentDescription	Sessions run on this environment. It cannot be changed after the automation is created.
+translation.unifiedAutomations.slackTools	Slack
+translation.unifiedAutomations.slackDirectMessages	Direct messages (people who can see this environment)
+translation.unifiedAutomations.slackToolsDescription	Slack channels this automation's sessions can read and post in, through your account's Slack workspace. DMs reach only people who can see this environment.
+translation.unifiedAutomations.environmentRequired	Select an environment.
+translation.unifiedAutomations.environmentDeleted	Environment deleted
+translation.unifiedAutomations.environmentDeletedNotice	This automation's environment was deleted, so it can no longer run. Delete it and create a new one.
+translation.unifiedAutomations.environmentAndRunAs	{{environment}} · {{runAs}}
+translation.unifiedAutomations.runsAsCreator	Runs as its creator
+translation.unifiedAutomations.runsAsServiceUser	Runs as a service user
+translation.unifiedOncall.subtitle	Each Oncall runs on its own environment with its own responders, incidents, reports and knowledge.
+translation.unifiedOncall.allOncalls	All Oncalls
+translation.unifiedOncall.create	New Oncall
+translation.unifiedOncall.name	Name
+translation.unifiedOncall.namePlaceholder	Payments on call
+translation.unifiedOncall.nameRequired	Name required
+translation.unifiedOncall.environmentRequired	Select an environment
+translation.unifiedOncall.environment	Environment
+translation.unifiedOncall.environmentPlaceholder	Select an environment
+translation.unifiedOncall.environmentDescription	Responders, incidents and reports run their sessions on this environment
+translation.unifiedOncall.environmentDeleted	Environment deleted
+translation.unifiedOncall.emptyTitle	No Oncalls yet
+translation.unifiedOncall.emptyDescription	Create an Oncall to triage alerts, handle incidents and write reports on one of your environments.
+translation.unifiedOncall.rename	Rename
+translation.unifiedOncall.renameTitle	Rename Oncall
+translation.unifiedOncall.changeEnvironment	Change environment
+translation.unifiedOncall.changeEnvironmentTitle	Change environment
+translation.unifiedOncall.changeEnvironmentDescription	Only possible before the Oncall has responders.
+translation.unifiedOncall.delete	Delete
+translation.unifiedOncall.deleteTitle	Delete {{name}}?
+translation.unifiedOncall.deleteDescription	Its setup and incident settings are removed. Delete its responders and reports first.
+translation.unifiedOncall.save	Save
+translation.unifiedOncall.cancel	Cancel
+translation.unifiedOncall.loadError	Couldn't load Oncalls.
+translation.unifiedOncall.saveError	Couldn't save the Oncall.
+translation.unifiedOncall.access.share	Share
+translation.unifiedOncall.access.description	Allow users, groups or service users to access {{name}}.
+translation.unifiedOncall.access.searchPlaceholder	Search users, groups or service users to add
+translation.unifiedOncall.access.canView	Can view
+translation.unifiedOncall.access.canViewDescription	Can see this Oncall's responders, incidents, reports and settings
+translation.unifiedOncall.access.canConfigure	Can configure
+translation.unifiedOncall.access.canConfigureDescription	Can edit this Oncall's responders, incidents, reports and settings
+translation.unifiedOncall.access.canManage	Can manage
+translation.unifiedOncall.access.canManageDescription	Can configure this Oncall and manage who has access to it
+translation.unifiedOncall.access.inheritedDescription	This access is inherited and can't be changed here
+translation.unifiedOncall.access.removeSelfError	You can't remove your own access to manage this Oncall
+translation.unifiedOncall.access.runsResponders	Sessions of {{names, list(style: short)}} run as this service user. Change the responder's identity before removing its access.
+translation.unifiedOncall.access.runsIncidents	This Oncall's incident sessions run as this service user. Change the identity in its incident settings before removing its access.
+translation.unifiedOncall.access.removeServiceUserTitle	Remove {{name}}'s access?
+translation.unifiedOncall.access.removeServiceUserDescription	If a responder, the incidents or a report digest of this Oncall run as this service user, their sessions lose access to it.
+translation.unifiedOncall.status.not_started	Not set up
+translation.unifiedOncall.status.initializing	Setting up
+translation.unifiedOncall.status.ready	Ready
+translation.unifiedOncall.status.failed	Setup failed
+translation.billingTagsAnalytics.acuByBillingTag	ACU consumption by billing tag
+translation.billingTagsAnalytics.acusTooltip	{{acus}} ACUs ({{percent}} of spend)
+translation.billingTagsAnalytics.byDay	By day
+translation.billingTagsAnalytics.byWeek	By week
+translation.billingTagsAnalytics.groupingAria	Group by
+translation.billingTagsAnalytics.includeUncategorized	Include uncategorized sessions
+translation.billingTagsAnalytics.legendEntry	{{name}} · {{percent}}
+translation.billingTagsAnalytics.movingAverage	7-day moving average
+translation.billingTagsAnalytics.movingAverageTooltip	7-day moving average: {{percent}}
+translation.billingTagsAnalytics.noSessionsInRange	No sessions in this time range
+translation.billingTagsAnalytics.noUsageInRange	No ACU usage in this time range
+translation.billingTagsAnalytics.percentTagged	% tagged
+translation.billingTagsAnalytics.person	Person
+translation.billingTagsAnalytics.sessionsTooltip_one	{{count}} session
+translation.billingTagsAnalytics.sessionsTooltip_other	{{count}} sessions
+translation.billingTagsAnalytics.taggedSessions	Tagged sessions
+translation.billingTagsAnalytics.taggedShareDaily	Tagged sessions (daily)
+translation.billingTagsAnalytics.taggedShareOverTime	Tagged sessions over time
+translation.billingTagsAnalytics.taggedShareWeekly	Tagged sessions (weekly)
+translation.billingTagsAnalytics.taggedTooltip	{{tagged}} of {{sessions}} sessions tagged ({{percent}})
+translation.billingTagsAnalytics.taggingByUser	Tagging by user

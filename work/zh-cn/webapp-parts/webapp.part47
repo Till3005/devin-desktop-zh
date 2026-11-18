@@ -1,0 +1,500 @@
+translation.ds.menuLoadingMore	Loading more...
+translation.ds.noResultsFound	No results found.
+translation.ds.attachment.download	Download
+translation.ds.attachment.downloadAttachment	Download attachment
+translation.ds.attachment.image	Image
+translation.ds.attachment.remove	Remove attachment
+translation.ds.attachment.video	Video
+translation.ds.attachment.view	View
+translation.ds.attachment.viewAttachment	View attachment
+translation.ds.attachment.sizeBytes	{{size}} B
+translation.ds.attachment.sizeKilobytes	{{size}} KB
+translation.ds.attachment.sizeMegabytes	{{size}} MB
+translation.ds.blocker.confused	Devin is confused
+translation.ds.blocker.error	Devin error
+translation.ds.blocker.runningIntoIssues	Devin is running into issues
+translation.ds.breadcrumb.label	breadcrumb
+translation.ds.breadcrumb.showMore	Show more breadcrumbs
+translation.ds.capability.capability	Capability
+translation.ds.capability.capabilityTooltip	Higher capability means more powerful models but higher costs
+translation.ds.capability.fastMode	Fast mode
+translation.ds.capability.fusionDescription	Pairs frontier intelligence with cost-efficient execution to deliver frontier-level results at lower cost
+translation.ds.capability.internalOnly	Internal only
+translation.ds.capability.mode	Mode
+translation.ds.capability.noCapabilitiesEnabled	No capabilities are enabled for your organization. Contact your admin to enable one.
+translation.ds.capability.speed	Speed
+translation.ds.capability.speedFast	Fast
+translation.ds.capability.speedStandard	Standard
+translation.ds.chat.attachments	Attachments
+translation.ds.chat.devinMessage	Devin message
+translation.ds.chat.userMessage	User message
+translation.ds.codeBlock.copyCode	Copy code
+translation.ds.codeBlock.inScope	in {{scope}}
+translation.ds.codeBlock.lines_one	{{count}} line
+translation.ds.codeBlock.lines_other	{{count}} lines
+translation.ds.codeBlock.unwrapLines	Unwrap lines
+translation.ds.codeBlock.wrapLines	Wrap lines
+translation.ds.command.description	Search for a command to run…
+translation.ds.command.title	Command palette
+translation.ds.composer.minimize	Minimize
+translation.ds.composer.next	Next
+translation.ds.composer.nextQuestion	Next question
+translation.ds.composer.previousQuestion	Previous question
+translation.ds.composer.questionPosition	{{current}} of {{total}}
+translation.ds.composer.skip	Skip
+translation.ds.composer.somethingElse	Something else...
+translation.ds.contextWindow.cacheExpired	Prompt cache has expired.
+translation.ds.contextWindow.cacheExpiresIn	Prompt cache expires in {{time}}
+translation.ds.contextWindow.cachedInput	Cached input
+translation.ds.contextWindow.contextUsage	Context usage: {{percent}}%
+translation.ds.contextWindow.contextUsed	{{percent}}% ({{used}} / {{limit}}) context used
+translation.ds.contextWindow.higherCostExpected	Higher cost expected.
+translation.ds.contextWindow.input	Input
+translation.ds.contextWindow.modelChangeDisabledCache	Model change disabled prompt caching.
+translation.ds.datePicker.endDate	End date
+translation.ds.datePicker.endTime	End time
+translation.ds.datePicker.includeTime	Include time
+translation.ds.datePicker.startDate	Start date
+translation.ds.datePicker.startTime	Start time
+translation.ds.datePicker.timezone	Timezone
+translation.ds.expandable.collapse	Collapse
+translation.ds.expandable.collapseContent	Collapse content
+translation.ds.expandable.expand	Expand
+translation.ds.expandable.expandContent	Expand content
+translation.ds.feedback.badResponse	Bad response
+translation.ds.feedback.flagResponse	Flag response
+translation.ds.feedback.badSession	Bad session
+translation.ds.feedback.categoryDidNotFollow	Did not follow instructions
+translation.ds.feedback.categoryIncomplete	Incomplete
+translation.ds.feedback.categoryIncorrectCode	Incorrect code
+translation.ds.feedback.categoryOther	Other
+translation.ds.feedback.details	Details
+translation.ds.feedback.goodResponse	Good response
+translation.ds.feedback.sessionDescription	Give feedback on this session to help improve Devin.
+translation.ds.feedback.submitting	Submitting...
+translation.ds.feedback.tellUsMore	Tell us more to help improve future responses.
+translation.ds.markdown.completedTask	Completed task
+translation.ds.markdown.incompleteTask	Incomplete task
+translation.ds.markdown.sortBy	Sort by {{label}}
+translation.ds.markdown.sortColumn	Sort column {{column}}
+translation.ds.mentionCategories.conversations	Conversations
+translation.ds.mentionCategories.devinSessions	Devin sessions
+translation.ds.mentionCategories.directories	Directories
+translation.ds.mentionCategories.files	Files
+translation.ds.mentionCategories.macros	Macros
+translation.ds.mentionCategories.people	People
+translation.ds.mentionCategories.playbooks	Playbooks
+translation.ds.mentionCategories.plugins	Plugins
+translation.ds.mentionCategories.repositories	Repositories
+translation.ds.mentionCategories.secrets	Secrets
+translation.ds.mentionCategories.skills	Skills
+translation.ds.mentionCategories.workItems	Work items
+translation.ds.networkPolicy.accessibleDomains	Accessible domains
+translation.ds.networkPolicy.addDomain	Add domain
+translation.ds.networkPolicy.blocked	Blocked
+translation.ds.networkPolicy.blockedTooltip	Not allowed by the governing security profile — sessions will not be able to reach it
+translation.ds.networkPolicy.copyAll	Copy all domains
+translation.ds.networkPolicy.copyFailed	Copy failed
+translation.ds.networkPolicy.duplicate	Duplicate
+translation.ds.networkPolicy.duplicateTooltip	This duplicate will be removed on save
+translation.ds.networkPolicy.entryPlaceholder	domain, IPv4, or IPv6 (e.g. *.github.com)
+translation.ds.networkPolicy.newEntry	New
+translation.ds.networkPolicy.noMatches	No domains match your search
+translation.ds.networkPolicy.removeEntry	Remove entry
+translation.ds.networkPolicy.removeValue	Remove {{value}}
+translation.ds.networkPolicy.searchPlaceholder	Search domains
+translation.ds.pagination.goToNext	Go to next page
+translation.ds.pagination.goToPrevious	Go to previous page
+translation.ds.pagination.label	pagination
+translation.ds.pagination.morePages	More pages
+translation.ds.pagination.next	Next
+translation.ds.pagination.previous	Previous
+translation.ds.plan.accepted	Plan accepted
+translation.ds.plan.downloadMd	Download as .md
+translation.ds.plan.downloadPlanMd	Download plan as .md
+translation.ds.plan.edit	Edit
+translation.ds.plan.editedByYou	edited by you
+translation.ds.plan.generating	Generating plan
+translation.ds.plan.generatingSuffix	· generating
+translation.ds.plan.implement	Implement plan
+translation.ds.plan.implementTooltip	This will create a new child session to implement the plan
+translation.ds.plan.implemented	Implemented
+translation.ds.plan.moreImplementOptions	More implement options
+translation.ds.plan.olderVersionWarning	You're about to implement version {{version}}. The latest is version {{latest}}.
+translation.ds.plan.outdated	Outdated
+translation.ds.plan.preview	Preview
+translation.ds.plan.selectVersion	Select plan version
+translation.ds.plan.spawnToImplement	Spawn Devin to implement
+translation.ds.plan.spawnToImplementVersion	Spawn Devin to implement version {{version}}
+translation.ds.plan.splitIntoSessions	Split the plan into multiple sessions
+translation.ds.plan.switchToAutoConfirm	Switch to auto-confirm
+translation.ds.plan.viewLatestVersion	View latest version
+translation.ds.plan.viewPlan	View plan
+translation.ds.prCard.closed	Closed PR
+translation.ds.prCard.deletedShelf	Deleted shelf
+translation.ds.prCard.draft	Draft PR
+translation.ds.prCard.merged	Merged PR
+translation.ds.prCard.open	Open PR
+translation.ds.prCard.queued	Queued PR
+translation.ds.prCard.shelvedChangelist	Shelved changelist
+translation.ds.prCard.submittedChangelist	Submitted changelist
+translation.ds.quoting.actions	Quote actions
+translation.ds.quoting.addCaption	Add caption
+translation.ds.quoting.addToChat	Add to chat
+translation.ds.quoting.captionTitle	Quote caption
+translation.ds.quoting.moreOptions	More quote options
+translation.ds.quoting.resumeCaption	Resume caption
+translation.ds.quoting.save	Save
+translation.ds.quoting.sourceChanged	The source has changed since this was quoted
+translation.ds.quoting.startTyping	Start typing...
+translation.ds.quoting.captionPlaceholder	Write a caption...
+translation.ds.quoting.sendImmediately	Send immediately
+translation.ds.secrets.actions	Actions
+translation.ds.secrets.chooseFile	Choose a file or drag and drop
+translation.ds.secrets.errorOnLine	{{error}} (line {{line}})
+translation.ds.secrets.existingSessionSecrets	Existing Session Secrets ({{count}})
+translation.ds.secrets.formatComments	Use inline comments with the # character to add notes explaining how to best use each secret.
+translation.ds.secrets.formatKeys	Keys must contain only letters, numbers, and underscores, and cannot start with a number.
+translation.ds.secrets.formatOnePerLine	The file should contain one secret per line in Key=Value format.
+translation.ds.secrets.formatPaste	You can paste your file below to validate format. Please add any cookies or TOTP codes separately.
+translation.ds.secrets.importError	Import error
+translation.ds.secrets.importFailed	Failed to import secrets
+translation.ds.secrets.key	Key
+translation.ds.secrets.maxSize	(Max size: 2MB)
+translation.ds.secrets.name	Name
+translation.ds.secrets.noValidSecrets	No valid secrets to import
+translation.ds.secrets.notRedacted	Not redacted
+translation.ds.secrets.note	Note
+translation.ds.secrets.noteDescription	Context for Devin
+translation.ds.secrets.pastePlaceholder	API_KEY=your-api-key-here # Use this API Key for GitHub
+DATABASE_URL=postgresql://user:pass@localhost:5432/db # RDS on us-west-2
+ENVIRONMENT=production
+translation.ds.secrets.parseFailed	Failed to parse input. Please ensure it follows the correct format.
+translation.ds.secrets.pasteSecrets	Paste secrets
+translation.ds.secrets.readFailed	Failed to read file. Please ensure it's a valid text file.
+translation.ds.secrets.redacted	Redacted
+translation.ds.secrets.removeAllInvalid	Remove all invalid
+translation.ds.secrets.removeSecret	Remove secret
+translation.ds.secrets.sensitive	Sensitive
+translation.ds.secrets.sensitiveDescription	Secrets marked as Sensitive are redacted from the UI
+translation.ds.secrets.sensitiveTooltip	When enabled, the secret value is redacted from Devin's output
+translation.ds.secrets.sent	Sent
+translation.ds.secrets.store	Store
+translation.ds.secrets.storeValid_one	Store {{count}} valid
+translation.ds.secrets.storeValid_other	Store {{count}} valid
+translation.ds.secrets.storing	Storing…
+translation.ds.secrets.submissionPreview	Submission preview
+translation.ds.secrets.uploadFile	Upload file
+translation.ds.secrets.value	Value
+translation.ds.sessionList.collapseChildren	Collapse children
+translation.ds.sessionList.expandChildren	Expand children
+translation.ds.sheet.resize	Resize sheet
+translation.ds.spaceHeader.moreActions	More actions
+translation.ds.spaceHeader.pin	Pin
+translation.ds.spaceHeader.pinToSidebar	Pin to sidebar
+translation.ds.spaceHeader.unpin	Unpin
+translation.ds.spaceHeader.viewSessionInsights	View session insights
+translation.ds.table.resizeColumn	Resize column
+translation.ds.tabs.agents	Agents
+translation.ds.tabs.browser	Browser
+translation.ds.tabs.citations	Citations
+translation.ds.tabs.closeTab	Close tab
+translation.ds.tabs.codeFiles	Code files
+translation.ds.tabs.commands	Commands
+translation.ds.tabs.diff	Diff
+translation.ds.tabs.noResults	No results
+translation.ds.tabs.progress	Progress
+translation.ds.tabs.search	Search
+translation.ds.tabs.tasks	Tasks
+translation.ds.terminal.scrollToBottom	Scroll to bottom
+translation.ds.transcript.and	and
+translation.ds.transcript.contentsNotLoaded	Contents not loaded in this renderer
+translation.ds.transcript.devinsComputer	Devin's computer
+translation.ds.transcript.enterprise	Enterprise
+translation.ds.transcript.localMachine	local machine
+translation.ds.transcript.openSideChat	Open side chat
+translation.ds.transcript.or	or
+translation.ds.transcript.progressPercent	Progress: {{percent}}%
+translation.ds.transcript.seconds	{{seconds}}s
+translation.ds.transcript.sideChat	Side chat
+translation.ds.viz.barList	Bar list
+translation.ds.viz.creditLimit	Credit limit
+translation.ds.viz.currentlyUsed	Currently used
+translation.ds.viz.down	Down
+translation.ds.viz.forecastedUsage	Forecasted usage
+translation.ds.viz.heatmap	Heatmap
+translation.ds.viz.heatmapLegend	Heatmap intensity legend
+translation.ds.viz.less	Less
+translation.ds.viz.more	More
+translation.ds.viz.segments	Segments
+translation.ds.viz.up	Up
+translation.ds.workingWords.actualizing	Actualizing
+translation.ds.workingWords.aligning	Aligning
+translation.ds.workingWords.analyzing	Analyzing
+translation.ds.workingWords.annealing	Annealing
+translation.ds.workingWords.architecting	Architecting
+translation.ds.workingWords.assembling	Assembling
+translation.ds.workingWords.calibrating	Calibrating
+translation.ds.workingWords.cerebrating	Cerebrating
+translation.ds.workingWords.cogitating	Cogitating
+translation.ds.workingWords.conjecturing	Conjecturing
+translation.ds.workingWords.connectingTheDots	Connecting the dots
+translation.ds.workingWords.constructing	Constructing
+translation.ds.workingWords.cooking	Cooking
+translation.ds.workingWords.descendingTheGradient	Descending the gradient
+translation.ds.workingWords.deviningTheFuture	Devin-ing the future
+translation.ds.workingWords.draftingBlueprints	Drafting blueprints
+translation.ds.workingWords.eigenvectoring	Eigenvectoring
+translation.ds.workingWords.exploring	Exploring
+translation.ds.workingWords.gearingUp	Gearing up
+translation.ds.workingWords.increasingTorque	Increasing torque
+translation.ds.workingWords.investigating	Investigating
+translation.ds.workingWords.lockingIn	Locking in
+translation.ds.workingWords.navigating	Navigating
+translation.ds.workingWords.orthogonalizing	Orthogonalizing
+translation.ds.workingWords.pondering	Pondering
+translation.ds.workingWords.quantizing	Quantizing
+translation.ds.workingWords.rebalancingTheTree	Rebalancing the tree
+translation.ds.workingWords.recombobulating	Recombobulating
+translation.ds.workingWords.reticulatingSplines	Reticulating splines
+translation.ds.workingWords.revvingUp	Revving up
+translation.ds.workingWords.shapeRotating	Shape rotating
+translation.ds.workingWords.shiftingGears	Shifting gears
+translation.ds.workingWords.solving	Solving
+translation.ds.workingWords.strategizing	Strategizing
+translation.ds.workingWords.thinking	Thinking
+translation.ds.workingWords.tighteningTheBolts	Tightening the bolts
+translation.ds.workingWords.tinkering	Tinkering
+translation.ds.workingWords.triangulating	Triangulating
+translation.ds.workingWords.turningTheCogs	Turning the cogs
+translation.ds.selectedCount_one	{{count}} selected
+translation.ds.selectedCount_other	{{count}} selected
+translation.parenthetical.unnamed	(unnamed)
+translation.parenthetical.default	(default)
+translation.parenthetical.unavailable	{{name}} (unavailable)
+translation.parenthetical.mcp	{{name}} (MCP)
+translation.settingsPages.createPlaybookSheet.discardUnsavedChanges	Discard unsaved changes?
+translation.settingsPages.createPlaybookSheet.discardChanges	Discard changes
+translation.settingsPages.createPlaybookSheet.continueEditing	Continue editing
+translation.settingsPages.createPlaybookSheet.loadingPlaybook	Loading playbook
+translation.settingsPages.createPlaybookSheet.playbookNotFound	Playbook not found
+translation.settingsPages.createPlaybookSheet.checkingMacroAvailability	Checking macro availability
+translation.settingsPages.createPlaybookSheet.create	Create
+translation.settingsPages.createPlaybookSheet.pleaseEnterAName	Name required
+translation.settingsPages.createPlaybookSheet.name	Name
+translation.settingsPages.createPlaybookSheet.deployToStaging	Deploy to staging
+translation.settingsPages.createPlaybookSheet.macro	Macro
+translation.settingsPages.createPlaybookSheet.macroIsAvailable	Macro is available
+translation.settingsPages.createPlaybookSheet.thisMacroIsNotAvailable	This macro is not available
+translation.settingsPages.createPlaybookSheet.shortcutToRunThePlaybookFrom	Shortcut to run the playbook from a prompt
+translation.settingsPages.createPlaybookSheet.content	Content
+translation.settingsPages.createPlaybookSheet.examples	Examples
+translation.settingsPages.createPlaybookSheet.oneSessionIdPerLine	One session ID per line
+translation.settingsPages.createPlaybookSheet.createCommunityPlaybook	Create community playbook
+translation.settingsPages.createPlaybookSheet.createPlaybook	Create playbook
+translation.settingsPages.createPlaybookSheet.availableAllAccountsSystemTab	Available to all accounts in the System tab
+translation.settingsPages.createPlaybookSheet.reusablePromptCustomizesHowDevinWorks	A reusable prompt that customizes how Devin works
+translation.settingsPages.createPlaybookSheet.pleaseEnterPlaybookContent	Playbook content required
+translation.settingsPages.playbookEditorPage.untitled	Untitled
+translation.settingsPages.playbookEditorPage.viewSession	View session
+translation.settingsPages.playbookEditorPage.thisPlaybookContainsNoExamples	This playbook contains no examples
+translation.settingsPages.playbookEditorPage.name	Name
+translation.settingsPages.playbookEditorPage.createdAt	Created at
+translation.settingsPages.playbookEditorPage.createdBy	Created by
+translation.settingsPages.playbookEditorPage.noActivityDataAvailable	No activity data available
+translation.settingsPages.playbookEditorPage.weekOf	Week of {{dateLabel}}
+translation.settingsPages.playbookEditorPage.active	Active
+translation.settingsPages.playbookEditorPage.loadingVersions	Loading versions...
+translation.settingsPages.playbookEditorPage.noVersionHistoryAvailable	No version history available
+translation.settingsPages.playbookEditorPage.date	Date
+translation.settingsPages.playbookEditorPage.title	Title
+translation.settingsPages.playbookEditorPage.author	Author
+translation.settingsPages.playbookEditorPage.source	Source
+translation.settingsPages.playbookEditorPage.status	Status
+translation.settingsPages.playbookEditorPage.sessions	Sessions
+translation.settingsPages.playbookEditorPage.totalNumberOfSessionsUsingThis	Total number of sessions using this playbook
+translation.settingsPages.playbookEditorPage.uniqueUsers	Unique Users
+translation.settingsPages.playbookEditorPage.numberOfDistinctUsersWhoHave	Number of distinct users who have used this playbook
+translation.settingsPages.playbookEditorPage.mergedPrs	Merged PRs
+translation.settingsPages.playbookEditorPage.numberOfPullRequestsMergedFrom	Number of pull requests merged from sessions using this playbook
+translation.settingsPages.playbookEditorPage.weeklyActivity	Weekly Activity
+translation.settingsPages.playbookEditorPage.viewSessions	View sessions
+translation.settingsPages.playbookEditorPage.macro	Macro
+translation.settingsPages.playbookEditorPage.aShortcutUsedInPromptsTo	A shortcut used in prompts to quickly run the playbook (e.g. !test)
+translation.settingsPages.playbookEditorPage.checkingMacroAvailability	Checking macro availability
+translation.settingsPages.playbookEditorPage.macroIsAvailable	Macro is available
+translation.settingsPages.playbookEditorPage.macroIsInvalid	Macro is invalid
+translation.settingsPages.playbookEditorPage.copyMacro	Copy macro
+translation.settingsPages.playbookEditorPage.communityAccess	Community access
+translation.settingsPages.playbookEditorPage.publishThisPlaybookForAllAccounts	Publish this playbook for all accounts to access
+translation.settingsPages.playbookEditorPage.examples	Examples
+translation.settingsPages.playbookEditorPage.improveWithDevin	Improve with Devin
+translation.settingsPages.playbookEditorPage.edit	Edit
+translation.settingsPages.playbookEditorPage.duplicate	Duplicate
+translation.settingsPages.playbookEditorPage.promoteToEnterprise	Promote to enterprise
+translation.settingsPages.playbookEditorPage.delete	Delete
+translation.settingsPages.playbookEditorPage.save	Save
+translation.settingsPages.playbookEditorPage.discardUnsavedChanges	Discard unsaved changes?
+translation.settingsPages.playbookEditorPage.discardChanges	Discard changes
+translation.settingsPages.playbookEditorPage.continueEditing	Continue editing
+translation.settingsPages.playbookEditorPage.lastUpdatedOn	Last updated on
+translation.settingsPages.playbookEditorPage.details	Details
+translation.settingsPages.playbookEditorPage.pastSessions	Past sessions
+translation.settingsPages.playbookEditorPage.versionHistory	Version history
+translation.settingsPages.playbookEditorPage.playbookEditHistory	Playbook Edit History
+translation.settingsPages.playbookEditorPage.noVersionsYet	No versions yet
+translation.settingsPages.playbookEditorPage.viaApi	via API
+translation.settingsPages.playbookEditorPage.via	via
+translation.settingsPages.playbookEditorPage.devinSession	Devin Session
+translation.settingsPages.playbookEditorPage.promoteThisPlaybookToEnterpriseLevel	Promote this playbook to enterprise level? It will become visible to all organizations in your enterprise
+translation.settingsPages.playbookEditorPage.promote	Promote
+translation.settingsPages.playbookEditorPage.deletePlaybook	Delete playbook
+translation.settingsPages.playbookEditorPage.untitledPlaybook	Untitled playbook
+translation.settingsPages.playbookEditorPage.users	Users
+translation.settingsPages.playbookEditorPage.mergedPRs	Merged PRs
+translation.settingsPages.playbookEditorPage.sessionCount_one	{{formattedCount}} session
+translation.settingsPages.playbookEditorPage.sessionCount_other	{{formattedCount}} sessions
+translation.settingsPages.playbookEditorPage.userCount_one	{{formattedCount}} user
+translation.settingsPages.playbookEditorPage.userCount_other	{{formattedCount}} users
+translation.settingsPages.playbookEditorPage.mergedPrCount_one	{{formattedCount}} merged PR
+translation.settingsPages.playbookEditorPage.mergedPrCount_other	{{formattedCount}} merged PRs
+translation.settingsPages.playbookEditorPage.deleteConfirmation	Are you sure you want to delete “{{title}}”? This action cannot be undone
+translation.settingsPages.playbookEditorPage.enterNamePlaybook	Enter a name for your playbook
+translation.settingsPages.playbookEditorPage.manual	Manual
+translation.settingsPages.scheduleEditorPage.allRepositories	All repositories
+translation.settingsPages.scheduleEditorPage.repositoriesSelected	{{selectedReposCount}} repositories selected
+translation.settingsPages.scheduleEditorPage.searchRepositories	Search repositories...
+translation.settingsPages.scheduleEditorPage.loadingRepositories	Loading repositories...
+translation.settingsPages.scheduleEditorPage.noRepositoriesFound	No repositories found
+translation.settingsPages.scheduleEditorPage.aTagIsRequiredBeforeThis	A tag is required before this schedule can be saved or run
+translation.settingsPages.scheduleEditorPage.loading	Loading...
+translation.settingsPages.scheduleEditorPage.noSessionsHaveBeenCreatedBy	No sessions have been created by this schedule yet
+translation.settingsPages.scheduleEditorPage.error	Error
+translation.settingsPages.scheduleEditorPage.paused	Paused
+translation.settingsPages.scheduleEditorPage.active	Active
+translation.settingsPages.scheduleEditorPage.none	None
+translation.settingsPages.scheduleEditorPage.noChannelsFound	No channels found.
+translation.settingsPages.scheduleEditorPage.loadingChannels	Loading channels...
+translation.settingsPages.scheduleEditorPage.searchChannels	Search channels...
+translation.settingsPages.scheduleEditorPage.noSkill	No skill
+translation.settingsPages.scheduleEditorPage.noPlaybook	No playbook
+translation.settingsPages.scheduleEditorPage.openPlaybook	Open playbook
+translation.settingsPages.scheduleEditorPage.scheduledTimeMustBeInThe	Scheduled time must be in the future
+translation.settingsPages.scheduleEditorPage.type	Type
+translation.settingsPages.scheduleEditorPage.whenThisScheduleShouldRun	When this schedule should run
+translation.settingsPages.scheduleEditorPage.runAt	Run at
+translation.settingsPages.scheduleEditorPage.targetSession	Target session
+translation.settingsPages.scheduleEditorPage.sendPromptAsAMessageTo	Send prompt as a message to a target session
+translation.settingsPages.scheduleEditorPage.selectASession	Select a session
+translation.settingsPages.scheduleEditorPage.frequency	Frequency
+translation.settingsPages.scheduleEditorPage.prompt	Prompt
+translation.settingsPages.scheduleEditorPage.promptPlaceholder	Describe what Devin should do…
+translation.settingsPages.scheduleEditorPage.recurring	Recurring
+translation.settingsPages.scheduleEditorPage.noneWillStartANewSession	None (will start a new session)
+translation.settingsPages.scheduleEditorPage.status	Status
+translation.settingsPages.scheduleEditorPage.runsAs	Runs as...
+translation.settingsPages.scheduleEditorPage.registeredAuthorForNewSchedules	Registered author for new schedules
+translation.settingsPages.scheduleEditorPage.youAfterSaving	You (after saving)
+translation.settingsPages.scheduleEditorPage.sessionTag	Session tag
+translation.settingsPages.scheduleEditorPage.required	Required
+translation.settingsPages.scheduleEditorPage.skill	Skill
+translation.settingsPages.scheduleEditorPage.playbook	Playbook
+translation.settingsPages.scheduleEditorPage.availableToSchedulesWithNewSessions	Available to schedules with new sessions
+translation.settingsPages.scheduleEditorPage.autoApproveStartingChildSessions	Auto-approve starting child sessions
+translation.settingsPages.scheduleEditorPage.skipSubSessionCreationApproval	Skip sub-session creation approval
+translation.settingsPages.scheduleEditorPage.repositories	Repositories
+translation.settingsPages.scheduleEditorPage.directDevinToRelevantRepositories	Direct Devin to relevant repositories
+translation.settingsPages.scheduleEditorPage.emailNotifications	Email notifications
+translation.settingsPages.scheduleEditorPage.chooseWhenToBeNotifiedOf	Choose when to be notified of schedule runs
+translation.settingsPages.scheduleEditorPage.slackChannel	Slack channel
+translation.settingsPages.scheduleEditorPage.lastRun	Last run
+translation.settingsPages.scheduleEditorPage.unknownUser	Unknown user
+translation.settingsPages.scheduleEditorPage.noTagSelected	No tag selected
+translation.settingsPages.scheduleEditorPage.yes	Yes
+translation.settingsPages.scheduleEditorPage.no	No
+translation.settingsPages.scheduleEditorPage.pause	Pause
+translation.settingsPages.scheduleEditorPage.resume	Resume
+translation.settingsPages.scheduleEditorPage.edit	Edit
+translation.settingsPages.scheduleEditorPage.creating	Creating...
+translation.settingsPages.scheduleEditorPage.goToSession	Go to session
+translation.settingsPages.scheduleEditorPage.runNow	Run now
+translation.settingsPages.scheduleEditorPage.delete	Delete
+translation.settingsPages.scheduleEditorPage.save	Save
+translation.settingsPages.scheduleEditorPage.scheduleName	Schedule name...
+translation.settingsPages.scheduleEditorPage.createdBy	Created by {{name}}
+translation.settingsPages.scheduleEditorPage.lastEditedBy	Last edited by {{name}}
+translation.settingsPages.scheduleEditorPage.notice	Notice
+translation.settingsPages.scheduleEditorPage.mitigatePromptInjectionRiskByInstructing	Mitigate prompt injection risk by instructing scheduled Devins to only interact with trusted data.
+translation.settingsPages.scheduleEditorPage.details	Details
+translation.settingsPages.scheduleEditorPage.pastSessions	Past Sessions
+translation.settingsPages.scheduleEditorPage.deleteSchedule	Delete Schedule
+translation.settingsPages.scheduleEditorPage.untitledSchedule	Untitled schedule
+translation.settingsPages.scheduleEditorPage.always	Always
+translation.settingsPages.scheduleEditorPage.failureOnly	On failure only
+translation.settingsPages.scheduleEditorPage.never	Never
+translation.settingsPages.scheduleEditorPage.oneTime	One-time
+translation.settingsPages.scheduleEditorPage.skillsOnlyNewSession	Skills can only be used when starting a new session
+translation.settingsPages.scheduleEditorPage.playbooksOnlyNewSession	Playbooks can only be used when starting a new session
+translation.settingsPages.scheduleEditorPage.deleteConfirmation	Are you sure you want to delete the schedule “{{name}}”? This action cannot be undone.
+translation.settingsPages.scheduleEditorPage.notSet	Not set
+translation.settingsPages.scheduleEditorPage.invalidDate	Invalid date
+translation.settingsPages.scheduleEditorPage.newSchedule	New Schedule
+translation.settingsPages.scheduleEditorPage.scheduleDetails	Schedule Details
+translation.settingsPages.playbookPage.playbookNotFound	Playbook not found
+translation.settingsPages.playbooksPage.createPlaybook	Create playbook
+translation.settingsPages.playbooksPage.name	Name
+translation.settingsPages.playbooksPage.macro	Macro
+translation.settingsPages.playbooksPage.createdBy	Created by
+translation.settingsPages.playbooksPage.lastUpdated	Last updated
+translation.settingsPages.playbooksPage.searchPlaybooks	Search playbooks...
+translation.settingsPages.playbooksPage.lookingForEnterprisePlaybooks	Looking for enterprise playbooks?
+translation.settingsPages.playbooksPage.reusableSystemPromptsThatCustomizeHow	Reusable system prompts that customize how Devin works. Learn more in our <docsLink>documentation</docsLink>.
+translation.settingsPages.playbooksPage.organizationTab	Organization
+translation.settingsPages.playbooksPage.enterpriseTab	Enterprise
+translation.settingsPages.playbooksPage.noPlaybooksMatchSearch	No playbooks match your search
+translation.settingsPages.playbooksPage.noPlaybooksYet	No playbooks yet
+translation.settingsPages.playbooksPage.tryDifferentSearchTerm	Try a different search term
+translation.settingsPages.playbooksPage.createPlaybookGetStarted	Create a playbook to get started
+translation.settingsPages.playbooksPage.loadFailedTitle	Couldn't load playbooks
+translation.settingsPages.playbooksPage.loadFailedDescription	The playbook list didn't load. Try again in a moment.
+translation.settingsPages.playbooksPage.system	System
+translation.settingsPages.schedulesPage.paused	Paused
+translation.settingsPages.schedulesPage.error	Error
+translation.settingsPages.schedulesPage.active	Active
+translation.settingsPages.schedulesPage.once	Once: {{when}}
+translation.settingsPages.schedulesPage.oneTimeNotSet	One-time (not set)
+translation.settingsPages.schedulesPage.never	Never
+translation.settingsPages.schedulesPage.name	Name
+translation.settingsPages.schedulesPage.frequency	Frequency
+translation.settingsPages.schedulesPage.lastRun	Last run
+translation.settingsPages.schedulesPage.status	Status
+translation.settingsPages.schedulesPage.automateRecurringOrOneTimeDevin	Automate recurring or one-time Devin sessions. <docsLink>Learn more</docsLink>
+translation.settingsPages.schedulesPage.schedulesIsALegacyFeatureMigrate	Schedules is a legacy feature — migrate to Automations
+translation.settingsPages.schedulesPage.goToAutomations	Go to Automations
+translation.settingsPages.schedulesPage.automationsSupportsSchedulesAndMoreIncluding	Automations supports schedules and more, including event-driven triggers. Existing schedules will continue to work, but new ones should be created as Automations. Devin can help migrate your schedules — just ask it to and it has the tools to do so.
+translation.settingsPages.schedulesPage.searchSchedules	Search schedules...
+translation.settingsPages.schedulesPage.filterSchedulesByOwner	Filter schedules by owner
+translation.settingsPages.schedulesPage.createAutomation	Create automation
+translation.settingsPages.schedulesPage.createSchedule	Create schedule
+translation.settingsPages.schedulesPage.unableToLoadSchedules	Unable to load schedules.
+translation.settingsPages.schedulesPage.tryAgain	Try again
+translation.settingsPages.schedulesPage.noSchedulesFound	No schedules found
+translation.settingsPages.schedulesPage.viewAllSchedules	View all schedules
+translation.settingsPages.schedulesPage.tryADifferentSearch	Try a different search
+translation.settingsPages.schedulesPage.createAnAutomationToScheduleRecurring	Create an Automation to schedule recurring Devin sessions
+translation.settingsPages.schedulesPage.createAScheduleToAutomateRecurring	Create a schedule to automate recurring Devin sessions
+translation.settingsPages.schedulesPage.schedules	Your schedules
+translation.settingsPages.schedulesPage.allSchedules	All schedules
+translation.settingsPages.contentCharCount.lengthWarning	This playbook is long and may dilute Devin's focus. Consider splitting it into smaller playbooks run from child sessions.
+translation.settingsPages.contentCharCount.chars	{{value}} chars
+translation.settingsPages.contentCharCount.thousandChars	{{value}}K chars
+translation.settingsPages.blueprintGitPath.syncedFrom	Synced from {{resolvedProvider}}
+translation.settingsPages.blueprintSchema.aSetupStepMustSpecifyEither	A setup step must specify either 'run' or 'uses', not both
+translation.settingsPages.blueprintSchema.withIsOnlyValidOnSteps	'with' is only valid on steps that have 'uses'
+translation.settingsPages.blueprintSchema.runsOnNotEmpty	'runs-on' must not be an empty list
+translation.settingsPages.blueprintSchema.includesNoParent	'includes' path must not contain '..'
+translation.settingsPages.blueprintSchema.shellInvalid	'shell' must be 'default', 'bash', or 'powershell'
+translation.settingsPages.blueprintSchema.lineLine	Line {{line}}: 
+translation.settingsPages.useYamlValidation.invalidYaml	Invalid YAML
+translation.settingsPages.addBlueprintReposModal.addRepositories	Add repositories
+translation.settingsPages.addBlueprintReposModal.addRepositoriesToYourEnvironmentConfiguration	Add repositories to your environment configuration

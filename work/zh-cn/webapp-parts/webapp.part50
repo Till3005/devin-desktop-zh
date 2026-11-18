@@ -1,0 +1,500 @@
+translation.settingsPages.pluginContents.skills	Skills
+translation.settingsPages.pluginContents.mCPs	MCPs
+translation.settingsPages.pluginContents.hooks	Hooks
+translation.settingsPages.pluginContents.rules	Rules
+translation.settingsPages.pluginContents.subagents	Subagents
+translation.settingsPages.pluginContents.skillCount_one	{{count}} skill
+translation.settingsPages.pluginContents.skillCount_other	{{count}} skills
+translation.settingsPages.pluginContents.mcpCount_one	{{count}} MCP
+translation.settingsPages.pluginContents.mcpCount_other	{{count}} MCPs
+translation.settingsPages.pluginContents.hookCount_one	{{count}} hook
+translation.settingsPages.pluginContents.hookCount_other	{{count}} hooks
+translation.settingsPages.pluginContents.ruleCount_one	{{count}} rule
+translation.settingsPages.pluginContents.ruleCount_other	{{count}} rules
+translation.settingsPages.pluginContents.subagentCount_one	{{count}} subagent
+translation.settingsPages.pluginContents.subagentCount_other	{{count}} subagents
+translation.settingsPages.pluginContents.skillSingular	skill
+translation.settingsPages.pluginContents.mcpSingular	MCP
+translation.settingsPages.pluginContents.hookSingular	hook
+translation.settingsPages.pluginContents.ruleSingular	rule
+translation.settingsPages.pluginContents.subagentSingular	subagent
+translation.settingsPages.editorSettingsSchemas.invalidVersion	Missing or invalid \\
+translation.settingsPages.filterDropdownMenu.allGitProviders	All git providers
+translation.securityConfigure.title	Customize
+translation.securityConfigure.titleFor	Customize for <picker/>
+translation.securityConfigure.profilesTitle	Security plugins
+translation.securityConfigure.profilesDescription	Instructions that scans and remediations run with. They load in security sessions only.
+translation.securityConfigure.newProfile	New plugin
+translation.securityConfigure.newSkill	New skill
+translation.securityConfigure.newRule	New rule
+translation.securityConfigure.alwaysOnRuleHelp	Applied in every security scan in the organization.
+translation.securityConfigure.alwaysOnRuleHelpEnterprise	Applied in every security scan in the enterprise.
+translation.securityConfigure.appliesTo	Applies to
+translation.securityConfigure.skillPhase	Used for
+translation.securityConfigure.skillPhaseHelp	Which picker in a security scan offers this skill. Any lists it in all of them.
+translation.securityConfigure.skillPhaseAny	Any
+translation.securityConfigure.skillPhaseScan	Scan
+translation.securityConfigure.skillPhaseValidation	Validation
+translation.securityConfigure.skillPhaseRemediation	Remediation
+translation.securityConfigure.skillPhaseIngest	Import
+translation.securityConfigure.appliesToModel	Model decides
+translation.securityConfigure.appliesToAll	All repositories
+translation.securityConfigure.appliesToSelected	Selected repositories
+translation.securityConfigure.appliesToSelectedHelp	Applied in security scans of these repositories.
+translation.securityConfigure.appliesToSelectPlaceholder	Select repositories
+translation.securityConfigure.empty	No security plugins yet
+translation.securityConfigure.loadError	Couldn't load security plugins
+translation.securityConfigure.noSkills	No skills yet
+translation.securityConfigure.scanPaths	Scan paths
+translation.securityConfigure.scanPathsHelp	Directories in the repository, separated by commas.
+translation.securityConfigure.scanPathsPlaceholder	services/api, web
+translation.securityConfigure.scopeGlobsHelp	File patterns, separated by commas.
+translation.securityConfigure.excludeGlobsPlaceholder	**/test/**, vendor/**
+translation.securityConfigure.profileName	Name
+translation.securityConfigure.createProfile	Create plugin
+translation.securityConfigure.nameTaken	A plugin with this name already exists
+translation.securityConfigure.createFailed	Couldn't create the plugin
+translation.securityConfigure.skillNamePlaceholder	Authentication review
+translation.securityConfigure.skillDescriptionPlaceholder	Describe what this skill checks or fixes
+translation.securityConfigure.skillBodyPlaceholder	The steps a scan or remediation should follow, in markdown.
+translation.securityConfigure.ruleNamePlaceholder	Payment data handling
+translation.securityConfigure.ruleDescriptionPlaceholder	Describe when a scan should apply this rule
+translation.securityConfigure.ruleBodyPlaceholder	The guidance a scan or remediation should follow, in markdown.
+review.guide.step	Part {{number}} of {{total}}
+review.guide.previousPart	Previous part
+review.guide.nextPart	Next part
+review.guide.viewed	Viewed
+review.guide.noDescription	No explanation for this group yet.
+review.guide.openInChanges	Open in Changes
+review.guide.diagramSource	Diagram source
+review.guide.showFullChange	Show full change
+review.guide.showReferencedLines	Show referenced lines
+review.guide.openReference	Open reference {{number}}
+review.guide.close	Close
+review.guide.discussItem	Discuss this item
+review.guide.commentPlaceholder	Add a comment or ask for a change…
+review.guide.postAsPRComment	Post as PR comment
+review.guide.askDevinToFix	Ask Devin to fix
+review.guide.issueCommentsUnsupported	PR comments are not supported for this provider
+review.guide.noDevinSession	No Devin session is linked to this PR
+review.guide.commentPosted	Comment posted to PR
+review.guide.commentFailed	Couldn't post the comment. Try again.
+review.guide.devinRequested	Asked Devin to make this change
+review.guide.devinRequestFailed	Couldn't ask Devin to make this change. Try again.
+review.guide.tags.decision	Decision
+review.guide.tags.assumption	Assumption
+review.guide.tags.risk	Risk
+review.guide.origins.author	Author
+review.guide.origins.devin	Devin
+review.guide.origins.user	Your instruction
+review.tabs.changes	Changes
+review.tabs.architecture	Architecture
+review.tabs.bugs	Bugs
+review.tabs.description	Description
+review.tabs.discussion	Discussion
+review.tabs.commits	Commits
+review.tabs.chat	Chat
+review.tabs.info	Info
+review.tabs.summary	Summary
+review.diffViewer.largeDiffHidden	Large diff hidden by default
+review.diffViewer.loadDiff	Load diff
+review.diffViewer.noChangesToDisplay	No changes to display
+review.diffViewer.viewFile	View file
+review.diffViewer.openInProvider	Open in {{provider}}
+review.diffViewer.openInEditor	Open in editor
+review.diffViewer.loading	Loading...
+review.diffViewer.expandFile	Expand file
+review.diffViewer.collapseFile	Collapse file
+review.diffViewer.expandImage	Expand image
+review.diffViewer.collapseImage	Collapse image
+review.diffViewer.copyFilePath	Copy file path
+review.diffViewer.expandLines_one	{{count}} line
+review.diffViewer.expandLines_other	{{count}} lines
+review.diffViewer.expandLinesAbove_one	Expand {{count}} line above
+review.diffViewer.expandLinesAbove_other	Expand {{count}} lines above
+review.diffViewer.expandLinesBelow_one	Expand {{count}} line below
+review.diffViewer.expandLinesBelow_other	Expand {{count}} lines below
+review.diffViewer.allLines_one	All {{count}} line
+review.diffViewer.allLines_other	All {{count}} lines
+review.diffViewer.expandAllLines	Expand all lines
+review.diffViewer.collapseExpandedLines	Collapse expanded lines
+review.diffViewer.noFilesInSection	No files in this section
+review.diffViewer.loadingDiff	Loading diff...
+review.diffViewer.noFileChangesFound	No file changes found.
+review.diffViewer.viewRenderedMarkdownDiff	View rendered markdown diff
+review.diffViewer.viewRawDiff	View code
+review.diffViewer.fileRenamed	Renamed
+review.diffViewer.loadingRenderedDiff	Loading rendered diff…
+review.diffViewer.failedToLoadRenderedDiff	Failed to load rendered diff.
+review.diffViewer.diffContentNotLoaded	Diff content not loaded
+review.diffViewer.failedToLoadDiff	Failed to load diff.
+review.diffViewer.copied	Copied!
+review.diffViewer.viewed	Mark as viewed
+review.diffViewer.viewedShort	Viewed
+review.diffViewer.moreActions	More actions
+review.diffViewer.viewOldFileOnProvider	View old file on {{provider}}
+review.diffViewer.viewNewFileOnProvider	View new file on {{provider}}
+review.diffViewer.fileNotOnMachine	This file isn't on Devin's machine
+review.diffViewer.loadingLines_one	Loading {{count}} line
+review.diffViewer.loadingLines_other	Loading {{count}} lines
+review.diffViewer.prCommenting	PR commenting
+review.diffViewer.commentOnThisPr	comment on this pull request
+review.diffViewer.testArtifacts.tests	Tests
+review.diffViewer.testArtifacts.code	Code
+review.diffViewer.testArtifacts.viewLabel	Show tests or code
+review.diffViewer.testArtifacts.testLabel	Test {{index}}
+review.diffViewer.testArtifacts.fileGroup	File
+review.diffViewer.testArtifacts.changeAdded	Added test
+review.diffViewer.testArtifacts.changeModified	Modified test
+review.diffViewer.testArtifacts.changeRemoved	Removed test
+review.ide.workingTree	working tree
+review.ide.openingDiff	Opening diff…
+review.ide.viewFile	View file
+review.ide.showFullFile	Show full file
+review.ide.collapseUnchanged	Collapse unchanged regions
+review.ide.showSideBySideDiff	Show side-by-side diff
+review.ide.showStackedDiff	Show stacked diff
+review.landmarks.reviewSidebar	Pull request review navigation
+review.sidebar.changes	Changes
+review.sidebar.files	Files
+review.sidebar.reviewers	Reviewers
+review.sidebar.assignees	Assignees
+review.sidebar.labels	Labels
+review.sidebar.addReviewer	Add reviewer
+review.sidebar.addAssignee	Add assignee
+review.sidebar.addLabel	Add label
+review.sidebar.searchLabels	Search labels...
+review.sidebar.noLabelsFound	No labels found
+review.sidebar.checksCount_one	{{count}} check
+review.sidebar.checksCount_other	{{count}} checks
+review.sidebar.collapseChecks	Collapse
+review.sidebar.expandChecks	Expand ({{count}} more)
+review.sidebar.sectionFiles_one	{{count}} file
+review.sidebar.sectionFiles_other	{{count}} files
+review.sidebar.checks	Checks
+review.sidebar.connectProviderAccount	Connect your {{provider}} account
+review.sidebar.contactAdminAcus	Contact your billing admin to add more ACUs.
+review.sidebar.contactAdminCredits	Contact your billing admin to add more on-demand credits.
+review.sidebar.settingsUnavailable	Review settings unavailable
+review.sidebar.settingsUnavailableDescription	Review settings couldn't be updated. Try again, or contact your admin if this continues.
+review.sidebar.flaggedForReview	Flagged for review
+review.sidebar.codePatternIssue	Code quality issue
+review.sidebar.hasComments	Has comments
+review.sidebar.informational	Informational
+review.sidebar.loadingLabels	Loading labels...
+review.sidebar.loadingUsers	Loading users...
+review.sidebar.markAllUnviewed	Mark all as unviewed
+review.sidebar.markAllViewed	Mark all as viewed
+review.sidebar.moreFiles_one	+{{count}} more file
+review.sidebar.moreFiles_other	+{{count}} more files
+review.sidebar.noAssignees	No assignees
+review.sidebar.noAvailableLabels	No available labels
+review.sidebar.noAvailableReviewers	No available reviewers
+review.sidebar.noAvailableUsers	No available users
+review.sidebar.noLabels	No labels assigned
+review.sidebar.noReviewers	No reviewers
+review.sidebar.noUsersFound	No users found
+review.sidebar.potentialBug	Potential bug
+review.sidebar.reRequestReview	Re-request review
+review.sidebar.readExplanation	Read explanation
+review.sidebar.requestedAsCodeOwner	Requested as code owner
+review.sidebar.required	Required
+review.sidebar.requiredReviewerCount_one	({{count}} required)
+review.sidebar.requiredReviewerCount_other	({{count}} required)
+review.sidebar.searchUsers	Search users...
+review.sidebar.showLess	Show less
+review.sidebar.reviewerStatus.approved	{{login}} approved these changes
+review.sidebar.reviewerStatus.changesRequested	{{login}} requested changes
+review.sidebar.reviewerStatus.commented	{{login}} left review comments
+review.sidebar.reviewerStatus.pending	Awaiting review from {{login}}
+review.sidebar.ciDurationSeconds	{{seconds}}s
+review.sidebar.ciDurationMinutes	{{minutes}}m {{seconds}}s
+review.sidebar.ciDurationHours	{{hours}}h {{minutes}}m
+review.sidebar.checksPassedCount_one	{{count}} passed
+review.sidebar.checksPassedCount_other	{{count}} passed
+review.sidebar.checksFailedCount_one	{{count}} failed
+review.sidebar.checksFailedCount_other	{{count}} failed
+review.sidebar.checksPendingCount_one	{{count}} pending
+review.sidebar.checksPendingCount_other	{{count}} pending
+review.sidebar.checksSkippedCount_one	{{count}} skipped
+review.sidebar.checksSkippedCount_other	{{count}} skipped
+review.jobProgress.analysisInProgress	PR analysis in progress
+review.jobProgress.analysisComplete	Analysis complete
+review.jobProgress.bugDetection	Bug detection
+review.jobProgress.codeQuality	Code quality
+review.jobProgress.securityReview	Security review
+review.jobProgress.spinningUpAgent	Spinning up agent
+review.jobProgress.finalizing	Finalizing
+review.jobProgress.thinking	Thinking...
+review.jobProgress.done	Done
+review.jobProgress.failed	Failed
+review.jobProgress.file	file
+review.jobProgress.viewResults	View results
+review.jobProgress.findingsToTriage_one	{{count}} finding for you to triage
+review.jobProgress.findingsToTriage_other	{{count}} findings for you to triage
+review.jobProgress.noFindingsToTriage	Nothing for you to triage
+review.jobProgress.reading	Reading
+review.jobProgress.read	Read
+review.jobProgress.running	Running
+review.jobProgress.ran	Ran
+review.jobProgress.searchingFor	Searching for
+review.jobProgress.searchedFor	Searched for
+review.jobProgress.findingFiles	Finding files
+review.jobProgress.foundFiles	Found files
+review.jobProgress.reportingBugs	Reporting bugs
+review.jobProgress.reportedBugs	Reported bugs
+review.jobProgress.consolidatingBugs	Consolidating bugs
+review.jobProgress.consolidatedBugs	Consolidated bugs
+review.jobProgress.findingFlags	Finding flags
+review.jobProgress.foundFlags	Found flags
+review.jobProgress.findingBadCodePatterns	Analyzing code quality
+review.jobProgress.codePatternIssues	Analyzed code quality
+review.jobProgress.reportingFlags	Reporting flags
+review.jobProgress.reportedFlags	Reported flags
+review.jobProgress.reportingSecurityIssues	Reporting security issues
+review.jobProgress.reportedSecurityIssues	Reported security issues
+review.jobProgress.findingSecurityIssues	Finding security issues
+review.jobProgress.foundSecurityIssues	Found security issues
+review.jobProgress.runningCustomReviewers	Running custom reviewers
+review.jobProgress.ranCustomReviewers	Ran custom reviewers
+review.jobProgress.checkingMergeReadiness	Checking merge readiness
+review.jobProgress.checkedMergeReadiness	Checked merge readiness
+review.jobProgress.readRulesFiles_one	{{verb}} {{count}} rules file
+review.jobProgress.readRulesFiles_other	{{verb}} {{count}} rules files
+review.jobProgress.noReviewMd	No REVIEW.md found
+review.jobProgress.readRulesFiles	rules files
+review.jobProgress.fetchingPr	Fetching PR
+review.jobProgress.fetchedPr	Fetched PR
+review.jobProgress.runningCmd	Running
+review.jobProgress.addReviewMd	Add a REVIEW.md to your repository with repository-specific instructions for code review.
+review.jobProgress.reviewMdFile	REVIEW.md
+review.jobError.analysisFailed	Analysis failed
+review.jobError.regenerate	Regenerate
+review.errors.prNotFound	Pull Request Not Found
+review.errors.prNotFoundDescription	The pull request #{{prNumber}} in <repoLink>{{repoName}}</repoLink> could not be found. It may have been deleted, or this Devin organization may not have access to view it.
+review.errors.prNotFoundDescription_public	The pull request #{{prNumber}} in public repository <repoLink>{{repoName}}</repoLink> could not be found. It may have been deleted, or this Devin organization may not have access to view it.
+review.errors.genericErrorDescription	Something went wrong while loading pull request #{{prNumber}} in <repoLink>{{repoName}}</repoLink>.
+review.errors.viewOnProvider	View on {{provider}}
+review.errors.goBack	Go Back
+review.errors.unableToLoadPRShort	Unable to load PR.
+review.errors.prTooLarge	This pull request changes too many files for {{provider}} to load it.
+review.errors.openOnHost	Open on {{host}}
+review.errors.prMalformed	The PR content appears to be malformed. Please try again.
+review.errors.unableToLoad	Unable to load pull request
+review.errors.rateLimited	API rate limit exceeded. Please try again in a few minutes.
+review.errors.networkError	Unable to connect. Check your internet connection and try again.
+review.errors.codeHostUnavailable	{{provider}} did not respond, so this pull request could not be loaded. Trying again automatically.
+review.agent.editsApplied_oneFile_one	Applied {{count}} edit across {{fileCount}} file
+review.agent.editsApplied_oneFile_other	Applied {{count}} edits across {{fileCount}} file
+review.agent.editsApplied_manyFiles_one	Applied {{count}} edit across {{fileCount}} files
+review.agent.editsApplied_manyFiles_other	Applied {{count}} edits across {{fileCount}} files
+review.agent.retrySettings	Retry
+review.agent.welcomeMessage	Hey! I'm Devin. I've analyzed this PR and I'm ready to help. Ask me about the changes, or request edits directly.
+review.agent.newChat	New chat
+review.agent.readFile	Read {{fileName}}
+review.agent.greppedCodebase	Grepped codebase
+review.agent.greppedFor	Grepped {{pattern}}
+review.agent.searchedKnowledgeBase	Searched knowledge base
+review.agent.checkedPRStack	Checked PR stack
+review.agent.checkingPRStack	Checking PR stack
+review.agent.sendMessage	Send message
+review.agent.reviewMessageComposer	Review message composer
+review.agent.stopGenerating	Stop generating
+review.agent.thinkingEllipsis	Thinking...
+review.agent.waitingForQuestions	Waiting for questions
+review.agent.addToChat	Add to Chat
+review.agent.applyEditsDefault	Apply {{edits}} across {{files}}
+review.agent.askDevin	Ask Devin
+review.agent.chat	Chat
+review.agent.chatHistory	Chat history
+review.agent.deleteChat	Delete chat
+review.agent.chatDeleted	Chat deleted
+review.agent.chatBillingTooltip	Chats are billed to the billing org of the displayed job.
+review.agent.checkedCiStatus	Checked CI status
+review.agent.checkingCiStatus	Checking CI status
+review.agent.commentPosted	Comment posted
+review.agent.commit	Commit
+review.agent.commitChanges	Commit Changes
+review.agent.commitFailedForFile	Failed to commit {{file}}: {{error}} Files before it were committed; it and the rest are still pending, so you can retry.
+review.agent.commitMessage	Commit message
+review.agent.commitMessageRequired	Commit message required
+review.agent.commitPerFile	This git provider commits one file at a time, so each file becomes its own commit with this message.
+review.agent.commitUnsupported	Committing changes isn't supported for this git provider yet. Apply the proposed changes manually.
+review.agent.committing	Committing...
+review.agent.contactAdminAcus	Contact your billing admin to add more ACUs.
+review.agent.contactAdminCredits	Contact your billing admin to add more on-demand credits.
+review.agent.discard	Discard
+review.agent.editCountAcrossFiles	{{edits}} across {{files}}
+review.agent.editLabel_one	{{count}} edit
+review.agent.editLabel_other	{{count}} edits
+review.agent.fileLabel_one	{{count}} file
+review.agent.fileLabel_other	{{count}} files
+review.agent.proposedChanges	Proposed Changes
+review.agent.explainArchitecture	Explain architecture
+review.agent.explainArchitecturePrompt	Explain the architecture decisions
+review.agent.failedToApplyEdits	Failed to apply edits
+review.agent.failedToPostComment	Failed to post comment
+review.agent.fetchedCiLogs	Fetched CI logs for job {{jobId}}
+review.agent.fetchingCiLogs	Fetching CI logs for job {{jobId}}
+review.agent.fileCount_one	{{count}} file
+review.agent.fileCount_other	{{count}} files
+review.agent.fixBugs	Fix bugs
+review.agent.fixBugsPrompt	Fix the bugs found in this PR
+review.agent.removeMention	Remove mention
+review.agent.unnamedChat	Unnamed
+review.agent.getMoreAcus	Get more ACUs
+review.agent.getMoreCredits	Get more on-demand credits
+review.agent.greppingCodebase	Grepping codebase
+review.agent.greppingFor	Grepping {{pattern}}
+review.agent.increaseAcuLimit	Increase the ACU limit
+review.agent.maxIterationsReached	Reached max tool calls — send another message to continue
+review.agent.noNetChanges	No net changes to apply
+review.agent.openPlayground	Open playground
+review.agent.orgAcuLimitContactAdmin	An enterprise admin must increase the ACU limit for your organization.
+review.agent.orgGroupAcuLimitContactAdmin	An enterprise admin must increase the ACU limit for your organization's group.
+review.agent.orgDollarLimitReachedTitle	Organization spend limit reached
+review.agent.increaseDollarLimit	Increase the spend limit
+review.agent.orgDollarLimitContactAdmin	An enterprise admin must increase the spend limit for your organization.
+review.agent.orgGroupDollarLimitContactAdmin	An enterprise admin must increase the spend limit for your organization's group.
+review.agent.orgAcuLimitDescriptionChat	Your organization has reached its ACU limit, so Devin can't chat about this PR.
+review.agent.orgAcuLimitDescriptionChatWithUsage	{{orgName}} has used {{used}} of its {{cap}} ACU limit this billing cycle, so Devin can't chat about this PR.
+review.agent.orgGroupAcuLimitDescriptionChat	Your organization's group has reached its ACU limit, so Devin can't chat about this PR.
+review.agent.orgGroupAcuLimitDescriptionChatWithUsage	{{orgName}}'s organization group has used {{used}} of its {{cap}} ACU limit this billing cycle, so Devin can't chat about this PR.
+review.agent.orgDollarLimitDescriptionChatWithUsage	Your organization has used {{used}} of its {{cap}} spend limit this billing cycle, so Devin can't chat about this PR.
+review.agent.orgGroupDollarLimitDescriptionChatWithUsage	Your organization's group has used {{used}} of its {{cap}} spend limit this billing cycle, so Devin can't chat about this PR.
+review.agent.orgDollarLimitDescriptionChatWithOrgAndUsage	{{orgName}} has used {{used}} of its {{cap}} spend limit this billing cycle, so Devin can't chat about this PR.
+review.agent.orgGroupDollarLimitDescriptionChatWithOrgAndUsage	{{orgName}}'s organization group has used {{used}} of its {{cap}} spend limit this billing cycle, so Devin can't chat about this PR.
+review.agent.orgDollarLimitDescriptionChat	Your organization has reached its spend limit, so Devin can't chat about this PR.
+review.agent.orgGroupDollarLimitDescriptionChat	Your organization's group has reached its spend limit, so Devin can't chat about this PR.
+review.agent.orgAcuLimitReachedTitle	Organization ACU limit reached
+review.agent.placeholder	Ask anything about this PR...
+review.agent.playground	Playground
+review.agent.postingComment	Posting comment
+review.agent.purchaseAcusChat	Purchase more to chat with Devin about this PR.
+review.agent.purchaseCreditsChat	Purchase more on-demand credits to chat with Devin about this PR.
+review.agent.readingFile	Reading {{fileName}}
+review.agent.review	Review
+review.agent.searchingKnowledgeBase	Searching knowledge base
+review.agent.suggestedPrompts	Suggested prompts
+review.agent.summarizeChanges	Summarize changes
+review.agent.summarizeChangesPrompt	Summarize the key changes
+review.agent.viewBugs	View bugs
+review.agent.viewJobOnGithub	View job {{jobId}} on GitHub
+review.agent.viewOnGithub	View on GitHub
+review.agent.chatPanel	Chat panel
+review.agent.closePanel	Close panel
+review.agent.usedAllCredits	You’ve used all your on-demand credits
+review.agent.usedAllAcus	You’ve used all your ACUs
+review.checksPanel.close	Close
+review.headerActions.prAndSessionLinks	Pull request and session links
+review.headerActions.collapseSidebar	Collapse sidebar
+review.headerActions.expandSidebar	Expand sidebar
+review.headerActions.signIn	Sign in
+review.headerActions.comment	Comment
+review.headerActions.approve	Approve
+review.headerActions.requestChanges	Request changes
+review.headerActions.discardReview	Discard review
+review.headerActions.pendingComments_one	{{count}} pending comment
+review.headerActions.pendingComments_other	{{count}} pending comments
+review.headerActions.openInProvider	Open in {{provider}}
+review.headerActions.devinReview	Devin Review
+review.headerActions.devinDesktop	Devin Desktop
+review.headerActions.reviewRunning	Devin is analyzing…
+review.headerActions.reviewRunningTooltip	See analysis progress
+review.headerActions.seeChanges	See changes
+review.headerActions.switchToLatest	Switch to latest
+review.headerActions.pinnedOlderAnalysis	This link shows the analysis for commit {{sha}}, not the latest commit on this PR
+review.headerActions.moreActions	More actions
+review.headerActions.all	All
+review.headerActions.allDiscussionsResolved	All discussions resolved
+review.headerActions.analysisComplete	Analysis complete
+review.headerActions.analysisInProgress	Analysis in progress...
+review.headerActions.approveDescription	Submit feedback and approve merging these changes
+review.headerActions.autoReviewThisPr	Analyze this PR automatically
+review.headerActions.cannotApproveOwn	You cannot approve your own pull request
+review.headerActions.cannotRequestChangesOwn	You cannot request changes on your own pull request
+review.headerActions.closeReview	Close review
+review.headerActions.closedState	closed
+review.headerActions.commentDescription	Submit general feedback without explicit approval
+review.headerActions.configureReviewSettings	Review settings
+review.headerActions.personalSettings	Personal settings
+review.headerActions.connectProvider	Connect {{provider}}
+review.headerActions.copyLinkToPr	Copy link to PR
+review.headerActions.quotePr	Quote PR in chat
+review.headerActions.current	Current
+review.headerActions.deletePendingComment	Delete comment
+review.headerActions.discarding	Discarding
+review.headerActions.filter	Filter
+review.headerActions.filterComments	Filter comments
+review.headerActions.mergedState	merged
+review.headerActions.newCommitsAvailable	New commits available
+review.headerActions.newCommit	New commit
+review.headerActions.viewLatestCommit	View latest commit
+review.headerActions.newAnalysis	New analysis
+review.headerActions.newCommitAnalyzing	New commit pushed, analysis in progress. Click to view its code now.
+review.headerActions.newAnalysisFindings_one	Analysis finished with {{count}} finding. Click to view it.
+review.headerActions.newAnalysisFindings_other	Analysis finished with {{count}} findings. Click to view it.
+review.headerActions.noCommentsFound	No comments found
+review.headerActions.noCreditsForAnalysis	You don't have credits available to run analysis
+review.headerActions.openDevinSession	Open Devin session
+review.headerActions.openSlackThread	Open Slack thread
+review.headerActions.slackThread	Slack thread
+review.headerActions.pendingComments	Pending comments
+review.headerActions.prClosedMessage	This pull request has been {{state}}. You can still leave comments.
+review.headerActions.prReviewing	PR Reviewing
+review.headerActions.reAnalyze	Re-analyze
+review.headerActions.refreshToView	Refresh to view
+review.headerActions.requestChangesDescription	Submit feedback that must be addressed before merging
+review.headerActions.resolved	Resolved
+review.headerActions.review	Review
+review.headerActions.reviewThisPr	review this pull request
+review.headerActions.savingCommentChanges	Saving comment changes...
+review.headerActions.searchComments	Search comments
+review.headerActions.session	Session
+review.headerActions.submit	Submit
+review.headerActions.submitting	Submitting
+review.headerActions.unresolved	Unresolved
+review.headerActions.unresolvedComments	Unresolved comments
+review.headerActions.writeComment	Write a comment
+review.headerActions.writeYourReview	Write your review
+review.headerActions.goToSession	Go to session
+review.headerActions.goToSlackThread	Go to Slack thread
+review.headerActions.goToPullRequest	Go to pull request
+review.headerActions.runAnalysisOnLatest	Run analysis on latest
+review.headerActions.reviewTrigger	Analysis trigger
+review.headerActions.reviewHistory	Analysis history
+review.headerActions.latest	Latest
+review.headerActions.copyPrNumber	Copy pull request number
+review.headerActions.copyPrTitle	Copy pull request title
+review.headerActions.copyPrDescription	Copy pull request description
+review.headerActions.copyProviderPrUrl	Copy {{provider}} URL
+review.headerActions.copyDevinReviewUrl	Copy Devin Review URL
+review.headerActions.turnOnAutoReviewThisPr	Turn on automatic analysis for this PR
+review.headerActions.turnOffAutoReviewThisPr	Turn off automatic analysis for this PR
+review.headerActions.reviewTriggerOption	Analysis trigger: {{option}}
+review.merge.createMergeCommit	Create a merge commit
+review.merge.createMergeCommitShort	Create merge commit
+review.merge.squashAndMerge	Squash and merge
+review.merge.rebaseAndMerge	Rebase and merge
+review.merge.merge	Merge
+review.merge.mergeCount	Merge {{count}}
+review.merge.squashAndMergeCount	Squash and merge {{count}}
+review.merge.rebaseAndMergeCount	Rebase and merge {{count}}
+review.merge.merging	Merging
+review.merge.pullRequestMerged	Pull request merged
+review.merge.queuedToMerge	Queued to merge
+review.merge.readyForReview	Ready for review
+review.merge.markReadyForReview	Mark ready for review
+review.merge.marking	Marking
+review.merge.removeFromQueue	Remove from queue
+review.merge.removingFromQueue	Removing
+review.merge.autoMergeEnabledBy	Auto-merge enabled by {{login}}
+review.merge.autoMergeShort	Auto-merge
+review.merge.autoMergeEnabled	Auto-merge enabled
+review.merge.mergeQueueWhenChecksPass	Will enter the merge queue when checks pass
+review.merge.disableAutoMerge	Disable auto-merge
+review.merge.disabling	Disabling
+review.merge.queueing	Queueing
+review.merge.enableAutoMerge	Enable auto-merge
+review.merge.approvalRequired	Approval required
+review.merge.enabling	Enabling

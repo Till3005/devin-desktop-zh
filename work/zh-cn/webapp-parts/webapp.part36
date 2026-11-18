@@ -1,0 +1,500 @@
+translation.scanConnections.secretValue	Value
+translation.scanConnections.secretNameDescription	Saved as an org secret before the session starts; Devin reads it by name
+translation.scanConnections.chooseFile	Choose a CSV file
+translation.scanConnections.errorRequired	Please fill in this field to continue
+translation.scanConnections.errorUrl	Please enter a URL starting with https://
+translation.scanConnections.errorSecret	Secret required
+translation.scanConnections.errorSecretName	Please enter a name like SNYK_API_TOKEN
+translation.scanConnections.errorDuplicateSecretName	Another field uses this name. Give the new secret a different name.
+translation.scanConnections.errorSecretValue	Secret value required
+translation.scanConnections.errorFile	Choose one CSV file to continue.
+translation.scanConnections.errorAlertTypes	Please select at least one alert type
+translation.scanConnections.connectFailed	Couldn't connect the source
+translation.scanConnections.connectionAdded	Connection added
+translation.scanConnections.apiToken	API token
+translation.scanConnections.apiKey	API key
+translation.scanConnections.apiUrl	API URL
+translation.scanConnections.snyk	Snyk
+translation.scanConnections.snykDescription	Open source, code and container issues
+translation.scanConnections.snykOrgId	Snyk organization ID
+translation.scanConnections.snykOrgIdDescription	Settings → General in Snyk
+translation.scanConnections.snykApiUrlDescription	Set for a regional or self-hosted Snyk
+translation.scanConnections.zafran	Zafran
+translation.scanConnections.zafranDescription	Exposure findings with runtime context
+translation.scanConnections.wiz	Wiz
+translation.scanConnections.wizDescription	Cloud issues and vulnerabilities
+translation.scanConnections.wizApiUrl	GraphQL endpoint
+translation.scanConnections.wizApiUrlDescription	Your tenant's API endpoint from Settings → Tenant
+translation.scanConnections.wizClientId	Client ID
+translation.scanConnections.wizClientSecret	Client secret
+translation.scanConnections.wizClientSecretInfo	Scopes the service account needs
+translation.scanConnections.github	GitHub
+translation.scanConnections.githubDescription	Code scanning, Dependabot and secret alerts
+translation.scanConnections.githubRepos	Repositories
+translation.scanConnections.githubReposDescription	Comma-separated; leave empty for every connected repository
+translation.scanConnections.githubAlertTypes	Alert types
+translation.scanConnections.githubCodeScanning	Code scanning
+translation.scanConnections.githubDependabot	Dependabot
+translation.scanConnections.githubSecretScanning	Secret scanning
+translation.scanConnections.githubApiUrl	GitHub API URL
+translation.scanConnections.githubApiUrlDescription	Leave empty for github.com; set https://HOST/api/v3 for GitHub Enterprise Server
+translation.scanConnections.githubToken	GitHub token
+translation.scanConnections.armorcode	ArmorCode
+translation.scanConnections.armorcodeDescription	Aggregated findings across your tools
+translation.scanConnections.sonarqube	SonarQube
+translation.scanConnections.sonarqubeDescription	Issues and security hotspots
+translation.scanConnections.sonarqubeServerUrl	Server URL
+translation.scanConnections.sonarqubeProjectKey	Project key
+translation.scanConnections.sonarqubeToken	User token
+translation.scanConnections.socket	Socket
+translation.scanConnections.socketDescription	Supply chain alerts on your dependencies
+translation.scanConnections.socketOrgSlug	Organization slug
+translation.scanConnections.socketOrgSlugDescription	The organization segment of your Socket dashboard URL
+translation.scanConnections.jfrog	JFrog
+translation.scanConnections.jfrogDescription	Security violations from Xray watches
+translation.scanConnections.jfrogServerUrl	JFrog Platform URL
+translation.scanConnections.jfrogWatch	Xray watch
+translation.scanConnections.jfrogWatchDescription	Leave empty for every watch
+translation.scanConnections.jfrogAccessToken	Access token
+translation.scanConnections.blackduck	Black Duck
+translation.scanConnections.blackduckDescription	Vulnerable components in a project version
+translation.scanConnections.blackduckServerUrl	Server URL
+translation.scanConnections.blackduckProject	Project
+translation.scanConnections.blackduckVersion	Version
+translation.scanConnections.blackduckVersionDescription	Leave empty for the newest version
+translation.scanConnections.blackduckToken	API token
+translation.scanConnections.veracode	Veracode
+translation.scanConnections.veracodeDescription	Static, dynamic and SCA findings from a Veracode application
+translation.scanConnections.veracodeApplicationGuid	Application GUID
+translation.scanConnections.veracodeApplicationGuidDescription	From the application's profile in Veracode
+translation.scanConnections.veracodeApiId	API ID
+translation.scanConnections.veracodeApiKey	API secret key
+translation.scanConnections.veracodeApiKeyDescription	An API user with the Results API role; add Mitigation API for reopening
+translation.scanConnections.vanta	Vanta
+translation.scanConnections.vantaDescription	Vulnerabilities tracked in your compliance program
+translation.scanConnections.vantaApiUrlDescription	Set for a Vanta Gov (FedRAMP) tenant: https://api.vanta-gov.com
+translation.scanConnections.clientId	Client ID
+translation.scanConnections.clientSecret	Client secret
+translation.scanConnections.jira	Jira
+translation.scanConnections.jiraDescription	Issues tracked in a Jira project
+translation.scanConnections.jiraSiteUrl	Site URL
+translation.scanConnections.jiraSiteUrlDescription	Your Jira Cloud address, like https://acme.atlassian.net
+translation.scanConnections.jiraProjectKey	Project key
+translation.scanConnections.jiraProjectKeyDescription	The prefix of the project's issue keys, like SEC in SEC-123
+translation.scanConnections.jiraEmail	Account email
+translation.scanConnections.jiraEmailDescription	The Atlassian account the API token belongs to
+translation.scanConnections.jiraApiTokenDescription	An API token from Security → API tokens in your Atlassian account
+translation.scanConnections.linear	Linear
+translation.scanConnections.linearDescription	Issues tracked by a Linear team
+translation.scanConnections.linearTeamKey	Team key
+translation.scanConnections.linearTeamKeyDescription	The prefix of the team's issue IDs, like SEC in SEC-123
+translation.scanConnections.linearApiKeyDescription	A personal API key from Settings → Security & access in Linear
+translation.scanConnections.csv	CSV
+translation.scanConnections.csvDescription	Upload an export from any tool
+translation.scanConnections.csvFile	File
+translation.scanConnections.csvFileDescription	Devin maps the columns; include at least a title, severity and location
+translation.scanConnections.custom	Custom
+translation.scanConnections.customDescription	Describe any other source for Devin
+translation.scanConnections.customSource	Where your findings live
+translation.scanConnections.customSourceDescription	How Devin should fetch them: an API, a report in the repo, a shared file
+translation.scanConnections.customSourcePlaceholder	e.g. Fetch open alerts from our Semgrep deployment via the REST API, or read the report committed at reports/semgrep.json
+translation.scanConnections.connectionName	Connection name
+translation.scanConnections.connectionNamePlaceholder	e.g. Semgrep
+translation.scanConnections.instructions	Instructions
+translation.scanConnections.instructionsDescription	Optional guidance for Devin's import, e.g. a particular repo or severity level to focus on
+translation.securityWelcome.title	Introducing Devin Security
+translation.securityWelcome.description	Find vulnerabilities in your codebase and understand what they could lead to. Devin Security helps you prioritize the most critical findings, investigate the risks, and turn fixes into pull requests ready for review.
+translation.securityWelcome.dismiss	Dismiss
+translation.wikiSidebar.noPagesYet	No pages yet
+translation.wikiSidebar.tableOfContents	Table of contents
+translation.wikiSidebar.repoNote	Repo Note
+translation.windsurfReturn.accountHasAccess	You can use {{productName}} with this account.
+translation.windsurfReturn.returnTo	Return to {{productName}}
+translation.workItems.connect	Connect {{tracker}}
+translation.workItems.connectFailed	Could not start the connection to the tracker
+translation.workItems.fieldAssignee	Assignee
+translation.workItems.fieldParent	Parent
+translation.workItems.fieldPriority	Priority
+translation.workItems.fieldProject	Project
+translation.workItems.fieldReporter	Reporter
+translation.workItems.fieldStatus	Status
+translation.workItems.fieldType	Type
+translation.workItems.fieldUpdated	Updated
+translation.workItems.hidden	Not visible to you
+translation.workItems.hiddenIn	Hidden in {{tracker}}
+translation.workItems.linkAmbiguous	This key matches items in more than one tracker. Paste the item URL instead.
+translation.workItems.linkFailed	Could not link the work item
+translation.workItems.linkNoAccess	You don't have access to link this work item
+translation.workItems.linkNotFound	Not found
+translation.workItems.needsCredential	Connect your tracker account to see this item
+translation.workItems.oauthClientSecretRejected	Jira rejected the client secret of this connection. Ask an admin to correct it in the tracker settings.
+translation.workItems.oauthDenied	Jira access was not granted
+translation.workItems.oauthFailed	Could not connect to Jira
+translation.workItems.openInJira	Open in Jira
+translation.workItems.openInTracker	Open in tracker
+translation.workItems.unavailable	unavailable
+translation.workItems.unavailableDetail	The tracker is not available. Try again later.
+translation.workItems.unlinkFailed	Could not unlink the work item
+translation.workItems.searchPlaceholder	Search by key or title, or paste a URL
+translation.workItems.noResults	No work items found
+translation.workItems.searching	Searching…
+translation.workItems.linkReference	Link "{{reference}}"
+translation.workItems.unlinkItem	Unlink {{key}}
+translation.worklog.botSetupSlackQuestion	Which channels should I keep up with?
+translation.worklog.botSetupSlackJobQuestion	Which channels should I watch for {{job}}?
+translation.worklog.botSetupChannelsSelected_one	{{count}} channel selected
+translation.worklog.botSetupChannelsSelected_other	{{count}} channels selected
+translation.worklog.botSetupMembers_one	{{count}} member
+translation.worklog.botSetupMembers_other	{{count}} members
+translation.worklog.botSetupSearchChannels	Search channels
+translation.worklog.botSetupNoChannelsMatch	No channels match
+translation.worklog.botSetupChannelsUnavailable	Connect Slack in Settings to pick channels.
+translation.worklog.botSetupNotConnected	Slack isn't connected for this organization.
+translation.worklog.botSetupNotLinked	Your Slack account isn't linked to Devin yet.
+translation.worklog.botSetupNoChannels	No Slack channels that both you and Devin are in. Join one and invite @Devin to it, then try again.
+translation.worklog.botSetupLoadFailed	Couldn't load Slack channels. Reload to try again.
+translation.worklog.botSetupUnsupportedHost	Pick channels in the Devin web app.
+translation.worklog.botSetupConnectSlack	Connect Slack
+translation.worklog.botSetupLinkSlack	Link Slack account
+translation.worklog.botSetupSlackSettings	Slack settings
+translation.worklog.botSetupConfirm	Confirm
+translation.worklog.botSetupCancel	Cancel
+translation.worklog.botSetupEdit	Edit
+translation.worklog.optionsPicked	Picked
+translation.worklog.optionsPickFailed	Couldn't send that. Try again.
+translation.worklog.optionsBotIdeasTitle	Put this {{botName}} to work
+translation.worklog.accepted	Accepted
+translation.worklog.allowOnce	Allow once
+translation.worklog.allowForSession	Allow for this session
+translation.worklog.shareSessionNotAllowed	This session can't be shared
+translation.worklog.shareSessionRead	Read
+translation.worklog.shareSessionReadWrite	Read/write
+translation.worklog.shareSessionTitle	Share this session with {{name}}?
+translation.worklog.notifyMentionTitle	Notify {{name}} that you mentioned them?
+translation.worklog.shareSessionTitleUnnamed	Share this session with the person you mentioned?
+translation.worklog.notifyMentionTitleUnnamed	Notify the person you mentioned?
+translation.worklog.notifyMentionConfirm	Notify
+translation.worklog.notifyMentionSkip	Not now
+translation.worklog.shareSessionSkip	Don't share
+translation.worklog.activatedSkill	Activated skill:
+translation.worklog.replyThreadViewOriginal	View original message
+translation.worklog.replyThreadViewOriginalWithPreview	View original message: {{message}}
+translation.worklog.replyThreadPlaceholder	Reply…
+translation.worklog.sessionBoundToSlack	Started by {{botName}} · Bound to {{place}}
+translation.worklog.sessionThreadParentTitle	Parent: {{botName}}
+translation.worklog.sessionThreadOtherBot_one	View {{count}} message with another {{botName}}
+translation.worklog.sessionThreadOtherBot_other	View {{count}} messages with another {{botName}}
+translation.worklog.sessionThreadWithBot_one	{{count}} message with {{botName}}
+translation.worklog.sessionThreadWithBot_other	{{count}} messages with {{botName}}
+translation.worklog.botAutomationCreated	Created automation <name>{{name}}</name>
+translation.worklog.inboxRequiresAttention	Needs you
+translation.worklog.replyThreadRestoreDraft	Restore draft
+translation.worklog.replyThreadSendFailed	Failed to send reply.
+translation.worklog.replyThreadSendUnconfirmed	Your reply may not have been sent. It will show in the thread if it was.
+translation.worklog.viewPlugin	View plugin
+translation.worklog.memoryApprovalLabel	Personal memory
+translation.worklog.memoryApprovalTitle	Let {{name}} read your personal memory
+translation.worklog.memoryApprovalBody	Everyone who uses {{name}} will see what it reads. It can never change your notes, and you can remove access anytime in Manage access.
+translation.worklog.memoryApprovalOnlyMember	Only {{member}} can approve this request.
+translation.worklog.memoryApprovalInboxTitle	Read a member's personal memory
+translation.worklog.memoryApprovalInboxDescription	Read only; only that member can approve. Everyone who uses this {{botName}} will see what it reads.
+translation.worklog.pluginApprovalCreate	Create {{kind}} {{name}}
+translation.worklog.pluginApprovalUpdate	Update {{kind}} {{name}}
+translation.worklog.pluginApprovalRemove	Remove {{kind}} {{name}}
+translation.worklog.pluginApprovalInstall	Install plugin
+translation.worklog.pluginApprovalUninstall	Uninstall plugin {{name}}
+translation.worklog.pluginApprovalFailed	Failed
+translation.worklog.pluginApprovalInvalidJson	The stored plugin or the proposed content is not valid JSON, so this write would be rejected.
+translation.worklog.pluginApprovalNoContent	This request carries no content to show.
+translation.worklog.pluginApprovalStoredUnavailable	Could not read the stored plugin; showing the proposed files on their own.
+translation.worklog.acusValue	{{acus}} ACUs
+translation.worklog.addToEnvironment	Add to environment
+translation.worklog.addedToEnvironment	Added to environment
+translation.worklog.addingToEnvironment	Adding to environment…
+translation.worklog.agentsDoneOfTotal	{{done}}/{{total}} agents
+translation.worklog.allLines_one	All {{count}} line
+translation.worklog.allLines_other	All {{count}} lines
+translation.worklog.alreadyIndexedAndSearchable	Already indexed and searchable.
+translation.worklog.applying	Applying…
+translation.worklog.applyingChanges	Applying changes…
+translation.worklog.approveAndAlwaysAllow	Approve and always allow
+translation.worklog.approveChanges	Approve changes
+translation.worklog.approved	Approved
+translation.worklog.unableToPreviewAttachment	Unable to preview this attachment.
+translation.worklog.attentionRampUsers	ATTENTION RAMP USERS: please consult the following guide to resolve this issue for ramp/core:
+translation.worklog.autoRunForThisSession	Auto-run for this session
+translation.worklog.blueprintPrCreatedForScope	Blueprint PR created for {{scope}}
+translation.worklog.browserProfileSavedToPath	Browser profile saved to <path>{{path}}</path>
+translation.worklog.browserProfileSavedToOrgNotice	This browser profile is saved to your organization — other users in your org can start sessions that load it, including any saved logins, cookies, or session tokens it contains.
+translation.worklog.calledToolOn	Called {{toolName}} on {{target}}
+translation.worklog.callingToolOn	Calling {{toolName}} on {{target}}
+translation.worklog.mcpServerCallFailed	The MCP server call failed.
+translation.worklog.viewMcpServerLog	View server log
+translation.worklog.viewMcpServerLogTooltip	Open the MCP server's stderr log from the session machine (secret values redacted)
+translation.worklog.cancel	Cancel
+translation.worklog.changeSecurityProfile	Change security profile
+translation.worklog.changingProfileClearsNetworkOverride	This session has a custom network policy override. Changing the security profile will remove it and the session will use the new profile's network policy.
+translation.worklog.changesApplyOncePrMerged	Changes apply once the PR is merged
+translation.worklog.checkWorkspaceCleanStartupCommands	Check the workspace is clean and double-check the startup commands in <settingsLink>settings</settingsLink>.
+translation.worklog.chooseSecurityProfileGoverns	Choose which security profile governs this session
+translation.worklog.collapse	Collapse
+translation.worklog.columnNumber	Column {{number}}
+translation.worklog.tablePreviewLimitedColumns	Preview limited to {{visibleColumns}} of {{totalColumns}} columns
+translation.worklog.tablePreviewLimitedRows	Preview limited to {{visibleRows}} of {{totalRows}} rows
+translation.worklog.tablePreviewLimitedRowsAndColumns	Preview limited to {{visibleRows}} of {{totalRows}} rows and {{visibleColumns}} of {{totalColumns}} columns
+translation.worklog.wrapCellText	Wrap cell text
+translation.worklog.truncateCellText	Truncate cell text
+translation.worklog.configureMcpServer	Configure MCP server
+translation.worklog.networkConfigAppliesToSquad	Changes to allowed destinations apply to all of this {{botName}}'s sessions, including the sessions it starts.
+translation.worklog.networkConfigAppliesToSquad_named	Changes to allowed destinations apply to all of {{botName}}'s sessions, including the sessions it starts.
+translation.worklog.networkConfigDescriptionNextWake	Configure which network destinations this session can access. The updated config will apply the next time this session is woken up
+translation.worklog.networkConfigDescriptionWithoutSleep	Configure which network destinations this session can access. Changes apply to the running session without putting it to sleep
+translation.worklog.networkConfigDescriptionWillSleep	Configure which network destinations this session can access. Saving will put Devin to sleep — send a new message to wake up with the updated config
+translation.worklog.connect	Connect
+translation.worklog.connectLocalMachineFallback	Connect your local machine with the Devin CLI to continue.
+translation.worklog.connected	Connected
+translation.worklog.connecting	Connecting…
+translation.worklog.copyCommand	Copy command
+translation.worklog.couldNotIndex	Could not index {{repoLabel}}
+translation.worklog.couldntLoadProfiles	Couldn't load profiles.
+translation.worklog.otherAnswers	Other answers
+translation.worklog.countMore	{{count}} more
+translation.worklog.countMoreAskAdmin	{{count}} more — ask an admin to check the build logs
+translation.worklog.createPlaybook	Create playbook
+translation.worklog.createPr	Create PR
+translation.worklog.createdSessionsSuccessfully_one	Created {{count}} session successfully
+translation.worklog.createdSessionsSuccessfully_other	Created {{count}} sessions successfully
+translation.worklog.creatingPr	Creating PR…
+translation.worklog.current	Current
+translation.worklog.deactivatedSkill	Deactivated skill:
+translation.worklog.deleting	Deleting…
+translation.worklog.denied	Denied
+translation.worklog.devinCanChooseModel	Devin can choose a model for child sessions.
+translation.worklog.devinCanChooseModelChangeable	Devin can choose a model for child sessions. You can change it when approving.
+translation.worklog.devinSessionIntrospectionToolUsed	Devin session introspection tool used
+translation.worklog.workItemLinked	Linked <item>{{key}}</item> by {{actor}}
+translation.worklog.workItemUnlinked	Unlinked <item>{{key}}</item> by {{actor}}
+translation.worklog.workItemDetected	Linked <item>{{key}}</item> from a message
+translation.worklog.workItemActorTeammate	a teammate
+translation.worklog.workItemActorAutomation	an automation
+translation.worklog.devinWantsToCreateSessions_one	Devin wants to create {{count}} new session
+translation.worklog.devinWantsToCreateSessions_other	Devin wants to create {{count}} new sessions
+translation.worklog.diffTruncatedCaption	Diff truncated: exceeds size cap
+translation.worklog.diffTruncatedParen	(diff truncated: exceeds size cap)
+translation.worklog.docs	Docs
+translation.worklog.dontIndexNoun	Don't index {{noun}}
+translation.worklog.doubleCheckMaintenanceCommands	Double-check the maintenance commands in your <settingsLink>environment settings</settingsLink>.
+translation.worklog.downloadTheFullFile	Download the full file
+translation.worklog.enableNetworkControls	Enable network controls
+translation.worklog.initialMessageExample	e.g. Review the latest support tickets
+translation.worklog.sessionTitleExample	e.g. Review the onboarding flow
+translation.worklog.enterpriseBlueprint	Enterprise blueprint
+translation.worklog.envConfigChangedSinceSuggestion	Environment config changed since this suggestion
+translation.worklog.envConfigEditedReviewCombined	Someone edited the environment config after this suggestion was created. Review the combined result below before saving.
+translation.worklog.canonicalSuggestionTitle	This suggestion changes the canonical blueprint
+translation.worklog.canonicalSuggestionFollowers_one	This repository follows its canonical blueprint, so the change is saved there. {{count}} environment follows it and will be rebuilt. Review the result below before saving.
+translation.worklog.canonicalSuggestionFollowers_other	This repository follows its canonical blueprint, so the change is saved there. {{count}} environments follow it and will be rebuilt. Review the result below before saving.
+translation.worklog.canonicalUpdateFollowers_one	This suggestion edits a repository that follows its canonical blueprint, so the change is saved there. {{count}} environment follows it and will be rebuilt.
+translation.worklog.canonicalUpdateFollowers_other	This suggestion edits a repository that follows its canonical blueprint, so the change is saved there. {{count}} environments follow it and will be rebuilt.
+translation.worklog.saveToCanonicalBlueprint	Save to canonical blueprint
+translation.worklog.environmentIsSetUp	environment is set up
+translation.worklog.blueprintsAreSetUp	Blueprints are set up
+translation.worklog.expand	Expand
+translation.worklog.expandAllLines	Expand all lines
+translation.worklog.failedToAddRepositoryToEnvironment	Failed to add repository to environment
+translation.worklog.failedToGenerateWiki	Failed to generate wiki
+translation.worklog.failedToDenyNetworkRequest	Failed to deny the network access request.
+translation.worklog.failedToReviseCommand	Failed to rewrite the command. Please try again.
+translation.worklog.failedToStopCommand	Failed to stop the command. Please try again.
+translation.worklog.failedToStopSubagent	Failed to stop the subagent. Please try again.
+translation.worklog.failedToLoadFileContent	Failed to load file content
+translation.worklog.failedToLoadNetworkConfig	Failed to load network config.
+translation.worklog.failedToLoadProfileChanges	Failed to load profile changes
+translation.worklog.failedToLoadSecurityProfile	Failed to load security profile.
+translation.worklog.failedToUpdateNetworkConfig	Failed to update network config.
+translation.worklog.failedToUpdateProfile	Failed to update the profile
+translation.worklog.failedToUpdateSecurityProfile	Failed to update security profile.
+translation.worklog.failedToUpdateTestingPreference	Failed to update testing preference. Please try again.
+translation.worklog.generatedWiki	Generated wiki
+translation.worklog.generatingWiki	Generating wiki
+translation.worklog.howContinueManageIndexing	How would you like to continue? <settingsLink>Manage repo indexing</settingsLink>
+translation.worklog.importedKnowledge	Imported knowledge
+translation.worklog.indexLaterFromSettings	You can index it later from <settingsLink>repo indexing settings</settingsLink>.
+translation.worklog.indexNounFree	Index {{noun}} [free]
+translation.worklog.indexed	Indexed {{repoLabel}}
+translation.worklog.indexing	Indexing {{repoLabel}}
+translation.worklog.indexingComplete	Indexing complete
+translation.worklog.indexingPercentComplete	Indexing — {{progressPercent}}% complete
+translation.worklog.inheritFromDefaults	Inherit from defaults
+translation.worklog.inheritFromDefaults_named	Inherit from defaults ({{name}})
+translation.worklog.inheritFromDefaults_none	Inherit from defaults (No profile)
+translation.worklog.initialMessage	Initial message
+translation.worklog.integrationSettings	{{label}} settings
+translation.worklog.linkedSessionOpenPrs_one	{{count}} open PR
+translation.worklog.linkedSessionOpenPrs_other	{{count}} open PRs
+translation.worklog.linkedSessionMergedPrs_one	{{count}} merged PR
+translation.worklog.linkedSessionMergedPrs_other	{{count}} merged PRs
+translation.worklog.linkedSessionClosedPrs_one	{{count}} closed PR
+translation.worklog.linkedSessionClosedPrs_other	{{count}} closed PRs
+translation.worklog.listedAvailableDevinTools	Listed available Devin tools
+translation.worklog.listedAvailableMcpServers	Listed available MCP servers
+translation.worklog.listedSkills	Listed skills: <count>{{skillCount}}</count> available
+translation.worklog.listedToolsFor	Listed tools for {{displayName}}
+translation.worklog.listedToolsOnMcpServer	Listed tools on MCP server {{server}}
+translation.worklog.listingAvailableDevinTools	Listing available Devin tools
+translation.worklog.listingAvailableMcpServers	Listing available MCP servers
+translation.worklog.listingToolsFor	Listing tools for {{displayName}}
+translation.worklog.listingToolsOnMcpServer	Listing tools on MCP server {{server}}
+translation.worklog.loading	Loading…
+translation.worklog.loadingChanges	Loading changes…
+translation.worklog.loadingCurrentConfig	Loading current config…
+translation.worklog.loadingCurrentProfile	Loading current profile…
+translation.worklog.loadingNetworkPolicy	Loading network policy…
+translation.worklog.localAccessRequested	Local machine access requested
+translation.worklog.localMachineConnected	Local machine connected
+translation.worklog.localMachineDisconnected	Connection lost
+translation.worklog.localMachineIdentityUnknown	Local machine
+translation.worklog.localMachineChipLabel	Local Hands
+translation.worklog.localMachineChipDisconnectedAria	Local Hands (connection lost)
+translation.worklog.localMachineChipRevokedAria	Local Hands (disconnected)
+translation.worklog.localAccessExpired	Local machine access request expired
+translation.worklog.retryLocalAccess	Request a new code
+translation.worklog.retryLocalAccessAndConnect	Connect this machine
+translation.worklog.failedToRetryLocalAccess	Could not renew access or connect the machine. Try again.
+translation.worklog.localAccessRevoked	Local machine disconnected
+translation.worklog.localAccessRevokedDescription	Devin no longer has access to the local machine.
+translation.worklog.localAccessSuperseded	Local machine access request replaced
+translation.worklog.localAccessSupersededDescription	A newer access request replaced this one, so its pairing code no longer works.
+translation.worklog.localAccessDeclined	Local machine access declined
+translation.worklog.localAccessDeclinedDescription	Devin has no access to this machine.
+translation.worklog.localAccessSignInRequired	Sign in to Devin on this machine to approve here, or run the command below.
+translation.worklog.localAccessFailed	The connection failed. Try again, or run the command below.
+translation.worklog.handoffRequested	Devin wants to continue in its VM
+translation.worklog.handoffDiffDescription	Sends your uncommitted changes as a diff
+translation.worklog.handoffSent	Local changes sent.
+translation.worklog.handoffDeclined	Local changes declined.
+translation.worklog.handoffOpenInDesktop	Open this session in Devin Desktop to send or decline these changes.
+translation.worklog.approveLocalAccess	Approve
+translation.worklog.declineLocalAccess	Decline
+translation.worklog.useTerminalInstead	Use the terminal instead
+translation.worklog.connectingLocalMachine	Connecting…
+translation.worklog.tryAgain	Try again
+translation.worklog.revokeLocalAccess	Disconnect local machine
+translation.worklog.failedToRevokeLocalAccess	Could not disconnect the local machine.
+translation.worklog.bypassForConnection	Bypass for this connection
+translation.worklog.localApprovalModeBypass	Bypass permissions
+translation.worklog.localApprovalModeNormal	Per-command approval
+translation.worklog.localApprovalModeSmart	Smart permissions
+translation.worklog.bypassPermissionsDescription	Skip the per-call prompts for local tools for the rest of this connection. Pending requests are approved immediately.
+translation.worklog.bypassPermissionsWaitingForMachine	Waiting for the local machine…
+translation.worklog.localEditCount_one	{{count}} edit
+translation.worklog.localEditCount_other	{{count}} edits
+translation.worklog.localBinaryFile	binary file
+translation.worklog.localAskRuleBuiltin	Asks each time because of a built-in Devin CLI rule:
+translation.worklog.localAskRuleUser	Asks each time because of an ask rule in your Devin CLI config:
+translation.worklog.localAskRuleOrg	Asks each time because of a rule from your organization:
+translation.worklog.localAskRuleUnknown	Asks each time because of the rule:
+translation.worklog.localProjectRule	Project rule: {{rule}} · Workspace: {{workspace}}
+translation.worklog.allowForProject	Always allow in this project
+translation.worklog.denyForProject	Always deny in this project
+translation.worklog.localRuleCheckFailed	Could not check your rules. Review this call before you allow it.
+translation.worklog.localBypassBlocked	Bypass is off until these are fixed:
+translation.worklog.manageBotAccess	Manage {{botName}} access
+translation.worklog.bypassPermissionsFailed	Could not change local permissions: {{error}}
+translation.worklog.failedToRequestBypassPermissions	Failed to request bypassing local permissions.
+translation.worklog.noPermissionBypassPermissions	You don't have permission to change local machine permissions
+translation.worklog.macroLabel	Macro: {{macro}}
+translation.worklog.manageProfile	Manage {{profileName}}
+translation.worklog.mandatoryProfileLocksNetworkControls	The {{profileName}} profile is mandatory, so network controls can't be turned off for this session. You can only further restrict the destinations below.
+translation.worklog.mcpAuthConnect	Connect
+translation.worklog.mcpNewConnection	New connection
+translation.worklog.mcpShare	Share
+translation.worklog.mcpShareQuestion	You already have {{server}} connected. Do you want to give this {{botName}} a new {{server}} connection or share your current one? Sharing lets this {{botName}} use your sign-in.
+translation.worklog.mcpShareQuestion_named	You already have {{server}} connected. Do you want to give {{botName}} a new {{server}} connection or share your current one? Sharing lets {{botName}} use your sign-in.
+translation.worklog.mcpShareQuestionPlugin	Sharing gives this {{botName}} your whole plugin behind {{server}} (skills, rules, hooks) and your sign-in, or you can give it a new {{server}} connection.
+translation.worklog.mcpShareQuestionPlugin_named	Sharing gives {{botName}} your whole plugin behind {{server}} (skills, rules, hooks) and your sign-in, or you can give it a new {{server}} connection.
+translation.worklog.mcpAuthConnectLabel	Connect {{server}}
+translation.worklog.mcpAuthConnected	Connected
+translation.worklog.mcpAuthConnectionRequired	Connection required
+translation.worklog.mcpAuthConnectionFailed	Connection failed
+translation.worklog.mcpAuthFailedBackticked	Authentication failed for MCP server `{{server}}`
+translation.worklog.mcpAuthMemberDescription	Ask an admin to open this session and connect it.
+translation.worklog.mcpAuthRequested	Authentication requested for MCP server `{{server}}`
+translation.worklog.mcpAuthSuccessfulBackticked	Authentication successful for MCP server `{{server}}`
+translation.worklog.mcpAuthTryAgain	Try again
+translation.worklog.mcpAuthTryAgainLabel	Try again: connect {{server}}
+translation.worklog.mcpCreatedSessions_one	Created a Devin session
+translation.worklog.mcpCreatedSessions_other	Created {{count}} Devin sessions
+translation.worklog.mcpCreatingSessions_one	Creating a Devin session
+translation.worklog.mcpCreatingSessions_other	Creating {{count}} Devin sessions
+translation.worklog.mcpFailedToCreateSessions_one	Failed to create session
+translation.worklog.mcpFailedToCreateSessions_other	Failed to create {{count}} sessions
+translation.worklog.mcpInstallConfigure	Configure
+translation.worklog.mcpInstallFailed	Installation failed
+translation.worklog.mcpConnectionAdded	Connection added
+translation.worklog.mcpConnectionRemoved	Connection removed
+translation.worklog.mcpScope	Scope
+translation.worklog.mcpScopePersonal	Personal
+translation.worklog.mcpScopeOrganization	Organization
+translation.worklog.mcpScopeHelp	All members of your organization share this connection.
+translation.worklog.mcpScopeHelpLabel	About connection scope
+translation.worklog.mcpScopeUnspecified	Not specified
+translation.worklog.mcpScopeUnavailable	The connection scope must be known before you can approve.
+translation.worklog.mcpSource	Source
+translation.worklog.mcpSourceMarketplace	Devin marketplace
+translation.worklog.mcpSourceCustom	Custom server
+translation.worklog.mcpAccess	Access
+translation.worklog.mcpAccessOrganization	Everyone in your organization
+translation.worklog.mcpAccessPersonal	Only you
+translation.worklog.mcpAccessBot	This {{botName}}
+translation.worklog.mcpAddAccount	Add account
+translation.worklog.mcpAddAccountRequest	Add another account for {{server}}.
+translation.worklog.mcpConnectedAccounts	Connected accounts
+translation.worklog.mcpConnectedAccountCount_one	{{count}} account
+translation.worklog.mcpConnectedAccountCount_other	{{count}} accounts
+translation.worklog.mcpConnectedAccountMore_one	{{count}} more
+translation.worklog.mcpConnectedAccountMore_other	{{count}} more
+translation.worklog.mcpSourceMarketplaceBadge	Marketplace
+translation.worklog.mcpSourceCustomBadge	Custom
+translation.worklog.mcpServerName	MCP server {{server}}
+translation.worklog.memoryIndexClearFailed	Failed to clear memory index
+translation.worklog.memoryIndexCleared	Cleared memory index
+translation.worklog.memoryIndexUpdateFailed	Failed to update memory index
+translation.worklog.memoryIndexUpdated	Updated memory index
+translation.worklog.memoryNoteRemoveFailed	Failed to remove memory note {{name}}
+translation.worklog.memoryNoteRemoved	Removed memory note {{name}}
+translation.worklog.memoryNoteSaveFailed	Failed to save memory note {{name}}
+translation.worklog.memoryNoteSaved	Saved memory note {{name}}
+translation.worklog.mergeIntoMainChat	Merge into main chat
+translation.worklog.moreFiles	+{{hiddenCount}} more files
+translation.worklog.networkConfigUpdated	Network config updated.
+translation.worklog.networkConfigUpdatedSleep	Network config updated. Devin is going to sleep briefly to apply it and will wake back up on its own.
+translation.worklog.networkConfigUpdatedResumed	Network config updated. Waking Devin up to retry with the new config.
+translation.worklog.networkControlsDisabled	Network controls are disabled for this session.
+translation.worklog.networkPolicyUnavailable	Network policy could not be loaded.
+translation.worklog.networkRequestAlreadyResolved	Network access request already resolved.
+translation.worklog.newerSuggestionAvailable	A newer suggestion is available
+translation.worklog.noChanges	no changes
+translation.worklog.noPermissionRevokeAction	You don't have permission to disconnect this local machine
+translation.worklog.codeScanSetupFormTitle	Code scan setup
+translation.worklog.codeScanSetupFormSubmit	Start scan
+translation.worklog.codeScanSetupFormSubmitted	Configuration sent to Devin
+translation.worklog.codeScanSetupFormDismissed	Form dismissed
+translation.worklog.codeScanSetupFormRequired	Fill in the required fields
+translation.worklog.codeScanSetupFormReady	Review the options, then submit
+translation.worklog.codeScanSetupFormChatgptPlanAcuNotice	Scans aren't covered by your ChatGPT plan and use your Devin ACUs.
+translation.worklog.codeScanSetupFormChatgptPlanQuotaNotice	Scans aren't covered by your ChatGPT plan and use your Devin quota.
+translation.worklog.codeScanSetupFormFailed	Couldn't send the configuration
+translation.worklog.codeScanSetupFormEnabled	Enabled
+translation.worklog.codeScanSetupFormDisabled	Disabled
+translation.worklog.memoryDriveSyncedTitle	Updated memory
+translation.worklog.memoryDriveSyncedTitleWithSummary	Updated memory: {{summary}}
+translation.worklog.memoryDriveSyncedTitle_user	Updated personal memory
+translation.worklog.memoryDriveSyncedTitleWithSummary_user	Updated personal memory: {{summary}}
+translation.worklog.memoryDriveSyncedTitle_bot	Updated {{botName}} memory
+translation.worklog.memoryDriveSyncedTitleWithSummary_bot	Updated {{botName}} memory: {{summary}}
+translation.worklog.memoryDriveManage	Manage memory
+translation.worklog.memoryDriveDiffTruncated	Diff truncated at the size limit.
+translation.worklog.plushieTitle	Plushie request
+translation.worklog.plushieIntro	Where should I send it?
+translation.worklog.plushieOwnerOnly	This plushie was requested by someone else! Ask me elsewhere for your own.

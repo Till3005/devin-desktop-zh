@@ -1,0 +1,500 @@
+translation.billing.outOfFreeCredits	You ran out of free credits. Please subscribe to continue using Devin
+translation.billing.freeCreditsGateToast	You have used 100% of your free credits. Continue using Devin by subscribing.
+translation.billing.outOfQuotaPaidDescription	Your usage quota has been exceeded and you are out of on-demand usage. Check your usage settings for details.
+translation.billing.teamAutoReloadRequiredTitle	Please enable auto-reload to use Devin
+translation.billing.teamAutoReloadAskAdminTitle	Ask a billing admin to enable auto-reload
+translation.billing.teamAutoReloadDescription	Auto-reload refills your team’s shared on-demand credits when they run low.
+translation.billing.teamAutoReloadOpenSettings	Open settings
+translation.billing.outOfWeeklyQuotaPaidDescription	Your weekly usage quota has been exceeded and you are out of on-demand usage. Check your usage settings for details.
+translation.billing.paymentDeclinedMemberDescription	Your organization's last payment did not go through. To keep your subscription an admin needs to update your payment details. Please contact us at <supportLink>support@cognition.ai</supportLink> if you have any questions.
+translation.billing.paymentDeclinedOwnerDescription	Your last payment failed. To continue using Devin, please update your payment details. Please contact us at <supportLink>support@cognition.ai</supportLink> if you have any questions.
+translation.billing.paymentProblemTitle	There was a problem with your payment
+translation.billing.renewPaidDescription	You do not currently have an active Devin plan. Please subscribe or purchase credits to use Devin
+translation.billing.scoreboardNoDataYet	No data yet
+translation.billing.teamsPlanMemberLimit	Up to 100 members
+translation.billing.unitAcus	ACUs
+translation.billing.unitCredits	credits
+translation.billing.updatePaymentDetails	Update payment details
+translation.billing.upgradeToTeams	Upgrade to Teams
+translation.billing.usageLimit.scopesError	Couldn't load usage
+translation.billing.usageLimit.noLimit	No usage limit
+translation.billing.usageLimit.acusConsumed	ACUs consumed
+translation.billing.usageLimit.dollarsSpent	spent
+translation.billing.usageLimit.acusConsumedSince	ACUs consumed since {{date}}
+translation.billing.usageLimit.dollarsSpentSince	spent since {{date}}
+translation.billing.usageLimit.acusConsumedThisMonth	ACUs consumed this month
+translation.billing.usageLimit.dollarsSpentThisMonth	spent this month
+translation.billing.usageLimit.exceeded	<status>Exceeded</status> your usage limit
+translation.billing.usageLimit.exceededFallback	<status>Exceeded</status> your primary usage limit — falling back to reduced usage
+translation.billing.usageLimit.onPaceToExceed	<status>On pace to exceed</status> your usage limit
+translation.billing.usageLimit.onTrack	<status>On track</status> to stay within your usage limit
+translation.billing.usageLimit.automaticIncreases	<status>On track</status> for automatic usage limit increases
+translation.billing.usageLimit.exceededMax	<status>Exceeded</status> your max usage limit
+translation.billing.usageLimit.onPaceToExceedMax	<status>On pace to exceed</status> your max usage limit
+translation.billing.usageLimit.maxCreditLimit	Max credit limit
+translation.billing.usageLimit.maxSpendLimit	Max spend limit
+translation.billing.usageLimit.requestPending	Request pending
+translation.billing.usageLimit.spendLimit	Spend limit
+translation.billing.usageLimit.allBudgets	All budgets
+translation.billing.usageLimit.spentUnit	ACUs
+translation.billing.usageLimit.spentUnit_dollars	Spent
+translation.billing.usageLimit.totalSpend	Total ACUs
+translation.billing.usageLimit.totalSpend_dollars	Total spent
+translation.billing.usageLimit.spendByBudget	Spend by budget
+translation.billing.usageLimit.spendByBudgetDescription	Your top budgets by utilization this cycle
+translation.billing.usageLimit.spendByBudgetDescriptionRange	Your top budgets by utilization this cycle ({{range}})
+translation.billing.usageLimit.otherBudgets_one	{{count}} other budget
+translation.billing.usageLimit.otherBudgets_other	{{count}} other budgets
+translation.billing.usageLimit.budgetUsageWithLimit	{{used}} / {{limit}} ({{pct}}%)
+translation.billing.usageLimit.budgetUsageNoLimit	{{used}} (No limit)
+translation.billing.usageLimit.resetsAt	Resets {{date}} at {{time}}
+translation.billing.usageLimit.creditLimit	Credit limit
+translation.billing.usageLimit.currentlyUsed	Currently used
+translation.billing.usageLimit.forecastedUsage	Forecasted usage
+translation.billing.usageQuotaExceeded	Usage quota exceeded
+translation.billing.usageRequest.acuAmount_one	{{count}} ACU
+translation.billing.usageRequest.acuAmount_other	{{count}} ACUs
+translation.billing.usageRequest.acuLimit	{{limit}} ACU limit
+translation.billing.usageRequest.acusOver_one	{{count}} ACU over
+translation.billing.usageRequest.acusOver_other	{{count}} ACUs over
+translation.billing.usageRequest.additionalAcus	Additional ACUs to request
+translation.billing.usageRequest.additionalDollars	Additional dollars to request
+translation.billing.usageRequest.acuRequest	ACU request
+translation.billing.usageRequest.amountOption_one	+{{count}} ACU
+translation.billing.usageRequest.amountOption_other	+{{count}} ACUs
+translation.billing.usageRequest.amountOptionTrigger_one	+{{count}} <unit>ACU</unit>
+translation.billing.usageRequest.amountOptionTrigger_other	+{{count}} <unit>ACUs</unit>
+translation.billing.usageRequest.approved	Approved
+translation.billing.usageRequest.canRequestMoreLater	You can request more later
+translation.billing.usageRequest.cancel	Cancel
+translation.billing.usageRequest.cancelRequest	Cancel request
+translation.billing.usageRequest.close	Close
+translation.billing.usageRequest.currentLimit	Current limit
+translation.billing.usageRequest.customAmount	Custom amount
+translation.billing.usageRequest.denied	Denied
+translation.billing.usageRequest.dollarAmountOption	+{{amount}}
+translation.billing.usageRequest.dollarLimit	{{limit}} limit
+translation.billing.usageRequest.dollarRequest	Spend request
+translation.billing.usageRequest.dollarsOver	{{amount}} over
+translation.billing.usageRequest.expired	Expired
+translation.billing.usageRequest.howMuchDoYouNeed	Amount
+translation.billing.usageRequest.learnMore	Learn more
+translation.billing.usageRequest.learnMoreTooltip	Requests apply to the current billing cycle. An organization administrator will review and approve your request
+translation.billing.usageRequest.handledOutsideDevin	Your administrator handles requests for more usage outside Devin.
+translation.billing.usageRequest.limitLoadError	Something went wrong while loading your usage limit.
+translation.billing.usageRequest.minimumDollarIncrease	Enter at least {{amount}} to raise your limit above your usage this cycle.
+translation.billing.usageRequest.noPerUserLimits	Your account doesn't use per-user usage limits, so there's nothing to request here. If you're out of usage, contact your administrator.
+translation.billing.usageRequest.partialDollarApproval	{{amount}} of the request was auto-approved. The remainder requires admin approval.
+translation.billing.usageRequest.pending	Pending
+translation.billing.usageRequest.pendingAdditionalDollarLimit	+{{amount}} requested
+translation.billing.usageRequest.pendingAdditionalLimit_one	+{{count}} ACU requested
+translation.billing.usageRequest.pendingAdditionalLimit_other	+{{count}} ACUs requested
+translation.billing.usageRequest.pendingNewDollarLimit	New limit of {{limit}} requested
+translation.billing.usageRequest.pendingNewLimit_one	New limit of {{count}} ACU requested
+translation.billing.usageRequest.pendingNewLimit_other	New limit of {{count}} ACUs requested
+translation.billing.usageRequest.pendingReviewStatus	Requested {{time}} · Waiting for admin review
+translation.billing.usageRequest.previousRequests	Previous requests
+translation.billing.usageRequest.productDevin	Devin
+translation.billing.usageRequest.productDevinDesktop	Devin Desktop
+translation.billing.usageRequest.productTerminalCli	Terminal CLI
+translation.billing.usageRequest.projectedHeadroom	Projected headroom
+translation.billing.usageRequest.reason	Reason
+translation.billing.usageRequest.reasonPlaceholder	Provide more context on why you need additional usage
+translation.billing.usageRequest.requestAdditionalUsage	Request more usage
+translation.billing.usageRequest.requestDescription	Request a temporary increase to your ACU limit.
+translation.billing.usageRequest.requestDescriptionDollars	Request a temporary increase to your spend limit.
+translation.billing.usageRequest.requestedLimit	Requested limit
+translation.billing.usageRequest.submitRequest	Submit request
+translation.billing.usageRequest.tryAgain	Try again
+translation.billing.usageRequest.usageByProduct	Usage by product
+translation.billing.usageRequest.minimumAcuIncrease_one	Enter at least {{count}} ACU to raise your limit above your usage this cycle.
+translation.billing.usageRequest.minimumAcuIncrease_other	Enter at least {{count}} ACUs to raise your limit above your usage this cycle.
+translation.billing.usageRequest.exceedsAutoApproval	This amount exceeds the auto-approval threshold.
+translation.billing.usageRequest.autoApprovedToast	Usage request auto-approved
+translation.billing.usageRequest.submittedToast	Usage request submitted
+translation.billing.usageRequest.partiallyApprovedToast_one	{{count}} ACU of the request was auto-approved. The remainder requires admin approval.
+translation.billing.usageRequest.partiallyApprovedToast_other	{{count}} ACUs of the request were auto-approved. The remainder requires admin approval.
+translation.billing.usageRequest.concurrentEdit	Someone may have edited your limit at the same time. Please try again.
+translation.billing.usageRequest.cancelling	Cancelling request…
+translation.billing.viewUsageSettings	View usage settings
+translation.billing.weeklyUsageQuotaExceeded	Weekly usage quota exceeded
+translation.billing.usageProduct.all	All products
+translation.billing.usageProduct.sessions	Sessions
+translation.billing.usageProduct.reviews	Reviews
+translation.billing.usageProduct.automations	Automations
+translation.billing.usageProduct.oncall	Oncall
+translation.billing.usageProduct.codeScans	Code scans
+translation.billing.usageProduct.ask	Ask
+translation.billing.usageProduct.wiki	Wiki
+translation.billing.usageProduct.desktop	Desktop
+translation.billing.usageProduct.cli	CLI
+translation.billing.usageProduct.aiGateway	AI Gateway
+translation.billing.usageProduct.selectProduct	Select product
+translation.billing.breakdownByAutomation.oncallThisCycle	Oncall cost in this cycle
+translation.billing.breakdownByAutomation.oncallPreviousCycle	Oncall cost in previous cycle
+translation.billing.breakdownByAutomation.disabled	Disabled
+translation.billing.breakdownByAutomation.previousCycle	Automation cost in previous cycle
+translation.billing.breakdownByAutomation.columnAutomation	Automation
+translation.billing.breakdownByAutomation.columnLastRun	Last run
+translation.billing.breakdownByAutomation.thisCycle	Automation cost in this cycle
+translation.billing.breakdownByAutomation.enabled	Enabled
+translation.billing.breakdownByAutomation.failedToLoad	Failed to load automation usage data.
+translation.billing.breakdownByAutomation.hiddenAutomations_one	{{count}} automation is hidden because you don't have permission to view it.
+translation.billing.breakdownByAutomation.hiddenAutomations_other	{{count}} automations are hidden because you don't have permission to view them.
+translation.billing.autoJoin.title	Allow teammates to auto-join account
+translation.billing.autoJoin.description	Members of <org>{{orgName}}</org> will be allowed to join without waiting for your approval.
+translation.billing.autoJoin.notNow	Not now
+translation.billing.autoJoin.enable	Enable
+translation.billing.devinCoach.title	Devin Coach
+translation.billing.devinCoach.description	How you respond to Devin's coaching — suggestion outcomes from your sessions in the last {{days}} days
+translation.billing.devinCoach.emptyState	Devin coaches you as you prompt and work. Suggestion outcomes will appear here.
+translation.billing.devinForStartupsBanner.title	Are you an early-stage startup?
+translation.billing.devinForStartupsBanner.description	Devin for Startups gives eligible companies up to $65k in credits and grants.
+translation.billing.devinForStartupsBanner.cta	Apply now
+translation.billing.flexSeatFunding.title	No on-demand credits available
+translation.billing.flexSeatFunding.body	Flex members draw from your on-demand balance. This member won't be able to use Devin until you <settingsLink>add on-demand credits or enable auto-recharge</settingsLink>.
+translation.billing.consumptionChart.projected	Projected
+translation.billing.consumptionChart.total	total
+translation.billing.consumptionChart.noAmcData	No AMC data available
+translation.billing.reviewJobsTable.repository	Repository
+translation.billing.reviewJobsTable.prNumber	Pull request number
+translation.billing.reviewJobsTable.pr	PR
+translation.billing.reviewJobsTable.status	Status
+translation.billing.reviewJobsTable.trigger	Trigger
+translation.billing.reviewJobsTable.created	Created
+translation.billing.reviewJobsTable.acusConsumed	ACUs consumed
+translation.billing.reviewJobsTable.acus	ACUs
+translation.billing.reviewJobsTable.loadFailed	Couldn't load analysis runs. Try again.
+translation.billing.reviewJobsTable.noData	No data available
+translation.billing.reviewJobsTable.triggerAuto	Automatic
+translation.billing.reviewJobsTable.triggerManual	Manual
+translation.billing.reviewsTable.repository	Repository
+translation.billing.reviewsTable.acusCurrentTitle	ACUs consumed in current period
+translation.billing.reviewsTable.acusCycle	ACUs ({{label}})
+translation.billing.reviewsTable.percentOfTotalTitle	This row's ACUs divided by the total ACUs consumed this billing cycle in this view's scope
+translation.billing.reviewsTable.percentOfTotal	% of total
+translation.billing.reviewsTable.acusPreviousTitle	ACUs consumed in previous period
+translation.billing.reviewsTable.percentChangeTitle	Change in ACUs consumed vs the full last cycle
+translation.billing.reviewsTable.percentChange	% change
+translation.billing.reviewsTable.percentChangeLongTitle	Change in ACUs from previous to current period
+translation.billing.reviewsTable.percentChangeLong	% Change
+translation.billing.reviewsTable.reviewsCycle	Reviews ({{label}})
+translation.billing.reviewsTable.bugsThisCycle	Bugs caught this cycle
+translation.billing.reviewsTable.bugsLastCycle	Bugs caught last cycle
+translation.billing.reviewsTable.loadFailed	Failed to load review data. Please try again.
+translation.billing.reviewsTable.noData	No data available
+translation.billing.purchaseCredits.descriptionQuota	Purchased usage does not expire and rolls over month-to-month
+translation.billing.purchaseCredits.descriptionAcus	Purchased ACUs do not expire and roll over month-to-month
+translation.billing.purchaseCredits.descriptionCredits	Purchased credits do not expire and roll over month-to-month
+translation.billing.purchaseCredits.amount	Amount
+translation.billing.purchaseCredits.usd	USD
+translation.billing.purchaseCredits.acusToPurchase	ACUs to purchase
+translation.billing.purchaseCredits.creditsToPurchase	Credits to purchase
+translation.billing.purchaseCredits.processing	Processing…
+translation.billing.purchaseCredits.proceed	Proceed to purchase
+translation.billing.purchaseCredits.failed	Failed to initiate purchase. Please try again or contact support.
+translation.billing.purchaseCredits.contactSupport	Contact support for larger purchases.
+translation.billing.purchaseCredits.minimumDollars	Minimum purchase is {{amount}}.
+translation.billing.purchaseCredits.maximumDollars	Maximum purchase is {{amount}}.
+translation.billing.purchaseCredits.minimumUnits	Minimum purchase is {{amount}} {{unit}}.
+translation.billing.purchaseCredits.maximumUnits	Maximum purchase is {{amount}} {{unit}}.
+translation.billing.workspaceSeats.addDescription	New seats will be billed immediately on a prorated basis
+translation.billing.workspaceSeats.cancelDescription	Seats are removed at the end of the current billing period
+translation.billing.workspaceSeats.loadFullSeatsError	There was a problem loading full seat data.
+translation.billing.workspaceSeats.loadSeatInfoError	There was a problem loading seat info.
+translation.billing.workspaceSeats.seatUsage	Seat usage
+translation.billing.workspaceSeats.manage	Manage
+translation.billing.workspaceSeats.addSeats	Add seats
+translation.billing.workspaceSeats.cancelUnassignedSeats	Cancel unassigned seats
+translation.billing.workspaceSeats.cancelUnassigned	Cancel unassigned
+translation.billing.workspaceSeats.memberLimit	Member limit
+translation.billing.workspaceSeats.memberLimitValue	Up to 100
+translation.billing.workspaceSeats.activeFullSeats	Active full seats
+translation.billing.workspaceSeats.unassignedFullSeats	Unassigned full seats
+translation.billing.workspaceSeats.fullSeats	Full seats
+translation.billing.workspaceSeats.perSeatSuffix	x {{price}} per seat
+translation.billing.workspaceSeats.newMonthlyCharge	New monthly full seat charge
+translation.billing.workspaceSeats.availableAfterPurchase_one	Available after purchase: {{count}} full seat.
+translation.billing.workspaceSeats.availableAfterPurchase_other	Available after purchase: {{count}} full seats.
+translation.billing.workspaceSeats.paymentConfirmationNeeded	We could not complete this charge automatically — your bank may require confirmation (3D Secure). Complete the payment to add your seats.
+translation.billing.workspaceSeats.completePayment	Complete payment
+translation.billing.workspaceSeats.back	Back
+translation.billing.workspaceSeats.confirm	Confirm
+translation.billing.workspaceSeats.genericError	Something went wrong. Please try again.
+translation.billing.workspaceSeats.seatsUpdatedToast	Seats updated
+translation.billing.workspaceSeats.seatsAddedToastDescription_one	Added {{count}} full seat.
+translation.billing.workspaceSeats.seatsAddedToastDescription_other	Added {{count}} full seats.
+translation.billing.workspaceSeats.onlyUnassignedCancelable	You can only cancel currently unassigned full seats.
+translation.billing.workspaceSeats.unassignedCanceledToast	Unassigned seats canceled
+translation.billing.workspaceSeats.seatsCanceledToastDescription_one	Canceled {{count}} full seat.
+translation.billing.workspaceSeats.seatsCanceledToastDescription_other	Canceled {{count}} full seats.
+translation.billing.workspaceSeats.fullSeatsToCancel	Full seats to cancel
+translation.billing.workspaceSeats.unassignedSuffix	{{seats}} unassigned
+translation.billing.workspaceSeats.monthlyReduction	Monthly full seat reduction
+translation.billing.workspaceSeats.tooltipIntro	Your Devin Teams plan supports up to 100 members. You can purchase full seats for regular users.
+translation.billing.workspaceSeats.tooltipFullTitle	Full
+translation.billing.workspaceSeats.tooltipFullBody	A full seat costs {{price}} per month before discounts. It includes the same usage allowance as the Pro plan for Devin and {{productName}}. Best for regular users.
+translation.billing.workspaceSeats.tooltipFlexTitle	Flex
+translation.billing.workspaceSeats.tooltipFlexBody	Pay for usage. No seat fee. Includes Devin Desktop.
+translation.billing.usageCycle.current	Current cycle
+translation.billing.usageCycle.previous	Previous cycle
+translation.billing.usageCycle.selectBillingCycle	Select billing cycle
+translation.billing.usageCycle.selectCycle	Select cycle
+translation.billing.reviewHistory.title	Analysis history
+translation.billing.reviewHistory.repository	Repository
+translation.billing.reviewHistory.pr	PR
+translation.billing.reviewHistory.createdAt	Created at
+translation.billing.reviewHistory.errorLoading	Couldn't load analyses. Try again.
+translation.billing.reviewHistory.noReviews	No analyses found
+translation.billing.reviewHistory.viewReview	View analysis
+translation.billing.reviewHistory.statusCompleted	Completed
+translation.billing.reviewHistory.statusErrored	Errored
+translation.billing.reviewHistory.statusRunning	Running
+translation.billing.reviewHistory.statusPending	Pending
+translation.billing.reviewHistory.statusCancelled	Cancelled
+translation.billing.sessionHistory.title	All cloud session history
+translation.billing.sessionHistory.session	Session
+translation.billing.sessionHistory.createdAt	Created at
+translation.billing.sessionHistory.acusUsed	ACUs used
+translation.billing.sessionHistory.errorLoading	Error loading sessions. Please try again.
+translation.billing.sessionHistory.noUsage	No usage found
+translation.billing.sessionHistory.includedInQuota	Included in quota
+translation.billing.sessionHistory.viewSession	View session
+translation.billing.sessionHistory.cannotOpen	Session you can't open
+translation.billing.startupProgram.title	Startup program
+translation.billing.startupProgram.freeCreditsUsed	Free credits used
+translation.billing.startupProgram.freeCreditsRemaining	{{amount}} of your free credits remaining
+translation.billing.startupProgram.matchingGrantsReceived	Matching grants received
+translation.billing.startupProgram.matchRemaining	We match every dollar you reload — up to {{amount}} more in grants
+translation.billing.startupProgram.matchRemainingWithRatio	We match {{ratio}}x every dollar you reload — up to {{amount}} more in grants
+translation.billing.startupProgram.fullMatchReceived	You've received the full match
+translation.billing.usageLimits.updated	Spending limits updated
+translation.billing.usageLimits.acuWholeNumber	ACU limit must be a whole number
+translation.billing.usageLimits.usageWholeNumber	Usage limit must be a whole number
+translation.billing.usageLimits.acuMin	ACU limit must be at least 1
+translation.billing.usageLimits.usageMin	Usage limit must be at least $1
+translation.billing.usageLimits.acuMax	ACU limit cannot be greater than 10,000
+translation.billing.usageLimits.usageMax	Usage limit cannot be greater than 10,000
+translation.billing.usageLimits.messageAcuLimit	Message ACU limit
+translation.billing.usageLimits.messageUsageLimit	Message usage limit
+translation.billing.usageLimits.limitTooltip	Asks for permission to continue when reached. Changes apply to new sessions only, not sessions already running
+translation.billing.usageLimits.maxAcusPerMessage	Maximum ACUs that Devin can use per message you send
+translation.billing.usageLimits.maxUsagePerMessage	Maximum on-demand usage that Devin can use per message you send
+translation.billing.usageLimits.loadError	There was a problem retrieving your usage limits. Please try again in a moment.
+translation.billing.usageLimits.updateError	There was a problem updating your usage limits. Please try again in a moment.
+translation.billing.quotaUsage.resets	Resets {{distance}}
+translation.billing.quotaUsage.percentUsed	{{percent}}% used
+translation.billing.quotaUsage.includedTooltipWeekly	Your plan includes a weekly usage quota. Usage within this limit is included in your subscription at no extra cost.
+translation.billing.quotaUsage.includedTooltipDailyWeekly	Your plan includes daily and weekly usage quotas. Usage within these limits is included in your subscription at no extra cost.
+translation.billing.quotaUsage.yourIncludedUsage	Your included usage
+translation.billing.quotaUsage.dailyQuota	Daily quota
+translation.billing.quotaUsage.weeklyQuota	Weekly quota
+translation.billing.quotaUsage.onDemandTooltipWeekly	When you exceed your included weekly quota, additional usage draws from your on-demand balance. Once exhausted, sessions will be paused until your quota resets.
+translation.billing.quotaUsage.onDemandTooltipDailyWeekly	When you exceed your included daily or weekly quota, additional usage draws from your on-demand balance. Once exhausted, sessions will be paused until your quota resets.
+translation.billing.quotaUsage.onDemandUsage	On-demand usage
+translation.billing.quotaUsage.remainingBalance	Remaining balance
+translation.billing.quotaUsage.yourOnDemandUsage	Your on-demand usage
+translation.billing.quotaUsage.yourOnDemandUsageTooltip	Your on-demand spend so far in this billing period.
+translation.billing.quotaUsage.autoReloadSpendThisCycle	Auto-reload spend this cycle
+translation.billing.quotaUsage.noBalanceSessionsWillPause	No on-demand balance remaining. Sessions will pause when your included quota is exceeded.
+translation.billing.quotaUsage.loadError	Unable to load quota usage data. Please try again.
+translation.billing.billingActions.planChangesOn	Plan changes on {{date}}
+translation.billing.billingActions.endsOn	Ends on {{date}}
+translation.billing.billingActions.renewsForOn	Renews for {{amount}} on {{date}}
+translation.billing.billingActions.renewsOn	Renews on {{date}}
+translation.billing.billingActions.trialEnded	Trial ended, $20/mo after
+translation.billing.billingActions.trialLessThanDay	Trial for less than a day, $20/mo after
+translation.billing.billingActions.trialDays_one	Trial for {{count}} day, $20/mo after
+translation.billing.billingActions.trialDays_other	Trial for {{count}} days, $20/mo after
+translation.billing.billingActions.discountUntil	{{price}} until {{date}}, then {{listPrice}}
+translation.billing.billingActions.unpaidInvoices	Unpaid invoices
+translation.billing.billingActions.unpaidInvoicesBody	Your account has unpaid invoices. Please update your payment details to avoid service interruption.
+translation.billing.billingActions.pendingChangesOn	Pending changes scheduled for {{date}}
+translation.billing.billingActions.pendingChangesEndOfCycle	Pending changes scheduled for the end of your current billing cycle
+translation.billing.billingActions.planWillSwitch	Your plan will switch from {{from}} → {{to}}
+translation.billing.billingActions.currentPlan	Current plan
+translation.billing.billingActions.cancelled	Cancelled
+translation.billing.billingActions.fullSeats_one	{{count}} Full seat
+translation.billing.billingActions.fullSeats_other	{{count}} Full seats
+translation.billing.billingActions.manageBilling	Manage billing
+translation.billing.usageChart.dailyValue	Daily: {{amount}}
+translation.billing.usageChart.cumulativeValue	Cumulative: {{amount}}
+translation.billing.usageChart.failedToLoad	Failed to load usage data.
+translation.billing.usageChart.daily	Daily
+translation.billing.usageChart.cumulative	Cumulative
+translation.billing.usageChart.date	Date
+translation.billing.switchPlan.updateError	There was a problem updating your subscription. Please try again.
+translation.billing.switchPlan.whatHappensDowngrade	Here's what happens if you downgrade:
+translation.billing.switchPlan.whatHappensUpgrade	Here's what happens if you upgrade:
+translation.billing.switchPlan.whatHappensSwitch	Here's what happens if you switch:
+translation.billing.switchPlan.keepCurrentPlan	Keep current plan
+translation.billing.switchPlan.cancelSubscription	Cancel subscription
+translation.billing.switchPlan.cancelSubscriptionUnpaid	Your last invoice is unpaid, so your subscription will be canceled immediately instead of at the end of the billing cycle, and the pending charge for it will stop.
+translation.billing.switchPlan.noPaidPlanFeatures	No access to paid plan features
+translation.billing.switchPlan.cancelPlanSwitchDescription	Your subscription is currently set to switch at the end of your billing cycle. Would you like to cancel this change and stay on the {{plan}} plan?
+translation.billing.switchPlan.switchTo	Switch to {{plan}}
+translation.billing.switchPlan.upgradeTo	Upgrade to {{plan}}
+translation.billing.switchPlan.downgradeTo	Downgrade to {{plan}}
+translation.billing.switchPlan.upgrade	Upgrade
+translation.billing.switchPlan.downgrade	Downgrade
+translation.billing.switchPlan.trial	Trial
+translation.billing.switchPlan.replacePendingChange	Your subscription is currently set to change at the end of your current cycle. If you choose to switch to {{plan}}, your pending plan change will be replaced.
+translation.billing.switchPlan.endOfCycleAfterBalance	Takes effect at the end of your billing cycle once you've paid any existing balance.
+translation.billing.switchPlan.endOfCurrentCycle	Takes effect at the end of your current billing cycle.
+translation.billing.switchPlan.proratedImmediate	The price difference will be prorated. Takes effect immediately.
+translation.billing.switchPlan.immediate	Takes effect immediately.
+translation.billing.switchPlan.managePaymentOnPlans	Payment details on Plans
+translation.billing.switchPlan.noEarlyAccess	No access to early feature releases and research previews
+translation.billing.switchPlan.concurrentSessionsCapped	Concurrent sessions capped at 10
+translation.billing.switchPlan.newMonthlySubscription	Creates a new monthly subscription starting today.
+translation.billing.switchPlan.acusIncludedMonthly	250 ACUs included monthly
+translation.billing.switchPlan.trialEndsSubscriptionStarts	Your free trial will end and your subscription will start immediately.
+translation.billing.switchPlan.trialEndsPlanStarts	Your free trial will end and your {{plan}} subscription will start immediately.
+translation.billing.switchPlan.fullProAccess	Full Pro plan access
+translation.billing.switchPlan.billingStartsToday	Billing starts today
+translation.billing.switchPlan.higherQuotas	Higher quotas to code with Devin and {{product}}
+translation.billing.switchPlan.lowerQuotas	Lower quotas to code with Devin and {{product}}
+translation.billing.switchPlan.twoFullSeats	2 full seats included
+translation.billing.switchPlan.shareAndCollaborateOrg	Share and collaborate with your organization
+translation.billing.switchPlan.noMultiUser	No multi-user support
+translation.billing.switchPlan.membersLoseAccess	Organization members lose access to Devin (but keep DeepWiki and Devin Review)
+translation.billing.switchPlan.noCentralizedBilling	No centralized billing
+translation.billing.switchPlan.noAdminDashboard	No admin dashboard with analytics
+translation.billing.switchPlan.canceledEndOfCycle	Your subscription will be canceled at the end of your current billing cycle.
+translation.billing.switchPlan.aboutToSwitch	You are about to switch from {{from}} to {{to}}.
+translation.billing.switchPlan.confirm	Confirm
+translation.billing.autoReload.settingsSaved	Auto-reload settings saved
+translation.billing.autoReload.disabled	Auto-reload disabled
+translation.billing.autoReload.descriptionQuota	Automatically adds more on-demand usage when your balance gets low
+translation.billing.autoReload.descriptionAcus	Automatically adds more ACUs when your usage reaches the threshold
+translation.billing.autoReload.descriptionCredits	Automatically adds more credits when your usage reaches the threshold
+translation.billing.autoReload.paymentFailedTitle	Auto-reload payment failed
+translation.billing.autoReload.paymentFailedBody	Your latest auto-reload payment has failed. Please update your payment details or <invoicesLink>pay your invoices directly</invoicesLink>.
+translation.billing.autoReload.paymentMethodRequiredTitle	Payment method required
+translation.billing.autoReload.paymentMethodRequiredBody	You need to configure a default payment method before enabling auto-reload
+translation.billing.autoReload.configurePaymentMethod	Configure payment method
+translation.billing.autoReload.enable	Enable auto-reload
+translation.billing.autoReload.enableDescription	Automatically add credits when your balance gets low
+translation.billing.autoReload.whenBelow	When below
+translation.billing.autoReload.reloadTo	Reload to
+translation.billing.autoReload.monthlyCap	Monthly cap
+translation.billing.autoReload.thresholdMin	The threshold must be at least {{amount}}
+translation.billing.autoReload.thresholdMax	The threshold cannot exceed {{amount}}
+translation.billing.autoReload.targetMin	Must be at least {{amount}} ({{difference}} more than the threshold)
+translation.billing.autoReload.targetMax	The reload amount cannot exceed {{amount}}
+translation.billing.autoReload.monthlyCapMin	The maximum monthly total spend must be at least the auto-reload balance
+translation.billing.autoReload.monthlyCapMax	The monthly total cannot exceed {{amount}}
+translation.billing.autoReload.dollarsToAcus_one	{{dollars}} = {{count}} ACU
+translation.billing.autoReload.dollarsToAcus_other	{{dollars}} = {{count}} ACUs
+translation.billing.autoReload.spendThisCycle	Auto-reload spend this cycle: {{amount}}
+translation.billing.autoReload.save	Save
+translation.billing.payAsYouGo.limitLabel	Monthly limit
+translation.billing.payAsYouGo.title	Set a monthly pay-as-you-go usage limit
+translation.billing.payAsYouGo.descriptionAcus	Your team can use Devin up to the pay-as-you-go usage limit you set. Any ACUs consumed will be charged to your payment method on file at the end of your billing cycle
+translation.billing.payAsYouGo.descriptionUsage	Your team can use Devin up to the pay-as-you-go usage limit you set. Any usage will be charged to your payment method on file at the end of your billing cycle
+translation.billing.payAsYouGo.learnMoreAriaLabel	Learn more about billing and usage limits
+translation.billing.payAsYouGo.maxLimitForPlan	The maximum limit for your plan is {{limit}} {{unit}}. Please contact support@cognition.ai if you need higher spending limits.
+translation.billing.payAsYouGo.settingLimitPreview_one	Setting limit to {{count}} pay-as-you-go {{unit}} would give you {{total}} total {{unit}} remaining this month
+translation.billing.payAsYouGo.settingLimitPreview_other	Setting limit to {{count}} pay-as-you-go {{unit}} would give you {{total}} total {{unit}} remaining this month
+translation.billing.payAsYouGo.currentLimit_one	Your current limit is {{count}} pay-as-you-go {{unit}}
+translation.billing.payAsYouGo.currentLimit_other	Your current limit is {{count}} pay-as-you-go {{unit}}
+translation.billing.payAsYouGo.explainerAlt	How pay-as-you-go usage limits work
+translation.billing.payAsYouGo.saving	Saving…
+translation.billing.payAsYouGo.save	Save
+translation.billing.payAsYouGo.unitAcu_one	ACU
+translation.billing.payAsYouGo.unitAcu_other	ACUs
+translation.billing.payAsYouGo.unitCredit_one	credit
+translation.billing.payAsYouGo.unitCredit_other	credits
+translation.billing.usagePage.referralTitle	Earn {{amount}} in bonus usage
+translation.billing.usagePage.referralDescription	Refer a team to Devin and you'll receive {{amount}} in bonus usage
+translation.billing.usagePage.referTeam	Refer a team →
+translation.billing.usagePage.paymentProblem	There was a problem with your payment, please update your payment details
+translation.billing.usagePage.noActiveSubscription	You don't have an active subscription
+translation.billing.usagePage.viewPlans	View plans
+translation.billing.usagePage.totalUsageInCycle	Total usage in this cycle
+translation.billing.usagePage.enterpriseAcus	Enterprise ACUs
+translation.billing.usagePage.availableAcus	Available ACUs
+translation.billing.usagePage.availableCredits	Available credits
+translation.billing.usagePage.availableAcusTooltip	Your remaining ACUs from your subscription, purchased ACUs, and gifted ACUs.
+translation.billing.usagePage.availableCreditsTooltip	Your remaining credits from your subscription and any purchased or gifted credits.
+translation.billing.usagePage.noUsageData	No usage data available
+translation.billing.usagePage.retrieveError	There was a problem retrieving your usage data.
+translation.billing.usagePage.reloadAndRetry	Please reload the page and try again.
+translation.billing.usagePage.planNotUsageBased	Your current plan is not usage based.
+translation.billing.usagePage.noSubscriptionYet	You don't have a subscription yet.
+translation.billing.usagePage.cycleUsageBreakdown	Cycle usage breakdown
+translation.billing.usagePage.payAsYouGoBilled	Pay-as-you-go usage will be billed to your default payment method at the end of your billing cycle.
+translation.billing.usagePage.increaseUsageLimit	Want to increase your Devin usage? Increase your usage limit.
+translation.billing.usagePage.increaseUsageSubscribe	Want to increase your Devin usage? <plansLink>Subscribe to a plan</plansLink>.
+translation.billing.usagePage.subscriptionEndsConfigure	Your subscription is set to end at the end of this billing cycle. Configure next month's subscription settings from the <plansLink>Plans page</plansLink>.
+translation.billing.usagePage.legacyPlanBanner	You are currently on a legacy plan. Please <supportLink>contact support</supportLink> to upgrade to a new plan. You can <manageButton>manage your subscription here.</manageButton>
+translation.billing.usagePage.overview	Overview
+translation.billing.usagePage.usageHistory	Usage history
+translation.billing.usagePage.barSubscription	Subscription {{unit}}
+translation.billing.usagePage.barGift	Gift {{unit}}
+translation.billing.usagePage.barPurchased	Purchased {{unit}}
+translation.billing.usagePage.barPayAsYouGo	Pay-as-you-go {{unit}}
+translation.billing.usagePage.totalEnterpriseAcus	Total Enterprise ACUs
+translation.billing.usagePage.totalAcus	Total ACUs
+translation.billing.usagePage.totalUsage	Total usage
+translation.billing.usagePage.legacyPlanContactSupport	You are on a legacy plan. Contact support to upgrade.
+translation.billing.breakdownByUser.thisCycleTitle	User cost in this cycle
+translation.billing.breakdownByUser.previousCycleTitle	User cost in previous cycle
+translation.billing.breakdownByUser.unknownUser	Unknown
+translation.billing.columnSessions	Sessions
+translation.billing.viewInvoices	View invoices
+translation.billing.searchByNameOrEmail	Search by name or email…
+translation.billing.usageAllProductsChart.failedToLoad	Failed to load usage data.
+translation.billing.usageAllProductsChart.cumulative	Cumulative
+translation.billing.usageAllProductsChart.date	Date
+translation.billing.usageAllProductsChart.totalValue	Total: {{amount}}
+translation.billing.breakdownByUserModel.previousCycleTitle	On-demand cost by user in previous cycle
+translation.billing.breakdownByUserModel.thisCycleTitle	On-demand cost by user in this cycle
+translation.billing.cancelPlanSwitch	Cancel plan switch
+translation.billing.free	Free
+translation.billing.failedToLoadData	Failed to load data.
+translation.billing.devinDesktop	Devin Desktop
+translation.billing.columnCost	Cost
+translation.billing.noDataForPeriod	No data for this period.
+translation.billing.noUsersMatch	No users match “{{query}}”.
+translation.billing.configureAutoReload	Configure auto-reload settings
+translation.billing.columnStatus	Status
+translation.billing.columnEmail	Email
+translation.billing.purchaseOnDemandUsage	Purchase on-demand usage
+translation.billing.columnName	Name
+translation.billing.usageBreakdown.devinCloud	Devin cloud: {{value}}
+translation.billing.usageBreakdown.devin	Devin: {{value}}
+translation.billing.usageBreakdown.desktop	Devin Desktop: {{value}}
+translation.billing.usageBreakdown.cli	Terminal CLI: {{value}}
+translation.billing.usageBreakdown.aiGateway	AI Gateway: {{value}}
+translation.billing.usageBreakdown.review	Review: {{value}}
+translation.billing.reviewJobsView.title	Reviews in {{repoPath}}
+translation.billing.reviewJobsView.backToAll	Back to all repositories
+translation.billing.usersRanking.legendThisCycle	{{unit}} this cycle ({{cycle}})
+translation.billing.usersRanking.legendLastCycle	{{unit}} last cycle ({{cycle}})
+translation.billing.usersRanking.thisCycle	This cycle
+translation.billing.usersRanking.lastCycle	Last cycle
+translation.billing.automationsTable.organization	Organization
+translation.billing.automationsTable.config	Config
+translation.billing.automationsTable.status	Status
+translation.billing.automationsTable.acusCurrentTitle	ACUs consumed this cycle
+translation.billing.automationsTable.acusCurrentCycle	ACUs this cycle ({{label}})
+translation.billing.automationsTable.percentOfTotalTitle	This row's ACUs divided by the total ACUs consumed this billing cycle in this view's scope
+translation.billing.automationsTable.percentOfTotal	% of total
+translation.billing.automationsTable.acusPreviousTitle	ACUs consumed last cycle
+translation.billing.automationsTable.acusPreviousCycle	ACUs last cycle ({{label}})
+translation.billing.automationsTable.percentChangeTitle	Change in ACUs consumed vs the full last cycle
+translation.billing.automationsTable.percentChange	% change
+translation.billing.automationsTable.sessionsThisCycle	Sessions this cycle
+translation.billing.automationsTable.sessionsLastCycle	Sessions last cycle
+translation.billing.automationsTable.lastRun	Last run
+translation.billing.automationsTable.loadFailed	Failed to load automation data. Please try again.
+translation.billing.automationsTable.noData	No data available
+translation.billing.automationsTable.deleted	Deleted
+translation.billing.automationsTable.enabled	Enabled
+translation.billing.automationsTable.disabled	Disabled
+translation.billing.invoices.contactAccountManager	Please contact your Account Manager to modify your billing settings.
+translation.billing.invoices.notAuthorized	You are not authorized to view invoices.
+translation.billing.invoices.noInvoicesYet	You don't have any invoices yet.
+translation.billing.invoices.retrieveError	There was a problem retrieving your invoices.
+translation.billing.invoices.retryHint	Try a different date range or reload the page.

@@ -1,0 +1,500 @@
+translation.settings.keyboardShortcuts.commands.membersPageDown	Down five members
+translation.settings.keyboardShortcuts.commands.membersToggleSelect	Select member
+translation.settings.keyboardShortcuts.commands.membersClearSelection	Clear selection
+translation.settings.keyboardShortcuts.commands.replayTogglePlay	Play or pause
+translation.settings.keyboardShortcuts.commands.replayStepBack	Step back
+translation.settings.keyboardShortcuts.commands.replayStepForward	Step forward
+translation.settings.keyboardShortcuts.commands.billingTagsClearSelection	Clear keyboard cursor
+translation.settings.keyboardShortcuts.commands.findingPrev	Previous finding
+translation.settings.keyboardShortcuts.commands.findingNext	Next finding
+translation.settings.keyboardShortcuts.commands.findingAssign	Fix finding with Devin
+translation.settings.keyboardShortcuts.commands.findingDismiss	Dismiss finding
+translation.settings.keyboardShortcuts.commands.findingsClearSelection	Clear selected findings
+translation.settings.keyboardShortcuts.commands.toastUndo	Undo latest action
+translation.settings.keyboardShortcuts.commands.toggleFind	Find
+translation.settings.keyboardShortcuts.commands.findNext	Find next
+translation.settings.keyboardShortcuts.commands.findPrevious	Find previous
+translation.settings.keyboardShortcuts.commands.closeFind	Close find
+translation.settings.devinModeSwe2Medium	SWE-2 Medium (Preview)
+translation.settings.devinModeSwe2	SWE-2 (Preview)
+translation.settings.devinModeFusion	Fusion
+translation.settings.devinModeFusionFast	Fusion Fast
+translation.settings.devinModeAstra	GPT-6 Astra (Preview)
+translation.settings.devinModeAstraFast	GPT-6 Astra Fast (Preview)
+translation.settings.preferencePages.customization.defaultPlatformUpdated	Default platform updated
+translation.settings.preferencePages.customization.failedUpdateDefaultPlatform	Failed to update default platform
+translation.settings.preferencePages.customization.defaultEnvironmentUpdated	Default environment updated
+translation.settings.preferencePages.customization.failedUpdateDefaultEnvironment	Failed to update default environment
+translation.settings.preferencePages.customization.pleaseEnterValidNumberGreaterThan	Please enter a valid number greater than 0
+translation.settings.preferencePages.customization.maximumLimit500Sessions	Maximum limit is 500 sessions
+translation.settings.preferencePages.customization.maxBatchSessionsUpdated	Max batch sessions updated
+translation.settings.preferencePages.customization.failedUpdateMaxBatchSessions	Failed to update max batch sessions
+translation.settings.preferencePages.customization.onlyAdminsCanChangeTheseSettings	Only admins can change these settings.
+translation.settings.preferencePages.customization.selectOption	Select option
+translation.settings.preferencePages.customization.sessions	sessions
+translation.settings.preferencePages.customization.warning	Warning
+translation.settings.preferencePages.customization.thisMayCauseInfiniteLoopsWith	This may cause infinite loops with automated code review bots.
+translation.settings.preferencePages.customization.searchBotsGithubUsername	Search for bot's GitHub username
+translation.settings.preferencePages.customization.botUsernameRequired	GitHub username required
+translation.settings.preferencePages.customization.add	Add
+translation.settings.preferencePages.customization.selectBotAllowlistMode	Select bot allowlist mode
+translation.settings.preferencePages.customization.failedUpdateDynamicWorkflowsSetting	Failed to update dynamic workflows setting.
+translation.settings.preferencePages.customization.failedUpdatePrOpenAsSetting	Failed to update PR \\
+translation.settings.preferencePages.profile.clear	Clear
+translation.settings.preferencePages.profile.changeChannel	Change channel
+translation.settings.preferencePages.profile.selectChannel	Select channel
+translation.settings.preferencePages.profile.googleChrome	Google Chrome
+translation.settings.preferencePages.profile.safari	Safari
+translation.settings.preferencePages.profile.firefox	Firefox
+translation.settings.preferencePages.profile.connectPersonalAccountsUseTeamEnabled	Connect your personal accounts to use team-enabled integrations
+translation.settings.preferencePages.profile.noIntegrations	No integrations
+translation.settings.preferencePages.profile.missingIntegration	Missing an integration?
+translation.settings.preferencePages.profile.failedChangeLanguage	Failed to change language
+translation.settings.preferencePages.profile.devinReview	Devin Review
+translation.settings.preferencePages.profile.connectGitAccountConfigureTriggerMode	<lnk>Connect a git account</lnk> to configure trigger mode
+translation.settings.preferencePages.profile.failedDisconnectPylon	Failed to disconnect Pylon
+translation.settings.preferencePages.profile.devinDesktop	Devin Desktop
+translation.settings.preferencePages.profile.linkDevinDesktopWithAccount	Link Devin Desktop with this account
+translation.settings.preferencePages.profile.connected	Connected
+translation.settings.preferencePages.profile.selfHostedGitlab	Self-hosted GitLab
+translation.settings.preferencePages.review.noMatchingRepositories	No matching repositories
+translation.settings.preferencePages.review.noRepositoriesConfigured	No repositories configured
+translation.settings.preferencePages.review.clickAddRepoAddRepositories	Click \\
+translation.settings.preferencePages.support.documentation	Documentation
+translation.settings.preferencePages.support.bookCall	Book call
+translation.settings.preferencePages.support.connectingSupportChat	Connecting to support chat…
+translation.settings.preferencePages.support.supportChatUnavailable	Support chat is unavailable
+translation.settings.preferencePages.support.pleaseEmailSupportCognitionAiWell	Please email <lnk>support@cognition.ai</lnk> and we'll get back to you.
+translation.settings.preferencePages.teamReferral.invitesremainingPerorgquotaInvitesRemaining	{{invitesRemaining}} of {{perOrgQuota}} invites remaining
+translation.settings.preferencePages.teamReferral.youveUsedAllInvites	You've used all your invites.
+translation.settings.preferencePages.teamReferral.email	Email
+translation.settings.preferencePages.teamReferral.sentBy	Sent by
+translation.settings.preferencePages.teamReferral.sentAt	Sent at
+translation.settings.preferencePages.teamReferral.status	Status
+translation.settings.preferencePages.teamReferral.inviteLink	Invite link
+translation.settings.preferencePages.teamReferral.retry	Retry
+translation.settings.preferencePages.teamReferral.weCouldntLoadSentInvitesPlease	We couldn't load your sent invites. Please retry.
+translation.settings.preferencePages.teamReferral.giveRecipientrewarddollarsGetReferrerrewarddollars	Give \${{recipientRewardDollars}}. Get \${{referrerRewardDollars}}.
+translation.settings.preferencePages.teamReferral.referTeamDevinWhenTheyJoin	Refer a team to Devin. When they join, they'll receive \${{recipientRewardDollars}} and you'll receive \${{referrerRewardDollars}} in bonus usage to try Devin.
+translation.settings.preferencePages.teamReferral.enterCompanyEmailAddress	Enter a company email address
+translation.settings.preferencePages.teamReferral.somethingWentWrongPleaseTryAgain	Something went wrong. Please try again.
+translation.settings.preferencePages.teamReferral.couldntSendInvitePleaseTryAgain	Couldn't send the invite. Please try again.
+translation.settings.preferencePages.teamReferral.invited	Invited
+translation.settings.preferencePages.teamReferral.invite	Invite
+translation.settings.preferencePages.teamReferral.thisAddressWasAlreadyInvitedRecently	This address was already invited recently — no new email was sent.
+translation.settings.preferencePages.teamReferral.inviteSent	Invite sent
+translation.settings.preferencePages.teamReferral.rewarded	Rewarded
+translation.settings.preferencePages.teamReferral.expired	Expired
+translation.settings.preferencePages.teamReferral.enterValidEmail	Please enter a valid email
+translation.settings.preferencePages.teamReferral.useCompanyEmail	Please use a company email address.
+translation.settings.preferencePages.teamReferral.alreadyOnCompanyDomain	This person is already on your company's domain.
+translation.settings.preferencePages.teamReferral.usedAllInvites	You've used all your invites.
+translation.settings.preferencePages.teamReferral.programNotAcceptingInvites	This program is no longer accepting invites.
+translation.settings.preferencePages.teamReferral.programNotAvailable	This program is no longer available.
+translation.settings.preferencePages.teamReferral.accountCantSendInvites	Your account can't send invites right now.
+translation.settings.preferencePages.teamReferral.statusSent	Sent
+translation.settings.messageAcuLimitDescription	Maximum ACUs that Devin can use per message you send
+translation.settings.swe2Description	Cognition's software engineering model
+translation.settings.devinModeSwe2Flash	SWE-2 Flash (Preview)
+translation.settings.devinModeSwe2FlashMedium	SWE-2 Flash Medium (Preview)
+translation.settings.devinModeSwe2FlashHigh	SWE-2 Flash High (Preview)
+translation.settings.devinModeSwe2FlashMax	SWE-2 Flash Max (Preview)
+translation.settings.swe2FlashDescription	Cognition's fast, efficient coding model. Preview until Nov 18
+translation.settings.devinModeSwe2Lightning	SWE-2 Lightning (Preview)
+translation.settings.devinModeSwe2LightningMedium	SWE-2 Lightning Medium (Preview)
+translation.settings.devinModeSwe2LightningHigh	SWE-2 Lightning High (Preview)
+translation.settings.devinModeSwe2LightningMax	SWE-2 Lightning Max (Preview)
+translation.settings.swe2LightningDescription	Cognition's latest model, served faster. Preview until Nov 25
+translation.settings.devinModeUnavailable	{{mode}} (unavailable)
+translation.settings.devinModeSwe2High	SWE-2 High (Preview)
+translation.settings.devinModeSwe2Max	SWE-2 Max (Preview)
+translation.settings.runtimePages.enterpriseDevin.configurePersonalSettings	Configure personal settings
+translation.settings.runtimePages.enterpriseDevin.selectOrganizationViewItsAllowedTags	Select an organization to view its allowed tags
+translation.settings.runtimePages.enterpriseDevin.loadingTags	Loading tags...
+translation.settings.runtimePages.enterpriseDevin.noTagsConfiguredOrganizationSessionCreation	No tags configured for this organization. Session creation will fail until at least one tag is added to the allowlist.
+translation.settings.runtimePages.enterpriseDevin.selectOrganization	Select organization
+translation.settings.runtimePages.enterpriseDevin.searchOrganizations	Search organizations...
+translation.settings.runtimePages.enterpriseDevin.noOrganizationsFound	No organizations found.
+translation.settings.runtimePages.enterpriseOncall.oncall	Oncall
+translation.settings.runtimePages.enterpriseSessions.noSessionsFound	No sessions found
+translation.settings.runtimePages.outposts.createOutpost	Create outpost
+translation.settings.runtimePages.outposts.sessionsAssignedOutpostRunOwnMachines	Sessions assigned to this outpost run on your own machines
+translation.settings.runtimePages.outposts.name	Name
+translation.settings.runtimePages.outposts.outpostTitle	Outpost title
+translation.settings.runtimePages.outposts.namesMayOnlyContainLowercaseLetters	Names may only contain lowercase letters, digits, dashes, and underscores.
+translation.settings.runtimePages.outposts.anOutpostWithNameAlreadyExists	An outpost with this name already exists.
+translation.settings.runtimePages.outposts.description	Description
+translation.settings.runtimePages.outposts.describePurposeOutpost	Describe the purpose of this outpost
+translation.settings.runtimePages.outposts.platform	Platform
+translation.settings.runtimePages.outposts.organizationAccess	Organization access
+translation.settings.runtimePages.outposts.chooseWhichOrganizationsCanUseOutpost	Choose which organizations can use this outpost
+translation.settings.runtimePages.outposts.creating	Creating…
+translation.settings.runtimePages.outposts.create	Create
+translation.settings.runtimePages.outposts.personalOutpostOnlyItsOwnerCan	Personal outpost — only its owner can launch sessions on it
+translation.settings.runtimePages.outposts.personal	Personal
+translation.settings.runtimePages.outposts.copyOutpostId	Copy outpost ID
+translation.settings.runtimePages.outposts.noOrganizations	No organizations
+translation.settings.runtimePages.outposts.deleteOutpost	Delete outpost
+translation.settings.runtimePages.outposts.outpostCreated	Outpost created
+translation.settings.runtimePages.outposts.anOutpostWithNameAlreadyExists2	An outpost with this name already exists
+translation.settings.runtimePages.outposts.selectAtLeastOneOrganizationOr	Select at least one organization or choose All organizations
+translation.settings.runtimePages.outposts.outpostAccessUpdated	Outpost access updated
+translation.settings.runtimePages.outposts.failedUpdateOutpostAccess	Failed to update outpost access
+translation.settings.runtimePages.outposts.outpostDeleted	Outpost deleted
+translation.settings.runtimePages.outposts.failedDeleteOutpost	Failed to delete outpost
+translation.settings.runtimePages.outposts.retry	Retry
+translation.settings.runtimePages.outposts.noOutpostsConfiguredCreateOneGet	No outposts configured. Create one to get started.
+translation.settings.runtimePages.outposts.outpostTokenGenerated	Outpost token generated
+translation.settings.runtimePages.outposts.forOutpostOutpostname	For outpost: {{outpostName}}
+translation.settings.runtimePages.outposts.thisTokenWillOnlyShownOnce	This token will only be shown once. Make sure to copy and store it securely — the outpost worker uses it to connect. If you close this modal, you will not be able to view this token again.
+translation.settings.runtimePages.outposts.runWorkerMachine	Run a worker on your machine
+translation.settings.runtimePages.outposts.failedCreateOutpost	Failed to create outpost
+translation.settings.runtimePages.vpcInfra.acquiredSlotsSlots	{{acquired_slots}} slots
+translation.settings.runtimePages.vpcInfra.copyLabel	Copy {{label}}
+translation.settings.runtimePages.vpcInfra.hypervisor	Hypervisor
+translation.settings.runtimePages.vpcInfra.copyHypervisorId	Copy hypervisor ID
+translation.settings.runtimePages.vpcInfra.copyInstanceId	Copy instance ID
+translation.settings.runtimePages.vpcInfra.status	Status
+translation.settings.runtimePages.vpcInfra.runningHealthyAcceptingJobs	<span>Running:</span> healthy, accepting jobs
+translation.settings.runtimePages.vpcInfra.startingBootingUp	<span>Starting:</span> booting up
+translation.settings.runtimePages.vpcInfra.drainingFinishingCurrentJobs	<span>Draining:</span> finishing current jobs
+translation.settings.runtimePages.vpcInfra.staleHeartbeatLostExcludedFromCapacity	<span>Stale:</span> heartbeat lost, excluded from capacity
+translation.settings.runtimePages.vpcInfra.disconnectedUnreachable	<span>Disconnected:</span> unreachable
+translation.settings.runtimePages.vpcInfra.usage	Usage
+translation.settings.runtimePages.vpcInfra.created	Created
+translation.settings.runtimePages.vpcInfra.heartbeat	Heartbeat
+translation.settings.runtimePages.vpcInfra.noHypervisorsMatchSelectedFilter	No hypervisors match the selected filter
+translation.settings.runtimePages.vpcInfra.unableLoadData	Unable to load data
+translation.settings.runtimePages.vpcInfra.refresh	Refresh
+translation.settings.runtimePages.vpcInfra.failedLoadInfrastructureDataTryRefreshing	Failed to load infrastructure data. Try refreshing.
+translation.settings.runtimePages.vpcInfra.noVpcDataAvailable	No VPC data available
+translation.settings.runtimePages.vpcInfra.noTenantsOrHypervisorsCurrentlyConfigured	No tenants or hypervisors are currently configured.
+translation.settings.runtimePages.vpcInfra.yourOrganizationHasntConfiguredVirtualPrivate	Your organization hasn't configured a virtual private cloud instance yet
+translation.settings.runtimePages.vpcInfra.availableslotsTotalcapacityslotsSlotsAvailable	{{availableSlots}} of {{totalCapacitySlots}} slots available
+translation.settings.runtimePages.vpcInfra.dataStorage	Data storage
+translation.settings.runtimePages.vpcInfra.hypervisorStorage	Hypervisor storage
+translation.settings.runtimePages.vpcInfra.scaling	Scaling
+translation.settings.runtimePages.vpcInfra.filterMonitoringStatus	Filter monitoring status
+translation.settings.runtimePages.vpcInfra.allStatuses	All statuses
+translation.settings.runtimePages.vpcInfra.monitorHypervisorHealthCapacity	Monitor hypervisor health and capacity
+translation.settings.runtimePages.vpcInfra.thereNoVpcsAvailableAccount	There are no VPCs available in your account.
+translation.settings.runtimePages.vpcInfra.hypervisorSettingsUpdatedSuccessfully	Hypervisor settings updated successfully.
+translation.settings.runtimePages.vpcInfra.usedOfMaxSlots	{{used}} / {{maxSlots}} slots
+translation.settings.runtimePages.vpcInfra.queueNone	None
+translation.settings.runtimePages.vpcInfra.oldestRequest	Oldest request: {{duration}}
+translation.settings.runtimePages.vpcInfra.queueSessionsCount_one	{{count}} session
+translation.settings.runtimePages.vpcInfra.queueSessionsCount_other	{{count}} sessions
+translation.settings.runtimePages.vpcInfra.queueIndexingCount_one	{{count}} indexing
+translation.settings.runtimePages.vpcInfra.queueIndexingCount_other	{{count}} indexing
+translation.settings.runtimePages.vpcInfra.queueReviewCount_one	{{count}} PR review
+translation.settings.runtimePages.vpcInfra.queueReviewCount_other	{{count}} PR reviews
+translation.settings.runtimePages.vpcInfra.queueBuildsCount_one	{{count}} build
+translation.settings.runtimePages.vpcInfra.queueBuildsCount_other	{{count}} builds
+translation.settings.runtimePages.vpcInfra.queueOtherCount_one	{{count}} other
+translation.settings.runtimePages.vpcInfra.queueOtherCount_other	{{count}} other
+translation.settings.runtimePages.vpcInfra.running2	Running
+translation.settings.runtimePages.vpcInfra.starting2	Starting
+translation.settings.runtimePages.vpcInfra.restarting	Restarting
+translation.settings.runtimePages.vpcInfra.draining2	Draining
+translation.settings.runtimePages.vpcInfra.retiring	Retiring
+translation.settings.runtimePages.vpcInfra.unhealthy	Unhealthy
+translation.settings.runtimePages.vpcInfra.disconnected2	Disconnected
+translation.settings.runtimePages.vpcInfra.terminated	Terminated
+translation.settings.runtimePages.vpcInfra.stale2	Stale
+translation.settings.runtimePages.vpcInfra.sessions	Sessions
+translation.settings.runtimePages.vpcInfra.indexing	Indexing
+translation.settings.runtimePages.vpcInfra.prReview	PR review
+translation.settings.runtimePages.vpcInfra.builds	Builds
+translation.settings.runtimePages.vpcInfra.other	Other
+translation.settings.runtimePages.vpcInfra.durationSecondsAgo	{{value}}s ago
+translation.settings.runtimePages.vpcInfra.durationMinutesAgo	{{value}}m ago
+translation.settings.runtimePages.vpcInfra.durationHoursAgo	{{value}}h ago
+translation.settings.runtimePages.vpcInfra.noHeartbeatData	No heartbeat data
+translation.settings.runtimePages.vpcInfra.heartbeatStale2Min	Hypervisor hasn't reported in over 2 minutes
+translation.settings.runtimePages.vpcInfra.heartbeatStale1Min	Hypervisor hasn't reported in over 1 minute — new jobs may schedule elsewhere
+translation.settings.runtimePages.vpcInfra.hypervisorIdCopied	Hypervisor ID copied
+translation.settings.runtimePages.vpcInfra.instanceIdCopied	Instance ID copied
+translation.settings.runtimePages.vpcInfra.percentAvailable	{{percent}}% available
+translation.settings.runtimePages.vpcInfra.breakdownRunning_one	{{count}} running
+translation.settings.runtimePages.vpcInfra.breakdownRunning_other	{{count}} running
+translation.settings.runtimePages.vpcInfra.breakdownStale_one	{{count}} stale
+translation.settings.runtimePages.vpcInfra.breakdownStale_other	{{count}} stale
+translation.settings.runtimePages.vpcInfra.breakdownStarting_one	{{count}} starting
+translation.settings.runtimePages.vpcInfra.breakdownStarting_other	{{count}} starting
+translation.settings.runtimePages.vpcInfra.breakdownDraining_one	{{count}} draining
+translation.settings.runtimePages.vpcInfra.breakdownDraining_other	{{count}} draining
+translation.settings.runtimePages.vpcInfra.breakdownDisconnected_one	{{count}} disconnected
+translation.settings.runtimePages.vpcInfra.breakdownDisconnected_other	{{count}} disconnected
+translation.settings.runtimePages.vpcInfra.labelCopied	{{label}} copied
+translation.settings.devinModeEnabledForEnterprise	{{mode}} enabled for your enterprise.
+translation.settings.devinModeDisabledForEnterprise	{{mode}} disabled for your enterprise.
+translation.settings.devinModeEnabledForOrganization	{{mode}} enabled for your organization.
+translation.settings.devinModeDisabledForOrganization	{{mode}} disabled for your organization.
+translation.settings.devinModeUpdateFailed	Failed to update {{mode}} setting.
+translation.settings.credentialPages.apiKeys.error	Error
+translation.settings.credentialPages.apiKeys.failedLoadApiKeysPleaseTry	Failed to load API keys. Please try again later.
+translation.settings.credentialPages.apiKeys.keyType	Key type
+translation.settings.credentialPages.apiKeys.personalKeys	Personal keys
+translation.settings.credentialPages.apiKeys.tiedAccountDoNotShare	Tied to your account. Do not share.
+translation.settings.credentialPages.apiKeys.serviceKeys	Service keys
+translation.settings.credentialPages.apiKeys.sharedAcrossOrganizationServiceIntegrations	Shared across your organization for service integrations.
+translation.settings.credentialPages.apiKeys.selectKeyType	Select key type
+translation.settings.credentialPages.apiKeys.keepKeySecure	Keep this key secure
+translation.settings.credentialPages.apiKeys.revealOrRegenerateKey	Reveal or regenerate your key
+translation.settings.credentialPages.apiKeys.retrieving	Retrieving…
+translation.settings.credentialPages.apiKeys.viewKey	View key
+translation.settings.credentialPages.apiKeys.moreActions	More actions
+translation.settings.credentialPages.apiKeys.regenerating	Regenerating…
+translation.settings.credentialPages.apiKeys.revokeRegenerate	Revoke and Regenerate
+translation.settings.credentialPages.apiKeys.copied	Copied!
+translation.settings.credentialPages.apiKeys.copyApiKey	Copy API key
+translation.settings.credentialPages.apiKeys.hide	Hide
+translation.settings.credentialPages.apiKeys.hideApiKey	Hide API key
+translation.settings.credentialPages.apiKeys.createKeyStartUsingApi	Create a key to start using the API
+translation.settings.credentialPages.apiKeys.generating	Generating…
+translation.settings.credentialPages.apiKeys.generateApiKey	Generate API Key
+translation.settings.credentialPages.apiKeys.apiKeysHaveMovedDeveloperSettings	API keys have moved to Developer Settings. Contact your enterprise admin for access.
+translation.settings.credentialPages.apiKeys.deprecated	Deprecated
+translation.settings.credentialPages.apiKeys.apiKeysOnlyWorkWithV1	API keys only work with the V1 and V2 API. Migrate to <lnk>service users</lnk> for the V3 API.
+translation.settings.credentialPages.apiKeys.tip	Tip
+translation.settings.credentialPages.apiKeys.toGiveDevinAccessThirdParty	To give Devin access to third-party credentials, use <lnk>secrets</lnk> instead.
+translation.settings.credentialPages.apiKeys.serviceApiKey	Service API key
+translation.settings.credentialPages.apiKeys.personalApiKey	Personal API key
+translation.settings.credentialPages.apiKeys.noServiceApiKey	No service API key
+translation.settings.credentialPages.apiKeys.noPersonalApiKey	No personal API key
+translation.settings.credentialPages.apiKeys.personalKey	Personal key
+translation.settings.credentialPages.apiKeys.serviceKey	Service key
+translation.settings.credentialPages.personalAccessTokens.setEnvironmentVariable	Set environment variable
+translation.settings.credentialPages.personalAccessTokens.storeTokenSoItsAvailableScripts	Store your token so it's available to scripts and CLI tools
+translation.settings.credentialPages.personalAccessTokens.seeApiDocumentationMoreExamplesDetails	See <lnk>API documentation</lnk> for more examples and details
+translation.settings.credentialPages.personalAccessTokens.active	Active
+translation.settings.credentialPages.personalAccessTokens.revoked	Revoked
+translation.settings.credentialPages.personalAccessTokens.expired	Expired
+translation.settings.credentialPages.personalAccessTokens.tokenRequestSubmittedApproval	Token request submitted for approval.
+translation.settings.credentialPages.personalAccessTokens.tokenCreated	Token created
+translation.settings.credentialPages.personalAccessTokens.tokenRevokedSuccessfully	Token revoked successfully
+translation.settings.credentialPages.personalAccessTokens.tokenRotatedSuccessfully	Token rotated successfully
+translation.settings.credentialPages.personalAccessTokens.tokenActivated	Token activated
+translation.settings.credentialPages.personalAccessTokens.failedActivateTokenRequestMayHave	Failed to activate token. The request may have expired or been cancelled.
+translation.settings.credentialPages.personalAccessTokens.requestNameCancelled	Request \\
+translation.settings.credentialPages.secrets.secretsAllowYouSecurelyStoreCredentials	Secrets allow you to securely store credentials. <lnk>Learn more</lnk>
+translation.settings.credentialPages.secrets.createSecret	Create secret
+translation.settings.credentialPages.secrets.submissionError	Submission error
+translation.settings.credentialPages.secrets.thereWasProblemSubmittingRequestSubmissionerror	There was a problem submitting your request: {{submissionError}}
+translation.settings.credentialPages.secrets.type	Type
+translation.settings.credentialPages.secrets.selectSecretType	Select secret type
+translation.settings.credentialPages.secrets.thisSecretWillNotAvailableDevin	This secret will not be available to Devin sessions started before its creation
+translation.settings.credentialPages.secrets.setUpTimeBasedOneTime	Set up a Time-based One-Time Password (TOTP) for two-factor authentication. <lnk>View documentation</lnk>
+translation.settings.credentialPages.secrets.viewDocumentation	View documentation
+translation.settings.credentialPages.secrets.name	Name
+translation.settings.credentialPages.secrets.goodExamplesSecretNamesDescriptiveEasy	Good examples of secret names are descriptive and easy to understand. For example,
+translation.settings.credentialPages.secrets.etc	, etc.
+translation.settings.credentialPages.secrets.rdsPsqlDbUrl	RDS_PSQL_DB_URL
+translation.settings.credentialPages.secrets.deploymentEnv	DEPLOYMENT_ENV
+translation.settings.credentialPages.secrets.value	Value
+translation.settings.credentialPages.secrets.pasteCookieJsonDirectlyOrPre	Paste cookie JSON directly, or a pre-encoded base64 string of semicolon-delimited JSON objects
+translation.settings.credentialPages.secrets.json	JSON
+translation.settings.credentialPages.secrets.base64	base64
+translation.settings.credentialPages.secrets.pasteOneOrMoreCookieJson	Paste one or more cookie JSON objects. We’ll encode them for you.
+translation.settings.credentialPages.secrets.pastePreEncodedBase64StringSemicolon	Paste a pre-encoded base64 string of semicolon-delimited JSON objects.
+translation.settings.credentialPages.secrets.pasteOtpauthTotpUriOrScan	Paste an otpauth://totp/ URI, or scan its QR code
+translation.settings.credentialPages.secrets.scanQrCode	Scan QR code
+translation.settings.credentialPages.secrets.useQrCodeScannerUpperRight	Use the QR code scanner in the upper right of the input box to scan a QR code
+translation.settings.credentialPages.secrets.note	Note
+translation.settings.credentialPages.secrets.whatSecretAboutDevinCanRead	What is this secret about? Devin can read the note for context
+translation.settings.credentialPages.secrets.moreControls	More controls
+translation.settings.credentialPages.secrets.buildOnly	Build only
+translation.settings.credentialPages.secrets.whenEnabledSecretOnlyAvailableDuring	When enabled, this secret is only available during the enterprise/org setup phase of snapshot builds. It will not be available during Devin sessions.
+translation.settings.credentialPages.secrets.useDuringEnvironmentSetupOnly	Use during environment setup only
+translation.settings.credentialPages.secrets.redactValue	Redact value
+translation.settings.credentialPages.secrets.scanTotpQrCode	Scan TOTP QR code
+translation.settings.credentialPages.secrets.scanError	Scan error
+translation.settings.credentialPages.secrets.addMultipleKeyValueSecretsAt	Add multiple key-value secrets at once. <lnk>Learn more</lnk>
+translation.settings.credentialPages.secrets.addValidsecretscountValid	Add {{validSecretsCount}} valid
+translation.settings.credentialPages.secrets.addSecrets	Add secrets
+translation.settings.credentialPages.secrets.uploadFile	Upload file
+translation.settings.credentialPages.secrets.fileSizeMustLessThan2mb	File size must be less than 2MB
+translation.settings.credentialPages.secrets.chooseFileOrDragDrop	Choose a file or drag and drop
+translation.settings.credentialPages.secrets.aEnvFileUp2mb	A .env file, up to 2MB
+translation.settings.credentialPages.secrets.secrets	Secrets
+translation.settings.credentialPages.secrets.oneKeyValuePerLineAdd	One KEY=value per line. Add a note after # on the same line. Add cookies and TOTP codes one at a time
+translation.settings.credentialPages.secrets.preview	Preview
+translation.settings.credentialPages.secrets.removeInvalid	Remove invalid
+translation.settings.credentialPages.secrets.key	Key
+translation.settings.credentialPages.secrets.actions	Actions
+translation.settings.credentialPages.secrets.remove	Remove
+translation.settings.credentialPages.secrets.removeSecret	Remove secret
+translation.settings.credentialPages.secrets.redactValues	Redact values
+translation.settings.credentialPages.secrets.featureNotAvailable	Feature not available
+translation.settings.credentialPages.secrets.secretsManagerNotAvailableOrganization	Secrets manager is not available for this organization.
+translation.settings.credentialPages.secrets.thereWasErrorLoadingPagePlease	There was an error loading this page. Please try again later.
+translation.settings.credentialPages.secrets.searchSecrets	Search secrets
+translation.settings.credentialPages.secrets.bulkAddSecrets	Bulk add secrets
+translation.settings.credentialPages.secrets.addSecret	Add secret
+translation.settings.credentialPages.secrets.devinCanConnectCloudServicesSecrets	Devin can connect to cloud services and secrets managers via OIDC, with no stored credentials. <lnk>Set up OIDC</lnk>
+translation.settings.credentialPages.secrets.noSecretsFound	No secrets found
+translation.settings.credentialPages.secrets.addFirstSecretGetStarted	Add your first secret to get started.
+translation.settings.credentialPages.secrets.noSecretsHaveBeenAddedYet	No secrets have been added yet.
+translation.settings.credentialPages.secrets.deleteSecret	Delete secret
+translation.settings.credentialPages.secrets.areYouSureYouWantDelete	Are you sure you want to delete “{{key}}”? This action cannot be undone.
+translation.settings.credentialPages.secrets.delete	Delete
+translation.settings.credentialPages.secrets.createdTimeordate	Created {{timeOrDate}}
+translation.settings.credentialPages.secrets.failedLoadSecretPleaseTryAgain	Failed to load secret. Please try again later
+translation.settings.credentialPages.secrets.secretNotFound	Secret not found
+translation.settings.credentialPages.secrets.secretUpdatedSuccessfully	Secret updated successfully
+translation.settings.credentialPages.secrets.noteEditingRequiresBackendUpdate	Note editing requires backend update
+translation.settings.credentialPages.secrets.youDontHavePermissionEditSecret	You don't have permission to edit this secret
+translation.settings.credentialPages.secrets.failedUpdateNote	Failed to update note
+translation.settings.credentialPages.secrets.failedUpdateSecret	Failed to update secret
+translation.settings.credentialPages.secrets.existingValuesStayHiddenEnterNew	Existing values stay hidden. Enter a new value to replace one, or leave it blank to keep the current value
+translation.settings.credentialPages.secrets.existingValueStaysHiddenEnterNew	Existing value stays hidden. Enter a new value to replace it, or leave blank to keep it
+translation.settings.credentialPages.secrets.values	Values
+translation.settings.credentialPages.secrets.noNote	No note
+translation.settings.credentialPages.secrets.saving	Saving…
+translation.settings.credentialPages.secrets.save	Save
+translation.settings.credentialPages.secrets.editNote	Edit note
+translation.settings.credentialPages.secrets.edit	Edit
+translation.settings.credentialPages.secrets.valueKey	Value for {{key}}
+translation.settings.credentialPages.secrets.privateYouOnlyVisibleUsableBy	Private to you. Only visible and usable by you in your sessions
+translation.settings.credentialPages.secrets.referenceSecretDollarSign	Reference a secret with a dollar sign, e.g. <chip>$SERVICE_USERNAME</chip>. <lnk>Learn more</lnk>
+translation.settings.credentialPages.secrets.createdAtBy	Created {{timeOrDate}} by {{name}}
+translation.settings.credentialPages.secrets.createdBy	Created by {{name}}
+translation.settings.credentialPages.secrets.updatedAt	Updated {{timeOrDate}}
+translation.settings.credentialPages.secrets.updatedAtBy	Updated {{timeOrDate}} by {{name}}
+translation.settings.credentialPages.secrets.scope	Scope
+translation.settings.credentialPages.secrets.environmentVariable	Environment variable
+translation.settings.credentialPages.secrets.copyVariableName	Copy variable name
+translation.settings.credentialPages.secrets.copyKey	Copy \${{key}}
+translation.settings.credentialPages.secrets.canonical	Canonical
+translation.settings.credentialPages.secrets.updatedBy	Updated by
+translation.settings.credentialPages.secrets.updatedAt2	Updated at
+translation.settings.credentialPages.secrets.newSecret	New secret
+translation.settings.credentialPages.secrets.newEnterpriseSecret	New enterprise secret
+translation.settings.credentialPages.secrets.newPersonalSecret	New personal secret
+translation.settings.credentialPages.secrets.newRepositorySecret	New repository secret
+translation.settings.credentialPages.secrets.newOrganizationSecret	New organization secret
+translation.settings.credentialPages.secrets.availableEnterpriseWide	Available to all sessions across all organizations in the enterprise.
+translation.settings.credentialPages.secrets.availableOnlyYourSessions	Available only to your sessions
+translation.settings.credentialPages.secrets.availableFutureSessionsRepo	Available to future sessions for {{repo}}.
+translation.settings.credentialPages.secrets.availableAllSessionsOrg	Available to all sessions in {{org}}.
+translation.settings.credentialPages.secrets.invalidQrCodeFormat	Invalid QR code format. Expected TOTP URI format.
+translation.settings.credentialPages.secrets.fieldRequired	Required
+translation.settings.credentialPages.secrets.invalidEnvVarName	Only letters, numbers, and underscores; cannot start with a number
+translation.settings.credentialPages.secrets.enterValidCookieJson	Please enter valid cookie JSON.
+translation.settings.credentialPages.secrets.invalidBase64OrCookieFormat	Invalid base64 or cookie format
+translation.settings.credentialPages.secrets.invalidTotpFormat	The TOTP value must be of the format: otpauth://totp/ExampleUser:devin@example.com?secret=JBSWY3DPEHPK3PXP&issuer=ExampleIssuer.
+translation.settings.credentialPages.secrets.anErrorOccurred	An error occurred
+translation.settings.credentialPages.secrets.cookieFallbackName	Cookie {{number}}
+translation.settings.credentialPages.secrets.cookieExpired	Expired
+translation.settings.credentialPages.secrets.cookieExpiresInDays	Expires in {{days}}d
+translation.settings.credentialPages.secrets.importRepositorySecrets	Import repository secrets
+translation.settings.credentialPages.secrets.importPersonalSecrets	Import personal secrets
+translation.settings.credentialPages.secrets.importEnterpriseSecrets	Import enterprise secrets
+translation.settings.credentialPages.secrets.importOrganizationSecrets	Import organization secrets
+translation.settings.credentialPages.secrets.addMultipleFromFileOrPaste	Add multiple secrets from a file or by pasting directly.
+translation.settings.credentialPages.secrets.failedParseInput	Failed to parse input. Please ensure it follows the correct format.
+translation.settings.credentialPages.secrets.failedValidateSecrets	Failed to validate secrets
+translation.settings.credentialPages.secrets.couldntReadFile	Couldn't read the file. Upload a plain-text .env file
+translation.settings.credentialPages.secrets.pasteOrUploadAtLeastOne	Paste or upload at least one secret
+translation.settings.credentialPages.secrets.fixOrRemoveInvalidEntries	Fix or remove the invalid entries
+translation.settings.credentialPages.secrets.failedImportSecrets	Failed to import secrets
+translation.settings.credentialPages.secrets.scopeOrganization	Organization
+translation.settings.credentialPages.secrets.scopePersonal	Personal
+translation.settings.credentialPages.secrets.nameMustBeUnique	Secret name must be unique
+translation.settings.credentialPages.secrets.previewValidInvalid	{{valid}} valid, {{invalid}} invalid
+translation.settings.credentialPages.secrets.previewSecretCount_one	{{count}} secret
+translation.settings.credentialPages.secrets.previewSecretCount_other	{{count}} secrets
+translation.settings.aiGatewayPermissions	AI Gateway permissions
+translation.settings.viewAiGatewayMetrics	View AI Gateway metrics
+translation.settings.viewAiGatewayMetricsDescription	View AI Gateway metrics for the enterprise (read-only)
+translation.settings.viewAiGatewayPrices	View AI Gateway prices
+translation.settings.viewAiGatewayPricesDescription	View the AI Gateway model prices the enterprise pays (read-only)
+translation.settings.useAiGateway	Use AI Gateway
+translation.settings.useAiGatewayDescription	Allow a service user to create and use an API key for the AI Gateway
+translation.settings.changeOrganizationName	Change organization name
+translation.settings.changeOrganizationNameDescription	Enter a new name for your organization
+translation.settings.chatgptAccount	ChatGPT account
+translation.settings.chatgptAccountDescription	Link your account to use your ChatGPT plan in Devin.
+translation.settings.chatgptLink	Continue with ChatGPT
+translation.settings.chatgptLinkDenied	Your ChatGPT account wasn't linked because the request was cancelled or declined. Please try again.
+translation.settings.chatgptLinkFailedWithError	Couldn't link your ChatGPT account ({{error}}). Please try again.
+translation.settings.chatgptLinkUnavailable	Signing in with ChatGPT is not available right now
+translation.settings.chatgptLinked	ChatGPT account linked
+translation.settings.chatgptPlanNotShared	ChatGPT plan not shared
+translation.settings.chatgptPlanNotSharedNotice	Your ChatGPT account did not share its plan with Devin.
+translation.settings.chatgptPlanNotSharedReason	Only personal Go, Plus and Pro plans can be shared, not Free or Business, Team and Enterprise workspace accounts.
+translation.settings.chatgptReconnect	Reconnect
+translation.settings.chatgptSubscription	ChatGPT subscription
+translation.settings.chatgptTokenSharing	Use your ChatGPT plan
+translation.settings.chatgptTokenSharingDescription	Run supported models on your ChatGPT subscription instead of your Devin plan
+translation.settings.chatgptTokenSharingReconnectRequired	Your ChatGPT connection has expired. Reconnect to use your plan.
+translation.settings.chatgptTokenSharingError	Your ChatGPT plan can't be used right now. Check your connection.
+translation.settings.chatgptTokenSharingUpdateFailed	Couldn't update your ChatGPT plan setting. Please try again.
+translation.settings.chatgptUnlink	Unlink
+translation.settings.chatgptUnlinked	ChatGPT account unlinked
+translation.settings.chatgptUpgrade	Upgrade
+translation.settings.chatgptUpgradeToConnect	Upgrade your plan to connect ChatGPT
+translation.settings.enterOrganizationName	Enter organization name
+translation.settings.enterpriseAuthenticationDescription	Manage how members join your enterprise
+translation.settings.enterpriseGeneralDescription	Enterprise preferences and settings
+translation.settings.failedToLoadSetting	Failed to load setting
+translation.settings.failedToUpdateSetting	Failed to update setting
+translation.settings.manualMemberInvitationDisabled	Manual member invitation disabled.
+translation.settings.manualMemberInvitationEnabled	Manual member invitation enabled.
+translation.settings.memberAddColumn	Add column
+translation.settings.memberRequestPending	Request pending
+translation.settings.memberAcuUsageColumn	ACU utilization
+translation.settings.aiGateway	AI Gateway
+translation.settings.aiGatewayDashboardTitle	AI gateway dashboard
+translation.settings.aiGatewayLoading	Loading dashboard…
+translation.settings.aiGatewayLoadFailed	Failed to load the AI gateway dashboard.
+translation.settings.aiGatewayUnavailable	The AI gateway dashboard is not available for this account.
+translation.settings.aiGatewayGetStartedTab	Get started
+translation.settings.aiGatewayMetricsTab	Metrics
+translation.settings.aiGatewayGetStartedTitle	Get started with AI Gateway
+translation.settings.aiGatewayGetStartedDescription	Call Cognition-managed models from your own software through one OpenAI-compatible API.
+translation.settings.aiGatewayBaseUrl	Base URL
+translation.settings.aiGatewayBaseUrlDescription	Use this as the base URL in any OpenAI-compatible SDK or tool.
+translation.settings.aiGatewayAuthHeader	Authentication
+translation.settings.aiGatewayAuthHeaderDescription	Send your AI Gateway API key as a bearer token on every request.
+translation.settings.aiGatewayRequestFormat	Request format
+translation.settings.aiGatewayRequestFormatDescription	JSON request bodies in the OpenAI Chat Completions or Responses format. Set model to a model ID from your available models.
+translation.settings.aiGatewayStepCreateKey	Create or select an API key
+translation.settings.aiGatewayStepCreateKeyDescription	Create a service user in your enterprise with a role that includes the Use AI Gateway permission, and use its token. For personal use, a personal access token also works if your own role includes the same permission. Organization-level API keys are not supported.
+translation.settings.aiGatewayManageTokens	Manage personal access tokens
+translation.settings.aiGatewayManageKeys	Manage service users
+translation.settings.aiGatewayStepCopyExample	Copy an example request
+translation.settings.aiGatewayStepCopyExampleDescription	Each example uses your first available model.
+translation.settings.aiGatewayStepCopyExampleNoModelDescription	Replace <model-id> with an available model once one is enabled.
+translation.settings.aiGatewayStepChooseModel	Choose from your available models
+translation.settings.aiGatewayStepChooseModelDescription	What GET /models returns for your account. Set model to a model ID or one of its variants; for models with reasoning efforts, optionally set reasoning_effort.
+translation.settings.aiGatewayModelIdColumn	Model ID
+translation.settings.aiGatewayVariantsColumn	Variants
+translation.settings.aiGatewayReasoningEffortsColumn	Reasoning efforts
+translation.settings.aiGatewayVariantsExpand_one	Show {{count}} variant
+translation.settings.aiGatewayVariantsExpand_other	Show all {{count}} variants
+translation.settings.aiGatewayVariantsCollapse	Show pattern
+translation.settings.aiGatewayModelsLoadFailed	Failed to load AI Gateway models.
+translation.settings.aiGatewayNoModels	No models are enabled for AI Gateway on your account yet.
+translation.settings.agentCapabilities	Agent capabilities
+translation.settings.agentCapabilitiesDescription	Choose which agent capabilities are available in your organization
+translation.settings.agentHooks	Agent hooks
+translation.settings.agentHooksDescription	Hooks that run custom commands in Devin CLI and Cascade
+translation.settings.agentHooksSaved	Agent hooks saved
+translation.settings.agentHooksSaveFailed	Failed to save agent hooks
+translation.settings.agentHooksDialogDescription	Configure team-enforced hooks that run custom shell commands in Devin CLI and Cascade
+translation.settings.legacyCascade	Legacy Cascade
+translation.settings.localSettings	Local Settings
+translation.settings.enableCascade	Enable Cascade
+translation.settings.cascadeAvailabilityDescription	Choose where members can use the legacy Cascade agent
+translation.settings.cascadeEnabled	Enabled
+translation.settings.cascadeJetBrainsOnly	JetBrains plugin only
+translation.settings.cascadeDisabledEverywhere	Disabled everywhere
+translation.settings.cascadeAvailabilitySaved	Cascade availability updated
+translation.settings.cascadeAvailabilitySaveFailed	Failed to update Cascade availability
+translation.settings.legacyCascadeDescription	Devin Local is replacing Cascade. These settings apply primarily to the legacy Cascade agent.
+translation.settings.accessEnabledForAnthropicModelsWithZeroDataRetention	Access enabled for Anthropic models with zero data retention
+translation.settings.accessEnabledForAnthropicModelsWithZeroDataRetentionDescription	Your organization is enabled to use Claude Fable 5 and Claude Fable 5.1 under a time-bound exemption to the data retention requirement while Anthropic rolls out Enterprise Frontier Safeguards. Your standard data retention policy for all models applies.
+translation.settings.prcOriginModelsDisabled	PRC-origin models are disabled
+translation.settings.prcOriginModelsDisabledDescription	Your organization is set up to block models built on weights from labs based in the People's Republic of China (PRC), including Cognition models fine-tuned from them. Devin won't use these models in any mode.
+translation.settings.acpRegistryConfiguration	ACP registry configuration

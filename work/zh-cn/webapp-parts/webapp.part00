@@ -1,0 +1,500 @@
+translation.adminPromotionOwner.label	Enterprise or org
+translation.adminPromotionOwner.placeholder	Search by name or ID
+translation.adminPromotionOwner.description	Selecting an org in an enterprise chooses that enterprise and adds the org under Org IDs.
+translation.adminPromotionOwner.loading	Searching…
+translation.adminPromotionOwner.empty	No matching enterprises or orgs
+translation.adminPromotionOwner.budgetHint	In dollars or ACUs, whichever the account's plan is billed in. Select an enterprise or org first.
+translation.chatgptPlanCta.connect	Connect ChatGPT
+translation.chatgptPlanCta.inbox.body	Connect a personal Go, Plus or Pro plan to run supported models on it instead of your Devin usage.
+translation.chatgptPlanCta.inbox.title	Use your ChatGPT plan in Devin
+translation.releaseManager.save	Save changes
+translation.releaseManager.edit	Edit release manager
+translation.releaseManager.saveFailed	Couldn’t save changes. Try again.
+translation.releaseManager.unknownStatus	Unknown status
+translation.releaseManager.releaseHistory	Release history
+translation.releaseManager.search	Search releases…
+translation.releaseManager.status	Status
+translation.releaseManager.allStatuses	All statuses
+translation.releaseManager.release	Release
+translation.releaseManager.updatesRolledOut	Updates rolled out
+translation.releaseManager.tracked	Tracked
+translation.releaseManager.expandUpdates_one	Show {{count}} update for {{release}}
+translation.releaseManager.expandUpdates_other	Show {{count}} updates for {{release}}
+translation.releaseManager.hotfixTickets	Hotfix tickets
+translation.releaseManager.noReleases	No releases in this period. New deploys will appear here.
+translation.releaseManager.noMatches	No matching releases.
+translation.releaseManager.showMore	Show more
+translation.releaseManager.details	Details
+translation.releaseManager.runAs	Run as
+translation.releaseManager.serviceUser	Service user
+translation.releaseManager.created	Created
+translation.releaseManager.updated	Updated
+translation.releaseManager.deploySources	Deploy sources
+translation.releaseManager.teams	Teams
+translation.releaseManager.minimumRisk	Minimum risk: {{risk}}
+translation.releaseManager.riskHigh	High
+translation.releaseManager.riskMedium	Medium
+translation.releaseManager.riskLow	Low
+translation.releaseManager.ticketLoadFailed	Couldn’t load this release. It may have been removed.
+translation.releaseManager.retry	Retry
+translation.releaseManager.loadFailed	Couldn’t load this release manager. It may have been removed or you may not have access.
+translation.releaseManager.back	Back to Releases
+translation.releaseManager.enabled	Enabled
+translation.releaseManager.disabled	Disabled
+translation.releaseManager.moreActions	More actions
+translation.releaseManager.delete	Delete
+translation.releaseManager.releases	Releases
+translation.releaseManager.dateRange	Date range
+translation.releaseManager.lastDays_one	Last {{count}} day
+translation.releaseManager.lastDays_other	Last {{count}} days
+translation.releaseManager.historyLoadFailed	Couldn’t load release history.
+translation.releaseManager.releasesMonitored	Releases monitored
+translation.releaseManager.activeReleases	Active releases
+translation.releaseManager.completedReleases	Completed releases
+translation.releaseManager.chartLabel	Releases and hotfix updates tracked per day
+translation.releaseManager.deleteTitle	Delete release manager?
+translation.releaseManager.deleteDescription	Delete {{name}}? This stops monitoring and deletes its release board and all release tickets.
+translation.releaseManager.deleteFailed	Couldn’t delete this release manager. Try again.
+translation.releaseManager.mode	Agent mode
+translation.releaseManager.modeDescription	The mode the release manager’s sessions run in.
+translation.releaseManager.mcpDescription	The MCP servers and tools the release manager’s sessions can use.
+translation.releaseManager.metadataDescription	Add key-value pairs to organize and filter your release managers
+translation.releaseManager.sessionSettingsDescription	How sessions this release manager starts are run
+translation.onboardingRedesign.botTitle	Start with a {{botName}}
+translation.onboardingRedesign.botBody	Auto-manage work at scale, handle recurring tasks, and surface key decisions when needed
+translation.onboardingRedesign.botCaption	Your {{botName}} can help you finish setting up, tackle a project, or act as your Chief of Staff.
+translation.onboardingRedesign.botDefaultName	{{name}}’s {{botName}}
+translation.onboardingRedesign.botPreviousAvatar	Previous avatar
+translation.onboardingRedesign.botNextAvatar	Next avatar
+translation.onboardingRedesign.navigation	Onboarding navigation
+translation.onboardingRedesign.progress	Onboarding progress
+translation.onboardingRedesign.gitTitle	Connect your Git provider
+translation.onboardingRedesign.gitConnectedTitle	Your Git provider is connected
+translation.onboardingRedesign.gitBody	Clone repositories, push branches, and create pull requests all in the cloud.
+translation.onboardingRedesign.gitAlreadyConnectedTitle	Already connected to {{provider}}
+translation.onboardingRedesign.gitConnectedBody	Clone repositories, push branches, and create pull requests all in the cloud. Add or remove more later in settings.
+translation.onboardingRedesign.reposTitle	Add repositories
+translation.onboardingRedesign.reposLabel	Repositories
+translation.onboardingRedesign.deselectAllRepos	Deselect all
+translation.onboardingRedesign.reposBody	Start Devin sessions faster, at lower cost, and more reliably in your default environment.
+translation.onboardingRedesign.reposOverflowMore_one	{{formattedCount}} more repository
+translation.onboardingRedesign.reposOverflowMore_other	{{formattedCount}} more repositories
+translation.onboardingRedesign.reposSelected_zero	You selected no repositories
+translation.onboardingRedesign.reposSelected_one	You selected {{formattedCount}} repository
+translation.onboardingRedesign.reposSelected_other	You selected {{formattedCount}} repositories
+translation.onboardingRedesign.addRepos_one	Add {{count}} repository
+translation.onboardingRedesign.addRepos_other	Add {{count}} repositories
+translation.onboardingRedesign.startTitle	Where do you want to start?
+translation.onboardingRedesign.startBody	A git connection is strongly recommended for Devin Cloud
+translation.onboardingRedesign.continueWeb	Continue with web
+translation.onboardingRedesign.integrationsTitle	Connect your teams and tasks
+translation.onboardingRedesign.integrationsBody	Assign work to Devin in Slack and convert your tickets into pull requests
+translation.onboardingRedesign.connectProvider	Connect {{provider}}
+translation.onboardingRedesign.connectTeam	Connect your team
+translation.onboardingRedesign.connectTasks	Connect your tasks
+translation.onboardingRedesign.toolsTitle	Connect Devin to external tools
+translation.onboardingRedesign.toolsBody	Add other plugins and MCPs to your organization
+translation.onboardingRedesign.searchTools	Search plugins and MCPs
+translation.onboardingRedesign.installPlugin	Install {{name}}
+translation.onboardingRedesign.toolsLoadFailed	Some tools could not be loaded.
+translation.onboardingRedesign.selectTool	Select {{name}} for setup
+translation.onboardingRedesign.toolNotInstalled	Not installed
+translation.onboardingRedesign.finish	Finish
+translation.onboardingRedesign.features	Features
+translation.onboardingRedesign.desktopIde	Full IDE with editor and extensions
+translation.onboardingRedesign.desktopAgents	Manage local and cloud agents together
+translation.onboardingRedesign.desktopDiffs	Review diffs and changes locally
+translation.onboardingRedesign.desktopPreview	Preview applications in-app
+translation.onboardingRedesign.cliTerminal	Runs in any terminal
+translation.onboardingRedesign.cliEditor	Works with your existing editor
+translation.onboardingRedesign.cliSsh	Works over SSH and on remote machines
+translation.onboardingRedesign.cliScripts	Scriptable for automations
+translation.connectionSettings.title	Connection settings
+translation.connectionSettings.syncBack	Sync back
+translation.connectionSettings.syncBackFailed	Failed to update sync back
+translation.connectionSchedule.title	Schedule
+translation.connectionSchedule.description	This connection session will be woken up on this schedule.
+translation.connectionSchedule.advanced	Advanced
+translation.connectionSchedule.instructionsDescription	The message sent to the connection session each time the schedule runs.
+translation.connectionSchedule.enabled	Enabled
+translation.connectionSchedule.disabled	Disabled
+translation.connectionSchedule.edit	Edit schedule
+translation.connectionSchedule.remove	Remove schedule
+translation.connectionSchedule.recurringRequired	Choose a recurring schedule.
+translation.connectionSchedule.readOnly	You need permission to manage security scans and automations to set a schedule.
+translation.connectionSchedule.loadFailed	Could not load the connection schedule.
+translation.connectionSchedule.notFound	This session has no visible connection.
+translation.connectionSchedule.saveFailed	Could not update the schedule. Please try again.
+translation.artifactShares.share	Share
+translation.artifactShares.shareArtifact	Share artifact
+translation.artifactShares.shareDescription	People with access will be able to view the page, but not access the session.
+translation.artifactShares.generalAccess	General access
+translation.artifactShares.editLinkName	Edit link name
+translation.artifactShares.linkNameRequired	Link name required
+translation.artifactShares.publish	Publish
+translation.artifactShares.done	Done
+translation.artifactShares.unpublish	Unpublish
+translation.artifactShares.copyLink	Copy link
+translation.artifactShares.copied	Copied
+translation.artifactShares.updatePending	Shared v{{version}} · update not published
+translation.artifactShares.newerFile	This file has a newer version
+translation.artifactShares.publishUpdate	Publish update
+translation.artifactShares.saveError	Couldn't save this artifact. Please try again.
+translation.artifactShares.copyError	Couldn't copy the link. Please try again.
+translation.artifactShares.downloadError	Couldn't download this artifact. Please try again.
+translation.artifactShares.loadError	Couldn't load this artifact. Please try again.
+translation.artifactShares.previewError	Couldn't preview this artifact. You can still download it.
+translation.artifactShares.downloadFallback	Download this artifact to view it.
+translation.artifactShares.loading	Loading artifact…
+translation.artifactShares.noAccess	You don't have access to this artifact
+translation.artifactShares.noAccessDescription	It may have been shared with a different org, or you may be signed in to another account.
+translation.artifactShares.unpublished	This artifact was unpublished
+translation.artifactShares.invalidVersion	This artifact version is invalid
+translation.artifactShares.goToDevin	Go to Devin
+translation.artifactShares.openSession	Open session
+translation.artifactShares.download	Download
+translation.artifactShares.more	More actions
+translation.artifactShares.publishedDate	Published {{date}}
+translation.artifactShares.olderVersion	Older version
+translation.artifactShares.viewLatest	View latest
+translation.artifactShares.copyVersionLink	Copy link to this version
+translation.artifactShares.version	v{{version}}
+translation.artifactShares.latestVersion	v{{version}} (latest)
+translation.artifactShares.searchVersions	Search versions…
+translation.artifactShares.noVersions	No versions found
+translation.artifactShares.sharePeople	People with access
+translation.artifactShares.shareSearch	Add people, groups or organizations
+translation.artifactShares.shareAction.view	Can view
+translation.artifactShares.shareAction.configure	Can edit
+translation.artifactShares.shareAction.share	Can share
+translation.artifactShares.shareVerb.view	view
+translation.artifactShares.shareVerb.configure	edit
+translation.artifactShares.shareVerb.share	share
+translation.artifactShares.shareActionHelp.view	View the published page
+translation.artifactShares.shareActionHelp.configure	Rename, publish updates and unpublish
+translation.artifactShares.shareActionHelp.share	Add and remove people
+translation.artifactShares.shareInherited	Comes from a role or your organization's sharing setting
+translation.artifactShares.shareRemoveSelf	You can't remove your own access
+translation.artifactShares.audienceHelp.org	Your organization and the people added above can view this page.
+translation.artifactShares.audienceHelp.enterprise_view	Everyone in your enterprise can view this page.
+translation.artifactShares.readOnly	Only people who can edit this artifact can change who has access.
+translation.artifactShares.openArtifact	Open artifact
+translation.adminLocalAnalysis.lookup	Local session lookup
+translation.adminLocalAnalysis.userId	User ID
+translation.adminLocalAnalysis.sessionId	Local session ID
+translation.adminLocalAnalysis.backfillInstructions	Paste or upload a JSON array of up to {{max}} objects with user_id and local_session_id. Each session is rerun at the chosen rate, replacing its current result.
+translation.adminLocalAnalysis.invalidBackfill	Enter a non-empty JSON array of objects with user_id and local_session_id.
+translation.adminLocalAnalysis.backfillResult	{{queued}} newly queued, {{pending}} already queued, {{missing}} not found.
+translation.unifiedPlugins.createdBy	Created by
+translation.unifiedPlugins.fromCreator	From {{name}}
+translation.unifiedPlugins.fromCreatorInCollection	From {{name}} · {{collection}}
+translation.unifiedPlugins.editContents	Edit contents
+translation.unifiedPlugins.searchPluginsLabel	plugins
+translation.unifiedPlugins.searchPluginsDescription	Plugins (bundles of skills, rules, MCP servers, and hooks) installed from the marketplace, a repository, or an upload, from Your plugins and Shared with you in Unified mode
+translation.unifiedPlugins.searchSkillsLabel	skills
+translation.unifiedPlugins.searchSkillsDescription	Skills (SKILL.md instructions) Devin loads into cloud sessions, from Your plugins and Shared with you in Unified mode
+translation.unifiedPlugins.searchHooksLabel	hooks
+translation.unifiedPlugins.searchHooksDescription	Hooks: commands that run automatically at points in a session, from Your plugins and Shared with you in Unified mode
+translation.unifiedPlugins.searchRulesLabel	rules
+translation.unifiedPlugins.searchRulesDescription	Rules: standing guidance Devin follows on every session, from Your plugins and Shared with you in Unified mode
+translation.unifiedPlugins.notIndexed	Not indexed yet
+translation.unifiedPlugins.yours	Your plugins
+translation.unifiedPlugins.shared	Shared with you
+translation.unifiedPlugins.canUse	Can use
+translation.unifiedPlugins.useVerb	use
+translation.unifiedPlugins.configureVerb	configure
+translation.unifiedPlugins.shareVerb	share
+translation.unifiedPlugins.useDescription	Automatically receives and can use this plugin, with no opt-out.
+translation.unifiedPlugins.canConfigure	Can configure
+translation.unifiedPlugins.configureDescription	Can rename and delete this plugin.
+translation.unifiedPlugins.canShare	Can share
+translation.unifiedPlugins.shareDescription	Can manage access to this plugin.
+translation.unifiedPlugins.searchPeople	Search people and groups
+translation.unifiedPlugins.inherited	Inherited from account access
+translation.unifiedPlugins.removeSelfError	You cannot remove your own access.
+translation.unifiedPlugins.shareDescriptionName	Manage access to {{name}}.
+translation.unifiedPlugins.rename	Rename
+translation.unifiedPlugins.add	Add plugin
+translation.unifiedPlugins.name	Name
+translation.unifiedPlugins.repositoryRequired	Repository required
+translation.unifiedPlugins.nameRequired	Name required
+translation.unifiedPlugins.subdirectory	Subdirectory
+translation.unifiedPlugins.actions	Actions for {{name}}
+translation.unifiedPlugins.share	Share
+translation.unifiedPlugins.remove	Remove
+translation.unifiedPlugins.loadError	Could not load plugins.
+translation.unifiedPlugins.deleteTitle	Delete {{name}}?
+translation.unifiedPlugins.deleteDescription	This deletes the plugin for everyone who has access.
+translation.previewBackend.confirmTitle	Use preview backend {{sha}}?
+translation.previewBackend.confirmDescription	Your authenticated requests, including your session token, will go to this PR-built staging backend. Only use a backend you trust. The app will reload.
+translation.previewBackend.confirm	Use preview backend
+translation.previewBackend.cancel	Cancel
+translation.previewBackend.title	Preview backend: {{sha}}
+translation.previewBackend.description	This app is using a preview backend instead of mainline staging.
+translation.previewBackend.hint	Paste a commit SHA or a preview backend URL
+translation.previewBackend.invalid	Not a valid preview backend
+translation.previewBackend.useSha	Use preview backend {{sha}}
+translation.previewBackend.use	Use preview backend…
+translation.previewBackend.exit	Exit preview backend
+translation.previewBackend.bannerNotice	You are using a preview backend (<commitLink>{{sha}}</commitLink>) — not mainline staging.
+translation.previewBackend.exitPreview	Exit preview
+translation.sessionPreviews.previews	Previews
+translation.blueprintFailures.title	Failed blueprints
+translation.blueprintFailures.description	Failed blueprints in this build and the suggested next step.
+translation.blueprintFailures.reviewFailures	Review failed blueprints
+translation.blueprintFailures.fixAll	Fix all with Devin
+translation.blueprintFailures.fixWithDevin	Fix with Devin
+translation.blueprintFailures.starting	Starting…
+translation.blueprintFailures.viewFixSession	View fix session
+translation.blueprintFailures.openConnections	Git connections
+translation.blueprintFailures.openBlueprint	Open blueprint
+translation.blueprintFailures.failedToStart	Could not start the fix session.
+translation.blueprintFailures.humanAction.git	Check that a Git connection gives Devin access to this repository and the repositories it pulls in.
+translation.blueprintFailures.humanAction.secret	Check or update the token or secret this build needs in the blueprint's Secrets tab.
+translation.defaultPrimaryBillingOrg.title	Default primary billing organization
+translation.defaultPrimaryBillingOrg.description	Applies when a user has no primary billing organization. Existing assignments and organization access do not change. Automatic uses the current resolution rules.
+translation.defaultPrimaryBillingOrg.automatic	Automatic
+translation.defaultPrimaryBillingOrg.selectOrganization	Select organization
+translation.defaultPrimaryBillingOrg.adminLabel	Allow enterprise admins to change the default
+translation.defaultPrimaryBillingOrg.adminDescription	Enterprise admins can select or clear the default under Membership. The selected default applies regardless of this toggle.
+translation.defaultPrimaryBillingOrg.searchOrganizations	Search organizations...
+translation.defaultPrimaryBillingOrg.noOrganizations	No organizations found.
+translation.defaultPrimaryBillingOrg.loadFailed	Failed to load organizations.
+translation.defaultPrimaryBillingOrg.updated	Default primary billing organization updated.
+translation.defaultPrimaryBillingOrg.updateFailed	Failed to update the default primary billing organization.
+translation.adminBudgetBackfill.account	Account: {{accountId}}
+translation.adminBudgetBackfill.copyPoliciesDescription	Copy the account-wide tiers, group mappings and member limits to the budgets you choose.
+translation.adminBudgetBackfill.title	Budgets
+translation.adminBudgetBackfill.description	Sync eligible orgs to budgets with the current feature flags. This can create budgets and replace org-linked budget names, caps, and status from legacy org data. Existing budget parents stay unchanged.
+translation.adminBudgetBackfill.backfill	Backfill budgets
+translation.adminBudgetBackfill.adminOnly	Only superusers can backfill budgets.
+translation.adminBudgetBackfill.progress	Budget backfill in progress. Keep this page open until it ends.
+translation.adminBudgetBackfill.success	Budget backfill complete in {{duration}} seconds.
+translation.adminBudgetBackfill.failed	Failed to backfill budgets.
+translation.adminBudgetBackfill.failure	Budget backfill request failed. If the connection was lost, the changes may have committed. {{error}}
+translation.adminBudgetBackfill.confirmTitle	Backfill budgets?
+translation.adminBudgetBackfill.confirmDescription	Sync eligible orgs for {{accountId}} to budgets. This can create budgets and replace org-linked budget names, caps, and status from legacy org data. Existing budget parents stay unchanged. ACU mirroring requires combined-org-acu-limit. Budget-member grants sync when governance-budget is at write or higher. All changes commit in one transaction.
+translation.adminBudgetBackfill.mode	Mode
+translation.adminBudgetBackfill.dryRun	Dry run
+translation.adminBudgetBackfill.dryRunDone	Dry run complete. Nothing changed.
+translation.adminBudgetBackfill.result	Links added: {{added}}. Links overwritten: {{moved}}. Links removed: {{removed}}. Budgets created: {{budgets}}. Budgets archived: {{archived}}. User limits that lose an org: {{userLimits}}.
+translation.adminBudgetBackfill.modes.reconcile	Add missing links
+translation.adminBudgetBackfill.modes.prioritize_root	Orgs without a limit on the root, empty budgets archived
+translation.adminBudgetBackfill.modes.one_to_one	Each org on its own budget
+translation.adminBudgetBackfill.modes.all_to_root	All orgs on the root budget, other budgets archived
+translation.adminGovernance.mcpPromotion.title	MCP migration
+translation.adminGovernance.mcpPromotion.description	Move shared installations to account scope, for one org or all of them. Separate from Run all.
+translation.adminGovernance.mcpPromotion.confirmDescription	Preview child orgs in enterprise {{enterpriseId}}. Migrating re-encrypts credentials and preserves org-member access. Linked-secret copies must be verified first.
+translation.adminGovernance.mcpPromotion.organization	Organization
+translation.adminGovernance.mcpPromotion.preview	Preview migration
+translation.adminGovernance.mcpPromotion.migrate	Migrate installations
+translation.adminGovernance.mcpPromotion.close	Close
+translation.adminGovernance.mcpPromotion.planned	Planned installations: {{count}}
+translation.adminGovernance.mcpPromotion.complete	Migration complete.
+translation.adminGovernance.mcpPromotion.error	Migration failed. Retry the preview.
+translation.adminGovernance.mcpPromotion.scope	Migration scope
+translation.adminGovernance.mcpPromotion.scopeOne	One organization
+translation.adminGovernance.mcpPromotion.scopeAll	All organizations
+translation.adminGovernance.mcpPromotion.organizations	Organizations: {{count}}
+translation.adminGovernance.mcpPromotion.renamed	Renamed: {{count}}
+translation.adminGovernance.mcpPromotion.blocked	Blocked: {{count}}
+translation.adminGovernance.mcpPromotion.nothingToMigrate	Nothing to migrate: {{count}}
+translation.adminGovernance.mcpPromotion.filter	Filter by organization or MCP
+translation.adminGovernance.mcpPromotion.noMatches	No matching migrations.
+translation.adminGovernance.mcpPromotion.notes	Notes: {{count}}
+translation.adminGovernance.mcpPromotion.blockedSkipped	Blocked organizations are skipped.
+translation.adminGovernance.mcpPromotion.migrateOrganizations	Migrate organizations: {{count}}
+translation.adminGovernance.mcpPromotion.progress	Migrating {{done}} of {{total}}: {{org}}
+translation.adminGovernance.mcpPromotion.stopped	Migrated {{done}} of {{total}} organizations, then stopped at {{org}}: {{detail}} Preview again to continue.
+translation.adminGovernance.unifiedFlags.title	Unified mode flags
+translation.adminGovernance.unifiedFlags.status.account	On for whole account
+translation.adminGovernance.unifiedFlags.status.email_gated	Email-gated
+translation.adminGovernance.unifiedFlags.status.restricted	Restricted
+translation.adminGovernance.unifiedFlags.status.off	Off
+translation.adminGovernance.unifiedFlags.disabled	Disabled
+translation.adminGovernance.unifiedFlags.shared	Shared with other accounts
+translation.adminGovernance.unifiedFlags.segments	Uses segments
+translation.adminGovernance.unifiedFlags.notEditable	Edit in Unleash
+translation.adminGovernance.unifiedFlags.searchEmails	Search emails
+translation.adminGovernance.unifiedFlags.bulkEmails	Emails separated by commas or spaces
+translation.adminGovernance.unifiedFlags.bulkEmailsRequired	Please enter at least one email
+translation.adminGovernance.unifiedFlags.bulkResult	Added: {{added}} · Already present: {{present}}
+translation.adminGovernance.unifiedFlags.removeResult	Removed: {{removed}} · Not in list: {{missing}}
+translation.adminGovernance.unifiedFlags.dismiss	Dismiss
+translation.adminGovernance.unifiedFlags.invalidEmails	Invalid: {{emails, list}}
+translation.adminGovernance.unifiedFlags.gatedCount	Email-gated · {{count}} users
+translation.adminGovernance.unifiedFlags.gatedReadOnly	Email-gated (edit in Unleash)
+translation.adminGovernance.unifiedFlags.disabledIn	Disabled in {{environment}}
+translation.adminGovernance.unifiedFlags.otherTargeting_one	Other targeting: {{count}} strategy — edit in Unleash
+translation.adminGovernance.unifiedFlags.otherTargeting_other	Other targeting: {{count}} strategies — edit in Unleash
+translation.adminGovernance.unifiedFlags.otherConstraints	Other constraints: {{constraints, list}}
+translation.adminGovernance.unifiedFlags.variants	Variants: {{variants, list}}
+translation.adminGovernance.unifiedFlags.add	Add
+translation.adminGovernance.unifiedFlags.remove	Remove
+translation.adminGovernance.unifiedFlags.loading	Loading unified mode flags…
+translation.adminGovernance.unifiedFlags.loadFailed	Failed to load unified mode flags.
+translation.adminGovernance.unifiedFlags.editFailed	Failed to update the email.
+translation.adminGovernance.unifiedFlags.confirmTitle	Remove email?
+translation.adminGovernance.unifiedFlags.confirmDescription	Remove {{email}} from this strategy?
+translation.adminGovernance.account	Account: {{accountId}}
+translation.adminGovernance.adminOnly	Only superusers can run backfills.
+translation.adminGovernance.rollout.title	Rollout backfills
+translation.adminGovernance.rollout.description	Run the grants rollout backfills for this account as background jobs, in order, with the account's Unleash flags.
+translation.adminGovernance.rollout.needs	Needs
+translation.adminGovernance.rollout.needsNone	No flags
+translation.adminGovernance.rollout.flagSet	{{flag}}: {{current}}
+translation.adminGovernance.rollout.flagNeeds	{{flag}}: {{current}}, needs {{required}}
+translation.adminGovernance.rollout.runAllBlocked	Run all needs {{steps, list}} unblocked first. Set the red flags for the account in Unleash.
+translation.adminGovernance.rollout.allTypes	All types
+translation.adminGovernance.rollout.someTypes_one	{{count}} type
+translation.adminGovernance.rollout.someTypes_other	{{count}} types
+translation.adminGovernance.rollout.typesLabel	Resource types for org_grants
+translation.adminGovernance.rollout.onlyTypes	Only these types: {{types, list}}.
+translation.adminGovernance.rollout.step	Backfill
+translation.adminGovernance.rollout.lastRun	Last run (7 days)
+translation.adminGovernance.rollout.runAll	Run all
+translation.adminGovernance.rollout.run	Run
+translation.adminGovernance.rollout.runStep	Run {{step}}
+translation.adminGovernance.rollout.notRun	No run
+translation.adminGovernance.rollout.running	Running
+translation.adminGovernance.rollout.queued	Queued
+translation.adminGovernance.rollout.succeeded	Succeeded {{time}}
+translation.adminGovernance.rollout.failed	Failed {{time}}
+translation.adminGovernance.rollout.busy	A backfill is queued or running. Wait for it to finish.
+translation.adminGovernance.rollout.loadFailed	Failed to load rollout backfills.
+translation.adminGovernance.rollout.runFailed	Failed to queue the backfill.
+translation.adminGovernance.rollout.confirmTitle	Run {{step}}?
+translation.adminGovernance.rollout.confirmTitleAll	Run all rollout backfills?
+translation.adminGovernance.rollout.confirmDescription	Runs {{step}} for {{accountId}} in a background job. Committed batches stay if it fails.
+translation.adminGovernance.rollout.confirmDescriptionAll	Runs all {{count}} backfills for {{accountId}} in order, one job each. The chain stops at the first failure.
+translation.adminGovernance.rollout.confirmDescriptionBitmaps	Runs {{step}} for {{accountId}} in a background job, as one transaction. Grant changes for this account wait until it finishes, and nothing is kept if it fails.
+translation.adminGovernance.rollout.warnCanonicalRepos	canonical_repos merges duplicate canonical repos and deletes the extras. A deleted row's DeepWiki settings are lost if the kept row has its own. This can't be undone.
+translation.adminGovernance.rollout.warnBitmaps	bitmap_indexes and environment_bitmaps each run as one transaction, so grant changes for this account wait until each finishes.
+translation.adminGovernance.rollout.abort	Abort
+translation.adminGovernance.rollout.abortStep	Abort {{step}}
+translation.adminGovernance.rollout.abortFailed	Failed to abort the backfill.
+translation.adminGovernance.rollout.abortConfirmTitle	Abort {{step}}?
+translation.adminGovernance.rollout.abortConfirmDescription	Stops {{step}} for {{accountId}} within a few seconds. Committed batches stay and the step fails, so Run all stops too.
+translation.adminBackfill.title	Backfills
+translation.adminBackfill.description	Upload a list of IDs and schedule a backfill.
+translation.adminBackfill.open	Start backfill…
+translation.adminBackfill.submit	Queue backfill
+translation.adminBackfill.type	Backfill type
+translation.adminBackfill.choose	Select an option
+translation.adminBackfill.analysis	Rerun session analysis
+translation.adminBackfill.conversion	Convert pattern links to Jira
+translation.adminBackfill.sessionType	Session type
+translation.adminBackfill.cloud	Cloud
+translation.adminBackfill.local	Local
+translation.adminBackfill.upload	Upload IDs
+translation.adminBackfill.cloudFile	Upload a JSON array of cloud session IDs.
+translation.adminBackfill.source	Pattern connection
+translation.adminBackfill.destination	Jira connection
+translation.adminBackfill.sessionRate	Sessions per minute
+translation.adminBackfill.start	Start time (local; leave blank to start now)
+translation.adminBackfill.invalidStart	Enter a valid start date and time.
+translation.adminBackfill.pastStart	The start time is in the past. The backfill will start now.
+translation.adminBackfill.invalidIds	Upload a non-empty JSON array of valid IDs.
+translation.adminBackfill.tooManyIds	Upload at most {{max, number}} IDs.
+translation.adminBackfill.confirm	Queue backfill for {{count, number}} IDs?
+translation.adminBackfill.analysisConfirmation	This replaces the current analysis results for these sessions.
+translation.adminBackfill.conversionConfirmation	This moves links for the supplied nodes without editing Jira issues. The pattern connection stays active.
+translation.adminBackfill.discardTitle	Discard this backfill?
+translation.adminBackfill.discard	Discard
+translation.adminBackfill.startsAt	Scheduled for {{start}}.
+translation.adminHydration.title	Hydrate parents
+translation.adminHydration.description	Upload a JSON array of tracker node IDs to fetch their parent chains again in the background.
+translation.adminHydration.rate	Nodes per minute
+translation.adminHydration.invalidRate	Enter a whole number from 1 to {{max, number}}.
+translation.adminHydration.unreadableFile	Could not read {{filename}}.
+translation.adminHydration.viewJobs	View in Admin Jobs
+translation.adminHydration.reasonInvalid	Invalid ID
+translation.adminHydration.reasonOutsideEnterprise	Not found on this enterprise
+translation.adminHydration.reasonMissingIdentity	No tracker ID or key
+translation.adminHydration.reasonCount	{{reason}} ({{count, number}})
+translation.adminHydration.moreIds	{{count, number}} more not shown
+translation.adminJobs.actions	Actions
+translation.adminJobs.batch.help	Each entry has args matching the task's schema and an optional dedupe_key. Up to 100,000 entries / 64 MiB. Requests are sent in bounded batches; each 100-job chunk commits independently. Invalid entries are skipped. Keep this dialog open until finished. Arguments are not included in errors or audit logs.
+translation.adminJobs.batch.file	JSON file
+translation.adminJobs.batch.delay	Delay for all entries (seconds, up to 7 days)
+translation.adminJobs.batch.pace	Pace (jobs per minute)
+translation.adminJobs.batch.paceHelp	Spreads the entries out so the backfill adds about this many jobs a minute to the queue, instead of all at once. Leave blank to enqueue every entry at the delay.
+translation.adminJobs.batch.invalidPace	Enter a number of jobs per minute above zero.
+translation.adminJobs.batch.paceTooSlow	At this pace the last entry would be due more than 7 days out.
+translation.adminJobs.batch.fileTooLarge	The JSON file must be at most 64 MiB.
+translation.adminJobs.batch.invalidFile	Upload valid JSON containing an array of 1–100,000 entries.
+translation.adminJobs.batch.reading	Reading JSON…
+translation.adminJobs.batch.ready_one	{{count}} entry ready
+translation.adminJobs.batch.ready_other	{{count}} entries ready
+translation.adminJobs.batch.enqueue	Enqueue batch…
+translation.adminJobs.batch.confirmTitle_one	Enqueue {{count}} entry?
+translation.adminJobs.batch.confirmTitle_other	Enqueue {{count}} entries?
+translation.adminJobs.batch.confirmDescription	Run {{task}} for every valid entry. Each job uses the account from its arguments, or the system account for account-less tasks. Existing pending dedupe keys are skipped. Completed chunks cannot be undone.
+translation.adminJobs.batch.progress	{{processed}} / {{total}} entries processed: {{enqueued}} enqueued, {{skipped}} deduplicated, {{failed}} errors
+translation.adminJobs.batch.stopped	Upload stopped. Some jobs in the last request may have committed without a confirmed response. Later requests were not sent. Check jobs before retrying; do not re-upload the whole file blindly.
+translation.adminJobs.batch.entryError	Entry {{index}}: {{detail}}
+translation.adminJobs.batch.previousErrors	Previous errors
+translation.adminJobs.batch.nextErrors	Next errors
+translation.adminJobs.batch.fileHelp	A JSON array of entries shaped like the example below.
+translation.adminJobs.batch.source	Entries source
+translation.adminJobs.batch.sourceFile	Upload file
+translation.adminJobs.batch.sourcePaste	Paste JSON
+translation.adminJobs.batch.paste	JSON entries
+translation.adminJobs.batch.pasteTooLarge	Pasted JSON must be at most 1 MiB. Upload a file for larger batches.
+translation.adminJobs.batch.invalidPaste	Paste a JSON array of 1–100,000 entries.
+translation.adminJobs.batch.invalidJson	Invalid JSON: {{detail}}
+translation.adminJobs.batch.preview	Preview
+translation.adminJobs.batch.previewFirst	Preview: first {{shown}} of {{total}} entries
+translation.adminJobs.breakGlass.title	Break-glass pause is on
+translation.adminJobs.breakGlass.everything	Every queue is paused.
+translation.adminJobs.breakGlass.queues	Paused queues: {{names, list}}
+translation.adminJobs.breakGlass.tasks	Paused tasks and crons: {{names, list}}
+translation.adminJobs.breakGlass.reason	Reason: {{reason}}
+translation.adminJobs.breakGlass.source	Set in {{location}}, not on this page. It applies on top of the holds below. Delete the file to lift it.
+translation.adminJobs.breakGlass.unreadable	The break-glass file {{location}} can't be used: {{error}}. Dispatchers and workers keep the last version they read.
+translation.adminJobs.breakGlass.checkFailed	Couldn't check the break-glass pause: {{error}}. A pause may be on.
+translation.adminJobs.control.pauseOrCap	Pause / cap…
+translation.adminJobs.control.pauseOrCapNamed	Pause / cap {{name}}
+translation.adminJobs.control.notRegisteredQueue	No task or cron in this build uses this queue, so it can't be paused or capped. Lift an existing hold from Active holds.
+translation.adminJobs.control.title	Pause or cap {{name}}
+translation.adminJobs.control.descriptionQueue	Holds back dispatch of every job on this queue. Takes effect within about a second, with no deploy. Held jobs stay queued and keep their attempts; jobs already running finish.
+translation.adminJobs.control.descriptionTask	Holds back dispatch of this task's jobs. Takes effect within about a second, with no deploy. Held jobs stay queued and keep their attempts; jobs already running finish.
+translation.adminJobs.control.pause	Pause dispatch
+translation.adminJobs.control.maxInFlight	Max in flight
+translation.adminJobs.control.maxInFlightHelp	The most jobs dispatched or running at once. Leave empty for no cap.
+translation.adminJobs.control.maxInFlightInvalid	Enter a whole number from 1 to 1,000,000, or leave it empty.
+translation.adminJobs.control.reason	Reason (shown to other operators and kept in the audit log)
+translation.adminJobs.control.cancel	Cancel
+translation.adminJobs.control.save	Save
+translation.adminJobs.control.lift	Lift hold
+translation.adminJobs.control.saveDisabled	Pause dispatch or set a cap to save
+translation.adminJobs.control.saved	Hold on {{name}} saved
+translation.adminJobs.control.lifted	Hold on {{name}} lifted
+translation.adminJobs.control.paused	paused
+translation.adminJobs.control.capped	max {{count}} in flight
+translation.adminJobs.control.holdsTitle	Active holds
+translation.adminJobs.control.holdsHelp	Queues, tasks and crons an operator has paused or capped. Lift a hold to resume normal dispatch.
+translation.adminJobs.control.scope	Scope
+translation.adminJobs.control.scopeQueue	queue
+translation.adminJobs.control.scopeTask	task
+translation.adminJobs.control.name	Name
+translation.adminJobs.control.hold	Hold
+translation.adminJobs.control.reasonColumn	Reason
+translation.adminJobs.control.setBy	Set by
+translation.adminJobs.control.setAt	Set at
+translation.adminJobs.control.edit	Edit…
+translation.adminJobs.control.editNamed	Edit {{name}}
+translation.adminJobs.control.liftNamed	Lift hold on {{name}}
+translation.adminJobs.control.liftOnlyDescription	This build has no queue, task or cron with this name, so the hold can't be changed, only lifted.
+translation.adminJobs.requeueFailed	Requeue failed
+translation.adminJobs.taskRequeueTitle	Requeue failed jobs for {{task}} on {{queue}}
+translation.adminJobs.taskRequeueDescription	Resets only this task's failed jobs on this queue to run again; other tasks are untouched and run history is kept. Jobs whose dedupe key is already pending are skipped.
+translation.adminJobs.taskRequeued_one	Requeued {{count}} failed job for {{task}} on {{queue}}
+translation.adminJobs.taskRequeued_other	Requeued {{count}} failed jobs for {{task}} on {{queue}}
+translation.adminJobs.taskRemaining	{{done}}; {{remaining}} still failed (run again to continue)
+translation.adminJobs.enqueue.action	Enqueue…
+translation.adminJobs.enqueue.title	Enqueue jobs
+translation.adminJobs.enqueue.descriptionSingle	Same path as app.jobs.enqueue() in code. The audit log records task, queue and account, not the arguments.
+translation.adminJobs.enqueue.modeSingle	Single job
+translation.adminJobs.enqueue.modeBatch	Batch from JSON
+translation.adminJobs.enqueue.noTasks	No tasks are registered in this build (JOB_MODULES is empty).

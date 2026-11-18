@@ -1,0 +1,500 @@
+translation.settings.accessPages.members.loadFailedDescription	The member list didn't load. Try again in a moment.
+translation.settings.accessPages.members.retryLoad	Retry
+translation.settings.accessPages.members.memberManagementUnavailable	Member management unavailable
+translation.settings.accessPages.members.youreCurrentlyAuthenticatedWithCliToken	You're currently authenticated with a CLI token, which doesn't support member management. Switch to the GitHub App to invite and manage members.
+translation.settings.accessPages.members.primaryOrganization	Primary organization
+translation.settings.accessPages.members.allEnterpriseMembersAutomaticallyIncludedPrimary	All enterprise members are automatically included in the primary organization.
+translation.settings.accessPages.members.singleSeatPlan	Single-seat plan
+translation.settings.accessPages.members.yourTeamsSubscriptionNotCurrentlyActive	Your Teams subscription is not currently active. Resolve your subscription status to manage members.
+translation.settings.accessPages.members.yourCurrentPlanSupportsOnly1	Your current plan supports only 1 member. <lnk>Upgrade to the Teams plan</lnk> to add more members.
+translation.settings.accessPages.members.fullSeatRequestPending	Full seat request pending
+translation.settings.accessPages.members.yourRequestFullSeatHasBeen	Your request for a full seat has been sent to your team admin for review.
+translation.settings.accessPages.members.members	Members
+translation.settings.accessPages.members.groups	Groups (IdP)
+translation.settings.accessPages.members.joinRequests	Join requests
+translation.settings.accessPages.members.addMember	Add member
+translation.settings.accessPages.members.requesting	Requesting...
+translation.settings.accessPages.members.requestFullSeat	Request full seat
+translation.settings.accessPages.members.groupsMustAddedAtEnterpriseLevel	Groups must be added at the enterprise level
+translation.settings.accessPages.members.addGroup	Add group
+translation.settings.accessPages.members.updatingRole2	Updating role
+translation.settings.accessPages.members.roleGrantedViaIdpGroupEdit	Role granted via IdP group: edit group mappings to change it
+translation.settings.accessPages.members.cannotDowngradeOwnRole	Cannot downgrade your own role
+translation.settings.accessPages.members.confirmPayment	Confirm your payment
+translation.settings.accessPages.members.weCouldntCompleteChargeAutomaticallyBank	We couldn't complete this charge automatically — your bank may require confirmation (3D Secure). Complete the payment to finish.
+translation.settings.accessPages.members.completePayment	Complete payment
+translation.settings.accessPages.members.seatTypeUpdated	Seat type updated
+translation.settings.accessPages.members.failedUpdateSeatType	Failed to update seat type
+translation.settings.accessPages.members.seatTypeCantChangedMembersWhose	Seat type can't be changed for members whose access is granted via IdP group
+translation.settings.accessPages.members.chooseSeatMemberdisplayname	Choose a seat for {{memberDisplayName}}
+translation.settings.accessPages.members.current	Current
+translation.settings.accessPages.members.moveMemberdisplaynameLabelSeat	Move {{memberDisplayName}} to {{label}} seat?
+translation.settings.accessPages.members.thisSeatWillBecomeAvailableCan	This seat will become available and can be assigned to someone else.
+translation.settings.accessPages.members.noUnassignedFullSeatsAvailableWill	No unassigned full seats available. This will add an additional seat ({{seatPrice}}, prorated for the current billing period).
+translation.settings.accessPages.members.anUnassignedFullSeatWillUsed	An unassigned full seat will be used. No additional charge.
+translation.settings.accessPages.members.back	Back
+translation.settings.accessPages.members.confirming	Confirming...
+translation.settings.accessPages.members.confirm	Confirm
+translation.settings.accessPages.members.removingMember2	Removing member
+translation.settings.accessPages.members.memberRemovedSuccessfully	Member removed successfully
+translation.settings.accessPages.members.failedRemoveMember	Failed to remove member
+translation.settings.accessPages.members.cannotRemoveMembersFromPrimaryOrganization	Cannot remove members from the primary organization
+translation.settings.accessPages.members.accessGrantedViaIdpGroupEdit	Access granted via IdP group: edit group mappings to remove
+translation.settings.accessPages.members.cannotRemoveYourselfFromStandaloneOrganization	Cannot remove yourself from a standalone organization
+translation.settings.accessPages.members.removeMember	Remove member
+translation.settings.accessPages.members.confirmMemberRemoval	Confirm member removal
+translation.settings.accessPages.members.areYouSureYouWantRemoveMember	Are you sure you want to remove this member? This action cannot be undone.
+translation.settings.accessPages.members.noUsersFound	No users found
+translation.settings.accessPages.members.failedLoadSeatRequests	Failed to load seat requests
+translation.settings.accessPages.members.seatRequestsLength	Seat requests ({{length}})
+translation.settings.accessPages.members.seatRequestApproved	Seat request approved
+translation.settings.accessPages.members.seatRequestDeclined	Seat request declined
+translation.settings.accessPages.members.email	Email
+translation.settings.accessPages.members.requested	Requested
+translation.settings.accessPages.members.approve	Approve
+translation.settings.accessPages.members.decline	Decline
+translation.settings.accessPages.members.noUnassignedFullSeatsAvailableWillPurchase	No unassigned full seats available. This will purchase an additional seat ({{seatPrice}}, prorated for the current billing period).
+translation.settings.accessPages.members.name	Name
+translation.settings.accessPages.members.idpGroups	IdP Groups
+translation.settings.accessPages.members.n0Groups	0 groups
+translation.settings.accessPages.members.group	group
+translation.settings.accessPages.members.groups2	groups
+translation.settings.accessPages.members.groupMemberCount_one	{{count, number}} member
+translation.settings.accessPages.members.groupMemberCount_other	{{count, number}} members
+translation.settings.accessPages.members.copyGroupName	Copy group name
+translation.settings.accessPages.members.seatType	Seat type
+translation.settings.accessPages.members.searchForMember	Search for a member
+translation.settings.accessPages.members.searchForGroup	Search for a group
+translation.settings.accessPages.members.noPermissionManageMembers	You don't have permission to manage members
+translation.settings.accessPages.members.memberManagementUnavailableCliToken	Member management isn't available with a CLI token. Switch to the GitHub App to invite members
+translation.settings.accessPages.members.teamsSubscriptionInactive	Your Teams subscription is not currently active. Resolve your subscription status to manage members
+translation.settings.accessPages.members.planDoesntSupportMembers	Your current plan doesn't support adding members. Upgrade to the Teams plan to invite more
+translation.settings.accessPages.members.seatFull	Full
+translation.settings.accessPages.members.seatFlex	Flex
+translation.settings.accessPages.members.seatPricePerMonth	{{price}}/mo
+translation.settings.accessPages.members.seatFree	Free
+translation.settings.accessPages.members.seatFreeUntil	Free until {{date}}
+translation.settings.accessPages.members.seatFullDescription	A fixed monthly seat with free usage quotas equivalent to the Pro plan for both Devin and {{ideName}}.
+translation.settings.accessPages.members.failedApproveSeatRequest	Failed to approve seat request
+translation.settings.accessPages.members.failedDeclineSeatRequest	Failed to decline seat request
+translation.settings.accessPages.members.thisMember	this member
+translation.settings.accessPages.scimProvisioning.failedCopyUrl	Failed to copy URL
+translation.settings.accessPages.scimProvisioning.ssoJustTimeProvisioningEnabled	SSO just-in-time provisioning enabled
+translation.settings.accessPages.scimProvisioning.ssoJustTimeProvisioningDisabled	SSO just-in-time provisioning disabled
+translation.settings.accessPages.scimProvisioning.failedUpdateJitProvisioningSetting	Failed to update JIT provisioning setting
+translation.settings.accessPages.scimProvisioning.couldNotDetermineSsoJustTime	Could not determine the SSO just-in-time provisioning status. We recommend disabling it manually when using SCIM.
+translation.settings.accessPages.scimProvisioning.failedTurnOffSsoJustTime	Failed to turn off SSO just-in-time provisioning. We recommend disabling it manually when using SCIM.
+translation.settings.accessPages.scimProvisioning.newTokenGeneratedButFailedRevoke	New token generated, but failed to revoke a previous token. Check the service users page to remove it manually.
+translation.settings.accessPages.scimProvisioning.failedGenerateScimToken	Failed to generate SCIM token
+translation.settings.accessPages.scimProvisioning.scimTokenRevoked	SCIM token revoked
+translation.settings.accessPages.scimProvisioning.failedRevokeScimToken	Failed to revoke SCIM token
+translation.settings.accessPages.scimProvisioning.failedLoadScimProvisioningStatusPlease	Failed to load SCIM provisioning status. Please try again.
+translation.settings.accessPages.scimProvisioning.justTimeJitProvisioning	Just-in-time (JIT) provisioning
+translation.settings.accessPages.scimProvisioning.automaticallySyncIdpGroupMembershipsWhen	Automatically sync IdP group memberships when users log in via SAML/OIDC SSO. We recommend keeping this off when provisioning users through SCIM to avoid discrepancies in access.
+translation.settings.accessPages.scimProvisioning.failedLoadPleaseTryAgain	Failed to load. Please try again.
+translation.settings.accessPages.scimProvisioning.copied	Copied!
+translation.settings.accessPages.scimProvisioning.copyScimBaseUrl	Copy SCIM base URL
+translation.settings.accessPages.scimProvisioning.scimBearerToken	SCIM bearer token
+translation.settings.accessPages.scimProvisioning.rotating	Rotating…
+translation.settings.accessPages.scimProvisioning.rotateToken	Rotate token
+translation.settings.accessPages.scimProvisioning.revoke	Revoke
+translation.settings.accessPages.scimProvisioning.generateTokenAutomaticallySyncUsersFrom	Generate a token to automatically sync users from your identity provider via SCIM
+translation.settings.accessPages.scimProvisioning.generating	Generating…
+translation.settings.accessPages.scimProvisioning.generateToken	Generate token
+translation.settings.accessPages.scimProvisioning.scimBearerTokenGenerated	SCIM bearer token generated
+translation.settings.accessPages.scimProvisioning.thisTokenWillOnlyShownOnce	This token will only be shown once. Make sure to copy and store it securely. If you close this modal, you will not be able to view this token again and will need to generate a new one.
+translation.settings.accessPages.scimProvisioning.revokeScimToken	Revoke SCIM token
+translation.settings.accessPages.scimProvisioning.thisWillImmediatelyRevokeScimBearer	This will immediately revoke the SCIM bearer token. Your identity provider will no longer be able to sync users until you generate a new token.
+translation.settings.accessPages.scimProvisioning.activeSince	Active since {{date}}
+translation.settings.accessPages.scimProvisioning.activeSinceUnknown	Active since unknown
+translation.settings.accessPages.scimProvisioning.pasteToken	Paste this token into your identity provider's SCIM configuration, along with the SCIM base URL from the provisioning settings.
+translation.settings.accessPages.scimProvisioning.pasteTokenJitDisabled	Paste this token into your identity provider's SCIM configuration, along with the SCIM base URL from the provisioning settings. Note: SSO just-in-time (JIT) provisioning has been turned off so IdP group memberships are managed through SCIM only.
+translation.settings.accessPages.serviceUsers.allOrganizations	All organizations
+translation.settings.accessPages.serviceUsers.enterpriseOnly	Enterprise only
+translation.settings.accessPages.serviceUsers.allRoles	All roles
+translation.settings.accessPages.serviceUsers.serviceUserProvisionedSuccessfully	Service user provisioned successfully
+translation.settings.accessPages.serviceUsers.failedProvisionServiceUser	Failed to provision service user
+translation.settings.accessPages.serviceUsers.searchServiceUser	Search for a service user
+translation.settings.accessPages.serviceUsers.provision	Provision
+translation.settings.accessPages.serviceUsers.enterpriseServiceUser	Enterprise service user
+translation.settings.accessPages.serviceUsers.organizationServiceUser	Organization service user
+translation.settings.accessPages.serviceUsers.organizationRoles	Organization roles
+translation.settings.accessPages.serviceUsers.provisionServiceUser	Provision service user
+translation.settings.accessPages.serviceUsers.never	Never
+translation.settings.accessPages.serviceUsers.accessSpansEveryOrganizationEnterprise	Access spans every organization in the enterprise
+translation.settings.accessPages.serviceUsers.accessLimitedOneOrganization	Access is limited to one organization
+translation.settings.accessPages.serviceUsers.displayName	Display name
+translation.settings.accessPages.serviceUsers.enterDisplayName	Enter display name
+translation.settings.accessPages.serviceUsers.enterDisplayName2	Display name required
+translation.settings.accessPages.serviceUsers.organization2	Organization
+translation.settings.accessPages.serviceUsers.selectOrganization	Select organization
+translation.settings.accessPages.serviceUsers.searchOrganizations	Search organizations...
+translation.settings.accessPages.serviceUsers.noOrganizationsFound	No organizations found.
+translation.settings.accessPages.serviceUsers.selectOrganization2	Select an organization
+translation.settings.accessPages.serviceUsers.enterpriseRole	Enterprise role
+translation.settings.accessPages.serviceUsers.organizationRole	Organization role
+translation.settings.accessPages.serviceUsers.selectRole	Select role
+translation.settings.accessPages.serviceUsers.selectRole2	Select a role
+translation.settings.accessPages.serviceUsers.none	None
+translation.settings.accessPages.serviceUsers.grantsEnterprisePermissionsSuchAsUse	Grants enterprise permissions, such as Use AI Gateway, while usage stays in the selected organization
+translation.settings.accessPages.serviceUsers.expiration	Expiration
+translation.settings.accessPages.serviceUsers.selectExpiration	Select expiration
+translation.settings.accessPages.serviceUsers.provisioning	Provisioning...
+translation.settings.accessPages.serviceUsers.failedCopyRoleId	Failed to copy role ID
+translation.settings.accessPages.serviceUsers.name	Name
+translation.settings.accessPages.serviceUsers.scope	Scope
+translation.settings.accessPages.serviceUsers.roleName	Role name
+translation.settings.accessPages.serviceUsers.copyRoleId	Copy role ID
+translation.settings.accessPages.serviceUsers.noRoleAssigned	No role assigned
+translation.settings.accessPages.serviceUsers.createdAt	Created at
+translation.settings.accessPages.serviceUsers.expiresAt	Expires at
+translation.settings.accessPages.serviceUsers.deleteServiceUser	Delete service user
+translation.settings.accessPages.serviceUsers.noServiceUsersYet	No service users yet
+translation.settings.accessPages.serviceUsers.provisionServiceUserSeeThemListed	Provision a service user to see them listed here.
+translation.settings.accessPages.serviceUsers.loadFailedTitle	Couldn't load service users
+translation.settings.accessPages.serviceUsers.loadFailedDescription	The service user list didn't load. Try again in a moment.
+translation.settings.accessPages.serviceUsers.retryLoad	Retry
+translation.settings.accessPages.serviceUsers.provisioningEnterprise	Provisioning enterprise service user...
+translation.settings.accessPages.serviceUsers.provisioningOrganization	Provisioning organization service user...
+translation.settings.accessPages.serviceUsers.provisionEnterprise	Provision enterprise service user
+translation.settings.accessPages.serviceUsers.provisionOrganization	Provision organization service user
+translation.settings.accessPages.serviceUsers.enterpriseRoles	Enterprise roles
+translation.settings.accessPages.serviceUsers.unknownOrganization	Unknown organization
+translation.settings.accessPages.serviceUsers.orgScopeAll	All
+translation.settings.accessPages.serviceUsers.scopeOrganization	Organization
+translation.settings.accessPages.serviceUsers.scopeEnterprise	Enterprise
+translation.settings.accessPages.securityProfiles.failedCopyProfileId	Failed to copy profile ID
+translation.settings.accessPages.securityProfiles.copyProfileId	Copy profile ID
+translation.settings.accessPages.securityProfiles.editProfile	Edit profile
+translation.settings.accessPages.securityProfiles.profileUpdated	Profile updated
+translation.settings.accessPages.securityProfiles.failedUpdateProfile	Failed to update profile
+translation.settings.accessPages.securityProfiles.profileCreated	Profile created
+translation.settings.accessPages.securityProfiles.failedCreateProfile	Failed to create profile
+translation.settings.accessPages.securityProfiles.enterpriseDefaultEnforcedDescription	Applied to new sessions in every org. Orgs can only restrict it further, not override it.
+translation.settings.accessPages.securityProfiles.defaultEnterpriseProfileCleared	Default enterprise profile cleared
+translation.settings.accessPages.securityProfiles.defaultOrgProfileCleared	Default org profile cleared
+translation.settings.accessPages.securityProfiles.enterpriseDefaultDisabledForOrg	Enterprise default disabled for this org
+translation.settings.accessPages.securityProfiles.defaultEnterpriseProfileUpdated	Default enterprise profile updated
+translation.settings.accessPages.securityProfiles.defaultOrgProfileUpdated	Default org profile updated
+translation.settings.accessPages.securityProfiles.failedClearDefaultProfile	Failed to clear default profile
+translation.settings.accessPages.securityProfiles.failedUpdateDefaultProfile	Failed to update default profile
+translation.settings.accessPages.securityProfiles.automationsDefaultCleared	Automations default cleared
+translation.settings.accessPages.securityProfiles.automationsDefaultUpdated	Automations default updated
+translation.settings.accessPages.securityProfiles.failedUpdateAutomationsDefault	Failed to update automations default
+translation.settings.accessPages.securityProfiles.inheritEnterpriseDefaultNamed	Inherit enterprise default ({{name}})
+translation.settings.accessPages.securityProfiles.inheritEnterpriseDefault	Inherit enterprise default
+translation.settings.accessPages.securityProfiles.noSecurityProfile	No security profile
+translation.settings.accessPages.securityProfiles.inheritSessionDefaultNamed	Inherit session default ({{name}})
+translation.settings.accessPages.securityProfiles.inheritSessionDefaultNoProfile	Inherit session default (No profile)
+translation.settings.accessPages.securityProfiles.inheritSessionDefault	Inherit session default
+translation.settings.accessPages.securityProfiles.selectProfile	Select profile
+translation.settings.accessPages.securityProfiles.noProfilesOwnedByOrg	No security profiles owned by this org. Create one to get started.
+translation.settings.accessPages.securityProfiles.noProfilesConfigured	No security profiles configured. Create one to get started.
+translation.settings.accessPages.securityProfiles.nameTooLong	Name must be {{max}} characters or fewer
+translation.settings.accessPages.securityProfiles.nameAlreadyExists	A profile with this name already exists
+translation.settings.accessPages.securityProfiles.enforced	Enforced
+translation.settings.accessPages.securityProfiles.noNetworkPolicy	No network policy
+translation.settings.accessPages.securityProfiles.readOnlyGit	Read-only git
+translation.settings.accessPages.securityProfiles.fullGitAccess	Full git access
+translation.settings.accessPages.securityProfiles.enterpriseProfiles	Enterprise profiles
+translation.settings.accessPages.securityProfiles.orgProfiles	Org profiles
+translation.settings.accessPages.securityProfiles.createProfile	Create profile
+translation.settings.accessPages.securityProfiles.failedLoadProfiles	Failed to load security profiles.
+translation.settings.copyPoliciesAccountNote	Account-wide limits cap usage across every org. Copied into this budget, they cap usage in this budget's org only.
+translation.settings.copyPoliciesAssignments	Member tier assignments
+translation.settings.copyPoliciesConfirm	Copy
+translation.settings.copyPoliciesDescription	Copy usage policies from another scope into this budget. Tiers are always copied.
+translation.settings.copyPoliciesError	Couldn't copy usage policies
+translation.settings.copyPoliciesFrom	Copy from…
+translation.settings.copyPoliciesGroups	IdP group mappings
+translation.settings.copyPoliciesTierMappings	Tier mappings
+translation.settings.copyPoliciesPermanentLimits	Permanent limit overrides
+translation.settings.copyPoliciesSkippedUsers_one	{{count}} member skipped: not in this budget's org or already assigned here
+translation.settings.copyPoliciesSkippedUsers_other	{{count}} members skipped: not in this budget's org or already assigned here
+translation.settings.copyPoliciesSource	Copy from
+translation.settings.copyPoliciesSourcePlaceholder	Select a scope
+translation.settings.copyPoliciesSuccess	Usage policies copied
+translation.settings.copyPoliciesTemporaryLimits	Temporary limit overrides
+translation.settings.copyPoliciesTiers	Tiers
+translation.settings.copyPoliciesTitle	Copy usage policies
+translation.settings.collaborationPages.jira.copyLabel	Copy label
+translation.settings.collaborationPages.jira.copyLabelMacro	Copy label {{macro}}
+translation.settings.collaborationPages.jira.whenTicketsFrom	When tickets from
+translation.settings.collaborationPages.jira.anyProject	Any project
+translation.settings.collaborationPages.jira.areLabeled	are labeled
+translation.settings.collaborationPages.jira.are	, are in
+translation.settings.collaborationPages.jira.are2	are in
+translation.settings.collaborationPages.jira.run	, run
+translation.settings.collaborationPages.jira.thisPlaybookNoLongerExistsPleaseEdit	This playbook no longer exists. Please edit this automation to fix it.
+translation.settings.collaborationPages.jira.automationActions	Automation actions
+translation.settings.collaborationPages.jira.edit	Edit
+translation.settings.collaborationPages.jira.delete	Delete
+translation.settings.collaborationPages.jira.project	Project
+translation.settings.collaborationPages.jira.searchProjects	Search projects...
+translation.settings.collaborationPages.jira.noProjectsFound	No projects found
+translation.settings.collaborationPages.jira.learnHowStartDevinSessionsFrom	Learn how to start Devin sessions from the Jira app
+translation.settings.collaborationPages.jira.noPlaybooksConfigured	No playbooks configured.
+translation.settings.collaborationPages.jira.noActivePlaybooks	No active playbooks. Add a playbook to sync its macro as a Jira label.
+translation.settings.collaborationPages.linear.linearWorkspace	Linear workspace
+translation.settings.collaborationPages.linear.disconnectLinear	Disconnect Linear
+translation.settings.collaborationPages.linear.areYouSureYouWantDisconnect	Are you sure you want to disconnect your Linear integration? This will remove all Linear functionality from Devin.
+translation.settings.collaborationPages.linear.disconnect	Disconnect
+translation.settings.collaborationPages.linear.devinScopingTriggers	Devin scoping triggers
+translation.settings.collaborationPages.linear.linearTeamsDevinOrganizations	Linear Teams to Devin organizations
+translation.settings.collaborationPages.linear.chooseWhereDevinSessionsCreatedFrom	Choose where Devin sessions created from Linear should appear in-app
+translation.settings.collaborationPages.linear.noLinearTeamDevinOrganizationMapping	No Linear Team to Devin Organization mapping configured. The integration will not work until you configure at least one mapping.
+translation.settings.collaborationPages.linear.configure	Configure
+translation.settings.collaborationPages.linear.view	View
+translation.settings.collaborationPages.linear.legacyTicketScoping	Legacy Ticket Scoping
+translation.settings.collaborationPages.linear.thisFeatureDeprecatedWeRecommendUsing	<bold>This feature is deprecated.</bold> We recommend using a modern playbook instead.
+translation.settings.collaborationPages.linear.thisLegacyFeatureWhenDevinAssigned	This is a legacy feature. When Devin is assigned to a ticket with this as the default, it will analyze the ticket and provide a scoping summary instead of immediately starting work.
+translation.settings.collaborationPages.linear.howWorks	How it works:
+translation.settings.collaborationPages.linear.devinReadsTicketDescriptionComments	Devin reads the ticket description and comments
+translation.settings.collaborationPages.linear.analyzesRequirementsPotentialApproach	Analyzes the requirements and potential approach
+translation.settings.collaborationPages.linear.postsScopingSummaryLinearAgentSession	Posts a scoping summary in the Linear agent session
+translation.settings.collaborationPages.linear.waitsApprovalBeforeProceeding	Waits for your approval before proceeding
+translation.settings.collaborationPages.linear.switchPlaybookLikeTicketPrBetter	Switch to a playbook like <span>!ticket_to_pr</span> for better control and customization.
+translation.settings.collaborationPages.linear.allowedBots	Allowed bots
+translation.settings.collaborationPages.linear.chooseWhichLinearBotsCanStart	Choose which Linear bots can start Devin sessions
+translation.settings.collaborationPages.linear.noBotsCurrentlyAllowed	No bots currently allowed.
+translation.settings.collaborationPages.linear.optionsName	Options for {{name}}
+translation.settings.collaborationPages.linear.addBot	Add bot
+translation.settings.collaborationPages.linear.noBotsAvailable	No bots available
+translation.settings.collaborationPages.linear.legacyTicketScoping2	Legacy ticket scoping
+translation.settings.collaborationPages.linear.removeAsDefault	Remove as default
+translation.settings.collaborationPages.linear.noActivePlaybooksAddPlaybookSync	No active playbooks. Add a playbook to sync its macro as a Linear label.
+translation.settings.collaborationPages.linear.labelsNotBeingSyncedLinearGrant	Labels are not being synced to Linear. Grant the required permissions or create these labels manually in Linear.
+translation.settings.collaborationPages.linear.createAutomation	Create automation
+translation.settings.collaborationPages.linear.team	Team
+translation.settings.collaborationPages.linear.anyTeam	Any team
+translation.settings.collaborationPages.linear.searchTeams	Search teams...
+translation.settings.collaborationPages.linear.noTeamsFound	No teams found
+translation.settings.collaborationPages.linear.connect	Connect
+translation.settings.collaborationPages.linear.mcpAccessIncluded	MCP access included
+translation.settings.collaborationPages.linear.thisIntegrationGivesDevinNativeLinear	This integration gives Devin native Linear tools, so you don't need to install the Linear MCP separately. <lnk>Learn more about Linear MCP capabilities</lnk>
+translation.settings.collaborationPages.linear.unableSyncLabels	Unable to sync labels
+translation.settings.collaborationPages.linear.labelSyncPermissionsRequired	Label sync permissions required
+translation.settings.collaborationPages.linear.devinAutomaticallySyncsPlaybookMacrosLinear	Devin automatically syncs your playbook macros to Linear as labels, but encountered an error connecting to Linear. Try reinstalling the Linear integration.
+translation.settings.collaborationPages.linear.learnHowStartDevinSessionsFrom	Learn how to start Devin sessions from the Linear app
+translation.settings.collaborationPages.linear.syncsPlaybookMacrosRequiresLabels	Devin automatically syncs your playbook macros to Linear as labels, so you can trigger playbooks directly from Linear. This requires permission to manage workspace labels.
+translation.settings.collaborationPages.linear.syncsPlaybookMacrosLacksPermissions	Devin automatically syncs your playbook macros to Linear as labels, so you can trigger playbooks directly from Linear. The integration currently lacks the required permissions.
+translation.settings.collaborationPages.linear.workspaceAdminSetManageLabels	A workspace admin needs to set <bold>Manage workspace labels</bold> to \\
+translation.settings.collaborationPages.microsoftTeams.microsoftTeams	Microsoft Teams
+translation.settings.collaborationPages.microsoftTeams.connectedFormat	Connected {{format}}
+translation.settings.collaborationPages.microsoftTeams.microsoftTeamsConnection	Microsoft Teams connection
+translation.settings.collaborationPages.microsoftTeams.disconnect	Disconnect
+translation.settings.collaborationPages.microsoftTeams.disconnectMicrosoftTeams	Disconnect Microsoft Teams
+translation.settings.collaborationPages.microsoftTeams.areYouSureYouWantDisconnect	Are you sure you want to disconnect your Microsoft Teams integration? This will remove all Microsoft Teams functionality from Devin.
+translation.settings.collaborationPages.microsoftTeams.enterpriseConnections	Enterprise connections
+translation.settings.collaborationPages.microsoftTeams.teams	Teams
+translation.settings.collaborationPages.microsoftTeams.connectedTeams	Connected teams
+translation.settings.collaborationPages.microsoftTeams.installDevinAppTeamsEnableDevin	Install the Devin app in teams to enable Devin in channels.
+translation.settings.collaborationPages.microsoftTeams.noTeamsConnectedConnection	No teams are connected to this connection.
+translation.settings.collaborationPages.microsoftTeams.channelMapping	Channel mapping
+translation.settings.collaborationPages.microsoftTeams.loading	Loading...
+translation.settings.collaborationPages.microsoftTeams.installTeam	Install in team
+translation.settings.collaborationPages.microsoftTeams.connectionFallbackName	Connection
+translation.settings.collaborationPages.microsoftTeams.deepLinkInstallUnavailableStaging	Installing from a deep link is not available in staging: the staging Teams bot is published in the Microsoft marketplace, so install it from there instead.
+translation.settings.collaborationPages.slack.channelChannelidAlreadyMappedChooseDifferent	Channel \\
+translation.settings.collaborationPages.issueTracker.deletedPlaybook	Deleted playbook
+translation.settings.collaborationPages.issueTracker.enterprise	Enterprise
+translation.settings.collaborationPages.issueTracker.organization	Organization
+translation.settings.collaborationPages.issueTracker.community	Community
+translation.settings.collaborationPages.issueTracker.addPlaybook	Add playbook
+translation.settings.collaborationPages.issueTracker.findPlaybooks	Find playbooks
+translation.settings.collaborationPages.issueTracker.noPlaybooksWithMacrosAvailable	No playbooks with macros available
+translation.settings.collaborationPages.issueTracker.default	default ✓
+translation.settings.collaborationPages.issueTracker.goPlaybooks	Go to playbooks
+translation.settings.collaborationPages.issueTracker.thisPlaybookNoLongerExistsPlease	This playbook no longer exists. Please remove it or replace with a different playbook.
+translation.settings.collaborationPages.issueTracker.actionsTitle	Actions for {{title}}
+translation.settings.collaborationPages.issueTracker.setAsDefault	Set as default
+translation.settings.collaborationPages.issueTracker.remove	Remove
+translation.settings.collaborationPages.issueTracker.anyLabel	Any label
+translation.settings.collaborationPages.issueTracker.anyStatus	Any status
+translation.settings.collaborationPages.issueTracker.editAutomation	Edit automation
+translation.settings.collaborationPages.issueTracker.labels	Labels
+translation.settings.collaborationPages.issueTracker.searchLabels	Search labels...
+translation.settings.collaborationPages.issueTracker.noLabelsFound	No labels found
+translation.settings.collaborationPages.issueTracker.status	Status
+translation.settings.collaborationPages.issueTracker.searchStatuses	Search statuses...
+translation.settings.collaborationPages.issueTracker.noStatusesFound	No statuses found
+translation.settings.collaborationPages.issueTracker.playbook	Playbook
+translation.settings.collaborationPages.issueTracker.defaultPlaybook	Default playbook
+translation.settings.collaborationPages.issueTracker.searchPlaybooks	Search playbooks...
+translation.settings.collaborationPages.issueTracker.noPlaybooksAvailable	No playbooks available
+translation.settings.collaborationPages.issueTracker.save	Save
+translation.settings.collaborationPages.issueTracker.create	Create
+translation.settings.playbookCategoryInitial.enterprise	E
+translation.settings.playbookCategoryInitial.org	O
+translation.settings.playbookCategoryInitial.community	C
+translation.settings.playbookCategoryInitial.legacy	L
+translation.settings.keyboardShortcuts.title	Keyboard shortcuts
+translation.settings.keyboardShortcuts.description	View and customize keyboard shortcuts. Changes are not synced across devices.
+translation.settings.keyboardShortcuts.resetAll	Reset all
+translation.settings.keyboardShortcuts.resetAllTitle	Reset all keyboard shortcuts?
+translation.settings.keyboardShortcuts.resetAllDescription	This restores every shortcut to its default. This cannot be undone.
+translation.settings.keyboardShortcuts.resetAllConfirm	Reset all
+translation.settings.keyboardShortcuts.cancel	Cancel
+translation.settings.keyboardShortcuts.searchPlaceholder	Search shortcuts
+translation.settings.keyboardShortcuts.recordKeys	Record keys
+translation.settings.keyboardShortcuts.recordKeysPlaceholder	Press keys to filter…
+translation.settings.keyboardShortcuts.filterAll	All
+translation.settings.keyboardShortcuts.filterModified	Modified
+translation.settings.keyboardShortcuts.modified	Modified
+translation.settings.keyboardShortcuts.addShortcut	Add shortcut
+translation.settings.keyboardShortcuts.removeShortcut	Remove {{chord}} from {{command}}
+translation.settings.keyboardShortcuts.resetToDefault	Reset to default: {{chord}}
+translation.settings.keyboardShortcuts.notAssigned	Not assigned
+translation.settings.keyboardShortcuts.sequenceThen	then
+translation.settings.keyboardShortcuts.record	Record
+translation.settings.keyboardShortcuts.notRebindable	This shortcut can't be changed
+translation.settings.keyboardShortcuts.managedByDesktop	Managed by Devin Desktop
+translation.settings.keyboardShortcuts.pressKeys	Press keys…
+translation.settings.keyboardShortcuts.pressACombination	Press a key combination
+translation.settings.keyboardShortcuts.changeShortcut	Change shortcut {{chord}} for {{command}}
+translation.settings.keyboardShortcuts.reservedChord	{{chord}} is reserved by your browser
+translation.settings.keyboardShortcuts.needsModifier	Add a modifier key — this shortcut works while typing
+translation.settings.keyboardShortcuts.needsHoldModifier	Press one modifier key on its own: this shortcut works by holding it
+translation.settings.keyboardShortcuts.saveFailed	Couldn't save this shortcut. Close any unsaved keybindings.json edits and try again.
+translation.settings.keyboardShortcuts.conflictChord	{{chord}} is already used by {{command}}
+translation.settings.keyboardShortcuts.conflictLocked	{{chord}} is used by {{command}}, which can't be changed.
+translation.settings.keyboardShortcuts.reassign	Reassign
+translation.settings.keyboardShortcuts.emptySearch	No shortcuts match “{{query}}”
+translation.settings.keyboardShortcuts.groupGeneral	General
+translation.settings.keyboardShortcuts.groupHome	Home
+translation.settings.keyboardShortcuts.groupSession	Session
+translation.settings.keyboardShortcuts.groupReview	Review
+translation.settings.keyboardShortcuts.groupDigest	Review Digest
+translation.settings.keyboardShortcuts.groupWiki	Wiki
+translation.settings.keyboardShortcuts.groupSettings	Settings
+translation.settings.keyboardShortcuts.groupComposer	Composer
+translation.settings.keyboardShortcuts.groupCodeScan	Security
+translation.settings.keyboardShortcuts.groupCodeScanFindings	Code scan findings
+translation.settings.keyboardShortcuts.groupContextMap	Context map
+translation.settings.keyboardShortcuts.groupDesignSystem	Design system
+translation.settings.keyboardShortcuts.groupBoards	Boards
+translation.settings.keyboardShortcuts.cheatSheetTitle	Keyboard shortcuts
+translation.settings.keyboardShortcuts.cheatSheetDescription	Shortcuts available on this page.
+translation.settings.keyboardShortcuts.cheatSheetEditLink	Edit shortcuts
+translation.settings.keyboardShortcuts.groupSessionList	Session lists
+translation.settings.keyboardShortcuts.groupEnterpriseMembers	Enterprise members
+translation.settings.keyboardShortcuts.groupBillingTags	Billing tags
+translation.settings.keyboardShortcuts.commands.navigateHome	New session
+translation.settings.keyboardShortcuts.commands.navigateBack	Back
+translation.settings.keyboardShortcuts.commands.navigateForward	Forward
+translation.settings.keyboardShortcuts.commands.toggleTheme	Toggle theme
+translation.settings.keyboardShortcuts.commands.copyLink	Copy link
+translation.settings.keyboardShortcuts.commands.toggleHomeSearch	Toggle home search
+translation.settings.keyboardShortcuts.commands.toggleAgentAskMode	Toggle ask mode
+translation.settings.keyboardShortcuts.commands.showShortcutCheatSheet	Show keyboard shortcuts
+translation.settings.keyboardShortcuts.commands.toggleCommandPalette	Command palette
+translation.settings.keyboardShortcuts.commands.searchSessions	Search sessions
+translation.settings.keyboardShortcuts.commands.toggleKnowledgeSuggestions	Knowledge suggestions
+translation.settings.keyboardShortcuts.commands.toggleWikiSearch	Wiki search
+translation.settings.keyboardShortcuts.commands.toggleContextMapSearch	Context map search
+translation.settings.keyboardShortcuts.commands.focusWikiSearch	Focus wiki search
+translation.settings.keyboardShortcuts.commands.openWikiSettings	Wiki settings
+translation.settings.keyboardShortcuts.commands.focusSettingsSearch	Focus settings search
+translation.settings.keyboardShortcuts.commands.toggleElementPicker	Toggle element selection
+translation.settings.keyboardShortcuts.commands.stageQuoteCaption	Stage quote caption
+translation.settings.keyboardShortcuts.commands.sessionFocusChat	Focus chat
+translation.settings.keyboardShortcuts.commands.sessionPushToTalk	Push to talk
+translation.settings.keyboardShortcuts.commands.recordVoicePrompt	Record voice prompt
+translation.settings.keyboardShortcuts.commands.reviewAddMention	Add review mention
+translation.settings.keyboardShortcuts.commands.reviewToggleSidebar	Toggle review sidebar
+translation.settings.keyboardShortcuts.commands.reviewNewChatMention	New review chat mention
+translation.settings.keyboardShortcuts.commands.digestToggleAgent	Toggle digest agent
+translation.settings.keyboardShortcuts.commands.digestNextPR	Next pull request
+translation.settings.keyboardShortcuts.commands.digestPrevPR	Previous pull request
+translation.settings.keyboardShortcuts.commands.digestOpenPR	Open pull request
+translation.settings.keyboardShortcuts.commands.digestShowInPane	Show pull request in pane
+translation.settings.keyboardShortcuts.commands.digestCloseSplit	Close pull request pane
+translation.settings.keyboardShortcuts.commands.digestScrollPRDown	Scroll pull request down
+translation.settings.keyboardShortcuts.commands.digestScrollPRUp	Scroll pull request up
+translation.settings.keyboardShortcuts.commands.digestScrollPRTop	Scroll to top of pull request
+translation.settings.keyboardShortcuts.commands.digestScrollPRBottom	Scroll to bottom of pull request
+translation.settings.keyboardShortcuts.commands.digestPrevChapter	Previous chapter
+translation.settings.keyboardShortcuts.commands.digestNextChapter	Next chapter
+translation.settings.keyboardShortcuts.commands.digestGoToTab	Go to pull request tab
+translation.settings.keyboardShortcuts.commands.digestApprovePR	Approve pull request
+translation.settings.keyboardShortcuts.commands.digestMergePR	Merge pull request
+translation.settings.keyboardShortcuts.commands.toggleDSSearch	Design system search
+translation.settings.keyboardShortcuts.commands.submitReview	Submit review
+translation.settings.keyboardShortcuts.commands.reviewApprove	Approve pull request
+translation.settings.keyboardShortcuts.commands.reviewRequestChanges	Request changes
+translation.settings.keyboardShortcuts.commands.reviewMerge	Merge or queue pull request
+translation.settings.keyboardShortcuts.commands.reviewLoadLatest	Load latest commits or analysis
+translation.settings.keyboardShortcuts.commands.boardTicketSave	Save ticket
+translation.settings.keyboardShortcuts.commands.sessionNavUp	Previous session
+translation.settings.keyboardShortcuts.commands.sessionNavDown	Next session
+translation.settings.keyboardShortcuts.commands.sessionStopDevin	Stop Devin
+translation.settings.keyboardShortcuts.commands.sessionRename	Rename session
+translation.settings.keyboardShortcuts.commands.sessionToggleArchive	Archive session
+translation.settings.keyboardShortcuts.commands.sessionToggleDone	Mark session done
+translation.settings.keyboardShortcuts.commands.reviewCopyLink	Copy review link
+translation.settings.keyboardShortcuts.commands.reviewCopyBranch	Copy review branch
+translation.settings.keyboardShortcuts.commands.toggleWorkspacePanel	Toggle workspace panel
+translation.settings.keyboardShortcuts.commands.closeOtherTabs	Close other tabs
+translation.settings.keyboardShortcuts.commands.sessionTabClose	Close tab or session pane
+translation.settings.keyboardShortcuts.commands.sessionTabNext	Next tab
+translation.settings.keyboardShortcuts.commands.sessionTabPrev	Previous tab
+translation.settings.keyboardShortcuts.commands.sessionTabJump	Go to tab
+translation.settings.keyboardShortcuts.commands.botsRailJump	Go to Devin
+translation.settings.keyboardShortcuts.commands.sessionTabOpenMenu	Open add-tab menu
+translation.settings.keyboardShortcuts.commands.windowTabClose	Close window tab
+translation.settings.keyboardShortcuts.commands.windowTabNext	Next window tab
+translation.settings.keyboardShortcuts.commands.windowTabPrev	Previous window tab
+translation.settings.keyboardShortcuts.commands.windowTabJump	Jump to window tab
+translation.settings.keyboardShortcuts.commands.windowTabNew	New window tab
+translation.settings.keyboardShortcuts.commands.windowTabReopen	Reopen closed window tab
+translation.settings.keyboardShortcuts.commands.sessionTabReopen	Reopen closed tab
+translation.settings.keyboardShortcuts.commands.toggleFindingsPanel	Toggle findings panel
+translation.settings.keyboardShortcuts.commands.toggleCapabilityMenu	Capability menu
+translation.settings.keyboardShortcuts.commands.switchToNextMode	Next mode
+translation.settings.keyboardShortcuts.commands.toggleAskModeMenu	Ask mode menu
+translation.settings.keyboardShortcuts.commands.toggleAgentLocation	Cloud or local agent
+translation.settings.keyboardShortcuts.commands.toggleSidebar	Toggle sidebar
+translation.settings.keyboardShortcuts.commands.toggleNotificationInbox	Go to notifications
+translation.settings.keyboardShortcuts.commands.closeNotificationInbox	Close notifications
+translation.settings.keyboardShortcuts.commands.closeBotArtifactPane	Close panel
+translation.settings.keyboardShortcuts.commands.closeBotInbox	Close Needs you
+translation.settings.keyboardShortcuts.commands.botInboxNext	Next {{botName}} item
+translation.settings.keyboardShortcuts.commands.botInboxPeek	Hold to collapse Needs you
+translation.settings.keyboardShortcuts.commands.botInboxPrevious	Previous {{botName}} item
+translation.settings.keyboardShortcuts.commands.botInboxPrimaryAction	Run the {{botName}} item's primary action
+translation.settings.keyboardShortcuts.commands.nextNotification	Next notification
+translation.settings.keyboardShortcuts.commands.previousNotification	Previous notification
+translation.settings.keyboardShortcuts.commands.ideQuickOpenFile	Go to file
+translation.settings.keyboardShortcuts.commands.ideOpenFile	Open file
+translation.settings.keyboardShortcuts.commands.ideSearchText	Search workspace
+translation.settings.keyboardShortcuts.commands.ideShowCommands	Editor commands
+translation.settings.keyboardShortcuts.commands.toggleTerminal	Toggle terminal
+translation.settings.keyboardShortcuts.commands.boardsNewTicket	New ticket
+translation.settings.keyboardShortcuts.commands.boardsAssignTicket	Assign ticket
+translation.settings.keyboardShortcuts.commands.boardsBackToBoard	Back to board
+translation.settings.keyboardShortcuts.commands.boardsUndo	Undo ticket change
+translation.settings.keyboardShortcuts.commands.boardsToggleAgent	Toggle board agent
+translation.settings.keyboardShortcuts.commands.billingTagsNextSession	Next session
+translation.settings.keyboardShortcuts.commands.billingTagsPrevSession	Previous session
+translation.settings.keyboardShortcuts.commands.billingTagsToggleSelect	Select session
+translation.settings.keyboardShortcuts.commands.billingTagsOpenSession	Open session
+translation.settings.keyboardShortcuts.commands.billingTagsAssignTag	Assign billing tag
+translation.settings.keyboardShortcuts.commands.billingTagsAcceptSuggestion	Approve suggestion
+translation.settings.keyboardShortcuts.commands.billingTagsDismissSuggestion	Reject suggestion
+translation.settings.keyboardShortcuts.commands.billingTagsSearch	Search sessions
+translation.settings.keyboardShortcuts.commands.billingTagsGoToInbox	Go to my inbox
+translation.settings.keyboardShortcuts.commands.billingTagsGoToAll	Go to all sessions
+translation.settings.keyboardShortcuts.commands.sessionListNext	Next session
+translation.settings.keyboardShortcuts.commands.sessionListPrev	Previous session
+translation.settings.keyboardShortcuts.commands.sessionListExtendNext	Extend selection down
+translation.settings.keyboardShortcuts.commands.sessionListExtendPrev	Extend selection up
+translation.settings.keyboardShortcuts.commands.sessionListToggleSelect	Select session
+translation.settings.keyboardShortcuts.commands.sessionListOpen	Open session
+translation.settings.keyboardShortcuts.commands.sessionListClearSelection	Clear selection
+translation.settings.keyboardShortcuts.commands.membersNext	Next member
+translation.settings.keyboardShortcuts.commands.membersPrev	Previous member
+translation.settings.keyboardShortcuts.commands.membersExtendNext	Extend selection down
+translation.settings.keyboardShortcuts.commands.membersExtendPrev	Extend selection up
+translation.settings.keyboardShortcuts.commands.membersFirst	First member
+translation.settings.keyboardShortcuts.commands.membersLast	Last member
+translation.settings.keyboardShortcuts.commands.membersPageUp	Up five members

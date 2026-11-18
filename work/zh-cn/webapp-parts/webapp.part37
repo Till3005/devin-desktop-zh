@@ -1,0 +1,500 @@
+translation.worklog.plushieOpenInWebapp	<sessionLink>Open in webapp</sessionLink> to send your shipping details.
+translation.worklog.plushieReceivedEyebrow	Request received
+translation.worklog.plushieReceivedBody	Plushie on the way!
+translation.worklog.plushieUnavailableEyebrow	Not available
+translation.worklog.plushieUnavailable	This plushie offer isn't available right now.
+translation.worklog.plushieFieldName	Full name
+translation.worklog.plushieFieldEmail	Email
+translation.worklog.plushieFieldPhone	Phone
+translation.worklog.plushieFieldCountry	Country
+translation.worklog.plushieFieldAddress1	Address
+translation.worklog.plushieFieldAddress2	Address line 2
+translation.worklog.plushieFieldCity	City
+translation.worklog.plushieFieldInvalid	Check this value
+translation.worklog.plushieFieldState	State or region
+translation.worklog.plushieFieldZip	Postal code
+translation.worklog.plushieRequired	Fill in the required fields
+translation.worklog.plushieReady	Your details go straight to Cognition, not to Devin
+translation.worklog.plushieSubmit	Submit
+translation.worklog.plushieChecking	Checking invitation…
+translation.worklog.plushieSending	Sending…
+translation.worklog.plushieCancel	Cancel
+translation.worklog.plushieCancelFailed	Couldn't close this form. Try again in a moment.
+translation.worklog.plushieCancelled	Form closed. Ask Devin if you change your mind.
+translation.worklog.plushieSuperseded	This form is closed. Continue in the newer form.
+translation.worklog.plushieInvalid	Some details don't look right. Check them and try again.
+translation.worklog.plushieFailed	Something went wrong. Try again in a moment.
+translation.worklog.plushieUnconfirmed	Something may have gone wrong. Please try again later.
+translation.worklog.noPermissionEditCodeScanProfiles	You don't have permission to edit code scan profiles
+translation.worklog.noPermissionManageEnvConfig	You don't have permission to manage environment config
+translation.worklog.noPermissionManageKnowledge	You don't have permission to manage knowledge
+translation.worklog.noPermissionManagePlaybooks	You don't have permission to manage playbooks
+translation.worklog.askAdminToApprove	Ask an admin to open this session and approve it.
+translation.worklog.needPermissionToApprove	You need the {{permission}} permission to approve this request
+translation.worklog.noPermissionToApprove	You don't have permission to approve this request
+translation.worklog.localMachineApproverOnly	Only the user whose machine is connected can approve this request
+translation.worklog.localMachineBypassConnectedUserOnly	Only the user who connected this machine can select Smart or Bypass
+translation.worklog.localMachineBypassOwnerOnly	Smart and Bypass permissions are not available in multiplayer sessions. Make the session owner-only first.
+translation.worklog.noPlaybook	No playbook
+translation.worklog.noProfileChanges	No profile changes
+translation.worklog.oneOfCountQuestion	1 of {{count}}: {{question}}
+translation.worklog.onlyProfileManagersChangeSecurityProfile	Only profile managers can change this session's security profile.
+translation.worklog.onlyProfileManagersEditNetworkPolicy	Only profile managers can edit this session's network policy
+translation.worklog.openDismissedQuestion	Open dismissed question
+translation.worklog.openInPlayground	Open in playground
+translation.worklog.openInSidebar	Open in sidebar
+translation.worklog.openPrToAddSkill	Open a PR to add this skill to {{repoShort}}
+translation.worklog.openPrToUpdateFile	Open a PR to update {{filePath}} in the repo
+translation.worklog.openPrToUpdateSkill	Open a PR to update this skill in {{repoShort}}
+translation.worklog.openWiki	Open wiki
+translation.worklog.organization	Organization
+translation.worklog.environment	Environment
+translation.worklog.organizationBlueprint	Organization blueprint
+translation.worklog.outdated	Outdated
+translation.worklog.pairingCodeExpiresAt	The pairing code is single-use and expires at {{expiresAt}}.
+translation.worklog.permissionArgDetails	Details
+translation.worklog.permissionNeeded	Permission needed
+translation.worklog.personalPluginAssetCreateFailed	Failed to create {{scope}} {{kind}} {{name}}
+translation.worklog.personalPluginAssetCreated	Created {{scope}} {{kind}} {{name}}
+translation.worklog.personalPluginAssetRemoveFailed	Failed to remove {{scope}} {{kind}} {{name}}
+translation.worklog.personalPluginAssetRemoved	Removed {{scope}} {{kind}} {{name}}
+translation.worklog.personalPluginAssetSaveFailed	Failed to save {{scope}} {{kind}} {{name}}
+translation.worklog.personalPluginAssetSaved	Saved {{scope}} {{kind}} {{name}}
+translation.worklog.personalPluginAssetUpdateFailed	Failed to update {{scope}} {{kind}} {{name}}
+translation.worklog.personalPluginAssetUpdated	Updated {{scope}} {{kind}} {{name}}
+translation.worklog.personalPluginInstallFailed	Failed to install {{scope}} plugin {{name}}
+translation.worklog.personalPluginInstalled	Installed {{scope}} plugin {{name}}
+translation.worklog.personalPluginUninstallFailed	Failed to uninstall {{scope}} plugin {{name}}
+translation.worklog.personalPluginUninstalled	Uninstalled {{scope}} plugin {{name}}
+translation.worklog.requestStatusAwaiting	Awaiting approval
+translation.worklog.requestStatusUninstallAwaiting	Awaiting approval to uninstall
+translation.worklog.requestStatusDeleteAwaiting	Awaiting approval to delete
+translation.worklog.requestStatusEnableAwaiting	Awaiting approval to enable
+translation.worklog.requestStatusDisableAwaiting	Awaiting approval to disable
+translation.worklog.requestStatusInstallDenied	Install denied
+translation.worklog.requestStatusUninstallDenied	Uninstall denied
+translation.worklog.requestStatusSaveDenied	Save denied
+translation.worklog.requestStatusUpdateDenied	Update denied
+translation.worklog.requestStatusDeleteDenied	Delete denied
+translation.worklog.requestStatusEnableDenied	Enable denied
+translation.worklog.requestStatusDisableDenied	Disable denied
+translation.worklog.requestStatusUpdateApproved	Update approved
+translation.worklog.requestStatusDeleteApproved	Delete approved
+translation.worklog.requestStatusEnableApproved	Enable approved
+translation.worklog.requestStatusDisableApproved	Disable approved
+translation.worklog.requestStatusInstallRunning	Installing…
+translation.worklog.requestStatusUninstallRunning	Uninstalling…
+translation.worklog.requestStatusSaveRunning	Saving…
+translation.worklog.requestStatusDeleteRunning	Deleting…
+translation.worklog.requestStatusInstallSucceeded	Installed
+translation.worklog.requestStatusUninstallSucceeded	Uninstalled
+translation.worklog.requestStatusSaveSucceeded	Saved
+translation.worklog.requestStatusDeleteSucceeded	Deleted
+translation.worklog.requestStatusInstallFailed	Installation failed
+translation.worklog.requestStatusUninstallFailed	Uninstall failed
+translation.worklog.requestStatusSaveFailed	Save failed
+translation.worklog.requestStatusDeleteFailed	Delete failed
+translation.worklog.personalPluginKindHook	hook event
+translation.worklog.personalPluginKindMcp	MCP server
+translation.worklog.personalPluginKindRule	rule
+translation.worklog.personalPluginKindSkill	skill
+translation.worklog.personalPluginScopeAccount	enterprise
+translation.worklog.personalPluginScopeOrg	organization
+translation.worklog.personalPluginScopePersonal	personal
+translation.worklog.planModeRequiresIndexed	Plan mode requires {{repoLabel}} to be indexed
+translation.worklog.playbook	Playbook
+translation.worklog.profileUpdated	Profile updated
+translation.worklog.queryFilter	query: \\
+translation.workflowRuns.paused	Paused
+translation.workflowRuns.agentDetails	{{agent}} details
+translation.workflowRuns.agentResultsDescription	Agent calls made by this workflow run will appear here.
+translation.workflowRuns.agentResultsEmpty	No agent results yet
+translation.workflowRuns.completedCount_one	{{formattedCount}} completed
+translation.workflowRuns.completedCount_other	{{formattedCount}} completed
+translation.workflowRuns.copyLink	Copy link to run
+translation.workflowRuns.copyOutput	Copy output
+translation.workflowRuns.copyScript	Copy script
+translation.workflowRuns.duration	Duration
+translation.workflowRuns.durationSinceRequested	{{duration}} since requested
+translation.workflowRuns.earlierActionsHidden	Earlier actions hidden
+translation.workflowRuns.failed	Failed
+translation.workflowRuns.failedCount_one	{{formattedCount}} failed
+translation.workflowRuns.failedCount_other	{{formattedCount}} failed
+translation.workflowRuns.failedToCopyLink	Failed to copy link
+translation.workflowRuns.finished	Finished
+translation.workflowRuns.hideAgents	Hide agents
+translation.workflowRuns.jumpToFailures	Jump to failures
+translation.workflowRuns.noAgentsYet	No agents yet
+translation.workflowRuns.noOutputYet	No output yet
+translation.workflowRuns.notStarted	Not started
+translation.workflowRuns.openRun	Open workflow run
+translation.workflowRuns.orchestratorSession	Orchestrator session
+translation.workflowRuns.outdated	Outdated
+translation.workflowRuns.overview	Overview
+translation.workflowRuns.phases	Phases
+translation.workflowRuns.product	Product:
+translation.workflowRuns.queued	Queued
+translation.workflowRuns.queuedCount_one	{{formattedCount}} queued
+translation.workflowRuns.queuedCount_other	{{formattedCount}} queued
+translation.workflowRuns.requested	Requested
+translation.workflowRuns.requestedAgo	Requested {{duration}} ago
+translation.workflowRuns.runFailedAcrossPhases_one	Run failed — {{formattedCount}} agent did not complete across {{formattedPhaseCount}} phases.
+translation.workflowRuns.runFailedAcrossPhases_other	Run failed — {{formattedCount}} agents did not complete across {{formattedPhaseCount}} phases.
+translation.workflowRuns.runFailedInPhase_one	Run failed — {{formattedCount}} agent did not complete in phase {{phase}}.
+translation.workflowRuns.runFailedInPhase_other	Run failed — {{formattedCount}} agents did not complete in phase {{phase}}.
+translation.workflowRuns.runProgress	Run progress
+translation.workflowRuns.runProgressAriaValue_one	{{formattedSettled}} of {{formattedTotal}} agent settled
+translation.workflowRuns.runProgressAriaValue_other	{{formattedSettled}} of {{formattedTotal}} agents settled
+translation.workflowRuns.runStarted	Started {{date}}
+translation.workflowRuns.running	Running
+translation.workflowRuns.runningCount_one	{{formattedCount}} running
+translation.workflowRuns.runningCount_other	{{formattedCount}} running
+translation.workflowRuns.script	Script
+translation.workflowRuns.settledCount_one	{{formattedSettled}} / {{formattedTotal}} settled
+translation.workflowRuns.settledCount_other	{{formattedSettled}} / {{formattedTotal}} settled
+translation.workflowRuns.sharedVm	Shared VM
+translation.workflowRuns.sharedVmBilling_one	{{formattedCount}} shared-VM agent bills to the orchestrator session
+translation.workflowRuns.sharedVmBilling_other	{{formattedCount}} shared-VM agents bill to the orchestrator session
+translation.workflowRuns.sharedVmTooltip	No separate session — this agent runs as a subagent on the orchestrator session's machine and bills to it
+translation.workflowRuns.showAgents	Show agents
+translation.workflowRuns.showPullRequests	Show pull requests
+translation.workflowRuns.sidebarProgress	{{formattedSettled}}/{{formattedTotal}}
+translation.workflowRuns.sinceRequested	Since requested
+translation.workflowRuns.started	Started
+translation.workflowRuns.starting	Starting
+translation.workflowRuns.statusSummary	{{status}} · {{progress}}
+translation.workflowRuns.totalAcus	{{acus}} total
+translation.workflowRuns.viewSession	View session
+translation.workflowRuns.workflowRun	Workflow run
+translation.workflowRuns.workflowTitle	Workflow: {{title}}
+translation.workflowRuns.working	Working
+translation.quoteAttachment.annotation	Annotation
+translation.quoteAttachment.designGroupExternal	External site
+translation.quoteAttachment.designGroupChanges_one	{{count}} change
+translation.quoteAttachment.designGroupChanges_other	{{count}} changes
+translation.quoteAttachment.designGroupEdit	Edit quote
+translation.quoteAttachment.designGroupRemove	Remove quote
+translation.quoteAttachment.details	Details
+translation.quoteAttachment.area	Area
+translation.quoteAttachment.areaScreenshotAlt	Screenshot of the selected area, sent along with the quote
+translation.quoteAttachment.areaSummary_one	{{width}} × {{height}} px area · {{count}} element
+translation.quoteAttachment.areaSummary_other	{{width}} × {{height}} px area · {{count}} elements
+translation.quoteAttachment.component	Component
+translation.quoteAttachment.element	Element
+translation.quoteAttachment.file	File
+translation.quoteAttachment.page	Page
+translation.quoteAttachment.port	port {{port}}
+translation.quoteAttachment.preview	Preview
+translation.quoteAttachment.previewElement	Preview element
+translation.quoteAttachment.screenshotAlt	Screenshot of the picked element, sent along with the quote
+translation.quoteAttachment.source	Source
+translation.quoteAttachment.accessibility.details	Accessibility details
+translation.quoteAttachment.accessibility.show	Show accessibility details
+translation.quoteAttachment.accessibility.role	Role
+translation.quoteAttachment.accessibility.label	Label
+translation.quoteAttachment.accessibility.value	Value
+translation.quoteAttachment.accessibility.identifier	Identifier
+translation.quoteAttachment.accessibility.state	State
+translation.quoteAttachment.accessibility.stateValue	enabled={{enabled}} · focused={{focused}}
+translation.quoteAttachment.accessibility.actions	Actions
+translation.quoteAttachment.accessibility.discovery	Discovery
+translation.viewerReplay.exit	Exit replay
+translation.viewerReplay.nextEvent	Next event
+translation.viewerReplay.pause	Pause
+translation.viewerReplay.play	Play
+translation.viewerReplay.previousEvent	Previous event
+translation.viewerReplay.restart	Restart
+translation.viewerReplay.skipIdle	Skip idle
+translation.viewerReplay.skipIdleHint	Fast-forward when nothing new appears for a while
+translation.viewerReplay.skipped	Skipped {{duration}} idle
+translation.viewerReplay.speed	Playback speed
+translation.viewerReplay.speedValue	{{speed}}×
+translation.viewerReplay.timeline	Session timeline
+translation.workspace.takeControlOfComputer	Take control of Devin's computer
+translation.workspace.driveComputer	Click anywhere to drive the computer
+translation.workspace.computerConnectionFailed	Failed to connect to Devin's computer
+translation.workspace.editorFailedToStart	The editor failed to start
+translation.workspace.editorFailedToStartDescription	Try reloading the page. If it keeps happening, the editor may be temporarily unavailable.
+translation.workspace.connectingToComputer	Connecting to Devin's computer...
+translation.workspace.waitingForComputer	Waiting for Devin's computer...
+translation.workspace.goToEnd	Go to end
+translation.workspace.goToLiveDesktop	Go to live desktop
+translation.workspace.codemap.unavailable	This codemap is not available.
+translation.workspace.mcpApp.unloaded	This app's tool call is not loaded.
+translation.workspace.mcpApp.inProgress	Waiting for the app's tool call to finish.
+translation.workspace.mcpApp.failed	The app's tool call failed.
+translation.workspace.mcpApp.canceled	The app's tool call was canceled.
+translation.workspace.mcpApp.unavailable	This app is not available.
+translation.workspace.historyError	Failed to load workspace history.
+translation.workspace.historyUnavailable	Workspace history is unavailable.
+translation.workspace.noBrowserScreenshot	No screenshot is available at this point in history.
+translation.workspace.allChanges	All changes
+translation.workspace.collapseAllFiles	Collapse all files
+translation.workspace.computerKeyboard	Type on the remote computer
+translation.workspace.computerCaptureMouse	Click to capture the mouse
+translation.workspace.computerStats.boxFps	Box FPS
+translation.workspace.computerStats.captureMs	Capture (ms)
+translation.workspace.computerStats.decodeMs	Decode (ms)
+translation.workspace.computerStats.encodeMs	Encode (ms)
+translation.workspace.computerStats.fpsHistory	FPS · last 30s
+translation.workspace.computerStats.jitterMs	Jitter (ms)
+translation.workspace.computerStats.latencyHistory	Latency · last 30s
+translation.workspace.computerStats.networkHistory	Network · last 30s
+translation.workspace.computerStats.now	Now
+translation.workspace.computerStats.nowShort	now
+translation.workspace.computerStats.pacingMs	Pacing (ms)
+translation.workspace.computerStats.rttMs	RTT (ms)
+translation.workspace.computerStats.secondsAgo	{{count}}s ago
+translation.workspace.computerStats.secondsShort	{{count}}s
+translation.workspace.computerStats.tooltipBox	Box
+translation.workspace.computerStats.tooltipCapture	Cap
+translation.workspace.computerStats.tooltipDecode	Dec
+translation.workspace.computerStats.tooltipEncode	Enc
+translation.workspace.computerStats.tooltipJitter	Jitter
+translation.workspace.computerStats.tooltipPacing	Pace
+translation.workspace.computerStats.tooltipRtt	RTT
+translation.workspace.computerStats.tooltipViewer	Viewer
+translation.workspace.computerStats.viewerFps	Viewer FPS
+translation.workspace.disableVmAudio	Mute VM audio
+translation.workspace.enableVmAudio	Enable VM audio
+translation.workspace.exitFullScreen	Exit full screen
+translation.workspace.exitFullWidth	Exit full width
+translation.workspace.expandAllFiles	Expand all files
+translation.workspace.failedToLoadFileContents	Failed to load changes
+translation.workspace.filesChangedCount_one	{{count}} file
+translation.workspace.filesChangedCount_other	{{count}} files
+translation.workspace.fullScreen	Full screen
+translation.workspace.fullWidth	Full width
+translation.workspace.hideFileTree	Hide file tree
+translation.workspace.moveFileTreeLeft	Move file tree to the left
+translation.workspace.moveFileTreeRight	Move file tree to the right
+translation.workspace.hideTabsPanel	Hide tabs panel
+translation.workspace.lastAgentTurn	Last agent turn
+translation.workspace.lastAgentTurnHint	Since your last message or PR comment
+translation.workspace.sinceLastSeen	Since last seen
+translation.workspace.sinceLastSeenHint	Changes after {{time}}
+translation.workspace.changesSince	Since {{time}}
+translation.workspace.loadOlderChanges	Load older
+translation.workspace.loadOlderChangesFailed	Couldn't load older. Retry
+translation.workspace.markChangesSeen	Mark all changes as seen
+translation.workspace.live	Live
+translation.workspace.loadingFileContents	Loading changes…
+translation.workspace.noChangesYet	No changes yet
+translation.workspace.noChangesYetDescription	Files edited in this session will show up here.
+translation.workspace.noChangesLastTurn	No changes in the last turn
+translation.workspace.noChangesLastTurnDescription	No files were edited since your last message.
+translation.workspace.allCaughtUp	You're all caught up
+translation.workspace.noChangesSinceSeenAt	No new changes since {{time}}.
+translation.workspace.noChangesInRange	No changes in this range
+translation.workspace.noMatchingFiles	No matching files
+translation.workspace.incidentReportCopySection	Copy section
+translation.workspace.incidentReportTimeZone	Time zone
+translation.workspace.incidentReportUtc	UTC
+translation.workspace.previewMarkdown	Preview markdown
+translation.workspace.fitToPane	Fit to pane
+translation.workspace.readableWidth	Readable width
+translation.workspace.previewDiff	Preview diff
+translation.workspace.retry	Retry
+translation.workspace.vmAudioVolume	VM audio volume
+translation.workspace.vmAudioUnavailable	VM audio unavailable
+translation.workspace.searchFiles	Search files...
+translation.workspace.selectedRange	Selected range
+translation.workspace.selectedRangeTimes	{{start}} – {{end}}
+translation.workspace.sessionTimeline	Session timeline
+translation.workspace.previousEvent	Previous event
+translation.workspace.nextEvent	Next event
+translation.workspace.showFileTree	Show file tree
+translation.workspace.showFindingsPanel	Show findings
+translation.workspace.showTabsPanel	Show tabs panel
+translation.workspace.viewAsFlatList	View as flat list
+translation.workspace.viewAsTree	View as tree
+translation.workspace.wakeSplash.asleepTitle	Devin is asleep
+translation.workspace.wakeSplash.startingTitle	Devin is starting up…
+translation.workspace.wakeSplash.wakeUp	Wake up Devin
+translation.workspace.wakeSplash.waking	Waking Devin…
+translation.workspace.wakeSplash.previewAsleep	The preview runs on Devin's machine, which is currently suspended. Wake Devin to load it.
+translation.workspace.wakeSplash.previewStarting	Devin's machine is coming online — the preview will load once it's ready.
+translation.workspace.wakeSplash.desktopAsleep	Devin is asleep. Click anywhere to wake up and see live
+translation.workspace.wakeSplash.desktopWaking	Devin's machine is coming online — the live desktop will connect once it's ready
+translation.workspace.wakeSplash.desktopConnecting	Waking up Devin's computer…
+translation.workspace.simulator.unavailable	{{displayName}} streaming is unavailable for this session.
+translation.workspace.simulator.unavailableStatus	Unavailable
+translation.workspace.simulator.noSession	{{displayName}} is unavailable for this session.
+translation.workspace.simulator.endedTitle	Session has ended
+translation.workspace.simulator.endedDescription	This session is over, so the {{displayName}} can no longer be streamed.
+translation.workspace.simulator.machineUnavailableTitle	{{displayName}} not available on this machine
+translation.workspace.simulator.machineUnavailableDescription	This machine has no display server, so the {{displayName}} can't be streamed.
+translation.workspace.simulator.asleep	Asleep
+translation.workspace.simulator.startingStatus	Starting…
+translation.workspace.simulator.notRunning	Not running
+translation.workspace.simulator.asleepDescription	The {{displayName}} runs on Devin's machine, which is currently suspended. Wake Devin to load it.
+translation.workspace.simulator.startingDescription	Devin's machine is coming online — the {{displayName}} will load once it's ready.
+translation.workspace.simulator.unsupported	This Devin remote does not support {{displayName}} display streaming.
+translation.workspace.simulator.linkErrorTitle	Couldn't reach Devin's machine
+translation.workspace.simulator.linkErrorDescription	Unable to get the {{displayName}} display link.
+translation.workspace.simulator.retry	Retry
+translation.workspace.simulator.sourceErrorTitle	No {{displayName}} is running
+translation.workspace.simulator.sourceErrorDescription	Devin's machine is online, but no booted {{emulatorType}} was found. Ask Devin to boot one — this tab will reconnect automatically.
+translation.workspace.simulator.retryNow	Retry now
+translation.workspace.previewUrl.ariaLabel	Preview URL
+translation.workspace.browserPreview.stop	Stop loading
+translation.workspace.browserPreview.findInPage	Find in page
+translation.workspace.browserPreview.findPlaceholder	Find
+translation.workspace.browserPreview.findPrevious	Previous match
+translation.workspace.browserPreview.findNext	Next match
+translation.workspace.browserPreview.print	Print…
+translation.workspace.browserPreview.zoom	Zoom
+translation.workspace.browserPreview.zoomIn	Zoom in
+translation.workspace.browserPreview.zoomOut	Zoom out
+translation.workspace.browserPreview.resetZoom	Reset zoom
+translation.workspace.browserPreview.clearBrowsingData	Clear browsing data
+translation.workspace.browserPreview.clearBrowsingDataDescription	Cookies, site storage and history of the Browser tab are deleted. Sites sign you out.
+translation.workspace.browserPreview.back	Go back
+translation.workspace.browserPreview.forward	Go forward
+translation.workspace.browserPreview.reload	Reload preview
+translation.workspace.browserPreview.history	History
+translation.workspace.browserPreview.cancelSelection	Cancel element selection
+translation.workspace.browserPreview.selectElement	Select an element, or drag to select an area
+translation.workspace.browserPreview.selecting	Selecting
+translation.workspace.browserPreview.designAddToChat	Add to chat
+translation.workspace.browserPreview.designUnsentChanges_one	{{count}} unsent change
+translation.workspace.browserPreview.designUnsentChanges_other	{{count}} unsent changes
+translation.workspace.browserPreview.designSendTooLong	These edits are too long to send. Shorten the text change and try again.
+translation.workspace.browserPreview.designSearchProperties	Search properties…
+translation.workspace.browserPreview.designSearchOrCaption	Search or caption…
+translation.workspace.browserPreview.designNoMatchingProperties	No matching properties
+translation.workspace.browserPreview.designPrompt	Describe a change…
+translation.workspace.browserPreview.designEditProperties	Edit properties
+translation.workspace.browserPreview.designUndo	Undo
+translation.workspace.browserPreview.designRedo	Redo
+translation.workspace.browserPreview.designReset	Reset element
+translation.workspace.browserPreview.designResetProperty	Reset: {{property}}
+translation.workspace.browserPreview.designEditText	Edit text
+translation.workspace.browserPreview.designDelete	Delete element
+translation.workspace.browserPreview.designDeleted	Element deleted
+translation.workspace.browserPreview.designSelectionTools	Selection tools
+translation.workspace.browserPreview.designSelectElement	Select element
+translation.workspace.browserPreview.designDrawBox	Draw a box
+translation.workspace.browserPreview.designAnnotationImageUnavailable	Couldn't capture the annotation image. Draw again to retry.
+translation.workspace.browserPreview.designAnnotationUploadFailed	Couldn't send the annotation image. Try again.
+translation.workspace.browserPreview.designDrawPencil	Draw with pencil
+translation.workspace.browserPreview.designPencilColors.label	Pencil color
+translation.workspace.browserPreview.designPencilColors.crimson	Crimson
+translation.workspace.browserPreview.designPencilColors.navy	Navy
+translation.workspace.browserPreview.designPencilColors.forest	Forest green
+translation.workspace.browserPreview.designPencilColors.ochre	Ochre
+translation.workspace.browserPreview.designPencilColors.charcoal	Charcoal
+translation.workspace.browserPreview.designClearAnnotations	Clear annotations
+translation.workspace.browserPreview.designMovePanel	Move menu with arrow keys. Press Enter to reset.
+translation.workspace.browserPreview.designColorFormat	Color format
+translation.workspace.browserPreview.designPickPageColor	Pick color from page
+translation.workspace.browserPreview.designColorRed	Red
+translation.workspace.browserPreview.designColorGreen	Green
+translation.workspace.browserPreview.designColorBlue	Blue
+translation.workspace.browserPreview.designColorHslSaturation	Saturation
+translation.workspace.browserPreview.designColorLightness	Lightness
+translation.workspace.browserPreview.designColorChroma	Chroma
+translation.workspace.browserPreview.designColorLabA	Green-red axis
+translation.workspace.browserPreview.designColorLabB	Blue-yellow axis
+translation.workspace.browserPreview.designColorHue	Hue
+translation.workspace.browserPreview.designColorSaturation	Saturation and brightness
+translation.workspace.browserPreview.designColorValue	Color value
+translation.workspace.browserPreview.designColorAlpha	Opacity percentage
+translation.workspace.browserPreview.designColorWideGamut	Outside sRGB, so the hex value is approximate. Use its own format in the picker to keep the full color.
+translation.workspace.browserPreview.designColorWideGamutTag	P3
+translation.workspace.browserPreview.designDocumentColors	Document colors
+translation.workspace.browserPreview.designVariables	CSS variables
+translation.workspace.browserPreview.designVariablesFor	CSS variables: {{property}}
+translation.workspace.browserPreview.designSearchVariables	Search CSS variables
+translation.workspace.browserPreview.designDocumentShadows	Document shadows
+translation.workspace.browserPreview.designAddSection	Add {{section}}
+translation.workspace.browserPreview.designControls.gridColumns	Grid columns
+translation.workspace.browserPreview.designControls.horizontal	Horizontal
+translation.workspace.browserPreview.designControls.vertical	Vertical
+translation.workspace.browserPreview.designControls.hug	Fit content
+translation.workspace.browserPreview.designControls.fillParent	Fill parent
+translation.workspace.browserPreview.designControls.fixed	Fixed
+translation.workspace.browserPreview.designControls.systemUi	System UI
+translation.workspace.browserPreview.designControls.fontSize	Font size
+translation.workspace.browserPreview.designControls.lineHeight	Line height
+translation.workspace.browserPreview.designControls.letterSpacing	Letter spacing
+translation.workspace.browserPreview.designControls.gap	Gap
+translation.workspace.browserPreview.designControls.rowGap	Row gap
+translation.workspace.browserPreview.designControls.columnGap	Column gap
+translation.workspace.browserPreview.designControls.width	Width
+translation.workspace.browserPreview.designControls.height	Height
+translation.workspace.browserPreview.designControls.minWidth	Min width
+translation.workspace.browserPreview.designControls.maxWidth	Max width
+translation.workspace.browserPreview.designControls.minHeight	Min height
+translation.workspace.browserPreview.designControls.maxHeight	Max height
+translation.workspace.browserPreview.designControls.padding	Padding
+translation.workspace.browserPreview.designControls.margin	Margin
+translation.workspace.browserPreview.designControls.paddingSide	Padding {{side}}
+translation.workspace.browserPreview.designControls.marginSide	Margin {{side}}
+translation.workspace.browserPreview.designControls.borderSideWidth	Border {{side}} width
+translation.workspace.browserPreview.designControls.borderSideStyle	Border {{side}} style
+translation.workspace.browserPreview.designControls.borderSideColor	Border {{side}} color
+translation.workspace.browserPreview.designControls.sideTop	top
+translation.workspace.browserPreview.designControls.sideRight	right
+translation.workspace.browserPreview.designControls.sideBottom	bottom
+translation.workspace.browserPreview.designControls.sideLeft	left
+translation.workspace.browserPreview.designControls.fontFamily	Font family
+translation.workspace.browserPreview.designControls.fontWeight	Font weight
+translation.workspace.browserPreview.designControls.fontStyle	Font style
+translation.workspace.browserPreview.designControls.textColor	Text color
+translation.workspace.browserPreview.designControls.svgColor	SVG color
+translation.workspace.browserPreview.designControls.backgroundColor	Background color
+translation.workspace.browserPreview.designControls.textAlignment	Text alignment
+translation.workspace.browserPreview.designControls.textCase	Text case
+translation.workspace.browserPreview.designControls.textDecoration	Text decoration
+translation.workspace.browserPreview.designControls.flexDirection	Flex direction
+translation.workspace.browserPreview.designControls.flexWrap	Flex wrap
+translation.workspace.browserPreview.designControls.cornerRadius	Corner radius
+translation.workspace.browserPreview.designControls.boxShadow	Box shadow
+translation.workspace.browserPreview.designControls.radiusTopLeft	Top left radius
+translation.workspace.browserPreview.designControls.radiusTopRight	Top right radius
+translation.workspace.browserPreview.designControls.radiusBottomRight	Bottom right radius
+translation.workspace.browserPreview.designControls.radiusBottomLeft	Bottom left radius
+translation.workspace.browserPreview.designControls.borderWidth	Border width
+translation.workspace.browserPreview.designControls.borderStyle	Style
+translation.workspace.browserPreview.designControls.borderLineStyle	Border style
+translation.workspace.browserPreview.designControls.borderColor	Border color
+translation.workspace.browserPreview.designControls.mixedSides	Mixed
+translation.workspace.browserPreview.designControls.color	Color
+translation.workspace.browserPreview.designControls.opacity	Opacity
+translation.workspace.browserPreview.designControls.shadow	Shadow
+translation.workspace.browserPreview.designControls.shadowInset	Inset
+translation.workspace.browserPreview.designControls.removeShadow	Remove shadow {{index}}
+translation.workspace.browserPreview.designControls.shadowLayer	Shadow {{index}}
+translation.workspace.browserPreview.designControls.shadowCount_one	{{count}} shadow
+translation.workspace.browserPreview.designControls.shadowCount_other	{{count}} shadows
+translation.workspace.browserPreview.designControls.useDocumentShadow	Use document shadow {{index}}
+translation.workspace.browserPreview.designControls.shadowX	X
+translation.workspace.browserPreview.designControls.shadowY	Y
+translation.workspace.browserPreview.designControls.shadowBlur	Blur
+translation.workspace.browserPreview.designControls.shadowSpread	Spread
+translation.workspace.browserPreview.designControls.objectFit	Object fit
+translation.workspace.browserPreview.designControls.none	None
+translation.workspace.browserPreview.designControls.normal	Normal
+translation.workspace.browserPreview.designControls.resetToKeyword	Reset to {{keyword}}
+translation.workspace.browserPreview.designControls.italic	Italic
+translation.workspace.browserPreview.designControls.underline	Underline
+translation.workspace.browserPreview.designControls.strike	Strikethrough
+translation.workspace.browserPreview.designControls.overline	Overline
+translation.workspace.browserPreview.designControls.leftAlign	Align left
+translation.workspace.browserPreview.designControls.centerAlign	Align center
+translation.workspace.browserPreview.designControls.rightAlign	Align right
+translation.workspace.browserPreview.designControls.justifyAlign	Justify
+translation.workspace.browserPreview.designControls.caseNone	No case
+translation.workspace.browserPreview.designControls.capitalize	Title case
+translation.workspace.browserPreview.designControls.uppercase	Uppercase
+translation.workspace.browserPreview.designControls.lowercase	Lowercase
+translation.workspace.browserPreview.designControls.row	Row
+translation.workspace.browserPreview.designControls.column	Column
+translation.workspace.browserPreview.designControls.reverseRow	Reverse row
+translation.workspace.browserPreview.designControls.reverseColumn	Reverse column
+translation.workspace.browserPreview.designControls.reverseWrap	Reverse wrap
+translation.workspace.browserPreview.designControls.alignItems	Align items
+translation.workspace.browserPreview.designControls.justifyContent	Justify content
+translation.workspace.browserPreview.designControls.alignSelf	Align self
+translation.workspace.browserPreview.designControls.baseline	Baseline

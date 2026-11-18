@@ -1,0 +1,500 @@
+translation.admin.sponsoredEvents.create.nameLabel	Name
+translation.admin.sponsoredEvents.create.namePlaceholder	HackMIT 2026
+translation.admin.sponsoredEvents.create.budgetLabel	Budget per team (USD)
+translation.admin.sponsoredEvents.create.budgetPlaceholder	200
+translation.admin.sponsoredEvents.create.budgetHint	From $0 to \${{max}} per team, granted once when the team is added.
+translation.admin.sponsoredEvents.create.acuLimitLabel	ACU cap per session
+translation.admin.sponsoredEvents.create.acuLimitPlaceholder	20
+translation.admin.sponsoredEvents.create.acuLimitHint	Whole number from 1 to {{max}}.
+translation.admin.sponsoredEvents.create.submit	Create event
+translation.admin.sponsoredEvents.create.success	Sponsored event created
+translation.admin.sponsoredEvents.detail.loading	Loading sponsored event
+translation.admin.sponsoredEvents.detail.loadFailed	Failed to load sponsored event: {{message}}
+translation.admin.sponsoredEvents.detail.notFound	Sponsored event not found.
+translation.admin.sponsoredEvents.detail.teamBudget	Budget per team
+translation.admin.sponsoredEvents.detail.acuLimit	ACU cap per session
+translation.admin.sponsoredEvents.detail.teams	Teams
+translation.admin.sponsoredEvents.detail.createdAt	Created
+translation.admin.sponsoredEvents.detail.revoked	Revoked
+translation.admin.sponsoredEvents.addTeam.button	Add team
+translation.admin.sponsoredEvents.addTeam.title	Add team
+translation.admin.sponsoredEvents.addTeam.description	Creates a free organization for the team, adds the participants as owners, and grants the event budget. Adding an existing team again only adds the new participants.
+translation.admin.sponsoredEvents.addTeam.lockedTitle	Add members to {{team}}
+translation.admin.sponsoredEvents.addTeam.lockedDescription	Add participants to this existing team. Existing members will be skipped.
+translation.admin.sponsoredEvents.addTeam.nameLabel	Team name
+translation.admin.sponsoredEvents.addTeam.emailsLabel	Participant emails
+translation.admin.sponsoredEvents.addTeam.emailsPlaceholder	one@example.com, two@example.com
+translation.admin.sponsoredEvents.addTeam.emailsHint_one	{{count}} email
+translation.admin.sponsoredEvents.addTeam.emailsHint_other	{{count}} emails
+translation.admin.sponsoredEvents.addTeam.tooManyEmails	A team can have at most {{max}} participants.
+translation.admin.sponsoredEvents.addTeam.invalidEmail	\\
+translation.admin.sponsoredEvents.import.title	Import teams from CSV
+translation.admin.sponsoredEvents.import.description	Export a Google Forms response sheet with Team Name and Member N Email columns. Imports run on the server, so you can close this tab. Re-running is safe.
+translation.admin.sponsoredEvents.import.chooseFile	Choose CSV
+translation.admin.sponsoredEvents.import.clear	Clear
+translation.admin.sponsoredEvents.import.readFailed	Could not read that file.
+translation.admin.sponsoredEvents.import.preview	{{file}}: {{teams}} teams, {{members}} participants
+translation.admin.sponsoredEvents.import.start_one	Add {{count}} team
+translation.admin.sponsoredEvents.import.start_other	Add {{count}} teams
+translation.admin.sponsoredEvents.import.columns.team	Team
+translation.admin.sponsoredEvents.import.columns.members	Members
+translation.admin.sponsoredEvents.import.columns.emails	Emails
+translation.admin.sponsoredEvents.import.columns.lines	CSV lines
+translation.admin.sponsoredEvents.import.problems_one	{{count}} row was skipped:
+translation.admin.sponsoredEvents.import.problems_other	{{count}} rows were skipped:
+translation.admin.sponsoredEvents.import.moreProblems_one	and {{count}} more
+translation.admin.sponsoredEvents.import.moreProblems_other	and {{count}} more
+translation.admin.sponsoredEvents.import.problemCodes.team_name_required	Line {{line}}: missing team name
+translation.admin.sponsoredEvents.import.problemCodes.team_name_too_long	Line {{line}}: team name is longer than {{max}} characters
+translation.admin.sponsoredEvents.import.problemCodes.emails_required	Line {{line}}: no emails
+translation.admin.sponsoredEvents.import.problemCodes.invalid_email	Line {{line}}: \\
+translation.admin.sponsoredEvents.import.tooManyTeams	This file contains more than {{max}} teams.
+translation.admin.sponsoredEvents.jobs.title	Import runs
+translation.admin.sponsoredEvents.jobs.kind.import	Import
+translation.admin.sponsoredEvents.jobs.kind.revoke	Revoke
+translation.admin.sponsoredEvents.jobs.status.running	Running
+translation.admin.sponsoredEvents.jobs.status.done	Done
+translation.admin.sponsoredEvents.jobs.status.failed	Failed
+translation.admin.sponsoredEvents.jobs.summary	{{done}} of {{total}} teams, {{failed}} failed
+translation.admin.sponsoredEvents.jobs.loadFailed	Failed to load sponsored event jobs: {{message}}
+translation.admin.sponsoredEvents.jobs.runAgain	Run again
+translation.admin.sponsoredEvents.jobs.showAll	Show all
+translation.admin.sponsoredEvents.jobs.showFailedOnly	Show failed only
+translation.admin.sponsoredEvents.jobs.previousRuns	Previous runs ({{count}})
+translation.admin.sponsoredEvents.jobs.columns.team	Team
+translation.admin.sponsoredEvents.jobs.columns.status	Status
+translation.admin.sponsoredEvents.jobs.columns.result	Result
+translation.admin.sponsoredEvents.jobs.noError	No error
+translation.admin.sponsoredEvents.revoke.button	Revoke all
+translation.admin.sponsoredEvents.revoke.title	Revoke all sponsored credit?
+translation.admin.sponsoredEvents.revoke.description	This reclaims unspent sponsored credit from every team. Organizations, members, and sessions stay in place. New teams cannot be added afterwards.
+translation.admin.sponsoredEvents.revoke.confirm	Revoke all
+translation.admin.sponsoredEvents.revoke.badge	Revoked {{date}}
+translation.admin.sponsoredEvents.teams.title	Teams
+translation.admin.sponsoredEvents.teams.addMembers	Add members
+translation.admin.sponsoredEvents.teams.empty	No teams yet. Add a team or import a CSV.
+translation.admin.sponsoredEvents.teams.totals_one	Total ({{count}} team)
+translation.admin.sponsoredEvents.teams.totals_other	Total ({{count}} teams)
+translation.admin.sponsoredEvents.teams.columns.team	Team
+translation.admin.sponsoredEvents.teams.columns.organization	Organization
+translation.admin.sponsoredEvents.teams.columns.members	Members
+translation.admin.sponsoredEvents.teams.columns.granted	Granted
+translation.admin.sponsoredEvents.teams.columns.balance	Balance
+translation.admin.sponsoredEvents.teams.columns.revoked	Revoked
+translation.admin.sponsoredEvents.teams.columns.createdAt	Created
+translation.admin.sponsoredEvents.teams.searchPlaceholder	Search teams
+translation.admin.sponsoredEvents.teams.noMatches	No teams match \\
+translation.admin.sponsoredEvents.errors.generic	Something went wrong
+translation.admin.sponsoredEvents.errors.event_not_found	Sponsored event not found
+translation.admin.sponsoredEvents.errors.name_required	Name is required
+translation.admin.sponsoredEvents.errors.team_name_required	Team name is required
+translation.admin.sponsoredEvents.errors.invalid_email	One of the emails is not a valid address
+translation.admin.sponsoredEvents.errors.emails_required	Enter at least one email
+translation.admin.sponsoredEvents.errors.too_many_members	The team would exceed the participant limit
+translation.admin.sponsoredEvents.errors.job_running	Another sponsored-event job is already running
+translation.admin.sponsoredEvents.errors.event_revoked	This sponsored event has been revoked
+translation.admin.sponsoredEvents.errors.job_not_import	This job is not an import
+translation.admin.sponsoredEvents.errors.missing_columns	The CSV is missing required columns
+translation.admin.startupProgram.columnStatus	Status
+translation.admin.startupProgram.columnMatchingGrants	Matching grants
+translation.admin.startupProgram.columnFreeCreditsUsed	Free credits used
+translation.admin.startupProgram.columnEnrolled	Enrolled
+translation.admin.startupProgram.orgLogoAlt	{{name}} logo
+translation.admin.startupProgram.summaryTotal	Total: {{count}}
+translation.admin.startupProgram.summaryActive	Active: {{count}}
+translation.admin.startupProgram.summaryPaused	Paused: {{count}}
+translation.admin.startupProgram.summaryEnded	Ended: {{count}}
+translation.admin.startupProgram.summaryChurned	Churned: {{count}}
+translation.admin.startupProgram.enrolled	Account enrolled in startup program
+translation.admin.startupProgram.enrollFailed	Failed to enroll: {{message}}
+translation.admin.startupProgram.statusUpdated	Startup program status updated
+translation.admin.startupProgram.statusUpdateFailed	Failed to update status: {{message}}
+translation.admin.startupProgram.statusActive	active
+translation.admin.startupProgram.statusPaused	paused
+translation.admin.startupProgram.statusEnded	ended
+translation.admin.startupProgram.statusChurned	churned
+translation.admin.startupProgram.pageTitle	Startup program
+translation.admin.startupProgram.enrollments	Enrollments
+translation.admin.startupProgram.invites	Invites
+translation.admin.startupProgram.searchPlaceholder	Search by org name...
+translation.admin.startupProgram.searchAriaLabel	Search enrollments
+translation.admin.startupProgram.loadError	Error loading enrollments
+translation.admin.startupProgram.filter	Filter
+translation.admin.startupProgram.clearAll	Clear all
+translation.admin.startupProgram.noMatches	No enrollments found matching your search.
+translation.admin.startupProgram.noEnrollments	No enrollments found.
+translation.agentPicker.priority	Priority
+translation.agentPicker.dataMode	Data
+translation.agentPicker.janeWongDevin	Jane Wong Devin
+translation.agentPicker.agentMode	Agent
+translation.modelPickerMock.advanced	Advanced
+translation.modelPickerMock.advancedTitle	Advanced model settings
+translation.modelPickerMock.anthropicModels	Anthropic
+translation.modelPickerMock.capability	Capability
+translation.modelPickerMock.close	Close
+translation.modelPickerMock.composerPlaceholder	Describe a task for Devin...
+translation.modelPickerMock.cost	Cost
+translation.modelPickerMock.desktop	Desktop
+translation.modelPickerMock.devinDescription	Recommended for most tasks. Cognition continuously evaluates models across capability, speed, and cost, and automatically updates the selection as pareto-better options become available.
+translation.modelPickerMock.fast	Fast
+translation.modelPickerMock.fastAvailabilityTooltip	Best effort; may use standard speed if Fast isn’t available. Roughly 2–5× the cost when available.
+translation.modelPickerMock.fusion	Fusion
+translation.modelPickerMock.fusionTooltip	Pairs frontier intelligence with cost-efficient execution to deliver frontier-level results at lower cost.
+translation.modelPickerMock.googleModels	Google
+translation.modelPickerMock.high	High
+translation.modelPickerMock.light	Light
+translation.modelPickerMock.lightCapabilityTooltip	Uses models like Luna and SWE-1.7.
+translation.modelPickerMock.low	Low
+translation.modelPickerMock.max	Max
+translation.modelPickerMock.medium	Medium
+translation.modelPickerMock.mobile	Mobile · 390px
+translation.modelPickerMock.normal	Normal
+translation.modelPickerMock.normalCapabilityTooltip	Uses models like Opus, Sol, and some Fable or Astra.
+translation.modelPickerMock.openAIModels	OpenAI
+translation.modelPickerMock.priority	Priority
+translation.modelPickerMock.recommended	Recommended
+translation.modelPickerMock.searchModels	Search models
+translation.modelPickerMock.send	Send
+translation.modelPickerMock.speed	Speed
+translation.modelPickerMock.standard	Standard
+translation.modelPickerMock.thinkingEffort	Thinking effort
+translation.modelPickerMock.thinkingEffortDescription	Higher effort usually improves difficult results, but costs more and can lead to overthinking.
+translation.modelPickerMock.title	Choose how Devin works
+translation.modelPickerMock.ultra	Ultra
+translation.modelPickerMock.ultraFast	Ultra fast
+translation.modelPickerMock.ultraCapabilityTooltip	Uses models like Fable and Astra.
+translation.modelPickerMock.viewport	Viewport
+translation.modelSelect.acuBalance	All models draw from your Devin ACU balance
+translation.modelSelect.addToArena	Add models to run against each other
+translation.modelSelect.arena	Arena
+translation.modelSelect.agentProviderBilling	Billing is determined by the agent provider
+translation.modelSelect.clearFilter	Clear filter
+translation.modelSelect.contextTokens	{{count}} context
+translation.modelSelect.cost	Cost
+translation.modelSelect.costTagApiLabel	API
+translation.modelSelect.costTagApiPricing	Billed at API pricing
+translation.modelSelect.costTagByok	Uses your API key
+translation.modelSelect.costTagByokLabel	BYOK
+translation.modelSelect.costTagCreditsMultiplier	Uses {{multiplier}}x credits
+translation.modelSelect.costTagMultiplierLabel	{{multiplier}}x
+translation.modelSelect.costTagFreeAcu	No ACUs used
+translation.modelSelect.costTagFreeCredits	No credits used
+translation.modelSelect.costTagFreeQuota	No quota used
+translation.modelSelect.costTagRelativeCost	Relative cost
+translation.modelSelect.current	Current
+translation.modelSelect.cyberVerification	Cyber Verification Program
+translation.modelSelect.cyberVerificationSaveFailed	Change not confirmed. Routing may be unchanged.
+translation.modelSelect.cyberVerificationRetry	Retry
+translation.modelSelect.cyberVerificationDescription	Routes your Anthropic requests through the program, outside zero data retention.
+translation.modelSelect.dimensionOff	Off
+translation.modelSelect.dimensionOn	On
+translation.modelSelect.free	Free
+translation.modelSelect.groupAllModels	All Models
+translation.modelSelect.groupBattleGroups	Battle Groups
+translation.modelSelect.groupPinned	Pinned
+translation.modelSelect.groupRecentlyUsed	Recently Used
+translation.modelSelect.learnAboutModels	Learn about models
+translation.modelSelect.modelIssueWarning	This model is currently experiencing some issues.
+translation.modelSelect.noResults	No results found.
+translation.modelSelect.noneSelected	None selected
+translation.modelSelect.orderBy	Order by
+translation.modelSelect.partnerProviderToggleFailed	Couldn’t update “{{label}}”
+translation.modelSelect.pinVariant	Pin variant
+translation.modelSelect.pinnedVariant	Pinned variant
+translation.modelSelect.planWith	Plan with {{name}}
+translation.modelSelect.promo	Promo
+translation.modelSelect.promoActiveLimited	Promo pricing is active for a limited time
+translation.modelSelect.promoActiveUntil	Promo pricing is active until {{date}}
+translation.modelSelect.promoUntil	{{label}} until {{date}}
+translation.modelSelect.removeFromSelection	Remove from selection
+translation.modelSelect.retryFetchModels	Retry fetch available models.
+translation.modelSelect.searchPlaceholder	Search all models
+translation.modelSelect.seeMore	See more
+translation.modelSelect.showAllMore	Show all ({{count}} more)
+translation.modelSelect.showLess	Show less
+translation.modelSelect.single	Single
+translation.modelSelect.tagBeta	Beta
+translation.modelSelect.tagFast	Fast
+translation.modelSelect.tagNew	New
+translation.modelSelect.unpinToChangeVariant	Unpin to change variant
+translation.pluginManifestValidation.sourceEmpty	Plugin source must not be empty
+translation.pluginManifestValidation.sourceShape	must be a source string (e.g. "owner/repo" or a git URL) or an object with a "source" field
+translation.pluginManifestValidation.envValues	"env" must be an object of string values
+translation.pluginManifestValidation.bundleIdRequired	account-upload source requires a non-empty "bundleId"
+translation.pluginManifestValidation.bundleIdInvalid	"bundleId" must be a single path segment matching [a-zA-Z0-9._-]{1,64} (no slashes)
+translation.pluginManifestValidation.urlRequired	git-subdir source requires a non-empty "url"
+translation.pluginManifestValidation.pathRequired	git-subdir source requires a non-empty "path"
+translation.pluginManifestValidation.pathWildcards	wildcards are not allowed in "path"
+translation.pluginManifestValidation.pathParent	"path" must not contain ".."
+translation.pluginManifestValidation.pathRoot	"path" must be a non-root relative path
+translation.builtInRoles.admin	Admin
+translation.builtInRoles.deepWikiOnly	DeepWiki Only
+translation.builtInRoles.member	Member
+translation.builtInRoles.reviewManager	Review manager
+translation.itemsPerPageSelect.rowsPerPage	Rows per page:
+translation.agentTooltips.agent-preview:devin-fast-opus	Fast
+translation.agentTooltips.agent-preview:devin-gpt-5-5	Powered by GPT-5.5 Preview — OpenAI's most capable model
+translation.agentTooltips.agent-preview:devin-gpt-5-6	Powered by GPT-5.6 Sol — 70% off, available until Oct 3
+translation.agentTooltips.agent-preview:devin-gpt-6-astra	Powered by GPT-6 Astra
+translation.agentTooltips.agent-preview:devin-gpt-6-astra-fast	GPT-6 Astra Fast — internal GPT-6 Astra preview on priority models
+translation.agentTooltips.agent-preview:devin-ultrafusion	Ultrafusion — internal preview with a GPT-6 Astra Fast lead and an Opus 5.5 High Fast sidekick
+translation.agentTooltips.agent-preview:devin-async-normal-gpt	Async — internal preview running GPT-6.1 Sol on OpenAI's Background Flex API
+translation.agentTooltips.agent-preview:devin-fable-5-1	Powered by Fable 5.1 — preview available until Sept 22
+translation.agentTooltips.agent-preview:devin-opus-5-5	Powered by Opus 5.5 — preview available until Oct 6
+translation.agentTooltips.agent-preview:devin-swe-2-flash-medium	Powered by SWE-2 Flash Medium — preview available until Nov 18
+translation.agentTooltips.agent-preview:devin-swe-2-flash-high	Powered by SWE-2 Flash High — preview available until Nov 18
+translation.agentTooltips.agent-preview:devin-swe-2-flash-max	Powered by SWE-2 Flash Max — preview available until Nov 18
+translation.agentTooltips.agent-preview:devin-gpt-6-sol	Powered by GPT-6 Sol — preview available until Oct 6
+translation.agentTooltips.agent-preview:devin-gpt-6-1-sol	Powered by GPT-6.1 Sol — preview available until Oct 13
+translation.agentTooltips.agent-preview:devin-opus-4-8	Opus 4.8 Preview — Good at instruction following
+translation.agentTooltips.agent-preview:devin-research-preview	Research Preview — experimental research model
+translation.agentTooltips.agent-preview:devin-swe-1-7	Powered by SWE-1.7 Preview — Cognition's software engineering model
+translation.agentTooltips.agent-preview:devin-swe-1-7-lightning	Powered by SWE-1.7 Lightning — SWE-1.7 served on Cerebras
+translation.agentTooltips.agent-preview:devin-swe-1-7-paid	Powered by SWE-1.7 Priority — SWE-1.7 with priority capacity
+translation.agentTooltips.agent-preview:devin-swe-2-low	Powered by SWE-2 Medium — Cognition's next-generation software engineering model, medium reasoning effort
+translation.agentTooltips.agent-preview:devin-swe-2-high	Powered by SWE-2 High — Cognition's next-generation software engineering model, high reasoning effort
+translation.agentTooltips.agent-preview:devin-swe-2-max	Powered by SWE-2 Max — Cognition's next-generation software engineering model, max reasoning effort
+translation.agentTooltips.agent-preview:devin-swe-2-priority-low	Powered by SWE-2 Medium (Priority) — paid SWE-2 with priority capacity, medium reasoning effort
+translation.agentTooltips.agent-preview:devin-swe-2-priority-high	Powered by SWE-2 High (Priority) — paid SWE-2 with priority capacity, high reasoning effort
+translation.agentTooltips.agent-preview:devin-swe-2-priority-max	Powered by SWE-2 Max (Priority) — paid SWE-2 with priority capacity, max reasoning effort
+translation.agentTooltips.agent-preview:devin-swe-2-lightning-low	Powered by SWE-2 Medium (Lightning) — SWE-2 in Lightning mode, medium reasoning effort. Available until Nov 25
+translation.agentTooltips.agent-preview:devin-swe-2-lightning-high	Powered by SWE-2 High (Lightning) — SWE-2 in Lightning mode, high reasoning effort. Available until Nov 25
+translation.agentTooltips.agent-preview:devin-swe-2-lightning-max	Powered by SWE-2 Max (Lightning) — SWE-2 in Lightning mode, max reasoning effort. Available until Nov 25
+translation.agentTooltips.agent-preview:devin-swe-2-preview	Powered by SWE-2 Preview — Cognition's next-generation software engineering model
+translation.agentTooltips.agent-preview:devin-ultra	Ultra — Our most powerful and hardest thinking agent, significantly more expensive
+translation.agentTooltips.agent-preview:devin_lite	Lite — Tuned for smaller, well-defined tasks. 30-40% cheaper
+translation.agentTooltips.agent:dana	Created by Data Analyst agent
+translation.agentTooltips.agent:explore	Created by Plan agent
+translation.agentVersionToggle.chooseMode	Choose mode
+translation.agentVersionToggle.disabledForOrg	Disabled for your organization
+translation.agentVersionToggle.loadingVersions	Loading versions...
+translation.agentVersionToggle.switchingDisabled	Capability switching is disabled for {{shortName}} sessions
+translation.analytics.lastUpdated	Last updated {{time}}
+translation.analytics.refresh	Refresh data
+translation.analyticsRevamp.userData.membersHidden	Per-user data is hidden for this account.
+translation.analyticsRevamp.userData.groupLabel	Privacy
+translation.analyticsRevamp.userData.appliesToSubOrgs	Also applies to all sub-orgs.
+translation.analyticsRevamp.loadingHint.slow	This chart is taking longer to load.
+translation.analyticsRevamp.queryError.message	This data couldn't be loaded.
+translation.analyticsRevamp.queryError.short	Couldn't load
+translation.analyticsRevamp.queryError.retry	Retry
+translation.analyticsRevamp.queryDenied.message	You do not have permission to view ACU and consumption data.
+translation.analyticsRevamp.queryDenied.short	No access
+translation.analyticsRevamp.cloud.sessionsTitle	Sessions
+translation.analyticsRevamp.cloud.sessionsDescription	Session volume and outcomes
+translation.analyticsRevamp.cloud.acusTitle	ACUs
+translation.analyticsRevamp.cloud.acusDescription	ACU consumption and allocation
+translation.analyticsRevamp.cloud.usersTitle	Users
+translation.analyticsRevamp.cloud.usersDescription	Breakdown of people and membership
+translation.analyticsRevamp.cloud.productivityTitle	Productivity
+translation.analyticsRevamp.cloud.productivityDescription	Engineering output and return
+translation.analyticsRevamp.cloud.productivityNotFinal	Productivity metrics for the last 28 days aren't final yet. Merged PRs and productive hours keep updating as PRs land and users revisit older sessions.
+translation.analyticsRevamp.cloud.productivityNotFinal_mergedPrs	Productivity metrics for the last 28 days aren't final yet. Merged PRs keep updating as PRs land.
+translation.analyticsRevamp.cloud.productivityMethodology	Read more about our methodology <methodologyLink>here</methodologyLink>.
+translation.analyticsRevamp.cloud.sessionsOverTime	Sessions over time
+translation.analyticsRevamp.cloud.acusOverTime	ACUs over time
+translation.analyticsRevamp.cloud.sessionTooltip	Sessions created on cloud during this period
+translation.analyticsRevamp.cloud.sessionsChartDescription	Sessions created each day
+translation.analyticsRevamp.cloud.acusChartDescription_category	ACUs consumed each day, by session category
+translation.analyticsRevamp.cloud.acusChartDescription_size	ACUs consumed each day, by session size
+translation.analyticsRevamp.cloud.acusChartDescription_mode	ACUs consumed each day, by agent mode
+translation.analyticsRevamp.cloud.sessionsChartDescription_category	Sessions created each day, by category
+translation.analyticsRevamp.cloud.sessionsChartDescription_mode	Sessions created each day, by agent mode
+translation.analyticsRevamp.cloud.sizesChartDescription	Sessions created each day, by size
+translation.analyticsRevamp.cloud.acusPerSessionTooltip	Average lifetime ACUs per cloud session, across sessions created during this period
+translation.analyticsRevamp.cloud.sessionsToMergedTooltip	Share of cloud sessions with a merged PR, across sessions created during this period
+translation.analyticsRevamp.cloud.spendTooltip	ACUs consumed on cloud during this period
+translation.analyticsRevamp.cloud.acusPerUserTooltip	ACUs consumed by sessions created during this period divided by the number of distinct users who created a session during this period
+translation.analyticsRevamp.cloud.activeUsersTooltip	Users who created a cloud session or used Ask during this period
+translation.analyticsRevamp.cloud.membershipCaveat	Based on current membership
+translation.analyticsRevamp.cloud.mergeTooltip_session_created	Merged PRs from cloud sessions created during this period
+translation.analyticsRevamp.cloud.acusPerPrTooltip	Average ACUs per merged PR, across sessions created during this period
+translation.analyticsRevamp.cloud.hoursTooltip	Estimated engineering hours saved by sessions created during this period
+translation.analyticsRevamp.cloud.aiFtesTooltip	Estimated AI FTEs calculated using 40 productive hours per week per FTE
+translation.analyticsRevamp.cloud.acusPerHourTooltip	Average ACUs per productive hour, across sessions created during this period
+translation.analyticsRevamp.cloud.breakdownHelp.size	Session size by lifetime ACUs
+translation.analyticsRevamp.cloud.breakdownHelp.kind	Sessions and Ask queries during this period
+translation.analyticsRevamp.cloud.breakdownHelp.activity	Users who created a session and users who only used Ask
+translation.analyticsRevamp.cloud.breakdownLabel	{{section}} breakdown
+translation.analyticsRevamp.cloud.empty	No activity in this period. Try another period or organization filter.
+translation.analyticsRevamp.cloud.empty_org	No activity in this period. Try another period.
+translation.analyticsRevamp.cloud.shareHeader	Share
+translation.analyticsRevamp.cloud.noPermission	You do not have permission to view account metrics.
+translation.analyticsRevamp.cloud.quota	ACU analytics are unavailable on quota plans, which use dollar-based usage.
+translation.analyticsRevamp.cloud.quotaShort	Not available on quota plans
+translation.analyticsRevamp.cloud.metrics.acusPerSession	ACUs per session
+translation.analyticsRevamp.cloud.metrics.sessionsToMerged	Sessions to merged PRs
+translation.analyticsRevamp.cloud.metrics.spend	Total ACU consumption
+translation.analyticsRevamp.cloud.metrics.acusPerUser	ACUs per session user
+translation.analyticsRevamp.cloud.metrics.activeUsers	Active users
+translation.analyticsRevamp.cloud.metrics.mergedPrs	Merged PRs
+translation.analyticsRevamp.cloud.metrics.acusPerMergedPr	ACUs per merged PR
+translation.analyticsRevamp.cloud.metrics.productiveHours	Equivalent productive hours
+translation.analyticsRevamp.cloud.metrics.estimatedAiFtes	Estimated AI FTEs
+translation.analyticsRevamp.cloud.metrics.acusPerHour	ACUs per productive hour
+translation.analyticsRevamp.cloud.metrics.codeSessions	Sessions
+translation.analyticsRevamp.cloud.metrics.askSessions	Ask sessions
+translation.analyticsRevamp.cloud.metrics.codingUsers	Active session users
+translation.analyticsRevamp.cloud.metrics.askOnlyUsers	Active Ask-only users
+translation.analyticsRevamp.cloud.keys.xs	XS
+translation.analyticsRevamp.cloud.keys.s	S
+translation.analyticsRevamp.cloud.keys.m	M
+translation.analyticsRevamp.cloud.keys.l	L
+translation.analyticsRevamp.cloud.keys.xl	XL
+translation.analyticsRevamp.cloud.keys.total	Total
+translation.analyticsRevamp.cloud.keys.active	Active
+translation.analyticsRevamp.cloud.keys.inactive	Inactive
+translation.analyticsRevamp.cloud.keys.new	New users
+translation.analyticsRevamp.cloud.keys.webapp	Webapp
+translation.analyticsRevamp.cloud.keys.slack	Slack
+translation.analyticsRevamp.cloud.keys.teams	Teams
+translation.analyticsRevamp.cloud.keys.api	API
+translation.analyticsRevamp.cloud.keys.linear	Linear
+translation.analyticsRevamp.cloud.keys.jira	Jira
+translation.analyticsRevamp.cloud.keys.jiraDataCenter	Jira Data Center
+translation.analyticsRevamp.cloud.keys.other	Other
+translation.analyticsRevamp.cloud.keys.human	Human
+translation.analyticsRevamp.cloud.keys.service	Service
+translation.analyticsRevamp.cloud.keys.agent	Agent
+translation.analyticsRevamp.cloud.keys.data	Data
+translation.analyticsRevamp.cloud.keys.ask	Ask
+translation.analyticsRevamp.cloud.keys.devin	Devin sessions
+translation.analyticsRevamp.cloud.keys.automation	Automations
+translation.analyticsRevamp.cloud.keys.oncall	Oncall
+translation.analyticsRevamp.cloud.keys.code_scan	Code scans
+translation.analyticsRevamp.cloud.keys.review	Review
+translation.analyticsRevamp.cloud.keys.indexing	Indexing
+translation.analyticsRevamp.cloud.keys.wiki	Wiki
+translation.analyticsRevamp.cloud.keys.default	Agent (default)
+translation.analyticsRevamp.cloud.keys.normal	Normal
+translation.analyticsRevamp.cloud.keys.fast	Fast
+translation.analyticsRevamp.cloud.keys.lite	Lite
+translation.analyticsRevamp.cloud.keys.ultra	Ultra
+translation.analyticsRevamp.cloud.keys.fusion	Fusion
+translation.analyticsRevamp.cloud.keys.merged_pr	Merged PR
+translation.analyticsRevamp.cloud.keys.open_pr	Open PR
+translation.analyticsRevamp.cloud.keys.no_pr	No PR
+translation.analyticsRevamp.cloud.keys.productive	Productive
+translation.analyticsRevamp.cloud.keys.non_productive	Non-productive
+translation.analyticsRevamp.cloud.keys.1_session	1 session
+translation.analyticsRevamp.cloud.keys.2_5_sessions	2–5 sessions
+translation.analyticsRevamp.cloud.keys.6_plus_sessions	6+ sessions
+translation.analyticsRevamp.cloud.keys.bug_fixing	Bug fixing
+translation.analyticsRevamp.cloud.keys.ci_cd_and_devops	CI/CD and DevOps
+translation.analyticsRevamp.cloud.keys.code_review	Code review
+translation.analyticsRevamp.cloud.keys.data_and_automation	Data and automation
+translation.analyticsRevamp.cloud.keys.documentation_and_content	Documentation and content
+translation.analyticsRevamp.cloud.keys.feature_development	Feature development
+translation.analyticsRevamp.cloud.keys.migrations_and_upgrades	Migrations and upgrades
+translation.analyticsRevamp.cloud.keys.refactoring_and_optimization	Refactoring and optimization
+translation.analyticsRevamp.cloud.keys.research_and_exploration	Research and exploration
+translation.analyticsRevamp.cloud.keys.security	Security
+translation.analyticsRevamp.cloud.keys.production_investigation	Production investigation
+translation.analyticsRevamp.cloud.keys.unit_test_generation	Unit test generation
+translation.analyticsRevamp.cloud.keys.code	Code
+translation.analyticsRevamp.cloud.keys.coding	Sessions
+translation.analyticsRevamp.cloud.keys.ask_only	Ask only
+translation.analyticsRevamp.cloud.hoursChartDescription	Productive hours each day, by session creation date
+translation.analyticsRevamp.cloud.hoursChartDescription_week	Productive hours each week, by session creation date
+translation.analyticsRevamp.cloud.acusPerHourChartDescription	ACUs per productive hour each day
+translation.analyticsRevamp.cloud.acusPerHourChartDescription_week	ACUs per productive hour each week
+translation.analyticsRevamp.cloud.acusPerHourChartTooltip	Average ACUs per productive hour, across sessions created each day. 7-day and 30-day averages are weighted by productive hours, not by days.
+translation.analyticsRevamp.cloud.acusPerHourChartTooltip_week	Average ACUs per productive hour, across sessions created each week
+translation.analyticsRevamp.cloud.productivityChartLabel	Productivity chart view
+translation.analyticsRevamp.cloud.productivityGrainLabel	Productivity chart period
+translation.analyticsRevamp.cloud.productivityByCategoryDescription	Total by session category during this period
+translation.analyticsRevamp.cloud.productivityChart_hours	Productive hours over time
+translation.analyticsRevamp.cloud.productivityChart_aiFtes	AI FTEs over time
+translation.analyticsRevamp.cloud.aiFtesChartDescription	AI FTEs each day at 8 productive hours per day
+translation.analyticsRevamp.cloud.aiFtesChartDescription_week	AI FTEs each week at 40 productive hours per week
+translation.analyticsRevamp.cloud.productivityChart_acusPerHour	ACUs per productive hour over time
+translation.analyticsRevamp.cloud.tabs.total	Total
+translation.analyticsRevamp.cloud.tabs.size	By size
+translation.analyticsRevamp.cloud.tabs.kind	By kind
+translation.analyticsRevamp.cloud.tabs.active	Total
+translation.analyticsRevamp.cloud.tabs.activity	By activity
+translation.analyticsRevamp.cloud.tabs.day	Daily
+translation.analyticsRevamp.cloud.tabs.week	Weekly
+translation.analyticsRevamp.cloud.tabs.category	By category
+translation.analyticsRevamp.cloud.tabs.mode	By mode
+translation.analyticsRevamp.cloud.tabs.pie	Pie
+translation.analyticsRevamp.cloud.tabs.timeSeries	Time series
+translation.analyticsRevamp.cloud.usersChartLabel	Users chart view
+translation.analyticsRevamp.cloud.usersChart_active	Active users over time
+translation.analyticsRevamp.cloud.mergedPrsChartDescription	Merged PRs each day, by session creation date
+translation.analyticsRevamp.cloud.mergedPrsChartDescription_week	Merged PRs each week, by session creation date
+translation.analyticsRevamp.cloud.acusPerMergedPrChartDescription	ACUs per merged PR each day, by session creation date
+translation.analyticsRevamp.cloud.acusPerMergedPrChartDescription_week	ACUs per merged PR each week, by session creation date
+translation.analyticsRevamp.cloud.acusPerMergedPrChartTooltip	Average ACUs per merged PR, across sessions created each day. 7-day and 30-day averages are weighted by merged PRs, not by days.
+translation.analyticsRevamp.cloud.acusPerMergedPrChartTooltip_week	Average ACUs per merged PR, across sessions created each week
+translation.analyticsRevamp.cloud.productivityChart_mergedPrs	Merged PRs over time
+translation.analyticsRevamp.cloud.productivityChart_acusPerMergedPr	ACUs per merged PR over time
+translation.analyticsRevamp.cloud.askSessionsTooltip	Ask queries created during this period
+translation.analyticsRevamp.cloud.codingUsersTooltip	Users who created a session during this period
+translation.analyticsRevamp.cloud.askOnlyUsersTooltip	Users who only used Ask during this period
+translation.analyticsRevamp.cloud.kindsChartDescription	Sessions and Ask queries each day
+translation.analyticsRevamp.cloud.breakdownCard.chartLabel	{{section}} chart type
+translation.analyticsRevamp.calloutBody	Revert back to the old analytics layout in the settings menu above any time
+translation.analyticsRevamp.calloutTitle	You’re viewing new analytics
+translation.analyticsRevamp.charts.noDataForRange	No data available for the selected time range
+translation.analyticsRevamp.charts.partialDay	In progress
+translation.analyticsRevamp.charts.partialDayHint	Still in progress: partial data so far. Changes vs. the previous period count complete days only.
+translation.analyticsRevamp.charts.total	Total
+translation.analyticsRevamp.keepNew	Keep new analytics
+translation.analyticsRevamp.legacyBannerAction	Switch to new analytics
+translation.analyticsRevamp.legacyBannerBody	The new analytics dashboard is available for your account. Switch at any time using the settings icon in the top right corner.
+translation.analyticsRevamp.legacyBannerDismiss	Don’t show again
+translation.analyticsRevamp.legacyBannerTitle	You’re viewing legacy analytics
+translation.analyticsRevamp.local.activeUsers	Active users
+translation.analyticsRevamp.local.activeUsersOverTime	Active users over time
+translation.analyticsRevamp.local.activeUsersOverTimeSubtitle	Active users each day
+translation.analyticsRevamp.local.activeUsersTooltip	Users with Desktop or CLI usage during this period, including users who are now no longer in this enterprise
+translation.analyticsRevamp.local.activeUsersTooltip_org	Users with Desktop or CLI usage during this period, including users who are now no longer in this organization
+translation.analyticsRevamp.local.acusDescription	ACU consumption over time
+translation.analyticsRevamp.local.acusOverTime	ACUs over time
+translation.analyticsRevamp.local.acusOverTimeByModelTooltip	Top 10 models with the rest grouped as Other
+translation.analyticsRevamp.local.acusOverTimeSubtitle	ACUs consumed each day
+translation.analyticsRevamp.local.acusOverTimeSubtitle_dollars	Spend each day
+translation.analyticsRevamp.local.acusPerUser	ACUs per user
+translation.analyticsRevamp.local.acusPerUserTooltip	ACUs consumed during this period divided by users with Desktop or CLI usage
+translation.analyticsRevamp.local.acusTitle	ACUs
+translation.analyticsRevamp.local.acusUsed	ACUs consumed
+translation.analyticsRevamp.local.billingProducts.cascade	Desktop
+translation.analyticsRevamp.local.billingProducts.cli	CLI
+translation.analyticsRevamp.local.billingProducts.ai_gateway	AI Gateway
+translation.analyticsRevamp.local.breakdownLabel	Breakdown
+translation.analyticsRevamp.local.byModel	By model
+translation.analyticsRevamp.local.byProduct	By product
+translation.analyticsRevamp.local.crossUnitRangeBody	ACU and dollar usage can't be combined. Choose a range within a single billing period.
+translation.analyticsRevamp.local.crossUnitRangeTitle	This date range spans billing periods measured in different units
+translation.analyticsRevamp.local.inactiveUsers	Inactive users
+translation.analyticsRevamp.local.inactiveUsersTooltip	Current members with no Desktop or CLI usage during this period
+translation.analyticsRevamp.local.legend	Legend
+translation.analyticsRevamp.local.moreRows_one	{{count}} more in drilldown
+translation.analyticsRevamp.local.moreRows_other	{{count}} more in drilldown
+translation.analyticsRevamp.local.noAcuData	No local ACU consumption in the selected period
+translation.analyticsRevamp.local.notEnabledBody	Local metrics appear once Devin Desktop or the Devin CLI is enabled for this enterprise.
+translation.analyticsRevamp.local.notEnabledBody_org	Local metrics appear once Devin Desktop or the Devin CLI is enabled for this organization.
+translation.analyticsRevamp.local.notEnabledTitle	Local agents are not enabled
+translation.analyticsRevamp.local.noUserData	No local users in the selected period
+translation.analyticsRevamp.local.otherModel	Other
+translation.analyticsRevamp.local.otherModels	Other models
+translation.analyticsRevamp.local.viewAllModels	View all models
+translation.analyticsRevamp.local.productDistribution	Local distribution
+translation.analyticsRevamp.local.productDistributionSubtitle	ACU consumption by local product
+translation.analyticsRevamp.local.productGroups.plugins	Plugins & ACP clients
+translation.analyticsRevamp.local.spendByModel	Consumption by model
+translation.analyticsRevamp.local.spendByModel_dollars	Spend by model
+translation.analyticsRevamp.local.spendByModelSubtitle	ACU consumption by model
+translation.analyticsRevamp.local.spendByModelTooltip	Retired or hidden models grouped as Other
+translation.analyticsRevamp.local.total	Total
+translation.analyticsRevamp.local.totalAcuSpend	Total ACU consumption
+translation.analyticsRevamp.local.totalAcuSpendTooltip	ACUs consumed on Desktop and CLI during this period
+translation.analyticsRevamp.local.unknownProvider	Unknown provider
+translation.analyticsRevamp.local.usersChartView	Users chart view
+translation.analyticsRevamp.local.usersDescription	Breakdown of people and membership
+translation.analyticsRevamp.local.usersTitle	Users
+translation.analyticsRevamp.local.activeUsersByProductOverTimeSubtitle	Active users each day, by billing product
+translation.analyticsRevamp.local.activeUsersByProductOverTimeTooltip	Users counted once per product
+translation.analyticsRevamp.local.acusTitle_dollars	Spend
+translation.analyticsRevamp.local.acusDescription_dollars	Dollar spend over time

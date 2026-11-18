@@ -1,0 +1,500 @@
+translation.notificationInbox.server.usageRequestSubmitted.actions.approve	Approve
+translation.notificationInbox.server.usageRequestSubmitted.actions.deny	Deny
+translation.notificationInbox.server.usageRequestSubmitted.outcome.approved	Approved
+translation.notificationInbox.server.usageRequestSubmitted.outcome.denied	Denied
+translation.notificationInbox.server.usageRequestSubmitted.outcome.canceled	Canceled
+translation.notificationInbox.server.usageRequestSubmitted.outcome.expired	Expired
+translation.notificationInbox.server.usageRequestSubmitted.settings.name	Usage requests to approve
+translation.notificationInbox.server.usageRequestSubmitted.settings.description	Someone asked for a higher usage limit and you can approve it.
+translation.onboarding.removeInvitee	Remove {{name}}
+translation.onboarding.moreInvitees	+{{count}} more
+translation.onboarding.attributionCoworker	Coworker
+translation.onboarding.attributionDeepWiki	DeepWiki
+translation.onboarding.attributionFriend	Friend
+translation.onboarding.attributionGoogle	Google
+translation.onboarding.attributionLinkedin	LinkedIn
+translation.onboarding.attributionOther	Other
+translation.onboarding.attributionSweModels	SWE models
+translation.onboarding.attributionTwitter	Twitter
+translation.onboarding.attributionYoutube	YouTube
+translation.onboarding.autoTriageCreated	Auto-triage automation created
+translation.onboarding.autoTriageCreateFailed	Failed to create auto-triage automation
+translation.onboarding.askAboutCodebase	Ask Devin about your codebase
+translation.onboarding.assignWorkToDevinInSlack	Assign work to <devin>@Devin</devin> in Slack
+translation.onboarding.autoFixFindingsDescription	Lets the Devin session working on a PR fix confirmed review findings automatically.
+translation.onboarding.autoFixRecommended	Recommended
+translation.onboarding.cancel	Cancel
+translation.onboarding.completedChecklistItem	Completed checklist item
+translation.onboarding.connect	Connect
+translation.onboarding.connectIntegration	Connect an integration
+translation.onboarding.connectJiraDescription	Connect your organization's Jira site
+translation.onboarding.connectLinearDescription	Connect your organization's workspace
+translation.onboarding.connectReturnToast	The connection was not completed. Please try again.
+translation.onboarding.connectSlackWorkspaceDescription	Connect your team's workspace
+translation.onboarding.connectTeamsDescription	Connect your Microsoft Teams workspace
+translation.onboarding.connectToGit	Connect to Git
+translation.onboarding.connected	Connected
+translation.onboarding.mcpStatusAuthExpired	Auth expired
+translation.onboarding.mcpStatusDisabled	Disabled
+translation.onboarding.mcpStatusSetupIncomplete	Setup incomplete
+translation.onboarding.back	Back
+translation.onboarding.continue	Continue
+translation.onboarding.copy	Copy
+translation.onboarding.couldNotJoinChannel	Devin couldn't join the channel. <reconnectButton>Reconnect Slack</reconnectButton> to grant permission to join channels.
+translation.onboarding.countOfTotal	{{count}} of {{total}}
+translation.onboarding.createPlaybook	Create a playbook
+translation.onboarding.createSchedule	Create a schedule
+translation.onboarding.deepWikiIndexFailed	Failed to turn on DeepWiki. Please try again.
+translation.onboarding.enterAtLeastOneEmail	Enter at least one email address
+translation.onboarding.welcomeDescription	Get started with a Devin onboarding session.
+translation.onboarding.welcomeNotNow	Not now
+translation.onboarding.welcomeStart	Start
+translation.onboarding.welcomeTitle	Welcome to {{org}}
+translation.onboarding.welcomeTitleGeneric	Welcome
+translation.onboarding.failedStartRepoSetupSession	Failed to start the repository setup session.
+translation.onboarding.failedStartMcpSetupSession	Failed to start the MCP setup session.
+translation.onboarding.stepMcpBody	Pick the tools Devin should use, or type a name to add your own. Approve access later in the pinned session.
+translation.onboarding.stepMcpTitle	Connect your tools
+translation.onboarding.searchMcpServers	Search MCP servers
+translation.onboarding.noMcpServersFound	No MCP servers found.
+translation.onboarding.mcpCategoryAll	All
+translation.onboarding.mcpCategorySuggested	Suggested
+translation.onboarding.mcpCategoryOther	Other
+translation.onboarding.addCustomMcpTool	Add “{{name}}” as a custom tool
+translation.onboarding.customMcpTool	Custom
+translation.onboarding.unableToLoadMcpServers	Unable to load MCP servers.
+translation.onboarding.devinHelpsPickUpTasks	<devin>Devin</devin> helps pick up tasks in Slack
+translation.onboarding.devinWillJoin	Devin will join {{channel}}
+translation.onboarding.dismiss	Dismiss
+translation.onboarding.dismissChecklist	Dismiss checklist
+translation.onboarding.dismissChecklistTitle	Dismiss checklist?
+translation.onboarding.dismissDescription	This will hide the onboarding checklist. You can bring it back from your account settings.
+translation.onboarding.earnAcus_one	Earn {{count}} ACU
+translation.onboarding.earnAcus_other	Earn {{count}} ACUs
+translation.onboarding.earnDollars	Earn \${{amount}}
+translation.onboarding.earnedAcus_one	Earned {{count}} ACU
+translation.onboarding.earnedAcus_other	Earned {{count}} ACUs
+translation.onboarding.earnedDollars	Earned \${{amount}}
+translation.onboarding.emailAddresses	Email addresses
+translation.onboarding.exploreAdvanced	Explore advanced capabilities
+translation.onboarding.fetchReposFailed	Fetching repositories from your git connection failed.
+translation.onboarding.freeCredits	Free credits
+translation.onboarding.freeCreditsDescription	Already added to your team. Use them for PRs, bug fixes, refactors, migrations — whatever you need to ship.
+translation.onboarding.getStarted	Get started
+translation.onboarding.inChannel	in channel
+translation.onboarding.inDevinCredits	in Devin credits
+translation.onboarding.inMatchingGrants	in matching grants
+translation.onboarding.inTeam	in team
+translation.onboarding.incompleteChecklistItem	Incomplete checklist item
+translation.onboarding.indexing	Indexing
+translation.onboarding.invalidEmail	{{email}} is not a valid email address
+translation.onboarding.inviteEmailsPlaceholder	alex@example.com, sam@example.com
+translation.onboarding.invitedTeamMembers_one	Invited {{count}} team member
+translation.onboarding.invitedTeamMembers_other	Invited {{count}} team members
+translation.onboarding.labeled	labeled
+translation.onboarding.linearMonitor	Linear monitor
+translation.onboarding.jiraMonitor	Jira monitor
+translation.onboarding.inProject	in project
+translation.onboarding.selectProject	Select project…
+translation.onboarding.link	Link
+translation.onboarding.linkJiraUserDescription	Lets Devin act as you in Jira
+translation.onboarding.linkLinearUserDescription	Lets Devin act as you in Linear
+translation.onboarding.linkSlackUserDescription	Lets Devin DM you in Slack
+translation.onboarding.linkTeamsUserDescription	Lets Devin DM you in Microsoft Teams
+translation.onboarding.makeFirstSession	Make your first session
+translation.onboarding.manageIndexedInWiki	Indexed repositories can be managed from their wiki.
+translation.onboarding.matchDescription	We dollar-match every dollar you reload — up to {{matchCap}} in grants on your next {{totalUsage}} of usage. You spend {{matchCap}}, you get {{totalUsage}}.
+translation.onboarding.messageForAdmin	Message for your admin
+translation.onboarding.noReposConnectOrg	No repositories found. Connect a git organization to set up repos.
+translation.onboarding.noReposGrant	No repositories found. Connect a git organization to grant repos.
+translation.onboarding.noReposGranted	No repositories are granted to this organization yet. An enterprise admin can grant them in <settingsLink>Enterprise settings > Repositories</settingsLink>.
+translation.onboarding.grantReposFailed	Couldn't grant the selected repositories. Please try again.
+translation.onboarding.repoGranted	Granted
+translation.onboarding.noRepositoriesFound	No repositories found
+translation.onboarding.onboardingProgress	Onboarding progress
+translation.onboarding.oneToOneMatch	1:1 match
+translation.onboarding.orgConnection	Organization
+translation.onboarding.otherStepPlaceholder	Other, e.g. Billboard, Conference, Podcast
+translation.onboarding.personalConnection	Personal
+translation.onboarding.reconnectSlack	Reconnect Slack
+translation.onboarding.requestPermissionFromAdmin	Request permission from admin
+translation.onboarding.reposSelectedForIndexing_one	{{count}} repo selected for indexing
+translation.onboarding.reposSelectedForIndexing_other	{{count}} repos selected for indexing
+translation.onboarding.reposSelectedForReview_one	{{count}} repo selected for automatic analysis
+translation.onboarding.reposSelectedForReview_other	{{count}} repos selected for automatic analysis
+translation.onboarding.retry	Retry
+translation.onboarding.retrySync	Retry sync
+translation.onboarding.reviewReposTitle	Also analyze everyone's PRs in these repos
+translation.onboarding.reviewReposDescription	Devin already analyzes its own PRs and fixes what it finds. Select a repo to analyze your team's PRs there too.
+translation.onboarding.searchRepositories	Search repositories...
+translation.onboarding.selectChannel	Select a channel
+translation.onboarding.selectLabel	Select label…
+translation.onboarding.selectRepositories	Select repositories
+translation.onboarding.selectTeam	Select team…
+translation.onboarding.setupAutomations	Set up automations
+translation.onboarding.setupWiki	Set up your wiki
+translation.onboarding.showLessTips	Show fewer tips
+translation.onboarding.showMoreTips	Show more tips
+translation.onboarding.skip	Skip
+translation.onboarding.slackJoinChannelFailed	Devin couldn't join the Slack channel
+translation.onboarding.slackJoinChannelMissingScope	Reconnect Slack in settings to grant Devin permission to join channels.
+translation.onboarding.slackJoinChannelUnavailable	The channel may be private or unavailable. Invite Devin manually or pick another channel.
+translation.onboarding.slackMonitor	Slack monitor
+translation.onboarding.stepAttributionBody	Help us understand where you found Devin.
+translation.onboarding.stepAttributionTitle	How did you hear about us?
+translation.onboarding.stepConnectGithubBody	Connect your organization's repositories so Devin can start working.
+translation.onboarding.stepConnectGithubTitle	Connect your Git provider
+translation.onboarding.stepConnectIssueTrackerBody	Assign issues to Devin to get pull requests.
+translation.onboarding.stepConnectIssueTrackerTitle	Connect your issue tracker
+translation.onboarding.stepConnectLinearBody	Assign Linear issues to Devin to get pull requests.
+translation.onboarding.stepConnectLinearTitle	Connect Linear
+translation.onboarding.stepConnectMessagingAppBody	Tag Devin in chats and channels to assign work.
+translation.onboarding.stepConnectMessagingAppTitle	Connect your messaging app
+translation.onboarding.stepConnectSlackBody	Tag Devin in any channel to assign work.
+translation.onboarding.stepCreateOrgBody	Give your first organization a name. Everyone in your enterprise will be added as a member.
+translation.onboarding.stepCreateOrgTitle	Create your first organization
+translation.onboarding.stepDeepWikiBody	Configure how DeepWiki indexes your repository source code for Wiki and Ask Devin.
+translation.onboarding.stepDeepWikiTitle	DeepWiki
+translation.onboarding.stepExploreDevinBody	Devin is the AI software engineer built for teams. Devin autonomously plans, codes, tests, and ships.
+translation.onboarding.createOrgFailed	Couldn't create the organization. Please try again.
+translation.onboarding.monthlyAcuLimit	Monthly ACU limit
+translation.onboarding.monthlyAcuLimitHint	Max ACUs per month for this organization
+translation.onboarding.monthlySpendLimit	Monthly spend limit
+translation.onboarding.monthlySpendLimitHint	Max spend per month for this organization
+translation.onboarding.nvidiaConnectGitSkipBody	Devin's functionality will be limited until you link a Git account. You can link one later in Settings.
+translation.onboarding.nvidiaConnectGitSkipCancel	Go back
+translation.onboarding.nvidiaConnectGitSkipConfirm	Skip anyway
+translation.onboarding.nvidiaConnectGitSkipTitle	Skip linking your account?
+translation.onboarding.nvidiaConnectGitTitleBoth	Link your GitLab or GitHub account
+translation.onboarding.nvidiaConnectGitTitleGithub	Link your GitHub account
+translation.onboarding.nvidiaConnectGitTitleGitlab	Link your GitLab account
+translation.onboarding.nvidiaConnectGitTitle	Link your Git account
+translation.onboarding.nvidiaConnectSlackBody	Tag @Devin in any Slack channel to start a session, and get updates by DM.
+translation.onboarding.nvidiaConnectSlackTitle	Link your Slack
+translation.onboarding.unifiedAddReposTitle	Add your repositories to Devin
+translation.onboarding.unifiedAddReposBody	Devin cannot work in these repositories until you add them. To add a repository not in this list, search for it below. You can add more later and check your repository access in <repositoriesLink>Settings > Repositories</repositoriesLink>.
+translation.onboarding.unifiedAddReposNext	Next
+translation.onboarding.unifiedRepoInDevin	In Devin
+translation.onboarding.unifiedRepoNotInDevin	Not in Devin
+translation.onboarding.unifiedRepoOpenOnHost	Open {{repo}} on {{host}}
+translation.onboarding.unifiedRepoAddToDevin	Add to Devin
+translation.onboarding.unifiedRepoAddGroupToDevin	Add group to Devin
+translation.onboarding.unifiedRepoAdding	Adding…
+translation.onboarding.unifiedRepoAdded	Added
+translation.onboarding.unifiedRepoAddChoiceTitle	Add the whole group?
+translation.onboarding.unifiedRepoAddChoiceBody	Groups cover all repositories under them. Adding as a group allows Devin to automatically gain access to future repositories created in the group <code>{{group}}</code>.
+translation.onboarding.unifiedRepoAddAsGroup	Add as group
+translation.onboarding.unifiedRepoAddAsProject	Add as project
+translation.onboarding.unifiedReposAddAllChoiceTitle	Add as groups?
+translation.onboarding.unifiedReposAddAllChoiceBody_one	Groups cover all repositories under them. Adding as a group allows Devin to automatically gain access to future repositories.
+translation.onboarding.unifiedReposAddAllChoiceBody_other	Groups cover all repositories under them. Adding as groups allows Devin to automatically gain access to future repositories.
+translation.onboarding.unifiedReposAddAllChoiceHybrid	Some listed repositories cannot be onboarded this way and will still be added as projects.
+translation.onboarding.unifiedReposAddAllAsProjects_one	Add {{count}} project
+translation.onboarding.unifiedReposAddAllAsProjects_other	Add {{count}} projects
+translation.onboarding.unifiedReposGroupCount_one	{{count}} group
+translation.onboarding.unifiedReposGroupCount_other	{{count}} groups
+translation.onboarding.unifiedReposAddAllAsGroups	Add as {{groups}}
+translation.onboarding.unifiedReposAddAllAsGroupsPlus_one	Add as {{groups}} and {{count}} project
+translation.onboarding.unifiedReposAddAllAsGroupsPlus_other	Add as {{groups}} and {{count}} projects
+translation.onboarding.unifiedRepoAddFailed	Couldn't add this project to Devin.
+translation.onboarding.unifiedPickerProjects	Projects
+translation.onboarding.unifiedPickerGroups	Groups
+translation.onboarding.unifiedReposAddAll_one	Add {{count}} listed
+translation.onboarding.unifiedReposAddAll_other	Add all {{count}} listed
+translation.onboarding.unifiedReposAddAllProgress	Adding {{done}} of {{total}}…
+translation.onboarding.unifiedReposAddAllFailed_one	Couldn't add {{count}} project to Devin.
+translation.onboarding.unifiedReposAddAllFailed_other	Couldn't add {{count}} projects to Devin.
+translation.onboarding.unifiedReposFailed	Couldn't read your repositories.
+translation.onboarding.unifiedReposNotLinked	Link your GitLab or GitHub account to see your repositories here. <connectionsLink>Open your connections</connectionsLink>.
+translation.onboarding.unifiedReposNone	We couldn't find any repositories you have access to on your linked accounts. Ask a repository maintainer to give you access, then check again, or skip this step for now.
+translation.onboarding.unifiedRepoNotFound	Not found
+translation.onboarding.unifiedRepoNotFoundStatus	{{path}} was not found.
+translation.onboarding.unifiedReposCheckAgain	Check again
+translation.onboarding.unifiedReposSearch	Search repositories
+translation.onboarding.unifiedReposNoMatch	No repositories match your search.
+translation.onboarding.unifiedEnvironmentFailed	Couldn't set up your environment. Try again; if it keeps failing, ask your Devin admin to check the account's default environment.
+translation.onboarding.unifiedEnvironmentContinueAnyway	Continue to Devin anyway
+translation.onboarding.unifiedReposFailedNext	You can continue without repositories and add them later in <repositoriesLink>Settings > Repositories</repositoriesLink>, or ask your Devin admin to check the Git connection.
+translation.onboarding.unifiedReposHostFailed	Couldn't read your repositories on {{hosts, list}}; the ones below come from your other linked accounts.
+translation.onboarding.unifiedReposRecentEmptyTitle	All of the repositories you've recently contributed to are already in Devin
+translation.onboarding.unifiedReposRecentEmptyDescription	Search to add others, or add them later in <repositoriesLink>Settings > Repositories</repositoriesLink>.
+translation.onboarding.unifiedReposNoneRecent	No repositories you've worked in recently on your linked accounts. Search by name above to find one, or check again.
+translation.onboarding.unifiedReposRelink	Your {{provider}} ({{host}}) link no longer works; re-link it to see your repositories.
+translation.onboarding.unifiedReposRelinkBackAction	Go back to re-link it
+translation.onboarding.unifiedReposRelinkConnections	<connectionsLink>Open your connections</connectionsLink>.
+translation.onboarding.unifiedReposGithubNotConnected	Your GitHub account is linked, but this Devin account has no GitHub App connection, so your GitHub repositories cannot be listed. Ask your Devin admin to <integrationLink>set up the GitHub integration</integrationLink>.
+translation.onboarding.unifiedReposContinueWithout	Continue without repositories
+translation.onboarding.unifiedReposNotLinkedBack	Link your GitLab or GitHub account to see your repositories here.
+translation.onboarding.unifiedReposNotLinkedBackAction	Go back to connect it
+translation.onboarding.nvidiaConnectGitNoneAvailable	Your Devin admin hasn't connected GitHub or GitLab to Devin yet, so there's nothing to link. Ask them to add a connection in Settings, or skip this step for now.
+translation.onboarding.unifiedPromptStarter	Hi Devin, this is my first session! I usually work in {{repos}}. First ask me what I'd like to work on and then help me get set up.
+translation.onboarding.unifiedPromptStarterNoRepos	Hi Devin, this is my first session! First ask me what I'd like to work on and then help me get set up.
+translation.onboarding.unifiedStartSession	Continue to Devin
+translation.onboarding.createOrgSetupFailed	Organization created, but some setup steps failed. You can finish them in Settings.
+translation.onboarding.stepExploreDevinTitle	Say hello to Devin, your\
+ new engineering collaborator
+translation.onboarding.stepInviteTeamBody	Devin works best with your whole team. Invite teammates to collaborate.
+translation.onboarding.inviteAutoReload.title	Set up auto-reload for your team
+translation.onboarding.inviteAutoReload.description	Auto-reload refills your credits when the balance gets low.
+translation.onboarding.inviteAutoReload.action	Save and send invites
+translation.onboarding.inviteAutoReload.requiresBillingAdmin	Ask a billing admin to enable auto-reload before you send invites.
+translation.onboarding.inviteAutoReload.requiresActiveSubscription	Restore your Teams subscription to set up auto-reload and send invites.
+translation.onboarding.inviteAutoReload.checkFailed	Couldn’t check your billing settings. Try again.
+translation.onboarding.inviteAutoReload.retry	Try again
+translation.onboarding.inviteAutoReload.saveFailed	Couldn’t save auto-reload settings. Try again.
+translation.onboarding.inviteAutoReload.paymentLinkFailed	Couldn’t open payment settings. Try again.
+translation.onboarding.inviteAutoReload.capMin	The monthly cap must be at least {{amount}}
+translation.onboarding.stepInviteTeamTitle	Invite your team
+translation.onboarding.inviteTeamOverflowCount	+{{count}}
+translation.onboarding.selectOrPressEnterToAdd	Select or press Enter to add
+translation.onboarding.searchTeammatesOrEmails	Search teammates or enter emails...
+translation.onboarding.noTeammatesFound	No teammates found
+translation.onboarding.selectAll	Select all
+translation.onboarding.selectAllCount	Select all ({{count}})
+translation.onboarding.clearSearch	Clear search
+translation.onboarding.someTeammatesNotListed	Some teammates are not listed. Enter their email to add them.
+translation.onboarding.joined	Joined
+translation.onboarding.stepGrantReposBody	Pick the repos this organization can work on. For more repos or finer control, use <settingsLink>Repository settings</settingsLink>.
+translation.onboarding.stepGrantReposTitle	Grant repos to your organization
+translation.onboarding.stepLinearTriageBody	Label a Linear issue to have Devin triage it.
+translation.onboarding.stepLinearTriageTitle	Configure auto-triage
+translation.onboarding.stepJiraTriageBody	Label a Jira issue to have Devin triage it.
+translation.onboarding.stepJiraTriageTitle	Configure auto-triage
+translation.onboarding.stepPickWorkflowsBody	Pick the integrations to set up — you can add more later.
+translation.onboarding.stepPickWorkflowsTitle	How do you want to use Devin?
+translation.onboarding.stepPickStartTitle	How do you want to use Devin?
+translation.onboarding.stepPickStartBody	There's more than one way to work with Devin. Try them all.
+translation.onboarding.startCliDescription	Work with Devin in your terminal
+translation.onboarding.startDesktopDescription	Work with Devin on your computer
+translation.onboarding.startDesktopAction	Download
+translation.onboarding.startWebTitle	Devin Webapp
+translation.onboarding.startWebDescription	Work with Devin in the cloud
+translation.onboarding.startDone	Done
+translation.onboarding.stepReposBody	Devin has its own laptop with a browser and a terminal. Pick the main repos Devin will be working on — you can add more later.
+translation.onboarding.stepReposTitle	Set up your repos
+translation.onboarding.stepReviewBody	Set up Devin Review. You can change these later in <settingsLink>Review settings</settingsLink>.
+translation.onboarding.stepReviewTitle	Devin Review
+translation.onboarding.stepSlackTriageBody	Choose a channel Devin should monitor, and tell it what to work on
+translation.onboarding.stepStartupProgramBody	Your startup offer is active on this team.
+translation.onboarding.stepStartupProgramTitle	Welcome to Devin for Startups
+translation.onboarding.startupSlackChannelTitle	Dedicated Slack channel
+translation.onboarding.startupSlackChannelBody	Your team gets a shared channel with our team.
+translation.onboarding.triageLinearPlaceholder	Triage the incoming Linear issue…
+translation.onboarding.triageJiraPlaceholder	Triage the incoming Jira issue…
+translation.onboarding.triageSlackPlaceholder	Triage the incoming Slack message...
+translation.onboarding.openDesktop	Open Devin Desktop
+translation.onboarding.openDesktopBlocked	Your browser blocked opening Devin Desktop.
+translation.onboarding.unableToLoadOnboarding	Unable to load your onboarding.
+translation.onboarding.unableToLoadOnboardingNext	If this keeps happening, ask your Devin admin to check your access.
+translation.onboarding.goToDevin	Go to Devin
+translation.onboarding.unableToSaveOnboarding	Unable to save your onboarding. Try again.
+translation.onboarding.unableToLoadRepositories	Unable to load your repositories.
+translation.onboarding.upToAmount	Up to {{amount}}
+translation.onboarding.validateInReview	Validate in Devin Review
+translation.onboarding.workflowDeepWikiDescription	Index your repos for Wiki and Ask Devin
+translation.onboarding.workflowIssueTrackerDescription	Turn Linear or Jira issues into pull requests
+translation.onboarding.workflowIssueTrackerTitle	Issue tracker
+translation.onboarding.workflowMcpDescription	Connect tools like Notion, Sentry, or Datadog
+translation.onboarding.workflowMcpTitle	MCP servers
+translation.onboarding.workflowReviewDescription	Review pull requests and flag bugs
+translation.onboarding.stepCapabilitiesTitle	Choose what Devin can use
+translation.onboarding.stepCapabilitiesBody	These apply to every org in your enterprise. You can change them later in <settingsLink>Devin settings</settingsLink>.
+translation.onboarding.devinCapabilities	Devin capabilities
+translation.onboarding.devinCapabilitiesDescription	Fusion, Ultra, Normal, Lite and Fast
+translation.onboarding.expandDevinCapabilities	Show capabilities
+translation.onboarding.recommendedCapabilities	Turn on all recommended capabilities
+translation.onboarding.recommendedCapabilitiesDescription	Fusion, Ultra, Normal, Lite, Fast, Dynamic workflows and web search. Turn off to choose them one by one.
+translation.onboarding.allowDataRetention	Allow model provider safety data retention
+translation.onboarding.allowDataRetentionDescription	Model providers may store data for up to 30 days for automated harm detection, never for training.
+translation.onboarding.stepSecurityProfileTitle	Add a security profile
+translation.onboarding.stepSecurityProfileBody	Limit what Devin can access. Create profiles and set one as the default for every org, now or later in Settings > Devin.
+translation.onboarding.stepSsoTitle	Set up single sign-on (SSO)
+translation.onboarding.stepSsoBody	Let your team sign in with your identity provider. <learnMore>Learn more</learnMore>
+translation.onboarding.ssoDomainTitle	Verify your email domain
+translation.onboarding.ssoAddDomain	Add
+translation.onboarding.ssoAddDomainFailed	Could not add the domain
+translation.onboarding.ssoDnsHint	Add this TXT record to your DNS, then check.
+translation.onboarding.ssoDnsName	Name
+translation.onboarding.ssoDnsValue	Value
+translation.onboarding.ssoCheckDns	Check
+translation.onboarding.ssoDnsNotFound	Record not found yet. DNS can take a few minutes.
+translation.onboarding.ssoDomainAdded	Domain added
+translation.onboarding.ssoDomainVerified	Domain verified
+translation.onboarding.ssoCopyRecord	Copy {{label}}
+translation.onboarding.ssoVerifyFailed	Could not verify the domain
+translation.onboarding.ssoProviderTitle	Connect your identity provider
+translation.onboarding.stepOrgCapabilitiesTitle	Choose what Devin can use
+translation.onboarding.stepOrgCapabilitiesBody	These apply to this organization only. You can change them later in <settingsLink>Devin settings</settingsLink>.
+translation.onboarding.defaultMode	Default mode
+translation.onboarding.orgDefaultModeDescription	For new sessions in this organization
+translation.onboarding.stepOrgSecurityProfileTitle	Add a security profile
+translation.onboarding.stepOrgSecurityProfileBody	Limit what Devin can access. Create a profile and set it as the default, now or later in Settings > Devin.
+translation.onboardingGit.areYouSure	Are you sure?
+translation.onboardingGit.cancel	Cancel
+translation.onboardingGit.connectBitbucket	Connect Bitbucket
+translation.onboardingGit.connectGithub	Connect GitHub
+translation.onboardingGit.connectGitlab	Connect GitLab
+translation.onboardingGit.connectToTryFree	To try Devin for free, you'll need to connect GitHub.
+translation.onboardingGit.connectingBitbucket	Connecting Bitbucket...
+translation.onboardingGit.connectingGithub	Connecting GitHub...
+translation.onboardingGit.connectingGitlab	Connecting GitLab...
+translation.onboardingGit.description	Find your teammates on Devin or choose repositories to start working.
+translation.onboardingGit.doItLater	I'll do it later
+translation.onboardingGit.installFailed	Failed to start GitHub installation
+translation.oncall.actionItemSessionFailed	Failed to start the session
+translation.oncall.actionItemSessionStarted	Session started
+translation.oncall.actionItemSessionStarting	Starting session...
+translation.oncall.advanced	Advanced
+translation.oncall.advancedSummary	Network policy · Metadata
+translation.oncall.agentModeLabel	Agent mode
+translation.oncall.alertsBugs	Alerts & Bugs
+translation.oncall.cancel	Cancel
+translation.oncall.channelRequired	Select a Slack channel
+translation.oncall.createResponderNoPermission	You need the Manage Oncall permission to create a responder. Ask an organization admin for access.
+translation.oncall.teamsChannelRequired	Select a Microsoft Teams team and channel
+translation.oncall.conditionIncomplete	Each filter must have both a field and a value. Complete or remove the empty filter
+translation.oncall.pagerDutyConnectCta	Connect PagerDuty
+translation.oncall.pagerDutyNotConnected	Connect PagerDuty before creating a PagerDuty responder
+translation.oncall.pagerDutyNotConnectedBanner	PagerDuty isn't connected to this account yet. Connect it in Settings to triage incidents.
+translation.oncall.settingsButton	Oncall settings
+translation.oncall.contextDiscardChanges	Discard changes
+translation.oncall.contextDiscardTitle	Discard unsaved changes?
+translation.oncall.contextEmptyDescription	When Devin generates oncall skills for this organization, they will appear here.
+translation.oncall.contextEmptyHeading	No oncall skills yet
+translation.oncall.contextLoadError	Failed to load oncall context. Try refreshing the page.
+translation.oncall.contextInstructionsPlaceholder	Instructions every oncall session should follow, in markdown
+translation.oncall.contextModified	Modified from default
+translation.oncall.contextOpenSkill	Open {{name}}
+translation.oncall.contextResetToDefault	Reset to default
+translation.oncall.contextSave	Save
+translation.oncall.contextSaveConflict	The content changed since you loaded it. Refresh and retry.
+translation.oncall.contextSaveError	Failed to save. Check the content and try again.
+translation.oncall.contextSaveForbidden	You can't save this: its sessions run as someone you can't act as, or in an environment you can't use. Ask that person, or move them to a service user.
+translation.oncall.contextSectionTitle	Instructions
+translation.oncall.contextSkillDescriptionFallback	No description
+translation.oncall.contextSkillsTitle	Skills
+translation.oncall.contextSkillsRefreshFrequencyLabel	Skill update frequency
+translation.oncall.contextSkillsRefreshWeekly	Weekly
+translation.oncall.contextSkillsRefreshNever	Never
+translation.oncall.contextSkillsRefreshMonthly	Monthly
+translation.oncall.contextSkillsRefreshNotScheduled	Not scheduled
+translation.oncall.contextSkillsRefreshNow	Update skills now
+translation.oncall.contextSkillsRefreshing	Updating skills…
+translation.oncall.contextSkillsRefreshFailed	Failed to start the skill update. Try again.
+translation.oncall.contextSkillsRefreshFrequencySaveFailed	Failed to save the update frequency. Try again.
+translation.oncall.contextSetupTitle	Onboarding
+translation.oncall.contextSetupDescription	Revisit the onboarding wizard
+translation.oncall.contextSetupOpen	Review setup
+translation.oncall.create	Create responder
+translation.oncall.creating	Creating…
+translation.oncall.createResponder	Create responder
+translation.oncall.digestScheduled	Weekly digest scheduled
+translation.oncall.digestSettingUp	Setting up digest...
+translation.oncall.digestSetupFailed	Failed to set up digest
+translation.oncall.editResponder	Edit responder
+translation.oncall.emptyDescription	Have Devin respond automatically to investigate alerts and bugs using telemetry data, code, deployments, relevant runbooks, and past incidents to produce a likely root cause and recommended next actions.
+translation.oncall.emptyHeading	Get started by creating a responder
+translation.oncall.incidentAutoJoinDescription	Automatically add Devin to newly created channels that match the incident channel prefix. Only public channels can be auto-joined.
+translation.oncall.incidentAutoJoinLabel	Auto-join incident channels
+translation.oncall.incidentAutoJoinMissingScope	Please re-authorize Devin to auto-join channels under Slack in Connections.
+translation.oncall.incidentChannelColumn	Incident
+translation.oncall.incidentDeleted	Incident deleted
+translation.oncall.incidentDeleteFailed	Failed to delete incident
+translation.oncall.incidentDeleting	Deleting incident...
+translation.oncall.incidentDevinModeDescription	Mode for the main incident Devin session.
+translation.oncall.incidentEnabledDescription	Turn on to have Devin help in your incidents
+translation.oncall.incidentEnabledLabel	Enable incidents
+translation.oncall.incidentEnabledConnectSlack	Connect Slack
+translation.oncall.incidentEnabledNoSlack	Connect Slack for your organization to enable incidents.
+translation.oncall.incidentEnabledElsewhere	Incidents are already on in another organization or On Call config of this account. Turn them off there to turn them on here.
+translation.oncall.incidentEnabledElsewhereMultiOrg	Lets more than one organization or On Call config of this account have incidents on. Managed in Enterprise settings
+translation.oncall.incidentMcpsDescription	Select which connectors incident sessions should use
+translation.oncall.incidentRunbookDescription	Instructions provided for every incident session.
+translation.oncall.incidentRunbookPlaceholder	i.e. describe what Devin should know when investigating incidents
+translation.oncall.incidentRunbookTooLong	Runbook must be at most {{max}} characters.
+translation.oncall.incidentNoSessionYet	Starting...
+translation.oncall.incidentNonOrgMentionsDescription	Lets users outside of the current organization interact with Devin in incident channels. Sessions continue to run as the incident's configured identity.
+translation.oncall.incidentNonOrgMentionsLabel	Allow non-organization users participation
+translation.oncall.incidentNonOrgMentionsDescription_config	Lets people who can't use this Oncall's environment interact with Devin in incident channels. Sessions continue to run as the incident's configured identity.
+translation.oncall.incidentNonOrgMentionsLabel_config	Allow participation without environment access
+translation.oncall.incidentPrefixDescription	Kick off proactive investigations when Devin joins Slack channels with this prefix.
+translation.oncall.incidentPrefixLabel	Slack channel prefix
+translation.oncall.incidentPrefixPlaceholder	incident-
+translation.oncall.incidentResponseModeDescription	Choose whether Devin should keep investigating after posting the likely root cause.
+translation.oncall.incidentResponseModeLabel	Response mode
+translation.oncall.incidentResponseModeOneShot	One-shot RCA
+translation.oncall.incidentResponseModeOneShotDescription	Devin posts a likely root cause with a confidence level, then waits until someone clicks Start proactive mode.
+translation.oncall.incidentResponseModeProactive	Proactive
+translation.oncall.incidentResponseModeProactiveDescription	Devin posts a likely root cause, then keeps investigating, posts updates, and maintains an incident report.
+translation.oncall.incidentResume	Resume
+translation.oncall.incidentResumed	Incident resumed
+translation.oncall.incidentSessionColumn	Session
+translation.oncall.incidentSessionLink	View session
+translation.oncall.incidentSettingsTitle	Incident settings
+translation.oncall.incidentSettingsLoadError	Couldn't load incident settings.
+translation.oncall.incidentSettingsLoadWarning	Couldn't refresh incident settings. Showing the last loaded settings.
+translation.oncall.incidentStop	Stop
+translation.oncall.incidentStoppedBadge	Stopped
+translation.oncall.initialInvestigationModeDescription	Agent mode for the initial investigation.
+translation.oncall.initialInvestigationModeLabel	Initial investigation mode
+translation.oncall.incidents	Incidents
+translation.oncall.incidentsEmptyCta	Enable incidents
+translation.oncall.incidentsEmptyCtaConfigure	Configure settings
+translation.oncall.incidentsEmptyDescription	Devin joins your incident channels, synthesizes signals across your stack, and generates self-updating reports so you can focus on resolving the incident.
+translation.oncall.incidentsEmptyHeading	Your right hand during incidents
+translation.oncall.threadSessionModeDescription	Agent mode for Devin in threads.
+translation.oncall.threadSessionModeLabel	Thread session mode
+translation.oncall.incidentSettingsSaved	Incident settings saved
+translation.oncall.incidentSettingsSaveFailed	Failed to save incident settings
+translation.oncall.setupStartFailed	Failed to start oncall setup
+translation.oncall.runAsSaveFailed	Failed to save who Oncall runs as
+translation.oncall.runAsDescription	Choose which user Oncall uses to understand your codebase and access connectors
+translation.oncall.runAsPausedTitle	Oncall indexing is paused
+translation.oncall.runAsPaused	This identity can no longer run sessions. Choose another identity to resume Oncall indexing.
+translation.oncall.runAsResume	Resume
+translation.oncall.incidentsLoadError	Couldn't load incidents.
+translation.oncall.incidentsLoadWarning	Couldn't refresh incidents. Showing the last loaded incidents.
+translation.oncall.incidentStopped	Incident stopped
+translation.oncall.incidentUpdateFailed	Failed to update incident
+translation.oncall.limitsLabel	Limits
+translation.oncall.mcpsDescription	Select which connectors this responder should use
+translation.oncall.metadataDescription	Add key-value pairs to organize and filter your responders
+translation.oncall.metadataIncomplete	Each metadata entry must contain both a key and a value
+translation.oncall.nameDescription	A short, descriptive name for this responder
+translation.oncall.nameLabel	Name
+translation.oncall.namePlaceholder	Production alerts
+translation.oncall.nameRequired	Name required
+translation.oncall.newResponder	New responder
+translation.oncall.responderLoadError	Couldn't load this responder.
+translation.oncall.responderLoadWarning	Couldn't refresh this responder. Showing the last loaded responder.
+translation.oncall.responderNotFound	This responder doesn't exist or was deleted.
+translation.oncall.respondersLoadError	Couldn't load responders.
+translation.oncall.respondersLoadWarning	Couldn't refresh responders. Showing the last loaded responders.
+translation.oncall.noMatchingResponders	No responders match your search.
+translation.oncall.noRespondersYet	No responders yet.
+translation.oncall.overview	Overview
+translation.oncall.overviewGroupedCount_one	{{count}} event grouped
+translation.oncall.overviewGroupedCount_other	{{count}} events grouped
+translation.oncall.overviewIncidentCount_one	{{count}} incident
+translation.oncall.overviewIncidentCount_other	{{count}} incidents
+translation.oncall.overviewInvestigatedCount_one	{{count}} issue investigated
+translation.oncall.overviewInvestigatedCount_other	{{count}} issues investigated
+translation.oncall.reportCreated	Report created successfully
+translation.oncall.reportCreateFailed	Failed to create report
+translation.oncall.reportCreating	Creating report...
+translation.oncall.reportDeleted	Report deleted successfully
+translation.oncall.reportDeleteFailed	Failed to delete report
+translation.oncall.reportDeleting	Deleting report...
+translation.oncall.reporting.content.addSection	Add section
+translation.oncall.reporting.content.contextDescription	What Devin should know when writing this report, such as dashboards, metrics, and things you care about.
+translation.oncall.reporting.content.contextLabel	Context
+translation.oncall.reporting.content.contextPlaceholder	Core metrics: 500 error rate (target under 0.1%) and p95 latency. Dashboard: https://…\
+Action item categories: Customer escalation, Capacity
+translation.oncall.reporting.content.customSectionsDescription	Extra sections Devin adds to the end of each report.
+translation.oncall.reporting.content.customSectionsLabel	Custom sections
+translation.oncall.reporting.content.loadFailed	Couldn't load this report's context and custom sections. Reopen it to try again.
+translation.oncall.reporting.content.moveSectionDown	Move section down
+translation.oncall.reporting.content.moveSectionUp	Move section up
+translation.oncall.reporting.content.removeSection	Remove section
+translation.oncall.reporting.content.sectionInstructions	Section instructions
+translation.oncall.reporting.content.sectionInstructionsPlaceholder	What this section should contain

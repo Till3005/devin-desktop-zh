@@ -1,0 +1,500 @@
+translation.sessionMenu.mcpServersLoadFailed	Could not load MCP servers
+translation.sessionMenu.mcpServersNone	No MCP servers configured
+translation.sessionMenu.mcpManagedByPlugin	Managed by a plugin
+translation.sessionMenu.showInternalInfo	Show internal info
+translation.sessionMenu.hideInternalInfo	Hide internal info
+translation.sessionMenu.usageLimits	Session usage limits
+translation.sessionMenu.sessionInsights	Session insights
+translation.sessionMenu.share	Share
+translation.sessionMenu.shareSession	Share session
+translation.sessionMenu.openInDevinDesktop	Open in Devin Desktop
+translation.sessionMenu.openInDevinDesktopInsiders	Open in Devin Desktop Insiders
+translation.sessionMenu.openInWeb	Open in web browser
+translation.sessionMenu.copySessionLink	Copy session link
+translation.sessionMenu.copyBotLink	Copy {{botName}}'s link
+translation.sessionMenu.hideFromTeam	Hide from team
+translation.sessionMenu.makeVisibleToTeam	Make visible to team
+translation.sessionMenu.analyzeSession	Analyze session
+translation.sessionMenu.more	More
+translation.sessionMenu.replaySession	Replay session
+translation.sessionMenu.sessionLinkCopied	Session link copied
+translation.sessionMenu.shareSessionTitle	Devin session
+translation.sessionMenu.botLinkCopied	{{botName}}'s link copied
+translation.sessionMenu.failedToCopySessionLink	Failed to copy session link
+translation.sessionMenu.failedToCopyBotLink	Failed to copy {{botName}}'s link
+translation.sessionMenu.copySshCommand	SSH command
+translation.sessionMenu.openIn	Open in
+translation.sessionMenu.copy	Copy
+translation.sessionMenu.sessionLink	Session link
+translation.sessionMenu.botLink	{{botName}}'s link
+translation.sessionMenu.devinDesktop	Devin Desktop
+translation.sessionMenu.devinDesktopInsiders	Devin Desktop Insiders
+translation.sessionMenu.webBrowser	Web browser
+translation.sessionMenu.sshCommandCopied	SSH command copied
+translation.sessionMenu.sshCommandCopyFailed	Failed to copy command
+translation.sessionMenu.acuUsage	ACU usage
+translation.sessionMenu.onDemandUsage	On-demand usage
+translation.sessionMenu.descendantAcuUsage	Descendant ACU usage
+translation.sessionMenu.descendantUsage	Descendant usage
+translation.sessionMenu.userMessages	User messages
+translation.sessionMenu.sessionSize	Session size
+translation.sessionMenu.platform	Platform
+translation.sessionMenu.outpost	Outpost
+translation.sessionMenu.rebooting	Rebooting…
+translation.sessionMenu.rebootFailed	Could not reboot Devin. Please try again.
+translation.sessionMenu.syncRequiresWriteAccess	You need write access to this session to change sync settings
+translation.sessionMenu.syncSessionUnavailable	Sync settings are unavailable until session details can be loaded
+translation.sessionMenu.cannotChangeVisibility	Cannot change visibility of sessions created from {{origin}}
+translation.sessionMenu.improveSkill	Improve skill from session
+translation.sessionMenu.createSkill	Create skill from session
+translation.sessionMenu.feedbackDescription	Tell us what is working well or what we can improve
+translation.sessionMenu.feedbackPlaceholder	Share your feedback
+translation.sessionMenu.feedbackRequired	Feedback required
+translation.sessionMenu.feedbackSensitiveInfoNote	Do not put sensitive information about your company in the feedback.
+translation.codeScanSelect.loadFailed	Failed to load scans
+translation.codeScanSelect.loading	Loading scans...
+translation.codeScanSelect.noScans	No scans found
+translation.codeScanSelect.searchScans	Search scans by repository...
+translation.sessionSelect.searchSessions	Search sessions by title or ID...
+translation.sessionSelect.loading	Loading sessions...
+translation.sessionSelect.loadFailed	Failed to load sessions.
+translation.sessionSelect.noneFound	No sessions found.
+translation.sessionSelect.justNow	just now
+translation.sessionSelect.minutesAgo	{{minutes}}m ago
+translation.sessionSelect.hoursAgo	{{hours}}h ago
+translation.sessionSelect.daysAgo	{{days}}d ago
+translation.botArtifacts.title	Artifacts
+translation.botArtifacts.defaultBotName	this {{botName}}
+translation.botArtifacts.categoryLabel	Artifact type
+translation.botArtifacts.sortBy	Sort
+translation.botArtifacts.loading	Loading artifacts…
+translation.botArtifacts.empty	No artifacts from {{botName}}'s tasks yet
+translation.botArtifacts.noneInCategory	No artifacts of this type
+translation.botArtifacts.loadFailed	Couldn't load artifacts
+translation.botArtifacts.truncated	Showing artifacts from the 100 most recent sessions
+translation.botArtifacts.category.recent	Recent
+translation.botArtifacts.category.images	Images
+translation.botArtifacts.category.documents	Documents
+translation.botArtifacts.category.reports	Reports
+translation.botArtifacts.category.recordings	Recordings
+translation.botArtifacts.category.data	Data
+translation.botArtifacts.sort.updated	Recently updated
+translation.botArtifacts.sort.nameAsc	Name A to Z
+translation.botArtifacts.sort.nameDesc	Name Z to A
+translation.botArtifacts.untitledSession	Untitled session
+translation.botArtifacts.openInTab	Open in tab
+translation.botArtifacts.kind.image	Image
+translation.botArtifacts.kind.document	Document
+translation.botArtifacts.kind.report	Report
+translation.botArtifacts.kind.recording	Recording
+translation.botArtifacts.kind.data	Data
+translation.botArtifacts.kind.file	File
+translation.pastConversations.search	Search
+translation.pastConversations.noneFound	No conversations found
+translation.pastConversations.archive	Archive conversation
+translation.pastConversations.unarchive	Unarchive conversation
+translation.pastConversations.rename	Rename conversation
+translation.sessionTabs.addTab	Add tab
+translation.sessionTabs.newTab	New tab
+translation.sessionTabs.newTabSearch	Search PRs, artifacts and tools
+translation.sessionTabs.moreRows	{{count}} more
+translation.sessionTabs.plans	Plans
+translation.sessionTabs.fewerRows	Show less
+translation.sessionTabs.viewMoreArtifacts	View more
+translation.sessionTabs.moreTabActions	More tab actions
+translation.sessionTabs.closeMergedPrTabs	Close merged PR tabs
+translation.sessionTabs.closeAllPrTabs	Close all PR tabs
+translation.sessionTabs.newTabSearchUrl	Search tabs or enter a URL
+translation.sessionTabs.agents	Agents
+translation.sessionTabs.agentsDescription	Manage this session's child sessions
+translation.sessionTabs.androidEmulator	Android Emulator
+translation.sessionTabs.androidEmulatorDescription	Stream, control, and inspect an Android Emulator
+translation.sessionTabs.artifacts	Artifacts
+translation.sessionTabs.watchChildComputer	Watch computer
+translation.sessionTabs.childComputerNoAccess	You don't have access to this session's computer
+translation.sessionTabs.childComputerNotRunning	This session's computer isn't running
+translation.sessionTabs.attachment	Attachment
+translation.sessionTabs.attachments	Attachments
+translation.sessionTabs.boards	Boards
+translation.sessionTabs.boardsDescription	Show a Devin Board in the session
+translation.sessionTabs.campaign	Campaign
+translation.sessionTabs.campaignDescription	Follow the campaign's setup and its live dashboard
+translation.sessionTabs.codemap	Codemap
+translation.sessionTabs.migrationPlan	Plan
+translation.sessionTabs.cloudSetupReview	Cloud setup
+translation.sessionTabs.cloudSetupReviewDescription	Choose what goes to Devin Cloud
+translation.sessionTabs.migrationPlanDescription	Show the migration plan in the session
+translation.sessionTabs.closeTab	Close tab
+translation.sessionTabs.desktop	Computer
+translation.sessionTabs.desktopDescription	Watch and control Devin's Computer
+translation.sessionTabs.diff	Changes
+translation.sessionTabs.diffDescription	See Devin's file edits
+translation.sessionTabs.editor	Editor
+translation.sessionTabs.editorDescription	Edit files with language intelligence
+translation.sessionTabs.eventContext	Event
+translation.sessionTabs.failedToChangeWorkspaceRoot	Failed to change the workspace folder
+translation.sessionTabs.failedToDeleteWorkspaceItem	Failed to delete file or folder
+translation.sessionTabs.failedToPasteWorkspaceItem	Failed to paste file or folder
+translation.sessionTabs.file	File
+translation.sessionTabs.files	Files
+translation.sessionTabs.filesDescription	Browse and edit files in this workspace
+translation.sessionTabs.ide	Files
+translation.sessionTabs.informationDescription	Understand Devin's history and actions
+translation.sessionTabs.artifactsDescription	Files from this {{botName}} and its sessions
+translation.sessionTabs.iosSimulator	iOS Simulator
+translation.sessionTabs.iosSimulatorDescription	Stream, control, and inspect an iOS Simulator
+translation.sessionTabs.linkCopied	Link copied
+translation.sessionTabs.mcpApp	App
+translation.sessionTabs.newSidechain	New side chat
+translation.sessionTabs.noPreviewsAvailable	No previews available in this session yet
+translation.sessionTabs.searchAttachments	Search attachments
+translation.sessionTabs.noAttachmentsFound	No attachments found
+translation.sessionTabs.noResults	No results
+translation.sessionTabs.plan	Plan
+translation.sessionTabs.pr	PR
+translation.sessionTabs.preview	Browser
+translation.sessionTabs.previewDescription	View a site Devin is running
+translation.sessionTabs.previews	Previews
+translation.sessionTabs.progress	Progress
+translation.sessionTabs.pullRequests	Pull requests
+translation.sessionTabs.showOpenPrs	Show open
+translation.sessionTabs.showAllPrs	Show all
+translation.sessionTabs.hideClosedPrs	Hide closed
+translation.sessionTabs.hideAllPrs	Hide all
+translation.sessionTabs.sessionPrs	Session PRs
+translation.sessionTabs.mentionedPrs	Mentioned PRs
+translation.sessionTabs.findings	Findings
+translation.sessionTabs.findingsDescription	Browse every finding across your scans
+translation.sessionTabs.bulkScan	Bulk scan
+translation.sessionTabs.bulkScanDescription	View every scan run in this bulk scan
+translation.sessionTabs.scanFindings	Findings
+translation.sessionTabs.scanFindingsDescription	View this scan's findings so far
+translation.sessionTabs.search	Search
+translation.sessionTabs.segmentation	Segmentation
+translation.sessionTabs.segmentationDescription	Phase breakdown of this session
+translation.sessionTabs.sessionTerminal	Terminal
+translation.sessionTabs.sessionTerminalDescription	Open a terminal that belongs to this session
+translation.sessionTabs.sessionTerminalAsleep	The terminal is available while Devin's machine is running.
+translation.sessionTabs.shell	Commands
+translation.sessionTabs.shellDescription	View Devin's command history
+translation.sessionTabs.showEditorHere	Show editor here
+translation.sessionTabs.sideChats	Side chats
+translation.sessionTabs.sidechain	Side chat
+translation.sessionTabs.snippetLoading	Waiting for Devin to share this file…
+translation.sessionTabs.snippetMissingNotFound	This file didn't exist when Devin cited it
+translation.sessionTabs.snippetMissingNotText	This file isn't a text file, so Devin couldn't capture it
+translation.sessionTabs.snippetMissingTooLarge	This file was too large to capture when Devin cited it
+translation.sessionTabs.uploadTooLarge	Files over {{limit}}GB were skipped
+translation.sessionTabs.snippetNotAvailable	Snippet not available
+translation.sessionTabs.splitDown	Split down
+translation.sessionTabs.splitRight	Split right
+translation.sessionTabs.todo	Tasks
+translation.sessionTabs.todoDescription	View Devin's latest task list
+translation.sessionTabs.unsavedChanges	Unsaved changes
+translation.sessionTabs.workflow	Workflow
+translation.sessionTabs.worklogDescription	Understand Devin's history and actions
+translation.sessionTabs.localBrowserDescription	Browse any site in a tab on your machine
+translation.sessionTabs.prSearchText	PR #{{number}} {{owner}}/{{repo}} {{title}}
+translation.sessionTabs.planNumbered	Plan {{number}}
+translation.sessionsList.activeSessions	Active sessions
+translation.sessionsList.addFilters	Add filters
+translation.sessionsList.clearFilters	Clear filters
+translation.sessionsList.codeScan	Code scans
+translation.sessionsList.collapseChildren	Collapse child sessions
+translation.sessionsList.contains	contains
+translation.sessionsList.containsAnyOf	contains any of
+translation.sessionsList.datePresets.lastMonth	Last month
+translation.sessionsList.datePresets.lastTwoWeeks	Last 2 weeks
+translation.sessionsList.datePresets.lastWeek	Last week
+translation.sessionsList.datePresets.today	Today
+translation.sessionsList.dateRange	Date range
+translation.sessionsList.devinMode	Devin mode
+translation.sessionsList.deselectAllSessions	Deselect all sessions
+translation.sessionsList.errorLoadingMore	Error loading more. Please refresh the page.
+translation.sessionsList.errorLoadingMoreChildren	Failed to load more sub-sessions. Please try again.
+translation.sessionsList.errorLoadingMoreRoots	Failed to load more sessions. Please try again.
+translation.sessionsList.expandChildren	Expand child sessions
+translation.sessionsList.failedToLoadSessions	Failed to load sessions
+translation.sessionsList.inactiveSessions	Inactive sessions
+translation.sessionsList.is	is
+translation.sessionsList.isAnyOf	is any of
+translation.sessionsList.migratedSpaceTitle	Migrated space
+translation.sessionsList.noSessionsFound	No sessions found
+translation.sessionsList.persona	Persona
+translation.sessionsList.prStates.closed	Closed
+translation.sessionsList.prStates.draft	Draft
+translation.sessionsList.prStates.merged	Merged
+translation.sessionsList.prStates.noPr	No PR
+translation.sessionsList.prStates.open	Open
+translation.sessionsList.prStates.queued	Queued
+translation.sessionsList.prStates.unknown	Unknown
+translation.sessionsList.removeFilter	Remove filter
+translation.sessionsList.searchDevinModes	Search Devin modes...
+translation.sessionsList.searchPersonas	Search personas...
+translation.sessionsList.searchSessions	Search sessions...
+translation.sessionsList.selectAllSessions	Select all sessions
+translation.sessionsList.selectSession	Select {{title}}
+translation.sessionsList.spacesMigration.title	Setting up your workspace
+translation.sessionsList.spacesMigration.description	Your Spaces are becoming parent sessions.
+translation.sessionsList.spacesMigration.progress_one	{{done}} of {{count}} Space
+translation.sessionsList.spacesMigration.progress_other	{{done}} of {{count}} Spaces
+translation.sessionsList.thisSessionIsArchived	This session is archived
+translation.sessionsList.thisSessionIsStopped	This session is stopped
+translation.sessionsList.viewSlackThread	View Slack thread
+translation.sessionsList.linkedToSlack	This session is linked to Slack
+translation.sessionsList.filterNames.type	Type
+translation.sessionsList.filterNames.creator	Creator
+translation.sessionsList.filterNames.organization	Organization
+translation.sessionsList.filterNames.playbook	Playbook
+translation.sessionsList.filterNames.skill	Skill
+translation.sessionsList.filterNames.automationName	Automation name
+translation.sessionsList.filterNames.content	Content
+translation.sessionsList.filterNames.title	Title
+translation.sessionsList.filterNames.archivedStatus	Archived Status
+translation.sessionsList.filterNames.stoppedStatus	Stopped status
+translation.sessionsList.filterNames.createdDate	Created date
+translation.sessionsList.filterNames.updatedDate	Updated date
+translation.sessionsList.filterOptions.notArchived	Not Archived
+translation.sessionsList.filterOptions.notStopped	Not stopped
+translation.sessionsList.filterOptions.dataAnalyst	Data analyst
+translation.sessionsList.filterOptions.advanced	Advanced
+translation.sessionsList.filterOptions.subDevin	Sub-Devin
+translation.sessionsList.filterOptions.playbookSkillSource	Playbooks
+translation.sessionsList.filterOptions.serviceUser	Service user
+translation.sessionsList.backgroundSessionToast.title	Session created
+translation.sessionsList.backgroundSessionToast.viewSession	View session
+translation.sessionsList.filterCounts.items_one	{{count}} item
+translation.sessionsList.filterCounts.items_other	{{count}} items
+translation.sessionsList.filterCounts.creators_one	{{count}} creator
+translation.sessionsList.filterCounts.creators_other	{{count}} creators
+translation.sessionsList.filterCounts.playbooks_one	{{count}} playbook
+translation.sessionsList.filterCounts.playbooks_other	{{count}} playbooks
+translation.sessionsList.filterCounts.statuses_one	{{count}} status
+translation.sessionsList.filterCounts.statuses_other	{{count}} statuses
+translation.sessionsList.filterCounts.types_one	{{count}} type
+translation.sessionsList.filterCounts.types_other	{{count}} types
+translation.sessionsList.filterCounts.platforms_one	{{count}} platform
+translation.sessionsList.filterCounts.platforms_other	{{count}} platforms
+translation.sessionsList.filterCounts.agents_one	{{count}} agent
+translation.sessionsList.filterCounts.agents_other	{{count}} agents
+translation.sessionsList.filterCounts.personas_one	{{count}} persona
+translation.sessionsList.filterCounts.personas_other	{{count}} personas
+translation.sessionsList.filterCounts.modes_one	{{count}} mode
+translation.sessionsList.filterCounts.modes_other	{{count}} modes
+translation.sessionsList.searchTypes	Search types...
+translation.sessionsList.searchPlatforms	Search platforms...
+translation.sessionsList.searchCreators	Search creators...
+translation.sessionsList.searchSubscribers	Search subscribers...
+translation.sessionsList.searchOrganizations	Search organizations...
+translation.sessionsList.searchPlaybooks	Search playbooks...
+translation.sessionsList.searchSkills	Search skills...
+translation.sessionsList.searchAutomations	Search automations...
+translation.sessionsList.searchStatuses	Search statuses...
+translation.sessionsList.searchPrStates	Search PR states...
+translation.sessionsList.searchArchivedStates	Search archived states...
+translation.sessionsList.searchStoppedStates	Search stopped states...
+translation.sessionsList.searchOrigins	Search origins...
+translation.sessionsList.searchSubcategories	Search subcategories...
+translation.sessionsList.maxCreatorsSelected	Up to {{count}} creators can be selected
+translation.sessionsList.maxSubscribersSelected	Up to {{count}} subscribers can be selected
+translation.sessionsList.selectionCount_one	{{count}} selection
+translation.sessionsList.selectionCount_other	{{count}} selections
+translation.sessionsList.unnamedSubcategory	Unnamed
+translation.sessionsList.otherSubcategory	Other ({{category}})
+translation.sessionsList.filterSearchFallback	Search {{name}}...
+translation.sessionsList.filterNoResults	No {{name}} found
+translation.sessionsList.clearAll	Clear All
+translation.sessionsList.selectAll	Select All
+translation.sessionsList.filterSessionsAria	Filter Devin sessions
+translation.sessionsList.saveAsDefault	Save as Default
+translation.sessionsList.loadingFilters	Loading…
+translation.rolePermissions.billingTags.group	Billing tag permissions
+translation.rolePermissions.billingTags.manage	Manage billing tags
+translation.rolePermissions.billingTags.manageDescription	All use permissions plus create, edit, and delete billing tags
+translation.rolePermissions.billingTags.use	Use billing tags
+translation.rolePermissions.billingTags.useDescription	All view permissions plus assign billing tags to sessions
+translation.rolePermissions.billingTags.view	View billing tags
+translation.rolePermissions.billingTags.viewDescription	View billing tags and their usage (read-only)
+translation.rolePermissions.orgSkills.manage	Manage skills
+translation.rolePermissions.orgSkills.manageDescription	Create/edit/delete organization skills, including notes migrated from knowledge
+translation.rolePermissions.environments.create	Create environments
+translation.rolePermissions.environments.createDescription	Create new environments in the enterprise
+translation.rolePermissions.folders.create	Create resource collections
+translation.rolePermissions.folders.createDescription	Create new resource collections in Unified mode
+translation.rolePermissions.playbooks.create	Create Unified mode playbooks
+translation.rolePermissions.playbooks.createDescription	Create playbooks in Unified mode resource collections
+translation.rolePermissions.secrets.create	Create Unified mode secrets
+translation.rolePermissions.secrets.createDescription	Create secrets in Unified mode
+translation.rolePermissions.automations.create	Create Unified mode automations
+translation.rolePermissions.automations.createDescription	Create automations in Unified mode
+translation.rolePermissions.groups.create	Create groups
+translation.rolePermissions.groups.createDescription	Create groups in the account
+translation.rolePermissions.managedWebhooks.group	Inbound webhook permissions
+translation.rolePermissions.managedWebhooks.manage	Manage inbound webhooks
+translation.rolePermissions.managedWebhooks.manageTriggerPolicies	Manage trigger policies
+translation.rolePermissions.managedWebhooks.manageTriggerPoliciesDescription	Define which automation trigger sources each organization may use and assign policies to organizations
+translation.rolePermissions.managedWebhooks.manageDescription	Create, edit, enable/disable and delete enterprise inbound webhooks and their shared secrets
+translation.rolePermissions.oncall.group	Oncall permissions
+translation.rolePermissions.oncall.manage	Manage Oncall
+translation.rolePermissions.oncall.manageDescription	All view permissions plus set up Oncall, stop, resume, and delete incidents, and create, edit, and delete responders, incident settings, and reports
+translation.rolePermissions.oncall.view	View Oncall
+translation.rolePermissions.oncall.viewDescription	View responders, incidents, reports, and Oncall settings (read-only)
+translation.rolePermissions.unified.group	Unified mode permissions
+translation.rolePermissions.options.createUnifiedModeSessions	Create Unified mode sessions
+translation.rolePermissions.options.createUnifiedModeSessionsDescription	Start sessions in Unified mode. Doesn't affect sessions created in an organization.
+translation.rolePermissions.options.viewOrganizations	View organizations
+translation.rolePermissions.options.viewOrganizationsDescription	View enterprise organizations (read-only)
+translation.rolePermissions.options.manageOrganizations	Manage organizations
+translation.rolePermissions.options.manageOrganizationsDescription	View/create/edit/delete enterprise organizations
+translation.rolePermissions.options.accessAllOrganizations	Access all organizations
+translation.rolePermissions.options.accessAllOrganizationsDescription	Access all organizations in the enterprise, even without direct membership. Some features may not work - for complete access, join organizations directly
+translation.rolePermissions.options.viewAccountMembership	View account membership
+translation.rolePermissions.options.viewAccountMembershipDescription	View enterprise + organization membership (read-only)
+translation.rolePermissions.options.manageAccountMembership	Manage account membership
+translation.rolePermissions.options.manageAccountMembershipDescription	View/create/edit/delete enterprise + organization membership for organizations that the user has access to
+translation.rolePermissions.options.viewAuditLogs	View audit logs
+translation.rolePermissions.options.viewAuditLogsDescription	View audit logs for the enterprise (read-only)
+translation.rolePermissions.options.manageEnterpriseSettings	Manage enterprise settings
+translation.rolePermissions.options.manageEnterpriseSettingsDescription	View/edit settings at the enterprise + organization levels
+translation.rolePermissions.options.manageIpWhitelist	Manage IP whitelist
+translation.rolePermissions.options.manageIpWhitelistDescription	View/edit IP access list at the enterprise level
+translation.rolePermissions.options.viewGitIntegrations	View Git integrations
+translation.rolePermissions.options.viewGitIntegrationsDescription	View Git integrations (read-only)
+translation.rolePermissions.options.manageGitIntegrations	Manage Git integrations
+translation.rolePermissions.options.manageGitIntegrationsDescription	Create/edit/delete Git integrations (GitHub, GitLab, ADO, Bitbucket)
+translation.rolePermissions.options.createGitIntegrations	Create Git integrations
+translation.rolePermissions.options.createGitIntegrationsDescription	Create new Git integrations
+translation.rolePermissions.options.viewRepositoryPermissions	View repository permissions
+translation.rolePermissions.options.viewRepositoryPermissionsDescription	View repository permissions (read-only). Implies view Git integrations.
+translation.rolePermissions.options.manageRepositoryPermissions	Manage repository permissions
+translation.rolePermissions.options.manageRepositoryPermissionsDescription	Create/edit/delete repository permissions for organizations. Implies view Git integrations.
+translation.rolePermissions.options.manageChatIntegrations	Manage chat integrations
+translation.rolePermissions.options.manageChatIntegrationsDescription	Create/edit/delete chat integrations like Microsoft Teams or Slack
+translation.rolePermissions.options.manageTicketIntegrations	Manage ticket integrations
+translation.rolePermissions.options.manageTicketIntegrationsDescription	Create/edit/delete ticketing integrations like Jira or Linear
+translation.rolePermissions.options.manageTicketProjectMappings	Manage ticket project mappings
+translation.rolePermissions.options.manageTicketProjectMappingsDescription	Map Jira projects and Linear teams to organizations. Pair with view organizations so every organization can be a target. Implied by manage ticket integrations.
+translation.rolePermissions.options.useAccountTools	Use account tools
+translation.rolePermissions.options.useAccountToolsDescription	Use Devin sessions, Ask Devin, and DeepWiki across organizations they belong to
+translation.rolePermissions.options.manageAccountResources	Manage account resources
+translation.rolePermissions.options.manageAccountResourcesDescription	Create/edit/delete playbooks, secrets, knowledge, and automations across organizations they belong to
+translation.rolePermissions.options.manageEnterprisePlaybooks	Manage enterprise playbooks
+translation.rolePermissions.options.manageEnterprisePlaybooksDescription	Create/edit/delete enterprise playbooks
+translation.rolePermissions.options.manageEnterpriseKnowledge	Manage enterprise knowledge
+translation.rolePermissions.options.manageEnterpriseKnowledgeDescription	Create/edit/delete enterprise knowledge
+translation.rolePermissions.options.manageEnterpriseBlueprints	Manage enterprise blueprints
+translation.rolePermissions.options.manageEnterpriseBlueprintsDescription	Create/edit/delete blueprints and snapshots across the enterprise
+translation.rolePermissions.options.indexAccountRepositories	Index account repositories
+translation.rolePermissions.options.indexAccountRepositoriesDescription	Index repositories for search and wiki generation across organizations they belong to
+translation.rolePermissions.options.viewEnterpriseInfraDetails	View enterprise infra details
+translation.rolePermissions.options.viewEnterpriseInfraDetailsDescription	View enterprise infra details
+translation.rolePermissions.options.manageAccountApiKeys	Manage account API keys
+translation.rolePermissions.options.manageAccountApiKeysDescription	Create/edit/delete/use API keys in the enterprise and organizations they belong to
+translation.rolePermissions.options.manageAccountServiceUsers	Manage account service users
+translation.rolePermissions.options.manageAccountServiceUsersDescription	Manage API keys for service users at the enterprise level
+translation.rolePermissions.options.manageAccountBots	Manage {{botNamePlural}} across the enterprise
+translation.rolePermissions.options.manageAccountBotsDescription	Share, archive and delete any {{botName}} in every organization, without access to its conversations
+translation.rolePermissions.options.manageAccountMcpServers	Manage account MCP servers
+translation.rolePermissions.options.manageAccountMcpServersDescription	Create/edit/delete MCP servers across organizations they belong to
+translation.rolePermissions.options.manageEnterprisePlugins	Manage enterprise plugins
+translation.rolePermissions.options.manageEnterprisePluginsDescription	Install/edit/remove enterprise plugins and skills
+translation.rolePermissions.options.viewAccountSessions	View account sessions
+translation.rolePermissions.options.viewAccountSessionsDescription	View Devin sessions from other users in the enterprise
+translation.rolePermissions.options.manageAccountSessions	Manage account sessions
+translation.rolePermissions.options.manageAccountSessionsDescription	Edit and view Devin sessions from other users in the enterprise
+translation.rolePermissions.options.impersonateAccountSessions	Impersonate account sessions
+translation.rolePermissions.options.impersonateAccountSessionsDescription	Create Devin sessions on behalf of other users in the enterprise. This role applies to Service Users only.
+translation.rolePermissions.options.viewAccountMetrics	View account metrics
+translation.rolePermissions.options.viewAccountMetricsDescription	View enterprise metrics
+translation.rolePermissions.options.viewUniversityLearning	View university learning
+translation.rolePermissions.options.viewUniversityLearningDescription	View Devin University learning progress for the enterprise (read-only)
+translation.rolePermissions.options.viewAccountConsumption	View account consumption
+translation.rolePermissions.options.viewAccountConsumptionDescription	View consumption for the enterprise (read-only)
+translation.rolePermissions.options.useLocalAnalyticsApi	Use local analytics API
+translation.rolePermissions.options.useLocalAnalyticsApiDescription	Access local (Devin Desktop / CLI) analytics for the enterprise via the API
+translation.rolePermissions.options.manageBilling	Manage billing
+translation.rolePermissions.options.manageBillingDescription	Edit consumption limits for the enterprise
+translation.rolePermissions.options.manageAcuLimits	Manage ACU limits
+translation.rolePermissions.options.manageAcuLimitsDescription	Manage ACU limit tiers and policies and approve limit-increase requests
+translation.rolePermissions.options.windsurfDevinCliAdmin	Windsurf + Devin CLI Admin
+translation.rolePermissions.options.windsurfDevinCliAdminDescription	Allow user to modify organization settings for Windsurf + Devin CLI usage
+translation.rolePermissions.options.useDevinDesktop	Use Devin Desktop
+translation.rolePermissions.options.useDevinDesktopDescription	Allow user to use Devin Desktop
+translation.rolePermissions.options.useDevinCli	Use Devin CLI
+translation.rolePermissions.options.useDevinCliDescription	Allow user to use Devin CLI
+translation.rolePermissions.options.manageDevinReview	Manage Devin Review
+translation.rolePermissions.options.manageDevinReviewDescription	Allow user to modify Devin Review settings for the enterprise
+translation.rolePermissions.options.useDevinReview	Use Devin Review
+translation.rolePermissions.options.useDevinReviewDescription	Run analysis manually or automatically, including on every push
+translation.rolePermissions.options.useDevinReviewOnPrCreation	Use Devin Review (on PR creation)
+translation.rolePermissions.options.useDevinReviewOnPrCreationDescription	Run analysis manually or automatically when a PR is created
+translation.rolePermissions.options.viewDevinReview	View Devin Review
+translation.rolePermissions.options.viewDevinReviewDescription	Allow user to view review results and findings without triggering reviews
+translation.rolePermissions.options.useDevinReviewManual	Use Devin Review (manual)
+translation.rolePermissions.options.useDevinReviewManualDescription	View analysis results and run analysis on any PR on demand
+translation.rolePermissions.options.viewReviews	View reviews
+translation.rolePermissions.options.viewReviewsDescription	Grant read-only review access in this organization; account-level access is inherited
+translation.rolePermissions.options.manualReviews	Manual analysis
+translation.rolePermissions.options.manualReviewsDescription	Run analysis on demand in this organization. Account-level access is inherited.
+translation.rolePermissions.options.manualAndReviewOnPrCreation	Manual and review on PR creation
+translation.rolePermissions.options.manualAndReviewOnPrCreationDescription	Grant review on PR creation in this organization; account-level access is inherited
+translation.rolePermissions.options.allReviewModes	All analysis modes
+translation.rolePermissions.options.allReviewModesDescription	Use all analysis modes in this organization. Account-level access is inherited.
+translation.rolePermissions.options.manageReviewRules	Manage analysis rules
+translation.rolePermissions.options.manageReviewRulesDescription	Use all analysis modes and edit automatic analysis rules and exclusions for this organization's repositories
+translation.rolePermissions.options.useDeepwiki	Use DeepWiki
+translation.rolePermissions.options.useDeepwikiDescription	–
+translation.rolePermissions.options.useAskDevin	Use Ask Devin
+translation.rolePermissions.options.useAskDevinDescription	–
+translation.rolePermissions.options.useDevinSessions	Use Devin sessions
+translation.rolePermissions.options.useDevinSessionsDescription	–
+translation.rolePermissions.options.useDevinExpertFeatures	Use Devin expert features
+translation.rolePermissions.options.useDevinExpertFeaturesDescription	Access Devin expert features for MCP-extended sessions
+translation.rolePermissions.options.viewMembership	View membership
+translation.rolePermissions.options.viewMembershipDescription	View organization membership (read-only)
+translation.rolePermissions.options.manageMembership	Manage membership
+translation.rolePermissions.options.manageMembershipDescription	Add/remove users and groups. Assign or unassign permission roles
+translation.rolePermissions.options.createUserGroups	Create user groups
+translation.rolePermissions.options.createUserGroupsDescription	Create user groups and manage the ones you create
+translation.rolePermissions.options.manageSettings	Manage settings
+translation.rolePermissions.options.manageSettingsDescription	Manage settings at the organization level
+translation.rolePermissions.options.managePlaybooks	Manage playbooks
+translation.rolePermissions.options.managePlaybooksDescription	Create/edit/delete organization playbooks
+translation.rolePermissions.options.manageSecrets	Manage secrets
+translation.rolePermissions.options.manageSecretsDescription	Create/edit/delete organization secrets
+translation.rolePermissions.options.manageKnowledge	Manage knowledge
+translation.rolePermissions.options.manageKnowledgeDescription	Create/edit/delete organization knowledge
+translation.rolePermissions.options.manageSchedules	Manage schedules
+translation.rolePermissions.options.manageSchedulesDescription	Create/edit/delete scheduled sessions
+translation.rolePermissions.options.viewAutomations	View automations
+translation.rolePermissions.options.viewAutomationsDescription	View automations and their invocation history (read-only)
+translation.rolePermissions.options.manageAutomations	Manage automations
+translation.rolePermissions.options.manageAutomationsDescription	Create/edit/delete automations, view their invocations, and view/message the sessions they create
+translation.rolePermissions.options.manageOrgBlueprints	Manage org blueprints
+translation.rolePermissions.options.manageOrgBlueprintsDescription	Create/edit/delete org blueprints and snapshots
+translation.rolePermissions.options.manageRepoBlueprints	Manage repo blueprints
+translation.rolePermissions.options.manageRepoBlueprintsDescription	Create/edit/delete repository blueprints
+translation.rolePermissions.options.indexRepositories	Index repositories
+translation.rolePermissions.options.indexRepositoriesDescription	Index repositories for search and wiki generation
+translation.rolePermissions.options.manageApiKeys	Manage API keys
+translation.rolePermissions.options.manageApiKeysDescription	Create/delete/use API keys
+translation.rolePermissions.options.manageServiceUsers	Manage service users
+translation.rolePermissions.options.manageServiceUsersDescription	Create/delete service users
+translation.rolePermissions.options.manageBots	Manage {{botNamePlural}}
+translation.rolePermissions.options.manageBotsDescription	Share, archive and delete any {{botName}} in the organization, without access to its conversations
+translation.rolePermissions.options.useBots	Use {{botNamePlural}}
+translation.rolePermissions.options.useBotsDescription	Create {{botNamePlural}} and use the ones shared with you
+translation.rolePermissions.options.manageMcpServers	Manage MCP servers
+translation.rolePermissions.options.manageMcpServersDescription	Create/edit/delete MCP servers
+translation.rolePermissions.options.managePlugins	Manage plugins
+translation.rolePermissions.options.managePluginsDescription	Install/edit/remove organization plugins and skills
+translation.rolePermissions.options.viewSessions	View sessions
+translation.rolePermissions.options.viewSessionsDescription	View Devin sessions from other users in the organization.
+translation.rolePermissions.options.manageSessions	Manage sessions
+translation.rolePermissions.options.manageSessionsDescription	Edit and view Devin sessions from other users in the organization.
+translation.rolePermissions.options.impersonateSessions	Impersonate sessions
+translation.rolePermissions.options.impersonateSessionsDescription	Create Devin sessions on behalf of other users in the organization. This role applies to Service Users only.
+translation.rolePermissions.options.viewMetrics	View metrics
+translation.rolePermissions.options.viewMetricsDescription	View organization metrics
+translation.rolePermissions.options.viewConsumption	View consumption
+translation.rolePermissions.options.viewConsumptionDescription	View organization consumption

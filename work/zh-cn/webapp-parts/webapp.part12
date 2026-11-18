@@ -1,0 +1,500 @@
+translation.billing.invoices.clippedNotice_one	Clipping to {{count}} most recent invoice in your date range. For older invoices, choose a narrower range.
+translation.billing.invoices.clippedNotice_other	Clipping to {{count}} most recent invoices in your date range. For older invoices, choose a narrower range.
+translation.billing.invoices.filterByDate	Filter by date
+translation.billing.invoices.from	From
+translation.billing.invoices.to	To
+translation.billing.invoices.clear	Clear
+translation.billing.invoices.noInvoicesFound	No invoices found
+translation.billing.invoices.date	Date
+translation.billing.invoices.status	Status
+translation.billing.invoices.amount	Amount
+translation.billing.invoices.viewInvoice	View invoice
+translation.billing.invoices.payInvoice	Pay invoice
+translation.billing.invoices.paymentDeclinedKeep	Your last payment did not go through. To keep your subscription, you need to update your payment details.
+translation.billing.invoices.paymentDeclinedRenew	Your last payment did not go through. To renew your subscription, you need to update your payment details.
+translation.billing.planNames.trial	Trial
+translation.billing.planNames.free	Free
+translation.billing.planNames.pro	Pro
+translation.billing.planNames.max	Max
+translation.billing.planNames.team	Team
+translation.billing.planNames.teams	Teams
+translation.billing.planNames.enterprise	Enterprise
+translation.billing.prScoreboard.merged	Merged
+translation.billing.prScoreboard.open	Open
+translation.billing.prScoreboard.closed	Closed
+translation.billing.planColumn.updatingPlan	Updating plan...
+translation.billing.planColumn.switchToFreeAtCycleEnd	Your plan will switch to Free at the end of your current billing cycle.
+translation.billing.planColumn.scheduled	Scheduled
+translation.billing.planColumn.contactSales	Contact sales
+translation.billing.planColumn.switchToPlanAtCycleEnd	Your plan will switch to {{plan}} at the end of your current billing cycle.
+translation.billing.planColumn.switchPlan	Switch plan
+translation.billing.planColumn.individualPlansOnly	Pro and Max plans are meant for individuals, and are not available to organizations with multiple members. Your organization currently has {{memberCount}} members.
+translation.billing.planColumn.promoLoadError	We couldn't load your offer, so checkout is paused to avoid charging you full price. Please retry.
+translation.billing.planColumn.individualPlans	Individual plans
+translation.billing.planColumn.businessPlans	Business plans
+translation.billing.planManagement.retrieveError	There was a problem retrieving your subscription.
+translation.billing.planManagement.notAuthorized	You are not authorized to manage billing. <lnk>Ask an admin for help.</lnk>
+translation.billing.planManagement.description	Manage your subscription plan
+translation.billing.planManagement.updated	Your subscription has been updated
+translation.billing.planManagement.updateError	There was a problem updating your subscription. Please reload the page and try again.
+translation.billing.planManagement.legacyPlanBody	You are currently on a legacy plan. Please <lnk>contact support</lnk> to upgrade to a new plan.
+translation.billing.planManagement.legacyPlan	Legacy plan
+translation.billing.planManagement.manageSubscription	Manage subscription
+translation.billing.sessionLimit.acuUpdated	Total session ACU limit updated
+translation.billing.sessionLimit.usageUpdated	Session usage limit updated
+translation.billing.sessionLimit.acuWhole	Total session ACU limit must be a whole number
+translation.billing.sessionLimit.usageWhole	Session usage limit must be a whole number
+translation.billing.sessionLimit.acuTooLarge	Total session ACU limit is too large
+translation.billing.sessionLimit.usageTooLarge	Session usage limit is too large
+translation.billing.sessionLimit.acuMin	Total session ACU limit must be at least 5
+translation.billing.sessionLimit.usageMin	Session usage limit must be at least 5
+translation.billing.sessionLimit.usageLabel	Session usage limit
+translation.billing.sessionLimit.tooltip	Requires manual override when reached. Changes apply to new sessions only, not sessions already running
+translation.billing.sessionLimit.usageDescription	Maximum on-demand usage that Devin can use per session
+translation.billing.sessionLimit.acuRetrieveError	There was a problem retrieving the total session ACU limit. Please try again in a moment.
+translation.billing.sessionLimit.usageRetrieveError	There was a problem retrieving the session usage limit. Please try again in a moment.
+translation.billing.sessionLimit.acuUpdateError	There was a problem updating the total session ACU limit. Please try again in a moment.
+translation.billing.sessionLimit.usageUpdateError	There was a problem updating the session usage limit. Please try again in a moment.
+translation.billing.lowUsageToast.lowAcuTitle	You are running low on ACUs!
+translation.billing.lowUsageToast.lowAcuDescription_one	Your organization has {{formattedCount}} ACU left. Devin will go to sleep once your ACUs run out.
+translation.billing.lowUsageToast.lowAcuDescription_other	Your organization has {{formattedCount}} ACUs left. Devin will go to sleep once your ACUs run out.
+translation.billing.lowUsageToast.sessionLimitTitle	You're close to your session spending limit!
+translation.billing.lowUsageToast.sessionLimitDescription	Devin will go to sleep unless you increase your session spending limit.
+translation.billing.lowUsageToast.manageSessionLimit	Manage session limit
+translation.billing.lowUsageToast.dailyQuotaUsed	daily quota is {{percent}}% used
+translation.billing.lowUsageToast.weeklyQuotaUsed	weekly quota is {{percent}}% used
+translation.billing.lowUsageToast.dailyResetsIn	daily resets in {{hours}}h
+translation.billing.lowUsageToast.weeklyResetsIn	weekly resets in {{days}}d
+translation.billing.lowUsageToast.quotaTitle	You're running low on your usage quota!
+translation.billing.lowUsageToast.upgradePlan	Upgrade plan
+translation.billing.lowUsageToast.quotaDescription	Your {{parts, list}}.
+translation.billing.lowUsageToast.quotaDescriptionWithReset	Your {{parts, list}} ({{resets, list}}).
+translation.billing.hardCap.or	Or
+translation.billing.hardCap.continueNew	Continue in new session
+translation.billing.hardCap.continueNewBody	Session limit reached. Devin performs best with focused, scoped tasks. Pick up where you left off in a new session — it'll automatically reference this one.<lineBreak /><lineBreak />In the future, break your work into smaller pieces for <lnk>better efficiency<icon /></lnk>.
+translation.billing.hardCap.creatingSession	Creating session…
+translation.billing.hardCap.createFailed	Failed to create session. Please try again.
+translation.billing.hardCap.resumeFailed	Failed to resume session
+translation.billing.hardCap.continueCurrent	Continue current session
+translation.billing.hardCap.acknowledging	Acknowledging…
+translation.billing.hardCap.extendAndContinue	Extend limit and continue
+translation.billing.hardCap.acknowledgeFailed	Failed to acknowledge. Please try again.
+translation.billing.hardCap.extendAcu	Extend this session's ACU limit by 20% so it can continue working. Your organization's admins will be notified.
+translation.billing.hardCap.extendUsage	Extend this session's usage limit by 20% so it can continue working. Your organization's admins will be notified.
+translation.billing.spendingLimits.set	Spending limits set
+translation.billing.spendingLimits.removed	Spending limit removed
+translation.billing.spendingLimits.titleUsage	Set usage limits for this session
+translation.billing.spendingLimits.titleOnDemand	Set on-demand usage limits for this session
+translation.billing.spendingLimits.loadError	There was an error retrieving the session spending limits. Please try again later.
+translation.billing.spendingLimits.notNegative	Value cannot be negative
+translation.billing.spendingLimits.mustInteger	Value must be an integer
+translation.billing.spendingLimits.tooLarge	Value cannot be greater than 10000
+translation.billing.spendingLimits.belowUsage	Value cannot be less than usage since last interaction
+translation.billing.spendingLimits.updateError	There was a problem updating the session. Please try again later.
+translation.billing.spendingLimits.acuLimitLabel	ACU limit since last message
+translation.billing.spendingLimits.onDemandLimitLabel	On-demand limit since last message
+translation.billing.spendingLimits.acuLimitHelp	Set the max number of ACUs Devin can use since your last message
+translation.billing.spendingLimits.onDemandLimitHelp	Set the max on-demand amount Devin can use since your last message
+translation.billing.spendingLimits.acuSinceLast	ACU usage since last message
+translation.billing.spendingLimits.onDemandSinceLast	On-demand usage since last message
+translation.billing.spendingLimits.acuSleepHint	Devin will go to sleep when this number hits your ACU limit
+translation.billing.spendingLimits.onDemandSleepHint	Devin will go to sleep when on-demand usage hits your limit
+translation.billing.spendingLimits.acuTotal	Total ACU usage in session
+translation.billing.spendingLimits.onDemandTotal	Total on-demand usage in session
+translation.billing.spendingLimits.adminOnlyAcu	Only admins can save ACU limits globally
+translation.billing.spendingLimits.adminOnlyOnDemand	Only admins can save on-demand limits globally
+translation.billing.spendingLimits.removeLimit	Remove limit
+translation.billing.spendingLimits.sleepDescription	Devin sleeps when it reaches the limit. You can wake it anytime
+translation.billing.spendingLimits.useForFutureSessions	Use for future sessions
+translation.billing.spendingLimits.saveLimitIn	Save this limit in <lnk>Devin settings</lnk>
+translation.billing.codeScansTable.repository	Repository
+translation.billing.codeScansTable.organization	Organization
+translation.billing.codeScansTable.scanCountTitle	Number of scans
+translation.billing.codeScansTable.scans	Scans
+translation.billing.codeScansTable.acusCurrentTitle	ACUs consumed this cycle
+translation.billing.codeScansTable.acusCurrentCycle	ACUs this cycle ({{label}})
+translation.billing.codeScansTable.percentOfTotalTitle	This row's ACUs divided by the total ACUs consumed this billing cycle in this view's scope
+translation.billing.codeScansTable.percentOfTotal	% of total
+translation.billing.codeScansTable.acusPreviousTitle	ACUs consumed last cycle
+translation.billing.codeScansTable.acusPreviousCycle	ACUs last cycle ({{label}})
+translation.billing.codeScansTable.percentChangeTitle	Change in ACUs consumed vs the full last cycle
+translation.billing.codeScansTable.percentChange	% change
+translation.billing.codeScansTable.sessionsThisCycle	Sessions this cycle
+translation.billing.codeScansTable.sessionsLastCycle	Sessions last cycle
+translation.billing.codeScansTable.lastScanTitle	Last scan created
+translation.billing.codeScansTable.lastScan	Last scan
+translation.billing.codeScansTable.loadFailed	Failed to load code scan data. Please try again.
+translation.billing.codeScansTable.noData	No data available
+translation.billing.organizationsTable.nameTitle	Organization name
+translation.billing.organizationsTable.name	Name
+translation.billing.organizationsTable.unitCurrentTitle	{{unit}} consumed in current period
+translation.billing.organizationsTable.unitCycle	{{unit}} ({{label}})
+translation.billing.organizationsTable.percentOfTotalTitle	This organization's {{unit}} divided by the combined {{unit}} consumed by all organizations this billing cycle
+translation.billing.organizationsTable.percentOfTotal	% of total
+translation.billing.organizationsTable.unitThisMonthTitle	{{unit}} consumed this month
+translation.billing.organizationsTable.unitThisMonth	{{unit}} this month
+translation.billing.organizationsTable.unitPreviousTitle	{{unit}} consumed in previous period
+translation.billing.organizationsTable.percentChangeTitle	Change in {{unit}} consumed vs the full last cycle
+translation.billing.organizationsTable.percentChange	% change
+translation.billing.organizationsTable.percentChangeLong	% Change
+translation.billing.organizationsTable.percentChangeLongTitle	Change from previous to current period
+translation.billing.organizationsTable.usage	Usage
+translation.billing.organizationsTable.usageMonthlyTooltip	Percentage of the monthly ACU limit consumed in the current monthly window
+translation.billing.organizationsTable.usageCycleTooltip	Percentage of the monthly ACU limit consumed this billing cycle
+translation.billing.organizationsTable.noData	No data available
+translation.billing.organizationsTable.deletedOn	Deleted on {{date}}
+translation.billing.organizationsTable.deleted	Deleted
+translation.billing.usersTable.emailTitle	User email
+translation.billing.usersTable.email	Email
+translation.billing.usersTable.serviceUserNameTitle	Service user name
+translation.billing.usersTable.userNameTitle	User name
+translation.billing.usersTable.name	Name
+translation.billing.usersTable.unitCurrentTitle	{{unit}} consumed in current period
+translation.billing.usersTable.unitCycle	{{unit}} ({{label}})
+translation.billing.usersTable.percentOfTotalTitle	This row's {{unit}} divided by the total {{unit}} consumed this billing cycle in this view's scope
+translation.billing.usersTable.percentOfTotal	% of total
+translation.billing.usersTable.unitPreviousTitle	{{unit}} consumed in previous period
+translation.billing.usersTable.percentChangeTitle	Change in {{unit}} consumed vs the full last cycle
+translation.billing.usersTable.percentChange	% change
+translation.billing.usersTable.percentChangeLong	% Change
+translation.billing.usersTable.percentChangeLongTitle	Change from previous to current period
+translation.billing.usersTable.noData	No data available
+translation.billing.usersTable.viewSessions	View sessions
+translation.billing.unknownDate	Unknown date
+translation.billing.costBreakdown.description	Share of this organization's model and cloud compute cost over the last {{days}} days.
+translation.billing.costBreakdown.skills	Skills
+translation.billing.costBreakdown.skillsInfo	Skills aren't always in context. Until a skill is used, a session carries at most its name and description, so you pay for its full instructions only in sessions that use it.\
+If this share looks high, check Customizations for your most-used skills, then shorten long ones or make their descriptions more specific so they load only when needed.
+translation.billing.costBreakdown.skillsInfoLabel	About the cost of skills
+translation.billing.costBreakdown.skillsInfoLink	Manage skills
+translation.billing.costBreakdown.rules	Rules
+translation.billing.costBreakdown.rulesInfo	Always-on rules load in every session they apply to, such as a repo's root AGENTS.md in sessions using that repo, so you pay for them even when the task doesn't need them. Nested AGENTS.md files and rules with path patterns load only when a session touches a matching path.\
+If this share looks high, shorten your always-on rules and move guidance for one part of a repo into a nested AGENTS.md or a rule with a path pattern, so it loads only when needed.
+translation.billing.costBreakdown.rulesInfoLabel	About the cost of rules
+translation.billing.costBreakdown.rulesInfoLink	Manage rules
+translation.billing.costBreakdown.connectedMcps	Connected MCPs
+translation.billing.costBreakdown.connectedMcpsInfo	Connected MCPs are servers you chose to add, not Devin's built-in tools. You pay to list them in a session's context, and each time Devin calls one of their tools and reads the result.\
+If this share looks high, remove servers your team doesn't use.
+translation.billing.costBreakdown.connectedMcpsInfoLabel	About the cost of connected MCPs
+translation.billing.costBreakdown.connectedMcpsInfoLink	Manage MCPs
+translation.billing.costBreakdown.ciChecks	CI checks
+translation.billing.costBreakdown.ciChecksInfo	What you pay for Devin to check CI status and read CI logs after a session opens its first pull request, including cloud compute while those checks run.\
+If this share looks high, speed up slow CI and fix flaky checks so Devin spends less time waiting on them.
+translation.billing.costBreakdown.ciChecksInfoLabel	About the cost of CI checks
+translation.billing.costBreakdown.ciChecksInfoLink	Manage CI follow-up
+translation.billing.costBreakdown.noData	No cost data for this period.
+translation.billing.costBreakdown.loadError	Couldn't load the cost breakdown.
+translation.billing.costBreakdown.vmLlmTitle	Cloud compute and model cost
+translation.billing.costBreakdown.vmLlmDescription	Share of this organization's cost over the last {{days}} days.
+translation.billing.costBreakdown.vmLlmInfo	The cost of cloud compute depends on the machine your sessions run on and how long they run.\
+If the cloud compute share looks high, speed up slow builds and tests so sessions finish sooner, and choose a smaller machine when you don't need the capacity.
+translation.billing.costBreakdown.vmLlmInfoLabel	About cloud compute and model cost
+translation.billing.costBreakdown.vmLlmInfoLink	Manage machines
+translation.billing.costBreakdown.vm	Cloud compute
+translation.billing.costBreakdown.llm	Model
+translation.billing.chatgptCta.title	Keep going with your ChatGPT plan
+translation.billing.chatgptCta.description	Connect a personal ChatGPT Go, Plus or Pro plan and Devin keeps working on your ChatGPT usage instead of Devin credits.
+translation.billing.chatgptCta.enableDescription	Your ChatGPT account is linked. Use its plan and Devin keeps working on your ChatGPT usage instead of Devin credits.
+translation.billing.chatgptCta.reconnectDescription	Your ChatGPT connection expired. Reconnect it and Devin keeps working on your ChatGPT usage instead of Devin credits.
+translation.billing.chatgptCta.connect	Connect ChatGPT
+translation.billing.chatgptCta.enable	Use ChatGPT plan
+translation.billing.chatgptCta.reconnect	Reconnect ChatGPT
+translation.billing.chatgptPlanCta.title	Use your ChatGPT plan in Devin
+translation.billing.chatgptPlanCta.connect	Connect ChatGPT
+translation.billing.chatgptPlanCta.purchaseUsageDescription	Run supported models on your personal ChatGPT Go, Plus or Pro plan before paying for more usage.
+translation.billing.chatgptPlanCta.requestUsageDescription	While you wait, run supported models on your personal ChatGPT Go, Plus or Pro plan.
+translation.billing.chatgptPlanCta.plansDescription	Already pay for ChatGPT? Run supported models on your personal Go, Plus or Pro plan instead of your Devin usage.
+translation.billingTagsReview.myInbox	My inbox
+translation.billingTagsReview.acuProgress.summary	{{tagged}} of {{total}} ACUs tagged ({{percent}}%)
+translation.billingTagsReview.acuProgress.taggedOfTotal	<tagged>{{tagged}}</tagged> of {{total}} ACUs tagged
+translation.billingTagsReview.acuProgress.tooltip	Share of your ACUs in this period on sessions that have a billing tag
+translation.billingTagsReview.acuProgress.tooltipPartial	Approximate: computed over your most recent sessions only because this period exceeds the analytics cap
+translation.billingTagsReview.allSessions	All sessions
+translation.billingTagsReview.uncategorized	Uncategorized
+translation.billingTagsReview.miscellaneous	Miscellaneous
+translation.billingTagsReview.tag	Tag
+translation.billingTagsReview.inboxCount_one	{{count}} session needs a billing tag decision
+translation.billingTagsReview.inboxCount_other	{{count}} sessions need a billing tag decision
+translation.billingTagsReview.nothingToReview	Nothing to review
+translation.billingTagsReview.toast.tagged	Tagged as {{tag}}
+translation.billingTagsReview.toast.dismissed	Suggestion dismissed
+translation.billingTagsReview.toast.undoSuperseded	Undo skipped — this session was tagged again since
+translation.billingTagsReview.approveSuggestions.label_one	Approve {{count}} suggestion
+translation.billingTagsReview.approveSuggestions.label_other	Approve {{count}} suggestions
+translation.billingTagsReview.classifierConfidence	Classifier confidence: {{confidence}}
+translation.billingTagsReview.title	Review sessions
+translation.billingTagsReview.subtitle	Tag existing sessions with billing tags
+translation.billingTagsReview.columns.suggestion	Suggestion
+translation.billingTagsReview.columns.billingTag	Billing tag
+translation.billingTagsUi.acuSpent	ACU spent
+translation.billingTagsUi.acus	ACUs
+translation.billingTagsUi.acusPerMergedPr	ACUs per merged PR
+translation.billingTagsUi.acusValue	{{value}} ACUs
+translation.billingTagsUi.acceptSuggestion	Accept suggestion
+translation.billingTagsUi.actions	Actions
+translation.billingTagsUi.activityOverTime	Activity over time
+translation.billingTagsUi.age	Age
+translation.billingTagsUi.allBillingTags	All billing tags
+translation.billingTagsUi.assignBillingTag	Assign billing tag
+translation.billingTagsUi.author	Author
+translation.billingTagsUi.backToBillingTags	Back to billing tags
+translation.billingTagsUi.billingTagCreated	Billing tag created
+translation.billingTagsUi.billingTagDeleted	Billing tag deleted
+translation.billingTagsUi.billingTagNoLongerExists	This billing tag no longer exists.
+translation.billingTagsUi.billingTagNotFound	Billing tag not found
+translation.billingTagsUi.billingTagUpdated	Billing tag updated
+translation.billingTagsUi.bulkAlreadyResolvedSessions	Selected sessions were already resolved
+translation.billingTagsUi.bulkAlreadyResolvedSuggestions	Selected suggestions were already resolved
+translation.billingTagsUi.bulkFailedSessions_one	Failed to update {{count}} session
+translation.billingTagsUi.bulkFailedSessions_other	Failed to update {{count}} sessions
+translation.billingTagsUi.bulkFailedSuggestions_one	Failed to update {{count}} suggestion
+translation.billingTagsUi.bulkFailedSuggestions_other	Failed to update {{count}} suggestions
+translation.billingTagsUi.cancel	Cancel
+translation.billingTagsUi.clear	Clear
+translation.billingTagsUi.clearSelection	Clear selection
+translation.billingTagsUi.collapse	Collapse
+translation.billingTagsUi.createAnotherTag	Create another tag
+translation.billingTagsUi.createBillingTag	Create billing tag
+translation.billingTagsUi.createBillingTagNamed	Create "{{name}}"
+translation.billingTagsUi.createTag	Create tag
+translation.billingTagsUi.delete	Delete
+translation.billingTagsUi.deleteBillingTagDescription	Sessions already tagged with "{{name}}" will become untagged and uncategorized.
+translation.billingTagsUi.deleteBillingTagTitle	Delete billing tag "{{name}}"?
+translation.billingTagsUi.description	Description
+translation.billingTagsUi.descriptionPlaceholder	A 3-5 sentence description of your project
+translation.billingTagsUi.dismissSuggestion	Dismiss suggestion
+translation.billingTagsUi.edit	Edit
+translation.billingTagsUi.editBillingTag	Edit billing tag
+translation.billingTagsUi.everyone	Everyone
+translation.billingTagsUi.expand	Expand
+translation.billingTagsUi.failedToCreateBillingTag	Failed to create billing tag
+translation.billingTagsUi.failedToDeleteBillingTag	Failed to delete billing tag
+translation.billingTagsUi.failedToLoadAssignments	Failed to load billing tag assignments — tags and suggestions shown below may be incomplete. Try reloading the page.
+translation.billingTagsUi.failedToLoadSessions	Failed to load sessions. Try reloading the page.
+translation.billingTagsUi.failedToLoadUsage	Failed to load billing tag usage. Try reloading the page.
+translation.billingTagsUi.failedToUpdateBillingTag	Failed to update billing tag
+translation.billingTagsUi.failedToUpdateSuggestion	Failed to update billing tag suggestion
+translation.billingTagsUi.loadMore	Load more
+translation.billingTagsUi.manageBillingTags	Manage billing tags
+translation.billingTagsUi.manageBillingTagsSubtitle	Create, edit, and archive billing tags
+translation.billingTagsUi.merge	Merge billing tags
+translation.billingTagsUi.mergeBillingTags	Merge billing tags
+translation.billingTagsUi.mergeBillingTagsDescription	Pick the tags to merge and the one to keep. Every session from the other tags moves into it, and those tags are archived.
+translation.billingTagsUi.mergeSelectLabel	Billing tags to merge
+translation.billingTagsUi.mergeTooManySources	Select at most {{max}} billing tags to merge into the one you keep
+translation.billingTagsUi.mergeKeepLabel	Billing tag to keep
+translation.billingTagsUi.mergeCandidateMeta	{{sessions}} sessions · {{acus}} ACUs
+translation.billingTagsUi.mergePreviewTitle	{{name}} keeps its name and description
+translation.billingTagsUi.mergePreviewMoved_one	{{sessions}} session moves in from {{count}} tag
+translation.billingTagsUi.mergePreviewMoved_other	{{sessions}} sessions move in from {{count}} tags
+translation.billingTagsUi.mergePreviewTotals	Resulting total: {{sessions}} sessions · {{acus}} ACUs
+translation.billingTagsUi.mergeConfirmTitle_one	Merge {{count}} billing tag into {{name}}?
+translation.billingTagsUi.mergeConfirmTitle_other	Merge {{count}} billing tags into {{name}}?
+translation.billingTagsUi.mergeConfirmDescription	This action cannot be undone.
+translation.billingTagsUi.billingTagsMerged_one	Merged {{count}} billing tag into {{name}}
+translation.billingTagsUi.billingTagsMerged_other	Merged {{count}} billing tags into {{name}}
+translation.billingTagsUi.failedToMergeBillingTags	Failed to merge billing tags
+translation.billingTagsUi.miscellaneousDescription	Doesn't belong in any tag
+translation.billingTagsUi.mySessions	My sessions
+translation.billingTagsUi.name	Name
+translation.billingTagsUi.nameRequired	Name required
+translation.billingTagsUi.namePlaceholder	e.g. Revamp checkout
+translation.billingTagsUi.newBillingTagDescription	Track costs across sessions
+translation.billingTagsUi.noBillingTagsYet	No billing tags yet
+translation.billingTagsUi.noMatches	No matches
+translation.billingTagsUi.noMatchingBillingTags	No matching billing tags
+translation.billingTagsUi.noSessionsFound	No sessions found
+translation.billingTagsUi.noSessionsFoundSuggest	No sessions found. Use “Suggest tags for my recent sessions” to get billing tag suggestions for your recent sessions.
+translation.billingTagsUi.noSessionsMatchFilters	No sessions match the selected filters
+translation.billingTagsUi.noSessionsWithTagYet	No sessions with this billing tag yet
+translation.billingTagsUi.overview	Overview
+translation.billingTagsUi.peopleCount_one	{{count}} person
+translation.billingTagsUi.peopleCount_other	{{count}} people
+translation.billingTagsUi.prsMerged	{{value}} merged
+translation.billingTagsUi.prsOpenClosed	{{open}} open · {{closed}} closed
+translation.billingTagsUi.pullRequests	Pull requests
+translation.billingTagsUi.rejectSuggestions	Reject suggestions
+translation.billingTagsUi.save	Save
+translation.billingTagsUi.searchBillingTags	Search billing tags
+translation.billingTagsUi.searchPeople	Search people…
+translation.billingTagsUi.searchSessions	Search sessions
+translation.billingTagsUi.searchSessionsPlaceholder	Search sessions…
+translation.billingTagsUi.selectAllSessions	Select all sessions
+translation.billingTagsUi.selectSession	Select {{title}}
+translation.billingTagsUi.selectedCount	{{count}} selected
+translation.billingTagsUi.session	Session
+translation.billingTagsUi.sessionCount_one	{{value}} session
+translation.billingTagsUi.sessionCount_other	{{value}} sessions
+translation.billingTagsUi.sessions	Sessions
+translation.billingTagsUi.sessionsToReview	Sessions to review
+translation.billingTagsUi.suggestedTags	Suggested
+translation.billingTagsUi.tagCount_one	{{count}} tag
+translation.billingTagsUi.tagCount_other	{{count}} tags
+translation.billingTagsUi.tagged	Tagged
+translation.billingTagsUi.totalUsage	Total usage
+translation.billingTagsUi.uncategorizedDescription	Clear the tag
+translation.billingTagsUi.upToSelections	Up to {{count}} selections
+translation.billingTagsUi.usageTruncated	Usage is computed over a truncated session list because this tag exceeds the analytics cap
+translation.billingTagsUi.usageTruncatedAny	Some usage numbers are computed over a truncated session list because a tag exceeds the analytics cap
+translation.billingTagsUi.viewerYou	{{name}} (you)
+translation.billingTagsUi.export	Export
+translation.billingTagsUi.exportFailed	Couldn't export billing tags
+translation.billingTagsUi.lastActivity	Last activity
+translation.billingTagsUi.users	Users
+translation.billingTagsUi.acusByUser	ACUs by user
+translation.billingTagsUi.closed	Closed
+translation.billingTagsUi.merged	Merged
+translation.billingTagsUi.mergedPrsByUser	Merged PRs by user
+translation.billingTagsUi.noDataYet	No data yet
+translation.billingTagsUi.noPrsWithTagYet	No PRs from sessions with this billing tag yet
+translation.billingTagsUi.noUsersWithTagYet	No users with this billing tag yet
+translation.billingTagsUi.open	Open
+translation.billingTagsUi.otherUsers_one	{{count}} other user
+translation.billingTagsUi.otherUsers_other	{{count}} other users
+translation.billingTagsUi.prStateClosed	Closed
+translation.billingTagsUi.prStateMerged	Merged
+translation.billingTagsUi.prStateOpen	Open
+translation.billingTagsUi.prStatus	Status
+translation.billingTagsUi.prs	PRs
+translation.billingTagsUi.prsMergedColumn	PRs merged
+translation.billingTagsUi.prsOverTime	Pull requests over time
+translation.billingTagsUi.prsTotalColumn	PRs total
+translation.billingTagsUi.pullRequest	Pull request
+translation.billingTagsUi.analytics	Analytics
+translation.billingTagsUi.analyticsSubtitle	Tagging coverage and ACU spend over the selected range
+translation.billingTagsUi.billingTagsTableTitle	Billing tags
+translation.billingTagsUi.billingTagsTableSubtitle	All sessions and ACUs for each tag, across all time
+translation.billingTagsUi.countWithShare	{{value}} ({{percent}})
+translation.billingTagsUi.descriptionHelp	Helps Devin suggest this tag for appropriate sessions
+translation.billingTagsUi.managedByDevin	Built-in
+translation.billingTagsUi.managedByDevinTooltip	Devin maintains this tag. It can't be edited or deleted.
+translation.billingTagsUi.miscellaneousRowDescription	Special tag for sessions that don't belong to any other tag
+translation.billingTagsUi.reviewUncategorized	Review all uncategorized
+translation.billingTagsUi.tagWithDevin	Tag with Devin
+translation.billingTagsUi.tagWithDevinPrompt	Devin, please suggest billing tags to create and billing tag assignments for all sessions in the past week.
+translation.billingTagsUi.tagWithDevinPromptAll	Devin, please tag all sessions in the past {{days}} days to billing tags.
+translation.billingTagsUi.tagWithDevinPromptMine	Devin, please tag my sessions in the past {{days}} days to billing tags.
+translation.billingTagsUi.tagWithDevinPromptPeople	Devin, please tag the sessions of the following users in the past {{days}} days to billing tags.
+
+{{people}}
+translation.billingTagsUi.comingSoon	Coming soon
+translation.billingTagsUi.devinCoachRecommendations	Devin Coach recommendations
+translation.billingTagsUi.devinCoachRecommendationsDescription	Recommendations for improving ACU efficiency targeted to this project.
+translation.billingTagsUi.insights	Insights
+translation.billingTagsUi.insightsDescription	Automatic callouts on spend, throughput and trends worth a second look.
+translation.billingTagsUi.acusPerSession	ACUs per session
+translation.billingTagsUi.search	Search
+translation.billingTagsUi.createWithDevin	Create with Devin
+translation.billingTagsUi.createWithDevinPrompt	Devin, please help me create billing tags based on the following sources
+
+[upload attachments and include links here]
+translation.billingTagsUi.createBillingTagOptions	More create options
+translation.billingTagsUi.settingsButton	Billing tag settings
+translation.billingTagsUi.settingsTitle	Billing tag settings
+translation.billingTagsUi.settingsDescription	These settings apply to everyone in this organization.
+translation.billingTagsUi.notificationsLabel	Billing tag notifications
+translation.billingTagsUi.notificationsDescription	Show a sidebar badge when members have sessions that need a billing tag.
+translation.billingTagsUi.notificationsUpdateFailed	Failed to update billing tag notifications.
+translation.billingBanner.assignToDevin	Assign to Devin
+translation.billingBanner.deepwiki	DeepWiki
+translation.billingBanner.deepwikiDescription	Auto-generated documentation
+translation.billingBanner.devinReview	Devin Review
+translation.billingBanner.devinReviewDescription	AI-powered PR reviews
+translation.billingBanner.payInvoiceDirectly	Want to pay your invoice directly?
+translation.billingBanner.planAndReview	Plan and review with Devin
+translation.billingBanner.tryTheseTools	Try these tools without a subscription:
+translation.billingBanner.viewInvoices	View invoices
+translation.blockedAction.permissionDeniedTitle	Action not allowed
+translation.blockedAction.permissionDeniedMessage	You do not have permission to do this in this session. Ask the session owner for access.
+translation.outOfCreditsToast.title	You're out of credits
+translation.outOfCreditsToast.action	Get more credits
+translation.blockers.spendingFrozen	Your ACU usage limit has been reached. Please contact your enterprise admin.
+translation.blueprints.selectForRemoval	Select {{repository}} for removal
+translation.blueprints.removalLimit	You can remove up to {{count}} repositories at a time.
+translation.blueprints.removalBlocked	No repositories were removed. Check that these repositories still exist and that you can configure them:
+translation.blueprints.removeCount	Remove {{count}}
+translation.blueprints.removeTitle_one	Remove {{count}} repository?
+translation.blueprints.removeTitle_other	Remove {{count}} repositories?
+translation.blueprints.removeDescription_one	This repository and its Blueprints will be removed from the environment. The repository itself will not be deleted.
+translation.blueprints.removeDescription_other	These repositories and their Blueprints will be removed from the environment. The repositories themselves will not be deleted.
+translation.blueprints.removeSnapshotWarning_one	Existing snapshots still contain this repository. Users who can access the remaining repositories can still use those snapshots.
+translation.blueprints.removeSnapshotWarning_other	Existing snapshots still contain these repositories. Users who can access the remaining repositories can still use those snapshots.
+translation.blueprints.delta.modified_one	{{count}} modified
+translation.blueprints.delta.modified_other	{{count}} modified
+translation.blueprints.delta.added_one	{{count}} added
+translation.blueprints.delta.added_other	{{count}} added
+translation.blueprints.delta.removed_one	{{count}} removed
+translation.blueprints.delta.removed_other	{{count}} removed
+translation.blueprints.delta.changedBlueprints_one	{{count}} blueprint changed ({{changes, list(type: unit)}})
+translation.blueprints.delta.changedBlueprints_other	{{count}} blueprints changed ({{changes, list(type: unit)}})
+translation.blueprints.delta.changedFiles_one	{{count}} file changed
+translation.blueprints.delta.changedFiles_other	{{count}} files changed
+translation.blueprints.delta.environmentChangeCount_one	{{count}} environment change
+translation.blueprints.delta.environmentChangeCount_other	{{count}} environment changes
+translation.blueprints.delta.unchangedBlueprints_one	{{count}} unchanged blueprint
+translation.blueprints.delta.unchangedBlueprints_other	{{count}} unchanged blueprints
+translation.blueprints.delta.changeTypeAdded	Added
+translation.blueprints.delta.changeTypeRemoved	Removed
+translation.blueprints.delta.changeTypeModified	Modified
+translation.blueprints.delta.changeTypeUnchanged	Unchanged
+translation.blueprints.versionCount_one	{{count}} version
+translation.blueprints.versionCount_other	{{count}} versions
+translation.blueprints.repositoryIncludedWithBlueprints_one	This repository (root plus {{count}} blueprint) is pre-cloned and set up for new Devin sessions
+translation.blueprints.repositoryIncludedWithBlueprints_other	This repository (root plus {{count}} blueprints) is pre-cloned and set up for new Devin sessions
+translation.blueprints.building	Building
+translation.blueprints.repositoryEditorDescription	Runs for sessions on this repository.
+translation.blueprints.canonicalEditorDescription	The canonical blueprint for this repository. Environments that follow it run this setup.
+translation.blueprints.learnMoreAboutBlueprints	Learn more about repository environment blueprints
+translation.blueprints.copyEnvVar	Copy environment variable
+translation.blueprints.uploadFileEnvVarDescription	Sessions access the file through this variable
+translation.blueprints.repositoriesAdded_one	Added {{repository}}
+translation.blueprints.repositoriesAdded_other	Added {{count}} repositories
+translation.blueprints.yamlEditor.linePrefix	Line {{line}}:
+translation.blueprints.editorLayout.hideSidebar	Hide sidebar
+translation.blueprints.editorLayout.showSidebar	Show sidebar
+translation.blueprints.editorLayout.fullScreen	Full screen
+translation.blueprints.editorLayout.exitFullScreen	Exit full screen
+translation.blueprints.sidebarTabs.searchWorkspaces	Search workspaces
+translation.blueprints.sidebarTabs.searchTemplates	Search templates
+translation.blueprints.sidebarTabs.guide	Guide
+translation.blueprints.sidebarTabs.workspaces	Workspaces
+translation.blueprints.sidebarTabs.templates	Templates
+translation.blueprints.source.canonical	Canonical
+translation.blueprints.source.database	Database
+translation.blueprints.source.source	Source
+translation.blueprints.source.whereLives	Where this blueprint lives
+translation.blueprints.source.databaseDescription	Edit inline. Changes save instantly to your team's storage.
+translation.blueprints.source.canonicalDescription	Setup comes from the repository's canonical blueprint. Read-only here.
+translation.blueprints.source.gitDescription	Source of truth is {{filePath}}. Sync to pull, {{prAbbrev}} to push.
+translation.blueprints.source.switchDiscardsEdits	Switching source discards your unsaved edits.
+translation.blueprints.source.switchReplacesContents	Switching source replaces the editor contents.
+translation.blueprints.source.switchTo	Switch source to {{target}}
+translation.blueprints.source.unsavedDiscarded	Your unsaved edits in the editor will be discarded.
+translation.blueprints.source.switchConfirm	Switch source
+translation.blueprints.source.current	· current
+translation.blueprints.source.switchToGit	Devin will pull <code>{{filePath}}</code> from the default branch of <code>{{repoName}}</code> and use it as the source of truth. Future edits go through {{prNoun}}s.
+translation.blueprints.source.switchToCanonical	The root and workspaces of <code>{{repoName}}</code> are replaced by the canonical blueprint and update whenever it changes. The YAML becomes read-only here.
+translation.blueprints.source.switchFromCanonical	The root and workspaces of <code>{{repoName}}</code> keep the canonical setup as a copy you can edit here. Canonical secrets and files still apply.
+translation.blueprints.source.switchToDb	This blueprint will stop syncing from <code>{{repoName}}</code>. Edits will save directly to your team's database again.
+translation.blueprints.source.unsavedEdits	Unsaved edits
+translation.blueprints.source.syncingFrom	Syncing from {{provider}}…
+translation.blueprints.source.syncedOn	Synced {{time}} on {{provider}}
+translation.blueprints.source.pullLatestFrom	Pull latest from {{provider}}
+translation.blueprints.source.syncFrom	Sync from {{provider}}
+translation.blueprints.source.switchingTo	Switching to {{provider}}…
+translation.blueprints.source.devinStorage	Devin storage
+translation.blueprints.source.unsavedChanges	Unsaved changes
+translation.blueprints.source.recently	recently
+translation.blueprints.source.openCanonical	Open canonical blueprint
+translation.blueprints.source.followsCanonical	Follows the canonical blueprint
+translation.blueprints.repositoryIncludedDescription	This repository is pre-cloned and set up for new Devin sessions
+translation.blueprints.repositoryNotIncludedDescription	Turn on to pre-clone and set up this repository for new Devin sessions
+translation.blueprints.buildOnCommitLoadingDescription	Build the environment after each push to the repository's default branch
+translation.blueprints.buildOnCommitGitDescription	Build the environment after each push to the default branch, using the blueprint from that commit
+translation.blueprints.buildOnCommitSavedDescription	Build the environment after each push to the default branch, using the blueprint currently saved here — not a version from the commit
+translation.blueprints.buildStatusChecksDescription	Show each build's result as a GitHub Check Run on the commit
+translation.telegramConnect.title	Connect Telegram
+translation.telegramConnect.description	Pick the {{botNamePlural}} to connect. Each one gets its own topic in your Telegram chat.
+translation.telegramConnect.connect_one	Create {{count}} topic
+translation.telegramConnect.connect_other	Create {{count}} topics
+translation.telegramConnect.doneTitle	You're all set

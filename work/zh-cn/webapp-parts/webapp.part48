@@ -1,0 +1,500 @@
+translation.settingsPages.addBlueprintReposModal.couldntLoadYourExistingRepositoriesPlease	Couldn't load your existing repositories. Please try again.
+translation.settingsPages.addBlueprintReposModal.noRepositoriesFound	No repositories found
+translation.settingsPages.addBlueprintReposModal.allRepositoriesHaveBeenAdded	All repositories have been added
+translation.settingsPages.addBlueprintReposModal.adding	Adding...
+translation.settingsPages.addBlueprintReposModal.addingProgress	Adding {{settled}} of {{total}}...
+translation.settingsPages.addBlueprintReposModal.largeSelectionNote	Large selections can take a few minutes. Keep this window open until they finish.
+translation.settingsPages.addBlueprintReposModal.addRepositories_one	Add {{count}} repository
+translation.settingsPages.addBlueprintReposModal.addRepositories_other	Add {{count}} repositories
+translation.settingsPages.addBlueprintReposModal.addRepositoriesNone	Add repositories
+translation.settingsPages.blueprintEditorContainer.setupUpdated	{{label}} setup updated
+translation.settingsPages.blueprintEditorContainer.setupCreated	{{label}} setup created
+translation.settingsPages.blueprintEditorContainer.failedToCreateSetup	Failed to create {{value}} setup
+translation.settingsPages.blueprintEditorContainer.opened	{{abbrev}} opened
+translation.settingsPages.blueprintEditorContainer.view	View {{abbrev}}
+translation.settingsPages.blueprintEditorContainer.creationUnavailableForThisBlueprint	{{abbrev}} creation unavailable for this blueprint
+translation.settingsPages.blueprintEditorContainer.creating	Creating {{abbrev}}...
+translation.settingsPages.blueprintEditorContainer.create	Create {{abbrev}}
+translation.settingsPages.blueprintEditorContainer.makeChangesToEnableSaving	Make changes to enable saving
+translation.settingsPages.blueprintEditorContainer.saving	Saving...
+translation.settingsPages.blueprintEditorContainer.noUnsavedChangesToDiscard	No unsaved changes to discard
+translation.settingsPages.blueprintEditorContainer.discardUnsavedChangesTitle	Discard unsaved changes?
+translation.settingsPages.blueprintEditorContainer.discard	Discard
+translation.settingsPages.blueprintEditorContainer.moreActions	More actions
+translation.settingsPages.blueprintEditorContainer.syncing	Syncing…
+translation.settingsPages.blueprintEditorContainer.syncBlueprint	Sync blueprint
+translation.settingsPages.blueprintEditorContainer.documentation	Documentation
+translation.settingsPages.blueprintEditorContainer.deleting	Deleting...
+translation.settingsPages.blueprintEditorContainer.delete	Delete
+translation.settingsPages.blueprintEditorContainer.deleteSetup	Delete {{value}} setup
+translation.settingsPages.blueprintEditorContainer.setupDeleted	{{label}} setup deleted
+translation.settingsPages.blueprintEditorContainer.failedToDeleteSetup	Failed to delete {{value}} setup
+translation.settingsPages.blueprintEditorContainer.saveSetup	Save {{value}} setup
+translation.settingsPages.blueprintEditorContainer.save	Save
+translation.settingsPages.blueprintEditorContainer.editor	Editor
+translation.settingsPages.blueprintEditorContainer.history	History
+translation.settingsPages.blueprintEditorContainer.searchFiles	Search files
+translation.settingsPages.blueprintEditorContainer.preparing	Preparing…
+translation.settingsPages.blueprintEditorContainer.uploadFile	Upload file
+translation.settingsPages.blueprintEditorContainer.copyYaml	Copy YAML
+translation.settingsPages.blueprintEditorContainer.saveBlueprint	Save blueprint
+translation.settingsPages.blueprintEditorContainer.youDonTHavePermissionManage	You don't have permission to manage this blueprint
+translation.settingsPages.blueprintEditorContainer.upgradePlanRunTestSessions	Upgrade your plan to run test sessions
+translation.settingsPages.blueprintEditorContainer.failedToUpdateSetup	Failed to update {{value}} setup
+translation.settingsPages.blueprintEditorContainer.makeChangesToOpen_a	Make changes to open a {{abbrev}}
+translation.settingsPages.blueprintEditorContainer.makeChangesToOpen_an	Make changes to open an {{abbrev}}
+translation.settingsPages.blueprintFilesSection.fileUploaded	File \\
+translation.settingsPages.blueprintInlinePreview.copyBlueprint	Copy blueprint
+translation.settingsPages.blueprintInlinePreview.expandBlueprint	Expand blueprint
+translation.settingsPages.blueprintVersionHistoryPanel.noVersionHistoryYetSaveThe	No version history yet. Save the blueprint to record the first version.
+translation.settingsPages.blueprintVersionHistoryPanel.viewCommitOnTheGitProvider	View commit on the git provider
+translation.settingsPages.blueprintVersionHistoryPanel.viewOriginatingDevinSession	View originating Devin session
+translation.settingsPages.blueprintVersionHistoryPanel.originalVersion	Original version
+translation.settingsPages.blueprintVersionHistoryPanel.selectAVersionOnTheLeft	Select a version on the left to view its diff.
+translation.settingsPages.blueprintVersionHistoryPanel.comparing	Comparing <strong>{{previous}}</strong> → <strong>{{current}}</strong>
+translation.settingsPages.blueprintVersionHistoryPanel.devinSession	Devin session
+translation.settingsPages.blueprintVersionHistoryPanel.serviceAccount	Service account
+translation.settingsPages.blueprintViewModal.copyBlueprint	Copy blueprint
+translation.settingsPages.blueprintViewModal.editBlueprint	Edit blueprint
+translation.settingsPages.blueprintViewModal.updated	Updated {{updatedAt}}
+translation.settingsPages.enterpriseBlueprintContainer.enterprise	Enterprise
+translation.settingsPages.enterpriseBlueprintContainer.thisWillTriggerARebuildFor	This will trigger a rebuild for all organizations in the enterprise.
+translation.settingsPages.enterpriseBlueprintContainer.savingThisBlueprintWillTriggerA	Saving this blueprint will trigger a rebuild for every organization in the enterprise.
+translation.settingsPages.enterpriseSecretsSection.searchSecrets	Search secrets
+translation.settingsPages.enterpriseSecretsSection.importSecrets	Import secrets
+translation.settingsPages.enterpriseSecretsSection.createSecret	Create secret
+translation.settingsPages.enterpriseSecretsSection.couldntLoadSecretsTryAgainLater	Couldn't load secrets. Try again later.
+translation.settingsPages.enterpriseSecretsSection.noMatchingSecrets	No matching secrets
+translation.settingsPages.enterpriseSecretsSection.noSecretsFound	No secrets found
+translation.settingsPages.enterpriseSecretsSection.tryADifferentSearchTerm	Try a different search term.
+translation.settingsPages.enterpriseSecretsSection.addYourFirstSecretToGet	Add your first secret to get started.
+translation.settingsPages.enterpriseSecretsSection.noSecretsHaveBeenAddedYet	No secrets have been added yet.
+translation.settingsPages.orgSecretsSection.searchSecrets	Search secrets
+translation.settingsPages.orgSecretsSection.importSecrets	Import secrets
+translation.settingsPages.orgSecretsSection.createSecret	Create secret
+translation.settingsPages.orgSecretsSection.couldntLoadSecretsTryAgainLater	Couldn't load secrets. Try again later.
+translation.settingsPages.orgSecretsSection.noMatchingSecrets	No matching secrets
+translation.settingsPages.orgSecretsSection.noSecretsFound	No secrets found
+translation.settingsPages.orgSecretsSection.tryADifferentSearchTerm	Try a different search term.
+translation.settingsPages.orgSecretsSection.addYourFirstSecretToGet	Add your first secret to get started.
+translation.settingsPages.orgSecretsSection.noSecretsHaveBeenAddedYet	No secrets have been added yet.
+translation.settingsPages.organizationBlueprintContainer.organization	Organization
+translation.settingsPages.organizationBlueprintContainer.thisWillTriggerARebuildFor	This will trigger a rebuild for this organization's environment.
+translation.settingsPages.repoSecretsSection.searchSecrets	Search secrets
+translation.settingsPages.repoSecretsSection.importSecrets	Import secrets
+translation.settingsPages.repoSecretsSection.createSecret	Create secret
+translation.settingsPages.repoSecretsSection.couldntLoadSecretsTryAgainLater	Couldn't load secrets. Try again later.
+translation.settingsPages.repoSecretsSection.noMatchingSecrets	No matching secrets
+translation.settingsPages.repoSecretsSection.noSecretsFound	No secrets found
+translation.settingsPages.repoSecretsSection.tryADifferentSearchTerm	Try a different search term.
+translation.settingsPages.repoSecretsSection.addYourFirstSecretToGet	Add your first secret to get started.
+translation.settingsPages.repoSecretsSection.noSecretsHaveBeenAddedYet	No secrets have been added yet.
+translation.settingsPages.repositoryBlueprintEditorContainer.upgradeYourPlanToGenerateOr	Upgrade your plan to generate or update with Devin
+translation.settingsPages.repositoryBlueprintEditorContainer.noBlueprintFoundInOnNothing	No blueprint found in {{repoName}} on {{providerLabel}} — nothing to sync.
+translation.settingsPages.repositoryBlueprintEditorContainer.syncedFrom	Synced from {{repoName}} @ {{value}}
+translation.settingsPages.repositoryBlueprintEditorContainer.syncedFrom2	Synced from {{repoName}}
+translation.settingsPages.repositoryBlueprintEditorContainer.failedToSyncBlueprintsFrom	Failed to sync blueprints from {{repoName}}
+translation.settingsPages.repositoryBlueprintEditorContainer.noBlueprintFoundForThisScope	No {{providerLabel}} blueprint found for this scope — add one and sync again.
+translation.settingsPages.repositoryBlueprintEditorContainer.switchedTo	Switched to {{providerLabel}} @ {{value}}
+translation.settingsPages.repositoryBlueprintEditorContainer.switchedTo2	Switched to {{providerLabel}}
+translation.settingsPages.repositoryBlueprintEditorContainer.failedToSwitchSourceTo	Failed to switch source to {{providerLabel}}
+translation.settingsPages.repositoryBlueprintEditorContainer.switchedToDatabaseFutureSyncsAre	Switched {{repoName}} to Database — future {{providerLabel}} syncs are off
+translation.settingsPages.repositoryBlueprintEditorContainer.switchedToDatabaseFutureSyncsWill	Switched to Database — future {{providerLabel}} syncs will skip this blueprint
+translation.settingsPages.repositoryBlueprintEditorContainer.failedToSwitchToDatabase	Failed to switch to Database
+translation.settingsPages.repositoryBlueprintEditorContainer.failedToOpen	Failed to open {{abbrev}}: {{message}}
+translation.settingsPages.repositoryBlueprintEditorContainer.switchedTo3	Switched {{repoName}} to {{sourceLabel}}
+translation.settingsPages.repositoryBlueprintEditorContainer.failedToSwitchTo	Failed to switch to {{sourceLabel}}
+translation.settingsPages.repositoryBlueprintEditorContainer.blueprint	Blueprint
+translation.settingsPages.repositoryBlueprintEditorContainer.blueprintInline	blueprint
+translation.settingsPages.repositoryBlueprintEditorContainer.thisWillDeleteTheBlueprintFor	This will delete the blueprint for this repository. This action cannot be undone.
+translation.settingsPages.repositoryBlueprintEditorContainer.updateDevin	Update with Devin
+translation.settingsPages.repositoryBlueprintEditorContainer.generateDevin	Generate with Devin
+translation.settingsPages.repositoryBlueprintEditorContainer.failedOpenAbbrev	Failed to open {{abbrev}}
+translation.settingsPages.repositoryBlueprintEditorContainer.followReadOnlyReason	This repository uses its canonical blueprint — switch the source to edit it here
+translation.settingsPages.repositoryBlueprintEditorContainer.followUnavailableReason	This repository uses its canonical blueprint and can't be edited here
+translation.settingsPages.repositoryBlueprintEditorContainer.rootOnlySourceReason	Change the source from the repository root
+translation.settingsPages.workspaceSidebar.blueprintOrderUpdated	Blueprint order updated
+translation.settingsPages.workspaceSidebar.failedToReorderBlueprints	Failed to reorder blueprints
+translation.settingsPages.workspaceSidebar.blueprintDeleted	Blueprint {{scope}} deleted
+translation.settingsPages.workspaceSidebar.failedToDeleteBlueprint	Failed to delete blueprint
+translation.settingsPages.workspaceSidebar.root	/ (root)
+translation.settingsPages.workspaceSidebar.addBlueprint	Add blueprint
+translation.settingsPages.workspaceSidebar.deleteBlueprint	Delete blueprint?
+translation.settingsPages.workspaceSidebar.thisWillDeleteTheEnvironmentFor	This will delete the environment for {{scope}}. The other blueprints in this repository are unaffected.
+translation.settingsPages.workspaceSidebar.delete	Delete
+translation.settingsPages.workspaceSidebar.dragToReorder	Drag to reorder
+translation.settingsPages.workspaceSidebar.reorderBlueprint	Reorder blueprint {{scope}}
+translation.settingsPages.workspaceSidebar.editBlueprint	Edit blueprint {{scope}}
+translation.settingsPages.workspaceSidebar.deleteBlueprint2	Delete blueprint
+translation.settingsPages.workspaceSidebar.deleteBlueprint3	Delete blueprint {{scope}}
+translation.settingsPages.blueprintEditorTabs.secrets	Secrets
+translation.settingsPages.blueprintEditorTabs.files	Files
+translation.settingsPages.actionsPanel.loadingTemplates	Loading templates...
+translation.settingsPages.actionsPanel.actionsCatalog	Actions catalog
+translation.settingsPages.actionsPanel.searchActions	Search actions
+translation.settingsPages.actionsPanel.noMatchingTemplates	No matching templates
+translation.settingsPages.actionsPanel.noTemplatesAvailable	No templates available
+translation.settingsPages.blueprintDriftWarningsSection.syncedAndQueuedABuild	Synced {{reponame}} and queued a build
+translation.settingsPages.blueprintDriftWarningsSection.synced	Synced {{reponame}}
+translation.settingsPages.blueprintDriftWarningsSection.failedToSyncBlueprintsFrom	Failed to sync blueprints from {{reponame}}
+translation.settingsPages.blueprintDriftWarningsSection.blueprintDrift	Blueprint drift
+translation.settingsPages.blueprintDriftWarningsSection.whenThisSnapshotWasBuiltThe_one	When this snapshot was built, the file below differed from the last synced version.
+translation.settingsPages.blueprintDriftWarningsSection.whenThisSnapshotWasBuiltThe_other	When this snapshot was built, the files below differed from the last synced versions.
+translation.settingsPages.blueprintDriftWarningsSection.syncFromRepoPullsTheLatest	 Sync from repo pulls the latest version of the blueprint into the current configuration without changing this snapshot; Sync from repo + build also queues a new snapshot.
+translation.settingsPages.blueprintDriftWarningsSection.deleted	 — deleted
+translation.settingsPages.blueprintDriftWarningsSection.deleted2	deleted
+translation.settingsPages.blueprintDriftWarningsSection.syncFromRepo	Sync from repo
+translation.settingsPages.blueprintDriftWarningsSection.syncFromRepoBuild	Sync from repo + build
+translation.settingsPages.blueprintDriftWarningsSection.newerVersionAtBuild_one	{{repoName}} — This build used commit <commitLink>{{commit}}</commitLink> but a new version was available in the repository at build time. The file below differs from the version resolved for this snapshot.
+translation.settingsPages.blueprintDriftWarningsSection.newerVersionAtBuild_other	{{repoName}} — This build used commit <commitLink>{{commit}}</commitLink> but a new version was available in the repository at build time. The files below differ from the version resolved for this snapshot.
+translation.settingsPages.blueprintTerminalDrawer.terminal	Terminal
+translation.settingsPages.blueprintTerminalDrawer.stop	Stop
+translation.settingsPages.blueprintTerminalDrawer.closeTerminal	Close terminal
+translation.settingsPages.buildDeltaPanel.emptyBlueprint	Empty blueprint
+translation.settingsPages.buildDeltaPanel.source	Source: {{currentSourceLabel}}
+translation.settingsPages.buildDeltaPanel.viewCommitOnTheGitProvider	View commit on the git provider
+translation.settingsPages.buildDeltaPanel.hideYamlDiff	Hide YAML diff
+translation.settingsPages.buildDeltaPanel.showYamlDiff	Show YAML diff
+translation.settingsPages.buildDeltaPanel.failedToLoadBlueprintContents	Failed to load blueprint contents.
+translation.settingsPages.buildDeltaPanel.failedToLoadConfigurationChanges	Failed to load configuration changes.
+translation.settingsPages.buildDeltaPanel.builtFromTheBaseImageThere	Built from the base image. There is no earlier build to compare with.
+translation.settingsPages.buildDeltaPanel.thisBuildIsStillInProgress	This build is still in progress. Changes will be available after it completes.
+translation.settingsPages.buildDeltaPanel.noEarlierCompletedBuildIsAvailable	No earlier completed build is available for comparison.
+translation.settingsPages.buildDeltaPanel.noConfigurationChanges	No configuration changes
+translation.settingsPages.buildDeltaPanel.configurationChanges	Configuration changes
+translation.settingsPages.buildDeltaPanel.blueprintFileAndEnvironmentChangesCompared	Blueprint, file, and environment changes compared with an earlier build.
+translation.settingsPages.buildDeltaPanel.comparedWith	Compared with
+translation.settingsPages.buildDeltaPanel.thisBuildIsStillInProgress2	This build is still in progress. The comparison may update when it completes.
+translation.settingsPages.buildDeltaPanel.emptyBlueprintsWerentRecordedForOne	Empty blueprints weren't recorded for one of the compared builds.
+translation.settingsPages.buildDeltaPanel.blueprintFilesWerentRecordedForOne	Blueprint files weren't recorded for one of the compared builds.
+translation.settingsPages.buildDeltaPanel.blueprintOrder	Blueprint order
+translation.settingsPages.buildDeltaPanel.previous	Previous:
+translation.settingsPages.buildDeltaPanel.current	Current:
+translation.settingsPages.buildDeltaPanel.none	none
+translation.settingsPages.buildDeltaPanel.commitLabel	Commit:
+translation.settingsPages.buildDeltaPanel.devinSession	Devin session
+translation.settingsPages.buildDeltaPanel.serviceAccount	Service account
+translation.settingsPages.buildDeltaPanel.gitSync	Git sync
+translation.settingsPages.buildDeltaPanel.environmentSuggestion	Environment suggestion
+translation.settingsPages.buildDeltaPanel.lastPartialBuild	Last partial build
+translation.settingsPages.buildDeltaPanel.lastSuccessfulBuild	Last successful build
+translation.settingsPages.buildDeltaPanel.lastBuild	Last build
+translation.settingsPages.buildDeltaPanel.machineConfiguration	Machine configuration
+translation.settingsPages.buildDeltaPanel.someChangesCouldnTBeCompared	Some changes couldn't be compared
+translation.settingsPages.buildDeltaPanel.lastBuildStatus	Last build ({{status}})
+translation.settingsPages.buildDeltaPanel.manual	Manual
+translation.settingsPages.buildDeltaPanel.rollback	Rollback
+translation.settingsPages.buildDeltaPanel.enterprise	Enterprise
+translation.settingsPages.buildDeltaPanel.environment	Environment
+translation.settingsPages.buildDeltaPanel.organization	Organization
+translation.settingsPages.buildDeltaPanel.platform	Platform
+translation.settingsPages.buildDeltaPanel.files	Files
+translation.settingsPages.buildDeltaPanel.env	Env
+translation.settingsPages.buildHistoryContainer.buildCancelled	Build cancelled
+translation.settingsPages.buildHistoryContainer.snapshotDeleted	Snapshot deleted
+translation.settingsPages.buildHistoryContainer.recentSnapshots	Recent snapshots
+translation.settingsPages.buildHistoryContainer.devinCanUseTheseWhenStarting	Devin can use these when starting sessions
+translation.settingsPages.buildHistoryContainer.noBuildsYet	No builds yet
+translation.settingsPages.buildHistoryContainer.nothingToBuildYet	Nothing to build yet
+translation.settingsPages.buildHistoryContainer.buildsAppearAfterAddingSetupSteps	Builds appear after adding setup steps or a repository.
+translation.settingsPages.buildHistoryContainer.addARepositoryOrConfigureOrganization	Add a repository or configure organization-wide setup to get started.
+translation.settingsPages.buildHistoryContainer.noBuildsMatchTheseFilters	No builds match these filters
+translation.settingsPages.buildHistoryContainer.ubuntu	Ubuntu
+translation.settingsPages.buildHistoryContainer.active	Active
+translation.settingsPages.buildHistoryContainer.scheduled	Scheduled
+translation.settingsPages.buildHistoryContainer.buildActions	Build actions
+translation.settingsPages.buildHistoryContainer.viewDetails	View details
+translation.settingsPages.buildHistoryContainer.cancelBuild	Cancel build
+translation.settingsPages.buildHistoryContainer.delete	Delete
+translation.settingsPages.buildHistoryContainer.addARepositoryToStartBuilding	Add a repository to start building
+translation.settingsPages.buildHistoryContainer.fullBuildStarted	Full build started
+translation.settingsPages.buildHistoryContainer.buildStarted	Build started
+translation.settingsPages.buildHistoryContainer.starting	Starting...
+translation.settingsPages.buildHistoryContainer.buildSnapshot	Build snapshot
+translation.settingsPages.buildHistoryContainer.differentialBuild	Differential build
+translation.settingsPages.buildHistoryContainer.fullBuild	Full build
+translation.settingsPages.buildHistoryContainer.noRepositories	No repositories
+translation.settingsPages.buildHistoryContainer.repositoryCount_one	{{count}} repository
+translation.settingsPages.buildHistoryContainer.repositoryCount_other	{{count}} repositories
+translation.settingsPages.buildHistoryContainer.todayTime	Today, {{time}}
+translation.settingsPages.buildHistoryContainer.yesterdayTime	Yesterday, {{time}}
+translation.settingsPages.buildHistoryContainer.failedCancelBuild	Failed to cancel build
+translation.settingsPages.buildHistoryContainer.failedDeleteSnapshot	Failed to delete snapshot
+translation.settingsPages.buildHistoryContainer.failedStartBuild	Failed to start build
+translation.settingsPages.buildHistoryFilters.status	Status: {{statusKeys}} <iconChevronDownMedium></iconChevronDownMedium>
+translation.settingsPages.buildHistoryFilters.allPlatforms	All platforms
+translation.settingsPages.buildStatusBanner.viewSnapshot	View snapshot
+translation.settingsPages.buildStatusBanner.viewBuild	View build
+translation.settingsPages.buildStatusBanner.buildingSnapshot	Building snapshot
+translation.settingsPages.buildStatusBanner.lastBuilt	Last built
+translation.settingsPages.buildStatusBanner.latestBuildFailed	Latest build failed
+translation.settingsPages.buildStatusBanner.partialBuild	Partial build
+translation.settingsPages.buildStatusBanner.buildCancelled	Build cancelled
+translation.settingsPages.buildStatusBanner.lastBuiltValue	Last built {{value}}
+translation.settingsPages.terminalRunPanel.failedToStartSession	Failed to start session
+translation.settingsPages.terminalRunPanel.sessionNotConnected	Session not connected
+translation.settingsPages.terminalRunPanel.unableToConnectToTheTest	Unable to connect to the test session. Please try again later.
+translation.settingsPages.terminalRunPanel.failedStartAuthorSession	Failed to start author session
+translation.settingsPages.terminalRunPanel.vMBootFailedThisPlatform	VM boot failed for this platform
+translation.settingsPages.terminalRunPanel.thisPlatformIsnTReadyYet	This platform isn't ready yet
+translation.settingsPages.terminalRunPanel.startingInitializeRun	Starting initialize run…
+translation.settingsPages.terminalRunPanel.startingMaintenanceRun	Starting maintenance run…
+translation.settingsPages.terminalRunPanel.startingKnowledgeRunName	Starting knowledge run: {{name}}…
+translation.settingsPages.terminalRunPanel.noOrganizationSelected	No organization selected
+translation.settingsPages.terminalRunPanel.noSnapshotBuildYetThisOrg	No snapshot build yet for this org
+translation.settingsPages.terminalRunPanel.snapshotBuildProgress	A snapshot build is in progress
+translation.settingsPages.terminalRunPanel.thisRepoIsnTLatestSnapshot	This repo isn't in the latest snapshot build
+translation.settingsPages.terminalRunPanel.testAlreadyRunning	A test is already running
+translation.settingsPages.terminalRunPanel.startingTestRun	Starting a test run…
+translation.settingsPages.terminalRunPanel.testSessionStarting	Test session is starting…
+translation.settingsPages.terminalRunPanel.noSnapshotBuild	No snapshot build
+translation.settingsPages.terminalRunPanel.snapshotBuildProgress2	Snapshot build in progress…
+translation.settingsPages.terminalRunPanel.snapshotBuildMissingThisRepository	Snapshot build is missing this repository
+translation.settingsPages.terminalRunPanel.startingSession	Starting session…
+translation.settingsPages.terminalRunPanel.connecting	Connecting…
+translation.settingsPages.terminalRunPanel.vMBootFailed	VM boot failed
+translation.settingsPages.terminalRunPanel.preparingEnvironment	Preparing environment…
+translation.settingsPages.terminalRunPanel.running	Running…
+translation.settingsPages.terminalRunPanel.lastRunSucceeded	Last run: succeeded
+translation.settingsPages.terminalRunPanel.lastRunFailed	Last run: failed
+translation.settingsPages.terminalRunPanel.lastRunCancelled	Last run: cancelled
+translation.settingsPages.terminalRunPanel.thisOrgDoesnTHaveSnapshot	This org doesn't have a snapshot build yet. Start a build from the Environment settings, then come back to test your blueprint.
+translation.settingsPages.terminalRunPanel.snapshotBuildProgressAuthorSessionsWill	A snapshot build is in progress. Author sessions will be available as soon as it finishes.
+translation.settingsPages.terminalRunPanel.clickRunButtonNextInitializeMaintenance	Click a \\
+translation.settingsPages.buildLogParser.finishedIn	Finished in {{durationLabel}}
+translation.settingsPages.baseEnvironmentPage.commandsThatApplyToAllSessions	Commands that apply to all sessions and run before repo-specific setup.
+translation.settingsPages.blueprintsPage.dragToReorder	Drag to reorder
+translation.settingsPages.blueprintsPage.reorder	Reorder {{displayedRepoName}}
+translation.settingsPages.blueprintsPage.added	Added {{createdat}}
+translation.settingsPages.blueprintsPage.theBuildWasBlockedBeforeSetup	The build was blocked before setup could complete, such as during repository cloning or resolution
+translation.settingsPages.blueprintsPage.theRepositoryClonedSuccessfullyButSetup	The repository cloned successfully, but setup failed
+translation.settingsPages.blueprintsPage.buildBlocked	Build blocked
+translation.settingsPages.blueprintsPage.lastBuildFailed	Last build failed
+translation.settingsPages.blueprintsPage.skippedInLastBuild	Skipped in last build
+translation.settingsPages.blueprintsPage.noRepositoriesWithConnectionIssues	No repositories with connection issues
+translation.settingsPages.blueprintsPage.noRepositoriesWithAFailedLast	No repositories with a failed last build
+translation.settingsPages.blueprintsPage.noResults	No results
+translation.settingsPages.blueprintsPage.allAddedRepositoriesAreAccessible	All added repositories are accessible.
+translation.settingsPages.blueprintsPage.allAddedRepositoriesPassedTheirLast	All added repositories passed their last build.
+translation.settingsPages.blueprintsPage.tryADifferentSearchTerm	Try a different search term.
+translation.settingsPages.blueprintsPage.repositoryOrderUpdated	Repository order updated
+translation.settingsPages.blueprintsPage.failedToReorderRepositories	Failed to reorder repositories
+translation.settingsPages.blueprintsPage.runsBeforeThisOrgsBlueprintManaged	Runs before this org's blueprint. Managed by your enterprise admin.
+translation.settingsPages.blueprintsPage.notSetAddOneToShare	Not set. Add one to share setup across every org in this enterprise.
+translation.settingsPages.blueprintsPage.yourEnterpriseAdminHasntSetOne	Your enterprise admin hasn't set one.
+translation.settingsPages.blueprintsPage.edit	Edit
+translation.settingsPages.blueprintsPage.view	View
+translation.settingsPages.blueprintsPage.setUp	Set up
+translation.settingsPages.blueprintsPage.runsAfterTheEnterpriseBlueprintOn	Runs after the enterprise blueprint on every build
+translation.settingsPages.blueprintsPage.runsOnEveryBuild	Runs on every build
+translation.settingsPages.blueprintsPage.notSetAddOneToShare2	Not set. Add one to share setup across this org
+translation.settingsPages.blueprintsPage.notSetYourOrgAdminCan	Not set. Your org admin can add one
+translation.settingsPages.blueprintsPage.filterRepositories	Filter repositories
+translation.settingsPages.blueprintsPage.connectionIssues	Connection issues
+translation.settingsPages.blueprintsPage.allRepositories	All repositories
+translation.settingsPages.blueprintsPage.add	Add
+translation.settingsPages.blueprintsPage.failedToLoadRepositories	Failed to load repositories
+translation.settingsPages.blueprintsPage.tryRefreshingThePage	Try refreshing the page.
+translation.settingsPages.blueprintsPage.noRepositoriesAdded	No repositories added
+translation.settingsPages.blueprintsPage.addRepositoriesToConfigurePerRepo	Add repositories to configure per-repo setup instructions.
+translation.settingsPages.blueprintsPage.addRepositories	Add repositories
+translation.settingsPages.blueprintsPage.editBlueprint	Edit blueprint
+translation.settingsPages.blueprintsPage.searchAddedRepositories_one	Search {{count}} added repository...
+translation.settingsPages.blueprintsPage.searchAddedRepositories_other	Search {{count}} added repositories...
+translation.settingsPages.blueprintsPage.configured	Configured
+translation.settingsPages.blueprintsPage.included	Included
+translation.settingsPages.buildDetailPage.learnMoreAbout	Learn more about {{topic}}
+translation.settingsPages.buildDetailPage.showLogsFor	Show logs for {{repo}}
+translation.settingsPages.buildDetailPage.whyFailed_one	Why this failed
+translation.settingsPages.buildDetailPage.whyFailed_other	Why these failed ({{count}})
+translation.settingsPages.buildDetailPage.copyFailureSummary	Copy failure summary
+translation.settingsPages.buildDetailPage.collapse	Collapse
+translation.settingsPages.buildDetailPage.expand	Expand
+translation.settingsPages.buildDetailPage.collapseFailureSummary	Collapse failure summary
+translation.settingsPages.buildDetailPage.expandFailureSummary	Expand failure summary
+translation.settingsPages.buildDetailPage.dismiss	Dismiss
+translation.settingsPages.buildDetailPage.dismissFailureSummary	Dismiss failure summary
+translation.settingsPages.buildDetailPage.fatal	Fatal
+translation.settingsPages.buildDetailPage.partial	Partial
+translation.settingsPages.buildDetailPage.cloningFailedFixTheseFirst	Cloning failed — fix these first
+translation.settingsPages.buildDetailPage.clonedButASetupStepFailed	Cloned, but a setup step failed
+translation.settingsPages.buildDetailPage.whySkipped_one	Why this was skipped
+translation.settingsPages.buildDetailPage.whySkipped_other	Why these were skipped ({{count}})
+translation.settingsPages.buildDetailPage.copySkipSummary	Copy skip summary
+translation.settingsPages.buildDetailPage.collapseSkipSummary	Collapse skip summary
+translation.settingsPages.buildDetailPage.expandSkipSummary	Expand skip summary
+translation.settingsPages.buildDetailPage.dismissSkipSummary	Dismiss skip summary
+translation.settingsPages.buildDetailPage.searchLogs	Search logs
+translation.settingsPages.buildDetailPage.clearLogSearch	Clear log search
+translation.settingsPages.buildDetailPage.cloning	Cloning
+translation.settingsPages.buildDetailPage.cloned	Cloned
+translation.settingsPages.buildDetailPage.initializing	Initializing
+translation.settingsPages.buildDetailPage.initialized	Initialized
+translation.settingsPages.buildDetailPage.updating	Updating
+translation.settingsPages.buildDetailPage.updated	Updated
+translation.settingsPages.buildDetailPage.running	Running
+translation.settingsPages.buildDetailPage.failedToDownloadConfiguration	Failed to download configuration
+translation.settingsPages.buildDetailPage.downloadYaml	Download YAML
+translation.settingsPages.buildDetailPage.skipped	Skipped
+translation.settingsPages.buildDetailPage.noLogsAvailableForThisBuild	No logs available for this build.
+translation.settingsPages.buildDetailPage.failedToLoadBuildLogs	Failed to load build logs.
+translation.settingsPages.buildDetailPage.filterRepositories	Filter repositories
+translation.settingsPages.buildDetailPage.clearRepositoryFilter	Clear repository filter
+translation.settingsPages.buildDetailPage.failedOrSkipped	Failed or skipped ({{failedRailItemsCount}})
+translation.settingsPages.buildDetailPage.streamingLive	Streaming live — {{currentActivity}}
+translation.settingsPages.buildDetailPage.streamingLive2	Streaming live
+translation.settingsPages.buildDetailPage.finishedIn	Finished in -
+translation.settingsPages.buildDetailPage.moreActions	More actions
+translation.settingsPages.buildDetailPage.downloadLogs	Download logs
+translation.settingsPages.buildDetailPage.viewConfiguration	View configuration
+translation.settingsPages.buildDetailPage.waitingForBuildLogs	Waiting for build logs...
+translation.settingsPages.buildDetailPage.snapshotOn	Snapshot on {{value}}
+translation.settingsPages.buildDetailPage.thisSnapshotIsCurrentlyUsedFor	This snapshot is currently used for new sessions.
+translation.settingsPages.buildDetailPage.active	Active
+translation.settingsPages.buildDetailPage.thePlatformThisSnapshotWasBuilt	The platform this snapshot was built for.
+translation.settingsPages.buildDetailPage.cancelling	Cancelling...
+translation.settingsPages.buildDetailPage.cancelBuild	Cancel build
+translation.settingsPages.buildDetailPage.hideThisSnapshotFromBuildHistory	Hide this snapshot from build history.
+translation.settingsPages.buildDetailPage.deleting	Deleting...
+translation.settingsPages.buildDetailPage.delete	Delete
+translation.settingsPages.buildDetailPage.status	Status
+translation.settingsPages.buildDetailPage.whetherEveryBlueprintBuiltSuccessSome	Whether every blueprint built (success), some failed but the snapshot is still usable (partial), or the build failed or was cancelled.
+translation.settingsPages.buildDetailPage.trigger	Trigger
+translation.settingsPages.buildDetailPage.platform	Platform
+translation.settingsPages.buildDetailPage.started	Started
+translation.settingsPages.buildDetailPage.duration	Duration
+translation.settingsPages.buildDetailPage.buildKind	Build kind
+translation.settingsPages.buildDetailPage.differential	Differential
+translation.settingsPages.buildDetailPage.fullBuild	Full build
+translation.settingsPages.buildDetailPage.snapshotDeleted	Snapshot deleted
+translation.settingsPages.buildDetailPage.allWorkspacesBuiltFromScratch	All workspaces are built from scratch
+translation.settingsPages.buildDetailPage.scheduledFullBuildPreviousFullBuild	Scheduled full build — the previous full build exceeded the configured maximum age
+translation.settingsPages.buildDetailPage.requestedAsDifferentialFellBackFull	Requested as differential — fell back to a full build: {{value}}
+translation.settingsPages.buildDetailPage.thisBuildFailedBeforeLogsWere	This build failed before logs were available. Start a new build to try again, and contact support if it keeps failing.
+translation.settingsPages.buildDetailPage.noContentsAvailable	No contents available.
+translation.settingsPages.buildDetailPage.snapshotBuildJobId	Snapshot {{build_job_id}}
+translation.settingsPages.buildDetailPage.buildDetails	Build details
+translation.settingsPages.buildDetailPage.failedDeleteSnapshot	Failed to delete snapshot
+translation.settingsPages.buildDetailPage.notFoundTitle	Snapshot not found
+translation.settingsPages.buildDetailPage.notFoundDescription	This snapshot may have been deleted, or the link is for a different organization.
+translation.settingsPages.buildDetailPage.viewSnapshots	View snapshots
+translation.settingsPages.buildDetailPage.loadFailedTitle	Couldn't load this snapshot
+translation.settingsPages.buildDetailPage.loadFailedDescription	The snapshot details didn't load. Try again in a moment.
+translation.settingsPages.enterpriseEnvironmentV2Page.standaloneEnvironments	Standalone environments
+translation.settingsPages.enterpriseEnvironmentV2Page.buildScheduleUpdated	Build schedule updated
+translation.settingsPages.enterpriseEnvironmentV2Page.failedToUpdateBuildSchedule	Failed to update build schedule
+translation.settingsPages.enterpriseEnvironmentV2Page.repeatEvery	Repeat every
+translation.settingsPages.enterpriseEnvironmentV2Page.interval	Interval
+translation.settingsPages.enterpriseEnvironmentV2Page.intervalUnit	Interval unit
+translation.settingsPages.enterpriseEnvironmentV2Page.buildSchedule	Build schedule
+translation.settingsPages.enterpriseEnvironmentV2Page.allowOverride	Allow {{overrideScope}} override
+translation.settingsPages.enterpriseEnvironmentV2Page.letEnvironmentsAndOrganizationsSetTheir	Let environments and organizations set their own build schedule
+translation.settingsPages.enterpriseEnvironmentV2Page.letOrganizationsSetTheirOwnBuild	Let organizations set their own build schedule
+translation.settingsPages.enterpriseEnvironmentV2Page.noEnterprisePolicyOrganizationsUseTheir	No enterprise policy — organizations use their own schedules
+translation.settingsPages.enterpriseEnvironmentV2Page.buildTimesAreSpreadAutomaticallyAcross	Build times are spread automatically across each organization
+translation.settingsPages.enterpriseEnvironmentV2Page.saveSchedule	Save schedule
+translation.settingsPages.enterpriseEnvironmentV2Page.enterAWholeNumberGreaterThan	Enter a whole number greater than 0, or leave empty for no cap
+translation.settingsPages.enterpriseEnvironmentV2Page.maxConcurrentBuildsUpdated	Max concurrent builds updated.
+translation.settingsPages.enterpriseEnvironmentV2Page.failedToUpdateMaxConcurrentBuilds	Failed to update max concurrent builds.
+translation.settingsPages.enterpriseEnvironmentV2Page.cloneFailurePolicyUpdated	Clone failure policy updated.
+translation.settingsPages.enterpriseEnvironmentV2Page.failedToUpdateCloneFailurePolicy	Failed to update clone failure policy.
+translation.settingsPages.enterpriseEnvironmentV2Page.controlHowSnapshotBuildsAreScheduled	Control how snapshot builds are scheduled across your enterprise
+translation.settingsPages.enterpriseEnvironmentV2Page.noLimit	No limit
+translation.settingsPages.enterpriseEnvironmentV2Page.builds	builds
+translation.settingsPages.enterpriseEnvironmentV2Page.learnMoreAboutTheEnterpriseBlueprint	Learn more <spanEl>about the enterprise blueprint</spanEl>
+translation.settingsPages.enterpriseEnvironmentV2Page.learnMoreAboutEnterpriseEnvironmentSettings	Learn more <spanEl>about enterprise environment settings</spanEl>
+translation.settingsPages.enterpriseEnvironmentV2Page.defaultEvery24Hours	Default — every 24 hours
+translation.settingsPages.enterpriseEnvironmentV2Page.weekly	Weekly
+translation.settingsPages.enterpriseEnvironmentV2Page.custom	Custom
+translation.settingsPages.enterpriseEnvironmentV2Page.days	Days
+translation.settingsPages.enterpriseEnvironmentV2Page.weeks	Weeks
+translation.settingsPages.enterpriseEnvironmentV2Page.runsBeforeOrgAndRepoConfigs	Runs before organization and per-repo configurations across all organizations.
+translation.settingsPages.enterpriseEnvironmentV2Page.machineCatalog	Machine catalog
+translation.settingsPages.enterpriseEnvironmentV2Page.usingSystemDefaultRebuildsWhenOlder	Using system default — rebuilds when older than 24 hours
+translation.settingsPages.enterpriseEnvironmentV2Page.rebuildsEveryWeeks_one	Rebuilds once per week, scheduled at a different time for each organization
+translation.settingsPages.enterpriseEnvironmentV2Page.rebuildsEveryWeeks_other	Rebuilds every {{count}} weeks, scheduled at a different time for each organization
+translation.settingsPages.enterpriseEnvironmentV2Page.rebuildsEveryDays_one	Rebuilds once per day, scheduled at a different time for each organization
+translation.settingsPages.enterpriseEnvironmentV2Page.rebuildsEveryDays_other	Rebuilds every {{count}} days, scheduled at a different time for each organization
+translation.settingsPages.enterpriseEnvironmentV2Page.configuration	Configuration
+translation.settingsPages.environmentPage.configureHowDevinsEnvironmentIsSet	Configure how Devin's environment is set up for your organization. <docsLink>Learn more</docsLink>
+translation.settingsPages.environmentPage.blueprints	Blueprints
+translation.settingsPages.environmentPage.snapshots	Snapshots
+translation.settingsPages.environmentPage.advanced	Advanced
+translation.settingsPages.environmentPage.machineConfiguration	Machine configuration
+translation.settingsPages.environmentPage.outposts	Outposts
+translation.settingsPages.repositoryBlueprintEditorPage.lastCompletedBuildFailed	Last completed build failed
+translation.settingsPages.repositoryBlueprintEditorPage.skippedInLastCompletedBuild	Skipped in last completed build
+translation.settingsPages.repositoryBlueprintEditorPage.runOnEveryCommitToDefault	Run on every commit to default branch
+translation.settingsPages.repositoryBlueprintEditorPage.failedToUpdateRepositorySettings	Failed to update repository settings
+translation.settingsPages.repositoryBlueprintEditorPage.reportStatusChecksForEachCommit	Report status checks for each commit
+translation.settingsPages.repositoryBlueprintEditorPage.includeThisRepositoryToConfigureSetup	Include this repository to configure setup
+translation.settingsPages.repositoryBlueprintEditorPage.manageIntegrations	Manage integrations
+translation.settingsPages.repositoryBlueprintEditorPage.viewDetails	View details
+translation.settingsPages.repositoryBlueprintEditorPage.downloadLogs	Download logs
+translation.settingsPages.repositoryBlueprintEditorPage.buildCompleted	Build completed {{completedat}}.
+translation.settingsPages.repositoryBlueprintEditorPage.buildDidNotComplete	Build did not complete.
+translation.settingsPages.repositoryBlueprintEditorPage.youHaveBlueprints	You have {{scopedBlueprintsCount}} blueprints
+translation.settingsPages.repositoryBlueprintEditorPage.largeBlueprintListsCanGetHard	Large blueprint lists can get hard to manage. Consider consolidating related paths into a single blueprint or moving some setup back to the root environment.
+translation.settingsPages.repositoryBlueprintEditorPage.blueprint	Blueprint
+translation.settingsPages.repositoryBlueprintEditorPage.advanced	Advanced
+translation.settingsPages.repositoryBlueprintEditorPage.blueprintAdded	Blueprint {{normalized}} added
+translation.settingsPages.repositoryBlueprintEditorPage.addBlueprint	Add blueprint
+translation.settingsPages.repositoryBlueprintEditorPage.directoryPath	Directory path
+translation.settingsPages.repositoryBlueprintEditorPage.mustBeAnExistingDirectoryIn	Must be an existing directory in {{displayedRepoName}}. Used as the blueprint label
+translation.settingsPages.repositoryBlueprintEditorPage.aBlueprintAlreadyExistsForThis	A blueprint already exists for this directory.
+translation.settingsPages.repositoryBlueprintEditorPage.continue	Continue
+translation.settingsPages.repositoryBlueprintEditorPage.repoNoLongerAccessible	This repository is no longer accessible. The provider connection may have been removed or permissions revoked.
+translation.settingsPages.repositoryBlueprintEditorPage.perforceConnectionIssue	Perforce connection issue
+translation.settingsPages.repositoryBlueprintEditorPage.gitConnectionIssue	Git connection issue
+translation.settingsPages.repositoryBlueprintEditorPage.environmentDisplayedRepoName	Environment — {{displayedRepoName}}
+translation.settingsPages.repositoryBlueprintEditorPage.connectionIssueLabelReconnectRepositoryMakeChanges	{{connectionIssueLabel}} — reconnect the repository to make changes
+translation.settingsPages.repositoryBlueprintEditorPage.youDonTHavePermissionManage	You don't have permission to manage this environment
+translation.settingsPages.repositoryBlueprintEditorPage.upgradePlanAddRepositories	Upgrade your plan to add repositories
+translation.settingsPages.repositoryBlueprintEditorPage.workspacesDefinedValueUpdateSync	Workspaces are defined by {{value}} and update on sync.
+translation.settingsPages.repositoryBlueprintEditorPage.workspacesDefinedCanonicalBlueprintUpdateWhen	Workspaces are defined by the canonical blueprint and update when it changes.
+translation.settingsPages.repositoryBlueprintEditorPage.failedAddBlueprint	Failed to add blueprint
+translation.settingsPages.snapshotsPage.repositoryCount_one	{{count}} repository
+translation.settingsPages.snapshotsPage.repositoryCount_other	{{count}} repositories
+translation.settingsPages.snapshotsPage.activeImage	Active image
+translation.settingsPages.snapshotsPage.cleanImage	Clean image
+translation.settingsPages.snapshotsPage.noSnapshotHasBeenBuiltYet	No snapshot has been built yet — sessions start from Devin's base environment.
+translation.settingsPages.snapshotsPage.controlWhenNewSnapshotsAreBuilt	Control when new snapshots are built
+translation.settingsPages.snapshotsPage.autoBuildSnapshots	Auto-build snapshots
+translation.settingsPages.snapshotsPage.turnOffToStopBuildingNew	Turn off to stop building new snapshots. Existing snapshots stay intact.
+translation.settingsPages.snapshotsPage.rebuildWhenBlueprintsChangeOrOn	Rebuild when blueprints change or on a refresh schedule
+translation.settingsPages.snapshotsPage.differentialBuilds	Differential builds
+translation.settingsPages.snapshotsPage.onlyRebuildWorkspacesWhoseBlueprintsChanged	Only rebuild workspaces whose blueprints changed. Unchanged workspaces are inherited from the previous build.
+translation.settingsPages.snapshotsPage.fasterBuildsByReusingUnchangedWorkspaces	Faster builds by reusing unchanged workspaces. <docsLink>Learn more</docsLink>
+translation.settingsPages.snapshotsPage.fullBuildRefresh	Full build refresh
+translation.settingsPages.snapshotsPage.whenTheNewestFullBuildIs	When the newest full build is older than this, the next automatic build runs as a full build instead of a differential one.
+translation.settingsPages.snapshotsPage.runAFullBuildWhenThe	Run a full build when the last one is older than this
+translation.settingsPages.snapshotsPage.fullBuildRefreshInterval	Full build refresh interval
+translation.settingsPages.snapshotsPage.n00Utc	{{value}}:00 UTC
+translation.settingsPages.snapshotsPage.buildScheduleUpdated	Build schedule updated
+translation.settingsPages.snapshotsPage.failedToUpdateBuildSchedule	Failed to update build schedule
+translation.settingsPages.snapshotsPage.enterpriseDefault	Enterprise default — {{enterprisePolicy}}
+translation.settingsPages.snapshotsPage.hourUtc	Hour (UTC)
+translation.settingsPages.snapshotsPage.dayOfWeek	Day of week
+translation.settingsPages.snapshotsPage.rebuildAt	Rebuild at
+translation.settingsPages.snapshotsPage.on	On
+translation.settingsPages.snapshotsPage.at	at
+translation.settingsPages.snapshotsPage.repeatEvery	Repeat every
+translation.settingsPages.snapshotsPage.interval	Interval
+translation.settingsPages.snapshotsPage.intervalUnit	Interval unit
+translation.settingsPages.snapshotsPage.on2	on
+translation.settingsPages.snapshotsPage.buildSchedule	Build schedule
+translation.settingsPages.snapshotsPage.autoBuildIsOffSnapshotsWill	Auto-build is off — snapshots will not rebuild automatically
+translation.settingsPages.snapshotsPage.managedByYourEnterpriseAdministrator	Managed by your enterprise administrator
+translation.settingsPages.snapshotsPage.nextBuild	Next build —
+translation.settingsPages.snapshotsPage.saveSchedule	Save schedule
+translation.settingsPages.snapshotsPage.noSnapshotBuiltYetUsingDevins	No snapshot built yet — using Devin's base environment
+translation.settingsPages.snapshotsPage.poolImage	Pool image
+translation.settingsPages.snapshotsPage.noImageHasBeenBuiltYet	No image has been built yet — sessions on this pool run its base image.
+translation.settingsPages.snapshotsPage.noImageBuiltYetUsingThe	No image built yet — using the pool's base image
+translation.settingsPages.snapshotsPage.active	Active
+translation.settingsPages.snapshotsPage.whatNewSessionsRunTheActive	What new sessions run — the active snapshot per platform and each Outpost pool's image — plus build history and included repositories.
+translation.settingsPages.snapshotsPage.monday	Monday
+translation.settingsPages.snapshotsPage.tuesday	Tuesday
+translation.settingsPages.snapshotsPage.wednesday	Wednesday
+translation.settingsPages.snapshotsPage.thursday	Thursday
+translation.settingsPages.snapshotsPage.friday	Friday

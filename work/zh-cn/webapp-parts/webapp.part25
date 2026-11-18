@@ -1,0 +1,500 @@
+translation.readiness.blockerSessionsOverTime	Sessions over time
+translation.readiness.blockerAcusWastedToDate	ACUs wasted to date
+translation.readiness.findingNoSessions_one	No sessions hit this in the last day.
+translation.readiness.findingNoSessions_other	No sessions hit this in the last {{count}} days.
+translation.readiness.seenAgainAfterFix	seen again after fix
+translation.readiness.blockerNotSeenSince	Not seen since {{date}}
+translation.readiness.fixedCount_one	{{count}} fixed
+translation.readiness.fixedCount_other	{{count}} fixed
+translation.readiness.observedInCategory_one	seen in {{count}} session
+translation.readiness.observedInCategory_other	seen in {{count}} sessions
+translation.readiness.blockersLoadFailed	Blockers couldn't be loaded.
+translation.readiness.scheduleTitle	Scan schedule
+translation.readiness.scheduleEdit	Edit schedule
+translation.readiness.createReport	Create report
+translation.readiness.scheduleRepoDescription	When Devin deep-scans this repository, in your time zone.
+translation.readiness.scheduleLoadFailed	The schedule couldn't be loaded.
+translation.readiness.scheduleEnabled	Scheduled scans
+translation.readiness.scheduleScanInterval	Deep scan frequency
+translation.readiness.scheduleSaved	Schedule saved
+translation.readiness.scheduleSaveFailed	The schedule couldn't be saved.
+translation.readiness.repository	Repository
+translation.readiness.createdAgo	Created {{ago}}
+translation.readiness.runningElapsed	Running {{elapsed}}
+translation.readiness.createReportDescription	Available to all sessions across all organizations in the enterprise
+translation.readiness.selectRepositoryLabel	Select repository
+translation.readiness.agentModel	Agent model
+translation.readiness.agentModelDescription	Agent Readiness uses a specialized swarm of parallel Devin sessions. Select the mode they run in
+translation.readiness.updateFrequency	Update frequency
+translation.readiness.frequencyManual	Manual
+translation.readiness.frequencyDaily	Daily
+translation.readiness.frequencyWeekly	Weekly
+translation.readiness.frequencyDefault	Default
+translation.readiness.frequencyDailyDetail	Runs every day at <time />
+translation.readiness.frequencyWeeklyDetail	Runs every week on <weekday /> at <time />
+translation.readiness.maxScopeAdvanced	Max scope (advanced)
+translation.readiness.maxScopeHint	Max 100
+translation.readiness.scopeDescriptionCost	Up to this many scopes will be assessed. A scope is a part of your repo that builds and tests on its own, like a service, app, or library. Each scope is assessed separately, so more scopes cost more
+translation.readiness.createAssessment	Create assessment
+translation.insights.devinCoach	Devin Coach
+translation.insights.coachDescription	How your team responds to Devin's coaching, with suggestion outcomes across your organization in the last {{days}} days
+translation.insights.coachLoadError	Something went wrong while loading your organization's coach analytics.
+translation.insights.coachEmpty	Devin coaches your team as they prompt and work. Suggestion outcomes will appear here.
+translation.insights.enterpriseCoachDescription	How your enterprise responds to Devin's coaching, with suggestion outcomes across every organization in the last {{days}} days
+translation.insights.enterpriseCoachLoadError	Something went wrong while loading your enterprise's coach analytics.
+translation.insights.enterpriseCoachEmptyForOrg	No suggestion outcomes in {{org}} in the last {{days}} days.
+translation.insights.enterpriseCoachEmpty	Devin coaches your teams as they prompt and work. Suggestion outcomes will appear here.
+translation.repoSelect.askAdminToAddRepositories	Ask your admin to add repositories.
+translation.repoSelect.askAdminToConnectGitProvider	Ask your admin to connect a Git provider.
+translation.repoSelect.connectAnotherGitProvider	Connect another Git provider
+translation.repoSelect.loading	Loading…
+translation.repoSelect.noRepositoriesFound	No repositories found
+translation.repoSelect.public	Public
+translation.repoSelect.publicNotSelectable	Public repositories can't be selected here.
+translation.repoSelect.searchRepositories	Search repositories…
+translation.repoSelect.selectRepository	Select repository…
+translation.repoSelect.selectAll	Select all
+translation.repoSelect.includedInSnapshot	Included in snapshot
+translation.repoSelect.setUpOnMachine	Set up on Devin's machine
+translation.repoSelect.notSetUpOnMachine	Not set up on Devin's machine
+translation.repoSelect.indexingDisabled	Indexing disabled
+translation.repoSelect.notIndexed	Not indexed
+translation.repoSelect.lastIndexed	Last indexed {{time}}
+translation.repoSelect.indexingInProgress	Indexing in progress (last indexed {{time}})
+translation.repoSelect.indexingFailed	Indexing failed (last indexed {{time}})
+translation.repoSelect.justNow	Just now
+translation.repoSelect.recent	Recent
+translation.repoSelect.allRepositories	All repositories
+translation.repoSelect.searchBranches	Search branches…
+translation.repoSelect.loadingBranches	Loading branches…
+translation.repoSelect.noIndexedBranches	No indexed branches found
+translation.repoSelect.branchWithDefault	{{branch}} (default)
+translation.repoSelect.selectBranchCurrent	Select branch (currently {{branch}})
+translation.repoSelect.selectBranch	Select branch
+translation.repoSelect.defaultBranchValue	default branch
+translation.repoSelect.selectABranch	Select a branch…
+translation.repoSelect.selectionSummary	{{first}}, {{second}} +{{remaining}} more
+translation.scfViewer.downloadFile	Download {{filename}}
+translation.scfViewer.failedToLoadPreview	Failed to load preview
+translation.scfViewer.tooLargeToPreview	This file is too large to preview (limit {{maxSizeMb}} MB)
+translation.search.addReposToUseAsk	Add repositories to use Ask Devin
+translation.search.addRepositories	Add repositories
+translation.search.addRepositoryToUseAsk	Add repository to use Ask Devin
+translation.search.allPrivate	All private
+translation.search.allRepositories	All repositories
+translation.search.ask	Q&A
+translation.search.askDescription	Answer questions about codebase
+translation.search.askDevinAboutCode	Ask Devin questions about your code
+translation.search.auto	Auto
+translation.search.autoDescription	Automatically select mode
+translation.search.cancel	Cancel
+translation.search.characterCount	{{current}} / {{limit}} characters
+translation.search.characterLimitExceeded	- Character limit exceeded
+translation.search.codemap	Codemap
+translation.search.codemapDescription	Structured explanation grounded in code
+translation.search.connectAccount	Connect account
+translation.search.connectAccountToAccessRepos	Connect your account to access your repositories
+translation.search.connecting	Connecting…
+translation.search.constructPrompt	Construct Devin Prompt
+translation.search.continueWithoutRepos	Continue without repos
+translation.search.deep	Deep
+translation.search.deepDescription	More thorough investigation
+translation.search.deepMode	Deep mode
+translation.search.deepModeBilledTooltip	Deep mode usage is billed. All other usage remains free.
+translation.search.deepModeDescription	More thorough answers with deeper reasoning
+translation.search.deepModeSelectedLabel	Deep · {{label}}
+translation.search.deepModeUnavailableTooltip	Deep mode is unavailable when usage quota is exceeded.
+translation.search.discard	Discard
+translation.search.discardChanges	Discard unsaved changes?
+translation.search.fast	Fast
+translation.search.fastDescription	Quick and responsive answers
+translation.search.indexing	Indexing
+translation.search.lastIndexed	Last indexed
+translation.search.linkGithubAccount	Link GitHub Account
+translation.search.loadingEllipsis	Loading…
+translation.search.loadingRepositories	Loading repositories...
+translation.search.manageRepositories	Manage repositories
+translation.search.mustLinkGithubAccount	You must link your GitHub account to search your repositories.
+translation.search.name	Name
+translation.search.noPublicRepositories	No public repositories
+translation.search.noRepositoriesAvailable	No repositories available
+translation.search.accountBillingIssue	Ask Devin is not available because of a billing issue on this account
+translation.search.failedToSubmitFeedback	Failed to submit feedback
+translation.search.dropImageOnAskComposer	To attach an image, drop it on the message box
+translation.search.noRepositoriesForAsk	No repositories are available to you for Ask Devin
+translation.search.sendFailedTryAgain	Failed to send. Please try again.
+translation.search.noRepositoriesFound	No repositories found
+translation.search.noRepositoriesIndexed	No repositories indexed yet
+translation.search.noResultsFound	No results found
+translation.search.only	Only
+translation.search.onlyImageFiles	Only image files are supported (.png, .jpg, .jpeg, .gif, .webp)
+translation.search.openInGithub	Open in GitHub
+translation.search.openInSidebar	Open in sidebar
+translation.search.openPr	Open PR
+translation.search.plan	Plan
+translation.search.planDescription	Create actionable plans for tasks
+translation.search.privateCount_one	{{count}} private
+translation.search.privateCount_other	{{count}} private
+translation.search.public	Public
+translation.search.publicRepositoriesCount_one	{{count}} public repository
+translation.search.publicRepositoriesCount_other	{{count}} public repositories
+translation.search.recordVoicePrompt	Record voice prompt
+translation.search.removeQuote	Remove quote
+translation.search.repositoriesCount_one	{{count}} repository
+translation.search.repositoriesCount_other	{{count}} repositories
+translation.search.searchDeepWikiToAdd	Search DeepWiki to add public repositories
+translation.search.searchPublicRepositoriesPlaceholder	Search public repositories...
+translation.search.searchRepositoriesPlaceholder	Search repositories…
+translation.search.searching	Searching...
+translation.search.selectBranch	Select branch
+translation.search.selectReposToUseAskDevin	Select repositories to use Ask Devin
+translation.search.selectRepositories	Select repositories
+translation.search.selectRepositoriesCount_one	Select {{count}} repository
+translation.search.selectRepositoriesCount_other	Select {{count}} repositories
+translation.search.selectRepositoriesDescription	Tell Devin which repositories it should work with in your session
+translation.search.selectRepository	Select a repository
+translation.search.selectRepositoryTrigger	Select repository
+translation.search.sessionUnavailable	Session unavailable
+translation.search.sessionUnavailableDescription	You don't have access to this session, or it no longer exists.
+translation.search.startDevin	Start Devin
+translation.search.stopStreaming	Stop streaming
+translation.search.stopping	Stopping…
+translation.search.tasksProgress	{{completed}} / {{total}} tasks
+translation.search.tryDifferentSearchTerm	Try a different search term
+translation.search.viewSession	View session
+translation.search.whatQuestionsDoYouHave	What questions do you have?
+translation.search.yourRepos	Your repos
+translation.search.superuserReadonly.message	You are viewing another organization's search query in read-only mode.
+translation.search.noCodeToPreview	No code to preview
+translation.search.error	Error:
+translation.search.youveReachedTheMaximumNumberOfQueriesAllowed	You've reached the maximum number of queries allowed. Please try again later.
+translation.search.anErrorOccurredWhileRunningTheQueryPlease	An error occurred while running the query, please contact support
+translation.search.failedToCopyResponse	Failed to copy response
+translation.search.failedToCopyThread	Failed to copy thread
+translation.search.copied	Copied!
+translation.search.copyResponse	Copy response
+translation.search.copyThread	Copy thread
+translation.search.openWith	Open with {{product}}
+translation.search.selectVersion	Select {{productName}} version
+translation.search.didntOpen	Didn't open?
+translation.search.dismiss	Dismiss
+translation.search.thinking	Thinking…
+translation.search.thoughtProcess	Thought process
+translation.search.scanned	Scanned
+translation.search.scanning	Scanning
+translation.search.copyLinkToQuery	Copy link to query
+translation.search.linkCopied	Link copied!
+translation.search.hideFullText	Hide full text
+translation.search.showFullText	Show full text
+translation.search.clickToViewInRightPanel	Click to view in right panel
+translation.search.failedToLoadPromptPleaseTryAgain	Failed to load prompt. Please try again.
+translation.search.generatedDevinPrompt	Generated Devin Prompt
+translation.search.generatingPrompt	Generating prompt...
+translation.search.failedToCreateTaskPleaseTryAgain	Failed to create task. Please try again.
+translation.search.sendToDevin	Send to Devin
+translation.search.clarificationNeeded	Clarification Needed
+translation.search.failedToStartDeepSearchPleaseTryAgain	Failed to start deep search. Please try again.
+translation.search.loadingIndexes	Loading indexes…
+translation.search.knowledge	Knowledge
+translation.search.collapseKnowledge	Collapse Knowledge
+translation.search.expandKnowledge	Expand Knowledge
+translation.search.aCUs_one	{{amount}} ACU
+translation.search.aCUs_other	{{amount}} ACUs
+translation.search.querySize	Query size
+translation.search.userMessages	User messages
+translation.search.yourOrganizationHasABillingIssueSubscribeTo	Your organization has a billing issue. Subscribe to keep using Ask Devin.
+translation.search.noRepositoriesIndexedForThisOrganizationConfigureRepository	No repositories indexed for this organization. Configure repository indexing to enable search.
+translation.search.accessDeniedYouMayNotHavePermissionTo	Access denied. You may not have permission to perform this action.
+translation.search.failedToSendQueryPleaseCheckYourConnection	Failed to send query. Please check your connection and try again.
+translation.search.stillAnsweringPreviousQuestion	Devin is still answering the previous question in this thread. Send your follow-up when it finishes, or stop the answer first.
+translation.search.anErrorOccurredWhileRunningTheQuery	An error occurred while running the query.
+translation.search.moreOptions	More options
+translation.search.deleteResponse	Delete response
+translation.search.openInPlayground	Open in playground
+translation.search.generating	Generating...
+translation.search.generatingDevinPrompt	Generating Devin prompt...
+translation.search.planTitle	Plan title
+translation.search.signInToContinue	Sign in to continue
+translation.search.startingDevinSession	Starting Devin session...
+translation.search.devinSessionStarted	Devin session started
+translation.search.edit	Edit
+translation.search.startDevinSession	Start Devin session
+translation.search.openPanel	Open panel
+translation.search.closePanel	Close panel
+translation.search.scrollToBottom	Scroll to bottom
+translation.search.askAFollowUp	Ask a follow-up
+translation.search.enterAMessage	Enter a message
+translation.search.sending	Sending...
+translation.search.back	Back
+translation.search.noCodeSnippetsReferenced	No code snippets referenced
+translation.search.codeSnippets	Code snippets
+translation.search.failedToUpload	Failed to upload {{name}}
+translation.search.failedToDeleteResponse	Failed to delete response
+translation.search.failedToCancelQuery	Failed to cancel query
+translation.search.failedToCreatePromptMapping	Failed to create prompt mapping
+translation.search.failedToSendPleaseCheckIfYouAre	Failed to send. Please check if you are in the correct organization and try again.
+translation.search.failedToStartDevinSession	Failed to start Devin session
+translation.search.askFollowUpQuestion	Ask a follow-up question
+translation.search.askFollowUpOrConstructPrompt	Ask a follow-up question or construct a Devin prompt
+translation.search.desktopNext	Devin Desktop Next
+translation.search.desktopInsiders	Devin Desktop Insiders
+translation.search.desktopStable	Devin Desktop
+translation.search.basedOn	Based on: <prompt>{{prompt}}</prompt>
+translation.search.installToViewCodemaps	<installLink>Install {{productName}}</installLink> to view codemaps in your IDE.
+translation.search.searchingAcrossAll	Searching across all repositories…
+translation.search.searchedAcrossAll	Searched across all repositories
+translation.search.searchingAcrossCount_one	Searching across <reposTooltip>{{count}} repository</reposTooltip>…
+translation.search.searchingAcrossCount_other	Searching across <reposTooltip>{{count}} repositories</reposTooltip>…
+translation.search.searchedAcrossCount_one	Searched across <reposTooltip>{{count}} repository</reposTooltip>
+translation.search.searchedAcrossCount_other	Searched across <reposTooltip>{{count}} repositories</reposTooltip>
+translation.search.searchingAcrossRepos	Searching across {{repos}}…
+translation.search.searchedAcrossRepos	Searched across {{repos}}
+translation.search.openLink	Open link: {{href}}
+translation.search.goDeeper	Go deeper
+translation.search.goodResponse	Good response
+translation.search.badResponse	Bad response
+translation.search.title	Search
+translation.search.signInToUpload	Sign in to upload images
+translation.search.thinkingProcess	Thinking process
+translation.search.selectMode	Select a mode
+translation.search.thinkingLabel	Thinking
+translation.automationAccess.canConfigure	Can configure
+translation.automationAccess.canConfigureDescription	Can view, disable and delete this automation, and edit it if they can also run it
+translation.automationAccess.canConfigureDescriptionUnknown	Can configure this automation
+translation.automationAccess.canConfigureDescriptionRunsAsCreator	Can view, disable and delete this automation. Only its creator can edit it, because it runs as them
+translation.automationAccess.canManage	Can manage
+translation.automationAccess.canManageDescription	Can configure this automation and manage who has access to it
+translation.automationAccess.canView	Can view
+translation.automationAccess.canViewDescription	Can view this automation
+translation.automationAccess.description	Allow users, groups or service users to access {{name}}.
+translation.automationAccess.inheritedDescription	This access is inherited and can't be changed here
+translation.automationAccess.manageAccess	Manage access
+translation.automationAccess.removeSelfError	You can't remove your own access to manage this automation
+translation.automationAccess.searchPlaceholder	Search users, groups or service users to add
+translation.outpostAccess.canConfigure	Can configure
+translation.outpostAccess.canConfigureDescription	Can run Unified sessions on this outpost, change its settings, manage its worker credentials, and delete it
+translation.outpostAccess.canManage	Can manage
+translation.outpostAccess.canManageDescription	Can run Unified sessions on this outpost, configure it, and manage who has access to it
+translation.outpostAccess.canUse	Can use
+translation.outpostAccess.canUseDescription	Can run Unified sessions on this outpost
+translation.outpostAccess.description	Allow users, groups or service users to run Unified sessions on {{name}}.
+translation.outpostAccess.inheritedDescription	This access is inherited and can't be changed here
+translation.outpostAccess.manageAccess	Manage access
+translation.outpostAccess.manageAccessTo	Manage access to {{name}}
+translation.outpostAccess.removeSelfError	You can't remove your own access to manage this outpost
+translation.outpostAccess.searchPlaceholder	Search users, groups or service users to add
+translation.outpostConvert.action	Convert to Unified
+translation.outpostConvert.allOrganizations	All organizations
+translation.outpostConvert.confirm	Convert
+translation.outpostConvert.converted	Outpost converted to Unified
+translation.outpostConvert.converting	Converting…
+translation.outpostConvert.description	Choose an outpost to convert. This can't be undone.
+translation.outpostConvert.effectAllowList	A shared outpost's organization access becomes use grants: everyone in the account, or the members of each allowed organization, can run Unified sessions on it.
+translation.outpostConvert.effectOwner	A personal outpost's owner keeps access to use, configure, and share it.
+translation.outpostConvert.effectRefused	Conversion is refused while organization sessions are queued or running on the outpost.
+translation.outpostConvert.effectUnifiedOnly	Afterwards only Unified sessions run on it, and it is no longer managed from organization settings.
+translation.outpostConvert.effectWorker	The outpost's machines keep running, but their worker is confined to this outpost and no longer serves the account's other outposts.
+translation.outpostConvert.effectWorkerCredential	An outpost without its own worker credential is served by nobody after conversion until you create one for it.
+translation.outpostConvert.empty	No outposts left to convert.
+translation.outpostConvert.failed	Failed to convert outpost
+translation.outpostConvert.loadFailed	Failed to load outposts.
+translation.outpostConvert.organizations_one	{{count}} organization
+translation.outpostConvert.organizations_other	{{count}} organizations
+translation.outpostConvert.personal	Personal
+translation.outpostConvert.pick	Outpost
+translation.outpostConvert.title	Convert an outpost to Unified
+translation.outpostDrsImage.buildStatus.cancelled	Cancelled
+translation.outpostDrsImage.buildStatus.failed	Failed
+translation.outpostDrsImage.buildStatus.inProgress	In progress
+translation.outpostDrsImage.buildStatus.partial	Partial
+translation.outpostDrsImage.buildStatus.success	Succeeded
+translation.outpostDrsImage.disabledToast	Blueprints are off for {{name}}
+translation.outpostDrsImage.enableDescription	Turning this on starts a build for every organization that can use this outpost; each gets its own image.
+translation.outpostDrsImage.enabledToast	Blueprints are on for {{name}}
+translation.outpostDrsImage.environmentScope	Environment {{id}}
+translation.outpostDrsImage.failed	Failed to save the blueprint settings.
+translation.outpostDrsImage.kindEnvironment	Environment
+translation.outpostDrsImage.kindOrganization	Organization
+translation.outpostDrsImage.noImageYet	No image yet
+translation.outpostDrsImage.noLongerEligible	No access
+translation.outpostDrsImage.noLongerEligibleTooltip	This organization or environment can no longer use the outpost, so its builds no longer produce an image here.
+translation.outpostDrsImage.orgScope	Organization {{id}}
+translation.outpostDrsImage.unknownFailure	The last build produced no image.
+translation.outpostPools.description	Pools of your own machines that sessions run on. Choose the organizations each pool is assigned to and whether it builds blueprints.
+translation.outpostPools.drsColumn	Blueprints
+translation.outpostPools.drsOff	Off
+translation.outpostPools.drsOn	On
+translation.outpostPools.drsSwitchLabel	Build blueprints on {{name}}
+translation.outpostPools.imagesBuilt	{{built}} of {{total}} built
+translation.outpostPools.poolColumn	Pool
+translation.outpostPools.title	Outpost pools
+translation.secretAccess.canEdit	Can edit
+translation.secretAccess.canEditDescription	Can use this secret in their sessions and edit or delete it
+translation.secretAccess.canManage	Can manage
+translation.secretAccess.canManageDescription	Can use this secret in their sessions, edit or delete it, and manage who has access to it
+translation.secretAccess.canUse	Can use
+translation.secretAccess.canUseDescription	Can use this secret in their sessions
+translation.secretAccess.description	Allow users, roles or service users to use {{name}} in their sessions.
+translation.secretAccess.inheritedDescription	This access is inherited and can't be changed here
+translation.secretAccess.manageAccess	Manage access
+translation.secretAccess.removeSelfError	You can't remove your own access to manage this secret
+translation.secretAccess.searchPlaceholder	Search users, roles, teams or service users to add
+translation.secretAccess.sharedBy	Shared by {{name}}
+translation.secrets.confirmOrganizationCreate	Create organization secret?
+translation.secrets.confirmOrganizationImport	Import organization secrets?
+translation.secrets.editUnavailable	Editing is unavailable
+translation.secrets.importOrganizationSecrets	Import organization secrets
+translation.secrets.loadPolicyUpdateFailed	Failed to update when Devin can use this secret
+translation.secrets.organizationCreateDescription	Anyone in {{orgName}} will be able to use this secret in their Devin sessions.
+translation.secrets.organizationImportDescription	Anyone in {{orgName}} will be able to use these secrets in their Devin sessions.
+translation.secrets.redactColumnLabel	Redact
+translation.secrets.redactEntryLabel	Redact {{key}}
+translation.secrets.redactNewValueDescription	For security, a redacted value can't be shown again.
+To turn this off later, enter a new value
+translation.secrets.redactNewValuesDescription	For security, redacted values can't be shown again.
+To turn this off later, enter new values
+translation.secrets.redactValueDescription	For security, a redacted value can't be shown again.
+To turn this off, enter a new value
+translation.secrets.redactValueLabel	Redact value
+translation.secrets.redactValueLocked	Enter a new value first
+translation.secrets.redactValueLockedView	Click Edit, then enter a new value
+translation.secrets.requireApprovalToggleDescription	Devin asks for your approval every time it needs this secret
+translation.secrets.requireApprovalToggleLabel	Require approval before each use
+translation.secrets.scope	Scope
+translation.secrets.scopeOrganizationDescription	Shared with all members. Anyone with the Manage secrets permission can edit
+translation.secrets.scopeEveryone	Everyone in {{orgName}}
+translation.secrets.scopeGroups	Group
+translation.secrets.scopeGroupsDescription	Shared with the user groups you pick. Only you can edit
+translation.secrets.scopeGroupsEmpty	No user groups found
+translation.secrets.scopeGroupsPlaceholder	Search user groups
+translation.secrets.scopeOnlyMe	Only me
+translation.secrets.serviceUserCreateDescription	Available only to {{name}}'s sessions
+translation.secrets.storeOrganizationSecret	Store organization secret
+translation.secrets.title	Secrets
+translation.secrets.typeCookie	Cookie
+translation.secrets.typeKeyValue	Key-value
+translation.secrets.typeTotp	One-Time Password (TOTP)
+translation.secretsDialog.pastedCreate	Create secret
+translation.secretsDialog.pastedCreateFailed	Couldn't create the secret. Try again.
+translation.secretsDialog.pastedDescription	Anything in your prompt stays in the session history, where people with access can read it. Consider saving it as a secret instead.
+translation.secretsDialog.pastedInvalidName	Use letters, numbers and underscores; don't start with a number.
+translation.secretsDialog.pastedKeepAsIs	Paste as is
+translation.secretsDialog.pastedNameLabel	Secret name
+translation.secretsDialog.pastedNameTaken	A secret with this name already exists.
+translation.secretsDialog.pastedScopeInfo	Personal: only you can use it, in your own sessions. Organization: everyone in your organization can use it in their sessions.
+translation.secretsDialog.pastedTitle	This looks like a secret
+translation.secretsDialog.expiredCookiesWarning_one	<strong>{{name}}</strong> has expired.
+translation.secretsDialog.expiredCookiesWarning_other	{{count}} cookies have expired: {{cookies, list(type: unit)}}
+translation.secretsDialog.expiringCookieWarning_one	<strong>{{name}}</strong> expires in {{count}} day.
+translation.secretsDialog.expiringCookieWarning_other	<strong>{{name}}</strong> expires in {{count}} days.
+translation.secretsDialog.expiringCookiesWarning_one	{{count}} cookie expires within 1 month: {{cookies, list(type: unit)}}
+translation.secretsDialog.expiringCookiesWarning_other	{{count}} cookies expire within 1 month: {{cookies, list(type: unit)}}
+translation.secretsDialog.decodedCookies_one	{{count}} cookie decoded
+translation.secretsDialog.decodedCookies_other	{{count}} cookies decoded
+translation.secretsDialog.parsedCookies_one	{{count}} cookie parsed
+translation.secretsDialog.parsedCookies_other	{{count}} cookies parsed
+translation.secretsDialog.bulkAddError_oneLine_one	Added {{count}} secret. {{invalidCount}} invalid line left below — fix or cancel.
+translation.secretsDialog.bulkAddError_oneLine_other	Added {{count}} secrets. {{invalidCount}} invalid line left below — fix or cancel.
+translation.secretsDialog.bulkAddError_manyLines_one	Added {{count}} secret. {{invalidCount}} invalid lines left below — fix or cancel.
+translation.secretsDialog.bulkAddError_manyLines_other	Added {{count}} secrets. {{invalidCount}} invalid lines left below — fix or cancel.
+translation.secretsDialog.validationError_withLinesAndValidEntries_one	{{count}} entry has errors (line {{lines, list(type: unit)}}) — see details in the preview below. Invalid entries will be skipped when you store the remaining valid secrets.
+translation.secretsDialog.validationError_withLinesAndValidEntries_other	{{count}} entries have errors (lines {{lines, list(type: unit)}}) — see details in the preview below. Invalid entries will be skipped when you store the remaining valid secrets.
+translation.secretsDialog.validationError_withLines_one	{{count}} entry has errors (line {{lines, list(type: unit)}}) — see details in the preview below.
+translation.secretsDialog.validationError_withLines_other	{{count}} entries have errors (lines {{lines, list(type: unit)}}) — see details in the preview below.
+translation.secretsDialog.validationError_withoutLinesAndValidEntries_one	{{count}} entry has errors — see details in the preview below. Invalid entries will be skipped when you store the remaining valid secrets.
+translation.secretsDialog.validationError_withoutLinesAndValidEntries_other	{{count}} entries have errors — see details in the preview below. Invalid entries will be skipped when you store the remaining valid secrets.
+translation.secretsDialog.validationError_withoutLines_one	{{count}} entry has errors — see details in the preview below.
+translation.secretsDialog.validationError_withoutLines_other	{{count}} entries have errors — see details in the preview below.
+translation.secretsDialog.addCountSecrets_one	Add {{count}} secret
+translation.secretsDialog.addCountSecrets_other	Add {{count}} secrets
+translation.secretsDialog.addNewSecret	Add new secret
+translation.secretsDialog.addSecrets	Add secrets
+translation.secretsDialog.addToCollectionFailed_one	{{count}} secret could not be saved.
+translation.secretsDialog.addToCollectionFailed_other	{{count}} secrets could not be saved.
+translation.secretsDialog.bulkAdd	Bulk add
+translation.secretsDialog.bulkDescription	Upload a .env file or paste KEY=VALUE lines to add multiple secrets at once.
+translation.secretsDialog.bulkPlaceholder	API_KEY=your-api-key-here # Use this API Key for GitHub
+DATABASE_URL=postgresql://user:pass@localhost:5432/db # RDS on us-west-2
+ENVIRONMENT=production
+translation.secretsDialog.cancel	Cancel
+translation.secretsDialog.chooseFile	Choose a file or drag and drop
+translation.secretsDialog.collection	Collection
+translation.secretsDialog.description	Add secrets to share with the current session.
+translation.secretsDialog.maxSize	(Max size: 2MB)
+translation.secretsDialog.orgScopeTooltip	Available to everyone in your organization
+translation.secretsDialog.organization	Organization
+translation.secretsDialog.pasteSecrets	Paste secrets
+translation.secretsDialog.personal	Personal
+translation.secretsDialog.botScopeTooltip	Only {{name}} and its sessions can access these secrets
+translation.secretsDialog.personalScopeTooltip	Only you can access these secrets
+translation.secretsDialog.saveForFuture	Save for future Devin sessions. <manageLink>Manage secrets</manageLink>
+translation.secretsDialog.saveToReuse	Save these secrets to reuse in future sessions
+translation.secretsDialog.saveToSecretsManager	Save to secrets manager
+translation.secretsDialog.saveShort	Save
+translation.secretsDialog.send	Send
+translation.secretsDialog.sending	Sending…
+translation.secretsDialog.title	Send Session Secrets
+translation.secretsDialog.uploadFile	Upload file
+translation.secretsDialog.cookiePreview.expiredTitle	Expired cookies
+translation.secretsDialog.cookiePreview.expiringSoonTitle	Expiring soon
+translation.secretsDialog.cookiePreview.expired	expired
+translation.secretsDialog.cookiePreview.expires	expires
+translation.secretsDialog.cookiePreview.httpOnly	httpOnly
+translation.secretsDialog.cookiePreview.secure	secure
+translation.secretsDialog.fileTooLarge	File size must be less than 2MB
+translation.selectionBar.analyse	Analyze
+translation.selectionBar.analyseSessions	Analyze {{count}} session
+translation.selectionBar.analyseSessions_other	Analyze {{count}} sessions
+translation.selectionBar.archive	Archive
+translation.selectionBar.asksExcluded	{{count}} ask excluded — only sessions can be analyzed
+translation.selectionBar.asksExcluded_other	{{count}} asks excluded — only sessions can be analyzed
+translation.selectionBar.clearSelection	Clear selection
+translation.selectionBar.createPlaybook	Create Playbook
+translation.selectionBar.createPlaybookFromSessions	Create playbook from {{count}} session
+translation.selectionBar.createPlaybookFromSessions_other	Create playbook from {{count}} sessions
+translation.selectionBar.selectFirstSessions	Select first {{max}} sessions
+translation.selectionBar.selected	{{count}} selected
+translation.selectionBar.tooManySessions_one	Maximum {{max}} sessions ({{count}} selected)
+translation.selectionBar.tooManySessions_other	Maximum {{max}} sessions ({{count}} selected)
+translation.selectionBar.unarchive	Unarchive
+translation.selectionBar.stop	Stop
+translation.selectionBar.resume	Resume
+translation.selectionBar.createSkill	Create Skill
+translation.selectionBar.createSkillFromSessions	Create skill from {{count}} session
+translation.selectionBar.createSkillFromSessions_other	Create skill from {{count}} sessions
+translation.selectionContextMenu.searchWeb	Search the web for “{{text}}”
+translation.selectionContextMenu.selectAll	Select All
+translation.sendOptions.moreSendOptions	More send options
+translation.sendOptions.startInBackground	Start session in background
+translation.sessionStatus.awaitingApproval	Devin is awaiting approval for actions
+translation.sessionStatus.awaitingApprovalShort	Awaiting approval
+translation.sessionStatus.awaitingInstructions	Devin is awaiting instructions
+translation.sessionStatus.awaitingInstructionsShort	Awaiting instructions
+translation.sessionStatus.awaitingResponse	Devin is awaiting your response
+translation.sessionStatus.awaitingResponseDetails	Devin is awaiting your response. Type 'SLEEP' to put Devin to sleep. Devin will auto-sleep after a period of inactivity
+translation.sessionStatus.workingInBackground	Devin is working in the background
+translation.sessionStatus.checkpointRestored	Checkpoint restored
+translation.sessionStatus.dailyQuotaExceededTitle	Daily usage quota exceeded
+translation.sessionStatus.devinIsUp	Devin is up. Send a message to start working
+translation.sessionStatus.devinIsUpShort	Devin is up
+translation.sessionStatus.devinStarting	Starting up…
+translation.sessionStatus.devinThinking	Devin is thinking…
+translation.sessionStatus.goingToSleepNoReason	Going to sleep
+translation.sessionStatus.goingToSleepShort	Going to sleep…
+translation.sessionStatus.loadingHistory	Loading history…
+translation.sessionStatus.queued	Finding a machine for Devin ... Devin is waiting in the queue.
+translation.sessionStatus.queuedShort	Devin is queued
+translation.sessionStatus.quotaExceededBody	{{clause}}. Check your usage settings for details.
+translation.sessionStatus.quotaExceededClause	your {{window}} usage quota has been exceeded and you are out of on-demand usage
+translation.sessionStatus.quotaExceededClauseWithReset	your {{window}} usage quota has been exceeded and you are out of on-demand usage. Your {{window}} quota resets {{resetsIn}}
+translation.sessionStatus.quotaExceededGenericClause	your usage quota has been exceeded and you are out of on-demand usage
+translation.sessionStatus.quotaExceededTitle	Usage quota exceeded
+translation.sessionStatus.reloadingMemories	Reloading Devin’s memories…
+translation.sessionStatus.revertingCheckpoint	Devin is reverting to a previous checkpoint
+translation.sessionStatus.sessionExpired	Session expired
+translation.sessionStatus.sessionTerminated	Session terminated
+translation.sessionStatus.sessionTooOld	Session is too old to be revived
+translation.sessionStatus.goingToSleepInactivity	Going to sleep due to inactivity. Devin can be woken anytime
+translation.sessionStatus.goingToSleepNetworkConfig	Going to sleep to apply the updated network config
+translation.sessionStatus.goingToSleepOutOfCredits	Going to sleep because you're out of credits
+translation.sessionStatus.sleepingContractExpired	Devin is sleeping because your organization's Devin contract has ended. Contact your account team to renew.

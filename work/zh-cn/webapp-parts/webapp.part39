@@ -1,0 +1,500 @@
+translation.autoreviewTriggers.editUser	Change user
+translation.autoreviewTriggers.removeUser	Remove user
+translation.autoreviewTriggers.unresolvedDevinUser	This Devin user is no longer in this account.
+translation.autoreviewTriggers.discard	Discard changes
+translation.autoreviewTriggers.devinUserPlaceholder	Select a Devin user
+translation.autoreviewTriggers.literalWildcardWarning	"{{is}}" compares the exact text, so * is not a wildcard here. To match a pattern, choose "{{matches}}".
+translation.autoreviewTriggers.globHelp.path	* matches any characters within a path segment. ? matches one character. Case-insensitive.
+translation.autoreviewTriggers.globHelp.text	* matches any characters. ? matches one character. Case-insensitive.
+translation.autoreviewTriggers.selectCadence	Select analysis frequency
+translation.autoreviewTriggers.selectStart	Select when analysis starts
+translation.autoreviewTriggers.selectEffort	Select analysis effort
+translation.autoreviewTriggers.effort.with	with
+translation.autoreviewTriggers.effort.normal	Normal effort
+translation.autoreviewTriggers.effort.ultra	Ultra effort
+translation.autoreviewTriggers.effort.default	Organization default
+translation.autoreviewTriggers.effort.defaultWithLevel	Organization default ({{level}})
+translation.autoreviewTriggers.effort.shortDefault	Default
+translation.autoreviewTriggers.effort.shortDefaultWithLevel	Default ({{level}})
+translation.autoreviewTriggers.effort.defaultDescription	Uses the default effort level from Review settings.
+translation.autoreviewTriggers.effort.normalDescription	In-depth analysis that balances cost and performance.
+translation.autoreviewTriggers.effort.ultraDescription	More thorough analysis at a higher cost.
+translation.autoreviewTriggers.cadence.everyPushDescription	Analyzes the PR again on every subsequent push
+translation.autoreviewTriggers.cadence.everyPushPermissionRequired	You don’t have permission to analyze on every push. Contact your enterprise admin to request access.
+translation.autoreviewTriggers.cadence.onceDescription	Analyzes the PR once it meets the trigger conditions
+translation.autoreviewTriggers.cadence.wheneverReviewRunsDescription	Runs with every analysis of a matching PR, however it was started
+translation.autoreviewTriggers.start.checkName	CI check name
+translation.autoreviewTriggers.start.checkPassed	CI check
+translation.autoreviewTriggers.start.checkPassedDescription	Another CI check has finished and succeeded on the current commit of a ready PR.
+translation.autoreviewTriggers.start.namedCheckPassed	After {{name}} passes
+translation.autoreviewTriggers.start.prOpenDescription	The PR is opened, be it in a draft or ready to review state.
+translation.autoreviewTriggers.start.prReadyDescription	The PR is opened in a ready to review state or is marked as ready to review.
+translation.autoreviewTriggers.authorTypes.user	User
+translation.autoreviewTriggers.authorTypes.bot	Bot
+translation.autoreviewTriggers.authorTypes.devin	Devin
+translation.autoreviewTriggers.fields.author	Author
+translation.autoreviewTriggers.fields.author_type	Author type
+translation.autoreviewTriggers.fields.originated_by	Originated by Devin
+translation.autoreviewTriggers.fields.not_originated_by	Not originated by Devin
+translation.autoreviewTriggers.fields.repository	Repository
+translation.autoreviewTriggers.fields.changed_file	Changed file
+translation.autoreviewTriggers.fields.label	Label
+translation.autoreviewTriggers.fields.line_diff	Changed lines
+translation.autoreviewTriggers.fields.source_branch	Source branch
+translation.autoreviewTriggers.fields.target_branch	Target branch
+translation.autoreviewTriggers.fields.reviewer	Reviewer
+translation.autoreviewTriggers.fields.title	Title
+translation.autoreviewTriggers.noSuggestions	No suggestions found
+translation.autoreviewTriggers.loading	Loading triggers…
+translation.autoreviewTriggers.loadError	Triggers could not be loaded.
+translation.autoreviewTriggers.saveError	Triggers could not be saved.
+translation.autoreviewTriggers.retry	Retry
+translation.autoreviewTriggers.save	Save
+translation.autoreviewTriggers.saved	Triggers saved.
+translation.imageCropModal.title	Crop profile picture
+translation.imageCropModal.description	Adjust the crop area to create a square profile picture
+translation.imageCropModal.previewAlt	Crop preview
+translation.imageCropModal.cancel	Cancel
+translation.imageCropModal.confirm	Crop & save
+translation.migrations.describeTask	In one sentence, describe your migration task. We'll guide you through the rest
+translation.migrations.startFailed	Failed to start migration
+translation.migrations.openBoardFailed	Migration started, but could not open the session
+translation.gitConnectionAccess.canConfigure	Can configure
+translation.gitConnectionAccess.canShare	Can share
+translation.gitConnectionAccess.canView	Can view
+translation.gitConnectionAccess.cannotRemoveOwnAccess	You can't remove your own access to manage this connection
+translation.gitConnectionAccess.configureDescription	Can edit this connection's repository permissions and disconnect it
+translation.gitConnectionAccess.configureVerb	configure
+translation.gitConnectionAccess.inheritedFromManage	This access is inherited from the Manage Git integrations permission, which allows managing all connections
+translation.gitConnectionAccess.inheritedFromOwner	This access is inherited from an owner role, which can manage all connections
+translation.gitConnectionAccess.inheritedFromView	This access is inherited from the View Git integrations permission, which allows viewing all connections
+translation.gitConnectionAccess.searchPlaceholder	Search users, roles or teams to add
+translation.gitConnectionAccess.shareDescription	Can manage who has access to this connection
+translation.gitConnectionAccess.shareVerb	share
+translation.gitConnectionAccess.viewDescription	Can see this connection and the repositories it grants access to
+translation.gitConnectionAccess.viewVerb	view
+translation.providerTeamSync.status.stalled	Stalled
+translation.providerTeamSync.status.suspended	Suspended
+translation.providerTeamSync.status.error	Error
+translation.providerTeamSync.statusDescription.suspended	The GitHub App installation is suspended. Nothing runs until it is unsuspended on GitHub. If it already is, Mirror now checks the installation again.
+translation.providerTeamSync.health.missingPermissions	Missing permissions: {{list}}
+translation.providerTeamSync.health.missingEvents	Missing events: {{list}}
+translation.providerTeamSync.health.reviewAndAccept	Review and accept on GitHub
+translation.providerTeamSync.health.openInstallation	Open installation on GitHub
+translation.providerTeamSync.confirmDisable.mirroredUsers_one	{{count, number}} user has repository access from mirroring and loses it unless it is also granted in Devin.
+translation.providerTeamSync.confirmDisable.mirroredUsers_other	{{count, number}} users have repository access from mirroring and lose it unless it is also granted in Devin.
+translation.providerTeamSync.myRepoAccess.action	Sync repository access
+translation.providerTeamSync.myRepoAccess.failed	Couldn't sync your repository access from GitLab. Try again.
+translation.providerTeamSync.myRepoAccess.started	Repository access sync started. This can take a few minutes.
+translation.extraAccessCleanup.reviewAction	Review
+translation.extraAccessCleanup.review	Review changes
+translation.extraAccessCleanup.description	Review affected members and access before removing it. Removed access cannot be restored automatically.
+translation.extraAccessCleanup.affected	Affected members
+translation.extraAccessCleanup.unknownWarning	Provider access could not be verified for some affected members.
+translation.extraAccessCleanup.download	Download affected access
+translation.extraAccessCleanup.downloadScope	Download all affected access as CSV, regardless of search or collapsed members
+translation.extraAccessCleanup.back	Back
+translation.extraAccessCleanup.ackOther	I understand that additional repository access through this org will be removed.
+translation.extraAccessCleanup.ackUnknown	I understand that access will be removed for members whose provider access is unknown.
+translation.extraAccessCleanup.previewError	The impact preview could not be loaded. Retry or refresh the report.
+translation.extraAccessCleanup.stale	The report, access, or cleanup state changed. Refresh the report and review the changes again.
+translation.extraAccessCleanup.permissionDenied	You do not have permission to apply these changes.
+translation.extraAccessCleanup.applyError	The changes could not be started. Check for an active cleanup before trying again.
+translation.extraAccessCleanup.cancel	Cancel
+translation.extraAccessCleanup.applying	Checking access…
+translation.extraAccessCleanup.apply	Remove access
+translation.extraAccessCleanup.running	Removing access…
+translation.extraAccessCleanup.complete	Access removed. The report is being refreshed.
+translation.extraAccessCleanup.partial	Some changes failed. Successful removals were kept; refresh the report to review what remains.
+translation.extraAccessCleanup.failed	Cleanup stopped. Refresh the report and review the remaining access before trying again.
+translation.extraAccessCleanup.progress	{{done}} of {{total}} changes processed · {{failed}} failed
+translation.extraAccessCleanup.progressError	Cleanup status could not be loaded. Retry before starting another cleanup.
+translation.extraAccessReport.people	People
+translation.extraAccessReport.description	Members who can use repositories in Devin beyond their git provider access.
+translation.extraAccessReport.unknownMembers	Unknown members
+translation.extraAccessReport.asOf	As of {{time}}
+translation.extraAccessReport.noSnapshot	No completed report yet.
+translation.extraAccessReport.loadError	The report could not be loaded.
+translation.extraAccessReport.retry	Try again
+translation.extraAccessReport.noResults	No matching results.
+translation.extraAccessReport.page	Page {{page}}
+translation.extraAccessReport.mostExtra	Most extra access removed
+translation.extraAccessReport.leastOther	Least additional org access removed
+translation.extraAccessReport.action	Action
+translation.extraAccessReport.extraRemoved	Extra access
+translation.extraAccessReport.otherLost	Also removed from this org
+translation.extraAccessReport.otherLostHelp	Additional member–repository pairs losing access through this org. Removing org membership also affects session visibility. Mirrored repository access remains available in personal environments.
+translation.extraAccessReport.unknown	Unknown
+translation.extraAccessReport.repository	Repository
+translation.extraAccessReport.removeMembers	Remove direct members from <org>{{org}}</org>
+translation.extraAccessReport.removeRepositories	Remove repositories from <org>{{org}}</org>
+translation.extraAccessReport.removeTarget	Remove <target>{{target}}</target> from <org>{{org}}</org>
+translation.extraAccessReport.unavailableOrg	Unavailable organization
+translation.extraAccessReport.restrictedTarget	Restricted or unavailable resource
+translation.extraAccessReport.omitted_one	The report includes up to 500 suggested actions. {{count, number}} more action was excluded.
+translation.extraAccessReport.omitted_other	The report includes up to 500 suggested actions. {{count, number}} more actions were excluded.
+translation.extraAccessReport.member	Member
+translation.extraAccessReport.unknownHelp	Unknown members have not linked a git provider identity, so their access cannot be compared. They are not counted as extra access.
+translation.extraAccessReport.refresh	Refresh
+translation.extraAccessReport.download	Download CSV
+translation.extraAccessReport.downloadFiltered	Download filtered CSV
+translation.extraAccessReport.downloadScope	Downloads all matching rows, not just this page. Collapsed members export as individual member–repository rows.
+translation.extraAccessReport.rowCount_one	{{formattedCount}} row
+translation.extraAccessReport.rowCount_other	{{formattedCount}} rows
+translation.extraAccessReport.matchingRows_one	{{formattedCount}} matching row
+translation.extraAccessReport.matchingRows_other	{{formattedCount}} matching rows
+translation.extraAccessReport.distinctMembers_one	{{formattedCount}} distinct member
+translation.extraAccessReport.distinctMembers_other	{{formattedCount}} distinct members
+translation.extraAccessReport.reviewActions	Review cleanup actions
+translation.extraAccessReport.actionsForSearch	Actions for “{{search}}”. Review changes to see the full impact.
+translation.extraAccessReport.actionsDescription	Choose an action to review the access it removes.
+translation.extraAccessReport.requestError	The request failed. Try again.
+translation.extraAccessReport.states.off	Access Mirroring is off. Turn it on to build a report.
+translation.extraAccessReport.states.first_pass	No completed mirroring pass yet. Run mirroring before refreshing this report.
+translation.extraAccessReport.states.empty	No report yet. Refresh to build one from completed mirroring passes.
+translation.extraAccessReport.states.ready	Report ready.
+translation.extraAccessReport.states.updating	Mirroring or a report refresh is in progress. The last completed report remains available.
+translation.extraAccessReport.states.failed	The last report refresh failed. The previous report remains available; refresh to try again.
+translation.extraAccessReport.removeMemberCount_one	Remove {{count, number}} member from <org>{{org}}</org>
+translation.extraAccessReport.removeMemberCount_other	Remove {{count, number}} members from <org>{{org}}</org>
+translation.extraAccessReport.removeRepositoryCount_one	Remove {{count, number}} repository from <org>{{org}}</org>
+translation.extraAccessReport.removeRepositoryCount_other	Remove {{count, number}} repositories from <org>{{org}}</org>
+translation.extraAccessReport.repositoryCount_one	{{count, number}} repository
+translation.extraAccessReport.repositoryCount_other	{{count, number}} repositories
+translation.extraAccessReport.searchAccess	Search members or repositories
+translation.extraAccessReport.collapseMembers	Collapse by member
+translation.extraAccessReport.expandRepositories	Expand repositories
+translation.extraAccessReport.leastOtherFirst	Least additional org access removed first
+translation.extraAccessReport.accessListTitle	Extra access
+translation.extraAccessReport.refreshForAccess	Refresh the report to search member and repository access
+translation.accessMirroring.confirmOnSkipsHealthy	Connections that are already mirrored run again only if their last pass is missing, more than 24 hours old or needs attention.
+translation.accessMirroring.connectionMirrored	Repository access is mirrored
+translation.accessMirroring.connectionMirroredDescription	Access Mirroring is on for the account. Connections you add are mirrored automatically.
+translation.accessMirroring.connectionMirroredPartialDescription	This connection is mirrored, but new connections are not. Turn on mirroring for all connections in Access Mirroring.
+translation.accessMirroring.connectionNotMirrored	Repository access is not mirrored
+translation.accessMirroring.connectionNotMirroredDescription	Access Mirroring is set once for the whole account. Turn it on to mirror this connection and any you add later.
+translation.accessMirroring.open	Open Access Mirroring
+translation.accessMirroring.connectionCount_one	{{count, number}} connection
+translation.accessMirroring.connectionCount_other	{{count, number}} connections
+translation.accessMirroring.attentionCount_one	{{count, number}} needs attention
+translation.accessMirroring.attentionCount_other	{{count, number}} need attention
+translation.accessMirroring.showConnections	Show connections
+translation.accessMirroring.hideConnections	Hide connections
+translation.accessMirroring.retry	Retry
+translation.accessMirroring.needsPermissions	Needs permissions
+translation.accessMirroring.title	Access Mirroring
+translation.accessMirroring.description	Mirror repository access from your git providers across this account.
+translation.accessMirroring.toggle	Mirror repository access
+translation.accessMirroring.toggleDescription	Supported connections, including new connections, mirror repository access.
+translation.accessMirroring.partial	Some connections are using their previous mirroring settings. Turn on mirroring for all supported connections to use one account-wide setting.
+translation.accessMirroring.enableAll	Turn on for all connections
+translation.accessMirroring.confirmOn	Turn on access mirroring?
+translation.accessMirroring.refreshAll	Refresh all mirroring
+translation.accessMirroring.refreshingAll	Refreshing mirroring…
+translation.accessMirroring.confirmOnEmptyDescription	Repository access will be mirrored from supported connections added later.
+translation.accessMirroring.confirmOnDescription	Repository access will be mirrored from these connections and any supported connections added later: {{connections, list}}.
+translation.accessMirroring.needsAttention	Needs attention
+translation.accessMirroring.extraAccess	Extra access
+translation.accessMirroring.connections	Connections
+translation.accessMirroring.connectionsDescription	Review connection health and the latest mirroring pass.
+translation.accessMirroring.status	Status
+translation.accessMirroring.lastPass	Last pass
+translation.accessMirroring.repositories	Repositories
+translation.accessMirroring.groups	Groups
+translation.accessMirroring.actions	Actions
+translation.accessMirroring.noPass	No completed pass
+translation.accessMirroring.stalePass	No completed pass in the last 24 hours
+translation.accessMirroring.notSupported	Not supported
+translation.accessMirroring.running	Running
+translation.accessMirroring.off	Off
+translation.accessMirroring.healthy	Healthy
+translation.accessMirroring.offDescription	Access Mirroring is off.
+translation.accessMirroring.rateLimited	Rate limit reached
+translation.accessMirroring.runAgain	Run again
+translation.accessMirroring.partialPass	Some access was not mirrored
+translation.accessMirroring.paused	Paused
+translation.accessMirroring.waiting	Waiting for first pass
+translation.accessMirroring.runNow	Run now
+translation.accessMirroring.runFor	Run mirroring for {{connection}}
+translation.accessMirroring.runFailed	Could not start mirroring. Try again.
+translation.accessMirroring.runForbidden	You do not have permission to run mirroring for this connection.
+translation.accessMirroring.allConnections	All connections
+translation.accessMirroring.searchConnections	Search connections
+translation.accessMirroring.filterConnections	Filter by status
+translation.accessMirroring.noMatchingConnections	No matching connections
+translation.accessMirroring.connectionPage	Page {{page, number}} of {{pages, number}}
+translation.providerSyncPolicy.loadFailed	Could not load the access mirroring policy.
+translation.providerSyncPolicy.updateFailed	Could not update the access mirroring policy.
+translation.providerSyncPolicy.noConnections	No git connections yet.
+translation.providerSyncPolicy.confirmOff.title	Turn off access mirroring?
+translation.providerSyncPolicy.confirmOff.description	Devin stops mirroring every connection and removes the repository access that mirroring created. Access granted in Devin is not affected.
+translation.providerSyncPolicy.confirmOff.confirm	Turn off
+translation.systemNotifications.needsAttention	Devin needs your attention
+translation.systemNotifications.blocked	Devin has stopped and is waiting for your input
+translation.systemNotifications.waiting	Devin is waiting for your input to proceed
+translation.systemNotifications.finishedWorking	Finished working
+translation.systemNotifications.waitingForInput	Waiting for your input
+translation.systemNotifications.untitled	Untitled conversation
+translation.adminPlg.experimental	Experimental
+translation.adminPlg.pageDescription	Compare GitHub organization owners and users with Devin users in this enterprise.
+translation.adminPlg.description	Membership is fetched only when requested; results are not stored by these tools. Matches prefer the provider username on the exact host, then public profile email. Public email is informational only, not proof of identity ownership or authorization. GitHub Apps need organization Members read-only permission.
+translation.adminPlg.superusersOnly	This experimental tool is available to superusers only.
+translation.adminPlg.loadingApps	Loading GitHub Apps...
+translation.adminPlg.appsError	Failed to load GitHub Apps. Try again.
+translation.adminPlg.noApps	No GitHub Apps are connected to this enterprise.
+translation.adminPlg.toolsLabel	PLG tools
+translation.adminPlg.ownersTab	Org owners
+translation.adminPlg.usersTab	Organization users
+translation.adminPlg.ownersTitle	Org owners
+translation.adminPlg.ownersDescription	Fetch owners of selected GitHub organizations connected to this enterprise and see which of them are Devin users.
+translation.adminPlg.ownersScope_one	Scope: {{count}} connected GitHub organization. Personal user installations are skipped.
+translation.adminPlg.ownersScope_other	Scope: {{count}} connected GitHub organizations. Personal user installations are skipped.
+translation.adminPlg.ownersHint	Select organizations, then fetch their owners. Only owner pages are requested, never general member pages.
+translation.adminPlg.selectOrganizations	Organizations to query
+translation.adminPlg.selectAll	Select all
+translation.adminPlg.deselectAll	Deselect all
+translation.adminPlg.selectedOrganizations_one	{{count}} of {{total}} organizations selected
+translation.adminPlg.selectedOrganizations_other	{{count}} of {{total}} organizations selected
+translation.adminPlg.selectionHint	Changing the selection clears previous results and CSV data. Selection is locked while fetching.
+translation.adminPlg.noOrganizationApps	No GitHub organization installations are connected to this enterprise.
+translation.adminPlg.fetchOwners	Fetch selected org owners
+translation.adminPlg.refetchOwners	Fetch selected again
+translation.adminPlg.cancel	Cancel
+translation.adminPlg.cancelSource	Cancel source
+translation.adminPlg.retrySource	Retry source
+translation.adminPlg.retryFailedOrgs_one	Retry {{count}} failed organization
+translation.adminPlg.retryFailedOrgs_other	Retry {{count}} failed organizations
+translation.adminPlg.downloadOwnersCsv	Download loaded owners as CSV
+translation.adminPlg.ownersProgress	{{done}} of {{total}} organizations finished
+translation.adminPlg.ownerCount_one	{{count}} owner loaded
+translation.adminPlg.ownerCount_other	{{count}} owners loaded
+translation.adminPlg.ownersScopeComplete	Complete: all selected organizations were fetched.
+translation.adminPlg.ownersScopePartial	Partial: results do not yet cover every selected organization.
+translation.adminPlg.ownersPartialError_one	{{count}} organization could not be fetched completely. Rows below are partial until it is retried.
+translation.adminPlg.ownersPartialError_other	{{count}} organizations could not be fetched completely. Rows below are partial until they are retried.
+translation.adminPlg.orgStatusLoading	Fetching · {{pages}} pages
+translation.adminPlg.orgStatusComplete	Complete
+translation.adminPlg.orgStatusError	Failed
+translation.adminPlg.orgStatusCancelled	Cancelled
+translation.adminPlg.repeatedCursorOwners	Provider pagination did not advance for this source; owners after that page were not fetched.
+translation.adminPlg.loadingOwners	Fetching owners...
+translation.adminPlg.noOwners	No owners found.
+translation.adminPlg.githubOrganization	GitHub organization
+translation.adminPlg.ownerColumn	Owner
+translation.adminPlg.devinUser	Devin user
+translation.adminPlg.matchMethod	Match method
+translation.adminPlg.matchGithubHandle	GitHub handle
+translation.adminPlg.matchPublicEmail	Public email
+translation.adminPlg.matchNone	No match
+translation.adminPlg.onboardingStatus	Onboarding: {{status}}
+translation.adminPlg.noPublicEmail	No public email
+translation.adminPlg.usersTitle	Organization users
+translation.adminPlg.usersDescription	Browse the owners and members of one GitHub organization, one page at a time, and compare them with Devin users.
+translation.adminPlg.usersHint	Click retrieve users to fetch the first page. No membership request is made until you do.
+translation.adminPlg.selectOrganization	Select a GitHub organization
+translation.adminPlg.selectHint	Select a GitHub organization to browse its users.
+translation.adminPlg.installation	Installation {{id}}
+translation.adminPlg.retrieveUsers	Retrieve users
+translation.adminPlg.retrieving	Retrieving...
+translation.adminPlg.refresh	Refresh
+translation.adminPlg.usersError	Could not retrieve users: {{error}}
+translation.adminPlg.githubUser	GitHub user
+translation.adminPlg.orgRole	Role
+translation.adminPlg.owner	Owner
+translation.adminPlg.member	Member
+translation.adminPlg.unknown	Unknown
+translation.adminPlg.searchOrganizations	Search organizations...
+translation.adminPlg.noMatchingOrganizations	No matching organizations.
+translation.adminPlg.previousPage	Previous page
+translation.adminPlg.nextPage	Next page
+translation.adminPlg.retry	Retry
+translation.adminPlg.downloadUsersPageCsv	Download this page as CSV
+translation.adminPlg.pageStatus_one	Page {{page}} · {{count}} user
+translation.adminPlg.pageStatus_other	Page {{page}} · {{count}} users
+translation.adminPlg.repeatedCursorUsers	Provider pagination did not advance; the next page is unavailable.
+translation.adminPlg.loadingUsers	Fetching users...
+translation.adminPlg.noUsers	No users on this page.
+translation.adminLoadError.notOnAccessList	You're not on this account's access list
+translation.adminLoadError.askOwner	Ask {{owner}} to add you to the account to view this.
+translation.adminLoadError.askAccountOwner	Ask the account's owner to add you to the account to view this.
+translation.adminLoadError.viewAccessList	View access list
+translation.adminLoadError.reauthTitle	Log in again to view this
+translation.adminLoadError.reauthDescription	This needs a recent Okta login.
+translation.adminLoadError.reauthAction	Log in with Okta
+translation.adminLoadError.retry	Try again
+translation.adminLocalSessions.title	Local sessions
+translation.adminLocalSessions.experimental	Experimental
+translation.adminLocalSessions.pageDescription	Sessions reconstructed from the CLI telemetry this enterprise exports. Prompts and responses appear only when the export policy includes them.
+translation.adminLocalSessions.listError	Could not load sessions.
+translation.adminLocalSessions.loadMoreError	Could not load more sessions.
+translation.adminLocalSessions.empty	No exported sessions.
+translation.adminLocalSessions.loading	Loading…
+translation.adminLocalSessions.loadMore	Load more
+translation.adminLocalSessions.selectPrompt	Select a session to view its transcript.
+translation.adminLocalSessions.transcriptError	Could not load this transcript.
+translation.adminLocalSessions.unreadable	This transcript is not in a format this page understands.
+translation.adminLocalSessions.stepCount_one	{{count}} step
+translation.adminLocalSessions.stepCount_other	{{count}} steps
+translation.adminLocalSessions.truncated	Only the first part of this session was read.
+translation.adminLocalSessions.nothingToShow	Nothing to show.
+translation.adminPlgGitlab.tab	GitLab
+translation.adminPlgGitlab.title	GitLab groups and projects
+translation.adminPlgGitlab.description	Reads GitLab as one enterprise user, using the GitLab OAuth identity they already connected. Nothing is stored; each page is a live read with that user's own permissions. Owner emails come from the GitLab members and public profile APIs and are informational only, not proof of identity ownership or authorization.
+translation.adminPlgGitlab.loadingProfiles	Loading connected GitLab profiles...
+translation.adminPlgGitlab.profilesError	Failed to load GitLab profiles. Try again.
+translation.adminPlgGitlab.noProfiles	No enterprise user has connected a GitLab identity.
+translation.adminPlgGitlab.profilesTruncated	Only the first {{count}} GitLab profiles are listed; this enterprise has more.
+translation.adminPlgGitlab.selectProfile	Select a GitLab profile
+translation.adminPlgGitlab.searchProfiles	Search profiles
+translation.adminPlgGitlab.noMatchingProfiles	No matching profiles
+translation.adminPlgGitlab.selectHint	Select a profile to read the groups and projects it can see.
+translation.adminPlgGitlab.readAsUser	Reading as {{user}}
+translation.adminPlgGitlab.groupsTab	Groups
+translation.adminPlgGitlab.projectsTab	Projects
+translation.adminPlgGitlab.loadOwners_one	Load owners for {{count}} selected
+translation.adminPlgGitlab.loadOwners_other	Load owners for {{count}} selected
+translation.adminPlgGitlab.downloadCsv	Download CSV of selection
+translation.adminPlgGitlab.resourcesError	GitLab read failed: {{error}}
+translation.adminPlgGitlab.repeatedCursor	GitLab returned a cursor already visited; pagination stopped to avoid a loop.
+translation.adminPlgGitlab.groupColumn	Group
+translation.adminPlgGitlab.projectColumn	Project
+translation.adminPlgGitlab.visibilityColumn	Visibility
+translation.adminPlgGitlab.ownersColumn	Owners and maintainers
+translation.adminPlgGitlab.loadingResources	Loading...
+translation.adminPlgGitlab.noResources	Nothing visible to this profile.
+translation.adminPlgGitlab.archived	Archived
+translation.adminPlgGitlab.loadingOwners	Loading owners...
+translation.adminPlgGitlab.ownersNotLoaded	Not retrieved
+translation.adminPlgGitlab.noOwners	No owners or maintainers
+translation.adminPlgGitlab.ownersTruncated	More owners exist than were retrieved.
+translation.adminPlgGitlab.noEmail	No email
+translation.adminPlgGitlab.selectResourcesHint	Groups and projects load automatically. Select one or many, then load their owners.
+translation.adminPlgGitlab.loadedCount	{{loaded}} loaded · {{selected}} selected
+translation.adminPlgGitlab.selectAllLoaded	Select all loaded
+translation.adminPlgGitlab.deselectAll	Deselect all
+translation.adminPlgGitlab.loadMore	Load more
+translation.adminPlgGitlab.clearSelection	Clear selection
+translation.adminPlgGitlab.resourceColumn	Group or project
+translation.adminPlgGitlab.noSelection	Select groups or projects above to see their owners here.
+translation.agents.agentOptions	Agent options
+translation.agents.connectorUnavailable	{{name}} is not running. Start it to continue this session.
+translation.agents.local	Local
+translation.agents.introDescribeTask	Describe your task to Devin
+translation.agents.introStartSession	Start a new {{agent}} session
+translation.agents.introTrustFolder	Trust this folder to use Devin Local
+translation.agents.connectorUnknown	{{name}} is not one of this window's agents.
+translation.agents.agentDisabledTitle	{{name}} is disabled
+translation.agents.agentDisabledTitleUnnamed	This session's agent is disabled
+translation.agents.agentDisabledDescription	Enable it in Agents settings to continue this session.
+translation.agents.openAgentSettings	Open Agents settings
+translation.agents.connectorNoAccount	Signing in…
+translation.agents.failedToStartLocalSession	Failed to start the local session. Please try again.
+translation.agents.agentFailedToStartLocalSession	{{agent}} couldn't start the session
+translation.agents.failedToSendLocalMessage	Couldn't send your message to the local agent.
+translation.agents.unsupportedImageFormat	Unsupported image format for {{name}}. Only PNG, JPG, GIF, and SVG are allowed.
+translation.agents.imageProcessingFailed	Error processing image {{name}}: {{message}}
+translation.agents.modelDoesNotSupportImages	This model does not support images. You can remove them or switch to a model that does.
+translation.agents.firstPromptTooLarge	This message is too large to start the session. Remove some attachments or shorten it, then send again.
+translation.agents.inlineImageLimitReached	Cannot add more images. Maximum of {{limit}} images allowed.
+translation.agents.inlineImagesSkipped_one	{{count}} image was skipped.
+translation.agents.inlineImagesSkipped_other	{{count}} images were skipped.
+translation.agents.inlineImageLimitPartial_one	Only uploading first {{remaining}} image due to {{limit}} image limit. {{skipped}}
+translation.agents.inlineImageLimitPartial_other	Only uploading first {{remaining}} images due to {{limit}} image limit. {{skipped}}
+translation.agents.cloud	Cloud
+translation.agents.chooseWhereToRun	Choose where the session runs
+translation.agents.localAgentNotConnected	The local agent is not connected.
+translation.agents.localAgentsOffUntrusted	Local agents are off because this workspace is in Restricted Mode.
+translation.agents.localNeedsTrust	Local agents are off in Restricted Mode. Select Local to trust this workspace.
+translation.agents.trustWorkspace	Trust workspace
+translation.agents.trustFolder	Trust folder
+translation.agents.chooseAgent	Choose an agent
+translation.agents.sessionFolder	Session folder
+translation.agents.worktreeOf	Worktree of {{path}}
+translation.agents.addFolder	Add folder…
+translation.agents.workingDirectory	Working directory
+translation.agents.selectedFolders_one	{{count}} folder
+translation.agents.selectedFolders_other	{{count}} folders
+translation.agents.recentFolders	Recent
+translation.agents.noFolderSelected	Choose a folder
+translation.agents.chooseFolderToStart	Choose a folder to run the session in
+translation.agents.waitForRemoteHost	Wait for the remote host to connect
+translation.agents.reconnectHostToStart	{{name}} is disconnected. Reconnect it to start a session there.
+translation.agents.waitForLocalAgent	Wait for Devin Local to connect
+translation.agents.localAgentDisabled	{{name}} is disabled. Enable it in Agents settings to start a session.
+translation.agents.selectOrganizationToStartCloudSession	Select an organization to start a Devin Cloud session
+translation.agents.connectingToHost	Connecting to {{name}}…
+translation.agents.model	Model
+translation.agents.mode	Mode
+translation.agents.failedToPickFolder	Couldn't open the folder picker.
+translation.agents.failedToUpdateConfig	Couldn't apply that setting to the local agent.
+translation.agents.worktree	Worktree
+translation.agents.openWorktree	Open worktree
+translation.agents.newWorktree	New worktree
+translation.agents.searchWorktrees	Search worktrees
+translation.agents.loadingWorktrees	Loading worktrees…
+translation.agents.noWorktreesFound	No worktrees found
+translation.agents.worktreesRequireWorkspace	Worktrees require a workspace
+translation.agents.worktreesRequireRepository	Worktrees require a Git repository
+translation.agents.failedToCreateWorktree	Failed to create worktree: {{message}}
+translation.agents.creatingWorktree	Creating worktree…
+translation.agents.worktreeFailed	Worktree failed
+translation.agents.remoteAgentHosts	Remote agent hosts
+translation.agents.connectRemoteHost	Connect to remote host…
+translation.agents.remoteHostConnected	Connected
+translation.agents.remoteHostConnecting	Connecting
+translation.agents.remoteHostDisconnected	Disconnected
+translation.agents.remoteHostError	Connection failed
+translation.agents.remoteHostNoAgents	Connected, no agents
+translation.agents.remoteHostConfigProblems	Connected, with config problems
+translation.agents.remoteHostMoreActions	More actions for {{name}} ({{transport}})
+translation.agents.remoteHostReconnect	Reconnect
+translation.agents.remoteHostDisconnect	Disconnect
+translation.agents.remoteHostRemove	Remove
+translation.agents.remoteHostOffersNoAgent	{{name}}: the host offers no agent.
+translation.agents.remoteHostDoesNotOfferAgent	{{name}}: the host does not offer {{agent}}.
+translation.agents.remoteHostFailed	{{name}}: {{message}}
+translation.agents.remoteHostsUnavailable	{{name}}: remote hosts are unavailable in this window.
+translation.messageHistory.outpostWaiting.viewOutposts	View outposts
+translation.messageHistory.outpostWaiting.queuedTitle	Waiting for your outpost to come online
+translation.messageHistory.outpostWaiting.queuedBody	This session is queued on your outpost and no machine has picked it up yet. This is your organization's own outpost, not a Devin outage — Devin will keep waiting and start as soon as a machine connects.
+translation.messageHistory.outpostWaiting.queuedBody_named	This session is queued on your outpost "{{outpostName}}" and no machine has picked it up yet. This is your organization's own outpost, not a Devin outage — Devin will keep waiting and start as soon as a machine connects.
+translation.messageHistory.outpostWaiting.claimedTitle	Your outpost machine is connecting
+translation.messageHistory.outpostWaiting.claimedBody	A worker in your outpost accepted this session and is connecting. Devin is ready and will start as soon as your machine connects.
+translation.messageHistory.outpostWaiting.claimedBody_named	A worker in your outpost "{{outpostName}}" accepted this session and is connecting. Devin is ready and will start as soon as your machine connects.
+translation.messageHistory.outpostWaiting.stalledTitle	Your outpost machine hasn't connected
+translation.messageHistory.outpostWaiting.stalledBody	A worker in your outpost accepted this session but hasn't connected in time. Check that your outpost workers are running and healthy — Devin will keep waiting until a machine connects.
+translation.messageHistory.outpostWaiting.stalledBody_named	A worker in your outpost "{{outpostName}}" accepted this session but hasn't connected in time. Check that your outpost workers are running and healthy — Devin will keep waiting until a machine connects.
+translation.messageHistory.outpostWaiting.failedTitle	Your outpost couldn't start a machine for this session
+translation.messageHistory.outpostWaiting.failedBody	A worker in your outpost accepted this session but could not start its machine, so it gave the session up. Fix the cause (for example, make sure the image can be pulled, or rebuild the environment image) and start the session again.
+translation.messageHistory.outpostWaiting.failedBody_named	A worker in your outpost "{{outpostName}}" accepted this session but could not start its machine, so it gave the session up. Fix the cause (for example, make sure the image can be pulled, or rebuild the environment image) and start the session again.
+translation.sessionAnalysis.suggestedActions	Suggested actions
+translation.sessionAnalysis.goToMachine	Go to machine
+translation.sessionAnalysis.startNewSession	Start new session
+translation.sessionAnalysis.knowledgeUsage.helpText	Knowledge helps Devin remember relevant facts, tips, and how to perform certain skills. Devin will recall relevant knowledge automatically
+translation.sessionAnalysis.knowledgeUsage.misleading	Misleading Knowledge ({{count}})
+translation.sessionAnalysis.knowledgeInsights.title	Knowledge insights
+translation.sessionAnalysis.knowledgeInsights.description	Evaluates how well knowledge retrieval matched this session's needs. This is an internal staging-only feature.
+translation.sessionAnalysis.knowledgeInsights.f1	F1 score
+translation.sessionAnalysis.knowledgeInsights.f1Desc	Harmonic mean of precision and recall
+translation.sessionAnalysis.knowledgeInsights.precision	Precision
+translation.sessionAnalysis.knowledgeInsights.precisionDesc	{{retrieved}} of {{evaluated}} evaluated retrieved items were relevant
+translation.sessionAnalysis.knowledgeInsights.recall	Recall
+translation.sessionAnalysis.knowledgeInsights.recallDesc	{{retrieved}} of {{total}} relevant items were retrieved
+translation.sessionAnalysis.knowledgeInsights.totalItems_one	{{count}} total knowledge item
+translation.sessionAnalysis.knowledgeInsights.totalItems_other	{{count}} total knowledge items
+translation.sessionAnalysis.knowledgeInsights.retrievedCount	{{count}} retrieved
+translation.sessionAnalysis.knowledgeInsights.relevantCount	{{count}} relevant
+translation.sessionAnalysis.knowledgeInsights.correctlyRetrieved	Correctly retrieved ({{count}})
+translation.sessionAnalysis.knowledgeInsights.incorrectlyRetrieved	Incorrectly retrieved ({{count}})
+translation.sessionAnalysis.knowledgeInsights.notEvaluated	Not evaluated ({{count}})
+translation.sessionAnalysis.knowledgeInsights.missedRelevant	Missed relevant knowledge ({{count}})
+translation.sessionAnalysis.skillsInsights.title	Skills insights
+translation.sessionAnalysis.skillsInsights.description	Evaluates how well skill invocation matched this session's needs. This is an internal staging-only feature.
+translation.sessionAnalysis.skillsInsights.f1	F1 score
+translation.sessionAnalysis.skillsInsights.f1Desc	Harmonic mean of precision and recall
+translation.sessionAnalysis.skillsInsights.precision	Precision
+translation.sessionAnalysis.skillsInsights.precisionDesc	{{invoked}} of {{evaluated}} evaluated invoked skills were relevant
+translation.sessionAnalysis.skillsInsights.recall	Recall
+translation.sessionAnalysis.skillsInsights.recallDesc	{{invoked}} of {{total}} relevant skills were invoked
+translation.sessionAnalysis.skillsInsights.availableCount_one	{{count}} available skill
+translation.sessionAnalysis.skillsInsights.availableCount_other	{{count}} available skills

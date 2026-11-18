@@ -1,0 +1,499 @@
+translation.adminJobs.enqueue.task	任务
+translation.adminJobs.enqueue.accountSystem	无账户（系统）
+translation.adminJobs.enqueue.accountFromArgs	取参数中的账户
+translation.adminJobs.enqueue.maxAttempts_one	最多 {{count}} 次尝试
+translation.adminJobs.enqueue.maxAttempts_other	最多 {{count}} 次尝试
+translation.adminJobs.enqueue.timeout	超时 {{seconds}} 秒
+translation.adminJobs.enqueue.showSchema	显示参数模式
+translation.adminJobs.enqueue.hideSchema	隐藏参数模式
+translation.adminJobs.enqueue.args	参数（JSON）
+translation.adminJobs.enqueue.argsHelpFromArgs	已从任务的参数模型预填全部字段名；入队时会按其校验。任务的账户取自参数中的 account_id。
+translation.adminJobs.enqueue.argsHelpUnknown	账户模式 \\
+translation.adminJobs.info.queue	队列
+translation.adminJobs.info.schedule	计划
+translation.adminJobs.info.nextRun	下次运行
+translation.adminJobs.info.account	账户
+translation.adminJobs.info.accountFromArgs	取参数中的 account_id
+translation.adminJobs.info.accountSystem	系统（无账户）
+translation.adminJobs.info.maxAttempts	最大尝试次数
+translation.adminJobs.info.timeout	超时
+translation.adminJobs.info.holdSetBy	由 {{by}} 于 {{at}} 设置
+translation.adminJobs.info.noHold	无
+translation.adminJobs.requests.action	申请入队…
+translation.adminJobs.requests.title	申请任务入队
+translation.adminJobs.requests.description	只有标记为可申请的任务才能被申请。另一位 jobs.request 持有者可审阅该任务及这些确切参数，批准后任务才会入队。参数随请求存储，但不会发到 Slack 或审计日志。
+translation.adminJobs.requests.noTasks	此构建中没有可申请的任务。
+translation.adminJobs.requests.reason	原因
+translation.adminJobs.requests.reasonHelp	会在 Slack 中展示给审批人，并记入审计日志。
+translation.adminJobs.requests.reasonRequired	请输入原因
+translation.adminJobs.requests.taskRequired	请选择任务
+translation.adminJobs.requests.submit	申请…
+translation.adminJobs.requests.confirmTitle	申请入队 {{task}}？
+translation.adminJobs.requests.confirmDescription	审批人会在 Slack 中看到任务、队列、账户和原因，并在请求页看到这些参数。批准前不会运行任何内容。
+translation.adminJobs.requests.confirm	发送申请
+translation.adminJobs.requests.created	申请 {{requestId}} 已发送待批
+translation.adminJobs.requests.sectionTitle	入队申请
+translation.adminJobs.requests.sectionHelp	jobs.request 持有者发起的任务入队申请。除申请人外的任一 jobs.request 持有者可批准或拒绝；批准后按存储的参数精确入队。待处理申请 24 小时后过期。
+translation.adminJobs.requests.filterAll	全部
+translation.adminJobs.requests.filterPending	待处理
+translation.adminJobs.requests.empty	没有入队申请。
+translation.adminJobs.requests.emptyPending	没有待处理的入队申请。
+translation.adminJobs.requests.columnRequester	申请人
+translation.adminJobs.requests.columnTask	任务
+translation.adminJobs.requests.columnReason	原因
+translation.adminJobs.requests.columnStatus	状态
+translation.adminJobs.requests.columnCreated	创建时间
+translation.adminJobs.requests.columnDecision	决定
+translation.adminJobs.requests.review	审阅
+translation.adminJobs.requests.reviewNamed	审阅申请 {{requestId}}
+translation.adminJobs.requests.pageTitle	入队申请
+translation.adminJobs.requests.backToJobs	全部任务
+translation.adminJobs.requests.status.pending	待处理
+translation.adminJobs.requests.status.approved	已批准
+translation.adminJobs.requests.status.denied	已拒绝
+translation.adminJobs.requests.status.expired	已过期
+translation.adminJobs.requests.status.failed	入队失败
+translation.adminJobs.requests.detailTask	任务
+translation.adminJobs.requests.detailQueue	队列
+translation.adminJobs.requests.detailAccount	账户
+translation.adminJobs.requests.detailRequester	申请人
+translation.adminJobs.requests.detailReason	原因
+translation.adminJobs.requests.detailArgs	参数
+translation.adminJobs.requests.detailArgsHelp	按申请时任务的参数模型校验通过；批准后精确按这些参数入队。
+translation.adminJobs.requests.detailDedupeKey	去重键
+translation.adminJobs.requests.detailCreated	创建时间
+translation.adminJobs.requests.detailExpires	过期时间
+translation.adminJobs.requests.detailDecision	决定
+translation.adminJobs.requests.decidedBy	{{approver}} 于 {{at}} {{status}}
+translation.adminJobs.requests.expiredAt	已于 {{at}} 过期，未做决定
+translation.adminJobs.requests.enqueuedJob	已入队为任务 {{jobId}}
+translation.adminJobs.requests.deduplicatedJob	已批准，但已存在相同去重键的待处理任务；未新增入队。
+translation.adminJobs.requests.failureReason	入队失败：{{reason}}
+translation.adminJobs.requests.ownRequest	这是你发起的申请，须由其他人决定。
+translation.adminJobs.requests.approve	批准并入队
+translation.adminJobs.requests.deny	拒绝
+translation.adminJobs.requests.approveTitle	批准并入队 {{task}}？
+translation.adminJobs.requests.approveDescription	按所示参数精确入队，与直接入队同路径。需要近期登录；可能会要求你重新认证后再点一次“批准”。
+translation.adminJobs.requests.denyTitle	拒绝申请 {{requestId}}？
+translation.adminJobs.requests.denyDescription	申请人会在 Slack 中收到通知。不会有任务入队。
+translation.adminJobs.requests.approved	已批准：任务 {{jobId}} 已入队到 {{queue}}
+translation.adminJobs.requests.approvedDeduplicated	已批准；已存在相同去重键的待处理任务
+translation.adminJobs.requests.denied	申请已拒绝
+translation.adminJobs.jobLookup.label	按 ID 查找任务
+translation.adminJobs.jobLookup.open	打开
+translation.adminJobs.tabs.operations	操作
+translation.adminJobs.tabs.activity	动态
+translation.adminJobs.task.activity	动态
+translation.adminJobs.task.details	详情
+translation.adminJobs.task.arguments	参数
+translation.adminJobs.task.bulkEnqueue	批量入队…
+translation.adminJobs.task.breadcrumbRoot	任务
+translation.accountTerms.admin.title	点选条款
+translation.accountTerms.admin.description	由一位账户管理员代表整个账户接受。执行在 webapp 中。
+translation.accountTerms.admin.loading	正在加载条款设置…
+translation.accountTerms.admin.loadFailed	无法加载条款设置。
+translation.accountTerms.admin.saveFailed	无法保存条款设置。
+translation.accountTerms.admin.exportFailed	无法导出条款凭证，请重试。
+translation.accountTerms.admin.requireAcceptance	要求接受
+translation.accountTerms.admin.blockNonAdmins	在接受前阻止非管理员
+translation.accountTerms.admin.termsUrl	条款 URL（HTTPS）
+translation.accountTerms.admin.linkLabel	条款链接文字
+translation.accountTerms.admin.accepted	当前条款已接受
+translation.accountTerms.admin.notAccepted	当前条款未接受
+translation.accountTerms.admin.save	保存条款设置
+translation.accountTerms.admin.export	导出接受凭证
+translation.accountTerms.admin.confirmTitle	保存点选条款设置？
+translation.accountTerms.admin.confirmRequired	未接受此条款 URL 和链接文字的账户将被限制。更改任一内容都需要重新接受。
+translation.accountTerms.admin.confirmNotRequired	此账户将不再要求接受条款。现有凭证会保留。
+translation.accountTerms.admin.confirmSave	保存设置
+translation.accountTerms.title	审阅你的账户条款
+translation.accountTerms.description	使用 Devin 前，需要一位管理员接受此账户的条款。一次接受覆盖账户内所有人。
+translation.accountTerms.waitingTitle	你的账户需要管理员接受条款
+translation.accountTerms.waitingDescription	请让一位账户管理员登录并接受条款。接受后你才能继续。
+translation.accountTerms.account	账户：{{accountName}}
+translation.accountTerms.authority	点击接受即表示你确认自己有权代表本账户接受这些条款。
+translation.accountTerms.accept	接受并继续
+translation.accountTerms.accepting	正在保存接受记录…
+translation.accountTerms.acceptFailed	无法保存你的接受记录。请审阅当前条款后重试。
+translation.accountTerms.checkAgain	再次检查
+translation.accountTerms.switchAccount	切换账户
+translation.accountTerms.signOut	退出登录
+translation.mcpAvailableServers.allServers	全部服务器
+translation.mcpAvailableServers.addCustomMcp	添加自定义 MCP
+translation.mcpAvailableServers.noMcpServersFound	未找到 MCP 服务器
+translation.mcpAvailableServers.recommended	推荐
+translation.mcpAvailableServers.installedByYourPlugins	由你的插件安装
+translation.mcpAvailableServers.searchMcpServers	搜索 MCP 服务器...
+translation.mcpConfiguration.sharedAccess	共享
+translation.mcpConfiguration.sharedAccessHint	你分享此 MCP 的每个人都使用你的登录
+translation.mcpConfiguration.personalAccessHint	每人各自登录
+translation.mcpConfiguration.signInAccess	登录方式
+translation.mcpConfiguration.signInAccessDescription	每人用自己的账户登录，还是所有人共享一个连接
+translation.mcpConfiguration.couldNotFindServer	找不到 ID 为 {{serverId}} 的服务器
+translation.mcpConfiguration.serverNotFound	未找到服务器
+translation.mcpConfiguration.oauth	OAuth
+translation.mcpConfiguration.authorizationHeader	Authorization 头
+translation.mcpConfiguration.none	无
+translation.mcpConfiguration.selectAuthenticationMethod	选择认证方式
+translation.mcpConfiguration.thisInstallationCanT	此安装无法固定到会话机器上，因此服务器需要一个 Devin 服务器可达的 URL。
+translation.mcpConfiguration.ifThisServerRuns	如果此服务器运行在会话机器上，请在“高级”下把执行位置设为“会话机器”。
+translation.mcpConfiguration.mcpServersAreConnected	默认由 Devin 的服务器连接 MCP 服务器，因此回环 URL 会在 Devin 服务器侧解析，而非你的会话机器。
+translation.mcpConfiguration.loopbackUrl	回环 URL
+translation.mcpConfiguration.noUrlProvided	未提供 URL
+translation.mcpConfiguration.customUrl	自定义 URL
+translation.mcpConfiguration.selectRegion	选择区域
+translation.mcpConfiguration.useTheSameScheme	使用与市场服务器相同的 scheme 和 host；可附加查询参数
+translation.mcpConfiguration.eachOrganizationMemberCan	每位组织成员可用自己的个人访问令牌进行认证
+translation.mcpConfiguration.personal	个人
+translation.mcpConfiguration.allMembersShareA	所有成员共享一个连接
+translation.mcpConfiguration.sharedAccessDescription	有访问权限的人共享一个连接
+translation.mcpConfiguration.personalAccessDescription	每位有访问权限的人连接自己的账户
+translation.mcpConfiguration.organization	组织
+translation.mcpConfiguration.enterpriseSharedHint	目标组织中的所有人共享一个连接
+translation.mcpConfiguration.pluginDefault	插件默认：{{scope}}
+translation.mcpConfiguration.enterprisePersonalHint	目标组织的每位成员各自登录
+translation.mcpConfiguration.selectAccessLevel	选择访问级别
+translation.mcpConfiguration.add	添加
+translation.mcpConfiguration.addEnvironmentVariable	添加环境变量
+translation.mcpConfiguration.noEnvironmentVariablesAdded	未添加环境变量
+translation.mcpConfiguration.removeEnvironmentVariable	移除环境变量
+translation.mcpConfiguration.remove	移除
+translation.mcpConfiguration.variableValue	变量值
+translation.mcpConfiguration.variableName	变量名
+translation.mcpConfiguration.addArgument	添加参数
+translation.mcpConfiguration.noArgumentsAdded	未添加参数
+translation.mcpConfiguration.removeArgument	移除参数
+translation.mcpConfiguration.enterArgumentValue	输入参数值
+translation.mcpConfiguration.eGPythonNode	例如 python、node、./script.sh
+translation.mcpConfiguration.noCustomHeadersAdded	未添加自定义请求头
+translation.mcpConfiguration.removeCustomHeader	移除自定义请求头
+translation.mcpConfiguration.headerValue	请求头的值
+translation.mcpConfiguration.headerName	请求头名称
+translation.mcpConfiguration.legacyRemoteStreamingTransport	旧版远程流式传输
+translation.mcpConfiguration.sse	SSE
+translation.mcpConfiguration.localServerSpawnedAs	以进程方式启动的本地服务器
+translation.mcpConfiguration.stdio	STDIO
+translation.mcpConfiguration.remoteServerAtA	位于某个 URL 的远程服务器
+translation.mcpConfiguration.http	HTTP
+translation.mcpConfiguration.selectTransportType	选择传输类型
+translation.mcpConfiguration.ifYourOauthProvider	如果你的 OAuth 提供商要求预注册应用，请在下方提供凭据。
+translation.mcpConfiguration.thisServerSOauth	此服务器的 OAuth 提供商不支持自动客户端注册，因此你必须提供自己的 OAuth 客户端凭据。设置步骤见该服务器的文档。
+translation.mcpConfiguration.ownOAuthClientIdRequired	此服务器要求使用你自己的 OAuth 客户端 ID
+translation.mcpConfiguration.oauthClientIdRequiredWithSecret	请输入与此客户端密钥配套的 OAuth 客户端 ID
+translation.mcpConfiguration.invalidHeaderName	请求头名称只能包含字母、数字及字符 ! # $ % & ' * + - . ^ _ ` | ~
+translation.mcpConfiguration.invalidHeaderValue	请求头的值只能包含可见 ASCII 字符和制表符
+translation.mcpConfiguration.eGHttpsMcp	例如 https://mcp.example.com
+translation.mcpConfiguration.customValue	自定义值
+translation.mcpConfiguration.omitParameter	省略此参数
+translation.mcpConfiguration.defaultDiscovered	默认（已发现）
+translation.mcpConfiguration.eGReadWrite	例如 read write
+translation.mcpConfiguration.copyOauthCallbackUrl	复制 OAuth 回调 URL
+translation.mcpConfiguration.copyCallbackUrl	复制回调 URL
+translation.mcpConfiguration.loading	正在加载…
+translation.mcpConfiguration.couldNotLoadThe	无法加载回调 URL，请刷新页面。
+translation.mcpConfiguration.nonInteractiveMachineTo	非交互式，机器对机器
+translation.mcpConfiguration.clientCredentials	客户端凭据
+translation.mcpConfiguration.interactiveUserLogin	交互式用户登录
+translation.mcpConfiguration.authorizationCode	授权码
+translation.mcpConfiguration.selectGrantType	选择授权类型
+translation.mcpConfiguration.yourOauthClientSecret	你的 OAuth 客户端密钥
+translation.mcpConfiguration.leaveBlankToKeep	留空则保留现有密钥
+translation.mcpConfiguration.yourOauthClientId	你的 OAuth 客户端 ID
+translation.mcpConfiguration.saveChanges	保存
+translation.mcpConfiguration.saveToTestTools	保存后可测试工具并使用 MCP
+translation.mcpConfiguration.cancel	取消
+translation.mcpConfiguration.installAndEnable	安装并启用
+translation.mcpConfiguration.onlyMembersWithThe	只有拥有“管理 MCP 服务器”权限的成员才能安装 MCP 服务器。请联系你的组织管理员。
+translation.mcpConfiguration.useMcp	使用 MCP
+translation.mcpConfiguration.tryMcpInSession	在会话中试用 MCP
+translation.mcpConfiguration.completeOauthSetupBefore	使用此 MCP 前请完成 OAuth 设置
+translation.mcpConfiguration.testTools	测试工具
+translation.mcpConfiguration.testing	测试中...
+translation.mcpConfiguration.testConnectionAndList	测试连接并列出工具
+translation.mcpConfiguration.completeOauthSetupBefore2	测试工具前请完成 OAuth 设置
+translation.mcpConfiguration.stdioServersCanOnly	stdio 服务器只能在会话中测试 — 请使用“使用 MCP”
+translation.mcpConfiguration.pleaseFixErrorsTo	请先修复错误再继续
+translation.mcpConfiguration.integration	集成
+translation.mcpConfiguration.alreadyConnectedViaThe	已通过以下方式连接
+translation.mcpConfiguration.completeOauth	完成 OAuth
+translation.mcpConfiguration.completingOauth	正在完成 OAuth...
+translation.mcpConfiguration.website	网站
+translation.mcpConfiguration.documentation	文档
+translation.mcpConfiguration.configurationTips	配置提示
+translation.mcpConfiguration.beta	Beta
+translation.mcpConfiguration.officialMcp	官方 MCP
+translation.mcpConfiguration.transportRequired	必须选择传输类型
+translation.mcpConfiguration.serverUrlRequired	SSE 和 HTTP 传输必须填写服务器 URL
+translation.mcpConfiguration.serverUrlInvalid	请输入有效的服务器 URL
+translation.mcpConfiguration.commandRequired	必须填写命令
+translation.mcpConfiguration.envVarNameRequired	必须填写环境变量名
+translation.mcpConfiguration.envVarValueRequired	{{name}} 的值不能为空
+translation.mcpConfiguration.envVarValueRequiredUnnamed	该变量的值不能为空
+translation.mcpConfiguration.authHeaderNameRequired	Authorization 头名称不能为空
+translation.mcpConfiguration.authHeaderValueRequired	Authorization 头的值不能为空
+translation.mcpConfiguration.iconUrlInvalid	请输入有效 URL（例如 https://example.com/icon.png）
+translation.mcpConfiguration.urlMustMatchMarketplace	服务器 URL 必须使用与市场服务器相同的 scheme 和 host
+translation.mcpConfiguration.requiredArgsIncomplete	请补全必填参数
+translation.mcpConfiguration.clientCredentialsClientIdRequired	客户端凭据授权需要 OAuth 客户端 ID
+translation.mcpConfiguration.clientCredentialsClientSecretRequired	客户端凭据授权需要 OAuth 客户端密钥
+translation.mcpConfiguration.oauthResourceRequired	请输入 resource 值或选择其他选项
+translation.mcpCustomServerHeader.import	导入
+translation.mcpCustomServerHeader.importAnyway	仍然导入
+translation.mcpCustomServerHeader.cancel	取消
+translation.mcpCustomServerHeader.importJsonConfig	导入 JSON 配置
+translation.mcpCustomServerHeader.thisConfigAppearsTo	此配置似乎包含敏感值（API key、令牌等）。它们将以明文存入 MCP 配置。建议改用密钥管理。
+translation.mcpCustomServerHeader.devinCliAndDirect	、Devin CLI 以及直接的服务器配置
+translation.mcpCustomServerHeader.pasteAnMcpServer	粘贴 MCP 服务器 JSON 配置以自动填写表单。支持来自
+translation.mcpCustomServerHeader.tellDevinWhatThisMcpDoes	告诉 Devin 这个 MCP 的用途
+translation.mcpCustomServerHeader.shortDescription	简短描述
+translation.mcpCustomServerHeader.pasteInAnEmoji	粘贴一个 emoji 或 URL
+translation.mcpCustomServerHeader.iconLabel	图标
+translation.mcpCustomServerHeader.slug	Slug：
+translation.mcpCustomServerHeader.eGMyCustom	例如 My Custom Server
+translation.mcpCustomServerHeader.serverName	服务器名称
+translation.mcpCustomServerHeader.importJson	导入 JSON
+translation.mcpInheritedEnterprise.managedByEnterprise	由企业管理
+translation.mcpInheritedEnterprise.personalMcp	个人 MCP
+translation.mcpInheritedEnterprise.personalMcpEachMember	个人 MCP — 每位成员各自连接
+translation.mcpInstallationSecrets.deleteSecret	删除密钥
+translation.mcpInstallationSecrets.unlinkSecret	解除密钥关联
+translation.mcpInstallationSecrets.delete	删除
+translation.mcpInstallationSecrets.unlink	解除关联
+translation.mcpInstallationSecrets.saveSecrets	保存密钥
+translation.mcpInstallationSecrets.saving	正在保存…
+translation.mcpInstallationSecrets.couldNotSaveSecrets	无法保存密钥
+translation.mcpInstallationSecrets.unlinkDescription	这将把“{{name}}”从此 MCP 解除关联。组织密钥不会被删除，仍可在 Secrets 页使用。
+translation.mcpInstallationSecrets.deleteLinkedDescription	这将删除“{{name}}”的已存值。引用 ${{name}} 的地方将回退到关联的组织密钥。
+translation.mcpInstallationSecrets.deleteUnlinkedDescription	这将删除“{{name}}”的已存值。引用 ${{name}} 的地方将无法解析，直到保存新值。
+translation.mcpServerCard.officialMcp	官方 MCP
+translation.mcpServerCard.beta	Beta
+translation.mcpServerCard.connectedViaIntegration	通过集成连接
+translation.mcpSetupSheet.adding	正在添加…
+translation.mcpSetupSheet.add	添加
+translation.mcpSetupSheet.pointDevinAtAn	把 Devin 指向你自己运行的 MCP 服务器。连接后它暴露的工具即可在会话中使用。
+translation.mcpSetupSheet.addACustomMcp	添加自定义 MCP
+translation.mcpSubmitInstallation.failedToStartOauth	启动 OAuth 流程失败
+translation.mcpSubmitInstallation.oauthServerUnreachable	Devin 无法连接该服务器。请检查服务器 URL 是否正确、服务器是否在线，然后重试。
+translation.mcpSubmitInstallation.oauthDiscoveryHttpError	Devin 查询该服务器的 OAuth 设置时收到 HTTP {{status}}。请检查服务器 URL 是否正确，或稍后重试。
+translation.mcpSubmitInstallation.youDonTHave	你没有权限连接此集成。请联系组织管理员重新连接。
+translation.mcpSubmitInstallation.failedToAcquireToken	获取令牌失败
+translation.mcpSubmitInstallation.connectedSuccessfully	连接成功！
+translation.mcpSubmitInstallation.failedToUpdateInstallation	更新安装失败，请重试。
+translation.mcpSubmitInstallation.installationUpdatedFromMarketplace	已从市场成功更新安装！
+translation.mcpSubmitInstallation.cannotUpdateInstallationMissing	无法更新安装：缺少服务器或安装 ID
+translation.mcpSubmitInstallation.failedToToggleServer	切换服务器启用状态失败，请重试。
+translation.mcpSubmitInstallation.cannotToggleServerMissing	无法切换服务器：缺少服务器或安装 ID
+translation.mcpSubmitInstallation.failedToDeletePersonal	删除个人令牌失败，请重试。
+translation.mcpSubmitInstallation.personalTokensDeletedSuccessfully	个人令牌已删除！
+translation.mcpSubmitInstallation.cannotDeletePersonalTokens	无法删除个人令牌：缺少服务器或安装 ID
+translation.mcpSubmitInstallation.failedToDeleteInstallation	删除安装失败，请重试。
+translation.mcpSubmitInstallation.installationDeletedSuccessfully	安装已删除！
+translation.mcpSubmitInstallation.cannotDeleteInstallationMissing	无法删除安装：缺少服务器或安装 ID
+translation.mcpSubmitInstallation.eachEnvironmentVariableMust	每个环境变量都必须同时包含键和值。
+translation.mcpSubmitInstallation.installationUpdatedSuccessfully	安装已更新！
+translation.mcpSubmitInstallation.failedToCreateInstallation	创建安装失败，请重试。
+translation.mcpSubmitInstallation.thisMcpServerIs	此 MCP 服务器已为你的组织安装。
+translation.mcpSubmitInstallation.installationCreatedSuccessfully	安装已创建！
+translation.mcpSubmitInstallation.serverEnabled	服务器已启用！
+translation.mcpSubmitInstallation.serverDisabled	服务器已停用！
+translation.unified.title	我的工作区
+translation.unified.switchScope	切换范围
+translation.unified.selectEnvironment	选择环境
+translation.unified.pickBudget	选择要计入的预算
+translation.unified.loadingEnvironments	正在加载环境…
+translation.unified.environmentsFailed	无法加载环境，请尝试重新打开此页。
+translation.unified.noEnvironments	没有可用环境。
+translation.unified.noSnapshot	无快照
+translation.unified.orgPlaybookUnavailable	“我的工作区”中仅支持企业和社区 playbook。请移除所选 playbook 后再发送。
+translation.unified.slackChannelUnavailable	“我的工作区”中不支持 Slack 频道。请移除 Slack 频道后再发送。
+translation.unified.oncallUnavailable	“我的工作区”中不支持 Oncall 模式。请关闭后再发送。
+translation.unified.selectEnvironmentOrOutpost	选择环境或 outpost
+translation.unified.searchEnvironmentsOrOutposts	搜索环境和 outpost
+translation.unified.noEnvironmentsOrOutpostsFound	未找到环境或 outpost
+translation.unified.noUsableOutpost	没有与你共享的 outpost，请联系管理员。
+translation.unified.environmentSectionRecent	最近使用
+translation.unified.environmentSectionAll	全部环境
+translation.unified.manageEnvironments	管理环境
+translation.unified.outposts	Outpost
+translation.manageAccess.custom	自定义
+translation.manageAccess.customDescription	为每种资源类型选择权限
+translation.manageAccess.customLine	可{{verb}}：{{resources, list(style: short)}}
+translation.manageAccess.advancedTitle	高级权限
+translation.manageAccess.advancedDescription	分别为每种资源类型选择权限。
+translation.manageAccess.cancel	取消
+translation.manageAccess.customAccess	自定义权限
+translation.manageAccess.canView	可查看
+translation.manageAccess.viewVerb	查看
+translation.manageAccess.noAccess	无权限
+translation.manageAccess.save	保存
+translation.manageAccess.accessLevel	访问级别
+translation.manageAccess.add	添加
+translation.manageAccess.done	完成
+translation.manageAccess.enterpriseRole	企业角色
+translation.manageAccess.organizationRole	组织角色
+translation.manageAccess.enterpriseRoles	企业角色
+translation.manageAccess.everyone	所有人
+translation.manageAccess.grantFailed	授予权限失败
+translation.manageAccess.group	组
+translation.manageAccess.groupMemberCount_one	{{count}} 名成员
+translation.manageAccess.groupMemberCount_other	{{count}} 名成员
+translation.manageAccess.groupMemberCountMore	{{count}}+ 名成员
+translation.manageAccess.groups	组
+translation.manageAccess.gitProvider	Git 提供商
+translation.manageAccess.hasAccess	有权限
+translation.manageAccess.managedByTooltip	从 {{source}} 镜像而来。请在你的 Git 提供商中管理此权限。
+translation.manageAccess.noGrantsYet	尚未授予任何人权限。
+translation.manageAccess.peopleHide	隐藏覆盖到的人
+translation.manageAccess.peopleLoadFailed	无法加载人员列表。
+translation.manageAccess.peopleNone	此组内无人。
+translation.manageAccess.peopleShow	显示覆盖到的人
+translation.manageAccess.peopleShowMore	显示更多
+translation.manageAccess.loadFailed	无法加载访问设置。
+translation.manageAccess.noMatches	未找到匹配项。
+translation.manageAccess.orgRole	{{orgName}} 中拥有此角色的所有人
+translation.manageAccess.enterpriseRoleMembers	拥有此企业角色的所有人
+translation.manageAccess.orgRoles	组织角色
+translation.manageAccess.orgMembers	此组织的所有成员
+translation.manageAccess.orgs	组织
+translation.manageAccess.orgRolesIn	组织角色 · {{orgName}}
+translation.manageAccess.permission	权限
+translation.manageAccess.inUse	使用中
+translation.manageAccess.providerTeam	{{provider}} 团队 · {{orgLogin}}
+translation.manageAccess.providerTeams	Git 提供商团队
+translation.manageAccess.providerTeamsOf	{{provider}} 团队
+translation.manageAccess.providerTeamsOn	{{provider}} 团队 · {{host}}
+translation.manageAccess.removeAccess	移除权限
+translation.manageAccess.removeFailed	移除权限失败
+translation.manageAccess.updateFailed	更新权限失败
+translation.manageAccess.fullAccess	全部权限
+translation.manageAccess.canList	可{{verbs, list(style: short)}}
+translation.manageAccess.rolesWithAccess_one	{{count}} 个有权限的角色
+translation.manageAccess.rolesWithAccess_other	{{count}} 个有权限的角色
+translation.manageAccess.teamsWithAccess_one	{{count}} 个有权限的团队
+translation.manageAccess.teamsWithAccess_other	{{count}} 个有权限的团队
+translation.manageAccess.groupsWithAccess_one	{{count}} 个有权限的组
+translation.manageAccess.groupsWithAccess_other	{{count}} 个有权限的组
+translation.manageAccess.serviceUser	服务用户
+translation.manageAccess.serviceUsers	服务用户
+translation.manageAccess.bot	{{botName}}
+translation.manageAccess.bots	{{botNamePlural}}
+translation.manageAccess.title	管理访问权限
+translation.manageAccess.unknown	未知
+translation.manageAccess.unknownUser	未知用户
+translation.manageAccess.userAvatar	用户头像
+translation.manageAccess.users	用户
+translation.budgets.drawsFrom	可从此预算消耗的内容
+translation.budgets.directUsage	直接用量
+translation.budgets.directUsersTooltip	用户限额适用于直接关联到此预算的组织。子预算的用量不计入此限额。
+translation.budgets.childBudgets_one	{{count}} 个子预算
+translation.budgets.childBudgets_other	{{count}} 个子预算
+translation.budgets.childrenHeading	子预算
+translation.budgets.allocatedWithLimit	已分配 {{allocated}} / {{limit}}
+translation.budgets.allocatedWithLimitAndPercent	已分配 {{allocated}} / {{limit}}（{{percent}}）
+translation.budgets.unlimitedOverallocation	超出（子预算无上限）
+translation.budgets.unallocated	剩余 {{amount}}
+translation.budgets.overallocated	超出 {{amount}}
+translation.budgets.editAllocation	编辑用量分配
+translation.budgets.onTrack	进度正常
+translation.budgets.projectedToExceed	预计将超出
+translation.budgets.atLimit	已达上限
+translation.budgets.overBudget	超出预算
+translation.budgets.allocationResetsTo	于 {{time}} 重置为 {{limit}}
+translation.budgets.allocationResetsAt	于 {{time}} 重置
+translation.budgets.allocationResetsMonthly	在下一个月度周期开始时重置。
+translation.budgets.allocationDescription	设置此预算的每月用量分配。
+translation.budgets.allocationDescriptionCycle	设置此预算的每月用量分配。
+translation.budgets.permanentAllocationHelp	留空表示无上限。
+translation.budgets.temporaryAllocationHelp	仅适用于当前月度窗口。留空则清除。
+translation.budgets.addOrganization	添加组织
+translation.budgets.selectOrganizationRequired	请至少选择一个组织
+translation.budgets.unlinkOrganization	解除关联
+translation.budgets.confirmOrganizationMoves	移动组织？
+translation.budgets.editBudget	编辑预算
+translation.budgets.blockUsageTitle	立即阻止用量？
+translation.budgets.blockUsageDescription	此预算本周期已用 {{usage}}。设为 {{limit}} 会立即阻止新用量。
+translation.budgets.blockRootUsageDescription	这是根预算，此上限会阻止整个企业的用量。
+translation.budgets.blockUsageConfirmHint	请完整输入 {{name}} 以确认。
+translation.budgets.title	预算
+translation.budgets.description	组织 ACU 预算并管理各预算的档位。
+translation.budgets.descriptionDollars	组织支出预算并管理各预算的档位。
+translation.budgets.name	名称
+translation.budgets.nameRequired	必须填写名称
+translation.budgets.parent	父级预算
+translation.budgets.cycleLimit	每月 ACU 上限
+translation.budgets.temporaryUsageAllocation	临时用量分配
+translation.budgets.newBudget	新建预算
+translation.budgets.createRoot	创建根预算
+translation.budgets.create	创建
+translation.budgets.cancel	取消
+translation.budgets.save	保存
+translation.budgets.saved	预算已保存
+translation.budgets.createError	无法创建预算，请检查父级后重试。
+translation.budgets.saveError	无法保存预算，请重试。
+translation.budgets.loadError	无法加载预算
+translation.budgets.policyTableError	无法加载用量策略，请重试。
+translation.budgets.retryDescription	重试以加载最新设置。
+translation.budgets.retry	重试
+translation.budgets.emptyTitle	还没有预算
+translation.budgets.emptyDescription	创建账户的根预算，开始组织预算与档位。
+translation.budgets.expand	展开 {{name}}
+translation.budgets.collapse	收起 {{name}}
+translation.budgets.closePreview	关闭预算预览
+translation.budgets.moveOrgLeaves_one	该组织将离开 {{budget}}。
+translation.budgets.moveOrgLeaves_other	{{count}} 个组织将离开 {{budget}}。
+translation.budgets.moveOrgLosesUserLimits_one	{{count}} 个用户限额将不再适用于其成员。
+translation.budgets.moveOrgLosesUserLimits_other	{{count}} 个用户限额将不再适用于其成员。
+translation.budgets.moveOrgsLoseUserLimits_one	{{count}} 个用户限额将不再适用于其成员。
+translation.budgets.moveOrgsLoseUserLimits_other	{{count}} 个用户限额将不再适用于其成员。
+translation.budgets.budget	预算
+translation.budgets.accountScope	账户级（旧版）
+translation.budgets.copyParentAccess	从父级预算复制权限
+translation.budgets.hiddenParentTooltip	你无法查看预算 {{name}}。
+translation.budgets.archived	已归档
+translation.budgets.noAccessTitle	没有可显示的预算
+translation.budgets.noAccessDescription	你在该账户下没有任何预算的访问权限。
+translation.budgets.settingsTab	设置
+translation.budgets.manageAccessTab	管理访问权限
+translation.budgets.searchPlaceholder	搜索预算
+translation.budgets.noMatchesTitle	没有匹配的预算
+translation.budgets.noMatchesDescription	请尝试其他搜索词。
+translation.budgets.noOrgLinkedTitle	没有关联组织的预算
+translation.budgets.noOrgLinkedDescription	成员限额仅适用于关联了组织的预算。把一个预算关联到组织后即可在此管理其成员。
+translation.budgets.childRange	第 {{from}}–{{to}} 项，共 {{total}} 项
+translation.budgets.previousChildren	{{name}} 的上一批子预算
+translation.budgets.nextChildren	{{name}} 的下一批子预算
+translation.budgets.cycleSpendLimit	每月支出上限
+translation.budgets.limitUnit	上限单位
+translation.budgets.limitUnitAcus	ACU
+translation.budgets.limitUnitDollars	美元
+translation.budgets.spendUtilization	支出使用率
+translation.budgets.aiGatewayAcus	AI Gateway ACU
+translation.budgets.aiGatewaySpend	AI Gateway 支出
+translation.budgets.archive	归档预算
+translation.budgets.archiveConfirmTitle	归档 {{name}}？
+translation.budgets.archiveConfirmDescription	已归档的预算会保留在“全部”筛选下的列表中。其下不能再添加子预算。
+translation.budgets.archivedToast	预算已归档
+translation.budgets.archiveError	无法归档预算，请重试。
+translation.budgets.archiveHasChildren	请先归档或移走子预算。
+translation.budgets.manageOrganizations	管理组织
+translation.budgets.archiveOrgLinkedTooltip	无法归档关联了活跃组织的预算。
+translation.budgets.statusFilter	按状态筛选预算
+translation.budgets.statusActive	活跃
+translation.budgets.statusAll	全部
+translation.budgets.userLimitsPreview	这些用户限额尚未生效。当前适用<accountLink>账户级用户限额</accountLink>。
+translation.budgets.userLimitsPreviewNoAccount	这些用户限额尚未生效。
+translation.budgets.map.children_one	{{count}} 个子项
+translation.budgets.map.children_other	{{count}} 个子项
+translation.budgets.map.noPreviousChildren	没有更早的子项
+translation.budgets.map.noNextChildren	没有更晚的子项
+translation.budgets.map.title	预算图谱
+translation.budgets.map.usageWithAllocation	{{used}} / {{limit}}
+translation.budgets.map.zoomIn	放大
+translation.budgets.map.zoomOut	缩小
+translation.budgets.map.fit	适配全部预算
+translation.budgetAccess.canUse	可使用
+translation.budgetAccess.canApproveLimits	可审批限额
+translation.budgetAccess.canManage	可管理
+translation.budgetAccess.useDescription	可从此预算中消耗
+translation.budgetAccess.configureDescription	可设置此预算的子预算的 ACU 限额
+translation.budgetAccess.manageDescription	可管理此预算的访问权限，以及添加、移动和归档其子预算

@@ -1,0 +1,500 @@
+translation.pluginMarketplace.offered	Offered
+translation.pluginMarketplace.offeredToMembers	Offered to members
+translation.pluginMarketplace.viewDetails	View {{name}} details
+translation.pluginMarketplace.folders.new	New folder
+translation.pluginMarketplace.folders.newTitle	New folder
+translation.pluginMarketplace.folders.newDescription	Use / for a folder inside another. The folder is kept once a skill is moved into it.
+translation.pluginMarketplace.folders.create	Create
+translation.pluginMarketplace.folders.rename	Rename
+translation.pluginMarketplace.folders.renameTitle	Rename folder
+translation.pluginMarketplace.folders.renameDescription	Every skill in the folder moves with it.
+translation.pluginMarketplace.folders.mergeDescription	{{name}} already exists. The two folders will be merged.
+translation.pluginMarketplace.folders.delete	Delete
+translation.pluginMarketplace.folders.deleteTitle	Delete {{name}}?
+translation.pluginMarketplace.folders.deleteDescription_one	The folder and its {{count}} skill are deleted, including any subfolders. This can't be undone.
+translation.pluginMarketplace.folders.deleteDescription_other	The folder and its {{count}} skills are deleted, including any subfolders. This can't be undone.
+translation.pluginMarketplace.folders.deleteDescription_zero	The folder is empty.
+translation.pluginMarketplace.folders.move	Move
+translation.pluginMarketplace.folders.moveAction	Move to folder
+translation.pluginMarketplace.folders.moveActionFor	Move {{name}} to a folder
+translation.pluginMarketplace.folders.moveTitle	Move {{name}}
+translation.pluginMarketplace.folders.moveDescription	Choose the folder this skill is filed under.
+translation.pluginMarketplace.folders.folderLabel	Folder
+translation.pluginMarketplace.folders.pathLabel	Folder name
+translation.pluginMarketplace.folders.pathPlaceholder	Team/Runbooks
+translation.pluginMarketplace.folders.nameRequired	Folder name required
+translation.pluginMarketplace.folders.alreadyExists	A folder with this name already exists.
+translation.pluginMarketplace.folders.intoItself	A folder can't be moved into itself.
+translation.pluginMarketplace.folders.actionsFor	Actions for {{name}}
+translation.pluginMarketplace.folders.empty	No skills yet
+translation.pluginMarketplace.folders.updateFailed	Couldn't update the folders. Try again.
+translation.pluginMarketplace.sheet.enabled	Enabled
+translation.pluginMarketplace.sheet.disabled	Disabled
+translation.pluginMarketplace.sheet.notConnected	Not connected
+translation.pluginMarketplace.sheet.disabledTools	Disabled tools: {{tools}}
+translation.pluginMarketplace.sheet.platforms	Platforms
+translation.pluginMarketplace.sheet.cloudOnly	Cloud only
+translation.pluginMarketplace.sheet.localOnly	Local only
+translation.pluginMarketplace.sheet.securityOnly	Security only
+translation.pluginMarketplace.sheet.backToPluginLabel	Back to {{name}}
+translation.pluginMarketplace.sheet.viewMore	View {{count}} more
+translation.pluginMarketplace.sheet.folderItemCount_one	{{count}} skill
+translation.pluginMarketplace.sheet.folderItemCount_other	{{count}} skills
+translation.pluginMarketplace.sheet.knowledgeFoldersHint	Skills migrated from Knowledge notes
+translation.pluginMarketplace.sheet.unfiledFolder	Unfiled
+translation.pluginMarketplace.sheet.advanced	Advanced
+translation.pluginMarketplace.sheet.metadata	Metadata
+translation.pluginMarketplace.sheet.ref	Ref
+translation.pluginMarketplace.sheet.path	Path
+translation.pluginMarketplace.sheet.installedIn	Installed at
+translation.pluginMarketplace.sheet.viewingLayer	{{layer}} (viewing)
+translation.pluginMarketplace.sheet.repoCount_one	{{count}} repository
+translation.pluginMarketplace.sheet.repoCount_other	{{count}} repositories
+translation.pluginMarketplace.sheet.pinnedSha	Pinned SHA
+translation.pluginMarketplace.sheet.packaging	Packaging
+translation.pluginMarketplace.sheet.skillsRepo	Skills repo
+translation.pluginMarketplace.sheet.examplePrompts	Example prompts
+translation.pluginMarketplace.sheet.marketplacePlugin	Marketplace plugin
+translation.pluginMarketplace.sheet.officialPlugin	Official plugin
+translation.pluginMarketplace.sheet.installFailedTitle	Failed to install
+translation.pluginMarketplace.sheet.installedWithIssuesTitle	Installed with issues
+translation.pluginMarketplace.sheet.contentsWithheldTitle	Not permitted to view
+translation.pluginMarketplace.sheet.reposWithheldHint	This plugin comes from a repository you can't access in this view.
+translation.pluginMarketplace.sheet.reposWithheldHintOrg	{{org}} can't access a repository that {{layer}} come from, so they're hidden here.
+translation.pluginMarketplace.sheet.personalSourceRuntimeHint	This plugin couldn't be indexed, but Devin may still be able to load it in sessions.
+translation.pluginMarketplace.sheet.noContentsFound	No skills, MCPs, hooks, rules, or subagent profiles were found in this plugin.
+translation.pluginMarketplace.sheet.learnMore	Learn more
+translation.pluginMarketplace.sheet.permissions	Permissions
+translation.pluginMarketplace.sheet.uninstall	Uninstall
+translation.pluginMarketplace.sheet.uninstallTitle	Uninstall {{name}}?
+translation.pluginMarketplace.sheet.uninstallDescription	Removes {{name}} for this scope. Its skills, rules, hooks, and MCP servers will no longer apply.
+translation.pluginMarketplace.sheet.uninstallPersonalDescription	Removes your own install of {{name}}. It stays installed at {{layer}}.
+translation.pluginMarketplace.sheet.uninstallFrom	Uninstall from {{layer}}
+translation.pluginMarketplace.sheet.uninstallFromDescription	Removes {{name}} from {{layer}}. Its skills, rules, hooks, and MCP servers will no longer apply there.
+translation.pluginMarketplace.sheet.removeFrom	Remove from {{layer}}
+translation.pluginMarketplace.sheet.remove	Remove
+translation.pluginMarketplace.sheet.removeTitle	Remove {{name}}?
+translation.pluginMarketplace.sheet.removeDescription	Stops offering {{name}} here. Anyone who already installed it keeps it.
+translation.pluginMarketplace.sheet.dependencies	Dependencies
+translation.pluginMarketplace.sheet.required	Required
+translation.pluginMarketplace.sheet.optional	Optional
+translation.pluginMarketplace.sheet.view	View
+translation.pluginMarketplace.sheet.open	Open
+translation.pluginMarketplace.sheet.openLink	Open {{label}}
+translation.pluginMarketplace.sheet.website	Website
+translation.pluginMarketplace.sheet.repository	Repository
+translation.pluginMarketplace.sheet.privacyPolicy	Privacy policy
+translation.pluginMarketplace.sheet.termsOfService	Terms of service
+translation.pluginMarketplace.sheet.license	License
+translation.pluginMarketplace.sheet.capabilities	Capabilities
+translation.pluginMarketplace.sheet.developer	Developer
+translation.pluginMarketplace.sheet.category	Category
+translation.pluginMarketplace.sheet.version	Version
+translation.pluginMarketplace.sheet.indexedSnapshot	Showing the last indexed version. Recent edits may not appear here yet.
+translation.pluginMarketplace.sheet.notIndexedInstalled	Devin has not indexed this plugin's contents yet. Its skills, MCPs, and other contents appear here after the next index run.
+translation.pluginMarketplace.sheet.notIndexedInstall	Install this plugin to see its skills, MCPs, and other contents once it has been indexed.
+translation.pluginMarketplace.officialMarketplaceEnabled	Devin marketplace enabled
+translation.pluginMarketplace.officialMarketplaceDisabled	Devin marketplace disabled
+translation.pluginMarketplace.officialMarketplaceUpdateFailed	Failed to update the Devin marketplace setting
+translation.pluginMarketplace.officialMarketplaceManifestUnreadable	Could not read the manifest. Fix it in the Configuration tab.
+translation.pluginMarketplace.manifestDialog.userTitle	Your plugin manifest
+translation.pluginMarketplace.manifestDialog.userWho	you
+translation.pluginMarketplace.manifestDialog.orgTitle	Organization plugin manifest
+translation.pluginMarketplace.manifestDialog.orgWho	everyone in this organization
+translation.pluginMarketplace.manifestDialog.accountTitle	Enterprise plugin manifest
+translation.pluginMarketplace.manifestDialog.accountWho	every organization in this enterprise
+translation.pluginMarketplace.manifestDialog.description	Three lists decide which plugins {{who}} get. <chip>requiredPlugins</chip> installs them, <chip>optionalPlugins</chip> offers them without installing, and <chip>forbiddenPlugins</chip> blocks them — that one also takes a glob, like <chip>acme/*</chip>. <docsLink>See the manifest format</docsLink>
+translation.pluginMarketplace.manifestDialog.saved	Manifest saved
+translation.pluginMarketplace.connect	Connect
+translation.pluginMarketplace.loadFailed	Could not load the marketplace. Please try again.
+translation.pluginMarketplace.notActiveSubtitle	Not active — sessions won't load it until you activate it.
+translation.pluginMarketplace.activating	Activating…
+translation.pluginMarketplace.activate	Activate
+translation.pluginMarketplace.deleteScopeBundleDescription	This permanently deletes the plugin and everything written into it.
+translation.pluginMarketplace.deleteScopeBundleDescriptionScoped	This permanently deletes the plugin and everything written into it for everyone in {{scope}}.
+translation.pluginMarketplace.removesForEveryone	This removes {{name}} for everyone.
+translation.pluginMarketplace.removesForEveryoneIn	This removes {{name}} for everyone in {{scope}}.
+translation.markdownContent.preview	Preview
+translation.markdownContent.source	Source
+translation.markdownContent.noAccess	You don't have access to view this file
+translation.markdownContent.notFound	File not found in this repository
+translation.markdownContent.loadFailed	Failed to load file
+translation.markdownContent.frontmatter	Frontmatter
+translation.markdownContent.copy	Copy contents
+translation.pluginInstallWarning.title	Install {{name}}
+translation.pluginInstallWarning.description	Connect Devin to {{name}}. You can uninstall this plugin at any time from settings.
+translation.pluginInstallWarning.connectTitle	Connect {{name}}
+translation.pluginInstallWarning.connectDescription	You can disconnect {{name}} in settings.
+translation.pluginInstallWarning.securityNotice	Security notice
+translation.pluginInstallWarning.body	Devin will be allowed to run this plugin's rules, hooks, and skills. Only proceed if you trust this plugin and have verified its source.
+translation.pluginInstallWarning.bodyOfficial	Devin will be allowed to run this plugin's rules, hooks, and skills. Only proceed if you trust this plugin.
+translation.pluginInstallWarning.bodyMcp	Devin will be allowed to run this plugin's rules, hooks, and skills, including access to external data through its MCP servers. Only proceed if you trust this plugin and have verified its source.
+translation.pluginInstallWarning.bodyMcpOfficial	Devin will be allowed to run this plugin's rules, hooks, and skills, including access to external data through its MCP servers. Only proceed if you trust this plugin.
+translation.pluginInstallWarning.mcp.title	Enable MCP integration
+translation.pluginInstallWarning.mcp.description	Grant Devin access to {{name}}. You can disable this integration at any time from settings.
+translation.pluginInstallWarning.mcp.body	You're about to give Devin significant access to {{name}}, allowing it to interact with external data. Only proceed if you trust this integration and have verified its source.
+translation.pluginInstallWarning.mcp.sharedOAuth	Enabling this integration will allow all members of your organization to use <strong>the same MCP server connection, sharing a single authentication state for all actions.</strong> <u>We strongly recommend using a service account</u> when Devin prompts you to visit a URL to connect your {{name}} account.
+translation.pluginInstallWarning.mcp.sharedOAuthCount	Enabling this integration will allow all {{count}} members of your organization to use <strong>the same MCP server connection, sharing a single authentication state for all actions.</strong> <u>We strongly recommend using a service account</u> when Devin prompts you to visit a URL to connect your {{name}} account.
+translation.pluginInstallWarning.mcp.sharedOAuthAccount	Anyone with access to this MCP in Unified mode will use <strong>the same server connection, sharing a single authentication state for all actions.</strong> <u>We strongly recommend using a service account</u> when Devin prompts you to visit a URL to connect your {{name}} account.
+translation.pluginInstallWarning.mcp.userOAuthAccount	Each person with access to this MCP authenticates individually with their own personal access token for {{name}}. Other users can still interact with your sessions, so this should not be treated as a security boundary.
+translation.pluginInstallWarning.mcp.userOAuth	Each member of your organization will authenticate individually with their own personal access token for {{name}}. Note that other users can still interact with your sessions, so this should not be treated as a security boundary.
+translation.pluginInstallWarning.mcp.installAndEnable	Install and enable
+translation.pluginInstallWarning.capability.skills	Skills
+translation.pluginInstallWarning.capability.mcp_servers	MCP servers
+translation.pluginInstallWarning.capability.agents	Subagents
+translation.pluginInstallWarning.capability.hooks	Hooks
+translation.pluginInstallWarning.capability.rules	Rules
+translation.pluginInstallWarning.acknowledge	I understand and want to proceed
+translation.pluginInstallWarning.installing	Installing...
+translation.assetEditor.description	Description
+translation.assetEditor.skillNamePlaceholder	Release checklist
+translation.assetEditor.ruleNamePlaceholder	Commit message format
+translation.assetEditor.skillDescriptionPlaceholder	Describe when an agent should use this skill
+translation.assetEditor.ruleDescriptionPlaceholder	Provide a summary
+translation.skillEditor.allowAutomaticUse	Allow Devin to use this skill automatically
+translation.skillEditor.descriptionHelp	When Devin should use this skill.
+translation.pluginVersionHistory.tab	Version history
+translation.pluginVersionHistory.editTab	Edit
+translation.pluginVersionHistory.previewTab	Preview
+translation.pluginVersionHistory.empty	No saved versions yet
+translation.pluginVersionHistory.emptyHint	Each save adds a version here.
+translation.pluginVersionHistory.current	Current
+translation.pluginVersionHistory.noMessage	(no message)
+translation.pluginVersionHistory.unknownAuthor	Unknown
+translation.pluginVersionHistory.viewModeLabel	Version view
+translation.pluginVersionHistory.changes	Changes
+translation.pluginVersionHistory.content	Content
+translation.pluginVersionHistory.filesChanged_one	{{count}} file changed
+translation.pluginVersionHistory.filesChanged_other	{{count}} files changed
+translation.pluginVersionHistory.noFileChanges	This version didn't change any files.
+translation.pluginVersionHistory.noTextChanges	No text changes in this version.
+translation.pluginVersionHistory.deletedInVersion	This file was deleted in this version.
+translation.pluginVersionHistory.binaryFile	Binary file
+translation.pluginVersionHistory.loadFailed	Couldn't load this version.
+translation.pluginVersionHistory.restoreToEditor	Load into editor
+translation.pluginVersionHistory.restoreToEditorHelp	Loading a version replaces the editor contents. Save to keep it as the newest version.
+translation.pluginVersionHistory.restore	Restore this version
+translation.pluginVersionHistory.restoreTitle	Restore this version?
+translation.pluginVersionHistory.restoreDescription	The plugin's contents will be replaced with the files from {{sha}}. Later versions stay in the history.
+translation.pluginVersionHistory.restoreConfirm	Restore
+translation.pluginVersionHistory.restored	Restored version {{sha}}
+translation.pluginVersionHistory.sourceTab	Source
+translation.memoryDrive.tabLabel	Memory
+translation.memoryDrive.tabDescription	What Devin remembers about you and your work across sessions. Personal to you and not shared with your organization.
+translation.memoryDrive.personalBadge	Personal
+translation.memoryDrive.titleFor	Memory for <picker/>
+translation.memoryDrive.serviceUserBadge	Service user
+translation.memoryDrive.serviceUserDescription	What Devin remembers from {{name}}'s sessions. Shared by every session that runs as it; read-only here.
+translation.memoryDrive.files	Memory files
+translation.memoryDrive.refresh	Refresh
+translation.memoryDrive.settings	Memory settings
+translation.memoryDrive.lastUsed	Last used {{date}}
+translation.memoryDrive.loading	Loading memory files
+translation.memoryDrive.loadError	Couldn't load memory files. Try refreshing.
+translation.memoryDrive.empty	No memory files yet. Ask Devin in a session to remember something.
+translation.memoryDrive.binaryFile	Binary file ({{size}}) — preview unavailable.
+translation.memoryDrive.fileContents	{{path}} (read-only)
+translation.memoryDrive.confidenceLow	Low confidence
+translation.memoryDrive.confidenceMedium	Medium confidence
+translation.memoryDrive.confidenceHigh	High confidence
+translation.memoryDrive.sourceCount_one	{{count}} source
+translation.memoryDrive.sourceCount_other	{{count}} sources
+translation.memoryDrive.sources	Sources
+translation.memoryDrive.sourceAdded	Added {{date}}
+translation.memoryDrive.sourceUnreadableSession	Session {{id}}
+translation.memoryDrive.disableAction	Turn off personal memory
+translation.memoryDrive.enableAction	Turn on personal memory
+translation.memoryDrive.disableServiceUserAction	Turn off memory for this service user
+translation.memoryDrive.enableServiceUserAction	Turn on memory for this service user
+translation.memoryDrive.disableDreamingAction	Turn off dreaming
+translation.memoryDrive.enableDreamingAction	Turn on dreaming
+translation.memoryDrive.offTitle	Personal memory is off
+translation.memoryDrive.serviceUserOffTitle	Memory is off for this service user
+translation.memoryDrive.recentSessions	Recent dreaming sessions
+translation.memoryDrive.recentSessionsLoading	Loading recent dreaming sessions
+translation.memoryDrive.sessionFinished	Finished
+translation.memoryDrive.sessionRefinement	Refinement
+translation.memoryDrive.sessionSeed	Memory seed
+translation.memoryDrive.sessionNoChanges	No changes needed.
+translation.memoryDrive.sessionFilesChanged_one	{{count}} file
+translation.memoryDrive.sessionFilesChanged_other	{{count}} files
+translation.pluginContentsEditor.savedActivationFailed	Saved, but activating the bundle failed. Add it to the manifest in the Configuration tab.
+translation.pluginContentsEditor.tooManyFiles	Bundle has too many files (limit {{limit}})
+translation.pluginContentsEditor.changedBySomeoneElse	The plugin was changed by someone else. Discard your edits to load the latest version.
+translation.pluginContentsEditor.nameTaken	A plugin named “{{name}}” already exists at this scope (it may be deactivated). Choose a different name.
+translation.pluginContentsEditor.pathExists	"{{name}}" already exists
+translation.pluginManifestEditor.save	Save
+translation.pluginManifestEditor.saving	Saving…
+translation.pluginManifestEditor.discard	Discard
+translation.pluginFilesEditor.manifestMissing	The bundle must contain .devin-plugin/plugin.json.
+translation.pluginFilesEditor.manifestInvalid	.devin-plugin/plugin.json is not valid JSON.
+translation.pluginFilesEditor.fixedManifestName	Keep "name" set to "{{name}}". To rename this plugin, edit "displayName".
+translation.pluginFilesEditor.notSaved	Your changes were not saved.
+translation.pluginFilesEditor.filePathLabel	File path
+translation.pluginFilesEditor.folderPathLabel	Folder path
+translation.pluginFilesEditor.files	Files
+translation.pluginFilesEditor.moveFile	Move file
+translation.pluginFilesEditor.moveFolder	Move folder
+translation.pluginFilesEditor.moveFileDescription	Relative to the plugin root
+translation.pluginFilesEditor.moveFolderDescription	Relative to the plugin root. Its contents move with it
+translation.pluginFilesEditor.move	Move…
+translation.pluginFilesEditor.moveConfirm	Move
+translation.pluginFilesEditor.renameMessage	Rename {{from}} to {{to}}
+translation.pluginFilesEditor.noFiles	No files yet. Add one to get started.
+translation.pluginFilesEditor.selectFile	Select a file to edit.
+translation.pluginFilesEditor.binaryFile	Binary file ({{size}}) — not editable here.
+translation.pluginFilesEditor.delete	Delete
+translation.pluginFilesEditor.deleteFileTitle	Delete file
+translation.pluginFilesEditor.deleteFolderTitle	Delete folder
+translation.pluginFilesEditor.deleteDescription	Remove {{path}} from the plugin? This takes effect when you save.
+translation.pluginFilesEditor.cancel	Cancel
+translation.pluginFilesEditor.save	Save
+translation.pluginFilesEditor.saving	Saving…
+translation.pluginFilesEditor.discard	Discard
+translation.pluginFilesEditor.updateMessage	Update files
+translation.pluginFilesEditor.addMessage	Add {{path}}
+translation.pluginFilesEditor.deleteMessage	Delete {{path}}
+translation.pluginFilesEditor.updateOneMessage	Update {{path}}
+translation.pluginFilesEditor.discardTitle	Discard unsaved changes?
+translation.pluginFilesEditor.keepEditing	Keep editing
+translation.pluginContents.docsLink	Plugin docs
+translation.pluginContents.uploading	Uploading…
+translation.pluginContents.creating	Creating…
+translation.pluginContents.uploadFailed	Could not upload that .zip file
+translation.pluginContents.createFailed	Could not create the plugin
+translation.pluginContents.createTitle	Create plugin
+translation.pluginContents.namePlaceholder	Acme Tools
+translation.pluginContents.create	Create
+translation.pluginContents.cancelCreate	Cancel
+translation.pluginContents.updateDetailsMessage	Update plugin details
+translation.pluginContents.editDetails	Edit plugin details
+translation.pluginContents.nameLabel	Name
+translation.pluginContents.nameRequired	Name required
+translation.pluginContents.descriptionLabel	Description
+translation.pluginContents.descriptionPlaceholder	Skills and rules for release work
+translation.pluginContents.logoLabel	Logo
+translation.pluginContents.logoPlaceholder	https:// or assets/logo.png
+translation.pluginContents.logoInvalid	Enter a full URL that starts with https://, or the path of an image file in this plugin.
+translation.pluginContents.manifestSection	Plugin manifest
+translation.pluginContents.manifestRowSubtitle	Plugin id, version, and the rest of the manifest
+translation.pluginContents.saveDetails	Save
+translation.pluginContents.savingDetails	Saving…
+translation.pluginMcpConnect.mcpDisabledForOrg	MCP servers are disabled for your organization
+translation.pluginMcpConnect.enterpriseLevelTitle	Not available at the enterprise level
+translation.pluginMcpConnect.enterpriseLevelGuidance	Your MCPs connect inside an organization, so switch to one of your organizations to connect {{names, list}}.
+translation.pluginMcpConnect.enterpriseLevelAddGuidance	Your MCPs are added inside an organization, so switch to one of your organizations to add one.
+translation.pluginMcpConnect.enterpriseLevelCliGuidance	To use it only in the CLI, configure the MCP locally and run <command>{{command}}</command>.
+translation.pluginMcpConnect.enterpriseLevelCliSetupGuidance	To use it only in the CLI, configure the MCP locally.
+translation.pluginMcpConnect.memberConnectionsDisabled	Only MCPs added by an admin can be connected
+translation.pluginMcpConnect.pendingIndexUnread	{{name}} hasn't finished installing.
+translation.pluginMcpConnect.pendingIndexRunningReason	Its MCP can be connected once installation finishes.
+translation.pluginMcpConnect.pendingIndexSoonReason	Installation is scheduled, and its MCP can be connected after that.
+translation.pluginMcpConnect.pendingIndexAtReason	Installation is scheduled for {{time}}, and its MCP can be connected after that.
+translation.pluginMcpConnect.pendingIndexFailedReason	The last installation attempt failed.
+translation.pluginMcpConnect.pendingIndexWaitingReason	Its MCP can be connected once the plugin has been installed.
+translation.customizeAsset.deleteConfirm	Delete
+translation.customizeAsset.deleted	Deleted {{name}}
+translation.customizeAsset.deleteDescription	Delete "{{label}}"? Devin will no longer use it.
+translation.customizeAsset.deleteRuleTitle	Delete rule
+translation.customizeAsset.deleteSkillTitle	Delete skill
+translation.customizeAsset.deleteLinkedTitle	Delete “{{label}}”?
+translation.customizeAsset.deletePlaybookSkillWarning	If this skill provides instructions for a Playbook, deleting it means schedules and automations that use that Playbook will no longer run those instructions.
+translation.customizeAsset.editSkillTitle	Edit skill
+translation.customizeAsset.editRuleTitle	Edit rule
+translation.customizeMcp.installation	Installation
+translation.customizeMcp.rowDisconnectHint	Signs you out. Its settings stay, so you can sign in again.
+translation.customizeMcp.rowUninstallHint	Deletes this installation and its settings.
+translation.customizeMcp.editSource	Edit source
+translation.customizeMcp.editInstallation	Edit installation
+translation.customizeMcp.accountsTitle	Installations
+translation.customizeMcp.sharePrimaryAccount	Share primary account
+translation.customizeMcp.accountActions	Actions for {{name}}
+translation.customizeMcp.accountConnected	Connected
+translation.customizeMcp.accountNotSignedIn	Not signed in
+translation.customizeMcp.accountExpired	Sign-in expired
+translation.customizeMcp.firstSignInTitle	Connect your {{name}} account
+translation.customizeMcp.firstSignInDescription	Sign in to give Devin access through your account. You can add more installations after connecting.
+translation.customizeMcp.firstSignInAction	Sign in with {{name}}
+translation.customizeMcp.addAnotherAccount	Add installation
+translation.customizeMcp.addAccountFailed	Couldn't add another {{name}} installation
+translation.customizeMcp.accountReconnect	Reconnect
+translation.customizeMcp.accountSignIn	Sign in
+translation.customizeMcp.installationUnavailable	This installation is no longer available.
+translation.customizeMcp.installationsSummary_one	{{count}} installation · {{connected}}
+translation.customizeMcp.installationsSummary_other	{{count}} installations · {{connected}}
+translation.customizeMcp.installationsConnected_one	{{count}} connected
+translation.customizeMcp.installationsConnected_other	{{count}} connected
+translation.customizeMcp.disconnectTooltip	Removes your authorization for this MCP. You can connect again later.
+translation.customizeMcp.disconnectTitle	Disconnect {{name}}?
+translation.customizeMcp.disconnectDescription	Devin will no longer be able to use your {{name}} account. You can connect again later.
+translation.customizeMcp.disconnected	Disconnected {{name}}.
+translation.customizeMcp.disconnectFailed	Could not disconnect {{name}}.
+translation.customizeMcp.disconnectAll	Disconnect all members
+translation.customizeMcp.disconnectAllTooltip	Removes every member's authorization; everyone will need to connect again.
+translation.customizeMcp.disconnectAllTitle	Disconnect all members from {{name}}?
+translation.customizeMcp.disconnectAllDescription	This removes every member's authorization for {{name}}. Everyone will need to connect again.
+translation.customizeMcp.disconnectedAll	Disconnected all members from {{name}}.
+translation.customizeMcp.disconnectAllFailed	Could not disconnect members from {{name}}.
+translation.customizeMcp.uninstall	Uninstall
+translation.customizeMcp.uninstallTooltip	Removes the installation and its configuration.
+translation.customizeMcp.uninstallPluginTooltip	A session that meets the plugin again reinstalls it.
+translation.customizeMcp.uninstallTitle	Uninstall {{name}}?
+translation.customizeMcp.uninstallDescription	This permanently removes the {{name}} installation and its configuration.
+translation.customizeMcp.uninstallOwnDescription	This permanently removes your {{name}} installation and its configuration. Other members are not affected.
+translation.customizeMcp.uninstallFailed	Could not uninstall {{name}}.
+translation.customizeMcp.notInUseTitle	Not in use
+translation.customizeMcp.notInUseDescription	Created by plugins not installed here. Possibly used by repo plugins. Used when a plugin is active.
+translation.customizeMcp.notInUseExpand	Expand Not in use
+translation.customizeMcp.notInUseCollapse	Collapse Not in use
+translation.customizeMcp.enabledForYou	Enabled for you
+translation.customizeMcp.disabledForYou	Disabled for you
+translation.customizeMcp.enabledForOrg	Enabled for everyone in this org
+translation.customizeMcp.disabledForOrg	Disabled for everyone in this org
+translation.customizeMcp.enabledForEnterprise	Enabled for every org in this enterprise with access
+translation.customizeMcp.disabledForEnterprise	Disabled for every org in this enterprise with access
+translation.customizeMcp.disabledState	Disabled
+translation.customizeMcp.statusLabel	MCP status
+translation.customizeMcp.authLabel	Auth
+translation.customizeMcp.authNone	None · connects without credentials
+translation.customizeMcp.authOAuthSignedInPersonal	OAuth · signed in with your account
+translation.customizeMcp.authOAuthSignedInShared	OAuth · signed in with a shared account
+translation.customizeMcp.authOAuthSignedInAs	OAuth · signed in as {{account}}
+translation.customizeMcp.authOAuthNotSignedIn	OAuth · not signed in
+translation.customizeMcp.authOAuthExpired	OAuth · sign-in expired
+translation.customizeMcp.authOAuthPerMember	OAuth · each member signs in with their own account
+translation.customizeMcp.authCredential	API key or header
+translation.customizeMcp.credentialRejectedTitle	Check the credential
+translation.customizeMcp.credentialRejectedBody	{{name}} refused the connection. Enter or update its credential and try again.
+translation.customizeMcp.signInWithOAuthInstead	Sign in with OAuth instead
+translation.customizeMcp.authClientCredentials	OAuth client credentials
+translation.customizeMcp.needsOrgAdmin	You need org admin access to change this
+translation.customizeMcp.needsEnterpriseAdmin	You need enterprise admin access to change this
+translation.customizeMcp.updateFailed	Could not update {{name}}.
+translation.customizeMcp.updated	{{name}} updated.
+translation.customizeMcp.updating	Updating…
+translation.customizeMcp.updateFromMarketplace	Update from marketplace
+translation.customizeMcp.sharedConnectionTitle	Shared connection
+translation.customizeMcp.sharedConnectionCredential	Anyone with access to this MCP shares these {{name}} credentials. Use credentials issued to a service account, not personal ones.
+translation.customizeMcp.outOfDateTitle	Installation out of date
+translation.customizeMcp.outOfDateBody	The marketplace definition has changed since this was installed. Updating syncs the connection settings; saved credentials are kept.
+translation.customizeMcp.setUpForOrg	Set up for the organization
+translation.customizeMcp.setUpForOrgHint	This MCP is in the Devin marketplace. Install it once for the organization and connect it here, and plugins that declare it will use that connection instead of each member connecting their own.
+translation.customizeMcp.setUpForOrgPerMemberHint	Members are connecting this one at a time, in their own personal scope. It is also in the Devin marketplace, so you can install it once for the organization and connect it here — plugins that declare it will use that connection instead.
+translation.customizeMcp.addDescription	Add a description
+translation.customizeMcp.editDescription	Edit description
+translation.customizeMcp.perMemberHint	Set up per member. Each member connects this MCP from their own personal scope.
+translation.customizeMcp.sharedConnectOrgHint	So far this MCP is set up per member. Connect sets it up once for the organization, and members' sessions use that connection.
+translation.customizeMcp.sharedConnectEnterpriseHint	So far this MCP is set up per member. Connect sets it up once for the enterprise, and members' sessions use that connection.
+translation.customizeMcp.notConnectedTitle	Not connected yet
+translation.customizeMcp.notConnectedNeedsCredentials	Connect to set this MCP up and enter its credentials.
+translation.customizeMcp.notConnectedSignsIn	Connect to set this MCP up and sign in if it asks you to.
+translation.customizeMcp.notConnectedNoAuth	Connect to set this MCP up — there is nothing to authorize afterwards.
+translation.customizeMcp.notConnectedNeedsOrgAdmin	An organization admin needs to connect this MCP before Devin can use it.
+translation.customizeMcp.notConnectedNeedsEnterpriseAdmin	An enterprise admin needs to connect this MCP before Devin can use it.
+translation.customizeMcp.summaryTransport	Transport
+translation.customizeMcp.summaryUrl	URL
+translation.customizeMcp.summaryCommand	Command
+translation.customizeMcp.summaryAuth	Auth
+translation.customizeMcp.summaryAvailableTo	Available to
+translation.customizeMcp.summaryAvailableToYou	You
+translation.customizeMcp.summaryAvailableToOrg	Everyone in this org
+translation.customizeMcp.summaryAvailableToEnterprise	Every org in this enterprise with access
+translation.customizeMcp.summarySource	Source
+translation.customizeMcp.summarySourcePlugin	Plugin · {{plugin}}
+translation.customizeMcp.summarySourceMarketplace	Marketplace
+translation.customizeMcp.summarySourceCustom	Custom
+translation.customizeMcp.summaryIdentifier	Identifier
+translation.customizeMcp.saveBeforeConnect	Save or discard your changes before connecting.
+translation.customizeMcp.providedByHint	Already provided at the {{provider}} level, so setting up here adds a separate {{scope}} installation.
+translation.customizeMcp.managedOnTitle	Installed at the {{scope}} level
+translation.customizeMcp.manageOn	Open {{scope}}
+translation.customizeSync.tooltip	Your personal plugins load in cloud sessions, the Devin CLI, and Devin Desktop. Plugins you install with <code>devin plugins install</code> show up here too.
+translation.customizeIntro.title	Customize your Devin
+translation.customizeIntro.subtitle	Manage the plugins, skills, MCPs, and hooks Devin can use.
+translation.customizeIntro.subtitle_shared	Manage the plugins, skills, MCPs, and hooks Devin can use, for you and your org.
+translation.customizeIntro.actions.continue	Continue
+translation.customizeIntro.illustration.cli	CLI
+translation.customizeIntro.illustration.cloud	Cloud
+translation.customizeIntro.illustration.datadogDescription	Monitoring, metrics, logs and traces
+translation.customizeIntro.illustration.desktop	Desktop
+translation.customizeIntro.illustration.figmaDescription	Figma files, components and comments
+translation.customizeIntro.illustration.installed	Installed
+translation.customizeIntro.illustration.terminal	Terminal
+translation.customizeIntro.rows.marketplace.title	Install from the marketplace
+translation.customizeIntro.rows.marketplace.body	Browse existing plugins and install them into your setup.
+translation.customizeIntro.rows.sync.title	Shared across every surface
+translation.customizeIntro.rows.sync.body	Your plugins load in cloud sessions, the Devin CLI, and Devin Desktop.
+translation.customizeIntro.rows.ask.title	Devin can add plugins for you
+translation.customizeIntro.rows.ask.body	Have Devin make skills, install MCP servers, or setup third-party plugins.
+translation.enterpriseMarketplaceAvailability.title	Marketplace availability
+translation.enterpriseMarketplaceAvailability.description	Which MCP servers organizations in your enterprise can see and install from the marketplace. Hiding one blocks new installations; organizations that already installed it keep access until they disable or uninstall it there.
+translation.enterpriseMarketplaceAvailability.loadError	Could not load the marketplace servers.
+translation.enterpriseMarketplaceAvailability.search	Search marketplace servers
+translation.enterpriseMarketplaceAvailability.empty	No marketplace servers are available.
+translation.enterpriseMarketplaceAvailability.noMatches	No marketplace servers match your search.
+translation.enterpriseMarketplaceAvailability.hidden	Hidden from the marketplace
+translation.enterpriseMarketplaceAvailability.shown	Shown in the marketplace
+translation.enterpriseMarketplaceAvailability.shownInstalled_one	Shown in the marketplace · installed in {{count}} organization
+translation.enterpriseMarketplaceAvailability.shownInstalled_other	Shown in the marketplace · installed in {{count}} organizations
+translation.enterpriseMarketplaceAvailability.showSwitch	Show {{name}} in the marketplace
+translation.enterpriseMarketplaceAvailability.hideTitle	Hide {{name}} from the marketplace?
+translation.enterpriseMarketplaceAvailability.hideDescription_one	{{count}} organization has an existing installation that will keep working, including in automations. To cut access, disable or uninstall this MCP in each organization.
+translation.enterpriseMarketplaceAvailability.hideDescription_other	{{count}} organizations have existing installations that will keep working, including in automations. To cut access, disable or uninstall this MCP in each organization.
+translation.enterpriseMarketplaceAvailability.cancel	Cancel
+translation.enterpriseMarketplaceAvailability.hideConfirm	Hide from marketplace
+translation.enterpriseMarketplaceAvailability.hideFailed	Could not hide {{name}} from the marketplace
+translation.enterpriseMarketplaceAvailability.showFailed	Could not show {{name}} in the marketplace
+translation.enterpriseMcpSetup.configureOnce	Configure it once — sessions in the organizations you target get it automatically.
+translation.enterpriseMcpSetup.notInstalled	Not installed
+translation.enterpriseMcpSetup.customTitle	Add a custom MCP
+translation.enterpriseMcpSetup.customSubtitle	Point Devin at an MCP server you run yourself. Configure it once — sessions in the organizations you target get it automatically.
+translation.enterpriseMcpEditor.saving	Saving…
+translation.enterpriseMcpEditor.saveChanges	Save
+translation.enterpriseMcpEditor.createServer	Create server
+translation.enterpriseMcpEditor.configurationTitle	Configuration
+translation.enterpriseMcpEditor.nameLabel	Name
+translation.enterpriseMcpEditor.namePlaceholder	e.g. Datadog (US)
+translation.enterpriseMcpEditor.iconLabel	Icon
+translation.enterpriseMcpEditor.iconPlaceholder	Paste in an emoji or URL
+translation.enterpriseMcpEditor.shortDescriptionExamplePlaceholder	e.g. Datadog EU production
+translation.enterpriseMcpEditor.shortDescriptionPlaceholder	One-line summary
+translation.enterpriseMcpEditor.descriptionPlaceholder	What this server is for
+translation.enterpriseMcpEditor.enableInSessions	Enable in sessions
+translation.enterpriseMcpEditor.enableInSessionsHint	Allow Devin to use this MCP server during sessions
+translation.enterpriseMcpEditor.availableInDesktopCli	Available in Desktop + CLI
+translation.enterpriseMcpEditor.availableInDesktopCliHint	Offer this MCP server to Devin Desktop and the Devin CLI
+translation.enterpriseMcpEditor.commandLabel	Command
+translation.enterpriseMcpEditor.personalMcp	Personal MCP
+translation.enterpriseMcpEditor.sharedConnectionHint	An administrator connects once and the shared connection is used for all sessions in targeted organizations.
+translation.enterpriseMcpEditor.sharedConnectionExpired	The shared connection expired — reconnect to keep using this server.
+translation.enterpriseMcpEditor.connected	Connected.
+translation.enterpriseMcpEditor.connecting	Connecting…
+translation.enterpriseMcpEditor.reconnect	Reconnect
+translation.enterpriseMcpEditor.connect	Connect
+translation.enterpriseMcpEditor.connectAfterSave	Save your changes, then connect from this page.
+translation.enterpriseMcpEditor.connectRedirectHint	You'll be taken to the provider to connect after saving. Use a dedicated bot account on the provider, never a personal account.
+translation.enterpriseMcpEditor.headerValueConfiguredPlaceholder	Configured — re-enter value to change
+translation.enterpriseMcpEditor.targetingTitle	Targeting
+translation.enterpriseMcpEditor.targetingDescription	Which organizations get this server. Resolved at session start — no sync step.
+translation.enterpriseMcpEditor.targetingPluginAudienceDescription	Which organizations get this server, out of the ones its plugin is available in. Resolved at session start — no sync step.
+translation.enterpriseMcpEditor.targetingMode	Targeting mode
+translation.enterpriseMcpEditor.targetingDefaultTitle	Default enabled — all organizations
+translation.enterpriseMcpEditor.targetingDefaultHint	Every organization in the enterprise receives this server, including organizations created later. Specific organizations can be excluded.
+translation.enterpriseMcpEditor.targetingSpecificTitle	Specific organizations
+translation.enterpriseMcpEditor.targetingSpecificHint	Share this server only with organizations you select.
+translation.enterpriseMcpEditor.targetingDefaultUncheckedHint	Unchecked organizations don't receive this server. New organizations receive it automatically.
+translation.enterpriseMcpEditor.targetingSpecificUncheckedHint	Unchecked organizations don't receive this server. New organizations aren't added automatically.
+translation.enterpriseMcpEditor.loadingOrganizations	Loading organizations
+translation.enterpriseMcpEditor.organizationsLoadError	Unable to load organizations.
+translation.enterpriseMcpEditor.duplicateInstallationsTitle	Devin will see multiple installations of this server
+translation.enterpriseMcpEditor.duplicateInstallationsHint	Include details in the name and short description fields so Devin can tell it apart from these installations:
+translation.enterpriseMcpEditor.couldNotSave	Could not save
+translation.enterpriseMcpEditor.dangerZone	Danger zone
+translation.enterpriseMcpEditor.deleteServerHint	Deleting this server removes it from all targeted organizations. Organizations that installed their own copy keep it.
+translation.enterpriseMcpEditor.deleteServer	Delete server
+translation.enterpriseMcpEditor.delete	Delete
+translation.enterpriseMcpEditor.deleteSecretTitle	Delete secret
+translation.enterpriseMcpEditor.deleteSecretDescription	This deletes the stored value for "{{name}}". Anything referencing ${{name}} will stop resolving until a new value is saved.
+translation.enterpriseMcpEditor.changeAccess	Change access
+translation.enterpriseMcpEditor.switchToPersonalTitle	Switch to Personal access?
+translation.enterpriseMcpEditor.switchToOrganizationDescription	Existing OAuth tokens will be invalidated. An administrator will need to connect again to restore a shared connection for targeted organizations.

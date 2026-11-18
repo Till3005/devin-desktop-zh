@@ -1,0 +1,10 @@
+review.inbox.queueEmpty	No pull requests are waiting for your review.
+review.inbox.authoredEmpty	You have no open pull requests.
+review.inbox.loadMore	Load more
+review.inbox.noReadySuggestions	No suggestions ready for Quick review. Your review requests are below.
+review.inbox.changesSinceReview	Changes since Devin’s analysis
+review.inbox.latestChanges	Latest PR changes
+review.inbox.reviewRunning	Devin is analyzing these changes.
+review.inbox.showNewAnalysis	Show new analysis
+review.inbox.noFileChanges	No file changes in this diff.
+review.inbox.openFullPr	Open full PR.

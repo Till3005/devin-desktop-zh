@@ -1,0 +1,500 @@
+translation.progress.viewedTheConsole	viewed the console
+translation.progress.waited	Waited
+translation.progress.waitedDuration	Waited {{duration}}s
+translation.progress.workedForABit	Worked for a bit
+translation.progress.workedFor	Worked for <duration></duration>
+translation.progress.workingFor	Working for <duration></duration>
+translation.progress.youSaid	You said
+translation.progress.devinSaid	Devin said
+translation.progress.userSaid	{{username}} said
+translation.progress.zoomedRegion	Zoomed region
+translation.progress.clickedElementLead	Clicked element
+translation.progress.typedLead	Typed
+translation.progress.scrolledUpLead	Scrolled up
+translation.progress.scrolledDownLead	Scrolled down
+translation.progress.movedTheMouseLead	Moved the mouse
+translation.progress.viewedTheConsoleLead	Viewed the console
+translation.progress.ranJavaScriptLead	Ran JavaScript
+translation.progress.pressedKeyActionLead	Pressed {{key}}
+translation.progress.selectedFileLead	Selected file {{file}}
+translation.progress.selectedOptionLead	Selected option {{option}}
+translation.progress.miniLoading	Loading...
+translation.progress.miniError	Error
+translation.progress.miniRunning	Running...
+translation.progress.miniRunningShort	Running
+translation.progress.miniFailedLabel	Failed: {{label}}
+translation.progress.sessionsToCreate_one	{{count}} session to create
+translation.progress.sessionsToCreate_other	{{count}} sessions to create
+translation.progress.wikiGenerating	Generating Wiki
+translation.progress.wikiFailed	Failed to generate Wiki
+translation.progress.wikiGenerated	Generated Wiki
+translation.progress.wikiFor	Wiki for {{repoName}}
+translation.progress.wikiTitle	Wiki
+translation.progress.openWiki	Open Wiki
+translation.progress.openSentMessage	Open sent message
+translation.progress.hookLabelHook	Hook:
+translation.progress.hookLabelPhase	Phase:
+translation.progress.hookLabelExitCode	Exit code:
+translation.progress.hookLabelDuration	Duration:
+translation.progress.hookOutputIgnored	Output ignored: {{error}}
+translation.progress.hookLabelDecision	Decision:
+translation.progress.hookStoppedTurn	Stopped the turn
+translation.progress.hookReplaced	Replaced the {{what}} the model sees
+translation.progress.toolCommand	Command
+translation.progress.toolOutput	Output
+translation.progress.toolInput	Input
+translation.progress.toolNone	None
+translation.progress.toolName	Tool
+translation.progress.showApp	Show app
+translation.progress.knowledgeWillBeDeleted	This knowledge item will be deleted
+translation.progress.knowledgeContentUnavailable	Note \\
+translation.projectSelect.loading	Loading projects…
+translation.projectSelect.noProjectsFound	No projects found
+translation.projectSelect.placeholder	Select project…
+translation.projectSelect.searchPlaceholder	Search projects…
+translation.promoOffer.adminTitle	Ask your admin to claim this offer
+translation.promoOffer.adminDescription	Only a billing admin can redeem it. Ask one on your team to claim it or to make you an admin, or contact us.
+translation.promoOffer.contactUs	Contact us
+translation.promoOffer.defaultTitle	Claim your offer
+translation.promoOffer.defaultDetails	Your offer is ready to claim.
+translation.promoOffer.claimFailed	Failed to claim your offer. Please try again.
+translation.promoOffer.orgPickerLabel	Organization to apply the offer to
+translation.promoOffer.orgPickerPlaceholder	Select an organization
+translation.promoOffer.orgPickerNotEligible	Not eligible
+translation.promoOffer.orgPickerAdminOnly	Billing admin only
+translation.promoOffer.claim	Claim
+translation.promoOffer.startupOfferLabel	Startup offer: {{grant}} + up to {{matchCap}} 1:1 match
+translation.provisionedApiKeyModal.dialogLabel	API key provisioned
+translation.provisionedApiKeyModal.title	API Key Provisioned
+translation.provisionedApiKeyModal.forOrganization	For organization: {{orgName}}
+translation.provisionedApiKeyModal.serviceApiKey	Service API Key
+translation.provisionedApiKeyModal.securityNoticeTitle	Important Security Notice
+translation.provisionedApiKeyModal.securityNoticeBody	This API key will only be shown once. Make sure to copy and store it securely. If you close this modal, you will not be able to view this key again.
+translation.provisionedApiKeyModal.copied	Copied!
+translation.provisionedApiKeyModal.copyKey	Copy key
+translation.provisionedApiKeyModal.copyApiKey	Copy API key
+translation.provisionedApiKeyModal.copyFailed	Failed to copy API key
+translation.provisionedApiKeyModal.saved	I saved the key
+translation.pylon.regionEu	EU (api.eu.usepylon.com)
+translation.pylon.regionLabel	Pylon workspace region
+translation.pylon.regionUs	US (api.usepylon.com)
+translation.pylon.accessControlDescription	Control how Devin interacts with Pylon.
+translation.pylon.accessControlTitle	Access control
+translation.pylon.connect	Connect
+translation.pylon.connectedAt	Connected {{date}}
+translation.pylon.connectionFallback	Pylon connection
+translation.pylon.disconnectCancel	Cancel
+translation.pylon.disconnectConfirm	Disconnect
+translation.pylon.disconnectDescription	Are you sure you want to disconnect your Pylon integration? This will remove all Pylon automation triggers from Devin.
+translation.pylon.disconnectTitle	Disconnect Pylon
+translation.pylon.inheritEnterpriseDefaults	Use enterprise defaults
+translation.pylon.inheritOrganizationDefaults	Use organization defaults
+translation.pylon.orgSelectAriaLabel	Select Pylon organization
+translation.pylon.orgSelectPlaceholder	Select an organization
+translation.pylon.pageDescription	Connect Pylon to automate support workflows with Devin.
+translation.pylon.securityDescription	Control what sessions created from Pylon are allowed to do.
+translation.pylon.securityProfileDescription	Applied to Pylon-delegated sessions. Pick a profile that limits network and tool access. Edit profiles in <securityProfilesLink>Security profiles</securityProfilesLink>.
+translation.pylon.securityProfileLabel	Pylon security profile
+translation.pylon.securityProfilesLoadError	Failed to load security profiles.
+translation.pylon.securityTitle	Security
+translation.pylon.sessionRoutingDescription	Choose which organization Pylon sessions are created in.
+translation.pylon.sessionRoutingOrgDescription	Required for accounts with multiple organizations; Pylon events are rejected until one is selected
+translation.pylon.sessionRoutingOrgLabel	Organization
+translation.pylon.sessionRoutingTitle	Session routing
+translation.pylon.statusErrorDescription	Something went wrong while loading the Pylon integration status.
+translation.pylon.statusErrorTitle	Failed to load Pylon status
+translation.pylon.tryAgain	Try again
+translation.pylon.userMatchingConnectedOnly	Pylon-connected users only
+translation.pylon.userMatchingDescription	How Pylon senders are recognized as Devin users
+translation.pylon.userMatchingEmail	Email or Pylon-connected user
+translation.pylon.userMatchingLabel	User matching
+translation.pylon.allowedOrgsAll	All organizations
+translation.pylon.allowedScopesAll	All organizations and
+My Workspace
+translation.pylon.allowedScopesSelected_one	{{count}} scope selected
+translation.pylon.allowedScopesSelected_other	{{count}} scopes selected
+translation.pylon.allowedOrgsDescription	Organizations that can use Pylon
+translation.pylon.allowedOrgsLabel	Allowed organizations
+translation.pylon.allowedOrgsNone	No organizations
+translation.pylon.askOnlyAllow	Allow (answers only, no code changes)
+translation.pylon.askOnlyDescription	Let people without a Devin account ask questions
+translation.pylon.askOnlyDisallow	Don't allow
+translation.pylon.askOnlyLabel	Ask without a Devin account
+translation.pylon.askOnlyOrgDescription	Used for senders who aren't linked to a Devin account
+translation.pylon.askOnlyOrgLabel	If not linked, route to
+translation.pylon.automationTriggersConfirmLabel	Enable triggers
+translation.pylon.automationTriggersConfirmTitle	Enable Pylon automation triggers
+translation.pylon.automationTriggersDescription	Allow supported Pylon events to trigger Devin automations
+translation.pylon.automationTriggersDisabled	Disabled
+translation.pylon.automationTriggersEnabled	Enabled
+translation.pylon.automationTriggersLabel	Pylon automation triggers
+translation.pylon.linkConfirmCancel	Cancel
+translation.pylon.linkConfirmLabel	Link account
+translation.pylon.linkConfirmTitle	Link your Pylon account
+translation.pylon.mcpAccessConfirmDescription	Read and write access lets Devin create and update Pylon issues and accounts.
+translation.pylon.mcpAccessConfirmLabel	Enable read and write access
+translation.pylon.mcpAccessConfirmTitle	Enable Pylon MCP write access
+translation.pylon.mcpAccessDescription	Control whether Devin can create and update Pylon issues and accounts. <learnMoreLink>Learn more</learnMoreLink>
+translation.pylon.mcpAccessLabel	Pylon MCP access
+translation.pylon.messagesDescription	Allow Pylon bot to send follow-up messages to the Devin session linked to an issue
+translation.pylon.messagesDisabled	Disabled
+translation.pylon.messagesEnabled	Enabled
+translation.pylon.messagesLabel	Pylon follow-up messages
+translation.pylon.mcpAccessReadOnly	Read only
+translation.pylon.mcpAccessReadWrite	Read and write
+translation.pylon.loadingStatuses	Loading statuses…
+translation.pylon.loadingTags	Loading tags…
+translation.pylon.noStatuses	No Pylon statuses
+translation.pylon.noStatusesFound	No statuses found
+translation.pylon.noTags	No Pylon tags
+translation.pylon.noTagsFound	No tags found
+translation.pylon.searchStatuses	Search statuses…
+translation.pylon.searchTags	Search tags…
+translation.pylon.securityWarningConfirmLabel	Change profile
+translation.pylon.securityWarningDescription	Sessions created from Pylon process untrusted content like customer support tickets, which can attempt prompt injection. Make sure these sessions are resilient — apply a restrictive security profile that limits network and tool access.
+translation.pylon.securityWarningTitle	Warning
+translation.pylon.securityWarningUpdateLink	Update the default Pylon security profile
+translation.pylon.triggerDisabledDescription	{{triggers}} is turned off in Pylon settings, so this automation is disabled and does nothing.
+translation.pylon.triggerDisabledLink	Manage Pylon automation triggers
+translation.pylon.triggerDisabledStatus	Won't run — Pylon trigger is off
+translation.pylon.triggerDisabledTitle	This automation won't run
+translation.pylon.triggerLockedTooltip	This trigger is not available.
+Turn it on in the Pylon connection settings.
+translation.pylon.triggerOrgListLockedTooltip	This trigger is not available.
+To turn it on, allow My Workspace in the Pylon connection settings.
+translation.pylon.triggerPartiallyDisabledDescription	{{triggers}} is turned off in Pylon settings, so this automation won't run for it. Other triggers still work.
+translation.pylon.triggerPartiallyDisabledTitle	Some triggers won't fire
+translation.pylon.connectFailed	Failed to connect Pylon
+translation.pylon.updateSettingsFailed	Failed to update Pylon settings
+translation.pylon.updateSecurityProfileFailed	Failed to update Pylon security profile
+translation.pylon.disconnectSuccess	Pylon disconnected successfully
+translation.pylon.disconnectFailed	Failed to disconnect Pylon
+translation.pylon.setup.securityProfileLabel	Security profile
+translation.pylon.setup.askOnlyOrgDescription	For senders without a linked Devin account
+translation.pylon.setup.automationTriggersDescription	Starts Devin automations from Pylon events
+translation.pylon.setup.automationTriggersLabel	Automation triggers
+translation.pylon.setup.mcpAccessLabel	MCP access
+translation.pylon.setup.messagesDescription	Lets the Pylon bot message the Devin session linked to an issue
+translation.pylon.setup.messagesLabel	Follow-up messages
+translation.pylon.setup.title	Pylon is connected
+translation.pylon.setup.description	Choose what Devin can do in Pylon
+translation.pylon.setup.recommended	Recommended
+translation.pylon.setup.askOnlyDescription	Answers questions without changing code
+translation.pylon.setup.orgRequired	Devin rejects Pylon events until you select an organization
+translation.pylon.setup.userMatchingDescription	Recognizes senders without a linked Pylon account
+translation.pylon.setup.mcpAccessDescription	What Devin can do with Pylon issues
+translation.pylon.setup.securityProfileDescription	Current: {{name}}. Tickets are untrusted, so use a restrictive profile
+translation.pylon.setup.reviewProfile	Review profile
+translation.pylon.setup.save	Save
+translation.pylon.setup.noProfile	No security profile
+translation.pylon.setup.orgRequiredError	Select an organization
+translation.pylon.triggers.issueCreated	Issue created
+translation.pylon.triggers.issueCreatedDescription	Fires when a new Pylon issue is created
+translation.pylon.triggers.issueTagAdded	Issue tag added
+translation.pylon.triggers.issueTagAddedDescription	Fires when a tag is added to a Pylon issue
+translation.pylon.triggers.issueStatusChanged	Issue status changed
+translation.pylon.triggers.issueStatusChangedDescription	Fires when a Pylon issue changes status
+translation.readiness.whyThisMatters	Why this matters
+translation.readiness.resolveToReachLevel	Resolve these issues to reach Level {{level}}
+translation.readiness.resolveToReachLevelHelp	Open findings on the checks that gate Level {{level}}. {{percent}}% of the checks toward Level {{level}} pass, weighted by activity; {{thresholdPercent}}% clears it.
+translation.readiness.readinessLevel	Readiness level
+translation.readiness.readinessLevelHelp	Levels are earned in order. A level is reached when the weighted pass rate of its checks meets that level's threshold; the bar fills toward the next tick as checks pass.
+translation.readiness.checks	Checks
+translation.readiness.checksPassing	{{passed}} of {{applicable}} passing
+translation.readiness.couldNotVerify	Couldn't verify
+translation.readiness.evidence	Evidence
+translation.readiness.evidenceCount	Evidence ({{count}})
+translation.readiness.checkEvidenceCount	Check evidence ({{count}})
+translation.readiness.exclusionReasonDormant	Dormant: no commits in the last 90 days
+translation.readiness.findingSessions	Sessions
+translation.readiness.findingAffectedChecks	Affected checks
+translation.readiness.findingCount_one	{{count}} finding
+translation.readiness.findingCount_other	{{count}} findings
+translation.readiness.checkFinding_one	Finding
+translation.readiness.checkFinding_other	Findings
+translation.readiness.findingScopeMore	{{scope}} +{{more}} more
+translation.readiness.findingLocus	Where
+translation.readiness.findingStatusBlocker	Blocker
+translation.readiness.findingTypeIssue	Real issue
+translation.readiness.findingTypeHypothetical	Hypothetical issue
+translation.readiness.findingTypeRecommendation	Recommendation
+translation.readiness.findingStatusDismissed	Dismissed
+translation.readiness.findingStatusNote	Note
+translation.readiness.findings	Findings
+translation.readiness.findingStatusFixed	Fixed
+translation.readiness.fixFailed	Failed to start a fix session.
+translation.readiness.fixInProgress	A fix session is already running for this finding.
+translation.readiness.fixStale	This finding changed since the page loaded. Refreshing.
+translation.readiness.fixWithDevin	Fix with Devin
+translation.readiness.goToBlueprint	Go to blueprint
+translation.readiness.orgAccessGuidance	An organization administrator needs to grant this access; Devin can't fix it from a session.
+translation.readiness.commit	Commit
+translation.readiness.degradedAssessment	Degraded assessment
+translation.readiness.levelHistoryFailed	Failed to load the level history.
+translation.readiness.levelHistoryOnlyOne	Only one assessment so far — run again to see a trend
+translation.readiness.levelLabel	Level
+translation.readiness.levelOverTime	Levels over time
+translation.readiness.levelHistoryRange	{{from}} – {{to}}
+translation.readiness.summary	Summary
+translation.readiness.findingStatusFailedCheck	Failed check
+translation.readiness.olderFormat	Older format
+translation.readiness.rerunToSeeResults	Rerun the assessment to see results.
+translation.readiness.recommendation	Recommendation
+translation.readiness.startingFixSession	Starting fix session…
+translation.readiness.viewFixSession	View fix session
+translation.readiness.yourCheck	Your check
+translation.readiness.customCheckAccount	Account
+translation.readiness.customCheckOrg	Org
+translation.readiness.customChecksInherited	Set by your enterprise
+translation.readiness.customChecksOrganization	Set by your organization
+translation.readiness.yourChecks	Your checks
+translation.readiness.coreChecks	Core checks
+translation.readiness.customChecks	Custom checks
+translation.readiness.customChecksDescription	Define checks for your own tooling that run alongside Cognition's checks.
+translation.readiness.customChecksPageDescription	Checks for your organization's own tooling and conventions. They are assessed with Cognition's checks in every repository but never change the readiness level.
+translation.readiness.customChecksRevisionMeta	Revision {{revision}} · saved {{date}}
+translation.readiness.customChecksReadOnly	You can view custom checks but need the manage agent readiness permission to change them.
+translation.readiness.customChecksLoadFailedTitle	Something went wrong
+translation.readiness.customChecksLoadFailed	Failed to load custom checks.
+translation.readiness.customChecksEmptyTitle	No custom checks yet
+translation.readiness.customChecksEmptyDescription	Custom checks describe what must be true in a repository for your own tooling, and Devin verifies each one during the readiness assessment. They appear alongside Cognition's checks and never change the readiness level.
+translation.readiness.customChecksAdd	Add check
+translation.readiness.customChecksCount	{{count}} of {{max}} checks
+translation.readiness.customChecksRemove	Remove
+translation.readiness.customChecksUntitled	Check {{index}}
+translation.readiness.customChecksSave	Save
+translation.readiness.customChecksSaving	Saving…
+translation.readiness.customChecksSaved	Saved as revision {{revision}} — applies to the next assessment of each repository
+translation.readiness.customChecksSaveFailed	Failed to save custom checks.
+translation.readiness.customChecksFixErrors	Fix the highlighted fields before saving.
+translation.readiness.customChecksTitle	Title
+translation.readiness.customChecksDescriptionField	Check
+translation.readiness.customChecksDescriptionHelp	What must be true and how Devin should verify it. You can include commands as guidance
+translation.readiness.customChecksRationale	Why this matters
+translation.readiness.customChecksRationaleHelp	Shown next to the result, like Cognition's checks
+translation.readiness.customChecksErrorRequired	Required
+translation.readiness.customChecksErrorTooLong	Must be {{limit}} characters or fewer
+translation.readiness.customChecksErrorDuplicateTitle	Another check already uses this title
+translation.readiness.customConnections	Custom connections
+translation.readiness.customConnectionsDescription	Describe systems Devin should be able to reach, verified from Connections.
+translation.readiness.customConnectionsPageDescription	Systems Devin should be able to reach, such as your SonarQube or Artifactory. They are shown on Connections and verified separately from readiness assessments.
+translation.readiness.customConnectionsCount	{{count}} of {{max}} connections
+translation.readiness.customConnectionsSaved	Saved as revision {{revision}} — applies to the next connection refresh
+translation.readiness.customConnectionsManage	Manage
+translation.readiness.customConnectionsAdd	Add connection
+translation.readiness.customConnectionsUntitled	Connection {{index}}
+translation.readiness.customConnectionsEmptyTitle	No custom connections yet
+translation.readiness.customConnectionsEmptyHint	Add systems Devin should be able to reach, such as your SonarQube or Artifactory, from Custom connections.
+translation.readiness.customConnectionsEmptyDescription	Describe a system Devin should reach, such as your SonarQube or Artifactory, and how to tell that access works. Devin verifies it read-only using your organization's secrets, MCP servers, and integrations.
+translation.readiness.customConnectionsDescriptionField	What Devin should reach
+translation.readiness.customConnectionsDescriptionHelp	In plain language: the system Devin should reach and how to tell that access works. Devin verifies it read-only with your organization's secrets, MCP servers, and integrations
+translation.readiness.customConnectionsDescriptionPlaceholder	e.g. Call GET https://sonarqube.example.com/api/authentication/validate with the SONARQUBE_TOKEN org secret and confirm it returns valid: true
+translation.readiness.customConnectionsConnectHint	How to connect
+translation.readiness.customConnectionsConnectHintHelp	Shown on Connections when the system is not connected — for example who to ask or which secret to enable
+translation.readiness.customConnectionsInheritedConnectHint	How to connect: {{hint}}
+translation.readiness.pageTitle	Agent Readiness
+translation.readiness.pageDescription	How ready each repository is for agents to work in, assessed criterion by criterion.
+translation.readiness.repoPageTitle	Readiness — {{repo}}
+translation.readiness.somethingWentWrong	Something went wrong
+translation.readiness.loadAssessmentsFailed	Failed to load readiness assessments.
+translation.readiness.loadAssessmentFailed	Failed to load the readiness assessment.
+translation.readiness.noAssessmentForRepo	This repository has no readiness assessment.
+translation.readiness.tryAgain	Try again
+translation.readiness.statusRunning	Running
+translation.readiness.statusCompleted	Completed
+translation.readiness.statusDegraded	Degraded
+translation.readiness.statusFailed	Failed
+translation.readiness.runningEllipsis	Running…
+translation.readiness.runningSince	Running · {{elapsed}}
+translation.readiness.levelBadge	L{{level}}
+translation.readiness.repositories	Repositories
+translation.readiness.repositoriesDescription	Readiness level of each assessed repository.
+translation.readiness.starting	Starting…
+translation.readiness.runAssessment	Run assessment
+translation.readiness.noReposAssessed	No repositories assessed yet
+translation.readiness.noReposAssessedHint	Select a repository above and run an assessment to see how ready it is for agents.
+translation.readiness.noReposAssessedReadOnly	Assessments will appear here once someone with permission runs one.
+translation.readiness.effortTrivial	Trivial fix
+translation.readiness.effortModerate	Moderate fix
+translation.readiness.effortDifficult	Difficult fix
+translation.readiness.burdenTitle	Where session time goes
+translation.readiness.burdenWindow	Last {{days}} days · {{segmented}} of {{sampled}} sessions sampled
+translation.readiness.burdenRemaining	{{phases}} make up the remaining {{percent}}%.
+translation.readiness.connectionsTitle	Connections
+translation.readiness.connectionsDescription	Tools Devin can reach from this organization.
+translation.readiness.enterpriseConnectionsDescription	Tools Devin can reach across this enterprise.
+translation.readiness.connectionsLoadFailed	Couldn't load connections
+translation.readiness.connectionsLoadFailedDescription	Something went wrong while checking which tools Devin can reach.
+translation.readiness.providerMappedOrgs_one	{{label}} ({{mapped}} of {{count}} organization)
+translation.readiness.providerMappedOrgs_other	{{label}} ({{mapped}} of {{count}} organizations)
+translation.readiness.enterprisePageDescription	How ready each repository across your enterprise is for agents to work in, assessed criterion by criterion.
+translation.readiness.enterpriseRepositoriesDescription	Readiness level of each assessed repository. Repositories connected in several organizations appear once, with the newest assessment.
+translation.readiness.repositoriesScoreDescription	Score of each assessed repository: the percentage of its checks that passed.
+translation.readiness.enterpriseRepositoriesScoreDescription	Score of each assessed repository: the percentage of its checks that passed. Repositories connected in several organizations appear once, with the newest assessment.
+translation.readiness.loadingRepositories	Loading repositories
+translation.readiness.noAssessmentsInOrg	No assessments in {{org}} yet. Run one from that organization's Insights page.
+translation.readiness.noAssessmentsInEnterprise	Assessments run from any organization's Insights page will appear here.
+translation.readiness.connected	Connected
+translation.readiness.notConnected	Not connected
+translation.readiness.noneEnabled	None enabled
+translation.readiness.manage	Manage
+translation.readiness.add	Add
+translation.readiness.mcpServers	MCP servers
+translation.readiness.notAssessed	Not assessed
+translation.readiness.customConnectionsTitle	Custom connections
+translation.readiness.customConnectionsRefresh	Refresh
+translation.readiness.customConnectionsRefreshHelp	Runs each check read-only in a session with this organization's secrets and MCP servers.
+translation.readiness.customConnectionsChecking	Checking…
+translation.readiness.customConnectionsLastChecked	Last checked {{date}}
+translation.readiness.customConnectionsNotChecked	Not checked yet
+translation.readiness.customConnectionsRunFailed	Last check could not run
+translation.readiness.customConnectionsRunFailedWithError	Last check could not run: {{error}}
+translation.readiness.enterpriseCustomConnectionsDescription	Checks defined by your enterprise, counted over each organization's latest run.
+translation.readiness.customConnectionsLoadFailed	Couldn't load check status
+translation.readiness.customConnectionsRefreshFailed	Couldn't start the check
+translation.readiness.customConnectionNotChecked	Not checked
+translation.readiness.customConnectionUnknown	Unknown
+translation.readiness.customConnectionError	Check failed
+translation.readiness.customConnectionDefaultHint	Custom connection check
+translation.readiness.customConnectionConnectedOrgs_one	Connected in {{connected}} of {{count}} organization
+translation.readiness.customConnectionConnectedOrgs_other	Connected in {{connected}} of {{count}} organizations
+translation.readiness.customConnectionNoOrgsChecked	Not checked in any organization yet
+translation.readiness.scopesExcluded_one	{{count}} scope excluded
+translation.readiness.scopesExcluded_other	{{count}} scopes excluded
+translation.readiness.scopesAssessed_one	{{count}} scope assessed
+translation.readiness.scopesAssessed_other	{{count}} scopes assessed
+translation.readiness.progressAriaLabel	Repo readiness progress
+translation.readiness.progressValueText	{{percent}}% weighted pass rate, {{thresholdPercent}}% clears the level
+translation.readiness.assessmentSummary	Assessment summary
+translation.readiness.insightSummary	Insight summary
+translation.readiness.insightsTitle	Insights
+translation.readiness.insightsDescription	What the latest assessment found
+translation.readiness.overallScoreHelp	Percentage of applicable checks that passed.
+translation.readiness.fixableSuggestions	Fixable suggestions
+translation.readiness.suggestionUnit_one	suggestion
+translation.readiness.suggestionUnit_other	suggestions
+translation.readiness.suggestionCount_one	{{count}} suggestion
+translation.readiness.suggestionCount_other	{{count}} suggestions
+translation.readiness.checksPassed	Checks passed
+translation.readiness.passedFraction	<value>{{passed}}</value><rest>/{{applicable}} passed</rest>
+translation.readiness.overallScore	Overall score
+translation.readiness.overallScoreDescription	Checks passed in each category
+translation.readiness.checksPassedShort	checks passed
+translation.readiness.categoryBreakdown	Category breakdown
+translation.readiness.categoryBreakdownDescription	Suggestions in each category, with what sessions spent on them
+translation.readiness.scoreLabel	Score {{score}} out of 100
+translation.readiness.levelNumber	Level {{level}}
+translation.readiness.allLevelsMet	All levels met
+translation.readiness.tierLabel	L{{tier}} · {{title}}
+translation.readiness.tierFoundations	Foundations
+translation.readiness.tierReliability	Reliability
+translation.readiness.tierEfficiency	Efficiency
+translation.readiness.tierComplete	{{title}} complete
+translation.readiness.tierPercent	{{title}} {{percent}}%
+translation.readiness.tierRatio	{{title}} {{passed}}/{{applicable}}
+translation.readiness.rootApplication	Root application
+translation.readiness.otherSection	Other
+translation.readiness.passedRatio	{{passed}}/{{applicable}} passed
+translation.readiness.checksPassedRatio	{{passed}}/{{applicable}} checks passed
+translation.readiness.assessedAt	Assessed {{date}}
+translation.readiness.viewSession	View session
+translation.readiness.assessmentRunning	Assessment running…
+translation.readiness.runAgain	Run again
+translation.readiness.latestAssessmentFailed	Latest assessment failed: {{error}}
+translation.readiness.noCompletedAssessment	No completed assessment yet
+translation.readiness.assessmentRunningHint	An assessment is running. Results will appear here once it completes.
+translation.readiness.runAssessmentHint	Run an assessment to see criterion-level results for this repository.
+translation.readiness.notApplicableTypeInapplicable	Not applicable to this kind of scope
+translation.readiness.notApplicableDependency	A prerequisite criterion did not pass
+translation.readiness.notApplicableBlockedByUpstream	Blocked by an upstream failure in this scope
+translation.readiness.notApplicableRepoUpstream	Blocked by a repo-level failure
+translation.readiness.notApplicableEcosystem	Not applicable in this ecosystem
+translation.readiness.notApplicableNotUserFacing	Not a user-facing product surface
+translation.readiness.phaseSetup	Setup
+translation.readiness.phaseResearching	Researching
+translation.readiness.phaseImplementing	Implementing
+translation.readiness.phaseTesting	Testing
+translation.readiness.phaseDebugging	Debugging
+translation.readiness.phaseFixingCi	Fixing CI
+translation.readiness.phaseReviewing	Reviewing
+translation.readiness.phaseOther	Other
+translation.readiness.durationHours	{{hours}} h
+translation.readiness.durationMinutes	{{minutes}} min
+translation.readiness.noFailingCriteriaLinked	No failing criteria linked
+translation.readiness.failingCriteriaImplicated_one	{{count}} failing criterion implicated
+translation.readiness.failingCriteriaImplicated_other	{{count}} failing criteria implicated
+translation.readiness.repositoryAndSession	Repository & session
+translation.readiness.categoryChat	Chat
+translation.readiness.categoryTickets	Ticket system
+translation.readiness.categorySourceControl	Source control
+translation.readiness.categoryChatDescription	Communicate and collaborate with your team
+translation.readiness.categoryTicketsDescription	Access and manage issues and project work
+translation.readiness.categorySourceControlDescription	Access repositories, branches, and pull requests
+translation.readiness.noServersInstalled	No servers installed
+translation.readiness.serversEnabled_one	{{count}} server enabled
+translation.readiness.serversEnabled_other	{{count}} servers enabled
+translation.readiness.serversEnabledOfInstalled_one	{{enabled}} of {{count}} server enabled
+translation.readiness.serversEnabledOfInstalled_other	{{enabled}} of {{count}} servers enabled
+translation.readiness.capabilityObservability	Observability
+translation.readiness.capabilityFeatureFlags	Feature flags
+translation.readiness.capabilityAnalytics	Product analytics
+translation.readiness.capabilityIncidents	Incident management
+translation.readiness.capabilityDocs	Documentation
+translation.readiness.capabilityObservabilityDescription	Monitor errors, logs, and application health
+translation.readiness.capabilityFeatureFlagsDescription	Access and manage feature flags
+translation.readiness.capabilityAnalyticsDescription	Access product usage and behavioral data
+translation.readiness.capabilityIncidentsDescription	Access and respond to incidents and alerts
+translation.readiness.capabilityDocsDescription	Search and reference your team's documentation
+translation.readiness.providerDisabled	{{name}} (disabled)
+translation.readiness.otherMcpServersEnabled_one	Other MCP servers: {{count}} enabled
+translation.readiness.otherMcpServersEnabled_other	Other MCP servers: {{count}} enabled
+translation.readiness.exclusionReasonOverCap	Over the per-assessment scope cap
+translation.readiness.exclusionReasonGenerated	Generated code
+translation.readiness.exclusionReasonVendored	Vendored code
+translation.readiness.exclusionReasonInactive	Inactive
+translation.readiness.exclusionReasonNoBuildIdentity	No build tooling of its own
+translation.readiness.exclusionReasonNestedInParent	Assessed as part of its parent scope
+translation.readiness.exclusionReasonNotAScope	Not a standalone application
+translation.readiness.assessmentStarted	Assessment started
+translation.readiness.assessmentAlreadyRunning	An assessment is already running
+translation.readiness.startAssessmentFailed	Failed to start assessment
+translation.readiness.cancelAssessment	Cancel assessment
+translation.readiness.cancelling	Cancelling…
+translation.readiness.assessmentCancelled	Assessment cancelled
+translation.readiness.assessmentAlreadyFinished	The assessment had already finished
+translation.readiness.cancelAssessmentFailed	Failed to cancel assessment
+translation.readiness.statusCancelled	Cancelled
+translation.readiness.scoreSeries	Score
+translation.readiness.tabOverview	Overview
+translation.readiness.repoTabsAriaLabel	Assessment sections
+translation.readiness.noFindings	No findings
+translation.readiness.noFindingsUnscannedDescription	No repository scan yet, and sessions have not hit anything in this repository.
+translation.readiness.noFindingsNoScanDescription	No repository scan yet.
+translation.readiness.notScanned	Not scanned
+translation.readiness.notYetScanned	Not yet scanned
+translation.readiness.notYetScannedDescription	Run a scan to score this repo and get Devin's suggestions.
+translation.readiness.notYetScannedReadOnly	A score and Devin's suggestions appear here once someone with permission runs a scan.
+translation.readiness.preliminaryFindings	Preliminary findings
+translation.readiness.preliminaryFindingsDescription	Devin found these in your session history.
+translation.readiness.preliminaryTooltip	No readiness scan yet. These findings come from what sessions ran into in the last {{days}} days.
+translation.readiness.scanInProgress	Readiness scan in progress
+translation.readiness.sessionsBlocked_one	{{count}} session blocked
+translation.readiness.sessionsBlocked_other	{{count}} sessions blocked
+translation.readiness.runReadinessScan	Run readiness scan
+translation.readiness.rescanNow	Rescan now
+translation.readiness.moreScanActions	More scan actions
+translation.readiness.checksDescription	Every check run in this assessment, grouped by scope.
+translation.readiness.categoryDocs	Docs & agent context
+translation.readiness.categoryValidation	Build & validation
+translation.readiness.categoryTests	Tests
+translation.readiness.categoryE2e	Local dev & end-to-end
+translation.readiness.categoryBlueprint	Environment setup
+translation.readiness.categoryObservability	Observability
+translation.readiness.categorySecurityAccess	Security & access
+translation.readiness.categoryAnalytics	Analytics
+translation.readiness.notAssessedShort	—
+translation.readiness.categoryNotAssessed	No applicable checks
+translation.readiness.blockerAcusWasted	{{value}} ACUs wasted
+translation.readiness.blockerSparklineSeries	Sessions per day
+translation.readiness.blockerStatBlocked	Blocked
+translation.readiness.blockerStatSlowed	Slowed

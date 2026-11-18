@@ -1,0 +1,500 @@
+translation.enterprise.members.viaGroups	 · via {{groups}}
+translation.enterprise.groupOrgs.adding	Adding {{group}} to {{org}}...
+translation.enterprise.groupOrgs.added	Added {{group}} to {{org}}
+translation.enterprise.groupOrgs.addFailed	Failed to add {{group}} to {{org}}
+translation.enterprise.groupOrgs.removing	Removing {{group}} from {{org}}...
+translation.enterprise.groupOrgs.removed	Removed {{group}} from {{org}}
+translation.enterprise.groupOrgs.removeFailed	Failed to remove {{group}} from {{org}}
+translation.enterprise.groupOrgs.updatingRole	Updating role for {{group}} in {{org}}...
+translation.enterprise.groupOrgs.updatedRole	Updated role for {{group}} in {{org}}
+translation.enterprise.groupOrgs.updateRoleFailed	Failed to update role for {{group}} in {{org}}
+translation.enterprise.groupOrgs.noneAvailable	No organizations available
+translation.enterprise.groupOrgs.noneAssigned	No organizations assigned
+translation.enterprise.groupOrgs.changeRoleIn	Change role in {{org}}
+translation.enterprise.removeFromEnterprise.loading	Removing {{name}} from enterprise...
+translation.enterprise.removeFromEnterprise.success	Successfully removed {{name}} from enterprise
+translation.enterprise.removeFromEnterprise.error	Failed to remove {{name}} from enterprise
+translation.enterprise.orgMembership.noneSelectedMembers	No members or groups selected
+translation.enterprise.orgMembership.noneSelectedOrgs	No organizations selected
+translation.enterprise.orgMembership.adding	Adding {{suffix}}...
+translation.enterprise.orgMembership.added	Successfully added {{suffix}}
+translation.enterprise.orgMembership.addFailed	Failed to add {{suffix}}
+translation.enterprise.orgMembership.addOrgs	Add organizations
+translation.enterprise.orgMembership.removing	Removing {{suffix}}...
+translation.enterprise.orgMembership.removed	Successfully removed {{suffix}}
+translation.enterprise.orgMembership.removeFailed	Failed to remove {{suffix}}
+translation.enterprise.orgMembership.removeOrgs	Remove organizations
+translation.enterprise.orgMembership.orgsSelected_one	{{count}} organization selected
+translation.enterprise.orgMembership.orgsSelected_other	{{count}} organizations selected
+translation.enterprise.orgMembership.usersCount_one	{{count}} user
+translation.enterprise.orgMembership.usersCount_other	{{count}} users
+translation.enterprise.orgMembership.groupsCount_one	{{count}} group
+translation.enterprise.orgMembership.groupsCount_other	{{count}} groups
+translation.enterprise.orgMembership.orgsCount_one	{{count}} organization
+translation.enterprise.orgMembership.orgsCount_other	{{count}} organizations
+translation.enterprise.orgMembership.subjectsAnd	{{users}} and {{groups}}
+translation.enterprise.orgMembership.suffixTo	{{subjects}} to {{orgs}}
+translation.enterprise.orgMembership.suffixFrom	{{subjects}} from {{orgs}}
+translation.enterprise.orgMembership.addCount_one	Add {{count}} organization
+translation.enterprise.orgMembership.addCount_other	Add {{count}} organizations
+translation.enterprise.orgMembership.removeCount_one	Remove {{count}} organization
+translation.enterprise.orgMembership.removeCount_other	Remove {{count}} organizations
+translation.enterprise.roles.loading	Loading roles...
+translation.enterprise.roles.select	Select Role...
+translation.enterprise.landing.tryAdjust	Try adjusting your search
+translation.enterprise.landing.membersCount_one	{{count}} member
+translation.enterprise.landing.membersCount_other	{{count}} members
+translation.enterprise.landing.moreOptions	More options
+translation.enterprise.landing.manageSettings	Manage settings
+translation.enterprise.landing.noOrgsYet	There are no organizations set up yet. Contact your enterprise administrator to create one.
+translation.enterprise.landing.viewOrgs	View organizations
+translation.enterprise.landing.contactAdminTitle	Before using Devin, contact your enterprise administrator
+translation.enterprise.landing.askInvite	Ask your enterprise admin to invite you to a Devin organization and get started!
+translation.enterprise.landing.runCloudDesktopTerminal	Run Devin in the cloud, desktop, or terminal
+translation.enterprise.landing.runCloudDesktop	Run Devin in the cloud or desktop
+translation.enterprise.landing.runCloudTerminal	Run Devin in the cloud or terminal
+translation.enterprise.landing.askInviteCloud	Ask your enterprise admin to invite you to a Devin organization to use Devin Cloud.
+translation.enterprise.landing.orTryCli	Or, <lnk>try Devin CLI</lnk>
+translation.enterprise.landing.orOpenDesktop	Or <button>open Devin Desktop<icon /></button>
+translation.enterprise.landing.orDownloadDesktop	Or, <lnk>download Devin Desktop</lnk>
+translation.enterprise.landing.tryCliLink	<lnk>Try Devin CLI</lnk>
+translation.enterprise.orgLimitNoPermission	You don't have permission to view organization settings
+translation.enterprise.common.selectedCount_one	{{count}} selected
+translation.enterprise.common.selectedCount_other	{{count}} selected
+translation.enterprise.createOrg.nameTooLong	Organization name must be less than 40 characters
+translation.enterprise.createOrg.repoPermsInfo	Navigate to <lnk>repository permissions</lnk> to grant permissions after creating this organization
+translation.enterprise.createOrg.noPermsDefault	No permissions by default
+translation.enterprise.createOrg.selectMembers	Select enterprise members to add to this organization
+translation.enterprise.createOrg.noMembers	No enterprise members
+translation.enterprise.createOrg.membersSelected_one	{{count}} member selected
+translation.enterprise.createOrg.membersSelected_other	{{count}} members selected
+translation.enterprise.createOrg.selectMember	Select member {{name}}
+translation.enterprise.createOrg.selectGroups	Select IdP groups to link to this organization
+translation.enterprise.createOrg.searchGroups	Search groups...
+translation.enterprise.createOrg.groupsSelected_one	{{count}} group selected
+translation.enterprise.createOrg.groupsSelected_other	{{count}} groups selected
+translation.enterprise.createOrg.creatingToast	Creating {{name}} organization...
+translation.enterprise.createOrg.warnBudget	Failed to set budget
+translation.enterprise.createOrg.warnSpend	Failed to set spend limit
+translation.enterprise.createOrg.warnAcu	Failed to set ACU limit
+translation.enterprise.createOrg.warnMembers	Failed to add members/groups
+translation.enterprise.createOrg.createdBut	Created {{name}} organization, but: {{warnings}}
+translation.enterprise.createOrg.createFailed	Failed to create {{name}} organization
+translation.enterprise.createOrg.success	Successfully created organization
+translation.enterprise.createOrg.view	View organization
+translation.enterprise.createOrg.createAnother	Create another organization
+translation.enterprise.createOrg.addMe	Add me as a member of this organization
+translation.enterprise.membersPage.noData	There is no data for the selected organization
+translation.enterprise.membersPage.tryRelogin	Not expecting this? Try logging out and logging back in.
+translation.enterprise.membersPage.searchMember	Search for a member
+translation.enterprise.membersPage.allRoles	All enterprise roles
+translation.enterprise.membersPage.manualInvitesOff	Manual invites are turned off. Members must be added through your SSO provider
+translation.enterprise.orgsPage.updating	Updating organization...
+translation.enterprise.orgsPage.updated	Successfully updated organization
+translation.enterprise.orgsPage.updateFailed	Failed to update organization
+translation.enterprise.orgsPage.manageTitle	Manage {{name}}
+translation.enterprise.orgsPage.savingChanges	Saving changes
+translation.enterprise.orgsPage.deleteOrg	Delete organization
+translation.enterprise.orgsPage.deleteOrgBody	This will permanently delete “{{name}}” and all associated data. This action cannot be undone.
+translation.enterprise.orgsPage.updateNameLimits	Update name and limits
+translation.enterprise.orgsPage.deleting_one	Deleting {{count}} organization...
+translation.enterprise.orgsPage.deleting_other	Deleting {{count}} organizations...
+translation.enterprise.orgsPage.deleted_one	Successfully deleted {{count}} organization
+translation.enterprise.orgsPage.deleted_other	Successfully deleted {{count}} organizations
+translation.enterprise.orgsPage.deleteFailed_one	Failed to delete {{count}} organization
+translation.enterprise.orgsPage.deleteFailed_other	Failed to delete {{count}} organizations
+translation.enterprise.orgsPage.emptyAdmin	You haven't added any organizations yet.
+translation.enterprise.orgsPage.emptyMember	No organizations have been added yet.
+translation.enterprise.orgsPage.addOne	Add one to start using Devin.
+translation.enterprise.orgsPage.contactAdmin	Contact your enterprise administrator to add organizations.
+translation.enterprise.orgsPage.noMatch	No organization matches your search.
+translation.enterprise.orgsPage.loadFailedTitle	Couldn't load organizations
+translation.enterprise.orgsPage.loadFailedDescription	The organization list didn't load. Try again in a moment.
+translation.enterprise.orgsPage.description	All organizations in your enterprise, including ones you don't belong to.
+translation.enterprise.orgsPage.deleteCount_one	Delete {{count}} organization
+translation.enterprise.orgsPage.deleteCount_other	Delete {{count}} organizations
+translation.enterprise.orgsPage.deleteBulkBody_one	Are you sure you want to delete the {{count}} selected organization? This action cannot be undone. It will permanently remove all associated data.
+translation.enterprise.orgsPage.deleteBulkBody_other	Are you sure you want to delete the {{count}} selected organizations? This action cannot be undone. It will permanently remove all associated data.
+translation.errorPage.accessDenied	Access denied
+translation.errorPage.accessDeniedDescription	You don't have permission to view this page. Contact your organization admin to request access.
+translation.errorPage.featureUnavailable	Feature not available
+translation.errorPage.featureUnavailableDescription	This feature is not available in your deployment.
+translation.errorPage.orgUnavailable	Organization not available
+translation.errorPage.orgUnavailableDescription	We could not open this organization. You may not be a member, or it may not exist.
+translation.errorPage.orgUnavailableOpenOwnSettings	Open your organization's settings
+translation.errorPage.orgUnavailableOpenOwnCustomize	Open your organization's Customize page
+translation.errorPage.reviewEnterpriseDisabled	An enterprise administrator has disabled Devin Review. Ask your enterprise administrator to enable it if you need access.
+translation.errorPage.reviewPermissionRequired	Your role does not grant access to Review settings. Ask your administrator for Review settings access.
+translation.errors.goToHomepage	Go to homepage
+translation.errors.goToSessions	Go to sessions
+translation.errors.goToStartPage	Go to start page
+translation.errors.invalidWorkspace	Invalid workspace
+translation.errors.invalidWorkspaceDescription	{{host}} isn't a Devin Enterprise workspace. Check the URL or contact your admin.
+translation.errors.logIn	Log in
+translation.errors.pageCouldNotBeFound	This page could not be found.
+translation.errors.botNotFoundRecovery	Do you need to refresh? Try clicking on the {{botName}} on the left side again.
+translation.errors.pageNotFound	Page not found
+translation.errors.retry	Retry
+translation.errors.signUp	Sign up
+translation.errors.somethingWentWrong	Something went wrong
+translation.quickReview.button	Quick review
+translation.quickReview.failed	Quick review failed: {{message}}
+translation.quickReview.noModels	Your admin has not enabled any review models.
+translation.quickReview.agentRunning	Wait for the agent to finish working before requesting a review.
+translation.eyebrow.botUpdatesNudgeTitle	Get a notification when {{botName}} is done working
+translation.eyebrow.botUpdatesNudgeConnectImessage	Connect iMessage
+translation.eyebrow.botUpdatesNudgeConnectSlack	Connect Slack
+translation.eyebrow.shareSessionWithBot_one	This session will be shared with <botResults></botResults>
+translation.eyebrow.shareSessionWithBot_other	This session will be shared with <botResults></botResults>
+translation.eyebrow.shareSessionFailed	Couldn't share this session with the {{botName}}. Try again.
+translation.eyebrow.shareBotWithBot_one	<botResults></botResults> will be shared with this {{botName}}
+translation.eyebrow.shareBotWithBot_other	<botResults></botResults> will be shared with this {{botName}}
+translation.eyebrow.shareBotFailed	Couldn't share the mentioned {{botName}} with this one. Try again.
+translation.eyebrow.shareSessionFailed_named	Couldn't share this session with {{botName}}. Try again.
+translation.eyebrow.sharePluginWithBot_one	The <plugins></plugins> plugin will be shared with this {{botName}}
+translation.eyebrow.sharePluginWithBotNamed_one	The <plugins></plugins> plugin will be shared with {{botName}}
+translation.eyebrow.sharePluginWithBot_other	The <plugins></plugins> plugins will be shared with this {{botName}}
+translation.eyebrow.sharePluginWithBotNamed_other	The <plugins></plugins> plugins will be shared with {{botName}}
+translation.eyebrow.sharePluginFailed	Couldn't share the plugin with this {{botName}}. Try again.
+translation.eyebrow.sharePluginFailed_named	Couldn't share the plugin with {{botName}}. Try again.
+translation.eyebrow.efficiencyNeedsImprovement	Your session efficiency needs improvement.
+translation.eyebrow.maxUsageLimit	You've used {{used}}/{{limit}} ACUs ({{pct}}%) of your max usage limit.
+translation.eyebrow.maxUsageLimitWithReset	You've used {{used}}/{{limit}} ACUs ({{pct}}%) of your max usage limit (resets {{resets}} at {{resetsTime}}).
+translation.eyebrow.maxUsageLimitDollars	You've spent {{used}}/{{limit}} ({{pct}}%) of your max usage limit.
+translation.eyebrow.maxUsageLimitWithResetDollars	You've spent {{used}}/{{limit}} ({{pct}}%) of your max usage limit (resets {{resets}} at {{resetsTime}}).
+translation.eyebrow.localChangesFiles_one	{{count}} file changed
+translation.eyebrow.localChangesFiles_other	{{count}} files changed
+translation.eyebrow.localChangesView	View changes
+translation.eyebrow.connectProvider	Connect {{provider}}
+translation.eyebrow.connectProviderMessage	Connect your {{provider}} account to open PRs with Devin.
+translation.eyebrow.connectProviderRepositoriesMessage	Connect your {{provider}} account to see your repositories.
+translation.eyebrow.dismiss	Dismiss
+translation.eyebrow.loading	Loading...
+translation.eyebrow.missingSetup	Devin's machine is missing some setup, so tasks may run slower.
+translation.eyebrow.requestMoreUsage	Request more
+translation.eyebrow.setupIncomplete	Setup incomplete
+translation.eyebrow.usageLimit	You've used {{used}}/{{limit}} ACUs ({{pct}}%) of your usage limit.
+translation.eyebrow.usageLimitDollars	You've used {{used}}/{{limit}} ({{pct}}%) of your usage limit.
+translation.eyebrow.usageLimitPrimaryHitFallback	You hit your primary usage limit. You're now in reduced usage.
+translation.eyebrow.usageLimitPrimaryHitFallbackWithReset	You hit your primary usage limit (resets {{resets}} at {{resetsTime}}). You're now in reduced usage.
+translation.eyebrow.usageLimitPrimaryHitRemaining	You hit your primary usage limit. {{fallbackRemaining}} ACUs left in reduced usage.
+translation.eyebrow.usageLimitPrimaryHitRemainingDollars	You hit your primary usage limit. {{fallbackRemaining}} left in reduced usage.
+translation.eyebrow.usageLimitPrimaryHitRemainingWithReset	You hit your primary usage limit (resets {{resets}} at {{resetsTime}}). {{fallbackRemaining}} ACUs left in reduced usage.
+translation.eyebrow.usageLimitPrimaryHitRemainingWithResetDollars	You hit your primary usage limit (resets {{resets}} at {{resetsTime}}). {{fallbackRemaining}} left in reduced usage.
+translation.eyebrow.usageLimitWithReset	You've used {{used}}/{{limit}} ACUs ({{pct}}%) of your usage limit (resets {{resets}} at {{resetsTime}}).
+translation.eyebrow.usageLimitWithResetDollars	You've used {{used}}/{{limit}} ({{pct}}%) of your usage limit (resets {{resets}} at {{resetsTime}}).
+translation.eyebrow.usagePace	You're on pace for {{projected}}%.
+translation.eyebrow.viewDetails	View details
+translation.figmaCard.connect	Connect
+translation.figmaCard.connectToPreview	Connect Figma MCP to preview this file
+translation.figmaCard.design	Figma design
+translation.figmaCard.tryAgain	Try again
+translation.fileSearch.authoredBy	Authored by {{name}}
+translation.fileSearch.commands	Commands
+translation.fileSearch.enterprisePlugin	Enterprise plugin
+translation.fileSearch.enterpriseSkills	Enterprise skills
+translation.fileSearch.interactiveArtifactsDescription	Build an interactive report, chart or diagram
+translation.fileSearch.loadingResults	Loading results…
+translation.fileSearch.mentionCardLoadFailed	Could not load linked accounts
+translation.fileSearch.mentionCardLoading	Loading accounts…
+translation.fileSearch.noCategoryItems	No {{category}} found
+translation.fileSearch.noMatchesFound	No matches found
+translation.fileSearch.noRepositoriesIndexed	No repositories indexed. Please complete your repository setup first.
+translation.fileSearch.noResults	No results found
+translation.fileSearch.organizationPlugin	Organization plugin
+translation.fileSearch.organizationSkills	Organization skills
+translation.fileSearch.personalPlugin	Personal plugin
+translation.fileSearch.personalSkills	Personal skills
+translation.fileSearch.pluginSkills	Plugin skills
+translation.fileSearch.skillFrom	From {{source}}
+translation.fileSearch.pluginInstalling	{{name}} is installing
+translation.fileSearch.pluginInstallingResources	Resources will be available once ready
+translation.fileSearch.skillPluginNotActivated	This skill's plugin was not activated in this session. Start a new session to use it.
+translation.fileSearch.skillSourceBuiltin	Devin
+translation.fileSearch.skillSourceYou	You
+translation.fileSearch.typeToSearch	Type to search
+translation.fileSearch.unknownAuthor	unknown
+translation.fileSearch.mentionDescPeople	Members of your organization
+translation.fileSearch.mentionDescSlackChannels	Slack channels you can see
+translation.fileSearch.slackChannelBotNotIn	{{botName}} isn't in this channel
+translation.fileSearch.mentionDescRepos	All repositories added to Devin's machine
+translation.fileSearch.mentionDescWorkItems	Issues in your project tracker
+translation.fileSearch.mentionDescFiles	All indexed files
+translation.fileSearch.mentionDescMacros	Macros from Knowledge
+translation.fileSearch.mentionDescPlugins	Plugins installed for you
+translation.fileSearch.mentionDescSecrets	All global secrets in the organization
+translation.fileSearch.mentionDescSessions	Mention other Devin sessions
+translation.fileSearch.mentionDescSkills	Available skills from repos
+translation.fileSearch.mentionDescPlaybooks	All team and community playbooks
+translation.fileSearch.mentionDescPlaybooksMoved	The skills your playbooks became
+translation.fileSearch.mentionDescBots	{{botNamePlural}} you can use
+translation.fileSearch.categoryDisabled	Category disabled
+translation.fileUploader.dropFilesHere	Drop your files here
+translation.fileUploader.dropFilesToShare	Drop files to share with Devin
+translation.fileUploader.fileTooLarge	File {{fileName}} exceeds the maximum allowed size of {{maxSizeMb}}MB
+translation.fileUploader.filesTooLargeNames	{{names, list}}
+translation.fileUploader.filesTooLarge_one	{{count}} file exceeds the maximum allowed size of {{maxSizeMb}}MB
+translation.fileUploader.filesTooLarge_other	{{count}} files exceed the maximum allowed size of {{maxSizeMb}}MB
+translation.fileUploader.uploadFailed	Failed to upload {{fileName}}: {{message}}
+translation.filterCategory.other	Other
+translation.filterCategory.selectAll	Select all
+translation.filterCategory.unnamed	Unnamed
+translation.filterCategory.noResultsFor	No results for {{name}}
+translation.filterDate.after	After {{date}}
+translation.filterTags.loadingTags	Loading tags...
+translation.filterTags.recentlyUsedTags	Recently used tags
+translation.filterTags.searchTags	Search tags...
+translation.filterTags.selectedTags	Selected Tags
+translation.filterTags.tagsCount_one	{{count}} tag
+translation.filterTags.tagsCount_other	{{count}} tags
+translation.find.close	Close find
+translation.find.invalidRegex	Invalid regular expression
+translation.find.matchPosition	{{current}} / {{total}}
+translation.find.matchPositionPartial	{{current}} / {{total}}+
+translation.find.nextMatch	Next match
+translation.find.noResults	No results
+translation.find.placeholder	Search in {{label}}
+translation.find.previousMatch	Previous match
+translation.find.scopeFile	file
+translation.find.scopePane	tab
+translation.find.scopeReview	PR
+translation.find.scopeSession	chat
+translation.ghesInstall.accept	Accept
+translation.ghesInstall.accepting	Accepting…
+translation.ghesInstall.alreadyConnectedMessage	This installation is already linked to {{enterprise}}.
+translation.ghesInstall.alreadyConnectedTitle	Installation already connected
+translation.ghesInstall.completeTitle	Complete GitHub Enterprise installation
+translation.ghesInstall.connectPrompt	Connect <strong>{{account}}</strong> on <code>{{host}}</code> to <strong>{{enterprise}}</strong>?
+translation.ghesInstall.goToHome	Go to home
+translation.ghesInstall.invalidStateMessage	Please try again from Settings > Integrations.
+translation.ghesInstall.invalidStateTitle	Invalid GitHub Enterprise installation state
+translation.ghesInstall.lookupFailedMessage	We could not load the installation details. Please try again.
+translation.ghesInstall.lookupFailedTitle	Installation lookup failed
+translation.ghesInstall.reject	Reject
+translation.ghesInstall.requestedMessage	Ask your GitHub Enterprise admin to approve the installation. After approval, come back to Devin Settings > Integrations to complete the installation.
+translation.ghesInstall.requestedTitle	GitHub installation requested
+translation.ghesInstall.signIn	Sign in
+translation.ghesInstall.signInMessage	You've installed the GitHub App on your GitHub Enterprise instance. Sign in to Devin to link it to your enterprise.
+translation.ghesInstall.signInTitle	Sign in to finish installation
+translation.ghesInstall.somethingWentWrong	Something went wrong. Please try again.
+translation.ghesInstall.unknownInstallationMessage	We could not find this GitHub Enterprise App configuration. Please try again from Settings > Integrations.
+translation.ghesInstall.unknownInstallationTitle	Unknown installation
+translation.ghesInstall.wrongAccountMessage	This GitHub Enterprise installation belongs to a different Devin enterprise. Switch accounts and try again.
+translation.ghesInstall.wrongAccountTitle	Wrong Devin account
+translation.ghesInstall.yourDevinEnterprise	your Devin enterprise
+translation.gitOnboarding.ownerRequiredToConnect	Only a GitHub organization owner can connect this. Ask an owner to connect it.
+translation.gitOnboarding.authenticateViaCliWarning	Authenticate via GitHub CLI on Devin’s machine. Some features, including Devin Review, will not be available.
+translation.gitOnboarding.signInRequired	Sign in required
+translation.gitOnboarding.back	Back
+translation.gitOnboarding.close	Close
+translation.gitOnboarding.connect	Connect
+translation.gitOnboarding.connectGithub	Connect GitHub
+translation.gitOnboarding.connectViaCli	Connect via CLI
+translation.gitOnboarding.connectedAs	Connected as {{name}}
+translation.gitOnboarding.connecting	Connecting...
+translation.gitOnboarding.disconnectAppToUnlink	Scroll to the Danger zone and click Uninstall. This removes the existing integration so you can connect this organization to Devin here. <learnMoreLink>Learn more</learnMoreLink>
+translation.gitOnboarding.done	Done
+translation.gitOnboarding.reloadToTryAgain	Reload the page to try again.
+translation.gitOnboarding.couldNotLoadGithubAccounts	Couldn't load your GitHub accounts
+translation.gitOnboarding.githubDangerZoneAlt	GitHub danger zone showing uninstall option
+translation.gitOnboarding.loading	Loading
+translation.gitOnboarding.manage	Manage
+translation.gitOnboarding.uninstallOnGithubTitle	Uninstall on GitHub
+translation.gitOnboarding.oneTimeCode	One-time code:
+translation.gitOnboarding.openGithub	Open GitHub
+translation.gitOnboarding.or	or
+translation.gitOnboarding.pasteCodeInto	Paste the code into
+translation.gitOnboarding.retry	Retry
+translation.gitOnboarding.run	Run
+translation.gitOnboarding.running	Running
+translation.gitOnboarding.showMore	Show {{count}} more
+translation.gitOnboarding.signInToConnectGithub	Sign in to connect GitHub.
+translation.gitOnboarding.skipForNow	Skip for now
+translation.gitOnboarding.takenToGithubToManage	Click Open GitHub below to go to the Devin app settings for this organization.
+translation.gitOnboarding.uninstallDisconnectsUnknownWarning	This disconnects GitHub from the Devin account that uses it now.
+translation.gitOnboarding.uninstallDisconnectsWarning	This disconnects GitHub from {{name}}.
+translation.gitOnboarding.uninstallNotSuspendNote	Make sure to click Uninstall, not Suspend.
+translation.gitOnboarding.requested	Requested
+translation.gitOnboarding.requesting	Requesting...
+translation.gitOnboarding.joined	Joined
+translation.gitOnboarding.joining	Joining...
+translation.gitOnboarding.memberCount_one	{{count}} member
+translation.gitOnboarding.memberCount_other	{{count}} members
+translation.gitOnboarding.failedToConnectOrganization	Failed to connect organization
+translation.gitOnboarding.tryReinstallingGithubApp	Please try reinstalling the GitHub app.
+translation.gitOnboarding.yourGithubConnectedToOtherAccounts	Your GitHub is connected to other accounts
+translation.gitOnboarding.githubLoginLinkedToAccounts	<login>{{login}}</login> is already linked to the following Devin accounts
+translation.gitOnboarding.yourGithubLinkedToAccounts	Your GitHub is already linked to the following Devin accounts
+translation.gitOnboarding.teamMayAlreadyUseDevin	Your team may already use Devin
+translation.gitOnboarding.memberOfOrgsConnectedToAccounts	You are a member of GitHub organizations connected to these accounts
+translation.gitOnboarding.finishConnectingGithub	Finish connecting GitHub
+translation.gitOnboarding.installedButNotConnected	Devin is already installed on these GitHub organizations but not connected to a Devin account
+translation.gitOnboarding.youOrTeamMayUseDevin	You or your team may already be using Devin
+translation.gitOnboarding.chooseHowToConnectGithub	Choose how you want to connect GitHub
+translation.gitOnboarding.accountsWithYourGithubProfile	Accounts with your GitHub profile already connected
+translation.gitOnboarding.orgsPartiallyInstalled	GitHub organizations that partially installed Devin
+translation.gitOnboarding.orgsPartiallyInstalledInfo	The Devin GitHub app is installed on these organizations, but no Devin account has finished connecting them.
+translation.gitOnboarding.personalGithubMatchInfo	These Devin accounts are connected to the GitHub account you signed in with.
+translation.gitOnboarding.orgMembershipMatchInfo	These Devin accounts are connected to GitHub organizations you belong to.
+translation.gitOnboarding.join	Join
+translation.gitOnboarding.requestAccess	Request access
+translation.gitOnboarding.accountSuspended	Account suspended
+translation.gitOnboarding.chooseDifferentOrganization	Choose a different organization
+translation.gitOnboarding.continueWithThisAccount	Continue with this account
+translation.gitOnboarding.signOut	Sign out
+translation.gitOnboarding.signOutAndUseAnotherEmail	Sign out and use another email
+translation.gitOnboarding.connectGithubOrganizationTitle	Connect a GitHub organization
+translation.gitOnboarding.chooseExistingOrNewOrg	Choose an existing or new GitHub organization to install Devin
+translation.gitOnboarding.chooseExistingOrNewOrgInfo	You need admin access to the GitHub organization to install the Devin app.
+translation.gitOnboarding.recommended	Recommended
+translation.gitOnboarding.createNewInstallation	Create a new installation on this account
+translation.gitOnboarding.directlyInstallOnDevinMachine	Directly install on Devin's machine
+translation.gitOnboarding.useCredentialsOnDevinMachine	Use your credentials on Devin's machine
+translation.gitOnboarding.someOrgsLinkedToOtherAccounts	Some of your organizations are linked to other accounts
+translation.gitOnboarding.linkedToAnotherAccount	Linked to another account
+translation.gitOnboarding.linkedTo	Linked to {{name}}
+translation.gitOnboarding.adminMustUninstallFirst	A GitHub admin must uninstall the Devin app from this organization before you can connect it here.
+translation.gitOnboarding.skip	Skip
+translation.gitOnboarding.uninstallPreviousIntegration	Uninstall previous GitHub integration
+translation.gitOnboarding.requiredToUseOrgOnAccount	Required to use the <orgLink>{{org}}</orgLink> GitHub organization on this Devin account
+translation.gitOnboarding.visitAppSettingsForDevin	Visit the app settings for “Devin”
+translation.gitOnboarding.findDangerZoneSection	Find the <dangerZone>Danger Zone</dangerZone> section
+translation.gitOnboarding.youWillSeeUninstallAndSuspend	You will see “uninstall” and “suspend”
+translation.gitOnboarding.clickUninstall	Click Uninstall
+translation.gitOnboarding.thisWillRemoveTheApp	This will remove the app
+translation.gitOnboarding.inviteManager.sentTo	Invite sent to {{email}}
+translation.gitOnboarding.inviteManager.sendFailed	Failed to send the invite. Please try again.
+translation.gitOnboarding.inviteManager.sentShare	Invite sent. You can also share this link
+translation.gitOnboarding.inviteManager.inviteLink	Invite link
+translation.gitOnboarding.inviteManager.copyLink	Copy link
+translation.gitOnboarding.inviteManager.teammateEmail	Teammate's email
+translation.gitOnboarding.inviteManager.sending	Sending…
+translation.gitOnboarding.inviteManager.invite	Invite
+translation.gitOnboarding.inviteManager.title	Invite your Git manager
+translation.gitOnboarding.inviteManager.noPermissionInvite	You don't have permission to connect your Git provider. Invite the teammate who does.
+translation.gitOnboarding.inviteManager.noPermissionAdmin	You don't have permission to connect your Git provider. Ask your admin to approve the installation.
+translation.gitOnboarding.inviteManager.description	We'll email them a link to connect your Git provider to Devin
+translation.githubInstall.accept	Accept
+translation.githubInstall.acceptFailed	Couldn't connect this GitHub installation. Try again.
+translation.githubInstall.accepting	Accepting…
+translation.githubInstall.authorizedMessage	Finish your installation (while logged into Devin) in Settings > Integrations
+translation.githubInstall.authorizedTitle	GitHub integration authorized
+translation.githubInstall.completeTitle	Complete GitHub Installation
+translation.githubInstall.connectPrompt	Would you like to connect this GitHub installation to <strong>{{orgName}}</strong> organization?
+translation.githubInstall.goToHome	Go to home
+translation.githubInstall.invalidStateMessage	Please try again.
+translation.githubInstall.invalidStateTitle	Invalid state for GitHub installation
+translation.githubInstall.noPermissionMessage	Your account doesn't have permission to connect GitHub to <strong>{{orgName}}</strong>. Ask an admin of that organization to finish the installation in Settings > Integrations.
+translation.githubInstall.noPermissionTitle	You can't connect GitHub to this organization
+translation.githubInstall.reject	Reject
+translation.githubInstall.requestedMessage	Ask your GitHub organization admin to approve the installation. After approval, come back to Devin Settings > Integrations to complete the installation.
+translation.githubInstall.requestedTitle	GitHub installation requested
+translation.githubInstall.tryAgain	Try again
+translation.githubInstallationsModal.ownerRequiredToConnect	Only a GitHub organization owner can connect this. Ask an owner to connect it.
+translation.githubInstallationsModal.installDirectlyHint	You can still install Devin on a GitHub organization directly.
+translation.hardCapAcknowledgeModal.dialogLabel	Session limit reached
+translation.incidentIo.apiKeyLabel	API key
+translation.incidentIo.apiKeyPlaceholder	Enter API key
+translation.incidentIo.cancel	Cancel
+translation.incidentIo.connect	Connect
+translation.incidentIo.connectDialogDescription	Create a key with viewer access in <apiKeysLink>incident.io API keys</apiKeysLink>. Add "act in private incidents" only if you route private incidents
+translation.incidentIo.connectDialogTitle	Connect incident.io
+translation.incidentIo.connectedAt	Connected {{date}}
+translation.incidentIo.copyUrl	Copy URL
+translation.incidentIo.copyWebhookUrl	Copy webhook URL
+translation.incidentIo.copyWebhookUrlFailed	Failed to copy webhook URL
+translation.incidentIo.disconnect	Disconnect
+translation.incidentIo.disconnectDescription	Are you sure you want to disconnect incident.io? Devin will stop receiving incident events
+translation.incidentIo.disconnectTitle	Disconnect incident.io
+translation.incidentIo.invalidKeyBanner	The stored API key appears to be invalid or revoked. Reconnect with a new key.
+translation.incidentIo.loadFailedBody	Something went wrong while loading the incident.io integration status.
+translation.incidentIo.loadFailedTitle	Failed to load incident.io status
+translation.incidentIo.pageDescription	Connect incident.io so Devin can investigate and resolve incidents.
+translation.incidentIo.reconnectWithNewKey	Reconnect with a new key
+translation.incidentIo.save	Save
+translation.incidentIo.settingsTitle	Settings
+translation.incidentIo.signingSecretMissing	Incident events can't be verified until the signing secret is saved.
+translation.incidentIo.signingSecretLabel	Signing secret
+translation.incidentIo.signingSecretRequired	Signing secret required
+translation.incidentIo.signingSecretSaved	Signing secret saved
+translation.incidentIo.tryAgain	Try again
+translation.incidentIo.webhookStep1	In incident.io go to Settings → Webhooks and create an endpoint with this URL
+translation.incidentIo.webhookStep2	Under "Subscribe to events", select the four v2 incident events — incident_created_v2, incident_status_updated_v2, incident_updated_v2, and follow_up_created_v2 under public_incident (add the private_incident versions to deliver private incidents) — or leave the filter empty to send everything; Devin ignores event types it doesn't use
+translation.incidentIo.webhookStep3	Paste the endpoint's signing secret below
+translation.incidentIo.webhookSubtitle	Deliver incident events from incident.io to Devin
+translation.incidentIo.webhookTitle	Webhook endpoint
+translation.incidentIo.webhookUrlLabel	Webhook URL
+translation.incidentIo.workspaceFallback	incident.io workspace
+translation.incidentIo.connectDialogValidation.apiKeyRequired	API key required
+translation.incidentIo.connectToSelectKind.team	Connect incident.io to select a team
+translation.incidentIo.connectToSelectKind.severity	Connect incident.io to select a severity
+translation.incidentIo.connectToSelectKind.status	Connect incident.io to select a status
+translation.incidentIo.connectToSelectKind.incidentType	Connect incident.io to select an incident type
+translation.incidentIo.kindIncidentType	incident type
+translation.incidentIo.kindSeverity	severity
+translation.incidentIo.kindStatus	status
+translation.incidentIo.kindTeam	team
+translation.incidentIo.linkMcpNotInstalledToast	The incident.io MCP server isn't installed for your organization yet. Ask an admin to connect incident.io first.
+translation.incidentIo.loadingOptions	Loading {{kind}} options…
+translation.incidentIo.mcpInstalled	incident.io MCP server is installed for this organization
+translation.incidentIo.mcpLinked	Linked to your incident.io account
+translation.incidentIo.mcpManage	Manage MCP server
+translation.incidentIo.mcpNotInstalled	incident.io MCP server is not installed yet
+translation.incidentIo.mcpNotLinked	Your incident.io account isn't linked yet. Link it from your personal Connections.
+translation.incidentIo.mcpOpenPersonalConnections	Open personal Connections
+translation.incidentIo.mcpSetup	Set up with OAuth
+translation.incidentIo.mcpPerOrganization	MCP servers are installed per organization. Open Connections in one of your organizations and set up incident.io from the MCP marketplace there.
+translation.incidentIo.mcpSubtitle	Devin sessions read and update incidents through the incident.io MCP server. Installed per organization from the MCP marketplace with OAuth; each member then links their own incident.io login from their personal Connections. The API key is not shared with it.
+translation.incidentIo.mcpTitle	MCP server
+translation.incidentIo.noOptionsFound	No {{kind}} options found
+translation.incidentIo.searchKind	Search {{kind}}…
+translation.incidentIo.selectKind	Select {{kind}}…
+translation.incidentIo.userLinkLinkedLabel	Linked to your incident.io account
+translation.incidentIo.userLinkUnlinkFailed	Failed to unlink incident.io
+translation.incidentIo.toast.connected	incident.io connected
+translation.incidentIo.toast.invalidApiKey	Invalid incident.io API key
+translation.incidentIo.toast.unreachable	Could not reach incident.io. Please try again.
+translation.incidentIo.toast.connectFailed	Failed to connect incident.io
+translation.incidentIo.toast.signingSecretSaved	Signing secret saved
+translation.incidentIo.toast.signingSecretSaveFailed	Failed to save the signing secret
+translation.incidentIo.toast.disconnected	incident.io disconnected
+translation.incidentIo.toast.disconnectFailed	Failed to disconnect incident.io
+translation.jiraDataCenter.connect	Connect
+translation.jiraDataCenter.connectInstance	Connect an instance
+translation.jiraDataCenter.connecting	Connecting…
+translation.jiraDataCenter.back	Back
+translation.jiraDataCenter.next	Next
+translation.jiraDataCenter.stepUrlTitle	Connect Jira Data Center
+translation.jiraDataCenter.stepUrlDescription	Enter the base URL of your Jira Data Center instance. Devin checks that it reaches a supported version
+translation.jiraDataCenter.stepOauthTitle	Incoming application link
+translation.jiraDataCenter.stepOauthDescription	In Jira, create an incoming application link with the redirect URL below and the WRITE scope, then paste its client ID and secret here
+translation.jiraDataCenter.stepTokenTitle	Service account token
+translation.jiraDataCenter.stepTokenDescription	Paste a personal access token of the Jira service user Devin uses for reads and webhooks. The user needs the Browse Projects permission
+translation.jiraDataCenter.baseUrl	Base URL
+translation.jiraDataCenter.baseUrlRequired	Base URL required
+translation.jiraDataCenter.validateUrl	Validate URL
+translation.jiraDataCenter.validating	Validating…
+translation.jiraDataCenter.validateUrlFailed	Could not validate the Jira URL
+translation.jiraDataCenter.validatedVersion	{{host}} runs Jira Data Center {{version}}.
+translation.jiraDataCenter.redirectUrl	Redirect URL
+translation.jiraDataCenter.copyRedirectUrl	Copy redirect URL
+translation.jiraDataCenter.name	Connection name
+translation.jiraDataCenter.nameRequired	Connection name required
+translation.jiraDataCenter.clientId	Client ID
+translation.jiraDataCenter.clientIdRequired	Client ID required
+translation.jiraDataCenter.clientSecret	Client secret
+translation.jiraDataCenter.clientSecretRequired	Client secret required
+translation.jiraDataCenter.serviceToken	Personal access token
+translation.jiraDataCenter.serviceTokenRequired	Personal access token required
+translation.jiraDataCenter.serviceTokenExpiry	Token expiry
+translation.jiraDataCenter.createFailed	Could not create the connection
+translation.jiraDataCenter.webhookTitle	Register the webhook in Jira
+translation.jiraDataCenter.webhookDescription	In Jira, go to System → WebHooks and create a webhook with this URL and secret for issue events.
+translation.jiraDataCenter.routeInternal	Internal network
+translation.jiraDataCenter.routeDirect	Direct
+translation.jiraDataCenter.rotate	Rotate service token
+translation.jiraDataCenter.rotating	Rotating…
+translation.jiraDataCenter.rotateTitle	Rotate the service token
+translation.jiraDataCenter.rotateDescription	Paste the new personal access token of the service account. The old token stops working right away
+translation.jiraDataCenter.rotateSucceeded	Service token rotated
+translation.jiraDataCenter.rotateFailed	Could not rotate the service token

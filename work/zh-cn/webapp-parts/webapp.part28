@@ -1,0 +1,500 @@
+translation.rolePermissions.options.outpostsRead	Outposts read
+translation.rolePermissions.options.outpostsReadDescription	List outposts and read the outpost session queue.
+translation.rolePermissions.options.outpostsWrite	Outposts write
+translation.rolePermissions.options.outpostsWriteDescription	Create/edit/delete outposts and claim/release sessions. Implies outposts read.
+translation.rolePermissions.options.personalOutposts	Personal outposts
+translation.rolePermissions.options.personalOutpostsDescription	Create personal outposts that only their creator can launch sessions on. Does not grant access to account-wide outpost administration.
+translation.rolePermissions.options.viewSessionCategories	View session categories
+translation.rolePermissions.options.viewSessionCategoriesDescription	View session categories and subcategories settings (read-only)
+translation.rolePermissions.options.manageSessionCategories	Manage session categories
+translation.rolePermissions.options.manageSessionCategoriesDescription	Create/edit/delete session categories and subcategories at the enterprise level
+translation.rolePermissions.options.viewCodeScans	View code scans
+translation.rolePermissions.options.viewCodeScansDescription	View code scans and findings (read-only)
+translation.rolePermissions.options.manageCodeScanFindings	Manage code scan findings
+translation.rolePermissions.options.manageCodeScanFindingsDescription	View code scans, triage findings, and assign findings to Devin
+translation.rolePermissions.options.useCodeScans	Use code scans
+translation.rolePermissions.options.useCodeScansDescription	All Manage findings permissions plus start code scans and manage scan profiles
+translation.rolePermissions.options.manageCodeScans	Manage code scans
+translation.rolePermissions.options.manageCodeScansDescription	All Use permissions plus archive code scans
+translation.rolePermissions.options.viewSecurityScans	View security scans
+translation.rolePermissions.options.viewSecurityScansDescription	View security scans and findings (read-only)
+translation.rolePermissions.options.manageSecurityScanFindings	Manage security scan findings
+translation.rolePermissions.options.manageSecurityScanFindingsDescription	View security scans, triage findings, and assign findings to Devin
+translation.rolePermissions.options.useSecurityScans	Use security scans
+translation.rolePermissions.options.useSecurityScansDescription	All Manage findings permissions plus start security scans and manage scan profiles
+translation.rolePermissions.options.manageSecurityScans	Manage security scans
+translation.rolePermissions.options.manageSecurityScansDescription	All Use permissions plus archive security scans
+translation.rolePermissions.options.viewAgentReadiness	View agent readiness
+translation.rolePermissions.options.viewAgentReadinessDescription	View readiness assessments and criteria (read-only)
+translation.rolePermissions.options.useAgentReadiness	Use agent readiness
+translation.rolePermissions.options.useAgentReadinessDescription	All view permissions plus run assessments
+translation.rolePermissions.options.manageAgentReadiness	Manage agent readiness
+translation.rolePermissions.options.manageAgentReadinessDescription	All use permissions plus launch fix sessions for criteria
+translation.rolePermissions.options.manageSecurityProfiles	Manage security profiles
+translation.rolePermissions.options.manageSecurityProfilesDescription	Create/edit/delete security profiles at the enterprise level
+translation.rolePermissions.options.manageSecurityProfilesOrgDescription	Create/edit/delete organization security profiles
+translation.rolePermissions.options.viewSessionCategoriesOrgDescription	View session categories settings (read-only)
+translation.rolePermissions.options.desktopCliAdmin	{{productName}} + Devin CLI Admin
+translation.rolePermissions.options.desktopCliAdminDescription	Allow user to modify organization settings for {{productName}} + Devin CLI usage
+translation.rolePermissions.options.useProduct	Use {{productName}}
+translation.rolePermissions.options.useProductDescription	Allow user to use {{productName}}
+translation.rolePermissions.groupNames.accountPermissions	Account permissions
+translation.rolePermissions.groupNames.integrationPermissions	Integration permissions
+translation.rolePermissions.groupNames.accountDataPermissions	Account data permissions
+translation.rolePermissions.groupNames.accountUsagePermissions	Account usage permissions
+translation.rolePermissions.groupNames.accountStatsPermissions	Account stats permissions
+translation.rolePermissions.groupNames.devinReviewAccess	Devin Review access
+translation.rolePermissions.groupNames.usagePermissions	Usage permissions
+translation.rolePermissions.groupNames.organizationPermissions	Organization permissions
+translation.rolePermissions.groupNames.organizationResourcePermissions	Organization resource permissions
+translation.rolePermissions.groupNames.organizationDataPermissions	Organization data permissions
+translation.rolePermissions.groupNames.organizationUsagePermissions	Organization usage permissions
+translation.rolePermissions.groupNames.organizationStatsPermissions	Organization stats permissions
+translation.rolePermissions.groupNames.outpostPermissions	Outpost permissions
+translation.rolePermissions.groupNames.sessionCategoriesPermissions	Session categories permissions
+translation.rolePermissions.groupNames.codeScanPermissions	Code scan permissions
+translation.rolePermissions.groupNames.securityScanPermissions	Security scan permissions
+translation.rolePermissions.groupNames.agentReadinessPermissions	Agent readiness permissions
+translation.rolePermissions.groupNames.securityProfilePermissions	Security profile permissions
+translation.rolePermissions.groupNames.devinReviewPermissions	Devin Review permissions
+translation.rolePermissions.groupNames.desktopCli	{{productName}} + Devin CLI permissions
+translation.labs.title	Labs
+translation.labs.description	Try experimental features before they ship. These only affect your account.
+translation.labs.empty	No experiments are available right now.
+translation.labs.stopEta.title	Session ETA
+translation.labs.stopEta.description	Show a live estimate of how long until Devin next stops, in the sidebar and above the session status.
+translation.settings.cloudSetupDescription	Runs of devin cloud setup and what each upload did
+translation.settings.baaTitle	Business Associate Agreement (BAA)
+translation.settings.baaDescription	Handling protected health information with Devin? Request a BAA and our team will follow up.
+translation.settings.requestBaa	Request BAA
+translation.settings.reviewKnowledge.description	Learn from this repository's history, security findings, and incidents.
+translation.settings.reviewKnowledge.sourcesTitle	Knowledge sources
+translation.settings.reviewKnowledge.repository	Repository
+translation.settings.reviewKnowledge.updateFrequency	Update frequency
+translation.settings.reviewKnowledge.frequencyDaily	Daily
+translation.settings.reviewKnowledge.frequencyWeekly	Weekly
+translation.settings.reviewKnowledge.frequencyMonthly	Monthly
+translation.settings.reviewKnowledge.frequencyManual	Manual
+translation.settings.reviewKnowledge.searchRepositories	Search repositories
+translation.settings.reviewKnowledge.noMatches	No matching repositories
+translation.settings.reviewKnowledge.loadFailed	Could not load Knowledge settings.
+translation.settings.reviewKnowledge.retry	Try again
+translation.settings.reviewKnowledge.saveFailed	Could not save Knowledge settings.
+translation.settings.reviewKnowledge.sourceGitHistory	Git history and review comments
+translation.settings.reviewKnowledge.sourceGitHistoryDescription	Learn from past bug fixes and your team's pull request feedback.
+translation.settings.reviewKnowledge.sourceSecurity	Devin Security
+translation.settings.reviewKnowledge.sourceSecurityDescription	Learn from the security findings your team has fixed.
+translation.settings.reviewKnowledge.sourceOncall	Devin Oncall
+translation.settings.reviewKnowledge.sourceOncallDescription	Turn confirmed incident lessons into checks for future changes.
+translation.settings.reviewKnowledge.unavailable	This source is not available for this repository.
+translation.settings.reviewKnowledge.unavailableRepoIndexing	Turn on indexing for this repository to use this source.
+translation.settings.reviewKnowledge.unavailableSecurityGithub	Devin Security is available for GitHub repositories.
+translation.settings.reviewKnowledge.unavailableOncall	Devin Oncall knowledge is not available yet.
+translation.settings.reviewKnowledge.stateNotIndexed	Not indexed
+translation.settings.reviewKnowledge.stateWaiting	Waiting for first indexing
+translation.settings.reviewKnowledge.statePaused	Paused
+translation.settings.reviewKnowledge.next	Next · UTC
+translation.settings.reviewKnowledge.noNextRun	Not scheduled
+translation.settings.reviewKnowledge.cadenceDaily	Every day · new activity only
+translation.settings.reviewKnowledge.cadenceWeekly	Every {{weekday}} · new activity only
+translation.settings.reviewKnowledge.cadenceMonthly	First of every month · new activity only
+translation.settings.reviewKnowledge.cadenceManual	Runs only when you start it
+translation.settings.reviewKnowledge.startedAt	Started {{time}} UTC
+translation.settings.reviewKnowledge.noRepositories	No repositories you can configure.
+translation.settings.reviewKnowledge.runFailed	Could not start indexing.
+translation.settings.reviewKnowledge.scheduleNote	Enabled sources index recent history on this repository's schedule.
+translation.settings.reviewKnowledge.oneJobNote	One indexing job runs at a time per repository. Existing knowledge stays available while it runs. All times are UTC.
+translation.settings.reviewKnowledge.runningNote	An indexing job is running for this repository. You can start another once it finishes. Other repositories are unaffected.
+translation.settings.reviewKnowledge.readOnly	You can view this repository's Knowledge. Changing it takes Manage Review in an organization that has the repository.
+translation.settings.reviewKnowledge.missingManageReview	You don't have access to Review settings, so Knowledge is not available to you. Ask your admin for access.
+translation.settings.reviewKnowledge.missingRepoGrants	You can't see Knowledge for any repository yet. It takes the repo.use_read permission on a repository to see its Knowledge, and Manage Review in an organization that has the repository to change it. Ask your admin for access.
+translation.settings.reviewKnowledge.searchForRepository	Not every repository you can see is listed. Search for one by name.
+translation.settings.reviewKnowledge.recentHistory	Recent history
+translation.settings.reviewKnowledge.stateIndexed	Indexed
+translation.settings.reviewKnowledge.running	Running
+translation.settings.reviewKnowledge.indexNow	Index now
+translation.settings.logOutAllDevices	Log out of all devices
+translation.settings.logOutAllDevicesDescription	Ends your sessions in the web app, Devin Desktop, the CLI and the mobile apps on every device, including this one. Apps you authorized with OAuth also lose access. API keys and personal access tokens keep working.
+translation.settings.logOutAllDevicesAction	Log out everywhere
+translation.settings.logOutAllDevicesConfirmTitle	Log out of all devices?
+translation.settings.logOutAllDevicesFailed	Could not log out of all devices. Please try again.
+translation.settings.copyAccountPolicies	Copy account-wide policies to budgets
+translation.settings.copyAccountPoliciesConfirm_one	Copy to {{count}} budget
+translation.settings.copyAccountPoliciesConfirm_other	Copy to {{count}} budgets
+translation.settings.copyAccountPoliciesCountsError	Couldn't load the budgets' tier counts.
+translation.settings.copyAccountPoliciesDescription	Copies the account-wide policies you choose to each selected budget.
+translation.settings.copyAccountPoliciesFailed_one	Couldn't copy to {{count}} budget. It stays selected so you can retry.
+translation.settings.copyAccountPoliciesFailed_other	Couldn't copy to {{count}} budgets. They stay selected so you can retry.
+translation.settings.copyAccountPoliciesOverwriteConfirm	Overwrite and copy
+translation.settings.copyAccountPoliciesOverwriteDescription_one	{{count}} selected budget already has tiers. Copying replaces its tiers, group mappings and member limits.
+translation.settings.copyAccountPoliciesOverwriteDescription_other	{{count}} selected budgets already have tiers. Copying replaces their tiers, group mappings and member limits.
+translation.settings.copyAccountPoliciesOverwriteTitle	Overwrite existing tiers?
+translation.settings.copyAccountPoliciesParts	What to copy
+translation.settings.copyAccountPoliciesProgress	{{finished}} of {{total}} budgets finished
+translation.settings.copyAccountPoliciesProgressDescription	Keep this page open. Closing it stops the copy, and budgets already finished stay copied.
+translation.settings.copyAccountPoliciesProgressTitle	Copying account-wide policies
+translation.settings.copyAccountPoliciesSelectAll	Select all budgets
+translation.settings.copyAccountPoliciesSourceEmpty	The account has no user limit tiers to copy.
+translation.settings.copyAccountPoliciesSuccess_one	Copied to {{count}} budget
+translation.settings.copyAccountPoliciesSuccess_other	Copied to {{count}} budgets
+translation.settings.copyAccountPoliciesSummaryCopy_one	Copying user usage policies to {{count}} budget
+translation.settings.copyAccountPoliciesSummaryCopy_other	Copying user usage policies to {{count}} budgets
+translation.settings.copyAccountPoliciesSummaryOverwrite_one	Overwriting user usage policies in {{count}} budget
+translation.settings.copyAccountPoliciesSummaryOverwrite_other	Overwriting user usage policies in {{count}} budgets
+translation.settings.copyAccountPoliciesTitle	Choose which budgets to copy to
+translation.settings.copyAccountPoliciesTooMany	You can copy to at most {{max}} budgets at a time. Clear some budgets to continue.
+translation.settings.copyUserLimits	Copy user limits
+translation.settings.copyUserLimitsToBudgets_one	Copy user limits to {{count}} budget
+translation.settings.copyUserLimitsToBudgets_other	Copy user limits to {{count}} budgets
+translation.settings.mergeIntoBudget	Merge into {{name}}
+translation.settings.mergeBudgetsTitle_one	Merge {{name}} into {{root}}?
+translation.settings.mergeBudgetsTitle_other	Merge {{count}} budgets into {{root}}?
+translation.settings.mergeBudgetsDescription_one	Moves its organizations to {{root}} and archives the budget.
+translation.settings.mergeBudgetsDescription_other	Moves their organizations to {{root}} and archives the budgets.
+translation.settings.mergeBudgetsSkipped_one	{{count}} selected budget stays: it is the root, or a child budget of it is not selected.
+translation.settings.mergeBudgetsSkipped_other	{{count}} selected budgets stay: they are the root, or a child budget of them is not selected.
+translation.settings.mergeBudgetsSuccess_one	Merged {{count}} budget
+translation.settings.mergeBudgetsSuccess_other	Merged {{count}} budgets
+translation.settings.mergeBudgetsFailed_one	Couldn't merge {{count}} budget.
+translation.settings.mergeBudgetsFailed_other	Couldn't merge {{count}} budgets.
+translation.settings.userLimitsMigrationExpand	Show budgets
+translation.settings.userLimitsMigrationCollapse	Hide budgets
+translation.settings.userLimitsMigrationGuidance	Usage limits are moving to a hierarchical model where user limits are scoped to each budget. To manage user limits centrally, copy user limits to the account budget, and merge the other budgets into it. Otherwise, consider copying user limits to each budget.
+translation.settings.userLimitsEnforce	Enforce per-budget user limits
+translation.settings.userLimitsEnforceRowDescription	Stops enforcing account-wide user limits and starts enforcing per-budget user limits.
+translation.settings.userLimitsEnforceDescription	Per-budget user limits replace the account-wide user limits for all members. You can revert this later.
+translation.settings.userLimitsEnforceTitle	Enforce per-budget user limits?
+translation.settings.userLimitsEnforcedBanner	<docsLink>Per-budget user limits</docsLink> are in force.
+translation.settings.userLimitsEnforcementFailed	Couldn't change which user limits are enforced.
+translation.settings.userLimitsEnforcementPreview_one	{{count}} user would be blocked, by usage in the current billing cycle.
+translation.settings.userLimitsEnforcementPreview_other	{{count}} users would be blocked, by usage in the current billing cycle.
+translation.settings.userLimitsEnforcementPreviewError	Couldn't load how many users would be blocked.
+translation.settings.userLimitsEnforcementPreviewLoading	Counting the users who would be blocked…
+translation.settings.userLimitsMigrationBanner	User limits are migrating to <docsLink>per-budget user limits</docsLink>.
+translation.settings.userLimitsRevert	Revert to account-wide user limits
+translation.settings.userLimitsRevertDescription	Account-wide user limits replace the per-budget user limits for all members.
+translation.settings.userLimitsRevertTitle	Revert to account-wide user limits?
+translation.settings.wikiEffortLow	Low
+translation.settings.wikiEffortMedium	Medium
+translation.settings.wikiEffortHigh	High
+translation.settings.fedIdeBannerSectionTitle	IDE banner
+translation.settings.fedIdeBannerLabel	IDE banner
+translation.settings.fedIdeBannerDescription	Text shown in a banner above every page and in Devin Desktop for everyone in your enterprise
+translation.settings.fedIdeBannerOff	Off
+translation.settings.fedIdeBannerEditLabel	IDE banner: {{value}}, edit
+translation.settings.fedIdeBannerDialogTitle	Edit IDE banner
+translation.settings.fedIdeBannerDialogDescription	The banner spans the top of every page and cannot be dismissed.
+translation.settings.fedIdeBannerEnabled	Enabled
+translation.settings.fedIdeBannerText	Banner text
+translation.settings.fedIdeBannerTextPlaceholder	Enter banner text
+translation.settings.fedIdeBannerTextRequired	Banner text is required when the banner is enabled
+translation.settings.fedIdeBannerColor	Banner color
+translation.settings.fedIdeBannerCustomColor	Custom color
+translation.settings.fedIdeBannerPreview	Preview
+translation.settings.fedIdeBannerUpdated	IDE banner updated
+translation.settings.fedIdeBannerUpdateFailed	Failed to update IDE banner
+translation.settings.fedIdeBannerColorGreen	Green
+translation.settings.fedIdeBannerColorBlue	Blue
+translation.settings.fedIdeBannerColorRed	Red
+translation.settings.fedIdeBannerColorOrange	Orange
+translation.settings.fedIdeBannerColorYellow	Yellow
+translation.settings.fedIdeBannerColorPurple	Purple
+translation.settings.fedIdeBannerColorWhite	White
+translation.settings.fedIdeBannerColorBlack	Black
+translation.settings.customerNetworkCa.pemRules	Only CERTIFICATE blocks are accepted — private keys are rejected. Max 64 KB.
+translation.settings.customerNetworkCa.copyFingerprint	Copy full SHA-256 fingerprint
+translation.settings.customerNetworkCa.checking	Checking…
+translation.settings.customerNetworkCa.checkFailed	Couldn't check the bundle — you can still try saving it.
+translation.settings.customerNetworkCa.expiredOn	expired {{date}} — will not be trusted
+translation.settings.customerNetworkCa.expiresOn	expires {{date}}
+translation.settings.customerNetworkCa.title	Custom CA certificates
+translation.settings.customerNetworkCa.replaceBundle	Replace bundle
+translation.settings.customerNetworkCa.pemBundle	PEM certificate bundle
+translation.settings.customerNetworkCa.pemBundleRequired	PEM bundle required
+translation.settings.customerNetworkCa.pasteHint	Paste the PEM-encoded certificate chain, including every intermediate and root certificate your internal servers present.
+translation.settings.customerNetworkCa.saving	Saving…
+translation.settings.customerNetworkCa.saveBundle	Save bundle
+translation.settings.customerNetworkCa.loadError	Error loading the CA bundle
+translation.settings.customerNetworkCa.empty	No custom CA certificates
+translation.settings.customerNetworkCa.emptyHint	MCP servers presenting certificates from a private CA will fail TLS verification until a bundle is added.
+translation.settings.customerNetworkCa.addBundle	Add CA bundle
+translation.settings.customerNetworkCa.certificate	Certificate
+translation.settings.customerNetworkCa.fingerprint	SHA-256 fingerprint
+translation.settings.customerNetworkCa.expires	Expires
+translation.settings.customerNetworkCa.bundleUpdated	Bundle updated {{date}}
+translation.settings.customerNetworkCa.removeAll	Remove all
+translation.settings.customerNetworkCa.removeBundle	Remove bundle
+translation.settings.customerNetworkCa.removeTitle	Remove CA bundle?
+translation.settings.customerNetworkCa.daysLeft_one	{{date}} · {{count}} day
+translation.settings.customerNetworkCa.daysLeft_other	{{date}} · {{count}} days
+translation.settings.customerNetworkCa.detectedCertificates_one	Detected · {{count}} certificate · {{size}} KB
+translation.settings.customerNetworkCa.detectedCertificates_other	Detected · {{count}} certificates · {{size}} KB
+translation.settings.customerNetworkCa.savedCertificates_one	CA bundle saved ({{count}} certificate)
+translation.settings.customerNetworkCa.savedCertificates_other	CA bundle saved ({{count}} certificates)
+translation.settings.customerNetworkCa.removeCertificates_one	All {{count}} certificate will be removed. MCP servers presenting certificates from your private CA will fail TLS verification until a new bundle is added.
+translation.settings.customerNetworkCa.removeCertificates_other	All {{count}} certificates will be removed. MCP servers presenting certificates from your private CA will fail TLS verification until a new bundle is added.
+translation.settings.customerNetworkCa.description	Trust certificates issued by your internal certificate authority when Devin connects to MCP servers through your private network tunnel. Never used for connections over the public internet.
+translation.settings.customerNetworkCa.selfSignedRoot	Self-signed root
+translation.settings.customerNetworkCa.issuedBy	Issued by {{issuer}}
+translation.settings.customerNetworkCa.copyFingerprintFailed	Couldn't copy the fingerprint
+translation.settings.customerNetworkCa.bundleRemoved	CA bundle removed
+translation.settings.customerNetworkCa.expiredOnLabel	Expired {{expiresOn}}
+translation.settings.vpcMonitoringPage.pendingJobsWithOldest_one	{{count}} job queued · oldest: {{oldest}}
+translation.settings.vpcMonitoringPage.pendingJobsWithOldest_other	{{count}} jobs queued · oldest: {{oldest}}
+translation.settings.vpcMonitoringPage.pendingJobs_one	{{count}} job queued
+translation.settings.vpcMonitoringPage.pendingJobs_other	{{count}} jobs queued
+translation.settings.vpcMonitoringPage.startingHypervisors_one	{{count}} hypervisor starting — new capacity coming online (typically ~10 min)
+translation.settings.vpcMonitoringPage.startingHypervisors_other	{{count}} hypervisors starting — new capacity coming online (typically ~10 min)
+translation.settings.securityProfileNetworkRules_one	{{count}} network rule
+translation.settings.securityProfileNetworkRules_other	{{count}} network rules
+translation.settings.securityProfileMcpServers_one	{{count}} MCP server
+translation.settings.securityProfileMcpServers_other	{{count}} MCP servers
+translation.settings.buildDetail.searchResults_one	{{count}} result
+translation.settings.buildDetail.searchResults_other	{{count}} results
+translation.settings.updatedRoleMembers_one	Updated role to {{role}} for {{count}} member
+translation.settings.updatedRoleMembers_other	Updated role to {{role}} for {{count}} members
+translation.settings.coachTabTitle	Coach
+translation.settings.insightsTabTitle	Insights
+translation.settings.gatewayTabTitle	Connect
+translation.settings.pages.azureDevops.somethingWentWrong	Something went wrong
+translation.settings.pages.azureDevops.removingAzureDevopsConnection	Removing Azure DevOps connection
+translation.settings.pages.azureDevops.azureDevopsDisconnectedSuccessfully	Azure DevOps disconnected successfully
+translation.settings.pages.azureDevops.failedDisconnectAzureDevops	Failed to disconnect Azure DevOps
+translation.settings.pages.azureDevops.noOrganizationIdFound	No organization ID found
+translation.settings.pages.azureDevops.failedReconnectAzureDevops	Failed to reconnect to Azure DevOps
+translation.settings.pages.azureDevops.youDontHavePermissionManageConnection	You don't have permission to manage this connection.
+translation.settings.pages.azureDevops.general	General
+translation.settings.pages.azureDevops.webhook	Webhook
+translation.settings.pages.azureDevops.configureWebhookConnection	Configure the webhook for this connection
+translation.settings.pages.azureDevops.configure	Configure
+translation.settings.pages.azureDevops.reconnect	Reconnect
+translation.settings.pages.azureDevops.reRunAzureDevopsOauthFlow	Re-run the Azure DevOps OAuth flow for this connection
+translation.settings.pages.azureDevops.dangerZone	Danger zone
+translation.settings.pages.azureDevops.disconnectConnection	Disconnect connection
+translation.settings.pages.azureDevops.removeConnectionFromOrganization	Remove this connection from your organization
+translation.settings.pages.azureDevops.manageAccess	Manage access
+translation.settings.pages.azureDevops.beta	Beta
+translation.settings.pages.azureDevops.allowUsersOrRolesManageRepository	Allow users or roles to manage repository permissions for this connection
+translation.settings.pages.azureDevops.repositories	Repositories
+translation.settings.pages.azureDevops.repositoriesAvailableThroughConnection	Repositories available through this connection
+translation.settings.pages.azureDevops.azureDevopsServer	Azure DevOps Server
+translation.settings.pages.azureDevops.azureDevops	Azure DevOps
+translation.settings.pages.azureDevops.azureAdTenantIdMissingInstall	Azure AD tenant ID is missing. Install the Azure app first using the Connect button above.
+translation.settings.pages.azureDevops.azureDevopsOrganizationNameRequired	Organization name required
+translation.settings.pages.azureDevops.connectingServicePrincipal	Connecting service principal...
+translation.settings.pages.azureDevops.servicePrincipalReconnectedSuccessfully	Service principal reconnected successfully
+translation.settings.pages.azureDevops.servicePrincipalConnectedSuccessfully	Service principal connected successfully
+translation.settings.pages.azureDevops.failedConnectServicePrincipal	Failed to connect service principal
+translation.settings.pages.azureDevops.addAnotherOrganizationWithServicePrincipal	Add another organization with service principal
+translation.settings.pages.azureDevops.addOrganizationWithServicePrincipal	Add organization with service principal
+translation.settings.pages.azureDevops.connectAdditionalAzureDevopsOrganizationUsing	Connect an additional Azure DevOps organization using the service principal.
+translation.settings.pages.azureDevops.connectAzureDevopsOrganizationUsingService	Connect an Azure DevOps organization using the service principal.
+translation.settings.pages.azureDevops.servicePrincipalActions	Service principal actions
+translation.settings.pages.azureDevops.disconnectServicePrincipal	Disconnect service principal
+translation.settings.pages.azureDevops.step1GoAzureDevopsOrganization	Step 1: Go to your <lnk>Azure DevOps organization</lnk> and navigate to Organization Settings → Users → Add Users. Add \\
+translation.settings.pages.bitbucket.somethingWentWrong	Something went wrong
+translation.settings.pages.bitbucket.removingBitbucketConnection	Removing Bitbucket connection
+translation.settings.pages.bitbucket.bitbucketDisconnectedSuccessfully	Bitbucket disconnected successfully
+translation.settings.pages.bitbucket.failedDisconnectBitbucket	Failed to disconnect Bitbucket
+translation.settings.pages.bitbucket.dangerZone	Danger zone
+translation.settings.pages.bitbucket.disconnectConnection	Disconnect connection
+translation.settings.pages.bitbucket.removeConnectionFromOrganization	Remove this connection from your organization
+translation.settings.pages.bitbucket.youDontHavePermissionManageConnection	You don't have permission to manage this connection.
+translation.settings.pages.bitbucket.general	General
+translation.settings.pages.bitbucket.manageAccess	Manage access
+translation.settings.pages.bitbucket.beta	Beta
+translation.settings.pages.bitbucket.allowUsersOrRolesManageRepository	Allow users or roles to manage repository permissions for this connection.
+translation.settings.pages.bitbucket.repositories	Repositories
+translation.settings.pages.bitbucket.repositoriesAvailableThroughConnection	Repositories available through this connection
+translation.settings.pages.bitbucket.bitbucket	Bitbucket
+translation.settings.pages.bitbucket.noOrganizationIdFound	No organization ID found
+translation.settings.pages.bitbucket.failedConnectBitbucket	Failed to connect to Bitbucket
+translation.settings.pages.bitbucket.addConnection	Add connection
+translation.settings.pages.bitbucket.connect	Connect
+translation.settings.pages.bitbucket.connectWithBitbucketDataCenter	Connect with Bitbucket Data Center
+translation.settings.pages.bitbucket.documentation	Documentation
+translation.settings.pages.enterpriseOrgConnections.integrations	Integrations
+translation.settings.pages.enterpriseOrgConnections.integrationsManagedEnterpriseSettings	Integrations are managed in enterprise settings
+translation.settings.pages.enterpriseOrgConnections.integrationsManagedPersonalSettings	Integrations are managed in <lnk>personal settings</lnk>
+translation.settings.pages.enterpriseOrgConnections.integrationsManagedEnterpriseSettingsLink	Integrations are managed in <lnk>enterprise settings</lnk>
+translation.settings.pages.gerrit.devinBot	devin-bot
+translation.settings.pages.gerrit.gerrit	Gerrit
+translation.settings.pages.gitLab.enablingGitlabTokenAutoRotation	Enabling GitLab token auto-rotation…
+translation.settings.pages.gitLab.disablingGitlabTokenAutoRotation	Disabling GitLab token auto-rotation…
+translation.settings.pages.gitLab.gitlabTokenAutoRotationEnabled	GitLab token auto-rotation enabled
+translation.settings.pages.gitLab.gitlabTokenAutoRotationDisabled	GitLab token auto-rotation disabled
+translation.settings.pages.gitLab.youDontHavePermissionManageConnection	You don't have permission to manage this connection.
+translation.settings.pages.gitLab.general	General
+translation.settings.pages.gitLab.webhook	Webhook
+translation.settings.pages.gitLab.configureWebhookConnection	Configure the webhook for this connection
+translation.settings.pages.gitLab.configure	Configure
+translation.settings.pages.gitLab.tokenAutoRotation	Token auto-rotation
+translation.settings.pages.gitLab.automaticallyRotateConnectionsToken	Automatically rotate this connection's token
+translation.settings.pages.gitLab.disable	Disable
+translation.settings.pages.gitLab.enable	Enable
+translation.settings.pages.gitLab.rotateToken	Rotate token
+translation.settings.pages.gitLab.replaceConnectionsAccessToken	Replace this connection's access token
+translation.settings.pages.gitLab.disableAutomaticTokenRotationBeforeManually	Disable automatic token rotation before manually rotating this token.
+translation.settings.pages.gitLab.rotate	Rotate
+translation.settings.pages.gitLab.reconnect	Reconnect
+translation.settings.pages.gitLab.reRunGitlabOauthFlowConnection	Re-run the GitLab OAuth flow for this connection
+translation.settings.pages.gitLab.dangerZone	Danger zone
+translation.settings.pages.gitLab.disconnectConnection	Disconnect connection
+translation.settings.pages.gitLab.removeConnectionFromOrganization	Remove this connection from your organization
+translation.settings.pages.gitLab.manageAccess	Manage access
+translation.settings.pages.gitLab.beta	Beta
+translation.settings.pages.gitLab.allowUsersOrRolesManageRepository	Allow users or roles to manage repository permissions for this connection.
+translation.settings.pages.gitLab.repositories	Repositories
+translation.settings.pages.gitLab.repositoriesAvailableThroughConnection	Repositories available through this connection
+translation.settings.pages.gitLab.manualRepositories	Manual repositories
+translation.settings.pages.gitLab.manuallyAddRepo	Manually add repo
+translation.settings.pages.gitLab.addRepositoryConnectionByUrl	Add a repository to this connection by URL
+translation.settings.pages.gitLab.add	Add
+translation.settings.pages.gitLab.addConnection	Add connection
+translation.settings.pages.gitLab.connect	Connect
+translation.settings.pages.gitLab.connectServiceAccount	Connect service account
+translation.settings.pages.gitLab.connectSelfHostedInstance	Connect to self-hosted instance
+translation.settings.pages.gitLab.enterpriseBadge	Enterprise
+translation.settings.pages.gitLab.selfHostedSetupGuide	Self-hosted setup guide
+translation.settings.pages.gitLab.documentation	Documentation
+translation.settings.pages.gitLab.advanced	Advanced
+translation.settings.pages.gitLab.gitlabGitlabCom	GitLab (gitlab.com)
+translation.settings.pages.gitLab.gitlabHost	GitLab ({{host}})
+translation.settings.pages.gitLab.configureMrAuthor	Configure MR author
+translation.settings.pages.gitLab.registerApp	Register app
+translation.settings.pages.gitLab.manageApps	Manage apps
+translation.settings.pages.gitLab.failedUpdateTokenAutoRotation	Failed to update GitLab token auto-rotation
+translation.settings.pages.github.youDontHavePermissionManageConnection	You don't have permission to manage this connection.
+translation.settings.pages.github.refreshConnection	Refresh connection
+translation.settings.pages.github.updatePersonalAccessTokenConnection	Update the personal access token for this connection
+translation.settings.pages.github.refresh	Refresh
+translation.settings.pages.github.dangerZone	Danger zone
+translation.settings.pages.github.disconnectConnection	Disconnect connection
+translation.settings.pages.github.removeConnectionFromOrganization	Remove this connection from your organization
+translation.settings.pages.github.general	General
+translation.settings.pages.github.manageAccess	Manage access
+translation.settings.pages.github.beta	Beta
+translation.settings.pages.github.allowUsersOrRolesManageRepository	Allow users or roles to manage repository permissions for this connection.
+translation.settings.pages.github.repositories	Repositories
+translation.settings.pages.github.repositoriesAvailableThroughConnection	Repositories available through this connection
+translation.settings.pages.github.installation	Installation
+translation.settings.pages.github.addOrRemoveRepositories	Add or remove repositories
+translation.settings.pages.github.manageWhichRepositoriesInstalledGithub	Manage which repositories are installed on GitHub
+translation.settings.pages.github.manage	Manage
+translation.settings.pages.github.cliTokensHaveLimitedFunctionalityDevin	CLI tokens have limited functionality — Devin Review and other features are not available. Disconnect this CLI token and install the GitHub App for full functionality.
+translation.settings.pages.github.organizationIdNotFound	Organization ID not found
+translation.settings.pages.github.enterpriseGithubPatSuccessfullyAdded	Enterprise GitHub PAT successfully added.
+translation.settings.pages.github.addGithubAccount	Add GitHub account
+translation.settings.pages.github.connectionType	Connection type
+translation.settings.pages.github.githubAccount	GitHub account
+translation.settings.pages.github.connectUsingGithubAccount	Connect using your GitHub account
+translation.settings.pages.github.enterprisePat	Enterprise PAT
+translation.settings.pages.github.connectUsingGithubPat	Connect using a GitHub PAT
+translation.settings.pages.github.githubEnterpriseApp	GitHub Enterprise app
+translation.settings.pages.github.installRegisteredAppGithubEnterpriseInstance	Install a registered app on a GitHub Enterprise instance
+translation.settings.pages.github.beforeAddingPatDoubleCheckToken	Before adding your PAT, double check your token duration and permission scope.
+translation.settings.pages.github.nameReference	Name (for your reference)
+translation.settings.pages.github.patName	PAT name
+translation.settings.pages.github.hostname	Hostname
+translation.settings.pages.github.eGGithubYourcompanyCom	e.g. github.yourcompany.com
+translation.settings.pages.github.token	Token
+translation.settings.pages.github.eGGithubPat1234567890	e.g. github_pat_1234567890
+translation.settings.pages.github.connecting	Connecting…
+translation.settings.pages.github.connect	Connect
+translation.settings.pages.github.addConnection	Add connection
+translation.settings.pages.github.documentation	Documentation
+translation.settings.pages.github.advanced	Advanced
+translation.settings.pages.github.githubGhesHost	GitHub ({{ghes_host}})
+translation.settings.pages.github.configurePrAuthor	Configure PR author
+translation.settings.pages.github.registerApp	Register App
+translation.settings.pages.github.manageApps	Manage apps
+translation.settings.pages.github.createNewOrganization	Create a new organization?
+translation.settings.pages.github.weSuggestKeepingGithubConnectionsSeparate	We suggest keeping GitHub connections in separate organizations to cleanly manage membership and permissions.
+translation.settings.pages.github.addOrganization	Add to this organization
+translation.settings.pages.github.createNewOrganization2	Create new organization
+translation.settings.pages.github.failedConnectGithubOrganization	Failed to connect GitHub organization
+translation.settings.pages.github.failedLoadOrganizations	Failed to load organizations
+translation.settings.pages.github.thereWasErrorLoadingGithubOrganizations	There was an error loading your GitHub organizations. Please try again.
+translation.settings.pages.github.connectGithubOrganization	Connect GitHub Organization
+translation.settings.pages.github.theseGithubOrganizationsAlreadyConnectedDevin	These GitHub organizations are already connected to a Devin account. Disconnect from GitHub before linking them to a new account. <lnk>Learn more</lnk>
+translation.settings.pages.github.or	OR
+translation.settings.pages.github.back	Back
+translation.settings.pages.github.connectedAnotherDevinAccount	Connected to another Devin account
+translation.settings.pages.github.githubAdminPermissionsRequired	GitHub admin permissions required
+translation.settings.pages.github.githubAdminPermissionsRequiredConnectedtext	GitHub admin permissions required. {{connectedText}}
+translation.settings.pages.github.learnMoreLinkingGithubOrgs	Learn more about linking GitHub organizations
+translation.settings.pages.github.connectedToNamed	Connected to {{name}}
+translation.settings.pages.github.cliTokenHost	CLI token · {{host}}
+translation.settings.pages.github.patHost	PAT · {{host}}
+translation.settings.pages.github.connectedToNamedRich	Connected to <name>{{name}}</name>
+translation.settings.pages.orgIntegrationsRedesign.loading	Loading...
+translation.settings.pages.orgIntegrationsRedesign.connected	Connected
+translation.settings.pages.orgIntegrationsRedesign.notConnected	Not connected
+translation.settings.pages.orgIntegrationsRedesign.userNotLinked	User not linked
+translation.settings.pages.orgIntegrationsRedesign.missingWebhook	Missing webhook
+translation.settings.pages.orgIntegrationsRedesign.missingConfiguration	Missing configuration
+translation.settings.pages.orgIntegrationsRedesign.needsReAuthorization	Needs re-authorization
+translation.settings.pages.orgIntegrationsRedesign.configure	Configure
+translation.settings.pages.perforce.removingPerforceConnection	Removing Perforce connection
+translation.settings.pages.perforce.perforceDisconnectedSuccessfully	Perforce disconnected successfully
+translation.settings.pages.perforce.failedDisconnectPerforce	Failed to disconnect Perforce
+translation.settings.pages.perforce.connect	Connect
+translation.settings.pages.perforce.giveDevinScopedAccessPerforceDepot	Give Devin scoped access to Perforce depot paths
+translation.settings.pages.perforce.perforce	Perforce
+translation.settings.pages.perforce.addConnection	Add connection
+translation.settings.apiTabTitle	API
+translation.settings.accessPages.enterpriseMembers.sizeSelected	{{size}} selected
+translation.settings.accessPages.idpGroups.somethingWentWrongLoadingGroupsPlease	Something went wrong loading groups. Please try again.
+translation.settings.accessPages.idpGroups.noGroupsFound	No groups found
+translation.settings.accessPages.idpGroups.groupsCanCreatedBySettingUp	Groups can be created by setting up SSO with an IdP provider.
+translation.settings.accessPages.idpGroups.pleaseContactCognitionAccountManagerAssistance	Please contact your Cognition account manager for assistance with setup.
+translation.settings.accessPages.invitations.invitingUsers	Inviting users…
+translation.settings.accessPages.invitations.confirmPayment	Confirm your payment
+translation.settings.accessPages.invitations.weCouldntCompleteChargeAutomaticallyBank	We couldn't complete this charge automatically — your bank may require confirmation. Complete the payment to finish adding the seats.
+translation.settings.accessPages.invitations.completePayment	Complete payment
+translation.settings.accessPages.invitations.invitedUsers	Invited users
+translation.settings.accessPages.invitations.failedInviteUsers	Failed to invite users
+translation.settings.accessPages.invitations.noUnassignedFullSeatsAvailableEach	No unassigned full seats are available. Each member invited on a full seat will add an additional seat ({{formattedSeatPrice}} per seat, prorated for the current billing period).
+translation.settings.accessPages.invitations.inviteMembers	Invite members
+translation.settings.accessPages.invitations.ssoEnabled	SSO is enabled
+translation.settings.accessPages.invitations.usersJoinByNavigatingWebapphostnameSigning	Users join by navigating to <span>{{webappHostname}}</span> and signing in with their SSO credentials. Invitations are not required.
+translation.settings.accessPages.invitations.invitationsUnavailable	Invitations unavailable
+translation.settings.accessPages.invitations.githubCliConnectionsOnlySupportSingle	GitHub CLI connections only support a single member. <lnk>Switch to a GitHub integration</lnk> to invite additional members.
+translation.settings.accessPages.invitations.thereWasProblemSubmittingRequestSubmissionerror	There was a problem submitting your request. {{submissionError}}
+translation.settings.accessPages.invitations.role	Role
+translation.settings.accessPages.invitations.selectMemberRole	Select member role
+translation.settings.accessPages.invitations.selectRole	Select a role
+translation.settings.accessPages.invitations.seatType	Seat type
+translation.settings.accessPages.invitations.selectSeatType	Select seat type
+translation.settings.accessPages.invitations.addCoworkers	Add coworkers
+translation.settings.accessPages.invitations.additionalSeatsRequired	Additional seats required
+translation.settings.accessPages.invitations.adding	Adding…
+translation.settings.accessPages.invitations.add	Add
+translation.settings.accessPages.invitations.seatWarningInviting_one	You are inviting {{count}} member on a full seat.
+translation.settings.accessPages.invitations.seatWarningInviting_other	You are inviting {{count}} members on full seats.
+translation.settings.accessPages.invitations.seatWarningAvailable_one	Only {{count}} unassigned full seat exists.
+translation.settings.accessPages.invitations.seatWarningAvailable_other	Only {{count}} unassigned full seats exist.
+translation.settings.accessPages.invitations.seatWarningAdditional_one	This will add {{count}} additional seat ({{price}} per seat, prorated for the current billing period).
+translation.settings.accessPages.invitations.seatWarningAdditional_other	This will add {{count}} additional seats ({{price}} per seat, prorated for the current billing period).
+translation.settings.accessPages.invitations.whoElseOrganization	Who else is a part of this organization?
+translation.settings.accessPages.invitations.whoElseEnterprise	Who else is a part of this enterprise?
+translation.settings.accessPages.invitations.anErrorOccurred	An error occurred
+translation.settings.accessPages.invitations.addAtLeastOneValidEmail	Please add at least one valid email address
+translation.settings.accessPages.members.updatingGroupRole2	Updating group role
+translation.settings.accessPages.members.roleUpdatedSuccessfully	Role updated successfully
+translation.settings.accessPages.members.failedUpdateRole	Failed to update role
+translation.settings.accessPages.members.deletingGroup2	Deleting group
+translation.settings.accessPages.members.groupDeletedSuccessfully	Group deleted successfully
+translation.settings.accessPages.members.failedDeleteGroupError	Failed to delete group: {{error}}
+translation.settings.accessPages.members.removeGroup	Remove group
+translation.settings.accessPages.members.remove	Remove
+translation.settings.accessPages.members.confirmGroupRemoval	Confirm group removal
+translation.settings.accessPages.members.areYouSureYouWantRemove	Are you sure you want to remove this group? This action cannot be undone.
+translation.settings.accessPages.members.groupName	Group name
+translation.settings.accessPages.members.role	Role
+translation.settings.accessPages.members.noGroupsFound	No groups found.
+translation.settings.accessPages.members.membership	Membership
+translation.settings.accessPages.members.personalAccountsDontHaveMembersOther	Personal accounts don't have members other than yourself. Select or create an Organization to view its member list.
+translation.settings.accessPages.members.thereNoDataSelectedOrganization	There is no data for the selected organization
+translation.settings.accessPages.members.notExpectingTryLoggingOutLogging	Not expecting this? Try logging out and logging back in.
+translation.settings.accessPages.members.loadFailedTitle	Couldn't load members

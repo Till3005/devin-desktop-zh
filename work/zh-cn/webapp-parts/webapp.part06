@@ -1,0 +1,500 @@
+translation.boards.identifier.tooShort_other	Identifier must be at least {{count}} characters
+translation.boards.identifier.tooLong_one	Identifier must be at most {{count}} character
+translation.boards.identifier.tooLong_other	Identifier must be at most {{count}} characters
+translation.boards.identifier.invalid	Identifier must start with a letter and use only A-Z and 0-9
+translation.boards.statusCategory.triage	Triage
+translation.boards.statusCategory.backlog	Backlog
+translation.boards.statusCategory.todo	Todo
+translation.boards.statusCategory.inProgress	In progress
+translation.boards.statusCategory.done	Done
+translation.boards.statusCategory.canceled	Canceled
+translation.boards.statusCategory.unknown	Unknown
+translation.boards.statusCategory.onlyStatus	only {{category}} status
+translation.boards.statusCategory.onlyBoardStatus	only board status
+translation.boards.settingsPage.keyValuePairsLikePhasePhase1Click	Key:value pairs like phase: Phase 1. Click to edit, drag to reorder.
+translation.boards.settingsPage.tagsAreNotAvailableOnThisBoardYet	Tags are not available on this board yet.
+translation.boards.settingsPage.thisCannotBeUndone	This cannot be undone.
+translation.boards.settingsPage.deleteName	Delete {{name}}
+translation.boards.settingsPage.deleteNameReason	Delete {{name}} ({{reason}})
+translation.boards.settingsPage.removesTagFromTickets_one	Removes this tag from {{count}} ticket. This cannot be undone.
+translation.boards.settingsPage.removesTagFromTickets_other	Removes this tag from {{count}} tickets. This cannot be undone.
+translation.boards.settingsPage.deletesKeyAndValues_one	Deletes the key and its {{count}} value.
+translation.boards.settingsPage.deletesKeyAndValues_other	Deletes the key and its {{count}} values.
+translation.boards.settingsPage.deletesKeyAndValuesOrMore	Deletes the key and its {{number}}+ values.
+translation.boards.settingsPage.removesTagsFromTickets_one	Removes these tags from {{count}} ticket.
+translation.boards.settingsPage.removesTagsFromTickets_other	Removes these tags from {{count}} tickets.
+translation.boards.settingsPage.removesTagsFromTicketsOrMore	Removes these tags from {{number}}+ tickets.
+translation.boards.settingsPage.removesAssignments_one	Removes {{count}} tag assignment from tickets.
+translation.boards.settingsPage.removesAssignments_other	Removes {{count}} tag assignments from tickets.
+translation.boards.settingsPage.removesAssignmentsOrMore	Removes {{number}}+ tag assignments from tickets.
+translation.boards.settingsPage.defineReusableTicketFieldsAndChooseWhichOnes	Define reusable ticket fields and choose which ones appear on board rows and cards.
+translation.boards.settingsPage.showOnBoard	Show {{name}} on board
+translation.boards.settingsPage.permanentlyDeletesThisBoardAndAllOfIts	Permanently deletes this board and all of its tickets. This cannot be undone.
+translation.boards.settingsPage.sizeTicketsWithANumberShownOnRows	Size tickets with a number shown on rows, cards and in the ticket detail.
+translation.boards.settingsPage.customScalePlaceholder	e.g. 0.5, 1, 2, 4
+translation.boards.settingsPage.turningThisOffHidesEstimatesButKeepsThe	Turning this off hides estimates but keeps the values.
+translation.boards.settingsPage.valuesOfferedInTheEstimatePickerAnyNumber	Values offered in the estimate picker. Any number can still be typed.
+translation.boards.settingsPage.commaSeparatedNumbersUpToSavedSortedAnd	Comma-separated numbers, up to {{MAX_ESTIMATE_PRESETS}}. Saved sorted and without duplicates.
+translation.boards.settingsPage.aPersistentDevinSessionThatEveryoneOnThis	A persistent Devin session that everyone on this board sees. Members can also start a personal agent from the Agent pane.
+translation.boards.settingsPage.noAgentYetSendAMessageInThe	No agent yet. Send a message in the Agent pane on the board page to start one.
+translation.boards.settingsPage.thisDetachesTheSharedAgentFromThisBoard	This detaches the shared agent from this board for everyone. The session stays in its owner's session list, and the next message in the Agent pane starts a fresh shared agent. Personal agents are not affected.
+translation.boards.settingsPage.nameIdentifierAndDescriptionShownAcrossTheBoard	Name, identifier and description shown across the board.
+translation.boards.settingsPage.shownInTheSidebarAndAtTheTop	Shown in the sidebar and at the top of the board.
+translation.boards.settingsPage.sharedWithTheBoardAgentAndShownUnder	Shared with the board agent and shown under the board title.
+translation.boards.settingsPage.howTicketPrioritiesAreNamedAndShownOn	How ticket priorities are named and shown on rows, cards, in the picker and in Insights.
+translation.boards.settingsPage.labelsOnlyTicketsKeepTheirPriorityWhenYou	Labels only — tickets keep their priority when you switch. Default: {{defaultScheme}}.
+translation.boards.settingsPage.clickAStatusToRenameOrRecolorIt	Click a status to rename or recolor it. Drag to reorder across the board.
+translation.boards.settingsPage.prioritySchemeDefaultHelp	Urgent, high, medium and low — for planning work.
+translation.boards.settingsPage.prioritySchemeSeverityHelp	Critical, high, medium and low — for findings and incidents.
+translation.boards.settingsPage.ticketKeyPrefixHelp	Ticket key prefix, {{max}} characters max (e.g. {{example}}-12).
+translation.boards.tagIconLabels.automation	Automation
+translation.boards.tagIconLabels.code	Code
+translation.boards.tagIconLabels.security	Security
+translation.boards.tagIconLabels.onCall	On-call
+translation.boards.tagIconLabels.slack	Slack
+translation.boards.tagIconLabels.gitHub	GitHub
+translation.boards.tagIconLabels.linear	Linear
+translation.boards.tagIconLabels.ticket	Ticket
+translation.boards.tagIconLabels.user	User
+translation.boards.tagIconLabels.robot	Robot
+translation.boards.tagIconLabels.bug	Bug
+translation.boards.tagIconLabels.rocket	Rocket
+translation.boards.tagIconLabels.document	Document
+translation.boards.tagIconLabels.magnifyingGlass	Magnifying glass
+translation.boards.tagIconLabels.flask	Flask
+translation.boards.tagIconLabels.server	Server
+translation.boards.tagIconLabels.palette	Palette
+translation.boards.tagIconLabels.speedometer	Speedometer
+translation.boards.tagIconLabels.blocked	Blocked
+translation.boards.tagIconLabels.hourglass	Hourglass
+translation.boards.tagIconLabels.globe	Globe
+translation.boards.tagIconLabels.warning	Warning
+translation.boards.tagIconLabels.question	Question
+translation.boards.tagIconLabels.lightbulb	Lightbulb
+translation.boards.tagIconLabels.banknote	Banknote
+translation.boards.tagIconLabels.lock	Lock
+translation.boards.tagIconLabels.link	Link
+translation.boards.tagIconLabels.folder	Folder
+translation.boards.tagIconLabels.database	Database
+translation.boards.tagIconLabels.cloud	Cloud
+translation.boards.tagIconLabels.flag	Flag
+translation.boards.tagIconLabels.star	Star
+translation.boards.tagIconLabels.bookmark	Bookmark
+translation.boards.colors.gray	Gray
+translation.boards.colors.blue	Blue
+translation.boards.colors.indigo	Indigo
+translation.boards.colors.purple	Purple
+translation.boards.colors.pink	Pink
+translation.boards.colors.red	Red
+translation.boards.colors.orange	Orange
+translation.boards.colors.yellow	Yellow
+translation.boards.colors.green	Green
+translation.boards.colors.teal	Teal
+translation.boards.colors.brown	Brown
+translation.boards.systemTags.codeScan	Code scan
+translation.boards.systemTags.automation	Automation
+translation.boards.systemTags.securityFinding	Security finding
+translation.boards.systemTagKeys.tag	tag
+translation.boards.systemTagKeys.source	source
+translation.boards.tagSettings.systemKey	system key
+translation.boards.tagSettings.systemValue	system value
+translation.boards.groupBy.noTagKey	No {{key}}
+translation.boards.groupBy.noTag	No tag
+translation.boards.groupBy.status	Status
+translation.boards.groupBy.priority	Priority
+translation.boards.groupBy.assignee	Assignee
+translation.boards.groupBy.prState	PR state
+translation.boards.groupBy.noAssignee	No assignee
+translation.boards.groupBy.unknown	Unknown
+translation.boards.estimateScales.linear	Linear (1–5)
+translation.boards.estimateScales.fibonacci	Fibonacci
+translation.boards.estimateScales.exponential	Exponential
+translation.boards.ordering.manual	Manual
+translation.boards.ordering.priority	Priority
+translation.boards.ordering.created	Created
+translation.boards.ordering.updated	Updated
+translation.boards.ordering.status	Status
+translation.boards.priority.schemeDefault	Default
+translation.boards.priority.schemeSeverity	Severity
+translation.boards.priority.noPriority	No priority
+translation.boards.priority.urgent	Urgent
+translation.boards.priority.noSeverity	No severity
+translation.boards.priority.critical	Critical
+translation.boards.priority.high	High
+translation.boards.priority.medium	Medium
+translation.boards.priority.low	Low
+translation.campaigns.panel.eyebrow	Campaign
+translation.campaigns.panel.sampleData	Sample data
+translation.campaigns.panel.untitled	New campaign
+translation.campaigns.panel.setup	Campaign setup
+translation.campaigns.panel.live	Live
+translation.campaigns.panel.saveFailed	Couldn't save to the campaign. Try again.
+translation.campaigns.panel.phase.goal	Goal
+translation.campaigns.panel.phase.metrics	Metrics
+translation.campaigns.panel.phase.levers	Levers
+translation.campaigns.panel.phase.budget	Budget
+translation.campaigns.panel.goal.approve	Approve goal
+translation.campaigns.panel.goal.revise	Revise in chat
+translation.campaigns.panel.goal.footerNote	Approving the goal moves Devin on to metrics.
+translation.campaigns.panel.goal.forming	Goal forming
+translation.campaigns.panel.metrics.subtitleLoading	Devin is pulling baselines for each metric now.
+translation.campaigns.panel.metrics.subtitleReady	Approve the metrics that measure the goal, or remove the ones that don't.
+translation.campaigns.panel.metrics.pending	Querying baseline…
+translation.campaigns.panel.metrics.chartLabel	{{name}}: {{current}}, target {{target}}
+translation.campaigns.panel.metrics.singleReadingAt	Single reading, measured {{date}}
+translation.campaigns.panel.metrics.singleReading	Single reading
+translation.campaigns.panel.metrics.details	Details for {{name}}
+translation.campaigns.panel.metrics.waitingForTargets	Waiting for Devin's targets before you can confirm
+translation.campaigns.panel.metrics.footerNote	Anything you leave undecided counts as approved.
+translation.campaigns.panel.metrics.removedNote_one	{{count}} metric will be dropped.
+translation.campaigns.panel.metrics.removedNote_other	{{count}} metrics will be dropped.
+translation.campaigns.panel.metrics.confirm_one	Confirm {{count}} metric
+translation.campaigns.panel.metrics.confirm_other	Confirm {{count}} metrics
+translation.campaigns.panel.levers.subtitle	Automations that move the metrics. Approve the ones Devin may run.
+translation.campaigns.panel.levers.asksFirst	Needs your approval
+translation.campaigns.panel.levers.asksFirstHint	Devin asks you before acting on each run.
+translation.campaigns.panel.levers.state.manual	Manual
+translation.campaigns.panel.levers.state.dropped	Dropped
+translation.campaigns.panel.levers.acuPerMonth	~{{value}} ACU/mo
+translation.campaigns.panel.levers.footerNote	Anything you leave undecided counts as approved.
+translation.campaigns.panel.levers.removedNote_one	{{count}} lever will be dropped.
+translation.campaigns.panel.levers.removedNote_other	{{count}} levers will be dropped.
+translation.campaigns.panel.levers.confirm_one	Confirm {{count}} lever
+translation.campaigns.panel.levers.confirm_other	Confirm {{count}} levers
+translation.campaigns.panel.budget.title	Monthly budget
+translation.campaigns.panel.budget.subtitle	ACUs the campaign may spend each month, split across its levers.
+translation.campaigns.panel.budget.perMonth	ACU / month
+translation.campaigns.panel.budget.proposed	Devin proposed {{value}}
+translation.campaigns.panel.budget.acu	{{value}} ACU
+translation.campaigns.panel.budget.footerNote	Approving the budget kicks the campaign off.
+translation.campaigns.panel.budget.approveAndKickOff	Approve {{value}} ACU and kick off
+translation.campaigns.panel.budget.edit	Edit budget
+translation.campaigns.panel.budget.save	Save budget
+translation.campaigns.panel.budget.current	Currently {{value}}
+translation.campaigns.panel.decision.approve	Approve
+translation.campaigns.panel.decision.remove	Remove
+translation.campaigns.panel.decision.undo	Undo
+translation.campaigns.panel.decision.approved	Approved
+translation.campaigns.panel.decision.removed	Removed
+translation.campaigns.panel.decision.approveAll	Approve all
+translation.campaigns.panel.decision.approveItem	Approve {{item}}
+translation.campaigns.panel.decision.removeItem	Remove {{item}}
+translation.campaigns.panel.decision.undoItem	Undo decision on {{item}}
+translation.campaigns.panel.slot.empty	Up next
+translation.campaigns.panel.slot.working	Devin is working
+translation.campaigns.panel.slot.awaiting	Your turn
+translation.campaigns.panel.slot.settled	Approved
+translation.campaigns.panel.slot.running	Live
+translation.campaigns.panel.hint.goal	What the campaign is for
+translation.campaigns.panel.hint.metrics	Metrics that measure it
+translation.campaigns.panel.hint.levers	Automations that move them
+translation.campaigns.panel.hint.budget	ACUs per month
+translation.campaigns.panel.hint.metricsQuerying	Pulling baselines from your data
+translation.campaigns.panel.hint.leversDrafting	Proposing automations for these metrics
+translation.campaigns.panel.hint.metricsRunning	{{onTrack}} of {{total}} on track
+translation.campaigns.panel.hint.budgetRunning	{{used}} of {{total}} ACU used
+translation.campaigns.panel.kickoff.title	Campaign is live
+translation.campaigns.panel.kickoff.subtitle	Devin is on it. Readings land here as they come in.
+translation.campaigns.panel.dashboard.budgetUsed	Budget used this month
+translation.campaigns.panel.dashboard.monthElapsed	{{pct}}% of the month elapsed
+translation.campaigns.panel.dashboard.onTrack	On track
+translation.campaigns.panel.dashboard.needsAttention	Needs attention
+translation.campaigns.panel.dashboard.noReading	No reading yet
+translation.campaigns.panel.dashboard.noSpend	No usage recorded yet
+translation.campaigns.panel.dashboard.sinceStart	{{change}} since start
+translation.account.addOrCreateOrganization	Create new account
+translation.account.avatarAlt	{{name}} avatar
+translation.account.blockedLimitUsers_one	{{count}} member reached their ACU limit
+translation.account.blockedLimitUsers_other	{{count}} members reached ACU limits
+translation.account.blockedLimitUsers_dollars_one	{{count}} member reached their spend limit
+translation.account.blockedLimitUsers_dollars_other	{{count}} members reached spend limits
+translation.account.blockedUsersBanner_one	{{count}} user is blocked due to their per-user ACU limit — please check the <settingsLink>Usage Policies</settingsLink> page
+translation.account.blockedUsersBanner_other	{{count}} users are blocked due to per-user ACU limits — please check the <settingsLink>Usage Policies</settingsLink> page
+translation.account.devinSettings	Devin settings
+translation.account.enterprise	Enterprise
+translation.account.enterpriseSettings	Enterprise settings
+translation.account.inviteMembers	Invite members
+translation.account.logOut	Log out
+translation.account.manageAccounts	Manage accounts
+translation.account.memberCount	{{count}} member
+translation.account.memberCount_other	{{count}} members
+translation.account.new	New
+translation.account.noResultsFound	No results found
+translation.account.organizationSettings	Organization settings
+translation.account.personal	Personal
+translation.account.searchAccounts	Search accounts
+translation.account.switchAccount	Switch account
+translation.account.teamAndPersonal	Team & Personal
+translation.account.upgrade	Upgrade
+translation.actionModelPicker.sidechatUnavailable	Not available in side chats yet
+translation.actionModelPicker.internal	Internal
+translation.actionModelPicker.internalCurrent	Internal (Current)
+translation.actionModelPicker.internalExperimental	Internal (Experimental)
+translation.actionModelPicker.internalOld	Internal (Old)
+translation.actionModelPicker.default	Default
+translation.actionModelPicker.model	Model
+translation.actionModelPicker.reasoningEffort	Reasoning effort
+translation.actionModelPicker.standard	Standard
+translation.actionModelPicker.fast	Fast
+translation.actionModelPicker.ultraFast	Ultra fast
+translation.actionModelPicker.fastTier	Fast tier
+translation.actionModelPicker.thinking	Thinking
+translation.actionModelPicker.vision	Vision
+translation.actionModelPicker.longContext	Long context
+translation.actionModelPicker.lite	Lite
+translation.actionModelPicker.lowVerbosity	Low verbosity
+translation.actionModelPicker.effortNone	None
+translation.actionModelPicker.effortMinimal	Minimal
+translation.actionModelPicker.effortLow	Low
+translation.actionModelPicker.effortMedium	Medium
+translation.actionModelPicker.effortHigh	High
+translation.actionModelPicker.effortExtraHigh	Extra high
+translation.actionModelPicker.effortMax	Max
+translation.actionModelPicker.effortUltra	Ultra
+translation.actionModelPicker.effortPro	Pro
+translation.archiveWithPRs.title_one	Close session pull request
+translation.archiveWithPRs.title_other	Close session pull requests
+translation.archiveWithPRs.description_one	Do you want to close the session’s pull request?
+translation.archiveWithPRs.description_other	Do you want to close the session’s pull requests?
+translation.archiveWithPRs.descriptionSessions_one	Do you want to close the pull request for these {{sessionCount}} sessions?
+translation.archiveWithPRs.descriptionSessions_other	Do you want to close the pull requests for these {{sessionCount}} sessions?
+translation.archiveWithPRs.keepOpen	Keep open
+translation.archiveWithPRs.close_one	Close PR
+translation.archiveWithPRs.close_other	Close all PRs
+translation.archiveWithPRs.closing_one	Closing 1 pull request…
+translation.archiveWithPRs.closing_other	Closing {{count}} pull requests…
+translation.archiveWithPRs.closed_one	Pull request closed
+translation.archiveWithPRs.closed_other	Pull requests closed
+translation.archiveWithPRs.closedCount_one	1 pull request
+translation.archiveWithPRs.closedCount_other	{{count}} pull requests
+translation.archiveWithPRs.closeFailed_one	Failed to close 1 pull request
+translation.archiveWithPRs.closeFailed_other	Failed to close {{count}} pull requests
+translation.archiveWithPRs.closePartial_one	Closed 1 pull request, {{failed}} failed
+translation.archiveWithPRs.closePartial_other	Closed {{count}} pull requests, {{failed}} failed
+translation.archiveWithPRs.archiveFailed	Session not archived
+translation.archiveWithPRs.stopFailed	Session not stopped
+translation.doneToast.archivedSessions_one	Archived {{count}} session.
+translation.doneToast.archivedSessions_other	Archived {{count}} sessions.
+translation.doneToast.unarchivedSessions_one	Unarchived {{count}} session.
+translation.doneToast.unarchivedSessions_other	Unarchived {{count}} sessions.
+translation.doneToast.markedDone	Session marked done
+translation.doneToast.markedDoneDescription	Session moved to done folder in sidebar
+translation.doneToast.markedDoneDescriptionLocal	Stopped the agent and moved to done folder
+translation.doneToast.stopped	Session marked done and stopped
+translation.doneToast.stoppedDescription	Stopped VM and moved to done folder
+translation.doneToast.stoppedPrsClosedDescription_one	Closed PR, stopped VM, and moved to done folder
+translation.doneToast.stoppedPrsClosedDescription_other	Closed PRs, stopped VM, and moved to done folder
+translation.doneToast.archived	Session stopped
+translation.doneToast.archivedDescription	Stopped VM
+translation.doneToast.archivedDescriptionLocal	Stopped the agent
+translation.doneToast.archivedPrsClosedDescription_one	Closed PR and stopped VM
+translation.doneToast.archivedPrsClosedDescription_other	Closed PRs and stopped VM
+translation.doneToast.stoppedMany_one	Stopped {{count}} session
+translation.doneToast.stoppedMany_other	Stopped {{count}} sessions
+translation.doneToast.resumed	Session resumed
+translation.doneToast.resumedMany_one	Resumed {{count}} session
+translation.doneToast.resumedMany_other	Resumed {{count}} sessions
+translation.doneToast.stopFailed_one	Failed to stop session. Please try again.
+translation.doneToast.stopFailed_other	Failed to stop sessions. Please try again.
+translation.doneToast.resumeFailed_one	Failed to resume session. Please try again.
+translation.doneToast.resumeFailed_other	Failed to resume sessions. Please try again.
+translation.doneToast.markedNotDone	Marked not done
+translation.doneToast.markDoneFailed	Failed to mark session done. Please try again.
+translation.doneToast.markedDoneMany_one	Marked {{count}} session done
+translation.doneToast.markedDoneMany_other	Marked {{count}} sessions done
+translation.doneToast.subscribeFailed	Failed to subscribe. Please try again.
+translation.doneToast.unsubscribeFailed	Failed to unsubscribe. Please try again.
+translation.doneToast.unsubscribedAndStopped	Unsubscribed and stopped
+translation.doneToast.autoStoppedDescription	No one else was subscribed, so it was stopped.
+translation.doneToast.resume	Resume
+translation.doneToast.resumeActionFailed	Failed to resume
+translation.admin.storageMigrations.shard	Shard
+translation.admin.storageMigrations.shardSettings	Shard settings
+translation.admin.storageMigrations.hashShards	Hash shards per owner and key format
+translation.admin.storageMigrations.sessionRanges	Session ranges
+translation.admin.storageMigrations.fineShardOrgIds	Org IDs to use 256 hash shards (comma-separated)
+translation.admin.storageMigrations.fineShardOrgs	Orgs using 256 hash shards
+translation.admin.storageMigrations.advanced	Advanced
+translation.admin.storageMigrations.excludedOrgIds	Org IDs to skip for session file copies
+translation.admin.storageMigrations.excludedOrgIdsHint	Optional. Enter staging sub-org IDs separated by commas.
+translation.admin.storageMigrations.excludedOrgIdsWarning	These orgs still move with the account, but their historical session files won’t be available after cutover.
+translation.admin.usagePolicyAccess.title	Usage policy access
+translation.admin.usagePolicyAccess.description	Sets what the customer can do with usage policies. Default means write.
+translation.admin.usagePolicyAccess.customerLabel	Customer access
+translation.admin.usagePolicyAccess.cognitionLabel	Cognition access
+translation.admin.usagePolicyAccess.cognitionReadOnly	Set by DB only
+translation.admin.usagePolicyAccess.default	Default (write)
+translation.admin.usagePolicyAccess.write	Write
+translation.admin.usagePolicyAccess.read	Read
+translation.admin.usagePolicyAccess.hidden	Hidden
+translation.admin.usagePolicyAccess.saveError	Could not save usage policy access.
+translation.admin.usagePolicyAccess.adminHidden	Usage policies are hidden from Cognition staff for this enterprise.
+translation.admin.usagePolicyAccess.adminRead	Cognition can read usage policies. Editing is turned off.
+translation.admin.orgMembers.orgRoleTooltip	Role in this organization
+translation.admin.orgMembers.enterpriseMember	Enterprise
+translation.admin.orgMembers.enterpriseMemberTooltip	Enterprise-level member. This is separate from the role in this organization.
+translation.admin.orgMembers.enterpriseRoleNames	{{roles, list}}
+translation.admin.orgMembers.enterpriseRoleTooltip	Enterprise-level role: {{roles, list}}. This is separate from the role in this organization.
+translation.admin.notificationLab.loading	Loading…
+translation.admin.notificationLab.loadFailed	Failed to load notification types.
+translation.admin.notificationLab.title	Notification lab
+translation.admin.notificationLab.description	Preview a notification type, or send one to your own inbox. Lab sends never affect real notifications.
+translation.admin.notificationLab.type	Type
+translation.admin.notificationLab.searchTypes	Search types
+translation.admin.notificationLab.locale	Locale
+translation.admin.notificationLab.payload	Payload
+translation.admin.notificationLab.invalidJson	Payload is not valid JSON
+translation.admin.notificationLab.payloadNotObject	Payload must be a JSON object
+translation.admin.notificationLab.preview	Preview
+translation.admin.notificationLab.send	Send to me
+translation.admin.notificationLab.clear	Clear my lab notifications
+translation.admin.notificationLab.previewFailed	Preview failed. Check the payload matches the type.
+translation.admin.notificationLab.sent	Sent to your inbox
+translation.admin.notificationLab.suppressedByPreference	Not sent: you have this notification type turned off in Settings → Notifications
+translation.admin.notificationLab.unknownOutcome	Outcome: {{outcome}}
+translation.admin.notificationLab.sendFailed	Send failed
+translation.admin.notificationLab.cleared_one	Cleared {{count}} lab notification
+translation.admin.notificationLab.cleared_other	Cleared {{count}} lab notifications
+translation.admin.notificationLab.clearFailed	Clear failed
+translation.admin.lifeguardEvals.tabs.runs	Runs
+translation.admin.lifeguardEvals.tabs.performance	Performance
+translation.admin.lifeguardEvals.performance.loading	Loading runs…
+translation.admin.lifeguardEvals.performance.loadFailed	Failed to load runs: {{message}}
+translation.admin.lifeguardEvals.performance.noRuns	No succeeded runs with aggregate metrics yet.
+translation.admin.lifeguardEvals.performance.title	{{metric}} vs. cost per run — latest run per model routing group
+translation.admin.lifeguardEvals.performance.description	Each point is the most recent succeeded run for a routing group (the eval's <code>--model</code> argument). Lines connect a model's visible thinking levels. By default, all levels of models on the recall vs. cost Pareto frontier are selected; toggle models or runs to compare others.
+translation.admin.lifeguardEvals.performance.scoreLabel	Score
+translation.admin.lifeguardEvals.performance.noMetric	None of the latest runs recorded {{metric}}.
+translation.admin.lifeguardEvals.performance.metrics.recall	Recall
+translation.admin.lifeguardEvals.performance.metrics.f1	F1
+translation.admin.lifeguardEvals.performance.metrics.avgTurns	Avg turns
+translation.admin.lifeguardEvals.performance.costPerRun	Cost per run
+translation.admin.lifeguardEvals.performance.costAxis	Cost per run (list price USD)
+translation.admin.lifeguardEvals.performance.costPerRunShort	Cost / run
+translation.admin.lifeguardEvals.performance.avgBugsPerRun	Avg bugs / run
+translation.admin.lifeguardEvals.performance.modelRuns	Model runs
+translation.admin.lifeguardEvals.performance.showGroup	Show {{group}}
+translation.admin.lifeguardEvals.performance.showAllLevels	Show all {{group}} levels
+translation.admin.lifeguardEvals.performance.levels_one	{{count}} level
+translation.admin.lifeguardEvals.performance.levels_other	{{count}} levels
+translation.admin.lifeguardEvals.performance.openRun	Open run
+translation.admin.lifeguardEvals.performance.avgWallTime	Time: {{value}}
+translation.admin.lifeguardEvals.performance.turns	{{value}} turns
+translation.admin.lifeguardEvals.performance.bugsPerRun	{{value}} bugs / run
+translation.admin.lifeguardEvals.performance.zoomHint	Drag to zoom into a region · double-click the chart to reset
+translation.admin.lifeguardEvals.performance.resetZoom	Reset zoom
+translation.admin.teamsGraphSubscriptions.status.created	Fixed
+translation.admin.teamsGraphSubscriptions.status.unsupported	Unsupported (private/shared channel)
+translation.admin.teamsGraphSubscriptions.status.noConnection	Orphaned (no Teams connection)
+translation.admin.teamsGraphSubscriptions.status.forbidden	Graph denied access
+translation.admin.teamsGraphSubscriptions.status.notFound	Team or channel deleted
+translation.admin.teamsGraphSubscriptions.status.failed	Failed, retry
+translation.admin.teamsGraphSubscriptions.hint.noConnection	Expected after a Teams disconnect: the automations stayed but the account's Teams connection is gone. Nothing to retry; reconnect Teams or delete the automations.
+translation.admin.teamsGraphSubscriptions.hint.forbidden	Add the Devin app to the team, or ask the tenant's Microsoft 365 admin to allow resource-specific consent (RSC), then retry.
+translation.admin.teamsGraphSubscriptions.hint.notFound	Microsoft Graph can't find this team or channel; it was likely deleted. Nothing to retry; delete the automations or point them at another channel.
+translation.admin.teamsGraphSubscriptions.hint.failed	Microsoft Graph or chat-manager error. Retry; if it keeps failing, check chat-manager logs for this channel.
+translation.admin.teamsGraphSubscriptions.hint.unsupported	Private and shared channels can't have Graph subscriptions.
+translation.admin.teamsGraphSubscriptions.toast.nothingToFix	Nothing to fix
+translation.admin.teamsGraphSubscriptions.toast.nothingToFixDescription	The server re-check found no channels without a subscription.
+translation.admin.teamsGraphSubscriptions.toast.created_one	Created {{count}} Graph subscription
+translation.admin.teamsGraphSubscriptions.toast.created_other	Created {{count}} Graph subscriptions
+translation.admin.teamsGraphSubscriptions.toast.notFixed	{{notFixed}} of {{total}} channels not fixed
+translation.admin.teamsGraphSubscriptions.toast.noConnectionSummary_one	Orphaned ({{count}}): no Teams connection, expected after a disconnect.
+translation.admin.teamsGraphSubscriptions.toast.noConnectionSummary_other	Orphaned ({{count}}): no Teams connection, expected after a disconnect.
+translation.admin.teamsGraphSubscriptions.toast.orphaned_one	{{count}} orphaned channel: no Teams connection
+translation.admin.teamsGraphSubscriptions.toast.orphaned_other	{{count}} orphaned channels: no Teams connection
+translation.admin.teamsGraphSubscriptions.toast.orphanedDescription	Expected after a Teams disconnect; nothing to retry.
+translation.admin.teamsGraphSubscriptions.toast.forbiddenSummary_one	Graph denied access ({{count}}): add the Devin app to the team or allow RSC.
+translation.admin.teamsGraphSubscriptions.toast.forbiddenSummary_other	Graph denied access ({{count}}): add the Devin app to the team or allow RSC.
+translation.admin.teamsGraphSubscriptions.toast.notFoundSummary_one	Team or channel deleted ({{count}}): delete or repoint the automations.
+translation.admin.teamsGraphSubscriptions.toast.notFoundSummary_other	Team or channel deleted ({{count}}): delete or repoint the automations.
+translation.admin.teamsGraphSubscriptions.toast.failedSummary_one	Failed ({{count}}): retry; check chat-manager logs.
+translation.admin.teamsGraphSubscriptions.toast.failedSummary_other	Failed ({{count}}): retry; check chat-manager logs.
+translation.admin.teamsGraphSubscriptions.toast.unsupportedSummary_one	Unsupported ({{count}}): private or shared channel.
+translation.admin.teamsGraphSubscriptions.toast.unsupportedSummary_other	Unsupported ({{count}}): private or shared channel.
+translation.admin.devinCosts	Costs
+translation.admin.devinStartupMetrics	Startup metrics
+translation.admin.linqPicker.phoneNumber	Linq phone number
+translation.admin.linqPicker.choose	Select a phone number
+translation.admin.linqPicker.loading	Loading phone numbers…
+translation.admin.linqPicker.loadError	Could not load phone numbers from Linq.
+translation.admin.linqPicker.empty	No Linq phone numbers are available to add.
+translation.admin.linqPicker.retry	Try again
+translation.admin.linqSync.button	Sync from Linq
+translation.admin.linqSync.title	Sync lines from Linq?
+translation.admin.linqSync.description	Adds Linq numbers missing from the pool, updates numbers Linq changed, retires lines Linq flags or no longer lists, and restores retired lines Linq lists as active. Nothing changes in Linq.
+translation.admin.linqSync.confirm	Sync
+translation.admin.linqSync.done	Synced: {{added}} added, {{updated}} updated, {{retired}} retired, {{restored}} restored
+translation.admin.editRoles	Edit roles
+translation.admin.editRolesFor	Edit roles for {{name}}
+translation.admin.enterprise	Enterprise
+translation.admin.enterprises	Enterprises
+translation.admin.noRoles	No roles
+translation.admin.organization	Organization
+translation.admin.permissions	Permissions
+translation.admin.selectRoleFor	Select role for {{name}}
+translation.admin.session	Admin session
+translation.admin.sessionCost	Session cost
+translation.admin.sessionGroups	Session groups
+translation.admin.sessionLogs	Session logs
+translation.admin.sessionPerformance	Session performance
+translation.admin.title	Admin
+translation.admin.user	User
+translation.admin.userTrust.accountLabel	Account
+translation.admin.userTrust.accountPlaceholder	Select an account
+translation.admin.userTrust.columns.eventCount	Events
+translation.admin.userTrust.columns.floor	Floor
+translation.admin.userTrust.columns.observedAt	Observed at
+translation.admin.userTrust.columns.points	Points
+translation.admin.userTrust.columns.queryKey	Query key
+translation.admin.userTrust.columns.reasons	Reasons
+translation.admin.userTrust.columns.signalType	Signal
+translation.admin.userTrust.columns.source	Source
+translation.admin.userTrust.contributions	Contributing signals
+translation.admin.userTrust.dialog.cancel	Cancel
+translation.admin.userTrust.dialog.description	Records a manual trust event for this user in {{account}}. The verdict and percent are stored exactly as entered.
+translation.admin.userTrust.dialog.percent	Percent
+translation.admin.userTrust.dialog.reason	Reason
+translation.admin.userTrust.dialog.submit	Set trust
+translation.admin.userTrust.dialog.title	Set trust
+translation.admin.userTrust.dialog.trusted	Trusted
+translation.admin.userTrust.dialog.untrusted	Untrusted
+translation.admin.userTrust.dialog.verdict	Verdict
+translation.admin.userTrust.events_one	{{count}} raw event
+translation.admin.userTrust.events_other	{{count}} raw events
+translation.admin.userTrust.levels.elevated	Elevated
+translation.admin.userTrust.levels.high	High
+translation.admin.userTrust.levels.none	None
+translation.admin.userTrust.loadError	Failed to load trust assessment: {{message}}
+translation.admin.userTrust.loading	Loading trust assessment...
+translation.admin.userTrust.noMemberships	This user has no account memberships.
+translation.admin.userTrust.noReasons	No reasons
+translation.admin.userTrust.noSignals	No trust signals recorded for this account.
+translation.admin.userTrust.queryKeys	Query keys
+translation.admin.userTrust.reasons	Reasons
+translation.admin.userTrust.score	Score
+translation.admin.userTrust.setError	Failed to set trust
+translation.admin.userTrust.setSuccess	Trust updated
+translation.admin.userTrust.setTrust	Set trust
+translation.admin.userTrust.signalJson	Signal JSON
+translation.admin.userTrust.suspicionLevel	Suspicion level
+translation.admin.userTrust.tab	Trust
+translation.admin.users	Users
+translation.admin.watchDevinWork	Watch work
+translation.admin.billingPhases.dollarPhaseRepricingHelp	On a dollars phase the in-commit ACU price also converts Devin and Review ACUs to dollars, so changing it re-prices that phase's history. Platform fee changes apply to new Desktop/CLI usage only.
+translation.admin.billingPhases.phaseEditRuleHelp	Desktop/CLI reads phase pricing through a 5-minute cache, so save boundary and pricing-model changes at least 5 minutes before they take effect. Desktop/CLI usage is billed in the model of the phase in effect when the request started; switching a past period between ACUs and dollars does not re-bill usage already recorded in it.
+translation.admin.sponsoredEvents.title	Sponsored events
+translation.admin.sponsoredEvents.navLabel	Sponsored events
+translation.admin.sponsoredEvents.actions.cancel	Cancel
+translation.admin.sponsoredEvents.list.loading	Loading sponsored events
+translation.admin.sponsoredEvents.list.loadFailed	Failed to load sponsored events: {{message}}
+translation.admin.sponsoredEvents.list.emptyTitle	No sponsored events yet
+translation.admin.sponsoredEvents.list.emptyDescription	Create an event to give hackathon teams their own organization with a sponsored budget.
+translation.admin.sponsoredEvents.list.columns.name	Name
+translation.admin.sponsoredEvents.list.columns.teams	Teams
+translation.admin.sponsoredEvents.list.columns.teamBudget	Budget per team
+translation.admin.sponsoredEvents.list.columns.acuLimit	ACU cap per session
+translation.admin.sponsoredEvents.list.columns.createdAt	Created
+translation.admin.sponsoredEvents.create.button	New event
+translation.admin.sponsoredEvents.create.title	New sponsored event
+translation.admin.sponsoredEvents.create.description	Each team added to this event gets its own free organization, a one-time sponsored budget, and a per-session ACU cap. These cannot be changed after the event is created.

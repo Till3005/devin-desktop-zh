@@ -1,0 +1,500 @@
+translation.billingTagsAnalytics.totalSessions	Total sessions
+translation.billingTagsAnalytics.untaggedSessions	Untagged sessions
+translation.billingTagsAnalytics.statTooltips.sessions	All sessions created in the selected time range.
+translation.billingTagsAnalytics.statTooltips.tagged	Sessions assigned to a billing tag. Excludes sessions tagged as Miscellaneous.
+translation.billingTagsAnalytics.statTooltips.uncategorized	Sessions that have not been assigned a billing tag yet.
+translation.billingTagsAnalytics.statTooltips.miscellaneous	Sessions tagged as Miscellaneous, the built-in tag for work that doesn't belong to any billing tag.
+translation.billingTagsAnalytics.health.healthy	Healthy
+translation.billingTagsAnalytics.health.needsAttention	Needs attention
+translation.billingTagsAnalytics.health.atRisk	Unhealthy
+translation.billingTagsAnalytics.health.uncategorizedHealthyTooltip	Under 20% of sessions are uncategorized. Spend is well attributed to billing tags.
+translation.billingTagsAnalytics.health.uncategorizedNeedsAttentionTooltip	20-60% of sessions are uncategorized. We generally recommend keeping this under 20%.
+translation.billingTagsAnalytics.health.uncategorizedAtRiskTooltip	Over 60% of sessions are uncategorized. Most spend can't be attributed to a billing tag.
+translation.billingTagsAnalytics.health.miscellaneousHealthyTooltip	Under 20% of sessions are marked miscellaneous. Spend is well attributed to billing tags.
+translation.billingTagsAnalytics.health.miscellaneousNeedsAttentionTooltip	20-60% of sessions are marked miscellaneous. We generally recommend keeping this under 20%.
+translation.billingTagsAnalytics.health.miscellaneousAtRiskTooltip	Over 60% of sessions are marked miscellaneous. Most spend can't be attributed to a billing tag.
+translation.activity.searchPlaceholder	Search or filter (type:shell, -status:failed)…
+translation.activity.live	Live
+translation.activity.filter	Filter
+translation.activity.rows_one	{{count}} row
+translation.activity.rows_other	{{count}} rows
+translation.activity.toggleTurn	Fold or unfold this request's rows
+translation.activity.toggleTimestampFormat	{{time}}. Switch between relative and absolute times
+translation.activity.noWorkYet	Devin hasn't done any work yet...
+translation.activity.noMatches	No events match the current filters
+translation.activity.clearFilters	Clear filters
+translation.activity.hiddenSelected	Selected row is hidden by filters
+translation.activity.loadFailed	Failed to load event
+translation.activity.resizePanel	Resize panel
+translation.activity.statusRunning	Running
+translation.activity.statusOk	Exited 0
+translation.activity.statusFailed	Failed
+translation.activity.kind.shell	Shell
+translation.activity.kind.edit	Edits
+translation.activity.kind.read	Reads
+translation.activity.kind.browser	Browser
+translation.activity.kind.search	Search
+translation.activity.kind.mcp	MCP
+translation.activity.kind.knowledge	Knowledge
+translation.activity.kind.plan	Plan
+translation.activity.kind.git	Git
+translation.activity.kind.message	Messages
+translation.activity.kind.other	Other
+translation.activity.showAll	Show all
+translation.activity.previousRow	Previous event
+translation.activity.nextRow	Next event
+translation.activity.selectEvent	Select an event to view more
+translation.activity.watchLive	Watch Devin work live
+translation.activity.tasks	Tasks
+translation.activity.tasksDone	{{done}}/{{total}} done
+translation.activity.filterByTask	Show only activity from this task
+translation.activity.clearTaskFilter	Show all activity again
+translation.activity.maximizePanel	Expand drawer
+translation.activity.minimizePanel	Shrink drawer
+translation.activity.event.userMessage	User message
+translation.activity.event.devinMessage	{{name}} message
+translation.activity.event.executedCommand	Executed command
+translation.activity.event.createdFile	Created file
+translation.activity.event.editedFile	Edited file
+translation.activity.event.readFile	Read file
+translation.activity.event.deletedFile	Deleted file
+translation.activity.event.renamedFile	Renamed file
+translation.activity.event.changedFiles_one	Changed {{count}} file
+translation.activity.event.changedFiles_other	Changed {{count}} files
+translation.activity.event.readFiles_one	Read {{count}} file
+translation.activity.event.readFiles_other	Read {{count}} files
+translation.activity.facet.type	Type
+translation.activity.facet.status	Status
+translation.activity.facet.shell	Shell
+translation.activity.only	Only
+translation.activity.filterBy	Filter by {{term}}
+translation.activity.excludeTerm	Exclude {{term}}
+translation.activity.searchFor	Search for “{{text}}”
+translation.activity.excludeText	Exclude “{{text}}”
+translation.activity.viewInContext	View in context
+translation.activity.editFilter	Edit filter
+translation.activity.removeFilter	Remove filter
+translation.workshopFeedback.title	Workshop Feedback
+translation.workshopFeedback.required	(required)
+translation.workshopFeedback.q1	How effective were the Cognition trainers in addressing your questions?
+translation.workshopFeedback.q2	Were they able to resolve all your questions/doubts?
+translation.workshopFeedback.q3	Do you feel more confident in using Devin effectively now?
+translation.workshopFeedback.q4	What would you like to see more of? Would you change or add anything?
+translation.workshopFeedback.q5	Open feedback comments on the trainers or the content/structure of the session
+translation.workshopFeedback.answers.yes	Yes
+translation.workshopFeedback.answers.partially	Partially
+translation.workshopFeedback.answers.no	No
+translation.workshopFeedback.requiredError	Answer this question
+translation.workshopFeedback.submit	Submit feedback
+translation.workshopFeedback.submitting	Submitting…
+translation.workshopFeedback.submitError	Something went wrong while submitting your feedback. Please try again.
+translation.workshopFeedback.thanksTitle	Thanks for your feedback!
+translation.workshopFeedback.thanksDescription	Your responses have been recorded and will help us improve future workshops.
+translation.resourceCollections.shareLimit	Share up to {{max}} at a time
+translation.resourceCollections.selectAll	Select all {{count}}
+translation.resourceCollections.allSelected	All {{count}} selected
+translation.resourceCollections.selectAllLimit	Select all works on up to {{max}} resources
+translation.resourceCollections.selectAllFailed	Couldn't select all. Try again
+translation.resourceCollections.shareSkipped_one	Skips {{count}} resource you can't share.
+translation.resourceCollections.shareSkipped_other	Skips {{count}} resources you can't share.
+translation.resourceCollections.noneShareable	You can't share any of these resources
+translation.resourceCollections.create	Create collection
+translation.resourceCollections.nameColumn	Name
+translation.resourceCollections.resourceCount_one	{{count}} resource
+translation.resourceCollections.resourceCount_other	{{count}} resources
+translation.resourceCollections.noSearchResults	No results match your search.
+translation.resourceCollections.loadError	Failed to load resource collections.
+translation.resourceCollections.cancel	Cancel
+translation.resourceCollections.createTitle	Create resource collection
+translation.resourceCollections.createDescription	Organize related resources and control who can access and use them
+translation.resourceCollections.created	Collection created
+translation.resourceCollections.createFailed	Failed to create collection
+translation.resourceCollections.editDetailsTitle	Edit collection details
+translation.resourceCollections.editDetailsDescription	Rename this collection or update its description
+translation.resourceCollections.tabGeneral	General
+translation.resourceCollections.tabResources	Resources
+translation.resourceCollections.tabManageAccess	Manage access
+translation.resourceCollections.nameLabel	Name
+translation.resourceCollections.namePlaceholder	Collection name
+translation.resourceCollections.descriptionLabel	Description
+translation.resourceCollections.descriptionPlaceholder	What is this collection for?
+translation.resourceCollections.saveChanges	Save
+translation.resourceCollections.saved	Collection saved
+translation.resourceCollections.saveFailed	Failed to save collection
+translation.resourceCollections.deleteTitle	Delete resource collection
+translation.resourceCollections.deleteConfirm	Delete "{{name}}"? Members will lose any access they had through this collection.
+translation.resourceCollections.delete	Delete collection
+translation.resourceCollections.deleted	Collection deleted
+translation.resourceCollections.deleteFailed	Failed to delete collection
+translation.resourceCollections.resourceTypeColumn	Resource type
+translation.resourceCollections.filterByType	Filter by resource type
+translation.resourceCollections.sortBy	Sort by
+translation.resourceCollections.sort.updated_desc	Recently updated
+translation.resourceCollections.sort.name_asc	Name A–Z
+translation.resourceCollections.sort.name_desc	Name Z–A
+translation.resourceCollections.sort.type_asc	Type A–Z
+translation.resourceCollections.sort.type_desc	Type Z–A
+translation.resourceCollections.searchResourcesPlaceholder	Search resources
+translation.resourceCollections.searchResources	Search resources
+translation.resourceCollections.noResources	No resources in this collection yet.
+translation.resourceCollections.types.secret	Secret
+translation.resourceCollections.types.plugin	Plugin
+translation.resourceCollections.types.playbook	Playbook
+translation.resourceCollections.types.mcp	MCP server
+translation.resourceCollections.types.mcpAuthorization	MCP authorization
+translation.resourceCollections.types.serviceUser	Service user
+translation.resourceCollections.access.description	Select the users and user groups to share this collection with
+translation.resourceCollections.access.searchPlaceholder	Search for a user or group
+translation.resourceCollections.access.canUse	Can use
+translation.resourceCollections.access.canUseDescription	Can use every resource in this collection
+translation.resourceCollections.access.canConfigure	Can configure
+translation.resourceCollections.access.canConfigureDescription	Can edit the collection and its resources
+translation.resourceCollections.access.canShare	Can share
+translation.resourceCollections.access.canShareDescription	Can manage who has access to this collection and its resources
+translation.resourceCollections.access.useVerb	use
+translation.resourceCollections.access.configureVerb	configure
+translation.resourceCollections.access.shareVerb	share
+translation.resourceCollections.access.inheritedDescription	Access inherited from a role or group
+translation.resourceCollections.access.removeSelfError	You can't remove your own access
+translation.resourceCollections.access.rows.collection	This collection
+translation.resourceCollections.access.rows.playbooks	Playbooks
+translation.resourceCollections.access.rows.secrets	Secrets
+translation.resourceCollections.access.rows.mcpServers	MCP servers
+translation.resourceCollections.access.rows.mcpAuthorizations	MCP authorizations
+translation.resourceCollections.clearSearch	Clear search
+translation.resourceCollections.nameHelp	Enter a clear, recognizable name for this collection
+translation.resourceCollections.descriptionHelp	Explain what this collection supports and when members should use it
+translation.resourceCollections.resourcesFilter	Resources
+translation.resourceCollections.clearFilter	Clear filter
+translation.resourceCollections.createResourceLabel	Create in this collection
+translation.resourceCollections.createSecretTitle	Add secret to {{name}}
+translation.resourceCollections.backToResources	Back to {{name}}
+translation.resourceCollections.createMcpTitle	Add MCP server to {{name}}
+translation.resourceCollections.createPluginTitle	Add plugin to {{name}}
+translation.resourceCollections.createPluginDescription	Create or upload a plugin for this collection's members.
+translation.resourceCollections.createPlaybookTitle	Add playbook to {{name}}
+translation.resourceCollections.createPlaybookDescription	Create a reusable prompt for this collection's members.
+translation.resourceCollections.createServiceUserTitle	Add service user to {{name}}
+translation.resourceCollections.pluginRepositoryDescription	Connect a plugin from a Git repository.
+translation.resourceCollections.pluginUploadDescription	Upload a plugin bundle from your computer.
+translation.resourceCollections.pluginBlankDescription	Start with a blank plugin and add its contents.
+translation.resourceCollections.createMcpDescription	Available to this collection's members.
+translation.resourceCollections.discardCreateTitle	Discard unsaved changes?
+translation.resourceCollections.discardCreateConfirm	Discard changes
+translation.resourceCollections.discardCreateCancel	Continue editing
+translation.resourceCollections.serviceUserTokenTitle	Service user token
+translation.resourceCollections.serviceUserTokenDescription	Copy this token and store it securely. It is shown only once.
+translation.resourceCollections.serviceUserTokenCopy	Copy
+translation.resourceCollections.serviceUserTokenCopied	Copied
+translation.resourceCollections.serviceUserTokenCopyFailed	Failed to copy token
+translation.resourceCollections.serviceUserTokenDone	Done
+translation.resourceCollections.createSecretDescription	Saved for your account's sessions, shared with this collection's members.
+translation.resourceCollections.secretCreated	Secret created
+translation.resourceCollections.resourceActions	Resource actions
+translation.resourceCollections.resourceActionsFor	Actions for {{name}}
+translation.resourceCollections.share	Share
+translation.resourceCollections.move	Move
+translation.resourceCollections.moveTitle	Move {{name}}
+translation.resourceCollections.moveDestination	Collection
+translation.resourceCollections.moveConfirm	Move
+translation.resourceCollections.moved	Moved to {{name}}
+translation.resourceCollections.moveFailed	Failed to move resource
+translation.resourceCollections.moveTitleMany_one	Move {{count}} resource
+translation.resourceCollections.moveTitleMany_other	Move {{count}} resources
+translation.resourceCollections.moveTitleMany	Move {{count}} resources
+translation.resourceCollections.moveDestinationHint	Only collections you can configure are listed.
+translation.resourceCollections.moveRoot	All resources
+translation.resourceCollections.moveRootMeta	Not in any collection
+translation.resourceCollections.moveChoose_one	Choose where it should live.
+translation.resourceCollections.moveChoose_other	Choose where they should live.
+translation.resourceCollections.bulkShareCollections	Collection access
+translation.resourceCollections.bulkShareCollectionsDescription_one	Inherited by everything inside ({{count}} resource today), including resources added later.
+translation.resourceCollections.bulkShareCollectionsDescription_other	Inherited by everything inside ({{count}} resources today), including resources added later.
+translation.resourceCollections.bulkShareNames	{{names, list}}
+translation.resourceCollections.bulkShareResourcesOnly	These resources only
+translation.resourceCollections.bulkShareResourcesOnlyDescription_one	Added directly on {{count}} resource. Nothing else in its collection is affected.
+translation.resourceCollections.bulkShareResourcesOnlyDescription_other	Added directly on {{count}} resources. Nothing else in their collections is affected.
+translation.resourceCollections.bulkShareTitle_one	Share {{count}} resource
+translation.resourceCollections.bulkShareTitle_other	Share {{count}} resources
+translation.resourceCollections.bulkShareTitle	Share {{count}} resources
+translation.resourceCollections.bulkShareDescription	Adds access to every selected resource. Nobody's existing access is lowered or removed.
+translation.resourceCollections.bulkShareSearchHint	Search for someone to share with
+translation.resourceCollections.bulkShared_one	Shared {{count}} resource with {{name}}
+translation.resourceCollections.bulkShared_other	Shared {{count}} resources with {{name}}
+translation.resourceCollections.bulkShared	Shared {{count}} resources with {{name}}
+translation.resourceCollections.bulkShareFailed	Failed to share. Nothing was changed.
+translation.resourceCollections.needConfigure	You need configure access to this collection
+translation.resourceCollections.needShare	You need share access to this resource
+translation.resourceCollections.needShareToMove	You need share access to this resource to move it
+translation.resourceCollections.cantShare	You can't share {{name}}
+translation.resourceCollections.cantShareMore_one	You can't share {{name}} and {{count}} other
+translation.resourceCollections.cantShareMore_other	You can't share {{name}} and {{count}} others
+translation.resourceCollections.cantMove	You can't move {{name}}
+translation.resourceCollections.cantMoveMore_one	You can't move {{name}} and {{count}} other
+translation.resourceCollections.cantMoveMore_other	You can't move {{name}} and {{count}} others
+translation.resourceCollections.deleteResource	Delete
+translation.resourceCollections.deleteResourceTitle	Delete {{name}}?
+translation.resourceCollections.deleteResourceTitleMany_one	Delete {{count}} resource?
+translation.resourceCollections.deleteResourceTitleMany_other	Delete {{count}} resources?
+translation.resourceCollections.deleteResourceTitleMany	Delete {{count}} resources?
+translation.resourceCollections.deleteResourceDescription_one	This permanently deletes it. This can't be undone.
+translation.resourceCollections.deleteResourceDescription_other	This permanently deletes them. This can't be undone.
+translation.resourceCollections.deleteResourceSkipped_one	{{count}} selected resource can't be deleted here and will be skipped.
+translation.resourceCollections.deleteResourceSkipped_other	{{count}} selected resources can't be deleted here and will be skipped.
+translation.resourceCollections.deleteResourceConfirm	Delete
+translation.resourceCollections.resourcesDeleted_one	Deleted {{count}} resource
+translation.resourceCollections.resourcesDeleted_other	Deleted {{count}} resources
+translation.resourceCollections.deleteResourcesFailed_one	Failed to delete {{count}} resource
+translation.resourceCollections.deleteResourcesFailed_other	Failed to delete {{count}} resources
+translation.resourceCollections.deleteResourcesPartial_one	Deleted {{deleted}}. Failed to delete {{count}} resource.
+translation.resourceCollections.deleteResourcesPartial_other	Deleted {{deleted}}. Failed to delete {{count}} resources.
+translation.resourceCollections.needConfigureToDelete	You need configure access to this resource to delete it
+translation.resourceCollections.cantDeleteType	This type of resource can't be deleted from a collection
+translation.resourceCollections.cantDeleteAny	None of the selected resources can be deleted from a collection
+translation.resourceCollections.shareDescription	Select the users and groups that can access {{name}}
+translation.resourceCollections.resourceCanUse	Can use
+translation.resourceCollections.resourceCanUseDescription	Can use this resource in sessions
+translation.resourceCollections.resourceCanConfigure	Can configure
+translation.resourceCollections.resourceCanConfigureDescription	Can edit this resource
+translation.resourceCollections.resourceUseVerb	use
+translation.resourceCollections.resourceConfigureVerb	configure
+translation.resourceCollections.resourceShareVerb	share
+translation.resourceCollections.resourceCanShare	Can share
+translation.resourceCollections.resourceCanShareDescription	Can manage who has access to this resource
+translation.resourceCollections.resourceShareSearchPlaceholder	Search for a user or group
+translation.resourceCollections.resourceInheritedDescription	Access inherited from a role, group or collection
+translation.resourceCollections.shareCollectionLabel	Collection
+translation.resourceCollections.notInCollection	Not in a collection
+translation.resourceCollections.collectionHidden	In a collection you can't view
+translation.resourceCollections.sharedThroughCollection	Shared through the {{collection}} collection
+translation.resourceCollections.fromCollection	From collection {{collection}}
+translation.resourceCollections.resourceRemoveSelfError	You can't remove your own access
+translation.repoConnect.whoCanConnect	Who can connect it?
+translation.repoConnect.description	Only an owner or maintainer of the repository can connect it to Devin. Ask one of them, then pick it here once it's in.
+translation.repoConnect.ownersTitle	Owners and maintainers
+translation.repoConnect.ownersTitleInherited	Owners and maintainers of its parent groups
+translation.repoConnect.ownersLoading	Looking up owners…
+translation.repoConnect.ownersFailed	Couldn't read the members. Your GitLab account may not see the member list.
+translation.repoConnect.ownersNone	No owners or maintainers are visible to your GitLab account.
+translation.repoConnect.ownersMore	More owners exist than are shown.
+translation.repoConnect.ownersMoreInherited	Only the project's direct owners and maintainers are listed. Owners and maintainers of its parent groups can connect it too.
+translation.repoConnect.emailInferred	Guessed from the username; GitLab didn't share an email.
+translation.repoConnect.openMembers	Members page on {{host}}
+translation.repoConnect.openRequestLink	Request access page
+translation.repoConnect.askMaintainer	Ask a maintainer to add it to Devin
+translation.repoConnect.copyMessage	Copy Slack message
+translation.repoConnect.emailOwners_one	Email {{count}} owner
+translation.repoConnect.emailOwners_other	Email {{count}} owners
+translation.repoConnect.emailSubject	Could you connect {{path}} to Devin?
+translation.repoConnect.copied	Copied
+translation.repoConnect.messageGreeting	Hi there,
+translation.repoConnect.messageBody	Could you connect {{url}} to Devin? I'd like to use it there, and only a repository owner or maintainer can connect it.
+translation.repoConnect.messageThanks	Thanks!
+translation.repoConnect.emailMe	Email me when it's connected
+translation.repoConnect.willEmail	We'll email you when it's connected.
+translation.repoConnect.dontEmail	Don't email me
+translation.repoConnect.watchFailed	Couldn't save that. Try again.
+translation.repoConnect.openInstructions	How to connect a repository
+translation.repoConnect.messageInstructions	Instructions: {{link}}
+translation.unifiedRepositories.title	Repositories
+translation.unifiedRepositories.repositoriesPager.page	Page {{page}}
+translation.unifiedRepositories.description	Repositories you can access in My Workspace, and what you can do in each
+translation.unifiedRepositories.search	Search repositories
+translation.unifiedRepositories.searchPlaceholder	Search repositories
+translation.unifiedRepositories.nameColumn	Name
+translation.unifiedRepositories.connectionColumn	Connection
+translation.unifiedRepositories.accessColumn	Access
+translation.unifiedRepositories.read	Read
+translation.unifiedRepositories.write	write
+translation.unifiedRepositories.configure	configure
+translation.unifiedRepositories.accessList	{{levels, list(style: short)}}
+translation.unifiedRepositories.pendingSync	Pending sync
+translation.unifiedRepositories.accessibleDescription	Repositories you can access in Devin.
+translation.unifiedRepositories.pendingSyncCheckFailed	Couldn't check every host for repositories still syncing.
+translation.unifiedRepositories.emptyTitle	No repositories
+translation.unifiedRepositories.emptyDescription	You don't have access to any repositories yet.
+translation.unifiedRepositories.noSearchResults	No results match your search.
+translation.unifiedRepositories.loadError	Failed to load repositories.
+translation.unifiedRepositories.retry	Retry
+translation.unifiedRepositories.repositoryActions	Repository actions
+translation.unifiedRepositories.configureBlueprint	Configure blueprint
+translation.unifiedRepositories.inDevinTab	In Devin
+translation.unifiedRepositories.statusFilterLabel	Filter by status
+translation.unifiedRepositories.statusAll	All
+translation.unifiedRepositories.connectionKind.githubApp	GitHub App
+translation.unifiedRepositories.connectionKind.token	Access token
+translation.unifiedRepositories.connectionKind.projectToken	GitLab project access token
+translation.unifiedRepositories.connectionKind.oauth	OAuth connection
+translation.unifiedRepositories.connectionKind.perforce	Perforce
+translation.unifiedRepositories.available.description	Repositories you recently contributed to with your linked accounts that aren't connected to Devin yet. If a repository is not listed, try searching for it.
+translation.unifiedRepositories.available.unlinkedHosts	Not checked: {{unlinked, list(style: long)}} — <connectionsLink>link your account</connectionsLink> to include it.
+translation.unifiedRepositories.available.hostColumn	Host
+translation.unifiedRepositories.available.adding	Adding…
+translation.unifiedRepositories.available.added	Added {{name}} to Devin.
+translation.unifiedRepositories.available.addedGroup	Added group {{group}} to Devin.
+translation.unifiedRepositories.available.addToDevin	Add to Devin
+translation.unifiedRepositories.available.addFailed	Couldn't add the project.
+translation.unifiedRepositories.available.searchHint	Type at least 3 characters or paste a repository URL.
+translation.unifiedRepositories.available.noResultsHint	Nothing matched on the hosts checked. Paste the repository URL to look it up directly.
+translation.unifiedRepositories.available.lookupFailed	Couldn't check every host. Try again in a moment.
+translation.unifiedRepositories.available.searching	Searching…
+translation.unifiedRepositories.available.refresh	Refresh
+translation.unifiedRepositories.available.loadError	Couldn't load repositories.
+translation.unifiedRepositories.available.notLinkedTitle	No account linked
+translation.unifiedRepositories.available.notLinkedDescription	<connectionsLink>Link your GitLab or GitHub account</connectionsLink> to see repositories you can add.
+translation.unifiedRepositories.available.notFound	{{path}} not found on {{host}}
+translation.unifiedRepositories.available.notFoundDescription	It may not exist, you may not have access, or the Devin GitHub App isn't installed on it.
+translation.unifiedRepositories.available.recentOnlyHint	Search by name or paste a URL to find any repository you can add. Listed below: ones you recently contributed to.
+translation.unifiedRepositories.available.searchToAddTitle	Search for a repository to add
+translation.unifiedRepositories.available.searchToAddHint	Repositories you can add aren't listed until you search. Type a name or paste a repository URL to check whether you can add it.
+translation.unifiedRepositories.notInDevinTab	Add a repository
+translation.repoConnectionIssue.git	Git connection issue
+translation.repoConnectionIssue.perforce	Perforce connection issue
+translation.repoConnectionIssue.tooltip	The provider connection may have been removed or permissions revoked
+translation.allResources.create	Create
+translation.allResources.collection	Collection
+translation.allResources.title	All resources
+translation.allResources.description	Everything you have access to in this account.
+translation.allResources.search	Search
+translation.allResources.searchPlaceholder	Search resources
+translation.allResources.loadError	Failed to load resources.
+translation.allResources.emptyTitle	No collections or resources yet.
+translation.allResources.collectionLoadError	Failed to load the collection.
+translation.allResources.matchingResources_one	{{count}} matching resource
+translation.allResources.matchingResources_other	{{count}} matching resources
+translation.allResources.matchCount	{{matches}} of {{count}} match
+translation.allResources.matchingResourcesCapped	{{count}} matching resources
+translation.allResources.previousPage	Previous
+translation.allResources.nextPage	Next
+translation.allResources.pagination	Pages
+translation.allResources.pageNumber	Page {{page}}
+translation.allResources.empty	Empty
+translation.allResources.collectionType	Collection
+translation.allResources.createdColumn	Created
+translation.allResources.sharedWithMembers_one	Shared with {{count}} member. Everything in here inherits that access.
+translation.allResources.sharedWithMembers_other	Shared with {{count}} members. Everything in here inherits that access.
+translation.allResources.privateCollection	In a private collection
+translation.allResources.privateCollectionMove	It's in a collection you can't view, so it can't be moved from here.
+translation.allResources.addToCollection	Add to collection
+translation.allResources.back	Back to All resources
+translation.allResources.edit	Edit
+translation.allResources.collectionActions	Collection actions
+translation.allResources.collectionActionsFor	Actions for {{name}}
+translation.allResources.selected	{{what}} selected
+translation.allResources.collectionsCount_one	{{count}} collection
+translation.allResources.collectionsCount_other	{{count}} collections
+translation.allResources.resourcesCount_one	{{count}} resource
+translation.allResources.resourcesCount_other	{{count}} resources
+translation.allResources.collections	Collections
+translation.allResources.resources	Resources
+translation.allResources.andMore_one	and {{count}} more
+translation.allResources.andMore_other	and {{count}} more
+translation.allResources.removeFromSelection	Remove {{name}} from selection
+translation.allResources.collectionSelectedNote	A selected collection covers everything inside it, including resources added later.
+translation.allResources.collectionActionsNote	Move and Delete only apply to resources, so they're hidden while a collection is selected.
+translation.allResources.cantManageCollection	You can't manage access to {{name}}
+translation.cloudSetup.title	Cloud Setup
+translation.cloudSetup.description	Each run of <code>devin cloud setup</code> and what it sent.
+translation.cloudSetup.detailTitle	Cloud Setup Run
+translation.cloudSetup.detailDescription	Run {{id}} · CLI {{cli}} · set up {{date}}
+translation.cloudSetup.loadError	Could not load runs.
+translation.cloudSetup.notFound	This run does not exist or you cannot open it.
+translation.cloudSetup.backToList	Back to cloud setup
+translation.cloudSetup.emptyTitle	No runs yet
+translation.cloudSetup.emptyDescription	Run this command in a project
+translation.cloudSetup.previousPage	Previous
+translation.cloudSetup.nextPage	Next
+translation.cloudSetup.column.project	Project
+translation.cloudSetup.column.status	Status
+translation.cloudSetup.column.organization	Organization
+translation.cloudSetup.column.updated	Updated
+translation.cloudSetup.status.written	Not uploaded
+translation.cloudSetup.status.uploading	Uploading
+translation.cloudSetup.status.interrupted	Upload interrupted
+translation.cloudSetup.status.done	Uploaded
+translation.cloudSetup.status.failed	Upload failed
+translation.cloudSetup.status.superseded	Replaced
+translation.cloudSetup.statusHint.written	Set up on your machine. Nothing uploaded yet.
+translation.cloudSetup.statusHint.uploading	Upload in progress on your machine.
+translation.cloudSetup.statusHint.uploadingMinutes_one	Upload in progress. It expires in {{count}} minute.
+translation.cloudSetup.statusHint.uploadingMinutes_other	Upload in progress. It expires in {{count}} minutes.
+translation.cloudSetup.statusHint.interrupted	The upload stopped early.
+translation.cloudSetup.statusHint.done	Upload finished.
+translation.cloudSetup.statusHint.failed	Some entries failed.
+translation.cloudSetup.statusHint.superseded	A newer cloud setup run replaced this one.
+translation.cloudSetup.kindCounts.uploaded_one	{{count}} uploaded
+translation.cloudSetup.kindCounts.uploaded_other	{{count}} uploaded
+translation.cloudSetup.kindCounts.skipped_one	{{count}} skipped
+translation.cloudSetup.kindCounts.skipped_other	{{count}} skipped
+translation.cloudSetup.kindCounts.flagged_one	{{count}} flagged
+translation.cloudSetup.kindCounts.flagged_other	{{count}} flagged
+translation.cloudSetup.kindCounts.failed_one	{{count}} failed
+translation.cloudSetup.kindCounts.failed_other	{{count}} failed
+translation.cloudSetup.environmentEdited	Uploaded the edited environment.yaml.
+translation.cloudSetup.todo.runUpload	Run <code>devin cloud setup</code>
+translation.cloudSetup.todo.retryUpload	Run <code>devin cloud setup</code> again
+translation.cloudSetup.noEntries	No entries yet.
+translation.cloudSetup.kind.blueprint	Blueprint
+translation.cloudSetup.kind.secrets	Secrets
+translation.cloudSetup.kind.plugin	Plugins
+translation.cloudSetup.kind.memory	Memory
+translation.cloudSetup.kind.build	Build
+translation.cloudSetup.entryStatus.created	Created
+translation.cloudSetup.entryStatus.updated	Updated
+translation.cloudSetup.entryStatus.skipped	Skipped
+translation.cloudSetup.entryStatus.refused	Refused
+translation.cloudSetup.entryStatus.error	Failed
+translation.cloudSetup.entryStatus.pending	Pending
+translation.cloudSetup.entryStatus.flagged	Flagged
+translation.cloudSetup.reason.actionSkip	Set to skip at setup.
+translation.cloudSetup.reason.existsInCloud	Already in the cloud.
+translation.cloudSetup.reason.notPortable	No Devin equivalent.
+translation.cloudSetup.reason.missingSecret	No local value. Add it in the cloud.
+translation.cloudSetup.reason.permissionDenied	Needs admin permission.
+translation.cloudSetup.reason.networkError	Did not reach the cloud. Upload again.
+translation.cloudSetup.reason.invalid	Malformed. Fix the file and upload again.
+translation.cloudSetup.reason.flagged	Check these lines before sessions read them.
+translation.cloudSetup.reason.buildFailed	The build failed. See the build log.
+translation.cloudSetup.reason.draftExistsInCloud	The cloud already has a blueprint version. Edit it there.
+translation.cloudSetup.visibilityOrg	Visible to you and this organization's admins.
+translation.cloudSetup.visibilityUnified	Visible to you, account admins, and your organization's admins.
+translation.cloudSetup.localProject	Local project
+translation.cloudSetup.detailLoadError	Could not load this run.
+translation.cloudSetup.buildStatus.created	Passed
+translation.cloudSetup.buildStatus.error	Failed
+translation.cloudSetup.buildStatus.pending	Running
+translation.cloudSetup.openLink.builds	Open build log
+translation.cloudSetup.openLink.session	Start a session
+translation.cloudSetup.setupStatusHint.build_pending	The environment is building.
+translation.cloudSetup.setupStatusHint.build_failed	The environment build failed.
+translation.cloudSetup.setupStatusHint.needs_secrets	Some secrets are still missing.
+translation.cloudSetup.setupStatusHint.not_built	The blueprint is not built yet.
+translation.cloudSetup.setupStatusHint.ready	Ready. Sessions in this organization start from this environment.
+translation.cloudSetup.stored	This run record keeps names, local paths, the environment.yaml hash and each result. It does not keep secret values or file contents.
+translation.cloudSetup.buildSummary.passed	build passed
+translation.cloudSetup.buildSummary.failed	build failed
+translation.cloudSetup.buildSummary.running	build running
+translation.cloudSetup.buildSummary.incomplete	build incomplete
+translation.cloudSetup.buildSummary.notStarted	build not started
+translation.unifiedResources.nameColumn	Name
+translation.unifiedResources.collectionColumn	Collection
+translation.unifiedResources.macroColumn	Macro
+translation.unifiedResources.clearSearch	Clear search
+translation.unifiedResources.retry	Retry
+translation.unifiedResources.noSearchResults	No results match your search.
+translation.unifiedResources.playbooks.title	Playbooks
+translation.unifiedResources.playbooks.description	Account playbooks you have access to, in a collection or at the top level
+translation.unifiedResources.playbooks.search	Search playbooks
+translation.unifiedResources.playbooks.loadError	Failed to load playbooks.
+translation.unifiedResources.playbooks.emptyTitle	No playbooks
+translation.unifiedResources.playbooks.emptyDescription	You don't have access to any account playbooks yet.
+translation.unifiedResources.playbooks.create	Create playbook
+translation.unifiedResources.secrets.title	Secrets
+translation.unifiedResources.secrets.description	Account secrets you have access to, in a collection or at the top level
+translation.unifiedResources.secrets.search	Search secrets
+translation.unifiedResources.secrets.loadError	Failed to load secrets.
+translation.unifiedResources.secrets.emptyTitle	No secrets
+translation.unifiedResources.secrets.emptyDescription	You don't have access to any account secrets yet.
+translation.unifiedResources.secrets.create	Create secret
+translation.unifiedResources.secrets.createDescription	Saved for your account's sessions. Only you can use it until you share it.
+translation.unifiedServiceUsers.provision	Provision

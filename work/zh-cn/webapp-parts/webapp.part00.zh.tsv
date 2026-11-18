@@ -1,0 +1,500 @@
+translation.adminPromotionOwner.label	企业或组织
+translation.adminPromotionOwner.placeholder	按名称或 ID 搜索
+translation.adminPromotionOwner.description	选择企业中的某个组织即选定该企业，并把该组织添加到“组织 ID”下。
+translation.adminPromotionOwner.loading	正在搜索…
+translation.adminPromotionOwner.empty	没有匹配的企业或组织
+translation.adminPromotionOwner.budgetHint	以美元或 ACU 计费，取决于账户方案的计费方式。请先选择一个企业或组织。
+translation.chatgptPlanCta.connect	连接 ChatGPT
+translation.chatgptPlanCta.inbox.body	连接个人 Go、Plus 或 Pro 方案，在支持的模型上运行，而不消耗你的 Devin 用量。
+translation.chatgptPlanCta.inbox.title	在 Devin 中使用你的 ChatGPT 方案
+translation.releaseManager.save	保存更改
+translation.releaseManager.edit	编辑发布管理器
+translation.releaseManager.saveFailed	无法保存更改，请重试。
+translation.releaseManager.unknownStatus	未知状态
+translation.releaseManager.releaseHistory	发布历史
+translation.releaseManager.search	搜索发布…
+translation.releaseManager.status	状态
+translation.releaseManager.allStatuses	全部状态
+translation.releaseManager.release	发布
+translation.releaseManager.updatesRolledOut	已发布的更新
+translation.releaseManager.tracked	已跟踪
+translation.releaseManager.expandUpdates_one	显示 {{release}} 的 {{count}} 个更新
+translation.releaseManager.expandUpdates_other	显示 {{release}} 的 {{count}} 个更新
+translation.releaseManager.hotfixTickets	热修复工单
+translation.releaseManager.noReleases	此时间段内没有发布。新的部署会显示在这里。
+translation.releaseManager.noMatches	没有匹配的发布。
+translation.releaseManager.showMore	显示更多
+translation.releaseManager.details	详情
+translation.releaseManager.runAs	运行身份
+translation.releaseManager.serviceUser	服务用户
+translation.releaseManager.created	创建时间
+translation.releaseManager.updated	更新时间
+translation.releaseManager.deploySources	部署来源
+translation.releaseManager.teams	团队
+translation.releaseManager.minimumRisk	最低风险：{{risk}}
+translation.releaseManager.riskHigh	高
+translation.releaseManager.riskMedium	中
+translation.releaseManager.riskLow	低
+translation.releaseManager.ticketLoadFailed	无法加载此发布，它可能已被移除。
+translation.releaseManager.retry	重试
+translation.releaseManager.loadFailed	无法加载此发布管理器，它可能已被移除或你没有访问权限。
+translation.releaseManager.back	返回发布列表
+translation.releaseManager.enabled	已启用
+translation.releaseManager.disabled	已停用
+translation.releaseManager.moreActions	更多操作
+translation.releaseManager.delete	删除
+translation.releaseManager.releases	发布
+translation.releaseManager.dateRange	日期范围
+translation.releaseManager.lastDays_one	最近 {{count}} 天
+translation.releaseManager.lastDays_other	最近 {{count}} 天
+translation.releaseManager.historyLoadFailed	无法加载发布历史。
+translation.releaseManager.releasesMonitored	受监控的发布
+translation.releaseManager.activeReleases	进行中的发布
+translation.releaseManager.completedReleases	已完成的发布
+translation.releaseManager.chartLabel	每日跟踪的发布与热修复更新
+translation.releaseManager.deleteTitle	删除发布管理器？
+translation.releaseManager.deleteDescription	删除 {{name}}？这会停止监控并删除其发布看板和全部发布工单。
+translation.releaseManager.deleteFailed	无法删除此发布管理器，请重试。
+translation.releaseManager.mode	代理模式
+translation.releaseManager.modeDescription	此发布管理器的会话所使用的运行模式。
+translation.releaseManager.mcpDescription	此发布管理器的会话可用的 MCP 服务器与工具。
+translation.releaseManager.metadataDescription	添加键值对，用于组织和筛选你的发布管理器
+translation.releaseManager.sessionSettingsDescription	此发布管理器启动的会话如何运行
+translation.onboardingRedesign.botTitle	从一个 {{botName}} 开始
+translation.onboardingRedesign.botBody	大规模自动管理工作、处理重复性任务，并在需要时呈现关键决策
+translation.onboardingRedesign.botCaption	你的 {{botName}} 可以帮你完成初始设置、推进项目，或充当你的幕僚长。
+translation.onboardingRedesign.botDefaultName	{{name}} 的 {{botName}}
+translation.onboardingRedesign.botPreviousAvatar	上一个头像
+translation.onboardingRedesign.botNextAvatar	下一个头像
+translation.onboardingRedesign.navigation	引导导航
+translation.onboardingRedesign.progress	引导进度
+translation.onboardingRedesign.gitTitle	连接你的 Git 提供商
+translation.onboardingRedesign.gitConnectedTitle	你的 Git 提供商已连接
+translation.onboardingRedesign.gitBody	在云端克隆仓库、推送分支并创建拉取请求。
+translation.onboardingRedesign.gitAlreadyConnectedTitle	已连接 {{provider}}
+translation.onboardingRedesign.gitConnectedBody	在云端克隆仓库、推送分支并创建拉取请求。稍后可随时在设置中增删。
+translation.onboardingRedesign.reposTitle	添加仓库
+translation.onboardingRedesign.reposLabel	仓库
+translation.onboardingRedesign.deselectAllRepos	取消全选
+translation.onboardingRedesign.reposBody	在默认环境中更快、更省、更稳定地启动 Devin 会话。
+translation.onboardingRedesign.reposOverflowMore_one	还有 {{formattedCount}} 个仓库
+translation.onboardingRedesign.reposOverflowMore_other	还有 {{formattedCount}} 个仓库
+translation.onboardingRedesign.reposSelected_zero	你未选择任何仓库
+translation.onboardingRedesign.reposSelected_one	已选择 {{formattedCount}} 个仓库
+translation.onboardingRedesign.reposSelected_other	已选择 {{formattedCount}} 个仓库
+translation.onboardingRedesign.addRepos_one	添加 {{count}} 个仓库
+translation.onboardingRedesign.addRepos_other	添加 {{count}} 个仓库
+translation.onboardingRedesign.startTitle	想从哪里开始？
+translation.onboardingRedesign.startBody	强烈建议为 Devin Cloud 连接 Git
+translation.onboardingRedesign.continueWeb	继续使用网页版
+translation.onboardingRedesign.integrationsTitle	连接你的团队与任务
+translation.onboardingRedesign.integrationsBody	在 Slack 中向 Devin 分派工作，并把工单转化为拉取请求
+translation.onboardingRedesign.connectProvider	连接 {{provider}}
+translation.onboardingRedesign.connectTeam	连接你的团队
+translation.onboardingRedesign.connectTasks	连接你的任务
+translation.onboardingRedesign.toolsTitle	把 Devin 接入外部工具
+translation.onboardingRedesign.toolsBody	为你的组织添加其他插件和 MCP
+translation.onboardingRedesign.searchTools	搜索插件和 MCP
+translation.onboardingRedesign.installPlugin	安装 {{name}}
+translation.onboardingRedesign.toolsLoadFailed	部分工具加载失败。
+translation.onboardingRedesign.selectTool	选择 {{name}} 进行配置
+translation.onboardingRedesign.toolNotInstalled	未安装
+translation.onboardingRedesign.finish	完成
+translation.onboardingRedesign.features	功能
+translation.onboardingRedesign.desktopIde	完整的 IDE，含编辑器和扩展
+translation.onboardingRedesign.desktopAgents	统一管理本地与云端代理
+translation.onboardingRedesign.desktopDiffs	在本地审阅差异和改动
+translation.onboardingRedesign.desktopPreview	在应用内预览应用
+translation.onboardingRedesign.cliTerminal	可在任意终端运行
+translation.onboardingRedesign.cliEditor	配合你现有的编辑器使用
+translation.onboardingRedesign.cliSsh	支持 SSH 及远程机器
+translation.onboardingRedesign.cliScripts	可脚本化用于自动化
+translation.connectionSettings.title	连接设置
+translation.connectionSettings.syncBack	回写同步
+translation.connectionSettings.syncBackFailed	回写同步更新失败
+translation.connectionSchedule.title	计划
+translation.connectionSchedule.description	此连接会话将按此计划被唤醒。
+translation.connectionSchedule.advanced	高级
+translation.connectionSchedule.instructionsDescription	每次计划运行时发送给连接会话的消息。
+translation.connectionSchedule.enabled	已启用
+translation.connectionSchedule.disabled	已停用
+translation.connectionSchedule.edit	编辑计划
+translation.connectionSchedule.remove	移除计划
+translation.connectionSchedule.recurringRequired	请选择一个重复计划。
+translation.connectionSchedule.readOnly	需要“管理安全扫描与自动化”权限才能设置计划。
+translation.connectionSchedule.loadFailed	无法加载连接计划。
+translation.connectionSchedule.notFound	此会话没有可见的连接。
+translation.connectionSchedule.saveFailed	无法更新计划，请重试。
+translation.artifactShares.share	分享
+translation.artifactShares.shareArtifact	分享构件
+translation.artifactShares.shareDescription	获得访问权限的人可以查看页面，但不能访问会话。
+translation.artifactShares.generalAccess	通用访问权限
+translation.artifactShares.editLinkName	编辑链接名称
+translation.artifactShares.linkNameRequired	需要链接名称
+translation.artifactShares.publish	发布
+translation.artifactShares.done	完成
+translation.artifactShares.unpublish	取消发布
+translation.artifactShares.copyLink	复制链接
+translation.artifactShares.copied	已复制
+translation.artifactShares.updatePending	已分享 v{{version}} · 更新未发布
+translation.artifactShares.newerFile	此文件有更新的版本
+translation.artifactShares.publishUpdate	发布更新
+translation.artifactShares.saveError	无法保存此构件，请重试。
+translation.artifactShares.copyError	无法复制链接，请重试。
+translation.artifactShares.downloadError	无法下载此构件，请重试。
+translation.artifactShares.loadError	无法加载此构件，请重试。
+translation.artifactShares.previewError	无法预览此构件，仍可下载。
+translation.artifactShares.downloadFallback	请下载此构件后查看。
+translation.artifactShares.loading	正在加载构件…
+translation.artifactShares.noAccess	你没有访问此构件的权限
+translation.artifactShares.noAccessDescription	它可能被分享给了其他组织，或者你登录的是另一个账户。
+translation.artifactShares.unpublished	此构件已取消发布
+translation.artifactShares.invalidVersion	此构件版本无效
+translation.artifactShares.goToDevin	前往 Devin
+translation.artifactShares.openSession	打开会话
+translation.artifactShares.download	下载
+translation.artifactShares.more	更多操作
+translation.artifactShares.publishedDate	发布于 {{date}}
+translation.artifactShares.olderVersion	旧版本
+translation.artifactShares.viewLatest	查看最新版本
+translation.artifactShares.copyVersionLink	复制此版本的链接
+translation.artifactShares.version	v{{version}}
+translation.artifactShares.latestVersion	v{{version}}（最新）
+translation.artifactShares.searchVersions	搜索版本…
+translation.artifactShares.noVersions	未找到版本
+translation.artifactShares.sharePeople	有访问权限的人
+translation.artifactShares.shareSearch	添加人员、组或组织
+translation.artifactShares.shareAction.view	可查看
+translation.artifactShares.shareAction.configure	可编辑
+translation.artifactShares.shareAction.share	可分享
+translation.artifactShares.shareVerb.view	查看
+translation.artifactShares.shareVerb.configure	编辑
+translation.artifactShares.shareVerb.share	分享
+translation.artifactShares.shareActionHelp.view	查看已发布的页面
+translation.artifactShares.shareActionHelp.configure	重命名、发布更新及取消发布
+translation.artifactShares.shareActionHelp.share	添加和移除人员
+translation.artifactShares.shareInherited	来自角色或组织的分享设置
+translation.artifactShares.shareRemoveSelf	不能移除你自己的访问权限
+translation.artifactShares.audienceHelp.org	你的组织及上方添加的人员可以查看此页面。
+translation.artifactShares.audienceHelp.enterprise_view	企业内的所有人都可以查看此页面。
+translation.artifactShares.readOnly	只有能编辑此构件的人才能更改访问权限。
+translation.artifactShares.openArtifact	打开构件
+translation.adminLocalAnalysis.lookup	本地会话查询
+translation.adminLocalAnalysis.userId	用户 ID
+translation.adminLocalAnalysis.sessionId	本地会话 ID
+translation.adminLocalAnalysis.backfillInstructions	粘贴或上传一个 JSON 数组，最多 {{max}} 个对象，各含 user_id 和 local_session_id。每个会话将按所选速率重跑，并替换其当前结果。
+translation.adminLocalAnalysis.invalidBackfill	请输入非空的 JSON 对象数组，对象需含 user_id 和 local_session_id。
+translation.adminLocalAnalysis.backfillResult	新排队 {{queued}} 个，已在队列 {{pending}} 个，未找到 {{missing}} 个。
+translation.unifiedPlugins.createdBy	创建者
+translation.unifiedPlugins.fromCreator	来自 {{name}}
+translation.unifiedPlugins.fromCreatorInCollection	来自 {{name}} · {{collection}}
+translation.unifiedPlugins.editContents	编辑内容
+translation.unifiedPlugins.searchPluginsLabel	插件
+translation.unifiedPlugins.searchPluginsDescription	插件（技能、规则、MCP 服务器和钩子的打包），从市场、仓库或上传安装，位于统一模式下的“你的插件”和“与你共享”
+translation.unifiedPlugins.searchSkillsLabel	技能
+translation.unifiedPlugins.searchSkillsDescription	技能（SKILL.md 说明），Devin 会将其加载到云端会话，位于统一模式下的“你的插件”和“与你共享”
+translation.unifiedPlugins.searchHooksLabel	钩子
+translation.unifiedPlugins.searchHooksDescription	钩子：在会话特定节点自动运行的命令，位于统一模式下的“你的插件”和“与你共享”
+translation.unifiedPlugins.searchRulesLabel	规则
+translation.unifiedPlugins.searchRulesDescription	规则：Devin 在每个会话中遵循的长期指引，位于统一模式下的“你的插件”和“与你共享”
+translation.unifiedPlugins.notIndexed	尚未索引
+translation.unifiedPlugins.yours	你的插件
+translation.unifiedPlugins.shared	与你共享
+translation.unifiedPlugins.canUse	可使用
+translation.unifiedPlugins.useVerb	使用
+translation.unifiedPlugins.configureVerb	配置
+translation.unifiedPlugins.shareVerb	分享
+translation.unifiedPlugins.useDescription	自动获得并可使用此插件，不可选择退出。
+translation.unifiedPlugins.canConfigure	可配置
+translation.unifiedPlugins.configureDescription	可重命名和删除此插件。
+translation.unifiedPlugins.canShare	可分享
+translation.unifiedPlugins.shareDescription	可管理此插件的访问权限。
+translation.unifiedPlugins.searchPeople	搜索人员和组
+translation.unifiedPlugins.inherited	继承自账户访问权限
+translation.unifiedPlugins.removeSelfError	不能移除你自己的访问权限。
+translation.unifiedPlugins.shareDescriptionName	管理 {{name}} 的访问权限。
+translation.unifiedPlugins.rename	重命名
+translation.unifiedPlugins.add	添加插件
+translation.unifiedPlugins.name	名称
+translation.unifiedPlugins.repositoryRequired	必须填写仓库
+translation.unifiedPlugins.nameRequired	必须填写名称
+translation.unifiedPlugins.subdirectory	子目录
+translation.unifiedPlugins.actions	{{name}} 的操作
+translation.unifiedPlugins.share	分享
+translation.unifiedPlugins.remove	移除
+translation.unifiedPlugins.loadError	无法加载插件。
+translation.unifiedPlugins.deleteTitle	删除 {{name}}？
+translation.unifiedPlugins.deleteDescription	这将为所有有访问权限的人删除此插件。
+translation.previewBackend.confirmTitle	使用预览后端 {{sha}}？
+translation.previewBackend.confirmDescription	你的已认证请求（含会话令牌）将发送到这个由 PR 构建的暂存后端。请只使用你信任的后端。应用将重新加载。
+translation.previewBackend.confirm	使用预览后端
+translation.previewBackend.cancel	取消
+translation.previewBackend.title	预览后端：{{sha}}
+translation.previewBackend.description	此应用正在使用预览后端，而非主线暂存环境。
+translation.previewBackend.hint	粘贴提交 SHA 或预览后端 URL
+translation.previewBackend.invalid	不是有效的预览后端
+translation.previewBackend.useSha	使用预览后端 {{sha}}
+translation.previewBackend.use	使用预览后端…
+translation.previewBackend.exit	退出预览后端
+translation.previewBackend.bannerNotice	你正在使用预览后端（<commitLink>{{sha}}</commitLink>），而非主线暂存环境。
+translation.previewBackend.exitPreview	退出预览
+translation.sessionPreviews.previews	预览
+translation.blueprintFailures.title	失败的蓝图
+translation.blueprintFailures.description	本次构建中失败的蓝图及建议的下一步。
+translation.blueprintFailures.reviewFailures	审阅失败的蓝图
+translation.blueprintFailures.fixAll	让 Devin 全部修复
+translation.blueprintFailures.fixWithDevin	让 Devin 修复
+translation.blueprintFailures.starting	正在启动…
+translation.blueprintFailures.viewFixSession	查看修复会话
+translation.blueprintFailures.openConnections	Git 连接
+translation.blueprintFailures.openBlueprint	打开蓝图
+translation.blueprintFailures.failedToStart	无法启动修复会话。
+translation.blueprintFailures.humanAction.git	检查 Git 连接是否让 Devin 能访问此仓库及其拉取的仓库。
+translation.blueprintFailures.humanAction.secret	在蓝图的 Secrets 标签页中检查或更新此构建所需的令牌或密钥。
+translation.defaultPrimaryBillingOrg.title	默认主计费组织
+translation.defaultPrimaryBillingOrg.description	当用户没有主计费组织时适用。现有分配和组织访问权限不变。“自动”使用当前的解析规则。
+translation.defaultPrimaryBillingOrg.automatic	自动
+translation.defaultPrimaryBillingOrg.selectOrganization	选择组织
+translation.defaultPrimaryBillingOrg.adminLabel	允许企业管理员更改默认值
+translation.defaultPrimaryBillingOrg.adminDescription	企业管理员可在“成员资格”下选择或清除默认值。无论此开关如何，所选默认值都会生效。
+translation.defaultPrimaryBillingOrg.searchOrganizations	搜索组织...
+translation.defaultPrimaryBillingOrg.noOrganizations	未找到组织。
+translation.defaultPrimaryBillingOrg.loadFailed	加载组织失败。
+translation.defaultPrimaryBillingOrg.updated	默认主计费组织已更新。
+translation.defaultPrimaryBillingOrg.updateFailed	更新默认主计费组织失败。
+translation.adminBudgetBackfill.account	账户：{{accountId}}
+translation.adminBudgetBackfill.copyPoliciesDescription	把账户级的档位、组映射和成员限额复制到你选择的预算。
+translation.adminBudgetBackfill.title	预算
+translation.adminBudgetBackfill.description	按当前功能开关把符合条件的组织同步到预算。这会创建预算，并用旧组织数据替换与组织关联的预算名称、上限和状态。现有预算的父级不变。
+translation.adminBudgetBackfill.backfill	回填预算
+translation.adminBudgetBackfill.adminOnly	只有超级用户可以回填预算。
+translation.adminBudgetBackfill.progress	预算回填进行中，请保持此页面打开直到结束。
+translation.adminBudgetBackfill.success	预算回填已在 {{duration}} 秒内完成。
+translation.adminBudgetBackfill.failed	预算回填失败。
+translation.adminBudgetBackfill.failure	预算回填请求失败。如果连接中断，更改可能已提交。{{error}}
+translation.adminBudgetBackfill.confirmTitle	回填预算？
+translation.adminBudgetBackfill.confirmDescription	把 {{accountId}} 下符合条件的组织同步到预算。这会创建预算，并用旧组织数据替换与组织关联的预算名称、上限和状态。现有预算的父级不变。ACU 镜像需要 combined-org-acu-limit。当 governance-budget 处于写权限或更高时，预算成员授权会同步。所有更改在一个事务中提交。
+translation.adminBudgetBackfill.mode	模式
+translation.adminBudgetBackfill.dryRun	试运行
+translation.adminBudgetBackfill.dryRunDone	试运行完成，未做任何更改。
+translation.adminBudgetBackfill.result	新增链接：{{added}}，覆盖链接：{{moved}}，移除链接：{{removed}}，创建预算：{{budgets}}，归档预算：{{archived}}，失去组织的用户限额：{{userLimits}}。
+translation.adminBudgetBackfill.modes.reconcile	补齐缺失的链接
+translation.adminBudgetBackfill.modes.prioritize_root	根预算上没有限额的组织，空预算归档
+translation.adminBudgetBackfill.modes.one_to_one	每个组织各自一个预算
+translation.adminBudgetBackfill.modes.all_to_root	所有组织都挂到根预算，其他预算归档
+translation.adminGovernance.mcpPromotion.title	MCP 迁移
+translation.adminGovernance.mcpPromotion.description	把共享安装迁移到账户范围，可针对一个组织或全部组织。与“全部运行”相互独立。
+translation.adminGovernance.mcpPromotion.confirmDescription	预览企业 {{enterpriseId}} 的子组织。迁移会重新加密凭据并保留组织成员访问权限。必须先验证关联密钥的副本。
+translation.adminGovernance.mcpPromotion.organization	组织
+translation.adminGovernance.mcpPromotion.preview	预览迁移
+translation.adminGovernance.mcpPromotion.migrate	迁移安装
+translation.adminGovernance.mcpPromotion.close	关闭
+translation.adminGovernance.mcpPromotion.planned	计划迁移的安装：{{count}}
+translation.adminGovernance.mcpPromotion.complete	迁移完成。
+translation.adminGovernance.mcpPromotion.error	迁移失败，请重试预览。
+translation.adminGovernance.mcpPromotion.scope	迁移范围
+translation.adminGovernance.mcpPromotion.scopeOne	单个组织
+translation.adminGovernance.mcpPromotion.scopeAll	全部组织
+translation.adminGovernance.mcpPromotion.organizations	组织：{{count}}
+translation.adminGovernance.mcpPromotion.renamed	已重命名：{{count}}
+translation.adminGovernance.mcpPromotion.blocked	被阻止：{{count}}
+translation.adminGovernance.mcpPromotion.nothingToMigrate	无需迁移：{{count}}
+translation.adminGovernance.mcpPromotion.filter	按组织或 MCP 筛选
+translation.adminGovernance.mcpPromotion.noMatches	没有匹配的迁移。
+translation.adminGovernance.mcpPromotion.notes	备注：{{count}}
+translation.adminGovernance.mcpPromotion.blockedSkipped	已跳过被阻止的组织。
+translation.adminGovernance.mcpPromotion.migrateOrganizations	迁移组织：{{count}}
+translation.adminGovernance.mcpPromotion.progress	正在迁移 {{done}}/{{total}}：{{org}}
+translation.adminGovernance.mcpPromotion.stopped	已迁移 {{done}}/{{total}} 个组织，在 {{org}} 处停止：{{detail}}。请重新预览以继续。
+translation.adminGovernance.unifiedFlags.title	统一模式开关
+translation.adminGovernance.unifiedFlags.status.account	对整个账户开启
+translation.adminGovernance.unifiedFlags.status.email_gated	按邮箱放行
+translation.adminGovernance.unifiedFlags.status.restricted	受限
+translation.adminGovernance.unifiedFlags.status.off	关闭
+translation.adminGovernance.unifiedFlags.disabled	已停用
+translation.adminGovernance.unifiedFlags.shared	与其他账户共享
+translation.adminGovernance.unifiedFlags.segments	使用分段
+translation.adminGovernance.unifiedFlags.notEditable	在 Unleash 中编辑
+translation.adminGovernance.unifiedFlags.searchEmails	搜索邮箱
+translation.adminGovernance.unifiedFlags.bulkEmails	邮箱之间用逗号或空格分隔
+translation.adminGovernance.unifiedFlags.bulkEmailsRequired	请至少输入一个邮箱
+translation.adminGovernance.unifiedFlags.bulkResult	已添加：{{added}} · 已存在：{{present}}
+translation.adminGovernance.unifiedFlags.removeResult	已移除：{{removed}} · 不在列表中：{{missing}}
+translation.adminGovernance.unifiedFlags.dismiss	忽略
+translation.adminGovernance.unifiedFlags.invalidEmails	无效：{{emails, list}}
+translation.adminGovernance.unifiedFlags.gatedCount	按邮箱放行 · {{count}} 个用户
+translation.adminGovernance.unifiedFlags.gatedReadOnly	按邮箱放行（在 Unleash 中编辑）
+translation.adminGovernance.unifiedFlags.disabledIn	在 {{environment}} 中停用
+translation.adminGovernance.unifiedFlags.otherTargeting_one	其他定向：{{count}} 条策略 — 在 Unleash 中编辑
+translation.adminGovernance.unifiedFlags.otherTargeting_other	其他定向：{{count}} 条策略 — 在 Unleash 中编辑
+translation.adminGovernance.unifiedFlags.otherConstraints	其他约束：{{constraints, list}}
+translation.adminGovernance.unifiedFlags.variants	变体：{{variants, list}}
+translation.adminGovernance.unifiedFlags.add	添加
+translation.adminGovernance.unifiedFlags.remove	移除
+translation.adminGovernance.unifiedFlags.loading	正在加载统一模式开关…
+translation.adminGovernance.unifiedFlags.loadFailed	加载统一模式开关失败。
+translation.adminGovernance.unifiedFlags.editFailed	更新邮箱失败。
+translation.adminGovernance.unifiedFlags.confirmTitle	移除邮箱？
+translation.adminGovernance.unifiedFlags.confirmDescription	从该策略中移除 {{email}}？
+translation.adminGovernance.account	账户：{{accountId}}
+translation.adminGovernance.adminOnly	只有超级用户可以运行回填。
+translation.adminGovernance.rollout.title	发布回填
+translation.adminGovernance.rollout.description	按顺序、以后台任务方式，用该账户的 Unleash 开关运行授权发布回填。
+translation.adminGovernance.rollout.needs	依赖
+translation.adminGovernance.rollout.needsNone	无开关
+translation.adminGovernance.rollout.flagSet	{{flag}}：{{current}}
+translation.adminGovernance.rollout.flagNeeds	{{flag}}：{{current}}，需要 {{required}}
+translation.adminGovernance.rollout.runAllBlocked	“全部运行”需要先解除 {{steps, list}} 的阻塞。请在 Unleash 中为该账户设置红色标记的开关。
+translation.adminGovernance.rollout.allTypes	全部类型
+translation.adminGovernance.rollout.someTypes_one	{{count}} 个类型
+translation.adminGovernance.rollout.someTypes_other	{{count}} 个类型
+translation.adminGovernance.rollout.typesLabel	org_grants 的资源类型
+translation.adminGovernance.rollout.onlyTypes	仅限这些类型：{{types, list}}。
+translation.adminGovernance.rollout.step	回填
+translation.adminGovernance.rollout.lastRun	最近一次运行（7 天内）
+translation.adminGovernance.rollout.runAll	全部运行
+translation.adminGovernance.rollout.run	运行
+translation.adminGovernance.rollout.runStep	运行 {{step}}
+translation.adminGovernance.rollout.notRun	未运行
+translation.adminGovernance.rollout.running	运行中
+translation.adminGovernance.rollout.queued	已排队
+translation.adminGovernance.rollout.succeeded	成功于 {{time}}
+translation.adminGovernance.rollout.failed	失败于 {{time}}
+translation.adminGovernance.rollout.busy	有回填正在排队或运行，请等待其完成。
+translation.adminGovernance.rollout.loadFailed	加载发布回填失败。
+translation.adminGovernance.rollout.runFailed	回填加入队列失败。
+translation.adminGovernance.rollout.confirmTitle	运行 {{step}}？
+translation.adminGovernance.rollout.confirmTitleAll	运行全部发布回填？
+translation.adminGovernance.rollout.confirmDescription	以后台任务方式为 {{accountId}} 运行 {{step}}。失败时已提交的批次会保留。
+translation.adminGovernance.rollout.confirmDescriptionAll	按顺序为 {{accountId}} 运行全部 {{count}} 个回填，每个一个任务。链路在第一个失败处停止。
+translation.adminGovernance.rollout.confirmDescriptionBitmaps	以后台任务方式为 {{accountId}} 运行 {{step}}，作为一个事务。该账户的授权变更会等待其完成；失败则不保留任何内容。
+translation.adminGovernance.rollout.warnCanonicalRepos	canonical_repos 会合并重复的规范仓库并删除多余项。如果被删除的行有 DeepWiki 设置而保留的行没有，这些设置会丢失。此操作不可撤销。
+translation.adminGovernance.rollout.warnBitmaps	bitmap_indexes 和 environment_bitmaps 各作为一个事务运行，因此该账户的授权变更会等待各自完成。
+translation.adminGovernance.rollout.abort	中止
+translation.adminGovernance.rollout.abortStep	中止 {{step}}
+translation.adminGovernance.rollout.abortFailed	中止回填失败。
+translation.adminGovernance.rollout.abortConfirmTitle	中止 {{step}}？
+translation.adminGovernance.rollout.abortConfirmDescription	在几秒内停止 {{accountId}} 的 {{step}}。已提交的批次会保留且该步骤会失败，因此“全部运行”也会停止。
+translation.adminBackfill.title	回填
+translation.adminBackfill.description	上传 ID 列表并调度回填。
+translation.adminBackfill.open	开始回填…
+translation.adminBackfill.submit	回填加入队列
+translation.adminBackfill.type	回填类型
+translation.adminBackfill.choose	选择一个选项
+translation.adminBackfill.analysis	重跑会话分析
+translation.adminBackfill.conversion	把模式链接转为 Jira
+translation.adminBackfill.sessionType	会话类型
+translation.adminBackfill.cloud	云端
+translation.adminBackfill.local	本地
+translation.adminBackfill.upload	上传 ID
+translation.adminBackfill.cloudFile	上传包含云端会话 ID 的 JSON 数组。
+translation.adminBackfill.source	模式连接
+translation.adminBackfill.destination	Jira 连接
+translation.adminBackfill.sessionRate	每分钟会话数
+translation.adminBackfill.start	开始时间（本地时间；留空则立即开始）
+translation.adminBackfill.invalidStart	请输入有效的开始日期和时间。
+translation.adminBackfill.pastStart	开始时间已过，回填将立即开始。
+translation.adminBackfill.invalidIds	请上传非空的、包含有效 ID 的 JSON 数组。
+translation.adminBackfill.tooManyIds	最多上传 {{max, number}} 个 ID。
+translation.adminBackfill.confirm	为 {{count, number}} 个 ID 排队回填？
+translation.adminBackfill.analysisConfirmation	这将替换这些会话当前的分析结果。
+translation.adminBackfill.conversionConfirmation	这会移动所提供节点的链接，不编辑 Jira 问题。模式连接保持激活。
+translation.adminBackfill.discardTitle	放弃此回填？
+translation.adminBackfill.discard	放弃
+translation.adminBackfill.startsAt	计划于 {{start}} 执行。
+translation.adminHydration.title	补充父级数据
+translation.adminHydration.description	上传包含跟踪节点 ID 的 JSON 数组，在后台重新获取它们的父级链。
+translation.adminHydration.rate	每分钟节点数
+translation.adminHydration.invalidRate	请输入 1 到 {{max, number}} 之间的整数。
+translation.adminHydration.unreadableFile	无法读取 {{filename}}。
+translation.adminHydration.viewJobs	在 Admin Jobs 中查看
+translation.adminHydration.reasonInvalid	无效的 ID
+translation.adminHydration.reasonOutsideEnterprise	未在此企业中找到
+translation.adminHydration.reasonMissingIdentity	缺少跟踪 ID 或键
+translation.adminHydration.reasonCount	{{reason}}（{{count, number}}）
+translation.adminHydration.moreIds	另有 {{count, number}} 个未显示
+translation.adminJobs.actions	操作
+translation.adminJobs.batch.help	每个条目的参数与任务模式匹配，并带可选的 dedupe_key。上限 100,000 条 / 64 MiB。请求按受限批次发送；每 100 个任务的块独立提交。无效条目会被跳过。请保持此对话框打开直到完成。参数不会写入错误或审计日志。
+translation.adminJobs.batch.file	JSON 文件
+translation.adminJobs.batch.delay	所有条目的延迟（秒，最长 7 天）
+translation.adminJobs.batch.pace	速率（每分钟任务数）
+translation.adminJobs.batch.paceHelp	把条目铺开，使回填大约按此速率把任务加入队列，而不是一次性全入队。留空则全部按延迟入队。
+translation.adminJobs.batch.invalidPace	请输入大于零的每分钟任务数。
+translation.adminJobs.batch.paceTooSlow	按此速率，最后一个条目将在 7 天之后才到期。
+translation.adminJobs.batch.fileTooLarge	JSON 文件最大为 64 MiB。
+translation.adminJobs.batch.invalidFile	请上传包含 1–100,000 个条目数组的有效 JSON。
+translation.adminJobs.batch.reading	正在读取 JSON…
+translation.adminJobs.batch.ready_one	{{count}} 个条目就绪
+translation.adminJobs.batch.ready_other	{{count}} 个条目就绪
+translation.adminJobs.batch.enqueue	批量入队…
+translation.adminJobs.batch.confirmTitle_one	入队 {{count}} 个条目？
+translation.adminJobs.batch.confirmTitle_other	入队 {{count}} 个条目？
+translation.adminJobs.batch.confirmDescription	为每个有效条目运行 {{task}}。每个任务使用其参数中的账户；无账户的任务使用系统账户。已存在的待处理 dedupe key 会被跳过。已完成的块无法撤销。
+translation.adminJobs.batch.progress	已处理 {{processed}}/{{total}} 个条目：入队 {{enqueued}}，去重跳过 {{skipped}}，出错 {{failed}}
+translation.adminJobs.batch.stopped	上传已停止。上一次请求中的部分任务可能已在未获确认响应的情况下提交，后续请求未发送。重试前请检查任务；不要盲目重新上传整个文件。
+translation.adminJobs.batch.entryError	条目 {{index}}：{{detail}}
+translation.adminJobs.batch.previousErrors	上一批错误
+translation.adminJobs.batch.nextErrors	下一批错误
+translation.adminJobs.batch.fileHelp	一个条目数组形式的 JSON，形状如下例。
+translation.adminJobs.batch.source	条目来源
+translation.adminJobs.batch.sourceFile	上传文件
+translation.adminJobs.batch.sourcePaste	粘贴 JSON
+translation.adminJobs.batch.paste	JSON 条目
+translation.adminJobs.batch.pasteTooLarge	粘贴的 JSON 最大为 1 MiB。更大的批次请上传文件。
+translation.adminJobs.batch.invalidPaste	请粘贴包含 1–100,000 个条目的 JSON 数组。
+translation.adminJobs.batch.invalidJson	无效的 JSON：{{detail}}
+translation.adminJobs.batch.preview	预览
+translation.adminJobs.batch.previewFirst	预览：共 {{total}} 条，显示前 {{shown}} 条
+translation.adminJobs.breakGlass.title	紧急暂停已开启
+translation.adminJobs.breakGlass.everything	所有队列已暂停。
+translation.adminJobs.breakGlass.queues	已暂停的队列：{{names, list}}
+translation.adminJobs.breakGlass.tasks	已暂停的任务和定时任务：{{names, list}}
+translation.adminJobs.breakGlass.reason	原因：{{reason}}
+translation.adminJobs.breakGlass.source	在 {{location}} 设置，而非此页面。它在下方挂起之上生效。删除该文件即可解除。
+translation.adminJobs.breakGlass.unreadable	紧急暂停文件 {{location}} 不可用：{{error}}。调度器和工作进程沿用最后读到的版本。
+translation.adminJobs.breakGlass.checkFailed	无法检查紧急暂停状态：{{error}}。可能已有暂停生效。
+translation.adminJobs.control.pauseOrCap	暂停 / 限流…
+translation.adminJobs.control.pauseOrCapNamed	暂停 / 限流 {{name}}
+translation.adminJobs.control.notRegisteredQueue	此构建中没有任务或定时任务使用该队列，因此无法暂停或限流。可在“进行中的挂起”中解除已有挂起。
+translation.adminJobs.control.title	暂停或限流 {{name}}
+translation.adminJobs.control.descriptionQueue	挂起此队列上所有任务的派发。约一秒内生效，无需部署。被挂起的任务保留在队列中并保留重试次数；已在运行的任务会执行完。
+translation.adminJobs.control.descriptionTask	挂起此任务的派发。约一秒内生效，无需部署。被挂起的任务保留在队列中并保留重试次数；已在运行的任务会执行完。
+translation.adminJobs.control.pause	暂停派发
+translation.adminJobs.control.maxInFlight	最大并发数
+translation.adminJobs.control.maxInFlightHelp	同时派发或运行的最大任务数。留空表示不限。
+translation.adminJobs.control.maxInFlightInvalid	请输入 1 到 1,000,000 之间的整数，或留空。
+translation.adminJobs.control.reason	原因（展示给其他操作员并记入审计日志）
+translation.adminJobs.control.cancel	取消
+translation.adminJobs.control.save	保存
+translation.adminJobs.control.lift	解除挂起
+translation.adminJobs.control.saveDisabled	暂停派发或设置上限后才能保存
+translation.adminJobs.control.saved	已保存对 {{name}} 的挂起
+translation.adminJobs.control.lifted	已解除对 {{name}} 的挂起
+translation.adminJobs.control.paused	已暂停
+translation.adminJobs.control.capped	最多 {{count}} 个并发
+translation.adminJobs.control.holdsTitle	进行中的挂起
+translation.adminJobs.control.holdsHelp	操作员已暂停或限流的队列、任务和定时任务。解除挂起即可恢复正常派发。
+translation.adminJobs.control.scope	范围
+translation.adminJobs.control.scopeQueue	队列
+translation.adminJobs.control.scopeTask	任务
+translation.adminJobs.control.name	名称
+translation.adminJobs.control.hold	挂起
+translation.adminJobs.control.reasonColumn	原因
+translation.adminJobs.control.setBy	设置者
+translation.adminJobs.control.setAt	设置时间
+translation.adminJobs.control.edit	编辑…
+translation.adminJobs.control.editNamed	编辑 {{name}}
+translation.adminJobs.control.liftNamed	解除对 {{name}} 的挂起
+translation.adminJobs.control.liftOnlyDescription	此构建中没有同名的队列、任务或定时任务，因此该挂起只能解除，无法修改。
+translation.adminJobs.requeueFailed	重新排队失败
+translation.adminJobs.taskRequeueTitle	将 {{queue}} 上 {{task}} 的失败任务重新排队
+translation.adminJobs.taskRequeueDescription	只重置此队列上该任务的失败任务以便重跑；其他任务不受影响，运行历史保留。dedupe key 已处于待处理的任务会被跳过。
+translation.adminJobs.taskRequeued_one	已将 {{queue}} 上 {{task}} 的 {{count}} 个失败任务重新排队
+translation.adminJobs.taskRequeued_other	已将 {{queue}} 上 {{task}} 的 {{count}} 个失败任务重新排队
+translation.adminJobs.taskRemaining	{{done}}；仍有 {{remaining}} 个失败（再次运行以继续）
+translation.adminJobs.enqueue.action	入队…
+translation.adminJobs.enqueue.title	任务入队
+translation.adminJobs.enqueue.descriptionSingle	与代码中 app.jobs.enqueue() 同路径。审计日志记录任务、队列和账户，不记录参数。
+translation.adminJobs.enqueue.modeSingle	单个任务
+translation.adminJobs.enqueue.modeBatch	从 JSON 批量
+translation.adminJobs.enqueue.noTasks	此构建中没有注册任务（JOB_MODULES 为空）。

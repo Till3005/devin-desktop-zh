@@ -1,0 +1,500 @@
+translation.oncall.reporting.content.sectionTitle	Section title
+translation.oncall.reporting.content.sectionTitlePlaceholder	Common questions
+translation.oncall.reporting.create	Create report
+translation.oncall.reporting.createReport	Create report
+translation.oncall.reporting.createServiceUser	Create service user
+translation.oncall.reporting.deleteReport	Delete report
+translation.oncall.reporting.deleteReportConfirm	Are you sure you want to delete “{{name}}”? Its weekly digest automation is deleted too; responders are not affected.
+translation.oncall.reporting.deselectAll	Deselect all
+translation.oncall.reporting.digestMcpsDescription	Select which connectors the digest's sessions should use
+translation.oncall.reporting.digestPaused	Digest paused
+translation.oncall.reporting.digestSheet.enabled	Enabled
+translation.oncall.reporting.digestSheet.enabledDescription	Enable recurring report generation
+translation.oncall.reporting.digestSheet.instructions	Instructions
+translation.oncall.reporting.digestSheet.instructionsDescription	Describe what the report should contain
+translation.oncall.reporting.digestSheet.loadError	Couldn't load the digest automation.
+translation.oncall.reporting.digestSheet.microsoftTeams	Microsoft Teams
+translation.oncall.reporting.digestSheet.noSchedule	No recurring schedule.
+translation.oncall.reporting.digestSheet.noSessionAction	This automation doesn't start a session, so its instructions and notifications can't be edited here. Use View automation.
+translation.oncall.reporting.digestSheet.notifications	Notifications
+translation.oncall.reporting.digestSheet.notificationsDescription	Alert when a report is generated
+translation.oncall.reporting.digestSheet.postDigestTo	Post digest to
+translation.oncall.reporting.digestSheet.schedule	Schedule
+translation.oncall.reporting.digestSheet.scheduleDescription	Generate the report on this cadence
+translation.oncall.reporting.digestSheet.selectProvider	Destination
+translation.oncall.reporting.digestSheet.slack	Slack
+translation.oncall.reporting.edit	Edit
+translation.oncall.reporting.editReport	Edit report
+translation.oncall.reporting.emptyDescription	Get a recurring report on your oncall — incidents investigated, alerts & bugs reported, issues identified, fixes shipped, and Devin's insights on what's driving them.
+translation.oncall.reporting.emptyHeading	Create your first report
+translation.oncall.reporting.generateReport	Generate report
+translation.oncall.reporting.generatedOn	Generated on {{date}}
+translation.oncall.reporting.groupedLegend	Grouped
+translation.oncall.reporting.incidentsMatchDescription	Describe what types of incidents should belong in this report. Leave blank to exclude incidents
+translation.oncall.reporting.incidentsMatchLabel	Incidents match
+translation.oncall.reporting.incidentsMatchPlaceholder	Incidents affecting the payments service or checkout flow
+translation.oncall.reporting.investigated	Investigated
+translation.oncall.reporting.lastUpdatedAt	Last updated {{date}}
+translation.oncall.reporting.matchBy	Match by
+translation.oncall.reporting.matchByDescription	Choose what to match responders on
+translation.oncall.reporting.matchByMetadataOption	Metadata
+translation.oncall.reporting.matchByRespondersOption	Individual responders
+translation.oncall.reporting.metadataPlaceholder	team:payments
+translation.oncall.reporting.namePlaceholder	Payments triage
+translation.oncall.reporting.noDigestScheduled	No digest scheduled yet
+translation.oncall.reporting.noMatchingReports	No reports match your search.
+translation.oncall.reporting.noRespondersToAdd	No responders yet — create a responder first.
+translation.oncall.reporting.notFound	This report doesn't exist or was deleted.
+translation.oncall.reporting.paused	Paused
+translation.oncall.reporting.removeMetadata	Remove metadata
+translation.oncall.reporting.reportFallback	Report
+translation.oncall.reporting.reports	Reports
+translation.oncall.reporting.reportsError	Couldn't load reports.
+translation.oncall.reporting.responderCount_one	{{count}} responder
+translation.oncall.reporting.responderCount_other	{{count}} responders
+translation.oncall.reporting.respondersLoadError	Couldn't load responders. Retry to continue.
+translation.oncall.reporting.respondersLoadWarning	Couldn't refresh responders. Showing the last loaded responders. Retry before saving.
+translation.oncall.reporting.respondersLoading	Loading responders…
+translation.oncall.reporting.respondersMatchDescription	Choose responders whose data will be used to generate the report
+translation.oncall.reporting.respondersMatchLabel	Responders match
+translation.oncall.reporting.retry	Retry
+translation.oncall.reporting.run.actionItemsTitle	Action items
+translation.oncall.reporting.run.copyActionItem	Copy action item: {{title}}
+translation.oncall.reporting.run.copyReport	Copy report
+translation.oncall.reporting.run.copySection	Copy {{section}}
+translation.oncall.reporting.run.empty.prs	No Devin PRs in this period.
+translation.oncall.reporting.run.firstRunScheduled	Your first report will be generated on schedule.
+translation.oncall.reporting.run.generating	Generating report — it will appear here in a few minutes.
+translation.oncall.reporting.run.generatingShort	Generating…
+translation.oncall.reporting.run.handoffTitle	Handoff
+translation.oncall.reporting.run.metricSource	Dashboard
+translation.oncall.reporting.run.metricTarget	Target {{target}}
+translation.oncall.reporting.run.metricsTitle	Metrics
+translation.oncall.reporting.run.noReport	This run has no report.
+translation.oncall.reporting.run.noSummary	This run has no summary.
+translation.oncall.reporting.run.priorityHigh	High
+translation.oncall.reporting.run.priorityLow	Low
+translation.oncall.reporting.run.priorityMedium	Medium
+translation.oncall.reporting.run.runsError	Couldn't load report runs.
+translation.oncall.reporting.run.sessionPrompt	View full session prompt
+translation.oncall.reporting.run.startSession	Start session
+translation.oncall.reporting.run.summaryTitle	Summary
+translation.oncall.reporting.run.viewSession	View session
+translation.oncall.reporting.run.prsPanelFooter_pr	Pull requests Devin opened from this report's responder sessions during the period.
+translation.oncall.reporting.run.prsPanelFooter_mr	Merge requests Devin opened from this report's responder sessions during the period.
+translation.oncall.reporting.runAsNoServiceUsers	Reports run as a service user. Create one to continue.
+translation.oncall.reporting.runAsNoServiceUsersNoAccess	Reports run as a service user. Ask an admin to create one.
+translation.oncall.reporting.runPeriodLatest	{{period}} (current)
+translation.oncall.reporting.runUnavailable	This report run is no longer available.
+translation.oncall.reporting.viewLatestRun	View latest report
+translation.oncall.reporting.searchPlaceholder	Search reports…
+translation.oncall.reporting.selectAll	Select all
+translation.oncall.reporting.selectResponders	Select responders
+translation.oncall.reporting.setUpDigest	Setup Digest
+translation.oncall.reporting.statsError	Couldn't load on-call stats.
+translation.oncall.reporting.viewAutomation	View automation
+translation.oncall.reporting.prsPanel.title_pr	Pull requests
+translation.oncall.reporting.prsPanel.title_mr	Merge requests
+translation.oncall.reporting.prsPanel.subtitle	{{period}} · {{merged}} merged · {{open}} open
+translation.oncall.reporting.prsPanel.lastDays	Last {{days}} days
+translation.oncall.reporting.prsPanel.merged	Merged
+translation.oncall.reporting.prsPanel.open	Open
+translation.oncall.reporting.prsPanel.state.merged	Merged
+translation.oncall.reporting.prsPanel.state.open	Open
+translation.oncall.reporting.prsPanel.state.draft	Draft
+translation.oncall.reporting.prsPanelFooter_pr	Pull requests Devin opened from responder sessions in the last {{days}} days.
+translation.oncall.reporting.prsPanelFooter_mr	Merge requests Devin opened from responder sessions in the last {{days}} days.
+translation.oncall.reports	Reports
+translation.oncall.reportUpdated	Report updated successfully
+translation.oncall.reportUpdateFailed	Failed to update report
+translation.oncall.reportUpdating	Updating report...
+translation.oncall.responderColumn	Name
+translation.oncall.responderCreated	Responder created successfully
+translation.oncall.responderCreateFailed	Failed to create responder
+translation.oncall.responderCreating	Creating responder...
+translation.oncall.responderDeleted	Responder deleted successfully
+translation.oncall.responderDeleteFailed	Failed to delete responder
+translation.oncall.responderDeleting	Deleting responder...
+translation.oncall.responderEventCount_one	{{count}} event
+translation.oncall.responderEventCount_other	{{count}} events
+translation.oncall.responderIssueCount_one	{{count}} issue
+translation.oncall.responderIssueCount_other	{{count}} issues
+translation.oncall.responderIssueTypeLabel	Responder type
+translation.oncall.responderIssueTypeDescription	The class of issues this responder handles. Can't be changed after creation
+translation.oncall.responderIssueTypeAlerts	Alerts
+translation.oncall.responderIssueTypeAlertsDescription	Optimized for investigating alerts on production issues
+translation.oncall.responderModeDescription	Agent mode for investigations
+translation.oncall.responderIssueTypeBugs	Support + Bugs
+translation.oncall.responderIssueTypeBugsDescription	Optimized for investigating bug reports and support questions
+translation.oncall.responderIssueTypeLegacy	Legacy
+translation.oncall.responderSection	Responder
+translation.oncall.responders	Responders
+translation.oncall.responderUpdated	Responder updated successfully
+translation.oncall.responderUpdateFailed	Failed to update responder
+translation.oncall.responderUpdating	Updating responder...
+translation.oncall.runResponder	Run responder
+translation.oncall.runResponderDialogDescription	Manually run responder now.
+translation.oncall.runbookDescription	Devin investigates issues by default. Add a runbook to give it specific steps
+translation.oncall.runbookDescriptionBugs	Devin triages bugs and support questions by default. Add company-specific context here, like how you assign priority or which ticketing system to file issues in
+translation.oncall.runbookLabel	Runbook
+translation.oncall.runbookOptional	optional
+translation.oncall.runbookPlaceholderBugs	i.e. describe how you assign priority and where to file issues
+translation.oncall.save	Save
+translation.oncall.saving	Saving…
+translation.oncall.sessionTagDescription	New sessions are billed to this tag
+translation.oncall.sessionSettingsDescription	How sessions this responder starts are run
+translation.oncall.sessionSettingsLabel	Session settings
+translation.oncall.sessionTagLabel	Session tag
+translation.oncall.sessionTagPtsDescription	New sessions are billed to this PTS Code
+translation.oncall.sessionTagPtsRequired	Select a PTS Code
+translation.oncall.sessionTagRequired	Select a session tag
+translation.oncall.sessionTagUpdated	Session tag updated
+translation.oncall.sessionTagUpdateFailed	Failed to update session tag
+translation.oncall.sessionTagUpdating	Updating session tag...
+translation.oncall.setup.connectTitle	Connect tools
+translation.oncall.setup.runAsMenu	Run as
+translation.oncall.setup.telemetryGroup	Available MCP servers
+translation.oncall.setup.alreadyConnected	Already connected
+translation.oncall.setup.openTool	Open {{name}}
+translation.oncall.setup.finalizeWithTools_one	Finalize with {{count}} tool
+translation.oncall.setup.finalizeWithTools_other	Finalize with {{count}} tools
+translation.oncall.setup.finalizeWithoutTools	Finalize without tools
+translation.oncall.setup.datadogDescription	Discover metrics, logs, traces, and incidents
+translation.oncall.setup.grafanaDescription	Explore monitoring dashboards, visualizations, and alerts
+translation.oncall.setup.sentryDescription	Track errors, issues, and full stack traces
+translation.oncall.setup.honeycombDescription	Query and explore observability data and SLOs
+translation.oncall.setup.newRelicDescription	Query telemetry, APM services, logs, and alerts
+translation.oncall.setup.splunkDescription	Run SPL searches across logs and events
+translation.oncall.setup.elasticDescription	Search logs, metrics, and traces in Elasticsearch
+translation.oncall.setup.dynatraceDescription	Query logs and metrics with DQL and investigate problems
+translation.oncall.setup.chronosphereDescription	Query metrics, logs, and traces (Palo Alto Networks)
+translation.oncall.setup.googleCloudMonitoringDescription	Query metrics with PromQL and review alerts and dashboards
+translation.oncall.setup.connect	Connect
+translation.oncall.setup.connected	Connected
+translation.oncall.setup.noPermission	You don't have permission to start Oncall setup. Ask an admin to complete setup.
+translation.oncall.setup.manageEnterprisePluginsPermission	Manage enterprise plugins
+translation.oncall.setup.managePluginsPermission	Manage plugins
+translation.oncall.setup.noOrgInstallPermission	You don't have permission to connect tools for this organization. Ask an organization admin, or someone with the <strong>{{permission}}</strong> permission, to connect them.
+translation.oncall.setup.searchPlaceholder	Search tools
+translation.oncall.setup.noMatches	No tools match \\
+translation.oncall.subtitle	Bring Devin into your alert and incident response workflows
+translation.oncall.triggerDescription	Respond when any of these conditions are met
+translation.oncall.addTriggerOtherSourceLocked	A responder watches one integration at a time. Change its first trigger to switch integrations.
+translation.oncall.triggerDuplicate	This trigger is identical to an earlier one
+translation.oncall.triggerLabel	Trigger
+translation.oncall.schedulePreflightHint	Add a preflight check below and use a script to look for new issues or events on each run. The responder triages each item the script returns.
+translation.oncall.triggerMessageLabel	Message
+translation.oncall.triggerWebhookLabel	Webhook delivery
+translation.oncall.webhookTriggerDescription	External systems POST to this inbox with the secret in an X-Webhook-Secret header. Deliveries have no reply surface: findings are recorded on the issue and in the session, and reported through any tool you name in the runbook.
+translation.oncall.overviewAlertsReported	Alerts & bug reports
+translation.oncall.overviewIssuesIdentified	Issues identified
+translation.oncall.overviewIssuesFixed	Issues fixed
+translation.oncall.overviewIncidentsInvestigated	Incidents investigated
+translation.oncall.overviewResponderCount_one	{{count}} responder
+translation.oncall.overviewResponderCount_other	{{count}} responders
+translation.oncall.overviewIncidentMonitoringOn	Incident monitoring on
+translation.oncall.incidentMonitoringOff	Incident monitoring off
+translation.oncall.investigationModeLabel	Investigation mode
+translation.oncall.investigationModeTooltip	Responders use a single parent or triage session that runs on Normal, or on Lite when the investigation mode is Lite.
+translation.oncall.investigationModeInfoLabel	About investigation mode
+translation.oncall.enterpriseIncidentSettingsSaved	Enterprise incident settings saved
+translation.oncall.enterprisePageDescription	Enterprise-wide preferences and settings for Devin Oncall
+translation.oncall.enterpriseIncidentsSectionLabel	Incidents
+translation.oncall.enterpriseIncidentsSectionDescription	Configure Devin's behavior in incidents
+translation.oncall.enterpriseMultiOrgLabel	Enable incidents in multiple organizations
+translation.oncall.enterpriseMultiOrgDescription	Allow incident source to be managed here and incidents routed to multiple organizations
+translation.oncall.incidentSourceLabel	Incident source
+translation.oncall.incidentSourceDescription	Who tells Devin a new incident channel exists
+translation.oncall.incidentSourcePlaceholder	Select a source
+translation.oncall.incidentSourceTeams	Microsoft Teams
+translation.oncall.incidentChannelPrefixLabel	Channel prefix
+translation.oncall.incidentTeamsPrefixDescription	Start investigations in new standard Teams channels whose names match this prefix. Shared and private channels are not supported. The Devin app must be installed in the Team.
+translation.oncall.incidentTeamsUnavailable	Teams incidents are unavailable. Enable the oncall-teams-incidents flag and connect Microsoft Teams to resume incident monitoring.
+translation.oncall.incidentSourceSlack	Slack
+translation.oncall.incidentSourcePagerDuty	PagerDuty
+translation.oncall.enterpriseDestinationOrgLabel	Destination Oncall
+translation.oncall.enterpriseDestinationOrgDescription	Every incident channel starts an incident in this organization or Oncall config.
+translation.oncall.enterpriseOrgPlaceholder	Select a destination
+translation.oncall.enterpriseDestinationConfig	Oncall config
+translation.oncall.enterprisePagerDutyNotConnected	PagerDuty isn't connected to this account yet.
+translation.oncall.enterpriseIncidentSourcePagerDutyNotConnected	PagerDuty (not connected)
+translation.oncall.enterpriseIncidentSourceTeamsNotConnected	Microsoft Teams (not connected)
+translation.oncall.enterpriseIncidentSourceSlackNotConnected	Slack (not connected)
+translation.oncall.enterpriseIncidentSourcePagerDutyNeedsSlack	PagerDuty (connect Slack first)
+translation.oncall.enterpriseRulesLabel	Routing rules
+translation.oncall.enterpriseRulesDescription	How to determine which organization to start the incident session
+translation.oncall.enterpriseRuleKindLabel	Match on
+translation.oncall.enterpriseRuleValueLabel	Value
+translation.oncall.enterpriseRuleKindService	Service
+translation.oncall.enterpriseRuleKindTeam	Team
+translation.oncall.enterpriseRuleKindEscalationPolicy	Escalation policy
+translation.oncall.enterpriseRuleOptionsLoading	Loading…
+translation.oncall.enterpriseRuleIncomplete	Each rule needs a value and an organization.
+translation.oncall.enterpriseAddRule	Add rule
+translation.oncall.enterpriseRemoveRule	Remove rule
+translation.oncall.enterpriseUnmatchedLabel	Default fallback
+translation.oncall.enterpriseUnmatchedDescription	What happens to incidents no rules match
+translation.oncall.enterpriseUnmatchedNoIncident	None (don't create an incident)
+translation.oncall.incidentSourceManagedDescription	How Devin joins incident channels is managed in Enterprise settings
+translation.oncall.incidentSourceManageEnterpriseSettings	Manage Enterprise Settings
+translation.oncall.incidentPagerDutyPrefixDescription	Kick off proactive investigations when Devin joins Slack channels with this prefix and when triggered by PagerDuty. It must match the channel names set in PagerDuty.
+translation.oncall.incidentPagerDutyMissingJoinScope	Devin can't join PagerDuty's channels yet: the Slack connection is missing the channels:join scope.
+translation.oncall.incidentPagerDutyReconnectSlack	Re-authorize Slack
+translation.oncall.enterpriseTurnOffTitle	Turn off incidents in multiple organizations?
+translation.oncall.enterpriseTurnOffDescription	Incidents will be turned off in every organization, and the enterprise incident source, routing rules and default fallback will be reset. Turn incidents back on in an organization to keep using them there.
+translation.oncall.enterpriseTurnOffConfirm	Turn off
+translation.oncall.incidentRoutingManagedByEnterprise	Incident routing is managed by enterprise settings
+translation.oncall.incidentConfigRoutedByEnterprise	Enterprise settings route incidents to this config. Remove its routes there to turn incidents off.
+translation.oncall.enterpriseOrgOncallNotSetUp	This organization hasn't started Oncall setup. Start it there, or choose another organization.
+translation.oncall.enterpriseOrgOncallSetupFailed	Oncall setup failed in this organization. Retry it there; incidents won't run here until it finishes.
+translation.oncall.enterpriseOrgOncallSetupInProgress	Oncall setup hasn't finished in this organization. Incidents won't run here until it does.
+translation.orgSwitcher.allOrganizations	All organizations
+translation.orgSwitcher.collapseOrganizations	Collapse organizations
+translation.orgSwitcher.createOrganization	Create organization
+translation.orgSwitcher.movedSubtitle	Manage your organizations from the bottom of the sidebar
+translation.orgSwitcher.movedTitle	Organization switcher has moved
+translation.orgSwitcher.noOrganizationsFound	No organizations found
+translation.orgSwitcher.organizationSettings	Organization settings
+translation.orgSwitcher.organizations	Organizations
+translation.orgSwitcher.pin	Pin
+translation.orgSwitcher.pinOrganization	Pin organization
+translation.orgSwitcher.searchOrganizations	Search organizations
+translation.orgSwitcher.searchOrganizationsPlaceholder	Search organizations...
+translation.orgSwitcher.unpin	Unpin
+translation.orgSwitcher.unpinOrganization	Unpin organization
+translation.organizationCombobox.loadError	Couldn't load organizations. Try again.
+translation.organizationCombobox.loadMoreError	Couldn't load more. Retry
+translation.organizationCombobox.loading	Loading…
+translation.organizationCombobox.noOrganizationsFound	No organizations found.
+translation.organizationCombobox.noResultsFound	No results found.
+translation.organizationCombobox.searchPlaceholder	Search…
+translation.organizationCombobox.selectOrganization	Select an organization
+translation.persona.adaPlaceholder	Ask Devin about your codebase...
+translation.persona.danaPlaceholder	Ask Dana to analyze your data, generate insights, or create reports...
+translation.persona.janeWongPlaceholder	Point Jane Wong Devin at an app to scoop...
+translation.persona.devinPlaceholder	Ask {{name}} to build features, fix bugs, or work on your code
+translation.persona.suggestedExplorations	Suggested Explorations
+translation.persona.dataCatalogTitle	Data catalog discovery
+translation.persona.dataCatalogSubtitle	Explore and catalog your databases
+translation.persona.revenuePulseTitle	Revenue pulse
+translation.persona.revenuePulseSubtitle	Quarterly performance insights
+translation.persona.productAdoptionTitle	Product adoption trends
+translation.persona.productAdoptionSubtitle	Track feature usage over time
+translation.persona.readyToScoop	Ready to scoop
+translation.persona.scoopTitle	Scoop Silicon Valley
+translation.persona.scoopSubtitle	hi - @jhanikhil
+translation.playbookSelect.favorites	Favorites
+translation.playbookSelect.loadingPlaybooks	Loading playbooks...
+translation.playbookSelect.noPlaybook	No playbook
+translation.playbookSelect.noPlaybooksFound	No playbooks found.
+translation.playbookSelect.searchPlaybooks	Search playbooks...
+translation.playbookSelect.selectPlaybook	Select a playbook
+translation.skillRefSelect.loadingSkills	Loading skills...
+translation.skillRefSelect.noSkill	No skill
+translation.skillRefSelect.skill	Skill
+translation.skillRefSelect.noSkillsFound	No skills found.
+translation.skillRefSelect.searchSkills	Search skills...
+translation.skillRefSelect.selectSkill	Select a skill
+translation.skillRefSelect.unavailableSkill	{{name}} (unavailable)
+translation.skillRefSelect.viewPlugin	View the {{plugin}} plugin
+translation.pricingDialog.acknowledge	Acknowledge
+translation.pricingDialog.coreIntro	Because you were on <emphasis>Devin Core</emphasis>, that means...
+translation.pricingDialog.coreMovedToFree	Your account has been moved to <emphasis>Free</emphasis>
+translation.pricingDialog.coreRetired	<emphasis>Core plan</emphasis> has been retired
+translation.pricingDialog.coreUpgradePlans	Any usage you already paid for remains available. For additional paid Devin usage, you'll need to upgrade to one of our new paid plans: <emphasis>Pro</emphasis>, <emphasis>Max</emphasis>, or <emphasis>Teams</emphasis>.
+translation.pricingDialog.coreUpgradeTeams	Any usage you already paid for remains available. For additional paid Devin usage, you'll need to upgrade to <emphasis>Teams</emphasis>.
+translation.pricingDialog.description	We've updated Devin's self-serve pricing plans. To learn more, read the <announcementLink>announcement</announcementLink>.
+translation.pricingDialog.pricingDialogLabel	Pricing
+translation.pricingDialog.teamsDollars	Usage is now denominated in dollars, not in ACUs
+translation.pricingDialog.teamsIncludedUsage	Each team now comes with $80 of included usage per month
+translation.pricingDialog.teamsPriceReduced	Teams plan has been reduced from <emphasis>$500</emphasis> to <emphasis>$80</emphasis> per month
+translation.pricingDialog.title	Changes to your plan
+translation.pricingDialog.upgradeDialogLabel	Upgrade pricing
+translation.pricingDialog.viewPlans	View plans
+translation.progress.fileReadInPlace	Devin read this file in place, so no copy of it was saved.
+translation.progress.results_one	{{count}} result
+translation.progress.results_other	{{count}} results
+translation.progress.findingCount_one	{{count}} finding
+translation.progress.findingCount_other	{{count}} findings
+translation.progress.vulnerability_one	Vulnerability
+translation.progress.vulnerability_other	Vulnerabilities
+translation.progress.bug_one	Bug
+translation.progress.bug_other	Bugs
+translation.progress.flag_one	Flag
+translation.progress.flag_other	Flags
+translation.progress.comments_one	{{count}} comment
+translation.progress.comments_other	{{count}} comments
+translation.progress.thinkingProcessTools_one	Thinking process ({{count}} tool used)
+translation.progress.thinkingProcessTools_other	Thinking process ({{count}} tools used)
+translation.progress.aBit	a bit
+translation.progress.accessedKnowledge	Accessed knowledge
+translation.progress.accessedKnowledgeCount	Accessed knowledge ({{count}})
+translation.progress.activatedSkill	Activated skill
+translation.progress.approvedDeployment	Approved deployment
+translation.progress.available_one	{{count}} available
+translation.progress.available_other	{{count}} available
+translation.progress.backgroundWork	Finishing up in the background
+translation.progress.botCommentIgnored	Bot comment ignored
+translation.progress.grantSecrets_one	Secret the {{botName}} asks to use
+translation.progress.grantSecrets_other	{{count}} secrets the {{botName}} asks to use
+translation.progress.grantMcp_one	MCP server the {{botName}} asks to use
+translation.progress.grantMcp_other	{{count}} MCP servers the {{botName}} asks to use
+translation.progress.grantPlugins_one	Plugin the {{botName}} asks to use
+translation.progress.grantPlugins_other	{{count}} plugins the {{botName}} asks to use
+translation.progress.grantAutomations_one	Automation the {{botName}} asks to read and change
+translation.progress.grantAutomations_other	{{count}} automations the {{botName}} asks to read and change
+translation.progress.grantSessionView_one	Session the {{botName}} asks to view
+translation.progress.grantSessionView_other	{{count}} sessions the {{botName}} asks to view
+translation.progress.grantSessionViewAndUse_one	Session the {{botName}} asks to view and message
+translation.progress.grantSessionViewAndUse_other	{{count}} sessions the {{botName}} asks to view and message
+translation.progress.called	Called
+translation.progress.canceledCall	Canceled call to
+translation.progress.ciFailed	CI failed
+translation.progress.ciFailedCount	CI failed ({{count}})
+translation.progress.clicked	Clicked
+translation.progress.clickedAt	Clicked at ({{x}}, {{y}})
+translation.progress.clickedElement	clicked element
+translation.progress.commentedOnPR	Commented on PR
+translation.progress.boardDescriptionUpdated	Board description updated
+translation.progress.created	Created
+translation.progress.createdPlan	Created plan
+translation.progress.creating	Creating
+translation.progress.deactivatedSkill	Deactivated skill
+translation.progress.deleteKnowledge	Delete knowledge
+translation.progress.deleted	Deleted
+translation.progress.devinReviewFeedback	Devin Review feedback
+translation.progress.diffNotShown	Diff not shown
+translation.progress.dismissedSuggestions	Dismissed suggestions
+translation.progress.doubleClicked	Double-clicked
+translation.progress.doubleClickedAt	Double-clicked at ({{x}}, {{y}})
+translation.progress.draggedFromTo	Dragged from ({{startX}}, {{startY}}) to ({{endX}}, {{endY}})
+translation.progress.edited	Edited
+translation.progress.editing	Editing
+translation.progress.executed	Executed
+translation.progress.executedJavaScript	Executed JavaScript
+translation.progress.feedbackFrom	Feedback from {{username}}
+translation.progress.fetchedWebPageContent	Fetched web page content
+translation.progress.file	file
+translation.progress.from	from
+translation.progress.fromMCPServer	from MCP server
+translation.progress.gotCursorPosition	Got cursor position
+translation.progress.heldKey	Held key
+translation.progress.importedKnowledge	Imported knowledge
+translation.progress.importedKnowledgeCount	Imported Knowledge ({{count}})
+translation.progress.in	in
+translation.progress.injectedRule	Injected rule
+translation.progress.injectedRulesCount	Injected rules ({{count}})
+translation.progress.invokedSkill	Invoked skill
+translation.progress.keepingRepoUpToDate	Keeping {{repo}} up to date
+translation.progress.keepingReposUpToDate	Keeping repositories up to date
+translation.progress.knowledgeRetrievalReason.backgroundAgent	Background agent
+translation.progress.knowledgeRetrievalReason.macro	Macro
+translation.progress.knowledgeRetrievalReason.mentioned	Mentioned
+translation.progress.knowledgeRetrievalReason.pinnedAll	Pinned (all)
+translation.progress.knowledgeRetrievalReason.pinnedRepo	Pinned (repo)
+translation.progress.knowledgeRetrievalReason.relevance	Relevance
+translation.progress.knowledgeRetrievalReasonTooltip.assistantMention	The note's repository name appeared in Devin's message.
+translation.progress.knowledgeRetrievalReasonTooltip.backgroundAgent	Devin looked up this note itself while working.
+translation.progress.knowledgeRetrievalReasonTooltip.macro	This note was manually invoked with a !macro-name command.
+translation.progress.knowledgeRetrievalReasonTooltip.pinnedAll	This note is pinned to every session in this organization.
+translation.progress.knowledgeRetrievalReasonTooltip.pinnedRepo	This note is pinned to this session's repository.
+translation.progress.knowledgeRetrievalReasonTooltip.pinnedRepoWithName	This note is pinned to the {{repoName}} repository.
+translation.progress.knowledgeRetrievalReasonTooltip.promptMention	The note's repository name appeared in the user's prompt.
+translation.progress.knowledgeRetrievalReasonTooltip.relevance	Knowledge search selected this note as relevant to the task.
+translation.progress.listedKnowledgeSuggestions	Listed knowledge suggestions
+translation.progress.listedMCPServers	Listed available MCP servers
+translation.progress.listedSkills	Listed skills
+translation.progress.listedToolsFor	Listed tools for
+translation.progress.listedToolsOnMCP	Listed tools on MCP server
+translation.progress.loadedExtensions	Loaded extensions: 
+translation.progress.mcpAuthFailed	MCP auth failed for
+translation.progress.mcpAuthSuccess	MCP auth successful for
+translation.progress.mergeConflictOn	Merge conflict on
+translation.progress.middleClicked	Middle-clicked
+translation.progress.middleClickedAt	Middle-clicked at ({{x}}, {{y}})
+translation.progress.mouseDown	Mouse down
+translation.progress.mouseUp	Mouse up
+translation.progress.movedMouseTo	Moved mouse to ({{x}}, {{y}})
+translation.progress.movedTheMouse	moved the mouse
+translation.progress.navigatedTo	Navigated to
+translation.progress.noChanges	no changes
+translation.progress.on	on
+translation.progress.onMCPServer	on MCP server
+translation.progress.opened	Opened
+translation.progress.openedPreview	Opened preview
+translation.progress.pageCount	{{count}} page
+translation.progress.pageCount_other	{{count}} pages
+translation.progress.permissionRequestFor	Permission request for
+translation.progress.prFeedback	PR feedback
+translation.progress.prReviewApproved	Approved this PR
+translation.progress.prReviewChangesRequested	Requested changes
+translation.progress.prMerged	PR #{{number}} merged: {{title}}
+translation.progress.prMergedWithoutTitle	PR #{{number}} merged
+translation.progress.pressedKey	Pressed key
+translation.progress.pressedKeyAction	pressed {{key}}
+translation.progress.pullingLatest	Pulling latest
+translation.progress.pullingLatestFor	Pulling latest for {{repo}}
+translation.progress.ranCommandIn	Ran a command in
+translation.progress.ranHook	Ran hook
+translation.progress.ranJavaScript	ran JavaScript
+translation.progress.ranScriptedTools	Ran scripted tool
+translation.progress.read	Read
+translation.progress.readPageDom	Read page DOM
+translation.progress.readResource	Read resource
+translation.progress.reading	Reading
+translation.progress.reloadedSkills	Reloaded skills ({{summary}})
+translation.progress.renamed	Renamed
+translation.progress.restartedBrowser	Restarted browser
+translation.progress.retrievedPlaybook	Retrieved playbook
+translation.progress.rewrotePlan	Rewrote plan
+translation.progress.rightClicked	Right-clicked
+translation.progress.rightClickedAt	Right-clicked at ({{x}}, {{y}})
+translation.progress.runningMaintenance	Running maintenance
+translation.progress.runningMaintenanceFor	Running maintenance for {{repo}}
+translation.progress.scannedFiles_one	Scanned {{count}} file
+translation.progress.scannedFiles_other	Scanned {{count}} files
+translation.progress.scrolled	Scrolled {{direction}}
+translation.progress.scrolledBy	Scrolled {{direction}} by {{amount}}
+translation.progress.scrolledDown	scrolled down
+translation.progress.scrolledUp	scrolled up
+translation.progress.searchedForSkills	Searched for skills
+translation.progress.searchedWebFor	Searched web for
+translation.progress.searching	Searching
+translation.progress.selectedFile	selected file {{file}}
+translation.progress.selectedOption	selected option {{option}}
+translation.progress.sharedFileUpdated	{{name}} updated
+translation.progress.workflowNotesUpdated	Workflow notes updated
+translation.progress.phaseNotesUpdated	Workflow phase notes updated
+translation.progress.sharedFileUrgent	urgent
+translation.progress.slackAction	Slack {{action}}
+translation.progress.slackDownloadedFile	Downloaded file
+translation.progress.slackListedUsers	Listed users
+translation.progress.slackManagedReaction	Managed reaction
+translation.progress.slackPostedMessage	Posted message
+translation.progress.slackReadChannelHistory	Read channel history
+translation.progress.slackReadThreadReplies	Read thread replies
+translation.progress.slackReadUserProfile	Read user profile
+translation.progress.startedRecording	Started recording
+translation.progress.stoppedRecording	Stopped recording
+translation.progress.suggestedKnowledge	Suggested knowledge
+translation.progress.suggestedNewPlaybook	Suggested a new playbook
+translation.progress.suggestedToUpdatePlaybook	Suggested to update playbook
+translation.progress.thinkingFor	Thinking for <duration></duration>
+translation.progress.thinkingForABit	Thinking for a bit
+translation.progress.switchedToBranch	Switched to branch
+translation.progress.tookScreenshot	Took screenshot
+translation.progress.tookScreenshotOf	Took a screenshot of
+translation.progress.tripleClicked	Triple-clicked
+translation.progress.tripleClickedAt	Triple-clicked at ({{x}}, {{y}})
+translation.progress.typed	typed
+translation.progress.typedText	Typed text
+translation.progress.updatedPR	Updated PR
+translation.progress.usedComputer	Used computer
+translation.progress.usedComputerAction	Used computer - {{action}}
+translation.progress.usedSessionIntrospection	Used session introspection tool
+translation.progress.viewChanges	View changes from this step
+translation.progress.viewedBrowserConsole	Viewed browser console
+translation.progress.viewedCIJobLogs	Viewed CI job logs for
+translation.progress.viewedCIStatus	Viewed CI status for
+translation.progress.viewedKnowledgeSuggestion	Viewed knowledge suggestion
+translation.progress.viewedPage	Viewed page

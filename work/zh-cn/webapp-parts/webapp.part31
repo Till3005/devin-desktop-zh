@@ -1,0 +1,500 @@
+translation.settings.acpRegistryConfigurationDescription	Configure a static ACP agent registry
+translation.settings.activeSnapshot	Active snapshot
+translation.settings.activeSnapshotDescription	The currently active environment snapshot
+translation.settings.acuAmount_one	{{count, number}} ACU
+translation.settings.acuAmount_other	{{count, number}} ACUs
+translation.settings.acuLimitPreviewAsOf	Usage is as of {{time}}.
+translation.settings.limitPreviewMember	Member
+translation.settings.limitPreviewOldLimit	Old limit
+translation.settings.limitPreviewNewLimit	New limit
+translation.settings.limitPreviewAcknowledge_one	I intend to block this {{count}} user
+translation.settings.limitPreviewAcknowledge_other	I intend to block these {{count}} users
+translation.settings.limitPreviewSample_one	Showing {{shown}} of {{count}} newly blocked user.
+translation.settings.limitPreviewSample_other	Showing {{shown}} of {{count}} newly blocked users.
+translation.settings.limitPreviewSample	Showing {{shown}} of {{count}} newly blocked users.
+translation.settings.acuLimitPreviewBlocked_one	{{count}} user will be blocked from using Devin.
+translation.settings.acuLimitPreviewBlocked_other	{{count}} users will be blocked from using Devin.
+translation.settings.limitPreviewFallback	Start using fallback
+translation.settings.limitPreviewLowered	Lower limits, no block
+translation.settings.limitPreviewAlreadyOver	Already over limit
+translation.settings.limitPreviewUsers_one	{{count}} user
+translation.settings.limitPreviewUsers_other	{{count}} users
+translation.settings.acuLimitPreviewTitle	Review ACU limit change
+translation.settings.spendLimitPreviewTitle	Review spend limit change
+translation.settings.acuLimitPreviewUnavailable	Couldn't check who this change affects, so it will be applied anyway.
+translation.settings.acuLimitUntil	{{amount}} until {{date}}
+translation.settings.acuRequestAction	Limit warning action
+translation.settings.acuRequestActionDescription	Applies to every limit warning members see
+translation.settings.acuRequestActionDevinForm	Request more usage in Devin
+translation.settings.acuRequestActionDevinFormDescription	Admins approve or deny requests in Devin
+translation.settings.acuRequestActionExternalLink	Link to your own tool
+translation.settings.acuRequestActionExternalLinkDescription	Opens a URL you provide instead of Devin's request form
+translation.settings.acuRequestActionHidden	Warning only
+translation.settings.acuRequestActionHiddenDescription	Members see the warning with no next step
+translation.settings.acuRequestActionLabelLabel	Action text
+translation.settings.acuRequestActionLinkPlaceholder	Request more usage
+translation.settings.acuRequestActionNotEnabled	Configurable limit warning actions are not enabled for this enterprise
+translation.settings.acuRequestActionReset	Reset to default
+translation.settings.acuRequestActionSaveError	Couldn't update the limit warning action
+translation.settings.acuRequestActionSaved	Limit warning action updated
+translation.settings.acuRequestActionTextOnly	Show instructions only
+translation.settings.acuRequestActionTextOnlyDescription	Shows text you provide, with no link or button
+translation.settings.acuRequestActionTextPlaceholder	Ask your account admin to raise it
+translation.settings.acuRequestActionUrlInvalid	Enter a full URL starting with https://
+translation.settings.acuRequestActionUrlLabel	Destination URL
+translation.settings.acuRequestExperience	Request experience
+translation.settings.acuRequestExperienceDescription	What members can do when they reach their ACU limit
+translation.settings.acuRequestNotifications	Email notifications
+translation.settings.adminUsagePoliciesDescription	Inspect and manage the enterprise’s budgets, tiers and limit requests
+translation.settings.adminUsagePoliciesAccount	Account
+translation.settings.adminUsagePoliciesAccountWide	Account-wide
+translation.settings.adminUsagePoliciesRequests	Requests
+translation.settings.adminUsagePoliciesScope	Scope
+translation.settings.moveTierUp	Move tier up
+translation.settings.moveTierDown	Move tier down
+translation.settings.tierMoved	{{name}} moved to position {{position}}
+translation.settings.acuRequestSettings	Additional usage request settings
+translation.settings.acuRequestSettingsDescription	Configure how members request additional usage and which administrators receive email notifications
+translation.settings.acuRequestSettingsSidebarLabel	Additional usage request settings
+translation.settings.acuRequests	Additional usage requests
+translation.settings.acuRequestsDescription	Approve, deny, and track additional usage requests from members
+translation.settings.acuRequestsDescription_dollars	Approve, deny, and track additional spend requests from members
+translation.settings.acuRequestsSidebarLabel	Additional Usage Requests
+translation.settings.settingUpdated	Setting updated
+translation.settings.telemetryAlwaysDisabledForEnterprise	Always disabled for enterprise organizations
+translation.settings.webhooks	Webhooks
+translation.settings.webhooksSidebarLabel	Webhooks
+translation.settings.webhooksDescription	Send signed event notifications to your own endpoints when things happen in your enterprise
+translation.settings.webhookAddEndpoint	Add endpoint
+translation.settings.webhookCreate	Create and verify
+translation.settings.webhookSubmitDisabledUrl	Enter an endpoint URL that starts with https://
+translation.settings.webhookSubmitDisabledName	Enter a name
+translation.settings.webhookSubmitDisabledEvents	Select at least one event
+translation.settings.webhookSubmitDisabledOrgs	Select at least one organization
+translation.settings.webhookSubmitDisabledRateLimit	Rate limit must be a positive whole number
+translation.settings.webhookCreateTitle	Add webhook endpoint
+translation.settings.webhookEditTitle	Edit webhook endpoint
+translation.settings.webhookUrlLabel	Endpoint URL (HTTPS only)
+translation.settings.webhookNameLabel	Name
+translation.settings.webhookDescriptionLabel	Description
+translation.settings.webhookEventTypesLabel	Events to send
+translation.settings.webhookAllEvents	All events
+translation.settings.webhookSearchEvents	Search events
+translation.settings.webhookOrgScopeLabel	Organization scope
+translation.settings.webhookSearchOrgs	Search organizations
+translation.settings.webhookSelectAll	Select all
+translation.settings.webhookClearAll	Clear all
+translation.settings.webhookNoMatches	No matches
+translation.settings.webhookRateLimitLabel	Rate limit
+translation.settings.webhookRateLimitDescription	Requests per second
+translation.settings.webhookRateLimitPlaceholder	No limit
+translation.settings.webhookRateLimitBadge	{{count}}/s rate limit
+translation.settings.webhookSaveFailed	Couldn't save the webhook endpoint
+translation.settings.webhookSecretShownOnce	This secret is shown only once. Copy it now and store it securely — you won't be able to see it again.
+translation.settings.webhookCopySecret	Copy secret
+translation.settings.webhookSecretCopied	Secret copied
+translation.settings.webhookSecretCopyFailed	Couldn't copy the secret — copy it manually from the dialog
+translation.settings.webhookStateActive	Active
+translation.settings.webhookStatePendingVerification	Pending verification
+translation.settings.webhookStateDisabled	Disabled
+translation.settings.webhookAutoDisabledHint	Automatically disabled after sustained delivery failures
+translation.settings.webhookAutoDisabledBanner	One or more endpoints were automatically disabled after sustained delivery failures. Events are not being delivered to them.
+translation.settings.webhookRetryVerification	Verify
+translation.settings.webhookVerified	Endpoint verified
+translation.settings.webhookVerificationFailed	Verification failed
+translation.settings.webhookReenable	Re-enable
+translation.settings.webhookReenabled	Endpoint re-enabled — verification challenge sent
+translation.settings.webhookReenableFailed	Couldn't re-enable the endpoint
+translation.settings.webhookDeliveries	Deliveries
+translation.settings.webhookDeliveriesTitle	Delivery log — {{name}}
+translation.settings.webhookAllStatuses	All statuses
+translation.settings.webhookAllEventTypes	All event types
+translation.settings.webhookResourceIdFilter	Filter by resource ID
+translation.settings.webhookStatusFilter	Filter by status
+translation.settings.webhookEventTypeFilter	Filter by event type
+translation.settings.webhookDeliveriesLoadFailed	Failed to load deliveries. Please try again.
+translation.settings.webhookNoDeliveries	No deliveries match these filters
+translation.settings.webhookDeliveryPending	Pending
+translation.settings.webhookDeliverySuccess	Delivered
+translation.settings.webhookDeliveryFailed	Failed
+translation.settings.webhookDeliveryExhausted	Exhausted
+translation.settings.webhookAttemptCount_one	{{count}} attempt
+translation.settings.webhookAttemptCount_other	{{count}} attempts
+translation.settings.webhookAttemptLabel	Attempt {{count}}
+translation.settings.webhookNextRetry	Next retry {{time}}
+translation.settings.webhookRetryReason	Retry reason: {{reason}}
+translation.settings.webhookDurationMs	{{duration}}ms
+translation.settings.webhookResponseStatus	HTTP {{status}}
+translation.settings.webhookShowAttempts	Show attempts
+translation.settings.webhookHideAttempts	Hide attempts
+translation.settings.webhookResend	Resend
+translation.settings.webhookRetryQueued	Delivery queued for retry
+translation.settings.webhookRetryFailed	Couldn't queue the delivery for retry
+translation.settings.webhookRetryInFlight	A delivery attempt is already in progress; try again once it completes
+translation.settings.webhookTestTitle	Send test event
+translation.settings.webhookSelectEventType	Select an event type
+translation.settings.webhookSendTest	Send test
+translation.settings.webhookTestDelivered	Test event delivered
+translation.settings.webhookTestFailed	Test event failed
+translation.settings.webhookTestRequestFailed	Failed to send test event
+translation.settings.webhookLoadMore	Load more
+translation.settings.webhookReplayTitle	Replay events
+translation.settings.webhookReplayDescription	Requeue deliveries for events in a time range. Already-delivered events are sent again with the same event IDs
+translation.settings.webhookReplayToDescription	Choose an end time after the start time
+translation.settings.webhookReplayMissingTimeReason	Enter both a start and end time
+translation.settings.webhookReplayInvalidTimeRangeReason	End time must be after start time
+translation.settings.webhookReplayFrom	From
+translation.settings.webhookReplayTo	To
+translation.settings.webhookReplay	Replay
+translation.settings.webhookReplayQueued_one	Queued {{count}} delivery for replay
+translation.settings.webhookReplayQueued_other	Queued {{count}} deliveries for replay
+translation.settings.webhookReplayFailed	Couldn't queue the replay
+translation.settings.webhookRotateSecret	Rotate secret
+translation.settings.webhookRotateFailed	Couldn't rotate the secret
+translation.settings.webhookDelete	Delete
+translation.settings.webhookDeleteTitle	Delete webhook endpoint
+translation.settings.webhookDeleteDescription	This permanently deletes \\
+translation.settingsHub.workspaceSettings	My Workspace settings
+translation.settingsHub.sidebarNotifications	Notifications
+translation.settingsHub.notificationsDescription	Choose which notifications you get
+translation.settingsHub.aiGatewayDescription	AI gateway inference dashboard
+translation.settingsHub.administration	Administration
+translation.settingsHub.administrationDescription	Manage access, infrastructure, and analytics
+translation.settingsHub.analyticsDescription	Usage, consumption, and productivity analytics
+translation.settingsHub.apiKeysDescription	Legacy API keys
+translation.settingsHub.backToEnterprise	Back to enterprise
+translation.settingsHub.backToOrganization	Back to organization
+translation.settingsHub.backToPage	Back to {{page}}
+translation.settingsHub.billingTagsDescription	Track ACU usage by tagging Devin sessions with billing tags
+translation.settingsHub.blueprintsDescription	Repository environment blueprints
+translation.settingsHub.categoriesDescription	Session categories dashboard
+translation.settingsHub.coachEnterpriseDescription	Coaching findings across your enterprise's organizations
+translation.settingsHub.insightsEnterpriseDescription	Devin Coach findings and Agent Readiness of repositories across your enterprise's organizations
+translation.settingsHub.coachDescription	Coaching findings across your organization's sessions
+translation.settingsHub.insightsDescription	Devin Coach findings from your sessions and Agent Readiness of your repositories
+translation.settingsHub.connectedAccountsDescriptionV2	Manage connected integrations
+translation.settingsHub.consumptionDescription	Consumption analytics dashboard
+translation.settingsHub.customizationDescription	Plugins, skills, MCPs, and hooks in one place
+translation.settingsHub.deepwikiDescription	Code indexing and wiki generation
+translation.settingsHub.deepwikiLabel	DeepWiki
+translation.settingsHub.devinApiDescription	Service users and API keys
+translation.settingsHub.authenticationDescription	SSO connections your members sign in through
+translation.settingsHub.devinHubDescription	Session settings and usage limits
+translation.settingsHub.devinLabel	Devin
+translation.settingsHub.enterprise	Enterprise Settings
+translation.settingsHub.enterpriseDescription	Enterprise preferences and settings
+translation.settingsHub.enterpriseScopeTag	Enterprise
+translation.settingsHub.enterpriseSessionsDescription	View and manage sessions across the enterprise
+translation.settingsHub.enterpriseSetupDescriptionV2	Enterprise preferences and settings
+translation.settingsHub.enterpriseSidebarLabel	Enterprise
+translation.settingsHub.environmentDescription	Machine snapshots and environment blueprints
+translation.settingsHub.gatewayDescription	Tunnel and direct gateways that route hostnames and IPv4 ranges into your network
+translation.settingsHub.generalDescription	Organization profile and data controls
+translation.settingsHub.guardrailsDescription	AI safety guardrails and policies
+translation.settingsHub.idpGroupsDescription	Identity provider groups
+translation.settingsHub.infrastructureDescription	VPC and network monitoring
+translation.settingsHub.integrationsDescription	Connect GitHub, Slack, and more
+translation.settingsHub.invoicesDescription	Payment history and receipts
+translation.settingsHub.knowledgeDescription	Organization and enterprise knowledge
+translation.settingsHub.loadMore	Load more
+translation.settingsHub.marketplaceDescription	Browse and install plugins for everyone on the account
+translation.settingsHub.mcpManagementDescription	MCP server management
+translation.settingsHub.mcpMarketplaceDescription	Browse and install MCP servers
+translation.settingsHub.membersDescription	Users, groups, and join requests
+translation.settingsHub.membershipDescription	Manage members, roles, and groups
+translation.settingsHub.myAnalyticsDescription	Your personal usage and consumption analytics
+translation.settingsHub.noOrganizations	No organizations yet
+translation.settingsHub.openRepositoryInProvider	Open {{provider}} repository
+translation.settingsHub.organization	Organization
+translation.settingsHub.organizationDescription	Organization preferences and settings
+translation.settingsHub.organizationSettings	Organization settings
+translation.settingsHub.organizations	Organizations
+translation.settingsHub.organizationsHiddenInWorkspace	Looking for an organization's settings? Switch to that organization from the account menu.
+translation.settingsHub.organizationsDescription	Enterprise organizations
+translation.settingsHub.personal	Personal
+translation.settingsHub.personalMarketplaceDescription	Browse and install your own plugins
+translation.settingsHub.plansDescription	View and change subscription plans
+translation.settingsHub.playbooksDescription	Reusable workflow templates
+translation.settingsHub.enterpriseCustomizeDescription	Plugin policies for every org
+translation.settingsHub.productivityDescription	Productivity analytics dashboard
+translation.settingsHub.products	Products
+translation.settingsHub.productsDescription	Configure core products and features
+translation.settingsHub.referralsDescription	Refer others and earn bonus usage
+translation.settingsHub.repositoriesDescription	Repository management and governance
+translation.settingsHub.repositoriesStandardDescription	View and manage repository access and indexing
+translation.settingsHub.resources	Resources
+translation.settingsHub.resourcesDescription	Configure Devin's resources
+translation.settingsHub.reviewDescription	Devin Review configuration
+translation.settingsHub.rolesDescription	Role and permission management
+translation.settingsHub.schedulesDescription	Scheduled session configuration
+translation.settingsHub.searchOrganizations	Search organizations
+translation.settingsHub.secretsDescription	Credentials and environment variables
+translation.settingsHub.serviceUsersDescription	Service users for API access
+translation.settingsHub.showMoreResults_one	Show {{count}} more result
+translation.settingsHub.showMoreResults_other	Show {{count}} more results
+translation.settingsHub.sidebarConnections	Connections
+translation.settingsHub.sidebarLabs	Labs
+translation.settingsHub.sidebarKeyboardShortcuts	Keyboard shortcuts
+translation.settingsHub.sidebarPlansBilling	Plans & billing
+translation.settingsHub.sidebarPreferences	Preferences
+translation.settingsHub.sidebarSettings	Settings
+translation.settingsHub.snapshotsDescription	Machine snapshots and build history
+translation.settingsHub.unifiedMode	My Workspace
+translation.settingsHub.unifiedModeDescription	Your resources and settings
+translation.settingsHub.usageAndLimitsDescription	ACU quota and credit usage
+translation.settingsHub.usagePoliciesDescription	Configure how usage is allocated, managed, and approved
+translation.settingsHub.botsDescription	Billing and spend limits of every {{botName}}, and your organization's templates
+translation.settingsHub.webhooksDescription	Send signed event notifications to endpoints you control
+translation.settingsHub.windsurfDescription	Windsurf IDE settings
+translation.settingsHub.unifiedRepositoriesDescription	Repositories you can access and what you can do in them
+translation.settingsHub.allResourcesDescription	Collections and the resources you can access, in one tree
+translation.settingsHub.unifiedPlaybooksDescription	Account playbooks you can access, wherever they are filed
+translation.settingsHub.unifiedSecretsDescription	Account secrets you can access, wherever they are filed
+translation.settingsHub.unifiedReviewPreferencesDescription	Your own Review trigger and comment language
+translation.settingsHub.unifiedReviewDescription	Reviewers, auto approval and billing for pull request reviews
+translation.settingsHub.environmentsDescription	Standalone environments with their own blueprints and builds
+translation.settingsHub.userGroupsDescription	Organize members and share resources with them
+translation.settingsHub.unifiedServiceUsersDescription	Identities automations run as, and who may use them
+translation.settingsHub.enterpriseAutomationsDescription	Managed webhooks and the trigger sources automations may use
+translation.settingsHub.enterpriseOncallDescription	Incident source and multi-organization routing
+translation.serviceRail.label	Services
+translation.serviceRail.devin	Devin
+translation.serviceRail.home	Home
+translation.serviceRail.bots	{{botNamePlural}}
+translation.serviceRail.security	Security
+translation.serviceRail.compliance	Compliance
+translation.sidebar.actions.analyzeSession	Analyze session
+translation.sidebar.actions.copySessionLink	Copy session link
+translation.sidebar.actions.copyBotLink	Copy {{botName}}'s link
+translation.sidebar.actions.hideFromSidebar	Remove from sidebar
+translation.sidebar.actions.hideFromTeam	Hide from team
+translation.sidebar.actions.makeVisibleToTeam	Make visible to team
+translation.sidebar.actions.markAsRead	Mark read
+translation.sidebar.actions.markAsUnread	Mark unread
+translation.sidebar.actions.markUnreadFailed	Failed to update read status
+translation.sidebar.actions.slackSyncFailed	Failed to update Slack sync
+translation.sidebar.actions.teamsSyncFailed	Failed to update Teams sync
+translation.sidebar.actions.markDone	Mark done
+translation.sidebar.actions.markDoneInfo	Only applies to yourself
+translation.sidebar.actions.markNotDone	Mark not done
+translation.sidebar.actions.reparent	Re-parent
+translation.sidebar.actions.reparentNoWriteAccessTooltip	You need write access to this session to move it
+translation.sidebar.actions.reparentNotOwnedTooltip	You can only move sessions under sessions you own
+translation.sidebar.actions.moveUnderSessionError	Failed to move session under parent session
+translation.sidebar.actions.movedUnderSessionToast	“{{session}}” moved under “{{parent}}”
+translation.sidebar.actions.newChildSession	New child session
+translation.sidebar.actions.discardDraft	Discard draft
+translation.sidebar.actions.noSessionsFound	No sessions found
+translation.sidebar.actions.removeFromParent	Remove from parent session
+translation.sidebar.actions.removeFromParentError	Failed to remove session from parent session
+translation.sidebar.actions.removedFromParentToast	“{{session}}” removed from parent session
+translation.sidebar.actions.rename	Rename
+translation.sidebar.actions.scheduleDevin	Schedule Devin
+translation.sidebar.actions.searchSessions	Search sessions
+translation.sidebar.actions.shareSession	Share session
+translation.sidebar.actions.subscribe	Subscribe
+translation.sidebar.actions.subscribers	Subscribers
+translation.sidebar.actions.unsubscribe	Unsubscribe
+translation.sidebar.actions.unsubscribeInfo	Remove from your sidebar. Archived for everyone if no other subscribers.
+translation.sidebar.agent	Agent
+translation.sidebar.agentDevinCloud	Devin Cloud
+translation.sidebar.agentDevinCloudLocalTools	Devin Cloud, using local tools on {{machine}}
+translation.sidebar.agentFilter	Agent
+translation.sidebar.noWorkspacesFound	No workspaces found
+translation.sidebar.personalDevin.addBot	Add {{botName}}
+translation.sidebar.personalDevin.templateLibrary	Template library
+translation.sidebar.personalDevin.archive	Archive
+translation.sidebar.personalDevin.delete	Delete
+translation.sidebar.personalDevin.deleteTitle	Delete “{{name}}”?
+translation.sidebar.personalDevin.deleteConfirmation	This action cannot be undone.
+translation.sidebar.personalDevin.pin	Pin to top
+translation.sidebar.personalDevin.unpinFromTop	Unpin from top
+translation.sidebar.personalDevin.addToSidebar	Add to sidebar
+translation.sidebar.personalDevin.removeFromSidebar	Remove from sidebar
+translation.sidebar.personalDevin.teammates	Teammates
+translation.sidebar.personalDevin.showMoreAgents	Show {{count}} more
+translation.sidebar.personalDevin.tasksDone_one	{{count}} task done
+translation.sidebar.personalDevin.tasksDone_other	{{count}} tasks done
+translation.sidebar.personalDevin.unread	Unread
+translation.sidebar.personalDevin.unreadNeedsYou	Unread items in Needs you
+translation.sidebar.personalDevin.inboxUnseen_one	{{count}} new item in Needs you
+translation.sidebar.personalDevin.inboxUnseen_other	{{count}} new items in Needs you
+translation.sidebar.personalDevin.botsRailCreate	Create new {{botName}}
+translation.sidebar.personalDevin.botsRailViewAll	View all {{botNamePlural}}
+translation.sidebar.personalDevin.pins	Pinned
+translation.sidebar.personalDevin.dropToPin	Drop to pin
+translation.sidebar.personalDevin.dropToUnpin	Drop to unpin
+translation.sidebar.personalDevin.pinsReorderHint	Press Space to pick up a pinned {{botName}}, the arrow keys to move it, Space again to drop it, or Escape to cancel.
+translation.sidebar.personalDevin.pinsReorderRole	{{name}}, pinned, draggable
+translation.sidebar.personalDevin.botsRailMore	More {{botNamePlural}}
+translation.sidebar.personalDevin.botsRailUntitled	Untitled task
+translation.sidebar.personalDevin.viewingOwnedBy	Viewing {{name}}’s {{botName}}
+translation.sidebar.personalDevin.viewingShared	Viewing a shared {{botName}}
+translation.sidebar.personalDevin.showOwn	Show my {{botNamePlural}}
+translation.sidebar.searchWorkspaces	Search workspaces
+translation.sidebar.sidePeek.tasksEmpty	No tasks yet
+translation.sidebar.sidePeek.deleteFolderDescription	The tasks in \\
+translation.sidebar.botHome.leaving.moving	Moving to {{group}}
+translation.sidebar.botHome.needsYou	Needs you
+translation.sidebar.botHome.decisions	Decisions
+translation.sidebar.botHome.groupByActionType	Type
+translation.sidebar.botHome.groupBySessionFolder	Folder
+translation.sidebar.botHome.working	Working
+translation.sidebar.botHome.idle	Idle
+translation.sidebar.botHome.done	Done
+translation.sidebar.botHome.resolved	Resolved
+translation.sidebar.botHome.resolvedToday_one	{{count}} resolved today
+translation.sidebar.botHome.resolvedToday_other	{{count}} resolved today
+translation.sidebar.botHome.searchSection	Search {{section}}
+translation.sidebar.botHome.nothingNeedsYou	Nothing waiting on you
+translation.sidebar.botHome.allGroupsHidden	All groups are hidden
+translation.sidebar.botHome.nothingResolved	Nothing resolved yet
+translation.sidebar.botHome.noFolder	No folder
+translation.sidebar.botHome.noMatchingSessions	No sessions match this filter
+translation.sidebar.botHome.unknownStatus	Unknown
+translation.sidebar.botHome.sessionsEmpty	Nothing in progress right now
+translation.sidebar.botHome.showMoreTasks_one	Show {{count}} more task
+translation.sidebar.botHome.showMoreTasks_other	Show {{count}} more tasks
+translation.sidebar.botHome.showLess	Show less
+translation.sidebar.botHome.compose.to	To:
+translation.sidebar.botHome.compose.toLabel	To
+translation.sidebar.botHome.compose.toPlaceholder	Start a chat with…
+translation.sidebar.aiSortedView	AI sorted view
+translation.sidebar.aiSortedViewDisabled	Disabled until review results are available
+translation.sidebar.aiSortedViewInProgress	AI sorted view (analysis in progress)
+translation.sidebar.anyFilterValue	Any
+translation.sidebar.archive	Archive
+translation.sidebar.archiveAllQueries	Archive all asks
+translation.sidebar.archiveAllQueriesDescription	Are you sure you want to archive all asks? You can access them later from your archived asks.
+translation.sidebar.archiveAllQueriesTitle	Archive all asks?
+translation.sidebar.deleteAskThread	Delete
+translation.sidebar.deleteAskThreadDescription	The thread is removed permanently. You cannot undo this.
+translation.sidebar.deleteAskThreadFailed	Failed to delete the thread
+translation.sidebar.deleteAskThreadTitle	Delete this ask?
+translation.sidebar.stopAllQueries	Stop all asks
+translation.sidebar.stopAllQueriesTitle	Stop all asks?
+translation.sidebar.stopAllQueriesDescription	Are you sure you want to stop all asks? You can resume them later.
+translation.sidebar.markAllDoneTitle	Mark all sessions done?
+translation.sidebar.markAllDoneDescription	Are you sure you want to mark all sessions done? This only applies to you. A session no one else is subscribed to is also stopped.
+translation.sidebar.archiveAllSessions	Archive all sessions
+translation.sidebar.actionsLabel	Actions
+translation.sidebar.markAllDone	Mark all done
+translation.sidebar.archiveAllSessionsDescription	Are you sure you want to archive all sessions? You can access them later from your archived sessions.
+translation.sidebar.stop	Stop
+translation.sidebar.archiveAllSessionsTitle	Archive all sessions?
+translation.sidebar.archiveInfo	Stop the session for everyone.
+translation.sidebar.stopSession	Stop session
+translation.sidebar.stopSessionInfo	Stop the virtual machine for everyone
+translation.sidebar.stopSessionInfoLocal	Stop the agent's current work
+translation.sidebar.delete	Delete
+translation.sidebar.deleteSession	Delete session
+translation.sidebar.deleteSessionTitle	Delete session?
+translation.sidebar.deleteSessionDescription	This permanently deletes the session from the agent. This cannot be undone.
+translation.sidebar.deleteSessionLocked	Can't delete “{{title}}” while it's open in another window or terminal. Close it there and try again.
+translation.sidebar.deleteSessionLockedWithPid	Can't delete “{{title}}” while it's open in another window or terminal (PID {{pid}}). Close it there and try again.
+translation.sidebar.archived	Archived
+translation.sidebar.stopped	Stopped
+translation.sidebar.archivedFilterDisabled	Disabled when Archived group exists
+translation.sidebar.ask	Ask
+translation.sidebar.automation	Automation
+translation.sidebar.automations	Automations
+translation.sidebar.cancel	Cancel
+translation.sidebar.clearSearch	Clear search
+translation.sidebar.compactView	Compact view
+translation.sidebar.revealChildSessions	Reveal child sessions
+translation.sidebar.syncView	Sync view settings
+translation.sidebar.createNewFolder	Create new folder
+translation.sidebar.createdBy	Created by
+translation.sidebar.createdTime	Created time
+translation.sidebar.customDateRange	Custom…
+translation.sidebar.done	Done
+translation.sidebar.doneFilterDisabled	Disabled when Done group exists
+translation.sidebar.dragToReorder	Drag to reorder
+translation.sidebar.failedToLoadPRs	Failed to load pull requests
+translation.sidebar.filter	Filter
+translation.sidebar.findAWiki	Find a wiki
+translation.sidebar.folderView	Folder view
+translation.sidebar.group	Group
+translation.sidebar.groupBy	Group by
+translation.sidebar.groupLastWeek	Last week
+translation.sidebar.groupOlder	Older
+translation.sidebar.groupThisMonth	This month
+translation.sidebar.groupThisWeek	This week
+translation.sidebar.groupToday	Today
+translation.sidebar.grouping	Grouping
+translation.sidebar.groupingAgent	Agent
+translation.sidebar.groupingAssignee	Subscriber
+translation.sidebar.groupingFolders	Folders
+translation.sidebar.groupingLastUpdated	Last updated
+translation.sidebar.groupingNone	None
+translation.sidebar.groupingPrStatus	Pull requests
+translation.sidebar.groupingRepository	Repository
+translation.sidebar.groupingEnvironment	Environment
+translation.sidebar.environment	Environment
+translation.sidebar.searchEnvironments	Search environments
+translation.sidebar.noEnvironmentsFound	No environments found
+translation.sidebar.deletedEnvironment	{{name}} (deleted)
+translation.sidebar.sessionEnvironment	Environment: {{name}}
+translation.sidebar.groupingStatus	Status
+translation.sidebar.groupingWorkspace	Workspace
+translation.sidebar.tasksAssignee	Assignee
+translation.sidebar.tasksBoardStatus	Board status
+translation.sidebar.tasksNoAssignee	No assignee
+translation.sidebar.tasksPriority	Priority
+translation.sidebar.tasksSessionStatus	Session status
+translation.sidebar.tasksTaskStatus	Task status
+translation.sidebar.tasksShowUnclaimed	Tasks without a session
+translation.sidebar.tasksStatusAll	All
+translation.sidebar.tasksStatusCategoryBacklog	Backlog
+translation.sidebar.tasksStatusCategoryCanceled	Canceled
+translation.sidebar.tasksStatusCategoryDone	Done
+translation.sidebar.tasksStatusCategoryInProgress	In progress
+translation.sidebar.tasksStatusCategoryTodo	Todo
+translation.sidebar.tasksStatusCategoryTriage	Triage
+translation.sidebar.tasksStatusDefault	Default
+translation.sidebar.workspaceThisMachine	This machine
+translation.sidebar.help.changelog	Changelog
+translation.sidebar.help.contactSupport	Contact support
+translation.sidebar.help.documentation	Documentation
+translation.sidebar.help.downloadDiagnostics	Download diagnostics
+translation.sidebar.help.tooltip	Help
+translation.sidebar.hideAll	Hide all
+translation.sidebar.hideGroup	Hide group
+translation.sidebar.hideProperty	Hide property
+translation.sidebar.install.cli	Install CLI
+translation.sidebar.install.cliApp	Devin CLI
+translation.sidebar.install.desktop	Install Desktop
+translation.sidebar.install.desktopApp	Devin Desktop
+translation.sidebar.install.tooltip	Download apps
+translation.sidebar.lastCreated	Last created
+translation.sidebar.lastUpdated	Last updated
+translation.sidebar.loadMore	Load more...
+translation.sidebar.loadingPeople	Loading people…
+translation.sidebar.loadingSessions	Loading…
+translation.sidebar.loadingTags	Loading tags…
+translation.sidebar.loadingWorkspaces	Loading workspaces…
+translation.sidebar.linux	Linux
+translation.sidebar.macos	macOS
+translation.sidebar.machineType	Machine type
+translation.sidebar.origin	Origin
+translation.sidebar.origins.slack	Slack
+translation.sidebar.origins.webapp	Web
+translation.sidebar.origins.api	API
+translation.sidebar.origins.jira	Jira
+translation.sidebar.origins.linear	Linear
+translation.sidebar.origins.teams	Teams
+translation.sidebar.origins.cli	CLI
+translation.sidebar.origins.desktop	Desktop
+translation.sidebar.origins.ios	iOS
+translation.sidebar.origins.android	Android
+translation.sidebar.origins.codeScan	Code scan
+translation.sidebar.origins.pylon	Pylon
+translation.sidebar.maxPeopleSelected	Up to {{count}} people can be selected
+translation.sidebar.more	More
+translation.sidebar.moreActions	More actions
+translation.sidebar.new	New
+translation.sidebar.newSearch	New Ask
+translation.sidebar.newLead	New {{botName}}
+translation.sidebar.newSession	New session
+translation.sidebar.noAgentsFound	No agents found
+translation.sidebar.noChangesFound	No changes found

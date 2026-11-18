@@ -1,0 +1,500 @@
+translation.inputBox.removeDefaultTag	Remove default
+translation.inputBox.removeTagWithName	Remove tag {{tag}}
+translation.inputBox.respondToQuestion	Respond directly to {{name}}'s question or ask something else
+translation.inputBox.search	Search
+translation.inputBox.searchPtsCodes	Search PTS Codes…
+translation.inputBox.searchTags	Search tags…
+translation.inputBox.selectRequiredPtsCode	Select a required PTS Code
+translation.inputBox.selectRequiredTag	Select a required tag
+translation.inputBox.send	Send
+translation.inputBox.sendNow	Send now
+translation.inputBox.setDefaultTag	Set as default
+translation.inputBox.slashCommands	Commands and skills
+translation.inputBox.chooseFolderToSeeCommands	Choose a folder to see commands
+translation.inputBox.startDevin	Start Devin
+translation.inputBox.stopDevin	Stop Devin
+translation.inputBox.submissionInProgress	Submission in progress
+translation.inputBox.subscribeToUse	Subscribe to use Devin
+translation.inputBox.subscribeToContinue	Subscribe to continue
+translation.inputBox.suggestDefaultModeAction	Open settings
+translation.inputBox.suggestDefaultModeDescription	Current preference is set to {{mode}}
+translation.inputBox.suggestDefaultModeTitle	Configure default agent
+translation.inputBox.switchAgentVersion	Switch to {{version}}
+translation.inputBox.tag	Tag
+translation.inputBox.taskTooLong	This task is too long
+translation.inputBox.usageQuotaExceeded	Usage quota exceeded
+translation.inputBox.userGroup	User
+translation.inputBox.todoStarted	· started {{time}}
+translation.inputBox.reconnecting	Reconnecting…
+translation.inputBox.orchestratorNone	None
+translation.inputBox.skipQuestionFailed	Failed to skip question. Please try again.
+translation.inputBox.uploadFailed	Failed to upload {{name}}
+translation.inputBox.transcribeFailed	Failed to transcribe audio. Please try again.
+translation.inputBox.noSpeechDetected	No speech detected. Check your microphone and try again.
+translation.inputBox.microphoneFailed	Could not access microphone. Please check your browser permissions.
+translation.inputBox.playbookInlineConflict	Cannot use "PLAYBOOK" inline when a playbook is selected
+translation.inputBox.playbookRunningDevin	Cannot use "PLAYBOOK" on a running Devin
+translation.jira.mapping.addRule	Add rule
+translation.jira.mapping.anyProject	Any project
+translation.jira.mapping.description	Map projects and labels to Devin organizations
+translation.jira.mapping.defaultWorkingOrgNotice	Your mapping rules are kept and apply again if you switch back to project mapping
+translation.jira.mapping.empty	No projects or organizations found
+translation.jira.mapping.retryProjects	Retry
+translation.jira.mapping.label	Jira label
+translation.jira.mapping.labelRequired	Enter a Jira label without spaces
+translation.jira.mapping.labelColumn	Label
+translation.jira.mapping.ruleRequired	Choose a project or enter a Jira label
+translation.jira.mapping.projectRequired	Choose a project
+translation.jira.mapping.organizationRequired	Choose a Devin organization
+translation.jira.mapping.selectProject	Select a project…
+translation.jira.mapping.duplicateRule	This rule is already listed
+translation.jira.mapping.everythingElse	Everything else
+translation.jira.mapping.noLabel	No label
+translation.jira.mapping.noMatch	Issues that match no rule
+translation.jira.mapping.noProjectsFound	No projects found
+translation.jira.mapping.organization	Devin organization
+translation.jira.mapping.project	Project
+translation.jira.mapping.overlap	Takes priority over {{rule}} when both match
+translation.jira.mapping.overlapLabelRule	the {{label}} label
+translation.jira.mapping.overlapProjectLabelRule	{{project}} + {{label}}
+translation.jira.mapping.remove	Remove rule
+translation.jira.mapping.search	Search rules…
+translation.jira.mapping.searchProjects	Search projects…
+translation.jira.mapping.title	Project mapping
+translation.jira.mapping.titleForSite	Project mapping · {{site}}
+translation.jira.mapping.rulesTitle	Mapping rules
+translation.jira.mapping.rulesTitleForSite	Mapping rules · {{site}}
+translation.jira.mapping.rulesInfo	An issue goes to the organization its project or label is mapped to. From the Devin app for Jira this applies only when the requester belongs to that organization; otherwise the issue goes to their default working organization.
+translation.jira.mapping.rulesNone	No rules yet
+translation.jira.mapping.rulesWithDefault_one	{{count}} rule · other issues go to {{organization}}
+translation.jira.mapping.rulesWithDefault_other	{{count}} rules · other issues go to {{organization}}
+translation.jira.mapping.rulesWithoutDefault_one	{{count}} rule · issues that match no rule get a reply asking an admin to map the project
+translation.jira.mapping.rulesWithoutDefault_other	{{count}} rules · issues that match no rule get a reply asking an admin to map the project
+translation.jira.mapping.rulesWithoutDefaultWorkingOrg_one	{{count}} rule · issues that match no rule go to the requester's default working organization
+translation.jira.mapping.rulesWithoutDefaultWorkingOrg_other	{{count}} rules · issues that match no rule go to the requester's default working organization
+translation.jira.mapping.manage	Manage
+translation.jira.mapping.noRulesWarning	Until you add a mapping rule, Devin replies to every issue asking an admin to map its project
+translation.jira.mapping.noRulesWorkingOrgNotice	Until you add a mapping rule, issues go to the requester's default working organization
+translation.jira.environmentMapping.title	Environment mapping
+translation.jira.environmentMapping.titleForSite	Environment mapping · {{site}}
+translation.jira.environmentMapping.description	Choose the environment for new My Workspace sessions from each project. People without access to it use their default environment.
+translation.jira.environmentMapping.info	This only chooses the environment. Each person's Preferences decide whether their Jira sessions run in My Workspace.
+translation.jira.environmentMapping.none	No projects mapped
+translation.jira.environmentMapping.count_one	{{count}} project mapped
+translation.jira.environmentMapping.count_other	{{count}} projects mapped
+translation.jira.environmentMapping.empty	No projects have an environment.
+translation.jira.environmentMapping.addProject	Add project
+translation.jira.environmentMapping.remove	Remove mapping
+translation.jira.environmentMapping.selectEnvironment	Select an environment…
+translation.jira.environmentMapping.environmentRequired	Choose an environment
+translation.jira.environmentMapping.projectsFailed	Could not load the Jira projects.
+translation.jira.environmentMapping.saveFailed	Failed to save Jira environment mappings
+translation.jira.routing.defaultWorkingOrg	Default working organization
+translation.jira.routing.defaultWorkingOrgDescription	Route each issue to the requester's default working organization.
+translation.jira.routing.label	Route issues by
+translation.jira.routing.projectMapping	Project mapping
+translation.jira.routing.projectMappingDescription	Route each issue to an organization by its project and labels.
+translation.jira.routing.saveError	Unable to save Jira routing settings.
+translation.jira.routing.title	Routing
+translation.jira.routing.sectionDescription	Which Devin organization works on each issue
+translation.jira.orgAccess.actor	Act in Jira as
+translation.jira.orgAccess.actorUser	Each user
+translation.jira.orgAccess.actorUserDescription	Their own linked Atlassian account. Jira shows them as the author; each person connects Atlassian with write access.
+translation.jira.orgAccess.actorDevin	Devin
+translation.jira.orgAccess.actorDevinDescription	The service account or app connected for the Jira site. Jira shows Devin as the author and each comment names who asked.
+translation.jira.orgAccess.actorDevinForAutomations	Devin for automations, each user for their own sessions
+translation.jira.orgAccess.actorDevinForAutomationsDescription	Automations use the service account or app connected for the Jira site. Sessions a person starts use their own linked Atlassian account.
+translation.jira.orgAccess.actorHelp	Who performs comments, edits and transitions started from Devin sessions.
+translation.jira.orgAccess.addOrganization	Add organization
+translation.jira.orgAccess.enforceToolScope	Limit Devin's Jira access
+translation.jira.orgAccess.enforceToolScopeHelp	In a session, Devin only sees issues routed to its organization
+translation.jira.orgAccess.enforceToolScopeConfirmTitle	Limit Devin's Jira access?
+translation.jira.orgAccess.enforceToolScopeWarning	This can narrow Jira access for existing sessions and automations. Devin can only access issues routed to its organization, plus the issue that started the session.
+translation.jira.orgAccess.enforceToolScopeConfirm	Limit access
+translation.jira.orgAccess.toolScopeImpactLoading	Counting automations whose Jira access may narrow…
+translation.jira.orgAccess.toolScopeImpactError	The affected automation count couldn't be loaded. You can still enforce scope.
+translation.jira.orgAccess.toolScopeImpact_one	{{count}} existing automation may have narrower Jira access.
+translation.jira.orgAccess.toolScopeImpact_other	{{count}} existing automations may have narrower Jira access.
+translation.jira.orgAccess.lockHelp	Only works on the issues routed to it, and those can't go anywhere else
+translation.jira.orgAccess.lockedTitle	Locked organizations
+translation.jira.orgAccess.noLockedOrganizations	No locked organizations
+translation.jira.orgAccess.noOrganizationsFound	No organizations found
+translation.jira.orgAccess.override	Switch organization with !org
+translation.jira.orgAccess.overrideHelp	A mention with !org in the issue starts the session in that organization instead
+translation.jira.orgAccess.saveError	Unable to save Jira organization access.
+translation.jira.orgAccess.searchOrganizations	Search organizations
+translation.jira.orgAccess.unlock	Unlock {{name}}
+translation.jira.orgAccess.overrideInfo	When off, mentions with !org are refused.
+translation.jira.orgAccess.enforceToolScopeInfo	Routing uses project, label, and locked-organization rules. If !org is on, an unlocked organization also sees the issues of other unlocked organizations. The issue that started a session always stays accessible.
+translation.jira.orgAccess.lockInfo	A locked organization only works on the issues routed to it, and those issues can't go to any other organization, not even with !org.
+translation.jira.orgAccess.lockedBadge	Locked
+translation.jira.removedDeletedOrganizationMappings_one	Removed the mappings to {{count}} deleted organization
+translation.jira.removedDeletedOrganizationMappings_other	Removed the mappings to {{count}} deleted organizations
+translation.jira.removedPlaybookReferences_one	Removed {{count}} playbook reference that is deleted or not available to the mapped organization
+translation.jira.removedPlaybookReferences_other	Removed {{count}} playbook references that are deleted or not available to the mapped organization
+translation.jira.notes.title	Jira knowledge
+translation.jira.notes.panelTitleForOrg	Jira knowledge · {{name}}
+translation.jira.notes.description	Generated from your Jira projects. Admins can edit it
+translation.jira.notes.descriptionOrganizations	Generated per organization from the Jira projects whose issues reach it. Admins can edit it
+translation.jira.notes.statusGenerated	Generated
+translation.jira.notes.statusNotGenerated	Not generated
+translation.jira.notes.generating	Generating…
+translation.jira.notes.generatedAt	Updated {{time}}
+translation.jira.notes.notGenerated	Nothing yet. Regenerate to have Devin write it, or type it below.
+translation.jira.notes.manage	Manage
+translation.jira.notes.view	View
+translation.jira.notes.intro	What Devin knows about this organization's Jira projects before it picks up an issue. Edit it to add anything it should know.
+translation.jira.notes.sourcesTitle	Written from
+translation.jira.notes.editMapping	Edit project mapping
+translation.jira.notes.loadingSources	Loading projects…
+translation.jira.notes.sourcesError	Couldn't load the projects for this organization.
+translation.jira.notes.noProjectsMapped	No Jira project sends issues to this organization yet. Map one and Devin can write this knowledge.
+translation.jira.notes.noProjectsVisible	Devin can't see any projects on your Jira sites, so it has nothing to write from.
+translation.jira.notes.siteUnavailable	Couldn't read the projects on {{sites, list}}.
+translation.jira.notes.knowledgeTitle	Knowledge
+translation.jira.notes.regenerate	Regenerate
+translation.jira.notes.placeholder	Anything Devin should know about this organization's Jira projects…
+translation.jira.notes.remove	Remove knowledge
+translation.jira.notes.discard	Discard changes
+translation.jira.notes.save	Save
+translation.jira.notes.discardConfirm	Discard
+translation.jira.notes.discardTitle	Discard unsaved changes?
+translation.jira.notes.regenerateTitle	Regenerate Jira knowledge?
+translation.jira.notes.regenerateDescription	Devin rewrites the knowledge from the projects listed above. The current text, including your edits, is replaced.
+translation.jira.notes.removeConfirm	Remove
+translation.jira.notes.removeTitle	Remove Jira knowledge?
+translation.jira.notes.removeDescription	Devin scopes this organization's tickets without it. You can add the organization again later.
+translation.jira.notes.removeLastDescription	Jira knowledge is deprecated. This is the last knowledge in your account: removing it turns the feature off, and it cannot be generated again.
+translation.jira.notes.removed	Jira knowledge removed
+translation.jira.notes.removeError	Couldn't remove Jira knowledge.
+translation.jira.agentLink.accountLabel	Devin account
+translation.jira.agentLink.accountAdmin	{{kind}} · you're an admin
+translation.jira.agentLink.accountAlreadyConnected	This Devin account is already connected to {{site}}. Disconnect it before connecting another site.
+translation.jira.agentLink.accountConnectedToSite	{{kind}} · Already connected to {{site}}
+translation.jira.agentLink.alreadyConnectedDescription	<site>{{site}}</site> is already linked to <account>{{accountName}}</account>. There's nothing else to do.
+translation.jira.agentLink.alreadyConnectedTitle	Already connected
+translation.jira.agentLink.alreadyOtherDescription	{{site}} is already connected elsewhere. Unlink it from that account first, or contact support if you don't know where it's linked.
+translation.jira.agentLink.alreadyOtherTitle	This site is linked to a different Devin account
+translation.jira.agentLink.appInstalled	App installed
+translation.jira.agentLink.cancel	Cancel
+translation.jira.agentLink.contactSupport	Contact support
+translation.jira.agentLink.copyLink	Copy link
+translation.jira.agentLink.defaultThisJiraSite	This Jira site
+translation.jira.agentLink.description	Check that this is your site, then choose the Devin account it should link to.
+translation.jira.agentLink.enterprise	Enterprise
+translation.jira.agentLink.expiredDescription	Connect links are single-use and expire after 15 minutes. New ones can only be created from inside Jira — go back to your Jira site and click <action>Connect to Devin</action> again.
+translation.jira.agentLink.expiredInstructions	In Jira: Settings → Apps → Manage apps → <app>Devin for Jira</app> → Connect to Devin.
+translation.jira.agentLink.expiredTitle	This link has expired or was already used
+translation.jira.agentLink.expiryNote	This link is single-use and expires 15 minutes after it was created in Jira.
+translation.jira.agentLink.forwardedLinkExpiry	The recipient still has to sign in, and the link expires 15 minutes after it was created.
+translation.jira.agentLink.genericLinkError	Failed to link the Jira site
+translation.jira.agentLink.goToDevin	Go to Devin
+translation.jira.agentLink.heading	Connect your Jira site to Devin
+translation.jira.agentLink.installedBy	Installed by
+translation.jira.agentLink.jiraAdmin	Jira admin
+translation.jira.agentLink.jiraCloudSite	Jira Cloud site
+translation.jira.agentLink.linkCopyFailed	Failed to copy link
+translation.jira.agentLink.linkCopied	Link copied
+translation.jira.agentLink.linkSite	Link site
+translation.jira.agentLink.linkTo	Link to
+translation.jira.agentLink.loadErrorDescription	Something went wrong while checking the Jira connection. Try again.
+translation.jira.agentLink.loadErrorTitle	Couldn't load this link
+translation.jira.agentLink.mappingDescription	Map Jira projects to Devin orgs in settings.
+translation.jira.agentLink.noAccountsMatch	No accounts match your search
+translation.jira.agentLink.noPermissionDescription	You're signed in with an account that isn't an admin of any Devin account. Forward this link to a Devin admin so they can link <site>{{site}}</site>.
+translation.jira.agentLink.noPermissionDescriptionNoSite	You're signed in with an account that isn't an admin of any Devin account. Forward this link to a Devin admin so they can link <site>your Jira site</site>.
+translation.jira.agentLink.noPermissionDescriptionWithEmail	You're signed in as <email>{{email}}</email>, which isn't an admin of any Devin account. Forward this link to a Devin admin so they can link <site>{{site}}</site>.
+translation.jira.agentLink.noPermissionDescriptionWithEmailNoSite	You're signed in as <email>{{email}}</email>, which isn't an admin of any Devin account. Forward this link to a Devin admin so they can link <site>your Jira site</site>.
+translation.jira.agentLink.noPermissionTitle	A Devin admin needs to finish this
+translation.jira.agentLink.oauthConflictDescription	{{site}} is connected through Jira OAuth to a different Devin account. Linking here would split work across two accounts, so it's blocked. Disconnect the OAuth connection there first, or contact support.
+translation.jira.agentLink.oauthConflictTitle	This site already has a Jira connection on another account
+translation.jira.agentLink.oauthConstraintMultiple	This site's Jira OAuth connection is on <account>{{accountName}}</account>, so the app can only be linked there. Linking won't change the OAuth connection; to use a different account, disconnect Jira OAuth first.
+translation.jira.agentLink.oauthConstraintSingle	This site's Jira OAuth connection is on <account>{{accountName}}</account>, so the app can only be linked there. Linking won't change the OAuth connection.
+translation.jira.agentLink.openJiraSettings	Open Jira settings
+translation.jira.agentLink.organization	Organization
+translation.jira.agentLink.pageTitle	Connect Jira site
+translation.jira.agentLink.searchAccounts	Search accounts
+translation.jira.agentLink.signInButton	Sign in to Devin
+translation.jira.agentLink.signInDescription	You're connecting a Jira site to Devin. Sign in first — we'll bring you straight back here.
+translation.jira.agentLink.signInTitle	Sign in to continue
+translation.jira.agentLink.successDescription	<site>{{site}}</site> is now connected to <account>{{accountName}}</account>. Devin will accept work from this site.
+translation.jira.agentLink.successDescriptionNoSite	<site>Your Jira site</site> is now connected to <account>{{accountName}}</account>. Devin will accept work from this site.
+translation.jira.agentLink.successTitle	Jira site linked.
+translation.jira.agentLink.settings.adminAccountDescription	Sign in to Atlassian as a Jira admin to register Devin's webhooks. Comments post under this account until you add service-account credentials.
+translation.jira.agentLink.settings.connect	Connect
+translation.jira.agentLink.settings.connectAccount	Connect account
+translation.jira.agentLink.settings.connectAnotherSite	Connect another site
+translation.jira.agentLink.settings.connectWithAdminAccount	Connect with an admin account
+translation.jira.agentLink.settings.disconnectDescription	Devin stops receiving events from this site, so automations listening to it stop firing until you reconnect. Its admin sign-in, service-account credentials and project mappings are removed.
+translation.jira.agentLink.settings.disconnectDescriptionWithApp	Removes this site's admin sign-in and service-account credentials. Project mappings are kept, and the Devin app stays installed, so it keeps delivering events, firing automations and posting as Devin.
+translation.jira.agentLink.settings.disconnectTitle	Disconnect {{site}}?
+translation.jira.agentLink.settings.installApp	Install the Devin app in Jira
+translation.jira.agentLink.settings.installAppDescription	A Jira admin installs it on the site, then links it here. Site-wide, no stored credentials.
+translation.jira.agentLink.settings.installationInstalled	Installed
+translation.jira.agentLink.settings.installationLinkedOn	Linked {{date}}
+translation.jira.agentLink.settings.installationsLoadErrorDescription	Something went wrong while loading linked Jira sites.
+translation.jira.agentLink.settings.installationsLoadErrorTitle	Couldn't load Jira app connections
+translation.jira.agentLink.settings.linked	Linked
+translation.jira.agentLink.settings.notConnectedSubtitle	Connect with a Jira admin account first, then add service-account credentials so Devin posts as the bot and issues can be assigned to it.
+translation.jira.agentLink.settings.recommended	Recommended
+translation.jira.agentLink.settings.reconnectDescription	Refreshes the admin authorization only. Service-account credentials, project mappings and webhooks are kept.
+translation.jira.agentLink.settings.removeServiceAccountAdminIdentityWarning	Reconnect the admin account to restore @Devin mentions.
+translation.jira.agentLink.settings.removeServiceAccountConfirm	Remove service account
+translation.jira.agentLink.settings.removeServiceAccountDescription	Devin goes back to posting comments as the admin account that connected Jira, and issues can no longer be assigned to Devin. Webhooks, project mappings and automation rules are kept
+translation.jira.agentLink.settings.removeServiceAccountFailure	Failed to remove the service account
+translation.jira.agentLink.settings.removeServiceAccountMenu	Remove service account…
+translation.jira.agentLink.settings.removeServiceAccountSuccess	Service account removed
+translation.jira.agentLink.settings.removeServiceAccountTitle	Remove service account?
+translation.jira.agentLink.settings.replaceServiceAccountCredentialsMenu	Replace service-account credentials…
+translation.jira.agentLink.settings.serviceAccountClientId	Client ID
+translation.jira.agentLink.settings.serviceAccountClientIdPlaceholder	Enter client ID
+translation.jira.agentLink.settings.serviceAccountClientIdRequired	Client ID required
+translation.jira.agentLink.settings.serviceAccountClientSecret	Client secret
+translation.jira.agentLink.settings.serviceAccountClientSecretPlaceholder	Enter client secret
+translation.jira.agentLink.settings.serviceAccountClientSecretRequired	Client secret required
+translation.jira.agentLink.settings.serviceAccountConnectFailed	Failed to add service-account credentials. Please check the client ID and secret.
+translation.jira.agentLink.settings.serviceAccountDialogDescription	Devin comments as this service account, and assigning an issue to it starts a session. Create its OAuth 2.0 credentials in your Atlassian organization's admin settings
+translation.jira.agentLink.settings.serviceAccountDialogReplaceDescription	The new credentials take effect immediately. Webhooks, project mappings and automation rules are kept
+translation.jira.agentLink.settings.serviceAccountDialogReplaceSubmit	Replace credentials
+translation.jira.agentLink.settings.serviceAccountDialogReplaceTitle	Replace service-account credentials
+translation.jira.agentLink.settings.serviceAccountDialogRoleHint	The service account must have the <strong>User</strong> application role for Jira — set this via Directory › Service accounts › select the account › ⋯ › Allow access
+translation.jira.agentLink.settings.serviceAccountDialogSubmit	Add credentials
+translation.jira.agentLink.settings.serviceAccountDialogTitle	Add service-account credentials
+translation.jira.agentLink.settings.serviceAccountRequiredScopes	Required Classic scopes
+translation.jira.agentLink.settings.uninstalled	Uninstalled
+translation.jira.agentLink.settings.unlinkConfirm	Unlink site
+translation.jira.agentLink.settings.unlinkDescription	Devin stops working on this Jira site immediately and the installation goes back to unclaimed. To relink it, a Jira admin opens the Devin app in Jira and clicks Connect to Devin
+translation.jira.agentLink.settings.unlinkFailure	Failed to unlink the Jira site
+translation.jira.agentLink.settings.unlinkSuccess	Jira site unlinked
+translation.jira.agentLink.settings.unlinkTitle	Unlink {{site}}?
+translation.jira.agentLink.settings.sitesTitle	Jira sites
+translation.jira.agentLink.settings.sitesDescription	Each site Devin can read from and post to
+translation.jira.agentLink.settings.siteTabsLabel	Jira sites
+translation.jira.agentLink.settings.siteTabsDescription	Session settings, skills and mapping rules are set per site. Routing and knowledge are shared
+translation.jira.agentLink.settings.siteSummary	Receives events · Posts as <strong>{{identity}}</strong>
+translation.jira.agentLink.settings.siteSummaryInactive	Not receiving events
+translation.jira.agentLink.settings.postsAsDevin	Devin
+translation.jira.agentLink.settings.postsAsAdmin	the admin account
+translation.jira.agentLink.settings.siteNeedsAttention	Needs attention
+translation.jira.agentLink.settings.appRow	Devin app for Jira
+translation.jira.agentLink.settings.appRowInstalled_one	Installed from Jira · comments post as Devin
+translation.jira.agentLink.settings.appRowInstalled_other	{{count}} installations from Jira · comments post as Devin
+translation.jira.agentLink.settings.appRowRemoved	Removed in Jira · unlink the old installation; reinstalling starts a new link
+translation.jira.agentLink.settings.appRowNotInstalled	Not installed. Install it from the Atlassian Marketplace and link it here.
+translation.jira.agentLink.settings.installAppShort	Install app
+translation.jira.agentLink.settings.adminRow	Admin sign-in
+translation.jira.agentLink.settings.adminRowConnected	Registers Devin's webhooks
+translation.jira.agentLink.settings.adminRowNotNeeded	Not needed: the app already delivers events.
+translation.jira.agentLink.settings.adminRowMissing	Not connected. Sign in as a Jira admin to register Devin's webhooks.
+translation.jira.agentLink.settings.connected	Connected
+translation.jira.agentLink.settings.connectAnyway	Connect anyway
+translation.jira.agentLink.settings.signInAsAdmin	Sign in as admin
+translation.jira.agentLink.settings.serviceAccountRow	Service account
+translation.jira.agentLink.settings.serviceAccountRowAdded	Comments post as Devin
+translation.jira.agentLink.settings.serviceAccountRowAddedNoSessionAccess	Comments post as Devin, but sessions with no human owner, such as service users and automations that don't run as their creator, can't read or update Jira.
+translation.jira.agentLink.settings.serviceAccountRowMissing	Not added. Comments post as the admin account until you add one.
+translation.jira.agentLink.settings.serviceAccountRowRejected	Atlassian rejects its credentials. Comments post as the admin account until you replace them.
+translation.jira.agentLink.settings.serviceAccountRowNotNeeded	Not needed: the app posts as Devin.
+translation.jira.agentLink.settings.added	Added
+translation.jira.agentLink.settings.unlinkAppMenu	Unlink Devin app…
+translation.jira.agentLink.settings.footerPostsAsAdmin_one	{{sites, list}} posts comments as the admin account that connected it. Add service-account credentials so Devin posts as itself and issues can be assigned to it.
+translation.jira.agentLink.settings.footerPostsAsAdmin_other	{{sites, list}} post comments as the admin accounts that connected them. Add service-account credentials so Devin posts as itself and issues can be assigned to it.
+translation.jira.agentLink.settings.permissionsDialogDescription	Devin's service account for {{site}} can't act on issues until it has these Jira permissions:
+translation.jira.agentLink.settings.permissionsDialogDocs	Jira setup guide
+translation.jira.agentLink.settings.permissionsDialogGrant	Grant them to this service account.
+translation.jira.agentLink.settings.permissionsDialogReplace	Or replace it with a service account that already has them.
+translation.jira.agentLink.settings.permissionsDialogReplaceButton	Replace service account…
+translation.jira.agentLink.settings.permissionsDialogTitle	Service account is missing Jira permissions
+translation.jira.agentLink.settings.permissionsGrantHint	In Jira, a project admin adds the service account to a project role that holds these permissions (in the project's settings), or a Jira admin grants them in the project's <permissionsLink>permission scheme</permissionsLink>. Devin picks up the change within a minute.
+translation.jira.agentLink.settings.permissionsReviewButton	Review permissions
+translation.jira.agentLink.settings.permissionsTooltip	Missing Jira permissions: {{permissions, list}}
+translation.jira.agentLink.settings.serviceAccountRejectedTooltip	Atlassian rejects this service account's credentials, so comments post as the admin account. Its credentials may have been revoked or expired: replace them.
+translation.jira.agentLink.settings.webhookBannerDefaultError	Devin can't refresh the Jira webhook, so it may stop receiving Jira updates. Reconnect Jira with an admin account to restore webhook delivery. This keeps your project mappings.
+translation.jira.agentLink.settings.webhookBannerRefresh	Refresh webhook
+translation.jira.agentLink.settings.rowActions	{{row}} actions
+translation.jira.agentLink.settings.attentionTitle_one	A Jira connection needs attention
+translation.jira.agentLink.settings.attentionTitle_other	{{count}} Jira connections need attention
+translation.jira.agentLink.settings.attentionSite	<strong>{{site}}</strong>: {{issues}}
+translation.jira.agentLink.settings.attentionWebhook	webhook not refreshing, reconnect the admin sign-in
+translation.jira.agentLink.settings.attentionPermissions_one	service account missing {{count}} Jira permission, review it
+translation.jira.agentLink.settings.attentionPermissions_other	service account missing {{count}} Jira permissions, review them
+translation.jira.agentLink.settings.attentionAppRemoved	Devin app removed in Jira, unlink the old installation
+translation.jira.agentLink.settings.attentionServiceAccountRejected	service account credentials rejected by Atlassian, replace them
+translation.jira.agentLink.settings.adminRowWebhookFailed	Connected · Devin can't refresh its webhook, so Jira updates may stop
+translation.jira.agentLink.settings.appRemovedTooltip_one	{{count}} installation was removed in Jira but is still linked here. Reinstalling the app starts a new link; unlink this one.
+translation.jira.agentLink.settings.appRemovedTooltip_other	{{count}} installations were removed in Jira but are still linked here. Reinstalling the app starts a new link; unlink them.
+translation.jira.agentLink.settings.unlinkAppShort	Unlink
+translation.jira.agentLink.settings.refreshWebhookDescription	Retries renewing the webhook with the current admin sign-in, without leaving Devin. Use it for a temporary outage; if Jira keeps denying it, reconnect.
+translation.jira.agentLink.settings.webhookReviewButton	Review
+translation.jira.agentLink.settings.webhookDialogTitle	Admin sign-in can't refresh the webhook
+translation.jira.agentLink.settings.webhookDialogDescription	Devin registers a webhook on {{site}} with the admin sign-in and renews it regularly. The last renewals failed, so Jira updates (new comments, assignments, status changes) may stop reaching Devin:
+translation.jira.agentLink.settings.webhookDialogReconnect	Reconnect the admin sign-in.
+translation.jira.agentLink.settings.webhookDialogReconnectHint	Sign in again as a Jira admin; Devin registers the webhook anew. Service-account credentials, project mappings and existing webhooks are kept. This fixes a revoked, expired or narrowed authorization.
+translation.jira.agentLink.settings.webhookDialogRefresh	Or refresh the webhook.
+translation.jira.agentLink.settings.webhookDialogRefreshHint	Retries the renewal with the current sign-in, without leaving Devin. Enough for a temporary Jira outage; if Jira keeps denying it, reconnect.
+translation.jira.agentLink.settings.webhookDialogWhyAdmin	Even with a service account added, only the admin sign-in can renew webhooks: Jira ties them to the account that registered them.
+translation.jira.agentLink.settings.webhookError.auth	Jira denied the request: the admin account that connected Jira may have lost access, or its permissions or scopes changed.
+translation.jira.agentLink.settings.webhookError.serviceAccountAuth	Jira denied the request. Webhooks are renewed by the admin sign-in, not the service account, so that admin account needs webhook (manage:jira-webhook) access.
+translation.jira.agentLink.settings.webhookError.invalidConnection	Jira no longer finds the connected site or its webhook; the connection may have been removed on the Jira side.
+translation.jira.agentLink.settings.webhookError.network	Devin couldn't reach Jira to renew the webhook. This is usually temporary; it will retry automatically.
+translation.jira.agentLink.settings.webhookError.unknown	Renewing the webhook failed for an unexpected reason. Devin keeps retrying; if it persists, reconnect.
+translation.jira.agentLink.settings.attentionWebhookRetry	webhook not refreshing, refresh it or reconnect the admin sign-in
+translation.jira.agentLink.settings.webhookDialogRefreshFirst	Refresh the webhook.
+translation.jira.agentLink.settings.webhookDialogReconnectLater	If it keeps failing, reconnect the admin sign-in.
+translation.jira.agentLink.tryAgain	Try again
+translation.jira.agentLink.tryIt	Try it — assign a Jira work item to <agent>Devin</agent> and watch the session start.
+translation.jira.agentLink.accountUnavailable	{{kind}} · unavailable for this site
+translation.jira.agentLink.unknownSite	Unknown site
+translation.jira.appOnlySitePicker_labels	A Jira admin needs to connect {{site}} with an admin account to pick labels.
+translation.jira.appOnlySitePicker_statuses	A Jira admin needs to connect {{site}} with an admin account to pick statuses.
+translation.jira.appOnlySitePicker_assignees	A Jira admin needs to connect {{site}} with an admin account to pick assignees.
+translation.jira.appOnlySitePicker_epics	A Jira admin needs to connect {{site}} with an admin account to pick epics.
+translation.jira.appOnlySiteConnectLink	Open Jira connections
+translation.jira.appOnlySiteAskAdmin	Ask a Devin admin to connect it in Settings > Connections > Jira.
+translation.jira.connectAccountToPickProjects	Connect your Atlassian account to pick projects
+translation.jira.noProjectsMapped	No Jira projects are mapped to this organization. Map them in the Jira connection settings.
+translation.jira.mappedProjectsNotVisible_one	Mapped project {{ids}} isn't visible to {{identity}}
+translation.jira.mappedProjectsNotVisible_other	Mapped projects {{ids}} aren't visible to {{identity}}
+translation.jira.grantBrowseProjects	Grant it the Browse projects permission in Jira
+translation.jira.openJiraProjectSettings	Open Jira project settings
+translation.jira.listingIdentity.serviceAccount	Devin's Jira service account
+translation.jira.listingIdentity.admin	the connected Jira admin account
+translation.jira.listingIdentity.app	the Devin for Jira app
+translation.jira.listingIdentity.personal	your Atlassian account
+translation.jira.loadingStatuses	Loading statuses…
+translation.jira.noProjects	No Jira projects
+translation.jira.noProjectsMappedTooltip	No Jira projects available for this org. Check that Devin's Jira account can see the project and, for enterprise orgs, that it is mapped to this org in Jira connection settings.
+translation.jira.noStatuses	No Jira statuses
+translation.jira.noStatusesFound	No statuses found
+translation.jira.projectsError.saSiteAccessRevoked	Jira rejected the service account entirely — its access to the Jira site appears to have been revoked (often by an access-expiry or identity-governance policy). Ask a Jira admin to re-grant the service account product access to the site, and to exempt it from any automatic access-revocation policy so this doesn't recur.
+translation.jira.projectsError.saNoPermission	The Jira service account can't see any projects. Make sure it has the Browse projects permission and the read:jira-work scope in Jira, then try again.
+translation.jira.projectsError.adminNoPermission	The connected Jira account can't see any projects. Make sure it has the Browse projects permission and the read:jira-work scope in Jira, or reconnect Jira with an account that has access.
+translation.jira.projectsError.connectRequired	Connect your Atlassian account to load Jira projects.
+translation.jira.projectsError.notConnected	Jira integration not found. Reconnect Jira to manage project mappings.
+translation.jira.projectsError.tokenRefreshFailed	Jira authentication failed and the token could not be refreshed. Reconnect Jira to restore access.
+translation.jira.projectsError.agentTokenUnavailable	The Devin app for Jira hasn't checked in yet, so projects can't be listed. Try again in a few minutes.
+translation.jira.projectsError.rateLimited	Jira is rate limiting requests to this site, so projects can't be listed right now. Try again in a few minutes.
+translation.jira.projectsError.generic	Couldn't load projects from Jira.
+translation.jira.searchStatuses	Search statuses…
+translation.jira.siteSelection.title	Choose a Jira site
+translation.jira.siteSelection.description	Your Atlassian account can access more than one Jira site
+translation.jira.siteSelection.required	Jira site required
+translation.jira.siteSelection.connect	Connect
+translation.jira.siteSelection.cancel	Cancel
+translation.jira.siteSelection.loadFailed	Couldn't load your Jira sites. Try connecting again.
+translation.jira.siteSelection.expired	This Jira sign-in has expired. Connect again to pick a site.
+translation.jira.siteSelection.success	Connected to {{site}}
+translation.jira.siteSelection.failure	Failed to connect to Jira
+translation.jiraAssignee.loadingUsers	Loading users…
+translation.jiraAssignee.noJiraUsers	No Jira users
+translation.jiraAssignee.noUsersFound	No users found
+translation.jiraAssignee.searchUsers	Search users…
+translation.jiraEpic.loadingEpics	Loading epics…
+translation.jiraEpic.noEpicsFound	No epics found
+translation.jiraEpic.noJiraEpics	No Jira epics
+translation.jiraEpic.searchEpics	Search epics…
+translation.jiraLabel.loadingLabels	Loading labels…
+translation.jiraLabel.noJiraLabels	No Jira labels
+translation.jiraLabel.noLabelsFound	No labels found
+translation.jiraLabel.searchLabels	Search labels…
+translation.playbooks.author	Author
+translation.playbooks.communityAuthor	Cognition Team
+translation.playbooks.readOnly	Read-only
+translation.playbooks.migration.movedToSkillsTitle	This playbook is now a skill
+translation.playbooks.migration.movedToSkillsDescription	Devin now uses the skill. Below is the playbook as it was before the move.
+translation.playbooks.migration.viewSkill	View skill
+translation.playbooks.migration.listMovedTitle	Playbooks have moved to skills
+translation.playbooks.migration.listEmptyTitle	No playbooks
+translation.playbooks.migration.listMovedDescription	Skills are the new home for your playbooks. Open a playbook below to see what it was and to go to its skill, or view and manage your skills in Customize.
+translation.playbooks.migration.viewSkills	View skills
+translation.playbooks.migration.skillUnavailable	The skill this playbook became is no longer available.
+translation.playbooks.migration.checkmarxMarketplace	The Checkmarx SAST Resolution marketplace plugin provides the skill for this playbook.
+translation.playbooks.migration.skillNotCutOver	This playbook has not moved to Skills yet. Try again in a moment.
+translation.playbooks.migration.skillAmbiguous	More than one skill claims this playbook; it cannot be opened from this link.
+translation.playbooks.toast.createLoading	Creating playbook...
+translation.playbooks.toast.createSuccess	Playbook created successfully
+translation.playbooks.toast.createError	Failed to create playbook
+translation.playbooks.toast.updateLoading	Saving playbook changes...
+translation.playbooks.toast.updateSuccess	Playbook changes saved successfully
+translation.playbooks.toast.updateError	Failed to save playbook changes
+translation.playbooks.toast.deleteLoading	Deleting playbook...
+translation.playbooks.toast.deleteSuccess	Playbook deleted successfully
+translation.playbooks.toast.deleteError	Failed to delete playbook
+translation.playbooks.toast.promoteLoading	Promoting playbook to enterprise...
+translation.playbooks.toast.promoteSuccess	Playbook promoted to enterprise
+translation.playbooks.toast.promoteError	Failed to promote playbook to enterprise
+translation.knowledge.title	Knowledge
+translation.knowledge.movedToSkills	Knowledge has moved to skills
+translation.knowledge.movedToSkillsDescription	Skills are the new home for the knowledge Devin uses in your sessions. View and manage your skills in Customize.
+translation.knowledge.viewSkills	View skills
+translation.knowledge.backToLegacyList	Back to knowledge
+translation.knowledge.deprecationTitle	Knowledge is being deprecated
+translation.knowledge.deprecationDescription	Knowledge is moving to skills. Your notes will be converted automatically into skills in a knowledge plugin, with their content unchanged. Devin will use them in sessions the same way it uses your notes today, and they stay stored in Devin, not in your repositories. Nothing is lost and no action is needed.
+translation.knowledge.learnMore	Learn more
+translation.knowledge.cleanup.title	Clean up your knowledge
+translation.knowledge.cleanup.description	Run a session where Devin reviews the skills migrated from your knowledge, proposes which to remove, merge, or rename, and applies the changes you approve.
+translation.knowledge.cleanup.run	Run cleanup session
+translation.knowledge.cleanup.confirmTitle	Start a cleanup session?
+translation.knowledge.cleanup.confirmDescription	This starts a real Devin session, which uses ACUs from your organization's balance like any other session. Devin will review your migrated skills and pause for your approval before deleting, merging, or renaming anything.
+translation.knowledge.cleanup.confirm	Start session
+translation.knowledge.cleanup.failed	Failed to start the cleanup session. Please try again.
+translation.knowledge.legacyTable.name	Name
+translation.knowledge.legacyTable.folder	Folder
+translation.knowledge.legacyTable.author	Author
+translation.knowledge.legacyTable.createdAt	Created at
+translation.knowledge.legacyTable.empty	No knowledge found
+translation.knowledge.legacyTable.loadError	Couldn't load knowledge
+translation.knowledge.legacyTable.loadErrorDescription	Please try again later.
+translation.knowledge.manager.notice	Notice
+translation.knowledge.manager.allOrganizationsInYourEnterpriseWillInheritThis	All organizations in your enterprise will inherit this knowledge
+translation.knowledge.manager.none	None
+translation.knowledge.manager.allSessions	All sessions
+translation.knowledge.manager.knowledgeCreatedSuccessfully	Knowledge created successfully
+translation.knowledge.manager.back	Back
+translation.knowledge.manager.create	Create
+translation.knowledge.manager.createKnowledge	Create knowledge
+translation.knowledge.manager.specifyWhenDevinShouldUseThisKnowledge	Specify when Devin should use this knowledge
+translation.knowledge.manager.error	Error
+translation.knowledge.manager.trigger	Trigger
+translation.knowledge.manager.developingAWebAppFromScratch	Developing a web app from scratch
+translation.knowledge.manager.next	Next
+translation.knowledge.manager.deploymentChecklist	Deployment checklist
+translation.knowledge.manager.contents	Contents
+translation.knowledge.manager.runTheTestSuiteBeforeOpeningAPull	Run the test suite before opening a pull request
+translation.knowledge.manager.addSecretsReferenceSecretsWithSECRETNAME	Add secrets. Reference secrets with $SECRET_NAME.
+translation.knowledge.manager.addSecrets	Add secrets
+translation.knowledge.manager.devinMayNotRecallLongKnowledgeAccurately	Devin may not recall long knowledge accurately
+translation.knowledge.manager.macro	Macro
+translation.knowledge.manager.macroName	macro-name
+translation.knowledge.manager.sendMacroNameInAMessageToRetrieve	Send !macro-name in a message to retrieve this knowledge
+translation.knowledge.manager.selectAFolder	Select a folder
+translation.knowledge.manager.pinToRepository	Pin to repository
+translation.knowledge.manager.searchRepositories	Search repositories
+translation.knowledge.manager.noRepositoriesFound	No repositories found
+translation.knowledge.manager.devinAlwaysSeesPinnedKnowledgeInTheSelected	Devin always sees pinned knowledge in the selected repository
+translation.knowledge.manager.errorLoadingKnowledgeTryRefreshingThePage	Error loading knowledge. Try refreshing the page.
+translation.knowledge.manager.noSuchFolder	No such folder
+translation.knowledge.manager.folderUpdatedSuccessfully	Folder updated successfully
+translation.knowledge.manager.folderCreatedSuccessfully	Folder created successfully
+translation.knowledge.manager.editFolder	Edit folder
+translation.knowledge.manager.createFolder	Create folder
+translation.knowledge.manager.folderNameRequired	Name required
+translation.knowledge.manager.description	Description
+translation.knowledge.manager.descriptionsHelpDevinAutomaticallyOrganizeKnowledge	Descriptions help Devin automatically organize knowledge
+translation.knowledge.manager.updating	Updating…
+translation.knowledge.manager.creating	Creating…
+translation.knowledge.manager.updateFolder	Update folder
+translation.knowledge.manager.youDontHavePermissionToEditThisFolder	You don't have permission to edit this folder
+translation.knowledge.manager.thisWouldCreateACycleInTheHierarchy	This would create a cycle in the hierarchy
+translation.knowledge.manager.collapseFolder	Collapse folder {{name}}
+translation.knowledge.manager.expandFolder	Expand folder {{name}}
+translation.knowledge.manager.itemSMovedSuccessfully_one	{{count}} item moved successfully
+translation.knowledge.manager.itemSMovedSuccessfully_other	{{count}} items moved successfully
+translation.knowledge.manager.moveItems	Move items
+translation.knowledge.manager.moving	Moving…
+translation.knowledge.manager.itemSDeletedSuccessfully_one	{{count}} item deleted successfully
+translation.knowledge.manager.itemSDeletedSuccessfully_other	{{count}} items deleted successfully
+translation.knowledge.manager.deleteItems	Delete items
+translation.knowledge.manager.deleting	Deleting…
+translation.knowledge.manager.rootFolder	Root folder
+translation.knowledge.manager.knowledgeOrganizedSuccessfully	Knowledge organized successfully

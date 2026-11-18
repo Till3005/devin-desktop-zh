@@ -1,0 +1,500 @@
+translation.jiraDataCenter.deleteDescription	Devin stops reading this Jira, and its issues can no longer be linked. Existing links stay. This cannot be undone.
+translation.jiraDataCenter.kindLabel	Jira Data Center
+translation.jiraCloud.kindLabel	Jira Cloud
+translation.jiraCloud.enableDescription	Let Devin link sessions to the issues of this Jira Cloud site, tag them by project and read the issue hierarchy. For this it uses the Devin app when it is installed, then the Jira service account when one is configured, otherwise the connected admin account. When asked about an issue, Devin reads it with the Jira account of the session's owner.
+translation.jiraCloud.enable	Enable project tracker
+translation.jiraCloud.siteLabel	Jira site
+translation.jiraCloud.sitePlaceholder	Choose a site
+translation.jiraCloud.noSites	No Jira Cloud site has the Devin app or an admin account connected.
+translation.jiraCloud.sourceForgeApp	Uses the Devin app
+translation.jiraCloud.sourceServiceAccount	Uses the service account
+translation.jiraCloud.sourceAdminGrant	Uses the admin account
+translation.jiraCloud.enabling	Enabling…
+translation.jiraCloud.enableNotConnected	Connect Jira first.
+translation.jiraCloud.enableAlreadyEnabled	The tracker is already enabled for this Jira Cloud site.
+translation.jiraCloud.enableFailed	Could not enable the project tracker
+translation.jiraCloud.webhookDescription	In Jira, go to Jira Administration → System → WebHooks and create a webhook with this URL and secret. Select the events below and leave the JQL filter empty.
+translation.jiraCloud.deleteDescription	Devin stops reading this Jira Cloud site, and its issues can no longer be linked. Existing links stay. The Jira integration stays connected.
+translation.projectTracker.title	Project tracker
+translation.projectTracker.description	A feature of your connected tracker. Devin links sessions to issues, tags them by project and reads the issue hierarchy.
+translation.projectTracker.healthHealthy	Healthy
+translation.projectTracker.healthWarning	Warning
+translation.projectTracker.healthUnhealthy	Unhealthy
+translation.projectTracker.healthCheckedAt	Checked {{time}}
+translation.projectTracker.lastWebhookAt	Last webhook {{time}}
+translation.projectTracker.noWebhookYet	No webhook received yet
+translation.projectTracker.checkHealth	Check health
+translation.projectTracker.healthCheckFailed	Health check failed
+translation.projectTracker.deleteTitle	Delete {{name}}?
+translation.projectTracker.deleted	Connection deleted
+translation.projectTracker.deleteFailed	Could not delete the connection
+translation.projectTracker.settingsTitle	Settings
+translation.projectTracker.settingsSubtitle	How Devin tags sessions and detects issue links for this connection.
+translation.projectTracker.settingsSaved	Settings saved
+translation.projectTracker.settingsSaveFailed	Could not save the settings
+translation.projectTracker.detectionEnabled	Detect issue links in sessions
+translation.projectTracker.adminConnectionsDescription	Live tracker connections on this account. Only pattern connections support editing detection settings here.
+translation.projectTracker.editKindOrder	Edit work item hierarchy
+translation.projectTracker.kindOrderHelp	Levels run from highest to lowest. Use the handles or menus to move types and levels. Only types in a level are saved.
+translation.projectTracker.kindOrderEditorMode	Hierarchy editor mode
+translation.projectTracker.kindOrderVisualMode	Visual
+translation.projectTracker.kindOrderJsonMode	JSON
+translation.projectTracker.kindOrderJsonHelp	Edit the levels from highest to lowest. Each level has work item types and can have a name. Fix any errors before switching to Visual.
+translation.projectTracker.kindOrderJsonSyntax	Enter valid JSON.
+translation.projectTracker.kindOrderJsonShape	Enter an object with a non-empty levels array. Each level needs a kinds array of type strings and can have a name.
+translation.projectTracker.kindOrderRequired	Place at least one work item type in a level.
+translation.projectTracker.kindOrderLevel	Level {{index}}
+translation.projectTracker.kindOrderTray	Not in any level
+translation.projectTracker.kindOrderNoType	No type: {{total}}
+translation.projectTracker.kindOrderAddLevel	Add level
+translation.projectTracker.kindOrderEmptyLevel	Drop a type here
+translation.projectTracker.kindOrderEmptyTray	No unplaced types
+translation.projectTracker.kindOrderCustomType	Custom type
+translation.projectTracker.kindOrderAddType	Add kind
+translation.projectTracker.kindOrderInvalid	Enter a type with up to {{length}} characters, without line breaks or null characters.
+translation.projectTracker.kindOrderInvalidType	Invalid type
+translation.projectTracker.kindOrderRemoveType	Remove {{kind}}
+translation.projectTracker.kindOrderMoveType	Move {{kind}} ({{total}})
+translation.projectTracker.kindOrderMoved	Moved {{kind}} to {{level}}.
+translation.projectTracker.kindOrderReorder	Reorder {{level}}
+translation.projectTracker.kindOrderLevelMoved	Moved to {{level}}.
+translation.projectTracker.kindOrderLoading	Loading stored types…
+translation.projectTracker.kindOrderCountsFailed	Could not load stored types.
+translation.projectTracker.kindOrderReset	Reset to default
+translation.projectTracker.kindOrderDuplicate	Each work item type can appear only once.
+translation.projectTracker.kindOrderLimits	Use up to {{levels}} levels and {{kinds}} types in total, with at most {{length}} characters per type.
+translation.projectTracker.kindOrderSaveFailed	Could not save the work item hierarchy.
+translation.projectTracker.keyPattern	Issue key pattern
+translation.projectTracker.keyPatternHelp	RE2 pattern with a named group `{{group}}` that captures the issue key
+translation.projectTracker.urlPatterns	Issue URL patterns
+translation.projectTracker.urlPatternsHelp	One RE2 pattern per line, each with a named group `key`. At most 20
+translation.projectTracker.patternTooLong	The pattern is longer than {{max}} characters
+translation.projectTracker.patternNoKeyGroup	The pattern has no named group `{{group}}`
+translation.projectTracker.tooManyUrlPatterns	At most {{max}} URL patterns
+translation.projectTracker.setUpWebhookAgain	Set up webhook again
+translation.projectTracker.webhookSecretFailed	Could not create the webhook secret
+translation.projectTracker.save	Save
+translation.projectTracker.saving	Saving…
+translation.projectTracker.loadFailed	Failed to load tracker connections
+translation.projectTracker.tryAgain	Try again
+translation.projectTracker.webhookSecretOnce	The secret is shown only once. Copy it now.
+translation.projectTracker.webhookUrl	Webhook URL
+translation.projectTracker.webhookSecret	Webhook secret
+translation.projectTracker.copyWebhookUrl	Copy webhook URL
+translation.projectTracker.copyWebhookSecret	Copy webhook secret
+translation.projectTracker.webhookServiceUser	Connected as {{user}}.
+translation.projectTracker.webhookRegistered	I have registered it
+translation.projectTracker.webhookEvents	Events to select
+translation.customTracker.pageDescription	Push work items from your own systems through the Devin API. Devin links sessions to them and reads their hierarchy, as it does for any other tracker.
+translation.customTracker.create	Create tracker
+translation.customTracker.createTitle	Create a custom tracker
+translation.customTracker.createDescription	Your systems push the work items. Devin never calls your tracker.
+translation.customTracker.name	Name
+translation.customTracker.itemUrlTemplate	Item URL template
+translation.customTracker.itemUrlTemplateHelp	Where an item opens, with {key} for its key
+translation.customTracker.itemUrlTemplateInvalid	Use an http or https URL with {key} once, after the host
+translation.customTracker.maxDepth	Hierarchy depth
+translation.customTracker.maxDepthHelp	How many levels of parents Devin follows from an item
+translation.customTracker.creating	Creating…
+translation.customTracker.createFailed	Could not create the tracker
+translation.customTracker.trackerId	Tracker ID
+translation.customTracker.copyTrackerId	Copy tracker ID
+translation.customTracker.trackerIdHelp	Push items to PUT /v3beta1/tracker-connections/{{id}}/items. The calling service user needs the tracker_connection.configure grant on this tracker.
+translation.customTracker.lastPush_one	Last push {{time}} · {{count}} item
+translation.customTracker.lastPush_other	Last push {{time}} · {{count}} items
+translation.customTracker.noPushYet	No items pushed yet
+translation.customTracker.deleteDescription	Devin stops showing these items, and they can no longer be linked. Existing links stay. This cannot be undone.
+translation.pagerduty.providerLabel	PagerDuty
+translation.pagerduty.accountFallback	PagerDuty account
+translation.pagerduty.actorEmailHelp	Notes and incident updates Devin writes to PagerDuty are attributed to this user. Use a service user for clarity
+translation.pagerduty.actorEmailLabel	Actor email
+translation.pagerduty.actorEmailPlaceholder	devin-bot@example.com
+translation.pagerduty.apiKeyLabel	General Access REST API key
+translation.pagerduty.apiKeyPlaceholder	Paste your PagerDuty API key
+translation.pagerduty.appRegistrationClientIdLabel	Client ID
+translation.pagerduty.appRegistrationClientSecretLabel	Client secret
+translation.pagerduty.appRegistrationClientSecretStored	Saved — leave blank to keep
+translation.pagerduty.appRegistrationConfigured_one	App registration configured · used by {{count}} MCP server
+translation.pagerduty.appRegistrationConfigured_other	App registration configured · used by {{count}} MCP servers
+translation.pagerduty.appRegistrationCopyRedirectUri	Copy redirect URI
+translation.pagerduty.appRegistrationLegacyWarning_one	{{count}} PagerDuty MCP server still uses its own OAuth credentials, so it is not fully connected. Members linked through it stay linked until it is switched.
+translation.pagerduty.appRegistrationLegacyWarning_other	{{count}} PagerDuty MCP servers still use their own OAuth credentials, so they are not fully connected. Members linked through them stay linked until they are switched.
+translation.pagerduty.appRegistrationLoadFailedBody	Could not load the PagerDuty app registration.
+translation.pagerduty.appRegistrationLoadFailedTitle	Something went wrong
+translation.pagerduty.appRegistrationMissing	No app registration yet — members cannot link their PagerDuty accounts
+translation.pagerduty.appRegistrationRedirectUri	Redirect URI
+translation.pagerduty.appRegistrationRemoveDescription	Members will have to link their PagerDuty accounts again once a new app registration is added
+translation.pagerduty.appRegistrationRemoveFailed	Failed to remove the PagerDuty app registration
+translation.pagerduty.appRegistrationRemoveTitle	Remove app registration?
+translation.pagerduty.appRegistrationRemoved	PagerDuty app registration removed
+translation.pagerduty.appRegistrationSaveFailed	Failed to save the PagerDuty app registration
+translation.pagerduty.appRegistrationSaved	PagerDuty app registration saved
+translation.pagerduty.appRegistrationScopeHelp	Space-separated scopes; must match the scopes enabled on the PagerDuty app. Leave empty to use the app's own permissions
+translation.pagerduty.appRegistrationScopeLabel	Scopes
+translation.pagerduty.appRegistrationSubtitle	Register Devin as an OAuth app in PagerDuty.
+translation.pagerduty.appRegistrationSwitchFailed	Failed to switch the PagerDuty MCP server
+translation.pagerduty.appRegistrationSwitched	PagerDuty MCP server now uses the app registration
+translation.pagerduty.appRegistrationTitle	App registration
+translation.pagerduty.appRegistrationUseForInstallations	Use app registration
+translation.pagerduty.cancel	Cancel
+translation.pagerduty.connect	Connect
+translation.pagerduty.connectDialogDescription	The key needs full access; user API tokens aren't accepted
+translation.pagerduty.connectDialogLinkLabel	Open PagerDuty API access keys
+translation.pagerduty.connectDialogTitle	Connect PagerDuty
+translation.pagerduty.connectDialogValidation.apiKeyRequired	API key required
+translation.pagerduty.connectDialogValidation.actorEmailRequired	Actor email required
+translation.pagerduty.connectDialogValidation.actorEmailInvalid	Please enter a valid email address
+translation.pagerduty.connectedAt	Connected {{date}}
+translation.pagerduty.copyUrl	Copy URL
+translation.pagerduty.copyWebhookUrl	Copy webhook URL
+translation.pagerduty.copyWebhookUrlFailed	Failed to copy webhook URL
+translation.pagerduty.createWebhook	Create webhook subscription
+translation.pagerduty.disconnect	Disconnect
+translation.pagerduty.disconnectDescription	Devin will stop receiving PagerDuty events and remove the webhook subscription it created. MCP installations from the marketplace are not affected
+translation.pagerduty.disconnectTitle	Disconnect PagerDuty?
+translation.pagerduty.keyInvalid	The stored API key is no longer valid. Reconnect with a new key.
+translation.pagerduty.keyInvalidWithReason	The stored API key is no longer valid ({{error}}). Reconnect with a new key.
+translation.pagerduty.options.service.loading	Loading service options…
+translation.pagerduty.options.service.noneFound	No service options found
+translation.pagerduty.options.service.search	Search service…
+translation.pagerduty.options.service.select	Select service
+translation.pagerduty.options.service.connectToSelect	Connect PagerDuty to select a service
+translation.pagerduty.options.team.loading	Loading team options…
+translation.pagerduty.options.team.noneFound	No team options found
+translation.pagerduty.options.team.search	Search team…
+translation.pagerduty.options.team.select	Select team
+translation.pagerduty.options.team.connectToSelect	Connect PagerDuty to select a team
+translation.pagerduty.options.escalationPolicy.noneFound	No escalation policy options found
+translation.pagerduty.options.escalationPolicy.search	Search escalation policy…
+translation.pagerduty.options.escalationPolicy.select	Select escalation policy
+translation.pagerduty.options.priority.loading	Loading priority options…
+translation.pagerduty.options.priority.noneFound	No priority options found
+translation.pagerduty.options.priority.search	Search priority…
+translation.pagerduty.options.priority.select	Select priority
+translation.pagerduty.options.priority.connectToSelect	Connect PagerDuty to select a priority
+translation.pagerduty.linkAppRegistrationMissingToast	PagerDuty is not fully set up for this organization. Ask an admin to add a PagerDuty app registration in Connections.
+translation.pagerduty.manualStep1	In PagerDuty, go to Integrations > Generic webhooks (v3) and add a webhook pointing at the URL above with the account scope
+translation.pagerduty.manualStep2	Select the incident event types you want Devin to receive
+translation.pagerduty.manualStep3	Copy the signing secret PagerDuty shows once and paste it below
+translation.pagerduty.manualTitle	Add webhook
+translation.pagerduty.moreOptionsHint	Showing the first {{count}}. Type to search for more.
+translation.pagerduty.pageDescription	Connect PagerDuty to trigger automations from incidents and let Devin reply with incident notes.
+translation.pagerduty.reconnectWithNewKey	Reconnect with a new key
+translation.pagerduty.regionEu	EU (api.eu.pagerduty.com)
+translation.pagerduty.regionLabel	API region
+translation.pagerduty.regionUs	US (api.pagerduty.com)
+translation.pagerduty.remove	Remove
+translation.pagerduty.removeSubscriptionDescriptionManaged	The webhook subscription will also be deleted in PagerDuty. Devin stops receiving events until a new one is created.
+translation.pagerduty.removeSubscriptionDescriptionManual	The saved signing secret is removed. Delete the webhook in PagerDuty as well if you no longer need it.
+translation.pagerduty.removeSubscriptionTitle	Remove webhook subscription?
+translation.pagerduty.retryWebhookSetup	Retry webhook setup
+translation.pagerduty.save	Save
+translation.pagerduty.setUpManually	Add webhook
+translation.pagerduty.signingSecretLabel	Webhook signing secret
+translation.pagerduty.signingSecretRequired	Webhook signing secret required
+translation.pagerduty.statusLoadFailedBody	Could not load the PagerDuty connection status.
+translation.pagerduty.statusLoadFailedTitle	Something went wrong
+translation.pagerduty.subscriptionActive	Active
+translation.pagerduty.subscriptionCreatedAt	Created {{date}}
+translation.pagerduty.subscriptionIdLabel	Subscription ID
+translation.pagerduty.subscriptionInactive	Inactive
+translation.pagerduty.subscriptionManaged	Auto-created by Devin
+translation.pagerduty.subscriptionManual	Manual
+translation.pagerduty.subscriptionMissingRemote	Not found in PagerDuty
+translation.pagerduty.toastConnectFailed	Failed to connect PagerDuty
+translation.pagerduty.toastConnected	PagerDuty connected
+translation.pagerduty.toastDisconnectFailed	Failed to disconnect PagerDuty
+translation.pagerduty.toastDisconnected	PagerDuty disconnected
+translation.pagerduty.toastIncompatibleKey	This key is not supported. Use a General Access REST API key.
+translation.pagerduty.toastInvalidKey	PagerDuty rejected the API key
+translation.pagerduty.toastSigningSecretFailed	Failed to save signing secret
+translation.pagerduty.toastSigningSecretSaved	Signing secret saved
+translation.pagerduty.toastUnreachable	PagerDuty could not be reached. Try again.
+translation.pagerduty.toastWebhookCreateFailed	Failed to create webhook subscription
+translation.pagerduty.toastWebhookCreated	Webhook subscription created
+translation.pagerduty.toastWebhookRemoveFailed	Failed to remove webhook subscription
+translation.pagerduty.toastWebhookRemoved	Webhook subscription removed
+translation.pagerduty.tryAgain	Try again
+translation.pagerduty.userLinkRowNotMember	This account belongs to the {{subdomain}} PagerDuty account, not the one connected to this organization. Link an account from the connected PagerDuty account to use PagerDuty automations.
+translation.pagerduty.userLinkRowNotMemberUnknown	This account is not a member of the PagerDuty account connected to this organization. Link an account from the connected PagerDuty account to use PagerDuty automations.
+translation.pagerduty.userLinkUnlinkFailed	Failed to unlink your PagerDuty account
+translation.pagerduty.webhookEndpointTitle	Webhook endpoint
+translation.pagerduty.webhookMissing	No active webhook subscription. Devin is not receiving PagerDuty events.
+translation.pagerduty.webhookSetupFailed	Automatic webhook setup failed: {{error}}. Retry, or set it up manually.
+translation.pagerduty.webhookSubtitle	PagerDuty sends incident events to Devin through a webhook subscription
+translation.pagerduty.webhookTitle	Webhook
+translation.inbox.previousItem	Previous item
+translation.inbox.from	From
+translation.inbox.nextItem	Next item
+translation.inbox.filterByType	Filter by type
+translation.inbox.allTypes	All types
+translation.inbox.openInbox	Needs you
+translation.inbox.resolveFailed	Couldn't update the item. Try again.
+translation.inbox.resolveRefused	Couldn't update the item
+translation.inbox.markDone	Mark done
+translation.inbox.markedDone	Marked done
+translation.inbox.networkAccessGranted	Network access granted for {{hosts}}
+translation.inbox.networkAccessHost	Approve allows {{host}} for this {{botName}}
+translation.inbox.networkAccessHost_named	Approve allows {{host}} for {{botName}}
+translation.inbox.approve	Approve
+translation.inbox.addToSlackChannel	Add to #{{channel}}
+translation.inbox.dismiss	Dismiss
+translation.inbox.dismissed	Dismissed
+translation.inbox.lastEngaged	Last engaged {{when}}
+translation.inbox.markActive	Mark active
+translation.inbox.gotIt	Got it
+translation.inbox.open	Open
+translation.inbox.view	View
+translation.inbox.openPr	Open PR
+translation.inbox.markHandled	Mark handled
+translation.inbox.recommendedLabel	Recommended
+translation.inbox.otherOption	Other
+translation.inbox.clearReference	Remove item reference
+translation.inbox.hint.focus	Click to focus
+translation.inbox.hint.unfocus	Click to unfocus
+translation.inbox.hint.expand	Click to expand
+translation.inbox.hint.collapse	Click to collapse
+translation.inbox.actionType.decision	Decision
+translation.inbox.actionType.fyi	FYI
+translation.inbox.actionType.report	Report
+translation.inbox.actionType.pr_codeowners_review	Send for codeowners review
+translation.inbox.actionType.pr_review	Review PR
+translation.inbox.actionType.pr_merge	Merge PR
+translation.inbox.actionType.permission_request	Permission request
+translation.inbox.actionType.other	Other
+translation.inbox.snooze	Snooze
+translation.inbox.snoozeUntil	Snooze until
+translation.inbox.snoozeHour	In one hour
+translation.inbox.snoozeTomorrow	Tomorrow at 9 AM
+translation.inbox.snoozeNextWeek	Next Monday at 9 AM
+translation.inbox.snoozeCustom	Choose date and time…
+translation.inbox.snoozeIndefinitely	Indefinitely
+translation.inbox.snoozeDescription	This item stays snoozed until {{botName}} checks it again after the snooze ends.
+translation.inbox.snoozeTimezone	Times are in {{timezone}}
+translation.inbox.snoozeDate	Date and time
+translation.inbox.snoozeConfirm	Snooze
+translation.inbox.snoozeFailed	Couldn't snooze this item. Try again.
+translation.inbox.snoozeDateInvalid	Please choose a date and time within the next year
+translation.inbox.snoozedUntil	Snoozed until {{time}}
+translation.inbox.snoozedFor	Snoozed for {{duration}}
+translation.inbox.snoozedIndefinitely	Snoozed indefinitely
+translation.inbox.pr.draft	Draft
+translation.inbox.pr.recording	View recording
+translation.inbox.pr.recordings_one	{{count}} recording
+translation.inbox.pr.recordings_other	{{count}} recordings
+translation.inbox.pr.recordingN	Recording {{index}}
+translation.inbox.pr.state.merged	Merged
+translation.inbox.pr.state.closed	Closed
+translation.inbox.pr.open	Open
+translation.inbox.pr.ciStatus.success	Checks passed
+translation.inbox.pr.ciStatus.failure	Checks failed
+translation.inbox.pr.ciStatus.pending	Checks running
+translation.inbox.pr.linkLabel	Pull request #{{number}}
+translation.inbox.pr.linkLabelWithTitle	Pull request #{{number}}, {{title}}
+translation.inbox.doc.lines_one	{{count}} line
+translation.inbox.doc.lines_other	{{count}} lines
+translation.inbox.doc.pages_one	{{count}} page
+translation.inbox.doc.pages_other	{{count}} pages
+translation.inbox.context.pr	PR {{number}}
+translation.inbox.localConnect.connect	Connect
+translation.inbox.localConnect.retry	Retry
+translation.inbox.localConnect.copyCommand	Copy command
+translation.inbox.localConnect.expiresAt	The pairing code expires at {{expiresAt}}.
+translation.inbox.localConnect.expired	The pairing code expired.
+translation.inbox.localConnect.runCommand	Run `{{command}}` on your machine to connect.
+translation.inbox.change.apply	Apply
+translation.inbox.change.allow	Allow
+translation.inbox.change.approveChange	Approve change
+translation.inbox.change.effect.automation.create	Approving creates this automation. Nothing runs now.
+translation.inbox.change.effect.automation.update	Approving saves the change to this automation; its next run uses it. Nothing runs now.
+translation.inbox.change.effect.automation.delete	Approving deletes this automation and stops its runs.
+translation.inbox.change.reject	Reject
+translation.inbox.change.approveOnce	Approve once
+translation.inbox.change.bypassSession	Bypass for this session
+translation.inbox.change.localBypassBlocked	Bypass is unavailable until these are fixed:
+translation.inbox.change.openChange	See the change
+translation.inbox.change.openPr	Open PR
+translation.inbox.change.title	Title
+translation.inbox.change.summary	Summary
+translation.inbox.change.repo	Repo
+translation.inbox.change.files	Files
+translation.inbox.change.unshared	Pending on a session that isn't shared with you
+translation.inbox.change.slackJoinChannel	Join this Slack channel as the {{botName}}'s Slack app
+translation.inbox.change.slackCreateChannel	Create this public Slack channel
+translation.inbox.change.slackInviteToChannel	Add these members to this public Slack channel
+translation.inbox.change.slackLeaveChannel	Leave this public Slack channel
+translation.inbox.change.reviewOnSession	Review and apply from the session
+translation.inbox.change.clear	Clear
+translation.inbox.change.settled	Already answered from the session
+translation.inbox.change.unread	Couldn't read the request from the session; review it there
+translation.inbox.change.reason	Reason
+translation.inbox.change.budget	Usage limit
+translation.inbox.change.kind.permission_request	Permission request
+translation.inbox.change.kind.environment_config_suggestion	Blueprint change
+translation.inbox.change.kind.skill_pr_suggestion	Skill change
+translation.inbox.change.kind.network_access_request	Network access
+translation.inbox.change.kind.bot_budget_proposal	Usage limit increase
+translation.inbox.change.kind.local_access_request	Local Hands connection
+translation.inbox.tickets.label	Linked tickets
+translation.inbox.attachments.label	Attachments
+translation.inbox.attachments.toggle_one	{{count}} attachment
+translation.inbox.attachments.toggle_other	{{count}} attachments
+translation.inbox.needsYouCount_one	{{count}} needs you
+translation.inbox.needsYouCount_other	{{count}} need you
+translation.inbox.itemPosition	{{index}}/{{count}}
+translation.inbox.autoAdvance	Auto-advance
+translation.inbox.collapseInbox	Collapse inbox
+translation.inbox.expandInbox	Expand inbox
+translation.inbox.holdPeekShortcut	Hold <keycap></keycap>
+translation.inbox.replyingTo	Replying to {{title}}
+translation.inbox.totalCount	{{count}} total
+translation.inbox.onHold	Snoozed
+translation.inbox.onHoldCount_one	{{count}} snoozed
+translation.inbox.onHoldCount_other	{{count}} snoozed
+translation.inbox.nothingOnHold	No snoozed items
+translation.inbox.holdFailed	Couldn't update this item's snooze status. Try again.
+translation.inbox.renameTitle	Rename item
+translation.inbox.renameFailed	Couldn't rename this item. Try again.
+translation.inbox.moreActions	More actions
+translation.inbox.snoozeBringBack	Unsnooze
+translation.inbox.done	Done
+translation.input.searchRepository	Search for a repository
+translation.input.removeDefault	Remove default
+translation.input.defaultMachineToggle	Default machine: {{name}}
+translation.input.setAsDefaultPlatform	Set as your default platform
+translation.input.setOrgWideDefault	Set org-wide default
+translation.input.noRepositoriesFound	No repositories found
+translation.input.loading	Loading...
+translation.input.noneEnabled	None enabled
+translation.input.attachOrMention	Attach or mention
+translation.input.uploadFiles	Upload files
+translation.input.attachFiles	Attach files
+translation.input.uploadFolder	Upload folder
+translation.input.folderUpload.preparing	Preparing…
+translation.input.folderUpload.compressing	Compressing… {{percent}}%
+translation.input.folderUpload.uploading	Uploading…
+translation.input.folderUpload.empty	Folder {{name}} has no files to upload
+translation.input.folderUpload.tooLarge	Folder {{name}} exceeds the maximum allowed size of {{limit}}MB
+translation.input.folderUpload.zipTooLarge	Folder {{name}} is larger than {{limit}}MB after compression
+translation.input.folderUpload.compressFailed	Failed to compress folder {{name}}
+translation.input.folderUpload.readFailed	Could not read folder {{name}}
+translation.input.folderUpload.unreadableFiles_one	{{count}} file in folder {{name}} could not be read and was left out
+translation.input.folderUpload.unreadableFiles_other	{{count}} files in folder {{name}} could not be read and were left out
+translation.input.folderUpload.unreadableFilesNames	Left out: {{paths, list}}
+translation.input.uploadImage	Upload image
+translation.input.actions	Actions
+translation.input.dropFilesToShare	Drop files to share with Devin
+translation.input.onlyImageFilesSupported	Only image files are supported (.png, .jpg, .jpeg, .gif, .webp)
+translation.input.mentionRepositories	Repositories
+translation.input.mentionCodebaseFiles	Files
+translation.input.mentionSkills	Skills
+translation.input.mentionSessions	Devin sessions
+translation.input.mentionPlaybooks	Playbooks
+translation.input.mentionPlaybooksMovedToSkills	Playbooks have moved to Skills. Use Skills instead.
+translation.input.mentionPlugins	Plugins
+translation.input.mentionSecrets	Secrets
+translation.input.mentionMacros	Macros
+translation.input.mentionPeople	People
+translation.input.mentionSlackChannels	Slack channels
+translation.input.mentionChannels	Channels
+translation.input.mentionTeamsChannels	Microsoft Teams channels
+translation.input.mentionWorkItems	Work items
+translation.input.mentionBots	{{botNamePlural}}
+translation.input.sendNewSecret	Send new secret
+translation.input.capabilityLabel	Capability
+translation.input.capabilityTooltip	Higher capability means more powerful models but higher costs
+translation.input.capabilityNoneEnabled	All Devin modes are disabled for this organization.
+translation.input.fedCloudSessionsDisabled	Cloud sessions are disabled for this organization.
+translation.input.internalOnly	Internal only
+translation.input.speedLabel	Speed
+translation.input.modeLabel	Mode
+translation.input.modesTooltip	Modes
+translation.input.capabilityCardLearnMore	Learn more
+translation.input.capabilityCardFastMode	Fast mode
+translation.input.capabilityCardFastModeChatGPTSub	Fast mode isn't available while using your ChatGPT plan.
+translation.input.capabilityCardFreeModePlan_one	The plan includes {{count}} concurrent session
+translation.input.capabilityCardFreeModePlan_other	The plan includes {{count}} concurrent sessions
+translation.input.capabilityCardFreeModeSlots	<n>{{used}}/{{limit}}</n> in use
+translation.input.capabilityCardUseChatGPTSub	Use ChatGPT plan
+translation.input.capabilityCardGptSubscription	You're currently using your ChatGPT subscription. <manageLink>Manage</manageLink>
+translation.input.capabilityCardChatGPTSubNotConnected	<manageLink>Connect your ChatGPT account</manageLink> to use your plan.
+translation.input.capabilityCardChatGPTSubReconnectRequired	Your ChatGPT connection has expired. <manageLink>Reconnect</manageLink> to use your plan.
+translation.input.capabilityCardChatGPTSubError	Your ChatGPT plan can't be used right now. <manageLink>Check your connection</manageLink>.
+translation.input.capabilityCardChatGPTSubUpdateFailed	Couldn't update your ChatGPT plan setting. Please try again.
+translation.input.capabilityCardChatGPTSubOwnerOnly	This session uses the session owner's ChatGPT plan. Only they can change this.
+translation.input.setAsDefault	Set default
+translation.input.defaultSet	Default set
+translation.input.defaultRemoved	Default removed
+translation.input.usingOrganizationDefault	Using organization default
+translation.input.personaDataAnalyst	Data Analyst
+translation.inputBox.formatting.label	Text formatting
+translation.inputBox.formatting.bold	Bold
+translation.inputBox.formatting.italic	Italic
+translation.inputBox.formatting.strikethrough	Strikethrough
+translation.inputBox.formatting.code	Inline code
+translation.inputBox.formatting.insideCode	Can't format inside code
+translation.inputBox.formatting.insideLink	Can't add code to a link
+translation.inputBox.formatting.multipleBlocks	Select text in one paragraph
+translation.inputBox.formatting.containsChip	Selection contains a chip
+translation.inputBox.subagentsRunning_one	{{count}} subagent running
+translation.inputBox.subagentsRunning_other	{{count}} subagents running
+translation.inputBox.subagentsPaused_one	{{count}} subagent paused
+translation.inputBox.subagentsPaused_other	{{count}} subagents paused
+translation.inputBox.switchOrganizationFailed	Could not switch organizations. Try again.
+translation.inputBox.addFilesReposMacros	Add files, repositories, macros
+translation.inputBox.attachAsFile	Attach prompt as a file?
+translation.inputBox.attachAsFileConfirm	Attach as file
+translation.inputBox.cancel	Cancel
+translation.inputBox.skipRemainingQuestions	Skip remaining
+translation.inputBox.clickToExpandPrompt	Click to expand prompt
+translation.inputBox.collapseInput	Collapse input
+translation.inputBox.connectReposOrUpgrade	Connect your repositories to try Devin for free or <upgradeButton>upgrade your plan</upgradeButton>
+translation.inputBox.continueInNewSession	Continue in a new session
+translation.inputBox.noWriteAccess	You don't have write access to this session.
+translation.inputBox.contractExpired	Your Devin contract has ended. Contact your account team to renew.
+translation.inputBox.expandInput	Expand input
+translation.inputBox.inboxReply	Ask a question or give direction
+translation.inputBox.guideDevin	Guide {{name}} while it works
+translation.inputBox.guideDevinQueued	Send to the queue, or press {{shortcut}} to send immediately
+translation.inputBox.guideDevinQueuedRich	Send to the queue, or press <kbdShortcut/> to send immediately
+translation.inputBox.guideDevinWithQueued	Guide {{name}} while it works, or press {{shortcut}} to queue
+translation.inputBox.guideDevinWithQueuedRich	Guide {{name}} while it works, or press <kbdShortcut/> to queue
+translation.inputBox.increaseOrgUsageLimit	Increase enterprise organization usage limit
+translation.inputBox.increaseUsageLimit	Increase usage limit
+translation.inputBox.increaseUserUsageLimit	Increase your per-user usage limit
+translation.inputBox.inputDisabled	Input is currently disabled
+translation.inputBox.keyBackspace	Backspace
+translation.inputBox.loadingPrompt	Loading prompt...
+translation.inputBox.loadingPreferences	Loading your preferences...
+translation.inputBox.messageCouldNotBeQueued	Message could not be queued
+translation.inputBox.queuedEditCouldNotBeSaved	Edit could not be saved
+translation.inputBox.messageIsEmpty	Message is empty
+translation.inputBox.noPtsCodesFound	No PTS Codes found
+translation.inputBox.noSeatAllocated	Your account is on an individual plan
+translation.inputBox.noTagsFound	No tags found
+translation.inputBox.organizationGroup	Organization
+translation.inputBox.orgDefaultTagAppliesAtRunTime	Org default {{tag}} applies at run time
+translation.inputBox.parentContextIncludedFrom	Includes context from parent: <parentLink>{{title}}</parentLink>
+translation.inputBox.parentContextSummarizing	Summarizing parent session…
+translation.inputBox.parentContextSummaryFailed	Couldn't summarize parent session
+translation.inputBox.parentContextUnavailable	Couldn't summarize the parent session — continuing without its context.
+translation.inputBox.pasteAttachFailed	Failed to attach pasted text as a file. Try pasting again.
+translation.inputBox.pasteAttachFailedInsertedAsText	Failed to attach pasted text as a file. It was pasted as text instead.
+translation.inputBox.pasteAttachedAsFile	Large paste attached as a file
+translation.inputBox.pleaseSelectRequiredPtsCode	Please select a required PTS Code
+translation.inputBox.pleaseSelectRequiredTag	Please select a required tag
+translation.inputBox.prompt	Prompt
+translation.inputBox.promptTooLong	Your prompt is too long to send directly. Would you like to attach it as a file instead?
+translation.inputBox.ptsCode	PTS Code
+translation.inputBox.queueMessage	Add to queue
+translation.inputBox.queuedMessagesAddAttachment	Add attachment
+translation.inputBox.queuedMessagesClearAll	Clear all
+translation.inputBox.queuedMessagesCount_one	{{count}} message queued
+translation.inputBox.queuedMessagesCount_other	{{count}} messages queued
+translation.inputBox.queuedMessagesEdit	Edit message
+translation.inputBox.queuedMessagesEditingCancel	Cancel
+translation.inputBox.queuedMessagesEditingLabel	Editing queued message
+translation.inputBox.queuedMessagesEditingSave	Update
+translation.inputBox.queuedMessagesRemove	Remove from queue
+translation.inputBox.queuedMessagesSendNow	Send now
+translation.inputBox.recordVoicePrompt	Record voice prompt

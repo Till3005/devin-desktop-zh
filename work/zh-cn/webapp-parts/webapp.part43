@@ -1,0 +1,500 @@
+translation.unifiedServiceUsers.searchPlaceholder	Search for a service user
+translation.unifiedServiceUsers.loadError	Couldn't load service users.
+translation.unifiedServiceUsers.retry	Try again
+translation.unifiedServiceUsers.createdWithoutToken	Service user created. Static keys are disabled for this account, so no token was issued.
+translation.unifiedServiceUsers.provisionTitle	Provision service user
+translation.unifiedServiceUsers.provisionDescription	An API identity for automations and integrations
+translation.unifiedServiceUsers.provisionAction	Provision
+translation.unifiedServiceUsers.provisionError	Couldn't provision the service user
+translation.unifiedServiceUsers.cancel	Cancel
+translation.unifiedServiceUsers.nameLabel	Display name
+translation.unifiedServiceUsers.namePlaceholder	Enter display name
+translation.unifiedServiceUsers.nameRequired	Display name required
+translation.unifiedServiceUsers.roleLabel	Enterprise role
+translation.unifiedServiceUsers.rolePlaceholder	Select role
+translation.unifiedServiceUsers.roleRequired	Select a role
+translation.unifiedServiceUsers.roleNotFound	Selected role not found
+translation.unifiedServiceUsers.expirationLabel	Expiration
+translation.unifiedServiceUsers.expirationDays_one	{{count}} day
+translation.unifiedServiceUsers.expirationDays_other	{{count}} days
+translation.unifiedServiceUsers.expirationNever	Never
+translation.serviceUserAccess.manageAccess	Manage access
+translation.serviceUserAccess.description	Who may use, configure or share {{name}}.
+translation.serviceUserAccess.descriptionUseOnly	Who may use {{name}}.
+translation.serviceUserAccess.searchPlaceholder	Add people, groups or roles
+translation.serviceUserAccess.searchPlaceholderMembersAndRoles	Add people or roles
+translation.serviceUserAccess.botSearchPlaceholder	Add people, groups or roles
+translation.serviceUserAccess.canUse	Can use
+translation.serviceUserAccess.canUseDescription	Run automations as this service user and direct its sessions, with its permissions, connections and secrets
+translation.serviceUserAccess.canConfigure	Can configure
+translation.serviceUserAccess.canConfigureDescription	Manage the connections, plugins and secrets this service user holds
+translation.serviceUserAccess.canShare	Can share
+translation.serviceUserAccess.canShareDescription	Decide who else may use, configure or share it
+translation.serviceUserAccess.useOption	Use
+translation.serviceUserAccess.useOptionDescription	View and use this resource in Devin sessions.
+translation.serviceUserAccess.shareOption	Share
+translation.serviceUserAccess.botCanUse	Can use
+translation.serviceUserAccess.botUseOption	Use
+translation.serviceUserAccess.botUseVerb	use
+translation.serviceUserAccess.botUseDescription	Message {{name}} and direct its sessions, which run with its own connections and secrets.
+translation.serviceUserAccess.botCanConfigure	Can configure
+translation.serviceUserAccess.botConfigureOption	Configure
+translation.serviceUserAccess.botConfigureVerb	configure
+translation.serviceUserAccess.botConfigureDescription	Change {{name}}'s instructions, connections, plugins and secrets.
+translation.serviceUserAccess.botShareDescription	Decide who else can use, configure or share {{name}}.
+translation.serviceUserAccess.shareOptionDescription	Manage access without permission to view or edit this resource.
+translation.serviceUserAccess.configureOption	Configure
+translation.serviceUserAccess.configureOptionDescription	Edit this resource’s contents and settings, or delete it.
+translation.serviceUserAccess.useVerb	use
+translation.serviceUserAccess.configureVerb	configure
+translation.serviceUserAccess.shareVerb	share
+translation.serviceUserAccess.inheritedDescription	Inherited from a collection or a role
+translation.serviceUserAccess.removeSelfError	You can't remove your own access
+translation.serviceUserAccess.heldGrantsTitle	Access to {{name}} also includes
+translation.serviceUserAccess.personalGrantsWarning	Sharing this {{botName}} also shares its connected accounts with everyone you add.
+translation.serviceUserAccess.heldGrantsDescription	Anyone you share {{name}} with can use these.
+translation.serviceUserAccess.heldGrantsUnnamed	Deleted or unknown {{type}}
+translation.serviceUserAccess.heldGrantsEveryOne	Every {{type}}
+translation.serviceUserAccess.heldGrantsCreateAny	Create any {{type}}
+translation.serviceUserAccess.heldGrantsLoadFailed	Couldn't load what this bot can access
+translation.serviceUserAccess.heldGrantsBotReach	Comes with everything {{name}} can access
+translation.serviceUserAccess.heldGrantsRemoveFailed	Couldn't revoke access
+translation.serviceUserAccess.heldGrantsEmpty	Grants will appear here. Each grant shows what {{name}} can do with a shared resource, such as a session or a secret.
+translation.serviceUserAccess.heldGrantsTruncated	{{name}} can access more than is listed here. Revoke some of these to see the rest.
+translation.serviceUserAccess.heldGrantsManagedElsewhere	Managed by a sync; revoke it where it was granted
+translation.serviceUserAccess.shareHeldGrantsTitle	{{name}} has access to other resources
+translation.serviceUserAccess.shareHeldGrantsDescription	Sharing allows others to use these. Untick any you want to revoke from {{name}} first.
+translation.serviceUserAccess.shareHeldGrantsConfirm	Share
+translation.serviceUserAccess.shareHeldGrantLabel	Keep {{resource}} for {{name}}
+translation.serviceUserAccess.heldGrantsTypes.git_connection	Git connections
+translation.serviceUserAccess.heldGrantsTypes.playbook	Playbooks
+translation.serviceUserAccess.heldGrantsTypes.repo	Repositories
+translation.serviceUserAccess.heldGrantsTypes.repo_prefix	Repository prefixes
+translation.serviceUserAccess.heldGrantsTypes.environment	Environments
+translation.serviceUserAccess.heldGrantsTypes.mcp	MCPs
+translation.serviceUserAccess.heldGrantsTypes.mcp_authorization	MCP authorizations
+translation.serviceUserAccess.heldGrantsTypes.knowledge	Knowledge
+translation.serviceUserAccess.heldGrantsTypes.session	Sessions
+translation.serviceUserAccess.heldGrantsTypes.folder	Resource collections
+translation.serviceUserAccess.heldGrantsTypes.secret	Secrets
+translation.serviceUserAccess.heldGrantsTypes.budget	Budgets
+translation.serviceUserAccess.heldGrantsTypes.tracker_connection	Tracker connections
+translation.serviceUserAccess.heldGrantsTypes.secure_mode_profile	Secure mode profiles
+translation.serviceUserAccess.heldGrantsTypes.group	Groups
+translation.serviceUserAccess.heldGrantsTypes.automation	Automations
+translation.serviceUserAccess.heldGrantsTypes.app	Apps
+translation.serviceUserAccess.heldGrantsTypes.outpost_pool	Outpost pools
+translation.serviceUserAccess.heldGrantsTypes.agent_profile	Agent profiles
+translation.serviceUserAccess.heldGrantsTypes.plugin	Plugins
+translation.serviceUserAccess.heldGrantsTypes.service_user	Service users
+translation.serviceUserAccess.heldGrantsTypes.*	Any resource
+translation.userGroups.title	Manage user groups
+translation.userGroups.description	Create groups to manage members and their access to shared resources.
+translation.userGroups.search	Search groups
+translation.userGroups.searchPlaceholder	Search groups
+translation.userGroups.clearSearch	Clear search
+translation.userGroups.sortBy	Sort by
+translation.userGroups.sort.name_asc	Name (A–Z)
+translation.userGroups.sort.name_desc	Name (Z–A)
+translation.userGroups.create	Create group
+translation.userGroups.nameColumn	Name
+translation.userGroups.definitionColumn	Definition
+translation.userGroups.permissionsColumn	Permissions
+translation.userGroups.membersColumn	Members
+translation.userGroups.systemBadge	System
+translation.userGroups.loadError	Couldn't load groups.
+translation.userGroups.retry	Retry
+translation.userGroups.loading	Loading…
+translation.userGroups.noSearchResults	No groups match your search
+translation.userGroups.emptyTitle	No groups yet
+translation.userGroups.emptyDescription	Create a group to share resources with a set of members.
+translation.userGroups.emptyDescriptionNoCreate	Groups you belong to or can manage will appear here.
+translation.userGroups.definition.accountRole	Members holding the {{role}} account role
+translation.userGroups.definition.orgRole	Members holding the {{role}} role in {{org}}
+translation.userGroups.definition.orgMembers	All members of {{org}}
+translation.userGroups.definition.providerTeam	Mirrored from {{provider}} team {{team}}
+translation.userGroups.createTitle	Create group
+translation.userGroups.createDescription	Groups let you grant access to resources to a set of members at once
+translation.userGroups.nameLabel	Name
+translation.userGroups.nameHelp	A short name that identifies the group
+translation.userGroups.namePlaceholder	e.g. Platform engineers
+translation.userGroups.descriptionLabel	Description
+translation.userGroups.descriptionHelp	Explain who belongs in this group
+translation.userGroups.descriptionPlaceholder	Describe this group
+translation.userGroups.cancel	Cancel
+translation.userGroups.close	Close
+translation.userGroups.saveChanges	Save
+translation.userGroups.created	Group created
+translation.userGroups.createFailed	Couldn't create group
+translation.userGroups.saved	Group saved
+translation.userGroups.saveFailed	Couldn't save group
+translation.userGroups.editTitle	Edit group
+translation.userGroups.editSheetDescription	Manage this group's members, permissions and details
+translation.userGroups.viewTitle	Group details
+translation.userGroups.tabMembers	Members
+translation.userGroups.tabPermissions	Permissions
+translation.userGroups.tabGeneral	General
+translation.userGroups.memberCount_one	{{count}} member
+translation.userGroups.memberCount_other	{{count}} members
+translation.userGroups.dangerZone	Danger zone
+translation.userGroups.deleteTitle	Delete group
+translation.userGroups.deleteDescription	Removes the group, its members and every permission granted to it.
+translation.userGroups.deleteConfirm	Delete "{{name}}"? Members lose any access granted through this group.
+translation.userGroups.delete	Delete
+translation.userGroups.deleted	Group deleted
+translation.userGroups.deleteFailed	Couldn't delete group
+translation.userGroups.systemMembersReadOnly	This group is managed automatically from its source. Its members can't be edited here.
+translation.userGroups.addMembersPlaceholder	Search members or add people and IdP groups from your account
+translation.userGroups.searchMembersPlaceholder	Search members
+translation.userGroups.addMembers	Add to group
+translation.userGroups.add	Add
+translation.userGroups.removeFromGroup	Remove from group
+translation.userGroups.addFailed	Couldn't add member
+translation.userGroups.removeFailed	Couldn't remove member
+translation.userGroups.accessFailed	Couldn't update access
+translation.userGroups.membersLoadError	Couldn't load members.
+translation.userGroups.candidatesLoadError	Couldn't search for people to add.
+translation.userGroups.membersReadOnly	You can see this group's members but can't edit them.
+translation.userGroups.noMembers	No members yet
+translation.userGroups.noMemberMatches	No people match your search
+translation.userGroups.memberType.service_user	Service user
+translation.userGroups.memberType.idp_group	Identity provider group
+translation.userGroups.accountPermissions.title	Account permissions
+translation.userGroups.accountPermissions.description	What members of this group can create across the account.
+translation.userGroups.accountPermissions.managed	Set by this group's source
+translation.userGroups.accountPermissions.edit	Edit
+translation.userGroups.accountPermissions.save	Save
+translation.userGroups.accountPermissions.saved	Permissions saved
+translation.userGroups.accountPermissions.saveFailed	Couldn't save permissions
+translation.userGroups.accountPermissions.permissionColumn	Permission
+translation.userGroups.accountPermissions.descriptionColumn	Description
+translation.userGroups.accountPermissions.actions.environment_create	Create environments
+translation.userGroups.accountPermissions.actions.git_connection_create	Create Git integrations
+translation.userGroups.accountPermissions.actions.tracker_connection_create	Create tracker connections
+translation.userGroups.accountPermissions.actions.group_create	Create groups
+translation.userGroups.accountPermissions.actions.folder_create	Create resource collections
+translation.userGroups.accountPermissions.actions.playbook_create	Create Unified playbooks
+translation.userGroups.accountPermissions.actions.secret_create	Create Unified secrets
+translation.userGroups.accountPermissions.actions.automation_create	Create Unified automations
+translation.userGroups.accountPermissions.actionDescriptions.environment_create	Create new environments in the enterprise
+translation.userGroups.accountPermissions.actionDescriptions.git_connection_create	Create new Git integrations
+translation.userGroups.accountPermissions.actionDescriptions.tracker_connection_create	Create new tracker connections
+translation.userGroups.accountPermissions.actionDescriptions.group_create	Create new groups
+translation.userGroups.accountPermissions.actionDescriptions.folder_create	Create new resource collections in Unified mode
+translation.userGroups.accountPermissions.actionDescriptions.playbook_create	Create playbooks in Unified resource collections
+translation.userGroups.accountPermissions.actionDescriptions.secret_create	Create secrets in Unified mode
+translation.userGroups.accountPermissions.actionDescriptions.automation_create	Create automations in Unified mode
+translation.userGroups.resourcesTitle	Resources
+translation.userGroups.permissionsHint	Resources this group has been granted access to.
+translation.userGroups.resourceColumn	Resource
+translation.userGroups.actionColumn	Access
+translation.userGroups.allActions	Full access
+translation.userGroups.actionVerbs.use	use
+translation.userGroups.actionVerbs.view	view
+translation.userGroups.actionVerbs.configure	configure
+translation.userGroups.actionVerbs.share	share
+translation.userGroups.allResources.git_connection	All Git connections
+translation.userGroups.allResources.playbook	All playbooks
+translation.userGroups.allResources.repo	All repositories
+translation.userGroups.allResources.repo_prefix	All repository prefixes
+translation.userGroups.allResources.environment	All environments
+translation.userGroups.allResources.mcp	All MCPs
+translation.userGroups.allResources.mcp_authorization	All MCP authorizations
+translation.userGroups.allResources.knowledge	All knowledge
+translation.userGroups.allResources.session	All sessions
+translation.userGroups.allResources.folder	All resource collections
+translation.userGroups.allResources.secret	All secrets
+translation.userGroups.allResources.budget	All budgets
+translation.userGroups.allResources.tracker_connection	All tracker connections
+translation.userGroups.allResources.secure_mode_profile	All secure mode profiles
+translation.userGroups.allResources.*	All resources
+translation.userGroups.noPermissions	This group hasn't been granted access to any resources.
+translation.userGroups.permissionsLoadError	Couldn't load permissions.
+translation.userGroups.resourceTypes.git_connection	Git connection
+translation.userGroups.resourceTypes.playbook	Playbook
+translation.userGroups.resourceTypes.repo	Repository
+translation.userGroups.resourceTypes.repo_prefix	Repository prefix
+translation.userGroups.resourceTypes.environment	Environment
+translation.userGroups.resourceTypes.mcp	MCP
+translation.userGroups.resourceTypes.mcp_authorization	MCP authorization
+translation.userGroups.resourceTypes.knowledge	Knowledge
+translation.userGroups.resourceTypes.session	Session
+translation.userGroups.resourceTypes.folder	Resource collection
+translation.userGroups.resourceTypes.secret	Secret
+translation.userGroups.resourceTypes.budget	Budget
+translation.userGroups.resourceTypes.tracker_connection	Tracker connection
+translation.userGroups.resourceTypes.secure_mode_profile	Secure mode profile
+translation.userGroups.resourceTypes.group	Group
+translation.userGroups.resourceTypes.automation	Automation
+translation.userGroups.resourceTypes.app	App
+translation.userGroups.resourceTypes.outpost_pool	Outpost pool
+translation.userGroups.resourceTypes.agent_profile	Agent profile
+translation.userGroups.resourceTypes.plugin	Plugin
+translation.userGroups.resourceTypes.memory	Personal memory
+translation.userGroups.resourceTypes.service_user	Service user
+translation.userGroups.resourceTypes.*	Any resource
+translation.userGroups.access.searchPlaceholder	Search for a user or group
+translation.userGroups.access.member	Member
+translation.userGroups.access.memberDescription	In the group: can see it and its members
+translation.userGroups.access.canView	Can view
+translation.userGroups.access.canViewDescription	Can see the group and its members
+translation.userGroups.access.canConfigure	Can edit
+translation.userGroups.access.canConfigureDescription	Can rename the group, add or remove members, and delete it
+translation.userGroups.access.canShare	Can share
+translation.userGroups.access.canShareDescription	Can manage who has access to this group
+translation.userGroups.access.viewVerb	view
+translation.userGroups.access.configureVerb	edit
+translation.userGroups.access.shareVerb	share
+translation.userGroups.access.inheritedDescription	Access inherited from a role or group
+translation.userGroups.access.removeSelfError	You can't remove your own access
+translation.callouts.back	Back
+translation.callouts.next	Next
+translation.callouts.done	Done
+translation.callouts.skip	Skip
+translation.composerToast.openPrsTitle	Open PRs with Devin
+translation.composerToast.connectGitHubDescription	Connect your GitHub account to try Devin on your codebase
+translation.composerToast.finishOrgSetupTitle	Finish setting up your organization
+translation.teamsLink.installPersonalScope	First install Devin in your personal Teams scope
+translation.teamsLink.connectAccount	Connect your Microsoft Teams account to Devin first
+translation.teamsLink.directMessage	Direct message (you)
+translation.teamsLink.groupChat	group chat
+translation.teamsLink.ownerOnly	Only the session owner can connect this session to Teams
+translation.teamsLink.syncSuccess	Synced this session to your Teams chat with Devin
+translation.teamsLink.syncError	Couldn't sync this session to your Teams chat.
+translation.teamsLink.announcementTitle	Sync to Teams
+translation.teamsLink.announcementDescription	Sync this session to your Teams chat with Devin.
+translation.teamsLink.sync	Sync
+translation.prReviewChip.noIssuesFound	No issues found
+translation.prReviewChip.outdated	Outdated
+translation.prReviewChip.devinFound	Devin found {{findings, list}}
+translation.prReviewChip.vulnerabilities_one	{{count}} vulnerability
+translation.prReviewChip.vulnerabilities_other	{{count}} vulnerabilities
+translation.prReviewChip.bugs_one	{{count}} bug
+translation.prReviewChip.bugs_other	{{count}} bugs
+translation.prReviewChip.flags_one	{{count}} flag
+translation.prReviewChip.flags_other	{{count}} flags
+translation.prReviewChip.analyze	Analyze
+translation.prReviewChip.analyzing	Analyzing
+translation.prReviewChip.analyzeHint	Devin can analyze your pull request
+translation.prReviewChip.analyzeInStack	Analyze a pull request in the stack
+translation.prReviewChip.analyzeOptions	More ways to analyze
+translation.prReviewChip.analyzeAutoHint	Analyze now and on every push to this pull request
+translation.prReviewChip.analyzeOnce	Analyze once
+translation.prReviewChip.alwaysAnalyzeMyPrs	Always analyze my pull requests
+translation.prReviewChip.alwaysAnalyzeRepoPrs	Always analyze pull requests in {{repo}}
+translation.prReviewChip.connect	Connect
+translation.projects.missingTooltip	Linked to Jira items we were not able to map to the hierarchy. Expand to see each item.
+translation.projects.unlinkedTooltip	Sessions you can see with no Jira link.
+translation.projects.hideClosed	Hide closed items
+translation.projects.acusBy	ACUs by
+translation.projects.date	Date
+translation.projects.shareOfLinked	{{share}} of linked ACUs
+translation.projects.shareOfLinkedSessions	{{share}} of linked sessions
+translation.projects.otherItems_one	{{count}} other item
+translation.projects.otherItems_other	{{count}} other items
+translation.projects.status	Status
+translation.projects.title	Projects
+translation.projects.organization	Organization
+translation.projects.linkedSpend	Linked ACUs
+translation.projects.search	Search key or title
+translation.projects.expandTo	Expand to
+translation.projects.share	Share
+translation.projects.shareTotal	% of linked ACUs
+translation.projects.shareParent	% of parent
+translation.projects.includeClosed	Show closed items
+translation.projects.closed	Closed
+translation.projects.missing	Outside hierarchy
+translation.projects.otherConnections	Other Jira connections
+translation.projects.unknownOwner	Unknown
+translation.projects.unlinked	Not linked
+translation.projects.untitled	Untitled item
+translation.projects.expand	Expand item
+translation.projects.collapse	Collapse item
+translation.projects.noChildren	No work items below this item in this period.
+translation.projects.noSessionsOnPage	No sessions on this page.
+translation.projects.detailsUnavailable	Details aren’t available yet.
+translation.projects.breakdown	Work breakdown
+translation.projects.previous	Previous
+translation.projects.next	Next
+translation.projects.linkedSessions	Linked sessions
+translation.projects.analytics	Analytics
+translation.projects.sessionsTab	Sessions ({{total}})
+translation.projects.sessionCount_one	{{total}} session
+translation.projects.sessionCount_other	{{total}} sessions
+translation.projects.mergedPrs	Merged PRs
+translation.projects.mergeRate	Merge rate
+translation.projects.mergeRateCaption	{{merged}} of {{total}} sessions with a PR
+translation.projects.acusPerPr	{{acus}} ACUs per PR
+translation.projects.noMergedPrs	None merged yet
+translation.projects.acusPerMergedPr	ACUs per merged PR
+translation.projects.acusPerMergedPrTooltip	ACUs ÷ merged PRs for this item.
+translation.projects.acusByOutcome	ACUs by outcome
+translation.projects.acusOverTime	ACUs over time
+translation.projects.chartType	Chart type
+translation.projects.chartBar	Bar
+translation.projects.chartLine	Line
+translation.projects.acusPerMergedPrOverTime	ACUs per merged PR over time
+translation.projects.acusPerMergedPrOverTimeTooltip	Weekly ACUs ÷ merged PRs. Weeks are by session creation, so recent weeks read high until their PRs merge.
+translation.projects.topContributors	Top contributors
+translation.projects.acusByRepo	Top repositories
+translation.projects.acusByOrg	ACUs by org
+translation.projects.acusByOrigin	ACUs by origin
+translation.projects.acusByMode	ACUs by mode
+translation.projects.acusByChild	ACUs by child item
+translation.projects.linkedDirectly	Linked directly to this item
+translation.projects.noPr	No PR
+translation.projects.openInJira	Open in Jira
+translation.projects.session	Session
+translation.projects.linkedTo	Linked to
+translation.projects.person	Person
+translation.projects.origin	Origin
+translation.projects.pullRequest	PR
+translation.projects.pullRequests	Pull requests
+translation.projects.attachedTo	Attached to
+translation.projects.whyLinked	Why it’s linked here
+translation.projects.source	Source
+translation.projects.relation	Relation
+translation.projects.openSession	Open session
+translation.projects.outcome.merged	Merged PR
+translation.projects.outcome.open	Open PR
+translation.projects.outcome.none	No merged PR
+translation.projects.prState.merged	Merged
+translation.projects.prState.open	Open
+translation.projects.prState.closed	Closed
+translation.projects.ungrouped	Linked by pattern only
+translation.projects.noParentFound	{{key}} (no parent found)
+translation.projects.linkedAcusTooltip	ACUs from sessions linked to Jira.
+translation.projects.shareOfAllAcus	{{share}} of all ACUs
+translation.projects.outsideHierarchy	Linked ACUs outside hierarchy
+translation.projects.outsideHierarchyTooltip	Linked ACUs whose Jira item we were not able to map to the hierarchy.
+translation.projects.linkedSessionsTooltip	Sessions you can see with at least one Jira link.
+translation.projects.shareOfSessions_one	{{share}} of {{total}} session
+translation.projects.shareOfSessions_other	{{share}} of {{total}} sessions
+translation.projects.morePullRequests_one	{{count}} more pull request
+translation.projects.morePullRequests_other	{{count}} more pull requests
+translation.projects.inaccessibleSessions_one	Showing {{visible}} of {{total}} sessions. You don't have access to {{hidden}} session.
+translation.projects.inaccessibleSessions_other	Showing {{visible}} of {{total}} sessions. You don't have access to {{hidden}} sessions.
+translation.projects.outsideHierarchySessions	Linked sessions outside hierarchy
+translation.projects.outsideHierarchySessionsTooltip	Linked sessions whose Jira item we were not able to map to the hierarchy.
+translation.projects.sessionsBy	Sessions by
+translation.projects.sessionsOverTime	Sessions over time
+translation.projects.sessionsByChild	Sessions by child item
+translation.projects.sessionsByOutcome	Sessions by outcome
+translation.projects.sessionsByRepo	Top repositories by sessions
+translation.projects.sessionsByOrg	Sessions by org
+translation.projects.sessionsByOrigin	Sessions by origin
+translation.projects.sessionsByMode	Sessions by mode
+translation.trackerAnalytics.title	Tracker Analytics
+translation.trackerAnalytics.navDescription	ACU usage by project-tracker item, grouped by epic, project or another level
+translation.trackerAnalytics.pageDescription	ACU of the sessions linked to a tracker item, grouped by the item's ancestor of the chosen kind. Titles are read live from the tracker as you see them.
+translation.trackerAnalytics.connection	Connection
+translation.trackerAnalytics.allConnections	All connections
+translation.trackerAnalytics.kind	Group by
+translation.trackerAnalytics.itemColumn	Item
+translation.trackerAnalytics.sessionsColumn	Sessions
+translation.trackerAnalytics.acusColumn	ACUs
+translation.trackerAnalytics.notVisible	Not visible to you
+translation.trackerAnalytics.ungrouped	Ungrouped
+translation.trackerAnalytics.total	Total: {{count}} distinct session · {{acus}} ACUs
+translation.trackerAnalytics.total_other	Total: {{count}} distinct sessions · {{acus}} ACUs
+translation.trackerAnalytics.totalNote	A session linked to several items counts in each of their groups, so the groups can add up to more than the total.
+translation.trackerAnalytics.noSessionsInRange	No linked sessions in this period
+translation.trackerAnalytics.noKinds	No tracker items are linked to sessions yet
+translation.trackerAnalytics.loadFailed	Could not load tracker analytics
+translation.trackerAnalytics.tryAgain	Try again
+translation.settingsCrumbs.newEnterpriseMcpServer	New enterprise MCP server
+translation.settingsCrumbs.managedMcpServer	Managed MCP server
+translation.settingsCrumbs.editManagedWebhook	Webhook Details
+translation.settingsCrumbs.configureMcpServer	Configure MCP server
+translation.settingsCrumbs.setUpMcpServer	Set up MCP server
+translation.settingsCrumbs.createCommunityPlaybook	Create community playbook
+translation.settingsCrumbs.newPlaybook	New playbook
+translation.settingsCrumbs.configureRole	Configure role
+translation.settingsCrumbs.addRole	Add role
+translation.settingsCrumbs.newSchedule	New schedule
+translation.settingsCrumbs.connectGithubOrganization	Connect GitHub Organization
+translation.settingsCrumbs.schedule	Schedule
+translation.settingsCrumbs.mcpDetails	MCP details
+translation.campaignExplainer.label	Specify goal, break down goal into metrics, then optimize metrics. Metrics 1 and 3 rise; Metric 2 falls. All three improve toward their targets.
+translation.campaignExplainer.metric	Metric {{number}}
+translation.campaignExplainer.steps.specifyGoal	Specify goal
+translation.campaignExplainer.steps.breakDownGoal	Break down goal into metrics
+translation.campaignExplainer.steps.optimizeMetrics	Optimize metrics
+translation.campaignExplainer.status.target	Target
+translation.campaignExplainer.status.improving	Improving
+translation.campaignExplainer.status.improved	Improved
+translation.designSystemIcons.copyName	Copy name
+translation.designSystemIcons.copySvg	Copy SVG
+translation.designSystemIcons.nameCopied	{{name}} copied to clipboard
+translation.designSystemIcons.svgCopied	{{name}} SVG copied to clipboard
+translation.copyToasts.apiKey	API key copied
+translation.copyToasts.apiKeyId	API key ID copied
+translation.copyToasts.blueprint	Blueprint copied
+translation.copyToasts.branchName	Branch name copied
+translation.copyToasts.buildLogs	Build logs copied
+translation.copyToasts.callbackUrl	Callback URL copied
+translation.copyToasts.command	Command copied
+translation.copyToasts.datadogSessionLink	Datadog session link copied
+translation.copyToasts.failureSummary	Failure summary copied
+translation.copyToasts.inviteLink	Invite link copied
+translation.copyToasts.issueId	Issue ID copied
+translation.copyToasts.macro	Macro copied
+translation.copyToasts.organizationId	Organization ID copied
+translation.copyToasts.outpostId	Outpost ID copied
+translation.copyToasts.profileId	Profile ID copied
+translation.copyToasts.replayUrl	Replay URL copied
+translation.copyToasts.roleId	Role ID copied
+translation.copyToasts.scimBaseUrl	SCIM base URL copied
+translation.copyToasts.secretName	Secret name copied
+translation.copyToasts.skipSummary	Skip summary copied
+translation.copyToasts.ticketKey	Ticket key copied
+translation.copyToasts.ticketUrl	Ticket URL copied
+translation.copyToasts.variableName	Variable name copied
+translation.copyToasts.yaml	YAML copied
+translation.copyToasts.noDatadogSessionId	No Datadog session ID found
+translation.copyToasts.datadogSessionLinkFailed	Failed to copy Datadog session link
+translation.copyToasts.copyDatadogSessionLinkToClipboard	Copy Datadog session link to clipboard
+translation.copyToasts.copyDatadogSessionLink	Copy Datadog session link
+translation.firstSessionOnboarding.options.review.autoLabel	Auto
+translation.firstSessionOnboarding.options.review.autoDescription	When pull request is ready and every push afterwards
+translation.firstSessionOnboarding.options.review.readyLabel	When PR is ready
+translation.firstSessionOnboarding.options.review.readyDescription	Analyze once when a pull request is created
+translation.firstSessionOnboarding.options.review.manualLabel	Manual
+translation.firstSessionOnboarding.options.review.manualDescription	Analyze pull requests only when requested
+translation.firstSessionOnboarding.options.automation.catchBugsLabel	Catch bugs automatically
+translation.firstSessionOnboarding.options.automation.catchBugsDescription	Review commits on main and suggest a fix immediately
+translation.firstSessionOnboarding.options.automation.autofixReviewLabel	Auto-fix Devin Review findings
+translation.firstSessionOnboarding.options.automation.autofixReviewDescription	Automatically resolved confirmed bugs
+translation.firstSessionOnboarding.options.automation.suggestLabel	Suggest automations
+translation.firstSessionOnboarding.options.automation.suggestDescription	Study recent work and propose useful automations
+translation.firstSessionOnboarding.connectYourTeam	Connect your team
+translation.firstSessionOnboarding.connectYourTasks	Connect your tasks
+translation.startupReferralCallout.body	Your org gets ${{amount}} in bonus usage when a startup you refer joins Devin for Startups.
+translation.startupReferralCallout.cta	Refer
+translation.wikiHistory.description	View a previously generated version of this wiki.
+translation.wikiHistory.descriptionForBranch	View a previously generated version of this wiki for branch {{branch}}.
+translation.wikiHistory.loading	Loading history…
+translation.wikiHistory.noVersions	No historical versions found.
+translation.wikiHistory.current	Current
+translation.wikiHistory.viewingHistorical	You are viewing a historical version of this wiki.
+translation.wikiHistory.backToCurrent	Back to current
+translation.codemapViewer.loading	Loading codemap...
+translation.codemapViewer.unavailable	Codemap unavailable
+translation.codemapViewer.unavailableBody	This codemap doesn't exist or you don't have access to it.
+translation.codemapViewer.fallbackTitle	Codemap
+translation.codemapViewer.traces	Traces
+translation.codemapViewer.diagram	Diagram
+translation.codemapViewer.resizePanels	Resize panels
+translation.codemapViewer.selectLocation	Select a location to view its file
+translation.codemapViewer.openInDesktop	Open in Devin Desktop
+translation.codemapViewer.moreOpenOptions	More open options
+translation.codemapViewer.openInDesktopNext	Open in Devin Desktop Next
+translation.codemapViewer.progress.searched	Searched for "{{pattern}}"
+translation.codemapViewer.progress.foundFiles	Found files matching "{{pattern}}"
+translation.codemapViewer.progress.opened	Opened {{name}}
+translation.codemapViewer.progress.readLines	Read {{name}} (lines {{start}}-{{end}})
+translation.codemapViewer.progress.read	Read {{name}}
+translation.codemapViewer.progress.processing	Processing
+translation.enterpriseUpsell.title	Upgrade to connect {{integration}}
+translation.enterpriseUpsell.integrationDescription	{{integration}} is included in the Enterprise plan.
+translation.enterpriseUpsell.integrationCta	Talk to our team to upgrade your organization.

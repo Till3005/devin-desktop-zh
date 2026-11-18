@@ -1,0 +1,500 @@
+translation.commandPalette.start	Start
+translation.commandPalette.select	Select
+translation.commandPalette.navigate	Navigate
+translation.commandPalette.viewDebugCommands	View debug commands
+translation.commandPalette.archiveSession	Archive session
+translation.commandPalette.createReplay	Create replay
+translation.commandPalette.replaySession	Replay session
+translation.commandPalette.copyOrganizationId	Copy organization ID
+translation.commandPalette.copyEnterpriseId	Copy enterprise ID
+translation.commandPalette.pinSession	Pin session
+translation.commandPalette.searchIn	Search in {{label}}…
+translation.commandPalette.switchOrganization	Switch organization
+translation.commandPalette.unarchiveSession	Unarchive session
+translation.commandPalette.unpinSession	Unpin session
+translation.commandPalette.disableSyncTo	Disable sync to {{label}}
+translation.commandPalette.enableSyncTo	Enable sync to {{label}}
+translation.commandPalette.failedToChangeLanguage	Failed to change language
+translation.commandPalette.failedToCopyOrganizationId	Failed to copy organization ID
+translation.commandPalette.failedToCopyEnterpriseId	Failed to copy enterprise ID
+translation.commandPalette.failedToResetReviewOnboarding	Failed to reset Devin Review onboarding
+translation.commandPalette.failedToResetDismissedCallouts	Failed to reset dismissed callouts
+translation.commandPalette.calloutReset	Reset {{name}}
+translation.commandPalette.ideConnecting	Connecting to Devin's machine… IDE search will be available once it's online.
+translation.commandPalette.ideConnectionFailed	Couldn't connect to Devin's machine.
+translation.commandPalette.ideDevinAsleep	Devin is asleep — IDE search needs the machine online.
+translation.commandPalette.ideGoToLine	Go to line {{line}} in {{file}}
+translation.commandPalette.ideGoToLineWithColumn	Go to line {{line}}, column {{column}} in {{file}}
+translation.commandPalette.ideOpenFileToGoToLine	Open a file to go to a line.
+translation.commandPalette.ideRetryConnection	Retry connection
+translation.commandPalette.ideSearch	IDE search
+translation.commandPalette.ideSessionEnded	This session has ended — IDE search is unavailable.
+translation.commandPalette.ideTypeLineNumber	Enter a line number in {{file}} (e.g. 42 or 42:7).
+translation.commandPalette.impersonate	Impersonate
+translation.commandPalette.logs	Logs
+translation.commandPalette.messageHistory	Message history: {{next}}
+translation.commandPalette.noOrganizationIdFound	No organization ID found
+translation.commandPalette.noEnterpriseIdFound	No enterprise ID found
+translation.commandPalette.organizationIdCopied	Organization ID copied
+translation.commandPalette.enterpriseIdCopied	Enterprise ID copied
+translation.commandPalette.resetDevinReviewOnboarding	Reset Devin Review onboarding
+translation.commandPalette.reviewOnboardingReset	Devin Review onboarding reset
+translation.commandPalette.dismissedCalloutsReset	Dismissed callouts reset
+translation.commandPalette.syncSessionToSlack	Sync session to Slack
+translation.commandPalette.syncSessionToTeams	Sync session to Teams
+translation.commandPalette.typePrompt	Type a prompt…
+translation.commandPalette.typeToSearchText	Type to search text across the workspace…
+translation.commandPalette.wakeUpDevin	Wake up Devin
+translation.commandPalette.waterfallTraces	Waterfall traces
+translation.commandPalette.wdw	WDW
+translation.commandPalette.ideModeFiles	Go to file
+translation.commandPalette.ideModeFilesInput	Search files...
+translation.commandPalette.ideModeFilesPlaceholder	Search files by name (append :42 to jump to a line)…
+translation.commandPalette.ideModeSymbols	Go to symbol in workspace
+translation.commandPalette.ideModeSymbolsInput	Search symbols...
+translation.commandPalette.ideModeSymbolsPlaceholder	Search symbols across the workspace (start with : to group by kind)…
+translation.commandPalette.ideModeGoToLine	Go to line
+translation.commandPalette.ideModeGoToLineInput	Go to line...
+translation.commandPalette.ideModeGoToLinePlaceholder	Go to line (e.g. 42 or 42:7)…
+translation.commandPalette.ideModeText	Search text
+translation.commandPalette.ideModeTextInput	Search text...
+translation.commandPalette.ideModeTextPlaceholder	Search text across the workspace…
+translation.commandPalette.ideModeHelp	IDE search help
+translation.commandPalette.ideModeHelpInput	Search IDE modes...
+translation.commandPalette.ideModeHelpPlaceholder	IDE search modes
+translation.commandPalette.quickInputSelectedCount_one	{{count}} selected
+translation.commandPalette.quickInputSelectedCount_other	{{count}} selected
+translation.commandPalette.quickInputOk	OK
+translation.composerTips.agentLocation	Tip: Run Devin in the cloud or on this machine (<shortcut/>)
+translation.composerTips.capabilityMenu	Tip: Change Devin's model and capabilities (<shortcut/>)
+translation.composerTips.commandPalette	Tip: Search sessions and commands (<shortcut/>)
+translation.composerTips.newSession	Tip: Start a new session (<shortcut/>)
+translation.composerTips.sidebar	Tip: Hide or show the sidebar (<shortcut/>)
+translation.compliance.list.partialScans	Some scans have no results yet
+translation.compliance.list.frameworks	Frameworks
+translation.compliance.list.frameworkCount_one	{{count}} framework
+translation.compliance.list.frameworkCount_other	{{count}} frameworks
+translation.compliance.list.searchFramework	Search frameworks
+translation.compliance.list.noFrameworks	No frameworks
+translation.compliance.list.scanStatus	Scan status
+translation.compliance.list.statusCount_one	{{count}} status
+translation.compliance.list.statusCount_other	{{count}} statuses
+translation.compliance.list.status.deviations	With deviations
+translation.compliance.list.status.clean	No open deviations
+translation.compliance.list.status.unscanned	Not scanned
+translation.compliance.list.systemActions	System actions
+translation.compliance.list.openSystem	Open system
+translation.compliance.list.emptyNote	Devin collects evidence and flags deviations for your assessor to validate; it does not attest that a control is met.
+translation.compliance.ledger.count	{{shown}} of {{total}} findings
+translation.compliance.ledger.countWithEvidence	{{shown}} of {{total}} findings and evidence pointers
+translation.compliance.ledger.noMatches	No findings match these filters.
+translation.compliance.ledger.empty	No findings from the latest completed scans.
+translation.compliance.ledger.kind	Kind
+translation.compliance.ledger.kinds.deviation	Deviation
+translation.compliance.ledger.kinds.evidence	Evidence
+translation.compliance.ledger.kinds.all	All kinds
+translation.compliance.evidence.fullScreen	Open full screen
+translation.compliance.evidence.exitFullScreen	Exit full screen
+translation.compliance.evidence.source	Source
+translation.compliance.evidence.requirement	Requirement text
+translation.compliance.evidence.recommendation	Recommendation
+translation.compliance.evidence.provenance	Provenance
+translation.compliance.evidence.scope	Scan scope
+translation.compliance.evidence.statusDetails	Status details
+translation.compliance.evidence.scanId	Scan
+translation.compliance.evidence.scanSession	Scan session
+translation.compliance.evidence.commitUnknown	Commit unavailable
+translation.compliance.evidence.findingUnavailable	This finding is unavailable for this control in the current scans.
+translation.compliance.evidence.outcomeRow.noSurface.detail	A current scan of this profile declared that none of the sources it scanned can speak to this control, and no current scan recorded a search for it. This says nothing about whether the control is met.
+translation.compliance.evidence.outcomeRow.noSurface.next	Check other sources for policies, procedures, training records, or operational configuration relevant to this control. Within the current scan scope, no source was searched for it.
+translation.compliance.evidence.outcomeRow.noEvidence.detail	The current scans searched their sources for this control, and it currently has no open evidence or deviations. Having no open findings is not evidence that the control is met; the matchers may also have missed evidence kept in another form.
+translation.compliance.evidence.outcomeRow.noEvidence.next	Check whether the control is implemented or documented outside the searched sources, and add that evidence alongside the scans.
+translation.compliance.evidence.outcomeRow.notSearched.detail	The current scans have no recorded search for this criterion. Older scans may not include search details.
+translation.compliance.evidence.outcomeRow.notSearched.next	Run a new scan to check this criterion.
+translation.compliance.evidence.outcomeRow.noScans.detail	No completed scan results are loaded for this profile, so nothing is known about this control from the repositories.
+translation.compliance.evidence.outcomeRow.noScans.next	Run a new scan of the system's repositories to search for this control.
+translation.compliance.detail.systemDetails	System details
+translation.compliance.detail.outcomes.deviation	Deviation found
+translation.compliance.detail.outcomes.evidence	Evidence found
+translation.compliance.detail.outcomes.no-evidence	No evidence
+translation.compliance.detail.outcomes.no-surface	Outside scan scope
+translation.compliance.detail.outcomes.not-searched	Not searched
+translation.compliance.detail.notSearchedCount	{{count}} not searched
+translation.compliance.detail.outcome	State
+translation.compliance.detail.deviations	Deviations
+translation.compliance.detail.deviationCount	{{count}} {{severity}}
+translation.compliance.detail.id	ID
+translation.compliance.detail.search	Search criteria
+translation.compliance.detail.clear	Clear filters
+translation.compliance.detail.noMatches	No criteria match these filters.
+translation.compliance.detail.controlNotFound	Criterion not found
+translation.compliance.detail.notFound	System not found
+translation.compliance.detail.notFoundDescription	This system is not in the available compliance profiles.
+translation.compliance.detail.partialError_one	Evidence for {{count}} scan could not be fully loaded; its criteria may show as not searched.
+translation.compliance.detail.partialError_other	Evidence for {{count}} scans could not be fully loaded; their criteria may show as not searched.
+translation.compliance.detail.error	Compliance profiles, scans, or findings could not be loaded. Try again.
+translation.compliance.systems	Compliance systems
+translation.compliance.system	System
+translation.compliance.framework	Framework
+translation.compliance.includedFrameworks	Frameworks in this system
+translation.compliance.allFrameworks	All frameworks
+translation.compliance.searchFrameworks	Search frameworks...
+translation.compliance.unassignedFramework	Unassigned framework
+translation.compliance.summary.title	Summary
+translation.compliance.summary.generate	Generate summary
+translation.compliance.summary.regenerate	Regenerate
+translation.compliance.summary.generating	Writing summary...
+translation.compliance.summary.help	A cited write-up of the findings below to review and paste into audit documentation. Not a compliance determination.
+translation.compliance.summary.copy	Copy summary
+translation.compliance.summary.failed	The summary could not be generated. Try again.
+translation.compliance.guidance.title	Guidance for Devin
+translation.compliance.guidance.placeholder	Where to look, what's needed, or why evidence was rejected.
+translation.compliance.guidance.help	Applies to future scans of every repository using this catalog. Scan new commits only looks at new commits; use Full rescan to re-evaluate this control everywhere.
+translation.compliance.guidance.save	Save
+translation.compliance.guidance.clear	Clear guidance
+translation.compliance.guidance.saved	Guidance saved
+translation.compliance.guidance.cleared	Guidance cleared
+translation.compliance.guidance.nextScan	Takes effect on the next scan.
+translation.compliance.guidance.saveFailed	Guidance could not be saved. Try again.
+translation.compliance.guidance.indicator	Guidance
+translation.compliance.guidance.indicatorTitle	This control has guidance for Devin
+translation.compliance.addFramework	Add framework with Devin
+translation.compliance.catalogs	Scan profiles
+translation.compliance.repositories	Repositories
+translation.compliance.scans	Scans
+translation.compliance.scanProgress.batches	{{completed}} of {{total}} batches investigated
+translation.compliance.scanProgress.systemScan	System scan
+translation.compliance.scanProgress.profiles_one	{{count}} scan profile
+translation.compliance.scanProgress.profiles_other	{{count}} scan profiles
+translation.compliance.scanProgress.deviations_one	{{count}} deviation
+translation.compliance.scanProgress.deviations_other	{{count}} deviations
+translation.compliance.scanProgress.neverScanned_one	{{count}} never scanned
+translation.compliance.scanProgress.neverScanned_other	{{count}} never scanned
+translation.compliance.scanProgress.incomplete	Incomplete
+translation.compliance.scanProgress.profilesRunning	{{running}} of {{count}} scan profiles running
+translation.compliance.scanHistory.title	Scan history
+translation.compliance.scanHistory.empty	No scans yet for this system.
+translation.compliance.scanHistory.started	Started
+translation.compliance.scanHistory.finished	Finished
+translation.compliance.scanHistory.noSessionPermission	You don't have permission to start Devin sessions
+translation.compliance.scanHistory.runActive	A run is already in progress
+translation.compliance.runAction.runSystemScan	Run system scan
+translation.compliance.runAction.rescan	Rescan
+translation.compliance.runAction.rescanTooltip	Scans only commits added since {{commit}} ({{date}}); does not create a new scan.
+translation.compliance.runAction.fullRescan	Full rescan
+translation.compliance.runAction.fullRescanTooltip	Starts a new scan of every repository from scratch, re-mapping all criteria; the current scan and its findings stay in the history.
+translation.compliance.runAction.systemScanNewCommitsTooltip	Scans new commits across all frameworks in this system; profiles never scanned get a first assessment.
+translation.compliance.runAction.systemFullRescanTooltip	Starts a new scan of every scan profile across all frameworks in this system, re-mapping all criteria; current scans and their findings stay in the history. Profiles never scanned get a first assessment.
+translation.compliance.runAction.framework	Framework
+translation.compliance.runAction.lastScanned	Last scanned
+translation.compliance.runAction.respond	Respond
+translation.compliance.runAction.respondTooltip	Devin is waiting for your input in the scan session. Reply there to continue the scan.
+translation.compliance.runAction.neverScanned	Never scanned
+translation.compliance.runAction.duplicateBadge	Concurrent runs
+translation.compliance.runAction.groupStarted_one	Started {{count}} run
+translation.compliance.runAction.groupStarted_other	Started {{count}} runs
+translation.compliance.runAction.groupUpToDate_one	{{count}} scan profile is already up to date; no run started
+translation.compliance.runAction.groupUpToDate_other	All {{count}} scan profiles are already up to date; no run started
+translation.compliance.runAction.groupFailed_one	{{failed}} of {{count}} run failed to start
+translation.compliance.runAction.groupFailed_other	{{failed}} of {{count}} runs failed to start
+translation.compliance.runAction.failed	Failed to start
+translation.compliance.runAction.runFirstAssessment	Run first assessment
+translation.compliance.runAction.noRepos	No repository is associated with this system yet
+translation.compliance.runAction.duplicate_one	{{count}} scan is running for this scan profile and repositories.
+translation.compliance.runAction.duplicate_other	{{count}} scans are running for this scan profile and repositories, so their findings will be split. Cancel the ones you do not need.
+translation.compliance.systemActions.label	Actions for {{name}}
+translation.compliance.systemActions.archive	Archive system
+translation.compliance.systemActions.archiveTitle	Archive {{name}}?
+translation.compliance.systemActions.archiveDescription_one	Archives its {{count}} catalog and removes the system from Compliance. Existing scans and findings are kept.
+translation.compliance.systemActions.archiveDescription_other	Archives all {{count}} of its catalogs and removes the system from Compliance. Existing scans and findings are kept.
+translation.compliance.systemActions.archived	{{name}} archived
+translation.compliance.systemActions.archiveFailed_one	{{failed}} of {{count}} catalog could not be archived
+translation.compliance.systemActions.archiveFailed_other	{{failed}} of {{count}} catalogs could not be archived
+translation.compliance.systemActions.rename	Rename system
+translation.compliance.systemActions.renameTitle	Rename {{name}}
+translation.compliance.systemActions.renameDescription_one	Updates the system on its {{count}} catalog
+translation.compliance.systemActions.renameDescription_other	Updates the system on all {{count}} of its catalogs
+translation.compliance.systemActions.slugHint	Changing the slug moves the system to a new URL.
+translation.compliance.systemActions.slugTaken	Another system already uses this slug.
+translation.compliance.systemActions.renamed	Renamed to {{name}}
+translation.compliance.systemActions.renameFailed_one	{{failed}} of {{count}} catalog could not be renamed and stays under the old system
+translation.compliance.systemActions.renameFailed_other	{{failed}} of {{count}} catalogs could not be renamed and stay under the old system
+translation.compliance.systemActions.accountSharedBlocked	Some catalogs are shared across the enterprise and can only be changed by an enterprise admin
+translation.compliance.systemActions.exportCsv	Export CSV
+translation.compliance.systemActions.exportCsvDisabled	Available once a scan of this system has completed
+translation.compliance.systemActions.exporting	Exporting CSV…
+translation.compliance.systemActions.exported	CSV download started
+translation.compliance.systemActions.exportFailed	The CSV could not be exported
+translation.compliance.systemGuidance.menu	Guidance for Devin
+translation.compliance.systemGuidance.title	Guidance for {{name}}
+translation.compliance.systemGuidance.description	Applies to every scan of this system. Steers where Devin looks and how it writes findings, never a control's state.
+translation.compliance.systemGuidance.label	Guidance
+translation.compliance.systemGuidance.placeholder	e.g. Ignore apps/legacy/**. Keep observation descriptions to one sentence. Deprioritize the PE family.
+translation.compliance.systemGuidance.partial	Saved on {{saved}} of {{count}} scan profiles. Save to apply to all.
+translation.compliance.systemGuidance.save	Save
+translation.compliance.systemGuidance.saved	System guidance saved
+translation.compliance.systemGuidance.cleared	System guidance cleared
+translation.compliance.systemGuidance.nextScan	Takes effect on the next scan.
+translation.compliance.systemGuidance.saveFailed_one	{{failed}} of {{count}} scan profile could not be updated
+translation.compliance.systemGuidance.saveFailed_other	{{failed}} of {{count}} scan profiles could not be updated
+translation.compliance.usage.latestFull	Latest full scans: {{usage}}
+translation.compliance.usage.latestRun	Latest run usage
+translation.compliance.usage.unavailable	Usage unavailable
+translation.compliance.usage.loadError	Could not load usage
+translation.compliance.usage.loading	Loading usage…
+translation.compliance.usage.fullScope	Total ACUs of the latest full scan per catalog, excluding reruns and imported evidence.
+translation.compliance.usage.runScope	ACUs used by the latest run. See Scan history for earlier runs.
+translation.compliance.noCompletedScans	No completed scans
+translation.compliance.openScanSession	Open last scan session for {{system}}
+translation.compliance.loading	Loading compliance systems…
+translation.compliance.errorTitle	Unable to load compliance systems
+translation.compliance.errorDescription	Compliance profiles or scans could not be loaded. Try again.
+translation.compliance.tryAgain	Try again
+translation.compliance.title	Compliance
+translation.compliance.description	Collect control evidence from your code and keep it current: quoted artifacts per control, deviations as remediation PRs, and a re-run after merged fixes. Whether a control is met stays with your assessor.
+translation.compliance.emptyTitle	No compliance systems yet
+translation.compliance.emptyDescription	A system is one authorization boundary (repositories and paths) with the compliance frameworks that apply to it. Systems you set up will appear here.
+translation.common.availableToAdmins	Available to admins
+translation.common.cancel	Cancel
+translation.common.close	Close
+translation.common.copied	Copied
+translation.common.copy	Copy
+translation.common.readOnly	Read-only
+translation.common.copyLink	Copy link
+translation.common.cut	Cut
+translation.common.deselectAllEnterprisesOnPage	Deselect all enterprises on this page
+translation.common.deselectAllOtherEnterprises	Deselect all other enterprises on this page
+translation.common.deselectAllYourEnterprises	Deselect all your enterprises on this page
+translation.common.failedToCopy	Failed to copy
+translation.common.failedToCopyLink	Failed to copy link
+translation.common.inProgress	In progress
+translation.common.linkCopied	Link copied
+translation.common.learnMore	Learn more
+translation.common.loading	Loading…
+translation.common.openInNewTab	Open in new tab
+translation.common.openInExternalBrowser	Open in external browser
+translation.common.paste	Paste
+translation.common.user	User
+translation.common.selectAllEnterprisesOnPage	Select all enterprises on this page
+translation.common.selectAllOtherEnterprises	Select all other enterprises on this page
+translation.common.selectAllYourEnterprises	Select all your enterprises on this page
+translation.common.selectedFilter	Selected filter
+translation.common.selectedOption	Selected option
+translation.common.selectedTeam	Selected team
+translation.common.saving	Saving…
+translation.common.sending	Sending…
+translation.common.skipToMainContent	Skip to main content
+translation.common.syncing	Syncing
+translation.common.unselectedFilter	Unselected filter
+translation.common.unselectedOption	Unselected option
+translation.common.unselectedTeam	Unselected team
+translation.chatSyncConfirm.title	Your message will notify people in {{provider}}
+translation.chatSyncConfirm.participants_one	{{countLabel}} other person will be notified in {{channel}}
+translation.chatSyncConfirm.participants_other	{{countLabel}} other people will be notified in {{channel}}
+translation.chatSyncConfirm.participantsUnknown	Other people will be notified in {{channel}}
+translation.chatSyncConfirm.dontRemindToday	Don't remind me today
+translation.chatSyncConfirm.cancel	Cancel
+translation.chatSyncConfirm.post	Post
+translation.dataTable.collapseRow	Collapse {{name}}
+translation.dataTable.expandRow	Expand {{name}}
+translation.dataTable.moreColumns_one	{{count}} more column
+translation.dataTable.moreColumns_other	{{count}} more columns
+translation.dataTable.columnsBefore_one	{{count}} column before
+translation.dataTable.columnsBefore_other	{{count}} columns before
+translation.dataTable.clearSelection	Clear selection
+translation.dataTable.selectAllRows	Select all rows
+translation.dataTable.selectRow	Select row
+translation.confirmation.cancel	Cancel
+translation.confirmation.confirm	Confirm
+translation.personalQuotaAnalytics.currentCycle	Current cycle
+translation.personalQuotaAnalytics.previousCycle	Previous cycle
+translation.personalQuotaAnalytics.selectCycle	Select billing cycle
+translation.personalQuotaAnalytics.unavailable	Personal analytics aren't available for your plan yet.
+translation.personalQuotaAnalytics.weeklyQuota	Weekly quota used
+translation.personalQuotaAnalytics.quotaDescription	Your usage of your weekly quota included as part of your full seat
+translation.personalQuotaAnalytics.weeklyAverageUtilization	Weekly average utilization
+translation.personalQuotaAnalytics.noQuotaSeat	You don't have a quota seat assigned.
+translation.personalQuotaAnalytics.noWeeklyUsage	No quota usage in this period.
+translation.personalQuotaAnalytics.weeklyTooltip	{{percent}}% of weekly quota used
+translation.personalQuotaAnalytics.inProgress	In progress
+translation.personalQuotaAnalytics.loadError	Couldn't load your personal analytics.
+translation.personalQuotaAnalytics.retry	Try again
+translation.personalQuotaAnalytics.onDemandSpend	On-demand spend
+translation.personalQuotaAnalytics.onDemandDescription	Your own on-demand spend across Devin Cloud, Desktop, and CLI.
+translation.personalQuotaAnalytics.cycleTotal	Cycle total
+translation.personalQuotaAnalytics.noOnDemandUsage	No on-demand usage in this period.
+translation.consumption.acuLimitDialog.cancel	Cancel
+translation.consumption.acuLimitDialog.description_one	Set the max number of ACUs the selected organization can use per month
+translation.consumption.acuLimitDialog.description_other	Set the max number of ACUs the {{count}} selected organizations can use per month
+translation.consumption.acuLimitDialog.errorToast_one	Failed to update ACU limit for {{count}} organization
+translation.consumption.acuLimitDialog.errorToast_other	Failed to update ACU limit for {{count}} organizations
+translation.consumption.acuLimitDialog.loadingToast_one	Updating ACU limit for {{count}} organization...
+translation.consumption.acuLimitDialog.loadingToast_other	Updating ACU limit for {{count}} organizations...
+translation.consumption.acuLimitDialog.noLimit	No limit
+translation.consumption.acuLimitDialog.successToast_one	Successfully updated ACU limit for {{count}} organization
+translation.consumption.acuLimitDialog.successToast_other	Successfully updated ACU limit for {{count}} organizations
+translation.consumption.acuLimitDialog.title	Update ACU limit
+translation.consumption.cyclePeriod.current.month	Current month
+translation.consumption.cyclePeriod.current.quarter	Current quarter
+translation.consumption.cyclePeriod.current.halfYear	Current half-year
+translation.consumption.cyclePeriod.current.year	Current year
+translation.consumption.cyclePeriod.current.cycle	Current cycle
+translation.consumption.cyclePeriod.previous.month	Previous month
+translation.consumption.cyclePeriod.previous.quarter	Previous quarter
+translation.consumption.cyclePeriod.previous.halfYear	Previous half-year
+translation.consumption.cyclePeriod.previous.year	Previous year
+translation.consumption.cyclePeriod.previous.cycle	Previous cycle
+translation.consumption.cyclePeriod.currentBilling.month	Current billing month
+translation.consumption.cyclePeriod.currentBilling.quarter	Current billing quarter
+translation.consumption.cyclePeriod.currentBilling.halfYear	Current billing half-year
+translation.consumption.cyclePeriod.currentBilling.year	Current billing year
+translation.consumption.cyclePeriod.currentBilling.cycle	Current billing cycle
+translation.consumption.cyclePeriod.currentDates.month	Current month dates
+translation.consumption.cyclePeriod.currentDates.quarter	Current quarter dates
+translation.consumption.cyclePeriod.currentDates.halfYear	Current half-year dates
+translation.consumption.cyclePeriod.currentDates.year	Current year dates
+translation.consumption.cyclePeriod.currentDates.cycle	Current cycle dates
+translation.consumption.cyclePeriod.historical.month	Historical months
+translation.consumption.cyclePeriod.historical.quarter	Historical quarters
+translation.consumption.cyclePeriod.historical.halfYear	Historical half-years
+translation.consumption.cyclePeriod.historical.year	Historical years
+translation.consumption.cyclePeriod.historical.cycle	Historical cycles
+translation.consumption.cyclePeriod.capacityShare.month	{{percent}}% of current month capacity
+translation.consumption.cyclePeriod.capacityShare.quarter	{{percent}}% of current quarter capacity
+translation.consumption.cyclePeriod.capacityShare.halfYear	{{percent}}% of current half-year capacity
+translation.consumption.cyclePeriod.capacityShare.year	{{percent}}% of current year capacity
+translation.consumption.cyclePeriod.capacityShare.cycle	{{percent}}% of current cycle capacity
+translation.consumption.cyclePeriod.reviewJobs.month	PR review jobs this month ({{range}})
+translation.consumption.cyclePeriod.reviewJobs.quarter	PR review jobs this quarter ({{range}})
+translation.consumption.cyclePeriod.reviewJobs.halfYear	PR review jobs this half-year ({{range}})
+translation.consumption.cyclePeriod.reviewJobs.year	PR review jobs this year ({{range}})
+translation.consumption.cyclePeriod.reviewJobs.cycle	PR review jobs this cycle ({{range}})
+translation.consumption.cyclePeriod.topRepos.month	Top {{topN}} repositories by {{noun}} this month ({{range}}). Remaining repositories are grouped into Other.
+translation.consumption.cyclePeriod.topRepos.quarter	Top {{topN}} repositories by {{noun}} this quarter ({{range}}). Remaining repositories are grouped into Other.
+translation.consumption.cyclePeriod.topRepos.halfYear	Top {{topN}} repositories by {{noun}} this half-year ({{range}}). Remaining repositories are grouped into Other.
+translation.consumption.cyclePeriod.topRepos.year	Top {{topN}} repositories by {{noun}} this year ({{range}}). Remaining repositories are grouped into Other.
+translation.consumption.cyclePeriod.topRepos.cycle	Top {{topN}} repositories by {{noun}} this cycle ({{range}}). Remaining repositories are grouped into Other.
+translation.consumption.cyclePeriod.crossUnitTitle.month	This date range spans billing months measured in different units
+translation.consumption.cyclePeriod.crossUnitTitle.quarter	This date range spans billing quarters measured in different units
+translation.consumption.cyclePeriod.crossUnitTitle.halfYear	This date range spans billing half-years measured in different units
+translation.consumption.cyclePeriod.crossUnitTitle.year	This date range spans billing years measured in different units
+translation.consumption.cyclePeriod.crossUnitTitle.cycle	This date range spans billing cycles measured in different units
+translation.consumption.cyclePeriod.crossUnitDescription.month	ACU and dollar usage can't be combined. Choose a range within a single billing month.
+translation.consumption.cyclePeriod.crossUnitDescription.quarter	ACU and dollar usage can't be combined. Choose a range within a single billing quarter.
+translation.consumption.cyclePeriod.crossUnitDescription.halfYear	ACU and dollar usage can't be combined. Choose a range within a single billing half-year.
+translation.consumption.cyclePeriod.crossUnitDescription.year	ACU and dollar usage can't be combined. Choose a range within a single billing year.
+translation.consumption.cyclePeriod.crossUnitDescription.cycle	ACU and dollar usage can't be combined. Choose a range within a single billing cycle.
+translation.consumption.cycleLegend.beforeLast.cycle	Cycle before last
+translation.consumption.cycleLegend.beforeLast.halfYear	Half-year before last
+translation.consumption.cycleLegend.beforeLast.month	Month before last
+translation.consumption.cycleLegend.beforeLast.quarter	Quarter before last
+translation.consumption.cycleLegend.beforeLast.year	Year before last
+translation.consumption.cycleLegend.current.cycle	Current Cycle
+translation.consumption.cycleLegend.current.halfYear	Current Half-year
+translation.consumption.cycleLegend.current.month	Current Month
+translation.consumption.cycleLegend.current.quarter	Current Quarter
+translation.consumption.cycleLegend.current.year	Current Year
+translation.consumption.cycleLegend.indexed.cycle	Cycle {{index}}
+translation.consumption.cycleLegend.indexed.halfYear	Half-year {{index}}
+translation.consumption.cycleLegend.indexed.month	Month {{index}}
+translation.consumption.cycleLegend.indexed.quarter	Quarter {{index}}
+translation.consumption.cycleLegend.indexed.year	Year {{index}}
+translation.consumption.cycleLegend.previous.cycle	Previous Cycle
+translation.consumption.cycleLegend.previous.halfYear	Previous Half-year
+translation.consumption.cycleLegend.previous.month	Previous Month
+translation.consumption.cycleLegend.previous.quarter	Previous Quarter
+translation.consumption.cycleLegend.previous.year	Previous Year
+translation.consumption.acuLimitInput.cannotBeNegative	ACU limits cannot be negative
+translation.consumption.acuLimitInput.mustBeWholeNumber	ACU limits must be a whole number
+translation.consumption.spendLimitDialog.description_one	Set the max amount the selected organization can spend per month
+translation.consumption.spendLimitDialog.description_other	Set the max amount the {{count}} selected organizations can spend per month
+translation.consumption.spendLimitDialog.errorToast_one	Failed to update spend limit for {{count}} organization
+translation.consumption.spendLimitDialog.errorToast_other	Failed to update spend limit for {{count}} organizations
+translation.consumption.spendLimitDialog.loadingToast_one	Updating spend limit for {{count}} organization...
+translation.consumption.spendLimitDialog.loadingToast_other	Updating spend limit for {{count}} organizations...
+translation.consumption.spendLimitDialog.successToast_one	Successfully updated spend limit for {{count}} organization
+translation.consumption.spendLimitDialog.successToast_other	Successfully updated spend limit for {{count}} organizations
+translation.consumption.spendLimitDialog.title	Update spend limit
+translation.consumption.dollarLimitInput.cannotBeNegative	Dollar limits cannot be negative
+translation.consumption.dollarLimitInput.invalidAmount	Enter a dollar amount with at most two decimal places
+translation.consumption.dollarLimitInput.tooLarge	Enter a smaller dollar amount
+translation.consumption.acuLimitScope.cloudBadge	Cloud only
+translation.consumption.acuLimitScope.cloudLabel	Monthly cloud ACU limit
+translation.consumption.acuLimitScope.cloudLimitLegend	Cloud limit
+translation.consumption.acuLimitScope.cloudLimitLegendTooltip	The limit line covers Devin sessions and Devin Review only, while the bars include Devin Desktop and Terminal CLI usage, so a bar can exceed the line without the organization being blocked.
+translation.consumption.acuLimitScope.cloudDescription	Applies to Devin sessions and Devin Review only. Devin Desktop and Terminal CLI usage is not counted toward this limit.
+translation.consumption.acuLimitScope.cloudFieldDescription	Counts Devin sessions and Devin Review only, not Devin Desktop or Terminal CLI
+translation.consumption.acuLimitScope.combinedLabel	Monthly ACU limit
+translation.consumption.acuLimitScope.combinedDescription	Applies to usage across all products: Devin sessions, Devin Review, Devin Desktop, and Terminal CLI.
+translation.consumption.acuLimitScope.combinedFieldDescription	Counts usage across Devin sessions, Devin Review, Devin Desktop, and Terminal CLI
+translation.consumption.acuLimitScope.mixedSelectionWarning	The selected organizations have different limit types: {{cloud}} count Devin sessions and Devin Review only, and {{combined}} count usage across all products. Each organization gets this value as its own limit type
+translation.consumption.acuLimitScope.combinedSpendLabel	Monthly spend limit
+translation.consumption.csv.currentPeriodHeader	{{metric}} current period ({{period}})
+translation.consumption.csv.previousPeriodHeader	{{metric}} previous period ({{period}})
+translation.consumption.cycleCapacity.column	Monthly ACU limit
+translation.consumption.cycleCapacity.tooltip	Per-org ACU limit for the current monthly window
+translation.consumption.cycleCapacity.tooltip_cloud	Per-org cloud ACU limit for the current monthly window. Applies to Devin sessions and Devin Review only; Devin Desktop and Terminal CLI usage is not counted.
+translation.consumption.cycleCapacity.tooltip_combined	Per-org ACU limit for the current monthly window across all products.
+translation.consumption.monthlyThreshold.cancel	Cancel
+translation.consumption.monthlyThreshold.current	Current threshold: {{amount}}
+translation.consumption.monthlyThreshold.description_acus	Tracks pacing within each month of your billing cycle. Leave empty to disable
+translation.consumption.monthlyThreshold.description_dollars	Tracks pacing within each month of your billing cycle. Leave empty to disable
+translation.consumption.monthlyThreshold.disabledToast	Monthly threshold disabled
+translation.consumption.monthlyThreshold.errorToast	Failed to update monthly threshold
+translation.consumption.monthlyThreshold.invalid_acus	Please enter a valid non-negative whole number
+translation.consumption.monthlyThreshold.invalid_dollars	Please enter a valid non-negative amount (up to 2 decimals)
+translation.consumption.monthlyThreshold.loadError	Couldn't load the current threshold. Close this dialog and try again
+translation.consumption.monthlyThreshold.label_acus	Monthly ACU threshold
+translation.consumption.monthlyThreshold.label_dollars	Monthly dollar threshold
+translation.consumption.monthlyThreshold.none	No threshold currently set
+translation.consumption.monthlyThreshold.placeholder	No threshold set
+translation.consumption.monthlyThreshold.save	Save
+translation.consumption.monthlyThreshold.saving	Saving...
+translation.consumption.monthlyThreshold.setToast	Monthly threshold set to {{amount}}
+translation.consumption.monthlyThreshold.title	Monthly warning threshold
+translation.consumption.lastUpdated	Last updated {{time}}
+translation.consumption.personal.byProductTitle.month	ACUs by product this month
+translation.consumption.personal.byProductTitle.quarter	ACUs by product this quarter
+translation.consumption.personal.byProductTitle.halfYear	ACUs by product this half-year
+translation.consumption.personal.byProductTitle.year	ACUs by product this year
+translation.consumption.personal.byProductTitle.cycle	ACUs by product this cycle
+translation.consumption.personal.byProductDollarsTitle.month	Dollars by product this month
+translation.consumption.personal.byProductDollarsTitle.quarter	Dollars by product this quarter
+translation.consumption.personal.byProductDollarsTitle.halfYear	Dollars by product this half-year
+translation.consumption.personal.byProductDollarsTitle.year	Dollars by product this year
+translation.consumption.personal.byProductDollarsTitle.cycle	Dollars by product this cycle
+translation.consumption.personal.description	Understand how you're using Devin, track your ACU consumption, and identify opportunities to work more efficiently
+translation.consumption.personal.description_dollars	Understand how you're using Devin, track your spend, and identify opportunities to work more efficiently
+translation.consumption.personal.localUsage.title	Local usage
+translation.consumption.personal.localUsage.description	Your activity in Devin Desktop and Devin CLI over the last 30 days
+translation.consumption.personal.monthlyConsumedLabel	Monthly ACUs consumed
+translation.consumption.personal.monthlyConsumedLabel_dollars	Monthly spend
+translation.consumption.personal.monthlyConsumedTooltip	Devin Review ACUs are excluded from this page.
+translation.consumption.personal.monthlyConsumedTooltip_dollars	Cloud Devin sessions at your contract's ACU price plus your Devin Desktop and Terminal CLI spend. Devin Review is excluded from this page.
+translation.consumption.personal.bots.title	Your {{botNamePlural}}
+translation.consumption.personal.bots.mergedPrs	PRs merged
+translation.consumption.personal.bots.acus	ACUs used
+translation.consumption.personal.bots.byBot	ACUs by {{botName}} this cycle
+translation.consumption.personal.bots.otherBots	Other {{botNamePlural}}
+translation.consumption.personal.bots.legendEntry_one	{{name}} ({{acus}} ACUs, {{count}} PR merged)
+translation.consumption.personal.bots.legendEntry_other	{{name}} ({{acus}} ACUs, {{count}} PRs merged)
+translation.consumption.refresh	Refresh data
+translation.consumption.usage.cloudTotalNote_one	{{formattedCount}} ACU total including Devin Desktop and Terminal CLI
+translation.consumption.usage.cloudTotalNote_other	{{formattedCount}} ACUs total including Devin Desktop and Terminal CLI
+translation.consumption.usage.overallTowardLimitNote_one	Counts only the usage each organization's limit applies to ({{formattedCount}} ACU). Cloud-only limits exclude Devin Desktop and Terminal CLI usage; Review usage counts even when it is not shown per organization.
+translation.consumption.usage.overallTowardLimitNote_other	Counts only the usage each organization's limit applies to ({{formattedCount}} ACUs). Cloud-only limits exclude Devin Desktop and Terminal CLI usage; Review usage counts even when it is not shown per organization.
+translation.consumption.usage.percentUsed	{{percent}}% of capacity used ({{consumed}} / {{limit}} ACUs)
+translation.consumption.usage.percentUsed_cloud	{{percent}}% of cloud capacity used ({{consumed}} / {{limit}} cloud ACUs)
+translation.consumption.usage.percentUsedOverage	{{percent}}% of capacity used ({{consumed}} / {{limit}} ACUs — {{overage}} over capacity)
+translation.consumption.usage.percentUsedOverage_cloud	{{percent}}% of cloud capacity used ({{consumed}} / {{limit}} cloud ACUs — {{overage}} over capacity)
+translation.consumption.dashboard.unitDollars	Dollars
+translation.consumption.dashboard.unitAcus	ACUs
+translation.consumption.dashboard.products.devinCloud	Devin cloud
+translation.consumption.dashboard.products.automations	Automations
+translation.consumption.dashboard.products.oncall	Oncall
+translation.consumption.dashboard.products.codeScans	Code scans
+translation.consumption.dashboard.products.terminalCli	Terminal CLI
+translation.consumption.dashboard.products.aiGateway	AI Gateway
+translation.consumption.dashboard.products.review	Review
+translation.consumption.dashboard.products.ask	Ask
+translation.consumption.dashboard.products.indexing	Indexing

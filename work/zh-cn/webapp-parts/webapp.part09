@@ -1,0 +1,500 @@
+translation.analyticsRevamp.autoapprover.repository	Repository
+translation.analyticsRevamp.autoapprover.shadow	Shadow mode verdicts
+translation.analyticsRevamp.autoapprover.shadowTooltip	Verdicts given in Shadow mode, where Autoapprover decided but did not approve or withdraw anything
+translation.analyticsRevamp.autoapprover.changesRequested	Changes requested after approval
+translation.analyticsRevamp.autoapprover.changesRequestedTooltip	Pull requests Autoapprover approved on which a person then requested changes
+translation.analyticsRevamp.autoapprover.shadowApprove	Shadow mode: would approve
+translation.analyticsRevamp.autoapprover.shadowReview	Shadow mode: needs review
+translation.analyticsRevamp.autoapprover.instructionsEdited	Instructions edited
+translation.analyticsRevamp.autoapprover.instructionsEditedHint	Autoapprover's instructions were edited on this day
+translation.analyticsRevamp.autoapprover.instructionPeriods	Verdicts by instructions
+translation.analyticsRevamp.autoapprover.instructionPeriodsDescription	The verdicts between one edit of Autoapprover's instructions and the next, latest first
+translation.analyticsRevamp.autoapprover.instructionPeriodsEmpty	The instructions were not edited during this period.
+translation.analyticsRevamp.autoapprover.instructionsSince	Instructions since
+translation.analyticsRevamp.autoapprover.instructionsBefore	Before the first edit of this period
+translation.analyticsRevamp.timePeriod.current	Current
+translation.analyticsRevamp.timePeriod.previous	Previous
+translation.analyticsRevamp.gateway.activeUsersTooltip	People who made at least one AI Gateway request in this period.
+translation.analyticsRevamp.gateway.description	Dollars billed for AI Gateway requests, at list price
+translation.analyticsRevamp.gateway.inactiveUsersTooltip	Current members with no AI Gateway usage during this period
+translation.analyticsRevamp.gateway.spend	Spend
+translation.analyticsRevamp.gateway.spendPerUserTooltip	Dollars spent on AI Gateway during this period divided by its active users
+translation.analyticsRevamp.gateway.totalSpend	Total spend
+translation.analyticsRevamp.gateway.totalSpendTooltip	Dollars billed for AI Gateway requests in this period, at list price.
+translation.analyticsRevamp.bots.description	Spend and merged PRs of the organization's {{botNamePlural}}
+translation.analyticsRevamp.bots.spend	Spend
+translation.analyticsRevamp.bots.spendTooltip	ACUs billed to {{botNamePlural}} during this period
+translation.analyticsRevamp.bots.mergedPrs	Merged PRs
+translation.analyticsRevamp.bots.mergedPrsTooltip	PRs merged from {{botName}} sessions during this period
+translation.analyticsRevamp.bots.shareOfAll	{{percent}} of all
+translation.analyticsRevamp.bots.botsSeries	{{botNamePlural}}
+translation.analyticsRevamp.bots.chartTitle	{{botNamePlural}} over time
+translation.analyticsRevamp.bots.chartMetric	Chart metric
+translation.analyticsRevamp.bots.tableTitle	{{botNamePlural}} by spend
+translation.analyticsRevamp.bots.tableDescription	Each {{botName}} links to its own page
+translation.analyticsRevamp.bots.bot	{{botName}}
+translation.analyticsRevamp.bots.owner	Owner
+translation.analyticsRevamp.bots.share	Share of spend
+translation.analyticsRevamp.bots.empty	No {{botName}} activity in this period
+translation.announcementCallout.close	Close
+translation.announcementCallout.title	Company announcement
+translation.announcementCallout.view	View
+translation.appUpdate.title	New update available
+translation.appUpdate.bar.available	Update available
+translation.appUpdate.bar.ready	Update ready
+translation.appUpdate.checking	Checking for updates…
+translation.appUpdate.description	Restart the app to get the latest updates
+translation.appUpdate.descriptionAvailable	Download the update to get the latest changes
+translation.appUpdate.descriptionInstall	Install the update to get the latest changes
+translation.appUpdate.download	Download
+translation.appUpdate.downloading	Downloading update…
+translation.appUpdate.install	Install update
+translation.appUpdate.installing	Installing update…
+translation.appUpdate.restart	Restart to update
+translation.previewBuild.title	Preview: {{label}}
+translation.previewBuild.loadingTitle	Loading preview: {{label}}
+translation.previewBuild.description	This window is running a pull request's build instead of the shipped one.
+translation.previewBuild.revert	Return to shipped build
+translation.previewBuild.updateReady	A newer preview ({{commit}}) is ready.
+translation.previewBuild.updateBuilding	Newer commit {{commit}} is building.
+translation.previewBuild.updateFailed	The preview for newer commit {{commit}} failed.
+translation.previewBuild.barUpdateReady	Newer preview ready
+translation.previewBuild.barUpdateBuilding	Newer preview building
+translation.previewBuild.barUpdateFailed	Newer preview build failed
+translation.previewBuild.seeNewBuildProgress	See new build progress
+translation.previewBuild.checkForUpdate	Check for a newer build
+translation.previewBuild.checkForUpdateFailed	Couldn't check the pull request for a newer build.
+translation.previewBuild.switch	Switch to {{commit}}
+translation.auth.sessionErrors.noOrgMembership	You are not a member of any organization. Please contact your organization's administrator for access.
+translation.auth.sessionErrors.impersonationPostAuthFailed	Failed post-auth for impersonated user. Stopping impersonation.
+translation.auth.sessionErrors.postAuthFailed	Failed to complete post-authentication setup
+translation.auth.loggedOut.heading	You've been signed out
+translation.auth.loggedOut.logInAgain	Log in again
+translation.auth.loggedOut.message	Your authenticated session was securely terminated.
+translation.auth.loggedOut.title	Logged out
+translation.auth.redirectingSeconds_one	Redirecting in {{count}} second...
+translation.auth.redirectingSeconds_other	Redirecting in {{count}} seconds...
+translation.auth.upgrade.chatgptHeroBadge	Limited-time promotion
+translation.auth.upgrade.chatgptHeroDescription	Connect a personal Go, Plus or Pro plan to try Devin without buying a separate Devin subscription
+translation.auth.upgrade.chatgptHeroTitle	Try Devin with just your ChatGPT plan
+translation.auth.upgrade.continueWithFree	Continue with free (limited access)
+translation.auth.upgrade.freeFeatureDeepWiki	DeepWiki
+translation.auth.upgrade.freeFeatureReview	Devin Review
+translation.auth.upgrade.freeFeatureUsage	Limited Cloud, Desktop, and CLI usage
+translation.auth.upgrade.freePlanIncludes	Free plan includes:
+translation.auth.upgrade.genericError	Something went wrong. Please try again.
+translation.auth.upgrade.choosePlanHeading	Choose your plan
+translation.auth.upgrade.choosePlanDescription	Start shipping with Devin. Cancel anytime.
+translation.auth.upgrade.recommendedForYou	Recommended for you
+translation.auth.upgrade.heading	Unlock the full power of Devin
+translation.auth.upgrade.loading	Loading...
+translation.auth.upgrade.selectAnotherPlan	Select another plan
+translation.auth.upgrade.trialDescription	Unlock the full power of Devin. Your card will not be charged for 14 days. You may cancel anytime.
+translation.auth.upgrade.trialHeading	Claim your <wbr />free Pro trial
+translation.auth.accountPicker.accountSectionAria	{{section}} accounts
+translation.auth.accountPicker.assignFullSeat	Assign full seat
+translation.auth.accountPicker.contractExpired	Your organization's Devin contract has ended
+translation.auth.accountPicker.flexSeatTooltip	Your Flex seat on this account does not have access to {{productName}}. Ask your account administrator for a full seat.
+translation.auth.accountPicker.fullSeatRequested	Full seat requested
+translation.auth.accountPicker.logInOnWindsurfDotCom	Log in on windsurf.com
+translation.auth.accountPicker.noActiveSubscription	No active subscription
+translation.auth.accountPicker.noEligibleAccountsFound	No eligible accounts found
+translation.auth.accountPicker.noLocalAgentAccess	No local agent access
+translation.auth.accountPicker.noPermissionToUseProduct	You don't have permission to use {{productName}}
+translation.auth.accountPicker.planSeatAssignedToAnotherUser	Plan seat assigned to another user
+translation.auth.accountPicker.productAccessNotEnabled	{{productName}} access not enabled for this account
+translation.auth.accountPicker.productOnly	{{productName}} only
+translation.auth.accountPicker.requestFullSeat	Request full seat
+translation.auth.accountPicker.requiresFullSeat	Requires a full seat
+translation.auth.accountPicker.selectAccount	Select an account
+translation.auth.accountPicker.signedInAs	Signed in as {{email}}
+translation.auth.accountPicker.subscriptionCanceled	Subscription canceled
+translation.auth.accountPicker.subscriptionInactive	Subscription inactive
+translation.auth.accountPicker.windsurfEnterpriseLegacy	Windsurf enterprise (legacy)
+translation.auth.accountPicker.fullSeatRequestSent	Your request has been sent to your team admin for review.
+translation.auth.accountPicker.fullSeatRequestFailed	Failed to request full seat
+translation.auth.accountPicker.tierFree	Free
+translation.auth.accountPicker.tierMax	Max
+translation.auth.accountPicker.tierPro	Pro
+translation.auth.accountPicker.tierTeams	Teams
+translation.auth.authentication	Authentication
+translation.auth.chatgptIdentityMismatch	This Devin account is linked to a different ChatGPT account. Sign in with the linked ChatGPT account or use another sign-in method.
+translation.auth.chatgptLinkRequired	A Devin account already uses this email. Sign in with your existing method, then link ChatGPT on the Connections page. Once linked, you can sign in with ChatGPT.
+translation.auth.chatgptSsoRequired	This account requires SSO and can’t be linked to ChatGPT. Sign in using your organization’s SSO.
+translation.auth.emailLogin.accountConnectionLabel	{{accountName}} ({{connectionName}})
+translation.auth.emailLogin.accountConnectionsHeading	Choose an account
+translation.auth.emailLogin.back	Back
+translation.auth.emailLogin.checking	Checking...
+translation.auth.emailLogin.continue	Continue
+translation.auth.emailLogin.emailAddress	Email address
+translation.auth.emailLogin.enterpriseHeading	Continue with your enterprise
+translation.auth.emailLogin.errors.accountNotFound	No account found for this email
+translation.auth.emailLogin.errors.authenticationFailed	Authentication failed. Please try again.
+translation.auth.emailLogin.errors.differentSignInRequired	This domain requires a different sign-in. Please contact your team administrator.
+translation.auth.emailLogin.errors.enterpriseSetupRequired	Your email domain requires enterprise setup. Please contact your IT administrator to configure Devin access for your organization.
+translation.auth.emailLogin.errors.enterpriseSsoRequired	This email's domain uses enterprise SSO. Please sign in through your enterprise's devinenterprise.com domain.
+translation.auth.emailLogin.errors.loginMethodCheckFailed	Unable to check login method. Please try again.
+translation.auth.emailLogin.errors.somethingWentWrong	Something went wrong
+translation.auth.emailLogin.errors.ssoConfigurationNotFound	No SSO configuration found for this email domain. Contact your administrator.
+translation.auth.emailLogin.errors.ssoInviteRequired	Your organization uses SSO. Ask your admin for an invite.
+translation.auth.emailLogin.errors.ssoNotConfigured	SSO login isn't configured for this connection. Please refresh and try again, or use another sign-in method.
+translation.auth.emailLogin.errors.ssoStartUnexpected	Something went wrong starting SSO login. Please try again or use another sign-in method.
+translation.auth.emailLogin.errors.verificationUnavailable	Unable to verify your account right now. Please try again.
+translation.auth.emailLogin.forgotPassword	Forgot password?
+translation.auth.emailLogin.logInWithEmailCode	Alternatively, use email code
+translation.auth.emailLogin.or	OR
+translation.auth.emailLogin.password	Password
+translation.auth.emailLogin.passwordHeading	Enter your password
+translation.auth.emailLogin.resendCode	Resend code
+translation.auth.emailLogin.resendCodeIn	Resend code in {{seconds}}s
+translation.auth.emailLogin.sending	Sending...
+translation.auth.emailLogin.sendingCode	Sending code...
+translation.auth.emailLogin.signIn	Sign in
+translation.auth.emailLogin.signingIn	Signing in...
+translation.auth.emailLogin.verificationCode	Verification code
+translation.auth.emailLogin.verificationEmailSent	We sent a code to {{email}}
+translation.auth.emailLogin.verificationHeading	Verify your identity
+translation.auth.emailLogin.verifying	Verifying...
+translation.auth.logIn	Log in
+translation.auth.resetPassword	Reset your password
+translation.auth.signUp	Sign up
+translation.auth.signupConsent.entryNotice	By continuing, you confirm that you have read and agree to the <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms>.
+translation.auth.signupConsent.caPrivacy	I consent to the collection and use of my personal information as described in the <privacy>Privacy Policy</privacy>, including processing outside Canada.
+translation.auth.signupConsent.caTerms	I agree to the <terms>Terms of Service</terms>
+translation.auth.signupConsent.eea	I agree to the <terms>Terms of Service</terms> and have read the <privacy>Privacy Policy</privacy>.
+translation.auth.signupConsent.eeaNotice	By continuing, you agree to the <terms>Terms of Service</terms> and confirm that you have read the <privacy>Privacy Policy</privacy>.
+translation.auth.signupConsent.existingUserContinue	Continue
+translation.auth.signupConsent.existingUserFailed	We couldn’t save your acceptance. Try again.
+translation.auth.signupConsent.existingUserTitle	Review our terms to continue
+translation.auth.signupConsent.required	Please agree before signing up.
+translation.auth.signupConsent.us	I have read and agree to the <terms>Terms of Service</terms> and the <privacy>Privacy Policy</privacy>
+translation.auth.signupConsent.usNotice	By continuing, you confirm that you have read and agree to the <terms>Terms of Service</terms> and the <privacy>Privacy Policy</privacy>.
+translation.auth.ssoSignupConsent.backToLogin	Back to log in
+translation.auth.ssoSignupConsent.connectionUnavailable	This SSO connection is not available. Go back and log in again.
+translation.auth.ssoSignupConsent.continue	Agree and continue with SSO
+translation.auth.ssoSignupConsent.description	This is your first time signing in with SSO. Agree below to create your account; you will be sent through your identity provider once more.
+translation.auth.ssoSignupConsent.title	Create your Devin account
+translation.auth.universityBridgeRedirecting	Redirecting to Devin University…
+translation.auth.invalidSignInLink.body	Part of the link is missing or was changed, so we can't sign you in. Go back to the app or terminal you came from and start signing in again.
+translation.auth.invalidSignInLink.title	This sign-in link is incomplete
+translation.auth.mobileBeta.body	This account isn't on the beta yet. Join the waitlist and we'll let you know when you're in.
+translation.auth.mobileBeta.bodyAndroid	This account isn't on the Android beta yet. Ask your Devin contact to enable it for you.
+translation.auth.mobileBeta.joinWaitlist	Join the waitlist
+translation.auth.mobileBeta.title	Devin for iOS is in private beta
+translation.auth.mobileBeta.titleAndroid	Devin for Android is in private beta
+translation.auth.mobileBeta.tryDifferentAccount	Try a different account
+translation.auth.oauthConsent.accountHeading	Account
+translation.auth.oauthConsent.accountUnavailable	{{clientName}} isn't available for this account
+translation.auth.oauthConsent.allow	Allow
+translation.auth.oauthConsent.changeAccount	Change
+translation.auth.oauthConsent.chooseAccount	Choose the account {{clientName}} will be able to access.
+translation.auth.oauthConsent.chooseEligibleAccount	{{clientName}} isn't available for {{account}}. Choose an account it can access.
+translation.auth.oauthConsent.clientIdHost	The app's details are published by {{host}}.
+translation.auth.oauthConsent.deny	Deny
+translation.auth.oauthConsent.documentTitle	Authorize access
+translation.auth.oauthConsent.errorTitle	Authorization error
+translation.auth.oauthConsent.framed	For your security, this page can't be shown inside another page. Open it in its own tab or window.
+translation.auth.oauthConsent.impersonating	You can't authorize an app while impersonating a user.
+translation.auth.oauthConsent.intro	{{clientName}} is asking for access to your Devin account. Only allow this if you started signing in to {{clientName}}.
+translation.auth.oauthConsent.invalidLink	This authorization link isn't valid. Go back to the app and try again.
+translation.auth.oauthConsent.notAvailable	Signing in to Devin from {{clientName}} isn't available to customers yet and can't be enabled for your account. To connect now, use a personal access token instead.
+translation.auth.oauthConsent.notAvailableTitle	{{clientName}} isn't available yet
+translation.auth.oauthConsent.requestFailed	Something went wrong. Try again, or go back to the app and start over.
+translation.auth.oauthConsent.returnHint	If nothing happens, use the link below. You can close this page afterwards.
+translation.auth.oauthConsent.returnLink	Return to the app
+translation.auth.oauthConsent.returnLinkTo	Return to {{clientName}}
+translation.auth.oauthConsent.returning	Returning to the app…
+translation.auth.oauthConsent.returningTo	Returning to {{clientName}}…
+translation.auth.oauthConsent.scopesHeading	{{clientName}} will be able to
+translation.auth.oauthConsent.signingInAs	Signing in as {{email}} to {{account}}
+translation.auth.oauthConsent.signingInTo	Signing in to {{account}}
+translation.auth.oauthConsent.termsRequired	This account's terms haven't been accepted yet. Open Devin to review them, then try again.
+translation.auth.oauthConsent.title	Authorize {{clientName}}
+translation.auth.oauthConsent.unverifiedClient	Devin hasn't verified this app. If you allow, you'll be sent to {{redirectTarget}}.
+translation.auth.noAccountPrompt	Don't have an account?
+translation.auth.haveAccountPrompt	Already have an account?
+translation.auth.continueWithProvider	Continue with {{provider}}
+translation.auth.logInWithSso	Log in with SSO
+translation.auth.logInWithConnection	Log in with {{name}}
+translation.auth.logInWithAccountConnection	Log in with {{account}} ({{name}})
+translation.auth.signInWithSso	Sign in with SSO
+translation.auth.signInWithConnection	Sign in with {{name}}
+translation.auth.signInWithAccountConnection	Sign in with {{account}} ({{name}})
+translation.auth.noLoginMethods	No login methods are available. Contact your administrator for help logging in.
+translation.auth.noSignupMethods	No signup methods are available. Contact your administrator for help logging in.
+translation.auth.orDivider	OR
+translation.auth.resetPasswordPage.back	Back
+translation.auth.resetPasswordPage.successBody	You can now log in with your new password.
+translation.auth.resetPasswordPage.goToLogin	Go to login
+translation.auth.resetPasswordPage.title	Reset your password
+translation.auth.resetPasswordPage.successTitle	Password reset successful
+translation.auth.resetPasswordPage.sendFailed	Failed to send reset code. Please try again.
+translation.auth.resetPasswordPage.enterCode	Please enter the 6-digit code.
+translation.auth.resetPasswordPage.passwordLength	Password must be between 8 and 64 characters.
+translation.auth.resetPasswordPage.passwordMismatch	Passwords do not match.
+translation.auth.resetPasswordPage.resetFailed	Failed to reset password. The code may be invalid or expired.
+translation.auth.resetPasswordPage.enterEmail	Enter your email to receive a reset code
+translation.auth.resetPasswordPage.email	Email
+translation.auth.resetPasswordPage.sending	Sending...
+translation.auth.resetPasswordPage.sendCode	Send reset code
+translation.auth.resetPasswordPage.backToLogin	Back to login
+translation.auth.resetPasswordPage.enterCodeAndPassword	Enter the code sent to {{email}} and choose a new password
+translation.auth.resetPasswordPage.verificationCode	Verification code
+translation.auth.resetPasswordPage.newPassword	New password
+translation.auth.resetPasswordPage.confirmPassword	Confirm new password
+translation.auth.resetPasswordPage.resetting	Resetting...
+translation.auth.resetPasswordPage.resetPassword	Reset password
+translation.auth.desktopSuccess.pageTitle	Authentication successful
+translation.auth.desktopSuccess.noAccessShort	You don't have access to {{productName}} yet.
+translation.auth.desktopSuccess.opening	Signed in! Opening {{productName}}...
+translation.auth.desktopSuccess.appDidntOpen	App didn't open?
+translation.auth.desktopSuccess.clickToOpen	Click here to open {{productName}}
+translation.auth.desktopSuccess.clickHere	Click here
+translation.auth.desktopSuccess.or	or
+translation.auth.desktopSuccess.tryManualAuth	try manual auth
+translation.auth.desktopSuccess.accessRequired	{{productName}} access required
+translation.auth.desktopSuccess.noAccess	Your account doesn't have access to {{productName}} yet.
+translation.auth.desktopSuccess.askAdmin	Ask your team admin to assign you a full seat.
+translation.auth.desktopSuccess.manageMembers	Manage members
+translation.auth.desktopSuccess.goToDevin	Go to Devin
+translation.auth.desktopSuccess.didntOpenTitle	{{productName}} didn't open?
+translation.auth.desktopSuccess.didntOpenBody	If {{productName}} didn't open automatically, make sure it's installed on your computer.
+translation.auth.desktopSuccess.download	Download {{productName}}
+translation.auth.desktopSuccess.tryAgain	Try again
+translation.auth.desktopSuccess.appDidntOpenTry	App didn't open? Try
+translation.auth.desktopSuccess.manualAuth	manual auth
+translation.auth.desktopSuccess.visitDevin	visit Devin
+translation.auth.desktopSuccess.unexpectedError	An unexpected error occurred.
+translation.auth.errors.enterpriseSsoDomain	This email's domain uses enterprise SSO. Please sign in through your enterprise's devinenterprise.com domain.
+translation.auth.errors.ssoConnectionUnavailable	This SSO connection isn't available here. Please sign in through your enterprise's devinenterprise.com domain.
+translation.auth.errors.signInStartFailed	Something went wrong starting sign-in with {{provider}}. Please try again or use another sign-in method.
+translation.auth.errors.signInUnavailable	Sign-in with {{provider}} isn't available right now. Please refresh and try again, or use another sign-in method.
+translation.auth.errors.signInNotConfigured	Sign-in with {{provider}} isn't configured. Please refresh and try again, or use another sign-in method.
+translation.auth.errors.ssoStartFailed	Something went wrong starting SSO login. Please try again or use another sign-in method.
+translation.auth.errors.ssoNotConfigured	SSO login isn't configured for this connection. Please refresh and try again, or use another sign-in method.
+translation.auth.errors.domainRequiresDifferentSignIn	This domain requires a different sign-in. Please contact your team administrator.
+translation.auth.errors.ipNotAllowed	Your organization only allows access from approved networks, and your current network isn't one of them. Connect to your company network or VPN and sign in again, or contact your organization's administrator.
+translation.auth.errors.ipNotAllowedWithAddress	Your organization only allows access from approved networks, and your current IP address ({{ip}}) isn't one of them. Connect to your company network or VPN and sign in again, or contact your organization's administrator.
+translation.auth.inviteCode.invalidEmail	Enter a valid email
+translation.auth.inviteCode.missingCode	Invite code required
+translation.auth.inviteCode.title	Sign up for Devin
+translation.auth.inviteCode.checkInbox	Check your inbox for the invite link
+translation.auth.inviteCode.inviteCode	Invite code
+translation.auth.inviteCode.signingUp	Signing up…
+translation.auth.loggingOut	Logging out
+translation.auth.federal.bannerTitle	U.S. Government information system
+translation.auth.federal.accept	I accept
+translation.auth.federal.welcomeBack	Welcome back
+translation.auth.federal.logInToAccount	Log in to your account
+translation.autoRecharge.paymentFailedSubtitle	Your latest auto-reload payment has failed. Please update your payment details or pay your invoices directly.
+translation.autoRecharge.paymentFailedTitle	Auto-Reload Payment Failed
+translation.autoRecharge.seeInvoices	See invoices
+translation.automationAgentTypes.incident	Incident
+translation.automationAgentTypes.incidentDescription	Investigate and assist in the incident channel
+translation.railPins.pin	Pin to left rail
+translation.railPins.unpin	Unpin from left rail
+translation.railPins.open	Open
+translation.railPins.loading	Loading pinned item…
+translation.railPins.dragInstructions	To reorder a pinned item, press Space. Use the arrow keys to move it, Space to drop, or Escape to cancel.
+translation.railPins.dragStart	Picked up {{name}}.
+translation.railPins.dragMove	{{name}} is at position {{position}} of {{count}}.
+translation.railPins.dragEnd	Dropped {{name}}.
+translation.railPins.dragCancel	Reordering {{name}} canceled.
+translation.apps.pinFailed	Failed to update pins
+translation.apps.commandSearch.scope	App search scope
+translation.apps.commandSearch.all	All
+translation.apps.commandSearch.pinned	Pinned
+translation.apps.commandSearch.yours	Yours
+translation.apps.commandSearch.online	Online
+translation.apps.commandSearch.createFromQuery	Create an app with this brief
+translation.apps.customizeIcon	Customize icon…
+translation.apps.appPage	App page
+translation.apps.pinnedToYourRail	Pinned to your rail
+translation.apps.unpinFromRail	Unpin from rail
+translation.apps.noMatchingApps	No matching Apps
+translation.apps.editInSession	Edit in session
+translation.apps.sidebarShowHeader	Show header
+translation.apps.liveLoading	Loading App…
+translation.apps.liveNotFound	This App could not be found or you do not have access.
+translation.apps.liveBack	Back to Apps
+translation.apps.liveEdit	Edit App
+translation.apps.liveOpen	Open in new tab
+translation.apps.liveNotServing	This App is not serving. Open its details to manage deployment.
+translation.apps.liveUnavailable	This App cannot be shown inline. Try opening it in a new tab.
+translation.apps.sidebarIconNames.chart	Chart
+translation.apps.sidebarIconNames.calendar	Calendar
+translation.apps.sidebarIconNames.chat	Chat
+translation.apps.sidebarIconNames.form	Form
+translation.apps.sidebarIconNames.table	Table
+translation.apps.sidebarIconNames.devices	Devices
+translation.apps.sidebarIconNames.news	News
+translation.apps.customizeSidebarIcon	Customize sidebar icon…
+translation.apps.sidebarIconColor	Color
+translation.apps.sidebarIconBackground	Background
+translation.apps.sidebarIconReset	Reset to default
+translation.apps.sidebarIconSaveFailed	Could not save the icon. Try again.
+translation.apps.sidebarIconColors.blue	Blue
+translation.apps.sidebarIconColors.green	Green
+translation.apps.sidebarIconColors.orange	Orange
+translation.apps.sidebarIconColors.red	Red
+translation.apps.sidebarIconColors.purple	Purple
+translation.apps.sidebarIconColors.neutral	Neutral
+translation.apps.sidebarIconBackgrounds.solid	Solid
+translation.apps.sidebarIconBackgrounds.tint	Tint
+translation.apps.sidebarIconBackgrounds.none	None
+translation.apps.archiveServingTitle_one	This will take an App offline
+translation.apps.archiveServingTitle_other	This will take Apps offline
+translation.apps.archiveServingDescription_one	Archiving takes {{names, list}} offline. Nobody can open it until its session is unarchived.
+translation.apps.archiveServingDescription_other	Archiving takes {{names, list}} offline. Nobody can open them until their sessions are unarchived.
+translation.apps.archiveServingKeepLive	Keep session live
+translation.apps.archiveServingKeepLiveMany	Keep sessions live
+translation.apps.archiveServingConfirm	Archive and take offline
+translation.apps.stopServingDescription_one	Stopping takes {{names, list}} offline. Nobody can open it until its session is resumed.
+translation.apps.stopServingDescription_other	Stopping takes {{names, list}} offline. Nobody can open them until their sessions are resumed.
+translation.apps.stopServingConfirm	Stop and take offline
+translation.apps.pageViewsOverTime	Page views
+translation.apps.last24Hours	Last 24 hours
+translation.apps.last7Days	Last 7 days
+translation.apps.last30Days	Last 30 days
+translation.apps.pageViewCount_one	{{count}} page view
+translation.apps.pageViewCount_other	{{count}} page views
+translation.apps.notTrackedYet	Not tracked yet
+translation.apps.accessShort.org	Organization
+translation.apps.accessShort.password	Password
+translation.apps.coverPhoto	Cover photo
+translation.apps.coverUpload	Upload
+translation.apps.coverReplace	Replace
+translation.apps.coverRemove	Remove
+translation.apps.coverSaved	Cover photo updated
+translation.apps.coverRemoved	Cover photo removed
+translation.apps.coverSaveFailed	Couldn't update the cover photo
+translation.apps.rename	Rename
+translation.apps.renameTitle	Rename app
+translation.apps.renameHelp	The name shown on the Apps page. The app's URL doesn't change.
+translation.apps.renamed	App renamed
+translation.apps.renameFailed	Failed to rename app
+translation.apps.edit	Edit
+translation.apps.editDescription	Edit description
+translation.apps.stopApplicationHelp	Stop serving the app but keep it registered with deploy history
+translation.apps.takeOffline	Take offline
+translation.apps.removeApplicationHelp	Stop and remove the application from apps and related deployments
+translation.apps.cancel	Cancel
+translation.apps.columnCreated	Created
+translation.apps.columnUpdated	Updated
+translation.apps.columnName	Name
+translation.apps.creatorViaBot	{{owner}} via {{bot}}
+translation.apps.columnOwner	Owner
+translation.apps.deployName	Name
+translation.apps.deploymentVersion	V{{version}}
+translation.apps.deployBranch	Branch
+translation.apps.columnScope	Scope
+translation.apps.columnStatus	Status
+translation.apps.copied	Copied
+translation.apps.copyFailed	Failed to copy URL
+translation.apps.copyUrl	Copy URL
+translation.apps.copySessionLink	Copy session link
+translation.apps.editApp	Edit in session
+translation.apps.openPreview	Open preview
+translation.apps.noDeployments	No deployments
+translation.apps.deploymentsTitle	Deployments
+translation.apps.deploysNoMatches	No deployments match these filters.
+translation.apps.viewDeployment	View v{{version}} deployment
+translation.apps.searchDeployments	Search deployments
+translation.apps.searchDeploymentsPlaceholder	Search deployments
+translation.apps.sortNewestFirst	Sort: newest first
+translation.apps.sortOldestFirst	Sort: oldest first
+translation.apps.session	Session
+translation.apps.previewUrl	URL
+translation.apps.create	Create app
+translation.apps.createDescription	Devin can build and deploy apps behind a stable URL for everyone in your organization
+translation.apps.createFailed	Failed to create app
+translation.apps.createTitle	Create app
+translation.apps.dangerZone	Danger zone
+translation.apps.delete	Delete
+translation.apps.deleteDescription	The app URL stops working. The session that manages it is not affected.
+translation.apps.deleteFailed	Failed to delete app
+translation.apps.deleteTitle	Delete {{name}}?
+translation.apps.deployStatus.failed	Failed
+translation.apps.deployStatus.live	Online
+translation.apps.deployStatus.starting	Building
+translation.apps.deployStatus.stopped	Offline
+translation.apps.description	Use Devin to build and serve custom applications for your organization
+translation.apps.emptyTitle	No apps yet
+translation.apps.fieldDescription	Description
+translation.apps.fieldName	Name
+translation.apps.fieldPromptPlaceholder	A page where the team can order coffee for the office
+translation.apps.templateLabel	Template
+translation.apps.startFromTemplate	Start from a template
+translation.apps.newApp	New app
+translation.apps.historyEmpty	No deploys yet.
+translation.apps.historyError	Failed to load deploys
+translation.apps.hostName	Hostname
+translation.apps.loadError	Failed to load apps
+translation.apps.noMatches	No apps match these filters.
+translation.apps.gridView	Grid view
+translation.apps.listView	List view
+translation.apps.viewPreference	App view
+translation.apps.openInNewTab	Open {{name}} in a new tab
+translation.apps.unpinnedSection	Unpinned
+translation.apps.notFound	App not found
+translation.apps.offlineCallout	This app is offline. Its URL shows an offline page until Devin deploys it again.
+translation.apps.offlineFailed	This app is offline: deploy v{{version}} failed before it went live.
+translation.apps.open	Open
+translation.apps.online	Online
+translation.apps.offline	Offline
+translation.apps.retry	Retry
+translation.apps.save	Save
+translation.apps.saveFailed	Failed to save app
+translation.apps.saved	Saved
+translation.apps.scopeAllScopes	All scopes
+translation.apps.scopeMine	Mine
+translation.apps.scopeFilterAccessible	Scope: {{selection}}
+translation.apps.search	Search apps
+translation.apps.sortBy	Sort apps
+translation.apps.sortAscending	Ascending
+translation.apps.sortDescending	Descending
+translation.apps.stateAllStatuses	All statuses
+translation.apps.stateFilterAccessible	Status: {{selection}}
+translation.apps.stateOnline	Online
+translation.apps.stateOnlineVersion	Online · v{{version}}
+translation.apps.stateOffline	Offline
+translation.apps.stateBuilding	Building
+translation.apps.buildingThumbnail	Building…
+translation.apps.stopFailed	Failed to take app offline
+translation.apps.tabSettings	Settings
+translation.apps.template.review-queue.name	Review queue
+translation.apps.template.review-queue.description	Review eval runs or label examples as a team, then export the results
+translation.apps.template.review-queue.placeholder	Build a review queue where teammates go through eval runs or examples one at a time, label each one, leave comments and export the results. Start from a sample run file, then ask me for our real data and swap it in.
+translation.apps.template.project-status.name	Project status page
+translation.apps.template.project-status.description	A project's progress, owners and blockers from Linear, Jira or GitHub
+translation.apps.template.project-status.placeholder	Build a status page for a project from its issues in Linear, Jira or GitHub. Ask me which tracker and project to use before building. Show progress, owners, blockers and recent changes, and refresh the data on a schedule.
+translation.apps.template.metrics-dashboard.name	Metrics dashboard
+translation.apps.template.metrics-dashboard.description	Charts of your own metrics from a data warehouse or API
+translation.apps.template.metrics-dashboard.placeholder	Build a dashboard of our key metrics from a data warehouse or API. Ask me which source and metrics to use before building. Chart trends over time with date filters, and refresh the data on a schedule.
+translation.apps.template.incident-dashboard.name	Incident dashboard
+translation.apps.template.incident-dashboard.description	Deploys, error rates and open incidents in one live view
+translation.apps.template.incident-dashboard.placeholder	Build a live dashboard of recent deploys, error rates and open incidents. Show severity, owner and a timeline of updates for each incident.
+translation.apps.template.customer-health.name	Customer health explorer
+translation.apps.template.customer-health.description	Search any account to see usage, plan and open tickets
+translation.apps.template.customer-health.placeholder	Build a searchable account explorer showing each customer's plan, recent usage and open support tickets. Add filters to find accounts that need attention.
+translation.apps.template.design-system.name	Design system
+translation.apps.template.design-system.description	A living gallery of components, tokens and copyable code from your repo
+translation.apps.template.design-system.placeholder	Build a gallery from the components and tokens in this repository. Show component variants, color and typography tokens and copyable usage examples.
+translation.apps.title	Apps
+translation.apps.sessionLinkCopied	Session link copied
+translation.apps.columnTraffic	Visits
+translation.apps.noTraffic	None
+translation.apps.requestsLast7Days_one	{{count}} request in the last 7 days
+translation.apps.requestsLast7Days_other	{{count}} requests in the last 7 days
+translation.apps.sessionServes_one	This session serves {{count}} App
+translation.apps.sessionServes_other	This session serves {{count}} Apps
+translation.apps.production	Production
+translation.apps.deployment.description	Description
+translation.apps.deployment.details	Deployment details
+translation.apps.deployment.versionTitle	v{{version}}
+translation.apps.deployment.openSession	Open session
+translation.apps.deployment.status	Status
+translation.apps.deployment.target	Target
+translation.apps.deployment.host	Host
+translation.apps.deployment.session	Session
+translation.apps.deployment.deployedBy	Deployed by

@@ -1,0 +1,500 @@
+translation.sessionAnalysis.skillsInsights.invokedCount	{{count}} invoked
+translation.sessionAnalysis.skillsInsights.relevantCount	{{count}} relevant
+translation.sessionAnalysis.skillsInsights.correctlyInvoked	Correctly invoked ({{count}})
+translation.sessionAnalysis.skillsInsights.unnecessarilyInvoked	Unnecessarily invoked ({{count}})
+translation.sessionAnalysis.skillsInsights.notEvaluated	Not evaluated ({{count}})
+translation.sessionAnalysis.skillsInsights.missedRelevant	Missed relevant skills ({{count}})
+translation.sessionAnalysis.detectedIssues	Detected issues
+translation.sessionAnalysis.sizeXs	XS
+translation.sessionAnalysis.sizeS	S
+translation.sessionAnalysis.sizeM	M
+translation.sessionAnalysis.sizeL	L
+translation.sessionAnalysis.sizeXl	XL
+translation.sessionAnalysis.sizeGuideTitle	Session size guide
+translation.sessionAnalysis.sizeGuideBody	Session size is based on how much usage a session consumes.
+translation.sessionAnalysis.sizeColumn	Size
+translation.sessionAnalysis.timeline	Timeline
+translation.sessionAnalysis.legendHighImpact	High impact issue
+translation.sessionAnalysis.legendSignificant	Significant event
+translation.sessionAnalysis.legendMediumImpact	Medium impact issue
+translation.sessionAnalysis.legendValue	Value provided
+translation.ui.crontabEditor.visual	Visual
+translation.ui.crontabEditor.custom	Custom
+translation.ui.crontabEditor.repeatEvery	Repeat every
+translation.ui.crontabEditor.unitHour_one	hour
+translation.ui.crontabEditor.unitHour_other	hours
+translation.ui.crontabEditor.unitDay_one	day
+translation.ui.crontabEditor.unitDay_other	days
+translation.ui.crontabEditor.unitWeek_one	week
+translation.ui.crontabEditor.unitWeek_other	weeks
+translation.ui.crontabEditor.selectUnit	Select schedule unit
+translation.ui.crontabEditor.time	Time
+translation.ui.crontabEditor.hour	Hour
+translation.ui.crontabEditor.hourUnit	hr
+translation.ui.crontabEditor.minute	Minute
+translation.ui.crontabEditor.minuteUnit	min
+translation.ui.crontabEditor.timeDescription	Local time in {{zone}}; hour 0-23, minute 0-59
+translation.ui.crontabEditor.repeatOn	Repeat on
+translation.ui.crontabEditor.cronExpression	Cron Expression
+translation.ui.crontabEditor.cronFormat	Format: minute hour day month weekday ({{zone}})
+translation.ui.crontabEditor.utc	UTC
+translation.ui.crontabEditor.apply	Apply
+translation.ui.crontabEditor.daySun	S
+translation.ui.crontabEditor.dayMon	M
+translation.ui.crontabEditor.dayTue	T
+translation.ui.crontabEditor.dayWed	W
+translation.ui.crontabEditor.dayThu	T
+translation.ui.crontabEditor.dayFri	F
+translation.ui.crontabEditor.daySat	S
+translation.windsurf.codemapSharing.label	Sharing
+translation.windsurf.codemapSharing.ariaLabel	Codemap sharing
+translation.windsurf.codemapSharing.modePrivate	Only me
+translation.windsurf.codemapSharing.modeTeam	Team
+translation.windsurf.codemapSharing.modePublic	Anyone with the link
+translation.windsurf.codemapSharing.updated	Sharing updated
+translation.windsurf.codemapSharing.updateFailed	Failed to update sharing
+translation.metrics.productivityCard.previous	Previous
+translation.metrics.productivityCard.current	Current
+translation.metrics.teamCard.titleCurrent	Current Merged PRs co-authored by Devin {{dateRange}}
+translation.metrics.teamCard.titlePrevious	Previous Merged PRs co-authored by Devin {{dateRange}}
+translation.metrics.teamCard.allTimeRange	(All Time)
+translation.metrics.teamCard.totalMerged	Total merged
+translation.metrics.teamCard.others	Others
+translation.metrics.teamCard.mergedPrs	Merged PRs co-authored by Devin
+translation.metrics.teamCard.mergedThisWeek	Merged PRs co-authored by Devin this week
+translation.metrics.teamCard.mergedLastWeek	Merged PRs co-authored by Devin last week
+translation.metrics.teamCard.mergedThisMonth	Merged PRs co-authored by Devin this month
+translation.metrics.teamCard.mergedLastMonth	Merged PRs co-authored by Devin last month
+translation.metrics.teamCard.mergedThisQuarter	Merged PRs co-authored by Devin this quarter
+translation.metrics.teamCard.mergedLastQuarter	Merged PRs co-authored by Devin last quarter
+translation.metrics.teamCard.mergedAllTime	Merged PRs co-authored by Devin all time
+translation.metrics.teamCard.contributors	Contributors
+translation.metrics.teamCard.avgCostOfMerge	Avg Cost of Merge
+translation.metrics.teamCard.avgCostOfMergeTip	Average cost of merge accounts for sessions that result in a merged PR
+translation.metrics.table.noUsers	No users found
+translation.metrics.table.member	Member
+translation.metrics.table.noComparison	No comparison available
+translation.metrics.table.movedRank	Moved from #{{from}} to #{{to}} ({{diff}})
+translation.metrics.table.noChange	No change
+translation.metrics.table.unknown	Unknown
+translation.metrics.table.period.week	this week
+translation.metrics.table.period.month	this month
+translation.metrics.table.period.quarter	this quarter
+translation.metrics.table.period.prevWeek	last week
+translation.metrics.table.period.prevMonth	last month
+translation.metrics.table.period.prevQuarter	last quarter
+translation.metrics.efficiency.noClosedPrs	No closed PRs {{period}}
+translation.metrics.efficiency.noClosedPrsYet	No closed PRs yet
+translation.metrics.efficiency.noClosedPrsDescription	PRs created with Devin that get merged or closed will appear here
+translation.metrics.efficiency.prsClosed	PRs closed
+translation.metrics.efficiency.prsMerged	PRs merged
+translation.metrics.efficiency.mergeRate	Merge rate
+translation.metrics.efficiency.closedPrsTooltip	{{count}} closed PRs · {{pct}}% of total
+translation.metrics.productivity.noMergedPrs	No merged PRs {{period}}
+translation.metrics.productivity.noMergedPrsYet	No merged PRs yet
+translation.metrics.productivity.noMergedPrsDescription	Merged PRs co-authored by Devin will appear here
+translation.metrics.productivity.streak	Streak
+translation.metrics.productivity.mergedPrsCoauthored	Merged PRs co-authored by Devin
+translation.metrics.productivity.avgCostOfMerge	Avg Cost of Merge
+translation.metrics.productivity.weeks_one	week
+translation.metrics.productivity.weeks_other	weeks
+translation.metrics.productivity.mergedPrsTooltip_one	{{count}} merged PR · {{pct}}% of total
+translation.metrics.productivity.mergedPrsTooltip_other	{{count}} merged PRs · {{pct}}% of total
+translation.metrics.productivity.avgCostTooltip	{{cost}} avg cost per merged PR
+translation.metrics.productivity.noCostData	No cost data
+translation.metrics.page.errorTitle	Something went wrong
+translation.metrics.page.tryAgain	Try again
+translation.metrics.page.emptyTitle	No metrics yet
+translation.metrics.page.leaderboard	Leaderboard
+translation.metrics.page.lastUpdated	Last updated: {{date}}
+translation.metrics.efficiencyPage.title	Efficiency
+translation.metrics.efficiencyPage.errorDescription	We couldn't load your PR efficiency metrics. This might be a temporary issue.
+translation.metrics.efficiencyPage.emptyDescription	Once your organization starts closing PRs created with Devin, PR efficiency metrics will appear here.
+translation.metrics.productivityPage.title	Organization productivity
+translation.metrics.productivityPage.errorDescription	We couldn't load your productivity metrics. This might be a temporary issue.
+translation.metrics.productivityPage.emptyDescription	Once your organization starts merging PRs with Devin, productivity metrics will appear here.
+translation.metrics.periodToggle.week	Week
+translation.metrics.periodToggle.month	Month
+translation.metrics.periodToggle.quarter	Quarter
+translation.metrics.periodToggle.allTime	All Time
+translation.notes.chartLegend.retrieved	Retrieved
+translation.notes.chartLegend.retrievedTip	Times knowledge was accessed as potentially relevant but not necessarily used
+translation.notes.chartLegend.used	Used
+translation.notes.chartLegend.usedTip	Times knowledge was actually utilized in sessions based on usage analysis
+translation.notes.usageChart.empty	No usage data available for the last 30 days
+translation.notes.usageChart.last30Days	Last 30 days
+translation.notes.usageChart.retrievedCount	Retrieved: {{count}}
+translation.notes.usageChart.usedCount	Used: {{count}}
+translation.notes.utils.corruptedData	The local data is corrupted. Please refresh the page.
+translation.notes.utils.repoIndexes	Repo indexes
+translation.notes.utils.systemKnowledge	System knowledge
+translation.notes.utils.enterpriseKnowledge	Enterprise knowledge
+translation.notes.utils.repoIndexesDescription	This folder contains automatically generated indexes of your code. Devin will automatically retrieve these when working in your repos.
+translation.notes.utils.systemKnowledgeDescription	This folder contains knowledge created by Cognition. System knowledge is read-only, but you can disable it any time.
+translation.notes.utils.enterpriseKnowledgeDescription	This folder contains knowledge created by your enterprise admin. Enterprise knowledge is read-only, but you can disable it any time.
+translation.notes.utils.managedByCognition	This folder is managed by Cognition and read-only.
+translation.notes.utils.enterpriseAdminsOnly	This knowledge can only be edited by enterprise admins
+translation.notes.utils.autoGenerated	This knowledge is automatically generated by Devin and read-only. You can disable it any time.
+translation.notes.utils.enterpriseWide	This is enterprise-wide knowledge.
+translation.notes.utils.enterpriseWideReadOnly	This is enterprise-wide knowledge and is read-only for sub-organizations.
+translation.notes.usageTab.loadError	Error loading usage data
+translation.notes.usageTab.sessionUsageByDay	Session usage by day
+translation.notes.usageTab.sessionsLoadError	Error loading sessions
+translation.notes.usageTab.sessionName	Session Name
+translation.notes.usageTab.unnamedSession	Unnamed Session
+translation.promoInvites.sendInvites_one	Send {{count}} invite
+translation.promoInvites.sendInvites_other	Send {{count}} invites
+translation.promoInvites.inviteLink.copyTooltip	Copy invite link
+translation.promoInvites.inviteLink.openTooltip	Open invite link
+translation.promoInvites.inviteLink.openAria	Open invite link
+translation.promoInvites.row.selectAria	Select {{email}}
+translation.promoInvites.row.adminIssued	Admin-issued
+translation.promoInvites.row.referrerNotRecorded	Referrer not recorded
+translation.promoInvites.row.emailSentAt	Sent {{date}}
+translation.promoInvites.programPicker.ariaLabel	Promo program
+translation.promoInvites.programPicker.placeholder	Select a program
+translation.promoInvites.programSettings.title	Program settings
+translation.promoInvites.programSettings.offerLabel	Plan card label
+translation.promoInvites.programSettings.offerLabelHint	Shown on the pricing plan cards. Leave empty for the default.
+translation.promoInvites.programSettings.offerTitle	Invite title
+translation.promoInvites.programSettings.offerDetails	Invite details
+translation.promoInvites.programSettings.offerDetailsHint	Shown in the invite email and popup. Use {user} or {company} for the referrer.
+translation.promoInvites.programSettings.liveDescription	Off stops new redemptions. Existing invites stay.
+translation.promoInvites.programSettings.offerDialog	Offer popup
+translation.promoInvites.programSettings.offerDialogDescription	Shows invitees a popup to pick the organization that gets the offer. Off applies the offer to their current organization.
+translation.promoInvites.programSettings.qrCodes	QR codes
+translation.promoInvites.programSettings.qrCodesDescription	Lets the program's Slack command make QR codes. Off stops new codes.
+translation.promoInvites.programSettings.saveFailed	Couldn't save settings
+translation.promoInvites.programSummary.ariaLabel	Program summary
+translation.promoInvites.programSummary.appliesTo	Applies to {{plans}}
+translation.promoInvites.programSummary.appliesToAll	Applies to all plans
+translation.promoInvites.programSummary.settings	Program settings
+translation.promoInvites.programSummary.recipientReward	Recipient reward
+translation.promoInvites.programSummary.creditedOnRedemption	Credited on redemption
+translation.promoInvites.programSummary.referrerReward	Referrer reward
+translation.promoInvites.programSummary.creditedAfterOnboarding	Credited after recipient onboarding
+translation.promoInvites.programSummary.window	Window
+translation.promoInvites.programSummary.openEnded	Open-ended
+translation.promoInvites.programSummary.redemptions	Redemptions
+translation.promoInvites.programSummary.capUsed	All sources · {{pct}}% of cap used
+translation.promoInvites.programSummary.acrossAllSources	Across all invite sources
+translation.promoInvites.programSummary.invites	Invites
+translation.promoInvites.programSummary.adminInvites	Admin invites
+translation.promoInvites.programSummary.adminIssuedAndReferrals	Admin-issued and referrals
+translation.promoInvites.programSummary.excludesReferrals	Excludes referrals
+translation.promoInvites.programSummary.countsError	Couldn't load program counts.
+translation.promoInvites.programSummary.countsLoading	Loading program counts…
+translation.promoInvites.programSummary.redemptionCapUsed	Redemption cap used
+translation.promoInvites.programSummary.attributesAriaLabel	Program rules
+translation.promoInvites.programSummary.attributes.cardless	No card
+translation.promoInvites.programSummary.attributes.redeemInPlace	Paying orgs OK
+translation.promoInvites.programSummary.attributes.keepsOtherDiscount	Not combinable
+translation.promoInvites.programSummary.attributes.newSubscribersOnly	Free orgs only
+translation.promoInvites.programSummary.attributes.onePerOrg	Once per org
+translation.promoInvites.programSummary.attributes.workEmailRequired	Work email only
+translation.promoInvites.programSummary.attributes.noCoworkerReferrals	No coworkers
+translation.promoInvites.programSummary.attributes.startupProgramEnrollment	Joins startup program
+translation.promoInvites.programSummary.state.live	Live
+translation.promoInvites.programSummary.state.inactive	Inactive
+translation.promoInvites.programSummary.state.ended	Ended
+translation.promoInvites.programSummary.state.scheduled	Scheduled
+translation.promoInvites.latestBatchAria	Latest batch results
+translation.promoInvites.latestBatch	Latest batch
+translation.promoInvites.createdCount_one	{{count}} created
+translation.promoInvites.createdCount_other	{{count}} created
+translation.promoInvites.resentCount_one	{{count}} resent
+translation.promoInvites.resentCount_other	{{count}} resent
+translation.promoInvites.skippedCount_one	{{count}} skipped
+translation.promoInvites.skippedCount_other	{{count}} skipped
+translation.promoInvites.downloadCsv	Download CSV
+translation.promoInvites.dismiss	Dismiss
+translation.promoInvites.email	Email
+translation.promoInvites.result	Result
+translation.promoInvites.invitePeople	Invite people
+translation.promoInvites.pasteEmails	Paste emails separated by commas, spaces, or new lines. Up to {{max}} per batch.
+translation.promoInvites.readOnlyTitle	This program is read-only here
+translation.promoInvites.readOnlyBody	Invites cannot be created, resent, or revoked
+translation.promoInvites.emails	Emails
+translation.promoInvites.emailsRequired	Emails required
+translation.promoInvites.invalid_one	“{{value}}” doesn't look like an email and will be reported as invalid
+translation.promoInvites.invalid_other	{{count}} entries don't look like emails and will be reported as invalid
+translation.promoInvites.sendInvitationEmail	Send invitation email
+translation.promoInvites.sendInvitationEmailDescription	Turn off to get links to share yourself
+translation.promoInvites.removeToStayWithin	Remove {{count}} to stay within {{max}} per batch
+translation.promoInvites.sending	Sending…
+translation.promoInvites.sendInvitesEmpty	Send invites
+translation.promoInvites.filterAll	All
+translation.promoInvites.filterOpen	Open
+translation.promoInvites.filterRedeemed	Redeemed
+translation.promoInvites.filterClosed	Revoked & expired
+translation.promoInvites.invites	Invites
+translation.promoInvites.shownCount_one	{{count}} shown
+translation.promoInvites.shownCount_other	{{count}} shown
+translation.promoInvites.filterByStatus	Filter invites by status
+translation.promoInvites.searchPlaceholder	Search emails or referrers
+translation.promoInvites.adminOnlyResend	Only admin-issued invites can be resent here. Select all applies to the loaded rows.
+translation.promoInvites.selectedCount_one	{{count}} selected
+translation.promoInvites.selectedCount_other	{{count}} selected
+translation.promoInvites.clear	Clear
+translation.promoInvites.revokeCount	Revoke {{count}}
+translation.promoInvites.loadFailed	Couldn't load invites: {{message}}
+translation.promoInvites.noInvitesYet	No invites yet
+translation.promoInvites.noInvitesMatch	No invites match
+translation.promoInvites.invitesAppearHere	Invites appear here with their links and status.
+translation.promoInvites.tryDifferentFilter	Try a different filter or search.
+translation.promoInvites.selectAllAria	Select all loaded revocable invites
+translation.promoInvites.referredBy	Referred by
+translation.promoInvites.redeemedBy	Redeemed by
+translation.promoInvites.created	Created
+translation.promoInvites.status	Status
+translation.promoInvites.sent	Sent
+translation.promoInvites.loadMoreFailed	Couldn't load more invites. Try again.
+translation.promoInvites.refreshFailed	Couldn't refresh invites. Showing previously loaded rows.
+translation.promoInvites.loading	Loading…
+translation.promoInvites.loadMore	Load more
+translation.promoInvites.title	Promo invites
+translation.promoInvites.programsLoadFailed	Couldn't load programs: {{message}}
+translation.promoInvites.loadingPrograms	Loading programs…
+translation.promoInvites.noPrograms	No promo programs
+translation.promoInvites.noProgramsBody	Create a program first, then come back here to invite people.
+translation.promoInvites.programNotFound	Program not found. Select another program.
+translation.promoInvites.inviteLinkColumn	Invite link
+translation.promoInvites.toast.sendProcessed	Invites sent: {{summary, list}}
+translation.promoInvites.toast.resendProcessed	Invite resent: {{summary, list}}
+translation.promoInvites.toast.revokeProcessed	Invites revoked: {{summary, list}}
+translation.promoInvites.toast.sendFailed	Invites sent failed: {{message}}
+translation.promoInvites.toast.resendFailed	Invite resent failed: {{message}}
+translation.promoInvites.toast.revokeFailed	Invites revoked failed: {{message}}
+translation.promoInvites.toast.statusCount	{{status}} ({{n}})
+translation.promoInvites.inviteStatus.created	Created
+translation.promoInvites.inviteStatus.resent	Resent
+translation.promoInvites.inviteStatus.existing	Already invited
+translation.promoInvites.inviteStatus.pending	Pending
+translation.promoInvites.inviteStatus.sent	Sent
+translation.promoInvites.inviteStatus.accepted	Accepted
+translation.promoInvites.inviteStatus.redeemed	Redeemed
+translation.promoInvites.inviteStatus.revoked	Revoked
+translation.promoInvites.inviteStatus.expired	Expired
+translation.promoInvites.inviteStatus.invalidEmail	Invalid email
+translation.promoInvites.inviteStatus.notFound	Not found
+translation.promoInvites.inviteStatus.alreadyRedeemed	Already redeemed
+translation.promoInvites.inviteStatus.alreadyRevoked	Already revoked
+translation.promoInvites.inviteStatus.checkoutInProgress	Checkout in progress
+translation.promoInvites.inviteStatus.rewardsGranted	Rewards granted
+translation.promoInvites.inviteStatus.redeemedConcurrently	Redeemed concurrently
+translation.promoInvites.pageTitle	Promo invites
+translation.omni.tagSelector.tagRequired	Tag required
+translation.startupProgram.statusFilter.searchPlaceholder	Search statuses...
+translation.startupProgram.statusFilter.status	Status
+translation.startupProgram.statusFilter.isAnyOf	is any of
+translation.startupProgram.statusFilter.all	All
+translation.startupProgram.statusFilter.active	Active
+translation.startupProgram.statusFilter.paused	Paused
+translation.startupProgram.statusFilter.ended	Ended
+translation.startupProgram.statusFilter.churned	Churned
+translation.startupProgram.title	Startup program
+translation.startupProgram.loadFailed	Failed to load startup program status. Try refreshing the page.
+translation.startupProgram.notEnrolled	Not enrolled. Enrolling grants $15,000 in credits and enables 1:1 match on loads up to $50,000.
+translation.startupProgram.notEligible	Not eligible. This organization is not on the teams plan.
+translation.startupProgram.enrolling	Enrolling…
+translation.startupProgram.enroll	Enroll
+translation.startupProgram.enrollTitle	Enroll in startup program
+translation.startupProgram.enrollDescription	This will immediately grant the organization $15,000 in credits and enable 1:1 match on loads up to $50,000.
+translation.startupProgram.matchingGrants	Matching grants
+translation.startupProgram.matchRatio	Match ratio
+translation.startupProgram.freeCredits	Free credits
+translation.startupProgram.freeCreditsUsed	Free credits used
+translation.startupProgram.enrolledBy	Enrolled by
+translation.startupProgram.enrolledAt	Enrolled at
+translation.startupProgram.updating	Updating…
+translation.startupProgram.pause	Pause
+translation.startupProgram.resume	Resume
+translation.startupProgram.pauseTitle	Pause startup program
+translation.startupProgram.resumeTitle	Resume startup program
+translation.startupProgram.pauseDescription	Pausing will stop 1:1 credit matching on new loads. The enrollment can be resumed later.
+translation.startupProgram.resumeDescription	Resuming will re-enable 1:1 credit matching on new loads.
+translation.usageAnalytics.productivityLineChart.empty	No data available for the selected time range
+translation.usageAnalytics.overviewKpiCard.usageProgressAria	Usage progress
+translation.usageAnalytics.overviewCharts.used	Used
+translation.usageAnalytics.overviewCharts.allocated	Allocated
+translation.usageAnalytics.overviewCharts.overAllocation	Over allocation
+translation.usageAnalytics.overviewCharts.utilization	Utilization
+translation.usageAnalytics.overviewCharts.acus	ACUs
+translation.usageAnalytics.overviewCharts.mergedPrs	Merged PRs
+translation.usageAnalytics.overviewCharts.acusPerMergedPr	ACUs / merged PR
+translation.usageAnalytics.overviewCharts.allocationTitle	Allocation vs usage by LOB
+translation.usageAnalytics.overviewCharts.allocationSubtitle	Each bar is the LOB's assigned ACUs for the selected period, filled by what it consumed
+translation.usageAnalytics.overviewCharts.consumptionTitle	Consumption vs output
+translation.usageAnalytics.overviewCharts.consumptionSubtitleWeekly	Weekly session ACUs (bars) vs merged PRs (line), by session start date
+translation.usageAnalytics.overviewCharts.consumptionSubtitleDaily	Daily session ACUs (bars) vs merged PRs (line), by session start date
+translation.usageAnalytics.overviewCharts.efficiencyTitle	ACUs per merged PR
+translation.usageAnalytics.overviewCharts.efficiencySubtitleWeekly	Weekly efficiency trend — lower is more efficient
+translation.usageAnalytics.overviewCharts.efficiencySubtitleDaily	Daily efficiency trend — lower is more efficient
+translation.usageAnalytics.overviewCharts.mergeRateTitle	Merge success rate
+translation.usageAnalytics.overviewCharts.mergeRateSubtitleWeekly	Weekly merged PRs as a share of PRs raised in the same bucket
+translation.usageAnalytics.overviewCharts.mergeRateSubtitleDaily	Daily merged PRs as a share of PRs raised in the same bucket
+translation.usageAnalytics.timeGrouping.daily	Daily
+translation.usageAnalytics.timeGrouping.weekly	Weekly
+translation.usageAnalytics.timeGrouping.unavailable	This time grouping is not available for this date range
+translation.usageAnalytics.timeGrouping.placeholder	Select grouping
+translation.usageAnalytics.timeGrouping.ariaLabel	Time grouping
+translation.usageAnalytics.comparisonChip.noComparisonData	{{column}} · {{range}} · no comparison data
+translation.usageAnalytics.comparisonChip.vsLastMonth	{{text}} vs last month
+translation.usageAnalytics.exportSessionDataFailed	Failed to export session data. Please try again.
+translation.usageAnalytics.usageTable.noData	No data
+translation.usageAnalytics.usageTable.toggleBreakdown	Toggle usage breakdown
+translation.usageAnalytics.usageTable.counts	Counts
+translation.usageAnalytics.usageTable.percentages	Percentages
+translation.usageAnalytics.usageTable.export	Export
+translation.usageAnalytics.usageTable.viewOrgAnalytics	Click to view this organization's analytics
+translation.usageAnalytics.usageTable.noDataForRange	No data available for the selected time range
+translation.usageAnalytics.hierarchyDrilldown.noLobs	No LOBs configured for this enterprise
+translation.usageAnalytics.hierarchyDrilldown.lobColumn	LOB / sub-org
+translation.usageAnalytics.hierarchyDrilldown.subOrgCount_one	{{count}} sub-org
+translation.usageAnalytics.hierarchyDrilldown.subOrgCount_other	{{count}} sub-orgs
+translation.usageAnalytics.hierarchyDrilldown.tooManyOrgsNote	Opens the full sessions list — too many orgs to filter the link to the counted set
+translation.usageAnalytics.hierarchyDrilldown.enterpriseRow	{{name}} (enterprise)
+translation.usageAnalytics.otherLanguage	Other
+translation.usageAnalytics.columns.email	Email
+translation.usageAnalytics.columns.name	Name
+translation.usageAnalytics.columns.totalAcus	Total ACUs
+translation.usageAnalytics.columns.totalCost	Total cost
+translation.usageAnalytics.columns.sessionsCreated	Sessions created
+translation.usageAnalytics.columns.acusPerSession	ACUs per session
+translation.usageAnalytics.columns.dollarsPerSession	$ per session
+translation.usageAnalytics.columns.sessionsBySize	Sessions by size
+translation.usageAnalytics.columns.originWebapp	Webapp
+translation.usageAnalytics.columns.sessionsByOrigin	Sessions by origin
+translation.usageAnalytics.columns.sessionsWithSearch	Sessions with search
+translation.usageAnalytics.columns.sessionsWithPlaybook	Sessions with playbook
+translation.usageAnalytics.columns.searchesCreated	Searches created
+translation.usageAnalytics.columns.acusPerSearch	ACUs / search
+translation.usageAnalytics.columns.dollarsPerSearch	$ / search
+translation.usageAnalytics.columns.searchesPerSession	Searches per session
+translation.usageAnalytics.columns.prsCreated	PRs created
+translation.usageAnalytics.columns.prsByStatus	PRs by status
+translation.usageAnalytics.columns.merged	Merged
+translation.usageAnalytics.columns.closed	Closed
+translation.usageAnalytics.columns.open	Open
+translation.usageAnalytics.columns.acusPerPrMerged	ACUs per PR merged
+translation.usageAnalytics.columns.dollarsPerPrMerged	$ per PR merged
+translation.usageAnalytics.columns.sessionsWithMergedPrsBySize	Sessions with merged PRs by size
+translation.usageAnalytics.columns.sectionSessions	Sessions
+translation.usageAnalytics.columns.sectionSearches	Searches
+translation.usageAnalytics.columns.sectionPrs	PRs
+translation.usageAnalytics.metrics.tabConsumption	Consumption
+translation.usageAnalytics.metrics.tabUsers	Users
+translation.usageAnalytics.metrics.tabSessions	Sessions
+translation.usageAnalytics.metrics.tabEfficiency	Efficiency
+translation.usageAnalytics.metrics.instances	Instances
+translation.usageAnalytics.metrics.assignedAcus	Assigned ACUs
+translation.usageAnalytics.metrics.assignedAcusTooltip	Static allocation from the contract spreadsheet
+translation.usageAnalytics.metrics.configuredAcus	Configured ACUs
+translation.usageAnalytics.metrics.configuredAcusTooltip	Live allocation configured in the system
+translation.usageAnalytics.metrics.acusUsed	ACUs used
+translation.usageAnalytics.metrics.acusUsedTooltip	ACUs consumed in the selected period
+translation.usageAnalytics.metrics.delta	Delta
+translation.usageAnalytics.metrics.deltaTooltip	ACUs used minus assigned ACUs
+translation.usageAnalytics.metrics.totalUsers	Total users
+translation.usageAnalytics.metrics.totalUsersTooltip	Users active in the selected period
+translation.usageAnalytics.metrics.codingUsers	Coding users
+translation.usageAnalytics.metrics.codingUsersTooltip	Active users permitted to run sessions
+translation.usageAnalytics.metrics.readOnlyUsers	Read-only users
+translation.usageAnalytics.metrics.readOnlyUsersTooltip	Active users without session permission
+translation.usageAnalytics.metrics.askQueries	DW/Ask queries
+translation.usageAnalytics.metrics.avgDau	Avg DAU
+translation.usageAnalytics.metrics.sessionsPerCodingUser	Sessions / coding user
+translation.usageAnalytics.metrics.sessionsWithoutPr	% sessions without PR
+translation.usageAnalytics.metrics.prsRaised	PRs raised
+translation.usageAnalytics.metrics.prsMerged	PRs merged
+translation.usageAnalytics.metrics.mergeSuccessRate	Merge success rate
+translation.usageAnalytics.metrics.acusPerMergedPr	ACUs / merged PR
+translation.usageAnalytics.metrics.acusPerCodingUser	ACUs / coding user
+translation.usageAnalytics.metrics.acusPerSession	ACUs / session
+translation.usageAnalytics.metrics.tabPrs	PRs
+translation.usageAnalytics.periods.last90Days	Last 90 days
+translation.usageAnalytics.periods.yearToDate	Year to date
+translation.usageAnalytics.periods.thisYear	This year
+translation.usageAnalytics.periods.lastYear	Last year
+translation.usageAnalytics.periods.allTime	All time
+translation.usageAnalytics.periods.sinceDate	{{label}} (since {{date}})
+translation.usageAnalytics.periods.lastBillingCycleUnavailable	Last billing cycle (unavailable)
+translation.usageAnalytics.periods.custom	Custom ({{from}} – {{to}})
+translation.usageAnalytics.periods.customRange	Custom range...
+translation.usageAnalytics.comparison.vsLastMonth	vs. Last Month
+translation.usageAnalytics.comparison.points_one	{{value}} pt
+translation.usageAnalytics.comparison.points_other	{{value}} pts
+translation.usageAnalytics.comparison.noteVolume	 (compared as daily averages)
+translation.usageAnalytics.comparison.noteCount	 (full window vs selected period to date)
+translation.usageAnalytics.repositoriesExport.repository	Repository
+translation.usageAnalytics.repositoriesExport.prsOpenedByDevin	PRs opened by Devin
+translation.usageAnalytics.repositoriesExport.devinPrShare	Devin PR share (%)
+translation.usageAnalytics.repositoriesExport.overallMergeRate	Overall merge rate (%)
+translation.usageAnalytics.repositoriesExport.devinMergeRate	Devin merge rate (%)
+translation.usageAnalytics.repositoriesExport.devinReviewRate	Devin review rate (%)
+translation.usageAnalytics.tableControls.valueMode	Display values as counts or percentages
+translation.usageAnalytics.overview.sinceContract	Since {{date}} contract start
+translation.usageAnalytics.overview.cycleToDate	Cycle to date (day {{day}})
+translation.usageAnalytics.overview.monthToDate	Month to date (day {{day}} of {{total}})
+translation.usageAnalytics.overview.selectedRange_one	Selected range ({{count}} day)
+translation.usageAnalytics.overview.selectedRange_other	Selected range ({{count}} days)
+translation.usageAnalytics.overview.noPermission	You don't have permission to view enterprise analytics.
+translation.usageAnalytics.overview.description	Allocation, usage, and productivity across your organization hierarchy
+translation.usageAnalytics.overview.featurePreview	Feature preview
+translation.usageAnalytics.overview.assignedInstances	Assigned Instances
+translation.usageAnalytics.overview.contractedPerMonth_one	{{formattedCount}} ACU / mo contracted
+translation.usageAnalytics.overview.contractedPerMonth_other	{{formattedCount}} ACUs / mo contracted
+translation.usageAnalytics.overview.instancesConfigured	Instances configured
+translation.usageAnalytics.overview.acusPerInstance	{{amount}} ACUs / instance / mo
+translation.usageAnalytics.overview.cycleToDateDelta	Cycle to date: {{delta}} vs same point last cycle
+translation.usageAnalytics.overview.fromReview	{{amount}} from Devin Review
+translation.usageAnalytics.overview.acusYearToDate	ACUs year to date
+translation.usageAnalytics.overview.contractShare	{{share}} of {{total}} contract
+translation.usageAnalytics.overview.projectedExhaustion	Projected exhaustion {{date}}
+translation.usageAnalytics.overview.canRunSessions	{{coding}} of {{total}} can run sessions
+translation.usageAnalytics.overview.askQueries	{{amount}} DW/Ask queries
+translation.usageAnalytics.overview.raisedAndRate	{{raised}} raised · {{rate}} merge rate
+translation.usageAnalytics.overview.lowerIsEfficient	Lower = more efficient
+translation.usageAnalytics.display.reviewUsers	Devin review users
+translation.usageAnalytics.display.reviewUsersFrom	Devin Review users are only available from {{date}}.
+translation.usageAnalytics.display.activeReviewTip	A user is considered active on a given day if they used Devin Review
+translation.usageAnalytics.display.activeWeekTip	A user is considered active in a given week if they created at least 1 session or 1 search
+translation.usageAnalytics.display.activeDayTip	A user is considered active on a given day if they created at least 1 session or 1 search
+translation.usageAnalytics.display.reviewUsersOverTime	Devin review users over time
+translation.usageAnalytics.display.daily	Daily
+translation.usageAnalytics.display.weekly	Weekly
+translation.usageAnalytics.display.reviewUsersNoOrg	Devin Review users are not broken down by organization.
+translation.usageAnalytics.display.unknown	Unknown
+translation.usageAnalytics.display.otherCount	Other ({{count}})
+translation.usageAnalytics.display.cycleCurrent	Current
+translation.usageAnalytics.display.cyclePrevious	Previous
+translation.usageAnalytics.display.activity	Activity
+translation.usageAnalytics.display.allDatesUtc	All dates are in UTC
+translation.usageAnalytics.display.sessionsGrouped	Sessions grouped by the day they were created
+translation.usageAnalytics.display.numberOfSessions	Number of sessions
+translation.usageAnalytics.display.dollarsPerSession	$ / session
+translation.usageAnalytics.display.byOrigin	By origin
+translation.usageAnalytics.display.selectView	Select view
+translation.usageAnalytics.display.sessionsLoadFailed	Failed to load sessions data
+translation.usageAnalytics.display.searchesGrouped	Searches grouped by the day they were created
+translation.usageAnalytics.display.numberOfSearches	Number of searches
+translation.usageAnalytics.display.searchesToSessions	Searches to sessions ratio
+translation.usageAnalytics.display.searchesOverTime	Searches over time
+translation.usageAnalytics.display.searchesLoadFailed	Failed to load searches data
+translation.usageAnalytics.display.prsGrouped	PRs grouped by the day they were created
+translation.usageAnalytics.display.acusPerPrMerged	ACUs / PR merged
+translation.usageAnalytics.display.dollarsPerPrMerged	$ / PR merged
+translation.usageAnalytics.display.prsLoadFailed	Failed to load pull request data
+translation.usageAnalytics.display.prTrackingNote	PR data is tracked for GitHub, Azure DevOps, Bitbucket, and GitLab in SaaS deployments. Status for non-GitHub PRs may be temporarily out of date. A PR's status will be up to date within 24 hours for recently opened PRs, and within 1 month for older PRs.
+translation.usageAnalytics.display.topOrgsSessions	Top organizations by sessions created
+translation.usageAnalytics.display.topOrgsAcus	Top organizations by ACUs
+translation.usageAnalytics.display.topOrgsCost	Top organizations by cost
+translation.usageAnalytics.display.topOrgsSessionsTip	Top 10 organizations by sessions created over the selected period. Remaining organizations are grouped into Other.
+translation.usageAnalytics.display.topOrgsAcusTip	Top 10 organizations by total ACUs over the selected period. Remaining organizations are grouped into Other.
+translation.usageAnalytics.display.topOrgsCostTip	Top 10 organizations by total cost over the selected period. Remaining organizations are grouped into Other.
+translation.usageAnalytics.display.costUsd	Cost (USD)
+translation.usageAnalytics.display.usersAcuNote	ACU data is based on sessions created within the selected time range. For exact ACU consumption, use the consumption page.
+translation.usageAnalytics.display.usersUsageNote	Usage data is based on sessions created within the selected time range. For exact usage, use the consumption page.
+translation.usageAnalytics.display.perUserHidden	Per-user rows are hidden for this account.
+translation.usageAnalytics.display.membersPerUserHidden_one	{{count}} member. Per-user rows are hidden for this account.
+translation.usageAnalytics.display.membersPerUserHidden_other	{{count}} members. Per-user rows are hidden for this account.

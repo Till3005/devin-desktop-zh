@@ -1,0 +1,500 @@
+translation.workspace.browserPreview.designControls.flexGrow	Flex grow
+translation.workspace.browserPreview.designControls.flexShrink	Flex shrink
+translation.workspace.browserPreview.designControls.flexBasis	Flex basis
+translation.workspace.browserPreview.designControls.start	Start
+translation.workspace.browserPreview.designControls.center	Center
+translation.workspace.browserPreview.designControls.end	End
+translation.workspace.browserPreview.designControls.stretch	Stretch
+translation.workspace.browserPreview.designControls.spaceBetween	Space between
+translation.workspace.browserPreview.designControls.spaceAround	Space around
+translation.workspace.browserPreview.designControls.spaceEvenly	Space evenly
+translation.workspace.browserPreview.designControls.nowrap	No wrap
+translation.workspace.browserPreview.designControls.wrapValue	Wrap
+translation.workspace.browserPreview.designControls.solid	Solid
+translation.workspace.browserPreview.designControls.dashed	Dashed
+translation.workspace.browserPreview.designControls.dotted	Dotted
+translation.workspace.browserPreview.designControls.double	Double
+translation.workspace.browserPreview.designControls.fill	Fill
+translation.workspace.browserPreview.designControls.contain	Contain
+translation.workspace.browserPreview.designControls.cover	Cover
+translation.workspace.browserPreview.designControls.scaleDown	Scale down
+translation.workspace.browserPreview.designControls.thin	Thin
+translation.workspace.browserPreview.designControls.extraLight	Extra light
+translation.workspace.browserPreview.designControls.light	Light
+translation.workspace.browserPreview.designControls.regular	Regular
+translation.workspace.browserPreview.designControls.mediumWeight	Medium
+translation.workspace.browserPreview.designControls.semiBold	Semibold
+translation.workspace.browserPreview.designControls.bold	Bold
+translation.workspace.browserPreview.designControls.extraBold	Extra bold
+translation.workspace.browserPreview.designControls.black	Black
+translation.workspace.browserPreview.designControls.addColumn	Add column
+translation.workspace.browserPreview.designControls.removeColumn	Remove column
+translation.workspace.browserPreview.designControls.columnTrack	Column {{index}}
+translation.workspace.browserPreview.designControls.removeColumnTrack	Remove column {{index}}
+translation.workspace.browserPreview.designControls.trackAuto	Auto
+translation.workspace.browserPreview.contextMenuAddToChat	Add to chat
+translation.workspace.browserPreview.contextMenuBack	Back
+translation.workspace.browserPreview.contextMenuForward	Forward
+translation.workspace.browserPreview.contextMenuReload	Reload
+translation.workspace.browserPreview.contextMenuInspect	Inspect
+translation.workspace.browserPreview.settings	Preview settings
+translation.workspace.browserPreview.openInNewTab	Open in New Tab
+translation.workspace.browserPreview.openInSystemBrowser	Open in system browser
+translation.workspace.browserPreview.deviceSize	Device size
+translation.workspace.browserPreview.publishAsApp	Publish app
+translation.workspace.browserPreview.publish	Publish
+translation.workspace.browserPreview.published	Published
+translation.workspace.browserPreview.publishDescription	Make this preview persistent and shareable with everyone in your organization
+translation.workspace.browserPreview.appTitle	Title
+translation.workspace.browserPreview.titlePlaceholder	My application
+translation.workspace.browserPreview.appDescription	Description
+translation.workspace.browserPreview.descriptionPlaceholder	What is this application about?
+translation.workspace.browserPreview.create	Create
+translation.workspace.browserPreview.titleRequired	Title required
+translation.workspace.browserPreview.unpublish	Unpublish
+translation.workspace.browserPreview.publishAsAppMessage	Publish port {{port}} as a Devin App using `deploy_devin_app` under the name `{{name}}`.
+translation.workspace.browserPreview.publishAsAppFailed	Couldn't reach the session. Try again once it reconnects.
+translation.workspace.browserPreview.desktop	Desktop
+translation.workspace.browserPreview.default	Default
+translation.workspace.browserPreview.tablet	Tablet
+translation.workspace.browserPreview.mobile	Mobile
+translation.workspace.browserPreview.fontSize	Font size
+translation.workspace.browserPreview.ports	Ports
+translation.workspace.browserPreview.noPort	None
+translation.workspace.browserPreview.recentPages	Recent pages
+translation.workspace.browserPreview.port	Port {{port}}
+translation.workspace.browserPreview.mintErrorTitle	Couldn't load this preview
+translation.workspace.browserPreview.mintErrorDescription	We couldn't mint an access link for the exposed port. It may no longer be exposed, or you may not own this session.
+translation.workspace.browserPreview.noPortsTitle	No exposed ports yet
+translation.workspace.browserPreview.noPortsDescription	This preview will load as soon as Devin exposes a port for it.
+translation.workspace.browserPreview.preparing	Preparing preview…
+translation.workspace.browserPreview.needsAuthTitle	This preview can't load here
+translation.workspace.browserPreview.needsAuthDescription	Your browser blocked the preview from loading in this preview tab. This usually happens due to strict cookie or privacy settings.
+translation.workspace.browserPreview.needsAuthSafariNote	Safari on macOS Sequoia can block this cookie when “Prevent cross-site tracking” is on. Update to macOS Tahoe or open the app in a new tab.
+translation.workspace.browserPreview.leftPreviewTitle	This page left the preview
+translation.workspace.browserPreview.leftPreviewDescription	The web app can't follow sites outside your Devin preview. Use Devin Desktop to browse other sites alongside your session.
+translation.workspace.browserPreview.backToPreview	Back to preview
+translation.workspace.browserPreview.retry	Try Again
+translation.workspace.browserPreview.retrying	Trying again…
+translation.workspace.browserPreview.loadErrorTitle	Couldn't display this page
+translation.workspace.browserPreview.loadErrorDescription	The exposed site may block being embedded in an iframe.
+translation.workspace.localBrowser.urlPlaceholder	Enter a URL, like localhost:3000
+translation.workspace.welcome.goToFile	Go to file
+translation.workspace.welcome.toggleTerminal	Toggle terminal
+translation.workspace.welcome.toggleExplorer	Toggle explorer
+translation.workspace.welcome.recentFiles	Recent files
+translation.workspace.welcome.connected	Connected to Devin's computer
+translation.workspace.welcome.wakeDescription	Wake up Devin to browse files and make changes.
+translation.workspace.welcome.filesUnavailable	Files are no longer available for this session.
+translation.workspace.welcome.waking	Waking up…
+translation.workspace.welcome.wakeUp	Wake up
+translation.workspace.explorer.views.files	Explorer
+translation.workspace.explorer.views.search	Search
+translation.workspace.explorer.views.edits	Changes
+translation.workspace.explorer.views.changes	Source Control
+translation.workspace.explorer.sidebarViews	Sidebar views
+translation.workspace.explorer.newFile	New File…
+translation.workspace.explorer.newFolder	New Folder…
+translation.workspace.explorer.collapseFolders	Collapse Folders in Explorer
+translation.workspace.explorer.folderCount_one	{{count}} folder
+translation.workspace.explorer.folderCount_other	{{count}} folders
+translation.workspace.explorer.moveLeft	Move Explorer Left
+translation.workspace.explorer.moveRight	Move Explorer Right
+translation.workspace.explorer.hideSidebar	Hide Sidebar
+translation.workspace.explorer.deleteFolderTitle	Delete folder?
+translation.workspace.explorer.deleteFileTitle	Delete file?
+translation.workspace.explorer.deleteDescription	Are you sure you want to delete “{{name}}”? This action cannot be undone.
+translation.workspace.explorer.delete	Delete
+translation.workspace.explorer.cut	Cut
+translation.workspace.explorer.copy	Copy
+translation.workspace.explorer.paste	Paste
+translation.workspace.explorer.download	Download
+translation.workspace.explorer.upload	Upload…
+translation.workspace.explorer.copyPath	Copy Path
+translation.workspace.explorer.copyRelativePath	Copy Relative Path
+translation.workspace.explorer.rename	Rename…
+translation.workspace.explorer.openAsWorkspaceRoot	Open as Workspace Root
+translation.workspace.explorer.resetWorkspaceRoot	Reset Workspace Root
+translation.workspace.explorer.showAllRepositories	Show all repositories
+translation.workspace.explorer.branches	Branches
+translation.workspace.explorer.openAll	Open all
+translation.workspace.explorer.openRepository	Open repository
+translation.workspace.explorer.openWorktree	Open worktree
+translation.workspace.explorer.branchChanges	Branch changes
+translation.workspace.explorer.comparedWith	{{branch}} compared with {{baseRef}}
+translation.workspace.explorer.repository	Repository
+translation.workspace.explorer.failedToFindRepositories	Failed to find workspace repositories
+translation.workspace.explorer.failedToLoadBranchChanges	Failed to load branch changes
+translation.workspace.explorer.failedToLoadFiles	Failed to load workspace files
+translation.workspace.explorer.devinAsleep	Devin is asleep
+translation.workspace.explorer.sessionEnded	This session has ended
+translation.workspace.explorer.devinWaking	Devin is waking up
+translation.workspace.explorer.couldNotConnect	Couldn't connect to Devin's computer
+translation.workspace.explorer.connecting	Connecting to Devin's computer
+translation.workspace.explorer.noRepositories	No Git repositories found
+translation.workspace.explorer.noBranchChanges	No branch changes found
+translation.workspace.explorer.search.failed	Search failed.
+translation.workspace.explorer.search.searching	Searching…
+translation.workspace.explorer.search.noResults	No results found.
+translation.workspace.explorer.search.fileCount_one	{{count}} file
+translation.workspace.explorer.search.fileCount_other	{{count}} files
+translation.workspace.explorer.search.resultCount_one	{{count}} result in {{files}}
+translation.workspace.explorer.search.resultCount_other	{{count}} results in {{files}}
+translation.workspace.explorer.search.resultCountCapped_one	More than {{count}} result in {{files}}
+translation.workspace.explorer.search.resultCountCapped_other	More than {{count}} results in {{files}}
+translation.workspace.explorer.search.hitLabel	{{text}}, {{path}} line {{line}}
+translation.workspace.diffLanguage.definitionCount_one	{{count}} definition. Click to open it.
+translation.workspace.diffLanguage.definitionCount_other	{{count}} definitions. Click to choose one.
+translation.workspace.diffLanguage.definitionChoices_one	{{count}} definition
+translation.workspace.diffLanguage.definitionChoices_other	{{count}} definitions
+translation.workspace.diffLanguage.loadingProject	Loading code intelligence…
+translation.workspace.readOnly	Read-only
+translation.workspace.browserLive	Live
+translation.workspace.browserWakingUp	Waking up...
+translation.workspace.browserWakeToSeeLive	Wake up to see live
+translation.workspace.browserLiveUnavailable	Live unavailable
+translation.workspace.browserGoToLive	Go to live
+translation.workspace.browserLoadingScreenshot	Loading screenshot...
+translation.workspace.browserImageLoadFailed	Couldn't load image
+translation.workspace.browserRetry	Retry
+translation.workspace.browserScreenshotAlt	Browser screenshot
+translation.workspace.browserBackToDevin	Back to Devin
+translation.workspace.browserNoHistory	No browser history yet
+translation.workspace.browserScreenshotFailed	Failed to load screenshot
+translation.workspace.tablePreviewLabel	{{filename}} preview
+translation.workspace.versionByUser	Version {{version}} · edited by you
+translation.workspace.versionByDevin	Version {{version}} · by Devin
+translation.workspace.previewLimited	Preview limited to {{maxLines}} of {{totalLines}} lines
+translation.workspace.downloadFullFile	Download full file
+translation.workspace.selectSessionVersion	Select session version
+translation.workspace.comparedTo	compared to
+translation.workspace.selectComparisonVersion	Select comparison version
+translation.workspace.viewLatestVersion	View latest version
+translation.workspace.hideComparison	Hide comparison
+translation.workspace.compareVersions	Compare versions
+translation.workspace.versionsIdentical	These versions are identical
+translation.workspace.previewFile	Preview file
+translation.workspace.downloadFile	Download {{filename}}
+translation.workspace.previewTable	Preview table
+translation.workspace.viewRawFile	View raw file
+translation.workspace.citationLabel	citation {{version}}
+translation.workspace.citationLabelWithLines	citation {{version}} · lines {{start}}-{{end}}
+translation.workspace.noContentForFile	No content to display for <file>{{filePath}}</file>
+translation.workspace.viewLatestCitation	View latest citation
+translation.workspace.selectEventVersion	Select event version
+translation.workspace.fileCitation	citation
+translation.workspace.fileCitationTooltip	The file as it was when Devin cited it. It may have changed on Devin's machine since.
+translation.workspace.noTaskList	No task list for this session yet.
+translation.workspace.tasksCompleted_one	{{completed}}/{{count}} task completed
+translation.workspace.tasksCompleted_other	{{completed}}/{{count}} tasks completed
+translation.workspace.computerStreamQuality	Stream quality
+translation.workspace.computerQualityAuto	Auto
+translation.workspace.computerQualityReduced	{{mode}} (reduced)
+translation.workspace.computerStatsForNerds	Stats for nerds
+translation.workspace.remoteComputer	Remote computer
+translation.workspace.computerCopyStats	Copy stats
+translation.workspace.computerUnavailable	Computer not available on this machine
+translation.workspace.computerOutpostsLearn	Learn how to set up a computer for Outposts
+translation.workspace.takeControl	Take control
+translation.workspace.machineProvisioning	Machine is being provisioned...
+translation.workspace.connectionRetrying	Connection failed, retrying... ({{count}}/20)
+translation.workspace.versionNumber	Version {{version}}
+translation.workspace.editedByYou	Edited by you
+translation.workspace.generatedByDevin	Generated by Devin
+translation.workspace.computerQualityAutoHint	Follows your connection
+translation.workspace.computerQualitySharp	Sharp
+translation.workspace.computerQualitySharpHint	Sharpest picture, most bandwidth
+translation.workspace.computerQualityDataSaver	Data saver
+translation.workspace.computerQualityDataSaverHint	Lowest bandwidth
+translation.workspace.computerQualityVnc	VNC
+translation.workspace.computerQualityVncHint	The old viewer, no encoding
+translation.workspace.computerQualityEncodedUnsupported	This browser can't decode the video stream, so only VNC is available
+translation.workspace.noFilesFound	No workspace files found
+translation.workspace.moveSidebarRight	Move sidebar right
+translation.workspace.moveSidebarLeft	Move sidebar left
+translation.workspace.ideFrameTitle	Devin IDE
+translation.workspace.changeCounts	{{additions}} additions, {{deletions}} deletions
+translation.scopedTriggers.mergeManager.title	Autoapprover rules
+translation.scopedTriggers.mergeManager.help	Choose which pull requests Autoapprover evaluates. It runs on every push.
+translation.scopedTriggers.mergeManager.empty	No Autoapprover rules yet
+translation.scopedTriggers.mergeManager.emptyDescription	Rules choose which pull requests Autoapprover evaluates and approves on your behalf.
+translation.scopedTriggers.mergeManager.addRule	Add Autoapprover rule
+translation.scopedTriggers.mergeManager.deleteRuleDescription	Autoapprover will no longer run on pull requests matched only by this rule.
+translation.scopedTriggers.mergeManager.exclusionsTitle	Autoapprover exclusions
+translation.scopedTriggers.mergeManager.exclusionsHelp	Autoapprover never runs on PRs that match an exclusion, even if a rule enrolls them. Automatic analysis is not affected.
+translation.scopedTriggers.mergeManager.addExclusion	Add Autoapprover exclusion
+translation.scopedTriggers.mergeManager.deleteExclusionDescription	Autoapprover may run on pull requests matched by this exclusion after it is deleted.
+translation.scopedTriggers.mergeManager.alwaysApproveTitle	Always approve
+translation.scopedTriggers.mergeManager.alwaysApproveHelp	Autoapprover approves matching pull requests without judging them, unless a finding is open or the approval policy changed. A file condition must match every changed file.
+translation.scopedTriggers.mergeManager.alwaysApproveManagersOnly	View only. Only the account's Review managers change which pull requests are always approved.
+translation.scopedTriggers.mergeManager.noAlwaysApprove	No Always approve rules yet
+translation.scopedTriggers.mergeManager.addAlwaysApprove	Always approve rule
+translation.scopedTriggers.mergeManager.addAlwaysApproveDescription	Approve pull requests in a repository or that match conditions without judging them.
+translation.scopedTriggers.mergeManager.deleteAlwaysApproveDescription	Autoapprover judges pull requests matched only by this rule after it is deleted.
+translation.scopedTriggers.mergeManager.neverApproveTitle	Always deny
+translation.scopedTriggers.mergeManager.neverApproveHelp	Autoapprover leaves matching pull requests to a person without judging them. Always deny wins over Always approve.
+translation.scopedTriggers.mergeManager.noNeverApprove	No Always deny rules yet
+translation.scopedTriggers.mergeManager.addNeverApprove	Always deny rule
+translation.scopedTriggers.mergeManager.addNeverApproveDescription	Leave pull requests in a repository or that match conditions to a person.
+translation.scopedTriggers.mergeManager.deleteNeverApproveDescription	Autoapprover may approve pull requests matched by this rule after it is deleted.
+translation.scopedTriggers.reviewer.title	Rules
+translation.scopedTriggers.reviewer.help	Choose which pull requests this reviewer checks.
+translation.scopedTriggers.reviewer.empty	No rules yet
+translation.scopedTriggers.reviewer.emptyDescription	This reviewer does not run on any pull request.
+translation.scopedTriggers.reviewer.runWithReview	Run with Devin Review
+translation.scopedTriggers.reviewer.runWithReviewDescription	Always run this custom reviewer when Devin Review runs.
+translation.scopedTriggers.reviewer.addRule	Add reviewer rule
+translation.scopedTriggers.reviewer.deleteRuleDescription	This reviewer will no longer run on pull requests matched only by this rule.
+translation.scopedTriggers.reviewer.exclusionsTitle	Exclusions
+translation.scopedTriggers.reviewer.exclusionsHelp	This reviewer never runs on PRs that match an exclusion, even if a rule enrolls them. Automatic analysis and other reviewers are not affected.
+translation.scopedTriggers.reviewer.addExclusion	Add reviewer exclusion
+translation.scopedTriggers.reviewer.deleteExclusionDescription	This reviewer may run on pull requests matched by this exclusion after it is deleted.
+translation.scopedTriggers.addAction	Add
+translation.scopedTriggers.addRepositoryAction	Add repository
+translation.scopedTriggers.addRepositoryDescription2	Choose a repository or organization, then narrow it with conditions.
+translation.scopedTriggers.addExclusionDescription	Skip pull requests in a repository or that match conditions.
+translation.scopedTriggers.verbReview	Analyze
+translation.scopedTriggers.verbRun	Run on
+translation.scopedTriggers.verbSkip	Skip
+translation.scopedTriggers.skipHelp	Matching pull requests are skipped.
+translation.scopedTriggers.reviewHelp	Devin automatically analyzes matching pull requests.
+translation.scopedTriggers.runHelp	Runs on matching pull requests.
+translation.scopedTriggers.onlyWhen	Only when
+translation.scopedTriggers.whenDialog	when
+translation.scopedTriggers.for	For
+translation.scopedTriggers.forDialog	for
+translation.scopedTriggers.everyPullRequest	every pull request
+translation.scopedTriggers.onInline	on
+translation.scopedTriggers.cancel	Cancel
+translation.scopedTriggers.deleteRule	Delete rule
+translation.scopedTriggers.deleteExclusion	Delete exclusion
+translation.scopedTriggers.cardAccountField	{{field}} · all repositories
+translation.scopedTriggers.exclusionsTitle	Exclusions
+translation.scopedTriggers.noExclusions	No exclusions.
+translation.scopedTriggers.noEnrollments	Set up automatic analysis in your first repository
+translation.scopedTriggers.noEnrollmentsDescription	Rules choose which pull requests Devin analyzes automatically.
+translation.scopedTriggers.addRepositoriesOrUsers	Add repositories or users
+translation.scopedTriggers.addRule	Add rule
+translation.scopedTriggers.addExclusion	Add exclusion
+translation.scopedTriggers.addUser	Add user
+translation.scopedTriggers.addUserDescription	Match pull requests opened by specific people.
+translation.scopedTriggers.addAdvancedDescription	Combine conditions to match specific pull requests.
+translation.scopedTriggers.noMatchingRules	No rules match your filter.
+translation.scopedTriggers.unselected	Unselected
+translation.scopedTriggers.ruleCannotBeShown	This rule cannot be shown.
+translation.scopedTriggers.everyPush	Every push
+translation.scopedTriggers.once	Only once
+translation.scopedTriggers.wheneverReviewRuns	Whenever Devin Review runs
+translation.scopedTriggers.after	after
+translation.scopedTriggers.prCreated	PR is created
+translation.scopedTriggers.prReady	PR is ready
+translation.scopedTriggers.searchTargets	Search targets
+translation.scopedTriggers.searchTargetsSelected	{{label}}, selected: {{target}}
+translation.scopedTriggers.noTargets	No accessible targets found.
+translation.scopedTriggers.groups.exclusions	Exclusions
+translation.scopedTriggers.groups.triggers	Triggers
+translation.scopedTriggers.groups.mergeManager	Autoapprover rules
+translation.scopedTriggers.groups.mergeManagerExclusions	Autoapprover exclusions
+translation.scopedTriggers.groups.reviewer	Reviewer rules
+translation.scopedTriggers.groups.reviewerExclusions	Reviewer exclusions
+translation.scopedTriggers.groups.mergeManagerAlwaysApprove	Autoapprover Always approve rules
+translation.scopedTriggers.groups.mergeManagerNeverApprove	Autoapprover Always deny rules
+translation.scopedTriggers.groupCount.repositories_one	{{count}} repository
+translation.scopedTriggers.groupCount.repositories_other	{{count}} repositories
+translation.scopedTriggers.groupCount.users_one	{{count}} user
+translation.scopedTriggers.groupCount.users_other	{{count}} users
+translation.scopedTriggers.groupCount.advanced_one	{{count}} advanced rule
+translation.scopedTriggers.groupCount.advanced_other	{{count}} advanced rules
+translation.scopedTriggers.excludedGroupCount.repositories_one	{{count}} excluded repository
+translation.scopedTriggers.excludedGroupCount.repositories_other	{{count}} excluded repositories
+translation.scopedTriggers.excludedGroupCount.users_one	{{count}} excluded user
+translation.scopedTriggers.excludedGroupCount.users_other	{{count}} excluded users
+translation.scopedTriggers.excludedGroupCount.advanced_one	{{count}} advanced exclusion
+translation.scopedTriggers.excludedGroupCount.advanced_other	{{count}} advanced exclusions
+translation.scopedTriggers.scopeCheckError	Checking {{target}} failed. Try again.
+translation.scopedTriggers.stale	Triggers changed on the server. Your edits are preserved, but saving is blocked. Choose Discard changes to reload the latest triggers.
+translation.scopedTriggers.checkScopeHelp	Check access before editing this scope.
+translation.scopedTriggers.checkScope	Check access
+translation.scopedTriggers.unsupportedEffect	Automatic analysis doesn't support the effect “{{effect}}”. No changes were saved.
+translation.scopedTriggers.unsupportedEffectUnknown	These triggers use an unsupported effect. No changes were saved.
+translation.scopedTriggers.unavailable	Scoped triggers are not available for this account. Reload after your administrator confirms access.
+translation.scopedTriggers.capability.available	You can edit this scope.
+translation.scopedTriggers.capability.readonly	View only. Ask a Devin admin to change it.
+translation.scopedTriggers.capability.inaccessible	Its {{provider}} connection was removed, so no webhooks arrive. Ask a Devin admin to reconnect {{provider}} and add this rule again.
+translation.scopedTriggers.capability.inaccessible_admin	Its {{provider}} connection was removed, so no webhooks arrive. Remove this rule, reconnect {{provider}}, and add it again.
+translation.scopedTriggers.capability.github_pat_unsupported	Connected with a personal access token, which sends no webhooks. Ask a Devin admin to install the GitHub App.
+translation.scopedTriggers.capability.github_pat_unsupported_admin	Connected with a personal access token, which sends no webhooks. Install the GitHub App.
+translation.scopedTriggers.capability.relink_required	The GitHub App is no longer installed, so {{provider}} sends no webhooks. Ask a Devin admin to reconnect {{provider}}.
+translation.scopedTriggers.capability.relink_required_admin	The GitHub App is no longer installed, so {{provider}} sends no webhooks.
+translation.scopedTriggers.capability.unsupported	Devin doesn't receive pull request webhooks from {{provider}} yet.
+translation.scopedTriggers.capability.prefix_disabled	Prefix rules aren't enabled for your account. View only.
+translation.scopedTriggers.capability.broader_grant_required	You don't have access to {{target}} in Devin. Ask a Devin admin.
+translation.scopedTriggers.capability.broader_grant_required_admin	You don't have access to {{target}} in Devin.
+translation.scopedTriggers.capability.personalAdvanced	Only account administrators can change filters on personal rules. You can still change when analysis runs or remove the rule.
+translation.scopedTriggers.scope	Scope
+translation.scopedTriggers.noRepositoriesFound	No repositories found
+translation.scopedTriggers.filter	Filter
+translation.scopedTriggers.clearFilter	Clear filter
+translation.scopedTriggers.searchRepositories	Search repositories
+translation.scopedTriggers.searchingRepositories	Searching repositories…
+translation.scopedTriggers.repositorySearchError	Repositories could not be loaded.
+translation.scopedTriggers.loadMoreError	Couldn't load more. Retry
+translation.scopedTriggers.literalPrefix	Literal repository prefix
+translation.scopedTriggers.account	Entire account
+translation.scopedTriggers.noScopes_account	No repositories are available for automatic analysis yet. Connect a git provider or add repositories to get started.
+translation.scopedTriggers.noScopes_organization	No repositories are available for automatic analysis in this organization yet. Connect a git provider or add repositories to this organization to get started.
+translation.scopedTriggers.noScopes_enterprise_organization	No repositories are available for automatic analysis in this organization yet. Ask an enterprise admin to give this organization access to repositories.
+translation.scopedTriggers.scopeReadonly	This scope contains entries that cannot be replaced in this editor.
+translation.scopedTriggers.editable	Editable triggers
+translation.scopedTriggers.brokenRule	Devin can't show this rule. It may not be running.
+translation.scopedTriggers.brokenExclusion	Devin can't show this exclusion. It may not be running.
+translation.scopedTriggers.noFilter	No expression filter
+translation.scopedTriggers.not	Not
+translation.scopedTriggers.exact	Exact match
+translation.scopedTriggers.glob	Glob pattern
+translation.scopedTriggers.shortFields.author	author
+translation.scopedTriggers.shortFields.reviewer	reviewer
+translation.scopedTriggers.shortFields.label	label
+translation.scopedTriggers.shortFields.author_type	author type
+translation.scopedTriggers.shortFields.originated_by	originated by Devin
+translation.scopedTriggers.shortFields.not_originated_by	not originated by Devin
+translation.scopedTriggers.shortFields.repository	repo
+translation.scopedTriggers.shortFields.title	title
+translation.scopedTriggers.shortFields.source_branch	source branch
+translation.scopedTriggers.shortFields.target_branch	target branch
+translation.scopedTriggers.shortFields.changed_file	files
+translation.scopedTriggers.shortFields.line_diff	size
+translation.scopedTriggers.conditionCount_one	{{count}} condition
+translation.scopedTriggers.conditionCount_other	{{count}} conditions
+translation.scopedTriggers.patternCount_one	{{count}} pattern
+translation.scopedTriggers.patternCount_other	{{count}} patterns
+translation.scopedTriggers.valueCount_one	{{count}} value
+translation.scopedTriggers.valueCount_other	{{count}} values
+translation.scopedTriggers.deleteRuleTitle	Delete rule?
+translation.scopedTriggers.deleteRuleDescription	This rule will no longer trigger automatic analysis.
+translation.scopedTriggers.deleteExclusionTitle	Delete exclusion?
+translation.scopedTriggers.deleteExclusionDescription	After you delete this exclusion, matching pull requests may be analyzed automatically.
+translation.scopedTriggers.validation	Some changes are incomplete. Check the selected repository or user and fill in each filter.
+translation.scopedTriggers.readonly	Read only
+translation.scopedTriggers.viewOnly	View only
+translation.scopedTriggers.viewOnlyHint	Editable by admins
+translation.scopedTriggers.noWebhooks	No webhooks
+translation.scopedTriggers.connectionsChanged	{{target}} lost its {{provider}} connection, so these changes can't be saved. Discard them and ask a Devin admin to reconnect {{provider}}.
+translation.scopedTriggers.access.permission_required	You don't have permission to manage automatic analysis.
+translation.scopedTriggers.or	or
+translation.scopedTriggers.exclusionsHelp	Devin never automatically analyzes PRs that match an exclusion, even if another rule enrolls them.
+translation.scopedTriggers.username	Username
+translation.scopedTriggers.add.advanced	Add advanced rule
+translation.scopedTriggers.prefixPlaceholder	prefix
+translation.scopedTriggers.addKind.account.label	Entire account
+translation.scopedTriggers.addKind.account.description	Every repository on every connection.
+translation.scopedTriggers.addKind.organization.description	Every repository in one organization.
+translation.scopedTriggers.addKind.prefix.label	Add GitHub repository prefix
+translation.scopedTriggers.addKind.prefix.description	GitHub repositories whose path starts with a prefix.
+translation.scopedTriggers.addKind.repository.label	Add single repository
+translation.scopedTriggers.addKind.repository.description	One repository.
+translation.scopedTriggers.addKind.user.description	Every pull request one account member authors.
+translation.scopedTriggers.scopeType	Scope type
+translation.scopedTriggers.selectScope	Select scope
+translation.scopedTriggers.newRule	New rule
+translation.scopedTriggers.newExclusion	New exclusion
+translation.scopedTriggers.selectScopeType	Select scope type
+translation.scopedTriggers.scopeKind.account	All repositories
+translation.scopedTriggers.scopeKind.organization	Organization
+translation.scopedTriggers.scopeKind.prefix	Repository prefix
+translation.scopedTriggers.scopeKind.repository	Repository
+translation.scopedTriggers.scopeKind.user	Member
+translation.scopedTriggers.cardTargetType.ariaLabelWithValue	Target type: {{type}}
+translation.scopedTriggers.cardTargetType.repository	Repository
+translation.scopedTriggers.cardTargetType.organization	Organization
+translation.scopedTriggers.cardTargetType.prefix	Repository prefix
+translation.scopedTriggers.cardTargetType.member	Member
+translation.scopedTriggers.targetsList	{{targets, list(type: unit)}}
+translation.scopedTriggers.addNamespace.github.label	Add GitHub organization
+translation.scopedTriggers.addNamespace.github.description	Every repository in one GitHub organization.
+translation.scopedTriggers.addNamespace.gitlab.label	Add GitLab group
+translation.scopedTriggers.addNamespace.gitlab.description	Every repository in one GitLab group.
+translation.scopedTriggers.addNamespace.bitbucket.label	Add Bitbucket workspace
+translation.scopedTriggers.addNamespace.bitbucket.description	Every repository in one Bitbucket workspace.
+translation.scopedTriggers.addNamespace.azure_devops.label	Add Azure DevOps project
+translation.scopedTriggers.addNamespace.azure_devops.description	Every repository in one Azure DevOps project.
+translation.scopedTriggers.addNamespace.bitbucket_data_center.label	Add Bitbucket project
+translation.scopedTriggers.addNamespace.bitbucket_data_center.description	Every repository in one Bitbucket project.
+translation.scopedTriggers.addNamespace.p4.label	Add Perforce depot
+translation.scopedTriggers.addNamespace.p4.description	Every path in one Perforce depot.
+translation.scopedTriggers.addNamespace.gerrit.label	Add Gerrit parent project
+translation.scopedTriggers.addNamespace.gerrit.description	Every project under one Gerrit parent project.
+translation.scopedTriggers.filterGroup	Filter {{group}}
+translation.scopedTriggers.reviewWhen	analyze when
+translation.scopedTriggers.neverReviewWhen	never analyze when
+translation.scopedTriggers.opIs	is
+translation.scopedTriggers.opIsNot	is not
+translation.scopedTriggers.scopeLevelQuestion	Which scope level should this rule apply to?
+translation.scopedTriggers.scopeValueQuestion	Which {{entity}} should this rule apply to?
+translation.scopedTriggers.entity.prefix	repository prefix
+translation.scopedTriggers.entity.repository	repository
+translation.scopedTriggers.entity.user	member
+translation.scopedTriggers.global	All repositories
+translation.scopedTriggers.fieldPlaceholder	field
+translation.scopedTriggers.blankPlaceholder	blank
+translation.scopedTriggers.scopeKindDescription.account	Every pull request in this Devin account's linked repositories.
+translation.scopedTriggers.scopeKindDescription.prefix	Repositories whose path starts with a prefix.
+translation.scopedTriggers.scopeKindDescription.repository	One repository.
+translation.scopedTriggers.scopeKindDescription.user	Every pull request one account member authors.
+translation.scopedTriggers.namespaceKind.github.label	GitHub organization
+translation.scopedTriggers.namespaceKind.github.description	Every repository in this GitHub organization.
+translation.scopedTriggers.namespaceKind.gitlab.label	GitLab group
+translation.scopedTriggers.namespaceKind.gitlab.description	Every repository in this GitLab group.
+translation.scopedTriggers.namespaceKind.bitbucket.label	Bitbucket workspace
+translation.scopedTriggers.namespaceKind.bitbucket.description	Every repository in this Bitbucket workspace.
+translation.scopedTriggers.namespaceKind.azure_devops.label	Azure DevOps project
+translation.scopedTriggers.namespaceKind.azure_devops.description	Every repository in this Azure DevOps project.
+translation.scopedTriggers.namespaceKind.bitbucket_data_center.label	Bitbucket project
+translation.scopedTriggers.namespaceKind.bitbucket_data_center.description	Every repository in this Bitbucket project.
+translation.scopedTriggers.namespaceKind.p4.label	Perforce depot
+translation.scopedTriggers.namespaceKind.p4.description	Every path in this Perforce depot.
+translation.scopedTriggers.namespaceKind.gerrit.label	Gerrit parent project
+translation.scopedTriggers.namespaceKind.gerrit.description	Every project under this Gerrit parent project.
+translation.scopedTriggers.saveScope	Save
+translation.scopedTriggers.cancelScope	Cancel
+translation.scopedTriggers.setUpGitHubApp	Install the GitHub App
+translation.scopedTriggers.reconnectProvider	Reconnect {{provider}}
+translation.scopedTriggers.manageAccess	Manage access
+translation.scopedTriggers.warning.github_pat.admin	Connected with a personal access token, which sends no webhooks.
+translation.scopedTriggers.warning.github_pat.nonAdmin	Connected with a personal access token, which sends no webhooks. Ask a Devin admin to install the GitHub App.
+translation.scopedTriggers.warning.relink_required.admin	The GitHub App is no longer installed, so {{provider}} sends no webhooks.
+translation.scopedTriggers.warning.relink_required.nonAdmin	The GitHub App is no longer installed, so {{provider}} sends no webhooks. Ask a Devin admin to reconnect {{provider}}.
+translation.scopedTriggers.warning.unavailable.admin	Devin doesn't receive pull request webhooks from {{provider}} yet.
+translation.scopedTriggers.warning.unavailable.nonAdmin	Devin doesn't receive pull request webhooks from {{provider}} yet.
+translation.scopedTriggers.warning.missing.admin	Its {{provider}} connection was removed, so no webhooks arrive. Remove this rule, reconnect {{provider}}, and add it again.
+translation.scopedTriggers.warning.missing.nonAdmin	Its {{provider}} connection was removed, so no webhooks arrive. Ask a Devin admin to reconnect {{provider}} and add this rule again.
+translation.scopedTriggers.target.organization	all of {{name}}
+translation.scopedTriggers.connectionsChanged_admin	{{target}} lost its {{provider}} connection, so these changes can't be saved. Discard them, or reconnect {{provider}} and retry.
+translation.scopedTriggers.verbAlwaysApprove	Always approve
+translation.scopedTriggers.verbNeverApprove	Always deny
+translation.scopedTriggers.alwaysApproveHelp	Matching pull requests are approved without being judged, unless a finding is open or the approval policy changed. A file condition must match every changed file.
+translation.scopedTriggers.neverApproveHelp	Matching pull requests are left to a person.
+translation.autoreviewTriggers.title	Automatic analysis
+translation.autoreviewTriggers.help	Automatically analyze new PRs in selected repositories.
+translation.autoreviewTriggers.helpAllRepositories	Automatically analyze matching PRs across all repositories.
+translation.autoreviewTriggers.and	and
+translation.autoreviewTriggers.addCondition	Add condition
+translation.autoreviewTriggers.removeCondition	Remove condition
+translation.autoreviewTriggers.removeTrigger	Remove trigger {{number}}
+translation.autoreviewTriggers.removeExclusion	Remove exclusion {{number}}
+translation.autoreviewTriggers.matches	matches
+translation.autoreviewTriggers.doesNotMatch	does not match
+translation.autoreviewTriggers.lessThan	is less than
+translation.autoreviewTriggers.atMost	is at most
+translation.autoreviewTriggers.atLeast	is at least
+translation.autoreviewTriggers.moreThan	is more than
+translation.autoreviewTriggers.selectField	Select field
+translation.autoreviewTriggers.selectOperator	Select operator
+translation.autoreviewTriggers.selectUserScope	Select user scope
+translation.autoreviewTriggers.userScopeDevin	Devin
+translation.autoreviewTriggers.userPickerTitle	Choose a user
+translation.autoreviewTriggers.userLocationQuestion	Where is this user?
+translation.autoreviewTriggers.userValueQuestion	Which {{location}} user?
+translation.autoreviewTriggers.userAlreadyAdded	This user is already added.
+translation.autoreviewTriggers.selectUser	Select a user
+translation.autoreviewTriggers.addUser	Add user

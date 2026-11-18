@@ -1,0 +1,500 @@
+translation.grantRequest.titleMcp_other	Remove the {{botName}}'s access to {{count}} MCP sign-ins?
+translation.grantRequest.titlePlugin_one	Remove the {{botName}}'s access to a plugin?
+translation.grantRequest.titlePlugin_other	Remove the {{botName}}'s access to {{count}} plugins?
+translation.grantRequest.titleAutomation_one	Remove the {{botName}}'s access to a personal automation?
+translation.grantRequest.titleAutomation_other	Remove the {{botName}}'s access to {{count}} personal automations?
+translation.grantRequest.noteRemoveConsent	Confirm stops the {{botName}} opening pull requests as these people from now on; a pull request it already opened is unchanged. Each person can allow it again from their own settings.
+translation.grantRequest.noteRemoveMcp	Confirm removes only these sign-ins. A plugin that came with a sign-in is removed once none of the giver's sign-ins support it. The giver can grant them again from chat or the Access tab.
+translation.grantRequest.noteRemove	Confirm removes this access; anything already gone is skipped. The giver can grant it again from chat or the Access tab.
+translation.grantRequest.removeLater	You can remove the access later under the {{botName}}'s settings > Access, in the list of what it can access, or by asking it to.
+translation.grantRequest.noteSecrets	Approving shares your personal secrets with these keys; keys you do not have are skipped. {{removeLater}}
+translation.grantRequest.noteMcp_one	Approving lets the {{botName}} connect to this MCP server with your own sign-in. {{removeLater}}
+translation.grantRequest.noteMcp_other	Approving lets the {{botName}} connect to these MCP servers with your own sign-in. {{removeLater}}
+translation.grantRequest.notePlugins	Approving gives the {{botName}} your own copies of these plugins, with your sign-ins on the MCP servers they declare. {{removeLater}}
+translation.grantRequest.noteAutomations_one	Approving lets the {{botName}} read and change this personal automation of yours as you can (its triggers, prompt and runs; edit, enable, run and delete it), but not switch it to run as the organization. You can remove the access later from the {{botName}}'s Share dialog.
+translation.grantRequest.noteAutomations_other	Approving lets the {{botName}} read and change these personal automations of yours as you can (their triggers, prompts and runs; edit, enable, run and delete them), but not switch them to run as the organization. You can remove the access later from the {{botName}}'s Share dialog.
+translation.grantRequest.noteSessions_one	Approving shares the session with the {{botName}} at your own level or below. {{removeLater}}
+translation.grantRequest.noteSessions_other	Approving shares these sessions with the {{botName}} at your own level or below. {{removeLater}}
+translation.slack.workspacesAddedToast_one	Added {{count}} workspace
+translation.slack.workspacesAddedToast_other	Added {{count}} workspaces
+translation.slack.workspacesRemovedToast_one	Removed {{count}} workspace
+translation.slack.workspacesRemovedToast_other	Removed {{count}} workspaces
+translation.localShares.unavailableTitle	Conversation unavailable
+translation.localShares.unavailableBody	This shared conversation doesn't exist or you don't have access to it.
+translation.localShares.defaultTitle	Shared conversation
+translation.localShares.truncatedBanner	Some content was redacted or left out of this conversation before it was uploaded.
+translation.localShares.unsupportedTitle	This conversation can't be displayed
+translation.localShares.unsupportedBody	Its transcript isn't in a format this page understands, which usually means it was shared by a newer version of the agent.
+translation.localShares.emptyTitle	Nothing to show
+translation.localShares.emptyBody	This conversation doesn't have any messages to display.
+translation.localShares.toolTitle.write	Write `{{path}}`
+translation.localShares.toolTitle.edit	Edit `{{path}}`
+translation.localShares.toolTitle.applyPatch	Apply patch
+translation.localShares.toolTitle.read	Read {{path}}
+translation.localShares.toolTitle.search	Search for `{{pattern}}`
+translation.localShares.toolTitle.find	Find files matching `{{pattern}}`
+translation.replay.notFoundTitle	Replay Not Found
+translation.replay.notFoundDescription	No replay found for "{{id}}".
+translation.replay.loadErrorTitle	Error Loading Replay
+translation.replay.loadErrorDescription	Failed to load replay events. Please try again.
+translation.replay.editReplay	Edit replay
+translation.replay.overlay.finished	Devin has finished working
+translation.replay.overlay.tryDevin	Try Devin
+translation.replay.overlay.replaySession	Replay session
+translation.replay.overlay.pauseAutoAdvance	Pause auto-advance
+translation.replay.overlay.browserPreview	Browser preview
+translation.replay.overlay.stepsProgress	{{completed}} of {{total}} steps
+translation.replay.overlay.replaying	Devin is replaying the task
+translation.replay.overlay.continueReplay	Continue replay
+translation.replay.overlay.nextStep	Next step
+translation.replay.editor.copyFailed	Could not copy replay URL
+translation.replay.editor.title	Replay editor
+translation.replay.editor.copyUrl	Copy URL
+translation.replay.editor.close	Close replay editor
+translation.replay.editor.restart	Restart
+translation.replay.editor.stepBack	Step back
+translation.replay.editor.pause	Pause
+translation.replay.editor.play	Play
+translation.replay.editor.stepForward	Step forward
+translation.replay.editor.eventIndex	Replay event index
+translation.replay.editor.scrub	Scrub replay
+translation.replay.editor.speed	speed
+translation.replay.editor.baseSpeed	Base playback speed (events per second)
+translation.replay.editor.speedSummary	events/s · now {{speed}}
+translation.replay.editor.speedSummaryUrlBase	events/s (URL base) · now {{speed}}
+translation.replay.editor.checkpointCount	checkpoints ({{total}})
+translation.replay.editor.defaultCheckpointLabel	Checkpoint {{number}}
+translation.replay.editor.addAt	+ add @ {{index}}
+translation.replay.editor.seekToEvent	Seek to event {{index}}
+translation.replay.editor.checkpointLabel	Checkpoint label
+translation.replay.editor.removeCheckpoint	Remove checkpoint
+translation.replay.editor.hold	hold
+translation.replay.editor.seconds	s
+translation.replay.editor.then	then
+translation.replay.editor.keepSpeed	keep
+translation.replay.editor.eventsPerSecondShort	ev/s
+translation.replay.editor.workspace	workspace
+translation.integrations.common.host	Host
+translation.integrations.common.hostname	Hostname
+translation.integrations.common.enterHostname	Hostname required
+translation.integrations.common.connect	Connect
+translation.integrations.common.connecting	Connecting...
+translation.integrations.common.continue	Continue
+translation.integrations.common.back	Back
+translation.integrations.common.close	Close
+translation.integrations.common.redirecting	Redirecting…
+translation.integrations.common.saving	Saving…
+translation.integrations.common.somethingWentWrong	Something went wrong
+translation.integrations.common.noOrganizationId	No organization ID found
+translation.integrations.common.integrationRemoved	Integration removed
+translation.integrations.gitlab.removing	Removing GitLab integration…
+translation.integrations.gitlab.removed	GitLab integration removed
+translation.integrations.gitlab.removeFailed	Failed to remove GitLab integration
+translation.integrations.gitlab.adding	Adding GitLab integration…
+translation.integrations.gitlab.added	GitLab integration added
+translation.integrations.gitlab.addFailed	Failed to add GitLab integration
+translation.integrations.gitlab.webhook.autoInstall	Devin sets up these webhooks for you on every project and group its GitLab account can administer, and keeps them up to date. Use the steps below only for projects it cannot reach.
+translation.integrations.gitlab.webhook.groupTab	Group
+translation.integrations.gitlab.webhook.recommended	(Recommended)
+translation.integrations.gitlab.webhook.projectTab	Project
+translation.integrations.gitlab.webhook.goToGroupSettings	Go to your GitLab group settings
+translation.integrations.gitlab.webhook.goToProjectSettings	Go to your GitLab project settings
+translation.integrations.gitlab.webhook.navigateToWebhooks	Navigate to Webhooks
+translation.integrations.gitlab.webhook.addUrlAndSecret	Add the webhook URL and secret token above
+translation.integrations.gitlab.webhook.selectTriggers	Select triggers: <strong>Comments</strong>, <strong>Merge request events</strong>, <strong>Push events</strong>, <strong>Issues events</strong>, <strong>Pipeline events</strong>
+translation.integrations.gitlab.webhook.clickAdd	Click \\
+translation.integrations.gitlab.connect.serviceAccountTitle	Connect a service account
+translation.integrations.gitlab.connect.selfHostedTitle	Connect to self-hosted GitLab
+translation.integrations.gitlab.connect.serviceAccountDescription	Create a service account in your GitLab group (or a dedicated user on the Free tier) with an api-scope personal access token, and add it to the groups Devin should access. Developer can connect and read, Maintainer lets Devin set up webhooks, and Owner (Premium/Ultimate) adds group-level webhooks
+translation.integrations.gitlab.connect.selfHostedDescription	The token needs the api scope. Requires GitLab 15 or later
+translation.integrations.gitlab.connect.invalidHost	Host must only contain lowercase letters, numbers, hyphens, underscores, or periods [a-z0-9-_.]
+translation.integrations.gitlab.connect.hostPlaceholder	GitLab host (e.g. gitlab.example.com)
+translation.integrations.gitlab.connect.newAccessToken	New access token
+translation.integrations.gitlab.connect.accessToken	Access token
+translation.integrations.gitlab.connect.newTokenPlaceholder	Enter your new GitLab personal access token
+translation.integrations.gitlab.connect.tokenPlaceholder	Enter your GitLab personal access token
+translation.integrations.gitlab.connect.tokenRequired	Access token required
+translation.integrations.gitlab.rotate.rotating	Rotating GitLab token...
+translation.integrations.gitlab.rotate.success	GitLab token rotated successfully
+translation.integrations.gitlab.rotate.failed	Failed to rotate GitLab token
+translation.integrations.gitlab.rotate.title	Rotate GitLab token
+translation.integrations.gitlab.rotate.description	The token must belong to the same GitLab user as {{accountName}}
+translation.integrations.gitlab.rotate.submitting	Rotating...
+translation.integrations.gitlab.rotate.submit	Rotate token
+translation.integrations.gitlab.selfHostedApp.copyApplicationName	Copy application name
+translation.integrations.gitlab.selfHostedApp.copyApplicationNameFailed	Failed to copy application name
+translation.integrations.gitlab.selfHostedApp.copyRedirectUri	Copy redirect URI
+translation.integrations.gitlab.selfHostedApp.copyRedirectUriFailed	Failed to copy redirect URI
+translation.integrations.gitlab.selfHostedApp.duplicateTitle	A GitLab application is already registered for this host
+translation.integrations.gitlab.selfHostedApp.duplicateBody	Application {{appId}} is already set up on {{host}}. Remove it from Manage apps before registering a replacement.
+translation.integrations.gitlab.selfHostedApp.applicationName	Application name
+translation.integrations.gitlab.selfHostedApp.redirectUri	Redirect URI
+translation.integrations.gitlab.selfHostedApp.scopes	Scopes
+translation.integrations.gitlab.selfHostedApp.selectScopes	Select <scopes>{{scopes}}</scopes>.
+translation.integrations.gitlab.selfHostedApp.confidential	Confidential
+translation.integrations.gitlab.selfHostedApp.enableConfidential	Enable the confidential checkbox.
+translation.integrations.gitlab.selfHostedApp.applicationId	Application ID
+translation.integrations.gitlab.selfHostedApp.applicationIdRequired	Application ID required
+translation.integrations.gitlab.selfHostedApp.applicationSecret	Application secret
+translation.integrations.gitlab.selfHostedApp.applicationSecretRequired	Application secret required
+translation.integrations.gitlab.selfHostedApp.register	Register
+translation.integrations.gitlab.selfHostedApp.notSelfHosted	gitlab.com is not a self-hosted instance. Use the regular GitLab connect flow instead.
+translation.integrations.gitlab.selfHostedApp.invalidHostname	Please enter a valid hostname, e.g. gitlab.yourcompany.com
+translation.integrations.gitlab.selfHostedApp.stillChecking	Still checking for an existing GitLab application.
+translation.integrations.gitlab.selfHostedApp.alreadyRegistered	A GitLab application is already registered for this host. Remove it from Manage apps before registering a replacement.
+translation.integrations.gitlab.selfHostedApp.registered	GitLab application registered
+translation.integrations.gitlab.selfHostedApp.registerFailed	Failed to register GitLab application. Please try again.
+translation.integrations.gitlab.selfHostedApp.title	Register GitLab application
+translation.integrations.gitlab.selfHostedApp.description	Lets users link their self-hosted GitLab accounts to Devin
+translation.integrations.gitlab.selfHostedApp.instructions	<createLink>Create the application on {{host}}</createLink> with the settings below, then paste the credentials into the fields at the bottom
+translation.integrations.gitlab.notAccountHost	{{host}} is not a GitLab host of this account
+translation.integrations.github.removing	Removing GitHub integration…
+translation.integrations.github.removed	GitHub integration removed
+translation.integrations.github.removeFailed	Failed to remove GitHub integration
+translation.integrations.github.connectOrgFailed	Failed to connect GitHub organization
+translation.integrations.github.installationAccessLost	We no longer have access to this installation. Try disconnecting and reconnecting.
+translation.integrations.github.manageInstallationFailed	Error managing installation.
+translation.integrations.github.startOauthFailed	Failed to start GitHub OAuth
+translation.integrations.github.unknownError	Unknown error
+translation.integrations.github.noConnectPermission	You don't have permission to connect your Git provider. Ask your admin to approve the installation.
+translation.integrations.github.autoJoinEnabled	GitHub auto-joining enabled
+translation.integrations.github.autoJoinEnableFailed	Failed to enable GitHub auto-joining
+translation.integrations.github.autoJoinDisableFailed	Failed to disable GitHub auto-joining
+translation.integrations.github.connectedModal.accountConnected	{{accountName}} connected
+translation.integrations.github.connectedModal.providerConnected	{{provider}} connected
+translation.integrations.github.connectedModal.dollarsGranted	We added \${{amount}} in on-demand usage to your account to help you get started with Devin.
+translation.integrations.github.connectedModal.dollarsGrantedWithMembership	We added \${{amount}} in on-demand usage to your account to help you get started with Devin. Configure membership settings below.
+translation.integrations.github.connectedModal.acusGranted	We added {{amount}} ACUs to your account to help you get started with Devin.
+translation.integrations.github.connectedModal.acusGrantedWithMembership	We added {{amount}} ACUs to your account to help you get started with Devin. Configure membership settings below.
+translation.integrations.github.connectedModal.connectedToTeam	You successfully connected {{provider}} to your Devin team. Configure membership settings below, and start getting work done with Devin.
+translation.integrations.github.connectedModal.connected	You successfully connected {{provider}}. Start getting work done with Devin.
+translation.integrations.github.connectedModal.done	Done
+translation.integrations.github.connectedModal.openDesktop	Open Devin Desktop
+translation.integrations.github.connectedModal.getStarted	Get started
+translation.integrations.github.ghesApps.loadFailed	Failed to load GitHub App configurations.
+translation.integrations.github.ghesApps.installUrlFailed	Failed to get installation URL. Please try again.
+translation.integrations.github.ghesApps.removed	Removed {{appName}} ({{host}})
+translation.integrations.github.ghesApps.removeFailed	Failed to remove the GitHub App configuration.
+translation.integrations.github.ghesApps.title	GitHub Enterprise apps
+translation.integrations.github.ghesApps.descriptionInstall	Install a registered GitHub App on your GitHub Enterprise instance.
+translation.integrations.github.ghesApps.descriptionRemove	Remove an app to re-register one for the same host — removing only clears Devin's stored configuration, so delete the app on your GitHub Enterprise instance separately.
+translation.integrations.github.ghesApps.descriptionInstallAndRemove	Install a registered GitHub App on your GitHub Enterprise instance. Remove an app to re-register one for the same host — removing only clears Devin's stored configuration, so delete the app on your GitHub Enterprise instance separately.
+translation.integrations.github.ghesApps.loading	Loading configurations…
+translation.integrations.github.ghesApps.empty	No GitHub Enterprise apps have been registered yet. Please register an app first.
+translation.integrations.github.ghesApps.removing	Removing…
+translation.integrations.github.ghesApps.confirmRemove	Confirm remove
+translation.integrations.github.ghesApps.install	Install
+translation.integrations.github.ghesApps.remove	Remove
+translation.integrations.github.installations.dontSeeOrg	Don't see your organization above?
+translation.integrations.github.installations.connectDifferentOrg	Connect to a different organization
+translation.integrations.github.installations.title	Connect GitHub organization
+translation.integrations.github.installations.connecting	Connecting
+translation.integrations.github.installations.doNotLeave	Please do not leave this page.
+translation.integrations.github.installations.loadError	Error loading GitHub installations. Please try again.
+translation.integrations.github.installations.empty	No GitHub organizations found with Devin already installed.
+translation.integrations.github.installations.searchPlaceholder	Search organizations…
+translation.integrations.github.installations.confirmTitle	Connect {{name}}
+translation.integrations.github.installations.confirmDescription	Are you sure you want to connect to <strong>{{name}}</strong>? This will allow Devin to access repositories in this organization.
+translation.integrations.github.ghesRegister.notEnterprise	github.com is not a GitHub Enterprise instance. Use the regular GitHub connect flow instead.
+translation.integrations.github.ghesRegister.stillChecking	Still checking for existing GitHub Apps on this host. Please wait a moment.
+translation.integrations.github.ghesRegister.alreadyRegistered	A GitHub App is already registered for this GitHub Enterprise instance. Install or manage the existing App instead of creating a new one.
+translation.integrations.github.ghesRegister.startFailed	Failed to start GitHub App registration. Please try again.
+translation.integrations.github.ghesRegister.startFailedCheckHost	Failed to start GitHub App registration. Please check the hostname and try again.
+translation.integrations.github.ghesRegister.title	Connect GitHub Enterprise
+translation.integrations.github.ghesRegister.description	You'll be redirected to your GitHub Enterprise instance to confirm creating the app
+translation.integrations.github.ghesRegister.organization	Organization
+translation.integrations.github.ghesRegister.organizationPlaceholder	my-org
+translation.integrations.github.ghesRegister.organizationHint	Leave blank to register the app on your personal account
+translation.integrations.github.ghesRegister.appName	GitHub App name
+translation.integrations.github.ghesRegister.appNameHint	Defaults to <code>devin-ai-integration</code>. Must be unique on this instance
+translation.integrations.github.ghesRegister.subdomainIsolation	Subdomain isolation enabled
+translation.integrations.github.ghesRegister.duplicateTitle	A GitHub App is already registered for this GitHub Enterprise instance
+translation.integrations.github.ghesRegister.duplicateOne	\\
+translation.integrations.github.installPageTitle	GitHub installation
+translation.integrations.github.ghesInstallPageTitle	GitHub Enterprise installation
+translation.integrations.github.noOrganizationName	No organization name available
+translation.integrations.bitbucket.adding	Adding Bitbucket Data Center integration…
+translation.integrations.bitbucket.added	Bitbucket integration added
+translation.integrations.bitbucket.addFailed	Failed to add Bitbucket integration
+translation.integrations.bitbucket.invalidHost	Host must only contain lowercase letters, numbers, hyphens, underscores, periods, an optional port number, and an optional path [a-z0-9-_.:port/path]
+translation.integrations.bitbucket.dataCenterTitle	Connect to Bitbucket Data Center
+translation.integrations.bitbucket.learnHttpToken	Learn how to create an HTTP access token
+translation.integrations.bitbucket.hostRequired	Host required
+translation.integrations.bitbucket.username	Username
+translation.integrations.bitbucket.usernamePlaceholder	your-username
+translation.integrations.bitbucket.usernameRequired	Username required
+translation.integrations.bitbucket.httpToken	HTTP access token
+translation.integrations.bitbucket.httpTokenPlaceholder	Your HTTP access token
+translation.integrations.bitbucket.httpTokenRequired	HTTP access token required
+translation.integrations.bitbucket.workspacePlaceholder	my-workspace
+translation.integrations.azureDevops.webhook.goToSettings	Go to your Azure DevOps project settings
+translation.integrations.azureDevops.webhook.navigate	Navigate to Service hooks
+translation.integrations.azureDevops.webhook.createThree	Create <strong>three</strong> separate Web Hooks subscriptions, one for each of these events:
+translation.integrations.azureDevops.webhook.eventCreated	Pull request created
+translation.integrations.azureDevops.webhook.eventCommented	Pull request commented on
+translation.integrations.azureDevops.webhook.eventUpdated	Pull request updated
+translation.integrations.azureDevops.webhook.buildCompleted	For Devin to react to failed pipelines on its pull requests, and to use build automations, also create a subscription for <strong>Build completed</strong> with resource version <strong>2.0</strong> (the default).
+translation.integrations.azureDevops.webhook.codePushed	To use push automations, also create a subscription for <strong>Code pushed</strong>.
+translation.integrations.azureDevops.webhook.setSecret	Set the webhook URL from above and use the secret token from this page as the <strong>Basic authentication password</strong> for the webhook.
+translation.integrations.azureDevops.webhook.docs	Service hooks documentation
+translation.integrations.slack.ghNotifications.updateFailed	Failed to update GitHub notification channel
+translation.integrations.slack.ghNotifications.privateDm	Private DM
+translation.integrations.slack.ghNotifications.off	Off
+translation.integrations.slack.ghNotifications.unknownChannel	Unknown channel
+translation.integrations.slack.ghNotifications.title	Notifications
+translation.integrations.slack.ghNotifications.selectAria	Select GitHub notification channel
+translation.integrations.slack.ghNotifications.selectChannel	Select channel
+translation.integrations.slack.connection.label	Connection
+translation.integrations.slack.connection.disconnectTitle	Disconnect Slack
+translation.integrations.slack.connection.disconnect	Disconnect
+translation.integrations.slack.support.menuItem	Slack support channel
+translation.integrations.slack.support.emailNotConnected	This email is not connected to a Slack account
+translation.integrations.slack.support.inviteFailed	Failed to get Slack Connect invite.
+translation.integrations.slack.support.dialogTitle	Enter Slack email
+translation.integrations.slack.support.emailPlaceholder	Enter your Slack email
+translation.integrations.slack.support.gettingInvite	Getting invite…
+translation.integrations.slack.support.getInvite	Get invite
+translation.teamsLinkNudge.server.connect	Connect Devin account
+translation.teamsLinkNudge.server.instructions	Connect your Devin account and send me tasks right here. After that, I’ll suggest a few to start with.
+translation.teamsLinkNudge.server.noAccount	No Devin account yet? Ask your Devin admin to invite you.
+translation.teamsLinkNudge.server.repoReview	Review my latest PR in {{repo}}
+translation.teamsLinkNudge.server.linkedSuggestions.capabilities	What can you do?
+translation.teamsLinkNudge.server.linkedSuggestions.latestPr	Review my latest PR
+translation.teamsLinkNudge.server.linkedSuggestions.explainRepo	Explain how a repo works
+translation.teamsLinkNudge.server.tips.firstTask.title	What could you hand off to Devin today?
+translation.teamsLinkNudge.server.tips.firstTask.text	I can take the task you keep putting off, break it into steps and open a PR.
+translation.teamsLinkNudge.server.tips.firstTask.prompt	Help me pick a first task
+translation.teamsLinkNudge.server.tips.review.title	Want a second pair of eyes on a PR?
+translation.teamsLinkNudge.server.tips.review.text	I can walk you through a pull request and point out the changes worth a closer look.
+translation.teamsLinkNudge.server.tips.review.prompt	Review my latest PR
+translation.teamsLinkNudge.server.tips.tour.title	New repo? Take the short tour
+translation.teamsLinkNudge.server.tips.tour.text	I can trace how a feature works and show you the files to read first.
+translation.teamsLinkNudge.server.tips.tour.prompt	Give me a tour of a repo
+translation.teamsLinkNudge.server.tips.flakyTest.title	That test failed again?
+translation.teamsLinkNudge.server.tips.flakyTest.text	Send me the failing test or CI link and I can find out why it only fails sometimes.
+translation.teamsLinkNudge.server.tips.flakyTest.prompt	Help me debug a flaky test
+translation.teamsLinkNudge.server.tips.teamThread.title	Turn a Teams thread into a task
+translation.teamsLinkNudge.server.tips.teamThread.text	Mention me in a thread with a bug report and I can investigate and reply right there for your team.
+translation.teamsLinkNudge.server.tips.teamThread.prompt	Help me write a bug report for Devin
+translation.skillsCoach.manualRun.action	Check this skill with Skills Coach
+translation.skillsCoach.manualRun.started	Skills Coach is checking this skill. What it finds shows up in this session.
+translation.skillsCoach.manualRun.alreadyRunning	Skills Coach is already checking this skill.
+translation.skillsCoach.inbox.empty	Nothing to review.
+translation.skillsCoach.inbox.description	Edits to guidance you can approve or suggest.
+translation.skillsCoach.inbox.loadMore	Load more
+translation.skillsCoach.inbox.loadFailed	Couldn't load your edits.
+translation.skillsCoach.inbox.suggestedFrom	From {{name}}'s session
+translation.skillsCoach.inbox.someone	someone
+translation.skillsCoach.inbox.editNotFound	This edit is gone, or it isn't routed to you.
+translation.skillsCoach.inbox.editLoadFailed	Couldn't load this edit.
+translation.skillsCoach.inbox.runNotFound	These edits are gone, or they aren't routed to you.
+translation.skillsCoach.inbox.partlyUnreviewed	Includes edits only you can see
+translation.skillsCoach.inbox.unreviewed	Only you can see this
+translation.skillsCoach.inbox.editsLeft_one	{{count}} left
+translation.skillsCoach.inbox.editsLeft_other	{{count}} left
+translation.skillsCoach.inbox.emptyTitle	Nothing to review
+translation.skillsCoach.done.title	Done
+translation.skillsCoach.done.open	Open {{name}}
+translation.skillsCoach.done.approved_one	{{count}} approved
+translation.skillsCoach.done.approved_other	{{count}} approved
+translation.skillsCoach.done.suggested_one	{{count}} suggested
+translation.skillsCoach.done.suggested_other	{{count}} suggested
+translation.skillsCoach.done.rejected_one	{{count}} rejected
+translation.skillsCoach.done.rejected_other	{{count}} rejected
+translation.skillsCoach.done.removed	Removed from inbox
+translation.skillsCoach.done.sentToDevin	Sent to Devin
+translation.skillsCoach.score.harmful	Harmful
+translation.skillsCoach.score.notUseful	Not useful
+translation.skillsCoach.score.needsWork	Needs work
+translation.skillsCoach.score.good	Okay
+translation.skillsCoach.score.great	Great
+translation.skillsCoach.home.plugin	Plugin {{name}}
+translation.skillsCoach.home.repo	Repo {{name}}
+translation.skillsCoach.home.memory	Memory
+translation.skillsCoach.home.scratchpad	Automation scratchpad
+translation.skillsCoach.home.external	External plugin {{name}}
+translation.skillsCoach.home.personal	Personal plugin
+translation.skillsCoach.scope.account	Enterprise-wide
+translation.skillsCoach.scope.org	Org-wide
+translation.skillsCoach.scope.user	Personal
+translation.skillsCoach.scope.unified	Shared
+translation.skillsCoach.route.acting_user	you
+translation.skillsCoach.route.repo_writer	repo writers
+translation.skillsCoach.route.repo_code_owner	code owners
+translation.skillsCoach.route.skill_writers	skill writers
+translation.skillsCoach.route.plugin_admins	plugin admins
+translation.skillsCoach.route.plugin_group	the plugin's group
+translation.skillsCoach.route.service_user_admins	service user admins
+translation.skillsCoach.route.scope_owner	the scope's owner
+translation.skillsCoach.route.personal_owner	the plugin's owner
+translation.skillsCoach.route.automation_run_as	the automation's owner
+translation.skillsCoach.route.automation_admins	automation admins
+translation.skillsCoach.route.plugin_installer	whoever installed the plugin
+translation.skillsCoach.redFlag.bad_description	Bad description
+translation.skillsCoach.redFlag.called_too_often	Called too often
+translation.skillsCoach.redFlag.called_too_rarely	Called too rarely
+translation.skillsCoach.redFlag.wrong_info	Wrong info
+translation.skillsCoach.redFlag.unsafe	Unsafe
+translation.skillsCoach.redFlag.too_vague	Too vague
+translation.skillsCoach.redFlag.too_specific	Too specific
+translation.skillsCoach.redFlag.wordy	Wordy
+translation.skillsCoach.redFlag.duplicate	Duplicate
+translation.skillsCoach.redFlag.conflict	Conflict
+translation.skillsCoach.redFlag.scope_too_wide	Scope too wide
+translation.skillsCoach.redFlag.scope_too_narrow	Scope too narrow
+translation.skillsCoach.redFlag.bad_for_automations	Bad for automations
+translation.skillsCoach.redFlag.wrong_home	Wrong home
+translation.skillsCoach.redFlag.bad_guidance	Bad guidance
+translation.skillsCoach.redFlag.should_not_exist	Should not exist
+translation.skillsCoach.redFlag.redistribute	Redistribute
+translation.skillsCoach.action.approve	Approve
+translation.skillsCoach.action.reject	Reject
+translation.skillsCoach.action.dismiss	Dismiss
+translation.skillsCoach.action.cancel	Cancel
+translation.skillsCoach.action.uninstall	Uninstall
+translation.skillsCoach.action.tryAgain	Try again
+translation.skillsCoach.action.approveAll	Approve all
+translation.skillsCoach.action.fixWithDevin	Fix with Devin
+translation.skillsCoach.action.suggest	Suggest
+translation.skillsCoach.action.suggestAll	Suggest all
+translation.skillsCoach.action.removeFromInbox	Remove from inbox
+translation.skillsCoach.status.applying	Applying
+translation.skillsCoach.status.applied	Applied
+translation.skillsCoach.status.prOpened	Devin is opening a PR
+translation.skillsCoach.status.sentToDevin	Sent to Devin
+translation.skillsCoach.status.rejected	Rejected
+translation.skillsCoach.status.canceled	Canceled
+translation.skillsCoach.status.failed	Failed
+translation.skillsCoach.status.dismissed	Dismissed
+translation.skillsCoach.status.unreviewed	Unreviewed
+translation.skillsCoach.finding.evidence	Evidence
+translation.skillsCoach.finding.reason	Why? (optional)
+translation.skillsCoach.edit.summaryCreate	Adds {{file}}
+translation.skillsCoach.edit.summaryEdit	Changes {{file}}
+translation.skillsCoach.edit.summaryDelete	Deletes {{file}}
+translation.skillsCoach.edit.summaryUninstall	Uninstalls {{name}}
+translation.skillsCoach.edit.summaryUninstallAccount	Uninstalls {{name}} for the whole enterprise
+translation.skillsCoach.edit.summaryUninstallOrg	Uninstalls {{name}} for the whole organization
+translation.skillsCoach.edit.summaryUninstallUser	Uninstalls {{name}} for the person who installed it
+translation.skillsCoach.edit.summaryUninstallUnified	Uninstalls {{name}} for everyone it's shared with
+translation.skillsCoach.edit.overlap_one	Approving this cancels {{count}} other pending edit on this file.
+translation.skillsCoach.edit.overlap_other	Approving this cancels {{count}} other pending edits on this file.
+translation.skillsCoach.edit.canceled.file_changed_by_edit	Canceled because another approved edit changed this file.
+translation.skillsCoach.edit.canceled.file_changed	Canceled because this file changed.
+translation.skillsCoach.edit.canceled.home_unavailable	Canceled because this home or file is gone, or no approver is left.
+translation.skillsCoach.edit.canceled.already_done	Canceled because this change was already made.
+translation.skillsCoach.edit.uninstallNote	Its contents can't be edited from here.
+translation.skillsCoach.edit.view	Show
+translation.skillsCoach.edit.viewChanges	Changes
+translation.skillsCoach.edit.viewBefore	Before
+translation.skillsCoach.edit.viewAfter	After
+translation.skillsCoach.edit.noBefore	This edit creates the file.
+translation.skillsCoach.edit.noAfter	This edit deletes the file.
+translation.skillsCoach.edit.beforeUnavailable	The original file wasn't saved with this edit.
+translation.skillsCoach.edit.failed	Couldn't apply this edit: {{detail}}
+translation.skillsCoach.edit.move	Part of a move. The other half is routed separately: {{path}}
+translation.skillsCoach.edit.canceledOthers_one	Approving this canceled {{count}} other edit.
+translation.skillsCoach.edit.canceledOthers_other	Approving this canceled {{count}} other edits.
+translation.skillsCoach.approveAll.applied_one	{{count}} edit applied
+translation.skillsCoach.approveAll.applied_other	{{count}} edits applied
+translation.skillsCoach.approveAll.blockedBy	Blocked by:
+translation.skillsCoach.approveAll.hiddenEdit	An edit you can no longer view
+translation.skillsCoach.approveAll.prOpening_one	Devin is opening a PR for {{count}} edit
+translation.skillsCoach.approveAll.prOpening_other	Devin is opening PRs for {{count}} edits
+translation.skillsCoach.fix.failed	Couldn't start the session. Try again.
+translation.skillsCoach.fix.viewSession	View session
+translation.skillsCoach.fix.sentViewSession	Sent to Devin · View session
+translation.skillsCoach.card.routedTo_one	{{count}} more edit routed to {{approvers, list}}
+translation.skillsCoach.card.routedTo_other	{{count}} more edits routed to {{approvers, list}}
+translation.skillsCoach.card.reviewChanges	Open full review
+translation.skillsCoach.card.summary.appliedPart_one	{{count}} applied
+translation.skillsCoach.card.summary.appliedPart_other	{{count}} applied
+translation.skillsCoach.card.summary.sentToDevinPart_one	{{count}} sent to Devin
+translation.skillsCoach.card.summary.sentToDevinPart_other	{{count}} sent to Devin
+translation.skillsCoach.card.summary.rejectedPart_one	{{count}} rejected
+translation.skillsCoach.card.summary.rejectedPart_other	{{count}} rejected
+translation.skillsCoach.card.summary.canceledPart_one	{{count}} canceled
+translation.skillsCoach.card.summary.canceledPart_other	{{count}} canceled
+translation.skillsCoach.card.summary.openPart_one	{{count}} open
+translation.skillsCoach.card.summary.openPart_other	{{count}} open
+translation.skillsCoach.review.routedTo	Waiting on {{approvers}}
+translation.skillsCoach.review.decidedBy	{{status}} by {{name}} on {{at}}
+translation.skillsCoach.review.appliedVersion	Version {{version}}
+translation.skillsCoach.review.applyDisabled	Applying edits isn't turned on yet.
+translation.skillsCoach.review.unreviewed	Only you can see this edit. Suggest it to {{approvers}}, who can apply it.
+translation.skillsCoach.review.approvers	Approvers: {{approvers}}
+translation.skillsCoach.review.edits	Edits
+translation.skillsCoach.review.findings	Red flags
+translation.skillsCoach.review.removeFromInboxHint	Takes this run out of your inbox without applying or rejecting its edits.
+translation.skillsCoach.review.dismissed	Its edits were left undecided.
+translation.skillsCoach.review.done	Done
+translation.skillsCoach.review.nothingLeft	Nothing left to review
+translation.skillsCoach.review.nothingLeftWith	Nothing left to review · {{summary}}
+translation.skillsCoach.review.unreviewedMany	Only you can see these edits. Suggest them to the people who can apply them.
+translation.skillsCoach.review.back	Back to inbox
+translation.skillsCoach.error.applyFailed	Couldn't apply this edit. You can try again.
+translation.skillsCoach.error.notApplied	This edit wasn't applied.
+translation.skillsCoach.error.noPermission	You no longer have permission to change this home.
+translation.skillsCoach.error.noLongerPending	This edit was already resolved.
+translation.skillsCoach.error.alreadySuggested	You can't dismiss edits once you've suggested any of them.
+translation.skillsCoach.error.generic	Something went wrong. Try again.
+translation.skillsCoach.op.create	New file
+translation.skillsCoach.op.delete	Delete
+translation.rolesPage.filterAllPermissions	All permissions
+translation.rolesPage.filterSelectedOnly	Selected only
+translation.rolesPage.scopeDescriptionOrg	Assigned per organization and limited to that organization
+translation.rolesPage.scopeDescriptionAccount	Assigned across the enterprise and applied to all user organizations
+translation.rolesPage.deletingRole	Deleting role...
+translation.rolesPage.roleDeleted	Role deleted successfully
+translation.rolesPage.deleteRoleFailed	Failed to delete role
+translation.rolesPage.deleteWarning	This will permanently delete "{{roleName}}"
+translation.rolesPage.builtInNotEditable	Built-in roles are not editable
+translation.rolesPage.noEditPermission	You don't have permissions to edit roles
+translation.rolesPage.adminTooltipAccount	Admin roles have full access to all features and visibility across all organizations
+translation.rolesPage.adminTooltipOrg	Admin roles have full access to all features
+translation.rolesPage.createOrganizationRole	Create organization role
+translation.rolesPage.createEnterpriseRole	Create enterprise role
+translation.rolesPage.delete	Delete
+translation.rolesPage.editRole	Edit role
+translation.rolesPage.cancel	Cancel
+translation.rolesPage.saveChanges	Save
+translation.rolesPage.roleNamePlaceholder	Role name...
+translation.rolesPage.roleNameLabel	Role name
+translation.rolesPage.duplicateNameOrg	Another organization role is already named “{{name}}”. Choose a different name.
+translation.rolesPage.duplicateNameAccount	Another enterprise role is already named “{{name}}”. Choose a different name.
+translation.rolesPage.filterPermissions	Filter permissions
+translation.rolesPage.searchPermissions	Search permissions
+translation.rolesPage.searchPermissionsPlaceholder	Search permissions...
+translation.rolesPage.deleteRole	Delete role
+translation.rolesPage.selectAllListedPermissions	Select all listed permissions
+translation.rolesPage.permissionColumn	Permission
+translation.rolesPage.descriptionColumn	Description
+translation.rolesPage.noPermissionsMatch	No permissions match "{{query}}"
+translation.rolesPage.noPermissionsSelected	No permissions selected
+translation.rolesPage.roleFallbackTitle	Role
+translation.rolesPage.roleNotFound	Role not found
+translation.rolesPage.scopeAll	All
+translation.rolesPage.scopeEnterprise	Enterprise
+translation.rolesPage.scopeOrganization	Organization
+translation.rolesPage.roleColumn	Role
+translation.rolesPage.permissionsColumn	Permissions
+translation.rolesPage.permissionCount_one	{{count}} permission
+translation.rolesPage.permissionCount_other	{{count}} permissions
+translation.rolesPage.scopeColumn	Scope
+translation.rolesPage.typeColumn	Type
+translation.rolesPage.typeDefault	Default
+translation.rolesPage.typeCustom	Custom
+translation.rolesPage.typeBuiltIn	Built-in
+translation.rolesPage.searchRolesPlaceholder	Search roles...
+translation.rolesPage.filterRolesByScope	Filter roles by scope
+translation.rolesPage.createRole	Create role
+translation.rolesPage.createForEnterprise	Create for enterprise
+translation.rolesPage.createForOrganizations	Create for organizations
+translation.rolesPage.noRolesFound	No roles found.
+translation.checkoutLocally.couldNotOpen	Could not open Devin Desktop
+translation.checkoutLocally.download	Download Devin Desktop
+translation.checkoutLocally.mayNotBeInstalled	Devin Desktop may not be installed.
+translation.ds.actionBar.clearSelection	Clear selection
+translation.ds.actions	Actions
+translation.ds.dismiss	Dismiss
+translation.ds.loadingMore	Loading more…

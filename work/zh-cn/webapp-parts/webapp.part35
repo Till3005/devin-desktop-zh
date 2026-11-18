@@ -1,0 +1,500 @@
+translation.securityRedTeaming.credDetailsRequired	Fill in at least one of username, password, TOTP seed, role or tenant
+translation.securityRedTeaming.credDiscardConfirm	Discard
+translation.securityRedTeaming.credDiscardTitle	Discard this credential?
+translation.securityRedTeaming.launchDiscardTitle	Discard this scan setup?
+translation.securityRedTeaming.addTargetDiscardTitle	Discard this target?
+translation.securityRedTeaming.noteDiscardTitle	Discard this note?
+translation.securityRedTeaming.credEmpty	No credentials yet. Add accounts the probes should log in with, e.g. two users at different permission levels for authorization testing.
+translation.securityRedTeaming.credLimitReached	This target has reached the limit of {{limit}} credentials. Delete one to add another.
+translation.securityRedTeaming.credLoadFailed	Couldn't load credentials.
+translation.securityRedTeaming.credName	Name
+translation.securityRedTeaming.credNamePlaceholder	member-user
+translation.securityRedTeaming.credTenant	Tenant
+translation.securityRedTeaming.credTenantPlaceholder	acme-corp, globex...
+translation.securityRedTeaming.credTenantDescription	The customer account this login belongs to. Use different values to test isolation between accounts.
+translation.securityRedTeaming.credNameRequired	Name required
+translation.securityRedTeaming.credNameConflict	Too close to the existing credential “{{name}}”. Names that differ only in case, spaces or punctuation share the same session secrets.
+translation.securityRedTeaming.credNote	Note
+translation.securityRedTeaming.credNoteDescription	Which account or team this is
+translation.securityRedTeaming.credPassword	Password
+translation.securityRedTeaming.credRole	Role / permission level
+translation.securityRedTeaming.credRolePlaceholder	member, admin, owner...
+translation.securityRedTeaming.credTotp	TOTP seed (2FA)
+translation.securityRedTeaming.credTotpDescription	Base32 seed for one-time codes
+translation.securityRedTeaming.credTotpInvalid	Enter a base32 setup key (letters A–Z and digits 2–7) or an otpauth:// link
+translation.securityRedTeaming.credUsername	Username
+translation.securityRedTeaming.credUsernamePlaceholder	user@example.com
+translation.securityRedTeaming.credentialsDescription	Accounts the pentest uses to authenticate. Values are encrypted and injected into scan sessions only.
+translation.securityRedTeaming.credentialsTitle	Credentials for {{domain}}
+translation.securityRedTeaming.credSessionClear	Clear session
+translation.securityRedTeaming.credSessionClearFailed	Failed to clear login session
+translation.securityRedTeaming.credSessionSaved	Login session saved {{time}}
+translation.securityRedTeaming.done	Done
+translation.securityRedTeaming.launchTitle	Launch red-team scan
+translation.securityRedTeaming.loadFailed	Couldn't load targets.
+translation.securityRedTeaming.notEnabledDescription	Turn on the code-scan-mythos and code-scan-enabled flags for the organization or its enterprise in Unleash, then reload this page.
+translation.securityRedTeaming.notEnabledTitle	Red teaming is not enabled for this organization
+translation.securityRedTeaming.retry	Try again
+translation.securityRedTeaming.modelLabel	Lead model
+translation.securityRedTeaming.fusionLabel	Fusion
+translation.securityRedTeaming.fusionDescription	The default lead model hands execution to SWE-2.
+translation.securityRedTeaming.fusionModelUnavailableDescription	Available with the default lead model only.
+translation.securityRedTeaming.models.astraCyberPreviewMedium	Astra Cyber Preview Medium (internal only)
+translation.securityRedTeaming.models.astraCyberPreviewNote	Internal use only. Astra Cyber Preview is served only to Cognition orgs; do not pick it for a customer scan.
+translation.securityRedTeaming.models.astraCyberPreviewXHigh	Astra Cyber Preview XHigh (internal only)
+translation.securityRedTeaming.models.default	Mythos 5.2 XHigh (default)
+translation.securityRedTeaming.models.mythos51High	Mythos 5.1 High
+translation.securityRedTeaming.models.mythos51Low	Mythos 5.1 Low
+translation.securityRedTeaming.models.mythos51Max	Mythos 5.1 Max
+translation.securityRedTeaming.models.mythos51Medium	Mythos 5.1 Medium
+translation.securityRedTeaming.models.mythos51XHigh	Mythos 5.1 XHigh
+translation.securityRedTeaming.models.mythos52High	Mythos 5.2 High
+translation.securityRedTeaming.models.mythos52Low	Mythos 5.2 Low
+translation.securityRedTeaming.models.mythos52Max	Mythos 5.2 Max
+translation.securityRedTeaming.models.mythos52Medium	Mythos 5.2 Medium
+translation.securityRedTeaming.models.swe2High	SWE-2 High
+translation.securityRedTeaming.models.swe2Low	SWE-2 Low
+translation.securityRedTeaming.models.swe2Max	SWE-2 Max
+translation.securityRedTeaming.openSession	Open session
+translation.securityRedTeaming.debugSession	Debug session
+translation.securityRedTeaming.repoLabel	Repositories (optional)
+translation.securityRedTeaming.repoSelectPlaceholder	Select repositories
+translation.securityRedTeaming.selectAllRepos	Select all
+translation.securityRedTeaming.selectAllReposLoading	Loading repositories…
+translation.securityRedTeaming.selectAllReposFailed	Could not load all repositories
+translation.securityRedTeaming.selectAllReposCapped	Scans cover at most {{max}} repositories
+translation.securityRedTeaming.selectAllReposCappedDescription	Your organization has more than {{max}} connected repositories, so the first {{max}} were selected. Clear the selection and pick the repositories that serve this target instead.
+translation.securityRedTeaming.clearRepos	Clear
+translation.securityRedTeaming.reposDescription	Every selected repository is checked out for the scan so findings can be traced to the code serving each host.
+translation.securityRedTeaming.reposSelectedDescription_one	{{count}} repository will be checked out and mapped to the hosts it serves.
+translation.securityRedTeaming.reposSelectedDescription_other	{{count}} repositories will be checked out and mapped to the hosts they serve.
+translation.securityRedTeaming.specialInstructionsDescription	Paste rules every session must follow, like bug bounty terms, and what to focus on. They apply to this scan only and cannot widen the authorized scope.
+translation.securityRedTeaming.specialInstructionsLabel	Special instructions
+translation.securityRedTeaming.specialInstructionsPlaceholder	Follow the program's bug bounty terms: do not test /admin and keep to 10 requests per second. Focus on account takeover and the payment flow.
+translation.securityRedTeaming.statusPending	Pending verification
+translation.securityRedTeaming.statusRejected	Rejected
+translation.securityRedTeaming.statusVerified	Verified
+translation.securityRedTeaming.title	Red teaming
+translation.securityRedTeaming.trafficTagDescription	Adds a header to every HTTP(S) request so the customer can identify this scan in WAF and SOC logs. Turning it off only drops the header: the scan still logs every request it sends.
+translation.securityRedTeaming.trafficTagLabel	Tag this scan's traffic with a header
+translation.securityRedTeaming.trafficTagNameLabel	Header name
+translation.securityRedTeaming.trafficTagValueDescription	Sent to every site the scan reaches, so don't use a secret. Leave blank to use each session's ID.
+translation.securityRedTeaming.trafficTagValueLabel	Header value
+translation.securityRedTeaming.trafficTagValuePlaceholder	Session ID
+translation.securityRedTeaming.viewScan	View scan
+translation.securityRedTeaming.verify	Verify
+translation.securityRedTeaming.verifyDescription	Confirm this organization is authorized to pentest everything in this scope. Choose the basis for the authorization and write your justification.
+translation.securityRedTeaming.verifyFailed	Couldn't update the target.
+translation.securityRedTeaming.verifyTitle	Verify authorization
+translation.securityRedTeaming.notEnabled	Red Teaming is not enabled for your account
+translation.securityRedTeaming.description	Red Teaming is a managed service. Talk to your account team to enable it for your organization.
+translation.securityRedTeaming.talkToSales	Talk to sales
+translation.securityRedTeaming.credDiscardEditTitle	Discard unsaved changes?
+translation.securityRedTeaming.credEditing	Editing {{name}}
+translation.securityRedTeaming.credEdit	Edit
+translation.securityRedTeaming.credOpenFailed	Failed to open credential
+translation.securityRedTeaming.credSave	Save
+translation.securityRedTeaming.credSaveFailed	Failed to save credential
+translation.securityRedTeaming.credSecretSaved	Saved. Enter a new value to replace it.
+translation.securityRedTeaming.colDomain	Domain
+translation.securityRedTeaming.colScope	Scope
+translation.securityRedTeaming.scopeLabel	Scope
+translation.securityRedTeaming.scopePlaceholder	*.example.com, app.example.com or 203.0.113.0/24
+translation.securityRedTeaming.scopeAdd	Add
+translation.securityRedTeaming.scopeDescription	Use *.example.com for example.com and all of its subdomains, or list specific hosts, IP addresses or CIDR ranges. You can add more than one.
+translation.securityRedTeaming.scopeRemove	Remove {{host}}
+translation.securityRedTeaming.scopeRequired	Add at least one domain, host or IP address
+translation.securityRedTeaming.scopeInvalid_one	{{entries, list}} is not a public hostname, IP address or CIDR range. Enter a hostname like app.example.com or *.example.com without a port or credentials, or a public IP address or range of /16 or smaller (/48 for IPv6).
+translation.securityRedTeaming.scopeInvalid_other	{{entries, list}} are not public hostnames, IP addresses or CIDR ranges. Enter hostnames like app.example.com or *.example.com without a port or credentials, or public IP addresses or ranges of /16 or smaller (/48 for IPv6).
+translation.securityRedTeaming.scopeCovered_one	{{entries, list}} is already covered by a wildcard entry, so it isn't listed separately.
+translation.securityRedTeaming.scopeCovered_other	{{entries, list}} are already covered by wildcard entries, so they aren't listed separately.
+translation.securityRedTeaming.scopeWildcardHint	{{domain}} and all of its subdomains
+translation.securityRedTeaming.scopeExactHint	This host only
+translation.securityRedTeaming.scopeRangeHint	Every address in this range
+translation.securityRedTeaming.scopeInOtherTarget	Already in the {{domain}} target
+translation.securityRedTeaming.editScope	Edit scope
+translation.securityRedTeaming.deleteTarget	Delete target
+translation.securityRedTeaming.deleteVerifiedTargetDescription	This revokes authorization, stops active scans, archives their sessions, and removes the target and its saved credentials. This can't be undone.
+translation.securityRedTeaming.deleteTargetDescription	This removes the target and its saved credentials. This can't be undone.
+translation.securityRedTeaming.deleteTargetFailed	Couldn't delete the target.
+translation.securityRedTeaming.editScopeDescription	The new scope must be verified before another scan can run. If a scan is active, wait for it to finish or revoke authorization first.
+translation.securityRedTeaming.editScopeActiveScan	A scan on this target is queued or running. Wait for it to finish, or revoke authorization to stop it, before editing the scope.
+translation.securityRedTeaming.editScopeFailed	Couldn't save the target scope.
+translation.securityRedTeaming.saveScope	Save
+translation.securityRedTeaming.overviewSubtitle	Cognition tests your live domains for exploitable issues and reports what it finds.
+translation.securityRedTeaming.overviewEmptyTitle	No domains yet
+translation.securityRedTeaming.overviewEmptyDescription	Cognition sets up and runs each test. Talk to your account team to add a domain.
+translation.securityRedTeaming.overviewAlsoInScope	Also in scope: {{entries, list}}
+translation.securityRedTeaming.overviewScopeShowMore_one	Show {{count}} more
+translation.securityRedTeaming.overviewScopeShowMore_other	Show {{count}} more
+translation.securityRedTeaming.overviewScopeShowFewer	Show fewer
+translation.securityRedTeaming.viewFindings	View findings
+translation.securityRedTeaming.colLastTested	Last tested
+translation.securityRedTeaming.exportReport	Export pentest report (PDF)
+translation.securityRedTeaming.coverage.title	Endpoint coverage
+translation.securityRedTeaming.coverage.subtitle	Every host, surface and endpoint the swarm planned to test, with the result of each vulnerability class.
+translation.securityRedTeaming.coverage.backToFindings	Back to findings
+translation.securityRedTeaming.coverage.planSummary	{{endpoints}} · {{cells}}
+translation.securityRedTeaming.coverage.planEndpointCount_one	{{formattedCount}} endpoint
+translation.securityRedTeaming.coverage.planEndpointCount_other	{{formattedCount}} endpoints
+translation.securityRedTeaming.coverage.planTestCount_one	{{formattedCount}} planned test
+translation.securityRedTeaming.coverage.planTestCount_other	{{formattedCount}} planned tests
+translation.securityRedTeaming.coverage.hunterCount_one	{{count}} hunter
+translation.securityRedTeaming.coverage.hunterCount_other	{{count}} hunters
+translation.securityRedTeaming.coverage.totalsLabel	Coverage totals
+translation.securityRedTeaming.coverage.barLabel	{{tested}} tested, {{finding}} with findings, {{open}} open, {{notApplicable}} not applicable
+translation.securityRedTeaming.coverage.statusOpen	Open
+translation.securityRedTeaming.coverage.statusTested	Tested
+translation.securityRedTeaming.coverage.statusFinding	Finding
+translation.securityRedTeaming.coverage.statusNotApplicable	Not applicable
+translation.securityRedTeaming.coverage.filterPlaceholder	Filter by host, path, hunter or class
+translation.securityRedTeaming.coverage.clearHunterFilter	Showing {{slug}} · Clear
+translation.securityRedTeaming.coverage.expandAll	Expand all
+translation.securityRedTeaming.coverage.collapseAll	Collapse all
+translation.securityRedTeaming.coverage.noMatches	No endpoints match the current filters
+translation.securityRedTeaming.coverage.showingRange	Showing {{start}}–{{end}} of {{total}} endpoints
+translation.securityRedTeaming.coverage.endpointCount_one	{{count}} endpoint
+translation.securityRedTeaming.coverage.endpointCount_other	{{count}} endpoints
+translation.securityRedTeaming.coverage.surfaceCount_one	{{count}} surface
+translation.securityRedTeaming.coverage.surfaceCount_other	{{count}} surfaces
+translation.securityRedTeaming.coverage.surfaceAndEndpointCount	{{surfaces}} · {{endpoints}}
+translation.securityRedTeaming.coverage.unowned	Unassigned
+translation.securityRedTeaming.coverage.ownedBy	Hunter: {{slug}}
+translation.securityRedTeaming.coverage.source	Source: {{source}}
+translation.securityRedTeaming.coverage.assetMapping	Asset mapping
+translation.securityRedTeaming.coverage.assetUnmapped	Unmapped
+translation.securityRedTeaming.coverage.assetUnmappedDescription	No repository in this scan was mapped to this host.
+translation.securityRedTeaming.coverage.assetConfidenceHigh	High confidence
+translation.securityRedTeaming.coverage.assetConfidenceMedium	Medium confidence
+translation.securityRedTeaming.coverage.assetConfidenceLow	Low confidence
+translation.securityRedTeaming.coverage.assetMappedByScan	Mapped by the scan
+translation.securityRedTeaming.coverage.assetMappedByOperator	Set by an operator
+translation.securityRedTeaming.coverage.assetServes	Serves: {{kind}}
+translation.securityRedTeaming.coverage.assetSourcePaths	Source paths
+translation.securityRedTeaming.coverage.assetEvidence	Evidence: {{evidence}}
+translation.securityRedTeaming.coverage.noClassesPlanned	No vulnerability classes planned for this endpoint
+translation.securityRedTeaming.coverage.viewFinding	View finding
+translation.securityRedTeaming.coverage.viewSession	View session
+translation.securityRedTeaming.coverage.byHunter	Tested by {{slug}}
+translation.securityRedTeaming.coverage.huntersTitle	Hunters
+translation.securityRedTeaming.coverage.huntersDescription	The sessions the scan launched, nested by who delegated to whom. Select one to show only its endpoints.
+translation.securityRedTeaming.coverage.ownsEndpoints_one	{{count}} endpoint
+translation.securityRedTeaming.coverage.ownsEndpoints_other	{{count}} endpoints
+translation.securityRedTeaming.coverage.emptyTitle	No endpoint inventory yet
+translation.securityRedTeaming.coverage.emptyRunningDescription	Recon registers every endpoint before testing starts; the tree fills in as hunters record results.
+translation.securityRedTeaming.coverage.emptyDescription	Only ultra-deep red-team scans build an endpoint inventory.
+translation.securityRedTeaming.coverage.emptyEndedDescription	The scan ended before recon registered any endpoints, so there is no inventory to show.
+translation.securityRedTeaming.coverage.loadFailedTitle	Couldn't load endpoint coverage
+translation.securityRedTeaming.accessGraph.title	Access graph
+translation.securityRedTeaming.accessGraph.subtitle	What this scan's Outpost reaches, which systems connect to each other, and which identities and stored credentials get into what. Secret values are never recorded.
+translation.securityRedTeaming.accessGraph.emptyTitle	No access recorded yet
+translation.securityRedTeaming.accessGraph.emptyRunning	Links appear here as the scan finds them.
+translation.securityRedTeaming.accessGraph.emptyFinished	This scan recorded no access links.
+translation.securityRedTeaming.accessGraph.loadFailedTitle	Couldn't load the access graph
+translation.securityRedTeaming.accessGraph.legendVerified	Verified: the scan did this, read-only
+translation.securityRedTeaming.accessGraph.legendInferred	Inferred: named somewhere, not tried
+translation.securityRedTeaming.accessGraph.legendNotTested	Found, not approved for testing
+translation.securityRedTeaming.accessGraph.notTested	Not tested
+translation.securityRedTeaming.accessGraph.nodeFoothold	Outpost
+translation.securityRedTeaming.accessGraph.nodeIdentity	Identity
+translation.securityRedTeaming.accessGraph.nodeCredential	Stored credential
+translation.securityRedTeaming.accessGraph.nodeNetwork	Network
+translation.securityRedTeaming.accessGraph.nodeHost	Host
+translation.securityRedTeaming.accessGraph.nodeService	Service
+translation.securityRedTeaming.accessGraph.nodeExternal	Outside platform
+translation.securityRedTeaming.accessGraph.nodeOther	System
+translation.securityRedTeaming.accessGraph.linkReaches	reaches
+translation.securityRedTeaming.accessGraph.linkSignsIn	signs in to
+translation.securityRedTeaming.accessGraph.linkConnectsTo	connects to
+translation.securityRedTeaming.accessGraph.linkHolds	holds
+translation.securityRedTeaming.accessGraph.linkOther	is linked to
+translation.securityRedTeaming.accessGraph.edgeLabel	{{kinds, list}}
+translation.securityRedTeaming.accessGraph.evidenceVerified	Verified
+translation.securityRedTeaming.accessGraph.evidenceInferred	Inferred
+translation.securityRedTeaming.accessGraph.detailVia	Via {{via}}
+translation.securityRedTeaming.accessGraph.detailAccess	Access: {{access}}
+translation.securityRedTeaming.accessGraph.tableLabel	Access links
+translation.securityRedTeaming.accessGraph.colFrom	From
+translation.securityRedTeaming.accessGraph.colLink	Link
+translation.securityRedTeaming.accessGraph.colTo	To
+translation.securityRedTeaming.accessGraph.colEvidence	Evidence
+translation.securityRedTeaming.accessGraph.colDetails	Details
+translation.securityRedTeaming.accessGraph.zoomIn	Zoom in
+translation.securityRedTeaming.accessGraph.zoomOut	Zoom out
+translation.securityRedTeaming.accessGraph.fit	Fit to view
+translation.securityRedTeaming.accessGraph.groupMore_one	+{{formattedCount}} more
+translation.securityRedTeaming.accessGraph.groupMore_other	+{{formattedCount}} more
+translation.securityRedTeaming.accessGraph.showAll	Show every system
+translation.securityRedTeaming.accessGraph.showFewer	Show fewer
+translation.securityRedTeaming.requests.title	Request log
+translation.securityRedTeaming.requests.subtitle	Every request this scan's sessions sent to your systems, newest first. Headers, query strings and bodies are never recorded, and path segments that look like secrets are redacted.
+translation.securityRedTeaming.requests.flaggedHint	A request is flagged when its host is outside the scope this scan was allowed to test, or when its method or path looks like it changes or deletes data.
+translation.securityRedTeaming.requests.emptyTitle	No requests recorded yet
+translation.securityRedTeaming.requests.emptyRunningDescription	Requests appear here within a few minutes of being sent.
+translation.securityRedTeaming.requests.emptyDescription	This scan sent no requests through its proxy.
+translation.securityRedTeaming.requests.emptyFlaggedTitle	No flagged requests
+translation.securityRedTeaming.requests.emptyFlaggedDescription	No request was out of scope or looked destructive.
+translation.securityRedTeaming.requests.loadFailedTitle	Couldn't load the request log
+translation.securityRedTeaming.requests.filterLabel	Requests shown
+translation.securityRedTeaming.requests.filterAll	All ({{total}})
+translation.securityRedTeaming.requests.filterFlagged	Flagged ({{total}})
+translation.securityRedTeaming.requests.columnTime	Time
+translation.securityRedTeaming.requests.columnMethod	Method
+translation.securityRedTeaming.requests.columnRequest	Request
+translation.securityRedTeaming.requests.columnStatus	Status
+translation.securityRedTeaming.requests.columnFlags	Flags
+translation.securityRedTeaming.requests.columnSession	Session
+translation.securityRedTeaming.requests.openSession	Open
+translation.securityRedTeaming.requests.statusFailed	Failed
+translation.securityRedTeaming.requests.statusUnknown	No response
+translation.securityRedTeaming.requests.flagOutOfScope	Out of scope
+translation.securityRedTeaming.requests.flagDestructive	Destructive
+translation.securityRedTeaming.live.title	Live view
+translation.securityRedTeaming.live.titleFinished	How the test ran
+translation.securityRedTeaming.live.headlineQueued	Waiting to start
+translation.securityRedTeaming.live.headlineAwaitingInput	Devin is waiting for your reply
+translation.securityRedTeaming.live.headlineMap	Devin is mapping everything an attacker could reach
+translation.securityRedTeaming.live.headlineSignIn	Devin is signing in with the test accounts
+translation.securityRedTeaming.live.headlineHunt_one	{{formattedCount}} agent is testing the target right now
+translation.securityRedTeaming.live.headlineHunt_other	{{formattedCount}} agents are testing the target right now
+translation.securityRedTeaming.live.headlineReport	Devin is checking the findings and writing the report
+translation.securityRedTeaming.live.headlineCompleted	Test complete
+translation.securityRedTeaming.live.headlineStopped	This test stopped before it finished
+translation.securityRedTeaming.live.phasesLabel	Test progress
+translation.securityRedTeaming.live.phaseMap	Map the attack surface
+translation.securityRedTeaming.live.phaseSignIn	Sign in
+translation.securityRedTeaming.live.phaseHunt	Hunt for weaknesses
+translation.securityRedTeaming.live.phaseReport	Verify and report
+translation.securityRedTeaming.live.phaseStateDone	Done
+translation.securityRedTeaming.live.phaseStateCurrent	In progress
+translation.securityRedTeaming.live.phaseStateUpcoming	Not started
+translation.securityRedTeaming.live.statAgents	Agents
+translation.securityRedTeaming.live.statEndpoints	Endpoints mapped
+translation.securityRedTeaming.live.statTests	Tests run
+translation.securityRedTeaming.live.statTestsOf	of {{total}} planned
+translation.securityRedTeaming.live.statFindings	Findings confirmed
+translation.securityRedTeaming.live.workingNow_one	{{formattedCount}} working now
+translation.securityRedTeaming.live.workingNow_other	{{formattedCount}} working now
+translation.securityRedTeaming.live.agentsTitle	Agent team
+translation.securityRedTeaming.live.agentsDescription	The lead agent splits the test into parts. Each agent takes one part and hands narrower questions to new agents.
+translation.securityRedTeaming.live.lead	Lead agent
+translation.securityRedTeaming.live.leadDescription	Plans the test
+translation.securityRedTeaming.live.moreAgents_one	{{formattedCount}} more agent
+translation.securityRedTeaming.live.moreAgents_other	{{formattedCount}} more agents
+translation.securityRedTeaming.live.agentDetail	{{state}} · {{endpoints}}
+translation.securityRedTeaming.live.stateWorking	Working
+translation.securityRedTeaming.live.stateCoordinating	Waiting on its agents
+translation.securityRedTeaming.live.stateFinished	Finished
+translation.securityRedTeaming.live.stateFailed	Stopped with an error
+translation.securityRedTeaming.live.agentListLabel	Agents, as a list
+translation.securityRedTeaming.live.recordingsTitle	Proof recordings
+translation.securityRedTeaming.live.recordingsDescription	Each confirmed weakness comes with a short recording of the agent proving it.
+translation.securityRedTeaming.live.recordingsEmpty	Recordings appear here as agents confirm weaknesses.
+translation.securityRedTeaming.live.agentsEmpty	Agents appear here once the lead agent has split up the test.
+translation.securityRedTeaming.live.agentsEmptyFinished	This test launched no agents.
+translation.securityRedTeaming.live.loadFailedTitle	Couldn't load the live view
+translation.securityRedTeaming.exportingReport	Exporting pentest report...
+translation.securityRedTeaming.reportExported	Pentest report exported
+translation.securityRedTeaming.failedToExportReport	Couldn't export the pentest report
+translation.securityRedTeaming.report.title	Penetration Test Report
+translation.securityRedTeaming.report.confidential	Confidential
+translation.securityRedTeaming.report.preparedBy	Prepared by Devin, Cognition
+translation.securityRedTeaming.report.target	Target
+translation.securityRedTeaming.report.testingPeriod	Testing period
+translation.securityRedTeaming.report.generated	Report generated
+translation.securityRedTeaming.report.findings	Findings
+translation.securityRedTeaming.report.executiveSummary	Executive summary
+translation.securityRedTeaming.report.executiveSummaryBody_one	Devin performed an authorized penetration test of {{domain}}. The engagement identified {{count}} finding in scope: {{critical}} critical, {{high}} high, {{medium}} medium and {{low}} low. The finding below includes the evidence Devin collected and a recommended remediation.
+translation.securityRedTeaming.report.executiveSummaryBody_other	Devin performed an authorized penetration test of {{domain}}. The engagement identified {{count}} findings in scope: {{critical}} critical, {{high}} high, {{medium}} medium and {{low}} low. Each finding below includes the evidence Devin collected and a recommended remediation.
+translation.securityRedTeaming.report.executiveSummaryBody_zero	Devin performed an authorized penetration test of {{domain}}. The engagement identified no findings in scope.
+translation.securityRedTeaming.report.scope	Scope and authorization
+translation.securityRedTeaming.report.scopeDomain	Target domain
+translation.securityRedTeaming.report.scopeHosts	Additional in-scope hosts
+translation.securityRedTeaming.report.scopeNoHosts	None. Testing was limited to the target domain.
+translation.securityRedTeaming.report.scopeRepos	Source repositories
+translation.securityRedTeaming.report.scopeNoRepos	None. Testing ran against the live target without source code.
+translation.securityRedTeaming.report.scopeAuthorization	Authorization
+translation.securityRedTeaming.report.scopeAuthorizationBody	The target owner authorized this test, and Cognition verified ownership of the target domain before testing began. Testing traffic was restricted to the hosts listed above.
+translation.securityRedTeaming.report.methodology	Methodology
+translation.securityRedTeaming.report.methodologyReconnaissance	Reconnaissance: Devin mapped the target's reachable endpoints, technologies and authentication flows, using the source repositories to guide coverage.
+translation.securityRedTeaming.report.methodologyReconnaissanceNoRepos	Reconnaissance: Devin mapped the target's reachable endpoints, technologies and authentication flows by probing the live target, without access to source code.
+translation.securityRedTeaming.report.methodologyBody	Testing: Devin exercised the application as an external attacker and as each provided user role, covering authentication and session handling, access control, injection, server-side request forgery, business logic and sensitive data exposure, aligned with the OWASP Web Security Testing Guide.\
+Validation: each candidate issue was reproduced against the live target before it was reported. Unconfirmed issues were dismissed and are not included.\
+Reporting: findings are rated by impact and exploitability. Secrets observed during testing are redacted.
+translation.securityRedTeaming.report.findingsSummary	Findings summary
+translation.securityRedTeaming.report.colId	ID
+translation.securityRedTeaming.report.colTitle	Finding
+translation.securityRedTeaming.report.colSeverity	Severity
+translation.securityRedTeaming.report.colStatus	Status
+translation.securityRedTeaming.report.statusOpen	Open
+translation.securityRedTeaming.report.statusResolved	Resolved
+translation.securityRedTeaming.report.findingDetails	Detailed findings
+translation.securityRedTeaming.report.noFindings	No findings were identified within the tested scope.
+translation.securityRedTeaming.report.affected	Affected
+translation.securityRedTeaming.report.sourceCode	Source code
+translation.securityRedTeaming.report.descriptionEvidence	Description and evidence
+translation.securityRedTeaming.report.remediation	Remediation
+translation.securityRedTeaming.report.noRemediation	No remediation was recorded for this finding.
+translation.securityRedTeaming.report.appendix	Appendix
+translation.securityRedTeaming.report.severityRatings	A. Severity ratings
+translation.securityRedTeaming.report.severityCritical	Directly exploitable with severe impact, such as full compromise of data, accounts or infrastructure. Fix immediately.
+translation.securityRedTeaming.report.severityHigh	Exploitable with significant impact on confidentiality, integrity or availability. Fix as a priority.
+translation.securityRedTeaming.report.severityMedium	Exploitable under specific conditions or with limited impact. Fix in a planned release.
+translation.securityRedTeaming.report.severityLow	Minor weakness or hardening opportunity with little direct impact.
+translation.securityRedTeaming.report.engagementDetails	B. Engagement details
+translation.securityRedTeaming.report.scanId	Scan ID
+translation.securityRedTeaming.report.started	Started
+translation.securityRedTeaming.report.completed	Completed
+translation.securityRedTeaming.report.limitations	C. Limitations
+translation.securityRedTeaming.report.limitationsBody	This report reflects the in-scope systems during the testing period. A penetration test is a point-in-time assessment and does not guarantee that no other vulnerabilities exist. Findings dismissed during validation are not included.
+translation.securityRedTeaming.report.pageOf	Page {{page}} of {{total}}
+translation.securityRedTeaming.selfServeAddDomainDescription	Add the domains you want tested. Cognition confirms you are authorized to test them before any scan starts.
+translation.securityRedTeaming.contractSentDescription	Your red teaming contract is out for signature. You can add domains now; testing starts once it is signed.
+translation.securityRedTeaming.contractNoneDescription	You can add domains now. Testing starts once your red teaming contract with Cognition is signed.
+translation.securityRedTeaming.launchNeedsContract	Scans can't be launched until the account's red teaming contract is set to Signed.
+translation.securityRedTeaming.addDomain	Add domain
+translation.securityRedTeaming.setContract	Set contract
+translation.securityRedTeaming.domainNotApproved	Not approved for testing
+translation.securityRedTeaming.deleteDomain	Delete domain
+translation.securityRedTeaming.deleteDomainNamed	Delete {{domain}}
+translation.securityRedTeaming.deleteDomainDescription	{{domain}} will be removed. You can add it again later.
+translation.securityRedTeaming.deleteDomainFailed	Couldn't delete the domain.
+translation.securityRepositories.emptyTitle	No repositories yet
+translation.securityRepositories.emptyDescription	Repositories your organization connects show up here. Start a scan to check your codebases.
+translation.securityRepositories.noMatches	No repositories match these filters
+translation.securityRepositories.noMatchesDescription	Try different filters, or clear them to see every repository.
+translation.securityRepositories.failedToLoad	Failed to load repositories
+translation.securitySidebar.scanStopped	Stopped
+translation.securitySidebar.pullRequests	Pull requests
+translation.securitySidebar.repositories	Repositories
+translation.securitySidebar.redTeaming	Red Teaming
+translation.securitySidebar.startScan	Start scan
+translation.securitySidebar.everyone	Everyone
+translation.securitySidebar.anyTime	Any time
+translation.securitySidebar.connections	Connections
+translation.securitySidebar.addConnection	Add connection
+translation.securitySidebar.connectionsCardTitle	Add connection
+translation.securitySidebar.connectionsCardDescription	Bring findings from another tool into Devin to triage and fix
+translation.securitySidebar.addConnectionNoPermission	You don't have permission to add connections
+translation.securitySidebar.noConnections	No connections
+translation.securitySidebar.renameConnectionFailed	Couldn't rename the connection
+translation.securitySidebar.overview	Overview
+translation.securitySidebar.findings	Findings
+translation.securitySidebar.legacy	Classic
+translation.securitySidebar.startScanCardTitle	Start a scan
+translation.securitySidebar.startScanCardDescription	Find vulnerabilities and get fixes ready for review
+translation.securitySidebar.codeTitle	Code
+translation.securitySidebar.codeDescription	Build features, fix bugs, and ship code
+translation.securitySidebar.securityVersion	2.0
+translation.securitySidebar.securityDescription	Find vulnerabilities, risks, and ship fixes
+translation.securitySidebar.threats	Threats
+translation.securitySidebar.customize	Customize
+translation.securitySidebar.complianceDescription	Collect control evidence for an assessor to validate
+translation.securitySidebar.prReviews	PR Reviews
+translation.securityPrReview.emptyTitle	Catch vulnerabilities before they merge
+translation.securityPrReview.emptyDescription	Set up Devin Review to check every pull request for security issues. Findings from your pull requests will appear here.
+translation.securityPrReview.setUpReview	Set up Security Review
+translation.securityPrReview.uncoveredNamed_one	Review does not cover {{names, list}}. Set up Security Review to add it.
+translation.securityPrReview.uncoveredNamed_other	Review does not cover {{names, list}}. Set up Security Review to add them.
+translation.securityPrReview.uncoveredCount_one	Review does not cover {{count}} repository, including {{names, list}}. Set up Security Review to add it.
+translation.securityPrReview.uncoveredCount_other	Review does not cover {{count}} repositories, including {{names, list}}. Set up Security Review to add them.
+translation.securityPrReview.uncoveredSome	Review does not cover some repositories, including {{names, list}}. Set up Security Review to add them.
+translation.securityPrReview.tabFindings	Findings
+translation.securityPrReview.tabPullRequests	Pull requests
+translation.securityPrReview.findingsEmptyTitle	No outstanding findings
+translation.securityPrReview.findingsEmptyDescription	Security findings from analyzed pull requests will appear here until they are fixed or dismissed.
+translation.securityPrReview.pullRequestsEmptyTitle	No analyzed pull requests
+translation.securityPrReview.pullRequestsEmptyDescription	Pull requests that Devin Review analyzes will appear here.
+translation.securityPrReview.colFinding	Finding
+translation.securityPrReview.untitledFinding	Untitled finding
+translation.securityPrReview.groupOtherOutstanding	Also outstanding
+translation.securityPrReview.colTitle	Title
+translation.securityPrReview.colRepository	Repository
+translation.securityPrReview.colFindings	Findings
+translation.securityPrReview.verdictOutstanding_one	{{count}} outstanding
+translation.securityPrReview.verdictOutstanding_other	{{count}} outstanding
+translation.securityPrReview.verdictDismissed_one	{{count}} dismissed
+translation.securityPrReview.verdictDismissed_other	{{count}} dismissed
+translation.securityPrReview.verdictFixed_one	{{count}} fixed
+translation.securityPrReview.verdictFixed_other	{{count}} fixed
+translation.securityPrReview.verdictNone	No findings
+translation.securityPrReview.colReviewed	Analyzed
+translation.securityPrReview.stateOpen	Open
+translation.securityPrReview.stateMerged	Merged
+translation.securityPrReview.stateClosed	Closed
+translation.securityPrReview.filterState	Status
+translation.securityPrReview.pullRequestTitle	{{repo}} #{{number}}
+translation.securityPrReview.pullRequestNumber	#{{number}}
+translation.securityPrReview.untitledPullRequest	Pull request #{{number}}
+translation.securityPrReview.truncated_one	Showing the most recent pull request
+translation.securityPrReview.truncated_other	Showing the {{count}} most recent pull requests
+translation.securityPrReview.groupOutstanding	Outstanding
+translation.securityPrReview.groupDismissed	Dismissed
+translation.securityPrReview.groupFixed	Fixed
+translation.securityPrReview.dismissedBy	Dismissed by {{name}}
+translation.securityPrReview.fixedBy	Fixed by {{name}}
+translation.securityPrReview.noFindings	No security findings on this pull request
+translation.securityPrReview.viewPullRequest	View pull request
+translation.securityPrReview.viewComment	View comment
+translation.securityPrReview.viewInReview	View in Devin Review
+translation.securityPrReview.fixAllOutstanding_one	Fix {{count}} outstanding finding
+translation.securityPrReview.fixAllOutstanding_other	Fix {{count}} outstanding findings
+translation.securityPrReview.fixFindingPrompt	Fix this security finding that Devin Review reported on {{url}}.
+
+{{title}}
+{{location}}
+
+{{description}}
+translation.securityPrReview.fixPullRequestPrompt	Fix the outstanding security findings that Devin Review reported on {{url}}:
+
+{{findings}}
+translation.securityPrReview.setupTitle	Set up Security Review
+translation.securityPrReview.setupDescription	Devin Review checks pull requests in the repositories you choose for security issues.
+translation.securityPrReview.setupRepositories	Repositories
+translation.securityPrReview.setupSelected_one	{{count}} of {{total}} selected
+translation.securityPrReview.setupSelected_other	{{count}} of {{total}} selected
+translation.securityPrReview.setupSelectAll	Select all
+translation.securityPrReview.setupClearAll	Clear all
+translation.securityPrReview.setupAllCovered	Review is on for every repository
+translation.securityPrReview.setupNoneCovered	Review is not on for any repository yet
+translation.securityPrReview.setupTabNotCovered	Not covered
+translation.securityPrReview.setupTabCovered	Covered
+translation.securityPrReview.setupEffort	Analysis effort
+translation.securityPrReview.setupEffortDescription	Applies to every repository selected.
+translation.securityPrReview.setupStart	First analysis
+translation.securityPrReview.setupStartDescription	When Devin first analyzes a pull request.
+translation.securityPrReview.setupCadence	Later pushes
+translation.securityPrReview.setupCadenceDescription	Whether Devin analyzes again when new commits are pushed.
+translation.securityPrReview.setupSubmit_one	Turn on Review for {{count}} repository
+translation.securityPrReview.setupSubmit_other	Turn on Review for {{count}} repositories
+translation.securityPrReview.setupDone_one	Review is on for {{count}} repository
+translation.securityPrReview.setupDone_other	Review is on for {{count}} repositories
+translation.complianceSidebar.setUpSystem	Set up system
+translation.complianceSidebar.systems	Systems
+translation.complianceSidebar.setUpCardTitle	Set up a system
+translation.complianceSidebar.setUpCardDescription	Collect control evidence for an assessor to validate
+translation.complianceSidebar.deviationCount_one	{{count}} deviation
+translation.complianceSidebar.deviationCount_other	{{count}} deviations
+translation.scanConnections.enterpriseBeta	Enterprise beta
+translation.scanConnections.enterpriseBetaTooltip	Ask your account team about getting access
+translation.scanConnections.title	New connection
+translation.scanConnections.description	Bring findings from another tool into Devin to triage and fix
+translation.scanConnections.source	Source
+translation.scanConnections.connect	Connect
+translation.scanConnections.detailsTitle	{{source}} details
+translation.scanConnections.nextTitle	What happens next
+translation.scanConnections.nextIngestionTitle	Ingestion
+translation.scanConnections.nextIngestionDescription	Devin will pull existing findings from {{source}}
+translation.scanConnections.nextIngestionDescriptionFile	Devin will pull the findings from your file
+translation.scanConnections.nextIngestionDescriptionCustom	Devin will pull existing findings from your source
+translation.scanConnections.nextInvestigationTitle	Investigation
+translation.scanConnections.nextInvestigationDescription	Devin will investigate each finding and confirm its validity
+translation.scanConnections.nextSyncTitle	Sync
+translation.scanConnections.nextSyncDescription	Devin will write results back to {{source}} and keep the two in sync
+translation.scanConnections.secretPlaceholder	Select an org secret
+translation.scanConnections.secretCreateNew	Create a new org secret
+translation.scanConnections.secretSearchPlaceholder	Search secrets…
+translation.scanConnections.secretNoMatch	No matching secrets
+translation.scanConnections.secretDescription	Only the secret's name is stored on the connection
+translation.scanConnections.secretName	Secret name
+translation.scanConnections.secretNamePlaceholder	SNYK_API_TOKEN

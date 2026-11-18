@@ -1,0 +1,500 @@
+translation.transcript.reminderPermission.updateApproved	Approved updating a reminder
+translation.transcript.reminderPermission.updateDenied	Denied updating a reminder
+translation.transcript.reminderPermission.deleteApproved	Approved deleting a reminder
+translation.transcript.reminderPermission.deleteDenied	Denied deleting a reminder
+translation.transcript.reminderPermission.createAction	Set reminder
+translation.transcript.reminderPermission.updateAction	Update reminder
+translation.transcript.reminderPermission.deleteAction	Delete reminder
+translation.transcript.reminderPermission.when	When: {{when}}
+translation.transcript.reminderPermission.pauses	Pauses the reminder
+translation.transcript.reminderPermission.resumes	Resumes the reminder
+translation.transcript.reminderPermission.newName	New name: {{name}}
+translation.transcript.viewReminder	View reminder
+translation.transcript.selfGrantSessionView	Granted itself view access to a session: <session/>
+translation.transcript.selfGrantSessionUse	Granted itself access to view and message a session: <session/>
+translation.transcript.selfGrantSessionCount	Granted itself access to {{count}} sessions
+translation.transcript.selfGrantBot_one	Granted itself access to another {{botName}}
+translation.transcript.selfGrantBot_other	Granted itself access to {{count}} other {{botNamePlural}}
+translation.transcript.selfGrantSecret_one	Granted itself a secret: {{names, list}}
+translation.transcript.selfGrantSecret_other	Granted itself {{count}} secrets: {{names, list}}
+translation.transcript.selfGrantMcp_one	Granted itself an MCP sign-in: {{names, list}}
+translation.transcript.selfGrantMcp_other	Granted itself {{count}} MCP sign-ins: {{names, list}}
+translation.transcript.selfGrantPlugin_one	Granted itself a plugin: {{names, list}}
+translation.transcript.selfGrantPlugin_other	Granted itself {{count}} plugins: {{names, list}}
+translation.transcript.selfGrantAutomation_one	Granted itself access to an automation: {{names, list}}
+translation.transcript.selfGrantAutomation_other	Granted itself access to {{count}} automations: {{names, list}}
+translation.transcript.collapseCard	Collapse
+translation.transcript.expandCard	Expand
+translation.transcript.personalPluginChangeUnavailable	Couldn't load the stored plugin, so these changes can't be compared against it.
+translation.transcript.askedDeepwiki	Asked DeepWiki
+translation.transcript.askingDeepwiki	Asking DeepWiki
+translation.transcript.attachment	Attachment
+translation.transcript.autoReview	Automatic analysis
+translation.transcript.autoReviewSpendLimitReached	Automatic analysis was turned off because it reached the spend limit. Turn it back on to resume.
+translation.transcript.autoRoute.toAgentAfterCompaction	Auto-routed to {{agent}} after compaction
+translation.transcript.autoRoute.toAgentAfterUserFollowUp	Auto-routed to {{agent}} after user follow-up
+translation.transcript.autoRoute.decision	Switched agent
+translation.transcript.autoRoute.toAgentOnModeSwitch	Auto-routed to {{agent}} on mode switch
+translation.transcript.autoRoute.toAgentOnStartup	Auto-routed to {{agent}} on startup
+translation.transcript.autoRoute.toAgent	Auto-routed to {{agent}}
+translation.transcript.autoRoutedTo	Auto-routed to {{agent}} {{trigger}}
+translation.transcript.autofixIsEnabled	Autofix is enabled.
+translation.transcript.botCommentsFromIgnored_one	Bot comment from <bots>{{bots, list(type: unit)}}</bots> ignored
+translation.transcript.botCommentsFromIgnored_other	Bot comments from <bots>{{bots, list(type: unit)}}</bots> ignored ({{count}})
+translation.transcript.branch	branch
+translation.transcript.branchForcePushed	{{branch}} was force-pushed ({{shortSha}})
+translation.transcript.browserClickedElement	Clicked element on {{url}}
+translation.transcript.browserExecutedJavascript	Executed JavaScript on {{url}}
+translation.transcript.browserLoadedExtensions	Loaded extensions: {{extensions}}
+translation.transcript.browserMovedMouse	Moved mouse on {{url}}
+translation.transcript.browserNavigated	Navigated to {{url}}
+translation.transcript.browserPressedKey	Pressed key: {{key}} on {{url}}
+translation.transcript.browserRestarted	Restarted browser
+translation.transcript.browserRestartedTo	Restarted browser to {{url}}
+translation.transcript.browserScrolledDown	Scrolled down on {{url}}
+translation.transcript.browserScrolledUp	Scrolled up on {{url}}
+translation.transcript.browserSelectedFile	Selected file to upload: {{path}}
+translation.transcript.browserSelectedOption	Selected option: {{option}}
+translation.transcript.browserSetDesktop	Set browser to desktop mode
+translation.transcript.browserSetMobile	Set browser to mobile mode
+translation.transcript.browserTookScreenshot	Took screenshot of {{url}}
+translation.transcript.browserTypedInTextbox	Typed in textbox on {{url}}
+translation.transcript.browserViewed	Viewed browser at {{url}}
+translation.transcript.browserViewedConsole	Viewed console on {{url}}
+translation.transcript.callEnded	Call ended
+translation.transcript.callEndedWithDuration	Call ended · {{duration}}
+translation.transcript.callStarted	Call started
+translation.transcript.cancel	Cancel
+translation.transcript.ciFailed	CI failed
+translation.transcript.ciFailedCount	CI failed ({{count}})
+translation.transcript.closePullRequest	Close pull request
+translation.transcript.codeReportScanned_one	Scanned {{count}} file in {{timeSpent}}
+translation.transcript.codeReportScanned_other	Scanned {{count}} files in {{timeSpent}}
+translation.transcript.codeReportScannedFallback	Scanned files
+translation.transcript.codeReportScanning_one	Scanning... {{count}} file processed in {{timeSpent}}
+translation.transcript.codeReportScanning_other	Scanning... {{count}} files processed in {{timeSpent}}
+translation.transcript.codeReportScanningFallback	Scanning...
+translation.transcript.codeReportStarted	Started code report
+translation.transcript.codeReportStartedIn	Started code report in directory {{directory}}
+translation.transcript.codebase	codebase
+translation.transcript.commentedOnPr	Commented on PR #{{pullNumber}} in {{repo}}
+translation.transcript.commentedOnPrNoNumber	Commented on a PR in {{repo}}
+translation.transcript.computerActedOn	Acted on {{reference}}: {{operation}}
+translation.transcript.computerActedOnElements	Acted on {{references}}
+translation.transcript.computerCheckedUiCapabilities	Checked UI capabilities
+translation.transcript.computerCheckedUiChanges	Checked UI changes
+translation.transcript.computerClicked	Clicked
+translation.transcript.computerClickedAt	Clicked at {{coordinate}}
+translation.transcript.computerDoubleClicked	Double-clicked
+translation.transcript.computerDoubleClickedAt	Double-clicked at {{coordinate}}
+translation.transcript.computerDragged	Dragged from {{start}} to {{end}}
+translation.transcript.computerExecutedJavascript	Executed JavaScript
+translation.transcript.computerGotCursorPosition	Got cursor position
+translation.transcript.computerHeldKey	Held key: {{key}}
+translation.transcript.computerInspectedUi	Inspected UI
+translation.transcript.computerMiddleClicked	Middle-clicked
+translation.transcript.computerMiddleClickedAt	Middle-clicked at {{coordinate}}
+translation.transcript.computerMouseButtonDown	Mouse button down
+translation.transcript.computerMouseButtonUp	Mouse button up
+translation.transcript.computerMovedMouse	Moved mouse to {{coordinate}}
+translation.transcript.computerPressedKey	Pressed key: {{key}}
+translation.transcript.computerQueriedUi	Queried UI
+translation.transcript.computerQueriedUiFor	Queried UI for {{filter}}
+translation.transcript.computerReadPageDom	Read page DOM
+translation.transcript.computerRightClicked	Right-clicked
+translation.transcript.computerRightClickedAt	Right-clicked at {{coordinate}}
+translation.transcript.computerScrolled	Scrolled {{direction}}
+translation.transcript.computerScrolledBy	Scrolled {{direction}} by {{amount}}
+translation.transcript.computerTookScreenshot	Took screenshot
+translation.transcript.computerTripleClicked	Triple-clicked
+translation.transcript.computerTripleClickedAt	Triple-clicked at {{coordinate}}
+translation.transcript.computerTypedText	Typed text
+translation.transcript.computerViewedConsole	Viewed console
+translation.transcript.computerWaited	Waited
+translation.transcript.computerWaitedFor	Waited {{duration}} s
+translation.transcript.computerZoomedRegion	Zoomed region
+translation.transcript.copied	Copied
+translation.transcript.copiedMessage	Copied message
+translation.transcript.copiedLink	Copied link
+translation.transcript.copy	Copy
+translation.transcript.copyBranchName	Copy branch name
+translation.transcript.copyLink	Copy link
+translation.transcript.copyAppUrl	Copy URL
+translation.transcript.copyPrContext	Copy context about Devin's work and this PR to handoff to another agent
+translation.transcript.createdFile	Created {{filename}}
+translation.transcript.creatingFile	Creating {{filename}}
+translation.transcript.deepwikiQuestion	Q: {{question}}
+translation.transcript.defaultPrDestination	Default
+translation.transcript.deletedFile	Deleted {{filename}}
+translation.transcript.deny	Deny
+translation.transcript.describeChangeToCommand	Describe change to command
+translation.transcript.devin	Devin
+translation.transcript.devinChoseToStop	Devin chose to stop working
+translation.transcript.devinFixingIssuesFromReview	Devin is fixing the Devin Review findings
+translation.transcript.devinReview	Devin Review
+translation.transcript.devinReviewFeedback	Devin Review feedback
+translation.transcript.devinReviewFeedbackWithCounts	Devin Review feedback ({{counts}})
+translation.transcript.devinReviewFindingsIgnored	Devin Review findings ignored
+translation.transcript.devinReviewFoundFindings	Devin Review found {{findings, list(type: unit)}}
+translation.transcript.devinReviewFoundIssuesFixOrEnable	Devin Review found findings. Fix them for this PR, or enable auto-fix for all Devin PRs.
+translation.transcript.devinReviewPlusFeedback	Devin Review + {{names}} feedback
+translation.transcript.devinTookOverThisPr	Took over PR
+translation.transcript.dismiss	Dismiss
+translation.transcript.dismissedSuggestions_one	Dismissed {{count}} suggestion
+translation.transcript.dismissedSuggestions_other	Dismissed {{count}} suggestions
+translation.transcript.editCommand	Edit command
+translation.transcript.editMessage	Edit message
+translation.transcript.editedFile	Edited {{filename}}
+translation.transcript.editedFiles	Edited files
+translation.transcript.editing	Editing
+translation.transcript.editingFile	Editing {{filename}}
+translation.transcript.editingFiles	Editing files
+translation.transcript.edits	Edits
+translation.transcript.enableAutoFix	Enable auto-fix
+translation.transcript.enableAutoFixForAllPrs	Enable auto-fix for all PRs
+translation.transcript.enabling	Enabling...
+translation.transcript.enteredTestMode	Entered test mode
+translation.transcript.enteredTestModeWithCitation	Entered test mode —
+translation.transcript.explore.greppedInRepo	Grepped {{query}} in {{repoName}}
+translation.transcript.explore.grepped	Grepped {{query}}
+translation.transcript.explore.listedInRepo	Listed {{path}} in {{repoName}}
+translation.transcript.explore.listed	Listed {{path}}
+translation.transcript.explore.listedRecentCommitsInRepo	Listed recent commits on {{query}} in {{repoName}}
+translation.transcript.explore.listedRecentCommits	Listed recent commits on {{query}}
+translation.transcript.explore.matchedFilesInRepo	Matched files {{query}} in {{repoName}}
+translation.transcript.explore.matchedFiles	Matched files {{query}}
+translation.transcript.explore.read	Read {{filename}}
+translation.transcript.explore.readWikiInRepo	Read wiki {{query}} in {{repoName}}
+translation.transcript.explore.readWiki	Read wiki {{query}}
+translation.transcript.explore.searchedInRepo	Searched {{query}} in {{repoName}}
+translation.transcript.explore.searchedAcrossRepos	Searched {{query}} across repos
+translation.transcript.explore.searchedRepos	Searched repos
+translation.transcript.explore.searchedReposFor	Searched repos for {{query}}
+translation.transcript.explore.searchingInRepo	Searching {{query}} in {{repoName}}
+translation.transcript.explore.searchingAcrossRepos	Searching {{query}} across repos
+translation.transcript.explore.viewedBlameInRepo	Viewed blame for {{filename}} in {{repoName}}
+translation.transcript.explore.viewedBlame	Viewed blame for {{filename}}
+translation.transcript.explore.viewedCommitInRepo	Viewed commit {{query}} in {{repoName}}
+translation.transcript.explore.viewedCommit	Viewed commit {{query}}
+translation.transcript.explore.viewedPrInRepo	Viewed PR {{query}} in {{repoName}}
+translation.transcript.explore.viewedPr	Viewed PR {{query}}
+translation.transcript.exploredRepo	Explored the repo
+translation.transcript.fastContext	Fast Context
+translation.transcript.fastContextDuration	in {{seconds}}s
+translation.transcript.fastContextNoResults	No relevant context found
+translation.transcript.feedbackIgnoredTooltip	This feedback was ignored.
+translation.transcript.fetchedWebPagesCount	Fetched web page content ({{count}} pages)
+translation.transcript.fetchedWebPagesCount_one	Fetched web page content ({{count}} page)
+translation.transcript.fetchedWebPagesCount_other	Fetched web page content ({{count}} pages)
+translation.transcript.fetchingWebPage	Fetching {{url}}
+translation.transcript.fileDeleted	deleted
+translation.transcript.findingsBugs_one	{{count}} bug
+translation.transcript.findingsBugs_other	{{count}} bugs
+translation.transcript.findingsFindings_one	{{count}} finding
+translation.transcript.findingsFindings_other	{{count}} findings
+translation.transcript.findingsFlags_one	{{count}} flag
+translation.transcript.findingsFlags_other	{{count}} flags
+translation.transcript.findingsCodeQuality_one	{{count}} code quality issue
+translation.transcript.findingsCodeQuality_other	{{count}} code quality issues
+translation.transcript.findingsNotes_one	{{count}} note
+translation.transcript.findingsNotes_other	{{count}} notes
+translation.transcript.findingsSecurity_one	{{count}} security finding
+translation.transcript.findingsSecurity_other	{{count}} security findings
+translation.transcript.findingsVulnerabilities_one	{{count}} vulnerability
+translation.transcript.findingsVulnerabilities_other	{{count}} vulnerabilities
+translation.transcript.reviewFindingSeverityBug	Bug
+translation.transcript.reviewFindingSeveritySecurity	Security
+translation.transcript.reviewFindingSeverityFlag	Flag
+translation.transcript.reviewFindingSeverityCodeQuality	Code quality
+translation.transcript.reviewFindingSeverityInfo	Note
+translation.transcript.reviewFindingsShowMore_one	Show {{count}} more
+translation.transcript.reviewFindingsShowMore_other	Show {{count}} more
+translation.transcript.reviewFindingsShowLess	Show less
+translation.transcript.reviewOutcomeFixed	Fixed
+translation.transcript.reviewOutcomeSentToPr	Sent to PR
+translation.transcript.reviewTriageFixed_one	{{count}} finding fixed
+translation.transcript.reviewTriageFixed_other	{{count}} findings fixed
+translation.transcript.reviewTriageSentToPr_one	{{count}} finding sent to the PR
+translation.transcript.reviewTriageSentToPr_other	{{count}} findings sent to the PR
+translation.transcript.reviewTriageInDevinReview_one	{{count}} finding left in Devin Review
+translation.transcript.reviewTriageInDevinReview_other	{{count}} findings left in Devin Review
+translation.transcript.reviewTriageOutcomeInDevinReview	Left in Devin Review
+translation.transcript.reviewTriaging	Fixing…
+translation.transcript.reviewAutofixFound	Devin Review found {{counts}}
+translation.transcript.reviewAutofixWaiting	Waiting for Devin to triage
+translation.transcript.reviewAutofixFoundCount_one	Devin Review found {{count}} finding
+translation.transcript.reviewAutofixFoundCount_other	Devin Review found {{count}} findings
+translation.transcript.reviewAutofixTriaged_one	Devin Review triaged {{count}} finding
+translation.transcript.reviewAutofixTriaged_other	Devin Review triaged {{count}} findings
+translation.transcript.reviewAutofixTriagingMeta	Devin is fixing
+translation.transcript.reviewAutofixFixedAll_one	Devin automatically fixed the finding
+translation.transcript.reviewAutofixFixedAll_other	Devin automatically fixed all {{count}} findings
+translation.transcript.reviewAutofixForYou_one	{{count}} finding needs your attention
+translation.transcript.reviewAutofixForYou_other	{{count}} findings need your attention
+translation.transcript.reviewAutofixInterrupted	Devin was interrupted
+translation.transcript.reviewAutofixDeclined	Autofix not active in this PR
+translation.transcript.reviewAutofixFixed_one	{{count}} finding fixed
+translation.transcript.reviewAutofixFixed_other	{{count}} findings fixed
+translation.transcript.reviewAutofixDismissed_one	{{count}} finding invalidated
+translation.transcript.reviewAutofixDismissed_other	{{count}} findings invalidated
+translation.transcript.reviewAutofixOpen_one	{{count}} finding open
+translation.transcript.reviewAutofixOpen_other	{{count}} findings open
+translation.transcript.reviewAutofixContinued	Devin's triage is below
+translation.transcript.reviewAutofixPostFailed	Failed to post to {{provider}}
+translation.transcript.reviewAutofixSuperseded	A newer review exists
+translation.transcript.reviewAutofixFixedByYou_one	{{count}} finding fixed by you
+translation.transcript.reviewAutofixFixedByYou_other	{{count}} findings fixed by you
+translation.transcript.reviewAutofixInvalidatedByYou_one	{{count}} finding invalidated by you
+translation.transcript.reviewAutofixInvalidatedByYou_other	{{count}} findings invalidated by you
+translation.transcript.reviewAutofixFixedOnPr_one	{{count}} finding fixed on the PR
+translation.transcript.reviewAutofixFixedOnPr_other	{{count}} findings fixed on the PR
+translation.transcript.firstSession.connectGithub	<githubLink>Connect GitHub</githubLink> to create PRs in your repos
+translation.transcript.firstSession.moreTips	More tips for first-time users
+translation.transcript.firstSession.tryTaggingSlack	Try tagging @Devin in <slackLink>Slack</slackLink> to kick off a task right from a thread
+translation.transcript.firstSession.tryTaggingSlackOrTeams	Try tagging @Devin in <slackLink>Slack</slackLink> or <teamsLink>Teams</teamsLink> to kick off a task right from a chat
+translation.transcript.firstSession.tryTaggingTeams	Try tagging @Devin in <teamsLink>Teams</teamsLink> to kick off a task right from a chat
+translation.transcript.firstSessionCongratulations	Congrats on starting your first session!
+translation.transcript.fixForThisPr	Fix for this PR
+translation.transcript.fixForThisPrOnly	Fix for this PR only
+translation.transcript.forkFromMessage	Fork from here
+translation.transcript.gapOf	Gap of {{duration}}
+translation.transcript.iDisagree	I disagree
+translation.transcript.ignoredFeedbackFrom	Ignored feedback from {{names}}
+translation.transcript.ignoredFeedbackFromPrComments	Ignored feedback from PR comments
+translation.transcript.internalDebugging	Internal debugging
+translation.transcript.keepingRepoUpToDate	Keeping {{repo}} up to date
+translation.transcript.keepingReposUpToDate	Keeping repositories up to date
+translation.transcript.languageTranslation	{{language}} Translation:
+translation.transcript.launchedSubagent	Launched subagent
+translation.transcript.listedSuggestionsFiltered	Listed {{returnedCount}} of {{totalCount}} suggestions ({{filters, list(type: unit)}})
+translation.transcript.listedSuggestions	Listed {{returnedCount}} of {{totalCount}} suggestions
+translation.transcript.loadingOlderMessages	Loading older messages…
+translation.transcript.manageGitSettings	Manage Git settings
+translation.transcript.mergeConflict	Merge conflict
+translation.transcript.mergeConflictOnPr	Merge conflict on PR #{{number}}
+translation.transcript.mergeConflictOnPrTitled	Merge conflict on PR #{{number}}: {{title}}
+translation.transcript.messageActions	Message actions
+translation.transcript.messageFlagged	Message flagged
+translation.transcript.messageFlaggedUsagePolicies	This message was flagged for potentially violating your organization's usage policies.
+translation.transcript.modelDegraded	Temporarily using a backup model
+translation.transcript.modelDegradedRefusal	Request declined — using a backup model
+translation.transcript.modelRecovered	Back on the primary model
+translation.transcript.modelDegradedDetail	Primary model unavailable — Devin switched to a backup model and is still working. Results may be slightly different.
+translation.transcript.modelDegradedRefusalDetail	The primary model declined this request — Devin switched to a backup model to continue.
+translation.transcript.modelRecoveredDetail	Back on the primary model.
+translation.transcript.communicationManager	Communication manager
+translation.transcript.communicationManagerAttempt	Attempt {{number}}
+translation.transcript.communicationManagerDecision	Decision: {{decision}}
+translation.transcript.communicationManagerDuration	{{seconds}}s
+translation.transcript.communicationManagerOutcomeEmpty	empty reply
+translation.transcript.communicationManagerOutcomeError	failed
+translation.transcript.communicationManagerOutcomeOk	succeeded
+translation.transcript.communicationManagerPlayground	Playground
+translation.transcript.communicationManagerTotal	{{seconds}}s in {{count}} attempt
+translation.transcript.communicationManagerTotal_other	{{seconds}}s in {{count}} attempts
+translation.transcript.communicationManagerNote	Note
+translation.transcript.communicationManagerWithheld	{{count}} earlier draft withheld before this message
+translation.transcript.communicationManagerWithheld_other	{{count}} earlier drafts withheld before this message
+translation.transcript.communicationManagerWithheldLabel_one	Communication manager: {{count}} earlier draft withheld
+translation.transcript.communicationManagerWithheldLabel_other	Communication manager: {{count}} earlier drafts withheld
+translation.transcript.communicationManagerWithheldDraft	Withheld draft
+translation.transcript.communicationManagerReview	Review {{number}}
+translation.transcript.modelViaProvider	{{model}} via {{modelProvider}}
+translation.transcript.moreActions	More actions
+translation.transcript.moreAllowOptions	More allow options
+translation.transcript.morePrActions	More actions
+translation.transcript.moreRejectOptions	More reject options
+translation.transcript.moreTestingOptions	More testing options
+translation.transcript.networkAllowEverything	Allow everything
+translation.transcript.networkAllowEverythingTooltip	Turns off network controls for this session
+translation.transcript.networkAllowInAutomation	Add to automation
+translation.transcript.networkAllowInBoth	Add to profile and automation
+translation.transcript.networkAllowInProfile	Add to profile
+translation.transcript.networkBlockedByAutomation_one	This destination is blocked by the automation's network policy.
+translation.transcript.networkBlockedByAutomation_other	These destinations are blocked by the automation's network policy.
+translation.transcript.networkBlockedByBothGeneric_one	This destination is blocked by security profiles and the automation's network policy.
+translation.transcript.networkBlockedByBothGeneric_other	These destinations are blocked by security profiles and the automation's network policy.
+translation.transcript.networkBlockedByBoth_one	This destination is blocked by the security profile \\
+translation.upgradeButton.upgrade	Upgrade
+translation.attachmentPill.image	Image attachment
+translation.attachmentPill.remove	Remove {{name}}
+translation.quotePill.closeQuote	”
+translation.quotePill.openQuote	“
+translation.quotePill.designEdit.changeCount_one	{{count}} change
+translation.quotePill.designEdit.changeCount_other	{{count}} changes
+translation.quotePill.designEdit.text	Text
+translation.quotePill.designEdit.fontFamily	Font family
+translation.quotePill.designEdit.fontSize	Font size
+translation.quotePill.designEdit.fontWeight	Font weight
+translation.quotePill.designEdit.fontStyle	Font style
+translation.quotePill.designEdit.lineHeight	Line height
+translation.quotePill.designEdit.letterSpacing	Letter spacing
+translation.quotePill.designEdit.textAlign	Text align
+translation.quotePill.designEdit.textTransform	Text transform
+translation.quotePill.designEdit.textDecoration	Text decoration
+translation.quotePill.designEdit.textColor	Text color
+translation.quotePill.designEdit.background	Background
+translation.quotePill.designEdit.opacity	Opacity
+translation.quotePill.designEdit.display	Display
+translation.quotePill.designEdit.direction	Direction
+translation.quotePill.designEdit.wrap	Wrap
+translation.quotePill.designEdit.alignItems	Align items
+translation.quotePill.designEdit.justifyContent	Justify content
+translation.quotePill.designEdit.gap	Gap
+translation.quotePill.designEdit.width	Width
+translation.quotePill.designEdit.height	Height
+translation.quotePill.designEdit.minWidth	Min width
+translation.quotePill.designEdit.maxWidth	Max width
+translation.quotePill.designEdit.minHeight	Min height
+translation.quotePill.designEdit.maxHeight	Max height
+translation.quotePill.designEdit.padding	Padding
+translation.quotePill.designEdit.margin	Margin
+translation.quotePill.designEdit.radius	Radius
+translation.quotePill.designEdit.border	Border
+translation.quotePill.designEdit.shadow	Shadow
+translation.quotePill.designEdit.overflow	Overflow
+translation.quotePill.designEdit.position	Position
+translation.quotePill.designEdit.flexGrow	Flex grow
+translation.quotePill.designEdit.flexShrink	Flex shrink
+translation.quotePill.designEdit.flexBasis	Flex basis
+translation.quotePill.designEdit.alignSelf	Align self
+translation.quotePill.designEdit.objectFit	Object fit
+translation.quotePill.designEdit.paddingTop	Padding top
+translation.quotePill.designEdit.paddingRight	Padding right
+translation.quotePill.designEdit.paddingBottom	Padding bottom
+translation.quotePill.designEdit.paddingLeft	Padding left
+translation.quotePill.designEdit.marginTop	Margin top
+translation.quotePill.designEdit.marginRight	Margin right
+translation.quotePill.designEdit.marginBottom	Margin bottom
+translation.quotePill.designEdit.marginLeft	Margin left
+translation.quotePill.designEdit.radiusTopLeft	Radius top left
+translation.quotePill.designEdit.radiusTopRight	Radius top right
+translation.quotePill.designEdit.radiusBottomRight	Radius bottom right
+translation.quotePill.designEdit.radiusBottomLeft	Radius bottom left
+translation.quotePill.designEdit.borderTopWidth	Border top width
+translation.quotePill.designEdit.borderTopStyle	Border top style
+translation.quotePill.designEdit.borderTopColor	Border top color
+translation.quotePill.designEdit.borderRightWidth	Border right width
+translation.quotePill.designEdit.borderRightStyle	Border right style
+translation.quotePill.designEdit.borderRightColor	Border right color
+translation.quotePill.designEdit.borderBottomWidth	Border bottom width
+translation.quotePill.designEdit.borderBottomStyle	Border bottom style
+translation.quotePill.designEdit.borderBottomColor	Border bottom color
+translation.quotePill.designEdit.borderLeftWidth	Border left width
+translation.quotePill.designEdit.borderLeftStyle	Border left style
+translation.quotePill.designEdit.borderLeftColor	Border left color
+translation.quotePill.designEdit.rowGap	Row gap
+translation.quotePill.designEdit.columnGap	Column gap
+translation.quotePill.designEdit.gridColumns	Grid columns
+translation.videoAttachment.notSupported	Your browser does not support the video tag.
+translation.videoAttachment.unavailable	Video unavailable:
+translation.virtualEnvironment.default	default
+translation.virtualEnvironment.hosted	Hosted
+translation.virtualEnvironment.outposts	Outposts
+translation.virtualEnvironment.personal	Personal
+translation.voiceCall.alreadyActive	A voice call is already active for this session
+translation.voiceCall.callDuration	Call duration
+translation.voiceCall.calling	Calling...
+translation.voiceCall.cancel	Cancel call
+translation.voiceCall.connectionClosed	Call connection closed ({{code}})
+translation.voiceCall.deafen	Silence Devin
+translation.voiceCall.hangUp	End voice call
+translation.voiceCall.holdKeyToTalk	Hold <key></key> to talk
+translation.voiceCall.holdSpacebarToTalk	Hold spacebar to talk
+translation.voiceCall.listening	Listening
+translation.voiceCall.micLevel	Microphone level
+translation.voiceCall.microphoneUnavailable	Microphone access is required to start a voice call
+translation.voiceCall.mute	Mute microphone
+translation.voiceCall.muted	Muted
+translation.voiceCall.notEnabled	Voice mode is not enabled for your account
+translation.voiceCall.presence.endCall	End call
+translation.voiceCall.presence.otherUser	{{name}} and Devin are on a call
+translation.voiceCall.presence.someone	Someone is on a call with Devin
+translation.voiceCall.presence.you	You and Devin are on a call in another window
+translation.voiceCall.reconnecting	Reconnecting call...
+translation.voiceCall.retry	Retry
+translation.voiceCall.returnToCall	Return to call
+translation.voiceCall.spaceKey	Space
+translation.voiceCall.starterMessage	Hi Devin!
+translation.voiceCall.start	Start voice call
+translation.voiceCall.call	Call {{name}}
+translation.voiceCall.sendAndStart	Send message and start voice call
+translation.voiceCall.tooManyCalls	Too many voice calls were started recently. Wait a few minutes and try again
+translation.voiceCall.transcript	Call transcript
+translation.voiceCall.transcriptDevin	Devin
+translation.voiceCall.transcriptEmpty	Your conversation will appear here as you speak.
+translation.voiceCall.transcriptYou	You
+translation.voiceCall.undeafen	Unsilence Devin
+translation.voiceCall.unmute	Unmute microphone
+translation.voiceCall.voiceModelError	Voice model error
+translation.voiceRecord.processingEllipsis	Processing...
+translation.voiceRecord.sendVoiceMessage	Send voice message
+translation.voiceRecord.stopAndEdit	Stop and edit
+translation.voiceRecord.stopAndSend	Stop and send
+translation.homeCustomization.artworkGroups.paintings	Paintings
+translation.homeCustomization.artworkGroups.landscapes	Landscapes
+translation.homeCustomization.artworkGroups.sea	The sea
+translation.homeCustomization.artworkGroups.prints	Japanese prints
+translation.homeCustomization.artworkGroups.deepSpace	Deep space
+translation.homeCustomization.artworkGroups.planets	Planets and moons
+translation.homeCustomization.artworkGroups.earth	Earth from orbit
+translation.homeCustomization.artworkGroups.spacecraft	Spacecraft
+translation.homeCustomization.none	None
+translation.homeCustomization.shuffleDaily	Shuffle daily
+translation.homeCustomization.tabBackground	Background
+translation.homeCustomization.tabAdjust	Adjust
+translation.homeCustomization.uploadImage	Upload image
+translation.homeCustomization.removeImage	Remove image
+translation.homeCustomization.imageRemoved	Image removed
+translation.homeCustomization.theme	Theme
+translation.homeCustomization.showInSessions	Show in sessions
+translation.homeCustomization.light	Light
+translation.homeCustomization.dark	Dark
+translation.homeCustomization.system	System
+translation.homeCustomization.dim	Dim
+translation.homeCustomization.blur	Blur
+translation.homeCustomization.fade	Fade
+translation.homeCustomization.filter	Filter
+translation.homeCustomization.dither	Dither
+translation.homeCustomization.grain	Grain
+translation.homeCustomization.vignette	Vignette
+translation.homeCustomization.auto	Auto
+translation.homeCustomization.white	White
+translation.homeCustomization.black	Black
+translation.homeCustomization.chatBox	Chat box
+translation.homeCustomization.position	Position
+translation.homeCustomization.positionCenter	Center
+translation.homeCustomization.positionBottom	Bottom
+translation.homeCustomization.frame	Frame
+translation.homeCustomization.frameWidth	Width
+translation.homeCustomization.toneApp	App
+translation.homeCustomization.solid	Solid
+translation.homeCustomization.glass	Glass
+translation.homeCustomization.ghost	Ghost
+translation.homeCustomization.opacity	Opacity
+translation.homeCustomization.reset	Reset
+translation.homeCustomization.imageUnreadable	That image couldn't be read. Try a different file.
+translation.homeCustomization.imageUploadFailed	The image couldn't be uploaded. Try again.
+translation.homeCustomization.gradients	Gradients
+translation.homeCustomization.yourImage	Your image
+translation.homeCustomization.uploadedImage	Uploaded image
+translation.homeCustomization.halftone	Halftone
+translation.homeCustomization.pattern	Pattern
+translation.homeCustomization.patternBayer2	2×2
+translation.homeCustomization.patternBayer4	4×4
+translation.homeCustomization.patternBayer8	8×8
+translation.homeCustomization.patternNoise	Noise
+translation.homeCustomization.pixelSize	Pixel size
+translation.homeCustomization.palette	Colors
+translation.homeCustomization.paletteColor	Full color
+translation.homeCustomization.paletteMono	Two-tone
+translation.homeCustomization.levels	Levels
+translation.homeCustomization.ink	Dark
+translation.homeCustomization.paper	Light
+translation.homeCustomization.dotSize	Dot size
+translation.homeCustomization.amount	Amount
+translation.homeCustomization.vignetteColor	Vignette color
+translation.homeCustomization.tone	Tone
+translation.homeCustomization.px	{{value}}px
+translation.homeCustomization.positionValue	{{x}} across, {{y}} down
+translation.homeCustomization.zoom	Zoom

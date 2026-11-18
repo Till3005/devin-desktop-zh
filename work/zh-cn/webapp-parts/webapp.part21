@@ -1,0 +1,500 @@
+translation.liveSupport.admin.listTitle	Live support requests
+translation.liveSupport.admin.listSubtitle	Open requests from enterprises with live support enabled. Refreshes every 15 seconds.
+translation.liveSupport.admin.loadingRequests	Loading requests…
+translation.liveSupport.admin.noRequests	No open live support requests.
+translation.liveSupport.admin.colEnterprise	Enterprise
+translation.liveSupport.admin.colUser	User
+translation.liveSupport.admin.colSource	Source
+translation.liveSupport.admin.colStatus	Status
+translation.liveSupport.admin.colCreated	Created
+translation.liveSupport.admin.rowOrg	Org
+translation.liveSupport.admin.rowContext	Context
+translation.liveSupport.admin.rowSession	Session
+translation.liveSupport.admin.rowClaimed	Claimed
+translation.liveSupport.admin.claimedValue	{{time}} by {{name}}
+translation.liveSupport.admin.detailTitle	Live support request
+translation.liveSupport.admin.backToList	← Live support requests
+translation.liveSupport.admin.loadingRequest	Loading request…
+translation.liveSupport.admin.requestNotFound	Request not found.
+translation.liveSupport.admin.claim	Claim
+translation.liveSupport.admin.resolve	Resolve
+translation.liveSupport.admin.claimed	Request claimed
+translation.liveSupport.admin.resolved	Request resolved
+translation.liveSupport.admin.claimConflict	Already claimed by someone else
+translation.liveSupport.admin.claimFailed	Failed to claim request
+translation.liveSupport.admin.resolveFailed	Failed to resolve request
+translation.liveSupport.admin.loadingAuth	Loading authentication…
+translation.liveSupport.admin.mustBeLoggedIn	You must be logged in to access this page.
+translation.machineSetup.baseSnapshotMismatchWarning	This current Devin session is not using the same base machine snapshot as the default workspace. We won't be able to save the work done in this session to the default workspace. You should start a new Devin using the default workspace if you wish to update it.
+translation.machineSetup.devinInvestigatingRepo	Devin is investigating the repo and filling out these steps
+translation.machineSetup.instructionClickSave	Click "Save" when all steps are ready
+translation.machineSetup.instructionReviewSteps	Review each setup step in the list below to ensure Devin found the correct way to do each task in this repo.
+translation.machineSetup.instructionSkipOrEdit	Skip or edit any steps that look wrong.
+translation.machineSetup.instructionVerifySteps	Verify that all other steps run successfully.
+translation.machineSetup.noProposedConfiguration	Devin hasn't proposed any machine setup configuration yet.
+translation.machineSetup.okay	Okay
+translation.machineSetup.pendingChanges_one	{{count}} pending change
+translation.machineSetup.pendingChanges_other	{{count}} pending changes
+translation.machineSetup.planningSetupSteps	Planning the steps needed to set up the environment
+translation.machineSetup.remainingSetupSteps_one	{{count}} Remaining Setup Step
+translation.machineSetup.remainingSetupSteps_other	{{count}} Remaining Setup Steps
+translation.machineSetup.repositoryCommands	Repository Commands
+translation.machineSetup.repositoryConfiguration	Repository Configuration
+translation.machineSetup.repositoryMaintenance	Repository Maintenance
+translation.machineSetup.reviewSetup	Review setup
+translation.machineSetup.saveSetup	Save setup
+translation.machineSetup.setupInstructions	Setup Instructions
+translation.machineSetup.setupProgress	Setup Progress
+translation.machineSetup.skipAndSave	Skip & Save
+translation.machineSetup.skipRemainingStepsDescription	Are you sure you want to skip the remaining setup steps? This will mark all incomplete steps as skipped and proceed with saving the setup configuration.
+translation.machineSetup.skipRemainingStepsTitle	Skip Remaining Steps?
+translation.machineSetup.skipTheRestAndSave	Skip the rest & save
+translation.machineSetup.stepsComplete	{{completed}} of {{total}} steps complete
+translation.machineSetup.tooLateDescription	The default workspace has been modified since this setup session started. We won't be able to safely save the work done in this session back to the default workspace. If there were changes made in this session that you wish to upstream into the default workspace, you can start a new setup session using the default workspace and ask Devin to make the changes you desire.
+translation.machineSetup.tooLateTitle	It's too late :(
+translation.markdown.invalidAttachment	Invalid attachment
+translation.markdownEditor.collapse	Collapse
+translation.markdownEditor.dialogLabel	Markdown editor
+translation.markdownEditor.edit	Edit
+translation.markdownEditor.expand	Expand
+translation.markdownEditor.preview	Preview
+translation.markdownEditor.writePlaybookHere	Write your playbook here…
+translation.markdownTable.copyTable	Copy table
+translation.mcpMarketplace.accessScope.appRegistrationDisconnect	Disconnects this server from the PagerDuty app registration. Enter your own OAuth client ID and secret below.
+translation.mcpMarketplace.accessScope.appRegistrationClientRequired	Organization access needs its own OAuth client ID; this server no longer uses the app registration
+translation.mcpMarketplace.accessScope.appRegistrationClientRequired_enterprise	Enterprise access needs its own OAuth client ID; this server no longer uses the app registration
+translation.mcpMarketplace.microsoft365Scopes.rowDescription	Choose what Devin can do in your Microsoft 365 account. Each permission unlocks specific tools, and Devin only sees the tools your permissions allow. Required permissions are always included.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.offlineAccess	Keeps Devin connected in the background so you don\'t have to sign in again.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.userRead	Lets Devin identify your account (name and email).
+translation.mcpMarketplace.microsoft365Scopes.descriptions.calendarsReadBasic	Lets Devin list and open your events (time, title, location, attendees), without descriptions or attachments.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.calendarsRead	Lets Devin list and open your events, including descriptions.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.calendarsReadWrite	Lets Devin also create, update and delete events on your calendar.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.userReadBasicAll	Lets Devin search people in your organization and read their basic profile (name, email, job title).
+translation.mcpMarketplace.microsoft365Scopes.descriptions.userReadAll	Also lets Devin look up someone\'s manager. Requires admin consent.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.directoryReadAll	Lets Devin search people and look up managers through directory data. Requires admin consent.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.filesRead	Lets Devin browse your OneDrive and read file contents.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.filesReadWrite	Lets Devin also upload files, create folders, delete files and open files from sharing links.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.filesReadAll	Same as Files.Read, through a broader permission covering all files you can access. Only needed if your admin grants this one instead.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.filesReadWriteAll	Same as Files.ReadWrite, through a broader permission covering all files you can access. Only needed if your admin grants this one instead.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.sitesReadAll	Same as Files.Read, through a SharePoint-wide permission. Only needed if your admin grants this one instead.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.sitesReadWriteAll	Same as Files.ReadWrite, through a SharePoint-wide permission. Only needed if your admin grants this one instead.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.mailReadBasic	Lets Devin list your mail folders only. Reading emails needs Mail.Read.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.mailRead	Lets Devin list, search and read your emails and folders.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.mailReadWrite	Lets Devin also create drafts, archive, move and mark emails as read. Does not allow sending.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.mailSend	Lets Devin send emails as you.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.contactsRead	Lets Devin list and read your Outlook contacts.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.contactsReadWrite	Lets Devin also create, update and delete your contacts.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.teamReadBasicAll	Lets Devin list the teams you\'re a member of.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.channelReadBasicAll	Lets Devin list the channels in your teams, to find where to post.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.teamworkTagRead	Lets Devin list the tags of your teams so it can @mention a tag in a channel post. Requires admin consent.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.chatReadBasic	Lets Devin list your chats and their members. Does not allow reading messages.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.chatCreate	Together with ChatMessage.Send, lets Devin start a 1:1 chat and send someone a direct message.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.channelMessageSend	Lets Devin post messages as you in team channels.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.channelMessageReadAll	Lets Devin read posts and replies in the team channels you can access. Requires admin consent.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.chatMessageSend	Lets Devin send messages as you in your existing chats.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.chatRead	Alternative to Chat.ReadBasic for listing chats and members. Devin has no tool to read messages.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.chatReadWrite	Lets Devin list chats and send messages in existing chats. Broader than needed: prefer Chat.ReadBasic and ChatMessage.Send.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.tasksRead	Lets Devin read your To Do lists and tasks.
+translation.mcpMarketplace.microsoft365Scopes.descriptions.tasksReadWrite	Lets Devin also create, update, complete and delete your tasks.
+translation.mcpMarketplace.googleProductivityScopes.rowDescription	Choose what Devin can do in your Google account. Each permission unlocks specific tools, and Devin only sees the tools your permissions allow. Required permissions are always included.
+translation.mcpMarketplace.googleProductivityScopes.descriptions.openid	Lets Devin identify your Google account.
+translation.mcpMarketplace.googleProductivityScopes.descriptions.userinfoEmail	Lets Devin see the email address of your Google account.
+translation.mcpMarketplace.googleProductivityScopes.descriptions.gmailReadonly	Lets Devin search and read your Gmail messages, drafts, labels and attachments.
+translation.mcpMarketplace.googleProductivityScopes.descriptions.gmailModify	Lets Devin create and send drafts, reply and forward, and archive, trash and label your Gmail messages.
+translation.mcpMarketplace.googleProductivityScopes.descriptions.calendarReadonly	Lets Devin list your calendars and read your events.
+translation.mcpMarketplace.googleProductivityScopes.descriptions.calendarEvents	Lets Devin create, update and delete events and RSVP to invitations.
+translation.mcpMarketplace.googleProductivityScopes.descriptions.contactsReadonly	Lets Devin search your Google Contacts.
+translation.mcpMarketplace.googleProductivityScopes.descriptions.contactsOtherReadonly	Lets Devin search the people you have emailed who are not saved as contacts.
+translation.mcpMarketplace.oauthScopeSelect.placeholder	Select scopes…
+translation.mcpMarketplace.oauthScopeSelect.searchPlaceholder	Search scopes…
+translation.mcpMarketplace.oauthScopeSelect.empty	No scopes found
+translation.mcpMarketplace.oauthScopeSelect.required	required
+translation.mcpMarketplace.testTools.label	Test tools
+translation.mcpMarketplace.testTools.description	View tools available with this MCP
+translation.mcpMarketplace.testTools.test	Test
+translation.mcpMarketplace.testTools.testing	Testing…
+translation.mcpMarketplace.authHeaders.customHeaderCollision	Use the header template above for \\
+translation.mcpMarketplace.writeOnlySecrets.add	Add secret
+translation.mcpMarketplace.writeOnlySecrets.empty	No secrets added
+translation.mcpMarketplace.writeOnlySecrets.nameLabel	Secret name
+translation.mcpMarketplace.writeOnlySecrets.valueLabel	Secret value
+translation.mcpMarketplace.writeOnlySecrets.namePlaceholder	SECRET_NAME
+translation.mcpMarketplace.writeOnlySecrets.valuePlaceholder	Value (write-only)
+translation.mcpMarketplace.writeOnlySecrets.linkedPlaceholder	Linked org secret. Enter a value to override.
+translation.mcpMarketplace.writeOnlySecrets.configuredPlaceholder	••••••••
+translation.mcpMarketplace.writeOnlySecrets.configuredHint	Saved. Enter a new value to replace.
+translation.mcpMarketplace.writeOnlySecrets.unlink	Unlink from this MCP (the org secret is not deleted)
+translation.mcpMarketplace.writeOnlySecrets.delete	Delete secret
+translation.mcpMarketplace.writeOnlySecrets.remove	Remove secret
+translation.mcpMarketplace.writeOnlySecrets.sectionTitle	Secrets
+translation.mcpMarketplace.writeOnlySecrets.declaredDescription	Write-only credentials for this server, stored encrypted and never shown after saving.
+translation.mcpMarketplace.writeOnlySecrets.configurableDescription	Write-only credentials for this server, stored encrypted and never shown after saving. Reference one in the server\'s config as ${KEY}.
+translation.mcpMarketplace.writeOnlySecrets.stdioDescription	Write-only credentials for this server, stored encrypted and never shown after saving. They are set as environment variables of the server process; the config can also reference one as ${KEY}.
+translation.mcpMarketplace.writeOnlySecrets.placeholderDescription	Save the server first, then add write-only credentials for it here. Reference one in the server\'s config as ${KEY}.
+translation.mcpMarketplace.setupUnavailable	Could not load {{name}} from the marketplace.
+translation.mcpMarketplace.addAnotherInstallation	Add another installation
+translation.mcpMarketplace.addAnotherInstallationOf	Add another installation of {{name}}
+translation.mcpMarketplace.installationSectionTitle	Installation
+translation.mcpMarketplace.installationSectionDescription	Devin uses the name and short description to tell MCP servers apart.
+translation.mcpMarketplace.multipleInstallationsTitle	Devin will see multiple installations of this server
+translation.mcpMarketplace.multipleInstallationsBody	Include details in the name and short description fields so Devin can tell it apart from these installations:
+translation.mcpMarketplace.enterpriseBadge	Enterprise
+translation.mcpMarketplace.marketplaceServerLabel	Marketplace server
+translation.mcpMarketplace.installationNameLabel	Installation name
+translation.mcpMarketplace.customHeaderNameLabel	Custom header {{index}} name
+translation.mcpMarketplace.customHeaderValueLabel	Custom header {{index}} value
+translation.mcpMarketplace.argumentLabel	Argument {{index}}
+translation.mcpMarketplace.environmentVariableNameLabel	Environment variable {{index}} name
+translation.mcpMarketplace.environmentVariableValueLabel	Environment variable {{index}} value
+translation.mcpMarketplace.importJsonParseError	Could not parse config. Paste a valid MCP JSON config (e.g. from {{ideName}}, Devin CLI, or a direct server config)
+translation.mcpMarketplace.installationNamePlaceholder	e.g., {{name}} (EU)
+translation.mcpMarketplace.nameRequired	Name required
+translation.mcpMarketplace.pluginUrlIncomplete	Fill in the typed part of the server URL before saving
+translation.mcpMarketplace.pluginUrlInvalidValue	Only letters, numbers, . _ and - can go in the typed part of the URL
+translation.mcpMarketplace.pluginUrlEditableHint	Only the boxed part is editable. The rest is set by the plugin.
+translation.mcpMarketplace.pluginUrlMoreValues	+{{count}} more
+translation.mcpMarketplace.pluginUrlShowLess	Show less
+translation.mcpMarketplace.nameTaken	An installation named “{{name}}” already exists for this server
+translation.mcpMarketplace.shortDescriptionLabel	Short description
+translation.mcpMarketplace.shortDescriptionPlaceholder	e.g., {{name}} for the EU production account
+translation.mcpMarketplace.pluginLinkedTitle	Managed by a plugin
+translation.mcpMarketplace.pluginLinkedBody	A plugin uses this MCP server and owns its connection settings, which cannot be edited here; the remaining settings are yours to change, and you can still disable it or remove the installation.
+translation.mcpMarketplace.pluginLinkedBodyNamed_one	The {{plugins}} plugin uses this MCP server and owns its connection settings, which cannot be edited here; the remaining settings are yours to change, and you can still disable it or remove the installation.
+translation.mcpMarketplace.pluginLinkedBodyNamed_other	The {{plugins}} plugins use this MCP server and own its connection settings, which cannot be edited here; the remaining settings are yours to change, and you can still disable it or remove the installation.
+translation.mcpMarketplace.oauthSetupRequiredTitle	OAuth setup required
+translation.mcpMarketplace.oauthSetupRequiredBody	This provider cannot create an OAuth client automatically. For API-key authentication, select Authorization header. Use “Bearer ${MCP_API_KEY}” as the value. Then add a write-only secret named “MCP_API_KEY” in the Secrets section. Alternatively, add a pre-registered OAuth client ID under Advanced.
+translation.mcpMarketplace.oauthCapabilityCheckingTitle	Checking OAuth setup
+translation.mcpMarketplace.oauthCapabilityCheckingBody	Devin is checking whether this provider can start OAuth safely.
+translation.mcpMarketplace.oauthCapabilityCheckFailedTitle	OAuth setup check failed
+translation.mcpMarketplace.oauthCapabilityCheckFailedBody	Devin could not check this provider. Retry before connecting.
+translation.mcpMarketplace.oauthCapabilityUnknownTitle	OAuth setup could not be verified
+translation.mcpMarketplace.oauthCapabilityUnknownBody	Devin could not verify automatic OAuth setup. Check the provider documentation. If the provider uses an API key, select Authorization header. Use “Bearer ${MCP_API_KEY}” as the value. Then add a write-only secret named “MCP_API_KEY” in the Secrets section. Alternatively, add a pre-registered OAuth client ID under Advanced.
+translation.mcpMarketplace.memberConnectionsDisabledTitle	Only MCPs added by an admin can be connected
+translation.mcpMarketplace.memberConnectionsDisabledBody	An admin has turned off connecting remote MCPs you add yourself. Ask an admin to add this MCP for the organization.
+translation.mcpMarketplace.connectionIncompleteTitle	Connection incomplete
+translation.mcpMarketplace.connectionIncompleteBody	Sign in to {{name}} to finish connecting this MCP server.
+translation.mcpMarketplace.connect	Connect
+translation.mcpMarketplace.connecting	Connecting…
+translation.mcpMarketplace.retry	Retry
+translation.mcpMarketplace.editor.outOfDateTitle	Installation out of date
+translation.mcpMarketplace.editor.updating	Updating…
+translation.mcpMarketplace.editor.updateFromMarketplace	Update from marketplace
+translation.mcpMarketplace.editor.outOfDateBody	This installation is out of date. Update it to sync the latest connection settings from the marketplace. Your saved credentials are preserved.
+translation.mcpMarketplace.editor.authExpiredTitle	Authentication expired
+translation.mcpMarketplace.editor.reconnecting	Reconnecting…
+translation.mcpMarketplace.editor.reconnect	Reconnect
+translation.mcpMarketplace.editor.authExpiredBody	Please reconnect this integration to restore access.
+translation.mcpMarketplace.editor.connectFailedTitle	Couldn\'t connect
+translation.mcpMarketplace.editor.connecting	Connecting…
+translation.mcpMarketplace.editor.retry	Retry
+translation.mcpMarketplace.editor.connectFailedBody	We could not acquire a token with the configured client credentials. Check the client ID, secret, and scope, then retry.
+translation.mcpMarketplace.editor.delete	Delete
+translation.mcpMarketplace.editor.areYouSure	Are you sure?
+translation.mcpMarketplace.editor.deleteUserInstallationBody	This will permanently remove your {{name}} MCP installation and all its configuration. Other members are not affected.
+translation.mcpMarketplace.editor.deleteInstallationBody	This will permanently remove the {{name}} MCP installation and all its configuration.
+translation.mcpMarketplace.editor.deletePersonalTokenTitle	Delete personal token?
+translation.mcpMarketplace.editor.deleteAllPersonalTokensTitle	Delete all personal tokens?
+translation.mcpMarketplace.editor.deletePersonalTokenBody	This will permanently delete your personal OAuth token for {{name}}. You will need to re-authenticate before Devin can use it.
+translation.mcpMarketplace.editor.deleteAllPersonalTokensBody	This will permanently delete all personal OAuth tokens for {{name}}. All users will need to re-authenticate.
+translation.mcpMarketplace.editor.deleteYourPersonalToken	Delete your personal token
+translation.mcpMarketplace.editor.deleteYourPersonalTokenDescription	Manage or delete your own personal OAuth token from Connections in your personal settings.
+translation.mcpMarketplace.editor.goToConnections	Go to connections
+translation.mcpMarketplace.editor.deletePersonalToken	Delete personal token
+translation.mcpMarketplace.editor.deletePersonalTokens	Delete personal tokens
+translation.mcpMarketplace.editor.deletePersonalTokenDescription	Permanently delete your personal OAuth token for this installation. You will need to reconnect it.
+translation.mcpMarketplace.editor.deletePersonalTokensDescription	Permanently delete all personal OAuth tokens. All users will need to re-authenticate.
+translation.mcpMarketplace.editor.deleteServer	Delete MCP server
+translation.mcpMarketplace.editor.deleteServerUserDescription	Removes this MCP server from your own installations. Other members are not affected.
+translation.mcpMarketplace.editor.deleteServerDescription	Removes this MCP server from your organization
+translation.mermaid.dialogLabel	Mermaid diagram
+translation.mermaid.loadingDiagram	Loading diagram…
+translation.mermaid.renderError	Failed to render diagram: {{message}}
+translation.moreButton.addRepositories	Add repositories
+translation.moreButton.configuration	Configuration
+translation.moreButton.connectGithubOrg	Connect GitHub organization
+translation.moreButton.connecting	Connecting...
+translation.moreButton.countSelected	{{countLabel}} selected
+translation.moreButton.default	Default
+translation.moreButton.disabledInAskMode	Disabled in Ask mode
+translation.moreButton.enterprise	Enterprise
+translation.moreButton.environment	Environment
+translation.moreButton.environmentStartsHidden	This session starts hidden from your team
+translation.moreButton.standaloneEnvironments	Standalone environments
+translation.moreButton.environmentSlackChannelUnavailable	Sessions on a standalone environment are private. Remove the Slack channel or switch to the default environment to send.
+translation.moreButton.environmentOncallUnavailable	Sessions on a standalone environment are private. Turn off Oncall mode or switch to the default environment to send.
+translation.moreButton.orgDefaultEnvironment	{{org}} (default)
+translation.moreButton.setAsDefaultEnvironment	Set as your default environment
+translation.moreButton.defaultEnvironmentToggle	Default environment: {{name}}
+translation.moreButton.internalOnly	Internal only
+translation.moreButton.loading	Loading...
+translation.moreButton.loadingOrchestrators	Loading orchestrators...
+translation.moreButton.loadingProfiles	Loading profiles...
+translation.moreButton.manageMcpConnectors	Manage MCP connectors
+translation.moreButton.manageProfiles	Manage profiles
+translation.moreButton.noEnvironmentsFound	No environments found
+translation.moreButton.none	None
+translation.moreButton.restrictedProfile	Restricted profile
+translation.moreButton.notableRepositories	Notable repositories
+translation.moreButton.oncallMode	Oncall mode
+translation.moreButton.only	Only
+translation.moreButton.orchestratorSettings	Orchestrator settings
+translation.moreButton.organization	Organization
+translation.moreButton.searchEnvironments	Search environments
+translation.moreButton.securityProfile	Security profile
+translation.moreButton.selected	Selected
+translation.moreButton.budget	Budget
+translation.moreButton.noBudget	None
+translation.moreButton.parentBudget	Parent session's budget
+translation.moreButton.setAsDefaultBudget	Set as default budget
+translation.moreButton.removeDefaultBudget	Remove default budget
+translation.moreButton.defaultBudgetToggle	Default budget: {{name}}
+translation.moreButton.gpu	Dedicated GPU
+translation.moreButton.gpuT4	NVIDIA T4
+translation.moreButton.gpuT4Memory	16 GB
+translation.nav.settingsTabTitle	Settings
+translation.nav.askTabTitle	Ask
+translation.nav.sessionsTabTitle	Sessions
+translation.nav.apps	Apps
+translation.nav.appSettings	App settings
+translation.nav.ask	Ask
+translation.nav.back	Back
+translation.nav.backToApp	Back to app
+translation.nav.betaFeatures	Beta features
+translation.nav.customize	Customizations
+translation.nav.hideOtter	Hide otter
+translation.nav.hideTab	Hide tab
+translation.nav.more	More
+translation.nav.newSession	New session
+translation.nav.oncall	Oncall
+translation.nav.otterStaging	Otter (staging)
+translation.nav.organizations	Organizations
+translation.nav.review	Review
+translation.nav.reviewBillingTags	Billing tags
+translation.nav.search	Search
+translation.nav.security	Security
+translation.nav.sessionGroups	Billing Tags
+translation.nav.sessions	Sessions
+translation.nav.settings	Settings
+translation.nav.showTab	Show tab
+translation.nav.showTabKeyHint	Right arrow shows it as a tab
+translation.nav.wiki	Wiki
+translation.nav.compliance	Compliance
+translation.nav.migrations	Migrations
+translation.nav.skillsCoach	Skills Coach
+translation.pageTitles.configureMcp	Configure MCP
+translation.pageTitles.setupMcp	Setup MCP
+translation.pageTitles.oncallReport	{{name}} — Oncall
+translation.notificationPreferences.title	Notifications
+translation.notificationPreferences.description	Choose which notifications reach your inbox, and which of those are also pushed to your devices.
+translation.notificationPreferences.mobile	Mobile
+translation.notificationPreferences.desktop	Desktop
+translation.notificationPreferences.mobilePushFor	Push "{{name}}" to mobile
+translation.notificationPreferences.desktopPushFor	Push "{{name}}" to desktop
+translation.notificationPreferences.lockedOn	This notification is always on and can't be turned off.
+translation.notificationPreferences.someOn	Some on
+translation.notificationPreferences.showTypes	Show the notifications in "{{name}}"
+translation.notificationPreferences.hideTypes	Hide the notifications in "{{name}}"
+translation.notificationPreferences.noMobileDevice	Mobile push needs the Devin mobile app, signed in with notifications allowed.
+translation.notificationPreferences.systemNotificationsOff	Desktop push will not reach this device because system notifications are off here.
+translation.notificationPreferences.openSystemNotifications	Turn on in Preferences
+translation.notificationPreferences.loadError	Notification settings could not be loaded.
+translation.notificationPreferences.empty	There are no notifications to configure yet.
+translation.notificationInbox.loading	Loading notifications…
+translation.notificationInbox.retry	Retry
+translation.notificationInbox.loadMore	Load more
+translation.notificationInbox.errors.load	Notifications could not be loaded.
+translation.notificationInbox.errors.mutation	That change could not be saved. Try again.
+translation.notificationInbox.errors.unsupported	This action is not supported on this connection.
+translation.notificationInbox.title	Notifications
+translation.notificationInbox.filter	Filter
+translation.notificationInbox.tabs.all	All
+translation.notificationInbox.tabs.unread	Unread
+translation.notificationInbox.types.session	Sessions
+translation.notificationInbox.types.billing	Billing
+translation.notificationInbox.types.access	Access
+translation.notificationInbox.types.system	System
+translation.notificationInbox.types.automation	Automations
+translation.notificationInbox.collapse	Close
+translation.notificationInbox.internal	Internal
+translation.notificationInbox.showDummyData	Show dummy data
+translation.notificationInbox.fixtureApproved	Approved by you
+translation.notificationInbox.fixtureDenied	Denied by you
+translation.notificationInbox.unread	Unread
+translation.notificationInbox.more	More actions
+translation.notificationInbox.pinSidebar	Pin
+translation.notificationInbox.unpinSidebar	Unpin
+translation.notificationInbox.markRead	Mark read
+translation.notificationInbox.markUnread	Mark unread
+translation.notificationInbox.turnOffType	Turn off {{type}} notifications
+translation.notificationInbox.turnedOffType	Turned off {{type}} notifications
+translation.notificationInbox.actions	Actions
+translation.notificationInbox.showDetails	Show details
+translation.notificationInbox.hideDetails	Hide details
+translation.notificationInbox.empty.title	You're all caught up
+translation.notificationInbox.empty.description	New notifications will show up here.
+translation.notificationInbox.filteredEmpty.title	No matching notifications
+translation.notificationInbox.filteredEmpty.description	Select a notification type to see it here.
+translation.notificationInbox.unreadEmpty.title	No unread notifications
+translation.notificationInbox.unreadEmpty.description	You're all caught up.
+translation.notificationInbox.feed.label	Recent notifications
+translation.notificationInbox.announcements.label	Announcements
+translation.notificationInbox.announcements.navigation	Browse announcements
+translation.notificationInbox.announcements.position	{{index}} of {{total}}
+translation.notificationInbox.announcements.previous	Previous announcement
+translation.notificationInbox.announcements.next	Next announcement
+translation.notificationInbox.announcements.hide	Hide announcement
+translation.notificationInbox.markAllAsRead	Mark all as read
+translation.notificationInbox.markAllAsUnread	Mark all as unread
+translation.notificationInbox.notificationSettings	Notification settings
+translation.notificationInbox.resetNotifications	Restore all notifications
+translation.notificationInbox.server.liveActivity.title	Devin session
+translation.notificationInbox.server.liveActivity.followingSession	Following session
+translation.notificationInbox.server.liveActivity.activity.thinking	Thinking
+translation.notificationInbox.server.liveActivity.activity.planning	Planning
+translation.notificationInbox.server.liveActivity.activity.working	Working
+translation.notificationInbox.server.liveActivity.activity.runningCommand	Running command
+translation.notificationInbox.server.liveActivity.activity.usingBrowser	Using browser
+translation.notificationInbox.server.liveActivity.activity.usingComputer	Using computer
+translation.notificationInbox.server.liveActivity.activity.waitingForCi	Waiting for CI
+translation.notificationInbox.server.liveActivity.activity.waitingOnChild	Waiting on child
+translation.notificationInbox.server.liveActivity.activity.coding	Coding
+translation.notificationInbox.server.liveActivity.activity.testing	Testing
+translation.notificationInbox.server.liveActivity.activity.needsInput	Waiting for you
+translation.notificationInbox.server.liveActivity.activity.completed	Completed
+translation.notificationInbox.server.liveActivity.activity.cancelled	Stopped
+translation.notificationInbox.server.liveActivity.activity.failed	Failed
+translation.notificationInbox.server.accessRequest.title	Access request
+translation.notificationInbox.server.accessRequest.body	{{name}} requested access to {{account}}
+translation.notificationInbox.server.accessRequest.review	Review
+translation.notificationInbox.server.accessRequest.outcome.approved	Approved
+translation.notificationInbox.server.accessRequest.outcome.denied	Denied
+translation.notificationInbox.server.accessRequest.settings.name	Access requests to approve
+translation.notificationInbox.server.accessRequest.settings.description	Someone asked for access and you can approve it.
+translation.notificationInbox.server.accessRequestResolved.title.approved	Access approved
+translation.notificationInbox.server.accessRequestResolved.title.denied	Access denied
+translation.notificationInbox.server.accessRequestResolved.body.approved	Your access request to {{account}} was approved
+translation.notificationInbox.server.accessRequestResolved.body.denied	Your access request to {{account}} was denied
+translation.notificationInbox.server.accessRequestResolved.startSession	Start a session
+translation.notificationInbox.server.accessRequestResolved.settings.name	Your access request was answered
+translation.notificationInbox.server.accessRequestResolved.settings.description	Your request for access was approved or denied.
+translation.notificationInbox.server.automationRunFailed.title	Automation failed
+translation.notificationInbox.server.automationRunFailed.bodyOne	{{name}} failed.
+translation.notificationInbox.server.automationRunFailed.body	{{name}} failed {{count}} times in a row.
+translation.notificationInbox.server.automationRunFailed.open	View automations
+translation.notificationInbox.server.automationRunFailed.outcome.recovered	Recovered
+translation.notificationInbox.server.automationRunFailed.settings.name	Automation failed
+translation.notificationInbox.server.automationRunFailed.settings.description	An automation run failed.
+translation.notificationInbox.server.budgetThreshold.title	{{percent}}% of usage budget consumed
+translation.notificationInbox.server.budgetThreshold.body	Account total: {{consumed}} of {{limit}} ACUs consumed this period
+translation.notificationInbox.server.budgetThreshold.bodyForBudget	{{name}}: {{consumed}} of {{limit}} ACUs consumed this period
+translation.notificationInbox.server.budgetThreshold.bodyDollars	Account total: {{consumed}} of {{limit}} consumed this period
+translation.notificationInbox.server.budgetThreshold.bodyForBudgetDollars	{{name}}: {{consumed}} of {{limit}} consumed this period
+translation.notificationInbox.server.budgetThreshold.viewUsage	View usage
+translation.notificationInbox.server.budgetThreshold.outcome.superseded	Higher threshold reached
+translation.notificationInbox.server.budgetThreshold.outcome.period_ended	Period ended
+translation.notificationInbox.server.budgetThreshold.settings.name	Budget threshold reached
+translation.notificationInbox.server.budgetThreshold.settings.description	Usage crossed a threshold of a usage budget.
+translation.notificationInbox.server.integrationDisconnected.title	{{integration}} disconnected
+translation.notificationInbox.server.integrationDisconnected.body	Devin can't reach {{integration}}. Sessions that need it will fail until it's reconnected.
+translation.notificationInbox.server.integrationDisconnected.bodyNamed	Devin can't reach {{integration}} ({{name}}). Sessions that need it will fail until it's reconnected.
+translation.notificationInbox.server.integrationDisconnected.reconnect	Reconnect
+translation.notificationInbox.server.integrationDisconnected.outcome.reconnected	Reconnected
+translation.notificationInbox.server.integrationDisconnected.outcome.removed	Removed
+translation.notificationInbox.server.integrationDisconnected.settings.name	Integration disconnected
+translation.notificationInbox.server.integrationDisconnected.settings.description	Devin lost its connection to an integration such as GitHub.
+translation.notificationInbox.server.teamsConnectionNeedsAttention.title	Microsoft Teams connection needs your attention
+translation.notificationInbox.server.teamsConnectionNeedsAttention.body.automation_channel_lost	A Microsoft Teams automation stopped receiving messages from its channel. Devin AI may have been removed from the team, the channel may have been deleted, or a Teams admin may have revoked Devin's channel permissions. Add Devin AI back to the team, or update the automation.
+translation.notificationInbox.server.teamsConnectionNeedsAttention.body.bot_blocked	Devin can't reply or post in Microsoft Teams because a Teams admin blocked the Devin AI app. Ask a Teams admin to allow the Devin AI app in the Teams admin center (Teams apps > Manage apps).
+translation.notificationInbox.server.teamsConnectionNeedsAttention.action	Open settings
+translation.notificationInbox.server.teamsConnectionNeedsAttention.outcome.resolved	Resolved
+translation.notificationInbox.server.teamsConnectionNeedsAttention.settings.name	Microsoft Teams needs your attention
+translation.notificationInbox.server.teamsConnectionNeedsAttention.settings.description	Something is blocking Devin in Microsoft Teams.
+translation.notificationInbox.server.noAccess.title	You no longer have access
+translation.notificationInbox.server.noAccess.body	This notification is about something you can no longer view.
+translation.notificationInbox.server.mentionedInSession.title	{{name}} wants your attention on this session
+translation.notificationInbox.server.mentionedInSession.messageMissing	You were mentioned in a message.
+translation.notificationInbox.server.mentionedInSession.unknownPerson	someone
+translation.notificationInbox.server.mentionedInSession.settings.name	Mentioned in a session
+translation.notificationInbox.server.mentionedInSession.settings.description	Someone mentioned you in a session you can open.
+translation.notificationInbox.server.patRequestResolved.title.approved	Your token request was approved
+translation.notificationInbox.server.patRequestResolved.title.denied	Your token request was denied
+translation.notificationInbox.server.patRequestResolved.body.approved	Your request for the personal access token \\
+translation.notificationInbox.server.patRequestResolved.activateToken	Activate token
+translation.notificationInbox.server.patRequestResolved.outcome.activated	Token activated
+translation.notificationInbox.server.patRequestResolved.outcome.cancelled	Request cancelled
+translation.notificationInbox.server.patRequestResolved.outcome.expired	Request expired
+translation.notificationInbox.server.patRequestResolved.settings.name	Your access token request was answered
+translation.notificationInbox.server.patRequestResolved.settings.description	Your request for an access token was approved or denied.
+translation.notificationInbox.server.sessionFinished.body	Finished working
+translation.notificationInbox.server.sessionFinished.bodyWithPullRequest	PR is ready to review.
+translation.notificationInbox.server.sessionFinished.untitledSession	Your session
+translation.notificationInbox.server.sessionFinished.openSession	Open session
+translation.notificationInbox.server.sessionFinished.viewPullRequest	View PR
+translation.notificationInbox.server.sessionFinished.outcome.pr_merged	PR merged
+translation.notificationInbox.server.sessionFinished.settings.name	Session finished
+translation.notificationInbox.server.sessionFinished.settings.description	A session you started finished working.
+translation.notificationInbox.server.sessionNeedsAttention.untitledSession	Your session
+translation.notificationInbox.server.sessionNeedsAttention.openSession	Open session
+translation.notificationInbox.server.sessionNeedsAttention.waitingForInput	Devin is waiting for your input
+translation.notificationInbox.server.sessionNeedsAttention.waitingForResponse	Waiting for response
+translation.notificationInbox.server.sessionNeedsAttention.approvalRequired	Approval required
+translation.notificationInbox.server.sessionNeedsAttention.approveWorkflow	Approve workflow
+translation.notificationInbox.server.sessionNeedsAttention.networkAccessRequested	Network access requested
+translation.notificationInbox.server.sessionNeedsAttention.outcome.resolved	Answered
+translation.notificationInbox.server.sessionNeedsAttention.settings.name	Session needs your attention
+translation.notificationInbox.server.sessionNeedsAttention.settings.description	Devin is waiting for your input or approval.
+translation.notificationInbox.server.sessionSharedWithYou.title	Session shared with you
+translation.notificationInbox.server.sessionSharedWithYou.body	{{name}} shared a session with you
+translation.notificationInbox.server.sessionSharedWithYou.settings.name	Session shared with you
+translation.notificationInbox.server.sessionSharedWithYou.settings.description	Someone shared a session with you.
+translation.notificationInbox.server.sessionsRestartable.title	Stopped sessions can restart
+translation.notificationInbox.server.sessionsRestartable.body	{{count}} of your sessions were stopped by a usage limit that has since been raised.
+translation.notificationInbox.server.sessionsRestartable.bodyOne	One of your sessions was stopped by a usage limit that has since been raised.
+translation.notificationInbox.server.sessionsRestartable.bodyResumed	The sessions stopped by your usage limit have been resumed.
+translation.notificationInbox.server.sessionsRestartable.bodyUnavailable	The sessions stopped by your usage limit can no longer be resumed.
+translation.notificationInbox.server.sessionsRestartable.reviewAndResume	Review & resume
+translation.notificationInbox.server.sessionsRestartable.outcome.resumed	Resumed
+translation.notificationInbox.server.sessionsRestartable.settings.name	Stopped sessions can restart
+translation.notificationInbox.server.sessionsRestartable.settings.description	Sessions stopped by a usage limit can be resumed.
+translation.notificationInbox.server.settingsGroups.sessions.name	My sessions
+translation.notificationInbox.server.settingsGroups.sessions.description	Sessions that need you, finish, or can be restarted.
+translation.notificationInbox.server.settingsGroups.reviews.name	PRs & reviews
+translation.notificationInbox.server.settingsGroups.reviews.description	Review requests, activity on your PRs and Devin Review results.
+translation.notificationInbox.server.settingsGroups.billing.name	Usage & billing
+translation.notificationInbox.server.settingsGroups.billing.description	Usage limits, budgets and contract dates.
+translation.notificationInbox.server.settingsGroups.requests.name	Requests & approvals
+translation.notificationInbox.server.settingsGroups.requests.description	Requests waiting on you, and answers to your own requests.
+translation.notificationInbox.server.settingsGroups.automations.name	Automations & integrations
+translation.notificationInbox.server.settingsGroups.automations.description	Failed runs, disconnected integrations and disabled webhooks.
+translation.notificationInbox.server.settingsGroups.security.name	Security
+translation.notificationInbox.server.settingsGroups.security.description	Changes to your organization's security settings.
+translation.notificationInbox.server.usageLimitReached.title	Exceeded your usage limit
+translation.notificationInbox.server.usageLimitReached.body	{{count}} sessions stopped because you reached your usage limit.
+translation.notificationInbox.server.usageLimitReached.bodyOne	1 session stopped because you reached your usage limit.
+translation.notificationInbox.server.usageLimitReached.requestMore	Request more
+translation.notificationInbox.server.usageLimitReached.requestPending	Request pending
+translation.notificationInbox.server.usageLimitReached.outcome.limit_raised	Limit raised
+translation.notificationInbox.server.usageLimitReached.settings.name	Usage limit reached
+translation.notificationInbox.server.usageLimitReached.settings.description	Your sessions stopped because you reached your usage limit.
+translation.notificationInbox.server.usageRequestResolved.title.approved	Your usage request was approved
+translation.notificationInbox.server.usageRequestResolved.title.denied	Your usage request was denied
+translation.notificationInbox.server.usageRequestResolved.title.expired	Your usage request expired
+translation.notificationInbox.server.usageRequestResolved.body.approved	Your request for {{amount}} ACUs was approved
+translation.notificationInbox.server.usageRequestResolved.body.approvedReviewed	{{reviewer}} approved your request for {{amount}} ACUs
+translation.notificationInbox.server.usageRequestResolved.body.denied	Your request for {{amount}} ACUs was denied
+translation.notificationInbox.server.usageRequestResolved.body.deniedReviewed	{{reviewer}} denied your request for {{amount}} ACUs
+translation.notificationInbox.server.usageRequestResolved.body.expired	Your request for {{amount}} ACUs expired with the billing cycle it was made in
+translation.notificationInbox.server.usageRequestResolved.body.approvedDollars	Your request for \${{amount}} was approved
+translation.notificationInbox.server.usageRequestResolved.body.approvedReviewedDollars	{{reviewer}} approved your request for \${{amount}}
+translation.notificationInbox.server.usageRequestResolved.body.deniedDollars	Your request for \${{amount}} was denied
+translation.notificationInbox.server.usageRequestResolved.body.deniedReviewedDollars	{{reviewer}} denied your request for \${{amount}}
+translation.notificationInbox.server.usageRequestResolved.body.expiredDollars	Your request for \${{amount}} expired with the billing cycle it was made in
+translation.notificationInbox.server.usageRequestResolved.restartSessions	Restart sessions
+translation.notificationInbox.server.usageRequestResolved.settings.name	Your usage request was answered
+translation.notificationInbox.server.usageRequestResolved.settings.description	Your request for a higher usage limit was approved or denied.
+translation.notificationInbox.server.usageRequestSubmitted.title	 needs a usage limit increase
+translation.notificationInbox.server.usageRequestSubmitted.body	{{name}} requested a usage limit increase
+translation.notificationInbox.server.usageRequestSubmitted.bodyLimit	{{name}} requested a usage limit of {{limit}} ACUs
+translation.notificationInbox.server.usageRequestSubmitted.bodyLimitDollars	{{name}} requested a usage limit of \${{limit}}
+translation.notificationInbox.server.usageRequestSubmitted.bodyBlockedLimit	{{name}} has reached their usage limit and is blocked from starting new work; they requested a limit of {{limit}} ACUs
+translation.notificationInbox.server.usageRequestSubmitted.bodyBlockedLimitDollars	{{name}} has reached their usage limit and is blocked from starting new work; they requested a limit of \${{limit}}

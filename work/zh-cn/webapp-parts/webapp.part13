@@ -1,0 +1,500 @@
+translation.telegramConnect.doneDescription	Head back to Telegram — each connected {{botName}} now has its own topic.
+translation.telegramConnect.alreadyConnected	Already connected
+translation.telegramConnect.allConnected	All your {{botNamePlural}} are already connected to this chat.
+translation.telegramConnect.resultConnected	Connected
+translation.telegramConnect.telegramAccount	Telegram account
+translation.telegramConnect.devinAccount	Devin account
+translation.bots.planUpgradeTitle	{{botNamePlural}} require Max or Teams
+translation.bots.freePlanUpgradeTitle	Upgrade to use {{botName}}
+translation.bots.planUpgradeMessagingBenefit	Work together in Slack and iMessage
+translation.bots.shareSuggestedLabel	Suggested
+translation.bots.createdBy	{{botName}} created by {{creator}}
+translation.bots.promotedFromTitle	Created from a session
+translation.bots.heldGrantNotice	{{name}} has access to other resources. Sharing allows others to use these. <accessLink>Review access</accessLink>
+translation.bots.sharedGrantNotice	Shared with others: everyone who can use {{name}} gets this access. <accessLink>Review access</accessLink>
+translation.bots.promotedFromBody	This {{botName}} was created from a session that is now archived.
+translation.bots.promotedFromAction	Open session
+translation.bots.closedPullRequests	Merged and closed pull requests
+translation.bots.artifactTools	Tools
+translation.bots.searchWorkspace	Search workspace
+translation.bots.searchResults_one	{{count}} {{botName}} found
+translation.bots.searchResults_other	{{count}} {{botNamePlural}} found
+translation.bots.listTitle	Devin {{botNamePlural}}
+translation.bots.exclusiveAccess	Access to Devin {{botNamePlural}}
+translation.bots.listSubtitle	Pick a {{botName}} to message, or create a new one.
+translation.bots.searchPlaceholder	Search
+translation.bots.fromYou	From you
+translation.bots.fromTeammates	From teammates
+translation.bots.noMatches	No {{botNamePlural}} match your search
+translation.bots.noBotsYet	You haven't added a {{botName}} yet
+translation.bots.noneShared	No one has shared a {{botName}} with you yet
+translation.bots.unknownOwner	Unknown
+translation.bots.addToSidebarNamed	Add {{name}} to sidebar
+translation.bots.removeFromSidebarNamed	Remove {{name}} from sidebar
+translation.bots.moreActionsNamed	More actions: {{name}}
+translation.bots.title	{{botNamePlural}}
+translation.bots.defaultBotName	Devin
+translation.bots.workspace	Workspace
+translation.bots.showWorkspace	Show workspace
+translation.bots.hideWorkspace	Hide workspace
+translation.bots.showBrowser	Show browser
+translation.bots.hideBrowser	Hide browser
+translation.bots.closeArtifactPane	Close panel
+translation.bots.changeAvatarButton	Change avatar
+translation.bots.avatarUpdateFailed	Couldn't update avatar
+translation.bots.avatarPickerLedCogs	Cogs
+translation.bots.avatarGlCog	Shape {{number}}
+translation.bots.avatarLedFace.android-solid	Android
+translation.bots.avatarLedFace.apple-solid	Apple
+translation.bots.avatarLedFace.circle-info-solid	Information
+translation.bots.avatarLedFace.circle-question-solid	Question
+translation.bots.avatarLedFace.compass-solid	Compass
+translation.bots.avatarLedFace.cross-solid	Cross
+translation.bots.avatarLedFace.deno-solid	Deno
+translation.bots.avatarLedFace.discord-solid	Discord
+translation.bots.avatarLedFace.docker-solid	Docker
+translation.bots.avatarLedFace.drag-and-drop-solid	Drag and drop
+translation.bots.avatarLedFace.eraser-solid	Eraser
+translation.bots.avatarLedFace.facebook-solid	Facebook
+translation.bots.avatarLedFace.gear-solid	Gear
+translation.bots.avatarLedFace.github-solid	GitHub
+translation.bots.avatarLedFace.gitlab-solid	GitLab
+translation.bots.avatarLedFace.gmail-solid	Gmail
+translation.bots.avatarLedFace.google-chrome-solid	Google Chrome
+translation.bots.avatarLedFace.hourglass-solid	Hourglass
+translation.bots.avatarLedFace.infinity-solid	Infinity
+translation.bots.avatarLedFace.instagram-solid	Instagram
+translation.bots.avatarLedFace.key-solid	Key
+translation.bots.avatarLedFace.keyboard-solid	Keyboard
+translation.bots.avatarLedFace.label-solid	Label
+translation.bots.avatarLedFace.laptop-solid	Laptop
+translation.bots.avatarLedFace.layout-solid	Layout
+translation.bots.avatarLedFace.linkedin-2-solid	LinkedIn
+translation.bots.avatarLedFace.linux-solid	Linux
+translation.bots.avatarLedFace.map-solid	Map
+translation.bots.avatarLedFace.mastodon-solid	Mastodon
+translation.bots.avatarLedFace.message-reply-solid	Reply
+translation.bots.avatarLedFace.mug-solid	Mug
+translation.bots.avatarLedFace.netlify-solid	Netlify
+translation.bots.avatarLedFace.pause-solid	Pause
+translation.bots.avatarLedFace.plug-solid	Plug
+translation.bots.avatarLedFace.pnpm-solid	pnpm
+translation.bots.avatarLedFace.qr-code-solid	QR code
+translation.bots.avatarLedFace.react-solid	React
+translation.bots.avatarLedFace.refresh-solid	Refresh
+translation.bots.avatarLedFace.slack-solid	Slack
+translation.bots.avatarLedFace.snowflake-solid	Snowflake
+translation.bots.avatarLedFace.stop-solid	Stop
+translation.bots.avatarLedFace.sun-solid	Sun
+translation.bots.avatarLedFace.telegram-solid	Telegram
+translation.bots.avatarLedFace.tools-solid	Tools
+translation.bots.avatarLedFace.twitter-bird-solid	Twitter
+translation.bots.avatarLedFace.usb-solid	USB
+translation.bots.avatarLedFace.vercel-solid	Vercel
+translation.bots.avatarLedFace.volume-x-solid	Muted volume
+translation.bots.avatarLedFace.wand-solid	Wand
+translation.bots.avatarLedFace.watch-solid	Watch
+translation.bots.avatarLedFace.whatsapp-solid	WhatsApp
+translation.bots.avatarLedFace.x-solid	X
+translation.bots.avatarLedFace.youtube-solid	YouTube
+translation.bots.avatarLedFace.hex-1	Single hexagon
+translation.bots.avatarLedFace.hex-2	Two hexagons
+translation.bots.avatarLedFace.dots-3	Three dots
+translation.bots.avatarLedFace.dots-4	Four dots
+translation.bots.avatarLedFace.strip	Strip
+translation.bots.avatarLedFace.visor	Visor
+translation.bots.avatarLedFace.bug	Bug
+translation.bots.avatarLedFace.search	Search
+translation.bots.avatarLedFace.phone	Phone
+translation.bots.avatarLedFace.robot	Robot
+translation.bots.avatarLedFace.lock	Lock
+translation.bots.avatarLedFace.bell	Bell
+translation.bots.avatarLedFace.inbox	Inbox
+translation.bots.avatarLedFace.book-open	Open book
+translation.bots.avatarLedFace.briefcase	Briefcase
+translation.bots.avatarLedFace.pen	Pen
+translation.bots.avatarPickerSemanticIcons	Icons
+translation.bots.avatarPickerFrames	Frame
+translation.bots.avatarCasing.square	Square
+translation.bots.avatarCasing.cross	Cross
+translation.bots.avatarCasing.plate	Plate
+translation.bots.avatarCasing.disc	Disc
+translation.bots.avatarCasing.tab	Tab
+translation.bots.avatarCasing.bracket	Bracket
+translation.bots.avatarCasing.dome	Dome
+translation.bots.avatarPickerShuffle	Shuffle
+translation.bots.avatarPickerColors	Colors
+translation.bots.avatarPickerCasingColors	Casing colors
+translation.bots.avatarPickerChooseImage	Choose image
+translation.bots.avatarPickerUpload	Upload
+translation.bots.avatarPickerDropImage	Drop an image here
+translation.bots.avatarPickerImageHint	PNG, JPG, GIF or WebP, up to {{maxSizeMb}} MB
+translation.bots.avatarColorRose	Rose
+translation.bots.avatarColorMagenta	Magenta
+translation.bots.avatarColorIndigo	Indigo
+translation.bots.avatarColorAzure	Azure
+translation.bots.avatarColorEmerald	Emerald
+translation.bots.avatarColorTan	Tan
+translation.bots.avatarColorAmber	Amber
+translation.bots.avatarColorTangerine	Tangerine
+translation.bots.avatarColorVermilion	Vermilion
+translation.bots.avatarColorCharcoal	Charcoal
+translation.bots.avatarColorRed	Red
+translation.bots.avatarColorPink	Pink
+translation.bots.avatarColorLavender	Lavender
+translation.bots.avatarColorCyan	Cyan
+translation.bots.avatarColorGreen	Green
+translation.bots.avatarColorForest	Forest
+translation.bots.avatarColorOlive	Olive
+translation.bots.avatarColorGold	Gold
+translation.bots.avatarColorOrange	Orange
+translation.bots.avatarColorYellow	Yellow
+translation.bots.avatarColorIron	Iron
+translation.bots.avatarColorTeal	Teal
+translation.bots.avatarColorBlue	Blue
+translation.bots.avatarColorBrown	Brown
+translation.bots.avatarColorGrey	Grey
+translation.bots.avatarColorMaroon	Maroon
+translation.bots.avatarColorViolet	Violet
+translation.bots.avatarColorSilver	Silver
+translation.bots.avatarColorGraphite	Graphite
+translation.bots.avatarBackgroundTransparent	Transparent
+translation.bots.createTitle	Create {{botName}}
+translation.bots.templateBannerTitle	Start from a {{botName}} someone already built
+translation.bots.templateCollectionDevin	{{botName}} templates
+translation.bots.templateGridSubtitle	Start from one, then make it yours
+translation.bots.templateFeatured	Featured templates
+translation.bots.templateFind	Find your {{botName}}
+translation.bots.templateClearSearch	Clear search
+translation.bots.templateFilterByCategory	Filter templates by category
+translation.bots.templateFilter	Filter
+translation.bots.templateCategoryAll	All
+translation.bots.templateCategoryEngineering	Engineering
+translation.bots.templateCategoryQuality	Quality
+translation.bots.templateCategoryMonitoring	Monitoring
+translation.bots.templateCategoryData	Data
+translation.bots.templateCategoryKnowledge	Knowledge
+translation.bots.templateCategoryTeam	Team
+translation.bots.templateCategoryGeneral	General
+translation.bots.templateCatalogLoadError	Couldn't load templates.
+translation.bots.templateCatalogEmpty	No templates to show.
+translation.bots.templateSearchPlaceholder	Search templates
+translation.bots.templateSearchNoMatch	No templates match “{{query}}”.
+translation.bots.templateShowMore	Show more templates
+translation.bots.templateMoreTitle	More templates
+translation.bots.templateViewAll	View all templates
+translation.bots.templateLibrary	Template library
+translation.bots.templatePromptTitle	Prompt
+translation.bots.templatePromptDescription	What a {{botName}} made from this template starts with. Each {{botName}} keeps its own copy, so one made earlier can differ.
+translation.bots.templatePromptShowMore	Show more
+translation.bots.templatePromptShowLess	Show less
+translation.bots.templateExampleMessage	Example message
+translation.bots.templateExampleSoftwareFactory	PR #5127 is ready for you: SWF(bug): fix crash when resuming a deleted session. A new test fails without the fix and passes with it, and the recording shows the resume working. That fills 7 of your 10 review slots.
+translation.bots.templateExampleGitGossip	This week's awards: night owl goes to Priya for a 3:12 am fix to the retry logic. Hot potato is checkout.ts, changed by 9 people. Fossil is a 2017 date helper that still runs on every invoice.
+translation.bots.templateExampleAutoResearcher	Last night: 42 experiments, 5 kept, 36 discarded, 1 crashed. Validation loss dropped from 1.83 to 1.71, mostly from a cosine learning rate and a larger batch size. The kept changes are on the autoresearch branch.
+translation.bots.templateExampleAnomalyWatcher	Trial signups from Germany fell 38% since Tuesday while every other country held steady. No monitor covers this. It started with PR #4821, which changed the VAT field on the signup form, so Maya is the likely owner.
+translation.bots.templateExampleCodeReaper	This week I opened 3 pull requests that remove 1,240 lines nothing uses, including the old billing export. Tests pass and no callers remain. I left legacy_webhooks.py alone because a cron job calls it by name.
+translation.bots.templateExampleWorkflowImporter	I've taken over 3 open tasks, 4 skills, 3 connections and 2 workflows from your handoff file. The workflows are switched off so nothing runs twice. Left for you: sign in to 2 apps. One item had no match here, listed below.
+translation.bots.templateExampleChiefOfStaff	Launch update: the pricing page is done, and the docs have been waiting on Sam's review since Monday. I handed the failing Safari test to your QA engineer and will check on it at 3 pm. Nothing else is blocking Thursday's release.
+translation.bots.templateExampleMigrationEngineer	Moving to the new payments API: 31 of 48 pull requests merged, none rolled back. The refunds batch is blocked because its webhook tests need a sandbox key. Add the key and the last 17 can ship by Friday.
+translation.bots.templateExampleSpikeSniffer	Checkout errors jumped from the usual 0.2% to 3.1% at 2:05 pm, right after PR #4907 deployed. The logs show a null currency on saved carts. PR #4912 has the fix.
+translation.bots.templateExampleLatencyOptimizer	GET /orders caused the most waiting this week, at 1,840 ms p95. Most of that was an N+1 query on line items. PR #4933 batches it and brings p95 down to 310 ms in the same benchmark.
+translation.bots.templateExampleProductEngineer	Built saved filters from LIN-482 and fixed the empty-cart crash on checkout. PR #4961 has both, with tests, and is ready for review.
+translation.bots.templateExampleQaEngineer	Tested PR #4950 in Chrome. Signup and password reset passed, but checkout failed: the Pay button stays disabled after adding a coupon. The video and a screenshot of the failure are on the pull request.
+translation.bots.templateExampleIosEngineer	The saved searches ticket is done. PR #812 has the SwiftUI screen and 6 passing UI tests, and build 214 is on TestFlight. It needs your approval before it goes to external testers.
+translation.bots.templateExampleAndroidEngineer	The push notifications ticket is done. PR #733 has the Kotlin changes and 9 passing tests, and build 412 is on internal testing. Someone needs to approve the new notification permission before it goes wider.
+translation.bots.templateExampleTriageEngineer	Reproduced: CSV exports come back empty when the date filter spans two months. I filed ENG-2481 with the steps and the suspected cause in export_query.py. I couldn't reproduce Dana's login bug, so I asked her for a timestamp.
+translation.bots.templateExampleSecurityEngineer	This week I fixed 2 real vulnerabilities, including a SQL injection in /search (PR #5012), and ruled out 4 that can't be reached. One needs your decision: an API key is in an old commit. Should I rotate it?
+translation.bots.templateExampleInternalToolsEngineer	Your refund tool is live. Support can look up an order and refund up to $200, and larger refunds go to a manager. The video shows it working, and I'll keep it running. Tell me what to change.
+translation.bots.templateExampleDataAnalyst	Annual plans made up 41% of new revenue in October, up from 33% in September. The chart and query are attached. One caveat: 12 enterprise deals paid by invoice haven't synced yet, so the real number may be higher.
+translation.bots.templateExampleDevinCoach	Devin got stuck 14 times this week, and 9 of them had the same cause: it couldn't start the local database. Adding make db-up to its setup should stop these. I drafted the change for you to approve.
+translation.bots.templateExampleCodeQualityEngineer	This month I opened 5 small pull requests: one patches a high-severity CVE in axios, two remove flags that reached 100% of users, and two replace deprecated APIs. Each shows the passing tests and why it's safe to merge.
+translation.bots.templateExampleOnCallEngineer	The 2:32 pm API alert most likely comes from PR #5044, deployed 12 minutes earlier, which cut the database pool from 50 connections to 5. The logs show 1,200 connection timeouts since then. PR #5046 reverts it and is ready for you.
+translation.bots.templateExampleCodeReviewer	PR #5060 has one bug to fix before merging: at line 88 of payments/refund.py, a partial refund uses the full order total, so customers would get back too much. I left a comment with the fix on that line.
+translation.bots.templateExampleCodebaseExpert	Password resets live in auth/reset.py, lines 40 to 92. The token is signed, lasts 30 minutes and works once, which line 67 enforces. I read the code but didn't check the production config, which could change the expiry.
+translation.bots.templateExampleTechnicalWriter	PR #5071 changed how retries work, so I updated the webhooks page and its sequence diagram in the wiki. Failed webhooks now retry 5 times over 24 hours instead of 3 times over an hour.
+translation.bots.templateExampleComplianceEngineer	SOC 2 control CC8.1 no longer holds: branch protection was turned off on the payments repo, and 2 pull requests reached main without review. Evidence for the other 31 controls is current.
+translation.bots.templateExamplePoke	ci's green again. it was your migration, the one you said was \\
+translation.citiDisclaimer.acknowledgeButton	Acknowledge attestation
+translation.citiDisclaimer.acknowledgeStatement	By proceeding, I acknowledge that I have read, understood, and will comply with the rules above.
+translation.citiDisclaimer.aiWarning	⚠️ This is a Generative AI based tool — it can make mistakes. Confirm accuracy of output before any uses.
+translation.citiDisclaimer.bulkPii	Bulk PII — more than 5,000 individual user records, as defined <definitionLink>here</definitionLink>.
+translation.citiDisclaimer.complianceApprovedPurposes	This System is authorized for approved business purposes only; any other use is prohibited.
+translation.citiDisclaimer.complianceComply	You must comply with these Data Submission Rules at all times.
+translation.citiDisclaimer.complianceDisciplinary	Unauthorized use of this System or non-compliance with these rules may result in disciplinary action.
+translation.citiDisclaimer.complianceMonitored	Activities on this System will be monitored and recorded to the extent permitted by local law.
+translation.citiDisclaimer.complianceMonitoring	Compliance & Monitoring
+translation.citiDisclaimer.complianceNoProduction	Use of this System or its outputs for any Citi production-related activity is not authorized.
+translation.citiDisclaimer.complianceResponsible	You are responsible for the use of any resulting output.
+translation.citiDisclaimer.confidentialUpdate	⚠️ Update: Devin supports Confidential data. Standard handling, need-to-know, and entitlement requirements continue to apply. Restricted data remains strictly prohibited.
+translation.citiDisclaimer.dataSubmissionRules	Data Submission Rules
+translation.citiDisclaimer.doNotSubmit	Do NOT submit any of the following:
+translation.citiDisclaimer.mustRead	MUST READ — You must attest that you will comply before using Devin.
+translation.citiDisclaimer.permissibleExamples	✅ Permissible Examples: Publicly released financial and market data (e.g., SEC filings, earnings reports), internal documentation, and Confidential business materials you are entitled to access.
+translation.citiDisclaimer.permittedClassification	Permitted Data Classification: You may submit data classified up to and including Confidential, as defined in the <policyLink>Citi Information Classification Policy</policyLink>.
+translation.citiDisclaimer.prohibitedClientBody	Do not submit non-public client or customer data — for example, client data contained in institutional client contracts, or customer data found in financial, transactional, Know Your Customer (KYC), or payment / payroll documents.
+translation.citiDisclaimer.prohibitedClientData	Prohibited client or customer data.
+translation.citiDisclaimer.prohibitedClientHeading	Prohibited Client or Customer Data
+translation.citiDisclaimer.prohibitedWorkforceBody	Do not submit documents containing personal data of employees, prospective employees, or non-employees (contractors / consultants) used for evaluating work performance or recruitment, or any data subject to HIPAA (US Health Privacy Law).
+translation.citiDisclaimer.prohibitedWorkforceData	Prohibited workforce (HR) data.
+translation.citiDisclaimer.prohibitedWorkforceHeading	Prohibited Workforce (HR) Data
+translation.citiDisclaimer.questions	❓ Questions? Refer to the <policyLink>Citi Information Classification Policy</policyLink>.
+translation.citiDisclaimer.restrictedData	Restricted data of any kind.
+translation.citiDisclaimer.title	Attestation
+translation.citiDisclaimer.verifyOutput	In addition to your existing business controls, you are required to verify all output generated by the AI Tool for accuracy before any use.
+translation.citationContextMenu.copyPath	Copy path
+translation.citationContextMenu.openContainingFolder	Open containing folder
+translation.citationContextMenu.openInEditor	Open in editor
+translation.coach.acceptanceRate	Acceptance rate
+translation.coach.acceptanceRateTooltip	Share of resolved suggestions (accepted + rejected) that were accepted.
+translation.coach.blockerGroups.column.impact	Impact
+translation.coach.blockerGroups.column.lastSeen	Last seen
+translation.coach.blockerGroups.column.obstacle	Blocker
+translation.coach.blockerGroups.description	Things Devin needs from your team, found in real sessions and grouped by the broken resource
+translation.coach.blockerGroups.empty.active	No open blockers
+translation.coach.blockerGroups.empty.all	No blockers yet
+translation.coach.blockerGroups.empty.dismissed	No dismissed blockers
+translation.coach.blockerGroups.empty.resolved	No resolved blockers
+translation.coach.blockerGroups.emptyDescription.blocked	Blockers appear here when something only your team can fix stops a Devin session.
+translation.coach.blockerGroups.emptyDescription.slowed	Blockers appear here when something only your team can fix makes Devin work around it.
+translation.coach.blockerGroups.error	Something went wrong while loading blockers.
+translation.coach.blockerGroups.filter.active	Open
+translation.coach.blockerGroups.filter.all	All
+translation.coach.blockerGroups.filter.dismissed	Dismissed
+translation.coach.blockerGroups.filter.resolved	Resolved
+translation.coach.blockerGroups.kpi.atLeast	{{value}}+
+translation.coach.blockerGroups.kpi.count.active	Open blockers
+translation.coach.blockerGroups.kpi.count.all	Blockers
+translation.coach.blockerGroups.kpi.count.dismissed	Dismissed blockers
+translation.coach.blockerGroups.kpi.count.resolved	Resolved blockers
+translation.coach.blockerGroups.kpi.countTooltip	Distinct broken resources, each grouped across every session that hit it.
+translation.coach.blockerGroups.kpi.countTooltipTruncated	Only the {{limit}} highest-impact blockers are loaded, so these totals are lower bounds.
+translation.coach.blockerGroups.kpi.impact.blocked	Sessions blocked
+translation.coach.blockerGroups.kpi.impact.slowed	ACUs wasted
+translation.coach.blockerGroups.kpi.impactTooltip.blocked	Sessions that couldn't finish because of these blockers, counted once per blocker they hit.
+translation.coach.blockerGroups.kpi.impactTooltip.slowed	Estimated ACUs Devin spent working around these blockers in sessions that still finished.
+translation.coach.blockerGroups.kpi.topCategory	Top category
+translation.coach.blockerGroups.kpi.topCategoryTooltip.blocked	The category that blocked the most sessions.
+translation.coach.blockerGroups.kpi.topCategoryTooltip.slowed	The category responsible for the most ACUs wasted.
+translation.coach.blockerGroups.kpi.topCategoryTooltipTruncated	Ranked from the {{limit}} highest-impact blockers loaded, not the full account.
+translation.coach.blockerGroups.listDescription.blocked	Ranked by sessions blocked. Select a row to see every session it showed up in
+translation.coach.blockerGroups.listDescription.slowed	Ranked by ACUs wasted. Select a row to see every session it showed up in
+translation.coach.blockerGroups.listTitle	Blockers
+translation.coach.blockerGroups.categoryFilterLabel	Filter blockers by category
+translation.coach.blockerGroups.blockedOn.credentials	Credentials
+translation.coach.blockerGroups.blockedOn.environment	Environment
+translation.coach.blockerGroups.blockedOn.external_service	External service
+translation.coach.blockerGroups.blockedOn.instructions	Instructions
+translation.coach.blockerGroups.blockedOn.permissions	Permissions
+translation.coach.blockerGroups.blockedOn.tests	Tests
+translation.coach.blockerGroups.blockedOn.uncategorized	Uncategorized
+translation.coach.blockerGroups.status.active	Open
+translation.coach.blockerGroups.status.dismissed	Dismissed
+translation.coach.blockerGroups.status.resolved	Resolved
+translation.coach.blockerGroups.statusFilterLabel	Filter blockers by status
+translation.coach.blockerGroups.title	Blocker Reports
+translation.coach.blockerGroups.trend.description.blocked	Sessions blocked per UTC day over the last {{days}} days, by category
+translation.coach.blockerGroups.trend.description.slowed	ACUs wasted per UTC day over the last {{days}} days, by category
+translation.coach.blockerGroups.trend.empty.blocked	No blocked sessions in the last {{days}} days
+translation.coach.blockerGroups.trend.empty.slowed	No measured wasted ACUs in the last {{days}} days
+translation.coach.blockerGroups.trend.error	Couldn't load the blocker trend
+translation.coach.blockerGroups.trend.tableDay	Day
+translation.coach.blockerGroups.trend.title	Blockers over time
+translation.coach.blockerGroups.impact.blocked_one	{{value}} session
+translation.coach.blockerGroups.impact.blocked_other	{{value}} sessions
+translation.coach.blockerGroups.impact.slowed	{{value}} ACUs
+translation.coach.blockerGroups.severity.blocked	Blocked
+translation.coach.blockerGroups.severity.slowed	Slowed
+translation.coach.blockerGroups.severityLabel	Blocker severity
+translation.coach.blockerGroups.windowDays	{{days}}d
+translation.coach.blockerGroups.windowFilterLabel	Time range
+translation.coach.blockerGroups.occurrences.cannotOpen	Session you can't open
+translation.coach.blockerGroups.occurrences.empty	No sessions in this time range
+translation.coach.blockerGroups.occurrences.error	Couldn't load sessions.
+translation.coach.blockerGroups.occurrences.loadMore	Load more
+translation.coach.blockerGroups.occurrences.severity.blocked	Blocked
+translation.coach.blockerGroups.occurrences.severity.slowed	Slowed
+translation.coach.blockerGroups.occurrences.title_one	{{count}} session
+translation.coach.blockerGroups.occurrences.title_other	{{count}} sessions
+translation.coach.blockerGroups.occurrences.untitled	Untitled session
+translation.coach.blockerReporterWithOthers	{{name}} +{{count}}
+translation.coach.blockersDescription_one	Issues Devin hit in the last day, grouped by cause and sorted by impact
+translation.coach.blockersDescription_other	Issues Devin hit in the last {{count}} days, grouped by cause and sorted by impact
+translation.coach.blockersError	Something went wrong while loading reported blockers.
+translation.coach.blockersTitle	Blockers
+translation.coach.columnMembers	Members
+translation.coach.columnSource	Source
+translation.coach.columnSuggestion	Suggestion
+translation.coach.defaultFindingRecommendation	Review these sessions for ways to get more out of Devin.
+translation.coach.emptyTitle	No coach activity yet
+translation.coach.errorTitle	Couldn't load coach analytics
+translation.coach.findingTypes.argueLoop.label	Disagreement loops
+translation.coach.findingTypes.argueLoop.recommendation	When a back-and-forth stalls, restate the requirements from scratch instead of arguing.
+translation.coach.findingTypes.blockedDomainLoop.label	Blocked domain retries
+translation.coach.findingTypes.blockedDomainLoop.recommendation	Allowlist the domains Devin needs, or tell it upfront what's unreachable.
+translation.coach.findingTypes.brokenOrStaleDrs.label	Broken or stale environment setup
+translation.coach.findingTypes.brokenOrStaleDrs.recommendation	Refresh your repo's snapshot/setup so Devin doesn't redo environment setup each session.
+translation.coach.findingTypes.contextDumpNoTask.label	Context without a task
+translation.coach.findingTypes.contextDumpNoTask.recommendation	State what Devin should actually do when pasting threads or docs.
+translation.coach.findingTypes.contradictoryPrompt.label	Contradictory requirements
+translation.coach.findingTypes.contradictoryPrompt.recommendation	Double-check prompts for conflicting requirements before sending.
+translation.coach.findingTypes.emotionalVenting.label	Venting without instruction
+translation.coach.findingTypes.emotionalVenting.recommendation	Pair frustration with a concrete instruction so Devin knows how to correct course.
+translation.coach.findingTypes.flakyCiLoop.label	Flaky CI loops
+translation.coach.findingTypes.flakyCiLoop.recommendation	Tell Devin which CI failures are flaky/unrelated so it doesn't loop on them.
+translation.coach.findingTypes.largePr.label	Oversized PRs
+translation.coach.findingTypes.largePr.recommendation	Split large changes into smaller stacked PRs and sessions — they review and merge faster.
+translation.coach.findingTypes.mergeConflictRot.label	Stale branch conflicts
+translation.coach.findingTypes.mergeConflictRot.recommendation	Merge or close long-lived PRs before they rot into conflict-resolution work.
+translation.coach.findingTypes.misleadingKnowledge.label	Outdated knowledge
+translation.coach.findingTypes.misleadingKnowledge.recommendation	Review and prune knowledge notes that no longer match your codebase.
+translation.coach.findingTypes.missingEnvContext.label	Missing environment context
+translation.coach.findingTypes.missingEnvContext.recommendation	Specify the branch, environment, and service so Devin works on the right target.
+translation.coach.findingTypes.multitaskingInSession.label	Multiple tasks in one session
+translation.coach.findingTypes.multitaskingInSession.recommendation	Run unrelated tasks as separate sessions so each keeps full context.
+translation.coach.findingTypes.narrowUsage.label	Narrow usage
+translation.coach.findingTypes.narrowUsage.recommendation	Try Devin on more kinds of work — reviews, migrations, tests — to get more value.
+translation.coach.findingTypes.noPlanBeforeImpl.description	The prompt asks Devin to implement something that should be planned out first. Planning first aligns you and Devin on the spec so ACUs aren't wasted on unwanted implementation.
+translation.coach.findingTypes.noPlanBeforeImpl.label	No plan before implementation
+translation.coach.findingTypes.noPlanBeforeImpl.recommendation	Ask Devin to confirm a plan before writing code to avoid mid-session rework.
+translation.coach.findingTypes.noRepoSpecified.label	No repository specified
+translation.coach.findingTypes.noRepoSpecified.recommendation	Name the repository in your initial prompt so Devin starts in the right place.
+translation.coach.findingTypes.nonWorkUsage.description	The prompt is not related to work. Devin suggests clearing the prompt so usage is not spent on something that doesn't drive business value.
+translation.coach.findingTypes.nonWorkUsage.label	Non-work usage
+translation.coach.findingTypes.nonWorkUsage.recommendation	Keep sessions focused on engineering work so your usage goes toward shipping.
+translation.coach.findingTypes.repeatedTaskNoSkill.label	Repeated tasks without a skill
+translation.coach.findingTypes.repeatedTaskNoSkill.recommendation	Turn tasks you run repeatedly into a skill or playbook so Devin nails them first try.
+translation.coach.findingTypes.screenshotOnlyBug.label	Screenshot-only bug reports
+translation.coach.findingTypes.screenshotOnlyBug.recommendation	Include reproduction steps and context with bug reports, not just a screenshot.
+translation.coach.findingTypes.sessionAbandonment.label	Abandoned sessions
+translation.coach.findingTypes.sessionAbandonment.recommendation	Wrap up or terminate sessions instead of leaving Devin waiting on input.
+translation.coach.findingTypes.unsavedRepeatedCorrection.label	Repeated unsaved corrections
+translation.coach.findingTypes.unsavedRepeatedCorrection.recommendation	When you correct Devin twice with the same fact, save it as knowledge or a skill.
+translation.coach.kpiAcceptedTooltip	Suggestions that were acted on.
+translation.coach.kpiRejectedTooltip	Suggestions that were dismissed.
+translation.coach.kpiSuggestionsShown	Suggestions shown
+translation.coach.kpiSuggestionsShownTooltip	Coaching suggestions Devin surfaced while prompting and working.
+translation.coach.kpiTopSuggestion	Top suggestion
+translation.coach.otherCategory	Other
+translation.coach.outcomeAccepted	Accepted
+translation.coach.outcomeNoResponse	No response
+translation.coach.outcomeRejected	Rejected
+translation.coach.shown	Shown
+translation.coach.sourceFinding	Coach finding
+translation.coach.sourcePrecheck	Prompt check
+translation.coach.suggestionsDescription	Outcomes by suggestion type. Select a row to narrow the trend above
+translation.coach.suggestionsTitle	Suggestions
+translation.coach.trendDescriptionFocused_one	{{suggestion}} suggestions per day by outcome over the last day
+translation.coach.trendDescriptionFocused_other	{{suggestion}} suggestions per day by outcome over the last {{count}} days
+translation.coach.trendDescription_one	Suggestions per day by outcome over the last day
+translation.coach.trendDescription_other	Suggestions per day by outcome over the last {{count}} days
+translation.coach.trendTitle	Trend
+translation.coach.tryAgain	Try again
+translation.coach.untitledBlocker	Untitled blocker
+translation.coachPrecheck.actions.clearPrompt	Clear prompt
+translation.coachPrecheck.actions.createPlan	Create plan
+translation.coachPrecheck.actions.splitTasks	Split into child sessions
+translation.coachPrecheck.actions.startCodeScan	Start a Code Scan
+translation.coachPrecheck.actions.startNewSession	Start new session
+translation.coachPrecheck.actions.switchMode	Switch mode
+translation.coachPrecheck.back	Back
+translation.coachPrecheck.confirmTitle	Confirm to send message
+translation.coachPrecheck.dismiss	Dismiss
+translation.coachPrecheck.findingDetails	Show finding details
+translation.coachPrecheck.setting.description	How Devin Coach responds when it spots an issue in a prompt before it's sent
+translation.coachPrecheck.setting.label	Prompt precheck
+translation.coachPrecheck.setting.managedByEnterprise	This setting is managed at the enterprise level.
+translation.coachPrecheck.setting.modeOff	Off
+translation.coachPrecheck.setting.modeOffDescription	Don't check prompts before sending
+translation.coachPrecheck.setting.modeWarningAndModal	Warning and confirmation
+translation.coachPrecheck.setting.modeWarningAndModalDescription	Show the inline warning and ask for confirmation before sending
+translation.coachPrecheck.setting.modeWarningOnly	Warning only
+translation.coachPrecheck.setting.modeWarningOnlyDescription	Show the inline warning but never block sending
+translation.coachPrecheck.setting.noPermission	You don't have permission to change this setting.
+translation.coachPrecheck.setting.selectAriaLabel	Select precheck mode
+translation.coachPrecheck.setting.selectPlaceholder	Select option
+translation.coachPrecheck.setting.updateFailed	Failed to update prompt precheck setting
+translation.coachPrecheck.noPlanBeforeImpl.caption	Consider asking Devin for a plan before implementing
+translation.coachPrecheck.noPlanBeforeImpl.label	No plan before implementation
+translation.coachPrecheck.noPlanBeforeImpl.recommendation	Ask Devin to confirm a plan before writing code to avoid mid-session rework
+translation.coachPrecheck.nonWorkUsage.caption	Your prompt seems irrelevant to work use-cases
+translation.coachPrecheck.nonWorkUsage.label	Non-work usage
+translation.coachPrecheck.nonWorkUsage.recommendation	Keep sessions focused on engineering work so your usage goes toward delivering results
+translation.coachPrecheck.overkillDevinMode.caption	Ultra may be more than this task needs
+translation.coachPrecheck.overkillDevinMode.description	A heavyweight model (e.g. Ultra) is selected for a task that a lighter model class can handle. Devin suggests downgrading the selected model class to save ACUs.
+translation.coachPrecheck.overkillDevinMode.label	Heavyweight mode
+translation.coachPrecheck.overkillDevinMode.recommendation	Switch to a lighter mode for small, simple tasks
+translation.coachPrecheck.parallelizablePrompt.caption	This draft looks like several independent tasks
+translation.coachPrecheck.parallelizablePrompt.description	The prompt contains independent tasks that can run at the same time. Devin suggests splitting them into parallel sessions so they finish faster.
+translation.coachPrecheck.parallelizablePrompt.label	Parallelizable tasks
+translation.coachPrecheck.parallelizablePrompt.recommendation	Run independent tasks in parallel child sessions
+translation.coachPrecheck.send	Send
+translation.coachPrecheck.unrelatedFollowupNewSession.caption	This task looks unrelated to the current session
+translation.coachPrecheck.unrelatedFollowupNewSession.description	In a large session, the prompt asks for a new PR unrelated to the work done so far. Devin suggests doing it in a new session instead.
+translation.coachPrecheck.unrelatedFollowupNewSession.label	Unrelated follow-up
+translation.coachPrecheck.unrelatedFollowupNewSession.recommendation	Start a new session so a fresh task gets a clean context
+translation.coachPrecheck.useCodeScan.caption	This looks codebase-wide. A Code Scan may fit better
+translation.coachPrecheck.useCodeScan.description	The prompt asks Devin to find, audit, or report every instance of something across a whole codebase. Devin suggests running a Code Scan, which analyzes entire repositories in parallel and tracks each finding.
+translation.coachPrecheck.useCodeScan.label	Codebase-wide task
+translation.coachPrecheck.useCodeScan.recommendation	Run a Code Scan to find every instance across whole repositories and track each finding
+translation.coachPrecheck.useCodeScan.sessionPrompt	Help me set up and start a code scan based on this request:
+
+{{prompt}}
+translation.codeScan.saveSchedule	Save schedule
+translation.codeScan.openRepository	Open repository
+translation.codeScan.repositoryActions	Repository actions
+translation.codeScan.lastScanned	Last scanned
+translation.codeScan.repoPrOpen	{{count}} open
+translation.codeScan.repoPrMerged	{{count}} merged
+translation.codeScan.repoPrClosed	{{count}} closed
+translation.codeScan.legacyScanSheetTitle	Start a scan
+translation.codeScan.scanSheetType	Type
+translation.codeScan.outcomeSingle	Starts 1 scan of {{repo}}
+translation.codeScan.outcomeMulti_one	Starts 1 scan across {{count}} repository
+translation.codeScan.outcomeMulti_other	Starts 1 scan across {{count}} repositories
+translation.codeScan.legacyScanSheetSubmitButton	Scan
+translation.codeScan.legacyScanSheetRepositoryDescription	Select a repository to scan
+translation.codeScan.acuWarningChatgptPlan	Scans aren't covered by your ChatGPT plan and use your Devin ACUs. Larger repos and first-time scans use more. Profiles help control costs.
+translation.codeScan.quotaWarningChatgptPlan	Scans aren't covered by your ChatGPT plan and use your Devin quota. Larger repos and first-time scans use more. Profiles help control costs.
+translation.codeScan.scanSheetAcuDescription	Larger repositories and first-time scans will use more ACUs. Use profiles to help control scan costs.
+translation.codeScan.quotaWarning	Scans use your quota. Larger repos and first-time scans use more. Profiles help control costs.
+translation.codeScan.scanSheetInteractiveMode	Interactive mode
+translation.codeScan.scanSheetInteractiveDescription	Collaborate with Devin in a session to tailor the scan model
+translation.codeScan.interactiveUnavailableForCyber	Interactive mode is unavailable for cyber-enabled scans.
+translation.codeScan.agentDefault	Default
+translation.codeScan.agentSwe2	SWE-2
+translation.codeScan.agent	Agent
+translation.codeScan.agentDescription	Agent the scan sessions run on. Opt-in agents are billed like their sessions.
+translation.codeScan.legacyScanSheetEffortDescription	Set codebase thoroughness for traces
+translation.codeScan.legacyScanSheetProfileDescription	Customize finding types and patterns
+translation.codeScan.overview	Overview
+translation.codeScan.summary	Summary
+translation.codeScan.codeOwnersCount_one	{{count}} code owner
+translation.codeScan.codeOwnersCount_other	{{count}} code owners
+translation.codeScan.copyFindingLink	Copy link to finding
+translation.codeScan.copyFindingMarkdown	Copy as Markdown
+translation.codeScan.findingMarkdownCopied	Finding copied as Markdown
+translation.codeScan.failedToCopyFindingMarkdown	Failed to copy finding
+translation.codeScan.file	File
+translation.codeScan.link	Link
+translation.codeScan.failedToCopyFindingLink	Failed to copy finding link
+translation.codeScan.findingActions	Finding actions
+translation.codeScan.findingLinkCopied	Finding link copied
+translation.codeScan.fixWithDevin	Fix with Devin
+translation.codeScan.fixSkillDescription	Pick a skill from a security plugin for this fix to follow, or start without one.
+translation.codeScan.noSandboxValidation	No sandbox validation
+translation.codeScan.openInSecurity	Open in Security
+translation.codeScan.openPrInGitHub	Open PR in GitHub
+translation.codeScan.reopenFinding	Reopen finding
+translation.codeScan.failedToReopen	Failed to reopen the finding
+translation.codeScan.statusFixReady	Fix ready
+translation.codeScan.actionModel	Action model
+translation.codeScan.actionModelPlaceholder	model name
+translation.codeScan.fixedActionModel	Fixed action model
+translation.codeScan.fixedActionModelDescription	Use the selected action model without fallbacks.
+translation.codeScan.adjust	Adjust
+translation.codeScan.adjustArchived	Unarchive this scan to give feedback or adjust severity
+translation.codeScan.adjustSeverity	Adjust severity
+translation.codeScan.adjustDetailsLabel	Details
+translation.codeScan.adjustSeverityHint	Add more detail to help Devin refine this severity
+translation.codeScan.adminBadge	Admin

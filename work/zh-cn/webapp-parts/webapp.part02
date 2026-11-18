@@ -1,0 +1,500 @@
+translation.budgetAccess.inheritedFromUse	This access is inherited from membership in an organization that uses this budget
+translation.budgetAccess.inheritedFromManage	This access is inherited from the Manage ACU limits permission, which allows managing all budgets
+translation.budgetAccess.inheritedFromOwner	This access is inherited from an owner role, which can manage all budgets
+translation.budgetAccess.searchPlaceholder	Search users, roles, teams, or service users
+translation.budgetAccess.cannotRemoveOwnAccess	You can't remove your own access to manage this budget
+translation.omniTools.searching	Searching
+translation.omniTools.searched	Searched
+translation.omniTools.inValue	in <value>{{value}}</value>
+translation.omniTools.acrossValue	across <value>{{value}}</value>
+translation.omniTools.atValue	at <value>{{value}}</value>
+translation.omniTools.inRepo	<prefix>in</prefix><repo>{{repo}}</repo>
+translation.omniTools.forFile	<prefix>for</prefix><file>{{file}}</file>
+translation.omniTools.allRepos	all repos
+translation.omniTools.manyRepos	many repos
+translation.omniTools.repoCount_one	{{count}} repo
+translation.omniTools.repoCount_other	{{count}} repos
+translation.omniTools.used	Used {{tool}}
+translation.omniTools.using	Using {{tool}}
+translation.omniTools.thinking	Thinking
+translation.omniTools.attributedEditsFor	<prefix>Attributed edits for</prefix><file>{{file}}</file>
+translation.omniTools.attributingEditsFor	<prefix>Attributing edits for</prefix><file>{{file}}</file>
+translation.omniTools.lookedUpCommit	Looked up commit
+translation.omniTools.lookingUpCommit	Looking up commit
+translation.omniTools.fetchedPrEvents	Fetched events for PR
+translation.omniTools.fetchingPrEvents	Fetching events for PR
+translation.omniTools.checkedCommitHistory	Checked commit history
+translation.omniTools.checkingCommitHistory	Checking commit history
+translation.omniTools.foundFiles	Found files
+translation.omniTools.findingFiles	Finding files
+translation.omniTools.grepped	Grepped
+translation.omniTools.grepping	Grepping
+translation.omniTools.listed	Listed
+translation.omniTools.listing	Listing
+translation.omniTools.read	Read
+translation.omniTools.reading	Reading
+translation.omniTools.readWiki	Read wiki
+translation.omniTools.readingWiki	Reading wiki
+translation.scheduleValidation.required	RRULE required
+translation.scheduleValidation.unsupportedDates	EXDATE and RDATE are not supported.
+translation.scheduleValidation.runTimeRequired	Run time required
+translation.scheduleValidation.runTimeInvalid	Run time is invalid.
+translation.scheduleValidation.frequencyRequired	RRULE must include a FREQ property.
+translation.scheduleValidation.invalidSegment	Invalid RRULE segment: "{{value}}". Properties must be KEY=VALUE.
+translation.scheduleValidation.unknownProperty	Unknown RRULE property: "{{value}}".
+translation.scheduleValidation.emptyProperty	Property "{{value}}" has no value.
+translation.scheduleValidation.unsupportedFrequency	Unsupported frequency: "{{value}}". Use MINUTELY, HOURLY, DAILY, WEEKLY, MONTHLY, or YEARLY.
+translation.scheduleValidation.secondly	SECONDLY frequency is not allowed. Minimum interval is 1 minute.
+translation.scheduleValidation.interval	INTERVAL must be a positive integer, got "{{value}}".
+translation.scheduleValidation.hour	BYHOUR values must be integers 0–23, got "{{value}}".
+translation.scheduleValidation.minute	BYMINUTE values must be integers 0–59, got "{{value}}".
+translation.scheduleValidation.day	Invalid day abbreviation in BYDAY: "{{value}}". Use SU, MO, TU, WE, TH, FR, or SA.
+translation.scheduleValidation.monthDay	BYMONTHDAY values must be integers 1–31 or -31–-1, got "{{value}}".
+translation.scheduleValidation.month	BYMONTH values must be integers 1–12, got "{{value}}".
+translation.scheduleValidation.setPosition	BYSETPOS values must be non-zero integers -366–366, got "{{value}}".
+translation.scheduleValidation.until	UNTIL must be a date (YYYYMMDD) or datetime (YYYYMMDDTHHMMSSZ), got "{{value}}".
+translation.scheduleValidation.weekStart	WKST must be a day abbreviation (SU, MO, TU, WE, TH, FR, SA), got "{{value}}".
+translation.scheduleValidation.count	COUNT must be a positive integer, got "{{value}}".
+translation.scheduleValidation.oneTimeCount	COUNT must be exactly 1 (COUNT=1) for a one-time schedule, got "{{value}}".
+translation.scheduleValidation.countUntil	COUNT and UNTIL cannot be used together.
+translation.scheduleValidation.cronOccurrences	Every {{count}} occurrences: {{description}}
+translation.schedules.migrate.bannerBody	Automations supports schedules and more, including event-driven triggers. Migrate this organization's schedules in one step; each becomes an Automation that runs as the schedule's owner.
+translation.schedules.migrate.button	Migrate all to Automations
+translation.schedules.migrate.title	Migrate schedules to Automations
+translation.schedules.migrate.description	Each schedule becomes an Automation that runs as the schedule's owner, with the same prompt and cadence. Migrated schedules are removed from this list; their past sessions stay available.
+translation.schedules.migrate.resultTitle	Migration complete
+translation.schedules.migrate.resultDescription	Migrated schedules are now Automations. Schedules that could not be migrated keep running as before.
+translation.schedules.migrate.resultTitleNoneMigrated	No schedules were migrated
+translation.schedules.migrate.resultDescriptionNoneMigrated	Schedules that could not be migrated keep running as before. Fix the issues listed below and migrate again.
+translation.schedules.migrate.failedStayOnLegacy	These schedules keep running as schedules. Fix the listed issue (for example, grant the owner the missing permission) and migrate again.
+translation.schedules.migrate.nothingToMigrate	There are no schedules to migrate.
+translation.schedules.migrate.previewError	Couldn't check which schedules can be migrated. Try again.
+translation.schedules.migrate.errorToast	Failed to migrate schedules
+translation.schedules.migrate.confirm	Migrate
+translation.schedules.migrate.cancel	Cancel
+translation.schedules.migrate.done	Done
+translation.schedules.migrate.outcome.willMigrate	Will migrate
+translation.schedules.migrate.outcome.migrated	Migrated
+translation.schedules.migrate.outcome.willRemove	Will be removed
+translation.schedules.migrate.outcome.removed	Removed
+translation.schedules.migrate.outcome.blocked	Can't migrate yet
+translation.schedules.migrate.columns.schedule	Schedule
+translation.schedules.migrate.columns.owner	Owner
+translation.schedules.migrate.columns.reason	What's missing
+translation.schedules.migrate.columns.schedules	Schedules
+translation.schedules.migrate.columns.removalReason	Reason
+translation.schedules.migrate.removal.ownerLeft	Owner left the organization
+translation.schedules.migrate.removal.completedOneTime	One-time schedule already ran
+translation.schedules.migrate.warnings.personaDropped	Sessions will run as Devin instead of the {{persona}} persona (automations don't support personas)
+translation.schedules.migrate.warnings.summaryPreview_one	{{count}} schedule will change behavior when migrated; see the notes below
+translation.schedules.migrate.warnings.summaryPreview_other	{{count}} schedules will change behavior when migrated; see the notes below
+translation.schedules.migrate.warnings.summaryResult_one	{{count}} automation behaves differently from its schedule; see the notes below
+translation.schedules.migrate.warnings.summaryResult_other	{{count}} automations behave differently from their schedules; see the notes below
+translation.schedules.detail.loadError	Couldn't load this schedule
+translation.schedules.detail.loadErrorDescription	Check your connection and try again.
+translation.schedules.detail.retry	Try again
+translation.schedules.detail.notFound	Schedule not found
+translation.schedules.detail.notFoundDescription	The schedule you're looking for doesn't exist or you don't have permission to view it.
+translation.schedules.toast.createLoading	Creating schedule...
+translation.schedules.toast.createSuccess	Schedule created successfully
+translation.schedules.toast.createError	Failed to create schedule
+translation.schedules.toast.updateLoading	Updating schedule...
+translation.schedules.toast.updateSuccess	Schedule updated successfully
+translation.schedules.toast.updateError	Failed to update schedule
+translation.schedules.toast.deleteLoading	Deleting schedule...
+translation.schedules.toast.deleteSuccess	Schedule deleted successfully
+translation.schedules.toast.deleteError	Failed to delete schedule
+translation.introducingBotsCallout.cta	Check them out
+translation.introducingBotsCallout.dismiss	Dismiss
+translation.introducingBotsCallout.shortlistTitle	Your {{botNamePlural}}
+translation.introducingBotsCallout.title	Introducing Devin {{botNamePlural}}
+translation.introducingBotsCallout.viewAll	View all
+translation.securityCallout.cta	Try Devin Security
+translation.securityCallout.description	Find vulnerabilities and ship fixes with Devin Security 2.0
+translation.securityCallout.descriptionMythos	Find vulnerabilities and ship fixes with Devin Security 2.0 now powered by <mythos>Claude Mythos</mythos>
+translation.securityCallout.title	Introducing Devin Security <accent>2.0</accent>
+translation.editorBreadcrumbs.empty	No entries
+translation.editorBreadcrumbs.filterPlaceholder	Go to file or folder…
+translation.editorBreadcrumbs.loading	Loading…
+translation.nativeEditor.binaryFile	The file is not displayed in the text editor because it is either binary or uses an unsupported text encoding.
+translation.nativeEditor.connecting	Connecting to the session's files…
+translation.nativeEditor.emptyDescription	Select a file from the tree
+translation.nativeEditor.emptyTitle	Open file
+translation.nativeEditor.fileTreeLoadFailed	Couldn't load files
+translation.nativeEditor.filterFiles	Filter files
+translation.nativeEditor.hideFileTree	Hide file tree
+translation.nativeEditor.previewFailed	Could not load preview
+translation.nativeEditor.previewTooLarge	File is too large to preview
+translation.nativeEditor.saveToUpdatePreview	Save to update preview
+translation.nativeEditor.onMachine	On Devin's machine
+translation.nativeEditor.savedToMachineAt	Saved to Devin's machine at {{time}}
+translation.nativeEditor.unsavedOnMachine	Unsaved changes. Save to write them to Devin's machine.
+translation.nativeEditor.saveConflictTitle	This file changed on Devin's machine
+translation.nativeEditor.saveConflictDescription	{{name}} was changed on Devin's machine after you opened it, so your edits were not saved. Overwrite it with your edits, or discard your edits and load the new version.
+translation.nativeEditor.saveConflictOverwrite	Overwrite
+translation.nativeEditor.saveConflictDiscard	Discard my edits
+translation.nativeEditor.saveBeforeCloseTitle	Save changes to {{name}}?
+translation.nativeEditor.saveFilesBeforeCloseTitle_one	Save changes to {{count}} file?
+translation.nativeEditor.saveFilesBeforeCloseTitle_other	Save changes to {{count}} files?
+translation.nativeEditor.saveBeforeCloseDescription	Your changes will be lost if you don't save them.
+translation.nativeEditor.saveBeforeCloseSave	Save
+translation.nativeEditor.saveBeforeCloseDiscard	Don't save
+translation.nativeEditor.showCode	Show code
+translation.nativeEditor.showPreview	Show preview
+translation.nativeEditor.mediaDecodeFailed	Could not decode {{name}}
+translation.nativeEditor.copyPath	Copy path
+translation.nativeEditor.copyOptions	Copy options
+translation.nativeEditor.copyRelativePath	Copy relative path
+translation.nativeEditor.pathCopied	Path copied
+translation.nativeEditor.pathCopyFailed	Failed to copy path
+translation.nativeEditor.open	Open
+translation.nativeEditor.openAnyway	Open Anyway
+translation.nativeEditor.openFailed	Could not open {{name}}: {{message}}
+translation.nativeEditor.openInFolder	Open in folder
+translation.nativeEditor.openInIde	IDE
+translation.nativeEditor.openOptions	More open options
+translation.nativeEditor.retry	Retry
+translation.nativeEditor.saveAs	Save as…
+translation.nativeEditor.sessionFilesUnavailable	The session's files are not available.
+translation.nativeEditor.showFileTree	Show file tree
+translation.nativeEditor.terminalAppsError	Couldn't detect terminal apps — retry
+translation.quoting.editorNotice	Quoted editor content
+translation.embeddedSurface.back	Back
+translation.embeddedSurface.forward	Forward
+translation.gitPermissions.scopeType.organization	Organization
+translation.gitPermissions.scopeType.group	Group
+translation.gitPermissions.scopeType.subgroup	Subgroup
+translation.gitPermissions.scopeType.project	Project
+translation.gitPermissions.transferRepo.button	Transfer repositories
+translation.gitPermissions.transferRepo.title	Transfer repositories to a different connection
+translation.gitPermissions.transferRepo.description	Move repositories that this connection holds to a different connection of this account. Their permissions, grants and settings move with them.
+translation.gitPermissions.transferRepo.searchPlaceholder	Search repositories of this connection…
+translation.gitPermissions.transferRepo.loading	Loading repositories…
+translation.gitPermissions.transferRepo.noRepos	This connection holds no repositories.
+translation.gitPermissions.transferRepo.noResults	No repository of this connection matches your search.
+translation.gitPermissions.transferRepo.searchError	Failed to load repositories.
+translation.gitPermissions.transferRepo.moreResults	Only the first 50 repositories show. Search to find more.
+translation.gitPermissions.transferRepo.transferAll	Transfer all repositories of this connection
+translation.gitPermissions.transferRepo.transferAllHint	All repositories that this connection holds are transferred. The search does not change this.
+translation.gitPermissions.transferRepo.previewProgress	Checking what the transfer changes… {{done}} of {{total}}
+translation.gitPermissions.transferRepo.transferProgress	Transferring… {{done}} of {{total}}
+translation.gitPermissions.transferRepo.allSummary_one	{{count}} of {{total}} repository can be transferred.
+translation.gitPermissions.transferRepo.allSummary_other	{{count}} of {{total}} repositories can be transferred.
+translation.gitPermissions.transferRepo.allLosingAccess	Organizations that lose access to one or more repositories, because they reach them only through a prefix permission on this connection: {{orgs}}
+translation.gitPermissions.transferRepo.allMerges_one	{{count}} repository already has an entry on the target connection. The two entries become one.
+translation.gitPermissions.transferRepo.allMerges_other	{{count}} repositories already have an entry on the target connection. The two entries of each become one.
+translation.gitPermissions.transferRepo.previewError	Failed to check the transfer. Go back and try again.
+translation.gitPermissions.transferRepo.allReindex_one	The account wiki of {{count}} repository is built again.
+translation.gitPermissions.transferRepo.allReindex_other	The account wikis of {{count}} repositories are built again.
+translation.gitPermissions.transferRepo.allRefused_one	{{count}} repository cannot be transferred and stays on this connection:
+translation.gitPermissions.transferRepo.allRefused_other	{{count}} repositories cannot be transferred and stay on this connection:
+translation.gitPermissions.transferRepo.selectedCount_one	{{count}} repository selected
+translation.gitPermissions.transferRepo.selectedCount_other	{{count}} repositories selected
+translation.gitPermissions.transferRepo.selectionLimit	You can transfer a maximum of {{max}} repositories at a time.
+translation.gitPermissions.transferRepo.targetLabel	Transfer to
+translation.gitPermissions.transferRepo.targetPlaceholder	Select a connection
+translation.gitPermissions.transferRepo.noTargets	No other connection of the same host is available.
+translation.gitPermissions.transferRepo.unnamedConnection	Connection with no name
+translation.gitPermissions.transferRepo.review	Review
+translation.gitPermissions.transferRepo.previewLoading	Checking what the transfer changes…
+translation.gitPermissions.transferRepo.previewTitle	What the transfer to {{connection}} changes
+translation.gitPermissions.transferRepo.cannotTransfer	Cannot be transferred: {{reason}}
+translation.gitPermissions.transferRepo.movedPermissions	Permissions that move: {{orgs}}
+translation.gitPermissions.transferRepo.noMovedPermissions	No organization permission moves.
+translation.gitPermissions.transferRepo.losingAccess	Organizations that lose access, because they reach the repository only through a prefix permission on this connection: {{orgs}}
+translation.gitPermissions.transferRepo.providerGrantsRemoved_one	{{count}} grant from this connection's access mirroring is removed. The target connection's access mirroring adds its own.
+translation.gitPermissions.transferRepo.providerGrantsRemoved_other	{{count}} grants from this connection's access mirroring are removed. The target connection's access mirroring adds its own.
+translation.gitPermissions.transferRepo.merges	The target connection already has an entry for this repository. The two entries become one.
+translation.gitPermissions.transferRepo.reindex	The account wiki of this repository is built again.
+translation.gitPermissions.transferRepo.back	Back
+translation.gitPermissions.transferRepo.confirm_one	Transfer {{count}} repository
+translation.gitPermissions.transferRepo.confirm_other	Transfer {{count}} repositories
+translation.gitPermissions.transferRepo.confirmPending	Transfer
+translation.gitPermissions.transferRepo.transferring	Transferring…
+translation.gitPermissions.transferRepo.success_one	{{count}} repository transferred to {{connection}}
+translation.gitPermissions.transferRepo.success_other	{{count}} repositories transferred to {{connection}}
+translation.gitPermissions.transferRepo.failure	Failed to transfer the repository
+translation.gitPermissions.transferRepo.partialFailure_one	{{count}} repository was not transferred: {{reason}}
+translation.gitPermissions.transferRepo.partialFailure_other	{{count}} repositories were not transferred: {{reason}}
+translation.gitPermissions.authTypeApp	App
+translation.gitPermissions.authTypePat	PAT
+translation.gitPermissions.authTypeOAuth	OAuth
+translation.gitPermissions.publicRepoBadge	Public
+translation.gitPermissions.filterDropdown.placeholder	Filter git providers
+translation.gitPermissions.filterDropdown.searchPlaceholder	Search...
+translation.gitPermissions.filterDropdown.noOptions	No options found
+translation.gitPermissions.multiSelect.selectOnlyTitle	Select only this option
+translation.gitPermissions.multiSelect.only	only
+translation.gitPermissions.permissionsTable.readOnly	Read only
+translation.gitPermissions.permissionsTable.readWrite	Read & write
+translation.gitPermissions.manuallyAddRepo.title	Manually add repository (advanced)
+translation.gitPermissions.manuallyAddRepo.description	For repositories that weren't detected automatically
+translation.gitPermissions.manuallyAddRepo.pathRequired	Repository path required
+translation.gitPermissions.manuallyAddRepo.pathFormat	Please enter the full path, e.g. {{example}}
+translation.gitPermissions.manuallyAddRepo.added	Repository added successfully
+translation.gitPermissions.manuallyAddRepo.addFailed	Failed to manually add repository
+translation.gitPermissions.manuallyAddRepo.addFailedWithReason	Failed to manually add repository: {{message}}
+translation.gitPermissions.viewAllRepos.lastFetchFailed	The last attempt to fetch the list of repositories associated with this Git provider failed. Please double check your Git provider / integration settings and try again.
+translation.gitPermissions.viewAllRepos.updating	Updating repo list…
+translation.gitPermissions.viewAllRepos.refetch	Refetch repo list
+translation.gitPermissions.viewAllRepos.noMatch	No repositories found matching your search.
+translation.gitPermissions.viewAllRepos.noRepos	No repositories available.
+translation.gitPermissions.viewAllRepos.updateFailed	Failed to update list of repos
+translation.gitPermissions.viewAllRepos.updated	List of repos successfully updated
+translation.gitPermissions.viewAllRepos.lastFetched	Last fetched: {{time}}
+translation.gitPermissions.viewAllRepos.justNow	just now
+translation.gitPermissions.viewAllRepos.minutesAgo_one	{{count}} minute ago
+translation.gitPermissions.viewAllRepos.minutesAgo_other	{{count}} minutes ago
+translation.gitPermissions.viewAllRepos.hoursAgo_one	{{count}} hour ago
+translation.gitPermissions.viewAllRepos.hoursAgo_other	{{count}} hours ago
+translation.gitPermissions.viewAllRepos.daysAgo_one	{{count}} day ago
+translation.gitPermissions.viewAllRepos.daysAgo_other	{{count}} days ago
+translation.gitPermissions.repoSyncStartFailed	Couldn't start the repository sync. You may not have permission to manage git connections.
+translation.gitPermissions.connectionSyncFailingTitle	Repository sync is failing on {{name}}
+translation.gitPermissions.connectionSyncFailingDescription	No successful sync since {{date}}. Repositories from this connection may be missing or stale, and sessions cannot use repositories Devin cannot see. Check the connection's credentials in Settings > Connections.
+translation.gitPermissions.connectionSyncFailingRow	Repository sync on {{name}} has been failing since {{date}}. Repositories from this connection may be missing or stale.
+translation.gitPermissions.connectionSyncFailingRowAlsoOn	Also available through {{name}}, where it was last seen on {{date}}.
+translation.gitPermissions.notAvailable	N/A
+translation.gitPermissions.readOnly	Read only
+translation.gitPermissions.readWrite	Read & write
+translation.gitPermissions.removeFailed	Failed to remove permission
+translation.gitPermissions.permissionsFor	Permissions for {{org}}
+translation.gitPermissions.type	Type
+translation.gitPermissions.access	Access
+translation.gitPermissions.removePermission	Remove permission
+translation.gitPermissions.searchPlaceholder	Search permissions...
+translation.gitPermissions.managePermissions	Manage permissions
+translation.gitPermissions.noMatch	No permissions match your search
+translation.gitPermissions.noneFound	No permissions found
+translation.gitPermissions.tryDifferentSearch	Try a different search term
+translation.gitPermissions.emptyCanAdd	Select organizations and their repositories to add permissions
+translation.gitPermissions.emptyAskAdmin	Ask an administrator to add permissions for you
+translation.gitPermissions.pageTitle	Repository permissions
+translation.gitPermissions.enterpriseOnly	This page is only available to enterprises.
+translation.gitPermissions.headerTitle	Repository access
+translation.gitPermissions.headerDescription	Manage access to repositories for your organizations. Git providers can be added in connections settings.
+translation.gitPermissions.organization	Organization
+translation.gitPermissions.selectOrganization	Select an organization
+translation.gitPermissions.permissionTypes	Permission types
+translation.gitPermissions.permissionTypesCount	Permission types ({{count}})
+translation.gitPermissions.search	Search...
+translation.gitPermissions.accessType	Access type
+translation.gitPermissions.accessTypeCount	Access type ({{count}})
+translation.gitPermissions.selectOrgPrompt	Select an organization to view and manage permissions
+translation.gitPermissions.add.granted	(granted)
+translation.gitPermissions.add.grantedViaParent	(granted via parent)
+translation.gitPermissions.add.grantedViaPrefix	(granted via prefix match)
+translation.gitPermissions.add.value	Value
+translation.gitPermissions.add.added	Permissions added
+translation.gitPermissions.add.addFailed	Failed to add permissions
+translation.gitPermissions.add.title	Add repository permissions to {{org}}
+translation.gitPermissions.add.subtitle	Grant access to repositories and organizations.
+translation.gitPermissions.add.search	Search…
+translation.gitPermissions.add.clearSearch	Clear search
+translation.gitPermissions.add.loadingRepositories	Loading repositories...
+translation.gitPermissions.add.addPermissions	Add permissions
+translation.gitPermissions.add.addPermissionsCount	Add permissions ({{count}})
+translation.gitPermissions.manual.selectProviderError	Git provider required
+translation.gitPermissions.manual.enterPathError	Path required
+translation.gitPermissions.manual.fixPathError	Please fix the path validation errors
+translation.gitPermissions.manual.added	Permission added successfully
+translation.gitPermissions.manual.addFailed	Failed to add permission
+translation.gitPermissions.manual.organizationProject	Organization/Project
+translation.gitPermissions.manual.unknown	Unknown
+translation.gitPermissions.manual.depotPath	Depot path
+translation.gitPermissions.manual.repository	Repository
+translation.gitPermissions.manual.repositoryPathPrefix	Repository path prefix
+translation.gitPermissions.manual.title	Manual configuration (advanced)
+translation.gitPermissions.manual.tooltip	Manually add a permission. This is intended for rare scenarios where you have given access to a repository through the Git provider but the repository was not automatically detected.
+translation.gitPermissions.manual.description	Add a permission manually when you've given access through the Git provider but the repository wasn't detected automatically
+translation.gitPermissions.manual.gitProvider	Git provider
+translation.gitPermissions.manual.selectGitProvider	Select Git provider
+translation.gitPermissions.manual.permissionType	Permission type
+translation.gitPermissions.manual.selectType	Select type
+translation.gitPermissions.manual.path	Path
+translation.gitPermissions.manual.enterDepotPath	Enter a depot path
+translation.gitPermissions.manual.enterRepoPath	Enter the full repository path
+translation.gitPermissions.manual.enterGroupPath	Enter the group or organization path
+translation.gitPermissions.manual.accessLevel	Access level
+translation.gitPermissions.manual.addPermission	Add permission
+translation.gitPermissions.validation.perforceDepot	Perforce depot paths must use depot syntax (e.g. //depot/...)
+translation.gitPermissions.validation.includeOrganization	You must include the Organization as part of your repository path
+translation.gitPermissions.validation.noFullUrl	You must not include the full URL in your repository path
+translation.gitPermissions.validation.noGitExtension	The .git extension is not required for GitHub repositories
+translation.gitPermissions.validation.oneSlash	You must only have one slash in your repository path
+translation.gitPermissions.typeLabel.repository	Repository
+translation.gitPermissions.typeLabel.prefix_path	Repository path prefix
+translation.gitPermissions.typeLabel.depot_path	Depot path
+translation.gitPermissions.typeLabel.unknown	Unknown
+translation.gitPermissions.typeLabel.organization	Organization
+translation.gitPermissions.typeLabel.group	Group
+translation.gitPermissions.typeLabel.subgroup	Subgroup
+translation.gitPermissions.typeLabel.project	Project
+translation.gitPermissions.mirroring.sourceMirrored	Access mirroring
+translation.gitPermissions.mirroring.atAccount	At the account
+translation.gitPermissions.mirroring.anotherOrganization	another organization
+translation.gitPermissions.mirroring.inOrganizations	Assigned to {{orgs, list}}
+translation.gitPermissions.mirroring.accountOption	Account (not in an organization)
+translation.gitPermissions.mirroring.accountDescription	Repositories that access mirroring lists and that no organization is assigned. Assign one to an organization to make it available there.
+translation.gitPermissions.mirroring.accountHeader	Repository
+translation.gitPermissions.mirroring.accountSearchPlaceholder	Search repositories
+translation.gitPermissions.mirroring.accountTruncated	Not every repository was checked. Search by name to find one that is not listed.
+translation.gitPermissions.mirroring.accountEmpty	No repositories at the account
+translation.gitPermissions.mirroring.accountEmptyDescription	Every repository that access mirroring lists is assigned to an organization.
+translation.gitPermissions.mirroring.accountEmptyNotMirrored	Access mirroring hasn't completed a pass on any connection you can view.
+translation.gitPermissions.mirroring.assign	Assign to organization
+translation.gitPermissions.mirroring.assignDescription	{{repo}} becomes available in the organization you choose.
+translation.gitPermissions.mirroring.assignConfirm	Assign
+translation.gitPermissions.mirroring.cancel	Cancel
+translation.gitPermissions.mirroring.assigned	Repository assigned
+translation.gitPermissions.mirroring.assignFailed	Couldn't assign the repository.
+translation.layout.copyLink	Copy link to {{title}}
+translation.layout.close	Close
+translation.layout.closeOthers	Close others
+translation.layout.closeRight	Close to the right
+translation.layout.closeAll	Close all
+translation.layout.terminalTitle	Terminal {{number}}
+translation.layout.newTerminal	New terminal
+translation.layout.hideTerminal	Hide terminal
+translation.layout.terminalTabs	Terminals
+translation.layout.expandTerminalFullWidth	Expand terminal to full width
+translation.layout.moveTerminalToRightPane	Move terminal to right pane
+translation.layout.sessionTerminals	Session terminals
+translation.layout.remoteTerminal	Remote terminal
+translation.layout.moveTerminalToPanel	Move to terminal panel
+translation.layout.killTerminal	Kill {{title}}
+translation.layout.renameTerminal	Terminal name
+translation.layout.remoteTerminalError	Couldn't start a terminal on the remote machine
+translation.layout.retry	Retry
+translation.terminalSsh.connectOverSsh	Connect over SSH
+translation.terminalSsh.hint	Paste this command in your local terminal.
+translation.terminalSsh.loading	Loading SSH command…
+translation.terminalSsh.unavailable	SSH connection details aren't available for this session.
+translation.terminalSsh.copy	Copy
+translation.terminalSsh.openInDevinDesktop	Open in Devin Desktop
+translation.terminalSsh.openInVsCode	Open in VS Code
+translation.terminalSsh.openFailed	Couldn't open the app. Is it installed?
+translation.noDevinAccount.title	No Devin account for this sign-in
+translation.noDevinAccount.description	This Windsurf account has no Devin account, so Devin Cloud sessions and organizations are not available here. Devin Local, Tab, and the editor work in the IDE view.
+translation.noDevinAccount.openIdeView	Open IDE view
+translation.cloudUnreachable.title	Devin Cloud is unreachable
+translation.cloudUnreachable.description	Devin cannot reach the Devin API, so Devin Cloud sessions and your organization are unavailable. Devin Local, Tab, and the editor still work in the IDE view.
+translation.cloudUnreachable.retry	Retry
+translation.cloudUnreachable.openIdeView	Open IDE view
+translation.sessionRejected.title	Your session has expired
+translation.sessionRejected.signIn	Sign in again
+translation.windowTabs.label	Window tabs
+translation.windowTabs.newTab	New tab
+translation.windowTabs.untitled	New tab
+translation.windowTabs.duplicateTab	Duplicate tab
+translation.windowTabs.reopenClosedTab	Reopen closed tab
+translation.windowChrome.agentsMode	Agents
+translation.windowChrome.ideMode	IDE
+translation.windowChrome.agentsView	Agents view
+translation.windowChrome.ideView	IDE view
+translation.windowChrome.openEditorWindow	Editor
+translation.windowChrome.openEditorWindowTooltip	Switch to the Editor window
+translation.windowChrome.openSessionEditorWindow	IDE
+translation.windowChrome.openSessionEditorWindowTooltip	Open the IDE window for this session
+translation.pluginMcp.title	Connect MCPs for {{name}}
+translation.pluginMcp.description	Choose an MCP to connect at the {{scope}} scope. Each connection has its own setup.
+translation.pluginMcp.manageMcps	Manage MCPs
+translation.pluginMcp.connect	Connect
+translation.pluginMcp.signIn	Sign in
+translation.pluginMcp.signInOwnAccount	Sign in with your account
+translation.pluginMcp.connectOwnAccount	Connect your own account
+translation.pluginMcp.enterCredentials	Enter credentials
+translation.pluginMcp.notSetUp	Not set up
+translation.pluginMcp.installed	Installed
+translation.pluginMcp.mcpConnected	{{name}} is connected.
+translation.pluginMcp.needsCredential	{{name}} needs a credential before it can connect — enter it in its settings.
+translation.pluginMcp.connectFailed	Could not connect {{name}}.
+translation.pluginMcp.connectNeedsOAuthClient	{{name}} needs a pre-registered OAuth client ID and secret.
+translation.pluginMcp.connectNeedsOAuthClientInSettings	{{name}} needs a pre-registered OAuth client ID and secret. In its settings, enter them under Advanced, with Authentication set to OAuth.
+translation.pluginMcp.connectProviderUnavailable	The provider is not responding right now. Try again in a few minutes.
+translation.pluginMcp.waitingForEnterpriseAdmin	Waiting for an enterprise admin to connect
+translation.pluginMcp.waitingForOrgAdmin	Waiting for an org admin to connect
+translation.pluginAudience.all	All organizations
+translation.pluginAudience.none	No organizations
+translation.pluginAudience.noneHint	No organization gets the plugin until you select one.
+translation.pluginAudience.rowLabel	Organizations
+translation.pluginAudience.selected_one	{{count}} organization
+translation.pluginAudience.selected_other	{{count}} organizations
+translation.pluginAudience.allExcept_one	All organizations except {{count}}
+translation.pluginAudience.allExcept_other	All organizations except {{count}}
+translation.pluginAudience.selectedNames	{{names, list}}
+translation.pluginAudience.allExceptNames	All except {{names, list}}
+translation.pluginAudience.buttonLabel	Organizations that get {{name}}: {{summary}}
+translation.pluginAudience.dialogTitle	Organizations that get {{name}}
+translation.pluginAudience.dialogDescription	Sessions in an organization left out do not load this plugin: none of its skills, hooks, rules or agents. An organization can still install the plugin itself.
+translation.pluginAudience.modeAllTitle	All organizations
+translation.pluginAudience.modeAllHint	Includes organizations created later.
+translation.pluginAudience.modeSelectedTitle	Only selected organizations
+translation.pluginAudience.modeSelectedHint	Organizations created later do not get the plugin.
+translation.pluginAudience.modeAllExceptTitle	All organizations except selected
+translation.pluginAudience.modeAllExceptHint	Includes organizations created later.
+translation.pluginAudience.organizationsError	Could not load the organizations.
+translation.pluginAudience.saveError	Could not save the organizations for this plugin.
+translation.pluginMarketplace.indexingStarted	Reindexing plugins
+translation.pluginMarketplace.indexingFailed	Could not reindex plugins
+translation.pluginMarketplace.showOfficialMarketplace	Show Devin marketplace plugins
+translation.pluginMarketplace.officialMarketplaceDisabledByEnterprise	The Devin marketplace is disabled for every org by the enterprise configuration.
+translation.pluginMarketplace.browseEmpty	Nothing here yet. Your admins can add plugins to the marketplace
+translation.pluginMarketplace.manifestSecretsNotice	Don’t include plaintext secrets. Use <docsLink>plugin secret references</docsLink> instead
+translation.pluginMarketplace.bundleSecretsNotice	Don’t include secrets.
+translation.pluginMarketplace.deletePluginTitle	Delete {{name}}?
+translation.pluginMarketplace.deletePluginDescription	This plugin was uploaded here, so it has no other copy. Its files are permanently deleted. This cannot be undone.
+translation.pluginMarketplace.deletePlaybooksTitle	Delete the Playbooks plugin?
+translation.pluginMarketplace.deletePlaybooksWarning	Deleting this plugin removes all its skills, including any migrated from Playbooks. Schedules and automations that use the affected Playbooks will no longer run their instructions.
+translation.pluginMarketplace.deleteAnyway	Delete anyway
+translation.pluginMarketplace.deletePlaybooksBlocked	This plugin can’t be deleted until the Playbooks migration is complete.
+translation.pluginMarketplace.deletePlaybooksFailed	Couldn’t delete the plugin. Review its current contents and try again.
+translation.pluginMarketplace.deletedPlugin	Deleted {{name}}
+translation.pluginMarketplace.deletePluginFilesFailed	{{name}} was uninstalled, but deleting its files failed.
+translation.pluginMarketplace.mcpSheetDescription	MCP servers Devin can call, keyed by name. Saved to {{filePath}} in this scope’s plugin. Reference secrets as <code>${NAME}</code> and members supply them from the server’s details — values written here are stripped.
+translation.pluginMarketplace.browse	Browse
+translation.pluginMarketplace.community	Community
+translation.pluginMarketplace.marketplace	Marketplace
+translation.pluginMarketplace.browseDescriptionPersonal	Install a plugin for yourself.
+translation.pluginMarketplace.browseDescriptionOrganization	Install a plugin for your organization.
+translation.pluginMarketplace.browseDescriptionEnterprise	Install a plugin for your enterprise.
+translation.pluginMarketplace.browseDescriptionAnyScope	Install a plugin for yourself or for a scope you manage.
+translation.pluginMarketplace.suggested	Suggested
+translation.pluginMarketplace.builtIn	Built-in
+translation.pluginMarketplace.installedButBlocked	Installed but blocked
+translation.pluginMarketplace.blockedDescription	Plugins marked as blocked by policy, including dependencies from the latest index.
+translation.pluginMarketplace.disabledByEnterpriseAdmin	Disabled by your enterprise admin
+translation.pluginMarketplace.disabledByEnterpriseAdminTooltip	Your enterprise admin has not made this plugin available in this organization.
+translation.pluginMarketplace.installedTitle	Installed {{name}}
+translation.pluginMarketplace.installedAtScope	Installed at {{scope}}
+translation.pluginMarketplace.installedForMe	Installed for me
+translation.pluginMarketplace.installedForOrg	Installed for {{name}}
+translation.pluginMarketplace.installedForOtherOrg	Installed for another organization
+translation.pluginMarketplace.installedForOtherOrgContents	This plugin is installed for another organization. Devin loads its contents only in that organization.
+translation.pluginMarketplace.installedInPersonal	Now available in your personal plugins
+translation.pluginMarketplace.installedInOrganization	Now available in organization plugins
+translation.pluginMarketplace.installedInEnterprise	Now available in enterprise plugins
+translation.pluginMarketplace.connectingMcp	Connecting…
+translation.pluginMarketplace.mcpAwaitingAuthorization	{{pluginName}} is set up — connect it to grant access.
+translation.pluginMarketplace.mcpConnectFailed	Could not connect {{pluginName}}.
+translation.pluginMarketplace.addPluginMcpDescription	Point Devin at an MCP server you run yourself. It is saved to your plugin and connected.
+translation.pluginMarketplace.mcpFileInvalid	.mcp.json is not valid JSON. Fix it in the editor before adding an MCP.
+translation.pluginMarketplace.mcpOauthScopesNeedClientId	OAuth scopes need an OAuth client ID.
+translation.pluginMarketplace.mcpNameTaken	An MCP named “{{name}}” is already in your plugin.
+translation.pluginMarketplace.mcpReady	{{pluginName}} is ready — nothing to connect.
+translation.pluginMarketplace.mcpNeedsCredential	{{pluginName}} needs a credential before it can connect — enter it in its MCP's settings.
+translation.pluginMarketplace.noMatches	No plugins match your search.
+translation.pluginMarketplace.unavailableInCustomize	This plugin isn't available in Customize.
+translation.pluginMarketplace.searchPlaceholder	Search plugin marketplace
+translation.pluginMarketplace.clearSearch	Clear search
+translation.pluginMarketplace.viewOnGithub	View on GitHub
+translation.pluginMarketplace.requiredBy	Required by
+translation.pluginMarketplace.pluginNotListed	{{name}} is not listed in this view.
+translation.pluginMarketplace.installFailed	Failed to install
+translation.pluginMarketplace.installed	Installed
+translation.pluginMarketplace.installing	Installing…
+translation.pluginMarketplace.retrying	Retrying…
+translation.pluginMarketplace.recommended	Recommended
+translation.pluginMarketplace.notConnected	Not connected
+translation.pluginMarketplace.signInRequired	Sign-in required
+translation.pluginMarketplace.signInOwnAccount	Sign in with your own account
