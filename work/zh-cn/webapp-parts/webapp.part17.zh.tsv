@@ -1,0 +1,500 @@
+translation.enterprise.members.viaGroups	 · 经由 {{groups}}
+translation.enterprise.groupOrgs.adding	正在把 {{group}} 加入 {{org}}...
+translation.enterprise.groupOrgs.added	已把 {{group}} 加入 {{org}}
+translation.enterprise.groupOrgs.addFailed	把 {{group}} 加入 {{org}} 失败
+translation.enterprise.groupOrgs.removing	正在把 {{group}} 移出 {{org}}...
+translation.enterprise.groupOrgs.removed	已把 {{group}} 移出 {{org}}
+translation.enterprise.groupOrgs.removeFailed	把 {{group}} 移出 {{org}} 失败
+translation.enterprise.groupOrgs.updatingRole	正在更新 {{group}} 在 {{org}} 的角色...
+translation.enterprise.groupOrgs.updatedRole	已更新 {{group}} 在 {{org}} 的角色
+translation.enterprise.groupOrgs.updateRoleFailed	更新 {{group}} 在 {{org}} 的角色失败
+translation.enterprise.groupOrgs.noneAvailable	无可用组织
+translation.enterprise.groupOrgs.noneAssigned	未分配组织
+translation.enterprise.groupOrgs.changeRoleIn	更改在 {{org}} 的角色
+translation.enterprise.removeFromEnterprise.loading	正在把 {{name}} 移出企业...
+translation.enterprise.removeFromEnterprise.success	已成功把 {{name}} 移出企业
+translation.enterprise.removeFromEnterprise.error	把 {{name}} 移出企业失败
+translation.enterprise.orgMembership.noneSelectedMembers	未选择成员或群组
+translation.enterprise.orgMembership.noneSelectedOrgs	未选择组织
+translation.enterprise.orgMembership.adding	正在添加{{suffix}}...
+translation.enterprise.orgMembership.added	已成功添加{{suffix}}
+translation.enterprise.orgMembership.addFailed	添加{{suffix}}失败
+translation.enterprise.orgMembership.addOrgs	添加组织
+translation.enterprise.orgMembership.removing	正在移除{{suffix}}...
+translation.enterprise.orgMembership.removed	已成功移除{{suffix}}
+translation.enterprise.orgMembership.removeFailed	移除{{suffix}}失败
+translation.enterprise.orgMembership.removeOrgs	移除组织
+translation.enterprise.orgMembership.orgsSelected_one	已选 {{count}} 个组织
+translation.enterprise.orgMembership.orgsSelected_other	已选 {{count}} 个组织
+translation.enterprise.orgMembership.usersCount_one	{{count}} 个用户
+translation.enterprise.orgMembership.usersCount_other	{{count}} 个用户
+translation.enterprise.orgMembership.groupsCount_one	{{count}} 个群组
+translation.enterprise.orgMembership.groupsCount_other	{{count}} 个群组
+translation.enterprise.orgMembership.orgsCount_one	{{count}} 个组织
+translation.enterprise.orgMembership.orgsCount_other	{{count}} 个组织
+translation.enterprise.orgMembership.subjectsAnd	{{users}} 和 {{groups}}
+translation.enterprise.orgMembership.suffixTo	{{subjects}} 到 {{orgs}}
+translation.enterprise.orgMembership.suffixFrom	{{subjects}} 移出 {{orgs}}
+translation.enterprise.orgMembership.addCount_one	添加 {{count}} 个组织
+translation.enterprise.orgMembership.addCount_other	添加 {{count}} 个组织
+translation.enterprise.orgMembership.removeCount_one	移除 {{count}} 个组织
+translation.enterprise.orgMembership.removeCount_other	移除 {{count}} 个组织
+translation.enterprise.roles.loading	正在加载角色...
+translation.enterprise.roles.select	选择角色...
+translation.enterprise.landing.tryAdjust	调整搜索试试
+translation.enterprise.landing.membersCount_one	{{count}} 名成员
+translation.enterprise.landing.membersCount_other	{{count}} 名成员
+translation.enterprise.landing.moreOptions	更多选项
+translation.enterprise.landing.manageSettings	管理设置
+translation.enterprise.landing.noOrgsYet	还没有设置组织。请联系企业管理员创建。
+translation.enterprise.landing.viewOrgs	查看组织
+translation.enterprise.landing.contactAdminTitle	使用 Devin 前，请联系你的企业管理员
+translation.enterprise.landing.askInvite	请企业管理员邀请你加入 Devin 组织，开始使用！
+translation.enterprise.landing.runCloudDesktopTerminal	在云端、桌面或终端运行 Devin
+translation.enterprise.landing.runCloudDesktop	在云端或桌面运行 Devin
+translation.enterprise.landing.runCloudTerminal	在云端或终端运行 Devin
+translation.enterprise.landing.askInviteCloud	请企业管理员邀请你加入 Devin 组织以使用 Devin Cloud。
+translation.enterprise.landing.orTryCli	或者，<lnk>试试 Devin CLI</lnk>
+translation.enterprise.landing.orOpenDesktop	或者<button>打开 Devin Desktop<icon /></button>
+translation.enterprise.landing.orDownloadDesktop	或者，<lnk>下载 Devin Desktop</lnk>
+translation.enterprise.landing.tryCliLink	<lnk>试试 Devin CLI</lnk>
+translation.enterprise.orgLimitNoPermission	你无权查看组织设置
+translation.enterprise.common.selectedCount_one	已选 {{count}} 项
+translation.enterprise.common.selectedCount_other	已选 {{count}} 项
+translation.enterprise.createOrg.nameTooLong	组织名必须少于 40 个字符
+translation.enterprise.createOrg.repoPermsInfo	创建此组织后到 <lnk>repository permissions</lnk> 授予权限
+translation.enterprise.createOrg.noPermsDefault	默认无权限
+translation.enterprise.createOrg.selectMembers	选择要加入此组织的企业成员
+translation.enterprise.createOrg.noMembers	无企业成员
+translation.enterprise.createOrg.membersSelected_one	已选 {{count}} 名成员
+translation.enterprise.createOrg.membersSelected_other	已选 {{count}} 名成员
+translation.enterprise.createOrg.selectMember	选择成员 {{name}}
+translation.enterprise.createOrg.selectGroups	选择要关联到此组织的 IdP 群组
+translation.enterprise.createOrg.searchGroups	搜索群组...
+translation.enterprise.createOrg.groupsSelected_one	已选 {{count}} 个群组
+translation.enterprise.createOrg.groupsSelected_other	已选 {{count}} 个群组
+translation.enterprise.createOrg.creatingToast	正在创建 {{name}} 组织...
+translation.enterprise.createOrg.warnBudget	设置预算失败
+translation.enterprise.createOrg.warnSpend	设置花费上限失败
+translation.enterprise.createOrg.warnAcu	设置 ACU 上限失败
+translation.enterprise.createOrg.warnMembers	添加成员/群组失败
+translation.enterprise.createOrg.createdBut	已创建 {{name}} 组织，但：{{warnings}}
+translation.enterprise.createOrg.createFailed	创建 {{name}} 组织失败
+translation.enterprise.createOrg.success	组织创建成功
+translation.enterprise.createOrg.view	查看组织
+translation.enterprise.createOrg.createAnother	再创建一个组织
+translation.enterprise.createOrg.addMe	把我加为此组织成员
+translation.enterprise.membersPage.noData	所选组织无数据
+translation.enterprise.membersPage.tryRelogin	不符合预期？试试退出再登录。
+translation.enterprise.membersPage.searchMember	搜索成员
+translation.enterprise.membersPage.allRoles	所有企业角色
+translation.enterprise.membersPage.manualInvitesOff	手动邀请已关闭。成员必须通过你的 SSO 提供商添加
+translation.enterprise.orgsPage.updating	正在更新组织...
+translation.enterprise.orgsPage.updated	组织更新成功
+translation.enterprise.orgsPage.updateFailed	更新组织失败
+translation.enterprise.orgsPage.manageTitle	管理 {{name}}
+translation.enterprise.orgsPage.savingChanges	正在保存更改
+translation.enterprise.orgsPage.deleteOrg	删除组织
+translation.enterprise.orgsPage.deleteOrgBody	这将永久删除「{{name}}」及所有关联数据。此操作无法撤销。
+translation.enterprise.orgsPage.updateNameLimits	更新名称和上限
+translation.enterprise.orgsPage.deleting_one	正在删除 {{count}} 个组织...
+translation.enterprise.orgsPage.deleting_other	正在删除 {{count}} 个组织...
+translation.enterprise.orgsPage.deleted_one	已成功删除 {{count}} 个组织
+translation.enterprise.orgsPage.deleted_other	已成功删除 {{count}} 个组织
+translation.enterprise.orgsPage.deleteFailed_one	删除 {{count}} 个组织失败
+translation.enterprise.orgsPage.deleteFailed_other	删除 {{count}} 个组织失败
+translation.enterprise.orgsPage.emptyAdmin	你还没有添加任何组织。
+translation.enterprise.orgsPage.emptyMember	还没有添加任何组织。
+translation.enterprise.orgsPage.addOne	添加一个以开始使用 Devin。
+translation.enterprise.orgsPage.contactAdmin	联系你的企业管理员添加组织。
+translation.enterprise.orgsPage.noMatch	没有匹配搜索的组织。
+translation.enterprise.orgsPage.loadFailedTitle	无法加载组织
+translation.enterprise.orgsPage.loadFailedDescription	组织列表加载失败。稍后重试。
+translation.enterprise.orgsPage.description	你企业中的所有组织，包括你不属于的。
+translation.enterprise.orgsPage.deleteCount_one	删除 {{count}} 个组织
+translation.enterprise.orgsPage.deleteCount_other	删除 {{count}} 个组织
+translation.enterprise.orgsPage.deleteBulkBody_one	确定删除所选的 {{count}} 个组织？此操作无法撤销，将永久移除所有关联数据。
+translation.enterprise.orgsPage.deleteBulkBody_other	确定删除所选的 {{count}} 个组织？此操作无法撤销，将永久移除所有关联数据。
+translation.errorPage.accessDenied	访问被拒绝
+translation.errorPage.accessDeniedDescription	你无权查看此页面。请联系组织管理员申请访问。
+translation.errorPage.featureUnavailable	功能不可用
+translation.errorPage.featureUnavailableDescription	此功能在你的部署中不可用。
+translation.errorPage.orgUnavailable	组织不可用
+translation.errorPage.orgUnavailableDescription	无法打开此组织。你可能不是成员，或它不存在。
+translation.errorPage.orgUnavailableOpenOwnSettings	打开你组织的设置
+translation.errorPage.orgUnavailableOpenOwnCustomize	打开你组织的 Customize 页
+translation.errorPage.reviewEnterpriseDisabled	企业管理员已禁用 Devin Review。需要访问时请企业管理员启用。
+translation.errorPage.reviewPermissionRequired	你的角色没有 Review 设置权限。请向管理员申请 Review 设置访问权。
+translation.errors.goToHomepage	回到首页
+translation.errors.goToSessions	回到会话
+translation.errors.goToStartPage	回到起始页
+translation.errors.invalidWorkspace	无效的工作区
+translation.errors.invalidWorkspaceDescription	{{host}} 不是 Devin Enterprise 工作区。检查 URL 或联系管理员。
+translation.errors.logIn	登录
+translation.errors.pageCouldNotBeFound	找不到此页面。
+translation.errors.botNotFoundRecovery	需要刷新吗？再点一次左侧的 {{botName}} 试试。
+translation.errors.pageNotFound	页面不存在
+translation.errors.retry	重试
+translation.errors.signUp	注册
+translation.errors.somethingWentWrong	出了点问题
+translation.quickReview.button	快速评审
+translation.quickReview.failed	快速评审失败：{{message}}
+translation.quickReview.noModels	你的管理员未启用任何评审模型。
+translation.quickReview.agentRunning	等代理完成工作后再请求评审。
+translation.eyebrow.botUpdatesNudgeTitle	{{botName}} 完成工作时通知你
+translation.eyebrow.botUpdatesNudgeConnectImessage	连接 iMessage
+translation.eyebrow.botUpdatesNudgeConnectSlack	连接 Slack
+translation.eyebrow.shareSessionWithBot_one	此会话将与 <botResults></botResults> 共享
+translation.eyebrow.shareSessionWithBot_other	此会话将与 <botResults></botResults> 共享
+translation.eyebrow.shareSessionFailed	无法与此 {{botName}} 共享此会话。请重试。
+translation.eyebrow.shareBotWithBot_one	<botResults></botResults> 将与此 {{botName}} 共享
+translation.eyebrow.shareBotWithBot_other	<botResults></botResults> 将与此 {{botName}} 共享
+translation.eyebrow.shareBotFailed	无法把提及的 {{botName}} 与此共享。请重试。
+translation.eyebrow.shareSessionFailed_named	无法与 {{botName}} 共享此会话。请重试。
+translation.eyebrow.sharePluginWithBot_one	<plugins></plugins> 插件将与此 {{botName}} 共享
+translation.eyebrow.sharePluginWithBotNamed_one	<plugins></plugins> 插件将与 {{botName}} 共享
+translation.eyebrow.sharePluginWithBot_other	<plugins></plugins> 插件将与此 {{botName}} 共享
+translation.eyebrow.sharePluginWithBotNamed_other	<plugins></plugins> 插件将与 {{botName}} 共享
+translation.eyebrow.sharePluginFailed	无法与此 {{botName}} 共享插件。请重试。
+translation.eyebrow.sharePluginFailed_named	无法与 {{botName}} 共享插件。请重试。
+translation.eyebrow.efficiencyNeedsImprovement	你的会话效率有待改进。
+translation.eyebrow.maxUsageLimit	你已用最大用量上限的 {{used}}/{{limit}} ACU（{{pct}}%）。
+translation.eyebrow.maxUsageLimitWithReset	你已用最大用量上限的 {{used}}/{{limit}} ACU（{{pct}}%）（{{resets}} {{resetsTime}} 重置）。
+translation.eyebrow.maxUsageLimitDollars	你已花最大用量上限的 {{used}}/{{limit}}（{{pct}}%）。
+translation.eyebrow.maxUsageLimitWithResetDollars	你已花最大用量上限的 {{used}}/{{limit}}（{{pct}}%）（{{resets}} {{resetsTime}} 重置）。
+translation.eyebrow.localChangesFiles_one	{{count}} 个文件已更改
+translation.eyebrow.localChangesFiles_other	{{count}} 个文件已更改
+translation.eyebrow.localChangesView	查看更改
+translation.eyebrow.connectProvider	连接 {{provider}}
+translation.eyebrow.connectProviderMessage	连接你的 {{provider}} 账户以用 Devin 开 PR。
+translation.eyebrow.connectProviderRepositoriesMessage	连接你的 {{provider}} 账户以查看你的仓库。
+translation.eyebrow.dismiss	关闭
+translation.eyebrow.loading	加载中...
+translation.eyebrow.missingSetup	Devin 的机器缺少部分配置，任务可能变慢。
+translation.eyebrow.requestMoreUsage	申请更多
+translation.eyebrow.setupIncomplete	配置未完成
+translation.eyebrow.usageLimit	你已用用量上限的 {{used}}/{{limit}} ACU（{{pct}}%）。
+translation.eyebrow.usageLimitDollars	你已用用量上限的 {{used}}/{{limit}}（{{pct}}%）。
+translation.eyebrow.usageLimitPrimaryHitFallback	你已达主用量上限。现在处于减量使用。
+translation.eyebrow.usageLimitPrimaryHitFallbackWithReset	你已达主用量上限（{{resets}} {{resetsTime}} 重置）。现在处于减量使用。
+translation.eyebrow.usageLimitPrimaryHitRemaining	你已达主用量上限。减量使用还剩 {{fallbackRemaining}} ACU。
+translation.eyebrow.usageLimitPrimaryHitRemainingDollars	你已达主用量上限。减量使用还剩 {{fallbackRemaining}}。
+translation.eyebrow.usageLimitPrimaryHitRemainingWithReset	你已达主用量上限（{{resets}} {{resetsTime}} 重置）。减量使用还剩 {{fallbackRemaining}} ACU。
+translation.eyebrow.usageLimitPrimaryHitRemainingWithResetDollars	你已达主用量上限（{{resets}} {{resetsTime}} 重置）。减量使用还剩 {{fallbackRemaining}}。
+translation.eyebrow.usageLimitWithReset	你已用用量上限的 {{used}}/{{limit}} ACU（{{pct}}%）（{{resets}} {{resetsTime}} 重置）。
+translation.eyebrow.usageLimitWithResetDollars	你已用用量上限的 {{used}}/{{limit}}（{{pct}}%）（{{resets}} {{resetsTime}} 重置）。
+translation.eyebrow.usagePace	按当前速度你将用到 {{projected}}%。
+translation.eyebrow.viewDetails	查看详情
+translation.figmaCard.connect	连接
+translation.figmaCard.connectToPreview	连接 Figma MCP 以预览此文件
+translation.figmaCard.design	Figma 设计
+translation.figmaCard.tryAgain	重试
+translation.fileSearch.authoredBy	作者 {{name}}
+translation.fileSearch.commands	命令
+translation.fileSearch.enterprisePlugin	企业插件
+translation.fileSearch.enterpriseSkills	企业技能
+translation.fileSearch.interactiveArtifactsDescription	构建交互式报告、图表或示意图
+translation.fileSearch.loadingResults	加载结果中…
+translation.fileSearch.mentionCardLoadFailed	无法加载关联账户
+translation.fileSearch.mentionCardLoading	加载账户中…
+translation.fileSearch.noCategoryItems	未找到{{category}}
+translation.fileSearch.noMatchesFound	未找到匹配
+translation.fileSearch.noRepositoriesIndexed	没有已索引仓库。请先完成仓库配置。
+translation.fileSearch.noResults	未找到结果
+translation.fileSearch.organizationPlugin	组织插件
+translation.fileSearch.organizationSkills	组织技能
+translation.fileSearch.personalPlugin	个人插件
+translation.fileSearch.personalSkills	个人技能
+translation.fileSearch.pluginSkills	插件技能
+translation.fileSearch.skillFrom	来自 {{source}}
+translation.fileSearch.pluginInstalling	{{name}} 安装中
+translation.fileSearch.pluginInstallingResources	就绪后资源可用
+translation.fileSearch.skillPluginNotActivated	此技能的插件未在本会话激活。开新会话使用它。
+translation.fileSearch.skillSourceBuiltin	Devin
+translation.fileSearch.skillSourceYou	你
+translation.fileSearch.typeToSearch	输入以搜索
+translation.fileSearch.unknownAuthor	未知
+translation.fileSearch.mentionDescPeople	你组织的成员
+translation.fileSearch.mentionDescSlackChannels	你可见的 Slack 频道
+translation.fileSearch.slackChannelBotNotIn	{{botName}} 不在此频道
+translation.fileSearch.mentionDescRepos	加到 Devin 机器的所有仓库
+translation.fileSearch.mentionDescWorkItems	你项目跟踪器中的工单
+translation.fileSearch.mentionDescFiles	所有已索引文件
+translation.fileSearch.mentionDescMacros	来自 Knowledge 的宏
+translation.fileSearch.mentionDescPlugins	为你安装的插件
+translation.fileSearch.mentionDescSecrets	组织内所有全局机密
+translation.fileSearch.mentionDescSessions	提及其他 Devin 会话
+translation.fileSearch.mentionDescSkills	仓库中可用的技能
+translation.fileSearch.mentionDescPlaybooks	所有团队和社区 playbook
+translation.fileSearch.mentionDescPlaybooksMoved	你的 playbook 变成的技能
+translation.fileSearch.mentionDescBots	你可用的 {{botNamePlural}}
+translation.fileSearch.categoryDisabled	类别已禁用
+translation.fileUploader.dropFilesHere	把文件拖到这里
+translation.fileUploader.dropFilesToShare	拖文件与 Devin 共享
+translation.fileUploader.fileTooLarge	文件 {{fileName}} 超过最大允许大小 {{maxSizeMb}}MB
+translation.fileUploader.filesTooLargeNames	{{names, list}}
+translation.fileUploader.filesTooLarge_one	{{count}} 个文件超过最大允许大小 {{maxSizeMb}}MB
+translation.fileUploader.filesTooLarge_other	{{count}} 个文件超过最大允许大小 {{maxSizeMb}}MB
+translation.fileUploader.uploadFailed	上传 {{fileName}} 失败：{{message}}
+translation.filterCategory.other	其他
+translation.filterCategory.selectAll	全选
+translation.filterCategory.unnamed	未命名
+translation.filterCategory.noResultsFor	{{name}} 无结果
+translation.filterDate.after	{{date}} 之后
+translation.filterTags.loadingTags	加载标签中...
+translation.filterTags.recentlyUsedTags	最近用过的标签
+translation.filterTags.searchTags	搜索标签...
+translation.filterTags.selectedTags	已选标签
+translation.filterTags.tagsCount_one	{{count}} 个标签
+translation.filterTags.tagsCount_other	{{count}} 个标签
+translation.find.close	关闭查找
+translation.find.invalidRegex	无效正则表达式
+translation.find.matchPosition	{{current}} / {{total}}
+translation.find.matchPositionPartial	{{current}} / {{total}}+
+translation.find.nextMatch	下一个匹配
+translation.find.noResults	无结果
+translation.find.placeholder	在 {{label}} 中搜索
+translation.find.previousMatch	上一个匹配
+translation.find.scopeFile	文件
+translation.find.scopePane	标签页
+translation.find.scopeReview	PR
+translation.find.scopeSession	聊天
+translation.ghesInstall.accept	接受
+translation.ghesInstall.accepting	正在接受…
+translation.ghesInstall.alreadyConnectedMessage	此安装已关联到 {{enterprise}}。
+translation.ghesInstall.alreadyConnectedTitle	安装已连接
+translation.ghesInstall.completeTitle	完成 GitHub Enterprise 安装
+translation.ghesInstall.connectPrompt	把 <code>{{host}}</code> 上的 <strong>{{account}}</strong> 连接到 <strong>{{enterprise}}</strong>？
+translation.ghesInstall.goToHome	回到首页
+translation.ghesInstall.invalidStateMessage	请从 Settings > Integrations 重试。
+translation.ghesInstall.invalidStateTitle	GitHub Enterprise 安装状态无效
+translation.ghesInstall.lookupFailedMessage	无法加载安装详情。请重试。
+translation.ghesInstall.lookupFailedTitle	安装查询失败
+translation.ghesInstall.reject	拒绝
+translation.ghesInstall.requestedMessage	请 GitHub Enterprise 管理员批准安装。批准后回到 Devin Settings > Integrations 完成安装。
+translation.ghesInstall.requestedTitle	已请求 GitHub 安装
+translation.ghesInstall.signIn	登录
+translation.ghesInstall.signInMessage	你已在 GitHub Enterprise 实例上安装 GitHub App。登录 Devin 把它关联到你的企业。
+translation.ghesInstall.signInTitle	登录以完成安装
+translation.ghesInstall.somethingWentWrong	出了点问题。请重试。
+translation.ghesInstall.unknownInstallationMessage	找不到此 GitHub Enterprise App 配置。请从 Settings > Integrations 重试。
+translation.ghesInstall.unknownInstallationTitle	未知安装
+translation.ghesInstall.wrongAccountMessage	此 GitHub Enterprise 安装属于另一个 Devin 企业。换账户重试。
+translation.ghesInstall.wrongAccountTitle	Devin 账户不对
+translation.ghesInstall.yourDevinEnterprise	你的 Devin 企业
+translation.gitOnboarding.ownerRequiredToConnect	只有 GitHub 组织所有者能连接。请所有者连接。
+translation.gitOnboarding.authenticateViaCliWarning	在 Devin 的机器上通过 GitHub CLI 认证。部分功能（包括 Devin Review）将不可用。
+translation.gitOnboarding.signInRequired	需要登录
+translation.gitOnboarding.back	返回
+translation.gitOnboarding.close	关闭
+translation.gitOnboarding.connect	连接
+translation.gitOnboarding.connectGithub	连接 GitHub
+translation.gitOnboarding.connectViaCli	通过 CLI 连接
+translation.gitOnboarding.connectedAs	已连接为 {{name}}
+translation.gitOnboarding.connecting	连接中...
+translation.gitOnboarding.disconnectAppToUnlink	滚动到 Danger zone 点 Uninstall。这会移除现有集成，你就能在这里把此组织连接到 Devin。<learnMoreLink>了解更多</learnMoreLink>
+translation.gitOnboarding.done	完成
+translation.gitOnboarding.reloadToTryAgain	刷新页面重试。
+translation.gitOnboarding.couldNotLoadGithubAccounts	无法加载你的 GitHub 账户
+translation.gitOnboarding.githubDangerZoneAlt	显示卸载选项的 GitHub danger zone
+translation.gitOnboarding.loading	加载中
+translation.gitOnboarding.manage	管理
+translation.gitOnboarding.uninstallOnGithubTitle	在 GitHub 上卸载
+translation.gitOnboarding.oneTimeCode	一次性代码：
+translation.gitOnboarding.openGithub	打开 GitHub
+translation.gitOnboarding.or	或
+translation.gitOnboarding.pasteCodeInto	把代码粘贴到
+translation.gitOnboarding.retry	重试
+translation.gitOnboarding.run	运行
+translation.gitOnboarding.running	运行中
+translation.gitOnboarding.showMore	再显示 {{count}} 个
+translation.gitOnboarding.signInToConnectGithub	登录以连接 GitHub。
+translation.gitOnboarding.skipForNow	暂时跳过
+translation.gitOnboarding.takenToGithubToManage	点下方「打开 GitHub」前往此组织的 Devin app 设置。
+translation.gitOnboarding.uninstallDisconnectsUnknownWarning	这会断开 GitHub 与当前使用它的 Devin 账户。
+translation.gitOnboarding.uninstallDisconnectsWarning	这会断开 GitHub 与 {{name}}。
+translation.gitOnboarding.uninstallNotSuspendNote	确保点 Uninstall，不是 Suspend。
+translation.gitOnboarding.requested	已请求
+translation.gitOnboarding.requesting	请求中...
+translation.gitOnboarding.joined	已加入
+translation.gitOnboarding.joining	加入中...
+translation.gitOnboarding.memberCount_one	{{count}} 名成员
+translation.gitOnboarding.memberCount_other	{{count}} 名成员
+translation.gitOnboarding.failedToConnectOrganization	连接组织失败
+translation.gitOnboarding.tryReinstallingGithubApp	请重装 GitHub app 试试。
+translation.gitOnboarding.yourGithubConnectedToOtherAccounts	你的 GitHub 已连接其他账户
+translation.gitOnboarding.githubLoginLinkedToAccounts	<login>{{login}}</login> 已关联以下 Devin 账户
+translation.gitOnboarding.yourGithubLinkedToAccounts	你的 GitHub 已关联以下 Devin 账户
+translation.gitOnboarding.teamMayAlreadyUseDevin	你的团队可能已在用 Devin
+translation.gitOnboarding.memberOfOrgsConnectedToAccounts	你是连接这些账户的 GitHub 组织的成员
+translation.gitOnboarding.finishConnectingGithub	完成 GitHub 连接
+translation.gitOnboarding.installedButNotConnected	Devin 已装在这些 GitHub 组织上，但还没连接到 Devin 账户
+translation.gitOnboarding.youOrTeamMayUseDevin	你或你的团队可能已在用 Devin
+translation.gitOnboarding.chooseHowToConnectGithub	选择你想怎么连接 GitHub
+translation.gitOnboarding.accountsWithYourGithubProfile	已连接你 GitHub 资料的账户
+translation.gitOnboarding.orgsPartiallyInstalled	部分安装了 Devin 的 GitHub 组织
+translation.gitOnboarding.orgsPartiallyInstalledInfo	Devin GitHub app 已装在这些组织上，但没有 Devin 账户完成连接。
+translation.gitOnboarding.personalGithubMatchInfo	这些 Devin 账户连接了你登录所用的 GitHub 账户。
+translation.gitOnboarding.orgMembershipMatchInfo	这些 Devin 账户连接了你所属的 GitHub 组织。
+translation.gitOnboarding.join	加入
+translation.gitOnboarding.requestAccess	申请访问
+translation.gitOnboarding.accountSuspended	账户已停用
+translation.gitOnboarding.chooseDifferentOrganization	换个组织
+translation.gitOnboarding.continueWithThisAccount	用此账户继续
+translation.gitOnboarding.signOut	退出登录
+translation.gitOnboarding.signOutAndUseAnotherEmail	退出并换邮箱
+translation.gitOnboarding.connectGithubOrganizationTitle	连接 GitHub 组织
+translation.gitOnboarding.chooseExistingOrNewOrg	选一个已有或新的 GitHub 组织安装 Devin
+translation.gitOnboarding.chooseExistingOrNewOrgInfo	你需要该 GitHub 组织的管理员权限才能安装 Devin app。
+translation.gitOnboarding.recommended	推荐
+translation.gitOnboarding.createNewInstallation	在此账户上新建安装
+translation.gitOnboarding.directlyInstallOnDevinMachine	直接装到 Devin 的机器上
+translation.gitOnboarding.useCredentialsOnDevinMachine	在 Devin 的机器上用你的凭据
+translation.gitOnboarding.someOrgsLinkedToOtherAccounts	你的一些组织已关联其他账户
+translation.gitOnboarding.linkedToAnotherAccount	已关联另一账户
+translation.gitOnboarding.linkedTo	已关联 {{name}}
+translation.gitOnboarding.adminMustUninstallFirst	GitHub 管理员必须先从该组织卸载 Devin app，你才能在这里连接。
+translation.gitOnboarding.skip	跳过
+translation.gitOnboarding.uninstallPreviousIntegration	卸载之前的 GitHub 集成
+translation.gitOnboarding.requiredToUseOrgOnAccount	在此 Devin 账户上使用 <orgLink>{{org}}</orgLink> GitHub 组织所必需
+translation.gitOnboarding.visitAppSettingsForDevin	打开「Devin」的 app 设置
+translation.gitOnboarding.findDangerZoneSection	找到 <dangerZone>Danger Zone</dangerZone> 部分
+translation.gitOnboarding.youWillSeeUninstallAndSuspend	你会看到「uninstall」和「suspend」
+translation.gitOnboarding.clickUninstall	点 Uninstall
+translation.gitOnboarding.thisWillRemoveTheApp	这会移除该 app
+translation.gitOnboarding.inviteManager.sentTo	邀请已发给 {{email}}
+translation.gitOnboarding.inviteManager.sendFailed	发送邀请失败。请重试。
+translation.gitOnboarding.inviteManager.sentShare	邀请已发送。你也可以分享此链接
+translation.gitOnboarding.inviteManager.inviteLink	邀请链接
+translation.gitOnboarding.inviteManager.copyLink	复制链接
+translation.gitOnboarding.inviteManager.teammateEmail	队友的邮箱
+translation.gitOnboarding.inviteManager.sending	发送中…
+translation.gitOnboarding.inviteManager.invite	邀请
+translation.gitOnboarding.inviteManager.title	邀请你的 Git 管理员
+translation.gitOnboarding.inviteManager.noPermissionInvite	你无权连接 Git 提供商。邀请有权限的队友。
+translation.gitOnboarding.inviteManager.noPermissionAdmin	你无权连接 Git 提供商。请管理员批准安装。
+translation.gitOnboarding.inviteManager.description	我们会邮件发他一个链接，把你的 Git 提供商连到 Devin
+translation.githubInstall.accept	接受
+translation.githubInstall.acceptFailed	无法连接此 GitHub 安装。请重试。
+translation.githubInstall.accepting	正在接受…
+translation.githubInstall.authorizedMessage	（登录 Devin 状态下）在 Settings > Integrations 完成安装
+translation.githubInstall.authorizedTitle	GitHub 集成已授权
+translation.githubInstall.completeTitle	完成 GitHub 安装
+translation.githubInstall.connectPrompt	要把此 GitHub 安装连接到 <strong>{{orgName}}</strong> 组织吗？
+translation.githubInstall.goToHome	回到首页
+translation.githubInstall.invalidStateMessage	请重试。
+translation.githubInstall.invalidStateTitle	GitHub 安装状态无效
+translation.githubInstall.noPermissionMessage	你的账户无权把 GitHub 连接到 <strong>{{orgName}}</strong>。请该组织管理员在 Settings > Integrations 完成安装。
+translation.githubInstall.noPermissionTitle	你无法把 GitHub 连接到此组织
+translation.githubInstall.reject	拒绝
+translation.githubInstall.requestedMessage	请 GitHub 组织管理员批准安装。批准后回到 Devin Settings > Integrations 完成安装。
+translation.githubInstall.requestedTitle	已请求 GitHub 安装
+translation.githubInstall.tryAgain	重试
+translation.githubInstallationsModal.ownerRequiredToConnect	只有 GitHub 组织所有者能连接。请所有者连接。
+translation.githubInstallationsModal.installDirectlyHint	你仍可直接在 GitHub 组织上安装 Devin。
+translation.hardCapAcknowledgeModal.dialogLabel	已达会话上限
+translation.incidentIo.apiKeyLabel	API key
+translation.incidentIo.apiKeyPlaceholder	输入 API key
+translation.incidentIo.cancel	取消
+translation.incidentIo.connect	连接
+translation.incidentIo.connectDialogDescription	在 <apiKeysLink>incident.io API keys</apiKeysLink> 创建一个有查看权限的 key。只有你路由私有事件时才加 "act in private incidents"
+translation.incidentIo.connectDialogTitle	连接 incident.io
+translation.incidentIo.connectedAt	连接于 {{date}}
+translation.incidentIo.copyUrl	复制 URL
+translation.incidentIo.copyWebhookUrl	复制 webhook URL
+translation.incidentIo.copyWebhookUrlFailed	复制 webhook URL 失败
+translation.incidentIo.disconnect	断开连接
+translation.incidentIo.disconnectDescription	确定断开 incident.io？Devin 将停止接收事件
+translation.incidentIo.disconnectTitle	断开 incident.io
+translation.incidentIo.invalidKeyBanner	已存的 API key 似乎无效或被吊销。用新 key 重新连接。
+translation.incidentIo.loadFailedBody	加载 incident.io 集成状态时出错。
+translation.incidentIo.loadFailedTitle	加载 incident.io 状态失败
+translation.incidentIo.pageDescription	连接 incident.io，让 Devin 能调查和解决事件。
+translation.incidentIo.reconnectWithNewKey	用新 key 重新连接
+translation.incidentIo.save	保存
+translation.incidentIo.settingsTitle	设置
+translation.incidentIo.signingSecretMissing	保存签名密钥前无法验证事件。
+translation.incidentIo.signingSecretLabel	签名密钥
+translation.incidentIo.signingSecretRequired	签名密钥必填
+translation.incidentIo.signingSecretSaved	签名密钥已保存
+translation.incidentIo.tryAgain	重试
+translation.incidentIo.webhookStep1	在 incident.io 进入 Settings → Webhooks，用此 URL 创建端点
+translation.incidentIo.webhookStep2	在 "Subscribe to events" 下，选 public_incident 里四个 v2 事件——incident_created_v2、incident_status_updated_v2、incident_updated_v2 和 follow_up_created_v2（要投递私有事件就加 private_incident 版本）——或留空发送全部；Devin 会忽略它不用的事件类型
+translation.incidentIo.webhookStep3	把端点的签名密钥粘贴到下方
+translation.incidentIo.webhookSubtitle	把 incident.io 的事件投递到 Devin
+translation.incidentIo.webhookTitle	Webhook 端点
+translation.incidentIo.webhookUrlLabel	Webhook URL
+translation.incidentIo.workspaceFallback	incident.io 工作区
+translation.incidentIo.connectDialogValidation.apiKeyRequired	API key 必填
+translation.incidentIo.connectToSelectKind.team	连接 incident.io 以选择团队
+translation.incidentIo.connectToSelectKind.severity	连接 incident.io 以选择严重级别
+translation.incidentIo.connectToSelectKind.status	连接 incident.io 以选择状态
+translation.incidentIo.connectToSelectKind.incidentType	连接 incident.io 以选择事件类型
+translation.incidentIo.kindIncidentType	事件类型
+translation.incidentIo.kindSeverity	严重级别
+translation.incidentIo.kindStatus	状态
+translation.incidentIo.kindTeam	团队
+translation.incidentIo.linkMcpNotInstalledToast	你的组织还没安装 incident.io MCP 服务器。请管理员先连接 incident.io。
+translation.incidentIo.loadingOptions	正在加载{{kind}}选项…
+translation.incidentIo.mcpInstalled	此组织已安装 incident.io MCP 服务器
+translation.incidentIo.mcpLinked	已关联你的 incident.io 账户
+translation.incidentIo.mcpManage	管理 MCP 服务器
+translation.incidentIo.mcpNotInstalled	还没安装 incident.io MCP 服务器
+translation.incidentIo.mcpNotLinked	你的 incident.io 账户还没关联。从你的个人 Connections 关联。
+translation.incidentIo.mcpOpenPersonalConnections	打开个人 Connections
+translation.incidentIo.mcpSetup	用 OAuth 设置
+translation.incidentIo.mcpPerOrganization	MCP 服务器按组织安装。打开你某个组织的 Connections，从那儿的 MCP marketplace 设置 incident.io。
+translation.incidentIo.mcpSubtitle	Devin 会话通过 incident.io MCP 服务器读写事件。每个组织用 OAuth 从 MCP marketplace 安装；之后每个成员从个人 Connections 关联自己的 incident.io 登录。API key 不与它共享。
+translation.incidentIo.mcpTitle	MCP 服务器
+translation.incidentIo.noOptionsFound	未找到{{kind}}选项
+translation.incidentIo.searchKind	搜索{{kind}}…
+translation.incidentIo.selectKind	选择{{kind}}…
+translation.incidentIo.userLinkLinkedLabel	已关联你的 incident.io 账户
+translation.incidentIo.userLinkUnlinkFailed	取消关联 incident.io 失败
+translation.incidentIo.toast.connected	incident.io 已连接
+translation.incidentIo.toast.invalidApiKey	incident.io API key 无效
+translation.incidentIo.toast.unreachable	无法连接 incident.io。请重试。
+translation.incidentIo.toast.connectFailed	连接 incident.io 失败
+translation.incidentIo.toast.signingSecretSaved	签名密钥已保存
+translation.incidentIo.toast.signingSecretSaveFailed	保存签名密钥失败
+translation.incidentIo.toast.disconnected	incident.io 已断开
+translation.incidentIo.toast.disconnectFailed	断开 incident.io 失败
+translation.jiraDataCenter.connect	连接
+translation.jiraDataCenter.connectInstance	连接实例
+translation.jiraDataCenter.connecting	连接中…
+translation.jiraDataCenter.back	返回
+translation.jiraDataCenter.next	下一步
+translation.jiraDataCenter.stepUrlTitle	连接 Jira Data Center
+translation.jiraDataCenter.stepUrlDescription	输入你的 Jira Data Center 实例的基础 URL。Devin 会检查它是否为受支持版本
+translation.jiraDataCenter.stepOauthTitle	传入应用链接
+translation.jiraDataCenter.stepOauthDescription	在 Jira 中用下方重定向 URL 和 WRITE scope 创建传入应用链接，然后把它的 client ID 和 secret 粘贴到这里
+translation.jiraDataCenter.stepTokenTitle	服务账户 token
+translation.jiraDataCenter.stepTokenDescription	粘贴 Devin 用于读取和 webhook 的 Jira 服务用户的个人访问 token。该用户需要 Browse Projects 权限
+translation.jiraDataCenter.baseUrl	基础 URL
+translation.jiraDataCenter.baseUrlRequired	基础 URL 必填
+translation.jiraDataCenter.validateUrl	验证 URL
+translation.jiraDataCenter.validating	验证中…
+translation.jiraDataCenter.validateUrlFailed	无法验证 Jira URL
+translation.jiraDataCenter.validatedVersion	{{host}} 运行 Jira Data Center {{version}}。
+translation.jiraDataCenter.redirectUrl	重定向 URL
+translation.jiraDataCenter.copyRedirectUrl	复制重定向 URL
+translation.jiraDataCenter.name	连接名称
+translation.jiraDataCenter.nameRequired	连接名称必填
+translation.jiraDataCenter.clientId	Client ID
+translation.jiraDataCenter.clientIdRequired	Client ID 必填
+translation.jiraDataCenter.clientSecret	Client secret
+translation.jiraDataCenter.clientSecretRequired	Client secret 必填
+translation.jiraDataCenter.serviceToken	个人访问 token
+translation.jiraDataCenter.serviceTokenRequired	个人访问 token 必填
+translation.jiraDataCenter.serviceTokenExpiry	Token 过期时间
+translation.jiraDataCenter.createFailed	无法创建连接
+translation.jiraDataCenter.webhookTitle	在 Jira 注册 webhook
+translation.jiraDataCenter.webhookDescription	在 Jira 进入 System → WebHooks，用此 URL 和密钥为 issue 事件创建 webhook。
+translation.jiraDataCenter.routeInternal	内网
+translation.jiraDataCenter.routeDirect	直连
+translation.jiraDataCenter.rotate	轮换服务 token
+translation.jiraDataCenter.rotating	轮换中…
+translation.jiraDataCenter.rotateTitle	轮换服务 token
+translation.jiraDataCenter.rotateDescription	粘贴服务账户的新个人访问 token。旧 token 立即失效
+translation.jiraDataCenter.rotateSucceeded	服务 token 已轮换
+translation.jiraDataCenter.rotateFailed	无法轮换服务 token
