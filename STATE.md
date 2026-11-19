@@ -78,3 +78,9 @@ literals: ~360/938（part01 已写，覆盖 0-458 白名单 + 459+ 句选；其�
 - MCP 工具走 stdio：scripts/mcp-client.mjs installedTool；工具名：openmotion_create_project / import_assets / edit_project / export_request 等；docs/mcp-phase1-tools.md 有契约
 - 素材就绪：/tmp/devin-icon/c-*.png（简繁特性卡+结尾卡）、cover.png、截图在 ~/work/devin-desktop-zh/assets/screenshots/、demo-clean.mp4、pstack-tour-2 录屏在 ~/screencasts/
 - 已有成品（ffmpeg 版）：promo-zh-cn/tw.mp4 各仓库 assets/，本次要出 openmotion 版本
+
+## 2026-11-19 marketplace 投稿
+- 插件化打包完成：.devin-plugin/plugin.json + skills/devin-desktop-zh + logo.png + setup
+- 深审 validate.py 382 行源码：PLUGIN_KEYS/LOGO_RE/NAME_RE/shadow files 全过
+- 修：补 MIT LICENSE、setup 移到 shortDescription 后、重 pin da71d23 并 force-push fork 分支
+- validate --fix + --fetch 均 ok:238
