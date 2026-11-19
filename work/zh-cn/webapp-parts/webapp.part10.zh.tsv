@@ -1,0 +1,500 @@
+translation.apps.deployment.started	开始于
+translation.apps.deployment.stopped	停止于
+translation.apps.deployment.commit	提交
+translation.apps.deployment.repository	仓库
+translation.apps.deployment.command	命令
+translation.apps.deployment.notFound	未找到部署
+translation.apps.deployment.preview	预览 · {{branch}}
+translation.apps.deployment.output	输出
+translation.apps.deployment.copyOutput	复制输出
+translation.apps.filterAllStatuses	全部状态
+translation.apps.filterAllBranches	全部分支
+translation.apps.deleteTypeName	输入 \\
+translation.automations.batchMaxSize	批大小
+translation.automations.batchMaxSizeDescription	每次运行的事件数，2 到 100；凑满一批立即运行
+translation.automations.batchTimeout	批超时（秒）
+translation.automations.batchTimeoutDescription	未满批时首个事件最长等待秒数，1 到 3600
+translation.automations.batching	启用批量处理
+translation.automations.batchingDescription	收集匹配的事件并在一次运行中一起处理。自动化创建后不能再开关
+translation.automations.batchingLockedDescription	匹配的事件会被收集并在一次运行中一起处理。批量处理无法关闭，此自动化的触发器、动作、回复和 Preflight 检查也不可更改
+translation.automations.eventBatch	批次 {{id}}
+translation.automations.eventBatchedDescription	与批次中其他事件在同一个会话里一起处理
+translation.automations.resourcePullRequest	Pull Request
+translation.automations.resourcePrReview	PR 评审
+translation.automations.resourceIssueComment	Issue 评论
+translation.automations.resourceIssue	Issue
+translation.automations.resourceCheckRun	Check Run
+translation.automations.resourceCheckRunInRepo	{{repoName}} 中的 Check Run
+translation.automations.resourceWorkflowRun	Workflow 运行
+translation.automations.resourceWorkflowRunInRepo	{{repoName}} 中的 Workflow 运行
+translation.automations.resourcePush	推送到 {{repoName}} 的 {{branch}}
+translation.automations.resourceSlackThread	Slack 线程
+translation.automations.resourceSlackMessage	Slack 消息
+translation.automations.resourceLinearIssue	Linear Issue
+translation.automations.resourceLinearIssueWithTitle	Linear Issue：{{title}}
+translation.automations.resourceJiraIssue	Jira Issue
+translation.automations.resourceJiraIssueWithSummary	Jira Issue：{{summary}}
+translation.automations.triggerPolicyBlockedTooltip	被触发器策略阻止
+translation.automations.triggerPolicyLoadingTooltip	正在检查触发器策略…
+translation.automations.byUser	由 {{name}}
+translation.automations.organizationDefaultMode	组织默认
+translation.automations.activityTabs	自动化活动
+translation.automations.codeScanTarget	扫描
+translation.automations.codeScanTargetDescription	开始新扫描，或对现有扫描扫描新提交
+translation.automations.createNewScanOption	创建新扫描
+translation.automations.createNewScanOptionDescription	在下方配置仓库、扫描类型和配置文件
+translation.automations.lastRun	最近运行
+translation.automations.scanHasNoCompletedRun	需要一次完成的全量扫描后才能扫描新提交
+translation.automations.scanFindingRemediationSummary	{{severities, list}} 严重级别
+translation.automations.threatScanDescription	每次运行在这些仓库中扫描触发事件（Cognition 和你团队的）发布的威胁；没有仍开放的威胁则跳过。Devin 按你的威胁模型重新排序发现。
+translation.automations.threatScanTriggerRequired	威胁扫描需要以「安全威胁：已发布」作为唯一触发器
+translation.automations.scanNewCommitsExplainer	每次运行扫描自上次完成运行以来新增的提交，并计入该扫描的运行历史。
+translation.automations.scanNotFound	未找到扫描
+translation.automations.selectScan	选择一个扫描
+translation.automations.slackIdentity	Slack 身份
+translation.automations.slackIdentityDescription	以自定义名称和头像发布此自动化的 Slack 消息
+translation.automations.slackIdentityName	显示名称
+translation.automations.slackIdentityChangePicture	更换头像
+translation.automations.slackIdentityRemovePicture	移除头像
+translation.automations.slackIdentityEditName	编辑名称
+translation.automations.slackIdentityPreviewMessage	此自动化的消息在 Slack 中将这样显示。
+translation.automations.slackIdentityPictureTooLarge	头像必须小于 5 MB
+translation.automations.slackIdentityPictureUploadFailed	上传头像失败
+translation.automations.slackCappedByProfile	受配置文件上限约束
+translation.automations.slackChannelsCappedByProfile	此自动化授予的 Slack 频道访问超出了管控安全配置；运行时超出的访问会被丢弃。
+translation.automations.slackChannelsCappedByProfile_named	此自动化授予的 Slack 频道访问超出了安全配置「{{name}}」；运行时超出的访问会被丢弃。
+translation.automations.slackDmsCappedByProfile	此自动化授予的 Slack 私信超出了管控安全配置；运行时私信范围会被收窄。
+translation.automations.slackDmsCappedByProfile_named	此自动化授予的 Slack 私信超出了安全配置「{{name}}」；运行时私信范围会被收窄。
+translation.automations.teamsCappedByProfile	受配置文件上限约束
+translation.automations.teamsChannelsCappedByProfile	此自动化授予的 Microsoft Teams 频道访问超出了管控安全配置；运行时超出的访问会被丢弃。
+translation.automations.teamsChannelsCappedByProfile_named	此自动化授予的 Microsoft Teams 频道访问超出了安全配置「{{name}}」；运行时超出的访问会被丢弃。
+translation.automations.teamsDmsCappedByProfile	此自动化授予的 Microsoft Teams 私信超出了管控安全配置；运行时私信范围会被收窄。
+translation.automations.teamsDmsCappedByProfile_named	此自动化授予的 Microsoft Teams 私信超出了安全配置「{{name}}」；运行时私信范围会被收窄。
+translation.automations.teamsTriggerChannelExcludedByProfile	管控安全配置排除了此自动化的 Teams 触发频道；运行将以无该频道权限启动。
+translation.automations.teamsTriggerChannelExcludedByProfile_named	安全配置「{{name}}」排除了此自动化的 Teams 触发频道；运行将以无该频道权限启动。
+translation.automations.teamsAllInstalledTeams	已安装团队的所有公共频道
+translation.automations.teamsAllInstalledTeamsWithDms	已安装团队的所有公共频道 + 私信
+translation.automations.teamsDirectMessages	私信
+translation.automations.teamsDirectMessagesHelper	只能触达在 Teams 中安装了 Devin 应用的人。
+translation.automations.teamsDmScope	Microsoft Teams 私信范围
+translation.automations.teamsOnlyInstalledTeamsAvailable	只有安装了 Devin 的团队可选
+translation.automations.teamsNoInstalledTeams	尚未在任何团队中安装 Devin 应用
+translation.automations.teamsConnectInSettings	在设置中连接
+translation.automations.teamsNotConnected	未连接
+translation.automations.searchTeamsChannels	搜索 Microsoft Teams 频道
+translation.automations.actionTypeAutoTriage	自动分诊
+translation.automations.actionTypeMessageSession	向会话发消息
+translation.automations.actionTypeMonitorSession	分诊 Devin
+translation.automations.actionItem	动作
+translation.automations.actionTypeNotify	邮件通知
+translation.automations.actionTypeReadinessScan	就绪度扫描
+translation.automations.actionTypeRemediate	修复
+translation.automations.actionTypeScanNewCommits	扫描新提交
+translation.automations.actionTypeStartCodeScan	开始代码扫描
+translation.automations.actionTypeStartThreatScan	开始威胁扫描
+translation.automations.actionTypeStartSession	启动会话
+translation.automations.active	活跃
+translation.automations.paused	已暂停
+translation.automations.activityLoadError	无法加载活动。
+translation.automations.acuLimitPerSession	每会话 ACU 上限
+translation.automations.acus	ACU
+translation.automations.azureDevopsPublicProjectWarning	出于安全考虑，自动化不会因公共 Azure DevOps 项目中仓库的事件触发。
+translation.automations.bitbucketDataCenterPublicRepoWarning	出于安全考虑，自动化不会因公共 Bitbucket Data Center 仓库或项目的事件触发。
+translation.automations.addAtLeastOneAction	至少添加一个动作
+translation.automations.addAtLeastOneTrigger	至少添加一个触发器
+translation.automations.addAutomation	添加自动化
+translation.automations.addCondition	添加条件
+translation.automations.accessibleDomains	可访问域名
+translation.automations.addDomain	添加域名
+translation.automations.added	已添加
+translation.automations.addedCount_one	已添加 {{count}} 项
+translation.automations.addedCount_other	已添加 {{count}} 项
+translation.automations.addMetadata	添加元数据
+translation.automations.addNotification	添加通知
+translation.automations.addTrigger	添加触发器
+translation.automations.addTriggerPicker	添加触发器
+translation.automations.advanced	高级
+translation.automations.agentDefinition	代理定义
+translation.automations.agentDefinitionDescription	定义触发器激活时发生什么
+translation.automations.agentMode	代理模式
+translation.automations.agentNumberSuffix	· 代理 {{number}}
+translation.automations.agentType	代理类型
+translation.automations.agentTypeAutoTriage	自动分诊
+translation.automations.agentTypeAutoTriageDescription	监视 Slack 频道并自动分诊新消息
+translation.automations.agentTypeCodeScan	代码扫描
+translation.automations.agentTypeCodeScanDescription	每次触发启动一次全新代码扫描
+translation.automations.agentTypeThreatScan	威胁扫描
+translation.automations.agentTypeThreatScanDescription	扫描新发布的威胁
+translation.automations.agentTypeAutoTriageSlackOnly	自动分诊目前仅支持 Slack → 消息触发器。
+translation.automations.agentTypeAutoTriageV2Description	按触发跟踪、分诊并调查问题
+translation.automations.agentTypeGenericAssistant	助手
+translation.automations.agentTypeGenericAssistantDescription	在 Slack 线程中回答问题、调查并处理请求
+translation.automations.agentTypeGenericAssistantSlackOnly	助手目前仅支持 Slack → 消息触发器。
+translation.automations.agentTypeDescription	决定代理对新事件做什么
+translation.automations.agentTypeLocked	代理类型创建后不可更改。复制此自动化以更改。
+translation.automations.agentTypeLongRunning	向现有会话发消息
+translation.automations.agentTypeLongRunningDescription	每次触发向现有会话发送消息
+translation.automations.agentTypeNewSession	启动新会话
+translation.automations.agentTypeNewSessionDescription	每次触发启动一个新会话
+translation.automations.agentTypeOnlyOneNewSession	一个自动化只能有一个「新会话」代理
+translation.automations.agentTypeOptionLocked	创建后不能切换到此代理类型。复制此自动化以更改。
+translation.automations.agentTypeRemediate	修复
+translation.automations.agentTypeRemediateDescription	调查并为每个发现创建 PR
+translation.automations.agentTypeWatchingSlackChannel	此自动化正在监视一个 Slack 频道。要使用此代理类型，请移除「监视频道」触发器。
+translation.automations.all	全部
+translation.automations.allActionsMustHaveType	所有动作都必须有类型
+translation.automations.allPublicChannels	所有公共频道
+translation.automations.allTriggersMustHaveType	所有触发器都必须有事件类型
+translation.automations.allowChildSessions	允许自动启动子会话
+translation.automations.privateSessions	以私密方式启动会话
+translation.automations.privateSessionsDescription	此自动化产生的会话只对你和你分享的人可见。
+translation.automations.privateSessionsRequiresRunAsCreator	仅当自动化以你身份运行时可用
+translation.automations.allowChildSessionsDescription	会话可以不经你批准自动派生子会话
+translation.automations.analytics	分析
+translation.automations.and	和
+translation.automations.apply	应用
+translation.automations.askAdminToConnectToUseTrigger	{{source}} 为整个账户只需连接一次。请管理员连接 {{source}} 以使用此触发器。
+translation.automations.askAdminToUpdateChannelMappings	请企业管理员更新此组织的频道映射。
+translation.automations.askEnterpriseAdminMapping	请企业管理员更新映射。
+translation.automations.attachedToTriggeringThread	已附着到触发的 Slack 线程
+translation.automations.autoCreate	自动创建会话
+translation.automations.autoCreateSessionOption	创建新会话
+translation.automations.autoCreateSessionOptionDescription	为自动化创建长期运行的目标会话
+translation.automations.automation	自动化
+translation.automations.automationActions	自动化动作
+translation.automations.automationLinkLabel	自动化
+translation.automations.automationLoadError	无法加载此自动化。
+translation.automations.automationNamePlaceholder	自动化名称
+translation.automations.automationNotFound	此自动化不存在、已删除或对你不可见。
+translation.automations.automationsLoadError	无法加载自动化。
+translation.automations.automationTitle	自动化
+translation.automations.automationTriggered	自动化已触发
+translation.automations.automationUnavailable	对你不可见
+translation.automations.editAutomation	编辑自动化
+translation.automations.binaryFileNotPreviewable	二进制文件无法预览或编辑。
+translation.automations.blockedByProfile	已阻止
+translation.automations.blockedByProfileTooltip	不被管控安全配置允许——会话将无法访问此目标
+translation.automations.booleanFalse	false
+translation.automations.booleanOff	关
+translation.automations.booleanOn	开
+translation.automations.booleanTrue	true
+translation.automations.browseFiles	浏览文件
+translation.automations.builtIn	内置
+translation.automations.cancel	取消
+translation.automations.canceledCount_one	已取消 {{count}} 项
+translation.automations.canceledCount_other	已取消 {{count}} 项
+translation.automations.categoryCicdRelease	CI/CD 与发布
+translation.automations.categoryMonitoringTriage	监控与分诊
+translation.automations.categoryProjectManagement	项目管理
+translation.automations.categorySecurity	安全
+translation.automations.changed	已变更
+translation.automations.changedCount_one	{{count}} 项变更
+translation.automations.changedCount_other	{{count}} 项变更
+translation.automations.changes_one	{{count}} 处变更
+translation.automations.changes_other	{{count}} 处变更
+translation.automations.changeListFootnote	只显示变更过的设置。在侧栏打开卡片可比较全部。
+translation.automations.preflightReplaced	该请求替换了 preflight 检查脚本。当前脚本未在此显示。
+translation.automations.llmCheckReplaced	该请求替换了 LLM 过滤提示词。当前提示词未在此显示。
+translation.automations.llmCheckDisabled	该请求关闭了 LLM 过滤；其事件不再被过滤。
+translation.automations.status	状态
+translation.automations.channel	频道
+translation.automations.channelAlreadyMonitored	此频道已被另一个分诊 Devin 监视
+translation.automations.channelCountWithDms_one	{{count}} 个频道 + 私信
+translation.automations.channelCountWithDms_other	{{count}} 个频道 + 私信
+translation.automations.channelCount_one	{{count}} 个频道
+translation.automations.channelCount_other	{{count}} 个频道
+translation.automations.channelNoLongerMapped	频道不再映射
+translation.automations.channelNoLongerMappedTooltip	此自动化监视的频道已不再映射到此组织。请企业管理员更新频道映射。
+translation.automations.channelNotAvailableTooltip	此频道不可用。请邀请 @Devin 加入频道或另选一个。
+translation.automations.childSessionsAllowedWithoutApproval	允许不经批准启动子会话
+translation.automations.clearAllFilters	清除全部筛选
+translation.automations.clearChannel	清除频道
+translation.automations.clearFilter	清除筛选
+translation.automations.close	关闭
+translation.automations.closeSearch	关闭搜索
+translation.automations.filterType	类型
+translation.automations.filterCreatedBy	创建者
+translation.automations.filterKindAutomation	自动化
+translation.automations.filterKindReminder	提醒
+translation.automations.filterStatusEnabled	已启用
+translation.automations.filterSelectedCount_one	已选 {{count}} 项
+translation.automations.filterSelectedCount_other	已选 {{count}} 项
+translation.automations.filterSelection	{{labels, list(type: unit)}}
+translation.automations.filterSearchOptions	搜索…
+translation.automations.noFilterOptions	没有可筛选项
+translation.automations.noAutomationsMatchListFiltersDetail	试试移除筛选或放宽搜索。
+translation.automations.conditions	条件
+translation.automations.configure	配置
+translation.automations.configureChannelMappings	配置频道映射
+translation.automations.configureToUseTrigger	配置 {{source}} 以使用此触发器。
+translation.automations.connect	连接
+translation.automations.connectDatadog	连接 Datadog
+translation.automations.connectIncidentIoToSelectTeam	连接 incident.io 以选择团队
+translation.automations.connectMcpsBeforeSaving	保存前先连接所选的 MCP
+translation.automations.connectToUseTrigger	连接 {{source}} 以使用此触发器。
+translation.automations.connecting	正在连接…
+translation.automations.consumption	消耗
+translation.automations.consumptionLoadError	加载消耗数据失败。
+translation.automations.consumptionOnDemand	按需
+translation.automations.consumptionOnDemandHint	不显示计划内已覆盖的用量。
+translation.automations.continue	继续
+translation.automations.copied	已复制
+translation.automations.copiedLabel	{{label}} 已复制
+translation.automations.copiedSecret	机密已复制
+translation.automations.copiedTestCommand	测试命令已复制
+translation.automations.suggestedFirstMessageCopied	消息已复制
+translation.automations.copy	复制
+translation.automations.copyAllDomains	复制所有域名
+translation.automations.copyFailed	复制失败
+translation.automations.copyLabel	复制 {{label}}
+translation.automations.copyMessage	复制消息
+translation.automations.copyOfName	{{name}}（副本）
+translation.automations.copySecret	复制机密
+translation.automations.copyTestCommand	复制测试命令
+translation.automations.couldntJoinChannelReconnect	Devin 无法加入频道。<reconnect>重新连接 Slack</reconnect> 以授予加入频道的权限。
+translation.automations.couldntLoadScratchpadFolder	无法加载 scratchpad 文件夹。
+translation.automations.createAutomation	创建自动化
+translation.automations.createAutomationTitle	创建自动化
+translation.automations.createFileToGetStarted	创建一个文件开始使用。
+translation.automations.createFromTemplate	从模板创建
+translation.automations.createFromTemplateCardDescription	定制预设自动化以满足需求
+translation.automations.createManually	手动创建
+translation.automations.createManuallyCardDescription	自己配置自动化触发器、动作和限制
+translation.automations.createTriageDevin	创建分诊 Devin
+translation.automations.created	已创建
+translation.automations.createdBy	创建者
+translation.automations.creating	正在创建…
+translation.automations.createdByOn	由 {{name}} 创建于 {{date}}
+translation.automations.customRange	自定义范围
+translation.automations.datadogConnectDescription	连接 Datadog 让 Devin 更有把握地排查生产 Bug。
+translation.automations.datadogReauthorize	你的 Datadog 连接需要重新授权。
+translation.automations.dayFriday	星期五
+translation.automations.dayInitialFriday	五
+translation.automations.dayInitialMonday	一
+translation.automations.dayInitialSaturday	六
+translation.automations.dayInitialSunday	日
+translation.automations.dayInitialThursday	四
+translation.automations.dayInitialTuesday	二
+translation.automations.dayInitialWednesday	三
+translation.automations.dayMonday	星期一
+translation.automations.dayOfMonth	每月第几天
+translation.automations.daySaturday	星期六
+translation.automations.daySunday	星期日
+translation.automations.dayThursday	星期四
+translation.automations.dayTuesday	星期二
+translation.automations.dayWednesday	星期三
+translation.automations.delete	删除
+translation.automations.deleteAutomation	删除自动化
+translation.automations.deleteAutomationConfirmation	确定要删除「{{name}}」吗？此操作无法撤销。
+translation.automations.deleteConfirmation	确定要删除「{{name}}」吗？此操作无法撤销。
+translation.automations.destChannelNotAvailable	所选目标频道不可用。请先邀请 @Devin 加入频道。
+translation.automations.destChannelRequired	使用「在新频道发帖」模式时需要目标频道
+translation.automations.destTeamsChannelRequired	发布到 Teams 需要同时选择团队和频道
+translation.automations.destinationDevin	目标 {{botName}}
+translation.automations.destinationDevinDescription	消息跟随 {{botName}} 到其当前会话
+translation.automations.destinationDevinRequired	选择目标 {{botName}}
+translation.automations.destinationSession	目标会话
+translation.automations.destinationSessionDescription	选择路由触发请求的会话
+translation.automations.destinationSessionRequired	选择目标会话，或选「创建新会话」
+translation.automations.destinationTarget	目标
+translation.automations.destinationTargetDescription	向特定会话发消息，或发给 {{botName}}（无论其对话在哪继续）
+translation.automations.destinationTargetDevin	{{botName}}
+translation.automations.destinationTargetSession	会话
+translation.automations.devinIsInChannel	Devin 已在频道中
+translation.automations.devinMode	代理模式
+translation.automations.devinModeDescription	使用此代理模式启动会话
+translation.automations.devinWillJoin	Devin 将加入 {{channel}}
+translation.automations.devinWillJoinChannel	Devin 将加入 {{channel}}
+translation.automations.slackAppWillJoin	应用将加入 {{channel}}
+translation.automations.slackAppIsInChannel	应用已在频道中
+translation.automations.excludedPrivateChannelNoop	排除 {{channel}} 没有效果：Devin 只监听这里的公共频道
+translation.automations.directMessages	私信
+translation.automations.directMessagesDisabled	私信已关
+translation.automations.directMessagesOrgMembersOnly	私信（仅组织成员）
+translation.automations.directMessagesWorkspace	私信（整个工作区）
+translation.automations.disable	禁用
+translation.automations.disableNetworkControlsDescription	禁用网络控制会移除对提示注入数据外泄的防护。会话将能访问任何网络目标。
+translation.automations.disableNetworkControlsTitle	禁用网络控制？
+translation.automations.disabled	已禁用
+translation.automations.discardTitle	丢弃未保存的更改？
+translation.automations.dmsOnly	仅私信
+translation.automations.dollarIncrementLimit	每会话上限必须是 \${{increment}} 的倍数
+translation.automations.domainEntry	条目
+translation.automations.domainPlaceholder	域名、IPv4 或 IPv6（如 *.github.com）
+translation.automations.done	完成
+translation.automations.duplicate	复制
+translation.automations.promoteToBot	提升为 {{botName}}
+translation.automations.botFromAutomationCreated	已创建 {{botName}} \\
+translation.infoTip.docs	文档
+translation.infoTip.moreInformation	更多信息
+translation.avatarStack.overflow_one	还有 {{count}} 个
+translation.avatarStack.overflow_other	还有 {{count}} 个
+translation.badges.beta	Beta
+translation.badges.internal	内部
+translation.badges.legacy	旧版
+translation.badges.new	新
+translation.badges.updated	已更新
+translation.billing.plgSpendReport.description	Devin 评审你上月的云端会话并给出省钱建议。
+translation.billing.plgSpendReport.errorToast	无法启动花费报告，请重试。
+translation.billing.plgSpendReport.existingToast	这是你当前的花费报告。新报告将于 {{date}} 可用。
+translation.billing.plgSpendReport.generate	生成
+translation.billing.plgSpendReport.generateSpendReport	生成花费报告
+translation.billing.plgSpendReport.scope	不含本地会话、DeepWiki 和 Devin Review。
+translation.billing.plgSpendReport.title	获取你的月度花费报告
+translation.billing.plgSpendReport.view	查看
+translation.billing.plgSpendReport.viewSpendReport	查看花费报告
+translation.billing.acuAmount_one	{{formattedCount}} ACU
+translation.billing.acuAmount_other	{{formattedCount}} ACU
+translation.billing.planCard.accountSupport	账户支持
+translation.billing.planCard.acuTooltip	Devin 的工作量单位是 Agent Compute Unit（ACU），是对 Devin 使用资源的标准化度量。
+translation.billing.planCard.acusIncludedMonthly	每月包含 250 <acu>ACU</acu>
+translation.billing.planCard.adminDashboard	带分析的管理员仪表盘
+translation.billing.planCard.askDevin	Ask Devin
+translation.billing.planCard.autoReload	按需消耗的自动充值设置
+translation.billing.planCard.centralizedBilling	集中计费
+translation.billing.planCard.claimOffer	领取优惠
+translation.billing.planCard.concurrentSessions	至多 10 个并发 Devin 会话
+translation.billing.planCard.dedicatedAccountTeam	专属客户团队
+translation.billing.planCard.deepWiki	DeepWiki
+translation.billing.planCard.devinApi	Devin API
+translation.billing.planCard.devinIde	Devin IDE
+translation.billing.planCard.devinReview	Devin Review
+translation.billing.planCard.devinUsageQuota	Devin 用量配额
+translation.billing.planCard.devinWiki	Devin Wiki
+translation.billing.planCard.dollarsIncludedMonthly	每月包含 $500
+translation.billing.planCard.downgrade	降级
+translation.billing.planCard.earlyAccess	抢先体验新功能与研究预览
+translation.billing.planCard.enterpriseAccess	Devin Enterprise 访问权限
+translation.billing.planCard.enterpriseAdminControls	集中的企业管理员控制
+translation.billing.planCard.everythingInCore	Core 版全部内容，另加：
+translation.billing.planCard.everythingInFree	免费版全部内容，另加：
+translation.billing.planCard.everythingInPro	Pro 版全部内容，另加：
+translation.billing.planCard.getPlan	获取 {{plan}}
+translation.billing.planCard.flagshipModelAccess	免费使用旗舰编码模型 SWE-2
+translation.billing.planCard.ideUsageQuota	<desktop /> IDE 用量配额
+translation.billing.planCard.includes	包含：
+translation.billing.planCard.increasedDevinUsageQuota	更高的 Devin 用量配额
+translation.billing.planCard.increasedIdeUsageQuota	更高的 <desktop /> IDE 用量配额
+translation.billing.planCard.integrations	Slack、Linear 与 MCP 集成
+translation.billing.planCard.keyCapabilities	核心能力
+translation.billing.planCard.learnsOverTime	随时间持续学习
+translation.billing.planCard.limitedDevinUsage	有限的 Devin 用量
+translation.billing.planCard.noMonthlyCommitment	无月度承诺，按量付费
+translation.billing.planCard.onboardingCall	可选的 Cognition 团队入门电话
+translation.billing.planCard.payAsYouGoOnDemandPastQuota	超出配额后按需按量付费
+translation.billing.planCard.payAsYouGoPastQuota	超出配额后按量付费
+translation.billing.planCard.planCodeTestShip	用 Devin 规划、编码、测试、交付
+translation.billing.planCard.priceCustom	定制价格
+translation.billing.planCard.priceFree	免费
+translation.billing.planCard.pricePayAsYouGo	按量付费，$20 起
+translation.billing.planCard.pricePerMonth	{{price}}/月
+translation.billing.planCard.pricePerYear	{{price}}/年
+translation.billing.planCard.priceProTrial	免费 14 天，之后 $20/月
+translation.billing.planCard.purchase	购买
+translation.billing.planCard.shareAndCollaborate	分享与协作
+translation.billing.planCard.sso	SAML/OIDC SSO
+translation.billing.planCard.scimAndRbac	SCIM 与基于角色的访问控制
+translation.billing.planCard.teamsCostControls	含 3 档用量层级的成本控制
+translation.billing.planCard.teamsUserLimit	至多 100 名用户
+translation.billing.planCard.teamsMultiplayer	多人会话分享与协作
+translation.billing.planCard.teamsFreeSessions	每用户 2 个免费模式并发会话
+translation.billing.planCard.slackChannelSupport	Slack 频道支持
+translation.billing.planCard.startFreeTrial	开始免费试用
+translation.billing.planCard.unlimitedConcurrentSessions	不限并发会话
+translation.billing.planCard.unlimitedUsers	不限用户数
+translation.billing.planCard.useChatgptPlan	使用你的 <planLink>ChatGPT 计划</planLink>
+translation.billing.planCard.freeUpgradeBlurb	升级以获得更多模型和更高的用量配额。
+translation.billing.planCard.lapsedBadge	已失效
+translation.billing.planCard.lapsedBannerBody	你现在是免费计划。重新订阅以恢复你的模型和用量配额。
+translation.billing.planCard.lapsedBannerBodyWithDate	你的计划于 {{date}} 结束。你现在是免费计划。重新订阅以恢复你的模型和用量配额。
+translation.billing.planCard.lapsedBannerTitle	你的 {{plan}} 计划已失效
+translation.billing.planCard.resubscribe	重新订阅
+translation.billing.planCard.usage	用量
+translation.billing.accountLimitReachedToast	你的组织没有剩余用量。请联系账户管理员以继续使用 Devin。
+translation.billing.acuLimitAskAdmin	联系账户管理员提高上限
+translation.billing.askAdminIncreaseAutoReload	请管理员提高自动充值上限
+translation.billing.askAdminUpdatePayment	请管理员更新组织的付款方式
+translation.billing.autoReloadLimitMemberDescription	你的组织已达月度自动充值上限。在下个计费周期前不会再处理自动充值。请联系组织管理员提高月度自动充值上限。
+translation.billing.autoReloadLimitOwnerDescription	你已达月度自动充值上限。在下个计费周期前不会再处理自动充值。要继续使用 Devin，可在计费设置中提高月度自动充值上限。<learnMore>了解更多</learnMore>
+translation.billing.autoReloadLimitReachedTitle	已达自动充值上限
+translation.billing.chatgptManageUsage	管理用量
+translation.billing.chatgptConnectCta.action	连接 ChatGPT
+translation.billing.chatgptConnectCta.usageTitle	在 Devin 中使用你的 ChatGPT 计划
+translation.billing.chatgptConnectCta.usageDescription	连接你的 ChatGPT 账户，让支持的会话消耗你的 ChatGPT 计划而非 Devin 用量。
+translation.billing.chatgptConnectCta.outOfUsageTitle	用量用完了？用 ChatGPT 计划继续
+translation.billing.chatgptConnectCta.outOfUsageDescription	连接你的 ChatGPT 账户，在用量重置前让支持的会话走你的 ChatGPT 计划。
+translation.billing.chatgptConnectCta.botsTitle	用你的 ChatGPT 计划运行 {{botNamePlural}}
+translation.billing.chatgptConnectCta.botsDescription	连接你的 ChatGPT 账户，让你的 {{botNamePlural}} 以你身份启动的支持会话消耗你的 ChatGPT 计划。
+translation.billing.chatgptConnectCta.botBudgetTitle	用 ChatGPT 让这个 {{botName}} 继续运行
+translation.billing.chatgptConnectCta.botBudgetDescription	连接你的 ChatGPT 账户，让它以你身份启动的支持会话消耗你的 ChatGPT 计划而非此预算。
+translation.billing.chatgptUsageCardTitle	查看和管理你的 ChatGPT 用量
+translation.billing.clear	清除
+translation.billing.contactAccountAdmin	联系账户管理员
+translation.billing.contactAccountTeam	联系客户团队
+translation.billing.contactEnterpriseAdmin	联系企业管理员
+translation.billing.contractExpiredBanner	你的合同已于 {{endDate}} 到期。联系客户团队续订以恢复访问。
+translation.billing.contractExpiredDescription	你组织的 Devin 合同已结束，新工作已被阻止。联系客户团队续订以恢复访问。
+translation.billing.contractExpiredTitle	你的企业合同已结束
+translation.billing.contractExpiryBanner	你的合同将于 {{endDate}} 到期。为避免访问中断，请联系客户团队续订。
+translation.billing.contractGracePeriodBanner	你组织的计费周期已结束。Devin 访问将于 {{accessEndsAt}} 完全关闭。请联系客户团队续订。
+translation.billing.dailyUsageQuotaExceeded	已超每日用量配额
+translation.billing.efficiencyAcusBySizeDescription	按会话规模分的 ACU 分布
+translation.billing.efficiencyAcusBySizeTitle	按规模的 ACU
+translation.billing.efficiencyHelpDescription	以下是让每个会话产出更多有价值工作的最高效做法。
+translation.billing.efficiencyHelpExplainer	当 Devin 完成有价值的工作、且模式与任务规模匹配工作量时，效率就会提高。
+translation.billing.efficiencyHelpHeadline	有用产出 + 高效用量 = 更高效率
+translation.billing.efficiencyHelpTitle	如何提高会话效率
+translation.billing.efficiencyHelpWhatItMeans	这意味着什么
+translation.billing.efficiencyKpiAcusPerMergedPr	每已合并 PR 的 ACU
+translation.billing.efficiencyKpiAcusPerSession	每会话 ACU
+translation.billing.efficiencyKpiHealthy	健康
+translation.billing.efficiencyKpiNeedsImprovement	需要改进
+translation.billing.efficiencyKpiPrsMergedPerDay	每日合并 PR
+translation.billing.efficiencyKpiSatisfactory	合格
+translation.billing.efficiencyKpiSessionsWithOutcomes	有结果的会话
+translation.billing.efficiencyPrOutcomesDescription	Devin PR 按状态的分布
+translation.billing.efficiencyPrOutcomesTitle	PR 结果
+translation.billing.efficiencyRangeCurrent	本周期
+translation.billing.efficiencyRangePrevious	上一周期
+translation.billing.efficiencyRangeRecent	近期用量
+translation.billing.efficiencyRangeSelect	选择效率范围
+translation.billing.efficiencySectionDescription	保持效率为<healthy>健康</healthy>或<satisfactory>合格</satisfactory>，最大化利用 Devin。
+translation.billing.efficiencySectionDescriptionConditional	保持效率为<healthy>健康</healthy>或<satisfactory>合格</satisfactory>，即可自动获得更高用量上限。
+translation.billing.efficiencySectionTitle	会话效率
+translation.billing.efficiencyTipModesDescription	把 Ultra 留给真正需要的任务；Lite 或 Normal 可覆盖多数工作。
+translation.billing.efficiencyTipModesTitle	尝试低成本模式
+translation.billing.efficiencyTipPlanDescription	先给出上下文、约束和验收标准。
+translation.billing.efficiencyTipPlanTitle	先规划再执行
+translation.billing.efficiencyTipSplitDescription	聚焦的任务帮助代理稳步推进。
+translation.billing.efficiencyTipSplitTitle	拆分大型工作
+translation.billing.efficiencyTipsLink	技巧
+translation.billing.enterpriseLimitReachedToast	你的组织已达用量上限。请联系企业管理员提高上限。
+translation.billing.enterpriseScaleHeading	为你的组织规模化而构建：
+translation.billing.explorePlans	浏览计划
+translation.billing.sessionNotStarted	会话未启动。
+translation.billing.usageLimitReached	已达用量上限
+translation.billing.increaseEnterpriseOrgLimit	提高企业组织用量上限
+translation.billing.increaseLimitTitle	提高你的用量上限
+translation.billing.increaseOrgLimitMemberDescription	你已达本计费周期每组织可用 {{unit}} 上限。组织管理员可在设置中提高组织用量上限。
+translation.billing.increaseOrgLimitMemberEnterpriseDescription	你已达本计费周期每组织可用企业 {{unit}} 上限。企业管理员可在设置中提高组织用量上限。
+translation.billing.increaseOrgLimitOwnerDescription	你已达本计费周期每组织可用 {{unit}} 上限。要继续使用 Devin，可提高组织的用量上限。<learnMore>了解更多</learnMore>
+translation.billing.increaseOrgLimitOwnerEnterpriseDescription	你已达本计费周期每组织可用企业 {{unit}} 上限。要继续使用 Devin，可提高组织的用量上限。<learnMore>了解更多</learnMore>
+translation.billing.increaseOrgLimitTitle	提高你组织的用量上限
+translation.billing.increaseUserLimitDescription	你已达本计费周期每用户可用 {{unit}} 上限。向账户管理员申请更多以继续使用 Devin。
+translation.billing.increaseUserLimitReachedDescription	你已达本计费周期每用户可用 {{unit}} 上限。
+translation.billing.individualPlanMemberDescription	你的账户是个人计划，而你不是组织所有者。请账户管理员升级到 Teams 计划让所有人都能使用。
+translation.billing.individualPlanOwnerDescription	你的账户是个人计划，而你不是组织所有者。升级到 Teams 计划让所有人都能使用。
+translation.billing.individualPlanTitle	你的账户是个人计划
+translation.billing.learnMore	了解更多
+translation.billing.manageAutoReload	管理自动充值
+translation.billing.manageEnterpriseAcuLimits	管理你的企业 ACU 上限
+translation.billing.managePlans	管理计划
+translation.billing.manageUsageLimit	管理用量上限
+translation.billing.noAcusRemaining	你没有剩余可用 ACU
+translation.billing.noCreditsRemaining	你没有剩余可用额度
+translation.billing.noDataAvailable	无可用数据
+translation.billing.noUsageDescription	你没有剩余可用 {{unit}}。要继续使用 Devin，可提高按量付费用量上限。<learnMore>了解更多</learnMore>
+translation.billing.noUsageEnterpriseDescription	你没有剩余可用企业 {{unit}}。要继续使用 Devin，可提高按量付费用量上限。<learnMore>了解更多</learnMore>
+translation.billing.orgLimitReachedToast	你的组织已达用量上限。请联系账户管理员提高上限。
+translation.billing.outOfCreditsPaidTitle	你的额度已用完。请购买额度以继续使用 Devin
+translation.billing.outOfDailyQuotaPaidDescription	已超每日用量配额且按需用量已用尽。每日配额每天重置——详见用量设置。
