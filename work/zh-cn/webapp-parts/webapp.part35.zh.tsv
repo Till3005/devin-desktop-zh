@@ -1,0 +1,500 @@
+translation.securityRedTeaming.credDetailsRequired	至少填写用户名、密码、TOTP 种子、角色或租户中的一项
+translation.securityRedTeaming.credDiscardConfirm	放弃
+translation.securityRedTeaming.credDiscardTitle	放弃此凭据？
+translation.securityRedTeaming.launchDiscardTitle	放弃此扫描设置？
+translation.securityRedTeaming.addTargetDiscardTitle	放弃此目标？
+translation.securityRedTeaming.noteDiscardTitle	放弃此备注？
+translation.securityRedTeaming.credEmpty	还没有凭据。添加探测应登录的账户，例如两个不同权限级别的用户以测试授权。
+translation.securityRedTeaming.credLimitReached	此目标已达 {{limit}} 个凭据的上限。删除一个才能再添加。
+translation.securityRedTeaming.credLoadFailed	无法加载凭据。
+translation.securityRedTeaming.credName	名称
+translation.securityRedTeaming.credNamePlaceholder	member-user
+translation.securityRedTeaming.credTenant	租户
+translation.securityRedTeaming.credTenantPlaceholder	acme-corp、globex…
+translation.securityRedTeaming.credTenantDescription	此登录所属的客户账户。使用不同的值来测试账户间的隔离。
+translation.securityRedTeaming.credNameRequired	需要名称
+translation.securityRedTeaming.credNameConflict	与现有凭据「{{name}}」太相似。仅大小写、空格或标点不同的名称共享相同的会话机密。
+translation.securityRedTeaming.credNote	备注
+translation.securityRedTeaming.credNoteDescription	这是哪个账户或团队
+translation.securityRedTeaming.credPassword	密码
+translation.securityRedTeaming.credRole	角色/权限级别
+translation.securityRedTeaming.credRolePlaceholder	member、admin、owner…
+translation.securityRedTeaming.credTotp	TOTP 种子（2FA）
+translation.securityRedTeaming.credTotpDescription	用于一次性验证码的 Base32 种子
+translation.securityRedTeaming.credTotpInvalid	请输入 Base32 设置密钥（字母 A–Z 和数字 2–7）或 otpauth:// 链接
+translation.securityRedTeaming.credUsername	用户名
+translation.securityRedTeaming.credUsernamePlaceholder	user@example.com
+translation.securityRedTeaming.credentialsDescription	渗透测试用于认证的账户。值经过加密，仅注入到扫描会话中。
+translation.securityRedTeaming.credentialsTitle	{{domain}} 的凭据
+translation.securityRedTeaming.credSessionClear	清除会话
+translation.securityRedTeaming.credSessionClearFailed	清除登录会话失败
+translation.securityRedTeaming.credSessionSaved	登录会话已保存 {{time}}
+translation.securityRedTeaming.done	完成
+translation.securityRedTeaming.launchTitle	发起红队扫描
+translation.securityRedTeaming.loadFailed	无法加载目标。
+translation.securityRedTeaming.notEnabledDescription	请在 Unleash 中为组织或其企业打开 code-scan-mythos 和 code-scan-enabled 开关，然后重新加载此页面。
+translation.securityRedTeaming.notEnabledTitle	此组织未启用红队测试
+translation.securityRedTeaming.retry	重试
+translation.securityRedTeaming.modelLabel	主模型
+translation.securityRedTeaming.fusionLabel	Fusion
+translation.securityRedTeaming.fusionDescription	默认主模型将执行交给 SWE-2。
+translation.securityRedTeaming.fusionModelUnavailableDescription	仅在默认主模型下可用。
+translation.securityRedTeaming.models.astraCyberPreviewMedium	Astra Cyber Preview Medium（仅限内部）
+translation.securityRedTeaming.models.astraCyberPreviewNote	仅限内部使用。Astra Cyber Preview 只对 Cognition 组织提供；不要为客户扫描选择它。
+translation.securityRedTeaming.models.astraCyberPreviewXHigh	Astra Cyber Preview XHigh（仅限内部）
+translation.securityRedTeaming.models.default	Mythos 5.2 XHigh（默认）
+translation.securityRedTeaming.models.mythos51High	Mythos 5.1 High
+translation.securityRedTeaming.models.mythos51Low	Mythos 5.1 Low
+translation.securityRedTeaming.models.mythos51Max	Mythos 5.1 Max
+translation.securityRedTeaming.models.mythos51Medium	Mythos 5.1 Medium
+translation.securityRedTeaming.models.mythos51XHigh	Mythos 5.1 XHigh
+translation.securityRedTeaming.models.mythos52High	Mythos 5.2 High
+translation.securityRedTeaming.models.mythos52Low	Mythos 5.2 Low
+translation.securityRedTeaming.models.mythos52Max	Mythos 5.2 Max
+translation.securityRedTeaming.models.mythos52Medium	Mythos 5.2 Medium
+translation.securityRedTeaming.models.swe2High	SWE-2 High
+translation.securityRedTeaming.models.swe2Low	SWE-2 Low
+translation.securityRedTeaming.models.swe2Max	SWE-2 Max
+translation.securityRedTeaming.openSession	打开会话
+translation.securityRedTeaming.debugSession	调试会话
+translation.securityRedTeaming.repoLabel	仓库（可选）
+translation.securityRedTeaming.repoSelectPlaceholder	选择仓库
+translation.securityRedTeaming.selectAllRepos	全选
+translation.securityRedTeaming.selectAllReposLoading	正在加载仓库…
+translation.securityRedTeaming.selectAllReposFailed	无法加载全部仓库
+translation.securityRedTeaming.selectAllReposCapped	扫描最多覆盖 {{max}} 个仓库
+translation.securityRedTeaming.selectAllReposCappedDescription	你的组织连接了超过 {{max}} 个仓库，因此已选中前 {{max}} 个。清除选择并改选服务此目标的仓库。
+translation.securityRedTeaming.clearRepos	清除
+translation.securityRedTeaming.reposDescription	每个选中的仓库都会被检出，以便将发现项追溯到服务各主机的代码。
+translation.securityRedTeaming.reposSelectedDescription_one	{{count}} 个仓库将被检出并映射到其服务的主机。
+translation.securityRedTeaming.reposSelectedDescription_other	{{count}} 个仓库将被检出并映射到其服务的主机。
+translation.securityRedTeaming.specialInstructionsDescription	粘贴每个会话必须遵守的规则（如漏洞赏金条款）和重点关注点。它们仅适用于此扫描，不能扩大已授权范围。
+translation.securityRedTeaming.specialInstructionsLabel	特殊指令
+translation.securityRedTeaming.specialInstructionsPlaceholder	遵守项目的漏洞赏金条款：不要测试 /admin，限制在每秒 10 个请求。重点关注账户接管和支付流程。
+translation.securityRedTeaming.statusPending	待验证
+translation.securityRedTeaming.statusRejected	已拒绝
+translation.securityRedTeaming.statusVerified	已验证
+translation.securityRedTeaming.title	红队测试
+translation.securityRedTeaming.trafficTagDescription	为每个 HTTP(S) 请求添加一个标头，让客户能在 WAF 和 SOC 日志中识别此扫描。关闭只是去掉标头：扫描仍会记录它发送的每个请求。
+translation.securityRedTeaming.trafficTagLabel	用标头标记此扫描的流量
+translation.securityRedTeaming.trafficTagNameLabel	标头名
+translation.securityRedTeaming.trafficTagValueDescription	会发送到扫描触达的每个站点，所以不要用机密。留空则使用各会话的 ID。
+translation.securityRedTeaming.trafficTagValueLabel	标头值
+translation.securityRedTeaming.trafficTagValuePlaceholder	会话 ID
+translation.securityRedTeaming.viewScan	查看扫描
+translation.securityRedTeaming.verify	验证
+translation.securityRedTeaming.verifyDescription	确认此组织已被授权对范围内的一切进行渗透测试。选择授权依据并写下你的理由说明。
+translation.securityRedTeaming.verifyFailed	无法更新目标。
+translation.securityRedTeaming.verifyTitle	验证授权
+translation.securityRedTeaming.notEnabled	你的账户未启用 Red Teaming
+translation.securityRedTeaming.description	Red Teaming 是托管服务。联系你的客户团队为组织开通。
+translation.securityRedTeaming.talkToSales	联系销售
+translation.securityRedTeaming.credDiscardEditTitle	放弃未保存的更改？
+translation.securityRedTeaming.credEditing	编辑 {{name}}
+translation.securityRedTeaming.credEdit	编辑
+translation.securityRedTeaming.credOpenFailed	打开凭据失败
+translation.securityRedTeaming.credSave	保存
+translation.securityRedTeaming.credSaveFailed	保存凭据失败
+translation.securityRedTeaming.credSecretSaved	已保存。输入新值即可替换。
+translation.securityRedTeaming.colDomain	域名
+translation.securityRedTeaming.colScope	范围
+translation.securityRedTeaming.scopeLabel	范围
+translation.securityRedTeaming.scopePlaceholder	*.example.com、app.example.com 或 203.0.113.0/24
+translation.securityRedTeaming.scopeAdd	添加
+translation.securityRedTeaming.scopeDescription	用 *.example.com 表示 example.com 及其所有子域名，或列出具体主机、IP 地址或 CIDR 段。可添加多个。
+translation.securityRedTeaming.scopeRemove	移除 {{host}}
+translation.securityRedTeaming.scopeRequired	至少添加一个域名、主机或 IP 地址
+translation.securityRedTeaming.scopeInvalid_one	{{entries, list}} 不是公共主机名、IP 地址或 CIDR 段。请输入不带端口或凭据的主机名（如 app.example.com 或 *.example.com），或公共 IP 地址或 /16 及更大的范围（IPv6 为 /48）。
+translation.securityRedTeaming.scopeInvalid_other	{{entries, list}} 不是公共主机名、IP 地址或 CIDR 段。请输入不带端口或凭据的主机名（如 app.example.com 或 *.example.com），或公共 IP 地址或 /16 及更大的范围（IPv6 为 /48）。
+translation.securityRedTeaming.scopeCovered_one	{{entries, list}} 已被通配符条目覆盖，因此不单独列出。
+translation.securityRedTeaming.scopeCovered_other	{{entries, list}} 已被通配符条目覆盖，因此不单独列出。
+translation.securityRedTeaming.scopeWildcardHint	{{domain}} 及其所有子域名
+translation.securityRedTeaming.scopeExactHint	仅此主机
+translation.securityRedTeaming.scopeRangeHint	此范围内的每个地址
+translation.securityRedTeaming.scopeInOtherTarget	已在 {{domain}} 目标中
+translation.securityRedTeaming.editScope	编辑范围
+translation.securityRedTeaming.deleteTarget	删除目标
+translation.securityRedTeaming.deleteVerifiedTargetDescription	这会撤销授权、停止进行中的扫描、归档其会话，并移除目标及其已存凭据。此操作无法撤销。
+translation.securityRedTeaming.deleteTargetDescription	这会移除目标及其已存凭据。此操作无法撤销。
+translation.securityRedTeaming.deleteTargetFailed	无法删除目标。
+translation.securityRedTeaming.editScopeDescription	新范围必须经验证后才能再次运行扫描。如果有扫描在进行中，请先等其完成或撤销授权。
+translation.securityRedTeaming.editScopeActiveScan	此目标已有扫描在排队或运行中。请先等其完成，或撤销授权将其停止，然后再编辑范围。
+translation.securityRedTeaming.editScopeFailed	无法保存目标范围。
+translation.securityRedTeaming.saveScope	保存
+translation.securityRedTeaming.overviewSubtitle	Cognition 对你的在线域名进行可利用问题测试并报告发现。
+translation.securityRedTeaming.overviewEmptyTitle	还没有域名
+translation.securityRedTeaming.overviewEmptyDescription	Cognition 负责设置并运行每次测试。联系你的客户团队添加域名。
+translation.securityRedTeaming.overviewAlsoInScope	也在范围内：{{entries, list}}
+translation.securityRedTeaming.overviewScopeShowMore_one	再显示 {{count}} 个
+translation.securityRedTeaming.overviewScopeShowMore_other	再显示 {{count}} 个
+translation.securityRedTeaming.overviewScopeShowFewer	收起
+translation.securityRedTeaming.viewFindings	查看发现项
+translation.securityRedTeaming.colLastTested	最近测试
+translation.securityRedTeaming.exportReport	导出渗透测试报告（PDF）
+translation.securityRedTeaming.coverage.title	端点覆盖
+translation.securityRedTeaming.coverage.subtitle	扫描群计划测试的每个主机、攻击面和端点，以及各漏洞类别的结果。
+translation.securityRedTeaming.coverage.backToFindings	返回发现项
+translation.securityRedTeaming.coverage.planSummary	{{endpoints}} · {{cells}}
+translation.securityRedTeaming.coverage.planEndpointCount_one	{{formattedCount}} 个端点
+translation.securityRedTeaming.coverage.planEndpointCount_other	{{formattedCount}} 个端点
+translation.securityRedTeaming.coverage.planTestCount_one	{{formattedCount}} 项计划测试
+translation.securityRedTeaming.coverage.planTestCount_other	{{formattedCount}} 项计划测试
+translation.securityRedTeaming.coverage.hunterCount_one	{{count}} 个 hunter
+translation.securityRedTeaming.coverage.hunterCount_other	{{count}} 个 hunter
+translation.securityRedTeaming.coverage.totalsLabel	覆盖总计
+translation.securityRedTeaming.coverage.barLabel	{{tested}} 已测试，{{finding}} 有发现项，{{open}} 待处理，{{notApplicable}} 不适用
+translation.securityRedTeaming.coverage.statusOpen	待处理
+translation.securityRedTeaming.coverage.statusTested	已测试
+translation.securityRedTeaming.coverage.statusFinding	发现项
+translation.securityRedTeaming.coverage.statusNotApplicable	不适用
+translation.securityRedTeaming.coverage.filterPlaceholder	按主机、路径、hunter 或类别筛选
+translation.securityRedTeaming.coverage.clearHunterFilter	正显示 {{slug}} · 清除
+translation.securityRedTeaming.coverage.expandAll	全部展开
+translation.securityRedTeaming.coverage.collapseAll	全部收起
+translation.securityRedTeaming.coverage.noMatches	没有匹配当前筛选的端点
+translation.securityRedTeaming.coverage.showingRange	显示 {{total}} 个端点中的第 {{start}}–{{end}} 个
+translation.securityRedTeaming.coverage.endpointCount_one	{{count}} 个端点
+translation.securityRedTeaming.coverage.endpointCount_other	{{count}} 个端点
+translation.securityRedTeaming.coverage.surfaceCount_one	{{count}} 个攻击面
+translation.securityRedTeaming.coverage.surfaceCount_other	{{count}} 个攻击面
+translation.securityRedTeaming.coverage.surfaceAndEndpointCount	{{surfaces}} · {{endpoints}}
+translation.securityRedTeaming.coverage.unowned	未分配
+translation.securityRedTeaming.coverage.ownedBy	Hunter：{{slug}}
+translation.securityRedTeaming.coverage.source	来源：{{source}}
+translation.securityRedTeaming.coverage.assetMapping	资产映射
+translation.securityRedTeaming.coverage.assetUnmapped	未映射
+translation.securityRedTeaming.coverage.assetUnmappedDescription	此扫描中没有仓库映射到此主机。
+translation.securityRedTeaming.coverage.assetConfidenceHigh	高置信度
+translation.securityRedTeaming.coverage.assetConfidenceMedium	中置信度
+translation.securityRedTeaming.coverage.assetConfidenceLow	低置信度
+translation.securityRedTeaming.coverage.assetMappedByScan	由扫描映射
+translation.securityRedTeaming.coverage.assetMappedByOperator	由操作员设定
+translation.securityRedTeaming.coverage.assetServes	服务：{{kind}}
+translation.securityRedTeaming.coverage.assetSourcePaths	源码路径
+translation.securityRedTeaming.coverage.assetEvidence	证据：{{evidence}}
+translation.securityRedTeaming.coverage.noClassesPlanned	此端点没有计划漏洞类别
+translation.securityRedTeaming.coverage.viewFinding	查看发现项
+translation.securityRedTeaming.coverage.viewSession	查看会话
+translation.securityRedTeaming.coverage.byHunter	由 {{slug}} 测试
+translation.securityRedTeaming.coverage.huntersTitle	Hunter
+translation.securityRedTeaming.coverage.huntersDescription	扫描启动的会话，按委派关系嵌套。选中一个可只看它的端点。
+translation.securityRedTeaming.coverage.ownsEndpoints_one	{{count}} 个端点
+translation.securityRedTeaming.coverage.ownsEndpoints_other	{{count}} 个端点
+translation.securityRedTeaming.coverage.emptyTitle	还没有端点清单
+translation.securityRedTeaming.coverage.emptyRunningDescription	侦察会在测试开始前登记每个端点；hunter 记录结果时树会逐渐填满。
+translation.securityRedTeaming.coverage.emptyDescription	只有超深度红队扫描会构建端点清单。
+translation.securityRedTeaming.coverage.emptyEndedDescription	扫描在侦察登记任何端点前就结束了，因此没有清单可显示。
+translation.securityRedTeaming.coverage.loadFailedTitle	无法加载端点覆盖
+translation.securityRedTeaming.accessGraph.title	访问图
+translation.securityRedTeaming.accessGraph.subtitle	此扫描的 Outpost 可达什么、哪些系统互相连接、哪些身份和已存凭据能进入什么。机密值绝不记录。
+translation.securityRedTeaming.accessGraph.emptyTitle	还没有访问记录
+translation.securityRedTeaming.accessGraph.emptyRunning	扫描发现链接时会显示在这里。
+translation.securityRedTeaming.accessGraph.emptyFinished	此扫描没有记录任何访问链接。
+translation.securityRedTeaming.accessGraph.loadFailedTitle	无法加载访问图
+translation.securityRedTeaming.accessGraph.legendVerified	已验证：扫描做过此操作，只读
+translation.securityRedTeaming.accessGraph.legendInferred	已推断：某处提到过，未尝试
+translation.securityRedTeaming.accessGraph.legendNotTested	已发现，未获准测试
+translation.securityRedTeaming.accessGraph.notTested	未测试
+translation.securityRedTeaming.accessGraph.nodeFoothold	Outpost
+translation.securityRedTeaming.accessGraph.nodeIdentity	身份
+translation.securityRedTeaming.accessGraph.nodeCredential	已存凭据
+translation.securityRedTeaming.accessGraph.nodeNetwork	网络
+translation.securityRedTeaming.accessGraph.nodeHost	主机
+translation.securityRedTeaming.accessGraph.nodeService	服务
+translation.securityRedTeaming.accessGraph.nodeExternal	外部平台
+translation.securityRedTeaming.accessGraph.nodeOther	系统
+translation.securityRedTeaming.accessGraph.linkReaches	可达
+translation.securityRedTeaming.accessGraph.linkSignsIn	登录
+translation.securityRedTeaming.accessGraph.linkConnectsTo	连接到
+translation.securityRedTeaming.accessGraph.linkHolds	持有
+translation.securityRedTeaming.accessGraph.linkOther	关联到
+translation.securityRedTeaming.accessGraph.edgeLabel	{{kinds, list}}
+translation.securityRedTeaming.accessGraph.evidenceVerified	已验证
+translation.securityRedTeaming.accessGraph.evidenceInferred	已推断
+translation.securityRedTeaming.accessGraph.detailVia	经由 {{via}}
+translation.securityRedTeaming.accessGraph.detailAccess	访问：{{access}}
+translation.securityRedTeaming.accessGraph.tableLabel	访问链接
+translation.securityRedTeaming.accessGraph.colFrom	来源
+translation.securityRedTeaming.accessGraph.colLink	链接
+translation.securityRedTeaming.accessGraph.colTo	目标
+translation.securityRedTeaming.accessGraph.colEvidence	证据
+translation.securityRedTeaming.accessGraph.colDetails	详情
+translation.securityRedTeaming.accessGraph.zoomIn	放大
+translation.securityRedTeaming.accessGraph.zoomOut	缩小
+translation.securityRedTeaming.accessGraph.fit	适配视图
+translation.securityRedTeaming.accessGraph.groupMore_one	+{{formattedCount}} 个
+translation.securityRedTeaming.accessGraph.groupMore_other	+{{formattedCount}} 个
+translation.securityRedTeaming.accessGraph.showAll	显示所有系统
+translation.securityRedTeaming.accessGraph.showFewer	收起
+translation.securityRedTeaming.requests.title	请求日志
+translation.securityRedTeaming.requests.subtitle	此扫描的会话发送到你系统的每个请求，最新在前。标头、查询串和请求体绝不记录，疑似机密的路径段会被隐藏。
+translation.securityRedTeaming.requests.flaggedHint	当请求的主机超出此扫描被允许测试的范围，或其方法或路径疑似会更改或删除数据时，请求会被标记。
+translation.securityRedTeaming.requests.emptyTitle	还没有请求记录
+translation.securityRedTeaming.requests.emptyRunningDescription	请求发出后几分钟内会出现在这里。
+translation.securityRedTeaming.requests.emptyDescription	此扫描没有通过其代理发送任何请求。
+translation.securityRedTeaming.requests.emptyFlaggedTitle	没有被标记的请求
+translation.securityRedTeaming.requests.emptyFlaggedDescription	没有请求超出范围或疑似有破坏性。
+translation.securityRedTeaming.requests.loadFailedTitle	无法加载请求日志
+translation.securityRedTeaming.requests.filterLabel	显示的请求
+translation.securityRedTeaming.requests.filterAll	全部（{{total}}）
+translation.securityRedTeaming.requests.filterFlagged	已标记（{{total}}）
+translation.securityRedTeaming.requests.columnTime	时间
+translation.securityRedTeaming.requests.columnMethod	方法
+translation.securityRedTeaming.requests.columnRequest	请求
+translation.securityRedTeaming.requests.columnStatus	状态
+translation.securityRedTeaming.requests.columnFlags	标记
+translation.securityRedTeaming.requests.columnSession	会话
+translation.securityRedTeaming.requests.openSession	打开
+translation.securityRedTeaming.requests.statusFailed	失败
+translation.securityRedTeaming.requests.statusUnknown	无响应
+translation.securityRedTeaming.requests.flagOutOfScope	超出范围
+translation.securityRedTeaming.requests.flagDestructive	有破坏性
+translation.securityRedTeaming.live.title	实时视图
+translation.securityRedTeaming.live.titleFinished	测试过程回顾
+translation.securityRedTeaming.live.headlineQueued	等待开始
+translation.securityRedTeaming.live.headlineAwaitingInput	Devin 正在等待你的回复
+translation.securityRedTeaming.live.headlineMap	Devin 正在绘制攻击者可达的一切
+translation.securityRedTeaming.live.headlineSignIn	Devin 正在用测试账户登录
+translation.securityRedTeaming.live.headlineHunt_one	{{formattedCount}} 个代理正在测试目标
+translation.securityRedTeaming.live.headlineHunt_other	{{formattedCount}} 个代理正在测试目标
+translation.securityRedTeaming.live.headlineReport	Devin 正在核对发现项并撰写报告
+translation.securityRedTeaming.live.headlineCompleted	测试完成
+translation.securityRedTeaming.live.headlineStopped	此测试在完成前停止了
+translation.securityRedTeaming.live.phasesLabel	测试进度
+translation.securityRedTeaming.live.phaseMap	绘制攻击面
+translation.securityRedTeaming.live.phaseSignIn	登录
+translation.securityRedTeaming.live.phaseHunt	搜寻弱点
+translation.securityRedTeaming.live.phaseReport	验证并报告
+translation.securityRedTeaming.live.phaseStateDone	完成
+translation.securityRedTeaming.live.phaseStateCurrent	进行中
+translation.securityRedTeaming.live.phaseStateUpcoming	未开始
+translation.securityRedTeaming.live.statAgents	代理
+translation.securityRedTeaming.live.statEndpoints	已绘制端点
+translation.securityRedTeaming.live.statTests	已运行测试
+translation.securityRedTeaming.live.statTestsOf	共 {{total}} 项计划
+translation.securityRedTeaming.live.statFindings	已确认发现项
+translation.securityRedTeaming.live.workingNow_one	{{formattedCount}} 个正在工作
+translation.securityRedTeaming.live.workingNow_other	{{formattedCount}} 个正在工作
+translation.securityRedTeaming.live.agentsTitle	代理团队
+translation.securityRedTeaming.live.agentsDescription	主代理把测试拆成若干部分。每个代理负责一部分，并把更细的问题交给新代理。
+translation.securityRedTeaming.live.lead	主代理
+translation.securityRedTeaming.live.leadDescription	规划测试
+translation.securityRedTeaming.live.moreAgents_one	还有 {{formattedCount}} 个代理
+translation.securityRedTeaming.live.moreAgents_other	还有 {{formattedCount}} 个代理
+translation.securityRedTeaming.live.agentDetail	{{state}} · {{endpoints}}
+translation.securityRedTeaming.live.stateWorking	工作中
+translation.securityRedTeaming.live.stateCoordinating	等待其代理
+translation.securityRedTeaming.live.stateFinished	已完成
+translation.securityRedTeaming.live.stateFailed	出错停止
+translation.securityRedTeaming.live.agentListLabel	代理列表
+translation.securityRedTeaming.live.recordingsTitle	举证录屏
+translation.securityRedTeaming.live.recordingsDescription	每个确认的弱点都附有一段代理验证它的短录屏。
+translation.securityRedTeaming.live.recordingsEmpty	代理确认弱点后，录屏会出现在这里。
+translation.securityRedTeaming.live.agentsEmpty	主代理拆分测试后，代理会出现在这里。
+translation.securityRedTeaming.live.agentsEmptyFinished	此测试没有启动代理。
+translation.securityRedTeaming.live.loadFailedTitle	无法加载实时视图
+translation.securityRedTeaming.exportingReport	正在导出渗透测试报告…
+translation.securityRedTeaming.reportExported	渗透测试报告已导出
+translation.securityRedTeaming.failedToExportReport	无法导出渗透测试报告
+translation.securityRedTeaming.report.title	渗透测试报告
+translation.securityRedTeaming.report.confidential	机密
+translation.securityRedTeaming.report.preparedBy	由 Devin, Cognition 编制
+translation.securityRedTeaming.report.target	目标
+translation.securityRedTeaming.report.testingPeriod	测试周期
+translation.securityRedTeaming.report.generated	报告生成时间
+translation.securityRedTeaming.report.findings	发现项
+translation.securityRedTeaming.report.executiveSummary	执行摘要
+translation.securityRedTeaming.report.executiveSummaryBody_one	Devin 对 {{domain}} 执行了经授权的渗透测试。本次测试在范围内识别出 {{count}} 个发现项：{{critical}} 个严重、{{high}} 个高危、{{medium}} 个中危和 {{low}} 个低危。下方发现项包含 Devin 收集的证据和建议的修复措施。
+translation.securityRedTeaming.report.executiveSummaryBody_other	Devin 对 {{domain}} 执行了经授权的渗透测试。本次测试在范围内识别出 {{count}} 个发现项：{{critical}} 个严重、{{high}} 个高危、{{medium}} 个中危和 {{low}} 个低危。下方每个发现项都包含 Devin 收集的证据和建议的修复措施。
+translation.securityRedTeaming.report.executiveSummaryBody_zero	Devin 对 {{domain}} 执行了经授权的渗透测试。本次测试在范围内未发现任何问题。
+translation.securityRedTeaming.report.scope	范围与授权
+translation.securityRedTeaming.report.scopeDomain	目标域名
+translation.securityRedTeaming.report.scopeHosts	范围内的其他主机
+translation.securityRedTeaming.report.scopeNoHosts	无。测试仅限于目标域名。
+translation.securityRedTeaming.report.scopeRepos	源代码仓库
+translation.securityRedTeaming.report.scopeNoRepos	无。测试在无源代码的情况下对在线目标运行。
+translation.securityRedTeaming.report.scopeAuthorization	授权
+translation.securityRedTeaming.report.scopeAuthorizationBody	目标所有者授权了此测试，Cognition 在测试开始前验证了目标域名的所有权。测试流量仅限于上面列出的主机。
+translation.securityRedTeaming.report.methodology	方法论
+translation.securityRedTeaming.report.methodologyReconnaissance	侦察：Devin 绘制了目标可达的端点、技术栈和认证流程，并利用源代码仓库指导覆盖。
+translation.securityRedTeaming.report.methodologyReconnaissanceNoRepos	侦察：Devin 在无源代码访问的情况下，通过探测在线目标绘制了其可达端点、技术栈和认证流程。
+translation.securityRedTeaming.report.methodologyBody	测试：Devin 以外部攻击者和每个提供的用户角色身份测试应用，覆盖认证与会话处理、访问控制、注入、服务器端请求伪造、业务逻辑和敏感数据暴露，与 OWASP Web 安全测试指南对齐。\
+验证：每个候选问题在报告前都在在线目标上复现过。未确认的问题已被驳回，不在其中。\
+报告：发现项按影响和可利用性评级。测试中观察到的机密已隐藏。
+translation.securityRedTeaming.report.findingsSummary	发现项摘要
+translation.securityRedTeaming.report.colId	ID
+translation.securityRedTeaming.report.colTitle	发现项
+translation.securityRedTeaming.report.colSeverity	严重程度
+translation.securityRedTeaming.report.colStatus	状态
+translation.securityRedTeaming.report.statusOpen	待处理
+translation.securityRedTeaming.report.statusResolved	已解决
+translation.securityRedTeaming.report.findingDetails	发现项详情
+translation.securityRedTeaming.report.noFindings	在测试范围内未识别出发现项。
+translation.securityRedTeaming.report.affected	受影响项
+translation.securityRedTeaming.report.sourceCode	源代码
+translation.securityRedTeaming.report.descriptionEvidence	描述与证据
+translation.securityRedTeaming.report.remediation	修复措施
+translation.securityRedTeaming.report.noRemediation	此发现项没有记录修复措施。
+translation.securityRedTeaming.report.appendix	附录
+translation.securityRedTeaming.report.severityRatings	A. 严重程度评级
+translation.securityRedTeaming.report.severityCritical	可直接利用且影响严重，例如数据、账户或基础设施完全被攻陷。立即修复。
+translation.securityRedTeaming.report.severityHigh	可利用且对机密性、完整性或可用性有重大影响。优先修复。
+translation.securityRedTeaming.report.severityMedium	在特定条件下可利用或影响有限。在计划版本中修复。
+translation.securityRedTeaming.report.severityLow	轻微弱点或加固机会，直接影响很小。
+translation.securityRedTeaming.report.engagementDetails	B. 测试详情
+translation.securityRedTeaming.report.scanId	扫描 ID
+translation.securityRedTeaming.report.started	开始
+translation.securityRedTeaming.report.completed	完成
+translation.securityRedTeaming.report.limitations	C. 局限性
+translation.securityRedTeaming.report.limitationsBody	本报告反映测试周期内范围内的系统。渗透测试是时间点的评估，不能保证不存在其他漏洞。验证中被驳回的发现项不在其中。
+translation.securityRedTeaming.report.pageOf	第 {{page}} 页，共 {{total}} 页
+translation.securityRedTeaming.selfServeAddDomainDescription	添加你想测试的域名。任何扫描开始前，Cognition 会确认你有权测试它们。
+translation.securityRedTeaming.contractSentDescription	你的红队测试合同已发出待签。你现在可以添加域名；签署后开始测试。
+translation.securityRedTeaming.contractNoneDescription	你现在可以添加域名。与 Cognition 的红队测试合同签署后开始测试。
+translation.securityRedTeaming.launchNeedsContract	账户的红队测试合同设为「已签署」之前无法发起扫描。
+translation.securityRedTeaming.addDomain	添加域名
+translation.securityRedTeaming.setContract	设置合同
+translation.securityRedTeaming.domainNotApproved	未获准测试
+translation.securityRedTeaming.deleteDomain	删除域名
+translation.securityRedTeaming.deleteDomainNamed	删除 {{domain}}
+translation.securityRedTeaming.deleteDomainDescription	{{domain}} 将被移除。你之后可以重新添加。
+translation.securityRedTeaming.deleteDomainFailed	无法删除域名。
+translation.securityRepositories.emptyTitle	还没有仓库
+translation.securityRepositories.emptyDescription	你的组织连接的仓库会显示在这里。开始一次扫描以检查你的代码库。
+translation.securityRepositories.noMatches	没有匹配这些筛选的仓库
+translation.securityRepositories.noMatchesDescription	试试其他筛选，或清除筛选以查看每个仓库。
+translation.securityRepositories.failedToLoad	加载仓库失败
+translation.securitySidebar.scanStopped	已停止
+translation.securitySidebar.pullRequests	拉取请求
+translation.securitySidebar.repositories	仓库
+translation.securitySidebar.redTeaming	Red Teaming
+translation.securitySidebar.startScan	开始扫描
+translation.securitySidebar.everyone	所有人
+translation.securitySidebar.anyTime	任意时间
+translation.securitySidebar.connections	连接
+translation.securitySidebar.addConnection	添加连接
+translation.securitySidebar.connectionsCardTitle	添加连接
+translation.securitySidebar.connectionsCardDescription	把其他工具的发现项带入 Devin 进行分诊和修复
+translation.securitySidebar.addConnectionNoPermission	你没有添加连接的权限
+translation.securitySidebar.noConnections	没有连接
+translation.securitySidebar.renameConnectionFailed	无法重命名连接
+translation.securitySidebar.overview	概览
+translation.securitySidebar.findings	发现项
+translation.securitySidebar.legacy	Classic
+translation.securitySidebar.startScanCardTitle	开始扫描
+translation.securitySidebar.startScanCardDescription	发现漏洞并准备好待评审的修复
+translation.securitySidebar.codeTitle	代码
+translation.securitySidebar.codeDescription	构建功能、修复 bug、交付代码
+translation.securitySidebar.securityVersion	2.0
+translation.securitySidebar.securityDescription	发现漏洞和风险，并交付修复
+translation.securitySidebar.threats	威胁
+translation.securitySidebar.customize	自定义
+translation.securitySidebar.complianceDescription	收集控制证据供评估员验证
+translation.securitySidebar.prReviews	PR 评审
+translation.securityPrReview.emptyTitle	在漏洞合并前拦截
+translation.securityPrReview.emptyDescription	设置 Devin Review 检查每个拉取请求的安全问题。你的拉取请求的发现项会出现在这里。
+translation.securityPrReview.setUpReview	设置 Security Review
+translation.securityPrReview.uncoveredNamed_one	Review 未覆盖 {{names, list}}。设置 Security Review 将其纳入。
+translation.securityPrReview.uncoveredNamed_other	Review 未覆盖 {{names, list}}。设置 Security Review 将其纳入。
+translation.securityPrReview.uncoveredCount_one	Review 未覆盖 {{count}} 个仓库（含 {{names, list}}）。设置 Security Review 将其纳入。
+translation.securityPrReview.uncoveredCount_other	Review 未覆盖 {{count}} 个仓库（含 {{names, list}}）。设置 Security Review 将其纳入。
+translation.securityPrReview.uncoveredSome	Review 未覆盖部分仓库（含 {{names, list}}）。设置 Security Review 将其纳入。
+translation.securityPrReview.tabFindings	发现项
+translation.securityPrReview.tabPullRequests	拉取请求
+translation.securityPrReview.findingsEmptyTitle	没有待处理发现项
+translation.securityPrReview.findingsEmptyDescription	已分析拉取请求的安全发现项会出现在这里，直到被修复或驳回。
+translation.securityPrReview.pullRequestsEmptyTitle	没有已分析的拉取请求
+translation.securityPrReview.pullRequestsEmptyDescription	Devin Review 分析的拉取请求会出现在这里。
+translation.securityPrReview.colFinding	发现项
+translation.securityPrReview.untitledFinding	无标题发现项
+translation.securityPrReview.groupOtherOutstanding	同样待处理
+translation.securityPrReview.colTitle	标题
+translation.securityPrReview.colRepository	仓库
+translation.securityPrReview.colFindings	发现项
+translation.securityPrReview.verdictOutstanding_one	{{count}} 个待处理
+translation.securityPrReview.verdictOutstanding_other	{{count}} 个待处理
+translation.securityPrReview.verdictDismissed_one	{{count}} 个已驳回
+translation.securityPrReview.verdictDismissed_other	{{count}} 个已驳回
+translation.securityPrReview.verdictFixed_one	{{count}} 个已修复
+translation.securityPrReview.verdictFixed_other	{{count}} 个已修复
+translation.securityPrReview.verdictNone	无发现项
+translation.securityPrReview.colReviewed	已分析
+translation.securityPrReview.stateOpen	打开中
+translation.securityPrReview.stateMerged	已合并
+translation.securityPrReview.stateClosed	已关闭
+translation.securityPrReview.filterState	状态
+translation.securityPrReview.pullRequestTitle	{{repo}} #{{number}}
+translation.securityPrReview.pullRequestNumber	#{{number}}
+translation.securityPrReview.untitledPullRequest	拉取请求 #{{number}}
+translation.securityPrReview.truncated_one	显示最近的拉取请求
+translation.securityPrReview.truncated_other	显示最近 {{count}} 个拉取请求
+translation.securityPrReview.groupOutstanding	待处理
+translation.securityPrReview.groupDismissed	已驳回
+translation.securityPrReview.groupFixed	已修复
+translation.securityPrReview.dismissedBy	由 {{name}} 驳回
+translation.securityPrReview.fixedBy	由 {{name}} 修复
+translation.securityPrReview.noFindings	此拉取请求没有安全发现项
+translation.securityPrReview.viewPullRequest	查看拉取请求
+translation.securityPrReview.viewComment	查看评论
+translation.securityPrReview.viewInReview	在 Devin Review 中查看
+translation.securityPrReview.fixAllOutstanding_one	修复 {{count}} 个待处理发现项
+translation.securityPrReview.fixAllOutstanding_other	修复 {{count}} 个待处理发现项
+translation.securityPrReview.fixFindingPrompt	修复 Devin Review 在 {{url}} 上报告的这个安全发现项。
+
+{{title}}
+{{location}}
+
+{{description}}
+translation.securityPrReview.fixPullRequestPrompt	修复 Devin Review 在 {{url}} 上报告的待处理安全发现项：
+
+{{findings}}
+translation.securityPrReview.setupTitle	设置 Security Review
+translation.securityPrReview.setupDescription	Devin Review 检查你选择的仓库中拉取请求的安全问题。
+translation.securityPrReview.setupRepositories	仓库
+translation.securityPrReview.setupSelected_one	已选 {{total}} 个中的 {{count}} 个
+translation.securityPrReview.setupSelected_other	已选 {{total}} 个中的 {{count}} 个
+translation.securityPrReview.setupSelectAll	全选
+translation.securityPrReview.setupClearAll	清除全部
+translation.securityPrReview.setupAllCovered	每个仓库都已启用 Review
+translation.securityPrReview.setupNoneCovered	还没有任何仓库启用 Review
+translation.securityPrReview.setupTabNotCovered	未覆盖
+translation.securityPrReview.setupTabCovered	已覆盖
+translation.securityPrReview.setupEffort	分析力度
+translation.securityPrReview.setupEffortDescription	应用于所有选中的仓库。
+translation.securityPrReview.setupStart	首次分析
+translation.securityPrReview.setupStartDescription	Devin 首次分析拉取请求的时机。
+translation.securityPrReview.setupCadence	后续推送
+translation.securityPrReview.setupCadenceDescription	推送新提交时 Devin 是否再次分析。
+translation.securityPrReview.setupSubmit_one	为 {{count}} 个仓库启用 Review
+translation.securityPrReview.setupSubmit_other	为 {{count}} 个仓库启用 Review
+translation.securityPrReview.setupDone_one	已为 {{count}} 个仓库启用 Review
+translation.securityPrReview.setupDone_other	已为 {{count}} 个仓库启用 Review
+translation.complianceSidebar.setUpSystem	设置系统
+translation.complianceSidebar.systems	系统
+translation.complianceSidebar.setUpCardTitle	设置系统
+translation.complianceSidebar.setUpCardDescription	收集控制证据供评估员验证
+translation.complianceSidebar.deviationCount_one	{{count}} 个偏差
+translation.complianceSidebar.deviationCount_other	{{count}} 个偏差
+translation.scanConnections.enterpriseBeta	企业测试版
+translation.scanConnections.enterpriseBetaTooltip	联系你的客户团队获取访问权限
+translation.scanConnections.title	新连接
+translation.scanConnections.description	把其他工具的发现项带入 Devin 进行分诊和修复
+translation.scanConnections.source	来源
+translation.scanConnections.connect	连接
+translation.scanConnections.detailsTitle	{{source}} 详情
+translation.scanConnections.nextTitle	接下来的流程
+translation.scanConnections.nextIngestionTitle	摄取
+translation.scanConnections.nextIngestionDescription	Devin 将从 {{source}} 拉取现有发现项
+translation.scanConnections.nextIngestionDescriptionFile	Devin 将从你的文件拉取发现项
+translation.scanConnections.nextIngestionDescriptionCustom	Devin 将从你的来源拉取现有发现项
+translation.scanConnections.nextInvestigationTitle	调查
+translation.scanConnections.nextInvestigationDescription	Devin 将调查每个发现项并确认其有效性
+translation.scanConnections.nextSyncTitle	同步
+translation.scanConnections.nextSyncDescription	Devin 将把结果写回 {{source}} 并保持两边同步
+translation.scanConnections.secretPlaceholder	选择一个组织机密
+translation.scanConnections.secretCreateNew	创建新的组织机密
+translation.scanConnections.secretSearchPlaceholder	搜索机密…
+translation.scanConnections.secretNoMatch	没有匹配的机密
+translation.scanConnections.secretDescription	连接上只存储机密的名称
+translation.scanConnections.secretName	机密名称
+translation.scanConnections.secretNamePlaceholder	SNYK_API_TOKEN
