@@ -309,6 +309,8 @@ def cmd_apply(a):
     c = update_checksums(app)
     if c:
         print(" product.json:", c, "checksums refreshed (integrity check stays green)")
+    import patch_webapp
+    patch_webapp.patch(app)
     marker = os.path.join(app, MARKER)
     json.dump({"locales": list(trans), "files": BUNDLES}, open(marker, "w"))
     print("patched. marker:", marker)
@@ -335,6 +337,8 @@ def cmd_restore(a):
     pj = os.path.join(app, "product.json")
     if restore(pj):
         print("restored product.json")
+    import patch_webapp
+    patch_webapp.restore(app)
     m = os.path.join(app, MARKER)
     if os.path.exists(m):
         os.remove(m)
@@ -348,6 +352,13 @@ def cmd_status(a):
         p = os.path.join(a.app, rel)
         print(" ", rel, "exists" if os.path.exists(p) else "missing",
               "(backup)" if os.path.exists(p + ".devin-zh-backup") else "")
+    import patch_webapp
+    assets = patch_webapp.find_assets_dir(a.app)
+    if assets:
+        entry, s = patch_webapp.find_entry_chunk(assets)
+        zh = "code:`zh-CN`" in s if s else False
+        print("  devin-webapp-host:", "zh locales registered" if zh else "unpatched",
+              "(backup)" if entry and os.path.exists(str(entry) + ".devin-zh-backup") else "")
     return 0
 
 

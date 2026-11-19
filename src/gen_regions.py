@@ -13,7 +13,7 @@ import opencc
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT / "translations" / "zh-cn"
 
-FILES = ["webview.json", "review.json", "nls.json", "exts.json", "literals.json"]
+FILES = ["webview.json", "review.json", "nls.json", "exts.json", "literals.json", "webapp.json"]
 
 # Applied to the post-OpenCC traditional text.
 SHARED = [
