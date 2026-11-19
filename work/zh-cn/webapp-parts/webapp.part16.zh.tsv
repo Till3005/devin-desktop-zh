@@ -1,0 +1,500 @@
+translation.consumption.dashboard.products.wiki	Wiki
+translation.consumption.dashboard.products.total	总计
+translation.consumption.dashboard.products.terminal	Terminal
+translation.consumption.dashboard.products.bots	{{botNamePlural}}
+translation.consumption.dashboard.cycleOption.current	当前
+translation.consumption.dashboard.cycleOption.previous	上一期
+translation.consumption.dashboard.cycleOption.prior	更早
+translation.consumption.dashboard.cycleOption.both	当前与上一期
+translation.consumption.dashboard.exporting	导出中...
+translation.consumption.dashboard.allDatesPst	所有日期均为 PST
+translation.consumption.dashboard.noUsageInRange	所选日期范围无用量数据。
+translation.consumption.dashboard.selectCycle	选择周期
+translation.consumption.dashboard.daily	按日
+translation.consumption.dashboard.weekly	按周
+translation.consumption.dashboard.monthly	按月
+translation.consumption.dashboard.groupBy	分组方式
+translation.consumption.dashboard.cycleCurrentWithLabel	当前（{{label}}）
+translation.consumption.dashboard.cyclePreviousWithLabel	上一期（{{label}}）
+translation.consumption.dashboard.csvColumn.organization	组织
+translation.consumption.dashboard.csvColumn.config	配置
+translation.consumption.dashboard.csvColumn.status	状态
+translation.consumption.dashboard.csvColumn.sessions	会话
+translation.consumption.dashboard.csvColumn.lastRun	最近运行
+translation.consumption.dashboard.csvColumn.repository	仓库
+translation.consumption.dashboard.csvColumn.reviews	评审
+translation.consumption.dashboard.csvColumn.automation	自动化
+translation.consumption.dashboard.csvColumn.deleted	已删除
+translation.consumption.dashboard.csvColumn.enabled	已启用
+translation.consumption.dashboard.csvColumn.disabled	已停用
+translation.consumption.dashboard.csvColumn.oncallResource	Oncall 资源
+translation.consumption.dashboard.csvColumn.host	主机
+translation.consumption.dashboard.csvColumn.scans	扫描
+translation.consumption.dashboard.csvColumn.lastScan	最近扫描
+translation.consumption.dashboard.csvColumn.email	邮箱
+translation.consumption.dashboard.csvColumn.name	名称
+translation.consumption.dashboard.valueModeTooltip	以计数或百分比显示图表值
+translation.consumption.dashboard.counts	计数
+translation.consumption.dashboard.percentages	百分比
+translation.consumption.dashboard.tooltipNouns.reviewAcus	评审 ACU
+translation.consumption.dashboard.tooltipNouns.prReviews	PR 评审
+translation.consumption.dashboard.tooltipNouns.bugsCaught	捕获的 bug
+translation.consumption.dashboard.bugsCaught	捕获的 Bug
+translation.consumption.dashboard.statusFilter.all	活跃与已删除组织
+translation.consumption.dashboard.statusFilter.active	仅活跃
+translation.consumption.dashboard.statusFilter.deleted	仅已删除
+translation.consumption.dashboard.otherCount	其他（{{repoCount}}）
+translation.consumption.dashboard.myAnalytics	我的分析
+translation.consumption.dashboard.consumption	消耗
+translation.consumption.dashboard.personalNotAvailable	你的账户暂不支持个人消耗数据。
+translation.consumption.dashboard.noCycleData	未找到计费周期数据
+translation.consumption.dashboard.monthlyTooltipLocal	当前月度窗口内计入你 ACU 上限的用量，只覆盖 {{cascadeLabel}} 和 Terminal CLI，不含云端 Devin 会话。此窗口每月重置，与计费周期长短无关。
+translation.consumption.dashboard.monthlyTooltipAll	当前月度窗口内计入你 ACU 上限的用量，覆盖含云端 Devin 会话的所有产品。此窗口每月重置，与计费周期长短无关。
+translation.consumption.dashboard.selectedDateRange	所选日期范围
+translation.consumption.dashboard.unitConsumed	已消耗{{noun}}
+translation.consumption.dashboard.dailyAverage	日均
+translation.consumption.dashboard.peakDay	峰值日
+translation.consumption.dashboard.unitConsumedOverRange	所选范围消耗的{{noun}}
+translation.consumption.dashboard.byCycle	按周期
+translation.consumption.dashboard.cumulativeOverRange	所选范围累计{{noun}}
+translation.consumption.dashboard.cumulative	累计{{noun}}
+translation.consumption.dashboard.currentDay	当天
+translation.consumption.dashboard.monthlyLocalLimitUsage	每月本地 ACU 上限用量
+translation.consumption.dashboard.monthlyLimitUsage	每月 ACU 上限用量
+translation.consumption.dashboard.over	超出 {{amount}}
+translation.consumption.dashboard.left	剩余 {{amount}}
+translation.consumption.dashboard.monthlyThreshold	月度阈值
+translation.consumption.dashboard.editMonthlyThreshold	编辑月度阈值
+translation.consumption.dashboard.dailyConsumption	每日消耗
+translation.consumption.dashboard.currentPeriod	当前期间
+translation.consumption.dashboard.currentMonthUnitConsumed	本月已消耗{{noun}}
+translation.consumption.dashboard.cumulativeVsLimit	累计 ACU vs 月度上限
+translation.consumption.dashboard.cumulativeVsThreshold	累计{{noun}} vs 月度阈值
+translation.consumption.dashboard.noMonthlyPacing	无月度消耗速度数据。
+translation.consumption.dashboard.unitUsed	已用{{noun}}
+translation.consumption.dashboard.projectedRestOfMonth	本月剩余消耗预估
+translation.consumption.dashboard.noUsageForCycle	所选周期无用量数据。
+translation.consumption.dashboard.cumulativeCapacityUsed	已用分配额度累计百分比
+translation.consumption.dashboard.noCapacityForCycle	所选周期无分配额度数据。
+translation.consumption.dashboard.unitByProduct	按产品的{{noun}}
+translation.consumption.dashboard.noProductBreakdown	无产品细分数据。
+translation.consumption.dashboard.consumptionByCycle	按周期的消耗
+translation.consumption.dashboard.consumptionByCycleTooltip	跨所有计费周期的历史消耗
+translation.consumption.dashboard.projectedRestOfCycle	本周期剩余消耗预估
+translation.consumption.dashboard.projectedRestOfCycleTooltip	按本周期迄今消耗速度的线性外推
+translation.consumption.dashboard.allocatedCapacity	分配额度
+translation.consumption.dashboard.noHistoricalCycles	无历史周期数据。
+translation.consumption.dashboard.totalAcuLimit	ACU 上限总计
+translation.consumption.dashboard.totalAcuLimitTooltip	已设上限组织的 ACU 上限之和
+translation.consumption.dashboard.totalAcusConsumed	已消耗 ACU 总计
+translation.consumption.dashboard.overallUsage	总用量
+translation.consumption.dashboard.searchUser	搜索用户
+translation.consumption.dashboard.topUsersTooltip	本周期按{{noun}}排序的前 10 用户，并显示上周期对比。其余用户归入 Other。
+translation.consumption.dashboard.topServiceUsersTooltip	本周期按{{noun}}排序的前 10 服务用户，并显示上周期对比。其余服务用户归入 Other。
+translation.consumption.dashboard.tabOverall	总览
+translation.consumption.dashboard.selectMetric	选择指标
+translation.consumption.dashboard.automationAcus	自动化 ACU
+translation.consumption.dashboard.noAutomationUsage	无自动化用量数据。
+translation.consumption.dashboard.oncallAcus	Oncall ACU
+translation.consumption.dashboard.noOncallUsage	无 oncall 用量数据。
+translation.consumption.dashboard.dailyConsumptionTitle	每日消耗
+translation.consumption.dashboard.monthlyConsumptionTitle	每月消耗
+translation.consumption.dashboard.daysLeft_one	剩 {{count}} 天
+translation.consumption.dashboard.daysLeft_other	剩 {{count}} 天
+translation.consumption.dashboard.topUsersBy	按{{noun}}排序的头部用户
+translation.consumption.dashboard.topServiceUsersBy	按{{noun}}排序的头部服务用户
+translation.consumption.dashboard.topReposBy	按{{metric}}排序的头部仓库
+translation.consumption.dashboard.orgFiguresWithReview	每组织数字包含归属该组织的 Devin 会话、{{cascadeLabel}}、Terminal CLI 和 Review {{noun}}。
+translation.consumption.dashboard.orgFiguresNoReview	每组织数字包含归属该组织的 Devin 会话、{{cascadeLabel}} 和 Terminal CLI {{noun}}。Review 用量无每组织归属，不计入。
+translation.consumption.dashboard.acusUnit	ACU
+translation.createTeam.cancel	取消
+translation.createTeam.create	创建
+translation.createTeam.creating	创建中...
+translation.createTeam.description	每个账户管理自己的项目和计费
+translation.createTeam.error	创建账户失败
+translation.createTeam.nameLabel	名称
+translation.createTeam.nameRequired	名称必填
+translation.createTeam.title	新账户
+translation.creditsExhausted.contactAccountTeam	联系你的账户团队续订。
+translation.creditsExhausted.contractExpired	你的 Devin 合同已到期
+translation.creditsExhausted.increaseLimit	提高用量上限
+translation.creditsExhausted.increaseOrgLimit	提高企业组织用量上限
+translation.creditsExhausted.increaseUserLimit	提高你的每用户用量上限
+translation.creditsExhausted.individualPlan	你的账户是个人计划
+translation.creditsExhausted.lastPaymentFailed	你的最近一笔付款失败
+translation.creditsExhausted.subscribeToUse	订阅以使用 Devin
+translation.desktop.desktopTabTitle	Desktop
+translation.desktop.didNotOpen	Devin Desktop 没打开？
+translation.desktop.download	下载 Devin Desktop
+translation.desktop.invalidLink	此链接无效。
+translation.desktop.logIn	登录 Devin Desktop
+translation.desktop.logInToChannel	登录 {{channel}}
+translation.desktop.moreOptions	更多 Devin Desktop 选项
+translation.desktop.open	打开 Devin Desktop
+translation.desktop.openHereInstead	改在此处打开
+translation.desktop.opened	会话已在 Devin Desktop 打开
+translation.desktop.openedPage	已在 Devin Desktop 打开
+translation.desktop.opening	正在打开 Devin Desktop…
+translation.desktop.returned	正在返回 Devin Desktop
+translation.desktop.title	Devin Desktop
+translation.devinActivityStatus.catchingUp	正在补进度
+translation.devinActivityStatus.actionRequired	需要你操作：{{action}}
+translation.devinActivityStatus.awaitingInstructions	Devin 在等待指令
+translation.devinActivityStatus.botBudgetSleep	此 {{botName}} 的用量超限，Devin 已休眠。
+translation.devinActivityStatus.botBudgetSleep_named	{{botName}} 的用量超限，Devin 已休眠。
+translation.devinActivityStatus.botBudgetSleepRaised	此 {{botName}} 的用量超限，Devin 已休眠。此后上限已提高。
+translation.devinActivityStatus.botBudgetSleepWithButton	此 {{botName}} 的用量超限，Devin 已休眠。<budgetButton></budgetButton>以继续。
+translation.devinActivityStatus.crashed	Devin 崩溃了。发消息尝试恢复
+translation.devinActivityStatus.creatorAcuLimitSleep	会话所有者超出其每用户用量上限，Devin 已休眠。
+translation.devinActivityStatus.creatorAcuLimitSleep_named	{{name}} 超出其每用户用量上限，Devin 已休眠。
+translation.devinActivityStatus.goingToSleep	正在休眠…
+translation.devinActivityStatus.increaseAcuLimit	提高用量上限
+translation.devinActivityStatus.increaseBotLimits	提高上限
+translation.devinActivityStatus.increaseCreatorAcuLimit	在 Usage Policies 中提高其上限
+translation.devinActivityStatus.queued	服务器负载高。Devin 在等待算力...
+translation.devinActivityStatus.queuedStatus	{{status}}...
+translation.devinActivityStatus.raiseOrRemoveLimit	提高或移除上限
+translation.devinActivityStatus.recapDismiss	关闭
+translation.devinActivityStatus.recapDismissLabel	关闭小结
+translation.devinActivityStatus.recapOpenInSideChat	在侧边聊天中打开小结
+translation.devinActivityStatus.recapStatusAwaitingUser	等待下一步
+translation.devinActivityStatus.recapStatusBlocked	已阻塞
+translation.devinActivityStatus.recapStatusDone	完成
+translation.devinActivityStatus.recapStatusInProgress	进行中
+translation.devinActivityStatus.recapTimeline	时间线
+translation.devinActivityStatus.recapTitle	会话小结
+translation.devinActivityStatus.reconnecting	重连中…
+translation.devinActivityStatus.reconnectingTooltip	与服务器的连接丢失，正在自动重连。你也可以刷新页面获取最新结果。
+translation.devinActivityStatus.sendMessageToResume	发消息以恢复
+translation.devinActivityStatus.settingUp	正在设置…
+translation.devinActivityStatus.workingInBackground	Devin 正在后台工作
+translation.devinActivityStatus.waitingOnSubagent	等待子代理
+translation.devinActivityStatus.sleepContractExpired	你组织的 Devin 合同已到期，Devin 已休眠。联系你的账户团队续订。
+translation.devinActivityStatus.sleepNetPolicyUpdate	Devin 已休眠以应用更新后的网络配置。
+translation.devinActivityStatus.sleepNoQuotaAllocation	你的账户是个人计划但你不是组织所有者，Devin 已休眠
+translation.devinActivityStatus.sleepOrgAcuLimit	你组织的用量超限，Devin 已休眠。需要企业管理员提高你组织的用量上限才能继续。
+translation.devinActivityStatus.sleepOrgAcuLimitWithLink	你组织的用量超限，Devin 已休眠。<settingsLink></settingsLink>为你的组织以继续。
+translation.devinActivityStatus.sleepOrgLimitRaised	你组织的用量超限，Devin 已休眠。此后上限已提高。
+translation.devinActivityStatus.sleepOutOfQuota	Devin 已休眠，因为 {{description}}
+translation.devinActivityStatus.sleepPaymentDeclined	你组织的最近一笔付款失败，Devin 已休眠，请更新付款信息
+translation.devinActivityStatus.sleepTotalSessionLimit	此会话超出会话总用量上限，Devin 已休眠。确认上限以继续，或开始新会话。
+translation.devinActivityStatus.sleepUsageLimit	Devin 达到你的每消息用量上限，已自动暂停以防花费失控。要它继续吗？发消息，或<limitAction></limitAction>。
+translation.devinActivityStatus.sleepUserLimitRaised	你的每用户用量超限，Devin 已休眠。此后上限已提高。
+translation.devinActivityStatus.typing	Devin 正在输入…
+translation.devinActivityStatus.upgrade	升级
+translation.devinActivityStatus.userAcuLimitSleepBare	你的每用户用量超限，Devin 已休眠。
+translation.devinActivityStatus.userAcuLimitSleepGuidance	你的每用户用量超限，Devin 已休眠。{{guidance}}。
+translation.devinActivityStatus.userAcuLimitSleepWithAction	你的每用户用量超限，Devin 已休眠。<requestAction></requestAction>以继续。
+translation.devinActivityStatus.waitingForApproval	等待批准
+translation.devinActivityStatus.waitingForCiOnPr	等待 <pr>PR #{{number}}</pr> 的 CI 检查
+translation.devinActivityStatus.waitingForWakeUp	等待 Devin 醒来…
+translation.devinActivityStatus.waitingOnSessions_one	等待 {{count}} 个 Devin 会话…
+translation.devinActivityStatus.waitingOnSessions_other	等待 {{count}} 个 Devin 会话…
+translation.devinActivityStatus.wakeDevinUp	唤醒 Devin
+translation.devinActivityStatus.wakeDevinUpPrompt	唤醒 Devin？
+translation.devinActivityStatus.wentToSleep	Devin 已休眠
+translation.devinModeHeader.code	Code
+translation.devinModeHeader.unavailableWithFusion	Fusion 下不可用
+translation.devinModeHeader.agent	Agent
+translation.devinModeHeader.ask	Ask
+translation.devinModeHeader.switchMode	切换模式
+translation.devinModeHeader.modePickerMovedTitle	Agent 和 Ask 现在在这里
+translation.devinModeHeader.modePickerMovedSubtitle	从此菜单切换模式
+translation.devinModeHeader.migrations	迁移
+translation.devinsWorkspace.tooltipRepositoryPath	仓库代码所在的根目录。所有命令以此为基础路径。
+translation.devinsWorkspace.tooltipDefaultBranch	仓库的主分支（如 'main' 或 'master'）。Devin 默认基于此分支工作。
+translation.devinsWorkspace.tooltipPullRepo	每个会话开始时自动运行，与远端同步仓库并确保你在正确分支上。
+translation.devinsWorkspace.tooltipUpdateDependencies	每个会话开始时自动运行，更新并安装项目依赖。
+translation.devinsWorkspace.tooltipRunLintCheck	检查代码风格和格式但不改动的命令。Devin 会被要求运行它验证工作。
+translation.devinsWorkspace.tooltipRunLintFix	自动修复代码风格和格式问题的命令。Devin 会被要求运行它验证工作。
+translation.devinsWorkspace.tooltipRunTests	运行项目测试套件的命令。Devin 会被要求运行它验证工作。
+translation.devinsWorkspace.tooltipRunProject	本地构建并运行项目的命令。Devin 会得到描述和命令以验证其工作。
+translation.devinsWorkspace.statusUpdated	状态已更新为 {{status}}
+translation.devinsWorkspace.failedToUpdateStatus	更新状态失败
+translation.devinsWorkspace.savingChangesWithConflicts	正在保存有冲突的更改
+translation.devinsWorkspace.commandsUpdated	命令已更新
+translation.devinsWorkspace.failedToUpdateCommands	更新命令失败
+translation.devinsWorkspace.updatedToLatestValues	已更新到最新值
+translation.devinsWorkspace.titlePullRepo	拉取仓库
+translation.devinsWorkspace.titleUpdateDependencies	更新依赖
+translation.devinsWorkspace.titleRunLintCheck	运行 lint 检查
+translation.devinsWorkspace.titleRunLintFix	lint 自动修复
+translation.devinsWorkspace.titleRunTests	运行测试
+translation.devinsWorkspace.titleRunProject	运行项目
+translation.devinsWorkspace.titleInitializeTemplate	初始化模板
+translation.devinsWorkspace.titleMaintenance	维护
+translation.devinsWorkspace.add	添加
+translation.devinsWorkspace.addMonorepoSubproject	添加 Monorepo 子项目
+translation.devinsWorkspace.addSubproject	添加子项目
+translation.devinsWorkspace.addSubprojectButton	添加子项目
+translation.devinsWorkspace.addSubprojectDescription	子项目是需要自己配置步骤的目录
+translation.devinsWorkspace.cancel	取消
+translation.devinsWorkspace.commandDescriptionPlaceholder	为这些命令添加描述…
+translation.devinsWorkspace.defaultBranch	默认分支
+translation.devinsWorkspace.delete	删除
+translation.devinsWorkspace.deleteProjectConfirm	确定删除此项目？这会移除所有关联命令和配置。
+translation.devinsWorkspace.deleteSubproject	删除子项目
+translation.devinsWorkspace.deleteSubprojectConfirm	确定删除子项目「{{projectPath}}」？这会移除所有关联命令和配置。
+translation.devinsWorkspace.edit	编辑
+translation.devinsWorkspace.mainProject	主项目
+translation.devinsWorkspace.noClonedPathSet	未设置克隆路径
+translation.devinsWorkspace.noDefaultBranchSet	未设置默认分支（将用远端默认）
+translation.devinsWorkspace.noDescription	无描述
+translation.devinsWorkspace.projectCommands	项目命令
+translation.devinsWorkspace.projectCommandsDescription	Devin 用项目命令确保改动仓库后项目能运行并通过 lint、测试等。
+translation.devinsWorkspace.repositoryConfiguration	仓库配置
+translation.devinsWorkspace.repositoryConfigurationDescription	仓库克隆位置的基本信息
+translation.devinsWorkspace.repositoryMaintenance	仓库维护
+translation.devinsWorkspace.repositoryMaintenanceDescription	处理新工单时保持 Devin 工作区最新且 Git 状态良好（在正确分支上等）的命令
+translation.devinsWorkspace.repositoryPath	仓库路径
+translation.devinsWorkspace.resetToLatest	重置为最新
+translation.devinsWorkspace.markVerified	标记已验证
+translation.devinsWorkspace.save	保存
+translation.devinsWorkspace.sectionChangedByDevin	你开始编辑后，此节已被 Devin 改动
+translation.devinsWorkspace.skip	跳过
+translation.devinsWorkspace.skipCommandsDescription	确定跳过这些命令？这会移除此节的所有命令。
+translation.devinsWorkspace.skipCommandsTitle	跳过命令
+translation.devinsWorkspace.subprojectPath	子项目路径
+translation.devinsWorkspace.subprojectPathDescription	相对仓库根目录
+translation.devinsWorkspace.subprojectPathPlaceholder	./packages/frontend
+translation.devinsWorkspace.yesSkip	是，跳过
+translation.devinsWorkspace.setupRejected	对仓库配置 {{type}} 的修改被拒绝
+translation.devinsWorkspace.setupRejectedForProject	对 {{projectPath}} 的仓库配置 {{type}} 修改被拒绝
+translation.devinsWorkspace.setupRejectedWithReason	{{message}}：{{reason}}
+translation.devinsWorkspace.waitPendingChanges	请等待待处理更改完成
+translation.devinsWorkspace.failedToEdit	编辑失败
+translation.display.byStatus	按状态
+translation.display.created	创建时间
+translation.display.direction	方向
+translation.display.display	显示
+translation.display.displayProperties	显示属性
+translation.display.exportToCsv	导出为 CSV
+translation.display.flatList	平铺列表
+translation.display.grouping	分组
+translation.display.newestFirst	最新在前
+translation.display.noGrouping	不分组
+translation.display.oldestFirst	最旧在前
+translation.display.playbook	Playbook
+translation.display.prs	PR
+translation.display.sortBy	排序方式
+translation.display.tags	标签
+translation.display.treeView	树状视图
+translation.display.updated	更新时间
+translation.display.user	用户
+translation.display.view	视图
+translation.enterprise.orgName.empty	组织名不能为空或只含空格
+translation.enterprise.orgName.tooShort	组织名至少 2 个字符
+translation.enterprise.orgName.tooLong	组织名最多 40 个字符
+translation.enterprise.orgName.invalidChars	组织名只能含字母、数字、空格、连字符和下划线
+translation.enterprise.orgName.taken	同名组织已存在
+translation.enterprise.learnWithUniversity	在 Devin University 学习
+translation.enterprise.noAccessTitle	向你的企业管理员申请 Devin 访问权
+translation.enterprise.noAccessUniversityDescription	入门时在 Devin University 获取认证
+translation.enterprise.unifiedNoSessionPermission	你的账户还没有启动 Devin 会话的权限。请企业管理员把它加到你的角色里。
+translation.enterprise.orSetUpDevinDesktop	或者，<desktopLink>设置 Devin Desktop</desktopLink>
+translation.enterprise.selectDatePreset	选择日期预设
+translation.enterprise.welcome	欢迎
+translation.enterprise.chooseOrganization	选择一个组织继续
+translation.enterprise.searchOrganizationPlaceholder	搜索组织
+translation.enterprise.mcpTable.mcpName	MCP 名称
+translation.enterprise.mcpTable.orgsEnabled	启用的组织
+translation.enterprise.mcpTable.users	用户
+translation.enterprise.mcpTable.sessions	会话
+translation.enterprise.mcpTable.columnUsers	用户
+translation.enterprise.mcpTable.noOrganizationsFound	未找到组织
+translation.enterprise.mcpSessionTable.session	会话
+translation.enterprise.mcpSessionTable.user	用户
+translation.enterprise.mcpSessionTable.noSessions	未找到会话
+translation.enterprise.mcpSessionTable.viewSession	查看会话
+translation.enterprise.billingOrgs.updatingToast	正在更新计费组织...
+translation.enterprise.billingOrgs.updatedToast	计费组织已更新
+translation.enterprise.billingOrgs.updateFailedToast	更新计费组织失败
+translation.enterprise.billingOrgs.loadingOrgs	正在加载组织…
+translation.enterprise.billingOrgs.selectOrg	选择组织
+translation.enterprise.billingOrgs.updatingSrOnly	正在更新计费组织
+translation.enterprise.mcpTargetPicker.unknownOrgId	{{token}}——未知组织 ID
+translation.enterprise.mcpTargetPicker.alreadyExcluded	{{token}}——已排除
+translation.enterprise.mcpTargetPicker.alreadySelected	{{token}}——已选择
+translation.enterprise.mcpTargetPicker.selectedCount_one	已选 {{count}} 个
+translation.enterprise.mcpTargetPicker.selectedCount_other	已选 {{count}} 个
+translation.enterprise.mcpTargetPicker.included	已包含
+translation.enterprise.mcpTargetPicker.includedCount_one	已包含 {{count}} 个
+translation.enterprise.mcpTargetPicker.includedCount_other	已包含 {{count}} 个
+translation.enterprise.mcpTargetPicker.selected	已选择
+translation.enterprise.mcpTargetPicker.excludedCount_one	已排除 {{count}} 个
+translation.enterprise.mcpTargetPicker.excludedCount_other	已排除 {{count}} 个
+translation.enterprise.mcpTargetPicker.includedWithExcluded	{{included}} · {{excluded}}
+translation.enterprise.mcpTargetPicker.excludeAllMatching	排除所有匹配组织
+translation.enterprise.mcpTargetPicker.deselectAllMatching	取消选择所有匹配组织
+translation.enterprise.mcpTargetPicker.includeAllMatching	包含所有匹配组织
+translation.enterprise.mcpTargetPicker.selectAllMatching	选择所有匹配组织
+translation.enterprise.mcpTargetPicker.searchOrg	搜索组织
+translation.enterprise.mcpTargetPicker.toggleAria	{{summary}}——{{action}}
+translation.enterprise.mcpTargetPicker.showAll	显示所有组织
+translation.enterprise.mcpTargetPicker.showOnly	只显示{{kind}}的组织
+translation.enterprise.mcpTargetPicker.showingAnnounce_one	显示 {{count}} 个{{kind}}的组织
+translation.enterprise.mcpTargetPicker.showingAnnounce_other	显示 {{count}} 个{{kind}}的组织
+translation.enterprise.mcpTargetPicker.noOrgsInEnterprise	此企业中无组织。
+translation.enterprise.mcpTargetPicker.noIncludedOrgs	无已包含的组织。
+translation.enterprise.mcpTargetPicker.noIncludedOrgsMatch	无匹配的已包含组织。
+translation.enterprise.mcpTargetPicker.noSelectedOrgs	无已选择的组织。
+translation.enterprise.mcpTargetPicker.noSelectedOrgsMatch	无匹配的已选择组织。
+translation.enterprise.mcpTargetPicker.noOrgsFound	未找到组织。
+translation.enterprise.mcpTargetPicker.otherInstallations_one	+{{count}} 个其他安装
+translation.enterprise.mcpTargetPicker.otherInstallations_other	+{{count}} 个其他安装
+translation.enterprise.mcpTargetPicker.pasteIdsExclude	粘贴要排除的组织 ID
+translation.enterprise.mcpTargetPicker.pasteIds	粘贴组织 ID
+translation.enterprise.mcpTargetPicker.excludeAll	全部排除
+translation.enterprise.mcpTargetPicker.clearAll	全部清除
+translation.enterprise.mcpTargetPicker.onePerLine	每行一个组织 ID，或逗号分隔
+translation.enterprise.mcpTargetPicker.excludeIds	排除 ID
+translation.enterprise.mcpTargetPicker.addIds	添加 ID
+translation.enterprise.mcpTargetPicker.rejectExcludedHint	未知或已排除的 ID 会按行报错拒绝。
+translation.enterprise.mcpTargetPicker.rejectDuplicateHint	未知或重复的 ID 会按行报错拒绝。
+translation.enterprise.subcategories.createLoading	正在创建子类别...
+translation.enterprise.subcategories.createSuccess	子类别创建成功
+translation.enterprise.subcategories.createError	创建子类别失败
+translation.enterprise.subcategories.updateLoading	正在保存子类别更改...
+translation.enterprise.subcategories.updateSuccess	子类别更改保存成功
+translation.enterprise.subcategories.updateError	保存子类别更改失败
+translation.enterprise.subcategories.deleteLoading	正在删除子类别...
+translation.enterprise.subcategories.deleteSuccess	子类别删除成功
+translation.enterprise.subcategories.deleteError	删除子类别失败
+translation.enterprise.subcategories.suggestError	生成建议失败。请重试。
+translation.enterprise.subcategories.others	其他
+translation.enterprise.orgSelector.deletedOrgLabel	已删除组织
+translation.enterprise.orgSelector.primaryOrgLabel	{{name}}（整个企业）
+translation.enterprise.orgSelector.primaryOrgWarning	警告：企业内所有用户对此处仓库有 DeepWiki 和 Search 访问权
+translation.enterprise.removeUsers.noneSelected	未选择用户
+translation.enterprise.removeUsers.cannotRemoveSelf	你不能把自己移出企业
+translation.enterprise.removeUsers.button	移除成员
+translation.enterprise.removeUsers.title	把成员移出企业？
+translation.enterprise.removeUsers.description	把所选用户从企业及其所有组织中永久移除
+translation.enterprise.removeUsers.confirm	移除
+translation.enterprise.removeGroups.noneSelected	未选择群组
+translation.enterprise.removeGroups.button	移除群组
+translation.enterprise.removeGroups.title	把群组移出企业？
+translation.enterprise.removeGroups.description	这会把所选群组从企业及其所有组织中永久移除。此操作无法撤销。
+translation.enterprise.removeGroups.confirm	移除
+translation.enterprise.patInventory.revoked	已吊销 \\
+translation.enterprise.approvalQueue.requestedExpiration	申请过期时间
+translation.enterprise.approvalQueue.approved	已批准 \\
+translation.enterprise.categories.clickEdit	点击编辑
+translation.enterprise.categories.uncategorizedShare	约 {{share}}% 的未分类会话
+translation.enterprise.categories.clickReview	点击审核
+translation.enterprise.categories.reviewSuggestion	审核建议
+translation.enterprise.categories.newOnlyNew	新子类别只应用于新会话。已有会话不回填
+translation.enterprise.categories.usedInPrompts	用于 LLM 提示词
+translation.enterprise.categories.accepting	正在接受...
+translation.enterprise.categories.addSubcategoryTitle	添加「{{parent}}」子类别
+translation.enterprise.categories.namePlaceholder	如：Spark 迁移
+translation.enterprise.categories.descPlaceholder	如：迁移 Spark 流水线及相关基础设施
+translation.enterprise.categories.deleteTitle	删除「{{name}}」
+translation.enterprise.categories.deleteConfirm	确定删除此子类别？
+translation.enterprise.categories.checkingAffected	正在检查受影响会话…
+translation.enterprise.categories.affected_one	当前有 <strong>{{count}}</strong> 个会话归在此子类别下。出于分析目的它会保留原分类。
+translation.enterprise.categories.affected_other	当前有 <strong>{{count}}</strong> 个会话归在此子类别下。出于分析目的它们会保留原分类。
+translation.enterprise.categories.editTitle	编辑「{{name}}」
+translation.enterprise.categories.changesOnlyNew	更改只应用于新会话。已有会话不重新分类
+translation.enterprise.categories.maxReached	已达 {{max}} 个子类别的上限
+translation.enterprise.categories.needsSessions	至少需要 10 个未分类会话才能生成建议
+translation.enterprise.categories.suggesting	正在生成建议...
+translation.enterprise.categories.addSubcategory	添加子类别
+translation.enterprise.categories.descAnalytics	查看会话在各类别中分布的分析。
+translation.enterprise.categories.descConfig	会话先按类别分类，再按子类别分类。定义自定义子类别以更细粒度分类会话。自动包含「Other」子类别。
+translation.enterprise.categories.exportDisabled	选择具体日期范围导出。「All time」预设不支持导出。
+translation.enterprise.categories.exportSessions	导出会话数据
+translation.enterprise.categories.deleting	删除中…
+translation.enterprise.categories.fieldName	显示名
+translation.enterprise.categories.nameRequired	显示名必填
+translation.enterprise.categories.fieldDescription	描述
+translation.enterprise.categories.descriptionRequired	描述必填
+translation.enterprise.categories.reject	拒绝
+translation.enterprise.categories.accept	接受
+translation.enterprise.categories.creating	创建中...
+translation.enterprise.categories.create	创建
+translation.enterprise.categories.delete	删除
+translation.enterprise.categories.suggest	建议
+translation.enterprise.categories.exporting	导出中...
+translation.enterprise.categories.periodLast7Days	最近 7 天
+translation.enterprise.categories.periodLast30Days	最近 30 天
+translation.enterprise.categories.periodLast90Days	最近 90 天
+translation.enterprise.categories.periodThisMonth	本月
+translation.enterprise.categories.periodLastMonth	上月
+translation.enterprise.categories.periodAllTime	全部时间
+translation.enterprise.categories.analyticsTab	分析
+translation.enterprise.categories.allOrganizations	所有组织
+translation.enterprise.categories.title	类别
+translation.enterprise.categories.save	保存
+translation.enterprise.mcpDetail.notFound	未找到 MCP
+translation.enterprise.mcpDetail.noLongerAvailable	此 MCP 服务器在你的企业中不再可用。
+translation.enterprise.mcpDetail.description	此 MCP 在你企业中的用量与可用性。
+translation.enterprise.mcpDetail.showInMarketplace	在 marketplace 中显示
+translation.enterprise.mcpDetail.showInMarketplaceDesc	开启后，你企业的用户可在 marketplace 看到并安装此 MCP。关闭则隐藏并阻止新安装——已安装的组织保留访问直到在那里停用或卸载。
+translation.enterprise.mcpDetail.orgsDesc	你企业中启用此 MCP 的组织。
+translation.enterprise.mcpDetail.sessionsUsage	会话用量
+translation.enterprise.mcpDetail.sessionsUsageDesc	过去一个月使用此 MCP 的会话。
+translation.enterprise.mcpDetail.sessionsDesc	最近使用此 MCP 的会话。
+translation.enterprise.mcpDetail.sessionsUnit	会话
+translation.enterprise.mcpDetail.fallbackTitle	MCP 服务器
+translation.enterprise.mcpDetail.noUsageData	无用量数据
+translation.enterprise.mcpDetail.organizations	组织
+translation.enterprise.patPolicies.policySettings	策略设置
+translation.enterprise.patPolicies.approvalQueue	审批队列
+translation.enterprise.patPolicies.patInventory	PAT 清单
+translation.enterprise.patPolicies.violationDisabled	PAT 被策略禁用
+translation.enterprise.patPolicies.violationMissing	缺少过期日期
+translation.enterprise.patPolicies.violationExceeds	超过最大过期时限
+translation.enterprise.patPolicies.selfServe	自助
+translation.enterprise.patPolicies.maxExpiration	最大过期时限（天）
+translation.enterprise.patPolicies.maxExpirationHelp	每个 token 必须在此窗口内过期（1–{{max}} 天）。
+translation.enterprise.patPolicies.confirmTitle	确认策略变更
+translation.enterprise.patPolicies.violations	违规
+translation.enterprise.patPolicies.andMore	…还有 {{count}} 个
+translation.enterprise.patPolicies.revokeApply	吊销并应用
+translation.enterprise.patPolicies.loadFailed	加载策略失败。
+translation.enterprise.patPolicies.maxExpirationError	最大过期时限必须是 1 到 {{max}} 天的整数。
+translation.enterprise.patPolicies.revokedNote_one	{{count}} 个 token 已吊销
+translation.enterprise.patPolicies.revokedNote_other	{{count}} 个 token 已吊销
+translation.enterprise.patPolicies.reactivatedNote_one	{{count}} 个现有 token 重新可用
+translation.enterprise.patPolicies.reactivatedNote_other	{{count}} 个现有 token 重新可用
+translation.enterprise.patPolicies.updatedWithNotes	策略已更新。{{notes}}。
+translation.enterprise.patPolicies.updated	策略已更新。
+translation.enterprise.patPolicies.updateFailed	更新策略失败。
+translation.enterprise.patPolicies.policyMode	策略模式
+translation.enterprise.patPolicies.policyModeDesc	控制此企业中 PAT 的创建方式。
+translation.enterprise.patPolicies.selectMode	选择策略模式
+translation.enterprise.patPolicies.revokeWarning_one	此变更将吊销 {{count}} 个不符合新策略的 token。
+translation.enterprise.patPolicies.revokeWarning_other	此变更将吊销 {{count}} 个不符合新策略的 token。
+translation.enterprise.patPolicies.modeDisabled	已禁用
+translation.enterprise.patPolicies.modeApprovalRequired	需要审批
+translation.enterprise.patPolicies.columnName	名称
+translation.enterprise.patPolicies.columnOwner	所有者
+translation.enterprise.patPolicies.applying	应用中…
+translation.enterprise.crumbs.mcpManagement	MCP 管理
+translation.enterprise.groups.updatingRole	正在更新角色
+translation.enterprise.groups.roleUpdated	角色更新成功
+translation.enterprise.groups.roleUpdateFailed	更新角色失败
+translation.enterprise.groups.selectGroup	选择群组 {{name}}
+translation.enterprise.groups.noMembers	无成员
+translation.enterprise.groups.upgradeAdminTitle	升级为企业管理员
+translation.enterprise.groups.upgradeAdminBody	企业管理员可查看和配置 Devin 企业内所有代码、快照、集成和消耗上限。请谨慎授予此权限。
+translation.enterprise.groups.understood	明白了
+translation.enterprise.groups.selectAll	选择所有群组
+translation.enterprise.groups.groupName	群组名
+translation.enterprise.members.you	你
+translation.enterprise.members.zeroOrgs	0 个组织
+translation.enterprise.members.zeroGroups	0 个群组
+translation.enterprise.members.copyGroupName	复制群组名
+translation.enterprise.members.tryDifferent	换个搜索或筛选试试。
+translation.enterprise.members.billingOrg	计费组织
+translation.enterprise.members.organizationSingular	组织
+translation.enterprise.members.organizationPlural	组织
+translation.enterprise.members.groupSingular	群组
+translation.enterprise.members.groupPlural	群组
+translation.enterprise.members.searchItems	搜索{{pluralLabel}}
+translation.enterprise.members.noItems	未找到{{pluralLabel}}
+translation.enterprise.members.memberCount_one	{{formattedCount}} 名成员
+translation.enterprise.members.memberCount_other	{{formattedCount}} 名成员
+translation.enterprise.members.orgCount_one	{{formattedCount}} 个组织
+translation.enterprise.members.orgCount_other	{{formattedCount}} 个组织
