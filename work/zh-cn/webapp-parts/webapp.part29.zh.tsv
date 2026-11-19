@@ -1,0 +1,500 @@
+translation.settings.accessPages.members.loadFailedDescription	成员列表加载失败，请稍后重试。
+translation.settings.accessPages.members.retryLoad	重试
+translation.settings.accessPages.members.memberManagementUnavailable	成员管理不可用
+translation.settings.accessPages.members.youreCurrentlyAuthenticatedWithCliToken	你当前使用 CLI 令牌认证，不支持成员管理。请切换到 GitHub App 以邀请和管理成员。
+translation.settings.accessPages.members.primaryOrganization	主组织
+translation.settings.accessPages.members.allEnterpriseMembersAutomaticallyIncludedPrimary	所有企业成员自动包含在主组织中。
+translation.settings.accessPages.members.singleSeatPlan	单席位计划
+translation.settings.accessPages.members.yourTeamsSubscriptionNotCurrentlyActive	你的 Teams 订阅当前未激活。请解决订阅状态后才能管理成员。
+translation.settings.accessPages.members.yourCurrentPlanSupportsOnly1	你当前的计划仅支持 1 位成员。<lnk>升级到 Teams 计划</lnk>以添加更多成员。
+translation.settings.accessPages.members.fullSeatRequestPending	正式席位申请待审核
+translation.settings.accessPages.members.yourRequestFullSeatHasBeen	你的正式席位申请已发送给团队管理员审核。
+translation.settings.accessPages.members.members	成员
+translation.settings.accessPages.members.groups	群组（IdP）
+translation.settings.accessPages.members.joinRequests	加入申请
+translation.settings.accessPages.members.addMember	添加成员
+translation.settings.accessPages.members.requesting	申请中…
+translation.settings.accessPages.members.requestFullSeat	申请正式席位
+translation.settings.accessPages.members.groupsMustAddedAtEnterpriseLevel	群组必须在企业级添加
+translation.settings.accessPages.members.addGroup	添加群组
+translation.settings.accessPages.members.updatingRole2	正在更新角色
+translation.settings.accessPages.members.roleGrantedViaIdpGroupEdit	角色通过 IdP 群组授予：编辑群组映射以更改
+translation.settings.accessPages.members.cannotDowngradeOwnRole	不能降级自己的角色
+translation.settings.accessPages.members.confirmPayment	确认付款
+translation.settings.accessPages.members.weCouldntCompleteChargeAutomaticallyBank	我们无法自动完成扣款——你的银行可能要求确认（3D Secure）。完成付款以继续。
+translation.settings.accessPages.members.completePayment	完成付款
+translation.settings.accessPages.members.seatTypeUpdated	席位类型已更新
+translation.settings.accessPages.members.failedUpdateSeatType	更新席位类型失败
+translation.settings.accessPages.members.seatTypeCantChangedMembersWhose	通过 IdP 群组获得访问权的成员无法更改席位类型
+translation.settings.accessPages.members.chooseSeatMemberdisplayname	为 {{memberDisplayName}} 选择席位
+translation.settings.accessPages.members.current	当前
+translation.settings.accessPages.members.moveMemberdisplaynameLabelSeat	将 {{memberDisplayName}} 移到 {{label}} 席位？
+translation.settings.accessPages.members.thisSeatWillBecomeAvailableCan	此席位将被释放，可分配给其他人。
+translation.settings.accessPages.members.noUnassignedFullSeatsAvailableWill	没有可用的未分配正式席位。这将新增一个席位（{{seatPrice}}，按当前计费周期折算）。
+translation.settings.accessPages.members.anUnassignedFullSeatWillUsed	将使用一个未分配的正式席位，不产生额外费用。
+translation.settings.accessPages.members.back	返回
+translation.settings.accessPages.members.confirming	确认中…
+translation.settings.accessPages.members.confirm	确认
+translation.settings.accessPages.members.removingMember2	正在移除成员
+translation.settings.accessPages.members.memberRemovedSuccessfully	成员移除成功
+translation.settings.accessPages.members.failedRemoveMember	移除成员失败
+translation.settings.accessPages.members.cannotRemoveMembersFromPrimaryOrganization	不能从主组织中移除成员
+translation.settings.accessPages.members.accessGrantedViaIdpGroupEdit	访问权通过 IdP 群组授予：编辑群组映射以移除
+translation.settings.accessPages.members.cannotRemoveYourselfFromStandaloneOrganization	不能把自己从独立组织中移除
+translation.settings.accessPages.members.removeMember	移除成员
+translation.settings.accessPages.members.confirmMemberRemoval	确认移除成员
+translation.settings.accessPages.members.areYouSureYouWantRemoveMember	确定要移除此成员吗？此操作不可撤销。
+translation.settings.accessPages.members.noUsersFound	未找到用户
+translation.settings.accessPages.members.failedLoadSeatRequests	加载席位申请失败
+translation.settings.accessPages.members.seatRequestsLength	席位申请（{{length}}）
+translation.settings.accessPages.members.seatRequestApproved	席位申请已批准
+translation.settings.accessPages.members.seatRequestDeclined	席位申请已拒绝
+translation.settings.accessPages.members.email	邮箱
+translation.settings.accessPages.members.requested	申请时间
+translation.settings.accessPages.members.approve	批准
+translation.settings.accessPages.members.decline	拒绝
+translation.settings.accessPages.members.noUnassignedFullSeatsAvailableWillPurchase	没有可用的未分配正式席位。这将购买一个额外席位（{{seatPrice}}，按当前计费周期折算）。
+translation.settings.accessPages.members.name	姓名
+translation.settings.accessPages.members.idpGroups	IdP 群组
+translation.settings.accessPages.members.n0Groups	0 个群组
+translation.settings.accessPages.members.group	群组
+translation.settings.accessPages.members.groups2	群组
+translation.settings.accessPages.members.groupMemberCount_one	{{count, number}} 位成员
+translation.settings.accessPages.members.groupMemberCount_other	{{count, number}} 位成员
+translation.settings.accessPages.members.copyGroupName	复制群组名称
+translation.settings.accessPages.members.seatType	席位类型
+translation.settings.accessPages.members.searchForMember	搜索成员
+translation.settings.accessPages.members.searchForGroup	搜索群组
+translation.settings.accessPages.members.noPermissionManageMembers	你没有管理成员的权限
+translation.settings.accessPages.members.memberManagementUnavailableCliToken	CLI 令牌不支持成员管理。切换到 GitHub App 以邀请成员
+translation.settings.accessPages.members.teamsSubscriptionInactive	你的 Teams 订阅当前未激活。请解决订阅状态后才能管理成员
+translation.settings.accessPages.members.planDoesntSupportMembers	你当前的计划不支持添加成员。升级到 Teams 计划以邀请更多成员
+translation.settings.accessPages.members.seatFull	正式
+translation.settings.accessPages.members.seatFlex	弹性
+translation.settings.accessPages.members.seatPricePerMonth	{{price}}/月
+translation.settings.accessPages.members.seatFree	免费
+translation.settings.accessPages.members.seatFreeUntil	免费至 {{date}}
+translation.settings.accessPages.members.seatFullDescription	固定月度席位，含与 Pro 计划等量的 Devin 和 {{ideName}} 免费用量额度。
+translation.settings.accessPages.members.failedApproveSeatRequest	批准席位申请失败
+translation.settings.accessPages.members.failedDeclineSeatRequest	拒绝席位申请失败
+translation.settings.accessPages.members.thisMember	此成员
+translation.settings.accessPages.scimProvisioning.failedCopyUrl	复制 URL 失败
+translation.settings.accessPages.scimProvisioning.ssoJustTimeProvisioningEnabled	SSO 即时（JIT）配置已启用
+translation.settings.accessPages.scimProvisioning.ssoJustTimeProvisioningDisabled	SSO 即时（JIT）配置已禁用
+translation.settings.accessPages.scimProvisioning.failedUpdateJitProvisioningSetting	更新 JIT 配置设置失败
+translation.settings.accessPages.scimProvisioning.couldNotDetermineSsoJustTime	无法确定 SSO 即时（JIT）配置状态。使用 SCIM 时建议手动禁用它。
+translation.settings.accessPages.scimProvisioning.failedTurnOffSsoJustTime	无法关闭 SSO 即时（JIT）配置。使用 SCIM 时建议手动禁用它。
+translation.settings.accessPages.scimProvisioning.newTokenGeneratedButFailedRevoke	新令牌已生成，但无法撤销旧令牌。请到服务用户页面手动移除。
+translation.settings.accessPages.scimProvisioning.failedGenerateScimToken	生成 SCIM 令牌失败
+translation.settings.accessPages.scimProvisioning.scimTokenRevoked	SCIM 令牌已撤销
+translation.settings.accessPages.scimProvisioning.failedRevokeScimToken	撤销 SCIM 令牌失败
+translation.settings.accessPages.scimProvisioning.failedLoadScimProvisioningStatusPlease	加载 SCIM 配置状态失败，请重试。
+translation.settings.accessPages.scimProvisioning.justTimeJitProvisioning	即时（JIT）配置
+translation.settings.accessPages.scimProvisioning.automaticallySyncIdpGroupMembershipsWhen	当用户通过 SAML/OIDC SSO 登录时自动同步 IdP 群组成员关系。通过 SCIM 配置用户时建议保持关闭，以避免访问权限不一致。
+translation.settings.accessPages.scimProvisioning.failedLoadPleaseTryAgain	加载失败，请重试。
+translation.settings.accessPages.scimProvisioning.copied	已复制！
+translation.settings.accessPages.scimProvisioning.copyScimBaseUrl	复制 SCIM 基础 URL
+translation.settings.accessPages.scimProvisioning.scimBearerToken	SCIM bearer 令牌
+translation.settings.accessPages.scimProvisioning.rotating	轮换中…
+translation.settings.accessPages.scimProvisioning.rotateToken	轮换令牌
+translation.settings.accessPages.scimProvisioning.revoke	撤销
+translation.settings.accessPages.scimProvisioning.generateTokenAutomaticallySyncUsersFrom	生成令牌以通过 SCIM 从你的身份提供商自动同步用户
+translation.settings.accessPages.scimProvisioning.generating	生成中…
+translation.settings.accessPages.scimProvisioning.generateToken	生成令牌
+translation.settings.accessPages.scimProvisioning.scimBearerTokenGenerated	SCIM bearer 令牌已生成
+translation.settings.accessPages.scimProvisioning.thisTokenWillOnlyShownOnce	此令牌仅显示一次。请务必复制并安全保存。如果关闭此弹窗，将无法再次查看此令牌，需要重新生成。
+translation.settings.accessPages.scimProvisioning.revokeScimToken	撤销 SCIM 令牌
+translation.settings.accessPages.scimProvisioning.thisWillImmediatelyRevokeScimBearer	这将立即撤销 SCIM bearer 令牌。在生成新令牌前，你的身份提供商将无法再同步用户。
+translation.settings.accessPages.scimProvisioning.activeSince	自 {{date}} 起生效
+translation.settings.accessPages.scimProvisioning.activeSinceUnknown	生效时间未知
+translation.settings.accessPages.scimProvisioning.pasteToken	将此令牌连同配置设置中的 SCIM 基础 URL 一起粘贴到你的身份提供商的 SCIM 配置中。
+translation.settings.accessPages.scimProvisioning.pasteTokenJitDisabled	将此令牌连同配置设置中的 SCIM 基础 URL 一起粘贴到你的身份提供商的 SCIM 配置中。注意：SSO 即时（JIT）配置已关闭，IdP 群组成员关系仅通过 SCIM 管理。
+translation.settings.accessPages.serviceUsers.allOrganizations	全部组织
+translation.settings.accessPages.serviceUsers.enterpriseOnly	仅企业
+translation.settings.accessPages.serviceUsers.allRoles	全部角色
+translation.settings.accessPages.serviceUsers.serviceUserProvisionedSuccessfully	服务用户开通成功
+translation.settings.accessPages.serviceUsers.failedProvisionServiceUser	开通服务用户失败
+translation.settings.accessPages.serviceUsers.searchServiceUser	搜索服务用户
+translation.settings.accessPages.serviceUsers.provision	开通
+translation.settings.accessPages.serviceUsers.enterpriseServiceUser	企业服务用户
+translation.settings.accessPages.serviceUsers.organizationServiceUser	组织服务用户
+translation.settings.accessPages.serviceUsers.organizationRoles	组织角色
+translation.settings.accessPages.serviceUsers.provisionServiceUser	开通服务用户
+translation.settings.accessPages.serviceUsers.never	从不
+translation.settings.accessPages.serviceUsers.accessSpansEveryOrganizationEnterprise	访问范围覆盖企业内所有组织
+translation.settings.accessPages.serviceUsers.accessLimitedOneOrganization	访问范围仅限于一个组织
+translation.settings.accessPages.serviceUsers.displayName	显示名称
+translation.settings.accessPages.serviceUsers.enterDisplayName	输入显示名称
+translation.settings.accessPages.serviceUsers.enterDisplayName2	需要显示名称
+translation.settings.accessPages.serviceUsers.organization2	组织
+translation.settings.accessPages.serviceUsers.selectOrganization	选择组织
+translation.settings.accessPages.serviceUsers.searchOrganizations	搜索组织…
+translation.settings.accessPages.serviceUsers.noOrganizationsFound	未找到组织。
+translation.settings.accessPages.serviceUsers.selectOrganization2	选择一个组织
+translation.settings.accessPages.serviceUsers.enterpriseRole	企业角色
+translation.settings.accessPages.serviceUsers.organizationRole	组织角色
+translation.settings.accessPages.serviceUsers.selectRole	选择角色
+translation.settings.accessPages.serviceUsers.selectRole2	选择一个角色
+translation.settings.accessPages.serviceUsers.none	无
+translation.settings.accessPages.serviceUsers.grantsEnterprisePermissionsSuchAsUse	授予企业权限（如 Use AI Gateway），用量仍计入所选组织
+translation.settings.accessPages.serviceUsers.expiration	过期时间
+translation.settings.accessPages.serviceUsers.selectExpiration	选择过期时间
+translation.settings.accessPages.serviceUsers.provisioning	开通中…
+translation.settings.accessPages.serviceUsers.failedCopyRoleId	复制角色 ID 失败
+translation.settings.accessPages.serviceUsers.name	名称
+translation.settings.accessPages.serviceUsers.scope	范围
+translation.settings.accessPages.serviceUsers.roleName	角色名称
+translation.settings.accessPages.serviceUsers.copyRoleId	复制角色 ID
+translation.settings.accessPages.serviceUsers.noRoleAssigned	未分配角色
+translation.settings.accessPages.serviceUsers.createdAt	创建时间
+translation.settings.accessPages.serviceUsers.expiresAt	过期时间
+translation.settings.accessPages.serviceUsers.deleteServiceUser	删除服务用户
+translation.settings.accessPages.serviceUsers.noServiceUsersYet	暂无服务用户
+translation.settings.accessPages.serviceUsers.provisionServiceUserSeeThemListed	开通一个服务用户即可在此处看到它。
+translation.settings.accessPages.serviceUsers.loadFailedTitle	无法加载服务用户
+translation.settings.accessPages.serviceUsers.loadFailedDescription	服务用户列表加载失败，请稍后重试。
+translation.settings.accessPages.serviceUsers.retryLoad	重试
+translation.settings.accessPages.serviceUsers.provisioningEnterprise	正在开通企业服务用户…
+translation.settings.accessPages.serviceUsers.provisioningOrganization	正在开通组织服务用户…
+translation.settings.accessPages.serviceUsers.provisionEnterprise	开通企业服务用户
+translation.settings.accessPages.serviceUsers.provisionOrganization	开通组织服务用户
+translation.settings.accessPages.serviceUsers.enterpriseRoles	企业角色
+translation.settings.accessPages.serviceUsers.unknownOrganization	未知组织
+translation.settings.accessPages.serviceUsers.orgScopeAll	全部
+translation.settings.accessPages.serviceUsers.scopeOrganization	组织
+translation.settings.accessPages.serviceUsers.scopeEnterprise	企业
+translation.settings.accessPages.securityProfiles.failedCopyProfileId	复制配置 ID 失败
+translation.settings.accessPages.securityProfiles.copyProfileId	复制配置 ID
+translation.settings.accessPages.securityProfiles.editProfile	编辑配置
+translation.settings.accessPages.securityProfiles.profileUpdated	配置已更新
+translation.settings.accessPages.securityProfiles.failedUpdateProfile	更新配置失败
+translation.settings.accessPages.securityProfiles.profileCreated	配置已创建
+translation.settings.accessPages.securityProfiles.failedCreateProfile	创建配置失败
+translation.settings.accessPages.securityProfiles.enterpriseDefaultEnforcedDescription	应用于每个组织的新会话。组织只能进一步收紧，不能覆盖。
+translation.settings.accessPages.securityProfiles.defaultEnterpriseProfileCleared	企业默认配置已清除
+translation.settings.accessPages.securityProfiles.defaultOrgProfileCleared	组织默认配置已清除
+translation.settings.accessPages.securityProfiles.enterpriseDefaultDisabledForOrg	已为此组织禁用企业默认
+translation.settings.accessPages.securityProfiles.defaultEnterpriseProfileUpdated	企业默认配置已更新
+translation.settings.accessPages.securityProfiles.defaultOrgProfileUpdated	组织默认配置已更新
+translation.settings.accessPages.securityProfiles.failedClearDefaultProfile	清除默认配置失败
+translation.settings.accessPages.securityProfiles.failedUpdateDefaultProfile	更新默认配置失败
+translation.settings.accessPages.securityProfiles.automationsDefaultCleared	自动化默认配置已清除
+translation.settings.accessPages.securityProfiles.automationsDefaultUpdated	自动化默认配置已更新
+translation.settings.accessPages.securityProfiles.failedUpdateAutomationsDefault	更新自动化默认配置失败
+translation.settings.accessPages.securityProfiles.inheritEnterpriseDefaultNamed	继承企业默认（{{name}}）
+translation.settings.accessPages.securityProfiles.inheritEnterpriseDefault	继承企业默认
+translation.settings.accessPages.securityProfiles.noSecurityProfile	无安全配置
+translation.settings.accessPages.securityProfiles.inheritSessionDefaultNamed	继承会话默认（{{name}}）
+translation.settings.accessPages.securityProfiles.inheritSessionDefaultNoProfile	继承会话默认（无配置）
+translation.settings.accessPages.securityProfiles.inheritSessionDefault	继承会话默认
+translation.settings.accessPages.securityProfiles.selectProfile	选择配置
+translation.settings.accessPages.securityProfiles.noProfilesOwnedByOrg	此组织没有安全配置。创建一个开始使用。
+translation.settings.accessPages.securityProfiles.noProfilesConfigured	未配置安全配置。创建一个开始使用。
+translation.settings.accessPages.securityProfiles.nameTooLong	名称不能超过 {{max}} 个字符
+translation.settings.accessPages.securityProfiles.nameAlreadyExists	同名配置已存在
+translation.settings.accessPages.securityProfiles.enforced	强制执行
+translation.settings.accessPages.securityProfiles.noNetworkPolicy	无网络策略
+translation.settings.accessPages.securityProfiles.readOnlyGit	只读 git
+translation.settings.accessPages.securityProfiles.fullGitAccess	完整 git 访问
+translation.settings.accessPages.securityProfiles.enterpriseProfiles	企业配置
+translation.settings.accessPages.securityProfiles.orgProfiles	组织配置
+translation.settings.accessPages.securityProfiles.createProfile	创建配置
+translation.settings.accessPages.securityProfiles.failedLoadProfiles	加载安全配置失败。
+translation.settings.copyPoliciesAccountNote	账户级限额限制所有组织的总用量。复制到此预算后，它们只限制此预算组织的用量。
+translation.settings.copyPoliciesAssignments	成员层级分配
+translation.settings.copyPoliciesConfirm	复制
+translation.settings.copyPoliciesDescription	将其他范围的用量策略复制到此预算，层级始终会被复制。
+translation.settings.copyPoliciesError	无法复制用量策略
+translation.settings.copyPoliciesFrom	复制自…
+translation.settings.copyPoliciesGroups	IdP 群组映射
+translation.settings.copyPoliciesTierMappings	层级映射
+translation.settings.copyPoliciesPermanentLimits	永久限额覆盖
+translation.settings.copyPoliciesSkippedUsers_one	{{count}} 位成员已跳过：不在此预算的组织中或已在此分配
+translation.settings.copyPoliciesSkippedUsers_other	{{count}} 位成员已跳过：不在此预算的组织中或已在此分配
+translation.settings.copyPoliciesSource	复制自
+translation.settings.copyPoliciesSourcePlaceholder	选择一个范围
+translation.settings.copyPoliciesSuccess	用量策略已复制
+translation.settings.copyPoliciesTemporaryLimits	临时限额覆盖
+translation.settings.copyPoliciesTiers	层级
+translation.settings.copyPoliciesTitle	复制用量策略
+translation.settings.collaborationPages.jira.copyLabel	复制标签
+translation.settings.collaborationPages.jira.copyLabelMacro	复制标签 {{macro}}
+translation.settings.collaborationPages.jira.whenTicketsFrom	当来自
+translation.settings.collaborationPages.jira.anyProject	任意项目
+translation.settings.collaborationPages.jira.areLabeled	的工单带有标签
+translation.settings.collaborationPages.jira.are	，且状态在
+translation.settings.collaborationPages.jira.are2	状态在
+translation.settings.collaborationPages.jira.run	，运行
+translation.settings.collaborationPages.jira.thisPlaybookNoLongerExistsPleaseEdit	此 playbook 已不存在，请编辑此自动化以修复。
+translation.settings.collaborationPages.jira.automationActions	自动化操作
+translation.settings.collaborationPages.jira.edit	编辑
+translation.settings.collaborationPages.jira.delete	删除
+translation.settings.collaborationPages.jira.project	项目
+translation.settings.collaborationPages.jira.searchProjects	搜索项目…
+translation.settings.collaborationPages.jira.noProjectsFound	未找到项目
+translation.settings.collaborationPages.jira.learnHowStartDevinSessionsFrom	了解如何从 Jira 应用启动 Devin 会话
+translation.settings.collaborationPages.jira.noPlaybooksConfigured	未配置 playbook。
+translation.settings.collaborationPages.jira.noActivePlaybooks	没有启用的 playbook。添加一个 playbook 以将其宏同步为 Jira 标签。
+translation.settings.collaborationPages.linear.linearWorkspace	Linear 工作区
+translation.settings.collaborationPages.linear.disconnectLinear	断开 Linear
+translation.settings.collaborationPages.linear.areYouSureYouWantDisconnect	确定要断开 Linear 集成吗？这将移除 Devin 的所有 Linear 功能。
+translation.settings.collaborationPages.linear.disconnect	断开
+translation.settings.collaborationPages.linear.devinScopingTriggers	Devin 范围界定触发器
+translation.settings.collaborationPages.linear.linearTeamsDevinOrganizations	Linear 团队到 Devin 组织
+translation.settings.collaborationPages.linear.chooseWhereDevinSessionsCreatedFrom	选择从 Linear 创建的 Devin 会话在应用中出现的位置
+translation.settings.collaborationPages.linear.noLinearTeamDevinOrganizationMapping	未配置 Linear 团队到 Devin 组织的映射。配置至少一个映射后集成才能工作。
+translation.settings.collaborationPages.linear.configure	配置
+translation.settings.collaborationPages.linear.view	查看
+translation.settings.collaborationPages.linear.legacyTicketScoping	旧版工单范围界定
+translation.settings.collaborationPages.linear.thisFeatureDeprecatedWeRecommendUsing	<bold>此功能已废弃。</bold>建议改用现代 playbook。
+translation.settings.collaborationPages.linear.thisLegacyFeatureWhenDevinAssigned	这是旧版功能。当以此为默认值并将 Devin 分配到工单时，它会分析工单并给出范围界定摘要，而不是立即开始工作。
+translation.settings.collaborationPages.linear.howWorks	工作原理：
+translation.settings.collaborationPages.linear.devinReadsTicketDescriptionComments	Devin 阅读工单描述和评论
+translation.settings.collaborationPages.linear.analyzesRequirementsPotentialApproach	分析需求和潜在方案
+translation.settings.collaborationPages.linear.postsScopingSummaryLinearAgentSession	在 Linear 代理会话中发布范围界定摘要
+translation.settings.collaborationPages.linear.waitsApprovalBeforeProceeding	等待你批准后继续
+translation.settings.collaborationPages.linear.switchPlaybookLikeTicketPrBetter	改用 <span>!ticket_to_pr</span> 这样的 playbook 以获得更好的控制和自定义。
+translation.settings.collaborationPages.linear.allowedBots	允许的机器人
+translation.settings.collaborationPages.linear.chooseWhichLinearBotsCanStart	选择哪些 Linear 机器人可以启动 Devin 会话
+translation.settings.collaborationPages.linear.noBotsCurrentlyAllowed	当前没有允许的机器人。
+translation.settings.collaborationPages.linear.optionsName	{{name}} 的选项
+translation.settings.collaborationPages.linear.addBot	添加机器人
+translation.settings.collaborationPages.linear.noBotsAvailable	没有可用机器人
+translation.settings.collaborationPages.linear.legacyTicketScoping2	旧版工单范围界定
+translation.settings.collaborationPages.linear.removeAsDefault	移除默认
+translation.settings.collaborationPages.linear.noActivePlaybooksAddPlaybookSync	没有启用的 playbook。添加一个 playbook 以将其宏同步为 Linear 标签。
+translation.settings.collaborationPages.linear.labelsNotBeingSyncedLinearGrant	标签未同步到 Linear。授予所需权限或在 Linear 中手动创建这些标签。
+translation.settings.collaborationPages.linear.createAutomation	创建自动化
+translation.settings.collaborationPages.linear.team	团队
+translation.settings.collaborationPages.linear.anyTeam	任意团队
+translation.settings.collaborationPages.linear.searchTeams	搜索团队…
+translation.settings.collaborationPages.linear.noTeamsFound	未找到团队
+translation.settings.collaborationPages.linear.connect	连接
+translation.settings.collaborationPages.linear.mcpAccessIncluded	包含 MCP 访问
+translation.settings.collaborationPages.linear.thisIntegrationGivesDevinNativeLinear	此集成为 Devin 提供原生 Linear 工具，无需单独安装 Linear MCP。<lnk>了解 Linear MCP 功能</lnk>
+translation.settings.collaborationPages.linear.unableSyncLabels	无法同步标签
+translation.settings.collaborationPages.linear.labelSyncPermissionsRequired	需要标签同步权限
+translation.settings.collaborationPages.linear.devinAutomaticallySyncsPlaybookMacrosLinear	Devin 自动将你的 playbook 宏同步为 Linear 标签，但连接 Linear 时出错。请尝试重新安装 Linear 集成。
+translation.settings.collaborationPages.linear.learnHowStartDevinSessionsFrom	了解如何从 Linear 应用启动 Devin 会话
+translation.settings.collaborationPages.linear.syncsPlaybookMacrosRequiresLabels	Devin 自动将你的 playbook 宏同步为 Linear 标签，因此你可以直接从 Linear 触发 playbook。这需要管理工作区标签的权限。
+translation.settings.collaborationPages.linear.syncsPlaybookMacrosLacksPermissions	Devin 自动将你的 playbook 宏同步为 Linear 标签，因此你可以直接从 Linear 触发 playbook。集成当前缺少所需权限。
+translation.settings.collaborationPages.linear.workspaceAdminSetManageLabels	需要工作区管理员将 <bold>Manage workspace labels</bold> 设为 \\
+translation.settings.collaborationPages.microsoftTeams.microsoftTeams	Microsoft Teams
+translation.settings.collaborationPages.microsoftTeams.connectedFormat	已连接 {{format}}
+translation.settings.collaborationPages.microsoftTeams.microsoftTeamsConnection	Microsoft Teams 连接
+translation.settings.collaborationPages.microsoftTeams.disconnect	断开
+translation.settings.collaborationPages.microsoftTeams.disconnectMicrosoftTeams	断开 Microsoft Teams
+translation.settings.collaborationPages.microsoftTeams.areYouSureYouWantDisconnect	确定要断开 Microsoft Teams 集成吗？这将移除 Devin 的所有 Microsoft Teams 功能。
+translation.settings.collaborationPages.microsoftTeams.enterpriseConnections	企业连接
+translation.settings.collaborationPages.microsoftTeams.teams	Teams
+translation.settings.collaborationPages.microsoftTeams.connectedTeams	已连接的团队
+translation.settings.collaborationPages.microsoftTeams.installDevinAppTeamsEnableDevin	在团队中安装 Devin 应用以在频道中启用 Devin。
+translation.settings.collaborationPages.microsoftTeams.noTeamsConnectedConnection	没有团队连接到此连接。
+translation.settings.collaborationPages.microsoftTeams.channelMapping	频道映射
+translation.settings.collaborationPages.microsoftTeams.loading	加载中…
+translation.settings.collaborationPages.microsoftTeams.installTeam	安装到团队
+translation.settings.collaborationPages.microsoftTeams.connectionFallbackName	连接
+translation.settings.collaborationPages.microsoftTeams.deepLinkInstallUnavailableStaging	在 staging 环境中无法通过深链接安装：staging 版 Teams 机器人已发布到 Microsoft 商店，请从那里安装。
+translation.settings.collaborationPages.slack.channelChannelidAlreadyMappedChooseDifferent	频道 \\
+translation.settings.collaborationPages.issueTracker.deletedPlaybook	已删除的 playbook
+translation.settings.collaborationPages.issueTracker.enterprise	企业
+translation.settings.collaborationPages.issueTracker.organization	组织
+translation.settings.collaborationPages.issueTracker.community	社区
+translation.settings.collaborationPages.issueTracker.addPlaybook	添加 playbook
+translation.settings.collaborationPages.issueTracker.findPlaybooks	查找 playbook
+translation.settings.collaborationPages.issueTracker.noPlaybooksWithMacrosAvailable	没有带宏的可用 playbook
+translation.settings.collaborationPages.issueTracker.default	默认 ✓
+translation.settings.collaborationPages.issueTracker.goPlaybooks	前往 playbook
+translation.settings.collaborationPages.issueTracker.thisPlaybookNoLongerExistsPlease	此 playbook 已不存在，请将其移除或替换为其他 playbook。
+translation.settings.collaborationPages.issueTracker.actionsTitle	{{title}} 的操作
+translation.settings.collaborationPages.issueTracker.setAsDefault	设为默认
+translation.settings.collaborationPages.issueTracker.remove	移除
+translation.settings.collaborationPages.issueTracker.anyLabel	任意标签
+translation.settings.collaborationPages.issueTracker.anyStatus	任意状态
+translation.settings.collaborationPages.issueTracker.editAutomation	编辑自动化
+translation.settings.collaborationPages.issueTracker.labels	标签
+translation.settings.collaborationPages.issueTracker.searchLabels	搜索标签…
+translation.settings.collaborationPages.issueTracker.noLabelsFound	未找到标签
+translation.settings.collaborationPages.issueTracker.status	状态
+translation.settings.collaborationPages.issueTracker.searchStatuses	搜索状态…
+translation.settings.collaborationPages.issueTracker.noStatusesFound	未找到状态
+translation.settings.collaborationPages.issueTracker.playbook	Playbook
+translation.settings.collaborationPages.issueTracker.defaultPlaybook	默认 playbook
+translation.settings.collaborationPages.issueTracker.searchPlaybooks	搜索 playbook…
+translation.settings.collaborationPages.issueTracker.noPlaybooksAvailable	没有可用 playbook
+translation.settings.collaborationPages.issueTracker.save	保存
+translation.settings.collaborationPages.issueTracker.create	创建
+translation.settings.playbookCategoryInitial.enterprise	E
+translation.settings.playbookCategoryInitial.org	O
+translation.settings.playbookCategoryInitial.community	C
+translation.settings.playbookCategoryInitial.legacy	L
+translation.settings.keyboardShortcuts.title	键盘快捷键
+translation.settings.keyboardShortcuts.description	查看和自定义键盘快捷键。更改不会跨设备同步。
+translation.settings.keyboardShortcuts.resetAll	全部重置
+translation.settings.keyboardShortcuts.resetAllTitle	重置所有键盘快捷键？
+translation.settings.keyboardShortcuts.resetAllDescription	这将把每个快捷键恢复为默认值，不可撤销。
+translation.settings.keyboardShortcuts.resetAllConfirm	全部重置
+translation.settings.keyboardShortcuts.cancel	取消
+translation.settings.keyboardShortcuts.searchPlaceholder	搜索快捷键
+translation.settings.keyboardShortcuts.recordKeys	录制按键
+translation.settings.keyboardShortcuts.recordKeysPlaceholder	按下按键以筛选…
+translation.settings.keyboardShortcuts.filterAll	全部
+translation.settings.keyboardShortcuts.filterModified	已修改
+translation.settings.keyboardShortcuts.modified	已修改
+translation.settings.keyboardShortcuts.addShortcut	添加快捷键
+translation.settings.keyboardShortcuts.removeShortcut	从 {{command}} 移除 {{chord}}
+translation.settings.keyboardShortcuts.resetToDefault	重置为默认：{{chord}}
+translation.settings.keyboardShortcuts.notAssigned	未分配
+translation.settings.keyboardShortcuts.sequenceThen	然后
+translation.settings.keyboardShortcuts.record	录制
+translation.settings.keyboardShortcuts.notRebindable	此快捷键不可更改
+translation.settings.keyboardShortcuts.managedByDesktop	由 Devin Desktop 管理
+translation.settings.keyboardShortcuts.pressKeys	请按键…
+translation.settings.keyboardShortcuts.pressACombination	按下一个组合键
+translation.settings.keyboardShortcuts.changeShortcut	更改 {{command}} 的快捷键 {{chord}}
+translation.settings.keyboardShortcuts.reservedChord	{{chord}} 被你的浏览器保留
+translation.settings.keyboardShortcuts.needsModifier	添加一个修饰键——此快捷键在输入时生效
+translation.settings.keyboardShortcuts.needsHoldModifier	单独按一个修饰键：此快捷键通过按住它生效
+translation.settings.keyboardShortcuts.saveFailed	无法保存此快捷键。请关闭所有未保存的 keybindings.json 编辑后重试。
+translation.settings.keyboardShortcuts.conflictChord	{{chord}} 已被 {{command}} 使用
+translation.settings.keyboardShortcuts.conflictLocked	{{chord}} 被 {{command}} 使用，后者不可更改。
+translation.settings.keyboardShortcuts.reassign	重新分配
+translation.settings.keyboardShortcuts.emptySearch	没有匹配“{{query}}”的快捷键
+translation.settings.keyboardShortcuts.groupGeneral	通用
+translation.settings.keyboardShortcuts.groupHome	主页
+translation.settings.keyboardShortcuts.groupSession	会话
+translation.settings.keyboardShortcuts.groupReview	Review
+translation.settings.keyboardShortcuts.groupDigest	Review 摘要
+translation.settings.keyboardShortcuts.groupWiki	Wiki
+translation.settings.keyboardShortcuts.groupSettings	设置
+translation.settings.keyboardShortcuts.groupComposer	编写器
+translation.settings.keyboardShortcuts.groupCodeScan	安全
+translation.settings.keyboardShortcuts.groupCodeScanFindings	代码扫描发现项
+translation.settings.keyboardShortcuts.groupContextMap	上下文地图
+translation.settings.keyboardShortcuts.groupDesignSystem	设计系统
+translation.settings.keyboardShortcuts.groupBoards	看板
+translation.settings.keyboardShortcuts.cheatSheetTitle	键盘快捷键
+translation.settings.keyboardShortcuts.cheatSheetDescription	此页面可用的快捷键。
+translation.settings.keyboardShortcuts.cheatSheetEditLink	编辑快捷键
+translation.settings.keyboardShortcuts.groupSessionList	会话列表
+translation.settings.keyboardShortcuts.groupEnterpriseMembers	企业成员
+translation.settings.keyboardShortcuts.groupBillingTags	计费标签
+translation.settings.keyboardShortcuts.commands.navigateHome	新建会话
+translation.settings.keyboardShortcuts.commands.navigateBack	后退
+translation.settings.keyboardShortcuts.commands.navigateForward	前进
+translation.settings.keyboardShortcuts.commands.toggleTheme	切换主题
+translation.settings.keyboardShortcuts.commands.copyLink	复制链接
+translation.settings.keyboardShortcuts.commands.toggleHomeSearch	切换主页搜索
+translation.settings.keyboardShortcuts.commands.toggleAgentAskMode	切换询问模式
+translation.settings.keyboardShortcuts.commands.showShortcutCheatSheet	显示键盘快捷键
+translation.settings.keyboardShortcuts.commands.toggleCommandPalette	命令面板
+translation.settings.keyboardShortcuts.commands.searchSessions	搜索会话
+translation.settings.keyboardShortcuts.commands.toggleKnowledgeSuggestions	知识建议
+translation.settings.keyboardShortcuts.commands.toggleWikiSearch	Wiki 搜索
+translation.settings.keyboardShortcuts.commands.toggleContextMapSearch	上下文地图搜索
+translation.settings.keyboardShortcuts.commands.focusWikiSearch	聚焦 wiki 搜索
+translation.settings.keyboardShortcuts.commands.openWikiSettings	Wiki 设置
+translation.settings.keyboardShortcuts.commands.focusSettingsSearch	聚焦设置搜索
+translation.settings.keyboardShortcuts.commands.toggleElementPicker	切换元素选择
+translation.settings.keyboardShortcuts.commands.stageQuoteCaption	暂存引用说明
+translation.settings.keyboardShortcuts.commands.sessionFocusChat	聚焦聊天
+translation.settings.keyboardShortcuts.commands.sessionPushToTalk	按住说话
+translation.settings.keyboardShortcuts.commands.recordVoicePrompt	录制语音指令
+translation.settings.keyboardShortcuts.commands.reviewAddMention	添加评审提及
+translation.settings.keyboardShortcuts.commands.reviewToggleSidebar	切换评审侧栏
+translation.settings.keyboardShortcuts.commands.reviewNewChatMention	新建评审聊天提及
+translation.settings.keyboardShortcuts.commands.digestToggleAgent	切换摘要代理
+translation.settings.keyboardShortcuts.commands.digestNextPR	下一个拉取请求
+translation.settings.keyboardShortcuts.commands.digestPrevPR	上一个拉取请求
+translation.settings.keyboardShortcuts.commands.digestOpenPR	打开拉取请求
+translation.settings.keyboardShortcuts.commands.digestShowInPane	在窗格中显示拉取请求
+translation.settings.keyboardShortcuts.commands.digestCloseSplit	关闭拉取请求窗格
+translation.settings.keyboardShortcuts.commands.digestScrollPRDown	向下滚动拉取请求
+translation.settings.keyboardShortcuts.commands.digestScrollPRUp	向上滚动拉取请求
+translation.settings.keyboardShortcuts.commands.digestScrollPRTop	滚动到拉取请求顶部
+translation.settings.keyboardShortcuts.commands.digestScrollPRBottom	滚动到拉取请求底部
+translation.settings.keyboardShortcuts.commands.digestPrevChapter	上一章
+translation.settings.keyboardShortcuts.commands.digestNextChapter	下一章
+translation.settings.keyboardShortcuts.commands.digestGoToTab	转到拉取请求标签页
+translation.settings.keyboardShortcuts.commands.digestApprovePR	批准拉取请求
+translation.settings.keyboardShortcuts.commands.digestMergePR	合并拉取请求
+translation.settings.keyboardShortcuts.commands.toggleDSSearch	设计系统搜索
+translation.settings.keyboardShortcuts.commands.submitReview	提交评审
+translation.settings.keyboardShortcuts.commands.reviewApprove	批准拉取请求
+translation.settings.keyboardShortcuts.commands.reviewRequestChanges	请求更改
+translation.settings.keyboardShortcuts.commands.reviewMerge	合并或排队拉取请求
+translation.settings.keyboardShortcuts.commands.reviewLoadLatest	加载最新提交或分析
+translation.settings.keyboardShortcuts.commands.boardTicketSave	保存工单
+translation.settings.keyboardShortcuts.commands.sessionNavUp	上一个会话
+translation.settings.keyboardShortcuts.commands.sessionNavDown	下一个会话
+translation.settings.keyboardShortcuts.commands.sessionStopDevin	停止 Devin
+translation.settings.keyboardShortcuts.commands.sessionRename	重命名会话
+translation.settings.keyboardShortcuts.commands.sessionToggleArchive	归档会话
+translation.settings.keyboardShortcuts.commands.sessionToggleDone	标记会话完成
+translation.settings.keyboardShortcuts.commands.reviewCopyLink	复制评审链接
+translation.settings.keyboardShortcuts.commands.reviewCopyBranch	复制评审分支
+translation.settings.keyboardShortcuts.commands.toggleWorkspacePanel	切换工作区面板
+translation.settings.keyboardShortcuts.commands.closeOtherTabs	关闭其他标签页
+translation.settings.keyboardShortcuts.commands.sessionTabClose	关闭标签页或会话窗格
+translation.settings.keyboardShortcuts.commands.sessionTabNext	下一个标签页
+translation.settings.keyboardShortcuts.commands.sessionTabPrev	上一个标签页
+translation.settings.keyboardShortcuts.commands.sessionTabJump	转到标签页
+translation.settings.keyboardShortcuts.commands.botsRailJump	转到 Devin
+translation.settings.keyboardShortcuts.commands.sessionTabOpenMenu	打开添加标签页菜单
+translation.settings.keyboardShortcuts.commands.windowTabClose	关闭窗口标签页
+translation.settings.keyboardShortcuts.commands.windowTabNext	下一个窗口标签页
+translation.settings.keyboardShortcuts.commands.windowTabPrev	上一个窗口标签页
+translation.settings.keyboardShortcuts.commands.windowTabJump	跳到窗口标签页
+translation.settings.keyboardShortcuts.commands.windowTabNew	新建窗口标签页
+translation.settings.keyboardShortcuts.commands.windowTabReopen	重开已关闭的窗口标签页
+translation.settings.keyboardShortcuts.commands.sessionTabReopen	重开已关闭的标签页
+translation.settings.keyboardShortcuts.commands.toggleFindingsPanel	切换发现项面板
+translation.settings.keyboardShortcuts.commands.toggleCapabilityMenu	能力菜单
+translation.settings.keyboardShortcuts.commands.switchToNextMode	下一个模式
+translation.settings.keyboardShortcuts.commands.toggleAskModeMenu	询问模式菜单
+translation.settings.keyboardShortcuts.commands.toggleAgentLocation	云端或本地代理
+translation.settings.keyboardShortcuts.commands.toggleSidebar	切换侧栏
+translation.settings.keyboardShortcuts.commands.toggleNotificationInbox	前往通知
+translation.settings.keyboardShortcuts.commands.closeNotificationInbox	关闭通知
+translation.settings.keyboardShortcuts.commands.closeBotArtifactPane	关闭面板
+translation.settings.keyboardShortcuts.commands.closeBotInbox	关闭“需要你”
+translation.settings.keyboardShortcuts.commands.botInboxNext	下一个{{botName}}项
+translation.settings.keyboardShortcuts.commands.botInboxPeek	按住收起“需要你”
+translation.settings.keyboardShortcuts.commands.botInboxPrevious	上一个{{botName}}项
+translation.settings.keyboardShortcuts.commands.botInboxPrimaryAction	执行{{botName}}项的主要操作
+translation.settings.keyboardShortcuts.commands.nextNotification	下一条通知
+translation.settings.keyboardShortcuts.commands.previousNotification	上一条通知
+translation.settings.keyboardShortcuts.commands.ideQuickOpenFile	转到文件
+translation.settings.keyboardShortcuts.commands.ideOpenFile	打开文件
+translation.settings.keyboardShortcuts.commands.ideSearchText	搜索工作区
+translation.settings.keyboardShortcuts.commands.ideShowCommands	编辑器命令
+translation.settings.keyboardShortcuts.commands.toggleTerminal	切换终端
+translation.settings.keyboardShortcuts.commands.boardsNewTicket	新建工单
+translation.settings.keyboardShortcuts.commands.boardsAssignTicket	分配工单
+translation.settings.keyboardShortcuts.commands.boardsBackToBoard	返回看板
+translation.settings.keyboardShortcuts.commands.boardsUndo	撤销工单更改
+translation.settings.keyboardShortcuts.commands.boardsToggleAgent	切换看板代理
+translation.settings.keyboardShortcuts.commands.billingTagsNextSession	下一个会话
+translation.settings.keyboardShortcuts.commands.billingTagsPrevSession	上一个会话
+translation.settings.keyboardShortcuts.commands.billingTagsToggleSelect	选择会话
+translation.settings.keyboardShortcuts.commands.billingTagsOpenSession	打开会话
+translation.settings.keyboardShortcuts.commands.billingTagsAssignTag	分配计费标签
+translation.settings.keyboardShortcuts.commands.billingTagsAcceptSuggestion	批准建议
+translation.settings.keyboardShortcuts.commands.billingTagsDismissSuggestion	拒绝建议
+translation.settings.keyboardShortcuts.commands.billingTagsSearch	搜索会话
+translation.settings.keyboardShortcuts.commands.billingTagsGoToInbox	转到我的收件箱
+translation.settings.keyboardShortcuts.commands.billingTagsGoToAll	转到全部会话
+translation.settings.keyboardShortcuts.commands.sessionListNext	下一个会话
+translation.settings.keyboardShortcuts.commands.sessionListPrev	上一个会话
+translation.settings.keyboardShortcuts.commands.sessionListExtendNext	向下扩展选择
+translation.settings.keyboardShortcuts.commands.sessionListExtendPrev	向上扩展选择
+translation.settings.keyboardShortcuts.commands.sessionListToggleSelect	选择会话
+translation.settings.keyboardShortcuts.commands.sessionListOpen	打开会话
+translation.settings.keyboardShortcuts.commands.sessionListClearSelection	清除选择
+translation.settings.keyboardShortcuts.commands.membersNext	下一位成员
+translation.settings.keyboardShortcuts.commands.membersPrev	上一位成员
+translation.settings.keyboardShortcuts.commands.membersExtendNext	向下扩展选择
+translation.settings.keyboardShortcuts.commands.membersExtendPrev	向上扩展选择
+translation.settings.keyboardShortcuts.commands.membersFirst	第一位成员
+translation.settings.keyboardShortcuts.commands.membersLast	最后一位成员
+translation.settings.keyboardShortcuts.commands.membersPageUp	向上五位成员
