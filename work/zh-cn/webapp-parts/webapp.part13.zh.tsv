@@ -1,0 +1,500 @@
+translation.telegramConnect.doneDescription	回到 Telegram——每个已连接的 {{botName}} 现在都有自己的话题。
+translation.telegramConnect.alreadyConnected	已连接
+translation.telegramConnect.allConnected	你所有的 {{botNamePlural}} 都已连接到此聊天。
+translation.telegramConnect.resultConnected	已连接
+translation.telegramConnect.telegramAccount	Telegram 账户
+translation.telegramConnect.devinAccount	Devin 账户
+translation.bots.planUpgradeTitle	{{botNamePlural}} 需要 Max 或 Teams
+translation.bots.freePlanUpgradeTitle	升级以使用 {{botName}}
+translation.bots.planUpgradeMessagingBenefit	在 Slack 和 iMessage 中协作
+translation.bots.shareSuggestedLabel	已建议
+translation.bots.createdBy	{{creator}} 创建的 {{botName}}
+translation.bots.promotedFromTitle	从会话创建
+translation.bots.heldGrantNotice	{{name}} 拥有其他资源的访问权。共享会让其他人也能使用这些权限。<accessLink>查看访问权</accessLink>
+translation.bots.sharedGrantNotice	已共享给他人：每个能使用 {{name}} 的人都获得此访问权。<accessLink>查看访问权</accessLink>
+translation.bots.promotedFromBody	此 {{botName}} 从一个已归档的会话创建。
+translation.bots.promotedFromAction	打开会话
+translation.bots.closedPullRequests	已合并和已关闭的 pull request
+translation.bots.artifactTools	工具
+translation.bots.searchWorkspace	搜索工作区
+translation.bots.searchResults_one	找到 {{count}} 个 {{botName}}
+translation.bots.searchResults_other	找到 {{count}} 个 {{botNamePlural}}
+translation.bots.listTitle	Devin {{botNamePlural}}
+translation.bots.exclusiveAccess	Devin {{botNamePlural}} 访问权
+translation.bots.listSubtitle	选择一个 {{botName}} 发消息，或新建一个。
+translation.bots.searchPlaceholder	搜索
+translation.bots.fromYou	来自你
+translation.bots.fromTeammates	来自队友
+translation.bots.noMatches	没有匹配搜索的 {{botNamePlural}}
+translation.bots.noBotsYet	你还没有添加 {{botName}}
+translation.bots.noneShared	还没有人跟你共享 {{botName}}
+translation.bots.unknownOwner	未知
+translation.bots.addToSidebarNamed	把 {{name}} 加到侧栏
+translation.bots.removeFromSidebarNamed	把 {{name}} 移出侧栏
+translation.bots.moreActionsNamed	更多操作：{{name}}
+translation.bots.title	{{botNamePlural}}
+translation.bots.defaultBotName	Devin
+translation.bots.workspace	工作区
+translation.bots.showWorkspace	显示工作区
+translation.bots.hideWorkspace	隐藏工作区
+translation.bots.showBrowser	显示浏览器
+translation.bots.hideBrowser	隐藏浏览器
+translation.bots.closeArtifactPane	关闭面板
+translation.bots.changeAvatarButton	更换头像
+translation.bots.avatarUpdateFailed	无法更新头像
+translation.bots.avatarPickerLedCogs	齿轮
+translation.bots.avatarGlCog	形状 {{number}}
+translation.bots.avatarLedFace.android-solid	Android
+translation.bots.avatarLedFace.apple-solid	Apple
+translation.bots.avatarLedFace.circle-info-solid	信息
+translation.bots.avatarLedFace.circle-question-solid	问号
+translation.bots.avatarLedFace.compass-solid	指南针
+translation.bots.avatarLedFace.cross-solid	十字
+translation.bots.avatarLedFace.deno-solid	Deno
+translation.bots.avatarLedFace.discord-solid	Discord
+translation.bots.avatarLedFace.docker-solid	Docker
+translation.bots.avatarLedFace.drag-and-drop-solid	拖拽
+translation.bots.avatarLedFace.eraser-solid	橡皮擦
+translation.bots.avatarLedFace.facebook-solid	Facebook
+translation.bots.avatarLedFace.gear-solid	齿轮
+translation.bots.avatarLedFace.github-solid	GitHub
+translation.bots.avatarLedFace.gitlab-solid	GitLab
+translation.bots.avatarLedFace.gmail-solid	Gmail
+translation.bots.avatarLedFace.google-chrome-solid	Google Chrome
+translation.bots.avatarLedFace.hourglass-solid	沙漏
+translation.bots.avatarLedFace.infinity-solid	无限
+translation.bots.avatarLedFace.instagram-solid	Instagram
+translation.bots.avatarLedFace.key-solid	钥匙
+translation.bots.avatarLedFace.keyboard-solid	键盘
+translation.bots.avatarLedFace.label-solid	标签
+translation.bots.avatarLedFace.laptop-solid	笔记本
+translation.bots.avatarLedFace.layout-solid	布局
+translation.bots.avatarLedFace.linkedin-2-solid	LinkedIn
+translation.bots.avatarLedFace.linux-solid	Linux
+translation.bots.avatarLedFace.map-solid	地图
+translation.bots.avatarLedFace.mastodon-solid	Mastodon
+translation.bots.avatarLedFace.message-reply-solid	回复
+translation.bots.avatarLedFace.mug-solid	马克杯
+translation.bots.avatarLedFace.netlify-solid	Netlify
+translation.bots.avatarLedFace.pause-solid	暂停
+translation.bots.avatarLedFace.plug-solid	插头
+translation.bots.avatarLedFace.pnpm-solid	pnpm
+translation.bots.avatarLedFace.qr-code-solid	二维码
+translation.bots.avatarLedFace.react-solid	React
+translation.bots.avatarLedFace.refresh-solid	刷新
+translation.bots.avatarLedFace.slack-solid	Slack
+translation.bots.avatarLedFace.snowflake-solid	雪花
+translation.bots.avatarLedFace.stop-solid	停止
+translation.bots.avatarLedFace.sun-solid	太阳
+translation.bots.avatarLedFace.telegram-solid	Telegram
+translation.bots.avatarLedFace.tools-solid	工具
+translation.bots.avatarLedFace.twitter-bird-solid	Twitter
+translation.bots.avatarLedFace.usb-solid	USB
+translation.bots.avatarLedFace.vercel-solid	Vercel
+translation.bots.avatarLedFace.volume-x-solid	静音
+translation.bots.avatarLedFace.wand-solid	魔法棒
+translation.bots.avatarLedFace.watch-solid	手表
+translation.bots.avatarLedFace.whatsapp-solid	WhatsApp
+translation.bots.avatarLedFace.x-solid	X
+translation.bots.avatarLedFace.youtube-solid	YouTube
+translation.bots.avatarLedFace.hex-1	单个六边形
+translation.bots.avatarLedFace.hex-2	两个六边形
+translation.bots.avatarLedFace.dots-3	三个点
+translation.bots.avatarLedFace.dots-4	四个点
+translation.bots.avatarLedFace.strip	条纹
+translation.bots.avatarLedFace.visor	面罩
+translation.bots.avatarLedFace.bug	Bug
+translation.bots.avatarLedFace.search	搜索
+translation.bots.avatarLedFace.phone	电话
+translation.bots.avatarLedFace.robot	机器人
+translation.bots.avatarLedFace.lock	锁
+translation.bots.avatarLedFace.bell	铃铛
+translation.bots.avatarLedFace.inbox	收件箱
+translation.bots.avatarLedFace.book-open	打开的书
+translation.bots.avatarLedFace.briefcase	公文包
+translation.bots.avatarLedFace.pen	笔
+translation.bots.avatarPickerSemanticIcons	图标
+translation.bots.avatarPickerFrames	边框
+translation.bots.avatarCasing.square	方形
+translation.bots.avatarCasing.cross	十字
+translation.bots.avatarCasing.plate	碟形
+translation.bots.avatarCasing.disc	圆盘
+translation.bots.avatarCasing.tab	凸舌
+translation.bots.avatarCasing.bracket	括号
+translation.bots.avatarCasing.dome	圆顶
+translation.bots.avatarPickerShuffle	随机
+translation.bots.avatarPickerColors	颜色
+translation.bots.avatarPickerCasingColors	边框颜色
+translation.bots.avatarPickerChooseImage	选择图片
+translation.bots.avatarPickerUpload	上传
+translation.bots.avatarPickerDropImage	把图片拖到这里
+translation.bots.avatarPickerImageHint	PNG、JPG、GIF 或 WebP，不超过 {{maxSizeMb}} MB
+translation.bots.avatarColorRose	玫瑰色
+translation.bots.avatarColorMagenta	品红
+translation.bots.avatarColorIndigo	靛蓝
+translation.bots.avatarColorAzure	天青
+translation.bots.avatarColorEmerald	翠绿
+translation.bots.avatarColorTan	棕褐
+translation.bots.avatarColorAmber	琥珀
+translation.bots.avatarColorTangerine	橘红
+translation.bots.avatarColorVermilion	朱红
+translation.bots.avatarColorCharcoal	炭黑
+translation.bots.avatarColorRed	红
+translation.bots.avatarColorPink	粉
+translation.bots.avatarColorLavender	薰衣草
+translation.bots.avatarColorCyan	青
+translation.bots.avatarColorGreen	绿
+translation.bots.avatarColorForest	森林绿
+translation.bots.avatarColorOlive	橄榄
+translation.bots.avatarColorGold	金
+translation.bots.avatarColorOrange	橙
+translation.bots.avatarColorYellow	黄
+translation.bots.avatarColorIron	铁灰
+translation.bots.avatarColorTeal	蓝绿
+translation.bots.avatarColorBlue	蓝
+translation.bots.avatarColorBrown	棕
+translation.bots.avatarColorGrey	灰
+translation.bots.avatarColorMaroon	栗色
+translation.bots.avatarColorViolet	紫罗兰
+translation.bots.avatarColorSilver	银
+translation.bots.avatarColorGraphite	石墨
+translation.bots.avatarBackgroundTransparent	透明
+translation.bots.createTitle	创建 {{botName}}
+translation.bots.templateBannerTitle	从别人已建好的 {{botName}} 开始
+translation.bots.templateCollectionDevin	{{botName}} 模板
+translation.bots.templateGridSubtitle	从一个开始，再变成你的
+translation.bots.templateFeatured	精选模板
+translation.bots.templateFind	找到你的 {{botName}}
+translation.bots.templateClearSearch	清除搜索
+translation.bots.templateFilterByCategory	按类别筛选模板
+translation.bots.templateFilter	筛选
+translation.bots.templateCategoryAll	全部
+translation.bots.templateCategoryEngineering	工程
+translation.bots.templateCategoryQuality	质量
+translation.bots.templateCategoryMonitoring	监控
+translation.bots.templateCategoryData	数据
+translation.bots.templateCategoryKnowledge	知识
+translation.bots.templateCategoryTeam	团队
+translation.bots.templateCategoryGeneral	通用
+translation.bots.templateCatalogLoadError	无法加载模板。
+translation.bots.templateCatalogEmpty	没有可展示的模板。
+translation.bots.templateSearchPlaceholder	搜索模板
+translation.bots.templateSearchNoMatch	没有匹配「{{query}}」的模板。
+translation.bots.templateShowMore	显示更多模板
+translation.bots.templateMoreTitle	更多模板
+translation.bots.templateViewAll	查看全部模板
+translation.bots.templateLibrary	模板库
+translation.bots.templatePromptTitle	提示词
+translation.bots.templatePromptDescription	用此模板创建的 {{botName}} 的初始提示词。每个 {{botName}} 保留自己的副本，更早创建的可能不同。
+translation.bots.templatePromptShowMore	显示更多
+translation.bots.templatePromptShowLess	收起
+translation.bots.templateExampleMessage	示例消息
+translation.bots.templateExampleSoftwareFactory	PR #5127 待你评审：SWF(bug)：修复恢复已删除会话时的崩溃。修复前新测试失败、修复后通过，录屏显示恢复生效。这占了你 10 个评审位中的 7 个。
+translation.bots.templateExampleGitGossip	本周颁奖：夜猫子奖归 Priya，凌晨 3:12 修复了重试逻辑。烫手山芋是 checkout.ts，被 9 个人改过。活化石是一个 2017 年的日期助手，每张账单还在用它。
+translation.bots.templateExampleAutoResearcher	昨晚：42 个实验，保留 5 个，丢弃 36 个，1 个崩溃。验证损失从 1.83 降到 1.71，主要来自余弦学习率和更大批大小。保留的改动在 autoresearch 分支。
+translation.bots.templateExampleAnomalyWatcher	来自德国的试用注册自周二起下降 38%，其他国家持平。没有监控覆盖这块。源头是 PR #4821，改了注册表的 VAT 字段，负责人可能是 Maya。
+translation.bots.templateExampleCodeReaper	本周我开了 3 个 PR，删掉了 1,240 行无引用代码，包括旧的账单导出。测试全过、无调用方。legacy_webhooks.py 没动，因为有 cron 按名字调它。
+translation.bots.templateExampleWorkflowImporter	我从你的交接文件接管了 3 个未结任务、4 个技能、3 个连接和 2 个工作流。工作流已关闭，不会重复运行。留给你的：登录 2 个应用。有一项在这里没有对应，列在下方。
+translation.bots.templateExampleChiefOfStaff	发布进展：定价页已完成，文档从周一起就在等 Sam 评审。我把失败的 Safari 测试交给了你的 QA 工程师，下午 3 点会跟进。周四发布没有其他阻塞。
+translation.bots.templateExampleMigrationEngineer	迁移到新支付 API：48 个 PR 已合并 31 个，无回滚。退款批次被卡，因为它的 webhook 测试需要 sandbox key。加上 key 后，剩 17 个周五前能发。
+translation.bots.templateExampleSpikeSniffer	结账错误从平常的 0.2% 在下午 2:05 跳到 3.1%，就在 PR #4907 部署之后。日志显示已存购物车出现 null 币种。PR #4912 有修复。
+translation.bots.templateExampleLatencyOptimizer	GET /orders 本周等待最长，p95 为 1,840 ms。主要是 line items 上的 N+1 查询。PR #4933 批量化后，同基准下 p95 降到 310 ms。
+translation.bots.templateExampleProductEngineer	做了 LIN-482 的已存筛选，修了结账时空购物车崩溃。PR #4961 两者都有、带测试，待评审。
+translation.bots.templateExampleQaEngineer	在 Chrome 测了 PR #4950。注册和密码重置通过，但结账失败：加优惠券后支付按钮保持禁用。失败视频和截图都在 PR 上。
+translation.bots.templateExampleIosEngineer	已存搜索工单完成。PR #812 有 SwiftUI 页面和 6 个通过的 UI 测试，构建 214 已上 TestFlight。推给外部测试者前需要你批准。
+translation.bots.templateExampleAndroidEngineer	推送通知工单完成。PR #733 有 Kotlin 改动和 9 个通过的测试，构建 412 已上内测。推广前需要有人批准新的通知权限。
+translation.bots.templateExampleTriageEngineer	已复现：日期筛选跨两个月时 CSV 导出为空。我提了 ENG-2481，附复现步骤和 export_query.py 中的疑似原因。Dana 的登录 bug 复现不了，已找她要时间戳。
+translation.bots.templateExampleSecurityEngineer	本周修了 2 个真实漏洞，包括 /search 的 SQL 注入（PR #5012），排除了 4 个不可达的。有一个需要你决定：旧提交里有 API key。要轮换吗？
+translation.bots.templateExampleInternalToolsEngineer	你的退款工具上线了。客服可查订单并退至多 $200，更大金额转经理。视频里能看到它工作，我会让它保持运行。告诉我要改什么。
+translation.bots.templateExampleDataAnalyst	10 月年度计划占新收入的 41%，高于 9 月的 33%。图表和查询已附上。一个注意点：12 笔按账单付的企业单还没同步，实际数字可能更高。
+translation.bots.templateExampleDevinCoach	Devin 本周卡住 14 次，其中 9 次同一原因：起不来本地数据库。在它的配置里加 make db-up 应该能杜绝。我起草了改动等你批准。
+translation.bots.templateExampleCodeQualityEngineer	本月我开了 5 个小 PR：一个修 axios 高危 CVE，两个移除已达 100% 用户的 flag，两个替换已弃用 API。每个都附了通过的测试和可安全合并的理由。
+translation.bots.templateExampleOnCallEngineer	下午 2:32 的 API 告警最可能来自 12 分钟前部署的 PR #5044，它把数据库连接池从 50 砍到 5。此后日志有 1,200 个连接超时。PR #5046 已回滚，待你处理。
+translation.bots.templateExampleCodeReviewer	PR #5060 合并前要修一个 bug：payments/refund.py 第 88 行，部分退款用了订单全额，客户会多拿钱。我在那行留了修复建议。
+translation.bots.templateExampleCodebaseExpert	密码重置在 auth/reset.py 第 40-92 行。token 有签名、30 分钟有效、只用一次，第 67 行强制。我读了代码但没核对生产配置，过期时间可能不同。
+translation.bots.templateExampleTechnicalWriter	PR #5071 改了重试机制，我更新了 wiki 的 webhooks 页和时序图。失败的 webhook 现在 24 小时重试 5 次，不再是 1 小时 3 次。
+translation.bots.templateExampleComplianceEngineer	SOC 2 控制 CC8.1 不再成立：payments 仓库的分支保护被关闭，2 个 PR 未经评审进了 main。其他 31 项控制的证据都是最新的。
+translation.bots.templateExamplePoke	ci 又绿了。是你的迁移，你说\\
+translation.citiDisclaimer.acknowledgeButton	确认声明
+translation.citiDisclaimer.acknowledgeStatement	继续即表示我已阅读、理解并将遵守上述规则。
+translation.citiDisclaimer.aiWarning	⚠️ 这是基于生成式 AI 的工具——可能出错。任何使用前请确认输出的准确性。
+translation.citiDisclaimer.bulkPii	批量 PII——超过 5,000 条个人用户记录，定义见<definitionLink>此处</definitionLink>。
+translation.citiDisclaimer.complianceApprovedPurposes	本系统仅授权用于获批的业务目的；任何其他用途均被禁止。
+translation.citiDisclaimer.complianceComply	你必须始终遵守这些数据提交规则。
+translation.citiDisclaimer.complianceDisciplinary	未经授权使用本系统或不遵守这些规则可能导致纪律处分。
+translation.citiDisclaimer.complianceMonitored	本系统上的活动将在当地法律允许的范围内被监控和记录。
+translation.citiDisclaimer.complianceMonitoring	合规与监控
+translation.citiDisclaimer.complianceNoProduction	不授权将本系统或其输出用于任何 Citi 生产相关活动。
+translation.citiDisclaimer.complianceResponsible	你对任何结果输出的使用负责。
+translation.citiDisclaimer.confidentialUpdate	⚠️ 更新：Devin 支持 Confidential 数据。标准处理、最小知悉和授权要求继续适用。Restricted 数据仍严格禁止。
+translation.citiDisclaimer.dataSubmissionRules	数据提交规则
+translation.citiDisclaimer.doNotSubmit	请勿提交以下任何内容：
+translation.citiDisclaimer.mustRead	必读——使用 Devin 前你必须声明将遵守。
+translation.citiDisclaimer.permissibleExamples	✅ 允许的示例：公开的金融与市场数据（如 SEC 文件、财报）、内部文档，以及你有权访问的 Confidential 业务材料。
+translation.citiDisclaimer.permittedClassification	允许的数据级别：你可以提交至多 Confidential 级的数据，定义见 <policyLink>Citi 信息分级政策</policyLink>。
+translation.citiDisclaimer.prohibitedClientBody	请勿提交非公开的客户数据——例如机构客户合同中的客户数据，或金融、交易、了解你的客户（KYC）、支付/工资文件中的客户数据。
+translation.citiDisclaimer.prohibitedClientData	禁止的客户数据。
+translation.citiDisclaimer.prohibitedClientHeading	禁止的客户数据
+translation.citiDisclaimer.prohibitedWorkforceBody	请勿提交包含员工、求职者或非员工（承包商/顾问）个人数据且用于绩效评估或招聘的文件，或任何受 HIPAA（美国健康隐私法）约束的数据。
+translation.citiDisclaimer.prohibitedWorkforceData	禁止的员工（HR）数据。
+translation.citiDisclaimer.prohibitedWorkforceHeading	禁止的员工（HR）数据
+translation.citiDisclaimer.questions	❓ 有疑问？参阅 <policyLink>Citi 信息分级政策</policyLink>。
+translation.citiDisclaimer.restrictedData	任何形式的 Restricted 数据。
+translation.citiDisclaimer.title	声明
+translation.citiDisclaimer.verifyOutput	除你现有的业务控制外，你还须在使用前验证 AI 工具生成的所有输出的准确性。
+translation.citationContextMenu.copyPath	复制路径
+translation.citationContextMenu.openContainingFolder	打开所在文件夹
+translation.citationContextMenu.openInEditor	在编辑器中打开
+translation.coach.acceptanceRate	采纳率
+translation.coach.acceptanceRateTooltip	已处理建议（采纳 + 拒绝）中被采纳的比例。
+translation.coach.blockerGroups.column.impact	影响
+translation.coach.blockerGroups.column.lastSeen	最近出现
+translation.coach.blockerGroups.column.obstacle	阻塞项
+translation.coach.blockerGroups.description	Devin 需要你团队解决的事项，来自真实会话并按坏掉的资源分组
+translation.coach.blockerGroups.empty.active	没有未决阻塞项
+translation.coach.blockerGroups.empty.all	还没有阻塞项
+translation.coach.blockerGroups.empty.dismissed	没有已忽略的阻塞项
+translation.coach.blockerGroups.empty.resolved	没有已解决的阻塞项
+translation.coach.blockerGroups.emptyDescription.blocked	当只有你的团队能修复的问题挡住 Devin 会话时，阻塞项会出现在这里。
+translation.coach.blockerGroups.emptyDescription.slowed	当只有你的团队能修复的问题让 Devin 绕路时，阻塞项会出现在这里。
+translation.coach.blockerGroups.error	加载阻塞项时出错。
+translation.coach.blockerGroups.filter.active	未决
+translation.coach.blockerGroups.filter.all	全部
+translation.coach.blockerGroups.filter.dismissed	已忽略
+translation.coach.blockerGroups.filter.resolved	已解决
+translation.coach.blockerGroups.kpi.atLeast	{{value}}+
+translation.coach.blockerGroups.kpi.count.active	未决阻塞项
+translation.coach.blockerGroups.kpi.count.all	阻塞项
+translation.coach.blockerGroups.kpi.count.dismissed	已忽略阻塞项
+translation.coach.blockerGroups.kpi.count.resolved	已解决阻塞项
+translation.coach.blockerGroups.kpi.countTooltip	去重的坏资源，跨每个碰到它的会话分组。
+translation.coach.blockerGroups.kpi.countTooltipTruncated	只加载了影响最大的 {{limit}} 个阻塞项，这些总数是下限。
+translation.coach.blockerGroups.kpi.impact.blocked	被阻塞会话
+translation.coach.blockerGroups.kpi.impact.slowed	浪费的 ACU
+translation.coach.blockerGroups.kpi.impactTooltip.blocked	因这些阻塞项无法完成的会话，按每个碰到的阻塞项计一次。
+translation.coach.blockerGroups.kpi.impactTooltip.slowed	Devin 在仍完成的会话中绕过这些阻塞项所花费的估算 ACU。
+translation.coach.blockerGroups.kpi.topCategory	最多类别
+translation.coach.blockerGroups.kpi.topCategoryTooltip.blocked	阻塞会话最多的类别。
+translation.coach.blockerGroups.kpi.topCategoryTooltip.slowed	浪费 ACU 最多的类别。
+translation.coach.blockerGroups.kpi.topCategoryTooltipTruncated	按已加载的影响最大的 {{limit}} 个阻塞项排名，非全账户。
+translation.coach.blockerGroups.listDescription.blocked	按被阻塞会话数排名。选一行可看它出现过的每个会话
+translation.coach.blockerGroups.listDescription.slowed	按浪费 ACU 排名。选一行可看它出现过的每个会话
+translation.coach.blockerGroups.listTitle	阻塞项
+translation.coach.blockerGroups.categoryFilterLabel	按类别筛选阻塞项
+translation.coach.blockerGroups.blockedOn.credentials	凭据
+translation.coach.blockerGroups.blockedOn.environment	环境
+translation.coach.blockerGroups.blockedOn.external_service	外部服务
+translation.coach.blockerGroups.blockedOn.instructions	指令
+translation.coach.blockerGroups.blockedOn.permissions	权限
+translation.coach.blockerGroups.blockedOn.tests	测试
+translation.coach.blockerGroups.blockedOn.uncategorized	未分类
+translation.coach.blockerGroups.status.active	未决
+translation.coach.blockerGroups.status.dismissed	已忽略
+translation.coach.blockerGroups.status.resolved	已解决
+translation.coach.blockerGroups.statusFilterLabel	按状态筛选阻塞项
+translation.coach.blockerGroups.title	阻塞项报告
+translation.coach.blockerGroups.trend.description.blocked	最近 {{days}} 天每日（UTC）被阻塞会话，按类别
+translation.coach.blockerGroups.trend.description.slowed	最近 {{days}} 天每日（UTC）浪费的 ACU，按类别
+translation.coach.blockerGroups.trend.empty.blocked	最近 {{days}} 天无被阻塞会话
+translation.coach.blockerGroups.trend.empty.slowed	最近 {{days}} 天无可计的浪费 ACU
+translation.coach.blockerGroups.trend.error	无法加载阻塞趋势
+translation.coach.blockerGroups.trend.tableDay	天
+translation.coach.blockerGroups.trend.title	阻塞趋势
+translation.coach.blockerGroups.impact.blocked_one	{{value}} 个会话
+translation.coach.blockerGroups.impact.blocked_other	{{value}} 个会话
+translation.coach.blockerGroups.impact.slowed	{{value}} ACU
+translation.coach.blockerGroups.severity.blocked	已阻塞
+translation.coach.blockerGroups.severity.slowed	被拖慢
+translation.coach.blockerGroups.severityLabel	阻塞严重程度
+translation.coach.blockerGroups.windowDays	{{days}} 天
+translation.coach.blockerGroups.windowFilterLabel	时间范围
+translation.coach.blockerGroups.occurrences.cannotOpen	你无法打开的会话
+translation.coach.blockerGroups.occurrences.empty	此时间范围无会话
+translation.coach.blockerGroups.occurrences.error	无法加载会话。
+translation.coach.blockerGroups.occurrences.loadMore	加载更多
+translation.coach.blockerGroups.occurrences.severity.blocked	已阻塞
+translation.coach.blockerGroups.occurrences.severity.slowed	被拖慢
+translation.coach.blockerGroups.occurrences.title_one	{{count}} 个会话
+translation.coach.blockerGroups.occurrences.title_other	{{count}} 个会话
+translation.coach.blockerGroups.occurrences.untitled	未命名会话
+translation.coach.blockerReporterWithOthers	{{name}} +{{count}}
+translation.coach.blockersDescription_one	Devin 最近一天遇到的问题，按原因分组、按影响排序
+translation.coach.blockersDescription_other	Devin 最近 {{count}} 天遇到的问题，按原因分组、按影响排序
+translation.coach.blockersError	加载上报的阻塞项时出错。
+translation.coach.blockersTitle	阻塞项
+translation.coach.columnMembers	成员
+translation.coach.columnSource	来源
+translation.coach.columnSuggestion	建议
+translation.coach.defaultFindingRecommendation	检查这些会话，找出更好利用 Devin 的方法。
+translation.coach.emptyTitle	还没有 Coach 活动
+translation.coach.errorTitle	无法加载 Coach 分析
+translation.coach.findingTypes.argueLoop.label	分歧循环
+translation.coach.findingTypes.argueLoop.recommendation	来回拉扯卡住时，从头重述需求而不是争论。
+translation.coach.findingTypes.blockedDomainLoop.label	被阻域名重试
+translation.coach.findingTypes.blockedDomainLoop.recommendation	把 Devin 需要的域名加白名单，或提前告诉它哪些不可达。
+translation.coach.findingTypes.brokenOrStaleDrs.label	环境配置损坏或过期
+translation.coach.findingTypes.brokenOrStaleDrs.recommendation	刷新仓库的快照/配置，别让 Devin 每个会话重做环境搭建。
+translation.coach.findingTypes.contextDumpNoTask.label	只有上下文没有任务
+translation.coach.findingTypes.contextDumpNoTask.recommendation	粘贴线程或文档时说明 Devin 到底该做什么。
+translation.coach.findingTypes.contradictoryPrompt.label	需求自相矛盾
+translation.coach.findingTypes.contradictoryPrompt.recommendation	发送前检查提示词里有没有冲突的需求。
+translation.coach.findingTypes.emotionalVenting.label	只发泄无指令
+translation.coach.findingTypes.emotionalVenting.recommendation	把不满配上具体指令，Devin 才知道怎么纠正方向。
+translation.coach.findingTypes.flakyCiLoop.label	不稳定 CI 循环
+translation.coach.findingTypes.flakyCiLoop.recommendation	告诉 Devin 哪些 CI 失败是不稳定/无关的，免得它反复打转。
+translation.coach.findingTypes.largePr.label	超大 PR
+translation.coach.findingTypes.largePr.recommendation	把大改动拆成更小的堆叠 PR 和会话——评审合并都更快。
+translation.coach.findingTypes.mergeConflictRot.label	陈旧分支冲突
+translation.coach.findingTypes.mergeConflictRot.recommendation	长命 PR 趁早合并或关闭，别等烂成解决冲突的工作。
+translation.coach.findingTypes.misleadingKnowledge.label	过时知识
+translation.coach.findingTypes.misleadingKnowledge.recommendation	检查并清理与代码库不再匹配的知识笔记。
+translation.coach.findingTypes.missingEnvContext.label	缺少环境上下文
+translation.coach.findingTypes.missingEnvContext.recommendation	指明分支、环境和服务，Devin 才能在正确目标上工作。
+translation.coach.findingTypes.multitaskingInSession.label	单会话多任务
+translation.coach.findingTypes.multitaskingInSession.recommendation	不相关的任务拆成独立会话，每个都保留完整上下文。
+translation.coach.findingTypes.narrowUsage.label	使用面太窄
+translation.coach.findingTypes.narrowUsage.recommendation	让 Devin 做更多类型的工作——评审、迁移、测试——获得更大价值。
+translation.coach.findingTypes.noPlanBeforeImpl.description	提示词让 Devin 直接实现本该先规划的东西。先规划能让你和 Devin 对规格达成一致，避免把 ACU 浪费在不想要的实现上。
+translation.coach.findingTypes.noPlanBeforeImpl.label	实现前无计划
+translation.coach.findingTypes.noPlanBeforeImpl.recommendation	让 Devin 先确认计划再写代码，避免中途返工。
+translation.coach.findingTypes.noRepoSpecified.label	未指定仓库
+translation.coach.findingTypes.noRepoSpecified.recommendation	在首条提示词里写明仓库名，Devin 才能从正确的地方开始。
+translation.coach.findingTypes.nonWorkUsage.description	提示词与工作无关。Devin 建议清空提示词，免得把用量花在不产生业务价值的事上。
+translation.coach.findingTypes.nonWorkUsage.label	非工作用途
+translation.coach.findingTypes.nonWorkUsage.recommendation	让会话聚焦工程工作，用量才花在交付上。
+translation.coach.findingTypes.repeatedTaskNoSkill.label	重复任务无技能
+translation.coach.findingTypes.repeatedTaskNoSkill.recommendation	把反复跑的任务做成技能或 playbook，Devin 一次就做对。
+translation.coach.findingTypes.screenshotOnlyBug.label	只有截图的 Bug 报告
+translation.coach.findingTypes.screenshotOnlyBug.recommendation	报 Bug 附上复现步骤和上下文，别只发截图。
+translation.coach.findingTypes.sessionAbandonment.label	被弃会话
+translation.coach.findingTypes.sessionAbandonment.recommendation	收尾或终止会话，别让 Devin 干等输入。
+translation.coach.findingTypes.unsavedRepeatedCorrection.label	重复未保存的纠正
+translation.coach.findingTypes.unsavedRepeatedCorrection.recommendation	同一个事实纠正 Devin 两次时，把它存成知识或技能。
+translation.coach.kpiAcceptedTooltip	被采纳的建议。
+translation.coach.kpiRejectedTooltip	被驳回的建议。
+translation.coach.kpiSuggestionsShown	已展示建议
+translation.coach.kpiSuggestionsShownTooltip	Devin 在你写提示词和工作时浮现的指导建议。
+translation.coach.kpiTopSuggestion	最热建议
+translation.coach.otherCategory	其他
+translation.coach.outcomeAccepted	已采纳
+translation.coach.outcomeNoResponse	无响应
+translation.coach.outcomeRejected	已拒绝
+translation.coach.shown	已展示
+translation.coach.sourceFinding	Coach 发现
+translation.coach.sourcePrecheck	提示词检查
+translation.coach.suggestionsDescription	按建议类型的结果。选一行可收窄上方趋势
+translation.coach.suggestionsTitle	建议
+translation.coach.trendDescriptionFocused_one	最近一天按结果分的 {{suggestion}} 每日建议
+translation.coach.trendDescriptionFocused_other	最近 {{count}} 天按结果分的 {{suggestion}} 每日建议
+translation.coach.trendDescription_one	最近一天按结果分的每日建议
+translation.coach.trendDescription_other	最近 {{count}} 天按结果分的每日建议
+translation.coach.trendTitle	趋势
+translation.coach.tryAgain	重试
+translation.coach.untitledBlocker	未命名阻塞项
+translation.coachPrecheck.actions.clearPrompt	清空提示词
+translation.coachPrecheck.actions.createPlan	创建计划
+translation.coachPrecheck.actions.splitTasks	拆成子会话
+translation.coachPrecheck.actions.startCodeScan	开始代码扫描
+translation.coachPrecheck.actions.startNewSession	开始新会话
+translation.coachPrecheck.actions.switchMode	切换模式
+translation.coachPrecheck.back	返回
+translation.coachPrecheck.confirmTitle	确认发送消息
+translation.coachPrecheck.dismiss	忽略
+translation.coachPrecheck.findingDetails	显示发现详情
+translation.coachPrecheck.setting.description	Devin Coach 在提示词发送前发现问题时的响应方式
+translation.coachPrecheck.setting.label	提示词预检
+translation.coachPrecheck.setting.managedByEnterprise	此设置由企业级管理。
+translation.coachPrecheck.setting.modeOff	关
+translation.coachPrecheck.setting.modeOffDescription	发送前不检查提示词
+translation.coachPrecheck.setting.modeWarningAndModal	警告加确认
+translation.coachPrecheck.setting.modeWarningAndModalDescription	显示内联警告并在发送前要求确认
+translation.coachPrecheck.setting.modeWarningOnly	仅警告
+translation.coachPrecheck.setting.modeWarningOnlyDescription	显示内联警告但从不阻止发送
+translation.coachPrecheck.setting.noPermission	你无权修改此设置。
+translation.coachPrecheck.setting.selectAriaLabel	选择预检模式
+translation.coachPrecheck.setting.selectPlaceholder	选择选项
+translation.coachPrecheck.setting.updateFailed	更新提示词预检设置失败
+translation.coachPrecheck.noPlanBeforeImpl.caption	考虑先让 Devin 出计划再实现
+translation.coachPrecheck.noPlanBeforeImpl.label	实现前无计划
+translation.coachPrecheck.noPlanBeforeImpl.recommendation	让 Devin 先确认计划再写代码，避免中途返工
+translation.coachPrecheck.nonWorkUsage.caption	你的提示词似乎与工作场景无关
+translation.coachPrecheck.nonWorkUsage.label	非工作用途
+translation.coachPrecheck.nonWorkUsage.recommendation	让会话聚焦工程工作，用量才花在交付结果上
+translation.coachPrecheck.overkillDevinMode.caption	此任务可能用不着 Ultra
+translation.coachPrecheck.overkillDevinMode.description	为轻量模型类就能处理的任务选了重量级模型（如 Ultra）。Devin 建议降低所选模型类以节省 ACU。
+translation.coachPrecheck.overkillDevinMode.label	重量级模式
+translation.coachPrecheck.overkillDevinMode.recommendation	小而简单的任务换轻量模式
+translation.coachPrecheck.parallelizablePrompt.caption	这份草稿看起来像几个相互独立的任务
+translation.coachPrecheck.parallelizablePrompt.description	提示词包含可同时运行的独立任务。Devin 建议拆成并行会话让它们更快完成。
+translation.coachPrecheck.parallelizablePrompt.label	可并行任务
+translation.coachPrecheck.parallelizablePrompt.recommendation	把独立任务放到并行子会话中运行
+translation.coachPrecheck.send	发送
+translation.coachPrecheck.unrelatedFollowupNewSession.caption	这个任务看起来与当前会话无关
+translation.coachPrecheck.unrelatedFollowupNewSession.description	在一个大会话里，提示词要求一个与目前工作无关的新 PR。Devin 建议在新会话中做。
+translation.coachPrecheck.unrelatedFollowupNewSession.label	不相关后续
+translation.coachPrecheck.unrelatedFollowupNewSession.recommendation	开新会话，让新任务有干净上下文
+translation.coachPrecheck.useCodeScan.caption	这看起来是全代码库范围。代码扫描可能更合适
+translation.coachPrecheck.useCodeScan.description	提示词让 Devin 在整个代码库中找出、审计或报告某类问题的所有实例。Devin 建议跑代码扫描——它并行分析整个仓库并跟踪每个发现。
+translation.coachPrecheck.useCodeScan.label	全代码库任务
+translation.coachPrecheck.useCodeScan.recommendation	跑代码扫描，找出整个仓库中的所有实例并跟踪每个发现
+translation.coachPrecheck.useCodeScan.sessionPrompt	帮我基于这个请求配置并启动一次代码扫描：
+
+{{prompt}}
+translation.codeScan.saveSchedule	保存计划
+translation.codeScan.openRepository	打开仓库
+translation.codeScan.repositoryActions	仓库操作
+translation.codeScan.lastScanned	最近扫描
+translation.codeScan.repoPrOpen	{{count}} 打开中
+translation.codeScan.repoPrMerged	{{count}} 已合并
+translation.codeScan.repoPrClosed	{{count}} 已关闭
+translation.codeScan.legacyScanSheetTitle	开始一次扫描
+translation.codeScan.scanSheetType	类型
+translation.codeScan.outcomeSingle	对 {{repo}} 启动 1 次扫描
+translation.codeScan.outcomeMulti_one	跨 {{count}} 个仓库启动 1 次扫描
+translation.codeScan.outcomeMulti_other	跨 {{count}} 个仓库启动 1 次扫描
+translation.codeScan.legacyScanSheetSubmitButton	扫描
+translation.codeScan.legacyScanSheetRepositoryDescription	选择要扫描的仓库
+translation.codeScan.acuWarningChatgptPlan	扫描不被 ChatGPT 计划覆盖，消耗你的 Devin ACU。大仓库和首次扫描消耗更多。配置文件可帮助控制成本。
+translation.codeScan.quotaWarningChatgptPlan	扫描不被 ChatGPT 计划覆盖，消耗你的 Devin 配额。大仓库和首次扫描消耗更多。配置文件可帮助控制成本。
+translation.codeScan.scanSheetAcuDescription	大仓库和首次扫描消耗更多 ACU。可用配置文件帮助控制扫描成本。
+translation.codeScan.quotaWarning	扫描消耗你的配额。大仓库和首次扫描消耗更多。配置文件可帮助控制成本。
+translation.codeScan.scanSheetInteractiveMode	交互模式
+translation.codeScan.scanSheetInteractiveDescription	在会话中与 Devin 协作，定制扫描模型
+translation.codeScan.interactiveUnavailableForCyber	cyber 扫描不可用交互模式。
+translation.codeScan.agentDefault	默认
+translation.codeScan.agentSwe2	SWE-2
+translation.codeScan.agent	代理
+translation.codeScan.agentDescription	扫描会话运行的代理。选用代理按其会话同样计费。
+translation.codeScan.legacyScanSheetEffortDescription	设置追踪的代码库深入程度
+translation.codeScan.legacyScanSheetProfileDescription	自定义发现类型和模式
+translation.codeScan.overview	概览
+translation.codeScan.summary	摘要
+translation.codeScan.codeOwnersCount_one	{{count}} 位代码所有者
+translation.codeScan.codeOwnersCount_other	{{count}} 位代码所有者
+translation.codeScan.copyFindingLink	复制发现链接
+translation.codeScan.copyFindingMarkdown	复制为 Markdown
+translation.codeScan.findingMarkdownCopied	发现已复制为 Markdown
+translation.codeScan.failedToCopyFindingMarkdown	复制发现失败
+translation.codeScan.file	文件
+translation.codeScan.link	链接
+translation.codeScan.failedToCopyFindingLink	复制发现链接失败
+translation.codeScan.findingActions	发现操作
+translation.codeScan.findingLinkCopied	发现链接已复制
+translation.codeScan.fixWithDevin	用 Devin 修复
+translation.codeScan.fixSkillDescription	从安全插件中选择一个技能供此修复遵循，或不选直接开始。
+translation.codeScan.noSandboxValidation	无沙箱验证
+translation.codeScan.openInSecurity	在 Security 中打开
+translation.codeScan.openPrInGitHub	在 GitHub 中打开 PR
+translation.codeScan.reopenFinding	重新打开发现
+translation.codeScan.failedToReopen	重新打开发现失败
+translation.codeScan.statusFixReady	修复就绪
+translation.codeScan.actionModel	动作模型
+translation.codeScan.actionModelPlaceholder	模型名
+translation.codeScan.fixedActionModel	固定动作模型
+translation.codeScan.fixedActionModelDescription	只用所选动作模型，不做回落。
+translation.codeScan.adjust	调整
+translation.codeScan.adjustArchived	取消归档此扫描才能反馈或调整严重级别
+translation.codeScan.adjustSeverity	调整严重级别
+translation.codeScan.adjustDetailsLabel	详情
+translation.codeScan.adjustSeverityHint	补充细节帮 Devin 细化此严重级别
+translation.codeScan.adminBadge	管理员
