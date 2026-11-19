@@ -1,0 +1,40 @@
+name: verify
+on: [push, pull_request]
+jobs:
+  packs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Rebuild language packs
+        run: python3 src/build_packs.py
+      - name: Packs are reproducible from sources
+        run: git diff --exit-code packs/
+      - name: TSV integrity (key + non-empty zh, no stray tabs)
+        run: |
+          python3 - <<'PY'
+          import glob,sys
+          bad=0
+          for f in glob.glob('work/zh-*/**/*.tsv',recursive=True):
+              for i,l in enumerate(open(f,encoding='utf-8'),1):
+                  l=l.rstrip('\n')
+                  if '\t' not in l or not l: continue
+                  p=l.split('\t')
+                  if len(p)!=2 or not p[0] or not p[1]: print(f'{f}:{i} malformed'); bad+=1
+          sys.exit(1 if bad else 0)
+          PY
+      - name: Installer syntax
+        run: bash -n install.sh
+  webapp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: "22"}
+      - name: Webapp chunks parse as JS
+        run: |
+          for f in packs/webapp-host/*/chunk-*.js packs/webapp-host/chunk-*.js; do
+            [ -e "$f" ] || continue
+            node --check "$f" || exit 1
+          done
