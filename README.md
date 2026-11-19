@@ -19,7 +19,7 @@
 <p align="center">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-blue">
   <img alt="locales" src="https://img.shields.io/badge/locales-4-brightgreen">
-  <img alt="strings" src="https://img.shields.io/badge/strings-~36k-orange">
+  <img alt="strings" src="https://img.shields.io/badge/strings-~91k-orange">
   <img alt="platform" src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey">
   <img alt="status" src="https://img.shields.io/badge/status-verified-success">
 </p>
@@ -45,7 +45,7 @@ bash install.sh          # macOS / Linux
 powershell -ExecutionPolicy Bypass -File install.ps1   # Windows
 ```
 
-重启两次后：命令面板搜 `Configure Display Language` → 选中文语言。还原：`bash install.sh restore`
+重启两次后：命令面板搜 `Configure Display Language` → 选中文语言。一次选择同时驱动编辑器界面与登录态 Devin 面板。还原：`bash install.sh restore`
 
 ## 实测截图
 
@@ -57,9 +57,9 @@ powershell -ExecutionPolicy Bypass -File install.ps1   # Windows
 |---|
 | ![全屏 zh-CN](assets/screenshots/fullscreen-zh-cn.png) |
 
-| Agent 面板 webview | 繁體中文（台灣） |
+| 登录态（问候语 + Devin 本地面板） | 繁體中文（台灣） |
 |---|---|
-| ![Agent webview](assets/screenshots/agent-webview.png) | ![zh-TW](assets/screenshots/zh-tw.png) |
+| ![登录态 zh-CN](assets/screenshots/agent-pane-zh.png) | ![zh-TW](assets/screenshots/zh-tw.png) |
 
 | 扩展命令中文化 | English 切回无损 |
 |---|---|
@@ -71,7 +71,7 @@ powershell -ExecutionPolicy Bypass -File install.ps1   # Windows
 |---|---|---|
 | nls | VS Code 官方语言包装入 `~/.devin/extensions/` | 菜单/设置/编辑器（微软基线 + 4,420 条自翻） |
 | webview | i18next `resources` 注入 zh 字典，`lng` 读 `_VSCODE_NLS_LANGUAGE`；字面量条件查询 | Agent 面板/聊天/onboarding |
-| devin-webapp-host | 生成 zh 语言 chunk 并在应用内 i18next `gu[]` 语言表注册 zh-CN/zh-TW/zh-HK/zh-MO，`devin-language` 本地存储切换 | 登录态 Devin 设置/会话/评审界面 |
+| devin-webapp-host | 生成 zh 语言 chunk 并在应用内 i18next `gu[]` 语言表注册 zh-CN/zh-TW/zh-HK/zh-MO；`enable-localization` 开关关闭时按已存语言偏好/`_VSCODE_NLS_LANGUAGE` 应用 | 登录态 Devin 设置/会话/评审界面 |
 | 扩展 | 内联字符串转 `%key%` + `package.nls.<loc>.json` | windsurf 系列内置扩展 |
 
 所有补丁有 `.devin-zh-backup` 还原点。
@@ -85,7 +85,8 @@ powershell -ExecutionPolicy Bypass -File install.ps1   # Windows
 ## 已知边界（诚实声明）
 
 - 未收录语料的零散串回退英文（属预期，可提 issue 补录）
-- 登录态界面（Devin Settings 页、会话内聊天）本机未登录验证，欢迎反馈
+- 登录态界面已实测（问候语、Devin 本地面板、Devin Settings 均渲染中文）；欢迎反馈遗留串
+- 官方 webapp 语言选择器由 `enable-localization` 开关门控；本补丁改为读取已存语言偏好并回落到显示语言，Free 计划同样生效
 - OTA 升级后重跑一次安装脚本（幂等）
 
 ## 仓库结构

@@ -9,6 +9,7 @@ import json
 import os
 import pathlib
 import re
+import subprocess
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -51,7 +52,13 @@ def patch_language_gate(s):
     am = re.search(r"\$u as (\w+)", s)
     apply_fn = am.group(1) if am else None
     apply_call = f",_l&&{apply_fn}(_l)" if apply_fn else ""
+    # fall back to the editor-layer locale (_VSCODE_NLS_LANGUAGE, set by
+    # Configure Display Language) when devin-language isn't stored, so one
+    # language selection drives both layers; normalize lowercase zh-xx
     new = ("if(!%s){let _l=localStorage.getItem(`devin-language`);"
+           "if(!_l&&globalThis._VSCODE_NLS_LANGUAGE)"
+           "{_l={'zh-cn':'zh-CN','zh-tw':'zh-TW','zh-hk':'zh-HK','zh-mo':'zh-MO'}[globalThis._VSCODE_NLS_LANGUAGE]||``;"
+           "_l&&localStorage.setItem(`devin-language`,_l)}"
            "%s(_l||`en`)%s;return}") % (m.group(1), m.group(2), apply_call)
     s = s[: m.start()] + new + s[m.end():]
     # flag-on path: an explicit stored choice wins over detection
@@ -126,8 +133,19 @@ def patch(app_resources):
 
     idx, si = find_index_chunk(assets)
     if idx:
+        ib = str(idx) + ".devin-zh-backup"
+        if os.path.exists(ib):  # start from pristine so re-patches upgrade cleanly
+            si = pathlib.Path(ib).read_text(encoding="utf-8")
+            idx.write_text(si, encoding="utf-8")
         si2 = patch_language_gate(si)
         if si2 != si:
+            chk = subprocess.run(
+                ["node", "--input-type=module", "--check"],
+                input=si2, text=True, capture_output=True)
+            if chk.returncode != 0:
+                print(f"FAIL: patched {idx.name} fails syntax check; kept pristine")
+                print(chk.stderr.split("\n")[0])
+                return False
             backup(idx)
             idx.write_text(si2, encoding="utf-8")
             print(f"patched {idx.name}: stored locale survives enable-localization flag")
