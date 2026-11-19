@@ -1,0 +1,500 @@
+translation.workspace.browserPreview.designControls.flexGrow	弹性放大
+translation.workspace.browserPreview.designControls.flexShrink	弹性缩小
+translation.workspace.browserPreview.designControls.flexBasis	弹性基准
+translation.workspace.browserPreview.designControls.start	起始
+translation.workspace.browserPreview.designControls.center	居中
+translation.workspace.browserPreview.designControls.end	末尾
+translation.workspace.browserPreview.designControls.stretch	拉伸
+translation.workspace.browserPreview.designControls.spaceBetween	两端分布
+translation.workspace.browserPreview.designControls.spaceAround	周围分布
+translation.workspace.browserPreview.designControls.spaceEvenly	均匀分布
+translation.workspace.browserPreview.designControls.nowrap	不换行
+translation.workspace.browserPreview.designControls.wrapValue	换行
+translation.workspace.browserPreview.designControls.solid	实线
+translation.workspace.browserPreview.designControls.dashed	虚线
+translation.workspace.browserPreview.designControls.dotted	点线
+translation.workspace.browserPreview.designControls.double	双线
+translation.workspace.browserPreview.designControls.fill	填充
+translation.workspace.browserPreview.designControls.contain	包含
+translation.workspace.browserPreview.designControls.cover	覆盖
+translation.workspace.browserPreview.designControls.scaleDown	缩小适配
+translation.workspace.browserPreview.designControls.thin	极细
+translation.workspace.browserPreview.designControls.extraLight	特细
+translation.workspace.browserPreview.designControls.light	细体
+translation.workspace.browserPreview.designControls.regular	常规
+translation.workspace.browserPreview.designControls.mediumWeight	中等
+translation.workspace.browserPreview.designControls.semiBold	半粗
+translation.workspace.browserPreview.designControls.bold	粗体
+translation.workspace.browserPreview.designControls.extraBold	特粗
+translation.workspace.browserPreview.designControls.black	黑体
+translation.workspace.browserPreview.designControls.addColumn	添加列
+translation.workspace.browserPreview.designControls.removeColumn	移除列
+translation.workspace.browserPreview.designControls.columnTrack	列 {{index}}
+translation.workspace.browserPreview.designControls.removeColumnTrack	移除列 {{index}}
+translation.workspace.browserPreview.designControls.trackAuto	自动
+translation.workspace.browserPreview.contextMenuAddToChat	添加到聊天
+translation.workspace.browserPreview.contextMenuBack	后退
+translation.workspace.browserPreview.contextMenuForward	前进
+translation.workspace.browserPreview.contextMenuReload	重新加载
+translation.workspace.browserPreview.contextMenuInspect	检查
+translation.workspace.browserPreview.settings	预览设置
+translation.workspace.browserPreview.openInNewTab	在新标签页打开
+translation.workspace.browserPreview.openInSystemBrowser	在系统浏览器打开
+translation.workspace.browserPreview.deviceSize	设备尺寸
+translation.workspace.browserPreview.publishAsApp	发布应用
+translation.workspace.browserPreview.publish	发布
+translation.workspace.browserPreview.published	已发布
+translation.workspace.browserPreview.publishDescription	将此预览持久化，并与组织内所有人共享
+translation.workspace.browserPreview.appTitle	标题
+translation.workspace.browserPreview.titlePlaceholder	我的应用
+translation.workspace.browserPreview.appDescription	描述
+translation.workspace.browserPreview.descriptionPlaceholder	这个应用是做什么的？
+translation.workspace.browserPreview.create	创建
+translation.workspace.browserPreview.titleRequired	需要标题
+translation.workspace.browserPreview.unpublish	取消发布
+translation.workspace.browserPreview.publishAsAppMessage	使用 `deploy_devin_app` 以 `{{name}}` 为名将端口 {{port}} 发布为 Devin App。
+translation.workspace.browserPreview.publishAsAppFailed	无法连接会话。等它重连后重试。
+translation.workspace.browserPreview.desktop	桌面
+translation.workspace.browserPreview.default	默认
+translation.workspace.browserPreview.tablet	平板
+translation.workspace.browserPreview.mobile	手机
+translation.workspace.browserPreview.fontSize	字号
+translation.workspace.browserPreview.ports	端口
+translation.workspace.browserPreview.noPort	无
+translation.workspace.browserPreview.recentPages	最近页面
+translation.workspace.browserPreview.port	端口 {{port}}
+translation.workspace.browserPreview.mintErrorTitle	无法加载此预览
+translation.workspace.browserPreview.mintErrorDescription	我们无法为暴露的端口生成访问链接。端口可能已停止暴露，或者你不是此会话的所有者。
+translation.workspace.browserPreview.noPortsTitle	还没有暴露的端口
+translation.workspace.browserPreview.noPortsDescription	Devin 为此预览暴露端口后它就会加载。
+translation.workspace.browserPreview.preparing	正在准备预览…
+translation.workspace.browserPreview.needsAuthTitle	此预览无法在此加载
+translation.workspace.browserPreview.needsAuthDescription	你的浏览器阻止了预览在此标签页中加载。通常由严格的 cookie 或隐私设置导致。
+translation.workspace.browserPreview.needsAuthSafariNote	macOS Sequoia 上的 Safari 开启「防止跨站跟踪」时可能阻止此 cookie。请升级到 macOS Tahoe 或在新标签页中打开应用。
+translation.workspace.browserPreview.leftPreviewTitle	此页面离开了预览
+translation.workspace.browserPreview.leftPreviewDescription	web 应用无法跟随 Devin 预览之外的站点。请用 Devin Desktop 在会话旁浏览其他站点。
+translation.workspace.browserPreview.backToPreview	返回预览
+translation.workspace.browserPreview.retry	重试
+translation.workspace.browserPreview.retrying	正在重试…
+translation.workspace.browserPreview.loadErrorTitle	无法显示此页面
+translation.workspace.browserPreview.loadErrorDescription	暴露的站点可能阻止被嵌入 iframe。
+translation.workspace.localBrowser.urlPlaceholder	输入 URL，例如 localhost:3000
+translation.workspace.welcome.goToFile	跳转到文件
+translation.workspace.welcome.toggleTerminal	切换终端
+translation.workspace.welcome.toggleExplorer	切换资源管理器
+translation.workspace.welcome.recentFiles	最近文件
+translation.workspace.welcome.connected	已连接到 Devin 的电脑
+translation.workspace.welcome.wakeDescription	唤醒 Devin 以浏览文件和更改。
+translation.workspace.welcome.filesUnavailable	此会话的文件已不可用。
+translation.workspace.welcome.waking	正在唤醒…
+translation.workspace.welcome.wakeUp	唤醒
+translation.workspace.explorer.views.files	资源管理器
+translation.workspace.explorer.views.search	搜索
+translation.workspace.explorer.views.edits	更改
+translation.workspace.explorer.views.changes	源代码管理
+translation.workspace.explorer.sidebarViews	侧栏视图
+translation.workspace.explorer.newFile	新建文件…
+translation.workspace.explorer.newFolder	新建文件夹…
+translation.workspace.explorer.collapseFolders	在资源管理器中收起文件夹
+translation.workspace.explorer.folderCount_one	{{count}} 个文件夹
+translation.workspace.explorer.folderCount_other	{{count}} 个文件夹
+translation.workspace.explorer.moveLeft	资源管理器移到左侧
+translation.workspace.explorer.moveRight	资源管理器移到右侧
+translation.workspace.explorer.hideSidebar	隐藏侧栏
+translation.workspace.explorer.deleteFolderTitle	删除文件夹？
+translation.workspace.explorer.deleteFileTitle	删除文件？
+translation.workspace.explorer.deleteDescription	确定要删除「{{name}}」吗？此操作无法撤销。
+translation.workspace.explorer.delete	删除
+translation.workspace.explorer.cut	剪切
+translation.workspace.explorer.copy	复制
+translation.workspace.explorer.paste	粘贴
+translation.workspace.explorer.download	下载
+translation.workspace.explorer.upload	上传…
+translation.workspace.explorer.copyPath	复制路径
+translation.workspace.explorer.copyRelativePath	复制相对路径
+translation.workspace.explorer.rename	重命名…
+translation.workspace.explorer.openAsWorkspaceRoot	设为工作区根目录
+translation.workspace.explorer.resetWorkspaceRoot	重置工作区根目录
+translation.workspace.explorer.showAllRepositories	显示所有仓库
+translation.workspace.explorer.branches	分支
+translation.workspace.explorer.openAll	全部打开
+translation.workspace.explorer.openRepository	打开仓库
+translation.workspace.explorer.openWorktree	打开 worktree
+translation.workspace.explorer.branchChanges	分支更改
+translation.workspace.explorer.comparedWith	{{branch}} 与 {{baseRef}} 对比
+translation.workspace.explorer.repository	仓库
+translation.workspace.explorer.failedToFindRepositories	查找工作区仓库失败
+translation.workspace.explorer.failedToLoadBranchChanges	加载分支更改失败
+translation.workspace.explorer.failedToLoadFiles	加载工作区文件失败
+translation.workspace.explorer.devinAsleep	Devin 休眠中
+translation.workspace.explorer.sessionEnded	此会话已结束
+translation.workspace.explorer.devinWaking	Devin 正在唤醒
+translation.workspace.explorer.couldNotConnect	无法连接到 Devin 的电脑
+translation.workspace.explorer.connecting	正在连接 Devin 的电脑
+translation.workspace.explorer.noRepositories	未找到 Git 仓库
+translation.workspace.explorer.noBranchChanges	未找到分支更改
+translation.workspace.explorer.search.failed	搜索失败。
+translation.workspace.explorer.search.searching	搜索中…
+translation.workspace.explorer.search.noResults	未找到结果。
+translation.workspace.explorer.search.fileCount_one	{{count}} 个文件
+translation.workspace.explorer.search.fileCount_other	{{count}} 个文件
+translation.workspace.explorer.search.resultCount_one	{{files}} 中 {{count}} 个结果
+translation.workspace.explorer.search.resultCount_other	{{files}} 中 {{count}} 个结果
+translation.workspace.explorer.search.resultCountCapped_one	{{files}} 中超过 {{count}} 个结果
+translation.workspace.explorer.search.resultCountCapped_other	{{files}} 中超过 {{count}} 个结果
+translation.workspace.explorer.search.hitLabel	{{text}}，{{path}} 第 {{line}} 行
+translation.workspace.diffLanguage.definitionCount_one	{{count}} 个定义。点击打开。
+translation.workspace.diffLanguage.definitionCount_other	{{count}} 个定义。点击选择一个。
+translation.workspace.diffLanguage.definitionChoices_one	{{count}} 个定义
+translation.workspace.diffLanguage.definitionChoices_other	{{count}} 个定义
+translation.workspace.diffLanguage.loadingProject	正在加载代码智能…
+translation.workspace.readOnly	只读
+translation.workspace.browserLive	实时
+translation.workspace.browserWakingUp	正在唤醒…
+translation.workspace.browserWakeToSeeLive	唤醒以查看实时画面
+translation.workspace.browserLiveUnavailable	实时画面不可用
+translation.workspace.browserGoToLive	前往实时画面
+translation.workspace.browserLoadingScreenshot	正在加载截图…
+translation.workspace.browserImageLoadFailed	无法加载图像
+translation.workspace.browserRetry	重试
+translation.workspace.browserScreenshotAlt	浏览器截图
+translation.workspace.browserBackToDevin	返回 Devin
+translation.workspace.browserNoHistory	还没有浏览历史
+translation.workspace.browserScreenshotFailed	加载截图失败
+translation.workspace.tablePreviewLabel	{{filename}} 预览
+translation.workspace.versionByUser	版本 {{version}} · 由你编辑
+translation.workspace.versionByDevin	版本 {{version}} · 由 Devin 生成
+translation.workspace.previewLimited	预览限显示 {{totalLines}} 行中的 {{maxLines}} 行
+translation.workspace.downloadFullFile	下载完整文件
+translation.workspace.selectSessionVersion	选择会话版本
+translation.workspace.comparedTo	对比
+translation.workspace.selectComparisonVersion	选择对比版本
+translation.workspace.viewLatestVersion	查看最新版本
+translation.workspace.hideComparison	隐藏对比
+translation.workspace.compareVersions	对比版本
+translation.workspace.versionsIdentical	这些版本完全相同
+translation.workspace.previewFile	预览文件
+translation.workspace.downloadFile	下载 {{filename}}
+translation.workspace.previewTable	预览表格
+translation.workspace.viewRawFile	查看原始文件
+translation.workspace.citationLabel	引用 {{version}}
+translation.workspace.citationLabelWithLines	引用 {{version}} · 第 {{start}}-{{end}} 行
+translation.workspace.noContentForFile	<file>{{filePath}}</file> 没有可显示的内容
+translation.workspace.viewLatestCitation	查看最新引用
+translation.workspace.selectEventVersion	选择事件版本
+translation.workspace.fileCitation	引用
+translation.workspace.fileCitationTooltip	Devin 引用该文件时的内容。之后它在 Devin 的机器上可能已更改。
+translation.workspace.noTaskList	此会话还没有任务列表。
+translation.workspace.tasksCompleted_one	已完成 {{completed}}/{{count}} 个任务
+translation.workspace.tasksCompleted_other	已完成 {{completed}}/{{count}} 个任务
+translation.workspace.computerStreamQuality	串流画质
+translation.workspace.computerQualityAuto	自动
+translation.workspace.computerQualityReduced	{{mode}}（降低）
+translation.workspace.computerStatsForNerds	硬核统计
+translation.workspace.remoteComputer	远程电脑
+translation.workspace.computerCopyStats	复制统计数据
+translation.workspace.computerUnavailable	此机器上没有电脑可用
+translation.workspace.computerOutpostsLearn	了解如何为 Outposts 配置机器
+translation.workspace.takeControl	接管控制
+translation.workspace.machineProvisioning	机器正在配置中…
+translation.workspace.connectionRetrying	连接失败，重试中…（{{count}}/20）
+translation.workspace.versionNumber	版本 {{version}}
+translation.workspace.editedByYou	由你编辑
+translation.workspace.generatedByDevin	由 Devin 生成
+translation.workspace.computerQualityAutoHint	跟随你的网络状况
+translation.workspace.computerQualitySharp	清晰
+translation.workspace.computerQualitySharpHint	最清晰画面，带宽最高
+translation.workspace.computerQualityDataSaver	省流量
+translation.workspace.computerQualityDataSaverHint	带宽最低
+translation.workspace.computerQualityVnc	VNC
+translation.workspace.computerQualityVncHint	旧版查看器，无编码
+translation.workspace.computerQualityEncodedUnsupported	此浏览器无法解码视频流，只能用 VNC
+translation.workspace.noFilesFound	未找到工作区文件
+translation.workspace.moveSidebarRight	侧栏移到右侧
+translation.workspace.moveSidebarLeft	侧栏移到左侧
+translation.workspace.ideFrameTitle	Devin IDE
+translation.workspace.changeCounts	{{additions}} 处添加，{{deletions}} 处删除
+translation.scopedTriggers.mergeManager.title	Autoapprover 规则
+translation.scopedTriggers.mergeManager.help	选择 Autoapprover 评估哪些拉取请求。它在每次推送时运行。
+translation.scopedTriggers.mergeManager.empty	还没有 Autoapprover 规则
+translation.scopedTriggers.mergeManager.emptyDescription	规则决定 Autoapprover 为你评估并批准哪些拉取请求。
+translation.scopedTriggers.mergeManager.addRule	添加 Autoapprover 规则
+translation.scopedTriggers.mergeManager.deleteRuleDescription	Autoapprover 将不再在仅由此规则匹配的拉取请求上运行。
+translation.scopedTriggers.mergeManager.exclusionsTitle	Autoapprover 排除项
+translation.scopedTriggers.mergeManager.exclusionsHelp	匹配排除项的 PR 上 Autoapprover 永不运行，即使规则将其纳入。自动分析不受影响。
+translation.scopedTriggers.mergeManager.addExclusion	添加 Autoapprover 排除项
+translation.scopedTriggers.mergeManager.deleteExclusionDescription	删除后，Autoapprover 可能在此排除项匹配的拉取请求上运行。
+translation.scopedTriggers.mergeManager.alwaysApproveTitle	始终批准
+translation.scopedTriggers.mergeManager.alwaysApproveHelp	Autoapprover 不评审就批准匹配的拉取请求，除非有未关闭的发现项或批准策略已更改。文件条件必须匹配每个更改的文件。
+translation.scopedTriggers.mergeManager.alwaysApproveManagersOnly	仅可查看。只有账户的 Review 管理员可以更改哪些拉取请求始终被批准。
+translation.scopedTriggers.mergeManager.noAlwaysApprove	还没有「始终批准」规则
+translation.scopedTriggers.mergeManager.addAlwaysApprove	「始终批准」规则
+translation.scopedTriggers.mergeManager.addAlwaysApproveDescription	批准某个仓库中或满足条件的拉取请求，不做评审。
+translation.scopedTriggers.mergeManager.deleteAlwaysApproveDescription	删除后，Autoapprover 会评审仅由此规则匹配的拉取请求。
+translation.scopedTriggers.mergeManager.neverApproveTitle	始终拒绝
+translation.scopedTriggers.mergeManager.neverApproveHelp	Autoapprover 不评审就将匹配的拉取请求留给人工。「始终拒绝」优先于「始终批准」。
+translation.scopedTriggers.mergeManager.noNeverApprove	还没有「始终拒绝」规则
+translation.scopedTriggers.mergeManager.addNeverApprove	「始终拒绝」规则
+translation.scopedTriggers.mergeManager.addNeverApproveDescription	将某个仓库中或满足条件的拉取请求留给人工。
+translation.scopedTriggers.mergeManager.deleteNeverApproveDescription	删除后，Autoapprover 可能批准此规则匹配的拉取请求。
+translation.scopedTriggers.reviewer.title	规则
+translation.scopedTriggers.reviewer.help	选择此评审器检查哪些拉取请求。
+translation.scopedTriggers.reviewer.empty	还没有规则
+translation.scopedTriggers.reviewer.emptyDescription	此评审器不在任何拉取请求上运行。
+translation.scopedTriggers.reviewer.runWithReview	随 Devin Review 运行
+translation.scopedTriggers.reviewer.runWithReviewDescription	Devin Review 运行时总是运行此自定义评审器。
+translation.scopedTriggers.reviewer.addRule	添加评审器规则
+translation.scopedTriggers.reviewer.deleteRuleDescription	此评审器将不再在仅由此规则匹配的拉取请求上运行。
+translation.scopedTriggers.reviewer.exclusionsTitle	排除项
+translation.scopedTriggers.reviewer.exclusionsHelp	匹配排除项的 PR 上此评审器永不运行，即使规则将其纳入。自动分析和其他评审器不受影响。
+translation.scopedTriggers.reviewer.addExclusion	添加评审器排除项
+translation.scopedTriggers.reviewer.deleteExclusionDescription	删除后，此评审器可能在此排除项匹配的拉取请求上运行。
+translation.scopedTriggers.addAction	添加
+translation.scopedTriggers.addRepositoryAction	添加仓库
+translation.scopedTriggers.addRepositoryDescription2	选择一个仓库或组织，然后用条件缩小范围。
+translation.scopedTriggers.addExclusionDescription	跳过某个仓库中或满足条件的拉取请求。
+translation.scopedTriggers.verbReview	分析
+translation.scopedTriggers.verbRun	运行于
+translation.scopedTriggers.verbSkip	跳过
+translation.scopedTriggers.skipHelp	匹配的拉取请求会被跳过。
+translation.scopedTriggers.reviewHelp	Devin 自动分析匹配的拉取请求。
+translation.scopedTriggers.runHelp	在匹配的拉取请求上运行。
+translation.scopedTriggers.onlyWhen	仅当
+translation.scopedTriggers.whenDialog	当
+translation.scopedTriggers.for	对
+translation.scopedTriggers.forDialog	对
+translation.scopedTriggers.everyPullRequest	每个拉取请求
+translation.scopedTriggers.onInline	于
+translation.scopedTriggers.cancel	取消
+translation.scopedTriggers.deleteRule	删除规则
+translation.scopedTriggers.deleteExclusion	删除排除项
+translation.scopedTriggers.cardAccountField	{{field}} · 所有仓库
+translation.scopedTriggers.exclusionsTitle	排除项
+translation.scopedTriggers.noExclusions	没有排除项。
+translation.scopedTriggers.noEnrollments	在你的第一个仓库设置自动分析
+translation.scopedTriggers.noEnrollmentsDescription	规则决定 Devin 自动分析哪些拉取请求。
+translation.scopedTriggers.addRepositoriesOrUsers	添加仓库或用户
+translation.scopedTriggers.addRule	添加规则
+translation.scopedTriggers.addExclusion	添加排除项
+translation.scopedTriggers.addUser	添加用户
+translation.scopedTriggers.addUserDescription	匹配特定人员发起的拉取请求。
+translation.scopedTriggers.addAdvancedDescription	组合条件以匹配特定拉取请求。
+translation.scopedTriggers.noMatchingRules	没有匹配你筛选的规则。
+translation.scopedTriggers.unselected	未选择
+translation.scopedTriggers.ruleCannotBeShown	此规则无法显示。
+translation.scopedTriggers.everyPush	每次推送
+translation.scopedTriggers.once	仅一次
+translation.scopedTriggers.wheneverReviewRuns	每当 Devin Review 运行时
+translation.scopedTriggers.after	在…之后
+translation.scopedTriggers.prCreated	PR 创建时
+translation.scopedTriggers.prReady	PR 就绪时
+translation.scopedTriggers.searchTargets	搜索目标
+translation.scopedTriggers.searchTargetsSelected	{{label}}，已选：{{target}}
+translation.scopedTriggers.noTargets	未找到可访问的目标。
+translation.scopedTriggers.groups.exclusions	排除项
+translation.scopedTriggers.groups.triggers	触发器
+translation.scopedTriggers.groups.mergeManager	Autoapprover 规则
+translation.scopedTriggers.groups.mergeManagerExclusions	Autoapprover 排除项
+translation.scopedTriggers.groups.reviewer	评审器规则
+translation.scopedTriggers.groups.reviewerExclusions	评审器排除项
+translation.scopedTriggers.groups.mergeManagerAlwaysApprove	Autoapprover「始终批准」规则
+translation.scopedTriggers.groups.mergeManagerNeverApprove	Autoapprover「始终拒绝」规则
+translation.scopedTriggers.groupCount.repositories_one	{{count}} 个仓库
+translation.scopedTriggers.groupCount.repositories_other	{{count}} 个仓库
+translation.scopedTriggers.groupCount.users_one	{{count}} 个用户
+translation.scopedTriggers.groupCount.users_other	{{count}} 个用户
+translation.scopedTriggers.groupCount.advanced_one	{{count}} 条高级规则
+translation.scopedTriggers.groupCount.advanced_other	{{count}} 条高级规则
+translation.scopedTriggers.excludedGroupCount.repositories_one	{{count}} 个被排除仓库
+translation.scopedTriggers.excludedGroupCount.repositories_other	{{count}} 个被排除仓库
+translation.scopedTriggers.excludedGroupCount.users_one	{{count}} 个被排除用户
+translation.scopedTriggers.excludedGroupCount.users_other	{{count}} 个被排除用户
+translation.scopedTriggers.excludedGroupCount.advanced_one	{{count}} 条高级排除项
+translation.scopedTriggers.excludedGroupCount.advanced_other	{{count}} 条高级排除项
+translation.scopedTriggers.scopeCheckError	检查 {{target}} 失败。请重试。
+translation.scopedTriggers.stale	触发器在服务器上已更改。你的编辑已保留，但无法保存。选择「放弃更改」重新加载最新触发器。
+translation.scopedTriggers.checkScopeHelp	编辑此范围前先检查访问权限。
+translation.scopedTriggers.checkScope	检查访问权限
+translation.scopedTriggers.unsupportedEffect	自动分析不支持效果「{{effect}}」。未保存任何更改。
+translation.scopedTriggers.unsupportedEffectUnknown	这些触发器使用了不支持的效果。未保存任何更改。
+translation.scopedTriggers.unavailable	此账户不可用范围触发器。等管理员确认访问权限后重新加载。
+translation.scopedTriggers.capability.available	你可以编辑此范围。
+translation.scopedTriggers.capability.readonly	仅可查看。让 Devin 管理员更改它。
+translation.scopedTriggers.capability.inaccessible	其 {{provider}} 连接已移除，不会再收到 webhook。让 Devin 管理员重连 {{provider}} 并重新添加此规则。
+translation.scopedTriggers.capability.inaccessible_admin	其 {{provider}} 连接已移除，不会再收到 webhook。移除此规则，重连 {{provider}}，再重新添加。
+translation.scopedTriggers.capability.github_pat_unsupported	以 personal access token 连接，不发送 webhook。让 Devin 管理员安装 GitHub App。
+translation.scopedTriggers.capability.github_pat_unsupported_admin	以 personal access token 连接，不发送 webhook。请安装 GitHub App。
+translation.scopedTriggers.capability.relink_required	GitHub App 已卸载，{{provider}} 不再发送 webhook。让 Devin 管理员重连 {{provider}}。
+translation.scopedTriggers.capability.relink_required_admin	GitHub App 已卸载，{{provider}} 不再发送 webhook。
+translation.scopedTriggers.capability.unsupported	Devin 尚不能接收来自 {{provider}} 的拉取请求 webhook。
+translation.scopedTriggers.capability.prefix_disabled	你的账户未启用前缀规则。仅可查看。
+translation.scopedTriggers.capability.broader_grant_required	你在 Devin 中没有 {{target}} 的访问权限。联系 Devin 管理员。
+translation.scopedTriggers.capability.broader_grant_required_admin	你在 Devin 中没有 {{target}} 的访问权限。
+translation.scopedTriggers.capability.personalAdvanced	只有账户管理员可以更改个人规则的筛选条件。你仍可更改分析运行时机或移除规则。
+translation.scopedTriggers.scope	范围
+translation.scopedTriggers.noRepositoriesFound	未找到仓库
+translation.scopedTriggers.filter	筛选
+translation.scopedTriggers.clearFilter	清除筛选
+translation.scopedTriggers.searchRepositories	搜索仓库
+translation.scopedTriggers.searchingRepositories	正在搜索仓库…
+translation.scopedTriggers.repositorySearchError	无法加载仓库。
+translation.scopedTriggers.loadMoreError	无法加载更多。重试
+translation.scopedTriggers.literalPrefix	字面仓库前缀
+translation.scopedTriggers.account	整个账户
+translation.scopedTriggers.noScopes_account	还没有可用于自动分析的仓库。连接一个 git 提供商或添加仓库开始。
+translation.scopedTriggers.noScopes_organization	此组织中还没有可用于自动分析的仓库。连接一个 git 提供商或向此组织添加仓库开始。
+translation.scopedTriggers.noScopes_enterprise_organization	此组织中还没有可用于自动分析的仓库。让企业管理员为此组织分配仓库访问权限。
+translation.scopedTriggers.scopeReadonly	此范围包含无法在此编辑器中替换的条目。
+translation.scopedTriggers.editable	可编辑的触发器
+translation.scopedTriggers.brokenRule	Devin 无法显示此规则。它可能未在运行。
+translation.scopedTriggers.brokenExclusion	Devin 无法显示此排除项。它可能未在运行。
+translation.scopedTriggers.noFilter	无表达式筛选
+translation.scopedTriggers.not	非
+translation.scopedTriggers.exact	精确匹配
+translation.scopedTriggers.glob	Glob 模式
+translation.scopedTriggers.shortFields.author	作者
+translation.scopedTriggers.shortFields.reviewer	评审者
+translation.scopedTriggers.shortFields.label	标签
+translation.scopedTriggers.shortFields.author_type	作者类型
+translation.scopedTriggers.shortFields.originated_by	由 Devin 发起
+translation.scopedTriggers.shortFields.not_originated_by	非 Devin 发起
+translation.scopedTriggers.shortFields.repository	仓库
+translation.scopedTriggers.shortFields.title	标题
+translation.scopedTriggers.shortFields.source_branch	源分支
+translation.scopedTriggers.shortFields.target_branch	目标分支
+translation.scopedTriggers.shortFields.changed_file	文件
+translation.scopedTriggers.shortFields.line_diff	规模
+translation.scopedTriggers.conditionCount_one	{{count}} 个条件
+translation.scopedTriggers.conditionCount_other	{{count}} 个条件
+translation.scopedTriggers.patternCount_one	{{count}} 个模式
+translation.scopedTriggers.patternCount_other	{{count}} 个模式
+translation.scopedTriggers.valueCount_one	{{count}} 个值
+translation.scopedTriggers.valueCount_other	{{count}} 个值
+translation.scopedTriggers.deleteRuleTitle	删除规则？
+translation.scopedTriggers.deleteRuleDescription	此规则将不再触发自动分析。
+translation.scopedTriggers.deleteExclusionTitle	删除排除项？
+translation.scopedTriggers.deleteExclusionDescription	删除此排除项后，匹配的拉取请求可能会被自动分析。
+translation.scopedTriggers.validation	部分更改不完整。检查所选仓库或用户，并填写每个筛选条件。
+translation.scopedTriggers.readonly	只读
+translation.scopedTriggers.viewOnly	仅可查看
+translation.scopedTriggers.viewOnlyHint	仅管理员可编辑
+translation.scopedTriggers.noWebhooks	无 webhook
+translation.scopedTriggers.connectionsChanged	{{target}} 丢失了 {{provider}} 连接，这些更改无法保存。放弃更改，并让 Devin 管理员重连 {{provider}}。
+translation.scopedTriggers.access.permission_required	你没有管理自动分析的权限。
+translation.scopedTriggers.or	或
+translation.scopedTriggers.exclusionsHelp	匹配排除项的 PR 永不被 Devin 自动分析，即使其他规则将其纳入。
+translation.scopedTriggers.username	用户名
+translation.scopedTriggers.add.advanced	添加高级规则
+translation.scopedTriggers.prefixPlaceholder	前缀
+translation.scopedTriggers.addKind.account.label	整个账户
+translation.scopedTriggers.addKind.account.description	所有连接上的每个仓库。
+translation.scopedTriggers.addKind.organization.description	一个组织中的每个仓库。
+translation.scopedTriggers.addKind.prefix.label	添加 GitHub 仓库前缀
+translation.scopedTriggers.addKind.prefix.description	路径以某前缀开头的 GitHub 仓库。
+translation.scopedTriggers.addKind.repository.label	添加单个仓库
+translation.scopedTriggers.addKind.repository.description	一个仓库。
+translation.scopedTriggers.addKind.user.description	一个账户成员发起的每个拉取请求。
+translation.scopedTriggers.scopeType	范围类型
+translation.scopedTriggers.selectScope	选择范围
+translation.scopedTriggers.newRule	新规则
+translation.scopedTriggers.newExclusion	新排除项
+translation.scopedTriggers.selectScopeType	选择范围类型
+translation.scopedTriggers.scopeKind.account	所有仓库
+translation.scopedTriggers.scopeKind.organization	组织
+translation.scopedTriggers.scopeKind.prefix	仓库前缀
+translation.scopedTriggers.scopeKind.repository	仓库
+translation.scopedTriggers.scopeKind.user	成员
+translation.scopedTriggers.cardTargetType.ariaLabelWithValue	目标类型：{{type}}
+translation.scopedTriggers.cardTargetType.repository	仓库
+translation.scopedTriggers.cardTargetType.organization	组织
+translation.scopedTriggers.cardTargetType.prefix	仓库前缀
+translation.scopedTriggers.cardTargetType.member	成员
+translation.scopedTriggers.targetsList	{{targets, list(type: unit)}}
+translation.scopedTriggers.addNamespace.github.label	添加 GitHub 组织
+translation.scopedTriggers.addNamespace.github.description	一个 GitHub 组织中的每个仓库。
+translation.scopedTriggers.addNamespace.gitlab.label	添加 GitLab 组
+translation.scopedTriggers.addNamespace.gitlab.description	一个 GitLab 组中的每个仓库。
+translation.scopedTriggers.addNamespace.bitbucket.label	添加 Bitbucket 工作区
+translation.scopedTriggers.addNamespace.bitbucket.description	一个 Bitbucket 工作区中的每个仓库。
+translation.scopedTriggers.addNamespace.azure_devops.label	添加 Azure DevOps 项目
+translation.scopedTriggers.addNamespace.azure_devops.description	一个 Azure DevOps 项目中的每个仓库。
+translation.scopedTriggers.addNamespace.bitbucket_data_center.label	添加 Bitbucket 项目
+translation.scopedTriggers.addNamespace.bitbucket_data_center.description	一个 Bitbucket 项目中的每个仓库。
+translation.scopedTriggers.addNamespace.p4.label	添加 Perforce 仓库
+translation.scopedTriggers.addNamespace.p4.description	一个 Perforce 仓库中的每个路径。
+translation.scopedTriggers.addNamespace.gerrit.label	添加 Gerrit 父项目
+translation.scopedTriggers.addNamespace.gerrit.description	一个 Gerrit 父项目下的每个项目。
+translation.scopedTriggers.filterGroup	筛选 {{group}}
+translation.scopedTriggers.reviewWhen	在以下时机分析
+translation.scopedTriggers.neverReviewWhen	在以下时机不分析
+translation.scopedTriggers.opIs	是
+translation.scopedTriggers.opIsNot	不是
+translation.scopedTriggers.scopeLevelQuestion	此规则应作用于哪个范围层级？
+translation.scopedTriggers.scopeValueQuestion	此规则应作用于哪个{{entity}}？
+translation.scopedTriggers.entity.prefix	仓库前缀
+translation.scopedTriggers.entity.repository	仓库
+translation.scopedTriggers.entity.user	成员
+translation.scopedTriggers.global	所有仓库
+translation.scopedTriggers.fieldPlaceholder	字段
+translation.scopedTriggers.blankPlaceholder	空白
+translation.scopedTriggers.scopeKindDescription.account	此 Devin 账户关联仓库中的每个拉取请求。
+translation.scopedTriggers.scopeKindDescription.prefix	路径以某前缀开头的仓库。
+translation.scopedTriggers.scopeKindDescription.repository	一个仓库。
+translation.scopedTriggers.scopeKindDescription.user	一个账户成员发起的每个拉取请求。
+translation.scopedTriggers.namespaceKind.github.label	GitHub 组织
+translation.scopedTriggers.namespaceKind.github.description	此 GitHub 组织中的每个仓库。
+translation.scopedTriggers.namespaceKind.gitlab.label	GitLab 组
+translation.scopedTriggers.namespaceKind.gitlab.description	此 GitLab 组中的每个仓库。
+translation.scopedTriggers.namespaceKind.bitbucket.label	Bitbucket 工作区
+translation.scopedTriggers.namespaceKind.bitbucket.description	此 Bitbucket 工作区中的每个仓库。
+translation.scopedTriggers.namespaceKind.azure_devops.label	Azure DevOps 项目
+translation.scopedTriggers.namespaceKind.azure_devops.description	此 Azure DevOps 项目中的每个仓库。
+translation.scopedTriggers.namespaceKind.bitbucket_data_center.label	Bitbucket 项目
+translation.scopedTriggers.namespaceKind.bitbucket_data_center.description	此 Bitbucket 项目中的每个仓库。
+translation.scopedTriggers.namespaceKind.p4.label	Perforce 仓库
+translation.scopedTriggers.namespaceKind.p4.description	此 Perforce 仓库中的每个路径。
+translation.scopedTriggers.namespaceKind.gerrit.label	Gerrit 父项目
+translation.scopedTriggers.namespaceKind.gerrit.description	此 Gerrit 父项目下的每个项目。
+translation.scopedTriggers.saveScope	保存
+translation.scopedTriggers.cancelScope	取消
+translation.scopedTriggers.setUpGitHubApp	安装 GitHub App
+translation.scopedTriggers.reconnectProvider	重连 {{provider}}
+translation.scopedTriggers.manageAccess	管理访问
+translation.scopedTriggers.warning.github_pat.admin	以 personal access token 连接，不发送 webhook。
+translation.scopedTriggers.warning.github_pat.nonAdmin	以 personal access token 连接，不发送 webhook。让 Devin 管理员安装 GitHub App。
+translation.scopedTriggers.warning.relink_required.admin	GitHub App 已卸载，{{provider}} 不再发送 webhook。
+translation.scopedTriggers.warning.relink_required.nonAdmin	GitHub App 已卸载，{{provider}} 不再发送 webhook。让 Devin 管理员重连 {{provider}}。
+translation.scopedTriggers.warning.unavailable.admin	Devin 尚不能接收来自 {{provider}} 的拉取请求 webhook。
+translation.scopedTriggers.warning.unavailable.nonAdmin	Devin 尚不能接收来自 {{provider}} 的拉取请求 webhook。
+translation.scopedTriggers.warning.missing.admin	其 {{provider}} 连接已移除，不会再收到 webhook。移除此规则，重连 {{provider}}，再重新添加。
+translation.scopedTriggers.warning.missing.nonAdmin	其 {{provider}} 连接已移除，不会再收到 webhook。让 Devin 管理员重连 {{provider}} 并重新添加此规则。
+translation.scopedTriggers.target.organization	整个 {{name}}
+translation.scopedTriggers.connectionsChanged_admin	{{target}} 丢失了 {{provider}} 连接，这些更改无法保存。放弃更改，或重连 {{provider}} 后重试。
+translation.scopedTriggers.verbAlwaysApprove	始终批准
+translation.scopedTriggers.verbNeverApprove	始终拒绝
+translation.scopedTriggers.alwaysApproveHelp	匹配的拉取请求不经评审即被批准，除非有未关闭的发现项或批准策略已更改。文件条件必须匹配每个更改的文件。
+translation.scopedTriggers.neverApproveHelp	匹配的拉取请求留给人工处理。
+translation.autoreviewTriggers.title	自动分析
+translation.autoreviewTriggers.help	自动分析所选仓库中的新 PR。
+translation.autoreviewTriggers.helpAllRepositories	自动分析所有仓库中匹配的 PR。
+translation.autoreviewTriggers.and	且
+translation.autoreviewTriggers.addCondition	添加条件
+translation.autoreviewTriggers.removeCondition	移除条件
+translation.autoreviewTriggers.removeTrigger	移除触发器 {{number}}
+translation.autoreviewTriggers.removeExclusion	移除排除项 {{number}}
+translation.autoreviewTriggers.matches	匹配
+translation.autoreviewTriggers.doesNotMatch	不匹配
+translation.autoreviewTriggers.lessThan	小于
+translation.autoreviewTriggers.atMost	最多为
+translation.autoreviewTriggers.atLeast	至少为
+translation.autoreviewTriggers.moreThan	大于
+translation.autoreviewTriggers.selectField	选择字段
+translation.autoreviewTriggers.selectOperator	选择运算符
+translation.autoreviewTriggers.selectUserScope	选择用户范围
+translation.autoreviewTriggers.userScopeDevin	Devin
+translation.autoreviewTriggers.userPickerTitle	选择一个用户
+translation.autoreviewTriggers.userLocationQuestion	此用户在哪里？
+translation.autoreviewTriggers.userValueQuestion	哪个{{location}}用户？
+translation.autoreviewTriggers.userAlreadyAdded	此用户已添加。
+translation.autoreviewTriggers.selectUser	选择一个用户
+translation.autoreviewTriggers.addUser	添加用户
