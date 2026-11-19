@@ -1,0 +1,500 @@
+translation.agentProfiles.access.canShareDescription	可以给他人此配置文件的访问权
+translation.agentProfiles.access.inheritedDescription	从账户角色继承
+translation.agentProfiles.access.removeSelfError	你不能移除自己的访问权。
+translation.agentProfiles.save	保存
+translation.agentProfiles.unnamedEntry	没有可见名称的项
+translation.agentProfiles.securityProfileDescription	会话以此<manageLink>安全配置文件</manageLink>启动
+translation.agentProfiles.caps.mcp	MCP 服务器
+translation.agentProfiles.caps.plugin	插件
+translation.agentProfiles.caps.secret	机密
+translation.agentProfiles.caps.done	完成
+translation.agentProfiles.caps.repo	仓库
+translation.agentProfiles.caps.none	无
+translation.agentProfiles.caps.folder	集合
+translation.agentProfiles.caps.trackerConnection	Tracker 连接
+translation.agentProfiles.setUpTitle	新建 agent 配置文件
+translation.agentProfiles.description	描述
+translation.agentProfiles.default	默认
+translation.agentProfiles.pickerSearch	搜索
+translation.agentProfiles.accessAfterCreate	创建后你可以共享此配置文件
+translation.agentProfiles.tabs.general	常规
+translation.agentProfiles.tabs.resources	资源
+translation.agentProfiles.tabs.access	管理访问
+translation.agentProfiles.resources.add	添加资源
+translation.agentProfiles.resources.addDescription	选择此配置文件上的会话可以触达什么
+translation.agentProfiles.resources.search	搜索资源
+translation.agentProfiles.resources.type	资源类型
+translation.agentProfiles.resources.repository	仓库
+translation.agentProfiles.resources.noMatches	没有匹配项
+translation.agentProfiles.resources.previous	上一页
+translation.agentProfiles.resources.next	下一页
+translation.agentProfiles.resources.range	{{total}} 中的 {{start}}-{{end}}
+translation.agentProfiles.resources.everythingIn	{{name}} 中的所有内容
+translation.agentProfiles.resources.included	已包含
+translation.agentProfiles.resources.browseRoot	所有资源
+translation.agentProfiles.resources.itemCount_one	{{count}} 项
+translation.agentProfiles.resources.itemCount_other	{{count}} 项
+translation.agentProfiles.resources.allRepos	所有仓库
+translation.agentProfiles.resources.allMcp	所有 MCP 服务器
+translation.agentProfiles.resources.allPlugins	所有插件
+translation.agentProfiles.resources.allSecrets	所有机密
+translation.agentProfiles.resources.all	全部
+translation.agentProfiles.resources.collection	集合
+translation.agentProfiles.resources.loadError	无法加载资源
+translation.agentProfiles.resources.trackerConnection	Tracker 连接
+translation.agentProfiles.resources.allTrackerConnections	所有 tracker 连接
+translation.agentProfiles.resources.read	读
+translation.agentProfiles.resources.write	写
+translation.agentProfiles.resources.anyRepo	会话所有者可访问的任何仓库。
+translation.agentProfiles.resources.anyMcp	会话所有者可访问的任何 MCP 服务器。
+translation.agentProfiles.resources.anyPlugin	会话所有者可访问的任何插件。
+translation.agentProfiles.resources.anySecret	会话所有者可访问的任何机密。
+translation.agentProfiles.resources.anyTrackerConnection	会话所有者可访问的任何 tracker 连接。
+translation.agentProfiles.resources.allowAny	允许任意
+translation.agentProfiles.resources.anySummaryRepo	任意仓库
+translation.agentProfiles.resources.anySummaryRepoWrite	任意仓库可读，{{count}} 个可写
+translation.agentProfiles.resources.anySummaryMcp	任意 MCP 服务器
+translation.agentProfiles.resources.anySummaryPlugin	任意插件
+translation.agentProfiles.resources.anySummarySecret	任意机密
+translation.agentProfiles.resources.anySummaryTrackerConnection	任意 tracker 连接
+translation.agentProfiles.resources.searchCollections	搜索集合
+translation.agentProfiles.resources.searchRepos	搜索仓库
+translation.agentProfiles.resources.searchMcp	搜索 MCP 服务器
+translation.agentProfiles.resources.searchPlugins	搜索插件
+translation.agentProfiles.resources.searchSecrets	搜索机密
+translation.agentProfiles.resources.searchTrackerConnections	搜索 tracker 连接
+translation.agentProfiles.resources.descriptionCollections	设置此配置文件上的会话可以触达哪些集合
+translation.agentProfiles.resources.descriptionRepo	设置此配置文件上的会话可以触达哪些仓库
+translation.agentProfiles.resources.descriptionMcp	设置此配置文件上的会话可以触达哪些 MCP 服务器
+translation.agentProfiles.resources.descriptionPlugin	设置此配置文件上的会话可以触达哪些插件
+translation.agentProfiles.resources.descriptionSecret	设置此配置文件上的会话可以触达哪些机密
+translation.agentProfiles.resources.descriptionTrackerConnection	设置此配置文件上的会话可以触达哪些 tracker 连接
+translation.agentProfiles.resources.selected	已选 {{count}} 个
+translation.agentProfiles.resources.selectedWithAccess	已选 {{count}} 个，{{access}}
+translation.agentProfiles.resources.staysAtWrite	保持为写
+translation.agentProfiles.resources.selectedViaCollections	已选 {{count}} 个，另经集合 {{via}} 个
+translation.agentProfiles.resources.writeCount	{{count}} 个可写
+translation.agentProfiles.resources.includedBy	由 {{name}} 包含
+translation.agentProfiles.security	安全
+translation.agentProfiles.securityProfileNone	账户默认
+translation.agentProfiles.createSubmit	创建
+translation.agentProfiles.noChanges	没有可保存的更改
+translation.agentProfiles.discardTitle	放弃未保存的更改？
+translation.agentProfiles.discard	放弃
+translation.agentProfiles.locked	已锁定
+translation.agentProfiles.lockedDescription	会话只能使用这些资源。会话启动时无法添加任何内容。
+translation.scanRuns.title	扫描运行
+translation.scanRuns.freePromo	免费促销
+translation.scanRuns.freePromoTooltip	此扫描通过 Devin for Security 促销免费运行。
+translation.scanRuns.scopeMe	我
+translation.scanRuns.queued	排队中
+translation.scanRuns.empty	还没有运行过扫描。
+translation.scanRuns.noMatches	没有匹配这些筛选的运行
+translation.scanRuns.noMatchesDescription	清除筛选以查看此组织中的每次运行。
+translation.scanRuns.cancelScan	取消扫描
+translation.scanRuns.confirmCancelTitle	取消 {{repo}} 的扫描？
+translation.scanRuns.confirmCancelDescription	这会停止当前运行。已有发现项和未来的计划扫描不受影响。
+translation.scanRuns.keepScan	保留扫描
+translation.scanRuns.cancelScanFailed	无法取消扫描。
+translation.scanRuns.cancelScanNoPermission	你没有取消扫描的权限
+translation.scanRuns.view	扫描历史
+translation.scanRuns.scanKind	类型
+translation.scanRuns.created	创建时间
+translation.scanRuns.duration	时长
+translation.scanRuns.cost	花费
+translation.scanRuns.createdBy	创建者
+translation.scanRuns.createdByApi	API
+translation.scanRuns.createdByAutomation	Automation
+translation.oauthCallback.tryAgain	重试
+translation.oauthCallback.signInDenied	登录被拒绝。请重试或联系管理员。
+translation.oauthCallback.signInFailedWithError	登录失败（{{error}}）。请重试。
+translation.federalDownloads.intro	从此部署安装 Devin Desktop 和 Devin CLI。
+translation.federalDownloads.desktopHeading	Devin Desktop
+translation.federalDownloads.desktopUnavailable	Desktop 下载暂不可用。如果你认为这是个错误，请联系管理员。
+translation.federalDownloads.desktopSetup	安装后，在提示时将门户 URL 设为 <code>{{origin}}</code>。
+translation.federalDownloads.cliHeading	Devin CLI
+translation.federalDownloads.cliUnavailable	CLI 下载暂不可用。如果你认为这是个错误，请联系管理员。
+translation.federalDownloads.cliSetup	解压归档并运行随附的 <code>bin/devin</code>（Windows 上是 <code>bin/devin.exe</code>），然后运行 <code>devin setup</code> 完成。
+translation.privacyChoices.home	首页
+translation.privacyChoices.title	你的隐私选择
+translation.privacyChoices.enterpriseNotice	你的组织使用 Devin Enterprise。我们不对企业账户使用广告或重定向标签，所以这里没有数据共享偏好需要配置。
+translation.privacyChoices.rights	根据你的居住地，你可能有权依据适用的隐私法（包括 CCPA/CPRA 及类似的美国州法）选择退出出于定向广告目的出售或共享你的个人信息。
+translation.privacyChoices.gpcDetected	检测到 Global Privacy Control
+translation.privacyChoices.gpcActive	你的浏览器正在发送 Global Privacy Control（GPC）信号。我们依法必须遵从该信号，视你为已退出数据共享。
+translation.privacyChoices.gpcLocked	此前从你的浏览器检测到 Global Privacy Control（GPC）信号。依据加州法律，你的退出选择自首次检测到信号起锁定 12 个月。
+translation.privacyChoices.lockedUntil	你的退出选择生效至 <strong>{{date}}</strong>。
+translation.privacyChoices.doNotSell	不要出售或共享我的个人信息
+translation.privacyChoices.optedOutBody	你当前已退出。我们正在遵从你的偏好，不出于定向广告目的出售或共享你的个人信息。
+translation.privacyChoices.optOutBody	启用后，我们将遵从你的退出偏好，按你所在辖区适用法律的要求，停止出于定向广告目的出售或共享你的个人信息。
+translation.privacyChoices.currentStatus	当前状态
+translation.privacyChoices.optOutStatus	退出状态：
+translation.privacyChoices.optedOut	已退出
+translation.privacyChoices.notOptedOut	未退出
+translation.privacyChoices.method	方式：
+translation.privacyChoices.methodGpc	Global Privacy Control（自动）
+translation.privacyChoices.methodManual	手动退出
+translation.privacyChoices.blockedHeading	退出后被屏蔽的内容
+translation.privacyChoices.blockedMeta	Meta（Facebook）Pixel
+translation.privacyChoices.blockedReddit	Reddit Pixel
+translation.privacyChoices.blockedX	X（Twitter）转化跟踪
+translation.privacyChoices.blockedLinkedIn	LinkedIn Insight Tag
+translation.privacyChoices.blockedBing	Bing / Microsoft UET
+translation.privacyChoices.blockedGoogleAds	Google Ads 转化跟踪
+translation.privacyChoices.blockedGoogleAnalytics	Google Analytics
+translation.privacyChoices.blockedOther	其他第三方广告标签
+translation.privacyChoices.activeHeading	保持启用的内容
+translation.privacyChoices.activeFirstParty	第一方分析（会话跟踪、事件记录）
+translation.privacyChoices.activeDatadog	Datadog（产品遥测）
+translation.privacyChoices.activeCookies	认证和会话 cookie
+translation.privacyChoices.privacyPolicy	隐私政策
+translation.desktopAuth.copyLoginCodeTitle	复制你的登录代码
+translation.desktopAuth.pasteCodeBody	将此代码粘贴到 Devin CLI 以完成登录。
+translation.desktopAuth.copied	已复制！
+translation.desktopAuth.copyCode	复制代码
+translation.desktopAuth.codeExpiry	此代码只能使用一次，5 分钟内有效。
+translation.desktopAuth.unableToSignIn	无法登录
+translation.desktopAuth.error	错误
+translation.desktopAuth.selectAccountCli	选择一个账户登录 Devin CLI。你的账户管理员将能看到并控制你的用量。
+translation.desktopAuth.selectAccountMobile	选择一个账户登录 Devin 应用。你的账户管理员将能看到并控制你的用量。
+translation.desktopAuth.selectAccountDesktop	选择一个账户登录 {{productName}}。你的账户管理员将能看到并控制你的 {{productName}} 用量。
+translation.desktopAuth.genericRetry	出了点问题。请重试。
+translation.desktopAuth.trialTitle	领取你的 Devin 免费试用
+translation.desktopAuth.trialBody	解锁 Devin 的全部能力。14 天内不会从你的卡扣费，可随时取消。
+translation.desktopAuth.startTrial	开始免费试用
+translation.desktopAuth.redirecting	正在跳转到 {{productName}}
+translation.desktopAuth.goToNow	立即前往 {{productName}}
+translation.desktopAuth.provideTokenTitle	提供认证令牌
+translation.desktopAuth.provideTokenSetup	为完成设置，请向 {{productName}} 提供你的认证令牌
+translation.desktopAuth.provideTokenSignIn	为完成登录，请向 {{productName}} 提供你的认证令牌
+translation.desktopAuth.copyToken	复制令牌
+translation.desktopAuth.steps	步骤：
+translation.desktopAuth.stepCopy	把上面的令牌复制到剪贴板
+translation.desktopAuth.stepCancelLogin	点击<strong>取消登录</strong>
+translation.desktopAuth.stepHavingTrouble	点击<strong>遇到问题？</strong>
+translation.desktopAuth.stepProvideToken	选择<strong>提供认证令牌</strong>并粘贴令牌
+translation.desktopAuth.stepCommandPalette	在 {{productName}} 中打开命令面板（Ctrl/Cmd + Shift + P），输入<strong>提供认证令牌</strong>并回车
+translation.desktopAuth.stepPaste	把令牌粘贴到输入框并提交
+translation.desktopAuth.tokenExpiry	此令牌只能使用一次，1 分钟内有效。
+translation.connectGit.allSet	一切就绪
+translation.connectGit.connectedBody	你的 Git 提供商已连接到 Devin。告诉你的队友他们已被解除阻塞——或者你自己来试试 Devin。
+translation.connectGit.tryDevin	立即试用 Devin
+translation.connectGit.manageConnections	管理 Git 连接
+translation.connectGit.title	连接你的 Git 提供商
+translation.connectGit.description	一位队友请把你组织的仓库连接到 Devin，以便团队开始工作。
+translation.welcomeAdvanced.prompts.costAcuTitle	分析我最近的会话，找出哪些用了最多 ACU。
+translation.welcomeAdvanced.prompts.costQuotaTitle	分析我最近的会话，找出哪些花费最高。
+translation.welcomeAdvanced.prompts.migrationTitle	帮我在代码库上运行一次迁移。
+translation.welcomeAdvanced.prompts.auditTitle	在我们的代码库上运行一次安全和依赖审计。
+translation.welcomeAdvanced.prompts.featuresTitle	根据已合并 PR 找出最近改动的 10 个功能。
+translation.welcomeAdvanced.prompts.flagsTitle	设置一个每周计划，扫描代码库中过时的功能开关。
+translation.welcomeAdvanced.prompts.designSystemTitle	设置一个每日计划，评审代码变更中的设计系统违规。
+translation.welcomeAdvanced.prompts.createPlaybookTitle	帮我创建一个捕捉迁移工作流的 playbook。
+translation.welcomeAdvanced.prompts.improvePlaybookTitle	帮我根据 playbook 的表现改进它。
+translation.welcomeAdvanced.prompts.knowledgeDupesTitle	评审所有知识条目，找出重复和矛盾。
+translation.welcomeAdvanced.prompts.knowledgePatternsTitle	调查我们的代码库和文档，识别关键模式。
+translation.welcomeAdvanced.prompts.knowledgeSuggestionsTitle	评审所有待处理的知识建议。
+translation.welcomeAdvanced.prompts.failedSessionsTitle	找出最近一周失败或被终止的会话。
+translation.welcomeAdvanced.prompts.orgUsageTitle	分析我组织最近的会话。
+translation.welcomeAdvanced.tabs.batchLabel	批量启动会话
+translation.welcomeAdvanced.tabs.batchDescription	从任务列表一次启动多个 Devin 会话
+translation.welcomeAdvanced.tabs.scheduleLabel	创建计划
+translation.welcomeAdvanced.tabs.scheduleDescription	按计划设置周期性 Devin 会话
+translation.welcomeAdvanced.tabs.managePlaybooksLabel	管理 Playbook
+translation.welcomeAdvanced.tabs.managePlaybooksDescription	创建、改进和管理可复用的 playbook
+translation.welcomeAdvanced.tabs.manageLabel	管理知识
+translation.welcomeAdvanced.tabs.manageDescription	组织、去重和改进 Devin 的知识库
+translation.welcomeAdvanced.tabs.analyzeLabel	分析会话
+translation.welcomeAdvanced.tabs.analyzeDescription	从过去的 Devin 会话获得洞察和指导
+translation.welcomeScreen.slack.enterEmailError	请输入邮箱地址
+translation.welcomeScreen.slack.noOrgId	未找到组织 ID
+translation.welcomeScreen.slack.emailNotConnected	此邮箱未关联 Slack 账户
+translation.welcomeScreen.slack.inviteFailed	获取 Slack Connect 邀请失败。
+translation.welcomeScreen.slack.enterEmailTitle	输入 Slack 邮箱
+translation.welcomeScreen.slack.enterEmailPlaceholder	输入你的 Slack 邮箱
+translation.welcomeScreen.slack.gettingInvite	获取邀请中…
+translation.welcomeScreen.slack.getInvite	获取邀请
+translation.welcomeScreen.slack.getInviteLink	获取邀请链接
+translation.welcomeScreen.slack.disconnectFailed	断开 Slack 用户集成失败
+translation.jiraToasts.noOrg	未找到组织 ID
+translation.jiraToasts.connectFailed	连接 Jira 失败
+translation.jiraToasts.disconnected	Jira 已成功断开
+translation.jiraToasts.disconnectFailed	断开 Jira 失败
+translation.jiraToasts.webhookRefreshed	Jira webhook 已刷新
+translation.jiraToasts.webhookFailed	刷新 Jira webhook 失败
+translation.jiraToasts.mappingsSaved	Jira 映射已成功保存
+translation.jiraToasts.mappingsFailed	保存 Jira 映射失败
+translation.jiraToasts.regenStarted	知识重生成已开始
+translation.jiraToasts.regenFailed	重新生成知识失败
+translation.jiraToasts.knowledgeCreated	知识已成功创建
+translation.jiraToasts.knowledgeSaved	知识已成功保存
+translation.jiraToasts.knowledgeFailed	保存知识失败
+translation.jiraToasts.serviceAccountConnected	Jira 服务账户已连接
+translation.slackLink.disabledAutomation	由 automation 运行的会话无法在此管理
+translation.slackLink.disabledUnlinkable	此会话无法链接到 Slack
+translation.slackLink.disabledNotOwner	只有会话所有者可以将会话连接到 Slack
+translation.snapshotSelect.noSnapshot	无快照
+translation.snapshotSelect.search	搜索快照…
+translation.snapshotSelect.loading	正在加载快照…
+translation.snapshotSelect.noneFound	未找到快照。
+translation.snapshotSelect.noDescription	无描述
+translation.mcpShortcuts.pullFileLabel	拉取一个 Figma 文件
+translation.mcpShortcuts.pullNodeLabel	拉取特定框架或组件
+translation.mcpShortcuts.implementDesignLabel	实现一个 Figma 设计
+translation.mcpShortcuts.postCommentLabel	回发评论到 Figma
+translation.mcpShortcuts.triageIssueLabel	开始处理一个 Linear issue
+translation.mcpShortcuts.createIssueLabel	创建一个 Linear issue
+translation.mcpShortcuts.updateStatusLabel	在 Linear issue 上评论状态
+translation.mcpShortcuts.searchIssuesLabel	搜索 Linear issue
+translation.mcpShortcuts.pullJiraIssueLabel	拉取一个 Jira issue
+translation.mcpShortcuts.createJiraIssueLabel	创建一个 Jira issue
+translation.mcpShortcuts.searchConfluenceLabel	搜索 Confluence 文档
+translation.mcpShortcuts.searchNotionLabel	搜索 Notion
+translation.mcpShortcuts.readPageLabel	读一个 Notion 页面
+translation.mcpShortcuts.createPageLabel	创建一个 Notion 页面
+translation.mcpShortcuts.investigateIssueLabel	调查一个 Sentry issue
+translation.mcpShortcuts.recentErrorsLabel	总结最近的错误
+translation.mcpShortcuts.linkPrLabel	把修复链接到一个 Sentry issue
+translation.mcpShortcuts.summarizeChannelLabel	总结一个 Slack 频道
+translation.mcpShortcuts.findThreadLabel	找一个 Slack 讨论串
+translation.mcpShortcuts.postUpdateLabel	发一条更新到 Slack
+translation.integrationOAuth.githubLinkSlow	GitHub 链接耗时超出预期。刷新页面查看其状态。
+translation.displayLanguage.saveFailed	保存显示语言失败
+translation.devEnvironments.connectionIssue	存在 {{provider}} 连接问题的仓库
+translation.inputCommands.btw	在旁聊中提问
+translation.inputCommands.queue	加入队列
+translation.inputCommands.ask	切换到 Ask 模式
+translation.inputCommands.scan	运行代码扫描
+translation.mcpSuggestions.figma	此提示词可使用 Figma MCP
+translation.mcpSuggestions.linear	启用 Linear MCP 让 Devin 开始处理你的 issue
+translation.mcpSuggestions.slack	启用 Slack MCP 让 Devin 给你的团队发消息
+translation.internalBots.automation	Automation
+translation.internalBots.codeScan	Code Scan
+translation.internalBots.devinBot	Devin Bot
+translation.internalBots.pylonBot	Pylon Bot
+translation.acpErrors.requestFailedRetry	请求失败。请重试。
+translation.acpErrors.requestFailedRetryIn_one	请求失败。{{count}} 秒后重试。
+translation.acpErrors.requestFailedRetryIn_other	请求失败。{{count}} 秒后重试。
+translation.acpErrors.messageNotSent	你的消息未发送。
+translation.acpErrors.sessionUsageLimitReached	此会话已达用量上限
+translation.sessionSegmentation.phaseSetup	设置
+translation.sessionSegmentation.phaseResearching	调研中
+translation.sessionSegmentation.phaseImplementing	实现中
+translation.sessionSegmentation.phaseTesting	测试中
+translation.sessionSegmentation.phaseDebugging	调试中
+translation.sessionSegmentation.phaseFixingCi	修复 CI
+translation.sessionSegmentation.phaseReviewing	评审中
+translation.sessionSegmentation.phaseWaiting	等待中
+translation.sessionSegmentation.phaseOther	其他
+translation.sessionSegmentation.minutesShort	{{minutes}} 分钟
+translation.sessionSegmentation.ratePerMinute	{{rate}}/分钟
+translation.sessionSegmentation.acuPerMinute	{{rate}} ACU/分钟
+translation.sessionSegmentation.prOpened	PR {{number}} 已打开
+translation.sessionSegmentation.prMerged	PR {{number}} 已合并
+translation.sessionSegmentation.prClosed	PR {{number}} 已关闭
+translation.sessionSegmentation.userMessage	用户消息
+translation.sessionSegmentation.prComment	PR 评论
+translation.sessionSegmentation.prCommentBy	PR 评论 · {{author}}
+translation.sessionSegmentation.failed	会话分段失败
+translation.sessionSegmentation.totalDuration	共 {{duration}}
+translation.sessionSegmentation.activeDuration	活跃 {{duration}}
+translation.sessionSegmentation.summary	会话分段：<bold>{{count}}</bold> 段 · {{duration}}
+translation.sessionSegmentation.playground	Playground
+translation.sessionSegmentation.olderEventsNotLoaded	更早的事件尚未加载，所以花费、活跃时间和标记只覆盖会话的一部分。
+translation.sessionSegmentation.byTime	按时间
+translation.sessionSegmentation.byActiveTime	按时间（去除停机）
+translation.sessionSegmentation.byCost	按花费
+translation.sessionSegmentation.byCategory	按类别
+translation.sessionSegmentation.costRate	花费速率（宽 = 活跃时间，高 = ACU/分钟）
+translation.sessionSegmentation.showMarkers	显示标记
+translation.sessionSegmentation.unavailable	此会话还没有分段数据。
+translation.sessionSegmentation.acuAmount	{{value}} ACU
+translation.errorUi.title	出了点问题
+translation.errorUi.chunkLoadFailed	应用的一部分加载失败。在 staging 上部署后几秒内可能发生。刷新页面；只有持续出现才需要报告。
+translation.errorUi.unexpected	我们遇到了意外错误。团队已收到通知。
+translation.errorUi.errorId	错误 ID：
+translation.errorUi.reloadPage	重新加载页面
+translation.errorUi.errorDetails	错误详情
+translation.devTools.lagRadarTitle	卡顿雷达 - 显示性能抖动（点击隐藏）
+translation.devTools.migrationsOutOfDate	数据库迁移已过期（{{databases}}）。运行：
+translation.notifications.githubConnected	GitHub 连接成功
+translation.notifications.gitlabConnected	GitLab 连接成功
+translation.notifications.bitbucketConnected	Bitbucket 连接成功
+translation.notifications.redirectingToDesktop	正在将你重定向到 {{desktopName}}
+translation.notifications.openDesktopManually	手动打开 {{desktopName}}
+translation.notifications.devinSharedPlan	Devin 分享了一个计划。
+translation.tagPill.editTitle	编辑会话标签
+translation.tagPill.editDescription	标签帮助你组织和筛选会话。
+translation.tagPill.edit	编辑
+translation.tagPill.searchOrCreate	搜索或创建标签…
+translation.tagPill.create	创建
+translation.tagPill.noMatch	没有匹配「{{tag}}」的标签。按创建标签添加它。
+translation.tagPill.noneAvailable	没有可用标签
+translation.tagPill.saving	保存中…
+translation.tagPill.save	保存
+translation.repositoriesPage.askAdminForAccess	请管理员授予你仓库的访问权
+translation.repositoriesPage.askAdminToConfigure	请管理员配置 Git 集成
+translation.repositoriesPage.inviteGitManager	邀请你的 Git 管理者
+translation.repositoriesPage.missingRepository	缺少某个仓库？
+translation.repositoriesPage.configureGitIntegrations	配置你的 Git 集成
+translation.repositoriesPage.orSeparator	，或
+translation.repositoriesPage.repositoriesPermissions	仓库权限
+translation.repositoriesPage.configured	已配置
+translation.repositoriesPage.indexing	索引中…
+translation.repositoriesPage.lastIndexed	上次索引于 {{time}}
+translation.repositoriesPage.moreActions	更多操作
+translation.repositoriesPage.configureIndexing	配置索引
+translation.repositoriesPage.configureBlueprint	配置 Blueprint
+translation.repositoriesPage.nameColumn	名称
+translation.repositoriesPage.deepWikiColumn	DeepWiki
+translation.repositoriesPage.environmentColumn	环境
+translation.repositoriesPage.noMatch	没有匹配你搜索的仓库。
+translation.repositoriesPage.manageAccessDescription	管理你各组织的仓库访问权。Git 提供商可在<connectionsLink>连接设置</connectionsLink>中添加
+translation.repositoriesPage.title	仓库
+translation.repositoriesPage.repositoriesTab	仓库
+translation.repositoriesPage.manageTab	管理
+translation.repositoriesPage.search	搜索仓库…
+translation.repositoriesPage.syncFailedTitle	无法同步你的仓库
+translation.repositoriesPage.syncFailedDescription	从你的 git 连接获取仓库失败。
+translation.repositoriesPage.retrySync	重试同步
+translation.repositoriesPage.loadFailedTitle	无法加载你的仓库
+translation.repositoriesPage.loadFailedDescription	仓库列表没有加载出来。请稍后重试。
+translation.repositoriesPage.retryLoad	重试
+translation.repositoriesPage.noAccessTitle	你没有任何仓库的访问权
+translation.repositoriesPage.noAccessEnterprise	如果这看起来不对，请确认你的企业仓库权限已正确配置
+translation.repositoriesPage.noAccessGit	如果这看起来不对，请检查你的 Git 集成
+translation.routeCrumbs.repositoryPermissions	仓库权限
+translation.routeCrumbs.serviceUsers	服务用户
+translation.routeCrumbs.plugins	插件
+translation.routeCrumbs.settings	设置
+translation.routeCrumbs.downloads	下载
+translation.routeCrumbs.oncall	Oncall
+translation.routeErrors.mcpMarketplaceUnavailable	MCP Marketplace 不可用。
+translation.routeErrors.pageDoesNotExist	你找的页面不存在。
+translation.checkoutProcessing.activating	正在激活你的计划…
+translation.checkoutProcessing.paymentProcessing	支付处理中
+translation.checkoutProcessing.trialFailedTitle	试用无法激活
+translation.checkoutProcessing.wait	请稍候，我们正在设置你的账户。
+translation.checkoutProcessing.paymentBody	你的支付可能仍在处理中。确认后计划会自动激活。你可以几分钟后再次检查，或联系支持。
+translation.checkoutProcessing.checkAgain	再次检查
+translation.checkoutProcessing.contactSupport	联系支持
+translation.checkoutProcessing.duplicatePayment	此支付方式已用于试用。请换一张卡或联系支持。
+translation.checkoutProcessing.duplicateEmail	此邮箱已用于试用。请换一个邮箱或联系支持。
+translation.checkoutProcessing.duplicateUser	你已使用过试用。请选择付费计划或联系支持。
+translation.checkoutProcessing.duplicateOrg	此组织已使用过试用。请选择付费计划或联系支持。
+translation.checkoutProcessing.trialFailedGeneric	你的试用无法激活。请联系支持获取帮助。
+translation.checkoutProcessing.redirecting	正在跳转…
+translation.checkoutProcessing.subscribeWithoutTrial	直接订阅（不试用）
+translation.checkoutProcessing.viewPlans	查看计划
+translation.outposts.connect.iconStyle	图标样式
+translation.outposts.connect.platform	平台
+translation.outposts.connect.partner	合作伙伴
+translation.outposts.connect.linkInvalidTitle	连接链接无效
+translation.outposts.connect.linkInvalidDescription	此 outpost 连接链接缺少必要信息或已过期。回到你来的平台重新开始。
+translation.outposts.connect.invalidCallback	服务器返回的回调 URL 无效
+translation.outposts.connect.connectFailed	连接 outpost 失败
+translation.outposts.connect.createTitle	创建 outpost
+translation.outposts.connect.managedBy	分配到此 outpost 的会话运行在由 {{host}} 管理的机器上。
+translation.outposts.connect.ownMachines	分配到此 outpost 的会话运行在你自己的机器上。
+translation.outposts.connect.name	名称
+translation.outposts.connect.titlePlaceholder	Outpost 标题
+translation.outposts.connect.nameRule	名称只能包含小写字母、数字、连字符和下划线
+translation.outposts.connect.description	描述
+translation.outposts.connect.descriptionHint	描述此 outpost 的用途
+translation.outposts.connect.credentialsNotice	点击「创建」将与 {{provider}} 共享运行 Devin 机器所需的凭据。<learnMore>了解详情</learnMore>关于共享的内容。
+translation.outposts.connect.learnMoreAria	了解 Outpost 凭据共享的更多信息
+translation.outposts.connect.creating	创建中…
+translation.outposts.connect.create	创建
+translation.outposts.connect.pageTitle	连接 outpost
+translation.promo.claimError.title	我们无法领取你的促销
+translation.promo.claimError.dismiss	知道了
+translation.promo.claimError.qrExpired	此二维码已过期或已被使用。请要一个新的。
+translation.promo.claimError.qrNotEligible	此账户不符合此促销的资格。
+translation.promo.claimError.qrWaiting	等待批准。请让出示二维码的人在 Slack 中批准它。
+translation.agentsApp.waitingUser	等待用户
+translation.agentsApp.working	工作中
+translation.agentsApp.waitingReview	等待评审
+translation.agentsApp.waitingCi	等待 CI
+translation.agentsApp.waitingChildren	等待子会话
+translation.agentsApp.sleeping	休眠中
+translation.agentsApp.done	完成
+translation.agentsApp.failed	失败
+translation.agentsApp.viewSession	查看会话
+translation.agentsApp.viewFullScript	查看完整脚本
+translation.agentsApp.noAgentsYet	还没有 agent
+translation.agentsApp.noChildren	还没有创建子会话。
+translation.agentsApp.parent	父级
+translation.prDigest.readOnly	只读
+translation.prDigest.readOnlyShort	只读
+translation.prDigest.jumpToPr	跳转到拉取请求
+translation.prDigest.trySyntax	试试：<code>github.com/owner/repo/pull/123</code> 或 <code>owner/repo#123</code>
+translation.prDigest.goToPullRequest	前往拉取请求
+translation.prDigest.goToPr	前往 PR
+translation.sidebarNew.nameCannotBeEmpty	名称不能为空。
+translation.sidebarNew.more	更多
+translation.sidebarNew.prNumber	PR #{{number}}
+translation.sidebarNew.groupFilesFailed	文件分组失败——PR 可能太大
+translation.sidebarNew.viewAsSections	按节查看
+translation.sidebarNew.folderView	文件夹视图
+translation.sidebarNew.repoNote	仓库说明
+translation.sidebarNew.beta	Beta
+translation.sessionHyperlinks.slackThread	Slack 讨论串
+translation.sessionHyperlinks.copyIssueId	复制 issue ID
+translation.sessionPrPreview.copyLinkFailed	复制链接失败
+translation.sessionPrPreview.copyBranchFailed	复制分支名失败
+translation.sessionPrPreview.copyContextTooltip	复制关于 Devin 工作和此 PR 的上下文以交接给另一个 agent
+translation.sessionPrPreview.openInProvider	在 {{providerName}} 中打开
+translation.sessionPrPreview.moreActions	更多操作
+translation.sessionPrPreview.copyBranchName	复制分支名
+translation.sessionPrPreview.copyLink	复制链接
+translation.sessionPrPreview.openInReview	在 Devin Review 中打开
+translation.sessionPrPreview.default	默认
+translation.sessionPrPreview.openInSessionTab	在会话标签页打开
+translation.sessionPrPreview.openLocally	本地打开
+translation.sessionPrPreview.manageGitSettings	管理 Git 设置
+translation.sessionPrPreview.closePr	关闭拉取请求
+translation.sessionPrPreview.stackedPrs	堆叠拉取请求
+translation.eventPreview.convertFailed	翻译失败：{{message}}
+translation.eventPreview.converting	翻译中…
+translation.agentPreviews.orgDefault	跟随你组织的默认值，并在其变化时更新
+translation.agentPreviews.normal	快速且擅长长程规划
+translation.agentPreviews.fast	快 2.5 倍、贵 2 倍，同样的智能
+translation.agentPreviews.lite	为更小、定义明确的任务调校。便宜 30-40%
+translation.agentPreviews.fusion	将前沿智能与高性价比执行结合，以更低成本交付前沿水平结果
+translation.agentPreviews.fusionFast	在优先模型上提供的 Fusion
+translation.agentPreviews.gpt56	OpenAI 最强模型。7 折——可用至 10 月 3 日
+translation.agentPreviews.gpt6Astra	OpenAI 的 GPT-6 Astra 模型
+translation.agentPreviews.research	实验性研究模型
+translation.agentPreviews.fable51	Anthropic 的 Fable 5.1 模型。预览可用至 9 月 22 日
+translation.agentPreviews.opus55	Anthropic 最新模型。预览可用至 10 月 6 日
+translation.agentPreviews.fastUltra	在优先推理上提供的 Ultra：更快且贵 2 倍
+translation.agentPreviews.gpt6Sol	OpenAI 的模型。预览可用至 10 月 6 日
+translation.agentPreviews.gpt61Sol	OpenAI 最新模型。预览可用至 10 月 13 日
+translation.agentPreviews.ultra	我们最强大、思考最深的 agent，价格显著更高
+translation.agentPreviews.gpt55	OpenAI 最强模型
+translation.agentPreviews.opus48	擅长指令遵循
+translation.agentPreviews.swe17	Cognition 的软件工程模型
+translation.agentPreviews.swe17Lightning	在 Cerebras 上运行的 SWE-1.7
+translation.agentPreviews.swe17Paid	带优先容量的 SWE-1.7
+translation.agentPreviews.swe2Preview	Cognition 的新一代软件工程模型
+translation.agentPreviews.swe2Medium	Cognition 的新一代软件工程模型，中推理强度
+translation.agentPreviews.swe2PriorityMedium	带优先容量的付费 SWE-2，中推理强度
+translation.agentPreviews.swe2LightningMedium	Lightning 模式的 SWE-2，中推理强度。可用至 11 月 25 日
+translation.agentPreviews.swe2High	Cognition 的新一代软件工程模型，高推理强度
+translation.agentPreviews.swe2PriorityHigh	带优先容量的付费 SWE-2，高推理强度
+translation.agentPreviews.swe2LightningHigh	Lightning 模式的 SWE-2，高推理强度。可用至 11 月 25 日
+translation.agentPreviews.swe2Max	Cognition 的新一代软件工程模型，最大推理强度
+translation.agentPreviews.swe2PriorityMax	带优先容量的付费 SWE-2，最大推理强度
+translation.agentPreviews.swe2LightningMax	Lightning 模式的 SWE-2，最大推理强度。可用至 11 月 25 日
+translation.agentPreviews.swe2FlashMedium	Cognition 的快速高效编码模型，中强度。预览至 11 月 18 日
+translation.agentPreviews.swe2FlashHigh	Cognition 的快速高效编码模型，高强度。预览至 11 月 18 日
+translation.agentPreviews.swe2FlashMax	Cognition 的快速高效编码模型，最大强度。预览至 11 月 18 日
+translation.agentPreviews.freeMode	免费 SWE-2，有并发会话限制
+translation.grantRequest.titleConsent_one	停止{{botName}}以一人身份打开拉取请求？
+translation.grantRequest.titleConsent_other	停止{{botName}}以 {{count}} 人身份打开拉取请求？
+translation.grantRequest.titleSession_one	移除{{botName}}对一个会话的访问权？
+translation.grantRequest.titleSession_other	移除{{botName}}对 {{count}} 个会话的访问权？
+translation.grantRequest.titleBot_one	移除{{botName}}对一个{{botName}}的访问权？
+translation.grantRequest.titleBot_other	移除{{botName}}对 {{count}} 个{{botNamePlural}}的访问权？
+translation.grantRequest.titleSecret_one	移除{{botName}}对一个机密的访问权？
+translation.grantRequest.titleSecret_other	移除{{botName}}对 {{count}} 个机密的访问权？
+translation.grantRequest.titleMcp_one	移除{{botName}}对一个 MCP 登录的访问权？
