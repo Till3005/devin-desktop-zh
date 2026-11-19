@@ -1,0 +1,500 @@
+translation.readiness.blockerSessionsOverTime	会话数随时间变化
+translation.readiness.blockerAcusWastedToDate	累计浪费的 ACU
+translation.readiness.findingNoSessions_one	最近 1 天没有会话遇到此问题。
+translation.readiness.findingNoSessions_other	最近 {{count}} 天没有会话遇到此问题。
+translation.readiness.seenAgainAfterFix	修复后再次出现
+translation.readiness.blockerNotSeenSince	自 {{date}} 起未再出现
+translation.readiness.fixedCount_one	已修复 {{count}} 个
+translation.readiness.fixedCount_other	已修复 {{count}} 个
+translation.readiness.observedInCategory_one	在 {{count}} 个会话中出现
+translation.readiness.observedInCategory_other	在 {{count}} 个会话中出现
+translation.readiness.blockersLoadFailed	无法加载阻塞项。
+translation.readiness.scheduleTitle	扫描排期
+translation.readiness.scheduleEdit	编辑排期
+translation.readiness.createReport	创建报告
+translation.readiness.scheduleRepoDescription	Devin 深度扫描此仓库的时间，按你的时区。
+translation.readiness.scheduleLoadFailed	无法加载排期。
+translation.readiness.scheduleEnabled	定期扫描
+translation.readiness.scheduleScanInterval	深度扫描频率
+translation.readiness.scheduleSaved	排期已保存
+translation.readiness.scheduleSaveFailed	无法保存排期。
+translation.readiness.repository	仓库
+translation.readiness.createdAgo	创建于 {{ago}}
+translation.readiness.runningElapsed	已运行 {{elapsed}}
+translation.readiness.createReportDescription	对企业中所有组织的所有会话可用
+translation.readiness.selectRepositoryLabel	选择仓库
+translation.readiness.agentModel	代理模型
+translation.readiness.agentModelDescription	Agent Readiness 用一群并行 Devin 会话的专用集群。选择它们运行的模式
+translation.readiness.updateFrequency	更新频率
+translation.readiness.frequencyManual	手动
+translation.readiness.frequencyDaily	每天
+translation.readiness.frequencyWeekly	每周
+translation.readiness.frequencyDefault	默认
+translation.readiness.frequencyDailyDetail	每天在 <time /> 运行
+translation.readiness.frequencyWeeklyDetail	每周<weekday /> <time /> 运行
+translation.readiness.maxScopeAdvanced	最大范围数（高级）
+translation.readiness.maxScopeHint	最大 100
+translation.readiness.scopeDescriptionCost	最多评估这么多个范围。范围是仓库中可独立构建和测试的部分，如服务、应用或库。每个范围单独评估，范围越多花费越多
+translation.readiness.createAssessment	创建评估
+translation.insights.devinCoach	Devin Coach
+translation.insights.coachDescription	你团队对 Devin 指导的响应情况，最近 {{days}} 天组织内的建议结果
+translation.insights.coachLoadError	加载你组织的指导分析时出错。
+translation.insights.coachEmpty	Devin 在你团队提问和工作时进行指导。建议结果会显示在这里。
+translation.insights.enterpriseCoachDescription	你企业对 Devin 指导的响应情况，最近 {{days}} 天所有组织的建议结果
+translation.insights.enterpriseCoachLoadError	加载你企业的指导分析时出错。
+translation.insights.enterpriseCoachEmptyForOrg	{{org}} 最近 {{days}} 天没有建议结果。
+translation.insights.enterpriseCoachEmpty	Devin 在你团队提问和工作时进行指导。建议结果会显示在这里。
+translation.repoSelect.askAdminToAddRepositories	请你的管理员添加仓库。
+translation.repoSelect.askAdminToConnectGitProvider	请你的管理员连接 Git 提供商。
+translation.repoSelect.connectAnotherGitProvider	连接另一个 Git 提供商
+translation.repoSelect.loading	加载中…
+translation.repoSelect.noRepositoriesFound	未找到仓库
+translation.repoSelect.public	公开
+translation.repoSelect.publicNotSelectable	公开仓库不能在此选择。
+translation.repoSelect.searchRepositories	搜索仓库…
+translation.repoSelect.selectRepository	选择仓库…
+translation.repoSelect.selectAll	全选
+translation.repoSelect.includedInSnapshot	含在快照中
+translation.repoSelect.setUpOnMachine	已在 Devin 机器上设置
+translation.repoSelect.notSetUpOnMachine	未在 Devin 机器上设置
+translation.repoSelect.indexingDisabled	索引已禁用
+translation.repoSelect.notIndexed	未索引
+translation.repoSelect.lastIndexed	最近索引 {{time}}
+translation.repoSelect.indexingInProgress	索引中（最近索引 {{time}}）
+translation.repoSelect.indexingFailed	索引失败（最近索引 {{time}}）
+translation.repoSelect.justNow	刚刚
+translation.repoSelect.recent	最近
+translation.repoSelect.allRepositories	所有仓库
+translation.repoSelect.searchBranches	搜索分支…
+translation.repoSelect.loadingBranches	加载分支中…
+translation.repoSelect.noIndexedBranches	未找到已索引分支
+translation.repoSelect.branchWithDefault	{{branch}}（默认）
+translation.repoSelect.selectBranchCurrent	选择分支（当前 {{branch}}）
+translation.repoSelect.selectBranch	选择分支
+translation.repoSelect.defaultBranchValue	默认分支
+translation.repoSelect.selectABranch	选择一个分支…
+translation.repoSelect.selectionSummary	{{first}}、{{second}} 等 {{remaining}} 个
+translation.scfViewer.downloadFile	下载 {{filename}}
+translation.scfViewer.failedToLoadPreview	加载预览失败
+translation.scfViewer.tooLargeToPreview	此文件太大无法预览（上限 {{maxSizeMb}} MB）
+translation.search.addReposToUseAsk	添加仓库以使用 Ask Devin
+translation.search.addRepositories	添加仓库
+translation.search.addRepositoryToUseAsk	添加仓库以使用 Ask Devin
+translation.search.allPrivate	全部私有
+translation.search.allRepositories	所有仓库
+translation.search.ask	问答
+translation.search.askDescription	回答关于代码库的问题
+translation.search.askDevinAboutCode	向 Devin 询问你的代码
+translation.search.auto	自动
+translation.search.autoDescription	自动选择模式
+translation.search.cancel	取消
+translation.search.characterCount	{{current}} / {{limit}} 字符
+translation.search.characterLimitExceeded	- 超出字符上限
+translation.search.codemap	Codemap
+translation.search.codemapDescription	基于代码的结构化讲解
+translation.search.connectAccount	连接账户
+translation.search.connectAccountToAccessRepos	连接你的账户以访问你的仓库
+translation.search.connecting	连接中…
+translation.search.constructPrompt	构造 Devin 提示词
+translation.search.continueWithoutRepos	不带仓库继续
+translation.search.deep	Deep
+translation.search.deepDescription	更彻底的调查
+translation.search.deepMode	Deep 模式
+translation.search.deepModeBilledTooltip	Deep 模式用量计费。其他用量仍免费。
+translation.search.deepModeDescription	更深推理带来更彻底的回答
+translation.search.deepModeSelectedLabel	Deep · {{label}}
+translation.search.deepModeUnavailableTooltip	用量配额超限时 Deep 模式不可用。
+translation.search.discard	放弃
+translation.search.discardChanges	放弃未保存的更改？
+translation.search.fast	Fast
+translation.search.fastDescription	快速响应的回答
+translation.search.indexing	索引中
+translation.search.lastIndexed	最近索引
+translation.search.linkGithubAccount	关联 GitHub 账户
+translation.search.loadingEllipsis	加载中…
+translation.search.loadingRepositories	加载仓库中...
+translation.search.manageRepositories	管理仓库
+translation.search.mustLinkGithubAccount	必须关联 GitHub 账户才能搜索你的仓库。
+translation.search.name	名称
+translation.search.noPublicRepositories	无公开仓库
+translation.search.noRepositoriesAvailable	无可用仓库
+translation.search.accountBillingIssue	此账户有计费问题，Ask Devin 不可用
+translation.search.failedToSubmitFeedback	提交反馈失败
+translation.search.dropImageOnAskComposer	要附加图片，把它拖到消息框上
+translation.search.noRepositoriesForAsk	你无可用于 Ask Devin 的仓库
+translation.search.sendFailedTryAgain	发送失败。请重试。
+translation.search.noRepositoriesFound	未找到仓库
+translation.search.noRepositoriesIndexed	还没有已索引的仓库
+translation.search.noResultsFound	未找到结果
+translation.search.only	仅
+translation.search.onlyImageFiles	只支持图片文件（.png、.jpg、.jpeg、.gif、.webp）
+translation.search.openInGithub	在 GitHub 中打开
+translation.search.openInSidebar	在侧栏打开
+translation.search.openPr	打开 PR
+translation.search.plan	Plan
+translation.search.planDescription	为任务创建可执行计划
+translation.search.privateCount_one	{{count}} 个私有
+translation.search.privateCount_other	{{count}} 个私有
+translation.search.public	公开
+translation.search.publicRepositoriesCount_one	{{count}} 个公开仓库
+translation.search.publicRepositoriesCount_other	{{count}} 个公开仓库
+translation.search.recordVoicePrompt	录制语音提示
+translation.search.removeQuote	移除引用
+translation.search.repositoriesCount_one	{{count}} 个仓库
+translation.search.repositoriesCount_other	{{count}} 个仓库
+translation.search.searchDeepWikiToAdd	在 DeepWiki 中搜索要添加的公开仓库
+translation.search.searchPublicRepositoriesPlaceholder	搜索公开仓库...
+translation.search.searchRepositoriesPlaceholder	搜索仓库…
+translation.search.searching	搜索中...
+translation.search.selectBranch	选择分支
+translation.search.selectReposToUseAskDevin	选择仓库以使用 Ask Devin
+translation.search.selectRepositories	选择仓库
+translation.search.selectRepositoriesCount_one	选择 {{count}} 个仓库
+translation.search.selectRepositoriesCount_other	选择 {{count}} 个仓库
+translation.search.selectRepositoriesDescription	告诉 Devin 此会话应处理哪些仓库
+translation.search.selectRepository	选择一个仓库
+translation.search.selectRepositoryTrigger	选择仓库
+translation.search.sessionUnavailable	会话不可用
+translation.search.sessionUnavailableDescription	你无权访问此会话，或它已不存在。
+translation.search.startDevin	启动 Devin
+translation.search.stopStreaming	停止流式输出
+translation.search.stopping	停止中…
+translation.search.tasksProgress	{{completed}} / {{total}} 个任务
+translation.search.tryDifferentSearchTerm	换个搜索词试试
+translation.search.viewSession	查看会话
+translation.search.whatQuestionsDoYouHave	你有什么问题？
+translation.search.yourRepos	你的仓库
+translation.search.superuserReadonly.message	你正在以只读模式查看另一个组织的搜索查询。
+translation.search.noCodeToPreview	没有可预览的代码
+translation.search.error	错误：
+translation.search.youveReachedTheMaximumNumberOfQueriesAllowed	已达最大查询次数。请稍后再试。
+translation.search.anErrorOccurredWhileRunningTheQueryPlease	运行查询时出错，请联系支持
+translation.search.failedToCopyResponse	复制回答失败
+translation.search.failedToCopyThread	复制线程失败
+translation.search.copied	已复制！
+translation.search.copyResponse	复制回答
+translation.search.copyThread	复制线程
+translation.search.openWith	用 {{product}} 打开
+translation.search.selectVersion	选择 {{productName}} 版本
+translation.search.didntOpen	没打开？
+translation.search.dismiss	关闭
+translation.search.thinking	思考中…
+translation.search.thoughtProcess	思考过程
+translation.search.scanned	已扫描
+translation.search.scanning	扫描中
+translation.search.copyLinkToQuery	复制查询链接
+translation.search.linkCopied	链接已复制！
+translation.search.hideFullText	隐藏全文
+translation.search.showFullText	显示全文
+translation.search.clickToViewInRightPanel	点击在右侧面板查看
+translation.search.failedToLoadPromptPleaseTryAgain	加载提示词失败。请重试。
+translation.search.generatedDevinPrompt	生成的 Devin 提示词
+translation.search.generatingPrompt	生成提示词中...
+translation.search.failedToCreateTaskPleaseTryAgain	创建任务失败。请重试。
+translation.search.sendToDevin	发送给 Devin
+translation.search.clarificationNeeded	需要澄清
+translation.search.failedToStartDeepSearchPleaseTryAgain	启动深度搜索失败。请重试。
+translation.search.loadingIndexes	加载索引中…
+translation.search.knowledge	知识
+translation.search.collapseKnowledge	收起知识
+translation.search.expandKnowledge	展开知识
+translation.search.aCUs_one	{{amount}} ACU
+translation.search.aCUs_other	{{amount}} ACU
+translation.search.querySize	查询大小
+translation.search.userMessages	用户消息
+translation.search.yourOrganizationHasABillingIssueSubscribeTo	你的组织有计费问题。订阅以继续使用 Ask Devin。
+translation.search.noRepositoriesIndexedForThisOrganizationConfigureRepository	此组织没有已索引的仓库。配置仓库索引以启用搜索。
+translation.search.accessDeniedYouMayNotHavePermissionTo	访问被拒。你可能没有执行此操作的权限。
+translation.search.failedToSendQueryPleaseCheckYourConnection	发送查询失败。请检查连接后重试。
+translation.search.stillAnsweringPreviousQuestion	Devin 还在回答此线程中的上一个问题。等它完成再追问，或先停止回答。
+translation.search.anErrorOccurredWhileRunningTheQuery	运行查询时出错。
+translation.search.moreOptions	更多选项
+translation.search.deleteResponse	删除回答
+translation.search.openInPlayground	在 playground 打开
+translation.search.generating	生成中...
+translation.search.generatingDevinPrompt	生成 Devin 提示词中...
+translation.search.planTitle	计划标题
+translation.search.signInToContinue	登录以继续
+translation.search.startingDevinSession	启动 Devin 会话中...
+translation.search.devinSessionStarted	Devin 会话已启动
+translation.search.edit	编辑
+translation.search.startDevinSession	启动 Devin 会话
+translation.search.openPanel	打开面板
+translation.search.closePanel	关闭面板
+translation.search.scrollToBottom	滚到底部
+translation.search.askAFollowUp	追问
+translation.search.enterAMessage	输入消息
+translation.search.sending	发送中...
+translation.search.back	返回
+translation.search.noCodeSnippetsReferenced	未引用代码片段
+translation.search.codeSnippets	代码片段
+translation.search.failedToUpload	上传 {{name}} 失败
+translation.search.failedToDeleteResponse	删除回答失败
+translation.search.failedToCancelQuery	取消查询失败
+translation.search.failedToCreatePromptMapping	创建提示词映射失败
+translation.search.failedToSendPleaseCheckIfYouAre	发送失败。请确认你在正确的组织中再试。
+translation.search.failedToStartDevinSession	启动 Devin 会话失败
+translation.search.askFollowUpQuestion	追问一个问题
+translation.search.askFollowUpOrConstructPrompt	追问一个问题或构造 Devin 提示词
+translation.search.desktopNext	Devin Desktop Next
+translation.search.desktopInsiders	Devin Desktop Insiders
+translation.search.desktopStable	Devin Desktop
+translation.search.basedOn	基于：<prompt>{{prompt}}</prompt>
+translation.search.installToViewCodemaps	<installLink>安装 {{productName}}</installLink> 在你的 IDE 中查看 codemap。
+translation.search.searchingAcrossAll	正在搜索所有仓库…
+translation.search.searchedAcrossAll	已搜索所有仓库
+translation.search.searchingAcrossCount_one	正在搜索 <reposTooltip>{{count}} 个仓库</reposTooltip>…
+translation.search.searchingAcrossCount_other	正在搜索 <reposTooltip>{{count}} 个仓库</reposTooltip>…
+translation.search.searchedAcrossCount_one	已搜索 <reposTooltip>{{count}} 个仓库</reposTooltip>
+translation.search.searchedAcrossCount_other	已搜索 <reposTooltip>{{count}} 个仓库</reposTooltip>
+translation.search.searchingAcrossRepos	正在搜索 {{repos}}…
+translation.search.searchedAcrossRepos	已搜索 {{repos}}
+translation.search.openLink	打开链接：{{href}}
+translation.search.goDeeper	深入
+translation.search.goodResponse	回答得好
+translation.search.badResponse	回答得差
+translation.search.title	搜索
+translation.search.signInToUpload	登录以上传图片
+translation.search.thinkingProcess	思考过程
+translation.search.selectMode	选择模式
+translation.search.thinkingLabel	思考中
+translation.automationAccess.canConfigure	可配置
+translation.automationAccess.canConfigureDescription	可查看、禁用和删除此自动化；若也能运行它则可编辑
+translation.automationAccess.canConfigureDescriptionUnknown	可配置此自动化
+translation.automationAccess.canConfigureDescriptionRunsAsCreator	可查看、禁用和删除此自动化。只有创建者能编辑，因为它以创建者身份运行
+translation.automationAccess.canManage	可管理
+translation.automationAccess.canManageDescription	可配置此自动化并管理谁有访问权
+translation.automationAccess.canView	可查看
+translation.automationAccess.canViewDescription	可查看此自动化
+translation.automationAccess.description	允许用户、组或服务用户访问 {{name}}。
+translation.automationAccess.inheritedDescription	此访问权是继承的，不能在此更改
+translation.automationAccess.manageAccess	管理访问权
+translation.automationAccess.removeSelfError	你不能移除自己管理此自动化的访问权
+translation.automationAccess.searchPlaceholder	搜索要添加的用户、组或服务用户
+translation.outpostAccess.canConfigure	可配置
+translation.outpostAccess.canConfigureDescription	可在此 outpost 上运行 Unified 会话、更改其设置、管理其 worker 凭据并删除它
+translation.outpostAccess.canManage	可管理
+translation.outpostAccess.canManageDescription	可在此 outpost 上运行 Unified 会话、配置它并管理谁有访问权
+translation.outpostAccess.canUse	可使用
+translation.outpostAccess.canUseDescription	可在此 outpost 上运行 Unified 会话
+translation.outpostAccess.description	允许用户、组或服务用户在 {{name}} 上运行 Unified 会话。
+translation.outpostAccess.inheritedDescription	此访问权是继承的，不能在此更改
+translation.outpostAccess.manageAccess	管理访问权
+translation.outpostAccess.manageAccessTo	管理 {{name}} 的访问权
+translation.outpostAccess.removeSelfError	你不能移除自己管理此 outpost 的访问权
+translation.outpostAccess.searchPlaceholder	搜索要添加的用户、组或服务用户
+translation.outpostConvert.action	转换为 Unified
+translation.outpostConvert.allOrganizations	所有组织
+translation.outpostConvert.confirm	转换
+translation.outpostConvert.converted	Outpost 已转换为 Unified
+translation.outpostConvert.converting	转换中…
+translation.outpostConvert.description	选择一个 outpost 进行转换。此操作不可撤销。
+translation.outpostConvert.effectAllowList	共享 outpost 的组织访问权变为使用授权：账户中的所有人，或每个被允许组织的成员，可在其上运行 Unified 会话。
+translation.outpostConvert.effectOwner	个人 outpost 的所有者保留使用、配置和分享它的权限。
+translation.outpostConvert.effectRefused	当组织会话在 outpost 上排队或运行时，转换被拒绝。
+translation.outpostConvert.effectUnifiedOnly	之后只有 Unified 会话在其上运行，且不再从组织设置管理。
+translation.outpostConvert.effectWorker	outpost 的机器继续运行，但其 worker 被限制在此 outpost，不再服务账户的其他 outpost。
+translation.outpostConvert.effectWorkerCredential	没有自己 worker 凭据的 outpost，转换后无人服务，直到你为它创建一个。
+translation.outpostConvert.empty	没有可转换的 outpost 了。
+translation.outpostConvert.failed	转换 outpost 失败
+translation.outpostConvert.loadFailed	加载 outpost 失败。
+translation.outpostConvert.organizations_one	{{count}} 个组织
+translation.outpostConvert.organizations_other	{{count}} 个组织
+translation.outpostConvert.personal	个人
+translation.outpostConvert.pick	Outpost
+translation.outpostConvert.title	把一个 outpost 转换为 Unified
+translation.outpostDrsImage.buildStatus.cancelled	已取消
+translation.outpostDrsImage.buildStatus.failed	失败
+translation.outpostDrsImage.buildStatus.inProgress	进行中
+translation.outpostDrsImage.buildStatus.partial	部分成功
+translation.outpostDrsImage.buildStatus.success	成功
+translation.outpostDrsImage.disabledToast	{{name}} 的 blueprint 已关
+translation.outpostDrsImage.enableDescription	开启后会为每个能使用此 outpost 的组织启动构建；各得自己的镜像。
+translation.outpostDrsImage.enabledToast	{{name}} 的 blueprint 已开
+translation.outpostDrsImage.environmentScope	环境 {{id}}
+translation.outpostDrsImage.failed	保存 blueprint 设置失败。
+translation.outpostDrsImage.kindEnvironment	环境
+translation.outpostDrsImage.kindOrganization	组织
+translation.outpostDrsImage.noImageYet	还没有镜像
+translation.outpostDrsImage.noLongerEligible	无访问权
+translation.outpostDrsImage.noLongerEligibleTooltip	此组织或环境不能再使用此 outpost，其构建不再在此产出镜像。
+translation.outpostDrsImage.orgScope	组织 {{id}}
+translation.outpostDrsImage.unknownFailure	最近一次构建没产出镜像。
+translation.outpostPools.description	你自己的机器池，会话在上面运行。选择每个池分配给哪些组织以及是否构建 blueprint。
+translation.outpostPools.drsColumn	Blueprint
+translation.outpostPools.drsOff	关
+translation.outpostPools.drsOn	开
+translation.outpostPools.drsSwitchLabel	在 {{name}} 上构建 blueprint
+translation.outpostPools.imagesBuilt	已构建 {{built}}/{{total}}
+translation.outpostPools.poolColumn	池
+translation.outpostPools.title	Outpost 池
+translation.secretAccess.canEdit	可编辑
+translation.secretAccess.canEditDescription	可在其会话中使用此机密，并可编辑或删除它
+translation.secretAccess.canManage	可管理
+translation.secretAccess.canManageDescription	可在其会话中使用此机密、编辑或删除它，并管理谁有访问权
+translation.secretAccess.canUse	可使用
+translation.secretAccess.canUseDescription	可在其会话中使用此机密
+translation.secretAccess.description	允许用户、角色或服务用户在其会话中使用 {{name}}。
+translation.secretAccess.inheritedDescription	此访问权是继承的，不能在此更改
+translation.secretAccess.manageAccess	管理访问权
+translation.secretAccess.removeSelfError	你不能移除自己管理此机密的访问权
+translation.secretAccess.searchPlaceholder	搜索要添加的用户、角色、团队或服务用户
+translation.secretAccess.sharedBy	由 {{name}} 共享
+translation.secrets.confirmOrganizationCreate	创建组织机密？
+translation.secrets.confirmOrganizationImport	导入组织机密？
+translation.secrets.editUnavailable	编辑不可用
+translation.secrets.importOrganizationSecrets	导入组织机密
+translation.secrets.loadPolicyUpdateFailed	更新 Devin 何时可用此机密失败
+translation.secrets.organizationCreateDescription	{{orgName}} 中的任何人都能在其 Devin 会话中使用此机密。
+translation.secrets.organizationImportDescription	{{orgName}} 中的任何人都能在其 Devin 会话中使用这些机密。
+translation.secrets.redactColumnLabel	脱敏
+translation.secrets.redactEntryLabel	脱敏 {{key}}
+translation.secrets.redactNewValueDescription	为安全起见，脱敏后的值无法再显示。\
+以后要关闭，输入一个新值
+translation.secrets.redactNewValuesDescription	为安全起见，脱敏后的值无法再显示。\
+以后要关闭，输入新值
+translation.secrets.redactValueDescription	为安全起见，脱敏后的值无法再显示。\
+要关闭，输入一个新值
+translation.secrets.redactValueLabel	脱敏值
+translation.secrets.redactValueLocked	先输入一个新值
+translation.secrets.redactValueLockedView	点「编辑」，然后输入一个新值
+translation.secrets.requireApprovalToggleDescription	Devin 每次需要此机密时都请求你批准
+translation.secrets.requireApprovalToggleLabel	每次使用前需批准
+translation.secrets.scope	范围
+translation.secrets.scopeOrganizationDescription	与所有成员共享。有 Manage secrets 权限的人可编辑
+translation.secrets.scopeEveryone	{{orgName}} 中的所有人
+translation.secrets.scopeGroups	组
+translation.secrets.scopeGroupsDescription	与你选的用户组共享。只有你能编辑
+translation.secrets.scopeGroupsEmpty	未找到用户组
+translation.secrets.scopeGroupsPlaceholder	搜索用户组
+translation.secrets.scopeOnlyMe	仅我
+translation.secrets.serviceUserCreateDescription	仅 {{name}} 的会话可用
+translation.secrets.storeOrganizationSecret	存储组织机密
+translation.secrets.title	机密
+translation.secrets.typeCookie	Cookie
+translation.secrets.typeKeyValue	键值对
+translation.secrets.typeTotp	一次性密码（TOTP）
+translation.secretsDialog.pastedCreate	创建机密
+translation.secretsDialog.pastedCreateFailed	无法创建机密。请重试。
+translation.secretsDialog.pastedDescription	提示词里的内容会留在会话历史中，有权限的人可以读到。考虑把它存为机密。
+translation.secretsDialog.pastedInvalidName	用字母、数字和下划线；不要以数字开头。
+translation.secretsDialog.pastedKeepAsIs	原样粘贴
+translation.secretsDialog.pastedNameLabel	机密名称
+translation.secretsDialog.pastedNameTaken	同名机密已存在。
+translation.secretsDialog.pastedScopeInfo	个人：只有你能在自己的会话中使用。组织：你组织中的每个人都能在其会话中使用。
+translation.secretsDialog.pastedTitle	这看起来像机密
+translation.secretsDialog.expiredCookiesWarning_one	<strong>{{name}}</strong> 已过期。
+translation.secretsDialog.expiredCookiesWarning_other	{{count}} 个 cookie 已过期：{{cookies, list(type: unit)}}
+translation.secretsDialog.expiringCookieWarning_one	<strong>{{name}}</strong> 将于 {{count}} 天后过期。
+translation.secretsDialog.expiringCookieWarning_other	<strong>{{name}}</strong> 将于 {{count}} 天后过期。
+translation.secretsDialog.expiringCookiesWarning_one	{{count}} 个 cookie 将在 1 个月内过期：{{cookies, list(type: unit)}}
+translation.secretsDialog.expiringCookiesWarning_other	{{count}} 个 cookie 将在 1 个月内过期：{{cookies, list(type: unit)}}
+translation.secretsDialog.decodedCookies_one	已解码 {{count}} 个 cookie
+translation.secretsDialog.decodedCookies_other	已解码 {{count}} 个 cookie
+translation.secretsDialog.parsedCookies_one	已解析 {{count}} 个 cookie
+translation.secretsDialog.parsedCookies_other	已解析 {{count}} 个 cookie
+translation.secretsDialog.bulkAddError_oneLine_one	已添加 {{count}} 个机密。下方还剩 {{invalidCount}} 行无效——修正或取消。
+translation.secretsDialog.bulkAddError_oneLine_other	已添加 {{count}} 个机密。下方还剩 {{invalidCount}} 行无效——修正或取消。
+translation.secretsDialog.bulkAddError_manyLines_one	已添加 {{count}} 个机密。下方还剩 {{invalidCount}} 行无效——修正或取消。
+translation.secretsDialog.bulkAddError_manyLines_other	已添加 {{count}} 个机密。下方还剩 {{invalidCount}} 行无效——修正或取消。
+translation.secretsDialog.validationError_withLinesAndValidEntries_one	{{count}} 条有错误（第 {{lines, list(type: unit)}} 行）——详见下方预览。存储其余有效机密时会跳过无效条目。
+translation.secretsDialog.validationError_withLinesAndValidEntries_other	{{count}} 条有错误（第 {{lines, list(type: unit)}} 行）——详见下方预览。存储其余有效机密时会跳过无效条目。
+translation.secretsDialog.validationError_withLines_one	{{count}} 条有错误（第 {{lines, list(type: unit)}} 行）——详见下方预览。
+translation.secretsDialog.validationError_withLines_other	{{count}} 条有错误（第 {{lines, list(type: unit)}} 行）——详见下方预览。
+translation.secretsDialog.validationError_withoutLinesAndValidEntries_one	{{count}} 条有错误——详见下方预览。存储其余有效机密时会跳过无效条目。
+translation.secretsDialog.validationError_withoutLinesAndValidEntries_other	{{count}} 条有错误——详见下方预览。存储其余有效机密时会跳过无效条目。
+translation.secretsDialog.validationError_withoutLines_one	{{count}} 条有错误——详见下方预览。
+translation.secretsDialog.validationError_withoutLines_other	{{count}} 条有错误——详见下方预览。
+translation.secretsDialog.addCountSecrets_one	添加 {{count}} 个机密
+translation.secretsDialog.addCountSecrets_other	添加 {{count}} 个机密
+translation.secretsDialog.addNewSecret	添加新机密
+translation.secretsDialog.addSecrets	添加机密
+translation.secretsDialog.addToCollectionFailed_one	{{count}} 个机密无法保存。
+translation.secretsDialog.addToCollectionFailed_other	{{count}} 个机密无法保存。
+translation.secretsDialog.bulkAdd	批量添加
+translation.secretsDialog.bulkDescription	上传 .env 文件或粘贴 KEY=VALUE 行，一次添加多个机密。
+translation.secretsDialog.bulkPlaceholder	API_KEY=your-api-key-here # 此 API Key 用于 GitHub\
+DATABASE_URL=postgresql://user:pass@localhost:5432/db # us-west-2 的 RDS\
+ENVIRONMENT=production
+translation.secretsDialog.cancel	取消
+translation.secretsDialog.chooseFile	选择文件或拖放
+translation.secretsDialog.collection	集合
+translation.secretsDialog.description	添加机密与当前会话共享。
+translation.secretsDialog.maxSize	（最大 2MB）
+translation.secretsDialog.orgScopeTooltip	你组织中的所有人可用
+translation.secretsDialog.organization	组织
+translation.secretsDialog.pasteSecrets	粘贴机密
+translation.secretsDialog.personal	个人
+translation.secretsDialog.botScopeTooltip	只有 {{name}} 及其会话能访问这些机密
+translation.secretsDialog.personalScopeTooltip	只有你能访问这些机密
+translation.secretsDialog.saveForFuture	保存供以后的 Devin 会话用。<manageLink>管理机密</manageLink>
+translation.secretsDialog.saveToReuse	保存这些机密以便在以后的会话中复用
+translation.secretsDialog.saveToSecretsManager	保存到机密管理器
+translation.secretsDialog.saveShort	保存
+translation.secretsDialog.send	发送
+translation.secretsDialog.sending	发送中…
+translation.secretsDialog.title	发送会话机密
+translation.secretsDialog.uploadFile	上传文件
+translation.secretsDialog.cookiePreview.expiredTitle	已过期的 cookie
+translation.secretsDialog.cookiePreview.expiringSoonTitle	即将过期
+translation.secretsDialog.cookiePreview.expired	已过期
+translation.secretsDialog.cookiePreview.expires	过期于
+translation.secretsDialog.cookiePreview.httpOnly	httpOnly
+translation.secretsDialog.cookiePreview.secure	secure
+translation.secretsDialog.fileTooLarge	文件必须小于 2MB
+translation.selectionBar.analyse	分析
+translation.selectionBar.analyseSessions	分析 {{count}} 个会话
+translation.selectionBar.analyseSessions_other	分析 {{count}} 个会话
+translation.selectionBar.archive	归档
+translation.selectionBar.asksExcluded	已排除 {{count}} 个 ask——只能分析会话
+translation.selectionBar.asksExcluded_other	已排除 {{count}} 个 ask——只能分析会话
+translation.selectionBar.clearSelection	清除选择
+translation.selectionBar.createPlaybook	创建 Playbook
+translation.selectionBar.createPlaybookFromSessions	从 {{count}} 个会话创建 playbook
+translation.selectionBar.createPlaybookFromSessions_other	从 {{count}} 个会话创建 playbook
+translation.selectionBar.selectFirstSessions	选择前 {{max}} 个会话
+translation.selectionBar.selected	已选 {{count}} 个
+translation.selectionBar.tooManySessions_one	最多 {{max}} 个会话（已选 {{count}} 个）
+translation.selectionBar.tooManySessions_other	最多 {{max}} 个会话（已选 {{count}} 个）
+translation.selectionBar.unarchive	取消归档
+translation.selectionBar.stop	停止
+translation.selectionBar.resume	恢复
+translation.selectionBar.createSkill	创建技能
+translation.selectionBar.createSkillFromSessions	从 {{count}} 个会话创建技能
+translation.selectionBar.createSkillFromSessions_other	从 {{count}} 个会话创建技能
+translation.selectionContextMenu.searchWeb	在网上搜索「{{text}}」
+translation.selectionContextMenu.selectAll	全选
+translation.sendOptions.moreSendOptions	更多发送选项
+translation.sendOptions.startInBackground	在后台启动会话
+translation.sessionStatus.awaitingApproval	Devin 等待操作批准
+translation.sessionStatus.awaitingApprovalShort	等待批准
+translation.sessionStatus.awaitingInstructions	Devin 等待指示
+translation.sessionStatus.awaitingInstructionsShort	等待指示
+translation.sessionStatus.awaitingResponse	Devin 等待你的回复
+translation.sessionStatus.awaitingResponseDetails	Devin 等待你的回复。输入 'SLEEP' 让 Devin 休眠。一段时间不活动后 Devin 会自动休眠
+translation.sessionStatus.workingInBackground	Devin 在后台工作
+translation.sessionStatus.checkpointRestored	检查点已恢复
+translation.sessionStatus.dailyQuotaExceededTitle	日用量配额超限
+translation.sessionStatus.devinIsUp	Devin 在线。发条消息开始工作
+translation.sessionStatus.devinIsUpShort	Devin 在线
+translation.sessionStatus.devinStarting	启动中…
+translation.sessionStatus.devinThinking	Devin 思考中…
+translation.sessionStatus.goingToSleepNoReason	进入休眠
+translation.sessionStatus.goingToSleepShort	进入休眠…
+translation.sessionStatus.loadingHistory	加载历史中…
+translation.sessionStatus.queued	正在为 Devin 找机器……Devin 在队列中等待。
+translation.sessionStatus.queuedShort	Devin 排队中
+translation.sessionStatus.quotaExceededBody	{{clause}}。详情查看你的用量设置。
+translation.sessionStatus.quotaExceededClause	你的{{window}}用量配额已超限且按需用量已用完
+translation.sessionStatus.quotaExceededClauseWithReset	你的{{window}}用量配额已超限且按需用量已用完。{{window}}配额于 {{resetsIn}} 重置
+translation.sessionStatus.quotaExceededGenericClause	你的用量配额已超限且按需用量已用完
+translation.sessionStatus.quotaExceededTitle	用量配额超限
+translation.sessionStatus.reloadingMemories	重载 Devin 的记忆中…
+translation.sessionStatus.revertingCheckpoint	Devin 正在回退到上一个检查点
+translation.sessionStatus.sessionExpired	会话已过期
+translation.sessionStatus.sessionTerminated	会话已终止
+translation.sessionStatus.sessionTooOld	会话太旧无法唤醒
+translation.sessionStatus.goingToSleepInactivity	因不活动进入休眠。Devin 随时可被唤醒
+translation.sessionStatus.goingToSleepNetworkConfig	进入休眠以应用更新的网络配置
+translation.sessionStatus.goingToSleepOutOfCredits	因额度用完进入休眠
+translation.sessionStatus.sleepingContractExpired	Devin 休眠中，因为你组织的 Devin 合同已到期。联系你的账户团队续订。
