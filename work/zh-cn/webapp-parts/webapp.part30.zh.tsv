@@ -1,0 +1,500 @@
+translation.settings.keyboardShortcuts.commands.membersPageDown	向下五位成员
+translation.settings.keyboardShortcuts.commands.membersToggleSelect	选择成员
+translation.settings.keyboardShortcuts.commands.membersClearSelection	清除选择
+translation.settings.keyboardShortcuts.commands.replayTogglePlay	播放或暂停
+translation.settings.keyboardShortcuts.commands.replayStepBack	后退一步
+translation.settings.keyboardShortcuts.commands.replayStepForward	前进一步
+translation.settings.keyboardShortcuts.commands.billingTagsClearSelection	清除键盘光标
+translation.settings.keyboardShortcuts.commands.findingPrev	上一个发现项
+translation.settings.keyboardShortcuts.commands.findingNext	下一个发现项
+translation.settings.keyboardShortcuts.commands.findingAssign	用 Devin 修复发现项
+translation.settings.keyboardShortcuts.commands.findingDismiss	忽略发现项
+translation.settings.keyboardShortcuts.commands.findingsClearSelection	清除已选发现项
+translation.settings.keyboardShortcuts.commands.toastUndo	撤销最近操作
+translation.settings.keyboardShortcuts.commands.toggleFind	查找
+translation.settings.keyboardShortcuts.commands.findNext	查找下一个
+translation.settings.keyboardShortcuts.commands.findPrevious	查找上一个
+translation.settings.keyboardShortcuts.commands.closeFind	关闭查找
+translation.settings.devinModeSwe2Medium	SWE-2 Medium（预览）
+translation.settings.devinModeSwe2	SWE-2（预览）
+translation.settings.devinModeFusion	Fusion
+translation.settings.devinModeFusionFast	Fusion Fast
+translation.settings.devinModeAstra	GPT-6 Astra（预览）
+translation.settings.devinModeAstraFast	GPT-6 Astra Fast（预览）
+translation.settings.preferencePages.customization.defaultPlatformUpdated	默认平台已更新
+translation.settings.preferencePages.customization.failedUpdateDefaultPlatform	更新默认平台失败
+translation.settings.preferencePages.customization.defaultEnvironmentUpdated	默认环境已更新
+translation.settings.preferencePages.customization.failedUpdateDefaultEnvironment	更新默认环境失败
+translation.settings.preferencePages.customization.pleaseEnterValidNumberGreaterThan	请输入大于 0 的有效数字
+translation.settings.preferencePages.customization.maximumLimit500Sessions	最大限制为 500 个会话
+translation.settings.preferencePages.customization.maxBatchSessionsUpdated	最大批量会话数已更新
+translation.settings.preferencePages.customization.failedUpdateMaxBatchSessions	更新最大批量会话数失败
+translation.settings.preferencePages.customization.onlyAdminsCanChangeTheseSettings	只有管理员可以更改这些设置。
+translation.settings.preferencePages.customization.selectOption	选择选项
+translation.settings.preferencePages.customization.sessions	会话
+translation.settings.preferencePages.customization.warning	警告
+translation.settings.preferencePages.customization.thisMayCauseInfiniteLoopsWith	这可能导致与自动代码评审机器人形成无限循环。
+translation.settings.preferencePages.customization.searchBotsGithubUsername	搜索机器人的 GitHub 用户名
+translation.settings.preferencePages.customization.botUsernameRequired	需要 GitHub 用户名
+translation.settings.preferencePages.customization.add	添加
+translation.settings.preferencePages.customization.selectBotAllowlistMode	选择机器人白名单模式
+translation.settings.preferencePages.customization.failedUpdateDynamicWorkflowsSetting	更新动态工作流设置失败。
+translation.settings.preferencePages.customization.failedUpdatePrOpenAsSetting	更新 PR \\
+translation.settings.preferencePages.profile.clear	清除
+translation.settings.preferencePages.profile.changeChannel	更改渠道
+translation.settings.preferencePages.profile.selectChannel	选择渠道
+translation.settings.preferencePages.profile.googleChrome	Google Chrome
+translation.settings.preferencePages.profile.safari	Safari
+translation.settings.preferencePages.profile.firefox	Firefox
+translation.settings.preferencePages.profile.connectPersonalAccountsUseTeamEnabled	连接你的个人账户以使用团队级集成
+translation.settings.preferencePages.profile.noIntegrations	无集成
+translation.settings.preferencePages.profile.missingIntegration	缺少某个集成？
+translation.settings.preferencePages.profile.failedChangeLanguage	更改语言失败
+translation.settings.preferencePages.profile.devinReview	Devin Review
+translation.settings.preferencePages.profile.connectGitAccountConfigureTriggerMode	<lnk>连接 git 账户</lnk>以配置触发模式
+translation.settings.preferencePages.profile.failedDisconnectPylon	断开 Pylon 失败
+translation.settings.preferencePages.profile.devinDesktop	Devin Desktop
+translation.settings.preferencePages.profile.linkDevinDesktopWithAccount	将 Devin Desktop 与此账户关联
+translation.settings.preferencePages.profile.connected	已连接
+translation.settings.preferencePages.profile.selfHostedGitlab	自托管 GitLab
+translation.settings.preferencePages.review.noMatchingRepositories	无匹配仓库
+translation.settings.preferencePages.review.noRepositoriesConfigured	未配置仓库
+translation.settings.preferencePages.review.clickAddRepoAddRepositories	点击 \\
+translation.settings.preferencePages.support.documentation	文档
+translation.settings.preferencePages.support.bookCall	预约电话
+translation.settings.preferencePages.support.connectingSupportChat	正在连接支持聊天…
+translation.settings.preferencePages.support.supportChatUnavailable	支持聊天不可用
+translation.settings.preferencePages.support.pleaseEmailSupportCognitionAiWell	请发送邮件至 <lnk>support@cognition.ai</lnk>，我们会尽快回复。
+translation.settings.preferencePages.teamReferral.invitesremainingPerorgquotaInvitesRemaining	剩余 {{invitesRemaining}}/{{perOrgQuota}} 个邀请名额
+translation.settings.preferencePages.teamReferral.youveUsedAllInvites	你已用完所有邀请名额。
+translation.settings.preferencePages.teamReferral.email	邮箱
+translation.settings.preferencePages.teamReferral.sentBy	发送人
+translation.settings.preferencePages.teamReferral.sentAt	发送时间
+translation.settings.preferencePages.teamReferral.status	状态
+translation.settings.preferencePages.teamReferral.inviteLink	邀请链接
+translation.settings.preferencePages.teamReferral.retry	重试
+translation.settings.preferencePages.teamReferral.weCouldntLoadSentInvitesPlease	无法加载你已发送的邀请，请重试。
+translation.settings.preferencePages.teamReferral.giveRecipientrewarddollarsGetReferrerrewarddollars	送 \${{recipientRewardDollars}}，得 \${{referrerRewardDollars}}。
+translation.settings.preferencePages.teamReferral.referTeamDevinWhenTheyJoin	推荐一个团队使用 Devin。他们加入时将获得 \${{recipientRewardDollars}}，你将获得 \${{referrerRewardDollars}} 的奖励用量。
+translation.settings.preferencePages.teamReferral.enterCompanyEmailAddress	输入公司邮箱地址
+translation.settings.preferencePages.teamReferral.somethingWentWrongPleaseTryAgain	出了点问题，请重试。
+translation.settings.preferencePages.teamReferral.couldntSendInvitePleaseTryAgain	无法发送邀请，请重试。
+translation.settings.preferencePages.teamReferral.invited	已邀请
+translation.settings.preferencePages.teamReferral.invite	邀请
+translation.settings.preferencePages.teamReferral.thisAddressWasAlreadyInvitedRecently	此地址最近已被邀请——未发送新邮件。
+translation.settings.preferencePages.teamReferral.inviteSent	邀请已发送
+translation.settings.preferencePages.teamReferral.rewarded	已奖励
+translation.settings.preferencePages.teamReferral.expired	已过期
+translation.settings.preferencePages.teamReferral.enterValidEmail	请输入有效邮箱
+translation.settings.preferencePages.teamReferral.useCompanyEmail	请使用公司邮箱地址。
+translation.settings.preferencePages.teamReferral.alreadyOnCompanyDomain	此人已在你公司的域名下。
+translation.settings.preferencePages.teamReferral.usedAllInvites	你已用完所有邀请名额。
+translation.settings.preferencePages.teamReferral.programNotAcceptingInvites	此计划不再接受邀请。
+translation.settings.preferencePages.teamReferral.programNotAvailable	此计划已不可用。
+translation.settings.preferencePages.teamReferral.accountCantSendInvites	你的账户目前无法发送邀请。
+translation.settings.preferencePages.teamReferral.statusSent	已发送
+translation.settings.messageAcuLimitDescription	你每发一条消息 Devin 最多可使用的 ACU 数
+translation.settings.swe2Description	Cognition 的软件工程模型
+translation.settings.devinModeSwe2Flash	SWE-2 Flash（预览）
+translation.settings.devinModeSwe2FlashMedium	SWE-2 Flash Medium（预览）
+translation.settings.devinModeSwe2FlashHigh	SWE-2 Flash High（预览）
+translation.settings.devinModeSwe2FlashMax	SWE-2 Flash Max（预览）
+translation.settings.swe2FlashDescription	Cognition 的快速高效编码模型，预览至 11 月 18 日
+translation.settings.devinModeSwe2Lightning	SWE-2 Lightning（预览）
+translation.settings.devinModeSwe2LightningMedium	SWE-2 Lightning Medium（预览）
+translation.settings.devinModeSwe2LightningHigh	SWE-2 Lightning High（预览）
+translation.settings.devinModeSwe2LightningMax	SWE-2 Lightning Max（预览）
+translation.settings.swe2LightningDescription	Cognition 最新模型，更快的服务速度，预览至 11 月 25 日
+translation.settings.devinModeUnavailable	{{mode}}（不可用）
+translation.settings.devinModeSwe2High	SWE-2 High（预览）
+translation.settings.devinModeSwe2Max	SWE-2 Max（预览）
+translation.settings.runtimePages.enterpriseDevin.configurePersonalSettings	配置个人设置
+translation.settings.runtimePages.enterpriseDevin.selectOrganizationViewItsAllowedTags	选择一个组织以查看其允许的标签
+translation.settings.runtimePages.enterpriseDevin.loadingTags	正在加载标签…
+translation.settings.runtimePages.enterpriseDevin.noTagsConfiguredOrganizationSessionCreation	此组织未配置标签。在白名单中添加至少一个标签后才能创建会话。
+translation.settings.runtimePages.enterpriseDevin.selectOrganization	选择组织
+translation.settings.runtimePages.enterpriseDevin.searchOrganizations	搜索组织…
+translation.settings.runtimePages.enterpriseDevin.noOrganizationsFound	未找到组织。
+translation.settings.runtimePages.enterpriseOncall.oncall	Oncall
+translation.settings.runtimePages.enterpriseSessions.noSessionsFound	未找到会话
+translation.settings.runtimePages.outposts.createOutpost	创建 outpost
+translation.settings.runtimePages.outposts.sessionsAssignedOutpostRunOwnMachines	分配给此 outpost 的会话在你自己的机器上运行
+translation.settings.runtimePages.outposts.name	名称
+translation.settings.runtimePages.outposts.outpostTitle	Outpost 标题
+translation.settings.runtimePages.outposts.namesMayOnlyContainLowercaseLetters	名称只能包含小写字母、数字、短横线和下划线。
+translation.settings.runtimePages.outposts.anOutpostWithNameAlreadyExists	同名 outpost 已存在。
+translation.settings.runtimePages.outposts.description	描述
+translation.settings.runtimePages.outposts.describePurposeOutpost	描述此 outpost 的用途
+translation.settings.runtimePages.outposts.platform	平台
+translation.settings.runtimePages.outposts.organizationAccess	组织访问
+translation.settings.runtimePages.outposts.chooseWhichOrganizationsCanUseOutpost	选择哪些组织可以使用此 outpost
+translation.settings.runtimePages.outposts.creating	创建中…
+translation.settings.runtimePages.outposts.create	创建
+translation.settings.runtimePages.outposts.personalOutpostOnlyItsOwnerCan	个人 outpost——只有其所有者能在其上启动会话
+translation.settings.runtimePages.outposts.personal	个人
+translation.settings.runtimePages.outposts.copyOutpostId	复制 outpost ID
+translation.settings.runtimePages.outposts.noOrganizations	无组织
+translation.settings.runtimePages.outposts.deleteOutpost	删除 outpost
+translation.settings.runtimePages.outposts.outpostCreated	Outpost 已创建
+translation.settings.runtimePages.outposts.anOutpostWithNameAlreadyExists2	同名 outpost 已存在
+translation.settings.runtimePages.outposts.selectAtLeastOneOrganizationOr	至少选择一个组织或选择所有组织
+translation.settings.runtimePages.outposts.outpostAccessUpdated	Outpost 访问权限已更新
+translation.settings.runtimePages.outposts.failedUpdateOutpostAccess	更新 outpost 访问权限失败
+translation.settings.runtimePages.outposts.outpostDeleted	Outpost 已删除
+translation.settings.runtimePages.outposts.failedDeleteOutpost	删除 outpost 失败
+translation.settings.runtimePages.outposts.retry	重试
+translation.settings.runtimePages.outposts.noOutpostsConfiguredCreateOneGet	未配置 outpost。创建一个开始使用。
+translation.settings.runtimePages.outposts.outpostTokenGenerated	Outpost 令牌已生成
+translation.settings.runtimePages.outposts.forOutpostOutpostname	用于 outpost：{{outpostName}}
+translation.settings.runtimePages.outposts.thisTokenWillOnlyShownOnce	此令牌仅显示一次。请务必复制并安全保存——outpost worker 用它连接。如果关闭此弹窗，将无法再次查看此令牌。
+translation.settings.runtimePages.outposts.runWorkerMachine	在你的机器上运行 worker
+translation.settings.runtimePages.outposts.failedCreateOutpost	创建 outpost 失败
+translation.settings.runtimePages.vpcInfra.acquiredSlotsSlots	{{acquired_slots}} 个槽位
+translation.settings.runtimePages.vpcInfra.copyLabel	复制{{label}}
+translation.settings.runtimePages.vpcInfra.hypervisor	Hypervisor
+translation.settings.runtimePages.vpcInfra.copyHypervisorId	复制 hypervisor ID
+translation.settings.runtimePages.vpcInfra.copyInstanceId	复制实例 ID
+translation.settings.runtimePages.vpcInfra.status	状态
+translation.settings.runtimePages.vpcInfra.runningHealthyAcceptingJobs	<span>运行中：</span>健康，接受任务
+translation.settings.runtimePages.vpcInfra.startingBootingUp	<span>启动中：</span>正在启动
+translation.settings.runtimePages.vpcInfra.drainingFinishingCurrentJobs	<span>排空：</span>正在完成当前任务
+translation.settings.runtimePages.vpcInfra.staleHeartbeatLostExcludedFromCapacity	<span>过期：</span>心跳丢失，已从容量中排除
+translation.settings.runtimePages.vpcInfra.disconnectedUnreachable	<span>已断开：</span>不可达
+translation.settings.runtimePages.vpcInfra.usage	用量
+translation.settings.runtimePages.vpcInfra.created	创建时间
+translation.settings.runtimePages.vpcInfra.heartbeat	心跳
+translation.settings.runtimePages.vpcInfra.noHypervisorsMatchSelectedFilter	没有 hypervisor 匹配所选筛选
+translation.settings.runtimePages.vpcInfra.unableLoadData	无法加载数据
+translation.settings.runtimePages.vpcInfra.refresh	刷新
+translation.settings.runtimePages.vpcInfra.failedLoadInfrastructureDataTryRefreshing	加载基础设施数据失败，请尝试刷新。
+translation.settings.runtimePages.vpcInfra.noVpcDataAvailable	无 VPC 数据
+translation.settings.runtimePages.vpcInfra.noTenantsOrHypervisorsCurrentlyConfigured	当前未配置租户或 hypervisor。
+translation.settings.runtimePages.vpcInfra.yourOrganizationHasntConfiguredVirtualPrivate	你的组织尚未配置虚拟私有云实例
+translation.settings.runtimePages.vpcInfra.availableslotsTotalcapacityslotsSlotsAvailable	{{availableSlots}}/{{totalCapacitySlots}} 个槽位可用
+translation.settings.runtimePages.vpcInfra.dataStorage	数据存储
+translation.settings.runtimePages.vpcInfra.hypervisorStorage	Hypervisor 存储
+translation.settings.runtimePages.vpcInfra.scaling	扩缩容
+translation.settings.runtimePages.vpcInfra.filterMonitoringStatus	筛选监控状态
+translation.settings.runtimePages.vpcInfra.allStatuses	全部状态
+translation.settings.runtimePages.vpcInfra.monitorHypervisorHealthCapacity	监控 hypervisor 健康与容量
+translation.settings.runtimePages.vpcInfra.thereNoVpcsAvailableAccount	你的账户中没有可用的 VPC。
+translation.settings.runtimePages.vpcInfra.hypervisorSettingsUpdatedSuccessfully	Hypervisor 设置更新成功。
+translation.settings.runtimePages.vpcInfra.usedOfMaxSlots	{{used}}/{{maxSlots}} 个槽位
+translation.settings.runtimePages.vpcInfra.queueNone	无
+translation.settings.runtimePages.vpcInfra.oldestRequest	最早请求：{{duration}}
+translation.settings.runtimePages.vpcInfra.queueSessionsCount_one	{{count}} 个会话
+translation.settings.runtimePages.vpcInfra.queueSessionsCount_other	{{count}} 个会话
+translation.settings.runtimePages.vpcInfra.queueIndexingCount_one	{{count}} 个索引
+translation.settings.runtimePages.vpcInfra.queueIndexingCount_other	{{count}} 个索引
+translation.settings.runtimePages.vpcInfra.queueReviewCount_one	{{count}} 个 PR 评审
+translation.settings.runtimePages.vpcInfra.queueReviewCount_other	{{count}} 个 PR 评审
+translation.settings.runtimePages.vpcInfra.queueBuildsCount_one	{{count}} 个构建
+translation.settings.runtimePages.vpcInfra.queueBuildsCount_other	{{count}} 个构建
+translation.settings.runtimePages.vpcInfra.queueOtherCount_one	{{count}} 个其他
+translation.settings.runtimePages.vpcInfra.queueOtherCount_other	{{count}} 个其他
+translation.settings.runtimePages.vpcInfra.running2	运行中
+translation.settings.runtimePages.vpcInfra.starting2	启动中
+translation.settings.runtimePages.vpcInfra.restarting	重启中
+translation.settings.runtimePages.vpcInfra.draining2	排空中
+translation.settings.runtimePages.vpcInfra.retiring	退役中
+translation.settings.runtimePages.vpcInfra.unhealthy	不健康
+translation.settings.runtimePages.vpcInfra.disconnected2	已断开
+translation.settings.runtimePages.vpcInfra.terminated	已终止
+translation.settings.runtimePages.vpcInfra.stale2	过期
+translation.settings.runtimePages.vpcInfra.sessions	会话
+translation.settings.runtimePages.vpcInfra.indexing	索引
+translation.settings.runtimePages.vpcInfra.prReview	PR 评审
+translation.settings.runtimePages.vpcInfra.builds	构建
+translation.settings.runtimePages.vpcInfra.other	其他
+translation.settings.runtimePages.vpcInfra.durationSecondsAgo	{{value}} 秒前
+translation.settings.runtimePages.vpcInfra.durationMinutesAgo	{{value}} 分钟前
+translation.settings.runtimePages.vpcInfra.durationHoursAgo	{{value}} 小时前
+translation.settings.runtimePages.vpcInfra.noHeartbeatData	无心跳数据
+translation.settings.runtimePages.vpcInfra.heartbeatStale2Min	Hypervisor 超过 2 分钟未上报
+translation.settings.runtimePages.vpcInfra.heartbeatStale1Min	Hypervisor 超过 1 分钟未上报——新任务可能调度到别处
+translation.settings.runtimePages.vpcInfra.hypervisorIdCopied	Hypervisor ID 已复制
+translation.settings.runtimePages.vpcInfra.instanceIdCopied	实例 ID 已复制
+translation.settings.runtimePages.vpcInfra.percentAvailable	{{percent}}% 可用
+translation.settings.runtimePages.vpcInfra.breakdownRunning_one	{{count}} 个运行中
+translation.settings.runtimePages.vpcInfra.breakdownRunning_other	{{count}} 个运行中
+translation.settings.runtimePages.vpcInfra.breakdownStale_one	{{count}} 个过期
+translation.settings.runtimePages.vpcInfra.breakdownStale_other	{{count}} 个过期
+translation.settings.runtimePages.vpcInfra.breakdownStarting_one	{{count}} 个启动中
+translation.settings.runtimePages.vpcInfra.breakdownStarting_other	{{count}} 个启动中
+translation.settings.runtimePages.vpcInfra.breakdownDraining_one	{{count}} 个排空中
+translation.settings.runtimePages.vpcInfra.breakdownDraining_other	{{count}} 个排空中
+translation.settings.runtimePages.vpcInfra.breakdownDisconnected_one	{{count}} 个已断开
+translation.settings.runtimePages.vpcInfra.breakdownDisconnected_other	{{count}} 个已断开
+translation.settings.runtimePages.vpcInfra.labelCopied	{{label}}已复制
+translation.settings.devinModeEnabledForEnterprise	{{mode}} 已为你的企业启用。
+translation.settings.devinModeDisabledForEnterprise	{{mode}} 已为你的企业禁用。
+translation.settings.devinModeEnabledForOrganization	{{mode}} 已为你的组织启用。
+translation.settings.devinModeDisabledForOrganization	{{mode}} 已为你的组织禁用。
+translation.settings.devinModeUpdateFailed	更新 {{mode}} 设置失败。
+translation.settings.credentialPages.apiKeys.error	错误
+translation.settings.credentialPages.apiKeys.failedLoadApiKeysPleaseTry	加载 API 密钥失败，请稍后重试。
+translation.settings.credentialPages.apiKeys.keyType	密钥类型
+translation.settings.credentialPages.apiKeys.personalKeys	个人密钥
+translation.settings.credentialPages.apiKeys.tiedAccountDoNotShare	绑定你的账户，请勿分享。
+translation.settings.credentialPages.apiKeys.serviceKeys	服务密钥
+translation.settings.credentialPages.apiKeys.sharedAcrossOrganizationServiceIntegrations	在你的组织内共享，用于服务集成。
+translation.settings.credentialPages.apiKeys.selectKeyType	选择密钥类型
+translation.settings.credentialPages.apiKeys.keepKeySecure	请妥善保管此密钥
+translation.settings.credentialPages.apiKeys.revealOrRegenerateKey	查看或重新生成你的密钥
+translation.settings.credentialPages.apiKeys.retrieving	获取中…
+translation.settings.credentialPages.apiKeys.viewKey	查看密钥
+translation.settings.credentialPages.apiKeys.moreActions	更多操作
+translation.settings.credentialPages.apiKeys.regenerating	重新生成中…
+translation.settings.credentialPages.apiKeys.revokeRegenerate	撤销并重新生成
+translation.settings.credentialPages.apiKeys.copied	已复制！
+translation.settings.credentialPages.apiKeys.copyApiKey	复制 API 密钥
+translation.settings.credentialPages.apiKeys.hide	隐藏
+translation.settings.credentialPages.apiKeys.hideApiKey	隐藏 API 密钥
+translation.settings.credentialPages.apiKeys.createKeyStartUsingApi	创建密钥以开始使用 API
+translation.settings.credentialPages.apiKeys.generating	生成中…
+translation.settings.credentialPages.apiKeys.generateApiKey	生成 API 密钥
+translation.settings.credentialPages.apiKeys.apiKeysHaveMovedDeveloperSettings	API 密钥已移至开发者设置。请联系你的企业管理员获取权限。
+translation.settings.credentialPages.apiKeys.deprecated	已废弃
+translation.settings.credentialPages.apiKeys.apiKeysOnlyWorkWithV1	API 密钥仅适用于 V1 和 V2 API。迁移到<lnk>服务用户</lnk>以使用 V3 API。
+translation.settings.credentialPages.apiKeys.tip	提示
+translation.settings.credentialPages.apiKeys.toGiveDevinAccessThirdParty	要让 Devin 访问第三方凭据，请改用<lnk>机密</lnk>。
+translation.settings.credentialPages.apiKeys.serviceApiKey	服务 API 密钥
+translation.settings.credentialPages.apiKeys.personalApiKey	个人 API 密钥
+translation.settings.credentialPages.apiKeys.noServiceApiKey	无服务 API 密钥
+translation.settings.credentialPages.apiKeys.noPersonalApiKey	无个人 API 密钥
+translation.settings.credentialPages.apiKeys.personalKey	个人密钥
+translation.settings.credentialPages.apiKeys.serviceKey	服务密钥
+translation.settings.credentialPages.personalAccessTokens.setEnvironmentVariable	设置环境变量
+translation.settings.credentialPages.personalAccessTokens.storeTokenSoItsAvailableScripts	存储你的令牌，使其可供脚本和 CLI 工具使用
+translation.settings.credentialPages.personalAccessTokens.seeApiDocumentationMoreExamplesDetails	查看 <lnk>API 文档</lnk>获取更多示例和详情
+translation.settings.credentialPages.personalAccessTokens.active	生效中
+translation.settings.credentialPages.personalAccessTokens.revoked	已撤销
+translation.settings.credentialPages.personalAccessTokens.expired	已过期
+translation.settings.credentialPages.personalAccessTokens.tokenRequestSubmittedApproval	令牌申请已提交审核。
+translation.settings.credentialPages.personalAccessTokens.tokenCreated	令牌已创建
+translation.settings.credentialPages.personalAccessTokens.tokenRevokedSuccessfully	令牌撤销成功
+translation.settings.credentialPages.personalAccessTokens.tokenRotatedSuccessfully	令牌轮换成功
+translation.settings.credentialPages.personalAccessTokens.tokenActivated	令牌已激活
+translation.settings.credentialPages.personalAccessTokens.failedActivateTokenRequestMayHave	激活令牌失败。该申请可能已过期或被取消。
+translation.settings.credentialPages.personalAccessTokens.requestNameCancelled	申请 \\
+translation.settings.credentialPages.secrets.secretsAllowYouSecurelyStoreCredentials	机密让你安全地存储凭据。<lnk>了解更多</lnk>
+translation.settings.credentialPages.secrets.createSecret	创建机密
+translation.settings.credentialPages.secrets.submissionError	提交错误
+translation.settings.credentialPages.secrets.thereWasProblemSubmittingRequestSubmissionerror	提交请求时出现问题：{{submissionError}}
+translation.settings.credentialPages.secrets.type	类型
+translation.settings.credentialPages.secrets.selectSecretType	选择机密类型
+translation.settings.credentialPages.secrets.thisSecretWillNotAvailableDevin	此机密对在其创建之前启动的 Devin 会话不可用
+translation.settings.credentialPages.secrets.setUpTimeBasedOneTime	设置基于时间的一次性密码（TOTP）用于双因素认证。<lnk>查看文档</lnk>
+translation.settings.credentialPages.secrets.viewDocumentation	查看文档
+translation.settings.credentialPages.secrets.name	名称
+translation.settings.credentialPages.secrets.goodExamplesSecretNamesDescriptiveEasy	好的机密名称应该描述性强、易于理解，例如
+translation.settings.credentialPages.secrets.etc	等。
+translation.settings.credentialPages.secrets.rdsPsqlDbUrl	RDS_PSQL_DB_URL
+translation.settings.credentialPages.secrets.deploymentEnv	DEPLOYMENT_ENV
+translation.settings.credentialPages.secrets.value	值
+translation.settings.credentialPages.secrets.pasteCookieJsonDirectlyOrPre	直接粘贴 cookie JSON，或粘贴以分号分隔的 JSON 对象的预编码 base64 字符串
+translation.settings.credentialPages.secrets.json	JSON
+translation.settings.credentialPages.secrets.base64	base64
+translation.settings.credentialPages.secrets.pasteOneOrMoreCookieJson	粘贴一个或多个 cookie JSON 对象，我们会为你编码。
+translation.settings.credentialPages.secrets.pastePreEncodedBase64StringSemicolon	粘贴以分号分隔的 JSON 对象的预编码 base64 字符串。
+translation.settings.credentialPages.secrets.pasteOtpauthTotpUriOrScan	粘贴 otpauth://totp/ URI，或扫描其二维码
+translation.settings.credentialPages.secrets.scanQrCode	扫描二维码
+translation.settings.credentialPages.secrets.useQrCodeScannerUpperRight	使用输入框右上角的二维码扫描器扫描二维码
+translation.settings.credentialPages.secrets.note	备注
+translation.settings.credentialPages.secrets.whatSecretAboutDevinCanRead	这个机密是做什么的？Devin 可以读取备注作为上下文
+translation.settings.credentialPages.secrets.moreControls	更多控制
+translation.settings.credentialPages.secrets.buildOnly	仅构建
+translation.settings.credentialPages.secrets.whenEnabledSecretOnlyAvailableDuring	启用后，此机密仅在快照构建的企业/组织设置阶段可用，在 Devin 会话中不可用。
+translation.settings.credentialPages.secrets.useDuringEnvironmentSetupOnly	仅在环境设置期间使用
+translation.settings.credentialPages.secrets.redactValue	隐藏值
+translation.settings.credentialPages.secrets.scanTotpQrCode	扫描 TOTP 二维码
+translation.settings.credentialPages.secrets.scanError	扫描错误
+translation.settings.credentialPages.secrets.addMultipleKeyValueSecretsAt	一次添加多个键值机密。<lnk>了解更多</lnk>
+translation.settings.credentialPages.secrets.addValidsecretscountValid	添加 {{validSecretsCount}} 个有效
+translation.settings.credentialPages.secrets.addSecrets	添加机密
+translation.settings.credentialPages.secrets.uploadFile	上传文件
+translation.settings.credentialPages.secrets.fileSizeMustLessThan2mb	文件大小须小于 2MB
+translation.settings.credentialPages.secrets.chooseFileOrDragDrop	选择文件或拖放
+translation.settings.credentialPages.secrets.aEnvFileUp2mb	一个 .env 文件，最大 2MB
+translation.settings.credentialPages.secrets.secrets	机密
+translation.settings.credentialPages.secrets.oneKeyValuePerLineAdd	每行一个 KEY=value。可在同一行 # 后添加备注。cookie 和 TOTP 码一次添加一个
+translation.settings.credentialPages.secrets.preview	预览
+translation.settings.credentialPages.secrets.removeInvalid	移除无效项
+translation.settings.credentialPages.secrets.key	键
+translation.settings.credentialPages.secrets.actions	操作
+translation.settings.credentialPages.secrets.remove	移除
+translation.settings.credentialPages.secrets.removeSecret	移除机密
+translation.settings.credentialPages.secrets.redactValues	隐藏值
+translation.settings.credentialPages.secrets.featureNotAvailable	功能不可用
+translation.settings.credentialPages.secrets.secretsManagerNotAvailableOrganization	此组织不可用心跳管理器。
+translation.settings.credentialPages.secrets.thereWasErrorLoadingPagePlease	加载此页面时出错，请稍后重试。
+translation.settings.credentialPages.secrets.searchSecrets	搜索机密
+translation.settings.credentialPages.secrets.bulkAddSecrets	批量添加机密
+translation.settings.credentialPages.secrets.addSecret	添加机密
+translation.settings.credentialPages.secrets.devinCanConnectCloudServicesSecrets	Devin 可通过 OIDC 连接云服务和机密管理器，无需存储凭据。<lnk>设置 OIDC</lnk>
+translation.settings.credentialPages.secrets.noSecretsFound	未找到机密
+translation.settings.credentialPages.secrets.addFirstSecretGetStarted	添加你的第一个机密开始使用。
+translation.settings.credentialPages.secrets.noSecretsHaveBeenAddedYet	尚未添加机密。
+translation.settings.credentialPages.secrets.deleteSecret	删除机密
+translation.settings.credentialPages.secrets.areYouSureYouWantDelete	确定要删除“{{key}}”吗？此操作不可撤销。
+translation.settings.credentialPages.secrets.delete	删除
+translation.settings.credentialPages.secrets.createdTimeordate	创建于 {{timeOrDate}}
+translation.settings.credentialPages.secrets.failedLoadSecretPleaseTryAgain	加载机密失败，请稍后重试
+translation.settings.credentialPages.secrets.secretNotFound	未找到机密
+translation.settings.credentialPages.secrets.secretUpdatedSuccessfully	机密更新成功
+translation.settings.credentialPages.secrets.noteEditingRequiresBackendUpdate	编辑备注需要后端更新
+translation.settings.credentialPages.secrets.youDontHavePermissionEditSecret	你没有编辑此机密的权限
+translation.settings.credentialPages.secrets.failedUpdateNote	更新备注失败
+translation.settings.credentialPages.secrets.failedUpdateSecret	更新机密失败
+translation.settings.credentialPages.secrets.existingValuesStayHiddenEnterNew	现有值保持隐藏。输入新值以替换，或留空以保持当前值
+translation.settings.credentialPages.secrets.existingValueStaysHiddenEnterNew	现有值保持隐藏。输入新值以替换，或留空以保持
+translation.settings.credentialPages.secrets.values	值
+translation.settings.credentialPages.secrets.noNote	无备注
+translation.settings.credentialPages.secrets.saving	保存中…
+translation.settings.credentialPages.secrets.save	保存
+translation.settings.credentialPages.secrets.editNote	编辑备注
+translation.settings.credentialPages.secrets.edit	编辑
+translation.settings.credentialPages.secrets.valueKey	{{key}} 的值
+translation.settings.credentialPages.secrets.privateYouOnlyVisibleUsableBy	仅你私有，只在你的会话中可见可用
+translation.settings.credentialPages.secrets.referenceSecretDollarSign	用美元符号引用机密，例如 <chip>$SERVICE_USERNAME</chip>。<lnk>了解更多</lnk>
+translation.settings.credentialPages.secrets.createdAtBy	由 {{name}} 创建于 {{timeOrDate}}
+translation.settings.credentialPages.secrets.createdBy	由 {{name}} 创建
+translation.settings.credentialPages.secrets.updatedAt	更新于 {{timeOrDate}}
+translation.settings.credentialPages.secrets.updatedAtBy	由 {{name}} 更新于 {{timeOrDate}}
+translation.settings.credentialPages.secrets.scope	范围
+translation.settings.credentialPages.secrets.environmentVariable	环境变量
+translation.settings.credentialPages.secrets.copyVariableName	复制变量名
+translation.settings.credentialPages.secrets.copyKey	复制 \${{key}}
+translation.settings.credentialPages.secrets.canonical	规范化
+translation.settings.credentialPages.secrets.updatedBy	更新者
+translation.settings.credentialPages.secrets.updatedAt2	更新时间
+translation.settings.credentialPages.secrets.newSecret	新建机密
+translation.settings.credentialPages.secrets.newEnterpriseSecret	新建企业机密
+translation.settings.credentialPages.secrets.newPersonalSecret	新建个人机密
+translation.settings.credentialPages.secrets.newRepositorySecret	新建仓库机密
+translation.settings.credentialPages.secrets.newOrganizationSecret	新建组织机密
+translation.settings.credentialPages.secrets.availableEnterpriseWide	对企业内所有组织的所有会话可用。
+translation.settings.credentialPages.secrets.availableOnlyYourSessions	仅对你的会话可用
+translation.settings.credentialPages.secrets.availableFutureSessionsRepo	对 {{repo}} 的未来会话可用。
+translation.settings.credentialPages.secrets.availableAllSessionsOrg	对 {{org}} 的所有会话可用。
+translation.settings.credentialPages.secrets.invalidQrCodeFormat	二维码格式无效，应为 TOTP URI 格式。
+translation.settings.credentialPages.secrets.fieldRequired	必填
+translation.settings.credentialPages.secrets.invalidEnvVarName	仅限字母、数字和下划线，不能以数字开头
+translation.settings.credentialPages.secrets.enterValidCookieJson	请输入有效的 cookie JSON。
+translation.settings.credentialPages.secrets.invalidBase64OrCookieFormat	base64 或 cookie 格式无效
+translation.settings.credentialPages.secrets.invalidTotpFormat	TOTP 值必须符合格式：otpauth://totp/ExampleUser:devin@example.com?secret=JBSWY3DPEHPK3PXP&issuer=ExampleIssuer。
+translation.settings.credentialPages.secrets.anErrorOccurred	发生错误
+translation.settings.credentialPages.secrets.cookieFallbackName	Cookie {{number}}
+translation.settings.credentialPages.secrets.cookieExpired	已过期
+translation.settings.credentialPages.secrets.cookieExpiresInDays	{{days}} 天后过期
+translation.settings.credentialPages.secrets.importRepositorySecrets	导入仓库机密
+translation.settings.credentialPages.secrets.importPersonalSecrets	导入个人机密
+translation.settings.credentialPages.secrets.importEnterpriseSecrets	导入企业机密
+translation.settings.credentialPages.secrets.importOrganizationSecrets	导入组织机密
+translation.settings.credentialPages.secrets.addMultipleFromFileOrPaste	从文件批量添加或直接粘贴多个机密。
+translation.settings.credentialPages.secrets.failedParseInput	解析输入失败，请确保格式正确。
+translation.settings.credentialPages.secrets.failedValidateSecrets	验证机密失败
+translation.settings.credentialPages.secrets.couldntReadFile	无法读取文件。请上传纯文本 .env 文件
+translation.settings.credentialPages.secrets.pasteOrUploadAtLeastOne	粘贴或上传至少一个机密
+translation.settings.credentialPages.secrets.fixOrRemoveInvalidEntries	修复或移除无效条目
+translation.settings.credentialPages.secrets.failedImportSecrets	导入机密失败
+translation.settings.credentialPages.secrets.scopeOrganization	组织
+translation.settings.credentialPages.secrets.scopePersonal	个人
+translation.settings.credentialPages.secrets.nameMustBeUnique	机密名称必须唯一
+translation.settings.credentialPages.secrets.previewValidInvalid	{{valid}} 个有效，{{invalid}} 个无效
+translation.settings.credentialPages.secrets.previewSecretCount_one	{{count}} 个机密
+translation.settings.credentialPages.secrets.previewSecretCount_other	{{count}} 个机密
+translation.settings.aiGatewayPermissions	AI Gateway 权限
+translation.settings.viewAiGatewayMetrics	查看 AI Gateway 指标
+translation.settings.viewAiGatewayMetricsDescription	查看企业的 AI Gateway 指标（只读）
+translation.settings.viewAiGatewayPrices	查看 AI Gateway 价格
+translation.settings.viewAiGatewayPricesDescription	查看企业支付的 AI Gateway 模型价格（只读）
+translation.settings.useAiGateway	使用 AI Gateway
+translation.settings.useAiGatewayDescription	允许服务用户创建和使用 AI Gateway 的 API 密钥
+translation.settings.changeOrganizationName	更改组织名称
+translation.settings.changeOrganizationNameDescription	为你的组织输入新名称
+translation.settings.chatgptAccount	ChatGPT 账户
+translation.settings.chatgptAccountDescription	关联你的账户以在 Devin 中使用你的 ChatGPT 计划。
+translation.settings.chatgptLink	使用 ChatGPT 继续
+translation.settings.chatgptLinkDenied	你的 ChatGPT 账户未关联，因为请求被取消或被拒绝。请重试。
+translation.settings.chatgptLinkFailedWithError	无法关联你的 ChatGPT 账户（{{error}}）。请重试。
+translation.settings.chatgptLinkUnavailable	目前无法使用 ChatGPT 登录
+translation.settings.chatgptLinked	ChatGPT 账户已关联
+translation.settings.chatgptPlanNotShared	ChatGPT 计划未共享
+translation.settings.chatgptPlanNotSharedNotice	你的 ChatGPT 账户没有与 Devin 共享其计划。
+translation.settings.chatgptPlanNotSharedReason	只有个人 Go、Plus 和 Pro 计划可以共享，Free 及 Business、Team、Enterprise 工作区账户不行。
+translation.settings.chatgptReconnect	重新连接
+translation.settings.chatgptSubscription	ChatGPT 订阅
+translation.settings.chatgptTokenSharing	使用你的 ChatGPT 计划
+translation.settings.chatgptTokenSharingDescription	在你的 ChatGPT 订阅而非 Devin 计划上运行受支持的模型
+translation.settings.chatgptTokenSharingReconnectRequired	你的 ChatGPT 连接已过期，重新连接以使用你的计划。
+translation.settings.chatgptTokenSharingError	你的 ChatGPT 计划目前无法使用，请检查连接。
+translation.settings.chatgptTokenSharingUpdateFailed	无法更新你的 ChatGPT 计划设置，请重试。
+translation.settings.chatgptUnlink	取消关联
+translation.settings.chatgptUnlinked	ChatGPT 账户已取消关联
+translation.settings.chatgptUpgrade	升级
+translation.settings.chatgptUpgradeToConnect	升级你的计划以连接 ChatGPT
+translation.settings.enterOrganizationName	输入组织名称
+translation.settings.enterpriseAuthenticationDescription	管理成员加入你的企业的方式
+translation.settings.enterpriseGeneralDescription	企业偏好和设置
+translation.settings.failedToLoadSetting	加载设置失败
+translation.settings.failedToUpdateSetting	更新设置失败
+translation.settings.manualMemberInvitationDisabled	手动邀请成员已禁用。
+translation.settings.manualMemberInvitationEnabled	手动邀请成员已启用。
+translation.settings.memberAddColumn	添加列
+translation.settings.memberRequestPending	申请待审核
+translation.settings.memberAcuUsageColumn	ACU 利用率
+translation.settings.aiGateway	AI Gateway
+translation.settings.aiGatewayDashboardTitle	AI Gateway 仪表盘
+translation.settings.aiGatewayLoading	正在加载仪表盘…
+translation.settings.aiGatewayLoadFailed	加载 AI Gateway 仪表盘失败。
+translation.settings.aiGatewayUnavailable	此账户不可使用 AI Gateway 仪表盘。
+translation.settings.aiGatewayGetStartedTab	开始使用
+translation.settings.aiGatewayMetricsTab	指标
+translation.settings.aiGatewayGetStartedTitle	开始使用 AI Gateway
+translation.settings.aiGatewayGetStartedDescription	通过一个 OpenAI 兼容的 API 在你自己的软件中调用 Cognition 托管的模型。
+translation.settings.aiGatewayBaseUrl	基础 URL
+translation.settings.aiGatewayBaseUrlDescription	在任何 OpenAI 兼容的 SDK 或工具中将其用作基础 URL。
+translation.settings.aiGatewayAuthHeader	认证
+translation.settings.aiGatewayAuthHeaderDescription	在每个请求中以 bearer token 发送你的 AI Gateway API 密钥。
+translation.settings.aiGatewayRequestFormat	请求格式
+translation.settings.aiGatewayRequestFormatDescription	OpenAI Chat Completions 或 Responses 格式的 JSON 请求体。将 model 设为你可用模型中的一个模型 ID。
+translation.settings.aiGatewayStepCreateKey	创建或选择 API 密钥
+translation.settings.aiGatewayStepCreateKeyDescription	在你的企业中创建一个服务用户，其角色包含 Use AI Gateway 权限，并使用其令牌。个人使用时，如果你的角色包含相同权限，个人访问令牌也可用。不支持组织级 API 密钥。
+translation.settings.aiGatewayManageTokens	管理个人访问令牌
+translation.settings.aiGatewayManageKeys	管理服务用户
+translation.settings.aiGatewayStepCopyExample	复制一个示例请求
+translation.settings.aiGatewayStepCopyExampleDescription	每个示例都使用你的第一个可用模型。
+translation.settings.aiGatewayStepCopyExampleNoModelDescription	在有模型启用后，将 <model-id> 替换为可用模型。
+translation.settings.aiGatewayStepChooseModel	从你的可用模型中选择
+translation.settings.aiGatewayStepChooseModelDescription	这是 GET /models 为你的账户返回的内容。将 model 设为模型 ID 或其某个变体；对于有推理力度的模型，可选设置 reasoning_effort。
+translation.settings.aiGatewayModelIdColumn	模型 ID
+translation.settings.aiGatewayVariantsColumn	变体
+translation.settings.aiGatewayReasoningEffortsColumn	推理力度
+translation.settings.aiGatewayVariantsExpand_one	显示 {{count}} 个变体
+translation.settings.aiGatewayVariantsExpand_other	显示全部 {{count}} 个变体
+translation.settings.aiGatewayVariantsCollapse	显示模式
+translation.settings.aiGatewayModelsLoadFailed	加载 AI Gateway 模型失败。
+translation.settings.aiGatewayNoModels	你的账户尚未为 AI Gateway 启用任何模型。
+translation.settings.agentCapabilities	Agent 能力
+translation.settings.agentCapabilitiesDescription	选择你的组织中可用的 agent 能力
+translation.settings.agentHooks	Agent hooks
+translation.settings.agentHooksDescription	在 Devin CLI 和 Cascade 中运行自定义命令的 hooks
+translation.settings.agentHooksSaved	Agent hooks 已保存
+translation.settings.agentHooksSaveFailed	保存 agent hooks 失败
+translation.settings.agentHooksDialogDescription	配置团队强制的 hooks，在 Devin CLI 和 Cascade 中运行自定义 shell 命令
+translation.settings.legacyCascade	旧版 Cascade
+translation.settings.localSettings	本地设置
+translation.settings.enableCascade	启用 Cascade
+translation.settings.cascadeAvailabilityDescription	选择成员可以使用旧版 Cascade 代理的位置
+translation.settings.cascadeEnabled	已启用
+translation.settings.cascadeJetBrainsOnly	仅 JetBrains 插件
+translation.settings.cascadeDisabledEverywhere	全面禁用
+translation.settings.cascadeAvailabilitySaved	Cascade 可用性已更新
+translation.settings.cascadeAvailabilitySaveFailed	更新 Cascade 可用性失败
+translation.settings.legacyCascadeDescription	Devin Local 正在取代 Cascade。这些设置主要适用于旧版 Cascade 代理。
+translation.settings.accessEnabledForAnthropicModelsWithZeroDataRetention	已为 Anthropic 模型启用零数据保留访问
+translation.settings.accessEnabledForAnthropicModelsWithZeroDataRetentionDescription	你的组织已获准在 Anthropic 推出 Enterprise Frontier Safeguards 期间，在数据保留要求的限时豁免下使用 Claude Fable 5 和 Claude Fable 5.1。你对所有模型的标准数据保留政策仍然适用。
+translation.settings.prcOriginModelsDisabled	PRC 来源模型已禁用
+translation.settings.prcOriginModelsDisabledDescription	你的组织已设置为屏蔽基于中华人民共和国（PRC）实验室权重构建的模型，包括由它们微调而来的 Cognition 模型。Devin 在任何模式下都不会使用这些模型。
+translation.settings.acpRegistryConfiguration	ACP 注册表配置
