@@ -1,0 +1,500 @@
+translation.sessionAnalysis.skillsInsights.invokedCount	已调用 {{count}} 个
+translation.sessionAnalysis.skillsInsights.relevantCount	相关 {{count}} 个
+translation.sessionAnalysis.skillsInsights.correctlyInvoked	正确调用（{{count}}）
+translation.sessionAnalysis.skillsInsights.unnecessarilyInvoked	不必要调用（{{count}}）
+translation.sessionAnalysis.skillsInsights.notEvaluated	未评估（{{count}}）
+translation.sessionAnalysis.skillsInsights.missedRelevant	遗漏的相关技能（{{count}}）
+translation.sessionAnalysis.detectedIssues	检测到的问题
+translation.sessionAnalysis.sizeXs	XS
+translation.sessionAnalysis.sizeS	S
+translation.sessionAnalysis.sizeM	M
+translation.sessionAnalysis.sizeL	L
+translation.sessionAnalysis.sizeXl	XL
+translation.sessionAnalysis.sizeGuideTitle	会话规模指南
+translation.sessionAnalysis.sizeGuideBody	会话规模基于会话消耗的用量。
+translation.sessionAnalysis.sizeColumn	规模
+translation.sessionAnalysis.timeline	时间线
+translation.sessionAnalysis.legendHighImpact	高影响问题
+translation.sessionAnalysis.legendSignificant	重要事件
+translation.sessionAnalysis.legendMediumImpact	中影响问题
+translation.sessionAnalysis.legendValue	提供的价值
+translation.ui.crontabEditor.visual	可视化
+translation.ui.crontabEditor.custom	自定义
+translation.ui.crontabEditor.repeatEvery	每隔重复
+translation.ui.crontabEditor.unitHour_one	小时
+translation.ui.crontabEditor.unitHour_other	小时
+translation.ui.crontabEditor.unitDay_one	天
+translation.ui.crontabEditor.unitDay_other	天
+translation.ui.crontabEditor.unitWeek_one	周
+translation.ui.crontabEditor.unitWeek_other	周
+translation.ui.crontabEditor.selectUnit	选择周期单位
+translation.ui.crontabEditor.time	时间
+translation.ui.crontabEditor.hour	小时
+translation.ui.crontabEditor.hourUnit	时
+translation.ui.crontabEditor.minute	分钟
+translation.ui.crontabEditor.minuteUnit	分
+translation.ui.crontabEditor.timeDescription	{{zone}} 本地时间；小时 0-23，分钟 0-59
+translation.ui.crontabEditor.repeatOn	重复于
+translation.ui.crontabEditor.cronExpression	Cron 表达式
+translation.ui.crontabEditor.cronFormat	格式：分 时 日 月 星期（{{zone}}）
+translation.ui.crontabEditor.utc	UTC
+translation.ui.crontabEditor.apply	应用
+translation.ui.crontabEditor.daySun	日
+translation.ui.crontabEditor.dayMon	一
+translation.ui.crontabEditor.dayTue	二
+translation.ui.crontabEditor.dayWed	三
+translation.ui.crontabEditor.dayThu	四
+translation.ui.crontabEditor.dayFri	五
+translation.ui.crontabEditor.daySat	六
+translation.windsurf.codemapSharing.label	共享
+translation.windsurf.codemapSharing.ariaLabel	Codemap 共享
+translation.windsurf.codemapSharing.modePrivate	仅自己
+translation.windsurf.codemapSharing.modeTeam	团队
+translation.windsurf.codemapSharing.modePublic	任何有链接的人
+translation.windsurf.codemapSharing.updated	共享已更新
+translation.windsurf.codemapSharing.updateFailed	更新共享失败
+translation.metrics.productivityCard.previous	上一周期
+translation.metrics.productivityCard.current	当前周期
+translation.metrics.teamCard.titleCurrent	当前周期 {{dateRange}} Devin 共同署名的已合并 PR
+translation.metrics.teamCard.titlePrevious	上一周期 {{dateRange}} Devin 共同署名的已合并 PR
+translation.metrics.teamCard.allTimeRange	（全部时间）
+translation.metrics.teamCard.totalMerged	累计合并
+translation.metrics.teamCard.others	其他
+translation.metrics.teamCard.mergedPrs	Devin 共同署名的已合并 PR
+translation.metrics.teamCard.mergedThisWeek	本周 Devin 共同署名的已合并 PR
+translation.metrics.teamCard.mergedLastWeek	上周 Devin 共同署名的已合并 PR
+translation.metrics.teamCard.mergedThisMonth	本月 Devin 共同署名的已合并 PR
+translation.metrics.teamCard.mergedLastMonth	上月 Devin 共同署名的已合并 PR
+translation.metrics.teamCard.mergedThisQuarter	本季度 Devin 共同署名的已合并 PR
+translation.metrics.teamCard.mergedLastQuarter	上季度 Devin 共同署名的已合并 PR
+translation.metrics.teamCard.mergedAllTime	Devin 共同署名的累计已合并 PR
+translation.metrics.teamCard.contributors	贡献者
+translation.metrics.teamCard.avgCostOfMerge	平均合并成本
+translation.metrics.teamCard.avgCostOfMergeTip	平均合并成本仅统计产生了已合并 PR 的会话
+translation.metrics.table.noUsers	未找到用户
+translation.metrics.table.member	成员
+translation.metrics.table.noComparison	无对比数据
+translation.metrics.table.movedRank	从第 {{from}} 名移动到第 {{to}} 名（{{diff}}）
+translation.metrics.table.noChange	无变化
+translation.metrics.table.unknown	未知
+translation.metrics.table.period.week	本周
+translation.metrics.table.period.month	本月
+translation.metrics.table.period.quarter	本季度
+translation.metrics.table.period.prevWeek	上周
+translation.metrics.table.period.prevMonth	上月
+translation.metrics.table.period.prevQuarter	上季度
+translation.metrics.efficiency.noClosedPrs	{{period}}没有已关闭的 PR
+translation.metrics.efficiency.noClosedPrsYet	还没有已关闭的 PR
+translation.metrics.efficiency.noClosedPrsDescription	用 Devin 创建并被合并或关闭的 PR 会显示在这里
+translation.metrics.efficiency.prsClosed	已关闭 PR
+translation.metrics.efficiency.prsMerged	已合并 PR
+translation.metrics.efficiency.mergeRate	合并率
+translation.metrics.efficiency.closedPrsTooltip	{{count}} 个已关闭 PR · 占总数 {{pct}}%
+translation.metrics.productivity.noMergedPrs	{{period}}没有已合并的 PR
+translation.metrics.productivity.noMergedPrsYet	还没有已合并的 PR
+translation.metrics.productivity.noMergedPrsDescription	Devin 共同署名的已合并 PR 会显示在这里
+translation.metrics.productivity.streak	连续
+translation.metrics.productivity.mergedPrsCoauthored	Devin 共同署名的已合并 PR
+translation.metrics.productivity.avgCostOfMerge	平均合并成本
+translation.metrics.productivity.weeks_one	周
+translation.metrics.productivity.weeks_other	周
+translation.metrics.productivity.mergedPrsTooltip_one	{{count}} 个已合并 PR · 占总数 {{pct}}%
+translation.metrics.productivity.mergedPrsTooltip_other	{{count}} 个已合并 PR · 占总数 {{pct}}%
+translation.metrics.productivity.avgCostTooltip	每个已合并 PR 平均成本 {{cost}}
+translation.metrics.productivity.noCostData	无成本数据
+translation.metrics.page.errorTitle	出了点问题
+translation.metrics.page.tryAgain	重试
+translation.metrics.page.emptyTitle	还没有指标数据
+translation.metrics.page.leaderboard	排行榜
+translation.metrics.page.lastUpdated	最后更新：{{date}}
+translation.metrics.efficiencyPage.title	效率
+translation.metrics.efficiencyPage.errorDescription	我们无法加载你的 PR 效率指标。这可能是临时问题。
+translation.metrics.efficiencyPage.emptyDescription	当你的组织开始关闭用 Devin 创建的 PR 时，PR 效率指标会显示在这里。
+translation.metrics.productivityPage.title	组织生产力
+translation.metrics.productivityPage.errorDescription	我们无法加载你的生产力指标。这可能是临时问题。
+translation.metrics.productivityPage.emptyDescription	当你的组织开始用 Devin 合并 PR 时，生产力指标会显示在这里。
+translation.metrics.periodToggle.week	周
+translation.metrics.periodToggle.month	月
+translation.metrics.periodToggle.quarter	季度
+translation.metrics.periodToggle.allTime	全部时间
+translation.notes.chartLegend.retrieved	已检索
+translation.notes.chartLegend.retrievedTip	知识因可能相关而被访问的次数，不一定被实际使用
+translation.notes.chartLegend.used	已使用
+translation.notes.chartLegend.usedTip	根据用量分析，知识在会话中被实际使用的次数
+translation.notes.usageChart.empty	最近 30 天无可用用量数据
+translation.notes.usageChart.last30Days	最近 30 天
+translation.notes.usageChart.retrievedCount	已检索：{{count}}
+translation.notes.usageChart.usedCount	已使用：{{count}}
+translation.notes.utils.corruptedData	本地数据已损坏。请刷新页面。
+translation.notes.utils.repoIndexes	仓库索引
+translation.notes.utils.systemKnowledge	系统知识
+translation.notes.utils.enterpriseKnowledge	企业知识
+translation.notes.utils.repoIndexesDescription	此文件夹包含你代码的自动生成索引。Devin 在你的仓库中工作时会自动检索它们。
+translation.notes.utils.systemKnowledgeDescription	此文件夹包含 Cognition 创建的知识。系统知识为只读，但你随时可以禁用它。
+translation.notes.utils.enterpriseKnowledgeDescription	此文件夹包含你的企业管理员创建的知识。企业知识为只读，但你随时可以禁用它。
+translation.notes.utils.managedByCognition	此文件夹由 Cognition 管理，为只读。
+translation.notes.utils.enterpriseAdminsOnly	此知识只能由企业管理员编辑
+translation.notes.utils.autoGenerated	此知识由 Devin 自动生成，为只读。你随时可以禁用它。
+translation.notes.utils.enterpriseWide	这是企业级知识。
+translation.notes.utils.enterpriseWideReadOnly	这是企业级知识，对子组织为只读。
+translation.notes.usageTab.loadError	加载用量数据出错
+translation.notes.usageTab.sessionUsageByDay	按日的会话用量
+translation.notes.usageTab.sessionsLoadError	加载会话出错
+translation.notes.usageTab.sessionName	会话名称
+translation.notes.usageTab.unnamedSession	未命名会话
+translation.promoInvites.sendInvites_one	发送 {{count}} 个邀请
+translation.promoInvites.sendInvites_other	发送 {{count}} 个邀请
+translation.promoInvites.inviteLink.copyTooltip	复制邀请链接
+translation.promoInvites.inviteLink.openTooltip	打开邀请链接
+translation.promoInvites.inviteLink.openAria	打开邀请链接
+translation.promoInvites.row.selectAria	选择 {{email}}
+translation.promoInvites.row.adminIssued	管理员签发
+translation.promoInvites.row.referrerNotRecorded	未记录推荐人
+translation.promoInvites.row.emailSentAt	发送于 {{date}}
+translation.promoInvites.programPicker.ariaLabel	促销计划
+translation.promoInvites.programPicker.placeholder	选择一个计划
+translation.promoInvites.programSettings.title	计划设置
+translation.promoInvites.programSettings.offerLabel	计划卡片标签
+translation.promoInvites.programSettings.offerLabelHint	显示在定价计划卡片上。留空则使用默认值。
+translation.promoInvites.programSettings.offerTitle	邀请标题
+translation.promoInvites.programSettings.offerDetails	邀请详情
+translation.promoInvites.programSettings.offerDetailsHint	显示在邀请邮件和弹窗中。用 {user} 或 {company} 表示推荐人。
+translation.promoInvites.programSettings.liveDescription	关闭即停止新的兑换。已有邀请仍有效。
+translation.promoInvites.programSettings.offerDialog	优惠弹窗
+translation.promoInvites.programSettings.offerDialogDescription	向受邀人显示弹窗，让其选择获得优惠的组织。关闭则优惠应用于其当前组织。
+translation.promoInvites.programSettings.qrCodes	二维码
+translation.promoInvites.programSettings.qrCodesDescription	允许该计划的 Slack 命令生成二维码。关闭则停止生成新码。
+translation.promoInvites.programSettings.saveFailed	无法保存设置
+translation.promoInvites.programSummary.ariaLabel	计划摘要
+translation.promoInvites.programSummary.appliesTo	适用于 {{plans}}
+translation.promoInvites.programSummary.appliesToAll	适用于所有计划
+translation.promoInvites.programSummary.settings	计划设置
+translation.promoInvites.programSummary.recipientReward	受邀人奖励
+translation.promoInvites.programSummary.creditedOnRedemption	兑换时入账
+translation.promoInvites.programSummary.referrerReward	推荐人奖励
+translation.promoInvites.programSummary.creditedAfterOnboarding	受邀人完成注册后入账
+translation.promoInvites.programSummary.window	时间窗
+translation.promoInvites.programSummary.openEnded	不限期
+translation.promoInvites.programSummary.redemptions	兑换
+translation.promoInvites.programSummary.capUsed	所有来源 · 已用额度 {{pct}}%
+translation.promoInvites.programSummary.acrossAllSources	覆盖所有邀请来源
+translation.promoInvites.programSummary.invites	邀请
+translation.promoInvites.programSummary.adminInvites	管理员邀请
+translation.promoInvites.programSummary.adminIssuedAndReferrals	管理员签发和推荐
+translation.promoInvites.programSummary.excludesReferrals	不含推荐
+translation.promoInvites.programSummary.countsError	无法加载计划统计。
+translation.promoInvites.programSummary.countsLoading	正在加载计划统计…
+translation.promoInvites.programSummary.redemptionCapUsed	已用兑换额度
+translation.promoInvites.programSummary.attributesAriaLabel	计划规则
+translation.promoInvites.programSummary.attributes.cardless	无需银行卡
+translation.promoInvites.programSummary.attributes.redeemInPlace	付费组织可用
+translation.promoInvites.programSummary.attributes.keepsOtherDiscount	不可叠加
+translation.promoInvites.programSummary.attributes.newSubscribersOnly	仅免费组织
+translation.promoInvites.programSummary.attributes.onePerOrg	每组织一次
+translation.promoInvites.programSummary.attributes.workEmailRequired	仅工作邮箱
+translation.promoInvites.programSummary.attributes.noCoworkerReferrals	不可同事推荐
+translation.promoInvites.programSummary.attributes.startupProgramEnrollment	加入创业计划
+translation.promoInvites.programSummary.state.live	进行中
+translation.promoInvites.programSummary.state.inactive	未激活
+translation.promoInvites.programSummary.state.ended	已结束
+translation.promoInvites.programSummary.state.scheduled	已排期
+translation.promoInvites.latestBatchAria	最近批次结果
+translation.promoInvites.latestBatch	最近批次
+translation.promoInvites.createdCount_one	已创建 {{count}} 个
+translation.promoInvites.createdCount_other	已创建 {{count}} 个
+translation.promoInvites.resentCount_one	已重发 {{count}} 个
+translation.promoInvites.resentCount_other	已重发 {{count}} 个
+translation.promoInvites.skippedCount_one	已跳过 {{count}} 个
+translation.promoInvites.skippedCount_other	已跳过 {{count}} 个
+translation.promoInvites.downloadCsv	下载 CSV
+translation.promoInvites.dismiss	关闭
+translation.promoInvites.email	邮箱
+translation.promoInvites.result	结果
+translation.promoInvites.invitePeople	邀请人员
+translation.promoInvites.pasteEmails	粘贴邮箱，用逗号、空格或换行分隔。每批最多 {{max}} 个。
+translation.promoInvites.readOnlyTitle	此计划在此处为只读
+translation.promoInvites.readOnlyBody	无法创建、重发或撤销邀请
+translation.promoInvites.emails	邮箱
+translation.promoInvites.emailsRequired	需要邮箱
+translation.promoInvites.invalid_one	「{{value}}」不像邮箱，将被记为无效
+translation.promoInvites.invalid_other	{{count}} 个条目不像邮箱，将被记为无效
+translation.promoInvites.sendInvitationEmail	发送邀请邮件
+translation.promoInvites.sendInvitationEmailDescription	关闭可获取链接自行分享
+translation.promoInvites.removeToStayWithin	移除 {{count}} 个以保持在每批 {{max}} 个以内
+translation.promoInvites.sending	发送中…
+translation.promoInvites.sendInvitesEmpty	发送邀请
+translation.promoInvites.filterAll	全部
+translation.promoInvites.filterOpen	待处理
+translation.promoInvites.filterRedeemed	已兑换
+translation.promoInvites.filterClosed	已撤销和已过期
+translation.promoInvites.invites	邀请
+translation.promoInvites.shownCount_one	显示 {{count}} 个
+translation.promoInvites.shownCount_other	显示 {{count}} 个
+translation.promoInvites.filterByStatus	按状态筛选邀请
+translation.promoInvites.searchPlaceholder	搜索邮箱或推荐人
+translation.promoInvites.adminOnlyResend	此处只能重发管理员签发的邀请。「全选」只作用于已加载的行。
+translation.promoInvites.selectedCount_one	已选 {{count}} 个
+translation.promoInvites.selectedCount_other	已选 {{count}} 个
+translation.promoInvites.clear	清除
+translation.promoInvites.revokeCount	撤销 {{count}} 个
+translation.promoInvites.loadFailed	无法加载邀请：{{message}}
+translation.promoInvites.noInvitesYet	还没有邀请
+translation.promoInvites.noInvitesMatch	没有匹配的邀请
+translation.promoInvites.invitesAppearHere	邀请连同链接和状态会显示在这里。
+translation.promoInvites.tryDifferentFilter	试试其他筛选或搜索。
+translation.promoInvites.selectAllAria	选择所有已加载的可撤销邀请
+translation.promoInvites.referredBy	推荐人
+translation.promoInvites.redeemedBy	兑换人
+translation.promoInvites.created	创建时间
+translation.promoInvites.status	状态
+translation.promoInvites.sent	发送时间
+translation.promoInvites.loadMoreFailed	无法加载更多邀请。请重试。
+translation.promoInvites.refreshFailed	无法刷新邀请。显示之前加载的行。
+translation.promoInvites.loading	加载中…
+translation.promoInvites.loadMore	加载更多
+translation.promoInvites.title	促销邀请
+translation.promoInvites.programsLoadFailed	无法加载计划：{{message}}
+translation.promoInvites.loadingPrograms	正在加载计划…
+translation.promoInvites.noPrograms	没有促销计划
+translation.promoInvites.noProgramsBody	先创建一个计划，然后回到这里邀请人员。
+translation.promoInvites.programNotFound	未找到计划。请选择其他计划。
+translation.promoInvites.inviteLinkColumn	邀请链接
+translation.promoInvites.toast.sendProcessed	邀请已发送：{{summary, list}}
+translation.promoInvites.toast.resendProcessed	邀请已重发：{{summary, list}}
+translation.promoInvites.toast.revokeProcessed	邀请已撤销：{{summary, list}}
+translation.promoInvites.toast.sendFailed	发送邀请失败：{{message}}
+translation.promoInvites.toast.resendFailed	重发邀请失败：{{message}}
+translation.promoInvites.toast.revokeFailed	撤销邀请失败：{{message}}
+translation.promoInvites.toast.statusCount	{{status}}（{{n}}）
+translation.promoInvites.inviteStatus.created	已创建
+translation.promoInvites.inviteStatus.resent	已重发
+translation.promoInvites.inviteStatus.existing	已邀请过
+translation.promoInvites.inviteStatus.pending	待处理
+translation.promoInvites.inviteStatus.sent	已发送
+translation.promoInvites.inviteStatus.accepted	已接受
+translation.promoInvites.inviteStatus.redeemed	已兑换
+translation.promoInvites.inviteStatus.revoked	已撤销
+translation.promoInvites.inviteStatus.expired	已过期
+translation.promoInvites.inviteStatus.invalidEmail	无效邮箱
+translation.promoInvites.inviteStatus.notFound	未找到
+translation.promoInvites.inviteStatus.alreadyRedeemed	已兑换过
+translation.promoInvites.inviteStatus.alreadyRevoked	已撤销过
+translation.promoInvites.inviteStatus.checkoutInProgress	结账进行中
+translation.promoInvites.inviteStatus.rewardsGranted	奖励已发放
+translation.promoInvites.inviteStatus.redeemedConcurrently	并发兑换
+translation.promoInvites.pageTitle	促销邀请
+translation.omni.tagSelector.tagRequired	需要标签
+translation.startupProgram.statusFilter.searchPlaceholder	搜索状态…
+translation.startupProgram.statusFilter.status	状态
+translation.startupProgram.statusFilter.isAnyOf	为以下之一
+translation.startupProgram.statusFilter.all	全部
+translation.startupProgram.statusFilter.active	活跃
+translation.startupProgram.statusFilter.paused	已暂停
+translation.startupProgram.statusFilter.ended	已结束
+translation.startupProgram.statusFilter.churned	已流失
+translation.startupProgram.title	创业计划
+translation.startupProgram.loadFailed	加载创业计划状态失败。请刷新页面重试。
+translation.startupProgram.notEnrolled	未加入。加入即获 $15,000 赠额，并启用对 $50,000 以内充值的 1:1 匹配赠额。
+translation.startupProgram.notEligible	不符合资格。此组织不在 teams 计划上。
+translation.startupProgram.enrolling	加入中…
+translation.startupProgram.enroll	加入
+translation.startupProgram.enrollTitle	加入创业计划
+translation.startupProgram.enrollDescription	这将立即为该组织授予 $15,000 赠额，并启用对 $50,000 以内充值的 1:1 匹配赠额。
+translation.startupProgram.matchingGrants	匹配赠额
+translation.startupProgram.matchRatio	匹配比例
+translation.startupProgram.freeCredits	免费额度
+translation.startupProgram.freeCreditsUsed	已用免费额度
+translation.startupProgram.enrolledBy	加入人
+translation.startupProgram.enrolledAt	加入时间
+translation.startupProgram.updating	更新中…
+translation.startupProgram.pause	暂停
+translation.startupProgram.resume	恢复
+translation.startupProgram.pauseTitle	暂停创业计划
+translation.startupProgram.resumeTitle	恢复创业计划
+translation.startupProgram.pauseDescription	暂停将停止对新充值的 1:1 额度匹配。之后可以恢复加入。
+translation.startupProgram.resumeDescription	恢复将重新启用对新充值的 1:1 额度匹配。
+translation.usageAnalytics.productivityLineChart.empty	所选时间范围内无可用数据
+translation.usageAnalytics.overviewKpiCard.usageProgressAria	用量进度
+translation.usageAnalytics.overviewCharts.used	已用
+translation.usageAnalytics.overviewCharts.allocated	已分配
+translation.usageAnalytics.overviewCharts.overAllocation	超出分配
+translation.usageAnalytics.overviewCharts.utilization	利用率
+translation.usageAnalytics.overviewCharts.acus	ACU
+translation.usageAnalytics.overviewCharts.mergedPrs	已合并 PR
+translation.usageAnalytics.overviewCharts.acusPerMergedPr	ACU / 已合并 PR
+translation.usageAnalytics.overviewCharts.allocationTitle	按 LOB 的分配与用量
+translation.usageAnalytics.overviewCharts.allocationSubtitle	每条柱是该 LOB 在所选周期分配的 ACU，实填部分为已消耗
+translation.usageAnalytics.overviewCharts.consumptionTitle	消耗与产出
+translation.usageAnalytics.overviewCharts.consumptionSubtitleWeekly	按会话开始日期，每周会话 ACU（柱）与已合并 PR（线）
+translation.usageAnalytics.overviewCharts.consumptionSubtitleDaily	按会话开始日期，每日会话 ACU（柱）与已合并 PR（线）
+translation.usageAnalytics.overviewCharts.efficiencyTitle	每个已合并 PR 的 ACU
+translation.usageAnalytics.overviewCharts.efficiencySubtitleWeekly	每周效率趋势——越低越高效
+translation.usageAnalytics.overviewCharts.efficiencySubtitleDaily	每日效率趋势——越低越高效
+translation.usageAnalytics.overviewCharts.mergeRateTitle	合并成功率
+translation.usageAnalytics.overviewCharts.mergeRateSubtitleWeekly	每周已合并 PR 占同期提出的 PR 的比例
+translation.usageAnalytics.overviewCharts.mergeRateSubtitleDaily	每日已合并 PR 占同期提出的 PR 的比例
+translation.usageAnalytics.timeGrouping.daily	按日
+translation.usageAnalytics.timeGrouping.weekly	按周
+translation.usageAnalytics.timeGrouping.unavailable	此日期范围不可用此时间分组
+translation.usageAnalytics.timeGrouping.placeholder	选择分组
+translation.usageAnalytics.timeGrouping.ariaLabel	时间分组
+translation.usageAnalytics.comparisonChip.noComparisonData	{{column}} · {{range}} · 无对比数据
+translation.usageAnalytics.comparisonChip.vsLastMonth	{{text}} 对比上月
+translation.usageAnalytics.exportSessionDataFailed	导出会话数据失败。请重试。
+translation.usageAnalytics.usageTable.noData	无数据
+translation.usageAnalytics.usageTable.toggleBreakdown	切换用量明细
+translation.usageAnalytics.usageTable.counts	数量
+translation.usageAnalytics.usageTable.percentages	百分比
+translation.usageAnalytics.usageTable.export	导出
+translation.usageAnalytics.usageTable.viewOrgAnalytics	点击查看此组织的分析
+translation.usageAnalytics.usageTable.noDataForRange	所选时间范围内无可用数据
+translation.usageAnalytics.hierarchyDrilldown.noLobs	此企业未配置 LOB
+translation.usageAnalytics.hierarchyDrilldown.lobColumn	LOB / 子组织
+translation.usageAnalytics.hierarchyDrilldown.subOrgCount_one	{{count}} 个子组织
+translation.usageAnalytics.hierarchyDrilldown.subOrgCount_other	{{count}} 个子组织
+translation.usageAnalytics.hierarchyDrilldown.tooManyOrgsNote	打开完整会话列表——组织太多，链接无法按统计集筛选
+translation.usageAnalytics.hierarchyDrilldown.enterpriseRow	{{name}}（企业）
+translation.usageAnalytics.otherLanguage	其他
+translation.usageAnalytics.columns.email	邮箱
+translation.usageAnalytics.columns.name	姓名
+translation.usageAnalytics.columns.totalAcus	总 ACU
+translation.usageAnalytics.columns.totalCost	总成本
+translation.usageAnalytics.columns.sessionsCreated	创建的会话数
+translation.usageAnalytics.columns.acusPerSession	每会话 ACU
+translation.usageAnalytics.columns.dollarsPerSession	每会话 $
+translation.usageAnalytics.columns.sessionsBySize	按规模的会话
+translation.usageAnalytics.columns.originWebapp	Webapp
+translation.usageAnalytics.columns.sessionsByOrigin	按来源的会话
+translation.usageAnalytics.columns.sessionsWithSearch	含搜索的会话
+translation.usageAnalytics.columns.sessionsWithPlaybook	含 playbook 的会话
+translation.usageAnalytics.columns.searchesCreated	创建的搜索数
+translation.usageAnalytics.columns.acusPerSearch	ACU / 搜索
+translation.usageAnalytics.columns.dollarsPerSearch	$ / 搜索
+translation.usageAnalytics.columns.searchesPerSession	每会话搜索数
+translation.usageAnalytics.columns.prsCreated	创建的 PR 数
+translation.usageAnalytics.columns.prsByStatus	按状态的 PR
+translation.usageAnalytics.columns.merged	已合并
+translation.usageAnalytics.columns.closed	已关闭
+translation.usageAnalytics.columns.open	开放中
+translation.usageAnalytics.columns.acusPerPrMerged	每合并 PR 的 ACU
+translation.usageAnalytics.columns.dollarsPerPrMerged	每合并 PR 的 $
+translation.usageAnalytics.columns.sessionsWithMergedPrsBySize	含已合并 PR 的会话（按规模）
+translation.usageAnalytics.columns.sectionSessions	会话
+translation.usageAnalytics.columns.sectionSearches	搜索
+translation.usageAnalytics.columns.sectionPrs	PR
+translation.usageAnalytics.metrics.tabConsumption	消耗
+translation.usageAnalytics.metrics.tabUsers	用户
+translation.usageAnalytics.metrics.tabSessions	会话
+translation.usageAnalytics.metrics.tabEfficiency	效率
+translation.usageAnalytics.metrics.instances	实例
+translation.usageAnalytics.metrics.assignedAcus	分配的 ACU
+translation.usageAnalytics.metrics.assignedAcusTooltip	来自合同表格的静态分配
+translation.usageAnalytics.metrics.configuredAcus	已配置的 ACU
+translation.usageAnalytics.metrics.configuredAcusTooltip	系统中配置的实时分配
+translation.usageAnalytics.metrics.acusUsed	已用 ACU
+translation.usageAnalytics.metrics.acusUsedTooltip	所选周期内消耗的 ACU
+translation.usageAnalytics.metrics.delta	差值
+translation.usageAnalytics.metrics.deltaTooltip	已用 ACU 减去分配的 ACU
+translation.usageAnalytics.metrics.totalUsers	总用户数
+translation.usageAnalytics.metrics.totalUsersTooltip	所选周期内活跃的用户
+translation.usageAnalytics.metrics.codingUsers	编程用户
+translation.usageAnalytics.metrics.codingUsersTooltip	获准运行会话的活跃用户
+translation.usageAnalytics.metrics.readOnlyUsers	只读用户
+translation.usageAnalytics.metrics.readOnlyUsersTooltip	无会话权限的活跃用户
+translation.usageAnalytics.metrics.askQueries	DW/Ask 查询
+translation.usageAnalytics.metrics.avgDau	平均 DAU
+translation.usageAnalytics.metrics.sessionsPerCodingUser	会话数 / 编程用户
+translation.usageAnalytics.metrics.sessionsWithoutPr	无 PR 会话占比 %
+translation.usageAnalytics.metrics.prsRaised	提出的 PR
+translation.usageAnalytics.metrics.prsMerged	已合并 PR
+translation.usageAnalytics.metrics.mergeSuccessRate	合并成功率
+translation.usageAnalytics.metrics.acusPerMergedPr	ACU / 已合并 PR
+translation.usageAnalytics.metrics.acusPerCodingUser	ACU / 编程用户
+translation.usageAnalytics.metrics.acusPerSession	ACU / 会话
+translation.usageAnalytics.metrics.tabPrs	PR
+translation.usageAnalytics.periods.last90Days	最近 90 天
+translation.usageAnalytics.periods.yearToDate	年初至今
+translation.usageAnalytics.periods.thisYear	今年
+translation.usageAnalytics.periods.lastYear	去年
+translation.usageAnalytics.periods.allTime	全部时间
+translation.usageAnalytics.periods.sinceDate	{{label}}（自 {{date}} 起）
+translation.usageAnalytics.periods.lastBillingCycleUnavailable	上个计费周期（不可用）
+translation.usageAnalytics.periods.custom	自定义（{{from}} – {{to}}）
+translation.usageAnalytics.periods.customRange	自定义范围…
+translation.usageAnalytics.comparison.vsLastMonth	对比上月
+translation.usageAnalytics.comparison.points_one	{{value}} 点
+translation.usageAnalytics.comparison.points_other	{{value}} 点
+translation.usageAnalytics.comparison.noteVolume	（按日均值对比）
+translation.usageAnalytics.comparison.noteCount	（完整周期 vs 所选周期至今）
+translation.usageAnalytics.repositoriesExport.repository	仓库
+translation.usageAnalytics.repositoriesExport.prsOpenedByDevin	Devin 打开的 PR
+translation.usageAnalytics.repositoriesExport.devinPrShare	Devin PR 占比（%）
+translation.usageAnalytics.repositoriesExport.overallMergeRate	总合并率（%）
+translation.usageAnalytics.repositoriesExport.devinMergeRate	Devin 合并率（%）
+translation.usageAnalytics.repositoriesExport.devinReviewRate	Devin 评审率（%）
+translation.usageAnalytics.tableControls.valueMode	以数量或百分比显示数值
+translation.usageAnalytics.overview.sinceContract	自 {{date}} 合同开始
+translation.usageAnalytics.overview.cycleToDate	本周期至今（第 {{day}} 天）
+translation.usageAnalytics.overview.monthToDate	本月至今（第 {{day}}/{{total}} 天）
+translation.usageAnalytics.overview.selectedRange_one	所选范围（{{count}} 天）
+translation.usageAnalytics.overview.selectedRange_other	所选范围（{{count}} 天）
+translation.usageAnalytics.overview.noPermission	你没有查看企业分析的权限。
+translation.usageAnalytics.overview.description	你的组织层级中的分配、用量与生产力
+translation.usageAnalytics.overview.featurePreview	功能预览
+translation.usageAnalytics.overview.assignedInstances	分配的实例
+translation.usageAnalytics.overview.contractedPerMonth_one	合同 {{formattedCount}} ACU / 月
+translation.usageAnalytics.overview.contractedPerMonth_other	合同 {{formattedCount}} ACU / 月
+translation.usageAnalytics.overview.instancesConfigured	已配置的实例
+translation.usageAnalytics.overview.acusPerInstance	{{amount}} ACU / 实例 / 月
+translation.usageAnalytics.overview.cycleToDateDelta	本周期至今：对比上周期同期 {{delta}}
+translation.usageAnalytics.overview.fromReview	{{amount}} 来自 Devin Review
+translation.usageAnalytics.overview.acusYearToDate	年初至今 ACU
+translation.usageAnalytics.overview.contractShare	{{total}} 合同中的 {{share}}
+translation.usageAnalytics.overview.projectedExhaustion	预计 {{date}} 耗尽
+translation.usageAnalytics.overview.canRunSessions	{{total}} 人中 {{coding}} 人可运行会话
+translation.usageAnalytics.overview.askQueries	{{amount}} 次 DW/Ask 查询
+translation.usageAnalytics.overview.raisedAndRate	提出 {{raised}} · 合并率 {{rate}}
+translation.usageAnalytics.overview.lowerIsEfficient	越低 = 越高效
+translation.usageAnalytics.display.reviewUsers	Devin Review 用户
+translation.usageAnalytics.display.reviewUsersFrom	Devin Review 用户数据仅从 {{date}} 起可用。
+translation.usageAnalytics.display.activeReviewTip	某天使用过 Devin Review 的用户计为当天活跃
+translation.usageAnalytics.display.activeWeekTip	某周创建过至少 1 个会话或 1 次搜索的用户计为该周活跃
+translation.usageAnalytics.display.activeDayTip	某天创建过至少 1 个会话或 1 次搜索的用户计为当天活跃
+translation.usageAnalytics.display.reviewUsersOverTime	Devin Review 用户随时间变化
+translation.usageAnalytics.display.daily	按日
+translation.usageAnalytics.display.weekly	按周
+translation.usageAnalytics.display.reviewUsersNoOrg	Devin Review 用户不按组织拆分。
+translation.usageAnalytics.display.unknown	未知
+translation.usageAnalytics.display.otherCount	其他（{{count}}）
+translation.usageAnalytics.display.cycleCurrent	当前
+translation.usageAnalytics.display.cyclePrevious	上一周期
+translation.usageAnalytics.display.activity	活跃度
+translation.usageAnalytics.display.allDatesUtc	所有日期均为 UTC
+translation.usageAnalytics.display.sessionsGrouped	按创建日期分组的会话
+translation.usageAnalytics.display.numberOfSessions	会话数
+translation.usageAnalytics.display.dollarsPerSession	$ / 会话
+translation.usageAnalytics.display.byOrigin	按来源
+translation.usageAnalytics.display.selectView	选择视图
+translation.usageAnalytics.display.sessionsLoadFailed	加载会话数据失败
+translation.usageAnalytics.display.searchesGrouped	按创建日期分组的搜索
+translation.usageAnalytics.display.numberOfSearches	搜索数
+translation.usageAnalytics.display.searchesToSessions	搜索与会话之比
+translation.usageAnalytics.display.searchesOverTime	搜索随时间变化
+translation.usageAnalytics.display.searchesLoadFailed	加载搜索数据失败
+translation.usageAnalytics.display.prsGrouped	按创建日期分组的 PR
+translation.usageAnalytics.display.acusPerPrMerged	ACU / 已合并 PR
+translation.usageAnalytics.display.dollarsPerPrMerged	$ / 已合并 PR
+translation.usageAnalytics.display.prsLoadFailed	加载拉取请求数据失败
+translation.usageAnalytics.display.prTrackingNote	在 SaaS 部署中，PR 数据针对 GitHub、Azure DevOps、Bitbucket 和 GitLab 进行跟踪。非 GitHub 的 PR 状态可能暂时滞后。最近打开的 PR 状态会在 24 小时内更新，较早的 PR 会在 1 个月内更新。
+translation.usageAnalytics.display.topOrgsSessions	按创建会话数排名的组织
+translation.usageAnalytics.display.topOrgsAcus	按 ACU 排名的组织
+translation.usageAnalytics.display.topOrgsCost	按成本排名的组织
+translation.usageAnalytics.display.topOrgsSessionsTip	所选周期内按创建会话数排名前 10 的组织。其余组织归入「其他」。
+translation.usageAnalytics.display.topOrgsAcusTip	所选周期内按总 ACU 排名前 10 的组织。其余组织归入「其他」。
+translation.usageAnalytics.display.topOrgsCostTip	所选周期内按总成本排名前 10 的组织。其余组织归入「其他」。
+translation.usageAnalytics.display.costUsd	成本（USD）
+translation.usageAnalytics.display.usersAcuNote	ACU 数据基于所选时间范围内创建的会话。精确的 ACU 消耗请使用消耗页面。
+translation.usageAnalytics.display.usersUsageNote	用量数据基于所选时间范围内创建的会话。精确用量请使用消耗页面。
+translation.usageAnalytics.display.perUserHidden	此账户隐藏按用户行。
+translation.usageAnalytics.display.membersPerUserHidden_one	{{count}} 个成员。此账户隐藏按用户行。
+translation.usageAnalytics.display.membersPerUserHidden_other	{{count}} 个成员。此账户隐藏按用户行。
