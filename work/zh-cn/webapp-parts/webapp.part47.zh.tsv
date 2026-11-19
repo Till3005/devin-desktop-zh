@@ -1,0 +1,500 @@
+translation.ds.menuLoadingMore	加载更多…
+translation.ds.noResultsFound	未找到结果。
+translation.ds.attachment.download	下载
+translation.ds.attachment.downloadAttachment	下载附件
+translation.ds.attachment.image	图片
+translation.ds.attachment.remove	移除附件
+translation.ds.attachment.video	视频
+translation.ds.attachment.view	查看
+translation.ds.attachment.viewAttachment	查看附件
+translation.ds.attachment.sizeBytes	{{size}} B
+translation.ds.attachment.sizeKilobytes	{{size}} KB
+translation.ds.attachment.sizeMegabytes	{{size}} MB
+translation.ds.blocker.confused	Devin 遇到困惑
+translation.ds.blocker.error	Devin 错误
+translation.ds.blocker.runningIntoIssues	Devin 遇到了问题
+translation.ds.breadcrumb.label	面包屑
+translation.ds.breadcrumb.showMore	显示更多面包屑
+translation.ds.capability.capability	能力
+translation.ds.capability.capabilityTooltip	能力越高意味着模型越强大但花费越高
+translation.ds.capability.fastMode	Fast 模式
+translation.ds.capability.fusionDescription	将前沿智能与高性价比执行结合，以更低成本交付前沿水平结果
+translation.ds.capability.internalOnly	仅内部
+translation.ds.capability.mode	模式
+translation.ds.capability.noCapabilitiesEnabled	你的组织没有启用任何能力。请联系管理员启用。
+translation.ds.capability.speed	速度
+translation.ds.capability.speedFast	快
+translation.ds.capability.speedStandard	标准
+translation.ds.chat.attachments	附件
+translation.ds.chat.devinMessage	Devin 消息
+translation.ds.chat.userMessage	用户消息
+translation.ds.codeBlock.copyCode	复制代码
+translation.ds.codeBlock.inScope	在 {{scope}} 中
+translation.ds.codeBlock.lines_one	{{count}} 行
+translation.ds.codeBlock.lines_other	{{count}} 行
+translation.ds.codeBlock.unwrapLines	取消换行
+translation.ds.codeBlock.wrapLines	自动换行
+translation.ds.command.description	搜索要运行的命令…
+translation.ds.command.title	命令面板
+translation.ds.composer.minimize	最小化
+translation.ds.composer.next	下一个
+translation.ds.composer.nextQuestion	下一题
+translation.ds.composer.previousQuestion	上一题
+translation.ds.composer.questionPosition	{{total}} 之 {{current}}
+translation.ds.composer.skip	跳过
+translation.ds.composer.somethingElse	其他…
+translation.ds.contextWindow.cacheExpired	Prompt 缓存已过期。
+translation.ds.contextWindow.cacheExpiresIn	Prompt 缓存于 {{time}} 后过期
+translation.ds.contextWindow.cachedInput	缓存输入
+translation.ds.contextWindow.contextUsage	上下文用量：{{percent}}%
+translation.ds.contextWindow.contextUsed	已用上下文 {{percent}}%（{{used}} / {{limit}}）
+translation.ds.contextWindow.higherCostExpected	预期花费更高。
+translation.ds.contextWindow.input	输入
+translation.ds.contextWindow.modelChangeDisabledCache	更换模型已禁用 prompt 缓存。
+translation.ds.datePicker.endDate	结束日期
+translation.ds.datePicker.endTime	结束时间
+translation.ds.datePicker.includeTime	包含时间
+translation.ds.datePicker.startDate	开始日期
+translation.ds.datePicker.startTime	开始时间
+translation.ds.datePicker.timezone	时区
+translation.ds.expandable.collapse	折叠
+translation.ds.expandable.collapseContent	折叠内容
+translation.ds.expandable.expand	展开
+translation.ds.expandable.expandContent	展开内容
+translation.ds.feedback.badResponse	差评回复
+translation.ds.feedback.flagResponse	标记回复
+translation.ds.feedback.badSession	差评会话
+translation.ds.feedback.categoryDidNotFollow	未遵循指令
+translation.ds.feedback.categoryIncomplete	不完整
+translation.ds.feedback.categoryIncorrectCode	代码不正确
+translation.ds.feedback.categoryOther	其他
+translation.ds.feedback.details	详情
+translation.ds.feedback.goodResponse	好评回复
+translation.ds.feedback.sessionDescription	对此会话给出反馈，帮助改进 Devin。
+translation.ds.feedback.submitting	提交中…
+translation.ds.feedback.tellUsMore	多告诉我们一些，帮助改进未来的回复。
+translation.ds.markdown.completedTask	已完成任务
+translation.ds.markdown.incompleteTask	未完成任务
+translation.ds.markdown.sortBy	按 {{label}} 排序
+translation.ds.markdown.sortColumn	按列 {{column}} 排序
+translation.ds.mentionCategories.conversations	对话
+translation.ds.mentionCategories.devinSessions	Devin 会话
+translation.ds.mentionCategories.directories	目录
+translation.ds.mentionCategories.files	文件
+translation.ds.mentionCategories.macros	宏
+translation.ds.mentionCategories.people	人员
+translation.ds.mentionCategories.playbooks	Playbooks
+translation.ds.mentionCategories.plugins	插件
+translation.ds.mentionCategories.repositories	仓库
+translation.ds.mentionCategories.secrets	机密
+translation.ds.mentionCategories.skills	技能
+translation.ds.mentionCategories.workItems	工作项
+translation.ds.networkPolicy.accessibleDomains	可访问域名
+translation.ds.networkPolicy.addDomain	添加域名
+translation.ds.networkPolicy.blocked	已阻止
+translation.ds.networkPolicy.blockedTooltip	不被管控的安全配置文件允许——会话将无法触达它
+translation.ds.networkPolicy.copyAll	复制所有域名
+translation.ds.networkPolicy.copyFailed	复制失败
+translation.ds.networkPolicy.duplicate	重复
+translation.ds.networkPolicy.duplicateTooltip	此重复项将在保存时移除
+translation.ds.networkPolicy.entryPlaceholder	域名、IPv4 或 IPv6（如 *.github.com）
+translation.ds.networkPolicy.newEntry	新增
+translation.ds.networkPolicy.noMatches	没有匹配你搜索的域名
+translation.ds.networkPolicy.removeEntry	移除条目
+translation.ds.networkPolicy.removeValue	移除 {{value}}
+translation.ds.networkPolicy.searchPlaceholder	搜索域名
+translation.ds.pagination.goToNext	前往下一页
+translation.ds.pagination.goToPrevious	前往上一页
+translation.ds.pagination.label	分页
+translation.ds.pagination.morePages	更多页
+translation.ds.pagination.next	下一页
+translation.ds.pagination.previous	上一页
+translation.ds.plan.accepted	计划已接受
+translation.ds.plan.downloadMd	下载为 .md
+translation.ds.plan.downloadPlanMd	下载计划为 .md
+translation.ds.plan.edit	编辑
+translation.ds.plan.editedByYou	你编辑过
+translation.ds.plan.generating	正在生成计划
+translation.ds.plan.generatingSuffix	· 生成中
+translation.ds.plan.implement	实施计划
+translation.ds.plan.implementTooltip	这将创建一个新的子会话实施该计划
+translation.ds.plan.implemented	已实施
+translation.ds.plan.moreImplementOptions	更多实施选项
+translation.ds.plan.olderVersionWarning	你将要实施版本 {{version}}。最新的是版本 {{latest}}。
+translation.ds.plan.outdated	已过时
+translation.ds.plan.preview	预览
+translation.ds.plan.selectVersion	选择计划版本
+translation.ds.plan.spawnToImplement	派生 Devin 实施
+translation.ds.plan.spawnToImplementVersion	派生 Devin 实施版本 {{version}}
+translation.ds.plan.splitIntoSessions	把计划拆成多个会话
+translation.ds.plan.switchToAutoConfirm	切换到自动确认
+translation.ds.plan.viewLatestVersion	查看最新版本
+translation.ds.plan.viewPlan	查看计划
+translation.ds.prCard.closed	已关闭 PR
+translation.ds.prCard.deletedShelf	已删除搁置
+translation.ds.prCard.draft	草稿 PR
+translation.ds.prCard.merged	已合并 PR
+translation.ds.prCard.open	开放 PR
+translation.ds.prCard.queued	排队 PR
+translation.ds.prCard.shelvedChangelist	已搁置 changelist
+translation.ds.prCard.submittedChangelist	已提交 changelist
+translation.ds.quoting.actions	引用操作
+translation.ds.quoting.addCaption	添加说明
+translation.ds.quoting.addToChat	添加到聊天
+translation.ds.quoting.captionTitle	引用说明
+translation.ds.quoting.moreOptions	更多引用选项
+translation.ds.quoting.resumeCaption	继续写说明
+translation.ds.quoting.save	保存
+translation.ds.quoting.sourceChanged	此内容被引用后来源已变化
+translation.ds.quoting.startTyping	开始输入…
+translation.ds.quoting.captionPlaceholder	写一条说明…
+translation.ds.quoting.sendImmediately	立即发送
+translation.ds.secrets.actions	操作
+translation.ds.secrets.chooseFile	选择文件或拖拽到此
+translation.ds.secrets.errorOnLine	{{error}}（第 {{line}} 行）
+translation.ds.secrets.existingSessionSecrets	已有会话机密（{{count}}）
+translation.ds.secrets.formatComments	用 # 字符的内联注释说明每个机密的最佳用法。
+translation.ds.secrets.formatKeys	密钥只能包含字母、数字和下划线，且不能以数字开头。
+translation.ds.secrets.formatOnePerLine	文件应每行一个机密，格式为 Key=Value。
+translation.ds.secrets.formatPaste	你可以在下方粘贴文件以验证格式。cookie 或 TOTP 代码请单独添加。
+translation.ds.secrets.importError	导入错误
+translation.ds.secrets.importFailed	导入机密失败
+translation.ds.secrets.key	密钥
+translation.ds.secrets.maxSize	（最大 2MB）
+translation.ds.secrets.name	名称
+translation.ds.secrets.noValidSecrets	没有可导入的有效机密
+translation.ds.secrets.notRedacted	未遮蔽
+translation.ds.secrets.note	备注
+translation.ds.secrets.noteDescription	给 Devin 的上下文
+translation.ds.secrets.pastePlaceholder	API_KEY=your-api-key-here # 将此 API Key 用于 GitHub
+DATABASE_URL=postgresql://user:pass@localhost:5432/db # us-west-2 上的 RDS
+ENVIRONMENT=production
+translation.ds.secrets.parseFailed	解析输入失败。请确保它符合正确格式。
+translation.ds.secrets.pasteSecrets	粘贴机密
+translation.ds.secrets.readFailed	读取文件失败。请确保它是有效的文本文件。
+translation.ds.secrets.redacted	已遮蔽
+translation.ds.secrets.removeAllInvalid	移除所有无效项
+translation.ds.secrets.removeSecret	移除机密
+translation.ds.secrets.sensitive	敏感
+translation.ds.secrets.sensitiveDescription	标为敏感的机密会从 UI 中遮蔽
+translation.ds.secrets.sensitiveTooltip	启用后，机密值会从 Devin 的输出中遮蔽
+translation.ds.secrets.sent	已发送
+translation.ds.secrets.store	存储
+translation.ds.secrets.storeValid_one	存储 {{count}} 个有效项
+translation.ds.secrets.storeValid_other	存储 {{count}} 个有效项
+translation.ds.secrets.storing	存储中…
+translation.ds.secrets.submissionPreview	提交预览
+translation.ds.secrets.uploadFile	上传文件
+translation.ds.secrets.value	值
+translation.ds.sessionList.collapseChildren	折叠子项
+translation.ds.sessionList.expandChildren	展开子项
+translation.ds.sheet.resize	调整面板大小
+translation.ds.spaceHeader.moreActions	更多操作
+translation.ds.spaceHeader.pin	置顶
+translation.ds.spaceHeader.pinToSidebar	置顶到侧边栏
+translation.ds.spaceHeader.unpin	取消置顶
+translation.ds.spaceHeader.viewSessionInsights	查看会话洞察
+translation.ds.table.resizeColumn	调整列宽
+translation.ds.tabs.agents	Agents
+translation.ds.tabs.browser	浏览器
+translation.ds.tabs.citations	引用
+translation.ds.tabs.closeTab	关闭标签页
+translation.ds.tabs.codeFiles	代码文件
+translation.ds.tabs.commands	命令
+translation.ds.tabs.diff	Diff
+translation.ds.tabs.noResults	无结果
+translation.ds.tabs.progress	进度
+translation.ds.tabs.search	搜索
+translation.ds.tabs.tasks	任务
+translation.ds.terminal.scrollToBottom	滚动到底部
+translation.ds.transcript.and	和
+translation.ds.transcript.contentsNotLoaded	此渲染器未加载内容
+translation.ds.transcript.devinsComputer	Devin 的电脑
+translation.ds.transcript.enterprise	Enterprise
+translation.ds.transcript.localMachine	本地机器
+translation.ds.transcript.openSideChat	打开旁聊
+translation.ds.transcript.or	或
+translation.ds.transcript.progressPercent	进度：{{percent}}%
+translation.ds.transcript.seconds	{{seconds}} 秒
+translation.ds.transcript.sideChat	旁聊
+translation.ds.viz.barList	条形列表
+translation.ds.viz.creditLimit	额度上限
+translation.ds.viz.currentlyUsed	当前已用
+translation.ds.viz.down	降
+translation.ds.viz.forecastedUsage	预测用量
+translation.ds.viz.heatmap	热力图
+translation.ds.viz.heatmapLegend	热力图强度图例
+translation.ds.viz.less	更少
+translation.ds.viz.more	更多
+translation.ds.viz.segments	分段
+translation.ds.viz.up	升
+translation.ds.workingWords.actualizing	落实中
+translation.ds.workingWords.aligning	对齐中
+translation.ds.workingWords.analyzing	分析中
+translation.ds.workingWords.annealing	退火中
+translation.ds.workingWords.architecting	架构中
+translation.ds.workingWords.assembling	组装中
+translation.ds.workingWords.calibrating	校准中
+translation.ds.workingWords.cerebrating	酝酿中
+translation.ds.workingWords.cogitating	深思中
+translation.ds.workingWords.conjecturing	推演中
+translation.ds.workingWords.connectingTheDots	串联线索中
+translation.ds.workingWords.constructing	构建中
+translation.ds.workingWords.cooking	烹制中
+translation.ds.workingWords.descendingTheGradient	梯度下降中
+translation.ds.workingWords.deviningTheFuture	预见未来中
+translation.ds.workingWords.draftingBlueprints	绘制蓝图中
+translation.ds.workingWords.eigenvectoring	特征向量化中
+translation.ds.workingWords.exploring	探索中
+translation.ds.workingWords.gearingUp	蓄力中
+translation.ds.workingWords.increasingTorque	加扭矩中
+translation.ds.workingWords.investigating	调查中
+translation.ds.workingWords.lockingIn	锁定中
+translation.ds.workingWords.navigating	导航中
+translation.ds.workingWords.orthogonalizing	正交化中
+translation.ds.workingWords.pondering	沉思中
+translation.ds.workingWords.quantizing	量化中
+translation.ds.workingWords.rebalancingTheTree	平衡树中
+translation.ds.workingWords.recombobulating	重整中
+translation.ds.workingWords.reticulatingSplines	拟合样条中
+translation.ds.workingWords.revvingUp	加速中
+translation.ds.workingWords.shapeRotating	形状旋转中
+translation.ds.workingWords.shiftingGears	换挡中
+translation.ds.workingWords.solving	求解中
+translation.ds.workingWords.strategizing	谋划中
+translation.ds.workingWords.thinking	思考中
+translation.ds.workingWords.tighteningTheBolts	拧紧螺栓中
+translation.ds.workingWords.tinkering	打磨中
+translation.ds.workingWords.triangulating	三角定位中
+translation.ds.workingWords.turningTheCogs	转动齿轮中
+translation.ds.selectedCount_one	已选 {{count}} 个
+translation.ds.selectedCount_other	已选 {{count}} 个
+translation.parenthetical.unnamed	（未命名）
+translation.parenthetical.default	（默认）
+translation.parenthetical.unavailable	{{name}}（不可用）
+translation.parenthetical.mcp	{{name}}（MCP）
+translation.settingsPages.createPlaybookSheet.discardUnsavedChanges	放弃未保存的更改？
+translation.settingsPages.createPlaybookSheet.discardChanges	放弃更改
+translation.settingsPages.createPlaybookSheet.continueEditing	继续编辑
+translation.settingsPages.createPlaybookSheet.loadingPlaybook	正在加载 playbook
+translation.settingsPages.createPlaybookSheet.playbookNotFound	未找到 playbook
+translation.settingsPages.createPlaybookSheet.checkingMacroAvailability	正在检查宏可用性
+translation.settingsPages.createPlaybookSheet.create	创建
+translation.settingsPages.createPlaybookSheet.pleaseEnterAName	需要名称
+translation.settingsPages.createPlaybookSheet.name	名称
+translation.settingsPages.createPlaybookSheet.deployToStaging	部署到 staging
+translation.settingsPages.createPlaybookSheet.macro	宏
+translation.settingsPages.createPlaybookSheet.macroIsAvailable	宏可用
+translation.settingsPages.createPlaybookSheet.thisMacroIsNotAvailable	此宏不可用
+translation.settingsPages.createPlaybookSheet.shortcutToRunThePlaybookFrom	从提示词运行 playbook 的快捷方式
+translation.settingsPages.createPlaybookSheet.content	内容
+translation.settingsPages.createPlaybookSheet.examples	示例
+translation.settingsPages.createPlaybookSheet.oneSessionIdPerLine	每行一个会话 ID
+translation.settingsPages.createPlaybookSheet.createCommunityPlaybook	创建社区 playbook
+translation.settingsPages.createPlaybookSheet.createPlaybook	创建 playbook
+translation.settingsPages.createPlaybookSheet.availableAllAccountsSystemTab	在 System 标签页对所有账户可用
+translation.settingsPages.createPlaybookSheet.reusablePromptCustomizesHowDevinWorks	自定义 Devin 工作方式的可复用提示词
+translation.settingsPages.createPlaybookSheet.pleaseEnterPlaybookContent	需要 playbook 内容
+translation.settingsPages.playbookEditorPage.untitled	未命名
+translation.settingsPages.playbookEditorPage.viewSession	查看会话
+translation.settingsPages.playbookEditorPage.thisPlaybookContainsNoExamples	此 playbook 不含示例
+translation.settingsPages.playbookEditorPage.name	名称
+translation.settingsPages.playbookEditorPage.createdAt	创建时间
+translation.settingsPages.playbookEditorPage.createdBy	创建者
+translation.settingsPages.playbookEditorPage.noActivityDataAvailable	没有可用的活动数据
+translation.settingsPages.playbookEditorPage.weekOf	{{dateLabel}} 当周
+translation.settingsPages.playbookEditorPage.active	活跃
+translation.settingsPages.playbookEditorPage.loadingVersions	正在加载版本…
+translation.settingsPages.playbookEditorPage.noVersionHistoryAvailable	没有可用的版本历史
+translation.settingsPages.playbookEditorPage.date	日期
+translation.settingsPages.playbookEditorPage.title	标题
+translation.settingsPages.playbookEditorPage.author	作者
+translation.settingsPages.playbookEditorPage.source	来源
+translation.settingsPages.playbookEditorPage.status	状态
+translation.settingsPages.playbookEditorPage.sessions	会话数
+translation.settingsPages.playbookEditorPage.totalNumberOfSessionsUsingThis	使用此 playbook 的会话总数
+translation.settingsPages.playbookEditorPage.uniqueUsers	独立用户
+translation.settingsPages.playbookEditorPage.numberOfDistinctUsersWhoHave	使用过此 playbook 的不同用户数
+translation.settingsPages.playbookEditorPage.mergedPrs	已合并 PR
+translation.settingsPages.playbookEditorPage.numberOfPullRequestsMergedFrom	从使用此 playbook 的会话合并的拉取请求数
+translation.settingsPages.playbookEditorPage.weeklyActivity	每周活动
+translation.settingsPages.playbookEditorPage.viewSessions	查看会话
+translation.settingsPages.playbookEditorPage.macro	宏
+translation.settingsPages.playbookEditorPage.aShortcutUsedInPromptsTo	在提示词中快速运行 playbook 的快捷方式（如 !test）
+translation.settingsPages.playbookEditorPage.checkingMacroAvailability	正在检查宏可用性
+translation.settingsPages.playbookEditorPage.macroIsAvailable	宏可用
+translation.settingsPages.playbookEditorPage.macroIsInvalid	宏无效
+translation.settingsPages.playbookEditorPage.copyMacro	复制宏
+translation.settingsPages.playbookEditorPage.communityAccess	社区访问
+translation.settingsPages.playbookEditorPage.publishThisPlaybookForAllAccounts	发布此 playbook 供所有账户访问
+translation.settingsPages.playbookEditorPage.examples	示例
+translation.settingsPages.playbookEditorPage.improveWithDevin	用 Devin 改进
+translation.settingsPages.playbookEditorPage.edit	编辑
+translation.settingsPages.playbookEditorPage.duplicate	创建副本
+translation.settingsPages.playbookEditorPage.promoteToEnterprise	提升到企业级
+translation.settingsPages.playbookEditorPage.delete	删除
+translation.settingsPages.playbookEditorPage.save	保存
+translation.settingsPages.playbookEditorPage.discardUnsavedChanges	放弃未保存的更改？
+translation.settingsPages.playbookEditorPage.discardChanges	放弃更改
+translation.settingsPages.playbookEditorPage.continueEditing	继续编辑
+translation.settingsPages.playbookEditorPage.lastUpdatedOn	最后更新于
+translation.settingsPages.playbookEditorPage.details	详情
+translation.settingsPages.playbookEditorPage.pastSessions	过往会话
+translation.settingsPages.playbookEditorPage.versionHistory	版本历史
+translation.settingsPages.playbookEditorPage.playbookEditHistory	Playbook 编辑历史
+translation.settingsPages.playbookEditorPage.noVersionsYet	还没有版本
+translation.settingsPages.playbookEditorPage.viaApi	通过 API
+translation.settingsPages.playbookEditorPage.via	通过
+translation.settingsPages.playbookEditorPage.devinSession	Devin 会话
+translation.settingsPages.playbookEditorPage.promoteThisPlaybookToEnterpriseLevel	将此 playbook 提升到企业级？它将对你企业中的所有组织可见
+translation.settingsPages.playbookEditorPage.promote	提升
+translation.settingsPages.playbookEditorPage.deletePlaybook	删除 playbook
+translation.settingsPages.playbookEditorPage.untitledPlaybook	未命名 playbook
+translation.settingsPages.playbookEditorPage.users	用户数
+translation.settingsPages.playbookEditorPage.mergedPRs	已合并 PR
+translation.settingsPages.playbookEditorPage.sessionCount_one	{{formattedCount}} 个会话
+translation.settingsPages.playbookEditorPage.sessionCount_other	{{formattedCount}} 个会话
+translation.settingsPages.playbookEditorPage.userCount_one	{{formattedCount}} 个用户
+translation.settingsPages.playbookEditorPage.userCount_other	{{formattedCount}} 个用户
+translation.settingsPages.playbookEditorPage.mergedPrCount_one	{{formattedCount}} 个已合并 PR
+translation.settingsPages.playbookEditorPage.mergedPrCount_other	{{formattedCount}} 个已合并 PR
+translation.settingsPages.playbookEditorPage.deleteConfirmation	确定要删除「{{title}}」吗？此操作无法撤销
+translation.settingsPages.playbookEditorPage.enterNamePlaybook	为你的 playbook 输入名称
+translation.settingsPages.playbookEditorPage.manual	手动
+translation.settingsPages.scheduleEditorPage.allRepositories	所有仓库
+translation.settingsPages.scheduleEditorPage.repositoriesSelected	已选 {{selectedReposCount}} 个仓库
+translation.settingsPages.scheduleEditorPage.searchRepositories	搜索仓库…
+translation.settingsPages.scheduleEditorPage.loadingRepositories	正在加载仓库…
+translation.settingsPages.scheduleEditorPage.noRepositoriesFound	未找到仓库
+translation.settingsPages.scheduleEditorPage.aTagIsRequiredBeforeThis	保存或运行此计划前需要一个标签
+translation.settingsPages.scheduleEditorPage.loading	加载中…
+translation.settingsPages.scheduleEditorPage.noSessionsHaveBeenCreatedBy	此计划还没有创建过会话
+translation.settingsPages.scheduleEditorPage.error	错误
+translation.settingsPages.scheduleEditorPage.paused	已暂停
+translation.settingsPages.scheduleEditorPage.active	活跃
+translation.settingsPages.scheduleEditorPage.none	无
+translation.settingsPages.scheduleEditorPage.noChannelsFound	未找到频道。
+translation.settingsPages.scheduleEditorPage.loadingChannels	正在加载频道…
+translation.settingsPages.scheduleEditorPage.searchChannels	搜索频道…
+translation.settingsPages.scheduleEditorPage.noSkill	无技能
+translation.settingsPages.scheduleEditorPage.noPlaybook	无 playbook
+translation.settingsPages.scheduleEditorPage.openPlaybook	打开 playbook
+translation.settingsPages.scheduleEditorPage.scheduledTimeMustBeInThe	计划时间必须在未来
+translation.settingsPages.scheduleEditorPage.type	类型
+translation.settingsPages.scheduleEditorPage.whenThisScheduleShouldRun	此计划应何时运行
+translation.settingsPages.scheduleEditorPage.runAt	运行时间
+translation.settingsPages.scheduleEditorPage.targetSession	目标会话
+translation.settingsPages.scheduleEditorPage.sendPromptAsAMessageTo	把提示词作为消息发送到目标会话
+translation.settingsPages.scheduleEditorPage.selectASession	选择一个会话
+translation.settingsPages.scheduleEditorPage.frequency	频率
+translation.settingsPages.scheduleEditorPage.prompt	提示词
+translation.settingsPages.scheduleEditorPage.promptPlaceholder	描述 Devin 应该做什么…
+translation.settingsPages.scheduleEditorPage.recurring	周期性
+translation.settingsPages.scheduleEditorPage.noneWillStartANewSession	无（将启动新会话）
+translation.settingsPages.scheduleEditorPage.status	状态
+translation.settingsPages.scheduleEditorPage.runsAs	运行身份…
+translation.settingsPages.scheduleEditorPage.registeredAuthorForNewSchedules	新计划的注册作者
+translation.settingsPages.scheduleEditorPage.youAfterSaving	你（保存后）
+translation.settingsPages.scheduleEditorPage.sessionTag	会话标签
+translation.settingsPages.scheduleEditorPage.required	必填
+translation.settingsPages.scheduleEditorPage.skill	技能
+translation.settingsPages.scheduleEditorPage.playbook	Playbook
+translation.settingsPages.scheduleEditorPage.availableToSchedulesWithNewSessions	对启动新会话的计划可用
+translation.settingsPages.scheduleEditorPage.autoApproveStartingChildSessions	自动批准启动子会话
+translation.settingsPages.scheduleEditorPage.skipSubSessionCreationApproval	跳过子会话创建批准
+translation.settingsPages.scheduleEditorPage.repositories	仓库
+translation.settingsPages.scheduleEditorPage.directDevinToRelevantRepositories	把 Devin 指向相关仓库
+translation.settingsPages.scheduleEditorPage.emailNotifications	邮件通知
+translation.settingsPages.scheduleEditorPage.chooseWhenToBeNotifiedOf	选择何时收到计划运行的通知
+translation.settingsPages.scheduleEditorPage.slackChannel	Slack 频道
+translation.settingsPages.scheduleEditorPage.lastRun	上次运行
+translation.settingsPages.scheduleEditorPage.unknownUser	未知用户
+translation.settingsPages.scheduleEditorPage.noTagSelected	未选择标签
+translation.settingsPages.scheduleEditorPage.yes	是
+translation.settingsPages.scheduleEditorPage.no	否
+translation.settingsPages.scheduleEditorPage.pause	暂停
+translation.settingsPages.scheduleEditorPage.resume	恢复
+translation.settingsPages.scheduleEditorPage.edit	编辑
+translation.settingsPages.scheduleEditorPage.creating	创建中…
+translation.settingsPages.scheduleEditorPage.goToSession	前往会话
+translation.settingsPages.scheduleEditorPage.runNow	立即运行
+translation.settingsPages.scheduleEditorPage.delete	删除
+translation.settingsPages.scheduleEditorPage.save	保存
+translation.settingsPages.scheduleEditorPage.scheduleName	计划名称…
+translation.settingsPages.scheduleEditorPage.createdBy	由 {{name}} 创建
+translation.settingsPages.scheduleEditorPage.lastEditedBy	由 {{name}} 最后编辑
+translation.settingsPages.scheduleEditorPage.notice	注意
+translation.settingsPages.scheduleEditorPage.mitigatePromptInjectionRiskByInstructing	通过指示计划中的 Devin 只与可信数据交互来降低 prompt 注入风险。
+translation.settingsPages.scheduleEditorPage.details	详情
+translation.settingsPages.scheduleEditorPage.pastSessions	过往会话
+translation.settingsPages.scheduleEditorPage.deleteSchedule	删除计划
+translation.settingsPages.scheduleEditorPage.untitledSchedule	未命名计划
+translation.settingsPages.scheduleEditorPage.always	总是
+translation.settingsPages.scheduleEditorPage.failureOnly	仅失败时
+translation.settingsPages.scheduleEditorPage.never	从不
+translation.settingsPages.scheduleEditorPage.oneTime	一次性
+translation.settingsPages.scheduleEditorPage.skillsOnlyNewSession	技能只能在启动新会话时使用
+translation.settingsPages.scheduleEditorPage.playbooksOnlyNewSession	Playbook 只能在启动新会话时使用
+translation.settingsPages.scheduleEditorPage.deleteConfirmation	确定要删除计划「{{name}}」吗？此操作无法撤销。
+translation.settingsPages.scheduleEditorPage.notSet	未设置
+translation.settingsPages.scheduleEditorPage.invalidDate	无效日期
+translation.settingsPages.scheduleEditorPage.newSchedule	新计划
+translation.settingsPages.scheduleEditorPage.scheduleDetails	计划详情
+translation.settingsPages.playbookPage.playbookNotFound	未找到 playbook
+translation.settingsPages.playbooksPage.createPlaybook	创建 playbook
+translation.settingsPages.playbooksPage.name	名称
+translation.settingsPages.playbooksPage.macro	宏
+translation.settingsPages.playbooksPage.createdBy	创建者
+translation.settingsPages.playbooksPage.lastUpdated	最后更新
+translation.settingsPages.playbooksPage.searchPlaybooks	搜索 playbook…
+translation.settingsPages.playbooksPage.lookingForEnterprisePlaybooks	在找企业级 playbook？
+translation.settingsPages.playbooksPage.reusableSystemPromptsThatCustomizeHow	自定义 Devin 工作方式的可复用系统提示词。详见我们的<docsLink>文档</docsLink>。
+translation.settingsPages.playbooksPage.organizationTab	组织
+translation.settingsPages.playbooksPage.enterpriseTab	企业
+translation.settingsPages.playbooksPage.noPlaybooksMatchSearch	没有匹配你搜索的 playbook
+translation.settingsPages.playbooksPage.noPlaybooksYet	还没有 playbook
+translation.settingsPages.playbooksPage.tryDifferentSearchTerm	换个搜索词试试
+translation.settingsPages.playbooksPage.createPlaybookGetStarted	创建一个 playbook 开始使用
+translation.settingsPages.playbooksPage.loadFailedTitle	无法加载 playbook
+translation.settingsPages.playbooksPage.loadFailedDescription	playbook 列表没有加载出来。请稍后重试。
+translation.settingsPages.playbooksPage.system	系统
+translation.settingsPages.schedulesPage.paused	已暂停
+translation.settingsPages.schedulesPage.error	错误
+translation.settingsPages.schedulesPage.active	活跃
+translation.settingsPages.schedulesPage.once	一次：{{when}}
+translation.settingsPages.schedulesPage.oneTimeNotSet	一次性（未设置）
+translation.settingsPages.schedulesPage.never	从不
+translation.settingsPages.schedulesPage.name	名称
+translation.settingsPages.schedulesPage.frequency	频率
+translation.settingsPages.schedulesPage.lastRun	上次运行
+translation.settingsPages.schedulesPage.status	状态
+translation.settingsPages.schedulesPage.automateRecurringOrOneTimeDevin	自动化周期性或一次性的 Devin 会话。<docsLink>了解更多</docsLink>
+translation.settingsPages.schedulesPage.schedulesIsALegacyFeatureMigrate	Schedules 是旧功能——请迁移到 Automations
+translation.settingsPages.schedulesPage.goToAutomations	前往 Automations
+translation.settingsPages.schedulesPage.automationsSupportsSchedulesAndMoreIncluding	Automations 支持计划及更多功能，包括事件驱动触发器。现有计划将继续工作，但新计划应创建为 Automation。Devin 可以帮你迁移计划——直接要求它即可，它有相应的工具。
+translation.settingsPages.schedulesPage.searchSchedules	搜索计划…
+translation.settingsPages.schedulesPage.filterSchedulesByOwner	按所有者筛选计划
+translation.settingsPages.schedulesPage.createAutomation	创建 automation
+translation.settingsPages.schedulesPage.createSchedule	创建计划
+translation.settingsPages.schedulesPage.unableToLoadSchedules	无法加载计划。
+translation.settingsPages.schedulesPage.tryAgain	重试
+translation.settingsPages.schedulesPage.noSchedulesFound	未找到计划
+translation.settingsPages.schedulesPage.viewAllSchedules	查看所有计划
+translation.settingsPages.schedulesPage.tryADifferentSearch	换个搜索试试
+translation.settingsPages.schedulesPage.createAnAutomationToScheduleRecurring	创建一个 Automation 来安排周期性 Devin 会话
+translation.settingsPages.schedulesPage.createAScheduleToAutomateRecurring	创建一个计划来自动化周期性 Devin 会话
+translation.settingsPages.schedulesPage.schedules	你的计划
+translation.settingsPages.schedulesPage.allSchedules	所有计划
+translation.settingsPages.contentCharCount.lengthWarning	此 playbook 很长，可能会分散 Devin 的注意力。考虑拆成更小的 playbook，从子会话运行。
+translation.settingsPages.contentCharCount.chars	{{value}} 字符
+translation.settingsPages.contentCharCount.thousandChars	{{value}}K 字符
+translation.settingsPages.blueprintGitPath.syncedFrom	从 {{resolvedProvider}} 同步
+translation.settingsPages.blueprintSchema.aSetupStepMustSpecifyEither	setup 步骤必须指定 'run' 或 'uses' 之一，不能两者都有
+translation.settingsPages.blueprintSchema.withIsOnlyValidOnSteps	'with' 只对有 'uses' 的步骤有效
+translation.settingsPages.blueprintSchema.runsOnNotEmpty	'runs-on' 不能是空列表
+translation.settingsPages.blueprintSchema.includesNoParent	'includes' 路径不能包含 '..'
+translation.settingsPages.blueprintSchema.shellInvalid	'shell' 必须是 'default'、'bash' 或 'powershell'
+translation.settingsPages.blueprintSchema.lineLine	第 {{line}} 行：
+translation.settingsPages.useYamlValidation.invalidYaml	无效 YAML
+translation.settingsPages.addBlueprintReposModal.addRepositories	添加仓库
+translation.settingsPages.addBlueprintReposModal.addRepositoriesToYourEnvironmentConfiguration	把仓库添加到你的环境配置
