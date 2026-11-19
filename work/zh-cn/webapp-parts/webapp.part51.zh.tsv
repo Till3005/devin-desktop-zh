@@ -1,0 +1,500 @@
+review.merge.cannotMerge	无法合并
+review.merge.allChecksApprovalsMet	可以合并
+review.merge.requiredChecksNotPassed	检查未通过
+review.merge.waitingOnRequiredChecks	检查进行中
+review.merge.nonRequiredChecksFailing	可选检查未通过
+review.merge.branchHasConflicts	存在合并冲突
+review.merge.noPermissionToMerge	没有合并权限
+review.merge.reviewRequired	需要评审
+review.merge.approvingReviewsRequired_one	需要 {{count}} 个批准评审
+review.merge.approvingReviewsRequired_other	需要 {{count}} 个批准评审
+review.merge.checksStillRunning	可选检查进行中
+review.merge.checkingMergeStatus	正在检查合并状态…
+review.merge.looksReadyToMerge	看起来可以合并，确认中…
+review.merge.mergeStatusUnavailable	合并状态不可用
+review.merge.githubSsoRequired	需要 GitHub SSO
+review.merge.restoreAccess	恢复访问
+review.merge.convertToDraft	转为草稿
+review.merge.reviewDraft	评审草稿
+review.merge.closePullRequest	关闭拉取请求
+review.merge.prMerging	PR 合并中
+review.merge.mergeThisPr	合并此拉取请求
+review.merge.prReadyForReview	就绪待评审
+review.merge.markThisPrReady	将此拉取请求标记为就绪待评审
+review.merge.viewReviewersAndChecks	{{message}} ——查看评审者和检查
+review.merge.viewReviewers	{{message}} ——查看评审者
+review.merge.viewChecks	{{message}} ——查看检查
+review.merge.viewPrDetails	{{message}} ——查看检查、评审者、负责人和标签
+review.merge.draftCannotMerge	草稿 PR 无法合并
+review.merge.changesRequested	已有人要求修改
+review.merge.blockedByBranchProtection	被分支保护阻止
+review.merge.branchOutOfDate	分支已过时
+review.merge.notReadyToMerge	尚不能合并
+review.merge.stackBlockedDownstack	堆栈中下方的拉取请求还不能合并
+review.merge.waitingOnCodeOwnerReview	等待 code owner 评审
+review.merge.waitingOnCodeOwnerReviewFrom	等待 {{reviewers}} 的 code owner 评审
+review.merge.queuedToMergePosition	已排队合并（第 {{position}} 位）
+review.merge.prStillDraft	草稿
+review.merge.moreActions	更多操作
+review.merge.morePrActions	更多拉取请求操作
+review.merge.moreMergeActions	更多合并操作
+review.merge.bypassRulesAndMerge	不等待要求直接合并（绕过规则）
+review.merge.bypassRulesDialogTitle	绕过规则合并？
+review.merge.bypassRulesDialogDescription	此拉取请求不满足仓库的合并要求。你的 GitHub 账户被允许绕过它们，所以现在合并会跳过必需的检查和评审。
+review.merge.selectMergeMethod	选择合并方式
+review.merge.fixConflicts	修复冲突
+review.merge.askingDevin	正在询问 Devin…
+review.merge.askedDevinToFixConflicts	已请 Devin 解决合并冲突
+review.merge.retryFixConflicts	重试
+review.merge.failedToAskDevinToFixConflicts	无法联系到 Devin 会话
+review.merge.approvalsOfRequired_one	{{approved}}/{{required}} 个批准
+review.merge.approvalsOfRequired_other	{{approved}}/{{required}} 个批准
+review.merge.queuePosition_ordinal_one	队列第 {{position}} 位
+review.merge.queuePosition_ordinal_two	队列第 {{position}} 位
+review.merge.queuePosition_ordinal_few	队列第 {{position}} 位
+review.merge.queuePosition_ordinal_other	队列第 {{position}} 位
+review.merge.addToMergeQueue	加入合并队列
+review.discussion.composer.bold	加粗
+review.discussion.composer.italic	斜体
+review.discussion.composer.strikethrough	删除线
+review.discussion.composer.code	代码
+review.discussion.composer.heading	标题
+review.discussion.composer.quote	引用
+review.discussion.composer.link	链接
+review.discussion.composer.bulletList	无序列表
+review.discussion.composer.numberedList	有序列表
+review.discussion.composer.taskList	任务列表
+review.discussion.composer.suggestion	建议修改
+review.discussion.composer.attach	附加文件
+review.discussion.composer.preview	预览
+review.discussion.composer.write	编辑
+review.discussion.composer.nothingToPreview	没有可预览的内容
+review.discussion.composer.dropToAttach	拖放以附加
+review.discussion.composer.uploading	正在上传 {{name}}…
+review.discussion.composer.uploadFailed	上传 {{name}} 失败
+review.discussion.reply	回复
+review.discussion.edit	编辑
+review.discussion.delete	删除
+review.discussion.copyLink	复制链接
+review.discussion.addComment	添加文件评论
+review.discussion.suggestChange	建议修改
+review.discussion.applySuggestion	应用建议
+review.discussion.noDescription	没有描述
+review.discussion.addDescription	添加描述
+review.discussion.showLess	收起
+review.discussion.addReaction	添加回应
+review.discussion.addADescription	<button>添加描述</button>到此拉取请求
+review.discussion.addCommentPlaceholder	添加评论…
+review.discussion.analysisFailed	分析失败
+review.discussion.andMore	还有 {{count}} 个
+review.discussion.applied	已应用
+review.discussion.applySuggestionFor	应用 {{filePath}} 的建议
+review.discussion.applying	应用中…
+review.discussion.approved	已批准
+review.discussion.askDevin	Ask Devin
+review.discussion.bots	Bot
+review.discussion.cannotApplyToFork	无法对此 fork PR 应用建议
+review.discussion.clearAll	全部清除
+review.discussion.commented	已评论
+review.discussion.commitMessage	提交信息
+review.discussion.commitMessageRequired	需要提交信息
+review.discussion.connectToReact	连接 {{provider}} 以回应
+review.discussion.copied	已复制！
+review.discussion.copyCommitSha	复制提交 SHA
+review.discussion.copyMessage	复制消息
+review.discussion.copySha	复制 SHA
+review.discussion.moreActions	更多操作
+review.discussion.devinIsAnalyzing	Devin 正在分析…
+review.discussion.dismissed	已驳回
+review.discussion.editCommentPlaceholder	编辑评论…
+review.discussion.editDescription	编辑描述
+review.discussion.enterPrDescription	输入 PR 描述…
+review.discussion.extendedDescription	扩展描述
+review.discussion.filter	筛选
+review.discussion.filtered	已筛选（{{count}}）
+review.discussion.generateAnalysis	生成分析
+review.discussion.generatingAnalysis	正在生成分析
+review.discussion.goToInlineComment	前往行内评论
+review.discussion.loadingComments	正在加载评论…
+review.discussion.markedAsResolved	将此对话标记为已解决。
+review.discussion.newCommit	新提交
+review.discussion.openInProvider	在 {{provider}} 中打开
+review.discussion.pendingReview	待评审
+review.discussion.people	人员
+review.discussion.addToReview	加入评审
+review.discussion.adding	加入中
+review.discussion.comment	评论
+review.discussion.commenting	评论中
+review.discussion.moreSubmitOptions	更多选项
+review.discussion.postCommentsToPr	发布评论到此拉取请求
+review.discussion.postToProvider	发布到 {{provider}}
+review.discussion.posting	发布中
+review.discussion.postingComments	正在发布评论
+review.discussion.prIsClosed	PR 已关闭
+review.discussion.prIsMerged	PR 已合并
+review.discussion.reAnalyzeCommit	重新分析提交
+review.discussion.showingCommits	显示 {{total}} 个提交中的 {{shown}} 个
+review.discussion.readMore	阅读更多
+review.discussion.regenerateDisabledPublic	公开示例禁用重新生成分析
+review.discussion.replyPlaceholder	回复此讨论串…
+review.discussion.requestedChanges	已要求修改
+review.discussion.retryAnalysis	重试分析
+review.discussion.reviewersCount	评审者（{{count}}）
+review.discussion.selectAll	全选
+review.discussion.startAReview	开始评审
+review.discussion.suggestedChange	建议的更改
+review.discussion.suggestionOutdated	建议已过时
+review.discussion.leaveCommentPlaceholder	留下评论…
+review.discussion.lineNumber	第 {{line}} 行
+review.discussion.noDiscussionYet	还没有讨论
+review.discussion.newFileComment	新文件评论
+review.discussion.newComment	新评论
+review.discussion.existingComment	评论
+review.discussion.resolvedByUser	{{login}} 将此对话标记为已解决。
+review.overview.devinAiAnalysis	Devin 的分析
+review.overview.fromLastAnalysis	来自上次分析
+review.overview.generating	生成中…
+review.overview.viewFullSummary	查看完整摘要
+review.connections.gitConnections	Git 连接
+review.connections.link	关联
+review.connections.linkAccountsDescription	关联你的个人账户以评论和批准拉取请求。
+review.connections.linking	关联中…
+review.connections.noProvidersAvailable	没有可关联的 git 提供商。请让你的组织管理员设置 GitHub 或 GitLab 集成。
+review.connections.notConnected	未连接
+review.connections.unlink	取消关联
+review.connections.unlinkAccountDescription	这将取消关联你的 {{label}} 账户。你可以随时重新关联。
+review.connections.unlinkAccountTitle	取消关联账户？
+review.connections.unlinking	取消关联中…
+review.onboarding.actions.back	返回
+review.onboarding.actions.close	关闭
+review.onboarding.actions.connect	连接
+review.onboarding.actions.done	完成
+review.onboarding.actions.next	下一步
+review.onboarding.actions.skip	跳过
+review.onboarding.callout.subtitle	连接你的个人 git 账户以评论和批准拉取请求
+review.onboarding.callout.title	解锁完整体验
+review.onboarding.connect.sectionLabel	个人连接
+review.onboarding.connect.subtitle	评审评论、要求修改和批准拉取请求需要此项。
+review.onboarding.connect.title	连接个人账户
+review.onboarding.connect.viewAllSettings	在设置中编辑
+review.onboarding.intro.features	<EXPR>
+review.onboarding.intro.subtitle	组织 diff、检测移动代码、标记潜在 bug 的代码评审。
+review.onboarding.intro.title	Devin Review
+review.onboarding.language.followDisplay	跟随你的显示语言
+review.onboarding.language.followDisplayHint	评审跟随你账户的显示语言
+review.onboarding.language.searchPlaceholder	搜索语言…
+review.onboarding.language.noResultsFound	未找到结果
+review.onboarding.language.noResultsDescription	换个搜索词试试。
+review.onboarding.language.subtitle	选择 Devin 评审评论使用的语言。
+review.onboarding.language.title	Devin 的评审评论应该用什么语言？
+review.onboarding.language.viewAllSettings	在设置中编辑
+review.onboarding.trigger.modes.auto.description	在 PR 就绪时及此后每次推送时运行
+review.onboarding.trigger.modes.auto.title	自动分析
+review.onboarding.trigger.modes.manual.description	无自动分析
+review.onboarding.trigger.modes.manual.title	手动
+review.onboarding.trigger.modes.on_creation.description	Devin 在 PR 就绪时分析一次，通常在其打开时
+review.onboarding.trigger.modes.on_creation.title	当 PR 就绪时
+review.onboarding.trigger.noPermission	你的评审角色不允许此选项
+review.onboarding.trigger.subtitle	选择何时运行分析。
+review.onboarding.trigger.title	Devin 应该何时分析你的 PR？
+review.onboarding.trigger.viewInSettings	在设置中编辑
+review.upsell.orgAcuLimitContactAdmin	需要企业管理员为你组织提高 ACU 上限才能运行完整分析。
+review.upsell.orgGroupAcuLimitContactAdmin	需要企业管理员为你组织所属组提高 ACU 上限才能运行完整分析。
+review.upsell.orgDollarLimitContactAdmin	需要企业管理员为你组织提高花费上限才能运行完整分析。
+review.upsell.orgGroupDollarLimitContactAdmin	需要企业管理员为你组织所属组提高花费上限才能运行完整分析。
+review.upsell.betterFasterReview	更好更快的代码评审
+review.upsell.bugDetection	Bug 检测
+review.upsell.dismiss	关闭
+review.upsell.notInChapterYet	还没有章节
+review.upsell.notInChapterYetDescription	来自上次分析未覆盖的文件的变更。
+review.upsell.chaptersFromLastAnalysis	上次分析的章节。新分析正在运行。
+review.upsell.chaptersFromLastAnalysisNotAnalyzed	上次分析的章节。此提交尚未被分析。
+review.upsell.reorganizingChanges	正在分析并生成指南…
+review.upsell.smartDiffs	指南视图
+review.upsell.smartDiffsReady	指南视图就绪
+review.upsell.switchToSmartDiffs	切换到指南视图
+review.digest.resizeSplit	调整分栏
+review.digest.shortcutApproving	正在批准 #{{number}}…
+review.digest.shortcutMerging	正在合并 #{{number}}…
+review.digest.shortcutMerged	已合并 #{{number}}
+review.digest.shortcutEnqueued	已把 #{{number}} 加入合并队列
+review.digest.shortcutCannotApprove	你无法批准 #{{number}}
+review.digest.shortcutPendingReview	你在 #{{number}} 上有待提交的评审。打开它以提交。
+review.digest.shortcutCannotMerge	无法合并 #{{number}}：{{reason}}
+review.digest.shortcutOpenToMerge	打开 #{{number}} 以合并
+review.digest.shortcutReadFailed	无法检查 #{{number}}。请重试。
+review.digest.loading	加载中…
+review.digest.loadingPlain	加载中
+review.digest.noChecks	没有检查
+review.digest.ciFailing	CI 失败
+review.digest.ciPending	CI 进行中
+review.digest.ciPassing	CI 通过
+review.digest.changesRequested	已要求修改
+review.digest.inMergeQueue	在合并队列中
+review.digest.readyToMerge	可以合并
+review.digest.mergeBlocked	已阻塞
+review.digest.approved	已批准
+review.digest.moreActions	更多操作
+review.digest.readyForReview	就绪待评审
+review.digest.convertToDraft	转为草稿
+review.digest.closePullRequest	关闭拉取请求
+review.digest.openInProvider	在 {{provider}} 中打开
+review.digest.convertedToDraft	已转为草稿
+review.digest.failedToConvertToDraft	转为草稿失败
+review.digest.markedReadyForReview	已标记为就绪待评审
+review.digest.failedToMarkReady	标记就绪待评审失败
+review.digest.merged	已合并
+review.digest.closed	已关闭
+review.digest.draft	草稿
+review.digest.open	开放
+review.digest.unresolvedBugs	未解决的 bug
+review.digest.unresolvedFlags	未解决的标记
+review.digest.ssoAuthRequired	列出某些 PR 需要 GitHub SSO 授权。请重新关联你的 GitHub 账户以授予访问权。
+review.digest.relinkGitHub	重新关联 GitHub
+review.digest.reviewAnyPrUrl	分析任何 GitHub 拉取请求
+review.digest.reviewAnyPrUrlGeneric	分析任何拉取请求
+review.digest.submitPrUrl	提交 PR URL
+review.digest.or	或
+review.digest.addReposToViewPrs	添加仓库以查看你的 PR
+review.digest.connectGitProviderToViewPrs	连接 git 提供商以查看你的 PR
+review.digest.contactAdminToAddRepos	联系管理员添加仓库
+review.digest.createPrWithDevin	用 Devin 创建 PR
+review.digest.allRepos	所有仓库
+review.digest.selectReposToViewPrs	选择仓库以查看你的 PR
+review.digest.reposCount_one	{{count}} 个仓库
+review.digest.reposCount_other	{{count}} 个仓库
+review.digest.prCount_one	{{count}} 个拉取请求
+review.digest.prCount_other	{{count}} 个拉取请求
+review.digest.searchRepos	搜索仓库…
+review.digest.noReposFound	未找到仓库。
+review.digest.selectOwner	选择所有者
+review.digest.searchOwners	搜索所有者…
+review.digest.noOwnersFound	未找到所有者。
+review.digest.failedToLoadPrs	加载拉取请求失败
+review.digest.notSupportedWithCliTokens	Devin Review 不支持 CLI token
+review.digest.installGitHubAppToUseReview	安装 GitHub App 以使用 Devin Review。你可以在设置中管理连接。
+review.digest.goToSettings	前往设置
+review.digest.gitConnections	Git 连接
+review.digest.refresh	刷新
+review.digest.categoryOpen	开放
+review.digest.categoryDrafts	草稿
+review.digest.categoryClosed	已关闭
+review.digest.categoryOpenedByDevin	由 Devin 打开
+review.digest.devinRequestedAuthor	Devin（{{requester}}）
+review.digest.unresolvedSecurityFindings	未解决的安全发现项
+review.digest.unauthedPageTitle	Review | 每次代码评审都含安全检查
+review.digest.unauthedPageDescription	Review 在每个 PR 中自动发现漏洞、bug 和被移动的代码。在任何 GitHub 仓库上试试。
+review.detail.copied	已复制！
+review.detail.openedAgo	打开于 {{time}}
+review.detail.mergedAgo	合并于 {{time}}
+review.detail.closedAgo	关闭于 {{time}}
+review.detail.createdAgo	创建于 {{time}}
+review.detail.copyBranchName	复制分支名
+review.detail.copySourceBranchName	复制源分支名
+review.detail.copyTargetBranchName	复制目标分支名
+review.detail.baseBranchPrLink	{{title}} #{{number}}（{{branch}} 的拉取请求）
+review.detail.diffBreakdown.changeDisplay	更改行数的显示方式
+review.detail.diffBreakdown.filtered	测试和生成的行已隐藏。
+review.detail.diffBreakdown.relevant	相关
+review.detail.diffBreakdown.both	两者
+review.detail.diffBreakdown.full	全部
+review.detail.diffBreakdown.total	总计
+review.detail.diffBreakdown.tests	测试
+review.detail.diffBreakdown.docs	文档
+review.detail.diffBreakdown.generated	生成的
+review.detail.diffBreakdown.config	配置
+review.detail.diffBreakdown.infra	基础设施
+review.detail.diffBreakdown.translations	翻译
+review.detail.diffBreakdown.code	代码
+review.detail.loadingDiffs	正在加载 diff…
+review.detail.loadingDiffsDesc	大型 PR 可能需要一会儿
+review.detail.failedToAnalyzePr	分析 PR 失败
+review.detail.somethingWentWrong	处理此 PR 时出错
+review.detail.connectionLostBanner	连接已断开。部分数据可能已过时。
+review.detail.rateLimitedBanner	{{provider}} API 速率超限。检查、评审者和评论可能缺失或过时。
+review.detail.prTooLargeBanner	此拉取请求变更的文件太多，{{provider}} 无法加载。检查、评审者和评论可能缺失或过时。
+review.detail.providerDataUnavailable	无法从 {{provider}} 加载。请几分钟后重试。
+review.detail.reviewThreadsUnavailable	无法加载评审评论。请几分钟后重试。
+review.detail.ciChecksUnavailable	无法加载 CI 检查。请几分钟后重试。
+review.detail.descriptionUnavailable	无法从 {{provider}} 加载描述。请几分钟后重试。
+review.detail.titleUnavailable	标题不可用
+review.detail.retrying	重试中
+review.detail.regenerate	重新生成
+review.detail.viewPreviousChanges	查看上次分析的变更（{{sha}}）
+review.detail.merged	已合并
+review.detail.closed	已关闭
+review.detail.draft	草稿
+review.detail.open	开放
+review.detail.pageTitleWithPrTitle	{{title}} · Review #{{prNumber}} · {{repo}}
+review.detail.pageTitle	Review #{{prNumber}} · {{repo}}
+review.toasts.signInRequired	需要登录
+review.toasts.cannotRunAnalysis	无法运行分析
+review.toasts.alreadyAnalyzed	已分析过
+review.toasts.analysisStarted	分析已开始
+review.toasts.failedToStartAnalysis	启动分析失败
+review.toasts.failedToSubmitReview	提交评审失败
+review.toasts.failedToMerge	合并拉取请求失败
+review.toasts.newCommitsPushed	此拉取请求有新提交被推送。评审更改后重试。
+review.toasts.stackMergeStillRunning	堆栈合并仍在 GitHub 上进行
+review.toasts.failedToJoinOrg	加入组织失败
+review.toasts.failedToApplySuggestion	应用建议的修复失败
+review.toasts.failedToAddComment	添加评论失败
+review.toasts.failedToAddReply	添加回复失败
+review.toasts.failedToDeleteComment	删除评论失败
+review.toasts.failedToDiscardReview	放弃评审失败
+review.toasts.failedToUpdateComment	更新评论失败
+review.toasts.failedToUpdateDescription	更新描述失败
+review.toasts.failedToUpdateTitle	更新标题失败
+review.toasts.failedToRemoveReaction	移除回应失败
+review.toasts.failedToAddAssignee	添加负责人失败
+review.toasts.failedToRemoveAssignee	移除负责人失败
+review.toasts.failedToAddLabel	添加标签失败
+review.toasts.failedToRemoveLabel	移除标签失败
+review.toasts.failedToRemoveReviewer	移除评审者失败
+review.toasts.failedToResolveThread	解决讨论串失败
+review.toasts.failedToUnresolveThread	取消解决讨论串失败
+review.toasts.failedToTriageFinding	更新发现项失败
+review.toasts.alreadyAnalyzedCompleted	最新提交已有完成的分析。
+review.toasts.alreadyAnalyzedInProgress	最新提交已有分析在进行中。
+review.toasts.analysisStartedDesc	Devin 正在分析此拉取请求。
+review.toasts.approved	批准了
+review.toasts.approvedPullRequest	已批准拉取请求
+review.toasts.approvedPullRequestDescription	PR #{{prNumber}}
+review.toasts.autoMergeDisabled	自动合并已禁用
+review.toasts.autoMergeDisabledDescription	PR #{{prNumber}} 不会自动合并
+review.toasts.autoMergeEnabled	自动合并已开启
+review.toasts.autoMergeEnabledDescription	PR #{{prNumber}} 将在所有检查通过时合并
+review.toasts.branchCopied	分支名已复制
+review.toasts.commentedOn	评论了
+review.toasts.convertedToDraft	已转为草稿
+review.toasts.copyFailed	复制失败
+review.toasts.copiedLink	链接已复制
+review.toasts.copiedMessage	消息已复制
+review.toasts.draftNotAvailable	草稿拉取请求不可用完整分析。
+review.toasts.failedToAddReaction	添加回应失败
+review.toasts.failedToDisableAutoMerge	禁用自动合并失败
+review.toasts.removedFromMergeQueue	已移出合并队列
+review.toasts.removedFromMergeQueueDescription	PR #{{prNumber}} 不再排队等待合并
+review.toasts.failedToRemoveFromMergeQueue	移出合并队列失败
+review.toasts.failedToMarkReady	标记拉取请求为就绪待评审失败
+review.toasts.failedToPostToProvider	发布到 {{providerName}} 失败
+review.toasts.failedToRequestReview	请求评审失败
+review.toasts.ghesOauthFailed	启动 GitHub Enterprise OAuth 流程失败
+review.toasts.ghesUnlinkFailed	取消关联 GitHub Enterprise 账户失败
+review.toasts.ghesUnlinked	GitHub Enterprise 账户已取消关联
+review.toasts.bitbucketDataCenterOauthFailed	启动 Bitbucket OAuth 流程失败
+review.toasts.bitbucketDataCenterUnlinkFailed	取消关联 Bitbucket 账户失败
+review.toasts.bitbucketDataCenterUnlinked	Bitbucket 账户已取消关联
+review.toasts.gitlabSelfHostedOauthFailed	启动 GitLab OAuth 流程失败
+review.toasts.gitlabSelfHostedUnlinkFailed	取消关联 GitLab 账户失败
+review.toasts.gitlabSelfHostedUnlinked	GitLab 账户已取消关联
+review.toasts.linkCopied	链接已复制
+review.toasts.noAccessToAnalyze	你没有分析此仓库的权限。
+review.toasts.noReviewPermission	你没有使用 Devin Review 的权限。联系你的管理员申请访问。
+review.toasts.notEligible	你不具备对此 PR 运行完整分析的资格。
+review.toasts.orgAcuLimitReached	你的组织已达 ACU 上限，Devin 无法运行完整分析。
+review.toasts.contractExpired	你组织的 Devin 合同已结束，Devin 无法运行完整分析。联系你的客户经理续期。
+review.toasts.prDescriptionCopied	拉取请求描述已复制
+review.toasts.prNumberCopied	拉取请求编号已复制
+review.toasts.prNotFound	未找到此拉取请求。
+review.toasts.prTitleCopied	拉取请求标题已复制
+review.toasts.rateLimitExceeded	速率超限。请几分钟后重试。
+review.toasts.requestedChangesOn	要求修改了
+review.toasts.signInRequiredDesc	登录以运行分析。
+review.toasts.somethingWentWrong	出了点问题。请重试。
+review.toasts.somethingWentWrongStartingAnalysis	启动分析时出了问题。
+review.toasts.submittedReviewOn	提交了评审于
+review.toasts.successfullyAction	已成功{{action}}此拉取请求
+review.toasts.suggestedFixApplied	建议的修复已成功应用
+review.toasts.suggestionOutdated	代码已变化——此建议已过时
+review.toasts.trialExpiredNoBalance	你的试用已过期且没有剩余额度。
+review.toasts.spendLimitReached	此 PR 已达自动分析的花费上限。
+review.toasts.triggerModeManual	此仓库设为手动分析。
+review.common.retry	重试
+review.common.cancel	取消
+review.common.save	保存
+review.common.close	关闭
+review.common.collapse	折叠
+review.common.expand	展开
+review.common.splitView	分栏视图
+review.common.splitViewTooNarrow	面板太窄时不可用分栏视图。
+review.common.unifiedView	统一视图
+review.common.files_one	{{count}} 个文件
+review.common.files_other	{{count}} 个文件
+review.common.comments_one	{{count}} 条评论
+review.common.comments_other	{{count}} 条评论
+review.common.open	开放
+review.common.closed	已关闭
+review.common.merged	已合并
+review.common.draft	草稿
+review.common.queued	排队中
+review.common.viewMergeQueue	查看合并队列
+review.common.commentLocation	评论位置
+review.common.comments	评论
+review.common.connectAccountTo	连接你的 {{provider}} 账户以{{action}}。
+review.common.connectOrSignIn	连接 {{provider}} 或登录以{{action}}。
+review.common.connectProvider	连接 {{provider}}
+review.common.copied	已复制！
+review.common.copy	复制
+review.common.copyAll	全部复制
+review.common.codeDiffSettings	代码 diff 设置
+review.common.diffSettings	Diff 设置
+review.common.diffView	Diff 视图
+review.common.featureNotAvailable	{{feature}} 不可用
+review.common.githubSsoRecovery	此组织要求 GitHub 单点登录（SSO）。<ssoLink>在 GitHub 上登录该组织</ssoLink>，然后重新授权 Devin。如果 GitHub 跳过授权，请在 <appsLink>已授权的 GitHub Apps</appsLink> 中仅撤销 Devin 的个人授权后重试。
+review.common.reauthorizeGitHub	重新授权 GitHub
+review.common.files	文件
+review.common.floating	浮动
+review.common.hideHighlights	隐藏高亮
+review.common.fileTreeView	文件树视图
+review.common.guideView	指南视图
+review.common.fileTreeOnLeft	文件树在左
+review.common.layout	布局
+review.common.hideWhitespace	隐藏空白
+review.common.hybrid	混合
+review.common.inline	行内
+review.common.join	加入
+review.common.joinOrgWithAccess	或加入一个有访问权的 Devin 组织
+review.common.logIn	登录
+review.common.manageIntegration	管理 {{provider}} 集成
+review.common.orgConnectionUnsupported	此组织的 {{provider}} 连接不支持{{feature}}。
+review.common.providerWriteUnsupported	{{provider}} 拉取请求暂不支持{{feature}}。Devin 仍可分析它们。
+review.common.orgConnectionAdminHint	组织管理员可以通过 Devin GitHub App 连接来启用它。
+review.common.remove	移除
+review.common.noRepoAccess	你的 {{provider}} 账户没有此仓库的写权限。
+review.common.signIn	登录
+review.common.unknown	未知
+review.common.signUp	注册
+review.common.nothingToCopy	没有可复制的内容
+review.newVersionBanner.title	有更新的分析版本可用
+review.newVersionBanner.viewLatestVersion	查看最新版本
+review.newVersionBanner.description	bug 分析在此版本打开后已更新。
+review.customReviewers.title	自定义评审器
+review.customReviewers.statusDetail.pending	此评审器还未开始。
+review.customReviewers.statusDetail.running	此评审器仍在检查拉取请求。
+review.customReviewers.statusDetail.failed	此评审器未完成，所以此分析没有它的结果。
+review.customReviewers.statusDetail.skipped	此评审器没有参与此分析。
+review.customReviewers.error.reviewer_not_enabled	已跳过，因为分析开始时此评审器未启用。
+review.customReviewers.error.instructions_missing	已失败，因为此评审器没有保存的指令。
+review.customReviewers.error.instructions_unreadable	已失败，因为此评审器保存的指令无法读取。
+review.customReviewers.error.review_failed	检查拉取请求时失败。此分析没有此评审器的结果。
+review.customReviewers.error.invalid_report	此分析没有此评审器的结果，因为其报告无法读取。
+review.customReviewers.error.no_report	此评审器完成时未产出报告，所以此分析没有它的结果。
+review.customReviewers.error.dedup_failed	与之前的发现项比较失败。此分析没有此评审器的结果。
+review.customReviewers.error.spend_limit_reached	已跳过，因为此评审器在分析开始前已达其对本拉取请求的花费上限。
+review.customReviewers.noFindings	没有发现项。
+review.customReviewers.findingsUnavailable	无法加载此评审器的发现项。
+review.customReviewers.loadFailed	无法加载此分析的自定义评审器。
+review.customReviewers.rerun	重跑
+review.customReviewers.rerunConflict	无法重跑：拉取请求有新提交或已有分析在进行中。
+review.customReviewers.rerunFailed	无法重跑此评审器。
+review.mergeManager.pillRunning	Autoapprover 运行中
+review.mergeManager.title	Autoapprover
+review.mergeManager.decision.approve	批准
+review.mergeManager.decision.review	需要评审
+review.mergeManager.outcome.autoapproved	已自动批准
+review.mergeManager.outcome.peerApproved	人工批准
+review.mergeManager.outcome.reviewRequired	未自动批准
+review.mergeManager.previousDecision.approve	Devin 批准了上一个提交。
+review.mergeManager.previousDecision.review	上一个提交需要评审。
+review.mergeManager.status.pending	正在等待分类合并风险…
