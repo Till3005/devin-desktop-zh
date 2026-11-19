@@ -1,0 +1,500 @@
+translation.knowledge.manager.autoOrganizeKnowledge	自动整理知识
+translation.knowledge.manager.tip	提示
+translation.knowledge.manager.addingDescriptionsToFoldersHelpsMakeTheAutomatic	给文件夹加描述能让自动整理更准确。
+translation.knowledge.manager.loadingSuggestions	加载建议中…
+translation.knowledge.manager.failedToLoadResultsPleaseTryAgain	加载结果失败。请重试。
+translation.knowledge.manager.selectDestinationFolder	选择目标文件夹
+translation.knowledge.manager.noTriggerSet	未设置触发条件
+translation.knowledge.manager.content	内容
+translation.knowledge.manager.noContent	无内容
+translation.knowledge.manager.movingKnowledge	移动知识中…
+translation.knowledge.manager.confirmOrganization	确认整理
+translation.knowledge.manager.moveToFolder	移到文件夹
+translation.knowledge.manager.moveSelectedItemsToADifferentFolder	把所选项目移到另一个文件夹
+translation.knowledge.manager.autoOrganizeSelection	自动整理所选
+translation.knowledge.manager.letAIAutomaticallyOrganizeItemsIntoFolders	让 AI 自动把项目整理进文件夹
+translation.knowledge.manager.enable	启用
+translation.knowledge.manager.makeSelectedItemsAvailableForDevinToUse	让 Devin 能使用所选项目
+translation.knowledge.manager.disable	禁用
+translation.knowledge.manager.preventDevinFromAccessingSelectedItems	阻止 Devin 访问所选项目
+translation.knowledge.manager.delete	删除
+translation.knowledge.manager.permanentlyDeleteSelectedItems	永久删除所选项目
+translation.knowledge.manager.clearSelection	清除选择
+translation.knowledge.manager.youCanOnlyTakeActionsOnUpTo	一次最多对 50 项操作
+translation.knowledge.manager.takeAction	执行操作
+translation.knowledge.manager.bulkActions	批量操作
+translation.knowledge.manager.takeActionOnSelectedItems_one	对 {{count}} 个所选项目执行操作
+translation.knowledge.manager.takeActionOnSelectedItems_other	对 {{count}} 个所选项目执行操作
+translation.knowledge.manager.searchActions	搜索操作...
+translation.knowledge.manager.searchForKnowledge	搜索知识...
+translation.knowledge.manager.addNewFolder	新建文件夹
+translation.knowledge.manager.newFolder	新文件夹
+translation.knowledge.manager.moreActions	更多操作
+translation.knowledge.manager.autoOrganize	自动整理
+translation.knowledge.manager.tryAgain	重试
+translation.knowledge.manager.itemsSelected	项已选
+translation.knowledge.manager.enterprise	企业
+translation.knowledge.manager.lookingForEnterpriseKnowledge	在找企业知识？
+translation.knowledge.manager.knowledgeUpdatedSuccessfully	知识更新成功
+translation.knowledge.manager.knowledgeDeletedSuccessfully	知识删除成功
+translation.knowledge.manager.knowledgePromotedToEnterpriseSuccessfully	知识已提升到企业级
+translation.knowledge.manager.errorLoadingKnowledge	加载知识出错
+translation.knowledge.manager.discardChangesTitle	放弃未保存的更改？
+translation.knowledge.manager.discardChanges	放弃更改
+translation.knowledge.manager.automaticallyGeneratedKnowledge	自动生成的知识
+translation.knowledge.manager.thisPieceOfKnowledgeIsAutomaticallyGeneratedAnd	此知识是根据你的代码自动生成并定期更新的。
+translation.knowledge.manager.builtInKnowledge	内置知识
+translation.knowledge.manager.cognitionsBuiltInKnowledgeCannotBeEditedBut	Cognition 的内置知识不能编辑，但可随时禁用。
+translation.knowledge.manager.selectARepository	选择仓库
+translation.knowledge.manager.noFoldersFound	未找到文件夹
+translation.knowledge.manager.saving	保存中...
+translation.knowledge.manager.save	保存
+translation.knowledge.manager.promoting	提升中...
+translation.knowledge.manager.promoteToEnterprise	提升到企业级
+translation.knowledge.manager.promoteThisKnowledgeToEnterpriseLevelItWill	把此知识提升到企业级？它将对你企业中所有组织可见
+translation.knowledge.manager.promote	提升
+translation.knowledge.manager.deleteKnowledge	删除知识
+translation.knowledge.manager.untitledKnowledge	未命名知识
+translation.knowledge.manager.details	详情
+translation.knowledge.manager.usage	使用情况
+translation.knowledge.manager.editKnowledge	编辑知识
+translation.knowledge.manager.deleteFolder	删除文件夹
+translation.knowledge.manager.youCantDeleteNonEmptyFolders	不能删除非空文件夹
+translation.knowledge.manager.thisFolderHasNoKnowledgeToSelect	此文件夹没有可选择的知识
+translation.knowledge.manager.theFolderDoesntHaveADescription	该文件夹没有描述
+translation.knowledge.manager.enabledInYourSessions	在你的会话中启用
+translation.knowledge.manager.devinCanUseEnabledKnowledgeInYourSessions	Devin 能在你的会话中使用已启用的知识。此设置只影响你的会话，不影响组织其他成员的设置。
+translation.knowledge.manager.knowledgeNotFound	知识未找到
+translation.knowledge.manager.theKnowledgeYouAreLookingForWasDeleted	你要找的知识已被删除或不存在。
+translation.knowledge.manager.unknown	未知
+translation.knowledge.manager.moveItemsDescription_one	为 {{count}} 个所选项目选择目标文件夹
+translation.knowledge.manager.moveItemsDescription_other	为 {{count}} 个所选项目选择目标文件夹
+translation.knowledge.manager.deleteItemsDescription_one	确定删除 {{count}} 个所选项目？此操作无法撤销
+translation.knowledge.manager.deleteItemsDescription_other	确定删除 {{count}} 个所选项目？此操作无法撤销
+translation.knowledge.manager.selectedCount_one	已选 {{count}} 项
+translation.knowledge.manager.selectedCount_other	已选 {{count}} 项
+translation.knowledge.manager.tabOrganization	组织
+translation.knowledge.manager.tabSuggestions	建议
+translation.knowledge.manager.deleteKnowledgeConfirm	确定删除知识「{{name}}」？此操作无法撤销。
+translation.knowledge.manager.enterpriseFolder	企业文件夹
+translation.knowledge.manager.failedToCreateRetry	创建知识失败。请重试。
+translation.knowledge.manager.failedToGenerateTrigger	生成触发条件失败。你仍可创建知识。
+translation.knowledge.manager.createdNewSecret	已创建新机密集 \${{name}}
+translation.knowledge.manager.root	根
+translation.knowledge.manager.failedToMoveRetry	移动项目失败。请重试。
+translation.knowledge.manager.enterpriseCannotMove	企业知识不能移到其他文件夹
+translation.knowledge.manager.createFolderToOrganize	必须先创建至少一个文件夹才能自动整理知识
+translation.knowledge.manager.allAlreadyEnabled	所选项目均已启用
+translation.knowledge.manager.allAlreadyDisabled	所选项目均已禁用
+translation.knowledge.manager.selectToOrganize	选择要自动整理的知识
+translation.knowledge.manager.selectFewerToOrganize	自动整理最多选 50 项
+translation.knowledge.manager.createFolderFirst	先创建一个文件夹来整理知识
+translation.knowledge.manager.noTriggerAvailable	无可用触发条件
+translation.knowledge.manager.folderWithId	文件夹 {{id}}
+translation.knowledge.manager.unknownUser	未知用户
+translation.knowledge.manager.failedToEnable	启用知识失败
+translation.knowledge.manager.failedToDisable	禁用知识失败
+translation.knowledge.manager.noPermissionFolder	你无权编辑此文件夹
+translation.knowledge.manager.noPermissionKnowledge	你无权编辑此知识
+translation.knowledge.manager.enablingEllipsis	启用知识中...
+translation.knowledge.manager.disablingEllipsis	禁用知识中...
+translation.knowledge.manager.enabledSuccessfully	知识启用成功
+translation.knowledge.manager.disabledSuccessfully	知识禁用成功
+translation.knowledge.manager.enabled	知识已启用
+translation.knowledge.manager.disabled	知识已禁用
+translation.knowledge.manager.untitledKnowledgeTitle	未命名知识
+translation.knowledge.manager.enabledKnowledgeHint	Devin 能在你的会话中使用已启用的知识
+translation.knowledge.manager.selectFolder	选择文件夹 {{name}}
+translation.knowledge.manager.selectKnowledge	选择知识 {{name}}
+translation.knowledge.suggestions.errorLoading	加载建议出错。
+translation.knowledge.pageDescription	Devin 在会话中自动回忆相关知识。详见我们的<docsLink>文档</docsLink>。
+translation.knowledge.usage.retrieved	已取回
+translation.knowledge.usage.used	已使用
+translation.knowledgeSuggestions.accept	接受
+translation.knowledgeSuggestions.acceptSuggestion	接受建议
+translation.knowledgeSuggestions.acceptWithChanges	接受（含修改）
+translation.knowledgeSuggestions.accepted	已接受
+translation.knowledgeSuggestions.acceptingSuggestion	接受建议中...
+translation.knowledgeSuggestions.addSecrets	添加机密
+translation.knowledgeSuggestions.addSecretsTooltip	添加机密。用 $SECRET_NAME 引用机密。
+translation.knowledgeSuggestions.allKnowledge	所有知识
+translation.knowledgeSuggestions.allSessions	所有会话
+translation.knowledgeSuggestions.cancel	取消
+translation.knowledgeSuggestions.conflictWarning	与另一处知识更改冲突。必须手动更新。
+translation.knowledgeSuggestions.content	内容
+translation.knowledgeSuggestions.contents	内容
+translation.knowledgeSuggestions.contentsPlaceholder	开 pull request 前跑测试套件
+translation.knowledgeSuggestions.description	Devin 根据你的消息建议未来会话要记住的知识
+translation.knowledgeSuggestions.edit	编辑
+translation.knowledgeSuggestions.failedToAccept	接受建议失败
+translation.knowledgeSuggestions.failedToEdit	编辑知识建议失败
+translation.knowledgeSuggestions.failedToReject	拒绝建议失败
+translation.knowledgeSuggestions.folder	文件夹
+translation.knowledgeSuggestions.largeKnowledgeWarning	Devin 可能无法准确记住过长的知识
+translation.knowledgeSuggestions.loadMore	加载更多
+translation.knowledgeSuggestions.loading	加载中…
+translation.knowledgeSuggestions.macro	宏
+translation.knowledgeSuggestions.macroDescription	在消息中发送 !macro-name 以取回此知识
+translation.knowledgeSuggestions.new	新
+translation.knowledgeSuggestions.noContent	无内容
+translation.knowledgeSuggestions.noPermission	你无权接受或拒绝建议。
+translation.knowledgeSuggestions.noRepositoriesFound	未找到仓库
+translation.knowledgeSuggestions.noSuggestionsFound	未找到建议
+translation.knowledgeSuggestions.noSuggestionsYet	暂无知识建议
+translation.knowledgeSuggestions.noTriggerSpecified	未指定触发条件
+translation.knowledgeSuggestions.none	无
+translation.knowledgeSuggestions.onlyAdminsCanAccept	只有管理员能接受知识建议。
+translation.knowledgeSuggestions.onlyAdminsCanAcceptOrReject	只有管理员能接受或拒绝建议。
+translation.knowledgeSuggestions.onlyAdminsCanReject	只有管理员能拒绝知识建议。
+translation.knowledgeSuggestions.onlyEnterpriseAdminsCanAccept	只有企业管理员能接受对企业知识的更新。
+translation.knowledgeSuggestions.pending	待处理
+translation.knowledgeSuggestions.pinToRepository	固定到仓库
+translation.knowledgeSuggestions.pinToRepositoryDescription	Devin 在所选仓库中总能看到固定的知识
+translation.knowledgeSuggestions.reject	拒绝
+translation.knowledgeSuggestions.rejectSuggestion	拒绝建议
+translation.knowledgeSuggestions.rejected	已拒绝
+translation.knowledgeSuggestions.rejectingSuggestion	拒绝建议中...
+translation.knowledgeSuggestions.rootFolder	根文件夹
+translation.knowledgeSuggestions.rootFolderName	根文件夹
+translation.knowledgeSuggestions.save	保存
+translation.knowledgeSuggestions.searchByUser	按用户名或邮箱搜索
+translation.knowledgeSuggestions.searchRepository	搜索仓库
+translation.knowledgeSuggestions.selectFolder	选择文件夹
+translation.knowledgeSuggestions.status	状态
+translation.knowledgeSuggestions.suggestedFolder	建议文件夹
+translation.knowledgeSuggestions.suggestedOn	建议于
+translation.knowledgeSuggestions.suggestionAccepted	知识建议已接受
+translation.knowledgeSuggestions.suggestionAcceptedSuccessfully	建议接受成功
+translation.knowledgeSuggestions.suggestionRejected	建议已拒绝
+translation.knowledgeSuggestions.title	知识建议
+translation.knowledgeSuggestions.titlePlural	知识建议
+translation.knowledgeSuggestions.trigger	触发条件
+translation.knowledgeSuggestions.triggerPlaceholder	从零开发 Web 应用
+translation.knowledgeSuggestions.type	类型
+translation.knowledgeSuggestions.update	更新
+translation.knowledgeSuggestions.useWhen	何时使用
+translation.knowledgeSuggestions.user	用户
+translation.knowledgeSuggestions.viewExistingKnowledge	查看已有知识
+translation.knowledgeSuggestions.viewNewKnowledge	查看新知识
+translation.knowledgeSuggestions.viewUpdatedKnowledge	查看更新的知识
+translation.knowledgeSuggestions.macroPlaceholder	例如 test-local-webapp
+translation.knowledgeSuggestions.iconLabel	知识建议
+translation.knowledgeSuggestions.triggerExample	例如更新 monorepo 中的数据库 schema
+translation.landing.closeMenu	关闭菜单
+translation.landing.devinLogo	Devin 标志
+translation.landing.home	首页
+translation.landing.logIn	登录
+translation.landing.openMenu	打开菜单
+translation.landing.review	Review
+translation.landing.signUp	注册
+translation.landing.tryDevinReview	试用 Devin Review
+translation.landing.wiki	Wiki
+translation.landing.docs	文档
+translation.landmarks.adminSidebar	管理导航
+translation.landmarks.marketingSidebar	营销导航
+translation.landmarks.sessionSidebar	会话导航
+translation.languageSuggestion.title	更改显示语言？
+translation.languageSuggestion.description	你可随时在设置中更改。
+translation.languageSuggestion.accept	是
+translation.languageSuggestion.snooze	否
+translation.languageSuggestion.neverAsk	不再询问
+translation.lightbox.close	关闭
+translation.lightbox.copiedImage	已复制图片
+translation.lightbox.copyImage	复制图片
+translation.lightbox.copyImageFailed	复制图片失败
+translation.lightbox.dialogLabel	图片预览
+translation.lightbox.download	下载
+translation.lightbox.fit	适应
+translation.lightbox.media	媒体
+translation.lightbox.next	下一张
+translation.lightbox.openInTab	在标签页打开
+translation.lightbox.position	{{caption}}，第 {{current}} 张，共 {{total}} 张
+translation.lightbox.previous	上一张
+translation.lightbox.zoomIn	放大
+translation.lightbox.zoomLevel	缩放级别
+translation.lightbox.zoomOut	缩小
+translation.limitSuspendedRestart.bannerText_one	你的一个会话曾被用量上限停止，该上限已上调。
+translation.limitSuspendedRestart.bannerText_other	你的 {{count}} 个会话曾被用量上限停止，该上限已上调。
+translation.limitSuspendedRestart.cancel	取消
+translation.limitSuspendedRestart.dialogDescription	这些会话曾被用量上限停止，该上限已上调。
+translation.limitSuspendedRestart.dialogTitle	恢复已停止的会话
+translation.limitSuspendedRestart.done	完成
+translation.limitSuspendedRestart.empty	没有可恢复的已停止会话
+translation.limitSuspendedRestart.loading	正在加载已停止的会话…
+translation.limitSuspendedRestart.restart	恢复
+translation.limitSuspendedRestart.restartAll_one	恢复 {{count}} 个已停止的会话
+translation.limitSuspendedRestart.restartAll_other	恢复全部 {{count}} 个已停止的会话
+translation.limitSuspendedRestart.restartCount_one	恢复 {{count}} 个会话
+translation.limitSuspendedRestart.restartCount_other	恢复 {{count}} 个会话
+translation.limitSuspendedRestart.restartRequestFailed	恢复会话失败。请重试。
+translation.limitSuspendedRestart.restarted	已恢复
+translation.limitSuspendedRestart.restarting	恢复中…
+translation.limitSuspendedRestart.reviewAndRestart	查看并恢复
+translation.limitSuspendedRestart.selectAll	全选
+translation.limitSuspendedRestart.selectSession	选择 {{title}}
+translation.limitSuspendedRestart.stopped	已停止
+translation.limitSuspendedRestart.stoppedOn	停止于 {{date}}
+translation.linear.removedPlaybookReferences_one	已移除 {{count}} 个已删除或映射组织不可用的 playbook 引用
+translation.linear.removedPlaybookReferences_other	已移除 {{count}} 个已删除或映射组织不可用的 playbook 引用
+translation.linear.selectedTeams_one	已选 {{count}} 个团队
+translation.linear.selectedTeams_other	已选 {{count}} 个团队
+translation.linear.connectToSelectTeam	连接 Linear 以选择团队
+translation.linear.loadingLabels	正在加载标签…
+translation.linear.loadingMembers	正在加载成员…
+translation.linear.loadingStates	正在加载状态…
+translation.linear.loadingTeams	正在加载团队…
+translation.linear.noLabels	无 Linear 标签
+translation.linear.noLabelsFound	未找到标签
+translation.linear.noMembers	无 Linear 成员
+translation.linear.noMembersFound	未找到成员
+translation.linear.noProjects	无 Linear 项目
+translation.linear.noStates	无 Linear 状态
+translation.linear.noStatesFound	未找到状态
+translation.linear.noTeams	无 Linear 团队
+translation.linear.noTeamsFound	未找到团队
+translation.linear.reauthorizeToSelectLabel	重新授权 Linear 以选择标签
+translation.linear.reauthorizeToSelectProject	重新授权 Linear 以选择项目
+translation.linear.reauthorizeToSelectState	重新授权 Linear 以选择状态
+translation.linear.reauthorizeToSelectTeam	重新授权 Linear 以选择团队
+translation.linear.searchLabels	搜索标签…
+translation.linear.searchMembers	搜索成员…
+translation.linear.searchStates	搜索状态…
+translation.linear.searchTeams	搜索团队…
+translation.linear.teamsLoadFailed	无法加载 Linear 团队
+translation.linear.connectFailed	连接 Linear 失败
+translation.linear.disconnected	Linear 断开成功
+translation.linear.disconnectFailed	断开 Linear 失败
+translation.linear.mappingsSaved	Linear 映射保存成功
+translation.linear.mappingsSaveFailed	保存 Linear 映射失败
+translation.linear.trigger.allNewIssues	所有新 issue
+translation.linear.trigger.onStatus	状态为「{{state}}」时
+translation.linear.trigger.directMentions	仅直接提及
+translation.linear.trigger.selectAria	选择触发选项
+translation.linear.mapping.selectTeams	选择 Linear 团队
+translation.linear.mapping.searchProjects	搜索项目…
+translation.linear.mapping.noProjects	未找到项目
+translation.linear.mapping.allTeamsSelected	所有可用团队均已选。
+translation.linear.mapping.rowIncompleteTeams	* 请至少选择一个 Linear 团队
+translation.linear.mapping.rowIncompleteTeamsAndOrg	* 请至少选择一个 Linear 团队和一个 Devin 组织
+translation.linear.mapping.allTeamsMapped	所有团队均已映射
+translation.linear.mapping.addSetting	添加设置
+translation.linear.mapping.addMapping	添加映射
+translation.linear.mapping.unmapped	未映射
+translation.linear.mapping.searchForTeams	搜索团队...
+translation.linear.mapping.newMapping	新映射
+translation.linear.mapping.searchTeams	搜索团队…
+translation.linear.mapping.noTeams	未找到团队
+translation.linear.mapping.linearTeam	Linear 团队
+translation.linear.mapping.devinOrganization	Devin 组织
+translation.linear.mapping.noTeamsMatch	没有团队匹配「{{search}}」
+translation.linear.mapping.defaultSetting	默认设置
+translation.linear.mapping.defaultMapping	默认映射
+translation.linear.mapping.defaultDescription	对上面未映射的所有其他 Linear 团队的配置
+translation.linear.mapping.enable	启用
+translation.linear.mapping.enableDefaultAria	启用默认映射
+translation.linear.mapping.allOtherTeams	所有其他团队
+translation.linear.mapping.selectTriggerOption	* 请选择触发选项。
+translation.linear.mapping.selectDefaultOrgAndTrigger	* 启用默认映射时请选择默认 Devin 组织和触发选项。
+translation.linear.mapping.titleTriggers	Devin 范围触发
+translation.linear.mapping.titleMappings	Linear 团队到 Devin 组织
+translation.linear.mapping.descriptionTriggers	提及 <tag /> 或加上 <label /> 标签时 Devin 总会触发。管理员可在下方配置额外触发。
+translation.linear.mapping.descriptionMappings	设置从 Linear 创建的 Devin 会话在 Devin Web 应用中出现的位置。
+translation.linear.mapping.noTeamsAndOrgs	未找到 Linear 团队和组织子组织。
+translation.linear.mapping.noLinearTeams	未找到 Linear 团队。
+translation.linear.mapping.noDevinOrgs	未找到 Devin 组织。
+translation.linear.mapping.done	完成
+translation.linear.mapping.save	保存
+translation.linear.mapping.confirmCancelTitle	确定取消？
+translation.linear.mapping.confirmCancelDescription	Linear 集成需要映射才能工作
+translation.linear.mapping.cancelAndLeave	取消并离开
+translation.linear.mapping.keepEditing	继续编辑
+translation.linear.environmentMappings.title	Linear 团队到环境
+translation.linear.environmentMappings.description	当 My Workspace 中有人在某个 Linear 团队提及 Devin 时，新会话在该团队的环境中运行。若团队没有环境或此人不能用，则回退到其默认环境。
+translation.linear.environmentMappings.configure	配置
+translation.linear.environmentMappings.team	Linear 团队
+translation.linear.environmentMappings.environment	环境
+translation.linear.environmentMappings.environmentFor	{{team}} 的环境
+translation.linear.environmentMappings.userDefault	用户的默认环境
+translation.linear.environmentMappings.remove	移除 {{team}} 的环境
+translation.linear.environmentMappings.saved	Linear 环境映射已保存
+translation.linear.environmentMappings.noTeams	未找到 Linear 团队。
+translation.linear.environmentMappings.notConnected	此账户未连接 Linear。
+translation.linear.environmentMappings.loadFailed	无法加载 Linear 环境映射。
+translation.linear.environmentMappings.save	保存
+translation.microsoftTeamsAutolink.title	把你的 Devin 账户关联到 Microsoft Teams？
+translation.microsoftTeamsAutolink.description	你在 Microsoft Teams 里给 Devin AI 发消息时，它会知道你是谁。
+translation.microsoftTeamsAutolink.linkButton	关联 Microsoft Teams
+translation.microsoftTeamsAutolink.cancel	取消
+translation.microsoftTeamsAutolink.done	完成
+translation.microsoftTeamsAutolink.alreadyLinkedTitle	Microsoft Teams 已关联
+translation.microsoftTeamsAutolink.alreadyLinkedDescription	此 Devin 账户已以 <email>{{teamsEmail}}</email> 关联到 Microsoft Teams。
+translation.microsoftTeamsAutolink.notConnectedTitle	Microsoft Teams 未连接
+translation.microsoftTeamsAutolink.notConnectedDescription	此组织未连接 Microsoft Teams。切到你公司在 Teams 用的组织，或问你的 Devin 管理员。
+translation.microsoftTeamsAutolink.devinAccount	Devin 账户 · {{orgName}}
+translation.microsoftTeamsAutolink.sendAsUserTitle	在 Microsoft Teams 以你本人发布？
+translation.microsoftTeamsAutolink.sendAsUserDescription	你从 Devin Web 应用发的消息在 Teams 中显示为「你的名字 by Devin」。允许 Devin 以你本人名义发布。
+translation.microsoftTeamsAutolink.reconnectTitle	重新连接 Microsoft Teams
+translation.microsoftTeamsAutolink.reconnectDescription	Devin 以你名义在 Microsoft Teams 发布的权限已过期或被吊销。重新连接，让你的消息再次以你本人名义显示。
+translation.microsoftTeams.channelIdLabel	Teams 频道 ID
+translation.microsoftTeams.channelIdPlaceholder	19:…@thread.tacv2
+translation.microsoftTeams.channelsLoadError	无法加载 Teams 频道。重试或手动输入频道 ID。
+translation.microsoftTeams.connectToSelectChannel	连接 Microsoft Teams 以选择频道
+translation.microsoftTeams.connectToSelectTeam	连接 Microsoft Teams 以选择团队
+translation.microsoftTeams.loadingTeams	正在加载团队…
+translation.microsoftTeams.noChannels	在团队中安装 Devin Teams app 以选择频道
+translation.microsoftTeams.noTeams	在团队中安装 Devin Teams app 以选择它
+translation.microsoftTeams.noTeamsFound	未找到团队
+translation.microsoftTeams.searchTeams	搜索团队…
+translation.microsoftTeams.selectTeam	选择团队…
+translation.microsoftTeams.teamIdLabel	Teams 团队 ID
+translation.microsoftTeams.teamsLoadError	无法加载 Microsoft Teams。重试或手动输入团队 ID。
+translation.microsoftTeams.groupChatSessionsTitle	群聊中的会话
+translation.microsoftTeams.groupChatSessionsDescription	Devin 如何处理来自不同组织成员的群聊。
+translation.microsoftTeams.groupChatSessionsShared	共享会话
+translation.microsoftTeams.groupChatSessionsSharedDescription	群聊共享一个会话，归属发起者的组织。所有人都能看到 Devin 的回复。
+translation.microsoftTeams.groupChatSessionsPrivate	私有会话
+translation.microsoftTeams.groupChatSessionsPrivateDescription	每个提及 Devin 的人在其自己的组织中得到自己的会话。只有本人能看到 Devin 的回复。
+translation.microsoftTeams.groupChatSessionsExperimental	实验性
+translation.microsoftTeams.groupChatSessionsPlaceholder	群聊会话
+translation.microsoftTeams.threadModeInThread	线程内
+translation.microsoftTeams.threadModeInThreadDescription	Devin 在被提及的线程中回复。
+translation.microsoftTeams.threadModeNew	新建线程
+translation.microsoftTeams.threadModeNewDescription	当 Devin 在已有线程的回复中被提及时，它在频道中开新帖并在那里继续。
+translation.microsoftTeams.threadModePlaceholder	线程模式
+translation.microsoftTeams.channelPreferencesSaved	频道偏好保存成功
+translation.microsoftTeams.channelPreferencesSaveFailed	保存频道偏好失败
+translation.microsoftTeams.disconnectSuccess	Microsoft Teams 断开成功
+translation.microsoftTeams.disconnectFailed	断开 Microsoft Teams 失败
+translation.microsoftTeams.disconnectUserFailed	断开用户的 Microsoft Teams 失败
+translation.microsoftTeams.mapping.loading	加载中...
+translation.microsoftTeams.mapping.title	Microsoft Teams 与组织映射
+translation.microsoftTeams.mapping.description	把 Microsoft Teams 频道映射到你的组织。暂不支持私有和共享频道，它们不会出现在列表中
+translation.microsoftTeams.mapping.empty	未定义频道映射。添加映射以把 Microsoft Teams 频道路由到特定组织。
+translation.microsoftTeams.mapping.channelLabel	Microsoft Teams 频道
+translation.microsoftTeams.mapping.selectChannel	选择频道
+translation.microsoftTeams.mapping.searchChannels	搜索频道...
+translation.microsoftTeams.mapping.noChannelsFound	未找到频道。
+translation.microsoftTeams.mapping.removeMapping	移除映射
+translation.microsoftTeams.mapping.selectBoth	* 请选择一个频道和一个组织。
+translation.microsoftTeams.mapping.addNew	添加新映射
+translation.microsoftTeams.mapping.add	添加映射
+translation.microsoftTeams.mapping.noneBoth	未找到 Microsoft Teams 频道和组织子组织。
+translation.microsoftTeams.mapping.noneChannels	未找到 Microsoft Teams 频道。
+translation.microsoftTeams.mapping.noneOrgs	未找到组织子组织。
+translation.microsoftTeams.mapping.save	保存映射
+translation.linearTicket.addTicketUrl	添加工单 URL
+translation.linearTicket.atLeastOneValidUrl	至少需要一个有效的 Linear 工单 URL
+translation.linearTicket.comments_one	评论（{{count}}）
+translation.linearTicket.comments_other	评论（{{count}}）
+translation.linearTicket.description	描述：
+translation.linearTicket.errorFetching	获取工单出错：
+translation.linearTicket.fetchFailed	获取 Linear 工单失败
+translation.linearTicket.fetchSucceeded	Linear 工单获取成功
+translation.linearTicket.fetchTickets	获取工单
+translation.linearTicket.fetching	获取中...
+translation.linearTicket.id	ID：
+translation.linearTicket.readMore	展开阅读
+translation.linearTicket.removeTicketUrl	移除工单 URL
+translation.linearTicket.showLess	收起
+translation.linearTicket.team	团队：
+translation.linearTicket.ticketInformation	工单信息
+translation.linearTicket.ticketUrl	Linear 工单 URL
+translation.linearTicket.viewInLinear	在 Linear 中查看工单 →
+translation.linkAttachment.edit	编辑
+translation.linkAttachment.openSession	打开会话
+translation.linkAttachment.prDeepLink.check	检查
+translation.linkAttachment.prDeepLink.checkNamed	检查 {{id}}
+translation.linkAttachment.prDeepLink.checks	检查
+translation.linkAttachment.prDeepLink.comment	评论
+translation.linkAttachment.prDeepLink.commit	提交
+translation.linkAttachment.prDeepLink.commitNamed	提交 {{sha}}
+translation.linkAttachment.prDeepLink.commits	提交
+translation.linkAttachment.prDeepLink.conflicts	合并冲突
+translation.linkAttachment.prDeepLink.event	时间线事件
+translation.linkAttachment.prDeepLink.files	变更文件
+translation.linkAttachment.prDeepLink.line	第 {{line}} 行
+translation.linkAttachment.prDeepLink.review	评审
+translation.linkAttachment.preview	预览
+translation.linkAttachment.screenRecording	屏幕录制
+translation.linkAttachment.sessionComputerEnded	此会话的电脑未在运行。
+translation.linkAttachment.sessionComputerNoAccess	你没有这台电脑的访问权。
+translation.linkAttachment.sessionComputerTitle	会话电脑
+translation.linkAttachment.thisSession	此会话
+translation.linkContextMenu.copyLink	复制链接
+translation.linkContextMenu.openInExternalBrowser	在外部浏览器打开
+translation.linkPreview.collapseInline	收起
+translation.linkPreview.copied	已复制！
+translation.linkPreview.copyContent	复制内容
+translation.linkPreview.copyFailed	复制内容失败
+translation.linkPreview.copyLink	复制链接
+translation.linkPreview.diffFiles_one	{{count}} 个文件
+translation.linkPreview.diffFiles_other	{{count}} 个文件
+translation.linkPreview.diffUnparseable	无法解析
+translation.linkPreview.download	下载
+translation.linkPreview.downloadFailed	下载附件失败
+translation.linkPreview.downloading	下载 {{filename}} 中…
+translation.linkPreview.expandInline	展开
+translation.linkPreview.loadImage	加载图片
+translation.linkPreview.loadPreview	加载预览
+translation.linkPreview.loadVideo	加载视频
+translation.linkPreview.loadingDiff	加载 diff 中…
+translation.linkPreview.noPreviewAvailable	无可用预览
+translation.linkPreview.open	打开
+translation.linkPreview.previewUnavailable	预览不可用
+translation.linkPreview.tooLargeToPreview	文件太大无法预览
+translation.linkPreview.viewCode	查看代码
+translation.linkPreview.copyLinkFailed	复制链接失败
+translation.linkPreview.figma.prototype	原型
+translation.linkPreview.figma.board	画板
+translation.linkPreview.figma.slides	幻灯片
+translation.linkPreview.figma.deck	演示文稿
+translation.linkPreview.figma.frame	Frame
+translation.linkPreview.figma.file	文件
+translation.liveSupport.title	获取 Devin 团队的实时帮助
+translation.liveSupport.description	告诉我们你在做什么，团队成员会加入
+translation.liveSupport.contextPlaceholder	你卡在哪儿了？
+translation.liveSupport.requestHelp	请求实时帮助
+translation.liveSupport.requesting	请求中…
+translation.liveSupport.getLiveHelp	获取实时帮助
+translation.liveSupport.announcementTitle	需要帮忙？
+translation.liveSupport.announcementDescription	你在此会话工作期间，Devin 团队可进行实时通话。
+translation.liveSupport.waiting	等待 Devin 团队…
+translation.liveSupport.pendingDescription	我们已呼叫 Devin 团队——通常几分钟内有人加入
+translation.liveSupport.claimedDescription	{{name}} 正在加入
+translation.liveSupport.expiredDescription	暂时没人能接手
+translation.liveSupport.joinRoom	加入房间
+translation.liveSupport.cancelRequest	取消请求
+translation.liveSupport.bookCall	预约通话
+translation.liveSupport.tryAgain	重试
+translation.liveSupport.askInChannel	在 {{channel}} 提问
+translation.liveSupport.joiningNow	{{name}} 正在加入…
+translation.liveSupport.responder	一位团队成员
+translation.liveSupport.calloutTitle	需要 Devin 上手帮助？
+translation.liveSupport.calloutBody	Devin 团队可进行实时通话。
+translation.liveSupport.contactCalloutBody	Devin 团队在这里帮你完成配置。
+translation.liveSupport.contactTitle	获取 Devin 团队的帮助
+translation.liveSupport.contactDescription	联系我们，团队成员会跟进
+translation.liveSupport.contactTeam	联系 Devin 团队
+translation.liveSupport.requestFailed	无法联系 Devin 团队——请重试。
+translation.liveSupport.admin.cardTitle	实时支持
+translation.liveSupport.admin.cardDescription	让此企业的成员能把 Devin 团队呼叫进实时房间。
+translation.liveSupport.admin.enabled	已启用
+translation.liveSupport.admin.enabledHelper	关闭时，成员仍能看到已配置的客户频道和预约链接。
+translation.liveSupport.admin.loading	加载中…
+translation.liveSupport.admin.loadFailed	无法加载实时支持设置。
+translation.liveSupport.admin.retry	重试
+translation.liveSupport.admin.save	保存
+translation.liveSupport.admin.saved	实时支持设置已保存
+translation.liveSupport.admin.saveFailed	保存实时支持设置失败
+translation.liveSupport.admin.meetingUrl	会议 URL
+translation.liveSupport.admin.meetingUrlHelper	客户等待时加入的固定房间。
+translation.liveSupport.admin.bookingUrl	预约 URL
+translation.liveSupport.admin.bookingUrlHelper	没人及时接单时、以及实时支持关闭时展示。
+translation.liveSupport.admin.customerChannelUrl	客户频道 URL
+translation.liveSupport.admin.customerChannelUrlHelper	例如客户也可使用的共享 Slack 频道。连同其标签一起显示，包括实时支持关闭时。
+translation.liveSupport.admin.customerChannelLabel	客户频道标签
+translation.liveSupport.admin.internalSlackChannelId	内部 Slack 频道 ID
+translation.liveSupport.admin.internalSlackChannelIdHelper	呼叫 Devin 团队的频道。绝不对客户显示。
+translation.liveSupport.admin.internalSlackUserIds	内部 Slack 用户 ID
+translation.liveSupport.admin.internalSlackUserIdsHelper	每次请求要 DM 的 Slack 用户 ID，逗号分隔。绝不对客户显示。
+translation.liveSupport.admin.hoursNote	时段说明
