@@ -1,0 +1,500 @@
+translation.analyticsRevamp.local.totalAcuSpend_dollars	总花费
+translation.analyticsRevamp.local.totalAcuSpendTooltip_dollars	此期间 Desktop 与 CLI 花费的美元
+translation.analyticsRevamp.local.acusPerUser_dollars	每用户花费
+translation.analyticsRevamp.local.acusPerUserTooltip_dollars	此期间花费的美元 ÷ 有 Desktop 或 CLI 用量的用户数
+translation.analyticsRevamp.local.acusOverTime_dollars	花费趋势
+translation.analyticsRevamp.local.acusOverTimeByModelTooltip_dollars	前 10 模型，其余归为“其他”
+translation.analyticsRevamp.local.noAcuData_dollars	所选期间无本地用量
+translation.analyticsRevamp.local.acusUsed_dollars	已花费
+translation.analyticsRevamp.local.productDistributionSubtitle_dollars	按本地产品的美元花费
+translation.analyticsRevamp.local.spendByModelSubtitle_dollars	按模型的美元花费
+translation.analyticsRevamp.local.spendByModelTooltip_dollars	已退役或隐藏的模型归为“其他”
+translation.analyticsRevamp.localMembers.title	成员
+translation.analyticsRevamp.localMembers.description	此期间每个成员的本地活动
+translation.analyticsRevamp.localMembers.descriptionAiGateway	此期间每个成员的 AI Gateway 花费
+translation.analyticsRevamp.localMembers.searchPlaceholder	按姓名或邮箱搜索
+translation.analyticsRevamp.localMembers.columns.member	成员
+translation.analyticsRevamp.localMembers.columns.sessions	会话
+translation.analyticsRevamp.localMembers.columns.messages	消息
+translation.analyticsRevamp.localMembers.columns.agentLinesAccepted	接受的代理代码行
+translation.analyticsRevamp.localMembers.columns.acus	ACU
+translation.analyticsRevamp.localMembers.columns.acus_dollars	花费
+translation.analyticsRevamp.localMembers.tooltips.sessions	此期间在 Desktop 或 CLI 上的代理对话
+translation.analyticsRevamp.localMembers.tooltips.agentLinesAccepted	成员保留的代理编写行数
+translation.analyticsRevamp.localMembers.linesSuggested_one	建议 {{formattedCount}} 行
+translation.analyticsRevamp.localMembers.linesSuggested_other	建议 {{formattedCount}} 行
+translation.analyticsRevamp.localMembers.serviceUser	服务用户
+translation.analyticsRevamp.localMembers.noName	未命名成员
+translation.analyticsRevamp.localMembers.empty	没有匹配的成员
+translation.analyticsRevamp.localMembers.emptySearch	没有匹配 \\
+translation.analyticsRevamp.overview.activeUsers	活跃用户
+translation.analyticsRevamp.overview.activeUsersTooltip	此期间在任意产品上活跃的用户
+translation.analyticsRevamp.overview.activeUsersOverTimeSubtitle	每日活跃用户
+translation.analyticsRevamp.overview.usersByProductOverTimeSubtitle	每日活跃用户，按产品
+translation.analyticsRevamp.overview.acusByProductOverTimeSubtitle	每日消耗的 ACU，按产品
+translation.analyticsRevamp.overview.acusByProductOverTimeSubtitle_dollars	每日花费，按产品
+translation.analyticsRevamp.overview.acuSpend	ACU 消耗
+translation.analyticsRevamp.overview.acuSpend_dollars	花费
+translation.analyticsRevamp.overview.acuSpendTooltip	此期间所有产品消耗的 ACU
+translation.analyticsRevamp.overview.acuSpendTooltip_dollars	此期间所有产品花费的美元
+translation.analyticsRevamp.overview.acuSpendTooltip_org_dollars	此期间所有产品花费的美元
+translation.analyticsRevamp.overview.acuSpendTooltip_filtered	此期间所选组织在所有产品消耗的 ACU
+translation.analyticsRevamp.overview.acuSpendTooltip_filtered_dollars	此期间所选组织在所有产品花费的美元
+translation.analyticsRevamp.overview.acuSpendCommitDetail	{{capacity}} 承诺量的 {{percent}}
+translation.analyticsRevamp.overview.acuSpendCommitDetail_org	{{capacity}} 上限的 {{percent}}
+translation.analyticsRevamp.overview.promotions.title	促销
+translation.analyticsRevamp.overview.promotions.usage	促销用量
+translation.analyticsRevamp.overview.promotions.consumed	已消耗 {{used}} / {{budget}} ACU
+translation.analyticsRevamp.overview.promotions.consumedDollars	已消耗 {{used}} / {{budget}}
+translation.analyticsRevamp.overview.promotions.disabledDates	{{dates}} · 已禁用
+translation.analyticsRevamp.overview.promotions.allSessions	所有会话
+translation.analyticsRevamp.overview.promotions.codeScans	代码扫描
+translation.analyticsRevamp.overview.promotions.oncall	Oncall
+translation.analyticsRevamp.overview.promotions.automations	自动化
+translation.analyticsRevamp.overview.promotions.other	促销
+translation.analyticsRevamp.overview.promotions.details	覆盖范围：{{promotion}}
+translation.analyticsRevamp.overview.promotions.generalDetails	促销如何运作
+translation.analyticsRevamp.overview.promotions.allUsage	全部用量（云端、PR 评审、本地）
+translation.analyticsRevamp.overview.promotions.allUsageCoverage	用一个预算覆盖云端会话、PR 评审和本地用量（CLI + Desktop）。
+translation.analyticsRevamp.overview.promotions.allSessionsCoverage	覆盖所有类型的 Devin 会话。
+translation.analyticsRevamp.overview.promotions.codeScansCoverage	覆盖代码扫描会话，包括创建扫描和修复发现。
+translation.analyticsRevamp.overview.promotions.oncallCoverage	覆盖 Oncall 会话，包括事故调查。
+translation.analyticsRevamp.overview.promotions.automationsCoverage	覆盖自动化会话，包括定时和事件触发的运行。
+translation.analyticsRevamp.overview.promotions.chatgptAddon	ChatGPT 附加组件
+translation.analyticsRevamp.overview.promotions.chatgptAddonCoverage	覆盖 ChatGPT 附加组件会话，其动作模型走所有者的 ChatGPT 计划。
+translation.analyticsRevamp.overview.promotions.otherCoverage	覆盖范围取决于促销条款。
+translation.analyticsRevamp.overview.promotions.appliesToAll	适用于此账户的所有组织。
+translation.analyticsRevamp.overview.promotions.appliesToAll_org	适用于此组织。
+translation.analyticsRevamp.overview.promotions.appliesToNamed	符合条件的组织：{{organizations, list}}
+translation.analyticsRevamp.overview.promotions.appliesToSelected	适用于所选组织。
+translation.analyticsRevamp.overview.promotions.balanceDetails	促销自动覆盖符合条件的用量。卡片显示在每个促销的总预算中累计消耗的 ACU。\
+“已用尽”表示所有 ACU 已用完。“已过期”表示未用的 ACU 不再可用。
+translation.analyticsRevamp.overview.acuUsage	ACU 消耗
+translation.analyticsRevamp.overview.acuUsageVsPreviousCycle	ACU 消耗对比上周期
+translation.analyticsRevamp.overview.acuUsageVsPreviousPeriod	ACU 消耗对比上期
+translation.analyticsRevamp.overview.acuUsageVsPreviousRange	ACU 消耗对比上一范围
+translation.analyticsRevamp.overview.acuUsage_dollars	花费
+translation.analyticsRevamp.overview.acuUsageVsPreviousCycle_dollars	花费对比上周期
+translation.analyticsRevamp.overview.acuUsageVsPreviousPeriod_dollars	花费对比上期
+translation.analyticsRevamp.overview.acuUsageVsPreviousRange_dollars	花费对比上一范围
+translation.analyticsRevamp.overview.chartView	图表指标
+translation.analyticsRevamp.overview.consumptionUnavailable	所选期间无计费周期覆盖
+translation.analyticsRevamp.overview.crossUnitRange	此范围混合了 ACU 与美元计费周期。请选择单一计费周期内的范围。
+translation.analyticsRevamp.overview.crossUnitRangeShort	混合 ACU 与美元计费周期
+translation.analyticsRevamp.overview.limit	承诺量
+translation.analyticsRevamp.overview.limit_org	上限
+translation.analyticsRevamp.overview.mergedPrs	已合并 PR
+translation.analyticsRevamp.overview.mergedPrsTooltip	此期间创建的云端会话产生的已合并 PR
+translation.analyticsRevamp.overview.newSessions	新会话
+translation.analyticsRevamp.overview.noConsumptionData	所选期间无消耗数据
+translation.analyticsRevamp.overview.noPermission	你没有查看用量分析的权限。
+translation.analyticsRevamp.overview.noUserData	所选期间无用户活动
+translation.analyticsRevamp.overview.previousCycle	上一周期
+translation.analyticsRevamp.overview.previousPeriod	上一期间
+translation.analyticsRevamp.overview.previousRange	上一范围
+translation.analyticsRevamp.overview.scopeAccountWide	全账户
+translation.analyticsRevamp.overview.scopeCloudOnly	仅云端
+translation.analyticsRevamp.overview.selectedRange	所选范围
+translation.analyticsRevamp.overview.thisCycle	本周期
+translation.analyticsRevamp.overview.thisPeriod	本期间
+translation.analyticsRevamp.overview.usersChartView	用户视图
+translation.analyticsRevamp.overview.acusByProduct	按产品的 ACU
+translation.analyticsRevamp.overview.acusByProductChartTooltip	云端包括会话、Ask、自动化、扫描和 DeepWiki。本地包括 Desktop 和 CLI。
+translation.analyticsRevamp.overview.acusByProductChartTooltip_aiGateway	云端包括会话、Ask、自动化、扫描和 DeepWiki。本地包括 Desktop、CLI 和 AI Gateway。
+translation.analyticsRevamp.overview.acusByProduct_dollars	按产品的花费
+translation.analyticsRevamp.overview.productGroups.cloud	云端
+translation.analyticsRevamp.overview.productGroups.local	本地
+translation.analyticsRevamp.overview.productGroups.review	Review
+translation.analyticsRevamp.overview.legendRollingAverage	7 日平均
+translation.analyticsRevamp.overview.legendRollingAverage30	30 日平均
+translation.analyticsRevamp.overview.hoverCurrentDay	本日
+translation.analyticsRevamp.overview.usersAll	全部
+translation.analyticsRevamp.overview.usersByProduct	按产品
+translation.analyticsRevamp.overview.productsChartView	产品视图
+translation.analyticsRevamp.overview.productsSummary	概要
+translation.analyticsRevamp.overview.productsDetailed	详细
+translation.analyticsRevamp.overview.productDetails.devin	云端会话
+translation.analyticsRevamp.overview.usersByProductChartTooltip	用户按每产品计一次
+translation.analyticsRevamp.overview.userProducts.cloudCoding	云端编程
+translation.analyticsRevamp.overview.userProducts.localCoding	本地编程
+translation.analyticsRevamp.overview.userProducts.ask	Ask
+translation.analyticsRevamp.pageDescription	了解你的组织如何使用 Devin 并跟踪 ACU 消耗
+translation.analyticsRevamp.pageDescription_dollars	了解你的组织如何使用 Devin 并跟踪花费
+translation.analyticsRevamp.pageTitle	分析
+translation.analyticsRevamp.period.backToPeriods	返回期间选择
+translation.analyticsRevamp.period.currentBillingCycle	当前计费周期
+translation.analyticsRevamp.period.customRange	自定义范围
+translation.analyticsRevamp.period.last30Days	最近 30 天
+translation.analyticsRevamp.period.last7Days	最近 7 天
+translation.analyticsRevamp.period.lastBillingCycle	上一计费周期
+translation.analyticsRevamp.period.lastQuarter	上一季度
+translation.analyticsRevamp.period.previousBillingCycle	上一计费周期
+translation.analyticsRevamp.period.selectPeriod	选择期间
+translation.analyticsRevamp.period.thisBillingCycle	本计费周期
+translation.analyticsRevamp.period.thisMonth	本月
+translation.analyticsRevamp.period.thisQuarter	本季度
+translation.analyticsRevamp.period.thisWeek	本周
+translation.analyticsRevamp.period.timezoneTooltip	每日按 UTC-8 零点至零点计算。受技术限制暂不支持其他时区。
+translation.analyticsRevamp.period.utcTimezoneTooltip	按 UTC 计日
+translation.analyticsRevamp.revertToLegacy	切回旧版
+translation.analyticsRevamp.reviewDashboard.resolvedCountTooltip	此期间评审中已解决或已驳回的发现
+translation.analyticsRevamp.reviewDashboard.repositoryUsageTooltip	此期间评审的 PR 在此期间消耗的 Review ACU
+translation.analyticsRevamp.reviewDashboard.findings	发现
+translation.analyticsRevamp.reviewDashboard.resolutionRate	解决率
+translation.analyticsRevamp.reviewDashboard.orgAttribution	Review 如何归属到组织
+translation.analyticsRevamp.reviewDashboard.orgAttributionTooltip	归属到计费组织的评审
+translation.analyticsRevamp.reviewDashboard.orgAttributionOrganizationBody	这些指标覆盖通过其服务对象（如 PR 作者）归属到此组织的评审。无组织的评审仅出现在企业级分析中。
+translation.analyticsRevamp.reviewDashboard.resolutionDescription	按首次 Review 日期统计的当前已解决比例
+translation.analyticsRevamp.reviewDashboard.resolutionTooltip	已解决或已驳回发现的占比
+translation.analyticsRevamp.reviewDashboard.resolvedFraction	已解决 {{resolved}} / {{total}}
+translation.analyticsRevamp.reviewDashboard.byStatus	按状态
+translation.analyticsRevamp.reviewDashboard.bySize	按规模
+translation.analyticsRevamp.reviewDashboard.total	总计
+translation.analyticsRevamp.reviewDashboard.dailyTotalPrs	每日打开的已评审 PR
+translation.analyticsRevamp.reviewDashboard.prBreakdown	PR 细分
+translation.analyticsRevamp.reviewDashboard.dailyOutcomes	每日打开的已评审 PR，按结果
+translation.analyticsRevamp.reviewDashboard.dailySizes	每日打开的已评审 PR，按规模
+translation.analyticsRevamp.reviewDashboard.outcomesTooltip	未合并而关闭的 PR 计为“已关闭”
+translation.analyticsRevamp.reviewDashboard.mergedUsageChartNote	按每日创建的已评审 PR 计算每个已合并 PR 的平均 Review ACU。7 日和 30 日平均按已合并 PR 加权，而非按天。
+translation.analyticsRevamp.reviewDashboard.reviewShareChartNote	7 日和 30 日平均按 ACU 加权，而非按天
+translation.analyticsRevamp.reviewDashboard.mergedUsageTooltip	此期间创建的已评审 PR 中，每个已合并 PR 的平均 Review ACU
+translation.analyticsRevamp.reviewDashboard.findingsTooltip	每个 PR 最近一次评审的发现
+translation.analyticsRevamp.reviewDashboard.sizeTooltip	按 Review ACU 分的 PR 规模：XS 至多 2.25，S 至多 4.5，M 至多 9，L 至多 18，XL 超过 18。
+translation.analyticsRevamp.reviewDashboard.reviewSessionSize	评审会话规模
+translation.analyticsRevamp.reviewDashboard.repositoryUsage	按仓库的 Review ACU 消耗
+translation.analyticsRevamp.reviewDashboard.repositoryUsageDescription	此期间评审的 PR 在此期间消耗的 Review ACU
+translation.analyticsRevamp.reviewDashboard.repositoryPrs	按仓库的已评审 PR
+translation.analyticsRevamp.reviewDashboard.repositoryPrsDescription	此期间评审的 PR
+translation.analyticsRevamp.reviewDashboard.repository	仓库
+translation.analyticsRevamp.reviewDashboard.recordedUsage	已记录 {{unit}}
+translation.analyticsRevamp.reviewDashboard.chartView	图表视图
+translation.analyticsRevamp.reviewDashboard.reviewCostLabel	每已合并 PR 的 {{unit}}
+translation.analyticsRevamp.reviewDashboard.usageDistribution	按规模分的已评审 PR 分布
+translation.analyticsRevamp.reviewDashboard.comparison	PR 数据自 2026 年 6 月 16 日，Review 数据自 2026 年 4 月 9 日
+translation.analyticsRevamp.reviewDashboard.bugStatus	Bug 状态
+translation.analyticsRevamp.reviewDashboard.bugs	Bug
+translation.analyticsRevamp.reviewDashboard.bugsMarkedResolved	已解决的 Bug
+translation.analyticsRevamp.reviewDashboard.closed	已关闭
+translation.analyticsRevamp.reviewDashboard.currentOutcomes	已评审 PR 的结果
+translation.analyticsRevamp.reviewDashboard.empty	此期间暂无数据。
+translation.analyticsRevamp.reviewDashboard.findingsDescription	跟踪 Bug、标记和观察项
+translation.analyticsRevamp.reviewDashboard.findingsStatus	修复与发现
+translation.analyticsRevamp.reviewDashboard.flagStatus	标记状态
+translation.analyticsRevamp.reviewDashboard.flags	标记
+translation.analyticsRevamp.reviewDashboard.flagsMarkedResolved	已解决的标记
+translation.analyticsRevamp.reviewDashboard.markedResolved	已标记为解决
+translation.analyticsRevamp.reviewDashboard.mergeRate	PR 合并率
+translation.analyticsRevamp.reviewDashboard.mergeRateTooltip	此期间创建的已评审 PR 中已合并的比例
+translation.analyticsRevamp.reviewDashboard.merged	已合并
+translation.analyticsRevamp.reviewDashboard.mergedPrs	已合并 PR
+translation.analyticsRevamp.reviewDashboard.mergedPrsTooltip	此期间合并且经 Devin Review 评审过的 PR
+translation.analyticsRevamp.reviewDashboard.notMarkedResolved	未标记为解决
+translation.analyticsRevamp.reviewDashboard.observations	观察项
+translation.analyticsRevamp.reviewDashboard.open	打开中
+translation.analyticsRevamp.reviewDashboard.prsReviewed	已评审 PR
+translation.analyticsRevamp.reviewDashboard.prsReviewedTooltip	此期间经 Devin Review 评审的 PR
+translation.analyticsRevamp.reviewDashboard.pullRequests	Pull Request
+translation.analyticsRevamp.reviewDashboard.pullRequestsDescription	查看 PR 结果与长期统计
+translation.analyticsRevamp.reviewDashboard.acuUnit	ACU
+translation.analyticsRevamp.reviewDashboard.totalAcuUsage	ACU 总消耗
+translation.analyticsRevamp.reviewDashboard.totalUsageDescription	每日消耗的 Review ACU
+translation.analyticsRevamp.reviewDashboard.acuUsagePerMergedPr	每已合并 PR 的 ACU 消耗
+translation.analyticsRevamp.reviewDashboard.mergedUsageDescription	每已合并 PR 的平均 Review ACU
+translation.analyticsRevamp.reviewDashboard.averageLabel	平均 {{value}}
+translation.analyticsRevamp.reviewDashboard.orgFilterUnavailable	Review 指标暂不支持按组织筛选
+translation.analyticsRevamp.reviewDashboard.orgFilterUnavailableBody	按组织筛选 Review 需要组织级计费归属。此账户不按组织计费，因此下方 Review 指标覆盖整个账户。
+translation.analyticsRevamp.reviewDashboard.reviews	评审
+translation.analyticsRevamp.reviewDashboard.reviewsTooltip	此期间完成的评审运行
+translation.analyticsRevamp.reviewDashboard.reviewShareOfPrAcus	已合并 PR ACU 占比
+translation.analyticsRevamp.reviewDashboard.reviewShareLabel	Review 占比
+translation.analyticsRevamp.reviewDashboard.reviewShareDescription	Review 在与 Devin 会话共有的已合并 PR 上的 ACU 占比
+translation.analyticsRevamp.reviewDashboard.reviewShareTooltip	Review 在已合并 PR 的 ACU 占比。PR 按合并时间计。
+translation.analyticsRevamp.reviewDashboard.scopeLabel	评审范围：{{scope}}
+translation.analyticsRevamp.reviewDashboard.scopeAll	所有评审者
+translation.analyticsRevamp.reviewDashboard.security	安全
+translation.analyticsRevamp.reviewDashboard.categoryDescription	此期间内置评审的此类发现
+translation.analyticsRevamp.reviewDashboard.categoryReported	已报告
+translation.analyticsRevamp.reviewDashboard.categoryResolved	已解决
+translation.analyticsRevamp.reviewDashboard.categoryOverTime	报告趋势
+translation.analyticsRevamp.reviewDashboard.categoryOverTimeDescription	每日发现数
+translation.analyticsRevamp.reviewDashboard.scopeAutoapprover	Autoapprover
+translation.analyticsRevamp.reviewDashboard.customReviewers	自定义评审者
+translation.analyticsRevamp.reviewDashboard.reviewerArchived	已归档
+translation.analyticsRevamp.reviewDashboard.reviewerDescription	此评审者在此期间的运行与发现
+translation.analyticsRevamp.reviewDashboard.reviewerRuns	运行
+translation.analyticsRevamp.reviewDashboard.reviewerRunsTooltip	此期间评审者在 PR 上运行的次数，无论结果
+translation.analyticsRevamp.reviewDashboard.runsWithFindings	有发现的运行
+translation.analyticsRevamp.reviewDashboard.runsWithFindingsTooltip	留下至少一个未解决发现的已完成运行
+translation.analyticsRevamp.reviewDashboard.reviewerFindingsTooltip	评审者在此期间首次提出的去重发现
+translation.analyticsRevamp.reviewDashboard.resolvedFindings	已解决的发现
+translation.analyticsRevamp.reviewDashboard.resolvedFindingsTooltip	此期间提出且此后已解决的发现
+translation.analyticsRevamp.reviewDashboard.failedRuns	失败的运行
+translation.analyticsRevamp.reviewDashboard.failedRunsTooltip	以错误结束的运行
+translation.analyticsRevamp.reviewDashboard.skippedRuns	跳过的运行
+translation.analyticsRevamp.reviewDashboard.skippedRunsTooltip	评审者跳过的运行，例如达到花费上限时
+translation.analyticsRevamp.reviewDashboard.reviewerRunsOverTime	运行趋势
+translation.analyticsRevamp.reviewDashboard.reviewerRunsOverTimeDescription	每日运行数
+translation.analyticsRevamp.reviewDashboard.reviewersLoading	正在加载评审者…
+translation.analyticsRevamp.reviewDashboard.outcomeFixed	已修复
+translation.analyticsRevamp.reviewDashboard.outcomeRejected	已驳回
+translation.analyticsRevamp.reviewDashboard.outcomeEscalated	已升级
+translation.analyticsRevamp.reviewDashboard.outcomeIgnored	已忽略
+translation.analyticsRevamp.reviewDashboard.outcomeOpen	未解决
+translation.analyticsRevamp.reviewDashboard.fixRate	修复率
+translation.analyticsRevamp.reviewDashboard.fixRateTooltip	已修复发现的占比
+translation.analyticsRevamp.reviewDashboard.rejectedRate	已驳回
+translation.analyticsRevamp.reviewDashboard.rejectedRateTooltip	被驳回为误报或不值得修复的发现占比
+translation.analyticsRevamp.reviewDashboard.ignoredRate	已忽略
+translation.analyticsRevamp.reviewDashboard.ignoredRateTooltip	PR 合并或关闭时仍未解决的发现占比
+translation.analyticsRevamp.reviewDashboard.outcomeFindingsTooltip	此期间评审首次报告的发现
+translation.analyticsRevamp.reviewDashboard.outcomes	发现结果
+translation.analyticsRevamp.reviewDashboard.outcomesDescription	此期间提出的发现的归宿
+translation.analyticsRevamp.reviewDashboard.reviewerOutcomesDescription	此评审者发现的归宿。大量被忽略或驳回的发现说明其指令过于宽泛；漏掉的没有记录。
+translation.analyticsRevamp.reviewDashboard.findingOutcomesTooltip	按每个发现自身记录当前状态统计。这些总数可能与上方按每个 PR 最近一次评审统计的发现数不同。
+translation.analyticsRevamp.reviewDashboard.outcomesEmpty	此期间未记录发现。
+translation.analyticsRevamp.reviewDashboard.outcomesNow	按结果分的发现
+translation.analyticsRevamp.reviewDashboard.builtInReview	内置评审
+translation.analyticsRevamp.reviewDashboard.outcomeSource	发现类型或评审者
+translation.analyticsRevamp.reviewDashboard.versions	指令版本
+translation.analyticsRevamp.reviewDashboard.versionsDescription	此期间运行过的每个指令版本的表现
+translation.analyticsRevamp.reviewDashboard.version	版本
+translation.analyticsRevamp.reviewDashboard.versionFirstRun	首次运行
+translation.analyticsRevamp.reviewDashboard.versionNumber	v{{number}}
+translation.analyticsRevamp.reviewDashboard.versionSavedHint	指令已更改为 v{{number}}
+translation.analyticsRevamp.reviewDashboard.versionChangesOpen	查看版本 {{number}} 的变更
+translation.analyticsRevamp.reviewDashboard.hitRate	有发现的运行
+translation.analyticsRevamp.reviewDashboard.versionsEmpty	此期间无版本运行。
+translation.analyticsRevamp.reviewDashboard.escalatedTooltip	留给人决定的发现占比
+translation.analyticsRevamp.reviewDashboard.medianRunTime	运行时长中位数
+translation.analyticsRevamp.reviewDashboard.medianRunTimeTooltip	此评审者已完成运行的时长中位数
+translation.analyticsRevamp.reviewDashboard.seconds	秒
+translation.analyticsRevamp.reviewDashboard.examples	最近的发现
+translation.analyticsRevamp.reviewDashboard.examplesDescription_one	此期间最后一天有发现的 PR，最新在前
+translation.analyticsRevamp.reviewDashboard.examplesDescription_other	此期间最后 {{count}} 天有发现的 PR，最新在前
+translation.analyticsRevamp.reviewDashboard.examplesTitle	标题
+translation.analyticsRevamp.reviewDashboard.examplesLastFinding	最近发现
+translation.analyticsRevamp.reviewDashboard.examplesAll	全部
+translation.analyticsRevamp.reviewDashboard.examplesFilter	按结果筛选发现
+translation.analyticsRevamp.reviewDashboard.examplesOutcomeCount	{{findings}} {{outcome}}
+translation.analyticsRevamp.reviewDashboard.examplesEmpty	此期间无。
+translation.analyticsRevamp.customizations.skills	技能
+translation.analyticsRevamp.customizations.skillsDescription	使用了哪些技能、频率及支持的工作类型
+translation.analyticsRevamp.customizations.overview	概览
+translation.analyticsRevamp.customizations.analytics	分析
+translation.analyticsRevamp.customizations.filterByRuntime	按运行环境筛选
+translation.analyticsRevamp.customizations.runtime.all	云端与本地
+translation.analyticsRevamp.customizations.runtime.cloud	云端
+translation.analyticsRevamp.customizations.runtime.local	本地
+translation.analyticsRevamp.customizations.invocations	调用次数
+translation.analyticsRevamp.customizations.invocationsTooltip	此期间技能被使用的次数，无论代理激活还是用户调用
+translation.analyticsRevamp.customizations.skillsUsed	已用技能
+translation.analyticsRevamp.customizations.skillsUsedTooltip	此期间至少使用过一次的去重技能
+translation.analyticsRevamp.customizations.cloudSessions	云端会话
+translation.analyticsRevamp.customizations.cloudSessionsTooltip	至少用过一个技能的去重云端会话。本地技能使用不关联到 Devin 会话。
+translation.analyticsRevamp.customizations.usageOverTime	用量趋势
+translation.analyticsRevamp.customizations.usageOverTimeDescription	每日技能调用与去重技能数
+translation.analyticsRevamp.customizations.skillUsageOverTimeDescription	此技能每日调用次数
+translation.analyticsRevamp.customizations.usageOverTimeTooltip	每日技能调用次数，按代理激活或用户调用拆分。折线显示当日使用的去重技能数（右轴）。
+translation.analyticsRevamp.customizations.sessions	会话
+translation.analyticsRevamp.customizations.noSessionsUsedSkill	还没有会话用过此技能
+translation.analyticsRevamp.customizations.sessionsLoadError	会话无法加载。
+translation.analyticsRevamp.customizations.retryLoadingSessions	重试
+translation.analyticsRevamp.customizations.viewAllSessions	查看全部
+translation.analyticsRevamp.customizations.loadMoreSessions	加载更多
+translation.analyticsRevamp.customizations.totalInvocations	总调用数
+translation.analyticsRevamp.customizations.distinctSkills	去重技能
+translation.analyticsRevamp.customizations.agentTriggered	代理触发
+translation.analyticsRevamp.customizations.userTriggered	用户触发
+translation.analyticsRevamp.customizations.topSkills	最常调用的技能
+translation.analyticsRevamp.customizations.topSkillsDescription	按调用次数
+translation.analyticsRevamp.customizations.taskTypes	任务类型
+translation.analyticsRevamp.customizations.taskTypesDescription	使用技能的云端会话
+translation.analyticsRevamp.customizations.taskTypesTooltip	任务类型仅适用于云端会话。本地技能使用不关联到 Devin 会话。
+translation.analyticsRevamp.customizations.taskTypesCloudOnly	任务类型仅适用于云端会话
+translation.analyticsRevamp.customizations.taskTypesEmpty	此期间无已分类会话
+translation.analyticsRevamp.customizations.clearTaskType	清除
+translation.analyticsRevamp.customizations.skillUsage	全部技能
+translation.analyticsRevamp.customizations.skillUsageDescription	此期间使用过的每个技能
+translation.analyticsRevamp.customizations.columns.skill	技能
+translation.analyticsRevamp.customizations.columns.invocations	调用次数
+translation.analyticsRevamp.customizations.columns.sessions	会话
+translation.analyticsRevamp.customizations.columns.users	用户
+translation.analyticsRevamp.customizations.columns.lastUsed	最近使用
+translation.analyticsRevamp.customizations.triggerSplit	{{agent}} 代理触发 · {{user}} 用户触发
+translation.analyticsRevamp.customizations.usersTooltip	使用此技能的云端会话的去重用户。不含本地用量。
+translation.analyticsRevamp.customizations.viewSessions	查看会话
+translation.analyticsRevamp.customizations.searchPlaceholder	搜索技能或来源
+translation.analyticsRevamp.customizations.empty	此期间无技能调用
+translation.analyticsRevamp.customizations.emptySearch	没有匹配筛选的技能
+translation.analyticsRevamp.tabs.cloud	云端
+translation.analyticsRevamp.tabs.cost_breakdown	成本细分
+translation.analyticsRevamp.tabs.customizations	自定义
+translation.analyticsRevamp.tabs.gateway	AI Gateway
+translation.analyticsRevamp.tabs.local	本地
+translation.analyticsRevamp.tabs.localDescription	本地 Devin 会话的用量与表现
+translation.analyticsRevamp.tabs.overview	概览
+translation.analyticsRevamp.tabs.overviewDescription	用量与表现的高层概览
+translation.analyticsRevamp.tabs.review	Review
+translation.analyticsRevamp.tabs.projects	项目
+translation.analyticsRevamp.tabs.bots	{{botNamePlural}}
+translation.analyticsRevamp.units.users_one	个用户
+translation.analyticsRevamp.units.users_other	个用户
+translation.analyticsRevamp.units.activeUsers_one	个活跃用户
+translation.analyticsRevamp.units.activeUsers_other	个活跃用户
+translation.analyticsRevamp.units.sessionsCreated_one	个已创建会话
+translation.analyticsRevamp.units.sessionsCreated_other	个已创建会话
+translation.analyticsRevamp.units.acus_one	ACU
+translation.analyticsRevamp.units.acus_other	ACU
+translation.analyticsRevamp.units.productiveHours_one	生产性小时
+translation.analyticsRevamp.units.productiveHours_other	生产性小时
+translation.analyticsRevamp.units.aiFtes_one	AI FTE
+translation.analyticsRevamp.units.aiFtes_other	AI FTE
+translation.analyticsRevamp.units.acusPerProductiveHour_one	每生产性小时 ACU
+translation.analyticsRevamp.units.acusPerProductiveHour_other	每生产性小时 ACU
+translation.analyticsRevamp.units.mergedPrs_one	已合并 PR
+translation.analyticsRevamp.units.mergedPrs_other	已合并 PR
+translation.analyticsRevamp.units.acusPerMergedPr_one	每已合并 PR ACU
+translation.analyticsRevamp.units.acusPerMergedPr_other	每已合并 PR ACU
+translation.analyticsRevamp.units.pullRequests_one	个 pull request
+translation.analyticsRevamp.units.pullRequests_other	个 pull request
+translation.analyticsRevamp.toolbar.allOrganizations	全部组织
+translation.analyticsRevamp.toolbar.clearAll	清除全部
+translation.analyticsRevamp.toolbar.filterByOrganization	按组织筛选
+translation.analyticsRevamp.toolbar.filters	筛选
+translation.analyticsRevamp.toolbar.organizationCount_one	{{count}} 个组织
+translation.analyticsRevamp.toolbar.organizationCount_other	{{count}} 个组织
+translation.analyticsRevamp.toolbar.organizationLimit	最多可选 {{max}} 个组织。
+translation.analyticsRevamp.toolbar.organizations	组织
+translation.analyticsRevamp.toolbar.organizationsLoadError	无法加载组织
+translation.analyticsRevamp.toolbar.organizationsLoadErrorBody	在组织列表加载完成前，所选组织的指标保持隐藏。清除筛选可查看全账户数据。
+translation.analyticsRevamp.toolbar.retry	重试
+translation.analyticsRevamp.toolbar.scope	范围：{{scope}}
+translation.analyticsRevamp.toolbar.scopeEnterprise	企业
+translation.analyticsRevamp.version	版本
+translation.analyticsRevamp.versionLegacy	旧版
+translation.analyticsRevamp.versionNewest	最新版
+translation.analyticsRevamp.versionSettings	分析设置
+translation.analyticsRevamp.drilldown.open	打开 {{title}} 的下钻
+translation.analyticsRevamp.drilldown.openButton	打开下钻
+translation.analyticsRevamp.drilldown.uncrossed	无子细分
+translation.analyticsRevamp.drilldown.crossLabel	将 {{table}} 与第二维度交叉
+translation.analyticsRevamp.drilldown.download	下载 CSV
+translation.analyticsRevamp.drilldown.downloadLabel	将 {{table}} 下载为 CSV
+translation.analyticsRevamp.drilldown.downloadFailed	无法下载 CSV，请重试。
+translation.analyticsRevamp.drilldown.total	总计
+translation.analyticsRevamp.drilldown.peak	峰值
+translation.analyticsRevamp.drilldown.average	平均
+translation.analyticsRevamp.drilldown.changeVs.day	对比前一日变化
+translation.analyticsRevamp.drilldown.changeVs.week	对比前一周变化
+translation.analyticsRevamp.drilldown.changeVs.month	对比前一月变化
+translation.analyticsRevamp.drilldown.partialBucket	{{label}}（部分）
+translation.analyticsRevamp.drilldown.grainLabel	表格列
+translation.analyticsRevamp.drilldown.grain.day	按日
+translation.analyticsRevamp.drilldown.grain.week	按周
+translation.analyticsRevamp.drilldown.grain.month	按月
+translation.analyticsRevamp.drilldown.noRows	此期间无数据
+translation.analyticsRevamp.drilldown.loadFailed	此表无法加载。
+translation.analyticsRevamp.drilldown.noBreakdowns	此图表没有可用的细分表。
+translation.analyticsRevamp.drilldown.filtersLabel	下钻筛选
+translation.analyticsRevamp.drilldown.userUplift	用户提升
+translation.analyticsRevamp.drilldown.userUpliftDescription	按每周 40 生产性小时基线估算的每用户 AI 提升
+translation.analyticsRevamp.drilldown.userUpliftDescription_day	按每日 8 生产性小时基线估算的每用户 AI 提升
+translation.analyticsRevamp.drilldown.more	更多
+translation.analyticsRevamp.drilldown.dimensions.organizations	组织
+translation.analyticsRevamp.drilldown.dimensions.users	用户
+translation.analyticsRevamp.drilldown.dimensions.repositories	仓库
+translation.analyticsRevamp.drilldown.dimensions.products	产品
+translation.analyticsRevamp.drilldown.dimensions.models	模型
+translation.analyticsRevamp.drilldown.dimensions.capabilities	模式
+translation.analyticsRevamp.drilldown.dimensions.categories	类别
+translation.analyticsRevamp.drilldown.dimensions.origins	来源
+translation.analyticsRevamp.drilldown.dimensions.sizes	规模
+translation.analyticsRevamp.drilldown.dimensions.kinds	类型
+translation.analyticsRevamp.drilldown.dimensions.statuses	状态
+translation.analyticsRevamp.drilldown.dimensions.outcomes	结果
+translation.analyticsRevamp.drilldown.entities.organizations	组织
+translation.analyticsRevamp.drilldown.entities.users	用户
+translation.analyticsRevamp.drilldown.entities.repositories	仓库
+translation.analyticsRevamp.drilldown.entities.products	产品
+translation.analyticsRevamp.drilldown.entities.models	模型
+translation.analyticsRevamp.drilldown.entities.capabilities	模式
+translation.analyticsRevamp.drilldown.entities.categories	类别
+translation.analyticsRevamp.drilldown.entities.origins	来源
+translation.analyticsRevamp.drilldown.entities.sizes	规模
+translation.analyticsRevamp.drilldown.entities.kinds	类型
+translation.analyticsRevamp.drilldown.entities.statuses	状态
+translation.analyticsRevamp.drilldown.entities.outcomes	结果
+translation.analyticsRevamp.usage.more	更多
+translation.analyticsRevamp.usage.products.automations	自动化
+translation.analyticsRevamp.usage.products.code_scans	代码扫描
+translation.analyticsRevamp.usage.products.oncall	Oncall
+translation.analyticsRevamp.usage.productDescriptions.automations	自动化启动的会话消耗的 ACU
+translation.analyticsRevamp.usage.productDescriptions.code_scans	代码扫描会话消耗的 ACU
+translation.analyticsRevamp.usage.productDescriptions.oncall	Oncall 会话消耗的 ACU：响应者、事故与摘要
+translation.analyticsRevamp.usage.productAcus.automations	自动化 ACU 趋势
+translation.analyticsRevamp.usage.productAcus.code_scans	代码扫描 ACU 趋势
+translation.analyticsRevamp.usage.productAcus.oncall	Oncall ACU 趋势
+translation.analyticsRevamp.usage.chartViewLabel	图表分组
+translation.analyticsRevamp.usage.chartViews.day	按日
+translation.analyticsRevamp.usage.chartViews.week	按周
+translation.analyticsRevamp.usage.chartViews.cumulative	累计
+translation.analyticsRevamp.usage.metrics.sessions	会话
+translation.analyticsRevamp.usage.metrics.sessionsTooltip	此期间创建的自动化会话，按创建日期计一次
+translation.analyticsRevamp.usage.metrics.shareOfCloud	云端 ACU 占比
+translation.analyticsRevamp.usage.table.title.automations	自动化
+translation.analyticsRevamp.usage.table.title.code_scans	代码扫描
+translation.analyticsRevamp.usage.table.title.oncall	Oncall
+translation.analyticsRevamp.usage.table.search.automations	按自动化搜索
+translation.analyticsRevamp.usage.table.search.code_scans	按仓库搜索
+translation.analyticsRevamp.usage.table.search.oncall	按 oncall 资源搜索
+translation.analyticsRevamp.usage.table.oncallResource	Oncall 资源
+translation.analyticsRevamp.usage.table.previousPeriod	上一期间
+translation.analyticsRevamp.usage.table.orgFilterNote	此表覆盖所有组织；组织筛选只作用于图表
+translation.analyticsRevamp.mergeManagerAudit.title	Autoapprover 运行
+translation.analyticsRevamp.mergeManagerAudit.description	此期间 Autoapprover 运行过的 PR，最新在前
+translation.analyticsRevamp.mergeManagerAudit.repositoryFilter	按仓库筛选：{{repository}}
+translation.analyticsRevamp.mergeManagerAudit.allRepositories	全部仓库
+translation.analyticsRevamp.mergeManagerAudit.pullRequest	Pull request
+translation.analyticsRevamp.mergeManagerAudit.latestResult	最近结果
+translation.analyticsRevamp.mergeManagerAudit.approval	Devin 批准
+translation.analyticsRevamp.mergeManagerAudit.runs	运行
+translation.analyticsRevamp.mergeManagerAudit.totalCost	总成本
+translation.analyticsRevamp.mergeManagerAudit.lastRun	最近运行
+translation.analyticsRevamp.mergeManagerAudit.outcome.approve	批准
+translation.analyticsRevamp.mergeManagerAudit.outcome.review	需要评审
+translation.analyticsRevamp.mergeManagerAudit.outcome.failed	失败
+translation.analyticsRevamp.mergeManagerAudit.outcome.skipped	已跳过
+translation.analyticsRevamp.mergeManagerAudit.outcome.running	运行中
+translation.analyticsRevamp.mergeManagerAudit.approvalState.approved	已批准
+translation.analyticsRevamp.mergeManagerAudit.approvalState.withdrawn	已撤回
+translation.analyticsRevamp.mergeManagerAudit.loading	正在加载…
+translation.analyticsRevamp.mergeManagerAudit.empty	Autoapprover 此期间未在任何 PR 上运行。
+translation.analyticsRevamp.mergeManagerAudit.pageRange	{{first}}–{{last}} / 共 {{total}}
+translation.analyticsRevamp.mergeManagerAudit.previous	上一页
+translation.analyticsRevamp.mergeManagerAudit.next	下一页
+translation.analyticsRevamp.autoapprover.verdicts	裁决
+translation.analyticsRevamp.autoapprover.verdictsTooltip	此期间 Autoapprover 给出裁决的评审运行，含失败与跳过的
+translation.analyticsRevamp.autoapprover.approveRate	批准率
+translation.analyticsRevamp.autoapprover.approveRateTooltip	已完成裁决中为“批准”的占比
+translation.analyticsRevamp.autoapprover.needsReview	需要评审
+translation.analyticsRevamp.autoapprover.needsReviewTooltip	把 PR 留给人评审的裁决
+translation.analyticsRevamp.autoapprover.withdrawn	已撤回的批准
+translation.analyticsRevamp.autoapprover.withdrawnTooltip	Devin 撤回已给批准的裁决，通常因新提交需要评审
+translation.analyticsRevamp.autoapprover.approved	批准
+translation.analyticsRevamp.autoapprover.approvedTooltip	Devin 的批准保留在 PR 上的裁决
+translation.analyticsRevamp.autoapprover.wouldApprove	{{formatted}} 本会批准
+translation.analyticsRevamp.autoapprover.ruleForced	由规则决定
+translation.analyticsRevamp.autoapprover.ruleForcedTooltip	由“总是批准”或“从不批准”规则不经模型决定的裁决
+translation.analyticsRevamp.autoapprover.disagreed	被标记为错误
+translation.analyticsRevamp.autoapprover.disagreedTooltip	被人标记为错误的裁决，包括对 Autoapprover 已批准的 PR 提出变更请求
+translation.analyticsRevamp.autoapprover.labeled	占 {{formatted}} 个已标注
+translation.analyticsRevamp.autoapprover.failedOrSkipped	失败或跳过
+translation.analyticsRevamp.autoapprover.failedOrSkippedTooltip	未给出裁决而结束的运行
+translation.analyticsRevamp.autoapprover.overviewDescription	Autoapprover 此期间的裁决情况
+translation.analyticsRevamp.autoapprover.viewAll	查看 Autoapprover
+translation.analyticsRevamp.autoapprover.description	Autoapprover 此期间在账户所有仓库上的裁决情况
+translation.analyticsRevamp.autoapprover.descriptionSince	Autoapprover 此期间的裁决情况。裁决自 {{date}} 起计；更早的运行只出现在下方列表。
+translation.analyticsRevamp.autoapprover.verdictsOverTime	裁决趋势
+translation.analyticsRevamp.autoapprover.verdictsOverTimeDescription	每日“批准”与“需要评审”裁决，Shadow 模式裁决单独列出，并标注每次指令修改
+translation.analyticsRevamp.autoapprover.repositories	按仓库的裁决
+translation.analyticsRevamp.autoapprover.repositoriesDescription	此期间裁决最多的仓库
