@@ -936,5 +936,7 @@
 "workbench.action.terminal.newWithProfile",
 "workspaceContains",
 "worktree creates a fresh Git worktree; folder edits the directory directly.",
-"zone-widget-arrow"
+"zone-widget-arrow",
+"Hi, ${e}!",
+"Hi, ${e}! You are on Devin's ${t} plan."
 ]

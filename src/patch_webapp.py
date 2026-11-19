@@ -30,6 +30,38 @@ def find_entry_chunk(assets):
     return None, None
 
 
+def find_index_chunk(assets):
+    for f in assets.glob("chunk-entry-host-index-*.js"):
+        s = f.read_text(encoding="utf-8")
+        if "enable-localization" in s:
+            return f, s
+    return None, None
+
+
+def patch_language_gate(s):
+    """Apply a persisted devin-language choice even when the
+    enable-localization feature flag is off (the official language
+    picker is flag-gated; our patch makes zh locales selectable
+    for flag-off users via the stored preference)."""
+    if "localStorage.getItem(`devin-language`)" in s:
+        return s  # already patched
+    m = re.search(r"if\(!(\w+)\)\{(\w+)\(`en`\);return\}", s)
+    if not m:
+        return s
+    am = re.search(r"\$u as (\w+)", s)
+    apply_fn = am.group(1) if am else None
+    apply_call = f",_l&&{apply_fn}(_l)" if apply_fn else ""
+    new = ("if(!%s){let _l=localStorage.getItem(`devin-language`);"
+           "%s(_l||`en`)%s;return}") % (m.group(1), m.group(2), apply_call)
+    s = s[: m.start()] + new + s[m.end():]
+    # flag-on path: an explicit stored choice wins over detection
+    s = re.sub(
+        r"\?\?\((\w+)\?null:(\w+)\)",
+        r"??localStorage.getItem(`devin-language`)??(\1?null:\2)",
+        s, count=1)
+    return s
+
+
 def chunk_files():
     out = {}
     for loc in LABELS:
@@ -91,6 +123,14 @@ def patch(app_resources):
     for loc, (tr, rv) in files.items():
         for f in (tr, rv):
             (assets / f.name).write_text(f.read_text(encoding="utf-8"), encoding="utf-8")
+
+    idx, si = find_index_chunk(assets)
+    if idx:
+        si2 = patch_language_gate(si)
+        if si2 != si:
+            backup(idx)
+            idx.write_text(si2, encoding="utf-8")
+            print(f"patched {idx.name}: stored locale survives enable-localization flag")
 
     if "code:`zh-CN`" in s:
         print("already patched: gu[] has zh-CN")

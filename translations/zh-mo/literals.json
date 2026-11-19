@@ -936,5 +936,7 @@
  null,
  null,
  "worktree 建立新的 Git worktree；folder 直接編輯目錄。",
- null
+ null,
+ "你好，${e}！",
+ "你好，${e}！你在使用 Devin ${t} 計劃。"
 ]

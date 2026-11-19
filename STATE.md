@@ -54,3 +54,12 @@ literals: ~360/938（part01 已写，覆盖 0-458 白名单 + 459+ 句选；其�
 - 源：chunk-entry-host-editor-mode-menu-BWLlgqZu.js (mu=sl/au; JSON.parse 与字面量混合)
 - 待办：注册 zh chunk 到 gu[]（en/ja/pt/es/de 同款 {code,label,translation,review}），语言检测接 _VSCODE_NLS_LANGUAGE；patch_app 扩展；Devin Settings/Local 会话面板补截图
 - Devin Settings 页/会话面板 = webapp-host surface（已确认登录态渲染英文）
+
+## 2026-11-19 登录态中文渲染打通（重大进展）
+- 根因1：OTA 自动更新会整包覆盖补丁——restore+apply 幂等管线已验证可自愈
+- 根因2：enable-localization 特性开关关闭时 V_ 强制 Al('en') → patch_webapp.py 新增 patch_language_gate：flag-off 时读取 localStorage devin-language 并直接 al() 应用
+- 根因3：会话面板问候语 "Hi, {name}! You are on Devin's {plan} plan." 在 workbench.desktop.main.js（主 bundle，原 BUNDLES 未覆盖），且是反引号模板串且撇号转义 Devin\'s → patch_app.py 新增模板字面量 pass + 该 bundle 加入 BUNDLES（289 条新补丁）
+- LANG_EXPR 加 devin-language 兜底（toLowerCase）供无 nls 上下文
+- 验证：界面问候语渲染 「你好， Dirtboi! 你在使用 Devin Free 计划。」+ 「Devin 本地/向 Devin 描述你的任务」 pane 中文
+- 遗留：Devin Settings 页语言选择控件 flag-gated（Free 看不到），切换走 localStorage 写入
+

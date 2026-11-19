@@ -22,12 +22,13 @@ import json, os, re, sys, shutil, argparse, hashlib, base64
 BUNDLES = [
     "out/vs/workbench/windsurf-chat-client/index.js",
     "out/vs/sessions/sessions.desktop.main.js",
+    "out/vs/workbench/workbench.desktop.main.js",
 ]
 EXT_DIRS = ["windsurf", "windsurf-auth", "windsurf-remote-devin", "windsurf-remote-openssh",
             "windsurf-remote-wsl", "windsurf-dev-containers", "theme-windsurf"]
 LOCALES = ["zh-cn", "zh-tw", "zh-hk", "zh-mo"]
 MARKER = ".devin-zh-patched"
-LANG_EXPR = '(globalThis._VSCODE_NLS_LANGUAGE||navigator.language||"en")'
+LANG_EXPR = '(globalThis._VSCODE_NLS_LANGUAGE||(localStorage.getItem("devin-language")||"").toLowerCase()||navigator.language||"en")'
 # substrings unique to the en dict JSON.parse payloads (used to exclude them
 # from literal replacement)
 DICT_ANCHORS = ['adminPromotionOwner', 'Part {{number}} of {{total}}']
@@ -193,6 +194,28 @@ def patch_bundle(path, res_inject, lit_dict):
                 data = data[:i] + zh_map_expr + data[i + len(needle):]
                 hits += 1
                 pos = i + len(zh_map_expr)
+            if "${" in en:
+                # template literal `en` -> (dict[locale][en] with ${v} re-interpolated or `en`)
+                reps = "".join(
+                    f".replace(/\\$\\{{{v}\\}}/g,{v})"
+                    for v in dict.fromkeys(re.findall(r"\$\{([\w.]+)\}", en))
+                )
+                for tpl in {"`" + en + "`", "`" + en.replace("'", "\\'") + "`"}:
+                    tpl_expr = (f'(globalThis.__devinZhLit[{LANG_EXPR}]'
+                                f'&&globalThis.__devinZhLit[{LANG_EXPR}][{needle}]'
+                                f'?globalThis.__devinZhLit[{LANG_EXPR}][{needle}]{reps}'
+                                f':{tpl})')
+                    pos = 0
+                    while True:
+                        i = data.find(tpl, pos)
+                        if i < 0:
+                            break
+                        if any(s <= i < e for s, e in spans):
+                            pos = i + len(tpl)
+                            continue
+                        data = data[:i] + tpl_expr + data[i + len(tpl):]
+                        hits += 1
+                        pos = i + len(tpl_expr)
         if need_bootstrap:
             data = lookup + data
         touched += hits
@@ -205,7 +228,7 @@ def patch_bundle(path, res_inject, lit_dict):
         j = data.index('lng:"en"', i)
         data = data[:j] + "lng:" + LANG_EXPR + data[j + len('lng:"en"'):]
         touched += 1
-    elif not m:
+    elif not m and not hits:
         return 0, "i18next init (resources:x,lng:\"en\") not found"
 
     write_atomic(path, data)
