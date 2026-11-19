@@ -1,0 +1,500 @@
+translation.grantRequest.titleMcp_other	移除{{botName}}对 {{count}} 个 MCP 登录的访问权？
+translation.grantRequest.titlePlugin_one	移除{{botName}}对一个插件的访问权？
+translation.grantRequest.titlePlugin_other	移除{{botName}}对 {{count}} 个插件的访问权？
+translation.grantRequest.titleAutomation_one	移除{{botName}}对一个个人 automation 的访问权？
+translation.grantRequest.titleAutomation_other	移除{{botName}}对 {{count}} 个个人 automation 的访问权？
+translation.grantRequest.noteRemoveConsent	确认后{{botName}}从此不再以这些人的身份打开拉取请求；已打开的拉取请求不受影响。每个人都可以在自己的设置中再次允许。
+translation.grantRequest.noteRemoveMcp	确认只移除这些登录。当授权方的登录都不再支持某个插件时，该插件会被移除。授权方可以从聊天或「访问」标签再次授予。
+translation.grantRequest.noteRemove	确认移除此访问权；已经失效的会被跳过。授权方可以从聊天或「访问」标签再次授予。
+translation.grantRequest.removeLater	你之后可以在{{botName}}的设置 >「访问」中、在它可访问内容的列表里，或通过要求它来移除访问权。
+translation.grantRequest.noteSecrets	批准会把你的个人机密共享给这些密钥；你没有的密钥会被跳过。{{removeLater}}
+translation.grantRequest.noteMcp_one	批准让{{botName}}用你自己的登录连接此 MCP 服务器。{{removeLater}}
+translation.grantRequest.noteMcp_other	批准让{{botName}}用你自己的登录连接这些 MCP 服务器。{{removeLater}}
+translation.grantRequest.notePlugins	批准给{{botName}}你自己的这些插件副本，并附带你在它们声明的 MCP 服务器上的登录。{{removeLater}}
+translation.grantRequest.noteAutomations_one	批准让{{botName}}像你一样读取和更改这个属于你的个人 automation（其触发器、提示词和运行；编辑、启用、运行和删除它），但不能把它切换为以组织身份运行。你之后可以从{{botName}}的「共享」对话框移除该访问权。
+translation.grantRequest.noteAutomations_other	批准让{{botName}}像你一样读取和更改这些属于你的个人 automation（其触发器、提示词和运行；编辑、启用、运行和删除它们），但不能把它们切换为以组织身份运行。你之后可以从{{botName}}的「共享」对话框移除该访问权。
+translation.grantRequest.noteSessions_one	批准以你自己的级别或更低级别与{{botName}}共享此会话。{{removeLater}}
+translation.grantRequest.noteSessions_other	批准以你自己的级别或更低级别与{{botName}}共享这些会话。{{removeLater}}
+translation.slack.workspacesAddedToast_one	已添加 {{count}} 个工作区
+translation.slack.workspacesAddedToast_other	已添加 {{count}} 个工作区
+translation.slack.workspacesRemovedToast_one	已移除 {{count}} 个工作区
+translation.slack.workspacesRemovedToast_other	已移除 {{count}} 个工作区
+translation.localShares.unavailableTitle	对话不可用
+translation.localShares.unavailableBody	此共享对话不存在或你没有访问权。
+translation.localShares.defaultTitle	共享对话
+translation.localShares.truncatedBanner	部分内容在上传前已从对话中被删减或省略。
+translation.localShares.unsupportedTitle	此对话无法显示
+translation.localShares.unsupportedBody	其转录不是此页面能理解的格式，通常意味着它是由更新版本的 agent 共享的。
+translation.localShares.emptyTitle	没有可显示的内容
+translation.localShares.emptyBody	此对话没有任何可显示的消息。
+translation.localShares.toolTitle.write	写入 `{{path}}`
+translation.localShares.toolTitle.edit	编辑 `{{path}}`
+translation.localShares.toolTitle.applyPatch	应用补丁
+translation.localShares.toolTitle.read	读取 {{path}}
+translation.localShares.toolTitle.search	搜索 `{{pattern}}`
+translation.localShares.toolTitle.find	查找匹配 `{{pattern}}` 的文件
+translation.replay.notFoundTitle	未找到回放
+translation.replay.notFoundDescription	未找到「{{id}}」的回放。
+translation.replay.loadErrorTitle	加载回放出错
+translation.replay.loadErrorDescription	加载回放事件失败。请重试。
+translation.replay.editReplay	编辑回放
+translation.replay.overlay.finished	Devin 已完成工作
+translation.replay.overlay.tryDevin	试用 Devin
+translation.replay.overlay.replaySession	回放会话
+translation.replay.overlay.pauseAutoAdvance	暂停自动前进
+translation.replay.overlay.browserPreview	浏览器预览
+translation.replay.overlay.stepsProgress	{{total}} 步中的 {{completed}} 步
+translation.replay.overlay.replaying	Devin 正在回放任务
+translation.replay.overlay.continueReplay	继续回放
+translation.replay.overlay.nextStep	下一步
+translation.replay.editor.copyFailed	无法复制回放 URL
+translation.replay.editor.title	回放编辑器
+translation.replay.editor.copyUrl	复制 URL
+translation.replay.editor.close	关闭回放编辑器
+translation.replay.editor.restart	重新开始
+translation.replay.editor.stepBack	后退一步
+translation.replay.editor.pause	暂停
+translation.replay.editor.play	播放
+translation.replay.editor.stepForward	前进一步
+translation.replay.editor.eventIndex	回放事件索引
+translation.replay.editor.scrub	拖放回放
+translation.replay.editor.speed	速度
+translation.replay.editor.baseSpeed	基础播放速度（事件/秒）
+translation.replay.editor.speedSummary	事件/秒 · 当前 {{speed}}
+translation.replay.editor.speedSummaryUrlBase	事件/秒（URL 基准）· 当前 {{speed}}
+translation.replay.editor.checkpointCount	检查点（{{total}}）
+translation.replay.editor.defaultCheckpointLabel	检查点 {{number}}
+translation.replay.editor.addAt	+ 在 {{index}} 处添加
+translation.replay.editor.seekToEvent	跳转到事件 {{index}}
+translation.replay.editor.checkpointLabel	检查点标签
+translation.replay.editor.removeCheckpoint	移除检查点
+translation.replay.editor.hold	保持
+translation.replay.editor.seconds	秒
+translation.replay.editor.then	然后
+translation.replay.editor.keepSpeed	保持
+translation.replay.editor.eventsPerSecondShort	事件/秒
+translation.replay.editor.workspace	工作区
+translation.integrations.common.host	主机
+translation.integrations.common.hostname	主机名
+translation.integrations.common.enterHostname	需要主机名
+translation.integrations.common.connect	连接
+translation.integrations.common.connecting	连接中…
+translation.integrations.common.continue	继续
+translation.integrations.common.back	返回
+translation.integrations.common.close	关闭
+translation.integrations.common.redirecting	跳转中…
+translation.integrations.common.saving	保存中…
+translation.integrations.common.somethingWentWrong	出了点问题
+translation.integrations.common.noOrganizationId	未找到组织 ID
+translation.integrations.common.integrationRemoved	集成已移除
+translation.integrations.gitlab.removing	正在移除 GitLab 集成…
+translation.integrations.gitlab.removed	GitLab 集成已移除
+translation.integrations.gitlab.removeFailed	移除 GitLab 集成失败
+translation.integrations.gitlab.adding	正在添加 GitLab 集成…
+translation.integrations.gitlab.added	GitLab 集成已添加
+translation.integrations.gitlab.addFailed	添加 GitLab 集成失败
+translation.integrations.gitlab.webhook.autoInstall	Devin 会在其 GitLab 账户可管理的每个项目和组上自动设置这些 webhook 并保持更新。以下步骤只用于它无法触及的项目。
+translation.integrations.gitlab.webhook.groupTab	组
+translation.integrations.gitlab.webhook.recommended	（推荐）
+translation.integrations.gitlab.webhook.projectTab	项目
+translation.integrations.gitlab.webhook.goToGroupSettings	前往你的 GitLab 组设置
+translation.integrations.gitlab.webhook.goToProjectSettings	前往你的 GitLab 项目设置
+translation.integrations.gitlab.webhook.navigateToWebhooks	导航到 Webhooks
+translation.integrations.gitlab.webhook.addUrlAndSecret	添加 webhook URL 和上面的密钥令牌
+translation.integrations.gitlab.webhook.selectTriggers	选择触发器：<strong>Comments</strong>、<strong>Merge request events</strong>、<strong>Push events</strong>、<strong>Issues events</strong>、<strong>Pipeline events</strong>
+translation.integrations.gitlab.webhook.clickAdd	点击「Add webhook」
+translation.integrations.gitlab.connect.serviceAccountTitle	连接服务账户
+translation.integrations.gitlab.connect.selfHostedTitle	连接自托管 GitLab
+translation.integrations.gitlab.connect.serviceAccountDescription	在你的 GitLab 组中创建一个服务账户（Free 层级可用一个专用用户），配 api 范围的 personal access token，并把它加入 Devin 应该访问的组。Developer 可连接和读取，Maintainer 让 Devin 设置 webhook，Owner（Premium/Ultimate）可增加组级 webhook
+translation.integrations.gitlab.connect.selfHostedDescription	令牌需要 api 范围。需要 GitLab 15 或更高版本
+translation.integrations.gitlab.connect.invalidHost	主机只能包含小写字母、数字、连字符、下划线或点 [a-z0-9-_.]
+translation.integrations.gitlab.connect.hostPlaceholder	GitLab 主机（如 gitlab.example.com）
+translation.integrations.gitlab.connect.newAccessToken	新 access token
+translation.integrations.gitlab.connect.accessToken	Access token
+translation.integrations.gitlab.connect.newTokenPlaceholder	输入你的新 GitLab personal access token
+translation.integrations.gitlab.connect.tokenPlaceholder	输入你的 GitLab personal access token
+translation.integrations.gitlab.connect.tokenRequired	需要 access token
+translation.integrations.gitlab.rotate.rotating	正在轮换 GitLab 令牌…
+translation.integrations.gitlab.rotate.success	GitLab 令牌轮换成功
+translation.integrations.gitlab.rotate.failed	轮换 GitLab 令牌失败
+translation.integrations.gitlab.rotate.title	轮换 GitLab 令牌
+translation.integrations.gitlab.rotate.description	令牌必须属于与 {{accountName}} 相同的 GitLab 用户
+translation.integrations.gitlab.rotate.submitting	轮换中…
+translation.integrations.gitlab.rotate.submit	轮换令牌
+translation.integrations.gitlab.selfHostedApp.copyApplicationName	复制应用名
+translation.integrations.gitlab.selfHostedApp.copyApplicationNameFailed	复制应用名失败
+translation.integrations.gitlab.selfHostedApp.copyRedirectUri	复制 redirect URI
+translation.integrations.gitlab.selfHostedApp.copyRedirectUriFailed	复制 redirect URI 失败
+translation.integrations.gitlab.selfHostedApp.duplicateTitle	此主机已注册了 GitLab 应用
+translation.integrations.gitlab.selfHostedApp.duplicateBody	应用 {{appId}} 已在 {{host}} 上设置。注册替代品前先在「管理应用」中移除它。
+translation.integrations.gitlab.selfHostedApp.applicationName	应用名
+translation.integrations.gitlab.selfHostedApp.redirectUri	Redirect URI
+translation.integrations.gitlab.selfHostedApp.scopes	范围
+translation.integrations.gitlab.selfHostedApp.selectScopes	选择 <scopes>{{scopes}}</scopes>。
+translation.integrations.gitlab.selfHostedApp.confidential	Confidential
+translation.integrations.gitlab.selfHostedApp.enableConfidential	勾选 confidential 复选框。
+translation.integrations.gitlab.selfHostedApp.applicationId	Application ID
+translation.integrations.gitlab.selfHostedApp.applicationIdRequired	需要 Application ID
+translation.integrations.gitlab.selfHostedApp.applicationSecret	Application secret
+translation.integrations.gitlab.selfHostedApp.applicationSecretRequired	需要 Application secret
+translation.integrations.gitlab.selfHostedApp.register	注册
+translation.integrations.gitlab.selfHostedApp.notSelfHosted	gitlab.com 不是自托管实例。请改用常规的 GitLab 连接流程。
+translation.integrations.gitlab.selfHostedApp.invalidHostname	请输入有效的主机名，例如 gitlab.yourcompany.com
+translation.integrations.gitlab.selfHostedApp.stillChecking	仍在检查是否已有 GitLab 应用。
+translation.integrations.gitlab.selfHostedApp.alreadyRegistered	此主机已注册了 GitLab 应用。注册替代品前先在「管理应用」中移除它。
+translation.integrations.gitlab.selfHostedApp.registered	GitLab 应用已注册
+translation.integrations.gitlab.selfHostedApp.registerFailed	注册 GitLab 应用失败。请重试。
+translation.integrations.gitlab.selfHostedApp.title	注册 GitLab 应用
+translation.integrations.gitlab.selfHostedApp.description	让用户把自托管 GitLab 账户关联到 Devin
+translation.integrations.gitlab.selfHostedApp.instructions	<createLink>在 {{host}} 上创建应用</createLink>（用下列设置），然后把凭据粘贴到底部的字段中
+translation.integrations.gitlab.notAccountHost	{{host}} 不是此账户的 GitLab 主机
+translation.integrations.github.removing	正在移除 GitHub 集成…
+translation.integrations.github.removed	GitHub 集成已移除
+translation.integrations.github.removeFailed	移除 GitHub 集成失败
+translation.integrations.github.connectOrgFailed	连接 GitHub 组织失败
+translation.integrations.github.installationAccessLost	我们不再有对此 installation 的访问权。请尝试断开并重新连接。
+translation.integrations.github.manageInstallationFailed	管理 installation 出错。
+translation.integrations.github.startOauthFailed	启动 GitHub OAuth 失败
+translation.integrations.github.unknownError	未知错误
+translation.integrations.github.noConnectPermission	你没有连接 Git 提供商的权限。请让管理员批准安装。
+translation.integrations.github.autoJoinEnabled	GitHub 自动加入已启用
+translation.integrations.github.autoJoinEnableFailed	启用 GitHub 自动加入失败
+translation.integrations.github.autoJoinDisableFailed	禁用 GitHub 自动加入失败
+translation.integrations.github.connectedModal.accountConnected	{{accountName}} 已连接
+translation.integrations.github.connectedModal.providerConnected	{{provider}} 已连接
+translation.integrations.github.connectedModal.dollarsGranted	我们已向你的账户添加了 \${{amount}} 按需用量，帮你开始使用 Devin。
+translation.integrations.github.connectedModal.dollarsGrantedWithMembership	我们已向你的账户添加了 \${{amount}} 按需用量，帮你开始使用 Devin。在下方配置成员设置。
+translation.integrations.github.connectedModal.acusGranted	我们已向你的账户添加了 {{amount}} ACU，帮你开始使用 Devin。
+translation.integrations.github.connectedModal.acusGrantedWithMembership	我们已向你的账户添加了 {{amount}} ACU，帮你开始使用 Devin。在下方配置成员设置。
+translation.integrations.github.connectedModal.connectedToTeam	你已成功把 {{provider}} 连接到你的 Devin 团队。在下方配置成员设置，然后开始用 Devin 完成工作。
+translation.integrations.github.connectedModal.connected	你已成功连接 {{provider}}。开始用 Devin 完成工作。
+translation.integrations.github.connectedModal.done	完成
+translation.integrations.github.connectedModal.openDesktop	打开 Devin Desktop
+translation.integrations.github.connectedModal.getStarted	开始使用
+translation.integrations.github.ghesApps.loadFailed	加载 GitHub App 配置失败。
+translation.integrations.github.ghesApps.installUrlFailed	获取安装 URL 失败。请重试。
+translation.integrations.github.ghesApps.removed	已移除 {{appName}}（{{host}}）
+translation.integrations.github.ghesApps.removeFailed	移除 GitHub App 配置失败。
+translation.integrations.github.ghesApps.title	GitHub Enterprise 应用
+translation.integrations.github.ghesApps.descriptionInstall	在你的 GitHub Enterprise 实例上安装一个已注册的 GitHub App。
+translation.integrations.github.ghesApps.descriptionRemove	移除一个应用以便为同一主机重新注册——移除只清除 Devin 存储的配置，请另行在你的 GitHub Enterprise 实例上删除该应用。
+translation.integrations.github.ghesApps.descriptionInstallAndRemove	在你的 GitHub Enterprise 实例上安装一个已注册的 GitHub App。移除一个应用以便为同一主机重新注册——移除只清除 Devin 存储的配置，请另行在你的 GitHub Enterprise 实例上删除该应用。
+translation.integrations.github.ghesApps.loading	正在加载配置…
+translation.integrations.github.ghesApps.empty	还没有注册 GitHub Enterprise 应用。请先注册一个应用。
+translation.integrations.github.ghesApps.removing	移除中…
+translation.integrations.github.ghesApps.confirmRemove	确认移除
+translation.integrations.github.ghesApps.install	安装
+translation.integrations.github.ghesApps.remove	移除
+translation.integrations.github.installations.dontSeeOrg	上方没看到你的组织？
+translation.integrations.github.installations.connectDifferentOrg	连接不同的组织
+translation.integrations.github.installations.title	连接 GitHub 组织
+translation.integrations.github.installations.connecting	连接中
+translation.integrations.github.installations.doNotLeave	请不要离开此页面。
+translation.integrations.github.installations.loadError	加载 GitHub installation 出错。请重试。
+translation.integrations.github.installations.empty	未找到已安装 Devin 的 GitHub 组织。
+translation.integrations.github.installations.searchPlaceholder	搜索组织…
+translation.integrations.github.installations.confirmTitle	连接 {{name}}
+translation.integrations.github.installations.confirmDescription	确定要连接到 <strong>{{name}}</strong> 吗？这将允许 Devin 访问此组织中的仓库。
+translation.integrations.github.ghesRegister.notEnterprise	github.com 不是 GitHub Enterprise 实例。请改用常规的 GitHub 连接流程。
+translation.integrations.github.ghesRegister.stillChecking	仍在检查此主机上已有的 GitHub App。请稍等。
+translation.integrations.github.ghesRegister.alreadyRegistered	此 GitHub Enterprise 实例已注册了 GitHub App。请安装或管理已有的 App，而不是创建新的。
+translation.integrations.github.ghesRegister.startFailed	启动 GitHub App 注册失败。请重试。
+translation.integrations.github.ghesRegister.startFailedCheckHost	启动 GitHub App 注册失败。请检查主机名并重试。
+translation.integrations.github.ghesRegister.title	连接 GitHub Enterprise
+translation.integrations.github.ghesRegister.description	你将被重定向到你的 GitHub Enterprise 实例以确认创建应用
+translation.integrations.github.ghesRegister.organization	组织
+translation.integrations.github.ghesRegister.organizationPlaceholder	my-org
+translation.integrations.github.ghesRegister.organizationHint	留空则在个人账户上注册应用
+translation.integrations.github.ghesRegister.appName	GitHub App 名称
+translation.integrations.github.ghesRegister.appNameHint	默认为 <code>devin-ai-integration</code>。必须在此实例上唯一
+translation.integrations.github.ghesRegister.subdomainIsolation	已启用子域隔离
+translation.integrations.github.ghesRegister.duplicateTitle	此 GitHub Enterprise 实例已注册了 GitHub App
+translation.integrations.github.ghesRegister.duplicateOne	已注册一个 GitHub App。
+translation.integrations.github.installPageTitle	GitHub 安装
+translation.integrations.github.ghesInstallPageTitle	GitHub Enterprise 安装
+translation.integrations.github.noOrganizationName	没有可用的组织名
+translation.integrations.bitbucket.adding	正在添加 Bitbucket Data Center 集成…
+translation.integrations.bitbucket.added	Bitbucket 集成已添加
+translation.integrations.bitbucket.addFailed	添加 Bitbucket 集成失败
+translation.integrations.bitbucket.invalidHost	主机只能包含小写字母、数字、连字符、下划线、点、可选端口号和可选路径 [a-z0-9-_.:port/path]
+translation.integrations.bitbucket.dataCenterTitle	连接 Bitbucket Data Center
+translation.integrations.bitbucket.learnHttpToken	了解如何创建 HTTP access token
+translation.integrations.bitbucket.hostRequired	需要主机
+translation.integrations.bitbucket.username	用户名
+translation.integrations.bitbucket.usernamePlaceholder	your-username
+translation.integrations.bitbucket.usernameRequired	需要用户名
+translation.integrations.bitbucket.httpToken	HTTP access token
+translation.integrations.bitbucket.httpTokenPlaceholder	你的 HTTP access token
+translation.integrations.bitbucket.httpTokenRequired	需要 HTTP access token
+translation.integrations.bitbucket.workspacePlaceholder	my-workspace
+translation.integrations.azureDevops.webhook.goToSettings	前往你的 Azure DevOps 项目设置
+translation.integrations.azureDevops.webhook.navigate	导航到 Service hooks
+translation.integrations.azureDevops.webhook.createThree	创建 <strong>三个</strong>独立的 Web Hooks 订阅，每个事件一个：
+translation.integrations.azureDevops.webhook.eventCreated	Pull request created
+translation.integrations.azureDevops.webhook.eventCommented	Pull request commented on
+translation.integrations.azureDevops.webhook.eventUpdated	Pull request updated
+translation.integrations.azureDevops.webhook.buildCompleted	为了让 Devin 响应其拉取请求上失败的 pipeline、并使用构建 automation，还要为 <strong>Build completed</strong> 创建一个订阅，资源版本 <strong>2.0</strong>（默认）。
+translation.integrations.azureDevops.webhook.codePushed	要使用推送 automation，还要为 <strong>Code pushed</strong> 创建一个订阅。
+translation.integrations.azureDevops.webhook.setSecret	设置上面的 webhook URL，并用此页面上的密钥令牌作为 webhook 的 <strong>Basic authentication password</strong>。
+translation.integrations.azureDevops.webhook.docs	Service hooks 文档
+translation.integrations.slack.ghNotifications.updateFailed	更新 GitHub 通知频道失败
+translation.integrations.slack.ghNotifications.privateDm	私信
+translation.integrations.slack.ghNotifications.off	关
+translation.integrations.slack.ghNotifications.unknownChannel	未知频道
+translation.integrations.slack.ghNotifications.title	通知
+translation.integrations.slack.ghNotifications.selectAria	选择 GitHub 通知频道
+translation.integrations.slack.ghNotifications.selectChannel	选择频道
+translation.integrations.slack.connection.label	连接
+translation.integrations.slack.connection.disconnectTitle	断开 Slack
+translation.integrations.slack.connection.disconnect	断开
+translation.integrations.slack.support.menuItem	Slack 支持频道
+translation.integrations.slack.support.emailNotConnected	此邮箱未关联 Slack 账户
+translation.integrations.slack.support.inviteFailed	获取 Slack Connect 邀请失败。
+translation.integrations.slack.support.dialogTitle	输入 Slack 邮箱
+translation.integrations.slack.support.emailPlaceholder	输入你的 Slack 邮箱
+translation.integrations.slack.support.gettingInvite	获取邀请中…
+translation.integrations.slack.support.getInvite	获取邀请
+translation.teamsLinkNudge.server.connect	连接 Devin 账户
+translation.teamsLinkNudge.server.instructions	连接你的 Devin 账户，就在这里给我发任务。之后我会建议几个可以开始的。
+translation.teamsLinkNudge.server.noAccount	还没有 Devin 账户？请你的 Devin 管理员邀请你。
+translation.teamsLinkNudge.server.repoReview	评审我在 {{repo}} 的最新 PR
+translation.teamsLinkNudge.server.linkedSuggestions.capabilities	你能做什么？
+translation.teamsLinkNudge.server.linkedSuggestions.latestPr	评审我的最新 PR
+translation.teamsLinkNudge.server.linkedSuggestions.explainRepo	讲解一个仓库怎么运作
+translation.teamsLinkNudge.server.tips.firstTask.title	今天可以交给 Devin 做什么？
+translation.teamsLinkNudge.server.tips.firstTask.text	我可以接下你一直拖延的那个任务，拆成步骤并打开一个 PR。
+translation.teamsLinkNudge.server.tips.firstTask.prompt	帮我挑第一个任务
+translation.teamsLinkNudge.server.tips.review.title	想给 PR 再找双眼睛看看吗？
+translation.teamsLinkNudge.server.tips.review.text	我可以带你过一个拉取请求，指出值得细看的改动。
+translation.teamsLinkNudge.server.tips.review.prompt	评审我的最新 PR
+translation.teamsLinkNudge.server.tips.tour.title	新仓库？来一段快速导览
+translation.teamsLinkNudge.server.tips.tour.text	我可以梳理一个功能如何运作，并告诉你该先读哪些文件。
+translation.teamsLinkNudge.server.tips.tour.prompt	带我逛一个仓库
+translation.teamsLinkNudge.server.tips.flakyTest.title	那个测试又挂了？
+translation.teamsLinkNudge.server.tips.flakyTest.text	把失败的测试或 CI 链接发我，我来找出为什么它只偶尔失败。
+translation.teamsLinkNudge.server.tips.flakyTest.prompt	帮我调试一个不稳定测试
+translation.teamsLinkNudge.server.tips.teamThread.title	把 Teams 讨论串变成任务
+translation.teamsLinkNudge.server.tips.teamThread.text	在讨论串里附上 bug 报告并提到我，我就可以当场为你的团队调查并回复。
+translation.teamsLinkNudge.server.tips.teamThread.prompt	帮我写一份给 Devin 的 bug 报告
+translation.skillsCoach.manualRun.action	用 Skills Coach 检查此技能
+translation.skillsCoach.manualRun.started	Skills Coach 正在检查此技能。它的发现会显示在此会话中。
+translation.skillsCoach.manualRun.alreadyRunning	Skills Coach 已在检查此技能。
+translation.skillsCoach.inbox.empty	没有可评审的内容。
+translation.skillsCoach.inbox.description	你可以批准或建议的指引编辑。
+translation.skillsCoach.inbox.loadMore	加载更多
+translation.skillsCoach.inbox.loadFailed	无法加载你的编辑。
+translation.skillsCoach.inbox.suggestedFrom	来自 {{name}} 的会话
+translation.skillsCoach.inbox.someone	某人
+translation.skillsCoach.inbox.editNotFound	此编辑已不存在，或没有路由给你。
+translation.skillsCoach.inbox.editLoadFailed	无法加载此编辑。
+translation.skillsCoach.inbox.runNotFound	这些编辑已不存在，或没有路由给你。
+translation.skillsCoach.inbox.partlyUnreviewed	包含只有你能看到的编辑
+translation.skillsCoach.inbox.unreviewed	只有你能看到
+translation.skillsCoach.inbox.editsLeft_one	剩 {{count}} 个
+translation.skillsCoach.inbox.editsLeft_other	剩 {{count}} 个
+translation.skillsCoach.inbox.emptyTitle	没有可评审的内容
+translation.skillsCoach.done.title	完成
+translation.skillsCoach.done.open	打开 {{name}}
+translation.skillsCoach.done.approved_one	已批准 {{count}} 个
+translation.skillsCoach.done.approved_other	已批准 {{count}} 个
+translation.skillsCoach.done.suggested_one	已建议 {{count}} 个
+translation.skillsCoach.done.suggested_other	已建议 {{count}} 个
+translation.skillsCoach.done.rejected_one	已拒绝 {{count}} 个
+translation.skillsCoach.done.rejected_other	已拒绝 {{count}} 个
+translation.skillsCoach.done.removed	已从收件箱移除
+translation.skillsCoach.done.sentToDevin	已发送给 Devin
+translation.skillsCoach.score.harmful	有害
+translation.skillsCoach.score.notUseful	无用
+translation.skillsCoach.score.needsWork	需要改进
+translation.skillsCoach.score.good	可以
+translation.skillsCoach.score.great	很好
+translation.skillsCoach.home.plugin	插件 {{name}}
+translation.skillsCoach.home.repo	仓库 {{name}}
+translation.skillsCoach.home.memory	记忆
+translation.skillsCoach.home.scratchpad	Automation 草稿板
+translation.skillsCoach.home.external	外部插件 {{name}}
+translation.skillsCoach.home.personal	个人插件
+translation.skillsCoach.scope.account	全企业
+translation.skillsCoach.scope.org	全组织
+translation.skillsCoach.scope.user	个人
+translation.skillsCoach.scope.unified	共享
+translation.skillsCoach.route.acting_user	你
+translation.skillsCoach.route.repo_writer	仓库写入者
+translation.skillsCoach.route.repo_code_owner	代码所有者
+translation.skillsCoach.route.skill_writers	技能作者
+translation.skillsCoach.route.plugin_admins	插件管理员
+translation.skillsCoach.route.plugin_group	插件所属组
+translation.skillsCoach.route.service_user_admins	服务用户管理员
+translation.skillsCoach.route.scope_owner	范围的所有者
+translation.skillsCoach.route.personal_owner	插件的所有者
+translation.skillsCoach.route.automation_run_as	automation 的所有者
+translation.skillsCoach.route.automation_admins	automation 管理员
+translation.skillsCoach.route.plugin_installer	安装该插件的人
+translation.skillsCoach.redFlag.bad_description	描述不好
+translation.skillsCoach.redFlag.called_too_often	调用过于频繁
+translation.skillsCoach.redFlag.called_too_rarely	调用过少
+translation.skillsCoach.redFlag.wrong_info	信息错误
+translation.skillsCoach.redFlag.unsafe	不安全
+translation.skillsCoach.redFlag.too_vague	太模糊
+translation.skillsCoach.redFlag.too_specific	太具体
+translation.skillsCoach.redFlag.wordy	啰嗦
+translation.skillsCoach.redFlag.duplicate	重复
+translation.skillsCoach.redFlag.conflict	冲突
+translation.skillsCoach.redFlag.scope_too_wide	范围太宽
+translation.skillsCoach.redFlag.scope_too_narrow	范围太窄
+translation.skillsCoach.redFlag.bad_for_automations	不适合 automation
+translation.skillsCoach.redFlag.wrong_home	归属错误
+translation.skillsCoach.redFlag.bad_guidance	指引不好
+translation.skillsCoach.redFlag.should_not_exist	不应存在
+translation.skillsCoach.redFlag.redistribute	重新分配
+translation.skillsCoach.action.approve	批准
+translation.skillsCoach.action.reject	拒绝
+translation.skillsCoach.action.dismiss	忽略
+translation.skillsCoach.action.cancel	取消
+translation.skillsCoach.action.uninstall	卸载
+translation.skillsCoach.action.tryAgain	重试
+translation.skillsCoach.action.approveAll	全部批准
+translation.skillsCoach.action.fixWithDevin	用 Devin 修复
+translation.skillsCoach.action.suggest	建议
+translation.skillsCoach.action.suggestAll	全部建议
+translation.skillsCoach.action.removeFromInbox	从收件箱移除
+translation.skillsCoach.status.applying	应用中
+translation.skillsCoach.status.applied	已应用
+translation.skillsCoach.status.prOpened	Devin 正在打开 PR
+translation.skillsCoach.status.sentToDevin	已发送给 Devin
+translation.skillsCoach.status.rejected	已拒绝
+translation.skillsCoach.status.canceled	已取消
+translation.skillsCoach.status.failed	失败
+translation.skillsCoach.status.dismissed	已忽略
+translation.skillsCoach.status.unreviewed	未评审
+translation.skillsCoach.finding.evidence	证据
+translation.skillsCoach.finding.reason	为什么？（可选）
+translation.skillsCoach.edit.summaryCreate	添加 {{file}}
+translation.skillsCoach.edit.summaryEdit	更改 {{file}}
+translation.skillsCoach.edit.summaryDelete	删除 {{file}}
+translation.skillsCoach.edit.summaryUninstall	卸载 {{name}}
+translation.skillsCoach.edit.summaryUninstallAccount	为整个企业卸载 {{name}}
+translation.skillsCoach.edit.summaryUninstallOrg	为整个组织卸载 {{name}}
+translation.skillsCoach.edit.summaryUninstallUser	为安装它的人卸载 {{name}}
+translation.skillsCoach.edit.summaryUninstallUnified	为所有共享对象卸载 {{name}}
+translation.skillsCoach.edit.overlap_one	批准此项会取消此文件上另外 {{count}} 个待处理编辑。
+translation.skillsCoach.edit.overlap_other	批准此项会取消此文件上另外 {{count}} 个待处理编辑。
+translation.skillsCoach.edit.canceled.file_changed_by_edit	已取消：另一个已批准的编辑更改了此文件。
+translation.skillsCoach.edit.canceled.file_changed	已取消：此文件已更改。
+translation.skillsCoach.edit.canceled.home_unavailable	已取消：此归属或文件已不存在，或没有剩余批准人。
+translation.skillsCoach.edit.canceled.already_done	已取消：此更改已应用。
+translation.skillsCoach.edit.uninstallNote	其内容无法从这里编辑。
+translation.skillsCoach.edit.view	显示
+translation.skillsCoach.edit.viewChanges	更改
+translation.skillsCoach.edit.viewBefore	之前
+translation.skillsCoach.edit.viewAfter	之后
+translation.skillsCoach.edit.noBefore	此编辑创建该文件。
+translation.skillsCoach.edit.noAfter	此编辑删除该文件。
+translation.skillsCoach.edit.beforeUnavailable	此编辑没有保存原文件。
+translation.skillsCoach.edit.failed	无法应用此编辑：{{detail}}
+translation.skillsCoach.edit.move	移动的一部分。另一半单独路由：{{path}}
+translation.skillsCoach.edit.canceledOthers_one	批准此项取消了另外 {{count}} 个编辑。
+translation.skillsCoach.edit.canceledOthers_other	批准此项取消了另外 {{count}} 个编辑。
+translation.skillsCoach.approveAll.applied_one	已应用 {{count}} 个编辑
+translation.skillsCoach.approveAll.applied_other	已应用 {{count}} 个编辑
+translation.skillsCoach.approveAll.blockedBy	被以下阻塞：
+translation.skillsCoach.approveAll.hiddenEdit	一个你不再能查看的编辑
+translation.skillsCoach.approveAll.prOpening_one	Devin 正在为 {{count}} 个编辑打开 PR
+translation.skillsCoach.approveAll.prOpening_other	Devin 正在为 {{count}} 个编辑打开 PR
+translation.skillsCoach.fix.failed	无法启动会话。请重试。
+translation.skillsCoach.fix.viewSession	查看会话
+translation.skillsCoach.fix.sentViewSession	已发送给 Devin · 查看会话
+translation.skillsCoach.card.routedTo_one	另外 {{count}} 个编辑已路由给 {{approvers, list}}
+translation.skillsCoach.card.routedTo_other	另外 {{count}} 个编辑已路由给 {{approvers, list}}
+translation.skillsCoach.card.reviewChanges	打开完整评审
+translation.skillsCoach.card.summary.appliedPart_one	已应用 {{count}} 个
+translation.skillsCoach.card.summary.appliedPart_other	已应用 {{count}} 个
+translation.skillsCoach.card.summary.sentToDevinPart_one	已发送给 Devin {{count}} 个
+translation.skillsCoach.card.summary.sentToDevinPart_other	已发送给 Devin {{count}} 个
+translation.skillsCoach.card.summary.rejectedPart_one	已拒绝 {{count}} 个
+translation.skillsCoach.card.summary.rejectedPart_other	已拒绝 {{count}} 个
+translation.skillsCoach.card.summary.canceledPart_one	已取消 {{count}} 个
+translation.skillsCoach.card.summary.canceledPart_other	已取消 {{count}} 个
+translation.skillsCoach.card.summary.openPart_one	待处理 {{count}} 个
+translation.skillsCoach.card.summary.openPart_other	待处理 {{count}} 个
+translation.skillsCoach.review.routedTo	等待 {{approvers}}
+translation.skillsCoach.review.decidedBy	由 {{name}} 于 {{at}} {{status}}
+translation.skillsCoach.review.appliedVersion	版本 {{version}}
+translation.skillsCoach.review.applyDisabled	应用编辑功能尚未开启。
+translation.skillsCoach.review.unreviewed	只有你能看到此编辑。建议给 {{approvers}}，他们可以应用它。
+translation.skillsCoach.review.approvers	批准人：{{approvers}}
+translation.skillsCoach.review.edits	编辑
+translation.skillsCoach.review.findings	红旗
+translation.skillsCoach.review.removeFromInboxHint	把这次运行移出你的收件箱，不应用也不拒绝其编辑。
+translation.skillsCoach.review.dismissed	其编辑保持未决。
+translation.skillsCoach.review.done	完成
+translation.skillsCoach.review.nothingLeft	没有剩余要评审的
+translation.skillsCoach.review.nothingLeftWith	没有剩余要评审的 · {{summary}}
+translation.skillsCoach.review.unreviewedMany	只有你能看到这些编辑。建议给能应用它们的人。
+translation.skillsCoach.review.back	返回收件箱
+translation.skillsCoach.error.applyFailed	无法应用此编辑。你可以重试。
+translation.skillsCoach.error.notApplied	此编辑未应用。
+translation.skillsCoach.error.noPermission	你不再有更改此归属的权限。
+translation.skillsCoach.error.noLongerPending	此编辑已被处理。
+translation.skillsCoach.error.alreadySuggested	一旦你建议过其中任何编辑，就不能再忽略它们。
+translation.skillsCoach.error.generic	出了点问题。请重试。
+translation.skillsCoach.op.create	新文件
+translation.skillsCoach.op.delete	删除
+translation.rolesPage.filterAllPermissions	所有权限
+translation.rolesPage.filterSelectedOnly	仅已选
+translation.rolesPage.scopeDescriptionOrg	按组织分配，限于该组织
+translation.rolesPage.scopeDescriptionAccount	跨企业分配，应用于所有用户组织
+translation.rolesPage.deletingRole	正在删除角色…
+translation.rolesPage.roleDeleted	角色已成功删除
+translation.rolesPage.deleteRoleFailed	删除角色失败
+translation.rolesPage.deleteWarning	这将永久删除「{{roleName}}」
+translation.rolesPage.builtInNotEditable	内置角色不可编辑
+translation.rolesPage.noEditPermission	你没有编辑角色的权限
+translation.rolesPage.adminTooltipAccount	管理员角色拥有所有功能的完全访问权并跨所有组织可见
+translation.rolesPage.adminTooltipOrg	管理员角色拥有所有功能的完全访问权
+translation.rolesPage.createOrganizationRole	创建组织角色
+translation.rolesPage.createEnterpriseRole	创建企业角色
+translation.rolesPage.delete	删除
+translation.rolesPage.editRole	编辑角色
+translation.rolesPage.cancel	取消
+translation.rolesPage.saveChanges	保存
+translation.rolesPage.roleNamePlaceholder	角色名…
+translation.rolesPage.roleNameLabel	角色名
+translation.rolesPage.duplicateNameOrg	另一个组织角色已叫「{{name}}」。请换一个名字。
+translation.rolesPage.duplicateNameAccount	另一个企业角色已叫「{{name}}」。请换一个名字。
+translation.rolesPage.filterPermissions	筛选权限
+translation.rolesPage.searchPermissions	搜索权限
+translation.rolesPage.searchPermissionsPlaceholder	搜索权限…
+translation.rolesPage.deleteRole	删除角色
+translation.rolesPage.selectAllListedPermissions	全选列出的权限
+translation.rolesPage.permissionColumn	权限
+translation.rolesPage.descriptionColumn	描述
+translation.rolesPage.noPermissionsMatch	没有匹配「{{query}}」的权限
+translation.rolesPage.noPermissionsSelected	未选择权限
+translation.rolesPage.roleFallbackTitle	角色
+translation.rolesPage.roleNotFound	未找到角色
+translation.rolesPage.scopeAll	全部
+translation.rolesPage.scopeEnterprise	企业
+translation.rolesPage.scopeOrganization	组织
+translation.rolesPage.roleColumn	角色
+translation.rolesPage.permissionsColumn	权限
+translation.rolesPage.permissionCount_one	{{count}} 项权限
+translation.rolesPage.permissionCount_other	{{count}} 项权限
+translation.rolesPage.scopeColumn	范围
+translation.rolesPage.typeColumn	类型
+translation.rolesPage.typeDefault	默认
+translation.rolesPage.typeCustom	自定义
+translation.rolesPage.typeBuiltIn	内置
+translation.rolesPage.searchRolesPlaceholder	搜索角色…
+translation.rolesPage.filterRolesByScope	按范围筛选角色
+translation.rolesPage.createRole	创建角色
+translation.rolesPage.createForEnterprise	为企业创建
+translation.rolesPage.createForOrganizations	为组织创建
+translation.rolesPage.noRolesFound	未找到角色。
+translation.checkoutLocally.couldNotOpen	无法打开 Devin Desktop
+translation.checkoutLocally.download	下载 Devin Desktop
+translation.checkoutLocally.mayNotBeInstalled	Devin Desktop 可能未安装。
+translation.ds.actionBar.clearSelection	清除选择
+translation.ds.actions	操作
+translation.ds.dismiss	关闭
+translation.ds.loadingMore	加载更多…
