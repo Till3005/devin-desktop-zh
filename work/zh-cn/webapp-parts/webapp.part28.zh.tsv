@@ -1,0 +1,500 @@
+translation.rolePermissions.options.outpostsRead	Outpost 读取
+translation.rolePermissions.options.outpostsReadDescription	列出 outpost 并读取 outpost 会话队列
+translation.rolePermissions.options.outpostsWrite	Outpost 写入
+translation.rolePermissions.options.outpostsWriteDescription	创建/编辑/删除 outpost 并认领/释放会话，隐含 outpost 读取
+translation.rolePermissions.options.personalOutposts	个人 outpost
+translation.rolePermissions.options.personalOutpostsDescription	创建仅创建者可在其上启动会话的个人 outpost，不授予账户级 outpost 管理权限
+translation.rolePermissions.options.viewSessionCategories	查看会话类别
+translation.rolePermissions.options.viewSessionCategoriesDescription	查看会话类别与子类别设置（只读）
+translation.rolePermissions.options.manageSessionCategories	管理会话类别
+translation.rolePermissions.options.manageSessionCategoriesDescription	在企业级创建/编辑/删除会话类别与子类别
+translation.rolePermissions.options.viewCodeScans	查看代码扫描
+translation.rolePermissions.options.viewCodeScansDescription	查看代码扫描和发现项（只读）
+translation.rolePermissions.options.manageCodeScanFindings	管理代码扫描发现项
+translation.rolePermissions.options.manageCodeScanFindingsDescription	查看代码扫描、分诊发现项并分配给 Devin
+translation.rolePermissions.options.useCodeScans	使用代码扫描
+translation.rolePermissions.options.useCodeScansDescription	包含全部管理发现项权限，另可启动代码扫描并管理扫描配置
+translation.rolePermissions.options.manageCodeScans	管理代码扫描
+translation.rolePermissions.options.manageCodeScansDescription	包含全部使用权限，另可归档代码扫描
+translation.rolePermissions.options.viewSecurityScans	查看安全扫描
+translation.rolePermissions.options.viewSecurityScansDescription	查看安全扫描和发现项（只读）
+translation.rolePermissions.options.manageSecurityScanFindings	管理安全扫描发现项
+translation.rolePermissions.options.manageSecurityScanFindingsDescription	查看安全扫描、分诊发现项并分配给 Devin
+translation.rolePermissions.options.useSecurityScans	使用安全扫描
+translation.rolePermissions.options.useSecurityScansDescription	包含全部管理发现项权限，另可启动安全扫描并管理扫描配置
+translation.rolePermissions.options.manageSecurityScans	管理安全扫描
+translation.rolePermissions.options.manageSecurityScansDescription	包含全部使用权限，另可归档安全扫描
+translation.rolePermissions.options.viewAgentReadiness	查看 Agent 就绪度
+translation.rolePermissions.options.viewAgentReadinessDescription	查看就绪度评估与标准（只读）
+translation.rolePermissions.options.useAgentReadiness	使用 Agent 就绪度
+translation.rolePermissions.options.useAgentReadinessDescription	包含全部查看权限，另可运行评估
+translation.rolePermissions.options.manageAgentReadiness	管理 Agent 就绪度
+translation.rolePermissions.options.manageAgentReadinessDescription	包含全部使用权限，另可为标准项启动修复会话
+translation.rolePermissions.options.manageSecurityProfiles	管理安全配置
+translation.rolePermissions.options.manageSecurityProfilesDescription	在企业级创建/编辑/删除安全配置
+translation.rolePermissions.options.manageSecurityProfilesOrgDescription	创建/编辑/删除组织安全配置
+translation.rolePermissions.options.viewSessionCategoriesOrgDescription	查看会话类别设置（只读）
+translation.rolePermissions.options.desktopCliAdmin	{{productName}} + Devin CLI 管理员
+translation.rolePermissions.options.desktopCliAdminDescription	允许用户修改 {{productName}} + Devin CLI 使用的组织设置
+translation.rolePermissions.options.useProduct	使用 {{productName}}
+translation.rolePermissions.options.useProductDescription	允许用户使用 {{productName}}
+translation.rolePermissions.groupNames.accountPermissions	账户权限
+translation.rolePermissions.groupNames.integrationPermissions	集成权限
+translation.rolePermissions.groupNames.accountDataPermissions	账户数据权限
+translation.rolePermissions.groupNames.accountUsagePermissions	账户用量权限
+translation.rolePermissions.groupNames.accountStatsPermissions	账户统计权限
+translation.rolePermissions.groupNames.devinReviewAccess	Devin Review 访问
+translation.rolePermissions.groupNames.usagePermissions	用量权限
+translation.rolePermissions.groupNames.organizationPermissions	组织权限
+translation.rolePermissions.groupNames.organizationResourcePermissions	组织资源权限
+translation.rolePermissions.groupNames.organizationDataPermissions	组织数据权限
+translation.rolePermissions.groupNames.organizationUsagePermissions	组织用量权限
+translation.rolePermissions.groupNames.organizationStatsPermissions	组织统计权限
+translation.rolePermissions.groupNames.outpostPermissions	Outpost 权限
+translation.rolePermissions.groupNames.sessionCategoriesPermissions	会话类别权限
+translation.rolePermissions.groupNames.codeScanPermissions	代码扫描权限
+translation.rolePermissions.groupNames.securityScanPermissions	安全扫描权限
+translation.rolePermissions.groupNames.agentReadinessPermissions	Agent 就绪度权限
+translation.rolePermissions.groupNames.securityProfilePermissions	安全配置权限
+translation.rolePermissions.groupNames.devinReviewPermissions	Devin Review 权限
+translation.rolePermissions.groupNames.desktopCli	{{productName}} + Devin CLI 权限
+translation.labs.title	实验室
+translation.labs.description	在正式发布前试用实验性功能，仅影响你的账户。
+translation.labs.empty	目前没有可用的实验。
+translation.labs.stopEta.title	会话预计完成时间
+translation.labs.stopEta.description	在侧栏和会话状态上方实时显示 Devin 下次停止的预估时间。
+translation.settings.cloudSetupDescription	devin cloud setup 的运行记录及每次上传的内容
+translation.settings.baaTitle	商业伙伴协议（BAA）
+translation.settings.baaDescription	需要用 Devin 处理受保护健康信息？申请 BAA，我们的团队会跟进。
+translation.settings.requestBaa	申请 BAA
+translation.settings.reviewKnowledge.description	从此仓库的历史、安全发现和事件中学习。
+translation.settings.reviewKnowledge.sourcesTitle	知识来源
+translation.settings.reviewKnowledge.repository	仓库
+translation.settings.reviewKnowledge.updateFrequency	更新频率
+translation.settings.reviewKnowledge.frequencyDaily	每天
+translation.settings.reviewKnowledge.frequencyWeekly	每周
+translation.settings.reviewKnowledge.frequencyMonthly	每月
+translation.settings.reviewKnowledge.frequencyManual	手动
+translation.settings.reviewKnowledge.searchRepositories	搜索仓库
+translation.settings.reviewKnowledge.noMatches	无匹配仓库
+translation.settings.reviewKnowledge.loadFailed	无法加载知识设置。
+translation.settings.reviewKnowledge.retry	重试
+translation.settings.reviewKnowledge.saveFailed	无法保存知识设置。
+translation.settings.reviewKnowledge.sourceGitHistory	Git 历史与评审评论
+translation.settings.reviewKnowledge.sourceGitHistoryDescription	从过去的 bug 修复和你团队的 PR 反馈中学习。
+translation.settings.reviewKnowledge.sourceSecurity	Devin Security
+translation.settings.reviewKnowledge.sourceSecurityDescription	从你团队已修复的安全发现中学习。
+translation.settings.reviewKnowledge.sourceOncall	Devin Oncall
+translation.settings.reviewKnowledge.sourceOncallDescription	把已确认的事件教训变成对未来变更的检查。
+translation.settings.reviewKnowledge.unavailable	此仓库不可使用此来源。
+translation.settings.reviewKnowledge.unavailableRepoIndexing	开启此仓库的索引才能使用此来源。
+translation.settings.reviewKnowledge.unavailableSecurityGithub	Devin Security 仅适用于 GitHub 仓库。
+translation.settings.reviewKnowledge.unavailableOncall	Devin Oncall 知识暂不可用。
+translation.settings.reviewKnowledge.stateNotIndexed	未索引
+translation.settings.reviewKnowledge.stateWaiting	等待首次索引
+translation.settings.reviewKnowledge.statePaused	已暂停
+translation.settings.reviewKnowledge.next	下次 · UTC
+translation.settings.reviewKnowledge.noNextRun	未排期
+translation.settings.reviewKnowledge.cadenceDaily	每天 · 仅新活动
+translation.settings.reviewKnowledge.cadenceWeekly	每周{{weekday}} · 仅新活动
+translation.settings.reviewKnowledge.cadenceMonthly	每月 1 日 · 仅新活动
+translation.settings.reviewKnowledge.cadenceManual	仅在你手动启动时运行
+translation.settings.reviewKnowledge.startedAt	开始于 {{time}} UTC
+translation.settings.reviewKnowledge.noRepositories	没有你可配置的仓库。
+translation.settings.reviewKnowledge.runFailed	无法启动索引。
+translation.settings.reviewKnowledge.scheduleNote	已启用的来源会按此仓库的排期索引近期历史。
+translation.settings.reviewKnowledge.oneJobNote	每个仓库一次只运行一个索引任务，运行期间现有知识仍可用。所有时间均为 UTC。
+translation.settings.reviewKnowledge.runningNote	此仓库正在运行索引任务，完成后可再次启动，其他仓库不受影响。
+translation.settings.reviewKnowledge.readOnly	你可以查看此仓库的知识。更改需要在拥有该仓库的组织中具备 Manage Review 权限。
+translation.settings.reviewKnowledge.missingManageReview	你没有 Review 设置权限，因此无法使用知识。请向管理员申请权限。
+translation.settings.reviewKnowledge.missingRepoGrants	你暂时看不到任何仓库的知识。查看需要仓库的 repo.use_read 权限，更改需要在拥有该仓库的组织中具备 Manage Review 权限。请向管理员申请权限。
+translation.settings.reviewKnowledge.searchForRepository	你可见的仓库并非全部列出，按名称搜索一个。
+translation.settings.reviewKnowledge.recentHistory	近期历史
+translation.settings.reviewKnowledge.stateIndexed	已索引
+translation.settings.reviewKnowledge.running	运行中
+translation.settings.reviewKnowledge.indexNow	立即索引
+translation.settings.logOutAllDevices	退出所有设备
+translation.settings.logOutAllDevicesDescription	结束你在每台设备（包括本机）上 web 应用、Devin Desktop、CLI 和移动应用中的会话，OAuth 授权的应用也会失去访问权，API 密钥和个人访问令牌仍有效。
+translation.settings.logOutAllDevicesAction	全部退出
+translation.settings.logOutAllDevicesConfirmTitle	退出所有设备？
+translation.settings.logOutAllDevicesFailed	无法退出所有设备，请重试。
+translation.settings.copyAccountPolicies	复制账户级策略到预算
+translation.settings.copyAccountPoliciesConfirm_one	复制到 {{count}} 个预算
+translation.settings.copyAccountPoliciesConfirm_other	复制到 {{count}} 个预算
+translation.settings.copyAccountPoliciesCountsError	无法加载预算的层级数量。
+translation.settings.copyAccountPoliciesDescription	将你选择的账户级策略复制到每个选中的预算。
+translation.settings.copyAccountPoliciesFailed_one	无法复制到 {{count}} 个预算，它保持选中以便重试。
+translation.settings.copyAccountPoliciesFailed_other	无法复制到 {{count}} 个预算，它们保持选中以便重试。
+translation.settings.copyAccountPoliciesOverwriteConfirm	覆盖并复制
+translation.settings.copyAccountPoliciesOverwriteDescription_one	{{count}} 个选中预算已有层级，复制将替换其层级、组映射和成员限额。
+translation.settings.copyAccountPoliciesOverwriteDescription_other	{{count}} 个选中预算已有层级，复制将替换其层级、组映射和成员限额。
+translation.settings.copyAccountPoliciesOverwriteTitle	覆盖现有层级？
+translation.settings.copyAccountPoliciesParts	要复制的内容
+translation.settings.copyAccountPoliciesProgress	{{finished}}/{{total}} 个预算已完成
+translation.settings.copyAccountPoliciesProgressDescription	请保持此页面打开，关闭会停止复制，已完成的预算保持已复制状态。
+translation.settings.copyAccountPoliciesProgressTitle	正在复制账户级策略
+translation.settings.copyAccountPoliciesSelectAll	全选预算
+translation.settings.copyAccountPoliciesSourceEmpty	账户没有可复制的用户限额层级。
+translation.settings.copyAccountPoliciesSuccess_one	已复制到 {{count}} 个预算
+translation.settings.copyAccountPoliciesSuccess_other	已复制到 {{count}} 个预算
+translation.settings.copyAccountPoliciesSummaryCopy_one	正在将用户用量策略复制到 {{count}} 个预算
+translation.settings.copyAccountPoliciesSummaryCopy_other	正在将用户用量策略复制到 {{count}} 个预算
+translation.settings.copyAccountPoliciesSummaryOverwrite_one	正在覆盖 {{count}} 个预算中的用户用量策略
+translation.settings.copyAccountPoliciesSummaryOverwrite_other	正在覆盖 {{count}} 个预算中的用户用量策略
+translation.settings.copyAccountPoliciesTitle	选择要复制到的预算
+translation.settings.copyAccountPoliciesTooMany	一次最多复制到 {{max}} 个预算，请取消一些预算后继续。
+translation.settings.copyUserLimits	复制用户限额
+translation.settings.copyUserLimitsToBudgets_one	复制用户限额到 {{count}} 个预算
+translation.settings.copyUserLimitsToBudgets_other	复制用户限额到 {{count}} 个预算
+translation.settings.mergeIntoBudget	合并到 {{name}}
+translation.settings.mergeBudgetsTitle_one	将 {{name}} 合并到 {{root}}？
+translation.settings.mergeBudgetsTitle_other	将 {{count}} 个预算合并到 {{root}}？
+translation.settings.mergeBudgetsDescription_one	将其组织移到 {{root}} 并归档该预算。
+translation.settings.mergeBudgetsDescription_other	将它们的组织移到 {{root}} 并归档这些预算。
+translation.settings.mergeBudgetsSkipped_one	{{count}} 个选中预算保留：它是根预算，或其某个子预算未被选中。
+translation.settings.mergeBudgetsSkipped_other	{{count}} 个选中预算保留：它们是根预算，或其某个子预算未被选中。
+translation.settings.mergeBudgetsSuccess_one	已合并 {{count}} 个预算
+translation.settings.mergeBudgetsSuccess_other	已合并 {{count}} 个预算
+translation.settings.mergeBudgetsFailed_one	无法合并 {{count}} 个预算。
+translation.settings.mergeBudgetsFailed_other	无法合并 {{count}} 个预算。
+translation.settings.userLimitsMigrationExpand	显示预算
+translation.settings.userLimitsMigrationCollapse	隐藏预算
+translation.settings.userLimitsMigrationGuidance	用量限额正在迁移到层级模型，用户限额将按预算划分。如需集中管理用户限额，请将用户限额复制到账户预算并把其他预算合并进来；否则可考虑把用户限额复制到每个预算。
+translation.settings.userLimitsEnforce	启用按预算用户限额
+translation.settings.userLimitsEnforceRowDescription	停止执行账户级用户限额，改为执行按预算用户限额。
+translation.settings.userLimitsEnforceDescription	按预算用户限额将对所有成员替代账户级用户限额，之后可以还原。
+translation.settings.userLimitsEnforceTitle	启用按预算用户限额？
+translation.settings.userLimitsEnforcedBanner	<docsLink>按预算用户限额</docsLink>已生效。
+translation.settings.userLimitsEnforcementFailed	无法更改执行哪种用户限额。
+translation.settings.userLimitsEnforcementPreview_one	按当前计费周期用量，{{count}} 位用户将被阻止。
+translation.settings.userLimitsEnforcementPreview_other	按当前计费周期用量，{{count}} 位用户将被阻止。
+translation.settings.userLimitsEnforcementPreviewError	无法加载将被阻止的用户数。
+translation.settings.userLimitsEnforcementPreviewLoading	正在统计将被阻止的用户…
+translation.settings.userLimitsMigrationBanner	用户限额正在迁移到<docsLink>按预算用户限额</docsLink>。
+translation.settings.userLimitsRevert	还原为账户级用户限额
+translation.settings.userLimitsRevertDescription	账户级用户限额将对所有成员替代按预算用户限额。
+translation.settings.userLimitsRevertTitle	还原为账户级用户限额？
+translation.settings.wikiEffortLow	低
+translation.settings.wikiEffortMedium	中
+translation.settings.wikiEffortHigh	高
+translation.settings.fedIdeBannerSectionTitle	IDE 横幅
+translation.settings.fedIdeBannerLabel	IDE 横幅
+translation.settings.fedIdeBannerDescription	在企业内所有人的每个页面顶部和 Devin Desktop 中显示的横幅文本
+translation.settings.fedIdeBannerOff	关闭
+translation.settings.fedIdeBannerEditLabel	IDE 横幅：{{value}}，编辑
+translation.settings.fedIdeBannerDialogTitle	编辑 IDE 横幅
+translation.settings.fedIdeBannerDialogDescription	横幅横跨每个页面顶部，不可关闭。
+translation.settings.fedIdeBannerEnabled	已启用
+translation.settings.fedIdeBannerText	横幅文本
+translation.settings.fedIdeBannerTextPlaceholder	输入横幅文本
+translation.settings.fedIdeBannerTextRequired	启用横幅时横幅文本为必填
+translation.settings.fedIdeBannerColor	横幅颜色
+translation.settings.fedIdeBannerCustomColor	自定义颜色
+translation.settings.fedIdeBannerPreview	预览
+translation.settings.fedIdeBannerUpdated	IDE 横幅已更新
+translation.settings.fedIdeBannerUpdateFailed	IDE 横幅更新失败
+translation.settings.fedIdeBannerColorGreen	绿色
+translation.settings.fedIdeBannerColorBlue	蓝色
+translation.settings.fedIdeBannerColorRed	红色
+translation.settings.fedIdeBannerColorOrange	橙色
+translation.settings.fedIdeBannerColorYellow	黄色
+translation.settings.fedIdeBannerColorPurple	紫色
+translation.settings.fedIdeBannerColorWhite	白色
+translation.settings.fedIdeBannerColorBlack	黑色
+translation.settings.customerNetworkCa.pemRules	仅接受 CERTIFICATE 块——私钥会被拒绝。最大 64 KB。
+translation.settings.customerNetworkCa.copyFingerprint	复制完整 SHA-256 指纹
+translation.settings.customerNetworkCa.checking	检查中…
+translation.settings.customerNetworkCa.checkFailed	无法检查该 bundle——你仍可尝试保存。
+translation.settings.customerNetworkCa.expiredOn	已于 {{date}} 过期——不会被信任
+translation.settings.customerNetworkCa.expiresOn	{{date}} 过期
+translation.settings.customerNetworkCa.title	自定义 CA 证书
+translation.settings.customerNetworkCa.replaceBundle	替换 bundle
+translation.settings.customerNetworkCa.pemBundle	PEM 证书 bundle
+translation.settings.customerNetworkCa.pemBundleRequired	需要 PEM bundle
+translation.settings.customerNetworkCa.pasteHint	粘贴 PEM 编码的证书链，包含内部服务器提供的所有中间证书和根证书。
+translation.settings.customerNetworkCa.saving	保存中…
+translation.settings.customerNetworkCa.saveBundle	保存 bundle
+translation.settings.customerNetworkCa.loadError	加载 CA bundle 出错
+translation.settings.customerNetworkCa.empty	无自定义 CA 证书
+translation.settings.customerNetworkCa.emptyHint	在添加 bundle 之前，出示私有 CA 证书的 MCP 服务器将无法通过 TLS 验证。
+translation.settings.customerNetworkCa.addBundle	添加 CA bundle
+translation.settings.customerNetworkCa.certificate	证书
+translation.settings.customerNetworkCa.fingerprint	SHA-256 指纹
+translation.settings.customerNetworkCa.expires	过期时间
+translation.settings.customerNetworkCa.bundleUpdated	Bundle 更新于 {{date}}
+translation.settings.customerNetworkCa.removeAll	全部移除
+translation.settings.customerNetworkCa.removeBundle	移除 bundle
+translation.settings.customerNetworkCa.removeTitle	移除 CA bundle？
+translation.settings.customerNetworkCa.daysLeft_one	{{date}} · {{count}} 天
+translation.settings.customerNetworkCa.daysLeft_other	{{date}} · {{count}} 天
+translation.settings.customerNetworkCa.detectedCertificates_one	已检测 · {{count}} 个证书 · {{size}} KB
+translation.settings.customerNetworkCa.detectedCertificates_other	已检测 · {{count}} 个证书 · {{size}} KB
+translation.settings.customerNetworkCa.savedCertificates_one	CA bundle 已保存（{{count}} 个证书）
+translation.settings.customerNetworkCa.savedCertificates_other	CA bundle 已保存（{{count}} 个证书）
+translation.settings.customerNetworkCa.removeCertificates_one	将移除全部 {{count}} 个证书。在添加新 bundle 前，出示你的私有 CA 证书的 MCP 服务器将无法通过 TLS 验证。
+translation.settings.customerNetworkCa.removeCertificates_other	将移除全部 {{count}} 个证书。在添加新 bundle 前，出示你的私有 CA 证书的 MCP 服务器将无法通过 TLS 验证。
+translation.settings.customerNetworkCa.description	当 Devin 通过你的私有网络隧道连接 MCP 服务器时，信任你内部证书颁发机构签发的证书。绝不用于公网连接。
+translation.settings.customerNetworkCa.selfSignedRoot	自签名根证书
+translation.settings.customerNetworkCa.issuedBy	签发者：{{issuer}}
+translation.settings.customerNetworkCa.copyFingerprintFailed	无法复制指纹
+translation.settings.customerNetworkCa.bundleRemoved	CA bundle 已移除
+translation.settings.customerNetworkCa.expiredOnLabel	过期于 {{expiresOn}}
+translation.settings.vpcMonitoringPage.pendingJobsWithOldest_one	{{count}} 个任务排队中 · 最早：{{oldest}}
+translation.settings.vpcMonitoringPage.pendingJobsWithOldest_other	{{count}} 个任务排队中 · 最早：{{oldest}}
+translation.settings.vpcMonitoringPage.pendingJobs_one	{{count}} 个任务排队中
+translation.settings.vpcMonitoringPage.pendingJobs_other	{{count}} 个任务排队中
+translation.settings.vpcMonitoringPage.startingHypervisors_one	{{count}} 个 hypervisor 启动中——新容量即将上线（通常约 10 分钟）
+translation.settings.vpcMonitoringPage.startingHypervisors_other	{{count}} 个 hypervisor 启动中——新容量即将上线（通常约 10 分钟）
+translation.settings.securityProfileNetworkRules_one	{{count}} 条网络规则
+translation.settings.securityProfileNetworkRules_other	{{count}} 条网络规则
+translation.settings.securityProfileMcpServers_one	{{count}} 个 MCP 服务器
+translation.settings.securityProfileMcpServers_other	{{count}} 个 MCP 服务器
+translation.settings.buildDetail.searchResults_one	{{count}} 个结果
+translation.settings.buildDetail.searchResults_other	{{count}} 个结果
+translation.settings.updatedRoleMembers_one	已将 {{count}} 位成员的角色更新为 {{role}}
+translation.settings.updatedRoleMembers_other	已将 {{count}} 位成员的角色更新为 {{role}}
+translation.settings.coachTabTitle	Coach
+translation.settings.insightsTabTitle	洞察
+translation.settings.gatewayTabTitle	连接
+translation.settings.pages.azureDevops.somethingWentWrong	出了点问题
+translation.settings.pages.azureDevops.removingAzureDevopsConnection	正在移除 Azure DevOps 连接
+translation.settings.pages.azureDevops.azureDevopsDisconnectedSuccessfully	Azure DevOps 断开成功
+translation.settings.pages.azureDevops.failedDisconnectAzureDevops	断开 Azure DevOps 失败
+translation.settings.pages.azureDevops.noOrganizationIdFound	未找到组织 ID
+translation.settings.pages.azureDevops.failedReconnectAzureDevops	重新连接 Azure DevOps 失败
+translation.settings.pages.azureDevops.youDontHavePermissionManageConnection	你没有管理此连接的权限。
+translation.settings.pages.azureDevops.general	常规
+translation.settings.pages.azureDevops.webhook	Webhook
+translation.settings.pages.azureDevops.configureWebhookConnection	为此连接配置 webhook
+translation.settings.pages.azureDevops.configure	配置
+translation.settings.pages.azureDevops.reconnect	重新连接
+translation.settings.pages.azureDevops.reRunAzureDevopsOauthFlow	为此连接重新运行 Azure DevOps OAuth 流程
+translation.settings.pages.azureDevops.dangerZone	危险区
+translation.settings.pages.azureDevops.disconnectConnection	断开连接
+translation.settings.pages.azureDevops.removeConnectionFromOrganization	从你的组织中移除此连接
+translation.settings.pages.azureDevops.manageAccess	管理访问
+translation.settings.pages.azureDevops.beta	Beta
+translation.settings.pages.azureDevops.allowUsersOrRolesManageRepository	允许用户或角色管理此连接的仓库权限
+translation.settings.pages.azureDevops.repositories	仓库
+translation.settings.pages.azureDevops.repositoriesAvailableThroughConnection	通过此连接可用的仓库
+translation.settings.pages.azureDevops.azureDevopsServer	Azure DevOps Server
+translation.settings.pages.azureDevops.azureDevops	Azure DevOps
+translation.settings.pages.azureDevops.azureAdTenantIdMissingInstall	缺少 Azure AD 租户 ID。请先用上方的 Connect 按钮安装 Azure 应用。
+translation.settings.pages.azureDevops.azureDevopsOrganizationNameRequired	需要组织名称
+translation.settings.pages.azureDevops.connectingServicePrincipal	正在连接服务主体…
+translation.settings.pages.azureDevops.servicePrincipalReconnectedSuccessfully	服务主体重连成功
+translation.settings.pages.azureDevops.servicePrincipalConnectedSuccessfully	服务主体连接成功
+translation.settings.pages.azureDevops.failedConnectServicePrincipal	连接服务主体失败
+translation.settings.pages.azureDevops.addAnotherOrganizationWithServicePrincipal	用服务主体再添加一个组织
+translation.settings.pages.azureDevops.addOrganizationWithServicePrincipal	用服务主体添加组织
+translation.settings.pages.azureDevops.connectAdditionalAzureDevopsOrganizationUsing	使用服务主体连接另一个 Azure DevOps 组织。
+translation.settings.pages.azureDevops.connectAzureDevopsOrganizationUsingService	使用服务主体连接 Azure DevOps 组织。
+translation.settings.pages.azureDevops.servicePrincipalActions	服务主体操作
+translation.settings.pages.azureDevops.disconnectServicePrincipal	断开服务主体
+translation.settings.pages.azureDevops.step1GoAzureDevopsOrganization	第 1 步：进入你的 <lnk>Azure DevOps 组织</lnk>，导航到 Organization Settings → Users → Add Users。添加 \\
+translation.settings.pages.bitbucket.somethingWentWrong	出了点问题
+translation.settings.pages.bitbucket.removingBitbucketConnection	正在移除 Bitbucket 连接
+translation.settings.pages.bitbucket.bitbucketDisconnectedSuccessfully	Bitbucket 断开成功
+translation.settings.pages.bitbucket.failedDisconnectBitbucket	断开 Bitbucket 失败
+translation.settings.pages.bitbucket.dangerZone	危险区
+translation.settings.pages.bitbucket.disconnectConnection	断开连接
+translation.settings.pages.bitbucket.removeConnectionFromOrganization	从你的组织中移除此连接
+translation.settings.pages.bitbucket.youDontHavePermissionManageConnection	你没有管理此连接的权限。
+translation.settings.pages.bitbucket.general	常规
+translation.settings.pages.bitbucket.manageAccess	管理访问
+translation.settings.pages.bitbucket.beta	Beta
+translation.settings.pages.bitbucket.allowUsersOrRolesManageRepository	允许用户或角色管理此连接的仓库权限。
+translation.settings.pages.bitbucket.repositories	仓库
+translation.settings.pages.bitbucket.repositoriesAvailableThroughConnection	通过此连接可用的仓库
+translation.settings.pages.bitbucket.bitbucket	Bitbucket
+translation.settings.pages.bitbucket.noOrganizationIdFound	未找到组织 ID
+translation.settings.pages.bitbucket.failedConnectBitbucket	连接 Bitbucket 失败
+translation.settings.pages.bitbucket.addConnection	添加连接
+translation.settings.pages.bitbucket.connect	连接
+translation.settings.pages.bitbucket.connectWithBitbucketDataCenter	连接 Bitbucket Data Center
+translation.settings.pages.bitbucket.documentation	文档
+translation.settings.pages.enterpriseOrgConnections.integrations	集成
+translation.settings.pages.enterpriseOrgConnections.integrationsManagedEnterpriseSettings	集成在企业设置中管理
+translation.settings.pages.enterpriseOrgConnections.integrationsManagedPersonalSettings	集成在<lnk>个人设置</lnk>中管理
+translation.settings.pages.enterpriseOrgConnections.integrationsManagedEnterpriseSettingsLink	集成在<lnk>企业设置</lnk>中管理
+translation.settings.pages.gerrit.devinBot	devin-bot
+translation.settings.pages.gerrit.gerrit	Gerrit
+translation.settings.pages.gitLab.enablingGitlabTokenAutoRotation	正在启用 GitLab 令牌自动轮换…
+translation.settings.pages.gitLab.disablingGitlabTokenAutoRotation	正在禁用 GitLab 令牌自动轮换…
+translation.settings.pages.gitLab.gitlabTokenAutoRotationEnabled	GitLab 令牌自动轮换已启用
+translation.settings.pages.gitLab.gitlabTokenAutoRotationDisabled	GitLab 令牌自动轮换已禁用
+translation.settings.pages.gitLab.youDontHavePermissionManageConnection	你没有管理此连接的权限。
+translation.settings.pages.gitLab.general	常规
+translation.settings.pages.gitLab.webhook	Webhook
+translation.settings.pages.gitLab.configureWebhookConnection	为此连接配置 webhook
+translation.settings.pages.gitLab.configure	配置
+translation.settings.pages.gitLab.tokenAutoRotation	令牌自动轮换
+translation.settings.pages.gitLab.automaticallyRotateConnectionsToken	自动轮换此连接的令牌
+translation.settings.pages.gitLab.disable	禁用
+translation.settings.pages.gitLab.enable	启用
+translation.settings.pages.gitLab.rotateToken	轮换令牌
+translation.settings.pages.gitLab.replaceConnectionsAccessToken	替换此连接的访问令牌
+translation.settings.pages.gitLab.disableAutomaticTokenRotationBeforeManually	请先禁用自动令牌轮换，再手动轮换此令牌。
+translation.settings.pages.gitLab.rotate	轮换
+translation.settings.pages.gitLab.reconnect	重新连接
+translation.settings.pages.gitLab.reRunGitlabOauthFlowConnection	为此连接重新运行 GitLab OAuth 流程
+translation.settings.pages.gitLab.dangerZone	危险区
+translation.settings.pages.gitLab.disconnectConnection	断开连接
+translation.settings.pages.gitLab.removeConnectionFromOrganization	从你的组织中移除此连接
+translation.settings.pages.gitLab.manageAccess	管理访问
+translation.settings.pages.gitLab.beta	Beta
+translation.settings.pages.gitLab.allowUsersOrRolesManageRepository	允许用户或角色管理此连接的仓库权限。
+translation.settings.pages.gitLab.repositories	仓库
+translation.settings.pages.gitLab.repositoriesAvailableThroughConnection	通过此连接可用的仓库
+translation.settings.pages.gitLab.manualRepositories	手动添加的仓库
+translation.settings.pages.gitLab.manuallyAddRepo	手动添加仓库
+translation.settings.pages.gitLab.addRepositoryConnectionByUrl	通过 URL 向此连接添加仓库
+translation.settings.pages.gitLab.add	添加
+translation.settings.pages.gitLab.addConnection	添加连接
+translation.settings.pages.gitLab.connect	连接
+translation.settings.pages.gitLab.connectServiceAccount	连接服务账户
+translation.settings.pages.gitLab.connectSelfHostedInstance	连接自托管实例
+translation.settings.pages.gitLab.enterpriseBadge	企业版
+translation.settings.pages.gitLab.selfHostedSetupGuide	自托管设置指南
+translation.settings.pages.gitLab.documentation	文档
+translation.settings.pages.gitLab.advanced	高级
+translation.settings.pages.gitLab.gitlabGitlabCom	GitLab（gitlab.com）
+translation.settings.pages.gitLab.gitlabHost	GitLab（{{host}}）
+translation.settings.pages.gitLab.configureMrAuthor	配置 MR 作者
+translation.settings.pages.gitLab.registerApp	注册应用
+translation.settings.pages.gitLab.manageApps	管理应用
+translation.settings.pages.gitLab.failedUpdateTokenAutoRotation	更新 GitLab 令牌自动轮换失败
+translation.settings.pages.github.youDontHavePermissionManageConnection	你没有管理此连接的权限。
+translation.settings.pages.github.refreshConnection	刷新连接
+translation.settings.pages.github.updatePersonalAccessTokenConnection	更新此连接的个人访问令牌
+translation.settings.pages.github.refresh	刷新
+translation.settings.pages.github.dangerZone	危险区
+translation.settings.pages.github.disconnectConnection	断开连接
+translation.settings.pages.github.removeConnectionFromOrganization	从你的组织中移除此连接
+translation.settings.pages.github.general	常规
+translation.settings.pages.github.manageAccess	管理访问
+translation.settings.pages.github.beta	Beta
+translation.settings.pages.github.allowUsersOrRolesManageRepository	允许用户或角色管理此连接的仓库权限。
+translation.settings.pages.github.repositories	仓库
+translation.settings.pages.github.repositoriesAvailableThroughConnection	通过此连接可用的仓库
+translation.settings.pages.github.installation	安装
+translation.settings.pages.github.addOrRemoveRepositories	添加或移除仓库
+translation.settings.pages.github.manageWhichRepositoriesInstalledGithub	管理在 GitHub 上安装了哪些仓库
+translation.settings.pages.github.manage	管理
+translation.settings.pages.github.cliTokensHaveLimitedFunctionalityDevin	CLI 令牌功能受限——Devin Review 等功能不可用。断开此 CLI 令牌并安装 GitHub App 以获得完整功能。
+translation.settings.pages.github.organizationIdNotFound	未找到组织 ID
+translation.settings.pages.github.enterpriseGithubPatSuccessfullyAdded	企业 GitHub PAT 添加成功。
+translation.settings.pages.github.addGithubAccount	添加 GitHub 账户
+translation.settings.pages.github.connectionType	连接类型
+translation.settings.pages.github.githubAccount	GitHub 账户
+translation.settings.pages.github.connectUsingGithubAccount	使用你的 GitHub 账户连接
+translation.settings.pages.github.enterprisePat	企业 PAT
+translation.settings.pages.github.connectUsingGithubPat	使用 GitHub PAT 连接
+translation.settings.pages.github.githubEnterpriseApp	GitHub Enterprise 应用
+translation.settings.pages.github.installRegisteredAppGithubEnterpriseInstance	在 GitHub Enterprise 实例上安装已注册的应用
+translation.settings.pages.github.beforeAddingPatDoubleCheckToken	添加 PAT 前，请再次确认令牌有效期和权限范围。
+translation.settings.pages.github.nameReference	名称（供你参考）
+translation.settings.pages.github.patName	PAT 名称
+translation.settings.pages.github.hostname	主机名
+translation.settings.pages.github.eGGithubYourcompanyCom	例如 github.yourcompany.com
+translation.settings.pages.github.token	令牌
+translation.settings.pages.github.eGGithubPat1234567890	例如 github_pat_1234567890
+translation.settings.pages.github.connecting	连接中…
+translation.settings.pages.github.connect	连接
+translation.settings.pages.github.addConnection	添加连接
+translation.settings.pages.github.documentation	文档
+translation.settings.pages.github.advanced	高级
+translation.settings.pages.github.githubGhesHost	GitHub（{{ghes_host}}）
+translation.settings.pages.github.configurePrAuthor	配置 PR 作者
+translation.settings.pages.github.registerApp	注册应用
+translation.settings.pages.github.manageApps	管理应用
+translation.settings.pages.github.createNewOrganization	创建新组织？
+translation.settings.pages.github.weSuggestKeepingGithubConnectionsSeparate	建议把 GitHub 连接放在独立的组织中，以便清晰管理成员和权限。
+translation.settings.pages.github.addOrganization	添加到此组织
+translation.settings.pages.github.createNewOrganization2	创建新组织
+translation.settings.pages.github.failedConnectGithubOrganization	连接 GitHub 组织失败
+translation.settings.pages.github.failedLoadOrganizations	加载组织失败
+translation.settings.pages.github.thereWasErrorLoadingGithubOrganizations	加载你的 GitHub 组织时出错，请重试。
+translation.settings.pages.github.connectGithubOrganization	连接 GitHub 组织
+translation.settings.pages.github.theseGithubOrganizationsAlreadyConnectedDevin	这些 GitHub 组织已连接到某个 Devin 账户。请先从 GitHub 断开，再将它们关联到新账户。<lnk>了解更多</lnk>
+translation.settings.pages.github.or	或
+translation.settings.pages.github.back	返回
+translation.settings.pages.github.connectedAnotherDevinAccount	已连接到另一个 Devin 账户
+translation.settings.pages.github.githubAdminPermissionsRequired	需要 GitHub 管理员权限
+translation.settings.pages.github.githubAdminPermissionsRequiredConnectedtext	需要 GitHub 管理员权限。{{connectedText}}
+translation.settings.pages.github.learnMoreLinkingGithubOrgs	了解更多关于关联 GitHub 组织
+translation.settings.pages.github.connectedToNamed	已连接到 {{name}}
+translation.settings.pages.github.cliTokenHost	CLI 令牌 · {{host}}
+translation.settings.pages.github.patHost	PAT · {{host}}
+translation.settings.pages.github.connectedToNamedRich	已连接到 <name>{{name}}</name>
+translation.settings.pages.orgIntegrationsRedesign.loading	加载中…
+translation.settings.pages.orgIntegrationsRedesign.connected	已连接
+translation.settings.pages.orgIntegrationsRedesign.notConnected	未连接
+translation.settings.pages.orgIntegrationsRedesign.userNotLinked	用户未关联
+translation.settings.pages.orgIntegrationsRedesign.missingWebhook	缺少 webhook
+translation.settings.pages.orgIntegrationsRedesign.missingConfiguration	缺少配置
+translation.settings.pages.orgIntegrationsRedesign.needsReAuthorization	需要重新授权
+translation.settings.pages.orgIntegrationsRedesign.configure	配置
+translation.settings.pages.perforce.removingPerforceConnection	正在移除 Perforce 连接
+translation.settings.pages.perforce.perforceDisconnectedSuccessfully	Perforce 断开成功
+translation.settings.pages.perforce.failedDisconnectPerforce	断开 Perforce 失败
+translation.settings.pages.perforce.connect	连接
+translation.settings.pages.perforce.giveDevinScopedAccessPerforceDepot	授予 Devin 对 Perforce depot 路径的受限访问
+translation.settings.pages.perforce.perforce	Perforce
+translation.settings.pages.perforce.addConnection	添加连接
+translation.settings.apiTabTitle	API
+translation.settings.accessPages.enterpriseMembers.sizeSelected	已选 {{size}} 项
+translation.settings.accessPages.idpGroups.somethingWentWrongLoadingGroupsPlease	加载群组时出错，请重试。
+translation.settings.accessPages.idpGroups.noGroupsFound	未找到群组
+translation.settings.accessPages.idpGroups.groupsCanCreatedBySettingUp	可通过与 IdP 提供商设置 SSO 来创建群组。
+translation.settings.accessPages.idpGroups.pleaseContactCognitionAccountManagerAssistance	请联系你的 Cognition 客户经理协助设置。
+translation.settings.accessPages.invitations.invitingUsers	正在邀请用户…
+translation.settings.accessPages.invitations.confirmPayment	确认付款
+translation.settings.accessPages.invitations.weCouldntCompleteChargeAutomaticallyBank	我们无法自动完成扣款——你的银行可能要求确认。完成付款以完成席位添加。
+translation.settings.accessPages.invitations.completePayment	完成付款
+translation.settings.accessPages.invitations.invitedUsers	已邀请用户
+translation.settings.accessPages.invitations.failedInviteUsers	邀请用户失败
+translation.settings.accessPages.invitations.noUnassignedFullSeatsAvailableEach	没有可用的未分配正式席位。每位以正式席位邀请的成员将新增一个席位（每席位 {{formattedSeatPrice}}，按当前计费周期折算）。
+translation.settings.accessPages.invitations.inviteMembers	邀请成员
+translation.settings.accessPages.invitations.ssoEnabled	已启用 SSO
+translation.settings.accessPages.invitations.usersJoinByNavigatingWebapphostnameSigning	用户访问 <span>{{webappHostname}}</span> 并用 SSO 凭据登录即可加入，无需邀请。
+translation.settings.accessPages.invitations.invitationsUnavailable	邀请不可用
+translation.settings.accessPages.invitations.githubCliConnectionsOnlySupportSingle	GitHub CLI 连接仅支持单个成员。<lnk>切换为 GitHub 集成</lnk>以邀请更多成员。
+translation.settings.accessPages.invitations.thereWasProblemSubmittingRequestSubmissionerror	提交请求时出现问题。{{submissionError}}
+translation.settings.accessPages.invitations.role	角色
+translation.settings.accessPages.invitations.selectMemberRole	选择成员角色
+translation.settings.accessPages.invitations.selectRole	选择角色
+translation.settings.accessPages.invitations.seatType	席位类型
+translation.settings.accessPages.invitations.selectSeatType	选择席位类型
+translation.settings.accessPages.invitations.addCoworkers	添加同事
+translation.settings.accessPages.invitations.additionalSeatsRequired	需要额外席位
+translation.settings.accessPages.invitations.adding	添加中…
+translation.settings.accessPages.invitations.add	添加
+translation.settings.accessPages.invitations.seatWarningInviting_one	你正在以正式席位邀请 {{count}} 位成员。
+translation.settings.accessPages.invitations.seatWarningInviting_other	你正在以正式席位邀请 {{count}} 位成员。
+translation.settings.accessPages.invitations.seatWarningAvailable_one	仅剩 {{count}} 个未分配正式席位。
+translation.settings.accessPages.invitations.seatWarningAvailable_other	仅剩 {{count}} 个未分配正式席位。
+translation.settings.accessPages.invitations.seatWarningAdditional_one	这将新增 {{count}} 个席位（每席位 {{price}}，按当前计费周期折算）。
+translation.settings.accessPages.invitations.seatWarningAdditional_other	这将新增 {{count}} 个席位（每席位 {{price}}，按当前计费周期折算）。
+translation.settings.accessPages.invitations.whoElseOrganization	此组织还有哪些成员？
+translation.settings.accessPages.invitations.whoElseEnterprise	此企业还有哪些成员？
+translation.settings.accessPages.invitations.anErrorOccurred	发生错误
+translation.settings.accessPages.invitations.addAtLeastOneValidEmail	请至少添加一个有效邮箱地址
+translation.settings.accessPages.members.updatingGroupRole2	正在更新群组角色
+translation.settings.accessPages.members.roleUpdatedSuccessfully	角色更新成功
+translation.settings.accessPages.members.failedUpdateRole	更新角色失败
+translation.settings.accessPages.members.deletingGroup2	正在删除群组
+translation.settings.accessPages.members.groupDeletedSuccessfully	群组删除成功
+translation.settings.accessPages.members.failedDeleteGroupError	删除群组失败：{{error}}
+translation.settings.accessPages.members.removeGroup	移除群组
+translation.settings.accessPages.members.remove	移除
+translation.settings.accessPages.members.confirmGroupRemoval	确认移除群组
+translation.settings.accessPages.members.areYouSureYouWantRemove	确定要移除此群组吗？此操作不可撤销。
+translation.settings.accessPages.members.groupName	群组名称
+translation.settings.accessPages.members.role	角色
+translation.settings.accessPages.members.noGroupsFound	未找到群组。
+translation.settings.accessPages.members.membership	成员关系
+translation.settings.accessPages.members.personalAccountsDontHaveMembersOther	个人账户除你自己外没有其他成员。请选择或创建一个组织以查看其成员列表。
+translation.settings.accessPages.members.thereNoDataSelectedOrganization	所选组织暂无数据
+translation.settings.accessPages.members.notExpectingTryLoggingOutLogging	不是预期的结果？尝试退出后重新登录。
+translation.settings.accessPages.members.loadFailedTitle	无法加载成员

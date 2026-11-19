@@ -1,0 +1,500 @@
+translation.sessionMenu.mcpServersLoadFailed	无法加载 MCP 服务器
+translation.sessionMenu.mcpServersNone	未配置 MCP 服务器
+translation.sessionMenu.mcpManagedByPlugin	由插件管理
+translation.sessionMenu.showInternalInfo	显示内部信息
+translation.sessionMenu.hideInternalInfo	隐藏内部信息
+translation.sessionMenu.usageLimits	会话用量限制
+translation.sessionMenu.sessionInsights	会话洞察
+translation.sessionMenu.share	分享
+translation.sessionMenu.shareSession	分享会话
+translation.sessionMenu.openInDevinDesktop	在 Devin Desktop 中打开
+translation.sessionMenu.openInDevinDesktopInsiders	在 Devin Desktop Insiders 中打开
+translation.sessionMenu.openInWeb	在浏览器中打开
+translation.sessionMenu.copySessionLink	复制会话链接
+translation.sessionMenu.copyBotLink	复制 {{botName}} 的链接
+translation.sessionMenu.hideFromTeam	对团队隐藏
+translation.sessionMenu.makeVisibleToTeam	对团队可见
+translation.sessionMenu.analyzeSession	分析会话
+translation.sessionMenu.more	更多
+translation.sessionMenu.replaySession	回放会话
+translation.sessionMenu.sessionLinkCopied	会话链接已复制
+translation.sessionMenu.shareSessionTitle	Devin 会话
+translation.sessionMenu.botLinkCopied	{{botName}} 的链接已复制
+translation.sessionMenu.failedToCopySessionLink	复制会话链接失败
+translation.sessionMenu.failedToCopyBotLink	复制 {{botName}} 的链接失败
+translation.sessionMenu.copySshCommand	SSH 命令
+translation.sessionMenu.openIn	打开方式
+translation.sessionMenu.copy	复制
+translation.sessionMenu.sessionLink	会话链接
+translation.sessionMenu.botLink	{{botName}} 的链接
+translation.sessionMenu.devinDesktop	Devin Desktop
+translation.sessionMenu.devinDesktopInsiders	Devin Desktop Insiders
+translation.sessionMenu.webBrowser	浏览器
+translation.sessionMenu.sshCommandCopied	SSH 命令已复制
+translation.sessionMenu.sshCommandCopyFailed	复制命令失败
+translation.sessionMenu.acuUsage	ACU 用量
+translation.sessionMenu.onDemandUsage	按需用量
+translation.sessionMenu.descendantAcuUsage	子会话 ACU 用量
+translation.sessionMenu.descendantUsage	子会话用量
+translation.sessionMenu.userMessages	用户消息
+translation.sessionMenu.sessionSize	会话大小
+translation.sessionMenu.platform	平台
+translation.sessionMenu.outpost	Outpost
+translation.sessionMenu.rebooting	正在重启…
+translation.sessionMenu.rebootFailed	无法重启 Devin，请重试。
+translation.sessionMenu.syncRequiresWriteAccess	需要此会话的写权限才能更改同步设置
+translation.sessionMenu.syncSessionUnavailable	会话详情加载前同步设置不可用
+translation.sessionMenu.cannotChangeVisibility	无法更改从 {{origin}} 创建的会话的可见性
+translation.sessionMenu.improveSkill	从会话改进技能
+translation.sessionMenu.createSkill	从会话创建技能
+translation.sessionMenu.feedbackDescription	告诉我们哪些地方好用、哪些地方可以改进
+translation.sessionMenu.feedbackPlaceholder	分享你的反馈
+translation.sessionMenu.feedbackRequired	需要填写反馈
+translation.sessionMenu.feedbackSensitiveInfoNote	请勿在反馈中填写贵公司的敏感信息。
+translation.codeScanSelect.loadFailed	加载扫描失败
+translation.codeScanSelect.loading	正在加载扫描…
+translation.codeScanSelect.noScans	未找到扫描
+translation.codeScanSelect.searchScans	按仓库搜索扫描…
+translation.sessionSelect.searchSessions	按标题或 ID 搜索会话…
+translation.sessionSelect.loading	正在加载会话…
+translation.sessionSelect.loadFailed	加载会话失败。
+translation.sessionSelect.noneFound	未找到会话。
+translation.sessionSelect.justNow	刚刚
+translation.sessionSelect.minutesAgo	{{minutes}} 分钟前
+translation.sessionSelect.hoursAgo	{{hours}} 小时前
+translation.sessionSelect.daysAgo	{{days}} 天前
+translation.botArtifacts.title	产物
+translation.botArtifacts.defaultBotName	此 {{botName}}
+translation.botArtifacts.categoryLabel	产物类型
+translation.botArtifacts.sortBy	排序
+translation.botArtifacts.loading	正在加载产物…
+translation.botArtifacts.empty	{{botName}} 的任务还没有产物
+translation.botArtifacts.noneInCategory	此类型暂无产物
+translation.botArtifacts.loadFailed	无法加载产物
+translation.botArtifacts.truncated	仅显示最近 100 个会话的产物
+translation.botArtifacts.category.recent	最近
+translation.botArtifacts.category.images	图片
+translation.botArtifacts.category.documents	文档
+translation.botArtifacts.category.reports	报告
+translation.botArtifacts.category.recordings	录屏
+translation.botArtifacts.category.data	数据
+translation.botArtifacts.sort.updated	最近更新
+translation.botArtifacts.sort.nameAsc	名称 A 到 Z
+translation.botArtifacts.sort.nameDesc	名称 Z 到 A
+translation.botArtifacts.untitledSession	未命名会话
+translation.botArtifacts.openInTab	在标签页中打开
+translation.botArtifacts.kind.image	图片
+translation.botArtifacts.kind.document	文档
+translation.botArtifacts.kind.report	报告
+translation.botArtifacts.kind.recording	录屏
+translation.botArtifacts.kind.data	数据
+translation.botArtifacts.kind.file	文件
+translation.pastConversations.search	搜索
+translation.pastConversations.noneFound	未找到对话
+translation.pastConversations.archive	归档对话
+translation.pastConversations.unarchive	取消归档对话
+translation.pastConversations.rename	重命名对话
+translation.sessionTabs.addTab	添加标签页
+translation.sessionTabs.newTab	新建标签页
+translation.sessionTabs.newTabSearch	搜索 PR、产物和工具
+translation.sessionTabs.moreRows	还有 {{count}} 项
+translation.sessionTabs.plans	计划
+translation.sessionTabs.fewerRows	收起
+translation.sessionTabs.viewMoreArtifacts	查看更多
+translation.sessionTabs.moreTabActions	更多标签页操作
+translation.sessionTabs.closeMergedPrTabs	关闭已合并的 PR 标签页
+translation.sessionTabs.closeAllPrTabs	关闭所有 PR 标签页
+translation.sessionTabs.newTabSearchUrl	搜索标签页或输入 URL
+translation.sessionTabs.agents	代理
+translation.sessionTabs.agentsDescription	管理此会话的子会话
+translation.sessionTabs.androidEmulator	Android 模拟器
+translation.sessionTabs.androidEmulatorDescription	投屏、控制并检查 Android 模拟器
+translation.sessionTabs.artifacts	产物
+translation.sessionTabs.watchChildComputer	观看桌面
+translation.sessionTabs.childComputerNoAccess	你没有权限访问此会话的桌面
+translation.sessionTabs.childComputerNotRunning	此会话的桌面未在运行
+translation.sessionTabs.attachment	附件
+translation.sessionTabs.attachments	附件
+translation.sessionTabs.boards	看板
+translation.sessionTabs.boardsDescription	在会话中显示 Devin 看板
+translation.sessionTabs.campaign	Campaign
+translation.sessionTabs.campaignDescription	跟踪 campaign 的设置及其实时仪表盘
+translation.sessionTabs.codemap	代码地图
+translation.sessionTabs.migrationPlan	计划
+translation.sessionTabs.cloudSetupReview	云端设置
+translation.sessionTabs.cloudSetupReviewDescription	选择要上传到 Devin Cloud 的内容
+translation.sessionTabs.migrationPlanDescription	在会话中显示迁移计划
+translation.sessionTabs.closeTab	关闭标签页
+translation.sessionTabs.desktop	桌面
+translation.sessionTabs.desktopDescription	观看并控制 Devin 的桌面
+translation.sessionTabs.diff	变更
+translation.sessionTabs.diffDescription	查看 Devin 的文件编辑
+translation.sessionTabs.editor	编辑器
+translation.sessionTabs.editorDescription	带语言智能地编辑文件
+translation.sessionTabs.eventContext	事件
+translation.sessionTabs.failedToChangeWorkspaceRoot	更改工作区文件夹失败
+translation.sessionTabs.failedToDeleteWorkspaceItem	删除文件或文件夹失败
+translation.sessionTabs.failedToPasteWorkspaceItem	粘贴文件或文件夹失败
+translation.sessionTabs.file	文件
+translation.sessionTabs.files	文件
+translation.sessionTabs.filesDescription	浏览并编辑此工作区中的文件
+translation.sessionTabs.ide	文件
+translation.sessionTabs.informationDescription	了解 Devin 的历史与操作
+translation.sessionTabs.artifactsDescription	来自此 {{botName}} 及其会话的文件
+translation.sessionTabs.iosSimulator	iOS 模拟器
+translation.sessionTabs.iosSimulatorDescription	投屏、控制并检查 iOS 模拟器
+translation.sessionTabs.linkCopied	链接已复制
+translation.sessionTabs.mcpApp	应用
+translation.sessionTabs.newSidechain	新建侧边对话
+translation.sessionTabs.noPreviewsAvailable	此会话暂无可用预览
+translation.sessionTabs.searchAttachments	搜索附件
+translation.sessionTabs.noAttachmentsFound	未找到附件
+translation.sessionTabs.noResults	无结果
+translation.sessionTabs.plan	计划
+translation.sessionTabs.pr	PR
+translation.sessionTabs.preview	浏览器
+translation.sessionTabs.previewDescription	查看 Devin 正在运行的站点
+translation.sessionTabs.previews	预览
+translation.sessionTabs.progress	进度
+translation.sessionTabs.pullRequests	拉取请求
+translation.sessionTabs.showOpenPrs	显示打开中
+translation.sessionTabs.showAllPrs	显示全部
+translation.sessionTabs.hideClosedPrs	隐藏已关闭
+translation.sessionTabs.hideAllPrs	全部隐藏
+translation.sessionTabs.sessionPrs	会话 PR
+translation.sessionTabs.mentionedPrs	提及的 PR
+translation.sessionTabs.findings	发现项
+translation.sessionTabs.findingsDescription	浏览所有扫描中的发现项
+translation.sessionTabs.bulkScan	批量扫描
+translation.sessionTabs.bulkScanDescription	查看此批量扫描中的每次扫描运行
+translation.sessionTabs.scanFindings	发现项
+translation.sessionTabs.scanFindingsDescription	查看此扫描目前的发现项
+translation.sessionTabs.search	搜索
+translation.sessionTabs.segmentation	阶段划分
+translation.sessionTabs.segmentationDescription	此会话的阶段拆分
+translation.sessionTabs.sessionTerminal	终端
+translation.sessionTabs.sessionTerminalDescription	打开属于此会话的终端
+translation.sessionTabs.sessionTerminalAsleep	终端在 Devin 机器运行期间可用。
+translation.sessionTabs.shell	命令
+translation.sessionTabs.shellDescription	查看 Devin 的命令历史
+translation.sessionTabs.showEditorHere	在此处显示编辑器
+translation.sessionTabs.sideChats	侧边对话
+translation.sessionTabs.sidechain	侧边对话
+translation.sessionTabs.snippetLoading	等待 Devin 分享此文件…
+translation.sessionTabs.snippetMissingNotFound	Devin 引用此文件时它不存在
+translation.sessionTabs.snippetMissingNotText	此文件不是文本文件，Devin 无法截取
+translation.sessionTabs.snippetMissingTooLarge	Devin 引用此文件时它太大，无法截取
+translation.sessionTabs.uploadTooLarge	超过 {{limit}}GB 的文件已跳过
+translation.sessionTabs.snippetNotAvailable	代码片段不可用
+translation.sessionTabs.splitDown	向下拆分
+translation.sessionTabs.splitRight	向右拆分
+translation.sessionTabs.todo	任务
+translation.sessionTabs.todoDescription	查看 Devin 的最新任务列表
+translation.sessionTabs.unsavedChanges	未保存的更改
+translation.sessionTabs.workflow	工作流
+translation.sessionTabs.worklogDescription	了解 Devin 的历史与操作
+translation.sessionTabs.localBrowserDescription	在本机标签页中浏览任意站点
+translation.sessionTabs.prSearchText	PR #{{number}} {{owner}}/{{repo}} {{title}}
+translation.sessionTabs.planNumbered	计划 {{number}}
+translation.sessionsList.activeSessions	活跃会话
+translation.sessionsList.addFilters	添加筛选
+translation.sessionsList.clearFilters	清除筛选
+translation.sessionsList.codeScan	代码扫描
+translation.sessionsList.collapseChildren	收起子会话
+translation.sessionsList.contains	包含
+translation.sessionsList.containsAnyOf	包含任一
+translation.sessionsList.datePresets.lastMonth	上个月
+translation.sessionsList.datePresets.lastTwoWeeks	最近 2 周
+translation.sessionsList.datePresets.lastWeek	上周
+translation.sessionsList.datePresets.today	今天
+translation.sessionsList.dateRange	日期范围
+translation.sessionsList.devinMode	Devin 模式
+translation.sessionsList.deselectAllSessions	取消全选会话
+translation.sessionsList.errorLoadingMore	加载更多时出错，请刷新页面。
+translation.sessionsList.errorLoadingMoreChildren	加载更多子会话失败，请重试。
+translation.sessionsList.errorLoadingMoreRoots	加载更多会话失败，请重试。
+translation.sessionsList.expandChildren	展开子会话
+translation.sessionsList.failedToLoadSessions	加载会话失败
+translation.sessionsList.inactiveSessions	非活跃会话
+translation.sessionsList.is	是
+translation.sessionsList.isAnyOf	是任一
+translation.sessionsList.migratedSpaceTitle	已迁移的空间
+translation.sessionsList.noSessionsFound	未找到会话
+translation.sessionsList.persona	角色
+translation.sessionsList.prStates.closed	已关闭
+translation.sessionsList.prStates.draft	草稿
+translation.sessionsList.prStates.merged	已合并
+translation.sessionsList.prStates.noPr	无 PR
+translation.sessionsList.prStates.open	打开中
+translation.sessionsList.prStates.queued	排队中
+translation.sessionsList.prStates.unknown	未知
+translation.sessionsList.removeFilter	移除筛选
+translation.sessionsList.searchDevinModes	搜索 Devin 模式…
+translation.sessionsList.searchPersonas	搜索角色…
+translation.sessionsList.searchSessions	搜索会话…
+translation.sessionsList.selectAllSessions	全选会话
+translation.sessionsList.selectSession	选择 {{title}}
+translation.sessionsList.spacesMigration.title	正在设置你的工作区
+translation.sessionsList.spacesMigration.description	你的 Spaces 正在变成父会话。
+translation.sessionsList.spacesMigration.progress_one	{{done}}/{{count}} 个 Space
+translation.sessionsList.spacesMigration.progress_other	{{done}}/{{count}} 个 Space
+translation.sessionsList.thisSessionIsArchived	此会话已归档
+translation.sessionsList.thisSessionIsStopped	此会话已停止
+translation.sessionsList.viewSlackThread	查看 Slack 消息串
+translation.sessionsList.linkedToSlack	此会话已关联 Slack
+translation.sessionsList.filterNames.type	类型
+translation.sessionsList.filterNames.creator	创建者
+translation.sessionsList.filterNames.organization	组织
+translation.sessionsList.filterNames.playbook	Playbook
+translation.sessionsList.filterNames.skill	技能
+translation.sessionsList.filterNames.automationName	自动化名称
+translation.sessionsList.filterNames.content	内容
+translation.sessionsList.filterNames.title	标题
+translation.sessionsList.filterNames.archivedStatus	归档状态
+translation.sessionsList.filterNames.stoppedStatus	停止状态
+translation.sessionsList.filterNames.createdDate	创建日期
+translation.sessionsList.filterNames.updatedDate	更新日期
+translation.sessionsList.filterOptions.notArchived	未归档
+translation.sessionsList.filterOptions.notStopped	未停止
+translation.sessionsList.filterOptions.dataAnalyst	数据分析师
+translation.sessionsList.filterOptions.advanced	高级
+translation.sessionsList.filterOptions.subDevin	子 Devin
+translation.sessionsList.filterOptions.playbookSkillSource	Playbook
+translation.sessionsList.filterOptions.serviceUser	服务用户
+translation.sessionsList.backgroundSessionToast.title	会话已创建
+translation.sessionsList.backgroundSessionToast.viewSession	查看会话
+translation.sessionsList.filterCounts.items_one	{{count}} 项
+translation.sessionsList.filterCounts.items_other	{{count}} 项
+translation.sessionsList.filterCounts.creators_one	{{count}} 位创建者
+translation.sessionsList.filterCounts.creators_other	{{count}} 位创建者
+translation.sessionsList.filterCounts.playbooks_one	{{count}} 个 playbook
+translation.sessionsList.filterCounts.playbooks_other	{{count}} 个 playbook
+translation.sessionsList.filterCounts.statuses_one	{{count}} 个状态
+translation.sessionsList.filterCounts.statuses_other	{{count}} 个状态
+translation.sessionsList.filterCounts.types_one	{{count}} 种类型
+translation.sessionsList.filterCounts.types_other	{{count}} 种类型
+translation.sessionsList.filterCounts.platforms_one	{{count}} 个平台
+translation.sessionsList.filterCounts.platforms_other	{{count}} 个平台
+translation.sessionsList.filterCounts.agents_one	{{count}} 个代理
+translation.sessionsList.filterCounts.agents_other	{{count}} 个代理
+translation.sessionsList.filterCounts.personas_one	{{count}} 个角色
+translation.sessionsList.filterCounts.personas_other	{{count}} 个角色
+translation.sessionsList.filterCounts.modes_one	{{count}} 种模式
+translation.sessionsList.filterCounts.modes_other	{{count}} 种模式
+translation.sessionsList.searchTypes	搜索类型…
+translation.sessionsList.searchPlatforms	搜索平台…
+translation.sessionsList.searchCreators	搜索创建者…
+translation.sessionsList.searchSubscribers	搜索订阅者…
+translation.sessionsList.searchOrganizations	搜索组织…
+translation.sessionsList.searchPlaybooks	搜索 playbook…
+translation.sessionsList.searchSkills	搜索技能…
+translation.sessionsList.searchAutomations	搜索自动化…
+translation.sessionsList.searchStatuses	搜索状态…
+translation.sessionsList.searchPrStates	搜索 PR 状态…
+translation.sessionsList.searchArchivedStates	搜索归档状态…
+translation.sessionsList.searchStoppedStates	搜索停止状态…
+translation.sessionsList.searchOrigins	搜索来源…
+translation.sessionsList.searchSubcategories	搜索子类别…
+translation.sessionsList.maxCreatorsSelected	最多可选择 {{count}} 位创建者
+translation.sessionsList.maxSubscribersSelected	最多可选择 {{count}} 位订阅者
+translation.sessionsList.selectionCount_one	已选 {{count}} 项
+translation.sessionsList.selectionCount_other	已选 {{count}} 项
+translation.sessionsList.unnamedSubcategory	未命名
+translation.sessionsList.otherSubcategory	其他（{{category}}）
+translation.sessionsList.filterSearchFallback	搜索{{name}}…
+translation.sessionsList.filterNoResults	未找到{{name}}
+translation.sessionsList.clearAll	全部清除
+translation.sessionsList.selectAll	全选
+translation.sessionsList.filterSessionsAria	筛选 Devin 会话
+translation.sessionsList.saveAsDefault	保存为默认
+translation.sessionsList.loadingFilters	加载中…
+translation.rolePermissions.billingTags.group	计费标签权限
+translation.rolePermissions.billingTags.manage	管理计费标签
+translation.rolePermissions.billingTags.manageDescription	包含全部使用权限，另可创建、编辑和删除计费标签
+translation.rolePermissions.billingTags.use	使用计费标签
+translation.rolePermissions.billingTags.useDescription	包含全部查看权限，另可为会话分配计费标签
+translation.rolePermissions.billingTags.view	查看计费标签
+translation.rolePermissions.billingTags.viewDescription	查看计费标签及其使用情况（只读）
+translation.rolePermissions.orgSkills.manage	管理技能
+translation.rolePermissions.orgSkills.manageDescription	创建/编辑/删除组织技能，包括从知识迁移而来的笔记
+translation.rolePermissions.environments.create	创建环境
+translation.rolePermissions.environments.createDescription	在企业中创建新环境
+translation.rolePermissions.folders.create	创建资源集合
+translation.rolePermissions.folders.createDescription	在 Unified 模式下创建新资源集合
+translation.rolePermissions.playbooks.create	创建 Unified 模式 playbook
+translation.rolePermissions.playbooks.createDescription	在 Unified 模式资源集合中创建 playbook
+translation.rolePermissions.secrets.create	创建 Unified 模式机密
+translation.rolePermissions.secrets.createDescription	在 Unified 模式下创建机密
+translation.rolePermissions.automations.create	创建 Unified 模式自动化
+translation.rolePermissions.automations.createDescription	在 Unified 模式下创建自动化
+translation.rolePermissions.groups.create	创建群组
+translation.rolePermissions.groups.createDescription	在账户中创建群组
+translation.rolePermissions.managedWebhooks.group	入站 webhook 权限
+translation.rolePermissions.managedWebhooks.manage	管理入站 webhook
+translation.rolePermissions.managedWebhooks.manageTriggerPolicies	管理触发策略
+translation.rolePermissions.managedWebhooks.manageTriggerPoliciesDescription	定义每个组织可使用的自动化触发来源，并为组织分配策略
+translation.rolePermissions.managedWebhooks.manageDescription	创建、编辑、启用/禁用和删除企业级入站 webhook 及其共享密钥
+translation.rolePermissions.oncall.group	Oncall 权限
+translation.rolePermissions.oncall.manage	管理 Oncall
+translation.rolePermissions.oncall.manageDescription	包含全部查看权限，另可设置 Oncall、停止/恢复/删除事件，以及创建、编辑、删除 responder、事件设置和报告
+translation.rolePermissions.oncall.view	查看 Oncall
+translation.rolePermissions.oncall.viewDescription	查看 responder、事件、报告和 Oncall 设置（只读）
+translation.rolePermissions.unified.group	Unified 模式权限
+translation.rolePermissions.options.createUnifiedModeSessions	创建 Unified 模式会话
+translation.rolePermissions.options.createUnifiedModeSessionsDescription	在 Unified 模式下启动会话，不影响在组织中创建的会话
+translation.rolePermissions.options.viewOrganizations	查看组织
+translation.rolePermissions.options.viewOrganizationsDescription	查看企业内组织（只读）
+translation.rolePermissions.options.manageOrganizations	管理组织
+translation.rolePermissions.options.manageOrganizationsDescription	查看/创建/编辑/删除企业内组织
+translation.rolePermissions.options.accessAllOrganizations	访问所有组织
+translation.rolePermissions.options.accessAllOrganizationsDescription	访问企业内所有组织，即使不是直接成员。部分功能可能不可用——如需完整访问，请直接加入组织
+translation.rolePermissions.options.viewAccountMembership	查看账户成员
+translation.rolePermissions.options.viewAccountMembershipDescription	查看企业 + 组织成员关系（只读）
+translation.rolePermissions.options.manageAccountMembership	管理账户成员
+translation.rolePermissions.options.manageAccountMembershipDescription	对用户有权访问的组织，查看/创建/编辑/删除企业 + 组织成员关系
+translation.rolePermissions.options.viewAuditLogs	查看审计日志
+translation.rolePermissions.options.viewAuditLogsDescription	查看企业审计日志（只读）
+translation.rolePermissions.options.manageEnterpriseSettings	管理企业设置
+translation.rolePermissions.options.manageEnterpriseSettingsDescription	查看/编辑企业 + 组织层级的设置
+translation.rolePermissions.options.manageIpWhitelist	管理 IP 白名单
+translation.rolePermissions.options.manageIpWhitelistDescription	查看/编辑企业级 IP 访问列表
+translation.rolePermissions.options.viewGitIntegrations	查看 Git 集成
+translation.rolePermissions.options.viewGitIntegrationsDescription	查看 Git 集成（只读）
+translation.rolePermissions.options.manageGitIntegrations	管理 Git 集成
+translation.rolePermissions.options.manageGitIntegrationsDescription	创建/编辑/删除 Git 集成（GitHub、GitLab、ADO、Bitbucket）
+translation.rolePermissions.options.createGitIntegrations	创建 Git 集成
+translation.rolePermissions.options.createGitIntegrationsDescription	创建新的 Git 集成
+translation.rolePermissions.options.viewRepositoryPermissions	查看仓库权限
+translation.rolePermissions.options.viewRepositoryPermissionsDescription	查看仓库权限（只读），隐含查看 Git 集成
+translation.rolePermissions.options.manageRepositoryPermissions	管理仓库权限
+translation.rolePermissions.options.manageRepositoryPermissionsDescription	为组织创建/编辑/删除仓库权限，隐含查看 Git 集成
+translation.rolePermissions.options.manageChatIntegrations	管理聊天集成
+translation.rolePermissions.options.manageChatIntegrationsDescription	创建/编辑/删除 Microsoft Teams 或 Slack 等聊天集成
+translation.rolePermissions.options.manageTicketIntegrations	管理工单集成
+translation.rolePermissions.options.manageTicketIntegrationsDescription	创建/编辑/删除 Jira 或 Linear 等工单集成
+translation.rolePermissions.options.manageTicketProjectMappings	管理工单项目映射
+translation.rolePermissions.options.manageTicketProjectMappingsDescription	将 Jira 项目和 Linear 团队映射到组织。配合查看组织权限可使每个组织都成为目标，由管理工单集成隐含
+translation.rolePermissions.options.useAccountTools	使用账户工具
+translation.rolePermissions.options.useAccountToolsDescription	在其所属组织中使用 Devin 会话、Ask Devin 和 DeepWiki
+translation.rolePermissions.options.manageAccountResources	管理账户资源
+translation.rolePermissions.options.manageAccountResourcesDescription	在其所属组织中创建/编辑/删除 playbook、机密、知识和自动化
+translation.rolePermissions.options.manageEnterprisePlaybooks	管理企业 playbook
+translation.rolePermissions.options.manageEnterprisePlaybooksDescription	创建/编辑/删除企业 playbook
+translation.rolePermissions.options.manageEnterpriseKnowledge	管理企业知识
+translation.rolePermissions.options.manageEnterpriseKnowledgeDescription	创建/编辑/删除企业知识
+translation.rolePermissions.options.manageEnterpriseBlueprints	管理企业 blueprint
+translation.rolePermissions.options.manageEnterpriseBlueprintsDescription	在整个企业中创建/编辑/删除 blueprint 和快照
+translation.rolePermissions.options.indexAccountRepositories	索引账户仓库
+translation.rolePermissions.options.indexAccountRepositoriesDescription	在其所属组织中为搜索和 wiki 生成索引仓库
+translation.rolePermissions.options.viewEnterpriseInfraDetails	查看企业基础设施详情
+translation.rolePermissions.options.viewEnterpriseInfraDetailsDescription	查看企业基础设施详情
+translation.rolePermissions.options.manageAccountApiKeys	管理账户 API 密钥
+translation.rolePermissions.options.manageAccountApiKeysDescription	在企业及其所属组织中创建/编辑/删除/使用 API 密钥
+translation.rolePermissions.options.manageAccountServiceUsers	管理账户服务用户
+translation.rolePermissions.options.manageAccountServiceUsersDescription	在企业级管理服务用户的 API 密钥
+translation.rolePermissions.options.manageAccountBots	管理企业内所有{{botNamePlural}}
+translation.rolePermissions.options.manageAccountBotsDescription	在每个组织中分享、归档和删除任意{{botName}}，但无法访问其对话
+translation.rolePermissions.options.manageAccountMcpServers	管理账户 MCP 服务器
+translation.rolePermissions.options.manageAccountMcpServersDescription	在其所属组织中创建/编辑/删除 MCP 服务器
+translation.rolePermissions.options.manageEnterprisePlugins	管理企业插件
+translation.rolePermissions.options.manageEnterprisePluginsDescription	安装/编辑/移除企业插件和技能
+translation.rolePermissions.options.viewAccountSessions	查看账户会话
+translation.rolePermissions.options.viewAccountSessionsDescription	查看企业内其他用户的 Devin 会话
+translation.rolePermissions.options.manageAccountSessions	管理账户会话
+translation.rolePermissions.options.manageAccountSessionsDescription	编辑和查看企业内其他用户的 Devin 会话
+translation.rolePermissions.options.impersonateAccountSessions	模拟账户会话
+translation.rolePermissions.options.impersonateAccountSessionsDescription	代表企业内其他用户创建 Devin 会话，此角色仅适用于服务用户
+translation.rolePermissions.options.viewAccountMetrics	查看账户指标
+translation.rolePermissions.options.viewAccountMetricsDescription	查看企业指标
+translation.rolePermissions.options.viewUniversityLearning	查看 University 学习情况
+translation.rolePermissions.options.viewUniversityLearningDescription	查看企业的 Devin University 学习进度（只读）
+translation.rolePermissions.options.viewAccountConsumption	查看账户消耗
+translation.rolePermissions.options.viewAccountConsumptionDescription	查看企业消耗（只读）
+translation.rolePermissions.options.useLocalAnalyticsApi	使用本地分析 API
+translation.rolePermissions.options.useLocalAnalyticsApiDescription	通过 API 访问企业的本地（Devin Desktop / CLI）分析数据
+translation.rolePermissions.options.manageBilling	管理计费
+translation.rolePermissions.options.manageBillingDescription	编辑企业的消耗限额
+translation.rolePermissions.options.manageAcuLimits	管理 ACU 限额
+translation.rolePermissions.options.manageAcuLimitsDescription	管理 ACU 限额层级与策略，并批准限额提升请求
+translation.rolePermissions.options.windsurfDevinCliAdmin	Windsurf + Devin CLI 管理员
+translation.rolePermissions.options.windsurfDevinCliAdminDescription	允许用户修改 Windsurf + Devin CLI 使用的组织设置
+translation.rolePermissions.options.useDevinDesktop	使用 Devin Desktop
+translation.rolePermissions.options.useDevinDesktopDescription	允许用户使用 Devin Desktop
+translation.rolePermissions.options.useDevinCli	使用 Devin CLI
+translation.rolePermissions.options.useDevinCliDescription	允许用户使用 Devin CLI
+translation.rolePermissions.options.manageDevinReview	管理 Devin Review
+translation.rolePermissions.options.manageDevinReviewDescription	允许用户修改企业的 Devin Review 设置
+translation.rolePermissions.options.useDevinReview	使用 Devin Review
+translation.rolePermissions.options.useDevinReviewDescription	手动或自动运行分析，包括每次推送时
+translation.rolePermissions.options.useDevinReviewOnPrCreation	使用 Devin Review（PR 创建时）
+translation.rolePermissions.options.useDevinReviewOnPrCreationDescription	PR 创建时手动或自动运行分析
+translation.rolePermissions.options.viewDevinReview	查看 Devin Review
+translation.rolePermissions.options.viewDevinReviewDescription	允许用户查看评审结果和发现项，但不触发评审
+translation.rolePermissions.options.useDevinReviewManual	使用 Devin Review（手动）
+translation.rolePermissions.options.useDevinReviewManualDescription	查看分析结果，并可按需对任意 PR 运行分析
+translation.rolePermissions.options.viewReviews	查看评审
+translation.rolePermissions.options.viewReviewsDescription	授予此组织内的只读评审访问权；账户级访问自动继承
+translation.rolePermissions.options.manualReviews	手动分析
+translation.rolePermissions.options.manualReviewsDescription	在此组织中按需运行分析，账户级访问自动继承
+translation.rolePermissions.options.manualAndReviewOnPrCreation	手动分析 + PR 创建时评审
+translation.rolePermissions.options.manualAndReviewOnPrCreationDescription	授予此组织内 PR 创建时评审；账户级访问自动继承
+translation.rolePermissions.options.allReviewModes	全部分析模式
+translation.rolePermissions.options.allReviewModesDescription	在此组织中使用全部分析模式，账户级访问自动继承
+translation.rolePermissions.options.manageReviewRules	管理分析规则
+translation.rolePermissions.options.manageReviewRulesDescription	使用全部分析模式，并编辑此组织仓库的自动分析规则和排除项
+translation.rolePermissions.options.useDeepwiki	使用 DeepWiki
+translation.rolePermissions.options.useDeepwikiDescription	–
+translation.rolePermissions.options.useAskDevin	使用 Ask Devin
+translation.rolePermissions.options.useAskDevinDescription	–
+translation.rolePermissions.options.useDevinSessions	使用 Devin 会话
+translation.rolePermissions.options.useDevinSessionsDescription	–
+translation.rolePermissions.options.useDevinExpertFeatures	使用 Devin 专家功能
+translation.rolePermissions.options.useDevinExpertFeaturesDescription	访问 MCP 扩展会话的 Devin 专家功能
+translation.rolePermissions.options.viewMembership	查看成员
+translation.rolePermissions.options.viewMembershipDescription	查看组织成员（只读）
+translation.rolePermissions.options.manageMembership	管理成员
+translation.rolePermissions.options.manageMembershipDescription	添加/移除用户和群组，分配或取消分配权限角色
+translation.rolePermissions.options.createUserGroups	创建用户群组
+translation.rolePermissions.options.createUserGroupsDescription	创建用户群组并管理自己创建的群组
+translation.rolePermissions.options.manageSettings	管理设置
+translation.rolePermissions.options.manageSettingsDescription	管理组织级设置
+translation.rolePermissions.options.managePlaybooks	管理 playbook
+translation.rolePermissions.options.managePlaybooksDescription	创建/编辑/删除组织 playbook
+translation.rolePermissions.options.manageSecrets	管理机密
+translation.rolePermissions.options.manageSecretsDescription	创建/编辑/删除组织机密
+translation.rolePermissions.options.manageKnowledge	管理知识
+translation.rolePermissions.options.manageKnowledgeDescription	创建/编辑/删除组织知识
+translation.rolePermissions.options.manageSchedules	管理计划任务
+translation.rolePermissions.options.manageSchedulesDescription	创建/编辑/删除定时会话
+translation.rolePermissions.options.viewAutomations	查看自动化
+translation.rolePermissions.options.viewAutomationsDescription	查看自动化及其调用历史（只读）
+translation.rolePermissions.options.manageAutomations	管理自动化
+translation.rolePermissions.options.manageAutomationsDescription	创建/编辑/删除自动化，查看其调用记录，以及查看/发消息给其创建的会话
+translation.rolePermissions.options.manageOrgBlueprints	管理组织 blueprint
+translation.rolePermissions.options.manageOrgBlueprintsDescription	创建/编辑/删除组织 blueprint 和快照
+translation.rolePermissions.options.manageRepoBlueprints	管理仓库 blueprint
+translation.rolePermissions.options.manageRepoBlueprintsDescription	创建/编辑/删除仓库 blueprint
+translation.rolePermissions.options.indexRepositories	索引仓库
+translation.rolePermissions.options.indexRepositoriesDescription	为搜索和 wiki 生成索引仓库
+translation.rolePermissions.options.manageApiKeys	管理 API 密钥
+translation.rolePermissions.options.manageApiKeysDescription	创建/删除/使用 API 密钥
+translation.rolePermissions.options.manageServiceUsers	管理服务用户
+translation.rolePermissions.options.manageServiceUsersDescription	创建/删除服务用户
+translation.rolePermissions.options.manageBots	管理{{botNamePlural}}
+translation.rolePermissions.options.manageBotsDescription	在组织中分享、归档和删除任意{{botName}}，但无法访问其对话
+translation.rolePermissions.options.useBots	使用{{botNamePlural}}
+translation.rolePermissions.options.useBotsDescription	创建{{botNamePlural}}并使用分享给你的
+translation.rolePermissions.options.manageMcpServers	管理 MCP 服务器
+translation.rolePermissions.options.manageMcpServersDescription	创建/编辑/删除 MCP 服务器
+translation.rolePermissions.options.managePlugins	管理插件
+translation.rolePermissions.options.managePluginsDescription	安装/编辑/移除组织插件和技能
+translation.rolePermissions.options.viewSessions	查看会话
+translation.rolePermissions.options.viewSessionsDescription	查看组织内其他用户的 Devin 会话。
+translation.rolePermissions.options.manageSessions	管理会话
+translation.rolePermissions.options.manageSessionsDescription	编辑和查看组织内其他用户的 Devin 会话。
+translation.rolePermissions.options.impersonateSessions	模拟会话
+translation.rolePermissions.options.impersonateSessionsDescription	代表组织内其他用户创建 Devin 会话，此角色仅适用于服务用户
+translation.rolePermissions.options.viewMetrics	查看指标
+translation.rolePermissions.options.viewMetricsDescription	查看组织指标
+translation.rolePermissions.options.viewConsumption	查看消耗
+translation.rolePermissions.options.viewConsumptionDescription	查看组织消耗
