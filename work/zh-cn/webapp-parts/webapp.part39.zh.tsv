@@ -1,0 +1,500 @@
+translation.autoreviewTriggers.editUser	更换用户
+translation.autoreviewTriggers.removeUser	移除用户
+translation.autoreviewTriggers.unresolvedDevinUser	此 Devin 用户已不在此账户中。
+translation.autoreviewTriggers.discard	放弃更改
+translation.autoreviewTriggers.devinUserPlaceholder	选择一个 Devin 用户
+translation.autoreviewTriggers.literalWildcardWarning	「{{is}}」比较的是确切文本，* 在这里不是通配符。要按模式匹配，请选择「{{matches}}」。
+translation.autoreviewTriggers.globHelp.path	* 匹配路径段内任意字符，? 匹配一个字符。不区分大小写。
+translation.autoreviewTriggers.globHelp.text	* 匹配任意字符，? 匹配一个字符。不区分大小写。
+translation.autoreviewTriggers.selectCadence	选择分析频率
+translation.autoreviewTriggers.selectStart	选择分析开始时机
+translation.autoreviewTriggers.selectEffort	选择分析强度
+translation.autoreviewTriggers.effort.with	使用
+translation.autoreviewTriggers.effort.normal	常规强度
+translation.autoreviewTriggers.effort.ultra	Ultra 强度
+translation.autoreviewTriggers.effort.default	组织默认
+translation.autoreviewTriggers.effort.defaultWithLevel	组织默认（{{level}}）
+translation.autoreviewTriggers.effort.shortDefault	默认
+translation.autoreviewTriggers.effort.shortDefaultWithLevel	默认（{{level}}）
+translation.autoreviewTriggers.effort.defaultDescription	使用 Review 设置中的默认强度级别。
+translation.autoreviewTriggers.effort.normalDescription	平衡成本与性能的深入分析。
+translation.autoreviewTriggers.effort.ultraDescription	更彻底的分析，成本更高。
+translation.autoreviewTriggers.cadence.everyPushDescription	每次后续推送时再次分析该 PR
+translation.autoreviewTriggers.cadence.everyPushPermissionRequired	你没有「每次推送时分析」的权限。联系你的企业管理员申请权限。
+translation.autoreviewTriggers.cadence.onceDescription	当 PR 满足触发条件时分析一次
+translation.autoreviewTriggers.cadence.wheneverReviewRunsDescription	随匹配 PR 的每次分析运行，无论其如何发起
+translation.autoreviewTriggers.start.checkName	CI 检查名称
+translation.autoreviewTriggers.start.checkPassed	CI 检查
+translation.autoreviewTriggers.start.checkPassedDescription	另一个 CI 检查在就绪 PR 的当前提交上已完成且成功。
+translation.autoreviewTriggers.start.namedCheckPassed	{{name}} 通过后
+translation.autoreviewTriggers.start.prOpenDescription	PR 被打开，无论草稿还是待评审状态。
+translation.autoreviewTriggers.start.prReadyDescription	PR 以待评审状态打开或被标记为待评审。
+translation.autoreviewTriggers.authorTypes.user	用户
+translation.autoreviewTriggers.authorTypes.bot	机器人
+translation.autoreviewTriggers.authorTypes.devin	Devin
+translation.autoreviewTriggers.fields.author	作者
+translation.autoreviewTriggers.fields.author_type	作者类型
+translation.autoreviewTriggers.fields.originated_by	由 Devin 发起
+translation.autoreviewTriggers.fields.not_originated_by	非 Devin 发起
+translation.autoreviewTriggers.fields.repository	仓库
+translation.autoreviewTriggers.fields.changed_file	更改的文件
+translation.autoreviewTriggers.fields.label	标签
+translation.autoreviewTriggers.fields.line_diff	更改行数
+translation.autoreviewTriggers.fields.source_branch	源分支
+translation.autoreviewTriggers.fields.target_branch	目标分支
+translation.autoreviewTriggers.fields.reviewer	评审者
+translation.autoreviewTriggers.fields.title	标题
+translation.autoreviewTriggers.noSuggestions	未找到建议
+translation.autoreviewTriggers.loading	正在加载触发器…
+translation.autoreviewTriggers.loadError	无法加载触发器。
+translation.autoreviewTriggers.saveError	无法保存触发器。
+translation.autoreviewTriggers.retry	重试
+translation.autoreviewTriggers.save	保存
+translation.autoreviewTriggers.saved	触发器已保存。
+translation.imageCropModal.title	裁剪头像
+translation.imageCropModal.description	调整裁剪区域以生成正方形头像
+translation.imageCropModal.previewAlt	裁剪预览
+translation.imageCropModal.cancel	取消
+translation.imageCropModal.confirm	裁剪并保存
+translation.migrations.describeTask	用一句话描述你的迁移任务，我们会引导你完成其余部分
+translation.migrations.startFailed	启动迁移失败
+translation.migrations.openBoardFailed	迁移已开始，但无法打开会话
+translation.gitConnectionAccess.canConfigure	可配置
+translation.gitConnectionAccess.canShare	可共享
+translation.gitConnectionAccess.canView	可查看
+translation.gitConnectionAccess.cannotRemoveOwnAccess	你不能移除自己对管理此连接的访问权
+translation.gitConnectionAccess.configureDescription	可编辑此连接的仓库权限并断开它
+translation.gitConnectionAccess.configureVerb	配置
+translation.gitConnectionAccess.inheritedFromManage	此访问权继承自「管理 Git 集成」权限，后者可管理所有连接
+translation.gitConnectionAccess.inheritedFromOwner	此访问权继承自所有者角色，可管理所有连接
+translation.gitConnectionAccess.inheritedFromView	此访问权继承自「查看 Git 集成」权限，后者可查看所有连接
+translation.gitConnectionAccess.searchPlaceholder	搜索要添加的用户、角色或团队
+translation.gitConnectionAccess.shareDescription	可管理谁有权访问此连接
+translation.gitConnectionAccess.shareVerb	共享
+translation.gitConnectionAccess.viewDescription	可查看此连接及其授权的仓库
+translation.gitConnectionAccess.viewVerb	查看
+translation.providerTeamSync.status.stalled	停滞
+translation.providerTeamSync.status.suspended	已暂停
+translation.providerTeamSync.status.error	错误
+translation.providerTeamSync.statusDescription.suspended	GitHub App 安装已被暂停。在 GitHub 上解除暂停前什么都不会运行。如果已解除，Mirror 现在会重新检查安装状态。
+translation.providerTeamSync.health.missingPermissions	缺少权限：{{list}}
+translation.providerTeamSync.health.missingEvents	缺少事件：{{list}}
+translation.providerTeamSync.health.reviewAndAccept	在 GitHub 上查看并接受
+translation.providerTeamSync.health.openInstallation	在 GitHub 上打开安装
+translation.providerTeamSync.confirmDisable.mirroredUsers_one	{{count, number}} 个用户的仓库访问权来自镜像，除非在 Devin 中另行授予，否则将失去它。
+translation.providerTeamSync.confirmDisable.mirroredUsers_other	{{count, number}} 个用户的仓库访问权来自镜像，除非在 Devin 中另行授予，否则将失去它。
+translation.providerTeamSync.myRepoAccess.action	同步仓库访问权
+translation.providerTeamSync.myRepoAccess.failed	无法从 GitLab 同步你的仓库访问权。请重试。
+translation.providerTeamSync.myRepoAccess.started	仓库访问权同步已开始。可能需要几分钟。
+translation.extraAccessCleanup.reviewAction	检查
+translation.extraAccessCleanup.review	检查更改
+translation.extraAccessCleanup.description	在移除之前检查受影响的成员和访问权。被移除的访问权无法自动恢复。
+translation.extraAccessCleanup.affected	受影响的成员
+translation.extraAccessCleanup.unknownWarning	部分受影响成员的提供商访问权无法验证。
+translation.extraAccessCleanup.download	下载受影响的访问权
+translation.extraAccessCleanup.downloadScope	将全部受影响的访问权下载为 CSV，不受搜索或折叠状态限制
+translation.extraAccessCleanup.back	返回
+translation.extraAccessCleanup.ackOther	我理解通过此组织获得的额外仓库访问权将被移除。
+translation.extraAccessCleanup.ackUnknown	我理解提供商访问权未知的成员将被移除访问权。
+translation.extraAccessCleanup.previewError	无法加载影响预览。请重试或刷新报告。
+translation.extraAccessCleanup.stale	报告、访问权或清理状态已变化。请刷新报告并重新检查更改。
+translation.extraAccessCleanup.permissionDenied	你没有应用这些更改的权限。
+translation.extraAccessCleanup.applyError	无法启动更改。请先检查是否有正在进行的清理，再重试。
+translation.extraAccessCleanup.cancel	取消
+translation.extraAccessCleanup.applying	正在检查访问权…
+translation.extraAccessCleanup.apply	移除访问权
+translation.extraAccessCleanup.running	正在移除访问权…
+translation.extraAccessCleanup.complete	访问权已移除。报告正在刷新。
+translation.extraAccessCleanup.partial	部分更改失败。成功的移除已保留；刷新报告查看剩余项。
+translation.extraAccessCleanup.failed	清理已停止。请刷新报告并检查剩余访问权后重试。
+translation.extraAccessCleanup.progress	已处理 {{done}}/{{total}} 项更改 · {{failed}} 项失败
+translation.extraAccessCleanup.progressError	无法加载清理状态。请先重试再启动新的清理。
+translation.extraAccessReport.people	人员
+translation.extraAccessReport.description	在 Devin 中超出其 git 提供商访问权、可以使用仓库的成员。
+translation.extraAccessReport.unknownMembers	未知成员
+translation.extraAccessReport.asOf	截至 {{time}}
+translation.extraAccessReport.noSnapshot	还没有已完成的报告。
+translation.extraAccessReport.loadError	无法加载报告。
+translation.extraAccessReport.retry	重试
+translation.extraAccessReport.noResults	没有匹配的结果。
+translation.extraAccessReport.page	第 {{page}} 页
+translation.extraAccessReport.mostExtra	移除额外访问权最多
+translation.extraAccessReport.leastOther	移除组织额外访问权最少
+translation.extraAccessReport.action	操作
+translation.extraAccessReport.extraRemoved	额外访问权
+translation.extraAccessReport.otherLost	一并从此组织移除
+translation.extraAccessReport.otherLostHelp	通过此组织失去访问权的成员–仓库对。移除组织成员身份还会影响会话可见性。镜像的仓库访问权在个人环境中仍可用。
+translation.extraAccessReport.unknown	未知
+translation.extraAccessReport.repository	仓库
+translation.extraAccessReport.removeMembers	从 <org>{{org}}</org> 移除直接成员
+translation.extraAccessReport.removeRepositories	从 <org>{{org}}</org> 移除仓库
+translation.extraAccessReport.removeTarget	从 <org>{{org}}</org> 移除 <target>{{target}}</target>
+translation.extraAccessReport.unavailableOrg	组织不可用
+translation.extraAccessReport.restrictedTarget	受限或不可用的资源
+translation.extraAccessReport.omitted_one	报告最多包含 500 条建议操作。另有 {{count, number}} 条操作被排除。
+translation.extraAccessReport.omitted_other	报告最多包含 500 条建议操作。另有 {{count, number}} 条操作被排除。
+translation.extraAccessReport.member	成员
+translation.extraAccessReport.unknownHelp	未知成员尚未关联 git 提供商身份，无法比较其访问权。它们不计入额外访问权。
+translation.extraAccessReport.refresh	刷新
+translation.extraAccessReport.download	下载 CSV
+translation.extraAccessReport.downloadFiltered	下载筛选后的 CSV
+translation.extraAccessReport.downloadScope	下载所有匹配行，不限于本页。折叠的成员按成员–仓库逐行导出。
+translation.extraAccessReport.rowCount_one	{{formattedCount}} 行
+translation.extraAccessReport.rowCount_other	{{formattedCount}} 行
+translation.extraAccessReport.matchingRows_one	{{formattedCount}} 行匹配
+translation.extraAccessReport.matchingRows_other	{{formattedCount}} 行匹配
+translation.extraAccessReport.distinctMembers_one	{{formattedCount}} 个不同成员
+translation.extraAccessReport.distinctMembers_other	{{formattedCount}} 个不同成员
+translation.extraAccessReport.reviewActions	检查清理操作
+translation.extraAccessReport.actionsForSearch	「{{search}}」的操作。检查更改以查看完整影响。
+translation.extraAccessReport.actionsDescription	选择一个操作以检查它将移除的访问权。
+translation.extraAccessReport.requestError	请求失败。请重试。
+translation.extraAccessReport.states.off	Access Mirroring 已关闭。开启它以生成报告。
+translation.extraAccessReport.states.first_pass	还没有已完成的镜像运行。请先运行镜像再刷新此报告。
+translation.extraAccessReport.states.empty	还没有报告。刷新以基于已完成的镜像运行生成报告。
+translation.extraAccessReport.states.ready	报告已就绪。
+translation.extraAccessReport.states.updating	镜像或报告刷新进行中。上次完成的报告仍可用。
+translation.extraAccessReport.states.failed	上次报告刷新失败。之前的报告仍可用；刷新以重试。
+translation.extraAccessReport.removeMemberCount_one	从 <org>{{org}}</org> 移除 {{count, number}} 个成员
+translation.extraAccessReport.removeMemberCount_other	从 <org>{{org}}</org> 移除 {{count, number}} 个成员
+translation.extraAccessReport.removeRepositoryCount_one	从 <org>{{org}}</org> 移除 {{count, number}} 个仓库
+translation.extraAccessReport.removeRepositoryCount_other	从 <org>{{org}}</org> 移除 {{count, number}} 个仓库
+translation.extraAccessReport.repositoryCount_one	{{count, number}} 个仓库
+translation.extraAccessReport.repositoryCount_other	{{count, number}} 个仓库
+translation.extraAccessReport.searchAccess	搜索成员或仓库
+translation.extraAccessReport.collapseMembers	按成员折叠
+translation.extraAccessReport.expandRepositories	展开仓库
+translation.extraAccessReport.leastOtherFirst	移除组织额外访问权最少的优先
+translation.extraAccessReport.accessListTitle	额外访问权
+translation.extraAccessReport.refreshForAccess	刷新报告以搜索成员和仓库访问权
+translation.accessMirroring.confirmOnSkipsHealthy	已镜像的连接只有在最近一轮缺失、超过 24 小时或需要关注时才会重新运行。
+translation.accessMirroring.connectionMirrored	仓库访问权已镜像
+translation.accessMirroring.connectionMirroredDescription	账户已开启 Access Mirroring。你添加的连接会被自动镜像。
+translation.accessMirroring.connectionMirroredPartialDescription	此连接已镜像，但新连接不会。在 Access Mirroring 中为所有连接开启镜像。
+translation.accessMirroring.connectionNotMirrored	仓库访问权未镜像
+translation.accessMirroring.connectionNotMirroredDescription	Access Mirroring 是对整个账户设置一次的。开启它以镜像此连接以及之后添加的连接。
+translation.accessMirroring.open	打开 Access Mirroring
+translation.accessMirroring.connectionCount_one	{{count, number}} 个连接
+translation.accessMirroring.connectionCount_other	{{count, number}} 个连接
+translation.accessMirroring.attentionCount_one	{{count, number}} 个需要关注
+translation.accessMirroring.attentionCount_other	{{count, number}} 个需要关注
+translation.accessMirroring.showConnections	显示连接
+translation.accessMirroring.hideConnections	隐藏连接
+translation.accessMirroring.retry	重试
+translation.accessMirroring.needsPermissions	需要权限
+translation.accessMirroring.title	Access Mirroring
+translation.accessMirroring.description	在此账户内镜像来自各 git 提供商的仓库访问权。
+translation.accessMirroring.toggle	镜像仓库访问权
+translation.accessMirroring.toggleDescription	受支持的连接（包括新连接）会镜像仓库访问权。
+translation.accessMirroring.partial	部分连接仍在用之前的镜像设置。为所有受支持的连接开启镜像以使用统一的全账户设置。
+translation.accessMirroring.enableAll	对所有连接开启
+translation.accessMirroring.confirmOn	开启访问镜像？
+translation.accessMirroring.refreshAll	刷新全部镜像
+translation.accessMirroring.refreshingAll	正在刷新镜像…
+translation.accessMirroring.confirmOnEmptyDescription	之后添加的受支持连接将镜像仓库访问权。
+translation.accessMirroring.confirmOnDescription	将从以下连接以及之后添加的受支持连接镜像仓库访问权：{{connections, list}}。
+translation.accessMirroring.needsAttention	需要关注
+translation.accessMirroring.extraAccess	额外访问权
+translation.accessMirroring.connections	连接
+translation.accessMirroring.connectionsDescription	查看连接健康状态和最近一次镜像运行。
+translation.accessMirroring.status	状态
+translation.accessMirroring.lastPass	最近一轮
+translation.accessMirroring.repositories	仓库
+translation.accessMirroring.groups	组
+translation.accessMirroring.actions	操作
+translation.accessMirroring.noPass	没有已完成的一轮
+translation.accessMirroring.stalePass	最近 24 小时内没有已完成的一轮
+translation.accessMirroring.notSupported	不支持
+translation.accessMirroring.running	运行中
+translation.accessMirroring.off	已关闭
+translation.accessMirroring.healthy	健康
+translation.accessMirroring.offDescription	Access Mirroring 已关闭。
+translation.accessMirroring.rateLimited	已达速率限制
+translation.accessMirroring.runAgain	再次运行
+translation.accessMirroring.partialPass	部分访问权未被镜像
+translation.accessMirroring.paused	已暂停
+translation.accessMirroring.waiting	等待第一轮
+translation.accessMirroring.runNow	立即运行
+translation.accessMirroring.runFor	为 {{connection}} 运行镜像
+translation.accessMirroring.runFailed	无法启动镜像。请重试。
+translation.accessMirroring.runForbidden	你没有为此连接运行镜像的权限。
+translation.accessMirroring.allConnections	所有连接
+translation.accessMirroring.searchConnections	搜索连接
+translation.accessMirroring.filterConnections	按状态筛选
+translation.accessMirroring.noMatchingConnections	没有匹配的连接
+translation.accessMirroring.connectionPage	第 {{page, number}} 页，共 {{pages, number}} 页
+translation.providerSyncPolicy.loadFailed	无法加载访问镜像策略。
+translation.providerSyncPolicy.updateFailed	无法更新访问镜像策略。
+translation.providerSyncPolicy.noConnections	还没有 git 连接。
+translation.providerSyncPolicy.confirmOff.title	关闭访问镜像？
+translation.providerSyncPolicy.confirmOff.description	Devin 将停止镜像所有连接，并移除由镜像创建的仓库访问权。在 Devin 中授予的访问权不受影响。
+translation.providerSyncPolicy.confirmOff.confirm	关闭
+translation.systemNotifications.needsAttention	Devin 需要你处理
+translation.systemNotifications.blocked	Devin 已停止，正在等待你的输入
+translation.systemNotifications.waiting	Devin 正在等待你的输入以继续
+translation.systemNotifications.finishedWorking	已完成工作
+translation.systemNotifications.waitingForInput	等待你的输入
+translation.systemNotifications.untitled	未命名会话
+translation.adminPlg.experimental	实验性
+translation.adminPlg.pageDescription	将此企业的 GitHub 组织所有者与成员和 Devin 用户进行对比。
+translation.adminPlg.description	成员信息仅在请求时获取；这些工具不存储结果。匹配优先使用确切主机上的提供商用户名，其次为公开资料邮箱。公开邮箱仅供参考，不能证明身份归属或授权。GitHub Apps 需要组织 Members 只读权限。
+translation.adminPlg.superusersOnly	此实验性工具仅对超级用户开放。
+translation.adminPlg.loadingApps	正在加载 GitHub Apps…
+translation.adminPlg.appsError	加载 GitHub Apps 失败。请重试。
+translation.adminPlg.noApps	没有连接到此企业的 GitHub Apps。
+translation.adminPlg.toolsLabel	PLG 工具
+translation.adminPlg.ownersTab	组织所有者
+translation.adminPlg.usersTab	组织用户
+translation.adminPlg.ownersTitle	组织所有者
+translation.adminPlg.ownersDescription	获取连接到此企业的所选 GitHub 组织的所有者，并查看其中哪些是 Devin 用户。
+translation.adminPlg.ownersScope_one	范围：{{count}} 个已连接的 GitHub 组织。跳过个人用户安装。
+translation.adminPlg.ownersScope_other	范围：{{count}} 个已连接的 GitHub 组织。跳过个人用户安装。
+translation.adminPlg.ownersHint	选择组织，然后获取其所有者。只请求所有者页面，不请求普通成员页面。
+translation.adminPlg.selectOrganizations	要查询的组织
+translation.adminPlg.selectAll	全选
+translation.adminPlg.deselectAll	取消全选
+translation.adminPlg.selectedOrganizations_one	已选 {{total}} 个组织中的 {{count}} 个
+translation.adminPlg.selectedOrganizations_other	已选 {{total}} 个组织中的 {{count}} 个
+translation.adminPlg.selectionHint	更改选择会清空之前的结果和 CSV 数据。获取期间选择被锁定。
+translation.adminPlg.noOrganizationApps	没有 GitHub 组织安装连接到此企业。
+translation.adminPlg.fetchOwners	获取所选组织所有者
+translation.adminPlg.refetchOwners	重新获取所选
+translation.adminPlg.cancel	取消
+translation.adminPlg.cancelSource	取消来源
+translation.adminPlg.retrySource	重试来源
+translation.adminPlg.retryFailedOrgs_one	重试 {{count}} 个失败的组织
+translation.adminPlg.retryFailedOrgs_other	重试 {{count}} 个失败的组织
+translation.adminPlg.downloadOwnersCsv	将已加载的所有者下载为 CSV
+translation.adminPlg.ownersProgress	{{total}} 个组织中已完成 {{done}} 个
+translation.adminPlg.ownerCount_one	已加载 {{count}} 个所有者
+translation.adminPlg.ownerCount_other	已加载 {{count}} 个所有者
+translation.adminPlg.ownersScopeComplete	完成：所有所选组织均已获取。
+translation.adminPlg.ownersScopePartial	部分完成：结果尚未覆盖所有所选组织。
+translation.adminPlg.ownersPartialError_one	{{count}} 个组织无法完整获取。重试之前下列行不完整。
+translation.adminPlg.ownersPartialError_other	{{count}} 个组织无法完整获取。重试之前下列行不完整。
+translation.adminPlg.orgStatusLoading	获取中 · {{pages}} 页
+translation.adminPlg.orgStatusComplete	完成
+translation.adminPlg.orgStatusError	失败
+translation.adminPlg.orgStatusCancelled	已取消
+translation.adminPlg.repeatedCursorOwners	提供商分页对此来源没有前进；该页之后的所有者未被获取。
+translation.adminPlg.loadingOwners	正在获取所有者…
+translation.adminPlg.noOwners	未找到所有者。
+translation.adminPlg.githubOrganization	GitHub 组织
+translation.adminPlg.ownerColumn	所有者
+translation.adminPlg.devinUser	Devin 用户
+translation.adminPlg.matchMethod	匹配方式
+translation.adminPlg.matchGithubHandle	GitHub 用户名
+translation.adminPlg.matchPublicEmail	公开邮箱
+translation.adminPlg.matchNone	无匹配
+translation.adminPlg.onboardingStatus	加入状态：{{status}}
+translation.adminPlg.noPublicEmail	无公开邮箱
+translation.adminPlg.usersTitle	组织用户
+translation.adminPlg.usersDescription	逐页浏览一个 GitHub 组织的所有者和成员，并与 Devin 用户对比。
+translation.adminPlg.usersHint	点击「获取用户」拉取第一页。在你操作之前不会发出成员请求。
+translation.adminPlg.selectOrganization	选择一个 GitHub 组织
+translation.adminPlg.selectHint	选择一个 GitHub 组织以浏览其用户。
+translation.adminPlg.installation	安装 {{id}}
+translation.adminPlg.retrieveUsers	获取用户
+translation.adminPlg.retrieving	获取中…
+translation.adminPlg.refresh	刷新
+translation.adminPlg.usersError	无法获取用户：{{error}}
+translation.adminPlg.githubUser	GitHub 用户
+translation.adminPlg.orgRole	角色
+translation.adminPlg.owner	所有者
+translation.adminPlg.member	成员
+translation.adminPlg.unknown	未知
+translation.adminPlg.searchOrganizations	搜索组织…
+translation.adminPlg.noMatchingOrganizations	没有匹配的组织。
+translation.adminPlg.previousPage	上一页
+translation.adminPlg.nextPage	下一页
+translation.adminPlg.retry	重试
+translation.adminPlg.downloadUsersPageCsv	将本页下载为 CSV
+translation.adminPlg.pageStatus_one	第 {{page}} 页 · {{count}} 个用户
+translation.adminPlg.pageStatus_other	第 {{page}} 页 · {{count}} 个用户
+translation.adminPlg.repeatedCursorUsers	提供商分页没有前进；无法获取下一页。
+translation.adminPlg.loadingUsers	正在获取用户…
+translation.adminPlg.noUsers	本页没有用户。
+translation.adminLoadError.notOnAccessList	你不在此账户的访问名单上
+translation.adminLoadError.askOwner	请 {{owner}} 把你加入账户以查看此内容。
+translation.adminLoadError.askAccountOwner	请联系账户所有者把你加入账户以查看此内容。
+translation.adminLoadError.viewAccessList	查看访问名单
+translation.adminLoadError.reauthTitle	重新登录以查看此内容
+translation.adminLoadError.reauthDescription	这需要一次最近的 Okta 登录。
+translation.adminLoadError.reauthAction	用 Okta 登录
+translation.adminLoadError.retry	重试
+translation.adminLocalSessions.title	本地会话
+translation.adminLocalSessions.experimental	实验性
+translation.adminLocalSessions.pageDescription	由此企业导出的 CLI 遥测数据重建的会话。只有导出策略包含提示和回复时它们才会显示。
+translation.adminLocalSessions.listError	无法加载会话。
+translation.adminLocalSessions.loadMoreError	无法加载更多会话。
+translation.adminLocalSessions.empty	没有导出的会话。
+translation.adminLocalSessions.loading	加载中…
+translation.adminLocalSessions.loadMore	加载更多
+translation.adminLocalSessions.selectPrompt	选择一个会话以查看其转录。
+translation.adminLocalSessions.transcriptError	无法加载此转录。
+translation.adminLocalSessions.unreadable	此转录的格式此页面无法识别。
+translation.adminLocalSessions.stepCount_one	{{count}} 步
+translation.adminLocalSessions.stepCount_other	{{count}} 步
+translation.adminLocalSessions.truncated	只读取了此会话的前半部分。
+translation.adminLocalSessions.nothingToShow	没有可显示的内容。
+translation.adminPlgGitlab.tab	GitLab
+translation.adminPlgGitlab.title	GitLab 组和项目
+translation.adminPlgGitlab.description	以某个企业用户身份读取 GitLab，使用他们已连接的 GitLab OAuth 身份。不存储任何内容；每页都是用该用户自己的权限实时读取。所有者邮箱来自 GitLab members 和公开资料 API，仅供参考，不能证明身份归属或授权。
+translation.adminPlgGitlab.loadingProfiles	正在加载已连接的 GitLab 身份…
+translation.adminPlgGitlab.profilesError	加载 GitLab 身份失败。请重试。
+translation.adminPlgGitlab.noProfiles	没有企业用户连接 GitLab 身份。
+translation.adminPlgGitlab.profilesTruncated	只列出前 {{count}} 个 GitLab 身份；此企业还有更多。
+translation.adminPlgGitlab.selectProfile	选择一个 GitLab 身份
+translation.adminPlgGitlab.searchProfiles	搜索身份
+translation.adminPlgGitlab.noMatchingProfiles	没有匹配的身份
+translation.adminPlgGitlab.selectHint	选择一个身份以读取其可见的组和项目。
+translation.adminPlgGitlab.readAsUser	正以 {{user}} 身份读取
+translation.adminPlgGitlab.groupsTab	组
+translation.adminPlgGitlab.projectsTab	项目
+translation.adminPlgGitlab.loadOwners_one	加载 {{count}} 个所选的所有者
+translation.adminPlgGitlab.loadOwners_other	加载 {{count}} 个所选的所有者
+translation.adminPlgGitlab.downloadCsv	下载所选 CSV
+translation.adminPlgGitlab.resourcesError	GitLab 读取失败：{{error}}
+translation.adminPlgGitlab.repeatedCursor	GitLab 返回了已访问的游标；为避免循环已停止分页。
+translation.adminPlgGitlab.groupColumn	组
+translation.adminPlgGitlab.projectColumn	项目
+translation.adminPlgGitlab.visibilityColumn	可见性
+translation.adminPlgGitlab.ownersColumn	所有者和维护者
+translation.adminPlgGitlab.loadingResources	加载中…
+translation.adminPlgGitlab.noResources	此身份没有可见内容。
+translation.adminPlgGitlab.archived	已归档
+translation.adminPlgGitlab.loadingOwners	正在加载所有者…
+translation.adminPlgGitlab.ownersNotLoaded	未获取
+translation.adminPlgGitlab.noOwners	没有所有者或维护者
+translation.adminPlgGitlab.ownersTruncated	实际所有者多于已获取的数量。
+translation.adminPlgGitlab.noEmail	无邮箱
+translation.adminPlgGitlab.selectResourcesHint	组和项目会自动加载。选择一个或多个，然后加载其所有者。
+translation.adminPlgGitlab.loadedCount	已加载 {{loaded}} · 已选 {{selected}}
+translation.adminPlgGitlab.selectAllLoaded	全选已加载
+translation.adminPlgGitlab.deselectAll	取消全选
+translation.adminPlgGitlab.loadMore	加载更多
+translation.adminPlgGitlab.clearSelection	清除选择
+translation.adminPlgGitlab.resourceColumn	组或项目
+translation.adminPlgGitlab.noSelection	在上方选择组或项目，这里会显示其所有者。
+translation.agents.agentOptions	代理选项
+translation.agents.connectorUnavailable	{{name}} 未在运行。启动它以继续此会话。
+translation.agents.local	本地
+translation.agents.introDescribeTask	向 Devin 描述你的任务
+translation.agents.introStartSession	开始新的 {{agent}} 会话
+translation.agents.introTrustFolder	信任此文件夹以使用 Devin Local
+translation.agents.connectorUnknown	{{name}} 不是此窗口的代理之一。
+translation.agents.agentDisabledTitle	{{name}} 已禁用
+translation.agents.agentDisabledTitleUnnamed	此会话的代理已禁用
+translation.agents.agentDisabledDescription	在 Agents 设置中启用它以继续此会话。
+translation.agents.openAgentSettings	打开 Agents 设置
+translation.agents.connectorNoAccount	登录中…
+translation.agents.failedToStartLocalSession	启动本地会话失败。请重试。
+translation.agents.agentFailedToStartLocalSession	{{agent}} 无法启动会话
+translation.agents.failedToSendLocalMessage	无法将你的消息发送给本地代理。
+translation.agents.unsupportedImageFormat	{{name}} 不支持的图像格式。仅允许 PNG、JPG、GIF 和 SVG。
+translation.agents.imageProcessingFailed	处理图像 {{name}} 时出错：{{message}}
+translation.agents.modelDoesNotSupportImages	此模型不支持图像。你可以移除它们或切换到支持图像的模型。
+translation.agents.firstPromptTooLarge	此消息太大，无法启动会话。移除一些附件或缩短内容后重新发送。
+translation.agents.inlineImageLimitReached	无法再添加图像。最多允许 {{limit}} 张图像。
+translation.agents.inlineImagesSkipped_one	{{count}} 张图像被跳过。
+translation.agents.inlineImagesSkipped_other	{{count}} 张图像被跳过。
+translation.agents.inlineImageLimitPartial_one	因 {{limit}} 张图像限制，仅上传前 {{remaining}} 张。{{skipped}}
+translation.agents.inlineImageLimitPartial_other	因 {{limit}} 张图像限制，仅上传前 {{remaining}} 张。{{skipped}}
+translation.agents.cloud	云端
+translation.agents.chooseWhereToRun	选择会话在哪里运行
+translation.agents.localAgentNotConnected	本地代理未连接。
+translation.agents.localAgentsOffUntrusted	本地代理已关闭，因为此工作区处于受限模式。
+translation.agents.localNeedsTrust	受限模式下本地代理已关闭。选择「本地」以信任此工作区。
+translation.agents.trustWorkspace	信任工作区
+translation.agents.trustFolder	信任文件夹
+translation.agents.chooseAgent	选择一个代理
+translation.agents.sessionFolder	会话文件夹
+translation.agents.worktreeOf	{{path}} 的 worktree
+translation.agents.addFolder	添加文件夹…
+translation.agents.workingDirectory	工作目录
+translation.agents.selectedFolders_one	{{count}} 个文件夹
+translation.agents.selectedFolders_other	{{count}} 个文件夹
+translation.agents.recentFolders	最近
+translation.agents.noFolderSelected	选择一个文件夹
+translation.agents.chooseFolderToStart	选择运行会话的文件夹
+translation.agents.waitForRemoteHost	等待远程主机连接
+translation.agents.reconnectHostToStart	{{name}} 已断开。重新连接它以在那里启动会话。
+translation.agents.waitForLocalAgent	等待 Devin Local 连接
+translation.agents.localAgentDisabled	{{name}} 已禁用。在 Agents 设置中启用它以启动会话。
+translation.agents.selectOrganizationToStartCloudSession	选择一个组织以启动 Devin Cloud 会话
+translation.agents.connectingToHost	正在连接 {{name}}…
+translation.agents.model	模型
+translation.agents.mode	模式
+translation.agents.failedToPickFolder	无法打开文件夹选择器。
+translation.agents.failedToUpdateConfig	无法将该设置应用到本地代理。
+translation.agents.worktree	Worktree
+translation.agents.openWorktree	打开 worktree
+translation.agents.newWorktree	新建 worktree
+translation.agents.searchWorktrees	搜索 worktree
+translation.agents.loadingWorktrees	正在加载 worktree…
+translation.agents.noWorktreesFound	未找到 worktree
+translation.agents.worktreesRequireWorkspace	Worktree 需要一个工作区
+translation.agents.worktreesRequireRepository	Worktree 需要一个 Git 仓库
+translation.agents.failedToCreateWorktree	创建 worktree 失败：{{message}}
+translation.agents.creatingWorktree	正在创建 worktree…
+translation.agents.worktreeFailed	Worktree 失败
+translation.agents.remoteAgentHosts	远程代理主机
+translation.agents.connectRemoteHost	连接到远程主机…
+translation.agents.remoteHostConnected	已连接
+translation.agents.remoteHostConnecting	连接中
+translation.agents.remoteHostDisconnected	已断开
+translation.agents.remoteHostError	连接失败
+translation.agents.remoteHostNoAgents	已连接，无代理
+translation.agents.remoteHostConfigProblems	已连接，但有配置问题
+translation.agents.remoteHostMoreActions	{{name}} 的更多操作（{{transport}}）
+translation.agents.remoteHostReconnect	重新连接
+translation.agents.remoteHostDisconnect	断开
+translation.agents.remoteHostRemove	移除
+translation.agents.remoteHostOffersNoAgent	{{name}}：该主机没有提供代理。
+translation.agents.remoteHostDoesNotOfferAgent	{{name}}：该主机没有提供 {{agent}}。
+translation.agents.remoteHostFailed	{{name}}：{{message}}
+translation.agents.remoteHostsUnavailable	{{name}}：此窗口中远程主机不可用。
+translation.messageHistory.outpostWaiting.viewOutposts	查看 outposts
+translation.messageHistory.outpostWaiting.queuedTitle	等待你的 outpost 上线
+translation.messageHistory.outpostWaiting.queuedBody	此会话在你的 outpost 上排队，还没有机器接收它。这是你组织自己的 outpost，不是 Devin 故障——Devin 会持续等待，一旦有机器连接就开始。
+translation.messageHistory.outpostWaiting.queuedBody_named	此会话在你的 outpost「{{outpostName}}」上排队，还没有机器接收它。这是你组织自己的 outpost，不是 Devin 故障——Devin 会持续等待，一旦有机器连接就开始。
+translation.messageHistory.outpostWaiting.claimedTitle	你的 outpost 机器正在连接
+translation.messageHistory.outpostWaiting.claimedBody	你 outpost 中的一个 worker 已接收此会话并正在连接。Devin 已就绪，一旦你的机器连接就开始。
+translation.messageHistory.outpostWaiting.claimedBody_named	你 outpost「{{outpostName}}」中的一个 worker 已接收此会话并正在连接。Devin 已就绪，一旦你的机器连接就开始。
+translation.messageHistory.outpostWaiting.stalledTitle	你的 outpost 机器尚未连接
+translation.messageHistory.outpostWaiting.stalledBody	你 outpost 中的一个 worker 已接收此会话但未及时连接。请检查你的 outpost worker 是否在运行且健康——Devin 会持续等待直到有机器连接。
+translation.messageHistory.outpostWaiting.stalledBody_named	你 outpost「{{outpostName}}」中的一个 worker 已接收此会话但未及时连接。请检查你的 outpost worker 是否在运行且健康——Devin 会持续等待直到有机器连接。
+translation.messageHistory.outpostWaiting.failedTitle	你的 outpost 无法为此会话启动机器
+translation.messageHistory.outpostWaiting.failedBody	你 outpost 中的一个 worker 已接收此会话但无法启动其机器，因此放弃了它。修复原因（例如确保镜像可以拉取，或重建环境镜像）后重新启动会话。
+translation.messageHistory.outpostWaiting.failedBody_named	你 outpost「{{outpostName}}」中的一个 worker 已接收此会话但无法启动其机器，因此放弃了它。修复原因（例如确保镜像可以拉取，或重建环境镜像）后重新启动会话。
+translation.sessionAnalysis.suggestedActions	建议操作
+translation.sessionAnalysis.goToMachine	前往机器
+translation.sessionAnalysis.startNewSession	开始新会话
+translation.sessionAnalysis.knowledgeUsage.helpText	知识帮助 Devin 记住相关事实、技巧以及如何执行某些技能。Devin 会自动回忆相关知识
+translation.sessionAnalysis.knowledgeUsage.misleading	误导性知识（{{count}}）
+translation.sessionAnalysis.knowledgeInsights.title	知识洞察
+translation.sessionAnalysis.knowledgeInsights.description	评估知识检索与此会话需求的匹配程度。这是仅内部 staging 的功能。
+translation.sessionAnalysis.knowledgeInsights.f1	F1 分数
+translation.sessionAnalysis.knowledgeInsights.f1Desc	精确率与召回率的调和平均
+translation.sessionAnalysis.knowledgeInsights.precision	精确率
+translation.sessionAnalysis.knowledgeInsights.precisionDesc	{{evaluated}} 条被评估检索项中 {{retrieved}} 条相关
+translation.sessionAnalysis.knowledgeInsights.recall	召回率
+translation.sessionAnalysis.knowledgeInsights.recallDesc	{{total}} 条相关项中 {{retrieved}} 条被检索到
+translation.sessionAnalysis.knowledgeInsights.totalItems_one	共 {{count}} 条知识
+translation.sessionAnalysis.knowledgeInsights.totalItems_other	共 {{count}} 条知识
+translation.sessionAnalysis.knowledgeInsights.retrievedCount	已检索 {{count}} 条
+translation.sessionAnalysis.knowledgeInsights.relevantCount	相关 {{count}} 条
+translation.sessionAnalysis.knowledgeInsights.correctlyRetrieved	正确检索（{{count}}）
+translation.sessionAnalysis.knowledgeInsights.incorrectlyRetrieved	错误检索（{{count}}）
+translation.sessionAnalysis.knowledgeInsights.notEvaluated	未评估（{{count}}）
+translation.sessionAnalysis.knowledgeInsights.missedRelevant	遗漏的相关知识（{{count}}）
+translation.sessionAnalysis.skillsInsights.title	技能洞察
+translation.sessionAnalysis.skillsInsights.description	评估技能调用与此会话需求的匹配程度。这是仅内部 staging 的功能。
+translation.sessionAnalysis.skillsInsights.f1	F1 分数
+translation.sessionAnalysis.skillsInsights.f1Desc	精确率与召回率的调和平均
+translation.sessionAnalysis.skillsInsights.precision	精确率
+translation.sessionAnalysis.skillsInsights.precisionDesc	{{evaluated}} 个被评估的调用技能中 {{invoked}} 个相关
+translation.sessionAnalysis.skillsInsights.recall	召回率
+translation.sessionAnalysis.skillsInsights.recallDesc	{{total}} 个相关技能中 {{invoked}} 个被调用
+translation.sessionAnalysis.skillsInsights.availableCount_one	{{count}} 个可用技能
+translation.sessionAnalysis.skillsInsights.availableCount_other	{{count}} 个可用技能

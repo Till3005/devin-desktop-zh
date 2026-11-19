@@ -50,7 +50,7 @@ literals: ~360/938（part01 已写，覆盖 0-458 白名单 + 459+ 句选；其�
 ## webapp-host 第三面 (2026-11-19)
 - en 语料已抽：work/zh-cn/webapp.en.tsv 26,509 行（translation 429 ns + review 50 ns），1 个 EXPR 行(review.onboarding.intro.features)
 - 分 54 份：work/zh-cn/webapp-parts/webapp.part00-53 (500行/份)
-- 翻译中：翻完写 webapp.partNN.zh.tsv（part00-38 完成 19500/26509，下一份 part39）
+- 翻译中：翻完写 webapp.partNN.zh.tsv（part00-39 完成 20000/26509，下一份 part40）
 - 源：chunk-entry-host-editor-mode-menu-BWLlgqZu.js (mu=sl/au; JSON.parse 与字面量混合)
 - 待办：注册 zh chunk 到 gu[]（en/ja/pt/es/de 同款 {code,label,translation,review}），语言检测接 _VSCODE_NLS_LANGUAGE；patch_app 扩展；Devin Settings/Local 会话面板补截图
 - Devin Settings 页/会话面板 = webapp-host surface（已确认登录态渲染英文）
