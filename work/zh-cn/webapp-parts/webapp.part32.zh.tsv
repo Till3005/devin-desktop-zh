@@ -1,0 +1,500 @@
+translation.sidebar.noFiltersFound	未找到筛选
+translation.sidebar.noOrganizationsFound	未找到组织
+translation.sidebar.noPeopleFound	未找到人员
+translation.sidebar.noPullRequests	无拉取请求
+translation.sidebar.noResultsFound	未找到结果
+translation.sidebar.noSearches	无提问
+translation.sidebar.noSessions	无会话
+translation.sidebar.noTagsFound	未找到标签
+translation.sidebar.noWikisFound	未找到 wiki
+translation.sidebar.notArchived	未归档
+translation.sidebar.noAutomations	无自动化
+translation.sidebar.onlyAutomations	仅自动化
+translation.sidebar.notDone	未完成
+translation.sidebar.only	仅
+translation.sidebar.onlyOpen	仅打开中
+translation.sidebar.openedByMe	由我创建
+translation.sidebar.organization	组织
+translation.sidebar.pagesNavLabel	页面
+translation.sidebar.startedBy	发起者
+translation.sidebar.startedByCount_one	{{count}} 人
+translation.sidebar.startedByCount_other	{{count}} 人
+translation.sidebar.allSessions	全部会话
+translation.sidebar.pinned	已置顶
+translation.sidebar.participated	已参与
+translation.sidebar.automationsInvolvingYou	与你相关的自动化
+translation.sidebar.openPullRequest	打开 PR
+translation.sidebar.viewPullRequests_one	查看 {{count}} 个 PR
+translation.sidebar.viewPullRequests_other	查看 {{count}} 个 PR
+translation.sidebar.pullRequestsCount_open_one	{{count}} 个打开中的拉取请求
+translation.sidebar.pullRequestsCount_open_other	{{count}} 个打开中的拉取请求
+translation.sidebar.pullRequestsCount_queued_one	{{count}} 个排队中的拉取请求
+translation.sidebar.pullRequestsCount_queued_other	{{count}} 个排队中的拉取请求
+translation.sidebar.pullRequestsCount_draft_one	{{count}} 个草稿拉取请求
+translation.sidebar.pullRequestsCount_draft_other	{{count}} 个草稿拉取请求
+translation.sidebar.pullRequestsCount_merged_one	{{count}} 个已合并的拉取请求
+translation.sidebar.pullRequestsCount_merged_other	{{count}} 个已合并的拉取请求
+translation.sidebar.pullRequestsCount_closed_one	{{count}} 个已关闭的拉取请求
+translation.sidebar.pullRequestsCount_closed_other	{{count}} 个已关闭的拉取请求
+translation.sidebar.prStateFilter	拉取请求
+translation.sidebar.primaryNavLabel	主导航
+translation.sidebar.properties	属性
+translation.sidebar.propertyAgent	代理
+translation.sidebar.propertyAgentMode	代理模式
+translation.sidebar.propertyAutomationTrigger	自动化
+translation.sidebar.propertyJira	Jira
+translation.sidebar.propertyLinear	Linear
+translation.sidebar.propertyPullRequests	拉取请求
+translation.sidebar.propertyOrganization	组织
+translation.sidebar.propertyPylon	Pylon
+translation.sidebar.propertySlack	Slack
+translation.sidebar.propertyTeams	Teams
+translation.sidebar.teamsSyncDisabled	Teams（同步已禁用）
+translation.sidebar.propertyGoogleChat	Google Chat
+translation.sidebar.googleChatSyncDisabled	Google Chat（同步已禁用）
+translation.sidebar.propertyStatus	状态
+translation.sidebar.propertyVisibility	属性可见性
+translation.sidebar.recent	最近
+translation.sidebar.remove	移除
+translation.sidebar.removeFrom	从 {{name}} 移除
+translation.sidebar.reset	重置
+translation.sidebar.scans	扫描
+translation.sidebar.schedules	计划任务
+translation.sidebar.search	搜索
+translation.sidebar.searchAgents	搜索代理
+translation.sidebar.searchFilters	搜索筛选
+translation.sidebar.searchOrganizations	搜索组织
+translation.sidebar.searchPRs	搜索 PR…
+translation.sidebar.searchPeople	搜索人员
+translation.sidebar.searchQueries	搜索提问…
+translation.sidebar.searchSessions	搜索会话…
+translation.sidebar.searchTags	搜索标签
+translation.sidebar.sessionType	会话类型
+translation.sidebar.sessionTypeAda	Ask
+translation.sidebar.showAll	显示全部
+translation.sidebar.skill	技能
+translation.sidebar.showGroup	显示分组
+translation.sidebar.showMoreSessions_one	再显示 {{count}} 个会话
+translation.sidebar.showMoreSessions_other	再显示 {{count}} 个会话
+translation.sidebar.showProperty	显示属性
+translation.sidebar.sort	排序
+translation.sidebar.sortBy	排序方式
+translation.sidebar.sortStatus	状态
+translation.sidebar.status.awaitingInstructions	等待指令
+translation.sidebar.status.approvalRequired	需要批准
+translation.sidebar.status.approveAutomation	批准自动化
+translation.sidebar.status.approveBillingTag	批准计费标签
+translation.sidebar.status.approveBlueprintTest	批准 blueprint 测试
+translation.sidebar.status.approveHook	批准 hook
+translation.sidebar.status.approveKnowledge	批准知识
+translation.sidebar.status.approveLocalAccess	批准本地访问
+translation.sidebar.status.approveMcpServer	批准 MCP 服务器
+translation.sidebar.status.approveOncall	批准 Oncall
+translation.sidebar.status.approvePlaybook	批准 playbook
+translation.sidebar.status.approvePlugin	批准插件
+translation.sidebar.status.approveRule	批准规则
+translation.sidebar.status.approveSchedule	批准计划任务
+translation.sidebar.status.approveSession	批准会话
+translation.sidebar.status.approveSessions	批准会话
+translation.sidebar.status.approveSkill	批准技能
+translation.sidebar.status.approveWorkflow	批准工作流
+translation.sidebar.status.closed	已关闭
+translation.sidebar.status.crashed	已崩溃
+translation.sidebar.status.done	已完成
+translation.sidebar.status.environmentCrashed	环境崩溃
+translation.sidebar.status.exceededLimit	超出限额
+translation.sidebar.status.inactive	非活跃
+translation.sidebar.status.prApproved	PR 已批准
+translation.sidebar.status.prInMergeQueue	在合并队列中
+translation.sidebar.status.prReady	PR 已就绪
+translation.sidebar.status.prReadyWaitingCI	PR 就绪，等待 CI
+translation.sidebar.status.reviewPR	评审 PR
+translation.sidebar.status.sleeping	休眠中
+translation.sidebar.status.stackApproved	堆栈已批准
+translation.sidebar.status.stackReady	堆栈已就绪
+translation.sidebar.status.waitingForResponse	等待回复
+translation.sidebar.status.waitingOnOtherSessions	等待 Devin 会话
+translation.sidebar.status.working	工作中
+translation.sidebar.status.workingWithEta	工作中（约剩 {{duration}}）
+translation.sidebar.statusBlocked	已阻塞
+translation.sidebar.statusExited	非活跃
+translation.sidebar.statusFilter	状态
+translation.sidebar.statusInactive	非活跃
+translation.sidebar.statusReady	就绪
+translation.sidebar.statusRunning	运行中
+translation.sidebar.statusWorking	工作中
+translation.sidebar.subscriber	订阅者
+translation.sidebar.allUsers	全部用户
+translation.sidebar.creatorMe	我
+translation.sidebar.creatorOthers	其他人
+translation.sidebar.tags	标签
+translation.sidebar.toggle.collapse	收起侧栏
+translation.sidebar.toggle.expand	展开侧栏
+translation.sidebar.unarchive	取消归档
+translation.sidebar.resumeSession	恢复会话
+translation.sidebar.resume	恢复
+translation.sidebar.usage.viewUsage	查看用量
+translation.sidebar.usage.extraUsageBalance	额外用量余额
+translation.sidebar.usage.manageUsage	管理用量
+translation.sidebar.unavailable	不可用
+translation.sidebar.unavailableInCompactView	紧凑视图中不可用
+translation.sidebar.updatedTime	更新时间
+translation.sidebar.windows	Windows
+translation.sidebar.viewAll	查看全部
+translation.sidebar.viewAllQueries	查看所有提问
+translation.sidebar.viewAllReviews	查看所有评审
+translation.sidebar.viewAllScans	查看所有扫描
+translation.sidebar.viewAllSessions	查看所有会话
+translation.sidebar.viewAllWikis	查看所有 wiki
+translation.sidebar.askSession	Ask 会话
+translation.sidebar.collapseChildren	收起子级
+translation.sidebar.expandChildren	展开子级
+translation.sidebar.createdTimeAgo	创建于 {{time}}
+translation.sidebar.updatedTimeAgo	更新于 {{time}}
+translation.sidebar.hasChildSessions	有子会话
+translation.sidebar.scheduledSession	定时会话
+translation.sidebar.slackSyncDisabled	Slack（同步已禁用）
+translation.sidebar.triggeredByAutomation	由自动化触发
+translation.sidebar.close	关闭侧栏
+translation.sidebar.collapse	收起侧栏
+translation.sidebar.expand	展开侧栏
+translation.slackConnect.noWorkspaceDescription	Devin 已为你的 Slack 组织安装，但尚未加入任何工作区。请从 Slack 管理后台添加，然后关联你的用户。
+translation.slackConnect.dontRemindMeAgain	不再提醒
+translation.slackConnect.announcementTitle	同步到 Slack
+translation.slackConnect.announcementDescription	选择一个频道，将此会话同步到 Slack。
+translation.slackConnect.announcementAction	选择
+translation.slackConnect.migrationCompleted	迁移成功完成
+translation.slackConnect.migrationFailed	完成迁移失败
+translation.slackConnect.workspacesUpToDate	工作区已是最新
+translation.slackConnect.workspacesRefreshFailed	刷新工作区出错
+translation.slackPicker.connectSlackUser	连接 Slack 用户
+translation.slackPicker.directMessageYou	私信（你）
+translation.slackPicker.dontSendToSlack	不发送到 Slack
+translation.slackPicker.inviteDevinToChannel	邀请 @Devin 进入一个 Slack 频道以继续
+translation.slackPicker.loadingChannels	正在加载频道…
+translation.slackPicker.noChannelsAvailable	没有可用的 Slack 频道
+translation.slackPicker.noChannelsFound	未找到频道
+translation.slackPicker.noChannelsMapped	没有频道映射到此组织
+translation.slackPicker.searchChannels	搜索频道…
+translation.reactionSelect.noEmojiFound	未找到表情
+translation.reactionSelect.searchEmoji	搜索表情…
+translation.reactionSelect.useCustom	使用自定义：
+translation.reactionSelect.frequentlyUsed	常用
+translation.reactionSelect.all	全部
+translation.reactionSelect.smileysEmotion	笑脸与情感
+translation.reactionSelect.peopleBody	人物与身体
+translation.reactionSelect.animalsNature	动物与自然
+translation.reactionSelect.foodDrink	美食与饮品
+translation.reactionSelect.travelPlaces	旅行与地点
+translation.reactionSelect.activities	活动
+translation.reactionSelect.objects	物品
+translation.reactionSelect.symbols	符号
+translation.reactionSelect.flags	旗帜
+translation.slackSend.disableSync	禁用 Slack 同步
+translation.slackSend.enableSync	启用 Slack 同步
+translation.slackSend.sendIn	发送到 {{label}}
+translation.slackSend.syncDisabled	Slack 同步已禁用
+translation.slackSend.syncDisabledDescription	此会话不会发送到 Slack
+translation.slackSend.syncEnabled	Slack 同步已启用
+translation.slackSend.syncEnabledDescription	此会话将发送到 {{label}}
+translation.slackSend.messagesSyncDisabledDescription	消息不会同步到 {{label}}
+translation.slackSend.messagesSyncEnabledDescription	消息将同步到 {{label}}
+translation.slackSend.syncedTo	已同步到 {{label}}
+translation.slackSend.confirmPrivateSyncTitle	将会话同步到 {{label}}？
+translation.slackSend.confirmPrivateSyncDescription	此会话是私有的。该 Slack 频道中的所有人都能看到它的新消息。
+translation.slackSend.confirmPrivateSync	同步
+translation.teamsSync.synced	已同步到 Teams
+translation.teamsSync.syncDisabled	Teams 同步已禁用
+translation.teamsSync.disableSync	禁用 Teams 同步
+translation.teamsSync.enableSync	启用 Teams 同步
+translation.teamsSync.enabled	Teams 同步已启用
+translation.teamsSync.disabled	Teams 同步已禁用
+translation.teamsSync.enabledDescription	消息将同步到 Teams
+translation.teamsSync.disabledDescription	消息不会同步到 Teams
+translation.slackUserSelect.bot	机器人
+translation.slackUserSelect.loadingUsers	正在加载用户…
+translation.slackUserSelect.noUsersFound	未找到用户
+translation.slackUserSelect.searchUsers	搜索用户…
+translation.slackUserSelect.searching	搜索中…
+translation.slackUserSelect.lookingUpId	正在查询 {{id}}…
+translation.slackUserSelect.unknownId	没有 ID 为 {{id}} 的 Slack 用户
+translation.snapshotFilter.failedToLoad	加载快照失败
+translation.snapshotFilter.loading	加载中…
+translation.snapshotFilter.noSnapshotsFound	未找到快照
+translation.snapshotFilter.searchSnapshots	搜索快照…
+translation.userRoleBulk.noMembersSelected	未选择成员
+translation.userRoleBulk.roleNotFound	未找到角色：{{roleId}}
+translation.userRoleBulk.cannotChangeOwnRole	你不能把自己的角色从 Admin 改成其他
+translation.userRoleBulk.updatingRoles	正在将角色更新为 {{role}}…
+translation.userRoleBulk.updateFailed	更新角色失败：{{error}}
+translation.userRoleBulk.unknownError	未知错误
+translation.userRoleBulk.changeRole	更改角色
+translation.userRoleBulk.role	角色
+translation.userRoleBulk.upgradeTitle	升级为企业管理员
+translation.userRoleBulk.upgradeDescription	企业管理员可以查看和配置整个 Devin 企业中的所有代码、快照、集成和消耗限额。请谨慎分配此权限。
+translation.userRoleBulk.understood	明白了
+translation.previewAuthorize.title	正在打开预览…
+translation.previewAuthorize.description	正在为你登录并启动预览。
+translation.previewAuthorize.cookieErrorTitle	无法打开预览
+translation.previewAuthorize.cookieErrorDescription	登录 cookie 未被存储，因此无法启动预览。请确保已启用 cookie 并重试。（Safari 在本地纯 HTTP 下会阻止预览 cookie——请改用 Chrome 或 HTTPS。）
+translation.previewAuthorize.unavailableTitle	预览不可用
+translation.previewAuthorize.unavailableDescription	你没有权限访问此预览，或它已不存在。
+translation.sshAuthorize.title	授权 SSH 访问
+translation.sshAuthorize.missingSid	此授权链接不完整。
+translation.sshAuthorize.invalidLink	此授权链接无效或已过期。请重新通过 SSH 连接以获取新链接。
+translation.sshAuthorize.request	一台机器正在请求对会话 <session>{{session}}</session> 的 SSH 访问。只有在你刚亲自运行过 SSH 命令时才批准。
+translation.sshAuthorize.clientIp	来自 {{ip}} 的连接
+translation.sshAuthorize.approve	授权此连接
+translation.sshAuthorize.approving	授权中…
+translation.sshAuthorize.failed	授权失败。请重新通过 SSH 连接并重试。
+translation.sshAuthorize.approvedTitle	连接已授权
+translation.sshAuthorize.approvedBody	在终端的 SSH 提示中输入此代码：
+translation.sshAuthorize.codeSingleUse	此代码仅对本次连接有效一次。
+translation.sshSettings.keyAdd	添加密钥
+translation.sshSettings.keyAddFailed	添加 SSH 密钥失败
+translation.sshSettings.keyAddFailedAlreadyEnrolled	该密钥已在你的组织中登记。
+translation.sshSettings.keyAddFailedInvalid	这不是有效的 SSH 公钥。请粘贴 .pub 文件的整行内容，以密钥类型开头。
+translation.sshSettings.keyAddFailedNotEnabled	你组织的 SSH 访问级别当前不允许 SSH 密钥。
+translation.sshSettings.keyAddFailedTooMany	你已达到 SSH 密钥登记上限。请先移除一个再添加。
+translation.sshSettings.keyNameLabel	密钥名称
+translation.sshSettings.keyNameRequired	需要密钥名称
+translation.sshSettings.keyNamePlaceholder	例如：工作笔记本
+translation.sshSettings.keyPublicKeyLabel	公钥
+translation.sshSettings.keyPublicKeyRequired	需要公钥
+translation.sshSettings.keyRemove	移除
+translation.sshSettings.keyRemoveFailed	移除 SSH 密钥失败
+translation.sshSettings.keysDescription	在此登记的密钥可以直接 SSH 进入你的 Devin 会话，无需浏览器批准。
+translation.sshSettings.keysEnrollmentDisabled	你组织的 SSH 访问级别当前不允许 SSH 密钥；现有密钥仍列在此处以便你移除。
+translation.sshSettings.keysTitle	SSH 密钥
+translation.sshSettings.levelApp	仅受信应用
+translation.sshSettings.levelAppDescription	Devin Desktop 和其他已登录应用可以连接；无需验证码或 SSH 密钥
+translation.sshSettings.levelCapped	已被 Cognition 为此账户禁用
+translation.sshSettings.levelDescription	用户可通过何种方式 SSH 进入会话机器
+translation.sshSettings.levelLabel	SSH 访问
+translation.sshSettings.levelNone	关闭
+translation.sshSettings.levelNoneDescription	拒绝到会话机器的 SSH 连接
+translation.sshSettings.levelOtp	一次性验证码
+translation.sshSettings.levelOtpDescription	浏览器批准的一次性验证码，加上受信应用访问
+translation.sshSettings.levelPublicKey	SSH 密钥
+translation.sshSettings.levelPublicKeyDescription	已登记的 SSH 密钥直接连接，加上一次性验证码和受信应用访问
+translation.sshSettings.levelUpdateFailed	更新 SSH 访问设置失败
+translation.sshSettings.noKeys	未登记 SSH 密钥。
+translation.tagModal.noPtsCodesFound	未找到 PTS Code
+translation.tagModal.noTagsFound	未找到标签
+translation.tagModal.organizationGroup	组织
+translation.tagModal.otherTagsFreeform	其他标签为自由格式。必选标签在上方选择。
+translation.tagModal.otherTagsFreeformPtsCodes	其他标签为自由格式。必选 PTS Code 在上方选择。
+translation.tagModal.requiredPtsCode	必选 PTS Code
+translation.tagModal.requiredPtsCodesManagedAsOther	必选 PTS Code 在上方管理，不能作为其他标签添加。
+translation.tagModal.requiredTag	必选标签
+translation.tagModal.requiredTagsManagedAsOther	必选标签在上方管理，不能作为其他标签添加。
+translation.tagModal.reservedTagNotAllowed	此标签保留给系统使用，无法添加。
+translation.tagModal.searchPtsCodes	搜索 PTS Code…
+translation.tagModal.searchTags	搜索标签…
+translation.tagModal.selectExactlyOneRequiredPtsCode	为此会话恰好选择一个必选 PTS Code
+translation.tagModal.selectExactlyOneRequiredTag	为此会话恰好选择一个必选标签
+translation.tagModal.selectRequiredPtsCode	选择必选 PTS Code
+translation.tagModal.selectRequiredTag	选择必选标签
+translation.tagModal.userGroup	用户
+translation.tagSelector.noTags	无标签
+translation.tagSelector.noTagsFound	未找到标签
+translation.tagSelector.searchTags	搜索标签…
+translation.tagSelector.selectATag	选择一个标签
+translation.tagSelector.selectATagEllipsis	选择一个标签…
+translation.tagSelector.selectTags	选择标签
+translation.tagSelector.tagsSelected_one	已选 {{count}} 个标签
+translation.tagSelector.tagsSelected_other	已选 {{count}} 个标签
+translation.teamReferralDialog.close	关闭
+translation.teamReferralDialog.description	推荐一个团队使用 Devin。他们加入时将获得 ${{recipientAmount}}，你将获得 ${{referrerAmount}} 的奖励用量。
+translation.teamReferralDialog.startReferring	开始推荐
+translation.teamReferralDialog.title	送 ${{giveAmount}}，得 ${{getAmount}}。
+translation.testRecording.clickToLoop	点击循环
+translation.testRecording.closeViewer	关闭测试录屏查看器
+translation.testRecording.defaultTitle	测试录屏
+translation.testRecording.downloadVideo	下载视频
+translation.testRecording.eventSetup	设置
+translation.testRecording.eventTest	测试
+translation.testRecording.events	个事件
+translation.testRecording.eventsRecorded	个事件已录制
+translation.testRecording.exitFullscreen	退出全屏
+translation.testRecording.failed	失败
+translation.testRecording.fullscreen	全屏
+translation.testRecording.loading	加载中…
+translation.testRecording.loopCurrentChapter	循环当前章节
+translation.testRecording.nextChapter	下一章
+translation.testRecording.nextChapterShortcut	下一章（Shift+→）
+translation.testRecording.openVideoUrlDirectly	直接打开视频 URL
+translation.testRecording.passed	通过
+translation.testRecording.pause	暂停
+translation.testRecording.pauseShortcut	暂停（空格）
+translation.testRecording.play	播放
+translation.testRecording.playShortcut	播放（空格）
+translation.testRecording.playbackSpeed	播放速度
+translation.testRecording.previousChapter	上一章
+translation.testRecording.previousChapterShortcut	上一章（Shift+←）
+translation.testRecording.statusFailed	失败
+translation.testRecording.statusPassed	通过
+translation.testRecording.statusUntested	未测试
+translation.testRecording.stopLooping	停止循环
+translation.testRecording.untested	未测试
+translation.testRecording.videoCouldNotBeLoaded	视频无法加载
+translation.timeEstimate.amount	数量
+translation.timeEstimate.unit	单位
+translation.timeEstimate.unitPlaceholder	单位
+translation.timeEstimate.unitDays	天
+translation.timeEstimate.unitHours	小时
+translation.timeEstimate.unitMinutes	分钟
+translation.timeEstimateSurvey.cancel	取消
+translation.timeEstimateSurvey.custom	自定义
+translation.timeEstimateSurvey.customAmount	数量
+translation.timeEstimateSurvey.dismissSurvey	关闭调查
+translation.timeEstimateSurvey.helpCalibrate	帮助我们校准 Devin
+translation.timeEstimateSurvey.howLongQuestion	如果没有任何 AI，这个会话会花多长时间？
+translation.timeEstimateSurvey.save	保存
+translation.timeEstimateSurvey.saving	保存中…
+translation.timeEstimateSurvey.thanksSaved	谢谢——已保存。
+translation.timeEstimateSurvey.bucket.under2Hours	< 2 小时
+translation.timeEstimateSurvey.bucket.2to4Hours	2-4 小时
+translation.timeEstimateSurvey.bucket.4to8Hours	4-8 小时
+translation.timeEstimateSurvey.bucket.1to2Days	1-2 天
+translation.timeEstimateSurvey.bucket.2to4Days	2-4 天
+translation.timeEstimateSurvey.bucket.4to8Days	4-8 天
+translation.timeEstimateSurvey.bucket.over8Days	8+ 天
+translation.timeEstimateSurvey.saveFailed	保存失败
+translation.timeEstimateSurvey.enterPositiveNumber	输入一个正数
+translation.toast.dismissNotification	关闭通知
+translation.toast.dontNotifyAgain	不再通知我
+translation.toast.undo	撤销
+translation.toast.undoFailed	撤销上个操作失败
+translation.toast.more	更多
+translation.transcript.redactedSecretCode	[已隐藏的机密]
+translation.transcript.redactedSecretLabel	已隐藏的机密
+translation.transcript.redactedSecret	因匹配到你的某个机密而隐藏。打开<settingsLink>设置 > Secrets</settingsLink>
+translation.transcript.redactedSecretNamed	因匹配到你的机密 {{name}} 而隐藏。在<settingsLink>设置 > Secrets</settingsLink>中打开它
+translation.transcript.receiptSending	发送中…
+translation.transcript.receiptDelivered	已送达
+translation.transcript.receiptRead	已读
+translation.transcript.typingBubble	{{botName}}正在输入…
+translation.transcript.dayDivider.today	今天 {{time}}
+translation.transcript.dayDivider.yesterday	昨天 {{time}}
+translation.transcript.dayDivider.dateAtTime	{{date}} {{time}}
+translation.transcript.subdevin	Devin
+translation.transcript.devinSession	Devin 会话
+translation.transcript.hiddenUpdate	隐藏的更新
+translation.transcript.edited	已编辑
+translation.transcript.hideEdits	隐藏编辑
+translation.transcript.needsYou	需要你
+translation.transcript.needsYouCard.networkAccess	网络访问请求
+translation.transcript.needsYouCard.localAccess	连接你的本地机器
+translation.transcript.needsYouCard.environmentConfig	环境变更
+translation.transcript.needsYouCard.budget	用量限额提案
+translation.transcript.needsYouCard.repoCreation	新仓库
+translation.transcript.needsYouCard.mcpAuth	登录 {{server}}
+translation.transcript.needsYouCard.toolPermission	需要权限
+translation.transcript.inboxDecisionCounts	已处理 {{resolved}} · 等待 {{waiting}}
+translation.transcript.inboxDecisionResolved	已处理 {{resolved}}
+translation.transcript.inboxDecisionWaiting	等待 {{waiting}}
+translation.transcript.viewInThread	在线程中查看
+translation.transcript.inboxItemResolvedViewThread	已处理 · 在线程中查看
+translation.transcript.inboxDecisionConfirm	确认
+translation.transcript.inboxDecisionRecommended	推荐
+translation.transcript.inboxDecisionHandled	已处理
+translation.transcript.viewScript	查看脚本
+translation.transcript.forwardedBy	转发者
+translation.transcript.forwarded	已转发
+translation.transcript.sourceAppVia	<icon/><sourceLink>{{app}}</sourceLink> 通过 <viaLink>{{name}}</viaLink>
+translation.transcript.sourceApp	<icon/><sourceLink>{{app}}</sourceLink>
+translation.transcript.fromSourceApp	来自 <icon/><sourceLink>{{app}}</sourceLink>
+translation.transcript.fromSourceAppVia	来自 <icon/><sourceLink>{{app}}</sourceLink> 通过 <viaLink>{{name}}</viaLink>
+translation.transcript.duplicateFailed	复制失败：{{reason}}
+translation.transcript.forkFailed	Fork 失败：{{reason}}
+translation.transcript.forceRevert	强制回退
+translation.transcript.confirmRevert	确认
+translation.transcript.revertConflicts_one	{{count}} 个冲突——自代理上次写入后文件已在磁盘上被更改
+translation.transcript.revertConflicts_other	{{count}} 个冲突——自代理上次写入后文件已在磁盘上被更改
+translation.transcript.revertFailed	回退失败：{{reason}}
+translation.transcript.applyTheseReverts	应用这些回退
+translation.transcript.confirmRevertTitle	确认回退
+translation.transcript.irreversibleActions_one	{{count}} 个操作无法回退
+translation.transcript.irreversibleActions_other	{{count}} 个操作无法回退
+translation.transcript.revertStepNotFound	在代理历史中找不到此消息
+translation.transcript.inboxUpdate	“需要你”更新
+translation.transcript.creatingSessions_one	正在创建会话…
+translation.transcript.creatingSessions_other	正在创建会话…
+translation.transcript.codeScanComplete	扫描完成：{{title}}
+translation.transcript.codeScanFailed	扫描失败：{{title}}
+translation.transcript.codeScanImportComplete	导入完成：{{title}}
+translation.transcript.codeScanImportFailed	导入失败：{{title}}
+translation.transcript.codeScanViewFindings	查看发现项
+translation.transcript.codeScanStatusScanning	扫描中…
+translation.transcript.codeScanStatusImporting	导入中…
+translation.transcript.codeScanStatusSettingUp	设置中…
+translation.transcript.codeScanViewFindingsCount_one	查看 {{count}} 个发现项
+translation.transcript.codeScanViewFindingsCount_other	查看 {{count}} 个发现项
+translation.transcript.codeScanNoFindings	无发现项
+translation.transcript.codeScanCriticalCount	{{count}} 个严重
+translation.transcript.codeScanHighCount	{{count}} 个高危
+translation.transcript.codeScanMoreRepos	+{{count}}
+translation.transcript.aFile	一个文件
+translation.transcript.aUser	一位用户
+translation.transcript.acuAmount	{{value}} ACU
+translation.transcript.adminRequired	需要管理员
+translation.transcript.agentMessage	{{name}} 的消息
+translation.transcript.allowForThisSession	允许此会话
+translation.transcript.allowing	允许中…
+translation.transcript.analyzedDirectory	已分析
+translation.transcript.analyzingDirectory	分析中
+translation.transcript.approve	批准
+translation.transcript.doneEditingCommand	完成
+translation.transcript.approvedDeployment	已批准部署
+translation.transcript.approvedBy	由 {{names, list(type: unit)}} 批准
+translation.transcript.prApproved	PR 已批准
+translation.transcript.automationPermission.create	Devin 想创建一个自动化
+translation.transcript.automationPermission.delete	Devin 想删除一个自动化
+translation.transcript.automationPermission.run	Devin 想运行一个自动化
+translation.transcript.automationPermission.update	Devin 想更新一个自动化
+translation.transcript.automationCreated	自动化已创建
+translation.transcript.automationCreating	正在创建自动化
+translation.transcript.automationDeleted	自动化已删除
+translation.transcript.automationDeleting	正在删除自动化
+translation.transcript.automationNotCreated	自动化未创建
+translation.transcript.automationNotDeleted	自动化未删除
+translation.transcript.automationNotRun	自动化未运行
+translation.transcript.automationNotUpdated	自动化未更新
+translation.transcript.automationRan	自动化已运行
+translation.transcript.automationRunning	正在运行自动化
+translation.transcript.automationUpdated	自动化已更新
+translation.transcript.automationUpdating	正在更新自动化
+translation.transcript.responderPermission.create	Devin 想创建一个 Oncall responder
+translation.transcript.responderPermission.delete	Devin 想删除一个 Oncall responder
+translation.transcript.responderPermission.update	Devin 想更新一个 Oncall responder
+translation.transcript.responderCreated	Responder 已创建
+translation.transcript.responderCreating	正在创建 responder
+translation.transcript.responderDeleted	Responder 已删除
+translation.transcript.responderDeleting	正在删除 responder
+translation.transcript.responderNotCreated	Responder 未创建
+translation.transcript.responderNotDeleted	Responder 未删除
+translation.transcript.responderNotUpdated	Responder 未更新
+translation.transcript.responderUpdated	Responder 已更新
+translation.transcript.responderUpdating	正在更新 responder
+translation.transcript.createResponder	创建 responder
+translation.transcript.updateResponder	更新 responder
+translation.transcript.deleteResponder	删除 responder
+translation.transcript.automationUpdateRefreshing	正在重新读取当前自动化，之后才能批准这些更改。
+translation.transcript.automationUpdateUnavailable	无法加载当前自动化，因此无法将这些更改与其比对。
+translation.transcript.widerThanSession.title	这超出了你的私有会话范围
+translation.transcript.widerThanSession.knowledge	你组织中的所有人都能阅读此笔记，并会加入到他们的会话中。
+translation.transcript.widerThanSession.playbook	你组织中的所有人都能阅读和使用此 playbook。
+translation.transcript.widerThanSession.schedule	管理计划任务的成员可以阅读其提示词，它启动的会话对你的组织可见。
+translation.transcript.widerThanSession.automation	能查看自动化的成员可以阅读其提示词，它启动的会话对你的组织可见。
+translation.transcript.widerThanSession.plugin	此插件更改适用于每个使用该插件的成员，而不仅是此会话。
+translation.transcript.reminderSet	提醒已设置：{{when}}
+translation.transcript.reminderSetting	正在设置提醒：{{when}}
+translation.transcript.reminderNotSet	提醒未设置
+translation.transcript.reminderSetSchedule	提醒已设置：{{schedule}}
+translation.transcript.reminderSettingSchedule	正在设置提醒：{{schedule}}
+translation.transcript.reminderPermission.create	Devin 想设置一个提醒
+translation.transcript.reminderPermission.update	Devin 想更新一个提醒
+translation.transcript.reminderPermission.delete	Devin 想删除一个提醒
+translation.transcript.reminderPermission.createApproved	已批准设置提醒
+translation.transcript.reminderPermission.createDenied	已拒绝设置提醒
