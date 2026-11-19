@@ -1,0 +1,500 @@
+translation.worklog.plushieOpenInWebapp	<sessionLink>在 webapp 中打开</sessionLink>以发送你的收货信息。
+translation.worklog.plushieReceivedEyebrow	已收到申请
+translation.worklog.plushieReceivedBody	玩偶在路上了！
+translation.worklog.plushieUnavailableEyebrow	不可用
+translation.worklog.plushieUnavailable	此玩偶活动当前不可用。
+translation.worklog.plushieFieldName	姓名
+translation.worklog.plushieFieldEmail	邮箱
+translation.worklog.plushieFieldPhone	电话
+translation.worklog.plushieFieldCountry	国家/地区
+translation.worklog.plushieFieldAddress1	地址
+translation.worklog.plushieFieldAddress2	地址第二行
+translation.worklog.plushieFieldCity	城市
+translation.worklog.plushieFieldInvalid	请检查此值
+translation.worklog.plushieFieldState	省/州或地区
+translation.worklog.plushieFieldZip	邮政编码
+translation.worklog.plushieRequired	请填写必填字段
+translation.worklog.plushieReady	你的信息直接发给 Cognition，不经过 Devin
+translation.worklog.plushieSubmit	提交
+translation.worklog.plushieChecking	正在检查邀请…
+translation.worklog.plushieSending	发送中…
+translation.worklog.plushieCancel	取消
+translation.worklog.plushieCancelFailed	无法关闭此表单。请稍后重试。
+translation.worklog.plushieCancelled	表单已关闭。改变主意可以再问 Devin。
+translation.worklog.plushieSuperseded	此表单已关闭。请在更新的表单中继续。
+translation.worklog.plushieInvalid	部分信息看起来不对。检查后重试。
+translation.worklog.plushieFailed	出了点问题。请稍后重试。
+translation.worklog.plushieUnconfirmed	可能出了点问题。请稍后重试。
+translation.worklog.noPermissionEditCodeScanProfiles	你没有编辑代码扫描配置文件的权限
+translation.worklog.noPermissionManageEnvConfig	你没有管理环境配置的权限
+translation.worklog.noPermissionManageKnowledge	你没有管理知识的权限
+translation.worklog.noPermissionManagePlaybooks	你没有管理 playbook 的权限
+translation.worklog.askAdminToApprove	请管理员打开此会话并批准。
+translation.worklog.needPermissionToApprove	你需要 {{permission}} 权限才能批准此请求
+translation.worklog.noPermissionToApprove	你没有批准此请求的权限
+translation.worklog.localMachineApproverOnly	只有机器被连接的用户才能批准此请求
+translation.worklog.localMachineBypassConnectedUserOnly	只有连接此机器的用户才能选择智能或免确认
+translation.worklog.localMachineBypassOwnerOnly	智能和免确认权限在多人会话中不可用。请先将会话设为仅所有者。
+translation.worklog.noPlaybook	无 playbook
+translation.worklog.noProfileChanges	无配置文件更改
+translation.worklog.oneOfCountQuestion	第 1 个，共 {{count}} 个：{{question}}
+translation.worklog.onlyProfileManagersChangeSecurityProfile	只有配置文件管理员可以更改此会话的安全配置文件。
+translation.worklog.onlyProfileManagersEditNetworkPolicy	只有配置文件管理员可以编辑此会话的网络策略
+translation.worklog.openDismissedQuestion	打开已驳回的问题
+translation.worklog.openInPlayground	在试验场中打开
+translation.worklog.openInSidebar	在侧栏中打开
+translation.worklog.openPrToAddSkill	开一个 PR 把此技能添加到 {{repoShort}}
+translation.worklog.openPrToUpdateFile	开一个 PR 更新仓库中的 {{filePath}}
+translation.worklog.openPrToUpdateSkill	开一个 PR 更新 {{repoShort}} 中的此技能
+translation.worklog.openWiki	打开 wiki
+translation.worklog.organization	组织
+translation.worklog.environment	环境
+translation.worklog.organizationBlueprint	组织级 blueprint
+translation.worklog.outdated	已过时
+translation.worklog.pairingCodeExpiresAt	配对代码一次性使用，{{expiresAt}} 过期。
+translation.worklog.permissionArgDetails	详情
+translation.worklog.permissionNeeded	需要权限
+translation.worklog.personalPluginAssetCreateFailed	创建 {{scope}} {{kind}} {{name}} 失败
+translation.worklog.personalPluginAssetCreated	已创建 {{scope}} {{kind}} {{name}}
+translation.worklog.personalPluginAssetRemoveFailed	移除 {{scope}} {{kind}} {{name}} 失败
+translation.worklog.personalPluginAssetRemoved	已移除 {{scope}} {{kind}} {{name}}
+translation.worklog.personalPluginAssetSaveFailed	保存 {{scope}} {{kind}} {{name}} 失败
+translation.worklog.personalPluginAssetSaved	已保存 {{scope}} {{kind}} {{name}}
+translation.worklog.personalPluginAssetUpdateFailed	更新 {{scope}} {{kind}} {{name}} 失败
+translation.worklog.personalPluginAssetUpdated	已更新 {{scope}} {{kind}} {{name}}
+translation.worklog.personalPluginInstallFailed	安装 {{scope}} 插件 {{name}} 失败
+translation.worklog.personalPluginInstalled	已安装 {{scope}} 插件 {{name}}
+translation.worklog.personalPluginUninstallFailed	卸载 {{scope}} 插件 {{name}} 失败
+translation.worklog.personalPluginUninstalled	已卸载 {{scope}} 插件 {{name}}
+translation.worklog.requestStatusAwaiting	等待批准
+translation.worklog.requestStatusUninstallAwaiting	等待批准卸载
+translation.worklog.requestStatusDeleteAwaiting	等待批准删除
+translation.worklog.requestStatusEnableAwaiting	等待批准启用
+translation.worklog.requestStatusDisableAwaiting	等待批准禁用
+translation.worklog.requestStatusInstallDenied	安装被拒绝
+translation.worklog.requestStatusUninstallDenied	卸载被拒绝
+translation.worklog.requestStatusSaveDenied	保存被拒绝
+translation.worklog.requestStatusUpdateDenied	更新被拒绝
+translation.worklog.requestStatusDeleteDenied	删除被拒绝
+translation.worklog.requestStatusEnableDenied	启用被拒绝
+translation.worklog.requestStatusDisableDenied	禁用被拒绝
+translation.worklog.requestStatusUpdateApproved	更新已批准
+translation.worklog.requestStatusDeleteApproved	删除已批准
+translation.worklog.requestStatusEnableApproved	启用已批准
+translation.worklog.requestStatusDisableApproved	禁用已批准
+translation.worklog.requestStatusInstallRunning	安装中…
+translation.worklog.requestStatusUninstallRunning	卸载中…
+translation.worklog.requestStatusSaveRunning	保存中…
+translation.worklog.requestStatusDeleteRunning	删除中…
+translation.worklog.requestStatusInstallSucceeded	已安装
+translation.worklog.requestStatusUninstallSucceeded	已卸载
+translation.worklog.requestStatusSaveSucceeded	已保存
+translation.worklog.requestStatusDeleteSucceeded	已删除
+translation.worklog.requestStatusInstallFailed	安装失败
+translation.worklog.requestStatusUninstallFailed	卸载失败
+translation.worklog.requestStatusSaveFailed	保存失败
+translation.worklog.requestStatusDeleteFailed	删除失败
+translation.worklog.personalPluginKindHook	hook 事件
+translation.worklog.personalPluginKindMcp	MCP 服务器
+translation.worklog.personalPluginKindRule	规则
+translation.worklog.personalPluginKindSkill	技能
+translation.worklog.personalPluginScopeAccount	企业
+translation.worklog.personalPluginScopeOrg	组织
+translation.worklog.personalPluginScopePersonal	个人
+translation.worklog.planModeRequiresIndexed	计划模式要求 {{repoLabel}} 已索引
+translation.worklog.playbook	Playbook
+translation.worklog.profileUpdated	配置文件已更新
+translation.worklog.queryFilter	query:\\
+translation.workflowRuns.paused	已暂停
+translation.workflowRuns.agentDetails	{{agent}} 详情
+translation.workflowRuns.agentResultsDescription	此工作流运行发起的代理调用会出现在这里。
+translation.workflowRuns.agentResultsEmpty	还没有代理结果
+translation.workflowRuns.completedCount_one	{{formattedCount}} 个已完成
+translation.workflowRuns.completedCount_other	{{formattedCount}} 个已完成
+translation.workflowRuns.copyLink	复制运行链接
+translation.workflowRuns.copyOutput	复制输出
+translation.workflowRuns.copyScript	复制脚本
+translation.workflowRuns.duration	时长
+translation.workflowRuns.durationSinceRequested	自请求起 {{duration}}
+translation.workflowRuns.earlierActionsHidden	已隐藏更早的操作
+translation.workflowRuns.failed	失败
+translation.workflowRuns.failedCount_one	{{formattedCount}} 个失败
+translation.workflowRuns.failedCount_other	{{formattedCount}} 个失败
+translation.workflowRuns.failedToCopyLink	复制链接失败
+translation.workflowRuns.finished	已结束
+translation.workflowRuns.hideAgents	隐藏代理
+translation.workflowRuns.jumpToFailures	跳到失败项
+translation.workflowRuns.noAgentsYet	还没有代理
+translation.workflowRuns.noOutputYet	还没有输出
+translation.workflowRuns.notStarted	未开始
+translation.workflowRuns.openRun	打开工作流运行
+translation.workflowRuns.orchestratorSession	编排会话
+translation.workflowRuns.outdated	已过时
+translation.workflowRuns.overview	概览
+translation.workflowRuns.phases	阶段
+translation.workflowRuns.product	产品：
+translation.workflowRuns.queued	排队中
+translation.workflowRuns.queuedCount_one	{{formattedCount}} 个排队中
+translation.workflowRuns.queuedCount_other	{{formattedCount}} 个排队中
+translation.workflowRuns.requested	已请求
+translation.workflowRuns.requestedAgo	{{duration}} 前请求
+translation.workflowRuns.runFailedAcrossPhases_one	运行失败——{{formattedCount}} 个代理在 {{formattedPhaseCount}} 个阶段中未完成。
+translation.workflowRuns.runFailedAcrossPhases_other	运行失败——{{formattedCount}} 个代理在 {{formattedPhaseCount}} 个阶段中未完成。
+translation.workflowRuns.runFailedInPhase_one	运行失败——{{formattedCount}} 个代理在阶段 {{phase}} 未完成。
+translation.workflowRuns.runFailedInPhase_other	运行失败——{{formattedCount}} 个代理在阶段 {{phase}} 未完成。
+translation.workflowRuns.runProgress	运行进度
+translation.workflowRuns.runProgressAriaValue_one	{{formattedTotal}} 个代理中 {{formattedSettled}} 个已定局
+translation.workflowRuns.runProgressAriaValue_other	{{formattedTotal}} 个代理中 {{formattedSettled}} 个已定局
+translation.workflowRuns.runStarted	开始于 {{date}}
+translation.workflowRuns.running	运行中
+translation.workflowRuns.runningCount_one	{{formattedCount}} 个运行中
+translation.workflowRuns.runningCount_other	{{formattedCount}} 个运行中
+translation.workflowRuns.script	脚本
+translation.workflowRuns.settledCount_one	{{formattedSettled}} / {{formattedTotal}} 已定局
+translation.workflowRuns.settledCount_other	{{formattedSettled}} / {{formattedTotal}} 已定局
+translation.workflowRuns.sharedVm	共享 VM
+translation.workflowRuns.sharedVmBilling_one	{{formattedCount}} 个共享 VM 代理计入编排会话
+translation.workflowRuns.sharedVmBilling_other	{{formattedCount}} 个共享 VM 代理计入编排会话
+translation.workflowRuns.sharedVmTooltip	无独立会话——此代理作为子代理在编排会话的机器上运行并计入其用量
+translation.workflowRuns.showAgents	显示代理
+translation.workflowRuns.showPullRequests	显示拉取请求
+translation.workflowRuns.sidebarProgress	{{formattedSettled}}/{{formattedTotal}}
+translation.workflowRuns.sinceRequested	自请求起
+translation.workflowRuns.started	已开始
+translation.workflowRuns.starting	启动中
+translation.workflowRuns.statusSummary	{{status}} · {{progress}}
+translation.workflowRuns.totalAcus	共 {{acus}}
+translation.workflowRuns.viewSession	查看会话
+translation.workflowRuns.workflowRun	工作流运行
+translation.workflowRuns.workflowTitle	工作流：{{title}}
+translation.workflowRuns.working	工作中
+translation.quoteAttachment.annotation	标注
+translation.quoteAttachment.designGroupExternal	外部站点
+translation.quoteAttachment.designGroupChanges_one	{{count}} 处更改
+translation.quoteAttachment.designGroupChanges_other	{{count}} 处更改
+translation.quoteAttachment.designGroupEdit	编辑引用
+translation.quoteAttachment.designGroupRemove	移除引用
+translation.quoteAttachment.details	详情
+translation.quoteAttachment.area	区域
+translation.quoteAttachment.areaScreenshotAlt	所选区域的截图，随引用一起发送
+translation.quoteAttachment.areaSummary_one	{{width}} × {{height}} px 区域 · {{count}} 个元素
+translation.quoteAttachment.areaSummary_other	{{width}} × {{height}} px 区域 · {{count}} 个元素
+translation.quoteAttachment.component	组件
+translation.quoteAttachment.element	元素
+translation.quoteAttachment.file	文件
+translation.quoteAttachment.page	页面
+translation.quoteAttachment.port	端口 {{port}}
+translation.quoteAttachment.preview	预览
+translation.quoteAttachment.previewElement	预览元素
+translation.quoteAttachment.screenshotAlt	所选元素的截图，随引用一起发送
+translation.quoteAttachment.source	来源
+translation.quoteAttachment.accessibility.details	无障碍详情
+translation.quoteAttachment.accessibility.show	显示无障碍详情
+translation.quoteAttachment.accessibility.role	角色
+translation.quoteAttachment.accessibility.label	标签
+translation.quoteAttachment.accessibility.value	值
+translation.quoteAttachment.accessibility.identifier	标识符
+translation.quoteAttachment.accessibility.state	状态
+translation.quoteAttachment.accessibility.stateValue	enabled={{enabled}} · focused={{focused}}
+translation.quoteAttachment.accessibility.actions	操作
+translation.quoteAttachment.accessibility.discovery	发现方式
+translation.viewerReplay.exit	退出回放
+translation.viewerReplay.nextEvent	下一事件
+translation.viewerReplay.pause	暂停
+translation.viewerReplay.play	播放
+translation.viewerReplay.previousEvent	上一事件
+translation.viewerReplay.restart	重新开始
+translation.viewerReplay.skipIdle	跳过空闲
+translation.viewerReplay.skipIdleHint	一段时间没有新内容时快进
+translation.viewerReplay.skipped	已跳过 {{duration}} 空闲
+translation.viewerReplay.speed	播放速度
+translation.viewerReplay.speedValue	{{speed}}×
+translation.viewerReplay.timeline	会话时间线
+translation.workspace.takeControlOfComputer	接管 Devin 的电脑
+translation.workspace.driveComputer	点击任意处以操控电脑
+translation.workspace.computerConnectionFailed	连接 Devin 的电脑失败
+translation.workspace.editorFailedToStart	编辑器启动失败
+translation.workspace.editorFailedToStartDescription	试试重新加载页面。如果持续发生，编辑器可能暂时不可用。
+translation.workspace.connectingToComputer	正在连接 Devin 的电脑…
+translation.workspace.waitingForComputer	等待 Devin 的电脑…
+translation.workspace.goToEnd	跳到末尾
+translation.workspace.goToLiveDesktop	前往实时桌面
+translation.workspace.codemap.unavailable	此 codemap 不可用。
+translation.workspace.mcpApp.unloaded	此应用的工具调用未加载。
+translation.workspace.mcpApp.inProgress	等待应用的工具调用完成。
+translation.workspace.mcpApp.failed	应用的工具调用失败。
+translation.workspace.mcpApp.canceled	应用的工具调用已取消。
+translation.workspace.mcpApp.unavailable	此应用不可用。
+translation.workspace.historyError	加载工作区历史失败。
+translation.workspace.historyUnavailable	工作区历史不可用。
+translation.workspace.noBrowserScreenshot	此历史点没有可用截图。
+translation.workspace.allChanges	全部更改
+translation.workspace.collapseAllFiles	收起所有文件
+translation.workspace.computerKeyboard	在远程电脑上输入
+translation.workspace.computerCaptureMouse	点击捕获鼠标
+translation.workspace.computerStats.boxFps	Box FPS
+translation.workspace.computerStats.captureMs	采集（ms）
+translation.workspace.computerStats.decodeMs	解码（ms）
+translation.workspace.computerStats.encodeMs	编码（ms）
+translation.workspace.computerStats.fpsHistory	FPS · 近 30 秒
+translation.workspace.computerStats.jitterMs	抖动（ms）
+translation.workspace.computerStats.latencyHistory	延迟 · 近 30 秒
+translation.workspace.computerStats.networkHistory	网络 · 近 30 秒
+translation.workspace.computerStats.now	现在
+translation.workspace.computerStats.nowShort	现在
+translation.workspace.computerStats.pacingMs	节奏（ms）
+translation.workspace.computerStats.rttMs	RTT（ms）
+translation.workspace.computerStats.secondsAgo	{{count}} 秒前
+translation.workspace.computerStats.secondsShort	{{count}} 秒
+translation.workspace.computerStats.tooltipBox	Box
+translation.workspace.computerStats.tooltipCapture	采集
+translation.workspace.computerStats.tooltipDecode	解码
+translation.workspace.computerStats.tooltipEncode	编码
+translation.workspace.computerStats.tooltipJitter	抖动
+translation.workspace.computerStats.tooltipPacing	节奏
+translation.workspace.computerStats.tooltipRtt	RTT
+translation.workspace.computerStats.tooltipViewer	观看端
+translation.workspace.computerStats.viewerFps	观看端 FPS
+translation.workspace.disableVmAudio	VM 音频静音
+translation.workspace.enableVmAudio	启用 VM 音频
+translation.workspace.exitFullScreen	退出全屏
+translation.workspace.exitFullWidth	退出全宽
+translation.workspace.expandAllFiles	展开所有文件
+translation.workspace.failedToLoadFileContents	加载更改失败
+translation.workspace.filesChangedCount_one	{{count}} 个文件
+translation.workspace.filesChangedCount_other	{{count}} 个文件
+translation.workspace.fullScreen	全屏
+translation.workspace.fullWidth	全宽
+translation.workspace.hideFileTree	隐藏文件树
+translation.workspace.moveFileTreeLeft	文件树移到左侧
+translation.workspace.moveFileTreeRight	文件树移到右侧
+translation.workspace.hideTabsPanel	隐藏标签面板
+translation.workspace.lastAgentTurn	上一个代理回合
+translation.workspace.lastAgentTurnHint	自你上一条消息或 PR 评论以来
+translation.workspace.sinceLastSeen	自上次查看以来
+translation.workspace.sinceLastSeenHint	{{time}} 之后的更改
+translation.workspace.changesSince	自 {{time}} 起
+translation.workspace.loadOlderChanges	加载更早的
+translation.workspace.loadOlderChangesFailed	无法加载更早内容。重试
+translation.workspace.markChangesSeen	将所有更改标为已看
+translation.workspace.live	实时
+translation.workspace.loadingFileContents	正在加载更改…
+translation.workspace.noChangesYet	还没有更改
+translation.workspace.noChangesYetDescription	此会话中编辑的文件会显示在这里。
+translation.workspace.noChangesLastTurn	上一回合没有更改
+translation.workspace.noChangesLastTurnDescription	自你上一条消息以来没有文件被编辑。
+translation.workspace.allCaughtUp	你都看完了
+translation.workspace.noChangesSinceSeenAt	{{time}} 之后没有新更改。
+translation.workspace.noChangesInRange	此范围内没有更改
+translation.workspace.noMatchingFiles	没有匹配的文件
+translation.workspace.incidentReportCopySection	复制本节
+translation.workspace.incidentReportTimeZone	时区
+translation.workspace.incidentReportUtc	UTC
+translation.workspace.previewMarkdown	预览 markdown
+translation.workspace.fitToPane	适配面板
+translation.workspace.readableWidth	适读宽度
+translation.workspace.previewDiff	预览 diff
+translation.workspace.retry	重试
+translation.workspace.vmAudioVolume	VM 音量
+translation.workspace.vmAudioUnavailable	VM 音频不可用
+translation.workspace.searchFiles	搜索文件…
+translation.workspace.selectedRange	所选范围
+translation.workspace.selectedRangeTimes	{{start}} – {{end}}
+translation.workspace.sessionTimeline	会话时间线
+translation.workspace.previousEvent	上一事件
+translation.workspace.nextEvent	下一事件
+translation.workspace.showFileTree	显示文件树
+translation.workspace.showFindingsPanel	显示发现项
+translation.workspace.showTabsPanel	显示标签面板
+translation.workspace.viewAsFlatList	以平铺列表查看
+translation.workspace.viewAsTree	以树查看
+translation.workspace.wakeSplash.asleepTitle	Devin 休眠中
+translation.workspace.wakeSplash.startingTitle	Devin 正在启动…
+translation.workspace.wakeSplash.wakeUp	唤醒 Devin
+translation.workspace.wakeSplash.waking	正在唤醒 Devin…
+translation.workspace.wakeSplash.previewAsleep	预览运行在 Devin 的机器上，当前已挂起。唤醒 Devin 以加载它。
+translation.workspace.wakeSplash.previewStarting	Devin 的机器正在上线——就绪后预览会加载。
+translation.workspace.wakeSplash.desktopAsleep	Devin 休眠中。点击任意处唤醒并查看实时画面
+translation.workspace.wakeSplash.desktopWaking	Devin 的机器正在上线——就绪后实时桌面会连接
+translation.workspace.wakeSplash.desktopConnecting	正在唤醒 Devin 的电脑…
+translation.workspace.simulator.unavailable	此会话不可用 {{displayName}} 串流。
+translation.workspace.simulator.unavailableStatus	不可用
+translation.workspace.simulator.noSession	此会话不可用 {{displayName}}。
+translation.workspace.simulator.endedTitle	会话已结束
+translation.workspace.simulator.endedDescription	此会话已结束，{{displayName}} 无法再串流。
+translation.workspace.simulator.machineUnavailableTitle	此机器上没有 {{displayName}}
+translation.workspace.simulator.machineUnavailableDescription	此机器没有显示服务器，无法串流 {{displayName}}。
+translation.workspace.simulator.asleep	休眠中
+translation.workspace.simulator.startingStatus	启动中…
+translation.workspace.simulator.notRunning	未运行
+translation.workspace.simulator.asleepDescription	{{displayName}} 运行在 Devin 的机器上，当前已挂起。唤醒 Devin 以加载它。
+translation.workspace.simulator.startingDescription	Devin 的机器正在上线——就绪后 {{displayName}} 会加载。
+translation.workspace.simulator.unsupported	此 Devin remote 不支持 {{displayName}} 显示串流。
+translation.workspace.simulator.linkErrorTitle	无法连接 Devin 的机器
+translation.workspace.simulator.linkErrorDescription	无法获取 {{displayName}} 显示链接。
+translation.workspace.simulator.retry	重试
+translation.workspace.simulator.sourceErrorTitle	没有运行中的 {{displayName}}
+translation.workspace.simulator.sourceErrorDescription	Devin 的机器在线，但未找到已启动的 {{emulatorType}}。让 Devin 启动一个——此标签页会自动重连。
+translation.workspace.simulator.retryNow	立即重试
+translation.workspace.previewUrl.ariaLabel	预览 URL
+translation.workspace.browserPreview.stop	停止加载
+translation.workspace.browserPreview.findInPage	在页面中查找
+translation.workspace.browserPreview.findPlaceholder	查找
+translation.workspace.browserPreview.findPrevious	上一个匹配
+translation.workspace.browserPreview.findNext	下一个匹配
+translation.workspace.browserPreview.print	打印…
+translation.workspace.browserPreview.zoom	缩放
+translation.workspace.browserPreview.zoomIn	放大
+translation.workspace.browserPreview.zoomOut	缩小
+translation.workspace.browserPreview.resetZoom	重置缩放
+translation.workspace.browserPreview.clearBrowsingData	清除浏览数据
+translation.workspace.browserPreview.clearBrowsingDataDescription	浏览器标签页的 cookie、站点存储和历史会被删除。网站会将你登出。
+translation.workspace.browserPreview.back	后退
+translation.workspace.browserPreview.forward	前进
+translation.workspace.browserPreview.reload	重新加载预览
+translation.workspace.browserPreview.history	历史
+translation.workspace.browserPreview.cancelSelection	取消元素选择
+translation.workspace.browserPreview.selectElement	选择一个元素，或拖选一个区域
+translation.workspace.browserPreview.selecting	选择中
+translation.workspace.browserPreview.designAddToChat	添加到聊天
+translation.workspace.browserPreview.designUnsentChanges_one	{{count}} 处未发送更改
+translation.workspace.browserPreview.designUnsentChanges_other	{{count}} 处未发送更改
+translation.workspace.browserPreview.designSendTooLong	这些编辑太长，无法发送。缩短文本更改后重试。
+translation.workspace.browserPreview.designSearchProperties	搜索属性…
+translation.workspace.browserPreview.designSearchOrCaption	搜索或说明…
+translation.workspace.browserPreview.designNoMatchingProperties	没有匹配的属性
+translation.workspace.browserPreview.designPrompt	描述一个更改…
+translation.workspace.browserPreview.designEditProperties	编辑属性
+translation.workspace.browserPreview.designUndo	撤销
+translation.workspace.browserPreview.designRedo	重做
+translation.workspace.browserPreview.designReset	重置元素
+translation.workspace.browserPreview.designResetProperty	重置：{{property}}
+translation.workspace.browserPreview.designEditText	编辑文本
+translation.workspace.browserPreview.designDelete	删除元素
+translation.workspace.browserPreview.designDeleted	元素已删除
+translation.workspace.browserPreview.designSelectionTools	选择工具
+translation.workspace.browserPreview.designSelectElement	选择元素
+translation.workspace.browserPreview.designDrawBox	画一个框
+translation.workspace.browserPreview.designAnnotationImageUnavailable	无法捕获标注图像。重新绘制以重试。
+translation.workspace.browserPreview.designAnnotationUploadFailed	无法发送标注图像。请重试。
+translation.workspace.browserPreview.designDrawPencil	用铅笔绘制
+translation.workspace.browserPreview.designPencilColors.label	铅笔颜色
+translation.workspace.browserPreview.designPencilColors.crimson	绯红
+translation.workspace.browserPreview.designPencilColors.navy	藏青
+translation.workspace.browserPreview.designPencilColors.forest	森林绿
+translation.workspace.browserPreview.designPencilColors.ochre	赭石
+translation.workspace.browserPreview.designPencilColors.charcoal	炭黑
+translation.workspace.browserPreview.designClearAnnotations	清除标注
+translation.workspace.browserPreview.designMovePanel	用方向键移动菜单。按回车重置。
+translation.workspace.browserPreview.designColorFormat	颜色格式
+translation.workspace.browserPreview.designPickPageColor	从页面拾取颜色
+translation.workspace.browserPreview.designColorRed	红
+translation.workspace.browserPreview.designColorGreen	绿
+translation.workspace.browserPreview.designColorBlue	蓝
+translation.workspace.browserPreview.designColorHslSaturation	饱和度
+translation.workspace.browserPreview.designColorLightness	明度
+translation.workspace.browserPreview.designColorChroma	彩度
+translation.workspace.browserPreview.designColorLabA	绿-红轴
+translation.workspace.browserPreview.designColorLabB	蓝-黄轴
+translation.workspace.browserPreview.designColorHue	色相
+translation.workspace.browserPreview.designColorSaturation	饱和度与亮度
+translation.workspace.browserPreview.designColorValue	颜色值
+translation.workspace.browserPreview.designColorAlpha	不透明度百分比
+translation.workspace.browserPreview.designColorWideGamut	超出 sRGB，因此 hex 值为近似值。在拾色器中用它自己的格式以保留完整颜色。
+translation.workspace.browserPreview.designColorWideGamutTag	P3
+translation.workspace.browserPreview.designDocumentColors	文档颜色
+translation.workspace.browserPreview.designVariables	CSS 变量
+translation.workspace.browserPreview.designVariablesFor	CSS 变量：{{property}}
+translation.workspace.browserPreview.designSearchVariables	搜索 CSS 变量
+translation.workspace.browserPreview.designDocumentShadows	文档阴影
+translation.workspace.browserPreview.designAddSection	添加 {{section}}
+translation.workspace.browserPreview.designControls.gridColumns	网格列
+translation.workspace.browserPreview.designControls.horizontal	水平
+translation.workspace.browserPreview.designControls.vertical	垂直
+translation.workspace.browserPreview.designControls.hug	适应内容
+translation.workspace.browserPreview.designControls.fillParent	填满父级
+translation.workspace.browserPreview.designControls.fixed	固定
+translation.workspace.browserPreview.designControls.systemUi	系统 UI
+translation.workspace.browserPreview.designControls.fontSize	字号
+translation.workspace.browserPreview.designControls.lineHeight	行高
+translation.workspace.browserPreview.designControls.letterSpacing	字距
+translation.workspace.browserPreview.designControls.gap	间距
+translation.workspace.browserPreview.designControls.rowGap	行间距
+translation.workspace.browserPreview.designControls.columnGap	列间距
+translation.workspace.browserPreview.designControls.width	宽度
+translation.workspace.browserPreview.designControls.height	高度
+translation.workspace.browserPreview.designControls.minWidth	最小宽度
+translation.workspace.browserPreview.designControls.maxWidth	最大宽度
+translation.workspace.browserPreview.designControls.minHeight	最小高度
+translation.workspace.browserPreview.designControls.maxHeight	最大高度
+translation.workspace.browserPreview.designControls.padding	内边距
+translation.workspace.browserPreview.designControls.margin	外边距
+translation.workspace.browserPreview.designControls.paddingSide	{{side}}内边距
+translation.workspace.browserPreview.designControls.marginSide	{{side}}外边距
+translation.workspace.browserPreview.designControls.borderSideWidth	{{side}}边框宽度
+translation.workspace.browserPreview.designControls.borderSideStyle	{{side}}边框样式
+translation.workspace.browserPreview.designControls.borderSideColor	{{side}}边框颜色
+translation.workspace.browserPreview.designControls.sideTop	上
+translation.workspace.browserPreview.designControls.sideRight	右
+translation.workspace.browserPreview.designControls.sideBottom	下
+translation.workspace.browserPreview.designControls.sideLeft	左
+translation.workspace.browserPreview.designControls.fontFamily	字体
+translation.workspace.browserPreview.designControls.fontWeight	字重
+translation.workspace.browserPreview.designControls.fontStyle	字形
+translation.workspace.browserPreview.designControls.textColor	文本颜色
+translation.workspace.browserPreview.designControls.svgColor	SVG 颜色
+translation.workspace.browserPreview.designControls.backgroundColor	背景颜色
+translation.workspace.browserPreview.designControls.textAlignment	文本对齐
+translation.workspace.browserPreview.designControls.textCase	大小写
+translation.workspace.browserPreview.designControls.textDecoration	文本装饰
+translation.workspace.browserPreview.designControls.flexDirection	弹性方向
+translation.workspace.browserPreview.designControls.flexWrap	弹性换行
+translation.workspace.browserPreview.designControls.cornerRadius	圆角
+translation.workspace.browserPreview.designControls.boxShadow	盒阴影
+translation.workspace.browserPreview.designControls.radiusTopLeft	左上圆角
+translation.workspace.browserPreview.designControls.radiusTopRight	右上圆角
+translation.workspace.browserPreview.designControls.radiusBottomRight	右下圆角
+translation.workspace.browserPreview.designControls.radiusBottomLeft	左下圆角
+translation.workspace.browserPreview.designControls.borderWidth	边框宽度
+translation.workspace.browserPreview.designControls.borderStyle	样式
+translation.workspace.browserPreview.designControls.borderLineStyle	边框样式
+translation.workspace.browserPreview.designControls.borderColor	边框颜色
+translation.workspace.browserPreview.designControls.mixedSides	混合
+translation.workspace.browserPreview.designControls.color	颜色
+translation.workspace.browserPreview.designControls.opacity	不透明度
+translation.workspace.browserPreview.designControls.shadow	阴影
+translation.workspace.browserPreview.designControls.shadowInset	内阴影
+translation.workspace.browserPreview.designControls.removeShadow	移除阴影 {{index}}
+translation.workspace.browserPreview.designControls.shadowLayer	阴影 {{index}}
+translation.workspace.browserPreview.designControls.shadowCount_one	{{count}} 个阴影
+translation.workspace.browserPreview.designControls.shadowCount_other	{{count}} 个阴影
+translation.workspace.browserPreview.designControls.useDocumentShadow	使用文档阴影 {{index}}
+translation.workspace.browserPreview.designControls.shadowX	X
+translation.workspace.browserPreview.designControls.shadowY	Y
+translation.workspace.browserPreview.designControls.shadowBlur	模糊
+translation.workspace.browserPreview.designControls.shadowSpread	扩散
+translation.workspace.browserPreview.designControls.objectFit	对象适配
+translation.workspace.browserPreview.designControls.none	无
+translation.workspace.browserPreview.designControls.normal	正常
+translation.workspace.browserPreview.designControls.resetToKeyword	重置为 {{keyword}}
+translation.workspace.browserPreview.designControls.italic	斜体
+translation.workspace.browserPreview.designControls.underline	下划线
+translation.workspace.browserPreview.designControls.strike	删除线
+translation.workspace.browserPreview.designControls.overline	上划线
+translation.workspace.browserPreview.designControls.leftAlign	左对齐
+translation.workspace.browserPreview.designControls.centerAlign	居中对齐
+translation.workspace.browserPreview.designControls.rightAlign	右对齐
+translation.workspace.browserPreview.designControls.justifyAlign	两端对齐
+translation.workspace.browserPreview.designControls.caseNone	不变换
+translation.workspace.browserPreview.designControls.capitalize	首字母大写
+translation.workspace.browserPreview.designControls.uppercase	全大写
+translation.workspace.browserPreview.designControls.lowercase	全小写
+translation.workspace.browserPreview.designControls.row	行
+translation.workspace.browserPreview.designControls.column	列
+translation.workspace.browserPreview.designControls.reverseRow	反向行
+translation.workspace.browserPreview.designControls.reverseColumn	反向列
+translation.workspace.browserPreview.designControls.reverseWrap	反向换行
+translation.workspace.browserPreview.designControls.alignItems	对齐项目
+translation.workspace.browserPreview.designControls.justifyContent	主轴对齐
+translation.workspace.browserPreview.designControls.alignSelf	自身对齐
+translation.workspace.browserPreview.designControls.baseline	基线
