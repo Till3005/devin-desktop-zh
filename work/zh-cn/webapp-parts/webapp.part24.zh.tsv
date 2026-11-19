@@ -1,0 +1,500 @@
+translation.progress.viewedTheConsole	查看了控制台
+translation.progress.waited	等待了
+translation.progress.waitedDuration	等待了 {{duration}} 秒
+translation.progress.workedForABit	工作了一会儿
+translation.progress.workedFor	工作了 <duration></duration>
+translation.progress.workingFor	已工作 <duration></duration>
+translation.progress.youSaid	你说
+translation.progress.devinSaid	Devin 说
+translation.progress.userSaid	{{username}} 说
+translation.progress.zoomedRegion	放大了区域
+translation.progress.clickedElementLead	点击了元素
+translation.progress.typedLead	输入了
+translation.progress.scrolledUpLead	向上滚动了
+translation.progress.scrolledDownLead	向下滚动了
+translation.progress.movedTheMouseLead	移动了鼠标
+translation.progress.viewedTheConsoleLead	查看了控制台
+translation.progress.ranJavaScriptLead	运行了 JavaScript
+translation.progress.pressedKeyActionLead	按了 {{key}}
+translation.progress.selectedFileLead	选择了文件 {{file}}
+translation.progress.selectedOptionLead	选择了选项 {{option}}
+translation.progress.miniLoading	加载中...
+translation.progress.miniError	错误
+translation.progress.miniRunning	运行中...
+translation.progress.miniRunningShort	运行中
+translation.progress.miniFailedLabel	失败：{{label}}
+translation.progress.sessionsToCreate_one	待创建 {{count}} 个会话
+translation.progress.sessionsToCreate_other	待创建 {{count}} 个会话
+translation.progress.wikiGenerating	正在生成 Wiki
+translation.progress.wikiFailed	生成 Wiki 失败
+translation.progress.wikiGenerated	已生成 Wiki
+translation.progress.wikiFor	{{repoName}} 的 Wiki
+translation.progress.wikiTitle	Wiki
+translation.progress.openWiki	打开 Wiki
+translation.progress.openSentMessage	打开已发送消息
+translation.progress.hookLabelHook	Hook：
+translation.progress.hookLabelPhase	阶段：
+translation.progress.hookLabelExitCode	退出码：
+translation.progress.hookLabelDuration	耗时：
+translation.progress.hookOutputIgnored	输出被忽略：{{error}}
+translation.progress.hookLabelDecision	决定：
+translation.progress.hookStoppedTurn	停止了本轮
+translation.progress.hookReplaced	替换了模型看到的{{what}}
+translation.progress.toolCommand	命令
+translation.progress.toolOutput	输出
+translation.progress.toolInput	输入
+translation.progress.toolNone	无
+translation.progress.toolName	工具
+translation.progress.showApp	显示应用
+translation.progress.knowledgeWillBeDeleted	此知识项将被删除
+translation.progress.knowledgeContentUnavailable	笔记 \\
+translation.projectSelect.loading	加载项目中…
+translation.projectSelect.noProjectsFound	未找到项目
+translation.projectSelect.placeholder	选择项目…
+translation.projectSelect.searchPlaceholder	搜索项目…
+translation.promoOffer.adminTitle	请你的管理员领取此优惠
+translation.promoOffer.adminDescription	只有计费管理员可以兑换。请团队中的一人领取或把你设为管理员，或联系我们。
+translation.promoOffer.contactUs	联系我们
+translation.promoOffer.defaultTitle	领取你的优惠
+translation.promoOffer.defaultDetails	你的优惠已可领取。
+translation.promoOffer.claimFailed	领取优惠失败。请重试。
+translation.promoOffer.orgPickerLabel	应用优惠到的组织
+translation.promoOffer.orgPickerPlaceholder	选择一个组织
+translation.promoOffer.orgPickerNotEligible	不符合条件
+translation.promoOffer.orgPickerAdminOnly	仅计费管理员
+translation.promoOffer.claim	领取
+translation.promoOffer.startupOfferLabel	创业优惠：{{grant}} + 最高 {{matchCap}} 1:1 等额
+translation.provisionedApiKeyModal.dialogLabel	API key 已发放
+translation.provisionedApiKeyModal.title	API Key 已发放
+translation.provisionedApiKeyModal.forOrganization	用于组织：{{orgName}}
+translation.provisionedApiKeyModal.serviceApiKey	服务 API Key
+translation.provisionedApiKeyModal.securityNoticeTitle	重要安全提示
+translation.provisionedApiKeyModal.securityNoticeBody	此 API key 只显示一次。务必复制并安全保存。关闭此弹窗后将无法再查看此 key。
+translation.provisionedApiKeyModal.copied	已复制！
+translation.provisionedApiKeyModal.copyKey	复制 key
+translation.provisionedApiKeyModal.copyApiKey	复制 API key
+translation.provisionedApiKeyModal.copyFailed	复制 API key 失败
+translation.provisionedApiKeyModal.saved	我已保存 key
+translation.pylon.regionEu	EU (api.eu.usepylon.com)
+translation.pylon.regionLabel	Pylon 工作区区域
+translation.pylon.regionUs	US (api.usepylon.com)
+translation.pylon.accessControlDescription	控制 Devin 如何与 Pylon 交互。
+translation.pylon.accessControlTitle	访问控制
+translation.pylon.connect	连接
+translation.pylon.connectedAt	连接于 {{date}}
+translation.pylon.connectionFallback	Pylon 连接
+translation.pylon.disconnectCancel	取消
+translation.pylon.disconnectConfirm	断开连接
+translation.pylon.disconnectDescription	确定断开你的 Pylon 集成？这将移除 Devin 的所有 Pylon 自动化触发器。
+translation.pylon.disconnectTitle	断开 Pylon
+translation.pylon.inheritEnterpriseDefaults	用企业默认
+translation.pylon.inheritOrganizationDefaults	用组织默认
+translation.pylon.orgSelectAriaLabel	选择 Pylon 组织
+translation.pylon.orgSelectPlaceholder	选择一个组织
+translation.pylon.pageDescription	连接 Pylon，用 Devin 自动化支持工作流。
+translation.pylon.securityDescription	控制从 Pylon 创建的会话能做什么。
+translation.pylon.securityProfileDescription	应用于 Pylon 委派的会话。挑一个限制网络和工具访问的配置。在 <securityProfilesLink>Security profiles</securityProfilesLink> 编辑配置。
+translation.pylon.securityProfileLabel	Pylon 安全配置
+translation.pylon.securityProfilesLoadError	加载安全配置失败。
+translation.pylon.securityTitle	安全
+translation.pylon.sessionRoutingDescription	选择 Pylon 会话创建在哪个组织。
+translation.pylon.sessionRoutingOrgDescription	多组织账户必填；未选择前 Pylon 事件会被拒绝
+translation.pylon.sessionRoutingOrgLabel	组织
+translation.pylon.sessionRoutingTitle	会话路由
+translation.pylon.statusErrorDescription	加载 Pylon 集成状态时出错。
+translation.pylon.statusErrorTitle	加载 Pylon 状态失败
+translation.pylon.tryAgain	重试
+translation.pylon.userMatchingConnectedOnly	仅已连接 Pylon 的用户
+translation.pylon.userMatchingDescription	Pylon 发送者如何被识别为 Devin 用户
+translation.pylon.userMatchingEmail	邮箱或已连接 Pylon 的用户
+translation.pylon.userMatchingLabel	用户匹配
+translation.pylon.allowedOrgsAll	所有组织
+translation.pylon.allowedScopesAll	所有组织和\
+My Workspace
+translation.pylon.allowedScopesSelected_one	已选 {{count}} 个范围
+translation.pylon.allowedScopesSelected_other	已选 {{count}} 个范围
+translation.pylon.allowedOrgsDescription	可以使用 Pylon 的组织
+translation.pylon.allowedOrgsLabel	允许的组织
+translation.pylon.allowedOrgsNone	无组织
+translation.pylon.askOnlyAllow	允许（只答问题，不改代码）
+translation.pylon.askOnlyDescription	让没有 Devin 账户的人也能提问
+translation.pylon.askOnlyDisallow	不允许
+translation.pylon.askOnlyLabel	无 Devin 账户也可提问
+translation.pylon.askOnlyOrgDescription	用于未关联 Devin 账户的发送者
+translation.pylon.askOnlyOrgLabel	未关联则路由到
+translation.pylon.automationTriggersConfirmLabel	启用触发器
+translation.pylon.automationTriggersConfirmTitle	启用 Pylon 自动化触发器
+translation.pylon.automationTriggersDescription	允许支持的 Pylon 事件触发 Devin 自动化
+translation.pylon.automationTriggersDisabled	已禁用
+translation.pylon.automationTriggersEnabled	已启用
+translation.pylon.automationTriggersLabel	Pylon 自动化触发器
+translation.pylon.linkConfirmCancel	取消
+translation.pylon.linkConfirmLabel	关联账户
+translation.pylon.linkConfirmTitle	关联你的 Pylon 账户
+translation.pylon.mcpAccessConfirmDescription	读写权限让 Devin 能创建和更新 Pylon issue 和账户。
+translation.pylon.mcpAccessConfirmLabel	启用读写权限
+translation.pylon.mcpAccessConfirmTitle	启用 Pylon MCP 写权限
+translation.pylon.mcpAccessDescription	控制 Devin 能否创建和更新 Pylon issue 和账户。<learnMoreLink>了解更多</learnMoreLink>
+translation.pylon.mcpAccessLabel	Pylon MCP 访问
+translation.pylon.messagesDescription	允许 Pylon 机器人向 issue 关联的 Devin 会话发跟进消息
+translation.pylon.messagesDisabled	已禁用
+translation.pylon.messagesEnabled	已启用
+translation.pylon.messagesLabel	Pylon 跟进消息
+translation.pylon.mcpAccessReadOnly	只读
+translation.pylon.mcpAccessReadWrite	读写
+translation.pylon.loadingStatuses	加载状态中…
+translation.pylon.loadingTags	加载标签中…
+translation.pylon.noStatuses	无 Pylon 状态
+translation.pylon.noStatusesFound	未找到状态
+translation.pylon.noTags	无 Pylon 标签
+translation.pylon.noTagsFound	未找到标签
+translation.pylon.searchStatuses	搜索状态…
+translation.pylon.searchTags	搜索标签…
+translation.pylon.securityWarningConfirmLabel	更改配置
+translation.pylon.securityWarningDescription	从 Pylon 创建的会话处理不可信内容（如客户支持工单），可能遭遇提示词注入。确保这些会话有韧性——应用限制网络和工具访问的严格安全配置。
+translation.pylon.securityWarningTitle	警告
+translation.pylon.securityWarningUpdateLink	更新默认 Pylon 安全配置
+translation.pylon.triggerDisabledDescription	{{triggers}} 在 Pylon 设置中已关闭，此自动化被禁用且不做任何事。
+translation.pylon.triggerDisabledLink	管理 Pylon 自动化触发器
+translation.pylon.triggerDisabledStatus	不会运行——Pylon 触发器已关
+translation.pylon.triggerDisabledTitle	此自动化不会运行
+translation.pylon.triggerLockedTooltip	此触发器不可用。\
+在 Pylon 连接设置中开启它。
+translation.pylon.triggerOrgListLockedTooltip	此触发器不可用。\
+要开启，在 Pylon 连接设置中允许 My Workspace。
+translation.pylon.triggerPartiallyDisabledDescription	{{triggers}} 在 Pylon 设置中已关闭，此自动化不会为它运行。其他触发器仍有效。
+translation.pylon.triggerPartiallyDisabledTitle	部分触发器不会触发
+translation.pylon.connectFailed	连接 Pylon 失败
+translation.pylon.updateSettingsFailed	更新 Pylon 设置失败
+translation.pylon.updateSecurityProfileFailed	更新 Pylon 安全配置失败
+translation.pylon.disconnectSuccess	Pylon 已成功断开
+translation.pylon.disconnectFailed	断开 Pylon 失败
+translation.pylon.setup.securityProfileLabel	安全配置
+translation.pylon.setup.askOnlyOrgDescription	用于未关联 Devin 账户的发送者
+translation.pylon.setup.automationTriggersDescription	从 Pylon 事件启动 Devin 自动化
+translation.pylon.setup.automationTriggersLabel	自动化触发器
+translation.pylon.setup.mcpAccessLabel	MCP 访问
+translation.pylon.setup.messagesDescription	让 Pylon 机器人给 issue 关联的 Devin 会话发消息
+translation.pylon.setup.messagesLabel	跟进消息
+translation.pylon.setup.title	Pylon 已连接
+translation.pylon.setup.description	选择 Devin 在 Pylon 中能做什么
+translation.pylon.setup.recommended	推荐
+translation.pylon.setup.askOnlyDescription	回答问题但不动代码
+translation.pylon.setup.orgRequired	你选择一个组织前 Devin 会拒绝 Pylon 事件
+translation.pylon.setup.userMatchingDescription	识别未关联 Pylon 账户的发送者
+translation.pylon.setup.mcpAccessDescription	Devin 能对 Pylon issue 做什么
+translation.pylon.setup.securityProfileDescription	当前：{{name}}。工单是不可信的，用严格配置
+translation.pylon.setup.reviewProfile	检查配置
+translation.pylon.setup.save	保存
+translation.pylon.setup.noProfile	无安全配置
+translation.pylon.setup.orgRequiredError	选择一个组织
+translation.pylon.triggers.issueCreated	Issue 已创建
+translation.pylon.triggers.issueCreatedDescription	新 Pylon issue 创建时触发
+translation.pylon.triggers.issueTagAdded	Issue 标签已添加
+translation.pylon.triggers.issueTagAddedDescription	Pylon issue 被加标签时触发
+translation.pylon.triggers.issueStatusChanged	Issue 状态已变更
+translation.pylon.triggers.issueStatusChangedDescription	Pylon issue 状态变化时触发
+translation.readiness.whyThisMatters	为什么这重要
+translation.readiness.resolveToReachLevel	解决这些问题以达到 Level {{level}}
+translation.readiness.resolveToReachLevelHelp	处理 Level {{level}} 关卡检查上的未结发现。通向 Level {{level}} 的检查按活跃度加权通过了 {{percent}}%；{{thresholdPercent}}% 即达成。
+translation.readiness.readinessLevel	就绪等级
+translation.readiness.readinessLevelHelp	等级按顺序获得。当某级检查的加权通过率达到其阈值时达成该级；进度条随检查通过向下一刻度填充。
+translation.readiness.checks	检查
+translation.readiness.checksPassing	{{passed}}/{{applicable}} 通过
+translation.readiness.couldNotVerify	无法验证
+translation.readiness.evidence	证据
+translation.readiness.evidenceCount	证据（{{count}}）
+translation.readiness.checkEvidenceCount	检查证据（{{count}}）
+translation.readiness.exclusionReasonDormant	休眠：最近 90 天无提交
+translation.readiness.findingSessions	会话
+translation.readiness.findingAffectedChecks	受影响的检查
+translation.readiness.findingCount_one	{{count}} 个发现
+translation.readiness.findingCount_other	{{count}} 个发现
+translation.readiness.checkFinding_one	发现
+translation.readiness.checkFinding_other	发现
+translation.readiness.findingScopeMore	{{scope}} +{{more}} 个
+translation.readiness.findingLocus	位置
+translation.readiness.findingStatusBlocker	阻塞项
+translation.readiness.findingTypeIssue	真实问题
+translation.readiness.findingTypeHypothetical	假设性问题
+translation.readiness.findingTypeRecommendation	建议
+translation.readiness.findingStatusDismissed	已忽略
+translation.readiness.findingStatusNote	备注
+translation.readiness.findings	发现
+translation.readiness.findingStatusFixed	已修复
+translation.readiness.fixFailed	启动修复会话失败。
+translation.readiness.fixInProgress	此发现已有修复会话在运行。
+translation.readiness.fixStale	此发现在页面加载后已变化。正在刷新。
+translation.readiness.fixWithDevin	用 Devin 修复
+translation.readiness.goToBlueprint	前往 blueprint
+translation.readiness.orgAccessGuidance	需要组织管理员授予此访问权；Devin 无法从会话中修复。
+translation.readiness.commit	提交
+translation.readiness.degradedAssessment	降级评估
+translation.readiness.levelHistoryFailed	加载等级历史失败。
+translation.readiness.levelHistoryOnlyOne	目前只有一次评估——再跑一次看趋势
+translation.readiness.levelLabel	等级
+translation.readiness.levelOverTime	等级变化
+translation.readiness.levelHistoryRange	{{from}} – {{to}}
+translation.readiness.summary	摘要
+translation.readiness.findingStatusFailedCheck	检查未过
+translation.readiness.olderFormat	旧格式
+translation.readiness.rerunToSeeResults	重跑评估以查看结果。
+translation.readiness.recommendation	建议
+translation.readiness.startingFixSession	启动修复会话中…
+translation.readiness.viewFixSession	查看修复会话
+translation.readiness.yourCheck	你的检查
+translation.readiness.customCheckAccount	账户
+translation.readiness.customCheckOrg	组织
+translation.readiness.customChecksInherited	由你的企业设置
+translation.readiness.customChecksOrganization	由你的组织设置
+translation.readiness.yourChecks	你的检查
+translation.readiness.coreChecks	核心检查
+translation.readiness.customChecks	自定义检查
+translation.readiness.customChecksDescription	为你自己的工具定义与 Cognition 检查并行运行的检查。
+translation.readiness.customChecksPageDescription	为你组织自己的工具和惯例定义的检查。它们在每个仓库中与 Cognition 的检查一起评估，但不影响就绪等级。
+translation.readiness.customChecksRevisionMeta	版本 {{revision}} · 保存于 {{date}}
+translation.readiness.customChecksReadOnly	你可以查看自定义检查，但需要 manage agent readiness 权限才能更改。
+translation.readiness.customChecksLoadFailedTitle	出了点问题
+translation.readiness.customChecksLoadFailed	加载自定义检查失败。
+translation.readiness.customChecksEmptyTitle	还没有自定义检查
+translation.readiness.customChecksEmptyDescription	自定义检查描述仓库中必须为你的工具成立的条件，Devin 在就绪评估中逐条验证。它们与 Cognition 的检查并列显示，不影响就绪等级。
+translation.readiness.customChecksAdd	添加检查
+translation.readiness.customChecksCount	{{count}}/{{max}} 个检查
+translation.readiness.customChecksRemove	移除
+translation.readiness.customChecksUntitled	检查 {{index}}
+translation.readiness.customChecksSave	保存
+translation.readiness.customChecksSaving	保存中…
+translation.readiness.customChecksSaved	已存为版本 {{revision}}——应用于各仓库的下一次评估
+translation.readiness.customChecksSaveFailed	保存自定义检查失败。
+translation.readiness.customChecksFixErrors	保存前修正高亮字段。
+translation.readiness.customChecksTitle	标题
+translation.readiness.customChecksDescriptionField	检查内容
+translation.readiness.customChecksDescriptionHelp	必须成立什么以及 Devin 应如何验证。可以给出命令作为指引
+translation.readiness.customChecksRationale	为什么这重要
+translation.readiness.customChecksRationaleHelp	显示在结果旁，同 Cognition 的检查
+translation.readiness.customChecksErrorRequired	必填
+translation.readiness.customChecksErrorTooLong	不得超过 {{limit}} 个字符
+translation.readiness.customChecksErrorDuplicateTitle	另一个检查已用此标题
+translation.readiness.customConnections	自定义连接
+translation.readiness.customConnectionsDescription	描述 Devin 应能到达的系统，从 Connections 验证。
+translation.readiness.customConnectionsPageDescription	Devin 应能到达的系统，如你的 SonarQube 或 Artifactory。显示在 Connections 上，与就绪评估分开验证。
+translation.readiness.customConnectionsCount	{{count}}/{{max}} 个连接
+translation.readiness.customConnectionsSaved	已存为版本 {{revision}}——应用于下一次连接刷新
+translation.readiness.customConnectionsManage	管理
+translation.readiness.customConnectionsAdd	添加连接
+translation.readiness.customConnectionsUntitled	连接 {{index}}
+translation.readiness.customConnectionsEmptyTitle	还没有自定义连接
+translation.readiness.customConnectionsEmptyHint	从「自定义连接」添加 Devin 应能到达的系统，如你的 SonarQube 或 Artifactory。
+translation.readiness.customConnectionsEmptyDescription	描述一个 Devin 应到达的系统，如你的 SonarQube 或 Artifactory，以及如何判定访问正常。Devin 用你组织的机密、MCP 服务器和集成做只读验证。
+translation.readiness.customConnectionsDescriptionField	Devin 应到达什么
+translation.readiness.customConnectionsDescriptionHelp	用大白话：Devin 应到达的系统以及如何判定访问正常。Devin 用你组织的机密、MCP 服务器和集成做只读验证
+translation.readiness.customConnectionsDescriptionPlaceholder	例如用 SONARQUBE_TOKEN 组织机密调 GET https://sonarqube.example.com/api/authentication/validate，确认返回 valid: true
+translation.readiness.customConnectionsConnectHint	如何连接
+translation.readiness.customConnectionsConnectHintHelp	系统未连接时显示在 Connections 上——例如该问谁或启用哪个机密
+translation.readiness.customConnectionsInheritedConnectHint	如何连接：{{hint}}
+translation.readiness.pageTitle	Agent Readiness
+translation.readiness.pageDescription	逐条标准评估每个仓库对代理工作的就绪程度。
+translation.readiness.repoPageTitle	就绪度 — {{repo}}
+translation.readiness.somethingWentWrong	出了点问题
+translation.readiness.loadAssessmentsFailed	加载就绪评估失败。
+translation.readiness.loadAssessmentFailed	加载就绪评估失败。
+translation.readiness.noAssessmentForRepo	此仓库没有就绪评估。
+translation.readiness.tryAgain	重试
+translation.readiness.statusRunning	运行中
+translation.readiness.statusCompleted	已完成
+translation.readiness.statusDegraded	已降级
+translation.readiness.statusFailed	失败
+translation.readiness.runningEllipsis	运行中…
+translation.readiness.runningSince	运行中 · {{elapsed}}
+translation.readiness.levelBadge	L{{level}}
+translation.readiness.repositories	仓库
+translation.readiness.repositoriesDescription	每个已评估仓库的就绪等级。
+translation.readiness.starting	启动中…
+translation.readiness.runAssessment	运行评估
+translation.readiness.noReposAssessed	还没有已评估的仓库
+translation.readiness.noReposAssessedHint	在上方选个仓库并运行评估，看它对代理的就绪程度。
+translation.readiness.noReposAssessedReadOnly	有权限的人运行评估后会显示在这里。
+translation.readiness.effortTrivial	简单修复
+translation.readiness.effortModerate	中等修复
+translation.readiness.effortDifficult	困难修复
+translation.readiness.burdenTitle	会话时间花在哪
+translation.readiness.burdenWindow	最近 {{days}} 天 · 抽样 {{segmented}}/{{sampled}} 个会话
+translation.readiness.burdenRemaining	{{phases}} 占剩余 {{percent}}%。
+translation.readiness.connectionsTitle	连接
+translation.readiness.connectionsDescription	此组织中 Devin 可到达的工具。
+translation.readiness.enterpriseConnectionsDescription	整个企业中 Devin 可到达的工具。
+translation.readiness.connectionsLoadFailed	无法加载连接
+translation.readiness.connectionsLoadFailedDescription	检查 Devin 可到达哪些工具时出错。
+translation.readiness.providerMappedOrgs_one	{{label}}（{{mapped}}/{{count}} 个组织）
+translation.readiness.providerMappedOrgs_other	{{label}}（{{mapped}}/{{count}} 个组织）
+translation.readiness.enterprisePageDescription	逐条标准评估你企业中每个仓库对代理工作的就绪程度。
+translation.readiness.enterpriseRepositoriesDescription	每个已评估仓库的就绪等级。在多个组织中连接的仓库只出现一次，取最新评估。
+translation.readiness.repositoriesScoreDescription	每个已评估仓库的得分：其检查通过的百分比。
+translation.readiness.enterpriseRepositoriesScoreDescription	每个已评估仓库的得分：其检查通过的百分比。在多个组织中连接的仓库只出现一次，取最新评估。
+translation.readiness.loadingRepositories	加载仓库中
+translation.readiness.noAssessmentsInOrg	{{org}} 还没有评估。从该组织的 Insights 页运行一个。
+translation.readiness.noAssessmentsInEnterprise	从任何组织的 Insights 页运行的评估会显示在这里。
+translation.readiness.connected	已连接
+translation.readiness.notConnected	未连接
+translation.readiness.noneEnabled	均未启用
+translation.readiness.manage	管理
+translation.readiness.add	添加
+translation.readiness.mcpServers	MCP 服务器
+translation.readiness.notAssessed	未评估
+translation.readiness.customConnectionsTitle	自定义连接
+translation.readiness.customConnectionsRefresh	刷新
+translation.readiness.customConnectionsRefreshHelp	在带此组织机密和 MCP 服务器的会话中以只读方式运行每项检查。
+translation.readiness.customConnectionsChecking	检查中…
+translation.readiness.customConnectionsLastChecked	最近检查 {{date}}
+translation.readiness.customConnectionsNotChecked	还没检查过
+translation.readiness.customConnectionsRunFailed	上次检查无法运行
+translation.readiness.customConnectionsRunFailedWithError	上次检查无法运行：{{error}}
+translation.readiness.enterpriseCustomConnectionsDescription	你企业定义的检查，按各组织最近一次运行统计。
+translation.readiness.customConnectionsLoadFailed	无法加载检查状态
+translation.readiness.customConnectionsRefreshFailed	无法开始检查
+translation.readiness.customConnectionNotChecked	未检查
+translation.readiness.customConnectionUnknown	未知
+translation.readiness.customConnectionError	检查失败
+translation.readiness.customConnectionDefaultHint	自定义连接检查
+translation.readiness.customConnectionConnectedOrgs_one	已在 {{connected}}/{{count}} 个组织连接
+translation.readiness.customConnectionConnectedOrgs_other	已在 {{connected}}/{{count}} 个组织连接
+translation.readiness.customConnectionNoOrgsChecked	尚未在任何组织检查
+translation.readiness.scopesExcluded_one	已排除 {{count}} 个范围
+translation.readiness.scopesExcluded_other	已排除 {{count}} 个范围
+translation.readiness.scopesAssessed_one	已评估 {{count}} 个范围
+translation.readiness.scopesAssessed_other	已评估 {{count}} 个范围
+translation.readiness.progressAriaLabel	仓库就绪进度
+translation.readiness.progressValueText	加权通过率 {{percent}}%，{{thresholdPercent}}% 即过级
+translation.readiness.assessmentSummary	评估摘要
+translation.readiness.insightSummary	洞察摘要
+translation.readiness.insightsTitle	洞察
+translation.readiness.insightsDescription	最近一次评估的发现
+translation.readiness.overallScoreHelp	适用检查通过的百分比。
+translation.readiness.fixableSuggestions	可修复建议
+translation.readiness.suggestionUnit_one	条建议
+translation.readiness.suggestionUnit_other	条建议
+translation.readiness.suggestionCount_one	{{count}} 条建议
+translation.readiness.suggestionCount_other	{{count}} 条建议
+translation.readiness.checksPassed	检查通过
+translation.readiness.passedFraction	<value>{{passed}}</value><rest>/{{applicable}} 通过</rest>
+translation.readiness.overallScore	总分
+translation.readiness.overallScoreDescription	各类别通过的检查
+translation.readiness.checksPassedShort	检查通过
+translation.readiness.categoryBreakdown	类别分布
+translation.readiness.categoryBreakdownDescription	各类别的建议及会话在其上的花费
+translation.readiness.scoreLabel	得分 {{score}}/100
+translation.readiness.levelNumber	Level {{level}}
+translation.readiness.allLevelsMet	已达成所有等级
+translation.readiness.tierLabel	L{{tier}} · {{title}}
+translation.readiness.tierFoundations	基础
+translation.readiness.tierReliability	可靠性
+translation.readiness.tierEfficiency	效率
+translation.readiness.tierComplete	{{title}}完成
+translation.readiness.tierPercent	{{title}} {{percent}}%
+translation.readiness.tierRatio	{{title}} {{passed}}/{{applicable}}
+translation.readiness.rootApplication	根应用
+translation.readiness.otherSection	其他
+translation.readiness.passedRatio	通过 {{passed}}/{{applicable}}
+translation.readiness.checksPassedRatio	检查通过 {{passed}}/{{applicable}}
+translation.readiness.assessedAt	评估于 {{date}}
+translation.readiness.viewSession	查看会话
+translation.readiness.assessmentRunning	评估运行中…
+translation.readiness.runAgain	再跑一次
+translation.readiness.latestAssessmentFailed	最近一次评估失败：{{error}}
+translation.readiness.noCompletedAssessment	还没有完成的评估
+translation.readiness.assessmentRunningHint	一个评估正在运行。完成后结果会显示在这里。
+translation.readiness.runAssessmentHint	运行评估以查看此仓库的逐项标准结果。
+translation.readiness.notApplicableTypeInapplicable	不适用此类范围
+translation.readiness.notApplicableDependency	前置标准未通过
+translation.readiness.notApplicableBlockedByUpstream	被此范围的上游失败阻塞
+translation.readiness.notApplicableRepoUpstream	被仓库级失败阻塞
+translation.readiness.notApplicableEcosystem	不适用此生态
+translation.readiness.notApplicableNotUserFacing	非面向用户的产品界面
+translation.readiness.phaseSetup	设置
+translation.readiness.phaseResearching	研究
+translation.readiness.phaseImplementing	实现
+translation.readiness.phaseTesting	测试
+translation.readiness.phaseDebugging	调试
+translation.readiness.phaseFixingCi	修 CI
+translation.readiness.phaseReviewing	评审
+translation.readiness.phaseOther	其他
+translation.readiness.durationHours	{{hours}} 小时
+translation.readiness.durationMinutes	{{minutes}} 分钟
+translation.readiness.noFailingCriteriaLinked	未关联未通过的标准
+translation.readiness.failingCriteriaImplicated_one	牵连 {{count}} 项未通过标准
+translation.readiness.failingCriteriaImplicated_other	牵连 {{count}} 项未通过标准
+translation.readiness.repositoryAndSession	仓库与会话
+translation.readiness.categoryChat	聊天
+translation.readiness.categoryTickets	工单系统
+translation.readiness.categorySourceControl	源码管理
+translation.readiness.categoryChatDescription	与团队沟通协作
+translation.readiness.categoryTicketsDescription	访问和管理 issue 与项目工作
+translation.readiness.categorySourceControlDescription	访问仓库、分支和 pull request
+translation.readiness.noServersInstalled	未安装服务器
+translation.readiness.serversEnabled_one	{{count}} 个服务器已启用
+translation.readiness.serversEnabled_other	{{count}} 个服务器已启用
+translation.readiness.serversEnabledOfInstalled_one	已启用 {{enabled}}/{{count}} 个服务器
+translation.readiness.serversEnabledOfInstalled_other	已启用 {{enabled}}/{{count}} 个服务器
+translation.readiness.capabilityObservability	可观测性
+translation.readiness.capabilityFeatureFlags	功能开关
+translation.readiness.capabilityAnalytics	产品分析
+translation.readiness.capabilityIncidents	事件管理
+translation.readiness.capabilityDocs	文档
+translation.readiness.capabilityObservabilityDescription	监控错误、日志和应用健康
+translation.readiness.capabilityFeatureFlagsDescription	访问和管理功能开关
+translation.readiness.capabilityAnalyticsDescription	访问产品使用和行为数据
+translation.readiness.capabilityIncidentsDescription	访问并响应事件和告警
+translation.readiness.capabilityDocsDescription	搜索和引用你团队的文档
+translation.readiness.providerDisabled	{{name}}（已禁用）
+translation.readiness.otherMcpServersEnabled_one	其他 MCP 服务器：{{count}} 个已启用
+translation.readiness.otherMcpServersEnabled_other	其他 MCP 服务器：{{count}} 个已启用
+translation.readiness.exclusionReasonOverCap	超过单次评估范围上限
+translation.readiness.exclusionReasonGenerated	生成的代码
+translation.readiness.exclusionReasonVendored	Vendored 代码
+translation.readiness.exclusionReasonInactive	不活跃
+translation.readiness.exclusionReasonNoBuildIdentity	无自己的构建工具
+translation.readiness.exclusionReasonNestedInParent	作为其父范围的一部分评估
+translation.readiness.exclusionReasonNotAScope	非独立应用
+translation.readiness.assessmentStarted	评估已开始
+translation.readiness.assessmentAlreadyRunning	已有评估在运行
+translation.readiness.startAssessmentFailed	启动评估失败
+translation.readiness.cancelAssessment	取消评估
+translation.readiness.cancelling	取消中…
+translation.readiness.assessmentCancelled	评估已取消
+translation.readiness.assessmentAlreadyFinished	评估已完成
+translation.readiness.cancelAssessmentFailed	取消评估失败
+translation.readiness.statusCancelled	已取消
+translation.readiness.scoreSeries	得分
+translation.readiness.tabOverview	概览
+translation.readiness.repoTabsAriaLabel	评估小节
+translation.readiness.noFindings	无发现
+translation.readiness.noFindingsUnscannedDescription	还没有仓库扫描，会话也没在此仓库遇到问题。
+translation.readiness.noFindingsNoScanDescription	还没有仓库扫描。
+translation.readiness.notScanned	未扫描
+translation.readiness.notYetScanned	尚未扫描
+translation.readiness.notYetScannedDescription	运行扫描为此仓库评分并获得 Devin 的建议。
+translation.readiness.notYetScannedReadOnly	有权限的人运行扫描后，得分和 Devin 的建议会显示在这里。
+translation.readiness.preliminaryFindings	初步发现
+translation.readiness.preliminaryFindingsDescription	Devin 在你的会话历史中发现的。
+translation.readiness.preliminaryTooltip	还没有就绪扫描。这些发现来自最近 {{days}} 天会话遇到的问题。
+translation.readiness.scanInProgress	就绪扫描进行中
+translation.readiness.sessionsBlocked_one	{{count}} 个会话被阻塞
+translation.readiness.sessionsBlocked_other	{{count}} 个会话被阻塞
+translation.readiness.runReadinessScan	运行就绪扫描
+translation.readiness.rescanNow	立即重扫
+translation.readiness.moreScanActions	更多扫描操作
+translation.readiness.checksDescription	此评估运行的每项检查，按范围分组。
+translation.readiness.categoryDocs	文档与代理上下文
+translation.readiness.categoryValidation	构建与验证
+translation.readiness.categoryTests	测试
+translation.readiness.categoryE2e	本地开发与端到端
+translation.readiness.categoryBlueprint	环境设置
+translation.readiness.categoryObservability	可观测性
+translation.readiness.categorySecurityAccess	安全与访问
+translation.readiness.categoryAnalytics	分析
+translation.readiness.notAssessedShort	—
+translation.readiness.categoryNotAssessed	无适用检查
+translation.readiness.blockerAcusWasted	浪费 {{value}} ACU
+translation.readiness.blockerSparklineSeries	每日会话数
+translation.readiness.blockerStatBlocked	被阻塞
+translation.readiness.blockerStatSlowed	被拖慢
