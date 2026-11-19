@@ -1,0 +1,500 @@
+translation.unifiedServiceUsers.searchPlaceholder	搜索服务用户
+translation.unifiedServiceUsers.loadError	无法加载服务用户。
+translation.unifiedServiceUsers.retry	重试
+translation.unifiedServiceUsers.createdWithoutToken	服务用户已创建。此账户禁用了静态密钥，所以未签发令牌。
+translation.unifiedServiceUsers.provisionTitle	开通服务用户
+translation.unifiedServiceUsers.provisionDescription	用于自动化和集成的 API 身份
+translation.unifiedServiceUsers.provisionAction	开通
+translation.unifiedServiceUsers.provisionError	无法开通服务用户
+translation.unifiedServiceUsers.cancel	取消
+translation.unifiedServiceUsers.nameLabel	显示名称
+translation.unifiedServiceUsers.namePlaceholder	输入显示名称
+translation.unifiedServiceUsers.nameRequired	需要显示名称
+translation.unifiedServiceUsers.roleLabel	企业角色
+translation.unifiedServiceUsers.rolePlaceholder	选择角色
+translation.unifiedServiceUsers.roleRequired	选择一个角色
+translation.unifiedServiceUsers.roleNotFound	未找到所选角色
+translation.unifiedServiceUsers.expirationLabel	过期时间
+translation.unifiedServiceUsers.expirationDays_one	{{count}} 天
+translation.unifiedServiceUsers.expirationDays_other	{{count}} 天
+translation.unifiedServiceUsers.expirationNever	永不
+translation.serviceUserAccess.manageAccess	管理访问
+translation.serviceUserAccess.description	谁可以使用、配置或共享 {{name}}。
+translation.serviceUserAccess.descriptionUseOnly	谁可以使用 {{name}}。
+translation.serviceUserAccess.searchPlaceholder	添加人员、组或角色
+translation.serviceUserAccess.searchPlaceholderMembersAndRoles	添加人员或角色
+translation.serviceUserAccess.botSearchPlaceholder	添加人员、组或角色
+translation.serviceUserAccess.canUse	可使用
+translation.serviceUserAccess.canUseDescription	以此服务用户身份运行 automation 并指导其会话，使用它的权限、连接和机密
+translation.serviceUserAccess.canConfigure	可配置
+translation.serviceUserAccess.canConfigureDescription	管理此服务用户持有的连接、插件和机密
+translation.serviceUserAccess.canShare	可共享
+translation.serviceUserAccess.canShareDescription	决定还有谁可以使用、配置或共享它
+translation.serviceUserAccess.useOption	使用
+translation.serviceUserAccess.useOptionDescription	在 Devin 会话中查看和使用此资源。
+translation.serviceUserAccess.shareOption	共享
+translation.serviceUserAccess.botCanUse	可使用
+translation.serviceUserAccess.botUseOption	使用
+translation.serviceUserAccess.botUseVerb	使用
+translation.serviceUserAccess.botUseDescription	给 {{name}} 发消息并指导其会话，会话用它自己的连接和机密运行。
+translation.serviceUserAccess.botCanConfigure	可配置
+translation.serviceUserAccess.botConfigureOption	配置
+translation.serviceUserAccess.botConfigureVerb	配置
+translation.serviceUserAccess.botConfigureDescription	更改 {{name}} 的指令、连接、插件和机密。
+translation.serviceUserAccess.botShareDescription	决定还有谁可以使用、配置或共享 {{name}}。
+translation.serviceUserAccess.shareOptionDescription	在无权查看或编辑此资源的情况下管理访问权。
+translation.serviceUserAccess.configureOption	配置
+translation.serviceUserAccess.configureOptionDescription	编辑此资源的内容和设置，或删除它。
+translation.serviceUserAccess.useVerb	使用
+translation.serviceUserAccess.configureVerb	配置
+translation.serviceUserAccess.shareVerb	共享
+translation.serviceUserAccess.inheritedDescription	从集合或角色继承
+translation.serviceUserAccess.removeSelfError	你不能移除自己的访问权
+translation.serviceUserAccess.heldGrantsTitle	{{name}} 的访问权还包括
+translation.serviceUserAccess.personalGrantsWarning	共享此{{botName}}也会把它连接的账户共享给你添加的每个人。
+translation.serviceUserAccess.heldGrantsDescription	你与之共享 {{name}} 的人都能使用这些。
+translation.serviceUserAccess.heldGrantsUnnamed	已删除或未知的{{type}}
+translation.serviceUserAccess.heldGrantsEveryOne	每个{{type}}
+translation.serviceUserAccess.heldGrantsCreateAny	创建任何{{type}}
+translation.serviceUserAccess.heldGrantsLoadFailed	无法加载此 bot 可以访问的内容
+translation.serviceUserAccess.heldGrantsBotReach	附带 {{name}} 可访问的一切
+translation.serviceUserAccess.heldGrantsRemoveFailed	无法撤销访问权
+translation.serviceUserAccess.heldGrantsEmpty	授权会显示在这里。每项授权显示 {{name}} 可以对某个共享资源（如会话或机密）做什么。
+translation.serviceUserAccess.heldGrantsTruncated	{{name}} 可访问的内容多于此处所列。撤销其中一些以查看其余。
+translation.serviceUserAccess.heldGrantsManagedElsewhere	由同步管理；请在授权处撤销
+translation.serviceUserAccess.shareHeldGrantsTitle	{{name}} 有权访问其他资源
+translation.serviceUserAccess.shareHeldGrantsDescription	共享后其他人可以使用这些。先从 {{name}} 撤销你想收回的项。
+translation.serviceUserAccess.shareHeldGrantsConfirm	共享
+translation.serviceUserAccess.shareHeldGrantLabel	为 {{name}} 保留 {{resource}}
+translation.serviceUserAccess.heldGrantsTypes.git_connection	Git 连接
+translation.serviceUserAccess.heldGrantsTypes.playbook	Playbooks
+translation.serviceUserAccess.heldGrantsTypes.repo	仓库
+translation.serviceUserAccess.heldGrantsTypes.repo_prefix	仓库前缀
+translation.serviceUserAccess.heldGrantsTypes.environment	环境
+translation.serviceUserAccess.heldGrantsTypes.mcp	MCP
+translation.serviceUserAccess.heldGrantsTypes.mcp_authorization	MCP 授权
+translation.serviceUserAccess.heldGrantsTypes.knowledge	知识
+translation.serviceUserAccess.heldGrantsTypes.session	会话
+translation.serviceUserAccess.heldGrantsTypes.folder	资源集合
+translation.serviceUserAccess.heldGrantsTypes.secret	机密
+translation.serviceUserAccess.heldGrantsTypes.budget	预算
+translation.serviceUserAccess.heldGrantsTypes.tracker_connection	Tracker 连接
+translation.serviceUserAccess.heldGrantsTypes.secure_mode_profile	Secure mode 配置文件
+translation.serviceUserAccess.heldGrantsTypes.group	组
+translation.serviceUserAccess.heldGrantsTypes.automation	Automations
+translation.serviceUserAccess.heldGrantsTypes.app	Apps
+translation.serviceUserAccess.heldGrantsTypes.outpost_pool	Outpost 池
+translation.serviceUserAccess.heldGrantsTypes.agent_profile	Agent 配置文件
+translation.serviceUserAccess.heldGrantsTypes.plugin	插件
+translation.serviceUserAccess.heldGrantsTypes.service_user	服务用户
+translation.serviceUserAccess.heldGrantsTypes.*	任何资源
+translation.userGroups.title	管理用户组
+translation.userGroups.description	创建组以管理成员及其对共享资源的访问权。
+translation.userGroups.search	搜索组
+translation.userGroups.searchPlaceholder	搜索组
+translation.userGroups.clearSearch	清除搜索
+translation.userGroups.sortBy	排序方式
+translation.userGroups.sort.name_asc	名称（A–Z）
+translation.userGroups.sort.name_desc	名称（Z–A）
+translation.userGroups.create	创建组
+translation.userGroups.nameColumn	名称
+translation.userGroups.definitionColumn	定义
+translation.userGroups.permissionsColumn	权限
+translation.userGroups.membersColumn	成员
+translation.userGroups.systemBadge	系统
+translation.userGroups.loadError	无法加载组。
+translation.userGroups.retry	重试
+translation.userGroups.loading	加载中…
+translation.userGroups.noSearchResults	没有匹配你搜索的组
+translation.userGroups.emptyTitle	还没有组
+translation.userGroups.emptyDescription	创建一个组以便将资源共享给一组成员。
+translation.userGroups.emptyDescriptionNoCreate	你所属或可管理的组会显示在这里。
+translation.userGroups.definition.accountRole	持有 {{role}} 账户角色的成员
+translation.userGroups.definition.orgRole	在 {{org}} 中持有 {{role}} 角色的成员
+translation.userGroups.definition.orgMembers	{{org}} 的所有成员
+translation.userGroups.definition.providerTeam	从 {{provider}} 团队 {{team}} 镜像
+translation.userGroups.createTitle	创建组
+translation.userGroups.createDescription	组让你可以一次性为一组成员授予资源访问权
+translation.userGroups.nameLabel	名称
+translation.userGroups.nameHelp	标识此组的短名称
+translation.userGroups.namePlaceholder	例如 Platform engineers
+translation.userGroups.descriptionLabel	描述
+translation.userGroups.descriptionHelp	说明谁属于此组
+translation.userGroups.descriptionPlaceholder	描述此组
+translation.userGroups.cancel	取消
+translation.userGroups.close	关闭
+translation.userGroups.saveChanges	保存
+translation.userGroups.created	组已创建
+translation.userGroups.createFailed	无法创建组
+translation.userGroups.saved	组已保存
+translation.userGroups.saveFailed	无法保存组
+translation.userGroups.editTitle	编辑组
+translation.userGroups.editSheetDescription	管理此组的成员、权限和详情
+translation.userGroups.viewTitle	组详情
+translation.userGroups.tabMembers	成员
+translation.userGroups.tabPermissions	权限
+translation.userGroups.tabGeneral	常规
+translation.userGroups.memberCount_one	{{count}} 个成员
+translation.userGroups.memberCount_other	{{count}} 个成员
+translation.userGroups.dangerZone	危险区
+translation.userGroups.deleteTitle	删除组
+translation.userGroups.deleteDescription	移除组、其成员以及授予它的所有权限。
+translation.userGroups.deleteConfirm	删除「{{name}}」？成员将失去通过此组获得的访问权。
+translation.userGroups.delete	删除
+translation.userGroups.deleted	组已删除
+translation.userGroups.deleteFailed	无法删除组
+translation.userGroups.systemMembersReadOnly	此组由其来源自动管理。其成员无法在此编辑。
+translation.userGroups.addMembersPlaceholder	搜索成员，或从你账户添加人员和 IdP 组
+translation.userGroups.searchMembersPlaceholder	搜索成员
+translation.userGroups.addMembers	添加到组
+translation.userGroups.add	添加
+translation.userGroups.removeFromGroup	从组中移除
+translation.userGroups.addFailed	无法添加成员
+translation.userGroups.removeFailed	无法移除成员
+translation.userGroups.accessFailed	无法更新访问权
+translation.userGroups.membersLoadError	无法加载成员。
+translation.userGroups.candidatesLoadError	无法搜索要添加的人。
+translation.userGroups.membersReadOnly	你可以查看此组的成员但无法编辑。
+translation.userGroups.noMembers	还没有成员
+translation.userGroups.noMemberMatches	没有匹配你搜索的人
+translation.userGroups.memberType.service_user	服务用户
+translation.userGroups.memberType.idp_group	身份提供商组
+translation.userGroups.accountPermissions.title	账户权限
+translation.userGroups.accountPermissions.description	此组成员在整个账户中可以创建什么。
+translation.userGroups.accountPermissions.managed	由此组的来源设定
+translation.userGroups.accountPermissions.edit	编辑
+translation.userGroups.accountPermissions.save	保存
+translation.userGroups.accountPermissions.saved	权限已保存
+translation.userGroups.accountPermissions.saveFailed	无法保存权限
+translation.userGroups.accountPermissions.permissionColumn	权限
+translation.userGroups.accountPermissions.descriptionColumn	描述
+translation.userGroups.accountPermissions.actions.environment_create	创建环境
+translation.userGroups.accountPermissions.actions.git_connection_create	创建 Git 集成
+translation.userGroups.accountPermissions.actions.tracker_connection_create	创建 tracker 连接
+translation.userGroups.accountPermissions.actions.group_create	创建组
+translation.userGroups.accountPermissions.actions.folder_create	创建资源集合
+translation.userGroups.accountPermissions.actions.playbook_create	创建 Unified playbook
+translation.userGroups.accountPermissions.actions.secret_create	创建 Unified 机密
+translation.userGroups.accountPermissions.actions.automation_create	创建 Unified automation
+translation.userGroups.accountPermissions.actionDescriptions.environment_create	在企业中创建新环境
+translation.userGroups.accountPermissions.actionDescriptions.git_connection_create	创建新 Git 集成
+translation.userGroups.accountPermissions.actionDescriptions.tracker_connection_create	创建新 tracker 连接
+translation.userGroups.accountPermissions.actionDescriptions.group_create	创建新组
+translation.userGroups.accountPermissions.actionDescriptions.folder_create	在 Unified 模式下创建新资源集合
+translation.userGroups.accountPermissions.actionDescriptions.playbook_create	在 Unified 资源集合中创建 playbook
+translation.userGroups.accountPermissions.actionDescriptions.secret_create	在 Unified 模式下创建机密
+translation.userGroups.accountPermissions.actionDescriptions.automation_create	在 Unified 模式下创建 automation
+translation.userGroups.resourcesTitle	资源
+translation.userGroups.permissionsHint	此组被授予访问权的资源。
+translation.userGroups.resourceColumn	资源
+translation.userGroups.actionColumn	访问权
+translation.userGroups.allActions	完全访问
+translation.userGroups.actionVerbs.use	使用
+translation.userGroups.actionVerbs.view	查看
+translation.userGroups.actionVerbs.configure	配置
+translation.userGroups.actionVerbs.share	共享
+translation.userGroups.allResources.git_connection	所有 Git 连接
+translation.userGroups.allResources.playbook	所有 playbook
+translation.userGroups.allResources.repo	所有仓库
+translation.userGroups.allResources.repo_prefix	所有仓库前缀
+translation.userGroups.allResources.environment	所有环境
+translation.userGroups.allResources.mcp	所有 MCP
+translation.userGroups.allResources.mcp_authorization	所有 MCP 授权
+translation.userGroups.allResources.knowledge	所有知识
+translation.userGroups.allResources.session	所有会话
+translation.userGroups.allResources.folder	所有资源集合
+translation.userGroups.allResources.secret	所有机密
+translation.userGroups.allResources.budget	所有预算
+translation.userGroups.allResources.tracker_connection	所有 tracker 连接
+translation.userGroups.allResources.secure_mode_profile	所有 secure mode 配置文件
+translation.userGroups.allResources.*	所有资源
+translation.userGroups.noPermissions	此组尚未被授予任何资源的访问权。
+translation.userGroups.permissionsLoadError	无法加载权限。
+translation.userGroups.resourceTypes.git_connection	Git 连接
+translation.userGroups.resourceTypes.playbook	Playbook
+translation.userGroups.resourceTypes.repo	仓库
+translation.userGroups.resourceTypes.repo_prefix	仓库前缀
+translation.userGroups.resourceTypes.environment	环境
+translation.userGroups.resourceTypes.mcp	MCP
+translation.userGroups.resourceTypes.mcp_authorization	MCP 授权
+translation.userGroups.resourceTypes.knowledge	知识
+translation.userGroups.resourceTypes.session	会话
+translation.userGroups.resourceTypes.folder	资源集合
+translation.userGroups.resourceTypes.secret	机密
+translation.userGroups.resourceTypes.budget	预算
+translation.userGroups.resourceTypes.tracker_connection	Tracker 连接
+translation.userGroups.resourceTypes.secure_mode_profile	Secure mode 配置文件
+translation.userGroups.resourceTypes.group	组
+translation.userGroups.resourceTypes.automation	Automation
+translation.userGroups.resourceTypes.app	App
+translation.userGroups.resourceTypes.outpost_pool	Outpost 池
+translation.userGroups.resourceTypes.agent_profile	Agent 配置文件
+translation.userGroups.resourceTypes.plugin	插件
+translation.userGroups.resourceTypes.memory	个人记忆
+translation.userGroups.resourceTypes.service_user	服务用户
+translation.userGroups.resourceTypes.*	任何资源
+translation.userGroups.access.searchPlaceholder	搜索用户或组
+translation.userGroups.access.member	成员
+translation.userGroups.access.memberDescription	在组中：可看到组及其成员
+translation.userGroups.access.canView	可查看
+translation.userGroups.access.canViewDescription	可查看组及其成员
+translation.userGroups.access.canConfigure	可编辑
+translation.userGroups.access.canConfigureDescription	可重命名组、添加或移除成员、删除组
+translation.userGroups.access.canShare	可共享
+translation.userGroups.access.canShareDescription	可管理谁有权访问此组
+translation.userGroups.access.viewVerb	查看
+translation.userGroups.access.configureVerb	编辑
+translation.userGroups.access.shareVerb	共享
+translation.userGroups.access.inheritedDescription	从角色或组继承的访问权
+translation.userGroups.access.removeSelfError	你不能移除自己的访问权
+translation.callouts.back	上一步
+translation.callouts.next	下一步
+translation.callouts.done	完成
+translation.callouts.skip	跳过
+translation.composerToast.openPrsTitle	用 Devin 打开 PR
+translation.composerToast.connectGitHubDescription	连接你的 GitHub 账户，在你的代码库上试用 Devin
+translation.composerToast.finishOrgSetupTitle	完成组织设置
+translation.teamsLink.installPersonalScope	先在你的个人 Teams 范围安装 Devin
+translation.teamsLink.connectAccount	先把你的 Microsoft Teams 账户连接到 Devin
+translation.teamsLink.directMessage	私信（你）
+translation.teamsLink.groupChat	群聊
+translation.teamsLink.ownerOnly	只有会话所有者可以将会话连接到 Teams
+translation.teamsLink.syncSuccess	已把此会话同步到你与 Devin 的 Teams 聊天
+translation.teamsLink.syncError	无法将此会话同步到你的 Teams 聊天。
+translation.teamsLink.announcementTitle	同步到 Teams
+translation.teamsLink.announcementDescription	将此会话同步到你与 Devin 的 Teams 聊天。
+translation.teamsLink.sync	同步
+translation.prReviewChip.noIssuesFound	未发现问题
+translation.prReviewChip.outdated	已过时
+translation.prReviewChip.devinFound	Devin 发现了{{findings, list}}
+translation.prReviewChip.vulnerabilities_one	{{count}} 个漏洞
+translation.prReviewChip.vulnerabilities_other	{{count}} 个漏洞
+translation.prReviewChip.bugs_one	{{count}} 个 bug
+translation.prReviewChip.bugs_other	{{count}} 个 bug
+translation.prReviewChip.flags_one	{{count}} 个标记
+translation.prReviewChip.flags_other	{{count}} 个标记
+translation.prReviewChip.analyze	分析
+translation.prReviewChip.analyzing	分析中
+translation.prReviewChip.analyzeHint	Devin 可以分析你的拉取请求
+translation.prReviewChip.analyzeInStack	分析堆栈中的一个拉取请求
+translation.prReviewChip.analyzeOptions	更多分析方式
+translation.prReviewChip.analyzeAutoHint	现在及此拉取请求的每次推送时分析
+translation.prReviewChip.analyzeOnce	分析一次
+translation.prReviewChip.alwaysAnalyzeMyPrs	总是分析我的拉取请求
+translation.prReviewChip.alwaysAnalyzeRepoPrs	总是分析 {{repo}} 中的拉取请求
+translation.prReviewChip.connect	连接
+translation.projects.missingTooltip	链接到我们无法映射到层级结构的 Jira 项目。展开查看各项。
+translation.projects.unlinkedTooltip	你可见但没有 Jira 链接的会话。
+translation.projects.hideClosed	隐藏已关闭项
+translation.projects.acusBy	ACU 按
+translation.projects.date	日期
+translation.projects.shareOfLinked	占已链接 ACU 的 {{share}}
+translation.projects.shareOfLinkedSessions	占已链接会话的 {{share}}
+translation.projects.otherItems_one	{{count}} 个其他项目
+translation.projects.otherItems_other	{{count}} 个其他项目
+translation.projects.status	状态
+translation.projects.title	项目
+translation.projects.organization	组织
+translation.projects.linkedSpend	已链接 ACU
+translation.projects.search	搜索键或标题
+translation.projects.expandTo	展开到
+translation.projects.share	共享
+translation.projects.shareTotal	占已链接 ACU 的 %
+translation.projects.shareParent	占父项的 %
+translation.projects.includeClosed	显示已关闭项
+translation.projects.closed	已关闭
+translation.projects.missing	层级结构之外
+translation.projects.otherConnections	其他 Jira 连接
+translation.projects.unknownOwner	未知
+translation.projects.unlinked	未链接
+translation.projects.untitled	未命名项目
+translation.projects.expand	展开项目
+translation.projects.collapse	折叠项目
+translation.projects.noChildren	此周期内此项下没有工作项。
+translation.projects.noSessionsOnPage	本页没有会话。
+translation.projects.detailsUnavailable	详情暂不可用。
+translation.projects.breakdown	工作分解
+translation.projects.previous	上一页
+translation.projects.next	下一页
+translation.projects.linkedSessions	已链接会话
+translation.projects.analytics	分析
+translation.projects.sessionsTab	会话（{{total}}）
+translation.projects.sessionCount_one	{{total}} 个会话
+translation.projects.sessionCount_other	{{total}} 个会话
+translation.projects.mergedPrs	已合并 PR
+translation.projects.mergeRate	合并率
+translation.projects.mergeRateCaption	{{total}} 个会话中 {{merged}} 个有 PR
+translation.projects.acusPerPr	每 PR {{acus}} ACU
+translation.projects.noMergedPrs	尚无合并
+translation.projects.acusPerMergedPr	每已合并 PR 的 ACU
+translation.projects.acusPerMergedPrTooltip	此项目的 ACU ÷ 已合并 PR。
+translation.projects.acusByOutcome	按结果的 ACU
+translation.projects.acusOverTime	ACU 随时间变化
+translation.projects.chartType	图表类型
+translation.projects.chartBar	柱状
+translation.projects.chartLine	折线
+translation.projects.acusPerMergedPrOverTime	每已合并 PR 的 ACU 随时间变化
+translation.projects.acusPerMergedPrOverTimeTooltip	每周 ACU ÷ 已合并 PR。周按会话创建计，所以最近的周在 PR 合并前读数偏高。
+translation.projects.topContributors	主要贡献者
+translation.projects.acusByRepo	主要仓库
+translation.projects.acusByOrg	按组织的 ACU
+translation.projects.acusByOrigin	按来源的 ACU
+translation.projects.acusByMode	按模式的 ACU
+translation.projects.acusByChild	按子项的 ACU
+translation.projects.linkedDirectly	直接链接到此项
+translation.projects.noPr	无 PR
+translation.projects.openInJira	在 Jira 中打开
+translation.projects.session	会话
+translation.projects.linkedTo	链接到
+translation.projects.person	人员
+translation.projects.origin	来源
+translation.projects.pullRequest	PR
+translation.projects.pullRequests	拉取请求
+translation.projects.attachedTo	附加到
+translation.projects.whyLinked	为何链接到这里
+translation.projects.source	来源
+translation.projects.relation	关系
+translation.projects.openSession	打开会话
+translation.projects.outcome.merged	已合并 PR
+translation.projects.outcome.open	开放 PR
+translation.projects.outcome.none	无已合并 PR
+translation.projects.prState.merged	已合并
+translation.projects.prState.open	开放
+translation.projects.prState.closed	已关闭
+translation.projects.ungrouped	仅按模式链接
+translation.projects.noParentFound	{{key}}（未找到父项）
+translation.projects.linkedAcusTooltip	来自链接到 Jira 的会话的 ACU。
+translation.projects.shareOfAllAcus	占全部 ACU 的 {{share}}
+translation.projects.outsideHierarchy	层级结构之外的已链接 ACU
+translation.projects.outsideHierarchyTooltip	其 Jira 项目无法映射到层级结构的已链接 ACU。
+translation.projects.linkedSessionsTooltip	你可见且至少有一个 Jira 链接的会话。
+translation.projects.shareOfSessions_one	{{total}} 个会话中的 {{share}}
+translation.projects.shareOfSessions_other	{{total}} 个会话中的 {{share}}
+translation.projects.morePullRequests_one	另外 {{count}} 个拉取请求
+translation.projects.morePullRequests_other	另外 {{count}} 个拉取请求
+translation.projects.inaccessibleSessions_one	显示 {{total}} 个会话中的 {{visible}} 个。你没有 {{hidden}} 个会话的访问权。
+translation.projects.inaccessibleSessions_other	显示 {{total}} 个会话中的 {{visible}} 个。你没有 {{hidden}} 个会话的访问权。
+translation.projects.outsideHierarchySessions	层级结构之外的已链接会话
+translation.projects.outsideHierarchySessionsTooltip	其 Jira 项目无法映射到层级结构的已链接会话。
+translation.projects.sessionsBy	会话按
+translation.projects.sessionsOverTime	会话随时间变化
+translation.projects.sessionsByChild	按子项的会话
+translation.projects.sessionsByOutcome	按结果的会话
+translation.projects.sessionsByRepo	按会话数的主要仓库
+translation.projects.sessionsByOrg	按组织的会话
+translation.projects.sessionsByOrigin	按来源的会话
+translation.projects.sessionsByMode	按模式的会话
+translation.trackerAnalytics.title	Tracker 分析
+translation.trackerAnalytics.navDescription	按项目跟踪项的 ACU 用量，按 epic、项目或其他层级分组
+translation.trackerAnalytics.pageDescription	链接到跟踪项的会话的 ACU，按所选类型的祖先项分组。标题按你看到时从 tracker 实时读取。
+translation.trackerAnalytics.connection	连接
+translation.trackerAnalytics.allConnections	所有连接
+translation.trackerAnalytics.kind	分组方式
+translation.trackerAnalytics.itemColumn	项目
+translation.trackerAnalytics.sessionsColumn	会话
+translation.trackerAnalytics.acusColumn	ACU
+translation.trackerAnalytics.notVisible	你不可见
+translation.trackerAnalytics.ungrouped	未分组
+translation.trackerAnalytics.total	共 {{count}} 个不同会话 · {{acus}} ACU
+translation.trackerAnalytics.total_other	共 {{count}} 个不同会话 · {{acus}} ACU
+translation.trackerAnalytics.totalNote	链接到多个项目的会话会分别计入各组，所以各组之和可能超过总数。
+translation.trackerAnalytics.noSessionsInRange	此周期内没有已链接会话
+translation.trackerAnalytics.noKinds	还没有跟踪项链接到会话
+translation.trackerAnalytics.loadFailed	无法加载 tracker 分析
+translation.trackerAnalytics.tryAgain	重试
+translation.settingsCrumbs.newEnterpriseMcpServer	新企业 MCP 服务器
+translation.settingsCrumbs.managedMcpServer	受管 MCP 服务器
+translation.settingsCrumbs.editManagedWebhook	Webhook 详情
+translation.settingsCrumbs.configureMcpServer	配置 MCP 服务器
+translation.settingsCrumbs.setUpMcpServer	设置 MCP 服务器
+translation.settingsCrumbs.createCommunityPlaybook	创建社区 playbook
+translation.settingsCrumbs.newPlaybook	新 playbook
+translation.settingsCrumbs.configureRole	配置角色
+translation.settingsCrumbs.addRole	添加角色
+translation.settingsCrumbs.newSchedule	新计划
+translation.settingsCrumbs.connectGithubOrganization	连接 GitHub 组织
+translation.settingsCrumbs.schedule	计划
+translation.settingsCrumbs.mcpDetails	MCP 详情
+translation.campaignExplainer.label	设定目标，将目标分解为指标，然后优化指标。指标 1 和 3 上升，指标 2 下降。三者都朝目标改善。
+translation.campaignExplainer.metric	指标 {{number}}
+translation.campaignExplainer.steps.specifyGoal	设定目标
+translation.campaignExplainer.steps.breakDownGoal	将目标分解为指标
+translation.campaignExplainer.steps.optimizeMetrics	优化指标
+translation.campaignExplainer.status.target	目标
+translation.campaignExplainer.status.improving	改善中
+translation.campaignExplainer.status.improved	已改善
+translation.designSystemIcons.copyName	复制名称
+translation.designSystemIcons.copySvg	复制 SVG
+translation.designSystemIcons.nameCopied	{{name}} 已复制到剪贴板
+translation.designSystemIcons.svgCopied	{{name}} SVG 已复制到剪贴板
+translation.copyToasts.apiKey	API key 已复制
+translation.copyToasts.apiKeyId	API key ID 已复制
+translation.copyToasts.blueprint	Blueprint 已复制
+translation.copyToasts.branchName	分支名已复制
+translation.copyToasts.buildLogs	构建日志已复制
+translation.copyToasts.callbackUrl	回调 URL 已复制
+translation.copyToasts.command	命令已复制
+translation.copyToasts.datadogSessionLink	Datadog 会话链接已复制
+translation.copyToasts.failureSummary	失败摘要已复制
+translation.copyToasts.inviteLink	邀请链接已复制
+translation.copyToasts.issueId	Issue ID 已复制
+translation.copyToasts.macro	宏已复制
+translation.copyToasts.organizationId	组织 ID 已复制
+translation.copyToasts.outpostId	Outpost ID 已复制
+translation.copyToasts.profileId	配置文件 ID 已复制
+translation.copyToasts.replayUrl	回放 URL 已复制
+translation.copyToasts.roleId	角色 ID 已复制
+translation.copyToasts.scimBaseUrl	SCIM base URL 已复制
+translation.copyToasts.secretName	机密名已复制
+translation.copyToasts.skipSummary	跳过摘要已复制
+translation.copyToasts.ticketKey	工单键已复制
+translation.copyToasts.ticketUrl	工单 URL 已复制
+translation.copyToasts.variableName	变量名已复制
+translation.copyToasts.yaml	YAML 已复制
+translation.copyToasts.noDatadogSessionId	未找到 Datadog 会话 ID
+translation.copyToasts.datadogSessionLinkFailed	复制 Datadog 会话链接失败
+translation.copyToasts.copyDatadogSessionLinkToClipboard	复制 Datadog 会话链接到剪贴板
+translation.copyToasts.copyDatadogSessionLink	复制 Datadog 会话链接
+translation.firstSessionOnboarding.options.review.autoLabel	自动
+translation.firstSessionOnboarding.options.review.autoDescription	拉取请求就绪时以及此后每次推送
+translation.firstSessionOnboarding.options.review.readyLabel	PR 就绪时
+translation.firstSessionOnboarding.options.review.readyDescription	拉取请求创建时分析一次
+translation.firstSessionOnboarding.options.review.manualLabel	手动
+translation.firstSessionOnboarding.options.review.manualDescription	仅在请求时分析拉取请求
+translation.firstSessionOnboarding.options.automation.catchBugsLabel	自动捕捉 bug
+translation.firstSessionOnboarding.options.automation.catchBugsDescription	评审 main 上的提交并立即建议修复
+translation.firstSessionOnboarding.options.automation.autofixReviewLabel	自动修复 Devin Review 发现项
+translation.firstSessionOnboarding.options.automation.autofixReviewDescription	自动解决已确认的 bug
+translation.firstSessionOnboarding.options.automation.suggestLabel	建议 automation
+translation.firstSessionOnboarding.options.automation.suggestDescription	研究最近的工作并提出有用的 automation
+translation.firstSessionOnboarding.connectYourTeam	连接你的团队
+translation.firstSessionOnboarding.connectYourTasks	连接你的任务
+translation.startupReferralCallout.body	当你推荐的初创企业加入 Devin for Startups 时，你的组织获得 ${{amount}} 奖励用量。
+translation.startupReferralCallout.cta	推荐
+translation.wikiHistory.description	查看此 wiki 之前生成的版本。
+translation.wikiHistory.descriptionForBranch	查看此 wiki 分支 {{branch}} 之前生成的版本。
+translation.wikiHistory.loading	正在加载历史…
+translation.wikiHistory.noVersions	未找到历史版本。
+translation.wikiHistory.current	当前
+translation.wikiHistory.viewingHistorical	你正在查看此 wiki 的历史版本。
+translation.wikiHistory.backToCurrent	返回当前版本
+translation.codemapViewer.loading	正在加载 codemap…
+translation.codemapViewer.unavailable	Codemap 不可用
+translation.codemapViewer.unavailableBody	此 codemap 不存在或你没有访问权。
+translation.codemapViewer.fallbackTitle	Codemap
+translation.codemapViewer.traces	追踪
+translation.codemapViewer.diagram	图
+translation.codemapViewer.resizePanels	调整面板大小
+translation.codemapViewer.selectLocation	选择一个位置查看其文件
+translation.codemapViewer.openInDesktop	在 Devin Desktop 中打开
+translation.codemapViewer.moreOpenOptions	更多打开方式
+translation.codemapViewer.openInDesktopNext	在 Devin Desktop Next 中打开
+translation.codemapViewer.progress.searched	已搜索「{{pattern}}」
+translation.codemapViewer.progress.foundFiles	找到匹配「{{pattern}}」的文件
+translation.codemapViewer.progress.opened	已打开 {{name}}
+translation.codemapViewer.progress.readLines	已读取 {{name}}（第 {{start}}-{{end}} 行）
+translation.codemapViewer.progress.read	已读取 {{name}}
+translation.codemapViewer.progress.processing	处理中
+translation.enterpriseUpsell.title	升级以连接 {{integration}}
+translation.enterpriseUpsell.integrationDescription	{{integration}} 包含在 Enterprise 计划中。
+translation.enterpriseUpsell.integrationCta	联系我们的团队升级你的组织。
