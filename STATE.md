@@ -71,3 +71,10 @@ literals: ~360/938（part01 已写，覆盖 0-458 白名单 + 459+ 句选；其�
 - 实测截图：zh-CN 问候语+Devin 本地面板全中（assets/screenshots/agent-pane-zh.png）、zh-TW 全繁（zh-tw.png）
 - README 更新：91k 徽章、登录态实测、边界诚实声明；已推送
 - 剩余：无阻塞；STATE 为检查点
+
+## OpenMotion 宣传片任务（进行中）
+- 需求：用 openmotion 做视频 — pstack 中英两版；devin-zh 英→简一版、英→繁一版
+- openmotion 已装在 /tmp/openmotion（npm ci + build:studio 完成，Node 24.21 OK），server 跑在 http://127.0.0.1:56791（studioUrl 同址 #project/project）
+- MCP 工具走 stdio：scripts/mcp-client.mjs installedTool；工具名：openmotion_create_project / import_assets / edit_project / export_request 等；docs/mcp-phase1-tools.md 有契约
+- 素材就绪：/tmp/devin-icon/c-*.png（简繁特性卡+结尾卡）、cover.png、截图在 ~/work/devin-desktop-zh/assets/screenshots/、demo-clean.mp4、pstack-tour-2 录屏在 ~/screencasts/
+- 已有成品（ffmpeg 版）：promo-zh-cn/tw.mp4 各仓库 assets/，本次要出 openmotion 版本
