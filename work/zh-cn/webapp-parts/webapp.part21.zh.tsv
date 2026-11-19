@@ -1,0 +1,500 @@
+translation.liveSupport.admin.listTitle	实时支持请求
+translation.liveSupport.admin.listSubtitle	已启用实时支持的企业提交的待处理请求。每 15 秒刷新。
+translation.liveSupport.admin.loadingRequests	正在加载请求…
+translation.liveSupport.admin.noRequests	没有待处理的实时支持请求。
+translation.liveSupport.admin.colEnterprise	企业
+translation.liveSupport.admin.colUser	用户
+translation.liveSupport.admin.colSource	来源
+translation.liveSupport.admin.colStatus	状态
+translation.liveSupport.admin.colCreated	创建于
+translation.liveSupport.admin.rowOrg	组织
+translation.liveSupport.admin.rowContext	上下文
+translation.liveSupport.admin.rowSession	会话
+translation.liveSupport.admin.rowClaimed	已认领
+translation.liveSupport.admin.claimedValue	{{time}} 由 {{name}}
+translation.liveSupport.admin.detailTitle	实时支持请求
+translation.liveSupport.admin.backToList	← 实时支持请求
+translation.liveSupport.admin.loadingRequest	正在加载请求…
+translation.liveSupport.admin.requestNotFound	请求未找到。
+translation.liveSupport.admin.claim	认领
+translation.liveSupport.admin.resolve	解决
+translation.liveSupport.admin.claimed	请求已认领
+translation.liveSupport.admin.resolved	请求已解决
+translation.liveSupport.admin.claimConflict	已被他人认领
+translation.liveSupport.admin.claimFailed	认领请求失败
+translation.liveSupport.admin.resolveFailed	解决请求失败
+translation.liveSupport.admin.loadingAuth	加载认证中…
+translation.liveSupport.admin.mustBeLoggedIn	必须登录才能访问此页面。
+translation.machineSetup.baseSnapshotMismatchWarning	当前 Devin 会话使用的基础机器快照与默认工作区不同。我们无法把此会话中的工作保存回默认工作区。若要更新它，请用默认工作区新开一个 Devin。
+translation.machineSetup.devinInvestigatingRepo	Devin 正在分析仓库并填写这些步骤
+translation.machineSetup.instructionClickSave	所有步骤就绪后点「保存」
+translation.machineSetup.instructionReviewSteps	检查下方列表中的每个设置步骤，确保 Devin 找到了此仓库中每个任务的正确做法。
+translation.machineSetup.instructionSkipOrEdit	跳过或编辑看起来不对的步骤。
+translation.machineSetup.instructionVerifySteps	验证其他所有步骤都运行成功。
+translation.machineSetup.noProposedConfiguration	Devin 还没有提出任何机器设置配置。
+translation.machineSetup.okay	好
+translation.machineSetup.pendingChanges_one	{{count}} 项待处理更改
+translation.machineSetup.pendingChanges_other	{{count}} 项待处理更改
+translation.machineSetup.planningSetupSteps	正在规划环境设置所需步骤
+translation.machineSetup.remainingSetupSteps_one	{{count}} 个剩余设置步骤
+translation.machineSetup.remainingSetupSteps_other	{{count}} 个剩余设置步骤
+translation.machineSetup.repositoryCommands	仓库命令
+translation.machineSetup.repositoryConfiguration	仓库配置
+translation.machineSetup.repositoryMaintenance	仓库维护
+translation.machineSetup.reviewSetup	检查设置
+translation.machineSetup.saveSetup	保存设置
+translation.machineSetup.setupInstructions	设置说明
+translation.machineSetup.setupProgress	设置进度
+translation.machineSetup.skipAndSave	跳过并保存
+translation.machineSetup.skipRemainingStepsDescription	确定跳过剩余设置步骤？这将把所有未完成步骤标记为已跳过并继续保存设置配置。
+translation.machineSetup.skipRemainingStepsTitle	跳过剩余步骤？
+translation.machineSetup.skipTheRestAndSave	跳过其余并保存
+translation.machineSetup.stepsComplete	{{completed}}/{{total}} 步完成
+translation.machineSetup.tooLateDescription	此设置会话开始后默认工作区已被修改。我们无法把此会话中的工作安全地保存回默认工作区。若此会话中有你想上传到默认工作区的更改，可用默认工作区新开一个设置会话，让 Devin 做你要的更改。
+translation.machineSetup.tooLateTitle	来不及了 :(
+translation.markdown.invalidAttachment	无效附件
+translation.markdownEditor.collapse	收起
+translation.markdownEditor.dialogLabel	Markdown 编辑器
+translation.markdownEditor.edit	编辑
+translation.markdownEditor.expand	展开
+translation.markdownEditor.preview	预览
+translation.markdownEditor.writePlaybookHere	在此写你的 playbook…
+translation.markdownTable.copyTable	复制表格
+translation.mcpMarketplace.accessScope.appRegistrationDisconnect	断开此服务器与 PagerDuty 应用注册的连接。在下方输入你自己的 OAuth client ID 和 secret。
+translation.mcpMarketplace.accessScope.appRegistrationClientRequired	组织级访问需要自己的 OAuth client ID；此服务器不再使用应用注册
+translation.mcpMarketplace.accessScope.appRegistrationClientRequired_enterprise	企业级访问需要自己的 OAuth client ID；此服务器不再使用应用注册
+translation.mcpMarketplace.microsoft365Scopes.rowDescription	选择 Devin 能在你的 Microsoft 365 账户中做什么。每个权限解锁特定工具，Devin 只能看到你的权限允许的工具。必需权限总是包含。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.offlineAccess	让 Devin 在后台保持连接，你不必再次登录。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.userRead	让 Devin 识别你的账户（姓名和邮箱）。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.calendarsReadBasic	让 Devin 列出和打开你的事件（时间、标题、地点、与会者），不含描述和附件。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.calendarsRead	让 Devin 列出和打开你的事件，包括描述。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.calendarsReadWrite	还让 Devin 创建、更新和删除你日历上的事件。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.userReadBasicAll	让 Devin 搜索你组织中的人并读取其基本资料（姓名、邮箱、职位）。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.userReadAll	还让 Devin 查询某人的经理。需要管理员同意。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.directoryReadAll	让 Devin 通过目录数据搜索人和查询经理。需要管理员同意。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.filesRead	让 Devin 浏览你的 OneDrive 并读取文件内容。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.filesReadWrite	还让 Devin 上传文件、创建文件夹、删除文件和从分享链接打开文件。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.filesReadAll	与 Files.Read 相同，但通过覆盖你可访问的所有文件的更广权限。仅当你的管理员授予这个时才需要。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.filesReadWriteAll	与 Files.ReadWrite 相同，但通过覆盖你可访问的所有文件的更广权限。仅当你的管理员授予这个时才需要。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.sitesReadAll	与 Files.Read 相同，但通过 SharePoint 范围权限。仅当你的管理员授予这个时才需要。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.sitesReadWriteAll	与 Files.ReadWrite 相同，但通过 SharePoint 范围权限。仅当你的管理员授予这个时才需要。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.mailReadBasic	只让 Devin 列出你的邮件文件夹。读邮件需要 Mail.Read。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.mailRead	让 Devin 列出、搜索和读取你的邮件和文件夹。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.mailReadWrite	还让 Devin 创建草稿、归档、移动邮件和标记已读。不允许发送。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.mailSend	让 Devin 以你名义发邮件。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.contactsRead	让 Devin 列出和读取你的 Outlook 联系人。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.contactsReadWrite	还让 Devin 创建、更新和删除你的联系人。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.teamReadBasicAll	让 Devin 列出你所在的团队。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.channelReadBasicAll	让 Devin 列出你团队中的频道，以找到发帖位置。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.teamworkTagRead	让 Devin 列出你团队的标签，以便在频道帖中 @提及标签。需要管理员同意。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.chatReadBasic	让 Devin 列出你的聊天及其成员。不允许读消息。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.chatCreate	配合 ChatMessage.Send，让 Devin 发起 1:1 聊天并给某人发私信。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.channelMessageSend	让 Devin 以你名义在团队频道发帖。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.channelMessageReadAll	让 Devin 读取你可访问的团队频道中的帖子和回复。需要管理员同意。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.chatMessageSend	让 Devin 以你名义在你已有的聊天中发消息。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.chatRead	Chat.ReadBasic 的替代，用于列出聊天和成员。Devin 没有读消息的工具。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.chatReadWrite	让 Devin 列出聊天并在已有聊天中发消息。超出需要：优先用 Chat.ReadBasic 和 ChatMessage.Send。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.tasksRead	让 Devin 读取你的 To Do 列表和任务。
+translation.mcpMarketplace.microsoft365Scopes.descriptions.tasksReadWrite	还让 Devin 创建、更新、完成和删除你的任务。
+translation.mcpMarketplace.googleProductivityScopes.rowDescription	选择 Devin 能在你的 Google 账户中做什么。每个权限解锁特定工具，Devin 只能看到你的权限允许的工具。必需权限总是包含。
+translation.mcpMarketplace.googleProductivityScopes.descriptions.openid	让 Devin 识别你的 Google 账户。
+translation.mcpMarketplace.googleProductivityScopes.descriptions.userinfoEmail	让 Devin 看到你 Google 账户的邮箱地址。
+translation.mcpMarketplace.googleProductivityScopes.descriptions.gmailReadonly	让 Devin 搜索和读取你的 Gmail 邮件、草稿、标签和附件。
+translation.mcpMarketplace.googleProductivityScopes.descriptions.gmailModify	让 Devin 创建和发送草稿、回复和转发，以及归档、删除和标记你的 Gmail 邮件。
+translation.mcpMarketplace.googleProductivityScopes.descriptions.calendarReadonly	让 Devin 列出你的日历并读取事件。
+translation.mcpMarketplace.googleProductivityScopes.descriptions.calendarEvents	让 Devin 创建、更新和删除事件并回复邀请。
+translation.mcpMarketplace.googleProductivityScopes.descriptions.contactsReadonly	让 Devin 搜索你的 Google 联系人。
+translation.mcpMarketplace.googleProductivityScopes.descriptions.contactsOtherReadonly	让 Devin 搜索你发过邮件但未存为联系人的人。
+translation.mcpMarketplace.oauthScopeSelect.placeholder	选择 scope…
+translation.mcpMarketplace.oauthScopeSelect.searchPlaceholder	搜索 scope…
+translation.mcpMarketplace.oauthScopeSelect.empty	未找到 scope
+translation.mcpMarketplace.oauthScopeSelect.required	必需
+translation.mcpMarketplace.testTools.label	测试工具
+translation.mcpMarketplace.testTools.description	查看此 MCP 可用的工具
+translation.mcpMarketplace.testTools.test	测试
+translation.mcpMarketplace.testTools.testing	测试中…
+translation.mcpMarketplace.authHeaders.customHeaderCollision	上方 header 模板用于 \\
+translation.mcpMarketplace.writeOnlySecrets.add	添加机密
+translation.mcpMarketplace.writeOnlySecrets.empty	未添加机密
+translation.mcpMarketplace.writeOnlySecrets.nameLabel	机密名称
+translation.mcpMarketplace.writeOnlySecrets.valueLabel	机密值
+translation.mcpMarketplace.writeOnlySecrets.namePlaceholder	SECRET_NAME
+translation.mcpMarketplace.writeOnlySecrets.valuePlaceholder	值（只写）
+translation.mcpMarketplace.writeOnlySecrets.linkedPlaceholder	已关联组织机密。输入值以覆盖。
+translation.mcpMarketplace.writeOnlySecrets.configuredPlaceholder	••••••••
+translation.mcpMarketplace.writeOnlySecrets.configuredHint	已保存。输入新值以替换。
+translation.mcpMarketplace.writeOnlySecrets.unlink	与此 MCP 取消关联（不删除组织机密）
+translation.mcpMarketplace.writeOnlySecrets.delete	删除机密
+translation.mcpMarketplace.writeOnlySecrets.remove	移除机密
+translation.mcpMarketplace.writeOnlySecrets.sectionTitle	机密
+translation.mcpMarketplace.writeOnlySecrets.declaredDescription	此服务器的只写凭据，加密存储，保存后不再显示。
+translation.mcpMarketplace.writeOnlySecrets.configurableDescription	此服务器的只写凭据，加密存储，保存后不再显示。在服务器配置中以 ${KEY} 引用。
+translation.mcpMarketplace.writeOnlySecrets.stdioDescription	此服务器的只写凭据，加密存储，保存后不再显示。它们设为服务器进程的环境变量；配置也可以 ${KEY} 引用。
+translation.mcpMarketplace.writeOnlySecrets.placeholderDescription	先保存服务器，然后在此为它添加只写凭据。在服务器配置中以 ${KEY} 引用。
+translation.mcpMarketplace.setupUnavailable	无法从 marketplace 加载 {{name}}。
+translation.mcpMarketplace.addAnotherInstallation	再加一个安装
+translation.mcpMarketplace.addAnotherInstallationOf	再加一个 {{name}} 的安装
+translation.mcpMarketplace.installationSectionTitle	安装
+translation.mcpMarketplace.installationSectionDescription	Devin 用名称和简短描述区分 MCP 服务器。
+translation.mcpMarketplace.multipleInstallationsTitle	Devin 将看到此服务器的多个安装
+translation.mcpMarketplace.multipleInstallationsBody	在名称和简短描述字段中包含细节，让 Devin 能把它与这些安装区分开：
+translation.mcpMarketplace.enterpriseBadge	企业
+translation.mcpMarketplace.marketplaceServerLabel	Marketplace 服务器
+translation.mcpMarketplace.installationNameLabel	安装名称
+translation.mcpMarketplace.customHeaderNameLabel	自定义 header {{index}} 名称
+translation.mcpMarketplace.customHeaderValueLabel	自定义 header {{index}} 值
+translation.mcpMarketplace.argumentLabel	参数 {{index}}
+translation.mcpMarketplace.environmentVariableNameLabel	环境变量 {{index}} 名称
+translation.mcpMarketplace.environmentVariableValueLabel	环境变量 {{index}} 值
+translation.mcpMarketplace.importJsonParseError	无法解析配置。粘贴合法的 MCP JSON 配置（如来自 {{ideName}}、Devin CLI 或直接的服务器配置）
+translation.mcpMarketplace.installationNamePlaceholder	例如 {{name}}（EU）
+translation.mcpMarketplace.nameRequired	名称必填
+translation.mcpMarketplace.pluginUrlIncomplete	保存前填完 URL 中可输入的部分
+translation.mcpMarketplace.pluginUrlInvalidValue	URL 中可输入的部分只能是字母、数字、. _ 和 -
+translation.mcpMarketplace.pluginUrlEditableHint	只有框内部分可编辑。其余由插件设定。
+translation.mcpMarketplace.pluginUrlMoreValues	+{{count}} 个
+translation.mcpMarketplace.pluginUrlShowLess	收起
+translation.mcpMarketplace.nameTaken	此服务器已存在名为「{{name}}」的安装
+translation.mcpMarketplace.shortDescriptionLabel	简短描述
+translation.mcpMarketplace.shortDescriptionPlaceholder	例如 EU 生产账户的 {{name}}
+translation.mcpMarketplace.pluginLinkedTitle	由插件管理
+translation.mcpMarketplace.pluginLinkedBody	一个插件使用此 MCP 服务器并持有其连接设置，此处不能编辑；其余设置你可更改，仍可禁用它或移除安装。
+translation.mcpMarketplace.pluginLinkedBodyNamed_one	{{plugins}} 插件使用此 MCP 服务器并持有其连接设置，此处不能编辑；其余设置你可更改，仍可禁用它或移除安装。
+translation.mcpMarketplace.pluginLinkedBodyNamed_other	{{plugins}} 插件使用此 MCP 服务器并持有其连接设置，此处不能编辑；其余设置你可更改，仍可禁用它或移除安装。
+translation.mcpMarketplace.oauthSetupRequiredTitle	需要 OAuth 设置
+translation.mcpMarketplace.oauthSetupRequiredBody	此提供商无法自动创建 OAuth 客户端。若用 API key 认证，选择 Authorization header，值用 "Bearer ${MCP_API_KEY}"，然后在 Secrets 区添加名为 "MCP_API_KEY" 的只写机密。或者，在 Advanced 下添加预注册的 OAuth client ID。
+translation.mcpMarketplace.oauthCapabilityCheckingTitle	正在检查 OAuth 设置
+translation.mcpMarketplace.oauthCapabilityCheckingBody	Devin 正在检查此提供商能否安全启动 OAuth。
+translation.mcpMarketplace.oauthCapabilityCheckFailedTitle	OAuth 设置检查失败
+translation.mcpMarketplace.oauthCapabilityCheckFailedBody	Devin 无法检查此提供商。连接前重试。
+translation.mcpMarketplace.oauthCapabilityUnknownTitle	无法验证 OAuth 设置
+translation.mcpMarketplace.oauthCapabilityUnknownBody	Devin 无法验证自动 OAuth 设置。查看提供商文档。若提供商用 API key，选择 Authorization header，值用 "Bearer ${MCP_API_KEY}"，然后在 Secrets 区添加名为 "MCP_API_KEY" 的只写机密。或者，在 Advanced 下添加预注册的 OAuth client ID。
+translation.mcpMarketplace.memberConnectionsDisabledTitle	只能连接管理员添加的 MCP
+translation.mcpMarketplace.memberConnectionsDisabledBody	管理员已关闭自行连接远程 MCP。请管理员为组织添加此 MCP。
+translation.mcpMarketplace.connectionIncompleteTitle	连接未完成
+translation.mcpMarketplace.connectionIncompleteBody	登录 {{name}} 以完成此 MCP 服务器的连接。
+translation.mcpMarketplace.connect	连接
+translation.mcpMarketplace.connecting	连接中…
+translation.mcpMarketplace.retry	重试
+translation.mcpMarketplace.editor.outOfDateTitle	安装已过期
+translation.mcpMarketplace.editor.updating	更新中…
+translation.mcpMarketplace.editor.updateFromMarketplace	从 marketplace 更新
+translation.mcpMarketplace.editor.outOfDateBody	此安装已过期。更新它以同步 marketplace 的最新连接设置。你保存的凭据保留。
+translation.mcpMarketplace.editor.authExpiredTitle	认证已过期
+translation.mcpMarketplace.editor.reconnecting	重新连接中…
+translation.mcpMarketplace.editor.reconnect	重新连接
+translation.mcpMarketplace.editor.authExpiredBody	请重新连接此集成以恢复访问。
+translation.mcpMarketplace.editor.connectFailedTitle	无法连接
+translation.mcpMarketplace.editor.connecting	连接中…
+translation.mcpMarketplace.editor.retry	重试
+translation.mcpMarketplace.editor.connectFailedBody	无法用配置的客户端凭据获取 token。检查 client ID、secret 和 scope，然后重试。
+translation.mcpMarketplace.editor.delete	删除
+translation.mcpMarketplace.editor.areYouSure	确定？
+translation.mcpMarketplace.editor.deleteUserInstallationBody	这将永久移除你的 {{name}} MCP 安装及其所有配置。其他成员不受影响。
+translation.mcpMarketplace.editor.deleteInstallationBody	这将永久移除 {{name}} MCP 安装及其所有配置。
+translation.mcpMarketplace.editor.deletePersonalTokenTitle	删除个人 token？
+translation.mcpMarketplace.editor.deleteAllPersonalTokensTitle	删除所有个人 token？
+translation.mcpMarketplace.editor.deletePersonalTokenBody	这将永久删除你在 {{name}} 的个人 OAuth token。Devin 使用它之前你需要重新认证。
+translation.mcpMarketplace.editor.deleteAllPersonalTokensBody	这将永久删除 {{name}} 的所有个人 OAuth token。所有用户都需要重新认证。
+translation.mcpMarketplace.editor.deleteYourPersonalToken	删除你的个人 token
+translation.mcpMarketplace.editor.deleteYourPersonalTokenDescription	在你个人设置的 Connections 中管理或删除你自己的个人 OAuth token。
+translation.mcpMarketplace.editor.goToConnections	前往连接
+translation.mcpMarketplace.editor.deletePersonalToken	删除个人 token
+translation.mcpMarketplace.editor.deletePersonalTokens	删除个人 token
+translation.mcpMarketplace.editor.deletePersonalTokenDescription	永久删除你在此安装的个人 OAuth token。你需要重新连接。
+translation.mcpMarketplace.editor.deletePersonalTokensDescription	永久删除所有个人 OAuth token。所有用户都需要重新认证。
+translation.mcpMarketplace.editor.deleteServer	删除 MCP 服务器
+translation.mcpMarketplace.editor.deleteServerUserDescription	从你自己的安装中移除此 MCP 服务器。其他成员不受影响。
+translation.mcpMarketplace.editor.deleteServerDescription	从你的组织中移除此 MCP 服务器
+translation.mermaid.dialogLabel	Mermaid 图
+translation.mermaid.loadingDiagram	加载图中…
+translation.mermaid.renderError	渲染图失败：{{message}}
+translation.moreButton.addRepositories	添加仓库
+translation.moreButton.configuration	配置
+translation.moreButton.connectGithubOrg	连接 GitHub 组织
+translation.moreButton.connecting	连接中...
+translation.moreButton.countSelected	已选 {{countLabel}}
+translation.moreButton.default	默认
+translation.moreButton.disabledInAskMode	Ask 模式下禁用
+translation.moreButton.enterprise	企业
+translation.moreButton.environment	环境
+translation.moreButton.environmentStartsHidden	此会话对你的团队隐藏启动
+translation.moreButton.standaloneEnvironments	独立环境
+translation.moreButton.environmentSlackChannelUnavailable	独立环境上的会话是私有的。移除 Slack 频道或切到默认环境才能发送。
+translation.moreButton.environmentOncallUnavailable	独立环境上的会话是私有的。关闭 Oncall 模式或切到默认环境才能发送。
+translation.moreButton.orgDefaultEnvironment	{{org}}（默认）
+translation.moreButton.setAsDefaultEnvironment	设为你的默认环境
+translation.moreButton.defaultEnvironmentToggle	默认环境：{{name}}
+translation.moreButton.internalOnly	仅内部
+translation.moreButton.loading	加载中...
+translation.moreButton.loadingOrchestrators	正在加载编排器...
+translation.moreButton.loadingProfiles	正在加载配置文件...
+translation.moreButton.manageMcpConnectors	管理 MCP 连接器
+translation.moreButton.manageProfiles	管理配置文件
+translation.moreButton.noEnvironmentsFound	未找到环境
+translation.moreButton.none	无
+translation.moreButton.restrictedProfile	受限配置文件
+translation.moreButton.notableRepositories	主要仓库
+translation.moreButton.oncallMode	Oncall 模式
+translation.moreButton.only	仅
+translation.moreButton.orchestratorSettings	编排器设置
+translation.moreButton.organization	组织
+translation.moreButton.searchEnvironments	搜索环境
+translation.moreButton.securityProfile	安全配置
+translation.moreButton.selected	已选
+translation.moreButton.budget	预算
+translation.moreButton.noBudget	无
+translation.moreButton.parentBudget	父会话的预算
+translation.moreButton.setAsDefaultBudget	设为默认预算
+translation.moreButton.removeDefaultBudget	移除默认预算
+translation.moreButton.defaultBudgetToggle	默认预算：{{name}}
+translation.moreButton.gpu	专用 GPU
+translation.moreButton.gpuT4	NVIDIA T4
+translation.moreButton.gpuT4Memory	16 GB
+translation.nav.settingsTabTitle	设置
+translation.nav.askTabTitle	Ask
+translation.nav.sessionsTabTitle	会话
+translation.nav.apps	Apps
+translation.nav.appSettings	应用设置
+translation.nav.ask	Ask
+translation.nav.back	返回
+translation.nav.backToApp	回到应用
+translation.nav.betaFeatures	Beta 功能
+translation.nav.customize	自定义
+translation.nav.hideOtter	隐藏水獭
+translation.nav.hideTab	隐藏标签页
+translation.nav.more	更多
+translation.nav.newSession	新会话
+translation.nav.oncall	Oncall
+translation.nav.otterStaging	Otter（staging）
+translation.nav.organizations	组织
+translation.nav.review	Review
+translation.nav.reviewBillingTags	计费标签
+translation.nav.search	搜索
+translation.nav.security	安全
+translation.nav.sessionGroups	计费标签
+translation.nav.sessions	会话
+translation.nav.settings	设置
+translation.nav.showTab	显示标签页
+translation.nav.showTabKeyHint	右箭头把它显示为标签页
+translation.nav.wiki	Wiki
+translation.nav.compliance	合规
+translation.nav.migrations	迁移
+translation.nav.skillsCoach	Skills Coach
+translation.pageTitles.configureMcp	配置 MCP
+translation.pageTitles.setupMcp	设置 MCP
+translation.pageTitles.oncallReport	{{name}} — Oncall
+translation.notificationPreferences.title	通知
+translation.notificationPreferences.description	选择哪些通知进你的收件箱，以及其中哪些还推送到你的设备。
+translation.notificationPreferences.mobile	移动端
+translation.notificationPreferences.desktop	桌面端
+translation.notificationPreferences.mobilePushFor	把「{{name}}」推送到移动端
+translation.notificationPreferences.desktopPushFor	把「{{name}}」推送到桌面端
+translation.notificationPreferences.lockedOn	此通知始终开启，无法关闭。
+translation.notificationPreferences.someOn	部分开启
+translation.notificationPreferences.showTypes	显示「{{name}}」中的通知
+translation.notificationPreferences.hideTypes	隐藏「{{name}}」中的通知
+translation.notificationPreferences.noMobileDevice	移动推送需要 Devin 移动应用，登录并允许通知。
+translation.notificationPreferences.systemNotificationsOff	桌面推送无法到达此设备，因为系统通知已关闭。
+translation.notificationPreferences.openSystemNotifications	在偏好设置中开启
+translation.notificationPreferences.loadError	无法加载通知设置。
+translation.notificationPreferences.empty	暂无可配置的通知。
+translation.notificationInbox.loading	正在加载通知…
+translation.notificationInbox.retry	重试
+translation.notificationInbox.loadMore	加载更多
+translation.notificationInbox.errors.load	无法加载通知。
+translation.notificationInbox.errors.mutation	无法保存更改。请重试。
+translation.notificationInbox.errors.unsupported	此连接不支持此操作。
+translation.notificationInbox.title	通知
+translation.notificationInbox.filter	筛选
+translation.notificationInbox.tabs.all	全部
+translation.notificationInbox.tabs.unread	未读
+translation.notificationInbox.types.session	会话
+translation.notificationInbox.types.billing	计费
+translation.notificationInbox.types.access	访问
+translation.notificationInbox.types.system	系统
+translation.notificationInbox.types.automation	自动化
+translation.notificationInbox.collapse	关闭
+translation.notificationInbox.internal	内部
+translation.notificationInbox.showDummyData	显示演示数据
+translation.notificationInbox.fixtureApproved	被你批准
+translation.notificationInbox.fixtureDenied	被你拒绝
+translation.notificationInbox.unread	未读
+translation.notificationInbox.more	更多操作
+translation.notificationInbox.pinSidebar	固定
+translation.notificationInbox.unpinSidebar	取消固定
+translation.notificationInbox.markRead	标记已读
+translation.notificationInbox.markUnread	标记未读
+translation.notificationInbox.turnOffType	关闭 {{type}} 通知
+translation.notificationInbox.turnedOffType	已关闭 {{type}} 通知
+translation.notificationInbox.actions	操作
+translation.notificationInbox.showDetails	显示详情
+translation.notificationInbox.hideDetails	隐藏详情
+translation.notificationInbox.empty.title	全部读完
+translation.notificationInbox.empty.description	新通知会出现在这里。
+translation.notificationInbox.filteredEmpty.title	无匹配通知
+translation.notificationInbox.filteredEmpty.description	选择一个通知类型查看。
+translation.notificationInbox.unreadEmpty.title	无未读通知
+translation.notificationInbox.unreadEmpty.description	全部读完。
+translation.notificationInbox.feed.label	最近通知
+translation.notificationInbox.announcements.label	公告
+translation.notificationInbox.announcements.navigation	浏览公告
+translation.notificationInbox.announcements.position	第 {{index}} 条，共 {{total}} 条
+translation.notificationInbox.announcements.previous	上一条公告
+translation.notificationInbox.announcements.next	下一条公告
+translation.notificationInbox.announcements.hide	隐藏公告
+translation.notificationInbox.markAllAsRead	全部标为已读
+translation.notificationInbox.markAllAsUnread	全部标为未读
+translation.notificationInbox.notificationSettings	通知设置
+translation.notificationInbox.resetNotifications	恢复所有通知
+translation.notificationInbox.server.liveActivity.title	Devin 会话
+translation.notificationInbox.server.liveActivity.followingSession	正在跟随会话
+translation.notificationInbox.server.liveActivity.activity.thinking	思考中
+translation.notificationInbox.server.liveActivity.activity.planning	规划中
+translation.notificationInbox.server.liveActivity.activity.working	工作中
+translation.notificationInbox.server.liveActivity.activity.runningCommand	运行命令
+translation.notificationInbox.server.liveActivity.activity.usingBrowser	使用浏览器
+translation.notificationInbox.server.liveActivity.activity.usingComputer	使用电脑
+translation.notificationInbox.server.liveActivity.activity.waitingForCi	等待 CI
+translation.notificationInbox.server.liveActivity.activity.waitingOnChild	等待子会话
+translation.notificationInbox.server.liveActivity.activity.coding	写代码
+translation.notificationInbox.server.liveActivity.activity.testing	测试中
+translation.notificationInbox.server.liveActivity.activity.needsInput	等待你
+translation.notificationInbox.server.liveActivity.activity.completed	已完成
+translation.notificationInbox.server.liveActivity.activity.cancelled	已停止
+translation.notificationInbox.server.liveActivity.activity.failed	失败
+translation.notificationInbox.server.accessRequest.title	访问请求
+translation.notificationInbox.server.accessRequest.body	{{name}} 请求访问 {{account}}
+translation.notificationInbox.server.accessRequest.review	评审
+translation.notificationInbox.server.accessRequest.outcome.approved	已批准
+translation.notificationInbox.server.accessRequest.outcome.denied	已拒绝
+translation.notificationInbox.server.accessRequest.settings.name	待批准的访问请求
+translation.notificationInbox.server.accessRequest.settings.description	有人请求访问，而你可以批准。
+translation.notificationInbox.server.accessRequestResolved.title.approved	访问已批准
+translation.notificationInbox.server.accessRequestResolved.title.denied	访问被拒绝
+translation.notificationInbox.server.accessRequestResolved.body.approved	你对 {{account}} 的访问请求已批准
+translation.notificationInbox.server.accessRequestResolved.body.denied	你对 {{account}} 的访问请求被拒绝
+translation.notificationInbox.server.accessRequestResolved.startSession	开始会话
+translation.notificationInbox.server.accessRequestResolved.settings.name	你的访问请求已答复
+translation.notificationInbox.server.accessRequestResolved.settings.description	你的访问请求已批准或被拒绝。
+translation.notificationInbox.server.automationRunFailed.title	自动化失败
+translation.notificationInbox.server.automationRunFailed.bodyOne	{{name}} 失败。
+translation.notificationInbox.server.automationRunFailed.body	{{name}} 连续失败 {{count}} 次。
+translation.notificationInbox.server.automationRunFailed.open	查看自动化
+translation.notificationInbox.server.automationRunFailed.outcome.recovered	已恢复
+translation.notificationInbox.server.automationRunFailed.settings.name	自动化失败
+translation.notificationInbox.server.automationRunFailed.settings.description	一个自动化运行失败。
+translation.notificationInbox.server.budgetThreshold.title	已消耗用量预算的 {{percent}}%
+translation.notificationInbox.server.budgetThreshold.body	账户总计：本周期已消耗 {{consumed}}/{{limit}} ACU
+translation.notificationInbox.server.budgetThreshold.bodyForBudget	{{name}}：本周期已消耗 {{consumed}}/{{limit}} ACU
+translation.notificationInbox.server.budgetThreshold.bodyDollars	账户总计：本周期已消耗 {{consumed}}/{{limit}}
+translation.notificationInbox.server.budgetThreshold.bodyForBudgetDollars	{{name}}：本周期已消耗 {{consumed}}/{{limit}}
+translation.notificationInbox.server.budgetThreshold.viewUsage	查看用量
+translation.notificationInbox.server.budgetThreshold.outcome.superseded	已达更高阈值
+translation.notificationInbox.server.budgetThreshold.outcome.period_ended	周期已结束
+translation.notificationInbox.server.budgetThreshold.settings.name	达到预算阈值
+translation.notificationInbox.server.budgetThreshold.settings.description	用量跨过用量预算的阈值。
+translation.notificationInbox.server.integrationDisconnected.title	{{integration}} 已断开
+translation.notificationInbox.server.integrationDisconnected.body	Devin 无法连接 {{integration}}。需要它的会话会失败，直到重连。
+translation.notificationInbox.server.integrationDisconnected.bodyNamed	Devin 无法连接 {{integration}}（{{name}}）。需要它的会话会失败，直到重连。
+translation.notificationInbox.server.integrationDisconnected.reconnect	重新连接
+translation.notificationInbox.server.integrationDisconnected.outcome.reconnected	已重连
+translation.notificationInbox.server.integrationDisconnected.outcome.removed	已移除
+translation.notificationInbox.server.integrationDisconnected.settings.name	集成断开
+translation.notificationInbox.server.integrationDisconnected.settings.description	Devin 失去了与某个集成（如 GitHub）的连接。
+translation.notificationInbox.server.teamsConnectionNeedsAttention.title	Microsoft Teams 连接需要你处理
+translation.notificationInbox.server.teamsConnectionNeedsAttention.body.automation_channel_lost	一个 Microsoft Teams 自动化停止接收其频道的消息。Devin AI 可能已被移出团队、频道可能已被删除，或 Teams 管理员可能已吊销 Devin 的频道权限。把 Devin AI 加回团队，或更新自动化。
+translation.notificationInbox.server.teamsConnectionNeedsAttention.body.bot_blocked	Devin 无法在 Microsoft Teams 回复或发帖，因为 Teams 管理员屏蔽了 Devin AI 应用。请 Teams 管理员在 Teams 管理中心（Teams apps > Manage apps）允许 Devin AI 应用。
+translation.notificationInbox.server.teamsConnectionNeedsAttention.action	打开设置
+translation.notificationInbox.server.teamsConnectionNeedsAttention.outcome.resolved	已解决
+translation.notificationInbox.server.teamsConnectionNeedsAttention.settings.name	Microsoft Teams 需要你处理
+translation.notificationInbox.server.teamsConnectionNeedsAttention.settings.description	有东西在阻止 Devin 使用 Microsoft Teams。
+translation.notificationInbox.server.noAccess.title	你不再有访问权
+translation.notificationInbox.server.noAccess.body	此通知涉及你不再能查看的内容。
+translation.notificationInbox.server.mentionedInSession.title	{{name}} 在此会话中需要你关注
+translation.notificationInbox.server.mentionedInSession.messageMissing	你在一条消息中被提及。
+translation.notificationInbox.server.mentionedInSession.unknownPerson	某人
+translation.notificationInbox.server.mentionedInSession.settings.name	在会话中被提及
+translation.notificationInbox.server.mentionedInSession.settings.description	有人在你可打开的会话中提及你。
+translation.notificationInbox.server.patRequestResolved.title.approved	你的 token 请求已批准
+translation.notificationInbox.server.patRequestResolved.title.denied	你的 token 请求被拒绝
+translation.notificationInbox.server.patRequestResolved.body.approved	你对个人访问 token 的请求 \\
+translation.notificationInbox.server.patRequestResolved.activateToken	激活 token
+translation.notificationInbox.server.patRequestResolved.outcome.activated	Token 已激活
+translation.notificationInbox.server.patRequestResolved.outcome.cancelled	请求已取消
+translation.notificationInbox.server.patRequestResolved.outcome.expired	请求已过期
+translation.notificationInbox.server.patRequestResolved.settings.name	你的访问 token 请求已答复
+translation.notificationInbox.server.patRequestResolved.settings.description	你的访问 token 请求已批准或被拒绝。
+translation.notificationInbox.server.sessionFinished.body	已完成工作
+translation.notificationInbox.server.sessionFinished.bodyWithPullRequest	PR 已就绪待评审。
+translation.notificationInbox.server.sessionFinished.untitledSession	你的会话
+translation.notificationInbox.server.sessionFinished.openSession	打开会话
+translation.notificationInbox.server.sessionFinished.viewPullRequest	查看 PR
+translation.notificationInbox.server.sessionFinished.outcome.pr_merged	PR 已合并
+translation.notificationInbox.server.sessionFinished.settings.name	会话完成
+translation.notificationInbox.server.sessionFinished.settings.description	你启动的一个会话完成了工作。
+translation.notificationInbox.server.sessionNeedsAttention.untitledSession	你的会话
+translation.notificationInbox.server.sessionNeedsAttention.openSession	打开会话
+translation.notificationInbox.server.sessionNeedsAttention.waitingForInput	Devin 正在等你的输入
+translation.notificationInbox.server.sessionNeedsAttention.waitingForResponse	等待回复
+translation.notificationInbox.server.sessionNeedsAttention.approvalRequired	需要批准
+translation.notificationInbox.server.sessionNeedsAttention.approveWorkflow	批准工作流
+translation.notificationInbox.server.sessionNeedsAttention.networkAccessRequested	请求网络访问
+translation.notificationInbox.server.sessionNeedsAttention.outcome.resolved	已答复
+translation.notificationInbox.server.sessionNeedsAttention.settings.name	会话需要你处理
+translation.notificationInbox.server.sessionNeedsAttention.settings.description	Devin 正在等你的输入或批准。
+translation.notificationInbox.server.sessionSharedWithYou.title	会话已共享给你
+translation.notificationInbox.server.sessionSharedWithYou.body	{{name}} 与你共享了一个会话
+translation.notificationInbox.server.sessionSharedWithYou.settings.name	会话已共享给你
+translation.notificationInbox.server.sessionSharedWithYou.settings.description	有人与你共享了一个会话。
+translation.notificationInbox.server.sessionsRestartable.title	已停止的会话可重启
+translation.notificationInbox.server.sessionsRestartable.body	你的 {{count}} 个会话曾被用量上限停止，该上限已上调。
+translation.notificationInbox.server.sessionsRestartable.bodyOne	你的一个会话曾被用量上限停止，该上限已上调。
+translation.notificationInbox.server.sessionsRestartable.bodyResumed	被你的用量上限停止的会话已恢复。
+translation.notificationInbox.server.sessionsRestartable.bodyUnavailable	被你的用量上限停止的会话无法再恢复。
+translation.notificationInbox.server.sessionsRestartable.reviewAndResume	查看并恢复
+translation.notificationInbox.server.sessionsRestartable.outcome.resumed	已恢复
+translation.notificationInbox.server.sessionsRestartable.settings.name	已停止的会话可重启
+translation.notificationInbox.server.sessionsRestartable.settings.description	被用量上限停止的会话可以恢复。
+translation.notificationInbox.server.settingsGroups.sessions.name	我的会话
+translation.notificationInbox.server.settingsGroups.sessions.description	需要你、完成或可重启的会话。
+translation.notificationInbox.server.settingsGroups.reviews.name	PR 与评审
+translation.notificationInbox.server.settingsGroups.reviews.description	评审请求、你 PR 上的活动和 Devin Review 结果。
+translation.notificationInbox.server.settingsGroups.billing.name	用量与计费
+translation.notificationInbox.server.settingsGroups.billing.description	用量上限、预算和合同日期。
+translation.notificationInbox.server.settingsGroups.requests.name	请求与批准
+translation.notificationInbox.server.settingsGroups.requests.description	等你的请求，和你自己请求的答复。
+translation.notificationInbox.server.settingsGroups.automations.name	自动化与集成
+translation.notificationInbox.server.settingsGroups.automations.description	失败的运行、断开的集成和被禁用的 webhook。
+translation.notificationInbox.server.settingsGroups.security.name	安全
+translation.notificationInbox.server.settingsGroups.security.description	你组织安全设置的更改。
+translation.notificationInbox.server.usageLimitReached.title	已超你的用量上限
+translation.notificationInbox.server.usageLimitReached.body	{{count}} 个会话因你达到用量上限而停止。
+translation.notificationInbox.server.usageLimitReached.bodyOne	1 个会话因你达到用量上限而停止。
+translation.notificationInbox.server.usageLimitReached.requestMore	申请更多
+translation.notificationInbox.server.usageLimitReached.requestPending	请求待处理
+translation.notificationInbox.server.usageLimitReached.outcome.limit_raised	上限已提高
+translation.notificationInbox.server.usageLimitReached.settings.name	已达用量上限
+translation.notificationInbox.server.usageLimitReached.settings.description	你的会话因你达到用量上限而停止。
+translation.notificationInbox.server.usageRequestResolved.title.approved	你的用量请求已批准
+translation.notificationInbox.server.usageRequestResolved.title.denied	你的用量请求被拒绝
+translation.notificationInbox.server.usageRequestResolved.title.expired	你的用量请求已过期
+translation.notificationInbox.server.usageRequestResolved.body.approved	你对 {{amount}} ACU 的请求已批准
+translation.notificationInbox.server.usageRequestResolved.body.approvedReviewed	{{reviewer}} 批准了你对 {{amount}} ACU 的请求
+translation.notificationInbox.server.usageRequestResolved.body.denied	你对 {{amount}} ACU 的请求被拒绝
+translation.notificationInbox.server.usageRequestResolved.body.deniedReviewed	{{reviewer}} 拒绝了你对 {{amount}} ACU 的请求
+translation.notificationInbox.server.usageRequestResolved.body.expired	你对 {{amount}} ACU 的请求随其所在计费周期过期
+translation.notificationInbox.server.usageRequestResolved.body.approvedDollars	你对 \${{amount}} 的请求已批准
+translation.notificationInbox.server.usageRequestResolved.body.approvedReviewedDollars	{{reviewer}} 批准了你对 \${{amount}} 的请求
+translation.notificationInbox.server.usageRequestResolved.body.deniedDollars	你对 \${{amount}} 的请求被拒绝
+translation.notificationInbox.server.usageRequestResolved.body.deniedReviewedDollars	{{reviewer}} 拒绝了你对 \${{amount}} 的请求
+translation.notificationInbox.server.usageRequestResolved.body.expiredDollars	你对 \${{amount}} 的请求随其所在计费周期过期
+translation.notificationInbox.server.usageRequestResolved.restartSessions	重启会话
+translation.notificationInbox.server.usageRequestResolved.settings.name	你的用量请求已答复
+translation.notificationInbox.server.usageRequestResolved.settings.description	你提高用量上限的请求已批准或被拒绝。
+translation.notificationInbox.server.usageRequestSubmitted.title	 需要提升用量上限
+translation.notificationInbox.server.usageRequestSubmitted.body	{{name}} 请求提升用量上限
+translation.notificationInbox.server.usageRequestSubmitted.bodyLimit	{{name}} 请求 {{limit}} ACU 的用量上限
+translation.notificationInbox.server.usageRequestSubmitted.bodyLimitDollars	{{name}} 请求 \${{limit}} 的用量上限
+translation.notificationInbox.server.usageRequestSubmitted.bodyBlockedLimit	{{name}} 已达用量上限，无法开始新工作；他们请求 {{limit}} ACU 的上限
+translation.notificationInbox.server.usageRequestSubmitted.bodyBlockedLimitDollars	{{name}} 已达用量上限，无法开始新工作；他们请求 \${{limit}} 的上限
