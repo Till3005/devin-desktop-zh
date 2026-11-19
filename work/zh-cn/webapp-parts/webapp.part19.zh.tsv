@@ -1,0 +1,500 @@
+translation.inputBox.removeDefaultTag	移除默认
+translation.inputBox.removeTagWithName	移除标签 {{tag}}
+translation.inputBox.respondToQuestion	直接回答 {{name}} 的问题或另行提问
+translation.inputBox.search	搜索
+translation.inputBox.searchPtsCodes	搜索 PTS Code…
+translation.inputBox.searchTags	搜索标签…
+translation.inputBox.selectRequiredPtsCode	选择必填的 PTS Code
+translation.inputBox.selectRequiredTag	选择必填的标签
+translation.inputBox.send	发送
+translation.inputBox.sendNow	立即发送
+translation.inputBox.setDefaultTag	设为默认
+translation.inputBox.slashCommands	命令和技能
+translation.inputBox.chooseFolderToSeeCommands	选择文件夹以查看命令
+translation.inputBox.startDevin	启动 Devin
+translation.inputBox.stopDevin	停止 Devin
+translation.inputBox.submissionInProgress	提交进行中
+translation.inputBox.subscribeToUse	订阅以使用 Devin
+translation.inputBox.subscribeToContinue	订阅以继续
+translation.inputBox.suggestDefaultModeAction	打开设置
+translation.inputBox.suggestDefaultModeDescription	当前偏好设为 {{mode}}
+translation.inputBox.suggestDefaultModeTitle	配置默认代理
+translation.inputBox.switchAgentVersion	切换到 {{version}}
+translation.inputBox.tag	标签
+translation.inputBox.taskTooLong	此任务太长
+translation.inputBox.usageQuotaExceeded	用量配额已超
+translation.inputBox.userGroup	用户
+translation.inputBox.todoStarted	· 开始于 {{time}}
+translation.inputBox.reconnecting	重新连接中…
+translation.inputBox.orchestratorNone	无
+translation.inputBox.skipQuestionFailed	跳过问题失败。请重试。
+translation.inputBox.uploadFailed	上传 {{name}} 失败
+translation.inputBox.transcribeFailed	转写音频失败。请重试。
+translation.inputBox.noSpeechDetected	未检测到语音。检查麦克风后重试。
+translation.inputBox.microphoneFailed	无法访问麦克风。请检查浏览器权限。
+translation.inputBox.playbookInlineConflict	已选 playbook 时不能内联使用 "PLAYBOOK"
+translation.inputBox.playbookRunningDevin	不能在运行中的 Devin 上使用 "PLAYBOOK"
+translation.jira.mapping.addRule	添加规则
+translation.jira.mapping.anyProject	任意项目
+translation.jira.mapping.description	把项目和标签映射到 Devin 组织
+translation.jira.mapping.defaultWorkingOrgNotice	你的映射规则会保留，切回项目映射时再生效
+translation.jira.mapping.empty	未找到项目或组织
+translation.jira.mapping.retryProjects	重试
+translation.jira.mapping.label	Jira 标签
+translation.jira.mapping.labelRequired	输入不含空格的 Jira 标签
+translation.jira.mapping.labelColumn	标签
+translation.jira.mapping.ruleRequired	选一个项目或输入一个 Jira 标签
+translation.jira.mapping.projectRequired	选择一个项目
+translation.jira.mapping.organizationRequired	选择一个 Devin 组织
+translation.jira.mapping.selectProject	选择项目…
+translation.jira.mapping.duplicateRule	此规则已存在
+translation.jira.mapping.everythingElse	其他全部
+translation.jira.mapping.noLabel	无标签
+translation.jira.mapping.noMatch	不匹配任何规则的 issue
+translation.jira.mapping.noProjectsFound	未找到项目
+translation.jira.mapping.organization	Devin 组织
+translation.jira.mapping.project	项目
+translation.jira.mapping.overlap	与 {{rule}} 同时匹配时优先
+translation.jira.mapping.overlapLabelRule	{{label}} 标签
+translation.jira.mapping.overlapProjectLabelRule	{{project}} + {{label}}
+translation.jira.mapping.remove	移除规则
+translation.jira.mapping.search	搜索规则…
+translation.jira.mapping.searchProjects	搜索项目…
+translation.jira.mapping.title	项目映射
+translation.jira.mapping.titleForSite	项目映射 · {{site}}
+translation.jira.mapping.rulesTitle	映射规则
+translation.jira.mapping.rulesTitleForSite	映射规则 · {{site}}
+translation.jira.mapping.rulesInfo	issue 进入其项目或标签映射的组织。从 Devin app for Jira 发起时仅当请求人属于该组织才适用；否则进入其默认工作组织。
+translation.jira.mapping.rulesNone	暂无规则
+translation.jira.mapping.rulesWithDefault_one	{{count}} 条规则 · 其他 issue 进入 {{organization}}
+translation.jira.mapping.rulesWithDefault_other	{{count}} 条规则 · 其他 issue 进入 {{organization}}
+translation.jira.mapping.rulesWithoutDefault_one	{{count}} 条规则 · 不匹配规则的 issue 会收到回复，请管理员映射项目
+translation.jira.mapping.rulesWithoutDefault_other	{{count}} 条规则 · 不匹配规则的 issue 会收到回复，请管理员映射项目
+translation.jira.mapping.rulesWithoutDefaultWorkingOrg_one	{{count}} 条规则 · 不匹配规则的 issue 进入请求人的默认工作组织
+translation.jira.mapping.rulesWithoutDefaultWorkingOrg_other	{{count}} 条规则 · 不匹配规则的 issue 进入请求人的默认工作组织
+translation.jira.mapping.manage	管理
+translation.jira.mapping.noRulesWarning	添加映射规则前，Devin 会对每个 issue 回复请管理员映射项目
+translation.jira.mapping.noRulesWorkingOrgNotice	添加映射规则前，issue 进入请求人的默认工作组织
+translation.jira.environmentMapping.title	环境映射
+translation.jira.environmentMapping.titleForSite	环境映射 · {{site}}
+translation.jira.environmentMapping.description	为每个项目的 My Workspace 新会话选择环境。无权限者使用其默认环境。
+translation.jira.environmentMapping.info	这里只选环境。每个人的 Preferences 决定其 Jira 会话是否在 My Workspace 运行。
+translation.jira.environmentMapping.none	无项目映射
+translation.jira.environmentMapping.count_one	已映射 {{count}} 个项目
+translation.jira.environmentMapping.count_other	已映射 {{count}} 个项目
+translation.jira.environmentMapping.empty	没有项目配置了环境。
+translation.jira.environmentMapping.addProject	添加项目
+translation.jira.environmentMapping.remove	移除映射
+translation.jira.environmentMapping.selectEnvironment	选择环境…
+translation.jira.environmentMapping.environmentRequired	选择一个环境
+translation.jira.environmentMapping.projectsFailed	无法加载 Jira 项目。
+translation.jira.environmentMapping.saveFailed	保存 Jira 环境映射失败
+translation.jira.routing.defaultWorkingOrg	默认工作组织
+translation.jira.routing.defaultWorkingOrgDescription	把每个 issue 路由到请求人的默认工作组织。
+translation.jira.routing.label	按什么路由 issue
+translation.jira.routing.projectMapping	项目映射
+translation.jira.routing.projectMappingDescription	按项目和标签把每个 issue 路由到一个组织。
+translation.jira.routing.saveError	无法保存 Jira 路由设置。
+translation.jira.routing.title	路由
+translation.jira.routing.sectionDescription	每个 issue 由哪个 Devin 组织处理
+translation.jira.orgAccess.actor	在 Jira 中以谁操作
+translation.jira.orgAccess.actorUser	每个用户
+translation.jira.orgAccess.actorUserDescription	各自关联的 Atlassian 账户。Jira 显示他们为作者；每人以写权限连接 Atlassian。
+translation.jira.orgAccess.actorDevin	Devin
+translation.jira.orgAccess.actorDevinDescription	为 Jira 站点连接的服务账户或 app。Jira 显示 Devin 为作者，每条评论注明发起者。
+translation.jira.orgAccess.actorDevinForAutomations	自动化用 Devin，各人的会话用其本人
+translation.jira.orgAccess.actorDevinForAutomationsDescription	自动化使用为 Jira 站点连接的服务账户或 app。人发起的会话用其本人关联的 Atlassian 账户。
+translation.jira.orgAccess.actorHelp	谁执行从 Devin 会话发起的评论、编辑和流转。
+translation.jira.orgAccess.addOrganization	添加组织
+translation.jira.orgAccess.enforceToolScope	限制 Devin 的 Jira 访问
+translation.jira.orgAccess.enforceToolScopeHelp	会话中 Devin 只能看到路由到其组织的 issue
+translation.jira.orgAccess.enforceToolScopeConfirmTitle	限制 Devin 的 Jira 访问？
+translation.jira.orgAccess.enforceToolScopeWarning	这可能收窄已有会话和自动化的 Jira 访问。Devin 只能访问路由到其组织的 issue，外加发起会话的那个 issue。
+translation.jira.orgAccess.enforceToolScopeConfirm	限制访问
+translation.jira.orgAccess.toolScopeImpactLoading	正在统计 Jira 访问可能收窄的自动化…
+translation.jira.orgAccess.toolScopeImpactError	无法加载受影响的自动化数量。你仍可启用限制。
+translation.jira.orgAccess.toolScopeImpact_one	{{count}} 个已有自动化的 Jira 访问可能收窄。
+translation.jira.orgAccess.toolScopeImpact_other	{{count}} 个已有自动化的 Jira 访问可能收窄。
+translation.jira.orgAccess.lockHelp	只处理路由到它的 issue，且这些 issue 不能去别处
+translation.jira.orgAccess.lockedTitle	已锁定组织
+translation.jira.orgAccess.noLockedOrganizations	无已锁定组织
+translation.jira.orgAccess.noOrganizationsFound	未找到组织
+translation.jira.orgAccess.override	用 !org 切换组织
+translation.jira.orgAccess.overrideHelp	issue 中带 !org 的提及会在该组织而非默认组织启动会话
+translation.jira.orgAccess.saveError	无法保存 Jira 组织访问设置。
+translation.jira.orgAccess.searchOrganizations	搜索组织
+translation.jira.orgAccess.unlock	解锁 {{name}}
+translation.jira.orgAccess.overrideInfo	关闭时，带 !org 的提及被拒绝。
+translation.jira.orgAccess.enforceToolScopeInfo	路由使用项目、标签和锁定组织规则。若 !org 开启，未锁定组织也能看到其他未锁定组织的 issue。发起会话的 issue 始终可访问。
+translation.jira.orgAccess.lockInfo	锁定的组织只处理路由到它的 issue，且这些 issue 不能去任何其他组织，即使带 !org。
+translation.jira.orgAccess.lockedBadge	已锁定
+translation.jira.removedDeletedOrganizationMappings_one	已移除指向 {{count}} 个已删除组织的映射
+translation.jira.removedDeletedOrganizationMappings_other	已移除指向 {{count}} 个已删除组织的映射
+translation.jira.removedPlaybookReferences_one	已移除 {{count}} 个已删除或映射组织不可用的 playbook 引用
+translation.jira.removedPlaybookReferences_other	已移除 {{count}} 个已删除或映射组织不可用的 playbook 引用
+translation.jira.notes.title	Jira 知识
+translation.jira.notes.panelTitleForOrg	Jira 知识 · {{name}}
+translation.jira.notes.description	从你的 Jira 项目生成。管理员可编辑
+translation.jira.notes.descriptionOrganizations	按组织从送达其 issue 的 Jira 项目生成。管理员可编辑
+translation.jira.notes.statusGenerated	已生成
+translation.jira.notes.statusNotGenerated	未生成
+translation.jira.notes.generating	生成中…
+translation.jira.notes.generatedAt	更新于 {{time}}
+translation.jira.notes.notGenerated	还没有内容。点重新生成让 Devin 撰写，或在下方输入。
+translation.jira.notes.manage	管理
+translation.jira.notes.view	查看
+translation.jira.notes.intro	Devin 在接手 issue 前对此组织 Jira 项目的了解。编辑它以补充它应知道的内容。
+translation.jira.notes.sourcesTitle	撰写自
+translation.jira.notes.editMapping	编辑项目映射
+translation.jira.notes.loadingSources	正在加载项目…
+translation.jira.notes.sourcesError	无法加载此组织的项目。
+translation.jira.notes.noProjectsMapped	还没有 Jira 项目向此组织发送 issue。映射一个后 Devin 才能撰写此知识。
+translation.jira.notes.noProjectsVisible	Devin 看不到你的 Jira 站点上的任何项目，没有内容可写。
+translation.jira.notes.siteUnavailable	无法读取 {{sites, list}} 上的项目。
+translation.jira.notes.knowledgeTitle	知识
+translation.jira.notes.regenerate	重新生成
+translation.jira.notes.placeholder	Devin 应知道的关于此组织 Jira 项目的任何信息…
+translation.jira.notes.remove	移除知识
+translation.jira.notes.discard	放弃更改
+translation.jira.notes.save	保存
+translation.jira.notes.discardConfirm	放弃
+translation.jira.notes.discardTitle	放弃未保存的更改？
+translation.jira.notes.regenerateTitle	重新生成 Jira 知识？
+translation.jira.notes.regenerateDescription	Devin 会根据上面列出的项目重写知识。当前文本（包括你的编辑）将被替换。
+translation.jira.notes.removeConfirm	移除
+translation.jira.notes.removeTitle	移除 Jira 知识？
+translation.jira.notes.removeDescription	没有它 Devin 也能处理此组织的工单。之后可以重新添加组织。
+translation.jira.notes.removeLastDescription	Jira 知识已弃用。这是你账户里最后一条知识：移除它会关闭此功能，且无法再次生成。
+translation.jira.notes.removed	Jira 知识已移除
+translation.jira.notes.removeError	无法移除 Jira 知识。
+translation.jira.agentLink.accountLabel	Devin 账户
+translation.jira.agentLink.accountAdmin	{{kind}} · 你是管理员
+translation.jira.agentLink.accountAlreadyConnected	此 Devin 账户已连接 {{site}}。先断开它再连接其他站点。
+translation.jira.agentLink.accountConnectedToSite	{{kind}} · 已连接到 {{site}}
+translation.jira.agentLink.alreadyConnectedDescription	<site>{{site}}</site> 已关联到 <account>{{accountName}}</account>。无需其他操作。
+translation.jira.agentLink.alreadyConnectedTitle	已连接
+translation.jira.agentLink.alreadyOtherDescription	{{site}} 已连接到别处。先从那个账户取消关联，或联系支持（若你不知道它关联在哪里）。
+translation.jira.agentLink.alreadyOtherTitle	此站点已关联到另一个 Devin 账户
+translation.jira.agentLink.appInstalled	App 已安装
+translation.jira.agentLink.cancel	取消
+translation.jira.agentLink.contactSupport	联系支持
+translation.jira.agentLink.copyLink	复制链接
+translation.jira.agentLink.defaultThisJiraSite	此 Jira 站点
+translation.jira.agentLink.description	确认这是你的站点，然后选择要关联的 Devin 账户。
+translation.jira.agentLink.enterprise	企业
+translation.jira.agentLink.expiredDescription	连接链接为一次性，15 分钟后过期。新链接只能从 Jira 内创建——回到你的 Jira 站点再点一次 <action>Connect to Devin</action>。
+translation.jira.agentLink.expiredInstructions	在 Jira：Settings → Apps → Manage apps → <app>Devin for Jira</app> → Connect to Devin。
+translation.jira.agentLink.expiredTitle	此链接已过期或已使用
+translation.jira.agentLink.expiryNote	此链接为一次性，在 Jira 中创建后 15 分钟过期。
+translation.jira.agentLink.forwardedLinkExpiry	接收者仍需登录，链接在创建后 15 分钟过期。
+translation.jira.agentLink.genericLinkError	关联 Jira 站点失败
+translation.jira.agentLink.goToDevin	前往 Devin
+translation.jira.agentLink.heading	把你的 Jira 站点连接到 Devin
+translation.jira.agentLink.installedBy	安装者
+translation.jira.agentLink.jiraAdmin	Jira 管理员
+translation.jira.agentLink.jiraCloudSite	Jira Cloud 站点
+translation.jira.agentLink.linkCopyFailed	复制链接失败
+translation.jira.agentLink.linkCopied	链接已复制
+translation.jira.agentLink.linkSite	关联站点
+translation.jira.agentLink.linkTo	关联到
+translation.jira.agentLink.loadErrorDescription	检查 Jira 连接时出错。请重试。
+translation.jira.agentLink.loadErrorTitle	无法加载此链接
+translation.jira.agentLink.mappingDescription	在设置中把 Jira 项目映射到 Devin 组织。
+translation.jira.agentLink.noAccountsMatch	没有匹配搜索的账户
+translation.jira.agentLink.noPermissionDescription	你登录的账户不是任何 Devin 账户的管理员。把此链接转发给 Devin 管理员，让他们关联 <site>{{site}}</site>。
+translation.jira.agentLink.noPermissionDescriptionNoSite	你登录的账户不是任何 Devin 账户的管理员。把此链接转发给 Devin 管理员，让他们关联 <site>你的 Jira 站点</site>。
+translation.jira.agentLink.noPermissionDescriptionWithEmail	你以 <email>{{email}}</email> 登录，它不是任何 Devin 账户的管理员。把此链接转发给 Devin 管理员，让他们关联 <site>{{site}}</site>。
+translation.jira.agentLink.noPermissionDescriptionWithEmailNoSite	你以 <email>{{email}}</email> 登录，它不是任何 Devin 账户的管理员。把此链接转发给 Devin 管理员，让他们关联 <site>你的 Jira 站点</site>。
+translation.jira.agentLink.noPermissionTitle	需要 Devin 管理员完成
+translation.jira.agentLink.oauthConflictDescription	{{site}} 已通过 Jira OAuth 连接到另一个 Devin 账户。在此关联会把工作拆到两个账户，已被阻止。请先断开那里的 OAuth 连接，或联系支持。
+translation.jira.agentLink.oauthConflictTitle	此站点在另一账户上已有 Jira 连接
+translation.jira.agentLink.oauthConstraintMultiple	此站点的 Jira OAuth 连接在 <account>{{accountName}}</account> 上，所以 app 只能关联到那里。关联不会改变 OAuth 连接；要换账户，先断开 Jira OAuth。
+translation.jira.agentLink.oauthConstraintSingle	此站点的 Jira OAuth 连接在 <account>{{accountName}}</account> 上，所以 app 只能关联到那里。关联不会改变 OAuth 连接。
+translation.jira.agentLink.openJiraSettings	打开 Jira 设置
+translation.jira.agentLink.organization	组织
+translation.jira.agentLink.pageTitle	连接 Jira 站点
+translation.jira.agentLink.searchAccounts	搜索账户
+translation.jira.agentLink.signInButton	登录 Devin
+translation.jira.agentLink.signInDescription	你正在把一个 Jira 站点连接到 Devin。先登录——我们会把你带回这里。
+translation.jira.agentLink.signInTitle	登录以继续
+translation.jira.agentLink.successDescription	<site>{{site}}</site> 现在已连接到 <account>{{accountName}}</account>。Devin 将接受来自此站点的工作。
+translation.jira.agentLink.successDescriptionNoSite	<site>你的 Jira 站点</site>现在已连接到 <account>{{accountName}}</account>。Devin 将接受来自此站点的工作。
+translation.jira.agentLink.successTitle	Jira 站点已关联。
+translation.jira.agentLink.settings.adminAccountDescription	以 Jira 管理员身份登录 Atlassian 以注册 Devin 的 webhook。添加服务账户凭据前，评论以此账户名义发布。
+translation.jira.agentLink.settings.connect	连接
+translation.jira.agentLink.settings.connectAccount	连接账户
+translation.jira.agentLink.settings.connectAnotherSite	连接另一个站点
+translation.jira.agentLink.settings.connectWithAdminAccount	用管理员账户连接
+translation.jira.agentLink.settings.disconnectDescription	Devin 停止接收此站点的事件，监听它的自动化在你重连前停止触发。其管理员登录、服务账户凭据和项目映射会被移除。
+translation.jira.agentLink.settings.disconnectDescriptionWithApp	移除此站点的管理员登录和服务账户凭据。项目映射保留，Devin app 保持安装，继续投递事件、触发自动化并以 Devin 名义发布。
+translation.jira.agentLink.settings.disconnectTitle	断开 {{site}}？
+translation.jira.agentLink.settings.installApp	在 Jira 中安装 Devin app
+translation.jira.agentLink.settings.installAppDescription	Jira 管理员在站点上安装它，然后在这里关联。站点级，无存储凭据。
+translation.jira.agentLink.settings.installationInstalled	已安装
+translation.jira.agentLink.settings.installationLinkedOn	关联于 {{date}}
+translation.jira.agentLink.settings.installationsLoadErrorDescription	加载已关联 Jira 站点时出错。
+translation.jira.agentLink.settings.installationsLoadErrorTitle	无法加载 Jira app 连接
+translation.jira.agentLink.settings.linked	已关联
+translation.jira.agentLink.settings.notConnectedSubtitle	先用 Jira 管理员账户连接，然后添加服务账户凭据，Devin 才能以机器人身份发布、issue 才能分配给它。
+translation.jira.agentLink.settings.recommended	推荐
+translation.jira.agentLink.settings.reconnectDescription	只刷新管理员授权。服务账户凭据、项目映射和 webhook 保留。
+translation.jira.agentLink.settings.removeServiceAccountAdminIdentityWarning	重新连接管理员账户以恢复 @Devin 提及。
+translation.jira.agentLink.settings.removeServiceAccountConfirm	移除服务账户
+translation.jira.agentLink.settings.removeServiceAccountDescription	Devin 改回以连接 Jira 的管理员账户发布评论，issue 也无法再分配给 Devin。webhook、项目映射和自动化规则保留
+translation.jira.agentLink.settings.removeServiceAccountFailure	移除服务账户失败
+translation.jira.agentLink.settings.removeServiceAccountMenu	移除服务账户…
+translation.jira.agentLink.settings.removeServiceAccountSuccess	服务账户已移除
+translation.jira.agentLink.settings.removeServiceAccountTitle	移除服务账户？
+translation.jira.agentLink.settings.replaceServiceAccountCredentialsMenu	替换服务账户凭据…
+translation.jira.agentLink.settings.serviceAccountClientId	Client ID
+translation.jira.agentLink.settings.serviceAccountClientIdPlaceholder	输入 client ID
+translation.jira.agentLink.settings.serviceAccountClientIdRequired	Client ID 必填
+translation.jira.agentLink.settings.serviceAccountClientSecret	Client secret
+translation.jira.agentLink.settings.serviceAccountClientSecretPlaceholder	输入 client secret
+translation.jira.agentLink.settings.serviceAccountClientSecretRequired	Client secret 必填
+translation.jira.agentLink.settings.serviceAccountConnectFailed	添加服务账户凭据失败。请检查 client ID 和 secret。
+translation.jira.agentLink.settings.serviceAccountDialogDescription	Devin 以此服务账户发布评论，把 issue 分配给它会启动一个会话。在你的 Atlassian 组织管理设置中创建其 OAuth 2.0 凭据
+translation.jira.agentLink.settings.serviceAccountDialogReplaceDescription	新凭据立即生效。webhook、项目映射和自动化规则保留
+translation.jira.agentLink.settings.serviceAccountDialogReplaceSubmit	替换凭据
+translation.jira.agentLink.settings.serviceAccountDialogReplaceTitle	替换服务账户凭据
+translation.jira.agentLink.settings.serviceAccountDialogRoleHint	服务账户必须有 Jira 的 <strong>User</strong> 应用角色——在 Directory › Service accounts › 选择账户 › ⋯ › Allow access 中设置
+translation.jira.agentLink.settings.serviceAccountDialogSubmit	添加凭据
+translation.jira.agentLink.settings.serviceAccountDialogTitle	添加服务账户凭据
+translation.jira.agentLink.settings.serviceAccountRequiredScopes	必需的 Classic scope
+translation.jira.agentLink.settings.uninstalled	已卸载
+translation.jira.agentLink.settings.unlinkConfirm	取消关联站点
+translation.jira.agentLink.settings.unlinkDescription	Devin 立即停止在此 Jira 站点上工作，安装回到未认领状态。要重新关联，Jira 管理员在 Jira 中打开 Devin app 并点 Connect to Devin
+translation.jira.agentLink.settings.unlinkFailure	取消关联 Jira 站点失败
+translation.jira.agentLink.settings.unlinkSuccess	Jira 站点已取消关联
+translation.jira.agentLink.settings.unlinkTitle	取消关联 {{site}}？
+translation.jira.agentLink.settings.sitesTitle	Jira 站点
+translation.jira.agentLink.settings.sitesDescription	每个 Devin 可读取和发布的站点
+translation.jira.agentLink.settings.siteTabsLabel	Jira 站点
+translation.jira.agentLink.settings.siteTabsDescription	会话设置、技能和映射规则按站点设置。路由和知识共享
+translation.jira.agentLink.settings.siteSummary	接收事件 · 以 <strong>{{identity}}</strong> 发布
+translation.jira.agentLink.settings.siteSummaryInactive	未接收事件
+translation.jira.agentLink.settings.postsAsDevin	Devin
+translation.jira.agentLink.settings.postsAsAdmin	管理员账户
+translation.jira.agentLink.settings.siteNeedsAttention	需要处理
+translation.jira.agentLink.settings.appRow	Devin app for Jira
+translation.jira.agentLink.settings.appRowInstalled_one	从 Jira 安装 · 评论以 Devin 发布
+translation.jira.agentLink.settings.appRowInstalled_other	{{count}} 个从 Jira 的安装 · 评论以 Devin 发布
+translation.jira.agentLink.settings.appRowRemoved	已在 Jira 移除 · 取消关联旧安装；重装会开始新关联
+translation.jira.agentLink.settings.appRowNotInstalled	未安装。从 Atlassian Marketplace 安装后在此关联。
+translation.jira.agentLink.settings.installAppShort	安装 app
+translation.jira.agentLink.settings.adminRow	管理员登录
+translation.jira.agentLink.settings.adminRowConnected	注册 Devin 的 webhook
+translation.jira.agentLink.settings.adminRowNotNeeded	不需要：app 已在投递事件。
+translation.jira.agentLink.settings.adminRowMissing	未连接。以 Jira 管理员登录以注册 Devin 的 webhook。
+translation.jira.agentLink.settings.connected	已连接
+translation.jira.agentLink.settings.connectAnyway	仍然连接
+translation.jira.agentLink.settings.signInAsAdmin	以管理员登录
+translation.jira.agentLink.settings.serviceAccountRow	服务账户
+translation.jira.agentLink.settings.serviceAccountRowAdded	评论以 Devin 发布
+translation.jira.agentLink.settings.serviceAccountRowAddedNoSessionAccess	评论以 Devin 发布，但没有人类所有者的会话（如服务用户和不以创建者身份运行的自动化）无法读写 Jira。
+translation.jira.agentLink.settings.serviceAccountRowMissing	未添加。添加前评论以管理员账户发布。
+translation.jira.agentLink.settings.serviceAccountRowRejected	Atlassian 拒绝其凭据。替换前评论以管理员账户发布。
+translation.jira.agentLink.settings.serviceAccountRowNotNeeded	不需要：app 以 Devin 发布。
+translation.jira.agentLink.settings.added	已添加
+translation.jira.agentLink.settings.unlinkAppMenu	取消关联 Devin app…
+translation.jira.agentLink.settings.footerPostsAsAdmin_one	{{sites, list}} 以连接它的管理员账户发布评论。添加服务账户凭据，Devin 才能以自身发布、issue 才能分配给它。
+translation.jira.agentLink.settings.footerPostsAsAdmin_other	{{sites, list}} 以连接它们的管理员账户发布评论。添加服务账户凭据，Devin 才能以自身发布、issue 才能分配给它。
+translation.jira.agentLink.settings.permissionsDialogDescription	Devin 在 {{site}} 的服务账户需具备以下 Jira 权限才能操作 issue：
+translation.jira.agentLink.settings.permissionsDialogDocs	Jira 配置指南
+translation.jira.agentLink.settings.permissionsDialogGrant	把这些权限授予此服务账户。
+translation.jira.agentLink.settings.permissionsDialogReplace	或换成已有这些权限的服务账户。
+translation.jira.agentLink.settings.permissionsDialogReplaceButton	替换服务账户…
+translation.jira.agentLink.settings.permissionsDialogTitle	服务账户缺少 Jira 权限
+translation.jira.agentLink.settings.permissionsGrantHint	在 Jira 中，项目管理员把服务账户加入持有这些权限的项目角色（在项目设置中），或 Jira 管理员在项目的 <permissionsLink>permission scheme</permissionsLink> 中授予。Devin 一分钟内生效。
+translation.jira.agentLink.settings.permissionsReviewButton	查看权限
+translation.jira.agentLink.settings.permissionsTooltip	缺少 Jira 权限：{{permissions, list}}
+translation.jira.agentLink.settings.serviceAccountRejectedTooltip	Atlassian 拒绝此服务账户的凭据，评论以管理员账户发布。其凭据可能已被吊销或过期：替换它们。
+translation.jira.agentLink.settings.webhookBannerDefaultError	Devin 无法刷新 Jira webhook，可能停止接收 Jira 更新。用管理员账户重连 Jira 以恢复 webhook 投递。项目映射保留。
+translation.jira.agentLink.settings.webhookBannerRefresh	刷新 webhook
+translation.jira.agentLink.settings.rowActions	{{row}} 操作
+translation.jira.agentLink.settings.attentionTitle_one	一个 Jira 连接需要处理
+translation.jira.agentLink.settings.attentionTitle_other	{{count}} 个 Jira 连接需要处理
+translation.jira.agentLink.settings.attentionSite	<strong>{{site}}</strong>：{{issues}}
+translation.jira.agentLink.settings.attentionWebhook	webhook 无法刷新，重连管理员登录
+translation.jira.agentLink.settings.attentionPermissions_one	服务账户缺少 {{count}} 项 Jira 权限，请查看
+translation.jira.agentLink.settings.attentionPermissions_other	服务账户缺少 {{count}} 项 Jira 权限，请查看
+translation.jira.agentLink.settings.attentionAppRemoved	Devin app 已在 Jira 移除，取消关联旧安装
+translation.jira.agentLink.settings.attentionServiceAccountRejected	服务账户凭据被 Atlassian 拒绝，替换它们
+translation.jira.agentLink.settings.adminRowWebhookFailed	已连接 · Devin 无法刷新其 webhook，Jira 更新可能停止
+translation.jira.agentLink.settings.appRemovedTooltip_one	{{count}} 个安装已在 Jira 移除但仍在此关联。重装 app 会开始新关联；取消关联这个。
+translation.jira.agentLink.settings.appRemovedTooltip_other	{{count}} 个安装已在 Jira 移除但仍在此关联。重装 app 会开始新关联；取消关联它们。
+translation.jira.agentLink.settings.unlinkAppShort	取消关联
+translation.jira.agentLink.settings.refreshWebhookDescription	不离开 Devin，用当前管理员登录重试续期 webhook。适用于临时故障；若 Jira 持续拒绝，请重连。
+translation.jira.agentLink.settings.webhookReviewButton	查看
+translation.jira.agentLink.settings.webhookDialogTitle	管理员登录无法刷新 webhook
+translation.jira.agentLink.settings.webhookDialogDescription	Devin 用管理员登录在 {{site}} 注册 webhook 并定期续期。最近几次续期失败，Jira 更新（新评论、分配、状态变化）可能不再送达 Devin：
+translation.jira.agentLink.settings.webhookDialogReconnect	重新连接管理员登录。
+translation.jira.agentLink.settings.webhookDialogReconnectHint	再以 Jira 管理员登录一次；Devin 重新注册 webhook。服务账户凭据、项目映射和现有 webhook 保留。可修复被吊销、过期或收窄的授权。
+translation.jira.agentLink.settings.webhookDialogRefresh	或刷新 webhook。
+translation.jira.agentLink.settings.webhookDialogRefreshHint	不离开 Devin，用当前登录重试续期。足以应付 Jira 临时故障；若 Jira 持续拒绝，请重连。
+translation.jira.agentLink.settings.webhookDialogWhyAdmin	即使已添加服务账户，也只有管理员登录能续期 webhook：Jira 把 webhook 绑定到注册它的账户。
+translation.jira.agentLink.settings.webhookError.auth	Jira 拒绝了请求：连接 Jira 的管理员账户可能已失去访问权，或其权限或 scope 变了。
+translation.jira.agentLink.settings.webhookError.serviceAccountAuth	Jira 拒绝了请求。webhook 由管理员登录而非服务账户续期，所以该管理员账户需要 webhook（manage:jira-webhook）权限。
+translation.jira.agentLink.settings.webhookError.invalidConnection	Jira 找不到已连接的站点或其 webhook；连接可能已在 Jira 侧被移除。
+translation.jira.agentLink.settings.webhookError.network	Devin 无法连接 Jira 续期 webhook。通常是临时的，会自动重试。
+translation.jira.agentLink.settings.webhookError.unknown	续期 webhook 因意外原因失败。Devin 会持续重试；若一直失败，请重连。
+translation.jira.agentLink.settings.attentionWebhookRetry	webhook 无法刷新，刷新它或重连管理员登录
+translation.jira.agentLink.settings.webhookDialogRefreshFirst	刷新 webhook。
+translation.jira.agentLink.settings.webhookDialogReconnectLater	若仍失败，重连管理员登录。
+translation.jira.agentLink.tryAgain	重试
+translation.jira.agentLink.tryIt	试试——把一个 Jira 工单分配给 <agent>Devin</agent>，看会话启动。
+translation.jira.agentLink.accountUnavailable	{{kind}} · 此站点不可用
+translation.jira.agentLink.unknownSite	未知站点
+translation.jira.appOnlySitePicker_labels	需要 Jira 管理员用管理员账户连接 {{site}} 才能选标签。
+translation.jira.appOnlySitePicker_statuses	需要 Jira 管理员用管理员账户连接 {{site}} 才能选状态。
+translation.jira.appOnlySitePicker_assignees	需要 Jira 管理员用管理员账户连接 {{site}} 才能选处理人。
+translation.jira.appOnlySitePicker_epics	需要 Jira 管理员用管理员账户连接 {{site}} 才能选 epic。
+translation.jira.appOnlySiteConnectLink	打开 Jira 连接
+translation.jira.appOnlySiteAskAdmin	请 Devin 管理员在 Settings > Connections > Jira 中连接它。
+translation.jira.connectAccountToPickProjects	连接你的 Atlassian 账户以选择项目
+translation.jira.noProjectsMapped	没有 Jira 项目映射到此组织。在 Jira 连接设置中映射。
+translation.jira.mappedProjectsNotVisible_one	已映射项目 {{ids}} 对 {{identity}} 不可见
+translation.jira.mappedProjectsNotVisible_other	已映射项目 {{ids}} 对 {{identity}} 不可见
+translation.jira.grantBrowseProjects	在 Jira 中授予它 Browse projects 权限
+translation.jira.openJiraProjectSettings	打开 Jira 项目设置
+translation.jira.listingIdentity.serviceAccount	Devin 的 Jira 服务账户
+translation.jira.listingIdentity.admin	已连接的 Jira 管理员账户
+translation.jira.listingIdentity.app	Devin for Jira app
+translation.jira.listingIdentity.personal	你的 Atlassian 账户
+translation.jira.loadingStatuses	正在加载状态…
+translation.jira.noProjects	无 Jira 项目
+translation.jira.noProjectsMappedTooltip	此组织无可用 Jira 项目。检查 Devin 的 Jira 账户能否看到该项目；企业组织还需在 Jira 连接设置中映射到此组织。
+translation.jira.noStatuses	无 Jira 状态
+translation.jira.noStatusesFound	未找到状态
+translation.jira.projectsError.saSiteAccessRevoked	Jira 完全拒绝了服务账户——其站点访问权似乎已被吊销（常因访问过期或身份治理策略）。请 Jira 管理员重新授予服务账户站点的产品访问权，并将其豁免出自动吊销策略以防复发。
+translation.jira.projectsError.saNoPermission	Jira 服务账户看不到任何项目。确保它在 Jira 中有 Browse projects 权限和 read:jira-work scope，然后重试。
+translation.jira.projectsError.adminNoPermission	已连接的 Jira 账户看不到任何项目。确保它在 Jira 中有 Browse projects 权限和 read:jira-work scope，或用有权限的账户重连 Jira。
+translation.jira.projectsError.connectRequired	连接你的 Atlassian 账户以加载 Jira 项目。
+translation.jira.projectsError.notConnected	未找到 Jira 集成。重连 Jira 以管理项目映射。
+translation.jira.projectsError.tokenRefreshFailed	Jira 认证失败且 token 无法刷新。重连 Jira 以恢复访问。
+translation.jira.projectsError.agentTokenUnavailable	Devin app for Jira 还未签到，无法列出项目。几分钟后重试。
+translation.jira.projectsError.rateLimited	Jira 正在限流此站点的请求，暂时无法列出项目。几分钟后重试。
+translation.jira.projectsError.generic	无法从 Jira 加载项目。
+translation.jira.searchStatuses	搜索状态…
+translation.jira.siteSelection.title	选择 Jira 站点
+translation.jira.siteSelection.description	你的 Atlassian 账户可访问多个 Jira 站点
+translation.jira.siteSelection.required	Jira 站点必填
+translation.jira.siteSelection.connect	连接
+translation.jira.siteSelection.cancel	取消
+translation.jira.siteSelection.loadFailed	无法加载你的 Jira 站点。重新连接试试。
+translation.jira.siteSelection.expired	此 Jira 登录已过期。重新连接以选择站点。
+translation.jira.siteSelection.success	已连接到 {{site}}
+translation.jira.siteSelection.failure	连接 Jira 失败
+translation.jiraAssignee.loadingUsers	正在加载用户…
+translation.jiraAssignee.noJiraUsers	无 Jira 用户
+translation.jiraAssignee.noUsersFound	未找到用户
+translation.jiraAssignee.searchUsers	搜索用户…
+translation.jiraEpic.loadingEpics	正在加载 epic…
+translation.jiraEpic.noEpicsFound	未找到 epic
+translation.jiraEpic.noJiraEpics	无 Jira epic
+translation.jiraEpic.searchEpics	搜索 epic…
+translation.jiraLabel.loadingLabels	正在加载标签…
+translation.jiraLabel.noJiraLabels	无 Jira 标签
+translation.jiraLabel.noLabelsFound	未找到标签
+translation.jiraLabel.searchLabels	搜索标签…
+translation.playbooks.author	作者
+translation.playbooks.communityAuthor	Cognition Team
+translation.playbooks.readOnly	只读
+translation.playbooks.migration.movedToSkillsTitle	此 playbook 已成为技能
+translation.playbooks.migration.movedToSkillsDescription	Devin 现在使用技能。下面是迁移前的 playbook 内容。
+translation.playbooks.migration.viewSkill	查看技能
+translation.playbooks.migration.listMovedTitle	Playbook 已迁移为技能
+translation.playbooks.migration.listEmptyTitle	无 playbook
+translation.playbooks.migration.listMovedDescription	技能是你的 playbook 的新家。打开下面的 playbook 查看它的原貌并跳到其技能，或在 Customize 中查看和管理你的技能。
+translation.playbooks.migration.viewSkills	查看技能
+translation.playbooks.migration.skillUnavailable	此 playbook 变成的技能不再可用。
+translation.playbooks.migration.checkmarxMarketplace	Checkmarx SAST Resolution marketplace 插件为此 playbook 提供技能。
+translation.playbooks.migration.skillNotCutOver	此 playbook 还未迁移为技能。稍后重试。
+translation.playbooks.migration.skillAmbiguous	多个技能声称对应此 playbook；无法从此链接打开。
+translation.playbooks.toast.createLoading	创建 playbook 中...
+translation.playbooks.toast.createSuccess	Playbook 创建成功
+translation.playbooks.toast.createError	创建 playbook 失败
+translation.playbooks.toast.updateLoading	保存 playbook 更改中...
+translation.playbooks.toast.updateSuccess	Playbook 更改保存成功
+translation.playbooks.toast.updateError	保存 playbook 更改失败
+translation.playbooks.toast.deleteLoading	删除 playbook 中...
+translation.playbooks.toast.deleteSuccess	Playbook 删除成功
+translation.playbooks.toast.deleteError	删除 playbook 失败
+translation.playbooks.toast.promoteLoading	正在把 playbook 提升到企业级...
+translation.playbooks.toast.promoteSuccess	Playbook 已提升到企业级
+translation.playbooks.toast.promoteError	把 playbook 提升到企业级失败
+translation.knowledge.title	知识
+translation.knowledge.movedToSkills	知识已迁移为技能
+translation.knowledge.movedToSkillsDescription	技能是 Devin 在会话中使用的知识的新家。在 Customize 中查看和管理你的技能。
+translation.knowledge.viewSkills	查看技能
+translation.knowledge.backToLegacyList	回到知识
+translation.knowledge.deprecationTitle	知识正在弃用
+translation.knowledge.deprecationDescription	知识正在迁移为技能。你的笔记会自动转成 knowledge 插件中的技能，内容不变。Devin 在会话中用它们的方式和今天用笔记一样，它们仍存储在 Devin 而非你的仓库。无损失，无需操作。
+translation.knowledge.learnMore	了解更多
+translation.knowledge.cleanup.title	清理你的知识
+translation.knowledge.cleanup.description	运行一个会话，让 Devin 评审从你知识迁移的技能，提议删除、合并或重命名哪些，并应用你批准的更改。
+translation.knowledge.cleanup.run	运行清理会话
+translation.knowledge.cleanup.confirmTitle	启动清理会话？
+translation.knowledge.cleanup.confirmDescription	这会启动一个真实的 Devin 会话，像其他会话一样消耗你组织余额的 ACU。Devin 会评审你迁移来的技能，在删除、合并或重命名任何内容前暂停等你批准。
+translation.knowledge.cleanup.confirm	启动会话
+translation.knowledge.cleanup.failed	启动清理会话失败。请重试。
+translation.knowledge.legacyTable.name	名称
+translation.knowledge.legacyTable.folder	文件夹
+translation.knowledge.legacyTable.author	作者
+translation.knowledge.legacyTable.createdAt	创建于
+translation.knowledge.legacyTable.empty	未找到知识
+translation.knowledge.legacyTable.loadError	无法加载知识
+translation.knowledge.legacyTable.loadErrorDescription	请稍后重试。
+translation.knowledge.manager.notice	注意
+translation.knowledge.manager.allOrganizationsInYourEnterpriseWillInheritThis	你企业中的所有组织都会继承此知识
+translation.knowledge.manager.none	无
+translation.knowledge.manager.allSessions	所有会话
+translation.knowledge.manager.knowledgeCreatedSuccessfully	知识创建成功
+translation.knowledge.manager.back	返回
+translation.knowledge.manager.create	创建
+translation.knowledge.manager.createKnowledge	创建知识
+translation.knowledge.manager.specifyWhenDevinShouldUseThisKnowledge	指定 Devin 何时使用此知识
+translation.knowledge.manager.error	错误
+translation.knowledge.manager.trigger	触发
+translation.knowledge.manager.developingAWebAppFromScratch	从零开发 Web 应用
+translation.knowledge.manager.next	下一步
+translation.knowledge.manager.deploymentChecklist	部署检查清单
+translation.knowledge.manager.contents	内容
+translation.knowledge.manager.runTheTestSuiteBeforeOpeningAPull	开 pull request 前跑测试套件
+translation.knowledge.manager.addSecretsReferenceSecretsWithSECRETNAME	添加机密。用 $SECRET_NAME 引用机密。
+translation.knowledge.manager.addSecrets	添加机密
+translation.knowledge.manager.devinMayNotRecallLongKnowledgeAccurately	Devin 可能无法准确记住过长的知识
+translation.knowledge.manager.macro	宏
+translation.knowledge.manager.macroName	macro-name
+translation.knowledge.manager.sendMacroNameInAMessageToRetrieve	在消息中发送 !macro-name 以取回此知识
+translation.knowledge.manager.selectAFolder	选择文件夹
+translation.knowledge.manager.pinToRepository	固定到仓库
+translation.knowledge.manager.searchRepositories	搜索仓库
+translation.knowledge.manager.noRepositoriesFound	未找到仓库
+translation.knowledge.manager.devinAlwaysSeesPinnedKnowledgeInTheSelected	Devin 在所选仓库中总能看到固定的知识
+translation.knowledge.manager.errorLoadingKnowledgeTryRefreshingThePage	加载知识出错。刷新页面试试。
+translation.knowledge.manager.noSuchFolder	无此文件夹
+translation.knowledge.manager.folderUpdatedSuccessfully	文件夹更新成功
+translation.knowledge.manager.folderCreatedSuccessfully	文件夹创建成功
+translation.knowledge.manager.editFolder	编辑文件夹
+translation.knowledge.manager.createFolder	创建文件夹
+translation.knowledge.manager.folderNameRequired	名称必填
+translation.knowledge.manager.description	描述
+translation.knowledge.manager.descriptionsHelpDevinAutomaticallyOrganizeKnowledge	描述帮助 Devin 自动整理知识
+translation.knowledge.manager.updating	更新中…
+translation.knowledge.manager.creating	创建中…
+translation.knowledge.manager.updateFolder	更新文件夹
+translation.knowledge.manager.youDontHavePermissionToEditThisFolder	你无权编辑此文件夹
+translation.knowledge.manager.thisWouldCreateACycleInTheHierarchy	这会在层级中形成循环
+translation.knowledge.manager.collapseFolder	收起文件夹 {{name}}
+translation.knowledge.manager.expandFolder	展开文件夹 {{name}}
+translation.knowledge.manager.itemSMovedSuccessfully_one	{{count}} 项移动成功
+translation.knowledge.manager.itemSMovedSuccessfully_other	{{count}} 项移动成功
+translation.knowledge.manager.moveItems	移动项目
+translation.knowledge.manager.moving	移动中…
+translation.knowledge.manager.itemSDeletedSuccessfully_one	{{count}} 项删除成功
+translation.knowledge.manager.itemSDeletedSuccessfully_other	{{count}} 项删除成功
+translation.knowledge.manager.deleteItems	删除项目
+translation.knowledge.manager.deleting	删除中…
+translation.knowledge.manager.rootFolder	根文件夹
+translation.knowledge.manager.knowledgeOrganizedSuccessfully	知识整理成功
