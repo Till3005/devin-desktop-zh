@@ -1,0 +1,500 @@
+translation.sessionStatus.sleepingIncreaseLimit	Devin 休眠中。要唤醒 Devin，[提高你的上限](/settings/plans)
+translation.sessionStatus.sleepingIncreaseOrgLimit	Devin 休眠中。要唤醒 Devin，[提高你组织的上限](/organizations/{{orgId}})
+translation.sessionStatus.sleepingIncreaseUserLimit	Devin 休眠中。要唤醒 Devin，请账户管理员提高你的用量上限
+translation.sessionStatus.sleepingNetworkConfig	Devin 休眠以应用更新的网络配置
+translation.sessionStatus.sleepingNoQuotaAllocation	Devin 休眠中，因为你的账户是个人计划而你不是组织所有者。详情查看你的 [plans](/settings/plans)。
+translation.sessionStatus.sleepingOrgUsageLimitExceeded	Devin 因组织用量设置而休眠。需要企业管理员提高你组织的 ACU 上限才能继续。
+translation.sessionStatus.sleepingOutOfCredits	Devin 休眠中，因为你的账户额度已用完。请检查你的计费信息。
+translation.sessionStatus.sleepingOutOfQuota	Devin 休眠中，因为 {{description}}。详情查看你的[用量设置](/settings/usage)。
+translation.sessionStatus.sleepingPaymentDeclined	Devin 休眠中，因为你组织的上一笔付款失败。要唤醒 Devin，请[更新你的支付信息](/settings/plans)
+translation.sessionStatus.sleepingRenewSubscription	Devin 休眠中。要唤醒 Devin，[管理你的订阅](/settings/plans)
+translation.sessionStatus.sleepingTotalSessionLimitExceeded	Devin 休眠中，因为此会话超过总会话 ACU 上限。确认该上限以继续，或开新会话。
+translation.sessionStatus.sleepingUsageLimitExceeded	Devin 达到你的单条消息用量上限，已自动暂停以防失控花费。想让它继续？发条消息，或在[用量设置](/settings/usage?tab=limits)中提高或移除上限。
+translation.sessionStatus.sleepingUserInactivity	Devin 因不活动而休眠。发条消息唤醒 Devin
+translation.sessionStatus.sleepingUserUsageLimitExceeded	Devin 休眠中，因为你的个人 ACU 上限已超限。请账户管理员提高你的用量上限以继续。
+translation.sessionStatus.sleepingWakeByMessage	Devin 休眠中。发条消息唤醒 Devin
+translation.sessionStatus.waking	Devin 正在唤醒。
+translation.sessionStatus.wakingForLint	Devin 正在唤醒来处理 lint 错误。
+translation.sessionStatus.wakingForPullRequest	Devin 正在唤醒来处理 PR 反馈。
+translation.sessionStatus.wakingWithEta	{{shortMessage}} 可能需要最多 90 秒。
+translation.sessionStatus.weeklyQuotaExceededTitle	周用量配额超限
+translation.sessionStatus.working	Devin 工作中…
+translation.sessionStatus.quotaExceededGenericSentence	你的用量配额已超限且按需用量已用完
+translation.sessionStatus.quotaExceededSentence	你的{{window}}用量配额已超限且按需用量已用完
+translation.sessionStatus.quotaExceededSentenceWithReset	你的{{window}}用量配额已超限且按需用量已用完。{{window}}配额于 {{resetsIn}} 重置
+translation.session.actionModelTooltip	动作模型：{{model}}
+translation.session.acuTreeThisSession	此会话
+translation.session.acuUsage	ACU 用量
+translation.session.agentVersionTooltip	Agent：{{name}}
+translation.session.archived	已归档
+translation.session.archivedByOwner	所有者归档了此会话
+translation.session.askDevin	Ask Devin
+translation.session.botFromFolderBoardDescription	来自「{{folder}}」文件夹的会话，各自认领一张工单。
+translation.session.botFromFolderChildren_one	{{count}} 个子会话留在其父级下。
+translation.session.botFromFolderChildren_other	{{count}} 个子会话留在其父级下。
+translation.session.botFromFolderCreated	已创建 {{botName}}「{{folder}}」
+translation.session.botFromFolderExists	「{{folder}}」已有其 {{botName}}
+translation.session.botFromFolderFailed	从此文件夹创建 {{botName}} 失败
+translation.session.botFromFolderSessionsStay	该文件夹已变成这个 {{botName}}，其会话仍在你的列表中。
+translation.session.botFromFolderSkipped_one	{{count}} 个会话不是你的，已跳过。
+translation.session.botFromFolderSkipped_other	{{count}} 个会话不是你的，已跳过。
+translation.session.botFromFolderTickets_one	已移交 {{count}} 个会话。
+translation.session.botFromFolderTickets_other	已移交 {{count}} 个会话。
+translation.session.archiveFolder	归档文件夹
+translation.session.botFromSessionCreated	已创建 {{botName}}「{{name}}」
+translation.session.botFromSessionFailed	从此会话创建 {{botName}} 失败
+translation.session.cancel	取消
+translation.session.category	类别
+translation.session.clickToUnarchive	点击取消归档
+translation.session.stopped	已停止
+translation.session.clickToResume	点击恢复
+translation.session.stoppedByOwner	所有者停止了此会话
+translation.session.closeSearch	关闭搜索
+translation.session.composerLabel	在此会话中给 Devin 发消息
+translation.session.connectionError	连接错误
+translation.session.connectionErrorDescription	无法加载会话。检查你的网络连接后重试。
+translation.session.create	创建
+translation.session.deleteFolder	删除文件夹
+translation.session.deleteFolderDescription	「{{folderName}}」中的会话不会被删除，但文件夹及其分组会被移除。此操作不可撤销。
+translation.session.deleteFolderTitle	删除文件夹？
+translation.session.descendantAcuUsage	后代会话 ACU 用量
+translation.session.descendantUsage	后代会话用量
+translation.session.devinStartingUp	{{name}} 启动中…
+translation.session.emptyFolder	无会话
+translation.session.emptyFolderAction	空文件夹
+translation.session.emptyFolderDnd	把会话拖到这里
+translation.session.error	错误
+translation.session.exitFocusMode	退出专注模式
+translation.session.failedToArchiveFolder	归档文件夹失败
+translation.session.failedToCreateFolder	创建文件夹失败
+translation.session.failedToDeleteFolder	删除文件夹失败
+translation.session.failedToRenameFolder	重命名文件夹失败
+translation.session.failedToUnarchiveFolder	取消归档文件夹失败
+translation.session.failedToUnpinAll	取消固定会话失败
+translation.session.folderName	文件夹名称
+translation.session.folderNameRequired	文件夹名称必填
+translation.session.folderOptions	文件夹选项
+translation.session.folders	文件夹
+translation.session.hostDisconnectedDescription	此会话在那台主机上运行。重连后可打开。
+translation.session.hostDisconnectedTitle	{{name}} 已断开
+translation.session.internalError	内部错误。
+translation.session.legacyParticipatedInfo	你参与过的他人旧会话。新的现在出现在「最近」中。
+translation.session.aboutFolder	关于 {{folderName}}
+translation.session.locked.description	在那里关闭它才能在此使用。
+translation.session.locked.forceOpen	强制打开
+translation.session.locked.forceOpenDescription	这会停止持有此会话的进程（PID {{pid}}）并在此打开会话。
+translation.session.locked.forceOpenFailed	无法停止另一个进程。
+translation.session.locked.forceOpenTitle	强制打开此会话？
+translation.session.locked.title	此会话已在另一个窗口或终端中打开
+translation.session.locked.titleWithPid	此会话已在另一个窗口或终端中打开（PID {{pid}}）
+translation.session.makeBotFromFolder	从此文件夹创建 {{botName}}
+translation.session.promoteToBot	升级为 {{botName}}
+translation.session.moveToBot	移入 {{botName}}
+translation.session.movedToBot	已移入 {{name}}
+translation.session.moveToBotFailed	移入 {{botName}} 失败
+translation.session.moveToBotSearch	搜索{{botNamePlural}}
+translation.session.moreFolders	更多文件夹
+translation.session.moveToFolder	移入文件夹
+translation.session.newFolder	新建文件夹
+translation.session.newPinnedSession	新置顶会话
+translation.session.newSession	新会话
+translation.session.newSessionInFolder	文件夹中新会话
+translation.session.newSessionInWorkspace	工作区中新会话
+translation.session.noPermission	你无权访问此会话。
+translation.session.onDemandUsage	按需用量
+translation.session.billedUsage	计费用量
+translation.session.coveredByPromotion	促销覆盖
+translation.session.promotionAcuAmount	{{amount}} ACU
+translation.session.pin	固定
+translation.session.refreshFailed	无法刷新此会话
+translation.session.refreshFailedDescription	显示上次加载的版本。检查你的网络连接。
+translation.session.resumeFailed.description	显示上次加载的版本。
+translation.session.resumeFailed.goneTitle	此会话已不存在
+translation.session.resumeFailed.goneDescription	可能已在另一个窗口或终端中被删除。
+translation.session.renameFolder	重命名文件夹
+translation.session.save	保存
+translation.session.sessionSize	会话大小
+translation.session.staffAccess.stepUp	通过 Okta 验证后查看
+translation.session.staffAccess.stepUpWaiting	等待另一个窗口中的 Okta 登录。登录后此页自动加载。
+translation.session.staffAccess.stepUpFailed	无法启动 Okta 验证。请重试。
+translation.session.staffAccess.stepUpCoversAccount	此验证覆盖账户 {{accountId}} 的所有会话。
+translation.session.staffAccess.stepUpCoversSession	此验证只覆盖此会话。
+translation.session.staffAccess.request	申请访问此会话
+translation.session.staffAccess.requestDescription	此账户的所有者或管理员批准你的请求。只开放此会话，直到过期。
+translation.session.staffAccess.pending	你的请求等待批准中。
+translation.session.staffAccess.duration	时长
+translation.session.staffAccess.reason	理由
+translation.session.staffAccess.reasonRequired	理由必填
+translation.session.staffAccess.requestFailed	你的请求无法发送。请重试。
+translation.session.title	会话
+translation.session.typingDisabled	回放期间输入已禁用
+translation.session.unauthorized	未授权
+translation.session.unpin	取消固定
+translation.session.unarchiveFolder	取消归档文件夹
+translation.session.unpinAll	全部取消固定
+translation.session.untitled	新会话
+translation.session.userMessages	用户消息
+translation.session.viewChildSessions	查看子会话
+translation.session.viewParentSession	查看父会话
+translation.session.viewSessionInsights	查看会话洞察
+translation.session.viewerTyping	{{name}} 正在输入
+translation.session.viewersTyping_one	{{count}} 人正在输入
+translation.session.viewersTyping_other	{{count}} 人正在输入
+translation.session.waitingForWakeUp	等待 {{name}} 唤醒中…
+translation.session.you	你
+translation.session.freeModeSession	免费（由 SWE-2 驱动）<br/><n>已用 {{used}}/{{limit}}</n>
+translation.session.freeModeSessionNoSlot	免费（由 SWE-2 驱动）<br/><n>{{used}}/{{limit}}</n> 被其他会话占用
+translation.session.freeModeSessionNoSlotAtCap	免费（由 SWE-2 驱动）<br/><n>{{used}}/{{limit}}</n> 被其他会话占用。归档一个以腾出名额。
+translation.session.freeModeSessionShared	免费（由 SWE-2 驱动）
+translation.session.freeUntilFirstMessage	此会话暂时免费。你的第一条消息开始计费。
+translation.session.promotionCoversUsage	此促销覆盖的会话用量免费。预定结束：{{endsAt}}。
+translation.session.approvalRequired	需要批准
+translation.session.copyLinkFailed	复制会话链接失败
+translation.session.updateVisibilityFailed	更新会话可见性失败
+translation.session.saveNameFailed	保存会话名失败
+translation.session.deleteFailed	删除会话失败：{{error}}
+translation.session.loadFullPromptFailed	无法加载会话的完整提示词。请重试。
+translation.session.bulkArchiveFailed	归档会话失败
+translation.session.bulkUnarchiveFailed	取消归档会话失败
+translation.session.createFailed	创建会话失败。请重试。
+translation.session.noLongerAccess_one	你不再有访问此会话的权限。
+translation.session.noLongerAccess_other	你不再有访问这些会话的权限。
+translation.session.unarchiveFailed	取消归档失败
+translation.session.markedNotDone	已标记为未完成
+translation.session.subscribed	已订阅
+translation.session.unsubscribed	已退订
+translation.session.playbookUploaded	Playbook 已上传
+translation.session.fileUploadBlocked	{{fileName}} 在到达 Devin 前被拦截
+translation.session.fileUploadBlockedDescription	很可能是你网络的安全策略拒绝了上传。请 IT 团队放行；重试无用。
+translation.session.fileUploadBlockedDescriptionWithReason	很可能是你网络的安全策略拒绝了上传（给出的原因：{{reason}}）。请 IT 团队放行；重试无用。
+translation.session.fileUploadDisabled	文件上传已禁用
+translation.session.fileUploadFailed	上传 {{fileName}} 失败
+translation.session.exportAcusFailed	无法加载导出所需的 ACU。请重试。
+translation.session.exportFailed	无法导出会话。请重试。
+translation.session.exportPromptFailed	无法加载会话的完整提示词。请重试。
+translation.session.nameEmpty	名称不能为空。
+translation.session.nameTooLong	会话名不能超过 {{max}} 个字符。
+translation.session.insightsAnalyzing	分析中...
+translation.session.knowledgeF1	F1：{{percent}}%
+translation.session.runSkillsInsights	运行 Skills Insights
+translation.session.runSkillsInsightsShort	运行 SI
+translation.session.skillsF1	Skills F1：{{percent}}%
+translation.session.acusValue	{{value}} ACU
+translation.session.showSuperuserBanner	显示超级用户横幅
+translation.session.organizationTooltip	组织：{{name}}
+translation.session.unknown	未知
+translation.session.unknownUser	未知用户
+translation.session.createdOnTooltip	创建于 {{date}}
+translation.session.updatedOnTooltip	更新于 {{date}}
+translation.session.createdByBot	由 {{name}} 创建
+translation.session.createdByUser	创建者：{{name}}
+translation.session.selectAllInGroup	全选 {{group}} 中的项
+translation.session.deselectAllInGroup	取消全选 {{group}} 中的项
+translation.session.loadingMore	加载更多中…
+translation.session.keyAlt	Alt
+translation.session.slackPosted	已把此会话发布到 {{target}}
+translation.session.slackPostFailed	无法把此会话发布到 {{target}}。
+translation.session.closeComparison	关闭对比
+translation.session.badgeDataAnalyst	Data Analyst
+translation.session.badgePlan	Plan
+translation.session.badgeResearch	Research
+translation.session.reported	会话已举报
+translation.session.reportFailed	举报会话失败
+translation.session.thisChannel	此频道
+translation.session.syncByDefaultPrompt	默认把新会话同步到 {{target}}？
+translation.session.syncByDefaultDescription	你已同步多个会话到这里。想让新会话自动同步吗？
+translation.session.syncSetDefault	设为默认
+translation.session.syncDefaultSaved	新 web 会话将默认同步到 {{target}}
+translation.session.archivedToast_one	会话已归档
+translation.session.archivedToast_other	已归档 {{count}} 个会话
+translation.session.unarchivedToast_one	会话已取消归档
+translation.session.unarchivedToast_other	已取消归档 {{count}} 个会话
+translation.session.undoCount_one	{{count}} 个会话
+translation.session.undoCount_other	{{count}} 个会话
+translation.session.archiveFailedToast_one	归档会话失败。请重试。
+translation.session.archiveFailedToast_other	归档会话失败。请重试。
+translation.session.unarchiveFailedToast_one	取消归档会话失败。请重试。
+translation.session.unarchiveFailedToast_other	取消归档会话失败。请重试。
+translation.sessionCategories.bug_fixing	Bug 修复
+translation.sessionCategories.ci_cd_and_devops	CI/CD 与 DevOps
+translation.sessionCategories.code_review	代码评审
+translation.sessionCategories.data_and_automation	数据与自动化
+translation.sessionCategories.documentation_and_content	文档与内容
+translation.sessionCategories.feature_development	功能开发
+translation.sessionCategories.migrations_and_upgrades	迁移与升级
+translation.sessionCategories.other	其他
+translation.sessionCategories.production_investigation	生产调查
+translation.sessionCategories.refactoring_and_optimization	重构与优化
+translation.sessionCategories.research_and_exploration	研究与探索
+translation.sessionCategories.security	安全
+translation.sessionCategories.unit_test_generation	单元测试生成
+translation.sessionCategoryDescriptions.bug_fixing	诊断、排查并解决缺陷、错误、测试失败或异常行为。
+translation.sessionCategoryDescriptions.ci_cd_and_devops	搭建和维护 CI/CD 流水线、部署配置和基础设施即代码。
+translation.sessionCategoryDescriptions.code_review	评审 pull request、分析代码质量并对现有代码给出反馈。
+translation.sessionCategoryDescriptions.data_and_automation	为重复性任务构建数据管道、脚本和自动化工作流。
+translation.sessionCategoryDescriptions.documentation_and_content	编写或更新文档、README、changelog、API 文档、wiki、翻译、本地化（i18n/l10n）和内容创作。
+translation.sessionCategoryDescriptions.feature_development	构建新功能、实现用户故事、为代码库添加新能力。
+translation.sessionCategoryDescriptions.migrations_and_upgrades	升级依赖，把框架、数据库或 API 迁移到更新的版本。
+translation.sessionCategoryDescriptions.other	不能归入以上类别的会话。
+translation.sessionCategoryDescriptions.production_investigation	在生产环境中诊断、排查并解决告警或事件。
+translation.sessionCategoryDescriptions.refactoring_and_optimization	在不改变外部行为的前提下改善代码结构、性能和可维护性。
+translation.sessionCategoryDescriptions.research_and_exploration	探索可行性、研究方案、调查选项、设计架构、写 RFC、规划和做原型。
+translation.sessionCategoryDescriptions.security	修复安全漏洞、处理 CVE、提升应用安全态势。
+translation.sessionCategoryDescriptions.unit_test_generation	编写单元测试、集成测试并提升整个代码库的测试覆盖率。
+translation.sessionLinks.livePreview	实时预览
+translation.sessionLinks.livePreviewNamed	实时预览：{{name}}
+translation.sessionLinks.pylonIssue	Issue #{{number}}
+translation.sessionLinks.scheduled	已排期
+translation.sessionInfo.plugins	已启用插件
+translation.sessionInfo.pluginFailed	失败
+translation.sessionInfo.pluginResources.counts.skills_one	{{count}} 个技能
+translation.sessionInfo.pluginResources.counts.skills_other	{{count}} 个技能
+translation.sessionInfo.pluginResources.counts.mcps_one	{{count}} 个 MCP
+translation.sessionInfo.pluginResources.counts.mcps_other	{{count}} 个 MCP
+translation.sessionInfo.pluginResources.counts.hooks_one	{{count}} 个 hook
+translation.sessionInfo.pluginResources.counts.hooks_other	{{count}} 个 hook
+translation.sessionInfo.pluginResources.counts.rules_one	{{count}} 条规则
+translation.sessionInfo.pluginResources.counts.rules_other	{{count}} 条规则
+translation.sessionInfo.pluginResources.counts.agents_one	{{count}} 个 agent
+translation.sessionInfo.pluginResources.counts.agents_other	{{count}} 个 agent
+translation.sessionInfo.pluginResources.empty	未加载资源
+translation.sessionInfo.pluginResources.unavailable	资源详情不可用
+translation.sessionInfo.suggested	建议
+translation.sessionInfo.searchBillingTags	搜索计费标签…
+translation.sessionInfo.participant	参与者
+translation.sessionInfo.applyTag	应用标签
+translation.sessionInfo.dismissSuggestion	忽略
+translation.sessionInfo.suggestedBillingTag	建议的计费标签
+translation.sessionInfo.billingTag	计费标签
+translation.sessionInfo.clearAll	全部清除
+translation.sessionInfo.environmentSettings	环境设置
+translation.sessionInfo.moreRepositories	+{{count}} 个
+translation.sessionInfo.createdBy	创建者
+translation.sessionInfo.createdByInfo	提供默认 git 身份、个人机密和个人插件。
+translation.sessionInfo.done	完成
+translation.sessionInfo.noMatchingTags	未找到标签
+translation.sessionInfo.noSubscribers	无订阅者
+translation.sessionInfo.noTag	杂项
+translation.sessionInfo.noTagInfo	用于不属于任何计费标签的一次性工作。
+translation.sessionInfo.noTags	无标签
+translation.sessionInfo.properties	属性
+translation.sessionInfo.sessionInfo	会话信息
+translation.sessionInfo.subscribersInfo	在侧栏显示会话并接收更新
+translation.sessionInfo.tag	标签
+translation.sessionInfo.tags	标签
+translation.sessionInfo.uncategorized	未分类
+translation.sessionInfo.uncategorizedInfo	清除标签
+translation.sessionInfo.removeFromSidebarInfo	从侧栏移除会话
+translation.sessionInfo.you	（你）
+translation.sessionInfo.changeBillingTag	更改计费标签
+translation.sessionInfo.suggestedBillingTagLink	建议的<billingTagLink>计费标签</billingTagLink>
+translation.sessionInfo.linkedWorkItems	关联的工作项
+translation.sessionInsights.actionableFeedback	可执行反馈
+translation.sessionInsights.acuUsage	ACU 用量
+translation.sessionInsights.acus	ACU
+translation.sessionInsights.analysisRequired	需要分析
+translation.sessionInsights.cancel	取消
+translation.sessionInsights.category	类别
+translation.sessionInsights.cost	花费
+translation.sessionInsights.description	此功能用 AI 分析你的 Devin 会话，帮你理解发生了什么、哪里可以改进、如何获得更好结果。
+translation.sessionInsights.dialogLabel	会话分析
+translation.sessionInsights.enterNonZeroAmount	输入非零数值
+translation.sessionInsights.errorDescription	加载会话分析时出错。
+translation.sessionInsights.errorGeneratingConfig	生成推荐配置变更时出错。
+translation.sessionInsights.errorTitle	出了点问题
+translation.sessionInsights.failedToSave	保存失败
+translation.sessionInsights.generateAnalysis	生成分析
+translation.sessionInsights.generateFailed	生成分析失败。请重试。
+translation.sessionInsights.generating	生成中…
+translation.sessionInsights.improvedPrompt	改进的提示词
+translation.sessionInsights.investigateWithDevin	用 Devin 调查
+translation.sessionInsights.issueTimeline	问题时间线
+translation.sessionInsights.knowledgeUsage	知识用量
+translation.sessionInsights.lastUpdated	最近更新
+translation.sessionInsights.noFeedback	无反馈
+translation.sessionInsights.noIssuesFound	未发现问题
+translation.sessionInsights.noKnowledgeUsed	此会话未使用知识
+translation.sessionInsights.noPromptChanges	未建议提示词变更
+translation.sessionInsights.noPromptImprovements	未建议提示词改进
+translation.sessionInsights.noPromptSuggestionsAvailable	无可用提示词建议
+translation.sessionInsights.notProvided	未提供
+translation.sessionInsights.onDemandUsage	按需用量
+translation.sessionInsights.other	其他
+translation.sessionInsights.pending	待处理…
+translation.sessionInsights.regenerate	重新生成
+translation.sessionInsights.regenerating	重新生成中…
+translation.sessionInsights.save	保存
+translation.sessionInsights.saved	已保存
+translation.sessionInsights.saving	保存中…
+translation.sessionInsights.sessionSize	会话大小
+translation.sessionInsights.subcategory	子类别
+translation.sessionInsights.timeWithDevin	用 Devin 的耗时
+translation.sessionInsights.timeWithDevinTooltip	在 Devin 帮助下完成此工作所需时间的估算
+translation.sessionInsights.timeWithoutDevin	不用 Devin 的耗时
+translation.sessionInsights.timeWithoutDevinTooltip	没有 AI 协助时人完成此工作所需时间的估算
+translation.sessionInsights.title	会话洞察
+translation.sessionInsights.userMessages	用户消息
+translation.sessionInsights.viewInPlayground	在 Playground 中查看
+translation.sessionSharing.accountRead	账户中任何人 · 可读
+translation.sessionSharing.accountRestrictedByPolicy	你的账户策略限制只能分享到会话所在组织。
+translation.sessionSharing.accountWrite	账户中任何人 · 可写
+translation.sessionSharing.botConversation	{{botName}} 的对话通过分享该 {{botName}} 来共享。你仍可移除已保存的访问权。
+translation.sessionSharing.botConversation_named	{{botName}} 的对话通过分享 {{botName}} 来共享。你仍可移除已保存的访问权。
+translation.sessionSharing.canManage	可分享
+translation.sessionSharing.canManageDescription	可读、可写、可管理谁有访问权
+translation.sessionSharing.canRead	可读
+translation.sessionSharing.canReadDescription	可查看实时会话
+translation.sessionSharing.canWrite	可写
+translation.sessionSharing.canWriteDescription	可查看实时会话并发消息
+translation.sessionSharing.copyLink	复制链接
+translation.sessionSharing.description	与账户中的人和角色共享实时访问。已有权限的人保留其访问权。
+translation.sessionSharing.enterpriseRead	企业中任何人 · 可读
+translation.sessionSharing.enterpriseWrite	企业中任何人 · 可写
+translation.sessionSharing.generalAccess	通用访问
+translation.sessionSharing.inheritedDescription	通过角色或账户权限获得的访问权
+translation.sessionSharing.policyRestricted	你的账户策略禁止分享。你仍可移除已保存的访问权。
+translation.sessionSharing.removeSelfError	你不能移除自己分享此会话的访问权。
+translation.sessionSharing.restrictedAccess	仅限已添加的人
+translation.sessionSharing.restrictedAccessDescription	对你组织隐藏。只有你和上面添加的人能打开此会话。
+translation.sessionSharing.saveFailed	无法更新分享。刷新后重试。
+translation.sessionSharing.saved	会话分享已更新
+translation.sessionSharing.searchPlaceholder	添加人、角色或团队
+translation.sessionSharing.searchSavedPlaceholder	搜索有访问权的人、角色或团队
+translation.sessionSharing.standaloneEnvironmentWarning	你添加的人能看到此会话中的一切，有写权限可完全控制它。
+translation.sessionSharing.superusersCount_one	{{count}} 人有访问权
+translation.sessionSharing.superusersCount_other	{{count}} 人有访问权
+translation.sessionSharing.superusersDescription	Cognition 超级用户和支持人员可打开此会话
+translation.sessionSharing.superusersInheritedDescription	通过 Cognition 管理员角色获得的访问权
+translation.sessionSharing.superusersLoadFailed	无法加载列表
+translation.sessionSharing.superusersTitle	Cognition 超级用户
+translation.sessionSharing.teamAccess	你的组织
+translation.sessionSharing.teamAccessDescription	此组织成员可按其角色找到并打开此会话。
+translation.sessionSharing.title	分享「{{title}}」
+translation.sessionSharing.widenAccountRead	账户中任何人都能读此会话，包括其中已有的一切内容。
+translation.sessionSharing.widenAccountWrite	账户中任何人都能读此会话（包括已有的一切内容）并发消息。
+translation.sessionSharing.widenConfirm	分享
+translation.sessionSharing.widenEnterpriseRead	企业中任何人都能读此会话，包括其中已有的一切内容。
+translation.sessionSharing.widenEnterpriseWrite	企业中任何人都能读此会话（包括已有的一切内容）并发消息。
+translation.sessionSharing.widenTeam	此组织成员将能按其角色找到并打开此会话，包括其中已有的一切内容。
+translation.sessionSharing.widenTitle	更广泛地分享此会话？
+translation.sessionSharing.writeRestricted	只有会话所有者能写此会话。
+translation.sessionSharing.writeRestrictedByPolicy	你的账户策略限制只有会话所有者可写。其他人只能读。
+translation.sessionSharingPicker.label	分享给
+translation.sessionSharingPicker.triggerLabel	分享给：{{audience}}
+translation.sessionSharingPicker.onlyYou	仅你
+translation.sessionSharingPicker.onlyYouDescription	对其他所有人隐藏。
+translation.sessionSharingPicker.organizationDescription	{{org}} 的成员能找到并打开此会话。
+translation.sessionSharingPicker.enterprise	你的企业
+translation.sessionSharingPicker.enterpriseReadDescription	你企业中的任何人都能打开此会话。
+translation.sessionSharingPicker.enterpriseWriteDescription	你企业中的任何人都能打开并写此会话。
+translation.sessionSharingPicker.lockedByPolicy	你组织的策略让每个会话只对其创建者可见。
+translation.sessionSharingPicker.lockedByEnvironment	此环境上的会话以你自己的仓库权限运行，所以开始时只对你可见。会话开始后你可以分享它。
+translation.sessionSharingPicker.lockedByDefault	你的组织让新会话开始时只对其创建者可见。会话开始后你可以分享它。
+translation.sessionSharingPicker.lockedByEnvironmentWithGroups	此环境上的会话以你自己的仓库权限运行，所以不能开始就分享给你的组织。选择要分享的用户组，或开始后再分享。
+translation.sessionSharingPicker.lockedByDefaultWithGroups	你的组织让新会话开始时只对其创建者可见。选择要分享的用户组，或开始后再分享。
+translation.sessionSharingPicker.slackChannelCanSee	关联的 Slack 频道仍能看到此会话。
+translation.sessionSharingPicker.slackChannelUnavailable	只对你分享的会话不能发到 Slack 频道。移除 Slack 频道或把会话分享给组织才能发送。
+translation.sessionSharingPicker.oncallUnavailable	只对你分享的会话不能用 Oncall 模式。把会话分享给组织才能发送。
+translation.sessionSharingPicker.userGroups	用户组
+translation.sessionSharingPicker.userGroupsDescription	只有你选的组的成员能打开此会话。
+translation.sessionSharingPicker.userGroupsPicked	{{names, list}}
+translation.sessionSharingPicker.userGroupsCount_one	{{count}} 个用户组
+translation.sessionSharingPicker.userGroupsCount_other	{{count}} 个用户组
+translation.sessionSharingPicker.noUserGroups	你的组织还没有用户组。
+translation.sessionSharingPicker.noMatchingUserGroups	没有匹配搜索的用户组。
+translation.sessionSharingPicker.userGroupsShareFailed	此会话无法分享给 {{names, list}}，所以只有你能看到。从会话中再次分享。
+translation.sessionSharingPicker.userGroupsSlackChannelUnavailable	分享给用户组的会话不能发到 Slack 频道。移除 Slack 频道或把会话分享给组织才能发送。
+translation.sessionSharingPicker.userGroupsOncallUnavailable	分享给用户组的会话不能用 Oncall 模式。把会话分享给组织才能发送。
+translation.sessionShareInvite.connectSlack	从 Slack 导入联系人
+translation.sessionShareInvite.connect	连接
+translation.sessionShareInvite.button	分享
+translation.sessionShareInvite.title	邀请你的团队协作会话
+translation.sessionShareInvite.noPermissionDescription	只有团队管理员能邀请新成员。复制链接把此会话分享给已在团队中的人。
+translation.sessionShareInvite.upgrade	升级到 Teams
+translation.sessionShareInvite.upgradePending	你的 Teams 升级处理中。付款完成后解锁邀请。
+translation.sessionShareInvite.submit	分享并邀请
+translation.sessionShareInvite.invited_one	已邀请 {{count}} 名队友到此会话
+translation.sessionShareInvite.invited_other	已邀请 {{count}} 名队友到此会话
+translation.sessionShareInvite.upgradedAndInvited_one	已切换到 Teams 并邀请 {{count}} 名队友
+translation.sessionShareInvite.upgradedAndInvited_other	已切换到 Teams 并邀请 {{count}} 名队友
+translation.sessionShareInvite.newPlan	新计划
+translation.sessionShareInvite.switchAndSend	切换计划并发送邀请
+translation.sessionShareInvite.freeSessionsPerk	每用户 2 个并发免费会话
+translation.sessionShareInvite.centralizedBillingPerk	集中计费与管理
+translation.sessionShareInvite.back	返回
+translation.sessionLiveActivity.sessionFinished	此会话已停止运行。恢复后再显示在你的 iPhone 上。
+translation.sessionLiveActivity.alreadyRequested	已为此会话请求过 Live Activity。
+translation.sessionLiveActivity.showOnIphone	在 iPhone 上显示
+translation.sessionLiveActivity.requestQueued	Live Activity 请求已排队到你的 iPhone。
+translation.sessionLiveActivity.noEligibleIphone	未找到符合条件的 iPhone。在此账户中打开最新 Devin iOS app 并在 iPhone 设置中启用 Live Activity。
+translation.sessionLiveActivity.startFailed	无法启动 Live Activity。请重试。
+translation.sessionMenu.deleteConnection	删除连接
+translation.sessionMenu.deleteConnectionInfo	Devin 停止从此来源同步发现
+translation.sessionMenu.viewAutomation	查看自动化
+translation.sessionMenu.deleteConnectionConfirmation	确定删除「{{name}}」？Devin 将停止从它同步发现；已导入的发现保留。此操作不可撤销。
+translation.sessionMenu.deletingConnection	删除连接中…
+translation.sessionMenu.connectionDeleted	连接已删除
+translation.sessionMenu.failedToDeleteConnection	删除连接失败
+translation.sessionMenu.keepDevinAwake	保持 Devin 唤醒
+translation.sessionMenu.agentSettings	{{botName}} 设置
+translation.sessionMenu.keepDevinAwakeError	更新 caffeinate 设置失败
+translation.sessionMenu.keepDevinAwakeQuotaExceeded	最多同时保持 {{limit}} 个会话唤醒
+translation.sessionMenu.keepDevinAwakeQuotaExceededHint	先关掉另一个会话的「保持 Devin 唤醒」。
+translation.sessionMenu.awakeFor	已唤醒 {{duration}}
+translation.sessionMenu.addDuration	加 {{duration}}
+translation.sessionMenu.duration12Hours	12 小时
+translation.sessionMenu.duration24Hours	24 小时
+translation.sessionMenu.duration72Hours	72 小时
+translation.sessionMenu.turnOff	关闭
+translation.sessionMenu.babysitting	托管
+translation.sessionMenu.babysittingError	更新托管失败
+translation.sessionMenu.babysittingLoading	加载托管设置中…
+translation.sessionMenu.babysittingLoadError	无法加载托管设置
+translation.sessionMenu.babysittingOn	开
+translation.sessionMenu.babysittingOff	关
+translation.sessionMenu.babysittingToggle	自动跟进
+translation.sessionMenu.babysittingCovers	不等你，Devin 处理
+translation.sessionMenu.babysittingCoverage.ci	失败的 CI 检查
+translation.sessionMenu.babysittingCoverage.comments	PR 评论
+translation.sessionMenu.babysittingCoverage.conflicts	合并冲突
+translation.sessionMenu.babysittingCoverage.review	Devin Review 发现
+translation.sessionMenu.babysittingCoverage.testing	测试它的更改
+translation.sessionMenu.settings	会话设置
+translation.sessionMenu.debugInfo	调试信息
+translation.sessionMenu.debugSettingsOn	调试设置已开
+translation.sessionMenu.debugInfoError	加载调试信息失败
+translation.sessionMenu.debugTimelineTotal	总计
+translation.sessionMenu.debugCopied	已复制
+translation.sessionMenu.virtualizationDebug	虚拟化调试
+translation.sessionMenu.enableEtaDebug	启用 ETA 调试模式
+translation.sessionMenu.disableEtaDebug	禁用 ETA 调试模式
+translation.sessionMenu.showBotFullTimeline	显示完整事件时间线
+translation.sessionMenu.hideBotFullTimeline	隐藏完整事件时间线
+translation.sessionMenu.showBotDeferredEvents	显示延迟事件
+translation.sessionMenu.hideBotDeferredEvents	隐藏延迟事件
+translation.sessionMenu.openInWdw	在 Watch Devin Work 中打开
+translation.sessionMenu.search	搜索
+translation.sessionMenu.noResults	无结果
+translation.sessionMenu.closePanel	关闭面板
+translation.sessionMenu.rename	重命名
+translation.sessionMenu.folder	文件夹
+translation.sessionMenu.removeFromFolder	从文件夹移除
+translation.sessionMenu.searchFolders	搜索文件夹
+translation.sessionMenu.editTags	编辑标签
+translation.sessionMenu.archive	归档
+translation.sessionMenu.unarchive	取消归档
+translation.sessionMenu.rebootVm	重启虚拟机
+translation.sessionMenu.updateNetworkConfig	更新网络配置
+translation.sessionMenu.changeSecurityProfile	更改安全配置
+translation.sessionMenu.knowledgeSuggestions	知识建议
+translation.sessionMenu.showHiddenHooks	显示隐藏的 hook
+translation.sessionMenu.hideHiddenHooks	隐藏隐藏的 hook
+translation.sessionMenu.createAutomation	从会话创建自动化
+translation.sessionMenu.improvePlaybook	从会话改进 playbook
+translation.sessionMenu.createPlaybook	从会话创建 playbook
+translation.sessionMenu.giveFeedback	给反馈
+translation.sessionMenu.reportSession	举报会话
+translation.sessionMenu.openCustomizations	打开 Customizations
+translation.sessionMenu.mcpServersEnabled_one	已启用 {{count}} 个 MCP 服务器
+translation.sessionMenu.mcpServersEnabled_other	已启用 {{count}} 个 MCP 服务器
+translation.sessionMenu.mcpServersLoading	加载 MCP 服务器中…
