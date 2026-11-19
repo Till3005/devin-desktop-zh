@@ -47,6 +47,12 @@ powershell -ExecutionPolicy Bypass -File install.ps1   # Windows
 
 重啓兩次後：命令面板搜 `Configure Display Language` → 選中文語言。還原：`bash install.sh restore`
 
+## 演示
+
+![中文介面演示](assets/screenshots/demo.gif)
+
+語言選擇器列出四個中文包（zh-cn/zh-tw/zh-hk/zh-mo，與官方語言包並存）；選單、設定、命令面板、Devin 面板與問候語全中文。原始錄屏：[demo.mp4](assets/screenshots/demo.mp4)
+
 ## 實測截圖
 
 | 設置介面（zh-CN） | 語言選擇器（4 中文包） |

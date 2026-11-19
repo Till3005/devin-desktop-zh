@@ -47,6 +47,12 @@ powershell -ExecutionPolicy Bypass -File install.ps1   # Windows
 
 重启两次后：命令面板搜 `Configure Display Language` → 选中文语言。一次选择同时驱动编辑器界面与登录态 Devin 面板。还原：`bash install.sh restore`
 
+## 演示
+
+![中文界面演示](assets/screenshots/demo.gif)
+
+语言选择器列出四个中文包（zh-cn/zh-tw/zh-hk/zh-mo，与官方语言包并存）；菜单、设置、命令面板、Devin 面板与问候语全中文。原始录屏：[demo.mp4](assets/screenshots/demo.mp4)
+
 ## 实测截图
 
 | 设置界面（zh-CN） | 语言选择器（4 中文包） |

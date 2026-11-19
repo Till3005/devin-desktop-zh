@@ -47,6 +47,12 @@ powershell -ExecutionPolicy Bypass -File install.ps1   # Windows
 
 After two restarts: Command Palette → `Configure Display Language` → pick a Chinese locale. Restore: `bash install.sh restore`
 
+## Demo
+
+![Chinese UI demo](assets/screenshots/demo.gif)
+
+The language picker lists four Chinese packs (zh-cn/zh-tw/zh-hk/zh-mo, alongside the official packs); menus, settings, command palette, the Devin pane and the greeting are fully localized. Raw capture: [demo.mp4](assets/screenshots/demo.mp4)
+
 ## Verified screenshots
 
 | Settings (zh-CN) | Language picker (4 packs) |
