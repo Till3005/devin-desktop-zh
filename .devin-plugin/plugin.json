@@ -1,0 +1,22 @@
+{
+  "name": "devin-desktop-zh",
+  "displayName": "Devin Desktop 中文语言包",
+  "description": "Install full Chinese localization for Devin Desktop — 91k+ strings, 4 regional packs, one command on macOS, Windows and Linux",
+  "shortDescription": "Chinese language pack for Devin Desktop",
+  "homepage": "https://github.com/Till3005/devin-desktop-zh",
+  "repository": "https://github.com/Till3005/devin-desktop-zh.git",
+  "logo": "logo.png",
+  "keywords": [
+    "Localization",
+    "Chinese",
+    "i18n"
+  ],
+  "setup": {
+    "notice": "Applies a patch to the locally installed Devin Desktop app; the app must already be installed on the machine running the session.",
+    "steps": [
+      "Start a session on the machine where Devin Desktop is installed",
+      "Ask Devin to run the devin-desktop-zh skill, then restart the app",
+      "Pick a language under Configure Display Language: 简体中文, 繁體中文(台灣), 繁體中文(香港) or 繁體中文(澳門)"
+    ]
+  }
+}
