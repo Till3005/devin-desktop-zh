@@ -1,0 +1,500 @@
+translation.admin.sponsoredEvents.create.nameLabel	名称
+translation.admin.sponsoredEvents.create.namePlaceholder	HackMIT 2026
+translation.admin.sponsoredEvents.create.budgetLabel	每队预算（USD）
+translation.admin.sponsoredEvents.create.budgetPlaceholder	200
+translation.admin.sponsoredEvents.create.budgetHint	每队 $0 到 \${{max}}，加入团队时一次性发放。
+translation.admin.sponsoredEvents.create.acuLimitLabel	每会话 ACU 上限
+translation.admin.sponsoredEvents.create.acuLimitPlaceholder	20
+translation.admin.sponsoredEvents.create.acuLimitHint	1 到 {{max}} 的整数。
+translation.admin.sponsoredEvents.create.submit	创建活动
+translation.admin.sponsoredEvents.create.success	赞助活动已创建
+translation.admin.sponsoredEvents.detail.loading	正在加载赞助活动
+translation.admin.sponsoredEvents.detail.loadFailed	加载赞助活动失败：{{message}}
+translation.admin.sponsoredEvents.detail.notFound	未找到赞助活动。
+translation.admin.sponsoredEvents.detail.teamBudget	每队预算
+translation.admin.sponsoredEvents.detail.acuLimit	每会话 ACU 上限
+translation.admin.sponsoredEvents.detail.teams	团队
+translation.admin.sponsoredEvents.detail.createdAt	创建时间
+translation.admin.sponsoredEvents.detail.revoked	已收回
+translation.admin.sponsoredEvents.addTeam.button	添加团队
+translation.admin.sponsoredEvents.addTeam.title	添加团队
+translation.admin.sponsoredEvents.addTeam.description	为团队创建免费组织，把参与者设为所有者，并发放活动预算。重复添加已有团队只会新增参与者。
+translation.admin.sponsoredEvents.addTeam.lockedTitle	向 {{team}} 添加成员
+translation.admin.sponsoredEvents.addTeam.lockedDescription	向这个已有团队添加参与者，已有成员会跳过。
+translation.admin.sponsoredEvents.addTeam.nameLabel	团队名称
+translation.admin.sponsoredEvents.addTeam.emailsLabel	参与者邮箱
+translation.admin.sponsoredEvents.addTeam.emailsPlaceholder	one@example.com, two@example.com
+translation.admin.sponsoredEvents.addTeam.emailsHint_one	{{count}} 个邮箱
+translation.admin.sponsoredEvents.addTeam.emailsHint_other	{{count}} 个邮箱
+translation.admin.sponsoredEvents.addTeam.tooManyEmails	一个团队最多 {{max}} 名参与者。
+translation.admin.sponsoredEvents.addTeam.invalidEmail	\\
+translation.admin.sponsoredEvents.import.title	从 CSV 导入团队
+translation.admin.sponsoredEvents.import.description	导出包含 Team Name 和 Member N Email 列的 Google Forms 响应表。导入在服务器上运行，你可以关闭此标签页。重复运行是安全的。
+translation.admin.sponsoredEvents.import.chooseFile	选择 CSV
+translation.admin.sponsoredEvents.import.clear	清除
+translation.admin.sponsoredEvents.import.readFailed	无法读取该文件。
+translation.admin.sponsoredEvents.import.preview	{{file}}：{{teams}} 个团队，{{members}} 名参与者
+translation.admin.sponsoredEvents.import.start_one	添加 {{count}} 个团队
+translation.admin.sponsoredEvents.import.start_other	添加 {{count}} 个团队
+translation.admin.sponsoredEvents.import.columns.team	团队
+translation.admin.sponsoredEvents.import.columns.members	成员
+translation.admin.sponsoredEvents.import.columns.emails	邮箱
+translation.admin.sponsoredEvents.import.columns.lines	CSV 行
+translation.admin.sponsoredEvents.import.problems_one	{{count}} 行被跳过：
+translation.admin.sponsoredEvents.import.problems_other	{{count}} 行被跳过：
+translation.admin.sponsoredEvents.import.moreProblems_one	以及另外 {{count}} 行
+translation.admin.sponsoredEvents.import.moreProblems_other	以及另外 {{count}} 行
+translation.admin.sponsoredEvents.import.problemCodes.team_name_required	第 {{line}} 行：缺少团队名
+translation.admin.sponsoredEvents.import.problemCodes.team_name_too_long	第 {{line}} 行：团队名超过 {{max}} 个字符
+translation.admin.sponsoredEvents.import.problemCodes.emails_required	第 {{line}} 行：没有邮箱
+translation.admin.sponsoredEvents.import.problemCodes.invalid_email	第 {{line}} 行：\\
+translation.admin.sponsoredEvents.import.tooManyTeams	此文件包含超过 {{max}} 个团队。
+translation.admin.sponsoredEvents.jobs.title	导入运行
+translation.admin.sponsoredEvents.jobs.kind.import	导入
+translation.admin.sponsoredEvents.jobs.kind.revoke	收回
+translation.admin.sponsoredEvents.jobs.status.running	运行中
+translation.admin.sponsoredEvents.jobs.status.done	已完成
+translation.admin.sponsoredEvents.jobs.status.failed	失败
+translation.admin.sponsoredEvents.jobs.summary	{{total}} 个团队完成 {{done}}，{{failed}} 个失败
+translation.admin.sponsoredEvents.jobs.loadFailed	加载赞助活动任务失败：{{message}}
+translation.admin.sponsoredEvents.jobs.runAgain	再跑一次
+translation.admin.sponsoredEvents.jobs.showAll	显示全部
+translation.admin.sponsoredEvents.jobs.showFailedOnly	只显示失败
+translation.admin.sponsoredEvents.jobs.previousRuns	历史运行（{{count}}）
+translation.admin.sponsoredEvents.jobs.columns.team	团队
+translation.admin.sponsoredEvents.jobs.columns.status	状态
+translation.admin.sponsoredEvents.jobs.columns.result	结果
+translation.admin.sponsoredEvents.jobs.noError	无错误
+translation.admin.sponsoredEvents.revoke.button	全部收回
+translation.admin.sponsoredEvents.revoke.title	收回全部赞助额度？
+translation.admin.sponsoredEvents.revoke.description	这会从每个团队收回未使用的赞助额度。组织、成员和会话保留原样。之后不能再添加新团队。
+translation.admin.sponsoredEvents.revoke.confirm	全部收回
+translation.admin.sponsoredEvents.revoke.badge	已于 {{date}} 收回
+translation.admin.sponsoredEvents.teams.title	团队
+translation.admin.sponsoredEvents.teams.addMembers	添加成员
+translation.admin.sponsoredEvents.teams.empty	还没有团队。添加一个团队或导入 CSV。
+translation.admin.sponsoredEvents.teams.totals_one	合计（{{count}} 个团队）
+translation.admin.sponsoredEvents.teams.totals_other	合计（{{count}} 个团队）
+translation.admin.sponsoredEvents.teams.columns.team	团队
+translation.admin.sponsoredEvents.teams.columns.organization	组织
+translation.admin.sponsoredEvents.teams.columns.members	成员
+translation.admin.sponsoredEvents.teams.columns.granted	已发放
+translation.admin.sponsoredEvents.teams.columns.balance	余额
+translation.admin.sponsoredEvents.teams.columns.revoked	已收回
+translation.admin.sponsoredEvents.teams.columns.createdAt	创建时间
+translation.admin.sponsoredEvents.teams.searchPlaceholder	搜索团队
+translation.admin.sponsoredEvents.teams.noMatches	没有团队匹配 \\
+translation.admin.sponsoredEvents.errors.generic	出了点问题
+translation.admin.sponsoredEvents.errors.event_not_found	未找到赞助活动
+translation.admin.sponsoredEvents.errors.name_required	必须填写名称
+translation.admin.sponsoredEvents.errors.team_name_required	必须填写团队名
+translation.admin.sponsoredEvents.errors.invalid_email	其中一个邮箱不是有效地址
+translation.admin.sponsoredEvents.errors.emails_required	请至少输入一个邮箱
+translation.admin.sponsoredEvents.errors.too_many_members	该团队会超出参与者上限
+translation.admin.sponsoredEvents.errors.job_running	已有另一个赞助活动任务在运行
+translation.admin.sponsoredEvents.errors.event_revoked	此赞助活动已被收回
+translation.admin.sponsoredEvents.errors.job_not_import	此任务不是导入
+translation.admin.sponsoredEvents.errors.missing_columns	CSV 缺少必需的列
+translation.admin.startupProgram.columnStatus	状态
+translation.admin.startupProgram.columnMatchingGrants	匹配授予
+translation.admin.startupProgram.columnFreeCreditsUsed	已用免费额度
+translation.admin.startupProgram.columnEnrolled	已加入
+translation.admin.startupProgram.orgLogoAlt	{{name}} logo
+translation.admin.startupProgram.summaryTotal	总计：{{count}}
+translation.admin.startupProgram.summaryActive	活跃：{{count}}
+translation.admin.startupProgram.summaryPaused	暂停：{{count}}
+translation.admin.startupProgram.summaryEnded	结束：{{count}}
+translation.admin.startupProgram.summaryChurned	流失：{{count}}
+translation.admin.startupProgram.enrolled	账户已加入初创计划
+translation.admin.startupProgram.enrollFailed	加入失败：{{message}}
+translation.admin.startupProgram.statusUpdated	初创计划状态已更新
+translation.admin.startupProgram.statusUpdateFailed	更新状态失败：{{message}}
+translation.admin.startupProgram.statusActive	活跃
+translation.admin.startupProgram.statusPaused	暂停
+translation.admin.startupProgram.statusEnded	结束
+translation.admin.startupProgram.statusChurned	流失
+translation.admin.startupProgram.pageTitle	初创计划
+translation.admin.startupProgram.enrollments	加入记录
+translation.admin.startupProgram.invites	邀请
+translation.admin.startupProgram.searchPlaceholder	按组织名搜索...
+translation.admin.startupProgram.searchAriaLabel	搜索加入记录
+translation.admin.startupProgram.loadError	加载加入记录出错
+translation.admin.startupProgram.filter	筛选
+translation.admin.startupProgram.clearAll	清除全部
+translation.admin.startupProgram.noMatches	没有匹配你搜索的加入记录。
+translation.admin.startupProgram.noEnrollments	未找到加入记录。
+translation.agentPicker.priority	优先级
+translation.agentPicker.dataMode	数据
+translation.agentPicker.janeWongDevin	Jane Wong Devin
+translation.agentPicker.agentMode	代理
+translation.modelPickerMock.advanced	高级
+translation.modelPickerMock.advancedTitle	高级模型设置
+translation.modelPickerMock.anthropicModels	Anthropic
+translation.modelPickerMock.capability	能力
+translation.modelPickerMock.close	关闭
+translation.modelPickerMock.composerPlaceholder	为 Devin 描述一个任务...
+translation.modelPickerMock.cost	成本
+translation.modelPickerMock.desktop	Desktop
+translation.modelPickerMock.devinDescription	多数任务的推荐。Cognition 持续评估各模型的能力、速度和成本，出现帕累托更优项时自动更新选择。
+translation.modelPickerMock.fast	快速
+translation.modelPickerMock.fastAvailabilityTooltip	尽力而为；Fast 不可用时可能回落标准速度。可用时成本约为 2–5 倍。
+translation.modelPickerMock.fusion	Fusion
+translation.modelPickerMock.fusionTooltip	用前沿智能搭配高性价比执行，以更低成本交付前沿级结果。
+translation.modelPickerMock.googleModels	Google
+translation.modelPickerMock.high	高
+translation.modelPickerMock.light	轻量
+translation.modelPickerMock.lightCapabilityTooltip	使用 Luna 和 SWE-1.7 等模型。
+translation.modelPickerMock.low	低
+translation.modelPickerMock.max	最大
+translation.modelPickerMock.medium	中
+translation.modelPickerMock.mobile	移动端 · 390px
+translation.modelPickerMock.normal	正常
+translation.modelPickerMock.normalCapabilityTooltip	使用 Opus、Sol 及部分 Fable 或 Astra 等模型。
+translation.modelPickerMock.openAIModels	OpenAI
+translation.modelPickerMock.priority	优先级
+translation.modelPickerMock.recommended	推荐
+translation.modelPickerMock.searchModels	搜索模型
+translation.modelPickerMock.send	发送
+translation.modelPickerMock.speed	速度
+translation.modelPickerMock.standard	标准
+translation.modelPickerMock.thinkingEffort	思考强度
+translation.modelPickerMock.thinkingEffortDescription	更高的思考强度通常能改善困难任务的结果，但成本更高，也可能导致过度思考。
+translation.modelPickerMock.title	选择 Devin 的工作方式
+translation.modelPickerMock.ultra	Ultra
+translation.modelPickerMock.ultraFast	极速
+translation.modelPickerMock.ultraCapabilityTooltip	使用 Fable 和 Astra 等模型。
+translation.modelPickerMock.viewport	视口
+translation.modelSelect.acuBalance	所有模型都从你的 Devin ACU 余额计费
+translation.modelSelect.addToArena	添加模型进行对战
+translation.modelSelect.arena	对战
+translation.modelSelect.agentProviderBilling	计费由代理提供商决定
+translation.modelSelect.clearFilter	清除筛选
+translation.modelSelect.contextTokens	{{count}} 上下文
+translation.modelSelect.cost	成本
+translation.modelSelect.costTagApiLabel	API
+translation.modelSelect.costTagApiPricing	按 API 价格计费
+translation.modelSelect.costTagByok	使用你的 API key
+translation.modelSelect.costTagByokLabel	BYOK
+translation.modelSelect.costTagCreditsMultiplier	使用 {{multiplier}}x 积分
+translation.modelSelect.costTagMultiplierLabel	{{multiplier}}x
+translation.modelSelect.costTagFreeAcu	不消耗 ACU
+translation.modelSelect.costTagFreeCredits	不消耗积分
+translation.modelSelect.costTagFreeQuota	不占用配额
+translation.modelSelect.costTagRelativeCost	相对成本
+translation.modelSelect.current	当前
+translation.modelSelect.cyberVerification	Cyber Verification Program
+translation.modelSelect.cyberVerificationSaveFailed	变更未确认，路由可能未变。
+translation.modelSelect.cyberVerificationRetry	重试
+translation.modelSelect.cyberVerificationDescription	把你的 Anthropic 请求经该程序路由，不享受零数据保留。
+translation.modelSelect.dimensionOff	关
+translation.modelSelect.dimensionOn	开
+translation.modelSelect.free	免费
+translation.modelSelect.groupAllModels	全部模型
+translation.modelSelect.groupBattleGroups	对战组
+translation.modelSelect.groupPinned	已固定
+translation.modelSelect.groupRecentlyUsed	最近使用
+translation.modelSelect.learnAboutModels	了解模型
+translation.modelSelect.modelIssueWarning	此模型当前存在一些问题。
+translation.modelSelect.noResults	未找到结果。
+translation.modelSelect.noneSelected	未选择
+translation.modelSelect.orderBy	排序方式
+translation.modelSelect.partnerProviderToggleFailed	无法更新“{{label}}”
+translation.modelSelect.pinVariant	固定此变体
+translation.modelSelect.pinnedVariant	已固定的变体
+translation.modelSelect.planWith	与 {{name}} 一起规划
+translation.modelSelect.promo	促销
+translation.modelSelect.promoActiveLimited	促销价格限时有效
+translation.modelSelect.promoActiveUntil	促销价格有效期至 {{date}}
+translation.modelSelect.promoUntil	{{label}} 直至 {{date}}
+translation.modelSelect.removeFromSelection	从选择中移除
+translation.modelSelect.retryFetchModels	重试获取可用模型。
+translation.modelSelect.searchPlaceholder	搜索全部模型
+translation.modelSelect.seeMore	查看更多
+translation.modelSelect.showAllMore	显示全部（还有 {{count}} 个）
+translation.modelSelect.showLess	收起
+translation.modelSelect.single	单个
+translation.modelSelect.tagBeta	Beta
+translation.modelSelect.tagFast	快速
+translation.modelSelect.tagNew	新
+translation.modelSelect.unpinToChangeVariant	取消固定后可换变体
+translation.pluginManifestValidation.sourceEmpty	插件来源不能为空
+translation.pluginManifestValidation.sourceShape	必须是来源字符串（如 "owner/repo" 或 git URL），或带 "source" 字段的对象
+translation.pluginManifestValidation.envValues	"env" 必须是字符串值的对象
+translation.pluginManifestValidation.bundleIdRequired	account-upload 来源需要非空的 "bundleId"
+translation.pluginManifestValidation.bundleIdInvalid	"bundleId" 必须是匹配 [a-zA-Z0-9._-]{1,64} 的单个路径段（不含斜杠）
+translation.pluginManifestValidation.urlRequired	git-subdir 来源需要非空的 "url"
+translation.pluginManifestValidation.pathRequired	git-subdir 来源需要非空的 "path"
+translation.pluginManifestValidation.pathWildcards	"path" 不允许通配符
+translation.pluginManifestValidation.pathParent	"path" 不能包含 ".."
+translation.pluginManifestValidation.pathRoot	"path" 必须是非根相对路径
+translation.builtInRoles.admin	管理员
+translation.builtInRoles.deepWikiOnly	仅 DeepWiki
+translation.builtInRoles.member	成员
+translation.builtInRoles.reviewManager	评审管理员
+translation.itemsPerPageSelect.rowsPerPage	每页行数：
+translation.agentTooltips.agent-preview:devin-fast-opus	快速
+translation.agentTooltips.agent-preview:devin-gpt-5-5	由 GPT-5.5 Preview 驱动 — OpenAI 最强模型
+translation.agentTooltips.agent-preview:devin-gpt-5-6	由 GPT-5.6 Sol 驱动 — 7 折，有效期至 10 月 3 日
+translation.agentTooltips.agent-preview:devin-gpt-6-astra	由 GPT-6 Astra 驱动
+translation.agentTooltips.agent-preview:devin-gpt-6-astra-fast	GPT-6 Astra Fast — 优先模型上的内部 GPT-6 Astra 预览
+translation.agentTooltips.agent-preview:devin-ultrafusion	Ultrafusion — 内部预览，GPT-6 Astra Fast 主导 + Opus 5.5 High Fast 侧翼
+translation.agentTooltips.agent-preview:devin-async-normal-gpt	Async — 内部预览，在 OpenAI Background Flex API 上运行 GPT-6.1 Sol
+translation.agentTooltips.agent-preview:devin-fable-5-1	由 Fable 5.1 驱动 — 预览有效期至 9 月 22 日
+translation.agentTooltips.agent-preview:devin-opus-5-5	由 Opus 5.5 驱动 — 预览有效期至 10 月 6 日
+translation.agentTooltips.agent-preview:devin-swe-2-flash-medium	由 SWE-2 Flash Medium 驱动 — 预览有效期至 11 月 18 日
+translation.agentTooltips.agent-preview:devin-swe-2-flash-high	由 SWE-2 Flash High 驱动 — 预览有效期至 11 月 18 日
+translation.agentTooltips.agent-preview:devin-swe-2-flash-max	由 SWE-2 Flash Max 驱动 — 预览有效期至 11 月 18 日
+translation.agentTooltips.agent-preview:devin-gpt-6-sol	由 GPT-6 Sol 驱动 — 预览有效期至 10 月 6 日
+translation.agentTooltips.agent-preview:devin-gpt-6-1-sol	由 GPT-6.1 Sol 驱动 — 预览有效期至 10 月 13 日
+translation.agentTooltips.agent-preview:devin-opus-4-8	Opus 4.8 Preview — 擅长遵循指令
+translation.agentTooltips.agent-preview:devin-research-preview	Research Preview — 实验性研究模型
+translation.agentTooltips.agent-preview:devin-swe-1-7	由 SWE-1.7 Preview 驱动 — Cognition 的软件工程模型
+translation.agentTooltips.agent-preview:devin-swe-1-7-lightning	由 SWE-1.7 Lightning 驱动 — Cerebras 上的 SWE-1.7
+translation.agentTooltips.agent-preview:devin-swe-1-7-paid	由 SWE-1.7 Priority 驱动 — 带优先容量的 SWE-1.7
+translation.agentTooltips.agent-preview:devin-swe-2-low	由 SWE-2 Medium 驱动 — Cognition 下一代软件工程模型，中推理强度
+translation.agentTooltips.agent-preview:devin-swe-2-high	由 SWE-2 High 驱动 — Cognition 下一代软件工程模型，高推理强度
+translation.agentTooltips.agent-preview:devin-swe-2-max	由 SWE-2 Max 驱动 — Cognition 下一代软件工程模型，最大推理强度
+translation.agentTooltips.agent-preview:devin-swe-2-priority-low	由 SWE-2 Medium (Priority) 驱动 — 带优先容量的付费 SWE-2，中推理强度
+translation.agentTooltips.agent-preview:devin-swe-2-priority-high	由 SWE-2 High (Priority) 驱动 — 带优先容量的付费 SWE-2，高推理强度
+translation.agentTooltips.agent-preview:devin-swe-2-priority-max	由 SWE-2 Max (Priority) 驱动 — 带优先容量的付费 SWE-2，最大推理强度
+translation.agentTooltips.agent-preview:devin-swe-2-lightning-low	由 SWE-2 Medium (Lightning) 驱动 — Lightning 模式下的 SWE-2，中推理强度。有效期至 11 月 25 日
+translation.agentTooltips.agent-preview:devin-swe-2-lightning-high	由 SWE-2 High (Lightning) 驱动 — Lightning 模式下的 SWE-2，高推理强度。有效期至 11 月 25 日
+translation.agentTooltips.agent-preview:devin-swe-2-lightning-max	由 SWE-2 Max (Lightning) 驱动 — Lightning 模式下的 SWE-2，最大推理强度。有效期至 11 月 25 日
+translation.agentTooltips.agent-preview:devin-swe-2-preview	由 SWE-2 Preview 驱动 — Cognition 下一代软件工程模型
+translation.agentTooltips.agent-preview:devin-ultra	Ultra — 我们最强大、最深度思考的代理，成本显著更高
+translation.agentTooltips.agent-preview:devin_lite	Lite — 为小型、定义清晰的任务调优，便宜 30-40%
+translation.agentTooltips.agent:dana	由 Data Analyst 代理创建
+translation.agentTooltips.agent:explore	由 Plan 代理创建
+translation.agentVersionToggle.chooseMode	选择模式
+translation.agentVersionToggle.disabledForOrg	你的组织已禁用
+translation.agentVersionToggle.loadingVersions	正在加载版本...
+translation.agentVersionToggle.switchingDisabled	{{shortName}} 会话已禁用能力切换
+translation.analytics.lastUpdated	更新于 {{time}}
+translation.analytics.refresh	刷新数据
+translation.analyticsRevamp.userData.membersHidden	此账户已隐藏按用户数据。
+translation.analyticsRevamp.userData.groupLabel	隐私
+translation.analyticsRevamp.userData.appliesToSubOrgs	同样适用于所有子组织。
+translation.analyticsRevamp.loadingHint.slow	此图表加载时间较长。
+translation.analyticsRevamp.queryError.message	此数据无法加载。
+translation.analyticsRevamp.queryError.short	无法加载
+translation.analyticsRevamp.queryError.retry	重试
+translation.analyticsRevamp.queryDenied.message	你没有查看 ACU 和消耗数据的权限。
+translation.analyticsRevamp.queryDenied.short	无访问权限
+translation.analyticsRevamp.cloud.sessionsTitle	会话
+translation.analyticsRevamp.cloud.sessionsDescription	会话量与结果
+translation.analyticsRevamp.cloud.acusTitle	ACU
+translation.analyticsRevamp.cloud.acusDescription	ACU 消耗与分配
+translation.analyticsRevamp.cloud.usersTitle	用户
+translation.analyticsRevamp.cloud.usersDescription	人员与成员构成
+translation.analyticsRevamp.cloud.productivityTitle	生产力
+translation.analyticsRevamp.cloud.productivityDescription	工程产出与回报
+translation.analyticsRevamp.cloud.productivityNotFinal	最近 28 天的生产力指标尚未最终确定。已合并 PR 和生产力时长会随 PR 落地及用户回访旧会话持续更新。
+translation.analyticsRevamp.cloud.productivityNotFinal_mergedPrs	最近 28 天的生产力指标尚未最终确定。已合并 PR 会随 PR 落地持续更新。
+translation.analyticsRevamp.cloud.productivityMethodology	在<methodologyLink>这里</methodologyLink>阅读我们的方法论。
+translation.analyticsRevamp.cloud.sessionsOverTime	会话趋势
+translation.analyticsRevamp.cloud.acusOverTime	ACU 趋势
+translation.analyticsRevamp.cloud.sessionTooltip	此期间在云端创建的会话
+translation.analyticsRevamp.cloud.sessionsChartDescription	每日创建的会话数
+translation.analyticsRevamp.cloud.acusChartDescription_category	每日消耗的 ACU，按会话类别
+translation.analyticsRevamp.cloud.acusChartDescription_size	每日消耗的 ACU，按会话规模
+translation.analyticsRevamp.cloud.acusChartDescription_mode	每日消耗的 ACU，按代理模式
+translation.analyticsRevamp.cloud.sessionsChartDescription_category	每日创建的会话，按类别
+translation.analyticsRevamp.cloud.sessionsChartDescription_mode	每日创建的会话，按代理模式
+translation.analyticsRevamp.cloud.sizesChartDescription	每日创建的会话，按规模
+translation.analyticsRevamp.cloud.acusPerSessionTooltip	此期间创建的云端会话的平均生命周期 ACU
+translation.analyticsRevamp.cloud.sessionsToMergedTooltip	此期间创建的云端会话中有合并 PR 的比例
+translation.analyticsRevamp.cloud.spendTooltip	此期间在云端消耗的 ACU
+translation.analyticsRevamp.cloud.acusPerUserTooltip	此期间创建的会话消耗的 ACU ÷ 此期间创建过会话的去重用户数
+translation.analyticsRevamp.cloud.activeUsersTooltip	此期间创建过云端会话或用过 Ask 的用户
+translation.analyticsRevamp.cloud.membershipCaveat	基于当前成员关系
+translation.analyticsRevamp.cloud.mergeTooltip_session_created	此期间创建的云端会话产生的已合并 PR
+translation.analyticsRevamp.cloud.acusPerPrTooltip	此期间创建的会话中，每个已合并 PR 的平均 ACU
+translation.analyticsRevamp.cloud.hoursTooltip	此期间创建的会话估算节省的工程小时数
+translation.analyticsRevamp.cloud.aiFtesTooltip	按每 FTE 每周 40 个生产性小时估算的 AI FTE
+translation.analyticsRevamp.cloud.acusPerHourTooltip	此期间创建的会话中，每个生产性小时的平均 ACU
+translation.analyticsRevamp.cloud.breakdownHelp.size	按生命周期 ACU 分的会话规模
+translation.analyticsRevamp.cloud.breakdownHelp.kind	此期间的会话与 Ask 查询
+translation.analyticsRevamp.cloud.breakdownHelp.activity	创建过会话的用户与仅用过 Ask 的用户
+translation.analyticsRevamp.cloud.breakdownLabel	{{section}} 细分
+translation.analyticsRevamp.cloud.empty	此期间无活动。请换个时间段或组织筛选。
+translation.analyticsRevamp.cloud.empty_org	此期间无活动。请换个时间段。
+translation.analyticsRevamp.cloud.shareHeader	共享
+translation.analyticsRevamp.cloud.noPermission	你没有查看账户指标的权限。
+translation.analyticsRevamp.cloud.quota	配额计划不提供 ACU 分析，该计划使用美元计用量。
+translation.analyticsRevamp.cloud.quotaShort	配额计划不可用
+translation.analyticsRevamp.cloud.metrics.acusPerSession	每会话 ACU
+translation.analyticsRevamp.cloud.metrics.sessionsToMerged	会话到合并 PR
+translation.analyticsRevamp.cloud.metrics.spend	ACU 总消耗
+translation.analyticsRevamp.cloud.metrics.acusPerUser	每会话用户 ACU
+translation.analyticsRevamp.cloud.metrics.activeUsers	活跃用户
+translation.analyticsRevamp.cloud.metrics.mergedPrs	已合并 PR
+translation.analyticsRevamp.cloud.metrics.acusPerMergedPr	每个已合并 PR 的 ACU
+translation.analyticsRevamp.cloud.metrics.productiveHours	等效生产性小时
+translation.analyticsRevamp.cloud.metrics.estimatedAiFtes	估算 AI FTE
+translation.analyticsRevamp.cloud.metrics.acusPerHour	每生产性小时 ACU
+translation.analyticsRevamp.cloud.metrics.codeSessions	会话
+translation.analyticsRevamp.cloud.metrics.askSessions	Ask 会话
+translation.analyticsRevamp.cloud.metrics.codingUsers	活跃会话用户
+translation.analyticsRevamp.cloud.metrics.askOnlyUsers	仅 Ask 活跃用户
+translation.analyticsRevamp.cloud.keys.xs	XS
+translation.analyticsRevamp.cloud.keys.s	S
+translation.analyticsRevamp.cloud.keys.m	M
+translation.analyticsRevamp.cloud.keys.l	L
+translation.analyticsRevamp.cloud.keys.xl	XL
+translation.analyticsRevamp.cloud.keys.total	总计
+translation.analyticsRevamp.cloud.keys.active	活跃
+translation.analyticsRevamp.cloud.keys.inactive	不活跃
+translation.analyticsRevamp.cloud.keys.new	新用户
+translation.analyticsRevamp.cloud.keys.webapp	Webapp
+translation.analyticsRevamp.cloud.keys.slack	Slack
+translation.analyticsRevamp.cloud.keys.teams	Teams
+translation.analyticsRevamp.cloud.keys.api	API
+translation.analyticsRevamp.cloud.keys.linear	Linear
+translation.analyticsRevamp.cloud.keys.jira	Jira
+translation.analyticsRevamp.cloud.keys.jiraDataCenter	Jira Data Center
+translation.analyticsRevamp.cloud.keys.other	其他
+translation.analyticsRevamp.cloud.keys.human	人类
+translation.analyticsRevamp.cloud.keys.service	服务
+translation.analyticsRevamp.cloud.keys.agent	代理
+translation.analyticsRevamp.cloud.keys.data	数据
+translation.analyticsRevamp.cloud.keys.ask	Ask
+translation.analyticsRevamp.cloud.keys.devin	Devin 会话
+translation.analyticsRevamp.cloud.keys.automation	自动化
+translation.analyticsRevamp.cloud.keys.oncall	Oncall
+translation.analyticsRevamp.cloud.keys.code_scan	代码扫描
+translation.analyticsRevamp.cloud.keys.review	Review
+translation.analyticsRevamp.cloud.keys.indexing	索引
+translation.analyticsRevamp.cloud.keys.wiki	Wiki
+translation.analyticsRevamp.cloud.keys.default	代理（默认）
+translation.analyticsRevamp.cloud.keys.normal	Normal
+translation.analyticsRevamp.cloud.keys.fast	Fast
+translation.analyticsRevamp.cloud.keys.lite	Lite
+translation.analyticsRevamp.cloud.keys.ultra	Ultra
+translation.analyticsRevamp.cloud.keys.fusion	Fusion
+translation.analyticsRevamp.cloud.keys.merged_pr	已合并 PR
+translation.analyticsRevamp.cloud.keys.open_pr	打开中 PR
+translation.analyticsRevamp.cloud.keys.no_pr	无 PR
+translation.analyticsRevamp.cloud.keys.productive	生产性
+translation.analyticsRevamp.cloud.keys.non_productive	非生产性
+translation.analyticsRevamp.cloud.keys.1_session	1 个会话
+translation.analyticsRevamp.cloud.keys.2_5_sessions	2–5 个会话
+translation.analyticsRevamp.cloud.keys.6_plus_sessions	6+ 个会话
+translation.analyticsRevamp.cloud.keys.bug_fixing	Bug 修复
+translation.analyticsRevamp.cloud.keys.ci_cd_and_devops	CI/CD 与 DevOps
+translation.analyticsRevamp.cloud.keys.code_review	代码评审
+translation.analyticsRevamp.cloud.keys.data_and_automation	数据与自动化
+translation.analyticsRevamp.cloud.keys.documentation_and_content	文档与内容
+translation.analyticsRevamp.cloud.keys.feature_development	功能开发
+translation.analyticsRevamp.cloud.keys.migrations_and_upgrades	迁移与升级
+translation.analyticsRevamp.cloud.keys.refactoring_and_optimization	重构与优化
+translation.analyticsRevamp.cloud.keys.research_and_exploration	研究与探索
+translation.analyticsRevamp.cloud.keys.security	安全
+translation.analyticsRevamp.cloud.keys.production_investigation	生产事故调查
+translation.analyticsRevamp.cloud.keys.unit_test_generation	单元测试生成
+translation.analyticsRevamp.cloud.keys.code	代码
+translation.analyticsRevamp.cloud.keys.coding	会话
+translation.analyticsRevamp.cloud.keys.ask_only	仅 Ask
+translation.analyticsRevamp.cloud.hoursChartDescription	每日生产性小时，按会话创建日期
+translation.analyticsRevamp.cloud.hoursChartDescription_week	每周生产性小时，按会话创建日期
+translation.analyticsRevamp.cloud.acusPerHourChartDescription	每日每生产性小时 ACU
+translation.analyticsRevamp.cloud.acusPerHourChartDescription_week	每周每生产性小时 ACU
+translation.analyticsRevamp.cloud.acusPerHourChartTooltip	按每日创建的会话计算每生产性小时平均 ACU。7 日和 30 日平均按生产性小时加权，而非按天。
+translation.analyticsRevamp.cloud.acusPerHourChartTooltip_week	按每周创建的会话计算每生产性小时平均 ACU
+translation.analyticsRevamp.cloud.productivityChartLabel	生产力图表视图
+translation.analyticsRevamp.cloud.productivityGrainLabel	生产力图表粒度
+translation.analyticsRevamp.cloud.productivityByCategoryDescription	此期间按会话类别的总计
+translation.analyticsRevamp.cloud.productivityChart_hours	生产性小时趋势
+translation.analyticsRevamp.cloud.productivityChart_aiFtes	AI FTE 趋势
+translation.analyticsRevamp.cloud.aiFtesChartDescription	每日 AI FTE，按每日 8 生产性小时计
+translation.analyticsRevamp.cloud.aiFtesChartDescription_week	每周 AI FTE，按每周 40 生产性小时计
+translation.analyticsRevamp.cloud.productivityChart_acusPerHour	每生产性小时 ACU 趋势
+translation.analyticsRevamp.cloud.tabs.total	总计
+translation.analyticsRevamp.cloud.tabs.size	按规模
+translation.analyticsRevamp.cloud.tabs.kind	按类型
+translation.analyticsRevamp.cloud.tabs.active	总计
+translation.analyticsRevamp.cloud.tabs.activity	按活动
+translation.analyticsRevamp.cloud.tabs.day	每日
+translation.analyticsRevamp.cloud.tabs.week	每周
+translation.analyticsRevamp.cloud.tabs.category	按类别
+translation.analyticsRevamp.cloud.tabs.mode	按模式
+translation.analyticsRevamp.cloud.tabs.pie	饼图
+translation.analyticsRevamp.cloud.tabs.timeSeries	时间序列
+translation.analyticsRevamp.cloud.usersChartLabel	用户图表视图
+translation.analyticsRevamp.cloud.usersChart_active	活跃用户趋势
+translation.analyticsRevamp.cloud.mergedPrsChartDescription	每日合并 PR，按会话创建日期
+translation.analyticsRevamp.cloud.mergedPrsChartDescription_week	每周合并 PR，按会话创建日期
+translation.analyticsRevamp.cloud.acusPerMergedPrChartDescription	每日每合并 PR 的 ACU，按会话创建日期
+translation.analyticsRevamp.cloud.acusPerMergedPrChartDescription_week	每周每合并 PR 的 ACU，按会话创建日期
+translation.analyticsRevamp.cloud.acusPerMergedPrChartTooltip	按每日创建的会话计算每合并 PR 平均 ACU。7 日和 30 日平均按合并 PR 加权，而非按天。
+translation.analyticsRevamp.cloud.acusPerMergedPrChartTooltip_week	按每周创建的会话计算每合并 PR 平均 ACU
+translation.analyticsRevamp.cloud.productivityChart_mergedPrs	已合并 PR 趋势
+translation.analyticsRevamp.cloud.productivityChart_acusPerMergedPr	每合并 PR ACU 趋势
+translation.analyticsRevamp.cloud.askSessionsTooltip	此期间创建的 Ask 查询
+translation.analyticsRevamp.cloud.codingUsersTooltip	此期间创建过会话的用户
+translation.analyticsRevamp.cloud.askOnlyUsersTooltip	此期间仅用过 Ask 的用户
+translation.analyticsRevamp.cloud.kindsChartDescription	每日会话与 Ask 查询
+translation.analyticsRevamp.cloud.breakdownCard.chartLabel	{{section}} 图表类型
+translation.analyticsRevamp.calloutBody	随时可在上方设置菜单中切回旧版分析布局
+translation.analyticsRevamp.calloutTitle	你正在查看新版分析
+translation.analyticsRevamp.charts.noDataForRange	所选时间范围暂无数据
+translation.analyticsRevamp.charts.partialDay	进行中
+translation.analyticsRevamp.charts.partialDayHint	仍在进行中：目前为部分数据。与上期对比仅计入完整天。
+translation.analyticsRevamp.charts.total	总计
+translation.analyticsRevamp.keepNew	保留新版分析
+translation.analyticsRevamp.legacyBannerAction	切换到新版分析
+translation.analyticsRevamp.legacyBannerBody	你的账户已可用新版分析仪表盘。随时可用右上角设置图标切换。
+translation.analyticsRevamp.legacyBannerDismiss	不再显示
+translation.analyticsRevamp.legacyBannerTitle	你正在查看旧版分析
+translation.analyticsRevamp.local.activeUsers	活跃用户
+translation.analyticsRevamp.local.activeUsersOverTime	活跃用户趋势
+translation.analyticsRevamp.local.activeUsersOverTimeSubtitle	每日活跃用户
+translation.analyticsRevamp.local.activeUsersTooltip	此期间有 Desktop 或 CLI 用量的用户，包括现已不在此企业的用户
+translation.analyticsRevamp.local.activeUsersTooltip_org	此期间有 Desktop 或 CLI 用量的用户，包括现已不在此组织的用户
+translation.analyticsRevamp.local.acusDescription	ACU 消耗趋势
+translation.analyticsRevamp.local.acusOverTime	ACU 趋势
+translation.analyticsRevamp.local.acusOverTimeByModelTooltip	前 10 模型，其余归为“其他”
+translation.analyticsRevamp.local.acusOverTimeSubtitle	每日消耗的 ACU
+translation.analyticsRevamp.local.acusOverTimeSubtitle_dollars	每日花费
+translation.analyticsRevamp.local.acusPerUser	每用户 ACU
+translation.analyticsRevamp.local.acusPerUserTooltip	此期间消耗的 ACU ÷ 有 Desktop 或 CLI 用量的用户数
+translation.analyticsRevamp.local.acusTitle	ACU
+translation.analyticsRevamp.local.acusUsed	已消耗 ACU
+translation.analyticsRevamp.local.billingProducts.cascade	Desktop
+translation.analyticsRevamp.local.billingProducts.cli	CLI
+translation.analyticsRevamp.local.billingProducts.ai_gateway	AI Gateway
+translation.analyticsRevamp.local.breakdownLabel	细分
+translation.analyticsRevamp.local.byModel	按模型
+translation.analyticsRevamp.local.byProduct	按产品
+translation.analyticsRevamp.local.crossUnitRangeBody	ACU 与美元用量不能合并。请选择单一计费周期内的范围。
+translation.analyticsRevamp.local.crossUnitRangeTitle	此日期范围跨越按不同单位计量的计费周期
+translation.analyticsRevamp.local.inactiveUsers	不活跃用户
+translation.analyticsRevamp.local.inactiveUsersTooltip	此期间无 Desktop 或 CLI 用量的当前成员
+translation.analyticsRevamp.local.legend	图例
+translation.analyticsRevamp.local.moreRows_one	下钻中另有 {{count}} 行
+translation.analyticsRevamp.local.moreRows_other	下钻中另有 {{count}} 行
+translation.analyticsRevamp.local.noAcuData	所选期间无本地 ACU 消耗
+translation.analyticsRevamp.local.notEnabledBody	为此企业启用 Devin Desktop 或 Devin CLI 后，本地指标才会出现。
+translation.analyticsRevamp.local.notEnabledBody_org	为此组织启用 Devin Desktop 或 Devin CLI 后，本地指标才会出现。
+translation.analyticsRevamp.local.notEnabledTitle	本地代理未启用
+translation.analyticsRevamp.local.noUserData	所选期间无本地用户
+translation.analyticsRevamp.local.otherModel	其他
+translation.analyticsRevamp.local.otherModels	其他模型
+translation.analyticsRevamp.local.viewAllModels	查看全部模型
+translation.analyticsRevamp.local.productDistribution	本地分布
+translation.analyticsRevamp.local.productDistributionSubtitle	按本地产品的 ACU 消耗
+translation.analyticsRevamp.local.productGroups.plugins	插件与 ACP 客户端
+translation.analyticsRevamp.local.spendByModel	按模型消耗
+translation.analyticsRevamp.local.spendByModel_dollars	按模型花费
+translation.analyticsRevamp.local.spendByModelSubtitle	按模型的 ACU 消耗
+translation.analyticsRevamp.local.spendByModelTooltip	已退役或隐藏的模型归为“其他”
+translation.analyticsRevamp.local.total	总计
+translation.analyticsRevamp.local.totalAcuSpend	ACU 总消耗
+translation.analyticsRevamp.local.totalAcuSpendTooltip	此期间 Desktop 与 CLI 消耗的 ACU
+translation.analyticsRevamp.local.unknownProvider	未知提供商
+translation.analyticsRevamp.local.usersChartView	用户图表视图
+translation.analyticsRevamp.local.usersDescription	人员与成员构成
+translation.analyticsRevamp.local.usersTitle	用户
+translation.analyticsRevamp.local.activeUsersByProductOverTimeSubtitle	每日活跃用户，按计费产品
+translation.analyticsRevamp.local.activeUsersByProductOverTimeTooltip	用户按每产品计一次
+translation.analyticsRevamp.local.acusTitle_dollars	花费
+translation.analyticsRevamp.local.acusDescription_dollars	美元花费趋势
