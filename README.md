@@ -30,7 +30,7 @@
 
 ## 特点
 
-- **完整三层覆盖**：菜单栏/设置/编辑器（约 28,800 条）、Agent 面板与聊天 webview（35,368 条）、内置扩展（152 条）
+- **完整四层覆盖**：菜单栏/设置/编辑器（约 28,800 条）、Agent 面板与聊天 webview（35,368 条）、Devin 应用内嵌 webapp（登录态界面，26,509 条）、内置扩展（152 条）
 - **新增式而非替换**：中文是新增的显示语言选项，English 和其它语言逐字节不受影响
 - **各按各地习惯**：zh-TW 台湾惯用语（使用者/預設/登入），zh-HK/zh-MO 香港惯用语（用戶/資訊/檔案）
 - **不破坏完整性校验**：自动回写 product.json checksums，不弹「安装似乎损坏」警告
@@ -71,6 +71,7 @@ powershell -ExecutionPolicy Bypass -File install.ps1   # Windows
 |---|---|---|
 | nls | VS Code 官方语言包装入 `~/.devin/extensions/` | 菜单/设置/编辑器（微软基线 + 4,420 条自翻） |
 | webview | i18next `resources` 注入 zh 字典，`lng` 读 `_VSCODE_NLS_LANGUAGE`；字面量条件查询 | Agent 面板/聊天/onboarding |
+| devin-webapp-host | 生成 zh 语言 chunk 并在应用内 i18next `gu[]` 语言表注册 zh-CN/zh-TW/zh-HK/zh-MO，`devin-language` 本地存储切换 | 登录态 Devin 设置/会话/评审界面 |
 | 扩展 | 内联字符串转 `%key%` + `package.nls.<loc>.json` | windsurf 系列内置扩展 |
 
 所有补丁有 `.devin-zh-backup` 还原点。
@@ -91,7 +92,7 @@ powershell -ExecutionPolicy Bypass -File install.ps1   # Windows
 
 ```
 packs/<loc>/           4 个成品语言包
-translations/<loc>/    各层中文字典（webview/review/nls/exts/literals）
+translations/<loc>/    各层中文字典（webview/review/nls/exts/literals/webapp）
 src/patch_app.py       新增式补丁器（apply/restore/status + checksum 回写）
 src/merge_zh.py        语料合并
 src/build_packs.py     语言包构建
