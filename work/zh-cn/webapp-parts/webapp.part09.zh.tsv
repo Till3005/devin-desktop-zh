@@ -1,0 +1,500 @@
+translation.analyticsRevamp.autoapprover.repository	仓库
+translation.analyticsRevamp.autoapprover.shadow	Shadow 模式裁决
+translation.analyticsRevamp.autoapprover.shadowTooltip	Shadow 模式下给出的裁决：Autoapprover 做了决定但不实际批准或撤回
+translation.analyticsRevamp.autoapprover.changesRequested	批准后被要求变更
+translation.analyticsRevamp.autoapprover.changesRequestedTooltip	Autoapprover 批准后有人要求变更的 PR
+translation.analyticsRevamp.autoapprover.shadowApprove	Shadow 模式：本会批准
+translation.analyticsRevamp.autoapprover.shadowReview	Shadow 模式：需要评审
+translation.analyticsRevamp.autoapprover.instructionsEdited	指令已修改
+translation.analyticsRevamp.autoapprover.instructionsEditedHint	Autoapprover 的指令在这一天被修改
+translation.analyticsRevamp.autoapprover.instructionPeriods	按指令分的裁决
+translation.analyticsRevamp.autoapprover.instructionPeriodsDescription	Autoapprover 指令两次修改之间的裁决，最新在前
+translation.analyticsRevamp.autoapprover.instructionPeriodsEmpty	此期间指令未被修改。
+translation.analyticsRevamp.autoapprover.instructionsSince	此后的指令
+translation.analyticsRevamp.autoapprover.instructionsBefore	此期间首次修改之前
+translation.analyticsRevamp.timePeriod.current	当前
+translation.analyticsRevamp.timePeriod.previous	之前
+translation.analyticsRevamp.gateway.activeUsersTooltip	此期间至少发起过一次 AI Gateway 请求的人。
+translation.analyticsRevamp.gateway.description	按标价计的 AI Gateway 请求账单美元
+translation.analyticsRevamp.gateway.inactiveUsersTooltip	此期间无 AI Gateway 用量的当前成员
+translation.analyticsRevamp.gateway.spend	花费
+translation.analyticsRevamp.gateway.spendPerUserTooltip	此期间 AI Gateway 花费的美元 ÷ 活跃用户数
+translation.analyticsRevamp.gateway.totalSpend	总花费
+translation.analyticsRevamp.gateway.totalSpendTooltip	此期间按标价计的 AI Gateway 请求账单美元。
+translation.analyticsRevamp.bots.description	组织 {{botNamePlural}} 的花费与已合并 PR
+translation.analyticsRevamp.bots.spend	花费
+translation.analyticsRevamp.bots.spendTooltip	此期间计入 {{botNamePlural}} 的 ACU
+translation.analyticsRevamp.bots.mergedPrs	已合并 PR
+translation.analyticsRevamp.bots.mergedPrsTooltip	此期间来自 {{botName}} 会话的已合并 PR
+translation.analyticsRevamp.bots.shareOfAll	占全部的 {{percent}}
+translation.analyticsRevamp.bots.botsSeries	{{botNamePlural}}
+translation.analyticsRevamp.bots.chartTitle	{{botNamePlural}} 趋势
+translation.analyticsRevamp.bots.chartMetric	图表指标
+translation.analyticsRevamp.bots.tableTitle	按花费排的 {{botNamePlural}}
+translation.analyticsRevamp.bots.tableDescription	每个 {{botName}} 链接到其页面
+translation.analyticsRevamp.bots.bot	{{botName}}
+translation.analyticsRevamp.bots.owner	所有者
+translation.analyticsRevamp.bots.share	花费占比
+translation.analyticsRevamp.bots.empty	此期间无 {{botName}} 活动
+translation.announcementCallout.close	关闭
+translation.announcementCallout.title	公司公告
+translation.announcementCallout.view	查看
+translation.appUpdate.title	有可用更新
+translation.appUpdate.bar.available	有可用更新
+translation.appUpdate.bar.ready	更新已就绪
+translation.appUpdate.checking	正在检查更新…
+translation.appUpdate.description	重启应用以获取最新更新
+translation.appUpdate.descriptionAvailable	下载更新以获取最新变更
+translation.appUpdate.descriptionInstall	安装更新以获取最新变更
+translation.appUpdate.download	下载
+translation.appUpdate.downloading	正在下载更新…
+translation.appUpdate.install	安装更新
+translation.appUpdate.installing	正在安装更新…
+translation.appUpdate.restart	重启以更新
+translation.previewBuild.title	预览：{{label}}
+translation.previewBuild.loadingTitle	正在加载预览：{{label}}
+translation.previewBuild.description	此窗口运行的是 PR 的构建，而非发布版。
+translation.previewBuild.revert	返回发布版
+translation.previewBuild.updateReady	更新的预览（{{commit}}）已就绪。
+translation.previewBuild.updateBuilding	更新的提交 {{commit}} 正在构建。
+translation.previewBuild.updateFailed	更新的提交 {{commit}} 的预览失败。
+translation.previewBuild.barUpdateReady	新预览已就绪
+translation.previewBuild.barUpdateBuilding	新预览构建中
+translation.previewBuild.barUpdateFailed	新预览构建失败
+translation.previewBuild.seeNewBuildProgress	查看新构建进度
+translation.previewBuild.checkForUpdate	检查更新的构建
+translation.previewBuild.checkForUpdateFailed	无法检查此 PR 是否有更新的构建。
+translation.previewBuild.switch	切换到 {{commit}}
+translation.auth.sessionErrors.noOrgMembership	你不是任何组织的成员。请联系你组织的管理员获取访问权限。
+translation.auth.sessionErrors.impersonationPostAuthFailed	被模拟用户认证后流程失败。正在停止模拟。
+translation.auth.sessionErrors.postAuthFailed	认证后设置未能完成
+translation.auth.loggedOut.heading	你已登出
+translation.auth.loggedOut.logInAgain	重新登录
+translation.auth.loggedOut.message	你的认证会话已被安全终止。
+translation.auth.loggedOut.title	已登出
+translation.auth.redirectingSeconds_one	{{count}} 秒后重定向...
+translation.auth.redirectingSeconds_other	{{count}} 秒后重定向...
+translation.auth.upgrade.chatgptHeroBadge	限时促销
+translation.auth.upgrade.chatgptHeroDescription	连接个人 Go、Plus 或 Pro 计划，无需另购 Devin 订阅即可试用 Devin
+translation.auth.upgrade.chatgptHeroTitle	只用你的 ChatGPT 计划就能试用 Devin
+translation.auth.upgrade.continueWithFree	继续使用免费版（有限访问）
+translation.auth.upgrade.freeFeatureDeepWiki	DeepWiki
+translation.auth.upgrade.freeFeatureReview	Devin Review
+translation.auth.upgrade.freeFeatureUsage	有限的 Cloud、Desktop 与 CLI 用量
+translation.auth.upgrade.freePlanIncludes	免费计划包含：
+translation.auth.upgrade.genericError	出了点问题，请重试。
+translation.auth.upgrade.choosePlanHeading	选择你的计划
+translation.auth.upgrade.choosePlanDescription	开始用 Devin 交付。随时可取消。
+translation.auth.upgrade.recommendedForYou	为你推荐
+translation.auth.upgrade.heading	解锁 Devin 的全部能力
+translation.auth.upgrade.loading	正在加载...
+translation.auth.upgrade.selectAnotherPlan	选择其他计划
+translation.auth.upgrade.trialDescription	解锁 Devin 的全部能力。你的卡 14 天内不会被扣款，可随时取消。
+translation.auth.upgrade.trialHeading	领取你的<wbr />免费 Pro 试用
+translation.auth.accountPicker.accountSectionAria	{{section}} 账户
+translation.auth.accountPicker.assignFullSeat	分配正式席位
+translation.auth.accountPicker.contractExpired	你组织的 Devin 合同已结束
+translation.auth.accountPicker.flexSeatTooltip	你在此账户的 Flex 席位无权访问 {{productName}}。请向账户管理员申请正式席位。
+translation.auth.accountPicker.fullSeatRequested	已申请正式席位
+translation.auth.accountPicker.logInOnWindsurfDotCom	在 windsurf.com 登录
+translation.auth.accountPicker.noActiveSubscription	无有效订阅
+translation.auth.accountPicker.noEligibleAccountsFound	未找到符合条件的账户
+translation.auth.accountPicker.noLocalAgentAccess	无本地代理访问权限
+translation.auth.accountPicker.noPermissionToUseProduct	你无权使用 {{productName}}
+translation.auth.accountPicker.planSeatAssignedToAnotherUser	计划席位已分配给其他用户
+translation.auth.accountPicker.productAccessNotEnabled	此账户未启用 {{productName}} 访问
+translation.auth.accountPicker.productOnly	仅 {{productName}}
+translation.auth.accountPicker.requestFullSeat	申请正式席位
+translation.auth.accountPicker.requiresFullSeat	需要正式席位
+translation.auth.accountPicker.selectAccount	选择账户
+translation.auth.accountPicker.signedInAs	已登录为 {{email}}
+translation.auth.accountPicker.subscriptionCanceled	订阅已取消
+translation.auth.accountPicker.subscriptionInactive	订阅未生效
+translation.auth.accountPicker.windsurfEnterpriseLegacy	Windsurf 企业版（旧版）
+translation.auth.accountPicker.fullSeatRequestSent	你的申请已发送给团队管理员审核。
+translation.auth.accountPicker.fullSeatRequestFailed	申请正式席位失败
+translation.auth.accountPicker.tierFree	免费版
+translation.auth.accountPicker.tierMax	Max
+translation.auth.accountPicker.tierPro	Pro
+translation.auth.accountPicker.tierTeams	Teams
+translation.auth.authentication	身份认证
+translation.auth.chatgptIdentityMismatch	此 Devin 账户绑定了另一个 ChatGPT 账户。请用绑定的 ChatGPT 账户登录，或使用其他登录方式。
+translation.auth.chatgptLinkRequired	已有 Devin 账户使用此邮箱。请先以原有方式登录，然后在 Connections 页面绑定 ChatGPT。绑定后即可用 ChatGPT 登录。
+translation.auth.chatgptSsoRequired	此账户要求使用 SSO，无法绑定 ChatGPT。请通过你组织的 SSO 登录。
+translation.auth.emailLogin.accountConnectionLabel	{{accountName}}（{{connectionName}}）
+translation.auth.emailLogin.accountConnectionsHeading	选择账户
+translation.auth.emailLogin.back	返回
+translation.auth.emailLogin.checking	正在检查...
+translation.auth.emailLogin.continue	继续
+translation.auth.emailLogin.emailAddress	邮箱地址
+translation.auth.emailLogin.enterpriseHeading	通过你的企业继续
+translation.auth.emailLogin.errors.accountNotFound	此邮箱没有对应账户
+translation.auth.emailLogin.errors.authenticationFailed	认证失败，请重试。
+translation.auth.emailLogin.errors.differentSignInRequired	此域名要求使用其他登录方式。请联系你的团队管理员。
+translation.auth.emailLogin.errors.enterpriseSetupRequired	你的邮箱域名需要企业级配置。请联系你的 IT 管理员为组织配置 Devin 访问。
+translation.auth.emailLogin.errors.enterpriseSsoRequired	此邮箱域名使用企业 SSO。请通过企业的 devinenterprise.com 域名登录。
+translation.auth.emailLogin.errors.loginMethodCheckFailed	无法检查登录方式，请重试。
+translation.auth.emailLogin.errors.somethingWentWrong	出了点问题
+translation.auth.emailLogin.errors.ssoConfigurationNotFound	此邮箱域名没有 SSO 配置。请联系管理员。
+translation.auth.emailLogin.errors.ssoInviteRequired	你的组织使用 SSO。请向管理员索要邀请。
+translation.auth.emailLogin.errors.ssoNotConfigured	此连接未配置 SSO 登录。请刷新重试，或使用其他登录方式。
+translation.auth.emailLogin.errors.ssoStartUnexpected	启动 SSO 登录时出错。请重试或使用其他登录方式。
+translation.auth.emailLogin.errors.verificationUnavailable	暂时无法验证你的账户，请重试。
+translation.auth.emailLogin.forgotPassword	忘记密码？
+translation.auth.emailLogin.logInWithEmailCode	或者，使用邮箱验证码
+translation.auth.emailLogin.or	或
+translation.auth.emailLogin.password	密码
+translation.auth.emailLogin.passwordHeading	输入你的密码
+translation.auth.emailLogin.resendCode	重新发送验证码
+translation.auth.emailLogin.resendCodeIn	{{seconds}} 秒后可重新发送
+translation.auth.emailLogin.sending	正在发送...
+translation.auth.emailLogin.sendingCode	正在发送验证码...
+translation.auth.emailLogin.signIn	登录
+translation.auth.emailLogin.signingIn	正在登录...
+translation.auth.emailLogin.verificationCode	验证码
+translation.auth.emailLogin.verificationEmailSent	我们已向 {{email}} 发送验证码
+translation.auth.emailLogin.verificationHeading	验证你的身份
+translation.auth.emailLogin.verifying	正在验证...
+translation.auth.logIn	登录
+translation.auth.resetPassword	重置密码
+translation.auth.signUp	注册
+translation.auth.signupConsent.entryNotice	继续即表示你已阅读并同意<privacy>隐私政策</privacy>和<terms>服务条款</terms>。
+translation.auth.signupConsent.caPrivacy	我同意按<privacy>隐私政策</privacy>所述收集和使用我的个人信息，包括在加拿大境外处理。
+translation.auth.signupConsent.caTerms	我同意<terms>服务条款</terms>
+translation.auth.signupConsent.eea	我同意<terms>服务条款</terms>并已阅读<privacy>隐私政策</privacy>。
+translation.auth.signupConsent.eeaNotice	继续即表示你同意<terms>服务条款</terms>并确认已阅读<privacy>隐私政策</privacy>。
+translation.auth.signupConsent.existingUserContinue	继续
+translation.auth.signupConsent.existingUserFailed	我们无法保存你的同意记录，请重试。
+translation.auth.signupConsent.existingUserTitle	请查看条款以继续
+translation.auth.signupConsent.required	注册前请先同意。
+translation.auth.signupConsent.us	我已阅读并同意<terms>服务条款</terms>和<privacy>隐私政策</privacy>
+translation.auth.signupConsent.usNotice	继续即表示你确认已阅读并同意<terms>服务条款</terms>和<privacy>隐私政策</privacy>。
+translation.auth.ssoSignupConsent.backToLogin	返回登录
+translation.auth.ssoSignupConsent.connectionUnavailable	此 SSO 连接不可用。请返回并重新登录。
+translation.auth.ssoSignupConsent.continue	同意并继续使用 SSO
+translation.auth.ssoSignupConsent.description	这是你首次使用 SSO 登录。在下方同意以创建账户；之后会再次跳转你的身份提供商。
+translation.auth.ssoSignupConsent.title	创建你的 Devin 账户
+translation.auth.universityBridgeRedirecting	正在跳转到 Devin University…
+translation.auth.invalidSignInLink.body	链接缺少部分内容或已被更改，我们无法为你登录。请回到你原来的应用或终端重新开始登录。
+translation.auth.invalidSignInLink.title	此登录链接不完整
+translation.auth.mobileBeta.body	此账户尚未加入 Beta。加入候补名单，通过后我们会通知你。
+translation.auth.mobileBeta.bodyAndroid	此账户尚未加入 Android Beta。请联系你的 Devin 对接人为你开启。
+translation.auth.mobileBeta.joinWaitlist	加入候补名单
+translation.auth.mobileBeta.title	Devin for iOS 处于私密 Beta
+translation.auth.mobileBeta.titleAndroid	Devin for Android 处于私密 Beta
+translation.auth.mobileBeta.tryDifferentAccount	换个账户试试
+translation.auth.oauthConsent.accountHeading	账户
+translation.auth.oauthConsent.accountUnavailable	{{clientName}} 在此账户不可用
+translation.auth.oauthConsent.allow	允许
+translation.auth.oauthConsent.changeAccount	更换
+translation.auth.oauthConsent.chooseAccount	选择 {{clientName}} 可访问的账户。
+translation.auth.oauthConsent.chooseEligibleAccount	{{clientName}} 在 {{account}} 不可用。请选择一个它可以访问的账户。
+translation.auth.oauthConsent.clientIdHost	应用详情由 {{host}} 发布。
+translation.auth.oauthConsent.deny	拒绝
+translation.auth.oauthConsent.documentTitle	授权访问
+translation.auth.oauthConsent.errorTitle	授权错误
+translation.auth.oauthConsent.framed	出于安全考虑，此页面不能在其他页面内嵌显示。请在独立的标签页或窗口中打开。
+translation.auth.oauthConsent.impersonating	模拟用户期间无法授权应用。
+translation.auth.oauthConsent.intro	{{clientName}} 请求访问你的 Devin 账户。仅当你自己发起了 {{clientName}} 的登录时才允许。
+translation.auth.oauthConsent.invalidLink	此授权链接无效。请回到应用重试。
+translation.auth.oauthConsent.notAvailable	从 {{clientName}} 登录 Devin 尚未对客户开放，无法为你的账户启用。如需立即连接，请改用个人访问令牌。
+translation.auth.oauthConsent.notAvailableTitle	{{clientName}} 暂不可用
+translation.auth.oauthConsent.requestFailed	出了点问题。请重试，或回到应用重新开始。
+translation.auth.oauthConsent.returnHint	如果没有反应，请使用下方链接。之后可以关闭此页面。
+translation.auth.oauthConsent.returnLink	返回应用
+translation.auth.oauthConsent.returnLinkTo	返回 {{clientName}}
+translation.auth.oauthConsent.returning	正在返回应用…
+translation.auth.oauthConsent.returningTo	正在返回 {{clientName}}…
+translation.auth.oauthConsent.scopesHeading	{{clientName}} 将能够
+translation.auth.oauthConsent.signingInAs	正以 {{email}} 登录 {{account}}
+translation.auth.oauthConsent.signingInTo	正在登录 {{account}}
+translation.auth.oauthConsent.termsRequired	此账户的条款尚未被接受。请打开 Devin 查看条款后重试。
+translation.auth.oauthConsent.title	授权 {{clientName}}
+translation.auth.oauthConsent.unverifiedClient	Devin 尚未验证此应用。如果你允许，将被送往 {{redirectTarget}}。
+translation.auth.noAccountPrompt	还没有账户？
+translation.auth.haveAccountPrompt	已有账户？
+translation.auth.continueWithProvider	通过 {{provider}} 继续
+translation.auth.logInWithSso	使用 SSO 登录
+translation.auth.logInWithConnection	使用 {{name}} 登录
+translation.auth.logInWithAccountConnection	使用 {{account}}（{{name}}）登录
+translation.auth.signInWithSso	使用 SSO 登录
+translation.auth.signInWithConnection	使用 {{name}} 登录
+translation.auth.signInWithAccountConnection	使用 {{account}}（{{name}}）登录
+translation.auth.noLoginMethods	没有可用的登录方式。请联系管理员获取登录帮助。
+translation.auth.noSignupMethods	没有可用的注册方式。请联系管理员获取登录帮助。
+translation.auth.orDivider	或
+translation.auth.resetPasswordPage.back	返回
+translation.auth.resetPasswordPage.successBody	你现在可以用新密码登录了。
+translation.auth.resetPasswordPage.goToLogin	前往登录
+translation.auth.resetPasswordPage.title	重置密码
+translation.auth.resetPasswordPage.successTitle	密码重置成功
+translation.auth.resetPasswordPage.sendFailed	发送重置验证码失败，请重试。
+translation.auth.resetPasswordPage.enterCode	请输入 6 位验证码。
+translation.auth.resetPasswordPage.passwordLength	密码长度须在 8 到 64 个字符之间。
+translation.auth.resetPasswordPage.passwordMismatch	两次输入的密码不一致。
+translation.auth.resetPasswordPage.resetFailed	重置密码失败。验证码可能无效或已过期。
+translation.auth.resetPasswordPage.enterEmail	输入邮箱以接收重置验证码
+translation.auth.resetPasswordPage.email	邮箱
+translation.auth.resetPasswordPage.sending	正在发送...
+translation.auth.resetPasswordPage.sendCode	发送重置验证码
+translation.auth.resetPasswordPage.backToLogin	返回登录
+translation.auth.resetPasswordPage.enterCodeAndPassword	输入发送到 {{email}} 的验证码并设置新密码
+translation.auth.resetPasswordPage.verificationCode	验证码
+translation.auth.resetPasswordPage.newPassword	新密码
+translation.auth.resetPasswordPage.confirmPassword	确认新密码
+translation.auth.resetPasswordPage.resetting	正在重置...
+translation.auth.resetPasswordPage.resetPassword	重置密码
+translation.auth.desktopSuccess.pageTitle	认证成功
+translation.auth.desktopSuccess.noAccessShort	你还没有 {{productName}} 的访问权限。
+translation.auth.desktopSuccess.opening	已登录！正在打开 {{productName}}...
+translation.auth.desktopSuccess.appDidntOpen	应用没有打开？
+translation.auth.desktopSuccess.clickToOpen	点击这里打开 {{productName}}
+translation.auth.desktopSuccess.clickHere	点击这里
+translation.auth.desktopSuccess.or	或
+translation.auth.desktopSuccess.tryManualAuth	尝试手动认证
+translation.auth.desktopSuccess.accessRequired	需要 {{productName}} 访问权限
+translation.auth.desktopSuccess.noAccess	你的账户还没有 {{productName}} 的访问权限。
+translation.auth.desktopSuccess.askAdmin	请让团队管理员为你分配正式席位。
+translation.auth.desktopSuccess.manageMembers	管理成员
+translation.auth.desktopSuccess.goToDevin	前往 Devin
+translation.auth.desktopSuccess.didntOpenTitle	{{productName}} 没有打开？
+translation.auth.desktopSuccess.didntOpenBody	如果 {{productName}} 没有自动打开，请确认它已安装在你的电脑上。
+translation.auth.desktopSuccess.download	下载 {{productName}}
+translation.auth.desktopSuccess.tryAgain	重试
+translation.auth.desktopSuccess.appDidntOpenTry	应用没有打开？试试
+translation.auth.desktopSuccess.manualAuth	手动认证
+translation.auth.desktopSuccess.visitDevin	访问 Devin
+translation.auth.desktopSuccess.unexpectedError	发生了意外错误。
+translation.auth.errors.enterpriseSsoDomain	此邮箱域名使用企业 SSO。请通过企业的 devinenterprise.com 域名登录。
+translation.auth.errors.ssoConnectionUnavailable	此 SSO 连接在此不可用。请通过企业的 devinenterprise.com 域名登录。
+translation.auth.errors.signInStartFailed	使用 {{provider}} 登录时出错。请重试或使用其他登录方式。
+translation.auth.errors.signInUnavailable	{{provider}} 登录暂时不可用。请刷新重试，或使用其他登录方式。
+translation.auth.errors.signInNotConfigured	未配置 {{provider}} 登录。请刷新重试，或使用其他登录方式。
+translation.auth.errors.ssoStartFailed	启动 SSO 登录时出错。请重试或使用其他登录方式。
+translation.auth.errors.ssoNotConfigured	此连接未配置 SSO 登录。请刷新重试，或使用其他登录方式。
+translation.auth.errors.domainRequiresDifferentSignIn	此域名要求使用其他登录方式。请联系你的团队管理员。
+translation.auth.errors.ipNotAllowed	你的组织只允许来自获批网络的访问，而你当前的网络不在其中。请连接公司网络或 VPN 后重新登录，或联系组织管理员。
+translation.auth.errors.ipNotAllowedWithAddress	你的组织只允许来自获批网络的访问，而你当前的 IP 地址（{{ip}}）不在其中。请连接公司网络或 VPN 后重新登录，或联系组织管理员。
+translation.auth.inviteCode.invalidEmail	请输入有效邮箱
+translation.auth.inviteCode.missingCode	需要邀请码
+translation.auth.inviteCode.title	注册 Devin
+translation.auth.inviteCode.checkInbox	查收收件箱中的邀请链接
+translation.auth.inviteCode.inviteCode	邀请码
+translation.auth.inviteCode.signingUp	正在注册…
+translation.auth.loggingOut	正在登出
+translation.auth.federal.bannerTitle	美国政府信息系统
+translation.auth.federal.accept	我接受
+translation.auth.federal.welcomeBack	欢迎回来
+translation.auth.federal.logInToAccount	登录你的账户
+translation.autoRecharge.paymentFailedSubtitle	你最近一次自动充值付款失败。请更新付款信息或直接支付账单。
+translation.autoRecharge.paymentFailedTitle	自动充值付款失败
+translation.autoRecharge.seeInvoices	查看账单
+translation.automationAgentTypes.incident	事故
+translation.automationAgentTypes.incidentDescription	在事故频道中调查与协助
+translation.railPins.pin	固定到左侧栏
+translation.railPins.unpin	从左侧栏取消固定
+translation.railPins.open	打开
+translation.railPins.loading	正在加载固定项…
+translation.railPins.dragInstructions	要重新排列固定项，按空格键拾起，用方向键移动，按空格放下，或按 Esc 取消。
+translation.railPins.dragStart	已拾起 {{name}}。
+translation.railPins.dragMove	{{name}} 位于第 {{position}} / 共 {{count}} 位。
+translation.railPins.dragEnd	已放下 {{name}}。
+translation.railPins.dragCancel	已取消重排 {{name}}。
+translation.apps.pinFailed	更新固定失败
+translation.apps.commandSearch.scope	应用搜索范围
+translation.apps.commandSearch.all	全部
+translation.apps.commandSearch.pinned	已固定
+translation.apps.commandSearch.yours	你的
+translation.apps.commandSearch.online	在线
+translation.apps.commandSearch.createFromQuery	用此描述创建应用
+translation.apps.customizeIcon	自定义图标…
+translation.apps.appPage	应用页面
+translation.apps.pinnedToYourRail	已固定到你的侧栏
+translation.apps.unpinFromRail	从侧栏取消固定
+translation.apps.noMatchingApps	没有匹配的 App
+translation.apps.editInSession	在会话中编辑
+translation.apps.sidebarShowHeader	显示头部
+translation.apps.liveLoading	正在加载 App…
+translation.apps.liveNotFound	找不到此 App，或你没有访问权限。
+translation.apps.liveBack	返回 Apps
+translation.apps.liveEdit	编辑 App
+translation.apps.liveOpen	在新标签页打开
+translation.apps.liveNotServing	此 App 未在服务中。打开其详情管理部署。
+translation.apps.liveUnavailable	此 App 无法内嵌显示。请在新标签页中打开。
+translation.apps.sidebarIconNames.chart	图表
+translation.apps.sidebarIconNames.calendar	日历
+translation.apps.sidebarIconNames.chat	聊天
+translation.apps.sidebarIconNames.form	表单
+translation.apps.sidebarIconNames.table	表格
+translation.apps.sidebarIconNames.devices	设备
+translation.apps.sidebarIconNames.news	动态
+translation.apps.customizeSidebarIcon	自定义侧栏图标…
+translation.apps.sidebarIconColor	颜色
+translation.apps.sidebarIconBackground	背景
+translation.apps.sidebarIconReset	重置为默认
+translation.apps.sidebarIconSaveFailed	无法保存图标，请重试。
+translation.apps.sidebarIconColors.blue	蓝
+translation.apps.sidebarIconColors.green	绿
+translation.apps.sidebarIconColors.orange	橙
+translation.apps.sidebarIconColors.red	红
+translation.apps.sidebarIconColors.purple	紫
+translation.apps.sidebarIconColors.neutral	中性
+translation.apps.sidebarIconBackgrounds.solid	纯色
+translation.apps.sidebarIconBackgrounds.tint	淡色
+translation.apps.sidebarIconBackgrounds.none	无
+translation.apps.archiveServingTitle_one	这将使一个 App 下线
+translation.apps.archiveServingTitle_other	这将使多个 App 下线
+translation.apps.archiveServingDescription_one	归档会使 {{names, list}} 下线。在其会话取消归档前无人能打开。
+translation.apps.archiveServingDescription_other	归档会使 {{names, list}} 下线。在其会话取消归档前无人能打开。
+translation.apps.archiveServingKeepLive	保持会话运行
+translation.apps.archiveServingKeepLiveMany	保持会话运行
+translation.apps.archiveServingConfirm	归档并下线
+translation.apps.stopServingDescription_one	停止会使 {{names, list}} 下线。在其会话恢复前无人能打开。
+translation.apps.stopServingDescription_other	停止会使 {{names, list}} 下线。在其会话恢复前无人能打开。
+translation.apps.stopServingConfirm	停止并下线
+translation.apps.pageViewsOverTime	页面浏览量
+translation.apps.last24Hours	最近 24 小时
+translation.apps.last7Days	最近 7 天
+translation.apps.last30Days	最近 30 天
+translation.apps.pageViewCount_one	{{count}} 次浏览
+translation.apps.pageViewCount_other	{{count}} 次浏览
+translation.apps.notTrackedYet	尚未跟踪
+translation.apps.accessShort.org	组织
+translation.apps.accessShort.password	密码
+translation.apps.coverPhoto	封面图
+translation.apps.coverUpload	上传
+translation.apps.coverReplace	替换
+translation.apps.coverRemove	移除
+translation.apps.coverSaved	封面图已更新
+translation.apps.coverRemoved	封面图已移除
+translation.apps.coverSaveFailed	无法更新封面图
+translation.apps.rename	重命名
+translation.apps.renameTitle	重命名应用
+translation.apps.renameHelp	Apps 页面显示的名称。应用 URL 不变。
+translation.apps.renamed	应用已重命名
+translation.apps.renameFailed	重命名应用失败
+translation.apps.edit	编辑
+translation.apps.editDescription	编辑描述
+translation.apps.stopApplicationHelp	停止服务该应用，但保留其注册和部署历史
+translation.apps.takeOffline	下线
+translation.apps.removeApplicationHelp	停止并从应用及相关部署中移除
+translation.apps.cancel	取消
+translation.apps.columnCreated	创建时间
+translation.apps.columnUpdated	更新时间
+translation.apps.columnName	名称
+translation.apps.creatorViaBot	{{owner}} 通过 {{bot}}
+translation.apps.columnOwner	所有者
+translation.apps.deployName	名称
+translation.apps.deploymentVersion	V{{version}}
+translation.apps.deployBranch	分支
+translation.apps.columnScope	范围
+translation.apps.columnStatus	状态
+translation.apps.copied	已复制
+translation.apps.copyFailed	复制 URL 失败
+translation.apps.copyUrl	复制 URL
+translation.apps.copySessionLink	复制会话链接
+translation.apps.editApp	在会话中编辑
+translation.apps.openPreview	打开预览
+translation.apps.noDeployments	无部署
+translation.apps.deploymentsTitle	部署
+translation.apps.deploysNoMatches	没有匹配这些筛选的部署。
+translation.apps.viewDeployment	查看 v{{version}} 部署
+translation.apps.searchDeployments	搜索部署
+translation.apps.searchDeploymentsPlaceholder	搜索部署
+translation.apps.sortNewestFirst	排序：最新在前
+translation.apps.sortOldestFirst	排序：最旧在前
+translation.apps.session	会话
+translation.apps.previewUrl	URL
+translation.apps.create	创建应用
+translation.apps.createDescription	Devin 可以为组织内所有人构建并通过稳定 URL 部署应用
+translation.apps.createFailed	创建应用失败
+translation.apps.createTitle	创建应用
+translation.apps.dangerZone	危险区域
+translation.apps.delete	删除
+translation.apps.deleteDescription	应用 URL 将停止工作。管理它的会话不受影响。
+translation.apps.deleteFailed	删除应用失败
+translation.apps.deleteTitle	删除 {{name}}？
+translation.apps.deployStatus.failed	失败
+translation.apps.deployStatus.live	在线
+translation.apps.deployStatus.starting	构建中
+translation.apps.deployStatus.stopped	离线
+translation.apps.description	使用 Devin 为你的组织构建并托管自定义应用
+translation.apps.emptyTitle	还没有应用
+translation.apps.fieldDescription	描述
+translation.apps.fieldName	名称
+translation.apps.fieldPromptPlaceholder	一个让团队给办公室订咖啡的页面
+translation.apps.templateLabel	模板
+translation.apps.startFromTemplate	从模板开始
+translation.apps.newApp	新应用
+translation.apps.historyEmpty	还没有部署。
+translation.apps.historyError	加载部署失败
+translation.apps.hostName	主机名
+translation.apps.loadError	加载应用失败
+translation.apps.noMatches	没有匹配这些筛选的应用。
+translation.apps.gridView	网格视图
+translation.apps.listView	列表视图
+translation.apps.viewPreference	应用视图
+translation.apps.openInNewTab	在新标签页打开 {{name}}
+translation.apps.unpinnedSection	未固定
+translation.apps.notFound	未找到应用
+translation.apps.offlineCallout	此应用已离线。其 URL 显示离线页，直到 Devin 再次部署。
+translation.apps.offlineFailed	此应用已离线：部署 v{{version}} 在上线前失败。
+translation.apps.open	打开
+translation.apps.online	在线
+translation.apps.offline	离线
+translation.apps.retry	重试
+translation.apps.save	保存
+translation.apps.saveFailed	保存应用失败
+translation.apps.saved	已保存
+translation.apps.scopeAllScopes	全部范围
+translation.apps.scopeMine	我的
+translation.apps.scopeFilterAccessible	范围：{{selection}}
+translation.apps.search	搜索应用
+translation.apps.sortBy	排序应用
+translation.apps.sortAscending	升序
+translation.apps.sortDescending	降序
+translation.apps.stateAllStatuses	全部状态
+translation.apps.stateFilterAccessible	状态：{{selection}}
+translation.apps.stateOnline	在线
+translation.apps.stateOnlineVersion	在线 · v{{version}}
+translation.apps.stateOffline	离线
+translation.apps.stateBuilding	构建中
+translation.apps.buildingThumbnail	构建中…
+translation.apps.stopFailed	应用下线失败
+translation.apps.tabSettings	设置
+translation.apps.template.review-queue.name	评审队列
+translation.apps.template.review-queue.description	团队评审 eval 运行或为示例打标，然后导出结果
+translation.apps.template.review-queue.placeholder	构建一个评审队列，让团队成员逐个过 eval 运行或示例，为每个打标、留评并导出结果。先用示例运行文件起步，然后向我要真实数据替换。
+translation.apps.template.project-status.name	项目状态页
+translation.apps.template.project-status.description	来自 Linear、Jira 或 GitHub 的项目进度、负责人和阻塞项
+translation.apps.template.project-status.placeholder	基于 Linear、Jira 或 GitHub 中的 issue 构建项目状态页。先问我要用哪个追踪器和项目再动手。展示进度、负责人、阻塞项和最近变更，并定时刷新数据。
+translation.apps.template.metrics-dashboard.name	指标仪表盘
+translation.apps.template.metrics-dashboard.description	来自数据仓库或 API 的自有指标图表
+translation.apps.template.metrics-dashboard.placeholder	从数据仓库或 API 构建关键指标仪表盘。先问我要用哪个数据源和指标再动手。用日期筛选展示趋势图，并定时刷新数据。
+translation.apps.template.incident-dashboard.name	事故仪表盘
+translation.apps.template.incident-dashboard.description	一个实时视图汇总部署、错误率和未决事故
+translation.apps.template.incident-dashboard.placeholder	构建最近部署、错误率和未决事故的实时仪表盘。为每个事故展示严重程度、负责人和更新时间线。
+translation.apps.template.customer-health.name	客户健康浏览器
+translation.apps.template.customer-health.description	搜索任意账户查看用量、计划和未结工单
+translation.apps.template.customer-health.placeholder	构建可搜索的账户浏览器，展示每个客户的计划、近期用量和未结工单。加筛选器找出需要关注的账户。
+translation.apps.template.design-system.name	设计系统
+translation.apps.template.design-system.description	你仓库中组件、令牌和可复制代码的活画廊
+translation.apps.template.design-system.placeholder	从此仓库的组件和令牌构建画廊。展示组件变体、颜色与排版令牌及可复制的用法示例。
+translation.apps.title	Apps
+translation.apps.sessionLinkCopied	会话链接已复制
+translation.apps.columnTraffic	访问量
+translation.apps.noTraffic	无
+translation.apps.requestsLast7Days_one	最近 7 天 {{count}} 次请求
+translation.apps.requestsLast7Days_other	最近 7 天 {{count}} 次请求
+translation.apps.sessionServes_one	此会话服务 {{count}} 个 App
+translation.apps.sessionServes_other	此会话服务 {{count}} 个 App
+translation.apps.production	生产环境
+translation.apps.deployment.description	描述
+translation.apps.deployment.details	部署详情
+translation.apps.deployment.versionTitle	v{{version}}
+translation.apps.deployment.openSession	打开会话
+translation.apps.deployment.status	状态
+translation.apps.deployment.target	目标
+translation.apps.deployment.host	主机
+translation.apps.deployment.session	会话
+translation.apps.deployment.deployedBy	部署者
