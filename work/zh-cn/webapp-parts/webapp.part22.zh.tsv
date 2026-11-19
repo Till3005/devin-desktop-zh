@@ -1,0 +1,500 @@
+translation.notificationInbox.server.usageRequestSubmitted.actions.approve	批准
+translation.notificationInbox.server.usageRequestSubmitted.actions.deny	拒绝
+translation.notificationInbox.server.usageRequestSubmitted.outcome.approved	已批准
+translation.notificationInbox.server.usageRequestSubmitted.outcome.denied	已拒绝
+translation.notificationInbox.server.usageRequestSubmitted.outcome.canceled	已取消
+translation.notificationInbox.server.usageRequestSubmitted.outcome.expired	已过期
+translation.notificationInbox.server.usageRequestSubmitted.settings.name	待批准的用量请求
+translation.notificationInbox.server.usageRequestSubmitted.settings.description	有人请求提高用量上限，而你可以批准。
+translation.onboarding.removeInvitee	移除 {{name}}
+translation.onboarding.moreInvitees	+{{count}} 个
+translation.onboarding.attributionCoworker	同事
+translation.onboarding.attributionDeepWiki	DeepWiki
+translation.onboarding.attributionFriend	朋友
+translation.onboarding.attributionGoogle	Google
+translation.onboarding.attributionLinkedin	LinkedIn
+translation.onboarding.attributionOther	其他
+translation.onboarding.attributionSweModels	SWE 模型
+translation.onboarding.attributionTwitter	Twitter
+translation.onboarding.attributionYoutube	YouTube
+translation.onboarding.autoTriageCreated	自动分诊自动化已创建
+translation.onboarding.autoTriageCreateFailed	创建自动分诊自动化失败
+translation.onboarding.askAboutCodebase	向 Devin 询问你的代码库
+translation.onboarding.assignWorkToDevinInSlack	在 Slack 中给 <devin>@Devin</devin> 派活
+translation.onboarding.autoFixFindingsDescription	让处理 PR 的 Devin 会话自动修复已确认的评审发现。
+translation.onboarding.autoFixRecommended	推荐
+translation.onboarding.cancel	取消
+translation.onboarding.completedChecklistItem	已完成清单项
+translation.onboarding.connect	连接
+translation.onboarding.connectIntegration	连接集成
+translation.onboarding.connectJiraDescription	连接你组织的 Jira 站点
+translation.onboarding.connectLinearDescription	连接你组织的工作区
+translation.onboarding.connectReturnToast	连接未完成。请重试。
+translation.onboarding.connectSlackWorkspaceDescription	连接你团队的工作区
+translation.onboarding.connectTeamsDescription	连接你的 Microsoft Teams 工作区
+translation.onboarding.connectToGit	连接到 Git
+translation.onboarding.connected	已连接
+translation.onboarding.mcpStatusAuthExpired	认证已过期
+translation.onboarding.mcpStatusDisabled	已禁用
+translation.onboarding.mcpStatusSetupIncomplete	设置未完成
+translation.onboarding.back	返回
+translation.onboarding.continue	继续
+translation.onboarding.copy	复制
+translation.onboarding.couldNotJoinChannel	Devin 无法加入频道。<reconnectButton>重连 Slack</reconnectButton> 以授予加入频道的权限。
+translation.onboarding.countOfTotal	{{count}}/{{total}}
+translation.onboarding.createPlaybook	创建 playbook
+translation.onboarding.createSchedule	创建计划任务
+translation.onboarding.deepWikiIndexFailed	开启 DeepWiki 失败。请重试。
+translation.onboarding.enterAtLeastOneEmail	输入至少一个邮箱地址
+translation.onboarding.welcomeDescription	用一个 Devin 引导会话开始。
+translation.onboarding.welcomeNotNow	暂不
+translation.onboarding.welcomeStart	开始
+translation.onboarding.welcomeTitle	欢迎来到 {{org}}
+translation.onboarding.welcomeTitleGeneric	欢迎
+translation.onboarding.failedStartRepoSetupSession	启动仓库设置会话失败。
+translation.onboarding.failedStartMcpSetupSession	启动 MCP 设置会话失败。
+translation.onboarding.stepMcpBody	挑选 Devin 应使用的工具，或输入名称添加你自己的。稍后在置顶会话中批准访问。
+translation.onboarding.stepMcpTitle	连接你的工具
+translation.onboarding.searchMcpServers	搜索 MCP 服务器
+translation.onboarding.noMcpServersFound	未找到 MCP 服务器。
+translation.onboarding.mcpCategoryAll	全部
+translation.onboarding.mcpCategorySuggested	建议
+translation.onboarding.mcpCategoryOther	其他
+translation.onboarding.addCustomMcpTool	把「{{name}}」加为自定义工具
+translation.onboarding.customMcpTool	自定义
+translation.onboarding.unableToLoadMcpServers	无法加载 MCP 服务器。
+translation.onboarding.devinHelpsPickUpTasks	<devin>Devin</devin> 帮你在 Slack 中接任务
+translation.onboarding.devinWillJoin	Devin 将加入 {{channel}}
+translation.onboarding.dismiss	关闭
+translation.onboarding.dismissChecklist	关闭清单
+translation.onboarding.dismissChecklistTitle	关闭清单？
+translation.onboarding.dismissDescription	这将隐藏引导清单。你可以在账户设置中找回它。
+translation.onboarding.earnAcus_one	赚 {{count}} ACU
+translation.onboarding.earnAcus_other	赚 {{count}} ACU
+translation.onboarding.earnDollars	赚 \${{amount}}
+translation.onboarding.earnedAcus_one	已赚 {{count}} ACU
+translation.onboarding.earnedAcus_other	已赚 {{count}} ACU
+translation.onboarding.earnedDollars	已赚 \${{amount}}
+translation.onboarding.emailAddresses	邮箱地址
+translation.onboarding.exploreAdvanced	探索高级能力
+translation.onboarding.fetchReposFailed	从你的 git 连接获取仓库失败。
+translation.onboarding.freeCredits	免费额度
+translation.onboarding.freeCreditsDescription	已加到你的团队。用于 PR、修 bug、重构、迁移——任何你要交付的事。
+translation.onboarding.getStarted	开始
+translation.onboarding.inChannel	在频道
+translation.onboarding.inDevinCredits	以 Devin 额度
+translation.onboarding.inMatchingGrants	以等额赠金
+translation.onboarding.inTeam	在团队
+translation.onboarding.incompleteChecklistItem	未完成清单项
+translation.onboarding.indexing	索引中
+translation.onboarding.invalidEmail	{{email}} 不是有效邮箱地址
+translation.onboarding.inviteEmailsPlaceholder	alex@example.com, sam@example.com
+translation.onboarding.invitedTeamMembers_one	已邀请 {{count}} 名团队成员
+translation.onboarding.invitedTeamMembers_other	已邀请 {{count}} 名团队成员
+translation.onboarding.labeled	标记为
+translation.onboarding.linearMonitor	Linear 监控
+translation.onboarding.jiraMonitor	Jira 监控
+translation.onboarding.inProject	在项目
+translation.onboarding.selectProject	选择项目…
+translation.onboarding.link	关联
+translation.onboarding.linkJiraUserDescription	让 Devin 以你身份在 Jira 中操作
+translation.onboarding.linkLinearUserDescription	让 Devin 以你身份在 Linear 中操作
+translation.onboarding.linkSlackUserDescription	让 Devin 在 Slack 中私信你
+translation.onboarding.linkTeamsUserDescription	让 Devin 在 Microsoft Teams 中私信你
+translation.onboarding.makeFirstSession	创建你的第一个会话
+translation.onboarding.manageIndexedInWiki	已索引仓库可在其 wiki 中管理。
+translation.onboarding.matchDescription	你每充值一美元我们等额赠送——在接下来的 {{totalUsage}} 用量中最高送 {{matchCap}}。你花 {{matchCap}}，你得 {{totalUsage}}。
+translation.onboarding.messageForAdmin	给你管理员的留言
+translation.onboarding.noReposConnectOrg	未找到仓库。连接 git 组织以设置仓库。
+translation.onboarding.noReposGrant	未找到仓库。连接 git 组织以授予仓库。
+translation.onboarding.noReposGranted	还没有仓库授予此组织。企业管理员可在 <settingsLink>Enterprise settings > Repositories</settingsLink> 授予。
+translation.onboarding.grantReposFailed	无法授予所选仓库。请重试。
+translation.onboarding.repoGranted	已授予
+translation.onboarding.noRepositoriesFound	未找到仓库
+translation.onboarding.onboardingProgress	引导进度
+translation.onboarding.oneToOneMatch	1:1 等额
+translation.onboarding.orgConnection	组织
+translation.onboarding.otherStepPlaceholder	其他，如 Billboard、会议、播客
+translation.onboarding.personalConnection	个人
+translation.onboarding.reconnectSlack	重连 Slack
+translation.onboarding.requestPermissionFromAdmin	向管理员申请权限
+translation.onboarding.reposSelectedForIndexing_one	已选 {{count}} 个仓库建立索引
+translation.onboarding.reposSelectedForIndexing_other	已选 {{count}} 个仓库建立索引
+translation.onboarding.reposSelectedForReview_one	已选 {{count}} 个仓库自动分析
+translation.onboarding.reposSelectedForReview_other	已选 {{count}} 个仓库自动分析
+translation.onboarding.retry	重试
+translation.onboarding.retrySync	重试同步
+translation.onboarding.reviewReposTitle	同时分析这些仓库中所有人的 PR
+translation.onboarding.reviewReposDescription	Devin 已在分析自己的 PR 并修复发现的问题。选一个仓库，让它也分析你团队的 PR。
+translation.onboarding.searchRepositories	搜索仓库...
+translation.onboarding.selectChannel	选择频道
+translation.onboarding.selectLabel	选择标签…
+translation.onboarding.selectRepositories	选择仓库
+translation.onboarding.selectTeam	选择团队…
+translation.onboarding.setupAutomations	设置自动化
+translation.onboarding.setupWiki	设置你的 wiki
+translation.onboarding.showLessTips	收起提示
+translation.onboarding.showMoreTips	更多提示
+translation.onboarding.skip	跳过
+translation.onboarding.slackJoinChannelFailed	Devin 无法加入 Slack 频道
+translation.onboarding.slackJoinChannelMissingScope	在设置中重连 Slack，授予 Devin 加入频道的权限。
+translation.onboarding.slackJoinChannelUnavailable	频道可能是私有的或不可用。手动邀请 Devin 或换个频道。
+translation.onboarding.slackMonitor	Slack 监控
+translation.onboarding.stepAttributionBody	帮我们了解你在哪里发现了 Devin。
+translation.onboarding.stepAttributionTitle	你从哪里听说我们的？
+translation.onboarding.stepConnectGithubBody	连接你组织的仓库，Devin 才能开始工作。
+translation.onboarding.stepConnectGithubTitle	连接你的 Git 提供商
+translation.onboarding.stepConnectIssueTrackerBody	把 issue 分配给 Devin 以获得 pull request。
+translation.onboarding.stepConnectIssueTrackerTitle	连接你的 issue 跟踪器
+translation.onboarding.stepConnectLinearBody	把 Linear issue 分配给 Devin 以获得 pull request。
+translation.onboarding.stepConnectLinearTitle	连接 Linear
+translation.onboarding.stepConnectMessagingAppBody	在聊天和频道中标记 Devin 以派活。
+translation.onboarding.stepConnectMessagingAppTitle	连接你的消息应用
+translation.onboarding.stepConnectSlackBody	在任何频道标记 Devin 以派活。
+translation.onboarding.stepCreateOrgBody	给你的第一个组织起个名。你企业中的每个人都会成为成员。
+translation.onboarding.stepCreateOrgTitle	创建你的第一个组织
+translation.onboarding.stepDeepWikiBody	配置 DeepWiki 如何为你的仓库源码建索引，供 Wiki 和 Ask Devin 使用。
+translation.onboarding.stepDeepWikiTitle	DeepWiki
+translation.onboarding.stepExploreDevinBody	Devin 是为团队打造的 AI 软件工程师。Devin 自主规划、编码、测试并交付。
+translation.onboarding.createOrgFailed	无法创建组织。请重试。
+translation.onboarding.monthlyAcuLimit	月度 ACU 上限
+translation.onboarding.monthlyAcuLimitHint	此组织每月最大 ACU 数
+translation.onboarding.monthlySpendLimit	月度花费上限
+translation.onboarding.monthlySpendLimitHint	此组织每月最大花费
+translation.onboarding.nvidiaConnectGitSkipBody	关联 Git 账户前 Devin 的功能受限。你可稍后在 Settings 中关联。
+translation.onboarding.nvidiaConnectGitSkipCancel	返回
+translation.onboarding.nvidiaConnectGitSkipConfirm	仍然跳过
+translation.onboarding.nvidiaConnectGitSkipTitle	跳过关联你的账户？
+translation.onboarding.nvidiaConnectGitTitleBoth	关联你的 GitLab 或 GitHub 账户
+translation.onboarding.nvidiaConnectGitTitleGithub	关联你的 GitHub 账户
+translation.onboarding.nvidiaConnectGitTitleGitlab	关联你的 GitLab 账户
+translation.onboarding.nvidiaConnectGitTitle	关联你的 Git 账户
+translation.onboarding.nvidiaConnectSlackBody	在任何 Slack 频道标记 @Devin 启动会话，并通过私信获取更新。
+translation.onboarding.nvidiaConnectSlackTitle	关联你的 Slack
+translation.onboarding.unifiedAddReposTitle	把你的仓库添加到 Devin
+translation.onboarding.unifiedAddReposBody	添加前 Devin 无法在这些仓库中工作。要添加列表外的仓库，在下方搜索。你可以稍后添加更多，并在 <repositoriesLink>Settings > Repositories</repositoriesLink> 检查仓库访问权。
+translation.onboarding.unifiedAddReposNext	下一步
+translation.onboarding.unifiedRepoInDevin	在 Devin 中
+translation.onboarding.unifiedRepoNotInDevin	不在 Devin 中
+translation.onboarding.unifiedRepoOpenOnHost	在 {{host}} 上打开 {{repo}}
+translation.onboarding.unifiedRepoAddToDevin	添加到 Devin
+translation.onboarding.unifiedRepoAddGroupToDevin	添加组到 Devin
+translation.onboarding.unifiedRepoAdding	添加中…
+translation.onboarding.unifiedRepoAdded	已添加
+translation.onboarding.unifiedRepoAddChoiceTitle	添加整个组？
+translation.onboarding.unifiedRepoAddChoiceBody	组覆盖其下所有仓库。以组添加让 Devin 自动获得组 <code>{{group}}</code> 中未来新建的仓库。
+translation.onboarding.unifiedRepoAddAsGroup	以组添加
+translation.onboarding.unifiedRepoAddAsProject	以项目添加
+translation.onboarding.unifiedReposAddAllChoiceTitle	以组添加？
+translation.onboarding.unifiedReposAddAllChoiceBody_one	组覆盖其下所有仓库。以组添加让 Devin 自动获得未来新建的仓库。
+translation.onboarding.unifiedReposAddAllChoiceBody_other	组覆盖其下所有仓库。以组添加让 Devin 自动获得未来新建的仓库。
+translation.onboarding.unifiedReposAddAllChoiceHybrid	部分列出的仓库不能以此方式加入，仍将以项目添加。
+translation.onboarding.unifiedReposAddAllAsProjects_one	添加 {{count}} 个项目
+translation.onboarding.unifiedReposAddAllAsProjects_other	添加 {{count}} 个项目
+translation.onboarding.unifiedReposGroupCount_one	{{count}} 个组
+translation.onboarding.unifiedReposGroupCount_other	{{count}} 个组
+translation.onboarding.unifiedReposAddAllAsGroups	以 {{groups}} 添加
+translation.onboarding.unifiedReposAddAllAsGroupsPlus_one	以 {{groups}} 和 {{count}} 个项目添加
+translation.onboarding.unifiedReposAddAllAsGroupsPlus_other	以 {{groups}} 和 {{count}} 个项目添加
+translation.onboarding.unifiedRepoAddFailed	无法把此项目添加到 Devin。
+translation.onboarding.unifiedPickerProjects	项目
+translation.onboarding.unifiedPickerGroups	组
+translation.onboarding.unifiedReposAddAll_one	添加 {{count}} 个所列项
+translation.onboarding.unifiedReposAddAll_other	添加全部 {{count}} 个所列项
+translation.onboarding.unifiedReposAddAllProgress	正在添加 {{done}}/{{total}}…
+translation.onboarding.unifiedReposAddAllFailed_one	无法把 {{count}} 个项目添加到 Devin。
+translation.onboarding.unifiedReposAddAllFailed_other	无法把 {{count}} 个项目添加到 Devin。
+translation.onboarding.unifiedReposFailed	无法读取你的仓库。
+translation.onboarding.unifiedReposNotLinked	关联你的 GitLab 或 GitHub 账户以在此查看你的仓库。<connectionsLink>打开你的连接</connectionsLink>。
+translation.onboarding.unifiedReposNone	我们在你已关联的账户上找不到任何你有权访问的仓库。请仓库维护者给你权限后再检查，或暂时跳过此步。
+translation.onboarding.unifiedRepoNotFound	未找到
+translation.onboarding.unifiedRepoNotFoundStatus	未找到 {{path}}。
+translation.onboarding.unifiedReposCheckAgain	再查一次
+translation.onboarding.unifiedReposSearch	搜索仓库
+translation.onboarding.unifiedReposNoMatch	没有仓库匹配你的搜索。
+translation.onboarding.unifiedEnvironmentFailed	无法设置你的环境。重试；若持续失败，请 Devin 管理员检查账户的默认环境。
+translation.onboarding.unifiedEnvironmentContinueAnyway	仍然继续进入 Devin
+translation.onboarding.unifiedReposFailedNext	你可以不带仓库继续，稍后在 <repositoriesLink>Settings > Repositories</repositoriesLink> 添加，或请 Devin 管理员检查 Git 连接。
+translation.onboarding.unifiedReposHostFailed	无法读取你在 {{hosts, list}} 上的仓库；下面的来自你其他已关联账户。
+translation.onboarding.unifiedReposRecentEmptyTitle	你最近贡献过的所有仓库已在 Devin 中
+translation.onboarding.unifiedReposRecentEmptyDescription	搜索添加其他的，或稍后在 <repositoriesLink>Settings > Repositories</repositoriesLink> 添加。
+translation.onboarding.unifiedReposNoneRecent	你已关联账户上没有你最近工作过的仓库。在上方按名搜索，或再查一次。
+translation.onboarding.unifiedReposRelink	你的 {{provider}}（{{host}}）关联已失效；重新关联以查看你的仓库。
+translation.onboarding.unifiedReposRelinkBackAction	返回重新关联
+translation.onboarding.unifiedReposRelinkConnections	<connectionsLink>打开你的连接</connectionsLink>。
+translation.onboarding.unifiedReposGithubNotConnected	你的 GitHub 账户已关联，但此 Devin 账户没有 GitHub App 连接，无法列出你的 GitHub 仓库。请 Devin 管理员<integrationLink>设置 GitHub 集成</integrationLink>。
+translation.onboarding.unifiedReposContinueWithout	不带仓库继续
+translation.onboarding.unifiedReposNotLinkedBack	关联你的 GitLab 或 GitHub 账户以在此查看你的仓库。
+translation.onboarding.unifiedReposNotLinkedBackAction	返回去连接
+translation.onboarding.nvidiaConnectGitNoneAvailable	你的 Devin 管理员还没把 GitHub 或 GitLab 连接到 Devin，无可关联。请他们在 Settings 中添加连接，或暂时跳过此步。
+translation.onboarding.unifiedPromptStarter	你好 Devin，这是我的第一个会话！我通常在 {{repos}} 工作。先问我想做什么，然后帮我完成设置。
+translation.onboarding.unifiedPromptStarterNoRepos	你好 Devin，这是我的第一个会话！先问我想做什么，然后帮我完成设置。
+translation.onboarding.unifiedStartSession	继续进入 Devin
+translation.onboarding.createOrgSetupFailed	组织已创建，但部分设置步骤失败。你可以在 Settings 中完成它们。
+translation.onboarding.stepExploreDevinTitle	向 Devin 问好，你的\
+新工程协作者
+translation.onboarding.stepInviteTeamBody	Devin 和整个团队一起用效果最好。邀请队友协作。
+translation.onboarding.inviteAutoReload.title	为你的团队设置自动充值
+translation.onboarding.inviteAutoReload.description	自动充值在余额不足时补足额度。
+translation.onboarding.inviteAutoReload.action	保存并发送邀请
+translation.onboarding.inviteAutoReload.requiresBillingAdmin	发送邀请前请计费管理员启用自动充值。
+translation.onboarding.inviteAutoReload.requiresActiveSubscription	恢复你的 Teams 订阅以设置自动充值并发送邀请。
+translation.onboarding.inviteAutoReload.checkFailed	无法检查你的计费设置。请重试。
+translation.onboarding.inviteAutoReload.retry	重试
+translation.onboarding.inviteAutoReload.saveFailed	无法保存自动充值设置。请重试。
+translation.onboarding.inviteAutoReload.paymentLinkFailed	无法打开支付设置。请重试。
+translation.onboarding.inviteAutoReload.capMin	月度上限至少为 {{amount}}
+translation.onboarding.stepInviteTeamTitle	邀请你的团队
+translation.onboarding.inviteTeamOverflowCount	+{{count}}
+translation.onboarding.selectOrPressEnterToAdd	选择或按回车添加
+translation.onboarding.searchTeammatesOrEmails	搜索队友或输入邮箱...
+translation.onboarding.noTeammatesFound	未找到队友
+translation.onboarding.selectAll	全选
+translation.onboarding.selectAllCount	全选（{{count}}）
+translation.onboarding.clearSearch	清除搜索
+translation.onboarding.someTeammatesNotListed	部分队友未列出。输入其邮箱添加。
+translation.onboarding.joined	已加入
+translation.onboarding.stepGrantReposBody	挑选此组织可处理的仓库。要更多仓库或更细控制，用 <settingsLink>Repository settings</settingsLink>。
+translation.onboarding.stepGrantReposTitle	给组织授予仓库
+translation.onboarding.stepLinearTriageBody	给 Linear issue 打标签让 Devin 分诊它。
+translation.onboarding.stepLinearTriageTitle	配置自动分诊
+translation.onboarding.stepJiraTriageBody	给 Jira issue 打标签让 Devin 分诊它。
+translation.onboarding.stepJiraTriageTitle	配置自动分诊
+translation.onboarding.stepPickWorkflowsBody	挑选要设置的集成——你可以稍后添加更多。
+translation.onboarding.stepPickWorkflowsTitle	你想怎么用 Devin？
+translation.onboarding.stepPickStartTitle	你想怎么用 Devin？
+translation.onboarding.stepPickStartBody	使用 Devin 的方式不止一种。都试试。
+translation.onboarding.startCliDescription	在终端中使用 Devin
+translation.onboarding.startDesktopDescription	在你的电脑上使用 Devin
+translation.onboarding.startDesktopAction	下载
+translation.onboarding.startWebTitle	Devin Webapp
+translation.onboarding.startWebDescription	在云端使用 Devin
+translation.onboarding.startDone	完成
+translation.onboarding.stepReposBody	Devin 有自己的笔记本，带浏览器和终端。挑 Devin 主要处理的仓库——你可以稍后添加更多。
+translation.onboarding.stepReposTitle	设置你的仓库
+translation.onboarding.stepReviewBody	设置 Devin Review。你之后可在 <settingsLink>Review settings</settingsLink> 更改。
+translation.onboarding.stepReviewTitle	Devin Review
+translation.onboarding.stepSlackTriageBody	选一个 Devin 要监控的频道，告诉它该做什么
+translation.onboarding.stepStartupProgramBody	你的创业优惠已在此团队生效。
+translation.onboarding.stepStartupProgramTitle	欢迎来到 Devin for Startups
+translation.onboarding.startupSlackChannelTitle	专属 Slack 频道
+translation.onboarding.startupSlackChannelBody	你的团队与我们团队共享一个频道。
+translation.onboarding.triageLinearPlaceholder	分诊进来的 Linear issue…
+translation.onboarding.triageJiraPlaceholder	分诊进来的 Jira issue…
+translation.onboarding.triageSlackPlaceholder	分诊进来的 Slack 消息...
+translation.onboarding.openDesktop	打开 Devin Desktop
+translation.onboarding.openDesktopBlocked	你的浏览器阻止了打开 Devin Desktop。
+translation.onboarding.unableToLoadOnboarding	无法加载你的引导。
+translation.onboarding.unableToLoadOnboardingNext	若持续发生，请 Devin 管理员检查你的访问权。
+translation.onboarding.goToDevin	前往 Devin
+translation.onboarding.unableToSaveOnboarding	无法保存你的引导。请重试。
+translation.onboarding.unableToLoadRepositories	无法加载你的仓库。
+translation.onboarding.upToAmount	最高 {{amount}}
+translation.onboarding.validateInReview	在 Devin Review 中验证
+translation.onboarding.workflowDeepWikiDescription	为你的仓库建索引，供 Wiki 和 Ask Devin 使用
+translation.onboarding.workflowIssueTrackerDescription	把 Linear 或 Jira issue 变成 pull request
+translation.onboarding.workflowIssueTrackerTitle	Issue 跟踪器
+translation.onboarding.workflowMcpDescription	连接 Notion、Sentry、Datadog 等工具
+translation.onboarding.workflowMcpTitle	MCP 服务器
+translation.onboarding.workflowReviewDescription	评审 pull request 并标记 bug
+translation.onboarding.stepCapabilitiesTitle	选择 Devin 能用什么
+translation.onboarding.stepCapabilitiesBody	这些应用于你企业中的每个组织。你之后可在 <settingsLink>Devin settings</settingsLink> 更改。
+translation.onboarding.devinCapabilities	Devin 能力
+translation.onboarding.devinCapabilitiesDescription	Fusion、Ultra、Normal、Lite 和 Fast
+translation.onboarding.expandDevinCapabilities	显示能力
+translation.onboarding.recommendedCapabilities	开启所有推荐能力
+translation.onboarding.recommendedCapabilitiesDescription	Fusion、Ultra、Normal、Lite、Fast、动态工作流和网络搜索。关闭以逐个选择。
+translation.onboarding.allowDataRetention	允许模型提供商安全数据保留
+translation.onboarding.allowDataRetentionDescription	模型提供商可能为自动伤害检测存储数据最多 30 天，绝不用于训练。
+translation.onboarding.stepSecurityProfileTitle	添加安全配置
+translation.onboarding.stepSecurityProfileBody	限制 Devin 能访问什么。现在或稍后在 Settings > Devin 创建配置并为每个组织设默认。
+translation.onboarding.stepSsoTitle	设置单点登录（SSO）
+translation.onboarding.stepSsoBody	让你的团队用你们的身份提供商登录。<learnMore>了解更多</learnMore>
+translation.onboarding.ssoDomainTitle	验证你的邮箱域名
+translation.onboarding.ssoAddDomain	添加
+translation.onboarding.ssoAddDomainFailed	无法添加域名
+translation.onboarding.ssoDnsHint	把此 TXT 记录加到你的 DNS，然后检查。
+translation.onboarding.ssoDnsName	名称
+translation.onboarding.ssoDnsValue	值
+translation.onboarding.ssoCheckDns	检查
+translation.onboarding.ssoDnsNotFound	还没找到记录。DNS 可能要几分钟。
+translation.onboarding.ssoDomainAdded	域名已添加
+translation.onboarding.ssoDomainVerified	域名已验证
+translation.onboarding.ssoCopyRecord	复制{{label}}
+translation.onboarding.ssoVerifyFailed	无法验证域名
+translation.onboarding.ssoProviderTitle	连接你的身份提供商
+translation.onboarding.stepOrgCapabilitiesTitle	选择 Devin 能用什么
+translation.onboarding.stepOrgCapabilitiesBody	这些只应用于此组织。你之后可在 <settingsLink>Devin settings</settingsLink> 更改。
+translation.onboarding.defaultMode	默认模式
+translation.onboarding.orgDefaultModeDescription	用于此组织的新会话
+translation.onboarding.stepOrgSecurityProfileTitle	添加安全配置
+translation.onboarding.stepOrgSecurityProfileBody	限制 Devin 能访问什么。现在或稍后在 Settings > Devin 创建配置并设为默认。
+translation.onboardingGit.areYouSure	确定？
+translation.onboardingGit.cancel	取消
+translation.onboardingGit.connectBitbucket	连接 Bitbucket
+translation.onboardingGit.connectGithub	连接 GitHub
+translation.onboardingGit.connectGitlab	连接 GitLab
+translation.onboardingGit.connectToTryFree	要免费试用 Devin，需要连接 GitHub。
+translation.onboardingGit.connectingBitbucket	连接 Bitbucket 中...
+translation.onboardingGit.connectingGithub	连接 GitHub 中...
+translation.onboardingGit.connectingGitlab	连接 GitLab 中...
+translation.onboardingGit.description	在 Devin 上找到你的队友或选择仓库开始工作。
+translation.onboardingGit.doItLater	我稍后做
+translation.onboardingGit.installFailed	启动 GitHub 安装失败
+translation.oncall.actionItemSessionFailed	启动会话失败
+translation.oncall.actionItemSessionStarted	会话已启动
+translation.oncall.actionItemSessionStarting	启动会话中...
+translation.oncall.advanced	高级
+translation.oncall.advancedSummary	网络策略 · 元数据
+translation.oncall.agentModeLabel	代理模式
+translation.oncall.alertsBugs	告警与 Bug
+translation.oncall.cancel	取消
+translation.oncall.channelRequired	选择一个 Slack 频道
+translation.oncall.createResponderNoPermission	你需要 Manage Oncall 权限才能创建 responder。请组织管理员授权。
+translation.oncall.teamsChannelRequired	选择 Microsoft Teams 团队和频道
+translation.oncall.conditionIncomplete	每个过滤器必须同时有字段和值。补全或移除空过滤器
+translation.oncall.pagerDutyConnectCta	连接 PagerDuty
+translation.oncall.pagerDutyNotConnected	创建 PagerDuty responder 前先连接 PagerDuty
+translation.oncall.pagerDutyNotConnectedBanner	PagerDuty 还没连接到此账户。在 Settings 中连接以分诊事件。
+translation.oncall.settingsButton	Oncall 设置
+translation.oncall.contextDiscardChanges	放弃更改
+translation.oncall.contextDiscardTitle	放弃未保存的更改？
+translation.oncall.contextEmptyDescription	Devin 为此组织生成 oncall 技能时会出现在这里。
+translation.oncall.contextEmptyHeading	还没有 oncall 技能
+translation.oncall.contextLoadError	加载 oncall 上下文失败。刷新页面试试。
+translation.oncall.contextInstructionsPlaceholder	每个 oncall 会话应遵循的说明，用 markdown
+translation.oncall.contextModified	已修改默认值
+translation.oncall.contextOpenSkill	打开 {{name}}
+translation.oncall.contextResetToDefault	重置为默认
+translation.oncall.contextSave	保存
+translation.oncall.contextSaveConflict	内容在你加载后已变化。刷新后重试。
+translation.oncall.contextSaveError	保存失败。检查内容后重试。
+translation.oncall.contextSaveForbidden	你无法保存：其会话以你不能代理的身份运行，或在你不能用的环境中。请那个人操作，或移到服务用户。
+translation.oncall.contextSectionTitle	说明
+translation.oncall.contextSkillDescriptionFallback	无描述
+translation.oncall.contextSkillsTitle	技能
+translation.oncall.contextSkillsRefreshFrequencyLabel	技能更新频率
+translation.oncall.contextSkillsRefreshWeekly	每周
+translation.oncall.contextSkillsRefreshNever	从不
+translation.oncall.contextSkillsRefreshMonthly	每月
+translation.oncall.contextSkillsRefreshNotScheduled	未排期
+translation.oncall.contextSkillsRefreshNow	立即更新技能
+translation.oncall.contextSkillsRefreshing	更新技能中…
+translation.oncall.contextSkillsRefreshFailed	启动技能更新失败。请重试。
+translation.oncall.contextSkillsRefreshFrequencySaveFailed	保存更新频率失败。请重试。
+translation.oncall.contextSetupTitle	引导
+translation.oncall.contextSetupDescription	重新进入引导向导
+translation.oncall.contextSetupOpen	检查设置
+translation.oncall.create	创建 responder
+translation.oncall.creating	创建中…
+translation.oncall.createResponder	创建 responder
+translation.oncall.digestScheduled	周报已排期
+translation.oncall.digestSettingUp	设置周报中...
+translation.oncall.digestSetupFailed	设置周报失败
+translation.oncall.editResponder	编辑 responder
+translation.oncall.emptyDescription	让 Devin 自动响应，用遥测数据、代码、部署、相关 runbook 和过往事件调查告警和 bug，产出可能的根因和建议的下一步。
+translation.oncall.emptyHeading	创建一个 responder 开始
+translation.oncall.incidentAutoJoinDescription	自动把 Devin 加入新建的、匹配事件频道前缀的频道。只能自动加入公开频道。
+translation.oncall.incidentAutoJoinLabel	自动加入事件频道
+translation.oncall.incidentAutoJoinMissingScope	请在 Connections 的 Slack 下重新授权 Devin 以自动加入频道。
+translation.oncall.incidentChannelColumn	事件
+translation.oncall.incidentDeleted	事件已删除
+translation.oncall.incidentDeleteFailed	删除事件失败
+translation.oncall.incidentDeleting	删除事件中...
+translation.oncall.incidentDevinModeDescription	主事件 Devin 会话的模式。
+translation.oncall.incidentEnabledDescription	开启让 Devin 协助你的事件
+translation.oncall.incidentEnabledLabel	启用事件
+translation.oncall.incidentEnabledConnectSlack	连接 Slack
+translation.oncall.incidentEnabledNoSlack	为你的组织连接 Slack 以启用事件。
+translation.oncall.incidentEnabledElsewhere	事件已在此账户的另一组织或 On Call 配置中开启。在那里关掉才能在这里开。
+translation.oncall.incidentEnabledElsewhereMultiOrg	允许此账户的多个组织或 On Call 配置同时开启事件。在 Enterprise settings 管理
+translation.oncall.incidentMcpsDescription	选择事件会话应使用哪些连接器
+translation.oncall.incidentRunbookDescription	提供给每个事件会话的说明。
+translation.oncall.incidentRunbookPlaceholder	例如描述 Devin 调查事件时应知道什么
+translation.oncall.incidentRunbookTooLong	Runbook 最多 {{max}} 个字符。
+translation.oncall.incidentNoSessionYet	启动中...
+translation.oncall.incidentNonOrgMentionsDescription	允许当前组织外的用户在事件频道中与 Devin 交互。会话仍以事件配置的身份运行。
+translation.oncall.incidentNonOrgMentionsLabel	允许非组织用户参与
+translation.oncall.incidentNonOrgMentionsDescription_config	允许不能用此 Oncall 环境的人在事件频道中与 Devin 交互。会话仍以事件配置的身份运行。
+translation.oncall.incidentNonOrgMentionsLabel_config	允许无环境权限者参与
+translation.oncall.incidentPrefixDescription	Devin 加入带此前缀的 Slack 频道时启动主动调查。
+translation.oncall.incidentPrefixLabel	Slack 频道前缀
+translation.oncall.incidentPrefixPlaceholder	incident-
+translation.oncall.incidentResponseModeDescription	选择 Devin 发布可能根因后是否继续调查。
+translation.oncall.incidentResponseModeLabel	响应模式
+translation.oncall.incidentResponseModeOneShot	一次性 RCA
+translation.oncall.incidentResponseModeOneShotDescription	Devin 发布可能根因及置信度，然后等待有人点击启动主动模式。
+translation.oncall.incidentResponseModeProactive	主动
+translation.oncall.incidentResponseModeProactiveDescription	Devin 发布可能根因，然后继续调查、发布更新并维护事件报告。
+translation.oncall.incidentResume	恢复
+translation.oncall.incidentResumed	事件已恢复
+translation.oncall.incidentSessionColumn	会话
+translation.oncall.incidentSessionLink	查看会话
+translation.oncall.incidentSettingsTitle	事件设置
+translation.oncall.incidentSettingsLoadError	无法加载事件设置。
+translation.oncall.incidentSettingsLoadWarning	无法刷新事件设置。显示上次加载的设置。
+translation.oncall.incidentStop	停止
+translation.oncall.incidentStoppedBadge	已停止
+translation.oncall.initialInvestigationModeDescription	初始调查的代理模式。
+translation.oncall.initialInvestigationModeLabel	初始调查模式
+translation.oncall.incidents	事件
+translation.oncall.incidentsEmptyCta	启用事件
+translation.oncall.incidentsEmptyCtaConfigure	配置设置
+translation.oncall.incidentsEmptyDescription	Devin 加入你的事件频道，综合你整个技术栈的信号，生成自更新报告，让你专注解决事件。
+translation.oncall.incidentsEmptyHeading	事件中的得力助手
+translation.oncall.threadSessionModeDescription	线程中 Devin 的代理模式。
+translation.oncall.threadSessionModeLabel	线程会话模式
+translation.oncall.incidentSettingsSaved	事件设置已保存
+translation.oncall.incidentSettingsSaveFailed	保存事件设置失败
+translation.oncall.setupStartFailed	启动 oncall 设置失败
+translation.oncall.runAsSaveFailed	保存 Oncall 运行身份失败
+translation.oncall.runAsDescription	选择 Oncall 用哪个用户来理解你的代码库和访问连接器
+translation.oncall.runAsPausedTitle	Oncall 索引已暂停
+translation.oncall.runAsPaused	此身份无法再运行会话。选择另一个身份以恢复 Oncall 索引。
+translation.oncall.runAsResume	恢复
+translation.oncall.incidentsLoadError	无法加载事件。
+translation.oncall.incidentsLoadWarning	无法刷新事件。显示上次加载的事件。
+translation.oncall.incidentStopped	事件已停止
+translation.oncall.incidentUpdateFailed	更新事件失败
+translation.oncall.limitsLabel	限制
+translation.oncall.mcpsDescription	选择此 responder 应使用哪些连接器
+translation.oncall.metadataDescription	添加键值对以组织和筛选你的 responder
+translation.oncall.metadataIncomplete	每条元数据必须同时含键和值
+translation.oncall.nameDescription	此 responder 的简短描述性名称
+translation.oncall.nameLabel	名称
+translation.oncall.namePlaceholder	生产告警
+translation.oncall.nameRequired	名称必填
+translation.oncall.newResponder	新 responder
+translation.oncall.responderLoadError	无法加载此 responder。
+translation.oncall.responderLoadWarning	无法刷新此 responder。显示上次加载的 responder。
+translation.oncall.responderNotFound	此 responder 不存在或已删除。
+translation.oncall.respondersLoadError	无法加载 responder。
+translation.oncall.respondersLoadWarning	无法刷新 responder。显示上次加载的 responder。
+translation.oncall.noMatchingResponders	没有匹配搜索的 responder。
+translation.oncall.noRespondersYet	还没有 responder。
+translation.oncall.overview	概览
+translation.oncall.overviewGroupedCount_one	{{count}} 个事件已分组
+translation.oncall.overviewGroupedCount_other	{{count}} 个事件已分组
+translation.oncall.overviewIncidentCount_one	{{count}} 个事件
+translation.oncall.overviewIncidentCount_other	{{count}} 个事件
+translation.oncall.overviewInvestigatedCount_one	已调查 {{count}} 个问题
+translation.oncall.overviewInvestigatedCount_other	已调查 {{count}} 个问题
+translation.oncall.reportCreated	报告创建成功
+translation.oncall.reportCreateFailed	创建报告失败
+translation.oncall.reportCreating	创建报告中...
+translation.oncall.reportDeleted	报告删除成功
+translation.oncall.reportDeleteFailed	删除报告失败
+translation.oncall.reportDeleting	删除报告中...
+translation.oncall.reporting.content.addSection	添加小节
+translation.oncall.reporting.content.contextDescription	Devin 写此报告时应知道的内容，如仪表盘、指标和你关心的事。
+translation.oncall.reporting.content.contextLabel	上下文
+translation.oncall.reporting.content.contextPlaceholder	核心指标：500 错误率（目标 <0.1%）和 p95 延迟。仪表盘：https://…\
+行动项类别：客户升级、容量
+translation.oncall.reporting.content.customSectionsDescription	Devin 加到每份报告末尾的额外小节。
+translation.oncall.reporting.content.customSectionsLabel	自定义小节
+translation.oncall.reporting.content.loadFailed	无法加载此报告的上下文和自定义小节。重新打开再试。
+translation.oncall.reporting.content.moveSectionDown	小节下移
+translation.oncall.reporting.content.moveSectionUp	小节上移
+translation.oncall.reporting.content.removeSection	移除小节
+translation.oncall.reporting.content.sectionInstructions	小节说明
+translation.oncall.reporting.content.sectionInstructionsPlaceholder	此小节应包含什么
