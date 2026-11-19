@@ -1,0 +1,500 @@
+translation.usageAnalytics.category.metric	指标
+translation.usageAnalytics.category.overTime	随时间变化
+translation.usageAnalytics.category.noData	无可用分类数据
+translation.usageAnalytics.category.noSubcategorySessions	还没有会话被归类到子分类。
+translation.usageAnalytics.category.subcategoryHint	随着新会话被创建和分类，子分类数据会显示在这里。
+translation.usageAnalytics.category.categoryDetails	分类详情
+translation.usageAnalytics.category.none	无
+translation.usageAnalytics.category.selectCategory	选择分类
+translation.usageAnalytics.category.selectCategoryHint	在上方选择一个分类以查看详情
+translation.usageAnalytics.category.viewNamedSessions	查看 {{bannerLabel}} 会话
+translation.usageAnalytics.category.uniqueUsers	独立用户
+translation.usageAnalytics.category.prsMerged	已合并 PR
+translation.usageAnalytics.category.subcategoryBreakdown	子分类明细
+translation.usageAnalytics.category.noSubcategories	此分类未定义子分类。
+translation.usageAnalytics.category.configureSubcategories	配置子分类以开始跟踪细粒度用量。
+translation.usageAnalytics.category.askAdminSubcategories	请平台管理员配置子分类。
+translation.usageAnalytics.category.viewingSubcategory	正在查看 \\
+translation.usageAnalytics.productivity.loadFailed	加载生产力数据失败。请稍后重试。
+translation.usageAnalytics.productivity.notEnoughData	数据不足，无法显示
+translation.usageAnalytics.productivity.minSessionsHint	生产力仪表盘在所选范围内需要至少 {{min}} 个会话才会显示结果。试试扩大日期范围。
+translation.usageAnalytics.productivity.minSessionsHintOrg	生产力仪表盘在所选范围内需要至少 {{min}} 个会话才会显示结果。试试扩大日期范围或选择所有组织。
+translation.usageAnalytics.productivity.betaBanner	这些生产力指标处于 beta 阶段，可能略有缺漏或不准确。
+translation.usageAnalytics.productivity.methodology	在<lnk>此处</lnk>阅读我们的方法论。
+translation.usageAnalytics.productivity.methodologyAria	在此处阅读 AI 生产力方法论
+translation.usageAnalytics.productivity.equivalentHours	等效工程小时数
+translation.usageAnalytics.productivity.equivalentHoursTip	所有生产性会话的预估等效人工工程小时数。
+translation.usageAnalytics.productivity.acusPerHourTip	预估会话（包括非生产性）的总 ACU 除以等效工程小时数。
+translation.usageAnalytics.productivity.productiveSessions	生产性会话
+translation.usageAnalytics.productivity.productiveSessionsTip	被归类为生产性的会话占预估会话的比例。
+translation.usageAnalytics.productivity.productiveAcus	生产性 ACU
+translation.usageAnalytics.productivity.productiveAcusTip	预估会话的 ACU 中花在生产性会话上的比例。
+translation.usageAnalytics.productivity.hoursOverTime	等效工程小时数随时间变化
+translation.usageAnalytics.productivity.hours	小时
+translation.usageAnalytics.productivity.estimatedSessions	预估会话
+translation.usageAnalytics.productivity.acusPerHourMa	每生产性小时的 ACU（滚动平均）
+translation.usageAnalytics.productivity.acusPerHourMaTip	滚动窗口内预估会话的 ACU 除以等效工程小时数。
+translation.usageAnalytics.productivity.maWindow	平均窗口
+translation.usageAnalytics.productivity.acusPerHourWindow	ACU / 小时（{{maWindow}} 天）
+translation.usageAnalytics.productivity.estimatedSessionsWindow	预估会话（{{maWindow}} 天）
+translation.usageAnalytics.productivity.exportFailed	导出生产力 CSV 失败。请重试。
+translation.usageAnalytics.productivity.window7	7 天
+translation.usageAnalytics.productivity.window30	30 天
+translation.usageAnalytics.repositories.repository	仓库
+translation.usageAnalytics.repositories.devinPrShare	Devin PR 占比
+translation.usageAnalytics.repositories.overallMergeRate	总合并率
+translation.usageAnalytics.repositories.devinMergeRate	Devin 合并率
+translation.usageAnalytics.repositories.devinReviewRate	Devin 评审率
+translation.usageAnalytics.repositories.allRepositories	所有仓库
+translation.usageAnalytics.repositories.noData	所选周期内无可用仓库数据。
+translation.usageAnalytics.repositories.metricsNoteDate	仓库指标仅包含 {{effectiveStartDate}}（开始完整采集 PR 数据）当天及之后创建的拉取请求。
+translation.usageAnalytics.repositories.metricsNote	仓库指标仅包含开始完整采集 PR 数据当天及之后创建的拉取请求。
+translation.usageAnalytics.repositories.noOrgBreakdown	仓库指标不按组织拆分。
+translation.usageAnalytics.repositories.prRatioByWeek	Devin PR 占比（按周）
+translation.usageAnalytics.repositories.filterByRepo	按仓库筛选
+translation.usageAnalytics.repositories.prRatio	Devin PR 占比
+translation.usageAnalytics.repositories.prRatioValue	Devin PR 占比：{{value}}%
+translation.usageAnalytics.repositories.devinPrsValue	Devin PR：{{value}}
+translation.usageAnalytics.repositories.totalPrsValue	PR 总数：{{value}}
+translation.usageAnalytics.review.mergeTimeTipDate	使用 Devin Review 与不使用相比，平均合并时长的降低百分比。仅包含 {{date}}（开始 PR 跟踪）当天及之后合并的 PR。
+translation.usageAnalytics.review.mergeTimeTip	使用 Devin Review 与不使用相比，平均合并时长的降低百分比
+translation.usageAnalytics.review.title	Devin Review
+translation.usageAnalytics.review.metricsFrom	指标仅从 {{date}} 起可用。
+translation.usageAnalytics.review.groupedByDay	按开始日期分组的分析运行
+translation.usageAnalytics.review.noOrgBreakdown	指标不按组织拆分。
+translation.usageAnalytics.review.jobsRan	运行的任务数
+translation.usageAnalytics.review.mergeTimeReduction	合并时长降低
+translation.usageAnalytics.review.bugsCaughtTip	在 PR 合并前被解决的 bug
+translation.usageAnalytics.review.acuPerReview	每次分析的 ACU
+translation.usageAnalytics.review.dollarsPerReview	每次分析的成本
+translation.usageAnalytics.review.perPr	{{perPrValue}} / PR
+translation.usageAnalytics.review.jobsOverTime	分析运行随时间变化
+translation.usageAnalytics.enterprisePage.consumptionEnterpriseWide	消耗按整个企业计费。
+translation.usageAnalytics.enterprisePage.noProductivityPermission	你没有查看生产力分析的权限。
+translation.state.bulkCloseHint.title	要关闭很多标签页？
+translation.state.bulkCloseHint.description	右键任意标签页可「全部关闭」、「关闭其他」或「关闭右侧」。
+translation.localSettings.sections.general	常规
+translation.localSettings.sections.planInformation	套餐信息
+translation.localSettings.sections.extensions	扩展
+translation.localSettings.sections.agents	Agents
+translation.localSettings.sections.devinLocal	Devin Local
+translation.localSettings.sections.configuration	配置
+translation.localSettings.sections.models	模型
+translation.localSettings.sections.authentication	身份验证
+translation.localSettings.sections.editor	编辑器
+translation.localSettings.sections.userInterface	用户界面
+translation.localSettings.sections.devinTab	Devin 标签页
+translation.localSettings.sections.browser	浏览器
+translation.localSettings.sections.shortcuts	快捷键
+translation.localSettings.sections.advanced	高级
+translation.localSettings.common.on	开
+translation.localSettings.common.off	关
+translation.localSettings.common.ok	确定
+translation.localSettings.common.cancel	取消
+translation.localSettings.common.retry	重试
+translation.localSettings.common.reload	重新加载
+translation.localSettings.common.enable	启用
+translation.localSettings.common.disable	禁用
+translation.localSettings.common.yes	是
+translation.localSettings.common.no	否
+translation.localSettings.common.backToSettings	返回设置
+translation.localSettings.general.customizeIcon.label	自定义应用图标
+translation.localSettings.general.customizeIcon.description	从几个预设的 Devin Desktop 图标中选择
+translation.localSettings.general.customizeIcon.action	自定义
+translation.localSettings.general.openEditorSettings.label	打开编辑器设置
+translation.localSettings.general.openEditorSettings.description	常规编辑器偏好在单独页面打开
+translation.localSettings.general.openEditorSettings.action	打开
+translation.localSettings.shortcuts.viewAll.label	查看所有 Devin 快捷键
+translation.localSettings.shortcuts.viewAll.action	查看全部
+translation.localSettings.browser.chatLinksInBrowserTab.label	在浏览器标签页中打开链接
+translation.localSettings.browser.chatLinksInBrowserTab.description	在 Devin Desktop 中将聊天和右侧面板中的链接在聊天旁的浏览器标签页中打开
+translation.localSettings.browser.chatLinksInBrowserTab.promptTitle	在浏览器标签页中打开链接？
+translation.localSettings.browser.chatLinksInBrowserTab.promptDescription	聊天和右侧面板中的链接将在聊天旁的浏览器标签页中打开。你可以在应用设置中更改。
+translation.localSettings.browser.chatLinksInBrowserTab.promptTurnOn	开启
+translation.localSettings.editorUi.scrollToNextHunk.label	接受后滚动到下一个 diff
+translation.localSettings.editorUi.scrollToNextHunk.description	接受当前 diff 时自动滚动到下一个 diff
+translation.localSettings.editorUi.diffZones.label	代理 diff 区域
+translation.localSettings.editorUi.diffZones.description	为代理文件编辑显示带接受/拒绝控件的交互式 diff 区域
+translation.localSettings.chisel.description	这些设置仅适用于 Devin Local
+translation.localSettings.chisel.descriptionWithPath	这些设置仅适用于 Devin Local，保存在 <fileLink>{{path}}</fileLink>
+translation.localSettings.chisel.allow.label	允许
+translation.localSettings.chisel.allow.description	始终允许的工具和命令模式。更改对新会话生效
+translation.localSettings.chisel.deny.label	拒绝
+translation.localSettings.chisel.deny.description	始终拒绝的工具和命令模式。更改对新会话生效
+translation.localSettings.chisel.ask.label	询问
+translation.localSettings.chisel.ask.description	需要确认的工具和命令模式。更改对新会话生效
+translation.localSettings.chisel.ruleFormatHint	使用 Exec(git push)、ExecExact(git status)、Read(/path/**)、Write(/path/**)、Fetch(domain:example.com) 或工具名如 web_search、mcp__server__tool。
+translation.localSettings.chisel.subagents.label	子代理（预览）
+translation.localSettings.chisel.subagents.description	允许代理将工作委派给子代理。组织策略优先
+translation.localSettings.chisel.configFile.label	配置文件
+translation.localSettings.chisel.configFile.action	在编辑器中打开 config.json
+translation.localSettings.listRow.add	添加
+translation.localSettings.listRow.addItemTo	添加条目到 {{id}}
+translation.localSettings.listRow.import	导入
+translation.localSettings.listRow.export	导出
+translation.localSettings.listRow.resetToDefaults	重置为默认值
+translation.localSettings.listRow.noItems	没有条目
+translation.localSettings.listRow.notApplied	（未生效）
+translation.localSettings.listRow.team	（团队）
+translation.localSettings.listRow.wildcardWarning	通配符会匹配所有命令
+translation.localSettings.listRow.wildcardWarningLabel	通配符警告
+translation.localSettings.listRow.invalidItem	不是有效的模式，因此不生效。{{hint}}
+translation.localSettings.listRow.invalidItemLabel	无效模式警告
+translation.localSettings.listRow.importSkipped_one	跳过了 {{count}} 条无效模式的条目：{{values, list}}。{{hint}}
+translation.localSettings.listRow.importSkipped_other	跳过了 {{count}} 条无效模式的条目：{{values, list}}。{{hint}}
+translation.localSettings.listRow.editItem	编辑 {{value}}
+translation.localSettings.listRow.removeItem	移除 {{value}}
+translation.localSettings.listRow.itemValue	条目值
+translation.localSettings.dropdown.availableWithPro	Pro 可用
+translation.localSettings.agents.searchPlaceholder	搜索代理…
+translation.localSettings.agents.noAgents	没有可用代理
+translation.localSettings.agents.noMatchingAgents	没有匹配的代理
+translation.localSettings.agents.enabled	已启用
+translation.localSettings.agents.failed	失败
+translation.localSettings.agents.optionsFor	{{name}} 的选项
+translation.localSettings.agents.removeAsPreferred	取消首选
+translation.localSettings.agents.setAsPreferred	设为首选
+translation.localSettings.agents.hideConfiguration	隐藏配置
+translation.localSettings.agents.configure	配置
+translation.localSettings.agents.notificationsEnabledToast	代理通知已启用。代理会话完成或需要你输入时会通知你。
+translation.localSettings.agents.envVars.title	环境变量
+translation.localSettings.agents.envVars.add	添加环境变量
+translation.localSettings.agents.envVars.empty	没有环境变量
+translation.localSettings.agents.envVars.nameLabel	名称
+translation.localSettings.agents.envVars.nameRequired	需要名称
+translation.localSettings.agents.envVars.addButton	添加
+translation.localSettings.agents.envVars.valueLabel	值
+translation.localSettings.agents.shareTerminalActivity.label	共享终端活动
+translation.localSettings.agents.shareTerminalActivity.description	让 Devin 看到你集成终端中的命令和输出。
+translation.localSettings.agents.shareUserEdits.label	共享用户编辑
+translation.localSettings.agents.shareUserEdits.description	让 Devin 看到你在工作区中编辑和创建的文件，并允许 Devin Cloud 会话在读取此机器上的文件时读取未保存的编辑。
+translation.localSettings.agents.shareUserEdits.descriptionLocalOnly	让 Devin 看到你在工作区中编辑和创建的文件。
+translation.localSettings.agents.runSaveActions.label	对代理编辑运行保存操作
+translation.localSettings.agents.runSaveActions.description	当 Devin 编辑文件时，运行保存时格式化和保存时代码操作（如 gofmt）。
+translation.localSettings.agents.agentWindowLocation.label	Agent Command Center 位置
+translation.localSettings.agents.agentWindowLocation.description	Agent Command Center 打开的位置。
+translation.localSettings.agents.agentWindowLocation.currentWindow	当前窗口
+translation.localSettings.agents.agentWindowLocation.separateWindow	独立窗口
+translation.localSettings.agents.keepWindowWorkspace.label	在 Agent Command Center 中保留工作区
+translation.localSettings.agents.keepWindowWorkspace.description	显示窗口自己的文件夹，而不是活动会话的文件夹。
+translation.localSettings.agents.notifications.label	代理通知
+translation.localSettings.agents.notifications.description	后台代理会话完成或需要你输入时通知
+translation.localSettings.agents.remoteHosts.label	远程代理主机
+translation.localSettings.agents.remoteHosts.description	通过 SSH 连接远程机器上的代理。
+translation.localSettings.agents.remoteHostsAutoConnect.label	启动时连接
+translation.localSettings.agents.remoteHostsAutoConnect.description	启动时自动连接已保存的主机。
+translation.localSettings.planInfo.currentPlan	当前套餐
+translation.localSettings.planInfo.usage	用量
+translation.localSettings.planInfo.unlimited	无限制
+translation.localSettings.planInfo.creditsTooltip	每条使用高级模型发送的消息会消耗依模型而定的积分数量。该数量在模型下拉框中可见。
+translation.localSettings.planInfo.creditsLeft	剩余积分
+translation.localSettings.planInfo.viewBreakdown	查看明细
+translation.localSettings.planInfo.closeBreakdown	关闭明细
+translation.localSettings.planInfo.promptCreditsLeft	剩余提示积分
+translation.localSettings.planInfo.addOnCreditsAvailable	可用附加积分
+translation.localSettings.planInfo.purchaseCredits	购买积分
+translation.localSettings.planInfo.enableAutoRefill	启用自动充值
+translation.localSettings.planInfo.referralBonus	推荐朋友购买付费套餐可获得 250 附加奖励积分
+translation.localSettings.planInfo.trialEndsInDuration	试用将在 <duration>{{duration}}</duration>后结束
+translation.localSettings.planInfo.creditsRenewPlanEndsInDuration	积分每月重置。套餐将在 <duration>{{duration}}</duration>后结束
+translation.localSettings.planInfo.days_one	{{count}} 天
+translation.localSettings.planInfo.days_other	{{count}} 天
+translation.localSettings.planInfo.upgradeForCredits	升级以获得更多高级积分
+translation.localSettings.planInfo.needMoreCredits	需要更多积分？点击此处
+translation.localSettings.auth.row.label	身份验证
+translation.localSettings.auth.row.description	气隙环境 Devin 代理的许可证和单点登录状态
+translation.localSettings.auth.description	气隙环境 Devin 代理的身份验证——包括本机上的 Devin Local 和 devin CLI。不涉及任何 Cognition 服务器；登录使用你组织的身份提供商或离线许可证文件。
+translation.localSettings.auth.loading	正在加载身份验证状态…
+translation.localSettings.auth.loadError	无法从代理加载身份验证状态。请确认捆绑的 Devin 代理正在运行。
+translation.localSettings.auth.degraded	代理因下列问题以降级状态启动；修复前新会话被阻止。安装有效许可证立即生效；其他修复需要重启代理。
+translation.localSettings.auth.sso.title	单点登录
+translation.localSettings.auth.sso.signedIn	已登录
+translation.localSettings.auth.sso.signedOut	已登出
+translation.localSettings.auth.sso.identityProvider	身份提供商：{{issuer}}
+translation.localSettings.auth.sso.signedInAs	登录身份：{{identity}}
+translation.localSettings.auth.sso.groups	组：{{groups}}
+translation.localSettings.auth.sso.sessionExpires	会话过期：{{expiry}}
+translation.localSettings.auth.sso.signIn	登录
+translation.localSettings.auth.sso.signInAgain	重新登录
+translation.localSettings.auth.sso.waitingForBrowser	等待浏览器登录…
+translation.localSettings.auth.sso.refresh	刷新
+translation.localSettings.auth.sso.browserHint	本机会打开一个浏览器窗口，用你的身份提供商完成登录。
+translation.localSettings.auth.sso.signInFailed	登录失败。
+translation.localSettings.auth.license.title	许可证
+translation.localSettings.auth.license.valid	有效
+translation.localSettings.auth.license.invalid	无效
+translation.localSettings.auth.license.fromEnv	（来自 DEVIN_LICENSE_FILE）
+translation.localSettings.auth.license.seat	席位：{{seat}}
+translation.localSettings.auth.license.account	账户：{{account}}
+translation.localSettings.auth.license.expires	过期：{{expiry}}
+translation.localSettings.auth.license.expiresInDays	（{{days}} 天后）
+translation.localSettings.auth.license.renewalWarning	此许可证即将过期。从你的企业门户获取续期许可证并在下方安装。
+translation.localSettings.auth.license.install	安装许可证文件
+translation.localSettings.auth.license.fileInputLabel	许可证文件
+translation.localSettings.auth.license.installing	验证并安装中…
+translation.localSettings.auth.license.dropHint	将 .devin-onprem-license 文件拖到此处，或点击浏览
+translation.localSettings.auth.license.installed	许可证已安装到 {{path}}。新会话立即使用它。
+translation.localSettings.auth.license.notAccepted	许可证文件未被接受。
+translation.localSettings.auth.license.readFailed	无法读取所选文件。
+translation.localSettings.models.row.label	模型设置
+translation.localSettings.models.row.description	配置 Devin 可用的本地模型端点
+translation.localSettings.models.title	模型设置
+translation.localSettings.models.description	模型设置适用于气隙环境 Devin 代理——包括本机上的 Devin Local 和 devin CLI。更改在代理重启后生效。
+translation.localSettings.models.loading	正在加载模型设置…
+translation.localSettings.models.loadError	无法从代理加载模型设置。请确认捆绑的 Devin 代理正在运行；若无法启动，在终端运行 <code>devin models validate</code> 和 <code>devin airgap doctor</code> 查看底层错误。
+translation.localSettings.models.agentUnreachable	捆绑的 Devin 代理当前不可达。未保存的编辑已保留，代理恢复后可保存。
+translation.localSettings.models.validateCliHint	在上面的所有诊断修复前，代理无法使用这些模型设置。同样的检查可在终端用 <code>devin models validate</code> 运行；schema v0 格式和旧文件迁移方式见模型文件参考。
+translation.localSettings.models.rawJsonParseError	原始 JSON 必须解析为带 \\
+translation.environmentPicker.cloned	已克隆
+translation.environmentPicker.organization	组织
+translation.environmentPicker.loadMoreRepositories	加载更多仓库
+translation.environmentPicker.retryRepositories	重试
+translation.environmentPicker.host	主机
+translation.environmentPicker.hostAvailability	主机可用性由所选环境配置
+translation.environmentPicker.hostAvailabilityInSettings	主机可用性由所选环境<settingsLink>在设置中</settingsLink>配置
+translation.environmentPicker.repositories	仓库
+translation.environmentPicker.clonedRepositories_one	已克隆 {{count, number}} 个
+translation.environmentPicker.clonedRepositories_other	已克隆 {{count, number}} 个
+translation.environmentPicker.availableRepositories_one	可用 {{count, number}} 个
+translation.environmentPicker.availableRepositories_other	可用 {{count, number}} 个
+translation.environmentPicker.availableRepositoriesMinimum	可用 {{count, number}}+ 个
+translation.environmentPicker.repositorySummary	{{cloned}}（{{available}}）
+translation.environmentPicker.searchRepositories	搜索仓库
+translation.environmentPicker.noRepositories	没有预克隆的仓库
+translation.environmentPicker.repositoriesFailed	无法加载仓库
+translation.environmentPicker.viewRepositories	查看环境设置
+translation.environmentPicker.updated	更新于 {{timeAgo}}
+translation.environmentPicker.configureAccess	在设置中配置访问
+translation.environmentsSettings.title	环境
+translation.environmentsSettings.standaloneDescription	独立环境不绑定于单个组织。任何能访问环境中所有仓库的人都可以使用它。
+translation.environmentsSettings.addReposPermissionRequired	你需要此环境的配置权限才能添加仓库。
+translation.environmentsSettings.repositoriesBanner	在「Repositories」页面将仓库添加到 Devin。
+translation.environmentsSettings.repositoriesBannerAction	前往 Repositories
+translation.environmentsSettings.repositoriesMissingHint	找不到仓库？从<repositoriesLink>Repositories 页面</repositoriesLink>添加。
+translation.environmentsSettings.description	拥有自己 blueprint、构建和快照的独立环境。会话可以在任何你有权访问的环境上启动。
+translation.environmentsSettings.create	新建环境
+translation.environmentsSettings.createTitle	创建环境
+translation.environmentsSettings.createDescription	为环境命名。仓库可选，可以之后添加
+translation.environmentsSettings.createNameRequired	输入名称以创建环境
+translation.environmentsSettings.createWithRepos_one	创建（含 {{count}} 个仓库）
+translation.environmentsSettings.createWithRepos_other	创建（含 {{count}} 个仓库）
+translation.environmentsSettings.repositories	仓库
+translation.environmentsSettings.reposSearchPlaceholder	搜索仓库
+translation.environmentsSettings.reposEmpty	未找到仓库
+translation.environmentsSettings.reposLoadError	无法加载仓库。
+translation.environmentsSettings.created	环境已创建
+translation.environmentsSettings.createFailed	创建环境失败
+translation.environmentsSettings.rename	重命名
+translation.environmentsSettings.renameTitle	重命名环境
+translation.environmentsSettings.renameDescription	为此环境选择一个新名称
+translation.environmentsSettings.renamed	环境已重命名
+translation.environmentsSettings.renameFailed	重命名环境失败
+translation.environmentsSettings.delete	删除
+translation.environmentsSettings.deleteTitle	删除环境
+translation.environmentsSettings.deleteDescription	删除 {{name}}？其 blueprint、构建历史和快照将不再对新会话可用。此操作无法撤销。
+translation.environmentsSettings.deleted	环境已删除
+translation.environmentsSettings.deleteFailed	删除环境失败
+translation.environmentsSettings.name	名称
+translation.environmentsSettings.namePlaceholder	例如 Payments monorepo
+translation.environmentsSettings.cancel	取消
+translation.environmentsSettings.retry	重试
+translation.environmentsSettings.copyId	复制环境 ID
+translation.environmentsSettings.idCopied	环境 ID 已复制
+translation.environmentsSettings.environmentId	环境 ID
+translation.environmentsSettings.environmentIdDescription	在 API 和审计日志中标识此环境
+translation.environmentsSettings.nameColumn	名称
+translation.environmentsSettings.repositoriesColumn	仓库
+translation.environmentsSettings.createdByColumn	创建者
+translation.environmentsSettings.createdColumn	创建时间
+translation.environmentsSettings.createdAgo	创建于 {{timeAgo}}
+translation.environmentsSettings.createdByAgo	由 {{name}} 创建于 {{timeAgo}}
+translation.environmentsSettings.loadError	无法加载环境。
+translation.environmentsSettings.emptyTitle	还没有环境
+translation.environmentsSettings.emptyDescription	创建一个环境来定义其 blueprint 并为会话构建快照。
+translation.environmentsSettings.emptyDescriptionNoCreate	当你能访问环境中的所有仓库时，环境会显示在这里。让 Devin 管理员为你使用的仓库创建一个。
+translation.environmentsSettings.emptyLinkGitAccount	你的<connectionsLink>个人连接</connectionsLink>中未关联 Git 提供商。如果你的仓库访问权来自该提供商，关联后可以在这里获得访问。
+translation.environmentsSettings.searchPlaceholder	搜索环境
+translation.environmentsSettings.noSearchResults	没有匹配你搜索的环境。
+translation.environmentsSettings.secrets.addTitle	添加构建机密
+translation.environmentsSettings.secrets.addDescription	仅在构建期间对此环境的 blueprint 步骤可用。快照保存前会被移除，会话中不可用。
+translation.environmentsSettings.secrets.addRepoDescription	仅在构建期间对此仓库的 blueprint 步骤可用。快照保存前会被移除，会话中不可用。
+translation.environmentsSettings.secrets.showValue	显示值
+translation.environmentsSettings.secrets.hideValue	隐藏值
+translation.environmentsSettings.environment	环境
+translation.environmentsSettings.environmentBlueprint	环境级 blueprint
+translation.environmentsSettings.environmentBlueprintDescription	适用于此环境上所有会话的命令，在仓库级 setup 之前运行。
+translation.environmentsSettings.environmentBlueprintNotSet	未设置。添加一个以在此环境的每个仓库间共享 setup。
+translation.environmentsSettings.defaultNoReposTitle	没有仓库
+translation.environmentsSettings.defaultNoReposDescription	Default 环境不含仓库以便所有人都能使用。创建新环境以配置仓库。
+translation.environmentsSettings.deleteBlueprintDescription	这将触发此环境的重建。
+translation.environmentsSettings.access.tab	访问权限
+translation.environmentsSettings.access.title	访问权限
+translation.environmentsSettings.access.description	人们需要能访问此环境的所有仓库才能看到和使用它。
+translation.environmentsSettings.access.descriptionCanShare	人们需要能访问此环境的所有仓库才能看到和使用它。你可以在这里授予他人配置或共享它的权限。
+translation.environmentsSettings.access.userColumn	用户
+translation.environmentsSettings.access.emailColumn	邮箱
+translation.environmentsSettings.access.searchPlaceholder	搜索用户
+translation.environmentsSettings.access.serviceUser	服务用户
+translation.environmentsSettings.access.emptyDescription	没有用户能读取此环境中的所有仓库。移除一个仓库或授予对它的访问权。
+translation.environmentsSettings.access.loadError	无法加载访问名单。
+translation.environmentsSettings.access.canUse	可使用
+translation.environmentsSettings.access.canUseTooltip	任何能读取此环境所有仓库的人都可以使用它。更改其仓库访问权即可更改此项。
+translation.environmentsSettings.access.repoAccessTitle	有仓库访问权的用户
+translation.environmentsSettings.access.repoAccessDescription	每个能读取此环境所有仓库的人都可以使用它
+translation.environmentsSettings.access.repoAccessCount_one	{{count}} 个用户可以使用此环境
+translation.environmentsSettings.access.repoAccessCount_other	{{count}} 个用户可以使用此环境
+translation.environmentsSettings.access.repoAccessMatchCount_one	{{count}} 个匹配用户
+translation.environmentsSettings.access.repoAccessMatchCount_other	{{count}} 个匹配用户
+translation.environmentsSettings.access.showMore	显示更多
+translation.environmentsSettings.access.shareSearchPlaceholder	搜索用户或组
+translation.environmentsSettings.access.canConfigure	可配置
+translation.environmentsSettings.access.canConfigureDescription	可编辑环境及其 blueprint
+translation.environmentsSettings.access.canShare	可共享
+translation.environmentsSettings.access.canShareDescription	可管理谁有权访问此环境
+translation.environmentsSettings.access.configureVerb	配置
+translation.environmentsSettings.access.shareVerb	共享
+translation.environmentsSettings.access.inheritedDescription	从角色或组继承的访问权
+translation.environmentsSettings.access.removeSelfError	你不能移除自己的访问权
+translation.environmentsSettings.accessChange.addTitle	部分用户将失去访问权
+translation.environmentsSettings.accessChange.addDescription	无法读取你正在添加的仓库的用户将失去对此环境的访问权。
+translation.environmentsSettings.accessChange.addConfirm	仍然添加
+translation.environmentsSettings.accessChange.addPartialFailed	已添加 {{addedCount}}/{{totalCount}}。{{failedCount}} 个添加失败。
+translation.environmentsSettings.accessChange.addFailed	添加仓库失败。请重试。
+translation.environmentsSettings.accessChange.addFailedCount_one	{{count}} 个仓库添加失败
+translation.environmentsSettings.accessChange.addFailedCount_other	{{count}} 个仓库添加失败
+translation.environmentsSettings.accessChange.removedFromEnvironment	已从环境移除
+translation.environmentsSettings.accessChange.removeFromEnvironmentFailed	从环境移除失败
+translation.environmentsSettings.accessChange.removing	移除中…
+translation.environmentsSettings.accessChange.removeFromEnvironment	从环境移除
+translation.environmentsSettings.accessChange.removeTitle	从环境移除？
+translation.environmentsSettings.accessChange.removeDescription	此仓库将不再在新会话中预克隆。将开始一次环境重建，可能需要几分钟。你可以随时重新启用它。
+translation.environmentsSettings.accessChange.removeDescriptionWithBlueprints_one	这将从新 Devin 会话中移除 {{repository}} 及其 Blueprint。将开始一次环境重建，可能需要几分钟。你可以随时重新启用它。
+translation.environmentsSettings.accessChange.removeDescriptionWithBlueprints_other	这将从新 Devin 会话中移除 {{repository}} 及其全部 {{count}} 个 Blueprint。将开始一次环境重建，可能需要几分钟。你可以随时重新启用它。
+translation.environmentsSettings.accessChange.removeConfirm	移除
+translation.environmentsSettings.accessChange.loses_one	{{count}} 个用户将失去对此环境的访问权
+translation.environmentsSettings.accessChange.loses_other	{{count}} 个用户将失去对此环境的访问权
+translation.environmentsSettings.accessChange.gains_one	{{count}} 个用户将获得对此环境的访问权
+translation.environmentsSettings.accessChange.gains_other	{{count}} 个用户将获得对此环境的访问权
+translation.environmentsSettings.accessChange.previewFailed	无法检查谁会受影响。请重试。
+translation.environmentsSettings.repoAccess.pathHint	要查看某个仓库为何缺失，输入其完整路径，例如 github.com/owner/repo 或 gitlab.com/group/project。
+translation.environmentsSettings.repoAccess.pageTitle	检查对某个仓库的访问权
+translation.environmentsSettings.repoAccess.pageDescription	如果你用的仓库没有列在这里，输入其完整路径查看为什么无法在 Devin 中使用它。
+translation.environmentsSettings.repoAccess.pageOk	你在 Devin 中有此仓库的访问权。当你能访问某个环境的所有仓库时，包含它的环境会列在 Environments 页面。
+translation.environmentsSettings.repoAccess.check	检查为何缺失
+translation.environmentsSettings.repoAccess.checkAgain	再查一次
+translation.environmentsSettings.repoAccess.checkFailed	无法检查此仓库。请重试。
+translation.environmentsSettings.repoAccess.ok	你有此仓库的访问权。它可能已在此环境中；否则按名称搜索它。
+translation.environmentsSettings.repoAccess.hostNotConnected	Devin 没有到 {{host}} 的连接。让 Devin 管理员连接它。
+translation.environmentsSettings.repoAccess.providerNotSupported	此检查只覆盖 GitLab 和 GitHub 仓库。其他 Git 提供商请咨询 Devin 管理员。
+translation.environmentsSettings.repoAccess.unknown	Devin 无法判断此仓库为何不可用。检查路径，或咨询 Devin 管理员。
+translation.environmentsSettings.repoAccess.linkAccount	关联你的 {{provider}} 账户后，你在 {{host}} 上可访问的仓库会列在这里。<connectionsLink>关联你的 {{provider}} 账户</connectionsLink>。
+translation.environmentsSettings.repoAccess.askAdmin	如果你预期的仓库缺失，询问 Devin 管理员它是否已连接到 Devin 以及你是否有访问权。
+translation.environmentsSettings.repoAccess.gitlab.identityNotLinked	Devin 无法匹配你的 GitLab 访问权，因为你的 GitLab 账户未关联。<connectionsLink>在你的连接中关联它</connectionsLink>，然后再查。
+translation.environmentsSettings.repoAccess.gitlab.notFound	你的关联账户在此路径下 GitLab 未找到仓库。检查路径。如果仓库存在，向项目 maintainer 申请访问权。
+translation.environmentsSettings.repoAccess.gitlab.providerRoleTooLow	你在 GitLab 上对此项目的角色过低。向项目 maintainer 申请至少 Reporter 角色。
+translation.environmentsSettings.repoAccess.gitlab.notCovered	此仓库未连接到 Devin。让项目 maintainer 把它加到 Devin。
+translation.environmentsSettings.repoAccess.gitlab.openMembers	打开项目成员
+translation.environmentsSettings.repoAccess.gitlab.pendingSync	你在 GitLab 中有此仓库的访问权，但还没有同步到 Devin。
+translation.environmentsSettings.repoAccess.gitlab.hostFailed	无法搜索此主机。请重试，或重新关联你的 GitLab 账户。
+translation.environmentsSettings.repoAccess.gitlab.noMatches	没有你的角色为 Reporter 或更高的匹配项目。
+translation.environmentsSettings.repoAccess.gitlab.howToConnect	让项目 maintainer 把它加到 Devin。
+translation.environmentsSettings.repoAccess.github.identityNotLinked	Devin 无法匹配你的 GitHub 访问权，因为你的 GitHub 账户未关联。<connectionsLink>在你的连接中关联它</connectionsLink>，然后再查。
+translation.environmentsSettings.repoAccess.github.notFound	你的关联账户和 Devin GitHub App 都能读取的仓库在此路径下未被 GitHub 找到。检查路径。如果仓库存在，向仓库管理员或组织所有者申请访问权并将其加入 Devin GitHub App 安装。
+translation.environmentsSettings.repoAccess.github.providerRoleTooLow	你在 GitHub 上对此仓库的角色不包含其代码。向仓库管理员申请读权限。
+translation.environmentsSettings.repoAccess.github.notCovered	此仓库未连接到 Devin。让仓库管理员或组织所有者把它加入 Devin GitHub App 安装。
+translation.environmentsSettings.repoAccess.github.openMembers	打开仓库访问设置
+translation.environmentsSettings.repoAccess.github.pendingSync	你在 GitHub 中有此仓库的访问权，但还没有同步到 Devin。几分钟后再查；如果没有变化，咨询 Devin 管理员。
+translation.environmentsSettings.repoAccess.github.hostFailed	无法搜索此主机。请重试，或重新关联你的 GitHub 账户。
+translation.environmentsSettings.repoAccess.github.noMatches	没有你和 Devin GitHub App 都能读取的匹配仓库。如果你的仓库缺失，让仓库管理员或组织所有者把它加入 Devin GitHub App 安装。
+translation.environmentsSettings.repoAccess.github.howToConnect	让仓库管理员或组织所有者把它加入 Devin GitHub App 安装。
+translation.environmentsSettings.repoAccess.search.button	搜索我的仓库
+translation.environmentsSettings.repoAccess.search.orPathHint	或输入其完整路径，例如 github.com/owner/repo。
+translation.environmentsSettings.repoAccess.search.failed	无法搜索。请重试。
+translation.environmentsSettings.repoAccess.search.noSearchableHosts	Devin 没有可搜索的 GitLab 或 GitHub 连接。
+translation.environmentsSettings.repoAccess.search.hostNotLinked	未搜索：你在此主机上的 {{provider}} 账户未关联。<connectionsLink>在你的连接中关联它</connectionsLink>。
+translation.environmentsSettings.repoAccess.search.matchOk	在 Devin 中可用
+translation.environmentsSettings.repoAccess.search.matchPendingSync	你的访问权尚未同步到 Devin
+translation.environmentsSettings.repoAccess.search.matchConnected	已连接到 Devin。如果无法选择它，向 Devin 管理员申请访问权。
+translation.environmentsSettings.repoAccess.search.matchNotCovered	未连接到 Devin
+translation.environmentsSettings.repoAccess.search.hasMore_one	显示第一个匹配。输入更多名称以缩小搜索。
+translation.environmentsSettings.repoAccess.search.hasMore_other	显示前 {{count}} 个匹配。输入更多名称以缩小搜索。
+translation.environmentsSettings.repoAccess.search.howToConnectNoSync	让 Devin 管理员把它加到 Devin。
+translation.unifiedAutomations.title	Automations
+translation.unifiedAutomations.create	新建 automation
+translation.unifiedAutomations.environment	环境
+translation.unifiedAutomations.environmentPlaceholder	选择一个环境
+translation.unifiedAutomations.environmentDescription	会话在此环境上运行。automation 创建后不可更改。
+translation.unifiedAutomations.slackTools	Slack
+translation.unifiedAutomations.slackDirectMessages	私信（能看到此环境的人）
+translation.unifiedAutomations.slackToolsDescription	此 automation 的会话可以通过你账户的 Slack 工作区读取和发帖的 Slack 频道。私信只触达能看到此环境的人。
+translation.unifiedAutomations.environmentRequired	选择一个环境。
+translation.unifiedAutomations.environmentDeleted	环境已删除
+translation.unifiedAutomations.environmentDeletedNotice	此 automation 的环境已被删除，无法再运行。删除它并新建一个。
+translation.unifiedAutomations.environmentAndRunAs	{{environment}} · {{runAs}}
+translation.unifiedAutomations.runsAsCreator	以其创建者身份运行
+translation.unifiedAutomations.runsAsServiceUser	以服务用户身份运行
+translation.unifiedOncall.subtitle	每个 Oncall 在自己的环境上运行，有自己的 responder、事件、报告和知识。
+translation.unifiedOncall.allOncalls	所有 Oncall
+translation.unifiedOncall.create	新建 Oncall
+translation.unifiedOncall.name	名称
+translation.unifiedOncall.namePlaceholder	Payments on call
+translation.unifiedOncall.nameRequired	需要名称
+translation.unifiedOncall.environmentRequired	选择一个环境
+translation.unifiedOncall.environment	环境
+translation.unifiedOncall.environmentPlaceholder	选择一个环境
+translation.unifiedOncall.environmentDescription	Responder、事件和报告的会话在此环境上运行
+translation.unifiedOncall.environmentDeleted	环境已删除
+translation.unifiedOncall.emptyTitle	还没有 Oncall
+translation.unifiedOncall.emptyDescription	创建一个 Oncall 在你的某个环境上分诊告警、处理事件和撰写报告。
+translation.unifiedOncall.rename	重命名
+translation.unifiedOncall.renameTitle	重命名 Oncall
+translation.unifiedOncall.changeEnvironment	更改环境
+translation.unifiedOncall.changeEnvironmentTitle	更改环境
+translation.unifiedOncall.changeEnvironmentDescription	仅在 Oncall 还没有 responder 之前可以更改。
+translation.unifiedOncall.delete	删除
+translation.unifiedOncall.deleteTitle	删除 {{name}}？
+translation.unifiedOncall.deleteDescription	其设置和事件配置会被移除。请先删除其 responder 和报告。
+translation.unifiedOncall.save	保存
+translation.unifiedOncall.cancel	取消
+translation.unifiedOncall.loadError	无法加载 Oncall。
+translation.unifiedOncall.saveError	无法保存此 Oncall。
+translation.unifiedOncall.access.share	共享
+translation.unifiedOncall.access.description	允许用户、组或服务用户访问 {{name}}。
+translation.unifiedOncall.access.searchPlaceholder	搜索要添加的用户、组或服务用户
+translation.unifiedOncall.access.canView	可查看
+translation.unifiedOncall.access.canViewDescription	可查看此 Oncall 的 responder、事件、报告和设置
+translation.unifiedOncall.access.canConfigure	可配置
+translation.unifiedOncall.access.canConfigureDescription	可编辑此 Oncall 的 responder、事件、报告和设置
+translation.unifiedOncall.access.canManage	可管理
+translation.unifiedOncall.access.canManageDescription	可配置此 Oncall 并管理谁有权访问它
+translation.unifiedOncall.access.inheritedDescription	此访问权是继承而来，无法在此更改
+translation.unifiedOncall.access.removeSelfError	你不能移除自己对管理此 Oncall 的访问权
+translation.unifiedOncall.access.runsResponders	{{names, list(style: short)}} 的会话以此服务用户身份运行。移除其访问权前先更改 responder 的身份。
+translation.unifiedOncall.access.runsIncidents	此 Oncall 的事件会话以此服务用户身份运行。移除其访问权前先在事件设置中更改身份。
+translation.unifiedOncall.access.removeServiceUserTitle	移除 {{name}} 的访问权？
+translation.unifiedOncall.access.removeServiceUserDescription	如果此 Oncall 的 responder、事件或报告摘要以服务用户身份运行，它们的会话将失去访问权。
+translation.unifiedOncall.status.not_started	未设置
+translation.unifiedOncall.status.initializing	设置中
+translation.unifiedOncall.status.ready	已就绪
+translation.unifiedOncall.status.failed	设置失败
+translation.billingTagsAnalytics.acuByBillingTag	按计费标签的 ACU 消耗
+translation.billingTagsAnalytics.acusTooltip	{{acus}} ACU（占花费 {{percent}}）
+translation.billingTagsAnalytics.byDay	按日
+translation.billingTagsAnalytics.byWeek	按周
+translation.billingTagsAnalytics.groupingAria	分组方式
+translation.billingTagsAnalytics.includeUncategorized	包含未分类会话
+translation.billingTagsAnalytics.legendEntry	{{name}} · {{percent}}
+translation.billingTagsAnalytics.movingAverage	7 天滚动平均
+translation.billingTagsAnalytics.movingAverageTooltip	7 天滚动平均：{{percent}}
+translation.billingTagsAnalytics.noSessionsInRange	此时间范围内没有会话
+translation.billingTagsAnalytics.noUsageInRange	此时间范围内没有 ACU 用量
+translation.billingTagsAnalytics.percentTagged	已标记 %
+translation.billingTagsAnalytics.person	人员
+translation.billingTagsAnalytics.sessionsTooltip_one	{{count}} 个会话
+translation.billingTagsAnalytics.sessionsTooltip_other	{{count}} 个会话
+translation.billingTagsAnalytics.taggedSessions	已标记会话
+translation.billingTagsAnalytics.taggedShareDaily	已标记会话（按日）
+translation.billingTagsAnalytics.taggedShareOverTime	已标记会话随时间变化
+translation.billingTagsAnalytics.taggedShareWeekly	已标记会话（按周）
+translation.billingTagsAnalytics.taggedTooltip	{{sessions}} 个会话中 {{tagged}} 个已标记（{{percent}}）
+translation.billingTagsAnalytics.taggingByUser	按用户的标记情况
