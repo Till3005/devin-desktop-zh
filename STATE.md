@@ -63,3 +63,11 @@ literals: ~360/938（part01 已写，覆盖 0-458 白名单 + 459+ 句选；其�
 - 验证：界面问候语渲染 「你好， Dirtboi! 你在使用 Devin Free 计划。」+ 「Devin 本地/向 Devin 描述你的任务」 pane 中文
 - 遗留：Devin Settings 页语言选择控件 flag-gated（Free 看不到），切换走 localStorage 写入
 
+
+## 2026-11-19 收尾完成
+- 字面量缺口补完：545 缺中 530 为专有名词/图标关键词/GPU 调试标签（正确留英），15 条真缺口已翻（离线/键盘布局/文字样式组合），四地区同步
+- patch_app apply 幂等（先 restore 再 patch，双跑计数一致 120/491/316）；workbench.desktop.main.js 入 BUNDLES（问候语来源）
+- patch_webapp gate：flag-off 读 localStorage→_VSCODE_NLS_LANGUAGE 兜底并写回 localStorage（一次选语言两层生效），node --check 自检防非法注入
+- 实测截图：zh-CN 问候语+Devin 本地面板全中（assets/screenshots/agent-pane-zh.png）、zh-TW 全繁（zh-tw.png）
+- README 更新：91k 徽章、登录态实测、边界诚实声明；已推送
+- 剩余：无阻塞；STATE 为检查点
