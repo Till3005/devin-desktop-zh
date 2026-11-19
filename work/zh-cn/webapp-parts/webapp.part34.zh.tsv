@@ -1,0 +1,500 @@
+translation.homeCustomization.zoomValue	{{value}}×
+translation.homeCustomization.recenter	居中
+translation.homeCustomization.makeDefault	设为默认
+translation.homeCustomization.isDefault	你的默认
+translation.homeCustomization.makeDefaultHint	没有自己背景的组织（包括新建的）将使用这个背景。
+translation.homeCustomization.image	图片
+translation.homeCustomization.backgroundReset	背景已重置
+translation.homeCustomization.madeDefault	已设为你的默认背景
+translation.homeCustomization.menu.changeBackground	更换背景…
+translation.homeCustomization.menu.removeBackground	移除背景
+translation.homeCustomization.menu.useDefaultBackground	使用默认背景
+translation.homeCustomization.menu.makeDefault	设为默认背景
+translation.homeCustomization.menu.editWidgets	编辑小组件…
+translation.homeWidgets.done	完成
+translation.homeWidgets.hideWidgets	隐藏小组件
+translation.homeWidgets.addWidget	添加小组件
+translation.homeWidgets.allShown	所有小组件已显示
+translation.homeWidgets.removeWidget	移除 {{name}}
+translation.homeWidgets.resizeWidget	调整 {{name}} 大小
+translation.homeWidgets.more_one	还有 {{count}} 个
+translation.homeWidgets.more_other	还有 {{count}} 个
+translation.homeWidgets.workingNowEmpty	当前没有会话在工作
+translation.homeWidgets.needsAttentionEmpty	没有等待你处理的事
+translation.homeWidgets.pinnedEmpty	从会话菜单置顶一个会话，它会保留在这里
+translation.homeWidgets.wikisEmpty	还没有 wiki
+translation.homeWidgets.devinsEmpty	你的边栏上还没有 {{botNamePlural}}
+translation.homeWidgets.statsEmpty	本月还没有统计数据
+translation.homeWidgets.activityUnavailable	无法加载活动
+translation.homeWidgets.usageEmpty	本周期无用量
+translation.homeWidgets.playbooksEmpty	还没有 playbook
+translation.homeWidgets.playbookHint	用此 playbook 开始一个会话
+translation.homeWidgets.usageOfLimit	{{limit}} ACU 中已用 {{used}}
+translation.homeWidgets.usageNoLimit	{{used}} ACU
+translation.homeWidgets.usageResets	{{date}} 重置
+translation.homeWidgets.sizes.s	小
+translation.homeWidgets.sizes.m	中
+translation.homeWidgets.sizes.l	大
+translation.homeWidgets.sizes.wide	宽
+translation.homeWidgets.stats.sessions	会话
+translation.homeWidgets.stats.prsMerged	已合并 PR
+translation.homeWidgets.stats.mergeRate	合并率
+translation.homeWidgets.stats.acus	ACU
+translation.homeWidgets.titles.activity	活动
+translation.homeWidgets.titles.workingNow	正在工作
+translation.homeWidgets.titles.needsAttention	需要你处理
+translation.homeWidgets.titles.pullRequests	拉取请求
+translation.homeWidgets.titles.recent	最近会话
+translation.homeWidgets.titles.pinned	已置顶
+translation.homeWidgets.titles.devins	你的 {{botNamePlural}}
+translation.homeWidgets.titles.thisMonth	本月
+translation.homeWidgets.titles.usage	用量
+translation.homeWidgets.titles.playbooks	Playbook
+translation.homeWidgets.titles.wikis	Wiki
+translation.homeWidgets.activityDay	{{date}}：{{sessions}}，{{opened}}，{{merged}}，{{lines}}
+translation.homeWidgets.activitySessions_one	{{count}} 个会话
+translation.homeWidgets.activitySessions_other	{{count}} 个会话
+translation.homeWidgets.activityDayOpened_one	{{count}} 个 PR 已打开
+translation.homeWidgets.activityDayOpened_other	{{count}} 个 PR 已打开
+translation.homeWidgets.activityDayMerged_one	{{count}} 个已合并
+translation.homeWidgets.activityDayMerged_other	{{count}} 个已合并
+translation.homeWidgets.activityDayLines_one	{{formattedCount}} 行已更改
+translation.homeWidgets.activityDayLines_other	{{formattedCount}} 行已更改
+translation.homeWidgets.activityQuietDay	{{date}}：无活动
+translation.homeWidgets.activityTotals	{{sessions}} · {{merged}} · {{lines}}
+translation.homeWidgets.activityTotalMerged_one	{{count}} 个 PR 已合并
+translation.homeWidgets.activityTotalMerged_other	{{count}} 个 PR 已合并
+translation.homeWidgets.activityTotalLines_one	{{formattedCount}} 行
+translation.homeWidgets.activityTotalLines_other	{{formattedCount}} 行
+translation.welcome.advancedMcpBanner	每个 Devin 会话都内置并已认证 <mcpLink>Devin MCP</mcpLink>——无需任何设置。任何 Devin 都能检查其他会话、管理 <playbooksLink>playbook</playbooksLink> 并批量启动会话。
+translation.welcome.askDevinAboutCode	向 Devin 提问关于你代码的问题
+translation.welcome.backToDevin	返回 Devin
+translation.welcome.buildSnapshot	构建快照
+translation.welcome.connect	连接
+translation.welcome.connectCodebaseFree	连接你的代码库，免费试用 Devin
+translation.welcome.connectMessagingApp	把 Devin 带入你团队的 Slack 或 Microsoft Teams
+translation.welcome.connectMicrosoftTeams	把 Devin 带入你团队的 Microsoft Teams
+translation.welcome.connectSlack	把 Devin 带入你团队的 Slack
+translation.welcome.onlyImageFilesSupported	仅支持图片文件（.png、.jpg、.jpeg、.gif、.webp）
+translation.welcome.openSessionLinks	打开会话链接
+translation.welcome.organization	组织
+translation.welcome.snapshotNotBuilt	构建一个 Snapshot，让 Devin 可以即刻启动
+translation.welcome.startOnboarding	开始上手引导
+translation.welcome.subscribe	订阅
+translation.welcome.tagsRequiredNotConfigured	此组织要求会话标签，但未配置任何允许的标签。请联系管理员。
+translation.welcome.trialDisabled	由于负载过高，免费会话已停用。请订阅。
+translation.welcome.trialDisabledHighLoad	由于负载过高，免费会话当前已停用。抱歉带来不便。
+translation.wiki.addWiki	添加 wiki
+translation.wiki.askAdminToGenerate	请管理员生成 wiki
+translation.wiki.connectGitProviderToSeeWikis	连接 Git 提供商以在此查看你的 wiki。
+translation.wiki.failedToLoadWiki	加载此 wiki 失败
+translation.wiki.failedToLoadWikis	加载 wiki 失败
+translation.wiki.filterAll	全部 wiki
+translation.wiki.filterGenerating	仅生成中
+translation.wiki.filterIndexed	仅已索引
+translation.wiki.filterNotIndexed	仅未索引
+translation.wiki.filterWikis	筛选 wiki
+translation.wiki.linkGithubToAccess	你必须关联 GitHub 账户才能通过 DeepWiki 访问 wiki。
+translation.wiki.loadMoreWikis	加载更多 wiki
+translation.wiki.noBranchesIndexed	没有已索引的分支
+translation.wiki.noWikiForRepository	此仓库没有可用的 wiki
+translation.wiki.noWikisFound	未找到 wiki
+translation.wiki.noWikisMatchFilter	没有匹配所选筛选的 wiki
+translation.wiki.noWikisMatchSearch	没有匹配你搜索的 wiki
+translation.wiki.pin	置顶
+translation.wiki.pinned	已置顶
+translation.wiki.recentlyViewed	最近查看
+translation.wiki.refetchWikis	重新获取 wiki
+translation.wiki.searchWikis	搜索 wiki
+translation.wiki.unpin	取消置顶
+translation.wiki.wikisHeading	Wiki
+translation.wiki.deepWikiTitle	DeepWiki
+translation.wiki.refetchRepositories	重新获取仓库
+translation.wiki.maintainerBadge.label	维护者已编辑
+translation.wiki.maintainerBadge.tooltip	此 wiki 由项目维护者手动编辑。
+translation.wiki.repoNote	仓库备注
+translation.wiki.defaultPageTitle	Wiki
+translation.wiki.copyLinkToHeader	复制标题链接
+translation.wiki.linkCopied	链接已复制！
+translation.wiki.yourOrganizationHasABillingIssueSubscribeTo	你的组织存在账单问题。请订阅以继续使用 Ask Devin。
+translation.wiki.askDevin	Ask Devin
+translation.wiki.tableOfContents	目录
+translation.wiki.onThisPage	本页内容
+translation.wiki.wikiRefreshProcessStartedTheWikiWillBe	Wiki 刷新进程已开始。Wiki 将在 10-30 分钟内更新。
+translation.wiki.failedToRefreshWiki	刷新 wiki 失败：{{error}}
+translation.wiki.failedToRefreshWikiPleaseTryAgain	刷新 wiki 失败。请重试。
+translation.wiki.errorLoadingWiki	加载 wiki 出错
+translation.wiki.unableToLoadTheWikiForThisRepository	无法加载此仓库的 wiki。请稍后重试。
+translation.wiki.noWikiAvailableIn	{{languageName}} 没有可用的 wiki
+translation.wiki.wikiGenerationInProgress	Wiki 生成中…
+translation.wiki.thisTypicallyTakes1030MinutesThePage	通常需要 10-30 分钟。就绪后页面会自动更新。
+translation.wiki.aWikiHasntBeenGeneratedYetForThis	此仓库还没有生成 wiki。开始刷新即可生成。
+translation.wiki.startingRefresh	正在开始刷新…
+translation.wiki.startWikiGeneration	开始生成 wiki
+translation.wiki.contactAnAdminToGenerateTheWikiFor	联系管理员为此仓库生成 wiki。
+translation.wiki.repoNoteUpdatedSuccessfully	仓库备注更新成功。
+translation.wiki.failedToUpdateRepoNotePleaseTryAgain	更新仓库备注失败。请重试。
+translation.wiki.edit	编辑
+translation.wiki.thisNoteHelpsDevinUnderstandWhichRepoIs	此备注帮助 Devin 判断哪个仓库与任务相关。它在构建 wiki 时自动生成，并在内部用于仓库消歧。
+translation.wiki.repoNoteContentMarkdown	仓库备注内容（markdown）
+translation.wiki.saving	保存中…
+translation.wiki.save	保存
+translation.wiki.noRepoNoteContent	没有仓库备注内容。
+translation.wiki.saveRepoNote	保存仓库备注
+translation.wiki.thisNoteIsUsedByDevinToUnderstand	此备注供 Devin 理解仓库使用。请确保内容准确——错误信息会误导 Devin 并降低其表现。
+translation.wiki.wikiGenerationStarted	Wiki 生成已开始
+translation.wiki.generatingWiki	正在生成 wiki…
+translation.wiki.generating	生成中…
+translation.wiki.generate	生成
+translation.wiki.wikiGenerationFailedForPleaseContactSupport	{{repo}} 的 wiki 生成失败。请联系支持。
+translation.wiki.connecting	连接中…
+translation.wiki.linkGitHubAccount	关联 GitHub 账户
+translation.wiki.thisPreviewIsNoLongerAvailable	此预览已不可用。
+translation.wiki.weReceivedYourEditRequest	我们已收到你的编辑请求
+translation.wiki.weAreAboutToProcessIt	即将处理。
+translation.wiki.theJobIsBeingQueued	任务正在排队
+translation.wiki.pleaseWaitUntilItIsProcessed	请等待处理完成
+translation.wiki.loading	加载中
+translation.wiki.weAreGeneratingYourPreview	我们正在生成你的预览
+translation.wiki.thisMayTakeSeveralMinutes	可能需要几分钟
+translation.wiki.failedToGeneratePreviewPleaseTryAgainLater	生成预览失败。请稍后重试。
+translation.wiki.failedToLoadWikiConfigurationPleaseTryRefreshing	加载 wiki 配置失败。请刷新页面。
+translation.wiki.previewJobWasSubmittedPleaseCheckYourEmail	预览任务已提交。请查收邮件获取进展。
+translation.wiki.previewJobWasSubmitted	预览任务已提交。
+translation.wiki.changesCommittedSuccessfullyThePRHasBeenCreated	更改提交成功，PR #{{pr_number}} 已创建。
+translation.wiki.backToWiki	返回 Wiki
+translation.wiki.editJSON	编辑 JSON
+translation.wiki.editThisJSONFileToConfigureWikiGeneration	编辑此 JSON 文件以配置 wiki 生成。重新生成 wiki 时，对 wiki 页面的手动编辑会被覆盖。
+translation.wiki.fullDocumentation	完整文档
+translation.wiki.makeSomeChangesToEnableThisButton	做一些更改以启用此按钮
+translation.wiki.previewEdits	预览编辑
+translation.wiki.commitChangesAndCreateAPullRequest	提交更改并创建拉取请求
+translation.wiki.thePullRequestHasBeenCreated	拉取请求已创建
+translation.wiki.theDefaultBranchEGMain	默认分支（例如 main）
+translation.wiki.accept	接受
+translation.wiki.previewWikiChanges	预览 wiki 更改
+translation.wiki.generatingAPreviewCanTakeSeveralMinutesWe	生成预览可能需要几分钟。就绪后我们可以通过邮件通知你。或者你也可以继续前往预览页等待。
+translation.wiki.continueToPreviewScreen	继续前往预览页
+translation.wiki.sendMeAnEmailWhenItIsReady	就绪后给我发邮件
+translation.wiki.previewHistory	预览历史
+translation.wiki.openPreview	打开预览
+translation.wiki.onlyShowingTheLast5PreviewsOfThe	仅显示最近一周的最近 5 个预览。
+translation.wiki.noRepositoriesFound	未找到仓库
+translation.wiki.tryAdjustingYourSearchQuery	试试调整搜索词
+translation.wiki.accessDocumentationAndKnowledgeBasesForPublicRepositories	访问公共仓库的文档和知识库。
+translation.wiki.noWikiAvailable	没有可用的 wiki
+translation.wiki.deepWiki	DeepWiki
+translation.wiki.editWiki	编辑 wiki
+translation.wiki.preview	预览
+translation.wiki.copySectionContent	复制本节内容
+translation.wiki.sectionCopied	本节已复制！
+translation.wiki.askDevinAbout	向 Devin 提问关于 {{repo}}
+translation.wiki.startedAt	开始于：{{date}}
+translation.wiki.missingLanguageGenerate	此语言还没有生成 wiki。开始刷新即可生成。
+translation.wiki.missingLanguageAllLanguages	这将为所有可用语言生成 wiki。
+translation.wiki.previewingEdit	你正在预览此 wiki 的生成编辑（ID：<code>{{previewId}}</code>）
+translation.wiki.editHelpRepoNotes	要添加关于仓库的总体说明，请编辑 JSON 文件的 <code>repo_notes</code> 部分。用此部分存放应贯穿整个 wiki 的上下文、全局指令或语法规范。
+translation.wiki.editHelpPages	通过在 JSON 文件的数组中添加、移除或重排标记为 <code>pages</code> 的小节，来定义或修改 wiki 的整体结构。
+translation.wiki.editHelpPageNotes	使用 <code>page_notes</code> 部分添加针对单个页面的说明，指导每个 wiki 页面的生成。
+translation.wiki.prMergedNotice	合并进 {{branch}} 后，更改可能需要一些时间才会反映到这里。
+translation.wiki.noContentAvailable	没有可用内容
+translation.wiki.failedToStartGeneration	启动 wiki 生成失败
+translation.wiki.pageTitle	Wiki — {{title}}
+translation.wiki.pageTitlePreview	Wiki — 预览 {{title}}
+translation.wiki.pageTitleEdit	Wiki — 编辑 {{title}}
+translation.wiki.unknown	未知
+translation.wiki.failedToGeneratePreview	生成预览失败。
+translation.wiki.failedToCommitChanges	提交更改失败。
+translation.wiki.validation.addPage	在 'pages' 数组中至少添加一个页面
+translation.wiki.validation.pageMissingTitle	第 {{number}} 页缺少标题。请为此页面添加标题
+translation.wiki.validation.duplicateTitle	标题「{{title}}」重复。每个页面必须有唯一标题
+translation.wiki.validation.pageNotesArray	「{{title}}」的 page_notes 应为数组
+translation.wiki.validation.tooManyPages	页面过多（{{count}}）。请减少到 {{max}} 个或更少
+translation.wiki.validation.repoNotesArray	repo_notes 应为数组
+translation.wiki.validation.tooManyNotes	备注过多（{{count}}）。请将 repo_notes 和 page_notes 合计减少到 100 条或更少
+translation.wiki.validation.noteString	备注内容应为字符串
+translation.wiki.validation.noteTooLong_one	备注内容过长（{{count}} 个字符）。每条备注必须在 10,000 字符以内
+translation.wiki.validation.noteTooLong_other	备注内容过长（{{count}} 个字符）。每条备注必须在 10,000 字符以内
+translation.wiki.validation.invalidJson	无效的 JSON
+translation.wiki.drawingDiagram	正在绘制图表…
+translation.wiki.searchForRepositories	搜索仓库
+translation.wiki.unknownError	未知错误
+translation.wiki.loadingEllipsis	加载中…
+translation.wiki.unableToLoadRepoWiki	无法加载此仓库的 wiki。
+translation.wiki.notGeneratedYet	此仓库还没有生成 wiki。
+translation.wikiHeaderActions.actions.cancel	取消
+translation.wikiHeaderActions.actions.deepWikiSettings	DeepWiki 设置
+translation.wikiHeaderActions.actions.editWiki	编辑 Wiki
+translation.wikiHeaderActions.actions.indexingInProgress	索引中…
+translation.wikiHeaderActions.actions.more	更多操作
+translation.wikiHeaderActions.actions.openRepository	打开仓库
+translation.wikiHeaderActions.actions.reindex	重新索引
+translation.wikiHeaderActions.actions.reindexBranch	重新索引分支
+translation.wikiHeaderActions.actions.reindexNow	立即重新索引
+translation.wikiHeaderActions.actions.reindexNowWithCost	立即重新索引（{{cost}}）
+translation.wikiHeaderActions.actions.remove	移除
+translation.wikiHeaderActions.actions.removeBranchIndex	移除分支索引
+translation.wikiHeaderActions.actions.removeIndex	移除索引
+translation.wikiHeaderActions.actions.removeRepository	从 Wiki 移除仓库
+translation.wikiHeaderActions.actions.removing	移除中…
+translation.wikiHeaderActions.actions.starting	开始中…
+translation.wikiHeaderActions.actions.wikiHistory	Wiki 历史
+translation.wikiHeaderActions.autoIndexing.daily	每天
+translation.wikiHeaderActions.autoIndexing.label	自动索引
+translation.wikiHeaderActions.autoIndexing.manual	手动
+translation.wikiHeaderActions.autoIndexing.monthly	每月
+translation.wikiHeaderActions.autoIndexing.weekly	每周
+translation.wikiHeaderActions.branches.defaultBranch	默认分支
+translation.wikiHeaderActions.branches.defaultSuffix	（默认）
+translation.wikiHeaderActions.branches.indexing	索引中…
+translation.wikiHeaderActions.branches.lastUpdated	最后更新 {{time}}
+translation.wikiHeaderActions.branches.noMatch	没有匹配的分支
+translation.wikiHeaderActions.branches.search	搜索分支
+translation.wikiHeaderActions.branches.select	选择分支
+translation.wikiHeaderActions.dialogs.reindexConfirmation	为「{{branch}}」重新索引 Wiki？这需要 10–30 分钟。
+translation.wikiHeaderActions.dialogs.reindexConfirmationBilled	为「{{branch}}」重新索引 Wiki？这会消耗 ACU，需要 10–30 分钟。
+translation.wikiHeaderActions.dialogs.reindexConfirmationWithCost	为「{{branch}}」重新索引 Wiki？这会消耗 ACU（{{cost}}），需要 10–30 分钟。
+translation.wikiHeaderActions.dialogs.removeBranchConfirmation	移除「{{branch}}」的 Wiki 索引？此操作无法撤销。
+translation.wikiHeaderActions.dialogs.removeRepositoryConfirmation	从 Wiki 移除「{{repo}}」？这会取消所有分支的索引并删除 Wiki 条目。
+translation.wikiHeaderActions.errors.failedToRemoveBranchIndex	移除分支索引失败
+translation.wikiHeaderActions.errors.failedToRemoveRepository	移除仓库失败
+translation.wikiHeaderActions.errors.failedToStartReindex	启动重新索引失败
+translation.wikiHeaderActions.errors.failedToUpdateAutoIndexing	更新自动索引失败
+translation.wikiHeaderActions.errors.unknown	未知错误
+translation.wikiHeaderActions.languages.arabic	阿拉伯语
+translation.wikiHeaderActions.languages.chinese	中文
+translation.wikiHeaderActions.languages.english	英语
+translation.wikiHeaderActions.languages.french	法语
+translation.wikiHeaderActions.languages.german	德语
+translation.wikiHeaderActions.languages.hebrew	希伯来语
+translation.wikiHeaderActions.languages.indonesian	印尼语
+translation.wikiHeaderActions.languages.japanese	日语
+translation.wikiHeaderActions.languages.korean	韩语
+translation.wikiHeaderActions.languages.label	语言
+translation.wikiHeaderActions.languages.portuguese	葡萄牙语
+translation.wikiHeaderActions.languages.russian	俄语
+translation.wikiHeaderActions.languages.spanish	西班牙语
+translation.wikiHeaderActions.languages.turkish	土耳其语
+translation.wikiHeaderActions.languages.thai	泰语
+translation.wikiHeaderActions.messages.branchAlreadyIndexing	此分支正在索引中。
+translation.wikiHeaderActions.messages.branchIndexRemoved	已移除「{{branch}}」的索引
+translation.wikiHeaderActions.messages.defaultBranchCannotBeRemoved	默认分支的索引不能移除
+translation.wikiHeaderActions.messages.estimatedCost	预估费用：{{cost}}
+translation.wikiHeaderActions.messages.reindexStarted	正在重新索引「{{branch}}」。这需要 10–30 分钟。
+translation.wikiHeaderActions.messages.removeRepositoryPermissionRequired	你需要索引权限才能移除此仓库
+translation.wikiHeaderActions.messages.repositoryRemoved	已从 Wiki 移除「{{repo}}」
+translation.wikiSearch.searchWiki	搜索 {{repo}} wiki
+translation.wikiSearch.search	搜索
+translation.wikiSearch.placeholder	搜索 {{repo}} wiki…
+translation.wikiSearch.searching	搜索中…
+translation.wikiSearch.noResults	未找到结果。
+translation.wikiSearch.matches_one	{{count}} 个匹配
+translation.wikiSearch.matches_other	{{count}} 个匹配
+translation.wikiSearch.page	第 {{id}} 页
+translation.securityOverview.runningTitle	你的扫描正在运行
+translation.securityOverview.runningDescription	Devin 正在扫描你的代码。发现项会实时出现在这里。
+translation.securityOverview.viewScan	查看扫描
+translation.securityOverview.pendingTitle	你的第一次扫描正在设置
+translation.securityOverview.pendingDescription	Devin 正在准备威胁模型。扫描开始后，发现项会出现在这里。
+translation.securityOverview.viewScanSession	查看扫描会话
+translation.securityOverview.stoppedTitle	你的扫描没有启动
+translation.securityOverview.stoppedDescription	扫描会话在开始扫描前就停止了，所以还没有发现项。打开它看看需要什么，或开始一次新扫描。
+translation.securityOverview.failedTitle_one	你的扫描失败了
+translation.securityOverview.failedTitle_other	你的扫描失败了
+translation.securityOverview.failedDescription_one	扫描在完成前停止了，所以还没有发现项。查看出了什么问题，然后重新运行。
+translation.securityOverview.failedDescription_other	{{count}} 次扫描在完成前停止了，所以还没有发现项。查看出了什么问题，然后重新运行。
+translation.securityOverview.viewFailedScans_one	查看失败的扫描
+translation.securityOverview.viewFailedScans_other	查看失败的扫描
+translation.securityOverview.legacyCalloutTitle	Devin Security 已更新！
+translation.securityOverview.legacyCalloutDescription	在 Classic 标签页中找到以前的 Security 扫描体验。
+translation.securityOverview.legacyCalloutAction	前往 Classic
+translation.securityOverview.emptyTitle	你的安全状况一览
+translation.securityOverview.emptyDescription	开始第一次扫描，按严重程度查看发现项、跟踪修复进度，并监控各仓库的安全趋势。
+translation.securityOverview.startScan	开始扫描
+translation.securityOverview.totalPullRequests	拉取请求总数
+translation.securityOverview.findingsOverTime	发现项趋势
+translation.securityOverview.newFindings	新发现项
+translation.securityOverview.dismissedFindings	已驳回的发现项
+translation.securityOverview.resolvedFindings	已解决的发现项
+translation.securityOverview.findingsSeriesCount	{{label}}：{{total}}
+translation.securityOverview.findingsBySeverity	按严重程度分布的发现项
+translation.securityOverview.openFindingsBySeverity	按严重程度分布的待处理发现项
+translation.securityOverview.reviewedFindingsBySeverity	按严重程度分布的已评审发现项
+translation.securityOverview.dismissedFindingsBySeverity	按严重程度分布的已驳回发现项
+translation.securityOverview.findingsDonutLabel	发现项
+translation.securityOverview.openFindingsByRepository	按仓库分布的待处理发现项
+translation.securityOverview.otherRepositories	其他
+translation.securityOverview.retry	重试
+translation.securityOverview.failedToLoadPullRequests	加载拉取请求统计失败
+translation.securityFindings.redTeam	红队
+translation.securityFindings.redTeamFinding	红队发现项
+translation.securityFindings.chatWithDevin	与发现项对话
+translation.securityFindings.startNewScan	开始新扫描
+translation.securityFindings.chatWindow.findingCount_one	{{formatted}} 个发现项
+translation.securityFindings.chatWindow.findingCount_other	{{formatted}} 个发现项
+translation.securityFindings.chatWindow.removeFinding	从上下文移除发现项
+translation.securityFindings.chatWindow.title	与 Devin 对话
+translation.securityFindings.chatWindow.windowTitle	Devin 对话
+translation.securityFindings.chatWindow.selected	已选 {{count}} 个
+translation.securityFindings.chatWindow.list	{{status}} 列表
+translation.securityFindings.chatWindow.listCount_one	{{status}} · {{count}} 个发现项
+translation.securityFindings.chatWindow.listCount_other	{{status}} · {{count}} 个发现项
+translation.securityFindings.chatWindow.placeholder	询问你正打开的内容…
+translation.securityFindings.chatWindow.emptyTitle	询问任何发现项
+translation.securityFindings.chatWindow.emptyBody	Devin 能看到你打开的发现项和选中的行。
+translation.securityFindings.chatWindow.newChat	新对话
+translation.securityFindings.chatWindow.openSession	打开完整会话
+translation.securityFindings.chatWindow.expand	展开
+translation.securityFindings.chatWindow.restore	恢复大小
+translation.securityFindings.chatWindow.close	关闭
+translation.securityFindings.chatWindow.more	更多
+translation.securityFindings.emptyTitle	知道需要修什么
+translation.securityFindings.emptyDescription	运行扫描以发现漏洞、了解其影响并排定修复优先级。所有扫描的发现项都会出现在这里。
+translation.securityFindings.repositoryCount_one	{{count}} 个仓库
+translation.securityFindings.repositoryCount_other	{{count}} 个仓库
+translation.securityFindings.severityCount_one	{{count}} 个严重程度
+translation.securityFindings.severityCount_other	{{count}} 个严重程度
+translation.securityFindings.statusCount_one	{{count}} 个状态
+translation.securityFindings.statusCount_other	{{count}} 个状态
+translation.securityFindings.noMatches	没有匹配这些筛选的发现项
+translation.securityFindings.noMatchesDescription	试试其他筛选，或清除筛选以查看此标签页中的全部发现项。
+translation.securityFindings.noRedTeamFindings	还没有红队发现项
+translation.securityFindings.noRedTeamFindingsDescription	红队扫描确认后，发现项会显示在这里。
+translation.securityFindings.emptyOpenDescription	每个发现项都已评审或驳回。
+translation.securityFindings.findingDetail	发现项详情
+translation.securityFindings.reviewed	已评审
+translation.securityFindings.searchRepository	搜索仓库
+translation.securityFindings.noRepositories	未找到仓库
+translation.securityFindings.prOpen	打开中
+translation.securityFindings.prMerged	已合并
+translation.securityFindings.prClosed	已关闭
+translation.securityFindings.prNone	无 PR
+translation.securityFindings.prStateCount_one	{{count}} 个 PR 状态
+translation.securityFindings.prStateCount_other	{{count}} 个 PR 状态
+translation.securityFindings.anyField	任意字段
+translation.securityFindings.noTags	未找到标签
+translation.securityFindings.noThreats	未找到威胁
+translation.securityFindings.loadingTags	正在加载标签和属性…
+translation.securityFindings.tagsLoadError	无法加载标签和属性。
+translation.securityFindings.filter	筛选
+translation.securityFindings.filterCount_one	{{count}} 个筛选
+translation.securityFindings.filterCount_other	{{count}} 个筛选
+translation.securityFindings.filterAny	任意
+translation.securityFindings.searchFilters	搜索标签、威胁和属性
+translation.securityFindings.searchValues	搜索 {{name}}
+translation.securityFindings.noMatchingOptions	无匹配
+translation.securityFindings.addTag	添加标签「{{label}}」
+translation.securityFindings.addValue	添加「{{label}}」
+translation.securityFindings.deleteTag	删除标签
+translation.securityFindings.deleteTagTitle	删除「{{label}}」？
+translation.securityFindings.deleteTagDescription	这会从你组织中每个发现项上移除该标签。此操作无法撤销。
+translation.securityFindings.deleteTagConfirm	删除标签
+translation.securityFindings.deleteTagFailed	删除标签失败。请重试。
+translation.securityFindings.threatValue	威胁：{{label}}
+translation.securityFindings.component	组件
+translation.securityFindings.sortBy	排序方式
+translation.securityFindings.sortByField	按 {{field}} 排序
+translation.securityFindings.sortCount_one	{{count}} 个排序
+translation.securityFindings.sortCount_other	{{count}} 个排序
+translation.securityFindings.sortCreatedOn	创建时间
+translation.securityFindings.ascending	升序
+translation.securityFindings.descending	降序
+translation.securityFindings.addSort	添加排序
+translation.securityFindings.removeSort	移除排序
+translation.securityFindings.remove	移除
+translation.securityFindings.moreColumns	更多列
+translation.securityFindings.columns	列
+translation.securityFindings.showColumn	显示列
+translation.securityFindings.hideColumn	隐藏列
+translation.securityFindings.searchFindings	搜索发现项
+translation.securityFindings.searchPlaceholder	按标题或文件路径搜索
+translation.securityFindings.created	创建时间
+translation.securityFindings.findingActions	发现项操作
+translation.securityFindings.searchThreat	搜索威胁
+translation.securityRedTeaming.authorization	授权
+translation.securityRedTeaming.openFindings	待处理发现项
+translation.securityRedTeaming.addedAt	添加于 {{time}}
+translation.securityRedTeaming.earlierScans_one	{{count}} 次更早的扫描
+translation.securityRedTeaming.earlierScans_other	{{count}} 次更早的扫描
+translation.securityRedTeaming.manageTarget	管理目标
+translation.securityRedTeaming.noScans	还没有扫描
+translation.securityRedTeaming.refreshFailed	无法刷新扫描活动。显示最近一次可用更新。
+translation.securityRedTeaming.revokeAuthorization	撤销授权
+translation.securityRedTeaming.scanConfig	扫描配置
+translation.securityRedTeaming.configLoadFailed	无法加载扫描配置。
+translation.securityRedTeaming.launchAgain	用这些设置再次发起
+translation.securityRedTeaming.copyField	复制 {{label}}
+translation.securityRedTeaming.add	添加目标
+translation.securityRedTeaming.addTarget	添加目标
+translation.securityRedTeaming.addTargetTitle	添加目标
+translation.securityRedTeaming.artexDescription	使用 ARTEX 相关提示词进行攻击规划和测试。这不会运行 ARTEX。
+translation.securityRedTeaming.artexDeepUnavailableDescription	ARTEX 模拟提示词模式在 Standard 深度下可用。
+translation.securityRedTeaming.artexLabel	ARTEX 提示词模式
+translation.securityRedTeaming.authorizationNoteLabel	理由说明
+translation.securityRedTeaming.authorizationBasisLabel	授权依据
+translation.securityRedTeaming.authorizationBasisSignedEngagement	已签署的渗透测试合同
+translation.securityRedTeaming.authorizationBasisPublicBugBounty	公开漏洞赏金计划
+translation.securityRedTeaming.authorizationBasisOther	其他
+translation.securityRedTeaming.authorizationBasisRequired	请选择授权依据
+translation.securityRedTeaming.previouslyRejected	此前被拒绝
+translation.securityRedTeaming.authorizationNotePlaceholder	例如：已签合同的链接，或漏洞赏金计划及其范围的链接
+translation.securityRedTeaming.cancel	取消
+translation.securityRedTeaming.confirmReject	拒绝目标
+translation.securityRedTeaming.confirmRevoke	撤销授权
+translation.securityRedTeaming.confirmVerify	验证目标
+translation.securityRedTeaming.revokeDescription	撤销会取消 {{domain}} 的红队扫描、归档其会话，并在目标重新验证前阻止新扫描。
+translation.securityRedTeaming.revokeNoteLabel	撤销原因
+translation.securityRedTeaming.revokeNotePlaceholder	例如：授权过期、工单链接
+translation.securityRedTeaming.revokeTitle	撤销授权
+translation.securityRedTeaming.createFailed	无法添加目标。
+translation.securityRedTeaming.emptyDescription	添加一个在线域名进行渗透测试。扫描运行前需要 Devin 员工验证授权。
+translation.securityRedTeaming.emptyTitle	还没有目标
+translation.securityRedTeaming.launch	发起扫描
+translation.securityRedTeaming.launchActiveScanWarning	此目标已有一次扫描在排队或运行中。再发起一次会并行测试相同主机，可能使其流量翻倍。
+translation.securityRedTeaming.launchAfterFailure	你要重新发起的扫描失败了：{{reason}}
+translation.securityRedTeaming.launchDescription	对 {{domain}} 渗透测试。添加一个仓库以将发现项与其源码关联。
+translation.securityRedTeaming.scopeSummary_one	{{first}} 和其他 {{count}} 个范围条目
+translation.securityRedTeaming.scopeSummary_other	{{first}} 和其他 {{count}} 个范围条目
+translation.securityRedTeaming.depthLabel	扫描深度
+translation.securityRedTeaming.depthStandard	标准
+translation.securityRedTeaming.depthDeep	深度
+translation.securityRedTeaming.depthStandardDescription	侦察后，扫描会等你选择要测试的资产。然后一个会话逐一测试每个资产。
+translation.securityRedTeaming.depthDeepDescription	侦察后，扫描会等你选择要测试的资产。然后最多 12 个会话按漏洞类别测试，最多 6 个会话确认并串联最佳线索。费用更高。
+translation.securityRedTeaming.depthUltra	超深度
+translation.securityRedTeaming.depthUltraDescription	无需等待：一个会话搜寻每个发现的主机，并为其威胁模型浮现的漏洞类别派生更深的会话。费用最高。
+translation.securityRedTeaming.depthFoothold	超深度（内网）
+translation.securityRedTeaming.depthFootholdDescription	从你的网络内部进行超深度扫描：会话在你选择的 Outpost 机器上逐一运行，持续搜寻你下方选定范围内的一切，直到没有遗漏。不做任何更改或破坏，扫描会在测试任何不确定属于你的目标前先问你。
+translation.securityRedTeaming.footholdPoolLabel	据点 Outpost
+translation.securityRedTeaming.footholdPoolPlaceholder	选择一个 Outpost
+translation.securityRedTeaming.footholdPoolDescription	会话以该机器上 worker 用户的身份运行，能读取该用户可读的一切。列出的是账户级 Outpost 和你自己的个人 Outpost。
+translation.securityRedTeaming.footholdPoolRequired	请选择用于测试的 Outpost。
+translation.securityRedTeaming.footholdPoolsEmpty	此组织中没有你可用的 Outpost。
+translation.securityRedTeaming.footholdPoolsFailed	无法加载 Outpost。
+translation.securityRedTeaming.footholdScopeLabel	范围
+translation.securityRedTeaming.footholdScopeLocalNetworks	Outpost 机器及其本地网络
+translation.securityRedTeaming.footholdScopeReachable	Outpost 机器可达的一切
+translation.securityRedTeaming.footholdScopeLocalNetworksNamed	{{outpost}} 及其本地网络
+translation.securityRedTeaming.footholdScopeReachableNamed	{{outpost}} 可达的一切
+translation.securityRedTeaming.footholdScopeLocalNetworksDescription	还会测试机器直接连接的网络上的主机。更远的目标，以及扫描不确定属于你的任何网络，只在你批准后才测试。
+translation.securityRedTeaming.footholdScopeReachableDescription	通过任何网络、VPN 或内部域名，测试机器可达且明确属于你组织的每个系统。扫描会暂停询问你不确定属于你的目标，以及其他公司运行的服务。
+translation.securityRedTeaming.launchFailed	无法发起扫描。
+translation.securityRedTeaming.launchScan	发起扫描
+translation.securityRedTeaming.launchSuccess	红队扫描已开始。
+translation.securityRedTeaming.scanTestingTitle	Devin 正在测试目标
+translation.securityRedTeaming.scanTestingDescription	Devin 正在测试目标。发现项确认后会显示在这里。
+translation.securityRedTeaming.scanAwaitingInputDescription	侦察已完成。打开扫描会话以选择 Devin 要测试的资产。
+translation.securityRedTeaming.scanQueuedDescription	它会自动开始。发现项确认后会显示在这里。
+translation.securityRedTeaming.stopScanDescription	Devin 立即停止测试。本次运行连同已确认的发现项保留在目标的扫描历史中。
+translation.securityRedTeaming.scanFailedDescription	Devin 无法完成此扫描。请从管理面板中此组织的 Red Teaming 页面发起新扫描。
+translation.securityRedTeaming.credentials	凭据
+translation.securityRedTeaming.authorizationNoteRequired	需要理由说明
+translation.securityRedTeaming.revokeNoteRequired	需要原因
+translation.securityRedTeaming.noteTooLong	最多 {{max}} 个字符。当前有 {{length}} 个。
+translation.securityRedTeaming.credAdd	添加凭据
+translation.securityRedTeaming.credAddFailed	添加凭据失败
+translation.securityRedTeaming.credDelete	删除
+translation.securityRedTeaming.credDeleteTitle	删除「{{name}}」？
+translation.securityRedTeaming.credDeleteDescription	今后对 {{domain}} 的扫描将无法使用此凭据。
+translation.securityRedTeaming.credSessionClearTitle	清除「{{name}}」的已存登录？
+translation.securityRedTeaming.credSessionClearDescription	今后对 {{domain}} 的扫描将无法复用此登录会话。如果凭据只包含会话，凭据也会被删除。
+translation.securityRedTeaming.credDeleteFailed	删除凭据失败
