@@ -1,0 +1,500 @@
+translation.commandPalette.start	开始
+translation.commandPalette.select	选择
+translation.commandPalette.navigate	导航
+translation.commandPalette.viewDebugCommands	查看调试命令
+translation.commandPalette.archiveSession	归档会话
+translation.commandPalette.createReplay	创建回放
+translation.commandPalette.replaySession	回放会话
+translation.commandPalette.copyOrganizationId	复制组织 ID
+translation.commandPalette.copyEnterpriseId	复制企业 ID
+translation.commandPalette.pinSession	置顶会话
+translation.commandPalette.searchIn	在 {{label}} 中搜索…
+translation.commandPalette.switchOrganization	切换组织
+translation.commandPalette.unarchiveSession	取消归档会话
+translation.commandPalette.unpinSession	取消置顶会话
+translation.commandPalette.disableSyncTo	关闭同步到 {{label}}
+translation.commandPalette.enableSyncTo	开启同步到 {{label}}
+translation.commandPalette.failedToChangeLanguage	更改语言失败
+translation.commandPalette.failedToCopyOrganizationId	复制组织 ID 失败
+translation.commandPalette.failedToCopyEnterpriseId	复制企业 ID 失败
+translation.commandPalette.failedToResetReviewOnboarding	重置 Devin Review 入门失败
+translation.commandPalette.failedToResetDismissedCallouts	重置已关闭提示失败
+translation.commandPalette.calloutReset	重置 {{name}}
+translation.commandPalette.ideConnecting	正在连接 Devin 的机器… 上线后即可用 IDE 搜索。
+translation.commandPalette.ideConnectionFailed	无法连接 Devin 的机器。
+translation.commandPalette.ideDevinAsleep	Devin 在休眠——IDE 搜索需要机器在线。
+translation.commandPalette.ideGoToLine	跳转到 {{file}} 第 {{line}} 行
+translation.commandPalette.ideGoToLineWithColumn	跳转到 {{file}} 第 {{line}} 行第 {{column}} 列
+translation.commandPalette.ideOpenFileToGoToLine	打开一个文件以跳转行。
+translation.commandPalette.ideRetryConnection	重试连接
+translation.commandPalette.ideSearch	IDE 搜索
+translation.commandPalette.ideSessionEnded	此会话已结束——IDE 搜索不可用。
+translation.commandPalette.ideTypeLineNumber	输入 {{file}} 中的行号（如 42 或 42:7）。
+translation.commandPalette.impersonate	模拟身份
+translation.commandPalette.logs	日志
+translation.commandPalette.messageHistory	消息历史：{{next}}
+translation.commandPalette.noOrganizationIdFound	未找到组织 ID
+translation.commandPalette.noEnterpriseIdFound	未找到企业 ID
+translation.commandPalette.organizationIdCopied	组织 ID 已复制
+translation.commandPalette.enterpriseIdCopied	企业 ID 已复制
+translation.commandPalette.resetDevinReviewOnboarding	重置 Devin Review 入门
+translation.commandPalette.reviewOnboardingReset	Devin Review 入门已重置
+translation.commandPalette.dismissedCalloutsReset	已关闭提示已重置
+translation.commandPalette.syncSessionToSlack	同步会话到 Slack
+translation.commandPalette.syncSessionToTeams	同步会话到 Teams
+translation.commandPalette.typePrompt	输入提示词…
+translation.commandPalette.typeToSearchText	输入以在工作区中搜索文本…
+translation.commandPalette.wakeUpDevin	唤醒 Devin
+translation.commandPalette.waterfallTraces	瀑布追踪
+translation.commandPalette.wdw	WDW
+translation.commandPalette.ideModeFiles	跳转到文件
+translation.commandPalette.ideModeFilesInput	搜索文件...
+translation.commandPalette.ideModeFilesPlaceholder	按名称搜索文件（追加 :42 跳转到行）…
+translation.commandPalette.ideModeSymbols	跳转到工作区符号
+translation.commandPalette.ideModeSymbolsInput	搜索符号...
+translation.commandPalette.ideModeSymbolsPlaceholder	在工作区中搜索符号（以 : 开头按种类分组）…
+translation.commandPalette.ideModeGoToLine	跳转到行
+translation.commandPalette.ideModeGoToLineInput	跳转到行...
+translation.commandPalette.ideModeGoToLinePlaceholder	跳转到行（如 42 或 42:7）…
+translation.commandPalette.ideModeText	搜索文本
+translation.commandPalette.ideModeTextInput	搜索文本...
+translation.commandPalette.ideModeTextPlaceholder	在工作区中搜索文本…
+translation.commandPalette.ideModeHelp	IDE 搜索帮助
+translation.commandPalette.ideModeHelpInput	搜索 IDE 模式...
+translation.commandPalette.ideModeHelpPlaceholder	IDE 搜索模式
+translation.commandPalette.quickInputSelectedCount_one	已选 {{count}} 项
+translation.commandPalette.quickInputSelectedCount_other	已选 {{count}} 项
+translation.commandPalette.quickInputOk	确定
+translation.composerTips.agentLocation	提示：让 Devin 在云端或本机运行（<shortcut/>）
+translation.composerTips.capabilityMenu	提示：更改 Devin 的模型和能力（<shortcut/>）
+translation.composerTips.commandPalette	提示：搜索会话和命令（<shortcut/>）
+translation.composerTips.newSession	提示：开始新会话（<shortcut/>）
+translation.composerTips.sidebar	提示：隐藏或显示侧栏（<shortcut/>）
+translation.compliance.list.partialScans	部分扫描还没有结果
+translation.compliance.list.frameworks	框架
+translation.compliance.list.frameworkCount_one	{{count}} 个框架
+translation.compliance.list.frameworkCount_other	{{count}} 个框架
+translation.compliance.list.searchFramework	搜索框架
+translation.compliance.list.noFrameworks	无框架
+translation.compliance.list.scanStatus	扫描状态
+translation.compliance.list.statusCount_one	{{count}} 种状态
+translation.compliance.list.statusCount_other	{{count}} 种状态
+translation.compliance.list.status.deviations	有偏差
+translation.compliance.list.status.clean	无未决偏差
+translation.compliance.list.status.unscanned	未扫描
+translation.compliance.list.systemActions	系统操作
+translation.compliance.list.openSystem	打开系统
+translation.compliance.list.emptyNote	Devin 收集证据并标记偏差供你的评估师验证；它不断言某控制已达标。
+translation.compliance.ledger.count	{{shown}} / {{total}} 个发现
+translation.compliance.ledger.countWithEvidence	{{shown}} / {{total}} 个发现与证据指针
+translation.compliance.ledger.noMatches	没有匹配这些筛选的发现。
+translation.compliance.ledger.empty	最近完成的扫描无发现。
+translation.compliance.ledger.kind	种类
+translation.compliance.ledger.kinds.deviation	偏差
+translation.compliance.ledger.kinds.evidence	证据
+translation.compliance.ledger.kinds.all	全部种类
+translation.compliance.evidence.fullScreen	打开全屏
+translation.compliance.evidence.exitFullScreen	退出全屏
+translation.compliance.evidence.source	来源
+translation.compliance.evidence.requirement	需求文本
+translation.compliance.evidence.recommendation	建议
+translation.compliance.evidence.provenance	出处
+translation.compliance.evidence.scope	扫描范围
+translation.compliance.evidence.statusDetails	状态详情
+translation.compliance.evidence.scanId	扫描
+translation.compliance.evidence.scanSession	扫描会话
+translation.compliance.evidence.commitUnknown	提交不可用
+translation.compliance.evidence.findingUnavailable	此发现对当前扫描中的此控制不可用。
+translation.compliance.evidence.outcomeRow.noSurface.detail	此配置文件的一次当前扫描声明：它扫过的来源无一能回应此控制，且没有当前扫描记录过对它的搜索。这不说明控制是否达标。
+translation.compliance.evidence.outcomeRow.noSurface.next	在其他来源中查找与此控制相关的政策、流程、培训记录或运行配置。在当前扫描范围内，没有任何来源被搜索过。
+translation.compliance.evidence.outcomeRow.noEvidence.detail	当前扫描在其来源中搜索过此控制，目前没有未决的证据或偏差。没有未决发现不等于控制已达标；匹配器也可能漏掉了以其他形式保存的证据。
+translation.compliance.evidence.outcomeRow.noEvidence.next	检查此控制是否在已搜索来源之外实现或有文档记录，并把该证据与扫描并列补上。
+translation.compliance.evidence.outcomeRow.notSearched.detail	当前扫描没有对此准则的搜索记录。较旧的扫描可能不含搜索细节。
+translation.compliance.evidence.outcomeRow.notSearched.next	跑一次新扫描来检查此准则。
+translation.compliance.evidence.outcomeRow.noScans.detail	此配置文件没有已完成的扫描结果，因此从仓库中对此控制一无所知。
+translation.compliance.evidence.outcomeRow.noScans.next	对此系统的仓库跑一次新扫描来搜索此控制。
+translation.compliance.detail.systemDetails	系统详情
+translation.compliance.detail.outcomes.deviation	发现偏差
+translation.compliance.detail.outcomes.evidence	发现证据
+translation.compliance.detail.outcomes.no-evidence	无证据
+translation.compliance.detail.outcomes.no-surface	超出扫描范围
+translation.compliance.detail.outcomes.not-searched	未搜索
+translation.compliance.detail.notSearchedCount	{{count}} 条未搜索
+translation.compliance.detail.outcome	状态
+translation.compliance.detail.deviations	偏差
+translation.compliance.detail.deviationCount	{{count}} 个{{severity}}
+translation.compliance.detail.id	ID
+translation.compliance.detail.search	搜索准则
+translation.compliance.detail.clear	清除筛选
+translation.compliance.detail.noMatches	没有匹配这些筛选的准则。
+translation.compliance.detail.controlNotFound	未找到准则
+translation.compliance.detail.notFound	未找到系统
+translation.compliance.detail.notFoundDescription	此系统不在可用的合规配置文件中。
+translation.compliance.detail.partialError_one	{{count}} 次扫描的证据无法完整加载；其准则可能显示为未搜索。
+translation.compliance.detail.partialError_other	{{count}} 次扫描的证据无法完整加载；其准则可能显示为未搜索。
+translation.compliance.detail.error	无法加载合规配置文件、扫描或发现。请重试。
+translation.compliance.systems	合规系统
+translation.compliance.system	系统
+translation.compliance.framework	框架
+translation.compliance.includedFrameworks	此系统中的框架
+translation.compliance.allFrameworks	全部框架
+translation.compliance.searchFrameworks	搜索框架...
+translation.compliance.unassignedFramework	未分配框架
+translation.compliance.summary.title	摘要
+translation.compliance.summary.generate	生成摘要
+translation.compliance.summary.regenerate	重新生成
+translation.compliance.summary.generating	正在撰写摘要...
+translation.compliance.summary.help	对下方发现的带引用综述，可审阅后粘贴进审计文档。不是合规判定。
+translation.compliance.summary.copy	复制摘要
+translation.compliance.summary.failed	无法生成摘要。请重试。
+translation.compliance.guidance.title	给 Devin 的指引
+translation.compliance.guidance.placeholder	去哪里找、需要什么，或证据为何被驳回。
+translation.compliance.guidance.help	对使用此目录的每个仓库的后续扫描生效。「扫描新提交」只看新提交；用「全量重扫」在各处重新评估此控制。
+translation.compliance.guidance.save	保存
+translation.compliance.guidance.clear	清除指引
+translation.compliance.guidance.saved	指引已保存
+translation.compliance.guidance.cleared	指引已清除
+translation.compliance.guidance.nextScan	下次扫描生效。
+translation.compliance.guidance.saveFailed	无法保存指引。请重试。
+translation.compliance.guidance.indicator	指引
+translation.compliance.guidance.indicatorTitle	此控制有给 Devin 的指引
+translation.compliance.addFramework	用 Devin 添加框架
+translation.compliance.catalogs	扫描配置文件
+translation.compliance.repositories	仓库
+translation.compliance.scans	扫描
+translation.compliance.scanProgress.batches	已调查 {{completed}} / {{total}} 批
+translation.compliance.scanProgress.systemScan	系统扫描
+translation.compliance.scanProgress.profiles_one	{{count}} 个扫描配置文件
+translation.compliance.scanProgress.profiles_other	{{count}} 个扫描配置文件
+translation.compliance.scanProgress.deviations_one	{{count}} 个偏差
+translation.compliance.scanProgress.deviations_other	{{count}} 个偏差
+translation.compliance.scanProgress.neverScanned_one	{{count}} 个从未扫描
+translation.compliance.scanProgress.neverScanned_other	{{count}} 个从未扫描
+translation.compliance.scanProgress.incomplete	未完成
+translation.compliance.scanProgress.profilesRunning	{{count}} 个扫描配置文件中 {{running}} 个在运行
+translation.compliance.scanHistory.title	扫描历史
+translation.compliance.scanHistory.empty	此系统还没有扫描。
+translation.compliance.scanHistory.started	开始时间
+translation.compliance.scanHistory.finished	完成时间
+translation.compliance.scanHistory.noSessionPermission	你无权启动 Devin 会话
+translation.compliance.scanHistory.runActive	已有一轮运行在进行中
+translation.compliance.runAction.runSystemScan	运行系统扫描
+translation.compliance.runAction.rescan	重扫
+translation.compliance.runAction.rescanTooltip	只扫描 {{commit}}（{{date}}）之后新增的提交；不创建新扫描。
+translation.compliance.runAction.fullRescan	全量重扫
+translation.compliance.runAction.fullRescanTooltip	从头对每个仓库启动新扫描，重新映射全部准则；当前扫描及其发现保留在历史中。
+translation.compliance.runAction.systemScanNewCommitsTooltip	扫描此系统所有框架的新提交；从未扫描过的配置文件得到首次评估。
+translation.compliance.runAction.systemFullRescanTooltip	对此系统所有框架的每个扫描配置文件启动新扫描，重新映射全部准则；当前扫描及其发现保留在历史中。从未扫描过的配置文件得到首次评估。
+translation.compliance.runAction.framework	框架
+translation.compliance.runAction.lastScanned	最近扫描
+translation.compliance.runAction.respond	回应
+translation.compliance.runAction.respondTooltip	Devin 正在扫描会话中等待你的输入。在那里回复以继续扫描。
+translation.compliance.runAction.neverScanned	从未扫描
+translation.compliance.runAction.duplicateBadge	并发运行
+translation.compliance.runAction.groupStarted_one	已启动 {{count}} 轮运行
+translation.compliance.runAction.groupStarted_other	已启动 {{count}} 轮运行
+translation.compliance.runAction.groupUpToDate_one	{{count}} 个扫描配置文件已是最新；未启动运行
+translation.compliance.runAction.groupUpToDate_other	全部 {{count}} 个扫描配置文件已是最新；未启动运行
+translation.compliance.runAction.groupFailed_one	{{count}} 轮运行中 {{failed}} 轮启动失败
+translation.compliance.runAction.groupFailed_other	{{count}} 轮运行中 {{failed}} 轮启动失败
+translation.compliance.runAction.failed	启动失败
+translation.compliance.runAction.runFirstAssessment	运行首次评估
+translation.compliance.runAction.noRepos	此系统还没有关联仓库
+translation.compliance.runAction.duplicate_one	此扫描配置文件和仓库有 {{count}} 次扫描在运行。
+translation.compliance.runAction.duplicate_other	此扫描配置文件和仓库有 {{count}} 次扫描在运行，它们的发现会被拆分。取消不需要的那些。
+translation.compliance.systemActions.label	{{name}} 的操作
+translation.compliance.systemActions.archive	归档系统
+translation.compliance.systemActions.archiveTitle	归档 {{name}}？
+translation.compliance.systemActions.archiveDescription_one	归档其 {{count}} 个目录并把系统从 Compliance 移除。已有扫描和发现保留。
+translation.compliance.systemActions.archiveDescription_other	归档其全部 {{count}} 个目录并把系统从 Compliance 移除。已有扫描和发现保留。
+translation.compliance.systemActions.archived	{{name}} 已归档
+translation.compliance.systemActions.archiveFailed_one	{{count}} 个目录中 {{failed}} 个无法归档
+translation.compliance.systemActions.archiveFailed_other	{{count}} 个目录中 {{failed}} 个无法归档
+translation.compliance.systemActions.rename	重命名系统
+translation.compliance.systemActions.renameTitle	重命名 {{name}}
+translation.compliance.systemActions.renameDescription_one	更新其 {{count}} 个目录上的系统
+translation.compliance.systemActions.renameDescription_other	更新其全部 {{count}} 个目录上的系统
+translation.compliance.systemActions.slugHint	修改 slug 会把系统移到新 URL。
+translation.compliance.systemActions.slugTaken	另一个系统已使用此 slug。
+translation.compliance.systemActions.renamed	已重命名为 {{name}}
+translation.compliance.systemActions.renameFailed_one	{{count}} 个目录中 {{failed}} 个无法重命名，仍留在旧系统下
+translation.compliance.systemActions.renameFailed_other	{{count}} 个目录中 {{failed}} 个无法重命名，仍留在旧系统下
+translation.compliance.systemActions.accountSharedBlocked	部分目录在企业间共享，只能由企业管理员修改
+translation.compliance.systemActions.exportCsv	导出 CSV
+translation.compliance.systemActions.exportCsvDisabled	此系统完成一次扫描后可用
+translation.compliance.systemActions.exporting	正在导出 CSV…
+translation.compliance.systemActions.exported	CSV 已开始下载
+translation.compliance.systemActions.exportFailed	无法导出 CSV
+translation.compliance.systemGuidance.menu	给 Devin 的指引
+translation.compliance.systemGuidance.title	{{name}} 的指引
+translation.compliance.systemGuidance.description	应用于此系统的每次扫描。引导 Devin 去哪里找、怎么写发现，从不影响控制的状态。
+translation.compliance.systemGuidance.label	指引
+translation.compliance.systemGuidance.placeholder	如：忽略 apps/legacy/**。观察描述保持一句话。降低 PE 族优先级。
+translation.compliance.systemGuidance.partial	已保存到 {{count}} 个扫描配置文件中的 {{saved}} 个。保存以应用到全部。
+translation.compliance.systemGuidance.save	保存
+translation.compliance.systemGuidance.saved	系统指引已保存
+translation.compliance.systemGuidance.cleared	系统指引已清除
+translation.compliance.systemGuidance.nextScan	下次扫描生效。
+translation.compliance.systemGuidance.saveFailed_one	{{count}} 个扫描配置文件中 {{failed}} 个无法更新
+translation.compliance.systemGuidance.saveFailed_other	{{count}} 个扫描配置文件中 {{failed}} 个无法更新
+translation.compliance.usage.latestFull	最近全量扫描：{{usage}}
+translation.compliance.usage.latestRun	最近运行用量
+translation.compliance.usage.unavailable	用量不可用
+translation.compliance.usage.loadError	无法加载用量
+translation.compliance.usage.loading	正在加载用量…
+translation.compliance.usage.fullScope	每个目录最近一次全量扫描的总 ACU，不含重跑和导入的证据。
+translation.compliance.usage.runScope	最近一次运行所用的 ACU。更早的运行见扫描历史。
+translation.compliance.noCompletedScans	无已完成扫描
+translation.compliance.openScanSession	打开 {{system}} 的上次扫描会话
+translation.compliance.loading	正在加载合规系统…
+translation.compliance.errorTitle	无法加载合规系统
+translation.compliance.errorDescription	无法加载合规配置文件或扫描。请重试。
+translation.compliance.tryAgain	重试
+translation.compliance.title	合规
+translation.compliance.description	从你的代码收集控制证据并保持最新：逐控制的引用工件、以修复 PR 形式呈现的偏差，以及合并修复后的重跑。控制是否达标由你的评估师判定。
+translation.compliance.emptyTitle	还没有合规系统
+translation.compliance.emptyDescription	系统是一个授权边界（仓库和路径）加上适用于它的合规框架。你设置的系统会出现在这里。
+translation.common.availableToAdmins	管理员可用
+translation.common.cancel	取消
+translation.common.close	关闭
+translation.common.copied	已复制
+translation.common.copy	复制
+translation.common.readOnly	只读
+translation.common.copyLink	复制链接
+translation.common.cut	剪切
+translation.common.deselectAllEnterprisesOnPage	取消选择本页所有企业
+translation.common.deselectAllOtherEnterprises	取消选择本页所有其他企业
+translation.common.deselectAllYourEnterprises	取消选择本页所有你的企业
+translation.common.failedToCopy	复制失败
+translation.common.failedToCopyLink	复制链接失败
+translation.common.inProgress	进行中
+translation.common.linkCopied	链接已复制
+translation.common.learnMore	了解更多
+translation.common.loading	加载中…
+translation.common.openInNewTab	在新标签页打开
+translation.common.openInExternalBrowser	在外部浏览器打开
+translation.common.paste	粘贴
+translation.common.user	用户
+translation.common.selectAllEnterprisesOnPage	选择本页所有企业
+translation.common.selectAllOtherEnterprises	选择本页所有其他企业
+translation.common.selectAllYourEnterprises	选择本页所有你的企业
+translation.common.selectedFilter	已选筛选
+translation.common.selectedOption	已选选项
+translation.common.selectedTeam	已选团队
+translation.common.saving	保存中…
+translation.common.sending	发送中…
+translation.common.skipToMainContent	跳到主要内容
+translation.common.syncing	同步中
+translation.common.unselectedFilter	未选筛选
+translation.common.unselectedOption	未选选项
+translation.common.unselectedTeam	未选团队
+translation.chatSyncConfirm.title	你的消息将通知 {{provider}} 中的人
+translation.chatSyncConfirm.participants_one	{{channel}} 中另外 {{countLabel}} 人将收到通知
+translation.chatSyncConfirm.participants_other	{{channel}} 中另外 {{countLabel}} 人将收到通知
+translation.chatSyncConfirm.participantsUnknown	{{channel}} 中的其他人将收到通知
+translation.chatSyncConfirm.dontRemindToday	今天不再提醒
+translation.chatSyncConfirm.cancel	取消
+translation.chatSyncConfirm.post	发布
+translation.dataTable.collapseRow	折叠 {{name}}
+translation.dataTable.expandRow	展开 {{name}}
+translation.dataTable.moreColumns_one	还有 {{count}} 列
+translation.dataTable.moreColumns_other	还有 {{count}} 列
+translation.dataTable.columnsBefore_one	前面有 {{count}} 列
+translation.dataTable.columnsBefore_other	前面有 {{count}} 列
+translation.dataTable.clearSelection	清除选择
+translation.dataTable.selectAllRows	选择所有行
+translation.dataTable.selectRow	选择行
+translation.confirmation.cancel	取消
+translation.confirmation.confirm	确认
+translation.personalQuotaAnalytics.currentCycle	当前周期
+translation.personalQuotaAnalytics.previousCycle	上周期
+translation.personalQuotaAnalytics.selectCycle	选择计费周期
+translation.personalQuotaAnalytics.unavailable	你的计划暂不支持个人分析。
+translation.personalQuotaAnalytics.weeklyQuota	已用每周配额
+translation.personalQuotaAnalytics.quotaDescription	你的完整席位所含每周配额的使用情况
+translation.personalQuotaAnalytics.weeklyAverageUtilization	每周平均利用率
+translation.personalQuotaAnalytics.noQuotaSeat	你没有分配配额席位。
+translation.personalQuotaAnalytics.noWeeklyUsage	此期间无配额用量。
+translation.personalQuotaAnalytics.weeklyTooltip	已用每周配额的 {{percent}}%
+translation.personalQuotaAnalytics.inProgress	进行中
+translation.personalQuotaAnalytics.loadError	无法加载你的个人分析。
+translation.personalQuotaAnalytics.retry	重试
+translation.personalQuotaAnalytics.onDemandSpend	按需花费
+translation.personalQuotaAnalytics.onDemandDescription	你在 Devin Cloud、Desktop 和 CLI 上的按需花费。
+translation.personalQuotaAnalytics.cycleTotal	周期总计
+translation.personalQuotaAnalytics.noOnDemandUsage	此期间无按需用量。
+translation.consumption.acuLimitDialog.cancel	取消
+translation.consumption.acuLimitDialog.description_one	设置所选组织每月可使用的最大 ACU 数
+translation.consumption.acuLimitDialog.description_other	设置所选 {{count}} 个组织每月可使用的最大 ACU 数
+translation.consumption.acuLimitDialog.errorToast_one	更新 {{count}} 个组织的 ACU 上限失败
+translation.consumption.acuLimitDialog.errorToast_other	更新 {{count}} 个组织的 ACU 上限失败
+translation.consumption.acuLimitDialog.loadingToast_one	正在更新 {{count}} 个组织的 ACU 上限...
+translation.consumption.acuLimitDialog.loadingToast_other	正在更新 {{count}} 个组织的 ACU 上限...
+translation.consumption.acuLimitDialog.noLimit	无上限
+translation.consumption.acuLimitDialog.successToast_one	已成功更新 {{count}} 个组织的 ACU 上限
+translation.consumption.acuLimitDialog.successToast_other	已成功更新 {{count}} 个组织的 ACU 上限
+translation.consumption.acuLimitDialog.title	更新 ACU 上限
+translation.consumption.cyclePeriod.current.month	本月
+translation.consumption.cyclePeriod.current.quarter	本季度
+translation.consumption.cyclePeriod.current.halfYear	本半年
+translation.consumption.cyclePeriod.current.year	本年
+translation.consumption.cyclePeriod.current.cycle	本周期
+translation.consumption.cyclePeriod.previous.month	上月
+translation.consumption.cyclePeriod.previous.quarter	上季度
+translation.consumption.cyclePeriod.previous.halfYear	上半年
+translation.consumption.cyclePeriod.previous.year	上年
+translation.consumption.cyclePeriod.previous.cycle	上周期
+translation.consumption.cyclePeriod.currentBilling.month	当前计费月
+translation.consumption.cyclePeriod.currentBilling.quarter	当前计费季度
+translation.consumption.cyclePeriod.currentBilling.halfYear	当前计费半年
+translation.consumption.cyclePeriod.currentBilling.year	当前计费年
+translation.consumption.cyclePeriod.currentBilling.cycle	当前计费周期
+translation.consumption.cyclePeriod.currentDates.month	本月日期
+translation.consumption.cyclePeriod.currentDates.quarter	本季度日期
+translation.consumption.cyclePeriod.currentDates.halfYear	本半年日期
+translation.consumption.cyclePeriod.currentDates.year	本年日期
+translation.consumption.cyclePeriod.currentDates.cycle	本周期日期
+translation.consumption.cyclePeriod.historical.month	历史月份
+translation.consumption.cyclePeriod.historical.quarter	历史季度
+translation.consumption.cyclePeriod.historical.halfYear	历史半年
+translation.consumption.cyclePeriod.historical.year	历史年份
+translation.consumption.cyclePeriod.historical.cycle	历史周期
+translation.consumption.cyclePeriod.capacityShare.month	本月额度的 {{percent}}%
+translation.consumption.cyclePeriod.capacityShare.quarter	本季度额度的 {{percent}}%
+translation.consumption.cyclePeriod.capacityShare.halfYear	本半年额度的 {{percent}}%
+translation.consumption.cyclePeriod.capacityShare.year	本年份度的 {{percent}}%
+translation.consumption.cyclePeriod.capacityShare.cycle	本周期额度的 {{percent}}%
+translation.consumption.cyclePeriod.reviewJobs.month	本月 PR 评审任务（{{range}}）
+translation.consumption.cyclePeriod.reviewJobs.quarter	本季度 PR 评审任务（{{range}}）
+translation.consumption.cyclePeriod.reviewJobs.halfYear	本半年 PR 评审任务（{{range}}）
+translation.consumption.cyclePeriod.reviewJobs.year	本年 PR 评审任务（{{range}}）
+translation.consumption.cyclePeriod.reviewJobs.cycle	本周期 PR 评审任务（{{range}}）
+translation.consumption.cyclePeriod.topRepos.month	本月按{{noun}}排序的前 {{topN}} 仓库（{{range}}）。其余仓库归入 Other。
+translation.consumption.cyclePeriod.topRepos.quarter	本季度按{{noun}}排序的前 {{topN}} 仓库（{{range}}）。其余仓库归入 Other。
+translation.consumption.cyclePeriod.topRepos.halfYear	本半年按{{noun}}排序的前 {{topN}} 仓库（{{range}}）。其余仓库归入 Other。
+translation.consumption.cyclePeriod.topRepos.year	本年按{{noun}}排序的前 {{topN}} 仓库（{{range}}）。其余仓库归入 Other。
+translation.consumption.cyclePeriod.topRepos.cycle	本周期按{{noun}}排序的前 {{topN}} 仓库（{{range}}）。其余仓库归入 Other。
+translation.consumption.cyclePeriod.crossUnitTitle.month	此日期范围跨越以不同单位计量的计费月
+translation.consumption.cyclePeriod.crossUnitTitle.quarter	此日期范围跨越以不同单位计量的计费季度
+translation.consumption.cyclePeriod.crossUnitTitle.halfYear	此日期范围跨越以不同单位计量的计费半年
+translation.consumption.cyclePeriod.crossUnitTitle.year	此日期范围跨越以不同单位计量的计费年
+translation.consumption.cyclePeriod.crossUnitTitle.cycle	此日期范围跨越以不同单位计量的计费周期
+translation.consumption.cyclePeriod.crossUnitDescription.month	ACU 和美元用量不能合并。请选单一计费月内的范围。
+translation.consumption.cyclePeriod.crossUnitDescription.quarter	ACU 和美元用量不能合并。请选单一计费季度内的范围。
+translation.consumption.cyclePeriod.crossUnitDescription.halfYear	ACU 和美元用量不能合并。请选单一计费半年内的范围。
+translation.consumption.cyclePeriod.crossUnitDescription.year	ACU 和美元用量不能合并。请选单一计费年内的范围。
+translation.consumption.cyclePeriod.crossUnitDescription.cycle	ACU 和美元用量不能合并。请选单一计费周期内的范围。
+translation.consumption.cycleLegend.beforeLast.cycle	上上个周期
+translation.consumption.cycleLegend.beforeLast.halfYear	上上个半年
+translation.consumption.cycleLegend.beforeLast.month	上上个月
+translation.consumption.cycleLegend.beforeLast.quarter	上上个季度
+translation.consumption.cycleLegend.beforeLast.year	上上年
+translation.consumption.cycleLegend.current.cycle	当前周期
+translation.consumption.cycleLegend.current.halfYear	当前半年
+translation.consumption.cycleLegend.current.month	当前月
+translation.consumption.cycleLegend.current.quarter	当前季度
+translation.consumption.cycleLegend.current.year	当前年
+translation.consumption.cycleLegend.indexed.cycle	周期 {{index}}
+translation.consumption.cycleLegend.indexed.halfYear	半年 {{index}}
+translation.consumption.cycleLegend.indexed.month	月 {{index}}
+translation.consumption.cycleLegend.indexed.quarter	季度 {{index}}
+translation.consumption.cycleLegend.indexed.year	年 {{index}}
+translation.consumption.cycleLegend.previous.cycle	上一周期
+translation.consumption.cycleLegend.previous.halfYear	上一半年
+translation.consumption.cycleLegend.previous.month	上一月
+translation.consumption.cycleLegend.previous.quarter	上一季度
+translation.consumption.cycleLegend.previous.year	上一年
+translation.consumption.acuLimitInput.cannotBeNegative	ACU 上限不能为负
+translation.consumption.acuLimitInput.mustBeWholeNumber	ACU 上限必须是整数
+translation.consumption.spendLimitDialog.description_one	设置所选组织每月可花费的最大金额
+translation.consumption.spendLimitDialog.description_other	设置所选 {{count}} 个组织每月可花费的最大金额
+translation.consumption.spendLimitDialog.errorToast_one	更新 {{count}} 个组织的花费上限失败
+translation.consumption.spendLimitDialog.errorToast_other	更新 {{count}} 个组织的花费上限失败
+translation.consumption.spendLimitDialog.loadingToast_one	正在更新 {{count}} 个组织的花费上限...
+translation.consumption.spendLimitDialog.loadingToast_other	正在更新 {{count}} 个组织的花费上限...
+translation.consumption.spendLimitDialog.successToast_one	已成功更新 {{count}} 个组织的花费上限
+translation.consumption.spendLimitDialog.successToast_other	已成功更新 {{count}} 个组织的花费上限
+translation.consumption.spendLimitDialog.title	更新花费上限
+translation.consumption.dollarLimitInput.cannotBeNegative	美元上限不能为负
+translation.consumption.dollarLimitInput.invalidAmount	请输入最多两位小数的美元金额
+translation.consumption.dollarLimitInput.tooLarge	请输入更小的美元金额
+translation.consumption.acuLimitScope.cloudBadge	仅云端
+translation.consumption.acuLimitScope.cloudLabel	每月云端 ACU 上限
+translation.consumption.acuLimitScope.cloudLimitLegend	云端上限
+translation.consumption.acuLimitScope.cloudLimitLegendTooltip	上限线只覆盖 Devin 会话和 Devin Review，而柱条包含 Devin Desktop 和 Terminal CLI 用量，所以柱条可以超过线而不阻塞组织。
+translation.consumption.acuLimitScope.cloudDescription	仅适用于 Devin 会话和 Devin Review。Devin Desktop 和 Terminal CLI 用量不计入此上限。
+translation.consumption.acuLimitScope.cloudFieldDescription	只计 Devin 会话和 Devin Review，不计 Devin Desktop 或 Terminal CLI
+translation.consumption.acuLimitScope.combinedLabel	每月 ACU 上限
+translation.consumption.acuLimitScope.combinedDescription	适用于所有产品的用量：Devin 会话、Devin Review、Devin Desktop 和 Terminal CLI。
+translation.consumption.acuLimitScope.combinedFieldDescription	计 Devin 会话、Devin Review、Devin Desktop 和 Terminal CLI 的用量
+translation.consumption.acuLimitScope.mixedSelectionWarning	所选组织的上限类型不同：{{cloud}} 个只计 Devin 会话和 Devin Review，{{combined}} 个计所有产品的用量。每个组织以此值作为自己的上限类型
+translation.consumption.acuLimitScope.combinedSpendLabel	每月花费上限
+translation.consumption.csv.currentPeriodHeader	{{metric}} 本期（{{period}}）
+translation.consumption.csv.previousPeriodHeader	{{metric}} 上期（{{period}}）
+translation.consumption.cycleCapacity.column	每月 ACU 上限
+translation.consumption.cycleCapacity.tooltip	当前月度窗口内每组织的 ACU 上限
+translation.consumption.cycleCapacity.tooltip_cloud	当前月度窗口内每组织的云端 ACU 上限。仅适用于 Devin 会话和 Devin Review；Devin Desktop 和 Terminal CLI 用量不计入。
+translation.consumption.cycleCapacity.tooltip_combined	当前月度窗口内每组织跨所有产品的 ACU 上限。
+translation.consumption.monthlyThreshold.cancel	取消
+translation.consumption.monthlyThreshold.current	当前阈值：{{amount}}
+translation.consumption.monthlyThreshold.description_acus	跟踪计费周期内每个月的消耗速度。留空则停用
+translation.consumption.monthlyThreshold.description_dollars	跟踪计费周期内每个月的消耗速度。留空则停用
+translation.consumption.monthlyThreshold.disabledToast	月度阈值已停用
+translation.consumption.monthlyThreshold.errorToast	更新月度阈值失败
+translation.consumption.monthlyThreshold.invalid_acus	请输入有效的非负整数
+translation.consumption.monthlyThreshold.invalid_dollars	请输入有效的非负金额（最多两位小数）
+translation.consumption.monthlyThreshold.loadError	无法加载当前阈值。关闭此对话框后重试
+translation.consumption.monthlyThreshold.label_acus	每月 ACU 阈值
+translation.consumption.monthlyThreshold.label_dollars	每月美元阈值
+translation.consumption.monthlyThreshold.none	当前未设阈值
+translation.consumption.monthlyThreshold.placeholder	未设阈值
+translation.consumption.monthlyThreshold.save	保存
+translation.consumption.monthlyThreshold.saving	保存中...
+translation.consumption.monthlyThreshold.setToast	月度阈值已设为 {{amount}}
+translation.consumption.monthlyThreshold.title	每月警告阈值
+translation.consumption.lastUpdated	更新于 {{time}}
+translation.consumption.personal.byProductTitle.month	本月按产品的 ACU
+translation.consumption.personal.byProductTitle.quarter	本季度按产品的 ACU
+translation.consumption.personal.byProductTitle.halfYear	本半年按产品的 ACU
+translation.consumption.personal.byProductTitle.year	本年按产品的 ACU
+translation.consumption.personal.byProductTitle.cycle	本周期按产品的 ACU
+translation.consumption.personal.byProductDollarsTitle.month	本月按产品的美元
+translation.consumption.personal.byProductDollarsTitle.quarter	本季度按产品的美元
+translation.consumption.personal.byProductDollarsTitle.halfYear	本半年按产品的美元
+translation.consumption.personal.byProductDollarsTitle.year	本年按产品的美元
+translation.consumption.personal.byProductDollarsTitle.cycle	本周期按产品的美元
+translation.consumption.personal.description	了解你如何使用 Devin、跟踪你的 ACU 消耗，并发现更高效工作的机会
+translation.consumption.personal.description_dollars	了解你如何使用 Devin、跟踪你的花费，并发现更高效工作的机会
+translation.consumption.personal.localUsage.title	本地用量
+translation.consumption.personal.localUsage.description	你在 Devin Desktop 和 Devin CLI 中最近 30 天的活动
+translation.consumption.personal.monthlyConsumedLabel	每月消耗 ACU
+translation.consumption.personal.monthlyConsumedLabel_dollars	每月花费
+translation.consumption.personal.monthlyConsumedTooltip	此页面不含 Devin Review 的 ACU。
+translation.consumption.personal.monthlyConsumedTooltip_dollars	按合同 ACU 价格计的云端 Devin 会话，加上你的 Devin Desktop 和 Terminal CLI 花费。此页面不含 Devin Review。
+translation.consumption.personal.bots.title	你的 {{botNamePlural}}
+translation.consumption.personal.bots.mergedPrs	已合并 PR
+translation.consumption.personal.bots.acus	已用 ACU
+translation.consumption.personal.bots.byBot	本周期按 {{botName}} 的 ACU
+translation.consumption.personal.bots.otherBots	其他 {{botNamePlural}}
+translation.consumption.personal.bots.legendEntry_one	{{name}}（{{acus}} ACU，{{count}} 个 PR 已合并）
+translation.consumption.personal.bots.legendEntry_other	{{name}}（{{acus}} ACU，{{count}} 个 PR 已合并）
+translation.consumption.refresh	刷新数据
+translation.consumption.usage.cloudTotalNote_one	总计 {{formattedCount}} ACU，含 Devin Desktop 和 Terminal CLI
+translation.consumption.usage.cloudTotalNote_other	总计 {{formattedCount}} ACU，含 Devin Desktop 和 Terminal CLI
+translation.consumption.usage.overallTowardLimitNote_one	只计每个组织上限适用的用量（{{formattedCount}} ACU）。仅云端上限不含 Devin Desktop 和 Terminal CLI 用量；Review 用量即使不按组织显示也计入。
+translation.consumption.usage.overallTowardLimitNote_other	只计每个组织上限适用的用量（{{formattedCount}} ACU）。仅云端上限不含 Devin Desktop 和 Terminal CLI 用量；Review 用量即使不按组织显示也计入。
+translation.consumption.usage.percentUsed	已用额度的 {{percent}}%（{{consumed}} / {{limit}} ACU）
+translation.consumption.usage.percentUsed_cloud	已用云端额度的 {{percent}}%（{{consumed}} / {{limit}} 云端 ACU）
+translation.consumption.usage.percentUsedOverage	已用额度的 {{percent}}%（{{consumed}} / {{limit}} ACU——超出 {{overage}}）
+translation.consumption.usage.percentUsedOverage_cloud	已用云端额度的 {{percent}}%（{{consumed}} / {{limit}} 云端 ACU——超出 {{overage}}）
+translation.consumption.dashboard.unitDollars	美元
+translation.consumption.dashboard.unitAcus	ACU
+translation.consumption.dashboard.products.devinCloud	Devin 云端
+translation.consumption.dashboard.products.automations	自动化
+translation.consumption.dashboard.products.oncall	Oncall
+translation.consumption.dashboard.products.codeScans	代码扫描
+translation.consumption.dashboard.products.terminalCli	Terminal CLI
+translation.consumption.dashboard.products.aiGateway	AI Gateway
+translation.consumption.dashboard.products.review	Review
+translation.consumption.dashboard.products.ask	Ask
+translation.consumption.dashboard.products.indexing	索引
