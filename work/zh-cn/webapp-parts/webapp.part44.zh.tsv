@@ -1,0 +1,500 @@
+translation.enterpriseUpsell.seatCapTitle	已达成员上限
+translation.enterpriseUpsell.seatCapDescription_one	你的计划限 {{count}} 名成员。
+translation.enterpriseUpsell.seatCapDescription_other	你的计划限 {{count}} 名成员。
+translation.enterpriseUpsell.seatCapCta	升级到 Enterprise 以获得不限席位。
+translation.enterpriseUpsell.seatCapTooltip	升级到 Enterprise 以获得不限席位
+translation.enterpriseUpsell.bookDemo	预约演示
+translation.transcriptPlayground.author	作者
+translation.transcriptPlayground.import	导入
+translation.transcriptPlayground.active	活动：{{name}}
+translation.transcriptPlayground.scenarioJson	场景 JSON
+translation.transcriptPlayground.applyScenario	应用场景
+translation.transcriptPlayground.clear	清除
+translation.transcriptPlayground.importHelp	粘贴规范转录项的 JSON 导出（数组，或 <code>{ items }</code> / <code>{ events }</code>）。条目原样传给渲染器；未知事件类型不渲染。
+translation.transcriptPlayground.importEventsFile	导入事件文件
+translation.transcriptPlayground.importedEventsJson	导入的事件 JSON
+translation.transcriptPlayground.usingFile	正在使用 {{name}}；在此输入可覆盖
+translation.transcriptPlayground.loadEvents	加载事件
+translation.contextMap.tree.expand	展开
+translation.contextMap.tree.collapse	折叠
+translation.contextMap.tree.mapTree	映射树
+translation.contextMap.graph.needsRegen	需要重新生成
+translation.contextMap.graph.openParts	打开 · {{n}} 个部分
+translation.contextMap.graph.readThisFirst	先读这个
+translation.contextMap.graph.legend	卡片按阅读顺序编号——悬停一张可高亮其连接。
+translation.contextMap.detail.repoRoot	（仓库根）
+translation.contextMap.detail.openInRepository	在仓库中打开
+translation.contextMap.detail.loadPathFailed	无法从仓库加载此路径
+translation.contextMap.detail.truncated	…（已截断）
+translation.contextMap.detail.connectsTo	连接到
+translation.contextMap.detail.mappingFailed	此节点映射失败；请重新运行映射工作流再依赖它。
+translation.contextMap.detail.mappedAt	映射于 {{when}}
+translation.contextMap.detail.connections	连接
+translation.contextMap.detail.outgoingTo	出向到
+translation.contextMap.detail.incomingFrom	入向自
+translation.contextMap.detail.subComponents	子组件
+translation.contextMap.detail.referenceCode	参考代码
+translation.contextMap.file.sameOriginRequired	来源必须是同源路径
+translation.contextMap.file.waitingFor	等待 {{url}}…
+translation.contextMap.file.loadFailedHttp	无法加载 {{url}}（HTTP {{status}}）
+translation.contextMap.file.invalidTree	不是有效的 Atlas 树文件（应有 rootId + nodes）
+translation.contextMap.file.loadFailed	无法加载文件
+translation.contextMap.list.title	Devin Atlas
+translation.contextMap.list.subtitle	由 COBOL 迁移 playbook 生成的代码库概念地图——读一张建立心智模型，再深入你关心的部分。
+translation.contextMap.list.keepInStorageFailed	无法将地图保留在浏览器存储中；重新加载后会丢失
+translation.contextMap.list.loadFailed	无法加载 atlas 地图
+translation.contextMap.list.version	v{{version}}
+translation.contextMap.list.empty	还没有已保存的地图——运行 COBOL 迁移 playbook，或在下方打开一个树文件。
+translation.contextMap.list.openTreeFile	打开一个树文件——在此浏览器会话中查看工作流的 Atlas 产物，不保存
+translation.contextMap.list.chooseFile	选择文件…
+translation.contextMap.list.openLoadedFile	打开已加载文件：{{name}}
+translation.contextMap.list.clear	清除
+translation.contextMap.viewer.noRepositoryName	此文件没有仓库名；无法保存
+translation.contextMap.viewer.importFailed	无法导入树
+translation.contextMap.viewer.createFailed	无法创建地图
+translation.contextMap.viewer.connectingTo	正在连接 {{url}}…
+translation.contextMap.viewer.statusWithBackLink	{{status}} — <backLink>返回所有地图</backLink>
+translation.contextMap.viewer.noFileLoaded	此会话没有加载地图文件
+translation.contextMap.viewer.loadFailed	无法加载此地图
+translation.contextMap.viewer.atlas	Atlas
+translation.contextMap.viewer.followingFile	正在跟踪 {{url}}；文件变化时地图会刷新（只读）
+translation.contextMap.viewer.loadedFromFile	从此浏览器会话中的文件加载（只读）
+translation.contextMap.viewer.loadedFromDatabase	从数据库加载
+translation.contextMap.viewer.sourceLive	实时
+translation.contextMap.viewer.sourceLiveStale	实时（已滞后）
+translation.contextMap.viewer.sourceFile	文件
+translation.contextMap.viewer.sourceVersion	v{{version}}
+translation.contextMap.viewer.nodeCount_one	{{count}} 个节点
+translation.contextMap.viewer.nodeCount_other	{{count}} 个节点
+translation.contextMap.viewer.downloadTree	下载树
+translation.contextMap.viewer.saving	保存中…
+translation.contextMap.viewer.saveToDatabase	保存到数据库
+translation.contextMap.viewer.search	搜索
+translation.contextMap.viewer.ctrlKey	Ctrl
+translation.contextMap.viewer.kKey	K
+translation.contextMap.viewer.jumpTitle	跳转到组件
+translation.contextMap.viewer.jumpDescription	按标题或摘要搜索地图节点
+translation.contextMap.viewer.jumpPlaceholder	跳转到组件…
+translation.contextMap.viewer.noMatches	没有匹配的组件
+translation.designSystemRail.onThisPage	本页内容
+translation.platformBadge.runsOn	此会话运行在 {{label}}
+translation.githubSettings.autoJoin.label	允许队友自动加入账户
+translation.githubSettings.autoJoin.description	允许你已连接 GitHub 组织的成员无需等待批准即可加入
+translation.githubSettings.autoJoin.adminsOnly	只有管理员可以更改此设置。
+translation.gateway.deploy.tenantPlaceholder	acme
+translation.enterpriseMcp.management.searchPlaceholder	按 MCP 名称搜索
+translation.enterpriseMcp.management.allOrganizations	所有组织
+translation.enterpriseMcp.management.searchOrganizations	搜索组织…
+translation.enterpriseMcp.management.noOrganizations	未找到组织。
+translation.enterpriseMcp.management.organizationsCount_one	{{count}} 个组织
+translation.enterpriseMcp.management.organizationsCount_other	{{count}} 个组织
+translation.enterpriseMcp.management.loadError	加载 MCP 服务器出错
+translation.enterpriseMcp.servers.title	企业 MCP 服务器
+translation.enterpriseMcp.servers.description	为企业配置一次并共享给你选择的组织的 MCP 服务器。
+translation.enterpriseMcp.servers.add	企业 MCP 服务器
+translation.enterpriseMcp.servers.loadError	加载企业 MCP 服务器出错
+translation.enterpriseMcp.servers.loading	加载中…
+translation.enterpriseMcp.servers.empty	还没有企业 MCP 服务器。添加一个使其可用于你的组织。
+translation.enterpriseMcp.servers.badge	企业 MCP 服务器
+translation.enterpriseMcp.servers.edit	编辑服务器
+translation.enterpriseMcp.servers.delete	删除服务器
+translation.enterpriseMcp.servers.deleteConfirm	删除
+translation.enterpriseMcp.servers.deleteTitle	删除企业 MCP 服务器
+translation.enterpriseMcp.servers.deleteDescription	这将从所有目标组织移除「{{name}}」。安装了自己副本的组织会保留它。
+translation.enterpriseMcp.servers.andMore	{{shown}} 以及另外 {{count}} 个
+translation.enterpriseMcp.servers.allOrganizations	所有组织
+translation.enterpriseMcp.servers.allOrganizationsExcept	除 {{names}} 外的所有组织
+translation.enterpriseMcp.servers.defaultEnabled	默认启用
+translation.enterpriseMcp.servers.notShared	未共享
+translation.enterpriseMcp.servers.organizationsCount_one	{{count}} 个组织
+translation.enterpriseMcp.servers.organizationsCount_other	{{count}} 个组织
+translation.enterpriseMcp.servers.viewAllOrganizations	查看全部
+translation.enterpriseMcp.servers.sharedWithOrganizations_one	共享给 {{count}} 个组织
+translation.enterpriseMcp.servers.sharedWithOrganizations_other	共享给 {{count}} 个组织
+translation.enterpriseMcp.servers.excludedOrganizations_one	{{count}} 个被排除的组织
+translation.enterpriseMcp.servers.excludedOrganizations_other	{{count}} 个被排除的组织
+translation.enterpriseMcp.servers.onlyOrganizations	仅 {{names, list}}
+translation.enterpriseMcp.servers.allOrganizationsExceptList	除 {{names, list}} 外的所有组织
+translation.enterpriseMcp.servers.moreOrganizations_one	另外 {{count}} 个
+translation.enterpriseMcp.servers.moreOrganizations_other	另外 {{count}} 个
+translation.patInventory.searchPlaceholder	按名称或所有者搜索
+translation.patInventory.status.active	活跃
+translation.patInventory.status.revoked	已撤销
+translation.patInventory.status.expired	已过期
+translation.patInventory.status.all	全部
+translation.patInventory.filterByStatus	按状态筛选 personal access token
+translation.patInventory.columns.name	名称
+translation.patInventory.columns.owner	所有者
+translation.patInventory.columns.created	创建时间
+translation.patInventory.columns.expires	过期时间
+translation.patInventory.columns.status	状态
+translation.patInventory.never	永不
+translation.patInventory.revokeToken	撤销令牌
+translation.patInventory.empty	未找到凭据。
+translation.patInventory.revokeTitle	撤销「{{name}}」？
+translation.patInventory.revokeDescription	此令牌将立即停止工作。此操作无法撤销。
+translation.patInventory.revoke	撤销
+translation.slashCommands.editTitle	编辑斜杠命令
+translation.slashCommands.createTitle	创建斜杠命令
+translation.slashCommands.commandName	命令名
+translation.slashCommands.commandPlaceholder	my-command
+translation.slashCommands.duplicate	同名命令已存在
+translation.slashCommands.invalidFormat	命令必须以字母开头，且只含字母、数字和连字符
+translation.slashCommands.description	描述
+translation.slashCommands.descriptionPlaceholder	此命令作用的简短描述
+translation.slashCommands.prompt	提示词
+translation.slashCommands.promptPlaceholder	使用此命令时插入的文本
+translation.slashCommands.saving	保存中…
+translation.slashCommands.saveChanges	保存
+translation.slashCommands.create	创建
+translation.slashCommands.title	命令
+translation.slashCommands.sectionDescription	聊天输入框的自定义命令。输入 / 查看可用命令
+translation.slashCommands.empty	未配置命令
+translation.slashCommands.addCommand	添加命令
+translation.slashCommands.deleteConfirm	删除命令
+translation.slashCommands.deleteTitle	删除斜杠命令？
+translation.slashCommands.deleteDescription	确定要删除「{{command}}」命令吗？
+translation.enterpriseApiKeys.table.name	名称
+translation.enterpriseApiKeys.table.unknown	未知
+translation.enterpriseApiKeys.table.organization	组织
+translation.enterpriseApiKeys.table.type	类型
+translation.enterpriseApiKeys.table.typeOrganization	组织
+translation.enterpriseApiKeys.table.typeUser	用户
+translation.enterpriseApiKeys.table.created	创建时间
+translation.enterpriseApiKeys.table.revoke	撤销 API key
+translation.enterpriseApiKeys.table.loading	正在加载 API key…
+translation.enterpriseApiKeys.table.emptyTitle	还没有 API key
+translation.enterpriseApiKeys.table.emptyDescription	开通一个服务密钥后会列在这里。
+translation.enterpriseApiKeys.table.updating	更新中…
+translation.enterpriseApiKeys.table.noResults	未找到 API key。
+translation.enterpriseApiKeys.page.allOrganizations	所有组织
+translation.enterpriseApiKeys.page.revokeFailed	撤销 API key 失败
+translation.enterpriseApiKeys.page.selectOrganization	请选择一个组织
+translation.enterpriseApiKeys.page.unknownOrganization	未知组织
+translation.enterpriseApiKeys.page.provisionSuccess	服务密钥开通成功
+translation.enterpriseApiKeys.page.provisionFailed	开通服务密钥失败
+translation.enterpriseApiKeys.page.searchKeys	搜索密钥
+translation.enterpriseApiKeys.page.searchPlaceholder	搜索…
+translation.enterpriseApiKeys.page.revokeAll	撤销所有 API key
+translation.enterpriseApiKeys.page.provisionServiceKey	开通服务密钥
+translation.enterpriseApiKeys.page.provisionTitle	开通服务 API key
+translation.enterpriseApiKeys.page.provisionDescription	选择一个组织为其开通服务 API key。每个组织同时只能有一个服务密钥。
+translation.enterpriseApiKeys.page.selectOption	选择选项…
+translation.enterpriseApiKeys.page.noResults	未找到结果。
+translation.enterpriseApiKeys.page.provisioning	开通中…
+translation.enterpriseApiKeys.page.provisionKey	开通密钥
+translation.enterpriseApiKeys.page.revokeAllTitle	撤销所有 API key？
+translation.enterpriseApiKeys.page.revokeAllDescription	这将撤销整个企业内所有活跃的 API key。此操作无法撤销。
+translation.enterpriseApiKeys.page.revokeAllConfirm	全部撤销
+translation.enterpriseApiKeys.page.alreadyHasServiceKey	已有服务密钥
+translation.provisionedTokenModal.forService	用于：{{serviceName}}（{{scope}}）
+translation.provisionedTokenModal.enterpriseScope	企业
+translation.provisionedTokenModal.token	令牌
+translation.provisionedTokenModal.copied	已复制！
+translation.provisionedTokenModal.copyToken	复制令牌
+translation.provisionedTokenModal.copyCommand	复制命令
+translation.provisionedTokenModal.securityNoticeTitle	重要安全提示
+translation.provisionedTokenModal.saved	我已保存令牌
+translation.pluginEditor.nameNeedsAscii	名称必须至少包含一个字母（a-z）或数字（0-9）。
+translation.pluginEditor.triggerHelp.alwaysOn	在每个会话中应用。
+translation.pluginEditor.triggerHelp.glob	在会话触及匹配文件时应用。
+translation.pluginEditor.triggerHelp.modelDecision	由代理根据描述决定。
+translation.pluginEditor.triggerHelp.manual	仅在明确提及时应用。
+translation.pluginEditor.newSkill	新技能
+translation.pluginEditor.newRule	新规则
+translation.pluginEditor.editSkill	编辑技能
+translation.pluginEditor.editRule	编辑规则
+translation.pluginEditor.advancedEditorHint	想添加更多资源，如脚本或模板？使用<linkTag>高级编辑器</linkTag>。
+translation.pluginEditor.saving	保存中…
+translation.pluginEditor.save	保存
+translation.pluginEditor.discardTitle	放弃未保存的更改？
+translation.pluginEditor.discard	放弃
+translation.pluginEditor.keepEditing	继续编辑
+translation.pluginEditor.deleteTitle	从插件删除
+translation.pluginEditor.deleteDescription	从插件删除「{{label}}」？
+translation.pluginEditor.delete	删除
+translation.pluginEditor.deleteNamed	删除 {{title}}
+translation.pluginEditor.name	名称
+translation.pluginEditor.trigger	触发器
+translation.pluginEditor.selectTrigger	选择规则触发器
+translation.pluginEditor.filePatterns	文件模式
+translation.pluginEditor.filePatternsPlaceholder	src/**/*.ts、*.md
+translation.pluginEditor.instructions	指令
+translation.pluginEditor.content	内容
+translation.pluginEditor.skillBodyPlaceholder	代理应遵循的步骤，markdown 格式。
+translation.pluginEditor.ruleBodyPlaceholder	代理应遵循的指引，markdown 格式。
+translation.pluginEditor.rules	规则
+translation.pluginEditor.noRules	还没有规则。
+translation.pluginEditor.skills	技能
+translation.pluginEditor.noSkills	还没有技能。
+translation.pluginEditor.hooks	Hooks
+translation.pluginEditor.noHooks	还没有 hook。
+translation.pluginEditor.mcpServers	MCP 服务器
+translation.pluginEditor.noMcpServers	没有 MCP 服务器。
+translation.pluginEditor.add	添加
+translation.pluginEditor.edit	编辑
+translation.buildOutpostImages.description	此构建为开启了 blueprint 的 Outpost 池生成的容器镜像。池上的新会话从其镜像启动。
+translation.buildOutpostImages.failed	无镜像
+translation.buildOutpostImages.listBadge	Outpost
+translation.buildOutpostImages.listBadgeTooltip	也为 {{pools, list}} 构建了容器镜像
+translation.buildOutpostImages.pushed	已推送
+translation.buildOutpostImages.title	Outpost 镜像
+translation.buildOutpostImages.unknownFailure	构建未为此 outpost 产生镜像。
+translation.buildOutpostImages.viewPool	查看 outpost
+translation.buildStatusToast.partial	你最近的环境构建部分完成。
+translation.buildStatusToast.partialShort	构建部分完成。
+translation.buildStatusToast.viewBuildLogs	查看构建日志
+translation.buildStatusToast.inProgress	一个新的环境构建正在进行中。
+translation.buildStatusToast.inProgressShort	构建进行中。
+translation.buildStatusToast.viewProgress	查看进度
+translation.buildStatusToast.view	查看
+translation.comboboxFilter.noOptionsAvailable	没有可用选项
+translation.comboboxFilter.noOptionsFound	未找到选项
+translation.comboboxFilter.search	搜索…
+translation.comboboxFilter.selectOption	选择选项…
+translation.filteredCheckboxList.selectAll	全选 {{label}}（{{count}}）
+translation.commandList.add	添加
+translation.commandList.insertCommand	插入命令
+translation.commandList.setupCommand	Setup 命令
+translation.commandList.placeholder	例：cd ~/path/to/repo && npm install
+translation.commandList.tipHomeDirectory	• 启动命令在主目录运行
+translation.commandList.tipOrder	• 按列出顺序执行
+translation.commandList.tipTimeout	• 每条命令超时 2 分钟
+translation.commandList.startupCommands	启动命令
+translation.commandList.noCommands	没有命令
+translation.reactions.addReaction	添加回应
+translation.reactions.count_one	{{count}} 个回应
+translation.reactions.count_other	{{count}} 个回应
+translation.reactions.summary	回应：{{groups, list(type: unit)}}
+translation.reactions.group	{{emoji}} {{names, list}}
+translation.reactions.others_one	另外 {{count}} 人
+translation.reactions.others_other	另外 {{count}} 人
+translation.reactions.people_one	{{count}} 人
+translation.reactions.people_other	{{count}} 人
+translation.securityThreats.title	威胁
+translation.securityThreats.autoTriageOn	自动分诊开
+translation.securityThreats.autoTriageOff	自动分诊关
+translation.securityThreats.autoTriageTitle	自动分诊
+translation.securityThreats.autoTriageDescription	新威胁发布时自动扫描你的仓库。
+translation.securityThreats.autoTriageSeverity	最低严重度
+translation.securityThreats.autoTriageSeverityAny	任何严重度
+translation.securityThreats.autoTriageSeverityLow	低及以上
+translation.securityThreats.autoTriageSeverityMedium	中及以上
+translation.securityThreats.autoTriageSeverityHigh	高及以上
+translation.securityThreats.autoTriageSeverityCritical	仅严重
+translation.securityThreats.autoTriageSave	保存
+translation.securityThreats.autoTriageAutomationName	威胁自动分诊
+translation.securityThreats.loadFailed	无法加载威胁。
+translation.securityThreats.newThreat	新建威胁
+translation.securityThreats.createTitle	新建威胁
+translation.securityThreats.titleLabel	标题
+translation.securityThreats.titleRequired	需要标题
+translation.securityThreats.titlePlaceholder	威胁是什么？
+translation.securityThreats.descriptionLabel	描述
+translation.securityThreats.descriptionPlaceholder	可能发生什么、如何发生？
+translation.securityThreats.create	创建
+translation.securityThreats.cancel	取消
+translation.securityThreats.createFailed	无法创建威胁
+translation.securityThreats.findingCount_one	{{count}} 个发现项
+translation.securityThreats.findingCount_other	{{count}} 个发现项
+translation.securityThreats.scanCount_one	{{count}} 次扫描
+translation.securityThreats.scanCount_other	{{count}} 次扫描
+translation.securityThreats.findingsNotScanned	未扫描
+translation.securityThreats.findingsNoneAfterScans_one	0（已运行 {{count}} 次扫描）
+translation.securityThreats.findingsNoneAfterScans_other	0（已运行 {{count}} 次扫描）
+translation.securityThreats.scansLoadFailed	无法加载扫描
+translation.securityThreats.linkButton	威胁
+translation.securityThreats.linked	已链接到 {{title}}
+translation.securityThreats.linkFailed	无法链接发现项
+translation.securityThreats.unlink	从威胁移除
+translation.securityThreats.unlinked	已从 {{title}} 移除
+translation.securityThreats.unlinkFailed	无法从威胁移除发现项
+translation.securityThreats.fromCognition	Cognition
+translation.securityThreats.focusTitle	聚焦威胁
+translation.securityThreats.focusSelected_one	已选 1 个威胁
+translation.securityThreats.focusSelected_other	已选 {{count}} 个威胁
+translation.securityThreats.focusDescription	将 Devin 的搜索限制在你选择的威胁
+translation.securityThreats.focusCount_one	1 个威胁
+translation.securityThreats.focusCount_other	{{count}} 个威胁
+translation.securityThreats.focusSearch	搜索威胁
+translation.securityThreats.focusEmpty	未找到威胁
+translation.securityThreats.focusRequiresNormal	深度扫描只能聚焦来自 Cognition 的威胁。
+translation.securityThreats.dismiss	驳回
+translation.securityThreats.edit	编辑
+translation.securityThreats.editTitle	编辑威胁
+translation.securityThreats.save	保存
+translation.securityThreats.updateFailed	无法更新威胁
+translation.securityThreats.movedDismissed_one	已驳回 {{count}} 个威胁
+translation.securityThreats.movedDismissed_other	已驳回 {{count}} 个威胁
+translation.securityThreats.movedMitigated_one	已将 {{count}} 个威胁标为已缓解
+translation.securityThreats.movedMitigated_other	已将 {{count}} 个威胁标为已缓解
+translation.securityThreats.movedReopened_one	已重新打开 {{count}} 个威胁
+translation.securityThreats.movedReopened_other	已重新打开 {{count}} 个威胁
+translation.securityThreats.noPermission	你没有更改威胁的权限
+translation.securityThreats.tabActive	活跃
+translation.securityThreats.tabMitigated	已缓解
+translation.securityThreats.tabDismissed	已驳回
+translation.securityThreats.colStatus	状态
+translation.securityThreats.colFindings	发现项
+translation.securityThreats.colAdded	添加时间
+translation.securityThreats.colSource	来源
+translation.securityThreats.sourceTeam	你的团队
+translation.securityThreats.statusOpen	待处理
+translation.securityThreats.statusInvestigating	调查中
+translation.securityThreats.statusMitigated	已缓解
+translation.securityThreats.statusDismissed	已驳回
+translation.securityThreats.markMitigated	标为已缓解
+translation.securityThreats.reopen	重新打开
+translation.securityThreats.threatActions	威胁操作
+translation.securityThreats.detailTitle	威胁详情
+translation.securityThreats.createdAtUtc	创建于 {{date}} UTC
+translation.securityThreats.copyLink	复制链接
+translation.securityThreats.moreActions	更多操作
+translation.securityThreats.scanWithDevin	用 Devin 扫描
+translation.securityThreats.tabSummary	摘要
+translation.securityThreats.viewFindings	查看发现项
+translation.securityThreats.whatThisMeans	这意味着什么
+translation.securityThreats.noDescription	无描述。
+translation.securityThreats.noMatchesTitle	没有匹配这些筛选的威胁
+translation.securityThreats.noMatchesDescription	试试移除筛选或更改搜索。
+translation.securityThreats.emptyActiveTitle	没有活跃威胁
+translation.securityThreats.emptyActiveDescription	来自 Cognition 的威胁和你创建的会出现在这里。
+translation.securityThreats.emptyMitigatedTitle	没有已缓解的威胁
+translation.securityThreats.emptyMitigatedDescription	你解决的威胁会出现在这里。
+translation.securityThreats.emptyDismissedTitle	没有已驳回的威胁
+translation.securityThreats.emptyDismissedDescription	你驳回的威胁会出现在这里。
+translation.messageRewriter.title	消息重写器
+translation.messageRewriter.description	粘贴一个 Devin 消息链接。它周围可见的聊天内容（向上到前 3 条用户消息，worklog 折叠）会被拉入，消息会被每个阶段依次重写。
+translation.messageRewriter.linkLabel	消息链接
+translation.messageRewriter.linkPlaceholder	https://app.devin.ai/sessions/…?event=…
+translation.messageRewriter.load	加载
+translation.messageRewriter.contextIncomplete	会话的更早用户消息不足 3 条或对话不足 2000 字符，所以上下文从会话开头开始。
+translation.messageRewriter.source	源
+translation.messageRewriter.output	输出
+translation.messageRewriter.contextLabel	到目前为止的对话
+translation.messageRewriter.contextDescription	更早的用户和 Devin 消息，最早在前
+translation.messageRewriter.contextPlaceholder	回合前的用户和 Devin 消息，最早在前。从链接加载，或粘贴你自己的。
+translation.messageRewriter.messageLabel	Devin 的回合
+translation.messageRewriter.messageDescription	自最后一条用户消息以来 Devin 的消息，被每个阶段重写
+translation.messageRewriter.messagePlaceholder	自最后一条用户消息以来 Devin 的消息。这是被重写的对象。
+translation.messageRewriter.attachmentCount_one	{{count}} 个附件
+translation.messageRewriter.attachmentCount_other	{{count}} 个附件
+translation.messageRewriter.stageId	阶段
+translation.messageRewriter.stageModel	模型
+translation.messageRewriter.stagePrompt	提示词
+translation.messageRewriter.stagePromptPlaceholder	此阶段应对读到的文本做什么
+translation.messageRewriter.addStage	添加阶段
+translation.messageRewriter.removeStage	移除阶段
+translation.messageRewriter.runPipeline	运行管线
+translation.messageRewriter.runAgain	再运行一次
+translation.messageRewriter.running	运行中 {{done}}/{{total}}
+translation.messageRewriter.runSummary_one	{{count}} 个阶段 · {{duration}}
+translation.messageRewriter.runSummary_other	{{count}} 个阶段 · {{duration}}
+translation.messageRewriter.runFailed	运行失败
+translation.messageRewriter.error	出了点问题：{{detail}}
+translation.messageRewriter.rerunStage	重新运行此阶段
+translation.messageRewriter.inlineRewrite	内联重写我的 Devin 消息
+translation.messageRewriter.publishDefault	发布为所有人的默认
+translation.messageRewriter.publishing	发布中
+translation.messageRewriter.published	已发布为所有人的默认
+translation.messageRewriter.publishFailed	发布失败
+translation.messageRewriter.resetStages	重置阶段为默认
+translation.messageRewriter.pipeline	管线
+translation.messageRewriter.pipelineActions	管线操作
+translation.messageRewriter.defaultPipeline	{{name}}（默认）
+translation.messageRewriter.setDefault	设为默认
+translation.messageRewriter.deletePipeline	删除管线
+translation.messageRewriter.newPipelineName	名称
+translation.messageRewriter.saveAsNew	另存为新管线
+translation.messageRewriter.saveAsNewDescription	以新名称把当前阶段保存在此浏览器中
+translation.messageRewriter.save	保存
+translation.messageRewriter.cancel	取消
+translation.messageRewriter.rewriteAction	用默认管线重写
+translation.messageRewriter.stageInput	输入
+translation.messageRewriter.inputDefault	默认
+translation.messageRewriter.inputCustom	自定义
+translation.messageRewriter.stageInputHelp	留空使用框中所示布局。占位符：{{fillIns}}。{{draftFillIn}} 是上一阶段的输出，{{stageFillIn}} 是按名称引用的某个更早阶段的输出。
+translation.messageRewriter.saving	保存中…
+translation.messageRewriter.saved	已保存在此浏览器
+translation.messageRewriter.preview	重写后的消息
+translation.messageRewriter.changes	与原文的差异
+translation.messageRewriter.diffMode	以何种方式显示差异
+translation.messageRewriter.diffModeDiff	Diff
+translation.messageRewriter.diffModePlain	平铺
+translation.messageRewriter.rewrittenFromScratch	差异太大无法 diff
+translation.messageRewriter.rewrittenFromScratchHelp	重写保留了原文不到一半的词，所以无法逐词比较。原文在下方。
+translation.messageRewriter.original	原文
+translation.messageRewriter.emptyOutputTitle	还没有输出
+translation.messageRewriter.emptyOutputDescription	加载一条消息并运行管线。重写后的消息会像在会话中一样显示在这里，并附与原文的差异。
+translation.messageRewriter.exportPipelines	导出管线
+translation.messageRewriter.importPipelines	导入管线
+translation.messageRewriter.importFailed	该文件不是管线导出。
+translation.messageRewriter.dragStage	拖拽排序
+translation.messageRewriter.stageOutput	输出
+translation.messageRewriter.attachmentsKept_one	保留 {{count}} 个
+translation.messageRewriter.attachmentsKept_other	保留 {{count}} 个
+translation.messageRewriter.attachmentsNoneKept	附件步骤未保留任何内容。
+translation.messageRewriter.stageRequest	发送给 {{model}}
+translation.messageRewriter.stageRequestPrompt	提示词（系统消息）
+translation.messageRewriter.stageRequestInput	输入（用户消息）
+translation.messageRewriter.stale	已过时
+translation.messageRewriter.defaultInputsTitle	默认输入
+translation.messageRewriter.defaultFirstInput	第一阶段
+translation.messageRewriter.defaultLaterInput	后续阶段
+translation.messageRewriter.defaultInputsHelp	输入框为空的阶段读取这些。清空一个即回到内置布局。
+translation.messageRewriter.attachmentStage	附件
+translation.messageRewriter.attachmentStageSubtitle	当回合有附件时最先运行，挑选要保留的附件
+translation.messageRewriter.attachmentsSkipped	已跳过
+translation.messageRewriter.attachmentStageHelp	文本阶段看到的 Devin 消息不含附件。保留的附件附加在最后一条消息之后，阶段可以用 {{fillIn}} 读取它们。
+translation.acpHandoff.connecting	正在连接 Devin
+translation.acpHandoff.gatheringContext	正在为交接收集上下文
+translation.acpHandoff.creatingSession	正在创建 Devin 会话
+translation.acpHandoff.creatingSessionOnPlatform	正在创建 Devin（{{platform}}）会话
+translation.acpHandoff.handingOffToLocal	正在交接给本地
+translation.acpHandoff.doneTitle	已交接给云端 Devin 会话
+translation.acpHandoff.openSession	打开会话
+translation.acpHandoff.failedTitle	交接失败
+translation.agentProfiles.create	创建 agent 配置文件
+translation.agentProfiles.searchPlaceholder	搜索 agent 配置文件
+translation.agentProfiles.noSearchResults	没有匹配你搜索的 agent 配置文件
+translation.agentProfiles.pageDescription	会话可以触达什么以及如何被保护。
+translation.agentProfiles.definitionColumn	定义
+translation.agentProfiles.resourcesColumn	资源
+translation.agentProfiles.allResources	全部
+translation.agentProfiles.sheetDescription	设置此配置文件上的会话可以触达什么以及如何被保护
+translation.agentProfiles.viewOnlyDescription	你可以查看此配置文件但不能更改它
+translation.agentProfiles.name	名称
+translation.agentProfiles.nameRequired	需要配置文件名
+translation.agentProfiles.environment	默认环境
+translation.agentProfiles.securityProfile	安全配置文件
+translation.agentProfiles.unavailable	无访问权
+translation.agentProfiles.saveError	无法保存配置文件
+translation.agentProfiles.loadError	无法加载 agent 配置文件。
+translation.agentProfiles.retry	重试
+translation.agentProfiles.emptyTitle	没有 agent 配置文件
+translation.agentProfiles.emptyDescription	配置文件设定安全配置文件以及对仓库、MCP 服务器、插件和机密的限制。
+translation.agentProfiles.actions	配置文件操作
+translation.agentProfiles.edit	编辑
+translation.agentProfiles.view	查看
+translation.agentProfiles.share	共享
+translation.agentProfiles.delete	删除
+translation.agentProfiles.deleteTitle	删除 {{name}}？
+translation.agentProfiles.deleteDescription	新会话无法使用它。运行中的会话保留其限制。
+translation.agentProfiles.picker.none	无配置文件
+translation.agentProfiles.picker.manage	管理配置文件
+translation.agentProfiles.picker.securitySetBy	由 {{name}} 设定
+translation.agentProfiles.picker.addToSession	添加到此会话…
+translation.agentProfiles.session.scopeDescription	会话的配置文件允许的内容。其所有者无权访问的项会被标记。
+translation.agentProfiles.session.allOwnerHas	所有者可用的全部
+translation.agentProfiles.session.noEnvironment	默认
+translation.agentProfiles.session.inCollections	其集合中的内容
+translation.agentProfiles.session.addedToSession	已添加到此会话
+translation.agentProfiles.access.searchPlaceholder	搜索人员、组和服务用户
+translation.agentProfiles.access.canUse	可使用
+translation.agentProfiles.access.canConfigure	可编辑
+translation.agentProfiles.access.canShare	可共享
+translation.agentProfiles.access.useVerb	使用
+translation.agentProfiles.access.configureVerb	编辑
+translation.agentProfiles.access.shareVerb	共享
+translation.agentProfiles.access.canUseDescription	可在此配置文件下启动会话
+translation.agentProfiles.access.canConfigureDescription	可更改此配置文件的设置
