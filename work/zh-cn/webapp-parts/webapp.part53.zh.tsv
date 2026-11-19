@@ -1,0 +1,10 @@
+review.inbox.queueEmpty	没有等待你评审的拉取请求。
+review.inbox.authoredEmpty	你没有打开的拉取请求。
+review.inbox.loadMore	加载更多
+review.inbox.noReadySuggestions	没有可快速评审的建议。你的评审请求在下方。
+review.inbox.changesSinceReview	自 Devin 分析以来的变更
+review.inbox.latestChanges	最新 PR 变更
+review.inbox.reviewRunning	Devin 正在分析这些变更。
+review.inbox.showNewAnalysis	显示新分析
+review.inbox.noFileChanges	此 diff 中没有文件变更。
+review.inbox.openFullPr	打开完整 PR。

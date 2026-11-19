@@ -403,6 +403,7 @@ translation.budgets.allocationResetsAt	于 {{time}} 重置
 translation.budgets.allocationResetsMonthly	在下一个月度周期开始时重置。
 translation.budgets.allocationDescription	设置此预算的每月用量分配。
 translation.budgets.allocationDescriptionCycle	设置此预算的每月用量分配。
+本周期：{{start}} – {{end}}
 translation.budgets.permanentAllocationHelp	留空表示无上限。
 translation.budgets.temporaryAllocationHelp	仅适用于当前月度窗口。留空则清除。
 translation.budgets.addOrganization	添加组织
