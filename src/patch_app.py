@@ -323,6 +323,9 @@ def cmd_apply(a):
         path = os.path.join(app, rel)
         if not os.path.exists(path):
             print("skip missing", rel); continue
+        # idempotent: restore pristine before re-patching so needles don't
+        # get wrapped inside previously injected expressions
+        restore(path)
         backup(path)
         n, msg = patch_bundle(path, res_inject, lit_dict)
         print(" ", rel, "->", msg, f"({n} patches)")
