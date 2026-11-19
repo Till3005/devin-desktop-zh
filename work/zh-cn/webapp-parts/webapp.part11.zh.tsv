@@ -1,0 +1,500 @@
+translation.billing.outOfFreeCredits	你的免费额度已用完。请订阅以继续使用 Devin
+translation.billing.freeCreditsGateToast	你已用完 100% 的免费额度。订阅以继续使用 Devin。
+translation.billing.outOfQuotaPaidDescription	已超用量配额且按需用量已用尽。详见用量设置。
+translation.billing.teamAutoReloadRequiredTitle	请启用自动充值以使用 Devin
+translation.billing.teamAutoReloadAskAdminTitle	请计费管理员启用自动充值
+translation.billing.teamAutoReloadDescription	自动充值会在团队共享的按需额度不足时补足。
+translation.billing.teamAutoReloadOpenSettings	打开设置
+translation.billing.outOfWeeklyQuotaPaidDescription	已超每周用量配额且按需用量已用尽。详见用量设置。
+translation.billing.paymentDeclinedMemberDescription	你组织的最近一笔付款未成功。为保留订阅，管理员需要更新付款信息。如有疑问请联系 <supportLink>support@cognition.ai</supportLink>。
+translation.billing.paymentDeclinedOwnerDescription	你的最近一笔付款失败。要继续使用 Devin，请更新付款信息。如有疑问请联系 <supportLink>support@cognition.ai</supportLink>。
+translation.billing.paymentProblemTitle	你的付款出现问题
+translation.billing.renewPaidDescription	你当前没有生效的 Devin 计划。请订阅或购买额度以使用 Devin
+translation.billing.scoreboardNoDataYet	暂无数据
+translation.billing.teamsPlanMemberLimit	至多 100 名成员
+translation.billing.unitAcus	ACU
+translation.billing.unitCredits	额度
+translation.billing.updatePaymentDetails	更新付款信息
+translation.billing.upgradeToTeams	升级到 Teams
+translation.billing.usageLimit.scopesError	无法加载用量
+translation.billing.usageLimit.noLimit	无用量上限
+translation.billing.usageLimit.acusConsumed	已消耗 ACU
+translation.billing.usageLimit.dollarsSpent	已花费
+translation.billing.usageLimit.acusConsumedSince	自 {{date}} 起消耗的 ACU
+translation.billing.usageLimit.dollarsSpentSince	自 {{date}} 起花费
+translation.billing.usageLimit.acusConsumedThisMonth	本月消耗的 ACU
+translation.billing.usageLimit.dollarsSpentThisMonth	本月花费
+translation.billing.usageLimit.exceeded	<status>已超出</status>你的用量上限
+translation.billing.usageLimit.exceededFallback	<status>已超出</status>你的主用量上限——回落到缩减用量
+translation.billing.usageLimit.onPaceToExceed	<status>按当前速率将超出</status>你的用量上限
+translation.billing.usageLimit.onTrack	<status>预计可保持</status>在用量上限内
+translation.billing.usageLimit.automaticIncreases	<status>预计符合</status>自动提高用量上限的条件
+translation.billing.usageLimit.exceededMax	<status>已超出</status>你的最高用量上限
+translation.billing.usageLimit.onPaceToExceedMax	<status>按当前速率将超出</status>你的最高用量上限
+translation.billing.usageLimit.maxCreditLimit	最高额度上限
+translation.billing.usageLimit.maxSpendLimit	最高花费上限
+translation.billing.usageLimit.requestPending	申请处理中
+translation.billing.usageLimit.spendLimit	花费上限
+translation.billing.usageLimit.allBudgets	全部预算
+translation.billing.usageLimit.spentUnit	ACU
+translation.billing.usageLimit.spentUnit_dollars	已花费
+translation.billing.usageLimit.totalSpend	ACU 总计
+translation.billing.usageLimit.totalSpend_dollars	总花费
+translation.billing.usageLimit.spendByBudget	按预算的花费
+translation.billing.usageLimit.spendByBudgetDescription	本周期利用率最高的预算
+translation.billing.usageLimit.spendByBudgetDescriptionRange	本周期利用率最高的预算（{{range}}）
+translation.billing.usageLimit.otherBudgets_one	另有 {{count}} 个预算
+translation.billing.usageLimit.otherBudgets_other	另有 {{count}} 个预算
+translation.billing.usageLimit.budgetUsageWithLimit	{{used}} / {{limit}}（{{pct}}%）
+translation.billing.usageLimit.budgetUsageNoLimit	{{used}}（无上限）
+translation.billing.usageLimit.resetsAt	{{date}} {{time}} 重置
+translation.billing.usageLimit.creditLimit	额度上限
+translation.billing.usageLimit.currentlyUsed	当前已用
+translation.billing.usageLimit.forecastedUsage	预测用量
+translation.billing.usageQuotaExceeded	已超用量配额
+translation.billing.usageRequest.acuAmount_one	{{count}} ACU
+translation.billing.usageRequest.acuAmount_other	{{count}} ACU
+translation.billing.usageRequest.acuLimit	{{limit}} ACU 上限
+translation.billing.usageRequest.acusOver_one	超出 {{count}} ACU
+translation.billing.usageRequest.acusOver_other	超出 {{count}} ACU
+translation.billing.usageRequest.additionalAcus	申请增加的 ACU
+translation.billing.usageRequest.additionalDollars	申请增加的美元
+translation.billing.usageRequest.acuRequest	ACU 申请
+translation.billing.usageRequest.amountOption_one	+{{count}} ACU
+translation.billing.usageRequest.amountOption_other	+{{count}} ACU
+translation.billing.usageRequest.amountOptionTrigger_one	+{{count}} <unit>ACU</unit>
+translation.billing.usageRequest.amountOptionTrigger_other	+{{count}} <unit>ACU</unit>
+translation.billing.usageRequest.approved	已批准
+translation.billing.usageRequest.canRequestMoreLater	之后还能再申请
+translation.billing.usageRequest.cancel	取消
+translation.billing.usageRequest.cancelRequest	取消申请
+translation.billing.usageRequest.close	关闭
+translation.billing.usageRequest.currentLimit	当前上限
+translation.billing.usageRequest.customAmount	自定义数量
+translation.billing.usageRequest.denied	已拒绝
+translation.billing.usageRequest.dollarAmountOption	+{{amount}}
+translation.billing.usageRequest.dollarLimit	{{limit}} 上限
+translation.billing.usageRequest.dollarRequest	花费申请
+translation.billing.usageRequest.dollarsOver	超出 {{amount}}
+translation.billing.usageRequest.expired	已过期
+translation.billing.usageRequest.howMuchDoYouNeed	数量
+translation.billing.usageRequest.learnMore	了解更多
+translation.billing.usageRequest.learnMoreTooltip	申请适用于当前计费周期。组织管理员会审核并批准你的申请
+translation.billing.usageRequest.handledOutsideDevin	你的管理员在 Devin 之外处理更多用量的申请。
+translation.billing.usageRequest.limitLoadError	加载用量上限时出错。
+translation.billing.usageRequest.minimumDollarIncrease	至少输入 {{amount}} 才能将上限提高到本周期用量之上。
+translation.billing.usageRequest.noPerUserLimits	你的账户不使用每用户用量上限，这里无可申请项。如用量耗尽请联系管理员。
+translation.billing.usageRequest.partialDollarApproval	申请中的 {{amount}} 已自动批准，其余需管理员批准。
+translation.billing.usageRequest.pending	待处理
+translation.billing.usageRequest.pendingAdditionalDollarLimit	已申请 +{{amount}}
+translation.billing.usageRequest.pendingAdditionalLimit_one	已申请 +{{count}} ACU
+translation.billing.usageRequest.pendingAdditionalLimit_other	已申请 +{{count}} ACU
+translation.billing.usageRequest.pendingNewDollarLimit	已申请新上限 {{limit}}
+translation.billing.usageRequest.pendingNewLimit_one	已申请新上限 {{count}} ACU
+translation.billing.usageRequest.pendingNewLimit_other	已申请新上限 {{count}} ACU
+translation.billing.usageRequest.pendingReviewStatus	申请于 {{time}} · 等待管理员审核
+translation.billing.usageRequest.previousRequests	历史申请
+translation.billing.usageRequest.productDevin	Devin
+translation.billing.usageRequest.productDevinDesktop	Devin Desktop
+translation.billing.usageRequest.productTerminalCli	Terminal CLI
+translation.billing.usageRequest.projectedHeadroom	预计余量
+translation.billing.usageRequest.reason	理由
+translation.billing.usageRequest.reasonPlaceholder	补充说明你为什么需要更多用量
+translation.billing.usageRequest.requestAdditionalUsage	申请更多用量
+translation.billing.usageRequest.requestDescription	申请临时提高你的 ACU 上限。
+translation.billing.usageRequest.requestDescriptionDollars	申请临时提高你的花费上限。
+translation.billing.usageRequest.requestedLimit	申请的上限
+translation.billing.usageRequest.submitRequest	提交申请
+translation.billing.usageRequest.tryAgain	重试
+translation.billing.usageRequest.usageByProduct	按产品的用量
+translation.billing.usageRequest.minimumAcuIncrease_one	至少输入 {{count}} ACU 才能将上限提高到本周期用量之上。
+translation.billing.usageRequest.minimumAcuIncrease_other	至少输入 {{count}} ACU 才能将上限提高到本周期用量之上。
+translation.billing.usageRequest.exceedsAutoApproval	此数量超过自动批准阈值。
+translation.billing.usageRequest.autoApprovedToast	用量申请已自动批准
+translation.billing.usageRequest.submittedToast	用量申请已提交
+translation.billing.usageRequest.partiallyApprovedToast_one	申请中的 {{count}} ACU 已自动批准，其余需管理员批准。
+translation.billing.usageRequest.partiallyApprovedToast_other	申请中的 {{count}} ACU 已自动批准，其余需管理员批准。
+translation.billing.usageRequest.concurrentEdit	可能有人同时修改了你的上限，请重试。
+translation.billing.usageRequest.cancelling	正在取消申请…
+translation.billing.viewUsageSettings	查看用量设置
+translation.billing.weeklyUsageQuotaExceeded	已超每周用量配额
+translation.billing.usageProduct.all	全部产品
+translation.billing.usageProduct.sessions	会话
+translation.billing.usageProduct.reviews	评审
+translation.billing.usageProduct.automations	自动化
+translation.billing.usageProduct.oncall	Oncall
+translation.billing.usageProduct.codeScans	代码扫描
+translation.billing.usageProduct.ask	Ask
+translation.billing.usageProduct.wiki	Wiki
+translation.billing.usageProduct.desktop	Desktop
+translation.billing.usageProduct.cli	CLI
+translation.billing.usageProduct.aiGateway	AI Gateway
+translation.billing.usageProduct.selectProduct	选择产品
+translation.billing.breakdownByAutomation.oncallThisCycle	本周期 Oncall 成本
+translation.billing.breakdownByAutomation.oncallPreviousCycle	上周期 Oncall 成本
+translation.billing.breakdownByAutomation.disabled	已禁用
+translation.billing.breakdownByAutomation.previousCycle	上周期自动化成本
+translation.billing.breakdownByAutomation.columnAutomation	自动化
+translation.billing.breakdownByAutomation.columnLastRun	最近运行
+translation.billing.breakdownByAutomation.thisCycle	本周期自动化成本
+translation.billing.breakdownByAutomation.enabled	已启用
+translation.billing.breakdownByAutomation.failedToLoad	加载自动化用量数据失败。
+translation.billing.breakdownByAutomation.hiddenAutomations_one	{{count}} 个自动化因你无查看权限被隐藏。
+translation.billing.breakdownByAutomation.hiddenAutomations_other	{{count}} 个自动化因你无查看权限被隐藏。
+translation.billing.autoJoin.title	允许队友自动加入账户
+translation.billing.autoJoin.description	<org>{{orgName}}</org> 的成员将无需等待你批准即可加入。
+translation.billing.autoJoin.notNow	暂不
+translation.billing.autoJoin.enable	启用
+translation.billing.devinCoach.title	Devin Coach
+translation.billing.devinCoach.description	你对 Devin 指导的响应——最近 {{days}} 天会话中的建议结果
+translation.billing.devinCoach.emptyState	Devin 在你写提示和工作时指导你。建议结果会显示在这里。
+translation.billing.devinForStartupsBanner.title	你是早期初创公司吗？
+translation.billing.devinForStartupsBanner.description	Devin for Startups 为符合条件的公司提供最高 $65k 的额度与资助。
+translation.billing.devinForStartupsBanner.cta	立即申请
+translation.billing.flexSeatFunding.title	无可用按需额度
+translation.billing.flexSeatFunding.body	Flex 成员从你的按需余额扣费。<settingsLink>添加按需额度或启用自动充值</settingsLink>前，此成员将无法使用 Devin。
+translation.billing.consumptionChart.projected	预测
+translation.billing.consumptionChart.total	总计
+translation.billing.consumptionChart.noAmcData	无 AMC 数据
+translation.billing.reviewJobsTable.repository	仓库
+translation.billing.reviewJobsTable.prNumber	Pull request 编号
+translation.billing.reviewJobsTable.pr	PR
+translation.billing.reviewJobsTable.status	状态
+translation.billing.reviewJobsTable.trigger	触发方式
+translation.billing.reviewJobsTable.created	创建时间
+translation.billing.reviewJobsTable.acusConsumed	已消耗 ACU
+translation.billing.reviewJobsTable.acus	ACU
+translation.billing.reviewJobsTable.loadFailed	无法加载分析运行，请重试。
+translation.billing.reviewJobsTable.noData	无可用数据
+translation.billing.reviewJobsTable.triggerAuto	自动
+translation.billing.reviewJobsTable.triggerManual	手动
+translation.billing.reviewsTable.repository	仓库
+translation.billing.reviewsTable.acusCurrentTitle	本期间消耗的 ACU
+translation.billing.reviewsTable.acusCycle	ACU（{{label}}）
+translation.billing.reviewsTable.percentOfTotalTitle	此行 ACU ÷ 此视图范围本计费周期的 ACU 总量
+translation.billing.reviewsTable.percentOfTotal	占比 %
+translation.billing.reviewsTable.acusPreviousTitle	上一期间消耗的 ACU
+translation.billing.reviewsTable.percentChangeTitle	对比整个上周期 ACU 消耗的变化
+translation.billing.reviewsTable.percentChange	变化 %
+translation.billing.reviewsTable.percentChangeLongTitle	上期间到本期间的 ACU 变化
+translation.billing.reviewsTable.percentChangeLong	变化 %
+translation.billing.reviewsTable.reviewsCycle	评审（{{label}}）
+translation.billing.reviewsTable.bugsThisCycle	本周期发现的 Bug
+translation.billing.reviewsTable.bugsLastCycle	上周期发现的 Bug
+translation.billing.reviewsTable.loadFailed	加载评审数据失败，请重试。
+translation.billing.reviewsTable.noData	无可用数据
+translation.billing.purchaseCredits.descriptionQuota	购买的用量不过期，逐月结转
+translation.billing.purchaseCredits.descriptionAcus	购买的 ACU 不过期，逐月结转
+translation.billing.purchaseCredits.descriptionCredits	购买的额度不过期，逐月结转
+translation.billing.purchaseCredits.amount	金额
+translation.billing.purchaseCredits.usd	USD
+translation.billing.purchaseCredits.acusToPurchase	要购买的 ACU
+translation.billing.purchaseCredits.creditsToPurchase	要购买的额度
+translation.billing.purchaseCredits.processing	处理中…
+translation.billing.purchaseCredits.proceed	继续购买
+translation.billing.purchaseCredits.failed	发起购买失败，请重试或联系支持。
+translation.billing.purchaseCredits.contactSupport	更大额的购买请联系支持。
+translation.billing.purchaseCredits.minimumDollars	最低购买额为 {{amount}}。
+translation.billing.purchaseCredits.maximumDollars	最高购买额为 {{amount}}。
+translation.billing.purchaseCredits.minimumUnits	最低购买量为 {{amount}} {{unit}}。
+translation.billing.purchaseCredits.maximumUnits	最高购买量为 {{amount}} {{unit}}。
+translation.billing.workspaceSeats.addDescription	新席位将立即按天折算计费
+translation.billing.workspaceSeats.cancelDescription	席位在当前计费期末移除
+translation.billing.workspaceSeats.loadFullSeatsError	加载正式席位数据时出错。
+translation.billing.workspaceSeats.loadSeatInfoError	加载席位信息时出错。
+translation.billing.workspaceSeats.seatUsage	席位用量
+translation.billing.workspaceSeats.manage	管理
+translation.billing.workspaceSeats.addSeats	添加席位
+translation.billing.workspaceSeats.cancelUnassignedSeats	取消未分配席位
+translation.billing.workspaceSeats.cancelUnassigned	取消未分配
+translation.billing.workspaceSeats.memberLimit	成员上限
+translation.billing.workspaceSeats.memberLimitValue	至多 100
+translation.billing.workspaceSeats.activeFullSeats	在用正式席位
+translation.billing.workspaceSeats.unassignedFullSeats	未分配正式席位
+translation.billing.workspaceSeats.fullSeats	正式席位
+translation.billing.workspaceSeats.perSeatSuffix	× {{price}} 每席位
+translation.billing.workspaceSeats.newMonthlyCharge	新的月度正式席位费用
+translation.billing.workspaceSeats.availableAfterPurchase_one	购买后可用：{{count}} 个正式席位。
+translation.billing.workspaceSeats.availableAfterPurchase_other	购买后可用：{{count}} 个正式席位。
+translation.billing.workspaceSeats.paymentConfirmationNeeded	我们无法自动完成这笔扣款——你的银行可能需要确认（3D Secure）。请完成支付以添加席位。
+translation.billing.workspaceSeats.completePayment	完成支付
+translation.billing.workspaceSeats.back	返回
+translation.billing.workspaceSeats.confirm	确认
+translation.billing.workspaceSeats.genericError	出了点问题，请重试。
+translation.billing.workspaceSeats.seatsUpdatedToast	席位已更新
+translation.billing.workspaceSeats.seatsAddedToastDescription_one	已添加 {{count}} 个正式席位。
+translation.billing.workspaceSeats.seatsAddedToastDescription_other	已添加 {{count}} 个正式席位。
+translation.billing.workspaceSeats.onlyUnassignedCancelable	只能取消当前未分配的正式席位。
+translation.billing.workspaceSeats.unassignedCanceledToast	未分配席位已取消
+translation.billing.workspaceSeats.seatsCanceledToastDescription_one	已取消 {{count}} 个正式席位。
+translation.billing.workspaceSeats.seatsCanceledToastDescription_other	已取消 {{count}} 个正式席位。
+translation.billing.workspaceSeats.fullSeatsToCancel	要取消的正式席位
+translation.billing.workspaceSeats.unassignedSuffix	{{seats}} 未分配
+translation.billing.workspaceSeats.monthlyReduction	月度正式席位减少额
+translation.billing.workspaceSeats.tooltipIntro	你的 Devin Teams 计划支持至多 100 名成员。可为常规用户购买正式席位。
+translation.billing.workspaceSeats.tooltipFullTitle	正式
+translation.billing.workspaceSeats.tooltipFullBody	正式席位折前每月 {{price}}。包含与 Pro 计划相同的 Devin 和 {{productName}} 用量额度。适合常规用户。
+translation.billing.workspaceSeats.tooltipFlexTitle	Flex
+translation.billing.workspaceSeats.tooltipFlexBody	按用量付费，无席位费。含 Devin Desktop。
+translation.billing.usageCycle.current	本周期
+translation.billing.usageCycle.previous	上一周期
+translation.billing.usageCycle.selectBillingCycle	选择计费周期
+translation.billing.usageCycle.selectCycle	选择周期
+translation.billing.reviewHistory.title	分析历史
+translation.billing.reviewHistory.repository	仓库
+translation.billing.reviewHistory.pr	PR
+translation.billing.reviewHistory.createdAt	创建时间
+translation.billing.reviewHistory.errorLoading	无法加载分析，请重试。
+translation.billing.reviewHistory.noReviews	未找到分析
+translation.billing.reviewHistory.viewReview	查看分析
+translation.billing.reviewHistory.statusCompleted	已完成
+translation.billing.reviewHistory.statusErrored	出错
+translation.billing.reviewHistory.statusRunning	运行中
+translation.billing.reviewHistory.statusPending	待处理
+translation.billing.reviewHistory.statusCancelled	已取消
+translation.billing.sessionHistory.title	全部云端会话历史
+translation.billing.sessionHistory.session	会话
+translation.billing.sessionHistory.createdAt	创建时间
+translation.billing.sessionHistory.acusUsed	已用 ACU
+translation.billing.sessionHistory.errorLoading	加载会话出错，请重试。
+translation.billing.sessionHistory.noUsage	未找到用量
+translation.billing.sessionHistory.includedInQuota	已计入配额
+translation.billing.sessionHistory.viewSession	查看会话
+translation.billing.sessionHistory.cannotOpen	你无法打开的会话
+translation.billing.startupProgram.title	初创计划
+translation.billing.startupProgram.freeCreditsUsed	已用免费额度
+translation.billing.startupProgram.freeCreditsRemaining	免费额度还剩 {{amount}}
+translation.billing.startupProgram.matchingGrantsReceived	已获匹配资助
+translation.billing.startupProgram.matchRemaining	你每充值一美元我们都等额匹配——最多再资助 {{amount}}
+translation.billing.startupProgram.matchRemainingWithRatio	你每充值一美元我们都按 {{ratio}} 倍匹配——最多再资助 {{amount}}
+translation.billing.startupProgram.fullMatchReceived	你已获全部匹配额度
+translation.billing.usageLimits.updated	花费上限已更新
+translation.billing.usageLimits.acuWholeNumber	ACU 上限必须是整数
+translation.billing.usageLimits.usageWholeNumber	用量上限必须是整数
+translation.billing.usageLimits.acuMin	ACU 上限至少为 1
+translation.billing.usageLimits.usageMin	用量上限至少为 $1
+translation.billing.usageLimits.acuMax	ACU 上限不能超过 10,000
+translation.billing.usageLimits.usageMax	用量上限不能超过 10,000
+translation.billing.usageLimits.messageAcuLimit	每条消息 ACU 上限
+translation.billing.usageLimits.messageUsageLimit	每条消息用量上限
+translation.billing.usageLimits.limitTooltip	达到上限时会请求许可继续。变更只对新会话生效，不影响运行中的会话
+translation.billing.usageLimits.maxAcusPerMessage	Devin 每条消息最多可使用的 ACU
+translation.billing.usageLimits.maxUsagePerMessage	Devin 每条消息最多可使用的按需用量
+translation.billing.usageLimits.loadError	获取用量上限时出错，请稍后重试。
+translation.billing.usageLimits.updateError	更新用量上限时出错，请稍后重试。
+translation.billing.quotaUsage.resets	{{distance}}后重置
+translation.billing.quotaUsage.percentUsed	已用 {{percent}}%
+translation.billing.quotaUsage.includedTooltipWeekly	你的计划包含每周用量配额。配额内用量已含在订阅中，不另收费。
+translation.billing.quotaUsage.includedTooltipDailyWeekly	你的计划包含每日和每周用量配额。配额内用量已含在订阅中，不另收费。
+translation.billing.quotaUsage.yourIncludedUsage	你的配额内用量
+translation.billing.quotaUsage.dailyQuota	每日配额
+translation.billing.quotaUsage.weeklyQuota	每周配额
+translation.billing.quotaUsage.onDemandTooltipWeekly	超出配额内每周用量后，额外用量从按需余额扣除。余额用尽后会话将暂停，直到配额重置。
+translation.billing.quotaUsage.onDemandTooltipDailyWeekly	超出配额内每日或每周用量后，额外用量从按需余额扣除。余额用尽后会话将暂停，直到配额重置。
+translation.billing.quotaUsage.onDemandUsage	按需用量
+translation.billing.quotaUsage.remainingBalance	剩余余额
+translation.billing.quotaUsage.yourOnDemandUsage	你的按需用量
+translation.billing.quotaUsage.yourOnDemandUsageTooltip	本计费周期至今的按需花费。
+translation.billing.quotaUsage.autoReloadSpendThisCycle	本周期自动充值花费
+translation.billing.quotaUsage.noBalanceSessionsWillPause	无剩余按需余额。超出配额内用量后会话将暂停。
+translation.billing.quotaUsage.loadError	无法加载配额用量数据，请重试。
+translation.billing.billingActions.planChangesOn	计划于 {{date}} 变更
+translation.billing.billingActions.endsOn	{{date}} 结束
+translation.billing.billingActions.renewsForOn	{{date}} 以 {{amount}} 续订
+translation.billing.billingActions.renewsOn	{{date}} 续订
+translation.billing.billingActions.trialEnded	试用已结束，之后 $20/月
+translation.billing.billingActions.trialLessThanDay	试用不足一天，之后 $20/月
+translation.billing.billingActions.trialDays_one	试用 {{count}} 天，之后 $20/月
+translation.billing.billingActions.trialDays_other	试用 {{count}} 天，之后 $20/月
+translation.billing.billingActions.discountUntil	{{price}} 至 {{date}}，之后 {{listPrice}}
+translation.billing.billingActions.unpaidInvoices	未付账单
+translation.billing.billingActions.unpaidInvoicesBody	你的账户有未付账单。请更新付款信息以免服务中断。
+translation.billing.billingActions.pendingChangesOn	计划于 {{date}} 的待生效变更
+translation.billing.billingActions.pendingChangesEndOfCycle	待生效变更定于你当前计费周期末
+translation.billing.billingActions.planWillSwitch	你的计划将从 {{from}} 切换到 {{to}}
+translation.billing.billingActions.currentPlan	当前计划
+translation.billing.billingActions.cancelled	已取消
+translation.billing.billingActions.fullSeats_one	{{count}} 个正式席位
+translation.billing.billingActions.fullSeats_other	{{count}} 个正式席位
+translation.billing.billingActions.manageBilling	管理计费
+translation.billing.usageChart.dailyValue	每日：{{amount}}
+translation.billing.usageChart.cumulativeValue	累计：{{amount}}
+translation.billing.usageChart.failedToLoad	加载用量数据失败。
+translation.billing.usageChart.daily	每日
+translation.billing.usageChart.cumulative	累计
+translation.billing.usageChart.date	日期
+translation.billing.switchPlan.updateError	更新订阅时出错，请重试。
+translation.billing.switchPlan.whatHappensDowngrade	降级后会发生：
+translation.billing.switchPlan.whatHappensUpgrade	升级后会发生：
+translation.billing.switchPlan.whatHappensSwitch	切换后会发生：
+translation.billing.switchPlan.keepCurrentPlan	保留当前计划
+translation.billing.switchPlan.cancelSubscription	取消订阅
+translation.billing.switchPlan.cancelSubscriptionUnpaid	你最近一笔账单未支付，因此订阅将立即取消而非等到计费周期末，其待扣款也会停止。
+translation.billing.switchPlan.noPaidPlanFeatures	无法使用付费计划功能
+translation.billing.switchPlan.cancelPlanSwitchDescription	你的订阅当前定于计费周期末切换。要取消此变更并留在 {{plan}} 计划吗？
+translation.billing.switchPlan.switchTo	切换到 {{plan}}
+translation.billing.switchPlan.upgradeTo	升级到 {{plan}}
+translation.billing.switchPlan.downgradeTo	降级到 {{plan}}
+translation.billing.switchPlan.upgrade	升级
+translation.billing.switchPlan.downgrade	降级
+translation.billing.switchPlan.trial	试用
+translation.billing.switchPlan.replacePendingChange	你的订阅当前定于本周期末变更。若选择切换到 {{plan}}，待生效的计划变更将被替换。
+translation.billing.switchPlan.endOfCycleAfterBalance	在计费周期末生效，前提是你已结清现有余额。
+translation.billing.switchPlan.endOfCurrentCycle	在你当前计费周期末生效。
+translation.billing.switchPlan.proratedImmediate	差价将按天折算。立即生效。
+translation.billing.switchPlan.immediate	立即生效。
+translation.billing.switchPlan.managePaymentOnPlans	在 Plans 页面管理付款信息
+translation.billing.switchPlan.noEarlyAccess	无抢先新功能与研究预览
+translation.billing.switchPlan.concurrentSessionsCapped	并发会话上限 10 个
+translation.billing.switchPlan.newMonthlySubscription	创建今天开始的新月度订阅。
+translation.billing.switchPlan.acusIncludedMonthly	每月包含 250 ACU
+translation.billing.switchPlan.trialEndsSubscriptionStarts	你的免费试用将结束，订阅立即开始。
+translation.billing.switchPlan.trialEndsPlanStarts	你的免费试用将结束，{{plan}} 订阅立即开始。
+translation.billing.switchPlan.fullProAccess	Pro 计划完整访问
+translation.billing.switchPlan.billingStartsToday	今天开始计费
+translation.billing.switchPlan.higherQuotas	更高的 Devin 与 {{product}} 编码配额
+translation.billing.switchPlan.lowerQuotas	更低的 Devin 与 {{product}} 编码配额
+translation.billing.switchPlan.twoFullSeats	含 2 个正式席位
+translation.billing.switchPlan.shareAndCollaborateOrg	与你的组织分享协作
+translation.billing.switchPlan.noMultiUser	不支持多用户
+translation.billing.switchPlan.membersLoseAccess	组织成员将失去 Devin 访问（但保留 DeepWiki 和 Devin Review）
+translation.billing.switchPlan.noCentralizedBilling	无集中计费
+translation.billing.switchPlan.noAdminDashboard	无带分析的管理员仪表盘
+translation.billing.switchPlan.canceledEndOfCycle	你的订阅将在当前计费周期末取消。
+translation.billing.switchPlan.aboutToSwitch	你即将从 {{from}} 切换到 {{to}}。
+translation.billing.switchPlan.confirm	确认
+translation.billing.autoReload.settingsSaved	自动充值设置已保存
+translation.billing.autoReload.disabled	自动充值已禁用
+translation.billing.autoReload.descriptionQuota	余额不足时自动补充按需用量
+translation.billing.autoReload.descriptionAcus	用量达到阈值时自动补充 ACU
+translation.billing.autoReload.descriptionCredits	用量达到阈值时自动补充额度
+translation.billing.autoReload.paymentFailedTitle	自动充值付款失败
+translation.billing.autoReload.paymentFailedBody	你最近一次自动充值付款失败。请更新付款信息或<invoicesLink>直接支付账单</invoicesLink>。
+translation.billing.autoReload.paymentMethodRequiredTitle	需要付款方式
+translation.billing.autoReload.paymentMethodRequiredBody	启用自动充值前需先配置默认付款方式
+translation.billing.autoReload.configurePaymentMethod	配置付款方式
+translation.billing.autoReload.enable	启用自动充值
+translation.billing.autoReload.enableDescription	余额不足时自动补充额度
+translation.billing.autoReload.whenBelow	低于
+translation.billing.autoReload.reloadTo	充值至
+translation.billing.autoReload.monthlyCap	月度上限
+translation.billing.autoReload.thresholdMin	阈值至少为 {{amount}}
+translation.billing.autoReload.thresholdMax	阈值不能超过 {{amount}}
+translation.billing.autoReload.targetMin	至少为 {{amount}}（比阈值多 {{difference}}）
+translation.billing.autoReload.targetMax	充值金额不能超过 {{amount}}
+translation.billing.autoReload.monthlyCapMin	月度总花费上限至少须等于自动充值余额
+translation.billing.autoReload.monthlyCapMax	月度总额不能超过 {{amount}}
+translation.billing.autoReload.dollarsToAcus_one	{{dollars}} = {{count}} ACU
+translation.billing.autoReload.dollarsToAcus_other	{{dollars}} = {{count}} ACU
+translation.billing.autoReload.spendThisCycle	本周期自动充值花费：{{amount}}
+translation.billing.autoReload.save	保存
+translation.billing.payAsYouGo.limitLabel	月度上限
+translation.billing.payAsYouGo.title	设置月度按量付费用量上限
+translation.billing.payAsYouGo.descriptionAcus	你的团队可在按量付费用量上限内使用 Devin。消耗的 ACU 将在计费周期末从你备案的付款方式扣费
+translation.billing.payAsYouGo.descriptionUsage	你的团队可在按量付费用量上限内使用 Devin。用量将在计费周期末从你备案的付款方式扣费
+translation.billing.payAsYouGo.learnMoreAriaLabel	了解计费与用量上限
+translation.billing.payAsYouGo.maxLimitForPlan	你的计划上限最高为 {{limit}} {{unit}}。如需更高花费上限请联系 support@cognition.ai。
+translation.billing.payAsYouGo.settingLimitPreview_one	将上限设为 {{count}} 按量付费 {{unit}}，本月共剩 {{total}} {{unit}}
+translation.billing.payAsYouGo.settingLimitPreview_other	将上限设为 {{count}} 按量付费 {{unit}}，本月共剩 {{total}} {{unit}}
+translation.billing.payAsYouGo.currentLimit_one	你当前的上限是 {{count}} 按量付费 {{unit}}
+translation.billing.payAsYouGo.currentLimit_other	你当前的上限是 {{count}} 按量付费 {{unit}}
+translation.billing.payAsYouGo.explainerAlt	按量付费用量上限如何运作
+translation.billing.payAsYouGo.saving	保存中…
+translation.billing.payAsYouGo.save	保存
+translation.billing.payAsYouGo.unitAcu_one	ACU
+translation.billing.payAsYouGo.unitAcu_other	ACU
+translation.billing.payAsYouGo.unitCredit_one	额度
+translation.billing.payAsYouGo.unitCredit_other	额度
+translation.billing.usagePage.referralTitle	赚取 {{amount}} 奖励用量
+translation.billing.usagePage.referralDescription	推荐一个团队使用 Devin，你将获得 {{amount}} 奖励用量
+translation.billing.usagePage.referTeam	推荐团队 →
+translation.billing.usagePage.paymentProblem	你的付款出现问题，请更新付款信息
+translation.billing.usagePage.noActiveSubscription	你没有生效的订阅
+translation.billing.usagePage.viewPlans	查看计划
+translation.billing.usagePage.totalUsageInCycle	本周期总用量
+translation.billing.usagePage.enterpriseAcus	企业 ACU
+translation.billing.usagePage.availableAcus	可用 ACU
+translation.billing.usagePage.availableCredits	可用额度
+translation.billing.usagePage.availableAcusTooltip	你订阅中剩余的 ACU、购买的 ACU 和赠送的 ACU。
+translation.billing.usagePage.availableCreditsTooltip	你订阅中剩余的额度及任何购买或赠送的额度。
+translation.billing.usagePage.noUsageData	无可用用量数据
+translation.billing.usagePage.retrieveError	获取用量数据时出错。
+translation.billing.usagePage.reloadAndRetry	请刷新页面重试。
+translation.billing.usagePage.planNotUsageBased	你当前的计划不按用量计费。
+translation.billing.usagePage.noSubscriptionYet	你还没有订阅。
+translation.billing.usagePage.cycleUsageBreakdown	周期用量细分
+translation.billing.usagePage.payAsYouGoBilled	按量付费用量将在计费周期末计入你的默认付款方式。
+translation.billing.usagePage.increaseUsageLimit	想增加 Devin 用量？提高你的用量上限。
+translation.billing.usagePage.increaseUsageSubscribe	想增加 Devin 用量？<plansLink>订阅计划</plansLink>。
+translation.billing.usagePage.subscriptionEndsConfigure	你的订阅定于本计费周期末结束。可在 <plansLink>Plans 页面</plansLink>配置下月订阅设置。
+translation.billing.usagePage.legacyPlanBanner	你当前是旧版计划。请<supportLink>联系支持</supportLink>升级到新计划。你也可以<manageButton>在此管理订阅。</manageButton>
+translation.billing.usagePage.overview	概览
+translation.billing.usagePage.usageHistory	用量历史
+translation.billing.usagePage.barSubscription	订阅 {{unit}}
+translation.billing.usagePage.barGift	赠送 {{unit}}
+translation.billing.usagePage.barPurchased	已购 {{unit}}
+translation.billing.usagePage.barPayAsYouGo	按量付费 {{unit}}
+translation.billing.usagePage.totalEnterpriseAcus	企业 ACU 总计
+translation.billing.usagePage.totalAcus	ACU 总计
+translation.billing.usagePage.totalUsage	总用量
+translation.billing.usagePage.legacyPlanContactSupport	你是旧版计划。联系支持升级。
+translation.billing.breakdownByUser.thisCycleTitle	本周期用户成本
+translation.billing.breakdownByUser.previousCycleTitle	上周期用户成本
+translation.billing.breakdownByUser.unknownUser	未知
+translation.billing.columnSessions	会话
+translation.billing.viewInvoices	查看账单
+translation.billing.searchByNameOrEmail	按姓名或邮箱搜索…
+translation.billing.usageAllProductsChart.failedToLoad	加载用量数据失败。
+translation.billing.usageAllProductsChart.cumulative	累计
+translation.billing.usageAllProductsChart.date	日期
+translation.billing.usageAllProductsChart.totalValue	总计：{{amount}}
+translation.billing.breakdownByUserModel.previousCycleTitle	上周期按用户的按需成本
+translation.billing.breakdownByUserModel.thisCycleTitle	本周期按用户的按需成本
+translation.billing.cancelPlanSwitch	取消计划切换
+translation.billing.free	免费
+translation.billing.failedToLoadData	加载数据失败。
+translation.billing.devinDesktop	Devin Desktop
+translation.billing.columnCost	成本
+translation.billing.noDataForPeriod	此期间无数据。
+translation.billing.noUsersMatch	没有匹配「{{query}}」的用户。
+translation.billing.configureAutoReload	配置自动充值设置
+translation.billing.columnStatus	状态
+translation.billing.columnEmail	邮箱
+translation.billing.purchaseOnDemandUsage	购买按需用量
+translation.billing.columnName	名称
+translation.billing.usageBreakdown.devinCloud	Devin 云端：{{value}}
+translation.billing.usageBreakdown.devin	Devin：{{value}}
+translation.billing.usageBreakdown.desktop	Devin Desktop：{{value}}
+translation.billing.usageBreakdown.cli	Terminal CLI：{{value}}
+translation.billing.usageBreakdown.aiGateway	AI Gateway：{{value}}
+translation.billing.usageBreakdown.review	Review：{{value}}
+translation.billing.reviewJobsView.title	{{repoPath}} 中的评审
+translation.billing.reviewJobsView.backToAll	返回全部仓库
+translation.billing.usersRanking.legendThisCycle	本周期 {{unit}}（{{cycle}}）
+translation.billing.usersRanking.legendLastCycle	上周期 {{unit}}（{{cycle}}）
+translation.billing.usersRanking.thisCycle	本周期
+translation.billing.usersRanking.lastCycle	上周期
+translation.billing.automationsTable.organization	组织
+translation.billing.automationsTable.config	配置
+translation.billing.automationsTable.status	状态
+translation.billing.automationsTable.acusCurrentTitle	本周期消耗的 ACU
+translation.billing.automationsTable.acusCurrentCycle	本周期 ACU（{{label}}）
+translation.billing.automationsTable.percentOfTotalTitle	此行 ACU ÷ 此视图范围本计费周期的 ACU 总量
+translation.billing.automationsTable.percentOfTotal	占比 %
+translation.billing.automationsTable.acusPreviousTitle	上周期消耗的 ACU
+translation.billing.automationsTable.acusPreviousCycle	上周期 ACU（{{label}}）
+translation.billing.automationsTable.percentChangeTitle	对比整个上周期 ACU 消耗的变化
+translation.billing.automationsTable.percentChange	变化 %
+translation.billing.automationsTable.sessionsThisCycle	本周期会话
+translation.billing.automationsTable.sessionsLastCycle	上周期会话
+translation.billing.automationsTable.lastRun	最近运行
+translation.billing.automationsTable.loadFailed	加载自动化数据失败，请重试。
+translation.billing.automationsTable.noData	无可用数据
+translation.billing.automationsTable.deleted	已删除
+translation.billing.automationsTable.enabled	已启用
+translation.billing.automationsTable.disabled	已禁用
+translation.billing.invoices.contactAccountManager	请联系你的客户经理修改计费设置。
+translation.billing.invoices.notAuthorized	你无权查看账单。
+translation.billing.invoices.noInvoicesYet	你还没有账单。
+translation.billing.invoices.retrieveError	获取账单时出错。
+translation.billing.invoices.retryHint	换个日期范围或刷新页面。
