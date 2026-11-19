@@ -1,0 +1,500 @@
+translation.scanConnections.secretValue	值
+translation.scanConnections.secretNameDescription	会话开始前保存为组织机密；Devin 按名称读取
+translation.scanConnections.chooseFile	选择 CSV 文件
+translation.scanConnections.errorRequired	请填写此字段以继续
+translation.scanConnections.errorUrl	请输入以 https:// 开头的 URL
+translation.scanConnections.errorSecret	需要机密
+translation.scanConnections.errorSecretName	请输入类似 SNYK_API_TOKEN 的名称
+translation.scanConnections.errorDuplicateSecretName	另一个字段已用此名称。请给新机密换个名字。
+translation.scanConnections.errorSecretValue	需要机密值
+translation.scanConnections.errorFile	选择一个 CSV 文件以继续。
+translation.scanConnections.errorAlertTypes	请至少选择一种告警类型
+translation.scanConnections.connectFailed	无法连接该来源
+translation.scanConnections.connectionAdded	连接已添加
+translation.scanConnections.apiToken	API 令牌
+translation.scanConnections.apiKey	API 密钥
+translation.scanConnections.apiUrl	API URL
+translation.scanConnections.snyk	Snyk
+translation.scanConnections.snykDescription	开源、代码和容器问题
+translation.scanConnections.snykOrgId	Snyk 组织 ID
+translation.scanConnections.snykOrgIdDescription	Snyk 中的 Settings → General
+translation.scanConnections.snykApiUrlDescription	为区域性或自托管 Snyk 设置
+translation.scanConnections.zafran	Zafran
+translation.scanConnections.zafranDescription	带运行时上下文的暴露面发现项
+translation.scanConnections.wiz	Wiz
+translation.scanConnections.wizDescription	云问题和漏洞
+translation.scanConnections.wizApiUrl	GraphQL 端点
+translation.scanConnections.wizApiUrlDescription	你租户的 API 端点，位于 Settings → Tenant
+translation.scanConnections.wizClientId	Client ID
+translation.scanConnections.wizClientSecret	Client secret
+translation.scanConnections.wizClientSecretInfo	服务账户需要的范围
+translation.scanConnections.github	GitHub
+translation.scanConnections.githubDescription	代码扫描、Dependabot 和机密告警
+translation.scanConnections.githubRepos	仓库
+translation.scanConnections.githubReposDescription	逗号分隔；留空表示所有已连接仓库
+translation.scanConnections.githubAlertTypes	告警类型
+translation.scanConnections.githubCodeScanning	代码扫描
+translation.scanConnections.githubDependabot	Dependabot
+translation.scanConnections.githubSecretScanning	机密扫描
+translation.scanConnections.githubApiUrl	GitHub API URL
+translation.scanConnections.githubApiUrlDescription	留空表示 github.com；GitHub Enterprise Server 设为 https://HOST/api/v3
+translation.scanConnections.githubToken	GitHub 令牌
+translation.scanConnections.armorcode	ArmorCode
+translation.scanConnections.armorcodeDescription	跨工具聚合的发现项
+translation.scanConnections.sonarqube	SonarQube
+translation.scanConnections.sonarqubeDescription	问题和安全热点
+translation.scanConnections.sonarqubeServerUrl	服务器 URL
+translation.scanConnections.sonarqubeProjectKey	项目 key
+translation.scanConnections.sonarqubeToken	用户令牌
+translation.scanConnections.socket	Socket
+translation.scanConnections.socketDescription	依赖的供应链告警
+translation.scanConnections.socketOrgSlug	组织 slug
+translation.scanConnections.socketOrgSlugDescription	你 Socket 仪表盘 URL 中的组织段
+translation.scanConnections.jfrog	JFrog
+translation.scanConnections.jfrogDescription	Xray watch 的安全违规
+translation.scanConnections.jfrogServerUrl	JFrog Platform URL
+translation.scanConnections.jfrogWatch	Xray watch
+translation.scanConnections.jfrogWatchDescription	留空表示所有 watch
+translation.scanConnections.jfrogAccessToken	访问令牌
+translation.scanConnections.blackduck	Black Duck
+translation.scanConnections.blackduckDescription	项目版本中的易受攻击组件
+translation.scanConnections.blackduckServerUrl	服务器 URL
+translation.scanConnections.blackduckProject	项目
+translation.scanConnections.blackduckVersion	版本
+translation.scanConnections.blackduckVersionDescription	留空表示最新版本
+translation.scanConnections.blackduckToken	API 令牌
+translation.scanConnections.veracode	Veracode
+translation.scanConnections.veracodeDescription	Veracode 应用的静态、动态和 SCA 发现项
+translation.scanConnections.veracodeApplicationGuid	应用 GUID
+translation.scanConnections.veracodeApplicationGuidDescription	来自 Veracode 中应用的 profile
+translation.scanConnections.veracodeApiId	API ID
+translation.scanConnections.veracodeApiKey	API secret key
+translation.scanConnections.veracodeApiKeyDescription	具有 Results API 角色的 API 用户；重新打开需加 Mitigation API
+translation.scanConnections.vanta	Vanta
+translation.scanConnections.vantaDescription	合规项目中跟踪的漏洞
+translation.scanConnections.vantaApiUrlDescription	为 Vanta Gov（FedRAMP）租户设置：https://api.vanta-gov.com
+translation.scanConnections.clientId	Client ID
+translation.scanConnections.clientSecret	Client secret
+translation.scanConnections.jira	Jira
+translation.scanConnections.jiraDescription	Jira 项目中跟踪的问题
+translation.scanConnections.jiraSiteUrl	站点 URL
+translation.scanConnections.jiraSiteUrlDescription	你的 Jira Cloud 地址，如 https://acme.atlassian.net
+translation.scanConnections.jiraProjectKey	项目 key
+translation.scanConnections.jiraProjectKeyDescription	项目问题 key 的前缀，如 SEC-123 中的 SEC
+translation.scanConnections.jiraEmail	账户邮箱
+translation.scanConnections.jiraEmailDescription	API 令牌所属的 Atlassian 账户
+translation.scanConnections.jiraApiTokenDescription	Atlassian 账户中 Security → API tokens 的 API 令牌
+translation.scanConnections.linear	Linear
+translation.scanConnections.linearDescription	Linear 团队跟踪的问题
+translation.scanConnections.linearTeamKey	团队 key
+translation.scanConnections.linearTeamKeyDescription	团队问题 ID 的前缀，如 SEC-123 中的 SEC
+translation.scanConnections.linearApiKeyDescription	Linear 中 Settings → Security & access 的个人 API key
+translation.scanConnections.csv	CSV
+translation.scanConnections.csvDescription	上传任意工具的导出文件
+translation.scanConnections.csvFile	文件
+translation.scanConnections.csvFileDescription	Devin 会映射列；至少包含标题、严重程度和位置
+translation.scanConnections.custom	自定义
+translation.scanConnections.customDescription	为 Devin 描述任意其他来源
+translation.scanConnections.customSource	你的发现项所在处
+translation.scanConnections.customSourceDescription	Devin 应如何获取：API、仓库中的报告、共享文件
+translation.scanConnections.customSourcePlaceholder	例如：通过 REST API 从我们部署的 Semgrep 拉取打开的告警，或读取提交在 reports/semgrep.json 的报告
+translation.scanConnections.connectionName	连接名称
+translation.scanConnections.connectionNamePlaceholder	例如：Semgrep
+translation.scanConnections.instructions	指令
+translation.scanConnections.instructionsDescription	给 Devin 导入的可选指引，例如重点关注某个仓库或严重程度
+translation.securityWelcome.title	介绍 Devin Security
+translation.securityWelcome.description	发现你代码库中的漏洞并了解它们可能导致的后果。Devin Security 帮你排定最关键发现项的优先级、调查风险，并把修复变成待评审的拉取请求。
+translation.securityWelcome.dismiss	知道了
+translation.wikiSidebar.noPagesYet	还没有页面
+translation.wikiSidebar.tableOfContents	目录
+translation.wikiSidebar.repoNote	仓库备注
+translation.windsurfReturn.accountHasAccess	你可以用此账户使用 {{productName}}。
+translation.windsurfReturn.returnTo	返回 {{productName}}
+translation.workItems.connect	连接 {{tracker}}
+translation.workItems.connectFailed	无法开始连接 tracker
+translation.workItems.fieldAssignee	负责人
+translation.workItems.fieldParent	父级
+translation.workItems.fieldPriority	优先级
+translation.workItems.fieldProject	项目
+translation.workItems.fieldReporter	报告人
+translation.workItems.fieldStatus	状态
+translation.workItems.fieldType	类型
+translation.workItems.fieldUpdated	更新时间
+translation.workItems.hidden	你不可见
+translation.workItems.hiddenIn	在 {{tracker}} 中隐藏
+translation.workItems.linkAmbiguous	此 key 匹配多个 tracker 中的项。请粘贴该项的 URL。
+translation.workItems.linkFailed	无法链接工作项
+translation.workItems.linkNoAccess	你没有链接此工作项的权限
+translation.workItems.linkNotFound	未找到
+translation.workItems.needsCredential	连接你的 tracker 账户以查看此项
+translation.workItems.oauthClientSecretRejected	Jira 拒绝了此连接的 client secret。请管理员在 tracker 设置中修正。
+translation.workItems.oauthDenied	未授予 Jira 访问权限
+translation.workItems.oauthFailed	无法连接 Jira
+translation.workItems.openInJira	在 Jira 中打开
+translation.workItems.openInTracker	在 tracker 中打开
+translation.workItems.unavailable	不可用
+translation.workItems.unavailableDetail	tracker 不可用。请稍后重试。
+translation.workItems.unlinkFailed	无法取消链接工作项
+translation.workItems.searchPlaceholder	按 key 或标题搜索，或粘贴 URL
+translation.workItems.noResults	未找到工作项
+translation.workItems.searching	搜索中…
+translation.workItems.linkReference	链接「{{reference}}」
+translation.workItems.unlinkItem	取消链接 {{key}}
+translation.worklog.botSetupSlackQuestion	我应该关注哪些频道？
+translation.worklog.botSetupSlackJobQuestion	我应该为 {{job}} 关注哪些频道？
+translation.worklog.botSetupChannelsSelected_one	已选 {{count}} 个频道
+translation.worklog.botSetupChannelsSelected_other	已选 {{count}} 个频道
+translation.worklog.botSetupMembers_one	{{count}} 名成员
+translation.worklog.botSetupMembers_other	{{count}} 名成员
+translation.worklog.botSetupSearchChannels	搜索频道
+translation.worklog.botSetupNoChannelsMatch	没有匹配的频道
+translation.worklog.botSetupChannelsUnavailable	在设置中连接 Slack 以选择频道。
+translation.worklog.botSetupNotConnected	此组织未连接 Slack。
+translation.worklog.botSetupNotLinked	你的 Slack 账户还未关联到 Devin。
+translation.worklog.botSetupNoChannels	没有你和 Devin 共同所在的 Slack 频道。加入一个并邀请 @Devin，然后重试。
+translation.worklog.botSetupLoadFailed	无法加载 Slack 频道。刷新重试。
+translation.worklog.botSetupUnsupportedHost	请在 Devin web 应用中选择频道。
+translation.worklog.botSetupConnectSlack	连接 Slack
+translation.worklog.botSetupLinkSlack	关联 Slack 账户
+translation.worklog.botSetupSlackSettings	Slack 设置
+translation.worklog.botSetupConfirm	确认
+translation.worklog.botSetupCancel	取消
+translation.worklog.botSetupEdit	编辑
+translation.worklog.optionsPicked	已选择
+translation.worklog.optionsPickFailed	发送失败。请重试。
+translation.worklog.optionsBotIdeasTitle	让这个 {{botName}} 开始工作
+translation.worklog.accepted	已接受
+translation.worklog.allowOnce	仅允许一次
+translation.worklog.allowForSession	允许此会话
+translation.worklog.shareSessionNotAllowed	此会话无法共享
+translation.worklog.shareSessionRead	只读
+translation.worklog.shareSessionReadWrite	读写
+translation.worklog.shareSessionTitle	与 {{name}} 共享此会话？
+translation.worklog.notifyMentionTitle	通知 {{name}} 你提到了他们？
+translation.worklog.shareSessionTitleUnnamed	与你提到的人共享此会话？
+translation.worklog.notifyMentionTitleUnnamed	通知你提到的人？
+translation.worklog.notifyMentionConfirm	通知
+translation.worklog.notifyMentionSkip	暂不
+translation.worklog.shareSessionSkip	不共享
+translation.worklog.activatedSkill	已激活技能：
+translation.worklog.replyThreadViewOriginal	查看原消息
+translation.worklog.replyThreadViewOriginalWithPreview	查看原消息：{{message}}
+translation.worklog.replyThreadPlaceholder	回复…
+translation.worklog.sessionBoundToSlack	由 {{botName}} 发起 · 绑定到 {{place}}
+translation.worklog.sessionThreadParentTitle	父级：{{botName}}
+translation.worklog.sessionThreadOtherBot_one	查看与另一个 {{botName}} 的 {{count}} 条消息
+translation.worklog.sessionThreadOtherBot_other	查看与另一个 {{botName}} 的 {{count}} 条消息
+translation.worklog.sessionThreadWithBot_one	与 {{botName}} 的 {{count}} 条消息
+translation.worklog.sessionThreadWithBot_other	与 {{botName}} 的 {{count}} 条消息
+translation.worklog.botAutomationCreated	已创建自动化 <name>{{name}}</name>
+translation.worklog.inboxRequiresAttention	需要你
+translation.worklog.replyThreadRestoreDraft	恢复草稿
+translation.worklog.replyThreadSendFailed	回复发送失败。
+translation.worklog.replyThreadSendUnconfirmed	你的回复可能没有发出。如果发出会显示在线程中。
+translation.worklog.viewPlugin	查看插件
+translation.worklog.memoryApprovalLabel	个人记忆
+translation.worklog.memoryApprovalTitle	允许 {{name}} 读取你的个人记忆
+translation.worklog.memoryApprovalBody	使用 {{name}} 的每个人都会看到它读到的内容。它永远不能更改你的笔记，你可随时在「管理访问」中移除权限。
+translation.worklog.memoryApprovalOnlyMember	只有 {{member}} 能批准此请求。
+translation.worklog.memoryApprovalInboxTitle	读取成员的个人记忆
+translation.worklog.memoryApprovalInboxDescription	只读；只有该成员能批准。使用此 {{botName}} 的每个人都会看到它读到的内容。
+translation.worklog.pluginApprovalCreate	创建 {{kind}} {{name}}
+translation.worklog.pluginApprovalUpdate	更新 {{kind}} {{name}}
+translation.worklog.pluginApprovalRemove	移除 {{kind}} {{name}}
+translation.worklog.pluginApprovalInstall	安装插件
+translation.worklog.pluginApprovalUninstall	卸载插件 {{name}}
+translation.worklog.pluginApprovalFailed	失败
+translation.worklog.pluginApprovalInvalidJson	已存插件或提议的内容不是有效 JSON，因此此写入会被拒绝。
+translation.worklog.pluginApprovalNoContent	此请求没有可显示的内容。
+translation.worklog.pluginApprovalStoredUnavailable	无法读取已存插件；单独显示提议的文件。
+translation.worklog.acusValue	{{acus}} ACU
+translation.worklog.addToEnvironment	添加到环境
+translation.worklog.addedToEnvironment	已添加到环境
+translation.worklog.addingToEnvironment	正在添加到环境…
+translation.worklog.agentsDoneOfTotal	{{done}}/{{total}} 个代理
+translation.worklog.allLines_one	全部 {{count}} 行
+translation.worklog.allLines_other	全部 {{count}} 行
+translation.worklog.alreadyIndexedAndSearchable	已索引并可搜索。
+translation.worklog.applying	应用中…
+translation.worklog.applyingChanges	正在应用更改…
+translation.worklog.approveAndAlwaysAllow	批准并始终允许
+translation.worklog.approveChanges	批准更改
+translation.worklog.approved	已批准
+translation.worklog.unableToPreviewAttachment	无法预览此附件。
+translation.worklog.attentionRampUsers	请注意 RAMP 用户：请查阅以下指南为 ramp/core 解决此问题：
+translation.worklog.autoRunForThisSession	此会话自动运行
+translation.worklog.blueprintPrCreatedForScope	已为 {{scope}} 创建 Blueprint PR
+translation.worklog.browserProfileSavedToPath	浏览器配置文件已保存到 <path>{{path}}</path>
+translation.worklog.browserProfileSavedToOrgNotice	此浏览器配置文件保存到你的组织——组织内其他用户启动的会话可以加载它，包括其中保存的任何登录、cookie 或会话令牌。
+translation.worklog.calledToolOn	在 {{target}} 上调用了 {{toolName}}
+translation.worklog.callingToolOn	正在 {{target}} 上调用 {{toolName}}
+translation.worklog.mcpServerCallFailed	MCP 服务器调用失败。
+translation.worklog.viewMcpServerLog	查看服务器日志
+translation.worklog.viewMcpServerLogTooltip	打开会话机器上 MCP 服务器的 stderr 日志（机密值已隐藏）
+translation.worklog.cancel	取消
+translation.worklog.changeSecurityProfile	更改安全配置文件
+translation.worklog.changingProfileClearsNetworkOverride	此会话有自定义网络策略覆盖。更改安全配置文件会移除它，会话将使用新配置文件的网络策略。
+translation.worklog.changesApplyOncePrMerged	更改在 PR 合并后生效
+translation.worklog.checkWorkspaceCleanStartupCommands	检查工作区是否干净，并在 <settingsLink>设置</settingsLink>中复核启动命令。
+translation.worklog.chooseSecurityProfileGoverns	选择管理此会话的安全配置文件
+translation.worklog.collapse	收起
+translation.worklog.columnNumber	第 {{number}} 列
+translation.worklog.tablePreviewLimitedColumns	预览限于 {{totalColumns}} 列中的 {{visibleColumns}} 列
+translation.worklog.tablePreviewLimitedRows	预览限于 {{totalRows}} 行中的 {{visibleRows}} 行
+translation.worklog.tablePreviewLimitedRowsAndColumns	预览限于 {{totalRows}} 行中的 {{visibleRows}} 行、{{totalColumns}} 列中的 {{visibleColumns}} 列
+translation.worklog.wrapCellText	单元格文本换行
+translation.worklog.truncateCellText	截断单元格文本
+translation.worklog.configureMcpServer	配置 MCP 服务器
+translation.worklog.networkConfigAppliesToSquad	允许目标的更改适用于此 {{botName}} 的所有会话，包括它启动的会话。
+translation.worklog.networkConfigAppliesToSquad_named	允许目标的更改适用于 {{botName}} 的所有会话，包括它启动的会话。
+translation.worklog.networkConfigDescriptionNextWake	配置此会话可访问的网络目标。更新后的配置将在此会话下次唤醒时应用
+translation.worklog.networkConfigDescriptionWithoutSleep	配置此会话可访问的网络目标。更改会应用到正在运行的会话，无需休眠
+translation.worklog.networkConfigDescriptionWillSleep	配置此会话可访问的网络目标。保存会让 Devin 休眠——发送新消息以带着更新后的配置唤醒
+translation.worklog.connect	连接
+translation.worklog.connectLocalMachineFallback	用 Devin CLI 连接你的本地机器以继续。
+translation.worklog.connected	已连接
+translation.worklog.connecting	连接中…
+translation.worklog.copyCommand	复制命令
+translation.worklog.couldNotIndex	无法索引 {{repoLabel}}
+translation.worklog.couldntLoadProfiles	无法加载配置文件。
+translation.worklog.otherAnswers	其他回答
+translation.worklog.countMore	还有 {{count}} 个
+translation.worklog.countMoreAskAdmin	还有 {{count}} 个——请管理员检查构建日志
+translation.worklog.createPlaybook	创建 playbook
+translation.worklog.createPr	创建 PR
+translation.worklog.createdSessionsSuccessfully_one	成功创建 {{count}} 个会话
+translation.worklog.createdSessionsSuccessfully_other	成功创建 {{count}} 个会话
+translation.worklog.creatingPr	正在创建 PR…
+translation.worklog.current	当前
+translation.worklog.deactivatedSkill	已停用技能：
+translation.worklog.deleting	删除中…
+translation.worklog.denied	已拒绝
+translation.worklog.devinCanChooseModel	Devin 可以为子会话选择模型。
+translation.worklog.devinCanChooseModelChangeable	Devin 可以为子会话选择模型。你可以在批准时更改。
+translation.worklog.devinSessionIntrospectionToolUsed	已使用 Devin 会话自省工具
+translation.worklog.workItemLinked	由 {{actor}} 链接了 <item>{{key}}</item>
+translation.worklog.workItemUnlinked	由 {{actor}} 取消链接了 <item>{{key}}</item>
+translation.worklog.workItemDetected	从消息链接了 <item>{{key}}</item>
+translation.worklog.workItemActorTeammate	一位队友
+translation.worklog.workItemActorAutomation	一个自动化
+translation.worklog.devinWantsToCreateSessions_one	Devin 想创建 {{count}} 个新会话
+translation.worklog.devinWantsToCreateSessions_other	Devin 想创建 {{count}} 个新会话
+translation.worklog.diffTruncatedCaption	Diff 已截断：超出大小上限
+translation.worklog.diffTruncatedParen	（diff 已截断：超出大小上限）
+translation.worklog.docs	文档
+translation.worklog.dontIndexNoun	不索引 {{noun}}
+translation.worklog.doubleCheckMaintenanceCommands	复核你的<settingsLink>环境设置</settingsLink>中的维护命令。
+translation.worklog.downloadTheFullFile	下载完整文件
+translation.worklog.enableNetworkControls	启用网络控制
+translation.worklog.initialMessageExample	例如：评审最新的支持工单
+translation.worklog.sessionTitleExample	例如：评审上手流程
+translation.worklog.enterpriseBlueprint	企业级 blueprint
+translation.worklog.envConfigChangedSinceSuggestion	此建议之后环境配置已有变更
+translation.worklog.envConfigEditedReviewCombined	此建议创建后有人编辑了环境配置。保存前请在下方审阅合并结果。
+translation.worklog.canonicalSuggestionTitle	此建议会更改标准 blueprint
+translation.worklog.canonicalSuggestionFollowers_one	此仓库遵循其标准 blueprint，因此更改保存在那里。{{count}} 个环境遵循它并将被重建。保存前请在下方审阅结果。
+translation.worklog.canonicalSuggestionFollowers_other	此仓库遵循其标准 blueprint，因此更改保存在那里。{{count}} 个环境遵循它并将被重建。保存前请在下方审阅结果。
+translation.worklog.canonicalUpdateFollowers_one	此建议编辑的仓库遵循其标准 blueprint，因此更改保存在那里。{{count}} 个环境遵循它并将被重建。
+translation.worklog.canonicalUpdateFollowers_other	此建议编辑的仓库遵循其标准 blueprint，因此更改保存在那里。{{count}} 个环境遵循它并将被重建。
+translation.worklog.saveToCanonicalBlueprint	保存到标准 blueprint
+translation.worklog.environmentIsSetUp	环境已设置
+translation.worklog.blueprintsAreSetUp	Blueprint 已设置
+translation.worklog.expand	展开
+translation.worklog.expandAllLines	展开所有行
+translation.worklog.failedToAddRepositoryToEnvironment	添加仓库到环境失败
+translation.worklog.failedToGenerateWiki	生成 wiki 失败
+translation.worklog.failedToDenyNetworkRequest	拒绝网络访问请求失败。
+translation.worklog.failedToReviseCommand	重写命令失败。请重试。
+translation.worklog.failedToStopCommand	停止命令失败。请重试。
+translation.worklog.failedToStopSubagent	停止子代理失败。请重试。
+translation.worklog.failedToLoadFileContent	加载文件内容失败
+translation.worklog.failedToLoadNetworkConfig	加载网络配置失败。
+translation.worklog.failedToLoadProfileChanges	加载配置文件更改失败
+translation.worklog.failedToLoadSecurityProfile	加载安全配置文件失败。
+translation.worklog.failedToUpdateNetworkConfig	更新网络配置失败。
+translation.worklog.failedToUpdateProfile	更新配置文件失败
+translation.worklog.failedToUpdateSecurityProfile	更新安全配置文件失败。
+translation.worklog.failedToUpdateTestingPreference	更新测试偏好失败。请重试。
+translation.worklog.generatedWiki	已生成 wiki
+translation.worklog.generatingWiki	正在生成 wiki
+translation.worklog.howContinueManageIndexing	你想如何继续？<settingsLink>管理仓库索引</settingsLink>
+translation.worklog.importedKnowledge	已导入知识
+translation.worklog.indexLaterFromSettings	你可以稍后在<settingsLink>仓库索引设置</settingsLink>中索引它。
+translation.worklog.indexNounFree	索引 {{noun}}【免费】
+translation.worklog.indexed	已索引 {{repoLabel}}
+translation.worklog.indexing	正在索引 {{repoLabel}}
+translation.worklog.indexingComplete	索引完成
+translation.worklog.indexingPercentComplete	索引中——已完成 {{progressPercent}}%
+translation.worklog.inheritFromDefaults	继承默认值
+translation.worklog.inheritFromDefaults_named	继承默认值（{{name}}）
+translation.worklog.inheritFromDefaults_none	继承默认值（无配置文件）
+translation.worklog.initialMessage	初始消息
+translation.worklog.integrationSettings	{{label}} 设置
+translation.worklog.linkedSessionOpenPrs_one	{{count}} 个打开中的 PR
+translation.worklog.linkedSessionOpenPrs_other	{{count}} 个打开中的 PR
+translation.worklog.linkedSessionMergedPrs_one	{{count}} 个已合并的 PR
+translation.worklog.linkedSessionMergedPrs_other	{{count}} 个已合并的 PR
+translation.worklog.linkedSessionClosedPrs_one	{{count}} 个已关闭的 PR
+translation.worklog.linkedSessionClosedPrs_other	{{count}} 个已关闭的 PR
+translation.worklog.listedAvailableDevinTools	列出了可用的 Devin 工具
+translation.worklog.listedAvailableMcpServers	列出了可用的 MCP 服务器
+translation.worklog.listedSkills	列出了技能：可用 <count>{{skillCount}}</count> 个
+translation.worklog.listedToolsFor	列出了 {{displayName}} 的工具
+translation.worklog.listedToolsOnMcpServer	列出了 MCP 服务器 {{server}} 上的工具
+translation.worklog.listingAvailableDevinTools	正在列出可用的 Devin 工具
+translation.worklog.listingAvailableMcpServers	正在列出可用的 MCP 服务器
+translation.worklog.listingToolsFor	正在列出 {{displayName}} 的工具
+translation.worklog.listingToolsOnMcpServer	正在列出 MCP 服务器 {{server}} 上的工具
+translation.worklog.loading	加载中…
+translation.worklog.loadingChanges	正在加载更改…
+translation.worklog.loadingCurrentConfig	正在加载当前配置…
+translation.worklog.loadingCurrentProfile	正在加载当前配置文件…
+translation.worklog.loadingNetworkPolicy	正在加载网络策略…
+translation.worklog.localAccessRequested	已请求本地机器访问
+translation.worklog.localMachineConnected	本地机器已连接
+translation.worklog.localMachineDisconnected	连接已断开
+translation.worklog.localMachineIdentityUnknown	本地机器
+translation.worklog.localMachineChipLabel	本地助手
+translation.worklog.localMachineChipDisconnectedAria	本地助手（连接丢失）
+translation.worklog.localMachineChipRevokedAria	本地助手（已断开）
+translation.worklog.localAccessExpired	本地机器访问请求已过期
+translation.worklog.retryLocalAccess	请求新代码
+translation.worklog.retryLocalAccessAndConnect	连接此机器
+translation.worklog.failedToRetryLocalAccess	无法续期访问或连接机器。请重试。
+translation.worklog.localAccessRevoked	本地机器已断开
+translation.worklog.localAccessRevokedDescription	Devin 不再有本地机器的访问权限。
+translation.worklog.localAccessSuperseded	本地机器访问请求已被替换
+translation.worklog.localAccessSupersededDescription	一个更新的访问请求替换了此请求，因此其配对代码不再有效。
+translation.worklog.localAccessDeclined	本地机器访问被拒绝
+translation.worklog.localAccessDeclinedDescription	Devin 没有此机器的访问权限。
+translation.worklog.localAccessSignInRequired	在此机器上登录 Devin 即可在此处批准，或运行下方命令。
+translation.worklog.localAccessFailed	连接失败。请重试，或运行下方命令。
+translation.worklog.handoffRequested	Devin 想在其 VM 中继续
+translation.worklog.handoffDiffDescription	把你的未提交更改作为 diff 发送
+translation.worklog.handoffSent	本地更改已发送。
+translation.worklog.handoffDeclined	本地更改已拒绝。
+translation.worklog.handoffOpenInDesktop	在 Devin Desktop 中打开此会话以发送或拒绝这些更改。
+translation.worklog.approveLocalAccess	批准
+translation.worklog.declineLocalAccess	拒绝
+translation.worklog.useTerminalInstead	改用终端
+translation.worklog.connectingLocalMachine	连接中…
+translation.worklog.tryAgain	重试
+translation.worklog.revokeLocalAccess	断开本地机器
+translation.worklog.failedToRevokeLocalAccess	无法断开本地机器。
+translation.worklog.bypassForConnection	此连接免确认
+translation.worklog.localApprovalModeBypass	跳过权限
+translation.worklog.localApprovalModeNormal	逐条批准
+translation.worklog.localApprovalModeSmart	智能权限
+translation.worklog.bypassPermissionsDescription	本次连接剩余时间跳过本地工具的逐条提示。待处理的请求会立即批准。
+translation.worklog.bypassPermissionsWaitingForMachine	等待本地机器…
+translation.worklog.localEditCount_one	{{count}} 处编辑
+translation.worklog.localEditCount_other	{{count}} 处编辑
+translation.worklog.localBinaryFile	二进制文件
+translation.worklog.localAskRuleBuiltin	因 Devin CLI 的内置规则而每次询问：
+translation.worklog.localAskRuleUser	因你 Devin CLI 配置中的询问规则而每次询问：
+translation.worklog.localAskRuleOrg	因你组织的规则而每次询问：
+translation.worklog.localAskRuleUnknown	因以下规则而每次询问：
+translation.worklog.localProjectRule	项目规则：{{rule}} · 工作区：{{workspace}}
+translation.worklog.allowForProject	在此项目始终允许
+translation.worklog.denyForProject	在此项目始终拒绝
+translation.worklog.localRuleCheckFailed	无法检查你的规则。请在允许前审阅此调用。
+translation.worklog.localBypassBlocked	以下问题修复前无法开启免确认：
+translation.worklog.manageBotAccess	管理 {{botName}} 访问
+translation.worklog.bypassPermissionsFailed	无法更改本地权限：{{error}}
+translation.worklog.failedToRequestBypassPermissions	请求跳过本地权限失败。
+translation.worklog.noPermissionBypassPermissions	你没有更改本地机器权限的权限
+translation.worklog.macroLabel	宏：{{macro}}
+translation.worklog.manageProfile	管理 {{profileName}}
+translation.worklog.mandatoryProfileLocksNetworkControls	{{profileName}} 配置文件是强制的，因此此会话无法关闭网络控制。你只能进一步限制下方目标。
+translation.worklog.mcpAuthConnect	连接
+translation.worklog.mcpNewConnection	新连接
+translation.worklog.mcpShare	共享
+translation.worklog.mcpShareQuestion	你已连接 {{server}}。要给此 {{botName}} 一个新的 {{server}} 连接，还是共享你当前的连接？共享可让此 {{botName}} 使用你的登录。
+translation.worklog.mcpShareQuestion_named	你已连接 {{server}}。要给 {{botName}} 一个新的 {{server}} 连接，还是共享你当前的连接？共享可让 {{botName}} 使用你的登录。
+translation.worklog.mcpShareQuestionPlugin	共享会把你 {{server}} 背后的整个插件（技能、规则、hooks）和你的登录都给此 {{botName}}，或者你也可以给它一个新的 {{server}} 连接。
+translation.worklog.mcpShareQuestionPlugin_named	共享会把你 {{server}} 背后的整个插件（技能、规则、hooks）和你的登录都给 {{botName}}，或者你也可以给它一个新的 {{server}} 连接。
+translation.worklog.mcpAuthConnectLabel	连接 {{server}}
+translation.worklog.mcpAuthConnected	已连接
+translation.worklog.mcpAuthConnectionRequired	需要连接
+translation.worklog.mcpAuthConnectionFailed	连接失败
+translation.worklog.mcpAuthFailedBackticked	MCP 服务器 `{{server}}` 认证失败
+translation.worklog.mcpAuthMemberDescription	请管理员打开此会话并连接它。
+translation.worklog.mcpAuthRequested	已请求 MCP 服务器 `{{server}}` 的认证
+translation.worklog.mcpAuthSuccessfulBackticked	MCP 服务器 `{{server}}` 认证成功
+translation.worklog.mcpAuthTryAgain	重试
+translation.worklog.mcpAuthTryAgainLabel	重试：连接 {{server}}
+translation.worklog.mcpCreatedSessions_one	已创建一个 Devin 会话
+translation.worklog.mcpCreatedSessions_other	已创建 {{count}} 个 Devin 会话
+translation.worklog.mcpCreatingSessions_one	正在创建一个 Devin 会话
+translation.worklog.mcpCreatingSessions_other	正在创建 {{count}} 个 Devin 会话
+translation.worklog.mcpFailedToCreateSessions_one	创建会话失败
+translation.worklog.mcpFailedToCreateSessions_other	创建 {{count}} 个会话失败
+translation.worklog.mcpInstallConfigure	配置
+translation.worklog.mcpInstallFailed	安装失败
+translation.worklog.mcpConnectionAdded	连接已添加
+translation.worklog.mcpConnectionRemoved	连接已移除
+translation.worklog.mcpScope	范围
+translation.worklog.mcpScopePersonal	个人
+translation.worklog.mcpScopeOrganization	组织
+translation.worklog.mcpScopeHelp	你组织的所有成员共享此连接。
+translation.worklog.mcpScopeHelpLabel	关于连接范围
+translation.worklog.mcpScopeUnspecified	未指定
+translation.worklog.mcpScopeUnavailable	批准前必须已知连接范围。
+translation.worklog.mcpSource	来源
+translation.worklog.mcpSourceMarketplace	Devin 市场
+translation.worklog.mcpSourceCustom	自定义服务器
+translation.worklog.mcpAccess	访问范围
+translation.worklog.mcpAccessOrganization	你组织中的所有人
+translation.worklog.mcpAccessPersonal	仅你
+translation.worklog.mcpAccessBot	此 {{botName}}
+translation.worklog.mcpAddAccount	添加账户
+translation.worklog.mcpAddAccountRequest	为 {{server}} 添加另一个账户。
+translation.worklog.mcpConnectedAccounts	已连接账户
+translation.worklog.mcpConnectedAccountCount_one	{{count}} 个账户
+translation.worklog.mcpConnectedAccountCount_other	{{count}} 个账户
+translation.worklog.mcpConnectedAccountMore_one	还有 {{count}} 个
+translation.worklog.mcpConnectedAccountMore_other	还有 {{count}} 个
+translation.worklog.mcpSourceMarketplaceBadge	市场
+translation.worklog.mcpSourceCustomBadge	自定义
+translation.worklog.mcpServerName	MCP 服务器 {{server}}
+translation.worklog.memoryIndexClearFailed	清除记忆索引失败
+translation.worklog.memoryIndexCleared	已清除记忆索引
+translation.worklog.memoryIndexUpdateFailed	更新记忆索引失败
+translation.worklog.memoryIndexUpdated	已更新记忆索引
+translation.worklog.memoryNoteRemoveFailed	移除记忆笔记 {{name}} 失败
+translation.worklog.memoryNoteRemoved	已移除记忆笔记 {{name}}
+translation.worklog.memoryNoteSaveFailed	保存记忆笔记 {{name}} 失败
+translation.worklog.memoryNoteSaved	已保存记忆笔记 {{name}}
+translation.worklog.mergeIntoMainChat	合并到主聊天
+translation.worklog.moreFiles	+{{hiddenCount}} 个文件
+translation.worklog.networkConfigUpdated	网络配置已更新。
+translation.worklog.networkConfigUpdatedSleep	网络配置已更新。Devin 将短暂休眠以应用配置，随后会自行唤醒。
+translation.worklog.networkConfigUpdatedResumed	网络配置已更新。正在唤醒 Devin 用新配置重试。
+translation.worklog.networkControlsDisabled	此会话的网络控制已禁用。
+translation.worklog.networkPolicyUnavailable	无法加载网络策略。
+translation.worklog.networkRequestAlreadyResolved	网络访问请求已处理。
+translation.worklog.newerSuggestionAvailable	有更新的建议可用
+translation.worklog.noChanges	无更改
+translation.worklog.noPermissionRevokeAction	你没有断开此本地机器的权限
+translation.worklog.codeScanSetupFormTitle	代码扫描设置
+translation.worklog.codeScanSetupFormSubmit	开始扫描
+translation.worklog.codeScanSetupFormSubmitted	配置已发送给 Devin
+translation.worklog.codeScanSetupFormDismissed	表单已关闭
+translation.worklog.codeScanSetupFormRequired	填写必填字段
+translation.worklog.codeScanSetupFormReady	检查选项，然后提交
+translation.worklog.codeScanSetupFormChatgptPlanAcuNotice	扫描不在你的 ChatGPT 套餐内，会消耗你的 Devin ACU。
+translation.worklog.codeScanSetupFormChatgptPlanQuotaNotice	扫描不在你的 ChatGPT 套餐内，会消耗你的 Devin 配额。
+translation.worklog.codeScanSetupFormFailed	无法发送配置
+translation.worklog.codeScanSetupFormEnabled	已启用
+translation.worklog.codeScanSetupFormDisabled	已禁用
+translation.worklog.memoryDriveSyncedTitle	已更新记忆
+translation.worklog.memoryDriveSyncedTitleWithSummary	已更新记忆：{{summary}}
+translation.worklog.memoryDriveSyncedTitle_user	已更新个人记忆
+translation.worklog.memoryDriveSyncedTitleWithSummary_user	已更新个人记忆：{{summary}}
+translation.worklog.memoryDriveSyncedTitle_bot	已更新 {{botName}} 记忆
+translation.worklog.memoryDriveSyncedTitleWithSummary_bot	已更新 {{botName}} 记忆：{{summary}}
+translation.worklog.memoryDriveManage	管理记忆
+translation.worklog.memoryDriveDiffTruncated	Diff 在大小上限处截断。
+translation.worklog.plushieTitle	玩偶申请
+translation.worklog.plushieIntro	我应该把它寄到哪里？
+translation.worklog.plushieOwnerOnly	这个玩偶是别人申请的！在别处向我申请你自己的。
