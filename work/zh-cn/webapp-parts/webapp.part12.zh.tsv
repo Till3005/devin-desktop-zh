@@ -1,0 +1,500 @@
+translation.billing.invoices.clippedNotice_one	已截取你日期范围内最近的 {{count}} 张账单。更早的账单请选更窄的范围。
+translation.billing.invoices.clippedNotice_other	已截取你日期范围内最近的 {{count}} 张账单。更早的账单请选更窄的范围。
+translation.billing.invoices.filterByDate	按日期筛选
+translation.billing.invoices.from	从
+translation.billing.invoices.to	到
+translation.billing.invoices.clear	清除
+translation.billing.invoices.noInvoicesFound	未找到账单
+translation.billing.invoices.date	日期
+translation.billing.invoices.status	状态
+translation.billing.invoices.amount	金额
+translation.billing.invoices.viewInvoice	查看账单
+translation.billing.invoices.payInvoice	支付账单
+translation.billing.invoices.paymentDeclinedKeep	你的最近一笔付款未成功。为保留订阅，需更新付款信息。
+translation.billing.invoices.paymentDeclinedRenew	你的最近一笔付款未成功。为续订，需更新付款信息。
+translation.billing.planNames.trial	试用
+translation.billing.planNames.free	免费版
+translation.billing.planNames.pro	Pro
+translation.billing.planNames.max	Max
+translation.billing.planNames.team	Team
+translation.billing.planNames.teams	Teams
+translation.billing.planNames.enterprise	Enterprise
+translation.billing.prScoreboard.merged	已合并
+translation.billing.prScoreboard.open	打开中
+translation.billing.prScoreboard.closed	已关闭
+translation.billing.planColumn.updatingPlan	正在更新计划...
+translation.billing.planColumn.switchToFreeAtCycleEnd	你的计划将在当前计费周期末切换为免费版。
+translation.billing.planColumn.scheduled	已排定
+translation.billing.planColumn.contactSales	联系销售
+translation.billing.planColumn.switchToPlanAtCycleEnd	你的计划将在当前计费周期末切换为 {{plan}}。
+translation.billing.planColumn.switchPlan	切换计划
+translation.billing.planColumn.individualPlansOnly	Pro 和 Max 计划面向个人，不对多成员组织开放。你的组织当前有 {{memberCount}} 名成员。
+translation.billing.planColumn.promoLoadError	无法加载你的优惠，结账已暂停以免按原价扣费。请重试。
+translation.billing.planColumn.individualPlans	个人计划
+translation.billing.planColumn.businessPlans	商业计划
+translation.billing.planManagement.retrieveError	获取订阅时出错。
+translation.billing.planManagement.notAuthorized	你无权管理计费。<lnk>请管理员帮忙。</lnk>
+translation.billing.planManagement.description	管理你的订阅计划
+translation.billing.planManagement.updated	你的订阅已更新
+translation.billing.planManagement.updateError	更新订阅时出错。请刷新页面重试。
+translation.billing.planManagement.legacyPlanBody	你当前是旧版计划。请<lnk>联系支持</lnk>升级到新计划。
+translation.billing.planManagement.legacyPlan	旧版计划
+translation.billing.planManagement.manageSubscription	管理订阅
+translation.billing.sessionLimit.acuUpdated	会话 ACU 总上限已更新
+translation.billing.sessionLimit.usageUpdated	会话用量上限已更新
+translation.billing.sessionLimit.acuWhole	会话 ACU 总上限必须是整数
+translation.billing.sessionLimit.usageWhole	会话用量上限必须是整数
+translation.billing.sessionLimit.acuTooLarge	会话 ACU 总上限过大
+translation.billing.sessionLimit.usageTooLarge	会话用量上限过大
+translation.billing.sessionLimit.acuMin	会话 ACU 总上限至少为 5
+translation.billing.sessionLimit.usageMin	会话用量上限至少为 5
+translation.billing.sessionLimit.usageLabel	会话用量上限
+translation.billing.sessionLimit.tooltip	达到时需手动放行。变更只对新会话生效，不影响运行中的会话
+translation.billing.sessionLimit.usageDescription	Devin 每个会话最多可使用的按需用量
+translation.billing.sessionLimit.acuRetrieveError	获取会话 ACU 总上限时出错，请稍后重试。
+translation.billing.sessionLimit.usageRetrieveError	获取会话用量上限时出错，请稍后重试。
+translation.billing.sessionLimit.acuUpdateError	更新会话 ACU 总上限时出错，请稍后重试。
+translation.billing.sessionLimit.usageUpdateError	更新会话用量上限时出错，请稍后重试。
+translation.billing.lowUsageToast.lowAcuTitle	你的 ACU 快用完了！
+translation.billing.lowUsageToast.lowAcuDescription_one	你的组织还剩 {{formattedCount}} ACU。ACU 用完后 Devin 会休眠。
+translation.billing.lowUsageToast.lowAcuDescription_other	你的组织还剩 {{formattedCount}} ACU。ACU 用完后 Devin 会休眠。
+translation.billing.lowUsageToast.sessionLimitTitle	你快达到会话花费上限了！
+translation.billing.lowUsageToast.sessionLimitDescription	除非提高会话花费上限，否则 Devin 会休眠。
+translation.billing.lowUsageToast.manageSessionLimit	管理会话上限
+translation.billing.lowUsageToast.dailyQuotaUsed	每日配额已用 {{percent}}%
+translation.billing.lowUsageToast.weeklyQuotaUsed	每周配额已用 {{percent}}%
+translation.billing.lowUsageToast.dailyResetsIn	每日配额 {{hours}} 小时后重置
+translation.billing.lowUsageToast.weeklyResetsIn	每周配额 {{days}} 天后重置
+translation.billing.lowUsageToast.quotaTitle	你的用量配额快用完了！
+translation.billing.lowUsageToast.upgradePlan	升级计划
+translation.billing.lowUsageToast.quotaDescription	你的{{parts, list}}。
+translation.billing.lowUsageToast.quotaDescriptionWithReset	你的{{parts, list}}（{{resets, list}}）。
+translation.billing.hardCap.or	或
+translation.billing.hardCap.continueNew	在新会话中继续
+translation.billing.hardCap.continueNewBody	已达会话上限。Devin 在聚焦、范围明确的任务上表现最好。在新会话中接着做——它会自动引用此会话。<lineBreak /><lineBreak />以后把工作拆小能<lnk>提高效率<icon /></lnk>。
+translation.billing.hardCap.creatingSession	正在创建会话…
+translation.billing.hardCap.createFailed	创建会话失败，请重试。
+translation.billing.hardCap.resumeFailed	恢复会话失败
+translation.billing.hardCap.continueCurrent	继续当前会话
+translation.billing.hardCap.acknowledging	正在确认…
+translation.billing.hardCap.extendAndContinue	提高上限并继续
+translation.billing.hardCap.acknowledgeFailed	确认失败，请重试。
+translation.billing.hardCap.extendAcu	将此会话的 ACU 上限提高 20% 让它继续工作。你组织的管理员会收到通知。
+translation.billing.hardCap.extendUsage	将此会话的用量上限提高 20% 让它继续工作。你组织的管理员会收到通知。
+translation.billing.spendingLimits.set	花费上限已设置
+translation.billing.spendingLimits.removed	花费上限已移除
+translation.billing.spendingLimits.titleUsage	为此会话设置用量上限
+translation.billing.spendingLimits.titleOnDemand	为此会话设置按需用量上限
+translation.billing.spendingLimits.loadError	获取会话花费上限出错，请稍后重试。
+translation.billing.spendingLimits.notNegative	值不能为负
+translation.billing.spendingLimits.mustInteger	值必须是整数
+translation.billing.spendingLimits.tooLarge	值不能超过 10000
+translation.billing.spendingLimits.belowUsage	值不能低于上次交互以来的用量
+translation.billing.spendingLimits.updateError	更新会话出错，请稍后重试。
+translation.billing.spendingLimits.acuLimitLabel	自上次消息起的 ACU 上限
+translation.billing.spendingLimits.onDemandLimitLabel	自上次消息起的按需上限
+translation.billing.spendingLimits.acuLimitHelp	设置自你上次消息起 Devin 可使用的最大 ACU 数
+translation.billing.spendingLimits.onDemandLimitHelp	设置自你上次消息起 Devin 可使用的最大按需用量
+translation.billing.spendingLimits.acuSinceLast	自上次消息起的 ACU 用量
+translation.billing.spendingLimits.onDemandSinceLast	自上次消息起的按需用量
+translation.billing.spendingLimits.acuSleepHint	达到你的 ACU 上限时 Devin 会休眠
+translation.billing.spendingLimits.onDemandSleepHint	按需用量达到你的上限时 Devin 会休眠
+translation.billing.spendingLimits.acuTotal	会话 ACU 总用量
+translation.billing.spendingLimits.onDemandTotal	会话按需总用量
+translation.billing.spendingLimits.adminOnlyAcu	只有管理员能全局保存 ACU 上限
+translation.billing.spendingLimits.adminOnlyOnDemand	只有管理员能全局保存按需上限
+translation.billing.spendingLimits.removeLimit	移除上限
+translation.billing.spendingLimits.sleepDescription	达到上限时 Devin 休眠。你随时可以唤醒它
+translation.billing.spendingLimits.useForFutureSessions	用于以后的会话
+translation.billing.spendingLimits.saveLimitIn	在 <lnk>Devin 设置</lnk>中保存此上限
+translation.billing.codeScansTable.repository	仓库
+translation.billing.codeScansTable.organization	组织
+translation.billing.codeScansTable.scanCountTitle	扫描次数
+translation.billing.codeScansTable.scans	扫描
+translation.billing.codeScansTable.acusCurrentTitle	本周期消耗的 ACU
+translation.billing.codeScansTable.acusCurrentCycle	本周期 ACU（{{label}}）
+translation.billing.codeScansTable.percentOfTotalTitle	此行 ACU ÷ 此视图范围本计费周期的 ACU 总量
+translation.billing.codeScansTable.percentOfTotal	占比 %
+translation.billing.codeScansTable.acusPreviousTitle	上周期消耗的 ACU
+translation.billing.codeScansTable.acusPreviousCycle	上周期 ACU（{{label}}）
+translation.billing.codeScansTable.percentChangeTitle	对比整个上周期 ACU 消耗的变化
+translation.billing.codeScansTable.percentChange	变化 %
+translation.billing.codeScansTable.sessionsThisCycle	本周期会话
+translation.billing.codeScansTable.sessionsLastCycle	上周期会话
+translation.billing.codeScansTable.lastScanTitle	最近创建的扫描
+translation.billing.codeScansTable.lastScan	最近扫描
+translation.billing.codeScansTable.loadFailed	加载代码扫描数据失败，请重试。
+translation.billing.codeScansTable.noData	无可用数据
+translation.billing.organizationsTable.nameTitle	组织名
+translation.billing.organizationsTable.name	名称
+translation.billing.organizationsTable.unitCurrentTitle	本期间消耗的 {{unit}}
+translation.billing.organizationsTable.unitCycle	{{unit}}（{{label}}）
+translation.billing.organizationsTable.percentOfTotalTitle	此组织的 {{unit}} ÷ 本计费周期所有组织合计的 {{unit}}
+translation.billing.organizationsTable.percentOfTotal	占比 %
+translation.billing.organizationsTable.unitThisMonthTitle	本月消耗的 {{unit}}
+translation.billing.organizationsTable.unitThisMonth	本月 {{unit}}
+translation.billing.organizationsTable.unitPreviousTitle	上一期间消耗的 {{unit}}
+translation.billing.organizationsTable.percentChangeTitle	对比整个上周期 {{unit}} 消耗的变化
+translation.billing.organizationsTable.percentChange	变化 %
+translation.billing.organizationsTable.percentChangeLong	变化 %
+translation.billing.organizationsTable.percentChangeLongTitle	上期间到本期间的变化
+translation.billing.organizationsTable.usage	用量
+translation.billing.organizationsTable.usageMonthlyTooltip	当前月度窗口内已用的月度 ACU 上限百分比
+translation.billing.organizationsTable.usageCycleTooltip	本计费周期已用的月度 ACU 上限百分比
+translation.billing.organizationsTable.noData	无可用数据
+translation.billing.organizationsTable.deletedOn	删除于 {{date}}
+translation.billing.organizationsTable.deleted	已删除
+translation.billing.usersTable.emailTitle	用户邮箱
+translation.billing.usersTable.email	邮箱
+translation.billing.usersTable.serviceUserNameTitle	服务用户名
+translation.billing.usersTable.userNameTitle	用户名
+translation.billing.usersTable.name	名称
+translation.billing.usersTable.unitCurrentTitle	本期间消耗的 {{unit}}
+translation.billing.usersTable.unitCycle	{{unit}}（{{label}}）
+translation.billing.usersTable.percentOfTotalTitle	此行 {{unit}} ÷ 此视图范围本计费周期的 {{unit}} 总量
+translation.billing.usersTable.percentOfTotal	占比 %
+translation.billing.usersTable.unitPreviousTitle	上一期间消耗的 {{unit}}
+translation.billing.usersTable.percentChangeTitle	对比整个上周期 {{unit}} 消耗的变化
+translation.billing.usersTable.percentChange	变化 %
+translation.billing.usersTable.percentChangeLong	变化 %
+translation.billing.usersTable.percentChangeLongTitle	上期间到本期间的变化
+translation.billing.usersTable.noData	无可用数据
+translation.billing.usersTable.viewSessions	查看会话
+translation.billing.unknownDate	未知日期
+translation.billing.costBreakdown.description	此组织最近 {{days}} 天模型与云计算成本占比。
+translation.billing.costBreakdown.skills	技能
+translation.billing.costBreakdown.skillsInfo	技能并不总是在上下文里。技能被使用前，会话最多只带它的名称和描述，所以只有在使用它的会话里你才为它的完整指令付费。\
+如果这个占比偏高，到 Customizations 看你最常用的技能，把过长的缩短，或把描述写得更具体让它们只在需要时加载。
+translation.billing.costBreakdown.skillsInfoLabel	关于技能的成本
+translation.billing.costBreakdown.skillsInfoLink	管理技能
+translation.billing.costBreakdown.rules	规则
+translation.billing.costBreakdown.rulesInfo	常驻规则在每个适用会话中都加载，比如使用某仓库的会话中该仓库根目录的 AGENTS.md，所以即使任务不需要你也要为它们付费。嵌套的 AGENTS.md 和带路径模式的规则只在会话碰到匹配路径时才加载。\
+如果这个占比偏高，缩短常驻规则，并把只针对仓库某部分的指引移到嵌套 AGENTS.md 或带路径模式的规则里，让它只在需要时加载。
+translation.billing.costBreakdown.rulesInfoLabel	关于规则的成本
+translation.billing.costBreakdown.rulesInfoLink	管理规则
+translation.billing.costBreakdown.connectedMcps	已连接 MCP
+translation.billing.costBreakdown.connectedMcpsInfo	已连接 MCP 是你选择添加的服务器，不是 Devin 内置工具。把它们列进会话上下文要付费，Devin 每次调用其工具并读取结果也要付费。\
+如果这个占比偏高，移除团队不用的服务器。
+translation.billing.costBreakdown.connectedMcpsInfoLabel	关于已连接 MCP 的成本
+translation.billing.costBreakdown.connectedMcpsInfoLink	管理 MCP
+translation.billing.costBreakdown.ciChecks	CI 检查
+translation.billing.costBreakdown.ciChecksInfo	会话开出第一个 PR 后，Devin 检查 CI 状态和读取 CI 日志的花费，包括检查运行期间的云计算成本。\
+如果这个占比偏高，加速慢的 CI 并修复不稳定的检查，让 Devin 少等。
+translation.billing.costBreakdown.ciChecksInfoLabel	关于 CI 检查的成本
+translation.billing.costBreakdown.ciChecksInfoLink	管理 CI 跟进
+translation.billing.costBreakdown.noData	此期间无成本数据。
+translation.billing.costBreakdown.loadError	无法加载成本细分。
+translation.billing.costBreakdown.vmLlmTitle	云计算与模型成本
+translation.billing.costBreakdown.vmLlmDescription	此组织最近 {{days}} 天成本占比。
+translation.billing.costBreakdown.vmLlmInfo	云计算成本取决于会话运行的机器和运行时长。\
+如果云计算占比偏高，加速慢的构建和测试让会话更早完成，不需要算力时选更小的机器。
+translation.billing.costBreakdown.vmLlmInfoLabel	关于云计算与模型成本
+translation.billing.costBreakdown.vmLlmInfoLink	管理机器
+translation.billing.costBreakdown.vm	云计算
+translation.billing.costBreakdown.llm	模型
+translation.billing.chatgptCta.title	用你的 ChatGPT 计划继续
+translation.billing.chatgptCta.description	连接个人 ChatGPT Go、Plus 或 Pro 计划，Devin 就消耗你的 ChatGPT 用量而非 Devin 额度继续工作。
+translation.billing.chatgptCta.enableDescription	你的 ChatGPT 账户已绑定。用它的计划，Devin 就消耗你的 ChatGPT 用量而非 Devin 额度继续工作。
+translation.billing.chatgptCta.reconnectDescription	你的 ChatGPT 连接已过期。重新连接，Devin 就消耗你的 ChatGPT 用量而非 Devin 额度继续工作。
+translation.billing.chatgptCta.connect	连接 ChatGPT
+translation.billing.chatgptCta.enable	使用 ChatGPT 计划
+translation.billing.chatgptCta.reconnect	重新连接 ChatGPT
+translation.billing.chatgptPlanCta.title	在 Devin 中使用你的 ChatGPT 计划
+translation.billing.chatgptPlanCta.connect	连接 ChatGPT
+translation.billing.chatgptPlanCta.purchaseUsageDescription	付费购买更多用量前，先用个人 ChatGPT Go、Plus 或 Pro 计划运行支持的模型。
+translation.billing.chatgptPlanCta.requestUsageDescription	等待期间，可用个人 ChatGPT Go、Plus 或 Pro 计划运行支持的模型。
+translation.billing.chatgptPlanCta.plansDescription	已付费 ChatGPT？用个人 Go、Plus 或 Pro 计划运行支持的模型，而不是消耗 Devin 用量。
+translation.billingTagsReview.myInbox	我的收件箱
+translation.billingTagsReview.acuProgress.summary	已打标 {{tagged}} / {{total}} ACU（{{percent}}%）
+translation.billingTagsReview.acuProgress.taggedOfTotal	已打标 <tagged>{{tagged}}</tagged> / {{total}} ACU
+translation.billingTagsReview.acuProgress.tooltip	此期间你有计费标签的会话所占 ACU 比例
+translation.billingTagsReview.acuProgress.tooltipPartial	近似值：此期间超出分析上限，只按最近会话计算
+translation.billingTagsReview.allSessions	全部会话
+translation.billingTagsReview.uncategorized	未分类
+translation.billingTagsReview.miscellaneous	杂项
+translation.billingTagsReview.tag	标签
+translation.billingTagsReview.inboxCount_one	{{count}} 个会话待决定计费标签
+translation.billingTagsReview.inboxCount_other	{{count}} 个会话待决定计费标签
+translation.billingTagsReview.nothingToReview	没有待审核项
+translation.billingTagsReview.toast.tagged	已打标为 {{tag}}
+translation.billingTagsReview.toast.dismissed	建议已忽略
+translation.billingTagsReview.toast.undoSuperseded	跳过撤销——此会话此后又被打过标
+translation.billingTagsReview.approveSuggestions.label_one	批准 {{count}} 条建议
+translation.billingTagsReview.approveSuggestions.label_other	批准 {{count}} 条建议
+translation.billingTagsReview.classifierConfidence	分类器置信度：{{confidence}}
+translation.billingTagsReview.title	审核会话
+translation.billingTagsReview.subtitle	为现有会话打计费标签
+translation.billingTagsReview.columns.suggestion	建议
+translation.billingTagsReview.columns.billingTag	计费标签
+translation.billingTagsUi.acuSpent	ACU 花费
+translation.billingTagsUi.acus	ACU
+translation.billingTagsUi.acusPerMergedPr	每已合并 PR 的 ACU
+translation.billingTagsUi.acusValue	{{value}} ACU
+translation.billingTagsUi.acceptSuggestion	接受建议
+translation.billingTagsUi.actions	操作
+translation.billingTagsUi.activityOverTime	活动趋势
+translation.billingTagsUi.age	时长
+translation.billingTagsUi.allBillingTags	全部计费标签
+translation.billingTagsUi.assignBillingTag	分配计费标签
+translation.billingTagsUi.author	作者
+translation.billingTagsUi.backToBillingTags	返回计费标签
+translation.billingTagsUi.billingTagCreated	计费标签已创建
+translation.billingTagsUi.billingTagDeleted	计费标签已删除
+translation.billingTagsUi.billingTagNoLongerExists	此计费标签已不存在。
+translation.billingTagsUi.billingTagNotFound	未找到计费标签
+translation.billingTagsUi.billingTagUpdated	计费标签已更新
+translation.billingTagsUi.bulkAlreadyResolvedSessions	所选会话已处理过
+translation.billingTagsUi.bulkAlreadyResolvedSuggestions	所选建议已处理过
+translation.billingTagsUi.bulkFailedSessions_one	更新 {{count}} 个会话失败
+translation.billingTagsUi.bulkFailedSessions_other	更新 {{count}} 个会话失败
+translation.billingTagsUi.bulkFailedSuggestions_one	更新 {{count}} 条建议失败
+translation.billingTagsUi.bulkFailedSuggestions_other	更新 {{count}} 条建议失败
+translation.billingTagsUi.cancel	取消
+translation.billingTagsUi.clear	清除
+translation.billingTagsUi.clearSelection	清除选择
+translation.billingTagsUi.collapse	折叠
+translation.billingTagsUi.createAnotherTag	再建一个标签
+translation.billingTagsUi.createBillingTag	创建计费标签
+translation.billingTagsUi.createBillingTagNamed	创建「{{name}}」
+translation.billingTagsUi.createTag	创建标签
+translation.billingTagsUi.delete	删除
+translation.billingTagsUi.deleteBillingTagDescription	已打「{{name}}」标签的会话将变为未打标未分类。
+translation.billingTagsUi.deleteBillingTagTitle	删除计费标签「{{name}}」？
+translation.billingTagsUi.description	描述
+translation.billingTagsUi.descriptionPlaceholder	用 3-5 句话描述你的项目
+translation.billingTagsUi.dismissSuggestion	忽略建议
+translation.billingTagsUi.edit	编辑
+translation.billingTagsUi.editBillingTag	编辑计费标签
+translation.billingTagsUi.everyone	所有人
+translation.billingTagsUi.expand	展开
+translation.billingTagsUi.failedToCreateBillingTag	创建计费标签失败
+translation.billingTagsUi.failedToDeleteBillingTag	删除计费标签失败
+translation.billingTagsUi.failedToLoadAssignments	加载计费标签分配失败——下方标签和建议可能不完整。请刷新页面。
+translation.billingTagsUi.failedToLoadSessions	加载会话失败。请刷新页面。
+translation.billingTagsUi.failedToLoadUsage	加载计费标签用量失败。请刷新页面。
+translation.billingTagsUi.failedToUpdateBillingTag	更新计费标签失败
+translation.billingTagsUi.failedToUpdateSuggestion	更新计费标签建议失败
+translation.billingTagsUi.loadMore	加载更多
+translation.billingTagsUi.manageBillingTags	管理计费标签
+translation.billingTagsUi.manageBillingTagsSubtitle	创建、编辑和归档计费标签
+translation.billingTagsUi.merge	合并计费标签
+translation.billingTagsUi.mergeBillingTags	合并计费标签
+translation.billingTagsUi.mergeBillingTagsDescription	选择要合并的标签和保留的那个。其他标签的所有会话移入保留标签，那些标签被归档。
+translation.billingTagsUi.mergeSelectLabel	要合并的计费标签
+translation.billingTagsUi.mergeTooManySources	最多选 {{max}} 个计费标签合并进保留的那个
+translation.billingTagsUi.mergeKeepLabel	要保留的计费标签
+translation.billingTagsUi.mergeCandidateMeta	{{sessions}} 个会话 · {{acus}} ACU
+translation.billingTagsUi.mergePreviewTitle	{{name}} 保留其名称和描述
+translation.billingTagsUi.mergePreviewMoved_one	{{sessions}} 个会话从 {{count}} 个标签移入
+translation.billingTagsUi.mergePreviewMoved_other	{{sessions}} 个会话从 {{count}} 个标签移入
+translation.billingTagsUi.mergePreviewTotals	合并后总计：{{sessions}} 个会话 · {{acus}} ACU
+translation.billingTagsUi.mergeConfirmTitle_one	把 {{count}} 个计费标签合并进 {{name}}？
+translation.billingTagsUi.mergeConfirmTitle_other	把 {{count}} 个计费标签合并进 {{name}}？
+translation.billingTagsUi.mergeConfirmDescription	此操作无法撤销。
+translation.billingTagsUi.billingTagsMerged_one	已把 {{count}} 个计费标签合并进 {{name}}
+translation.billingTagsUi.billingTagsMerged_other	已把 {{count}} 个计费标签合并进 {{name}}
+translation.billingTagsUi.failedToMergeBillingTags	合并计费标签失败
+translation.billingTagsUi.miscellaneousDescription	不属于任何标签
+translation.billingTagsUi.mySessions	我的会话
+translation.billingTagsUi.name	名称
+translation.billingTagsUi.nameRequired	名称必填
+translation.billingTagsUi.namePlaceholder	例如：重做结账流程
+translation.billingTagsUi.newBillingTagDescription	跨会话跟踪成本
+translation.billingTagsUi.noBillingTagsYet	还没有计费标签
+translation.billingTagsUi.noMatches	无匹配
+translation.billingTagsUi.noMatchingBillingTags	无匹配的计费标签
+translation.billingTagsUi.noSessionsFound	未找到会话
+translation.billingTagsUi.noSessionsFoundSuggest	未找到会话。用「为我的最近会话建议标签」获取最近会话的计费标签建议。
+translation.billingTagsUi.noSessionsMatchFilters	没有匹配所选筛选的会话
+translation.billingTagsUi.noSessionsWithTagYet	还没有带此计费标签的会话
+translation.billingTagsUi.overview	概览
+translation.billingTagsUi.peopleCount_one	{{count}} 人
+translation.billingTagsUi.peopleCount_other	{{count}} 人
+translation.billingTagsUi.prsMerged	{{value}} 已合并
+translation.billingTagsUi.prsOpenClosed	{{open}} 打开中 · {{closed}} 已关闭
+translation.billingTagsUi.pullRequests	Pull request
+translation.billingTagsUi.rejectSuggestions	拒绝建议
+translation.billingTagsUi.save	保存
+translation.billingTagsUi.searchBillingTags	搜索计费标签
+translation.billingTagsUi.searchPeople	搜索人员…
+translation.billingTagsUi.searchSessions	搜索会话
+translation.billingTagsUi.searchSessionsPlaceholder	搜索会话…
+translation.billingTagsUi.selectAllSessions	选择全部会话
+translation.billingTagsUi.selectSession	选择 {{title}}
+translation.billingTagsUi.selectedCount	已选 {{count}} 项
+translation.billingTagsUi.session	会话
+translation.billingTagsUi.sessionCount_one	{{value}} 个会话
+translation.billingTagsUi.sessionCount_other	{{value}} 个会话
+translation.billingTagsUi.sessions	会话
+translation.billingTagsUi.sessionsToReview	待审核会话
+translation.billingTagsUi.suggestedTags	已建议
+translation.billingTagsUi.tagCount_one	{{count}} 个标签
+translation.billingTagsUi.tagCount_other	{{count}} 个标签
+translation.billingTagsUi.tagged	已打标
+translation.billingTagsUi.totalUsage	总用量
+translation.billingTagsUi.uncategorizedDescription	清除标签
+translation.billingTagsUi.upToSelections	最多 {{count}} 项
+translation.billingTagsUi.usageTruncated	此标签超出分析上限，用量按截断的会话列表计算
+translation.billingTagsUi.usageTruncatedAny	因某标签超出分析上限，部分用量数字按截断的会话列表计算
+translation.billingTagsUi.viewerYou	{{name}}（你）
+translation.billingTagsUi.export	导出
+translation.billingTagsUi.exportFailed	无法导出计费标签
+translation.billingTagsUi.lastActivity	最近活动
+translation.billingTagsUi.users	用户
+translation.billingTagsUi.acusByUser	按用户的 ACU
+translation.billingTagsUi.closed	已关闭
+translation.billingTagsUi.merged	已合并
+translation.billingTagsUi.mergedPrsByUser	按用户的已合并 PR
+translation.billingTagsUi.noDataYet	暂无数据
+translation.billingTagsUi.noPrsWithTagYet	还没有带此计费标签的会话产出的 PR
+translation.billingTagsUi.noUsersWithTagYet	还没有带此计费标签的用户
+translation.billingTagsUi.open	打开中
+translation.billingTagsUi.otherUsers_one	{{count}} 个其他用户
+translation.billingTagsUi.otherUsers_other	{{count}} 个其他用户
+translation.billingTagsUi.prStateClosed	已关闭
+translation.billingTagsUi.prStateMerged	已合并
+translation.billingTagsUi.prStateOpen	打开中
+translation.billingTagsUi.prStatus	状态
+translation.billingTagsUi.prs	PR
+translation.billingTagsUi.prsMergedColumn	已合并 PR
+translation.billingTagsUi.prsOverTime	PR 趋势
+translation.billingTagsUi.prsTotalColumn	PR 总数
+translation.billingTagsUi.pullRequest	Pull request
+translation.billingTagsUi.analytics	分析
+translation.billingTagsUi.analyticsSubtitle	所选范围的打标覆盖率与 ACU 花费
+translation.billingTagsUi.billingTagsTableTitle	计费标签
+translation.billingTagsUi.billingTagsTableSubtitle	每个标签的全部会话与 ACU，跨所有时间
+translation.billingTagsUi.countWithShare	{{value}}（{{percent}}）
+translation.billingTagsUi.descriptionHelp	帮助 Devin 为合适的会话建议此标签
+translation.billingTagsUi.managedByDevin	内置
+translation.billingTagsUi.managedByDevinTooltip	此标签由 Devin 维护，不能编辑或删除。
+translation.billingTagsUi.miscellaneousRowDescription	为不属于其他任何标签的会话准备的特殊标签
+translation.billingTagsUi.reviewUncategorized	审核全部未分类
+translation.billingTagsUi.tagWithDevin	用 Devin 打标
+translation.billingTagsUi.tagWithDevinPrompt	Devin，请为过去一周的所有会话建议要创建的计费标签和标签分配。
+translation.billingTagsUi.tagWithDevinPromptAll	Devin，请把过去 {{days}} 天的所有会话打上计费标签。
+translation.billingTagsUi.tagWithDevinPromptMine	Devin，请把过去 {{days}} 天我的会话打上计费标签。
+translation.billingTagsUi.tagWithDevinPromptPeople	Devin，请把过去 {{days}} 天以下用户的会话打上计费标签。
+
+{{people}}
+translation.billingTagsUi.comingSoon	即将推出
+translation.billingTagsUi.devinCoachRecommendations	Devin Coach 建议
+translation.billingTagsUi.devinCoachRecommendationsDescription	针对此项目的 ACU 效率改进建议。
+translation.billingTagsUi.insights	洞察
+translation.billingTagsUi.insightsDescription	对值得再看一眼的花费、吞吐和趋势的自动提示。
+translation.billingTagsUi.acusPerSession	每会话 ACU
+translation.billingTagsUi.search	搜索
+translation.billingTagsUi.createWithDevin	用 Devin 创建
+translation.billingTagsUi.createWithDevinPrompt	Devin，请根据以下来源帮我创建计费标签
+
+[在此上传附件并贴链接]
+translation.billingTagsUi.createBillingTagOptions	更多创建方式
+translation.billingTagsUi.settingsButton	计费标签设置
+translation.billingTagsUi.settingsTitle	计费标签设置
+translation.billingTagsUi.settingsDescription	这些设置对组织内所有人生效。
+translation.billingTagsUi.notificationsLabel	计费标签通知
+translation.billingTagsUi.notificationsDescription	当成员有需要打计费标签的会话时在侧栏显示角标。
+translation.billingTagsUi.notificationsUpdateFailed	更新计费标签通知失败。
+translation.billingBanner.assignToDevin	交给 Devin
+translation.billingBanner.deepwiki	DeepWiki
+translation.billingBanner.deepwikiDescription	自动生成的文档
+translation.billingBanner.devinReview	Devin Review
+translation.billingBanner.devinReviewDescription	AI 驱动的 PR 评审
+translation.billingBanner.payInvoiceDirectly	想直接支付账单？
+translation.billingBanner.planAndReview	用 Devin 规划与评审
+translation.billingBanner.tryTheseTools	无需订阅即可试用这些工具：
+translation.billingBanner.viewInvoices	查看账单
+translation.blockedAction.permissionDeniedTitle	操作不被允许
+translation.blockedAction.permissionDeniedMessage	你在此会话中无权这样做。请向会话所有者申请访问。
+translation.outOfCreditsToast.title	你的额度用完了
+translation.outOfCreditsToast.action	获取更多额度
+translation.blockers.spendingFrozen	你的 ACU 用量已达上限。请联系你的企业管理员。
+translation.blueprints.selectForRemoval	选择要移除的 {{repository}}
+translation.blueprints.removalLimit	一次最多移除 {{count}} 个仓库。
+translation.blueprints.removalBlocked	没有移除任何仓库。请确认这些仓库仍存在且你可配置：
+translation.blueprints.removeCount	移除 {{count}} 个
+translation.blueprints.removeTitle_one	移除 {{count}} 个仓库？
+translation.blueprints.removeTitle_other	移除 {{count}} 个仓库？
+translation.blueprints.removeDescription_one	此仓库及其 Blueprint 将从环境中移除。仓库本身不会被删除。
+translation.blueprints.removeDescription_other	这些仓库及其 Blueprint 将从环境中移除。仓库本身不会被删除。
+translation.blueprints.removeSnapshotWarning_one	现有快照仍包含此仓库。能访问其余仓库的用户仍可使用那些快照。
+translation.blueprints.removeSnapshotWarning_other	现有快照仍包含这些仓库。能访问其余仓库的用户仍可使用那些快照。
+translation.blueprints.delta.modified_one	{{count}} 个已修改
+translation.blueprints.delta.modified_other	{{count}} 个已修改
+translation.blueprints.delta.added_one	{{count}} 个新增
+translation.blueprints.delta.added_other	{{count}} 个新增
+translation.blueprints.delta.removed_one	{{count}} 个已移除
+translation.blueprints.delta.removed_other	{{count}} 个已移除
+translation.blueprints.delta.changedBlueprints_one	{{count}} 个 blueprint 已变更（{{changes, list(type: unit)}}）
+translation.blueprints.delta.changedBlueprints_other	{{count}} 个 blueprint 已变更（{{changes, list(type: unit)}}）
+translation.blueprints.delta.changedFiles_one	{{count}} 个文件已变更
+translation.blueprints.delta.changedFiles_other	{{count}} 个文件已变更
+translation.blueprints.delta.environmentChangeCount_one	{{count}} 处环境变更
+translation.blueprints.delta.environmentChangeCount_other	{{count}} 处环境变更
+translation.blueprints.delta.unchangedBlueprints_one	{{count}} 个 blueprint 未变
+translation.blueprints.delta.unchangedBlueprints_other	{{count}} 个 blueprint 未变
+translation.blueprints.delta.changeTypeAdded	新增
+translation.blueprints.delta.changeTypeRemoved	移除
+translation.blueprints.delta.changeTypeModified	修改
+translation.blueprints.delta.changeTypeUnchanged	未变
+translation.blueprints.versionCount_one	{{count}} 个版本
+translation.blueprints.versionCount_other	{{count}} 个版本
+translation.blueprints.repositoryIncludedWithBlueprints_one	此仓库（根目录加 {{count}} 个 blueprint）已为新 Devin 会话预克隆并配置
+translation.blueprints.repositoryIncludedWithBlueprints_other	此仓库（根目录加 {{count}} 个 blueprint）已为新 Devin 会话预克隆并配置
+translation.blueprints.building	构建中
+translation.blueprints.repositoryEditorDescription	在此仓库的会话中运行。
+translation.blueprints.canonicalEditorDescription	此仓库的规范 blueprint。跟随它的环境会运行这份配置。
+translation.blueprints.learnMoreAboutBlueprints	了解仓库环境 blueprint
+translation.blueprints.copyEnvVar	复制环境变量
+translation.blueprints.uploadFileEnvVarDescription	会话通过此变量访问文件
+translation.blueprints.repositoriesAdded_one	已添加 {{repository}}
+translation.blueprints.repositoriesAdded_other	已添加 {{count}} 个仓库
+translation.blueprints.yamlEditor.linePrefix	第 {{line}} 行：
+translation.blueprints.editorLayout.hideSidebar	隐藏侧栏
+translation.blueprints.editorLayout.showSidebar	显示侧栏
+translation.blueprints.editorLayout.fullScreen	全屏
+translation.blueprints.editorLayout.exitFullScreen	退出全屏
+translation.blueprints.sidebarTabs.searchWorkspaces	搜索工作区
+translation.blueprints.sidebarTabs.searchTemplates	搜索模板
+translation.blueprints.sidebarTabs.guide	指南
+translation.blueprints.sidebarTabs.workspaces	工作区
+translation.blueprints.sidebarTabs.templates	模板
+translation.blueprints.source.canonical	规范
+translation.blueprints.source.database	数据库
+translation.blueprints.source.source	来源
+translation.blueprints.source.whereLives	此 blueprint 存放位置
+translation.blueprints.source.databaseDescription	内联编辑。更改即时保存到你团队的存储。
+translation.blueprints.source.canonicalDescription	配置来自仓库的规范 blueprint。此处只读。
+translation.blueprints.source.gitDescription	事实来源是 {{filePath}}。用 Sync 拉取，用 {{prAbbrev}} 推送。
+translation.blueprints.source.switchDiscardsEdits	切换来源会丢弃未保存的编辑。
+translation.blueprints.source.switchReplacesContents	切换来源会替换编辑器内容。
+translation.blueprints.source.switchTo	切换来源到 {{target}}
+translation.blueprints.source.unsavedDiscarded	你在编辑器中未保存的编辑将被丢弃。
+translation.blueprints.source.switchConfirm	切换来源
+translation.blueprints.source.current	· 当前
+translation.blueprints.source.switchToGit	Devin 将从 <code>{{repoName}}</code> 的默认分支拉取 <code>{{filePath}}</code> 并作为事实来源。之后的编辑通过 {{prNoun}} 进行。
+translation.blueprints.source.switchToCanonical	<code>{{repoName}}</code> 的根和工作区被规范 blueprint 替换，并随其变更而更新。YAML 在此只读。
+translation.blueprints.source.switchFromCanonical	<code>{{repoName}}</code> 的根和工作区保留规范配置为可在此编辑的副本。规范机密和文件仍然生效。
+translation.blueprints.source.switchToDb	此 blueprint 将停止从 <code>{{repoName}}</code> 同步。编辑将再次直接保存到你团队的数据库。
+translation.blueprints.source.unsavedEdits	未保存的编辑
+translation.blueprints.source.syncingFrom	正在从 {{provider}} 同步…
+translation.blueprints.source.syncedOn	已于 {{time}} 从 {{provider}} 同步
+translation.blueprints.source.pullLatestFrom	从 {{provider}} 拉取最新
+translation.blueprints.source.syncFrom	从 {{provider}} 同步
+translation.blueprints.source.switchingTo	正在切换到 {{provider}}…
+translation.blueprints.source.devinStorage	Devin 存储
+translation.blueprints.source.unsavedChanges	未保存的更改
+translation.blueprints.source.recently	最近
+translation.blueprints.source.openCanonical	打开规范 blueprint
+translation.blueprints.source.followsCanonical	跟随规范 blueprint
+translation.blueprints.repositoryIncludedDescription	此仓库已为新 Devin 会话预克隆并配置
+translation.blueprints.repositoryNotIncludedDescription	开启以为新 Devin 会话预克隆并配置此仓库
+translation.blueprints.buildOnCommitLoadingDescription	仓库默认分支每次推送后构建环境
+translation.blueprints.buildOnCommitGitDescription	默认分支每次推送后用该提交的 blueprint 构建环境
+translation.blueprints.buildOnCommitSavedDescription	默认分支每次推送后用当前在此保存的 blueprint 构建环境——不用该提交的版本
+translation.blueprints.buildStatusChecksDescription	把每次构建结果显示为该提交上的 GitHub Check Run
+translation.telegramConnect.title	连接 Telegram
+translation.telegramConnect.description	选择要连接的 {{botNamePlural}}。每个都会在你的 Telegram 聊天中拥有自己的话题。
+translation.telegramConnect.connect_one	创建 {{count}} 个话题
+translation.telegramConnect.connect_other	创建 {{count}} 个话题
+translation.telegramConnect.doneTitle	全部就绪
