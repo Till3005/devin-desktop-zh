@@ -59,17 +59,17 @@ The language picker lists four Chinese packs (zh-cn/zh-tw/zh-hk/zh-mo, alongside
 |---|---|
 | ![settings zh-CN](assets/screenshots/settings-zh-cn.png) | ![picker](assets/screenshots/language-picker.png) |
 
-| Full VM screen (zh-CN) |
-|---|
-| ![fullscreen zh-CN](assets/screenshots/fullscreen-zh-cn.png) |
-
-| Agent panel webview | Traditional Chinese (Taiwan) |
+| Login state (greeting + Devin pane) | Traditional Chinese (Taiwan) |
 |---|---|
-| ![agent webview](assets/screenshots/agent-webview.png) | ![zh-TW](assets/screenshots/zh-tw.png) |
+| ![login zh-CN](assets/screenshots/agent-pane-zh.png) | ![zh-TW](assets/screenshots/zh-tw.png) |
 
-| Localized extension commands | English restored intact |
+| File menu | Localized extension commands |
 |---|---|
-| ![commands](assets/screenshots/commands.png) | ![English](assets/screenshots/settings-english.png) |
+| ![file menu](assets/screenshots/menu-zh-cn.png) | ![commands](assets/screenshots/commands.png) |
+
+| English restored intact | Full VM screen (zh-CN) |
+|---|---|
+| ![English](assets/screenshots/settings-english.png) | ![fullscreen zh-CN](assets/screenshots/fullscreen-zh-cn.png) |
 
 ## How it works
 

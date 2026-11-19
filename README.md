@@ -59,17 +59,17 @@ powershell -ExecutionPolicy Bypass -File install.ps1   # Windows
 |---|---|
 | ![设置 zh-CN](assets/screenshots/settings-zh-cn.png) | ![语言选择](assets/screenshots/language-picker.png) |
 
-| VM 全屏（zh-CN） |
-|---|
-| ![全屏 zh-CN](assets/screenshots/fullscreen-zh-cn.png) |
-
 | 登录态（问候语 + Devin 本地面板） | 繁體中文（台灣） |
 |---|---|
 | ![登录态 zh-CN](assets/screenshots/agent-pane-zh.png) | ![zh-TW](assets/screenshots/zh-tw.png) |
 
-| 扩展命令中文化 | English 切回无损 |
+| 文件菜单 | 扩展命令中文化 |
 |---|---|
-| ![命令面板](assets/screenshots/commands.png) | ![English](assets/screenshots/settings-english.png) |
+| ![文件菜单](assets/screenshots/menu-zh-cn.png) | ![命令面板](assets/screenshots/commands.png) |
+
+| English 切回无损 | VM 全屏（zh-CN） |
+|---|---|
+| ![English](assets/screenshots/settings-english.png) | ![全屏 zh-CN](assets/screenshots/fullscreen-zh-cn.png) |
 
 ## 工作原理
 
