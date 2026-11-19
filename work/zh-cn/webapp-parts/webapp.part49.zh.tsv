@@ -1,0 +1,500 @@
+translation.settingsPages.snapshotsPage.saturday	星期六
+translation.settingsPages.snapshotsPage.sunday	星期日
+translation.settingsPages.snapshotsPage.defaultEvery24Hours	默认——每 24 小时
+translation.settingsPages.snapshotsPage.daily	每天
+translation.settingsPages.snapshotsPage.weekly	每周
+translation.settingsPages.snapshotsPage.custom	自定义
+translation.settingsPages.snapshotsPage.days	天
+translation.settingsPages.snapshotsPage.weeks	周
+translation.settingsPages.snapshotsPage.minutes	分钟
+translation.settingsPages.snapshotsPage.hours	小时
+translation.settingsPages.snapshotsPage.everyDay	每天
+translation.settingsPages.snapshotsPage.every3Days	每 3 天
+translation.settingsPages.snapshotsPage.every7Days	每 7 天
+translation.settingsPages.snapshotsPage.every14Days	每 14 天
+translation.settingsPages.snapshotsPage.every30Days	每 30 天
+translation.settingsPages.snapshotsPage.never	从不
+translation.settingsPages.snapshotsPage.nextBuildAt	下次构建 <strong>{{when}}</strong>
+translation.settingsPages.snapshotsPage.nextBuildAtRelative	下次构建 <strong>{{when}}</strong>（{{relative}}）
+translation.settingsPages.snapshotsPage.rebuildsEveryHour	每小时重建
+translation.settingsPages.snapshotsPage.rebuildsEveryValueHours	每 {{value}} 小时重建
+translation.settingsPages.snapshotsPage.rebuildsEveryEveryNMinutes	每 {{every_n}} 分钟重建
+translation.settingsPages.snapshotsPage.rebuildsDaily	每天 {{at}} 重建
+translation.settingsPages.snapshotsPage.rebuildsEveryEveryNDays	每 {{every_n}} 天 {{at}} 重建
+translation.settingsPages.snapshotsPage.rebuildsEveryDay	每{{day}} {{at}} 重建
+translation.settingsPages.snapshotsPage.rebuildsEveryEveryNWeeksDay	每 {{every_n}} 周的{{day}} {{at}} 重建
+translation.settingsPages.snapshotsPage.enterpriseDefaultRebuildsValueScheduledDifferent	企业默认——{{value}}重建，每个{{value2}}的时间不同
+translation.settingsPages.snapshotsPage.rebuildsWhenLastBuildMoreThan	上次构建超过 24 小时即重建
+translation.settingsPages.snapshotsPage.baseImage	基础镜像
+translation.settingsPages.snapshotsPage.cadenceWeeks_one	每周一次
+translation.settingsPages.snapshotsPage.cadenceWeeks_other	每 {{count}} 周
+translation.settingsPages.snapshotsPage.cadenceDays_one	每天一次
+translation.settingsPages.snapshotsPage.cadenceDays_other	每 {{count}} 天
+translation.settingsPages.snapshotsPage.inDaysHours	{{days}} 天 {{hours}} 小时后
+translation.settingsPages.snapshotsPage.inHoursMinutes	{{hours}} 小时 {{minutes}} 分钟后
+translation.settingsPages.snapshotsPage.inMinutes	{{minutes}} 分钟后
+translation.settingsPages.buildFilterOptions.progress	进行中
+translation.settingsPages.buildFilterOptions.successful	成功
+translation.settingsPages.buildFilterOptions.failed	失败
+translation.settingsPages.buildFilterOptions.partial	部分
+translation.settingsPages.buildFilterOptions.cancelled	已取消
+translation.settingsPages.buildFilterOptions.allStatuses	所有状态
+translation.settingsPages.buildFilterOptions.excludingCancelled	排除已取消
+translation.settingsPages.buildFilterOptions.status	状态
+translation.settingsPages.buildFilterOptions.statusCount_one	{{count}} 个状态
+translation.settingsPages.buildFilterOptions.statusCount_other	{{count}} 个状态
+translation.settingsPages.buildJobUtils.queued	排队中
+translation.settingsPages.buildJobUtils.building	构建中
+translation.settingsPages.buildJobUtils.buildSuccessful	构建成功
+translation.settingsPages.buildJobUtils.success	成功
+translation.settingsPages.buildJobUtils.buildFailed	构建失败
+translation.settingsPages.buildJobUtils.failed	失败
+translation.settingsPages.buildJobUtils.partialBuild	部分构建
+translation.settingsPages.buildJobUtils.partial	部分
+translation.settingsPages.buildJobUtils.buildCancelled	构建已取消
+translation.settingsPages.buildJobUtils.cancelled	已取消
+translation.settingsPages.buildJobUtils.configEdited	配置已编辑
+translation.settingsPages.buildJobUtils.devinSuggestion	Devin 建议
+translation.settingsPages.buildJobUtils.scheduledRefresh	计划刷新
+translation.settingsPages.buildJobUtils.gitSync	Git 同步
+translation.settingsPages.buildJobUtils.slackPreClone	Slack 预克隆
+translation.settingsPages.buildJobUtils.enterpriseRebuild	企业重建
+translation.settingsPages.buildJobUtils.repoSecretAdded	已添加仓库机密
+translation.settingsPages.buildJobUtils.repoAdded	已添加仓库
+translation.settingsPages.buildJobUtils.setupCreated	已创建设置
+translation.settingsPages.buildJobUtils.blueprintRemoved	Blueprint 已移除
+translation.settingsPages.buildJobUtils.setupRemoved	设置已移除
+translation.settingsPages.buildJobUtils.todayTime	今天 {{time}}
+translation.settingsPages.buildJobUtils.yesterdayTime	昨天 {{time}}
+translation.settingsPages.buildJobUtils.manual	手动
+translation.settingsPages.buildRailItems.all	全部
+translation.settingsPages.buildRailItems.healthCheck	健康检查
+translation.settingsPages.buildRailItems.enterprise	企业
+translation.settingsPages.buildRailItems.environment	环境
+translation.settingsPages.buildRailItems.organization	组织
+translation.settingsPages.scheduleScope.environment	环境
+translation.settingsPages.scheduleScope.organization	组织
+translation.settingsPages.managedWebhookSheet.string	string
+translation.settingsPages.managedWebhookSheet.number	number
+translation.settingsPages.managedWebhookSheet.boolean	boolean
+translation.settingsPages.sessionsTable.session	会话
+translation.settingsPages.sessionsTable.creator	创建者
+translation.settingsPages.sessionsTable.status	状态
+translation.settingsPages.sessionsTable.created	创建时间
+translation.settingsPages.sessionsTable.acus	ACU
+translation.settingsPages.sessionsTable.cost	花费
+translation.settingsPages.sessionsTable.noSessions	没有会话。
+translation.settingsPages.devinApiPage.copyOrganizationId	复制组织 ID
+translation.settingsPages.devinApiPage.serviceUsers	服务用户
+translation.settingsPages.devinApiPage.pats	PAT
+translation.settingsPages.devinApiPage.apiKeysLegacy	API key（旧版）
+translation.settingsPages.devinApiPage.organizationIdLabel	组织 ID：
+translation.settingsPages.enterpriseDevinApiPage.serviceUsers	服务用户
+translation.settingsPages.enterpriseDevinApiPage.pats	PAT
+translation.settingsPages.enterpriseDevinApiPage.legacyApi	旧版 API
+translation.settingsPages.enterpriseDevinApiPage.deprecated	已弃用
+translation.settingsPages.enterpriseDevinApiPage.theLegacyApiIsDeprecatedUse	旧版 API 已弃用。新密钥请使用服务用户 API。
+translation.settingsPages.repoIndexingDetailPage.indexingBranch	正在索引分支
+translation.settingsPages.repoIndexingPage.indexing	索引中…
+translation.settingsPages.repoIndexingPage.notIndexed	未索引
+translation.settingsPages.repoIndexingPage.low	低
+translation.settingsPages.repoIndexingPage.fastAndLightweightFree	快速轻量（免费）
+translation.settingsPages.repoIndexingPage.medium	中
+translation.settingsPages.repoIndexingPage.balancesSpeedAndQuality	平衡速度与质量（{{lo}}）
+translation.settingsPages.repoIndexingPage.high	高
+translation.settingsPages.repoIndexingPage.moreDetailedHigherQualityWiki	更详细、更高质量的 wiki（{{lo}}）
+translation.settingsPages.repoIndexingPage.max	最高
+translation.settingsPages.repoIndexingPage.talkToTheTeamToFind	联系团队了解更多
+translation.settingsPages.repoIndexingPage.addRepositories	添加仓库
+translation.settingsPages.repoIndexingPage.selectRepositoriesToIndexForDeepwiki	选择要为 DeepWiki 和 Ask Devin 索引的仓库
+translation.settingsPages.repoIndexingPage.selectAll	全选
+translation.settingsPages.repoIndexingPage.searchRepositories	搜索仓库…
+translation.settingsPages.repoIndexingPage.failedToLoadRepositories	加载仓库失败
+translation.settingsPages.repoIndexingPage.retry	重试
+translation.settingsPages.repoIndexingPage.noRepositoriesFound	未找到仓库
+translation.settingsPages.repoIndexingPage.allRepositoriesHaveBeenIndexed	所有仓库都已索引
+translation.settingsPages.repoIndexingPage.noRepositoriesYet	还没有可用仓库
+translation.settingsPages.repoIndexingPage.adding	添加中…
+translation.settingsPages.repoIndexingPage.wikiLanguagesUpdated	Wiki 语言已更新
+translation.settingsPages.repoIndexingPage.failedToUpdateWikiLanguages	更新 wiki 语言失败
+translation.settingsPages.repoIndexingPage.deepwiki	DeepWiki
+translation.settingsPages.repoIndexingPage.chooseHowDeepwikiGeneratesAndDisplays	选择 DeepWiki 为你组织生成和展示内容的方式
+translation.settingsPages.repoIndexingPage.generation	生成
+translation.settingsPages.repoIndexingPage.configureHowDeepwikiIndexesYourRepository	配置 DeepWiki 为 Wiki 和 Ask Devin 索引你仓库源代码的方式
+translation.settingsPages.repoIndexingPage.higherEffortGeneratesBetterQualityAt	更高投入产生更好质量但花费更高
+translation.settingsPages.repoIndexingPage.selectWikiEffortLevel	选择 wiki 投入级别
+translation.settingsPages.repoIndexingPage.howOftenWikisAreRegeneratedTo	wiki 重新生成以反映代码变化的频率
+translation.settingsPages.repoIndexingPage.selectWikiRefreshFrequency	选择 wiki 刷新频率
+translation.settingsPages.repoIndexingPage.weekly	每周
+translation.settingsPages.repoIndexingPage.chooseWhichLanguagesDeepwikiContentIs	选择 DeepWiki 内容生成的语言
+translation.settingsPages.repoIndexingPage.refreshRepositories	刷新仓库
+translation.settingsPages.repoIndexingPage.add	添加
+translation.settingsPages.repoIndexingPage.tryRefreshingThePage	试试刷新页面。
+translation.settingsPages.repoIndexingPage.noIndexedRepositories	没有已索引的仓库
+translation.settingsPages.repoIndexingPage.addRepositoriesToStartIndexingFor	添加仓库以开始为 DeepWiki 和 Ask Devin 索引。
+translation.settingsPages.repoIndexingPage.noResults	没有结果
+translation.settingsPages.repoIndexingPage.tryADifferentSearchTerm	换个搜索词试试。
+translation.settingsPages.repoIndexingPage.loading	加载中…
+translation.settingsPages.repoIndexingPage.loadMore	加载更多
+translation.settingsPages.repoIndexingPage.daily	每天
+translation.settingsPages.repoIndexingPage.monthly	每月
+translation.settingsPages.repoIndexingPage.never	从不
+translation.settingsPages.repoIndexingPage.addRepositories_one	添加 {{count}} 个仓库
+translation.settingsPages.repoIndexingPage.addRepositories_other	添加 {{count}} 个仓库
+translation.settingsPages.repoIndexingPage.addRepositoriesNone	添加仓库
+translation.settingsPages.repoIndexingPage.startedIndexing_one	已开始索引 {{count}} 个仓库
+translation.settingsPages.repoIndexingPage.startedIndexing_other	已开始索引 {{count}} 个仓库
+translation.settingsPages.repoIndexingPage.branchesIndexed_one	已索引 {{count}} 个分支
+translation.settingsPages.repoIndexingPage.branchesIndexed_other	已索引 {{count}} 个分支
+translation.settingsPages.repoIndexingPage.indexingFailed	索引失败
+translation.settingsPages.repoIndexingPage.branchesFailed	{{total}} 个分支中 {{failed}} 个失败
+translation.settingsPages.repoIndexingPage.failedToStartIndexing	启动索引失败。请重试。
+translation.settingsPages.repoIndexingPage.managedByAdministrator	由你的管理员管理。
+translation.settingsPages.skillContentViewer.modifyWithDevin	用 Devin 修改
+translation.settingsPages.skillsAnalyticsPage.usageOverTime	用量随时间变化
+translation.settingsPages.skillsAnalyticsPage.dailySkillInvocationsInTheSelected	所选运行时的每日技能调用
+translation.settingsPages.skillsAnalyticsPage.invocations	调用次数
+translation.settingsPages.skillsAnalyticsPage.skillsUsed	使用的技能
+translation.settingsPages.skillsAnalyticsPage.cloudSessions	云端会话
+translation.settingsPages.skillsAnalyticsPage.invocations2	{{totaluses}} 次调用
+translation.settingsPages.skillsAnalyticsPage.agentUser	{{agentuses}} 次 agent · {{useruses}} 次用户
+translation.settingsPages.skillsAnalyticsPage.skillsUsed2	使用了 {{distinctskills}} 个技能
+translation.settingsPages.skillsAnalyticsPage.agentTriggeredUserTriggered	{{modelactivations}} 次 agent 触发 · {{userinvocations}} 次用户触发
+translation.settingsPages.skillsAnalyticsPage.skill	技能
+translation.settingsPages.skillsAnalyticsPage.sessions	会话
+translation.settingsPages.skillsAnalyticsPage.users	用户
+translation.settingsPages.skillsAnalyticsPage.uniqueUsersAssociatedWithCloudSessions	与使用了此技能的云端会话关联的独立用户数。不含本地使用。
+translation.settingsPages.skillsAnalyticsPage.lastUsed	最后使用
+translation.settingsPages.skillsAnalyticsPage.viewSessions	查看会话
+translation.settingsPages.skillsAnalyticsPage.mostInvokedSkills	调用最多的技能
+translation.settingsPages.skillsAnalyticsPage.rankedByInvocationsInTheSelected	按所选周期内的调用次数排序
+translation.settingsPages.skillsAnalyticsPage.noSkillInvocationsInThisPeriod	此周期内没有技能调用
+translation.settingsPages.skillsAnalyticsPage.taskTypes	任务类型
+translation.settingsPages.skillsAnalyticsPage.taskTypesAreAvailableForCloud	任务类型仅对云端会话可用。本地技能事件不与 Devin 会话关联。
+translation.settingsPages.skillsAnalyticsPage.distinctCloudSessionsUsingSkills	使用技能的不同云端会话
+translation.settingsPages.skillsAnalyticsPage.clear	清除
+translation.settingsPages.skillsAnalyticsPage.taskTypesAreAvailableForCloud2	任务类型仅对云端会话可用
+translation.settingsPages.skillsAnalyticsPage.noCategorizedSessionsInThisPeriod	此周期内没有已分类的会话
+translation.settingsPages.skillsAnalyticsPage.searchSkillsOrSources	搜索技能或来源…
+translation.settingsPages.skillsAnalyticsPage.unableToLoadSkillInvocations	无法加载技能调用
+translation.settingsPages.skillsAnalyticsPage.noSkillsMatchYourSearch	没有匹配你搜索的技能
+translation.settingsPages.skillsAnalyticsPage.noSkillInvocationsYet	还没有技能调用
+translation.settingsPages.skillsAnalyticsPage.tryAgain	重试
+translation.settingsPages.skillsAnalyticsPage.tryADifferentSkillOrSource	换个技能或来源试试
+translation.settingsPages.skillsAnalyticsPage.noInvocationsWereObservedInThe	最近 {{days}} 天没有观察到调用
+translation.settingsPages.skillsAnalyticsPage.last7Days	最近 7 天
+translation.settingsPages.skillsAnalyticsPage.last30Days	最近 30 天
+translation.settingsPages.skillsAnalyticsPage.cloudLocal	云端和本地
+translation.settingsPages.skillsAnalyticsPage.cloud	云端
+translation.settingsPages.skillsAnalyticsPage.local	本地
+translation.settingsPages.skillsAnalyticsPage.bugFixing	Bug 修复
+translation.settingsPages.skillsAnalyticsPage.codeQualitySecurity	代码质量与安全
+translation.settingsPages.skillsAnalyticsPage.codeReview	代码评审
+translation.settingsPages.skillsAnalyticsPage.codeReviewAnalysis	代码评审与分析
+translation.settingsPages.skillsAnalyticsPage.dataAutomation	数据与自动化
+translation.settingsPages.skillsAnalyticsPage.documentationContent	文档与内容
+translation.settingsPages.skillsAnalyticsPage.featureDevelopment	功能开发
+translation.settingsPages.skillsAnalyticsPage.migrationsUpgrades	迁移与升级
+translation.settingsPages.skillsAnalyticsPage.productionInvestigation	生产环境调查
+translation.settingsPages.skillsAnalyticsPage.refactoringOptimization	重构与优化
+translation.settingsPages.skillsAnalyticsPage.researchExploration	研究与探索
+translation.settingsPages.skillsAnalyticsPage.unitTestGeneration	单元测试生成
+translation.settingsPages.skillsAnalyticsPage.other	其他
+translation.settingsPages.skillsAnalyticsPage.security	安全
+translation.settingsPages.skillsAnalyticsPage.invocationsUnit_one	次调用
+translation.settingsPages.skillsAnalyticsPage.invocationsUnit_other	次调用
+translation.settingsPages.enterpriseReadinessPanel.l	L{{level}}
+translation.settingsPages.webhookConfigModal.tokenRegenerated	Webhook 令牌已成功重新生成
+translation.settingsPages.webhookConfigModal.failedToRegenerateToken	重新生成 webhook 令牌失败
+translation.settingsPages.webhookConfigModal.webhookConfigurationValueAccountName	{{value}}{{accountName}} 的 webhook 配置
+translation.settingsPages.webhookConfigModal.webhookConfiguration	Webhook 配置
+translation.settingsPages.slashCommandsSection.commandUpdated	命令已更新
+translation.settingsPages.slashCommandsSection.commandCreated	命令已创建
+translation.settingsPages.slashCommandsSection.failedToSaveCommand	保存命令失败
+translation.settingsPages.slashCommandsSection.commandDeleted	命令已删除
+translation.settingsPages.slashCommandsSection.failedToDeleteCommand	删除命令失败
+translation.settingsPages.slashCommandsSection.commandNameRequired	需要命令名
+translation.settingsPages.slashCommandsSection.commandMustStartLetterContainOnly	命令必须以字母开头，且只含字母、数字和连字符
+translation.settingsPages.slashCommandsSection.commandThisNameAlreadyExists	同名命令已存在
+translation.settingsPages.slashCommandsSection.promptRequired	需要提示词
+translation.settingsPages.slashCommandsSection.descriptionRequired	需要描述
+translation.settingsPages.lockUserCommitEmailToggleSetting.userCommitEmailIsNowLocked	用户提交邮箱已对所有成员锁定。
+translation.settingsPages.lockUserCommitEmailToggleSetting.membersCanNowChangeTheirCommit	成员现在可以更改其提交邮箱。
+translation.settingsPages.lockUserCommitEmailToggleSetting.failedToUpdateCommitEmailLock	更新提交邮箱锁定设置失败。
+translation.settingsPages.sessionGroupsOrgControlToggleSetting.failedToUpdateBillingTagsSetting	更新 Billing Tags 设置失败。
+translation.settingsPages.sessionGroupsToggleSetting.failedToUpdateBillingTagsSetting	更新 Billing Tags 设置失败。
+translation.settingsPages.sessionTagEnforcementToggleSetting.sessionTagEnforcementEnabledForYour	已为你的企业启用会话标签强制。
+translation.settingsPages.sessionTagEnforcementToggleSetting.sessionTagEnforcementDisabledForYour	已为你的企业禁用会话标签强制。
+translation.settingsPages.sessionTagEnforcementToggleSetting.failedToUpdateSessionTagEnforcement	更新会话标签强制设置失败。
+translation.settingsPages.orgConfigProvider.failedToResetSetting	重置设置失败
+translation.settingsPages.devinCliBundlingRow.settingUpdated	设置已更新
+translation.settingsPages.devinCliBundlingRow.failedToUpdateSetting	更新设置失败
+translation.settingsPages.devinCliBundlingRow.devinCLIBundledWindsurfButRequires	Devin CLI 随 Windsurf 捆绑但需要显式激活。
+translation.settingsPages.personalMCPSection.oauthLoginFailed	OAuth 登录失败：{{message}}
+translation.settingsPages.personalMCPSection.unableToStartOauthLinkPlease	无法启动 OAuth 链接。请重试或联系你的管理员。
+translation.settingsPages.scopeOverridesSection.overrideSaved	覆盖已保存
+translation.settingsPages.scopeOverridesSection.overrideRemoved	覆盖已移除
+translation.settingsPages.installationSecretsSection.secretsSaved	机密已保存
+translation.settingsPages.installationSecretsSection.secretUnlinked	机密已取消关联
+translation.settingsPages.installationSecretsSection.secretDeleted	机密已删除
+translation.settingsPages.installationSecretsSection.eachSecretNeedsBothNameValue	每个机密都需要名称和值。保存前请补全或移除不完整的机密行。
+translation.settingsPages.mcpToolsPanel.couldNotSaveTheToolPermission	无法保存工具权限
+translation.settingsPages.useCustomizeRows.alreadyUpToDate	已是最新
+translation.settingsPages.useCustomizeRows.appliesValue	作用于：{{value}}
+translation.settingsPages.useCustomizeRows.disabled	已禁用
+translation.settingsPages.useCustomizeRows.hook	Hook
+translation.settingsPages.marketplaceView.deactivated	已停用 {{name}}
+translation.settingsPages.marketplaceView.removedFrom	已从 {{scopeName}} 移除 {{name}}
+translation.settingsPages.marketplaceView.removed	已移除 {{name}}
+translation.settingsPages.marketplaceView.activated	已启用 {{layer}}
+translation.settingsPages.marketplaceView.deactivating	停用中…
+translation.settingsPages.marketplaceView.uploadedPlugin	已上传插件
+translation.settingsPages.marketplaceView.bundleDescription	你在这里编辑的技能、规则、MCP 和 hook。
+translation.settingsPages.marketplaceView.bundleDescriptionUser	你在这里编辑的技能、规则、MCP 和 hook，仅你自己的会话使用。
+translation.settingsPages.marketplaceView.bundleDescriptionOrg	你在这里编辑的技能、规则、MCP 和 hook，此组织内所有人使用。
+translation.settingsPages.marketplaceView.bundleDescriptionScope	你在这里编辑的技能、规则、MCP 和 hook，{{scope}}上所有人使用。
+translation.settingsPages.marketplaceView.deactivate	停用
+translation.settingsPages.marketplaceView.uninstallFromScope	从 {{scope}} 卸载
+translation.settingsPages.marketplaceView.deactivateTitle	停用 {{name}}？
+translation.settingsPages.marketplaceView.uninstallTitle	卸载 {{name}}？
+translation.settingsPages.marketplaceView.addAnotherInstallationHint	获得它自己的登录和设置。你当前的安装不会改变。
+translation.settingsPages.marketplaceView.existingInstallation	你已有 1 个安装 · {{status}}
+translation.settingsPages.marketplaceView.existingInstallations_one	你已有 {{total}} 个安装 · {{connected}} 个已连接
+translation.settingsPages.marketplaceView.existingInstallations_other	你已有 {{total}} 个安装 · {{connected}} 个已连接
+translation.settingsPages.marketplaceView.viewInstallation	查看安装
+translation.settingsPages.marketplaceView.viewInstallations	查看安装
+translation.settingsPages.marketplaceView.couldNotInstall	无法安装 {{pluginName}}
+translation.settingsPages.marketplaceView.couldNotUninstall	无法卸载 {{pluginName}}
+translation.settingsPages.marketplaceView.couldNotActivate	无法启用 {{pluginName}}
+translation.settingsPages.marketplaceView.couldNotDeactivate	无法停用 {{pluginName}}
+translation.settingsPages.marketplaceView.organization	组织
+translation.settingsPages.marketplaceView.personal	个人
+translation.settingsPages.marketplaceView.organizationPlugin	组织插件
+translation.settingsPages.marketplaceView.personalPlugin	个人插件
+translation.settingsPages.marketplaceView.scopePlugin	{{scope}}插件
+translation.settingsPages.enterpriseApiKeysTable.revokeSuccess	API key 撤销成功
+translation.settingsPages.enterpriseApiKeysTable.revokeManySuccess_one	{{count}} 个 API key 撤销成功
+translation.settingsPages.enterpriseApiKeysTable.revokeManySuccess_other	{{count}} 个 API key 撤销成功
+translation.settingsPages.enterpriseApiKeysTable.revokeFailed	撤销 API key 失败
+translation.settingsPages.enterpriseApiKeysTable.unknown	未知
+translation.settingsPages.securityProfileSelect.enterpriseProfiles	企业配置文件
+translation.settingsPages.securityProfileSelect.orgProfiles	组织配置文件
+translation.settingsPages.securityProfileSelect.noSecurityProfile	无安全配置文件
+translation.settingsPages.securityProfileSelect.unknownProfile	未知配置文件
+translation.settingsPages.githubSettingsItems.autoJoiningEnabled	GitHub 自动加入已启用
+translation.settingsPages.githubSettingsItems.autoJoiningDisabled	GitHub 自动加入已禁用
+translation.settingsPages.githubSettingsItems.failedToUpdateAutoJoining	更新 GitHub 自动加入设置失败
+translation.settingsPages.customizeIntroDialog.sampleSkillBody	打开 PR 之前：\
+1. 运行 pnpm lint。\
+2. 运行受影响的测试。\
+3. 关联工单。
+translation.settingsPages.installControl.install	安装
+translation.settingsPages.installControl.installing	安装中…
+translation.settingsPages.installControl.installed	已安装
+translation.settingsPages.installControl.uninstall	卸载
+translation.settingsPages.installControl.uninstalling	卸载中…
+translation.settingsPages.timestampTooltip.daysAgo_one	{{count}} 天前
+translation.settingsPages.timestampTooltip.daysAgo_other	{{count}} 天前
+translation.settingsPages.hooks.reviewSettings	评审设置
+translation.settingsPages.hooks.whenPRReady	当 PR 就绪时
+translation.settingsPages.hooks.failedSaveReviewContext	保存评审上下文失败
+translation.settingsPages.hooks.failedRemoveReviewContext	移除评审上下文失败
+translation.settingsPages.hooks.failedSaveOverride	保存覆盖失败
+translation.settingsPages.hooks.failedRemoveOverride	移除覆盖失败
+translation.settingsPages.hooks.reviewTriggerSetTriggerLabel	你的分析触发器已设为 {{triggerLabel}}
+translation.settingsPages.hooks.autoReviewPreferencesHaveBeenUpdated	自动分析偏好已更新
+translation.settingsPages.hooks.failedUpdateEnrollmentStatus	更新启用状态失败
+translation.settingsPages.hooks.youDonTHavePermissionEnable	你没有为此 PR 启用自动分析的权限
+translation.settingsPages.hooks.autoReviewCanOnlyBeSet	Devin 必须先跟踪此 PR，你才能启用自动分析
+translation.settingsPages.hooks.failedUpdateAutoReviewSetting	无法更新自动分析
+translation.settingsPages.hooks.triggerModeAuto	自动分析
+translation.settingsPages.hooks.triggerModeManual	手动
+translation.settingsPages.pluginManifestEditor.fixTheErrorsBeforeSaving	请先修复错误再保存
+translation.settingsPages.pluginManifestEditor.failedToSaveManifest	保存 manifest 失败
+translation.settingsPages.pluginManifestEditor.json	{{title}} JSON
+translation.settingsPages.pluginManifestEditor.invalidJSONMessage	无效 JSON：{{message}}
+translation.settingsPages.pluginManifestEditor.invalidJSON	无效 JSON
+translation.settingsPages.pluginManifestEditor.manifestSaved	Manifest 已保存
+translation.settingsPages.serverCard.installedByASessionPluginOnly	由会话插件安装：仅在你自己的会话中可用
+translation.settingsPages.serverCard.yourInstallationOnlyAvailableInYour	你的安装：仅在你自己的会话中可用
+translation.settingsPages.serverCard.personalAccessEachMemberAuthenticatesWith	个人访问：每个成员用自己的账户认证
+translation.settingsPages.useMCPValidation.failedToListMcpTools	列出 MCP 工具失败
+translation.settingsPages.useMCPValidation.failedToListMcpToolsPlease	列出 MCP 工具失败。请重试，如持续失败请联系支持。
+translation.settingsPages.addAssetDialogs.pluginAdded	插件已添加
+translation.settingsPages.addAssetDialogs.couldNotAddThePlugin	无法添加插件
+translation.settingsPages.addAssetDialogs.add	添加
+translation.settingsPages.addAssetDialogs.enterRepositoryAsOwnerRepoFull	以 owner/repo 形式输入仓库，或输入完整的 git URL。
+translation.settingsPages.addAssetDialogs.thisScopeSPluginManifestCan	此范围的插件 manifest 无法读取，所以无法在此更改。
+translation.settingsPages.addAssetDialogs.pluginAlreadyInstalledThisScope	该插件已安装在此范围。
+translation.settingsPages.useCustomizeLayers.installAt	安装到 {{name}}
+translation.settingsPages.useCustomizeLayers.couldNotReadTheOrgManifest	无法读取组织 manifest。
+translation.settingsPages.useCustomizeLayers.installForMe	为我安装
+translation.settingsPages.useCustomizeLayers.couldNotReadYourPersonalManifest	无法读取你的个人 manifest。
+translation.settingsPages.useCustomizeLayers.installAtYourOrganization	安装到你的组织
+translation.settingsPages.useCustomizeLayers.yourOrg	你的组织
+translation.settingsPages.useCustomizeLayers.you	你
+translation.settingsPages.useCustomizeLayers.thisRemovesNameFromOwnConfiguration	这将从你自己的配置中移除 {{name}}。你启动的会话将不再加载它。
+translation.settingsPages.useCustomizeLayers.enterprise	企业
+translation.settingsPages.useCustomizeLayers.account	账户
+translation.settingsPages.pluginDetailsSheet.effects	效果：{{value}}
+translation.settingsPages.pluginDetailsSheet.appliesTo	作用于：{{value}}
+translation.settingsPages.pluginDetailsSheet.noEvents	没有事件
+translation.settingsPages.pluginDetailsSheet.source	来源
+translation.settingsPages.itemDefs.securityProfiles	安全配置文件
+translation.settingsPages.itemDefs.reusableSecurityRestrictionsSessions	会话的可复用安全限制
+translation.settingsPages.itemDefs.autoReviewDefaultBillingOrganization	自动分析的默认计费组织
+translation.settingsPages.itemDefs.fallbackOrganizationBilledAutomaticReviewsWhen	当 Devin 无法确定用户的计费组织时，自动分析计费到此处。
+translation.settingsPages.itemDefs.defaultAccess	默认访问权
+translation.settingsPages.itemDefs.defaultBillingOrganization	默认计费组织
+translation.settingsPages.itemDefs.fallbackWhenBillingOrganizationCanT	当无法为用户解析计费组织时的回退
+translation.settingsPages.itemDefs.gPT5_6Sol	GPT-5.6 Sol
+translation.settingsPages.itemDefs.openAISMostCapableModel	OpenAI 最强模型
+translation.settingsPages.itemDefs.gPT6AstraPreview	GPT-6 Astra（预览）
+translation.settingsPages.itemDefs.openAISGPT6AstraModel	OpenAI 的 GPT-6 Astra 模型
+translation.settingsPages.itemDefs.fable5_1Preview	Fable 5.1（预览）
+translation.settingsPages.itemDefs.anthropicSFable5_1ModelPreview	Anthropic 的 Fable 5.1 模型。预览可用至 9 月 22 日
+translation.settingsPages.itemDefs.opus5_5Preview	Opus 5.5（预览）
+translation.settingsPages.itemDefs.anthropicSLatestModelPreviewAvailable	Anthropic 最新模型。预览可用至 10 月 6 日
+translation.settingsPages.itemDefs.gPT6SolPreview	GPT-6 Sol（预览）
+translation.settingsPages.itemDefs.openAISModelPreviewAvailableUntil	OpenAI 的模型。预览可用至 10 月 6 日
+translation.settingsPages.itemDefs.gPT6_1SolPreview	GPT-6.1 Sol（预览）
+translation.settingsPages.itemDefs.openAISLatestModelPreviewAvailable	OpenAI 最新模型。预览可用至 10 月 13 日
+translation.settingsPages.itemDefs.billingTags	Billing Tags
+translation.settingsPages.itemDefs.trackACUUsageTaggingDevinSessions	通过给 Devin 会话打计费标签跟踪 ACU 用量
+translation.settingsPages.itemDefs.memory	记忆
+translation.settingsPages.itemDefs.letDevinKeepPersonalNotesEach	让 Devin 跨会话为每个成员保留个人笔记
+translation.settingsPages.itemDefs.allowOrgAdminsManageBillingTags	允许组织管理员管理 Billing Tags
+translation.settingsPages.itemDefs.letOrgAdminsTurnBillingTags	让组织管理员为自己组织开关 Billing Tags
+translation.settingsPages.itemDefs.dynamicWorkflows	动态工作流
+translation.settingsPages.itemDefs.allowUsersDevinSessionsRunDynamic	允许用户和 Devin 会话运行动态工作流
+translation.settingsPages.itemDefs.letDevinKeepPersonalNotesEach2	让 Devin 跨会话为每个用户保留个人笔记，可按每个组织或全企业
+translation.settingsPages.itemDefs.defaultThisOrg	此组织默认
+translation.settingsPages.itemDefs.appliedNewSessionsThisOrg	应用于此组织的新会话
+translation.settingsPages.itemDefs.defaultThisEnterprise	此企业默认
+translation.settingsPages.itemDefs.appliedNewSessionsEveryOrgOrgs	应用于每个组织的新会话。组织可以设置自己的默认值来覆盖它。
+translation.settingsPages.itemDefs.defaultProfileAutomations	automation 的默认配置文件
+translation.settingsPages.itemDefs.controlsDefaultSecurityProfileSessionsStarted	控制 automation 启动的会话的默认安全配置文件
+translation.settingsPages.itemDefs.defaultProfileSnapshotBuilds	快照构建的默认配置文件
+translation.settingsPages.itemDefs.onlyProfileSNetworkPolicyApplies	只有配置文件的网络策略作用于构建 VM。继承会话默认值。
+translation.settingsPages.itemDefs.createProfile	创建配置文件
+translation.settingsPages.itemDefs.createReusableSecurityProfileSessions	创建会话的可复用安全配置文件
+translation.settingsPages.itemDefs.editProfile	编辑配置文件
+translation.settingsPages.itemDefs.editReusableSecurityProfile	编辑可复用安全配置文件
+translation.settingsPages.itemDefs.aPIDefaultAgent	API 默认 agent
+translation.settingsPages.itemDefs.defaultAgentAPISessionsOrganization	你组织中 API 会话的默认 agent
+translation.settingsPages.itemDefs.overrides	覆盖
+translation.settingsPages.itemDefs.chooseWhichFindingTypesDevinPosts	选择 Devin 为仓库、组织或组发布哪些发现类型。
+translation.settingsPages.itemDefs.browseNotesPersonalMemoryDevin	浏览 Devin 跨会话携带的个人记忆笔记，或阅读你管理的服务用户的记忆
+translation.settingsPages.itemDefs.defaultSlackSyncChannel	默认 Slack 同步频道
+translation.settingsPages.itemDefs.newSessionsYouStartCanAutomatically	你启动的新会话可以自动同步到此 Slack 频道
+translation.settingsPages.itemDefs.repositoryPermissions	仓库权限
+translation.settingsPages.itemDefs.channelAccess	频道访问权
+translation.settingsPages.itemDefs.whetherNewDevinSessionsCanRead	新 Devin 会话能否在 Devin 已加入的公开 Slack 频道读取和发帖
+translation.settingsPages.itemDefs.directMessages	私信
+translation.settingsPages.itemDefs.whoNewDevinSessionsCanSend	新 Devin 会话可以向谁发私信
+translation.settingsPages.itemDefs.channelMapping	频道映射
+translation.settingsPages.itemDefs.mapSlackChannelsSpecificDevinOrganizations	把 Slack 频道映射到特定 Devin 组织以路由会话
+translation.settingsPages.itemDefs.devinUniversity	Devin University
+translation.settingsPages.itemDefs.learnHowUseDevinMostEffectively	学习如何最有效地使用 Devin
+translation.settingsPages.itemDefs.pylon	Pylon
+translation.settingsPages.itemDefs.linkPylonAccountDevin	关联你的 Pylon 账户到 Devin
+translation.settingsPages.itemDefs.linkIncident_ioAccountDevin	关联你的 incident.io 账户到 Devin
+translation.settingsPages.itemDefs.pagerDuty	PagerDuty
+translation.settingsPages.itemDefs.linkPagerDutyAccountDevin	关联你的 PagerDuty 账户到 Devin
+translation.settingsPages.itemDefs.fullBuildRefresh	完整构建刷新
+translation.settingsPages.itemDefs.runFullBuildWhenLastOne	当上次完整构建早于此值时运行完整构建
+translation.settingsPages.itemDefs.cloneRepositoriesAllPlatforms	在所有平台克隆仓库
+translation.settingsPages.itemDefs.makeEveryConfiguredRepositoryAvailableSnapshots	让每个已配置仓库在每个平台的快照中可用
+translation.settingsPages.itemDefs.advanced	高级
+translation.settingsPages.itemDefs.autoBuildDifferentialBuildsBuildSchedule	自动构建、差异构建和构建计划设置
+translation.settingsPages.itemDefs.signMethods	登录方式
+translation.settingsPages.itemDefs.turnEmailGoogleGitHubSignOff	为你的企业开关邮箱、Google 或 GitHub 登录
+translation.settingsPages.itemDefs.sSOConnections	SSO 连接
+translation.settingsPages.itemDefs.rotateCredentialsEnterpriseSSSOConnections	为你企业的 SSO 连接轮换凭据，并在启用处命名、编辑或移除它们
+translation.settingsPages.itemDefs.verifiedEmailDomains	已验证邮箱域名
+translation.settingsPages.itemDefs.proveOwnershipEmailDomainsDNSRecord	在 SSO 连接上使用邮箱域名前，先用 DNS 记录证明其所有权
+translation.settingsPages.itemDefs.overview	概览
+translation.settingsPages.itemDefs.allocationUsageProductivityAcrossHierarchy	你层级结构中的分配、用量和生产力
+translation.settingsPages.itemDefs.devinCoach	Devin Coach
+translation.settingsPages.itemDefs.perforce	Perforce
+translation.settingsPages.itemDefs.connectPerforceHelixCoreServer	连接 Perforce（Helix Core）服务器
+translation.settingsPages.itemDefs.automateSupportWorkflowsEscalationsDevin	用 Devin 自动化支持工作流和升级
+translation.settingsPages.itemDefs.investigateResolveIncidentsDevin	用 Devin 调查和解决事故
+translation.settingsPages.itemDefs.automateIncidentResponsePagerDutyEvents	用 PagerDuty 事件自动化事故响应
+translation.settingsPages.itemDefs.userMatching	用户匹配
+translation.settingsPages.itemDefs.howPylonSendersMatchedDevinUsers	Pylon 发送者如何匹配到 Devin 用户
+translation.settingsPages.itemDefs.pylonMCPAccess	Pylon MCP 访问权
+translation.settingsPages.itemDefs.whetherDevinCanReadModifyPylon	Devin 是否可以读取或修改 Pylon 数据
+translation.settingsPages.itemDefs.askWithoutDevinAccount	无 Devin 账户也能提问
+translation.settingsPages.itemDefs.letPeopleWithoutDevinAccountAsk	让没有 Devin 账户的人提问
+translation.settingsPages.itemDefs.pylonFollowUpMessages	Pylon 跟进消息
+translation.settingsPages.itemDefs.whetherPylonBotCanSendFollow	Pylon bot 是否可以向与 issue 关联的 Devin 会话发跟进消息
+translation.settingsPages.itemDefs.pylonAutomationTriggers	Pylon automation 触发器
+translation.settingsPages.itemDefs.whetherSupportedPylonEventsCanTrigger	受支持的 Pylon 事件是否可以触发 automation
+translation.settingsPages.itemDefs.organization	组织
+translation.settingsPages.itemDefs.fallbackOrganizationPylonSessions	Pylon 会话的回退组织
+translation.settingsPages.itemDefs.pylonSecurityProfile	Pylon 安全配置文件
+translation.settingsPages.itemDefs.appliedPylonDelegatedSessions	应用于 Pylon 委派的会话
+translation.settingsPages.itemDefs.devinCLIVersionConstraint	Devin CLI 版本约束
+translation.settingsPages.itemDefs.restrictWhichDevinCLIVersionsMembers	限制成员可以使用哪些 Devin CLI 版本。
+translation.settingsPages.itemDefs.incidentIo	incident.io
+translation.settingsPages.itemDefs.customize.plugins.personalLabel	个人插件
+translation.settingsPages.itemDefs.customize.plugins.personalDescription	插件（技能、规则、MCP 服务器和 hook 的集合），从市场、仓库或上传安装，仅你使用
+translation.settingsPages.itemDefs.customize.plugins.organizationLabel	组织插件
+translation.settingsPages.itemDefs.customize.plugins.organizationDescription	插件（技能、规则、MCP 服务器和 hook 的集合），从市场、仓库或上传安装，与组织内每个成员共享（企业账户上是组织的 manage-plugins 权限，独立账户上是企业的）
+translation.settingsPages.itemDefs.customize.plugins.enterpriseLabel	企业插件
+translation.settingsPages.itemDefs.customize.plugins.enterpriseDescription	插件（技能、规则、MCP 服务器和 hook 的集合），从市场、仓库或上传安装，与企业账户上每个组织共享
+translation.settingsPages.itemDefs.customize.skills.personalLabel	个人技能
+translation.settingsPages.itemDefs.customize.skills.personalDescription	技能（SKILL.md 指令），Devin 加载进云端会话，仅你使用
+translation.settingsPages.itemDefs.customize.skills.organizationLabel	组织技能
+translation.settingsPages.itemDefs.customize.skills.organizationDescription	技能（SKILL.md 指令），Devin 加载进云端会话，与组织内每个成员共享（企业账户上是组织的 manage-plugins 权限，独立账户上是企业的）
+translation.settingsPages.itemDefs.customize.skills.enterpriseLabel	企业技能
+translation.settingsPages.itemDefs.customize.skills.enterpriseDescription	技能（SKILL.md 指令），Devin 加载进云端会话，与企业账户上每个组织共享
+translation.settingsPages.itemDefs.customize.hooks.personalLabel	个人 hook
+translation.settingsPages.itemDefs.customize.hooks.personalDescription	Hook：在会话中某些时点自动运行的命令，仅你使用
+translation.settingsPages.itemDefs.customize.hooks.organizationLabel	组织 hook
+translation.settingsPages.itemDefs.customize.hooks.organizationDescription	Hook：在会话中某些时点自动运行的命令，与组织内每个成员共享（企业账户上是组织的 manage-plugins 权限，独立账户上是企业的）
+translation.settingsPages.itemDefs.customize.hooks.enterpriseLabel	企业 hook
+translation.settingsPages.itemDefs.customize.hooks.enterpriseDescription	Hook：在会话中某些时点自动运行的命令，与企业账户上每个组织共享
+translation.settingsPages.itemDefs.customize.rules.personalLabel	个人规则
+translation.settingsPages.itemDefs.customize.rules.personalDescription	规则：Devin 在每个会话中遵循的常驻指引，仅你使用
+translation.settingsPages.itemDefs.customize.rules.organizationLabel	组织规则
+translation.settingsPages.itemDefs.customize.rules.organizationDescription	规则：Devin 在每个会话中遵循的常驻指引，与组织内每个成员共享（企业账户上是组织的 manage-plugins 权限，独立账户上是企业的）
+translation.settingsPages.itemDefs.customize.rules.enterpriseLabel	企业规则
+translation.settingsPages.itemDefs.customize.rules.enterpriseDescription	规则：Devin 在每个会话中遵循的常驻指引，与企业账户上每个组织共享
+translation.settingsPages.postingLevels.bugs	Bug
+translation.settingsPages.postingLevels.likelyErrorsIncorrectBehaviorCode	代码中可能的错误或错误行为
+translation.settingsPages.postingLevels.flagsInvestigate	标记（需调查）
+translation.settingsPages.postingLevels.potentialIssuesWorthCloserLookBefore	合并前值得细看的潜在问题
+translation.settingsPages.postingLevels.security	安全
+translation.settingsPages.postingLevels.vulnerabilitiesSecurityHardeningSuggestions	漏洞和安全加固建议
+translation.settingsPages.postingLevels.flagsNote	标记（提示）
+translation.settingsPages.postingLevels.informationalObservationsMayNotRequireAction	可能不需要处理的观察信息
+translation.settingsPages.postingLevels.levelsList	{{levels, list}}
+translation.settingsPages.postingLevels.none	无
+translation.settingsPages.triggerMode.manual	手动
+translation.settingsPages.triggerMode.noAutomaticReviews	无自动分析
+translation.settingsPages.triggerMode.whenPRReady	当 PR 就绪时
+translation.settingsPages.triggerMode.singleReviewPerformedWhenPRReady	Devin 在 PR 就绪时分析一次，通常在其打开时
+translation.settingsPages.triggerMode.autoReview	自动分析
+translation.settingsPages.triggerMode.runsWhenPRReadyEverySubsequent	在 PR 就绪时及此后每次推送时运行
+translation.settingsPages.triggerMode.badgeWhenReady	就绪时
+translation.settingsPages.chatKeywordsTutorial.ask	Ask
+translation.settingsPages.chatKeywordsTutorial.startMessageAskGetQuickCodebase	以 _!ask_ 开头你的消息，无需启动完整 agent 即可获得代码库的快速回答
+translation.settingsPages.chatKeywordsTutorial.devinAskHowAuthWebsiteWorks	_@Devin_ !ask 网站的认证是怎么工作的？
+translation.settingsPages.chatKeywordsTutorial.authenticationHandledViaJWTTokensStored	认证通过存储在 localstorage 的 JWT token 处理。
+translation.settingsPages.chatKeywordsTutorial.aside	Aside
+translation.settingsPages.chatKeywordsTutorial.asideTellsDevinIgnoreMessage	_aside_ 告诉 Devin 忽略这条消息
+translation.settingsPages.chatKeywordsTutorial.triagedFixedAuthIssuesPR5438	已分诊并修复了 _PR #5438_ 中的认证问题。
+translation.settingsPages.chatKeywordsTutorial.asideWaitWhyDidWeZorple	aside 等等，我们为什么在这里 zorple 了 jorp？
+translation.settingsPages.chatKeywordsTutorial.looksGreatAs	现在这样就好
+translation.settingsPages.chatKeywordsTutorial.thanksOliver	谢谢，Oliver！
+translation.settingsPages.chatKeywordsTutorial.sleep	Sleep
+translation.settingsPages.chatKeywordsTutorial.sleepPausesDevin	_sleep_ 暂停 Devin
+translation.settingsPages.chatKeywordsTutorial.iLlStartRefactoringAuthModule	我现在开始重构 auth 模块。
+translation.settingsPages.chatKeywordsTutorial.sleep2	sleep
+translation.settingsPages.chatKeywordsTutorial.mute	Mute
+translation.settingsPages.chatKeywordsTutorial.muteStopsDevinFromListeningUntil	_mute_ 让 Devin 停止监听，直到你 _unmute_
+translation.settingsPages.chatKeywordsTutorial.mute2	mute
+translation.settingsPages.chatKeywordsTutorial.iThinkJorpWasAlreadyZorpled	我记得 jorp 在上次部署里已经 zorple 过了
+translation.settingsPages.chatKeywordsTutorial.unmute	unmute
