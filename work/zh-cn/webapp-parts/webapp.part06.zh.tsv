@@ -1,0 +1,500 @@
+translation.boards.identifier.tooShort_other	标识至少需要 {{count}} 个字符
+translation.boards.identifier.tooLong_one	标识最多 {{count}} 个字符
+translation.boards.identifier.tooLong_other	标识最多 {{count}} 个字符
+translation.boards.identifier.invalid	标识必须以字母开头且只使用 A-Z 和 0-9
+translation.boards.statusCategory.triage	分诊
+translation.boards.statusCategory.backlog	待办池
+translation.boards.statusCategory.todo	待办
+translation.boards.statusCategory.inProgress	进行中
+translation.boards.statusCategory.done	已完成
+translation.boards.statusCategory.canceled	已取消
+translation.boards.statusCategory.unknown	未知
+translation.boards.statusCategory.onlyStatus	仅 {{category}} 状态
+translation.boards.statusCategory.onlyBoardStatus	仅看板状态
+translation.boards.settingsPage.keyValuePairsLikePhasePhase1Click	键:值对，如 phase: Phase 1。点击编辑，拖拽排序。
+translation.boards.settingsPage.tagsAreNotAvailableOnThisBoardYet	此看板还没有标签。
+translation.boards.settingsPage.thisCannotBeUndone	此操作不可撤销。
+translation.boards.settingsPage.deleteName	删除 {{name}}
+translation.boards.settingsPage.deleteNameReason	删除 {{name}}（{{reason}}）
+translation.boards.settingsPage.removesTagFromTickets_one	将从 {{count}} 张工单移除此标签，且不可撤销。
+translation.boards.settingsPage.removesTagFromTickets_other	将从 {{count}} 张工单移除此标签，且不可撤销。
+translation.boards.settingsPage.deletesKeyAndValues_one	将删除该键及其 {{count}} 个值。
+translation.boards.settingsPage.deletesKeyAndValues_other	将删除该键及其 {{count}} 个值。
+translation.boards.settingsPage.deletesKeyAndValuesOrMore	将删除该键及其 {{number}}+ 个值。
+translation.boards.settingsPage.removesTagsFromTickets_one	将从 {{count}} 张工单移除这些标签。
+translation.boards.settingsPage.removesTagsFromTickets_other	将从 {{count}} 张工单移除这些标签。
+translation.boards.settingsPage.removesTagsFromTicketsOrMore	将从 {{number}}+ 张工单移除这些标签。
+translation.boards.settingsPage.removesAssignments_one	将从工单移除 {{count}} 个标签指派。
+translation.boards.settingsPage.removesAssignments_other	将从工单移除 {{count}} 个标签指派。
+translation.boards.settingsPage.removesAssignmentsOrMore	将从工单移除 {{number}}+ 个标签指派。
+translation.boards.settingsPage.defineReusableTicketFieldsAndChooseWhichOnes	定义可复用的工单字段，并选择哪些出现在看板行和卡片上。
+translation.boards.settingsPage.showOnBoard	在看板上显示 {{name}}
+translation.boards.settingsPage.permanentlyDeletesThisBoardAndAllOfIts	将永久删除此看板及其所有工单，且不可撤销。
+translation.boards.settingsPage.sizeTicketsWithANumberShownOnRows	用一个数字为工单估时，显示在行、卡片和工单详情上。
+translation.boards.settingsPage.customScalePlaceholder	例如 0.5、1、2、4
+translation.boards.settingsPage.turningThisOffHidesEstimatesButKeepsThe	关闭会隐藏估时，但保留数值。
+translation.boards.settingsPage.valuesOfferedInTheEstimatePickerAnyNumber	估时选择器提供的值。仍可输入任意数字。
+translation.boards.settingsPage.commaSeparatedNumbersUpToSavedSortedAnd	逗号分隔的数字，最多 {{MAX_ESTIMATE_PRESETS}} 个。保存时排序并去重。
+translation.boards.settingsPage.aPersistentDevinSessionThatEveryoneOnThis	此看板上所有人都能看到的持久 Devin 会话。成员也可以在代理面板开启个人代理。
+translation.boards.settingsPage.noAgentYetSendAMessageInThe	还没有代理。在看板页的代理面板发条消息即可启动一个。
+translation.boards.settingsPage.thisDetachesTheSharedAgentFromThisBoard	这会把共享代理从此看板对所有人解绑。会话保留在其所有者的会话列表中，代理面板的下一条消息会开启新的共享代理。个人代理不受影响。
+translation.boards.settingsPage.nameIdentifierAndDescriptionShownAcrossTheBoard	显示在整个看板上的名称、标识和描述。
+translation.boards.settingsPage.shownInTheSidebarAndAtTheTop	显示在侧边栏和看板顶部。
+translation.boards.settingsPage.sharedWithTheBoardAgentAndShownUnder	与看板代理共享，显示在看板标题下。
+translation.boards.settingsPage.howTicketPrioritiesAreNamedAndShownOn	工单优先级的命名方式，及其在行、卡片、选择器和洞察中的显示方式。
+translation.boards.settingsPage.labelsOnlyTicketsKeepTheirPriorityWhenYou	仅换标签 — 切换后工单保留其优先级。默认：{{defaultScheme}}。
+translation.boards.settingsPage.clickAStatusToRenameOrRecolorIt	点击状态可重命名或改色。拖拽以在整个看板重新排序。
+translation.boards.settingsPage.prioritySchemeDefaultHelp	紧急、高、中、低 — 用于规划工作。
+translation.boards.settingsPage.prioritySchemeSeverityHelp	严重、高、中、低 — 用于发现和事故。
+translation.boards.settingsPage.ticketKeyPrefixHelp	工单键前缀，最多 {{max}} 个字符（例如 {{example}}-12）。
+translation.boards.tagIconLabels.automation	自动化
+translation.boards.tagIconLabels.code	代码
+translation.boards.tagIconLabels.security	安全
+translation.boards.tagIconLabels.onCall	值班
+translation.boards.tagIconLabels.slack	Slack
+translation.boards.tagIconLabels.gitHub	GitHub
+translation.boards.tagIconLabels.linear	Linear
+translation.boards.tagIconLabels.ticket	工单
+translation.boards.tagIconLabels.user	用户
+translation.boards.tagIconLabels.robot	机器人
+translation.boards.tagIconLabels.bug	缺陷
+translation.boards.tagIconLabels.rocket	火箭
+translation.boards.tagIconLabels.document	文档
+translation.boards.tagIconLabels.magnifyingGlass	放大镜
+translation.boards.tagIconLabels.flask	烧瓶
+translation.boards.tagIconLabels.server	服务器
+translation.boards.tagIconLabels.palette	调色板
+translation.boards.tagIconLabels.speedometer	速度表
+translation.boards.tagIconLabels.blocked	已阻塞
+translation.boards.tagIconLabels.hourglass	沙漏
+translation.boards.tagIconLabels.globe	地球
+translation.boards.tagIconLabels.warning	警告
+translation.boards.tagIconLabels.question	疑问
+translation.boards.tagIconLabels.lightbulb	灯泡
+translation.boards.tagIconLabels.banknote	钞票
+translation.boards.tagIconLabels.lock	锁
+translation.boards.tagIconLabels.link	链接
+translation.boards.tagIconLabels.folder	文件夹
+translation.boards.tagIconLabels.database	数据库
+translation.boards.tagIconLabels.cloud	云
+translation.boards.tagIconLabels.flag	旗帜
+translation.boards.tagIconLabels.star	星星
+translation.boards.tagIconLabels.bookmark	书签
+translation.boards.colors.gray	灰色
+translation.boards.colors.blue	蓝色
+translation.boards.colors.indigo	靛蓝色
+translation.boards.colors.purple	紫色
+translation.boards.colors.pink	粉色
+translation.boards.colors.red	红色
+translation.boards.colors.orange	橙色
+translation.boards.colors.yellow	黄色
+translation.boards.colors.green	绿色
+translation.boards.colors.teal	青色
+translation.boards.colors.brown	棕色
+translation.boards.systemTags.codeScan	代码扫描
+translation.boards.systemTags.automation	自动化
+translation.boards.systemTags.securityFinding	安全发现
+translation.boards.systemTagKeys.tag	标签
+translation.boards.systemTagKeys.source	来源
+translation.boards.tagSettings.systemKey	系统键
+translation.boards.tagSettings.systemValue	系统值
+translation.boards.groupBy.noTagKey	无 {{key}}
+translation.boards.groupBy.noTag	无标签
+translation.boards.groupBy.status	状态
+translation.boards.groupBy.priority	优先级
+translation.boards.groupBy.assignee	负责人
+translation.boards.groupBy.prState	PR 状态
+translation.boards.groupBy.noAssignee	无负责人
+translation.boards.groupBy.unknown	未知
+translation.boards.estimateScales.linear	线性（1–5）
+translation.boards.estimateScales.fibonacci	斐波那契
+translation.boards.estimateScales.exponential	指数
+translation.boards.ordering.manual	手动
+translation.boards.ordering.priority	优先级
+translation.boards.ordering.created	创建时间
+translation.boards.ordering.updated	更新时间
+translation.boards.ordering.status	状态
+translation.boards.priority.schemeDefault	默认
+translation.boards.priority.schemeSeverity	严重度
+translation.boards.priority.noPriority	无优先级
+translation.boards.priority.urgent	紧急
+translation.boards.priority.noSeverity	无严重度
+translation.boards.priority.critical	严重
+translation.boards.priority.high	高
+translation.boards.priority.medium	中
+translation.boards.priority.low	低
+translation.campaigns.panel.eyebrow	活动
+translation.campaigns.panel.sampleData	示例数据
+translation.campaigns.panel.untitled	新活动
+translation.campaigns.panel.setup	活动设置
+translation.campaigns.panel.live	已上线
+translation.campaigns.panel.saveFailed	无法保存到活动，请重试。
+translation.campaigns.panel.phase.goal	目标
+translation.campaigns.panel.phase.metrics	指标
+translation.campaigns.panel.phase.levers	杠杆
+translation.campaigns.panel.phase.budget	预算
+translation.campaigns.panel.goal.approve	批准目标
+translation.campaigns.panel.goal.revise	在对话中修改
+translation.campaigns.panel.goal.footerNote	批准目标后 Devin 将进入指标阶段。
+translation.campaigns.panel.goal.forming	目标形成中
+translation.campaigns.panel.metrics.subtitleLoading	Devin 正在为每个指标拉取基线。
+translation.campaigns.panel.metrics.subtitleReady	批准能衡量目标的指标，或移除不能的。
+translation.campaigns.panel.metrics.pending	正在查询基线…
+translation.campaigns.panel.metrics.chartLabel	{{name}}：{{current}}，目标 {{target}}
+translation.campaigns.panel.metrics.singleReadingAt	单次读数，测量于 {{date}}
+translation.campaigns.panel.metrics.singleReading	单次读数
+translation.campaigns.panel.metrics.details	{{name}} 详情
+translation.campaigns.panel.metrics.waitingForTargets	等待 Devin 给出目标后才能确认
+translation.campaigns.panel.metrics.footerNote	未决定的项视为已批准。
+translation.campaigns.panel.metrics.removedNote_one	{{count}} 个指标将被移除。
+translation.campaigns.panel.metrics.removedNote_other	{{count}} 个指标将被移除。
+translation.campaigns.panel.metrics.confirm_one	确认 {{count}} 个指标
+translation.campaigns.panel.metrics.confirm_other	确认 {{count}} 个指标
+translation.campaigns.panel.levers.subtitle	驱动指标的自动化。批准允许 Devin 运行的项。
+translation.campaigns.panel.levers.asksFirst	需要你的批准
+translation.campaigns.panel.levers.asksFirstHint	Devin 每次运行前都会先问你。
+translation.campaigns.panel.levers.state.manual	手动
+translation.campaigns.panel.levers.state.dropped	已移除
+translation.campaigns.panel.levers.acuPerMonth	约 {{value}} ACU/月
+translation.campaigns.panel.levers.footerNote	未决定的项视为已批准。
+translation.campaigns.panel.levers.removedNote_one	{{count}} 个杠杆将被移除。
+translation.campaigns.panel.levers.removedNote_other	{{count}} 个杠杆将被移除。
+translation.campaigns.panel.levers.confirm_one	确认 {{count}} 个杠杆
+translation.campaigns.panel.levers.confirm_other	确认 {{count}} 个杠杆
+translation.campaigns.panel.budget.title	月度预算
+translation.campaigns.panel.budget.subtitle	活动每月可花费的 ACU，分配在各杠杆间。
+translation.campaigns.panel.budget.perMonth	ACU / 月
+translation.campaigns.panel.budget.proposed	Devin 提议 {{value}}
+translation.campaigns.panel.budget.acu	{{value}} ACU
+translation.campaigns.panel.budget.footerNote	批准预算即启动活动。
+translation.campaigns.panel.budget.approveAndKickOff	批准 {{value}} ACU 并启动
+translation.campaigns.panel.budget.edit	编辑预算
+translation.campaigns.panel.budget.save	保存预算
+translation.campaigns.panel.budget.current	当前 {{value}}
+translation.campaigns.panel.decision.approve	批准
+translation.campaigns.panel.decision.remove	移除
+translation.campaigns.panel.decision.undo	撤销
+translation.campaigns.panel.decision.approved	已批准
+translation.campaigns.panel.decision.removed	已移除
+translation.campaigns.panel.decision.approveAll	全部批准
+translation.campaigns.panel.decision.approveItem	批准 {{item}}
+translation.campaigns.panel.decision.removeItem	移除 {{item}}
+translation.campaigns.panel.decision.undoItem	撤销对 {{item}} 的决定
+translation.campaigns.panel.slot.empty	下一个
+translation.campaigns.panel.slot.working	Devin 正在工作
+translation.campaigns.panel.slot.awaiting	轮到你了
+translation.campaigns.panel.slot.settled	已批准
+translation.campaigns.panel.slot.running	进行中
+translation.campaigns.panel.hint.goal	此活动的目的
+translation.campaigns.panel.hint.metrics	衡量它的指标
+translation.campaigns.panel.hint.levers	驱动指标的自动化
+translation.campaigns.panel.hint.budget	每月 ACU
+translation.campaigns.panel.hint.metricsQuerying	正在从你的数据拉取基线
+translation.campaigns.panel.hint.leversDrafting	正在为这些指标提议自动化
+translation.campaigns.panel.hint.metricsRunning	{{total}} 个指标中 {{onTrack}} 个达标
+translation.campaigns.panel.hint.budgetRunning	已用 {{used}} / {{total}} ACU
+translation.campaigns.panel.kickoff.title	活动已上线
+translation.campaigns.panel.kickoff.subtitle	Devin 已开始执行，读数会陆续到达。
+translation.campaigns.panel.dashboard.budgetUsed	本月已用预算
+translation.campaigns.panel.dashboard.monthElapsed	本月已过去 {{pct}}%
+translation.campaigns.panel.dashboard.onTrack	达标
+translation.campaigns.panel.dashboard.needsAttention	需要关注
+translation.campaigns.panel.dashboard.noReading	暂无读数
+translation.campaigns.panel.dashboard.noSpend	暂无用量记录
+translation.campaigns.panel.dashboard.sinceStart	自开始 {{change}}
+translation.account.addOrCreateOrganization	创建新账户
+translation.account.avatarAlt	{{name}} 的头像
+translation.account.blockedLimitUsers_one	{{count}} 名成员达到其 ACU 限额
+translation.account.blockedLimitUsers_other	{{count}} 名成员达到其 ACU 限额
+translation.account.blockedLimitUsers_dollars_one	{{count}} 名成员达到其花费限额
+translation.account.blockedLimitUsers_dollars_other	{{count}} 名成员达到其花费限额
+translation.account.blockedUsersBanner_one	{{count}} 名用户因其个人 ACU 限额被阻止 — 请查看<settingsLink>用量策略</settingsLink>页
+translation.account.blockedUsersBanner_other	{{count}} 名用户因个人 ACU 限额被阻止 — 请查看<settingsLink>用量策略</settingsLink>页
+translation.account.devinSettings	Devin 设置
+translation.account.enterprise	企业
+translation.account.enterpriseSettings	企业设置
+translation.account.inviteMembers	邀请成员
+translation.account.logOut	退出登录
+translation.account.manageAccounts	管理账户
+translation.account.memberCount	{{count}} 名成员
+translation.account.memberCount_other	{{count}} 名成员
+translation.account.new	新建
+translation.account.noResultsFound	未找到结果
+translation.account.organizationSettings	组织设置
+translation.account.personal	个人
+translation.account.searchAccounts	搜索账户
+translation.account.switchAccount	切换账户
+translation.account.teamAndPersonal	团队与个人
+translation.account.upgrade	升级
+translation.actionModelPicker.sidechatUnavailable	侧聊暂不可用
+translation.actionModelPicker.internal	内部
+translation.actionModelPicker.internalCurrent	内部（当前）
+translation.actionModelPicker.internalExperimental	内部（实验性）
+translation.actionModelPicker.internalOld	内部（旧版）
+translation.actionModelPicker.default	默认
+translation.actionModelPicker.model	模型
+translation.actionModelPicker.reasoningEffort	推理强度
+translation.actionModelPicker.standard	标准
+translation.actionModelPicker.fast	快速
+translation.actionModelPicker.ultraFast	极速
+translation.actionModelPicker.fastTier	快速档
+translation.actionModelPicker.thinking	思考
+translation.actionModelPicker.vision	视觉
+translation.actionModelPicker.longContext	长上下文
+translation.actionModelPicker.lite	轻量
+translation.actionModelPicker.lowVerbosity	低详尽度
+translation.actionModelPicker.effortNone	无
+translation.actionModelPicker.effortMinimal	最小
+translation.actionModelPicker.effortLow	低
+translation.actionModelPicker.effortMedium	中
+translation.actionModelPicker.effortHigh	高
+translation.actionModelPicker.effortExtraHigh	超高
+translation.actionModelPicker.effortMax	最大
+translation.actionModelPicker.effortUltra	超
+translation.actionModelPicker.effortPro	专业
+translation.archiveWithPRs.title_one	关闭会话 pull request
+translation.archiveWithPRs.title_other	关闭会话 pull request
+translation.archiveWithPRs.description_one	要关闭该会话的 pull request 吗？
+translation.archiveWithPRs.description_other	要关闭该会话的 pull request 吗？
+translation.archiveWithPRs.descriptionSessions_one	要关闭这 {{sessionCount}} 个会话的 pull request 吗？
+translation.archiveWithPRs.descriptionSessions_other	要关闭这 {{sessionCount}} 个会话的 pull request 吗？
+translation.archiveWithPRs.keepOpen	保持打开
+translation.archiveWithPRs.close_one	关闭 PR
+translation.archiveWithPRs.close_other	关闭所有 PR
+translation.archiveWithPRs.closing_one	正在关闭 1 个 pull request…
+translation.archiveWithPRs.closing_other	正在关闭 {{count}} 个 pull request…
+translation.archiveWithPRs.closed_one	Pull request 已关闭
+translation.archiveWithPRs.closed_other	Pull request 已关闭
+translation.archiveWithPRs.closedCount_one	1 个 pull request
+translation.archiveWithPRs.closedCount_other	{{count}} 个 pull request
+translation.archiveWithPRs.closeFailed_one	关闭 1 个 pull request 失败
+translation.archiveWithPRs.closeFailed_other	关闭 {{count}} 个 pull request 失败
+translation.archiveWithPRs.closePartial_one	已关闭 1 个 pull request，{{failed}} 个失败
+translation.archiveWithPRs.closePartial_other	已关闭 {{count}} 个 pull request，{{failed}} 个失败
+translation.archiveWithPRs.archiveFailed	会话未归档
+translation.archiveWithPRs.stopFailed	会话未停止
+translation.doneToast.archivedSessions_one	已归档 {{count}} 个会话。
+translation.doneToast.archivedSessions_other	已归档 {{count}} 个会话。
+translation.doneToast.unarchivedSessions_one	已取消归档 {{count}} 个会话。
+translation.doneToast.unarchivedSessions_other	已取消归档 {{count}} 个会话。
+translation.doneToast.markedDone	会话已标记完成
+translation.doneToast.markedDoneDescription	会话已移到侧边栏完成文件夹
+translation.doneToast.markedDoneDescriptionLocal	已停止代理并移到完成文件夹
+translation.doneToast.stopped	会话已标记完成并停止
+translation.doneToast.stoppedDescription	已停止 VM 并移到完成文件夹
+translation.doneToast.stoppedPrsClosedDescription_one	已关闭 PR、停止 VM 并移到完成文件夹
+translation.doneToast.stoppedPrsClosedDescription_other	已关闭 PR、停止 VM 并移到完成文件夹
+translation.doneToast.archived	会话已停止
+translation.doneToast.archivedDescription	已停止 VM
+translation.doneToast.archivedDescriptionLocal	已停止代理
+translation.doneToast.archivedPrsClosedDescription_one	已关闭 PR 并停止 VM
+translation.doneToast.archivedPrsClosedDescription_other	已关闭 PR 并停止 VM
+translation.doneToast.stoppedMany_one	已停止 {{count}} 个会话
+translation.doneToast.stoppedMany_other	已停止 {{count}} 个会话
+translation.doneToast.resumed	会话已恢复
+translation.doneToast.resumedMany_one	已恢复 {{count}} 个会话
+translation.doneToast.resumedMany_other	已恢复 {{count}} 个会话
+translation.doneToast.stopFailed_one	停止会话失败，请重试。
+translation.doneToast.stopFailed_other	停止会话失败，请重试。
+translation.doneToast.resumeFailed_one	恢复会话失败，请重试。
+translation.doneToast.resumeFailed_other	恢复会话失败，请重试。
+translation.doneToast.markedNotDone	已标记未完成
+translation.doneToast.markDoneFailed	标记会话完成失败，请重试。
+translation.doneToast.markedDoneMany_one	已将 {{count}} 个会话标记完成
+translation.doneToast.markedDoneMany_other	已将 {{count}} 个会话标记完成
+translation.doneToast.subscribeFailed	订阅失败，请重试。
+translation.doneToast.unsubscribeFailed	取消订阅失败，请重试。
+translation.doneToast.unsubscribedAndStopped	已取消订阅并停止
+translation.doneToast.autoStoppedDescription	没有其他订阅者，已将其停止。
+translation.doneToast.resume	恢复
+translation.doneToast.resumeActionFailed	恢复失败
+translation.admin.storageMigrations.shard	分片
+translation.admin.storageMigrations.shardSettings	分片设置
+translation.admin.storageMigrations.hashShards	每个所有者和键格式的哈希分片数
+translation.admin.storageMigrations.sessionRanges	会话范围
+translation.admin.storageMigrations.fineShardOrgIds	使用 256 哈希分片的组织 ID（逗号分隔）
+translation.admin.storageMigrations.fineShardOrgs	使用 256 哈希分片的组织
+translation.admin.storageMigrations.advanced	高级
+translation.admin.storageMigrations.excludedOrgIds	会话文件复制时跳过的组织 ID
+translation.admin.storageMigrations.excludedOrgIdsHint	可选。输入 staging 子组织 ID，逗号分隔。
+translation.admin.storageMigrations.excludedOrgIdsWarning	这些组织仍随账户迁移，但其历史会话文件在切换后不可用。
+translation.admin.usagePolicyAccess.title	用量策略访问
+translation.admin.usagePolicyAccess.description	设置客户对用量策略可执行的操作。默认表示可写。
+translation.admin.usagePolicyAccess.customerLabel	客户访问
+translation.admin.usagePolicyAccess.cognitionLabel	Cognition 访问
+translation.admin.usagePolicyAccess.cognitionReadOnly	仅可由数据库设置
+translation.admin.usagePolicyAccess.default	默认（写）
+translation.admin.usagePolicyAccess.write	写
+translation.admin.usagePolicyAccess.read	读
+translation.admin.usagePolicyAccess.hidden	隐藏
+translation.admin.usagePolicyAccess.saveError	无法保存用量策略访问。
+translation.admin.usagePolicyAccess.adminHidden	此企业的用量策略对 Cognition 员工隐藏。
+translation.admin.usagePolicyAccess.adminRead	Cognition 可读取用量策略，编辑已关闭。
+translation.admin.orgMembers.orgRoleTooltip	在此组织中的角色
+translation.admin.orgMembers.enterpriseMember	企业
+translation.admin.orgMembers.enterpriseMemberTooltip	企业级成员。与此组织中的角色相互独立。
+translation.admin.orgMembers.enterpriseRoleNames	{{roles, list}}
+translation.admin.orgMembers.enterpriseRoleTooltip	企业级角色：{{roles, list}}。与此组织中的角色相互独立。
+translation.admin.notificationLab.loading	正在加载…
+translation.admin.notificationLab.loadFailed	加载通知类型失败。
+translation.admin.notificationLab.title	通知实验室
+translation.admin.notificationLab.description	预览某个通知类型，或给自己收件箱发一条。实验室发送不影响真实通知。
+translation.admin.notificationLab.type	类型
+translation.admin.notificationLab.searchTypes	搜索类型
+translation.admin.notificationLab.locale	语言
+translation.admin.notificationLab.payload	载荷
+translation.admin.notificationLab.invalidJson	载荷不是有效 JSON
+translation.admin.notificationLab.payloadNotObject	载荷必须是 JSON 对象
+translation.admin.notificationLab.preview	预览
+translation.admin.notificationLab.send	发给我
+translation.admin.notificationLab.clear	清空我的实验室通知
+translation.admin.notificationLab.previewFailed	预览失败。请检查载荷与类型是否匹配。
+translation.admin.notificationLab.sent	已发到你的收件箱
+translation.admin.notificationLab.suppressedByPreference	未发送：你已在 设置 → 通知 中关闭此通知类型
+translation.admin.notificationLab.unknownOutcome	结果：{{outcome}}
+translation.admin.notificationLab.sendFailed	发送失败
+translation.admin.notificationLab.cleared_one	已清除 {{count}} 条实验室通知
+translation.admin.notificationLab.cleared_other	已清除 {{count}} 条实验室通知
+translation.admin.notificationLab.clearFailed	清除失败
+translation.admin.lifeguardEvals.tabs.runs	运行
+translation.admin.lifeguardEvals.tabs.performance	性能
+translation.admin.lifeguardEvals.performance.loading	正在加载运行…
+translation.admin.lifeguardEvals.performance.loadFailed	加载运行失败：{{message}}
+translation.admin.lifeguardEvals.performance.noRuns	暂无带聚合指标的成功运行。
+translation.admin.lifeguardEvals.performance.title	{{metric}} vs. 每次运行成本 — 每个模型路由组的最新运行
+translation.admin.lifeguardEvals.performance.description	每个点是一个路由组（eval 的 <code>--model</code> 参数）最近的成功运行。连线为同一模型的各思考级别。默认选中 recall vs. 成本帕累托前沿上各模型的所有级别；可切换模型或运行以比较其他项。
+translation.admin.lifeguardEvals.performance.scoreLabel	得分
+translation.admin.lifeguardEvals.performance.noMetric	最近的运行都未记录 {{metric}}。
+translation.admin.lifeguardEvals.performance.metrics.recall	召回率
+translation.admin.lifeguardEvals.performance.metrics.f1	F1
+translation.admin.lifeguardEvals.performance.metrics.avgTurns	平均轮数
+translation.admin.lifeguardEvals.performance.costPerRun	每次运行成本
+translation.admin.lifeguardEvals.performance.costAxis	每次运行成本（标价 USD）
+translation.admin.lifeguardEvals.performance.costPerRunShort	成本/次
+translation.admin.lifeguardEvals.performance.avgBugsPerRun	平均缺陷/次
+translation.admin.lifeguardEvals.performance.modelRuns	模型运行
+translation.admin.lifeguardEvals.performance.showGroup	显示 {{group}}
+translation.admin.lifeguardEvals.performance.showAllLevels	显示 {{group}} 的所有级别
+translation.admin.lifeguardEvals.performance.levels_one	{{count}} 个级别
+translation.admin.lifeguardEvals.performance.levels_other	{{count}} 个级别
+translation.admin.lifeguardEvals.performance.openRun	打开运行
+translation.admin.lifeguardEvals.performance.avgWallTime	耗时：{{value}}
+translation.admin.lifeguardEvals.performance.turns	{{value}} 轮
+translation.admin.lifeguardEvals.performance.bugsPerRun	{{value}} 个缺陷/次
+translation.admin.lifeguardEvals.performance.zoomHint	拖拽缩放某区域 · 双击图表重置
+translation.admin.lifeguardEvals.performance.resetZoom	重置缩放
+translation.admin.teamsGraphSubscriptions.status.created	已修复
+translation.admin.teamsGraphSubscriptions.status.unsupported	不支持（私有/共享频道）
+translation.admin.teamsGraphSubscriptions.status.noConnection	孤儿（无 Teams 连接）
+translation.admin.teamsGraphSubscriptions.status.forbidden	Graph 拒绝访问
+translation.admin.teamsGraphSubscriptions.status.notFound	团队或频道已删除
+translation.admin.teamsGraphSubscriptions.status.failed	失败，请重试
+translation.admin.teamsGraphSubscriptions.hint.noConnection	Teams 断连后属预期：自动化还在，但账户的 Teams 连接已丢失。无需重试；重新连接 Teams 或删除这些自动化。
+translation.admin.teamsGraphSubscriptions.hint.forbidden	把 Devin 应用加入该团队，或请租户的 Microsoft 365 管理员允许资源特定同意（RSC），然后重试。
+translation.admin.teamsGraphSubscriptions.hint.notFound	Microsoft Graph 找不到此团队或频道，很可能已被删除。无需重试；删除自动化或把它们指向另一个频道。
+translation.admin.teamsGraphSubscriptions.hint.failed	Microsoft Graph 或 chat-manager 错误。重试；若持续失败，检查 chat-manager 中此频道的日志。
+translation.admin.teamsGraphSubscriptions.hint.unsupported	私有和共享频道不能有 Graph 订阅。
+translation.admin.teamsGraphSubscriptions.toast.nothingToFix	无需修复
+translation.admin.teamsGraphSubscriptions.toast.nothingToFixDescription	服务器复查未发现缺少订阅的频道。
+translation.admin.teamsGraphSubscriptions.toast.created_one	已创建 {{count}} 个 Graph 订阅
+translation.admin.teamsGraphSubscriptions.toast.created_other	已创建 {{count}} 个 Graph 订阅
+translation.admin.teamsGraphSubscriptions.toast.notFixed	{{total}} 个频道中 {{notFixed}} 个未修复
+translation.admin.teamsGraphSubscriptions.toast.noConnectionSummary_one	孤儿（{{count}}）：无 Teams 连接，断连后属预期。
+translation.admin.teamsGraphSubscriptions.toast.noConnectionSummary_other	孤儿（{{count}}）：无 Teams 连接，断连后属预期。
+translation.admin.teamsGraphSubscriptions.toast.orphaned_one	{{count}} 个孤儿频道：无 Teams 连接
+translation.admin.teamsGraphSubscriptions.toast.orphaned_other	{{count}} 个孤儿频道：无 Teams 连接
+translation.admin.teamsGraphSubscriptions.toast.orphanedDescription	Teams 断连后属预期；无需重试。
+translation.admin.teamsGraphSubscriptions.toast.forbiddenSummary_one	Graph 拒绝访问（{{count}}）：把 Devin 应用加入团队或允许 RSC。
+translation.admin.teamsGraphSubscriptions.toast.forbiddenSummary_other	Graph 拒绝访问（{{count}}）：把 Devin 应用加入团队或允许 RSC。
+translation.admin.teamsGraphSubscriptions.toast.notFoundSummary_one	团队或频道已删除（{{count}}）：删除自动化或重定向。
+translation.admin.teamsGraphSubscriptions.toast.notFoundSummary_other	团队或频道已删除（{{count}}）：删除自动化或重定向。
+translation.admin.teamsGraphSubscriptions.toast.failedSummary_one	失败（{{count}}）：重试；检查 chat-manager 日志。
+translation.admin.teamsGraphSubscriptions.toast.failedSummary_other	失败（{{count}}）：重试；检查 chat-manager 日志。
+translation.admin.teamsGraphSubscriptions.toast.unsupportedSummary_one	不支持（{{count}}）：私有或共享频道。
+translation.admin.teamsGraphSubscriptions.toast.unsupportedSummary_other	不支持（{{count}}）：私有或共享频道。
+translation.admin.devinCosts	成本
+translation.admin.devinStartupMetrics	启动指标
+translation.admin.linqPicker.phoneNumber	Linq 电话号码
+translation.admin.linqPicker.choose	选择电话号码
+translation.admin.linqPicker.loading	正在加载电话号码…
+translation.admin.linqPicker.loadError	无法从 Linq 加载电话号码。
+translation.admin.linqPicker.empty	没有可添加的 Linq 电话号码。
+translation.admin.linqPicker.retry	重试
+translation.admin.linqSync.button	从 Linq 同步
+translation.admin.linqSync.title	从 Linq 同步线路？
+translation.admin.linqSync.description	添加池中缺失的 Linq 号码，更新 Linq 已变更的号码，退休 Linq 标记或不再列出的线路，并恢复 Linq 列为活跃的已退休线路。Linq 侧不变。
+translation.admin.linqSync.confirm	同步
+translation.admin.linqSync.done	已同步：新增 {{added}}，更新 {{updated}}，退休 {{retired}}，恢复 {{restored}}
+translation.admin.editRoles	编辑角色
+translation.admin.editRolesFor	编辑 {{name}} 的角色
+translation.admin.enterprise	企业
+translation.admin.enterprises	企业
+translation.admin.noRoles	无角色
+translation.admin.organization	组织
+translation.admin.permissions	权限
+translation.admin.selectRoleFor	为 {{name}} 选择角色
+translation.admin.session	管理会话
+translation.admin.sessionCost	会话成本
+translation.admin.sessionGroups	会话分组
+translation.admin.sessionLogs	会话日志
+translation.admin.sessionPerformance	会话性能
+translation.admin.title	管理
+translation.admin.user	用户
+translation.admin.userTrust.accountLabel	账户
+translation.admin.userTrust.accountPlaceholder	选择账户
+translation.admin.userTrust.columns.eventCount	事件数
+translation.admin.userTrust.columns.floor	下限
+translation.admin.userTrust.columns.observedAt	观测时间
+translation.admin.userTrust.columns.points	分值
+translation.admin.userTrust.columns.queryKey	查询键
+translation.admin.userTrust.columns.reasons	原因
+translation.admin.userTrust.columns.signalType	信号
+translation.admin.userTrust.columns.source	来源
+translation.admin.userTrust.contributions	贡献信号
+translation.admin.userTrust.dialog.cancel	取消
+translation.admin.userTrust.dialog.description	在 {{account}} 中为此用户记录一条手动信任事件。判定和百分比按输入原样存储。
+translation.admin.userTrust.dialog.percent	百分比
+translation.admin.userTrust.dialog.reason	原因
+translation.admin.userTrust.dialog.submit	设置信任
+translation.admin.userTrust.dialog.title	设置信任
+translation.admin.userTrust.dialog.trusted	已信任
+translation.admin.userTrust.dialog.untrusted	未信任
+translation.admin.userTrust.dialog.verdict	判定
+translation.admin.userTrust.events_one	{{count}} 条原始事件
+translation.admin.userTrust.events_other	{{count}} 条原始事件
+translation.admin.userTrust.levels.elevated	偏高
+translation.admin.userTrust.levels.high	高
+translation.admin.userTrust.levels.none	无
+translation.admin.userTrust.loadError	加载信任评估失败：{{message}}
+translation.admin.userTrust.loading	正在加载信任评估...
+translation.admin.userTrust.noMemberships	此用户没有账户成员资格。
+translation.admin.userTrust.noReasons	无原因
+translation.admin.userTrust.noSignals	此账户没有记录信任信号。
+translation.admin.userTrust.queryKeys	查询键
+translation.admin.userTrust.reasons	原因
+translation.admin.userTrust.score	得分
+translation.admin.userTrust.setError	设置信任失败
+translation.admin.userTrust.setSuccess	信任已更新
+translation.admin.userTrust.setTrust	设置信任
+translation.admin.userTrust.signalJson	信号 JSON
+translation.admin.userTrust.suspicionLevel	可疑级别
+translation.admin.userTrust.tab	信任
+translation.admin.users	用户
+translation.admin.watchDevinWork	观察工作
+translation.admin.billingPhases.dollarPhaseRepricingHelp	美元阶段的在途 ACU 价格也会把 Devin 和 Review 的 ACU 换算为美元，因此修改它会重新定价该阶段的历史。平台费变更只对新的 Desktop/CLI 用量生效。
+translation.admin.billingPhases.phaseEditRuleHelp	Desktop/CLI 经 5 分钟缓存读取阶段定价，因此边界和定价模式的变更请在生效前至少 5 分钟保存。Desktop/CLI 用量按请求开始时生效阶段的模型计费；在过去期间的 ACU 与美元间切换不会重计已记录的用量。
+translation.admin.sponsoredEvents.title	赞助活动
+translation.admin.sponsoredEvents.navLabel	赞助活动
+translation.admin.sponsoredEvents.actions.cancel	取消
+translation.admin.sponsoredEvents.list.loading	正在加载赞助活动
+translation.admin.sponsoredEvents.list.loadFailed	加载赞助活动失败：{{message}}
+translation.admin.sponsoredEvents.list.emptyTitle	还没有赞助活动
+translation.admin.sponsoredEvents.list.emptyDescription	创建一个活动，为每个黑客松团队提供专属组织和赞助预算。
+translation.admin.sponsoredEvents.list.columns.name	名称
+translation.admin.sponsoredEvents.list.columns.teams	团队数
+translation.admin.sponsoredEvents.list.columns.teamBudget	每队预算
+translation.admin.sponsoredEvents.list.columns.acuLimit	每会话 ACU 上限
+translation.admin.sponsoredEvents.list.columns.createdAt	创建时间
+translation.admin.sponsoredEvents.create.button	新建活动
+translation.admin.sponsoredEvents.create.title	新建赞助活动
+translation.admin.sponsoredEvents.create.description	加入此活动的每个团队将获得专属免费组织、一次性赞助预算和每会话 ACU 上限。活动创建后这些不可更改。
