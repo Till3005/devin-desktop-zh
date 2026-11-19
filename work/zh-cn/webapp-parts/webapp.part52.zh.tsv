@@ -1,0 +1,500 @@
+review.mergeManager.status.running	正在分类合并风险…
+review.mergeManager.status.failed	合并风险分类失败。
+review.mergeManager.status.skipped	此分析未分类合并风险。
+review.mergeManager.approval.approved	Devin 批准了此拉取请求。
+review.mergeManager.approval.withdrawn	Devin 撤回了之前的批准。
+review.mergeManager.approval.error	Devin 无法更新其批准。检查拉取请求上是否有 Devin 的常驻批准。
+review.mergeManager.loadFailed	无法加载合并风险结果。
+review.mergeManager.shadow.badge	影子
+review.mergeManager.shadow.approve	影子模式：Devin 本会批准此拉取请求。未执行任何操作。
+review.mergeManager.shadow.withdraw	影子模式：Devin 本会把此拉取请求留给人工评审并撤回自己之前的批准。未执行任何操作。
+review.mergeManager.shadow.noAction	影子模式：Devin 对此拉取请求不执行任何操作。
+review.landing.justLaunched	刚发布：安全评审现已成为每个 Devin Review 的一部分。
+review.landing.tagline	是理解代码的方式。
+review.landing.subtitle	组织 diff、检测移动代码、标记漏洞和 bug 的代码评审。
+review.landing.tryNow	立即试用 <devinReview>Devin Review</devinReview>。
+review.landing.copyMoveDetection	复制/移动检测
+review.landing.copyMoveDesc	自动检测代码何时被移动或复制，并显示它来自哪里。
+review.landing.organizedDiffs	智能组织的代码 diff
+review.landing.organizedDiffsDesc	自动把 PR 组织成带说明的逻辑分节
+review.landing.bugDetection	漏洞和 bug 检测
+review.landing.bugDetectionPlural	漏洞和 bug 检测
+review.landing.bugDetectionDesc	识别潜在 bug，并标记代码中值得更仔细评审的部分。
+review.landing.askDevin	就你的 PR 提问 Devin
+review.landing.askDevinDesc	与 Devin 的 agent 推理框架集成，回答关于此 PR 或更大代码库的任何问题。
+review.landing.tryOnAnyPr	在你的下一个 PR 上分析<emphasis>漏洞</emphasis>
+review.landing.chatAnnotation	就此 PR 与 Devin 聊天
+review.landing.changesInPr	PR 中的变更
+review.landing.securitySectionTitle	每次代码评审现在都是安全评审。
+review.landing.securitySectionCoverage	自动化漏洞检测
+review.landing.securitySectionCoverageDesc	Devin 自动分析每个 PR 的漏洞，跨你整个代码库推理，捕获模式匹配扫描器漏掉的认证绕过和逻辑缺陷。
+review.landing.securitySectionTriaging	严重性分级和 CWE 标记
+review.landing.securitySectionTriagingDesc	每个发现项按严重性分级并打上 CWE ID，便于分诊。
+review.landing.securitySectionFixes	可直接合并的修复
+review.landing.securitySectionFixesDesc	不止标记问题，Devin 直接写出修复并作为可合并的 PR 打开，让它到达工程师手上即可评审，而不是在队列里等几周的工单。
+review.landing.exampleSectionTitle	添加账户改密接口
+review.landing.exampleSectionText	为账户服务添加改密路由，让用户可以更新自己的凭据。
+review.landing.exampleFindingTitle	改密接口缺少归属权或管理员授权检查
+review.landing.exampleFindingDescription	新的 `POST /api/users/password` 处理器在 `secureFnc` 之后接受任意 `username` 和 `password`，但调用 `setUsers` 前从不验证已认证的请求用户是否就是该账户（或是管理员）。此代码库中 `verifyToken` 在没有 `x-access-token` 时还会创建访客 token（`jwt-helper.js:46-65`），所以未认证/访客请求可以到达此处理器并重置任何已知用户的密码，导致账户接管。
+review.landing.exampleFindingRecommendation	要求此路由有有效的已认证非访客用户；自助改密需验证 `req.userId === req.body.username`（重置则需管理员权限）；写入新密码前验证当前密码。拒绝访客/未认证请求，并尽可能避免透露任意用户名是否存在。
+review.landing.exampleFile	示例文件
+review.analysis.bug	Bug
+review.analysis.bugDetectionFailed	Bug 检测失败
+review.analysis.failedReviewers.title	{{names}} 失败
+review.analysis.failedReviewers.description_one	此自定义评审器没有产出发现项。
+review.analysis.failedReviewers.descriptionBuiltIn_one	此评审器没有产出发现项。
+review.analysis.failedReviewers.descriptionBuiltIn_other	这些评审器没有产出发现项。
+review.analysis.failedReviewers.description_other	这些评审器没有产出发现项。
+review.analysis.failedReviewers.rerun	重试
+review.analysis.failedReviewers.bugDetection	bug 检测器
+review.analysis.failedReviewers.codeQualityCheck	代码质量检查器
+review.analysis.copyBug	复制 bug
+review.analysis.copyFlag	复制标记
+review.analysis.devinMarkedResolved	Devin 已将其标记为已解决。
+review.analysis.dismissedByReviewer	被评审者驳回。
+review.analysis.informational	信息性
+review.analysis.investigate	调查
+review.analysis.markAllAsRead	全部标为已读
+review.analysis.markAsRead	标为已读
+review.analysis.markAsUnread	标为未读
+review.analysis.noBugsFound	未发现 bug
+review.analysis.noteworthyParts	此 PR 值得注意的部分
+review.analysis.outdated	已过时
+review.analysis.potentialBug	潜在 bug
+review.analysis.learnMore	了解更多
+review.analysis.read	已读
+review.analysis.recommendation	建议
+review.analysis.repoRule	仓库规则
+review.analysis.repoRuleTooltip	因违反仓库规则文件（AGENTS.md、REVIEW.md 等）被标记
+review.analysis.quoteInChat	在聊天中引用
+review.analysis.rejected	已作废
+review.analysis.resolve	解决
+review.analysis.resolved	已解决
+review.analysis.unresolve	取消解决
+review.analysis.suggestedFix	建议的修复
+review.analysis.bugsHeader_one	{{count}} 个 Bug
+review.analysis.bugsHeader_other	{{count}} 个 Bug
+review.analysis.vulnerabilitiesHeader_one	{{count}} 个漏洞
+review.analysis.vulnerabilitiesHeader_other	{{count}} 个漏洞
+review.analysis.flagsHeader_one	{{count}} 个标记
+review.analysis.flagsHeader_other	{{count}} 个标记
+review.analysis.codePattern	代码质量
+review.analysis.codePatternIssuesHeader_one	{{count}} 个代码质量问题
+review.analysis.codePatternIssuesHeader_other	{{count}} 个代码质量问题
+review.analysis.reviewerHeader_one	{{count}} 个 {{name}} 发现项
+review.analysis.reviewerHeader_other	{{count}} 个 {{name}} 发现项
+review.analysis.reviewerStatusHeader.pending	{{name}} 待处理
+review.analysis.reviewerStatusHeader.running	{{name}} 运行中
+review.analysis.reviewerStatusHeader.failed	{{name}} 失败
+review.analysis.reviewerStatusHeader.skipped	{{name}} 已跳过
+review.analysis.codeQualityCheckFailed	代码质量检查失败
+review.analysis.codeQualityCheckFailedDescription	代码质量结果无法生成。请重新运行分析。
+review.analysis.noCodePatternIssuesFound	未发现代码质量问题
+review.analysis.noCodePatternIssuesToCopy	没有可复制的代码质量问题
+review.analysis.noVulnerabilitiesFound	未发现漏洞
+review.analysis.noFlagsFound	未发现标记
+review.analysis.securityFindingsTooltip	安全漏洞和加固建议
+review.analysis.noBugsToCopy	没有可复制的未解决 bug
+review.analysis.noVulnerabilitiesToCopy	没有可复制的未解决漏洞
+review.analysis.noFlagsToCopy	没有可复制的未解决标记
+review.analysis.outdatedBadgeTooltip	发现项来自之前的提交
+review.analysis.customReviewer	自定义评审器
+review.analysis.reviewerSettings	评审器设置
+review.analysis.security	安全
+review.analysis.securityWithSeverity	安全 {{severity}}
+review.analysis.mediumConfidence	中等置信度
+review.analysis.lowConfidence	低置信度
+review.analysis.copyFinding	复制发现项
+review.analysis.unableToRunFull	无法运行完整分析
+review.analysis.failedToStart	启动分析失败
+review.bugsTab.needsAttention	需要你关注
+review.bugsTab.resolved	已修复
+review.bugsTab.dismissed	已作废
+review.bugsTab.goToCode	前往代码
+review.bugsTab.resolvedByDevin	Devin 已修复
+review.bugsTab.resolvedByYou	你已修复
+review.bugsTab.rejectedByDevin	Devin 已作废
+review.bugsTab.dismissedByYou	你已作废
+review.bugsTab.escalatedByDevin	Devin 已升级
+review.bugsTab.noBugsFound	Devin Review 没有发现要修复的问题。
+review.bugsTab.nothingNeedsAttention	没有需要你分诊的
+review.bugsTab.allTriaged	全部已分诊。
+review.bugsTab.devinTriaging	Devin 正在修复
+review.bugsTab.nothingTriaging	没有需要 Devin 修复的
+review.bugsTab.nothingResolved	还没有已修复的
+review.bugsTab.nothingDismissed	还没有已作废的
+review.bugsTab.originalFinding	原始发现项
+review.bugsTab.resolutionReason	解决原因
+review.bugsTab.dismissalReason	作废原因
+review.bugsTab.escalationReason	升级原因
+review.autofix.announcement.description	Devin Review 自动运行在 Devin 创建的 PR 上。Devin 会自动分诊发现项并决定修复、验证还是升级给你。
+review.autofix.announcement.imageAlt	Devin Review 2.0
+review.autofix.announcement.manageAutofix	管理自动修复
+review.autofix.announcement.manageReviews	管理评审
+review.autofix.announcement.title	Review 2.0 发布。Devin 现在自动评审并修复它的 PR。
+review.autofix.announcement.trialEnds	我们也刷新了你的 Review 试用。评审免费至 {{date}}。
+review.autofix.autoFix	自动修复
+review.autofix.autoFixWithDevin	用 Devin 自动修复
+review.autofix.enableAutoFix	启用自动修复
+review.autofix.enabled	已启用
+review.autofix.enabledTooltip	启用后，Devin 会自动修复此组织所有 Devin PR 上的评审反馈。
+review.autofix.enabledTooltipPersonal	启用后，Devin 会自动修复你所有 Devin PR 上的评审反馈。
+review.autofix.enabling	启用中…
+review.autofix.failedToStartSession	启动 Devin 会话失败。请重试。
+review.autofix.needAdminPermission	启用自动修复需要组织管理员权限。
+review.autofix.selectEnvironmentFirst	先在首页编辑器中选择一个环境。
+review.autofix.startingSession	正在启动会话…
+review.autofix.willFixBugsOnceTooltip	Devin 会打开一个会话来修复此 PR 中发现的 bug。
+review.autofix.willFixBugsTooltip	Devin 会打开一个会话来修复此 PR 中发现的 bug，并自动修复未来的 bug。
+review.autofix.fixWithDevin	用 Devin 修复
+review.autofix.fixOptions	更多修复选项
+review.autofix.fixAllMyPrs	自动修复我所有 PR 上的发现项
+review.autofix.fixAllMyPrsDescription	Devin 会自动分诊发现项并决定修复、验证还是升级给你。
+review.autofix.findingsOnThisPr_one	此 PR 上 {{count}} 个发现项
+review.autofix.findingsOnThisPr_other	此 PR 上 {{count}} 个发现项
+review.autofix.askedDevinToFix	已请 Devin 修复发现项
+review.autofix.failedToAskDevinToFix	无法请 Devin 修复发现项。请重试。
+review.autofix.failedToTurnOn	无法开启自动修复。请重试。
+review.comments.clickToClose	点击关闭评论
+review.comments.clickToExpand	点击展开评论
+review.comments.closeComment	关闭评论
+review.comments.collapseComment	折叠评论
+review.comments.dismiss	驳回
+review.comments.dismissReason	原因
+review.comments.dismissReasonPlaceholder	为什么此发现项不需要修复
+review.comments.dismissQuickReasons	常见原因
+review.comments.dismissReasonFalsePositive	误报
+review.comments.dismissReasonIntentional	有意为之
+review.comments.dismissReasonFixLater	稍后修复
+review.comments.markInvalid	标记无效
+review.comments.reopen	重新打开
+review.comments.reviewer	评审者
+review.comments.expandComment	展开评论
+review.comments.markRead	标记已读
+review.comments.markResolved	标记已解决
+review.comments.markUnread	标记未读
+review.comments.markUnresolved	标记未解决
+review.comments.resolveLoadingThreads	正在加载评审讨论串…
+review.comments.resolveRetry	重试
+review.comments.resolveThreadsFailed	无法加载评审讨论串——点击重试
+review.comments.resolved	已解决
+review.comments.rejected	已作废
+review.comments.resolve	标记已修复
+review.comments.escalated	已升级
+review.find.changedLinesOnly	仅变更行
+review.find.filterMatches	筛选匹配
+review.find.matchCase	区分大小写
+review.find.skipCollapsedFiles	跳过折叠文件
+review.fileOverlay.closeFileOverlay	关闭文件浮层
+review.fileOverlay.closeFileView	关闭文件视图
+review.fileOverlay.failedToLoad	加载文件失败
+review.fileOverlay.fileMayNotExist	此文件可能不存在
+review.fileOverlay.loadingFile	正在加载文件…
+review.footer.chatAboutPR	就此 PR 聊天
+review.footer.endOfChanges	变更结束
+review.orgAccess.requestToJoin	申请加入
+review.prTitle.clickToEdit	点击编辑 PR 标题
+review.prTitle.emptyError	标题不能为空。
+review.stack.stackedCount_one	{{count}} 个堆叠
+review.stack.stackedCount_other	{{count}} 个堆叠
+review.stack.stackedPullRequests_one	{{count}} 个堆叠拉取请求
+review.stack.stackedPullRequests_other	{{count}} 个堆叠拉取请求
+review.stack.addToStack	加入堆栈
+review.stack.position	{{position}}/{{total}}
+review.stack.status.merged	已合并
+review.stack.status.closed	已关闭
+review.stack.status.failingChecks	检查失败
+review.stack.status.mergeConflicts	合并冲突
+review.stack.status.mergeBlocked	合并被阻塞
+review.stack.status.unknown	正在检查合并状态
+review.stack.status.blockedDownstack	未就绪
+review.stack.status.readyToMerge	可以合并
+review.stack.status.notReadyToMerge	尚不能合并
+review.stack.status.failingOrConflicting	检查失败或有合并冲突
+review.stack.stackActions	堆栈操作
+review.stack.reverseOrder	反转堆栈顺序
+review.stack.openInGitHub	在 GitHub 中打开
+review.privateAccess.appSuspended	GitHub App 安装已暂停
+review.privateAccess.connectGithubOrg	连接 GitHub 组织
+review.privateAccess.connectWithGithub	连接 GitHub
+review.privateAccess.connectWithGithubHost	连接 GitHub（{{host}}）
+review.privateAccess.ensureIntegration	确保你的组织有访问此仓库的 {{provider}} 集成。
+review.privateAccess.enterpriseSuborgAccess	需要企业管理员把你加入有访问权的子组织
+review.privateAccess.insufficientAccess	GitHub 集成对此仓库的访问权不足
+review.privateAccess.joinAnOrg	加入一个组织
+review.privateAccess.manageAccess	管理访问权
+review.privateAccess.manageInGithub	在 GitHub 中管理
+review.privateAccess.manageIntegration	管理 {{provider}} 集成
+review.privateAccess.mergeRequest	合并请求
+review.privateAccess.noGithubIntegration	未安装 GitHub 集成
+review.privateAccess.providerNotConnected	你的 {{provider}} 未连接到 Devin
+review.privateAccess.pullRequest	拉取请求
+review.privateAccess.relinkProvider	重新关联 {{provider}}
+review.privateAccess.repoNotFoundOrNoAccess	此仓库不存在或你没有访问权
+review.privateAccess.requestAdminInvite	请求管理员邀请你
+review.privateAccess.ssoRequired	你的 {{provider}} 账户需要 SSO 授权才能访问此组织。请重新关联你的 {{provider}} 账户。
+review.privateAccess.toReviewPR	要分析此拉取请求：
+review.privateAccess.unifiedManageRepoAccess	管理仓库访问权
+review.privateAccess.unifiedNeedsRepoGrant	你需要此仓库的访问权才能分析此拉取请求。向账户管理员申请访问。
+review.privateAccess.installationSuspended	安装已暂停
+review.privateAccess.enterpriseAdminGrant	企业——管理员必须授予访问权
+review.privateAccess.configureRepoAccess	在 {{provider}} 中配置仓库访问权
+review.privateAccess.ghesNotConfigured	此仓库在 {{host}} 上。请让你的管理员配置 GitHub Enterprise Server 集成。
+review.privateAccess.ghesNoOrgAccess	你的组织都没有连接到 {{host}} 上的 {{owner}}。请让你的管理员把它连接到 Devin，或把你加入已有连接的组织。
+review.privateAccess.continueWithGithub	使用 GitHub 继续
+review.privateAccess.continueWithGithubHost	使用 GitHub（{{host}}）继续
+review.privateAccess.logInToViewMergeRequest	登录查看此合并请求
+review.privateAccess.logInToViewPullRequest	登录查看此拉取请求
+review.privateAccess.privateOrMissing	{{repo}} #{{number}} 在私有仓库中，或不存在。
+review.reference.copyPaste	复制 + 粘贴
+review.reference.from	从
+review.reference.hideSideBySide	隐藏并排
+review.reference.move	移动
+review.reference.moved	已移动
+review.reference.showSideBySide	显示并排
+review.reference.similarCode	相似代码
+review.reference.to	到
+review.reference.locationLines	第 {{start}}-{{end}} 行
+review.reference.locationLine	第 {{line}} 行
+review.reference.basedOnLines	{{location}}基于 <pill></pill>
+review.reference.basedOnLine	{{location}}基于 <pill></pill>
+review.reference.movedToLines	{{location}}移动到了 <pill></pill>
+review.reference.movedToLine	{{location}}移动到了 <pill></pill>
+review.reference.movedFromLines	{{location}}移自 <pill></pill>
+review.reference.movedFromLine	{{location}}移自 <pill></pill>
+review.reference.relatedTo	{{location}}与 <pill></pill> 似乎相关
+review.status.needsReview	需要评审
+review.status.outdated	已过时
+review.status.pending	待处理
+review.status.previouslyFlagged	之前标记过
+review.status.resolved	已解决
+review.trial.dismissBanner	关闭试用横幅
+review.trial.announcement	Review 2.0 公告
+review.trial.countdown_one	Review 试用：<countdown>剩 {{days}} 天</countdown>
+review.trial.countdown_other	Review 试用：<countdown>剩 {{days}} 天</countdown>
+review.trial.creditNotice	试用后，分析将使用额度。
+review.stopBanner.auto_review_excluded.settings	设置
+review.stopBanner.auto_review_excluded.title	自动分析被例外规则跳过
+review.stopBanner.auto_review_excluded.body	规则和例外可由组织管理员设置。
+review.stopBanner.bugsTabDisabled	此提交没有可用分析
+review.stopBanner.actions.run_and_enable_auto	分析 PR
+review.stopBanner.actions.resume_auto	恢复分析
+review.stopBanner.actions.review_now	立即分析
+review.stopBanner.actions.review_again	分析最新
+review.stopBanner.actions.keep_reviewing	自动分析
+review.stopBanner.actions.view_plans	查看计划
+review.stopBanner.actions.manage_limits	管理上限
+review.stopBanner.not_run.title	Devin 还未分析此拉取请求
+review.stopBanner.not_run.body	Devin 可以发现 bug、评估架构决策并标记安全问题。
+review.stopBanner.latest_not_reviewed.title	Devin 还未分析最新变更
+review.stopBanner.latest_not_reviewed.body	Devin 分析的是更早的提交，其发现项可能不反映最新变更。
+review.stopBanner.latest_not_reviewed.lastReviewedCommit	Devin 上次分析的是提交 <code>{{sha}}</code>。
+review.stopBanner.latest_not_reviewed.newCommits_one	{{count}} 个新提交尚未分析。
+review.stopBanner.latest_not_reviewed.newCommits_other	{{count}} 个新提交尚未分析。
+review.stopBanner.draft.title	Devin 跳过草稿拉取请求的自动分析
+review.stopBanner.draft.body	此拉取请求标记为就绪待评审时 Devin 会分析。
+review.stopBanner.merge_conflicts.title	合并冲突
+review.stopBanner.merge_conflicts.body	Devin 的自动分析在合并冲突解决后运行。你也可以现在手动运行。
+review.stopBanner.budget_reached.title	分析已暂停：已达单 PR 花费上限
+review.stopBanner.budget_reached.body	分析已达此拉取请求的花费上限，Devin 已停止分析新提交。
+review.stopBanner.budget_reached.detail	恢复会补充预算并为新提交重新开启自动分析。
+review.stopBanner.too_large.title	此拉取请求太大无法分析
+review.stopBanner.too_large.body	diff 超过大小限制。把此拉取请求拆成更小的，Devin 才能分析。
+review.stopBanner.too_many_files.title	此拉取请求太大无法分析
+review.stopBanner.too_many_files.body	此拉取请求变更的文件太多，{{provider}} 无法加载，所以 Devin 无法分析。检查、评审者和评论可能缺失或过时。
+review.stopBanner.org_limit.title	分析已暂停：组织用量已达上限
+review.stopBanner.org_limit.body	此拉取请求计费到的组织已达本周期上限。上限提高或周期重置后分析恢复。
+review.stopBanner.contract_expired.title	分析不可用：合同已结束
+review.stopBanner.contract_expired.body	你组织的 Devin 合同已结束，Devin 无法分析此拉取请求。
+review.stopBanner.contract_expired.detail	联系你的客户经理续期。
+review.stopBanner.billing.title	当前计划无法使用分析
+review.stopBanner.billing.body	没有可用于分析的额度，此拉取请求只显示 diff。
+review.stopBanner.scope.pr.label	此拉取请求
+review.stopBanner.scope.pr.description	在此 PR 的每次推送时分析
+review.stopBanner.scope.user.label	我的所有拉取请求
+review.stopBanner.scope.user.description	你打开的每个拉取请求，每次推送时
+review.stopBanner.scope.repo.label	{{repo}} 中的每个拉取请求
+review.stopBanner.scope.repo.description	对你组织中的每个人
+review.stopBanner.scope.connectHint	在设置中连接你的 git 账户以开启
+review.stopBanner.scope.permissionHint	你的 Review 权限不允许自动分析
+review.stopBanner.scope.adminHint	只有 Review 管理员可以开启
+review.consumption.currentReview	当前分析
+review.consumption.totalAcuUsage	ACU 总用量
+review.consumption.totalOnDemandUsage	按需用量总计
+review.consumption.reviewsRan	分析次数
+review.consumption.size	大小
+review.consumption.lastBilledTo	最近计费到
+review.consumption.account	账户
+review.consumption.billedAtAccountLevel	最近的分析计费到账户，而不是某个具体组织。
+review.consumption.autoReviewLimit	自动分析上限
+review.consumption.limitReachedPaused	已达上限。此 PR 的自动分析已暂停，直到重新开启。
+review.consumption.limitReachedNextSkipped	已达上限。此 PR 的下一次自动分析将被跳过。
+review.consumption.pausesAtLimit	此 PR 总用量达到上限后自动分析暂停。
+review.consumption.limitExempt	此 PR 已开启自动分析，上限不再适用。
+review.debug.internalDebug	内部调试
+review.debug.regenerating	重新生成中
+review.debug.lifeguardPlayground	Lifeguard playground
+review.debug.analysesPlayground	分析 playground
+review.debug.copyMoveDetectionPlayground	复制/移动检测 playground
+review.debug.datadogLogs	Datadog 日志
+review.debug.bugDedupPlayground	Bug 去重 playground
+review.debug.analysisDedupPlayground	分析去重 playground
+review.debug.copyRawJson	复制原始 JSON
+review.debug.viewJobHistory	查看任务历史
+review.debug.jobHistory	任务历史
+review.debug.noJobsYet	还没有任务
+review.debug.jobStatus.completed	已完成
+review.debug.jobStatus.running	运行中
+review.debug.jobStatus.pending	待处理
+review.debug.jobStatus.errored	出错
+review.debug.jobStatus.cancelled	已取消
+review.debug.jobStatus.skipped	已跳过
+review.perfOverlay.milestone.pageOpen	open
+review.perfOverlay.milestone.authVerified	auth
+review.perfOverlay.milestone.basicInfoLoaded	info
+review.perfOverlay.milestone.diffsLoaded	diffs
+review.perfOverlay.milestone.githubDataLoaded	github
+review.perfOverlay.milestone.allLazyLoaded	lazy
+review.perfOverlay.milestone.diffDisplayed	diff shown
+review.perfOverlay.milestone.fullUiSaturated	ui ready
+review.perfOverlay.phase.stalled	停滞
+review.perfOverlay.phase.dns	DNS
+review.perfOverlay.phase.connect	连接
+review.perfOverlay.phase.ttfb	TTFB
+review.perfOverlay.phase.download	下载
+review.perfOverlay.crossOrigin	跨域（无 Timing-Allow-Origin）
+review.perfOverlay.requestCount_one	{{count}} 个请求
+review.perfOverlay.requestCount_other	{{count}} 个请求
+review.perfOverlay.cacheHitTooltip	数据来自缓存；冷加载里程碑被抑制，但用户就绪指标包含此次加载。
+review.perfOverlay.cached	已缓存
+review.perfOverlay.expandWaterfall	展开瀑布图
+review.perfOverlay.collapseWaterfall	折叠瀑布图
+review.perfOverlay.dismissOverlay	关闭性能浮层
+review.perfOverlay.rum	rum
+review.perfOverlay.openRumSession	在 Datadog RUM 中打开此浏览器会话的请求
+review.perfOverlay.milestoneLegend	里程碑
+review.changesSince.loading	比较中…
+review.changesSince.error	无法加载自此提交以来的变更。
+review.changesSince.noChanges	PR 自身 diff 没有变更；只是变基了。
+review.changesSince.nothingToList	没有可列出的；看 diff 上方标记的文件。
+review.changesSince.summary_one	{{count}} 个文件已变更，{{unchanged}} 个未变更
+review.changesSince.summary_other	{{count}} 个文件已变更，{{unchanged}} 个未变更
+review.changesSince.fileStatus.rebase_conflict	与变基冲突，显示旧 head 与新 head
+review.changesSince.fileStatus.removed_from_pr	已不在此 PR 中
+review.changesSince.fileStatus.unavailable	无法比较，查看完整 diff
+review.changesSince.showFullDiff	显示完整 diff
+review.changesSince.lastVisit	你的上次访问
+review.changesSince.allCommits	所有提交
+review.changesSince.pushCount_one	{{count}} 个已分析推送
+review.changesSince.pushCount_other	{{count}} 个已分析推送
+review.changesSince.selectCommits	选择要查看的提交
+review.changesSince.sinceLastVisit	自你上次访问以来的变更
+review.changesSince.sinceLastVisitShort	自上次访问
+review.changesSince.noPreviousVisit	未找到之前的访问记录
+review.changesSince.selectRange	选择一段提交范围
+review.changesSince.reverseOrder	反转顺序
+review.changesSince.range	{{from}}..{{to}}
+review.changesSince.viewing	查看中
+review.sinceViewed.changed	自上次查看以来有变更
+review.sinceViewed.showNewChanges	显示新变更
+review.diff.addComment	添加评论
+review.diff.fileOccurrence	（{{total}} 之 {{index}}）
+review.diff.imageBeforeAlt	变更前版本
+review.diff.imageAfterAlt	变更后版本
+review.diff.changeAdded	新增
+review.diff.changeDeleted	删除
+review.alert.note	注意
+review.alert.tip	提示
+review.alert.important	重要
+review.alert.warning	警告
+review.alert.caution	当心
+review.securityFinding.severityCritical	严重
+review.securityFinding.severityWarning	警告
+review.inbox.ciFailuresFor	CI 失败：显示 {{title}} 的失败检查
+review.inbox.failedCheckCount_one	{{count}} 项检查需要关注
+review.inbox.failedCheckCount_other	{{count}} 项检查需要关注
+review.inbox.noFailedChecks	GitHub 报告没有失败的检查。
+review.inbox.viewAllChecks	在 GitHub 上查看所有检查
+review.inbox.fullPr	完整 PR
+review.inbox.readerMention	{{author}} 提到了你
+review.inbox.readerReply	{{author}} 在你的讨论串中回复了
+review.inbox.jumpToChange	跳转到变更
+review.inbox.discussionUnavailable	讨论无法加载。打开完整 PR 查看。
+review.inbox.filterAndSort	筛选与排序
+review.inbox.previouslyReviewed	我之前在 GitHub 上评审过
+review.inbox.sortBy	排序方式
+review.inbox.recentlyUpdated	最近更新
+review.inbox.oldestFirst	最早的 PR 优先
+review.inbox.statusFilter	评审状态
+review.inbox.allStatuses	所有状态
+review.inbox.drafts	草稿
+review.inbox.awaitingReview	等待评审
+review.inbox.changesRequested	已要求修改
+review.inbox.filteredEmpty	没有匹配此筛选的 PR。
+review.inbox.snooze	稍后处理
+review.inbox.authoredTitle	我创建的 PR
+review.inbox.queueIntro	你或你团队被要求评审的开放 PR，包括检查失败或堆栈被阻塞的。
+review.inbox.authoredIntro	你的开放 PR，附检查、评审状态和讨论。
+review.inbox.settingsIntro	选择建议什么、PR 稍后处理多久、以及你的收件箱外观。
+review.inbox.rerequestSignal	请求再次评审
+review.inbox.directRequestSignal	直接请求评审
+review.inbox.whyYourTurn	为什么轮到你
+review.inbox.pickCount	显示 {{total}} 中的 {{shown}} 个
+review.inbox.passingHint	跳过检查失败、进行中或缺失的 PR。
+review.inbox.queueCiHint	检查不会把 PR 从你的队列中移除。
+review.inbox.authoredCiHint	评审状态和人工评论数保持可见。
+review.inbox.collapseHint	折叠的堆栈只显示基础 PR。你随时可以展开或折叠堆栈。
+review.inbox.stacksStart	默认堆栈视图
+review.inbox.collapsed	折叠
+review.inbox.expanded	展开
+review.inbox.whenSnoozed	稍后处理时
+review.inbox.oneTap	一键
+review.inbox.snoozeModeHint	用一个固定时长或每次从三个中选。
+review.inbox.snoozeFor	稍后处理 {{duration}}
+review.inbox.snoozedCount	已加载请求中稍后处理的（{{number}}）
+review.inbox.allLoadedSnoozed	所有已加载的评审请求都已稍后处理。
+review.inbox.snoozeLimit	你有 {{count}} 个进行中的稍后处理。把一个请求放回队列或等稍后处理过期。
+review.inbox.snoozeSaveFailed	保存稍后处理更改失败。请重试。
+review.inbox.unsnooze	放回队列
+review.inbox.snoozeMenu	每次选择时长
+review.inbox.defaultDuration	一键时长
+review.inbox.durationChoice	时长 {{number}}
+review.inbox.unitFor	{{label}}的时间单位
+review.inbox.durationHint	使用 5 分钟到 12 周之间的不同　时长。
+review.inbox.stackPosition	第 {{position}} 位，共 {{total}}，基础在前
+review.inbox.stackNumber	堆栈 #{{number}}
+review.inbox.prPosition	PR 第 {{position}} 位，共 {{total}}
+review.inbox.memberPosition	{{total}} 之 {{position}}
+review.inbox.stackCount	{{total}} 个 PR 中的 {{shown}} 个
+review.inbox.baseFirst	基础在前
+review.inbox.baseOutside	基础 #{{number}} 不在此视图内
+review.inbox.basePr	基础 PR
+review.inbox.buildsOn	基于 #{{number}}
+review.inbox.youAreHere	你在这里
+review.inbox.humanDiscussion	来自人员的对话评论：{{number}}{{suffix}}
+review.inbox.settings	设置
+review.inbox.suggestRerequests	建议有人直接请求我评审的 PR
+review.inbox.requirePassingCi	要求 CI 通过
+review.inbox.requirementsHint	这些选择只影响建议。所有待处理请求都留在「我的队列」中。
+review.inbox.showCi	在每个 PR 上显示 CI 状态
+review.inbox.noDecision	没有评审结论
+review.inbox.endLine	结束行
+review.inbox.quickReview	快速评审
+review.inbox.quickReviewFor	快速评审：{{title}}
+review.inbox.changedFiles	变更文件
+review.inbox.commentOnLine	选择第 {{line}} 行评论
+review.inbox.openForDiff	此处没有当前可用的 diff。打开完整 PR 查看其变更。
+review.inbox.notAnalyzed_one	Devin 未分析（{{count}} 个文件）。在完整 PR 中查看。
+review.inbox.notAnalyzed_other	Devin 未分析（{{count}} 个文件）。在完整 PR 中查看。
+review.inbox.leaveReview	留下评审
+review.inbox.submitReview	提交评审
+review.inbox.next	你的下一个
+review.inbox.noSuggestions	现在没有建议。
+review.inbox.queueTitle	待评审的 PR
+review.inbox.rerequestReason	@{{login}} 在你提交后请求再次评审。
+review.inbox.directRequestReason	@{{login}} 直接请求了你的评审。
+review.inbox.openPr	打开 PR
+review.inbox.moreSuggestions	加载更多建议
+review.inbox.tabsLabel	评审收件箱
+review.inbox.myQueue	我的队列
+review.inbox.myPrs	我的 PR
