@@ -1,0 +1,500 @@
+translation.jiraDataCenter.deleteDescription	Devin 将停止读取此 Jira，其 issue 无法再被关联。已有链接保留。此操作无法撤销。
+translation.jiraDataCenter.kindLabel	Jira Data Center
+translation.jiraCloud.kindLabel	Jira Cloud
+translation.jiraCloud.enableDescription	让 Devin 把会话关联到此 Jira Cloud 站点的 issue，按项目打标签并读取 issue 层级。它会优先用已安装的 Devin app，其次用已配置的 Jira 服务账户，否则用已连接的管理员账户。被问到某个 issue 时，Devin 用会话所有者的 Jira 账户读取。
+translation.jiraCloud.enable	启用项目跟踪器
+translation.jiraCloud.siteLabel	Jira 站点
+translation.jiraCloud.sitePlaceholder	选择站点
+translation.jiraCloud.noSites	没有 Jira Cloud 站点连接了 Devin app 或管理员账户。
+translation.jiraCloud.sourceForgeApp	使用 Devin app
+translation.jiraCloud.sourceServiceAccount	使用服务账户
+translation.jiraCloud.sourceAdminGrant	使用管理员账户
+translation.jiraCloud.enabling	启用中…
+translation.jiraCloud.enableNotConnected	请先连接 Jira。
+translation.jiraCloud.enableAlreadyEnabled	此 Jira Cloud 站点已启用跟踪器。
+translation.jiraCloud.enableFailed	无法启用项目跟踪器
+translation.jiraCloud.webhookDescription	在 Jira 中进入 Jira Administration → System → WebHooks，用此 URL 和密钥创建 webhook。选择下方事件，JQL 过滤器留空。
+translation.jiraCloud.deleteDescription	Devin 将停止读取此 Jira Cloud 站点，其 issue 无法再被关联。已有链接保留。Jira 集成保持连接。
+translation.projectTracker.title	项目跟踪器
+translation.projectTracker.description	你已连接跟踪器的一项功能。Devin 把会话关联到 issue，按项目打标签并读取 issue 层级。
+translation.projectTracker.healthHealthy	健康
+translation.projectTracker.healthWarning	警告
+translation.projectTracker.healthUnhealthy	不健康
+translation.projectTracker.healthCheckedAt	检查于 {{time}}
+translation.projectTracker.lastWebhookAt	最近 webhook {{time}}
+translation.projectTracker.noWebhookYet	还没收到 webhook
+translation.projectTracker.checkHealth	检查健康状态
+translation.projectTracker.healthCheckFailed	健康检查失败
+translation.projectTracker.deleteTitle	删除 {{name}}？
+translation.projectTracker.deleted	连接已删除
+translation.projectTracker.deleteFailed	无法删除连接
+translation.projectTracker.settingsTitle	设置
+translation.projectTracker.settingsSubtitle	Devin 如何为此连接给会话打标签和检测 issue 链接。
+translation.projectTracker.settingsSaved	设置已保存
+translation.projectTracker.settingsSaveFailed	无法保存设置
+translation.projectTracker.detectionEnabled	在会话中检测 issue 链接
+translation.projectTracker.adminConnectionsDescription	此账户上活跃的跟踪器连接。只有 pattern 连接支持在此编辑检测设置。
+translation.projectTracker.editKindOrder	编辑工单层级
+translation.projectTracker.kindOrderHelp	层级从高到低排列。用手柄或菜单移动类型和层级。只有已放入层级的类型会被保存。
+translation.projectTracker.kindOrderEditorMode	层级编辑器模式
+translation.projectTracker.kindOrderVisualMode	可视化
+translation.projectTracker.kindOrderJsonMode	JSON
+translation.projectTracker.kindOrderJsonHelp	从高到低编辑层级。每个层级有工单类型，可以有名称。切回可视化前先修正所有错误。
+translation.projectTracker.kindOrderJsonSyntax	请输入合法 JSON。
+translation.projectTracker.kindOrderJsonShape	请输入含非空 levels 数组的对象。每个层级需要类型字符串的 kinds 数组，可以有名称。
+translation.projectTracker.kindOrderRequired	至少把一个工单类型放入层级。
+translation.projectTracker.kindOrderLevel	层级 {{index}}
+translation.projectTracker.kindOrderTray	不在任何层级
+translation.projectTracker.kindOrderNoType	无类型：{{total}}
+translation.projectTracker.kindOrderAddLevel	添加层级
+translation.projectTracker.kindOrderEmptyLevel	把类型拖到这里
+translation.projectTracker.kindOrderEmptyTray	没有未放置的类型
+translation.projectTracker.kindOrderCustomType	自定义类型
+translation.projectTracker.kindOrderAddType	添加类型
+translation.projectTracker.kindOrderInvalid	类型最多 {{length}} 个字符，不能含换行或空字符。
+translation.projectTracker.kindOrderInvalidType	无效类型
+translation.projectTracker.kindOrderRemoveType	移除 {{kind}}
+translation.projectTracker.kindOrderMoveType	移动 {{kind}}（{{total}}）
+translation.projectTracker.kindOrderMoved	已把 {{kind}} 移到 {{level}}。
+translation.projectTracker.kindOrderReorder	重排 {{level}}
+translation.projectTracker.kindOrderLevelMoved	已移到 {{level}}。
+translation.projectTracker.kindOrderLoading	正在加载已存类型…
+translation.projectTracker.kindOrderCountsFailed	无法加载已存类型。
+translation.projectTracker.kindOrderReset	重置为默认
+translation.projectTracker.kindOrderDuplicate	每个工单类型只能出现一次。
+translation.projectTracker.kindOrderLimits	最多 {{levels}} 个层级、共 {{kinds}} 个类型，每个类型最多 {{length}} 个字符。
+translation.projectTracker.kindOrderSaveFailed	无法保存工单层级。
+translation.projectTracker.keyPattern	Issue key 模式
+translation.projectTracker.keyPatternHelp	带命名组 `{{group}}` 的 RE2 模式，用于捕获 issue key
+translation.projectTracker.urlPatterns	Issue URL 模式
+translation.projectTracker.urlPatternsHelp	每行一个 RE2 模式，各带命名组 `key`。最多 20 条
+translation.projectTracker.patternTooLong	模式超过 {{max}} 个字符
+translation.projectTracker.patternNoKeyGroup	模式没有命名组 `{{group}}`
+translation.projectTracker.tooManyUrlPatterns	URL 模式最多 {{max}} 条
+translation.projectTracker.setUpWebhookAgain	重新设置 webhook
+translation.projectTracker.webhookSecretFailed	无法创建 webhook 密钥
+translation.projectTracker.save	保存
+translation.projectTracker.saving	保存中…
+translation.projectTracker.loadFailed	加载跟踪器连接失败
+translation.projectTracker.tryAgain	重试
+translation.projectTracker.webhookSecretOnce	密钥只显示一次。现在复制。
+translation.projectTracker.webhookUrl	Webhook URL
+translation.projectTracker.webhookSecret	Webhook 密钥
+translation.projectTracker.copyWebhookUrl	复制 webhook URL
+translation.projectTracker.copyWebhookSecret	复制 webhook 密钥
+translation.projectTracker.webhookServiceUser	已连接为 {{user}}。
+translation.projectTracker.webhookRegistered	我已注册
+translation.projectTracker.webhookEvents	要选择的事件
+translation.customTracker.pageDescription	通过 Devin API 从你自己的系统推送工单。Devin 像对其他跟踪器一样，把会话关联到它们并读取其层级。
+translation.customTracker.create	创建跟踪器
+translation.customTracker.createTitle	创建自定义跟踪器
+translation.customTracker.createDescription	你的系统推送工单。Devin 从不调用你的跟踪器。
+translation.customTracker.name	名称
+translation.customTracker.itemUrlTemplate	工单 URL 模板
+translation.customTracker.itemUrlTemplateHelp	工单打开的地址，用 {key} 表示其 key
+translation.customTracker.itemUrlTemplateInvalid	用 http 或 https URL，{key} 在域名后出现一次
+translation.customTracker.maxDepth	层级深度
+translation.customTracker.maxDepthHelp	Devin 从一个工单向上追溯多少层父级
+translation.customTracker.creating	创建中…
+translation.customTracker.createFailed	无法创建跟踪器
+translation.customTracker.trackerId	跟踪器 ID
+translation.customTracker.copyTrackerId	复制跟踪器 ID
+translation.customTracker.trackerIdHelp	推送工单到 PUT /v3beta1/tracker-connections/{{id}}/items。调用的服务用户需要此跟踪器的 tracker_connection.configure 权限。
+translation.customTracker.lastPush_one	最近推送 {{time}} · {{count}} 个工单
+translation.customTracker.lastPush_other	最近推送 {{time}} · {{count}} 个工单
+translation.customTracker.noPushYet	还没推送工单
+translation.customTracker.deleteDescription	Devin 将停止显示这些工单，它们无法再被关联。已有链接保留。此操作无法撤销。
+translation.pagerduty.providerLabel	PagerDuty
+translation.pagerduty.accountFallback	PagerDuty 账户
+translation.pagerduty.actorEmailHelp	Devin 写入 PagerDuty 的备注和事件更新归到此用户名下。建议用服务用户以便区分
+translation.pagerduty.actorEmailLabel	操作者邮箱
+translation.pagerduty.actorEmailPlaceholder	devin-bot@example.com
+translation.pagerduty.apiKeyLabel	General Access REST API key
+translation.pagerduty.apiKeyPlaceholder	粘贴你的 PagerDuty API key
+translation.pagerduty.appRegistrationClientIdLabel	Client ID
+translation.pagerduty.appRegistrationClientSecretLabel	Client secret
+translation.pagerduty.appRegistrationClientSecretStored	已保存——留空保持不变
+translation.pagerduty.appRegistrationConfigured_one	应用注册已配置 · 被 {{count}} 个 MCP 服务器使用
+translation.pagerduty.appRegistrationConfigured_other	应用注册已配置 · 被 {{count}} 个 MCP 服务器使用
+translation.pagerduty.appRegistrationCopyRedirectUri	复制重定向 URI
+translation.pagerduty.appRegistrationLegacyWarning_one	{{count}} 个 PagerDuty MCP 服务器仍在用自己的 OAuth 凭据，未完全连接。通过它关联的成员保持关联直到切换。
+translation.pagerduty.appRegistrationLegacyWarning_other	{{count}} 个 PagerDuty MCP 服务器仍在用自己的 OAuth 凭据，未完全连接。通过它们关联的成员保持关联直到切换。
+translation.pagerduty.appRegistrationLoadFailedBody	无法加载 PagerDuty 应用注册。
+translation.pagerduty.appRegistrationLoadFailedTitle	出了点问题
+translation.pagerduty.appRegistrationMissing	还没有应用注册——成员无法关联其 PagerDuty 账户
+translation.pagerduty.appRegistrationRedirectUri	重定向 URI
+translation.pagerduty.appRegistrationRemoveDescription	添加新应用注册后，成员需要重新关联其 PagerDuty 账户
+translation.pagerduty.appRegistrationRemoveFailed	移除 PagerDuty 应用注册失败
+translation.pagerduty.appRegistrationRemoveTitle	移除应用注册？
+translation.pagerduty.appRegistrationRemoved	PagerDuty 应用注册已移除
+translation.pagerduty.appRegistrationSaveFailed	保存 PagerDuty 应用注册失败
+translation.pagerduty.appRegistrationSaved	PagerDuty 应用注册已保存
+translation.pagerduty.appRegistrationScopeHelp	空格分隔的 scope；必须与 PagerDuty 应用上启用的 scope 一致。留空则用应用自身权限
+translation.pagerduty.appRegistrationScopeLabel	Scopes
+translation.pagerduty.appRegistrationSubtitle	把 Devin 注册为 PagerDuty 的 OAuth 应用。
+translation.pagerduty.appRegistrationSwitchFailed	切换 PagerDuty MCP 服务器失败
+translation.pagerduty.appRegistrationSwitched	PagerDuty MCP 服务器现在使用应用注册
+translation.pagerduty.appRegistrationTitle	应用注册
+translation.pagerduty.appRegistrationUseForInstallations	使用应用注册
+translation.pagerduty.cancel	取消
+translation.pagerduty.connect	连接
+translation.pagerduty.connectDialogDescription	key 需要完全访问权限；不接受用户 API token
+translation.pagerduty.connectDialogLinkLabel	打开 PagerDuty API access keys
+translation.pagerduty.connectDialogTitle	连接 PagerDuty
+translation.pagerduty.connectDialogValidation.apiKeyRequired	API key 必填
+translation.pagerduty.connectDialogValidation.actorEmailRequired	操作者邮箱必填
+translation.pagerduty.connectDialogValidation.actorEmailInvalid	请输入有效邮箱地址
+translation.pagerduty.connectedAt	连接于 {{date}}
+translation.pagerduty.copyUrl	复制 URL
+translation.pagerduty.copyWebhookUrl	复制 webhook URL
+translation.pagerduty.copyWebhookUrlFailed	复制 webhook URL 失败
+translation.pagerduty.createWebhook	创建 webhook 订阅
+translation.pagerduty.disconnect	断开连接
+translation.pagerduty.disconnectDescription	Devin 将停止接收 PagerDuty 事件并移除它创建的 webhook 订阅。从 marketplace 安装的 MCP 不受影响
+translation.pagerduty.disconnectTitle	断开 PagerDuty？
+translation.pagerduty.keyInvalid	已存的 API key 不再有效。用新 key 重新连接。
+translation.pagerduty.keyInvalidWithReason	已存的 API key 不再有效（{{error}}）。用新 key 重新连接。
+translation.pagerduty.options.service.loading	正在加载服务选项…
+translation.pagerduty.options.service.noneFound	未找到服务选项
+translation.pagerduty.options.service.search	搜索服务…
+translation.pagerduty.options.service.select	选择服务
+translation.pagerduty.options.service.connectToSelect	连接 PagerDuty 以选择服务
+translation.pagerduty.options.team.loading	正在加载团队选项…
+translation.pagerduty.options.team.noneFound	未找到团队选项
+translation.pagerduty.options.team.search	搜索团队…
+translation.pagerduty.options.team.select	选择团队
+translation.pagerduty.options.team.connectToSelect	连接 PagerDuty 以选择团队
+translation.pagerduty.options.escalationPolicy.noneFound	未找到升级策略选项
+translation.pagerduty.options.escalationPolicy.search	搜索升级策略…
+translation.pagerduty.options.escalationPolicy.select	选择升级策略
+translation.pagerduty.options.priority.loading	正在加载优先级选项…
+translation.pagerduty.options.priority.noneFound	未找到优先级选项
+translation.pagerduty.options.priority.search	搜索优先级…
+translation.pagerduty.options.priority.select	选择优先级
+translation.pagerduty.options.priority.connectToSelect	连接 PagerDuty 以选择优先级
+translation.pagerduty.linkAppRegistrationMissingToast	此组织的 PagerDuty 未配置完整。请管理员在 Connections 添加 PagerDuty 应用注册。
+translation.pagerduty.manualStep1	在 PagerDuty 进入 Integrations > Generic webhooks (v3)，添加指向上面 URL、scope 为 account 的 webhook
+translation.pagerduty.manualStep2	选择你想让 Devin 接收的事件类型
+translation.pagerduty.manualStep3	复制 PagerDuty 只显示一次的签名密钥，粘贴到下方
+translation.pagerduty.manualTitle	添加 webhook
+translation.pagerduty.moreOptionsHint	显示前 {{count}} 个。输入以搜索更多。
+translation.pagerduty.pageDescription	连接 PagerDuty，从事件触发自动化并让 Devin 回复事件备注。
+translation.pagerduty.reconnectWithNewKey	用新 key 重新连接
+translation.pagerduty.regionEu	EU (api.eu.pagerduty.com)
+translation.pagerduty.regionLabel	API 区域
+translation.pagerduty.regionUs	US (api.pagerduty.com)
+translation.pagerduty.remove	移除
+translation.pagerduty.removeSubscriptionDescriptionManaged	webhook 订阅也会在 PagerDuty 中被删除。创建新订阅前 Devin 停止接收事件。
+translation.pagerduty.removeSubscriptionDescriptionManual	已存的签名密钥被移除。不再需要的话也在 PagerDuty 删除该 webhook。
+translation.pagerduty.removeSubscriptionTitle	移除 webhook 订阅？
+translation.pagerduty.retryWebhookSetup	重试 webhook 设置
+translation.pagerduty.save	保存
+translation.pagerduty.setUpManually	添加 webhook
+translation.pagerduty.signingSecretLabel	Webhook 签名密钥
+translation.pagerduty.signingSecretRequired	Webhook 签名密钥必填
+translation.pagerduty.statusLoadFailedBody	无法加载 PagerDuty 连接状态。
+translation.pagerduty.statusLoadFailedTitle	出了点问题
+translation.pagerduty.subscriptionActive	活跃
+translation.pagerduty.subscriptionCreatedAt	创建于 {{date}}
+translation.pagerduty.subscriptionIdLabel	订阅 ID
+translation.pagerduty.subscriptionInactive	不活跃
+translation.pagerduty.subscriptionManaged	由 Devin 自动创建
+translation.pagerduty.subscriptionManual	手动
+translation.pagerduty.subscriptionMissingRemote	PagerDuty 中未找到
+translation.pagerduty.toastConnectFailed	连接 PagerDuty 失败
+translation.pagerduty.toastConnected	PagerDuty 已连接
+translation.pagerduty.toastDisconnectFailed	断开 PagerDuty 失败
+translation.pagerduty.toastDisconnected	PagerDuty 已断开
+translation.pagerduty.toastIncompatibleKey	不支持此 key。请用 General Access REST API key。
+translation.pagerduty.toastInvalidKey	PagerDuty 拒绝了该 API key
+translation.pagerduty.toastSigningSecretFailed	保存签名密钥失败
+translation.pagerduty.toastSigningSecretSaved	签名密钥已保存
+translation.pagerduty.toastUnreachable	无法连接 PagerDuty。请重试。
+translation.pagerduty.toastWebhookCreateFailed	创建 webhook 订阅失败
+translation.pagerduty.toastWebhookCreated	webhook 订阅已创建
+translation.pagerduty.toastWebhookRemoveFailed	移除 webhook 订阅失败
+translation.pagerduty.toastWebhookRemoved	webhook 订阅已移除
+translation.pagerduty.tryAgain	重试
+translation.pagerduty.userLinkRowNotMember	此账户属于 {{subdomain}} PagerDuty 账户，不是连接到此组织的那个。请从已连接的 PagerDuty 账户关联账户以使用 PagerDuty 自动化。
+translation.pagerduty.userLinkRowNotMemberUnknown	此账户不是连接到此组织的 PagerDuty 账户的成员。请从已连接的 PagerDuty 账户关联账户以使用 PagerDuty 自动化。
+translation.pagerduty.userLinkUnlinkFailed	取消关联你的 PagerDuty 账户失败
+translation.pagerduty.webhookEndpointTitle	Webhook 端点
+translation.pagerduty.webhookMissing	没有活跃的 webhook 订阅。Devin 没在接收 PagerDuty 事件。
+translation.pagerduty.webhookSetupFailed	自动 webhook 设置失败：{{error}}。重试，或手动设置。
+translation.pagerduty.webhookSubtitle	PagerDuty 通过 webhook 订阅把事件发给 Devin
+translation.pagerduty.webhookTitle	Webhook
+translation.inbox.previousItem	上一条
+translation.inbox.from	来自
+translation.inbox.nextItem	下一条
+translation.inbox.filterByType	按类型筛选
+translation.inbox.allTypes	所有类型
+translation.inbox.openInbox	需要你
+translation.inbox.resolveFailed	无法更新此项。请重试。
+translation.inbox.resolveRefused	无法更新此项
+translation.inbox.markDone	标记完成
+translation.inbox.markedDone	已标记完成
+translation.inbox.networkAccessGranted	已授予 {{hosts}} 的网络访问
+translation.inbox.networkAccessHost	批准即允许此 {{botName}} 访问 {{host}}
+translation.inbox.networkAccessHost_named	批准即允许 {{botName}} 访问 {{host}}
+translation.inbox.approve	批准
+translation.inbox.addToSlackChannel	加入 #{{channel}}
+translation.inbox.dismiss	关闭
+translation.inbox.dismissed	已关闭
+translation.inbox.lastEngaged	最近处理于 {{when}}
+translation.inbox.markActive	标记活跃
+translation.inbox.gotIt	知道了
+translation.inbox.open	打开
+translation.inbox.view	查看
+translation.inbox.openPr	打开 PR
+translation.inbox.markHandled	标记已处理
+translation.inbox.recommendedLabel	推荐
+translation.inbox.otherOption	其他
+translation.inbox.clearReference	移除条目引用
+translation.inbox.hint.focus	点击聚焦
+translation.inbox.hint.unfocus	点击取消聚焦
+translation.inbox.hint.expand	点击展开
+translation.inbox.hint.collapse	点击收起
+translation.inbox.actionType.decision	决策
+translation.inbox.actionType.fyi	知会
+translation.inbox.actionType.report	报告
+translation.inbox.actionType.pr_codeowners_review	发送给 codeowner 评审
+translation.inbox.actionType.pr_review	评审 PR
+translation.inbox.actionType.pr_merge	合并 PR
+translation.inbox.actionType.permission_request	权限请求
+translation.inbox.actionType.other	其他
+translation.inbox.snooze	暂缓
+translation.inbox.snoozeUntil	暂缓至
+translation.inbox.snoozeHour	一小时后
+translation.inbox.snoozeTomorrow	明天 9:00
+translation.inbox.snoozeNextWeek	下周一 9:00
+translation.inbox.snoozeCustom	选择日期和时间…
+translation.inbox.snoozeIndefinitely	无限期
+translation.inbox.snoozeDescription	此项保持暂缓，直到暂缓期结束后 {{botName}} 再次检查。
+translation.inbox.snoozeTimezone	时间为 {{timezone}} 时区
+translation.inbox.snoozeDate	日期和时间
+translation.inbox.snoozeConfirm	暂缓
+translation.inbox.snoozeFailed	无法暂缓此项。请重试。
+translation.inbox.snoozeDateInvalid	请选择未来一年内的日期和时间
+translation.inbox.snoozedUntil	暂缓至 {{time}}
+translation.inbox.snoozedFor	已暂缓 {{duration}}
+translation.inbox.snoozedIndefinitely	已无限期暂缓
+translation.inbox.pr.draft	草稿
+translation.inbox.pr.recording	查看录屏
+translation.inbox.pr.recordings_one	{{count}} 个录屏
+translation.inbox.pr.recordings_other	{{count}} 个录屏
+translation.inbox.pr.recordingN	录屏 {{index}}
+translation.inbox.pr.state.merged	已合并
+translation.inbox.pr.state.closed	已关闭
+translation.inbox.pr.open	打开
+translation.inbox.pr.ciStatus.success	检查通过
+translation.inbox.pr.ciStatus.failure	检查失败
+translation.inbox.pr.ciStatus.pending	检查运行中
+translation.inbox.pr.linkLabel	Pull request #{{number}}
+translation.inbox.pr.linkLabelWithTitle	Pull request #{{number}}，{{title}}
+translation.inbox.doc.lines_one	{{count}} 行
+translation.inbox.doc.lines_other	{{count}} 行
+translation.inbox.doc.pages_one	{{count}} 页
+translation.inbox.doc.pages_other	{{count}} 页
+translation.inbox.context.pr	PR {{number}}
+translation.inbox.localConnect.connect	连接
+translation.inbox.localConnect.retry	重试
+translation.inbox.localConnect.copyCommand	复制命令
+translation.inbox.localConnect.expiresAt	配对码于 {{expiresAt}} 过期。
+translation.inbox.localConnect.expired	配对码已过期。
+translation.inbox.localConnect.runCommand	在你的机器上运行 `{{command}}` 以连接。
+translation.inbox.change.apply	应用
+translation.inbox.change.allow	允许
+translation.inbox.change.approveChange	批准更改
+translation.inbox.change.effect.automation.create	批准即创建此自动化。现在不会运行。
+translation.inbox.change.effect.automation.update	批准即保存此自动化的更改；下次运行生效。现在不会运行。
+translation.inbox.change.effect.automation.delete	批准即删除此自动化并停止其运行。
+translation.inbox.change.reject	拒绝
+translation.inbox.change.approveOnce	仅批准一次
+translation.inbox.change.bypassSession	本会话豁免
+translation.inbox.change.localBypassBlocked	修复以下问题后才能豁免：
+translation.inbox.change.openChange	查看更改
+translation.inbox.change.openPr	打开 PR
+translation.inbox.change.title	标题
+translation.inbox.change.summary	摘要
+translation.inbox.change.repo	仓库
+translation.inbox.change.files	文件
+translation.inbox.change.unshared	待处理项在未与你共享的会话上
+translation.inbox.change.slackJoinChannel	以 {{botName}} 的 Slack app 加入此 Slack 频道
+translation.inbox.change.slackCreateChannel	创建此公开 Slack 频道
+translation.inbox.change.slackInviteToChannel	把这些成员加入此公开 Slack 频道
+translation.inbox.change.slackLeaveChannel	退出此公开 Slack 频道
+translation.inbox.change.reviewOnSession	从会话中评审并应用
+translation.inbox.change.clear	清除
+translation.inbox.change.settled	已在会话中答复
+translation.inbox.change.unread	无法从会话读取请求；请到会话中查看
+translation.inbox.change.reason	原因
+translation.inbox.change.budget	用量上限
+translation.inbox.change.kind.permission_request	权限请求
+translation.inbox.change.kind.environment_config_suggestion	Blueprint 更改
+translation.inbox.change.kind.skill_pr_suggestion	技能更改
+translation.inbox.change.kind.network_access_request	网络访问
+translation.inbox.change.kind.bot_budget_proposal	用量上限提升
+translation.inbox.change.kind.local_access_request	Local Hands 连接
+translation.inbox.tickets.label	关联工单
+translation.inbox.attachments.label	附件
+translation.inbox.attachments.toggle_one	{{count}} 个附件
+translation.inbox.attachments.toggle_other	{{count}} 个附件
+translation.inbox.needsYouCount_one	{{count}} 项需要你
+translation.inbox.needsYouCount_other	{{count}} 项需要你
+translation.inbox.itemPosition	{{index}}/{{count}}
+translation.inbox.autoAdvance	自动前进
+translation.inbox.collapseInbox	收起收件箱
+translation.inbox.expandInbox	展开收件箱
+translation.inbox.holdPeekShortcut	按住 <keycap></keycap>
+translation.inbox.replyingTo	回复 {{title}}
+translation.inbox.totalCount	共 {{count}} 条
+translation.inbox.onHold	已暂缓
+translation.inbox.onHoldCount_one	{{count}} 条暂缓
+translation.inbox.onHoldCount_other	{{count}} 条暂缓
+translation.inbox.nothingOnHold	没有暂缓项
+translation.inbox.holdFailed	无法更新此项的暂缓状态。请重试。
+translation.inbox.renameTitle	重命名条目
+translation.inbox.renameFailed	无法重命名此项。请重试。
+translation.inbox.moreActions	更多操作
+translation.inbox.snoozeBringBack	取消暂缓
+translation.inbox.done	完成
+translation.input.searchRepository	搜索仓库
+translation.input.removeDefault	移除默认
+translation.input.defaultMachineToggle	默认机器：{{name}}
+translation.input.setAsDefaultPlatform	设为你的默认平台
+translation.input.setOrgWideDefault	设为组织级默认
+translation.input.noRepositoriesFound	未找到仓库
+translation.input.loading	加载中...
+translation.input.noneEnabled	均未启用
+translation.input.attachOrMention	附件或提及
+translation.input.uploadFiles	上传文件
+translation.input.attachFiles	添加附件
+translation.input.uploadFolder	上传文件夹
+translation.input.folderUpload.preparing	准备中…
+translation.input.folderUpload.compressing	压缩中… {{percent}}%
+translation.input.folderUpload.uploading	上传中…
+translation.input.folderUpload.empty	文件夹 {{name}} 没有可上传的文件
+translation.input.folderUpload.tooLarge	文件夹 {{name}} 超过最大允许大小 {{limit}}MB
+translation.input.folderUpload.zipTooLarge	文件夹 {{name}} 压缩后超过 {{limit}}MB
+translation.input.folderUpload.compressFailed	压缩文件夹 {{name}} 失败
+translation.input.folderUpload.readFailed	无法读取文件夹 {{name}}
+translation.input.folderUpload.unreadableFiles_one	文件夹 {{name}} 中 {{count}} 个文件无法读取，已略过
+translation.input.folderUpload.unreadableFiles_other	文件夹 {{name}} 中 {{count}} 个文件无法读取，已略过
+translation.input.folderUpload.unreadableFilesNames	已略过：{{paths, list}}
+translation.input.uploadImage	上传图片
+translation.input.actions	操作
+translation.input.dropFilesToShare	拖文件与 Devin 共享
+translation.input.onlyImageFilesSupported	只支持图片文件（.png、.jpg、.jpeg、.gif、.webp）
+translation.input.mentionRepositories	仓库
+translation.input.mentionCodebaseFiles	文件
+translation.input.mentionSkills	技能
+translation.input.mentionSessions	Devin 会话
+translation.input.mentionPlaybooks	Playbook
+translation.input.mentionPlaybooksMovedToSkills	Playbook 已迁移为 Skills。请改用 Skills。
+translation.input.mentionPlugins	插件
+translation.input.mentionSecrets	机密
+translation.input.mentionMacros	宏
+translation.input.mentionPeople	人员
+translation.input.mentionSlackChannels	Slack 频道
+translation.input.mentionChannels	频道
+translation.input.mentionTeamsChannels	Microsoft Teams 频道
+translation.input.mentionWorkItems	工单
+translation.input.mentionBots	{{botNamePlural}}
+translation.input.sendNewSecret	发送新机密集
+translation.input.capabilityLabel	能力
+translation.input.capabilityTooltip	能力越高模型越强但成本越高
+translation.input.capabilityNoneEnabled	此组织已禁用所有 Devin 模式。
+translation.input.fedCloudSessionsDisabled	此组织已禁用云端会话。
+translation.input.internalOnly	仅内部
+translation.input.speedLabel	速度
+translation.input.modeLabel	模式
+translation.input.modesTooltip	模式
+translation.input.capabilityCardLearnMore	了解更多
+translation.input.capabilityCardFastMode	Fast 模式
+translation.input.capabilityCardFastModeChatGPTSub	使用 ChatGPT 计划时 Fast 模式不可用。
+translation.input.capabilityCardFreeModePlan_one	该计划含 {{count}} 个并发会话
+translation.input.capabilityCardFreeModePlan_other	该计划含 {{count}} 个并发会话
+translation.input.capabilityCardFreeModeSlots	<n>{{used}}/{{limit}}</n> 使用中
+translation.input.capabilityCardUseChatGPTSub	使用 ChatGPT 计划
+translation.input.capabilityCardGptSubscription	你正在使用 ChatGPT 订阅。<manageLink>管理</manageLink>
+translation.input.capabilityCardChatGPTSubNotConnected	<manageLink>连接你的 ChatGPT 账户</manageLink>以使用你的计划。
+translation.input.capabilityCardChatGPTSubReconnectRequired	你的 ChatGPT 连接已过期。<manageLink>重新连接</manageLink>以使用你的计划。
+translation.input.capabilityCardChatGPTSubError	你的 ChatGPT 计划暂时不可用。<manageLink>检查你的连接</manageLink>。
+translation.input.capabilityCardChatGPTSubUpdateFailed	无法更新你的 ChatGPT 计划设置。请重试。
+translation.input.capabilityCardChatGPTSubOwnerOnly	此会话使用会话所有者的 ChatGPT 计划。只有本人能更改。
+translation.input.setAsDefault	设为默认
+translation.input.defaultSet	已设默认
+translation.input.defaultRemoved	默认已移除
+translation.input.usingOrganizationDefault	使用组织默认
+translation.input.personaDataAnalyst	Data Analyst
+translation.inputBox.formatting.label	文本格式
+translation.inputBox.formatting.bold	加粗
+translation.inputBox.formatting.italic	斜体
+translation.inputBox.formatting.strikethrough	删除线
+translation.inputBox.formatting.code	行内代码
+translation.inputBox.formatting.insideCode	代码内不能加格式
+translation.inputBox.formatting.insideLink	链接内不能加代码
+translation.inputBox.formatting.multipleBlocks	选择同一段落内的文本
+translation.inputBox.formatting.containsChip	选区包含 chip
+translation.inputBox.subagentsRunning_one	{{count}} 个子代理运行中
+translation.inputBox.subagentsRunning_other	{{count}} 个子代理运行中
+translation.inputBox.subagentsPaused_one	{{count}} 个子代理已暂停
+translation.inputBox.subagentsPaused_other	{{count}} 个子代理已暂停
+translation.inputBox.switchOrganizationFailed	无法切换组织。请重试。
+translation.inputBox.addFilesReposMacros	添加文件、仓库、宏
+translation.inputBox.attachAsFile	把提示词作为附件？
+translation.inputBox.attachAsFileConfirm	作为附件
+translation.inputBox.cancel	取消
+translation.inputBox.skipRemainingQuestions	跳过剩余
+translation.inputBox.clickToExpandPrompt	点击展开提示词
+translation.inputBox.collapseInput	收起输入框
+translation.inputBox.connectReposOrUpgrade	连接你的仓库免费试用 Devin，或<upgradeButton>升级你的计划</upgradeButton>
+translation.inputBox.continueInNewSession	在新会话中继续
+translation.inputBox.noWriteAccess	你没有此会话的写权限。
+translation.inputBox.contractExpired	你的 Devin 合同已到期。联系你的客户团队续约。
+translation.inputBox.expandInput	展开输入框
+translation.inputBox.inboxReply	提问或给出指示
+translation.inputBox.guideDevin	在 {{name}} 工作时引导它
+translation.inputBox.guideDevinQueued	加入队列，或按 {{shortcut}} 立即发送
+translation.inputBox.guideDevinQueuedRich	加入队列，或按 <kbdShortcut/> 立即发送
+translation.inputBox.guideDevinWithQueued	在 {{name}} 工作时引导它，或按 {{shortcut}} 加入队列
+translation.inputBox.guideDevinWithQueuedRich	在 {{name}} 工作时引导它，或按 <kbdShortcut/> 加入队列
+translation.inputBox.increaseOrgUsageLimit	提升企业组织用量上限
+translation.inputBox.increaseUsageLimit	提升用量上限
+translation.inputBox.increaseUserUsageLimit	提升你的单用户用量上限
+translation.inputBox.inputDisabled	输入当前已禁用
+translation.inputBox.keyBackspace	退格
+translation.inputBox.loadingPrompt	加载提示词中...
+translation.inputBox.loadingPreferences	加载你的偏好中...
+translation.inputBox.messageCouldNotBeQueued	消息无法加入队列
+translation.inputBox.queuedEditCouldNotBeSaved	修改无法保存
+translation.inputBox.messageIsEmpty	消息为空
+translation.inputBox.noPtsCodesFound	未找到 PTS Code
+translation.inputBox.noSeatAllocated	你的账户是个人计划
+translation.inputBox.noTagsFound	未找到标签
+translation.inputBox.organizationGroup	组织
+translation.inputBox.orgDefaultTagAppliesAtRunTime	组织默认 {{tag}} 在运行时生效
+translation.inputBox.parentContextIncludedFrom	包含父级上下文：<parentLink>{{title}}</parentLink>
+translation.inputBox.parentContextSummarizing	正在总结父会话…
+translation.inputBox.parentContextSummaryFailed	无法总结父会话
+translation.inputBox.parentContextUnavailable	无法总结父会话——不带其上下文继续。
+translation.inputBox.pasteAttachFailed	粘贴文本作为附件失败。请重新粘贴。
+translation.inputBox.pasteAttachFailedInsertedAsText	粘贴文本作为附件失败。已改为纯文本粘贴。
+translation.inputBox.pasteAttachedAsFile	大段粘贴已作为附件
+translation.inputBox.pleaseSelectRequiredPtsCode	请选择必填的 PTS Code
+translation.inputBox.pleaseSelectRequiredTag	请选择必填的标签
+translation.inputBox.prompt	提示词
+translation.inputBox.promptTooLong	你的提示词太长无法直接发送。要作为附件发送吗？
+translation.inputBox.ptsCode	PTS Code
+translation.inputBox.queueMessage	加入队列
+translation.inputBox.queuedMessagesAddAttachment	添加附件
+translation.inputBox.queuedMessagesClearAll	清空全部
+translation.inputBox.queuedMessagesCount_one	{{count}} 条消息在队列
+translation.inputBox.queuedMessagesCount_other	{{count}} 条消息在队列
+translation.inputBox.queuedMessagesEdit	编辑消息
+translation.inputBox.queuedMessagesEditingCancel	取消
+translation.inputBox.queuedMessagesEditingLabel	编辑队列消息
+translation.inputBox.queuedMessagesEditingSave	更新
+translation.inputBox.queuedMessagesRemove	移出队列
+translation.inputBox.queuedMessagesSendNow	立即发送
+translation.inputBox.recordVoicePrompt	录制语音输入
