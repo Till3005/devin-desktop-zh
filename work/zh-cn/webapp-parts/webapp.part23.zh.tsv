@@ -1,0 +1,500 @@
+translation.oncall.reporting.content.sectionTitle	小节标题
+translation.oncall.reporting.content.sectionTitlePlaceholder	常见问题
+translation.oncall.reporting.create	创建报告
+translation.oncall.reporting.createReport	创建报告
+translation.oncall.reporting.createServiceUser	创建服务用户
+translation.oncall.reporting.deleteReport	删除报告
+translation.oncall.reporting.deleteReportConfirm	确定删除「{{name}}」？它的周报自动化也会被删除；responder 不受影响。
+translation.oncall.reporting.deselectAll	取消全选
+translation.oncall.reporting.digestMcpsDescription	选择周报的会话应使用哪些连接器
+translation.oncall.reporting.digestPaused	周报已暂停
+translation.oncall.reporting.digestSheet.enabled	已启用
+translation.oncall.reporting.digestSheet.enabledDescription	启用定期生成报告
+translation.oncall.reporting.digestSheet.instructions	说明
+translation.oncall.reporting.digestSheet.instructionsDescription	描述报告应包含什么
+translation.oncall.reporting.digestSheet.loadError	无法加载周报自动化。
+translation.oncall.reporting.digestSheet.microsoftTeams	Microsoft Teams
+translation.oncall.reporting.digestSheet.noSchedule	无定期排期。
+translation.oncall.reporting.digestSheet.noSessionAction	此自动化不启动会话，其说明和通知不能在此编辑。请用「查看自动化」。
+translation.oncall.reporting.digestSheet.notifications	通知
+translation.oncall.reporting.digestSheet.notificationsDescription	报告生成时提醒
+translation.oncall.reporting.digestSheet.postDigestTo	发布周报到
+translation.oncall.reporting.digestSheet.schedule	排期
+translation.oncall.reporting.digestSheet.scheduleDescription	按此频率生成报告
+translation.oncall.reporting.digestSheet.selectProvider	目的地
+translation.oncall.reporting.digestSheet.slack	Slack
+translation.oncall.reporting.edit	编辑
+translation.oncall.reporting.editReport	编辑报告
+translation.oncall.reporting.emptyDescription	获取关于你 oncall 的定期报告——调查的事件、报告的告警与 bug、发现的问题、交付的修复，以及 Devin 对其驱动因素的洞察。
+translation.oncall.reporting.emptyHeading	创建你的第一份报告
+translation.oncall.reporting.generateReport	生成报告
+translation.oncall.reporting.generatedOn	生成于 {{date}}
+translation.oncall.reporting.groupedLegend	已分组
+translation.oncall.reporting.incidentsMatchDescription	描述哪些类型的事件应归入此报告。留空则不含事件
+translation.oncall.reporting.incidentsMatchLabel	事件匹配
+translation.oncall.reporting.incidentsMatchPlaceholder	影响支付服务或结账流程的事件
+translation.oncall.reporting.investigated	已调查
+translation.oncall.reporting.lastUpdatedAt	最近更新 {{date}}
+translation.oncall.reporting.matchBy	匹配方式
+translation.oncall.reporting.matchByDescription	选择按什么匹配 responder
+translation.oncall.reporting.matchByMetadataOption	元数据
+translation.oncall.reporting.matchByRespondersOption	单个 responder
+translation.oncall.reporting.metadataPlaceholder	team:payments
+translation.oncall.reporting.namePlaceholder	支付分诊
+translation.oncall.reporting.noDigestScheduled	还没排期周报
+translation.oncall.reporting.noMatchingReports	没有匹配搜索的报告。
+translation.oncall.reporting.noRespondersToAdd	还没有 responder——先创建一个。
+translation.oncall.reporting.notFound	此报告不存在或已删除。
+translation.oncall.reporting.paused	已暂停
+translation.oncall.reporting.removeMetadata	移除元数据
+translation.oncall.reporting.reportFallback	报告
+translation.oncall.reporting.reports	报告
+translation.oncall.reporting.reportsError	无法加载报告。
+translation.oncall.reporting.responderCount_one	{{count}} 个 responder
+translation.oncall.reporting.responderCount_other	{{count}} 个 responder
+translation.oncall.reporting.respondersLoadError	无法加载 responder。重试以继续。
+translation.oncall.reporting.respondersLoadWarning	无法刷新 responder。显示上次加载的。保存前先重试。
+translation.oncall.reporting.respondersLoading	加载 responder 中…
+translation.oncall.reporting.respondersMatchDescription	选择用哪些 responder 的数据生成报告
+translation.oncall.reporting.respondersMatchLabel	Responder 匹配
+translation.oncall.reporting.retry	重试
+translation.oncall.reporting.run.actionItemsTitle	行动项
+translation.oncall.reporting.run.copyActionItem	复制行动项：{{title}}
+translation.oncall.reporting.run.copyReport	复制报告
+translation.oncall.reporting.run.copySection	复制{{section}}
+translation.oncall.reporting.run.empty.prs	此周期内无 Devin PR。
+translation.oncall.reporting.run.firstRunScheduled	你的第一份报告将按排期生成。
+translation.oncall.reporting.run.generating	正在生成报告——几分钟后出现在这里。
+translation.oncall.reporting.run.generatingShort	生成中…
+translation.oncall.reporting.run.handoffTitle	交接
+translation.oncall.reporting.run.metricSource	仪表盘
+translation.oncall.reporting.run.metricTarget	目标 {{target}}
+translation.oncall.reporting.run.metricsTitle	指标
+translation.oncall.reporting.run.noReport	本次运行没有报告。
+translation.oncall.reporting.run.noSummary	本次运行没有摘要。
+translation.oncall.reporting.run.priorityHigh	高
+translation.oncall.reporting.run.priorityLow	低
+translation.oncall.reporting.run.priorityMedium	中
+translation.oncall.reporting.run.runsError	无法加载报告运行。
+translation.oncall.reporting.run.sessionPrompt	查看完整会话提示词
+translation.oncall.reporting.run.startSession	启动会话
+translation.oncall.reporting.run.summaryTitle	摘要
+translation.oncall.reporting.run.viewSession	查看会话
+translation.oncall.reporting.run.prsPanelFooter_pr	此周期内 Devin 从此报告的 responder 会话开出的 pull request。
+translation.oncall.reporting.run.prsPanelFooter_mr	此周期内 Devin 从此报告的 responder 会话开出的 merge request。
+translation.oncall.reporting.runAsNoServiceUsers	报告以服务用户运行。创建一个以继续。
+translation.oncall.reporting.runAsNoServiceUsersNoAccess	报告以服务用户运行。请管理员创建一个。
+translation.oncall.reporting.runPeriodLatest	{{period}}（当前）
+translation.oncall.reporting.runUnavailable	此报告运行不再可用。
+translation.oncall.reporting.viewLatestRun	查看最新报告
+translation.oncall.reporting.searchPlaceholder	搜索报告…
+translation.oncall.reporting.selectAll	全选
+translation.oncall.reporting.selectResponders	选择 responder
+translation.oncall.reporting.setUpDigest	设置周报
+translation.oncall.reporting.statsError	无法加载 on-call 统计。
+translation.oncall.reporting.viewAutomation	查看自动化
+translation.oncall.reporting.prsPanel.title_pr	Pull request
+translation.oncall.reporting.prsPanel.title_mr	Merge request
+translation.oncall.reporting.prsPanel.subtitle	{{period}} · {{merged}} 已合并 · {{open}} 开放中
+translation.oncall.reporting.prsPanel.lastDays	最近 {{days}} 天
+translation.oncall.reporting.prsPanel.merged	已合并
+translation.oncall.reporting.prsPanel.open	开放中
+translation.oncall.reporting.prsPanel.state.merged	已合并
+translation.oncall.reporting.prsPanel.state.open	开放中
+translation.oncall.reporting.prsPanel.state.draft	草稿
+translation.oncall.reporting.prsPanelFooter_pr	最近 {{days}} 天 Devin 从 responder 会话开出的 pull request。
+translation.oncall.reporting.prsPanelFooter_mr	最近 {{days}} 天 Devin 从 responder 会话开出的 merge request。
+translation.oncall.reports	报告
+translation.oncall.reportUpdated	报告更新成功
+translation.oncall.reportUpdateFailed	更新报告失败
+translation.oncall.reportUpdating	更新报告中...
+translation.oncall.responderColumn	名称
+translation.oncall.responderCreated	Responder 创建成功
+translation.oncall.responderCreateFailed	创建 responder 失败
+translation.oncall.responderCreating	创建 responder 中...
+translation.oncall.responderDeleted	Responder 删除成功
+translation.oncall.responderDeleteFailed	删除 responder 失败
+translation.oncall.responderDeleting	删除 responder 中...
+translation.oncall.responderEventCount_one	{{count}} 个事件
+translation.oncall.responderEventCount_other	{{count}} 个事件
+translation.oncall.responderIssueCount_one	{{count}} 个问题
+translation.oncall.responderIssueCount_other	{{count}} 个问题
+translation.oncall.responderIssueTypeLabel	Responder 类型
+translation.oncall.responderIssueTypeDescription	此 responder 处理的问题类别。创建后不能更改
+translation.oncall.responderIssueTypeAlerts	告警
+translation.oncall.responderIssueTypeAlertsDescription	为调查生产问题告警优化
+translation.oncall.responderModeDescription	调查的代理模式
+translation.oncall.responderIssueTypeBugs	支持 + Bug
+translation.oncall.responderIssueTypeBugsDescription	为调查 bug 报告和支持问题优化
+translation.oncall.responderIssueTypeLegacy	旧版
+translation.oncall.responderSection	Responder
+translation.oncall.responders	Responder
+translation.oncall.responderUpdated	Responder 更新成功
+translation.oncall.responderUpdateFailed	更新 responder 失败
+translation.oncall.responderUpdating	更新 responder 中...
+translation.oncall.runResponder	运行 responder
+translation.oncall.runResponderDialogDescription	立即手动运行 responder。
+translation.oncall.runbookDescription	Devin 默认调查问题。添加 runbook 给它具体步骤
+translation.oncall.runbookDescriptionBugs	Devin 默认分诊 bug 和支持问题。在此添加公司特定上下文，如你怎么定优先级或在哪个工单系统登记问题
+translation.oncall.runbookLabel	Runbook
+translation.oncall.runbookOptional	可选
+translation.oncall.runbookPlaceholderBugs	例如描述你怎么定优先级以及在哪里登记问题
+translation.oncall.save	保存
+translation.oncall.saving	保存中…
+translation.oncall.sessionTagDescription	新会话计入此标签
+translation.oncall.sessionSettingsDescription	此 responder 启动的会话如何运行
+translation.oncall.sessionSettingsLabel	会话设置
+translation.oncall.sessionTagLabel	会话标签
+translation.oncall.sessionTagPtsDescription	新会话计入此 PTS Code
+translation.oncall.sessionTagPtsRequired	选择一个 PTS Code
+translation.oncall.sessionTagRequired	选择一个会话标签
+translation.oncall.sessionTagUpdated	会话标签已更新
+translation.oncall.sessionTagUpdateFailed	更新会话标签失败
+translation.oncall.sessionTagUpdating	更新会话标签中...
+translation.oncall.setup.connectTitle	连接工具
+translation.oncall.setup.runAsMenu	运行身份
+translation.oncall.setup.telemetryGroup	可用的 MCP 服务器
+translation.oncall.setup.alreadyConnected	已连接
+translation.oncall.setup.openTool	打开 {{name}}
+translation.oncall.setup.finalizeWithTools_one	用 {{count}} 个工具完成
+translation.oncall.setup.finalizeWithTools_other	用 {{count}} 个工具完成
+translation.oncall.setup.finalizeWithoutTools	不用工具完成
+translation.oncall.setup.datadogDescription	发现指标、日志、链路和事件
+translation.oncall.setup.grafanaDescription	探索监控仪表盘、可视化和告警
+translation.oncall.setup.sentryDescription	追踪错误、问题和完整堆栈
+translation.oncall.setup.honeycombDescription	查询和探索可观测性数据与 SLO
+translation.oncall.setup.newRelicDescription	查询遥测、APM 服务、日志和告警
+translation.oncall.setup.splunkDescription	跨日志和事件运行 SPL 搜索
+translation.oncall.setup.elasticDescription	在 Elasticsearch 中搜索日志、指标和链路
+translation.oncall.setup.dynatraceDescription	用 DQL 查询日志和指标并调查问题
+translation.oncall.setup.chronosphereDescription	查询指标、日志和链路（Palo Alto Networks）
+translation.oncall.setup.googleCloudMonitoringDescription	用 PromQL 查询指标并查看告警和仪表盘
+translation.oncall.setup.connect	连接
+translation.oncall.setup.connected	已连接
+translation.oncall.setup.noPermission	你无权开始 Oncall 设置。请管理员完成设置。
+translation.oncall.setup.manageEnterprisePluginsPermission	管理企业插件
+translation.oncall.setup.managePluginsPermission	管理插件
+translation.oncall.setup.noOrgInstallPermission	你没权为此组织连接工具。请组织管理员或有 <strong>{{permission}}</strong> 权限的人连接。
+translation.oncall.setup.searchPlaceholder	搜索工具
+translation.oncall.setup.noMatches	没有工具匹配 \\
+translation.oncall.subtitle	把 Devin 带入你的告警和事件响应工作流
+translation.oncall.triggerDescription	满足以下任一条件时响应
+translation.oncall.addTriggerOtherSourceLocked	一个 responder 一次只看一个集成。改它的第一个触发器以切换集成。
+translation.oncall.triggerDuplicate	此触发器与前面某个相同
+translation.oncall.triggerLabel	触发器
+translation.oncall.schedulePreflightHint	在下方加一个预检检查，用脚本在每次运行时寻找新问题或事件。responder 分诊脚本返回的每一项。
+translation.oncall.triggerMessageLabel	消息
+translation.oncall.triggerWebhookLabel	Webhook 投递
+translation.oncall.webhookTriggerDescription	外部系统带 X-Webhook-Secret 头中的密钥 POST 到此收件箱。投递没有回复面：发现记录在 issue 和会话上，并通过 runbook 中你指定的工具报告。
+translation.oncall.overviewAlertsReported	告警与 bug 报告
+translation.oncall.overviewIssuesIdentified	已发现问题
+translation.oncall.overviewIssuesFixed	已修复问题
+translation.oncall.overviewIncidentsInvestigated	已调查事件
+translation.oncall.overviewResponderCount_one	{{count}} 个 responder
+translation.oncall.overviewResponderCount_other	{{count}} 个 responder
+translation.oncall.overviewIncidentMonitoringOn	事件监控已开
+translation.oncall.incidentMonitoringOff	事件监控已关
+translation.oncall.investigationModeLabel	调查模式
+translation.oncall.investigationModeTooltip	Responder 用单个父级或分诊会话，运行在 Normal；调查模式为 Lite 时运行在 Lite。
+translation.oncall.investigationModeInfoLabel	关于调查模式
+translation.oncall.enterpriseIncidentSettingsSaved	企业事件设置已保存
+translation.oncall.enterprisePageDescription	Devin Oncall 的企业级偏好和设置
+translation.oncall.enterpriseIncidentsSectionLabel	事件
+translation.oncall.enterpriseIncidentsSectionDescription	配置 Devin 在事件中的行为
+translation.oncall.enterpriseMultiOrgLabel	在多个组织中启用事件
+translation.oncall.enterpriseMultiOrgDescription	允许在此管理事件来源并把事件路由到多个组织
+translation.oncall.incidentSourceLabel	事件来源
+translation.oncall.incidentSourceDescription	谁告诉 Devin 新事件频道存在
+translation.oncall.incidentSourcePlaceholder	选择来源
+translation.oncall.incidentSourceTeams	Microsoft Teams
+translation.oncall.incidentChannelPrefixLabel	频道前缀
+translation.oncall.incidentTeamsPrefixDescription	在名字匹配此前缀的新标准 Teams 频道中开始调查。不支持共享和私有频道。Devin app 必须装在 Team 里。
+translation.oncall.incidentTeamsUnavailable	Teams 事件不可用。开启 oncall-teams-incidents 标志并连接 Microsoft Teams 以恢复事件监控。
+translation.oncall.incidentSourceSlack	Slack
+translation.oncall.incidentSourcePagerDuty	PagerDuty
+translation.oncall.enterpriseDestinationOrgLabel	目标 Oncall
+translation.oncall.enterpriseDestinationOrgDescription	每个事件频道在此组织或 Oncall 配置中开一个事件。
+translation.oncall.enterpriseOrgPlaceholder	选择目的地
+translation.oncall.enterpriseDestinationConfig	Oncall 配置
+translation.oncall.enterprisePagerDutyNotConnected	PagerDuty 还没连接到此账户。
+translation.oncall.enterpriseIncidentSourcePagerDutyNotConnected	PagerDuty（未连接）
+translation.oncall.enterpriseIncidentSourceTeamsNotConnected	Microsoft Teams（未连接）
+translation.oncall.enterpriseIncidentSourceSlackNotConnected	Slack（未连接）
+translation.oncall.enterpriseIncidentSourcePagerDutyNeedsSlack	PagerDuty（先连接 Slack）
+translation.oncall.enterpriseRulesLabel	路由规则
+translation.oncall.enterpriseRulesDescription	如何决定在哪个组织开始事件会话
+translation.oncall.enterpriseRuleKindLabel	匹配
+translation.oncall.enterpriseRuleValueLabel	值
+translation.oncall.enterpriseRuleKindService	服务
+translation.oncall.enterpriseRuleKindTeam	团队
+translation.oncall.enterpriseRuleKindEscalationPolicy	升级策略
+translation.oncall.enterpriseRuleOptionsLoading	加载中…
+translation.oncall.enterpriseRuleIncomplete	每条规则需要一个值和一个组织。
+translation.oncall.enterpriseAddRule	添加规则
+translation.oncall.enterpriseRemoveRule	移除规则
+translation.oncall.enterpriseUnmatchedLabel	默认回退
+translation.oncall.enterpriseUnmatchedDescription	没有规则匹配的事件怎么处理
+translation.oncall.enterpriseUnmatchedNoIncident	无（不创建事件）
+translation.oncall.incidentSourceManagedDescription	Devin 如何加入事件频道在 Enterprise settings 管理
+translation.oncall.incidentSourceManageEnterpriseSettings	管理 Enterprise Settings
+translation.oncall.incidentPagerDutyPrefixDescription	Devin 加入带此前缀的 Slack 频道或被 PagerDuty 触发时启动主动调查。必须与 PagerDuty 中设的频道名一致。
+translation.oncall.incidentPagerDutyMissingJoinScope	Devin 还无法加入 PagerDuty 的频道：Slack 连接缺少 channels:join scope。
+translation.oncall.incidentPagerDutyReconnectSlack	重新授权 Slack
+translation.oncall.enterpriseTurnOffTitle	在多个组织中关闭事件？
+translation.oncall.enterpriseTurnOffDescription	事件将在每个组织中关闭，企业事件来源、路由规则和默认回退将被重置。在组织中重新开启事件以在那里继续使用。
+translation.oncall.enterpriseTurnOffConfirm	关闭
+translation.oncall.incidentRoutingManagedByEnterprise	事件路由由企业设置管理
+translation.oncall.incidentConfigRoutedByEnterprise	企业设置把事件路由到此配置。在那里移除其路由才能关闭事件。
+translation.oncall.enterpriseOrgOncallNotSetUp	此组织还没开始 Oncall 设置。在那里开始，或选另一个组织。
+translation.oncall.enterpriseOrgOncallSetupFailed	此组织的 Oncall 设置失败。在那里重试；完成前事件不会在此运行。
+translation.oncall.enterpriseOrgOncallSetupInProgress	此组织的 Oncall 设置未完成。完成前事件不会在此运行。
+translation.orgSwitcher.allOrganizations	所有组织
+translation.orgSwitcher.collapseOrganizations	收起组织
+translation.orgSwitcher.createOrganization	创建组织
+translation.orgSwitcher.movedSubtitle	从侧栏底部管理你的组织
+translation.orgSwitcher.movedTitle	组织切换器已移动
+translation.orgSwitcher.noOrganizationsFound	未找到组织
+translation.orgSwitcher.organizationSettings	组织设置
+translation.orgSwitcher.organizations	组织
+translation.orgSwitcher.pin	固定
+translation.orgSwitcher.pinOrganization	固定组织
+translation.orgSwitcher.searchOrganizations	搜索组织
+translation.orgSwitcher.searchOrganizationsPlaceholder	搜索组织...
+translation.orgSwitcher.unpin	取消固定
+translation.orgSwitcher.unpinOrganization	取消固定组织
+translation.organizationCombobox.loadError	无法加载组织。请重试。
+translation.organizationCombobox.loadMoreError	无法加载更多。重试
+translation.organizationCombobox.loading	加载中…
+translation.organizationCombobox.noOrganizationsFound	未找到组织。
+translation.organizationCombobox.noResultsFound	未找到结果。
+translation.organizationCombobox.searchPlaceholder	搜索…
+translation.organizationCombobox.selectOrganization	选择一个组织
+translation.persona.adaPlaceholder	向 Devin 询问你的代码库...
+translation.persona.danaPlaceholder	让 Dana 分析你的数据、生成洞察或创建报告...
+translation.persona.janeWongPlaceholder	让 Jane Wong Devin 去挖一个应用的料...
+translation.persona.devinPlaceholder	让 {{name}} 构建功能、修 bug 或处理你的代码
+translation.persona.suggestedExplorations	建议的探索
+translation.persona.dataCatalogTitle	数据目录发现
+translation.persona.dataCatalogSubtitle	探索并编目你的数据库
+translation.persona.revenuePulseTitle	营收脉搏
+translation.persona.revenuePulseSubtitle	季度业绩洞察
+translation.persona.productAdoptionTitle	产品采用趋势
+translation.persona.productAdoptionSubtitle	追踪功能使用随时间变化
+translation.persona.readyToScoop	准备开扒
+translation.persona.scoopTitle	Scoop Silicon Valley
+translation.persona.scoopSubtitle	hi - @jhanikhil
+translation.playbookSelect.favorites	收藏
+translation.playbookSelect.loadingPlaybooks	加载 playbook 中...
+translation.playbookSelect.noPlaybook	无 playbook
+translation.playbookSelect.noPlaybooksFound	未找到 playbook。
+translation.playbookSelect.searchPlaybooks	搜索 playbook...
+translation.playbookSelect.selectPlaybook	选择一个 playbook
+translation.skillRefSelect.loadingSkills	加载技能中...
+translation.skillRefSelect.noSkill	无技能
+translation.skillRefSelect.skill	技能
+translation.skillRefSelect.noSkillsFound	未找到技能。
+translation.skillRefSelect.searchSkills	搜索技能...
+translation.skillRefSelect.selectSkill	选择一个技能
+translation.skillRefSelect.unavailableSkill	{{name}}（不可用）
+translation.skillRefSelect.viewPlugin	查看 {{plugin}} 插件
+translation.pricingDialog.acknowledge	知道了
+translation.pricingDialog.coreIntro	因为你之前用 <emphasis>Devin Core</emphasis>，这意味着...
+translation.pricingDialog.coreMovedToFree	你的账户已迁移到 <emphasis>Free</emphasis>
+translation.pricingDialog.coreRetired	<emphasis>Core 计划</emphasis>已停用
+translation.pricingDialog.coreUpgradePlans	你已付费的用量仍可用。要更多付费 Devin 用量，需升级到我们的新付费计划之一：<emphasis>Pro</emphasis>、<emphasis>Max</emphasis> 或 <emphasis>Teams</emphasis>。
+translation.pricingDialog.coreUpgradeTeams	你已付费的用量仍可用。要更多付费 Devin 用量，需升级到 <emphasis>Teams</emphasis>。
+translation.pricingDialog.description	我们更新了 Devin 的自助定价计划。详见<announcementLink>公告</announcementLink>。
+translation.pricingDialog.pricingDialogLabel	定价
+translation.pricingDialog.teamsDollars	用量现在以美元计价，不再是 ACU
+translation.pricingDialog.teamsIncludedUsage	每个团队现在每月含 $80 用量
+translation.pricingDialog.teamsPriceReduced	Teams 计划已从每月 <emphasis>$500</emphasis> 降到 <emphasis>$80</emphasis>
+translation.pricingDialog.title	你的计划有变化
+translation.pricingDialog.upgradeDialogLabel	升级定价
+translation.pricingDialog.viewPlans	查看计划
+translation.progress.fileReadInPlace	Devin 原地读取了此文件，没保存副本。
+translation.progress.results_one	{{count}} 个结果
+translation.progress.results_other	{{count}} 个结果
+translation.progress.findingCount_one	{{count}} 个发现
+translation.progress.findingCount_other	{{count}} 个发现
+translation.progress.vulnerability_one	漏洞
+translation.progress.vulnerability_other	漏洞
+translation.progress.bug_one	Bug
+translation.progress.bug_other	Bug
+translation.progress.flag_one	标记
+translation.progress.flag_other	标记
+translation.progress.comments_one	{{count}} 条评论
+translation.progress.comments_other	{{count}} 条评论
+translation.progress.thinkingProcessTools_one	思考过程（用了 {{count}} 个工具）
+translation.progress.thinkingProcessTools_other	思考过程（用了 {{count}} 个工具）
+translation.progress.aBit	一会儿
+translation.progress.accessedKnowledge	访问了知识
+translation.progress.accessedKnowledgeCount	访问了知识（{{count}}）
+translation.progress.activatedSkill	激活了技能
+translation.progress.approvedDeployment	批准了部署
+translation.progress.available_one	{{count}} 个可用
+translation.progress.available_other	{{count}} 个可用
+translation.progress.backgroundWork	在后台收尾
+translation.progress.botCommentIgnored	忽略了机器人评论
+translation.progress.grantSecrets_one	{{botName}} 请求使用的机密
+translation.progress.grantSecrets_other	{{botName}} 请求使用的 {{count}} 个机密
+translation.progress.grantMcp_one	{{botName}} 请求使用的 MCP 服务器
+translation.progress.grantMcp_other	{{botName}} 请求使用的 {{count}} 个 MCP 服务器
+translation.progress.grantPlugins_one	{{botName}} 请求使用的插件
+translation.progress.grantPlugins_other	{{botName}} 请求使用的 {{count}} 个插件
+translation.progress.grantAutomations_one	{{botName}} 请求读写的自动化
+translation.progress.grantAutomations_other	{{botName}} 请求读写的 {{count}} 个自动化
+translation.progress.grantSessionView_one	{{botName}} 请求查看的会话
+translation.progress.grantSessionView_other	{{botName}} 请求查看的 {{count}} 个会话
+translation.progress.grantSessionViewAndUse_one	{{botName}} 请求查看和发消息的会话
+translation.progress.grantSessionViewAndUse_other	{{botName}} 请求查看和发消息的 {{count}} 个会话
+translation.progress.called	调用了
+translation.progress.canceledCall	取消了调用
+translation.progress.ciFailed	CI 失败
+translation.progress.ciFailedCount	CI 失败（{{count}}）
+translation.progress.clicked	点击了
+translation.progress.clickedAt	点击了（{{x}}, {{y}}）
+translation.progress.clickedElement	点击了元素
+translation.progress.commentedOnPR	在 PR 上评论了
+translation.progress.boardDescriptionUpdated	看板描述已更新
+translation.progress.created	创建了
+translation.progress.createdPlan	创建了计划
+translation.progress.creating	创建中
+translation.progress.deactivatedSkill	停用了技能
+translation.progress.deleteKnowledge	删除知识
+translation.progress.deleted	删除了
+translation.progress.devinReviewFeedback	Devin Review 反馈
+translation.progress.diffNotShown	Diff 未显示
+translation.progress.dismissedSuggestions	忽略了建议
+translation.progress.doubleClicked	双击了
+translation.progress.doubleClickedAt	双击了（{{x}}, {{y}}）
+translation.progress.draggedFromTo	从（{{startX}}, {{startY}}）拖到（{{endX}}, {{endY}}）
+translation.progress.edited	编辑了
+translation.progress.editing	编辑中
+translation.progress.executed	执行了
+translation.progress.executedJavaScript	执行了 JavaScript
+translation.progress.feedbackFrom	来自 {{username}} 的反馈
+translation.progress.fetchedWebPageContent	抓取了网页内容
+translation.progress.file	文件
+translation.progress.from	来自
+translation.progress.fromMCPServer	来自 MCP 服务器
+translation.progress.gotCursorPosition	获取了光标位置
+translation.progress.heldKey	按住了键
+translation.progress.importedKnowledge	导入了知识
+translation.progress.importedKnowledgeCount	导入了知识（{{count}}）
+translation.progress.in	在
+translation.progress.injectedRule	注入了规则
+translation.progress.injectedRulesCount	注入了规则（{{count}}）
+translation.progress.invokedSkill	调用了技能
+translation.progress.keepingRepoUpToDate	保持 {{repo}} 最新
+translation.progress.keepingReposUpToDate	保持仓库最新
+translation.progress.knowledgeRetrievalReason.backgroundAgent	后台代理
+translation.progress.knowledgeRetrievalReason.macro	宏
+translation.progress.knowledgeRetrievalReason.mentioned	被提及
+translation.progress.knowledgeRetrievalReason.pinnedAll	固定（全部）
+translation.progress.knowledgeRetrievalReason.pinnedRepo	固定（仓库）
+translation.progress.knowledgeRetrievalReason.relevance	相关性
+translation.progress.knowledgeRetrievalReasonTooltip.assistantMention	该笔记的仓库名出现在 Devin 的消息中。
+translation.progress.knowledgeRetrievalReasonTooltip.backgroundAgent	Devin 工作时自己查到了此笔记。
+translation.progress.knowledgeRetrievalReasonTooltip.macro	此笔记被 !macro-name 命令手动调用。
+translation.progress.knowledgeRetrievalReasonTooltip.pinnedAll	此笔记固定到此组织的每个会话。
+translation.progress.knowledgeRetrievalReasonTooltip.pinnedRepo	此笔记固定到此会话的仓库。
+translation.progress.knowledgeRetrievalReasonTooltip.pinnedRepoWithName	此笔记固定到 {{repoName}} 仓库。
+translation.progress.knowledgeRetrievalReasonTooltip.promptMention	该笔记的仓库名出现在用户的提示词中。
+translation.progress.knowledgeRetrievalReasonTooltip.relevance	知识搜索认为此笔记与任务相关。
+translation.progress.listedKnowledgeSuggestions	列出了知识建议
+translation.progress.listedMCPServers	列出了可用的 MCP 服务器
+translation.progress.listedSkills	列出了技能
+translation.progress.listedToolsFor	列出了工具：
+translation.progress.listedToolsOnMCP	列出了 MCP 服务器上的工具
+translation.progress.loadedExtensions	已加载扩展：
+translation.progress.mcpAuthFailed	MCP 认证失败：
+translation.progress.mcpAuthSuccess	MCP 认证成功：
+translation.progress.mergeConflictOn	合并冲突：
+translation.progress.middleClicked	中键点击了
+translation.progress.middleClickedAt	中键点击了（{{x}}, {{y}}）
+translation.progress.mouseDown	鼠标按下
+translation.progress.mouseUp	鼠标抬起
+translation.progress.movedMouseTo	移动鼠标到（{{x}}, {{y}}）
+translation.progress.movedTheMouse	移动了鼠标
+translation.progress.navigatedTo	导航到
+translation.progress.noChanges	无更改
+translation.progress.on	在
+translation.progress.onMCPServer	在 MCP 服务器上
+translation.progress.opened	打开了
+translation.progress.openedPreview	打开了预览
+translation.progress.pageCount	{{count}} 页
+translation.progress.pageCount_other	{{count}} 页
+translation.progress.permissionRequestFor	权限请求：
+translation.progress.prFeedback	PR 反馈
+translation.progress.prReviewApproved	批准了此 PR
+translation.progress.prReviewChangesRequested	请求了更改
+translation.progress.prMerged	PR #{{number}} 已合并：{{title}}
+translation.progress.prMergedWithoutTitle	PR #{{number}} 已合并
+translation.progress.pressedKey	按了键
+translation.progress.pressedKeyAction	按了 {{key}}
+translation.progress.pullingLatest	拉取最新
+translation.progress.pullingLatestFor	拉取 {{repo}} 最新
+translation.progress.ranCommandIn	在其中运行了命令：
+translation.progress.ranHook	运行了 hook
+translation.progress.ranJavaScript	运行了 JavaScript
+translation.progress.ranScriptedTools	运行了脚本工具
+translation.progress.read	读取了
+translation.progress.readPageDom	读取了页面 DOM
+translation.progress.readResource	读取了资源
+translation.progress.reading	读取中
+translation.progress.reloadedSkills	重载了技能（{{summary}}）
+translation.progress.renamed	重命名了
+translation.progress.restartedBrowser	重启了浏览器
+translation.progress.retrievedPlaybook	取回了 playbook
+translation.progress.rewrotePlan	重写了计划
+translation.progress.rightClicked	右键点击了
+translation.progress.rightClickedAt	右键点击了（{{x}}, {{y}}）
+translation.progress.runningMaintenance	运行维护
+translation.progress.runningMaintenanceFor	为 {{repo}} 运行维护
+translation.progress.scannedFiles_one	扫描了 {{count}} 个文件
+translation.progress.scannedFiles_other	扫描了 {{count}} 个文件
+translation.progress.scrolled	{{direction}}滚动
+translation.progress.scrolledBy	{{direction}}滚动 {{amount}}
+translation.progress.scrolledDown	向下滚动
+translation.progress.scrolledUp	向上滚动
+translation.progress.searchedForSkills	搜索了技能
+translation.progress.searchedWebFor	搜索了网页：
+translation.progress.searching	搜索中
+translation.progress.selectedFile	选择了文件 {{file}}
+translation.progress.selectedOption	选择了选项 {{option}}
+translation.progress.sharedFileUpdated	{{name}} 已更新
+translation.progress.workflowNotesUpdated	工作流笔记已更新
+translation.progress.phaseNotesUpdated	工作流阶段笔记已更新
+translation.progress.sharedFileUrgent	紧急
+translation.progress.slackAction	Slack {{action}}
+translation.progress.slackDownloadedFile	下载了文件
+translation.progress.slackListedUsers	列出了用户
+translation.progress.slackManagedReaction	管理了表情反应
+translation.progress.slackPostedMessage	发布了消息
+translation.progress.slackReadChannelHistory	读取了频道历史
+translation.progress.slackReadThreadReplies	读取了线程回复
+translation.progress.slackReadUserProfile	读取了用户资料
+translation.progress.startedRecording	开始了录制
+translation.progress.stoppedRecording	停止了录制
+translation.progress.suggestedKnowledge	建议了知识
+translation.progress.suggestedNewPlaybook	建议了新 playbook
+translation.progress.suggestedToUpdatePlaybook	建议更新 playbook
+translation.progress.thinkingFor	思考了 <duration></duration>
+translation.progress.thinkingForABit	思考了一会儿
+translation.progress.switchedToBranch	切换到了分支
+translation.progress.tookScreenshot	截了图
+translation.progress.tookScreenshotOf	截图了
+translation.progress.tripleClicked	三击了
+translation.progress.tripleClickedAt	三击了（{{x}}, {{y}}）
+translation.progress.typed	输入了
+translation.progress.typedText	输入了文本
+translation.progress.updatedPR	更新了 PR
+translation.progress.usedComputer	使用了电脑
+translation.progress.usedComputerAction	使用了电脑 - {{action}}
+translation.progress.usedSessionIntrospection	使用了会话自省工具
+translation.progress.viewChanges	查看此步骤的更改
+translation.progress.viewedBrowserConsole	查看了浏览器控制台
+translation.progress.viewedCIJobLogs	查看了 CI 任务日志：
+translation.progress.viewedCIStatus	查看了 CI 状态：
+translation.progress.viewedKnowledgeSuggestion	查看了知识建议
+translation.progress.viewedPage	查看了页面
